@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 941
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 615
+[ Handoff Success Files ](#handoff-success-list)| 611
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 326
+[ Ignored Files ](#ignored-list)| 330
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -144,12 +144,8 @@
  [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md) | HandedOffSuccess | [Details](#885686b1306c5cb98706e7590c8a0c49eeb3aa63130)
  [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md) | HandedOffSuccess | [Details](#9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66131)
  [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-test.md) | HandedOffSuccess | [Details](#1ed4e4a5a92a4ddec8f3ad2c956e5812aed7b389132)
- [InTuneDocs\GetStarted\Intune-Exchange-connector-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-Exchange-connector-requirements.md) | HandedOffSuccess | [Details](#aae818487ba0313a75cecc37deadffba59fe45e6134)
- [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md) | HandedOffSuccess | [Details](#2790cb3de2bd625462dad30fa4eae85e75a0679e135)
- [InTuneDocs\GetStarted\Intune-service-to-service-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-service-to-service-Exchange-connector.md) | HandedOffSuccess | [Details](#d1ca619ae7e4ffcb79dbd97bfab5bab40005b92a136)
  [InTuneDocs\GetStarted\media\150x150.png](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f71137)
  [InTuneDocs\GetStarted\media\ExchangeConnector.gif](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/ExchangeConnector.gif) | HandedOffSuccess | [Details](#1cfe860fc52a522303a284b97130acb358004630138)
- [InTuneDocs\GetStarted\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md) | HandedOffSuccess | [Details](#a9551e25443e3b0b2cfc502c30e4415ecb95e619145)
  [InTuneDocs\GetStarted\mobile-device-management-with-exchange-activesync-and-microsoft-intune.old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/mobile-device-management-with-exchange-activesync-and-microsoft-intune.old.md) | HandedOffSuccess | [Details](#cd260c040bad5671af23567d0ed4b0ec26f25092146)
  [InTuneDocs\GetStarted\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc9653147)
  [InTuneDocs\GetStarted\set-mobile-device-management-authority-and-configure-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/set-mobile-device-management-authority-and-configure-microsoft-intune.md) | HandedOffSuccess | [Details](#a4ade235bc6b33aa6ffa7f2a429239100ecdcbb9148)
@@ -655,12 +651,16 @@
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#33ebff3852aa99041204999353139c79c167fd6252)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2100)
  [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/docfx.json) | Ignored | [Details](#36985abff42d1ead0d75caa97ce8d9d2895a31d8118)
+ [InTuneDocs\GetStarted\Intune-Exchange-connector-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-Exchange-connector-requirements.md) | Ignored | [Details](#6210dba0b8817e3cf9c90fd8a893a2c984e3b892134)
+ [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md) | Ignored | [Details](#8fdc9c99e18bc1afa4ec8267307e86ed7fa17635135)
+ [InTuneDocs\GetStarted\Intune-service-to-service-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-service-to-service-Exchange-connector.md) | Ignored | [Details](#657ab98d98e1970f467916bfe9d90c6441ff82d3136)
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb139)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6140)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca141)
  [InTuneDocs\GetStarted\media\IntuneSA1dconfigureExchConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/IntuneSA1dconfigureExchConnector.png) | Ignored | [Details](#8769ee216a7fe5b94d9f4f6dc505d2d4230e5551142)
  [InTuneDocs\GetStarted\media\IntuneSA2aServiceToServiceConnectorVerification.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/IntuneSA2aServiceToServiceConnectorVerification.PNG) | Ignored | [Details](#49a4a37a238a6c582abf2093daf4aa1cea210509143)
  [InTuneDocs\GetStarted\media\IntuneSA5cServiceToServiceConnector.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/media/IntuneSA5cServiceToServiceConnector.PNG) | Ignored | [Details](#682991f322fac0c2001ce4fcaeabecf4c5b79bcb144)
+ [InTuneDocs\GetStarted\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md) | Ignored | [Details](#4db2400abf3c87366aba4a6a298accc81929352a145)
  [InTuneDocs\index.html](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/index.html) | Ignored | [Details](#2b4fdf4ceb5b264a2020830b1a396a405f3876e3281)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | Ignored | [Details](#64f06d45481657e65ee924d286623dc83a514f40316)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-12-link-set-mdm.png](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png) | Ignored | [Details](#73ef645cbc717eb389266a0e21f6ac7bdb749a6f317)
@@ -2584,36 +2584,36 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='aae818487ba0313a75cecc37deadffba59fe45e6134'></a> Source: [InTuneDocs\GetStarted\Intune-Exchange-connector-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-Exchange-connector-requirements.md)
-* Status: HandedOffSuccess
+##### <a name='6210dba0b8817e3cf9c90fd8a893a2c984e3b892134'></a> Source: [InTuneDocs\GetStarted\Intune-Exchange-connector-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-Exchange-connector-requirements.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [Intune-Exchange-connector-requirements.8cb4bd7ec9f1cb74638527df5d0ca33124b9b059.ru-ru.xlf](https://github.com/Microsoft/InTune.handoff/blob/2f263becafe1165824b9cf366f80252dd309ca2a/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Intune-Exchange-connector-requirements.8cb4bd7ec9f1cb74638527df5d0ca33124b9b059.ru-ru.xlf)
-* Handoff Datetime: 2016-02-26 09:49:15
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2790cb3de2bd625462dad30fa4eae85e75a0679e135'></a> Source: [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md)
-* Status: HandedOffSuccess
+##### <a name='8fdc9c99e18bc1afa4ec8267307e86ed7fa17635135'></a> Source: [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [Intune-on-premises-Exchange-connector.429356ce3391ec63cd10ccf2cad0a82e9b30e913.ru-ru.xlf](https://github.com/Microsoft/InTune.handoff/blob/8460ffe8cf7374cf2f9e134e72babf3a324ad1ce/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Intune-on-premises-Exchange-connector.429356ce3391ec63cd10ccf2cad0a82e9b30e913.ru-ru.xlf)
-* Handoff Datetime: 2016-02-26 19:20:30
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='d1ca619ae7e4ffcb79dbd97bfab5bab40005b92a136'></a> Source: [InTuneDocs\GetStarted\Intune-service-to-service-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-service-to-service-Exchange-connector.md)
-* Status: HandedOffSuccess
+##### <a name='657ab98d98e1970f467916bfe9d90c6441ff82d3136'></a> Source: [InTuneDocs\GetStarted\Intune-service-to-service-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/Intune-service-to-service-Exchange-connector.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [Intune-service-to-service-Exchange-connector.c27ae9514459ea881cc086d64d48c016ee439639.ru-ru.xlf](https://github.com/Microsoft/InTune.handoff/blob/2f263becafe1165824b9cf366f80252dd309ca2a/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Intune-service-to-service-Exchange-connector.c27ae9514459ea881cc086d64d48c016ee439639.ru-ru.xlf)
-* Handoff Datetime: 2016-02-26 09:49:15
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -2718,12 +2718,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a9551e25443e3b0b2cfc502c30e4415ecb95e619145'></a> Source: [InTuneDocs\GetStarted\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='4db2400abf3c87366aba4a6a298accc81929352a145'></a> Source: [InTuneDocs\GetStarted\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bfc67269112aa814ddd930724db81664a383334f/InTuneDocs/GetStarted/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [mobile-device-management-with-exchange-activesync-and-microsoft-intune.b78cef4111e0a7ea90bff2278cf41a22c5a7c27f.ru-ru.xlf](https://github.com/Microsoft/InTune.handoff/blob/2f263becafe1165824b9cf366f80252dd309ca2a/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-management-with-exchange-activesync-and-microsoft-intune.b78cef4111e0a7ea90bff2278cf41a22c5a7c27f.ru-ru.xlf)
-* Handoff Datetime: 2016-02-26 09:49:15
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
