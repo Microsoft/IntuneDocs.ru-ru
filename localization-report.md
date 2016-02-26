@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 941
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 615
+[ Handoff Success Files ](#handoff-success-list)| 614
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 326
+[ Ignored Files ](#ignored-list)| 327
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -145,7 +145,6 @@
  [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md) | HandedOffSuccess | [Details](#9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66131)
  [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-test.md) | HandedOffSuccess | [Details](#1ed4e4a5a92a4ddec8f3ad2c956e5812aed7b389132)
  [InTuneDocs\GetStarted\Intune-Exchange-connector-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-Exchange-connector-requirements.md) | HandedOffSuccess | [Details](#aae818487ba0313a75cecc37deadffba59fe45e6134)
- [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md) | HandedOffSuccess | [Details](#c6aedca8c971420233e6fbea8a392e36bb53b3fc135)
  [InTuneDocs\GetStarted\Intune-service-to-service-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-service-to-service-Exchange-connector.md) | HandedOffSuccess | [Details](#d1ca619ae7e4ffcb79dbd97bfab5bab40005b92a136)
  [InTuneDocs\GetStarted\media\150x150.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f71137)
  [InTuneDocs\GetStarted\media\ExchangeConnector.gif](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/media/ExchangeConnector.gif) | HandedOffSuccess | [Details](#1cfe860fc52a522303a284b97130acb358004630138)
@@ -655,6 +654,7 @@
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#33ebff3852aa99041204999353139c79c167fd6252)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2100)
  [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/docfx.json) | Ignored | [Details](#36985abff42d1ead0d75caa97ce8d9d2895a31d8118)
+ [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md) | Ignored | [Details](#2790cb3de2bd625462dad30fa4eae85e75a0679e135)
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb139)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6140)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca141)
@@ -2596,12 +2596,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='c6aedca8c971420233e6fbea8a392e36bb53b3fc135'></a> Source: [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md)
-* Status: HandedOffSuccess
+##### <a name='2790cb3de2bd625462dad30fa4eae85e75a0679e135'></a> Source: [InTuneDocs\GetStarted\Intune-on-premises-Exchange-connector.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d878d7e630761d1ce42b520107fd4093ea3bd106/InTuneDocs/GetStarted/Intune-on-premises-Exchange-connector.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [Intune-on-premises-Exchange-connector.429356ce3391ec63cd10ccf2cad0a82e9b30e913.ru-ru.xlf](https://github.com/Microsoft/InTune.handoff/blob/2f263becafe1165824b9cf366f80252dd309ca2a/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Intune-on-premises-Exchange-connector.429356ce3391ec63cd10ccf2cad0a82e9b30e913.ru-ru.xlf)
-* Handoff Datetime: 2016-02-26 09:49:15
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
