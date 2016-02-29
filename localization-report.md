@@ -662,7 +662,7 @@
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb139)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6140)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca141)
- [InTuneDocs\index.html](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/index.html) | Ignored | [Details](#2b4fdf4ceb5b264a2020830b1a396a405f3876e3281)
+ [InTuneDocs\index.html](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/index.html) | Ignored | [Details](#6cb700c9bc874fcfcc0d4f15dc2dc0ec1b9836d4281)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | Ignored | [Details](#64f06d45481657e65ee924d286623dc83a514f40316)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-12-link-set-mdm.png](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png) | Ignored | [Details](#73ef645cbc717eb389266a0e21f6ac7bdb749a6f317)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-13-enbl-ios-plat.png](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-13-enbl-ios-plat.png) | Ignored | [Details](#b3a60bde0102f405e115743da44fe7b71c503d07318)
@@ -4354,7 +4354,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2b4fdf4ceb5b264a2020830b1a396a405f3876e3281'></a> Source: [InTuneDocs\index.html](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/index.html)
+##### <a name='6cb700c9bc874fcfcc0d4f15dc2dc0ec1b9836d4281'></a> Source: [InTuneDocs\index.html](https://github.com/Microsoft/IntuneDocs-pr/blob/67b0f451bc2b3c781ecc69ac137ff2c2130bd61b/InTuneDocs/index.html)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
