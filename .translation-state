@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+  "LastProcessedCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -2250,7 +2250,7 @@
     },
     "84421bf7f4ba657e685239fb27f4798a46485f71": {
       "FileHash": "84421bf7f4ba657e685239fb27f4798a46485f71",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\DeployUse\\media\\150x150.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2268,8 +2268,8 @@
         "InTuneDocs\\Understand\\media\\150x150.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\84421bf7f4ba657e685239fb27f4798a46485f71.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2557,7 +2557,7 @@
     },
     "311728cd46b0b8e2f6b2b181a884a04aef4a1441": {
       "FileHash": "311728cd46b0b8e2f6b2b181a884a04aef4a1441",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileDocCenter.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2567,8 +2567,8 @@
         "InTuneDocs\\media\\WIT_TileDocCenter.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\311728cd46b0b8e2f6b2b181a884a04aef4a1441.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2586,7 +2586,7 @@
     },
     "d093ce9f2159b1efc73ef70959326af37fdfbc02": {
       "FileHash": "d093ce9f2159b1efc73ef70959326af37fdfbc02",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileOverview.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2596,8 +2596,8 @@
         "InTuneDocs\\media\\WIT_TileOverview.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d093ce9f2159b1efc73ef70959326af37fdfbc02.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2615,7 +2615,7 @@
     },
     "f78b46e495829f004a75d098b0be060d3172b145": {
       "FileHash": "f78b46e495829f004a75d098b0be060d3172b145",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileGettingStarted.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2625,8 +2625,8 @@
         "InTuneDocs\\media\\WIT_TileGettingStarted.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f78b46e495829f004a75d098b0be060d3172b145.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2644,7 +2644,7 @@
     },
     "979e5e9e66743a42cd133c5e54e3af55c8f77877": {
       "FileHash": "979e5e9e66743a42cd133c5e54e3af55c8f77877",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileEnrollDevices.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2654,8 +2654,8 @@
         "InTuneDocs\\media\\WIT_TileEnrollDevices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\979e5e9e66743a42cd133c5e54e3af55c8f77877.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2673,7 +2673,7 @@
     },
     "bf28cee2d41265fac602d856ae7b3a5e2d8677d0": {
       "FileHash": "bf28cee2d41265fac602d856ae7b3a5e2d8677d0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileManageDevices.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2683,8 +2683,8 @@
         "InTuneDocs\\media\\WIT_TileManageDevices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bf28cee2d41265fac602d856ae7b3a5e2d8677d0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2702,7 +2702,7 @@
     },
     "df664f3fe21531f365bef2d2c5602c37d2284e06": {
       "FileHash": "df664f3fe21531f365bef2d2c5602c37d2284e06",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileManageApps.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2712,8 +2712,8 @@
         "InTuneDocs\\media\\WIT_TileManageApps.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\df664f3fe21531f365bef2d2c5602c37d2284e06.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2731,7 +2731,7 @@
     },
     "d5ba29ed7f25de0e045ff65e9917c010861d4c48": {
       "FileHash": "d5ba29ed7f25de0e045ff65e9917c010861d4c48",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileProtectResources.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2741,8 +2741,8 @@
         "InTuneDocs\\media\\WIT_TileProtectResources.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d5ba29ed7f25de0e045ff65e9917c010861d4c48.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2760,7 +2760,7 @@
     },
     "7f602ed1a0af738db2e0ad1b89825b6e1b79b4a8": {
       "FileHash": "7f602ed1a0af738db2e0ad1b89825b6e1b79b4a8",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_TileRetireDevices.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2770,8 +2770,8 @@
         "InTuneDocs\\media\\WIT_TileRetireDevices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7f602ed1a0af738db2e0ad1b89825b6e1b79b4a8.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2789,7 +2789,7 @@
     },
     "188d183405250461b3d2b85aea005e7949f70a70": {
       "FileHash": "188d183405250461b3d2b85aea005e7949f70a70",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Tile_TechReference.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2799,8 +2799,8 @@
         "InTuneDocs\\media\\WIT_Tile_TechReference.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\188d183405250461b3d2b85aea005e7949f70a70.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2818,7 +2818,7 @@
     },
     "4ccb134041415fc90c36e7cee94a29d591fc394c": {
       "FileHash": "4ccb134041415fc90c36e7cee94a29d591fc394c",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycle4.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2828,8 +2828,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycle4.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\4ccb134041415fc90c36e7cee94a29d591fc394c.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2874,7 +2874,7 @@
     },
     "a3e98392c96ec0e2e39a02dcc422da7d52ad7b2d": {
       "FileHash": "a3e98392c96ec0e2e39a02dcc422da7d52ad7b2d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_MDM_Banner.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2884,8 +2884,8 @@
         "InTuneDocs\\media\\WIT_MDM_Banner.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a3e98392c96ec0e2e39a02dcc422da7d52ad7b2d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2903,7 +2903,7 @@
     },
     "f6284d5579bde38a659e0953e828a469485604d3": {
       "FileHash": "f6284d5579bde38a659e0953e828a469485604d3",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2913,8 +2913,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column1.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f6284d5579bde38a659e0953e828a469485604d3.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2932,7 +2932,7 @@
     },
     "ac157ffef4c3539f65def06d0bbfa24211fd2960": {
       "FileHash": "ac157ffef4c3539f65def06d0bbfa24211fd2960",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2942,8 +2942,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ac157ffef4c3539f65def06d0bbfa24211fd2960.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2961,7 +2961,7 @@
     },
     "ca37f2b462844c29da36e325a10cc41073f95f24": {
       "FileHash": "ca37f2b462844c29da36e325a10cc41073f95f24",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column3.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -2971,8 +2971,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column3.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ca37f2b462844c29da36e325a10cc41073f95f24.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -2990,7 +2990,7 @@
     },
     "37ee0c35feed5dc85d0a1cabf45b701894760825": {
       "FileHash": "37ee0c35feed5dc85d0a1cabf45b701894760825",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column4.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3000,8 +3000,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column4.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\37ee0c35feed5dc85d0a1cabf45b701894760825.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3019,7 +3019,7 @@
     },
     "607ac33f7b7bd01da3907ae9ca6ff1420c301d71": {
       "FileHash": "607ac33f7b7bd01da3907ae9ca6ff1420c301d71",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3029,8 +3029,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column1.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\607ac33f7b7bd01da3907ae9ca6ff1420c301d71.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3048,7 +3048,7 @@
     },
     "8641a7d4b5d416c6bae5095d88092cb93af9514d": {
       "FileHash": "8641a7d4b5d416c6bae5095d88092cb93af9514d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3058,8 +3058,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8641a7d4b5d416c6bae5095d88092cb93af9514d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3077,7 +3077,7 @@
     },
     "13c022c7ab365dec5e669a2b062c830ecd979692": {
       "FileHash": "13c022c7ab365dec5e669a2b062c830ecd979692",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column3.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3087,8 +3087,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column3.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\13c022c7ab365dec5e669a2b062c830ecd979692.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3106,7 +3106,7 @@
     },
     "359edf8bb6d4c5752ea044935fd84c5fecb1ae87": {
       "FileHash": "359edf8bb6d4c5752ea044935fd84c5fecb1ae87",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column4.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3116,8 +3116,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column4.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\359edf8bb6d4c5752ea044935fd84c5fecb1ae87.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3162,7 +3162,7 @@
     },
     "f7dc5695e37816cae1d9f0a0523174e2e08245ca": {
       "FileHash": "f7dc5695e37816cae1d9f0a0523174e2e08245ca",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycleFull2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3172,8 +3172,8 @@
         "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycleFull2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f7dc5695e37816cae1d9f0a0523174e2e08245ca.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3299,7 +3299,7 @@
     },
     "bc448048fe6681f2bc484ca733199f8a8c55abb0": {
       "FileHash": "bc448048fe6681f2bc484ca733199f8a8c55abb0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_quarantineEmail.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3309,8 +3309,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_quarantineEmail.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bc448048fe6681f2bc484ca733199f8a8c55abb0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3328,7 +3328,7 @@
     },
     "761e7a6954ed910c085e4020286f9fbfbde37493": {
       "FileHash": "761e7a6954ed910c085e4020286f9fbfbde37493",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_1_companyAccessSetup.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3338,8 +3338,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_1_companyAccessSetup.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\761e7a6954ed910c085e4020286f9fbfbde37493.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3357,7 +3357,7 @@
     },
     "a0b3c635172d44c77c9114a6b4c529a696e9379d": {
       "FileHash": "a0b3c635172d44c77c9114a6b4c529a696e9379d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_3_enrollDevice.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3367,8 +3367,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_3_enrollDevice.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a0b3c635172d44c77c9114a6b4c529a696e9379d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3386,7 +3386,7 @@
     },
     "40eeeb0e98622055aaa13e8addd620625c2ebce9": {
       "FileHash": "40eeeb0e98622055aaa13e8addd620625c2ebce9",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_4_workplaceJoin1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3396,8 +3396,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_4_workplaceJoin1.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\40eeeb0e98622055aaa13e8addd620625c2ebce9.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3415,7 +3415,7 @@
     },
     "377acb93e0b4aaf1b0d37521f733588d58ff64cf": {
       "FileHash": "377acb93e0b4aaf1b0d37521f733588d58ff64cf",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_5_workplaceJoin2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3425,8 +3425,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_5_workplaceJoin2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\377acb93e0b4aaf1b0d37521f733588d58ff64cf.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3444,7 +3444,7 @@
     },
     "347f36903c2ca384caf4182d4b366d38687f1103": {
       "FileHash": "347f36903c2ca384caf4182d4b366d38687f1103",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_6_checkingEnrollment.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3454,8 +3454,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_6_checkingEnrollment.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\347f36903c2ca384caf4182d4b366d38687f1103.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3473,7 +3473,7 @@
     },
     "46a481c3f43f7f323c540d837e62c6f888b35a9a": {
       "FileHash": "46a481c3f43f7f323c540d837e62c6f888b35a9a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_7_confirmDevice.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3483,8 +3483,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_7_confirmDevice.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\46a481c3f43f7f323c540d837e62c6f888b35a9a.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3502,7 +3502,7 @@
     },
     "bd4a5190f12d1beecccfa2816565c4d3f884ae47": {
       "FileHash": "bd4a5190f12d1beecccfa2816565c4d3f884ae47",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_9_checkingCompliance.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3512,8 +3512,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_9_checkingCompliance.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bd4a5190f12d1beecccfa2816565c4d3f884ae47.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3531,7 +3531,7 @@
     },
     "e93433442f2c2087d786b65636feaae7d4393dd0": {
       "FileHash": "e93433442f2c2087d786b65636feaae7d4393dd0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_13_resolveCompliance.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3541,8 +3541,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_13_resolveCompliance.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e93433442f2c2087d786b65636feaae7d4393dd0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3560,7 +3560,7 @@
     },
     "5e5a32e2b77ebff3d0a230c3003fbb19597ed1d5": {
       "FileHash": "5e5a32e2b77ebff3d0a230c3003fbb19597ed1d5",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_10_activatingEnrollment.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3570,8 +3570,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_10_activatingEnrollment.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\5e5a32e2b77ebff3d0a230c3003fbb19597ed1d5.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3589,7 +3589,7 @@
     },
     "4438a2285d0a566feab7ea6c1b1515c09e7d9a6d": {
       "FileHash": "4438a2285d0a566feab7ea6c1b1515c09e7d9a6d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_11_COMPLETE.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3599,8 +3599,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_11_COMPLETE.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\4438a2285d0a566feab7ea6c1b1515c09e7d9a6d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3618,7 +3618,7 @@
     },
     "3e26018a2a69b87f1b9801d86d08c84533f25190": {
       "FileHash": "3e26018a2a69b87f1b9801d86d08c84533f25190",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Windows_14_OutOfCompliance.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3628,8 +3628,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_14_OutOfCompliance.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3e26018a2a69b87f1b9801d86d08c84533f25190.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3647,7 +3647,7 @@
     },
     "04db2ed2f8e45f7876a299f47dd2d9ea5c8939bc": {
       "FileHash": "04db2ed2f8e45f7876a299f47dd2d9ea5c8939bc",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_GetStarted.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3657,8 +3657,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_GetStarted.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\04db2ed2f8e45f7876a299f47dd2d9ea5c8939bc.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3676,7 +3676,7 @@
     },
     "28626b232e24eaa39af284a023205a1423f6090d": {
       "FileHash": "28626b232e24eaa39af284a023205a1423f6090d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_intuneCompanyPortal.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3686,8 +3686,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_intuneCompanyPortal.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\28626b232e24eaa39af284a023205a1423f6090d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3705,7 +3705,7 @@
     },
     "ab02023366504ef8a9a710222065b975f1419a34": {
       "FileHash": "ab02023366504ef8a9a710222065b975f1419a34",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_companyAccessSetup.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3715,8 +3715,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_companyAccessSetup.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ab02023366504ef8a9a710222065b975f1419a34.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3734,7 +3734,7 @@
     },
     "e72506bd7fa4d1095dc8ef3a1c0a3770489218db": {
       "FileHash": "e72506bd7fa4d1095dc8ef3a1c0a3770489218db",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceEnrollment.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3744,8 +3744,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceEnrollment.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e72506bd7fa4d1095dc8ef3a1c0a3770489218db.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3763,7 +3763,7 @@
     },
     "8ff856610479e9971341176175663d4703d70815": {
       "FileHash": "8ff856610479e9971341176175663d4703d70815",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceComplianceCheck.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3773,8 +3773,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceComplianceCheck.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8ff856610479e9971341176175663d4703d70815.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3792,7 +3792,7 @@
     },
     "b38a1674ba07c788118b742050e6311c55a6b005": {
       "FileHash": "b38a1674ba07c788118b742050e6311c55a6b005",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_checkCompliance.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3802,8 +3802,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_checkCompliance.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b38a1674ba07c788118b742050e6311c55a6b005.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3821,7 +3821,7 @@
     },
     "ac2e71ff4b84f7c86225477d9c83f873d51f4902": {
       "FileHash": "ac2e71ff4b84f7c86225477d9c83f873d51f4902",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_complianceCheckCompleted.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3831,8 +3831,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_complianceCheckCompleted.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ac2e71ff4b84f7c86225477d9c83f873d51f4902.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3850,7 +3850,7 @@
     },
     "107831d0600d893670276d0247ba90a489e966fe": {
       "FileHash": "107831d0600d893670276d0247ba90a489e966fe",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_iOS_fallOutCompliance.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3860,8 +3860,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_fallOutCompliance.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\107831d0600d893670276d0247ba90a489e966fe.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3879,7 +3879,7 @@
     },
     "c2744ba367b9929d0eed8b0deae75d97a0aa470d": {
       "FileHash": "c2744ba367b9929d0eed8b0deae75d97a0aa470d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_quarantineEmail.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3889,8 +3889,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_quarantineEmail.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\c2744ba367b9929d0eed8b0deae75d97a0aa470d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3908,7 +3908,7 @@
     },
     "abd04f5c3b5d6b95206c3b9e2d78d4dce517fa6d": {
       "FileHash": "abd04f5c3b5d6b95206c3b9e2d78d4dce517fa6d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_AndroidPortal.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3918,8 +3918,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_AndroidPortal.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\abd04f5c3b5d6b95206c3b9e2d78d4dce517fa6d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3937,7 +3937,7 @@
     },
     "4141c810edbf342add7c73227f29dd3b4d802673": {
       "FileHash": "4141c810edbf342add7c73227f29dd3b4d802673",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_companyAccessSetup.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3947,8 +3947,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_companyAccessSetup.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\4141c810edbf342add7c73227f29dd3b4d802673.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3966,7 +3966,7 @@
     },
     "38178f98dd79cc09555ed4f193b91b5bc8cc412d": {
       "FileHash": "38178f98dd79cc09555ed4f193b91b5bc8cc412d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_deviceEnroll.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -3976,8 +3976,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_deviceEnroll.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\38178f98dd79cc09555ed4f193b91b5bc8cc412d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -3995,7 +3995,7 @@
     },
     "83827620f471ee512b8b4056b3c06deb5aba666d": {
       "FileHash": "83827620f471ee512b8b4056b3c06deb5aba666d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_activateDeviceAdmin.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4005,8 +4005,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_activateDeviceAdmin.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\83827620f471ee512b8b4056b3c06deb5aba666d.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -4024,7 +4024,7 @@
     },
     "13e8aa977383c8046f57db285aedd0b560f447da": {
       "FileHash": "13e8aa977383c8046f57db285aedd0b560f447da",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollingDevice.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4034,8 +4034,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollingDevice.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\13e8aa977383c8046f57db285aedd0b560f447da.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -4053,7 +4053,7 @@
     },
     "3b43530a1dd1ea5f9bec41982170745c077672ce": {
       "FileHash": "3b43530a1dd1ea5f9bec41982170745c077672ce",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollSuccess.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4063,8 +4063,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollSuccess.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3b43530a1dd1ea5f9bec41982170745c077672ce.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -4082,7 +4082,7 @@
     },
     "2a37a18a6270d1ef5b73a3d12a91d0b81216f423": {
       "FileHash": "2a37a18a6270d1ef5b73a3d12a91d0b81216f423",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_resolveComplianceIssues.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4092,8 +4092,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_resolveComplianceIssues.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2a37a18a6270d1ef5b73a3d12a91d0b81216f423.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -4111,7 +4111,7 @@
     },
     "9819b66c89c082253891382f399306e0292e4d22": {
       "FileHash": "9819b66c89c082253891382f399306e0292e4d22",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_complianceSuccessful.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4121,8 +4121,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_complianceSuccessful.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\9819b66c89c082253891382f399306e0292e4d22.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -4140,7 +4140,7 @@
     },
     "7228339d2ad00502eb81544405759794c5c120e2": {
       "FileHash": "7228339d2ad00502eb81544405759794c5c120e2",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_allSuccessful2.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4150,8 +4150,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_allSuccessful2.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7228339d2ad00502eb81544405759794c5c120e2.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -4169,7 +4169,7 @@
     },
     "00fcb98bc7dc4362f1c54c413d06b80632981b98": {
       "FileHash": "00fcb98bc7dc4362f1c54c413d06b80632981b98",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\CA-EUX\\EUX_Android_outOfCompliance.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4179,8 +4179,8 @@
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_outOfCompliance.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\00fcb98bc7dc4362f1c54c413d06b80632981b98.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -4927,7 +4927,7 @@
     },
     "1cfe860fc52a522303a284b97130acb358004630": {
       "FileHash": "1cfe860fc52a522303a284b97130acb358004630",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\ExchangeConnector.gif",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -4938,8 +4938,8 @@
         "InTuneDocs\\GetStarted\\media\\ExchangeConnector.gif"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1cfe860fc52a522303a284b97130acb358004630.gif",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -5200,7 +5200,7 @@
     },
     "f4d5c5fef97041f56707e5ef5b29d189f28c283a": {
       "FileHash": "f4d5c5fef97041f56707e5ef5b29d189f28c283a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Microsoft-Connect.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -5210,8 +5210,8 @@
         "InTuneDocs\\media\\Microsoft-Connect.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f4d5c5fef97041f56707e5ef5b29d189f28c283a.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -5229,7 +5229,7 @@
     },
     "0215258130506ab867bf9795be23b4f111613c6d": {
       "FileHash": "0215258130506ab867bf9795be23b4f111613c6d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\App-Feedback-Form.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -5239,8 +5239,8 @@
         "InTuneDocs\\media\\App-Feedback-Form.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\0215258130506ab867bf9795be23b4f111613c6d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8689,7 +8689,7 @@
     },
     "ce7d2c95ea50b1bfd543517143c7b9a1a75d7f77": {
       "FileHash": "ce7d2c95ea50b1bfd543517143c7b9a1a75d7f77",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_OverviewHighlight.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8699,8 +8699,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_OverviewHighlight.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ce7d2c95ea50b1bfd543517143c7b9a1a75d7f77.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8718,7 +8718,7 @@
     },
     "231837025d33d1ee9e1d3d1a26b087b5514ea8d1": {
       "FileHash": "231837025d33d1ee9e1d3d1a26b087b5514ea8d1",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_GetStarted.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8730,8 +8730,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_GetStarted.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\231837025d33d1ee9e1d3d1a26b087b5514ea8d1.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8749,7 +8749,7 @@
     },
     "01ad4b986428a579f985698746a30ab14bec1c30": {
       "FileHash": "01ad4b986428a579f985698746a30ab14bec1c30",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_EnrollDevices.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8763,8 +8763,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_EnrollDevices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\01ad4b986428a579f985698746a30ab14bec1c30.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8782,7 +8782,7 @@
     },
     "cabe721d36ff26a9b9116d5e4359d9fce1acc8e6": {
       "FileHash": "cabe721d36ff26a9b9116d5e4359d9fce1acc8e6",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageDevices.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8796,8 +8796,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageDevices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cabe721d36ff26a9b9116d5e4359d9fce1acc8e6.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8815,7 +8815,7 @@
     },
     "aa643174a8a50c2eea57f66494c7df8ccd1f22db": {
       "FileHash": "aa643174a8a50c2eea57f66494c7df8ccd1f22db",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageApps.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8828,8 +8828,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageApps.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\aa643174a8a50c2eea57f66494c7df8ccd1f22db.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8847,7 +8847,7 @@
     },
     "2852b263e76ed27dcdf6d22211a0f2df41b00823": {
       "FileHash": "2852b263e76ed27dcdf6d22211a0f2df41b00823",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ProtectResources.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8861,8 +8861,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ProtectResources.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2852b263e76ed27dcdf6d22211a0f2df41b00823.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8880,7 +8880,7 @@
     },
     "6fc41ba6a6b2825e4a289727b0cd6d72ebba481b": {
       "FileHash": "6fc41ba6a6b2825e4a289727b0cd6d72ebba481b",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_RetireData.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8894,8 +8894,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_RetireData.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6fc41ba6a6b2825e4a289727b0cd6d72ebba481b.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8913,7 +8913,7 @@
     },
     "41f596a94982f4c7d20e4965c2c962ff90899447": {
       "FileHash": "41f596a94982f4c7d20e4965c2c962ff90899447",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_TechnicalReference.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8926,8 +8926,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_TechnicalReference.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\41f596a94982f4c7d20e4965c2c962ff90899447.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8945,7 +8945,7 @@
     },
     "81d8eebac3a1dc89d204f2811f5ba90594cc5394": {
       "FileHash": "81d8eebac3a1dc89d204f2811f5ba90594cc5394",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_Bar_Overview.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8955,8 +8955,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_Bar_Overview.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\81d8eebac3a1dc89d204f2811f5ba90594cc5394.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -8974,7 +8974,7 @@
     },
     "dbda297887cfc33d4247e8cd7f8b90544bfac408": {
       "FileHash": "dbda297887cfc33d4247e8cd7f8b90544bfac408",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IT_MDM_MAMOverview2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -8984,8 +8984,8 @@
         "InTuneDocs\\media\\IT_MDM_MAMOverview2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\dbda297887cfc33d4247e8cd7f8b90544bfac408.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9381,7 +9381,7 @@
     },
     "7cf52c1c94d41b157d45133e7a27447f034c543b": {
       "FileHash": "7cf52c1c94d41b157d45133e7a27447f034c543b",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_OverviewGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9392,8 +9392,8 @@
         "InTuneDocs\\media\\WIT_Nav_OverviewGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7cf52c1c94d41b157d45133e7a27447f034c543b.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9411,7 +9411,7 @@
     },
     "6d35b699d66f9259273eeb1a52f4d03f92a463d3": {
       "FileHash": "6d35b699d66f9259273eeb1a52f4d03f92a463d3",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_GetStartedGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9422,8 +9422,8 @@
         "InTuneDocs\\media\\WIT_Nav_GetStartedGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6d35b699d66f9259273eeb1a52f4d03f92a463d3.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9441,7 +9441,7 @@
     },
     "1996d57553ef60aea99801ce8719c97bd7a53393": {
       "FileHash": "1996d57553ef60aea99801ce8719c97bd7a53393",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_EnrollDevicesGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9452,8 +9452,8 @@
         "InTuneDocs\\media\\WIT_Nav_EnrollDevicesGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1996d57553ef60aea99801ce8719c97bd7a53393.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9471,7 +9471,7 @@
     },
     "418a09d8baaa5c979ce381ec52b5b9bd3670d191": {
       "FileHash": "418a09d8baaa5c979ce381ec52b5b9bd3670d191",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_ConfigureDevicesGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9482,8 +9482,8 @@
         "InTuneDocs\\media\\WIT_Nav_ConfigureDevicesGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\418a09d8baaa5c979ce381ec52b5b9bd3670d191.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9501,7 +9501,7 @@
     },
     "83403909a28b6e2aebcf6ab2b467fd4c2525082b": {
       "FileHash": "83403909a28b6e2aebcf6ab2b467fd4c2525082b",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_DeployAppsGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9512,8 +9512,8 @@
         "InTuneDocs\\media\\WIT_Nav_DeployAppsGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\83403909a28b6e2aebcf6ab2b467fd4c2525082b.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9531,7 +9531,7 @@
     },
     "815f89df3423f2deb1d34294ed3282c67757e60e": {
       "FileHash": "815f89df3423f2deb1d34294ed3282c67757e60e",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_ProtectResourcesGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9542,8 +9542,8 @@
         "InTuneDocs\\media\\WIT_Nav_ProtectResourcesGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\815f89df3423f2deb1d34294ed3282c67757e60e.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9561,7 +9561,7 @@
     },
     "b129cc654737d60cd2ec4377ad68c46e9ebccb82": {
       "FileHash": "b129cc654737d60cd2ec4377ad68c46e9ebccb82",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_RetireDataDevices.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9571,8 +9571,8 @@
         "InTuneDocs\\media\\WIT_Nav_RetireDataDevices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b129cc654737d60cd2ec4377ad68c46e9ebccb82.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9590,7 +9590,7 @@
     },
     "b776d1a176a9d66320a62d587a96d930d1edc9a6": {
       "FileHash": "b776d1a176a9d66320a62d587a96d930d1edc9a6",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_TroubleshootingGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9601,8 +9601,8 @@
         "InTuneDocs\\media\\WIT_Nav_TroubleshootingGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b776d1a176a9d66320a62d587a96d930d1edc9a6.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9620,7 +9620,7 @@
     },
     "d9f494dbcbaf5f9c183f7cc32e64db0fdf204c3d": {
       "FileHash": "d9f494dbcbaf5f9c183f7cc32e64db0fdf204c3d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_RealworldSolutionsGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9630,8 +9630,8 @@
         "InTuneDocs\\media\\WIT_Nav_RealworldSolutionsGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d9f494dbcbaf5f9c183f7cc32e64db0fdf204c3d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9649,7 +9649,7 @@
     },
     "1ac4cc220974cfed4bfae37c70eb9f78203f8bd0": {
       "FileHash": "1ac4cc220974cfed4bfae37c70eb9f78203f8bd0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_TechnicalReferenceGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9660,8 +9660,8 @@
         "InTuneDocs\\media\\WIT_Nav_TechnicalReferenceGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1ac4cc220974cfed4bfae37c70eb9f78203f8bd0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9787,7 +9787,7 @@
     },
     "cec44005d4b4571b36ae7282b89128029aa717bf": {
       "FileHash": "cec44005d4b4571b36ae7282b89128029aa717bf",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\ConditionalAccess_SkypeforBusiness.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9797,8 +9797,8 @@
         "InTuneDocs\\media\\ConditionalAccess_SkypeforBusiness.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cec44005d4b4571b36ae7282b89128029aa717bf.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9897,7 +9897,7 @@
     },
     "38ade15a8b404d4c015427b91d43eb355df89c28": {
       "FileHash": "38ade15a8b404d4c015427b91d43eb355df89c28",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Apps_with_MAM_policies.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9907,8 +9907,8 @@
         "InTuneDocs\\media\\Apps_with_MAM_policies.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\38ade15a8b404d4c015427b91d43eb355df89c28.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -9926,7 +9926,7 @@
     },
     "6aabe3d95855225bccb6be0e95e55c16c100491d": {
       "FileHash": "6aabe3d95855225bccb6be0e95e55c16c100491d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Apps_with_MAM_CA.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -9936,8 +9936,8 @@
         "InTuneDocs\\media\\Apps_with_MAM_CA.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6aabe3d95855225bccb6be0e95e55c16c100491d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10171,7 +10171,7 @@
     },
     "93490feee053dbc489151a67055952bb67fc5458": {
       "FileHash": "93490feee053dbc489151a67055952bb67fc5458",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-cpinstall-1-cpinstore.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10182,8 +10182,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-cpinstall-1-cpinstore.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\93490feee053dbc489151a67055952bb67fc5458.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10201,7 +10201,7 @@
     },
     "885a319b2831c99793144060b2729cdd18ed6d50": {
       "FileHash": "885a319b2831c99793144060b2729cdd18ed6d50",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-1-tap-enroll.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10212,8 +10212,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-1-tap-enroll.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\885a319b2831c99793144060b2729cdd18ed6d50.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10231,7 +10231,7 @@
     },
     "2b6c2219512a1cbbfc88e62b97dc6b2e4a7afc6a": {
       "FileHash": "2b6c2219512a1cbbfc88e62b97dc6b2e4a7afc6a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-2-mgt-profile-install.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10242,8 +10242,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-2-mgt-profile-install.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2b6c2219512a1cbbfc88e62b97dc6b2e4a7afc6a.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10261,7 +10261,7 @@
     },
     "45fb0908384cfdd4d34528ed2e8fe39e922f061e": {
       "FileHash": "45fb0908384cfdd4d34528ed2e8fe39e922f061e",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-3-mgt-profile-install-2.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10272,8 +10272,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-3-mgt-profile-install-2.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\45fb0908384cfdd4d34528ed2e8fe39e922f061e.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10291,7 +10291,7 @@
     },
     "ca6da7b8547c8877c7f4b785f1db85fe4021243d": {
       "FileHash": "ca6da7b8547c8877c7f4b785f1db85fe4021243d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-4-warning.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10302,8 +10302,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-4-warning.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ca6da7b8547c8877c7f4b785f1db85fe4021243d.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10321,7 +10321,7 @@
     },
     "bb8a8e9336e939f67ab4dc75801b4e9c04aa2d10": {
       "FileHash": "bb8a8e9336e939f67ab4dc75801b4e9c04aa2d10",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-5-trust.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10332,8 +10332,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-5-trust.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bb8a8e9336e939f67ab4dc75801b4e9c04aa2d10.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10351,7 +10351,7 @@
     },
     "ef4d54d25ca4397410d76e11baf693b88498e13f": {
       "FileHash": "ef4d54d25ca4397410d76e11baf693b88498e13f",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-6-done.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10362,8 +10362,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-6-done.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ef4d54d25ca4397410d76e11baf693b88498e13f.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10381,7 +10381,7 @@
     },
     "b43825d15490082d1c7653253a112350e1ee83d3": {
       "FileHash": "b43825d15490082d1c7653253a112350e1ee83d3",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-8-enrolled.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10392,8 +10392,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-8-enrolled.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b43825d15490082d1c7653253a112350e1ee83d3.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10411,7 +10411,7 @@
     },
     "7d401782a7cdf030c3c63344641729115aa9fe82": {
       "FileHash": "7d401782a7cdf030c3c63344641729115aa9fe82",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\1-macosx-enroll-tap-enroll.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10422,8 +10422,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\1-macosx-enroll-tap-enroll.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7d401782a7cdf030c3c63344641729115aa9fe82.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10441,7 +10441,7 @@
     },
     "00e4c20a17f4dbf04ce1a1defc5a5c61c30d7003": {
       "FileHash": "00e4c20a17f4dbf04ce1a1defc5a5c61c30d7003",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\2-macosx-enroll--install-button.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10452,8 +10452,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\2-macosx-enroll--install-button.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\00e4c20a17f4dbf04ce1a1defc5a5c61c30d7003.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10471,7 +10471,7 @@
     },
     "2f400adcb6182fe7cceb9c063f320fa89ab422fb": {
       "FileHash": "2f400adcb6182fe7cceb9c063f320fa89ab422fb",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\3-macosx-enroll-tap-install.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10482,8 +10482,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\3-macosx-enroll-tap-install.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2f400adcb6182fe7cceb9c063f320fa89ab422fb.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10501,7 +10501,7 @@
     },
     "f5180303787e524e70fc02db3b25bc9632a4a9a0": {
       "FileHash": "f5180303787e524e70fc02db3b25bc9632a4a9a0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\4-macosx-enroll-done.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10512,8 +10512,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\4-macosx-enroll-done.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f5180303787e524e70fc02db3b25bc9632a4a9a0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10531,7 +10531,7 @@
     },
     "53b714feab73f35f53256bbf0f6ecc9544114b87": {
       "FileHash": "53b714feab73f35f53256bbf0f6ecc9544114b87",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\managed-apps-message.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10543,8 +10543,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\managed-apps-message.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\53b714feab73f35f53256bbf0f6ecc9544114b87.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10589,7 +10589,7 @@
     },
     "7433cba078bfa29c741dd08c0f44b083b822e734": {
       "FileHash": "7433cba078bfa29c741dd08c0f44b083b822e734",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-1-settings-accounts.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10601,8 +10601,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-1-settings-accounts.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7433cba078bfa29c741dd08c0f44b083b822e734.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10620,7 +10620,7 @@
     },
     "e72c97da1bf359b6ef633161d4a41e7a0f8b6516": {
       "FileHash": "e72c97da1bf359b6ef633161d4a41e7a0f8b6516",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-2-accounts-your-account.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10632,8 +10632,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-2-accounts-your-account.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e72c97da1bf359b6ef633161d4a41e7a0f8b6516.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10651,7 +10651,7 @@
     },
     "8d72f23fd90bab74b7be63193a64e829ff31cafa": {
       "FileHash": "8d72f23fd90bab74b7be63193a64e829ff31cafa",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-3-add-work-school-acct.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10663,8 +10663,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-3-add-work-school-acct.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8d72f23fd90bab74b7be63193a64e829ff31cafa.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10682,7 +10682,7 @@
     },
     "044b7904c52d43660346732c91708a0689012b8e": {
       "FileHash": "044b7904c52d43660346732c91708a0689012b8e",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-4-sign-in.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10694,8 +10694,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-4-sign-in.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\044b7904c52d43660346732c91708a0689012b8e.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10713,7 +10713,7 @@
     },
     "26ce9402b45ed2170bdb32ec6a30d357fe4045f2": {
       "FileHash": "26ce9402b45ed2170bdb32ec6a30d357fe4045f2",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W81-1-workplacejoin.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10725,8 +10725,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W81-1-workplacejoin.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\26ce9402b45ed2170bdb32ec6a30d357fe4045f2.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10744,7 +10744,7 @@
     },
     "f72a46e34a3fb5466e44478d45449a6c04ca8ad2": {
       "FileHash": "f72a46e34a3fb5466e44478d45449a6c04ca8ad2",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W81-2-workplacesettings_signin.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10756,8 +10756,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W81-2-workplacesettings_signin.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f72a46e34a3fb5466e44478d45449a6c04ca8ad2.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10775,7 +10775,7 @@
     },
     "f17e7fb369a72b5ea489cc01f27879f13bd18074": {
       "FileHash": "f17e7fb369a72b5ea489cc01f27879f13bd18074",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W81-3-dev-mgt-turn-on.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10787,8 +10787,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W81-3-dev-mgt-turn-on.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f17e7fb369a72b5ea489cc01f27879f13bd18074.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10806,7 +10806,7 @@
     },
     "49986a10fdbabb631eb6d48c8e9cdbfeac8576f6": {
       "FileHash": "49986a10fdbabb631eb6d48c8e9cdbfeac8576f6",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W81-4-agree-allow-apps-services.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10818,8 +10818,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W81-4-agree-allow-apps-services.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\49986a10fdbabb631eb6d48c8e9cdbfeac8576f6.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10837,7 +10837,7 @@
     },
     "7ffcfdd5ad6412f6ddd1c69d443bf1f99bfafd3e": {
       "FileHash": "7ffcfdd5ad6412f6ddd1c69d443bf1f99bfafd3e",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\W81-5-enrolled-done.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10849,8 +10849,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\W81-5-enrolled-done.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7ffcfdd5ad6412f6ddd1c69d443bf1f99bfafd3e.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10868,7 +10868,7 @@
     },
     "20b6e13bfa1e9852a927586c3357d460c444eb90": {
       "FileHash": "20b6e13bfa1e9852a927586c3357d460c444eb90",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\WP81-1-CP-search-store-v2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10880,8 +10880,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\WP81-1-CP-search-store-v2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\20b6e13bfa1e9852a927586c3357d460c444eb90.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10899,7 +10899,7 @@
     },
     "bf2f9a43de1a72e3734c85354d6d27546729d516": {
       "FileHash": "bf2f9a43de1a72e3734c85354d6d27546729d516",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\WP81-2-CP-install-v2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10911,8 +10911,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\WP81-2-CP-install-v2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bf2f9a43de1a72e3734c85354d6d27546729d516.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10930,7 +10930,7 @@
     },
     "88a1101825e9ecf41e5f2e308e3f4f90ba395977": {
       "FileHash": "88a1101825e9ecf41e5f2e308e3f4f90ba395977",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-1-swipe-my-devices.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10942,8 +10942,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-1-swipe-my-devices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\88a1101825e9ecf41e5f2e308e3f4f90ba395977.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10961,7 +10961,7 @@
     },
     "bcab588dd1d00990681d0d9d3c09a5bb14af020e": {
       "FileHash": "bcab588dd1d00990681d0d9d3c09a5bb14af020e",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-2-enroll-this-device.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -10973,8 +10973,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-2-enroll-this-device.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bcab588dd1d00990681d0d9d3c09a5bb14af020e.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -10992,7 +10992,7 @@
     },
     "cddb4c0bba4880b1370c3ff6b683ce9f18bc7b80": {
       "FileHash": "cddb4c0bba4880b1370c3ff6b683ce9f18bc7b80",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-3-workplace-add-acct.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11004,8 +11004,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-3-workplace-add-acct.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cddb4c0bba4880b1370c3ff6b683ce9f18bc7b80.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11023,7 +11023,7 @@
     },
     "f4fe095324508e127d6cb0f927cd60517d8a898c": {
       "FileHash": "f4fe095324508e127d6cb0f927cd60517d8a898c",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-4-account-added.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11035,8 +11035,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-4-account-added.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f4fe095324508e127d6cb0f927cd60517d8a898c.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11081,7 +11081,7 @@
     },
     "ac27a2f2f4689af53078aba3858cbf5e5b29da7d": {
       "FileHash": "ac27a2f2f4689af53078aba3858cbf5e5b29da7d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-1-search-cp.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11091,8 +11091,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-1-search-cp.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ac27a2f2f4689af53078aba3858cbf5e5b29da7d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11110,7 +11110,7 @@
     },
     "0a620644d886af8b6763b09750718554950002ee": {
       "FileHash": "0a620644d886af8b6763b09750718554950002ee",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-2-install.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11120,8 +11120,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-2-install.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\0a620644d886af8b6763b09750718554950002ee.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11139,7 +11139,7 @@
     },
     "443bee061468243400a7a295ae1334de82fb34e2": {
       "FileHash": "443bee061468243400a7a295ae1334de82fb34e2",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-3-cp-accept.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11149,8 +11149,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-3-cp-accept.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\443bee061468243400a7a295ae1334de82fb34e2.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11168,7 +11168,7 @@
     },
     "9d7e711034d9003c3d1185ce788e177069716849": {
       "FileHash": "9d7e711034d9003c3d1185ce788e177069716849",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-1-cp-find-CP-app.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11178,8 +11178,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-1-cp-find-CP-app.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\9d7e711034d9003c3d1185ce788e177069716849.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11197,7 +11197,7 @@
     },
     "2c90381c6ca82321c2112c1f6470adae04400807": {
       "FileHash": "2c90381c6ca82321c2112c1f6470adae04400807",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-0-welcome-screen.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11207,8 +11207,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-0-welcome-screen.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2c90381c6ca82321c2112c1f6470adae04400807.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11226,7 +11226,7 @@
     },
     "e76c105cd90d2172c2d80565e54573995b0087a5": {
       "FileHash": "e76c105cd90d2172c2d80565e54573995b0087a5",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-2-cp-sign-in.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11236,8 +11236,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-2-cp-sign-in.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e76c105cd90d2172c2d80565e54573995b0087a5.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11255,7 +11255,7 @@
     },
     "cd3f01766bb96567fef7042945d0ec52a5c0a999": {
       "FileHash": "cd3f01766bb96567fef7042945d0ec52a5c0a999",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\andr-allow-phone-access.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11265,8 +11265,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\andr-allow-phone-access.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cd3f01766bb96567fef7042945d0ec52a5c0a999.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11284,7 +11284,7 @@
     },
     "9a0b75f97efb0fca001ea4d6cd5f8b582c059615": {
       "FileHash": "9a0b75f97efb0fca001ea4d6cd5f8b582c059615",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-3-accept-terms.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11294,8 +11294,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-3-accept-terms.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\9a0b75f97efb0fca001ea4d6cd5f8b582c059615.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11313,7 +11313,7 @@
     },
     "a3397b76f925bdcbda83bc4e7ea11fcab4d1dc0f": {
       "FileHash": "a3397b76f925bdcbda83bc4e7ea11fcab4d1dc0f",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-4-enroll.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11323,8 +11323,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-4-enroll.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a3397b76f925bdcbda83bc4e7ea11fcab4d1dc0f.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11342,7 +11342,7 @@
     },
     "b659772554349fe821fe01541c708a15a21abe1a": {
       "FileHash": "b659772554349fe821fe01541c708a15a21abe1a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-5-activate-native.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11352,8 +11352,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-5-activate-native.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b659772554349fe821fe01541c708a15a21abe1a.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11371,7 +11371,7 @@
     },
     "fb8b934e1595fee5741d909bae8aba12c996e7e0": {
       "FileHash": "fb8b934e1595fee5741d909bae8aba12c996e7e0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-6-PIN-native.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11381,8 +11381,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-6-PIN-native.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\fb8b934e1595fee5741d909bae8aba12c996e7e0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11400,7 +11400,7 @@
     },
     "9ad4c21ed6e86291d9c63a811084c86f3e77020f": {
       "FileHash": "9ad4c21ed6e86291d9c63a811084c86f3e77020f",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-7-cert-native.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11410,8 +11410,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-7-cert-native.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\9ad4c21ed6e86291d9c63a811084c86f3e77020f.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11429,7 +11429,7 @@
     },
     "ec227d227bae60234431fa8cec748906e39655a0": {
       "FileHash": "ec227d227bae60234431fa8cec748906e39655a0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-5-activate.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11439,8 +11439,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-5-activate.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ec227d227bae60234431fa8cec748906e39655a0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11458,7 +11458,7 @@
     },
     "75da352fbb10cc3687a54172235cd4843b19549b": {
       "FileHash": "75da352fbb10cc3687a54172235cd4843b19549b",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-enroll-6-knox-agree.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11468,8 +11468,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-6-knox-agree.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\75da352fbb10cc3687a54172235cd4843b19549b.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11487,7 +11487,7 @@
     },
     "574a3642f5160ff07c565a2b3c60084ceb198757": {
       "FileHash": "574a3642f5160ff07c565a2b3c60084ceb198757",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\andr-1-my-devices-choose.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11497,8 +11497,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\andr-1-my-devices-choose.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\574a3642f5160ff07c565a2b3c60084ceb198757.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11516,7 +11516,7 @@
     },
     "c29f90ceec989702b0b2c12f271964aae1d725a0": {
       "FileHash": "c29f90ceec989702b0b2c12f271964aae1d725a0",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\andr-2-tap-trashcan.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11526,8 +11526,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\andr-2-tap-trashcan.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\c29f90ceec989702b0b2c12f271964aae1d725a0.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -11545,7 +11545,7 @@
     },
     "6845f199402ab000359e2412abe6cdad232518cf": {
       "FileHash": "6845f199402ab000359e2412abe6cdad232518cf",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\andr-3-warning-about-remove.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -11555,8 +11555,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\andr-3-warning-about-remove.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6845f199402ab000359e2412abe6cdad232518cf.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -12951,7 +12951,7 @@
     },
     "a0889ba8237d956fbb1d060bcf6a974d24787385": {
       "FileHash": "a0889ba8237d956fbb1d060bcf6a974d24787385",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_RetireDataDevicesGray.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -12961,8 +12961,8 @@
         "InTuneDocs\\media\\WIT_Nav_RetireDataDevicesGray.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a0889ba8237d956fbb1d060bcf6a974d24787385.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -12980,7 +12980,7 @@
     },
     "e80fed90884dcf3e83a6546de6f607ac1a7feec9": {
       "FileHash": "e80fed90884dcf3e83a6546de6f607ac1a7feec9",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WIT_Nav_RealworldSolutions.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -12990,8 +12990,8 @@
         "InTuneDocs\\media\\WIT_Nav_RealworldSolutions.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e80fed90884dcf3e83a6546de6f607ac1a7feec9.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13225,7 +13225,7 @@
     },
     "cd3d6f4caaf9372ac53f48c5f6efe33e51c654dc": {
       "FileHash": "cd3d6f4caaf9372ac53f48c5f6efe33e51c654dc",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Critical-Alert.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13235,8 +13235,8 @@
         "InTuneDocs\\media\\Critical-Alert.jpg"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cd3d6f4caaf9372ac53f48c5f6efe33e51c654dc.jpg",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13254,7 +13254,7 @@
     },
     "88df2d3a28019c345a87a0c74162b2e3f6faae54": {
       "FileHash": "88df2d3a28019c345a87a0c74162b2e3f6faae54",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Warning-Alert.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13264,8 +13264,8 @@
         "InTuneDocs\\media\\Warning-Alert.jpg"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\88df2d3a28019c345a87a0c74162b2e3f6faae54.jpg",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13283,7 +13283,7 @@
     },
     "0c147b168932de962764ba8ce13dcf60c1641832": {
       "FileHash": "0c147b168932de962764ba8ce13dcf60c1641832",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Informational-Alert.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13293,8 +13293,8 @@
         "InTuneDocs\\media\\Informational-Alert.jpg"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\0c147b168932de962764ba8ce13dcf60c1641832.jpg",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13339,7 +13339,7 @@
     },
     "18a799a3e7dd41dde112084fa4f3ddbee22a1b89": {
       "FileHash": "18a799a3e7dd41dde112084fa4f3ddbee22a1b89",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Overview.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13352,8 +13352,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Overview.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\18a799a3e7dd41dde112084fa4f3ddbee22a1b89.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13371,7 +13371,7 @@
     },
     "196e91a738a0a7ae82afbb796c3796420a3e8344": {
       "FileHash": "196e91a738a0a7ae82afbb796c3796420a3e8344",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageAppsHighlight.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13381,8 +13381,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageAppsHighlight.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\196e91a738a0a7ae82afbb796c3796420a3e8344.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13400,7 +13400,7 @@
     },
     "815b6e5c6289daad90555e4c9ee381fdf7023985": {
       "FileHash": "815b6e5c6289daad90555e4c9ee381fdf7023985",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Banner_ManageApps.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13410,8 +13410,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Banner_ManageApps.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\815b6e5c6289daad90555e4c9ee381fdf7023985.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13429,7 +13429,7 @@
     },
     "54801f14b482c92c74ec6de021df8ddd6a2b1e51": {
       "FileHash": "54801f14b482c92c74ec6de021df8ddd6a2b1e51",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\App-Lifecycle-Graphic.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13439,8 +13439,8 @@
         "InTuneDocs\\media\\App-Lifecycle-Graphic.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\54801f14b482c92c74ec6de021df8ddd6a2b1e51.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13512,7 +13512,7 @@
     },
     "6496672b6485257094e48fe01425155a3399acc1": {
       "FileHash": "6496672b6485257094e48fe01425155a3399acc1",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Available-install-on-iOS.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13522,8 +13522,8 @@
         "InTuneDocs\\media\\Available-install-on-iOS.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6496672b6485257094e48fe01425155a3399acc1.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13541,7 +13541,7 @@
     },
     "b7dfa9eaeeb294953b86fc3a2861416579b3f666": {
       "FileHash": "b7dfa9eaeeb294953b86fc3a2861416579b3f666",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\iOS-Required-install.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13551,8 +13551,8 @@
         "InTuneDocs\\media\\iOS-Required-install.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b7dfa9eaeeb294953b86fc3a2861416579b3f666.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13867,7 +13867,7 @@
     },
     "a1fc1220518728a6371ddcbe7f8a680abe6de4c9": {
       "FileHash": "a1fc1220518728a6371ddcbe7f8a680abe6de4c9",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13877,8 +13877,8 @@
         "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a1fc1220518728a6371ddcbe7f8a680abe6de4c9.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13950,7 +13950,7 @@
     },
     "357558a36a885fc6c50279d11801440587fe3676": {
       "FileHash": "357558a36a885fc6c50279d11801440587fe3676",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\WPCertReqs.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13960,8 +13960,8 @@
         "InTuneDocs\\media\\WPCertReqs.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\357558a36a885fc6c50279d11801440587fe3676.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -13979,7 +13979,7 @@
     },
     "a3713304193d4562fb5784b2e0ec7730ac5e796e": {
       "FileHash": "a3713304193d4562fb5784b2e0ec7730ac5e796e",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\wit_.gif",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -13989,8 +13989,8 @@
         "InTuneDocs\\media\\wit_.gif"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a3713304193d4562fb5784b2e0ec7730ac5e796e.gif",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -14008,7 +14008,7 @@
     },
     "b86daa607f8bdfca2b36b2e9c956dc9872a80e4d": {
       "FileHash": "b86daa607f8bdfca2b36b2e9c956dc9872a80e4d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\wit_walk_cert2.gif",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -14018,8 +14018,8 @@
         "InTuneDocs\\media\\wit_walk_cert2.gif"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b86daa607f8bdfca2b36b2e9c956dc9872a80e4d.gif",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -14172,7 +14172,7 @@
     },
     "d0706116e0a15ccfaedd6c6fb7a190e036dbce76": {
       "FileHash": "d0706116e0a15ccfaedd6c6fb7a190e036dbce76",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_GetStartedHightlight.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -14183,8 +14183,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_GetStartedHightlight.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d0706116e0a15ccfaedd6c6fb7a190e036dbce76.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -14202,7 +14202,7 @@
     },
     "03404de6b103c7e8ea6898dc8f21fce28f1285dc": {
       "FileHash": "03404de6b103c7e8ea6898dc8f21fce28f1285dc",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_Bar_GetStarted.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -14213,8 +14213,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_Bar_GetStarted.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\03404de6b103c7e8ea6898dc8f21fce28f1285dc.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -14259,7 +14259,7 @@
     },
     "931b88b00143efb40d7caa4b7ba3cbf58ea4acba": {
       "FileHash": "931b88b00143efb40d7caa4b7ba3cbf58ea4acba",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Troubleshooting.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -14270,8 +14270,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Troubleshooting.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\931b88b00143efb40d7caa4b7ba3cbf58ea4acba.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -14370,7 +14370,7 @@
     },
     "ac018fd4321291fe06f7a8cb20e8d0b80644ec6b": {
       "FileHash": "ac018fd4321291fe06f7a8cb20e8d0b80644ec6b",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_TechnicalReferenceHighlight.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -14380,8 +14380,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_TechnicalReferenceHighlight.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ac018fd4321291fe06f7a8cb20e8d0b80644ec6b.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -14399,7 +14399,7 @@
     },
     "04730004f6cb0c68db3396b6990b7197a7d0698a": {
       "FileHash": "04730004f6cb0c68db3396b6990b7197a7d0698a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Nav-Icons\\WIT_Banner_TechnicalReference.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -14409,8 +14409,8 @@
         "InTuneDocs\\media\\Nav-Icons\\WIT_Banner_TechnicalReference.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\04730004f6cb0c68db3396b6990b7197a7d0698a.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15373,7 +15373,7 @@
     },
     "a9398cffc2653d5a4251a95aa42647f8a197e4d4": {
       "FileHash": "a9398cffc2653d5a4251a95aa42647f8a197e4d4",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Hybrid_on-prem_CA_architecture.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15383,8 +15383,8 @@
         "InTuneDocs\\media\\Hybrid_on-prem_CA_architecture.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a9398cffc2653d5a4251a95aa42647f8a197e4d4.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15402,7 +15402,7 @@
     },
     "2508565ee350f44535945187882b18356955bb59": {
       "FileHash": "2508565ee350f44535945187882b18356955bb59",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\HybridOnpremRunFullSync.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15412,8 +15412,8 @@
         "InTuneDocs\\media\\HybridOnpremRunFullSync.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2508565ee350f44535945187882b18356955bb59.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15431,7 +15431,7 @@
     },
     "b3adc2dd0a81360918a4b3dd279457369e22079e": {
       "FileHash": "b3adc2dd0a81360918a4b3dd279457369e22079e",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\HybridOnpremExchSrvrWizard6.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15441,8 +15441,8 @@
         "InTuneDocs\\media\\HybridOnpremExchSrvrWizard6.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b3adc2dd0a81360918a4b3dd279457369e22079e.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15460,7 +15460,7 @@
     },
     "00f6c80457b1d64bb088936747ac26ec93f83c5a": {
       "FileHash": "00f6c80457b1d64bb088936747ac26ec93f83c5a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\HybridOnpremEasDiscLogSample.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15470,8 +15470,8 @@
         "InTuneDocs\\media\\HybridOnpremEasDiscLogSample.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\00f6c80457b1d64bb088936747ac26ec93f83c5a.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15489,7 +15489,7 @@
     },
     "1d2a8737299ec8316484218a22931eca82a39d0c": {
       "FileHash": "1d2a8737299ec8316484218a22931eca82a39d0c",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\HybridOnpremVerifyDevicesState.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15499,8 +15499,8 @@
         "InTuneDocs\\media\\HybridOnpremVerifyDevicesState.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1d2a8737299ec8316484218a22931eca82a39d0c.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15518,7 +15518,7 @@
     },
     "d3c779deba937feff2e602fa78cfc3cf2c2d1151": {
       "FileHash": "d3c779deba937feff2e602fa78cfc3cf2c2d1151",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\HybridReports_CA.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15528,8 +15528,8 @@
         "InTuneDocs\\media\\HybridReports_CA.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d3c779deba937feff2e602fa78cfc3cf2c2d1151.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15547,7 +15547,7 @@
     },
     "3c17bb0e80792952c86ce97f9b623cd85518001f": {
       "FileHash": "3c17bb0e80792952c86ce97f9b623cd85518001f",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\HybridReportsDeploymentStatus.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15557,8 +15557,8 @@
         "InTuneDocs\\media\\HybridReportsDeploymentStatus.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3c17bb0e80792952c86ce97f9b623cd85518001f.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15576,7 +15576,7 @@
     },
     "4acb3dc7c3580e7bf319b367387423449d38c4f8": {
       "FileHash": "4acb3dc7c3580e7bf319b367387423449d38c4f8",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Hybrid_Exchange-Online_CA_architecture.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15586,8 +15586,8 @@
         "InTuneDocs\\media\\Hybrid_Exchange-Online_CA_architecture.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\4acb3dc7c3580e7bf319b367387423449d38c4f8.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15632,7 +15632,7 @@
     },
     "6dc6d327b445e37e8e0a9f52afd82c3342c3101a": {
       "FileHash": "6dc6d327b445e37e8e0a9f52afd82c3342c3101a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\ConditionalAccess8-2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15642,8 +15642,8 @@
         "InTuneDocs\\media\\ConditionalAccess8-2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6dc6d327b445e37e8e0a9f52afd82c3342c3101a.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15661,7 +15661,7 @@
     },
     "495a0e184d5b0f7d60292dd23b38e57fdad93e87": {
       "FileHash": "495a0e184d5b0f7d60292dd23b38e57fdad93e87",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\ConditionalAccess8-1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15671,8 +15671,8 @@
         "InTuneDocs\\media\\ConditionalAccess8-1.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\495a0e184d5b0f7d60292dd23b38e57fdad93e87.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15717,7 +15717,7 @@
     },
     "18462d3369f1f72868e3d46ad956513df8fad25a": {
       "FileHash": "18462d3369f1f72868e3d46ad956513df8fad25a",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Intune-Device-Policy-v.2.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15727,8 +15727,8 @@
         "InTuneDocs\\media\\Intune-Device-Policy-v.2.jpg"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\18462d3369f1f72868e3d46ad956513df8fad25a.jpg",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15881,7 +15881,7 @@
     },
     "4004752da545e7c9c19b67ce8808ad3d3f0bd3a2": {
       "FileHash": "4004752da545e7c9c19b67ce8808ad3d3f0bd3a2",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Enroll-Android-logo.JPG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15891,8 +15891,8 @@
         "InTuneDocs\\media\\Enroll-Android-logo.JPG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\4004752da545e7c9c19b67ce8808ad3d3f0bd3a2.JPG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15910,7 +15910,7 @@
     },
     "c13ff92646549eabc0c40c8dca41dae34521918c": {
       "FileHash": "c13ff92646549eabc0c40c8dca41dae34521918c",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Enroll-Apple-logo.JPG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15920,8 +15920,8 @@
         "InTuneDocs\\media\\Enroll-Apple-logo.JPG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\c13ff92646549eabc0c40c8dca41dae34521918c.JPG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15939,7 +15939,7 @@
     },
     "6455011cf351fcecbd1579b74a9f491e8365466d": {
       "FileHash": "6455011cf351fcecbd1579b74a9f491e8365466d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\Enroll-windows-logo.JPG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15949,8 +15949,8 @@
         "InTuneDocs\\media\\Enroll-windows-logo.JPG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6455011cf351fcecbd1579b74a9f491e8365466d.JPG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15968,7 +15968,7 @@
     },
     "adee1773d15d6a2f4bded3c47c1462dbec904e6d": {
       "FileHash": "adee1773d15d6a2f4bded3c47c1462dbec904e6d",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\iwp-1-tap-reset-passcode.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -15978,8 +15978,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\iwp-1-tap-reset-passcode.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\adee1773d15d6a2f4bded3c47c1462dbec904e6d.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -15997,7 +15997,7 @@
     },
     "8c9f6962f0d3b1ff6d40143c9bac31906f1ae735": {
       "FileHash": "8c9f6962f0d3b1ff6d40143c9bac31906f1ae735",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\iwp-2-sign-out.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -16007,8 +16007,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\iwp-2-sign-out.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8c9f6962f0d3b1ff6d40143c9bac31906f1ae735.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -16026,7 +16026,7 @@
     },
     "4fea71a05f8f48a12977e8b0fccab3b915b5f5d3": {
       "FileHash": "4fea71a05f8f48a12977e8b0fccab3b915b5f5d3",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\iwp-3-tap-reset-passcode-after-signin.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -16036,8 +16036,8 @@
         "InTuneDocs\\media\\IW-Help-pics\\iwp-3-tap-reset-passcode-after-signin.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\4fea71a05f8f48a12977e8b0fccab3b915b5f5d3.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -16785,7 +16785,7 @@
     },
     "8769ee216a7fe5b94d9f4f6dc505d2d4230e5551": {
       "FileHash": "8769ee216a7fe5b94d9f4f6dc505d2d4230e5551",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\IntuneSA1dconfigureExchConnector.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -16796,8 +16796,8 @@
         "InTuneDocs\\GetStarted\\media\\IntuneSA1dconfigureExchConnector.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8769ee216a7fe5b94d9f4f6dc505d2d4230e5551.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -16815,7 +16815,7 @@
     },
     "49a4a37a238a6c582abf2093daf4aa1cea210509": {
       "FileHash": "49a4a37a238a6c582abf2093daf4aa1cea210509",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\IntuneSA2aServiceToServiceConnectorVerification.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -16826,8 +16826,8 @@
         "InTuneDocs\\GetStarted\\media\\IntuneSA2aServiceToServiceConnectorVerification.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\49a4a37a238a6c582abf2093daf4aa1cea210509.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -16872,7 +16872,7 @@
     },
     "682991f322fac0c2001ce4fcaeabecf4c5b79bcb": {
       "FileHash": "682991f322fac0c2001ce4fcaeabecf4c5b79bcb",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\IntuneSA5cServiceToServiceConnector.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -16882,8 +16882,8 @@
         "InTuneDocs\\GetStarted\\media\\IntuneSA5cServiceToServiceConnector.PNG"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\682991f322fac0c2001ce4fcaeabecf4c5b79bcb.PNG",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -17036,7 +17036,7 @@
     },
     "678e71d319eb1dd61ebb980a61a930a5692f6bc5": {
       "FileHash": "678e71d319eb1dd61ebb980a61a930a5692f6bc5",
-      "SourceFileCommit": "d33408c5e5a631c563c674914019c2f9fe0f940d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
       "SourceFilePath": "InTuneDocs\\media\\ConditionalAccess4.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -17046,8 +17046,8 @@
         "InTuneDocs\\media\\ConditionalAccess4.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\678e71d319eb1dd61ebb980a61a930a5692f6bc5.png",
-      "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
-      "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
@@ -17264,6 +17264,195 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.4ff1a2cfa5734b59832db963e4b8b58ea85d46cd.ru-ru.xlf",
       "HandoffFileCommit": "de3e325d978a196d90726a116e39669656ed731a",
       "HandoffDateTime": "2016-03-01T19:00:50.3554681Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "79fff60a30a16f1fcec36887bcdaa8f8bfe99b72": {
+      "FileHash": "79fff60a30a16f1fcec36887bcdaa8f8bfe99b72",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\TOC.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "e4ff404d8f560f46975e97271ba7f621e1d78946": {
+      "FileHash": "e4ff404d8f560f46975e97271ba7f621e1d78946",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.4ff1a2cfa5734b59832db963e4b8b58ea85d46cd.ru-ru.xlf",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "73c9d19a1520b3387aaabeb32eb2e2bc408b3db3": {
+      "FileHash": "73c9d19a1520b3387aaabeb32eb2e2bc408b3db3",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-test.ff7a5237ca86e22114eeba9aab3e2d3cdcaeb037.ru-ru.xlf",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "dd9ed626b82937c3d310b438350f49ca2229fd0d": {
+      "FileHash": "dd9ed626b82937c3d310b438350f49ca2229fd0d",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\TOC.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "de284e87a639a562613cee2e3b75f9877ef8424b": {
+      "FileHash": "de284e87a639a562613cee2e3b75f9877ef8424b",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\TOC.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d0ab1e477a90594f65e42b7c1cb6be18c260ea26.ru-ru.xlf",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "7149f1f2dec5f270811f2eb27a0494213ff840a2": {
+      "FileHash": "7149f1f2dec5f270811f2eb27a0494213ff840a2",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
+      "SourceFilePath": "InTuneDocs\\Troubleshoot\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\Troubleshoot\\TOC.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.a381fbb73cd40339cd2f51714d358353a82838fb.ru-ru.xlf",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "ca1c45794b6ebb36cf9c92b3be8fd8e9d11d4df3": {
+      "FileHash": "ca1c45794b6ebb36cf9c92b3be8fd8e9d11d4df3",
+      "SourceFileCommit": "72a0c2c24537c8d8fa5e52abea6b6e055e7462f1",
+      "SourceFilePath": "InTuneDocs\\Understand\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\Understand\\TOC.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ru-ru.xlf",
+      "HandoffFileCommit": "c95a6d68232a2fa9b45e534364470b4b23145716",
+      "HandoffDateTime": "2016-03-01T21:19:28.9143991Z",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
