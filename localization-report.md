@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 948
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 626
+[ Handoff Success Files ](#handoff-success-list)| 625
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 322
+[ Ignored Files ](#ignored-list)| 323
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -528,7 +528,6 @@
  [InTuneDocs\PlanDesign\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/PlanDesign/plan-your-user-and-device-groups.md) | HandedOffSuccess | [Details](#cd99ee7e89c3bf7be0c6cf1185a81c89051bcc6e827)
  [InTuneDocs\PlanDesign\reference-for-tenant-administrator-accounts-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/PlanDesign/reference-for-tenant-administrator-accounts-for-microsoft-intune.md) | HandedOffSuccess | [Details](#aff4e82c299a567bd6eb7b4afcf314833660794d828)
  [InTuneDocs\PlanDesign\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/PlanDesign/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc9653829)
- [InTuneDocs\PlanDesign\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/PlanDesign/TOC.md) | HandedOffSuccess | [Details](#48ceed308cf154cc4b3e6d21ae40f4ebc36f1b73830)
  [InTuneDocs\plan-for-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/plan-for-apps.md) | HandedOffSuccess | [Details](#1d39e7f2b7ad7cb487fb2c364bcf7bda75778e77821)
  [InTuneDocs\policy-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/policy-rollout.md) | HandedOffSuccess | [Details](#a9dd55237160648a2a66ab4e1a5b2cbd3159e412831)
  [InTuneDocs\post-configuration-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/post-configuration-tasks.md) | HandedOffSuccess | [Details](#d2740173419cb7ec02e6eda41594fd7dc1e9b8ed832)
@@ -977,6 +976,7 @@
  [InTuneDocs\media\WIT_TryNowIcon.png](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/media/WIT_TryNowIcon.png) | Ignored | [Details](#91f9a79ec71f220d6c9a450e2aae190d5e30f2ca783)
  [InTuneDocs\media\WIT_TryNowIcon2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/media/WIT_TryNowIcon2.png) | Ignored | [Details](#9f80ffe98f18b9a0023f224433b99b9525f5c511784)
  [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/PlanDesign/docfx.json) | Ignored | [Details](#29b731018d1039ef0854cfa57528869ee12263a6824)
+ [InTuneDocs\PlanDesign\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/PlanDesign/TOC.md) | Ignored | [Details](#52fff7b3eb75c77886a44ae901451ab805c92c9c830)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#5dc4a451325a7a20fa699b46dd61d8e988f1a1a5886)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#aa951c4e3fb9fb7ea42f21279a9177671542ad82903)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec75130136080906)
@@ -11097,12 +11097,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='48ceed308cf154cc4b3e6d21ae40f4ebc36f1b73830'></a> Source: [InTuneDocs\PlanDesign\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c59ca474bcd4642a99e73f4d49ba25a1867499aa/InTuneDocs/PlanDesign/TOC.md)
-* Status: HandedOffSuccess
+##### <a name='52fff7b3eb75c77886a44ae901451ab805c92c9c830'></a> Source: [InTuneDocs\PlanDesign\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cf1f6e4fe152f26b380439a542d2dbf78bd8643c/InTuneDocs/PlanDesign/TOC.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [TOC.d0ab1e477a90594f65e42b7c1cb6be18c260ea26.ru-ru.xlf](https://github.com/Microsoft/InTune.handoff/blob/2f263becafe1165824b9cf366f80252dd309ca2a/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d0ab1e477a90594f65e42b7c1cb6be18c260ea26.ru-ru.xlf)
-* Handoff Datetime: 2016-02-26 09:49:15
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
