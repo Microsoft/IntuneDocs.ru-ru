@@ -260,11 +260,11 @@
     "InTuneDocs\\Troubleshoot\\media\\150x150.png",
     "InTuneDocs\\Understand\\media\\150x150.png"
   ],
-  "7bf005ca712646893c1fd386d7a4c2b39b6493f3": [
-    "InTuneDocs\\DeployUse\\set-up-email-access-for-ios-devices-using-microsoft-intune.md"
-  ],
   "15a1211ec83158d1a77c92411100bff572ff9a7a": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
+  "edabba9718309864efb151001ad33615a6bbd928": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "83ffd0bb0562328c465ca2e8c38fe699b52595b1": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -515,6 +515,9 @@
   "5ff5837d5c915410e10265ee2315bb92b7b8565a": [
     "InTuneDocs\\GetStarted\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
   ],
+  "eb1cc93037a2aad2f145608a7ebf5d8799a6ea18": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
+  ],
   "2a0f239ad9fddee502dea29f6b1b070dd3bcd778": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
   ],
@@ -527,29 +530,56 @@
   "37b42c1856d9d95b392667129a05ec58af972428": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
   ],
+  "86220082a06f4eb8c94b715a2312ec558455d523": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md"
+  ],
   "233bf09a4f18b14d3de87fe3f8346eb3e7de491e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md"
+  ],
+  "8c90cb4e5739d0b298ce6e68ad44e96baa359df1": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md"
   ],
   "6a7276fe891f9ab7df8f047812d786292cb10c4f": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md"
   ],
+  "834db4b4ceb7ba8f6ee403856c4160f3482d819d": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
+  ],
   "2807a7d688e6cda2794c4582a13db9f5afdaad8e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
+  ],
+  "4467b1ddfd7bd31a8f2d5f3b2152d8050a9cfa08": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
   "f613536f3128351d18634ab0c9b66995d38b5567": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
+  "4444937cb25f7d9899d3e58e4fc3298f76be9db4": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+  ],
   "deb368f6ab007bba9bb1f22ca0b2cbc4c0b0d90e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+  ],
+  "c9ec5716f6387216566418909d6e26b619bc893b": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
   ],
   "ba9bcf2b25403335e0685c22779f7a9d4a7b7a02": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
   ],
+  "ea115a8ce1a010d397854de5567557acf210508a": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md"
+  ],
   "885686b1306c5cb98706e7590c8a0c49eeb3aa63": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md"
   ],
+  "c0c2f82ef7ce8728131c6b396f87d0840ff5a363": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
+  ],
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
+  ],
+  "86a55c5b8d78b2af87f7377f67b2721bee5c13a5": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md"
   ],
   "bc650777ebf98c6bf82b81c7647cad9e46c0f523": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md"
@@ -602,6 +632,9 @@
   ],
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\GetStarted\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+  ],
+  "292c67ff8578ae175670f68a093fe868c4449243": [
+    "InTuneDocs\\GetStarted\\TOC.md"
   ],
   "a9967a6fbb730d9e481c6d2dd5e68191f02f8ea8": [
     "InTuneDocs\\GetStarted\\TOC.md"
@@ -1457,6 +1490,9 @@
   "a9dd55237160648a2a66ab4e1a5b2cbd3159e412": [
     "InTuneDocs\\policy-rollout.md"
   ],
+  "34fd633cfd4bfe423815b5789093c88b08e00baa": [
+    "InTuneDocs\\GetStarted\\post-configuration-tasks.md"
+  ],
   "d2740173419cb7ec02e6eda41594fd7dc1e9b8ed": [
     "InTuneDocs\\GetStarted\\post-configuration-tasks.md"
   ],
@@ -1576,6 +1612,15 @@
   ],
   "7bb59ea0dc5ce46b47421074184a6949825a894a": [
     "InTuneDocs\\set-up-computer-device-management-with-microsoft-intune.md"
+  ],
+  "357558a36a885fc6c50279d11801440587fe3676": [
+    "InTuneDocs\\GetStarted\\media\\WPCertReqs.png"
+  ],
+  "a3713304193d4562fb5784b2e0ec7730ac5e796e": [
+    "InTuneDocs\\GetStarted\\media\\wit_.gif"
+  ],
+  "b86daa607f8bdfca2b36b2e9c956dc9872a80e4d": [
+    "InTuneDocs\\GetStarted\\media\\wit_walk_cert2.gif"
   ],
   "a2a520224fc91ff6f26c8c7184824a8962351fbb": [
     "InTuneDocs\\set-your-mdm-management-authority.md"
@@ -1702,6 +1747,9 @@
   ],
   "840ad2388da52f773c1dabecda0809ecdff39950": [
     "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
+  ],
+  "621fa27f234e3397cb919eeb14877b22bd7a86fd": [
+    "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
@@ -1928,14 +1976,26 @@
   "bc9f2468c1de82f7b07e3a44c38e058da5f9f525": [
     "InTuneDocs\\Manage-access-to-sharepoint-online-test-refactor.md"
   ],
+  "7a214c007e6d13ff37faea99d62f797885c825eb": [
+    "InTuneDocs\\GetStarted\\set-up-android-management-with-microsoft-intune.md"
+  ],
   "0ddd8a45b8179ca81abe1d50d9480da6ee3a52bc": [
     "InTuneDocs\\GetStarted\\set-up-android-management-with-microsoft-intune.md"
+  ],
+  "28edc564c87ef422bdf1ca8de77c40481a212f48": [
+    "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
   "b85761c301f068ba05e643ec9c41cbc73c4ae1b9": [
     "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
+  "c6a7441cf5b63a01843ef240382b186c8ed1cde4": [
+    "InTuneDocs\\GetStarted\\set-up-windows-device-management-with-microsoft-intune.md"
+  ],
   "2825be7bc12d04fe8974f4d9a4dddfb2bd70a6dd": [
     "InTuneDocs\\GetStarted\\set-up-windows-device-management-with-microsoft-intune.md"
+  ],
+  "6617a5ffc2a111e41f96b448a5aeb594fa06bbbe": [
+    "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md"
   ],
   "5938686fe8fc1ef4cca19da67e2165c2d4af7f67": [
     "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md"
@@ -1945,5 +2005,14 @@
   ],
   "35de2586eef432787c5244832af5a9fe9ab5787a": [
     "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
+  ],
+  "973e7ccaf4310d22f0e31aba380aa0a510740d83": [
+    "InTuneDocs\\GetStarted\\renew-a-symantec-code-signing-certificate.md"
+  ],
+  "b38b15c837dcb502379311988a74d7888ca5a525": [
+    "InTuneDocs\\GetStarted\\set-up-email-access-for-ios-devices-using-microsoft-intune.md"
+  ],
+  "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
+    "InTuneDocs\\GetStarted\\media\\Windows-Phone-Enrollment.png"
   ]
 }
