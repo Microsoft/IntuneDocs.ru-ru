@@ -548,11 +548,17 @@
   "2807a7d688e6cda2794c4582a13db9f5afdaad8e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
   ],
+  "d991538e4df39d97aeb0d77a6235e3fcc537b7cf": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
+  ],
   "4467b1ddfd7bd31a8f2d5f3b2152d8050a9cfa08": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
   "f613536f3128351d18634ab0c9b66995d38b5567": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
+  ],
+  "dce600f4721ec2bb6fdfce902d991bcb928a4fbe": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
   ],
   "4444937cb25f7d9899d3e58e4fc3298f76be9db4": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
@@ -2005,6 +2011,9 @@
   ],
   "35de2586eef432787c5244832af5a9fe9ab5787a": [
     "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
+  ],
+  "dd7ba6417d8cd38d1eb07822aab05cef77000be3": [
+    "InTuneDocs\\GetStarted\\renew-a-symantec-code-signing-certificate.md"
   ],
   "973e7ccaf4310d22f0e31aba380aa0a510740d83": [
     "InTuneDocs\\GetStarted\\renew-a-symantec-code-signing-certificate.md"
