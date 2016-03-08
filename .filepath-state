@@ -2033,6 +2033,9 @@
   "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
     "InTuneDocs\\GetStarted\\media\\Windows-Phone-Enrollment.png"
   ],
+  "f856da163835db9b681253d892065b551f0a548b": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
+  ],
   "72de3ebf04a6431d65db75e1a7fe7cfc883444b2": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
   ],
@@ -2083,6 +2086,9 @@
   ],
   "d9874e3cbb900dca3116b311d3aa90d3b2e7c30f": [
     "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Laptop_Hierarchy_small.png"
+  ],
+  "c0954ca6c0daf604bf87b65721629a93d85708cd": [
+    "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md"
   ],
   "e0996959c71ab64f5dca08a9ffbfe044f060e95d": [
     "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md"
