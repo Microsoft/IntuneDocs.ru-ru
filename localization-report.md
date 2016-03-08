@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 959
 [ Handoff Failed Files ](#handoff-failed-list)| 1
-[ Handoff Success Files ](#handoff-success-list)| 650
+[ Handoff Success Files ](#handoff-success-list)| 648
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 308
+[ Ignored Files ](#ignored-list)| 310
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -554,7 +554,6 @@
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_planning_policy_view_small.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/media/Group-planning/Intune_planning_policy_view_small.png) | HandedOffSuccess | [Details](#ab4b82355b287f798a8b6fad49f3327aa509df9d837)
  [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md) | HandedOffSuccess | [Details](#ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1838)
  [InTuneDocs\PlanDesign\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/plan-your-user-and-device-groups.md) | HandedOffSuccess | [Details](#affc70456e63fdc436be309c0c2a103ea52d8ac0840)
- [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md) | HandedOffSuccess | [Details](#72de3ebf04a6431d65db75e1a7fe7cfc883444b2839)
  [InTuneDocs\PlanDesign\reference-for-tenant-administrator-accounts-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/PlanDesign/reference-for-tenant-administrator-accounts-for-microsoft-intune.md) | HandedOffSuccess | [Details](#aff4e82c299a567bd6eb7b4afcf314833660794d841)
  [InTuneDocs\PlanDesign\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc9653842)
  [InTuneDocs\PlanDesign\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/PlanDesign/TOC.md) | HandedOffSuccess | [Details](#fe9ddb6538e31fc5ad5bd254027c8694c0f3e1cc843)
@@ -642,7 +641,6 @@
  [InTuneDocs\use-conditional-access-with-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/use-conditional-access-with-intune.md) | HandedOffSuccess | [Details](#0d99827bf6964807f8e62613a69f428814492705928)
  [InTuneDocs\use-conditional-access-with-intune-and-configuration-manager.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/use-conditional-access-with-intune-and-configuration-manager.md) | HandedOffSuccess | [Details](#e71e2e6734abce1feee60ea364db8c8eedb399e6927)
  [InTuneDocs\use-groups-to-manage-users-and-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/use-groups-to-manage-users-and-devices-with-microsoft-intune.md) | HandedOffSuccess | [Details](#2a7393638c70622422bb95b6f3822454b3da54e9930)
- [InTuneDocs\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md) | HandedOffSuccess | [Details](#e0996959c71ab64f5dca08a9ffbfe044f060e95d929)
  [InTuneDocs\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md) | HandedOffSuccess | [Details](#2b4c8d0cbcc8d2cd45731ca47a0ec5bbf3d9101b931)
  [InTuneDocs\use-mobile-application-management-policies-in-configuration-manager.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/use-mobile-application-management-policies-in-configuration-manager.md) | HandedOffSuccess | [Details](#a6c6326c36f36d9d4b56c38c66bce0cb9113d24e932)
  [InTuneDocs\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md) | HandedOffSuccess | [Details](#ce517c19e11875b99968860de3ce5cda4d42a6cd933)
@@ -990,9 +988,11 @@
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_Planning_Groups_Default_small.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/media/Group-planning/Intune_Planning_Groups_Default_small.png) | Ignored | [Details](#c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe826)
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_Planning_Groups_Parent_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/media/Group-planning/Intune_Planning_Groups_Parent_small.jpg) | Ignored | [Details](#8ba875e0ab030c71630f3e6a603823610d7496fb834)
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_planning_policy_android.png_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/media/Group-planning/Intune_planning_policy_android.png_small.jpg) | Ignored | [Details](#2ca3f1210217fe85ccc126e0e0b5fa70f2ed957e835)
+ [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md) | Ignored | [Details](#f856da163835db9b681253d892065b551f0a548b839)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#5dc4a451325a7a20fa699b46dd61d8e988f1a1a5894)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#aa951c4e3fb9fb7ea42f21279a9177671542ad82913)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec75130136080917)
+ [InTuneDocs\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md) | Ignored | [Details](#c0954ca6c0daf604bf87b65721629a93d85708cd929)
 
 ## Item Details
 ##### <a name='7c4de7495fb4bb76bd8b9102a4ab583ce46e5cad0'></a> Source: [.gitignore](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/.gitignore)
@@ -11251,12 +11251,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='72de3ebf04a6431d65db75e1a7fe7cfc883444b2839'></a> Source: [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md)
-* Status: HandedOffSuccess
+##### <a name='f856da163835db9b681253d892065b551f0a548b839'></a> Source: [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [plan-your-user-and-device-groups-test.72be52b8cdfac0b8158fbfb266746e6102606660.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a8d58b2f4c93016f5e1022f3ef92baef15b3c1a6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-your-user-and-device-groups-test.72be52b8cdfac0b8158fbfb266746e6102606660.ru-ru.xlf)
-* Handoff Datetime: 2016-03-08 20:52:08
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -12345,12 +12345,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e0996959c71ab64f5dca08a9ffbfe044f060e95d929'></a> Source: [InTuneDocs\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md)
-* Status: HandedOffSuccess
+##### <a name='c0954ca6c0daf604bf87b65721629a93d85708cd929'></a> Source: [InTuneDocs\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [use-groups-to-manage-users-and-devices-with-microsoft-intune-test.db4094b0a3a9662b270e0b3eef0c46ce6fd5cd9f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a8d58b2f4c93016f5e1022f3ef92baef15b3c1a6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/use-groups-to-manage-users-and-devices-with-microsoft-intune-test.db4094b0a3a9662b270e0b3eef0c46ce6fd5cd9f.ru-ru.xlf)
-* Handoff Datetime: 2016-03-08 20:52:08
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
