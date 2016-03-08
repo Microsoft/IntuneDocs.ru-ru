@@ -509,12 +509,6 @@
   "e868289a41edf196acb6251aa66ff41232be4693": [
     "InTuneDocs\\GetStarted\\get-started-with-a-30-day-trial-of-microsoft-intune-bryanla.md"
   ],
-  "89596536ef9251efc72c50945976c9d531645fcd": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "5ff5837d5c915410e10265ee2315bb92b7b8565a": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
   "eb1cc93037a2aad2f145608a7ebf5d8799a6ea18": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
   ],
@@ -638,6 +632,9 @@
   ],
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\GetStarted\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+  ],
+  "5457f3def16805d6fc0a23bc5b82de27e754162c": [
+    "InTuneDocs\\GetStarted\\TOC.md"
   ],
   "292c67ff8578ae175670f68a093fe868c4449243": [
     "InTuneDocs\\GetStarted\\TOC.md"
@@ -1475,6 +1472,9 @@
   "ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
   ],
+  "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
@@ -1769,6 +1769,9 @@
   "84889dbdc5b1f00821c10dcdf957c9d8afe38c6e": [
     "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
   ],
+  "b39c25b2080c68eea5e81a92f1df2e4cedc71086": [
+    "InTuneDocs\\Understand\\TOC.md"
+  ],
   "8db1f7ae510cd5e92b62eba1a3f11404ad99330e": [
     "InTuneDocs\\Understand\\TOC.md"
   ],
@@ -1985,6 +1988,9 @@
   "bc9f2468c1de82f7b07e3a44c38e058da5f9f525": [
     "InTuneDocs\\Manage-access-to-sharepoint-online-test-refactor.md"
   ],
+  "89596536ef9251efc72c50945976c9d531645fcd": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
+  ],
   "7a214c007e6d13ff37faea99d62f797885c825eb": [
     "InTuneDocs\\GetStarted\\set-up-android-management-with-microsoft-intune.md"
   ],
@@ -2027,7 +2033,58 @@
   "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
     "InTuneDocs\\GetStarted\\media\\Windows-Phone-Enrollment.png"
   ],
+  "72de3ebf04a6431d65db75e1a7fe7cfc883444b2": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
+  ],
   "e3bfb329a38ef87a6f3d0676af837b4c967296ce": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
+  ],
+  "590b8647b4f4011900631031eeffd699cb86d373": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_BYOD_small.png"
+  ],
+  "5086725ccf5b4e7446ecf28bcd809227b4af2108": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_AD_Criteria_small.png"
+  ],
+  "0c2a24408f71fce87761e3e7cb45ff35585b3436": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_AD_Summary_small.png"
+  ],
+  "c6ffefad08f24040950d97a0240ff01208055588": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Laptop_small.png"
+  ],
+  "300c80fc472bc290aa7a1a9043b4dc46b121d8f8": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_OS_Hierachy_small.png"
+  ],
+  "98124eee7714edbadea5ecec34ad71a4d2b24de6": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Midpoint_Hierachy_small.png"
+  ],
+  "b43c4c9de2b6bd7157e64a3d3f61c8dbd4eb864e": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Device_General_small.png"
+  ],
+  "a7d503dd2df1555960b9745a2afeb5cbabc10d2f": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Device_Criteria_small.png"
+  ],
+  "f35a8b3a5bd44701c4b4864a1c81370af7a58ac9": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Device_Summary_small.png"
+  ],
+  "992bb4c23d03f3b5409fc7ddb2caa2d1c934932f": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Groups_Hierarchy_Final_Small.png"
+  ],
+  "ba280c0c0ce6bda47a72ab3803226c74a3d9d935": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_planning_policy_android_small.png"
+  ],
+  "ab4b82355b287f798a8b6fad49f3327aa509df9d": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_planning_policy_view_small.png"
+  ],
+  "f2e48f9763292bbcc66a9f6b645720b36475dfad": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_BYOD_Hierachy_View_small.png"
+  ],
+  "d7407aba1f664996d13a63dd80c29734fc23702c": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_AD_General_small.png"
+  ],
+  "d9874e3cbb900dca3116b311d3aa90d3b2e7c30f": [
+    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Laptop_Hierarchy_small.png"
+  ],
+  "e0996959c71ab64f5dca08a9ffbfe044f060e95d": [
+    "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md"
   ]
 }
