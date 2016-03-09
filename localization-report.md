@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 959
 [ Handoff Failed Files ](#handoff-failed-list)| 1
-[ Handoff Success Files ](#handoff-success-list)| 651
+[ Handoff Success Files ](#handoff-success-list)| 650
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 307
+[ Ignored Files ](#ignored-list)| 308
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -626,7 +626,6 @@
  [InTuneDocs\Understand\choose-between-intune-and-hybrid.md](https://github.com/Microsoft/IntuneDocs-pr/blob/96c2c79496b5864aabeb3d5c7b975819d66ec37d/InTuneDocs/Understand/choose-between-intune-and-hybrid.md) | HandedOffSuccess | [Details](#5f44d0532e1f46993d8d1fc7dafc3b6116553b99909)
  [InTuneDocs\Understand\choose-between-intune-and-mdm-for-office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/96c2c79496b5864aabeb3d5c7b975819d66ec37d/InTuneDocs/Understand/choose-between-intune-and-mdm-for-office-365.md) | HandedOffSuccess | [Details](#35de2586eef432787c5244832af5a9fe9ab5787a910)
  [InTuneDocs\Understand\choose-how-to-manage-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/Understand/choose-how-to-manage-devices.md) | HandedOffSuccess | [Details](#8c66605b94304665d3899cfed59fd91149b0dda3911)
- [InTuneDocs\Understand\common-ways-to-use-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Understand/common-ways-to-use-intune.md) | HandedOffSuccess | [Details](#bc898f742448eaa32cc93ca09f3200f1a6917cb5912)
  [InTuneDocs\Understand\frequently-asked-questions-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/Understand/frequently-asked-questions-for-microsoft-intune.md) | HandedOffSuccess | [Details](#621fa27f234e3397cb919eeb14877b22bd7a86fd914)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune.md) | HandedOffSuccess | [Details](#89596536ef9251efc72c50945976c9d531645fcd915)
  [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/Understand/introduction-to-microsoft-intune.md) | HandedOffSuccess | [Details](#455701510cf85442c6b4ee4a39d42f4283f18a87916)
@@ -991,6 +990,7 @@
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_Planning_Groups_Parent_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/PlanDesign/media/Group-planning/Intune_Planning_Groups_Parent_small.jpg) | Ignored | [Details](#8ba875e0ab030c71630f3e6a603823610d7496fb838)
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_planning_policy_android.png_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/PlanDesign/media/Group-planning/Intune_planning_policy_android.png_small.jpg) | Ignored | [Details](#2ca3f1210217fe85ccc126e0e0b5fa70f2ed957e839)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#5dc4a451325a7a20fa699b46dd61d8e988f1a1a5894)
+ [InTuneDocs\Understand\common-ways-to-use-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Understand/common-ways-to-use-intune.md) | Ignored | [Details](#4f2ecd8203167716cbb48316be0ed848e079557a912)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#aa951c4e3fb9fb7ea42f21279a9177671542ad82913)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec75130136080917)
 
@@ -12116,12 +12116,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='bc898f742448eaa32cc93ca09f3200f1a6917cb5912'></a> Source: [InTuneDocs\Understand\common-ways-to-use-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Understand/common-ways-to-use-intune.md)
-* Status: HandedOffSuccess
+##### <a name='4f2ecd8203167716cbb48316be0ed848e079557a912'></a> Source: [InTuneDocs\Understand\common-ways-to-use-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Understand/common-ways-to-use-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [common-ways-to-use-intune.83099fc3e4530a1275648f414a67e67caff97d81.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9010dc2e8c39c69c26efc5cb3ebb1d17bba821a4/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/common-ways-to-use-intune.83099fc3e4530a1275648f414a67e67caff97d81.ru-ru.xlf)
-* Handoff Datetime: 2016-03-09 01:53:32
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
