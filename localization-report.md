@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 959
 [ Handoff Failed Files ](#handoff-failed-list)| 1
-[ Handoff Success Files ](#handoff-success-list)| 651
+[ Handoff Success Files ](#handoff-success-list)| 648
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 307
+[ Ignored Files ](#ignored-list)| 310
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -326,8 +326,6 @@
  [InTuneDocs\mac-os-x-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/mac-os-x-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#420e39e57175ef7cbf4d5421994f5ba7cff4886f316)
  [InTuneDocs\mac-os-x-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/mac-os-x-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#5974d809fbe491dbb98d879e384b1123f618151c317)
  [InTuneDocs\maintain-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/maintain-microsoft-intune.md) | HandedOffSuccess | [Details](#6db081f2cd511da2faaa65a466fe2637388be50b318)
- [InTuneDocs\Manage-access-to-email_test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Manage-access-to-email_test-refactor.md) | HandedOffSuccess | [Details](#f8267a38917ed4d8febd5387d7dd960f6d605485320)
- [InTuneDocs\Manage-access-to-email-and-O365-services-test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Manage-access-to-email-and-O365-services-test-refactor.md) | HandedOffSuccess | [Details](#9a38d43aa6f6be548b63ddd3ca77d8fc9817ab4f319)
  [InTuneDocs\Manage-access-to-exchange-online-test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Manage-access-to-exchange-online-test-refactor.md) | HandedOffSuccess | [Details](#14e5465c6606a4128a2ce8ff25c3d021512317a3322)
  [InTuneDocs\Manage-access-to-exchange-on-premises-test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Manage-access-to-exchange-on-premises-test-refactor.md) | HandedOffSuccess | [Details](#1d79cde996c0c83deb999ef10c70b82aaf9e2179321)
  [InTuneDocs\Manage-access-to-sharepoint-online-test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Manage-access-to-sharepoint-online-test-refactor.md) | HandedOffSuccess | [Details](#b3d9685d299f189479b2d4f65775b94b01952599323)
@@ -559,7 +557,6 @@
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_planning_policy_view_small.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/PlanDesign/media/Group-planning/Intune_planning_policy_view_small.png) | HandedOffSuccess | [Details](#ab4b82355b287f798a8b6fad49f3327aa509df9d841)
  [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md) | HandedOffSuccess | [Details](#ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1842)
  [InTuneDocs\PlanDesign\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff692a8ec0c2db4308b25eba378854a1451d38bf/InTuneDocs/PlanDesign/plan-your-user-and-device-groups.md) | HandedOffSuccess | [Details](#affc70456e63fdc436be309c0c2a103ea52d8ac0844)
- [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md) | HandedOffSuccess | [Details](#6a63bf5629899c8501f4d70984dc2c51feadf15a843)
  [InTuneDocs\PlanDesign\reference-for-tenant-administrator-accounts-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/PlanDesign/reference-for-tenant-administrator-accounts-for-microsoft-intune.md) | HandedOffSuccess | [Details](#aff4e82c299a567bd6eb7b4afcf314833660794d845)
  [InTuneDocs\PlanDesign\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/PlanDesign/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc9653846)
  [InTuneDocs\PlanDesign\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/PlanDesign/TOC.md) | HandedOffSuccess | [Details](#fe9ddb6538e31fc5ad5bd254027c8694c0f3e1cc847)
@@ -699,6 +696,8 @@
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6140)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca141)
  [InTuneDocs\GetStarted\media\Windows-Device-Enrollment.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/GetStarted/media/Windows-Device-Enrollment.png) | Ignored | [Details](#8424e87bd47f3f7f08fd4a3ff62f6f43e6c2f160145)
+ [InTuneDocs\Manage-access-to-email_test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/Manage-access-to-email_test-refactor.md) | Ignored | [Details](#6b5416e54d8af1146fc059df2442826f544b9af1320)
+ [InTuneDocs\Manage-access-to-email-and-O365-services-test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/Manage-access-to-email-and-O365-services-test-refactor.md) | Ignored | [Details](#d8b0af58653e9f7520678f1f362b401b73a34d48319)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | Ignored | [Details](#64f06d45481657e65ee924d286623dc83a514f40339)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-12-link-set-mdm.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png) | Ignored | [Details](#73ef645cbc717eb389266a0e21f6ac7bdb749a6f340)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-13-enbl-ios-plat.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-13-enbl-ios-plat.png) | Ignored | [Details](#b3a60bde0102f405e115743da44fe7b71c503d07341)
@@ -990,6 +989,7 @@
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_Planning_Groups_Default_small.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/PlanDesign/media/Group-planning/Intune_Planning_Groups_Default_small.png) | Ignored | [Details](#c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe830)
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_Planning_Groups_Parent_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/PlanDesign/media/Group-planning/Intune_Planning_Groups_Parent_small.jpg) | Ignored | [Details](#8ba875e0ab030c71630f3e6a603823610d7496fb838)
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_planning_policy_android.png_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/PlanDesign/media/Group-planning/Intune_planning_policy_android.png_small.jpg) | Ignored | [Details](#2ca3f1210217fe85ccc126e0e0b5fa70f2ed957e839)
+ [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md) | Ignored | [Details](#55d9aacf2d7b41ae2efb47722316c5f7dc3201a9843)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#5dc4a451325a7a20fa699b46dd61d8e988f1a1a5894)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#aa951c4e3fb9fb7ea42f21279a9177671542ad82913)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec75130136080917)
@@ -4834,24 +4834,24 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='f8267a38917ed4d8febd5387d7dd960f6d605485320'></a> Source: [InTuneDocs\Manage-access-to-email_test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Manage-access-to-email_test-refactor.md)
-* Status: HandedOffSuccess
+##### <a name='6b5416e54d8af1146fc059df2442826f544b9af1320'></a> Source: [InTuneDocs\Manage-access-to-email_test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/Manage-access-to-email_test-refactor.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [Manage-access-to-email_test-refactor.26db61beb130c42cafebf7358822a411593dee95.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9010dc2e8c39c69c26efc5cb3ebb1d17bba821a4/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Manage-access-to-email_test-refactor.26db61beb130c42cafebf7358822a411593dee95.ru-ru.xlf)
-* Handoff Datetime: 2016-03-09 01:53:32
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9a38d43aa6f6be548b63ddd3ca77d8fc9817ab4f319'></a> Source: [InTuneDocs\Manage-access-to-email-and-O365-services-test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/Manage-access-to-email-and-O365-services-test-refactor.md)
-* Status: HandedOffSuccess
+##### <a name='d8b0af58653e9f7520678f1f362b401b73a34d48319'></a> Source: [InTuneDocs\Manage-access-to-email-and-O365-services-test-refactor.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/Manage-access-to-email-and-O365-services-test-refactor.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [Manage-access-to-email-and-O365-services-test-refactor.b03cdcfe680fe520ac376e3d3ca93bd3322f7f03.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9010dc2e8c39c69c26efc5cb3ebb1d17bba821a4/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Manage-access-to-email-and-O365-services-test-refactor.b03cdcfe680fe520ac376e3d3ca93bd3322f7f03.ru-ru.xlf)
-* Handoff Datetime: 2016-03-09 01:53:32
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -11299,12 +11299,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6a63bf5629899c8501f4d70984dc2c51feadf15a843'></a> Source: [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md)
-* Status: HandedOffSuccess
+##### <a name='55d9aacf2d7b41ae2efb47722316c5f7dc3201a9843'></a> Source: [InTuneDocs\PlanDesign\plan-your-user-and-device-groups-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1f20b7ba33c9d80fbaff52005de20747f5d115f0/InTuneDocs/PlanDesign/plan-your-user-and-device-groups-test.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [plan-your-user-and-device-groups-test.72be52b8cdfac0b8158fbfb266746e6102606660.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9010dc2e8c39c69c26efc5cb3ebb1d17bba821a4/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-your-user-and-device-groups-test.72be52b8cdfac0b8158fbfb266746e6102606660.ru-ru.xlf)
-* Handoff Datetime: 2016-03-09 01:53:32
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
