@@ -1866,37 +1866,16 @@
     "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md"
   ],
   "998032f4093d7b06640438b2fbb8e66e70a200a0": [
-    "InTuneDocs\\using-the-intune-company-portal-website.md"
-  ],
-  "4004752da545e7c9c19b67ce8808ad3d3f0bd3a2": [
-    "InTuneDocs\\media\\Enroll-Android-logo.JPG"
-  ],
-  "c13ff92646549eabc0c40c8dca41dae34521918c": [
-    "InTuneDocs\\media\\Enroll-Apple-logo.JPG"
-  ],
-  "6455011cf351fcecbd1579b74a9f491e8365466d": [
-    "InTuneDocs\\media\\Enroll-windows-logo.JPG"
-  ],
-  "adee1773d15d6a2f4bded3c47c1462dbec904e6d": [
-    "InTuneDocs\\media\\IW-Help-pics\\iwp-1-tap-reset-passcode.png"
-  ],
-  "8c9f6962f0d3b1ff6d40143c9bac31906f1ae735": [
-    "InTuneDocs\\media\\IW-Help-pics\\iwp-2-sign-out.png"
-  ],
-  "4fea71a05f8f48a12977e8b0fccab3b915b5f5d3": [
-    "InTuneDocs\\media\\IW-Help-pics\\iwp-3-tap-reset-passcode-after-signin.png"
-  ],
-  "1bdc065a04ad360225673f65bf081dfa05dd8b1f": [
-    "InTuneDocs\\using-your-android-device-with-intune-removed-.md"
+    "InTuneDocs\\EndUser\\using-the-intune-company-portal-website.md"
   ],
   "d05e2045c3f38e40c021fbd2992c6141e3bb9606": [
-    "InTuneDocs\\using-your-android-device-with-intune.md"
+    "InTuneDocs\\EndUser\\using-your-android-device-with-intune.md"
   ],
   "1c5681c4e7598ec42295200322eafda48fed42b8": [
-    "InTuneDocs\\using-your-ios-or-mac-os-x-device-with-intune.md"
+    "InTuneDocs\\EndUser\\using-your-ios-or-mac-os-x-device-with-intune.md"
   ],
   "e57c1b0bf099d15b1125f9ed14fccae28d9fe9dd": [
-    "InTuneDocs\\using-your-windows-device-with-intune.md"
+    "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
   ],
   "78a507cf5c5710a6fefc0ca147e94baed8dd7639": [
     "InTuneDocs\\wait-while-your-device-is-being-evaluated.md"
@@ -2185,5 +2164,8 @@
   ],
   "55d1c4d6e07fa237aadd2db6bb22eb5b6e8a4a10": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test-bryanla.md"
+  ],
+  "753ecc398278ca59385d459c22d3614feed58985": [
+    "InTuneDocs\\EndUser\\TOC.md"
   ]
 }
