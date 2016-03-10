@@ -2176,5 +2176,11 @@
   ],
   "ba0bc3a5d9349bc1ae31afb3e2621bfa59ec59d8": [
     "InTuneDocs\\GetStarted\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
+  "5b75dca80290ce1bedd51aa4a35770ed4611b528": [
+    "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune-test.md"
+  ],
+  "55d1c4d6e07fa237aadd2db6bb22eb5b6e8a4a10": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test-bryanla.md"
   ]
 }
