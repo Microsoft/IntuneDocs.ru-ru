@@ -1904,6 +1904,9 @@
   "32acc0a8398a4888551822723a98b477757de8c4": [
     "InTuneDocs\\what-s-new-test.md"
   ],
+  "d965be54eaac606d5585363a4c6f905e797df7d8": [
+    "InTuneDocs\\GetStarted\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
+  ],
   "4a8cda6ec7e9da83e0d7c195c9b09a66a1a781cd": [
     "InTuneDocs\\GetStarted\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
@@ -2167,5 +2170,20 @@
   ],
   "753ecc398278ca59385d459c22d3614feed58985": [
     "InTuneDocs\\EndUser\\TOC.md"
+  ],
+  "bf507f07b13f7febc43d23d8251c56be61a9a3d5": [
+    "InTuneDocs\\GetStarted\\Help end users understand Company Portal app messages.md"
+  ],
+  "b5de31e69b875aff481e6c05ddbb374c46ab5dd6": [
+    "InTuneDocs\\GetStarted\\How your Android users get their apps.md"
+  ],
+  "0098333e91d90f48b04a9091705f117e26fef40e": [
+    "InTuneDocs\\GetStarted\\How your end users get their apps.md"
+  ],
+  "f2460ea7d816de4d7e4c6c5b25ca59a8a59f8b07": [
+    "InTuneDocs\\GetStarted\\How your iOS users get their apps.md"
+  ],
+  "4cc3530ac9c74290cf7c5ab43c8d165fd9ac8bf5": [
+    "InTuneDocs\\GetStarted\\How your Windows users get their apps.md"
   ]
 }
