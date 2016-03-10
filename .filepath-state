@@ -34,7 +34,7 @@
     "InTuneDocs\\android-custom-policy-settings-in-microsoft-intune.md"
   ],
   "af7aca1d12c4c8acf4c38eb797839c26fbf18f98": [
-    "InTuneDocs\\application-rollout.md"
+    "InTuneDocs\\GetStarted\\application-rollout.md"
   ],
   "95b6c378976d59ab701e035dad78085907038380": [
     "InTuneDocs\\art-test-page.md"
@@ -1506,7 +1506,7 @@
     "InTuneDocs\\PlanDesign\\TOC.md"
   ],
   "a9dd55237160648a2a66ab4e1a5b2cbd3159e412": [
-    "InTuneDocs\\policy-rollout.md"
+    "InTuneDocs\\GetStarted\\policy-rollout.md"
   ],
   "34fd633cfd4bfe423815b5789093c88b08e00baa": [
     "InTuneDocs\\GetStarted\\post-configuration-tasks.md"
@@ -2155,6 +2155,9 @@
   ],
   "0dee7ba0baccf2e3c2c56b7d34ccca3d9794ac1a": [
     "InTuneDocs\\GetStarted\\proof-of-concept.md"
+  ],
+  "a97e98bc6030755174922f08b37b4bb91aa63602": [
+    "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
   ],
   "a6091b215e17ca88dd0575aa9e3a5ee1694c9f93": [
     "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
