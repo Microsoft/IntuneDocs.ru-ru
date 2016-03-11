@@ -216,6 +216,9 @@
   "90561db47719f76479a52e965084be0e49b1bfec": [
     "InTuneDocs\\DeployUse\\microsoft-intune-mobile-app-management-policies-and-ios-open-in.md"
   ],
+  "ddca9b2edd6ae3a55e6088c5ffdf2e248913c5ff": [
+    "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "56a3c689d7bdc21d3520356d19c6a49a77f1d855": [
     "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -2212,5 +2215,14 @@
   ],
   "4cc3530ac9c74290cf7c5ab43c8d165fd9ac8bf5": [
     "InTuneDocs\\GetStarted\\How your Windows users get their apps.md"
+  ],
+  "7f6e7a73d53cebf0c74e0f80285226fb7f75d010": [
+    "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_MonitorUsers.png"
+  ],
+  "56f67d5dc2529ef69bf6ed1134d77e57497b2abd": [
+    "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_FlaggedUserDetails.png"
+  ],
+  "da1a1004285cb16b91a5d883b4e41adcc8acfe79": [
+    "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequestsSummary.png"
   ]
 }
