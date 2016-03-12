@@ -1769,6 +1769,9 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
+  "3b9c00857551480257905fe0215aeb25b30506f2": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
+  ],
   "455701510cf85442c6b4ee4a39d42f4283f18a87": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
@@ -2224,5 +2227,20 @@
   ],
   "da1a1004285cb16b91a5d883b4e41adcc8acfe79": [
     "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequestsSummary.png"
+  ],
+  "087ba6fba3be9c5ffa6cbebf22fdeb25a971bef8": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md"
+  ],
+  "2ddc35085066579b491a638e0271064b0901f80a": [
+    "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune-test.md"
+  ],
+  "2ad31e89c938b33afe0e375b36b0381c8b1e3731": [
+    "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-december-2015.md"
+  ],
+  "c4d5fdd7a648583067bc9734533301df0bac72d2": [
+    "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-january-2106.md"
+  ],
+  "57db74a1fa4a8cd955861d69690b5297c576b6b2": [
+    "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-november-2015.md"
   ]
 }
