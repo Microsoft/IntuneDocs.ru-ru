@@ -1483,6 +1483,9 @@
   "ef456e015b88463f47443da870a93d08f041b4e0": [
     "InTuneDocs\\PlanDesign\\architecture-guidance-for-protecting-company-email-and-documents.md"
   ],
+  "092b7f0875c12a20dfb407c7da31d2067dd5a755": [
+    "InTuneDocs\\PlanDesign\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
+  ],
   "d60bc37b173e86a2417a5393943dfb78a90ed96f": [
     "InTuneDocs\\PlanDesign\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
   ],
@@ -2248,6 +2251,9 @@
   "087ba6fba3be9c5ffa6cbebf22fdeb25a971bef8": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md"
   ],
+  "c9bee8bf2f06961fd0147fd978f442de330ad59b": [
+    "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune-test.md"
+  ],
   "b811307d6d5791439280f33d3b1adcfa2666dd2e": [
     "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune-test.md"
   ],
@@ -2262,6 +2268,9 @@
   ],
   "57db74a1fa4a8cd955861d69690b5297c576b6b2": [
     "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-november-2015.md"
+  ],
+  "9819f41c85576bcb66c4290ec7779b8ed034edef": [
+    "InTuneDocs\\GetStarted\\previous-intune-releases.md"
   ],
   "d3d1a0cef8a30b565bc9dfb11dec5ad1ad01cd0f": [
     "InTuneDocs\\GetStarted\\previous-intune-releases.md"
