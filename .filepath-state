@@ -502,6 +502,9 @@
   "107d9c33501f6ad6c7772b9d5ffc967c054a79f5": [
     "InTuneDocs\\GetStarted\\Exchange-access-rules-for-mobile-devices.md"
   ],
+  "23c964485c5394e865f40e49fb19e8cf860fd1a8": [
+    "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
   "b63df9cd9fb5a93c9a349b4eacfcd1b99af2396a": [
     "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
@@ -2274,5 +2277,8 @@
   ],
   "d3d1a0cef8a30b565bc9dfb11dec5ad1ad01cd0f": [
     "InTuneDocs\\GetStarted\\previous-intune-releases.md"
+  ],
+  "fd228641a36b69f77af54b978b5a70379e20f636": [
+    "InTuneDocs\\Media\\Intune-MDM-Authority.png"
   ]
 }
