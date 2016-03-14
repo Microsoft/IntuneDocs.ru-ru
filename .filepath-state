@@ -641,6 +641,9 @@
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\GetStarted\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
   ],
+  "126a87ad4879ca2f4db6ae7ef53dd4d87c4e109e": [
+    "InTuneDocs\\GetStarted\\TOC.md"
+  ],
   "7e3ed016b2fe2a95e345e91301e6d385ae20fa11": [
     "InTuneDocs\\GetStarted\\TOC.md"
   ],
@@ -667,6 +670,9 @@
   ],
   "2df7b3923bab893145304c03e5dc4c984e0781b7": [
     "InTuneDocs\\GetStarted\\TOC.md"
+  ],
+  "065a1bad4c74275963ebd768cad442f9b1367d1c": [
+    "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md"
   ],
   "bf9406336cc9a4dd179f80f6b504616b69e5ca88": [
     "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md"
@@ -1492,6 +1498,9 @@
   "cd99ee7e89c3bf7be0c6cf1185a81c89051bcc6e": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
+  "36e4b8eb9af022b1d21517887e46e798294c7aa7": [
+    "InTuneDocs\\PlanDesign\\TOC.md"
+  ],
   "4209fbb71aa59736cc8bfb6372e163f132d8785d": [
     "InTuneDocs\\PlanDesign\\TOC.md"
   ],
@@ -1921,6 +1930,9 @@
   "03cadb141831ca1a897d608b85af55b385bc17fc": [
     "InTuneDocs\\what-happens-if-you-reset-a-personal-device-using-the-company-portal.md"
   ],
+  "ef98a323acd85570e70c5ee7c831cfa84cfc212d": [
+    "InTuneDocs\\what-s-coming-in-microsoft-intune.md"
+  ],
   "713d0d94799c6e1f624b7258ed10470e5aa3258f": [
     "InTuneDocs\\what-s-coming-in-microsoft-intune.md"
   ],
@@ -2236,6 +2248,9 @@
   "087ba6fba3be9c5ffa6cbebf22fdeb25a971bef8": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md"
   ],
+  "b811307d6d5791439280f33d3b1adcfa2666dd2e": [
+    "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune-test.md"
+  ],
   "2ddc35085066579b491a638e0271064b0901f80a": [
     "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune-test.md"
   ],
@@ -2247,5 +2262,8 @@
   ],
   "57db74a1fa4a8cd955861d69690b5297c576b6b2": [
     "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-november-2015.md"
+  ],
+  "d3d1a0cef8a30b565bc9dfb11dec5ad1ad01cd0f": [
+    "InTuneDocs\\GetStarted\\previous-intune-releases.md"
   ]
 }
