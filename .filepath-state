@@ -257,11 +257,7 @@
     "InTuneDocs\\Understand\\Sample.md"
   ],
   "84421bf7f4ba657e685239fb27f4798a46485f71": [
-    "InTuneDocs\\DeployUse\\media\\150x150.png",
-    "InTuneDocs\\GetStarted\\media\\150x150.png",
-    "InTuneDocs\\PlanDesign\\media\\150x150.png",
-    "InTuneDocs\\Troubleshoot\\media\\150x150.png",
-    "InTuneDocs\\Understand\\media\\150x150.png"
+    "InTuneDocs\\DeployUse\\media\\150x150.png"
   ],
   "15a1211ec83158d1a77c92411100bff572ff9a7a": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
@@ -2164,6 +2160,9 @@
   ],
   "0dee7ba0baccf2e3c2c56b7d34ccca3d9794ac1a": [
     "InTuneDocs\\GetStarted\\proof-of-concept.md"
+  ],
+  "e6ffce92ae36ee2288f2b01006811f2426f13a52": [
+    "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
   ],
   "a97e98bc6030755174922f08b37b4bb91aa63602": [
     "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
