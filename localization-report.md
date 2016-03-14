@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 977
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 669
+[ Handoff Success Files ](#handoff-success-list)| 668
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 304
+[ Ignored Files ](#ignored-list)| 305
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -142,7 +142,6 @@
  [InTuneDocs\GetStarted\common-microsoft-intune-evaluation-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/GetStarted/common-microsoft-intune-evaluation-tasks.md) | HandedOffSuccess | [Details](#102d8f386c71b03e962e5ec2c364e85326f9c1be126)
  [InTuneDocs\GetStarted\enterprise-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f349fd284235c77062c8daebddc7e603bdf349/InTuneDocs/GetStarted/enterprise-rollout.md) | HandedOffSuccess | [Details](#88d12cc7e482bc8c04b81be87357bf5b0bf064b5128)
  [InTuneDocs\GetStarted\Exchange-access-rules-for-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/GetStarted/Exchange-access-rules-for-mobile-devices.md) | HandedOffSuccess | [Details](#107d9c33501f6ad6c7772b9d5ffc967c054a79f5129)
- [InTuneDocs\GetStarted\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/762493412a3e240c14fcc8a9085d77cb0a8117cd/InTuneDocs/GetStarted/get-ready-to-enroll-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#b63df9cd9fb5a93c9a349b4eacfcd1b99af2396a130)
  [InTuneDocs\GetStarted\get-started-with-a-30-day-trial-of-microsoft-intune-bryanla.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/GetStarted/get-started-with-a-30-day-trial-of-microsoft-intune-bryanla.md) | HandedOffSuccess | [Details](#e868289a41edf196acb6251aa66ff41232be4693131)
  [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune.md) | HandedOffSuccess | [Details](#1f70c7f8f2a8405f752706db5e7969fbce0ca03e142)
  [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md](https://github.com/Microsoft/IntuneDocs-pr/blob/762493412a3e240c14fcc8a9085d77cb0a8117cd/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md) | HandedOffSuccess | [Details](#d5c0a3d768a3769e5e26bedbdd2ea0e2eca256f6132)
@@ -716,6 +715,7 @@
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab299)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#d5b59d8792ee1a074cb19743d35cc91d9cdf42ff108)
  [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/GetStarted/docfx.json) | Ignored | [Details](#91e3564fcdd273935bff28b0e1817ecab2788483127)
+ [InTuneDocs\GetStarted\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/GetStarted/get-ready-to-enroll-devices-in-microsoft-intune.md) | Ignored | [Details](#23c964485c5394e865f40e49fb19e8cf860fd1a8130)
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb157)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6158)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca159)
@@ -2577,12 +2577,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='b63df9cd9fb5a93c9a349b4eacfcd1b99af2396a130'></a> Source: [InTuneDocs\GetStarted\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/762493412a3e240c14fcc8a9085d77cb0a8117cd/InTuneDocs/GetStarted/get-ready-to-enroll-devices-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='23c964485c5394e865f40e49fb19e8cf860fd1a8130'></a> Source: [InTuneDocs\GetStarted\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/35871ed46a63620d61b81f06eba23f6afcac1090/InTuneDocs/GetStarted/get-ready-to-enroll-devices-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [get-ready-to-enroll-devices-in-microsoft-intune.63013147c460c801396b08f7c4e6d7fc959f6032.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/c2d193588c25a91232c9982e40cc6b512332aee8/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/get-ready-to-enroll-devices-in-microsoft-intune.63013147c460c801396b08f7c4e6d7fc959f6032.ru-ru.xlf)
-* Handoff Datetime: 2016-03-10 01:17:42
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
