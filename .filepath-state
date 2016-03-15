@@ -26,14 +26,14 @@
     "InTuneDocs\\administrative-accounts-websites-perms.md"
   ],
   "7d6b7c475f24867a1c09793f723576a9158b415a": [
-    "InTuneDocs\\android-configuration-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\android-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "b4eabe1a9581b511ffcb82c2c62b009b0000fbb2": [
-    "InTuneDocs\\android-custom-policy-settings-in-microsoft-intune-deleted.md",
-    "migrated-03-14\\Topic\\Android-custom-policy-settings-in-Microsoft-Intune---deleted.md"
+    "InTuneDocs\\zDeletedTopics\\android-custom-policy-settings-in-microsoft-intune-deleted.md",
+    "InTuneDocs\\zDeletedTopics\\Android-custom-policy-settings-in-Microsoft-Intune---deleted.md"
   ],
   "bb2afb9f432b33a5485761fc0dd0bc2fd8cfc3f9": [
-    "InTuneDocs\\android-custom-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\android-custom-policy-settings-in-microsoft-intune.md"
   ],
   "af7aca1d12c4c8acf4c38eb797839c26fbf18f98": [
     "InTuneDocs\\GetStarted\\application-rollout.md",
@@ -65,7 +65,7 @@
     "InTuneDocs\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
   ],
   "fc361a40e9655801949ef0d7b963ad5b2b4170fd": [
-    "InTuneDocs\\choose-the-right-microsoft-intune-policy-to-use-deleted.md"
+    "InTuneDocs\\zDeletedTopics\\choose-the-right-microsoft-intune-policy-to-use-deleted.md"
   ],
   "f5d6903ea1300626502033b153385e9902335bd4": [
     "InTuneDocs\\company-portal-app-not-supported.md",
@@ -76,6 +76,9 @@
   ],
   "879aa0f552b54bb2b28b069b8471deaf81c3fbe4": [
     "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md"
+  ],
+  "340da5e05c93022c46e1ecde580ac4b090fa776d": [
+    "InTuneDocs\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
   ],
   "80243c88f539eb7684eabb0f3fb317aa4af94870": [
     "InTuneDocs\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
@@ -100,7 +103,7 @@
     "migrated-03-14\\Topic\\Contact-Assisted-Phone-Support-for-Microsoft-Intune.md"
   ],
   "26d8a024ae3fdeed1a545415be71cc1a2f5bc2aa": [
-    "InTuneDocs\\custom-uri-settings-for-windows-10-devices.md"
+    "InTuneDocs\\DeployUse\\custom-uri-settings-for-windows-10-devices.md"
   ],
   "d6c2bdc27783128d77dbadfde7d73293c10d7ef3": [
     "InTuneDocs\\data-security-with-intune.md"
@@ -131,7 +134,7 @@
     "InTuneDocs\\DeployUse\\configure-and-manage-devices-with-microsoft-intune.md"
   ],
   "c057208685d7e11764fb43d4136ac4a4190e02e7": [
-    "InTuneDocs\\DeployUse\\configure-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\configure-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
   ],
   "a6431bd62e804b7258520bb5fc6772604ccca6b6": [
     "InTuneDocs\\DeployUse\\configure-data-loss-prevention-app-policies-with-microsoft-intune.md"
@@ -147,6 +150,9 @@
   ],
   "9e1dbcf42e82f6b81c10b7e13dc23c5ae479fb26": [
     "InTuneDocs\\DeployUse\\deploy-and-configure-apps-with-microsoft-intune.md"
+  ],
+  "1eb2318ffec5d91550955049bfd6791f514c2888": [
+    "InTuneDocs\\DeployUse\\deploy-apps-to-mobile-devices-in-microsoft-intune.md"
   ],
   "685edaf0f7c823ef0fcf7ff192d8742d389be1fc": [
     "InTuneDocs\\DeployUse\\deploy-apps-to-mobile-devices-in-microsoft-intune.md"
@@ -204,7 +210,7 @@
     "InTuneDocs\\DeployUse\\manage-access-to-email-and-sharepoint-with-microsoft-intune.md"
   ],
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
-    "InTuneDocs\\DeployUse\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
   "6c84c368636f0a11578eb6d56f74bbba8df5f5a4": [
     "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
@@ -218,6 +224,9 @@
   ],
   "9e749d8f92f288c50330194b891803f0e32f318a": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
+  ],
+  "938bd8642bb577fca6842e9d19aa6934793eb917": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
   ],
   "ae96a659b05849f82655152d7140f2e3f66f6ab8": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
@@ -1301,12 +1310,6 @@
     "InTuneDocs\\intune-ip-ranges_deleted.md",
     "migrated-03-14\\Topic\\Intune-IP-Ranges_deleted.md"
   ],
-  "a6a6911a4a3d814d33e00bf0d5787167bc40a371": [
-    "InTuneDocs\\ios-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "5b4624f8c20b8329940eda9bd9681da4dd9d4856": [
-    "InTuneDocs\\ios-custom-policy-settings-in-microsoft-intune.md"
-  ],
   "a792a294bc20835519cd38c92bad1b3aba6701ea": [
     "InTuneDocs\\ip-ranges-version-2.md"
   ],
@@ -1381,12 +1384,6 @@
   "1ac4cc220974cfed4bfae37c70eb9f78203f8bd0": [
     "InTuneDocs\\media\\WIT_Nav_TechnicalReferenceGray.png"
   ],
-  "420e39e57175ef7cbf4d5421994f5ba7cff4886f": [
-    "InTuneDocs\\mac-os-x-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "5974d809fbe491dbb98d879e384b1123f618151c": [
-    "InTuneDocs\\mac-os-x-custom-policy-settings-in-microsoft-intune.md"
-  ],
   "6db081f2cd511da2faaa65a466fe2637388be50b": [
     "InTuneDocs\\maintain-microsoft-intune.md"
   ],
@@ -1420,7 +1417,7 @@
     "migrated-03-14\\Topic\\Manage-app-access-to-SharePoint-Online.md"
   ],
   "50183bb5af5bd0b1ff38e19c2e9568bc97cf5507": [
-    "InTuneDocs\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
   ],
   "5b5dfb7ebaf7ee2a5136fa090c43bcdef1776237": [
     "InTuneDocs\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md"
@@ -1606,8 +1603,8 @@
     "migrated-03-14\\Image\\IW-Help-pics\\andr-3-warning-about-remove.png"
   ],
   "fd3605dabe3b5dd9d1a4e8ea0f5dd6038dd761a3": [
-    "InTuneDocs\\microsoft-apps-you-can-use-with-mobile-app-management-policies.md",
-    "migrated-03-14\\Topic\\Microsoft-apps-you-can-use-with-mobile-app-management-policies.md"
+    "InTuneDocs\\DeployUse\\microsoft-apps-you-can-use-with-mobile-app-management-policies.md",
+    "InTuneDocs\\zDeletedTopics\\Microsoft-apps-you-can-use-with-mobile-app-management-policies.md"
   ],
   "f646fffde55c93b0c157a0c61839792ac8a9e87d": [
     "InTuneDocs\\microsoft-azure-authenticator-app-deployment.md"
@@ -1637,12 +1634,12 @@
     "InTuneDocs\\microsoft-intune-company-portal.md"
   ],
   "a4e6e73d8c1253b3108a8628bca8876ce2718096": [
-    "InTuneDocs\\microsoft-intune-configuration-policy-settings-reference-deleted.md",
-    "migrated-03-14\\Topic\\Microsoft-Intune-configuration-policy-settings-reference---deleted.md"
+    "migrated-03-14\\Topic\\Microsoft-Intune-configuration-policy-settings-reference---deleted.md",
+    "InTuneDocs\\zDeletedTopics\\microsoft-intune-configuration-policy-settings-reference-deleted.md"
   ],
   "a78935448d1c5cef0456c4ceadf194876b25c55b": [
-    "InTuneDocs\\microsoft-intune-custom-policy-settings-reference-deleted.md",
-    "migrated-03-14\\Topic\\Microsoft-Intune-custom-policy-settings-reference---deleted.md"
+    "migrated-03-14\\Topic\\Microsoft-Intune-custom-policy-settings-reference---deleted.md",
+    "InTuneDocs\\zDeletedTopics\\microsoft-intune-custom-policy-settings-reference-deleted.md"
   ],
   "de7c4c3852d9a9a244007d0cf9aa5fbab1e433d4": [
     "InTuneDocs\\microsoft-intune-documentation-library-site-map.md"
@@ -1682,17 +1679,20 @@
     "migrated-03-14\\Topic\\Mobile-Device-Management-With-Microsoft-Intune-and-System-Center-Configuration-Manager.md"
   ],
   "9b04a6bb400020af5fb91856913b4f40e2e5a68c": [
-    "InTuneDocs\\mobile-device-security-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
   ],
   "b8f5aa62f934ba41a13ad6573b959ae79bfb5aa7": [
     "InTuneDocs\\monitor-microsoft-intune-app-deployments-deleted.md",
-    "migrated-03-14\\Topic\\Monitor-Microsoft-Intune-app-deployments---deleted.md"
+    "InTuneDocs\\zDeletedTopics\\Monitor-Microsoft-Intune-app-deployments---deleted.md"
   ],
   "0d72cf5cf7f3c99f0158aefa5f85fa7a3a6626d4": [
     "InTuneDocs\\move-from-a-microsoft-intune-free-trial-to-a-paid-subscription.md"
   ],
   "e9a117a7c2babc10d14cddbbf200ae150bccaf52": [
     "InTuneDocs\\network-bandwidth-use.md"
+  ],
+  "1c3a81d53a0fb70b8eb03c2cca2a9987f9ed37b0": [
+    "InTuneDocs\\network-infrastructure-requirements-for-microsoft-intune.md"
   ],
   "7de14a183a419df3181eff8768b7ebb18bc77b6d": [
     "InTuneDocs\\network-infrastructure-requirements-for-microsoft-intune.md"
@@ -1824,7 +1824,7 @@
     "migrated-03-14\\Topic\\Retire-company-owned-PCs-and-mobile-devices.md"
   ],
   "a239a8bdc6f4c7c216e8df093fb8c4d89fd93757": [
-    "InTuneDocs\\robstack-v2-of-alerts-docs.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-alerts-docs.md"
   ],
   "cd3d6f4caaf9372ac53f48c5f6efe33e51c654dc": [
     "InTuneDocs\\media\\Critical-Alert.jpg"
@@ -1836,7 +1836,7 @@
     "InTuneDocs\\media\\Informational-Alert.jpg"
   ],
   "a959538e5c80412c2bd01adbd30dce02a9b822ee": [
-    "InTuneDocs\\robstack-v2-of-deploy-and-manage-apps.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-and-manage-apps.md"
   ],
   "18a799a3e7dd41dde112084fa4f3ddbee22a1b89": [
     "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Overview.png"
@@ -1853,10 +1853,10 @@
     "migrated-03-14\\Image\\App-Lifecycle-Graphic.png"
   ],
   "46c5b6e79168f22febffe81bbe30db6a3de688dd": [
-    "InTuneDocs\\robstack-v2-of-deploy-apps-to-computers.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-apps-to-computers.md"
   ],
   "8723ac038f11c9fdef47a6a8dee6bdb69e7ab270": [
-    "InTuneDocs\\robstack-v2-of-deploy-apps-to-mobile-devices.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-apps-to-mobile-devices.md"
   ],
   "6496672b6485257094e48fe01425155a3399acc1": [
     "InTuneDocs\\media\\Available-install-on-iOS.png"
@@ -1865,17 +1865,17 @@
     "InTuneDocs\\media\\iOS-Required-install.PNG"
   ],
   "7b0d2e2924298ef11685300c188d61afc67e682b": [
-    "InTuneDocs\\robstack-v2-of-different-ways-to-manage-your-devices.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-different-ways-to-manage-your-devices.md"
   ],
   "5385693bd025baf0017ea0422ffdc54587e995a3": [
-    "InTuneDocs\\robstack-v2-of-get-started-with-app-deployment.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-get-started-with-app-deployment.md"
   ],
   "2fa77254519ac51c28cfb5d04728363f6d098469": [
-    "InTuneDocs\\robstack-v2-of-manage-license-agreements-for-computers.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-manage-license-agreements-for-computers.md"
   ],
   "d9dda93f6e6e003640a74b0c3201ecf4f0e1aaf2": [
-    "InTuneDocs\\robstack-v2-of-update-and-retire-apps-using-intune.md",
-    "migrated-03-14\\Topic\\robstack---V2-of-Update-and-retire-apps-using-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\robstack-v2-of-update-and-retire-apps-using-intune.md",
+    "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Update-and-retire-apps-using-Intune.md"
   ],
   "d815c79e93e717a9e4be47d85bf52ab0bddb4827": [
     "InTuneDocs\\rolling-out-apps-with-microsoft-intune.md"
@@ -1935,14 +1935,13 @@
     "InTuneDocs\\system-overview.md",
     "migrated-03-14\\Topic\\System-Overview.md"
   ],
+  "18386fe0b802c1ea695cd5d33844051cee061618": [
+    "InTuneDocs\\technical-reference-for-microsoft-intune.md"
+  ],
   "01cc9881321e0cc0fdfe1fd2667665aa89ce8ccc": [
     "InTuneDocs\\technical-reference-for-microsoft-intune.md"
   ],
-  "ac018fd4321291fe06f7a8cb20e8d0b80644ec6b": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_TechnicalReferenceHighlight.png"
-  ],
   "04730004f6cb0c68db3396b6990b7197a7d0698a": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Banner_TechnicalReference.png",
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Banner_TechnicalReference.png"
   ],
   "54147dae1f650f643942d878e960e457d3f9ab5a": [
@@ -1950,7 +1949,7 @@
   ],
   "abb19a4d12e083ba79d77c0bdf10507caf7a82e6": [
     "InTuneDocs\\temp-software-updates-topic.md",
-    "migrated-03-14\\Topic\\Temp-Software-Updates-Topic.md"
+    "InTuneDocs\\zDeletedTopics\\Temp-Software-Updates-Topic.md"
   ],
   "d32d90ecddf7a6530db86a01717da9171a6414eb": [
     "InTuneDocs\\terms-and-condition-policy-settings-in-microsoft-intune.md"
@@ -2148,7 +2147,7 @@
   ],
   "2b4c8d0cbcc8d2cd45731ca47a0ec5bbf3d9101b": [
     "InTuneDocs\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md",
-    "migrated-03-14\\Topic\\Use-kiosk-mode-to-control-access-to-device-functions-with-Microsoft-Intune---deleted.md"
+    "InTuneDocs\\zDeletedTopics\\Use-kiosk-mode-to-control-access-to-device-functions-with-Microsoft-Intune---deleted.md"
   ],
   "a6c6326c36f36d9d4b56c38c66bce0cb9113d24e": [
     "InTuneDocs\\use-mobile-application-management-policies-in-configuration-manager.md"
@@ -2254,22 +2253,22 @@
     "migrated-03-14\\Topic\\When-to-use-the-Intune-App-Wrapping-tool-vs.-the-Intune-App-SDK.md"
   ],
   "737de87e241354b8432d4cb47499bcea11551bbf": [
-    "InTuneDocs\\windows-10-configuration-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\windows-10-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "e71fdf2f31f165cf027fefadb97606ec24c903ed": [
-    "InTuneDocs\\windows-10-custom-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\windows-10-custom-policy-settings-in-microsoft-intune.md"
   ],
   "47a8d710859e29c6786c565383e03c26803ac14a": [
-    "InTuneDocs\\windows-configuration-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "2241344f07270b772e05a58f4c22c7066ac7b94b": [
-    "InTuneDocs\\windows-phone-configuration-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\windows-phone-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "1fe0c80294a991e4b022bd1506cb107567006579": [
-    "InTuneDocs\\windows-phone-custom-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\windows-phone-custom-policy-settings-in-microsoft-intune.md"
   ],
   "c1d1f12bbdec1b9043dc5a5c54eb4d495307af00": [
-    "InTuneDocs\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "f9d96146e65c7e22aa39e22b00026f0c8615cc1f": [
     "InTuneDocs\\wipe-company-data-from-devices.md",
@@ -3114,12 +3113,6 @@
   "037df4883514bb0d674bbb134e2bfa7d5a506677": [
     "migrated-03-14\\Topic\\Activate-Your-Product-Key.md"
   ],
-  "f310747ca2996eb4259272221ad7009dea9d0691": [
-    "migrated-03-14\\Topic\\Android-configuration-policy-settings-in-Microsoft-Intune.md"
-  ],
-  "e4f2769b468993e1dae9f25356fcb3738dbfc8db": [
-    "migrated-03-14\\Topic\\Android-custom-policy-settings-in-Microsoft-Intune.md"
-  ],
   "125561e6f1683d887aea7cc37834aa2eace97290": [
     "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md"
   ],
@@ -3130,10 +3123,10 @@
     "migrated-03-14\\Topic\\Cancel-my-subscription-for-Microsoft-Intune.md"
   ],
   "b604dbcf51b3b3d01a47018d64b8823f2c836a16": [
-    "migrated-03-14\\Topic\\Categorize-devices-with-device-group-mapping-in-Microsoft-Intune.md"
+    "InTuneDocs\\GetStarted\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
   ],
   "5d414b4192df742ff6510b9c964581c4a6736ca3": [
-    "migrated-03-14\\Topic\\Choose-the-right-Microsoft-Intune-policy-to-use---deleted.md"
+    "InTuneDocs\\zDeletedTopics\\Choose-the-right-Microsoft-Intune-policy-to-use---deleted.md"
   ],
   "ef12ca4a02a1062c753dfcb4ca4d9e9d28cc7eeb": [
     "migrated-03-14\\Topic\\Common-Microsoft-Intune-evaluation-tasks.md"
@@ -3150,14 +3143,11 @@
   "a3ec7abaa2d6c381d7c705763f04c9723691ea8b": [
     "migrated-03-14\\Topic\\Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md"
   ],
-  "340da5e05c93022c46e1ecde580ac4b090fa776d": [
-    "migrated-03-14\\Topic\\Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md"
-  ],
   "c6155d01e04a01102775d904604854d31ecb7997": [
     "migrated-03-14\\Topic\\Configure-and-manage-devices-with-Microsoft-Intune.md"
   ],
   "14f1358340ae47355721c47919e73e54544ee62d": [
-    "migrated-03-14\\Topic\\Configure-apps-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Configure-apps-with-Microsoft-Intune.md"
   ],
   "0d4f6da04e2fea79f4327188e727d81730f12b70": [
     "migrated-03-14\\Topic\\Configure-certificate-infrastructure.md"
@@ -3169,13 +3159,13 @@
     "migrated-03-14\\Topic\\Configure-Intune-certificate-profiles.md"
   ],
   "e10d5743797882b6bc58e95d79006e33220a6892": [
-    "migrated-03-14\\Topic\\Configure-iOS-apps-with-mobile-app-configuration-policies-in-Microsoft-Intune.md"
+    "InTuneDocs\\DeployUse\\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
   ],
   "33fed28e5322392fc1446543f2b614d6652c0dd6": [
-    "migrated-03-14\\Topic\\Control-Microsoft-Passport-settings-on-devices-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Control-Microsoft-Passport-settings-on-devices-with-Microsoft-Intune.md"
   ],
   "cbe138a32bb4fb3fbfe07ad7a3c78212941d0a88": [
-    "migrated-03-14\\Topic\\Control-what-admins-can-see-in-the-Microsoft-Intune-admin-console.md"
+    "InTuneDocs\\zDeletedTopics\\Control-what-admins-can-see-in-the-Microsoft-Intune-admin-console.md"
   ],
   "8704a62f454b67247c893e31eb23773a62751fcf": [
     "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
@@ -3184,19 +3174,16 @@
     "migrated-03-14\\Topic\\Custom-configurations-for-VPN-profiles.md"
   ],
   "ceb812b41c1c83cda570061df37e853e14efb97d": [
-    "migrated-03-14\\Topic\\Custom-URI-settings-for-Windows-10-devices.md"
+    "InTuneDocs\\zDeletedTopics\\Custom-URI-settings-for-Windows-10-devices.md"
   ],
   "fe9c5e296eb1309e6612aa741d747d3cd2ed86cb": [
     "migrated-03-14\\Topic\\Decide-how-to-prepare-apps-for-mobile-application-management-with-Microsoft-Intune.md"
   ],
   "01fbdf7aa16cdbddec874bb964294e67a99e9b38": [
-    "migrated-03-14\\Topic\\Deploy-and-configure-apps-with-Microsoft-Intune.md"
-  ],
-  "1eb2318ffec5d91550955049bfd6791f514c2888": [
-    "migrated-03-14\\Topic\\Deploy-apps-to-mobile-devices-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Deploy-and-configure-apps-with-Microsoft-Intune.md"
   ],
   "8832e8bfc9a4ec94864d4faeb976bb7854a6d6a2": [
-    "migrated-03-14\\Topic\\Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md"
   ],
   "b2c071fc7ffbef3de495abf1ed090e40ff50fd61": [
     "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune.md"
@@ -3208,7 +3195,7 @@
     "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune--test-1-.md"
   ],
   "6740a5260d349e7439a029ab224d1abfd856786a": [
-    "migrated-03-14\\Topic\\Edition-upgrade-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\edition-upgrade-policy-settings-in-microsoft-intune.md"
   ],
   "333c1f469c6bc549ba3d47bfae55471f6b965f0c": [
     "migrated-03-14\\Topic\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md"
@@ -3241,7 +3228,7 @@
     "migrated-03-14\\Topic\\Enterprise-rollout.md"
   ],
   "b09038e636eb5297bdc9e3c68a48b8c341532dc8": [
-    "migrated-03-14\\Topic\\Exchange-ActiveSync-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Exchange-ActiveSync-policy-settings-in-Microsoft-Intune.md"
   ],
   "a75ce1586fd7a05cfb1f700f15873488e2331b2b": [
     "migrated-03-14\\Topic\\Frequently-asked-questions-for-Microsoft-Intune.md"
@@ -3274,16 +3261,16 @@
     "migrated-03-14\\Topic\\Help-for-Microsoft-Intune-Partners.md"
   ],
   "031aceb52f4de0772e1b4f54bd74cfe498b111e0": [
-    "migrated-03-14\\Topic\\Help-protect-iOS-devices-with-Activation-Lock-bypass-for-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Help-protect-iOS-devices-with-Activation-Lock-bypass-for-Microsoft-Intune.md"
   ],
   "5da482ecf3e0d00a5357081db034e5c0a15109ec": [
-    "migrated-03-14\\Topic\\Help-protect-Windows-PCs-using-Windows-Firewall-policies-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Help-protect-Windows-PCs-using-Windows-Firewall-policies-in-Microsoft-Intune.md"
   ],
   "2d5126603ac782813b00a4e96efa8be215289c2f": [
     "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md"
   ],
   "5edc884a9fc22f1f59c1b8ba26e49557da31e9cf": [
-    "migrated-03-14\\Topic\\Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md"
   ],
   "40b5a35a07208feff61df401d1a130cc60d2f503": [
     "migrated-03-14\\Topic\\Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md"
@@ -3334,7 +3321,7 @@
     "migrated-03-14\\Topic\\IGNORECustom-configurations-for-VPN-profiles_deleted.md"
   ],
   "eb05a7115c8d0680a22bc9b445355626a1cf823e": [
-    "migrated-03-14\\Topic\\Install-the-Windows-PC-client-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Install-the-Windows-PC-client-with-Microsoft-Intune.md"
   ],
   "09a10f75ab603989cdcc095e2b3ece891e40635d": [
     "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune.md"
@@ -3343,13 +3330,13 @@
     "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune--test-.md"
   ],
   "5088d9863b5e75e0788b643d89486c4604229433": [
-    "migrated-03-14\\Topic\\iOS-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\DeployUse\\ios-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "00ebfc712e8d262a0fceef1c0595b297f8286e30": [
-    "migrated-03-14\\Topic\\iOS-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\DeployUse\\ios-custom-policy-settings-in-microsoft-intune.md"
   ],
   "c32cbb5bf835f104083e73675fee4cb63269ce5c": [
-    "migrated-03-14\\Topic\\IP-Ranges-Version-2.md"
+    "InTuneDocs\\zDeletedTopics\\IP-Ranges-Version-2.md"
   ],
   "159f599aa557745fb0bcea2d48fe5bb1add54b8a": [
     "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md"
@@ -3364,10 +3351,10 @@
     "migrated-03-14\\Topic\\Lindavr-test-topic.md"
   ],
   "ae93fff3f0607b444ff28684848e98735449ea9d": [
-    "migrated-03-14\\Topic\\Mac-OS-X-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\DeployUse\\mac-os-x-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "053c731127d2124de1bac5df84cb73e4d0dcfb5d": [
-    "migrated-03-14\\Topic\\Mac-OS-X-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\DeployUse\\mac-os-x-custom-policy-settings-in-microsoft-intune.md"
   ],
   "3197f33fe6c264892365fe876d34733433a563ac": [
     "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md"
@@ -3385,7 +3372,7 @@
     "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md"
   ],
   "0095fe2735fc8defd6aeaf585a6b7a82aa826a9f": [
-    "migrated-03-14\\Topic\\Manage-apps-you-purchased-from-the-Windows-Store-for-Business-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Manage-apps-you-purchased-from-the-Windows-Store-for-Business-with-Microsoft-Intune.md"
   ],
   "c54d89d6dda1c9285407249b7f88dd52d4816ad8": [
     "migrated-03-14\\Topic\\Manage-device-compliance-policies-for-Microsoft-Intune.md"
@@ -3394,52 +3381,49 @@
     "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md"
   ],
   "0edb87b4bb8ded2c9444b8253e538d459be57def": [
-    "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
   ],
   "d048f76acdc5c82882bb66bf312bf6b11e7e3a9d": [
-    "migrated-03-14\\Topic\\Manage-iOS-apps-you-purchased-through-a-volume-purchase-program-with-Microsoft-Intune.md"
+    "InTuneDocs\\DeployUse\\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
   "376dc31dce9eb003564c8af9fb731a00f36d6d17": [
     "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md"
-  ],
-  "938bd8642bb577fca6842e9d19aa6934793eb917": [
-    "migrated-03-14\\Topic\\Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md"
   ],
   "de9e934a507b798b33d8c19780f1be796a025f8b": [
     "migrated-03-14\\Topic\\Manage-SharePoint-Online-access-with-Microsoft-Intune.md"
   ],
   "4f0c575a51befbd66261794604b02c72aca49db9": [
-    "migrated-03-14\\Topic\\Manage-Windows-PCs-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Manage-Windows-PCs-with-Microsoft-Intune.md"
   ],
   "45feb44dcfe5cb052a3dafbb1acbff18c75b9990": [
-    "migrated-03-14\\Topic\\MD-Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md"
   ],
   "8fbd878cffcbd90fb4e338ba2a974bb97fd68229": [
-    "migrated-03-14\\Topic\\MD-Control-what-admins-can-see-in-the-Microsoft-Intune-admin-console.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Control-what-admins-can-see-in-the-Microsoft-Intune-admin-console.md"
   ],
   "c7b8ba465df7b26da3232ed7de824b03c0c986ae": [
-    "migrated-03-14\\Topic\\MD-Conversion---Android-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Android-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "4416326463e9c77a63ac2a09540ba12159e0d1f3": [
-    "migrated-03-14\\Topic\\MD-Conversion---Android-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Android-custom-policy-settings-in-Microsoft-Intune.md"
   ],
   "58d99252ffa81745bfcd97cb817fc277f5c66923": [
     "migrated-03-14\\Topic\\MD-Conversion---Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md"
   ],
   "fe1374e8eab2c6fb2c0e1a19d0768a5f035fba56": [
-    "migrated-03-14\\Topic\\MD-Conversion---Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md"
   ],
   "9d9e6ddb9939003e0f62e3fb538f5a25d6f2ab53": [
-    "migrated-03-14\\Topic\\MD-Conversion---Control-what-admins-can-see-in-the-Microsoft-Intune-admin-console.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Control-what-admins-can-see-in-the-Microsoft-Intune-admin-console.md"
   ],
   "981cc73c1eed5915a826234ec5028fb3bde68e3a": [
-    "migrated-03-14\\Topic\\MD-Conversion---Custom-URI-settings-for-Windows-10.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Custom-URI-settings-for-Windows-10.md"
   ],
   "37bf5c229baa3f0471f30e80ce197bbb9116af1d": [
-    "migrated-03-14\\Topic\\MD-Conversion---Deploy-apps-to-mobile-devices-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Deploy-apps-to-mobile-devices-in-Microsoft-Intune.md"
   ],
   "602d31922244ba10071b45e44f2387b21e716d04": [
-    "migrated-03-14\\Topic\\MD-Conversion---Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md"
   ],
   "9ee2a0c6edea9688dda37f5244bb4eafd69d45e7": [
     "migrated-03-14\\Topic\\MD-Conversion---Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft.md"
@@ -3454,13 +3438,13 @@
     "migrated-03-14\\Topic\\MD-Conversion---Get-started-with-a-paid-subscription-to-Microsoft-Intune.md"
   ],
   "92f9394bd1c32a6aafbfddedfa35b9063449a8a3": [
-    "migrated-03-14\\Topic\\MD-Conversion---Get-started-with-app-deployment-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Get-started-with-app-deployment-in-Microsoft-Intune.md"
   ],
   "23fa4d71e51d0ee40b7a750eebd6403b87c6d3ff": [
     "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md"
   ],
   "8a96fc7c10117a71d91bce71323645d396e77417": [
-    "migrated-03-14\\Topic\\MD-Conversion---Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md"
   ],
   "d2a62ee34da672175f2e5dd1c437ccb2abb01d9b": [
     "migrated-03-14\\Topic\\MD-Conversion---Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft.md"
@@ -3469,10 +3453,10 @@
     "migrated-03-14\\Topic\\MD-Conversion---Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md"
   ],
   "526a47738be8aa8bb846817890220781850f08a6": [
-    "migrated-03-14\\Topic\\MD-Conversion---iOS-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---iOS-custom-policy-settings-in-Microsoft-Intune.md"
   ],
   "e12b700f7bab090697e098bb9a9618232864453f": [
-    "migrated-03-14\\Topic\\MD-Conversion---Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md"
   ],
   "9e542a0fb7ada540e63e4cba06fbffea59e9c40b": [
     "migrated-03-14\\Topic\\MD-Conversion---Manage-device-compliance-policies-for-Microsoft-Intune.md"
@@ -3481,16 +3465,16 @@
     "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md"
   ],
   "f29b82e2f0a6324d69dc5341782722eb5e37d973": [
-    "migrated-03-14\\Topic\\MD-Conversion---Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
   ],
   "9e74a8d2a33354f1812f3360bebc8efddc0d1e0c": [
-    "migrated-03-14\\Topic\\MD-Conversion---Manage-settings-and-features-on-your-devices-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Manage-settings-and-features-on-your-devices-with-Microsoft-Intune.md"
   ],
   "e023562a6632c2588d3671d59406dfd729ce142b": [
-    "migrated-03-14\\Topic\\MD-Conversion---Mobile-device-security-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Mobile-device-security-policy-settings-in-Microsoft-Intune.md"
   ],
   "8c2624dd57f7bc3b8cd950375c3d2ed50b68d44b": [
-    "migrated-03-14\\Topic\\MD-Conversion---Network-infrastructure-requirements-for-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Network-infrastructure-requirements-for-Microsoft-Intune.md"
   ],
   "b73df60587ba2ddd726a3263bb286e03cdfba335": [
     "migrated-03-14\\Topic\\MD-Conversion---Prepare-Android-apps-for-mobile-application-management-with-the-Microsoft-Intune-App-Wrapping-Tool.md"
@@ -3511,10 +3495,10 @@
     "migrated-03-14\\Topic\\MD-Conversion---Understand-Microsoft-Intune-operations-by-using-reports.md"
   ],
   "0ec94c869221dcc31b5bbe487a8f4020903637f8": [
-    "migrated-03-14\\Topic\\MD-Conversion---Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md"
   ],
   "2097ab8a3877b91242662cdb453688a61bfb71fb": [
-    "migrated-03-14\\Topic\\MD-Conversion---Ways-to-do-enterprise-mobility.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Ways-to-do-enterprise-mobility.md"
   ],
   "c96310af21ca63d5e3cf2eceb513c500be3152c2": [
     "migrated-03-14\\Topic\\MD-Conversion---What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.md"
@@ -3529,22 +3513,22 @@
     "migrated-03-14\\Topic\\MD-Conversion---What-to-tell-your-end-users-about-using-Microsoft-Intune.md"
   ],
   "88dbe28b33c61b8844145579715d737512b17d20": [
-    "migrated-03-14\\Topic\\MD-Conversion---Windows-10-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Windows-10-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "453f206e757924044be3b3c83a9e331f07040a11": [
-    "migrated-03-14\\Topic\\MD-Conversion---Windows-10-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Windows-10-custom-policy-settings-in-Microsoft-Intune.md"
   ],
   "c96e17201c7e626481c5f1d5ecdc644b1558b035": [
-    "migrated-03-14\\Topic\\MD-Conversion---Windows-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Windows-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "24ca7ec2446eb26a9075618fc3140f2b01a2e989": [
-    "migrated-03-14\\Topic\\MD-Conversion---Windows-PC-management-capabilities-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Windows-PC-management-capabilities-in-Microsoft-Intune.md"
   ],
   "b86c04b46cb6476e97ad030853c9397d23aa2157": [
-    "migrated-03-14\\Topic\\MD-Conversion---Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Conversion---Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md"
   ],
   "93af961aa5ea70bd8ef6a77fc6d60057bf2c1f32": [
-    "migrated-03-14\\Topic\\MD-Mac-OS-X-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Mac-OS-X-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "afb566645a97eac054b328d1b4f30eae6439de24": [
     "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md"
@@ -3565,7 +3549,7 @@
     "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md"
   ],
   "72b0ece9da7406ca38e3b10efde38375ffb77632": [
-    "migrated-03-14\\Topic\\Microsoft-apps-you-can-use-with-Microsoft-Intune-mobile-application-management-policies.md"
+    "InTuneDocs\\zDeletedTopics\\Microsoft-apps-you-can-use-with-Microsoft-Intune-mobile-application-management-policies.md"
   ],
   "0533f44cf211af7b54cd0431ee09d84254f01114": [
     "migrated-03-14\\Topic\\Microsoft-Azure-Authenticator-app-deployment.md"
@@ -3607,7 +3591,7 @@
     "migrated-03-14\\Topic\\MICROSOFT-SOFTWARE-SUPPLEMENTAL-NOTICE.md"
   ],
   "fa8c9755c1db02ce9cd15578eaa687ef0ef9de7e": [
-    "migrated-03-14\\Topic\\Mobile-device-management-capabilities-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Mobile-device-management-capabilities-in-Microsoft-Intune.md"
   ],
   "ac94282cb561024d660785796ecdfeaf3a2bdb97": [
     "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md"
@@ -3627,9 +3611,6 @@
   "480e561d55abf8069505ef5939eebba754c86998": [
     "migrated-03-14\\Topic\\NathBarn-test.md"
   ],
-  "1c3a81d53a0fb70b8eb03c2cca2a9987f9ed37b0": [
-    "migrated-03-14\\Topic\\Network-infrastructure-requirements-for-Microsoft-Intune.md"
-  ],
   "a8e49c65c290b4bd0e76d06ecbb8ea4d22108174": [
     "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
   ],
@@ -3643,7 +3624,7 @@
     "migrated-03-14\\Topic\\Placeholder-3716.md"
   ],
   "435f4304f17e2146d847042df4f9b72abac6a22a": [
-    "migrated-03-14\\Topic\\Plan-for-app-deployment-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Plan-for-app-deployment-in-Microsoft-Intune.md"
   ],
   "8a70ae56c3a52e5dc743e6d0cc09d9209b3b862b": [
     "migrated-03-14\\Topic\\Plan-your-user-and-device-groups.md"
@@ -3685,7 +3666,7 @@
     "migrated-03-14\\Topic\\Remote-Assistance-via-Microsoft-Easy-Assist.md"
   ],
   "492bdb80524afe499c685e6f5c69e0136f99b7f0": [
-    "migrated-03-14\\Topic\\Resolve-GPO-and-Microsoft-Intune-policy-conflicts.md"
+    "InTuneDocs\\zDeletedTopics\\Resolve-GPO-and-Microsoft-Intune-policy-conflicts.md"
   ],
   "6ae837c85e2b64a3daaef3bbd90d2f1a1348d8ea": [
     "migrated-03-14\\Topic\\Resources-to-help-you-solve-problems-during-setup-of-Microsoft-Intune.md"
@@ -3694,31 +3675,31 @@
     "migrated-03-14\\Topic\\Restrict-web-content-to-display-in-the-Managed-Browser-with-Microsoft-Intune---deleted.md"
   ],
   "ba9b3c17295080c2804ee5a98e3ef7f0f33a590e": [
-    "migrated-03-14\\Topic\\Retire-apps-using-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Retire-apps-using-Microsoft-Intune.md"
   ],
   "c559a518c895e8926b7d81751dfdb920b985fdd6": [
     "migrated-03-14\\Topic\\Retire-data-and-devices-from-Microsoft-Intune-management.md"
   ],
   "a953e20dc68878549e71a612b8a49c2804ffa7e2": [
-    "migrated-03-14\\Topic\\robstack---V2-of-Alerts-docs.md"
+    "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Alerts-docs.md"
   ],
   "bbe641cd45241d2219468fa0a52eb0df771fdbc1": [
-    "migrated-03-14\\Topic\\robstack---v2-of-Deploy-and-Manage-apps.md"
+    "InTuneDocs\\zDeletedTopics\\robstack---v2-of-Deploy-and-Manage-apps.md"
   ],
   "b2a0399cec5bf8dd8a07c56140ed7391e425c2a6": [
-    "migrated-03-14\\Topic\\robstack---V2-of-Deploy-apps-to-computers.md"
+    "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Deploy-apps-to-computers.md"
   ],
   "b4983baee16f34d86cbdbe57e4840747397fd53f": [
-    "migrated-03-14\\Topic\\robstack---V2-of-Deploy-apps-to-mobile-devices.md"
+    "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Deploy-apps-to-mobile-devices.md"
   ],
   "29eeef51c77b6ff4a5935678cb47608efa542f8e": [
-    "migrated-03-14\\Topic\\robstack---V2-of-Different-ways-to-manage-your-devices.md"
+    "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Different-ways-to-manage-your-devices.md"
   ],
   "28d4ae7fcd98ba1c3c99204a80574a7418032793": [
-    "migrated-03-14\\Topic\\robstack---V2-of-Get-started-with-app-deployment.md"
+    "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Get-started-with-app-deployment.md"
   ],
   "4f9cd896c1b2ced565e7213a7155134c081ce716": [
-    "migrated-03-14\\Topic\\robstack---V2-of-Manage-license-agreements-for-computers.md"
+    "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Manage-license-agreements-for-computers.md"
   ],
   "90cdea2719d782454e503c450caf8ed99e227751": [
     "migrated-03-14\\Topic\\Rolling-out-apps-with-Microsoft-Intune.md"
@@ -3765,11 +3746,8 @@
   "60061be09481e28985673b5c2405f322524e9f68": [
     "migrated-03-14\\Topic\\Start-using-Microsoft-Intune--test-.md"
   ],
-  "18386fe0b802c1ea695cd5d33844051cee061618": [
-    "migrated-03-14\\Topic\\Technical-reference-for-Microsoft-Intune.md"
-  ],
   "f870891c13b66e1297f74713806591a497b7a713": [
-    "migrated-03-14\\Topic\\Temp---Intune-IP-Ranges.md"
+    "InTuneDocs\\zDeletedTopics\\Temp---Intune-IP-Ranges.md"
   ],
   "45977b4de5ff40c40588bf3d088f9545ef0f66e7": [
     "migrated-03-14\\Topic\\Terms-and-condition-policy-settings-in-Microsoft-Intune.md"
@@ -3835,7 +3813,7 @@
     "migrated-03-14\\Topic\\Use-Mobile-Application-Management-policies_deleted.md"
   ],
   "07da56ff76bbbb29b8c165876e50d5233b552add": [
-    "migrated-03-14\\Topic\\Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md"
   ],
   "0805234e85439789d39c068b5da90ec3fbccf24b": [
     "migrated-03-14\\Topic\\Use-the-SDK-to-enable-apps-for-mobile-application-management.md"
@@ -3856,7 +3834,7 @@
     "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md"
   ],
   "a54b0e3925b51e72b246d3d40f6b5ab90dbdcf0a": [
-    "migrated-03-14\\Topic\\Ways-to-do-enterprise-mobility.md"
+    "InTuneDocs\\zDeletedTopics\\Ways-to-do-enterprise-mobility.md"
   ],
   "f5c13f01914b9a8f4467511531c2a8e6cc4accfd": [
     "migrated-03-14\\Topic\\What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.md"
@@ -3880,25 +3858,25 @@
     "migrated-03-14\\Topic\\What-to-tell-your-end-users-about-using-Microsoft-Intune.md"
   ],
   "c94641c66e8bec63867028428d48bff5c1133f1a": [
-    "migrated-03-14\\Topic\\Windows-10-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Windows-10-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "37d1ff916099243d9a47af021895961c0a418994": [
-    "migrated-03-14\\Topic\\Windows-10-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Windows-10-custom-policy-settings-in-Microsoft-Intune.md"
   ],
   "a76de07e927cedf231f7ab3de24033505b8e33a1": [
-    "migrated-03-14\\Topic\\Windows-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Windows-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "d7471fd9f165fabd42796b7b1077d9079ad6e0fd": [
-    "migrated-03-14\\Topic\\Windows-PC-management-capabilities-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Windows-PC-management-capabilities-in-Microsoft-Intune.md"
   ],
   "e544d1b037e41bb780e4beff78ce14c58ff64832": [
-    "migrated-03-14\\Topic\\Windows-Phone-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Windows-Phone-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "a2f5ce655b50c1e3728733eb02a14b5bd918b994": [
-    "migrated-03-14\\Topic\\Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md"
   ],
   "0861907830284ace5f784db7000cbd476a18b668": [
-    "migrated-03-14\\Topic\\Windows-Team-configuration-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Windows-Team-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "4110f2c8751e36db9f1658a748785ad6f52c61cd": [
     "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md"
