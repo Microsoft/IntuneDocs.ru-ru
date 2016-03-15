@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "11091bc5fb451cfaf6eaa923eafe6df506324960",
+  "LastProcessedCommit": "b3a1e233bd9c603fd33a9a6b211c01f0321d69ec",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -16880,7 +16880,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-15T00:16:34.8511313Z",
+      "HandoffDateTime": "2016-03-15T16:32:25.2886802Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16891,7 +16891,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 14,
+      "HandoffFailureTimes": 15,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -16920,7 +16920,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-15T00:16:34.8511313Z",
+      "HandoffDateTime": "2016-03-15T16:32:25.2886802Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16931,7 +16931,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 14,
+      "HandoffFailureTimes": 15,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -16960,7 +16960,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-15T00:16:34.8511313Z",
+      "HandoffDateTime": "2016-03-15T16:32:25.2886802Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16971,7 +16971,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 14,
+      "HandoffFailureTimes": 15,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -22623,20 +22623,12 @@
       "FilePathList": [
         "InTuneDocs\\PlanDesign\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
       ],
-      "HandoffFilePath": null,
-      "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-15T00:16:34.8511313Z",
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.91056ca967d1689445b2dccb1219b8b95370e83c.ru-ru.xlf",
+      "HandoffFileCommit": "530fd0ad76dd13e90ca88ab0ffe9cd56224ae007",
+      "HandoffDateTime": "2016-03-15T16:32:25.2886802Z",
       "HandoffPriority": "",
-      "HandoffException": {
-        "internal_error_code": "handoff_transform_failed",
-        "internal_error_message": "Handoff source file: InTuneDocs\\PlanDesign\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md transformed failed.",
-        "internal_error_retriable": false,
-        "exception_message": "One or more errors occurred.",
-        "exception_type": "System.AggregateException",
-        "stack_trace": "   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)\r\n   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.MarkdownToXliffCore(Stream sourceStream, Stream xliffStream, Stream skeletonStream, String contentClass, String locale)\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.MarkdownToXliff(IMarkdownTransformer markdownTransformer, Stream sourceStream, Stream xliffStream, Stream skeletonStream, String contentClass, String locale, String xliffVersion)\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.MarkdownToXliff(IMarkdownTransformer markdownTransformer, String markdownFile, String xliffFile, String skeletonFile, String locale, String xliffVersion)\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.MarkdownToXliff(String mdfile, String xliffFile, String skeletonFile, String targetLocale, String xliffVersion, Boolean useJavascriptTransformer) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 27\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 379",
-        "extended_information": null
-      },
-      "HandoffFailureTimes": 3,
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -35494,6 +35486,62 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Your-computer-is-already-enrolled.65f8408ff11427a32b8ff1a46714551550120c26.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
       "HandoffDateTime": "2016-03-15T00:16:34.8511313Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "5b6d1923e8a9c6251ff5d18eea465530e2442961": {
+      "FileHash": "5b6d1923e8a9c6251ff5d18eea465530e2442961",
+      "SourceFileCommit": "b3a1e233bd9c603fd33a9a6b211c01f0321d69ec",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\previous-intune-releases.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\previous-intune-releases.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\previous-intune-releases.d2e14ae16b7b541791b20be4f94053dae7d8e30b.ru-ru.xlf",
+      "HandoffFileCommit": "530fd0ad76dd13e90ca88ab0ffe9cd56224ae007",
+      "HandoffDateTime": "2016-03-15T16:32:25.2886802Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "3e8040985325c76ece937251295ed0b52ec5be75": {
+      "FileHash": "3e8040985325c76ece937251295ed0b52ec5be75",
+      "SourceFileCommit": "b3a1e233bd9c603fd33a9a6b211c01f0321d69ec",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\what-s-new-in-microsoft-intune.a0a1836a60d484044604ee0943e1edab160c837c.ru-ru.xlf",
+      "HandoffFileCommit": "530fd0ad76dd13e90ca88ab0ffe9cd56224ae007",
+      "HandoffDateTime": "2016-03-15T16:32:25.2886802Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,

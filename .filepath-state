@@ -741,6 +741,9 @@
   "2df7b3923bab893145304c03e5dc4c984e0781b7": [
     "InTuneDocs\\GetStarted\\TOC.md"
   ],
+  "3e8040985325c76ece937251295ed0b52ec5be75": [
+    "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md"
+  ],
   "065a1bad4c74275963ebd768cad442f9b1367d1c": [
     "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md"
   ],
@@ -2565,6 +2568,9 @@
   ],
   "57db74a1fa4a8cd955861d69690b5297c576b6b2": [
     "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-november-2015.md"
+  ],
+  "5b6d1923e8a9c6251ff5d18eea465530e2442961": [
+    "InTuneDocs\\GetStarted\\previous-intune-releases.md"
   ],
   "9819f41c85576bcb66c4290ec7779b8ed034edef": [
     "InTuneDocs\\GetStarted\\previous-intune-releases.md"
