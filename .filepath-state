@@ -294,6 +294,9 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "43423cd7a2ba41f88f3a757ef83eb6e6252db48d": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "a8b619175f3af595a40c69affe3ef7b4084c9e72": [
     "InTuneDocs\\DeployUse\\TOC.md"
   ],
@@ -722,6 +725,9 @@
   ],
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\GetStarted\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+  ],
+  "0ac7080f1505ab0ffe4a7de9fb4fd6c61a284460": [
+    "InTuneDocs\\GetStarted\\TOC.md"
   ],
   "126a87ad4879ca2f4db6ae7ef53dd4d87c4e109e": [
     "InTuneDocs\\GetStarted\\TOC.md"
@@ -1666,6 +1672,9 @@
   "cd99ee7e89c3bf7be0c6cf1185a81c89051bcc6e": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
+  "38f5b29a6fc01a7d63e6750416f94ab752552cff": [
+    "InTuneDocs\\PlanDesign\\TOC.md"
+  ],
   "36e4b8eb9af022b1d21517887e46e798294c7aa7": [
     "InTuneDocs\\PlanDesign\\TOC.md"
   ],
@@ -1976,6 +1985,9 @@
   ],
   "84889dbdc5b1f00821c10dcdf957c9d8afe38c6e": [
     "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
+  ],
+  "6dd4f5fb04344843f5788b42c46066a1568b0b09": [
+    "InTuneDocs\\Understand\\TOC.md"
   ],
   "b39c25b2080c68eea5e81a92f1df2e4cedc71086": [
     "InTuneDocs\\Understand\\TOC.md"
@@ -3997,5 +4009,11 @@
   ],
   "6431ffc26847eacdded82b7e44848ea53c8fa692": [
     "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
+  ],
+  "fe3d37e292bd8b1b7d62ef7134dc92634ec35b78": [
+    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
+  ],
+  "879d69e0e923473238e36d2abf48ce19d12c2583": [
+    "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
   ]
 }
