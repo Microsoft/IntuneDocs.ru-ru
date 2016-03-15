@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "13b569b895eeff6dde9710823b5daa4c620a8359",
+  "LastProcessedCommit": "98136701ecfb2538fe8a8ecab5ce81bf25050c9c",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -1744,7 +1744,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\DeployUse\\manage-access-to-email-and-sharepoint-with-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\manage-access-to-email-and-sharepoint-with-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\manage-access-to-email-and-sharepoint-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-access-to-email-and-sharepoint-with-microsoft-intune.d2766ccfa2cf70363199a734e519fdecbafc9f54.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -10414,7 +10415,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\manage-access-to-skype-for-business.md",
-        "migrated-03-14\\Topic\\Manage-access-to-Skype-for-Business.md"
+        "migrated-03-14\\Topic\\Manage-access-to-Skype-for-Business.md",
+        "InTuneDocs\\DeployUse\\Manage-access-to-skype-for-business.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\ConditionalAccess_SkypeforBusiness.png",
@@ -10475,7 +10477,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\manage-app-access-to-exchange-online.md",
-        "migrated-03-14\\Topic\\Manage-app-access-to-Exchange-Online.md"
+        "migrated-03-14\\Topic\\Manage-app-access-to-Exchange-Online.md",
+        "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-exchange-online.5369c67d6a220025ebf2c1156aca10c45802f7fd.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -10531,7 +10534,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\manage-app-access-to-office-365-services.md",
-        "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md"
+        "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md",
+        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\Apps_with_MAM_policies.png",
@@ -10563,7 +10567,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\manage-app-access-to-office-365-services.md",
-        "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md"
+        "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md",
+        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\Apps_with_MAM_CA.png",
@@ -10596,7 +10601,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\manage-app-access-to-sharepoint-online.md",
-        "migrated-03-14\\Topic\\Manage-app-access-to-SharePoint-Online.md"
+        "migrated-03-14\\Topic\\Manage-app-access-to-SharePoint-Online.md",
+        "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-sharepoint-online.58789b1602d871c45df06789929d2a050a8b45d3.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -16695,7 +16701,8 @@
         "InTuneDocs\\use-conditional-access-with-intune.md",
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\ConditionalAccess8-1.png",
@@ -16938,7 +16945,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-15T23:24:33.5737423Z",
+      "HandoffDateTime": "2016-03-15T23:53:48.3952536Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16949,7 +16956,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 20,
+      "HandoffFailureTimes": 21,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -16978,7 +16985,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-15T23:24:33.5737423Z",
+      "HandoffDateTime": "2016-03-15T23:53:48.3952536Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16989,7 +16996,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 20,
+      "HandoffFailureTimes": 21,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17018,7 +17025,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-15T23:24:33.5737423Z",
+      "HandoffDateTime": "2016-03-15T23:53:48.3952536Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17029,7 +17036,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 20,
+      "HandoffFailureTimes": 21,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -25657,7 +25664,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\ConditionalAccess4.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Manage-access-to-email-and-O365-services-with-Intune.md"
+        "migrated-03-14\\Topic\\Manage-access-to-email-and-O365-services-with-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-access-to-email-and-O365-services-with-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\ConditionalAccess4.png"
@@ -25689,7 +25697,8 @@
       "DependencyFrom": [
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\ConditionalAccess8-2.png"
@@ -25720,7 +25729,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
-        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\ConditionalAccess8-3.png"
@@ -25751,7 +25761,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
-        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\ConditionalAccess8-4.png"
@@ -25782,7 +25793,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
-        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\ConditionalAccess8-5.png"
@@ -25812,7 +25824,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\ConditionalAccess8-6.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Manage-SharePoint-Online-access-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Manage-SharePoint-Online-access-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-sharepoint-online-access-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\ConditionalAccess8-6.png"
@@ -25934,7 +25947,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\Intune_CondlAccess.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Manage-access-to-email-and-O365-services-with-Intune.md"
+        "migrated-03-14\\Topic\\Manage-access-to-email-and-O365-services-with-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-access-to-email-and-O365-services-with-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\Intune_CondlAccess.PNG"
@@ -30641,7 +30655,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Manage-access-to-email-and-O365-services-with-Intune.md"
+        "migrated-03-14\\Topic\\Manage-access-to-email-and-O365-services-with-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-access-to-email-and-O365-services-with-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-access-to-email-and-O365-services-with-Intune.9c369316b5daf4b845dbea30a57e3e3214e29463.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -30669,7 +30684,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Manage-access-to-Skype-for-Business.md"
+        "migrated-03-14\\Topic\\Manage-access-to-Skype-for-Business.md",
+        "InTuneDocs\\DeployUse\\Manage-access-to-skype-for-business.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-access-to-Skype-for-Business.4538e2eeb298674a833a779b3225245ee1adab74.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -30725,7 +30741,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md"
+        "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md",
+        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-app-access-to-Office-365-services.6c0315876d7e480638f5234051ec9dcb6b98aff3.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -30782,7 +30799,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Manage-device-compliance-policies-for-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Manage-device-compliance-policies-for-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-device-compliance-policies-for-Microsoft-Intune.a61a9cea9f81e8bf4f5312b7da1e32f2ec929437.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -30810,7 +30828,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-email-access-with-Microsoft-Intune.438fc5e9b7c74db8b0d32322f045722ec228ab49.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -30953,7 +30972,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Manage-SharePoint-Online-access-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Manage-SharePoint-Online-access-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\manage-sharepoint-online-access-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-SharePoint-Online-access-with-Microsoft-Intune.3744605693b9639c83971c1251416321ca0c886a.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",

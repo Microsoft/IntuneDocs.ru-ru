@@ -207,13 +207,19 @@
     "migrated-03-14\\Topic\\Manage-access-to-apps-using-Microsoft-Intune-configuration-policies---deleted.md"
   ],
   "37f632a7957772e55efc65a64a34570f8021283a": [
-    "InTuneDocs\\DeployUse\\manage-access-to-email-and-sharepoint-with-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\manage-access-to-email-and-sharepoint-with-microsoft-intune.md"
   ],
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
+  "c54d89d6dda1c9285407249b7f88dd52d4816ad8": [
+    "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+  ],
   "6c84c368636f0a11578eb6d56f74bbba8df5f5a4": [
     "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+  ],
+  "d3f9876beb55617ebd8b4d7d18c200282d8f23ee": [
+    "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
   ],
   "603add19a74497f29bf7062a4600f3ac9b1c6867": [
     "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
@@ -230,6 +236,9 @@
   ],
   "ae96a659b05849f82655152d7140f2e3f66f6ab8": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
+  "de9e934a507b798b33d8c19780f1be796a025f8b": [
+    "InTuneDocs\\DeployUse\\manage-sharepoint-online-access-with-microsoft-intune.md"
   ],
   "a19e03555de6a5e6020e5eb5c943c45db85aa6bd": [
     "InTuneDocs\\DeployUse\\manage-sharepoint-online-access-with-microsoft-intune.md"
@@ -1411,7 +1420,7 @@
   ],
   "ce5ca6f5b3fbc78616e80e6b9985e64469fbeb03": [
     "InTuneDocs\\manage-app-access-to-exchange-online.md",
-    "migrated-03-14\\Topic\\Manage-app-access-to-Exchange-Online.md"
+    "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md"
   ],
   "b79dfb662661b39fdf1b06a5bd7dc896293fbe92": [
     "InTuneDocs\\manage-app-access-to-office-365-services.md"
@@ -1426,7 +1435,7 @@
   ],
   "05335917adad1897f0346b0d4e88107309d8fb18": [
     "InTuneDocs\\manage-app-access-to-sharepoint-online.md",
-    "migrated-03-14\\Topic\\Manage-app-access-to-SharePoint-Online.md"
+    "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md"
   ],
   "50183bb5af5bd0b1ff38e19c2e9568bc97cf5507": [
     "InTuneDocs\\DeployUse\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
@@ -3306,25 +3315,19 @@
     "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md"
   ],
   "ef67a345d5fb56c0d20ea63c169e47a3c12d7c54": [
-    "migrated-03-14\\Topic\\Manage-access-to-email-and-O365-services-with-Intune.md"
+    "InTuneDocs\\DeployUse\\manage-access-to-email-and-O365-services-with-intune.md"
   ],
   "1d0ce9c5be9a0be6e02c540582403644236223d6": [
-    "migrated-03-14\\Topic\\Manage-access-to-Skype-for-Business.md"
+    "InTuneDocs\\DeployUse\\Manage-access-to-skype-for-business.md"
   ],
   "048a81578592b6354750529fc4487ef1f94a2369": [
     "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md"
   ],
   "4fbee80435571ed453d9f2663cd418dc666557c8": [
-    "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md"
+    "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
   ],
   "0095fe2735fc8defd6aeaf585a6b7a82aa826a9f": [
     "InTuneDocs\\zDeletedTopics\\Manage-apps-you-purchased-from-the-Windows-Store-for-Business-with-Microsoft-Intune.md"
-  ],
-  "c54d89d6dda1c9285407249b7f88dd52d4816ad8": [
-    "migrated-03-14\\Topic\\Manage-device-compliance-policies-for-Microsoft-Intune.md"
-  ],
-  "d3f9876beb55617ebd8b4d7d18c200282d8f23ee": [
-    "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md"
   ],
   "0edb87b4bb8ded2c9444b8253e538d459be57def": [
     "InTuneDocs\\zDeletedTopics\\Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
@@ -3334,9 +3337,6 @@
   ],
   "376dc31dce9eb003564c8af9fb731a00f36d6d17": [
     "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md"
-  ],
-  "de9e934a507b798b33d8c19780f1be796a025f8b": [
-    "migrated-03-14\\Topic\\Manage-SharePoint-Online-access-with-Microsoft-Intune.md"
   ],
   "4f0c575a51befbd66261794604b02c72aca49db9": [
     "InTuneDocs\\zDeletedTopics\\Manage-Windows-PCs-with-Microsoft-Intune.md"
