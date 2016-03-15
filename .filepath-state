@@ -750,6 +750,9 @@
   "2df7b3923bab893145304c03e5dc4c984e0781b7": [
     "InTuneDocs\\GetStarted\\TOC.md"
   ],
+  "346a80cd282032ceff5294a371d528a53d2ee69f": [
+    "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md"
+  ],
   "3e8040985325c76ece937251295ed0b52ec5be75": [
     "InTuneDocs\\GetStarted\\what-s-new-in-microsoft-intune.md"
   ],
@@ -1638,6 +1641,9 @@
   ],
   "ef456e015b88463f47443da870a93d08f041b4e0": [
     "InTuneDocs\\PlanDesign\\architecture-guidance-for-protecting-company-email-and-documents.md"
+  ],
+  "976a8d7e2527fe574609fa7688b474a8355bf0ea": [
+    "InTuneDocs\\PlanDesign\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
   ],
   "092b7f0875c12a20dfb407c7da31d2067dd5a755": [
     "InTuneDocs\\PlanDesign\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
