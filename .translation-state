@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "d877de2b9c6e75ed751db4bc93cd50ccb6b3497c",
+  "LastProcessedCommit": "cf3c04085e1b6f7704b8bbdf0386cefb124228d3",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -3478,7 +3478,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_quarantineEmail.png",
@@ -3510,7 +3511,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_1_companyAccessSetup.png",
@@ -3542,7 +3544,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_3_enrollDevice.png",
@@ -3574,7 +3577,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_4_workplaceJoin1.png",
@@ -3606,7 +3610,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_5_workplaceJoin2.png",
@@ -3638,7 +3643,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_6_checkingEnrollment.png",
@@ -3670,7 +3676,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_7_confirmDevice.png",
@@ -3702,7 +3709,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_9_checkingCompliance.png",
@@ -3734,7 +3742,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_13_resolveCompliance.png",
@@ -3766,7 +3775,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_10_activatingEnrollment.png",
@@ -3798,7 +3808,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_11_COMPLETE.png",
@@ -3830,7 +3841,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_14_OutOfCompliance.png",
@@ -3862,7 +3874,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_GetStarted.PNG",
@@ -3894,7 +3907,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_intuneCompanyPortal.png",
@@ -3926,7 +3940,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_companyAccessSetup.png",
@@ -3958,7 +3973,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceEnrollment.png",
@@ -3990,7 +4006,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceComplianceCheck.png",
@@ -4022,7 +4039,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_checkCompliance.png",
@@ -4054,7 +4072,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_complianceCheckCompleted.png",
@@ -4086,7 +4105,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_fallOutCompliance.png",
@@ -4118,7 +4138,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_quarantineEmail.png",
@@ -4150,7 +4171,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_AndroidPortal.png",
@@ -4182,7 +4204,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_companyAccessSetup.PNG",
@@ -4214,7 +4237,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_deviceEnroll.png",
@@ -4246,7 +4270,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_activateDeviceAdmin.PNG",
@@ -4278,7 +4303,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollingDevice.png",
@@ -4310,7 +4336,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollSuccess.png",
@@ -4342,7 +4369,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_resolveComplianceIssues.png",
@@ -4374,7 +4402,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_complianceSuccessful.PNG",
@@ -4406,7 +4435,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_allSuccessful2.PNG",
@@ -4438,7 +4468,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_outOfCompliance.png",
@@ -16387,7 +16418,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\Hybrid_on-prem_CA_architecture.png",
@@ -16419,7 +16451,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\HybridOnpremRunFullSync.png",
@@ -16481,7 +16514,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\HybridOnpremEasDiscLogSample.PNG",
@@ -16513,7 +16547,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\HybridOnpremVerifyDevicesState.png",
@@ -16545,7 +16580,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\HybridReports_CA.png",
@@ -16577,7 +16613,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\HybridReportsDeploymentStatus.png",
@@ -16609,7 +16646,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\Hybrid_Exchange-Online_CA_architecture.png",
@@ -16702,7 +16740,8 @@
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md",
-        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\ConditionalAccess8-1.png",
@@ -16945,7 +16984,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T17:02:34.5223791Z",
+      "HandoffDateTime": "2016-03-16T17:57:18.1207518Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16956,7 +16995,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 25,
+      "HandoffFailureTimes": 26,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -16985,7 +17024,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T17:02:34.5223791Z",
+      "HandoffDateTime": "2016-03-16T17:57:18.1207518Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16996,7 +17035,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 25,
+      "HandoffFailureTimes": 26,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17025,7 +17064,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T17:02:34.5223791Z",
+      "HandoffDateTime": "2016-03-16T17:57:18.1207518Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17036,7 +17075,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 25,
+      "HandoffFailureTimes": 26,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -22184,7 +22223,8 @@
       "DependencyFrom": [
         "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md",
         "migrated-03-14\\Topic\\Monitor-mobile-app-management-policies-with-Microsoft-Intune.md",
-        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\wipe-managed-company-app-data-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequestsSummary.png",
@@ -24097,7 +24137,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\Access_Control_Flow_For_Native_Email_Apps.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md"
+        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md",
+        "InTuneDocs\\zDeletedTopics\\architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\Access_Control_Flow_For_Native_Email_Apps.png"
@@ -24127,7 +24168,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\Access_Control_Flow_For_Outlook_App.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md"
+        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md",
+        "InTuneDocs\\zDeletedTopics\\architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\Access_Control_Flow_For_Outlook_App.png"
@@ -24188,7 +24230,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalAccept.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalAccept.png"
@@ -24218,7 +24261,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalInstall.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalInstall.png"
@@ -24248,7 +24292,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalMessage.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalMessage.png"
@@ -24278,7 +24323,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\Android_O365SignInPage.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\Android_O365SignInPage.png"
@@ -24308,7 +24354,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\Android_OneDriveConfirmPIN.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\Android_OneDriveConfirmPIN.png"
@@ -24338,7 +24385,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\Android_OneDriveSetPIN.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\Android_OneDriveSetPIN.png"
@@ -24368,7 +24416,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\Android_SwitchUser.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\Android_SwitchUser.png"
@@ -24398,7 +24447,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddingPolicyNotification.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddingPolicyNotification.png"
@@ -24428,7 +24478,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddPolicy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddPolicy.png"
@@ -24458,7 +24509,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddPolicy_only.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddPolicy_only.png"
@@ -24488,7 +24540,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddRole.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddRole.png"
@@ -24518,7 +24571,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddUsers.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddUsers.png"
@@ -24548,7 +24602,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddUserstoPolicy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddUserstoPolicy.png"
@@ -24578,7 +24633,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddusertoRole.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddusertoRole.png"
@@ -24608,7 +24664,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AppPolicy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AppPolicy.png"
@@ -24638,7 +24695,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Browse_Intune.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Browse_Intune.png"
@@ -24668,7 +24726,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_ChangeSettings.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_ChangeSettings.png"
@@ -24698,7 +24757,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_DeleteUser.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_DeleteUser.png"
@@ -24728,7 +24788,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_SelectUser.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_SelectUser.png"
@@ -24758,7 +24819,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_CreatePolicy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_CreatePolicy.png"
@@ -24789,7 +24851,9 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Mainblade.png"
@@ -24819,7 +24883,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_NewWipeRequest.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\wipe-managed-company-app-data-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_NewWipeRequest.png"
@@ -24849,7 +24914,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_OpenPolicy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_OpenPolicy.png"
@@ -24879,7 +24945,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_PinBladeAction.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_PinBladeAction.png"
@@ -24909,7 +24976,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_PolicySettings.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_PolicySettings.png"
@@ -24939,7 +25007,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_SelectUserstoDeploy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_SelectUserstoDeploy.png"
@@ -24969,7 +25038,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Startboard_withMAM.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Startboard_withMAM.png"
@@ -24999,7 +25069,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_WipeRequests.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\wipe-managed-company-app-data-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_WipeRequests.png"
@@ -25029,7 +25100,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAMSigninPage.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAMSigninPage.png"
@@ -25059,7 +25131,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAMStartboard_NoMAM.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAMStartboard_NoMAM.png"
@@ -25089,7 +25162,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_AppPINPrompt.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_AppPINPrompt.png"
@@ -25119,7 +25193,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_AppRestartforMAM.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_AppRestartforMAM.png"
@@ -25149,7 +25224,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_FacebookPasteCompany.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_FacebookPasteCompany.png"
@@ -25179,7 +25255,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_FacebookPastePersonal.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_FacebookPastePersonal.png"
@@ -25209,7 +25286,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_O365SignInPage.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_O365SignInPage.png"
@@ -25239,7 +25317,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_OneDriveLaunch.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_OneDriveLaunch.png"
@@ -25269,7 +25348,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_OneDriveSuccess.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_OneDriveSuccess.png"
@@ -25299,7 +25379,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_SwitchUser.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_SwitchUser.PNG"
@@ -25329,7 +25410,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_WordCopyCompany.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_WordCopyCompany.png"
@@ -25359,7 +25441,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_WordCopyPersonal.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_WordCopyPersonal.png"
@@ -25389,7 +25472,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_WordCreateCompanyDoc.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_WordCreateCompanyDoc.PNG"
@@ -25419,7 +25503,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\iOS_WordCreateNewDoc.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\iOS_WordCreateNewDoc.png"
@@ -25449,7 +25534,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\OfficePortal_AddRoletoUser.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\OfficePortal_AddRoletoUser.png"
@@ -25479,7 +25565,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\OfficePortal_AddUsers.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\OfficePortal_AddUsers.png"
@@ -25509,7 +25596,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\AppManagement\\OfficePortal_CreateGroups.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\AppManagement\\OfficePortal_CreateGroups.png"
@@ -25539,7 +25627,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\Apps_with_mobile_app_policies.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\configure-data-loss-prevention-app-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\Apps_with_mobile_app_policies.png"
@@ -25569,7 +25658,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\Apps_without_MAM_policies.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\configure-data-loss-prevention-app-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\Apps_without_MAM_policies.png"
@@ -25634,7 +25724,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\CADataSheet_Diagram_Apps.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md"
+        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md",
+        "InTuneDocs\\zDeletedTopics\\architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\CADataSheet_Diagram_Apps.png"
@@ -25698,7 +25789,8 @@
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md",
-        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\ConditionalAccess8-2.png"
@@ -25886,7 +25978,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\Enterprise_Mobility_Suite.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md"
+        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md",
+        "InTuneDocs\\zDeletedTopics\\architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\Enterprise_Mobility_Suite.png"
@@ -25917,7 +26010,9 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md",
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\HybridOnpremExchSrvrWizard6.PNG"
@@ -26660,7 +26755,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\MAM_BYOD_November.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\configure-data-loss-prevention-app-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\MAM_BYOD_November.png"
@@ -26690,7 +26786,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\MAM_ManagedDevices_November.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\configure-data-loss-prevention-app-policies-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\MAM_ManagedDevices_November.png"
@@ -27628,7 +27725,8 @@
       "SourceFilePath": "migrated-03-14\\Image\\Protecting_your_data.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md"
+        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md",
+        "InTuneDocs\\zDeletedTopics\\architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
       "FilePathList": [
         "migrated-03-14\\Image\\Protecting_your_data.png"
@@ -28281,7 +28379,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md"
+        "migrated-03-14\\Topic\\Architecture-guidance-for-protecting-company-email-and-documents.md",
+        "InTuneDocs\\zDeletedTopics\\architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Architecture-guidance-for-protecting-company-email-and-documents.2e5fb1ada958c296f5446bb7a60c63fe73caefee.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -28678,7 +28777,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\configure-data-loss-prevention-app-policies-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.5b990058b1977a6799b77d3fdb48be7cf883f3a9.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -28822,7 +28922,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.dabb65967c4d9bca8745dc662e2f5bdedc37222d.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -29248,7 +29349,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md"
+        "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.3b153e1e7138d8b962d6fa0d55e28388bcf00ccd.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -29276,7 +29378,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md"
+        "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\End-user-experience-of-conditional-access.acb68344bf6162a69b758f0dd5c9748739f1075a.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -29585,7 +29688,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md"
+        "migrated-03-14\\Topic\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.md",
+        "InTuneDocs\\DeployUse\\get-started-with-mobile-app-management-policies-in-the-azure-portal.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Get-started-with-mobile-app-management-policies-in-the-Azure-portal.42154f6580af2bee9b971550effef535caf4d63c.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -30488,7 +30592,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
+        "migrated-03-14\\Topic\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md",
+        "InTuneDocs\\zDeletedTopics\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.9aee158b2138936ae5d63af6ffac0f90812c8590.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -32711,7 +32816,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Microsoft-Intune-mobile-app-management-policies-and-iOS-Open-In.md"
+        "migrated-03-14\\Topic\\Microsoft-Intune-mobile-app-management-policies-and-iOS-Open-In.md",
+        "InTuneDocs\\DeployUse\\microsoft-intune-mobile-app-management-policies-and-ios-open-in.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Microsoft-Intune-mobile-app-management-policies-and-iOS-Open-In.9573250ecf3eef80feca77636ec50589dd25d574.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -32992,7 +33098,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Monitor-mobile-app-management-policies-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Monitor-mobile-app-management-policies-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Monitor-mobile-app-management-policies-with-Microsoft-Intune.cf8d9428160afbe0cd34db09a1692e9c8de549f6.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -34881,7 +34988,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Use-conditional-access-with-Intune.e305584fd5132b2b2229f8905083b7e550d47621.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -34909,7 +35017,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+        "migrated-03-14\\Topic\\Use-conditional-access-with-Intune-and-Configuration-Manager.md",
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Use-conditional-access-with-Intune-and-Configuration-Manager.f7e81260adc3fa6c3ea8118ed250af67d7ad149e.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -35646,7 +35755,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Wipe-managed-company-app-data-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\wipe-managed-company-app-data-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Wipe-managed-company-app-data-with-Microsoft-Intune.7742e006d8f6051fc7cceb49178ae78ffbac19fc.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
