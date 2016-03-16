@@ -160,6 +160,10 @@
   "88d90e828201f782f96e714c9481ade37f34258c": [
     "InTuneDocs\\DeployUse\\deploy-apps-to-windows-pcs-in-microsoft-intune.md"
   ],
+  "333c1f469c6bc549ba3d47bfae55471f6b965f0c": [
+    "InTuneDocs\\DeployUse\\enable-access-to-company-resources-using-certificate-profiles-with-microsoft-intune.md",
+    "migrated-03-14\\Topic\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md"
+  ],
   "db8203aca932be98eace2c13f6420a1719822e94": [
     "InTuneDocs\\DeployUse\\enable-access-to-company-resources-using-certificate-profiles-with-microsoft-intune.md"
   ],
@@ -3108,13 +3112,15 @@
     "InTuneDocs\\zDeletedTopics\\Configure-apps-with-Microsoft-Intune.md"
   ],
   "0d4f6da04e2fea79f4327188e727d81730f12b70": [
-    "migrated-03-14\\Topic\\Configure-certificate-infrastructure.md"
+    "migrated-03-14\\Topic\\Configure-certificate-infrastructure.md",
+    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure.md"
   ],
   "7e626083babfabd6b196ead928c7d1c82399ccd7": [
     "migrated-03-14\\Topic\\Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md"
   ],
   "da73c9a05b2506a3997bac5aa4b83fce00c01640": [
-    "migrated-03-14\\Topic\\Configure-Intune-certificate-profiles.md"
+    "migrated-03-14\\Topic\\Configure-Intune-certificate-profiles.md",
+    "InTuneDocs\\DeployUse\\Configure-Intune-certificate-profiles.md"
   ],
   "e10d5743797882b6bc58e95d79006e33220a6892": [
     "InTuneDocs\\DeployUse\\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
@@ -3154,9 +3160,6 @@
   ],
   "6740a5260d349e7439a029ab224d1abfd856786a": [
     "InTuneDocs\\edition-upgrade-policy-settings-in-microsoft-intune.md"
-  ],
-  "333c1f469c6bc549ba3d47bfae55471f6b965f0c": [
-    "migrated-03-14\\Topic\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md"
   ],
   "912a31633a5d18a60100d96043fa063ce6e3691d": [
     "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune.md"
@@ -4018,5 +4021,14 @@
   ],
   "879d69e0e923473238e36d2abf48ce19d12c2583": [
     "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+  ],
+  "6e8127c31aced6f3072d7c2d930799c2e70fcf21": [
+    "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md"
+  ],
+  "cbc984010e24f054a09f1020c64682d0a3b9aa33": [
+    "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.png"
+  ],
+  "d211711ad142aa99dab0b7f1a2569ef2ffc54b3a": [
+    "InTuneDocs\\DeployUse\\pre-shared-key-wi-fi-profile.md"
   ]
 }

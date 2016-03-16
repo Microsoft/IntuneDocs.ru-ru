@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "c7f14707a9cc60e91c7b1301a42dcb5405b3c89e",
+  "LastProcessedCommit": "436ca5d6e89bef8544570f5e6edb418cc7265eeb",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -16945,7 +16945,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T09:53:47.6026814Z",
+      "HandoffDateTime": "2016-03-16T16:28:45.9279057Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16956,7 +16956,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 23,
+      "HandoffFailureTimes": 24,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -16985,7 +16985,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T09:53:47.6026814Z",
+      "HandoffDateTime": "2016-03-16T16:28:45.9279057Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16996,7 +16996,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 23,
+      "HandoffFailureTimes": 24,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17025,7 +17025,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T09:53:47.6026814Z",
+      "HandoffDateTime": "2016-03-16T16:28:45.9279057Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17036,7 +17036,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 23,
+      "HandoffFailureTimes": 24,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -28649,7 +28649,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Configure-certificate-infrastructure.md"
+        "migrated-03-14\\Topic\\Configure-certificate-infrastructure.md",
+        "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Configure-certificate-infrastructure.9aee2be201edfb2b637a174def577bdae95e354b.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -28705,7 +28706,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Configure-Intune-certificate-profiles.md"
+        "migrated-03-14\\Topic\\Configure-Intune-certificate-profiles.md",
+        "InTuneDocs\\DeployUse\\Configure-Intune-certificate-profiles.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Configure-Intune-certificate-profiles.40750c40e3eec41a47f7cf27e1271cbdfe493f0f.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -29133,7 +29135,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\enable-access-to-company-resources-using-certificate-profiles-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.1c8907e7a16953fb8e42a06511d6b0a18ae2e2c1.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -37804,6 +37807,92 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\c51ab8a245f1bc5450279b12ddf3bec42664b4d9.html",
       "HandoffFileCommit": "709af7cad158b369a9091042e51d7caec1da4114",
       "HandoffDateTime": "2016-03-16T09:27:57.7262963Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "6e8127c31aced6f3072d7c2d930799c2e70fcf21": {
+      "FileHash": "6e8127c31aced6f3072d7c2d930799c2e70fcf21",
+      "SourceFileCommit": "436ca5d6e89bef8544570f5e6edb418cc7265eeb",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Custom-configurations-for-VPN-profiles.fa9f9e2eeabb24895c754d39a5945cf8b6db2ab5.ru-ru.xlf",
+      "HandoffFileCommit": "8307d02f90ac0f34d05f7ae27071df051b41928c",
+      "HandoffDateTime": "2016-03-16T16:28:45.9279057Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "cbc984010e24f054a09f1020c64682d0a3b9aa33": {
+      "FileHash": "cbc984010e24f054a09f1020c64682d0a3b9aa33",
+      "SourceFileCommit": "436ca5d6e89bef8544570f5e6edb418cc7265eeb",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cbc984010e24f054a09f1020c64682d0a3b9aa33.png",
+      "HandoffFileCommit": "8307d02f90ac0f34d05f7ae27071df051b41928c",
+      "HandoffDateTime": "2016-03-16T16:28:45.9279057Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "d211711ad142aa99dab0b7f1a2569ef2ffc54b3a": {
+      "FileHash": "d211711ad142aa99dab0b7f1a2569ef2ffc54b3a",
+      "SourceFileCommit": "436ca5d6e89bef8544570f5e6edb418cc7265eeb",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\pre-shared-key-wi-fi-profile.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\pre-shared-key-wi-fi-profile.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\pre-shared-key-wi-fi-profile.70a11e95b4f480bcccabb5dee61cc326a72ea13d.ru-ru.xlf",
+      "HandoffFileCommit": "8307d02f90ac0f34d05f7ae27071df051b41928c",
+      "HandoffDateTime": "2016-03-16T16:28:45.9279057Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
