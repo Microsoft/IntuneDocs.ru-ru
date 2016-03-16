@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "8a56647407d7251483d630fd5b166089cd063353",
+  "LastProcessedCommit": "04ed6cf882a4afbfc04bb00a7743f66ecba98dc2",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -38,7 +38,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\30-day-trial-revision.md"
+        "InTuneDocs\\30-day-trial-revision.md",
+        "InTuneDocs\\zDeletedTopics\\30-day-trial-revision.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\30-day-trial-revision.c7022fb809ac6baa723ce11be6de33fdbc9ded0b.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -208,7 +209,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\administrative-accounts-websites-perms.md"
+        "InTuneDocs\\administrative-accounts-websites-perms.md",
+        "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\administrative-accounts-websites-perms.3eb8fc1257cd898a5df222a3accba5159d822c75.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -585,7 +587,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\company-portal-app-not-supported.md",
-        "migrated-03-14\\Topic\\Company-Portal-app-not-supported.md"
+        "migrated-03-14\\Topic\\Company-Portal-app-not-supported.md",
+        "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\company-portal-app-not-supported.344e51bd598b99bbaf1f433911778cb4542a722d.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -613,7 +616,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\company-portal-frequently-asked-questions.md"
+        "InTuneDocs\\company-portal-frequently-asked-questions.md",
+        "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\company-portal-frequently-asked-questions.142187718a4f0d91998a97bdfba71a7cd404764d.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -3366,7 +3370,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\domain-names-for-intune.md"
+        "InTuneDocs\\domain-names-for-intune.md",
+        "InTuneDocs\\Understand\\domain-names-for-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\domain-names-for-intune.163fdeda8755ecb46df2508b769473860f9d1088.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -4618,7 +4623,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\enroll-your-device-in-microsoft-intune.md"
+        "InTuneDocs\\enroll-your-device-in-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\enroll-your-device-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\enroll-your-device-in-microsoft-intune.d7e850a88ae6e8cf6d093dbb3a35f81abc6fabb8.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -4675,7 +4681,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\error-evaluating-device.md",
-        "migrated-03-14\\Topic\\Error-evaluating-device.md"
+        "migrated-03-14\\Topic\\Error-evaluating-device.md",
+        "InTuneDocs\\EndUser\\error-evaluating-device.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\error-evaluating-device.9df8da5e2604796972458c8bb1a02a58057eb60e.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -4732,7 +4739,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\existing-company-email-account-found.md",
-        "migrated-03-14\\Topic\\Existing-company-email-account-found.md"
+        "migrated-03-14\\Topic\\Existing-company-email-account-found.md",
+        "InTuneDocs\\EndUser\\existing-company-email-account-found.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\existing-company-email-account-found.ff27f6661e9e10ddd3760d83abc66fb7049dc012.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -4761,7 +4769,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\fix-issues-with-mobile-device-enrollment.md",
-        "migrated-03-14\\Topic\\Fix-issues-with-mobile-device-enrollment.md"
+        "migrated-03-14\\Topic\\Fix-issues-with-mobile-device-enrollment.md",
+        "InTuneDocs\\EndUser\\fix-issues-with-mobile-device-enrollment.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\fix-issues-with-mobile-device-enrollment.46d4b2ce6060bc0d0c644037cf41f13596d975e6.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5697,7 +5706,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\help-for-managed-apps.md"
+        "InTuneDocs\\help-for-managed-apps.md",
+        "InTuneDocs\\zDeletedTopics\\help-for-managed-apps.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\help-for-managed-apps.b654875e57975b7edb94aebb66688417c58a2c19.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5753,7 +5763,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\help-using-your-mobile-device-at-work.md"
+        "InTuneDocs\\help-using-your-mobile-device-at-work.md",
+        "InTuneDocs\\zDeletedTopics\\help-using-your-mobile-device-at-work.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\help-using-your-mobile-device-at-work.f5b1695fc3f489430bdae113f7131c7b2f4bfe9b.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5781,7 +5792,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\help-with-ios-enrollment-errors.md"
+        "InTuneDocs\\help-with-ios-enrollment-errors.md",
+        "InTuneDocs\\zDeletedTopics\\help-with-ios-enrollment-errors.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\help-with-ios-enrollment-errors.4e8ad02b7bfbad962b3a207fb71193b0131ed351.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5837,7 +5849,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\how-to-encrypt-your-android-device.md"
+        "InTuneDocs\\how-to-encrypt-your-android-device.md",
+        "InTuneDocs\\zDeletedTopics\\how-to-encrypt-your-android-device.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-encrypt-your-android-device.99ef6b0cb74ff59caceae8c10cec2750f6af1240.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5865,7 +5878,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\how-to-encrypt-your-windows-device.md"
+        "InTuneDocs\\how-to-encrypt-your-windows-device.md",
+        "InTuneDocs\\EndUser\\how-to-encrypt-your-windows-device.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-encrypt-your-windows-device.80c5d303f02e36c9fe788f83be6594ce8881cd8f.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5893,7 +5907,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\how-to-enroll-your-device-in-microsoft-intune.md"
+        "InTuneDocs\\how-to-enroll-your-device-in-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\how-to-enroll-your-device-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-enroll-your-device-in-microsoft-intune.b81224ea449924851b65018fd3835a22c9e646e2.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5950,7 +5965,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\how-to-reconnect-a-compromised-android-device.md",
-        "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-Android-device.md"
+        "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-Android-device.md",
+        "InTuneDocs\\EndUser\\how-to-reconnect-a-compromised-android-device.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-reconnect-a-compromised-android-device.1e228d7aca6a8629ac14ffa6d9c4086c73d172e3.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -5979,7 +5995,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\how-to-reconnect-a-compromised-ios-device.md",
-        "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-iOS-device.md"
+        "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-iOS-device.md",
+        "InTuneDocs\\EndUser\\how-to-reconnect-a-compromised-ios-device.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-reconnect-a-compromised-ios-device.b74091fcaad4adbede1f0add76cefa6772092bff.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -6007,7 +6024,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\how-to-set-the-password-on-your-android-device.md"
+        "InTuneDocs\\how-to-set-the-password-on-your-android-device.md",
+        "InTuneDocs\\EndUser\\how-to-set-the-password-on-your-android-device.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-set-the-password-on-your-android-device.96b5bc289795407282419a5afc2c85051d3e7d73.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -6035,7 +6053,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\how-to-set-the-period-before-your-android-device-is-locked.md"
+        "InTuneDocs\\how-to-set-the-period-before-your-android-device-is-locked.md",
+        "InTuneDocs\\EndUser\\how-to-set-the-period-before-your-android-device-is-locked.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-set-the-period-before-your-android-device-is-locked.14718881c855480dc316f584397364ef84d3a7b0.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -6063,7 +6082,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\how-you-can-work-on-your-device-and-keep-your-company-safe.md"
+        "InTuneDocs\\how-you-can-work-on-your-device-and-keep-your-company-safe.md",
+        "InTuneDocs\\zDeletedTopics\\how-you-can-work-on-your-device-and-keep-your-company-safe.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-you-can-work-on-your-device-and-keep-your-company-safe.65d15e622ebdfdb49d9f88dca93cf84a108d2bd3.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -9256,7 +9276,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\integration-with-cloud-services.md"
+        "InTuneDocs\\integration-with-cloud-services.md",
+        "InTuneDocs\\Understand\\integration-with-cloud-services.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\integration-with-cloud-services.79ef8cf6956b2036973c8a899ef03cd8d6b32bbd.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -9772,7 +9793,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\iw-content.md",
-        "migrated-03-14\\Topic\\IW-Content.md"
+        "migrated-03-14\\Topic\\IW-Content.md",
+        "InTuneDocs\\zDeletedTopics\\iw-content.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\iw-content.1ea90533216dde91ad57c0c2edf8fbdc7741da4d.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -10843,7 +10865,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\md-reference-for-tenant-administrator-accounts-for-microsoft-intune.md"
+        "InTuneDocs\\md-reference-for-tenant-administrator-accounts-for-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\md-reference-for-tenant-administrator-accounts-for-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\md-reference-for-tenant-administrator-accounts-for-microsoft-intune.2b27f854d51e047a31de91e7753e48dcbdd5f821.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -12649,7 +12672,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\microsoft-intune-company-portal.md"
+        "InTuneDocs\\microsoft-intune-company-portal.md",
+        "InTuneDocs\\Understand\\microsoft-intune-company-portal.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\microsoft-intune-company-portal.460f6498b50b2308bae112bf745c067ad144e86e.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -13138,7 +13162,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\network-bandwidth-use.md"
+        "InTuneDocs\\network-bandwidth-use.md",
+        "InTuneDocs\\Understand\\network-bandwidth-use.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\network-bandwidth-use.eade84e9b29f15e552f2f73b6b5afa4f9aa7f1cc.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -13223,7 +13248,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\overview-of-the-microsoft-intune-app-sdk.md",
-        "migrated-03-14\\Topic\\Overview-of-the-Microsoft-Intune-App-SDK.md"
+        "migrated-03-14\\Topic\\Overview-of-the-Microsoft-Intune-App-SDK.md",
+        "InTuneDocs\\DeployUse\\overview-of-the-microsoft-intune-app-sdk.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\overview-of-the-microsoft-intune-app-sdk.14ebf58100838a0cd9b44ee97c33197f9fc68a12.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -13652,7 +13678,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\prepare-android-apps-for-mobile-app-management.md",
-        "migrated-03-14\\Topic\\Prepare-Android-apps-for-mobile-app-management.md"
+        "migrated-03-14\\Topic\\Prepare-Android-apps-for-mobile-app-management.md",
+        "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-app-management.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\prepare-android-apps-for-mobile-app-management.6b270b7c23e8f198df74938f7f40bd1095264d19.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -13681,7 +13708,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\prepare-ios-apps-for-mobile-app-management.md",
-        "migrated-03-14\\Topic\\Prepare-iOS-apps-for-mobile-app-management.md"
+        "migrated-03-14\\Topic\\Prepare-iOS-apps-for-mobile-app-management.md",
+        "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-app-management.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\prepare-ios-apps-for-mobile-app-management.97625853ef2bd44329c5890a87fb6181c260a348.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -13940,7 +13968,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\reference-for-the-microsoft-intune-administrative-consoles.md",
-        "migrated-03-14\\Topic\\Reference-for-the-Microsoft-Intune-administrative-consoles.md"
+        "migrated-03-14\\Topic\\Reference-for-the-Microsoft-Intune-administrative-consoles.md",
+        "InTuneDocs\\zDeletedTopics\\reference-for-the-microsoft-intune-administrative-consoles.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\reference-for-the-microsoft-intune-administrative-consoles.5158e18bee5d65ee768e5c16f5bd8775302ec1c7.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -13968,7 +13997,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\release-notes-for-microsoft-intune.md"
+        "InTuneDocs\\release-notes-for-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\release-notes-for-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\release-notes-for-microsoft-intune.07402714a1b37b4635eff72fec5d08f2d809e6f5.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -15102,7 +15132,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\stacie-what-s-new.md"
+        "InTuneDocs\\stacie-what-s-new.md",
+        "InTuneDocs\\zDeletedTopics\\stacie-what-s-new.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\stacie-what-s-new.98791093459358e9687c7bce56427bfa08797da9.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -15321,7 +15352,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\supported-web-browsers.md"
+        "InTuneDocs\\supported-web-browsers.md",
+        "InTuneDocs\\Understand\\supported-web-browsers.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\supported-web-browsers.41f9165be4edf3fea4376474e2a65a3820c18001.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -16375,7 +16407,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\unenroll-your-device.md",
-        "migrated-03-14\\Topic\\Unenroll-your-device.md"
+        "migrated-03-14\\Topic\\Unenroll-your-device.md",
+        "InTuneDocs\\zDeletedTopics\\unenroll-your-device.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\unenroll-your-device.7393ae6a48b4d622ba19f11fb50d785a98f9053b.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -17025,7 +17058,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T19:25:38.1011586Z",
+      "HandoffDateTime": "2016-03-16T19:53:49.8700096Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17036,7 +17069,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 28,
+      "HandoffFailureTimes": 29,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17065,7 +17098,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T19:25:38.1011586Z",
+      "HandoffDateTime": "2016-03-16T19:53:49.8700096Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17076,7 +17109,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 28,
+      "HandoffFailureTimes": 29,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17105,7 +17138,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T19:25:38.1011586Z",
+      "HandoffDateTime": "2016-03-16T19:53:49.8700096Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17116,7 +17149,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 28,
+      "HandoffFailureTimes": 29,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17436,7 +17469,9 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\what-happens-if-you-remove-a-personal-device-using-the-company-portal-deleted.md",
-        "migrated-03-14\\Topic\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal---deleted.md"
+        "migrated-03-14\\Topic\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal---deleted.md",
+        "InTuneDocs\\zDeletedTopics\\what-happens-if-you-remove-a-personal-device-using-the-company-portal-deleted.md",
+        "InTuneDocs\\zDeletedTopics\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal---deleted.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\what-happens-if-you-remove-a-personal-device-using-the-company-portal-deleted.f46d26baca7d52017aa3241509813ab78f4fe458.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -17644,7 +17679,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md",
-        "migrated-03-14\\Topic\\When-to-use-the-Intune-App-Wrapping-tool-vs.-the-Intune-App-SDK.md"
+        "migrated-03-14\\Topic\\When-to-use-the-Intune-App-Wrapping-tool-vs.-the-Intune-App-SDK.md",
+        "InTuneDocs\\DeployUse\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.5e48ada0062f029a55468a7874322402a815685c.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -17875,7 +17911,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\your-computer-is-already-enrolled.md"
+        "InTuneDocs\\your-computer-is-already-enrolled.md",
+        "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\your-computer-is-already-enrolled.6939bd7f603160e10caeae7ec20c1d7bf1eb4880.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -33231,7 +33268,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "migrated-03-14\\Topic\\Network-infrastructure-requirements-for-Microsoft-Intune.md",
-        "InTuneDocs\\network-infrastructure-requirements-for-microsoft-intune.md"
+        "InTuneDocs\\network-infrastructure-requirements-for-microsoft-intune.md",
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Network-infrastructure-requirements-for-Microsoft-Intune.e7c7cc0e11908fd663a4ecd1bce1b93b7118a8ab.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -33708,7 +33746,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Release-notes-for-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Release-notes-for-Microsoft-Intune.md",
+        "InTuneDocs\\DeployUse\\Release-notes-for-Microsoft-Intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Release-notes-for-Microsoft-Intune.f8642bb11b0f3d056309bf20e4cb7f1e8c6d4fc6.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -35403,7 +35442,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.md"
+        "migrated-03-14\\Topic\\What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.md",
+        "InTuneDocs\\zDeletedTopics\\What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.8b0b015a754fb325b9005891fbad6854593ba4de.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -35431,7 +35471,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal.md"
+        "migrated-03-14\\Topic\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal.md",
+        "InTuneDocs\\zDeletedTopics\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal.65f4eac580cdfbbe94840aa52cccb97d6e437d12.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -35459,7 +35500,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\What-happens-if-you-reset-a-personal-device-using-the-Company-Portal.md"
+        "migrated-03-14\\Topic\\What-happens-if-you-reset-a-personal-device-using-the-Company-Portal.md",
+        "InTuneDocs\\zDeletedTopics\\What-happens-if-you-reset-a-personal-device-using-the-Company-Portal.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\What-happens-if-you-reset-a-personal-device-using-the-Company-Portal.fcf2b55e41c557ccd4d5a27603bef5d53d725ac8.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",

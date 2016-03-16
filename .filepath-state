@@ -4,7 +4,7 @@
     "migrated-03-14\\Topic\\1511---Restrict-access-to-Office-365-services.md"
   ],
   "abbc1b32ea3fe5fdec2fca191276dcd755dc3fd6": [
-    "InTuneDocs\\30-day-trial-revision.md"
+    "InTuneDocs\\zDeletedTopics\\30-day-trial-revision.md"
   ],
   "755654ec2fba79a8d56cd050ed602ef709d3a862": [
     "InTuneDocs\\EULA\\acceptable-use-policy-for-microsoft-intune.md"
@@ -23,7 +23,7 @@
     "InTuneDocs\\activate-your-product-key.md"
   ],
   "f3ec1328c2182de7a9159e7befb540b9af9f243f": [
-    "InTuneDocs\\administrative-accounts-websites-perms.md"
+    "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md"
   ],
   "7d6b7c475f24867a1c09793f723576a9158b415a": [
     "InTuneDocs\\DeployUse\\android-configuration-policy-settings-in-microsoft-intune.md"
@@ -68,11 +68,11 @@
     "InTuneDocs\\zDeletedTopics\\choose-the-right-microsoft-intune-policy-to-use-deleted.md"
   ],
   "f5d6903ea1300626502033b153385e9902335bd4": [
-    "InTuneDocs\\company-portal-app-not-supported.md",
-    "migrated-03-14\\Topic\\Company-Portal-app-not-supported.md"
+    "migrated-03-14\\Topic\\Company-Portal-app-not-supported.md",
+    "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
   ],
   "a02690e3a99003efa054e4b2072e86333674c910": [
-    "InTuneDocs\\company-portal-frequently-asked-questions.md"
+    "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
   ],
   "879aa0f552b54bb2b28b069b8471deaf81c3fbe4": [
     "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md"
@@ -452,7 +452,7 @@
     "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycleFull2.png"
   ],
   "90b2b86fc3d57e805424f23266399522d6efaec8": [
-    "InTuneDocs\\domain-names-for-intune.md"
+    "InTuneDocs\\Understand\\domain-names-for-intune.md"
   ],
   "65cdbe112a7f787404f6b1eb9a9b0fd731872be6": [
     "InTuneDocs\\enable-access-to-company-resources-with-microsoft-intune-deleted.md"
@@ -598,22 +598,22 @@
     "InTuneDocs\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
   ],
   "22d2fa06b88f9088c80226aba503e4575403234f": [
-    "InTuneDocs\\enroll-your-device-in-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\enroll-your-device-in-microsoft-intune.md"
   ],
   "3f7f11265320a878ec84a5648d6906cb6b11bda0": [
-    "InTuneDocs\\error-evaluating-device.md",
-    "migrated-03-14\\Topic\\Error-evaluating-device.md"
+    "migrated-03-14\\Topic\\Error-evaluating-device.md",
+    "InTuneDocs\\EndUser\\error-evaluating-device.md"
   ],
   "10de324fb7c32f2f07bbfcd234018850cc2ac54e": [
     "InTuneDocs\\exchange-activesync-policy-settings-in-microsoft-intune.md"
   ],
   "71b8d8efac8ac85791c2f109b4566072dd5c7f4b": [
-    "InTuneDocs\\existing-company-email-account-found.md",
-    "migrated-03-14\\Topic\\Existing-company-email-account-found.md"
+    "migrated-03-14\\Topic\\Existing-company-email-account-found.md",
+    "InTuneDocs\\EndUser\\existing-company-email-account-found.md"
   ],
   "0c687d449d70febafff04ae1c9e14ae409a1424b": [
-    "InTuneDocs\\fix-issues-with-mobile-device-enrollment.md",
-    "migrated-03-14\\Topic\\Fix-issues-with-mobile-device-enrollment.md"
+    "migrated-03-14\\Topic\\Fix-issues-with-mobile-device-enrollment.md",
+    "InTuneDocs\\EndUser\\fix-issues-with-mobile-device-enrollment.md"
   ],
   "102d8f386c71b03e962e5ec2c364e85326f9c1be": [
     "InTuneDocs\\GetStarted\\common-microsoft-intune-evaluation-tasks.md"
@@ -833,48 +833,48 @@
     "InTuneDocs\\getting-started-with-the-microsoft-intune-app-sdk.md"
   ],
   "fb1f0c11debf1c8095b83f4551a4fd0441948b48": [
-    "InTuneDocs\\help-for-managed-apps.md"
+    "InTuneDocs\\zDeletedTopics\\help-for-managed-apps.md"
   ],
   "2eb291f785cbcf8a053914ab12830f35c04b2311": [
     "InTuneDocs\\help-for-microsoft-intune-partners.md"
   ],
   "7face2f220c61033e687565d12171aac7076fdd2": [
-    "InTuneDocs\\help-using-your-mobile-device-at-work.md"
+    "InTuneDocs\\zDeletedTopics\\help-using-your-mobile-device-at-work.md"
   ],
   "cdb2460705f364e4224db64b2c7133f002a0b287": [
-    "InTuneDocs\\help-with-ios-enrollment-errors.md"
+    "InTuneDocs\\zDeletedTopics\\help-with-ios-enrollment-errors.md"
   ],
   "05c8b23e53d478da8aba49fd4ad3fbb29d0b2b28": [
     "InTuneDocs\\how-microsoft-intune-helps-you-comply-with-security-and-privacy-requirements.md"
   ],
   "1cc226706b01426be2b45ce401b31ff2ee79acb6": [
-    "InTuneDocs\\how-to-encrypt-your-android-device.md"
+    "InTuneDocs\\zDeletedTopics\\how-to-encrypt-your-android-device.md"
   ],
   "0e98e3c9f294953cf125d459afb818a29a8e0163": [
-    "InTuneDocs\\how-to-encrypt-your-windows-device.md"
+    "InTuneDocs\\EndUser\\how-to-encrypt-your-windows-device.md"
   ],
   "d930e709aae917911c93cb4ef80f3c927d20bbbe": [
-    "InTuneDocs\\how-to-enroll-your-device-in-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\how-to-enroll-your-device-in-microsoft-intune.md"
   ],
   "572962273168417f703cd60235c1a1631c70defd": [
     "InTuneDocs\\how-to-find-the-right-help-for-intune-by-itself-or-with-configuration-manager.md"
   ],
   "2a22605931bac6b32a11b20c6ff578b1ae24089e": [
-    "InTuneDocs\\how-to-reconnect-a-compromised-android-device.md",
-    "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-Android-device.md"
+    "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-Android-device.md",
+    "InTuneDocs\\EndUser\\how-to-reconnect-a-compromised-android-device.md"
   ],
   "a6cfeb7beefb59cf877b381164ecbfcbeefb5c48": [
-    "InTuneDocs\\how-to-reconnect-a-compromised-ios-device.md",
-    "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-iOS-device.md"
+    "migrated-03-14\\Topic\\How-to-reconnect-a-compromised-iOS-device.md",
+    "InTuneDocs\\EndUser\\how-to-reconnect-a-compromised-ios-device.md"
   ],
   "a4fac954fc55543459a7961d5c58620fedd743e0": [
-    "InTuneDocs\\how-to-set-the-password-on-your-android-device.md"
+    "InTuneDocs\\EndUser\\how-to-set-the-password-on-your-android-device.md"
   ],
   "9c81d42cebcf4306b01f552c85800e8eaf8b98ee": [
-    "InTuneDocs\\how-to-set-the-period-before-your-android-device-is-locked.md"
+    "InTuneDocs\\EndUser\\how-to-set-the-period-before-your-android-device-is-locked.md"
   ],
   "ed4326e18a6d61ee0a39710bd92b35981419450f": [
-    "InTuneDocs\\how-you-can-work-on-your-device-and-keep-your-company-safe.md"
+    "InTuneDocs\\zDeletedTopics\\how-you-can-work-on-your-device-and-keep-your-company-safe.md"
   ],
   "d00ea2a68875e7080e5f5f743d0a008ddf64b1e4": [
     "InTuneDocs\\hybrid-non-toc-content.md",
@@ -1317,7 +1317,7 @@
     "migrated-03-14\\Token\\wps_2_md.md"
   ],
   "45bb6c82cfbab60992572ed42ca3c4437365a2c4": [
-    "InTuneDocs\\integration-with-cloud-services.md"
+    "InTuneDocs\\Understand\\integration-with-cloud-services.md"
   ],
   "9c786eb64287a480b46af474469ede2d0956fc35": [
     "InTuneDocs\\introduction-to-microsoft-intune-test-.md"
@@ -1363,8 +1363,8 @@
     "InTuneDocs\\ip-ranges-version-2.md"
   ],
   "17e0e5f05f4e7ad7174ea03b35c67f2844519914": [
-    "InTuneDocs\\iw-content.md",
-    "migrated-03-14\\Topic\\IW-Content.md"
+    "migrated-03-14\\Topic\\IW-Content.md",
+    "InTuneDocs\\zDeletedTopics\\iw-content.md"
   ],
   "b64a458f9a766a78fe37c8a1618317160c8901b7": [
     "InTuneDocs\\jeffs-sandbox.md"
@@ -1481,7 +1481,7 @@
     "InTuneDocs\\md-microsoft-intune-service-description.md"
   ],
   "614bcb862dd78ade6354d8bc8b58615b4d63e3ee": [
-    "InTuneDocs\\md-reference-for-tenant-administrator-accounts-for-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\md-reference-for-tenant-administrator-accounts-for-microsoft-intune.md"
   ],
   "bf473ba6dfa8b8edaae11c3d7b61066bf1be418c": [
     "InTuneDocs\\md-using-your-ios-device-with-intune.md"
@@ -1593,7 +1593,7 @@
     "InTuneDocs\\EULA\\microsoft-intune-company-portal-for-windows-phone-application-license-terms.md"
   ],
   "cf1740fb1ff875fa3d32b7aad9ae3eb9d4ab928f": [
-    "InTuneDocs\\microsoft-intune-company-portal.md"
+    "InTuneDocs\\Understand\\microsoft-intune-company-portal.md"
   ],
   "a4e6e73d8c1253b3108a8628bca8876ce2718096": [
     "migrated-03-14\\Topic\\Microsoft-Intune-configuration-policy-settings-reference---deleted.md",
@@ -1651,20 +1651,14 @@
     "InTuneDocs\\move-from-a-microsoft-intune-free-trial-to-a-paid-subscription.md"
   ],
   "e9a117a7c2babc10d14cddbbf200ae150bccaf52": [
-    "InTuneDocs\\network-bandwidth-use.md"
-  ],
-  "1c3a81d53a0fb70b8eb03c2cca2a9987f9ed37b0": [
-    "InTuneDocs\\network-infrastructure-requirements-for-microsoft-intune.md"
-  ],
-  "7de14a183a419df3181eff8768b7ebb18bc77b6d": [
-    "InTuneDocs\\network-infrastructure-requirements-for-microsoft-intune.md"
+    "InTuneDocs\\Understand\\network-bandwidth-use.md"
   ],
   "3313eda8a943c570e0d75c98adbfac51f12ce1db": [
     "InTuneDocs\\old-computer-capabilities-in-intune.md"
   ],
   "2338049411e62d73ecaf959cd995fbc775b9f59f": [
-    "InTuneDocs\\overview-of-the-microsoft-intune-app-sdk.md",
-    "migrated-03-14\\Topic\\Overview-of-the-Microsoft-Intune-App-SDK.md"
+    "migrated-03-14\\Topic\\Overview-of-the-Microsoft-Intune-App-SDK.md",
+    "InTuneDocs\\DeployUse\\overview-of-the-microsoft-intune-app-sdk.md"
   ],
   "59177003de3ecda6ffe43297cedadfb95cd9f24c": [
     "migrated-03-14\\Topic\\Partner-Content.md",
@@ -1738,12 +1732,12 @@
     "InTuneDocs\\GetStarted\\post-configuration-tasks.md"
   ],
   "036ed4102ccd15582e2cbb6340e04e9fed93fed3": [
-    "InTuneDocs\\prepare-android-apps-for-mobile-app-management.md",
-    "migrated-03-14\\Topic\\Prepare-Android-apps-for-mobile-app-management.md"
+    "migrated-03-14\\Topic\\Prepare-Android-apps-for-mobile-app-management.md",
+    "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-app-management.md"
   ],
   "0a2e17b67a34b1da395cd4850d82879e242ef07c": [
-    "InTuneDocs\\prepare-ios-apps-for-mobile-app-management.md",
-    "migrated-03-14\\Topic\\Prepare-iOS-apps-for-mobile-app-management.md"
+    "migrated-03-14\\Topic\\Prepare-iOS-apps-for-mobile-app-management.md",
+    "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-app-management.md"
   ],
   "278a959a26fc564a93c0f54919eed92af3797d35": [
     "InTuneDocs\\EULA\\privacy-statement.md"
@@ -1765,11 +1759,11 @@
     "InTuneDocs\\media\\WIT_Nav_RealworldSolutions.png"
   ],
   "303dbf93e7c828a35772fab32200bc55ec02875c": [
-    "InTuneDocs\\reference-for-the-microsoft-intune-administrative-consoles.md",
-    "migrated-03-14\\Topic\\Reference-for-the-Microsoft-Intune-administrative-consoles.md"
+    "migrated-03-14\\Topic\\Reference-for-the-Microsoft-Intune-administrative-consoles.md",
+    "InTuneDocs\\zDeletedTopics\\reference-for-the-microsoft-intune-administrative-consoles.md"
   ],
   "550fe26b3351aa241fd4d5b354c3d301889a7fb6": [
-    "InTuneDocs\\release-notes-for-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\release-notes-for-microsoft-intune.md"
   ],
   "bc4be22ebc0a92c18746cf2a45e9bdee8fa8169c": [
     "InTuneDocs\\EULA\\remote-assistance-via-microsoft-easy-assist.md"
@@ -1870,7 +1864,7 @@
     "InTuneDocs\\EULA\\sign-in-privacy-statement.md"
   ],
   "3cb9d22ad5765d21f4fad3de5aff56c7af8bae5f": [
-    "InTuneDocs\\stacie-what-s-new.md"
+    "InTuneDocs\\zDeletedTopics\\stacie-what-s-new.md"
   ],
   "95c3c253cdd37287dedd14ba0012be92465dc5a4": [
     "InTuneDocs\\staging.md",
@@ -1894,7 +1888,7 @@
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_Troubleshooting.png"
   ],
   "761f7eac271d7869bf08d23ae7f232b91559cf00": [
-    "InTuneDocs\\supported-web-browsers.md"
+    "InTuneDocs\\Understand\\supported-web-browsers.md"
   ],
   "dda2ade771a0aa3d4d40b8a617ed90dfd9b77678": [
     "InTuneDocs\\system-overview.md",
@@ -2060,8 +2054,8 @@
     "InTuneDocs\\Understand\\windows-pc-management-capabilities-in-microsoft-intune.md"
   ],
   "2d73b45aef6e97f3082aeb018cc5242d39a85a82": [
-    "InTuneDocs\\unenroll-your-device.md",
-    "migrated-03-14\\Topic\\Unenroll-your-device.md"
+    "migrated-03-14\\Topic\\Unenroll-your-device.md",
+    "InTuneDocs\\zDeletedTopics\\unenroll-your-device.md"
   ],
   "3518b8388c081e7b50e0c63a12c6415b12a95b67": [
     "InTuneDocs\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.md"
@@ -2195,18 +2189,9 @@
     "InTuneDocs\\walkthrough-set-up-email-access-for-ios-devices-with-microsoft-intune_deleted.md",
     "migrated-03-14\\Topic\\Walkthrough---Set-up-email-access-for-iOS-devices-with-Microsoft-Intune_deleted.md"
   ],
-  "0a50946cc4e0f85973f1fc0e15087309e62da9db": [
-    "InTuneDocs\\what-happens-if-you-add-a-personal-device-to-the-company-portal.md"
-  ],
   "2df57d0566098de74520bff8fde62284e1226852": [
-    "InTuneDocs\\what-happens-if-you-remove-a-personal-device-using-the-company-portal-deleted.md",
-    "migrated-03-14\\Topic\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal---deleted.md"
-  ],
-  "0bfb6dc36209720ef2832869f1a1255a1443d281": [
-    "InTuneDocs\\what-happens-if-you-remove-a-personal-device-using-the-company-portal.md"
-  ],
-  "03cadb141831ca1a897d608b85af55b385bc17fc": [
-    "InTuneDocs\\what-happens-if-you-reset-a-personal-device-using-the-company-portal.md"
+    "InTuneDocs\\zDeletedTopics\\what-happens-if-you-remove-a-personal-device-using-the-company-portal-deleted.md",
+    "InTuneDocs\\zDeletedTopics\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal---deleted.md"
   ],
   "ef98a323acd85570e70c5ee7c831cfa84cfc212d": [
     "InTuneDocs\\what-s-coming-in-microsoft-intune.md"
@@ -2232,8 +2217,8 @@
     "InTuneDocs\\GetStarted\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
   "347c5303bb115d951958a36fbd993009be45957a": [
-    "InTuneDocs\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md",
-    "migrated-03-14\\Topic\\When-to-use-the-Intune-App-Wrapping-tool-vs.-the-Intune-App-SDK.md"
+    "migrated-03-14\\Topic\\When-to-use-the-Intune-App-Wrapping-tool-vs.-the-Intune-App-SDK.md",
+    "InTuneDocs\\DeployUse\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md"
   ],
   "737de87e241354b8432d4cb47499bcea11551bbf": [
     "InTuneDocs\\DeployUse\\windows-10-configuration-policy-settings-in-microsoft-intune.md"
@@ -2258,7 +2243,7 @@
     "migrated-03-14\\Topic\\Wipe-company-data-from-devices.md"
   ],
   "81df3b4c921dc3287d10b0fb96ad03eddef32c4d": [
-    "InTuneDocs\\your-computer-is-already-enrolled.md"
+    "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
   ],
   "6dd24480ad7926e0c3cd9765dc386a3cf88dfcff": [
     "README.md"
@@ -3539,6 +3524,9 @@
   "480e561d55abf8069505ef5939eebba754c86998": [
     "migrated-03-14\\Topic\\NathBarn-test.md"
   ],
+  "1c3a81d53a0fb70b8eb03c2cca2a9987f9ed37b0": [
+    "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md"
+  ],
   "a8e49c65c290b4bd0e76d06ecbb8ea4d22108174": [
     "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
   ],
@@ -3588,7 +3576,7 @@
     "migrated-03-14\\Topic\\Reference-for-Tenant-Administrator-accounts-for-Microsoft-Intune.md"
   ],
   "51cd068a83081ddc9b4fd65c579f4869b8aa4dff": [
-    "migrated-03-14\\Topic\\Release-notes-for-Microsoft-Intune.md"
+    "InTuneDocs\\DeployUse\\Release-notes-for-Microsoft-Intune.md"
   ],
   "503f068d8771cf1ab5c30565a698be608eb21f67": [
     "migrated-03-14\\Topic\\Remote-Assistance-via-Microsoft-Easy-Assist.md"
@@ -3765,13 +3753,13 @@
     "InTuneDocs\\zDeletedTopics\\Ways-to-do-enterprise-mobility.md"
   ],
   "f5c13f01914b9a8f4467511531c2a8e6cc4accfd": [
-    "migrated-03-14\\Topic\\What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.md"
+    "InTuneDocs\\zDeletedTopics\\What-Happens-if-You-Add-a-Personal-Device-to-the-Company-Portal.md"
   ],
   "0591a32faadd84863be5ee6c5b9c003043adaac4": [
-    "migrated-03-14\\Topic\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal.md"
+    "InTuneDocs\\zDeletedTopics\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal.md"
   ],
   "4fa3a4bd47ae522389877721a120fcfa73b34315": [
-    "migrated-03-14\\Topic\\What-happens-if-you-reset-a-personal-device-using-the-Company-Portal.md"
+    "InTuneDocs\\zDeletedTopics\\What-happens-if-you-reset-a-personal-device-using-the-Company-Portal.md"
   ],
   "31d7d68ac014a47e946c44e9e06106a97e32faea": [
     "migrated-03-14\\Topic\\What-s-coming-in-Microsoft-Intune.md"
