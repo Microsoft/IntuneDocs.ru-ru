@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "467328c74f173106d33e768e4575a6db6a330a9c",
+  "LastProcessedCommit": "8a56647407d7251483d630fd5b166089cd063353",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -3450,7 +3450,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\end-user-experience-of-conditional-access.md"
+        "InTuneDocs\\end-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\end-user-experience-of-conditional-access.a72079618b948d6c17fe79c244d155457f407e4b.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -3479,7 +3480,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_quarantineEmail.png",
@@ -3512,7 +3514,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_1_companyAccessSetup.png",
@@ -3545,7 +3548,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_3_enrollDevice.png",
@@ -3578,7 +3582,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_4_workplaceJoin1.png",
@@ -3611,7 +3616,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_5_workplaceJoin2.png",
@@ -3644,7 +3650,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_6_checkingEnrollment.png",
@@ -3677,7 +3684,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_7_confirmDevice.png",
@@ -3710,7 +3718,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_9_checkingCompliance.png",
@@ -3743,7 +3752,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_13_resolveCompliance.png",
@@ -3776,7 +3786,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_10_activatingEnrollment.png",
@@ -3809,7 +3820,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_11_COMPLETE.png",
@@ -3842,7 +3854,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Windows_14_OutOfCompliance.png",
@@ -3875,7 +3888,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_GetStarted.PNG",
@@ -3908,7 +3922,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_intuneCompanyPortal.png",
@@ -3941,7 +3956,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_companyAccessSetup.png",
@@ -3974,7 +3990,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceEnrollment.png",
@@ -4007,7 +4024,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceComplianceCheck.png",
@@ -4040,7 +4058,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_checkCompliance.png",
@@ -4073,7 +4092,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_complianceCheckCompleted.png",
@@ -4106,7 +4126,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_iOS_fallOutCompliance.png",
@@ -4139,7 +4160,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_quarantineEmail.png",
@@ -4172,7 +4194,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_AndroidPortal.png",
@@ -4205,7 +4228,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_companyAccessSetup.PNG",
@@ -4238,7 +4262,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_deviceEnroll.png",
@@ -4271,7 +4296,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_activateDeviceAdmin.PNG",
@@ -4304,7 +4330,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollingDevice.png",
@@ -4337,7 +4364,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollSuccess.png",
@@ -4370,7 +4398,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_resolveComplianceIssues.png",
@@ -4403,7 +4432,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_complianceSuccessful.PNG",
@@ -4436,7 +4466,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_allSuccessful2.PNG",
@@ -4469,7 +4500,8 @@
       "DependencyFrom": [
         "InTuneDocs\\end-user-experience-of-conditional-access.md",
         "migrated-03-14\\Topic\\End-user-experience-of-conditional-access.md",
-        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
+        "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md",
+        "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\CA-EUX\\EUX_Android_outOfCompliance.png",
@@ -9797,7 +9829,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\krtest.md",
-        "migrated-03-14\\Topic\\KrTest.md"
+        "migrated-03-14\\Topic\\KrTest.md",
+        "InTuneDocs\\zDeletedTopics\\krtest.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\krtest.eea5793408e6e2376c36af0f47471891a88c5402.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -9826,7 +9859,8 @@
       "DependencyFrom": null,
       "FilePathList": [
         "InTuneDocs\\krtesttopic.md",
-        "migrated-03-14\\Topic\\krtesttopic.md"
+        "migrated-03-14\\Topic\\krtesttopic.md",
+        "InTuneDocs\\zDeletedTopics\\krtesttopic.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\krtesttopic.9f25dc9f424c3c576bfbcb89bdeb9c418f196fb2.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -10418,7 +10452,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\manage-access-to-skype-for-business.md"
+        "InTuneDocs\\manage-access-to-skype-for-business.md",
+        "InTuneDocs\\zDeletedTopics\\manage-access-to-skype-for-business.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-access-to-skype-for-business.fe63583a8593f07d7e2428fc834b8ef78929f043.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -10447,7 +10482,8 @@
       "DependencyFrom": [
         "InTuneDocs\\manage-access-to-skype-for-business.md",
         "migrated-03-14\\Topic\\Manage-access-to-Skype-for-Business.md",
-        "InTuneDocs\\DeployUse\\Manage-access-to-skype-for-business.md"
+        "InTuneDocs\\DeployUse\\Manage-access-to-skype-for-business.md",
+        "InTuneDocs\\zDeletedTopics\\manage-access-to-skype-for-business.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\ConditionalAccess_SkypeforBusiness.png",
@@ -10509,7 +10545,8 @@
       "FilePathList": [
         "InTuneDocs\\manage-app-access-to-exchange-online.md",
         "migrated-03-14\\Topic\\Manage-app-access-to-Exchange-Online.md",
-        "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md"
+        "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-exchange-online.5369c67d6a220025ebf2c1156aca10c45802f7fd.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -10537,7 +10574,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\manage-app-access-to-office-365-services.md"
+        "InTuneDocs\\manage-app-access-to-office-365-services.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-office-365-services.fed6190234b530b4e2f0160301b468f1a53e8a5a.ru-ru.xlf",
       "HandoffFileCommit": "6456a1b54f06ff2e28b279b9b5c7e91da52fb527",
@@ -10566,7 +10604,8 @@
       "DependencyFrom": [
         "InTuneDocs\\manage-app-access-to-office-365-services.md",
         "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md",
-        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
+        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\Apps_with_MAM_policies.png",
@@ -10599,7 +10638,8 @@
       "DependencyFrom": [
         "InTuneDocs\\manage-app-access-to-office-365-services.md",
         "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md",
-        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
+        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services-old.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\Apps_with_MAM_CA.png",
@@ -10633,7 +10673,8 @@
       "FilePathList": [
         "InTuneDocs\\manage-app-access-to-sharepoint-online.md",
         "migrated-03-14\\Topic\\Manage-app-access-to-SharePoint-Online.md",
-        "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md"
+        "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharepoint-online-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-sharepoint-online.58789b1602d871c45df06789929d2a050a8b45d3.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -16984,7 +17025,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T18:55:46.9232791Z",
+      "HandoffDateTime": "2016-03-16T19:25:38.1011586Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -16995,7 +17036,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 27,
+      "HandoffFailureTimes": 28,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17024,7 +17065,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T18:55:46.9232791Z",
+      "HandoffDateTime": "2016-03-16T19:25:38.1011586Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17035,7 +17076,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 27,
+      "HandoffFailureTimes": 28,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17064,7 +17105,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-16T18:55:46.9232791Z",
+      "HandoffDateTime": "2016-03-16T19:25:38.1011586Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17075,7 +17116,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 27,
+      "HandoffFailureTimes": 28,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18234,7 +18275,8 @@
       "SourceFilePath": "InTuneDocs\\media\\ConditionalAccess4.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md"
+        "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md",
+        "InTuneDocs\\zDeletedTopics\\Manage-access-to-email-and-O365-services-test-refactor.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\ConditionalAccess4.png"
@@ -20982,7 +21024,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\Manage-access-to-exchange-on-premises-test-refactor.md"
+        "InTuneDocs\\Manage-access-to-exchange-on-premises-test-refactor.md",
+        "InTuneDocs\\zDeletedTopics\\Manage-access-to-exchange-on-premises-test-refactor.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-access-to-exchange-on-premises-test-refactor.25f38938aecf97f6962d8e29250032fc57081926.ru-ru.xlf",
       "HandoffFileCommit": "9010dc2e8c39c69c26efc5cb3ebb1d17bba821a4",
@@ -21038,7 +21081,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\Manage-access-to-sharepoint-online-test-refactor.md"
+        "InTuneDocs\\Manage-access-to-sharepoint-online-test-refactor.md",
+        "InTuneDocs\\zDeletedTopics\\Manage-access-to-sharepoint-online-test-refactor.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-access-to-sharepoint-online-test-refactor.458bbb0ce0ad2aa6eca72917b8d9526873b971db.ru-ru.xlf",
       "HandoffFileCommit": "9010dc2e8c39c69c26efc5cb3ebb1d17bba821a4",
@@ -21542,7 +21586,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md"
+        "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md",
+        "InTuneDocs\\zDeletedTopics\\Manage-access-to-email-and-O365-services-test-refactor.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-access-to-email-and-O365-services-test-refactor.b03cdcfe680fe520ac376e3d3ca93bd3322f7f03.ru-ru.xlf",
       "HandoffFileCommit": "c2d193588c25a91232c9982e40cc6b512332aee8",
@@ -21570,7 +21615,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\Manage-access-to-email_test-refactor.md"
+        "InTuneDocs\\Manage-access-to-email_test-refactor.md",
+        "InTuneDocs\\zDeletedTopics\\Manage-access-to-email_test-refactor.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-access-to-email_test-refactor.26db61beb130c42cafebf7358822a411593dee95.ru-ru.xlf",
       "HandoffFileCommit": "c2d193588c25a91232c9982e40cc6b512332aee8",
@@ -21598,7 +21644,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\Manage-access-to-exchange-online-test-refactor.md"
+        "InTuneDocs\\Manage-access-to-exchange-online-test-refactor.md",
+        "InTuneDocs\\zDeletedTopics\\Manage-access-to-exchange-online-test-refactor.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Manage-access-to-exchange-online-test-refactor.1862b15b7ebf40507113120d829a85f2f6c01540.ru-ru.xlf",
       "HandoffFileCommit": "c2d193588c25a91232c9982e40cc6b512332aee8",

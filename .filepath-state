@@ -461,7 +461,7 @@
     "InTuneDocs\\enable-mobile-device-enrollment-with-the-microsoft-intune-account-portal.md"
   ],
   "abf617b2507e6b31a313b5fa88d4897c0acacc0f": [
-    "InTuneDocs\\end-user-experience-of-conditional-access.md"
+    "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
   ],
   "bc448048fe6681f2bc484ca733199f8a8c55abb0": [
     "InTuneDocs\\media\\CA-EUX\\EUX_Windows_quarantineEmail.png",
@@ -1373,12 +1373,12 @@
     "InTuneDocs\\jeffs-sandbox.md"
   ],
   "72d4d65f44bad55d56014010973fd57efbec88f6": [
-    "InTuneDocs\\krtest.md",
-    "migrated-03-14\\Topic\\KrTest.md"
+    "migrated-03-14\\Topic\\KrTest.md",
+    "InTuneDocs\\zDeletedTopics\\krtest.md"
   ],
   "8f517158c00158aa06e139e49c06b0612e758067": [
-    "InTuneDocs\\krtesttopic.md",
-    "migrated-03-14\\Topic\\krtesttopic.md"
+    "migrated-03-14\\Topic\\krtesttopic.md",
+    "InTuneDocs\\zDeletedTopics\\krtesttopic.md"
   ],
   "cd064e81b847fb5cacf7a7d0af55f3638c047763": [
     "migrated-03-14\\Topic\\LCA-Notices.md",
@@ -1437,7 +1437,7 @@
     "InTuneDocs\\maintain-microsoft-intune.md"
   ],
   "5290616ac3019415850aaa015838401b9d7827c2": [
-    "InTuneDocs\\manage-access-to-skype-for-business.md"
+    "InTuneDocs\\zDeletedTopics\\manage-access-to-skype-for-business.md"
   ],
   "cec44005d4b4571b36ae7282b89128029aa717bf": [
     "InTuneDocs\\media\\ConditionalAccess_SkypeforBusiness.png",
@@ -1447,11 +1447,11 @@
     "InTuneDocs\\manage-alerts-in-microsoft-intune.md"
   ],
   "ce5ca6f5b3fbc78616e80e6b9985e64469fbeb03": [
-    "InTuneDocs\\manage-app-access-to-exchange-online.md",
-    "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md"
+    "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md",
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online-old.md"
   ],
   "b79dfb662661b39fdf1b06a5bd7dc896293fbe92": [
-    "InTuneDocs\\manage-app-access-to-office-365-services.md"
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services-old.md"
   ],
   "38ade15a8b404d4c015427b91d43eb355df89c28": [
     "InTuneDocs\\media\\Apps_with_MAM_policies.png",
@@ -1462,8 +1462,8 @@
     "migrated-03-14\\Image\\Apps_with_MAM_CA.png"
   ],
   "05335917adad1897f0346b0d4e88107309d8fb18": [
-    "InTuneDocs\\manage-app-access-to-sharepoint-online.md",
-    "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md"
+    "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md",
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharepoint-online-old.md"
   ],
   "50183bb5af5bd0b1ff38e19c2e9568bc97cf5507": [
     "InTuneDocs\\DeployUse\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
@@ -2278,53 +2278,8 @@
   "63cd483573e0cb3f116bcf3057782c08f5e665b2": [
     "InTuneDocs\\test-topic-for-Feb16.md"
   ],
-  "5352b1ba2bd361a606f319f9f341dead2e019f11": [
-    "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md"
-  ],
-  "d8b0af58653e9f7520678f1f362b401b73a34d48": [
-    "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md"
-  ],
-  "9a38d43aa6f6be548b63ddd3ca77d8fc9817ab4f": [
-    "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md"
-  ],
-  "08be0ead4314766f32c3cb6b5a7756a548948fc5": [
-    "InTuneDocs\\Manage-access-to-email-and-O365-services-test-refactor.md"
-  ],
   "678e71d319eb1dd61ebb980a61a930a5692f6bc5": [
     "InTuneDocs\\media\\ConditionalAccess4.png"
-  ],
-  "7c0bde3f6f539a84d1605bfeebb768a25c163d1c": [
-    "InTuneDocs\\Manage-access-to-email_test-refactor.md"
-  ],
-  "6b5416e54d8af1146fc059df2442826f544b9af1": [
-    "InTuneDocs\\Manage-access-to-email_test-refactor.md"
-  ],
-  "f8267a38917ed4d8febd5387d7dd960f6d605485": [
-    "InTuneDocs\\Manage-access-to-email_test-refactor.md"
-  ],
-  "c27625753ac151353f4b2827ace4cacf7aed5172": [
-    "InTuneDocs\\Manage-access-to-email_test-refactor.md"
-  ],
-  "1d79cde996c0c83deb999ef10c70b82aaf9e2179": [
-    "InTuneDocs\\Manage-access-to-exchange-on-premises-test-refactor.md"
-  ],
-  "8849e476e8901282044a4725bb969c81561352f4": [
-    "InTuneDocs\\Manage-access-to-exchange-on-premises-test-refactor.md"
-  ],
-  "08feb34bd697534bd2844ad0d7cdbccafae473b4": [
-    "InTuneDocs\\Manage-access-to-exchange-online-test-refactor.md"
-  ],
-  "14e5465c6606a4128a2ce8ff25c3d021512317a3": [
-    "InTuneDocs\\Manage-access-to-exchange-online-test-refactor.md"
-  ],
-  "f198b37e6d91a7f125605026559734e63fc73c2c": [
-    "InTuneDocs\\Manage-access-to-exchange-online-test-refactor.md"
-  ],
-  "b3d9685d299f189479b2d4f65775b94b01952599": [
-    "InTuneDocs\\Manage-access-to-sharepoint-online-test-refactor.md"
-  ],
-  "bc9f2468c1de82f7b07e3a44c38e058da5f9f525": [
-    "InTuneDocs\\Manage-access-to-sharepoint-online-test-refactor.md"
   ],
   "89596536ef9251efc72c50945976c9d531645fcd": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
@@ -2482,6 +2437,12 @@
   "4dfcc6845af9754766781b564e29d619639a0b57": [
     "InTuneDocs\\index.html"
   ],
+  "1d79cde996c0c83deb999ef10c70b82aaf9e2179": [
+    "InTuneDocs\\zDeletedTopics\\Manage-access-to-exchange-on-premises-test-refactor.md"
+  ],
+  "b3d9685d299f189479b2d4f65775b94b01952599": [
+    "InTuneDocs\\zDeletedTopics\\Manage-access-to-sharepoint-online-test-refactor.md"
+  ],
   "4a841918134ed0c8221832bf589e6057344a3e49": [
     "InTuneDocs\\GetStarted\\iOS-device-enrollment-program.md"
   ],
@@ -2493,6 +2454,15 @@
   ],
   "ba0bc3a5d9349bc1ae31afb3e2621bfa59ec59d8": [
     "InTuneDocs\\GetStarted\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
+  "5352b1ba2bd361a606f319f9f341dead2e019f11": [
+    "InTuneDocs\\zDeletedTopics\\Manage-access-to-email-and-O365-services-test-refactor.md"
+  ],
+  "7c0bde3f6f539a84d1605bfeebb768a25c163d1c": [
+    "InTuneDocs\\zDeletedTopics\\Manage-access-to-email_test-refactor.md"
+  ],
+  "08feb34bd697534bd2844ad0d7cdbccafae473b4": [
+    "InTuneDocs\\zDeletedTopics\\Manage-access-to-exchange-online-test-refactor.md"
   ],
   "5b75dca80290ce1bedd51aa4a35770ed4611b528": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune-test.md"
