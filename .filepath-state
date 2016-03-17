@@ -463,130 +463,6 @@
   "abf617b2507e6b31a313b5fa88d4897c0acacc0f": [
     "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
   ],
-  "bc448048fe6681f2bc484ca733199f8a8c55abb0": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_quarantineEmail.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_quarantineEmail.png"
-  ],
-  "761e7a6954ed910c085e4020286f9fbfbde37493": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_1_companyAccessSetup.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_1_companyAccessSetup.png"
-  ],
-  "a0b3c635172d44c77c9114a6b4c529a696e9379d": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_3_enrollDevice.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_3_enrollDevice.png"
-  ],
-  "40eeeb0e98622055aaa13e8addd620625c2ebce9": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_4_workplaceJoin1.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_4_workplaceJoin1.png"
-  ],
-  "377acb93e0b4aaf1b0d37521f733588d58ff64cf": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_5_workplaceJoin2.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_5_workplaceJoin2.png"
-  ],
-  "347f36903c2ca384caf4182d4b366d38687f1103": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_6_checkingEnrollment.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_6_checkingEnrollment.png"
-  ],
-  "46a481c3f43f7f323c540d837e62c6f888b35a9a": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_7_confirmDevice.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_7_confirmDevice.png"
-  ],
-  "bd4a5190f12d1beecccfa2816565c4d3f884ae47": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_9_checkingCompliance.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_9_checkingCompliance.png"
-  ],
-  "e93433442f2c2087d786b65636feaae7d4393dd0": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_13_resolveCompliance.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_13_resolveCompliance.png"
-  ],
-  "5e5a32e2b77ebff3d0a230c3003fbb19597ed1d5": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_10_activatingEnrollment.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_10_activatingEnrollment.png"
-  ],
-  "4438a2285d0a566feab7ea6c1b1515c09e7d9a6d": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_11_COMPLETE.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_11_COMPLETE.png"
-  ],
-  "3e26018a2a69b87f1b9801d86d08c84533f25190": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Windows_14_OutOfCompliance.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Windows_14_OutOfCompliance.png"
-  ],
-  "04db2ed2f8e45f7876a299f47dd2d9ea5c8939bc": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_GetStarted.PNG",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_GetStarted.PNG"
-  ],
-  "28626b232e24eaa39af284a023205a1423f6090d": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_intuneCompanyPortal.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_intuneCompanyPortal.png"
-  ],
-  "ab02023366504ef8a9a710222065b975f1419a34": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_companyAccessSetup.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_companyAccessSetup.png"
-  ],
-  "e72506bd7fa4d1095dc8ef3a1c0a3770489218db": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceEnrollment.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_deviceEnrollment.png"
-  ],
-  "8ff856610479e9971341176175663d4703d70815": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_deviceComplianceCheck.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_deviceComplianceCheck.png"
-  ],
-  "b38a1674ba07c788118b742050e6311c55a6b005": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_checkCompliance.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_checkCompliance.png"
-  ],
-  "ac2e71ff4b84f7c86225477d9c83f873d51f4902": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_complianceCheckCompleted.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_complianceCheckCompleted.png"
-  ],
-  "107831d0600d893670276d0247ba90a489e966fe": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_iOS_fallOutCompliance.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_iOS_fallOutCompliance.png"
-  ],
-  "c2744ba367b9929d0eed8b0deae75d97a0aa470d": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_quarantineEmail.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_quarantineEmail.png"
-  ],
-  "abd04f5c3b5d6b95206c3b9e2d78d4dce517fa6d": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_AndroidPortal.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_AndroidPortal.png"
-  ],
-  "4141c810edbf342add7c73227f29dd3b4d802673": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_companyAccessSetup.PNG",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_companyAccessSetup.PNG"
-  ],
-  "38178f98dd79cc09555ed4f193b91b5bc8cc412d": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_deviceEnroll.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_deviceEnroll.png"
-  ],
-  "83827620f471ee512b8b4056b3c06deb5aba666d": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_activateDeviceAdmin.PNG",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_activateDeviceAdmin.PNG"
-  ],
-  "13e8aa977383c8046f57db285aedd0b560f447da": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollingDevice.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_enrollingDevice.png"
-  ],
-  "3b43530a1dd1ea5f9bec41982170745c077672ce": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_enrollSuccess.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_enrollSuccess.png"
-  ],
-  "2a37a18a6270d1ef5b73a3d12a91d0b81216f423": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_resolveComplianceIssues.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_resolveComplianceIssues.png"
-  ],
-  "9819b66c89c082253891382f399306e0292e4d22": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_complianceSuccessful.PNG",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_complianceSuccessful.PNG"
-  ],
-  "7228339d2ad00502eb81544405759794c5c120e2": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_allSuccessful2.PNG",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_allSuccessful2.PNG"
-  ],
-  "00fcb98bc7dc4362f1c54c413d06b80632981b98": [
-    "InTuneDocs\\media\\CA-EUX\\EUX_Android_outOfCompliance.png",
-    "migrated-03-14\\Image\\CA-EUX\\EUX_Android_outOfCompliance.png"
-  ],
   "c95f67ee91fd2c60ceb4640fc0565dddac1c3be6": [
     "InTuneDocs\\end-user-experience.md",
     "migrated-03-14\\Topic\\End-user-experience.md"
@@ -1445,10 +1321,6 @@
   "5290616ac3019415850aaa015838401b9d7827c2": [
     "InTuneDocs\\zDeletedTopics\\manage-access-to-skype-for-business.md"
   ],
-  "cec44005d4b4571b36ae7282b89128029aa717bf": [
-    "InTuneDocs\\media\\ConditionalAccess_SkypeforBusiness.png",
-    "migrated-03-14\\Image\\ConditionalAccess_SkypeforBusiness.png"
-  ],
   "79898b37de9832336aeeeb16ec1ddcc0d32d0ffd": [
     "InTuneDocs\\manage-alerts-in-microsoft-intune.md"
   ],
@@ -1458,14 +1330,6 @@
   ],
   "b79dfb662661b39fdf1b06a5bd7dc896293fbe92": [
     "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services-old.md"
-  ],
-  "38ade15a8b404d4c015427b91d43eb355df89c28": [
-    "InTuneDocs\\media\\Apps_with_MAM_policies.png",
-    "migrated-03-14\\Image\\Apps_with_MAM_policies.png"
-  ],
-  "6aabe3d95855225bccb6be0e95e55c16c100491d": [
-    "InTuneDocs\\media\\Apps_with_MAM_CA.png",
-    "migrated-03-14\\Image\\Apps_with_MAM_CA.png"
   ],
   "05335917adad1897f0346b0d4e88107309d8fb18": [
     "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md",
@@ -1791,43 +1655,17 @@
   "a239a8bdc6f4c7c216e8df093fb8c4d89fd93757": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-alerts-docs.md"
   ],
-  "cd3d6f4caaf9372ac53f48c5f6efe33e51c654dc": [
-    "InTuneDocs\\media\\Critical-Alert.jpg"
-  ],
-  "88df2d3a28019c345a87a0c74162b2e3f6faae54": [
-    "InTuneDocs\\media\\Warning-Alert.jpg"
-  ],
-  "0c147b168932de962764ba8ce13dcf60c1641832": [
-    "InTuneDocs\\media\\Informational-Alert.jpg"
-  ],
   "a959538e5c80412c2bd01adbd30dce02a9b822ee": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-and-manage-apps.md"
   ],
   "18a799a3e7dd41dde112084fa4f3ddbee22a1b89": [
     "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Overview.png"
   ],
-  "196e91a738a0a7ae82afbb796c3796420a3e8344": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageAppsHighlight.png"
-  ],
-  "815b6e5c6289daad90555e4c9ee381fdf7023985": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Banner_ManageApps.png",
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Banner_ManageApps.png"
-  ],
-  "54801f14b482c92c74ec6de021df8ddd6a2b1e51": [
-    "InTuneDocs\\media\\App-Lifecycle-Graphic.png",
-    "migrated-03-14\\Image\\App-Lifecycle-Graphic.png"
-  ],
   "46c5b6e79168f22febffe81bbe30db6a3de688dd": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-apps-to-computers.md"
   ],
   "8723ac038f11c9fdef47a6a8dee6bdb69e7ab270": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-apps-to-mobile-devices.md"
-  ],
-  "6496672b6485257094e48fe01425155a3399acc1": [
-    "InTuneDocs\\media\\Available-install-on-iOS.png"
-  ],
-  "b7dfa9eaeeb294953b86fc3a2861416579b3f666": [
-    "InTuneDocs\\media\\iOS-Required-install.PNG"
   ],
   "7b0d2e2924298ef11685300c188d61afc67e682b": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-different-ways-to-manage-your-devices.md"
@@ -1908,9 +1746,6 @@
   ],
   "01cc9881321e0cc0fdfe1fd2667665aa89ce8ccc": [
     "InTuneDocs\\technical-reference-for-microsoft-intune.md"
-  ],
-  "04730004f6cb0c68db3396b6990b7197a7d0698a": [
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Banner_TechnicalReference.png"
   ],
   "54147dae1f650f643942d878e960e457d3f9ab5a": [
     "InTuneDocs\\temp-intune-ip-ranges.md"
@@ -2073,35 +1908,28 @@
     "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md"
   ],
   "a9398cffc2653d5a4251a95aa42647f8a197e4d4": [
-    "InTuneDocs\\media\\Hybrid_on-prem_CA_architecture.png",
-    "migrated-03-14\\Image\\Hybrid_on-prem_CA_architecture.png"
+    "InTuneDocs\\media\\Hybrid_on-prem_CA_architecture.png"
   ],
   "2508565ee350f44535945187882b18356955bb59": [
-    "InTuneDocs\\media\\HybridOnpremRunFullSync.png",
-    "migrated-03-14\\Image\\HybridOnpremRunFullSync.png"
+    "InTuneDocs\\media\\HybridOnpremRunFullSync.png"
   ],
   "b3adc2dd0a81360918a4b3dd279457369e22079e": [
     "InTuneDocs\\media\\HybridOnpremExchSrvrWizard6.PNG"
   ],
   "00f6c80457b1d64bb088936747ac26ec93f83c5a": [
-    "InTuneDocs\\media\\HybridOnpremEasDiscLogSample.PNG",
-    "migrated-03-14\\Image\\HybridOnpremEasDiscLogSample.PNG"
+    "InTuneDocs\\media\\HybridOnpremEasDiscLogSample.PNG"
   ],
   "1d2a8737299ec8316484218a22931eca82a39d0c": [
-    "InTuneDocs\\media\\HybridOnpremVerifyDevicesState.png",
-    "migrated-03-14\\Image\\HybridOnpremVerifyDevicesState.png"
+    "InTuneDocs\\media\\HybridOnpremVerifyDevicesState.png"
   ],
   "d3c779deba937feff2e602fa78cfc3cf2c2d1151": [
-    "InTuneDocs\\media\\HybridReports_CA.png",
-    "migrated-03-14\\Image\\HybridReports_CA.png"
+    "InTuneDocs\\media\\HybridReports_CA.png"
   ],
   "3c17bb0e80792952c86ce97f9b623cd85518001f": [
-    "InTuneDocs\\media\\HybridReportsDeploymentStatus.png",
-    "migrated-03-14\\Image\\HybridReportsDeploymentStatus.png"
+    "InTuneDocs\\media\\HybridReportsDeploymentStatus.png"
   ],
   "4acb3dc7c3580e7bf319b367387423449d38c4f8": [
-    "InTuneDocs\\media\\Hybrid_Exchange-Online_CA_architecture.png",
-    "migrated-03-14\\Image\\Hybrid_Exchange-Online_CA_architecture.png"
+    "InTuneDocs\\media\\Hybrid_Exchange-Online_CA_architecture.png"
   ],
   "0d99827bf6964807f8e62613a69f428814492705": [
     "InTuneDocs\\use-conditional-access-with-intune.md"
@@ -2271,9 +2099,6 @@
   ],
   "63cd483573e0cb3f116bcf3057782c08f5e665b2": [
     "InTuneDocs\\test-topic-for-Feb16.md"
-  ],
-  "678e71d319eb1dd61ebb980a61a930a5692f6bc5": [
-    "InTuneDocs\\media\\ConditionalAccess4.png"
   ],
   "89596536ef9251efc72c50945976c9d531645fcd": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
@@ -2491,15 +2316,6 @@
   "4cc3530ac9c74290cf7c5ab43c8d165fd9ac8bf5": [
     "InTuneDocs\\GetStarted\\How your Windows users get their apps.md"
   ],
-  "7f6e7a73d53cebf0c74e0f80285226fb7f75d010": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_MonitorUsers.png"
-  ],
-  "56f67d5dc2529ef69bf6ed1134d77e57497b2abd": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_FlaggedUserDetails.png"
-  ],
-  "da1a1004285cb16b91a5d883b4e41adcc8acfe79": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_WipeRequestsSummary.png"
-  ],
   "087ba6fba3be9c5ffa6cbebf22fdeb25a971bef8": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md"
   ],
@@ -2668,165 +2484,6 @@
   "05f63dec614bee2c0e231601dd5ea1b561feeb2a": [
     "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-start-trial-5-ReadyToGo.png"
   ],
-  "1de96d7238974caec298c6a3a88377762aef55b2": [
-    "migrated-03-14\\Image\\Access_Control_Flow_For_Native_Email_Apps.png"
-  ],
-  "02351507eea49372935426f27f2275fcecaa8a18": [
-    "migrated-03-14\\Image\\Access_Control_Flow_For_Outlook_App.png"
-  ],
-  "9fd69838db9ccdc5e8f09c27cddaaa4d3998c175": [
-    "migrated-03-14\\Image\\App-Lifecycle.png"
-  ],
-  "00c61d9688d7af0d8c9bbf986f81061effe3da89": [
-    "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalAccept.png"
-  ],
-  "f68f26299083b8c8614da06d0c1ce4d254724b1e": [
-    "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalInstall.png"
-  ],
-  "cb2abee9633d65f8dfb1b488de6df5b1b8f131ee": [
-    "migrated-03-14\\Image\\AppManagement\\Android_CompanyPortalMessage.png"
-  ],
-  "67f34f8854205724ef5b5c915715735dda078cc3": [
-    "migrated-03-14\\Image\\AppManagement\\Android_O365SignInPage.png"
-  ],
-  "7b4d2dfecf93d1aa1457a776c151b5022c227096": [
-    "migrated-03-14\\Image\\AppManagement\\Android_OneDriveConfirmPIN.png"
-  ],
-  "c9de22ab98a68249887572a1fbfdd9f11b02faad": [
-    "migrated-03-14\\Image\\AppManagement\\Android_OneDriveSetPIN.png"
-  ],
-  "80790af1e5cf9d6bb0340f1dac46e27f6af540c4": [
-    "migrated-03-14\\Image\\AppManagement\\Android_SwitchUser.png"
-  ],
-  "ebf6bb2ff4fcbc499ac9d4a7a965387574ed8c88": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddingPolicyNotification.png"
-  ],
-  "a587ef3d06e4b1b9e22f2366fcd801c61778586e": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddPolicy.png"
-  ],
-  "c8d451276ca8c9f70260bd38c2648fe9b6490275": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddPolicy_only.png"
-  ],
-  "30e17a1ae02f8a5658bd353d375ebd447e10f5c7": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddRole.png"
-  ],
-  "adda16bff691437e6d7f4160a814cbd6db3f2d02": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddUsers.png"
-  ],
-  "3474c2f6bd3821103171f3346f1fab375e38e23d": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddUserstoPolicy.png"
-  ],
-  "503b1f4470037ce66aabae56088fff975bc9f1e8": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AddusertoRole.png"
-  ],
-  "7b5788f6a66544d5a6e8b92ff0e0f69a44c7bc7d": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_AppPolicy.png"
-  ],
-  "f8d1f68077643037ac9c8e3011cb7b0b9a3c7fb4": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Browse_Intune.png"
-  ],
-  "f21462ad1eb392a30b27178d4d8def1b9afc7a00": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_ChangeSettings.png"
-  ],
-  "f904cf797c634beb30a2962500234e04b847d05c": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_DeleteUser.png"
-  ],
-  "1870d10ee16b8c9af9c4debdb73c68c1c430bd2c": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_ChangePolicy_SelectUser.png"
-  ],
-  "97b1b5c2268c33aa4a0c96e1315eb823a4a8a06c": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_CreatePolicy.png"
-  ],
-  "1388eb519642d48f45caa12511e0874e3503b625": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Mainblade.png"
-  ],
-  "3a99270a2197d0673ab55af83975727e246f7d87": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_NewWipeRequest.png"
-  ],
-  "8bbaed997e0737a6aa33a489ece0ff0aee7ae8c7": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_OpenPolicy.png"
-  ],
-  "cd488e7cbc1a0922b4fe91a588acabc457c18356": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_PinBladeAction.png"
-  ],
-  "de2371594770f9c317e8a694e1f3b9f26833e3ea": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_PolicySettings.png"
-  ],
-  "33bdbda8c116f7b2160be1b3bfc1521ae8fcb212": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_SelectUserstoDeploy.png"
-  ],
-  "dcb7a8c916c588fa5e3cc91792292bc675d7d417": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_Startboard_withMAM.png"
-  ],
-  "11800cde8d272f5e295a1c0a670628d6bb79732e": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAM_WipeRequests.png"
-  ],
-  "9cbd98dcbf9ed8254ee9a2775c9b62e1e1808e29": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAMSigninPage.png"
-  ],
-  "bff2ce4556a64f6fbb7747de6c4f8d671129041f": [
-    "migrated-03-14\\Image\\AppManagement\\AzurePortal_MAMStartboard_NoMAM.png"
-  ],
-  "4e604d7b70b728e57979112bc5e596c43c2b5814": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_AppPINPrompt.png"
-  ],
-  "324064e6e4172486b8a30a18cd63d20e7151e0c8": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_AppRestartforMAM.png"
-  ],
-  "fe87d24bbadb6ae9b727db1be469a8d147d9f5e6": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_FacebookPasteCompany.png"
-  ],
-  "0418ce88760a960935c2ce53fc0f59bf1d204aac": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_FacebookPastePersonal.png"
-  ],
-  "b4ed69c42424967d7093b35d9966593ee083057d": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_O365SignInPage.png"
-  ],
-  "73754841fae791215435e0c0ca811c65914e2770": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_OneDriveLaunch.png"
-  ],
-  "768aa0fa33b97d1bd179f1caeb4762b5e50bfa17": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_OneDriveSuccess.png"
-  ],
-  "50b749b478f0d44a2dc959029dab5c197ef501a9": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_SwitchUser.PNG"
-  ],
-  "57fa4be193c7773386318c037dabdde5346ceafb": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_WordCopyCompany.png"
-  ],
-  "091fc88ed6356e1b4801771da80af4a5b9629d9c": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_WordCopyPersonal.png"
-  ],
-  "1b03b82b2cf2e52aacec47fe366bf6e4b7641a0d": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_WordCreateCompanyDoc.PNG"
-  ],
-  "07e3d81342fdc7e4a77f72e31294860466ccd427": [
-    "migrated-03-14\\Image\\AppManagement\\iOS_WordCreateNewDoc.png"
-  ],
-  "fd12847383827be69e14cf5f93ff94621c0ee890": [
-    "migrated-03-14\\Image\\AppManagement\\OfficePortal_AddRoletoUser.png"
-  ],
-  "317dbb72515e7d40c320edf2ddf87953f0ab3bd7": [
-    "migrated-03-14\\Image\\AppManagement\\OfficePortal_AddUsers.png"
-  ],
-  "b1e3dbe8fd1f2cce4c21ae83b0f4fdc87e0f0055": [
-    "migrated-03-14\\Image\\AppManagement\\OfficePortal_CreateGroups.png"
-  ],
-  "55b74a2d466b85f9ac69c81d13ecb4d485a426ea": [
-    "migrated-03-14\\Image\\Apps_with_mobile_app_policies.png"
-  ],
-  "76a8a2feec17e42928f54b10b521594f88b66b63": [
-    "migrated-03-14\\Image\\Apps_without_MAM_policies.png"
-  ],
-  "cdfc99653d264900bbf8e6ed30d845efbb6b8d1e": [
-    "migrated-03-14\\Image\\Available-install-on-iOS.png"
-  ],
-  "768b0e9f05d991171b1255ba410cd4911d0db663": [
-    "migrated-03-14\\Image\\CADataSheet_Diagram_Apps.png"
-  ],
-  "f39d4bc54eaf9e57d461f92a5aeeccdeff9b0790": [
-    "migrated-03-14\\Image\\ConditionalAccess4.png"
-  ],
   "1dde0f9c701974b72ef12e63ecc4ed76f84f053e": [
     "migrated-03-14\\Image\\ConditionalAccess8-2.png"
   ],
@@ -2839,23 +2496,8 @@
   "7274fe1fb14719810b86c249a5577ac9fb078d51": [
     "migrated-03-14\\Image\\ConditionalAccess8-5.png"
   ],
-  "4f3c1dba5f1026b42852909c0bcd8f6414523578": [
-    "migrated-03-14\\Image\\ConditionalAccess8-6.png"
-  ],
   "f8f6723996d924b7b9a1feffaa5b63a3cb3fed3e": [
     "migrated-03-14\\Image\\EM_Intune_30_Day_Trial.PNG"
-  ],
-  "fd7f2b3da02bf77b660fbbae92368d2faf42b772": [
-    "migrated-03-14\\Image\\Enterprise_Mobility_Suite.png"
-  ],
-  "31469f3df0b9951cb42496e8adf072ea60748c11": [
-    "migrated-03-14\\Image\\HybridOnpremExchSrvrWizard6.PNG"
-  ],
-  "72c513f766ac44458413f40124f8d63a1f687d86": [
-    "migrated-03-14\\Image\\Intune_CondlAccess.PNG"
-  ],
-  "a0d485c1a4440970e82c865d3a27f55e764b2115": [
-    "migrated-03-14\\Image\\iOS-Required-install.PNG"
   ],
   "cac46b3fc83ed008c19a3180f4653e408dbbdec9": [
     "migrated-03-14\\Image\\IW-Help-pics\\and-cpinstall-2-install.png"
@@ -2920,12 +2562,6 @@
   "2dd20f9c8a10fd7f6bd0f9449fd83155b825910f": [
     "migrated-03-14\\Image\\IW-Help-pics\\WP81-enroll-4-account-added.png"
   ],
-  "1b8c364e396cb2f1c54c21971a41e4dd65cd3322": [
-    "migrated-03-14\\Image\\MAM_BYOD_November.png"
-  ],
-  "7f6e2f7854074424054da297c533382e242f5a1e": [
-    "migrated-03-14\\Image\\MAM_ManagedDevices_November.png"
-  ],
   "61779d389df74b86fe93a53fda396b789cb57a57": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Banner_EnrollDevices.png"
   ],
@@ -2953,9 +2589,6 @@
   ],
   "93b83ce4e6b8e4d31b23c7935fad456247749c10": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_GetStartedHightlight.png"
-  ],
-  "048aa10da486677ccb65aac188a6dc0534917dc8": [
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_ManageAppsHighlight.png"
   ],
   "b2523b73899735030fabee98d4c98006b194ac52": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_ManageDevices.png"
@@ -2985,9 +2618,6 @@
   "4196e1759791770418f30feff11815d5307828dc": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_TechnicalReference.png"
   ],
-  "0a66d6fbab8fbf5c564f397c825f8051fa268438": [
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_TechnicalReferenceHighlight.png"
-  ],
   "c0d0674296da0a234bcce5c4b10509a10b632672": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_TroubleshootingHighlight.png"
   ],
@@ -3008,9 +2638,6 @@
   ],
   "f3568e1c4449da1c2ac5d9312a49b20af6547909": [
     "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDMLifecycleFull2.png"
-  ],
-  "5d23feda97afbd203a4d57d0f958baca68438c2c": [
-    "migrated-03-14\\Image\\Protecting_your_data.png"
   ],
   "bde9a8f0fc268a6e69f20fadb059525a337903fb": [
     "migrated-03-14\\Image\\WIT_MDM_Banner.png"
@@ -4000,6 +3627,9 @@
   ],
   "6e8127c31aced6f3072d7c2d930799c2e70fcf21": [
     "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md"
+  ],
+  "017ae819d0d5f16116b087a7dc057bd494922195": [
+    "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.png"
   ],
   "cbc984010e24f054a09f1020c64682d0a3b9aa33": [
     "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.png"
