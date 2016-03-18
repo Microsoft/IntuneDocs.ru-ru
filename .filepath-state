@@ -231,6 +231,9 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
+  "f8f865c276ccbdc5e91717941570609816cf0a60": [
+    "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+  ],
   "c54d89d6dda1c9285407249b7f88dd52d4816ad8": [
     "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
   ],
@@ -3347,5 +3350,23 @@
   ],
   "8424e87bd47f3f7f08fd4a3ff62f6f43e6c2f160": [
     "InTuneDocs\\media\\Windows-Device-Enrollment.png"
+  ],
+  "8b8f1f0c12840d9b401a7893e936df12c5dc88b1": [
+    "InTuneDocs\\DeployUse\\media\\ca_win10-os-version.png"
+  ],
+  "49991e8ddc4d78b154585e0a7abf6b907e67c836": [
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3a-add-compliance-policy.png"
+  ],
+  "5ed65dd27a577441239b6da120ff81a3f9857728": [
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.png"
+  ],
+  "63f8ddc53128c377aed176dd03ce30f9c5c69ae0": [
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3c-deploy-compliance-policy2.png"
+  ],
+  "da287fb3fb56f0170466d8984fc88fcea0f0de8e": [
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3d-deploy-compliance-policy3-Manage.png"
+  ],
+  "3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6": [
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3e-view-device-noncompliance.png"
   ]
 }

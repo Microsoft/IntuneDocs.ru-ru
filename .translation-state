@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "ef3875e2b9dc94a759abdcfe8b30bcd49b11b0b5",
+  "LastProcessedCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -17075,7 +17075,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-18T15:58:38.5718021Z",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17086,7 +17086,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 33,
+      "HandoffFailureTimes": 34,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17115,7 +17115,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-18T15:58:38.5718021Z",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17126,7 +17126,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 33,
+      "HandoffFailureTimes": 34,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17155,7 +17155,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-18T15:58:38.5718021Z",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17166,7 +17166,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 33,
+      "HandoffFailureTimes": 34,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -38444,6 +38444,214 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\017ae819d0d5f16116b087a7dc057bd494922195.png",
       "HandoffFileCommit": "b29d22ff51419f15ae3d9299da07c31905449666",
       "HandoffDateTime": "2016-03-17T16:31:38.5873678Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "f8f865c276ccbdc5e91717941570609816cf0a60": {
+      "FileHash": "f8f865c276ccbdc5e91717941570609816cf0a60",
+      "SourceFileCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-device-compliance-policies-for-microsoft-intune.148828bb208746d2067053a033263ddd79de5aa1.ru-ru.xlf",
+      "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "8b8f1f0c12840d9b401a7893e936df12c5dc88b1": {
+      "FileHash": "8b8f1f0c12840d9b401a7893e936df12c5dc88b1",
+      "SourceFileCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\ca_win10-os-version.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\media\\ca_win10-os-version.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8b8f1f0c12840d9b401a7893e936df12c5dc88b1.png",
+      "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "49991e8ddc4d78b154585e0a7abf6b907e67c836": {
+      "FileHash": "49991e8ddc4d78b154585e0a7abf6b907e67c836",
+      "SourceFileCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\intune-sa-3a-add-compliance-policy.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\media\\intune-sa-3a-add-compliance-policy.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\49991e8ddc4d78b154585e0a7abf6b907e67c836.png",
+      "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "5ed65dd27a577441239b6da120ff81a3f9857728": {
+      "FileHash": "5ed65dd27a577441239b6da120ff81a3f9857728",
+      "SourceFileCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\5ed65dd27a577441239b6da120ff81a3f9857728.png",
+      "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "63f8ddc53128c377aed176dd03ce30f9c5c69ae0": {
+      "FileHash": "63f8ddc53128c377aed176dd03ce30f9c5c69ae0",
+      "SourceFileCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\intune-sa-3c-deploy-compliance-policy2.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\media\\intune-sa-3c-deploy-compliance-policy2.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\63f8ddc53128c377aed176dd03ce30f9c5c69ae0.png",
+      "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "da287fb3fb56f0170466d8984fc88fcea0f0de8e": {
+      "FileHash": "da287fb3fb56f0170466d8984fc88fcea0f0de8e",
+      "SourceFileCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\intune-sa-3d-deploy-compliance-policy3-Manage.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\media\\intune-sa-3d-deploy-compliance-policy3-Manage.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\da287fb3fb56f0170466d8984fc88fcea0f0de8e.png",
+      "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6": {
+      "FileHash": "3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6",
+      "SourceFileCommit": "71d0970d5b3dd4648e5919722a722511d6e4e447",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\intune-sa-3e-view-device-noncompliance.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\media\\intune-sa-3e-view-device-noncompliance.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6.png",
+      "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
+      "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
