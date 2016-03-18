@@ -1509,12 +1509,12 @@
   "ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
   ],
-  "f0693c1dc992e472ab354379982f4920182aee28": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
-  ],
   "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
+  ],
+  "f0693c1dc992e472ab354379982f4920182aee28": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
