@@ -1509,8 +1509,12 @@
   "ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
   ],
-  "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
+  "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
+  "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
+    "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1891,7 +1895,7 @@
     "InTuneDocs\\media\\ConditionalAccess8-1.png"
   ],
   "2a7393638c70622422bb95b6f3822454b3da54e9": [
-    "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune-old.md"
   ],
   "18462d3369f1f72868e3d46ad956513df8fad25a": [
     "InTuneDocs\\media\\Intune-Device-Policy-v.2.jpg"
@@ -2095,24 +2099,6 @@
   "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
     "InTuneDocs\\GetStarted\\media\\Windows-Phone-Enrollment.png"
   ],
-  "2720372447b0bdcc45ae5ce441f744c76013e644": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
-  ],
-  "2513525bd3c377ab8894dcf373d53df0fd4d0a4b": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
-  ],
-  "6a63bf5629899c8501f4d70984dc2c51feadf15a": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
-  ],
-  "f856da163835db9b681253d892065b551f0a548b": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
-  ],
-  "72de3ebf04a6431d65db75e1a7fe7cfc883444b2": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
-  ],
-  "e3bfb329a38ef87a6f3d0676af837b4c967296ce": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test.md"
-  ],
   "590b8647b4f4011900631031eeffd699cb86d373": [
     "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_BYOD_small.png"
   ],
@@ -2158,15 +2144,6 @@
   "d9874e3cbb900dca3116b311d3aa90d3b2e7c30f": [
     "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Laptop_Hierarchy_small.png"
   ],
-  "96bf2355832ac937977c431713f548b7b1334b2b": [
-    "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md"
-  ],
-  "c0954ca6c0daf604bf87b65721629a93d85708cd": [
-    "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md"
-  ],
-  "e0996959c71ab64f5dca08a9ffbfe044f060e95d": [
-    "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune-test.md"
-  ],
   "88d12cc7e482bc8c04b81be87357bf5b0bf064b5": [
     "InTuneDocs\\GetStarted\\enterprise-rollout.md"
   ],
@@ -2206,6 +2183,9 @@
   "b3d9685d299f189479b2d4f65775b94b01952599": [
     "InTuneDocs\\zDeletedTopics\\Manage-access-to-sharepoint-online-test-refactor.md"
   ],
+  "96bf2355832ac937977c431713f548b7b1334b2b": [
+    "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
+  ],
   "4a841918134ed0c8221832bf589e6057344a3e49": [
     "InTuneDocs\\GetStarted\\iOS-device-enrollment-program.md"
   ],
@@ -2230,12 +2210,6 @@
   "5b75dca80290ce1bedd51aa4a35770ed4611b528": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune-test.md"
   ],
-  "9ee91fed0fc6c0933248dcf718531fef61475e71": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test-bryanla.md"
-  ],
-  "55d1c4d6e07fa237aadd2db6bb22eb5b6e8a4a10": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test-bryanla.md"
-  ],
   "753ecc398278ca59385d459c22d3614feed58985": [
     "InTuneDocs\\EndUser\\TOC.md"
   ],
@@ -2253,6 +2227,9 @@
   ],
   "4cc3530ac9c74290cf7c5ab43c8d165fd9ac8bf5": [
     "InTuneDocs\\GetStarted\\How your Windows users get their apps.md"
+  ],
+  "9ee91fed0fc6c0933248dcf718531fef61475e71": [
+    "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-test-bryanla.md"
   ],
   "087ba6fba3be9c5ffa6cbebf22fdeb25a971bef8": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md"
