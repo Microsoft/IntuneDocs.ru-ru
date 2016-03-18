@@ -1509,12 +1509,12 @@
   "ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
   ],
+  "f0693c1dc992e472ab354379982f4920182aee28": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
-  ],
-  "f0693c1dc992e472ab354379982f4920182aee28": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -3289,6 +3289,9 @@
   "49991e8ddc4d78b154585e0a7abf6b907e67c836": [
     "InTuneDocs\\DeployUse\\media\\intune-sa-3a-add-compliance-policy.png"
   ],
+  "844ba2e1395b34a72524b49687fcf98490be08a3": [
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.png"
+  ],
   "5ed65dd27a577441239b6da120ff81a3f9857728": [
     "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.png"
   ],
@@ -3301,11 +3304,20 @@
   "3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6": [
     "InTuneDocs\\DeployUse\\media\\intune-sa-3e-view-device-noncompliance.png"
   ],
+  "6d7812c20c97dc278c7289f4a3fc1b4df1fac9e0": [
+    "InTuneDocs\\DeployUse\\create-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
   "ce88f9c066851e088f5bc179e9eaa11e23ae54fa": [
     "InTuneDocs\\DeployUse\\create-a-device-compliance-policy-in-microsoft-intune.md"
   ],
+  "bdd7f235865276344dfbf287aa0c2d08c4d2ba00": [
+    "InTuneDocs\\DeployUse\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
   "1d4954fc5a75fb4fc1adadee48f56fbf8feb21b7": [
     "InTuneDocs\\DeployUse\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
+  "d4cdad40bf3c40fed121f4c844869f1f8d9bb743": [
+    "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
   ],
   "09cbfb8d89398de5c4324c763e96ee369aeafcbe": [
     "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
