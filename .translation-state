@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "10b8b7fe8dd7201025273daff3f6e3c7ff35c0aa",
+  "LastProcessedCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -5222,7 +5222,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -17075,7 +17076,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-18T18:56:27.3867399Z",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17086,7 +17087,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 35,
+      "HandoffFailureTimes": 36,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17115,7 +17116,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-18T18:56:27.3867399Z",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17126,7 +17127,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 35,
+      "HandoffFailureTimes": 36,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17155,7 +17156,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-18T18:56:27.3867399Z",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17166,7 +17167,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 35,
+      "HandoffFailureTimes": 36,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -19682,7 +19683,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md"
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-test.ff7a5237ca86e22114eeba9aab3e2d3cdcaeb037.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -22418,7 +22420,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-december-2015.md"
+        "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-december-2015.md",
+        "InTuneDocs\\zDeletedTopics\\whats-new-in-microsoft-intune-december-2015.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\whats-new-in-microsoft-intune-december-2015.59ffa72bbd5815ec2bbeaca16a24f713cf4ebfb7.ru-ru.xlf",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -22446,7 +22449,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-january-2106.md"
+        "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-january-2106.md",
+        "InTuneDocs\\zDeletedTopics\\whats-new-in-microsoft-intune-january-2106.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\whats-new-in-microsoft-intune-january-2106.3a77f5fe944666fe182cd47cc75b2fea13b3b57d.ru-ru.xlf",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -22474,7 +22478,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-november-2015.md"
+        "InTuneDocs\\GetStarted\\whats-new-in-microsoft-intune-november-2015.md",
+        "InTuneDocs\\zDeletedTopics\\whats-new-in-microsoft-intune-november-2015.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\whats-new-in-microsoft-intune-november-2015.b722b3b945662433d30b1f9b33c133dbc60350e3.ru-ru.xlf",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -38652,6 +38657,230 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6.png",
       "HandoffFileCommit": "b9189fb0df27b0adfcd6e01d32d35ca6ef1f4e6b",
       "HandoffDateTime": "2016-03-18T16:53:04.8213172Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "e5a48532c0136936cff841f88f50e7b2d328d7db": {
+      "FileHash": "e5a48532c0136936cff841f88f50e7b2d328d7db",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.4ff1a2cfa5734b59832db963e4b8b58ea85d46cd.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "a2bca4c6517ee74956b0af57d28c0ad6443cf3c7": {
+      "FileHash": "a2bca4c6517ee74956b0af57d28c0ad6443cf3c7",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.ae06c1235fa6c46d0131535ecdc5aa805cd3b996.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "e935f718f4f0f790204fe17b4df8d6153bee7685": {
+      "FileHash": "e935f718f4f0f790204fe17b4df8d6153bee7685",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.59394009157cf9826be26b240f629a8da87edc9d.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "01cd5d5f2b38ab3d8d73f4d0408b22646b14a846": {
+      "FileHash": "01cd5d5f2b38ab3d8d73f4d0408b22646b14a846",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.1326698989e84f9d14a2d07fcb41dde8aa4065d2.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "5a0328e5bd2c904edc72342a4243157be5fd6694": {
+      "FileHash": "5a0328e5bd2c904edc72342a4243157be5fd6694",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.d76e8ebe4c43297ab89da7c49b448bca99c3666e.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "b1ba4c92d9602389ff51031b93e3810490af635e": {
+      "FileHash": "b1ba4c92d9602389ff51031b93e3810490af635e",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.a31c48500722b6782312279917ed3d7100e10afe.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "9b7eae525bec92239e0cff9f0b9369a8713ad7ac": {
+      "FileHash": "9b7eae525bec92239e0cff9f0b9369a8713ad7ac",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.fcf68999218bfc0fa765fbed5ea931a38cf9626a.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "e4063c26ebfbc67619eb3bbc663051ceac18eaa4": {
+      "FileHash": "e4063c26ebfbc67619eb3bbc663051ceac18eaa4",
+      "SourceFileCommit": "ee8d3d2266afc99f8bfb253768bfc2ba912298d1",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.1390309d60b3d20bddfb3c62078e347d59d9331a.ru-ru.xlf",
+      "HandoffFileCommit": "4666404c8bff137a3039de2859f06f0e958f6598",
+      "HandoffDateTime": "2016-03-18T19:29:52.782066Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
