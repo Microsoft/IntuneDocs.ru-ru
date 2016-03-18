@@ -229,15 +229,6 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
-  "f8f865c276ccbdc5e91717941570609816cf0a60": [
-    "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
-  ],
-  "c54d89d6dda1c9285407249b7f88dd52d4816ad8": [
-    "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
-  ],
-  "6c84c368636f0a11578eb6d56f74bbba8df5f5a4": [
-    "InTuneDocs\\DeployUse\\manage-device-compliance-policies-for-microsoft-intune.md"
-  ],
   "d3f9876beb55617ebd8b4d7d18c200282d8f23ee": [
     "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
   ],
@@ -3332,5 +3323,14 @@
   ],
   "3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6": [
     "InTuneDocs\\DeployUse\\media\\intune-sa-3e-view-device-noncompliance.png"
+  ],
+  "ce88f9c066851e088f5bc179e9eaa11e23ae54fa": [
+    "InTuneDocs\\DeployUse\\create-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
+  "1d4954fc5a75fb4fc1adadee48f56fbf8feb21b7": [
+    "InTuneDocs\\DeployUse\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
+  "09cbfb8d89398de5c4324c763e96ee369aeafcbe": [
+    "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
   ]
 }
