@@ -43,8 +43,7 @@
     "migrated-03-14\\Topic\\Application-rollout.md"
   ],
   "95b6c378976d59ab701e035dad78085907038380": [
-    "InTuneDocs\\art-test-page.md",
-    "migrated-03-14\\Topic\\Art-test-page.md"
+    "InTuneDocs\\art-test-page.md"
   ],
   "8395accba45db714d398957e4a364a3146c65b50": [
     "InTuneDocs\\benefits-of-intune-app-sdk.md",
@@ -112,8 +111,7 @@
     "InTuneDocs\\data-security-with-intune.md"
   ],
   "30579675012ac5fa536c276634f07f20fffce705": [
-    "InTuneDocs\\deleted-topic.md",
-    "migrated-03-14\\Topic\\Deleted-topic.md"
+    "InTuneDocs\\deleted-topic.md"
   ],
   "e6e3f291aece13186c0607754ff9f7c6e2039d5a": [
     "InTuneDocs\\deploy-apps.md",
@@ -381,44 +379,34 @@
     "InTuneDocs\\documentation-for-microsoft-intune-1-.md"
   ],
   "311728cd46b0b8e2f6b2b181a884a04aef4a1441": [
-    "InTuneDocs\\media\\WIT_TileDocCenter.png",
-    "migrated-03-14\\Image\\WIT_TileDocCenter.png"
+    "InTuneDocs\\media\\WIT_TileDocCenter.png"
   ],
   "d093ce9f2159b1efc73ef70959326af37fdfbc02": [
-    "InTuneDocs\\media\\WIT_TileOverview.png",
-    "migrated-03-14\\Image\\WIT_TileOverview.png"
+    "InTuneDocs\\media\\WIT_TileOverview.png"
   ],
   "f78b46e495829f004a75d098b0be060d3172b145": [
-    "InTuneDocs\\media\\WIT_TileGettingStarted.png",
-    "migrated-03-14\\Image\\WIT_TileGettingStarted.png"
+    "InTuneDocs\\media\\WIT_TileGettingStarted.png"
   ],
   "979e5e9e66743a42cd133c5e54e3af55c8f77877": [
-    "InTuneDocs\\media\\WIT_TileEnrollDevices.png",
-    "migrated-03-14\\Image\\WIT_TileEnrollDevices.png"
+    "InTuneDocs\\media\\WIT_TileEnrollDevices.png"
   ],
   "bf28cee2d41265fac602d856ae7b3a5e2d8677d0": [
-    "InTuneDocs\\media\\WIT_TileManageDevices.png",
-    "migrated-03-14\\Image\\WIT_TileManageDevices.png"
+    "InTuneDocs\\media\\WIT_TileManageDevices.png"
   ],
   "df664f3fe21531f365bef2d2c5602c37d2284e06": [
-    "InTuneDocs\\media\\WIT_TileManageApps.png",
-    "migrated-03-14\\Image\\WIT_TileManageApps.png"
+    "InTuneDocs\\media\\WIT_TileManageApps.png"
   ],
   "d5ba29ed7f25de0e045ff65e9917c010861d4c48": [
-    "InTuneDocs\\media\\WIT_TileProtectResources.png",
-    "migrated-03-14\\Image\\WIT_TileProtectResources.png"
+    "InTuneDocs\\media\\WIT_TileProtectResources.png"
   ],
   "7f602ed1a0af738db2e0ad1b89825b6e1b79b4a8": [
-    "InTuneDocs\\media\\WIT_TileRetireDevices.png",
-    "migrated-03-14\\Image\\WIT_TileRetireDevices.png"
+    "InTuneDocs\\media\\WIT_TileRetireDevices.png"
   ],
   "188d183405250461b3d2b85aea005e7949f70a70": [
-    "InTuneDocs\\media\\WIT_Tile_TechReference.png",
-    "migrated-03-14\\Image\\WIT_Tile_TechReference.png"
+    "InTuneDocs\\media\\WIT_Tile_TechReference.png"
   ],
   "4ccb134041415fc90c36e7cee94a29d591fc394c": [
-    "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycle4.png",
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDMLifecycle4.png"
+    "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycle4.png"
   ],
   "986d9c4c438b5c2769ba4d50abd8d9e46e0cd3a9": [
     "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
@@ -448,8 +436,7 @@
     "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column3.png"
   ],
   "359edf8bb6d4c5752ea044935fd84c5fecb1ae87": [
-    "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column4.png",
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row2Column4.png"
+    "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column4.png"
   ],
   "ca6c84eb7ae0d419c7e5304748f02d8e3357004a": [
     "InTuneDocs\\documentation-for-microsoft-intune.md"
@@ -1989,8 +1976,7 @@
     "migrated-03-14\\Topic\\What-s-coming-in-Microsoft-Intune_deleted.md"
   ],
   "32acc0a8398a4888551822723a98b477757de8c4": [
-    "InTuneDocs\\what-s-new-test.md",
-    "migrated-03-14\\Topic\\What-s-new-test.md"
+    "InTuneDocs\\what-s-new-test.md"
   ],
   "d965be54eaac606d5585363a4c6f905e797df7d8": [
     "InTuneDocs\\GetStarted\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
@@ -2319,8 +2305,7 @@
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_EnrollDevicesHighlight.png"
   ],
   "1d57d2deff6f8ab4a2f30f439daabee75f7fb138": [
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_GetStarted.png",
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row2Column1.png"
+    "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_GetStarted.png"
   ],
   "93b83ce4e6b8e4d31b23c7935fad456247749c10": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_GetStartedHightlight.png"
@@ -2332,8 +2317,7 @@
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_ManageDevicesHighlight.png"
   ],
   "77b4c2b420e8b5e42e095c90031f846f3109fedf": [
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_Overview.png",
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row1Column1.png"
+    "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_Overview.png"
   ],
   "c6ceb2035cb1d8e8777199a4ce5aa44f23a1b78b": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_OverviewHighlight.png"
@@ -2356,26 +2340,8 @@
   "c0d0674296da0a234bcce5c4b10509a10b632672": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_TroubleshootingHighlight.png"
   ],
-  "c38e16e86987fcc36de00e36a86622615b880bc8": [
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row1Column2.png"
-  ],
-  "7a9073f0c73c02cc04cfdcf162a07cd3d81cffc2": [
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row1Column3.png"
-  ],
-  "661bf8641e75dd9c8dd3f18d61fbfcc9d4258eb0": [
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row1Column4.png"
-  ],
-  "fc98b087dadd2343899f9f014ad09cec135b4bc0": [
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row2Column2.png"
-  ],
-  "acebb1327f4f069d9e386efff34438fcd08c661c": [
-    "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDM_Row2Column3.png"
-  ],
   "f3568e1c4449da1c2ac5d9312a49b20af6547909": [
     "migrated-03-14\\Image\\Nav-Puzzle\\WIT_MDMLifecycleFull2.png"
-  ],
-  "bde9a8f0fc268a6e69f20fadb059525a337903fb": [
-    "migrated-03-14\\Image\\WIT_MDM_Banner.png"
   ],
   "264088eed5607793c57cc0fc174ad1e9eb61acd5": [
     "migrated-03-14\\Image\\WIT_Nav_ConfigureDevicesGray.png"
@@ -2397,12 +2363,6 @@
   ],
   "b67aa25ce462f55c3dabc0b3d22121ef8e076409": [
     "migrated-03-14\\Image\\WIT_Nav_RealworldSolutions.png"
-  ],
-  "2cdac414fc81a299ab7447a9d2a108588e50bd01": [
-    "migrated-03-14\\Image\\WIT_Nav_RealworldSolutionsGray.png"
-  ],
-  "9c68914173810afe3deb2c48ac5d4257d378e80b": [
-    "migrated-03-14\\Image\\WIT_Nav_RetireDataDevices.png"
   ],
   "f034293a43caa9ba9f1d98ea60c0ed0efe32a0dd": [
     "migrated-03-14\\Image\\WIT_Nav_RetireDataDevicesGray.png"
@@ -2498,12 +2458,6 @@
   ],
   "b2c071fc7ffbef3de495abf1ed090e40ff50fd61": [
     "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune.md"
-  ],
-  "2ca4987c19d05be7ae171c5051d5b5de1dc7ca36": [
-    "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune--1-.md"
-  ],
-  "90dd8ff74f9a6328f1d7454c2380f2161724c9c0": [
-    "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune--test-1-.md"
   ],
   "6740a5260d349e7439a029ab224d1abfd856786a": [
     "InTuneDocs\\edition-upgrade-policy-settings-in-microsoft-intune.md"
@@ -2630,9 +2584,6 @@
   ],
   "89d51c4522eceac6df5aa17c81351bf55319b6b5": [
     "migrated-03-14\\Topic\\Lifecycle-section-from-Overview.md"
-  ],
-  "06c57f7224c97e38afa92c7470aa8cabd229e4e4": [
-    "migrated-03-14\\Topic\\Lindavr-test-topic.md"
   ],
   "ae93fff3f0607b444ff28684848e98735449ea9d": [
     "InTuneDocs\\DeployUse\\mac-os-x-configuration-policy-settings-in-microsoft-intune.md"
@@ -2837,9 +2788,6 @@
   ],
   "02c2d4dec1284c7950286b809742d25eab20e02c": [
     "migrated-03-14\\Topic\\Microsoft-Intune-App-SDK-for-iOS-Developer-Guide.md"
-  ],
-  "94fb44885d46e6648c33a1624fa69938bac6d21d": [
-    "migrated-03-14\\Topic\\Microsoft-Intune-Documentation-Library-Site-Map.md"
   ],
   "dc0a9bb93ada14f987bc5b89ec1d04d688ddcfe3": [
     "migrated-03-14\\Topic\\Microsoft-Intune-features.md"
