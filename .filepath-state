@@ -64,7 +64,7 @@
     "InTuneDocs\\cancel-my-subscription-for-microsoft-intune.md"
   ],
   "60b3e79cfd8424d7b64c6cfa35a4fd3d407a645f": [
-    "InTuneDocs\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
   ],
   "fc361a40e9655801949ef0d7b963ad5b2b4170fd": [
     "InTuneDocs\\zDeletedTopics\\choose-the-right-microsoft-intune-policy-to-use-deleted.md"
@@ -462,7 +462,7 @@
     "InTuneDocs\\zDeletedTopics\\Error-evaluating-device.md"
   ],
   "10de324fb7c32f2f07bbfcd234018850cc2ac54e": [
-    "InTuneDocs\\exchange-activesync-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\exchange-activesync-policy-settings-in-microsoft-intune.md"
   ],
   "71b8d8efac8ac85791c2f109b4566072dd5c7f4b": [
     "InTuneDocs\\EndUser\\existing-company-email-account-found.md",
@@ -1503,12 +1503,12 @@
   "ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
   ],
+  "f0693c1dc992e472ab354379982f4920182aee28": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
-  ],
-  "f0693c1dc992e472ab354379982f4920182aee28": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1850,7 +1850,7 @@
     "InTuneDocs\\zDeletedTopics\\unenroll-your-device.md"
   ],
   "3518b8388c081e7b50e0c63a12c6415b12a95b67": [
-    "InTuneDocs\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.md"
   ],
   "e71e2e6734abce1feee60ea364db8c8eedb399e6": [
     "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md"
@@ -1895,14 +1895,14 @@
     "InTuneDocs\\media\\Intune-Device-Policy-v.2.jpg"
   ],
   "2b4c8d0cbcc8d2cd45731ca47a0ec5bbf3d9101b": [
-    "InTuneDocs\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md",
-    "InTuneDocs\\zDeletedTopics\\Use-kiosk-mode-to-control-access-to-device-functions-with-Microsoft-Intune---deleted.md"
+    "InTuneDocs\\zDeletedTopics\\Use-kiosk-mode-to-control-access-to-device-functions-with-Microsoft-Intune---deleted.md",
+    "InTuneDocs\\zDeletedTopics\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md"
   ],
   "a6c6326c36f36d9d4b56c38c66bce0cb9113d24e": [
     "InTuneDocs\\use-mobile-application-management-policies-in-configuration-manager.md"
   ],
   "ce517c19e11875b99968860de3ce5cda4d42a6cd": [
-    "InTuneDocs\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
   ],
   "79f29881ba37265428ab139c8d0ced258c4b9ac6": [
     "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md"
@@ -2128,15 +2128,6 @@
   ],
   "ab4b82355b287f798a8b6fad49f3327aa509df9d": [
     "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_planning_policy_view_small.png"
-  ],
-  "f2e48f9763292bbcc66a9f6b645720b36475dfad": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_BYOD_Hierachy_View_small.png"
-  ],
-  "d7407aba1f664996d13a63dd80c29734fc23702c": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_AD_General_small.png"
-  ],
-  "d9874e3cbb900dca3116b311d3aa90d3b2e7c30f": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Laptop_Hierarchy_small.png"
   ],
   "88d12cc7e482bc8c04b81be87357bf5b0bf064b5": [
     "InTuneDocs\\GetStarted\\enterprise-rollout.md"
@@ -2385,13 +2376,13 @@
     "InTuneDocs\\zDeletedTopics\\Common-Microsoft-Intune-evaluation-tasks.md"
   ],
   "88d452dd9a620da86dc683613b4676372e1bfc75": [
-    "migrated-03-14\\Topic\\Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md"
+    "InTuneDocs\\zDeletedTopics\\Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md"
   ],
   "90220a778c5009edc35e404cf624d265ba7d4c3c": [
     "InTuneDocs\\zDeletedTopics\\Company-Portal-Frequently-Asked-Questions.md"
   ],
   "e996e1ed05ee7c25f2dd2bc11b1ca6e412b5925a": [
-    "migrated-03-14\\Topic\\Computer-management-capabilities-in-Microsoft-Intune---deleted.md"
+    "InTuneDocs\\zDeletedTopics\\Computer-management-capabilities-in-Microsoft-Intune---deleted.md"
   ],
   "a3ec7abaa2d6c381d7c705763f04c9723691ea8b": [
     "migrated-03-14\\Topic\\Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md"
@@ -2774,7 +2765,7 @@
     "migrated-03-14\\Topic\\Microsoft-Intune-features.md"
   ],
   "28a8b367e8adc2b43b4958961bbc421cf9a743b8": [
-    "migrated-03-14\\Topic\\Microsoft-Intune-policy-settings-reference.md"
+    "InTuneDocs\\zDeletedTopics\\Microsoft-Intune-policy-settings-reference.md"
   ],
   "84e97a67f591d30647081887c1df3983dfb2967b": [
     "InTuneDocs\\zDeletedTopics\\Microsoft-Intune-Privacy-Statement.md"
@@ -2990,7 +2981,7 @@
     "migrated-03-14\\Topic\\Understand-your-devices-with-inventory-in-Microsoft-Intune---deleted.md"
   ],
   "2a6e602fe6e6c4f4cffd6b3e7302f68c01350ab7": [
-    "migrated-03-14\\Topic\\Update-apps-using-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Update-apps-using-Microsoft-Intune.md"
   ],
   "3c97410e084789aade2e06f3035912dc7b4310cf": [
     "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"

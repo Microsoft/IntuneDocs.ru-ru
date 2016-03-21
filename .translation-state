@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "dc8a75144dd30a4d9eca9b4b684f6cc083e713fd",
+  "LastProcessedCommit": "abf1cf4df03b1ff7dc9d7aa345a50c1eb3d032a6",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -529,7 +529,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
+        "InTuneDocs\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\categorize-devices-with-device-group-mapping-in-microsoft-intune.97766b7671d5b777102e0fb9888c255c8816fd7e.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -4713,7 +4714,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\exchange-activesync-policy-settings-in-microsoft-intune.md"
+        "InTuneDocs\\exchange-activesync-policy-settings-in-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\exchange-activesync-policy-settings-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\exchange-activesync-policy-settings-in-microsoft-intune.cb8a2377ae260cb06e363515b37bda5037d325af.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -16455,7 +16457,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.md"
+        "InTuneDocs\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.9444c484b86864ff723ce09edcc662c81a05f5c2.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -16895,7 +16898,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md",
-        "InTuneDocs\\zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune-old.md"
+        "InTuneDocs\\zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune-old.md",
+        "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
       ],
       "FilePathList": [
         "InTuneDocs\\media\\Intune-Device-Policy-v.2.jpg"
@@ -16928,7 +16932,8 @@
       "FilePathList": [
         "InTuneDocs\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md",
         "migrated-03-14\\Topic\\Use-kiosk-mode-to-control-access-to-device-functions-with-Microsoft-Intune---deleted.md",
-        "InTuneDocs\\zDeletedTopics\\Use-kiosk-mode-to-control-access-to-device-functions-with-Microsoft-Intune---deleted.md"
+        "InTuneDocs\\zDeletedTopics\\Use-kiosk-mode-to-control-access-to-device-functions-with-Microsoft-Intune---deleted.md",
+        "InTuneDocs\\zDeletedTopics\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.f1f091bbc31aad263737d671cfacdedf56eef8ad.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -16984,7 +16989,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "InTuneDocs\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
+        "InTuneDocs\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.fa60aaf8b2e0e8c70824343015a3f0794b27844d.ru-ru.xlf",
       "HandoffFileCommit": "9af993f7a1f28034ddccd13e15eb0b26bb1e5f21",
@@ -17079,7 +17085,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-19T00:57:02.0782036Z",
+      "HandoffDateTime": "2016-03-21T00:30:33.9448509Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17090,7 +17096,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 41,
+      "HandoffFailureTimes": 42,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17119,7 +17125,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-19T00:57:02.0782036Z",
+      "HandoffDateTime": "2016-03-21T00:30:33.9448509Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17130,7 +17136,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 41,
+      "HandoffFailureTimes": 42,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17159,7 +17165,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-19T00:57:02.0782036Z",
+      "HandoffDateTime": "2016-03-21T00:30:33.9448509Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17170,7 +17176,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
         "extended_information": null
       },
-      "HandoffFailureTimes": 41,
+      "HandoffFailureTimes": 42,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -28696,7 +28702,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md"
+        "migrated-03-14\\Topic\\Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md",
+        "InTuneDocs\\zDeletedTopics\\Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.ba3de414c93d3db78f11280878ecf4780b660971.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -28753,7 +28760,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Computer-management-capabilities-in-Microsoft-Intune---deleted.md"
+        "migrated-03-14\\Topic\\Computer-management-capabilities-in-Microsoft-Intune---deleted.md",
+        "InTuneDocs\\zDeletedTopics\\Computer-management-capabilities-in-Microsoft-Intune---deleted.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Computer-management-capabilities-in-Microsoft-Intune---deleted.dceb62baaba1628246099030bd1bd9cc60d23a0a.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -33020,7 +33028,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Microsoft-Intune-policy-settings-reference.md"
+        "migrated-03-14\\Topic\\Microsoft-Intune-policy-settings-reference.md",
+        "InTuneDocs\\zDeletedTopics\\Microsoft-Intune-policy-settings-reference.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Microsoft-Intune-policy-settings-reference.39b24b125b8bf63748811bf92d7ab97ca9631eb3.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -35147,7 +35156,8 @@
       "HandoffReason": 1,
       "DependencyFrom": null,
       "FilePathList": [
-        "migrated-03-14\\Topic\\Update-apps-using-Microsoft-Intune.md"
+        "migrated-03-14\\Topic\\Update-apps-using-Microsoft-Intune.md",
+        "InTuneDocs\\zDeletedTopics\\Update-apps-using-Microsoft-Intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\Update-apps-using-Microsoft-Intune.a664069d578b25b2459f66d339d041ae18d3c191.ru-ru.xlf",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -39032,8 +39042,8 @@
         "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf",
-      "HandoffFileCommit": "7d30a56c092e8cc21f5f37b290d76a9e1f0e4fb8",
-      "HandoffDateTime": "2016-03-18T23:34:56.5487331Z",
+      "HandoffFileCommit": "51dee686304e9a3dcef2e6ca85474d9a4dd40b93",
+      "HandoffDateTime": "2016-03-21T00:30:33.9448509Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
