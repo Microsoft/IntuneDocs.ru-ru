@@ -50,15 +50,15 @@
     "migrated-03-14\\Topic\\Benefits-of-Intune-App-SDK.md"
   ],
   "2a56cd8d89f8dab7d2deb3868dc39f1c1fd0940c": [
-    "InTuneDocs\\best-practices-for-rolling-out-apps-with-microsoft-intune.md",
-    "migrated-03-14\\Topic\\Best-practices-for-rolling-out-apps-with-Microsoft-Intune.md"
+    "migrated-03-14\\Topic\\Best-practices-for-rolling-out-apps-with-Microsoft-Intune.md",
+    "InTuneDocs\\zDeletedTopics\\best-practices-for-rolling-out-apps-with-microsoft-intune.md"
   ],
   "85dacab405cb3af04b5e426db439bf87412d800c": [
-    "InTuneDocs\\best-practices-for-rolling-out-policies-and-apps-with-intune.md"
+    "InTuneDocs\\zDeletedTopics\\best-practices-for-rolling-out-policies-and-apps-with-intune.md"
   ],
   "1baba805d9c016dbb8f11053f208672c2c959a43": [
-    "InTuneDocs\\best-practices-for-rolling-out-policies-with-microsoft-intune.md",
-    "migrated-03-14\\Topic\\Best-practices-for-rolling-out-policies-with-Microsoft-Intune.md"
+    "migrated-03-14\\Topic\\Best-practices-for-rolling-out-policies-with-Microsoft-Intune.md",
+    "InTuneDocs\\zDeletedTopics\\best-practices-for-rolling-out-policies-with-microsoft-intune.md"
   ],
   "9add56759c2f287b71f922681caf345dbea8c92b": [
     "InTuneDocs\\cancel-my-subscription-for-microsoft-intune.md"
@@ -95,8 +95,8 @@
     "migrated-03-14\\Topic\\Configure-mobile-device-management-for-Microsoft-Intune.md"
   ],
   "c4888a6ecf09bd6da405e5da852a9e7b3ee4fc46": [
-    "InTuneDocs\\contact-assisted-phone-support-for-microsoft-intune.md",
-    "migrated-03-14\\Topic\\Contact-Assisted-Phone-Support-for-Microsoft-Intune.md"
+    "migrated-03-14\\Topic\\Contact-Assisted-Phone-Support-for-Microsoft-Intune.md",
+    "InTuneDocs\\Troubleshoot\\contact-assisted-phone-support-for-microsoft-intune.md"
   ],
   "26d8a024ae3fdeed1a545415be71cc1a2f5bc2aa": [
     "InTuneDocs\\DeployUse\\custom-uri-settings-for-windows-10-devices.md"
@@ -1333,7 +1333,7 @@
     "InTuneDocs\\zDeletedTopics\\manage-access-to-skype-for-business.md"
   ],
   "79898b37de9832336aeeeb16ec1ddcc0d32d0ffd": [
-    "InTuneDocs\\manage-alerts-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\manage-alerts-in-microsoft-intune.md"
   ],
   "ce5ca6f5b3fbc78616e80e6b9985e64469fbeb03": [
     "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md",
@@ -1419,7 +1419,7 @@
     "InTuneDocs\\microsoft-intune-documentation-library-site-map.md"
   ],
   "9c003ea2a358aa22e452cf646a79a9d794b9f93e": [
-    "InTuneDocs\\microsoft-intune-features.md"
+    "InTuneDocs\\zDeletedTopics\\microsoft-intune-features.md"
   ],
   "061f72431ad1655058be942393a282247b1f204a": [
     "InTuneDocs\\EULA\\microsoft-intune-managed-browser-for-ios.md",
@@ -1503,6 +1503,9 @@
   "ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1": [
     "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
   ],
+  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
@@ -1562,8 +1565,8 @@
     "InTuneDocs\\protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md"
   ],
   "50cd3f4541a8e3ac2268f193d817650131d5dae5": [
-    "InTuneDocs\\rask-core-components.md",
-    "migrated-03-14\\Topic\\RASK-core-components.md"
+    "migrated-03-14\\Topic\\RASK-core-components.md",
+    "InTuneDocs\\zDeletedTopics\\rask-core-components.md"
   ],
   "16560327dab64f0e350d81a3743607e334200089": [
     "InTuneDocs\\real-world-solutions-to-help-you-manage-mobile-devices.md"
@@ -1627,10 +1630,10 @@
     "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Update-and-retire-apps-using-Intune.md"
   ],
   "d815c79e93e717a9e4be47d85bf52ab0bddb4827": [
-    "InTuneDocs\\rolling-out-apps-with-microsoft-intune.md"
+    "InTuneDocs\\GetStarted\\rolling-out-apps-with-microsoft-intune.md"
   ],
   "2c12a1d739d351fbef4ff2d6eebdca53a2ae368f": [
-    "InTuneDocs\\rolling-out-microsoft-intune-policies.md"
+    "InTuneDocs\\GetStarted\\rolling-out-microsoft-intune-policies.md"
   ],
   "7bb59ea0dc5ce46b47421074184a6949825a894a": [
     "InTuneDocs\\set-up-computer-device-management-with-microsoft-intune.md",
@@ -1731,8 +1734,8 @@
     "migrated-03-14\\Topic\\Top-node.md"
   ],
   "153913869af5e3d2d1b79d0fc282ec579308b60e": [
-    "InTuneDocs\\troubleshoot-policies-in-microsoft-intune-deleted.md",
-    "migrated-03-14\\Topic\\Troubleshoot-policies-in-Microsoft-Intune---deleted.md"
+    "migrated-03-14\\Topic\\Troubleshoot-policies-in-Microsoft-Intune---deleted.md",
+    "InTuneDocs\\zDeletedTopics\\troubleshoot-policies-in-microsoft-intune-deleted.md"
   ],
   "e8e14abd3ccc9eab1c651adf83dc6711bc6f0f54": [
     "InTuneDocs\\Troubleshoot\\how-to-get-support-for-microsoft-intune.md"
@@ -1889,7 +1892,8 @@
     "InTuneDocs\\media\\ConditionalAccess8-1.png"
   ],
   "2a7393638c70622422bb95b6f3822454b3da54e9": [
-    "InTuneDocs\\zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune-old.md"
+    "InTuneDocs\\zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune-old.md",
+    "InTuneDocs\\zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
   ],
   "18462d3369f1f72868e3d46ad956513df8fad25a": [
     "InTuneDocs\\media\\Intune-Device-Policy-v.2.jpg"
@@ -2167,6 +2171,9 @@
   ],
   "b3d9685d299f189479b2d4f65775b94b01952599": [
     "InTuneDocs\\zDeletedTopics\\Manage-access-to-sharepoint-online-test-refactor.md"
+  ],
+  "b54b47f88e6277a22479c3a51a93a297fbb57c73": [
+    "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
   ],
   "96bf2355832ac937977c431713f548b7b1334b2b": [
     "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
@@ -3321,5 +3328,8 @@
   ],
   "fb0a842f95a016ea445d01813ffd9902b4eb1f2d": [
     "InTuneDocs\\DeployUse\\windows-compliance-policy-settings-in-microsoft-intune.md"
+  ],
+  "c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe": [
+    "InTuneDocs\\PlanDesign\\media\\group-planning\\Intune_Planning_Groups_Default_small.png"
   ]
 }
