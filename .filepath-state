@@ -170,6 +170,9 @@
   "9e1dbcf42e82f6b81c10b7e13dc23c5ae479fb26": [
     "InTuneDocs\\DeployUse\\deploy-and-configure-apps-with-microsoft-intune.md"
   ],
+  "cd0e53c7f92e7f16282e481c8781b0e787ad9c8d": [
+    "InTuneDocs\\DeployUse\\deploy-apps-to-mobile-devices-in-microsoft-intune.md"
+  ],
   "1eb2318ffec5d91550955049bfd6791f514c2888": [
     "InTuneDocs\\DeployUse\\deploy-apps-to-mobile-devices-in-microsoft-intune.md"
   ],
@@ -383,6 +386,9 @@
   ],
   "96b0a4d394b8cc43682feb66ecef0dac38fbdccd": [
     "InTuneDocs\\DeployUse\\understand-your-devices-with-inventory-in-microsoft-intune.md"
+  ],
+  "a1ea8350468ea51f30075eec0d765aab9b116f46": [
+    "InTuneDocs\\DeployUse\\update-apps-using-microsoft-intune.md"
   ],
   "4ee149b7571d8126d97a011be003520b68ad32ae": [
     "InTuneDocs\\DeployUse\\update-apps-using-microsoft-intune.md"
@@ -1532,12 +1538,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
+  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
-  ],
-  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -2028,6 +2034,9 @@
   "347c5303bb115d951958a36fbd993009be45957a": [
     "InTuneDocs\\DeployUse\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md",
     "InTuneDocs\\zDeletedTopics\\When-to-use-the-Intune-App-Wrapping-tool-vs.-the-Intune-App-SDK.md"
+  ],
+  "5999993af6da0dd6ef288399848f27859146a198": [
+    "InTuneDocs\\DeployUse\\windows-10-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "05c3ad79916f845680c4dac498ed847850dc34a6": [
     "InTuneDocs\\DeployUse\\windows-10-configuration-policy-settings-in-microsoft-intune.md"
