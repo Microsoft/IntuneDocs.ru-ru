@@ -1526,12 +1526,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
+  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
-  ],
-  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1808,6 +1808,9 @@
   ],
   "76ef8cbb0d42afaa46034f8add167a0fc5d4c4aa": [
     "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
+  ],
+  "bca7136c80073ee7ec14f1b1a2f6238e6a21cf63": [
+    "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
   ],
   "4f2ecd8203167716cbb48316be0ed848e079557a": [
     "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
@@ -2188,18 +2191,6 @@
   ],
   "b393f9a960ba795ab0a8c9760a52daf47c412033": [
     "InTuneDocs\\GetStarted\\run-state.md"
-  ],
-  "0e52629612685eb76040b7bc975c5c0695d7b1f5": [
-    "InTuneDocs\\index.html"
-  ],
-  "c51ab8a245f1bc5450279b12ddf3bec42664b4d9": [
-    "InTuneDocs\\index.html"
-  ],
-  "7d8522b93848675a2c9d1d84811334b7ed75dda5": [
-    "InTuneDocs\\index.html"
-  ],
-  "4dfcc6845af9754766781b564e29d619639a0b57": [
-    "InTuneDocs\\index.html"
   ],
   "1d79cde996c0c83deb999ef10c70b82aaf9e2179": [
     "InTuneDocs\\zDeletedTopics\\Manage-access-to-exchange-on-premises-test-refactor.md"
@@ -3429,5 +3420,8 @@
   ],
   "0a34ed2ea2556768f64c0edd315d8b2e3022745b": [
     "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
+  ],
+  "853d7fbf46760d1504da2e6ade806032d5ff382e": [
+    "InTuneDocs\\Understand\\index.html"
   ]
 }
