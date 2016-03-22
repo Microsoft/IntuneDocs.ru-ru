@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2033
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1632
+[ Handoff Success Files ](#handoff-success-list)| 1631
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 397
+[ Ignored Files ](#ignored-list)| 398
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -90,7 +90,6 @@
  [InTuneDocs\DeployUse\mac-os-x-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/mac-os-x-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#be2977aec3f46fe414da674f1a55b3ff24726ab669)
  [InTuneDocs\DeployUse\mac-os-x-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/mac-os-x-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#dcdbaab9524f429ace9bb34b71eea7044b1b619570)
  [InTuneDocs\DeployUse\manage-access-to-apps-using-microsoft-intune-configuration-policies-deleted.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/manage-access-to-apps-using-microsoft-intune-configuration-policies-deleted.md) | HandedOffSuccess | [Details](#4d8b4ac82562bd1d94f667a5e687a515dabe3d8171)
- [InTuneDocs\DeployUse\manage-access-to-email-and-O365-services-with-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/87caf9addd4a8b92c66ed1c65033eece5898ca2a/InTuneDocs/DeployUse/manage-access-to-email-and-O365-services-with-intune.md) | HandedOffSuccess | [Details](#2ac0a20fafcac98d68c2e77be620d28e8542cbc972)
  [InTuneDocs\DeployUse\Manage-access-to-skype-for-business.md](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/Manage-access-to-skype-for-business.md) | HandedOffSuccess | [Details](#1d0ce9c5be9a0be6e02c540582403644236223d673)
  [InTuneDocs\DeployUse\manage-alerts-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/manage-alerts-in-microsoft-intune.md) | HandedOffSuccess | [Details](#79898b37de9832336aeeeb16ec1ddcc0d32d0ffd74)
  [InTuneDocs\DeployUse\manage-app-access-to-exchange-online.md](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/manage-app-access-to-exchange-online.md) | HandedOffSuccess | [Details](#ce5ca6f5b3fbc78616e80e6b9985e64469fbeb0375)
@@ -1676,6 +1675,7 @@
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e947)
+ [InTuneDocs\DeployUse\manage-access-to-email-and-O365-services-with-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/manage-access-to-email-and-O365-services-with-intune.md) | Ignored | [Details](#10f3615674528218964d6c90594757ae5852cdaa72)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476188)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e095)
  [InTuneDocs\DeployUse\media\App_Access_EXO.png](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/media/App_Access_EXO.png) | Ignored | [Details](#2b6df2d39a7f26448017cf118278efe1197bdeca97)
@@ -2933,12 +2933,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2ac0a20fafcac98d68c2e77be620d28e8542cbc972'></a> Source: [InTuneDocs\DeployUse\manage-access-to-email-and-O365-services-with-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/87caf9addd4a8b92c66ed1c65033eece5898ca2a/InTuneDocs/DeployUse/manage-access-to-email-and-O365-services-with-intune.md)
-* Status: HandedOffSuccess
+##### <a name='10f3615674528218964d6c90594757ae5852cdaa72'></a> Source: [InTuneDocs\DeployUse\manage-access-to-email-and-O365-services-with-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/999d291bb2ba6ceb3712125b74b34195d7c70564/InTuneDocs/DeployUse/manage-access-to-email-and-O365-services-with-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [manage-access-to-email-and-O365-services-with-intune.2518ef7342a58a741ccc90bec9bb6ae4b26c4efb.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/27e764887e254cb53eddfc8fc2922c21154da9b7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-access-to-email-and-O365-services-with-intune.2518ef7342a58a741ccc90bec9bb6ae4b26c4efb.ru-ru.xlf)
-* Handoff Datetime: 2016-03-22 18:30:29
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
