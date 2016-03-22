@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2037
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1636
+[ Handoff Success Files ](#handoff-success-list)| 1631
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 397
+[ Ignored Files ](#ignored-list)| 402
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -42,7 +42,6 @@
  [InTuneDocs\deploy-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/deploy-apps.md) | HandedOffSuccess | [Details](#e6e3f291aece13186c0607754ff9f7c6e2039d5a20)
  [InTuneDocs\deploy-conditional-access-microsoft-intune-with-system-center-configuration-manager-deleted.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/deploy-conditional-access-microsoft-intune-with-system-center-configuration-manager-deleted.md) | HandedOffSuccess | [Details](#6cffb30cd67ec64d64f3ad0a3dea6bf16b0cfdda21)
  [InTuneDocs\deployment-guide-protect-corporate-email-and-documents.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/deployment-guide-protect-corporate-email-and-documents.md) | HandedOffSuccess | [Details](#a1b74e916015d3c2fbb3e47bf9dd038676aa2ab522)
- [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#a4faae18cd8d4b914bf287eadcd4b94499dddfb223)
  [InTuneDocs\DeployUse\android-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/android-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#24b02a17c4403afdd56bf3b20e2375744148710a24)
  [InTuneDocs\DeployUse\android-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/android-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#d70cde02341d3f1fef831dbbac4b0634d52465bf25)
  [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md) | HandedOffSuccess | [Details](#60b3e79cfd8424d7b64c6cfa35a4fd3d407a645f26)
@@ -56,13 +55,11 @@
  [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/Configure-Intune-certificate-profiles.md) | HandedOffSuccess | [Details](#da73c9a05b2506a3997bac5aa4b83fce00c0164034)
  [InTuneDocs\DeployUse\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md) | HandedOffSuccess | [Details](#e10d5743797882b6bc58e95d79006e33220a689235)
  [InTuneDocs\DeployUse\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) | HandedOffSuccess | [Details](#f90816ca06edd15af26b9979a28c0ed916f3ebaf36)
- [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md) | HandedOffSuccess | [Details](#47990645eaa386a25881829a59f99bd32b0645ac37)
  [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/de674a0d4c8842c8eeb8994e020ebb26c515d7db/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) | HandedOffSuccess | [Details](#57a36d827e541f74837a7196fe9091aeee33dabb38)
  [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/436ca5d6e89bef8544570f5e6edb418cc7265eeb/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md) | HandedOffSuccess | [Details](#6e8127c31aced6f3072d7c2d930799c2e70fcf2139)
  [InTuneDocs\DeployUse\custom-uri-settings-for-windows-10-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/custom-uri-settings-for-windows-10-devices.md) | HandedOffSuccess | [Details](#a3517f6fc0cfa727b064390b99dc34af6016188640)
  [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1ef70d7bd7e85ccff676c8719796fd11bf36447b/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) | HandedOffSuccess | [Details](#af66de5557b6efce997a73355358eae3104bc91941)
  [InTuneDocs\DeployUse\deploy-and-configure-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/deploy-and-configure-apps-with-microsoft-intune.md) | HandedOffSuccess | [Details](#9e1dbcf42e82f6b81c10b7e13dc23c5ae479fb2642)
- [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/debfe3326f65b4fa259eb2696caeb2e7364259ce/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) | HandedOffSuccess | [Details](#bdd7f235865276344dfbf287aa0c2d08c4d2ba0043)
  [InTuneDocs\DeployUse\deploy-apps-to-mobile-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/deploy-apps-to-mobile-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#1eb2318ffec5d91550955049bfd6791f514c288844)
  [InTuneDocs\DeployUse\deploy-apps-to-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/DeployUse/deploy-apps-to-windows-pcs-in-microsoft-intune.md) | HandedOffSuccess | [Details](#88d90e828201f782f96e714c9481ade37f34258c45)
  [InTuneDocs\DeployUse\edition-upgrade-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/edition-upgrade-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#044416855dbcb9c9e8421b453cb3e3482dd1f03647)
@@ -81,7 +78,6 @@
  [InTuneDocs\DeployUse\help-users-connect-to-their-work-using-vpn-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/help-users-connect-to-their-work-using-vpn-profiles-with-microsoft-intune.md) | HandedOffSuccess | [Details](#54ae043ed12ce341dfaa443558275136945c264160)
  [InTuneDocs\DeployUse\install-the-windows-pc-client-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/install-the-windows-pc-client-with-microsoft-intune.md) | HandedOffSuccess | [Details](#d5f8d03e2360ffc23f47fff7b3ee51c105406d3161)
  [InTuneDocs\DeployUse\introduction-to-device-compliance-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/introduction-to-device-compliance-policies-in-microsoft-intune.md) | HandedOffSuccess | [Details](#b6ce5f13edaba223ed5915d82b4b60d84c5b7af862)
- [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#9c0e51a62ec37c76177575c5560be23815eb833463)
  [InTuneDocs\DeployUse\ios-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/ios-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#85874ef9d068bea02a1946039dc0db061430d2c564)
  [InTuneDocs\DeployUse\ios-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/ios-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#85436deffb076fb768a92aae76f3804abfe91cf665)
  [InTuneDocs\DeployUse\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md) | HandedOffSuccess | [Details](#750cbd7ed2701c022bda4c5e715a8ce9ea72f55b66)
@@ -211,7 +207,6 @@
  [InTuneDocs\DeployUse\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md) | HandedOffSuccess | [Details](#347c5303bb115d951958a36fbd993009be45957a219)
  [InTuneDocs\DeployUse\windows-10-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/windows-10-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#05c3ad79916f845680c4dac498ed847850dc34a6220)
  [InTuneDocs\DeployUse\windows-10-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/windows-10-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#a1f5f0790438c698cedebebbba704da058465f8b221)
- [InTuneDocs\DeployUse\windows-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/windows-compliance-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#a4efd3c1ea7ba88736debb65bb788a542415896f222)
  [InTuneDocs\DeployUse\windows-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/windows-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#6f552632b42f1660bfb5d062dce0f0ce48aa2479223)
  [InTuneDocs\DeployUse\windows-phone-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/windows-phone-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#2746b32ada5267b7abf2d897480cd2e86e7d16e9224)
  [InTuneDocs\DeployUse\windows-phone-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/windows-phone-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#e7a5d9d4b556b1ca07cbd185fe10faad9091d11e225)
@@ -1679,7 +1674,11 @@
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/.localization-config) | Ignored | [Details](#7ca6758dcb16c24a8710c7cee79920d4f837c36d2)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
+ [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md) | Ignored | [Details](#302bad05ad68d51a22aaf52eeabb9bc8c363366123)
+ [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md) | Ignored | [Details](#06bd11c4a617f10363cd2f122e0d32bb86596ac637)
+ [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) | Ignored | [Details](#22627dc453d6c905d25b719b6b5d3476696168ad43)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e946)
+ [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md) | Ignored | [Details](#2dddd4ce2fcaf624190f5c3be08d65eeab7088b963)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476187)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e094)
  [InTuneDocs\DeployUse\media\App_Access_EXO.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/media/App_Access_EXO.png) | Ignored | [Details](#2b6df2d39a7f26448017cf118278efe1197bdeca96)
@@ -1709,6 +1708,7 @@
  [InTuneDocs\DeployUse\media\iOSWordSaveLocations.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/media/iOSWordSaveLocations.PNG) | Ignored | [Details](#dfd24f3ad411d512f06161aff0792d750bda3cb3178)
  [InTuneDocs\DeployUse\media\MAM_BYOD.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/media/MAM_BYOD.png) | Ignored | [Details](#f0195917d20400de735979f290d25100a9c9df63179)
  [InTuneDocs\DeployUse\media\MAM_ManagedDevices.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/media/MAM_ManagedDevices.png) | Ignored | [Details](#2a1888e9f2cd20e31af1e45b55468ce6b403af33181)
+ [InTuneDocs\DeployUse\windows-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/windows-compliance-policy-settings-in-microsoft-intune.md) | Ignored | [Details](#3656856e71ac504d58c978e59ed6a9f068bd41fc222)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2228)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#7b0885b6fc884f750560f0ad7cbe12d6cd66fdd0247)
  [InTuneDocs\EndUser\media\andr_verbose_logging-and-send-diag-data.png](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/EndUser/media/andr_verbose_logging-and-send-diag-data.png) | Ignored | [Details](#c731f6ba43cc20467593b1c05d920c05e14f1f0a287)
@@ -2349,12 +2349,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a4faae18cd8d4b914bf287eadcd4b94499dddfb223'></a> Source: [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='302bad05ad68d51a22aaf52eeabb9bc8c363366123'></a> Source: [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [android-compliance-policy-settings-in-microsoft-intune.162f6c9515fd2740c9f9d5f0c5c09a27a24b5f76.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a4b310dc94e4c6060500d2b7cf7052904bca735b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/android-compliance-policy-settings-in-microsoft-intune.162f6c9515fd2740c9f9d5f0c5c09a27a24b5f76.ru-ru.xlf)
-* Handoff Datetime: 2016-03-21 22:59:36
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -2517,12 +2517,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='47990645eaa386a25881829a59f99bd32b0645ac37'></a> Source: [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='06bd11c4a617f10363cd2f122e0d32bb86596ac637'></a> Source: [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [create-a-device-compliance-policy-in-microsoft-intune.9188af5f5e215d433e123a2e8fbfcad01c5623c4.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a4b310dc94e4c6060500d2b7cf7052904bca735b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/create-a-device-compliance-policy-in-microsoft-intune.9188af5f5e215d433e123a2e8fbfcad01c5623c4.ru-ru.xlf)
-* Handoff Datetime: 2016-03-21 22:59:36
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -2589,12 +2589,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='bdd7f235865276344dfbf287aa0c2d08c4d2ba0043'></a> Source: [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/debfe3326f65b4fa259eb2696caeb2e7364259ce/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='22627dc453d6c905d25b719b6b5d3476696168ad43'></a> Source: [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.2e5ae111a37151da00e40ad97dbdd53b77c8caf4.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7d30a56c092e8cc21f5f37b290d76a9e1f0e4fb8/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.2e5ae111a37151da00e40ad97dbdd53b77c8caf4.ru-ru.xlf)
-* Handoff Datetime: 2016-03-18 23:34:56
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -2829,12 +2829,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9c0e51a62ec37c76177575c5560be23815eb833463'></a> Source: [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='2dddd4ce2fcaf624190f5c3be08d65eeab7088b963'></a> Source: [InTuneDocs\DeployUse\ios-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/ios-compliance-policy-settings-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a4b310dc94e4c6060500d2b7cf7052904bca735b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/ios-compliance-policy-settings-in-microsoft-intune.db013c1c1889068db19096dff5552dba4f910541.ru-ru.xlf)
-* Handoff Datetime: 2016-03-21 22:59:36
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -4808,12 +4808,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a4efd3c1ea7ba88736debb65bb788a542415896f222'></a> Source: [InTuneDocs\DeployUse\windows-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7eabdb963a69164293efa925ff30a0789beb300c/InTuneDocs/DeployUse/windows-compliance-policy-settings-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='3656856e71ac504d58c978e59ed6a9f068bd41fc222'></a> Source: [InTuneDocs\DeployUse\windows-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ff62af2e6471ea5b24bf3d52f5a899bf5be5593f/InTuneDocs/DeployUse/windows-compliance-policy-settings-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [windows-compliance-policy-settings-in-microsoft-intune.68a63abf383a92d1c65f0bb405cf27ea58fab709.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a4b310dc94e4c6060500d2b7cf7052904bca735b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/windows-compliance-policy-settings-in-microsoft-intune.68a63abf383a92d1c65f0bb405cf27ea58fab709.ru-ru.xlf)
-* Handoff Datetime: 2016-03-21 22:59:36
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
