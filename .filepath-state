@@ -1532,12 +1532,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
-  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
-  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
+  ],
+  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -2202,7 +2202,8 @@
     "InTuneDocs\\GetStarted\\run-state.md"
   ],
   "853d7fbf46760d1504da2e6ade806032d5ff382e": [
-    "InTuneDocs\\index.html"
+    "InTuneDocs\\index.html",
+    "InTuneDocs\\media\\index.html"
   ],
   "0e52629612685eb76040b7bc975c5c0695d7b1f5": [
     "InTuneDocs\\index.html"
@@ -3322,6 +3323,9 @@
   "fe3d37e292bd8b1b7d62ef7134dc92634ec35b78": [
     "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
   ],
+  "749e35032247f3876e6ab0dba21c1f0b066db08d": [
+    "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+  ],
   "463591384e22f9927b759072fd0ef6c26a42abc4": [
     "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
   ],
@@ -3453,5 +3457,35 @@
   ],
   "0a34ed2ea2556768f64c0edd315d8b2e3022745b": [
     "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
+  ],
+  "04c0b078b850f28f13169d44b397018afbd6b5c8": [
+    "InTuneDocs\\media\\AppLifeR1C1.png"
+  ],
+  "52734a0aac0dd3412be3df836ae1e8957ca7d01d": [
+    "InTuneDocs\\media\\AppLifeR1C2.png"
+  ],
+  "5bc862755c6f70476d6bb2d93c91d9f277eee8ee": [
+    "InTuneDocs\\media\\AppLifeR2C1.png"
+  ],
+  "cc37bb458ebca359dd4b0d71b83bb6c1dc0e7b7d": [
+    "InTuneDocs\\media\\AppLifeR2C2.png"
+  ],
+  "705ad5a18edde8d346601a70d73b11df8436cc6a": [
+    "InTuneDocs\\media\\AppLifeR3C1.png"
+  ],
+  "954b67cf324880a11b37398c845574ee12ccd471": [
+    "InTuneDocs\\media\\AppLifeR3C2.png"
+  ],
+  "5b738f757a68ff333a2fa9f417e76432d560ab1c": [
+    "InTuneDocs\\media\\MDMLife_R1C1.png"
+  ],
+  "0191ce4f27ade5ebdb707fbc1d9f149a77ae42ac": [
+    "InTuneDocs\\media\\MDMLife_R1C2.png"
+  ],
+  "daf97f3f559427cc5b9c40b78d317fb38004c626": [
+    "InTuneDocs\\media\\MDMLife_R2C1.png"
+  ],
+  "e24e45a071c691b77f6ca87effccf55cfef7cf23": [
+    "InTuneDocs\\media\\MDMLife_R2C2.png"
   ]
 }
