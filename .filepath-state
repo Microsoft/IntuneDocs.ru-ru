@@ -354,12 +354,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md"
+  ],
+  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "0921e7b779c53dc6def7d865a055391958b6080a": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -1560,12 +1560,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
-  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
-  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
+  ],
+  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -3539,5 +3539,26 @@
   ],
   "990e706d3784994e09e6002491018394f220a780": [
     "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
+  ],
+  "d564be752a458715f4f3fa304890b2717321a945": [
+    "InTuneDocs\\media\\mdmapplifecycle_v5.gif"
+  ],
+  "766a5eff5b193b2cec99a1e77877910140e1c5cf": [
+    "InTuneDocs\\PlanDesign\\migrating-to-intune.md"
+  ],
+  "c153da26c6db15585f5025b3b04e4b4365970740": [
+    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md"
+  ],
+  "4814cbc9923cc59c7692499f49cc04904128462a": [
+    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-one.md"
+  ],
+  "6071edba4f3b4016f2c92390c6d53bb8ee5602ce": [
+    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-three.md"
+  ],
+  "125d52654ca11554362b64a370d5b78884037db0": [
+    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-two.md"
+  ],
+  "a989fff8cebf92a8a4fca60157ed8d0b3ec74069": [
+    "InTuneDocs\\PlanDesign\\migrating-to-intune-worksheet.md"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "56a8dd1e73f4b0dd8ef6f41d02bec1f5808ad00c",
+  "LastProcessedCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -98,7 +98,10 @@
       "SourceFilePath": "InTuneDocs\\accessibility-features-of-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\accessibility6_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\accessibility-features-of-microsoft-intune.md"
       ],
@@ -127,7 +130,9 @@
       "SourceFilePath": "InTuneDocs\\accessibility-for-people-with-disabilities.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\accessibility-for-people-with-disabilities.md"
       ],
@@ -156,7 +161,31 @@
       "SourceFilePath": "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\accessibility1_md.md",
+        "InTuneDocs\\includes\\accessibility2_md.md",
+        "InTuneDocs\\includes\\accessibility3_md.md",
+        "InTuneDocs\\includes\\accessibility4_md.md",
+        "InTuneDocs\\includes\\accessibility5_md.md",
+        "InTuneDocs\\includes\\accessibility6_md.md",
+        "InTuneDocs\\includes\\accessibility7_md.md",
+        "InTuneDocs\\includes\\accessibility8_md.md",
+        "InTuneDocs\\includes\\accessibility9_md.md",
+        "InTuneDocs\\includes\\accessibility10_md.md",
+        "InTuneDocs\\includes\\accessibility11_md.md",
+        "InTuneDocs\\includes\\accessibility11-a_md.md",
+        "InTuneDocs\\includes\\accessibility11-b_md.md",
+        "InTuneDocs\\includes\\accessibility11-c_md.md",
+        "InTuneDocs\\includes\\accessibility11-d_md.md",
+        "InTuneDocs\\includes\\accessibility11-e_md.md",
+        "InTuneDocs\\includes\\accessibility11-f_md.md",
+        "InTuneDocs\\includes\\accessibility12_md.md",
+        "InTuneDocs\\includes\\accessibility13_md.md",
+        "InTuneDocs\\includes\\accessibility14_md.md",
+        "InTuneDocs\\includes\\accessibility15_md.md",
+        "InTuneDocs\\includes\\accessibility16_md.md",
+        "InTuneDocs\\includes\\accessibility17_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\accessibility-products-and-services-from-microsoft.md"
       ],
@@ -185,7 +214,9 @@
       "SourceFilePath": "InTuneDocs\\activate-your-product-key-bryanla.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\activate-your-product-key-bryanla.md",
         "InTuneDocs\\activate-your-product-key.md"
@@ -520,7 +551,11 @@
       "SourceFilePath": "InTuneDocs\\cancel-my-subscription-for-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_icp_1_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\cancel-my-subscription-for-microsoft-intune.md"
       ],
@@ -671,7 +706,15 @@
       "SourceFilePath": "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\windowsvista_md.md",
+        "InTuneDocs\\includes\\nextref_client_7_md.md",
+        "InTuneDocs\\includes\\win8_client_2_md.md",
+        "InTuneDocs\\includes\\winblue_client_2_md.md",
+        "InTuneDocs\\includes\\cm5short_md.md",
+        "InTuneDocs\\includes\\sccmshortname_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md"
       ],
@@ -910,7 +953,9 @@
       "SourceFilePath": "InTuneDocs\\data-security-with-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\data-security-with-intune.md"
       ],
@@ -2763,7 +2808,9 @@
       "SourceFilePath": "InTuneDocs\\documentation-for-microsoft-intune-1-.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\documentation-for-microsoft-intune-1-.md"
       ],
@@ -3122,7 +3169,9 @@
       "SourceFilePath": "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
       ],
@@ -3432,7 +3481,9 @@
       "SourceFilePath": "InTuneDocs\\documentation-for-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\documentation-for-microsoft-intune.md"
       ],
@@ -3522,7 +3573,10 @@
       "SourceFilePath": "InTuneDocs\\enable-access-to-company-resources-with-microsoft-intune-deleted.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\enable-access-to-company-resources-with-microsoft-intune-deleted.md"
       ],
@@ -5056,7 +5110,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-30-day-trial-of-microsoft-intune-bryanla.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-30-day-trial-of-microsoft-intune-bryanla.md"
       ],
@@ -5940,7 +5996,10 @@
       "SourceFilePath": "InTuneDocs\\help-for-microsoft-intune-partners.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\help-for-microsoft-intune-partners.md"
       ],
@@ -6149,7 +6208,12 @@
       "SourceFilePath": "InTuneDocs\\how-to-find-the-right-help-for-intune-by-itself-or-with-configuration-manager.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\cm5long_md.md",
+        "InTuneDocs\\includes\\cmshort_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\how-to-find-the-right-help-for-intune-by-itself-or-with-configuration-manager.md"
       ],
@@ -6421,7 +6485,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility10_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility10_md.md",
@@ -6481,7 +6548,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility11-a_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility11-a_md.md",
@@ -6541,7 +6611,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility11-b_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility11-b_md.md",
@@ -6601,7 +6674,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility11-c_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility11-c_md.md",
@@ -6661,7 +6737,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility11-d_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility11-d_md.md",
@@ -6721,7 +6800,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility11-e_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility11-e_md.md",
@@ -6781,7 +6863,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility11-f_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility11-f_md.md",
@@ -6841,7 +6926,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility11_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility11_md.md",
@@ -6901,7 +6989,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility12_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility12_md.md",
@@ -6961,7 +7052,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility13_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility13_md.md",
@@ -7021,7 +7115,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility14_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility14_md.md",
@@ -7081,7 +7178,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility15_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility15_md.md",
@@ -7141,7 +7241,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility16_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility16_md.md",
@@ -7201,7 +7304,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility17_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility17_md.md",
@@ -7231,7 +7337,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility1_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility1_md.md",
@@ -7291,7 +7400,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility2_md.md",
@@ -7351,7 +7463,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility3_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility3_md.md",
@@ -7411,7 +7526,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility4_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility4_md.md",
@@ -7471,7 +7589,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility5_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility5_md.md",
@@ -7531,7 +7652,12 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility6_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "InTuneDocs\\accessibility-features-of-microsoft-intune.md",
+        "migrated-03-14\\Topic\\Accessibility-Features-of-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility6_md.md",
@@ -7591,7 +7717,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility7_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility7_md.md",
@@ -7651,7 +7780,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility8_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility8_md.md",
@@ -7711,7 +7843,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\accessibility9_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-products-and-services-from-microsoft.md",
+        "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\accessibility9_md.md",
@@ -7771,7 +7906,12 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\cm5long_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\how-to-find-the-right-help-for-intune-by-itself-or-with-configuration-manager.md",
+        "InTuneDocs\\set-your-mdm-management-authority.md",
+        "migrated-03-14\\Topic\\How-to-find-the-right-help-for-Intune-by-itself-or-with-Configuration-Manager.md",
+        "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\cm5long_md.md",
@@ -7831,7 +7971,18 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\cm5short_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
+        "InTuneDocs\\set-your-mdm-management-authority.md",
+        "InTuneDocs\\md-microsoft-intune-service-description.md",
+        "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md",
+        "InTuneDocs\\Understand\\integration-with-cloud-services.md",
+        "InTuneDocs\\old-computer-capabilities-in-intune.md",
+        "migrated-03-14\\Topic\\MD-Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md",
+        "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\cm5short_md.md",
@@ -7891,7 +8042,20 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\cmshort_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\how-to-find-the-right-help-for-intune-by-itself-or-with-configuration-manager.md",
+        "InTuneDocs\\real-world-solutions-to-help-you-manage-mobile-devices.md",
+        "InTuneDocs\\set-your-mdm-management-authority.md",
+        "InTuneDocs\\md-microsoft-intune-service-description.md",
+        "InTuneDocs\\Understand\\integration-with-cloud-services.md",
+        "migrated-03-14\\Topic\\How-to-find-the-right-help-for-Intune-by-itself-or-with-Configuration-Manager.md",
+        "migrated-03-14\\Topic\\How-to-get-support-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Troubleshoot-device-enrollment-in-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Real-world-solutions-to-help-you-manage-mobile-devices.md",
+        "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\cmshort_md.md",
@@ -8011,7 +8175,11 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\epshort_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-endpoint-protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\epshort_md.md",
@@ -8071,7 +8239,9 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\firstref_client_7_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\firstref_client_7_md.md",
@@ -8131,7 +8301,9 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\firstref_vista_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\firstref_vista_md.md",
@@ -8221,7 +8393,9 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\longhornshort_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\longhornshort_md.md",
@@ -8281,7 +8455,12 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\nextref_client_7_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
+        "InTuneDocs\\Understand\\network-bandwidth-use.md",
+        "InTuneDocs\\old-computer-capabilities-in-intune.md",
+        "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\nextref_client_7_md.md",
@@ -8341,7 +8520,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\nextref_server_7_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\nextref_server_7_md.md",
@@ -8461,7 +8643,11 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\sccmshortname_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
+        "InTuneDocs\\old-computer-capabilities-in-intune.md",
+        "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\sccmshortname_md.md",
@@ -8523,7 +8709,110 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\sco_dm_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\accessibility-for-people-with-disabilities.md",
+        "InTuneDocs\\activate-your-product-key-bryanla.md",
+        "InTuneDocs\\cancel-my-subscription-for-microsoft-intune.md",
+        "InTuneDocs\\accessibility-features-of-microsoft-intune.md",
+        "InTuneDocs\\activate-your-product-key.md",
+        "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md",
+        "InTuneDocs\\enable-access-to-company-resources-with-microsoft-intune-deleted.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\Intune-service-to-service-Exchange-connector.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-30-day-trial-of-microsoft-intune-bryanla.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md",
+        "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\run-state.md",
+        "InTuneDocs\\help-for-microsoft-intune-partners.md",
+        "InTuneDocs\\how-to-find-the-right-help-for-intune-by-itself-or-with-configuration-manager.md",
+        "InTuneDocs\\maintain-microsoft-intune.md",
+        "InTuneDocs\\real-world-solutions-to-help-you-manage-mobile-devices.md",
+        "InTuneDocs\\resources-to-help-you-solve-problems-during-setup-of-microsoft-intune.md",
+        "InTuneDocs\\microsoft-intune-policy-settings-reference.md",
+        "InTuneDocs\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md",
+        "InTuneDocs\\microsoft-intune.md",
+        "InTuneDocs\\set-your-mdm-management-authority.md",
+        "InTuneDocs\\microsoft-software-supplemental-notice.md",
+        "InTuneDocs\\md-mac-os-x-configuration-policy-settings-in-microsoft-intune.md",
+        "InTuneDocs\\md-maintain-microsoft-intune.md",
+        "InTuneDocs\\md-microsoft-intune-service-description.md",
+        "InTuneDocs\\md-using-your-ios-device-with-intune.md",
+        "InTuneDocs\\md-using-your-windows-device-with-intune.md",
+        "InTuneDocs\\GetStarted\\project-scope.md",
+        "InTuneDocs\\GetStarted\\proof-of-concept.md",
+        "InTuneDocs\\Understand\\domain-names-for-intune.md",
+        "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md",
+        "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md",
+        "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md",
+        "InTuneDocs\\mdusing-your-android-device-with-intune.md",
+        "InTuneDocs\\Understand\\integration-with-cloud-services.md",
+        "InTuneDocs\\Understand\\microsoft-intune-company-portal.md",
+        "InTuneDocs\\Understand\\network-bandwidth-use.md",
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md",
+        "InTuneDocs\\Understand\\supported-web-browsers.md",
+        "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md",
+        "InTuneDocs\\passcode-reset-and-remote-lock.md",
+        "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune-test.md",
+        "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Acceptable-Use-Policy-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Accessibility-Features-of-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Accessibility-for-People-with-Disabilities.md",
+        "migrated-03-14\\Topic\\Activate-Your-Product-Key.md",
+        "migrated-03-14\\Topic\\Best-practices-for-rolling-out-policies-and-apps-with-Intune.md",
+        "migrated-03-14\\Topic\\Cancel-my-subscription-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md",
+        "migrated-03-14\\Topic\\Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Get-notified-by-Microsoft-Intune-alerts.md",
+        "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Rolling-out-apps-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Rolling-out-Microsoft-Intune-policies.md",
+        "migrated-03-14\\Topic\\Run-state.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Get-notified-by-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-endpoint-protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\How-to-find-the-right-help-for-Intune-by-itself-or-with-Configuration-Manager.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Understand-Microsoft-Intune-operations-by-using-reports.md",
+        "migrated-03-14\\Topic\\How-to-get-support-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Terms-of-Delegated-Administration-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-client-setup-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-company-resource-access-problems-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-features.md",
+        "migrated-03-14\\Topic\\Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-reports.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Troubleshoot-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-policies-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-software-updates-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Understand-your-devices-with-inventory-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Using-a-Product-Key-to-Set-Up-a-Customer-Account.md",
+        "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Mobile-device-security-policy-settings-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Monitoring-and-reports-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Passcode-reset-and-remote-lock.md",
+        "migrated-03-14\\Topic\\Project-scope.md",
+        "migrated-03-14\\Topic\\Proof-of-concept.md",
+        "migrated-03-14\\Topic\\Real-world-solutions-to-help-you-manage-mobile-devices.md",
+        "migrated-03-14\\Topic\\Remote-Assistance-via-Microsoft-Easy-Assist.md",
+        "migrated-03-14\\Topic\\Resources-to-help-you-solve-problems-during-setup-of-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\sco_dm_2_md.md",
@@ -8585,7 +8874,12 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\win8_client_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
+        "InTuneDocs\\Understand\\network-bandwidth-use.md",
+        "InTuneDocs\\old-computer-capabilities-in-intune.md",
+        "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\win8_client_2_md.md",
@@ -8645,7 +8939,9 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\win8_server_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\win8_server_2_md.md",
@@ -8705,7 +9001,13 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\win8RT_client_1_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
+        "InTuneDocs\\passcode-reset-and-remote-lock.md",
+        "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Passcode-reset-and-remote-lock.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\win8RT_client_1_md.md",
@@ -8765,7 +9067,13 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\winblue_client_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
+        "InTuneDocs\\Understand\\network-bandwidth-use.md",
+        "InTuneDocs\\old-computer-capabilities-in-intune.md",
+        "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\winblue_client_2_md.md",
@@ -8825,7 +9133,10 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\winblue_server_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\winblue_server_2_md.md",
@@ -8885,7 +9196,13 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\winblue_winrt_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
+        "InTuneDocs\\passcode-reset-and-remote-lock.md",
+        "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Passcode-reset-and-remote-lock.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\winblue_winrt_2_md.md",
@@ -8945,7 +9262,11 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\windowsvista_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
+        "InTuneDocs\\old-computer-capabilities-in-intune.md",
+        "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\windowsvista_md.md",
@@ -9005,7 +9326,11 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\winphone8_client_1_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\set-up-windows-8.0-management-with-microsoft-intune.md",
+        "migrated-03-14\\Topic\\Set-up-Windows-Phone-management-with-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\winphone8_client_1_md.md",
@@ -9065,7 +9390,32 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\wit_adminconsole_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector-a.md",
+        "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md",
+        "InTuneDocs\\GetStarted\\Intune-service-to-service-Exchange-connector.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md",
+        "InTuneDocs\\maintain-microsoft-intune.md",
+        "InTuneDocs\\md-maintain-microsoft-intune.md",
+        "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md",
+        "InTuneDocs\\Understand\\integration-with-cloud-services.md",
+        "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-endpoint-protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Understand-Microsoft-Intune-operations-by-using-reports.md",
+        "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-client-setup-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-reports.md",
+        "migrated-03-14\\Topic\\Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\wit_adminconsole_md.md",
@@ -9125,7 +9475,12 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\wit_exch_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector-a.md",
+        "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md",
+        "InTuneDocs\\GetStarted\\Intune-service-to-service-Exchange-connector.md",
+        "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\wit_exch_2_md.md",
@@ -9185,7 +9540,19 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\wit_icp_1_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\cancel-my-subscription-for-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md",
+        "InTuneDocs\\resources-to-help-you-solve-problems-during-setup-of-microsoft-intune.md",
+        "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md",
+        "InTuneDocs\\Understand\\integration-with-cloud-services.md",
+        "migrated-03-14\\Topic\\Cancel-my-subscription-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-features.md",
+        "migrated-03-14\\Topic\\Resources-to-help-you-solve-problems-during-setup-of-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\wit_icp_1_md.md",
@@ -9245,7 +9612,15 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\wit_icp_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md",
+        "InTuneDocs\\maintain-microsoft-intune.md",
+        "InTuneDocs\\md-maintain-microsoft-intune.md",
+        "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md",
+        "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-features.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\wit_icp_2_md.md",
@@ -9305,7 +9680,17 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\wit_iwportal_1_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md",
+        "InTuneDocs\\maintain-microsoft-intune.md",
+        "InTuneDocs\\md-maintain-microsoft-intune.md",
+        "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\wit_iwportal_1_md.md",
@@ -9425,7 +9810,144 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\wit_nextref_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\cancel-my-subscription-for-microsoft-intune.md",
+        "InTuneDocs\\data-security-with-intune.md",
+        "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md",
+        "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md",
+        "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md",
+        "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md",
+        "InTuneDocs\\documentation-for-microsoft-intune-1-.md",
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\documentation-for-microsoft-intune.md",
+        "InTuneDocs\\enable-access-to-company-resources-with-microsoft-intune-deleted.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\Intune-Exchange-connector-requirements.md",
+        "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector-a.md",
+        "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md",
+        "InTuneDocs\\GetStarted\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md",
+        "InTuneDocs\\GetStarted\\pilot.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md",
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md",
+        "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\run-state.md",
+        "InTuneDocs\\GetStarted\\set-up-android-management-with-microsoft-intune.md",
+        "InTuneDocs\\help-for-microsoft-intune-partners.md",
+        "InTuneDocs\\how-to-find-the-right-help-for-intune-by-itself-or-with-configuration-manager.md",
+        "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\set-up-windows-8.0-management-with-microsoft-intune.md",
+        "InTuneDocs\\GetStarted\\set-up-windows-device-management-with-microsoft-intune.md",
+        "InTuneDocs\\introduction-to-microsoft-intune-test-.md",
+        "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md",
+        "InTuneDocs\\ip-ranges-version-2.md",
+        "InTuneDocs\\lifecycle-section-from-overview.md",
+        "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md",
+        "InTuneDocs\\maintain-microsoft-intune.md",
+        "InTuneDocs\\protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md",
+        "InTuneDocs\\resources-to-help-you-solve-problems-during-setup-of-microsoft-intune.md",
+        "InTuneDocs\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md",
+        "InTuneDocs\\microsoft-intune.md",
+        "InTuneDocs\\set-your-mdm-management-authority.md",
+        "InTuneDocs\\move-from-a-microsoft-intune-free-trial-to-a-paid-subscription.md",
+        "InTuneDocs\\md-mac-os-x-configuration-policy-settings-in-microsoft-intune.md",
+        "InTuneDocs\\temp-intune-ip-ranges.md",
+        "InTuneDocs\\md-maintain-microsoft-intune.md",
+        "InTuneDocs\\terms-and-condition-policy-settings-in-microsoft-intune.md",
+        "InTuneDocs\\md-microsoft-intune-service-description.md",
+        "InTuneDocs\\md-using-your-windows-device-with-intune.md",
+        "InTuneDocs\\GetStarted\\project-scope.md",
+        "InTuneDocs\\GetStarted\\proof-of-concept.md",
+        "InTuneDocs\\Understand\\domain-names-for-intune.md",
+        "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md",
+        "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md",
+        "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md",
+        "InTuneDocs\\Understand\\choose-how-to-manage-devices.md",
+        "InTuneDocs\\Understand\\integration-with-cloud-services.md",
+        "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
+        "InTuneDocs\\Understand\\microsoft-intune-company-portal.md",
+        "InTuneDocs\\Understand\\network-bandwidth-use.md",
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-test-bryanla.md",
+        "InTuneDocs\\old-computer-capabilities-in-intune.md",
+        "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune-test.md",
+        "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
+        "migrated-03-14\\Topic\\Acceptable-Use-Policy-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Best-practices-for-rolling-out-policies-and-apps-with-Intune.md",
+        "migrated-03-14\\Topic\\Cancel-my-subscription-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Configure-and-manage-devices-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md",
+        "migrated-03-14\\Topic\\Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Enterprise-rollout.md",
+        "migrated-03-14\\Topic\\Frequently-asked-questions-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Get-notified-by-Microsoft-Intune-alerts.md",
+        "migrated-03-14\\Topic\\Get-ready-to-enroll-devices-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Lifecycle-section-from-Overview.md",
+        "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Rolling-out-apps-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Rolling-out-Microsoft-Intune-policies.md",
+        "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Run-state.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Set-mobile-device-management-authority-and-configure-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Set-up-Android-management-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Get-notified-by-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Manage-device-compliance-policies-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-endpoint-protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\How-Microsoft-Intune-helps-you-comply-with-security-and-privacy-requirements.md",
+        "migrated-03-14\\Topic\\How-to-find-the-right-help-for-Intune-by-itself-or-with-Configuration-Manager.md",
+        "migrated-03-14\\Topic\\MD-Conversion---Understand-Microsoft-Intune-operations-by-using-reports.md",
+        "migrated-03-14\\Topic\\How-to-get-support-for-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune--test-.md",
+        "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\MD-Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Terms-and-condition-policy-settings-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-client-setup-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Troubleshoot-device-enrollment-in-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-features.md",
+        "migrated-03-14\\Topic\\Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-reports.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune-Service-Description.md",
+        "migrated-03-14\\Topic\\Troubleshoot-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Understand-your-devices-with-inventory-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Mobile-device-security-policy-settings-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Monitoring-and-reports-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md",
+        "migrated-03-14\\Topic\\Pilot.md",
+        "migrated-03-14\\Topic\\Project-scope.md",
+        "migrated-03-14\\Topic\\Proof-of-concept.md",
+        "migrated-03-14\\Topic\\Protect-company-data-on-personal-Windows-10-devices-with-Enterprise-Data-Protection-in-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Protect-data-and-devices-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Protect-Windows-devices-with-multi-factor-authentication.md",
+        "migrated-03-14\\Topic\\Resources-to-help-you-solve-problems-during-setup-of-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Set-up-Windows-device-management-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Set-up-Windows-Phone-management-with-Microsoft-Intune.md",
+        "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\wit_nextref_md.md",
@@ -9575,7 +10097,9 @@
       "SourceFileCommit": "84f8a4780cd34c8712af32689d10e46b7ad12ebf",
       "SourceFilePath": "InTuneDocs\\includes\\wps_2_md.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\includes\\wps_2_md.md",
@@ -9636,7 +10160,9 @@
       "SourceFilePath": "InTuneDocs\\introduction-to-microsoft-intune-test-.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\introduction-to-microsoft-intune-test-.md"
       ],
@@ -10109,7 +10635,9 @@
       "SourceFilePath": "InTuneDocs\\ip-ranges-version-2.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\ip-ranges-version-2.md"
       ],
@@ -10324,7 +10852,9 @@
       "SourceFilePath": "InTuneDocs\\lifecycle-section-from-overview.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\lifecycle-section-from-overview.md"
       ],
@@ -10816,7 +11346,13 @@
       "SourceFilePath": "InTuneDocs\\maintain-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_iwportal_1_md.md",
+        "InTuneDocs\\includes\\wit_icp_2_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\maintain-microsoft-intune.md"
       ],
@@ -11134,7 +11670,10 @@
       "SourceFilePath": "InTuneDocs\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md"
       ],
@@ -11163,7 +11702,10 @@
       "SourceFilePath": "InTuneDocs\\md-mac-os-x-configuration-policy-settings-in-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\md-mac-os-x-configuration-policy-settings-in-microsoft-intune.md"
       ],
@@ -11192,7 +11734,13 @@
       "SourceFilePath": "InTuneDocs\\md-maintain-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_iwportal_1_md.md",
+        "InTuneDocs\\includes\\wit_icp_2_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\md-maintain-microsoft-intune.md"
       ],
@@ -11221,7 +11769,12 @@
       "SourceFilePath": "InTuneDocs\\md-microsoft-intune-service-description.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\cm5short_md.md",
+        "InTuneDocs\\includes\\cmshort_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\md-microsoft-intune-service-description.md"
       ],
@@ -11280,7 +11833,9 @@
       "SourceFilePath": "InTuneDocs\\md-using-your-ios-device-with-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\md-using-your-ios-device-with-intune.md"
       ],
@@ -11746,7 +12301,10 @@
       "SourceFilePath": "InTuneDocs\\md-using-your-windows-device-with-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md"
       ],
@@ -12298,7 +12856,9 @@
       "SourceFilePath": "InTuneDocs\\mdusing-your-android-device-with-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md"
       ],
@@ -13297,7 +13857,9 @@
       "SourceFilePath": "InTuneDocs\\microsoft-intune-policy-settings-reference.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\microsoft-intune-policy-settings-reference.md"
       ],
@@ -13385,7 +13947,10 @@
       "SourceFilePath": "InTuneDocs\\microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\microsoft-intune.md"
       ],
@@ -13414,7 +13979,9 @@
       "SourceFilePath": "InTuneDocs\\microsoft-software-supplemental-notice.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\microsoft-software-supplemental-notice.md"
       ],
@@ -13594,7 +14161,9 @@
       "SourceFilePath": "InTuneDocs\\move-from-a-microsoft-intune-free-trial-to-a-paid-subscription.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\move-from-a-microsoft-intune-free-trial-to-a-paid-subscription.md"
       ],
@@ -13682,7 +14251,15 @@
       "SourceFilePath": "InTuneDocs\\old-computer-capabilities-in-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\windowsvista_md.md",
+        "InTuneDocs\\includes\\nextref_client_7_md.md",
+        "InTuneDocs\\includes\\win8_client_2_md.md",
+        "InTuneDocs\\includes\\winblue_client_2_md.md",
+        "InTuneDocs\\includes\\cm5short_md.md",
+        "InTuneDocs\\includes\\sccmshortname_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\old-computer-capabilities-in-intune.md"
       ],
@@ -13773,7 +14350,11 @@
       "SourceFilePath": "InTuneDocs\\passcode-reset-and-remote-lock.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\winblue_winrt_2_md.md",
+        "InTuneDocs\\includes\\win8RT_client_1_md.md",
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\passcode-reset-and-remote-lock.md"
       ],
@@ -14306,7 +14887,9 @@
       "SourceFilePath": "InTuneDocs\\protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md"
       ],
@@ -14366,7 +14949,10 @@
       "SourceFilePath": "InTuneDocs\\real-world-solutions-to-help-you-manage-mobile-devices.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\cmshort_md.md",
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\real-world-solutions-to-help-you-manage-mobile-devices.md"
       ],
@@ -14579,7 +15165,11 @@
       "SourceFilePath": "InTuneDocs\\resources-to-help-you-solve-problems-during-setup-of-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_icp_1_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\resources-to-help-you-solve-problems-during-setup-of-microsoft-intune.md"
       ],
@@ -15608,7 +16198,13 @@
       "SourceFilePath": "InTuneDocs\\set-your-mdm-management-authority.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\cmshort_md.md",
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\cm5short_md.md",
+        "InTuneDocs\\includes\\cm5long_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\set-your-mdm-management-authority.md"
       ],
@@ -16049,7 +16645,9 @@
       "SourceFilePath": "InTuneDocs\\temp-intune-ip-ranges.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\temp-intune-ip-ranges.md"
       ],
@@ -16109,7 +16707,9 @@
       "SourceFilePath": "InTuneDocs\\terms-and-condition-policy-settings-in-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\terms-and-condition-policy-settings-in-microsoft-intune.md"
       ],
@@ -17600,7 +18200,9 @@
       "SourceFilePath": "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md"
       ],
@@ -17671,7 +18273,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-23T01:58:24.5278936Z",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17679,10 +18281,10 @@
         "internal_error_retriable": false,
         "exception_message": "Could not find file 'C:\\ol\\master\\InTuneDocs\\InTuneDocs\\media\\Enroll-Android-logo.JPG'.",
         "exception_type": "System.IO.FileNotFoundException",
-        "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
+        "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 408",
         "extended_information": null
       },
-      "HandoffFailureTimes": 64,
+      "HandoffFailureTimes": 65,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17712,7 +18314,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-23T01:58:24.5278936Z",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17720,10 +18322,10 @@
         "internal_error_retriable": false,
         "exception_message": "Could not find file 'C:\\ol\\master\\InTuneDocs\\InTuneDocs\\media\\Enroll-Apple-logo.JPG'.",
         "exception_type": "System.IO.FileNotFoundException",
-        "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
+        "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 408",
         "extended_information": null
       },
-      "HandoffFailureTimes": 64,
+      "HandoffFailureTimes": 65,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -17753,7 +18355,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-03-23T01:58:24.5278936Z",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -17761,10 +18363,10 @@
         "internal_error_retriable": false,
         "exception_message": "Could not find file 'C:\\ol\\master\\InTuneDocs\\InTuneDocs\\media\\Enroll-windows-logo.JPG'.",
         "exception_type": "System.IO.FileNotFoundException",
-        "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 399",
+        "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in D:\\DevEnlistments\\Source\\OpenLocalization\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 408",
         "extended_information": null
       },
-      "HandoffFailureTimes": 64,
+      "HandoffFailureTimes": 65,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18642,7 +19244,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\Intune-Exchange-connector-requirements.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\Intune-Exchange-connector-requirements.md"
       ],
@@ -18671,7 +19275,11 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md",
+        "InTuneDocs\\includes\\wit_exch_2_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md",
         "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector-a.md"
@@ -18765,7 +19373,11 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\Intune-service-to-service-Exchange-connector.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md",
+        "InTuneDocs\\includes\\wit_exch_2_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\Intune-service-to-service-Exchange-connector.md"
       ],
@@ -18825,7 +19437,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md"
       ],
@@ -19611,7 +20225,9 @@
       "SourceFilePath": "InTuneDocs\\Understand\\choose-how-to-manage-devices.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
       ],
@@ -19902,7 +20518,10 @@
       "SourceFilePath": "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md"
       ],
@@ -19931,7 +20550,11 @@
       "SourceFilePath": "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\cm5short_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
       ],
@@ -20163,7 +20786,11 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_icp_1_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md"
       ],
@@ -20366,7 +20993,14 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\winphone8_client_1_md.md",
+        "InTuneDocs\\includes\\winblue_winrt_2_md.md",
+        "InTuneDocs\\includes\\win8RT_client_1_md.md",
+        "InTuneDocs\\includes\\winblue_client_2_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-test.md",
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -20454,7 +21088,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\set-up-android-management-with-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\set-up-android-management-with-microsoft-intune.md"
       ],
@@ -20541,7 +21177,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\set-up-windows-device-management-with-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\set-up-windows-device-management-with-microsoft-intune.md"
       ],
@@ -21318,8 +21956,8 @@
         "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf",
-      "HandoffFileCommit": "da42c2aeba7bdd068885a18bebd4581a4144e4db",
-      "HandoffDateTime": "2016-03-23T01:58:24.5278936Z",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -21583,7 +22221,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\pilot.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\pilot.md"
       ],
@@ -21612,7 +22252,10 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\project-scope.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\project-scope.md"
       ],
@@ -21641,7 +22284,10 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\proof-of-concept.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\proof-of-concept.md"
       ],
@@ -21699,7 +22345,10 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\run-state.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\run-state.md"
       ],
@@ -22575,7 +23224,10 @@
       "SourceFilePath": "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune-test.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune-test.md"
       ],
@@ -22984,7 +23636,9 @@
       "SourceFilePath": "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test-bryanla.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups-test-bryanla.md",
         "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-test-bryanla.md"
@@ -23173,7 +23827,9 @@
       "SourceFilePath": "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md"
       ],
@@ -23321,7 +23977,9 @@
       "SourceFilePath": "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
       ],
@@ -29297,7 +29955,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Acceptable-Use-Policy-for-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Acceptable-Use-Policy-for-Microsoft-Intune.md"
       ],
@@ -29326,7 +29987,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Accessibility-Features-of-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\accessibility6_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Accessibility-Features-of-Microsoft-Intune.md"
       ],
@@ -29355,7 +30019,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Accessibility-for-People-with-Disabilities.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Accessibility-for-People-with-Disabilities.md"
       ],
@@ -29384,7 +30050,31 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\accessibility1_md.md",
+        "migrated-03-14\\Token\\accessibility2_md.md",
+        "migrated-03-14\\Token\\accessibility3_md.md",
+        "migrated-03-14\\Token\\accessibility4_md.md",
+        "migrated-03-14\\Token\\accessibility5_md.md",
+        "migrated-03-14\\Token\\accessibility6_md.md",
+        "migrated-03-14\\Token\\accessibility7_md.md",
+        "migrated-03-14\\Token\\accessibility8_md.md",
+        "migrated-03-14\\Token\\accessibility9_md.md",
+        "migrated-03-14\\Token\\accessibility10_md.md",
+        "migrated-03-14\\Token\\accessibility11_md.md",
+        "migrated-03-14\\Token\\accessibility11-a_md.md",
+        "migrated-03-14\\Token\\accessibility11-b_md.md",
+        "migrated-03-14\\Token\\accessibility11-c_md.md",
+        "migrated-03-14\\Token\\accessibility11-d_md.md",
+        "migrated-03-14\\Token\\accessibility11-e_md.md",
+        "migrated-03-14\\Token\\accessibility11-f_md.md",
+        "migrated-03-14\\Token\\accessibility12_md.md",
+        "migrated-03-14\\Token\\accessibility13_md.md",
+        "migrated-03-14\\Token\\accessibility14_md.md",
+        "migrated-03-14\\Token\\accessibility15_md.md",
+        "migrated-03-14\\Token\\accessibility16_md.md",
+        "migrated-03-14\\Token\\accessibility17_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Accessibility-Products-and-Services-from-Microsoft.md"
       ],
@@ -29413,7 +30103,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Activate-Your-Product-Key.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Activate-Your-Product-Key.md"
       ],
@@ -29530,7 +30222,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Best-practices-for-rolling-out-policies-and-apps-with-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Best-practices-for-rolling-out-policies-and-apps-with-Intune.md"
       ],
@@ -29559,7 +30254,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Cancel-my-subscription-for-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_icp_1_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Cancel-my-subscription-for-Microsoft-Intune.md"
       ],
@@ -29768,7 +30467,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md"
       ],
@@ -29828,7 +30530,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Configure-and-manage-devices-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Configure-and-manage-devices-with-Microsoft-Intune.md"
       ],
@@ -30276,7 +30980,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Documentation-for-Microsoft-Intune.md"
       ],
@@ -30424,7 +31130,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune.md"
       ],
@@ -30453,7 +31162,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md"
       ],
@@ -30659,7 +31371,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Enterprise-rollout.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Enterprise-rollout.md"
       ],
@@ -30718,7 +31432,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Frequently-asked-questions-for-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Frequently-asked-questions-for-Microsoft-Intune.md"
       ],
@@ -30747,7 +31463,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Get-notified-by-Microsoft-Intune-alerts.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Get-notified-by-Microsoft-Intune-alerts.md"
       ],
@@ -30776,7 +31495,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Get-ready-to-enroll-devices-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Get-ready-to-enroll-devices-in-Microsoft-Intune.md"
       ],
@@ -31073,7 +31794,14 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_iwportal_1_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\winblue_winrt_2_md.md",
+        "migrated-03-14\\Token\\win8RT_client_1_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md"
       ],
@@ -31132,7 +31860,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md"
       ],
@@ -31161,7 +31892,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md"
       ],
@@ -31250,7 +31983,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\How-Microsoft-Intune-helps-you-comply-with-security-and-privacy-requirements.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\How-Microsoft-Intune-helps-you-comply-with-security-and-privacy-requirements.md"
       ],
@@ -31369,7 +32104,12 @@
       "SourceFilePath": "migrated-03-14\\Topic\\How-to-find-the-right-help-for-Intune-by-itself-or-with-Configuration-Manager.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\cm5long_md.md",
+        "migrated-03-14\\Token\\cmshort_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\How-to-find-the-right-help-for-Intune-by-itself-or-with-Configuration-Manager.md"
       ],
@@ -31398,7 +32138,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\How-to-get-support-for-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\cmshort_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\How-to-get-support-for-Microsoft-Intune.md"
       ],
@@ -31634,7 +32378,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune.md"
       ],
@@ -31663,7 +32409,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune--test-.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune--test-.md"
       ],
@@ -31782,7 +32530,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md"
       ],
@@ -31841,7 +32593,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Lifecycle-section-from-Overview.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Lifecycle-section-from-Overview.md"
       ],
@@ -31959,7 +32713,13 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_iwportal_1_md.md",
+        "migrated-03-14\\Token\\wit_icp_2_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md"
       ],
@@ -32048,7 +32808,13 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\firstref_client_7_md.md",
+        "migrated-03-14\\Token\\firstref_vista_md.md",
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md"
       ],
@@ -32257,7 +33023,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\sco_dm_2_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md"
       ],
@@ -32497,7 +33267,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md"
       ],
@@ -32676,7 +33449,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\nextref_server_7_md.md",
+        "migrated-03-14\\Token\\winblue_server_2_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft.md"
       ],
@@ -32705,7 +33482,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Get-notified-by-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Get-notified-by-Microsoft-Intune.md"
       ],
@@ -32824,7 +33604,14 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_iwportal_1_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\winblue_winrt_2_md.md",
+        "migrated-03-14\\Token\\win8RT_client_1_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md"
       ],
@@ -32883,7 +33670,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft.md"
       ],
@@ -33001,7 +33791,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Manage-device-compliance-policies-for-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Manage-device-compliance-policies-for-Microsoft-Intune.md"
       ],
@@ -33030,7 +33822,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md"
       ],
@@ -33268,7 +34063,13 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_iwportal_1_md.md",
+        "migrated-03-14\\Token\\wit_icp_1_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md"
       ],
@@ -33297,7 +34098,12 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-endpoint-protection-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\epshort_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Troubleshoot-endpoint-protection-in-Microsoft-Intune.md"
       ],
@@ -33326,7 +34132,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Conversion---Understand-Microsoft-Intune-operations-by-using-reports.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Conversion---Understand-Microsoft-Intune-operations-by-using-reports.md"
       ],
@@ -33715,7 +34525,13 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_iwportal_1_md.md",
+        "migrated-03-14\\Token\\wit_icp_2_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md"
       ],
@@ -33744,7 +34560,12 @@
       "SourceFilePath": "migrated-03-14\\Topic\\MD-Microsoft-Intune-Service-Description.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\cm5short_md.md",
+        "migrated-03-14\\Token\\cmshort_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\MD-Microsoft-Intune-Service-Description.md"
       ],
@@ -33952,7 +34773,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Microsoft-Intune.md"
       ],
@@ -34097,7 +34921,12 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Microsoft-Intune-features.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_icp_2_md.md",
+        "migrated-03-14\\Token\\wit_icp_1_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Microsoft-Intune-features.md"
       ],
@@ -34216,7 +35045,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Microsoft-Intune-reports.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Microsoft-Intune-reports.md"
       ],
@@ -34245,7 +35078,12 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Microsoft-Intune-Service-Description.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\cm5short_md.md",
+        "migrated-03-14\\Token\\cmshort_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Microsoft-Intune-Service-Description.md"
       ],
@@ -34334,7 +35172,12 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_exch_2_md.md",
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md"
       ],
@@ -34363,7 +35206,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Mobile-device-security-policy-settings-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Mobile-device-security-policy-settings-in-Microsoft-Intune.md"
       ],
@@ -34392,7 +35238,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Monitoring-and-reports-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Monitoring-and-reports-with-Microsoft-Intune.md"
       ],
@@ -34541,7 +35390,15 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\windowsvista_md.md",
+        "migrated-03-14\\Token\\nextref_client_7_md.md",
+        "migrated-03-14\\Token\\win8_client_2_md.md",
+        "migrated-03-14\\Token\\winblue_client_2_md.md",
+        "migrated-03-14\\Token\\cm5short_md.md",
+        "migrated-03-14\\Token\\sccmshortname_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Old---Computer-capabilities-in-Intune.md"
       ],
@@ -34570,7 +35427,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Passcode-reset-and-remote-lock.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\winblue_winrt_2_md.md",
+        "migrated-03-14\\Token\\win8RT_client_1_md.md",
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Passcode-reset-and-remote-lock.md"
       ],
@@ -34599,7 +35460,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Pilot.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Pilot.md"
       ],
@@ -34806,7 +35669,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Project-scope.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Project-scope.md"
       ],
@@ -34835,7 +35701,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Proof-of-concept.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Proof-of-concept.md"
       ],
@@ -34864,7 +35733,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Protect-company-data-on-personal-Windows-10-devices-with-Enterprise-Data-Protection-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Protect-company-data-on-personal-Windows-10-devices-with-Enterprise-Data-Protection-in-Microsoft-Intune.md"
       ],
@@ -34893,7 +35764,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Protect-data-and-devices-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Protect-data-and-devices-with-Microsoft-Intune.md"
       ],
@@ -34922,7 +35795,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Protect-Windows-devices-with-multi-factor-authentication.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Protect-Windows-devices-with-multi-factor-authentication.md"
       ],
@@ -34951,7 +35826,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Real-world-solutions-to-help-you-manage-mobile-devices.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\cmshort_md.md",
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Real-world-solutions-to-help-you-manage-mobile-devices.md"
       ],
@@ -35040,7 +35918,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Remote-Assistance-via-Microsoft-Easy-Assist.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Remote-Assistance-via-Microsoft-Easy-Assist.md"
       ],
@@ -35099,7 +35979,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Resources-to-help-you-solve-problems-during-setup-of-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_icp_1_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Resources-to-help-you-solve-problems-during-setup-of-Microsoft-Intune.md"
       ],
@@ -35426,7 +36310,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Rolling-out-apps-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Rolling-out-apps-with-Microsoft-Intune.md"
       ],
@@ -35455,7 +36342,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Rolling-out-Microsoft-Intune-policies.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Rolling-out-Microsoft-Intune-policies.md"
       ],
@@ -35513,7 +36403,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Run-state.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Run-state.md"
       ],
@@ -35542,7 +36435,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Set-mobile-device-management-authority-and-configure-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Set-mobile-device-management-authority-and-configure-Microsoft-Intune.md"
       ],
@@ -35571,7 +36466,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Set-up-Android-management-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Set-up-Android-management-with-Microsoft-Intune.md"
       ],
@@ -35629,7 +36526,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md"
       ],
@@ -35658,7 +36557,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Set-up-Windows-device-management-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Set-up-Windows-device-management-with-Microsoft-Intune.md"
       ],
@@ -35687,7 +36588,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Set-up-Windows-Phone-management-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\winphone8_client_1_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Set-up-Windows-Phone-management-with-Microsoft-Intune.md"
       ],
@@ -35716,7 +36620,13 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\cmshort_md.md",
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\cm5short_md.md",
+        "migrated-03-14\\Token\\cm5long_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md"
       ],
@@ -35923,7 +36833,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Terms-and-condition-policy-settings-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Terms-and-condition-policy-settings-in-Microsoft-Intune.md"
       ],
@@ -35952,7 +36864,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Terms-of-Delegated-Administration-for-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Terms-of-Delegated-Administration-for-Microsoft-Intune.md"
       ],
@@ -36069,7 +36983,13 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_iwportal_1_md.md",
+        "migrated-03-14\\Token\\wit_icp_1_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md"
       ],
@@ -36098,7 +37018,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-client-setup-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-client-setup-in-Microsoft-Intune.md"
       ],
@@ -36127,7 +37051,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-company-resource-access-problems-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-company-resource-access-problems-with-Microsoft-Intune.md"
       ],
@@ -36156,7 +37082,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-device-enrollment-in-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_nextref_md.md",
+        "migrated-03-14\\Token\\cmshort_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-device-enrollment-in-Intune.md"
       ],
@@ -36185,7 +37114,12 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\epshort_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md"
       ],
@@ -36214,7 +37148,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-Microsoft-Intune.md"
       ],
@@ -36243,7 +37180,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-policies-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-policies-in-Microsoft-Intune.md"
       ],
@@ -36272,7 +37211,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Troubleshoot-software-updates-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Troubleshoot-software-updates-in-Microsoft-Intune.md"
       ],
@@ -36301,7 +37242,10 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Understand-your-devices-with-inventory-in-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Understand-your-devices-with-inventory-in-Microsoft-Intune.md"
       ],
@@ -36449,7 +37393,11 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md",
+        "migrated-03-14\\Token\\wit_adminconsole_md.md",
+        "migrated-03-14\\Token\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md"
       ],
@@ -36595,7 +37543,9 @@
       "SourceFilePath": "migrated-03-14\\Topic\\Using-a-Product-Key-to-Set-Up-a-Customer-Account.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "migrated-03-14\\Token\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "migrated-03-14\\Topic\\Using-a-Product-Key-to-Set-Up-a-Customer-Account.md"
       ],
@@ -39635,7 +40585,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md"
       ],
@@ -39693,7 +40645,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md"
       ],
@@ -39722,7 +40676,10 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\set-up-windows-8.0-management-with-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\winphone8_client_1_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\set-up-windows-8.0-management-with-microsoft-intune.md"
       ],
@@ -39751,7 +40708,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md"
       ],
@@ -40064,7 +41023,10 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_icp_1_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
       ],
@@ -40093,7 +41055,10 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md"
       ],
@@ -40122,7 +41087,11 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_icp_2_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
       ],
@@ -40151,7 +41120,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
       ],
@@ -40180,7 +41151,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
       ],
@@ -40209,7 +41182,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_iwportal_1_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
       ],
@@ -40238,7 +41213,10 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md"
       ],
@@ -40267,7 +41245,9 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
       ],
@@ -40383,14 +41363,16 @@
       "SourceFilePath": "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
         "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf",
-      "HandoffFileCommit": "6e14630c803bffb415010307c70d78af0e3246be",
-      "HandoffDateTime": "2016-03-23T00:58:42.6647145Z",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -40647,7 +41629,11 @@
       "SourceFilePath": "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_adminconsole_md.md",
+        "InTuneDocs\\includes\\epshort_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
       ],
@@ -40707,7 +41693,9 @@
       "SourceFilePath": "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
       ],
@@ -40794,7 +41782,9 @@
       "SourceFilePath": "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
       ],
@@ -40823,7 +41813,9 @@
       "SourceFilePath": "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
       ],
@@ -42574,8 +43566,8 @@
         "InTuneDocs\\DeployUse\\TOC-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf",
-      "HandoffFileCommit": "6e14630c803bffb415010307c70d78af0e3246be",
-      "HandoffDateTime": "2016-03-23T00:58:42.6647145Z",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -43198,7 +44190,9 @@
       "SourceFilePath": "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
       ],
@@ -43227,7 +44221,13 @@
       "SourceFilePath": "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_icp_1_md.md",
+        "InTuneDocs\\includes\\wit_icp_2_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\administrative-accounts-websites-perms.md"
       ],
@@ -43256,7 +44256,10 @@
       "SourceFilePath": "InTuneDocs\\Understand\\domain-names-for-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\domain-names-for-intune.md"
       ],
@@ -43285,7 +44288,14 @@
       "SourceFilePath": "InTuneDocs\\Understand\\integration-with-cloud-services.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\cmshort_md.md",
+        "InTuneDocs\\includes\\wit_icp_1_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md",
+        "InTuneDocs\\includes\\cm5short_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\integration-with-cloud-services.md"
       ],
@@ -43314,7 +44324,10 @@
       "SourceFilePath": "InTuneDocs\\Understand\\microsoft-intune-company-portal.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\microsoft-intune-company-portal.md"
       ],
@@ -43343,7 +44356,13 @@
       "SourceFilePath": "InTuneDocs\\Understand\\network-bandwidth-use.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\nextref_client_7_md.md",
+        "InTuneDocs\\includes\\win8_client_2_md.md",
+        "InTuneDocs\\includes\\winblue_client_2_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\network-bandwidth-use.md"
       ],
@@ -43372,7 +44391,15 @@
       "SourceFilePath": "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\longhornshort_md.md",
+        "InTuneDocs\\includes\\nextref_server_7_md.md",
+        "InTuneDocs\\includes\\win8_server_2_md.md",
+        "InTuneDocs\\includes\\winblue_server_2_md.md",
+        "InTuneDocs\\includes\\wps_2_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\network-infrastructure-requirements-for-microsoft-intune.md"
       ],
@@ -43401,7 +44428,9 @@
       "SourceFilePath": "InTuneDocs\\Understand\\supported-web-browsers.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\supported-web-browsers.md"
       ],
@@ -43430,7 +44459,10 @@
       "SourceFilePath": "InTuneDocs\\Understand\\what-to-know-before-you-start-microsoft-intune.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
-      "TokenReference": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_firstref_md.md",
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
       "FilePathList": [
         "InTuneDocs\\Understand\\what-to-know-before-you-start-microsoft-intune.md",
         "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
@@ -43525,6 +44557,211 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-email-access-with-microsoft-intune.9b6ff2cc495c2f2e4a462f956cff77dddb7d9f80.ru-ru.xlf",
       "HandoffFileCommit": "da42c2aeba7bdd068885a18bebd4581a4144e4db",
       "HandoffDateTime": "2016-03-23T01:58:24.5278936Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "d564be752a458715f4f3fa304890b2717321a945": {
+      "FileHash": "d564be752a458715f4f3fa304890b2717321a945",
+      "SourceFileCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
+      "SourceFilePath": "InTuneDocs\\media\\mdmapplifecycle_v5.gif",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\mdmapplifecycle_v5.gif"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d564be752a458715f4f3fa304890b2717321a945.gif",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "766a5eff5b193b2cec99a1e77877910140e1c5cf": {
+      "FileHash": "766a5eff5b193b2cec99a1e77877910140e1c5cf",
+      "SourceFileCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\migrating-to-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\migrating-to-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\migrating-to-intune.9881eb8504314604f05a6d45b0f76178907b2d58.ru-ru.xlf",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "c153da26c6db15585f5025b3b04e4b4365970740": {
+      "FileHash": "c153da26c6db15585f5025b3b04e4b4365970740",
+      "SourceFileCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\migrating-to-intune-step-four.8e115c09bd0fef32557c8cdb8ba1abc279ff0bf7.ru-ru.xlf",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "4814cbc9923cc59c7692499f49cc04904128462a": {
+      "FileHash": "4814cbc9923cc59c7692499f49cc04904128462a",
+      "SourceFileCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\migrating-to-intune-step-one.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\migrating-to-intune-step-one.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\migrating-to-intune-step-one.7554f842454940baf8a845e4256a92887828cd22.ru-ru.xlf",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "6071edba4f3b4016f2c92390c6d53bb8ee5602ce": {
+      "FileHash": "6071edba4f3b4016f2c92390c6d53bb8ee5602ce",
+      "SourceFileCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\migrating-to-intune-step-three.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\migrating-to-intune-step-three.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\migrating-to-intune-step-three.811cc42e53b5a57a8c0fe5df99aa0e33eb24991e.ru-ru.xlf",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "125d52654ca11554362b64a370d5b78884037db0": {
+      "FileHash": "125d52654ca11554362b64a370d5b78884037db0",
+      "SourceFileCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\migrating-to-intune-step-two.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\migrating-to-intune-step-two.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\migrating-to-intune-step-two.63650a4eff063d2f8923bf59c3776871684d8ce6.ru-ru.xlf",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "a989fff8cebf92a8a4fca60157ed8d0b3ec74069": {
+      "FileHash": "a989fff8cebf92a8a4fca60157ed8d0b3ec74069",
+      "SourceFileCommit": "62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\migrating-to-intune-worksheet.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\migrating-to-intune-worksheet.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\migrating-to-intune-worksheet.c313e3ff209a6d4d8795a1e4687b57784ff6b430.ru-ru.xlf",
+      "HandoffFileCommit": "a55092ddea51e64e9a48f09c50cd5eab544c4aa7",
+      "HandoffDateTime": "2016-03-23T15:20:10.125513Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
