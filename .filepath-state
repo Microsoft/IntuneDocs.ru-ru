@@ -247,15 +247,6 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
-  "48febe95a75892e22a4c2a9f73f8c55bc9cc0614": [
-    "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
-  ],
-  "d3f9876beb55617ebd8b4d7d18c200282d8f23ee": [
-    "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
-  ],
-  "603add19a74497f29bf7062a4600f3ac9b1c6867": [
-    "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md"
-  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
@@ -272,12 +263,6 @@
   ],
   "ae96a659b05849f82655152d7140f2e3f66f6ab8": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
-  ],
-  "de9e934a507b798b33d8c19780f1be796a025f8b": [
-    "InTuneDocs\\DeployUse\\manage-sharepoint-online-access-with-microsoft-intune.md"
-  ],
-  "a19e03555de6a5e6020e5eb5c943c45db85aa6bd": [
-    "InTuneDocs\\DeployUse\\manage-sharepoint-online-access-with-microsoft-intune.md"
   ],
   "f89ea0418cc7f53fdce16f26d31e3e24920b3c69": [
     "InTuneDocs\\DeployUse\\manage-windows-pcs-with-microsoft-intune.md"
@@ -354,12 +339,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md"
-  ],
-  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
-    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "0921e7b779c53dc6def7d865a055391958b6080a": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -1560,12 +1545,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
+  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
-  ],
-  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1870,12 +1855,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "6dd2dc3915d9fe477a632709dcc014209ce18623": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
+  ],
+  "6dd2dc3915d9fe477a632709dcc014209ce18623": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "455701510cf85442c6b4ee4a39d42f4283f18a87": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -2336,6 +2321,15 @@
   "f39d4bc54eaf9e57d461f92a5aeeccdeff9b0790": [
     "InTuneDocs\\DeployUse\\media\\ConditionalAccess4.png"
   ],
+  "df3cc726d31e8ade544b9de3330fbec14cc3db8f": [
+    "InTuneDocs\\DeployUse\\media\\ConditionalAccess8-3.png"
+  ],
+  "f7f76c58e41540ca17bbe57c169a514e64122f44": [
+    "InTuneDocs\\DeployUse\\media\\ConditionalAccess8-4.png"
+  ],
+  "7274fe1fb14719810b86c249a5577ac9fb078d51": [
+    "InTuneDocs\\DeployUse\\media\\ConditionalAccess8-5.png"
+  ],
   "61779d389df74b86fe93a53fda396b789cb57a57": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Banner_EnrollDevices.png"
   ],
@@ -2665,17 +2659,8 @@
   "3197f33fe6c264892365fe876d34733433a563ac": [
     "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md"
   ],
-  "10f3615674528218964d6c90594757ae5852cdaa": [
-    "InTuneDocs\\DeployUse\\manage-access-to-email-and-O365-services-with-intune.md"
-  ],
-  "2ac0a20fafcac98d68c2e77be620d28e8542cbc9": [
-    "InTuneDocs\\DeployUse\\manage-access-to-email-and-O365-services-with-intune.md"
-  ],
-  "ef67a345d5fb56c0d20ea63c169e47a3c12d7c54": [
-    "InTuneDocs\\DeployUse\\manage-access-to-email-and-O365-services-with-intune.md"
-  ],
   "1d0ce9c5be9a0be6e02c540582403644236223d6": [
-    "InTuneDocs\\DeployUse\\Manage-access-to-skype-for-business.md"
+    "InTuneDocs\\DeployUse\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md"
   ],
   "048a81578592b6354750529fc4487ef1f94a2369": [
     "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md"
@@ -2694,6 +2679,9 @@
   ],
   "376dc31dce9eb003564c8af9fb731a00f36d6d17": [
     "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md"
+  ],
+  "de9e934a507b798b33d8c19780f1be796a025f8b": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-sharepoint-online-with-microsoft-intune.md"
   ],
   "4f0c575a51befbd66261794604b02c72aca49db9": [
     "InTuneDocs\\zDeletedTopics\\Manage-Windows-PCs-with-Microsoft-Intune.md"
@@ -3573,5 +3561,32 @@
   ],
   "a989fff8cebf92a8a4fca60157ed8d0b3ec74069": [
     "InTuneDocs\\PlanDesign\\migrating-to-intune-worksheet.md"
+  ],
+  "7f95649dbe1572d9dcee2df42532381ec0b0aca7": [
+    "InTuneDocs\\DeployUse\\restrict-access to-exchange-online-with-microsoft-intune.md"
+  ],
+  "08cb0a1cc8355e6439e9e30e30e01a560da96cd2": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
+  ],
+  "a9ad25a850788b324d918a68a9999f7066f2caae": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
+  ],
+  "2341fc113ace4f50b5f4b1b52f10be762d785c5f": [
+    "InTuneDocs\\DeployUse\\restrict-email-access-example-scenarios.md"
+  ],
+  "c9e52ec9411c2deea24c9e492f69e1b3c18b0ceb": [
+    "InTuneDocs\\media\\IntuneSA2bMobileDeviceInventoryReport.png"
+  ],
+  "3b916bb8399396ca26426ac7ee5a362834f1e3cd": [
+    "InTuneDocs\\media\\IntuneSA2cViewReport.PNG"
+  ],
+  "24edf1d2f9f9e750f815f75c1b4cf3645544e7ff": [
+    "InTuneDocs\\media\\IntuneSA5dExchangeOnlinePolicy.png"
+  ],
+  "7a54c8d560322fd5c0a4f0c606adb6a55eb1a6c1": [
+    "InTuneDocs\\media\\IntuneSA5eTargetedExemptedGroups.PNG"
+  ],
+  "49427494881cb50b4baadf18311da0f9744f6c43": [
+    "InTuneDocs\\media\\IntuneSA6BlockedDevices.PNG"
   ]
 }
