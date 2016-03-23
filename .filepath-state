@@ -351,12 +351,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md"
+  ],
+  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "0921e7b779c53dc6def7d865a055391958b6080a": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -1557,12 +1557,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
-  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
-  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
+  ],
+  "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "3b78705fbfe06c9850e606599411b3db58565a22": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -2225,6 +2225,9 @@
   ],
   "b393f9a960ba795ab0a8c9760a52daf47c412033": [
     "InTuneDocs\\GetStarted\\run-state.md"
+  ],
+  "4207eda2f82c9aa40d315dff83a59ab88dc8e932": [
+    "InTuneDocs\\index.html"
   ],
   "853d7fbf46760d1504da2e6ade806032d5ff382e": [
     "InTuneDocs\\index.html",
@@ -3492,12 +3495,6 @@
   "00e42691e4c76d44a6e88a2b57754ba947120949": [
     "InTuneDocs\\PlanDesign\\how-your-windows-users-get-their-apps.md"
   ],
-  "990e706d3784994e09e6002491018394f220a780": [
-    "InTuneDocs\\Understand\\what-to-know-before-you-start-microsoft-intune.md"
-  ],
-  "4111aee7b52ff55e6cb29e25c3eb1812c8f66823": [
-    "InTuneDocs\\Understand\\what-to-know-before-you-start-microsoft-intune.md"
-  ],
   "33c27e6c84e41853ae973055806560553ac9af47": [
     "InTuneDocs\\DeployUse\\microsoft-intune-policy-reference.md"
   ],
@@ -3536,5 +3533,8 @@
   ],
   "297b8edb4b03c0719e453e7bfd8edf1aa76056e2": [
     "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
+  ],
+  "990e706d3784994e09e6002491018394f220a780": [
+    "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
   ]
 }
