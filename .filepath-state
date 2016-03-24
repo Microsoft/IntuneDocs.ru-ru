@@ -222,6 +222,9 @@
   "7a90145cafbb5e803ace1380787d138ad273dea3": [
     "InTuneDocs\\DeployUse\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
   ],
+  "747d1fad5531b542f8d73b96dc76d8bb620c22a5": [
+    "InTuneDocs\\DeployUse\\help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune.md"
+  ],
   "2755305b4f85e47fcf8d5b691c4f3a073f61c806": [
     "InTuneDocs\\DeployUse\\help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune.md"
   ],
@@ -344,16 +347,22 @@
   "84421bf7f4ba657e685239fb27f4798a46485f71": [
     "InTuneDocs\\DeployUse\\media\\150x150.png"
   ],
+  "b38b15c837dcb502379311988a74d7888ca5a525": [
+    "InTuneDocs\\DeployUse\\set-up-email-access-for-ios-devices-using-microsoft-intune.md"
+  ],
+  "7bf005ca712646893c1fd386d7a4c2b39b6493f3": [
+    "InTuneDocs\\DeployUse\\set-up-email-access-for-ios-devices-using-microsoft-intune.md"
+  ],
   "15a1211ec83158d1a77c92411100bff572ff9a7a": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md"
+  ],
+  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "0921e7b779c53dc6def7d865a055391958b6080a": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -502,10 +511,10 @@
     "migrated-03-14\\Topic\\End-user-experience.md"
   ],
   "aa710abae51e7c4eb9d62c239e8516ef0fe89348": [
-    "InTuneDocs\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
   ],
   "2ddcfc818c7a2afd2d1057ce52b256a1b47e0f39": [
-    "InTuneDocs\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
   ],
   "18d6b0238272dc41c551992c466ca9b26090ed64": [
     "InTuneDocs\\zDeletedTopics\\enroll-your-device-in-microsoft-intune.md"
@@ -651,12 +660,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
-  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
-  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
+  ],
+  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "86a55c5b8d78b2af87f7377f67b2721bee5c13a5": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -694,12 +703,6 @@
   ],
   "cd260c040bad5671af23567d0ed4b0ec26f25092": [
     "InTuneDocs\\GetStarted\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.old.md"
-  ],
-  "75b09001dc7e9007f069c2141ed631bfafc840d1": [
-    "InTuneDocs\\GetStarted\\set-mobile-device-management-authority-and-configure-microsoft-intune.md"
-  ],
-  "a4ade235bc6b33aa6ffa7f2a429239100ecdcbb9": [
-    "InTuneDocs\\GetStarted\\set-mobile-device-management-authority-and-configure-microsoft-intune.md"
   ],
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\GetStarted\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
@@ -1563,12 +1566,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
+  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
-  ],
-  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1778,9 +1781,6 @@
     "InTuneDocs\\temp-software-updates-topic.md",
     "InTuneDocs\\zDeletedTopics\\Temp-Software-Updates-Topic.md"
   ],
-  "d32d90ecddf7a6530db86a01717da9171a6414eb": [
-    "InTuneDocs\\terms-and-condition-policy-settings-in-microsoft-intune.md"
-  ],
   "e1429a10602e27418af03f0f6a0bd6d5d5515dd0": [
     "InTuneDocs\\EULA\\terms-of-delegated-administration-for-microsoft-intune.md"
   ],
@@ -1885,12 +1885,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
+  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
+  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
-  ],
-  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "6dd2dc3915d9fe477a632709dcc014209ce18623": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -2155,36 +2155,6 @@
   "0ddd8a45b8179ca81abe1d50d9480da6ee3a52bc": [
     "InTuneDocs\\GetStarted\\set-up-android-management-with-microsoft-intune.md"
   ],
-  "1964b48c221eed4b6c38cf54ccddc736c0d5abbe": [
-    "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md"
-  ],
-  "096d83e1e08abca3a03f4476d42416878685e406": [
-    "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md"
-  ],
-  "28edc564c87ef422bdf1ca8de77c40481a212f48": [
-    "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md"
-  ],
-  "b85761c301f068ba05e643ec9c41cbc73c4ae1b9": [
-    "InTuneDocs\\GetStarted\\set-up-ios-and-mac-management-with-microsoft-intune.md"
-  ],
-  "c6a7441cf5b63a01843ef240382b186c8ed1cde4": [
-    "InTuneDocs\\GetStarted\\set-up-windows-device-management-with-microsoft-intune.md"
-  ],
-  "2825be7bc12d04fe8974f4d9a4dddfb2bd70a6dd": [
-    "InTuneDocs\\GetStarted\\set-up-windows-device-management-with-microsoft-intune.md"
-  ],
-  "5bad716f890754aed9beafdad91fb19cabb3be21": [
-    "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md"
-  ],
-  "5287bd5c1aff15872acc3f16a67671cd5cc3f397": [
-    "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md"
-  ],
-  "6617a5ffc2a111e41f96b448a5aeb594fa06bbbe": [
-    "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md"
-  ],
-  "5938686fe8fc1ef4cca19da67e2165c2d4af7f67": [
-    "InTuneDocs\\GetStarted\\set-up-windows-phone-management-with-microsoft-intune.md"
-  ],
   "5f44d0532e1f46993d8d1fc7dafc3b6116553b99": [
     "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md"
   ],
@@ -2197,8 +2167,8 @@
   "973e7ccaf4310d22f0e31aba380aa0a510740d83": [
     "InTuneDocs\\GetStarted\\renew-a-symantec-code-signing-certificate.md"
   ],
-  "b38b15c837dcb502379311988a74d7888ca5a525": [
-    "InTuneDocs\\GetStarted\\set-up-email-access-for-ios-devices-using-microsoft-intune.md"
+  "c6a7441cf5b63a01843ef240382b186c8ed1cde4": [
+    "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
   ],
   "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
     "InTuneDocs\\GetStarted\\media\\Windows-Phone-Enrollment.png"
@@ -2579,7 +2549,7 @@
     "InTuneDocs\\zDeletedTopics\\End-user-experience-of-conditional-access.md"
   ],
   "885de0a1068a2e4b224f7b264c05dfd2795a50ac": [
-    "migrated-03-14\\Topic\\Enroll-corporate-owned-devices-with-the-Device-Enrollment-Manager-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Enroll-corporate-owned-devices-with-the-Device-Enrollment-Manager-in-Microsoft-Intune.md"
   ],
   "28d5226f612e0529497437855880cd0390b048e7": [
     "migrated-03-14\\Topic\\Enroll-corporate-owned-iOS-devices-in-Microsoft-Intune.md"
@@ -2597,7 +2567,7 @@
     "migrated-03-14\\Topic\\Get-notified-by-Microsoft-Intune-alerts.md"
   ],
   "5c278937be8c4a2b940fc00f40270989daa72d4a": [
-    "migrated-03-14\\Topic\\Get-ready-to-enroll-devices-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Get-ready-to-enroll-devices-in-Microsoft-Intune.md"
   ],
   "1b91a33de730fe958dadd098511e3995a03d37d0": [
     "InTuneDocs\\zDeletedTopics\\Get-started-with-a-30-day-trial-of-Microsoft-Intune.md"
@@ -2621,7 +2591,7 @@
     "InTuneDocs\\zDeletedTopics\\Help-protect-Windows-PCs-using-Windows-Firewall-policies-in-Microsoft-Intune.md"
   ],
   "2d5126603ac782813b00a4e96efa8be215289c2f": [
-    "migrated-03-14\\Topic\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md"
   ],
   "5edc884a9fc22f1f59c1b8ba26e49557da31e9cf": [
     "InTuneDocs\\zDeletedTopics\\Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md"
@@ -2933,7 +2903,7 @@
     "InTuneDocs\\zDeletedTopics\\Mobile-device-management-capabilities-in-Microsoft-Intune.md"
   ],
   "ac94282cb561024d660785796ecdfeaf3a2bdb97": [
-    "migrated-03-14\\Topic\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md"
   ],
   "7046f6e869b2ef357d4758929804cc7e8fb2b15d": [
     "migrated-03-14\\Topic\\Mobile-device-security-policy-settings-in-Microsoft-Intune.md"
@@ -3062,19 +3032,19 @@
     "migrated-03-14\\Topic\\Set-mobile-device-management-authority-and-configure-Microsoft-Intune.md"
   ],
   "364a9acb2ae84aee33f42439ecb5ba670e88d9e9": [
-    "migrated-03-14\\Topic\\Set-up-Android-management-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Set-up-Android-management-with-Microsoft-Intune.md"
   ],
   "b2967ae9a0b27644d1b9ec202d60faf3b1348349": [
     "migrated-03-14\\Topic\\Set-up-email-access-for-iOS-devices-using-Microsoft-Intune.md"
   ],
   "43537c215e30fccae2b7159427c0657f73fed16a": [
-    "migrated-03-14\\Topic\\Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md"
   ],
   "a585e145fb7a9dd90be41a795de8e8ab48830b4d": [
-    "migrated-03-14\\Topic\\Set-up-Windows-device-management-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Set-up-Windows-device-management-with-Microsoft-Intune.md"
   ],
   "c582a29927afb715de65cff1cf4944d56ce087fb": [
-    "migrated-03-14\\Topic\\Set-up-Windows-Phone-management-with-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Set-up-Windows-Phone-management-with-Microsoft-Intune.md"
   ],
   "df2b5fdbfb7b1ba727c005d716ea79ee5d2b6b14": [
     "migrated-03-14\\Topic\\Set-your-MDM-Management-Authority.md"
@@ -3092,7 +3062,7 @@
     "InTuneDocs\\zDeletedTopics\\Temp---Intune-IP-Ranges.md"
   ],
   "45977b4de5ff40c40588bf3d088f9545ef0f66e7": [
-    "migrated-03-14\\Topic\\Terms-and-condition-policy-settings-in-Microsoft-Intune.md"
+    "InTuneDocs\\zDeletedTopics\\Terms-and-condition-policy-settings-in-Microsoft-Intune.md"
   ],
   "59a8293059387c76269426a02bb77f2994a0db9e": [
     "migrated-03-14\\Topic\\Terms-of-Delegated-Administration-for-Microsoft-Intune.md"
@@ -3454,8 +3424,17 @@
   "99cebbbdff94b334d0e6ba2644ad4f9726d3f8f5": [
     "InTuneDocs\\DeployUse\\what-s-new-in-microsoft-intune-test.md"
   ],
+  "75b09001dc7e9007f069c2141ed631bfafc840d1": [
+    "InTuneDocs\\DeployUse\\set-mobile-device-management-authority-and-configure-microsoft-intune.md"
+  ],
+  "1964b48c221eed4b6c38cf54ccddc736c0d5abbe": [
+    "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
+  ],
   "af09053d20f937071ff49326fd353ba9563f85c2": [
-    "InTuneDocs\\GetStarted\\set-up-windows-8.0-management-with-microsoft-intune.md"
+    "InTuneDocs\\DeployUse\\set-up-windows-8.0-management-with-microsoft-intune.md"
+  ],
+  "5bad716f890754aed9beafdad91fb19cabb3be21": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-management-with-microsoft-intune.md"
   ],
   "8424e87bd47f3f7f08fd4a3ff62f6f43e6c2f160": [
     "InTuneDocs\\media\\Windows-Device-Enrollment.png"
