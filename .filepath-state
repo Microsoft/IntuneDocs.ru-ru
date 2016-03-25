@@ -270,6 +270,9 @@
   "d5f8d03e2360ffc23f47fff7b3ee51c105406d31": [
     "InTuneDocs\\DeployUse\\install-the-windows-pc-client-with-microsoft-intune.md"
   ],
+  "6fb05b74a3177ce21f6127eb2722fcaf9c0cfa17": [
+    "InTuneDocs\\DeployUse\\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md"
+  ],
   "cd4f2971f1755905fc858f4f04b98e399af9d428": [
     "InTuneDocs\\DeployUse\\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md"
   ],
@@ -402,12 +405,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md"
-  ],
-  "e0c1c331ae75db45ab80439279c533edcfb874bd": [
-    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "0921e7b779c53dc6def7d865a055391958b6080a": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -708,12 +711,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
+  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
-  ],
-  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "86a55c5b8d78b2af87f7377f67b2721bee5c13a5": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -1614,12 +1617,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
-  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
-  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
+  ],
+  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1760,14 +1763,7 @@
     "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
   ],
   "357558a36a885fc6c50279d11801440587fe3676": [
-    "InTuneDocs\\media\\WPCertReqs.png",
-    "migrated-03-14\\Image\\WPCertReqs.png"
-  ],
-  "a3713304193d4562fb5784b2e0ec7730ac5e796e": [
-    "InTuneDocs\\GetStarted\\media\\wit_.gif"
-  ],
-  "b86daa607f8bdfca2b36b2e9c956dc9872a80e4d": [
-    "InTuneDocs\\GetStarted\\media\\wit_walk_cert2.gif"
+    "InTuneDocs\\media\\WPCertReqs.png"
   ],
   "a2a520224fc91ff6f26c8c7184824a8962351fbb": [
     "InTuneDocs\\set-your-mdm-management-authority.md"
@@ -1933,12 +1929,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
+  ],
+  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "6dd2dc3915d9fe477a632709dcc014209ce18623": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -2160,11 +2156,17 @@
   "47a8d710859e29c6786c565383e03c26803ac14a": [
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
   ],
+  "db91233cad69b0d4f4e688d5a70feb0cee15645d": [
+    "InTuneDocs\\DeployUse\\windows-phone-configuration-policy-settings-in-microsoft-intune.md"
+  ],
   "2746b32ada5267b7abf2d897480cd2e86e7d16e9": [
     "InTuneDocs\\DeployUse\\windows-phone-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "2241344f07270b772e05a58f4c22c7066ac7b94b": [
     "InTuneDocs\\DeployUse\\windows-phone-configuration-policy-settings-in-microsoft-intune.md"
+  ],
+  "69416dc96d3c40e8f72c22fb64a150951b6fa705": [
+    "InTuneDocs\\DeployUse\\windows-phone-custom-policy-settings-in-microsoft-intune.md"
   ],
   "e7a5d9d4b556b1ca07cbd185fe10faad9091d11e": [
     "InTuneDocs\\DeployUse\\windows-phone-custom-policy-settings-in-microsoft-intune.md"
@@ -2223,9 +2225,6 @@
   ],
   "c6a7441cf5b63a01843ef240382b186c8ed1cde4": [
     "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
-  ],
-  "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
-    "InTuneDocs\\GetStarted\\media\\Windows-Phone-Enrollment.png"
   ],
   "590b8647b4f4011900631031eeffd699cb86d373": [
     "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_BYOD_small.png"
@@ -2405,9 +2404,6 @@
   "7274fe1fb14719810b86c249a5577ac9fb078d51": [
     "InTuneDocs\\DeployUse\\media\\ConditionalAccess8-5.png"
   ],
-  "61779d389df74b86fe93a53fda396b789cb57a57": [
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Banner_EnrollDevices.png"
-  ],
   "7c572778f2e7017581de6ed153321274266d2b93": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Banner_ManageDevices.png"
   ],
@@ -2422,9 +2418,6 @@
   ],
   "105951fdf3ef11fa502713b86aeba351237085dc": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_EnrollDevices.png"
-  ],
-  "503901298edcb4cc1567fc763a29fc248fa97d3b": [
-    "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_EnrollDevicesHighlight.png"
   ],
   "1d57d2deff6f8ab4a2f30f439daabee75f7fb138": [
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_GetStarted.png"
@@ -2763,6 +2756,9 @@
   ],
   "0edb87b4bb8ded2c9444b8253e538d459be57def": [
     "InTuneDocs\\zDeletedTopics\\Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
+  ],
+  "ddf00635934d3662fe4490e0a11fb76587646c98": [
+    "InTuneDocs\\DeployUse\\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
   "d048f76acdc5c82882bb66bf312bf6b11e7e3a9d": [
     "InTuneDocs\\DeployUse\\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
@@ -3699,6 +3695,9 @@
   ],
   "5eec155aacc3d264eacf67d607f1c4ca39847c2f": [
     "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-scep-test.md"
+  ],
+  "bda0e92bd9caf8fa6beb724ab423ff3e59e79463": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md"
   ],
   "6f2388af95a6ee1dc81b16d335fe5777eadfe6eb": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md"
