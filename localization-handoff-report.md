@@ -1,42 +1,44 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 24
+ Total Files | 26
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\microsoft-apps-you-can-manage-with-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/microsoft-apps-you-can-manage-with-intune.md) | HandedOffSuccess | [Details](#fe8244771121bee39ce64965076c9d8711d6780e206)
- [InTuneDocs\DeployUse\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/plan-your-user-and-device-groups.md) | HandedOffSuccess | [Details](#f0693c1dc992e472ab354379982f4920182aee28216)
- [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md) | HandedOffSuccess | [Details](#bea41dfa2f582cbbf88a464876d7729892eae6d2222)
- [InTuneDocs\DeployUse\strawman-TOC-with-notes.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/strawman-TOC-with-notes.md) | HandedOffSuccess | [Details](#7efa1c05c70997ea142980add9e1502c31de27ae244)
- [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/TOC.md) | HandedOffSuccess | [Details](#91f102d7606ab462d678799983d994128ec16eb5247)
- [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a2337)
- [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG) | HandedOffFailed | [Details](#c13ff92646549eabc0c40c8dca41dae34521918c338)
- [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG) | HandedOffFailed | [Details](#6455011cf351fcecbd1579b74a9f491e8365466d339)
- [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md) | HandedOffSuccess | [Details](#aac1197804bf4c871084ec6b4c9eb345a84044dc436)
- [InTuneDocs\GetStarted\domain-names-for-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/domain-names-for-intune.md) | HandedOffSuccess | [Details](#d8f93cee5dedfccb2e9a98cdb5c9098228829ac5440)
- [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2bb57ea95a547d6c9eaf45dfac071c6a0f048f9c/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune.md) | HandedOffSuccess | [Details](#89e2a6ea298eb5c01da724b552febb81d14cbd64454)
- [InTuneDocs\GetStarted\microsoft-intune-company-portal.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/microsoft-intune-company-portal.md) | HandedOffSuccess | [Details](#d21a69a3df2f3c3baa67d555b8915fb3b7491f3a476)
- [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md) | HandedOffSuccess | [Details](#171cc9dcfb2c2aed851bf14eb59027df7d29f191480)
- [InTuneDocs\GetStarted\what-to-know-before-you-start-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/what-to-know-before-you-start-microsoft-intune.md) | HandedOffSuccess | [Details](#5e7a0e51eeb497b1e88f8f8b82205dd80c353859497)
- [InTuneDocs\PlanDesign\help-end-users-understand-company-portal-app-messages.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/help-end-users-understand-company-portal-app-messages.md) | HandedOffSuccess | [Details](#78a8c0dbb095240fcce3a2c9fbde336def0dade11040)
- [InTuneDocs\PlanDesign\how-your-android-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/how-your-android-users-get-their-apps.md) | HandedOffSuccess | [Details](#ecf3b3f27a04fa6b48bf87bc918be566ef8f1bbf1041)
- [InTuneDocs\PlanDesign\how-your-ios-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/how-your-ios-users-get-their-apps.md) | HandedOffSuccess | [Details](#38ac520829bc11a4d4d50a2f9ae152d90b4d37301042)
- [InTuneDocs\PlanDesign\how-your-windows-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/how-your-windows-users-get-their-apps.md) | HandedOffSuccess | [Details](#1e179206d37930a0fda41188f04d253fa66ffade1043)
- [InTuneDocs\PlanDesign\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/what-to-tell-your-end-users-about-using-microsoft-intune.md) | HandedOffSuccess | [Details](#052c97f02bc2adf671d12551fc57552989ac0e961075)
- [InTuneDocs\Understand\common-microsoft-intune-evaluation-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/Understand/common-microsoft-intune-evaluation-tasks.md) | HandedOffSuccess | [Details](#99e02df4ae6f7b23e259ea8a1aacffbaae02f3221113)
- [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune.md) | HandedOffSuccess | [Details](#c9e3dfa2aaa06b206cc9372756f70de138b0a59b1117)
- [InTuneDocs\Understand\introduction-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/Understand/introduction-to-microsoft-intune-old.md) | HandedOffSuccess | [Details](#3b9c00857551480257905fe0215aeb25b30506f21118)
- [InTuneDocs\zDeletedTopics\plan-your-user-and-device-groups-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/zDeletedTopics/plan-your-user-and-device-groups-old.md) | HandedOffSuccess | [Details](#affc70456e63fdc436be309c0c2a103ea52d8ac01358)
- [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/migrated-03-14/Image/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a21550)
+ [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md) | HandedOffSuccess | [Details](#95a10008d39b42cfd87d3fcec6ec6b6046ffb1c027)
+ [InTuneDocs\DeployUse\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md) | HandedOffSuccess | [Details](#75fe78f12a816e725c8815f1507167f7f805c3f537)
+ [InTuneDocs\DeployUse\exchange-activesync-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/exchange-activesync-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#b15ff1fc38bb1bfb0f76ba8e2785217d013023eb56)
+ [InTuneDocs\DeployUse\install-the-windows-pc-client-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/install-the-windows-pc-client-with-microsoft-intune.md) | HandedOffSuccess | [Details](#25223a451645d84b9190768cedc8d25e51ba470e65)
+ [InTuneDocs\DeployUse\mac-os-x-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/mac-os-x-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#8b486f36b5728db60575080b9a65a20de13aae9972)
+ [InTuneDocs\DeployUse\mac-os-x-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/mac-os-x-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#d3fe8485fa89fb55aae373d1942d0dc3db15341473)
+ [InTuneDocs\DeployUse\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md) | HandedOffSuccess | [Details](#6448e88e55da60398b93be86bb23734e3d3c832780)
+ [InTuneDocs\DeployUse\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md) | HandedOffSuccess | [Details](#2b933ce6b27f8db3894f6b4f6eb423ba8fb74b4e82)
+ [InTuneDocs\DeployUse\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md) | HandedOffSuccess | [Details](#79662db26cf7bba2bc9b443f9397e8ba44c182b483)
+ [InTuneDocs\DeployUse\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md) | HandedOffSuccess | [Details](#afbf911c91d15869d57cc8330c8dcc4cd678adf485)
+ [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#95e14bb40a7dc1232a24b74895c000757ed22d04211)
+ [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md) | HandedOffSuccess | [Details](#c12bf31621f2995cb2dab03f473715e7ee52c6f6226)
+ [InTuneDocs\DeployUse\retire-apps-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/retire-apps-using-microsoft-intune.md) | HandedOffSuccess | [Details](#d61cfb2835b2f682406b2d3703360f7e04e07e74233)
+ [InTuneDocs\DeployUse\TOC-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/TOC-old.md) | HandedOffSuccess | [Details](#eb1b700cbd4694c83e957de96d65bfc369cd2f1b246)
+ [InTuneDocs\DeployUse\understand-your-devices-with-inventory-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/understand-your-devices-with-inventory-in-microsoft-intune.md) | HandedOffSuccess | [Details](#7c50f5947c11fc047859d3c7025fa226864efacb249)
+ [InTuneDocs\DeployUse\windows-phone-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/windows-phone-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#fb4cd125b757d3623b6898d341228e92d7d57e7a263)
+ [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a2337)
+ [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG) | HandedOffFailed | [Details](#c13ff92646549eabc0c40c8dca41dae34521918c338)
+ [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG) | HandedOffFailed | [Details](#6455011cf351fcecbd1579b74a9f491e8365466d339)
+ [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-old.md) | HandedOffSuccess | [Details](#1f70c7f8f2a8405f752706db5e7969fbce0ca03e444)
+ [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md) | HandedOffSuccess | [Details](#a99798e38812764bc9a0de3d47650f8cfb76448f1071)
+ [InTuneDocs\PlanDesign\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bbd6c5293f27b68fd34d53bb79b5fe42f243b7e/InTuneDocs/PlanDesign/plan-your-user-and-device-groups.md) | HandedOffSuccess | [Details](#dc9dad8d53342b1d9d8064714ecd3bf48ca816a31072)
+ [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c65224c96484a876ad00b095d3651e16ddb84fa7/InTuneDocs/Understand/introduction-to-microsoft-intune.md) | HandedOffSuccess | [Details](#65de728fdaf68b3bb8f123cadbe2885e1c6e36b51119)
+ [InTuneDocs\Understand\windows-pc-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/Understand/windows-pc-management-capabilities-in-microsoft-intune.md) | HandedOffSuccess | [Details](#c52b2e5f265f3a6fa7bd1f1225e02bdbb4f0f8381128)
+ [InTuneDocs\zDeletedTopics\plan-your-user-and-device-groups-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/zDeletedTopics/plan-your-user-and-device-groups-old.md) | HandedOffSuccess | [Details](#affc70456e63fdc436be309c0c2a103ea52d8ac01358)
+ [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/migrated-03-14/Image/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a21550)
 
 ## Item Details
-##### <a name='fe8244771121bee39ce64965076c9d8711d6780e206'></a> Source: [InTuneDocs\DeployUse\microsoft-apps-you-can-manage-with-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/microsoft-apps-you-can-manage-with-intune.md)
+##### <a name='95a10008d39b42cfd87d3fcec6ec6b6046ffb1c027'></a> Source: [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [microsoft-apps-you-can-manage-with-intune.2f8c5d0fd29f5cd1afa9dbeff8377e72ca422532.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/microsoft-apps-you-can-manage-with-intune.2f8c5d0fd29f5cd1afa9dbeff8377e72ca422532.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.ad43704da208117abad53962a42b9b87a4150126.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.ad43704da208117abad53962a42b9b87a4150126.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -44,11 +46,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='f0693c1dc992e472ab354379982f4920182aee28216'></a> Source: [InTuneDocs\DeployUse\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/plan-your-user-and-device-groups.md)
+##### <a name='75fe78f12a816e725c8815f1507167f7f805c3f537'></a> Source: [InTuneDocs\DeployUse\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.b5a1c4771daea8d5dcbb2b7329abc50722ee456b.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.b5a1c4771daea8d5dcbb2b7329abc50722ee456b.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -56,11 +58,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='bea41dfa2f582cbbf88a464876d7729892eae6d2222'></a> Source: [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md)
+##### <a name='b15ff1fc38bb1bfb0f76ba8e2785217d013023eb56'></a> Source: [InTuneDocs\DeployUse\exchange-activesync-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/exchange-activesync-policy-settings-in-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [protect-apps-and-data-with-microsoft-intune.6ccf429089e2e992c79d2e15ad0cedc79d68fd70.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/protect-apps-and-data-with-microsoft-intune.6ccf429089e2e992c79d2e15ad0cedc79d68fd70.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [exchange-activesync-policy-settings-in-microsoft-intune.7befdd2a5b912f0c96869e2edf316931c762b66b.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/exchange-activesync-policy-settings-in-microsoft-intune.7befdd2a5b912f0c96869e2edf316931c762b66b.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -68,11 +70,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='7efa1c05c70997ea142980add9e1502c31de27ae244'></a> Source: [InTuneDocs\DeployUse\strawman-TOC-with-notes.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/strawman-TOC-with-notes.md)
+##### <a name='25223a451645d84b9190768cedc8d25e51ba470e65'></a> Source: [InTuneDocs\DeployUse\install-the-windows-pc-client-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/install-the-windows-pc-client-with-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [strawman-TOC-with-notes.15e771ff57429252728224bbcef8a5386b1b55da.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/strawman-TOC-with-notes.15e771ff57429252728224bbcef8a5386b1b55da.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [install-the-windows-pc-client-with-microsoft-intune.dc9b83719b1dcf7e98b9ec2bd44ba8cb9362391a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/install-the-windows-pc-client-with-microsoft-intune.dc9b83719b1dcf7e98b9ec2bd44ba8cb9362391a.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -80,11 +82,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='91f102d7606ab462d678799983d994128ec16eb5247'></a> Source: [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/TOC.md)
+##### <a name='8b486f36b5728db60575080b9a65a20de13aae9972'></a> Source: [InTuneDocs\DeployUse\mac-os-x-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/mac-os-x-configuration-policy-settings-in-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [mac-os-x-configuration-policy-settings-in-microsoft-intune.b200183d71a38634446ac44277d3d30480fa83ec.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mac-os-x-configuration-policy-settings-in-microsoft-intune.b200183d71a38634446ac44277d3d30480fa83ec.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -92,7 +94,139 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a2337'></a> Source: [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG)
+##### <a name='d3fe8485fa89fb55aae373d1942d0dc3db15341473'></a> Source: [InTuneDocs\DeployUse\mac-os-x-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/mac-os-x-custom-policy-settings-in-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [mac-os-x-custom-policy-settings-in-microsoft-intune.614c7e392898b61227ac609e2628e6d02c1508a0.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mac-os-x-custom-policy-settings-in-microsoft-intune.614c7e392898b61227ac609e2628e6d02c1508a0.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='6448e88e55da60398b93be86bb23734e3d3c832780'></a> Source: [InTuneDocs\DeployUse\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [manage-internet-access-using-managed-browser-policies-with-microsoft-intune.b74ac870febfa2040501f21903b0b30d04096c8f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-internet-access-using-managed-browser-policies-with-microsoft-intune.b74ac870febfa2040501f21903b0b30d04096c8f.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='2b933ce6b27f8db3894f6b4f6eb423ba8fb74b4e82'></a> Source: [InTuneDocs\DeployUse\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.f9e8ca963ea5a467aaf74c0d069524daac3affe9.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.f9e8ca963ea5a467aaf74c0d069524daac3affe9.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='79662db26cf7bba2bc9b443f9397e8ba44c182b483'></a> Source: [InTuneDocs\DeployUse\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [manage-license-agreements-for-windows-pc-software-in-microsoft-intune.634687cbedd4fc649377288e24861c7fdf812b52.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-license-agreements-for-windows-pc-software-in-microsoft-intune.634687cbedd4fc649377288e24861c7fdf812b52.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='afbf911c91d15869d57cc8330c8dcc4cd678adf485'></a> Source: [InTuneDocs\DeployUse\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.f83522d5b6f3927d6adda4d8f6edd45ffc1a57f9.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.f83522d5b6f3927d6adda4d8f6edd45ffc1a57f9.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='95e14bb40a7dc1232a24b74895c000757ed22d04211'></a> Source: [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='c12bf31621f2995cb2dab03f473715e7ee52c6f6226'></a> Source: [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/resolve-gpo-and-microsoft-intune-policy-conflicts.a6d767acf99faf07019ee7cdf9bc261ca71f4587.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='d61cfb2835b2f682406b2d3703360f7e04e07e74233'></a> Source: [InTuneDocs\DeployUse\retire-apps-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/retire-apps-using-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [retire-apps-using-microsoft-intune.903e1ee7b71182805b1bfbab4103b43ab6743817.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/retire-apps-using-microsoft-intune.903e1ee7b71182805b1bfbab4103b43ab6743817.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='eb1b700cbd4694c83e957de96d65bfc369cd2f1b246'></a> Source: [InTuneDocs\DeployUse\TOC-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/TOC-old.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='7c50f5947c11fc047859d3c7025fa226864efacb249'></a> Source: [InTuneDocs\DeployUse\understand-your-devices-with-inventory-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/understand-your-devices-with-inventory-in-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [understand-your-devices-with-inventory-in-microsoft-intune.044905c438a1cdd1861e065e45aa556f932b8c4f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/understand-your-devices-with-inventory-in-microsoft-intune.044905c438a1cdd1861e065e45aa556f932b8c4f.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='fb4cd125b757d3623b6898d341228e92d7d57e7a263'></a> Source: [InTuneDocs\DeployUse\windows-phone-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/windows-phone-configuration-policy-settings-in-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [windows-phone-configuration-policy-settings-in-microsoft-intune.a129e1d71170580db278d9484c808f8787cdf6eb.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/windows-phone-configuration-policy-settings-in-microsoft-intune.a129e1d71170580db278d9484c808f8787cdf6eb.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a2337'></a> Source: [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
@@ -105,7 +239,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='c13ff92646549eabc0c40c8dca41dae34521918c338'></a> Source: [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG)
+##### <a name='c13ff92646549eabc0c40c8dca41dae34521918c338'></a> Source: [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
@@ -118,7 +252,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6455011cf351fcecbd1579b74a9f491e8365466d339'></a> Source: [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG)
+##### <a name='6455011cf351fcecbd1579b74a9f491e8365466d339'></a> Source: [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
@@ -131,11 +265,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='aac1197804bf4c871084ec6b4c9eb345a84044dc436'></a> Source: [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md)
+##### <a name='1f70c7f8f2a8405f752706db5e7969fbce0ca03e444'></a> Source: [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune-old.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -143,11 +277,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='d8f93cee5dedfccb2e9a98cdb5c9098228829ac5440'></a> Source: [InTuneDocs\GetStarted\domain-names-for-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/domain-names-for-intune.md)
+##### <a name='a99798e38812764bc9a0de3d47650f8cfb76448f1071'></a> Source: [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [domain-names-for-intune.bd6d4da0432af9336abdb37c680191d92e0da20b.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/domain-names-for-intune.bd6d4da0432af9336abdb37c680191d92e0da20b.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [plan-for-app-deployment-in-microsoft-intune.2ef3bc373b70ec9104c56e3da2e68e88e585945d.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-for-app-deployment-in-microsoft-intune.2ef3bc373b70ec9104c56e3da2e68e88e585945d.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -155,11 +289,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='89e2a6ea298eb5c01da724b552febb81d14cbd64454'></a> Source: [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2bb57ea95a547d6c9eaf45dfac071c6a0f048f9c/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune.md)
+##### <a name='dc9dad8d53342b1d9d8064714ecd3bf48ca816a31072'></a> Source: [InTuneDocs\PlanDesign\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bbd6c5293f27b68fd34d53bb79b5fe42f243b7e/InTuneDocs/PlanDesign/plan-your-user-and-device-groups.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -167,11 +301,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='d21a69a3df2f3c3baa67d555b8915fb3b7491f3a476'></a> Source: [InTuneDocs\GetStarted\microsoft-intune-company-portal.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/microsoft-intune-company-portal.md)
+##### <a name='65de728fdaf68b3bb8f123cadbe2885e1c6e36b51119'></a> Source: [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c65224c96484a876ad00b095d3651e16ddb84fa7/InTuneDocs/Understand/introduction-to-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [microsoft-intune-company-portal.1225fc199dc1fe9951a955d8e26ec011a6e23930.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/microsoft-intune-company-portal.1225fc199dc1fe9951a955d8e26ec011a6e23930.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -179,11 +313,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='171cc9dcfb2c2aed851bf14eb59027df7d29f191480'></a> Source: [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md)
+##### <a name='c52b2e5f265f3a6fa7bd1f1225e02bdbb4f0f8381128'></a> Source: [InTuneDocs\Understand\windows-pc-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/Understand/windows-pc-management-capabilities-in-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [windows-pc-management-capabilities-in-microsoft-intune.4bb4ef35ed3f841cd920e014bc1b39c12a79a4f8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/windows-pc-management-capabilities-in-microsoft-intune.4bb4ef35ed3f841cd920e014bc1b39c12a79a4f8.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -191,11 +325,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='5e7a0e51eeb497b1e88f8f8b82205dd80c353859497'></a> Source: [InTuneDocs\GetStarted\what-to-know-before-you-start-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/GetStarted/what-to-know-before-you-start-microsoft-intune.md)
+##### <a name='affc70456e63fdc436be309c0c2a103ea52d8ac01358'></a> Source: [InTuneDocs\zDeletedTopics\plan-your-user-and-device-groups-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/zDeletedTopics/plan-your-user-and-device-groups-old.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [what-to-know-before-you-start-microsoft-intune.24d82c89a4b193da88b10ec405ee2804463faa78.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/what-to-know-before-you-start-microsoft-intune.24d82c89a4b193da88b10ec405ee2804463faa78.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
+* Handoff File: [plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf)
+* Handoff Datetime: 2016-03-25 20:17:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -203,115 +337,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='78a8c0dbb095240fcce3a2c9fbde336def0dade11040'></a> Source: [InTuneDocs\PlanDesign\help-end-users-understand-company-portal-app-messages.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/help-end-users-understand-company-portal-app-messages.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [help-end-users-understand-company-portal-app-messages.877e247046588cbd4b495a737e3b1bb180ca2f38.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/help-end-users-understand-company-portal-app-messages.877e247046588cbd4b495a737e3b1bb180ca2f38.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='ecf3b3f27a04fa6b48bf87bc918be566ef8f1bbf1041'></a> Source: [InTuneDocs\PlanDesign\how-your-android-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/how-your-android-users-get-their-apps.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [how-your-android-users-get-their-apps.28ccf7d2eb3068f8b457a3807110c2517d68deb3.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/how-your-android-users-get-their-apps.28ccf7d2eb3068f8b457a3807110c2517d68deb3.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='38ac520829bc11a4d4d50a2f9ae152d90b4d37301042'></a> Source: [InTuneDocs\PlanDesign\how-your-ios-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/how-your-ios-users-get-their-apps.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [how-your-ios-users-get-their-apps.ffa176efcff91f68989821c5140559ed52605abe.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/how-your-ios-users-get-their-apps.ffa176efcff91f68989821c5140559ed52605abe.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='1e179206d37930a0fda41188f04d253fa66ffade1043'></a> Source: [InTuneDocs\PlanDesign\how-your-windows-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/how-your-windows-users-get-their-apps.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [how-your-windows-users-get-their-apps.c8f566c312e3e8fb588539e6930cd94f7405f271.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/how-your-windows-users-get-their-apps.c8f566c312e3e8fb588539e6930cd94f7405f271.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='052c97f02bc2adf671d12551fc57552989ac0e961075'></a> Source: [InTuneDocs\PlanDesign\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/PlanDesign/what-to-tell-your-end-users-about-using-microsoft-intune.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [what-to-tell-your-end-users-about-using-microsoft-intune.b62b7d17662892466a44a7494fbd13cffb04b589.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/what-to-tell-your-end-users-about-using-microsoft-intune.b62b7d17662892466a44a7494fbd13cffb04b589.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='99e02df4ae6f7b23e259ea8a1aacffbaae02f3221113'></a> Source: [InTuneDocs\Understand\common-microsoft-intune-evaluation-tasks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/Understand/common-microsoft-intune-evaluation-tasks.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/common-microsoft-intune-evaluation-tasks.47d85dbd96a18cc56702d64fbb1cc731132c53e6.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='c9e3dfa2aaa06b206cc9372756f70de138b0a59b1117'></a> Source: [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [get-started-with-a-30-day-trial-of-microsoft-intune.1c6fd90aa7f2ccc3d184ba852ae809cfe01115ac.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/get-started-with-a-30-day-trial-of-microsoft-intune.1c6fd90aa7f2ccc3d184ba852ae809cfe01115ac.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='3b9c00857551480257905fe0215aeb25b30506f21118'></a> Source: [InTuneDocs\Understand\introduction-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/Understand/introduction-to-microsoft-intune-old.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='affc70456e63fdc436be309c0c2a103ea52d8ac01358'></a> Source: [InTuneDocs\zDeletedTopics\plan-your-user-and-device-groups-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/zDeletedTopics/plan-your-user-and-device-groups-old.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/880295ab60a82de2551d8970de549ef25b27cde6/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-your-user-and-device-groups.ef0bd04c09dd640f806c4a64d2843c0f4f730c8c.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 19:46:09
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a21550'></a> Source: [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/migrated-03-14/Image/Enroll-Android-logo.JPG)
+##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a21550'></a> Source: [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/migrated-03-14/Image/Enroll-Android-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
