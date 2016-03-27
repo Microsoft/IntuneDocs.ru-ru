@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2083
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1674
+[ Handoff Success Files ](#handoff-success-list)| 1673
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 405
+[ Ignored Files ](#ignored-list)| 406
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -232,7 +232,6 @@
  [InTuneDocs\DeployUse\what-s-new-in-microsoft-intune-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/what-s-new-in-microsoft-intune-test.md) | HandedOffSuccess | [Details](#99cebbbdff94b334d0e6ba2644ad4f9726d3f8f5259)
  [InTuneDocs\DeployUse\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md) | HandedOffSuccess | [Details](#347c5303bb115d951958a36fbd993009be45957a261)
  [InTuneDocs\DeployUse\wi-fi-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/wi-fi-profiles-in-microsoft-intune.md) | HandedOffSuccess | [Details](#e108a01da309dcaaebb7dac023d13d53fb44bbcd262)
- [InTuneDocs\DeployUse\windows-10-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/windows-10-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#a532cfdd98d7727ab7b575ff0e5d10efd8374a33263)
  [InTuneDocs\DeployUse\windows-10-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f6454fa8d6acca8131b9d3b73dc03f1f2d8decec/InTuneDocs/DeployUse/windows-10-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#39f1bebb7c27b9399ed3f5bde8f84392b9050026264)
  [InTuneDocs\DeployUse\windows-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d8db32ca981c980c7397437ba373eae9617be825/InTuneDocs/DeployUse/windows-compliance-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#3656856e71ac504d58c978e59ed6a9f068bd41fc265)
  [InTuneDocs\DeployUse\windows-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/windows-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#da76e6a200de74dd0624a0ba8514e0112ec487e5266)
@@ -1767,6 +1766,7 @@
  [InTuneDocs\DeployUse\media\SCEP_Registry_editor_MSCEP.png](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/media/SCEP_Registry_editor_MSCEP.png) | Ignored | [Details](#bfc8fc4530e19362ec49490a1f70ed336477d701203)
  [InTuneDocs\DeployUse\media\SCEP_Registry_MDM.png](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/media/SCEP_Registry_MDM.png) | Ignored | [Details](#ba3a1aa88585ec5753eb25d94943732d57ab652c204)
  [InTuneDocs\DeployUse\media\SCEP_SSL_settings.png](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/media/SCEP_SSL_settings.png) | Ignored | [Details](#fd444a39ea7fdea011b5ba7d32147e684a6a1e32205)
+ [InTuneDocs\DeployUse\windows-10-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/windows-10-configuration-policy-settings-in-microsoft-intune.md) | Ignored | [Details](#6c5412f096299aef38504c13ead2210b4a3a1c64263)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2271)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#7b0885b6fc884f750560f0ad7cbe12d6cd66fdd0290)
  [InTuneDocs\EndUser\media\andr_verbose_logging-and-send-diag-data.png](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/EndUser/media/andr_verbose_logging-and-send-diag-data.png) | Ignored | [Details](#c731f6ba43cc20467593b1c05d920c05e14f1f0a330)
@@ -5346,12 +5346,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a532cfdd98d7727ab7b575ff0e5d10efd8374a33263'></a> Source: [InTuneDocs\DeployUse\windows-10-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/windows-10-configuration-policy-settings-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='6c5412f096299aef38504c13ead2210b4a3a1c64263'></a> Source: [InTuneDocs\DeployUse\windows-10-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/windows-10-configuration-policy-settings-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [windows-10-configuration-policy-settings-in-microsoft-intune.02cbcd94e8fc04a66a9a673497a630d60887bda9.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/3e8eca26c13d151b92ab82a0d60ce681c8b986be/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/windows-10-configuration-policy-settings-in-microsoft-intune.02cbcd94e8fc04a66a9a673497a630d60887bda9.ru-ru.xlf)
-* Handoff Datetime: 2016-03-26 23:48:15
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
