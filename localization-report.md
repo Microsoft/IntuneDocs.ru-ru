@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2082
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1674
+[ Handoff Success Files ](#handoff-success-list)| 1665
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 404
+[ Ignored Files ](#ignored-list)| 413
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -891,15 +891,6 @@
  [InTuneDocs\Troubleshoot\media\150x150.png](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f711100)
  [InTuneDocs\Troubleshoot\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc96531101)
  [InTuneDocs\Troubleshoot\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/Troubleshoot/TOC.md) | HandedOffSuccess | [Details](#e53ffcff0783e7e97b98424935b7e4cccc5cea251102)
- [InTuneDocs\Troubleshoot\troubleshoot-app-deployment-problems-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e0a33be747bbfa5cd32ca36997683a1b3d73cfa1/InTuneDocs/Troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune.md) | HandedOffSuccess | [Details](#2c7610e6db78db4a332e0ee2eac51938c38e49651103)
- [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e0a33be747bbfa5cd32ca36997683a1b3d73cfa1/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md) | HandedOffSuccess | [Details](#ee15ebc690ace1363d15742378c1b1a2313c19281104)
- [InTuneDocs\Troubleshoot\troubleshoot-company-resource-access-problems-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e0a33be747bbfa5cd32ca36997683a1b3d73cfa1/InTuneDocs/Troubleshoot/troubleshoot-company-resource-access-problems-with-microsoft-intune.md) | HandedOffSuccess | [Details](#5072144e58601ed8931bdfd773615b9723fa79961105)
- [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md) | HandedOffSuccess | [Details](#875c89c776e8a5e50b2a402739686c2f091352af1106)
- [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md) | HandedOffSuccess | [Details](#f736dd44bed11a4f963cca4a54739cb44ff5bc231107)
- [InTuneDocs\Troubleshoot\troubleshoot-endpoint-protection-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune.md) | HandedOffSuccess | [Details](#b1464d820db9d9198e306fc4854ccc901854d5ac1108)
- [InTuneDocs\Troubleshoot\troubleshoot-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-microsoft-intune.md) | HandedOffSuccess | [Details](#9158d57f1531fa5c1ce0905445fc139af3446bf11109)
- [InTuneDocs\Troubleshoot\troubleshoot-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-policies-in-microsoft-intune.md) | HandedOffSuccess | [Details](#2caaa699c9c7126d18be99bbbbe068ec2c8cd3ef1110)
- [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md) | HandedOffSuccess | [Details](#a68c322e3da4453faeadb79ed76251b1553fc4561111)
  [InTuneDocs\Understand\choose-between-intune-and-hybrid.md](https://github.com/Microsoft/IntuneDocs-pr/blob/96c2c79496b5864aabeb3d5c7b975819d66ec37d/InTuneDocs/Understand/choose-between-intune-and-hybrid.md) | HandedOffSuccess | [Details](#5f44d0532e1f46993d8d1fc7dafc3b6116553b991113)
  [InTuneDocs\Understand\choose-between-intune-and-mdm-for-office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/96c2c79496b5864aabeb3d5c7b975819d66ec37d/InTuneDocs/Understand/choose-between-intune-and-mdm-for-office-365.md) | HandedOffSuccess | [Details](#35de2586eef432787c5244832af5a9fe9ab5787a1114)
  [InTuneDocs\Understand\choose-how-to-manage-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/Understand/choose-how-to-manage-devices.md) | HandedOffSuccess | [Details](#8c66605b94304665d3899cfed59fd91149b0dda31115)
@@ -1945,6 +1936,15 @@
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_Planning_Groups_Parent_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/PlanDesign/media/Group-planning/Intune_Planning_Groups_Parent_small.jpg) | Ignored | [Details](#8ba875e0ab030c71630f3e6a603823610d7496fb1063)
  [InTuneDocs\PlanDesign\media\Group-planning\Intune_planning_policy_android.png_small.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/PlanDesign/media/Group-planning/Intune_planning_policy_android.png_small.jpg) | Ignored | [Details](#2ca3f1210217fe85ccc126e0e0b5fa70f2ed957e1064)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#d047b529745fd06ce1f750f103f1c7a5fcf13f871098)
+ [InTuneDocs\Troubleshoot\troubleshoot-app-deployment-problems-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune.md) | Ignored | [Details](#1d8a5cafae935b3a43bff0724562decb34b38de91103)
+ [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md) | Ignored | [Details](#e880baacd09a1b269ecb6cdd52b96f9adcba358c1104)
+ [InTuneDocs\Troubleshoot\troubleshoot-company-resource-access-problems-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-company-resource-access-problems-with-microsoft-intune.md) | Ignored | [Details](#121a9b4d3eb921e2400508ab88fb527773368e471105)
+ [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md) | Ignored | [Details](#0aec4bfb17fa049eae9ba4517a38cf9e0f4421701106)
+ [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md) | Ignored | [Details](#f0afcec51e5bcf393ca817c97a26554cdd39ab431107)
+ [InTuneDocs\Troubleshoot\troubleshoot-endpoint-protection-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune.md) | Ignored | [Details](#6c155e5ba665b53e5d9a0d01a6e0ccfb14afe1481108)
+ [InTuneDocs\Troubleshoot\troubleshoot-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-microsoft-intune.md) | Ignored | [Details](#dc9593c8462640ad82c1dc98893f573203ebee6c1109)
+ [InTuneDocs\Troubleshoot\troubleshoot-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-policies-in-microsoft-intune.md) | Ignored | [Details](#40a862bbb89eccb5494d77a0d6250457ea0c9fb51110)
+ [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md) | Ignored | [Details](#bc2ec493b7a62171a23abe59d6ef49e38c7d2f211111)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#5328c5c836ee360d6bda3415109881b5184d93631118)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec751301360801123)
  [InTuneDocs\zDeletedTopics\AppManagement\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/zDeletedTopics/AppManagement/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f647611145)
@@ -15744,108 +15744,108 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2c7610e6db78db4a332e0ee2eac51938c38e49651103'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-app-deployment-problems-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e0a33be747bbfa5cd32ca36997683a1b3d73cfa1/InTuneDocs/Troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='1d8a5cafae935b3a43bff0724562decb34b38de91103'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-app-deployment-problems-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-app-deployment-problems-in-microsoft-intune.d21e35a8fe39a74189b692654c15a7798ada5208.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/feca414b2ba80c5c17ce03488d2b1bdef8dd20dc/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-app-deployment-problems-in-microsoft-intune.d21e35a8fe39a74189b692654c15a7798ada5208.ru-ru.xlf)
-* Handoff Datetime: 2016-03-24 17:20:35
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='ee15ebc690ace1363d15742378c1b1a2313c19281104'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e0a33be747bbfa5cd32ca36997683a1b3d73cfa1/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='e880baacd09a1b269ecb6cdd52b96f9adcba358c1104'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-client-setup-in-microsoft-intune.7c5e50fa43cb7d1a7b9a1f7d4799d1a6c2655520.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/feca414b2ba80c5c17ce03488d2b1bdef8dd20dc/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-client-setup-in-microsoft-intune.7c5e50fa43cb7d1a7b9a1f7d4799d1a6c2655520.ru-ru.xlf)
-* Handoff Datetime: 2016-03-24 17:20:35
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='5072144e58601ed8931bdfd773615b9723fa79961105'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-company-resource-access-problems-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e0a33be747bbfa5cd32ca36997683a1b3d73cfa1/InTuneDocs/Troubleshoot/troubleshoot-company-resource-access-problems-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='121a9b4d3eb921e2400508ab88fb527773368e471105'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-company-resource-access-problems-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-company-resource-access-problems-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-company-resource-access-problems-with-microsoft-intune.664ec0bc561ab39ac4c20a38b786db4562999632.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/feca414b2ba80c5c17ce03488d2b1bdef8dd20dc/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-company-resource-access-problems-with-microsoft-intune.664ec0bc561ab39ac4c20a38b786db4562999632.ru-ru.xlf)
-* Handoff Datetime: 2016-03-24 17:20:35
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='875c89c776e8a5e50b2a402739686c2f091352af1106'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md)
-* Status: HandedOffSuccess
+##### <a name='0aec4bfb17fa049eae9ba4517a38cf9e0f4421701106'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-device-enrollment-in-intune.c0e4168b7349c261afccdc2a1f32f87d98e44395.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/6456a1b54f06ff2e28b279b9b5c7e91da52fb527/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-device-enrollment-in-intune.c0e4168b7349c261afccdc2a1f32f87d98e44395.ru-ru.xlf)
-* Handoff Datetime: 2016-03-02 07:30:02
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='f736dd44bed11a4f963cca4a54739cb44ff5bc231107'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='f0afcec51e5bcf393ca817c97a26554cdd39ab431107'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/6456a1b54f06ff2e28b279b9b5c7e91da52fb527/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf)
-* Handoff Datetime: 2016-03-02 07:30:02
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='b1464d820db9d9198e306fc4854ccc901854d5ac1108'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-endpoint-protection-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='6c155e5ba665b53e5d9a0d01a6e0ccfb14afe1481108'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-endpoint-protection-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-endpoint-protection-in-microsoft-intune.86fd395a98852eed43174b804b6b57543890b80d.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/6456a1b54f06ff2e28b279b9b5c7e91da52fb527/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-endpoint-protection-in-microsoft-intune.86fd395a98852eed43174b804b6b57543890b80d.ru-ru.xlf)
-* Handoff Datetime: 2016-03-02 07:30:02
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9158d57f1531fa5c1ce0905445fc139af3446bf11109'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='dc9593c8462640ad82c1dc98893f573203ebee6c1109'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-microsoft-intune.fc3949cf3bdad170fc78a5b71618ce1d73a017c4.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/6456a1b54f06ff2e28b279b9b5c7e91da52fb527/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-microsoft-intune.fc3949cf3bdad170fc78a5b71618ce1d73a017c4.ru-ru.xlf)
-* Handoff Datetime: 2016-03-02 07:30:02
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2caaa699c9c7126d18be99bbbbe068ec2c8cd3ef1110'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/Troubleshoot/troubleshoot-policies-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='40a862bbb89eccb5494d77a0d6250457ea0c9fb51110'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-policies-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-policies-in-microsoft-intune.f1453d1dd92bee30048e79f5fa4c3951d8a5dd27.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/6456a1b54f06ff2e28b279b9b5c7e91da52fb527/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-policies-in-microsoft-intune.f1453d1dd92bee30048e79f5fa4c3951d8a5dd27.ru-ru.xlf)
-* Handoff Datetime: 2016-03-02 07:30:02
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a68c322e3da4453faeadb79ed76251b1553fc4561111'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='bc2ec493b7a62171a23abe59d6ef49e38c7d2f211111'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/Troubleshoot/troubleshoot-software-updates-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9af993f7a1f28034ddccd13e15eb0b26bb1e5f21/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-software-updates-in-microsoft-intune.199be702423a42962a235744dec39a4cff032e5a.ru-ru.xlf)
-* Handoff Datetime: 2016-03-04 22:12:41
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
