@@ -281,12 +281,6 @@
   "02ff22c532f1947f57fe33ccc352469dee519669": [
     "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
   ],
-  "e108a01da309dcaaebb7dac023d13d53fb44bbcd": [
-    "InTuneDocs\\DeployUse\\wi-fi-profiles-in-microsoft-intune.md"
-  ],
-  "54ae043ed12ce341dfaa443558275136945c2641": [
-    "InTuneDocs\\DeployUse\\vpn-profiles-in-microsoft-intune.md"
-  ],
   "4a57aa9a71174369403cfcdea72ae5f610f1dbd3": [
     "InTuneDocs\\DeployUse\\install-the-windows-pc-client-with-microsoft-intune.md"
   ],
@@ -465,12 +459,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "91f102d7606ab462d678799983d994128ec16eb5": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md"
-  ],
-  "91f102d7606ab462d678799983d994128ec16eb5": [
-    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "e0c1c331ae75db45ab80439279c533edcfb874bd": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -780,12 +774,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
+  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
-  ],
-  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "86a55c5b8d78b2af87f7377f67b2721bee5c13a5": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -799,12 +793,12 @@
   "aae818487ba0313a75cecc37deadffba59fe45e6": [
     "InTuneDocs\\GetStarted\\Intune-Exchange-connector-requirements.md"
   ],
+  "a23384b89216a41aa1764af78ab5eb3808bad3a0": [
+    "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md"
+  ],
   "8fdc9c99e18bc1afa4ec8267307e86ed7fa17635": [
     "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md",
     "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector-a.md"
-  ],
-  "a23384b89216a41aa1764af78ab5eb3808bad3a0": [
-    "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md"
   ],
   "2790cb3de2bd625462dad30fa4eae85e75a0679e": [
     "InTuneDocs\\GetStarted\\Intune-on-premises-Exchange-connector.md"
@@ -1683,12 +1677,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
+  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
+  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
-  ],
-  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1961,12 +1955,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "6c155e5ba665b53e5d9a0d01a6e0ccfb14afe148": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
@@ -2022,12 +2016,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
+  ],
+  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "6dd2dc3915d9fe477a632709dcc014209ce18623": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -2765,7 +2759,7 @@
   ],
   "333c1f469c6bc549ba3d47bfae55471f6b965f0c": [
     "migrated-03-14\\Topic\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md",
-    "InTuneDocs\\DeployUse\\certificates-in-microsoft-intune-for-securing-access-to-resources.md"
+    "InTuneDocs\\DeployUse\\secure-resource-access-with-certificate-profiles.md"
   ],
   "912a31633a5d18a60100d96043fa063ce6e3691d": [
     "migrated-03-14\\Topic\\Enable-access-to-company-resources-with-Microsoft-Intune.md"
@@ -3993,5 +3987,11 @@
   ],
   "ae436c13137b09f261281b17e8adde32942f1775": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
+  ],
+  "2e31a61bf97ce9cf5f21cbc53dd3aa4767cf2f31": [
+    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
+  "462e6cb310fdc1874bb419bf749d5dac217b422d": [
+    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
   ]
 }
