@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2091
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1682
+[ Handoff Success Files ](#handoff-success-list)| 1681
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 405
+[ Ignored Files ](#ignored-list)| 406
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -56,7 +56,6 @@
  [InTuneDocs\DeployUse\Configure-certificate-infrastructure-for-scep-test.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bbd6c5293f27b68fd34d53bb79b5fe42f243b7e/InTuneDocs/DeployUse/Configure-certificate-infrastructure-for-scep-test.md) | HandedOffSuccess | [Details](#5eec155aacc3d264eacf67d607f1c4ca39847c2f33)
  [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/Configure-Intune-certificate-profiles.md) | HandedOffSuccess | [Details](#da73c9a05b2506a3997bac5aa4b83fce00c0164035)
  [InTuneDocs\DeployUse\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md) | HandedOffSuccess | [Details](#75fe78f12a816e725c8815f1507167f7f805c3f536)
- [InTuneDocs\DeployUse\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) | HandedOffSuccess | [Details](#78a311a851be1fa2baee75659e4b99d35c31981237)
  [InTuneDocs\DeployUse\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/control-what-admins-can-see-in-the-microsoft-intune-admin-console.md) | HandedOffSuccess | [Details](#272fa1325adfe4a85a176258f3a53de832772c5538)
  [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d8db32ca981c980c7397437ba373eae9617be825/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md) | HandedOffSuccess | [Details](#06bd11c4a617f10363cd2f122e0d32bb86596ac639)
  [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/de674a0d4c8842c8eeb8994e020ebb26c515d7db/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) | HandedOffSuccess | [Details](#57a36d827e541f74837a7196fe9091aeee33dabb40)
@@ -1725,6 +1724,7 @@
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/.localization-config) | Ignored | [Details](#7ca6758dcb16c24a8710c7cee79920d4f837c36d2)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
+ [InTuneDocs\DeployUse\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) | Ignored | [Details](#71237004fe6348f9711eab0f610294abe20ef63637)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e947)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476194)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e0101)
@@ -2571,12 +2571,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='78a311a851be1fa2baee75659e4b99d35c31981237'></a> Source: [InTuneDocs\DeployUse\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='71237004fe6348f9711eab0f610294abe20ef63637'></a> Source: [InTuneDocs\DeployUse\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f89461da3b567efb9b269b6a06598e22f464d2e6/InTuneDocs/DeployUse/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [control-microsoft-passport-settings-on-devices-with-microsoft-intune.3331ec6d574bd29e4421f55b94a8ed88bececd68.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/5231710b6ec34a3867842b28a68005d24fa88e36/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/control-microsoft-passport-settings-on-devices-with-microsoft-intune.3331ec6d574bd29e4421f55b94a8ed88bececd68.ru-ru.xlf)
-* Handoff Datetime: 2016-03-31 17:56:06
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
