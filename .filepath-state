@@ -447,12 +447,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "c2335a39758ac3ecb283e4ac37c4cdda14e12d5f": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
-  ],
-  "c2335a39758ac3ecb283e4ac37c4cdda14e12d5f": [
-    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "4d6a0b38938d362215b90dd3966fa334b1848e4b": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -775,12 +775,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
+  "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
-  ],
-  "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "a9695b331ec16c99c44954953b4ce2e8c888f765": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -1955,12 +1955,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "6c155e5ba665b53e5d9a0d01a6e0ccfb14afe148": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
@@ -2016,12 +2016,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "6dd2dc3915d9fe477a632709dcc014209ce18623": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -2341,46 +2341,43 @@
     "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
   ],
   "590b8647b4f4011900631031eeffd699cb86d373": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_BYOD_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_BYOD_small.png"
   ],
   "5086725ccf5b4e7446ecf28bcd809227b4af2108": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_AD_Criteria_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_AD_Criteria_small.png"
   ],
   "0c2a24408f71fce87761e3e7cb45ff35585b3436": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_AD_Summary_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_AD_Summary_small.png"
   ],
   "c6ffefad08f24040950d97a0240ff01208055588": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Laptop_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Laptop_small.png"
   ],
   "300c80fc472bc290aa7a1a9043b4dc46b121d8f8": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_OS_Hierachy_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_OS_Hierachy_small.png"
   ],
   "98124eee7714edbadea5ecec34ad71a4d2b24de6": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Midpoint_Hierachy_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Midpoint_Hierachy_small.png"
   ],
   "b43c4c9de2b6bd7157e64a3d3f61c8dbd4eb864e": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Device_General_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Device_General_small.png"
   ],
   "a7d503dd2df1555960b9745a2afeb5cbabc10d2f": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Device_Criteria_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Device_Criteria_small.png"
   ],
   "f35a8b3a5bd44701c4b4864a1c81370af7a58ac9": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_Device_Summary_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Device_Summary_small.png"
   ],
   "992bb4c23d03f3b5409fc7ddb2caa2d1c934932f": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Groups_Hierarchy_Final_Small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Groups_Hierarchy_Final_Small.png"
   ],
   "ba280c0c0ce6bda47a72ab3803226c74a3d9d935": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_planning_policy_android_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_planning_policy_android_small.png"
   ],
   "ab4b82355b287f798a8b6fad49f3327aa509df9d": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_planning_policy_view_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_planning_policy_view_small.png"
   ],
   "f2e48f9763292bbcc66a9f6b645720b36475dfad": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_BYOD_Hierachy_View_small.png"
-  ],
-  "d7407aba1f664996d13a63dd80c29734fc23702c": [
-    "InTuneDocs\\PlanDesign\\media\\Group-planning\\Intune_Planning_Groups_AD_General_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_BYOD_Hierachy_View_small.png"
   ],
   "88d12cc7e482bc8c04b81be87357bf5b0bf064b5": [
     "InTuneDocs\\GetStarted\\enterprise-rollout.md"
@@ -3748,6 +3745,9 @@
   "09cbfb8d89398de5c4324c763e96ee369aeafcbe": [
     "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
   ],
+  "8b820e93158f9bf10b12aaf7b88c758c409ca6d0": [
+    "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
+  ],
   "302bad05ad68d51a22aaf52eeabb9bc8c3633661": [
     "InTuneDocs\\DeployUse\\android-compliance-policy-settings-in-microsoft-intune.md"
   ],
@@ -3776,7 +3776,7 @@
     "InTuneDocs\\DeployUse\\windows-compliance-policy-settings-in-microsoft-intune.md"
   ],
   "c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe": [
-    "InTuneDocs\\PlanDesign\\media\\group-planning\\Intune_Planning_Groups_Default_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Default_small.png"
   ],
   "ecf3b3f27a04fa6b48bf87bc918be566ef8f1bbf": [
     "InTuneDocs\\PlanDesign\\how-your-android-users-get-their-apps.md"
