@@ -47,6 +47,9 @@
   "bb2afb9f432b33a5485761fc0dd0bc2fd8cfc3f9": [
     "InTuneDocs\\DeployUse\\android-custom-policy-settings-in-microsoft-intune.md"
   ],
+  "d23bc12812e09af48f40a2ffe7e4406f00e27c95": [
+    "InTuneDocs\\GetStarted\\application-rollout.md"
+  ],
   "af7aca1d12c4c8acf4c38eb797839c26fbf18f98": [
     "InTuneDocs\\GetStarted\\application-rollout.md",
     "migrated-03-14\\Topic\\Application-rollout.md"
@@ -750,12 +753,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
+  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
-  ],
-  "89e2a6ea298eb5c01da724b552febb81d14cbd64": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "86a55c5b8d78b2af87f7377f67b2721bee5c13a5": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -1546,6 +1549,9 @@
   "f92c45679811e28766537c05f7672bbca7cfaa56": [
     "InTuneDocs\\EULA\\microsoft-intune-privacy-statement.md"
   ],
+  "e14facf2d873f0dd533ab23beab56f7b0365db84": [
+    "InTuneDocs\\microsoft-intune-service-description.md"
+  ],
   "694cb840091a6a75d582d21b047e2ee4f961669f": [
     "InTuneDocs\\microsoft-intune-service-description.md"
   ],
@@ -1625,12 +1631,12 @@
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
-  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
-    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
-  ],
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
+  ],
+  "dc9dad8d53342b1d9d8064714ecd3bf48ca816a3": [
+    "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
   ],
   "7cf04bfe948380b12a0d4953caf8a6885de1fe80": [
     "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md"
@@ -1676,6 +1682,9 @@
   ],
   "48ceed308cf154cc4b3e6d21ae40f4ebc36f1b73": [
     "InTuneDocs\\PlanDesign\\TOC.md"
+  ],
+  "bd5790c1e0f77cea5438b5f92aeb9168539cb42a": [
+    "InTuneDocs\\GetStarted\\policy-rollout.md"
   ],
   "a9dd55237160648a2a66ab4e1a5b2cbd3159e412": [
     "InTuneDocs\\GetStarted\\policy-rollout.md",
@@ -1771,12 +1780,6 @@
   "d9dda93f6e6e003640a74b0c3201ecf4f0e1aaf2": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-update-and-retire-apps-using-intune.md",
     "InTuneDocs\\zDeletedTopics\\robstack---V2-of-Update-and-retire-apps-using-Intune.md"
-  ],
-  "d815c79e93e717a9e4be47d85bf52ab0bddb4827": [
-    "InTuneDocs\\GetStarted\\rolling-out-apps-with-microsoft-intune.md"
-  ],
-  "2c12a1d739d351fbef4ff2d6eebdca53a2ae368f": [
-    "InTuneDocs\\GetStarted\\rolling-out-microsoft-intune-policies.md"
   ],
   "7bb59ea0dc5ce46b47421074184a6949825a894a": [
     "InTuneDocs\\set-up-computer-device-management-with-microsoft-intune.md",
@@ -1918,12 +1921,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "6c155e5ba665b53e5d9a0d01a6e0ccfb14afe148": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
@@ -1979,12 +1982,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "6dd2dc3915d9fe477a632709dcc014209ce18623": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
