@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2100
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1691
+[ Handoff Success Files ](#handoff-success-list)| 1689
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 405
+[ Ignored Files ](#ignored-list)| 407
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -65,8 +65,6 @@
  [InTuneDocs\DeployUse\custom-uri-settings-for-windows-10-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e631ecbe20b541e12b96d627dbd4a729a79d1f5e/InTuneDocs/DeployUse/custom-uri-settings-for-windows-10-devices.md) | HandedOffSuccess | [Details](#d77b7518d546f5a8286d7c60fc4e58d256c7af1843)
  [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1ef70d7bd7e85ccff676c8719796fd11bf36447b/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) | HandedOffSuccess | [Details](#af66de5557b6efce997a73355358eae3104bc91944)
  [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/87caf9addd4a8b92c66ed1c65033eece5898ca2a/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) | HandedOffSuccess | [Details](#9ba85c178eccda3b4167f6d084e805aa5f18af1f45)
- [InTuneDocs\DeployUse\deploy-apps-to-mobile-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/deploy-apps-to-mobile-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#e466927e6d8c2c736efe0ce282efffcf6eae500146)
- [InTuneDocs\DeployUse\deploy-apps-to-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e631ecbe20b541e12b96d627dbd4a729a79d1f5e/InTuneDocs/DeployUse/deploy-apps-to-windows-pcs-in-microsoft-intune.md) | HandedOffSuccess | [Details](#1a8b2827b3d168bb051d713e4eb23c2601d88bc247)
  [InTuneDocs\DeployUse\edition-upgrade-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b80d3b79eb65e949655cb4961cdca23157b2ab9a/InTuneDocs/DeployUse/edition-upgrade-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#2f05d3dc70bf611288e9046e8d556d07d765252a49)
  [InTuneDocs\DeployUse\enable-access-to-company-resources-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/DeployUse/enable-access-to-company-resources-with-microsoft-intune.md) | HandedOffSuccess | [Details](#d07dd9c06df839e22e304ae77d78981a57e980e950)
  [InTuneDocs\DeployUse\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md) | HandedOffSuccess | [Details](#3fc10bed9c87db8a30a4edec016c4ea63a49d80851)
@@ -1734,6 +1732,8 @@
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/.localization-config) | Ignored | [Details](#7ca6758dcb16c24a8710c7cee79920d4f837c36d2)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
+ [InTuneDocs\DeployUse\deploy-apps-to-mobile-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/deploy-apps-to-mobile-devices-in-microsoft-intune.md) | Ignored | [Details](#94cdd3a472bbcd00851192b47506d56549d4ce8946)
+ [InTuneDocs\DeployUse\deploy-apps-to-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/deploy-apps-to-windows-pcs-in-microsoft-intune.md) | Ignored | [Details](#ba0a181510451194718509f01e67aba6753c488447)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e948)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476196)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e0103)
@@ -2688,24 +2688,24 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e466927e6d8c2c736efe0ce282efffcf6eae500146'></a> Source: [InTuneDocs\DeployUse\deploy-apps-to-mobile-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/deploy-apps-to-mobile-devices-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='94cdd3a472bbcd00851192b47506d56549d4ce8946'></a> Source: [InTuneDocs\DeployUse\deploy-apps-to-mobile-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/deploy-apps-to-mobile-devices-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [deploy-apps-to-mobile-devices-in-microsoft-intune.1d7183f9b203e05ecadfb476c013e8544897d54c.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/3e8eca26c13d151b92ab82a0d60ce681c8b986be/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-apps-to-mobile-devices-in-microsoft-intune.1d7183f9b203e05ecadfb476c013e8544897d54c.ru-ru.xlf)
-* Handoff Datetime: 2016-03-26 23:48:15
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='1a8b2827b3d168bb051d713e4eb23c2601d88bc247'></a> Source: [InTuneDocs\DeployUse\deploy-apps-to-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e631ecbe20b541e12b96d627dbd4a729a79d1f5e/InTuneDocs/DeployUse/deploy-apps-to-windows-pcs-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='ba0a181510451194718509f01e67aba6753c488447'></a> Source: [InTuneDocs\DeployUse\deploy-apps-to-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/DeployUse/deploy-apps-to-windows-pcs-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [deploy-apps-to-windows-pcs-in-microsoft-intune.fd700965d150ad25bf9d47c82f9a24133d5f5339.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/c1e949914fabfe9e85247d91895e1b6ec0e8a290/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-apps-to-windows-pcs-in-microsoft-intune.fd700965d150ad25bf9d47c82f9a24133d5f5339.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 22:44:29
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
