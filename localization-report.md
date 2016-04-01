@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2100
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1693
+[ Handoff Success Files ](#handoff-success-list)| 1688
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 403
+[ Ignored Files ](#ignored-list)| 408
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -45,7 +45,6 @@
  [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d8db32ca981c980c7397437ba373eae9617be825/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#302bad05ad68d51a22aaf52eeabb9bc8c363366123)
  [InTuneDocs\DeployUse\android-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b80d3b79eb65e949655cb4961cdca23157b2ab9a/InTuneDocs/DeployUse/android-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#90f04a8c62cdd3a03ff372717b020b3ae694e2a924)
  [InTuneDocs\DeployUse\android-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c8effe023a76a081010f55240109e47bb0dc2857/InTuneDocs/DeployUse/android-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#0b803bb6a5e04e6e38a723578772a893814d7cc625)
- [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6ec7b59df33cf891c1468603a145235774fcf890/InTuneDocs/DeployUse/android-mam-policy-settings.md) | HandedOffSuccess | [Details](#75027d332bff2481c5d2cbbe4e8b5e92741c6f8326)
  [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3eb25572c07a04f852c1bb3cf056860aee6560e8/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md) | HandedOffSuccess | [Details](#ae436c13137b09f261281b17e8adde32942f177527)
  [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f6454fa8d6acca8131b9d3b73dc03f1f2d8decec/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md) | HandedOffSuccess | [Details](#aaf572a1ce6096a91c31b0db077315e4a2d6cdfb28)
  [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md) | HandedOffSuccess | [Details](#95a10008d39b42cfd87d3fcec6ec6b6046ffb1c029)
@@ -93,7 +92,6 @@
  [InTuneDocs\DeployUse\ios-custom-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f6454fa8d6acca8131b9d3b73dc03f1f2d8decec/InTuneDocs/DeployUse/ios-custom-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#e2f5a88a703f60b4c12c908e3ee4aa272a52348a72)
  [InTuneDocs\DeployUse\ios-device-enrollment-program.md](https://github.com/Microsoft/IntuneDocs-pr/blob/36d56d5991d7c01ac974fdbe870e2cc84c7b39c9/InTuneDocs/DeployUse/ios-device-enrollment-program.md) | HandedOffSuccess | [Details](#f36b13271489da2759f9179e4d32ca2e357ed23d73)
  [InTuneDocs\DeployUse\ios-direct-enrollment.md](https://github.com/Microsoft/IntuneDocs-pr/blob/36d56d5991d7c01ac974fdbe870e2cc84c7b39c9/InTuneDocs/DeployUse/ios-direct-enrollment.md) | HandedOffSuccess | [Details](#7e861dae45abe46240dda6c6151c0b5111d4eddc74)
- [InTuneDocs\DeployUse\ios-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6ec7b59df33cf891c1468603a145235774fcf890/InTuneDocs/DeployUse/ios-mam-policy-settings.md) | HandedOffSuccess | [Details](#b5de57ae1991be5118d0254fe2b391d9c7fbc9cd75)
  [InTuneDocs\DeployUse\ios-setup-assistant-enrollment.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7e809b8aef8b4e9e4713baf77fb040ed8edeb905/InTuneDocs/DeployUse/ios-setup-assistant-enrollment.md) | HandedOffSuccess | [Details](#7a3870776c6771388186e262bf753cd815beda9e76)
  [InTuneDocs\DeployUse\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md) | HandedOffSuccess | [Details](#0cd7136fbac907317910549a6f6fd78afc89a90277)
  [InTuneDocs\DeployUse\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) | HandedOffSuccess | [Details](#cd5f0911b0f73f7c71d22a1a5c2e9538e7eba46b78)
@@ -214,14 +212,11 @@
  [InTuneDocs\DeployUse\overview-of-the-microsoft-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/overview-of-the-microsoft-intune-app-sdk.md) | HandedOffSuccess | [Details](#2338049411e62d73ecaf959cd995fbc775b9f59f245)
  [InTuneDocs\DeployUse\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e6552ed9521edbcac1bc51c9ff1f5f424f69113d/InTuneDocs/DeployUse/plan-your-user-and-device-groups.md) | HandedOffSuccess | [Details](#8b820e93158f9bf10b12aaf7b88c758c409ca6d0247)
  [InTuneDocs\DeployUse\plan-your-user-and-device-groups-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/43d093a46b4ffcb431195967c77b25b1f76be0f3/InTuneDocs/DeployUse/plan-your-user-and-device-groups-old.md) | HandedOffSuccess | [Details](#c69e2b425499d554a9b12d5154f6be19894ea8ed246)
- [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/43d093a46b4ffcb431195967c77b25b1f76be0f3/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | HandedOffSuccess | [Details](#e0b77d57d718695cb63df8105c7fba9b56eec67f250)
  [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md) | HandedOffSuccess | [Details](#036ed4102ccd15582e2cbb6340e04e9fed93fed3249)
- [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1ef70d7bd7e85ccff676c8719796fd11bf36447b/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | HandedOffSuccess | [Details](#52bbe4170746cb01dabd3e161ed39f00e893be76252)
  [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-app-management.md) | HandedOffSuccess | [Details](#0a2e17b67a34b1da395cd4850d82879e242ef07c251)
  [InTuneDocs\DeployUse\pre-shared-key-wi-fi-profile.md](https://github.com/Microsoft/IntuneDocs-pr/blob/436ca5d6e89bef8544570f5e6edb418cc7265eeb/InTuneDocs/DeployUse/pre-shared-key-wi-fi-profile.md) | HandedOffSuccess | [Details](#d211711ad142aa99dab0b7f1a2569ef2ffc54b3a248)
  [InTuneDocs\DeployUse\previous-intune-releases.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/previous-intune-releases.md) | HandedOffSuccess | [Details](#5b6d1923e8a9c6251ff5d18eea465530e2442961253)
  [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md) | HandedOffSuccess | [Details](#bea41dfa2f582cbbf88a464876d7729892eae6d2254)
- [InTuneDocs\DeployUse\protect-data-and-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/DeployUse/protect-data-and-devices-with-microsoft-intune.md) | HandedOffSuccess | [Details](#a146ccdfe22bf0288f45bff8002b25dc2f4f2922255)
  [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e0a33be747bbfa5cd32ca36997683a1b3d73cfa1/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md) | HandedOffSuccess | [Details](#efb5f812fc4720e6829bbbb86447cf2d35e19bd5256)
  [InTuneDocs\DeployUse\Release-notes-for-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/Release-notes-for-Microsoft-Intune.md) | HandedOffSuccess | [Details](#51cd068a83081ddc9b4fd65c579f4869b8aa4dff257)
  [InTuneDocs\DeployUse\renew-a-symantec-code-signing-certificate.md](https://github.com/Microsoft/IntuneDocs-pr/blob/36d56d5991d7c01ac974fdbe870e2cc84c7b39c9/InTuneDocs/DeployUse/renew-a-symantec-code-signing-certificate.md) | HandedOffSuccess | [Details](#42cea8b8d710e763a7afe603e9db1831453486c2258)
@@ -1736,7 +1731,9 @@
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/.localization-config) | Ignored | [Details](#7ca6758dcb16c24a8710c7cee79920d4f837c36d2)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
+ [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/android-mam-policy-settings.md) | Ignored | [Details](#0d2fe2af3be86273623b9a3f0073235561925a9526)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e948)
+ [InTuneDocs\DeployUse\ios-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/ios-mam-policy-settings.md) | Ignored | [Details](#34aec4b39f2b3beaacf22e80a9c42a7cd62f1ef875)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476196)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e0103)
  [InTuneDocs\DeployUse\media\App_Access_EXO.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/media/App_Access_EXO.png) | Ignored | [Details](#2b6df2d39a7f26448017cf118278efe1197bdeca105)
@@ -1789,6 +1786,9 @@
  [InTuneDocs\DeployUse\media\SCEP_Registry_editor_MSCEP.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/media/SCEP_Registry_editor_MSCEP.png) | Ignored | [Details](#bfc8fc4530e19362ec49490a1f70ed336477d701232)
  [InTuneDocs\DeployUse\media\SCEP_Registry_MDM.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/media/SCEP_Registry_MDM.png) | Ignored | [Details](#ba3a1aa88585ec5753eb25d94943732d57ab652c233)
  [InTuneDocs\DeployUse\media\SCEP_SSL_settings.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/media/SCEP_SSL_settings.png) | Ignored | [Details](#fd444a39ea7fdea011b5ba7d32147e684a6a1e32234)
+ [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | Ignored | [Details](#c16e69177cdca4de9872b65178e40b7dd93a09db250)
+ [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | Ignored | [Details](#c4267e6301e031340cecbd70aec9189916a98623252)
+ [InTuneDocs\DeployUse\protect-data-and-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/protect-data-and-devices-with-microsoft-intune.md) | Ignored | [Details](#4979909c28a5d98c7f2dafdc7c8212c6730a3bec255)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2306)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#7b0885b6fc884f750560f0ad7cbe12d6cd66fdd0325)
  [InTuneDocs\EndUser\media\andr_verbose_logging-and-send-diag-data.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/EndUser/media/andr_verbose_logging-and-send-diag-data.png) | Ignored | [Details](#c731f6ba43cc20467593b1c05d920c05e14f1f0a365)
@@ -2448,12 +2448,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='75027d332bff2481c5d2cbbe4e8b5e92741c6f8326'></a> Source: [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6ec7b59df33cf891c1468603a145235774fcf890/InTuneDocs/DeployUse/android-mam-policy-settings.md)
-* Status: HandedOffSuccess
+##### <a name='0d2fe2af3be86273623b9a3f0073235561925a9526'></a> Source: [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/android-mam-policy-settings.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/08c53e2baa0648628edca750e5c3158c62708e4e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ru-ru.xlf)
-* Handoff Datetime: 2016-04-01 15:03:40
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -3036,12 +3036,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='b5de57ae1991be5118d0254fe2b391d9c7fbc9cd75'></a> Source: [InTuneDocs\DeployUse\ios-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6ec7b59df33cf891c1468603a145235774fcf890/InTuneDocs/DeployUse/ios-mam-policy-settings.md)
-* Status: HandedOffSuccess
+##### <a name='34aec4b39f2b3beaacf22e80a9c42a7cd62f1ef875'></a> Source: [InTuneDocs\DeployUse\ios-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/ios-mam-policy-settings.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [ios-mam-policy-settings.4eeb53ea93ef4e93270a12c19b318527311bd966.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/08c53e2baa0648628edca750e5c3158c62708e4e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/ios-mam-policy-settings.4eeb53ea93ef4e93270a12c19b318527311bd966.ru-ru.xlf)
-* Handoff Datetime: 2016-04-01 15:03:40
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -5200,12 +5200,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e0b77d57d718695cb63df8105c7fba9b56eec67f250'></a> Source: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/43d093a46b4ffcb431195967c77b25b1f76be0f3/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
-* Status: HandedOffSuccess
+##### <a name='c16e69177cdca4de9872b65178e40b7dd93a09db250'></a> Source: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.616f51519eb2c73576b2d965d4745db81c21828d.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/2019bb4cc021764823ea9317bd40f5bc6a2bf2d8/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.616f51519eb2c73576b2d965d4745db81c21828d.ru-ru.xlf)
-* Handoff Datetime: 2016-04-01 21:58:17
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -5224,12 +5224,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='52bbe4170746cb01dabd3e161ed39f00e893be76252'></a> Source: [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1ef70d7bd7e85ccff676c8719796fd11bf36447b/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
-* Status: HandedOffSuccess
+##### <a name='c4267e6301e031340cecbd70aec9189916a98623252'></a> Source: [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.4831931e1f3b985f24251fb4f18e4604c7b08413.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/c8b7e53def8087aafa7c35554fdc3c6b05365640/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.4831931e1f3b985f24251fb4f18e4604c7b08413.ru-ru.xlf)
-* Handoff Datetime: 2016-03-21 20:05:56
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -5284,12 +5284,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a146ccdfe22bf0288f45bff8002b25dc2f4f2922255'></a> Source: [InTuneDocs\DeployUse\protect-data-and-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/DeployUse/protect-data-and-devices-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='4979909c28a5d98c7f2dafdc7c8212c6730a3bec255'></a> Source: [InTuneDocs\DeployUse\protect-data-and-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9b662fdc1d809d7c996d1348b39f828011c015af/InTuneDocs/DeployUse/protect-data-and-devices-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [protect-data-and-devices-with-microsoft-intune.e34316d15532e19c2927ad9fe34ebf93327dea7e.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/6456a1b54f06ff2e28b279b9b5c7e91da52fb527/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/protect-data-and-devices-with-microsoft-intune.e34316d15532e19c2927ad9fe34ebf93327dea7e.ru-ru.xlf)
-* Handoff Datetime: 2016-03-02 07:30:02
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
