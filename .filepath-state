@@ -501,12 +501,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "f283b222c3e484977bcb783f1364f51db68e35ff": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
+  ],
+  "f283b222c3e484977bcb783f1364f51db68e35ff": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "12a20f619c5e38820ce130014b550ffcccb46174": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -754,6 +754,9 @@
   "e868289a41edf196acb6251aa66ff41232be4693": [
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-30-day-trial-of-microsoft-intune-bryanla.md"
   ],
+  "067009ec0195ec746945dc215cc506269b9b0dbb": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
+  ],
   "0f542fb9dd55ff7e8283d35204834f238391dff6": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-1.md"
   ],
@@ -799,6 +802,9 @@
   "233bf09a4f18b14d3de87fe3f8346eb3e7de491e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-2.md"
   ],
+  "aff42031e4eacf53cbe83d72eea451b6711ef4d7": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md"
+  ],
   "239cf7af4d8a6e9f69c64a82e6eeddbe051e5999": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md"
   ],
@@ -813,6 +819,9 @@
   ],
   "6a7276fe891f9ab7df8f047812d786292cb10c4f": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-3.md"
+  ],
+  "21c72fff6b510bd36e1f0d4263bd39c59700aa13": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
   ],
   "cb5143de9ef1b7fb98ba83392ed4b56572adba22": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
@@ -832,6 +841,9 @@
   "2807a7d688e6cda2794c4582a13db9f5afdaad8e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-4.md"
   ],
+  "3819f98df9ae004a9104d41778d9e99bbe1e8b41": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
+  ],
   "37eb357b159c4b7003453e33dec4624148e0ace1": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
@@ -849,6 +861,9 @@
   ],
   "f613536f3128351d18634ab0c9b66995d38b5567": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
+  ],
+  "410dbf1827dcf7e7f4b79d7ed981c3b029b71fa7": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
   ],
   "e2af8957a001d8d6af45a69c07342c021f280f25": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
@@ -871,6 +886,9 @@
   "deb368f6ab007bba9bb1f22ca0b2cbc4c0b0d90e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
   ],
+  "1ca82ecbe4b97f35dbfa47fcc01ac4816d352038": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+  ],
   "d4467496559e6cd8181cf597f4d4425df190b545": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
   ],
@@ -891,6 +909,9 @@
   ],
   "ba9bcf2b25403335e0685c22779f7a9d4a7b7a02": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+  ],
+  "dae4c225e3c5430512c4678c90f5b83e6d786431": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md"
   ],
   "9f2e2c28ce5c2b97642b16e2a8c65a8e7a3f2234": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-8.md"
@@ -2117,12 +2138,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "6c155e5ba665b53e5d9a0d01a6e0ccfb14afe148": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
@@ -2172,12 +2193,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "6dd2dc3915d9fe477a632709dcc014209ce18623": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
