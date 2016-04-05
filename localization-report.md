@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2105
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1699
+[ Handoff Success Files ](#handoff-success-list)| 1698
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 402
+[ Ignored Files ](#ignored-list)| 403
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -1722,7 +1722,6 @@
  [migrated-03-14\Topic\What-s-new-in-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/11091bc5fb451cfaf6eaa923eafe6df506324960/migrated-03-14/Topic/What-s-new-in-Microsoft-Intune.md) | HandedOffSuccess | [Details](#00f65b895fdc5d1f147c55ea818f61b5780598672101)
  [migrated-03-14\Topic\Wipe-company-data-from-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/db4f0f281427a72cb37728497b8f9e1475139f39/migrated-03-14/Topic/Wipe-company-data-from-devices.md) | HandedOffSuccess | [Details](#f9d96146e65c7e22aa39e22b00026f0c8615cc1f2102)
  [README.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/README.md) | HandedOffSuccess | [Details](#6dd24480ad7926e0c3cd9765dc386a3cf88dfcff2103)
- [template.md](https://github.com/Microsoft/IntuneDocs-pr/blob/51d370aae4fabf7f10d28261aadd066ddfbfe45c/template.md) | HandedOffSuccess | [Details](#7a163efdec5a79af7b1185ebe12dbb4dd4fc50912104)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -2139,6 +2138,7 @@
  [migrated-03-14\Image\WIT_TryNowIcon.png](https://github.com/Microsoft/IntuneDocs-pr/blob/db4f0f281427a72cb37728497b8f9e1475139f39/migrated-03-14/Image/WIT_TryNowIcon.png) | Ignored | [Details](#91f9a79ec71f220d6c9a450e2aae190d5e30f2ca1831)
  [migrated-03-14\Image\WIT_TryNowIcon2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/db4f0f281427a72cb37728497b8f9e1475139f39/migrated-03-14/Image/WIT_TryNowIcon2.png) | Ignored | [Details](#9f80ffe98f18b9a0023f224433b99b9525f5c5111832)
  [migrated-03-14\Image\wit_walk_cert2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/db4f0f281427a72cb37728497b8f9e1475139f39/migrated-03-14/Image/wit_walk_cert2.png) | Ignored | [Details](#8fafed2e2654f26fb665ae8fe5d78bb98bcba1201833)
+ [template.md](https://github.com/Microsoft/IntuneDocs-pr/blob/db4f0f281427a72cb37728497b8f9e1475139f39/template.md) | Ignored | [Details](#68090a038cec49009b6bd0ce0515a075f62483b82104)
 
 ## Item Details
 ##### <a name='7c4de7495fb4bb76bd8b9102a4ab583ce46e5cad0'></a> Source: [.gitignore](https://github.com/Microsoft/IntuneDocs-pr/blob/db4f0f281427a72cb37728497b8f9e1475139f39/.gitignore)
@@ -28091,12 +28091,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='7a163efdec5a79af7b1185ebe12dbb4dd4fc50912104'></a> Source: [template.md](https://github.com/Microsoft/IntuneDocs-pr/blob/51d370aae4fabf7f10d28261aadd066ddfbfe45c/template.md)
-* Status: HandedOffSuccess
+##### <a name='68090a038cec49009b6bd0ce0515a075f62483b82104'></a> Source: [template.md](https://github.com/Microsoft/IntuneDocs-pr/blob/db4f0f281427a72cb37728497b8f9e1475139f39/template.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [template.12b03ec855505fd1042cbbbe12a9fd6139a0ec6a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/6ef7cabe8ddb6b36e79c77de94873b7b867a17e3/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/template.12b03ec855505fd1042cbbbe12a9fd6139a0ec6a.ru-ru.xlf)
-* Handoff Datetime: 2016-04-04 19:30:07
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
