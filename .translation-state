@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "3874d037f7cd19355951be95cd5edfc4cee17f97",
+  "LastProcessedCommit": "7ebe544d7e4c98c7bbda86f7c631e51156863b62",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -10049,7 +10049,8 @@
         "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups-old.md",
         "InTuneDocs\\GetStarted\\operations-and-maintenance.md",
         "InTuneDocs\\zDeletedTopics\\restrict-access to-legacy-exchange-online-dedicated-with-microsoft-intune.md",
-        "InTuneDocs\\zDeletedTopics\\restrict-access-to-new-exchange-online-dedicated-with-microsoft-intune.md"
+        "InTuneDocs\\zDeletedTopics\\restrict-access-to-new-exchange-online-dedicated-with-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\restrict-email-access-example-scenarios.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -18401,7 +18402,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-06T15:42:55.1640837Z",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18412,7 +18413,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 148,
+      "HandoffFailureTimes": 149,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18442,7 +18443,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-06T15:42:55.1640837Z",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18453,7 +18454,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 148,
+      "HandoffFailureTimes": 149,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18483,7 +18484,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-06T15:42:55.1640837Z",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18494,7 +18495,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 148,
+      "HandoffFailureTimes": 149,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -45456,8 +45457,8 @@
         "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf",
-      "HandoffFileCommit": "b0966db2949681a80891afdf09aed81ac56d13d7",
-      "HandoffDateTime": "2016-04-06T02:16:13.4447695Z",
+      "HandoffFileCommit": "8955b5ad313fd9122ab662714ea005e75d9f24fb",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -49558,8 +49559,8 @@
         "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf",
-      "HandoffFileCommit": "b0966db2949681a80891afdf09aed81ac56d13d7",
-      "HandoffDateTime": "2016-04-06T02:16:13.4447695Z",
+      "HandoffFileCommit": "8955b5ad313fd9122ab662714ea005e75d9f24fb",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -57065,8 +57066,8 @@
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf",
-      "HandoffFileCommit": "b0966db2949681a80891afdf09aed81ac56d13d7",
-      "HandoffDateTime": "2016-04-06T02:16:13.4447695Z",
+      "HandoffFileCommit": "8955b5ad313fd9122ab662714ea005e75d9f24fb",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -58746,8 +58747,8 @@
         "InTuneDocs\\DeployUse\\TOC.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf",
-      "HandoffFileCommit": "b0966db2949681a80891afdf09aed81ac56d13d7",
-      "HandoffDateTime": "2016-04-06T02:16:13.4447695Z",
+      "HandoffFileCommit": "8955b5ad313fd9122ab662714ea005e75d9f24fb",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -58777,6 +58778,99 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\monitor-apps-in-microsoft-intune.79b58bbbaa034a0061e2930e174c00533ebed8ad.ru-ru.xlf",
       "HandoffFileCommit": "ff7794888b9541dbb9aad6c38694c5209c44bfe7",
       "HandoffDateTime": "2016-04-06T15:42:55.1640837Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "5e809985bfad2f27cc6debf14016d0c31ef43e17": {
+      "FileHash": "5e809985bfad2f27cc6debf14016d0c31ef43e17",
+      "SourceFileCommit": "7ebe544d7e4c98c7bbda86f7c631e51156863b62",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\restrict-access-to-exchange-online-with-microsoft-intune.bc56e1909be24acd67d27d42c5ca8cee9bb9afc8.ru-ru.xlf",
+      "HandoffFileCommit": "8955b5ad313fd9122ab662714ea005e75d9f24fb",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "9ef44eef1f6b15902ce1ca60601326e8c37fe93f": {
+      "FileHash": "9ef44eef1f6b15902ce1ca60601326e8c37fe93f",
+      "SourceFileCommit": "7ebe544d7e4c98c7bbda86f7c631e51156863b62",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\restrict-access-to-exchange-onpremises-with-microsoft-intune.7099573a7f54421b76cc21103d7869efa6122f94.ru-ru.xlf",
+      "HandoffFileCommit": "8955b5ad313fd9122ab662714ea005e75d9f24fb",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "630ef8fdc69ef9fb54159aca104e6925d64527d9": {
+      "FileHash": "630ef8fdc69ef9fb54159aca104e6925d64527d9",
+      "SourceFileCommit": "7ebe544d7e4c98c7bbda86f7c631e51156863b62",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\restrict-email-access-example-scenarios.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\restrict-email-access-example-scenarios.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\restrict-email-access-example-scenarios.864d5c5f75fe174593dadf9ad193d7a2fa2efc21.ru-ru.xlf",
+      "HandoffFileCommit": "8955b5ad313fd9122ab662714ea005e75d9f24fb",
+      "HandoffDateTime": "2016-04-06T16:07:03.8633401Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
