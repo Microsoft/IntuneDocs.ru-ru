@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2109
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1703
+[ Handoff Success Files ](#handoff-success-list)| 1688
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 402
+[ Ignored Files ](#ignored-list)| 417
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -861,27 +861,12 @@
  [InTuneDocs\passcode-reset-and-remote-lock.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/passcode-reset-and-remote-lock.md) | HandedOffSuccess | [Details](#9a72c7ee636565702a6229bd4d1e9bbe160728db1067)
  [InTuneDocs\placeholder.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/placeholder.md) | HandedOffSuccess | [Details](#8dc11d8bb82dcbde8730bfa632f6a9229499e2f31069)
  [InTuneDocs\placeholder-so-i-can-paste-other-topics-into-this-folder.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/placeholder-so-i-can-paste-other-topics-into-this-folder.md) | HandedOffSuccess | [Details](#4a22ca10923e1444be6b2e2f6678e7efac8867671068)
- [InTuneDocs\PlanDesign\help-end-users-understand-company-portal-app-messages.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/PlanDesign/help-end-users-understand-company-portal-app-messages.md) | HandedOffSuccess | [Details](#8cfe57d4ec1c10858ec98fd6def5d62da551d8651072)
- [InTuneDocs\PlanDesign\help-secure-access-from-hotel-kiosks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/help-secure-access-from-hotel-kiosks.md) | HandedOffSuccess | [Details](#6784559091deec6b9bc1e3e73926571e7b07f0d11073)
- [InTuneDocs\PlanDesign\help-secure-office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/help-secure-office-365.md) | HandedOffSuccess | [Details](#1cf2b20634f7696bef7ed0099b47644df11215451074)
- [InTuneDocs\PlanDesign\help-secure-on-premises-resources.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/help-secure-on-premises-resources.md) | HandedOffSuccess | [Details](#67a605acb7726ce5a2a608af0f93b9d7e6857fd81075)
  [InTuneDocs\PlanDesign\how-your-android-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/PlanDesign/how-your-android-users-get-their-apps.md) | HandedOffSuccess | [Details](#986e45848589accc5a4f2a0607fe029379a28bbb1076)
  [InTuneDocs\PlanDesign\how-your-ios-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/PlanDesign/how-your-ios-users-get-their-apps.md) | HandedOffSuccess | [Details](#64dc31ce8afbb4763964679d78c38a067bfab1801077)
  [InTuneDocs\PlanDesign\how-your-windows-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/PlanDesign/how-your-windows-users-get-their-apps.md) | HandedOffSuccess | [Details](#08c3be00f714019893604d542252b562dc7ec4711078)
- [InTuneDocs\PlanDesign\manage-corporate-owned-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/manage-corporate-owned-mobile-devices.md) | HandedOffSuccess | [Details](#bb94add518c3d9f9fcb3772b18919c51ee1a8bfe1079)
- [InTuneDocs\PlanDesign\manage-shared-retail-tablet-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/manage-shared-retail-tablet-devices.md) | HandedOffSuccess | [Details](#9fa399fc7078ce6b1558a7b6d4ad3b5ca93504d21080)
  [InTuneDocs\PlanDesign\media\150x150.png](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f711081)
- [InTuneDocs\PlanDesign\migrating-to-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune.md) | HandedOffSuccess | [Details](#766a5eff5b193b2cec99a1e77877910140e1c5cf1087)
- [InTuneDocs\PlanDesign\migrating-to-intune-step-four.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-four.md) | HandedOffSuccess | [Details](#c153da26c6db15585f5025b3b04e4b43659707401082)
- [InTuneDocs\PlanDesign\migrating-to-intune-step-one.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-one.md) | HandedOffSuccess | [Details](#4814cbc9923cc59c7692499f49cc04904128462a1083)
- [InTuneDocs\PlanDesign\migrating-to-intune-step-three.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-three.md) | HandedOffSuccess | [Details](#6071edba4f3b4016f2c92390c6d53bb8ee5602ce1084)
- [InTuneDocs\PlanDesign\migrating-to-intune-step-two.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-two.md) | HandedOffSuccess | [Details](#125d52654ca11554362b64a370d5b78884037db01085)
- [InTuneDocs\PlanDesign\migrating-to-intune-worksheet.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-worksheet.md) | HandedOffSuccess | [Details](#a989fff8cebf92a8a4fca60157ed8d0b3ec740691086)
- [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md) | HandedOffSuccess | [Details](#a99798e38812764bc9a0de3d47650f8cfb76448f1088)
  [InTuneDocs\PlanDesign\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc96531089)
- [InTuneDocs\PlanDesign\support-byod.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/support-byod.md) | HandedOffSuccess | [Details](#9c94f46a8dd34beb668382fe9d9ab898e1267d3e1090)
  [InTuneDocs\PlanDesign\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8500966ac8d956149896f6c019de176efdd9fc72/InTuneDocs/PlanDesign/TOC.md) | HandedOffSuccess | [Details](#a8f5dfa705a530be28313c4dcf2694fd955900221091)
- [InTuneDocs\PlanDesign\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/PlanDesign/what-to-tell-your-end-users-about-using-microsoft-intune.md) | HandedOffSuccess | [Details](#1c294ee6c2852749742e14a7dcfa1ff0e26222e01092)
  [InTuneDocs\plan-for-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/plan-for-apps.md) | HandedOffSuccess | [Details](#1d39e7f2b7ad7cb487fb2c364bcf7bda75778e771070)
  [InTuneDocs\planning-toc.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/planning-toc.md) | HandedOffSuccess | [Details](#d9f86952d9c9f5d88b85a9abdc0a228381f95c2f1093)
  [InTuneDocs\protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md) | HandedOffSuccess | [Details](#71946477ba7cc9b2384228c8733d39d21ed81c0f1094)
@@ -1972,6 +1957,21 @@
  [InTuneDocs\media\WIT_TryNowIcon.png](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/media/WIT_TryNowIcon.png) | Ignored | [Details](#91f9a79ec71f220d6c9a450e2aae190d5e30f2ca1048)
  [InTuneDocs\media\WIT_TryNowIcon2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/media/WIT_TryNowIcon2.png) | Ignored | [Details](#9f80ffe98f18b9a0023f224433b99b9525f5c5111049)
  [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/docfx.json) | Ignored | [Details](#7ff4ccabef0f7e76ffe067c9b7d29704d45a34171071)
+ [InTuneDocs\PlanDesign\help-end-users-understand-company-portal-app-messages.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-end-users-understand-company-portal-app-messages.md) | Ignored | [Details](#05885270c8f36c789e0277b2ae15adb26323e5ca1072)
+ [InTuneDocs\PlanDesign\help-secure-access-from-hotel-kiosks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-secure-access-from-hotel-kiosks.md) | Ignored | [Details](#5206d7a6720392570897ec36aea5c317422969fa1073)
+ [InTuneDocs\PlanDesign\help-secure-office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-secure-office-365.md) | Ignored | [Details](#eb3764065a7f6c5a7137b8507badc0cd39b82c191074)
+ [InTuneDocs\PlanDesign\help-secure-on-premises-resources.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-secure-on-premises-resources.md) | Ignored | [Details](#04825b65d6e71847282bf40d99752cdf1092b60d1075)
+ [InTuneDocs\PlanDesign\manage-corporate-owned-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/manage-corporate-owned-mobile-devices.md) | Ignored | [Details](#601f796ec40982713c9e7084b0a8c03ef42cf6901079)
+ [InTuneDocs\PlanDesign\manage-shared-retail-tablet-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/manage-shared-retail-tablet-devices.md) | Ignored | [Details](#02786d20c0dc5458091de2a132840cd76c06c3041080)
+ [InTuneDocs\PlanDesign\migrating-to-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune.md) | Ignored | [Details](#071acf09a1b9192ae184f6b73145741ecc63ddf81087)
+ [InTuneDocs\PlanDesign\migrating-to-intune-step-four.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-four.md) | Ignored | [Details](#85871ca964157cbabaab00f04a6e5866fe6b183b1082)
+ [InTuneDocs\PlanDesign\migrating-to-intune-step-one.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-one.md) | Ignored | [Details](#cbaedbc07ee70adb2a1187846cb5d593829264ff1083)
+ [InTuneDocs\PlanDesign\migrating-to-intune-step-three.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-three.md) | Ignored | [Details](#a6ba338b7c4a24f918eba33b899371a7279fdb461084)
+ [InTuneDocs\PlanDesign\migrating-to-intune-step-two.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-two.md) | Ignored | [Details](#aba709f5899bb6e10dfe8b4500d200b4c69be7241085)
+ [InTuneDocs\PlanDesign\migrating-to-intune-worksheet.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-worksheet.md) | Ignored | [Details](#040c6944c7134d4f9fa3ee51ac7e4703932efad01086)
+ [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md) | Ignored | [Details](#06c9e06461fd7127cef007a97688a15a6845c9181088)
+ [InTuneDocs\PlanDesign\support-byod.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/support-byod.md) | Ignored | [Details](#a961b924403dcfa855000fa41c76c5643b68c9021090)
+ [InTuneDocs\PlanDesign\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/what-to-tell-your-end-users-about-using-microsoft-intune.md) | Ignored | [Details](#0c4c165343b9a7de01ced4c3c5f2fc68a7a649c51092)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#d047b529745fd06ce1f750f103f1c7a5fcf13f871113)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#5328c5c836ee360d6bda3415109881b5184d93631133)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec751301360801137)
@@ -15398,48 +15398,48 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='8cfe57d4ec1c10858ec98fd6def5d62da551d8651072'></a> Source: [InTuneDocs\PlanDesign\help-end-users-understand-company-portal-app-messages.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/PlanDesign/help-end-users-understand-company-portal-app-messages.md)
-* Status: HandedOffSuccess
+##### <a name='05885270c8f36c789e0277b2ae15adb26323e5ca1072'></a> Source: [InTuneDocs\PlanDesign\help-end-users-understand-company-portal-app-messages.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-end-users-understand-company-portal-app-messages.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [help-end-users-understand-company-portal-app-messages.877e247046588cbd4b495a737e3b1bb180ca2f38.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/4fb0d243eaf513558151ecca2932e209774dbdf4/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/help-end-users-understand-company-portal-app-messages.877e247046588cbd4b495a737e3b1bb180ca2f38.ru-ru.xlf)
-* Handoff Datetime: 2016-04-01 21:02:31
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6784559091deec6b9bc1e3e73926571e7b07f0d11073'></a> Source: [InTuneDocs\PlanDesign\help-secure-access-from-hotel-kiosks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/help-secure-access-from-hotel-kiosks.md)
-* Status: HandedOffSuccess
+##### <a name='5206d7a6720392570897ec36aea5c317422969fa1073'></a> Source: [InTuneDocs\PlanDesign\help-secure-access-from-hotel-kiosks.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-secure-access-from-hotel-kiosks.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [help-secure-access-from-hotel-kiosks.edfbe88ddad08e83d9aed2435733e2af54419643.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/1ea2805d1fa99bdc80a78574b70ac9ef9f9d1545/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/help-secure-access-from-hotel-kiosks.edfbe88ddad08e83d9aed2435733e2af54419643.ru-ru.xlf)
-* Handoff Datetime: 2016-03-28 20:52:01
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='1cf2b20634f7696bef7ed0099b47644df11215451074'></a> Source: [InTuneDocs\PlanDesign\help-secure-office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/help-secure-office-365.md)
-* Status: HandedOffSuccess
+##### <a name='eb3764065a7f6c5a7137b8507badc0cd39b82c191074'></a> Source: [InTuneDocs\PlanDesign\help-secure-office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-secure-office-365.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [help-secure-office-365.23f817802c0ac07376ba1e0e7b370c51e6f5da2d.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/1ea2805d1fa99bdc80a78574b70ac9ef9f9d1545/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/help-secure-office-365.23f817802c0ac07376ba1e0e7b370c51e6f5da2d.ru-ru.xlf)
-* Handoff Datetime: 2016-03-28 20:52:01
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='67a605acb7726ce5a2a608af0f93b9d7e6857fd81075'></a> Source: [InTuneDocs\PlanDesign\help-secure-on-premises-resources.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/help-secure-on-premises-resources.md)
-* Status: HandedOffSuccess
+##### <a name='04825b65d6e71847282bf40d99752cdf1092b60d1075'></a> Source: [InTuneDocs\PlanDesign\help-secure-on-premises-resources.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/help-secure-on-premises-resources.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [help-secure-on-premises-resources.88b42e364ba245fc96abc327b5e21f01e373e89b.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/1ea2805d1fa99bdc80a78574b70ac9ef9f9d1545/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/help-secure-on-premises-resources.88b42e364ba245fc96abc327b5e21f01e373e89b.ru-ru.xlf)
-* Handoff Datetime: 2016-03-28 20:52:01
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -15482,24 +15482,24 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='bb94add518c3d9f9fcb3772b18919c51ee1a8bfe1079'></a> Source: [InTuneDocs\PlanDesign\manage-corporate-owned-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/manage-corporate-owned-mobile-devices.md)
-* Status: HandedOffSuccess
+##### <a name='601f796ec40982713c9e7084b0a8c03ef42cf6901079'></a> Source: [InTuneDocs\PlanDesign\manage-corporate-owned-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/manage-corporate-owned-mobile-devices.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [manage-corporate-owned-mobile-devices.2180c8d2004c53f17f27cc5116400d83fc747fa3.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/1ea2805d1fa99bdc80a78574b70ac9ef9f9d1545/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-corporate-owned-mobile-devices.2180c8d2004c53f17f27cc5116400d83fc747fa3.ru-ru.xlf)
-* Handoff Datetime: 2016-03-28 20:52:01
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9fa399fc7078ce6b1558a7b6d4ad3b5ca93504d21080'></a> Source: [InTuneDocs\PlanDesign\manage-shared-retail-tablet-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/manage-shared-retail-tablet-devices.md)
-* Status: HandedOffSuccess
+##### <a name='02786d20c0dc5458091de2a132840cd76c06c3041080'></a> Source: [InTuneDocs\PlanDesign\manage-shared-retail-tablet-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/manage-shared-retail-tablet-devices.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [manage-shared-retail-tablet-devices.fb1dfe8b456b6b649ceae13063ed68763e07b5f2.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/1ea2805d1fa99bdc80a78574b70ac9ef9f9d1545/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-shared-retail-tablet-devices.fb1dfe8b456b6b649ceae13063ed68763e07b5f2.ru-ru.xlf)
-* Handoff Datetime: 2016-03-28 20:52:01
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -15519,84 +15519,84 @@
 * Dependency From: InTuneDocs\DeployUse\Sample.md, InTuneDocs\GetStarted\Sample.md, InTuneDocs\PlanDesign\Sample.md, InTuneDocs\Troubleshoot\Sample.md, InTuneDocs\Understand\Sample.md
 * [Back to Top](#report-top)
 
-##### <a name='766a5eff5b193b2cec99a1e77877910140e1c5cf1087'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune.md)
-* Status: HandedOffSuccess
+##### <a name='071acf09a1b9192ae184f6b73145741ecc63ddf81087'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [migrating-to-intune.9881eb8504314604f05a6d45b0f76178907b2d58.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a55092ddea51e64e9a48f09c50cd5eab544c4aa7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/migrating-to-intune.9881eb8504314604f05a6d45b0f76178907b2d58.ru-ru.xlf)
-* Handoff Datetime: 2016-03-23 15:20:10
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='c153da26c6db15585f5025b3b04e4b43659707401082'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-four.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-four.md)
-* Status: HandedOffSuccess
+##### <a name='85871ca964157cbabaab00f04a6e5866fe6b183b1082'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-four.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-four.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [migrating-to-intune-step-four.8e115c09bd0fef32557c8cdb8ba1abc279ff0bf7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a55092ddea51e64e9a48f09c50cd5eab544c4aa7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/migrating-to-intune-step-four.8e115c09bd0fef32557c8cdb8ba1abc279ff0bf7.ru-ru.xlf)
-* Handoff Datetime: 2016-03-23 15:20:10
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='4814cbc9923cc59c7692499f49cc04904128462a1083'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-one.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-one.md)
-* Status: HandedOffSuccess
+##### <a name='cbaedbc07ee70adb2a1187846cb5d593829264ff1083'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-one.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-one.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [migrating-to-intune-step-one.7554f842454940baf8a845e4256a92887828cd22.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a55092ddea51e64e9a48f09c50cd5eab544c4aa7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/migrating-to-intune-step-one.7554f842454940baf8a845e4256a92887828cd22.ru-ru.xlf)
-* Handoff Datetime: 2016-03-23 15:20:10
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6071edba4f3b4016f2c92390c6d53bb8ee5602ce1084'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-three.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-three.md)
-* Status: HandedOffSuccess
+##### <a name='a6ba338b7c4a24f918eba33b899371a7279fdb461084'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-three.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-three.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [migrating-to-intune-step-three.811cc42e53b5a57a8c0fe5df99aa0e33eb24991e.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a55092ddea51e64e9a48f09c50cd5eab544c4aa7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/migrating-to-intune-step-three.811cc42e53b5a57a8c0fe5df99aa0e33eb24991e.ru-ru.xlf)
-* Handoff Datetime: 2016-03-23 15:20:10
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='125d52654ca11554362b64a370d5b78884037db01085'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-two.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-step-two.md)
-* Status: HandedOffSuccess
+##### <a name='aba709f5899bb6e10dfe8b4500d200b4c69be7241085'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-step-two.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-step-two.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [migrating-to-intune-step-two.63650a4eff063d2f8923bf59c3776871684d8ce6.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a55092ddea51e64e9a48f09c50cd5eab544c4aa7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/migrating-to-intune-step-two.63650a4eff063d2f8923bf59c3776871684d8ce6.ru-ru.xlf)
-* Handoff Datetime: 2016-03-23 15:20:10
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a989fff8cebf92a8a4fca60157ed8d0b3ec740691086'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-worksheet.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62c8e5fbbfeed56ba94d54fa0352566c1f8f8b81/InTuneDocs/PlanDesign/migrating-to-intune-worksheet.md)
-* Status: HandedOffSuccess
+##### <a name='040c6944c7134d4f9fa3ee51ac7e4703932efad01086'></a> Source: [InTuneDocs\PlanDesign\migrating-to-intune-worksheet.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/migrating-to-intune-worksheet.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [migrating-to-intune-worksheet.c313e3ff209a6d4d8795a1e4687b57784ff6b430.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/a55092ddea51e64e9a48f09c50cd5eab544c4aa7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/migrating-to-intune-worksheet.c313e3ff209a6d4d8795a1e4687b57784ff6b430.ru-ru.xlf)
-* Handoff Datetime: 2016-03-23 15:20:10
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a99798e38812764bc9a0de3d47650f8cfb76448f1088'></a> Source: [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='06c9e06461fd7127cef007a97688a15a6845c9181088'></a> Source: [InTuneDocs\PlanDesign\plan-for-app-deployment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/plan-for-app-deployment-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [plan-for-app-deployment-in-microsoft-intune.2ef3bc373b70ec9104c56e3da2e68e88e585945d.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e65f29999ce60a96fecd9b17f9f03e833738269b/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/plan-for-app-deployment-in-microsoft-intune.2ef3bc373b70ec9104c56e3da2e68e88e585945d.ru-ru.xlf)
-* Handoff Datetime: 2016-03-25 20:17:19
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -15615,12 +15615,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9c94f46a8dd34beb668382fe9d9ab898e1267d3e1090'></a> Source: [InTuneDocs\PlanDesign\support-byod.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1764e5fbe46348901f42281cddd02d3d6f75f50c/InTuneDocs/PlanDesign/support-byod.md)
-* Status: HandedOffSuccess
+##### <a name='a961b924403dcfa855000fa41c76c5643b68c9021090'></a> Source: [InTuneDocs\PlanDesign\support-byod.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/support-byod.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [support-byod.d5233530a1ac1a9265f3c2a32a38ae02689415f8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/1ea2805d1fa99bdc80a78574b70ac9ef9f9d1545/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/support-byod.d5233530a1ac1a9265f3c2a32a38ae02689415f8.ru-ru.xlf)
-* Handoff Datetime: 2016-03-28 20:52:01
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -15639,12 +15639,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='1c294ee6c2852749742e14a7dcfa1ff0e26222e01092'></a> Source: [InTuneDocs\PlanDesign\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b88ef49327bd33f49576b53066391e1468d95a9c/InTuneDocs/PlanDesign/what-to-tell-your-end-users-about-using-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='0c4c165343b9a7de01ced4c3c5f2fc68a7a649c51092'></a> Source: [InTuneDocs\PlanDesign\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a812ffefec5f5e29e05e020f9a594b55d7781301/InTuneDocs/PlanDesign/what-to-tell-your-end-users-about-using-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [what-to-tell-your-end-users-about-using-microsoft-intune.b62b7d17662892466a44a7494fbd13cffb04b589.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/4fb0d243eaf513558151ecca2932e209774dbdf4/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/what-to-tell-your-end-users-about-using-microsoft-intune.b62b7d17662892466a44a7494fbd13cffb04b589.ru-ru.xlf)
-* Handoff Datetime: 2016-04-01 21:02:31
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
