@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "05d2bfa5d79db78d9e92e4f27d9d71a658b3e381",
+  "LastProcessedCommit": "a36c69b36491a60e03cf0d19c43dbd9ac3060b81",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -18406,7 +18406,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-06T23:10:36.611013Z",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18417,7 +18417,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 154,
+      "HandoffFailureTimes": 155,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18447,7 +18447,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-06T23:10:36.611013Z",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18458,7 +18458,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 154,
+      "HandoffFailureTimes": 155,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18488,7 +18488,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-06T23:10:36.611013Z",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18499,7 +18499,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 154,
+      "HandoffFailureTimes": 155,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -49566,8 +49566,8 @@
         "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf",
-      "HandoffFileCommit": "bbf08d377fbf2471ef8d35cb6791502cca1aa94e",
-      "HandoffDateTime": "2016-04-06T22:37:40.1332397Z",
+      "HandoffFileCommit": "decaff0d00f21e80baa0f0096376c1a7be56595f",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -50499,7 +50499,8 @@
       "DependencyFrom": null,
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\DeployUse\\manage-email-with-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\manage-email-with-microsoft-intune.md",
+        "InTuneDocs\\zDeletedTopics\\manage-email-with-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-email-with-microsoft-intune.bdfc62aa468277f0bdbfc5776593ea539f63cfb6.ru-ru.xlf",
       "HandoffFileCommit": "afdd859db08aedf86133c0984e125487ec009c8e",
@@ -51445,7 +51446,8 @@
       "DependencyFrom": null,
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\microsoft-intune-service-description.md"
+        "InTuneDocs\\microsoft-intune-service-description.md",
+        "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\microsoft-intune-service-description.fdcbce43b9c350336ee65ba46acb31812d92757e.ru-ru.xlf",
       "HandoffFileCommit": "527c7b0ab4aa03aae35fdc893e91e7ddb4d464f9",
@@ -57073,8 +57075,8 @@
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf",
-      "HandoffFileCommit": "bbf08d377fbf2471ef8d35cb6791502cca1aa94e",
-      "HandoffDateTime": "2016-04-06T22:37:40.1332397Z",
+      "HandoffFileCommit": "decaff0d00f21e80baa0f0096376c1a7be56595f",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -59670,8 +59672,8 @@
         "InTuneDocs\\DeployUse\\TOC.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf",
-      "HandoffFileCommit": "a216678a526c383fbc62876d51de7f250e0806cf",
-      "HandoffDateTime": "2016-04-06T23:10:36.611013Z",
+      "HandoffFileCommit": "decaff0d00f21e80baa0f0096376c1a7be56595f",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -59786,8 +59788,8 @@
         "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf",
-      "HandoffFileCommit": "a216678a526c383fbc62876d51de7f250e0806cf",
-      "HandoffDateTime": "2016-04-06T23:10:36.611013Z",
+      "HandoffFileCommit": "decaff0d00f21e80baa0f0096376c1a7be56595f",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -59817,6 +59819,93 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ru-ru.xlf",
       "HandoffFileCommit": "a216678a526c383fbc62876d51de7f250e0806cf",
       "HandoffDateTime": "2016-04-06T23:10:36.611013Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "cc99810ab833948f46399da83acf144e59236e7c": {
+      "FileHash": "cc99810ab833948f46399da83acf144e59236e7c",
+      "SourceFileCommit": "a36c69b36491a60e03cf0d19c43dbd9ac3060b81",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.7edc8305bb4c8fe1d8a774930953e715c1539721.ru-ru.xlf",
+      "HandoffFileCommit": "decaff0d00f21e80baa0f0096376c1a7be56595f",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "55c84f64a7e65d62e4ff6a36d980f4c9c6c84bd8": {
+      "FileHash": "55c84f64a7e65d62e4ff6a36d980f4c9c6c84bd8",
+      "SourceFileCommit": "a36c69b36491a60e03cf0d19c43dbd9ac3060b81",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\enable-access-to-company-resources-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\enable-access-to-company-resources-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\enable-access-to-company-resources-with-microsoft-intune.02f6cc31e6e8ec7091f36688a343a33e185e6e86.ru-ru.xlf",
+      "HandoffFileCommit": "decaff0d00f21e80baa0f0096376c1a7be56595f",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "0096c0b46241a23fd8ea8f165b429478d022cc99": {
+      "FileHash": "0096c0b46241a23fd8ea8f165b429478d022cc99",
+      "SourceFileCommit": "a36c69b36491a60e03cf0d19c43dbd9ac3060b81",
+      "SourceFilePath": "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\rollout-phases-for-microsoft-intune-deployment.cd8b54a5b606042a0ab563726ef422d6119352b1.ru-ru.xlf",
+      "HandoffFileCommit": "decaff0d00f21e80baa0f0096376c1a7be56595f",
+      "HandoffDateTime": "2016-04-07T14:51:18.0037253Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
