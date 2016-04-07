@@ -486,12 +486,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "5dd1c3e5e38ee8f710035a35d4d2462b14479bfd": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
+  ],
+  "5dd1c3e5e38ee8f710035a35d4d2462b14479bfd": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "889404715432b52f79a1b98f5a4700bf36abede4": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -949,12 +949,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
-  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
-  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
+  ],
+  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -2153,12 +2153,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "6c155e5ba665b53e5d9a0d01a6e0ccfb14afe148": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
@@ -2208,12 +2208,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "c895a9227c374ee26c6840c5289bf86d2304db92": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "c895a9227c374ee26c6840c5289bf86d2304db92": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "65de728fdaf68b3bb8f123cadbe2885e1c6e36b5": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -3095,6 +3095,9 @@
   ],
   "333c1f469c6bc549ba3d47bfae55471f6b965f0c": [
     "migrated-03-14\\Topic\\Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md",
+    "InTuneDocs\\DeployUse\\secure-resource-access-with-certificate-profiles.md"
+  ],
+  "15c0629aaa039c39e51b23446ccb04d1139dc70c": [
     "InTuneDocs\\DeployUse\\secure-resource-access-with-certificate-profiles.md"
   ],
   "912a31633a5d18a60100d96043fa063ce6e3691d": [
@@ -4756,6 +4759,9 @@
   ],
   "00c4c420b6fbafe95893956411f13a3532b99bbf": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
+  "c622efa65434e1fe26c5cb04fe07a765ad1b70ba": [
+    "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
   "e14facf2d873f0dd533ab23beab56f7b0365db84": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
