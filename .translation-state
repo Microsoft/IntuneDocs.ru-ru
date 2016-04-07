@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "a4abc743e38b9bd57a8b744e7a8ee4482d9975be",
+  "LastProcessedCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -11975,11 +11975,13 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-ios-device-with-intune.md",
-        "InTuneDocs\\using-your-ios-or-mac-os-x-device-with-intune.md"
+        "InTuneDocs\\using-your-ios-or-mac-os-x-device-with-intune.md",
+        "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\ios-cpinstall-1-cpinstore.png"
+        "InTuneDocs\\media\\IW-Help-pics\\ios-cpinstall-1-cpinstore.png",
+        "InTuneDocs\\EndUser\\media\\ios-cpinstall-1-cpinstore.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\93490feee053dbc489151a67055952bb67fc5458.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12380,7 +12382,8 @@
         "migrated-03-14\\Topic\\MD-Using-your-iOS-device-with-Intune.md",
         "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-iOS-or-Mac-OS-X-device-with-Intune.md",
-        "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md"
+        "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md",
+        "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -12447,11 +12450,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-1-settings-accounts.png"
+        "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-1-settings-accounts.png",
+        "InTuneDocs\\EndUser\\media\\W10-enroll-1-settings-accounts.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7433cba078bfa29c741dd08c0f44b083b822e734.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12480,11 +12485,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-2-accounts-your-account.png"
+        "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-2-accounts-your-account.png",
+        "InTuneDocs\\EndUser\\media\\W10-enroll-2-accounts-your-account.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e72c97da1bf359b6ef633161d4a41e7a0f8b6516.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12516,12 +12523,14 @@
         "InTuneDocs\\using-your-windows-device-with-intune.md",
         "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md",
-        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-3-add-work-school-acct.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\W10-enroll-3-add-work-school-acct.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\W10-enroll-3-add-work-school-acct.png",
+        "InTuneDocs\\EndUser\\media\\W10-enroll-3-add-work-school-acct.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8d72f23fd90bab74b7be63193a64e829ff31cafa.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12550,11 +12559,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-4-sign-in.png"
+        "InTuneDocs\\media\\IW-Help-pics\\W10-enroll-4-sign-in.png",
+        "InTuneDocs\\EndUser\\media\\W10-enroll-4-sign-in.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\044b7904c52d43660346732c91708a0689012b8e.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12586,12 +12597,14 @@
         "InTuneDocs\\using-your-windows-device-with-intune.md",
         "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md",
-        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\W81-1-workplacejoin.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\W81-1-workplacejoin.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\W81-1-workplacejoin.png",
+        "InTuneDocs\\EndUser\\media\\W81-1-workplacejoin.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\26ce9402b45ed2170bdb32ec6a30d357fe4045f2.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12623,12 +12636,14 @@
         "InTuneDocs\\using-your-windows-device-with-intune.md",
         "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md",
-        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\W81-2-workplacesettings_signin.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\W81-2-workplacesettings_signin.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\W81-2-workplacesettings_signin.png",
+        "InTuneDocs\\EndUser\\media\\W81-2-workplacesettings_signin.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f72a46e34a3fb5466e44478d45449a6c04ca8ad2.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12657,11 +12672,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\W81-3-dev-mgt-turn-on.png"
+        "InTuneDocs\\media\\IW-Help-pics\\W81-3-dev-mgt-turn-on.png",
+        "InTuneDocs\\EndUser\\media\\W81-3-dev-mgt-turn-on.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f17e7fb369a72b5ea489cc01f27879f13bd18074.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12693,12 +12710,14 @@
         "InTuneDocs\\using-your-windows-device-with-intune.md",
         "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md",
-        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\W81-4-agree-allow-apps-services.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\W81-4-agree-allow-apps-services.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\W81-4-agree-allow-apps-services.png",
+        "InTuneDocs\\EndUser\\media\\W81-4-agree-allow-apps-services.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\49986a10fdbabb631eb6d48c8e9cdbfeac8576f6.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12727,11 +12746,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\W81-5-enrolled-done.png"
+        "InTuneDocs\\media\\IW-Help-pics\\W81-5-enrolled-done.png",
+        "InTuneDocs\\EndUser\\media\\W81-5-enrolled-done.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7ffcfdd5ad6412f6ddd1c69d443bf1f99bfafd3e.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12763,12 +12784,14 @@
         "InTuneDocs\\using-your-windows-device-with-intune.md",
         "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md",
-        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\WP81-1-CP-search-store-v2.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\WP81-1-CP-search-store-v2.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\WP81-1-CP-search-store-v2.png",
+        "InTuneDocs\\EndUser\\media\\WP81-1-CP-search-store-v2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\20b6e13bfa1e9852a927586c3357d460c444eb90.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12800,12 +12823,14 @@
         "InTuneDocs\\using-your-windows-device-with-intune.md",
         "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md",
-        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\WP81-2-CP-install-v2.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\WP81-2-CP-install-v2.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\WP81-2-CP-install-v2.png",
+        "InTuneDocs\\EndUser\\media\\WP81-2-CP-install-v2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bf2f9a43de1a72e3734c85354d6d27546729d516.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12837,12 +12862,14 @@
         "InTuneDocs\\using-your-windows-device-with-intune.md",
         "migrated-03-14\\Topic\\MD-Using-your-Windows-device-with-Intune.md",
         "migrated-03-14\\Topic\\Using-your-Windows-device-with-Intune.md",
-        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\Using-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-1-swipe-my-devices.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\WP81-enroll-1-swipe-my-devices.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\WP81-enroll-1-swipe-my-devices.png",
+        "InTuneDocs\\EndUser\\media\\WP81-enroll-1-swipe-my-devices.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\88a1101825e9ecf41e5f2e308e3f4f90ba395977.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12871,11 +12898,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-2-enroll-this-device.png"
+        "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-2-enroll-this-device.png",
+        "InTuneDocs\\EndUser\\media\\WP81-enroll-2-enroll-this-device.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\bcab588dd1d00990681d0d9d3c09a5bb14af020e.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12904,11 +12933,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-3-workplace-add-acct.png"
+        "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-3-workplace-add-acct.png",
+        "InTuneDocs\\EndUser\\media\\WP81-enroll-3-workplace-add-acct.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cddb4c0bba4880b1370c3ff6b683ce9f18bc7b80.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -12937,11 +12968,13 @@
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-windows-device-with-intune.md",
         "InTuneDocs\\using-your-android-device-with-intune.md",
-        "InTuneDocs\\using-your-windows-device-with-intune.md"
+        "InTuneDocs\\using-your-windows-device-with-intune.md",
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-4-account-added.png"
+        "InTuneDocs\\media\\IW-Help-pics\\WP81-enroll-4-account-added.png",
+        "InTuneDocs\\EndUser\\media\\WP81-enroll-4-account-added.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\f4fe095324508e127d6cb0f927cd60517d8a898c.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13000,12 +13033,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\install-the-microsoft-intune-company-portal-app-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-1-search-cp.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\and-cpinstall-1-search-cp.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\and-cpinstall-1-search-cp.png",
+        "InTuneDocs\\EndUser\\media\\and-cpinstall-1-search-cp.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ac27a2f2f4689af53078aba3858cbf5e5b29da7d.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13032,11 +13067,13 @@
       "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-2-install.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\mdusing-your-android-device-with-intune.md"
+        "InTuneDocs\\mdusing-your-android-device-with-intune.md",
+        "InTuneDocs\\EndUser\\install-the-microsoft-intune-company-portal-app-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-2-install.png"
+        "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-2-install.png",
+        "InTuneDocs\\EndUser\\media\\and-cpinstall-2-install.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\0a620644d886af8b6763b09750718554950002ee.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13064,12 +13101,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\install-the-microsoft-intune-company-portal-app-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\and-cpinstall-3-cp-accept.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\and-cpinstall-3-cp-accept.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\and-cpinstall-3-cp-accept.png",
+        "InTuneDocs\\EndUser\\media\\and-cpinstall-3-cp-accept.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\443bee061468243400a7a295ae1334de82fb34e2.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13097,12 +13136,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-1-cp-find-CP-app.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\and-enroll-1-cp-find-CP-app.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\and-enroll-1-cp-find-CP-app.png",
+        "InTuneDocs\\EndUser\\media\\and-enroll-1-cp-find-CP-app.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\9d7e711034d9003c3d1185ce788e177069716849.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13161,12 +13202,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-2-cp-sign-in.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\and-enroll-2-cp-sign-in.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\and-enroll-2-cp-sign-in.png",
+        "InTuneDocs\\EndUser\\media\\and-enroll-2-cp-sign-in.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e76c105cd90d2172c2d80565e54573995b0087a5.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13194,12 +13237,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\andr-allow-phone-access.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\andr-allow-phone-access.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\andr-allow-phone-access.png",
+        "InTuneDocs\\EndUser\\media\\andr-allow-phone-access.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cd3f01766bb96567fef7042945d0ec52a5c0a999.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13227,12 +13272,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\and-enroll-3-accept-terms.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\and-enroll-3-accept-terms.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\and-enroll-3-accept-terms.png",
+        "InTuneDocs\\EndUser\\media\\and-enroll-3-accept-terms.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\9a0b75f97efb0fca001ea4d6cd5f8b582c059615.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13448,12 +13495,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\andr-1-my-devices-choose.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\andr-1-my-devices-choose.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\andr-1-my-devices-choose.png",
+        "InTuneDocs\\EndUser\\media\\andr-1-my-devices-choose.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\574a3642f5160ff07c565a2b3c60084ceb198757.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13481,12 +13530,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\andr-2-tap-trashcan.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\andr-2-tap-trashcan.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\andr-2-tap-trashcan.png",
+        "InTuneDocs\\EndUser\\media\\andr-2-tap-trashcan.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\c29f90ceec989702b0b2c12f271964aae1d725a0.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -13514,12 +13565,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\mdusing-your-android-device-with-intune.md",
-        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md"
+        "migrated-03-14\\Topic\\MDUsing-your-Android-device-with-Intune.md",
+        "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-android.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\andr-3-warning-about-remove.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\andr-3-warning-about-remove.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\andr-3-warning-about-remove.png",
+        "InTuneDocs\\EndUser\\media\\andr-3-warning-about-remove.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6845f199402ab000359e2412abe6cdad232518cf.png",
       "HandoffFileCommit": "c961f6d8f8d31859a1b104c7955331aad4336180",
@@ -18406,7 +18459,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-07T20:44:53.4649904Z",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18417,7 +18470,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 160,
+      "HandoffFailureTimes": 161,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18447,7 +18500,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-07T20:44:53.4649904Z",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18458,7 +18511,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 160,
+      "HandoffFailureTimes": 161,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18488,7 +18541,7 @@
       ],
       "HandoffFilePath": null,
       "HandoffFileCommit": null,
-      "HandoffDateTime": "2016-04-07T20:44:53.4649904Z",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": {
         "internal_error_code": "handoff_transform_failed",
@@ -18499,7 +18552,7 @@
         "stack_trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass10_1.<GetHandoffFiles>b__1(Tuple`3 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 396",
         "extended_information": null
       },
-      "HandoffFailureTimes": 160,
+      "HandoffFailureTimes": 161,
       "TargetFileCommit": null,
       "TargetFilePath": null,
       "HandbackFilePath": null,
@@ -18520,12 +18573,16 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\using-the-intune-company-portal-website.md",
-        "migrated-03-14\\Topic\\Using-the-Intune-Company-Portal-website.md"
+        "migrated-03-14\\Topic\\Using-the-Intune-Company-Portal-website.md",
+        "InTuneDocs\\EndUser\\reset-your-passcode-cpwebsite.md",
+        "InTuneDocs\\EndUser\\rename-your-device-cpwebsite.md",
+        "InTuneDocs\\EndUser\\remove-your-device-cpwebsite.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\iwp-1-tap-reset-passcode.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\iwp-1-tap-reset-passcode.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\iwp-1-tap-reset-passcode.png",
+        "InTuneDocs\\EndUser\\media\\iwp-1-tap-reset-passcode.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\adee1773d15d6a2f4bded3c47c1462dbec904e6d.png",
       "HandoffFileCommit": "e21c148ed4d9fae2b0f2e0e9c55f9a432aabe744",
@@ -18553,12 +18610,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\using-the-intune-company-portal-website.md",
-        "migrated-03-14\\Topic\\Using-the-Intune-Company-Portal-website.md"
+        "migrated-03-14\\Topic\\Using-the-Intune-Company-Portal-website.md",
+        "InTuneDocs\\EndUser\\reset-your-passcode-cpwebsite.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\iwp-2-sign-out.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\iwp-2-sign-out.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\iwp-2-sign-out.png",
+        "InTuneDocs\\EndUser\\media\\iwp-2-sign-out.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8c9f6962f0d3b1ff6d40143c9bac31906f1ae735.png",
       "HandoffFileCommit": "e21c148ed4d9fae2b0f2e0e9c55f9a432aabe744",
@@ -18586,12 +18645,14 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\using-the-intune-company-portal-website.md",
-        "migrated-03-14\\Topic\\Using-the-Intune-Company-Portal-website.md"
+        "migrated-03-14\\Topic\\Using-the-Intune-Company-Portal-website.md",
+        "InTuneDocs\\EndUser\\reset-your-passcode-cpwebsite.md"
       ],
       "TokenReference": null,
       "FilePathList": [
         "InTuneDocs\\media\\IW-Help-pics\\iwp-3-tap-reset-passcode-after-signin.png",
-        "migrated-03-14\\Image\\IW-Help-pics\\iwp-3-tap-reset-passcode-after-signin.png"
+        "migrated-03-14\\Image\\IW-Help-pics\\iwp-3-tap-reset-passcode-after-signin.png",
+        "InTuneDocs\\EndUser\\media\\iwp-3-tap-reset-passcode-after-signin.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\4fea71a05f8f48a12977e8b0fccab3b915b5f5d3.png",
       "HandoffFileCommit": "e21c148ed4d9fae2b0f2e0e9c55f9a432aabe744",
@@ -24601,11 +24662,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-11-start-mg-mobl-dev.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-11-start-mg-mobl-dev.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-11-start-mg-mobl-dev.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-11-start-mg-mobl-dev.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\64f06d45481657e65ee924d286623dc83a514f40.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24632,11 +24695,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-12-link-set-mdm.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-12-link-set-mdm.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-12-link-set-mdm.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-12-link-set-mdm.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\73ef645cbc717eb389266a0e21f6ac7bdb749a6f.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24694,11 +24759,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-14-dwnld-cert-reqst.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-14-dwnld-cert-reqst.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-14-dwnld-cert-reqst.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-14-dwnld-cert-reqst.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ee409dfd08f5fa81e2578e1efe7e3bbab4552459.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24725,11 +24792,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-15-cert-name-loc.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-15-cert-name-loc.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-15-cert-name-loc.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-15-cert-name-loc.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\8fa0dd136cb4c31b5bf4998d8b7b10133290810f.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24756,11 +24825,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-16-cert-portl-link.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-16-cert-portl-link.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-16-cert-portl-link.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-16-cert-portl-link.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\151651e0979833aeabd508b9ddae8a298cbd940c.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24787,11 +24858,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-17-id-passw-signin.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-17-id-passw-signin.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-17-id-passw-signin.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-17-id-passw-signin.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1f93d9ac0e0c6b52b287ef040a0f172c4ecfc693.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24818,11 +24891,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-18-create-cert.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-18-create-cert.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-18-create-cert.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-18-create-cert.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\5f0dfccd8ffa52ef1ce6d37bc0bd5101237c3a01.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24849,11 +24924,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-19-TOU.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-19-TOU.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-19-TOU.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-19-TOU.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\0c269c9a4b098b003ef70ff374ad12afecc51223.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24880,11 +24957,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-20-browse.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-20-browse.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-20-browse.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-20-browse.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1145de2c699dd961282e7d11e171358e9dc53dcd.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24942,11 +25021,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-22-upld-reqst.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-22-upld-reqst.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-22-upld-reqst.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-22-upld-reqst.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\98b53b0abe3287761ebdf1733d238a1d6b24bf45.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -24973,11 +25054,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-23-json-saveas.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-23-json-saveas.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-23-json-saveas.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-23-json-saveas.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d50500c0c45a1e12b8e8c7dea977e68530e4b151.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25035,11 +25118,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-25-json-pg-cancel.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-25-json-pg-cancel.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-25-json-pg-cancel.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-25-json-pg-cancel.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\02ee7250a87309ddedcd0cc19c61928e7b78045f.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25066,11 +25151,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-26-dwnld-retrv-cert.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-26-dwnld-retrv-cert.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-26-dwnld-retrv-cert.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-26-dwnld-retrv-cert.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ed008b9c708c64dbdbfd321522f794efa9bfd559.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25097,11 +25184,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-27-pem-saveas.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-27-pem-saveas.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-27-pem-saveas.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-27-pem-saveas.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\53edd52ba85977170a23809de1e160117cbabae2.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25128,11 +25217,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-28-pem-save-loc.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-28-pem-save-loc.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-28-pem-save-loc.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-28-pem-save-loc.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d806521495fa31cad73ce16d2b5295b8afad6d25.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25159,11 +25250,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-29-upld-cert.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-29-upld-cert.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-29-upld-cert.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-29-upld-cert.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\fe39d52f06168f9ee49b65fc69925c7d8a5c034e.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25190,11 +25283,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-30-app-id-browse.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-30-app-id-browse.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-30-app-id-browse.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-30-app-id-browse.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\e2a6c6e58790ff1fbe5e1643cd3c622ef2d60569.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25221,11 +25316,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-31-sel-pem-open.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-31-sel-pem-open.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-31-sel-pem-open.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-31-sel-pem-open.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2ab25c7d226b65318f11901b0f0a3555ac019457.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25252,11 +25349,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-32-pem-upload.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-32-pem-upload.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-32-pem-upload.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-32-pem-upload.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\408dc406883e78023a0ea7f36f3d45c5a3ac20f1.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25283,11 +25382,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-33-apns-confgd.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-33-apns-confgd.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-33-apns-confgd.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-33-apns-confgd.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\324f785152465cb954a576abd60e6712da2f3209.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25314,11 +25415,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-34-clk-groups.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-34-clk-groups.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-34-clk-groups.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-34-clk-groups.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ddc3f13655fafe60b36797b50b15de52fd3a0bcb.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25345,11 +25448,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-35-crt-group.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-35-crt-group.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-35-crt-group.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-35-crt-group.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3655a6b4ff4178ba184a99aa9bd8eb0eb8cb0dad.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25376,11 +25481,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-36-name-group.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-36-name-group.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-36-name-group.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-36-name-group.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1e229264bccc74f8493368f8ebd472bbc919efe0.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25407,11 +25514,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-37-all-users-group.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-37-all-users-group.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-37-all-users-group.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-37-all-users-group.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a16ad9047abff684856c4c70b5f70de157c72fd9.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25438,11 +25547,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-38-clk-policy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-38-clk-policy.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-38-clk-policy.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-38-clk-policy.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\273d642653e763d86a86fbcba353035eb7c6c9fa.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25469,11 +25580,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-39-add-policy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-39-add-policy.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-39-add-policy.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-39-add-policy.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\5b35856042f79641473e0c111a3761c522904b75.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25531,11 +25644,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-41-name-policy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-41-name-policy.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-41-name-policy.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-41-name-policy.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ea183fbb8bc0dca0498bb2b3959d428aa37dcffb.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25562,11 +25677,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-42-yes-deploy-pol.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-42-yes-deploy-pol.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-42-yes-deploy-pol.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-42-yes-deploy-pol.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\6f8115ec9f6e3aa7d272dbadf068a7f98551340d.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25624,11 +25741,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-44-policy-applied.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-44-policy-applied.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-cfg-pol-44-policy-applied.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-44-policy-applied.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d4a93a9b08ecde57a51dfe1a7eb942d30ab107f0.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25655,11 +25774,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-10-refresh-user.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-10-refresh-user.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-10-refresh-user.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-crt-user-10-refresh-user.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\d4837925147d6d505df442dac98f628f90d88e78.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25686,11 +25807,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-6-click-start.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-6-click-start.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-6-click-start.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-crt-user-6-click-start.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\0a95dd9c4cdd73fc9a48b94f49be712f8ed29814.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25717,11 +25840,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-7-click-plus.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-7-click-plus.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-7-click-plus.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-crt-user-7-click-plus.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3022b0e35f88a2e557d4119c3c61e32b9714ceb8.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25748,11 +25873,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-8-add-user-info.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-8-add-user-info.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-8-add-user-info.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-crt-user-8-add-user-info.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b67381e180834eee57c9b62d0ccaa0e64906b9c9.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25779,11 +25906,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-9-close-confirm.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-9-close-confirm.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-crt-user-9-close-confirm.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-crt-user-9-close-confirm.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7c536f6c9c63f7d58cfcd3825b8acad3569ad8da.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25872,11 +26001,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-start-trial-3-createID.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-start-trial-3-createID.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-start-trial-3-createID.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-3-createID.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b66f27911ef0c49c280c7206bcccd777476c5268.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -25903,11 +26034,13 @@
       "SourceFilePath": "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-start-trial-4-textme.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md"
+        "migrated-03-14\\Topic\\Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md",
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-start-trial-4-textme.png"
+        "migrated-03-14\\Image\\30-day-trial-walkthrus\\30day-start-trial-4-textme.png",
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-4-textme.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\9cb45139aa315006a4fa2c98177112b1cc0d5c27.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
@@ -43836,8 +43969,8 @@
         "InTuneDocs\\zDeletedTopics\\TOC-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf",
-      "HandoffFileCommit": "84575fe76d3ac96ca47a610de8d6cf743af6e7ea",
-      "HandoffDateTime": "2016-04-07T20:16:20.9529404Z",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -49566,8 +49699,8 @@
         "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf",
-      "HandoffFileCommit": "84575fe76d3ac96ca47a610de8d6cf743af6e7ea",
-      "HandoffDateTime": "2016-04-07T20:16:20.9529404Z",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -57075,8 +57208,8 @@
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf",
-      "HandoffFileCommit": "84575fe76d3ac96ca47a610de8d6cf743af6e7ea",
-      "HandoffDateTime": "2016-04-07T20:16:20.9529404Z",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -59788,8 +59921,8 @@
         "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf",
-      "HandoffFileCommit": "84575fe76d3ac96ca47a610de8d6cf743af6e7ea",
-      "HandoffDateTime": "2016-04-07T20:16:20.9529404Z",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -60979,6 +61112,1076 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\whats-coming-in-intune.00ffe8f06d2519132172cbd749e875d03cc55ae3.ru-ru.xlf",
       "HandoffFileCommit": "419a052c24e901d345a2f94c58c966bacd05b859",
       "HandoffDateTime": "2016-04-07T20:44:53.4649904Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "198a49f7d527d0f78b34314937f5b3de2e7ce34e": {
+      "FileHash": "198a49f7d527d0f78b34314937f5b3de2e7ce34e",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\enroll-your-device-in-intune-windows.983fa77b45efde90b4e3953c0c3aab1b5c3bdc05.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "f4f627083eb5adb749f1616675d8993f08a37d89": {
+      "FileHash": "f4f627083eb5adb749f1616675d8993f08a37d89",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\error-evaluating-device.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\error-evaluating-device.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\error-evaluating-device.6b69de70204b65f202a28394b323a9f9ecf4a0fb.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "f3c12cb3f75a9b9bf7cd04c0747968af83ffa8e6": {
+      "FileHash": "f3c12cb3f75a9b9bf7cd04c0747968af83ffa8e6",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\fix-issues-with-mobile-device-enrollment.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\fix-issues-with-mobile-device-enrollment.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\fix-issues-with-mobile-device-enrollment.02e49f67827d3eef2634a81c190eee331700f479.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "2829f057b5d9ad8e067ddb6229a0fbfe0e869bea": {
+      "FileHash": "2829f057b5d9ad8e067ddb6229a0fbfe0e869bea",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-do-i-find-the-serial-number-on-my-device-ios.8a55ec357ccc2c0afbb4f3eb9a034049444e1fc0.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "6d8d1ccfbcba3bca002470c63c36291de91a4cc3": {
+      "FileHash": "6d8d1ccfbcba3bca002470c63c36291de91a4cc3",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\how-to-encrypt-your-windows-device.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\how-to-encrypt-your-windows-device.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "e13afb1eb38f6a369ee1e3233fe103b7ee08fe97": {
+      "FileHash": "e13afb1eb38f6a369ee1e3233fe103b7ee08fe97",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\how-to-set-the-password-on-your-android-device.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\how-to-set-the-password-on-your-android-device.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-set-the-password-on-your-android-device.46f75e124ecb7121975319c446df9ec1d4d04d01.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "2637c9d4f1a450fbe84d4e2555d18f2e1a67a2dd": {
+      "FileHash": "2637c9d4f1a450fbe84d4e2555d18f2e1a67a2dd",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\how-to-set-the-period-before-your-android-device-is-locked.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\how-to-set-the-period-before-your-android-device-is-locked.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-to-set-the-period-before-your-android-device-is-locked.d343204b629142728acbc9b9c6982a8c812cbbf1.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "dedef432ec4cf1baa51879dee6fe2eceb6c92011": {
+      "FileHash": "dedef432ec4cf1baa51879dee6fe2eceb6c92011",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "3cbef2cf2a569f55089c94df54d8a51cc2cbceaa": {
+      "FileHash": "3cbef2cf2a569f55089c94df54d8a51cc2cbceaa",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\install-the-microsoft-intune-company-portal-app-android.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\install-the-microsoft-intune-company-portal-app-android.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\install-the-microsoft-intune-company-portal-app-android.360ca027c46d498401e0d8e485653c678a4e1e8e.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "ad0490c9fe80919aadae0a6c7d4dab2666c8e554": {
+      "FileHash": "ad0490c9fe80919aadae0a6c7d4dab2666c8e554",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\remove-your-device-cpwebsite.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\remove-your-device-cpwebsite.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\remove-your-device-cpwebsite.1a7e4fe2dc1d742e4ada9f0c1c5930c3354681d7.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "76f57a73b6ffd0427f33ebe9d43efa1f5f808402": {
+      "FileHash": "76f57a73b6ffd0427f33ebe9d43efa1f5f808402",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\rename-your-device-cpwebsite.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\rename-your-device-cpwebsite.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\rename-your-device-cpwebsite.1b4648a1b7de93cfa9f7e2535eeb6cace744f7d6.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "a8201fa8cff72e4d45c73a93582183c6b6705b4c": {
+      "FileHash": "a8201fa8cff72e4d45c73a93582183c6b6705b4c",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\reset-erase-your-lost-or-stolen-device-windows.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\reset-erase-your-lost-or-stolen-device-windows.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\reset-erase-your-lost-or-stolen-device-windows.0ffe9f7bae1ed753bb08ade370c0d9276c4b3006.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "28196b9d7405350cad40ea180a63e460781a5614": {
+      "FileHash": "28196b9d7405350cad40ea180a63e460781a5614",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\reset-your-passcode-cpwebsite.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\reset-your-passcode-cpwebsite.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "82d6d5eb0dbb2daa23e01e7936fcf962ac74c1d8": {
+      "FileHash": "82d6d5eb0dbb2daa23e01e7936fcf962ac74c1d8",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\sign-in-to-the-company-portal-app-android.0e50c8ddec5bdf73d0e23d0fb47d9f7e298b12e1.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "15279318dfb36f03a13ef9f6d30791e363e71138": {
+      "FileHash": "15279318dfb36f03a13ef9f6d30791e363e71138",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-android.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-android.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\unenroll-your-device-from-intune-android.d3191455ef0df8021e56a45e1d0c38fbcc8939d7.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "c49e3d5f10a7f5d53ab91bc552bb093c693f5ecf": {
+      "FileHash": "c49e3d5f10a7f5d53ab91bc552bb093c693f5ecf",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-android.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-android.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\use-managed-apps-on-your-device-android.2ce8e75cac43cc39de68398d3141ff7f251fec54.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "ab05371d10e5f6c3cdf019bffe15685005bf38c2": {
+      "FileHash": "ab05371d10e5f6c3cdf019bffe15685005bf38c2",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\use-managed-apps-on-your-device-ios.3553c8430e8520ef84ac4ed83673f88b6026b0e9.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "eed182e372b1d2ed2c0d291bf1fe82ce9a125589": {
+      "FileHash": "eed182e372b1d2ed2c0d291bf1fe82ce9a125589",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-you're-trying-to-enroll-ios.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-you're-trying-to-enroll-ios.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\you-are-asked-to-identify-your-device-when-you're-trying-to-enroll-ios.3014106ef7bb635a988f6bd27813a4e6c775d815.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "cc79e0eaff4890ff3e79aa38562cf27d10dd3d08": {
+      "FileHash": "cc79e0eaff4890ff3e79aa38562cf27d10dd3d08",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\your-computer-is-already-enrolled.617436e2d2e8c4332891a7e035cbe5316a94ec06.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "b3a60bde0102f405e115743da44fe7b71c503d07": {
+      "FileHash": "b3a60bde0102f405e115743da44fe7b71c503d07",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-13-enbl-ios-plat.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-13-enbl-ios-plat.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b3a60bde0102f405e115743da44fe7b71c503d07.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "5f0f94df8b553992406aaee1d98129c87db82c87": {
+      "FileHash": "5f0f94df8b553992406aaee1d98129c87db82c87",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-21-CSRfile-open.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-21-CSRfile-open.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\5f0f94df8b553992406aaee1d98129c87db82c87.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "b5a72a38f881e9d3e20e656a970743b2022bed0d": {
+      "FileHash": "b5a72a38f881e9d3e20e656a970743b2022bed0d",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-24-json-save-loc.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-24-json-save-loc.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\b5a72a38f881e9d3e20e656a970743b2022bed0d.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "16b3da1c4bf72207e82f739e7514ca8213734d0e": {
+      "FileHash": "16b3da1c4bf72207e82f739e7514ca8213734d0e",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-40-gen_cfg_pol.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-40-gen_cfg_pol.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\16b3da1c4bf72207e82f739e7514ca8213734d0e.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "3d880c7dd363e7ad24a3e00bdd3ee15620112b31": {
+      "FileHash": "3d880c7dd363e7ad24a3e00bdd3ee15620112b31",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-43-add-pol-to-grp.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-43-add-pol-to-grp.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3d880c7dd363e7ad24a3e00bdd3ee15620112b31.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "ffa1c8a0402c29fa672f36abe871ce6913182556": {
+      "FileHash": "ffa1c8a0402c29fa672f36abe871ce6913182556",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-45-cportal-installed.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-45-cportal-installed.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ffa1c8a0402c29fa672f36abe871ce6913182556.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "7196b2358287e632baa768f60014b78ca7810d2e": {
+      "FileHash": "7196b2358287e632baa768f60014b78ca7810d2e",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-46-cportal-signin.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-46-cportal-signin.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\7196b2358287e632baa768f60014b78ca7810d2e.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "610ea703a53060f6a466b8ab46b6038a40a65eff": {
+      "FileHash": "610ea703a53060f6a466b8ab46b6038a40a65eff",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-50-warning-install-3.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-50-warning-install-3.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\610ea703a53060f6a466b8ab46b6038a40a65eff.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "83f8f374e137074faa15c9a5025cfbb63a179e1a": {
+      "FileHash": "83f8f374e137074faa15c9a5025cfbb63a179e1a",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-52-profile-done.jpg",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-52-profile-done.jpg"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\83f8f374e137074faa15c9a5025cfbb63a179e1a.jpg",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "a66218e0f957627194f77bdb43b93763d9c5cec4": {
+      "FileHash": "a66218e0f957627194f77bdb43b93763d9c5cec4",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-55-passcode-enter.jpg",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-55-passcode-enter.jpg"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\a66218e0f957627194f77bdb43b93763d9c5cec4.jpg",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "ebfa71b7192831b0bd6f8d4cf474b8756d4e6845": {
+      "FileHash": "ebfa71b7192831b0bd6f8d4cf474b8756d4e6845",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-1-InPrivate.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-1-InPrivate.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ebfa71b7192831b0bd6f8d4cf474b8756d4e6845.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "c133b3e24204fb94b7f5abadead976e75a1b2398": {
+      "FileHash": "c133b3e24204fb94b7f5abadead976e75a1b2398",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-2-abt-you.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-2-abt-you.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\c133b3e24204fb94b7f5abadead976e75a1b2398.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "2b98d65188572566b1d14b4413dacb6f3e915cea": {
+      "FileHash": "2b98d65188572566b1d14b4413dacb6f3e915cea",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-5-ReadyToGo.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-5-ReadyToGo.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\2b98d65188572566b1d14b4413dacb6f3e915cea.png",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "f2a90e68270229eee3fa2896e2a19a7723befe98": {
+      "FileHash": "f2a90e68270229eee3fa2896e2a19a7723befe98",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\how-your-android-users-get-their-apps.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\how-your-android-users-get-their-apps.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-your-android-users-get-their-apps.28ccf7d2eb3068f8b457a3807110c2517d68deb3.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "a911ba04e1070144a857c074cb12662ac895f962": {
+      "FileHash": "a911ba04e1070144a857c074cb12662ac895f962",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\how-your-ios-users-get-their-apps.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\how-your-ios-users-get-their-apps.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-your-ios-users-get-their-apps.ffa176efcff91f68989821c5140559ed52605abe.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "ffb6fd5b0576d02e9b311ba3047c6a6699c6722a": {
+      "FileHash": "ffb6fd5b0576d02e9b311ba3047c6a6699c6722a",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\PlanDesign\\how-your-windows-users-get-their-apps.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\PlanDesign\\how-your-windows-users-get-their-apps.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\how-your-windows-users-get-their-apps.c8f566c312e3e8fb588539e6930cd94f7405f271.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "89a1eb2a2ad88ea5416a0356ee7cb73db1cbb159": {
+      "FileHash": "89a1eb2a2ad88ea5416a0356ee7cb73db1cbb159",
+      "SourceFileCommit": "c455595411aa8eced35a39e0db794ee98a6a8469",
+      "SourceFilePath": "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.b41a7986129feaf91618e0fdf0955399b4fe0b6b.ru-ru.xlf",
+      "HandoffFileCommit": "c4b3f5853d0c8a86f734d1209d57d77b0aaac2c0",
+      "HandoffDateTime": "2016-04-07T22:46:14.0589199Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
