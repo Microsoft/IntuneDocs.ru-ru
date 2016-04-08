@@ -1,33 +1,52 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 15
+ Total Files | 34
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\enroll-corporate-owned-ios-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/enroll-corporate-owned-ios-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#32502610432f879de065166b4966ee0318a1f39554)
- [InTuneDocs\DeployUse\enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/enroll-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#835da1a7f626161b3c353f0e8e92a30e1bce9d1455)
- [InTuneDocs\DeployUse\exchange-access-rules-for-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/exchange-access-rules-for-mobile-devices.md) | HandedOffSuccess | [Details](#1e2f7bfb5b33e4a4142c0e17704739ea4f89000856)
- [InTuneDocs\DeployUse\ios-device-enrollment-program-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/ios-device-enrollment-program-in-microsoft-intune.md) | HandedOffSuccess | [Details](#00c1e4b5f1d83a33fa26ae56b0eec4431ec0e4d074)
- [InTuneDocs\DeployUse\ios-direct-enrollment-in-micorosft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/ios-direct-enrollment-in-micorosft-intune.md) | HandedOffSuccess | [Details](#eaa97054a6e45b61a82915e86d151ca3a3b97af575)
- [InTuneDocs\DeployUse\ios-setup-assistant-enrollment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/ios-setup-assistant-enrollment-in-microsoft-intune.md) | HandedOffSuccess | [Details](#9d03b6990321208ec58b65fdaa1ef91dff170b1177)
- [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/TOC.md) | HandedOffSuccess | [Details](#3726de1e2b8cc883776d2f9a272443860e22c340288)
- [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a2381)
- [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG) | HandedOffFailed | [Details](#c13ff92646549eabc0c40c8dca41dae34521918c382)
- [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG) | HandedOffFailed | [Details](#6455011cf351fcecbd1579b74a9f491e8365466d383)
- [InTuneDocs\Understand\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/Understand/TOC.md) | HandedOffSuccess | [Details](#a401e1ed6eac7b2b9f224bc36e9152f93389f1c91226)
- [InTuneDocs\zDeletedTopics\get-started-with-a-paid-subscription-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/zDeletedTopics/get-started-with-a-paid-subscription-to-microsoft-intune-old.md) | HandedOffSuccess | [Details](#1f70c7f8f2a8405f752706db5e7969fbce0ca03e1362)
- [InTuneDocs\zDeletedTopics\introduction-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/zDeletedTopics/introduction-to-microsoft-intune-old.md) | HandedOffSuccess | [Details](#3b9c00857551480257905fe0215aeb25b30506f21383)
- [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/migrated-03-14/Image/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a21664)
- [migrated-03-14\Topic\Troubleshoot-email-profiles-in-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/migrated-03-14/Topic/Troubleshoot-email-profiles-in-Microsoft-Intune.md) | HandedOffSuccess | [Details](#f736dd44bed11a4f963cca4a54739cb44ff5bc232174)
+ [InTuneDocs\DeployUse\intune-exchange-connector-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/DeployUse/intune-exchange-connector-requirements.md) | HandedOffSuccess | [Details](#1fd7a5228c43a4fb0e00a2567f73e9960a487b4368)
+ [InTuneDocs\DeployUse\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/DeployUse/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md) | HandedOffSuccess | [Details](#41e5cf8dd0d8bcae8209299d7665fe8837f9c090246)
+ [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/DeployUse/TOC.md) | HandedOffSuccess | [Details](#a0569aa5161cbf2465e88dfc20491fc6e938b404288)
+ [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a2381)
+ [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG) | HandedOffFailed | [Details](#c13ff92646549eabc0c40c8dca41dae34521918c382)
+ [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG) | HandedOffFailed | [Details](#6455011cf351fcecbd1579b74a9f491e8365466d383)
+ [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1e1f6caa1d53021d5e6544e016d1a363798ad92e/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune.md) | HandedOffSuccess | [Details](#b5d633a102598e244a52f1fee8932a2c37eb25a0495)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-1.png) | HandedOffSuccess | [Details](#eac2f6affbfae14d4be1b8c1ce22cf593c04a776855)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-10.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-10.png) | HandedOffSuccess | [Details](#ddde252b39eb9f14daf8aacc6d8f08325fc14741856)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-11.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-11.png) | HandedOffSuccess | [Details](#eb9548ac782d7a41b782c682cee305e41fc5a171857)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-2.png) | HandedOffSuccess | [Details](#10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec57858)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-3.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-3.png) | HandedOffSuccess | [Details](#f363094808565774a0bcc3663d2d926a4cb85354859)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-4.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-4.png) | HandedOffSuccess | [Details](#0e6ac2466bc2469d109450fa78c9387b7687062f860)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-5.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-5.png) | HandedOffSuccess | [Details](#0d1bc21ed10d0facc601b592bf0ac0d41c08d946861)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-6.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-6.png) | HandedOffSuccess | [Details](#57cda63e0d03b2bdf9ecac293b7c45bb38be132c862)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-7.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-7.png) | HandedOffSuccess | [Details](#797b763dbbee12e9bef74dcc544be0cfacea1786863)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-8.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-8.png) | HandedOffSuccess | [Details](#f2fd8a8da813ca4810c22aca5687df3b8cbecf74864)
+ [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-9.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-9.png) | HandedOffSuccess | [Details](#9e6af6165eb396969fe666307f9b7b81e9f708d0865)
+ [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md) | HandedOffSuccess | [Details](#f0afcec51e5bcf393ca817c97a26554cdd39ab431124)
+ [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/05d2bfa5d79db78d9e92e4f27d9d71a658b3e381/InTuneDocs/Understand/introduction-to-microsoft-intune.md) | HandedOffSuccess | [Details](#c895a9227c374ee26c6840c5289bf86d2304db921146)
+ [InTuneDocs\Understand\media\Email-Walkthrough\email-walkthrough-1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/email-walkthrough-1.png) | HandedOffSuccess | [Details](#eac2f6affbfae14d4be1b8c1ce22cf593c04a7761210)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-10.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-10.png) | HandedOffSuccess | [Details](#ddde252b39eb9f14daf8aacc6d8f08325fc147411211)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-11.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-11.png) | HandedOffSuccess | [Details](#eb9548ac782d7a41b782c682cee305e41fc5a1711212)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-2.png) | HandedOffSuccess | [Details](#10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec571213)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-3.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-3.png) | HandedOffSuccess | [Details](#f363094808565774a0bcc3663d2d926a4cb853541214)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-4.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-4.png) | HandedOffSuccess | [Details](#0e6ac2466bc2469d109450fa78c9387b7687062f1215)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-5.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-5.png) | HandedOffSuccess | [Details](#0d1bc21ed10d0facc601b592bf0ac0d41c08d9461216)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-6.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-6.png) | HandedOffSuccess | [Details](#57cda63e0d03b2bdf9ecac293b7c45bb38be132c1217)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-7.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-7.png) | HandedOffSuccess | [Details](#797b763dbbee12e9bef74dcc544be0cfacea17861218)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-8.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-8.png) | HandedOffSuccess | [Details](#f2fd8a8da813ca4810c22aca5687df3b8cbecf741219)
+ [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-9.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-9.png) | HandedOffSuccess | [Details](#9e6af6165eb396969fe666307f9b7b81e9f708d01220)
+ [InTuneDocs\zDeletedTopics\TOC-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/zDeletedTopics/TOC-old.md) | HandedOffSuccess | [Details](#eb1b700cbd4694c83e957de96d65bfc369cd2f1b1512)
+ [migrated-03-14\Image\Email-Walkthrough\Email-Walkthrough-4.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/migrated-03-14/Image/Email-Walkthrough/Email-Walkthrough-4.png) | HandedOffSuccess | [Details](#0e6ac2466bc2469d109450fa78c9387b7687062f1658)
+ [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/migrated-03-14/Image/Enroll-Android-logo.JPG) | HandedOffFailed | [Details](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a21664)
 
 ## Item Details
-##### <a name='32502610432f879de065166b4966ee0318a1f39554'></a> Source: [InTuneDocs\DeployUse\enroll-corporate-owned-ios-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/enroll-corporate-owned-ios-devices-in-microsoft-intune.md)
+##### <a name='1fd7a5228c43a4fb0e00a2567f73e9960a487b4368'></a> Source: [InTuneDocs\DeployUse\intune-exchange-connector-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/DeployUse/intune-exchange-connector-requirements.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [enroll-corporate-owned-ios-devices-in-microsoft-intune.8194b64bf1d77148d69053d9f405cc874eb7cc69.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/enroll-corporate-owned-ios-devices-in-microsoft-intune.8194b64bf1d77148d69053d9f405cc874eb7cc69.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
+* Handoff File: [intune-exchange-connector-requirements.4d1776b171c935cd72b7b9573e8ac0119bfc9d45.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/intune-exchange-connector-requirements.4d1776b171c935cd72b7b9573e8ac0119bfc9d45.ru-ru.xlf)
+* Handoff Datetime: 2016-04-08 16:52:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -35,11 +54,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='835da1a7f626161b3c353f0e8e92a30e1bce9d1455'></a> Source: [InTuneDocs\DeployUse\enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/enroll-devices-in-microsoft-intune.md)
+##### <a name='41e5cf8dd0d8bcae8209299d7665fe8837f9c090246'></a> Source: [InTuneDocs\DeployUse\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/DeployUse/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [enroll-devices-in-microsoft-intune.12029a3a8ff95b1c1cff88f516048f3f631accde.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/enroll-devices-in-microsoft-intune.12029a3a8ff95b1c1cff88f516048f3f631accde.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
+* Handoff File: [mobile-device-management-with-exchange-activesync-and-microsoft-intune.3ba7e002210e0205d1f6c7bf236564e0cbc373af.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-management-with-exchange-activesync-and-microsoft-intune.3ba7e002210e0205d1f6c7bf236564e0cbc373af.ru-ru.xlf)
+* Handoff Datetime: 2016-04-08 16:52:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -47,11 +66,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='1e2f7bfb5b33e4a4142c0e17704739ea4f89000856'></a> Source: [InTuneDocs\DeployUse\exchange-access-rules-for-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/exchange-access-rules-for-mobile-devices.md)
+##### <a name='a0569aa5161cbf2465e88dfc20491fc6e938b404288'></a> Source: [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/DeployUse/TOC.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [exchange-access-rules-for-mobile-devices.9bf93c310be4e8cff17ae939b75b0ac540891b24.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/exchange-access-rules-for-mobile-devices.9bf93c310be4e8cff17ae939b75b0ac540891b24.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
+* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
+* Handoff Datetime: 2016-04-08 16:52:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -59,55 +78,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='00c1e4b5f1d83a33fa26ae56b0eec4431ec0e4d074'></a> Source: [InTuneDocs\DeployUse\ios-device-enrollment-program-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/ios-device-enrollment-program-in-microsoft-intune.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [ios-device-enrollment-program-in-microsoft-intune.139c3cbefcdda9b083661c2a90b2c1e8860ee874.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/ios-device-enrollment-program-in-microsoft-intune.139c3cbefcdda9b083661c2a90b2c1e8860ee874.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='eaa97054a6e45b61a82915e86d151ca3a3b97af575'></a> Source: [InTuneDocs\DeployUse\ios-direct-enrollment-in-micorosft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/ios-direct-enrollment-in-micorosft-intune.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [ios-direct-enrollment-in-micorosft-intune.65533a8b7e4e5546da72af4b2786aa5145d7f72f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/ios-direct-enrollment-in-micorosft-intune.65533a8b7e4e5546da72af4b2786aa5145d7f72f.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='9d03b6990321208ec58b65fdaa1ef91dff170b1177'></a> Source: [InTuneDocs\DeployUse\ios-setup-assistant-enrollment-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/ios-setup-assistant-enrollment-in-microsoft-intune.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [ios-setup-assistant-enrollment-in-microsoft-intune.24ae84be573364d48194baa877d8a03e01c550c2.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/ios-setup-assistant-enrollment-in-microsoft-intune.24ae84be573364d48194baa877d8a03e01c550c2.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='3726de1e2b8cc883776d2f9a272443860e22c340288'></a> Source: [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/DeployUse/TOC.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a2381'></a> Source: [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG)
+##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a2381'></a> Source: [InTuneDocs\EndUser\media\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/EndUser/media/Enroll-Android-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
@@ -120,7 +91,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='c13ff92646549eabc0c40c8dca41dae34521918c382'></a> Source: [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG)
+##### <a name='c13ff92646549eabc0c40c8dca41dae34521918c382'></a> Source: [InTuneDocs\EndUser\media\Enroll-Apple-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/EndUser/media/Enroll-Apple-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
@@ -133,7 +104,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6455011cf351fcecbd1579b74a9f491e8365466d383'></a> Source: [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG)
+##### <a name='6455011cf351fcecbd1579b74a9f491e8365466d383'></a> Source: [InTuneDocs\EndUser\media\Enroll-windows-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/EndUser/media/Enroll-windows-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
@@ -146,11 +117,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a401e1ed6eac7b2b9f224bc36e9152f93389f1c91226'></a> Source: [InTuneDocs\Understand\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/Understand/TOC.md)
+##### <a name='b5d633a102598e244a52f1fee8932a2c37eb25a0495'></a> Source: [InTuneDocs\GetStarted\get-started-with-a-paid-subscription-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1e1f6caa1d53021d5e6544e016d1a363798ad92e/InTuneDocs/GetStarted/get-started-with-a-paid-subscription-to-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.25973e7413a716a995daf5d2adc1c6c01a873f3f.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
+* Handoff File: [get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf)
+* Handoff Datetime: 2016-04-08 16:52:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -158,11 +129,154 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='1f70c7f8f2a8405f752706db5e7969fbce0ca03e1362'></a> Source: [InTuneDocs\zDeletedTopics\get-started-with-a-paid-subscription-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/zDeletedTopics/get-started-with-a-paid-subscription-to-microsoft-intune-old.md)
+##### <a name='eac2f6affbfae14d4be1b8c1ce22cf593c04a776855'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-1.png)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
+* Handoff File: [eac2f6affbfae14d4be1b8c1ce22cf593c04a776.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/eac2f6affbfae14d4be1b8c1ce22cf593c04a776.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='ddde252b39eb9f14daf8aacc6d8f08325fc14741856'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-10.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-10.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [ddde252b39eb9f14daf8aacc6d8f08325fc14741.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/ddde252b39eb9f14daf8aacc6d8f08325fc14741.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='eb9548ac782d7a41b782c682cee305e41fc5a171857'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-11.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-11.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [eb9548ac782d7a41b782c682cee305e41fc5a171.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/eb9548ac782d7a41b782c682cee305e41fc5a171.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec57858'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-2.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec57.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec57.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='f363094808565774a0bcc3663d2d926a4cb85354859'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-3.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-3.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [f363094808565774a0bcc3663d2d926a4cb85354.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/f363094808565774a0bcc3663d2d926a4cb85354.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='0e6ac2466bc2469d109450fa78c9387b7687062f860'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-4.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-4.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [0e6ac2466bc2469d109450fa78c9387b7687062f.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/0e6ac2466bc2469d109450fa78c9387b7687062f.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='0d1bc21ed10d0facc601b592bf0ac0d41c08d946861'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-5.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-5.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [0d1bc21ed10d0facc601b592bf0ac0d41c08d946.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/0d1bc21ed10d0facc601b592bf0ac0d41c08d946.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='57cda63e0d03b2bdf9ecac293b7c45bb38be132c862'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-6.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-6.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [57cda63e0d03b2bdf9ecac293b7c45bb38be132c.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/57cda63e0d03b2bdf9ecac293b7c45bb38be132c.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='797b763dbbee12e9bef74dcc544be0cfacea1786863'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-7.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-7.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [797b763dbbee12e9bef74dcc544be0cfacea1786.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/797b763dbbee12e9bef74dcc544be0cfacea1786.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='f2fd8a8da813ca4810c22aca5687df3b8cbecf74864'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-8.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-8.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [f2fd8a8da813ca4810c22aca5687df3b8cbecf74.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/f2fd8a8da813ca4810c22aca5687df3b8cbecf74.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='9e6af6165eb396969fe666307f9b7b81e9f708d0865'></a> Source: [InTuneDocs\media\Email-Walkthrough\Email-Walkthrough-9.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/media/Email-Walkthrough/Email-Walkthrough-9.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [9e6af6165eb396969fe666307f9b7b81e9f708d0.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/9e6af6165eb396969fe666307f9b7b81e9f708d0.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='f0afcec51e5bcf393ca817c97a26554cdd39ab431124'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79490fcc064b7206593c1b3722a4e7ecfba671b3/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf)
+* Handoff Datetime: 2016-04-08 16:52:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -170,11 +284,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='3b9c00857551480257905fe0215aeb25b30506f21383'></a> Source: [InTuneDocs\zDeletedTopics\introduction-to-microsoft-intune-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/InTuneDocs/zDeletedTopics/introduction-to-microsoft-intune-old.md)
+##### <a name='c895a9227c374ee26c6840c5289bf86d2304db921146'></a> Source: [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/05d2bfa5d79db78d9e92e4f27d9d71a658b3e381/InTuneDocs/Understand/introduction-to-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
+* Handoff File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
+* Handoff Datetime: 2016-04-08 16:52:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -182,25 +296,181 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a21664'></a> Source: [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/migrated-03-14/Image/Enroll-Android-logo.JPG)
+##### <a name='eac2f6affbfae14d4be1b8c1ce22cf593c04a7761210'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\email-walkthrough-1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/email-walkthrough-1.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [eac2f6affbfae14d4be1b8c1ce22cf593c04a776.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/eac2f6affbfae14d4be1b8c1ce22cf593c04a776.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='ddde252b39eb9f14daf8aacc6d8f08325fc147411211'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-10.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-10.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [ddde252b39eb9f14daf8aacc6d8f08325fc14741.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/ddde252b39eb9f14daf8aacc6d8f08325fc14741.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='eb9548ac782d7a41b782c682cee305e41fc5a1711212'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-11.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-11.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [eb9548ac782d7a41b782c682cee305e41fc5a171.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/eb9548ac782d7a41b782c682cee305e41fc5a171.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec571213'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-2.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec57.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec57.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='f363094808565774a0bcc3663d2d926a4cb853541214'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-3.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-3.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [f363094808565774a0bcc3663d2d926a4cb85354.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/f363094808565774a0bcc3663d2d926a4cb85354.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='0e6ac2466bc2469d109450fa78c9387b7687062f1215'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-4.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-4.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [0e6ac2466bc2469d109450fa78c9387b7687062f.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/0e6ac2466bc2469d109450fa78c9387b7687062f.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='0d1bc21ed10d0facc601b592bf0ac0d41c08d9461216'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-5.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-5.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [0d1bc21ed10d0facc601b592bf0ac0d41c08d946.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/0d1bc21ed10d0facc601b592bf0ac0d41c08d946.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='57cda63e0d03b2bdf9ecac293b7c45bb38be132c1217'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-6.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-6.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [57cda63e0d03b2bdf9ecac293b7c45bb38be132c.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/57cda63e0d03b2bdf9ecac293b7c45bb38be132c.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='797b763dbbee12e9bef74dcc544be0cfacea17861218'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-7.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-7.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [797b763dbbee12e9bef74dcc544be0cfacea1786.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/797b763dbbee12e9bef74dcc544be0cfacea1786.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='f2fd8a8da813ca4810c22aca5687df3b8cbecf741219'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-8.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-8.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [f2fd8a8da813ca4810c22aca5687df3b8cbecf74.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/f2fd8a8da813ca4810c22aca5687df3b8cbecf74.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='9e6af6165eb396969fe666307f9b7b81e9f708d01220'></a> Source: [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-9.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-9.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [9e6af6165eb396969fe666307f9b7b81e9f708d0.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/9e6af6165eb396969fe666307f9b7b81e9f708d0.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='eb1b700cbd4694c83e957de96d65bfc369cd2f1b1512'></a> Source: [InTuneDocs\zDeletedTopics\TOC-old.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/InTuneDocs/zDeletedTopics/TOC-old.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='0e6ac2466bc2469d109450fa78c9387b7687062f1658'></a> Source: [migrated-03-14\Image\Email-Walkthrough\Email-Walkthrough-4.png](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/migrated-03-14/Image/Email-Walkthrough/Email-Walkthrough-4.png)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [0e6ac2466bc2469d109450fa78c9387b7687062f.png](https://github.com/Microsoft/EM.handoff/blob/7b2d3bf00dad5086ae0513274163f0be1e065188/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/0e6ac2466bc2469d109450fa78c9387b7687062f.png)
+* Handoff Datetime: 2016-04-08 16:52:33
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md
+* [Back to Top](#report-top)
+
+##### <a name='4004752da545e7c9c19b67ce8808ad3d3f0bd3a21664'></a> Source: [migrated-03-14\Image\Enroll-Android-logo.JPG](https://github.com/Microsoft/IntuneDocs-pr/blob/d057d1876203af6bf1d1c84703b477cf665ac81a/migrated-03-14/Image/Enroll-Android-logo.JPG)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
 * Handoff Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Ignored
 * Handoff Error: [handoff_transform_failed](#4004752da545e7c9c19b67ce8808ad3d3f0bd3a21664handoff_transform_failed)
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='f736dd44bed11a4f963cca4a54739cb44ff5bc232174'></a> Source: [migrated-03-14\Topic\Troubleshoot-email-profiles-in-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e2ee11b159a00435407d86473237fca508411bc4/migrated-03-14/Topic/Troubleshoot-email-profiles-in-Microsoft-Intune.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/eea01457f603a0a307b06b795f3bfa68e778d34d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf)
-* Handoff Datetime: 2016-04-07 23:13:42
-* Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
