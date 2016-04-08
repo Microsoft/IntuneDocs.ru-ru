@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2201
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1810
+[ Handoff Success Files ](#handoff-success-list)| 1809
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 387
+[ Ignored Files ](#ignored-list)| 388
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -963,7 +963,6 @@
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step6.md](https://github.com/Microsoft/IntuneDocs-pr/blob/842bc820a0396ca37e210c8f7f1db09f5d93b309/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step6.md) | HandedOffSuccess | [Details](#bc0d403e0c42222b05586326f51ad150c749344f1149)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step7.md](https://github.com/Microsoft/IntuneDocs-pr/blob/842bc820a0396ca37e210c8f7f1db09f5d93b309/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step7.md) | HandedOffSuccess | [Details](#e5f760e8f0b0f8ed5e9f6c4f8a44e98558b84aa71150)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step8.md](https://github.com/Microsoft/IntuneDocs-pr/blob/842bc820a0396ca37e210c8f7f1db09f5d93b309/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step8.md) | HandedOffSuccess | [Details](#c30583e6c08596071e9706f182d40816e073b6181151)
- [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/51c0c022f8f5b0931e4c077348a374fa8ae16f97/InTuneDocs/Understand/introduction-to-microsoft-intune.md) | HandedOffSuccess | [Details](#9960069f2eaf8b3d1eeabe2580ad0dcbd79f05251153)
  [InTuneDocs\Understand\media\150x150.png](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f711155)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | HandedOffSuccess | [Details](#64f06d45481657e65ee924d286623dc83a514f401156)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-12-link-set-mdm.png](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png) | HandedOffSuccess | [Details](#73ef645cbc717eb389266a0e21f6ac7bdb749a6f1157)
@@ -2058,6 +2057,7 @@
  [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/PlanDesign/docfx.json) | Ignored | [Details](#7ff4ccabef0f7e76ffe067c9b7d29704d45a34171071)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#d047b529745fd06ce1f750f103f1c7a5fcf13f871121)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#5328c5c836ee360d6bda3415109881b5184d93631141)
+ [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/introduction-to-microsoft-intune.md) | Ignored | [Details](#82727f98cc1868ee9629633ba10fe82500831bff1153)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec751301360801154)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.jpg) | Ignored | [Details](#f555a2a0f7e02f3c4d4b833b40ffa1a4102e17031192)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.png](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.png) | Ignored | [Details](#420f2040334650ca412a8068ea12424cd737733f1193)
@@ -16489,12 +16489,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9960069f2eaf8b3d1eeabe2580ad0dcbd79f05251153'></a> Source: [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/51c0c022f8f5b0931e4c077348a374fa8ae16f97/InTuneDocs/Understand/introduction-to-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='82727f98cc1868ee9629633ba10fe82500831bff1153'></a> Source: [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/10bb3c79426de46cab71068e4f30e9fc58d91b93/InTuneDocs/Understand/introduction-to-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/857bc6aade9af5270280dc9665e3ba2b1041a4c7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
-* Handoff Datetime: 2016-04-08 19:14:54
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
