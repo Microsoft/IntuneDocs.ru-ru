@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2227
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1824
+[ Handoff Success Files ](#handoff-success-list)| 1822
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 399
+[ Ignored Files ](#ignored-list)| 401
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -81,7 +81,6 @@
  [InTuneDocs\DeployUse\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9d9b0478e9e65daa2df44fca446302699a2e1858/InTuneDocs/DeployUse/get-ready-to-enroll-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#696c7be81d2c85bc1ec6c29915924982b42040b560)
  [InTuneDocs\DeployUse\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md) | HandedOffSuccess | [Details](#6f3a3e792c26a311ac6602319fd7c9c789b8d13461)
  [InTuneDocs\DeployUse\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c349188d595a74c55827617fe37b683f3964b58c/InTuneDocs/DeployUse/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md) | HandedOffSuccess | [Details](#69653c8f80a29540d72646b20068aa0aa3c88ba562)
- [InTuneDocs\DeployUse\help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d4261d28e6ea728cc5e4f4bfd0060aa2907cd282/InTuneDocs/DeployUse/help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md) | HandedOffSuccess | [Details](#e2166c8eedd37bdc1399a2337694485f5f11d1bd63)
  [InTuneDocs\DeployUse\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md) | HandedOffSuccess | [Details](#e61a5c45252c366e25428932f132f0938caa447064)
  [InTuneDocs\DeployUse\install-the-windows-pc-client-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fe32796f257737f2866a0bbaa00b5c6fabb4c8d2/InTuneDocs/DeployUse/install-the-windows-pc-client-with-microsoft-intune.md) | HandedOffSuccess | [Details](#4a57aa9a71174369403cfcdea72ae5f610f1dbd365)
  [InTuneDocs\DeployUse\introduction-to-device-compliance-policies-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fa77a78c576696ee18e64681fffc4c0bf5e26b29/InTuneDocs/DeployUse/introduction-to-device-compliance-policies-in-microsoft-intune.md) | HandedOffSuccess | [Details](#5db007f060ebcb35ac6b0c4222adbcb7f58d77c866)
@@ -254,7 +253,6 @@
  [InTuneDocs\DeployUse\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md) | HandedOffSuccess | [Details](#15a1211ec83158d1a77c92411100bff572ff9a7a285)
  [InTuneDocs\DeployUse\strawman-TOC-with-notes.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e65b95c85c7bf6a4085a9f49bc97e30a9dd4e21/InTuneDocs/DeployUse/strawman-TOC-with-notes.md) | HandedOffSuccess | [Details](#7efa1c05c70997ea142980add9e1502c31de27ae286)
  [InTuneDocs\DeployUse\terms-and-condition-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/85d6924ed4cab61c7fde56029805358712da0781/InTuneDocs/DeployUse/terms-and-condition-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#0a34ed2ea2556768f64c0edd315d8b2e3022745b287)
- [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/94d7639b88ef8c1de0a876ce05fa3a6f94eba2f6/InTuneDocs/DeployUse/TOC.md) | HandedOffSuccess | [Details](#2dc74f8ab566aaa8d5208320eead85a520272e4b288)
  [InTuneDocs\DeployUse\understand-microsoft-intune-operations-by-using-reports.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/understand-microsoft-intune-operations-by-using-reports.md) | HandedOffSuccess | [Details](#0d287ac56e48a8ee8027a2c71318358cbd224420289)
  [InTuneDocs\DeployUse\understand-your-devices-with-inventory-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7f4d19f416f87e98036ce3e937ab582b7c0af117/InTuneDocs/DeployUse/understand-your-devices-with-inventory-in-microsoft-intune.md) | HandedOffSuccess | [Details](#7c50f5947c11fc047859d3c7025fa226864efacb290)
  [InTuneDocs\DeployUse\update-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/DeployUse/update-apps.md) | HandedOffSuccess | [Details](#7ea8641a6f26bb31dd716fa51430cc0df4aa6ba8292)
@@ -1868,6 +1866,7 @@
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e949)
+ [InTuneDocs\DeployUse\help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md) | Ignored | [Details](#17840a8db79fe66d4b7b55bb78e12e300d68aa2a63)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476195)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e0102)
  [InTuneDocs\DeployUse\media\App_Access_EXO.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/media/App_Access_EXO.png) | Ignored | [Details](#2b6df2d39a7f26448017cf118278efe1197bdeca105)
@@ -1920,6 +1919,7 @@
  [InTuneDocs\DeployUse\media\SCEP_Registry_editor_MSCEP.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/media/SCEP_Registry_editor_MSCEP.png) | Ignored | [Details](#bfc8fc4530e19362ec49490a1f70ed336477d701237)
  [InTuneDocs\DeployUse\media\SCEP_Registry_MDM.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/media/SCEP_Registry_MDM.png) | Ignored | [Details](#ba3a1aa88585ec5753eb25d94943732d57ab652c238)
  [InTuneDocs\DeployUse\media\SCEP_SSL_settings.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/media/SCEP_SSL_settings.png) | Ignored | [Details](#fd444a39ea7fdea011b5ba7d32147e684a6a1e32239)
+ [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/TOC.md) | Ignored | [Details](#050ec6053104327e584b7df11a9b2e787201e5ab288)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2311)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#7b0885b6fc884f750560f0ad7cbe12d6cd66fdd0331)
  [InTuneDocs\EndUser\media\1-macosx-enroll-tap-enroll.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/EndUser/media/1-macosx-enroll-tap-enroll.png) | Ignored | [Details](#5b3551ac48c41f27c2f2e59467a03eb527bffb46350)
@@ -3019,12 +3019,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e2166c8eedd37bdc1399a2337694485f5f11d1bd63'></a> Source: [InTuneDocs\DeployUse\help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d4261d28e6ea728cc5e4f4bfd0060aa2907cd282/InTuneDocs/DeployUse/help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='17840a8db79fe66d4b7b55bb78e12e300d68aa2a63'></a> Source: [InTuneDocs\DeployUse\help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.64d6efd33f3e2732732ce3d40a5982b87ce612c8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/36b584ed197b7bfad453d690ad74d51a641f598d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/help-protect-your-data-with-remote-wipe-remote-lock-or-passcode-reset-using-microsoft-intune.64d6efd33f3e2732732ce3d40a5982b87ce612c8.ru-ru.xlf)
-* Handoff Datetime: 2016-04-11 22:16:50
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -5813,12 +5813,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2dc74f8ab566aaa8d5208320eead85a520272e4b288'></a> Source: [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/94d7639b88ef8c1de0a876ce05fa3a6f94eba2f6/InTuneDocs/DeployUse/TOC.md)
-* Status: HandedOffSuccess
+##### <a name='050ec6053104327e584b7df11a9b2e787201e5ab288'></a> Source: [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1828f2ddc7777d1054af790b5afa69eba59ba42e/InTuneDocs/DeployUse/TOC.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/36b584ed197b7bfad453d690ad74d51a641f598d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
-* Handoff Datetime: 2016-04-11 22:16:50
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
