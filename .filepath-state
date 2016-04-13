@@ -327,12 +327,12 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
-  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
-  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
+  ],
+  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
   ],
   "15fa7300e26208f1b005f8743c24b49845808794": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
@@ -495,13 +495,13 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "e215446a96baabf45b7ebde477cdac13b91c30cb": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
-  ],
-  "e215446a96baabf45b7ebde477cdac13b91c30cb": [
-    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "92c650dc4ad6f52575bc7022c350abb69a7b7779": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -1021,12 +1021,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
-  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
-  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
+  ],
+  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -2206,6 +2206,9 @@
     "InTuneDocs\\set-up-computer-device-management-with-microsoft-intune.md",
     "migrated-03-14\\Topic\\Set-up-Computer-device-management-with-Microsoft-Intune.md"
   ],
+  "b5192178543e9b1084aa92548bc921b6cef05334": [
+    "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
+  ],
   "a1fc1220518728a6371ddcbe7f8a680abe6de4c9": [
     "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
   ],
@@ -2396,12 +2399,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
+  "2065cca69c9f81e361744a243daaa3cc26a70275": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
+  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
-  ],
-  "2065cca69c9f81e361744a243daaa3cc26a70275": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
@@ -2469,14 +2472,14 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
+  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
+  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
-  ],
-  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
   ],
   "c81517c28dfb06828a5194c8818f87979c926ef0": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -5038,6 +5041,9 @@
   "33c27e6c84e41853ae973055806560553ac9af47": [
     "InTuneDocs\\DeployUse\\microsoft-intune-policy-reference.md"
   ],
+  "d1114472f726d35c748bb7068c079afd9ac7a35e": [
+    "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
+  ],
   "0a34ed2ea2556768f64c0edd315d8b2e3022745b": [
     "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
   ],
@@ -5735,6 +5741,9 @@
   "00c1e4b5f1d83a33fa26ae56b0eec4431ec0e4d0": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
+  "c092011d541277b4447b6acf7a061d1990737eaf": [
+    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
+  ],
   "9d03b6990321208ec58b65fdaa1ef91dff170b11": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
@@ -5842,6 +5851,9 @@
   ],
   "19064a8aaede330ac742af6e3a735598ac868733": [
     "InTuneDocs\\media\\em-vision.png"
+  ],
+  "334c6e94a8acfd8a1a4e0da8d50834572b1ebf91": [
+    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
   ],
   "3ba62617509cf5c75d1360799d723e54791f2295": [
     "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
@@ -6013,5 +6025,14 @@
   ],
   "b9f015265fc432c9ce2a6806ba15b31b0df069cb": [
     "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
+  ],
+  "b8284a6060e8bd5dc51a9f1c41448d3c69fca5e3": [
+    "InTuneDocs\\Media\\pol-sa-corp-enroll.png"
+  ],
+  "27cd4aac432f6e0c0c010152378a59907d950106": [
+    "InTuneDocs\\Media\\pol-SA-enroll-iOS-SetupAssistant.png"
+  ],
+  "204ed85ed1c4dea12212eea34b080998af6cc211": [
+    "InTuneDocs\\Media\\pol-sa-terms-conditions.png"
   ]
 }
