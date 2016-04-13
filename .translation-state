@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "812748771c9df74087a2920b3ef91079dc2332a5",
+  "LastProcessedCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -1988,8 +1988,8 @@
         "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-internet-access-using-managed-browser-policies.cfbbb12a455aecd490c0caa0f746302b3c79eefc.ru-ru.xlf",
-      "HandoffFileCommit": "bd224ec85db8273683c370c1c469dc66af752260",
-      "HandoffDateTime": "2016-04-12T23:14:12.9668108Z",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -5474,8 +5474,8 @@
         "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf",
-      "HandoffFileCommit": "bd224ec85db8273683c370c1c469dc66af752260",
-      "HandoffDateTime": "2016-04-12T23:14:12.9668108Z",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -26210,7 +26210,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -26243,7 +26244,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -26276,7 +26278,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -26309,7 +26312,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -26342,7 +26346,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -26375,7 +26380,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -26408,7 +26414,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27209,7 +27216,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27242,7 +27250,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27275,7 +27284,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27308,7 +27318,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27341,7 +27352,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27374,7 +27386,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27407,7 +27420,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27440,7 +27454,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27473,7 +27488,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27506,7 +27522,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27539,7 +27556,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -27572,7 +27590,8 @@
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\End-user-experience-for-apps-associated-with-Microsoft-Intune-mobile-app-management-policies.md",
-        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md"
+        "InTuneDocs\\DeployUse\\end-user-experience-for-apps-associated-with-microsoft-intune-mobile-app-management-policies.md",
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -64072,8 +64091,8 @@
         "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf",
-      "HandoffFileCommit": "bd224ec85db8273683c370c1c469dc66af752260",
-      "HandoffDateTime": "2016-04-12T23:14:12.9668108Z",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -64453,8 +64472,8 @@
         "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf",
-      "HandoffFileCommit": "bd224ec85db8273683c370c1c469dc66af752260",
-      "HandoffDateTime": "2016-04-12T23:14:12.9668108Z",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -69050,8 +69069,8 @@
         "InTuneDocs\\DeployUse\\TOC.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf",
-      "HandoffFileCommit": "bd224ec85db8273683c370c1c469dc66af752260",
-      "HandoffDateTime": "2016-04-12T23:14:12.9668108Z",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -69460,6 +69479,248 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ru-ru.xlf",
       "HandoffFileCommit": "f62c8473d55abf6f5869c4e1f03555ce5b67185f",
       "HandoffDateTime": "2016-04-12T23:57:00.7370454Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "572731f33ac8bfb843591b76d49d87758184887d": {
+      "FileHash": "572731f33ac8bfb843591b76d49d87758184887d",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\android-mam-policy-settings.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\android-mam-policy-settings.b4b77111e882cd82d74b84ec7f641f5b62ca8428.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "6edac47219e2d570602308cd379c20c80bb127cc": {
+      "FileHash": "6edac47219e2d570602308cd379c20c80bb127cc",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "e949a5c0d037ed14156d387c01c84a4e051997d4": {
+      "FileHash": "e949a5c0d037ed14156d387c01c84a4e051997d4",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "ee680c70a48c083dcf288ae907b5c54444cb7103": {
+      "FileHash": "ee680c70a48c083dcf288ae907b5c54444cb7103",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.7c4686a11d073da6085dcfa7266f5f6c197c5f69.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "7456ff40388bd08923170a2573ea7058155e593b": {
+      "FileHash": "7456ff40388bd08923170a2573ea7058155e593b",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\introduction-to-device-compliance-policies-in-microsoft-intune.1cd77154e64631fcc324af8b8a9aaf322a160174.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "1156f9aa7edc5cb4a433a5ef2022492ab57676af": {
+      "FileHash": "1156f9aa7edc5cb4a433a5ef2022492ab57676af",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\ios-mam-policy-settings.4eeb53ea93ef4e93270a12c19b318527311bd966.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "782e5f15d4517808425d02b3d79732a9d28d986f": {
+      "FileHash": "782e5f15d4517808425d02b3d79732a9d28d986f",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-data-transfer-between-ios-apps-with-microsoft-intune.4d7d42c1c13c5828eddcc758ffdd84e3d34f1a88.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "060734776c3e89798679bff0f0cd1c78a64781b8": {
+      "FileHash": "060734776c3e89798679bff0f0cd1c78a64781b8",
+      "SourceFileCommit": "a7acf9063096f6b2dedca36e97eb71081c569eea",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.15f06b9c8d51a84c2a07952aff97cfb36cf2d229.ru-ru.xlf",
+      "HandoffFileCommit": "b4094bdc93228cc23a61425669ecb832a8605b99",
+      "HandoffDateTime": "2016-04-13T13:52:25.4228282Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
