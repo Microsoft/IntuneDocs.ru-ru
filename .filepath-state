@@ -321,12 +321,12 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
+  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
+  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
-  ],
-  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
   ],
   "15fa7300e26208f1b005f8743c24b49845808794": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
@@ -376,6 +376,9 @@
   ],
   "49ff913f206ff5c064edf03d60e409597345f7fb": [
     "InTuneDocs\\DeployUse\\microsoft-apps-you-can-use-with-microsoft-intune-mobile-application-management-policies.md"
+  ],
+  "706de67fd74125f30da469adcbd2acf2c243d6bc": [
+    "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
   ],
   "3da02ac5c38f835d8a98b1a476ada4895a617d7f": [
     "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
@@ -486,12 +489,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "92c650dc4ad6f52575bc7022c350abb69a7b7779": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
+  ],
+  "92c650dc4ad6f52575bc7022c350abb69a7b7779": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "a0d43c74a17e0282d6e83d323b0e1deca2d58549": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -942,6 +945,9 @@
   "deb368f6ab007bba9bb1f22ca0b2cbc4c0b0d90e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
   ],
+  "a72951253f9cb4a2f744958e3cc22ea716fba9c8": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+  ],
   "1ca82ecbe4b97f35dbfa47fcc01ac4816d352038": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
   ],
@@ -1002,12 +1008,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
+  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
-  ],
-  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -2368,12 +2374,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "2065cca69c9f81e361744a243daaa3cc26a70275": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "2065cca69c9f81e361744a243daaa3cc26a70275": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
@@ -2441,12 +2447,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "82727f98cc1868ee9629633ba10fe82500831bff": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -2987,9 +2993,6 @@
   ],
   "56f67d5dc2529ef69bf6ed1134d77e57497b2abd": [
     "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_FlaggedUserDetails.png"
-  ],
-  "da1a1004285cb16b91a5d883b4e41adcc8acfe79": [
-    "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequestsSummary.png"
   ],
   "087ba6fba3be9c5ffa6cbebf22fdeb25a971bef8": [
     "InTuneDocs\\zDeletedTopics\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies-test.md"
@@ -5878,10 +5881,22 @@
   "ee680c70a48c083dcf288ae907b5c54444cb7103": [
     "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
   ],
+  "5abdc79025bce57108878b2c43c14f10be289ee8": [
+    "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
+  ],
   "782e5f15d4517808425d02b3d79732a9d28d986f": [
     "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
   ],
   "c81517c28dfb06828a5194c8818f87979c926ef0": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-draft.md"
+  ],
+  "adc15aa0f53c35d42cf97f95d8b2fb9ed345348c": [
+    "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user.png"
+  ],
+  "a6222ba1ffdc40fa2280ab62ef32de8053510b94": [
+    "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user-settings-blade.png"
+  ],
+  "5522836a146b306aa18c04ef52fac97e2f41c4c7": [
+    "InTuneDocs\\media\\mam-azure-portal-app-reporting-select-user.png"
   ]
 }
