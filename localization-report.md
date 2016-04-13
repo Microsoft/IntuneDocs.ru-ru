@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2237
 [ Handoff Failed Files ](#handoff-failed-list)| 4
-[ Handoff Success Files ](#handoff-success-list)| 1839
+[ Handoff Success Files ](#handoff-success-list)| 1838
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 394
+[ Ignored Files ](#ignored-list)| 395
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -278,7 +278,6 @@
  [InTuneDocs\documentation-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/documentation-for-microsoft-intune.md) | HandedOffSuccess | [Details](#ca6c84eb7ae0d419c7e5304748f02d8e3357004a311)
  [InTuneDocs\documentation-for-microsoft-intune-1-.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/documentation-for-microsoft-intune-1-.md) | HandedOffSuccess | [Details](#c8cf490248f189edbc436fa146eed0ee899b42a4309)
  [InTuneDocs\documentation-for-microsoft-intune-test-1-.md](https://github.com/Microsoft/IntuneDocs-pr/blob/84f8a4780cd34c8712af32689d10e46b7ad12ebf/InTuneDocs/documentation-for-microsoft-intune-test-1-.md) | HandedOffSuccess | [Details](#986d9c4c438b5c2769ba4d50abd8d9e46e0cd3a9310)
- [InTuneDocs\dougs-sandbox.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29b2eca39d14bcbd00840a73bf5e71d7a74afe04/InTuneDocs/dougs-sandbox.md) | HandedOffSuccess | [Details](#20f955062e2b30a29f84e087acc3227ba962fb2d312)
  [InTuneDocs\enable-access-to-company-resources-with-microsoft-intune-deleted.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/enable-access-to-company-resources-with-microsoft-intune-deleted.md) | HandedOffSuccess | [Details](#65cdbe112a7f787404f6b1eb9a9b0fd731872be6313)
  [InTuneDocs\enable-mobile-device-enrollment-with-the-microsoft-intune-account-portal.md](https://github.com/Microsoft/IntuneDocs-pr/blob/00744e0416604bb2c9fd09d7395b739476a6875c/InTuneDocs/enable-mobile-device-enrollment-with-the-microsoft-intune-account-portal.md) | HandedOffSuccess | [Details](#67ad36eb88a5bdd75c0c3c43704e8e343cda3d6a314)
  [InTuneDocs\EndUser\company-portal-app-not-supported.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/EndUser/company-portal-app-not-supported.md) | HandedOffSuccess | [Details](#f5d6903ea1300626502033b153385e9902335bd4316)
@@ -1935,6 +1934,7 @@
  [InTuneDocs\DeployUse\media\SCEP_Registry_MDM.png](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/DeployUse/media/SCEP_Registry_MDM.png) | Ignored | [Details](#ba3a1aa88585ec5753eb25d94943732d57ab652c235)
  [InTuneDocs\DeployUse\media\SCEP_SSL_settings.png](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/DeployUse/media/SCEP_SSL_settings.png) | Ignored | [Details](#fd444a39ea7fdea011b5ba7d32147e684a6a1e32236)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2308)
+ [InTuneDocs\dougs-sandbox.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/dougs-sandbox.md) | Ignored | [Details](#3062217c627c48fa31cb3be5b28353963b3c2488312)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#7b0885b6fc884f750560f0ad7cbe12d6cd66fdd0329)
  [InTuneDocs\EndUser\media\1-macosx-enroll-tap-enroll.png](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/EndUser/media/1-macosx-enroll-tap-enroll.png) | Ignored | [Details](#5b3551ac48c41f27c2f2e59467a03eb527bffb46346)
  [InTuneDocs\EndUser\media\2-macosx-enroll--install-button.png](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/EndUser/media/2-macosx-enroll--install-button.png) | Ignored | [Details](#5e09548d5ce76a2786b3898172ca675cf042293c347)
@@ -6112,12 +6112,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='20f955062e2b30a29f84e087acc3227ba962fb2d312'></a> Source: [InTuneDocs\dougs-sandbox.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29b2eca39d14bcbd00840a73bf5e71d7a74afe04/InTuneDocs/dougs-sandbox.md)
-* Status: HandedOffSuccess
+##### <a name='3062217c627c48fa31cb3be5b28353963b3c2488312'></a> Source: [InTuneDocs\dougs-sandbox.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f34d764c8858f90a5776176a2bb8a5ba6c7f0dc/InTuneDocs/dougs-sandbox.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [dougs-sandbox.57b11e6accef9d660b5f661dbc129d329f214ad0.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/f911f0e01fa378890c579085b761db06d11f4de0/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/dougs-sandbox.57b11e6accef9d660b5f661dbc129d329f214ad0.ru-ru.xlf)
-* Handoff Datetime: 2016-04-13 18:12:47
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
