@@ -324,12 +324,12 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
+  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
+  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
-  ],
-  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
   ],
   "15fa7300e26208f1b005f8743c24b49845808794": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
@@ -492,13 +492,13 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "e215446a96baabf45b7ebde477cdac13b91c30cb": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
+  ],
+  "e215446a96baabf45b7ebde477cdac13b91c30cb": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "92c650dc4ad6f52575bc7022c350abb69a7b7779": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -1015,12 +1015,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
+  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
-  ],
-  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -2381,12 +2381,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "2065cca69c9f81e361744a243daaa3cc26a70275": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "2065cca69c9f81e361744a243daaa3cc26a70275": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
@@ -2454,14 +2454,14 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
   ],
   "c81517c28dfb06828a5194c8818f87979c926ef0": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -4990,24 +4990,6 @@
   "69fe56554a801c03452219350af0a91756efdf2d": [
     "InTuneDocs\\DeployUse\\TOC-old.md"
   ],
-  "04c0b078b850f28f13169d44b397018afbd6b5c8": [
-    "InTuneDocs\\media\\Sandbox\\AppLifecycleR1C1.png"
-  ],
-  "52734a0aac0dd3412be3df836ae1e8957ca7d01d": [
-    "InTuneDocs\\media\\Sandbox\\AppLifecycleR1C2.png"
-  ],
-  "5bc862755c6f70476d6bb2d93c91d9f277eee8ee": [
-    "InTuneDocs\\media\\Sandbox\\AppLifecycleR2C1.png"
-  ],
-  "cc37bb458ebca359dd4b0d71b83bb6c1dc0e7b7d": [
-    "InTuneDocs\\media\\Sandbox\\AppLifecycleR2C2.png"
-  ],
-  "705ad5a18edde8d346601a70d73b11df8436cc6a": [
-    "InTuneDocs\\media\\Sandbox\\AppLifecycleR3C1.png"
-  ],
-  "954b67cf324880a11b37398c845574ee12ccd471": [
-    "InTuneDocs\\media\\Sandbox\\AppLifecycleR3C2.png"
-  ],
   "0c4c165343b9a7de01ced4c3c5f2fc68a7a649c5": [
     "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
@@ -5450,7 +5432,8 @@
     "InTuneDocs\\media\\passport.png"
   ],
   "5e619f88197b5b3270e24cd0468158177127787d": [
-    "InTuneDocs\\DeployUse\\media\\mdmapplifecycle_v8.gif"
+    "InTuneDocs\\DeployUse\\media\\mdmapplifecycle_v8.gif",
+    "InTuneDocs\\media\\MDMAppLifecycle_v8.gif"
   ],
   "572731f33ac8bfb843591b76d49d87758184887d": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
@@ -5928,6 +5911,9 @@
   ],
   "5522836a146b306aa18c04ef52fac97e2f41c4c7": [
     "InTuneDocs\\media\\mam-azure-portal-app-reporting-select-user.png"
+  ],
+  "3062217c627c48fa31cb3be5b28353963b3c2488": [
+    "InTuneDocs\\dougs-sandbox.md"
   ],
   "20f955062e2b30a29f84e087acc3227ba962fb2d": [
     "InTuneDocs\\dougs-sandbox.md"
