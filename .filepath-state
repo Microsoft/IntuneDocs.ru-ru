@@ -233,6 +233,9 @@
   "9c41da603ad298c36a7d0bf8b4c55ab1f6fab05e": [
     "InTuneDocs\\DeployUse\\enable-access-to-company-resources-with-microsoft-intune.md"
   ],
+  "9b0b385bb6e785378f1b85b60b86ab0d21d1781b": [
+    "InTuneDocs\\DeployUse\\get-notified-by-microsoft-intune-alerts.md"
+  ],
   "80576443fb469f2d2203ba16f25a82fa0fbfbdc2": [
     "InTuneDocs\\DeployUse\\get-notified-by-microsoft-intune-alerts.md"
   ],
@@ -324,12 +327,12 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
-  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
-  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
+  ],
+  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
   ],
   "15fa7300e26208f1b005f8743c24b49845808794": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
@@ -492,13 +495,13 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "e215446a96baabf45b7ebde477cdac13b91c30cb": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\DeployUse\\TOC-old.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
-  ],
-  "e215446a96baabf45b7ebde477cdac13b91c30cb": [
-    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "92c650dc4ad6f52575bc7022c350abb69a7b7779": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -1015,12 +1018,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
-  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
-  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
+  ],
+  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -2156,6 +2159,15 @@
   "a239a8bdc6f4c7c216e8df093fb8c4d89fd93757": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-alerts-docs.md"
   ],
+  "cd3d6f4caaf9372ac53f48c5f6efe33e51c654dc": [
+    "InTuneDocs\\media\\Critical-Alert.jpg"
+  ],
+  "88df2d3a28019c345a87a0c74162b2e3f6faae54": [
+    "InTuneDocs\\media\\Warning-Alert.jpg"
+  ],
+  "0c147b168932de962764ba8ce13dcf60c1641832": [
+    "InTuneDocs\\media\\Informational-Alert.jpg"
+  ],
   "a959538e5c80412c2bd01adbd30dce02a9b822ee": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-and-manage-apps.md"
   ],
@@ -2381,12 +2393,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
+  "2065cca69c9f81e361744a243daaa3cc26a70275": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
+  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
-  ],
-  "2065cca69c9f81e361744a243daaa3cc26a70275": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
@@ -2454,14 +2466,14 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
+  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
+  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
-  ],
-  "0c542a53ee712c9ab855455b5b39743648d47d7f": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune-old.md"
   ],
   "c81517c28dfb06828a5194c8818f87979c926ef0": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -4986,6 +4998,9 @@
   ],
   "c1b171893971053fe670253a8b8b804364ce6905": [
     "InTuneDocs\\sandbox\\jeffs-sandbox.md"
+  ],
+  "7a8909df3f94bd10412752967fa07f98f7a7f0b0": [
+    "InTuneDocs\\DeployUse\\TOC-old.md"
   ],
   "69fe56554a801c03452219350af0a91756efdf2d": [
     "InTuneDocs\\DeployUse\\TOC-old.md"
