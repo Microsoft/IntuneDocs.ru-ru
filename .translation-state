@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "cf4b786bf2ce596e3d1aba79b94022a057e32b8b",
+  "LastProcessedCommit": "29b2eca39d14bcbd00840a73bf5e71d7a74afe04",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -3235,7 +3235,8 @@
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -3266,7 +3267,8 @@
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -3297,7 +3299,8 @@
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column3.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -3328,7 +3331,8 @@
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column4.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -3359,7 +3363,8 @@
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -3390,7 +3395,8 @@
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -3421,7 +3427,8 @@
       "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column3.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
+        "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -9473,7 +9480,8 @@
         "InTuneDocs\\zDeletedTopics\\Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md",
         "InTuneDocs\\GetStarted\\integration-with-cloud-services.md",
         "InTuneDocs\\GetStarted\\administrative-accounts-websites-perms.md",
-        "InTuneDocs\\zDeletedTopics\\Intune-on-premises-Exchange-connector-a.md"
+        "InTuneDocs\\zDeletedTopics\\Intune-on-premises-Exchange-connector-a.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -10061,7 +10069,8 @@
         "InTuneDocs\\DeployUse\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md",
         "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md",
         "migrated-03-14\\Topic\\Configure-certificate-infrastructure.md",
-        "migrated-03-14\\Topic\\Configure-Intune-certificate-profiles.md"
+        "migrated-03-14\\Topic\\Configure-Intune-certificate-profiles.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -17346,8 +17355,8 @@
         "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\troubleshoot-email-profiles-in-microsoft-intune.24364295c35e77fe4bbf8aeacc80469728fbcc88.ru-ru.xlf",
-      "HandoffFileCommit": "ea089dfc7b01fb54f6a2f1b13bf8c2384ce914d7",
-      "HandoffDateTime": "2016-04-13T17:14:44.5994149Z",
+      "HandoffFileCommit": "f911f0e01fa378890c579085b761db06d11f4de0",
+      "HandoffDateTime": "2016-04-13T18:12:47.7439024Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -24241,8 +24250,8 @@
         "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf",
-      "HandoffFileCommit": "ea089dfc7b01fb54f6a2f1b13bf8c2384ce914d7",
-      "HandoffDateTime": "2016-04-13T17:14:44.5994149Z",
+      "HandoffFileCommit": "f911f0e01fa378890c579085b761db06d11f4de0",
+      "HandoffDateTime": "2016-04-13T18:12:47.7439024Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -44015,8 +44024,8 @@
         "InTuneDocs\\zDeletedTopics\\TOC-old.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf",
-      "HandoffFileCommit": "ea089dfc7b01fb54f6a2f1b13bf8c2384ce914d7",
-      "HandoffDateTime": "2016-04-13T17:14:44.5994149Z",
+      "HandoffFileCommit": "f911f0e01fa378890c579085b761db06d11f4de0",
+      "HandoffDateTime": "2016-04-13T18:12:47.7439024Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -44068,11 +44077,13 @@
       "SourceFilePath": "InTuneDocs\\media\\AppLifeR1C1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\AppLifeR1C1.png"
+        "InTuneDocs\\media\\AppLifeR1C1.png",
+        "InTuneDocs\\media\\Sandbox\\AppLifecycleR1C1.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\04c0b078b850f28f13169d44b397018afbd6b5c8.png",
       "HandoffFileCommit": "a85f806456bba8b2fc04646fdb60952d872112c6",
@@ -44099,11 +44110,13 @@
       "SourceFilePath": "InTuneDocs\\media\\AppLifeR1C2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\AppLifeR1C2.png"
+        "InTuneDocs\\media\\AppLifeR1C2.png",
+        "InTuneDocs\\media\\Sandbox\\AppLifecycleR1C2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\52734a0aac0dd3412be3df836ae1e8957ca7d01d.png",
       "HandoffFileCommit": "a85f806456bba8b2fc04646fdb60952d872112c6",
@@ -44130,11 +44143,13 @@
       "SourceFilePath": "InTuneDocs\\media\\AppLifeR2C1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\AppLifeR2C1.png"
+        "InTuneDocs\\media\\AppLifeR2C1.png",
+        "InTuneDocs\\media\\Sandbox\\AppLifecycleR2C1.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\5bc862755c6f70476d6bb2d93c91d9f277eee8ee.png",
       "HandoffFileCommit": "a85f806456bba8b2fc04646fdb60952d872112c6",
@@ -44161,11 +44176,13 @@
       "SourceFilePath": "InTuneDocs\\media\\AppLifeR2C2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\AppLifeR2C2.png"
+        "InTuneDocs\\media\\AppLifeR2C2.png",
+        "InTuneDocs\\media\\Sandbox\\AppLifecycleR2C2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\cc37bb458ebca359dd4b0d71b83bb6c1dc0e7b7d.png",
       "HandoffFileCommit": "a85f806456bba8b2fc04646fdb60952d872112c6",
@@ -44192,11 +44209,13 @@
       "SourceFilePath": "InTuneDocs\\media\\AppLifeR3C1.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\AppLifeR3C1.png"
+        "InTuneDocs\\media\\AppLifeR3C1.png",
+        "InTuneDocs\\media\\Sandbox\\AppLifecycleR3C1.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\705ad5a18edde8d346601a70d73b11df8436cc6a.png",
       "HandoffFileCommit": "a85f806456bba8b2fc04646fdb60952d872112c6",
@@ -44223,11 +44242,13 @@
       "SourceFilePath": "InTuneDocs\\media\\AppLifeR3C2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+        "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md",
+        "InTuneDocs\\dougs-sandbox.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\media\\AppLifeR3C2.png"
+        "InTuneDocs\\media\\AppLifeR3C2.png",
+        "InTuneDocs\\media\\Sandbox\\AppLifecycleR3C2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\954b67cf324880a11b37398c845574ee12ccd471.png",
       "HandoffFileCommit": "a85f806456bba8b2fc04646fdb60952d872112c6",
@@ -57262,8 +57283,8 @@
         "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\get-started-with-a-paid-subscription-to-microsoft-intune.ba831aeba0a2ec2e4c339413fe71c5f1da7355d8.ru-ru.xlf",
-      "HandoffFileCommit": "ea089dfc7b01fb54f6a2f1b13bf8c2384ce914d7",
-      "HandoffDateTime": "2016-04-13T17:14:44.5994149Z",
+      "HandoffFileCommit": "f911f0e01fa378890c579085b761db06d11f4de0",
+      "HandoffDateTime": "2016-04-13T18:12:47.7439024Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -65703,8 +65724,8 @@
         "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-internet-access-using-managed-browser-policies.cfbbb12a455aecd490c0caa0f746302b3c79eefc.ru-ru.xlf",
-      "HandoffFileCommit": "ea089dfc7b01fb54f6a2f1b13bf8c2384ce914d7",
-      "HandoffDateTime": "2016-04-13T17:14:44.5994149Z",
+      "HandoffFileCommit": "f911f0e01fa378890c579085b761db06d11f4de0",
+      "HandoffDateTime": "2016-04-13T18:12:47.7439024Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -70369,6 +70390,69 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\TOC-old.12cfb1dea97cdcccd6544526b86b62fb15b3a913.ru-ru.xlf",
       "HandoffFileCommit": "8f7ce9cfc8cd290ddc758923fc3a72ce2d4dba29",
       "HandoffDateTime": "2016-04-13T17:43:59.6904205Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "20f955062e2b30a29f84e087acc3227ba962fb2d": {
+      "FileHash": "20f955062e2b30a29f84e087acc3227ba962fb2d",
+      "SourceFileCommit": "29b2eca39d14bcbd00840a73bf5e71d7a74afe04",
+      "SourceFilePath": "InTuneDocs\\dougs-sandbox.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": [
+        "InTuneDocs\\includes\\wit_nextref_md.md",
+        "InTuneDocs\\includes\\wit_adminconsole_md.md"
+      ],
+      "FilePathList": [
+        "InTuneDocs\\dougs-sandbox.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\dougs-sandbox.57b11e6accef9d660b5f661dbc129d329f214ad0.ru-ru.xlf",
+      "HandoffFileCommit": "f911f0e01fa378890c579085b761db06d11f4de0",
+      "HandoffDateTime": "2016-04-13T18:12:47.7439024Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "3eaf412537a692a74bd069774821bf9ccc6485c7": {
+      "FileHash": "3eaf412537a692a74bd069774821bf9ccc6485c7",
+      "SourceFileCommit": "29b2eca39d14bcbd00840a73bf5e71d7a74afe04",
+      "SourceFilePath": "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column5.png",
+      "HandoffReason": 2,
+      "DependencyFrom": [
+        "InTuneDocs\\dougs-sandbox.md"
+      ],
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column5.png"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\3eaf412537a692a74bd069774821bf9ccc6485c7.png",
+      "HandoffFileCommit": "f911f0e01fa378890c579085b761db06d11f4de0",
+      "HandoffDateTime": "2016-04-13T18:12:47.7439024Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
