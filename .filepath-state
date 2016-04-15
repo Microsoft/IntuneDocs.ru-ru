@@ -320,12 +320,12 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
+  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
+  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
-  ],
-  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
   ],
   "3de7ad1f380d8307993efaac7b688b90be0cd625": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
@@ -338,6 +338,9 @@
   ],
   "9e749d8f92f288c50330194b891803f0e32f318a": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
+  ],
+  "2e1d63917c89e5d3912d3077db9cda5f33bc304a": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
   ],
   "7536e5c8f62635c2a58af7d6a00785d0429e2d78": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
@@ -372,6 +375,9 @@
   ],
   "f89ea0418cc7f53fdce16f26d31e3e24920b3c69": [
     "InTuneDocs\\DeployUse\\manage-windows-pcs-with-microsoft-intune.md"
+  ],
+  "77e613d2b0584bdd308a9b1f4ec2fd5db4c2e234": [
+    "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
   ],
   "706de67fd74125f30da469adcbd2acf2c243d6bc": [
     "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
@@ -1028,12 +1034,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
+  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
-  ],
-  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -2056,18 +2062,6 @@
     "InTuneDocs\\plan-for-apps.md",
     "migrated-03-14\\Topic\\Plan-for-apps.md"
   ],
-  "06c9e06461fd7127cef007a97688a15a6845c918": [
-    "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
-  ],
-  "a99798e38812764bc9a0de3d47650f8cfb76448f": [
-    "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
-  ],
-  "590f10c95b74b3e370691e1361f307faa3b28b17": [
-    "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
-  ],
-  "ea475d8b7f3d0d8db4ab9433b5df441cc88fefb1": [
-    "InTuneDocs\\PlanDesign\\plan-for-app-deployment-in-microsoft-intune.md"
-  ],
   "c66d0fb62b4297d44674d5bc5808615fd66cb7cb": [
     "InTuneDocs\\PlanDesign\\TOC.md"
   ],
@@ -2435,12 +2429,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
-  "2065cca69c9f81e361744a243daaa3cc26a70275": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
-  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
+  ],
+  "2065cca69c9f81e361744a243daaa3cc26a70275": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
@@ -2511,12 +2505,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "0a20d91cfe8d12c0199168a35b6053b4318251ff": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "0a20d91cfe8d12c0199168a35b6053b4318251ff": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "e2fdd9bb479f088d47c0ab93da1d7c77535a8cdf": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -5654,6 +5648,9 @@
   "5e619f88197b5b3270e24cd0468158177127787d": [
     "InTuneDocs\\media\\MDMAppLifecycle_v8.gif"
   ],
+  "9006a601c71003c1f2e43fa39cbecf96c7a98008": [
+    "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+  ],
   "572731f33ac8bfb843591b76d49d87758184887d": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
   ],
@@ -5668,6 +5665,9 @@
   ],
   "75027d332bff2481c5d2cbbe4e8b5e92741c6f83": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+  ],
+  "a5027b82484b92c9513b2ad6e9ad94cbf61bc9cd": [
+    "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
   ],
   "1156f9aa7edc5cb4a433a5ef2022492ab57676af": [
     "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
@@ -6089,6 +6089,9 @@
   "1bd9ef200dff9ceea2836404d2759f1f44fd5361": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
+  "8127ee68784d1d675aa7edad18096395ecf8de90": [
+    "InTuneDocs\\DeployUse\\mac-os-x-policy-settings-in-microsoft-intune.md"
+  ],
   "63b9bac27dabd5175f3c04073a9ef924b9e8403f": [
     "InTuneDocs\\DeployUse\\mac-os-x-policy-settings-in-microsoft-intune.md"
   ],
@@ -6148,6 +6151,9 @@
   ],
   "ee680c70a48c083dcf288ae907b5c54444cb7103": [
     "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
+  ],
+  "8976e4544d789bb7c02577d9cd9d841252a1e644": [
+    "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
   ],
   "0907afc5e267fcc88618950be8b9042439e4a80b": [
     "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
@@ -6319,5 +6325,8 @@
   ],
   "c427b3f1a59d33001cf00f6f997796ac9be47a3c": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
+  ],
+  "725f063e37b07b77b9f00b0aff09624b9f6ed9dd": [
+    "InTuneDocs\\DeployUse\\plan-for-app-deployment-in-microsoft-intune.md"
   ]
 }
