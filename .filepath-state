@@ -320,12 +320,12 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "InTuneDocs\\zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
-  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
-  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
+  ],
+  "66f88116f674fc6669cdad7027ac08c9dff672d9": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
   ],
   "3de7ad1f380d8307993efaac7b688b90be0cd625": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
@@ -488,12 +488,12 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
-  "8daa2f150f319065f2279cd97070808abc2d982e": [
-    "InTuneDocs\\DeployUse\\TOC.md"
-  ],
   "eb1b700cbd4694c83e957de96d65bfc369cd2f1b": [
     "InTuneDocs\\DeployUse\\TOC.md",
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
+  ],
+  "8daa2f150f319065f2279cd97070808abc2d982e": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "fd68088ed35966af60b56be6edcccdc5678ac329": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -1022,12 +1022,12 @@
   "9ea2f7e3bea28f57aa115be3d5d304a9dbd87c66": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
   ],
-  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
-    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
-  ],
   "1f70c7f8f2a8405f752706db5e7969fbce0ca03e": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\get-started-with-a-paid-subscription-to-microsoft-intune-old.md"
+  ],
+  "b5d633a102598e244a52f1fee8932a2c37eb25a0": [
+    "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "edd6ad4e882f6ba8adc9dc7473f309572ead5d55": [
     "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune.md"
@@ -1810,6 +1810,18 @@
   "93490feee053dbc489151a67055952bb67fc5458": [
     "InTuneDocs\\EndUser\\media\\ios-cpinstall-1-cpinstore.png"
   ],
+  "2b6c2219512a1cbbfc88e62b97dc6b2e4a7afc6a": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-2-mgt-profile-install.png"
+  ],
+  "45fb0908384cfdd4d34528ed2e8fe39e922f061e": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-3-mgt-profile-install-2.png"
+  ],
+  "ca6da7b8547c8877c7f4b785f1db85fe4021243d": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-4-warning.png"
+  ],
+  "bb8a8e9336e939f67ab4dc75801b4e9c04aa2d10": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-5-trust.png"
+  ],
   "53b714feab73f35f53256bbf0f6ecc9544114b87": [
     "InTuneDocs\\EndUser\\media\\managed-apps-message.png"
   ],
@@ -1882,20 +1894,35 @@
   "9d7e711034d9003c3d1185ce788e177069716849": [
     "InTuneDocs\\EndUser\\media\\and-enroll-1-cp-find-CP-app.png"
   ],
+  "2c90381c6ca82321c2112c1f6470adae04400807": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-0-welcome-screen.png"
+  ],
+  "e256cb6a104706c8e1d861dc565b88abb00e6652": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-2-cp-sign-in.png"
+  ],
   "e76c105cd90d2172c2d80565e54573995b0087a5": [
     "InTuneDocs\\EndUser\\media\\and-enroll-2-cp-sign-in.png"
   ],
-  "cd3f01766bb96567fef7042945d0ec52a5c0a999": [
-    "InTuneDocs\\EndUser\\media\\andr-allow-phone-access.png"
+  "e9fd27ac80a101d2e8b5bbd65249913b45111a16": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-3-accept-terms.png"
   ],
   "9a0b75f97efb0fca001ea4d6cd5f8b582c059615": [
     "InTuneDocs\\EndUser\\media\\and-enroll-3-accept-terms.png"
   ],
+  "1d96acea0475ff448c6895f38dfbf2305fd4edca": [
+    "InTuneDocs\\EndUser\\media\\andr-1-my-devices-choose.png"
+  ],
   "574a3642f5160ff07c565a2b3c60084ceb198757": [
     "InTuneDocs\\EndUser\\media\\andr-1-my-devices-choose.png"
   ],
+  "dec809a4e6430f212aa2680bd24cda1d5b831d0f": [
+    "InTuneDocs\\EndUser\\media\\andr-2-tap-trashcan.png"
+  ],
   "c29f90ceec989702b0b2c12f271964aae1d725a0": [
     "InTuneDocs\\EndUser\\media\\andr-2-tap-trashcan.png"
+  ],
+  "d0456ebe7602cfda05694ea1354e07bd59789ab3": [
+    "InTuneDocs\\EndUser\\media\\andr-3-warning-about-remove.png"
   ],
   "6845f199402ab000359e2412abe6cdad232518cf": [
     "InTuneDocs\\EndUser\\media\\andr-3-warning-about-remove.png"
@@ -2399,12 +2426,12 @@
   "875c89c776e8a5e50b2a402739686c2f091352af": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
+  "2065cca69c9f81e361744a243daaa3cc26a70275": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
+  ],
   "f736dd44bed11a4f963cca4a54739cb44ff5bc23": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md",
     "migrated-03-14\\Topic\\Troubleshoot-email-profiles-in-Microsoft-Intune.md"
-  ],
-  "2065cca69c9f81e361744a243daaa3cc26a70275": [
-    "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
   ],
   "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
@@ -2472,12 +2499,12 @@
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
-  "e2fdd9bb479f088d47c0ab93da1d7c77535a8cdf": [
-    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
-  ],
   "3b9c00857551480257905fe0215aeb25b30506f2": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md",
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "e2fdd9bb479f088d47c0ab93da1d7c77535a8cdf": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "0a20d91cfe8d12c0199168a35b6053b4318251ff": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -2646,6 +2673,9 @@
   "79f29881ba37265428ab139c8d0ced258c4b9ac6": [
     "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md"
   ],
+  "477600711f5d53d26a47c7fd05dd8ba17e6dc5e9": [
+    "InTuneDocs\\EndUser\\using-the-intune-company-portal-website.md"
+  ],
   "dccc309395a62600400aff597268fe453fe7c501": [
     "InTuneDocs\\EndUser\\using-the-intune-company-portal-website.md"
   ],
@@ -2690,6 +2720,9 @@
   ],
   "1bdc065a04ad360225673f65bf081dfa05dd8b1f": [
     "InTuneDocs\\zDeletedTopics\\Using-your-Android-device-with-Intune-Removed-.md"
+  ],
+  "8b483ca62dccd8c61bf60a5c2b4d56df87d8869a": [
+    "InTuneDocs\\EndUser\\using-your-android-device-with-intune.md"
   ],
   "ab686a088d5accfed1690b5ec0bcac1425a10dcb": [
     "InTuneDocs\\EndUser\\using-your-android-device-with-intune.md"
@@ -4318,6 +4351,9 @@
   "6ed3c7be1612f23edac4c6dadf34fad807402249": [
     "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
   ],
+  "91d8e3a531ffd9cd1ebaeed6bfb5cd6c1bb85c61": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
+  ],
   "b1fd52943140bcb5d1be790e64b7e1dab02228bd": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
   ],
@@ -4327,11 +4363,17 @@
   "835988ae9787d37db53c6bffd57f6484981f292e": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
   ],
+  "2c2b64840e30ec1be7ec735c7ce0d827b8754f38": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
+  ],
   "c9c92c2bf7c32a80d7104234db46041a2ccdeaeb": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
   ],
   "fdd22ee080201c817f129f237a2cef63e9d32c17": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
+  ],
+  "0d9f885ecd7d289f6afb637c2dc0e58883daf895": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
   ],
   "3a851bc19a79fa75fa2b194777e37081c0ebdfc8": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
@@ -4341,6 +4383,9 @@
   ],
   "96a7e2f33cfdddef04484fe16aa0e8444d30f2c4": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
+  ],
+  "ddae7a462ef10a78306b5357a643bc62f96ee2d3": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
   ],
   "ba04108d88efc91ce6a268b6cb63cd7125b5820c": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
@@ -4492,6 +4537,9 @@
   "f9406b3151de59c51c587cc392fbff8cc842b44b": [
     "InTuneDocs\\EndUser\\send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md"
   ],
+  "8a406f26121a939febbf0eb3d0803a79962b6787": [
+    "InTuneDocs\\EndUser\\send-enrollment-errors-to-your-it-administrator-android.md"
+  ],
   "d2b9894cf3fecb0f1b68e3c746c9708323709452": [
     "InTuneDocs\\EndUser\\send-enrollment-errors-to-your-it-administrator-android.md"
   ],
@@ -4521,6 +4569,9 @@
   ],
   "5e85c83ecfe18b6342e915d4c935696d9582209f": [
     "InTuneDocs\\EndUser\\set-your-pin-or-password-android.md"
+  ],
+  "abbcb34784e5df247f05ff79d8dd6d738105c6d6": [
+    "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md"
   ],
   "9ed4c3e25cd873e463b1741a2f0314c817ced7f3": [
     "InTuneDocs\\EndUser\\sign-in-to-the-company-portal-app-android.md"
@@ -4651,6 +4702,9 @@
   "fd8b9574a87de312bb0a6b93efa06ef19c7c8122": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
+  "16404c23f4673e2dde8ec00e7ed22a681018c60c": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
+  ],
   "48982f55aee19b99bd439b8e69ac126196e62159": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
   ],
@@ -4683,6 +4737,9 @@
   ],
   "8a4df2ca4bff19cfbe5ad57ce0a23f5f850ba6ad": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-ios.md"
+  ],
+  "d76b1cb22f9ff9f8c234218d501e8a3a657f6dd9": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
   ],
   "2826f3336b201c727086c46877d4a386a46d8049": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
@@ -4735,11 +4792,17 @@
   "5865f60c35e9efafd02ab27f1babe8daa984e2eb": [
     "InTuneDocs\\EndUser\\you-get-an-error-while-using-the-company-portal-app-ios.md"
   ],
+  "eaec8b3b296f18f26bd264a62a5e290e4b655ae9": [
+    "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
+  ],
   "f1ab0091831916ca1a4181ff4728085f73f5a5ae": [
     "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
   ],
   "e2553bee12bf3c7795678c4e5e68fb169d00bb41": [
     "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
+  ],
+  "90ee76cfdec5fb26ca1cafc69638471497c154f7": [
+    "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
   ],
   "186ff139ecc189cad03b86241d2b094dd8adc6c6": [
     "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
@@ -5927,12 +5990,6 @@
   "3ba62617509cf5c75d1360799d723e54791f2295": [
     "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
   ],
-  "f645ad1d2c5c93b2913936ee24365911f1182cc2": [
-    "InTuneDocs\\EndUser\\device-is-missing-a-required-certificate-andr.md"
-  ],
-  "43ae18e0cc08795ded45db3999f755cbd6ead52b": [
-    "InTuneDocs\\EndUser\\device-is-missing-a-required-certificate-andr.md"
-  ],
   "cde197d106eebce348d9962910e8def86b8e4caa": [
     "InTuneDocs\\EndUser\\media\\andr-cert_install-1-cert_missing.png"
   ],
@@ -6026,6 +6083,9 @@
   "c325a34778f52b965695ef27147b1d07e957f632": [
     "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
   ],
+  "e13072375dda6594c26de59957373800ad18eb97": [
+    "InTuneDocs\\EndUser\\remote-lock-your-device-cpwebsite.md"
+  ],
   "d4ad5465400269a79c410481b0dbe05678508c18": [
     "InTuneDocs\\EndUser\\remote-lock-your-device-cpwebsite.md"
   ],
@@ -6092,17 +6152,32 @@
   "e054508cfe6f64fa3b53110dc70c07df4c959961": [
     "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequests.png"
   ],
+  "34121b06b17f8a7e7b5ebb712912b2923289357e": [
+    "InTuneDocs\\EndUser\\enroll-your-rt-windows.md"
+  ],
   "577b5a799fde6deaf54d3de65b4908b6afa6763f": [
     "InTuneDocs\\EndUser\\enroll-your-rt-windows.md"
+  ],
+  "04a8c1223a88bf3ab11bc76355dde8d0b49af2bf": [
+    "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
   ],
   "9cff3103d05be351a3988cc1bdc376ad045f7030": [
     "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
   ],
+  "93cd31867d8ed61ffe18fd1ea4bd4f5d99caf501": [
+    "InTuneDocs\\EndUser\\enroll-your-w81-or-rt81-windows.md"
+  ],
   "01f1f2996f0f07a94b3b41e5607787748353f7cf": [
     "InTuneDocs\\EndUser\\enroll-your-w81-or-rt81-windows.md"
   ],
+  "572290468716318b9109c7755ba222a8f773fe3b": [
+    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
+  ],
   "6e43604fb0389276944a54e0402c05f0893d1b95": [
     "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
+  ],
+  "298cc7bc76330459a5c7ef0f728d1ed3fad88f4b": [
+    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
   ],
   "b9f015265fc432c9ce2a6806ba15b31b0df069cb": [
     "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
@@ -6145,5 +6220,77 @@
   ],
   "2dbdf59f110ba01706fc5bea4a35dad3523c1587": [
     "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
+  ],
+  "5b3551ac48c41f27c2f2e59467a03eb527bffb46": [
+    "InTuneDocs\\EndUser\\media\\1-macosx-enroll-tap-enroll.png"
+  ],
+  "5e09548d5ce76a2786b3898172ca675cf042293c": [
+    "InTuneDocs\\EndUser\\media\\2-macosx-enroll--install-button.png"
+  ],
+  "c3e2282e3542a62768dd930514438f0e1ee570a5": [
+    "InTuneDocs\\EndUser\\media\\3-macosx-enroll-tap-install.png"
+  ],
+  "d35b5fe4f987d49700f3fe71db348a85bc791959": [
+    "InTuneDocs\\EndUser\\media\\4-macosx-enroll-done.png"
+  ],
+  "06e6a5d92393092aef0453ec437e51ef96c57e8a": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-10-comp-access-setup-complete.png"
+  ],
+  "014d3366e2bd6801fe73db63f9bc1c2f593f1e27": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-3a-allow-phone-access.png"
+  ],
+  "e46579a8c753d6d0f8d07a6927b67503cea80af9": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-3b-allow-contacts-access.png"
+  ],
+  "0ac2caf251cf586a61cdf3028d9f6d8b274c7fb4": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-4a-comp-access-setup.png"
+  ],
+  "0eb67a21a4d2ea6e5d6349257f9d9f225e7937e6": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-4b-why-enroll.png"
+  ],
+  "172de0509bee4c3ab54fd47780197923ab6358f3": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-4c-we-care-privacy.png"
+  ],
+  "63078b3122b280ab69dba53f2d5075b0f08a3e54": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-4d-what-comes-next.png"
+  ],
+  "4339cf34114b3d5b4f38713554ecc3db067e6b34": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-5-activate.png"
+  ],
+  "322c70eb297cb774a670c815e6c83e3d3a0f3e75": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-6-PIN-native.png"
+  ],
+  "1c2bee86afe3f6283751d7d9b7bd2c307272c4d9": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-7-cert-native.png"
+  ],
+  "6471c9f7c0fd985647e9333f753eed2715e5d31b": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-7-knox-privacy-policy.png"
+  ],
+  "860b55577989a3daf5b2a79bbfdf870cb859200b": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-8-device-enrolling.png"
+  ],
+  "1da6df49bf5fc92a2e5ed0f693424c795e894a16": [
+    "InTuneDocs\\EndUser\\media\\and-enroll-9-comp-access-setup.png"
+  ],
+  "e2fcef5e5c2f66244aa0abae89be31fef029c182": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-1a-comp-access-setup.png"
+  ],
+  "ee2b985f2b8661e889201e48e581eaf912d9cdc3": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-1b-why-enroll.png"
+  ],
+  "62b85c0b6bae3aee248218860c73ff6a8af179ba": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-1c-we-care-privacy.png"
+  ],
+  "06595922cfc1d731dfdf7a12eb6b93025c635dca": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-1d-what-comes-next.png"
+  ],
+  "2ab54ab49e4936dded8a82fa3cd270cd07b1b6e5": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-8-comp-access-setup-compliance.png"
+  ],
+  "01efa92152d330256b0fa6e6df8f43a66437a893": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-9-comp-access-setup-complete.png"
+  ],
+  "c427b3f1a59d33001cf00f6f997796ac9be47a3c": [
+    "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ]
 }
