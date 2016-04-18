@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "ce928ddb018164813241f66a806ec0530cac4d96",
+  "LastProcessedCommit": "2bc342b393216bca30115a2971278203d5b35a95",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -77273,6 +77273,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\sign-in-to-the-company-portal-app-android.fb84453a6d46eebb3482e65446e14b8c84af4c79.ru-ru.xlf",
       "HandoffFileCommit": "336ebfdb41348c80face67fb4c865cb6e9989c2f",
       "HandoffDateTime": "2016-04-18T19:30:26.7154477Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "b0a9918ad5bce64aa8f8e5226a3fe0d9e36a1e09": {
+      "FileHash": "b0a9918ad5bce64aa8f8e5226a3fe0d9e36a1e09",
+      "SourceFileCommit": "cdc9a3e627ff0762b5186d4c521e2128726db7e0",
+      "SourceFilePath": "InTuneDocs\\index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\index.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf",
+      "HandoffFileCommit": "9638d69026765074eea9850854669e1c59bdb69d",
+      "HandoffDateTime": "2016-04-18T20:35:51.2002542Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
