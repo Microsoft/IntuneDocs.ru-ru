@@ -268,6 +268,9 @@
   "7a90145cafbb5e803ace1380787d138ad273dea3": [
     "InTuneDocs\\DeployUse\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
   ],
+  "e4dc559a2fbf95d3c837b1d10f285859ae2cd113": [
+    "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
+  ],
   "e61a5c45252c366e25428932f132f0938caa4470": [
     "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
   ],
@@ -499,6 +502,9 @@
   "15a1211ec83158d1a77c92411100bff572ff9a7a": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
+  ],
+  "e4a3acdee9d4e0359d7618bf982010bf7f6036fd": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "8ab0b9ed63e16a4a8ab960c3e62ebfa6f48d3bc5": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -2777,6 +2783,9 @@
   "d7407aba1f664996d13a63dd80c29734fc23702c": [
     "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_AD_General_small.png"
   ],
+  "d899c6baf2fd6c72c7b4c588a56f915b89f82033": [
+    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
+  ],
   "1544a48134918b9cbff3ebbe17a84e4b06696b92": [
     "InTuneDocs\\GetStarted\\enterprise-rollout.md"
   ],
@@ -2786,11 +2795,17 @@
   "88d12cc7e482bc8c04b81be87357bf5b0bf064b5": [
     "InTuneDocs\\GetStarted\\enterprise-rollout.md"
   ],
+  "9b2fa7fc26beb09f6e8562bda760a667cbc9fab7": [
+    "InTuneDocs\\GetStarted\\pilot.md"
+  ],
   "b62490bedd6c882085a43d5c1c1c1fbe00f35aeb": [
     "InTuneDocs\\GetStarted\\pilot.md"
   ],
   "e5e1b3ad1c59e01540392cc00dca04890b83a62d": [
     "InTuneDocs\\GetStarted\\pilot.md"
+  ],
+  "555f4c8005cdf94149dfc9c0c4ab5f36df5762e0": [
+    "InTuneDocs\\GetStarted\\project-scope.md"
   ],
   "35f7a5d612edefcbdba86d65e068dec93cbc2ab3": [
     "InTuneDocs\\GetStarted\\project-scope.md"
@@ -2801,6 +2816,9 @@
   "9b3500f5e17e8aecc46712d08c6d05b0e95cb580": [
     "InTuneDocs\\GetStarted\\project-scope.md"
   ],
+  "f2c6a0f335ac851f6d509e1e6d8e6f4c6cb321fb": [
+    "InTuneDocs\\GetStarted\\proof-of-concept.md"
+  ],
   "fb09009190d15a1a4570ba7fafba0d26230b9235": [
     "InTuneDocs\\GetStarted\\proof-of-concept.md"
   ],
@@ -2809,6 +2827,9 @@
   ],
   "0dee7ba0baccf2e3c2c56b7d34ccca3d9794ac1a": [
     "InTuneDocs\\GetStarted\\proof-of-concept.md"
+  ],
+  "e9cd1962eb3b2997e5b7491ea8fcc1f48365b58c": [
+    "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
   ],
   "58cdaf689667bd058d62975e557f1db8287cf696": [
     "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
@@ -5018,42 +5039,6 @@
   "c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe": [
     "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Default_small.png"
   ],
-  "f2a90e68270229eee3fa2896e2a19a7723befe98": [
-    "InTuneDocs\\PlanDesign\\how-your-android-users-get-their-apps.md"
-  ],
-  "986e45848589accc5a4f2a0607fe029379a28bbb": [
-    "InTuneDocs\\PlanDesign\\how-your-android-users-get-their-apps.md"
-  ],
-  "ecf3b3f27a04fa6b48bf87bc918be566ef8f1bbf": [
-    "InTuneDocs\\PlanDesign\\how-your-android-users-get-their-apps.md"
-  ],
-  "6e36768dc7675ac8886f86779cc6810faad5433d": [
-    "InTuneDocs\\PlanDesign\\how-your-android-users-get-their-apps.md"
-  ],
-  "a911ba04e1070144a857c074cb12662ac895f962": [
-    "InTuneDocs\\PlanDesign\\how-your-ios-users-get-their-apps.md"
-  ],
-  "64dc31ce8afbb4763964679d78c38a067bfab180": [
-    "InTuneDocs\\PlanDesign\\how-your-ios-users-get-their-apps.md"
-  ],
-  "38ac520829bc11a4d4d50a2f9ae152d90b4d3730": [
-    "InTuneDocs\\PlanDesign\\how-your-ios-users-get-their-apps.md"
-  ],
-  "5f81e6214dd08dc4c821eef888f79a67159098ef": [
-    "InTuneDocs\\PlanDesign\\how-your-ios-users-get-their-apps.md"
-  ],
-  "ffb6fd5b0576d02e9b311ba3047c6a6699c6722a": [
-    "InTuneDocs\\PlanDesign\\how-your-windows-users-get-their-apps.md"
-  ],
-  "08c3be00f714019893604d542252b562dc7ec471": [
-    "InTuneDocs\\PlanDesign\\how-your-windows-users-get-their-apps.md"
-  ],
-  "1e179206d37930a0fda41188f04d253fa66ffade": [
-    "InTuneDocs\\PlanDesign\\how-your-windows-users-get-their-apps.md"
-  ],
-  "00e42691e4c76d44a6e88a2b57754ba947120949": [
-    "InTuneDocs\\PlanDesign\\how-your-windows-users-get-their-apps.md"
-  ],
   "8358df358adbd40652dbd2620196c339a663ac55": [
     "InTuneDocs\\DeployUse\\microsoft-intune-policy-reference.md"
   ],
@@ -5080,19 +5065,6 @@
   ],
   "9ab65a35f904399d4f9a16a97bb1d6877998a401": [
     "InTuneDocs\\zDeletedTopics\\TOC-old.md"
-  ],
-  "0c4c165343b9a7de01ced4c3c5f2fc68a7a649c5": [
-    "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md",
-    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
-  "1c294ee6c2852749742e14a7dcfa1ff0e26222e0": [
-    "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
-  "052c97f02bc2adf671d12551fc57552989ac0e96": [
-    "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
-  ],
-  "297b8edb4b03c0719e453e7bfd8edf1aa76056e2": [
-    "InTuneDocs\\PlanDesign\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
   "c8b105610dae69f636e25e65346cc729325f9b07": [
     "InTuneDocs\\GetStarted\\integration-with-cloud-services.md"
@@ -5123,60 +5095,6 @@
   ],
   "990e706d3784994e09e6002491018394f220a780": [
     "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
-  ],
-  "0194c0a5b4c3dc43d0f634d0d14bec59445d5d6a": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune.md"
-  ],
-  "071acf09a1b9192ae184f6b73145741ecc63ddf8": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune.md"
-  ],
-  "766a5eff5b193b2cec99a1e77877910140e1c5cf": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune.md"
-  ],
-  "da0d96cabf1c0bec6fa15aec3737ac2514f25ef8": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md"
-  ],
-  "85871ca964157cbabaab00f04a6e5866fe6b183b": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md"
-  ],
-  "c153da26c6db15585f5025b3b04e4b4365970740": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md"
-  ],
-  "db4c40d18fcf1957bc3f857a0d8dc10c7d296f18": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-one.md"
-  ],
-  "cbaedbc07ee70adb2a1187846cb5d593829264ff": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-one.md"
-  ],
-  "4814cbc9923cc59c7692499f49cc04904128462a": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-one.md"
-  ],
-  "50e39940f9326faeb71ddb5e3e6830fcdc33c548": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-three.md"
-  ],
-  "a6ba338b7c4a24f918eba33b899371a7279fdb46": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-three.md"
-  ],
-  "6071edba4f3b4016f2c92390c6d53bb8ee5602ce": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-three.md"
-  ],
-  "64db710b37342a00712b6dd5ff9a545844198d42": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-two.md"
-  ],
-  "a3872fe037898ef266b79bb6b915f87fd1d170e4": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-two.md"
-  ],
-  "aba709f5899bb6e10dfe8b4500d200b4c69be724": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-two.md"
-  ],
-  "125d52654ca11554362b64a370d5b78884037db0": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-step-two.md"
-  ],
-  "040c6944c7134d4f9fa3ee51ac7e4703932efad0": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-worksheet.md"
-  ],
-  "a989fff8cebf92a8a4fca60157ed8d0b3ec74069": [
-    "InTuneDocs\\PlanDesign\\migrating-to-intune-worksheet.md"
   ],
   "e7bc92d2e73f1d257aac515109380ab20b6cf261": [
     "InTuneDocs\\DeployUse\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
@@ -5553,6 +5471,9 @@
   "e14facf2d873f0dd533ab23beab56f7b0365db84": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
+  "735b3099d8e494e59b0f77bfaa7e9cb052e95ced": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
+  ],
   "6402ac531f75abf70cce4b312ee345a7c4d8e4f9": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
@@ -5616,6 +5537,9 @@
   "b91de3ef520b2cc704eadf508732f4383853480b": [
     "InTuneDocs\\DeployUse\\media\\publisher-for-pc.png"
   ],
+  "3396cc025bc36d605422e8d4cc8817d12a4ba6a7": [
+    "InTuneDocs\\GetStarted\\operations-and-maintenance.md"
+  ],
   "e3d736088aef037a358626c46578ea0253b93a14": [
     "InTuneDocs\\GetStarted\\operations-and-maintenance.md"
   ],
@@ -5669,6 +5593,9 @@
   ],
   "918dc946b2afb5298b6416f3c3cd4527273bdb06": [
     "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
+  ],
+  "0c4c165343b9a7de01ced4c3c5f2fc68a7a649c5": [
+    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
@@ -5744,6 +5671,15 @@
   ],
   "2b98d65188572566b1d14b4413dacb6f3e915cea": [
     "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-5-ReadyToGo.png"
+  ],
+  "f2a90e68270229eee3fa2896e2a19a7723befe98": [
+    "InTuneDocs\\DeployUse\\how-your-android-users-get-their-apps.md"
+  ],
+  "a911ba04e1070144a857c074cb12662ac895f962": [
+    "InTuneDocs\\DeployUse\\how-your-ios-users-get-their-apps.md"
+  ],
+  "ffb6fd5b0576d02e9b311ba3047c6a6699c6722a": [
+    "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
   ],
   "29b6747590385856035e92d2881387a79734a591": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
@@ -5831,9 +5767,6 @@
   ],
   "55c511f0b9231d0277e1d5270c352472ab28b0a4": [
     "InTuneDocs\\DeployUse\\protect-your-devices-with-microsoft-intune.md"
-  ],
-  "39440f2611149a873b70ab24423649af5aabb263": [
-    "InTuneDocs\\PlanDesign\\media\\migrate-intune-steps.png"
   ],
   "19064a8aaede330ac742af6e3a735598ac868733": [
     "InTuneDocs\\media\\em-vision.png"
@@ -6162,6 +6095,9 @@
   "a89b8a10384e1dae39077335bab78d5144f2c1c9": [
     "InTuneDocs\\zDeletedTopics\\sign-in-to-the-company-portal-app-android.md"
   ],
+  "8165a7db14d04342d607a767a1f7f251225bdeab": [
+    "InTuneDocs\\index.md"
+  ],
   "2551d1800ad3ad7a52b4a155c791bae74278293c": [
     "InTuneDocs\\index.md"
   ],
@@ -6171,29 +6107,56 @@
   "8c3d0e5492078f6d4fdf6b10614b5be81e21b68d": [
     "InTuneDocs\\DeployUse\\migrate-to-intune.md"
   ],
+  "49503881b2af5553661beec1e2f2675f91a0a423": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "39e18f54e76d1a5726722e7057acbcdf70e84f28": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
+  "b60caca74ddd13728b668b05592fb6d02c9c95ba": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-1.md"
   ],
   "443a6203cf4ca533cabb1f336b33bb5afad3d8dc": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-1.md"
   ],
+  "4548b7335ffd89c41be4b99cf5abe8c0a9c8becf": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-2.md"
+  ],
   "b32df7caa3a3ebd0ea82c16611cb5626ea446d11": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-2.md"
+  ],
+  "37da842e28c5c4cd1e37de4e78c4d312e8da0f7c": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-3.md"
   ],
   "7b822832671a285fea029eb990e479ffd09b1243": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-3.md"
   ],
+  "f87162a14edf7a31f54077c81deb9b9a5de2b7db": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-4.md"
+  ],
   "edeac3d938d33f5234cf128999d93294b649770f": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-4.md"
+  ],
+  "b15bb3834af66f35843269bc4700352526057aca": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
   "38f65bd3c7885b2e3c704e9081779d8b16760754": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
+  "9220562f27fc037e0033f2760790711207b5672c": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+  ],
   "da4548d9d587938cc361c0a177a43e3ba4af5fb1": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
   ],
+  "6a108deaee9f2a1760c10803faa31a76e9430c9c": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+  ],
   "f35aa373dff85836b06d4a1cd7f65d781c82d974": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+  ],
+  "21838e504e3fb7559197389a2facacb4983d1301": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
   ],
   "8b1002a9bc21389e2d5eef849b700bd38b0b2d11": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
@@ -6218,5 +6181,11 @@
   ],
   "f856cf46af9e305f086ec95d388682753f63456a": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md"
+  ],
+  "8ed6922c36742fbe2310bdf575a99eaf3b7d36d8": [
+    "InTuneDocs\\media\\pol-sa-pc-endpoint-policy.png"
+  ],
+  "cb40e46e38063760b5af35c5f749139fa61c8ac8": [
+    "InTuneDocs\\media\\pol-sa-pc-policy-realtime.png"
   ]
 }
