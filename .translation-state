@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "b581f12f22cf3aeb01e17bba9e1fdf4c4a0d27bb",
+  "LastProcessedCommit": "b0263bd7f567c37989e48acc37d18dfa46fa54ad",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -12071,8 +12071,8 @@
     },
     "2b6c2219512a1cbbfc88e62b97dc6b2e4a7afc6a": {
       "FileHash": "2b6c2219512a1cbbfc88e62b97dc6b2e4a7afc6a",
-      "SourceFileCommit": "5de35c05884902678b29ee14bc89ddb3b446bfe1",
-      "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-2-mgt-profile-install.PNG",
+      "SourceFileCommit": null,
+      "SourceFilePath": "InTuneDocs\\EndUser\\media\\ios-enroll-2-mgt-profile-install.png",
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-ios-device-with-intune.md",
@@ -12105,8 +12105,8 @@
     },
     "45fb0908384cfdd4d34528ed2e8fe39e922f061e": {
       "FileHash": "45fb0908384cfdd4d34528ed2e8fe39e922f061e",
-      "SourceFileCommit": "5de35c05884902678b29ee14bc89ddb3b446bfe1",
-      "SourceFilePath": "InTuneDocs\\media\\IW-Help-pics\\ios-enroll-3-mgt-profile-install-2.PNG",
+      "SourceFileCommit": null,
+      "SourceFilePath": "InTuneDocs\\EndUser\\media\\ios-enroll-3-mgt-profile-install-2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\md-using-your-ios-device-with-intune.md",
@@ -15834,8 +15834,8 @@
     },
     "6496672b6485257094e48fe01425155a3399acc1": {
       "FileHash": "6496672b6485257094e48fe01425155a3399acc1",
-      "SourceFileCommit": "5de35c05884902678b29ee14bc89ddb3b446bfe1",
-      "SourceFilePath": "InTuneDocs\\media\\Available-install-on-iOS.png",
+      "SourceFileCommit": null,
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\Available-install-on-iOS.png",
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\robstack-v2-of-deploy-apps-to-mobile-devices.md",
@@ -15870,8 +15870,8 @@
     },
     "b7dfa9eaeeb294953b86fc3a2861416579b3f666": {
       "FileHash": "b7dfa9eaeeb294953b86fc3a2861416579b3f666",
-      "SourceFileCommit": "5de35c05884902678b29ee14bc89ddb3b446bfe1",
-      "SourceFilePath": "InTuneDocs\\media\\iOS-Required-install.PNG",
+      "SourceFileCommit": null,
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\iOS-Required-install.PNG",
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\robstack-v2-of-deploy-apps-to-mobile-devices.md",
@@ -42157,8 +42157,8 @@
     },
     "c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe": {
       "FileHash": "c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe",
-      "SourceFileCommit": "845bd93988232ca24eab3ea7016ccf05639cc2ea",
-      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Default_small.png",
+      "SourceFileCommit": null,
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\group-planning\\Intune_Planning_Groups_Default_small.png",
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\PlanDesign\\plan-your-user-and-device-groups.md",
@@ -53056,7 +53056,8 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\companyportal.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-7.md",
+        "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-7.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -53087,7 +53088,8 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\groups.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md"
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-5.md",
+        "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-5.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -53118,7 +53120,8 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\mdmAuthority.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md"
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-9.md",
+        "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -53400,7 +53403,8 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\apps.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md",
+        "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -53431,7 +53435,8 @@
       "SourceFilePath": "InTuneDocs\\GetStarted\\media\\policy.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+        "InTuneDocs\\GetStarted\\get-started-with-a-paid-subscription-to-microsoft-intune-step-6.md",
+        "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
       ],
       "TokenReference": null,
       "FilePathList": [
@@ -53986,8 +53991,8 @@
     },
     "c4920e933b7c8a910303cadfb2543e4864fbbcbb": {
       "FileHash": "c4920e933b7c8a910303cadfb2543e4864fbbcbb",
-      "SourceFileCommit": "02832859096b36a7979311ed65a5e38f82fa2a87",
-      "SourceFilePath": "InTuneDocs\\media\\App-filters.png",
+      "SourceFileCommit": null,
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\App-filters.png",
       "HandoffReason": 2,
       "DependencyFrom": [
         "InTuneDocs\\DeployUse\\deploy-apps-to-mobile-devices-in-microsoft-intune.md",
@@ -64276,15 +64281,17 @@
     },
     "39440f2611149a873b70ab24423649af5aabb263": {
       "FileHash": "39440f2611149a873b70ab24423649af5aabb263",
-      "SourceFileCommit": "e0ce0ef0947e491107c12e642e2774cb675bd768",
-      "SourceFilePath": "InTuneDocs\\PlanDesign\\media\\migrate-intune-steps.png",
+      "SourceFileCommit": "f744ca55ebd79d04c8b1a3847d10dccb4acb8c51",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\media\\migrate-intune-steps.png",
       "HandoffReason": 2,
       "DependencyFrom": [
-        "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md"
+        "InTuneDocs\\PlanDesign\\migrating-to-intune-step-four.md",
+        "InTuneDocs\\DeployUse\\migrate-to-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "InTuneDocs\\PlanDesign\\media\\migrate-intune-steps.png"
+        "InTuneDocs\\PlanDesign\\media\\migrate-intune-steps.png",
+        "InTuneDocs\\DeployUse\\media\\migrate-intune-steps.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\39440f2611149a873b70ab24423649af5aabb263.png",
       "HandoffFileCommit": "ddd9eb04a107e5c2f87b90e07a31623f2d326fcc",
@@ -78982,6 +78989,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf",
       "HandoffFileCommit": "0cfab949a323701d921c7addec704c1852b95074",
       "HandoffDateTime": "2016-04-19T08:36:32.0495709Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "9f8d3ffb2c17400dead378efa7cc76411d7da823": {
+      "FileHash": "9f8d3ffb2c17400dead378efa7cc76411d7da823",
+      "SourceFileCommit": "3d3c1df97fccb76773677dbf3245e0a4862ddad5",
+      "SourceFilePath": "InTuneDocs\\index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\index.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf",
+      "HandoffFileCommit": "487024a98dda821e07f8f32067428edababa28d7",
+      "HandoffDateTime": "2016-04-19T11:06:54.0195022Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
