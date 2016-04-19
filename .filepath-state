@@ -394,6 +394,9 @@
   "f89ea0418cc7f53fdce16f26d31e3e24920b3c69": [
     "InTuneDocs\\DeployUse\\manage-windows-pcs-with-microsoft-intune.md"
   ],
+  "f03ec254b07f8a1dbfe3f29003a2748d44e8da62": [
+    "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "77e613d2b0584bdd308a9b1f4ec2fd5db4c2e234": [
     "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -2938,12 +2941,6 @@
   ],
   "9ee91fed0fc6c0933248dcf718531fef61475e71": [
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-test-bryanla.md"
-  ],
-  "7f6e7a73d53cebf0c74e0f80285226fb7f75d010": [
-    "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_MonitorUsers.png"
-  ],
-  "56f67d5dc2529ef69bf6ed1134d77e57497b2abd": [
-    "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_FlaggedUserDetails.png"
   ],
   "da1a1004285cb16b91a5d883b4e41adcc8acfe79": [
     "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequestsSummary.png"
@@ -6107,8 +6104,14 @@
   "782e5f15d4517808425d02b3d79732a9d28d986f": [
     "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
   ],
+  "17c994b410342e96f734afe63b28392a7fe7ed28": [
+    "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user.png"
+  ],
   "adc15aa0f53c35d42cf97f95d8b2fb9ed345348c": [
     "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user.png"
+  ],
+  "69f39c0fa233ffb62173bd3c434b7ac1b0f949d6": [
+    "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user-settings-blade.png"
   ],
   "a6222ba1ffdc40fa2280ab62ef32de8053510b94": [
     "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user-settings-blade.png"
@@ -6302,6 +6305,9 @@
   "a89b8a10384e1dae39077335bab78d5144f2c1c9": [
     "InTuneDocs\\zDeletedTopics\\sign-in-to-the-company-portal-app-android.md"
   ],
+  "9954ffe656bbfe299a01d8056898d9b38c7a19d0": [
+    "InTuneDocs\\index.md"
+  ],
   "9989ebb93c8a502327c875b5ab31e488a9d3c155": [
     "InTuneDocs\\index.md"
   ],
@@ -6439,5 +6445,8 @@
   ],
   "3f301238e7c744ed0a0a91027eea6f5a5a1aa50a": [
     "InTuneDocs\\media\\Sandbox\\Device_AppsLifecyclev2.png"
+  ],
+  "94f4b1fae8d7bb55b1ecb8415a5489f6b7172360": [
+    "InTuneDocs\\media\\mam-azure-portal-user-status-summary.png"
   ]
 }
