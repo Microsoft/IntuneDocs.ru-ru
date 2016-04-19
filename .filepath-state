@@ -320,7 +320,10 @@
     "InTuneDocs\\DeployUse\\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md"
   ],
   "cd5f0911b0f73f7c71d22a1a5c2e9538e7eba46b": [
-    "InTuneDocs\\DeployUse\\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
+    "InTuneDocs\\zDeletedTopics\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
+  ],
+  "51f73936517012454f0007a62a318ec378ac2557": [
+    "InTuneDocs\\zDeletedTopics\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
   ],
   "4d8b4ac82562bd1d94f667a5e687a515dabe3d81": [
     "migrated-03-14\\Topic\\Manage-access-to-apps-using-Microsoft-Intune-configuration-policies---deleted.md",
@@ -3581,14 +3584,14 @@
   "159f599aa557745fb0bcea2d48fe5bb1add54b8a": [
     "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md"
   ],
-  "51f73936517012454f0007a62a318ec378ac2557": [
-    "InTuneDocs\\zDeletedTopics\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
-  ],
   "89d51c4522eceac6df5aa17c81351bf55319b6b5": [
     "migrated-03-14\\Topic\\Lifecycle-section-from-Overview.md"
   ],
   "3197f33fe6c264892365fe876d34733433a563ac": [
     "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md"
+  ],
+  "11b8188b7350578696bac907747c72580cfc750c": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md"
   ],
   "f7badc853ce860d28054e78fed8d6f054fb20384": [
     "InTuneDocs\\DeployUse\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md"
@@ -3640,6 +3643,9 @@
   ],
   "376dc31dce9eb003564c8af9fb731a00f36d6d17": [
     "migrated-03-14\\Topic\\Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md"
+  ],
+  "a2ab8c88843bf39e57ef0ab6b793b443be266883": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-sharepoint-online-with-microsoft-intune.md"
   ],
   "093b3a8511efe0cdd0990c4c53ce4759a3c976af": [
     "InTuneDocs\\DeployUse\\restrict-access-to-sharepoint-online-with-microsoft-intune.md"
@@ -5207,6 +5213,9 @@
   "08cb0a1cc8355e6439e9e30e30e01a560da96cd2": [
     "InTuneDocs\\DeployUse\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
   ],
+  "0cd767392b923777a434e75d86febe86820a909d": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
+  ],
   "08600b97d222a4b42d13e223a4b38c070636b500": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
   ],
@@ -5377,6 +5386,9 @@
   ],
   "913565f985c0faedec9d8acd14f6963e7476fd4b": [
     "InTuneDocs\\DeployUse\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md"
+  ],
+  "632311501388ee39b7a39a76e4cb3ecb9f385438": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
   ],
   "d2fd144acf730d2db30dca8c24e19bbaa0880bba": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
