@@ -506,6 +506,9 @@
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md",
     "migrated-03-14\\Topic\\Specify-corporate-owned-devices-with-international-mobile-equipment-identity--IMEI--numbers.md"
   ],
+  "b72db5095d4fec7f0b50fb5298bb8a25e528fbd1": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "e4a3acdee9d4e0359d7618bf982010bf7f6036fd": [
     "InTuneDocs\\DeployUse\\TOC.md"
   ],
@@ -1639,10 +1642,10 @@
     "InTuneDocs\\EndUser\\media\\ios-cpinstall-1-cpinstore.png"
   ],
   "2b6c2219512a1cbbfc88e62b97dc6b2e4a7afc6a": [
-    "InTuneDocs\\EndUser\\media\\ios-enroll-2-mgt-profile-install.png"
+    "InTuneDocs\\EndUser\\media\\ios-enroll-2-mgt-profile-install.PNG"
   ],
   "45fb0908384cfdd4d34528ed2e8fe39e922f061e": [
-    "InTuneDocs\\EndUser\\media\\ios-enroll-3-mgt-profile-install-2.png"
+    "InTuneDocs\\EndUser\\media\\ios-enroll-3-mgt-profile-install-2.PNG"
   ],
   "ca6da7b8547c8877c7f4b785f1db85fe4021243d": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-4-warning.png"
@@ -2030,10 +2033,10 @@
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-apps-to-mobile-devices.md"
   ],
   "6496672b6485257094e48fe01425155a3399acc1": [
-    "InTuneDocs\\DeployUse\\media\\Available-install-on-iOS.png"
+    "InTuneDocs\\DeployUse\\media\\available-install-on-ios.png"
   ],
   "b7dfa9eaeeb294953b86fc3a2861416579b3f666": [
-    "InTuneDocs\\DeployUse\\media\\iOS-Required-install.PNG"
+    "InTuneDocs\\DeployUse\\media\\ios-required-install.PNG"
   ],
   "7b0d2e2924298ef11685300c188d61afc67e682b": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-different-ways-to-manage-your-devices.md"
@@ -2479,7 +2482,7 @@
     "InTuneDocs\\media\\HybridOnpremExchSrvrWizard6.PNG"
   ],
   "00f6c80457b1d64bb088936747ac26ec93f83c5a": [
-    "InTuneDocs\\media\\HybridOnpremEasDiscLogSample.PNG"
+    "InTuneDocs\\media\\HybridOnpremEasDiscLogSample.png"
   ],
   "1d2a8737299ec8316484218a22931eca82a39d0c": [
     "InTuneDocs\\media\\HybridOnpremVerifyDevicesState.png"
@@ -2940,7 +2943,7 @@
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
   ],
   "fd228641a36b69f77af54b978b5a70379e20f636": [
-    "InTuneDocs\\Media\\Intune-MDM-Authority.png"
+    "InTuneDocs\\media\\Intune-MDM-Authority.png"
   ],
   "64f06d45481657e65ee924d286623dc83a514f40": [
     "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-11-start-mg-mobl-dev.png"
@@ -4847,12 +4850,6 @@
   "6e8127c31aced6f3072d7c2d930799c2e70fcf21": [
     "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md"
   ],
-  "017ae819d0d5f16116b087a7dc057bd494922195": [
-    "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.png"
-  ],
-  "cbc984010e24f054a09f1020c64682d0a3b9aa33": [
-    "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.png"
-  ],
   "af62a3a0b0e4c5a0fb0c363e2e81516065af70c2": [
     "InTuneDocs\\DeployUse\\pre-shared-key-wi-fi-profile.md"
   ],
@@ -4904,23 +4901,20 @@
   "8424e87bd47f3f7f08fd4a3ff62f6f43e6c2f160": [
     "InTuneDocs\\media\\Windows-Device-Enrollment.png"
   ],
+  "017ae819d0d5f16116b087a7dc057bd494922195": [
+    "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.PNG"
+  ],
   "8b8f1f0c12840d9b401a7893e936df12c5dc88b1": [
     "InTuneDocs\\DeployUse\\media\\ca_win10-os-version.png"
   ],
   "49991e8ddc4d78b154585e0a7abf6b907e67c836": [
     "InTuneDocs\\DeployUse\\media\\intune-sa-3a-add-compliance-policy.png"
   ],
-  "844ba2e1395b34a72524b49687fcf98490be08a3": [
-    "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.png"
-  ],
-  "5ed65dd27a577441239b6da120ff81a3f9857728": [
-    "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.png"
-  ],
   "63f8ddc53128c377aed176dd03ce30f9c5c69ae0": [
-    "InTuneDocs\\DeployUse\\media\\intune-sa-3c-deploy-compliance-policy2.png"
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3c-deploy-compliance-policy2.PNG"
   ],
   "da287fb3fb56f0170466d8984fc88fcea0f0de8e": [
-    "InTuneDocs\\DeployUse\\media\\intune-sa-3d-deploy-compliance-policy3-Manage.png"
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3d-deploy-compliance-policy3-Manage.PNG"
   ],
   "3ffb09f78f6a04c26fb9b28e2d5a63b06f82f8d6": [
     "InTuneDocs\\DeployUse\\media\\intune-sa-3e-view-device-noncompliance.png"
@@ -5015,6 +5009,9 @@
   "f0693c1dc992e472ab354379982f4920182aee28": [
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
   ],
+  "844ba2e1395b34a72524b49687fcf98490be08a3": [
+    "InTuneDocs\\DeployUse\\media\\intune-sa-3b-create-policy.PNG"
+  ],
   "879effc2ee7185bc212b4d2ffc9b8acdb2e1a9ea": [
     "InTuneDocs\\DeployUse\\android-compliance-policy-settings-in-microsoft-intune.md"
   ],
@@ -5088,8 +5085,7 @@
     "InTuneDocs\\DeployUse\\windows-compliance-policy-settings-in-microsoft-intune.md"
   ],
   "c1ded1cee2d94d6444bd235b5b0aabfddcbf90fe": [
-    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Default_small.png",
-    "InTuneDocs\\DeployUse\\media\\group-planning\\Intune_Planning_Groups_Default_small.png"
+    "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_Default_small.png"
   ],
   "8358df358adbd40652dbd2620196c339a663ac55": [
     "InTuneDocs\\DeployUse\\microsoft-intune-policy-reference.md"
@@ -5590,25 +5586,22 @@
     "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
   ],
   "f12f9ce7f1cc2617755aa8884f51cc557ac9f59b": [
-    "InTuneDocs\\GetStarted\\media\\companyportal.png"
+    "InTuneDocs\\GetStarted\\media\\CompanyPortal.PNG"
   ],
   "beb27bab4afd25c8d6a30c711a85fe0141176c26": [
-    "InTuneDocs\\GetStarted\\media\\groups.png"
+    "InTuneDocs\\GetStarted\\media\\groups.PNG"
   ],
   "fb6243f0baeb0253a55299242cf8eeb596ca0e14": [
-    "InTuneDocs\\GetStarted\\media\\mdmAuthority.png"
-  ],
-  "ca1cfbb4f83a6e26059fcfb35b5850aafefb81f2": [
-    "InTuneDocs\\GetStarted\\media\\policy.png"
-  ],
-  "a300bc7b0d71c64f0b79844c673ba810b9206cd7": [
-    "InTuneDocs\\GetStarted\\media\\policy.png"
+    "InTuneDocs\\GetStarted\\media\\mdmAuthority.PNG"
   ],
   "c1432f9dd733dccca6c615a50fb3139bdf81d150": [
-    "InTuneDocs\\GetStarted\\media\\apps.png"
+    "InTuneDocs\\GetStarted\\media\\apps.PNG"
+  ],
+  "ca1cfbb4f83a6e26059fcfb35b5850aafefb81f2": [
+    "InTuneDocs\\GetStarted\\media\\POLICY.PNG"
   ],
   "c4920e933b7c8a910303cadfb2543e4864fbbcbb": [
-    "InTuneDocs\\DeployUse\\media\\App-filters.png"
+    "InTuneDocs\\DeployUse\\media\\app-filters.png"
   ],
   "c69e2b425499d554a9b12d5154f6be19894ea8ed": [
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups-old.md"
@@ -5779,37 +5772,37 @@
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
   "eac2f6affbfae14d4be1b8c1ce22cf593c04a776": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-1.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\email-walkthrough-1.png"
   ],
   "ddde252b39eb9f14daf8aacc6d8f08325fc14741": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-10.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-10.png"
   ],
   "eb9548ac782d7a41b782c682cee305e41fc5a171": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-11.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-11.png"
   ],
   "10dbac3bf83ed5b9bca30d44b2f0acf86bc7ec57": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-2.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-2.png"
   ],
   "f363094808565774a0bcc3663d2d926a4cb85354": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-3.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-3.png"
   ],
   "0e6ac2466bc2469d109450fa78c9387b7687062f": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-4.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-4.png"
   ],
   "0d1bc21ed10d0facc601b592bf0ac0d41c08d946": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-5.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-5.png"
   ],
   "57cda63e0d03b2bdf9ecac293b7c45bb38be132c": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-6.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-6.png"
   ],
   "797b763dbbee12e9bef74dcc544be0cfacea1786": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-7.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-7.png"
   ],
   "f2fd8a8da813ca4810c22aca5687df3b8cbecf74": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-8.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-8.png"
   ],
   "9e6af6165eb396969fe666307f9b7b81e9f708d0": [
-    "InTuneDocs\\Understand\\media\\email-walkthrough\\Email-Walkthrough-9.png"
+    "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-9.png"
   ],
   "aa5b5e1c2283d94442d2f142e03d45052ff968dd": [
     "InTuneDocs\\sandbox\\giphy.gif"
@@ -6112,13 +6105,13 @@
     "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
   ],
   "b8284a6060e8bd5dc51a9f1c41448d3c69fca5e3": [
-    "InTuneDocs\\Media\\pol-sa-corp-enroll.png"
+    "InTuneDocs\\media\\pol-sa-corp-enroll.png"
   ],
   "27cd4aac432f6e0c0c010152378a59907d950106": [
-    "InTuneDocs\\Media\\pol-SA-enroll-iOS-SetupAssistant.png"
+    "InTuneDocs\\media\\pol-SA-enroll-iOS-SetupAssistant.png"
   ],
   "204ed85ed1c4dea12212eea34b080998af6cc211": [
-    "InTuneDocs\\Media\\pol-sa-terms-conditions.png"
+    "InTuneDocs\\media\\pol-sa-terms-conditions.png"
   ],
   "dc83ab7ea87f587c7fad12b64485974aebc09ec9": [
     "InTuneDocs\\DeployUse\\overview-of-app-lifecycle-in-microsoft-intune.md"
@@ -6214,22 +6207,19 @@
     "InTuneDocs\\EndUser\\media\\ios-enroll-1d-what-comes-next.png"
   ],
   "2ab54ab49e4936dded8a82fa3cd270cd07b1b6e5": [
-    "InTuneDocs\\EndUser\\media\\ios-enroll-8-comp-access-setup-compliance.png"
+    "InTuneDocs\\EndUser\\media\\ios-enroll-8-comp-access-setup-compliance.PNG"
   ],
   "01efa92152d330256b0fa6e6df8f43a66437a893": [
-    "InTuneDocs\\EndUser\\media\\ios-enroll-9-comp-access-setup-complete.png"
+    "InTuneDocs\\EndUser\\media\\ios-enroll-9-comp-access-setup-complete.PNG"
   ],
   "c427b3f1a59d33001cf00f6f997796ac9be47a3c": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ],
-  "e6579cd63480bfb21ccd55a4a8a9d24689721c82": [
-    "InTuneDocs\\DeployUse\\plan-for-app-deployment-in-microsoft-intune.md"
-  ],
-  "725f063e37b07b77b9f00b0aff09624b9f6ed9dd": [
-    "InTuneDocs\\DeployUse\\plan-for-app-deployment-in-microsoft-intune.md"
-  ],
   "e0d1926d2296a0ab9cb6769e78d3cad6f2dc4846": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.old.md"
+  ],
+  "e6579cd63480bfb21ccd55a4a8a9d24689721c82": [
+    "InTuneDocs\\DeployUse\\add-apps.md"
   ],
   "a89b8a10384e1dae39077335bab78d5144f2c1c9": [
     "InTuneDocs\\zDeletedTopics\\sign-in-to-the-company-portal-app-android.md"
@@ -6332,5 +6322,8 @@
   ],
   "cb40e46e38063760b5af35c5f749139fa61c8ac8": [
     "InTuneDocs\\media\\pol-sa-pc-policy-realtime.png"
+  ],
+  "3fa518a16be89ecb93047d13b45209a863aa0815": [
+    "InTuneDocs\\DeployUse\\deploy-apps.md"
   ]
 }

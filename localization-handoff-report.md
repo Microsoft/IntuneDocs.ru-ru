@@ -1,19 +1,45 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 3
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3d3c1df97fccb76773677dbf3245e0a4862ddad5/InTuneDocs/index.md) | HandedOffSuccess | [Details](#9f8d3ffb2c17400dead378efa7cc76411d7da823683)
+ [InTuneDocs\DeployUse\add-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29f81e497c5db777d7b81b2dd1723adcc55d4277/InTuneDocs/DeployUse/add-apps.md) | HandedOffSuccess | [Details](#e6579cd63480bfb21ccd55a4a8a9d24689721c8224)
+ [InTuneDocs\DeployUse\deploy-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29f81e497c5db777d7b81b2dd1723adcc55d4277/InTuneDocs/DeployUse/deploy-apps.md) | HandedOffSuccess | [Details](#3fa518a16be89ecb93047d13b45209a863aa081547)
+ [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29f81e497c5db777d7b81b2dd1723adcc55d4277/InTuneDocs/DeployUse/TOC.md) | HandedOffSuccess | [Details](#b72db5095d4fec7f0b50fb5298bb8a25e528fbd1290)
 
 ## Item Details
-##### <a name='9f8d3ffb2c17400dead378efa7cc76411d7da823683'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3d3c1df97fccb76773677dbf3245e0a4862ddad5/InTuneDocs/index.md)
+##### <a name='e6579cd63480bfb21ccd55a4a8a9d24689721c8224'></a> Source: [InTuneDocs\DeployUse\add-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29f81e497c5db777d7b81b2dd1723adcc55d4277/InTuneDocs/DeployUse/add-apps.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/487024a98dda821e07f8f32067428edababa28d7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
-* Handoff Datetime: 2016-04-19 11:06:54
+* Handoff File: [add-apps.adb93928651b2f01c7d38a4b8d96ec12d43848e9.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9b2dfe7d364d7bec93e71b596b879d2276fbf9fe/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/add-apps.adb93928651b2f01c7d38a4b8d96ec12d43848e9.ru-ru.xlf)
+* Handoff Datetime: 2016-04-19 16:55:11
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='3fa518a16be89ecb93047d13b45209a863aa081547'></a> Source: [InTuneDocs\DeployUse\deploy-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29f81e497c5db777d7b81b2dd1723adcc55d4277/InTuneDocs/DeployUse/deploy-apps.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [deploy-apps.6f4ed44a5bf51a5f9d10c2ffdef2dca650afc4bf.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9b2dfe7d364d7bec93e71b596b879d2276fbf9fe/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-apps.6f4ed44a5bf51a5f9d10c2ffdef2dca650afc4bf.ru-ru.xlf)
+* Handoff Datetime: 2016-04-19 16:55:11
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='b72db5095d4fec7f0b50fb5298bb8a25e528fbd1290'></a> Source: [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/29f81e497c5db777d7b81b2dd1723adcc55d4277/InTuneDocs/DeployUse/TOC.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/9b2dfe7d364d7bec93e71b596b879d2276fbf9fe/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
+* Handoff Datetime: 2016-04-19 16:55:11
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
