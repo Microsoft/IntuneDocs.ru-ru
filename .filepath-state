@@ -6218,11 +6218,17 @@
   "e0d1926d2296a0ab9cb6769e78d3cad6f2dc4846": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.old.md"
   ],
+  "fcaafcdd741aa465a2f78497c3308f3a171b5fc9": [
+    "InTuneDocs\\DeployUse\\add-apps.md"
+  ],
   "e6579cd63480bfb21ccd55a4a8a9d24689721c82": [
     "InTuneDocs\\DeployUse\\add-apps.md"
   ],
   "a89b8a10384e1dae39077335bab78d5144f2c1c9": [
     "InTuneDocs\\zDeletedTopics\\sign-in-to-the-company-portal-app-android.md"
+  ],
+  "f0866b0edb6cb22ae4b38dc7d1bcace358688667": [
+    "InTuneDocs\\index.md"
   ],
   "9f8d3ffb2c17400dead378efa7cc76411d7da823": [
     "InTuneDocs\\index.md"
@@ -6322,6 +6328,9 @@
   ],
   "cb40e46e38063760b5af35c5f749139fa61c8ac8": [
     "InTuneDocs\\media\\pol-sa-pc-policy-realtime.png"
+  ],
+  "700fb5716afc4e78d29b1d8fb206cab6ae153200": [
+    "InTuneDocs\\DeployUse\\deploy-apps.md"
   ],
   "3fa518a16be89ecb93047d13b45209a863aa0815": [
     "InTuneDocs\\DeployUse\\deploy-apps.md"
