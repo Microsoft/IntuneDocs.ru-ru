@@ -6098,6 +6098,9 @@
   "5522836a146b306aa18c04ef52fac97e2f41c4c7": [
     "InTuneDocs\\media\\mam-azure-portal-app-reporting-select-user.png"
   ],
+  "3381f3c1000aec3b18a50ed12c7371b6025b7a8d": [
+    "InTuneDocs\\dougs-sandbox.md"
+  ],
   "34a12eba99d42f30303f128758ccdce0872e3ccf": [
     "InTuneDocs\\dougs-sandbox.md"
   ],
@@ -6186,10 +6189,12 @@
     "InTuneDocs\\DeployUse\\media\\app-lifecycle.png"
   ],
   "6a9dc3ad908b1972fedc494ecc8e6704aadb5de3": [
-    "InTuneDocs\\DeployUse\\media\\device-apps-lifecycle.png"
+    "InTuneDocs\\DeployUse\\media\\device-apps-lifecycle.png",
+    "InTuneDocs\\media\\Sandbox\\Device_AppsLifecycle.png"
   ],
   "2dbdf59f110ba01706fc5bea4a35dad3523c1587": [
-    "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
+    "InTuneDocs\\DeployUse\\media\\device-lifecycle.png",
+    "InTuneDocs\\media\\Sandbox\\DeviceLifecycle.png"
   ],
   "5b3551ac48c41f27c2f2e59467a03eb527bffb46": [
     "InTuneDocs\\EndUser\\media\\1-macosx-enroll-tap-enroll.png"
@@ -6277,6 +6282,9 @@
   ],
   "a89b8a10384e1dae39077335bab78d5144f2c1c9": [
     "InTuneDocs\\zDeletedTopics\\sign-in-to-the-company-portal-app-android.md"
+  ],
+  "af84771ec28b2d6611209101eedd9eb5a936e6cc": [
+    "InTuneDocs\\index.md"
   ],
   "f0866b0edb6cb22ae4b38dc7d1bcace358688667": [
     "InTuneDocs\\index.md"
@@ -6385,5 +6393,17 @@
   ],
   "3fa518a16be89ecb93047d13b45209a863aa0815": [
     "InTuneDocs\\DeployUse\\deploy-apps.md"
+  ],
+  "ae1f0094d31e29e808c2642fe63f0b5b0ffe126b": [
+    "InTuneDocs\\media\\Sandbox\\AppLifecycle_Staticv8.png"
+  ],
+  "c6cb6d477cbf692e9ef5366223e9bc65c8b559a6": [
+    "InTuneDocs\\media\\Sandbox\\AppLifecycle_Staticv8_noBG.png"
+  ],
+  "2b61d9a41638b8c746eab7f43b6e5b34c70935e7": [
+    "InTuneDocs\\media\\Sandbox\\Device_AppsLifecycle_noBG.png"
+  ],
+  "6a0ead2adc51ca6cd1c32469d34f95d9e768ae1f": [
+    "InTuneDocs\\media\\Sandbox\\DeviceLifecycle_noBG.png"
   ]
 }
