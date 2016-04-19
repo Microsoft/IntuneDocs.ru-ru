@@ -617,7 +617,7 @@
  [InTuneDocs\includes\wit_tools_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wit_tools_md.md) | HandedOffSuccess | [Details](#58643537b9c0a34ac93bf6af99240b6e3469ab2a680)
  [InTuneDocs\includes\wps_2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2.md) | HandedOffSuccess | [Details](#e9096a16bdd11b30f840ceba6f1cb16bd4cf25e8681)
  [InTuneDocs\includes\wps_2_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2_md.md) | HandedOffSuccess | [Details](#7aec405442c5cb6c886214b18022f4f9d2af5cbf682)
- [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f6df82e1d3867cb991fa410576d24f47a74e39d9/InTuneDocs/index.md) | HandedOffSuccess | [Details](#8165a7db14d04342d607a767a1f7f251225bdeab683)
+ [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4475c10a51e4361a1dfc35df69f4ef81c0d316d3/InTuneDocs/index.md) | HandedOffSuccess | [Details](#740d76280545e77eddd35972aeeb6e41e56c61e0683)
  [InTuneDocs\introduction-to-microsoft-intune-test-.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0beb077500053245bb202965eb74c90ffe4e25de/InTuneDocs/introduction-to-microsoft-intune-test-.md) | HandedOffSuccess | [Details](#9c786eb64287a480b46af474469ede2d0956fc35684)
  [InTuneDocs\intune-ip-ranges_deleted.md](https://github.com/Microsoft/IntuneDocs-pr/blob/248ce388bcd5256dcdb1ef68fb73d26a89d65d22/InTuneDocs/intune-ip-ranges_deleted.md) | HandedOffSuccess | [Details](#0d238d5c57811e54f4298b0a08bc181223424c8e685)
  [InTuneDocs\ip-ranges-version-2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0beb077500053245bb202965eb74c90ffe4e25de/InTuneDocs/ip-ranges-version-2.md) | HandedOffSuccess | [Details](#a792a294bc20835519cd38c92bad1b3aba6701ea686)
@@ -10682,11 +10682,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='8165a7db14d04342d607a767a1f7f251225bdeab683'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f6df82e1d3867cb991fa410576d24f47a74e39d9/InTuneDocs/index.md)
+##### <a name='740d76280545e77eddd35972aeeb6e41e56c61e0683'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4475c10a51e4361a1dfc35df69f4ef81c0d316d3/InTuneDocs/index.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/fb1149ddf65ecd6199931d02211d5c7766cafdd3/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
-* Handoff Datetime: 2016-04-18 23:13:12
+* Handoff File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/0cfab949a323701d921c7addec704c1852b95074/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
+* Handoff Datetime: 2016-04-19 08:36:32
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
