@@ -84,6 +84,9 @@
   "a02690e3a99003efa054e4b2072e86333674c910": [
     "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
   ],
+  "7022620118cb1ab6b099b02d55610755ce245df5": [
+    "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md"
+  ],
   "879aa0f552b54bb2b28b069b8471deaf81c3fbe4": [
     "InTuneDocs\\computer-management-capabilities-in-microsoft-intune-deleted.md"
   ],
@@ -210,6 +213,9 @@
   "2ea9ca90af7a4beff5e7348985a022be46b1fd95": [
     "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
   ],
+  "b97a5a99a3a7a815c0353834952b1e3fa8f4de70": [
+    "InTuneDocs\\DeployUse\\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md"
+  ],
   "af66de5557b6efce997a73355358eae3104bc919": [
     "InTuneDocs\\DeployUse\\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md"
   ],
@@ -272,6 +278,9 @@
   ],
   "7a90145cafbb5e803ace1380787d138ad273dea3": [
     "InTuneDocs\\DeployUse\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
+  ],
+  "76d93b8c1eb5256ca8249a4a6be532174b8f9f39": [
+    "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
   ],
   "d5d8efe8949ad03dcd833567ef5fe52435e16e00": [
     "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
@@ -359,6 +368,9 @@
   "9e749d8f92f288c50330194b891803f0e32f318a": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
   ],
+  "1239bc9e890026c900c767fef42b1f89a8a89d84": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
   "938bd8642bb577fca6842e9d19aa6934793eb917": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md",
     "InTuneDocs\\zDeletedTopics\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
@@ -435,6 +447,9 @@
   "0f7d3f9227ef8b34a3c1d22a820f968de81a4002": [
     "InTuneDocs\\DeployUse\\monitoring-and-reports-with-microsoft-intune.md"
   ],
+  "5a07bfaa4f2376954bb14d10a9408fdabdf8ed83": [
+    "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
+  ],
   "79f9a8a76747845da32b9a35dfa6495cd81c7d95": [
     "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
   ],
@@ -449,18 +464,6 @@
   ],
   "39cbe290474aa7763c1c553775abd0eedca9a921": [
     "InTuneDocs\\DeployUse\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
-  ],
-  "72f1064663b0dd8e723d9e7eda8d3d4a2af399d7": [
-    "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
-  ],
-  "c4267e6301e031340cecbd70aec9189916a98623": [
-    "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
-  ],
-  "52bbe4170746cb01dabd3e161ed39f00e893be76": [
-    "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
-  ],
-  "a96491f8353bacff420b1fdba96aaecd503e1784": [
-    "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
   ],
   "2c0d9c170a567bde7b561acf9fe89808c577a7b6": [
     "InTuneDocs\\DeployUse\\protect-windows-devices-with-multi-factor-authentication.md"
@@ -488,6 +491,9 @@
   ],
   "96129985c8b37d650d80255dc26f4114240dc792": [
     "InTuneDocs\\DeployUse\\resolve-gpo-and-microsoft-intune-policy-conflicts.md"
+  ],
+  "a46db6de05d88c8723ff219e53eb4a8176ddf64e": [
+    "InTuneDocs\\DeployUse\\retire-apps-using-microsoft-intune.md"
   ],
   "7a3d5079366e4257a327f2c5e979eb617ed84449": [
     "InTuneDocs\\DeployUse\\retire-apps-using-microsoft-intune.md"
@@ -1605,6 +1611,9 @@
   "1ac4cc220974cfed4bfae37c70eb9f78203f8bd0": [
     "InTuneDocs\\media\\WIT_Nav_TechnicalReferenceGray.png"
   ],
+  "ffe41ad4bcd352f9f3ae964a3e650a4245024803": [
+    "InTuneDocs\\maintain-microsoft-intune.md"
+  ],
   "6db081f2cd511da2faaa65a466fe2637388be50b": [
     "InTuneDocs\\maintain-microsoft-intune.md"
   ],
@@ -1845,7 +1854,7 @@
     "InTuneDocs\\microsoft-intune.md"
   ],
   "13969d8975b321c6d1e95eb83a58de86d3966635": [
-    "InTuneDocs\\microsoft-software-supplemental-notice.md"
+    "InTuneDocs\\zDeletedTopics\\microsoft-software-supplemental-notice.md"
   ],
   "9cbde39eef642aad5ed15ac304f60fe800e1c2ec": [
     "InTuneDocs\\mobile-app-management-deleted.md",
@@ -1877,6 +1886,9 @@
   ],
   "0d72cf5cf7f3c99f0158aefa5f85fa7a3a6626d4": [
     "InTuneDocs\\move-from-a-microsoft-intune-free-trial-to-a-paid-subscription.md"
+  ],
+  "5265dbda8c310e7a6c3d6b4496a4a19536e0e276": [
+    "InTuneDocs\\old-computer-capabilities-in-intune.md"
   ],
   "3313eda8a943c570e0d75c98adbfac51f12ce1db": [
     "InTuneDocs\\old-computer-capabilities-in-intune.md"
@@ -2548,6 +2560,9 @@
   "a6c6326c36f36d9d4b56c38c66bce0cb9113d24e": [
     "InTuneDocs\\use-mobile-application-management-policies-in-configuration-manager.md"
   ],
+  "710ad8d60bd427fdc2d566e7605db98d6b46c3eb": [
+    "InTuneDocs\\DeployUse\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
+  ],
   "ce517c19e11875b99968860de3ce5cda4d42a6cd": [
     "InTuneDocs\\DeployUse\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
   ],
@@ -2663,8 +2678,8 @@
     "InTuneDocs\\EndUser\\using-your-windows-device-with-intune.md"
   ],
   "78a507cf5c5710a6fefc0ca147e94baed8dd7639": [
-    "InTuneDocs\\wait-while-your-device-is-being-evaluated.md",
-    "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
+    "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md",
+    "InTuneDocs\\zDeletedTopics\\wait-while-your-device-is-being-evaluated.md"
   ],
   "aa76c597f0f7b81aabccb7ff49c843da983aecb1": [
     "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
@@ -5338,6 +5353,9 @@
   "bea41dfa2f582cbbf88a464876d7729892eae6d2": [
     "InTuneDocs\\DeployUse\\protect-apps-and-data-with-microsoft-intune.md"
   ],
+  "05696c6407531679b7b7976c3c20b3906af2969d": [
+    "InTuneDocs\\GetStarted\\administrative-accounts-websites-perms.md"
+  ],
   "83838f967b34892411805fa2e554b0687c8fa612": [
     "InTuneDocs\\GetStarted\\administrative-accounts-websites-perms.md"
   ],
@@ -5362,6 +5380,9 @@
   "d21a69a3df2f3c3baa67d555b8915fb3b7491f3a": [
     "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
   ],
+  "11166bff0493ca75f66b2b3f23955234ece99e4c": [
+    "InTuneDocs\\GetStarted\\network-infrastructure-requirements-for-microsoft-intune.md"
+  ],
   "b5fd5fca78334378b5adcec610c24bcb92a710d5": [
     "InTuneDocs\\GetStarted\\network-infrastructure-requirements-for-microsoft-intune.md"
   ],
@@ -5370,6 +5391,9 @@
   ],
   "171cc9dcfb2c2aed851bf14eb59027df7d29f191": [
     "InTuneDocs\\GetStarted\\network-infrastructure-requirements-for-microsoft-intune.md"
+  ],
+  "206bd91a2fd64d7510e58fb1d615bd87f53d0821": [
+    "InTuneDocs\\PlanDesign\\help-end-users-understand-company-portal-app-messages.md"
   ],
   "05885270c8f36c789e0277b2ae15adb26323e5ca": [
     "InTuneDocs\\PlanDesign\\help-end-users-understand-company-portal-app-messages.md"
@@ -5572,6 +5596,9 @@
   "00c4c420b6fbafe95893956411f13a3532b99bbf": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
+  "97ccf96bdc1a1a164f359b43805400089240a81f": [
+    "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
+  ],
   "5dfceab57f23f003ac0ce66511ecd14265454801": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
@@ -5716,6 +5743,9 @@
   "b2fc107fc43818d74c4400077e996e4488547281": [
     "InTuneDocs\\media\\enroll-Intune-WinEnr.png"
   ],
+  "2452458520212a356f5d28f88d408e4007c3d4f9": [
+    "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
+  ],
   "2dd1ac8574299bcefdbf86a8054de6b14e849e0d": [
     "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
   ],
@@ -5725,11 +5755,17 @@
   "4c5018a56e4c506667fb74e3a268ba491f96b426": [
     "InTuneDocs\\DeployUse\\manage-volume-purchased-apps-in-microsoft-intune.md"
   ],
+  "2b9a0c4520f4c89f92bc29dc16ba39994012f5e3": [
+    "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
+  ],
   "07db97d9c100acc67ca27ff7915bf673fd9e39c8": [
     "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
   ],
   "918dc946b2afb5298b6416f3c3cd4527273bdb06": [
     "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
+  ],
+  "40a697ce362982725e733e4463f6924661b7061a": [
+    "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
   "0c4c165343b9a7de01ced4c3c5f2fc68a7a649c5": [
     "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
@@ -5896,11 +5932,17 @@
   "8a652981cab9f36e63399e3767c44562ef4c996d": [
     "InTuneDocs\\sandbox\\ts-sum-success.md"
   ],
+  "30a08055a1957569bef4c1178191b0ab0ba0232e": [
+    "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
+  ],
   "1e753827615442ae4b651404a7dec75ceeade045": [
     "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
   ],
   "e9c1051c9debf79bc34e97f2b3f01c1d34ac09f9": [
     "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
+  ],
+  "698b679f91827c9d00fd6ab58f80852f022ab766": [
+    "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
   ],
   "a4fdb5d3fb84ea10151ef23e68db9b63410eaf6e": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
@@ -6000,6 +6042,9 @@
   ],
   "7e121c13a2649898b5f531c3ab31aa2b1197731f": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
+  ],
+  "efe28082a973e383f4d63e9b8445910536c99823": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
   ],
   "fefae2f80afa5e765c2f5293e1603a49bb9903a5": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
@@ -6304,6 +6349,9 @@
   "e0d1926d2296a0ab9cb6769e78d3cad6f2dc4846": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.old.md"
   ],
+  "e87607b99b6ebc06a3b71f77232a62f92eb01e86": [
+    "InTuneDocs\\DeployUse\\add-apps.md"
+  ],
   "fcaafcdd741aa465a2f78497c3308f3a171b5fc9": [
     "InTuneDocs\\DeployUse\\add-apps.md"
   ],
@@ -6433,11 +6481,17 @@
   "cb40e46e38063760b5af35c5f749139fa61c8ac8": [
     "InTuneDocs\\media\\pol-sa-pc-policy-realtime.png"
   ],
+  "e7ce3ae2a4462b03b90205eec3cff58381a43996": [
+    "InTuneDocs\\DeployUse\\deploy-apps.md"
+  ],
   "700fb5716afc4e78d29b1d8fb206cab6ae153200": [
     "InTuneDocs\\DeployUse\\deploy-apps.md"
   ],
   "3fa518a16be89ecb93047d13b45209a863aa0815": [
     "InTuneDocs\\DeployUse\\deploy-apps.md"
+  ],
+  "72f1064663b0dd8e723d9e7eda8d3d4a2af399d7": [
+    "InTuneDocs\\DeployUse\\W10 enrollment.md"
   ],
   "6a0ead2adc51ca6cd1c32469d34f95d9e768ae1f": [
     "InTuneDocs\\media\\Sandbox\\DeviceLifecycle_noBG.png",
