@@ -919,6 +919,9 @@
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
   ],
+  "3d6206fc54f6a005538c06cd38372977689d805c": [
+    "InTuneDocs\\GetStarted\\TOC.md"
+  ],
   "45f09bce9c8a67783b6a247bad2a3762b30c7bc5": [
     "InTuneDocs\\GetStarted\\TOC.md"
   ],
@@ -2392,9 +2395,6 @@
   "a68c322e3da4453faeadb79ed76251b1553fc456": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-software-updates-in-microsoft-intune.md"
   ],
-  "bfdd429807473f93f25bba47154716fdb11cd702": [
-    "InTuneDocs\\understand-your-devices-with-inventory-in-microsoft-intune-deleted.md"
-  ],
   "d6f3a71243689ae5f3bca70107008cf7238e019a": [
     "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
   ],
@@ -2734,21 +2734,8 @@
     "InTuneDocs\\zDeletedTopics\\what-happens-if-you-remove-a-personal-device-using-the-company-portal-deleted.md",
     "InTuneDocs\\zDeletedTopics\\What-Happens-if-You-Remove-a-Personal-Device-Using-the-Company-Portal---deleted.md"
   ],
-  "ef98a323acd85570e70c5ee7c831cfa84cfc212d": [
-    "InTuneDocs\\what-s-coming-in-microsoft-intune.md"
-  ],
-  "713d0d94799c6e1f624b7258ed10470e5aa3258f": [
-    "InTuneDocs\\what-s-coming-in-microsoft-intune.md"
-  ],
-  "fe92038ba73d02b89b880b5baaefb9a1ea777b50": [
-    "InTuneDocs\\what-s-coming-in-microsoft-intune.md"
-  ],
   "b09441597e86a7a011612bbcf6bd3a337d905cde": [
-    "InTuneDocs\\what-s-coming-in-microsoft-intune_deleted.md",
     "migrated-03-14\\Topic\\What-s-coming-in-Microsoft-Intune_deleted.md"
-  ],
-  "32acc0a8398a4888551822723a98b477757de8c4": [
-    "InTuneDocs\\what-s-new-test.md"
   ],
   "347c5303bb115d951958a36fbd993009be45957a": [
     "InTuneDocs\\DeployUse\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md",
@@ -3664,6 +3651,9 @@
   "3197f33fe6c264892365fe876d34733433a563ac": [
     "migrated-03-14\\Topic\\Maintain-Microsoft-Intune.md"
   ],
+  "feec057a6181a15250b01dd2d0904a5128b4b2bf": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md"
+  ],
   "11b8188b7350578696bac907747c72580cfc750c": [
     "InTuneDocs\\DeployUse\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md"
   ],
@@ -4221,6 +4211,9 @@
   ],
   "4488c53ee15d51ceddeb4368706c6e2acf274210": [
     "InTuneDocs\\zDeletedTopics\\Your-computer-is-already-enrolled.md"
+  ],
+  "d8e032f78c20882f7cf380200d5168503d25ed59": [
+    "InTuneDocs\\DeployUse\\previous-intune-releases.md"
   ],
   "e707a7c2e54a86f20b955aea6d217f1645ad9b15": [
     "InTuneDocs\\DeployUse\\previous-intune-releases.md"
@@ -5062,6 +5055,9 @@
   "ce88f9c066851e088f5bc179e9eaa11e23ae54fa": [
     "InTuneDocs\\DeployUse\\create-a-device-compliance-policy-in-microsoft-intune.md"
   ],
+  "7f38aba7483d9b7e92f5d6b378009366b5a4e928": [
+    "InTuneDocs\\DeployUse\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
   "ca4c84679ad5382909d304c0d25ebdddbf192d51": [
     "InTuneDocs\\DeployUse\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
   ],
@@ -5151,6 +5147,9 @@
   ],
   "e9d45162fa400312fcf232edb258efbfe9a3a344": [
     "InTuneDocs\\DeployUse\\android-compliance-policy-settings-in-microsoft-intune.md"
+  ],
+  "141c00ebf341fb40040701e1add6c2ccd553a72b": [
+    "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
   ],
   "4419c971e8b9ab22ae1e62c149c09eb8f5056eea": [
     "InTuneDocs\\DeployUse\\ios-compliance-policy-settings-in-microsoft-intune.md"
@@ -5269,6 +5268,9 @@
   "990e706d3784994e09e6002491018394f220a780": [
     "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
   ],
+  "215f11eb171874d983fa7f4c5d0c75105e9e77f4": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
+  ],
   "e7bc92d2e73f1d257aac515109380ab20b6cf261": [
     "InTuneDocs\\DeployUse\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
   ],
@@ -5298,6 +5300,9 @@
   ],
   "08cb0a1cc8355e6439e9e30e30e01a560da96cd2": [
     "InTuneDocs\\DeployUse\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
+  ],
+  "8613778e1f8a810ad03b835c9b02143260675f04": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
   ],
   "0cd767392b923777a434e75d86febe86820a909d": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
@@ -5337,6 +5342,9 @@
   ],
   "a9ad25a850788b324d918a68a9999f7066f2caae": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
+  ],
+  "1263d0c79fb8bd285bb22bd8a266f78bcd4ea6bc": [
+    "InTuneDocs\\DeployUse\\restrict-email-access-example-scenarios.md"
   ],
   "f3887fbfa6952fef3482100652ac213fbb1fd9a0": [
     "InTuneDocs\\DeployUse\\restrict-email-access-example-scenarios.md"
@@ -5481,6 +5489,9 @@
   ],
   "913565f985c0faedec9d8acd14f6963e7476fd4b": [
     "InTuneDocs\\DeployUse\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md"
+  ],
+  "d3a010306444982ee39be343b23108f145cb2e78": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
   ],
   "632311501388ee39b7a39a76e4cb3ecb9f385438": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
@@ -5854,6 +5865,9 @@
   "0798676f8956468282bc2b3e23c39cbcf6794cf7": [
     "InTuneDocs\\PlanDesign\\ways-to-do-enterprise-mobility.md"
   ],
+  "7d634b36c000bd206c86151bc085dd3416b15e32": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -5862,6 +5876,9 @@
   ],
   "f33227be43511407ba2e8be7a73f1e518bf148cc": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.old.md"
+  ],
+  "2932b4fd3b0d57ecfe5f4368169c558e164511d4": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "4fb65c3b7f364d12adc9e28afa538035014e7826": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -6606,5 +6623,8 @@
   ],
   "22db1dd77d3769ddf32deb8ee796acdb61baee4f": [
     "InTuneDocs\\Troubleshoot\\media\\CM_With_Intune_Unknown_App_Deleted_Device.jpg"
+  ],
+  "0625d00583e3778c808746d2938344349dcc9a1e": [
+    "InTuneDocs\\whats-new-archive.md"
   ]
 }
