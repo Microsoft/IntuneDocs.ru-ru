@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "2ab93583e2734c854c77d3e0a751330423f353d3",
+  "LastProcessedCommit": "48472fe7ba5bc9bee8a90190d065f225a53871bd",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -81528,6 +81528,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\add-apps.adb93928651b2f01c7d38a4b8d96ec12d43848e9.ru-ru.xlf",
       "HandoffFileCommit": "b7c293adb015ca4d8d163e4f2301f130da374fcf",
       "HandoffDateTime": "2016-04-20T01:48:34.519163Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "c441f93f56f265928f138ba5d64579df4ab6dad0": {
+      "FileHash": "c441f93f56f265928f138ba5d64579df4ab6dad0",
+      "SourceFileCommit": "e20b1658a9735d242552b6546fe7f7c6ff86bff9",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.83911e723be0212c26740e6fd98288b612720528.ru-ru.xlf",
+      "HandoffFileCommit": "ef1c39cf84323fd4a61aa67a20812770ad4cf128",
+      "HandoffDateTime": "2016-04-20T02:20:43.1108363Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
