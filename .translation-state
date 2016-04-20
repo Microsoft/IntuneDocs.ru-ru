@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "476388d9584373b87a1da0e928cc950c215fc4b9",
+  "LastProcessedCommit": "1967c68d89305b21dee50b515acd9020209d9e00",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -27958,19 +27958,23 @@
     },
     "1dde0f9c701974b72ef12e63ecc4ed76f84f053e": {
       "FileHash": "1dde0f9c701974b72ef12e63ecc4ed76f84f053e",
-      "SourceFileCommit": "11091bc5fb451cfaf6eaa923eafe6df506324960",
-      "SourceFilePath": "migrated-03-14\\Image\\ConditionalAccess8-2.png",
+      "SourceFileCommit": "4427af86d99d8d22fcffa6e33f261190e4ec55df",
+      "SourceFilePath": "InTuneDocs\\media\\ConditionalAccess8-2.png",
       "HandoffReason": 2,
       "DependencyFrom": [
         "migrated-03-14\\Topic\\Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\MD-Conversion---Manage-email-access-with-Microsoft-Intune.md",
         "migrated-03-14\\Topic\\Use-conditional-access-with-Intune.md",
         "InTuneDocs\\DeployUse\\manage-email-access-with-microsoft-intune.md",
-        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
+        "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md",
+        "InTuneDocs\\use-conditional-access-with-intune.md",
+        "InTuneDocs\\zDeletedTopics\\restrict-access to-legacy-exchange-online-dedicated-with-microsoft-intune.md",
+        "InTuneDocs\\DeployUse\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
       ],
       "TokenReference": null,
       "FilePathList": [
-        "migrated-03-14\\Image\\ConditionalAccess8-2.png"
+        "migrated-03-14\\Image\\ConditionalAccess8-2.png",
+        "InTuneDocs\\media\\ConditionalAccess8-2.png"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\1dde0f9c701974b72ef12e63ecc4ed76f84f053e.png",
       "HandoffFileCommit": "69efeff62f87678a21219bfb0fbe421e8ec63316",
