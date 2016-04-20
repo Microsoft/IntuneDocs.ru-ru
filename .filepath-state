@@ -5071,6 +5071,9 @@
   "1d4954fc5a75fb4fc1adadee48f56fbf8feb21b7": [
     "InTuneDocs\\DeployUse\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
   ],
+  "092434fc9349f222a89a8d7d043b319836d8f158": [
+    "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
+  ],
   "7008e116582695149f59bd57165ed7990d1fe5b2": [
     "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
   ],
@@ -5376,6 +5379,9 @@
   ],
   "bac9420657d6e709a3f3e93d0fc386b9870cb135": [
     "InTuneDocs\\media\\IntuneSA5bExchangeOnPremPolicy.png"
+  ],
+  "a64a482466549174d0a5060894dc415060c5223c": [
+    "InTuneDocs\\DeployUse\\protect-apps-and-data-with-microsoft-intune.md"
   ],
   "7f618809f539bde69daa30a90099262ada601dbf": [
     "InTuneDocs\\DeployUse\\protect-apps-and-data-with-microsoft-intune.md"
