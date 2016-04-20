@@ -839,6 +839,9 @@
     "InTuneDocs\\end-user-experience.md",
     "migrated-03-14\\Topic\\End-user-experience.md"
   ],
+  "e16d05c98b564e3bd27be643d78328a1accbdc8c": [
+    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
+  ],
   "e74d663a31dc67f56d2794741dd2aa5088863f1d": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
   ],
@@ -2142,6 +2145,9 @@
     "InTuneDocs\\set-up-computer-device-management-with-microsoft-intune.md",
     "migrated-03-14\\Topic\\Set-up-Computer-device-management-with-Microsoft-Intune.md"
   ],
+  "18e989b17ac7b5ae661fab1abb4a22ab9b6b970d": [
+    "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
+  ],
   "b5192178543e9b1084aa92548bc921b6cef05334": [
     "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
   ],
@@ -2866,6 +2872,9 @@
   "c6a7441cf5b63a01843ef240382b186c8ed1cde4": [
     "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
   ],
+  "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
+    "InTuneDocs\\media\\Windows-Phone-Enrollment.png"
+  ],
   "590b8647b4f4011900631031eeffd699cb86d373": [
     "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_Planning_Groups_BYOD_small.png"
   ],
@@ -3045,6 +3054,9 @@
   ],
   "68c1884ae509ea17605908a9a1f25970f24f6a5f": [
     "InTuneDocs\\zDeletedTopics\\introduction-to-microsoft-intune-old.md"
+  ],
+  "82372661288da89bb59e04aa02fec9bf08b59ea6": [
+    "InTuneDocs\\media\\Intune-MDM-Authority.png"
   ],
   "fd228641a36b69f77af54b978b5a70379e20f636": [
     "InTuneDocs\\media\\Intune-MDM-Authority.png"
@@ -5005,6 +5017,9 @@
   "75b09001dc7e9007f069c2141ed631bfafc840d1": [
     "InTuneDocs\\zDeletedTopics\\set-mobile-device-management-authority-in-microsoft-intune.md"
   ],
+  "272f2d8542eefa6083bf60386227faf377cf26d8": [
+    "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
+  ],
   "bcc7d903edf8f307676adff7e69a86a479c8b8d4": [
     "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
@@ -5014,8 +5029,14 @@
   "1964b48c221eed4b6c38cf54ccddc736c0d5abbe": [
     "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
+  "7fe8fc0545ef157ce8d8cfd452e6c16c2deca3da": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
+  ],
   "af09053d20f937071ff49326fd353ba9563f85c2": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
+  ],
+  "7165e88bfc558fb20f44163b1027d57b89ab1ab3": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-management-with-microsoft-intune.md"
   ],
   "97074117d1f5dab7ea12b44ed590b15938790d06": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-management-with-microsoft-intune.md"
@@ -5683,6 +5704,9 @@
   "980cd19c4b0d2c0a287d4dfc8fdfa7e49dc8594d": [
     "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
   ],
+  "7aaaff2e4a33d1265495721efe5dfc8539c99bd7": [
+    "InTuneDocs\\DeployUse\\renew-a-symantec-code-signing-certificate.md"
+  ],
   "42cea8b8d710e763a7afe603e9db1831453486c2": [
     "InTuneDocs\\DeployUse\\renew-a-symantec-code-signing-certificate.md"
   ],
@@ -5983,11 +6007,17 @@
   "ffb6fd5b0576d02e9b311ba3047c6a6699c6722a": [
     "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
   ],
+  "22293b47f9fa553d9116d3376ecc0b994006ddf1": [
+    "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
+  ],
   "29b6747590385856035e92d2881387a79734a591": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
   "00c1e4b5f1d83a33fa26ae56b0eec4431ec0e4d0": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
+  ],
+  "85a25f96e74c4b872060ce2db6023d279d2844ab": [
+    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
   "c092011d541277b4447b6acf7a061d1990737eaf": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
@@ -6270,6 +6300,9 @@
   ],
   "d8bb7e4e19e01bdf3527a40405e1aff1ff25057a": [
     "InTuneDocs\\DeployUse\\use-remote-lock-and-passcode-reset-in-microsoft-intune.md"
+  ],
+  "8d41035f1591b87f680d85f171a0f91fa6fad1d7": [
+    "InTuneDocs\\DeployUse\\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md"
   ],
   "1f022391004786884a3acb3480793f44645ecd03": [
     "InTuneDocs\\DeployUse\\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md"
@@ -6705,5 +6738,11 @@
   ],
   "0625d00583e3778c808746d2938344349dcc9a1e": [
     "InTuneDocs\\whats-new-archive.md"
+  ],
+  "eca341e075c54bd11ce80916237eaf81723ec103": [
+    "InTuneDocs\\media\\dev-sa-ios-dep.png"
+  ],
+  "cd9cbfed5ec82b480656983649fd5a2db0731a92": [
+    "InTuneDocs\\media\\dev-sa-wipe.png"
   ]
 }
