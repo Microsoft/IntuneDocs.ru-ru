@@ -2605,12 +2605,6 @@
   "a6c6326c36f36d9d4b56c38c66bce0cb9113d24e": [
     "InTuneDocs\\use-mobile-application-management-policies-in-configuration-manager.md"
   ],
-  "710ad8d60bd427fdc2d566e7605db98d6b46c3eb": [
-    "InTuneDocs\\DeployUse\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
-  ],
-  "ce517c19e11875b99968860de3ce5cda4d42a6cd": [
-    "InTuneDocs\\DeployUse\\use-policies-to-manage-computers-and-mobile-devices-with-microsoft-intune.md"
-  ],
   "79f29881ba37265428ab139c8d0ced258c4b9ac6": [
     "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md"
   ],
@@ -4140,6 +4134,9 @@
   ],
   "310f957cb278557839c63e0986a8c70197931a87": [
     "migrated-03-14\\Topic\\Use-Mobile-Application-Management-policies_deleted.md"
+  ],
+  "710ad8d60bd427fdc2d566e7605db98d6b46c3eb": [
+    "InTuneDocs\\zDeletedTopics\\Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md"
   ],
   "07da56ff76bbbb29b8c165876e50d5233b552add": [
     "InTuneDocs\\zDeletedTopics\\Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md"
