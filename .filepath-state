@@ -377,6 +377,9 @@
   "9e749d8f92f288c50330194b891803f0e32f318a": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
   ],
+  "81eb607c6001275c5d2fd8d761ace6e7d3c98b14": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
   "1239bc9e890026c900c767fef42b1f89a8a89d84": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
   ],
@@ -2751,6 +2754,9 @@
     "InTuneDocs\\DeployUse\\when-to-use-the-intune-app-wrapping-tool-vs.-the-intune-app-sdk.md",
     "InTuneDocs\\zDeletedTopics\\When-to-use-the-Intune-App-Wrapping-tool-vs.-the-Intune-App-SDK.md"
   ],
+  "90c46a2a71aa2cd9aed416016782f4c9e499b11f": [
+    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
+  ],
   "3fc0ecefd2285f4c9f7b2039d4d91f804d1853be": [
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
   ],
@@ -2768,6 +2774,9 @@
   ],
   "47a8d710859e29c6786c565383e03c26803ac14a": [
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
+  ],
+  "c9a512391ab569e44b42df958c5228f6f94895f7": [
+    "InTuneDocs\\DeployUse\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "7e3b55e2153626b3fd4c3f7a613d5cb39bf4fc7a": [
     "InTuneDocs\\DeployUse\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
@@ -5203,6 +5212,9 @@
   "33c27e6c84e41853ae973055806560553ac9af47": [
     "InTuneDocs\\DeployUse\\microsoft-intune-policy-reference.md"
   ],
+  "49a5044def9045973b009cb6e3e0617a88d3c81b": [
+    "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
+  ],
   "2055e8078027d138875faf09cbfaf66718c6c013": [
     "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
   ],
@@ -6118,6 +6130,9 @@
   "8e11b2aa1e985e9c2b9013fae17c305466aea1c8": [
     "InTuneDocs\\DeployUse\\media\\conditional_access_SFBPolicy.png"
   ],
+  "040b15af6225f0206f6f142ecc6c6a9e874883af": [
+    "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
+  ],
   "13f30aea9ed7da37d9fa48e2ab81f2b3baedab6f": [
     "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
   ],
@@ -6127,6 +6142,9 @@
   "d0bb3d35ac5e839bff50f28df0d00c4eec9797a1": [
     "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
   ],
+  "f3fbd261e7a09eef62085f897f0484641253dbb3": [
+    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
+  ],
   "ebee8ea5e17c65b1c670443bad5188c602ebcb10": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
@@ -6135,6 +6153,9 @@
   ],
   "1bd9ef200dff9ceea2836404d2759f1f44fd5361": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
+  ],
+  "4e21eba9aaead6e3b26485c234660bc420445f91": [
+    "InTuneDocs\\DeployUse\\mac-os-x-policy-settings-in-microsoft-intune.md"
   ],
   "8127ee68784d1d675aa7edad18096395ecf8de90": [
     "InTuneDocs\\DeployUse\\mac-os-x-policy-settings-in-microsoft-intune.md"
