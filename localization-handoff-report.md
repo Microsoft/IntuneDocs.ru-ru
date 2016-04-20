@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\DeployUse\add-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/20d0e0322afed14c395a2d68f5a6a2147bfeb69d/InTuneDocs/DeployUse/add-apps.md) | HandedOffSuccess | [Details](#481f98af4a49c5690046dbfa8242d9134bec6d3d23)
 
 ## Item Details
+##### <a name='481f98af4a49c5690046dbfa8242d9134bec6d3d23'></a> Source: [InTuneDocs\DeployUse\add-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/20d0e0322afed14c395a2d68f5a6a2147bfeb69d/InTuneDocs/DeployUse/add-apps.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [add-apps.adb93928651b2f01c7d38a4b8d96ec12d43848e9.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/b7c293adb015ca4d8d163e4f2301f130da374fcf/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/add-apps.adb93928651b2f01c7d38a4b8d96ec12d43848e9.ru-ru.xlf)
+* Handoff Datetime: 2016-04-20 01:48:34
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
