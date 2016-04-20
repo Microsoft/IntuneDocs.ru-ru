@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "8750505cc211eb9ee71bfb7ca4c76e858b3aba9b",
+  "LastProcessedCommit": "cad005d1e7a5f1d3ddb0c38c9e98653348b12ffb",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -83858,6 +83858,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\start-with-a-paid-subscription-to-microsoft-intune-step-3.56daa0728ced3d863e2d606d01e64d3a034f6142.ru-ru.xlf",
       "HandoffFileCommit": "a0615abb4df8aa6fc4fd2cabdfb556f4ed0e7fd8",
       "HandoffDateTime": "2016-04-20T21:51:23.4349466Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "53a8bbb5b257fc5488c99a318cd4fb757f76bf15": {
+      "FileHash": "53a8bbb5b257fc5488c99a318cd4fb757f76bf15",
+      "SourceFileCommit": "07078b37fa99ebaa1aef283cb9642e8686bbd346",
+      "SourceFilePath": "InTuneDocs\\DeployUse\\migrate-to-intune.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "InTuneDocs\\DeployUse\\migrate-to-intune.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\migrate-to-intune.571d26cff78a27512d8e5570083a02bc2e6ec02d.ru-ru.xlf",
+      "HandoffFileCommit": "9e809594462b26b0e4650b81e3aa5d8b37bcc6e5",
+      "HandoffDateTime": "2016-04-20T22:19:52.0205815Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
