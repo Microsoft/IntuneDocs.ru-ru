@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2270
 [ Handoff Failed Files ](#handoff-failed-list)| 3
-[ Handoff Success Files ](#handoff-success-list)| 1874
+[ Handoff Success Files ](#handoff-success-list)| 1873
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 393
+[ Ignored Files ](#ignored-list)| 394
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -98,7 +98,6 @@
  [InTuneDocs\DeployUse\manage-app-access-to-exchange-online.md](https://github.com/Microsoft/IntuneDocs-pr/blob/532f9a66e34541d58790559c76548694f7d19066/InTuneDocs/DeployUse/manage-app-access-to-exchange-online.md) | HandedOffSuccess | [Details](#ce5ca6f5b3fbc78616e80e6b9985e64469fbeb0378)
  [InTuneDocs\DeployUse\manage-app-access-to-office-365-services.md](https://github.com/Microsoft/IntuneDocs-pr/blob/532f9a66e34541d58790559c76548694f7d19066/InTuneDocs/DeployUse/manage-app-access-to-office-365-services.md) | HandedOffSuccess | [Details](#4fbee80435571ed453d9f2663cd418dc666557c879)
  [InTuneDocs\DeployUse\manage-app-access-to-sharePoint-online.md](https://github.com/Microsoft/IntuneDocs-pr/blob/532f9a66e34541d58790559c76548694f7d19066/InTuneDocs/DeployUse/manage-app-access-to-sharePoint-online.md) | HandedOffSuccess | [Details](#05335917adad1897f0346b0d4e88107309d8fb1880)
- [InTuneDocs\DeployUse\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/99c4e7443e5ca7ff26d5e710d4f734f34df6f7f3/InTuneDocs/DeployUse/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md) | HandedOffSuccess | [Details](#9c6dbbf085fa0916d8c99a7d15873a2c19d47ebc81)
  [InTuneDocs\DeployUse\manage-corporate-owned-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e6d5aa0c4712bad83caa9d25abdbb3c198505caa/InTuneDocs/DeployUse/manage-corporate-owned-devices.md) | HandedOffSuccess | [Details](#735b3099d8e494e59b0f77bfaa7e9cb052e95ced82)
  [InTuneDocs\DeployUse\manage-data-transfer-between-ios-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9099c8476cf89fe16057214b813f58c37865015e/InTuneDocs/DeployUse/manage-data-transfer-between-ios-apps-with-microsoft-intune.md) | HandedOffSuccess | [Details](#8976e4544d789bb7c02577d9cd9d841252a1e64483)
  [InTuneDocs\DeployUse\manage-internet-access-using-managed-browser-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a9bf85fd4af5503878329af8821dae477b53d56f/InTuneDocs/DeployUse/manage-internet-access-using-managed-browser-policies.md) | HandedOffSuccess | [Details](#66f88116f674fc6669cdad7027ac08c9dff672d985)
@@ -1917,6 +1916,7 @@
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e947)
+ [InTuneDocs\DeployUse\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/InTuneDocs/DeployUse/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md) | Ignored | [Details](#c441f93f56f265928f138ba5d64579df4ab6dad081)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476192)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e099)
  [InTuneDocs\DeployUse\media\App_Access_EXO.png](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/InTuneDocs/DeployUse/media/App_Access_EXO.png) | Ignored | [Details](#2b6df2d39a7f26448017cf118278efe1197bdeca103)
@@ -3278,12 +3278,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9c6dbbf085fa0916d8c99a7d15873a2c19d47ebc81'></a> Source: [InTuneDocs\DeployUse\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/99c4e7443e5ca7ff26d5e710d4f734f34df6f7f3/InTuneDocs/DeployUse/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='c441f93f56f265928f138ba5d64579df4ab6dad081'></a> Source: [InTuneDocs\DeployUse\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2ab93583e2734c854c77d3e0a751330423f353d3/InTuneDocs/DeployUse/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.83911e723be0212c26740e6fd98288b612720528.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/b0966db2949681a80891afdf09aed81ac56d13d7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.83911e723be0212c26740e6fd98288b612720528.ru-ru.xlf)
-* Handoff Datetime: 2016-04-06 02:16:13
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
