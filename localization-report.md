@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2246
 [ Handoff Failed Files ](#handoff-failed-list)| 3
-[ Handoff Success Files ](#handoff-success-list)| 1851
+[ Handoff Success Files ](#handoff-success-list)| 1847
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 392
+[ Ignored Files ](#ignored-list)| 396
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -453,9 +453,8 @@
  [InTuneDocs\EULA\terms-of-delegated-administration-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EULA/terms-of-delegated-administration-for-microsoft-intune.md) | HandedOffSuccess | [Details](#e1429a10602e27418af03f0f6a0bd6d5d5515dd0512)
  [InTuneDocs\EULA\terms-of-use.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EULA/terms-of-use.md) | HandedOffSuccess | [Details](#e159be0552a8745c3d56765a78a65f782ff459bd513)
  [InTuneDocs\EULA\third-party-software-notices-and-information.md](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EULA/third-party-software-notices-and-information.md) | HandedOffSuccess | [Details](#59c498c1be2eedf49c2be708afe0fa4d60c2db5f514)
- [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/26e3c4e692a4f6f6cbe5db54b845d7647b04924a/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md) | HandedOffSuccess | [Details](#05696c6407531679b7b7976c3c20b3906af2969d515)
  [InTuneDocs\GetStarted\application-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2a273dcbd5692ba2689b406f11912170b74f3b38/InTuneDocs/GetStarted/application-rollout.md) | HandedOffSuccess | [Details](#7486b7b34d9255c414695e21c0dea31284a03431516)
- [InTuneDocs\GetStarted\domain-names-for-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5a4b0884718f4225e8a5c84bed3bbab64159df0e/InTuneDocs/GetStarted/domain-names-for-intune.md) | HandedOffSuccess | [Details](#e74d69716576f0e31e83497f19d7d0cdf77db8f2518)
+ [InTuneDocs\GetStarted\domain-names-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/domain-names-for-microsoft-intune.md) | HandedOffSuccess | [Details](#e74d69716576f0e31e83497f19d7d0cdf77db8f2518)
  [InTuneDocs\GetStarted\enterprise-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/45d9d16308c385ebc3a5a880cc92b7e256066b98/InTuneDocs/GetStarted/enterprise-rollout.md) | HandedOffSuccess | [Details](#d899c6baf2fd6c72c7b4c588a56f915b89f82033519)
  [InTuneDocs\GetStarted\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/6cdef130ca0e25f24c8404b6ea148cbac868bb38/InTuneDocs/GetStarted/get-ready-to-enroll-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#dc9c8b2983ae639098c98ada0106311344cdd74a520)
  [InTuneDocs\GetStarted\integration-with-cloud-services.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0d8b52bcee221d599c6da89213cf5a54e486f257/InTuneDocs/GetStarted/integration-with-cloud-services.md) | HandedOffSuccess | [Details](#c8b105610dae69f636e25e65346cc729325f9b07521)
@@ -473,7 +472,6 @@
  [InTuneDocs\GetStarted\media\WPCertReqs.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/media/WPCertReqs.png) | HandedOffSuccess | [Details](#357558a36a885fc6c50279d11801440587fe3676536)
  [InTuneDocs\GetStarted\microsoft-intune-company-portal.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cf2a935fcefd4b190c400575fb8177eba965ecbf/InTuneDocs/GetStarted/microsoft-intune-company-portal.md) | HandedOffSuccess | [Details](#da34a71068098a45fa1ad588f9666c6ef1a99584537)
  [InTuneDocs\GetStarted\network-bandwidth-use.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0333d91a223eabf951696c8efa50c579f95b92e9/InTuneDocs/GetStarted/network-bandwidth-use.md) | HandedOffSuccess | [Details](#97784313fcfbcd76602881c968485289e4c48e39538)
- [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/26e3c4e692a4f6f6cbe5db54b845d7647b04924a/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md) | HandedOffSuccess | [Details](#11166bff0493ca75f66b2b3f23955234ece99e4c539)
  [InTuneDocs\GetStarted\operations-and-maintenance.md](https://github.com/Microsoft/IntuneDocs-pr/blob/45d9d16308c385ebc3a5a880cc92b7e256066b98/InTuneDocs/GetStarted/operations-and-maintenance.md) | HandedOffSuccess | [Details](#3396cc025bc36d605422e8d4cc8817d12a4ba6a7540)
  [InTuneDocs\GetStarted\pilot.md](https://github.com/Microsoft/IntuneDocs-pr/blob/45d9d16308c385ebc3a5a880cc92b7e256066b98/InTuneDocs/GetStarted/pilot.md) | HandedOffSuccess | [Details](#9b2fa7fc26beb09f6e8562bda760a667cbc9fab7541)
  [InTuneDocs\GetStarted\policy-rollout.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2a273dcbd5692ba2689b406f11912170b74f3b38/InTuneDocs/GetStarted/policy-rollout.md) | HandedOffSuccess | [Details](#db63177c74577d59e91c9cbbaf0c5f699bf595d7542)
@@ -492,8 +490,6 @@
  [InTuneDocs\GetStarted\start-with-a-paid-subscription-to-microsoft-intune-step-7.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e489ea40fc9fa6b8358eeded2c0fd40bbf771b4/InTuneDocs/GetStarted/start-with-a-paid-subscription-to-microsoft-intune-step-7.md) | HandedOffSuccess | [Details](#7f68ea4efa2d91b04bebb543a113027d53359179554)
  [InTuneDocs\GetStarted\start-with-a-paid-subscription-to-microsoft-intune-step-8.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4e489ea40fc9fa6b8358eeded2c0fd40bbf771b4/InTuneDocs/GetStarted/start-with-a-paid-subscription-to-microsoft-intune-step-8.md) | HandedOffSuccess | [Details](#6bc631438f69762597b5fd40b602fe06d8d9d012555)
  [InTuneDocs\GetStarted\supported-web-browsers.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cf2a935fcefd4b190c400575fb8177eba965ecbf/InTuneDocs/GetStarted/supported-web-browsers.md) | HandedOffSuccess | [Details](#fe79b8aa29e613a770b714948f45fdd1c118ef09557)
- [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/93778f23792df3d1074884765a51c887d78a920c/InTuneDocs/GetStarted/TOC.md) | HandedOffSuccess | [Details](#3d6206fc54f6a005538c06cd38372977689d805c558)
- [InTuneDocs\GetStarted\what-to-know-before-you-start-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/44c8ce4ffcb1281718e93bc91706b817eff36b8d/InTuneDocs/GetStarted/what-to-know-before-you-start-microsoft-intune.md) | HandedOffSuccess | [Details](#71f21e8035b20cb056f40217edd24392b88b21b3559)
  [InTuneDocs\getting-started-and-faq.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0beb077500053245bb202965eb74c90ffe4e25de/InTuneDocs/getting-started-and-faq.md) | HandedOffSuccess | [Details](#bde8b94e642a7bf3502b908c791e1675449c1e12560)
  [InTuneDocs\getting-started-with-conditional-access.md](https://github.com/Microsoft/IntuneDocs-pr/blob/248ce388bcd5256dcdb1ef68fb73d26a89d65d22/InTuneDocs/getting-started-with-conditional-access.md) | HandedOffSuccess | [Details](#5d6a9e5f5772ccb921c614c7f80faa986505b74a561)
  [InTuneDocs\getting-started-with-the-microsoft-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/getting-started-with-the-microsoft-intune-app-sdk.md) | HandedOffSuccess | [Details](#184c5c543d5ff582dfa3289511303578be301ea4562)
@@ -1971,10 +1967,14 @@
  [InTuneDocs\EndUser\media\W81-3-dev-mgt-turn-on_old.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/EndUser/media/W81-3-dev-mgt-turn-on_old.png) | Ignored | [Details](#283a824417b0bfcf949287f65d36e2e4e21b8b23429)
  [InTuneDocs\EndUser\media\W81-5-enrolled-done_old.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/EndUser/media/W81-5-enrolled-done_old.png) | Ignored | [Details](#436f77a04c06ed0c0f605b34da6869c59e800c08432)
  [InTuneDocs\EndUser\media\WP81-1-CP-search-store.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/EndUser/media/WP81-1-CP-search-store.png) | Ignored | [Details](#2b709d3d9f48b52ff478159e26adaf0da823f45a443)
+ [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md) | Ignored | [Details](#73f3efe43ad35f6f1fef2060ee95e1d6a03ac6bc515)
  [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/docfx.json) | Ignored | [Details](#2d6975c6142d594e647638297bc607259bb1bca3517)
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb526)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6527)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca528)
+ [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md) | Ignored | [Details](#d81237ce9a64493532e21700c2c6ad020259254a539)
+ [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/TOC.md) | Ignored | [Details](#a66ce8808c332da41263f40aec61ebe5e87d3db4558)
+ [InTuneDocs\GetStarted\what-to-know-before-you-start-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/what-to-know-before-you-start-microsoft-intune.md) | Ignored | [Details](#e35945348157108be6b656a3dc6b6bdfdaf7cb22559)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.jpg) | Ignored | [Details](#f555a2a0f7e02f3c4d4b833b40ffa1a4102e1703723)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-48-profile-install-1.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-48-profile-install-1.jpg) | Ignored | [Details](#e047e7ff4e8344162c2834758aff3acd887d5751724)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-49-profile-install-2.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-49-profile-install-2.jpg) | Ignored | [Details](#2dce1561cfab99a670bb8e903605d6fd943d8111725)
@@ -8642,12 +8642,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='05696c6407531679b7b7976c3c20b3906af2969d515'></a> Source: [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/26e3c4e692a4f6f6cbe5db54b845d7647b04924a/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md)
-* Status: HandedOffSuccess
+##### <a name='73f3efe43ad35f6f1fef2060ee95e1d6a03ac6bc515'></a> Source: [InTuneDocs\GetStarted\administrative-accounts-websites-perms.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/administrative-accounts-websites-perms.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/f90f11f073b4d989f3c510926337ac2447e8c11e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/administrative-accounts-websites-perms.1b7c1d93c66fa6a72475493a5c6913b51c1ee7a1.ru-ru.xlf)
-* Handoff Datetime: 2016-04-20 00:54:14
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -8678,7 +8678,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e74d69716576f0e31e83497f19d7d0cdf77db8f2518'></a> Source: [InTuneDocs\GetStarted\domain-names-for-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5a4b0884718f4225e8a5c84bed3bbab64159df0e/InTuneDocs/GetStarted/domain-names-for-intune.md)
+##### <a name='e74d69716576f0e31e83497f19d7d0cdf77db8f2518'></a> Source: [InTuneDocs\GetStarted\domain-names-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/domain-names-for-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [domain-names-for-intune.bd6d4da0432af9336abdb37c680191d92e0da20b.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d30fda573ed8cb9c106604f02f4d97ed54782969/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/domain-names-for-intune.bd6d4da0432af9336abdb37c680191d92e0da20b.ru-ru.xlf)
@@ -8942,12 +8942,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='11166bff0493ca75f66b2b3f23955234ece99e4c539'></a> Source: [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/26e3c4e692a4f6f6cbe5db54b845d7647b04924a/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='d81237ce9a64493532e21700c2c6ad020259254a539'></a> Source: [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/f90f11f073b4d989f3c510926337ac2447e8c11e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf)
-* Handoff Datetime: 2016-04-20 00:54:14
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -9170,24 +9170,24 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='3d6206fc54f6a005538c06cd38372977689d805c558'></a> Source: [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/93778f23792df3d1074884765a51c887d78a920c/InTuneDocs/GetStarted/TOC.md)
-* Status: HandedOffSuccess
+##### <a name='a66ce8808c332da41263f40aec61ebe5e87d3db4558'></a> Source: [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/TOC.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/3a6246ae9515fc7ff5eb3f862f7ddbc500d41bcf/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf)
-* Handoff Datetime: 2016-04-20 18:52:44
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='71f21e8035b20cb056f40217edd24392b88b21b3559'></a> Source: [InTuneDocs\GetStarted\what-to-know-before-you-start-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/44c8ce4ffcb1281718e93bc91706b817eff36b8d/InTuneDocs/GetStarted/what-to-know-before-you-start-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='e35945348157108be6b656a3dc6b6bdfdaf7cb22559'></a> Source: [InTuneDocs\GetStarted\what-to-know-before-you-start-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ab265e85c36c2c993d4b4d394161c5370704daa/InTuneDocs/GetStarted/what-to-know-before-you-start-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [what-to-know-before-you-start-microsoft-intune.24d82c89a4b193da88b10ec405ee2804463faa78.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/61b6e496ada0f82d822920c6dfad3e4d73295d05/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/what-to-know-before-you-start-microsoft-intune.24d82c89a4b193da88b10ec405ee2804463faa78.ru-ru.xlf)
-* Handoff Datetime: 2016-04-16 02:22:36
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
