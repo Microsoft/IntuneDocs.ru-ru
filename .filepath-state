@@ -41,9 +41,6 @@
   "d23bc12812e09af48f40a2ffe7e4406f00e27c95": [
     "InTuneDocs\\GetStarted\\application-rollout.md"
   ],
-  "95b6c378976d59ab701e035dad78085907038380": [
-    "InTuneDocs\\art-test-page.md"
-  ],
   "8395accba45db714d398957e4a364a3146c65b50": [
     "InTuneDocs\\benefits-of-intune-app-sdk.md",
     "migrated-03-14\\Topic\\Benefits-of-Intune-App-SDK.md"
@@ -125,9 +122,6 @@
   ],
   "d6c2bdc27783128d77dbadfde7d73293c10d7ef3": [
     "InTuneDocs\\data-security-with-intune.md"
-  ],
-  "30579675012ac5fa536c276634f07f20fffce705": [
-    "InTuneDocs\\deleted-topic.md"
   ],
   "e6e3f291aece13186c0607754ff9f7c6e2039d5a": [
     "InTuneDocs\\deploy-apps.md",
@@ -757,45 +751,6 @@
   "0d0beaf50520938373778efd23b943271c53939a": [
     "InTuneDocs\\DeployUse\\wipe-managed-company-app-data-with-microsoft-intune.md"
   ],
-  "c8cf490248f189edbc436fa146eed0ee899b42a4": [
-    "InTuneDocs\\documentation-for-microsoft-intune-1-.md"
-  ],
-  "311728cd46b0b8e2f6b2b181a884a04aef4a1441": [
-    "InTuneDocs\\media\\WIT_TileDocCenter.png"
-  ],
-  "d093ce9f2159b1efc73ef70959326af37fdfbc02": [
-    "InTuneDocs\\media\\WIT_TileOverview.png"
-  ],
-  "f78b46e495829f004a75d098b0be060d3172b145": [
-    "InTuneDocs\\media\\WIT_TileGettingStarted.png"
-  ],
-  "979e5e9e66743a42cd133c5e54e3af55c8f77877": [
-    "InTuneDocs\\media\\WIT_TileEnrollDevices.png"
-  ],
-  "bf28cee2d41265fac602d856ae7b3a5e2d8677d0": [
-    "InTuneDocs\\media\\WIT_TileManageDevices.png"
-  ],
-  "df664f3fe21531f365bef2d2c5602c37d2284e06": [
-    "InTuneDocs\\media\\WIT_TileManageApps.png"
-  ],
-  "d5ba29ed7f25de0e045ff65e9917c010861d4c48": [
-    "InTuneDocs\\media\\WIT_TileProtectResources.png"
-  ],
-  "7f602ed1a0af738db2e0ad1b89825b6e1b79b4a8": [
-    "InTuneDocs\\media\\WIT_TileRetireDevices.png"
-  ],
-  "188d183405250461b3d2b85aea005e7949f70a70": [
-    "InTuneDocs\\media\\WIT_Tile_TechReference.png"
-  ],
-  "4ccb134041415fc90c36e7cee94a29d591fc394c": [
-    "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycle4.png"
-  ],
-  "986d9c4c438b5c2769ba4d50abd8d9e46e0cd3a9": [
-    "InTuneDocs\\documentation-for-microsoft-intune-test-1-.md"
-  ],
-  "a3e98392c96ec0e2e39a02dcc422da7d52ad7b2d": [
-    "InTuneDocs\\media\\WIT_MDM_Banner.png"
-  ],
   "f6284d5579bde38a659e0953e828a469485604d3": [
     "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row1Column1.png"
   ],
@@ -819,12 +774,6 @@
   ],
   "359edf8bb6d4c5752ea044935fd84c5fecb1ae87": [
     "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column4.png"
-  ],
-  "ca6c84eb7ae0d419c7e5304748f02d8e3357004a": [
-    "InTuneDocs\\documentation-for-microsoft-intune.md"
-  ],
-  "f7dc5695e37816cae1d9f0a0523174e2e08245ca": [
-    "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDMLifecycleFull2.png"
   ],
   "65cdbe112a7f787404f6b1eb9a9b0fd731872be6": [
     "InTuneDocs\\enable-access-to-company-resources-with-microsoft-intune-deleted.md"
@@ -1560,40 +1509,13 @@
     "InTuneDocs\\includes\\wps_2_md.md",
     "migrated-03-14\\Token\\wps_2_md.md"
   ],
-  "9c786eb64287a480b46af474469ede2d0956fc35": [
-    "InTuneDocs\\introduction-to-microsoft-intune-test-.md"
-  ],
-  "ce7d2c95ea50b1bfd543517143c7b9a1a75d7f77": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_OverviewHighlight.png"
-  ],
-  "231837025d33d1ee9e1d3d1a26b087b5514ea8d1": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_GetStarted.png"
-  ],
-  "01ad4b986428a579f985698746a30ab14bec1c30": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_EnrollDevices.png"
-  ],
-  "cabe721d36ff26a9b9116d5e4359d9fce1acc8e6": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageDevices.png"
-  ],
   "aa643174a8a50c2eea57f66494c7df8ccd1f22db": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ManageApps.png",
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_ManageApps.png"
   ],
-  "2852b263e76ed27dcdf6d22211a0f2df41b00823": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_ProtectResources.png"
-  ],
-  "6fc41ba6a6b2825e4a289727b0cd6d72ebba481b": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_RetireData.png"
-  ],
-  "41f596a94982f4c7d20e4965c2c962ff90899447": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_TechnicalReference.png"
-  ],
   "81d8eebac3a1dc89d204f2811f5ba90594cc5394": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_Bar_Overview.png",
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_Bar_Overview.png"
   ],
   "dbda297887cfc33d4247e8cd7f8b90544bfac408": [
-    "InTuneDocs\\media\\IT_MDM_MAMOverview2.png",
     "migrated-03-14\\Image\\IT_MDM_MAMOverview2.png"
   ],
   "0d238d5c57811e54f4298b0a08bc181223424c8e": [
@@ -1623,36 +1545,6 @@
   ],
   "3102dd4cd3d512b39a7c1589ec7d617a550afcc0": [
     "InTuneDocs\\lifecycle-section-from-overview.md"
-  ],
-  "47edda39369e95d63342e8c08bd78fcf55875043": [
-    "InTuneDocs\\lindavr-test-topic.md"
-  ],
-  "86e500b12249347b8b16ad744efca9414ed5b678": [
-    "InTuneDocs\\lindavr-test-topic.md"
-  ],
-  "7cf52c1c94d41b157d45133e7a27447f034c543b": [
-    "InTuneDocs\\media\\WIT_Nav_OverviewGray.png"
-  ],
-  "6d35b699d66f9259273eeb1a52f4d03f92a463d3": [
-    "InTuneDocs\\media\\WIT_Nav_GetStartedGray.png"
-  ],
-  "1996d57553ef60aea99801ce8719c97bd7a53393": [
-    "InTuneDocs\\media\\WIT_Nav_EnrollDevicesGray.png"
-  ],
-  "418a09d8baaa5c979ce381ec52b5b9bd3670d191": [
-    "InTuneDocs\\media\\WIT_Nav_ConfigureDevicesGray.png"
-  ],
-  "83403909a28b6e2aebcf6ab2b467fd4c2525082b": [
-    "InTuneDocs\\media\\WIT_Nav_DeployAppsGray.png"
-  ],
-  "815f89df3423f2deb1d34294ed3282c67757e60e": [
-    "InTuneDocs\\media\\WIT_Nav_ProtectResourcesGray.png"
-  ],
-  "b776d1a176a9d66320a62d587a96d930d1edc9a6": [
-    "InTuneDocs\\media\\WIT_Nav_TroubleshootingGray.png"
-  ],
-  "1ac4cc220974cfed4bfae37c70eb9f78203f8bd0": [
-    "InTuneDocs\\media\\WIT_Nav_TechnicalReferenceGray.png"
   ],
   "ffe41ad4bcd352f9f3ae964a3e650a4245024803": [
     "InTuneDocs\\maintain-microsoft-intune.md"
@@ -1703,9 +1595,6 @@
   ],
   "a0cc32f65a657366a821ee052759a47908e4f3c4": [
     "InTuneDocs\\md-mac-os-x-configuration-policy-settings-in-microsoft-intune.md"
-  ],
-  "8e31a209f1b9ec926af72c399f19897148b2eae6": [
-    "InTuneDocs\\md-maintain-microsoft-intune.md"
   ],
   "372f35fc16f31cfd694c6e6783ba1661785c8ffd": [
     "InTuneDocs\\md-microsoft-intune-service-description.md"
@@ -1871,9 +1760,6 @@
     "migrated-03-14\\Topic\\Microsoft-Intune-custom-policy-settings-reference---deleted.md",
     "InTuneDocs\\zDeletedTopics\\microsoft-intune-custom-policy-settings-reference-deleted.md"
   ],
-  "de7c4c3852d9a9a244007d0cf9aa5fbab1e433d4": [
-    "InTuneDocs\\microsoft-intune-documentation-library-site-map.md"
-  ],
   "9c003ea2a358aa22e452cf646a79a9d794b9f93e": [
     "InTuneDocs\\zDeletedTopics\\microsoft-intune-features.md"
   ],
@@ -1895,9 +1781,6 @@
   ],
   "f92c45679811e28766537c05f7672bbca7cfaa56": [
     "InTuneDocs\\EULA\\microsoft-intune-privacy-statement.md"
-  ],
-  "64856fd9edd513c604e7705d7f897d2382a91ec8": [
-    "InTuneDocs\\microsoft-intune.md"
   ],
   "13969d8975b321c6d1e95eb83a58de86d3966635": [
     "InTuneDocs\\zDeletedTopics\\microsoft-software-supplemental-notice.md"
@@ -1930,9 +1813,6 @@
     "InTuneDocs\\monitor-microsoft-intune-app-deployments-deleted.md",
     "InTuneDocs\\zDeletedTopics\\Monitor-Microsoft-Intune-app-deployments---deleted.md"
   ],
-  "0d72cf5cf7f3c99f0158aefa5f85fa7a3a6626d4": [
-    "InTuneDocs\\move-from-a-microsoft-intune-free-trial-to-a-paid-subscription.md"
-  ],
   "5265dbda8c310e7a6c3d6b4496a4a19536e0e276": [
     "InTuneDocs\\old-computer-capabilities-in-intune.md"
   ],
@@ -1946,9 +1826,6 @@
   "59177003de3ecda6ffe43297cedadfb95cd9f24c": [
     "migrated-03-14\\Topic\\Partner-Content.md",
     "InTuneDocs\\EULA\\partner-content.md"
-  ],
-  "9a72c7ee636565702a6229bd4d1e9bbe160728db": [
-    "InTuneDocs\\passcode-reset-and-remote-lock.md"
   ],
   "4a22ca10923e1444be6b2e2f6678e7efac886767": [
     "InTuneDocs\\placeholder-so-i-can-paste-other-topics-into-this-folder.md",
@@ -2065,15 +1942,6 @@
     "migrated-03-14\\Topic\\RASK-core-components.md",
     "InTuneDocs\\zDeletedTopics\\rask-core-components.md"
   ],
-  "16560327dab64f0e350d81a3743607e334200089": [
-    "InTuneDocs\\real-world-solutions-to-help-you-manage-mobile-devices.md"
-  ],
-  "a0889ba8237d956fbb1d060bcf6a974d24787385": [
-    "InTuneDocs\\media\\WIT_Nav_RetireDataDevicesGray.png"
-  ],
-  "e80fed90884dcf3e83a6546de6f607ac1a7feec9": [
-    "InTuneDocs\\media\\WIT_Nav_RealworldSolutions.png"
-  ],
   "303dbf93e7c828a35772fab32200bc55ec02875c": [
     "migrated-03-14\\Topic\\Reference-for-the-Microsoft-Intune-administrative-consoles.md",
     "InTuneDocs\\zDeletedTopics\\reference-for-the-microsoft-intune-administrative-consoles.md"
@@ -2085,7 +1953,6 @@
     "InTuneDocs\\EULA\\remote-assistance-via-microsoft-easy-assist.md"
   ],
   "ae8ec1dacbec88dc7a4449fd3904a660835229f5": [
-    "InTuneDocs\\remove-access-to-company-resources.md",
     "InTuneDocs\\zDeletedTopics\\Remove-access-to-company-resources.md"
   ],
   "e402e68e81dd542f10b8e092ccd59b8d998822d4": [
@@ -2095,7 +1962,6 @@
     "InTuneDocs\\restrict-web-content-to-display-in-the-managed-browser-with-microsoft-intune-deleted.md"
   ],
   "9212bebd09c1c17cf4d48fee0015f24e43fe7ea1": [
-    "InTuneDocs\\retire-company-owned-pcs-and-mobile-devices.md",
     "migrated-03-14\\Topic\\Retire-company-owned-PCs-and-mobile-devices.md"
   ],
   "a239a8bdc6f4c7c216e8df093fb8c4d89fd93757": [
@@ -2112,9 +1978,6 @@
   ],
   "a959538e5c80412c2bd01adbd30dce02a9b822ee": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-and-manage-apps.md"
-  ],
-  "18a799a3e7dd41dde112084fa4f3ddbee22a1b89": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Overview.png"
   ],
   "46c5b6e79168f22febffe81bbe30db6a3de688dd": [
     "InTuneDocs\\zDeletedTopics\\robstack-v2-of-deploy-apps-to-computers.md"
@@ -2174,32 +2037,14 @@
     "InTuneDocs\\staging.md",
     "migrated-03-14\\Topic\\staging.md"
   ],
-  "100309ac7a0adfc0a1ca47b10f46efbfd48fe3e5": [
-    "InTuneDocs\\start-using-microsoft-intune-test-.md"
-  ],
-  "d0706116e0a15ccfaedd6c6fb7a190e036dbce76": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_GetStartedHightlight.png"
-  ],
   "03404de6b103c7e8ea6898dc8f21fce28f1285dc": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_Bar_GetStarted.png",
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_Bar_GetStarted.png"
   ],
-  "cd017742626f143ea6a1fab2de61fb336cd207b5": [
-    "InTuneDocs\\start-using-microsoft-intune.md"
-  ],
   "931b88b00143efb40d7caa4b7ba3cbf58ea4acba": [
-    "InTuneDocs\\media\\Nav-Icons\\WIT_Tile_W_Troubleshooting.png",
     "migrated-03-14\\Image\\Nav-Icons\\WIT_Tile_W_Troubleshooting.png"
   ],
   "dda2ade771a0aa3d4d40b8a617ed90dfd9b77678": [
-    "InTuneDocs\\system-overview.md",
     "migrated-03-14\\Topic\\System-Overview.md"
-  ],
-  "18386fe0b802c1ea695cd5d33844051cee061618": [
-    "InTuneDocs\\technical-reference-for-microsoft-intune.md"
-  ],
-  "01cc9881321e0cc0fdfe1fd2667665aa89ce8ccc": [
-    "InTuneDocs\\technical-reference-for-microsoft-intune.md"
   ],
   "54147dae1f650f643942d878e960e457d3f9ab5a": [
     "InTuneDocs\\temp-intune-ip-ranges.md"
@@ -2221,9 +2066,6 @@
   "9b40c8bb30daed76c9adc67ac0a3742c6e1db183": [
     "InTuneDocs\\this-is-a-test-for-nathan-s-markdown.md",
     "migrated-03-14\\Topic\\This-is-a-test-for-Nathan-s-Markdown.md"
-  ],
-  "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc": [
-    "InTuneDocs\\TOC.md"
   ],
   "ddb5382863438558c6f979c03c261bb061b3de5a": [
     "InTuneDocs\\top-node.md",
@@ -2806,7 +2648,6 @@
     "InTuneDocs\\DeployUse\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "f9d96146e65c7e22aa39e22b00026f0c8615cc1f": [
-    "InTuneDocs\\wipe-company-data-from-devices.md",
     "migrated-03-14\\Topic\\Wipe-company-data-from-devices.md"
   ],
   "ef474ac6816deecb6c37f6279ce5706748d29c74": [
@@ -5932,6 +5773,9 @@
   "0798676f8956468282bc2b3e23c39cbcf6794cf7": [
     "InTuneDocs\\PlanDesign\\ways-to-do-enterprise-mobility.md"
   ],
+  "b4baf87a9d986d7864a47afc5ec65b1f43f022ef": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "7d634b36c000bd206c86151bc085dd3416b15e32": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -6612,6 +6456,9 @@
   ],
   "b32df7caa3a3ebd0ea82c16611cb5626ea446d11": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-2.md"
+  ],
+  "2b753523ce68e94939a31fddfceb2b4145bbf241": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-3.md"
   ],
   "fa6272538e493389bac8bb6d3081375955de15f1": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-3.md"
