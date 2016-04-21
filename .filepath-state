@@ -1,7 +1,7 @@
 {
   "69b88e15bc21632deba50fff9cc06cf9e9bb8413": [
-    "InTuneDocs\\1511-restrict-access-to-office-365-services.md",
-    "migrated-03-14\\Topic\\1511---Restrict-access-to-Office-365-services.md"
+    "migrated-03-14\\Topic\\1511---Restrict-access-to-Office-365-services.md",
+    "InTuneDocs\\zDeletedTopics\\1511-restrict-access-to-office-365-services.md"
   ],
   "44b370d902b5570cb308df02be889167c3e27ec9": [
     "InTuneDocs\\zDeletedTopics\\30-day-trial-revision.md"
@@ -91,8 +91,8 @@
     "migrated-03-14\\Topic\\Configure-apps.md"
   ],
   "16ca0f19b1c1121bd94591756d89fc95e4c2eb2c": [
-    "InTuneDocs\\configure-mobile-app-configuration-policies.md",
-    "migrated-03-14\\Topic\\Configure-mobile-app-configuration-policies.md"
+    "migrated-03-14\\Topic\\Configure-mobile-app-configuration-policies.md",
+    "InTuneDocs\\zDeletedTopics\\configure-mobile-app-configuration-policies.md"
   ],
   "df576f21c532584b65f26877737cb752032b7e94": [
     "InTuneDocs\\configure-mobile-device-management-for-microsoft-intune.md",
@@ -128,12 +128,12 @@
     "migrated-03-14\\Topic\\Deploy-apps.md"
   ],
   "6cffb30cd67ec64d64f3ad0a3dea6bf16b0cfdda": [
-    "InTuneDocs\\deploy-conditional-access-microsoft-intune-with-system-center-configuration-manager-deleted.md",
-    "migrated-03-14\\Topic\\Deploy-Conditional-Access--Microsoft-Intune-with-System-Center-Configuration-Manager---deleted.md"
+    "migrated-03-14\\Topic\\Deploy-Conditional-Access--Microsoft-Intune-with-System-Center-Configuration-Manager---deleted.md",
+    "InTuneDocs\\zDeletedTopics\\deploy-conditional-access-microsoft-intune-with-system-center-configuration-manager-deleted.md"
   ],
   "a1b74e916015d3c2fbb3e47bf9dd038676aa2ab5": [
-    "InTuneDocs\\deployment-guide-protect-corporate-email-and-documents.md",
-    "migrated-03-14\\Topic\\Deployment-Guide--Protect-corporate-email-and-documents.md"
+    "migrated-03-14\\Topic\\Deployment-Guide--Protect-corporate-email-and-documents.md",
+    "InTuneDocs\\zDeletedTopics\\deployment-guide-protect-corporate-email-and-documents.md"
   ],
   "fd8716059ac9e533b7b0c3ab7c8d2a61a5ec045a": [
     "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
@@ -791,8 +791,8 @@
     "InTuneDocs\\zDeletedTopics\\end-user-experience-of-conditional-access-old.md"
   ],
   "c95f67ee91fd2c60ceb4640fc0565dddac1c3be6": [
-    "InTuneDocs\\end-user-experience.md",
-    "migrated-03-14\\Topic\\End-user-experience.md"
+    "migrated-03-14\\Topic\\End-user-experience.md",
+    "InTuneDocs\\zDeletedTopics\\end-user-experience.md"
   ],
   "e16d05c98b564e3bd27be643d78328a1accbdc8c": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
@@ -1007,8 +1007,8 @@
     "migrated-03-14\\Image\\App-Feedback-Form.png"
   ],
   "5d6a9e5f5772ccb921c614c7f80faa986505b74a": [
-    "InTuneDocs\\getting-started-with-conditional-access.md",
-    "migrated-03-14\\Topic\\Getting-started-with-conditional-access.md"
+    "migrated-03-14\\Topic\\Getting-started-with-conditional-access.md",
+    "InTuneDocs\\zDeletedTopics\\getting-started-with-conditional-access.md"
   ],
   "184c5c543d5ff582dfa3289511303578be301ea4": [
     "InTuneDocs\\getting-started-with-the-microsoft-intune-app-sdk.md"
@@ -1807,12 +1807,12 @@
     "InTuneDocs\\zDeletedTopics\\microsoft-software-supplemental-notice.md"
   ],
   "9cbde39eef642aad5ed15ac304f60fe800e1c2ec": [
-    "InTuneDocs\\mobile-app-management-deleted.md",
-    "migrated-03-14\\Topic\\Mobile-app-management---deleted.md"
+    "migrated-03-14\\Topic\\Mobile-app-management---deleted.md",
+    "InTuneDocs\\zDeletedTopics\\mobile-app-management-deleted.md"
   ],
   "a25b2630a79361044da3dbb28f470eb0815945c1": [
-    "InTuneDocs\\mobile-app-management-policies-in-the-intune-console.md",
-    "migrated-03-14\\Topic\\Mobile-app-management-policies-in-the-Intune-Console.md"
+    "migrated-03-14\\Topic\\Mobile-app-management-policies-in-the-Intune-Console.md",
+    "InTuneDocs\\zDeletedTopics\\mobile-app-management-policies-in-the-intune-console.md"
   ],
   "f52d7a19e7108cd07abf30828284920b22c6deb9": [
     "InTuneDocs\\mobile-device-management-with-microsoft-intune-and-system-center-configuration-manager.md",
@@ -1857,8 +1857,8 @@
     "migrated-03-14\\Topic\\Placeholder.md"
   ],
   "1d39e7f2b7ad7cb487fb2c364bcf7bda75778e77": [
-    "InTuneDocs\\plan-for-apps.md",
-    "migrated-03-14\\Topic\\Plan-for-apps.md"
+    "migrated-03-14\\Topic\\Plan-for-apps.md",
+    "InTuneDocs\\zDeletedTopics\\plan-for-apps.md"
   ],
   "22d57cae02e05e32367db5cec7da3367edcc97d3": [
     "InTuneDocs\\PlanDesign\\TOC.md"
@@ -1980,7 +1980,7 @@
     "InTuneDocs\\resources-to-help-you-solve-problems-during-setup-of-microsoft-intune.md"
   ],
   "cb00b520161426f71bd76bedcb313407672bc249": [
-    "InTuneDocs\\restrict-web-content-to-display-in-the-managed-browser-with-microsoft-intune-deleted.md"
+    "InTuneDocs\\zDeletedTopics\\restrict-web-content-to-display-in-the-managed-browser-with-microsoft-intune-deleted.md"
   ],
   "9212bebd09c1c17cf4d48fee0015f24e43fe7ea1": [
     "migrated-03-14\\Topic\\Retire-company-owned-PCs-and-mobile-devices.md"
@@ -2455,7 +2455,10 @@
     "InTuneDocs\\DeployUse\\upgrade-windows-devices-to-the-latest-version-with-the-edition-upgrade-policy-in-microsoft-intune.md"
   ],
   "e71e2e6734abce1feee60ea364db8c8eedb399e6": [
-    "InTuneDocs\\use-conditional-access-with-intune-and-configuration-manager.md"
+    "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
+  ],
+  "31c86060a489128ba8ad81907015000a4542b55b": [
+    "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
   ],
   "a9398cffc2653d5a4251a95aa42647f8a197e4d4": [
     "InTuneDocs\\media\\Hybrid_on-prem_CA_architecture.png"
@@ -2482,7 +2485,10 @@
     "InTuneDocs\\media\\Hybrid_Exchange-Online_CA_architecture.png"
   ],
   "0d99827bf6964807f8e62613a69f428814492705": [
-    "InTuneDocs\\use-conditional-access-with-intune.md"
+    "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
+  ],
+  "3c97410e084789aade2e06f3035912dc7b4310cf": [
+    "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
   ],
   "1dde0f9c701974b72ef12e63ecc4ed76f84f053e": [
     "InTuneDocs\\media\\ConditionalAccess8-2.png"
@@ -2505,7 +2511,7 @@
     "InTuneDocs\\zDeletedTopics\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md"
   ],
   "a6c6326c36f36d9d4b56c38c66bce0cb9113d24e": [
-    "InTuneDocs\\use-mobile-application-management-policies-in-configuration-manager.md"
+    "InTuneDocs\\zDeletedTopics\\use-mobile-application-management-policies-in-configuration-manager.md"
   ],
   "79f29881ba37265428ab139c8d0ced258c4b9ac6": [
     "InTuneDocs\\using-a-product-key-to-set-up-a-customer-account.md"
@@ -4022,12 +4028,6 @@
   ],
   "2a6e602fe6e6c4f4cffd6b3e7302f68c01350ab7": [
     "InTuneDocs\\zDeletedTopics\\Update-apps-using-Microsoft-Intune.md"
-  ],
-  "3c97410e084789aade2e06f3035912dc7b4310cf": [
-    "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune.md"
-  ],
-  "31c86060a489128ba8ad81907015000a4542b55b": [
-    "InTuneDocs\\zDeletedTopics\\Use-conditional-access-with-Intune-and-Configuration-Manager.md"
   ],
   "b6401ad61d96ee29dda24da18ff4d5aa533f4b90": [
     "migrated-03-14\\Topic\\Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md"
@@ -6231,24 +6231,6 @@
   "5522836a146b306aa18c04ef52fac97e2f41c4c7": [
     "InTuneDocs\\media\\mam-azure-portal-app-reporting-select-user.png"
   ],
-  "00bd1e5b18ccfb49bace299b028be75bb93367e6": [
-    "InTuneDocs\\dougs-sandbox.md"
-  ],
-  "3381f3c1000aec3b18a50ed12c7371b6025b7a8d": [
-    "InTuneDocs\\dougs-sandbox.md"
-  ],
-  "34a12eba99d42f30303f128758ccdce0872e3ccf": [
-    "InTuneDocs\\dougs-sandbox.md"
-  ],
-  "9d72dcab5c6f06eff2a4d10e85ca773cf818dce6": [
-    "InTuneDocs\\dougs-sandbox.md"
-  ],
-  "3062217c627c48fa31cb3be5b28353963b3c2488": [
-    "InTuneDocs\\dougs-sandbox.md"
-  ],
-  "20f955062e2b30a29f84e087acc3227ba962fb2d": [
-    "InTuneDocs\\dougs-sandbox.md"
-  ],
   "3eaf412537a692a74bd069774821bf9ccc6485c7": [
     "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column5.png"
   ],
@@ -6623,6 +6605,9 @@
   "92438c8dcbc2c7e520f6027f46d32365c1604873": [
     "InTuneDocs\\DeployUse\\media\\device_appslifecycle_nobg.png",
     "InTuneDocs\\media\\Sandbox\\Device_AppsLifecyclev2_noBG.png"
+  ],
+  "00bd1e5b18ccfb49bace299b028be75bb93367e6": [
+    "InTuneDocs\\zDeletedTopics\\dougs-sandbox.md"
   ],
   "688c7bdd4e2164c2d340ed8e2ebaf65d0dbd89e7": [
     "InTuneDocs\\media\\Sandbox\\AppLifecycle_Staticv9.png"
