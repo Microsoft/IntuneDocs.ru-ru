@@ -782,7 +782,7 @@
     "InTuneDocs\\media\\Nav-Puzzle\\WIT_MDM_Row2Column4.png"
   ],
   "65cdbe112a7f787404f6b1eb9a9b0fd731872be6": [
-    "InTuneDocs\\enable-access-to-company-resources-with-microsoft-intune-deleted.md"
+    "InTuneDocs\\zDeletedTopics\\enable-access-to-company-resources-with-microsoft-intune-deleted.md"
   ],
   "67ad36eb88a5bdd75c0c3c43704e8e343cda3d6a": [
     "InTuneDocs\\enable-mobile-device-enrollment-with-the-microsoft-intune-account-portal.md"
@@ -1531,11 +1531,14 @@
     "migrated-03-14\\Image\\IT_MDM_MAMOverview2.png"
   ],
   "0d238d5c57811e54f4298b0a08bc181223424c8e": [
-    "InTuneDocs\\intune-ip-ranges_deleted.md",
-    "migrated-03-14\\Topic\\Intune-IP-Ranges_deleted.md"
+    "migrated-03-14\\Topic\\Intune-IP-Ranges_deleted.md",
+    "InTuneDocs\\zDeletedTopics\\intune-ip-ranges_deleted.md"
   ],
   "a792a294bc20835519cd38c92bad1b3aba6701ea": [
-    "InTuneDocs\\ip-ranges-version-2.md"
+    "InTuneDocs\\zDeletedTopics\\IP-Ranges-Version-2.md"
+  ],
+  "c32cbb5bf835f104083e73675fee4cb63269ce5c": [
+    "InTuneDocs\\zDeletedTopics\\IP-Ranges-Version-2.md"
   ],
   "17e0e5f05f4e7ad7174ea03b35c67f2844519914": [
     "InTuneDocs\\zDeletedTopics\\iw-content.md"
@@ -1606,7 +1609,10 @@
     "InTuneDocs\\DeployUse\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
   ],
   "a0cc32f65a657366a821ee052759a47908e4f3c4": [
-    "InTuneDocs\\md-mac-os-x-configuration-policy-settings-in-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\MD-Mac-OS-X-configuration-policy-settings-in-Microsoft-Intune.md"
+  ],
+  "93af961aa5ea70bd8ef6a77fc6d60057bf2c1f32": [
+    "InTuneDocs\\zDeletedTopics\\MD-Mac-OS-X-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "372f35fc16f31cfd694c6e6783ba1661785c8ffd": [
     "InTuneDocs\\md-microsoft-intune-service-description.md"
@@ -1825,8 +1831,8 @@
     "InTuneDocs\\DeployUse\\mobile-device-security-policy-settings-in-microsoft-intune.md"
   ],
   "b8f5aa62f934ba41a13ad6573b959ae79bfb5aa7": [
-    "InTuneDocs\\monitor-microsoft-intune-app-deployments-deleted.md",
-    "InTuneDocs\\zDeletedTopics\\Monitor-Microsoft-Intune-app-deployments---deleted.md"
+    "InTuneDocs\\zDeletedTopics\\Monitor-Microsoft-Intune-app-deployments---deleted.md",
+    "InTuneDocs\\zDeletedTopics\\monitor-microsoft-intune-app-deployments-deleted.md"
   ],
   "5265dbda8c310e7a6c3d6b4496a4a19536e0e276": [
     "InTuneDocs\\old-computer-capabilities-in-intune.md"
@@ -1951,7 +1957,7 @@
     "InTuneDocs\\EULA\\privacy-statement.md"
   ],
   "71946477ba7cc9b2384228c8733d39d21ed81c0f": [
-    "InTuneDocs\\protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md"
+    "InTuneDocs\\zDeletedTopics\\protect-company-data-on-personal-windows-10-devices-with-enterprise-data-protection-in-microsoft-intune.md"
   ],
   "50cd3f4541a8e3ac2268f193d817650131d5dae5": [
     "migrated-03-14\\Topic\\RASK-core-components.md",
@@ -2062,10 +2068,9 @@
     "migrated-03-14\\Topic\\System-Overview.md"
   ],
   "54147dae1f650f643942d878e960e457d3f9ab5a": [
-    "InTuneDocs\\temp-intune-ip-ranges.md"
+    "InTuneDocs\\zDeletedTopics\\temp-intune-ip-ranges.md"
   ],
   "abb19a4d12e083ba79d77c0bdf10507caf7a82e6": [
-    "InTuneDocs\\temp-software-updates-topic.md",
     "InTuneDocs\\zDeletedTopics\\Temp-Software-Updates-Topic.md"
   ],
   "e1429a10602e27418af03f0f6a0bd6d5d5515dd0": [
@@ -2318,6 +2323,9 @@
   ],
   "26250bbbedc336c56ea8c9f1ff921dfefaa749af": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
+  ],
+  "f5736e427844bb6f680ba35064b5564107299b45": [
+    "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
   "06b58ed6e6ea648092354a327f4197b9ce2c3fb8": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
@@ -3538,9 +3546,6 @@
   "e7953bf8056d10e17f761d576a1001963f117a72": [
     "migrated-03-14\\Topic\\Introduction-to-Microsoft-Intune--test-.md"
   ],
-  "c32cbb5bf835f104083e73675fee4cb63269ce5c": [
-    "InTuneDocs\\zDeletedTopics\\IP-Ranges-Version-2.md"
-  ],
   "159f599aa557745fb0bcea2d48fe5bb1add54b8a": [
     "migrated-03-14\\Topic\\Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md"
   ],
@@ -3585,6 +3590,9 @@
   ],
   "0095fe2735fc8defd6aeaf585a6b7a82aa826a9f": [
     "InTuneDocs\\zDeletedTopics\\Manage-apps-you-purchased-from-the-Windows-Store-for-Business-with-Microsoft-Intune.md"
+  ],
+  "6448e88e55da60398b93be86bb23734e3d3c8327": [
+    "InTuneDocs\\zDeletedTopics\\Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
   ],
   "0edb87b4bb8ded2c9444b8253e538d459be57def": [
     "InTuneDocs\\zDeletedTopics\\Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md"
@@ -3762,9 +3770,6 @@
   ],
   "b86c04b46cb6476e97ad030853c9397d23aa2157": [
     "InTuneDocs\\zDeletedTopics\\MD-Conversion---Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md"
-  ],
-  "93af961aa5ea70bd8ef6a77fc6d60057bf2c1f32": [
-    "InTuneDocs\\zDeletedTopics\\MD-Mac-OS-X-configuration-policy-settings-in-Microsoft-Intune.md"
   ],
   "afb566645a97eac054b328d1b4f30eae6439de24": [
     "migrated-03-14\\Topic\\MD-Maintain-Microsoft-Intune.md"
@@ -5302,15 +5307,6 @@
   "e2f5a88a703f60b4c12c908e3ee4aa272a52348a": [
     "InTuneDocs\\zDeletedTopics\\ios-custom-policy-settings-in-microsoft-intune.md"
   ],
-  "6448e88e55da60398b93be86bb23734e3d3c8327": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md"
-  ],
-  "bda0e92bd9caf8fa6beb724ab423ff3e59e79463": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md"
-  ],
-  "6f2388af95a6ee1dc81b16d335fe5777eadfe6eb": [
-    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies-with-microsoft-intune.md"
-  ],
   "276ef07bc7a07f2117e03f32a7438f3addf1969c": [
     "InTuneDocs\\media\\IntuneSA5aSelectExchOnPremPolicy.png"
   ],
@@ -5766,12 +5762,6 @@
   ],
   "b2fc107fc43818d74c4400077e996e4488547281": [
     "InTuneDocs\\media\\enroll-Intune-WinEnr.png"
-  ],
-  "2452458520212a356f5d28f88d408e4007c3d4f9": [
-    "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
-  ],
-  "2dd1ac8574299bcefdbf86a8054de6b14e849e0d": [
-    "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
   ],
   "5769d57ae18c8bb11cfbebf8917ac78265bfc269": [
     "InTuneDocs\\DeployUse\\manage-volume-purchased-apps-in-microsoft-intune.md"
@@ -6651,6 +6641,9 @@
   ],
   "922dbb06e22d4b5ffb4524e5f157504077eb14e0": [
     "InTuneDocs\\zDeletedTopics\\intune-exchange-connector-requirements.md"
+  ],
+  "2452458520212a356f5d28f88d408e4007c3d4f9": [
+    "InTuneDocs\\zDeletedTopics\\deploy-apps-in-microsoft-intune.md"
   ],
   "22db1dd77d3769ddf32deb8ee796acdb61baee4f": [
     "InTuneDocs\\Troubleshoot\\media\\CM_With_Intune_Unknown_App_Deleted_Device.jpg"
