@@ -711,6 +711,9 @@
   "0d287ac56e48a8ee8027a2c71318358cbd224420": [
     "InTuneDocs\\DeployUse\\understand-microsoft-intune-operations-by-using-reports.md"
   ],
+  "282d66a2a18b2dc374bb89f915f8457fe0743a54": [
+    "InTuneDocs\\DeployUse\\understand-your-devices-with-inventory-in-microsoft-intune.md"
+  ],
   "39ab29d614a994179b746f554c6d90d01b32cc48": [
     "InTuneDocs\\DeployUse\\understand-your-devices-with-inventory-in-microsoft-intune.md"
   ],
@@ -889,6 +892,9 @@
   ],
   "cd260c040bad5671af23567d0ed4b0ec26f25092": [
     "InTuneDocs\\zDeletedTopics\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.old.md"
+  ],
+  "9e43b248302ae07400bcf34b13fd4d1eb947c691": [
+    "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
   ],
   "89a1eb2a2ad88ea5416a0356ee7cb73db1cbb159": [
     "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
@@ -1781,6 +1787,9 @@
   ],
   "28a8b367e8adc2b43b4958961bbc421cf9a743b8": [
     "InTuneDocs\\zDeletedTopics\\Microsoft-Intune-policy-settings-reference.md"
+  ],
+  "565f9d25a9941ac7d3507c5094bea81e3e382a82": [
+    "InTuneDocs\\EULA\\microsoft-intune-privacy-statement.md"
   ],
   "ec3885405120c2f5406e6e85f5129feb20593419": [
     "InTuneDocs\\EULA\\microsoft-intune-privacy-statement.md"
@@ -4546,6 +4555,9 @@
   "44957e696209d3e6d8f6658cb9f3ed95496f3e72": [
     "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-ios.md"
   ],
+  "4274cd1fd022dad8d35c27b8cfc0b1c07f0a1ab3": [
+    "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-windows.md"
+  ],
   "3056430a8f29f616485b17f09b3a7046ecc452ae": [
     "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-windows.md"
   ],
@@ -4639,6 +4651,9 @@
   "fd8b9574a87de312bb0a6b93efa06ef19c7c8122": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
+  "6af1f898a3c70cfd01bd18cbf54c75a31bbd0f58": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
+  ],
   "ac2cfcb2e69f08d2e1a54dac4387dd2ab456ca18": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
   ],
@@ -4719,6 +4734,9 @@
   ],
   "9b49ce3645a8219f61a457d0448cc179a1cbdf6f": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
+  ],
+  "8adda9a21039d041bc71fa9b0b364a33a2bc2877": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
   ],
   "933f7777c249cd6230f8c90b91bfb896e5b95414": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
@@ -5470,6 +5488,9 @@
   "74f1a90233fc98a931a21ec80ff0ba13de36f2be": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
+  "93f34372563cc2afa9c1898e249abbb06706e0b9": [
+    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
   "0661410afad39709d88a12e1721a13229dee4eb0": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
   ],
@@ -6058,6 +6079,9 @@
   "314533eb30bd30a76dccca3510843ad9cd0ca070": [
     "InTuneDocs\\EndUser\\media\\wp81-3-sync-tap-sync-button.png"
   ],
+  "394906f9db7866d99c9073285362a751e4e5b964": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
+  ],
   "7141002fd96445a9c208c3484b366927956c4dee": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
   ],
@@ -6066,6 +6090,9 @@
   ],
   "7e121c13a2649898b5f531c3ab31aa2b1197731f": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
+  ],
+  "86c108d25dae0be2f8a743836af4d35ce5811153": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
   ],
   "efe28082a973e383f4d63e9b8445910536c99823": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
@@ -6258,6 +6285,9 @@
   ],
   "01f1f2996f0f07a94b3b41e5607787748353f7cf": [
     "InTuneDocs\\EndUser\\enroll-your-w81-or-rt81-windows.md"
+  ],
+  "24d4910fa1458cdc4feb2e3f7501d8f8f064699b": [
+    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
   ],
   "639b86ffebaa4bd33523ebc2aeb360ad95070d61": [
     "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
