@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2246
 [ Handoff Failed Files ](#handoff-failed-list)| 3
-[ Handoff Success Files ](#handoff-success-list)| 1851
+[ Handoff Success Files ](#handoff-success-list)| 1850
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 392
+[ Ignored Files ](#ignored-list)| 393
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -227,7 +227,6 @@
  [InTuneDocs\DeployUse\pre-shared-key-wi-fi-profile.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c1c66776bcd87c4391e74a97b1727e5490571cf7/InTuneDocs/DeployUse/pre-shared-key-wi-fi-profile.md) | HandedOffSuccess | [Details](#af62a3a0b0e4c5a0fb0c363e2e81516065af70c2254)
  [InTuneDocs\DeployUse\previous-intune-releases.md](https://github.com/Microsoft/IntuneDocs-pr/blob/93778f23792df3d1074884765a51c887d78a920c/InTuneDocs/DeployUse/previous-intune-releases.md) | HandedOffSuccess | [Details](#d8e032f78c20882f7cf380200d5168503d25ed59259)
  [InTuneDocs\DeployUse\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5d332e1a5cf9ff5e6ce6b62dac9ccab86696980b/InTuneDocs/DeployUse/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md) | HandedOffSuccess | [Details](#a4a771111c7e11b4cfdc77664c25c8ac1e8d57ac260)
- [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/22ae81caf54476ddbfe9a0cdee7296352e9256b6/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md) | HandedOffSuccess | [Details](#a64a482466549174d0a5060894dc415060c5223c261)
  [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5f1df410d5cd01f01b547e89340b698c285703d6/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md) | HandedOffSuccess | [Details](#0abf0e0c0e913a2e4467168778517506c22bfc6c262)
  [InTuneDocs\DeployUse\protect-your-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4148e5719c208c826c2c18bc0709d4a7d0054003/InTuneDocs/DeployUse/protect-your-devices-with-microsoft-intune.md) | HandedOffSuccess | [Details](#9b308ef6e11ddced2f547e62c47a85e4a22159af263)
  [InTuneDocs\DeployUse\Release-notes-for-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0af581aedf769172a64643dc3d966f525a68be5b/InTuneDocs/DeployUse/Release-notes-for-Microsoft-Intune.md) | HandedOffSuccess | [Details](#51cd068a83081ddc9b4fd65c579f4869b8aa4dff264)
@@ -1945,6 +1944,7 @@
  [InTuneDocs\DeployUse\media\SCEP_Registry_editor_MSCEP.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/DeployUse/media/SCEP_Registry_editor_MSCEP.png) | Ignored | [Details](#bfc8fc4530e19362ec49490a1f70ed336477d701237)
  [InTuneDocs\DeployUse\media\SCEP_Registry_MDM.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/DeployUse/media/SCEP_Registry_MDM.png) | Ignored | [Details](#ba3a1aa88585ec5753eb25d94943732d57ab652c238)
  [InTuneDocs\DeployUse\media\SCEP_SSL_settings.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/DeployUse/media/SCEP_SSL_settings.png) | Ignored | [Details](#fd444a39ea7fdea011b5ba7d32147e684a6a1e32239)
+ [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md) | Ignored | [Details](#fdc6bd0d45d77da99c55ab3ca5c79614c8e8e496261)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2311)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#7b0885b6fc884f750560f0ad7cbe12d6cd66fdd0328)
  [InTuneDocs\EndUser\media\and-enroll-6-knox-agree.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/EndUser/media/and-enroll-6-knox-agree.png) | Ignored | [Details](#9587a8105f75c185c407c3078272d1d3e6aed93d371)
@@ -5516,12 +5516,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a64a482466549174d0a5060894dc415060c5223c261'></a> Source: [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/22ae81caf54476ddbfe9a0cdee7296352e9256b6/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='fdc6bd0d45d77da99c55ab3ca5c79614c8e8e496261'></a> Source: [InTuneDocs\DeployUse\protect-apps-and-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e04c7ac775e2b14f0bd7741a0924573935464913/InTuneDocs/DeployUse/protect-apps-and-data-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [protect-apps-and-data-with-microsoft-intune.6ccf429089e2e992c79d2e15ad0cedc79d68fd70.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/087c92ac32310b4a50119ad475b98dd6485cba33/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/protect-apps-and-data-with-microsoft-intune.6ccf429089e2e992c79d2e15ad0cedc79d68fd70.ru-ru.xlf)
-* Handoff Datetime: 2016-04-20 16:51:04
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
