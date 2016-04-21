@@ -862,6 +862,9 @@
   "102d8f386c71b03e962e5ec2c364e85326f9c1be": [
     "InTuneDocs\\Understand\\common-microsoft-intune-evaluation-tasks.md"
   ],
+  "c34ffe0a1881b8b1c3f2cf453b76ee8c5fe9173a": [
+    "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
   "dc9c8b2983ae639098c98ada0106311344cdd74a": [
     "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md",
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
@@ -2088,7 +2091,6 @@
     "InTuneDocs\\zDeletedTopics\\this-is-a-test-for-nathan-s-markdown.md"
   ],
   "ddb5382863438558c6f979c03c261bb061b3de5a": [
-    "InTuneDocs\\top-node.md",
     "migrated-03-14\\Topic\\Top-node.md"
   ],
   "153913869af5e3d2d1b79d0fc282ec579308b60e": [
@@ -2786,6 +2788,9 @@
   ],
   "ab4b82355b287f798a8b6fad49f3327aa509df9d": [
     "InTuneDocs\\DeployUse\\media\\Group-planning\\Intune_planning_policy_view_small.png"
+  ],
+  "c69e2b425499d554a9b12d5154f6be19894ea8ed": [
+    "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
   ],
   "affc70456e63fdc436be309c0c2a103ea52d8ac0": [
     "InTuneDocs\\zDeletedTopics\\plan-your-user-and-device-groups-old.md"
@@ -4875,21 +4880,6 @@
   "d211711ad142aa99dab0b7f1a2569ef2ffc54b3a": [
     "InTuneDocs\\DeployUse\\pre-shared-key-wi-fi-profile.md"
   ],
-  "c78d74f89933bae54d5e992b9ca779b3ca8839eb": [
-    "InTuneDocs\\DeployUse\\what-s-new-in-microsoft-intune-test.md"
-  ],
-  "b4b6f826cac51056c178a8d9e466f98819f4a978": [
-    "InTuneDocs\\DeployUse\\what-s-new-in-microsoft-intune-test.md"
-  ],
-  "abf3161f7bfbf965c42243bb5a4fcb9c000fe347": [
-    "InTuneDocs\\DeployUse\\what-s-new-in-microsoft-intune-test.md"
-  ],
-  "18b0ac70c987a8b54360bcc42f8de340cf315bd2": [
-    "InTuneDocs\\DeployUse\\what-s-new-in-microsoft-intune-test.md"
-  ],
-  "99cebbbdff94b334d0e6ba2644ad4f9726d3f8f5": [
-    "InTuneDocs\\DeployUse\\what-s-new-in-microsoft-intune-test.md"
-  ],
   "75b09001dc7e9007f069c2141ed631bfafc840d1": [
     "InTuneDocs\\zDeletedTopics\\set-mobile-device-management-authority-in-microsoft-intune.md"
   ],
@@ -5024,6 +5014,9 @@
   ],
   "09cbfb8d89398de5c4324c763e96ee369aeafcbe": [
     "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
+  ],
+  "6983853d4cd548473e66053fc3335ad0cbaf03b0": [
+    "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
   ],
   "3e970f81844c2ec5c42487e6542ee276e602dbaa": [
     "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups.md"
@@ -5705,9 +5698,6 @@
   ],
   "c4920e933b7c8a910303cadfb2543e4864fbbcbb": [
     "InTuneDocs\\DeployUse\\media\\app-filters.png"
-  ],
-  "c69e2b425499d554a9b12d5154f6be19894ea8ed": [
-    "InTuneDocs\\DeployUse\\plan-your-user-and-device-groups-old.md"
   ],
   "b5f2ddf88bacc86a363ff1cd03a3bdc38ba4678e": [
     "InTuneDocs\\DeployUse\\media\\ios-software-description.png"
@@ -6640,7 +6630,7 @@
     "InTuneDocs\\Troubleshoot\\media\\CM_With_Intune_Unknown_App_Deleted_Device.jpg"
   ],
   "0625d00583e3778c808746d2938344349dcc9a1e": [
-    "InTuneDocs\\whats-new-archive.md"
+    "InTuneDocs\\DeployUse\\whats-new-archive.md"
   ],
   "eca341e075c54bd11ce80916237eaf81723ec103": [
     "InTuneDocs\\media\\dev-sa-ios-dep.png"
