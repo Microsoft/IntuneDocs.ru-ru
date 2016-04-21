@@ -1583,15 +1583,15 @@
     "InTuneDocs\\DeployUse\\manage-alerts-in-microsoft-intune.md"
   ],
   "ce5ca6f5b3fbc78616e80e6b9985e64469fbeb03": [
-    "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md",
-    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online-old.md"
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online-old.md",
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online.md"
   ],
   "b79dfb662661b39fdf1b06a5bd7dc896293fbe92": [
     "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services-old.md"
   ],
   "05335917adad1897f0346b0d4e88107309d8fb18": [
-    "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md",
-    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharepoint-online-old.md"
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharepoint-online-old.md",
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharePoint-online.md"
   ],
   "c441f93f56f265928f138ba5d64579df4ab6dad0": [
     "InTuneDocs\\DeployUse\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
@@ -3592,7 +3592,7 @@
     "migrated-03-14\\Topic\\Manage-alerts-in-Microsoft-Intune.md"
   ],
   "4fbee80435571ed453d9f2663cd418dc666557c8": [
-    "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
+    "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services.md"
   ],
   "0095fe2735fc8defd6aeaf585a6b7a82aa826a9f": [
     "InTuneDocs\\zDeletedTopics\\Manage-apps-you-purchased-from-the-Windows-Store-for-Business-with-Microsoft-Intune.md"

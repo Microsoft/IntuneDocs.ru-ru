@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "129942583051e4ee671f1a16de7e640ca9c7b46f",
+  "LastProcessedCommit": "0c4304881fca010880d95f47dd16279581271749",
   "LastTranslatedCommit": null,
   "Items": {
     "69b88e15bc21632deba50fff9cc06cf9e9bb8413": {
@@ -11647,8 +11647,8 @@
     },
     "ce5ca6f5b3fbc78616e80e6b9985e64469fbeb03": {
       "FileHash": "ce5ca6f5b3fbc78616e80e6b9985e64469fbeb03",
-      "SourceFileCommit": "532f9a66e34541d58790559c76548694f7d19066",
-      "SourceFilePath": "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md",
+      "SourceFileCommit": "e678627df14653406d471e1af552f23068e16e27",
+      "SourceFilePath": "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
       "TokenReference": null,
@@ -11656,11 +11656,12 @@
         "InTuneDocs\\manage-app-access-to-exchange-online.md",
         "migrated-03-14\\Topic\\Manage-app-access-to-Exchange-Online.md",
         "InTuneDocs\\DeployUse\\manage-app-access-to-exchange-online.md",
-        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online-old.md"
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online-old.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-exchange-online.md"
       ],
-      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-exchange-online.e6183dce260df1323a802bc40763ae8e1c7f85db.ru-ru.xlf",
-      "HandoffFileCommit": "65fa2baba1357290dcaf9c92528749b3048e1ba1",
-      "HandoffDateTime": "2016-04-18T17:51:20.1859143Z",
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-exchange-online.6b8e8b94fc712b597f8ba8124e0707803459b273.ru-ru.xlf",
+      "HandoffFileCommit": "2e892342fd39779dbfc5187b2482d77e0bd0f217",
+      "HandoffDateTime": "2016-04-21T18:59:08.3554733Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -11779,8 +11780,8 @@
     },
     "05335917adad1897f0346b0d4e88107309d8fb18": {
       "FileHash": "05335917adad1897f0346b0d4e88107309d8fb18",
-      "SourceFileCommit": "532f9a66e34541d58790559c76548694f7d19066",
-      "SourceFilePath": "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md",
+      "SourceFileCommit": "e678627df14653406d471e1af552f23068e16e27",
+      "SourceFilePath": "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharePoint-online.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
       "TokenReference": null,
@@ -11788,11 +11789,12 @@
         "InTuneDocs\\manage-app-access-to-sharepoint-online.md",
         "migrated-03-14\\Topic\\Manage-app-access-to-SharePoint-Online.md",
         "InTuneDocs\\DeployUse\\manage-app-access-to-sharePoint-online.md",
-        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharepoint-online-old.md"
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharepoint-online-old.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-sharePoint-online.md"
       ],
-      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-sharePoint-online.cdd5258a07c84fc0669b9327ed19e46342994263.ru-ru.xlf",
-      "HandoffFileCommit": "65fa2baba1357290dcaf9c92528749b3048e1ba1",
-      "HandoffDateTime": "2016-04-18T17:51:20.1859143Z",
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-sharePoint-online.347fd7843984d44e8262e46a17e26c67051e1e28.ru-ru.xlf",
+      "HandoffFileCommit": "2e892342fd39779dbfc5187b2482d77e0bd0f217",
+      "HandoffDateTime": "2016-04-21T18:59:08.3554733Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -33391,18 +33393,19 @@
     },
     "4fbee80435571ed453d9f2663cd418dc666557c8": {
       "FileHash": "4fbee80435571ed453d9f2663cd418dc666557c8",
-      "SourceFileCommit": "532f9a66e34541d58790559c76548694f7d19066",
-      "SourceFilePath": "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md",
+      "SourceFileCommit": "e678627df14653406d471e1af552f23068e16e27",
+      "SourceFilePath": "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
       "TokenReference": null,
       "FilePathList": [
         "migrated-03-14\\Topic\\Manage-app-access-to-Office-365-services.md",
-        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md"
+        "InTuneDocs\\DeployUse\\manage-app-access-to-office-365-services.md",
+        "InTuneDocs\\zDeletedTopics\\manage-app-access-to-office-365-services.md"
       ],
-      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-office-365-services.9edaebb37372a51e8ee6059ee317ffa75691c915.ru-ru.xlf",
-      "HandoffFileCommit": "65fa2baba1357290dcaf9c92528749b3048e1ba1",
-      "HandoffDateTime": "2016-04-18T17:51:20.1859143Z",
+      "HandoffFilePath": "ol-handoff\\Microsoft\\IntuneDocs-pr.ru-ru\\master\\manage-app-access-to-office-365-services.01e7163cd029ef32cedd8f224470d22f5852ee54.ru-ru.xlf",
+      "HandoffFileCommit": "2e892342fd39779dbfc5187b2482d77e0bd0f217",
+      "HandoffDateTime": "2016-04-21T18:59:08.3554733Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
