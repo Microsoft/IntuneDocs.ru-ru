@@ -2677,6 +2677,9 @@
   "682991f322fac0c2001ce4fcaeabecf4c5b79bcb": [
     "InTuneDocs\\media\\IntuneSA5cServiceToServiceConnector.PNG"
   ],
+  "1ac3d538937206bd42bd935c0dd338ae2dffc66a": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
+  ],
   "1326b4b63f54f2d10dc2ad1fb959717a92f34a00": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
   ],
@@ -5791,11 +5794,8 @@
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
-  "fe5aa505742ddfa71006b2c192e93f689a0a20ac": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-ab.md"
-  ],
   "f33227be43511407ba2e8be7a73f1e518bf148cc": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.old.md"
+    "InTuneDocs\\zDeletedTopics\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.old.md"
   ],
   "2932b4fd3b0d57ecfe5f4368169c558e164511d4": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -6529,23 +6529,44 @@
   "8b1002a9bc21389e2d5eef849b700bd38b0b2d11": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
   ],
+  "4b0182df88cfaf7290e96502c409f60bd103215a": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md"
+  ],
   "1ca47168d35fff1e5f8c8402d4413851307a7aad": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md"
+  ],
+  "4efb1f372831256f6809521ad52a27792ff5dd8b": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md"
   ],
   "6b1761c791c1b590d839f74667fe5c1762398040": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md"
   ],
+  "6c56fe8199b0ecd9fb0ed8dcabbb638cba911eda": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-3.md"
+  ],
   "4fd107b85f0afe47574420cf81c88d90bde5d648": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-3.md"
+  ],
+  "62230b86e08229cf80ebee01e2e8f1f509b56afa": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md"
   ],
   "de72172959fdbee891637215f465c2393a4ca549": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md"
   ],
+  "dcf67ebd9fbb8b194ee34884aaef2113296bb5df": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
+  ],
   "a2dea28fd7b8da3fc9e9ab1067f17d2d1b8a71e5": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
   ],
+  "312f74a5015f8e557760ada03e749f1b9453a111": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md"
+  ],
   "be465d3cc24447055e1b53f50f6c41688bdb97c7": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md"
+  ],
+  "a61c655df66e28f734d58c3124bf8bd730601682": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md"
   ],
   "f856cf46af9e305f086ec95d388682753f63456a": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md"
@@ -6606,5 +6627,8 @@
   ],
   "cd9cbfed5ec82b480656983649fd5a2db0731a92": [
     "InTuneDocs\\media\\dev-sa-wipe.png"
+  ],
+  "fcc4a347a310bc3ce45ac1852c05ce13900a8ac4": [
+    "InTuneDocs\\zDeletedTopics\\get-started-with-a-30-day-trial-of-microsoft-intune-ab.md"
   ]
 }
