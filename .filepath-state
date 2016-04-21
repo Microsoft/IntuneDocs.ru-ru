@@ -493,6 +493,9 @@
   "a96491f8353bacff420b1fdba96aaecd503e1784": [
     "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
   ],
+  "c0dd41acdc69ed410fd93197185363c447364c77": [
+    "InTuneDocs\\DeployUse\\protect-windows-devices-with-multi-factor-authentication.md"
+  ],
   "0abf0e0c0e913a2e4467168778517506c22bfc6c": [
     "InTuneDocs\\DeployUse\\protect-windows-devices-with-multi-factor-authentication.md"
   ],
@@ -5295,6 +5298,9 @@
   ],
   "bac9420657d6e709a3f3e93d0fc386b9870cb135": [
     "InTuneDocs\\media\\IntuneSA5bExchangeOnPremPolicy.png"
+  ],
+  "fdc6bd0d45d77da99c55ab3ca5c79614c8e8e496": [
+    "InTuneDocs\\DeployUse\\protect-apps-and-data-with-microsoft-intune.md"
   ],
   "a64a482466549174d0a5060894dc415060c5223c": [
     "InTuneDocs\\DeployUse\\protect-apps-and-data-with-microsoft-intune.md"
