@@ -343,6 +343,9 @@
   "6a6afa4e83853df45cb775991306c4653f43dfea": [
     "zDeletedTopics\\manage-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
+  "2e60048b4a9777505bf925bdef2de805fe7e90f8": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
+  ],
   "23cba0278d75843f988320a398c0443f4bb2c972": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md",
     "migrated-03-14\\Topic\\Manage-Internet-access-using-managed-browser-policies.md"
@@ -5675,10 +5678,10 @@
   "0798676f8956468282bc2b3e23c39cbcf6794cf7": [
     "InTuneDocs\\PlanDesign\\ways-to-do-enterprise-mobility.md"
   ],
-  "bc37bc7224bf528d7f159817affbe6d4fe826d3e": [
+  "b4baf87a9d986d7864a47afc5ec65b1f43f022ef": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
-  "b4baf87a9d986d7864a47afc5ec65b1f43f022ef": [
+  "bc37bc7224bf528d7f159817affbe6d4fe826d3e": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
   "7d634b36c000bd206c86151bc085dd3416b15e32": [
