@@ -2268,6 +2268,9 @@
     "migrated-03-14\\Topic\\Troubleshoot-policies-in-Microsoft-Intune---deleted.md",
     "zDeletedTopics\\troubleshoot-policies-in-microsoft-intune-deleted.md"
   ],
+  "5ab5a6792503dfb911fdb4db000d4736135b3062": [
+    "InTuneDocs\\Troubleshoot\\how-to-get-support-for-microsoft-intune.md"
+  ],
   "704a5963fd33a2b530f2a4fb623b1727504b880d": [
     "InTuneDocs\\Troubleshoot\\how-to-get-support-for-microsoft-intune.md"
   ],
@@ -2430,6 +2433,9 @@
   ],
   "f0afcec51e5bcf393ca817c97a26554cdd39ab43": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-email-profiles-in-microsoft-intune.md"
+  ],
+  "64effaab16f91347d70172e322d39383220ea2fe": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
   ],
   "1b17110b31ecbb4b6cd868adb2840dd98d976a90": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
