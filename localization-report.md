@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2233
 [ Handoff Failed Files ](#handoff-failed-list)| 3
-[ Handoff Success Files ](#handoff-success-list)| 1843
+[ Handoff Success Files ](#handoff-success-list)| 1833
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 387
+[ Ignored Files ](#ignored-list)| 397
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -34,7 +34,6 @@
  [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d9d2cca5e1eed96c1ce2e2b35987c15658c18134/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#32c6db010d784594961ac34de1ba22ffe4167af213)
  [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c5ad19339d50d255f65f56e2b0aea5fb9bcaf5ca/InTuneDocs/DeployUse/android-mam-policy-settings.md) | HandedOffSuccess | [Details](#1863c6f3313d7fb090addb16e51fc0e48a70094d14)
  [InTuneDocs\DeployUse\android-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fc83fb699623f0d2e2484a88fe1b6c5e798f5291/InTuneDocs/DeployUse/android-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#5285fad935b1f285afb479f3cdd1c87a7984a7f815)
- [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c5ad19339d50d255f65f56e2b0aea5fb9bcaf5ca/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md) | HandedOffSuccess | [Details](#e1bc7212d44d104a794fb43a20ca460b7346261516)
  [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md) | HandedOffSuccess | [Details](#f220f439e62e5258a697e7e854c6e761dfc332c717)
  [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md) | HandedOffSuccess | [Details](#09ffdb79c2ae43939bad2fcbf8f15a8a12c6ad4518)
  [InTuneDocs\DeployUse\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/50d294f963317402a46f45eb438fad6199352e75/InTuneDocs/DeployUse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) | HandedOffSuccess | [Details](#468fe951327057ef05ac1263ae670e47186dd0c819)
@@ -45,7 +44,6 @@
  [InTuneDocs\DeployUse\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fc83fb699623f0d2e2484a88fe1b6c5e798f5291/InTuneDocs/DeployUse/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) | HandedOffSuccess | [Details](#9d704a74c109176b57d5f88d8dbbf6ddbf060c4c24)
  [InTuneDocs\DeployUse\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/control-what-admins-can-see-in-the-microsoft-intune-admin-console.md) | HandedOffSuccess | [Details](#95d42437ce81b3418557faee5c38d612a78e993625)
  [InTuneDocs\DeployUse\create-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d9d2cca5e1eed96c1ce2e2b35987c15658c18134/InTuneDocs/DeployUse/create-a-device-compliance-policy-in-microsoft-intune.md) | HandedOffSuccess | [Details](#26d83d805bba27d539a1e074d65bddf85837759226)
- [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d3709e7ac26b6d9d77c7ab1d7474a2f545e45f11/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) | HandedOffSuccess | [Details](#f3e08754251b52e18eaa7679ee46afe448e0036327)
  [InTuneDocs\DeployUse\Custom-configurations-for-VPN-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/Custom-configurations-for-VPN-profiles.md) | HandedOffSuccess | [Details](#2857de4f161f2a980582de8cd92d8d4c0d79daae28)
  [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) | HandedOffSuccess | [Details](#2af93269a5808acf710e36b9e0bdaa96c32db35029)
  [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/752d73784f544b8bb77e5c0f4b9ecc55d803d6d9/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) | HandedOffSuccess | [Details](#5900b0cec3b25132224c3813b0787518524eeb7730)
@@ -53,7 +51,6 @@
  [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fc83fb699623f0d2e2484a88fe1b6c5e798f5291/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md) | HandedOffSuccess | [Details](#0b65bd6a15b2a259c179c1b017310be584d109fe31)
  [InTuneDocs\DeployUse\edition-upgrade-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/edition-upgrade-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#92b37331176d5253be57ea20519d645381a769fe34)
  [InTuneDocs\DeployUse\enable-access-to-company-resources-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/50d294f963317402a46f45eb438fad6199352e75/InTuneDocs/DeployUse/enable-access-to-company-resources-with-microsoft-intune.md) | HandedOffSuccess | [Details](#e82040e1758ccab109e609b6f10d27a239c7bb3e35)
- [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c9bcaeaa1c79c68402cf32509f0f9c62f94c27d2/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md) | HandedOffSuccess | [Details](#fc501ba978ec3eba26cdd27b143a4245a5e2383c36)
  [InTuneDocs\DeployUse\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/63be6d524b3b044cde86d5c591e038bf0f64e896/InTuneDocs/DeployUse/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md) | HandedOffSuccess | [Details](#55cfb7f7fa398177831c9ec645225f54cd4c6d6837)
  [InTuneDocs\DeployUse\enroll-corporate-owned-ios-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/enroll-corporate-owned-ios-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#c2bc05f695536a8aa5257731b7303bbace995b9c38)
  [InTuneDocs\DeployUse\enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3737e1f875c57fd068d737d9af205f9d9e685d39/InTuneDocs/DeployUse/enroll-devices-in-microsoft-intune.md) | HandedOffSuccess | [Details](#0cf78c6b9ebe9af2d4110e7e4338b9194e59dff439)
@@ -198,7 +195,6 @@
  [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/27a64f10bb16772e14bd642aa03c7db89907e38b/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#d95272c08ca21cbbbb5606fb63fa63522f87cecc229)
  [InTuneDocs\DeployUse\monitor-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/monitor-apps-in-microsoft-intune.md) | HandedOffSuccess | [Details](#5d8df5e7a172fc580d923187d3c942781172dcf1230)
  [InTuneDocs\DeployUse\monitoring-and-reports-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/monitoring-and-reports-with-microsoft-intune.md) | HandedOffSuccess | [Details](#32b7e4b9cf781013ca99f106c607d65498aeeab4232)
- [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c9bcaeaa1c79c68402cf32509f0f9c62f94c27d2/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md) | HandedOffSuccess | [Details](#1c0c286b5632e05e794ba5c671cf40a5913a1990231)
  [InTuneDocs\DeployUse\overview-of-app-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/fc83fb699623f0d2e2484a88fe1b6c5e798f5291/InTuneDocs/DeployUse/overview-of-app-lifecycle-in-microsoft-intune.md) | HandedOffSuccess | [Details](#13ab233fc7e584a4d555acb26c3e208dc8ff1dfc233)
  [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/27a64f10bb16772e14bd642aa03c7db89907e38b/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md) | HandedOffSuccess | [Details](#1c13630c3d8380ce8bc0b775bdceca25ac0a703c234)
  [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/27a64f10bb16772e14bd642aa03c7db89907e38b/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md) | HandedOffSuccess | [Details](#033e0746fd5318d4173ccd9496458cba872cc124235)
@@ -218,9 +214,6 @@
  [InTuneDocs\DeployUse\Release-notes-for-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c95cd8bce49228e7429959152e461442b05fae58/InTuneDocs/DeployUse/Release-notes-for-Microsoft-Intune.md) | HandedOffSuccess | [Details](#16feaacef2f628f0e6bcb6cec93f5ecc2d289299249)
  [InTuneDocs\DeployUse\renew-a-symantec-code-signing-certificate.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/renew-a-symantec-code-signing-certificate.md) | HandedOffSuccess | [Details](#5db5d1c37529301676ecc146345d03091262ff6e250)
  [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md) | HandedOffSuccess | [Details](#12aceff89b615d51d937766546c152cb1966991c251)
- [InTuneDocs\DeployUse\restrict-access-to-email-and-o365-services-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/752d73784f544b8bb77e5c0f4b9ecc55d803d6d9/InTuneDocs/DeployUse/restrict-access-to-email-and-o365-services-with-microsoft-intune.md) | HandedOffSuccess | [Details](#07d686b62ee60638497053ff642f51d21cd261f1252)
- [InTuneDocs\DeployUse\restrict-access-to-exchange-online-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/752d73784f544b8bb77e5c0f4b9ecc55d803d6d9/InTuneDocs/DeployUse/restrict-access-to-exchange-online-with-microsoft-intune.md) | HandedOffSuccess | [Details](#7aceefc575a2415d3957f93cd5cc7e1581e7f24e253)
- [InTuneDocs\DeployUse\restrict-access-to-exchange-onpremises-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/752d73784f544b8bb77e5c0f4b9ecc55d803d6d9/InTuneDocs/DeployUse/restrict-access-to-exchange-onpremises-with-microsoft-intune.md) | HandedOffSuccess | [Details](#4ef341f383977e5410e715cbaa140cdc55bf159d254)
  [InTuneDocs\DeployUse\restrict-access-to-sharepoint-online-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d8dfdd295614376b19c4665f1b2f3d7f3af93de0/InTuneDocs/DeployUse/restrict-access-to-sharepoint-online-with-microsoft-intune.md) | HandedOffSuccess | [Details](#856774d97c8174d5e60c3f9a6ef335d131d03940255)
  [InTuneDocs\DeployUse\restrict-access-to-skype-for-business-online-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d8dfdd295614376b19c4665f1b2f3d7f3af93de0/InTuneDocs/DeployUse/restrict-access-to-skype-for-business-online-with-microsoft-intune.md) | HandedOffSuccess | [Details](#6281523e749ac895314e9c099bf5df8a11a27cb7256)
  [InTuneDocs\DeployUse\restrict-email-access-example-scenarios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d8dfdd295614376b19c4665f1b2f3d7f3af93de0/InTuneDocs/DeployUse/restrict-email-access-example-scenarios.md) | HandedOffSuccess | [Details](#b20087534e83225e4d65361e936fd07a31cd214f257)
@@ -587,7 +580,6 @@
  [InTuneDocs\includes\wit_tools_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wit_tools_md.md) | HandedOffSuccess | [Details](#58643537b9c0a34ac93bf6af99240b6e3469ab2a650)
  [InTuneDocs\includes\wps_2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2.md) | HandedOffSuccess | [Details](#e9096a16bdd11b30f840ceba6f1cb16bd4cf25e8651)
  [InTuneDocs\includes\wps_2_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/wps_2_md.md) | HandedOffSuccess | [Details](#7aec405442c5cb6c886214b18022f4f9d2af5cbf652)
- [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3f0bfcb6fe5e43bd328ff1bfdf16cfe70c3a4e7b/InTuneDocs/index.md) | HandedOffSuccess | [Details](#8388281fffb53f524564d68acfda2d4f40c0bdac653)
  [InTuneDocs\media\150x150.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f71656)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | HandedOffSuccess | [Details](#64f06d45481657e65ee924d286623dc83a514f40657)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-12-link-set-mdm.png](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png) | HandedOffSuccess | [Details](#73ef645cbc717eb389266a0e21f6ac7bdb749a6f658)
@@ -1000,12 +992,10 @@
  [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-8.png](https://github.com/Microsoft/IntuneDocs-pr/blob/857cae72431286cc3e67b8b649bcc99c81d216c7/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-8.png) | HandedOffSuccess | [Details](#f2fd8a8da813ca4810c22aca5687df3b8cbecf741203)
  [InTuneDocs\Understand\media\Email-Walkthrough\Email-Walkthrough-9.png](https://github.com/Microsoft/IntuneDocs-pr/blob/857cae72431286cc3e67b8b649bcc99c81d216c7/InTuneDocs/Understand/media/Email-Walkthrough/Email-Walkthrough-9.png) | HandedOffSuccess | [Details](#9e6af6165eb396969fe666307f9b7b81e9f708d01204)
  [InTuneDocs\Understand\microsoft-intune-service-description.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c95cd8bce49228e7429959152e461442b05fae58/InTuneDocs/Understand/microsoft-intune-service-description.md) | HandedOffSuccess | [Details](#20bb6c19dd6109723ba0df0cb236d711ac6bdf331205)
- [InTuneDocs\Understand\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/Understand/mobile-device-management-capabilities-in-microsoft-intune.md) | HandedOffSuccess | [Details](#42445f89be7faf64f3f1fb2f049e5ec07a8a7b141206)
  [InTuneDocs\Understand\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc96531207)
  [InTuneDocs\Understand\set-up-email-access-for-ios-devices-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/Understand/set-up-email-access-for-ios-devices-using-microsoft-intune.md) | HandedOffSuccess | [Details](#f104dfce1bcc685777f9af72eb21d66d1e55601b1208)
  [InTuneDocs\Understand\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md](https://github.com/Microsoft/IntuneDocs-pr/blob/4ad677095d112a0a650cd49cb298f679418f649c/InTuneDocs/Understand/start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md) | HandedOffSuccess | [Details](#836b6f8259ef2754be348affa4dd019d000d7d391209)
  [InTuneDocs\Understand\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/20140e583996821d1ff872f358ee314091ff7f42/InTuneDocs/Understand/TOC.md) | HandedOffSuccess | [Details](#087448e9cbd1cd82b2cac91edec85ef97a9614051210)
- [InTuneDocs\Understand\windows-pc-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/Understand/windows-pc-management-capabilities-in-microsoft-intune.md) | HandedOffSuccess | [Details](#aa5df58909c6322c7d27d63953192e3abe1876351211)
  [migrated-03-14\Image\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/migrated-03-14/Image/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | HandedOffSuccess | [Details](#64f06d45481657e65ee924d286623dc83a514f401212)
  [migrated-03-14\Image\30-day-trial-walkthrus\30day-cfg-pol-12-link-set-mdm.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/migrated-03-14/Image/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png) | HandedOffSuccess | [Details](#73ef645cbc717eb389266a0e21f6ac7bdb749a6f1213)
  [migrated-03-14\Image\30-day-trial-walkthrus\30day-cfg-pol-13-enbl-ios-plat.png](https://github.com/Microsoft/IntuneDocs-pr/blob/11091bc5fb451cfaf6eaa923eafe6df506324960/migrated-03-14/Image/30-day-trial-walkthrus/30day-cfg-pol-13-enbl-ios-plat.png) | HandedOffSuccess | [Details](#3182556c7d25e82331869aeff5e9e7449fcc36831214)
@@ -1885,7 +1875,10 @@
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/.localization-config) | Ignored | [Details](#7ca6758dcb16c24a8710c7cee79920d4f837c36d2)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
+ [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md) | Ignored | [Details](#f7c59122cbf8e9fbb37acad6e20b357114d5d9cd16)
+ [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) | Ignored | [Details](#700fcdba29e83ab6114201f8a728eeb1f9aead5127)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#b9a066239dafbf0c00e82fb782af9023525d73e933)
+ [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md) | Ignored | [Details](#2e328cda0d1cc93f849aef2959e97fff0bbb3ade36)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476174)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e081)
  [InTuneDocs\DeployUse\media\App_Access_EXO.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/media/App_Access_EXO.png) | Ignored | [Details](#2b6df2d39a7f26448017cf118278efe1197bdeca85)
@@ -1937,6 +1930,10 @@
  [InTuneDocs\DeployUse\media\SCEP_Registry_editor_MSCEP.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/media/SCEP_Registry_editor_MSCEP.png) | Ignored | [Details](#bfc8fc4530e19362ec49490a1f70ed336477d701223)
  [InTuneDocs\DeployUse\media\SCEP_Registry_MDM.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/media/SCEP_Registry_MDM.png) | Ignored | [Details](#ba3a1aa88585ec5753eb25d94943732d57ab652c224)
  [InTuneDocs\DeployUse\media\SCEP_SSL_settings.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/media/SCEP_SSL_settings.png) | Ignored | [Details](#fd444a39ea7fdea011b5ba7d32147e684a6a1e32225)
+ [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md) | Ignored | [Details](#b065e57dab02eefcb9f609c31bc70654a1c6bf35231)
+ [InTuneDocs\DeployUse\restrict-access-to-email-and-o365-services-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/restrict-access-to-email-and-o365-services-with-microsoft-intune.md) | Ignored | [Details](#db7b03c585cbe4bbb22ca5fe9a6d7ad3f07fc1a4252)
+ [InTuneDocs\DeployUse\restrict-access-to-exchange-online-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/restrict-access-to-exchange-online-with-microsoft-intune.md) | Ignored | [Details](#d5d84bf2e154869e15340c37631d322daa1ec0a6253)
+ [InTuneDocs\DeployUse\restrict-access-to-exchange-onpremises-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/restrict-access-to-exchange-onpremises-with-microsoft-intune.md) | Ignored | [Details](#193ba1eb91ee284027cb867422c9acec4c96e1b5254)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/docfx.json) | Ignored | [Details](#25d6a6e70df1727fb84a1deb9c3efc99bc990ab2294)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#7b0885b6fc884f750560f0ad7cbe12d6cd66fdd0307)
  [InTuneDocs\EndUser\media\and-enroll-6-knox-agree.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/EndUser/media/and-enroll-6-knox-agree.png) | Ignored | [Details](#9587a8105f75c185c407c3078272d1d3e6aed93d350)
@@ -1967,6 +1964,7 @@
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb507)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6508)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca509)
+ [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/index.md) | Ignored | [Details](#98e911a71ba240316497b9e1716d9a1f659bfe58653)
  [InTuneDocs\intunefiles.txt](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/intunefiles.txt) | Ignored | [Details](#11fd1aed877c922967ea3e4f2cc115d4b8cc596a654)
  [InTuneDocs\main.txt](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/main.txt) | Ignored | [Details](#b5044cfdfebd590a5fbe518775ecced7e4407098655)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.jpg) | Ignored | [Details](#f555a2a0f7e02f3c4d4b833b40ffa1a4102e1703693)
@@ -2107,6 +2105,8 @@
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-51-remt-mgmt-trust.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-51-remt-mgmt-trust.png) | Ignored | [Details](#e869155faf0a505b6aba39bce03180e284b82a531177)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-52-profile-done.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-52-profile-done.png) | Ignored | [Details](#a1eb85b6a803daaad928cdaaef931df786b199361179)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-55-passcode-enter.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-55-passcode-enter.png) | Ignored | [Details](#ba8ad078a5f18959f81804ea0c290d78a2c727cf1183)
+ [InTuneDocs\Understand\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/mobile-device-management-capabilities-in-microsoft-intune.md) | Ignored | [Details](#334ba2330ed78ac5bf09c956e36103e4bd0c0e6e1206)
+ [InTuneDocs\Understand\windows-pc-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/windows-pc-management-capabilities-in-microsoft-intune.md) | Ignored | [Details](#8c18953a0029e114e145e3f5d9f0aa7c176c5d1a1211)
  [migrated-03-14\Image\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/migrated-03-14/Image/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.png) | Ignored | [Details](#2d2325a283bcf27b7790686919e784112cf6284e1248)
  [migrated-03-14\Image\30-day-trial-walkthrus\30day-cfg-pol-48-profile-install-1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/migrated-03-14/Image/30-day-trial-walkthrus/30day-cfg-pol-48-profile-install-1.png) | Ignored | [Details](#f693790f2b5eb3d0a270a454ebcb179fc2a69a9d1249)
  [migrated-03-14\Image\30-day-trial-walkthrus\30day-cfg-pol-49-profile-install-2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/migrated-03-14/Image/30-day-trial-walkthrus/30day-cfg-pol-49-profile-install-2.png) | Ignored | [Details](#533aa521ab0550729db385a26852ed09e8cd2b881250)
@@ -2461,12 +2461,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e1bc7212d44d104a794fb43a20ca460b7346261516'></a> Source: [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c5ad19339d50d255f65f56e2b0aea5fb9bcaf5ca/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md)
-* Status: HandedOffSuccess
+##### <a name='f7c59122cbf8e9fbb37acad6e20b357114d5d9cd16'></a> Source: [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/629834d8730476ae01e8675b3ac56a739631660a/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ru-ru.xlf)
-* Handoff Datetime: 2016-04-23 01:18:46
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -2593,12 +2593,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='f3e08754251b52e18eaa7679ee46afe448e0036327'></a> Source: [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d3709e7ac26b6d9d77c7ab1d7474a2f545e45f11/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='700fcdba29e83ab6114201f8a728eeb1f9aead5127'></a> Source: [InTuneDocs\DeployUse\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/004d1ecb20621d7f4d4ec932df3758bf8444295c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.1c3f40f45ddd82bb184d6dd9988ff7087c19b9e3.ru-ru.xlf)
-* Handoff Datetime: 2016-04-24 03:38:08
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -2701,12 +2701,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='fc501ba978ec3eba26cdd27b143a4245a5e2383c36'></a> Source: [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c9bcaeaa1c79c68402cf32509f0f9c62f94c27d2/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='2e328cda0d1cc93f849aef2959e97fff0bbb3ade36'></a> Source: [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [end-user-experience-for-mam-enabled-apps-with-microsoft-intune.7c4686a11d073da6085dcfa7266f5f6c197c5f69.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/99554833b34d1616c683b6128d13fa9f7dadc106/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.7c4686a11d073da6085dcfa7266f5f6c197c5f69.ru-ru.xlf)
-* Handoff Datetime: 2016-04-23 03:07:31
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -5155,12 +5155,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='1c0c286b5632e05e794ba5c671cf40a5913a1990231'></a> Source: [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c9bcaeaa1c79c68402cf32509f0f9c62f94c27d2/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='b065e57dab02eefcb9f609c31bc70654a1c6bf35231'></a> Source: [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [monitor-mobile-app-management-policies-with-microsoft-intune.c66af86c5d28374930c6e9c7e761080155045d75.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/99554833b34d1616c683b6128d13fa9f7dadc106/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/monitor-mobile-app-management-policies-with-microsoft-intune.c66af86c5d28374930c6e9c7e761080155045d75.ru-ru.xlf)
-* Handoff Datetime: 2016-04-23 03:07:31
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -5395,36 +5395,36 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='07d686b62ee60638497053ff642f51d21cd261f1252'></a> Source: [InTuneDocs\DeployUse\restrict-access-to-email-and-o365-services-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/752d73784f544b8bb77e5c0f4b9ecc55d803d6d9/InTuneDocs/DeployUse/restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='db7b03c585cbe4bbb22ca5fe9a6d7ad3f07fc1a4252'></a> Source: [InTuneDocs\DeployUse\restrict-access-to-email-and-o365-services-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [restrict-access-to-email-and-o365-services-with-microsoft-intune.c7343e09738c52e8bc1562235ac4eddad899a20f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/b407d6610d32b0651dc6fe75db25a1de34de570e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/restrict-access-to-email-and-o365-services-with-microsoft-intune.c7343e09738c52e8bc1562235ac4eddad899a20f.ru-ru.xlf)
-* Handoff Datetime: 2016-04-22 22:42:31
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='7aceefc575a2415d3957f93cd5cc7e1581e7f24e253'></a> Source: [InTuneDocs\DeployUse\restrict-access-to-exchange-online-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/752d73784f544b8bb77e5c0f4b9ecc55d803d6d9/InTuneDocs/DeployUse/restrict-access-to-exchange-online-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='d5d84bf2e154869e15340c37631d322daa1ec0a6253'></a> Source: [InTuneDocs\DeployUse\restrict-access-to-exchange-online-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/restrict-access-to-exchange-online-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [restrict-access-to-exchange-online-with-microsoft-intune.bc56e1909be24acd67d27d42c5ca8cee9bb9afc8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/b407d6610d32b0651dc6fe75db25a1de34de570e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/restrict-access-to-exchange-online-with-microsoft-intune.bc56e1909be24acd67d27d42c5ca8cee9bb9afc8.ru-ru.xlf)
-* Handoff Datetime: 2016-04-22 22:42:31
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='4ef341f383977e5410e715cbaa140cdc55bf159d254'></a> Source: [InTuneDocs\DeployUse\restrict-access-to-exchange-onpremises-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/752d73784f544b8bb77e5c0f4b9ecc55d803d6d9/InTuneDocs/DeployUse/restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='193ba1eb91ee284027cb867422c9acec4c96e1b5254'></a> Source: [InTuneDocs\DeployUse\restrict-access-to-exchange-onpremises-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/DeployUse/restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [restrict-access-to-exchange-onpremises-with-microsoft-intune.7099573a7f54421b76cc21103d7869efa6122f94.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/b407d6610d32b0651dc6fe75db25a1de34de570e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/restrict-access-to-exchange-onpremises-with-microsoft-intune.7099573a7f54421b76cc21103d7869efa6122f94.ru-ru.xlf)
-* Handoff Datetime: 2016-04-22 22:42:31
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -10299,12 +10299,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='8388281fffb53f524564d68acfda2d4f40c0bdac653'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3f0bfcb6fe5e43bd328ff1bfdf16cfe70c3a4e7b/InTuneDocs/index.md)
-* Status: HandedOffSuccess
+##### <a name='98e911a71ba240316497b9e1716d9a1f659bfe58653'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/index.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/4e01d642d6f5f2d605776568ce47a7232e59e229/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
-* Handoff Datetime: 2016-04-24 19:38:36
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -17300,12 +17300,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='42445f89be7faf64f3f1fb2f049e5ec07a8a7b141206'></a> Source: [InTuneDocs\Understand\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/Understand/mobile-device-management-capabilities-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='334ba2330ed78ac5bf09c956e36103e4bd0c0e6e1206'></a> Source: [InTuneDocs\Understand\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/mobile-device-management-capabilities-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [mobile-device-management-capabilities-in-microsoft-intune.e4502d2606a7e44639984a892bc6c77a87276f88.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/5185c563432bf4d5392466cb3d8989776d84de6c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-management-capabilities-in-microsoft-intune.e4502d2606a7e44639984a892bc6c77a87276f88.ru-ru.xlf)
-* Handoff Datetime: 2016-04-22 18:11:07
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -17360,12 +17360,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='aa5df58909c6322c7d27d63953192e3abe1876351211'></a> Source: [InTuneDocs\Understand\windows-pc-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8f6b4402b955f49a7a1f6d2c3c83aaa405034990/InTuneDocs/Understand/windows-pc-management-capabilities-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='8c18953a0029e114e145e3f5d9f0aa7c176c5d1a1211'></a> Source: [InTuneDocs\Understand\windows-pc-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/75e8566a788919d6f29765547a33cb6ad589f360/InTuneDocs/Understand/windows-pc-management-capabilities-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [windows-pc-management-capabilities-in-microsoft-intune.4bb4ef35ed3f841cd920e014bc1b39c12a79a4f8.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/5185c563432bf4d5392466cb3d8989776d84de6c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/windows-pc-management-capabilities-in-microsoft-intune.4bb4ef35ed3f841cd920e014bc1b39c12a79a4f8.ru-ru.xlf)
-* Handoff Datetime: 2016-04-22 18:11:07
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
