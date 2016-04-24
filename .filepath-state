@@ -1161,6 +1161,9 @@
   "184c5c543d5ff582dfa3289511303578be301ea4": [
     "InTuneDocs\\getting-started-with-the-microsoft-intune-app-sdk.md"
   ],
+  "e9fbe31b5a9d2fc1f573bfddce520634bbee303f": [
+    "InTuneDocs\\EULA\\how-microsoft-intune-helps-you-comply-with-security-and-privacy-requirements.md"
+  ],
   "17bd7b18dc1a452c28c41fd20cdbf5028afa689a": [
     "InTuneDocs\\EULA\\how-microsoft-intune-helps-you-comply-with-security-and-privacy-requirements.md"
   ],
@@ -1681,6 +1684,9 @@
   "cd064e81b847fb5cacf7a7d0af55f3638c047763": [
     "zDeletedTopics\\LCA-Notices.md"
   ],
+  "191d4d3e5a4608a5f3efe02ca40809e1d598af96": [
+    "InTuneDocs\\EULA\\legal-information.md"
+  ],
   "77397bfa5a8df41a71a628a77c87ad151965bccb": [
     "InTuneDocs\\EULA\\legal-information.md",
     "zDeletedTopics\\Legal-Information.md"
@@ -1930,6 +1936,9 @@
   "47903de495e99abda4d6884f41bff4c0c5bdaced": [
     "zDeletedTopics\\Microsoft-Intune-policy-settings-reference.md"
   ],
+  "865c88187ac25087e2cfa3203af58116968943fe": [
+    "InTuneDocs\\EULA\\microsoft-intune-privacy-statement.md"
+  ],
   "681ef4278c14ece12862b50f72a510031c3ac136": [
     "InTuneDocs\\EULA\\microsoft-intune-privacy-statement.md"
   ],
@@ -1990,11 +1999,7 @@
     "InTuneDocs\\DeployUse\\overview-of-the-microsoft-intune-app-sdk.md"
   ],
   "59177003de3ecda6ffe43297cedadfb95cd9f24c": [
-    "migrated-03-14\\Topic\\Partner-Content.md",
-    "InTuneDocs\\EULA\\partner-content.md"
-  ],
-  "911184e9ac4cfd1fa1c55f69e82140be040b2756": [
-    "InTuneDocs\\EULA\\partner-content.md"
+    "migrated-03-14\\Topic\\Partner-Content.md"
   ],
   "4a22ca10923e1444be6b2e2f6678e7efac886767": [
     "migrated-03-14\\Topic\\Placeholder-so-I-can-paste-other-topics-into-this-folder.md",
@@ -2112,6 +2117,9 @@
   "43cb8efdf694eb2d671ccaff91bf3099b7ab300d": [
     "InTuneDocs\\DeployUse\\prepare-ios-apps-for-mobile-app-management.md"
   ],
+  "7f4bbf13f71b0a316740421bed806595fd7b8808": [
+    "InTuneDocs\\EULA\\privacy-statement.md"
+  ],
   "8a6192fb1fb1123b2dc603c25a487a2964eac445": [
     "InTuneDocs\\EULA\\privacy-statement.md"
   ],
@@ -2131,6 +2139,9 @@
   ],
   "550fe26b3351aa241fd4d5b354c3d301889a7fb6": [
     "zDeletedTopics\\release-notes-for-microsoft-intune.md"
+  ],
+  "232a2468ec697a5880e70ea175bb1c251626e0ec": [
+    "InTuneDocs\\EULA\\remote-assistance-via-microsoft-easy-assist.md"
   ],
   "ccc80d4fece96f5d06397eb49d2dd467be9c661a": [
     "InTuneDocs\\EULA\\remote-assistance-via-microsoft-easy-assist.md"
@@ -2238,11 +2249,17 @@
   "abb19a4d12e083ba79d77c0bdf10507caf7a82e6": [
     "zDeletedTopics\\Temp-Software-Updates-Topic.md"
   ],
+  "cf232a785700879a5d881c3c22ac8533d7cb842d": [
+    "InTuneDocs\\EULA\\terms-of-delegated-administration-for-microsoft-intune.md"
+  ],
   "8d0a67a73230750ef7791854ef6af71a8b10766b": [
     "InTuneDocs\\EULA\\terms-of-delegated-administration-for-microsoft-intune.md"
   ],
   "e1429a10602e27418af03f0f6a0bd6d5d5515dd0": [
     "InTuneDocs\\EULA\\terms-of-delegated-administration-for-microsoft-intune.md"
+  ],
+  "28d2b3044fb20325f8a4e0fdf7f33a8eac24850a": [
+    "InTuneDocs\\EULA\\terms-of-use.md"
   ],
   "7855670d188617daa375650681497a7d54343c9d": [
     "InTuneDocs\\EULA\\terms-of-use.md"
@@ -4136,6 +4153,9 @@
   ],
   "438875e3ce212c80593abcb0ff0bdded773685f4": [
     "migrated-03-14\\Topic\\Microsoft-Intune-Service-Description.md"
+  ],
+  "8539425eacced1e09d64b582b41c7fce26e683ac": [
+    "InTuneDocs\\EULA\\MICROSOFT-SOFTWARE-SUPPLEMENTAL-NOTICE.md"
   ],
   "5c7169bfff34806546ff5adaf787f2071f8ff513": [
     "InTuneDocs\\EULA\\MICROSOFT-SOFTWARE-SUPPLEMENTAL-NOTICE.md"
