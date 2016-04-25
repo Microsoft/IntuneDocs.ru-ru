@@ -2154,6 +2154,9 @@
   "bd5790c1e0f77cea5438b5f92aeb9168539cb42a": [
     "InTuneDocs\\GetStarted\\policy-rollout.md"
   ],
+  "cd83ab9088eb380758deadf776c464c085a161d5": [
+    "InTuneDocs\\GetStarted\\post-configuration-tasks.md"
+  ],
   "448e02f95dcfaec425180486f2d5d64d95820423": [
     "InTuneDocs\\GetStarted\\post-configuration-tasks.md"
   ],
@@ -3064,6 +3067,9 @@
   ],
   "682991f322fac0c2001ce4fcaeabecf4c5b79bcb": [
     "InTuneDocs\\media\\IntuneSA5cServiceToServiceConnector.PNG"
+  ],
+  "ccde808c9e86ebc4484d6367a5ad34d8ba757422": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
   ],
   "7d9896153f493f500de47c59bbf2edec1986c1bb": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
@@ -7724,6 +7730,9 @@
   "8c3d0e5492078f6d4fdf6b10614b5be81e21b68d": [
     "InTuneDocs\\DeployUse\\migrate-to-intune.md"
   ],
+  "7f3143b70a936e3c30099305569682f51aeece96": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune.md"
+  ],
   "3a8eead434baa590d68f5fae34d615460f2a86a2": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune.md"
   ],
@@ -7793,6 +7802,9 @@
   "edeac3d938d33f5234cf128999d93294b649770f": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-4.md"
   ],
+  "c14c00d59f6363b3200160bf4f98515cef5a1cba": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-5.md"
+  ],
   "3b6ade7eabaa6a94529d2674f29b51ce54d69301": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
@@ -7805,6 +7817,9 @@
   "38f65bd3c7885b2e3c704e9081779d8b16760754": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
+  "471a043c1e3640f382f01baf4f337c2f77b8cdcd": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+  ],
   "25b83875e045713d16cc240e093b3970d384380a": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
   ],
@@ -7816,6 +7831,9 @@
   ],
   "da4548d9d587938cc361c0a177a43e3ba4af5fb1": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+  ],
+  "c9f2a1438f84f8f697a1a3c6f79f7fbe10f353c3": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-7.md"
   ],
   "c5ff6fd8177027421e658222cb13b10e1bb6b716": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-7.md"
@@ -7831,6 +7849,9 @@
   ],
   "f35aa373dff85836b06d4a1cd7f65d781c82d974": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-7.md"
+  ],
+  "624d05b0906e8bcac5b79d4a782f6cc2347a315e": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
   ],
   "13aa0c689eb8fe7bdaec975f18f011ffae21170b": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
