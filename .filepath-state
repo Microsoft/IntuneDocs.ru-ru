@@ -1831,6 +1831,9 @@
   "bb8a8e9336e939f67ab4dc75801b4e9c04aa2d10": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-5-trust.png"
   ],
+  "ef4d54d25ca4397410d76e11baf693b88498e13f": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-6-done.PNG"
+  ],
   "53b714feab73f35f53256bbf0f6ecc9544114b87": [
     "InTuneDocs\\EndUser\\media\\managed-apps-message.png"
   ],
@@ -6332,6 +6335,9 @@
   "ae436c13137b09f261281b17e8adde32942f1775": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
   ],
+  "5905219caa9fd4d62c140b8ad92016fb3049810b": [
+    "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "c5eaf149617d74dc6d246100c58bf7cec8d85423": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -7039,6 +7045,9 @@
   ],
   "b3afd97ec0b256f6fde063ed2b1e938e18af591b": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
+  ],
+  "a1a2cf7d8660ecaef3ef73a5f0ed86c1b84128b5": [
+    "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
   ],
   "5298570a8951a4cb34fc1798eed2b84c88d9a734": [
     "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
@@ -8053,5 +8062,8 @@
   ],
   "f1ea310cf0c1af43f10cf6c9eefef3ff5ccd7110": [
     "InTuneDocs\\EndUser\\media\\ios-sync-2-sync-button.png"
+  ],
+  "022419048233d679938c3a0013fc690a60c413e9": [
+    "InTuneDocs\\EndUser\\media\\ios-enroll-7-open-cp.png"
   ]
 }
