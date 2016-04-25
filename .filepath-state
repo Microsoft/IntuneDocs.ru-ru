@@ -300,6 +300,9 @@
   "9c41da603ad298c36a7d0bf8b4c55ab1f6fab05e": [
     "InTuneDocs\\DeployUse\\enable-access-to-company-resources-with-microsoft-intune.md"
   ],
+  "f05e7a50c1832f4c73887774715f8f1f572795a2": [
+    "InTuneDocs\\DeployUse\\get-notified-by-microsoft-intune-alerts.md"
+  ],
   "d30b41c2d462cad0f76fc554dc1bf010396a0b0b": [
     "InTuneDocs\\DeployUse\\get-notified-by-microsoft-intune-alerts.md"
   ],
@@ -356,6 +359,9 @@
   ],
   "7a90145cafbb5e803ace1380787d138ad273dea3": [
     "InTuneDocs\\DeployUse\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
+  ],
+  "d1c200693bd9433342a45c6e095f703167b7b409": [
+    "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
   ],
   "24537b48cb9583e57725127bc51b7b2ad6e8e5fa": [
     "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
@@ -3772,6 +3778,9 @@
   "b3d8d86e9a6037982c8ee51715bac55c365b6e9b": [
     "InTuneDocs\\DeployUse\\Configure-Intune-certificate-profiles.md"
   ],
+  "0eeee03ee29b1d37a47a1eaef9cba04f1174c139": [
+    "InTuneDocs\\DeployUse\\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
+  ],
   "af1e387177bad588dea22e8804ed34039d32e56b": [
     "InTuneDocs\\DeployUse\\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
   ],
@@ -6515,9 +6524,6 @@
   "15b9f2c911ab04486618a68eb83f5ddebfda5d4b": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
-  "1e00d5fb315cac297294a74496d2a4342051f945": [
-    "InTuneDocs\\media\\passport.png"
-  ],
   "1863c6f3313d7fb090addb16e51fc0e48a70094d": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
   ],
@@ -7568,6 +7574,9 @@
   "a89b8a10384e1dae39077335bab78d5144f2c1c9": [
     "zDeletedTopics\\sign-in-to-the-company-portal-app-android.md"
   ],
+  "40a5106ba12166c0ab98a63d130578b8c29a6e3c": [
+    "InTuneDocs\\index.md"
+  ],
   "3c46f54955c184071fca80a2a7a866d2c569f2c5": [
     "InTuneDocs\\index.md"
   ],
@@ -7827,7 +7836,7 @@
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md"
   ],
   "8ed6922c36742fbe2310bdf575a99eaf3b7d36d8": [
-    "InTuneDocs\\media\\pol-sa-pc-endpoint-policy.png"
+    "InTuneDocs\\DeployUse\\media\\pol-sa-pc-endpoint-policy.png"
   ],
   "cb40e46e38063760b5af35c5f749139fa61c8ac8": [
     "InTuneDocs\\media\\pol-sa-pc-policy-realtime.png"
