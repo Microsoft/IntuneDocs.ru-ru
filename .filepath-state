@@ -360,6 +360,9 @@
   "7a90145cafbb5e803ace1380787d138ad273dea3": [
     "InTuneDocs\\DeployUse\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
   ],
+  "990f6197f1e9a33ef026c3311bb3442c89b29d98": [
+    "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
+  ],
   "d1c200693bd9433342a45c6e095f703167b7b409": [
     "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
   ],
@@ -2266,10 +2269,10 @@
     "InTuneDocs\\media\\WPCertReqs.png"
   ],
   "a3713304193d4562fb5784b2e0ec7730ac5e796e": [
-    "InTuneDocs\\media\\wit_.gif"
+    "InTuneDocs\\media\\wit.gif"
   ],
   "b86daa607f8bdfca2b36b2e9c956dc9872a80e4d": [
-    "InTuneDocs\\media\\wit_walk_cert2.gif"
+    "InTuneDocs\\media\\wit-walk-cert2.gif"
   ],
   "a2a520224fc91ff6f26c8c7184824a8962351fbb": [
     "zDeletedTopics\\set-your-mdm-management-authority.md"
@@ -2618,6 +2621,9 @@
   ],
   "840ad2388da52f773c1dabecda0809ecdff39950": [
     "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
+  ],
+  "958e0981ca94c5c2eaa0426103cb573b66684b3e": [
+    "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
   "e6799616f29055f756110259f66eb17b89d3783c": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
@@ -3097,6 +3103,9 @@
   ],
   "9f1910a29ae93f83816acabe76ef5cdd7c39e08c": [
     "InTuneDocs\\Understand\\set-up-email-access-for-ios-devices-using-microsoft-intune.md"
+  ],
+  "8a8797b47bc0537b5816b61ef0e667135a0f29f1": [
+    "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
   ],
   "693df28ead35277e1c4b3d20cbf0ee959fec61c2": [
     "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
@@ -5543,6 +5552,9 @@
   "75b09001dc7e9007f069c2141ed631bfafc840d1": [
     "zDeletedTopics\\set-mobile-device-management-authority-in-microsoft-intune.md"
   ],
+  "5d09548a3504fb71b5b86ec829523169ae9b32fa": [
+    "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
+  ],
   "b8a70a87a384a5d257727e901a37b5b6e87da1bf": [
     "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
@@ -5561,6 +5573,9 @@
   "1964b48c221eed4b6c38cf54ccddc736c0d5abbe": [
     "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
+  "5aa603d19541edf1a3ab8f75959a9b601188a203": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
+  ],
   "be801f21b9611637ef400b8f5c4c09de8a497bce": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
   ],
@@ -5572,6 +5587,9 @@
   ],
   "af09053d20f937071ff49326fd353ba9563f85c2": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
+  ],
+  "3e038b78dcab1d02229e64d9fc4cc8adb99c4073": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-management-with-microsoft-intune.md"
   ],
   "7ac51995549850990a8889be680d882072c6ed51": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-management-with-microsoft-intune.md"
@@ -6425,6 +6443,9 @@
   "d835c516271dd993c231b4f13a4fe414567b2fc3": [
     "InTuneDocs\\DeployUse\\intune-on-premises-exchange-connector.md"
   ],
+  "7bc63f3ae20eea6108596ac1fa6326690686ae35": [
+    "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
+  ],
   "72c1ccc1af4d1b4900ce8f82c8986b582025fada": [
     "InTuneDocs\\DeployUse\\intune-service-to-service-exchange-connector.md"
   ],
@@ -6467,6 +6488,9 @@
   "44fbc2dfcbbbe4dcd29906d30e15135a82f99d65": [
     "zDeletedTopics\\Intune-on-premises-Exchange-connector-a.md"
   ],
+  "daf334a3575131e4d49d69844660deb9a7e8c9d3": [
+    "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
   "0377e7500e7f5af0dc78ee887f5b987329f19685": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
@@ -6505,6 +6529,9 @@
   ],
   "e14facf2d873f0dd533ab23beab56f7b0365db84": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
+  ],
+  "592c753c339541071d511b91a6def5cb7d0ac7c6": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
   "59b5606cadf3a72c025d5c1ddaf426c735d4c540": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
@@ -6655,6 +6682,9 @@
   ],
   "1ecd877239787a40c0f627b1b93e4cf264cc6beb": [
     "InTuneDocs\\DeployUse\\policies-to-protect-windows-pcs-in-microsoft-intune.md"
+  ],
+  "786265568ac95c0adf7882925fd5a5d22ec45016": [
+    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
   ],
   "4688878fe5aa851cc08a302f473ee5bc8e2f7285": [
     "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
@@ -6869,6 +6899,9 @@
   "ffb6fd5b0576d02e9b311ba3047c6a6699c6722a": [
     "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
   ],
+  "2ae3eef67e757449698eac026ef578438dbef078": [
+    "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
+  ],
   "ce8e4646c8c529abc1c518ebf6fddc59f654954b": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
@@ -6883,6 +6916,9 @@
   ],
   "00c1e4b5f1d83a33fa26ae56b0eec4431ec0e4d0": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
+  ],
+  "344c69e503a4c8c7d4c0ed81db8b4e388c1473b3": [
+    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
   "aad69c45f43cecb39cca2b69fdd9ddf887480807": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
@@ -7030,6 +7066,9 @@
   ],
   "19064a8aaede330ac742af6e3a735598ac868733": [
     "InTuneDocs\\media\\em-vision.png"
+  ],
+  "c7c8cc2db8378905a49f9b47863f4300601d279b": [
+    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
   ],
   "11201eaec97c554d09a0788b9e64fcabe1aefc51": [
     "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
@@ -7259,6 +7298,9 @@
   "7c3159909e762a626663ee87ac46f39f73974588": [
     "zDeletedTopics\\How-to-set-the-password-on-your-Android-device.md"
   ],
+  "76bebaddb3313819236b128add52d74829f433e0": [
+    "InTuneDocs\\DeployUse\\retire-devices-from-microsoft-intune-management.md"
+  ],
   "2d34367de85f492f20c0f259d065e1fa2c493fd1": [
     "InTuneDocs\\DeployUse\\retire-devices-from-microsoft-intune-management.md"
   ],
@@ -7273,6 +7315,9 @@
   ],
   "d8bb7e4e19e01bdf3527a40405e1aff1ff25057a": [
     "InTuneDocs\\DeployUse\\use-remote-lock-and-passcode-reset-in-microsoft-intune.md"
+  ],
+  "40069b670582a5f7f9b285e037ff3229dd1d9569": [
+    "InTuneDocs\\DeployUse\\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md"
   ],
   "c7a06c283307d3bef7a1a2c5c1c0d503aa2280f5": [
     "InTuneDocs\\DeployUse\\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md"
