@@ -2839,6 +2839,9 @@
   "455701510cf85442c6b4ee4a39d42f4283f18a87": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
+  "2d24df6ec9fe62691ed5448355f2a0ef6eb2ad2b": [
+    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
+  ],
   "2d2c8ce9a14eb6933e15f7a00b142751c7d4370e": [
     "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
   ],
@@ -2974,6 +2977,9 @@
   "2a7393638c70622422bb95b6f3822454b3da54e9": [
     "zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md",
     "zDeletedTopics\\use-groups-to-manage-users-and-devices-with-microsoft-intune-old.md"
+  ],
+  "18462d3369f1f72868e3d46ad956513df8fad25a": [
+    "InTuneDocs\\media\\Intune-Device-Policy-v.2.jpg"
   ],
   "2b4c8d0cbcc8d2cd45731ca47a0ec5bbf3d9101b": [
     "zDeletedTopics\\use-kiosk-mode-to-control-access-to-device-functions-with-microsoft-intune-deleted.md",
@@ -3450,13 +3456,13 @@
   "a6091b215e17ca88dd0575aa9e3a5ee1694c9f93": [
     "InTuneDocs\\GetStarted\\rollout-phases-for-microsoft-intune-deployment.md"
   ],
+  "19c191bd69373d4bb0348d778a815ce6f0fee31a": [
+    "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
+  ],
   "d686fd0d04d03f455f89bea318d340105974f41f": [
     "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
   ],
   "bbb7951c57856ffa7a59f6446e14108205045b90": [
-    "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
-  ],
-  "19c191bd69373d4bb0348d778a815ce6f0fee31a": [
     "InTuneDocs\\DeployUse\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
   ],
   "e3ec2660eb9b56983894804588afa083d8970043": [
