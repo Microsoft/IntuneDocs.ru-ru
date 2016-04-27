@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2247
 [ Handoff Failed Files ](#handoff-failed-list)| 3
-[ Handoff Success Files ](#handoff-success-list)| 1857
+[ Handoff Success Files ](#handoff-success-list)| 1855
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 387
+[ Ignored Files ](#ignored-list)| 389
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -36,7 +36,6 @@
  [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md) | HandedOffSuccess | [Details](#1b30346d0605ecc4ebd39e3c39a3f0581a8e712815)
  [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md) | HandedOffSuccess | [Details](#ddf727348aae2edb3981bec3251f09f1231b752e16)
  [InTuneDocs\DeployUse\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0335b80afa8e330263baad054f0e902f019f75bb/InTuneDocs/DeployUse/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md) | HandedOffSuccess | [Details](#2416faffac016e381e93ca661ff7a55bff4be12017)
- [InTuneDocs\DeployUse\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0335b80afa8e330263baad054f0e902f019f75bb/InTuneDocs/DeployUse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) | HandedOffSuccess | [Details](#12ee68205c94bcf1a8e954a1b2ac454fbeaf071a18)
  [InTuneDocs\DeployUse\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md) | HandedOffSuccess | [Details](#25c8274834a430fd49668fce0587fbc2abb4ab0a19)
  [InTuneDocs\DeployUse\Configure-certificate-infrastructure.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/Configure-certificate-infrastructure.md) | HandedOffSuccess | [Details](#44422f61b9668b0e2e5f5077d45b75b4acad53e620)
  [InTuneDocs\DeployUse\Configure-Intune-certificate-profiles.md](https://github.com/Microsoft/IntuneDocs-pr/blob/06fff8d66cf73193562c51cb7e8c3e9633ca0665/InTuneDocs/DeployUse/Configure-Intune-certificate-profiles.md) | HandedOffSuccess | [Details](#565f7cd3c533ff0e5fead86965d6b97f1522df7721)
@@ -906,7 +905,6 @@
  [InTuneDocs\Troubleshoot\Sample.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Troubleshoot/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc96531097)
  [InTuneDocs\Troubleshoot\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/20140e583996821d1ff872f358ee314091ff7f42/InTuneDocs/Troubleshoot/TOC.md) | HandedOffSuccess | [Details](#8a64ac553cbf4c6f3a3a762763239c8aa9eebccc1098)
  [InTuneDocs\Troubleshoot\troubleshoot-app-deployment-problems-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5b3b7a8db020e3fd18e7a87399a7cc95ca2d3533/InTuneDocs/Troubleshoot/troubleshoot-app-deployment-problems-in-microsoft-intune.md) | HandedOffSuccess | [Details](#d2b9da873cbdc4874a7cd5fd8badddefe84382b21099)
- [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2a0f846ea472c19dd805073d4831139ab15049d7/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md) | HandedOffSuccess | [Details](#ddd2b87bb9e3151855159934f3f2d25e694dc6521100)
  [InTuneDocs\Troubleshoot\troubleshoot-company-resource-access-problems-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/Troubleshoot/troubleshoot-company-resource-access-problems-with-microsoft-intune.md) | HandedOffSuccess | [Details](#f8095cf035eed91aba332f566d2804e4e4642f161101)
  [InTuneDocs\Troubleshoot\troubleshoot-device-enrollment-in-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2a0f846ea472c19dd805073d4831139ab15049d7/InTuneDocs/Troubleshoot/troubleshoot-device-enrollment-in-intune.md) | HandedOffSuccess | [Details](#1c432f0ec1421b41c51d6e2fca3ca09417a1a3871102)
  [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md) | HandedOffSuccess | [Details](#c82e6651bd8b5de238527c417fa5092f8adfe5b51103)
@@ -1899,6 +1897,7 @@
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/.localization-config) | Ignored | [Details](#03f6d426b20fa525b6f8fd42984add0cd9b6bcae2)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
+ [InTuneDocs\DeployUse\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/DeployUse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) | Ignored | [Details](#cce03dfd821efc0bfdce74e0799f8b52bfea1fd318)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#f3847a554fc5c97e83456a08bff0430698c98e9c32)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476173)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e080)
@@ -2109,6 +2108,7 @@
  [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/PlanDesign/docfx.json) | Ignored | [Details](#07394236386cd3dc85a1dcebaeb9ec08841514711084)
  [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#9b0557fdb6fe61eb688bf86cc57eb8bfc30b625e1091)
  [InTuneDocs\Troubleshoot\media\HybridOnlineWizard1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Troubleshoot/media/HybridOnlineWizard1.png) | Ignored | [Details](#e9b4c235a72763d938cfbade201312a958df37e31096)
+ [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md) | Ignored | [Details](#3621fd90abb93dcc6969f091272fde45347a06c81100)
  [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#4812aa98eb7e600205b54920e54b2392a8ad42871111)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec751301360801122)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.jpg) | Ignored | [Details](#f555a2a0f7e02f3c4d4b833b40ffa1a4102e17031160)
@@ -2499,12 +2499,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='12ee68205c94bcf1a8e954a1b2ac454fbeaf071a18'></a> Source: [InTuneDocs\DeployUse\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0335b80afa8e330263baad054f0e902f019f75bb/InTuneDocs/DeployUse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='cce03dfd821efc0bfdce74e0799f8b52bfea1fd318'></a> Source: [InTuneDocs\DeployUse\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/DeployUse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.7edc8305bb4c8fe1d8a774930953e715c1539721.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/3ea3cce897edaa78f9dfc1883c26bb43edfe4773/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.7edc8305bb4c8fe1d8a774930953e715c1539721.ru-ru.xlf)
-* Handoff Datetime: 2016-04-26 13:16:06
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -15987,12 +15987,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='ddd2b87bb9e3151855159934f3f2d25e694dc6521100'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2a0f846ea472c19dd805073d4831139ab15049d7/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='3621fd90abb93dcc6969f091272fde45347a06c81100'></a> Source: [InTuneDocs\Troubleshoot\troubleshoot-client-setup-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0dc5d6945e1897a9d72937f456a11c3750e2753c/InTuneDocs/Troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [troubleshoot-client-setup-in-microsoft-intune.7c5e50fa43cb7d1a7b9a1f7d4799d1a6c2655520.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/402307d724091189c24a9389504fbcfc96f322d1/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/troubleshoot-client-setup-in-microsoft-intune.7c5e50fa43cb7d1a7b9a1f7d4799d1a6c2655520.ru-ru.xlf)
-* Handoff Datetime: 2016-04-27 14:07:04
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
