@@ -1187,6 +1187,9 @@
   "fe98e87737685b79a1db7d7a34eb487ae11f0e80": [
     "InTuneDocs\\EndUser\\existing-company-email-account-found.md"
   ],
+  "eb42c97b3d526fa67177ce2138879926933f7fbf": [
+    "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
   "2a23477b308b5427ceceaef08993ac048f6e2b23": [
     "InTuneDocs\\GetStarted\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
@@ -2519,6 +2522,9 @@
   "6a9380710026f705072375434d7ae6fe8926264d": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-app-deployment-problems-in-microsoft-intune.md"
   ],
+  "664e710a8d1c8ffeff8a40d70ed8e2ab0391b743": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-client-setup-in-microsoft-intune.md"
+  ],
   "8bdaa517ddd73b0a0e70b5994e86d3d887d9687b": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-client-setup-in-microsoft-intune.md"
   ],
@@ -2593,6 +2599,9 @@
   ],
   "e087fbc340b87dfeaa65d886161afd163ce4b34a": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-company-resource-access-problems-with-microsoft-intune.md"
+  ],
+  "aa95c8aa8dbf96b6209d6c9af7fb99098f356279": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
   "bd732c703eb5fa2fdcb0885ca21c79f83d855f89": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
@@ -2867,6 +2876,9 @@
   ],
   "455701510cf85442c6b4ee4a39d42f4283f18a87": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
+  ],
+  "bed5bc859af10502d101c4802839ddb4e0aaf1c6": [
+    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
   ],
   "2d24df6ec9fe62691ed5448355f2a0ef6eb2ad2b": [
     "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
