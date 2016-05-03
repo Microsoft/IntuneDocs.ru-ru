@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\vpn-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a39cdb3f762cea2f0b5dc58439470fdb765e180f/InTuneDocs/DeployUse/vpn-connections-in-microsoft-intune.md) | HandedOffSuccess | [Details](#6efebdbabfde13767ce2e4663398391b6de3b3dc270)
+ [InTuneDocs\DeployUse\vpn-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9af510cf838eb37e8df3ace8334bf8bcf5ac48cf/InTuneDocs/DeployUse/vpn-connections-in-microsoft-intune.md) | HandedOffSuccess | [Details](#7ffe29d1d3233331c47814b687096abfca837514270)
 
 ## Item Details
-##### <a name='6efebdbabfde13767ce2e4663398391b6de3b3dc270'></a> Source: [InTuneDocs\DeployUse\vpn-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a39cdb3f762cea2f0b5dc58439470fdb765e180f/InTuneDocs/DeployUse/vpn-connections-in-microsoft-intune.md)
+##### <a name='7ffe29d1d3233331c47814b687096abfca837514270'></a> Source: [InTuneDocs\DeployUse\vpn-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9af510cf838eb37e8df3ace8334bf8bcf5ac48cf/InTuneDocs/DeployUse/vpn-connections-in-microsoft-intune.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [vpn-connections-in-microsoft-intune.fb1020834695c6cc29b0f170f5683cc0f44eee15.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/61397f46558f365482c9e5422c4f59a02384bf75/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/vpn-connections-in-microsoft-intune.fb1020834695c6cc29b0f170f5683cc0f44eee15.ru-ru.xlf)
-* Handoff Datetime: 2016-05-03 21:27:02
+* Handoff File: [vpn-connections-in-microsoft-intune.fb1020834695c6cc29b0f170f5683cc0f44eee15.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/c824c847ce02bd4e67623a47d45bb5c4d62230d1/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/vpn-connections-in-microsoft-intune.fb1020834695c6cc29b0f170f5683cc0f44eee15.ru-ru.xlf)
+* Handoff Datetime: 2016-05-03 23:17:52
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
