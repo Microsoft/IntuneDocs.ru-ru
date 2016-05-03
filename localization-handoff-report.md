@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [InTuneDocs\GetStarted\start-with-a-paid-subscription-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/637dade7d1a50239b8309c1b052a05f0e8b2f683/InTuneDocs/GetStarted/start-with-a-paid-subscription-to-microsoft-intune.md) | HandedOffSuccess | [Details](#e82635338f54106c0b2be02628b0a1a79a8a4d7d525)
- [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/637dade7d1a50239b8309c1b052a05f0e8b2f683/InTuneDocs/GetStarted/TOC.md) | HandedOffSuccess | [Details](#4e26e456443f7c9b0024ed1d84c7836e6cd6df6b527)
 
 ## Item Details
-##### <a name='e82635338f54106c0b2be02628b0a1a79a8a4d7d525'></a> Source: [InTuneDocs\GetStarted\start-with-a-paid-subscription-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/637dade7d1a50239b8309c1b052a05f0e8b2f683/InTuneDocs/GetStarted/start-with-a-paid-subscription-to-microsoft-intune.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [start-with-a-paid-subscription-to-microsoft-intune.707434706919b47e9e8682f2fc370b6f798441d1.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d20ce2ed3a0e0ef5da46d4bd9211204079839b24/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/start-with-a-paid-subscription-to-microsoft-intune.707434706919b47e9e8682f2fc370b6f798441d1.ru-ru.xlf)
-* Handoff Datetime: 2016-05-03 15:20:24
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='4e26e456443f7c9b0024ed1d84c7836e6cd6df6b527'></a> Source: [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/637dade7d1a50239b8309c1b052a05f0e8b2f683/InTuneDocs/GetStarted/TOC.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d20ce2ed3a0e0ef5da46d4bd9211204079839b24/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf)
-* Handoff Datetime: 2016-05-03 15:20:24
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
