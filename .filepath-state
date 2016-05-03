@@ -1070,6 +1070,9 @@
   "1cfe860fc52a522303a284b97130acb358004630": [
     "InTuneDocs\\media\\ExchangeConnector.gif"
   ],
+  "4e26e456443f7c9b0024ed1d84c7836e6cd6df6b": [
+    "InTuneDocs\\GetStarted\\TOC.md"
+  ],
   "a66ce8808c332da41263f40aec61ebe5e87d3db4": [
     "InTuneDocs\\GetStarted\\TOC.md"
   ],
@@ -6885,6 +6888,9 @@
   ],
   "8c3d0e5492078f6d4fdf6b10614b5be81e21b68d": [
     "InTuneDocs\\DeployUse\\migrate-to-intune.md"
+  ],
+  "e82635338f54106c0b2be02628b0a1a79a8a4d7d": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune.md"
   ],
   "bbb1549db16d4e548ec47bad5cb1947ec4a45fde": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune.md"
