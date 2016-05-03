@@ -1977,7 +1977,7 @@
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb495)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6496)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca497)
- [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/index.md) | Ignored | [Details](#c90b4366bcffe568fc15d9deb89961fc2702a2e6639)
+ [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/index.md) | Ignored | [Details](#d9bb80d14f70410b5c8fa55753ef197668da3b6c639)
  [InTuneDocs\intunefiles.txt](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/intunefiles.txt) | Ignored | [Details](#11fd1aed877c922967ea3e4f2cc115d4b8cc596a640)
  [InTuneDocs\main.txt](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/main.txt) | Ignored | [Details](#b5044cfdfebd590a5fbe518775ecced7e4407098641)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.jpg](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.jpg) | Ignored | [Details](#f555a2a0f7e02f3c4d4b833b40ffa1a4102e1703679)
@@ -10142,7 +10142,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='c90b4366bcffe568fc15d9deb89961fc2702a2e6639'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/index.md)
+##### <a name='d9bb80d14f70410b5c8fa55753ef197668da3b6c639'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/020e275d62ae553e1a6cbb7916ef5e87b95f6849/InTuneDocs/index.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
