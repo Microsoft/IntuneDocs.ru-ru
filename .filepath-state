@@ -1136,6 +1136,9 @@
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
   ],
+  "4024ffd65f270d950529302dba74fca70927efca": [
+    "InTuneDocs\\GetStarted\\TOC.md"
+  ],
   "4e26e456443f7c9b0024ed1d84c7836e6cd6df6b": [
     "InTuneDocs\\GetStarted\\TOC.md"
   ],
@@ -1798,6 +1801,9 @@
   "e36011047aeaeaf1b385dbc25d2e29f62ca5a227": [
     "InTuneDocs\\DeployUse\\overview-of-the-microsoft-intune-app-sdk.md"
   ],
+  "579ec975fe94c17a7b44ab60b605d6fb4c7fd899": [
+    "InTuneDocs\\PlanDesign\\TOC.md"
+  ],
   "214f61dc4d89a1110fecfb63ab18a77ec38fa99c": [
     "InTuneDocs\\PlanDesign\\TOC.md"
   ],
@@ -2359,21 +2365,6 @@
   "a68c322e3da4453faeadb79ed76251b1553fc456": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-software-updates-in-microsoft-intune.md"
   ],
-  "c602cf7412cfa6d7894acf676d78780dd658df7a": [
-    "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
-  ],
-  "8987911ef37db6d03f6f7fdcd490b48256bce634": [
-    "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
-  ],
-  "d6f3a71243689ae5f3bca70107008cf7238e019a": [
-    "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
-  ],
-  "8c66605b94304665d3899cfed59fd91149b0dda3": [
-    "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
-  ],
-  "76ef8cbb0d42afaa46034f8add167a0fc5d4c4aa": [
-    "InTuneDocs\\Understand\\choose-how-to-manage-devices.md"
-  ],
   "86552240b86f4a86f918e3ebef3b55ecddb1829c": [
     "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
   ],
@@ -2479,36 +2470,6 @@
   "455701510cf85442c6b4ee4a39d42f4283f18a87": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
   ],
-  "1cefd151c6516cc55a81339da65e15677bcee92f": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "bed5bc859af10502d101c4802839ddb4e0aaf1c6": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "2d24df6ec9fe62691ed5448355f2a0ef6eb2ad2b": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "2d2c8ce9a14eb6933e15f7a00b142751c7d4370e": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "fa8d8520d1220f73290584ce3f39156d87db0661": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "a53dc730d698877c95d97c5dfcbefe30d590da79": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "334ba2330ed78ac5bf09c956e36103e4bd0c0e6e": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "42445f89be7faf64f3f1fb2f049e5ec07a8a7b14": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "9a8d5149a791d56914d31a843899057663714574": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
-  "84889dbdc5b1f00821c10dcdf957c9d8afe38c6e": [
-    "InTuneDocs\\Understand\\mobile-device-management-capabilities-in-microsoft-intune.md"
-  ],
   "d0f3bb2bab226cb748f8066a649f7411f51274f4": [
     "InTuneDocs\\Understand\\TOC.md"
   ],
@@ -2586,24 +2547,6 @@
   ],
   "56018ac13cadea7395ee565dfb1887cf7b501892": [
     "InTuneDocs\\Understand\\TOC.md"
-  ],
-  "373b3f3b646a057bb100a6996e9a0df2566e95dd": [
-    "InTuneDocs\\Understand\\windows-pc-management-capabilities-in-microsoft-intune.md"
-  ],
-  "96371adc998b22f29fb12ddd7f17ad6462a02af6": [
-    "InTuneDocs\\Understand\\windows-pc-management-capabilities-in-microsoft-intune.md"
-  ],
-  "8c18953a0029e114e145e3f5d9f0aa7c176c5d1a": [
-    "InTuneDocs\\Understand\\windows-pc-management-capabilities-in-microsoft-intune.md"
-  ],
-  "aa5df58909c6322c7d27d63953192e3abe187635": [
-    "InTuneDocs\\Understand\\windows-pc-management-capabilities-in-microsoft-intune.md"
-  ],
-  "c52b2e5f265f3a6fa7bd1f1225e02bdbb4f0f838": [
-    "InTuneDocs\\Understand\\windows-pc-management-capabilities-in-microsoft-intune.md"
-  ],
-  "d7f715960f060b0be1f803237be3a35f4c51a33f": [
-    "InTuneDocs\\Understand\\windows-pc-management-capabilities-in-microsoft-intune.md"
   ],
   "1dde0f9c701974b72ef12e63ecc4ed76f84f053e": [
     "InTuneDocs\\media\\ConditionalAccess8-2.png"
@@ -2880,30 +2823,6 @@
   ],
   "89596536ef9251efc72c50945976c9d531645fcd": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "2a1766b024f9fc26fa1b04335f62c77269adfc71": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md"
-  ],
-  "03d4302104ab3137bb9eb5fc2dee31f25e73d8c1": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md"
-  ],
-  "5f44d0532e1f46993d8d1fc7dafc3b6116553b99": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-hybrid.md"
-  ],
-  "c2c97c67d44843ca80a293e1ec00a1b3df6fe168": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
-  ],
-  "cd98db303d0dc6ee4beb897da24644c0be0cff57": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
-  ],
-  "b68d78dd2c97a69b797d376776e72242f89591a2": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
-  ],
-  "899895ed4988cdf4d21ec9648c34500d55ceeb14": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
-  ],
-  "35de2586eef432787c5244832af5a9fe9ab5787a": [
-    "InTuneDocs\\Understand\\choose-between-intune-and-mdm-for-office-365.md"
   ],
   "af1976c092b3a380c09006227bfc16e1e7933d6d": [
     "InTuneDocs\\DeployUse\\set-up-android-management-with-microsoft-intune.md"
@@ -3885,6 +3804,9 @@
   ],
   "6ed3c7be1612f23edac4c6dadf34fad807402249": [
     "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
+  ],
+  "d04b05344a3e1da285b7c9c7866e188a6c7f4dab": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
   ],
   "9ba6515ab5b1fe96b3e66651d7133d8b43129c0e": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
@@ -6271,63 +6193,6 @@
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
-  "cef3acaeeb25873b80e51b2f6e12ec33fccb6d16": [
-    "InTuneDocs\\PlanDesign\\choose-manage-devices.md"
-  ],
-  "16633fc9b9b76207027ff5cfbd783e621bcf3676": [
-    "InTuneDocs\\PlanDesign\\choose-manage-devices.md"
-  ],
-  "19a9b6baa1527e17fd6438eabec9d400cdbedf2e": [
-    "InTuneDocs\\PlanDesign\\choose-manage-devices.md"
-  ],
-  "92163b025904743e594463579be54ca7f5099216": [
-    "InTuneDocs\\PlanDesign\\choose-manage-devices.md"
-  ],
-  "788378cc4b228ffe1a07d278756c2694f5adb6fe": [
-    "InTuneDocs\\PlanDesign\\choose-manage-devices.md"
-  ],
-  "57c7411ddb148b2edf8ebd2679e4262a2f99abc8": [
-    "InTuneDocs\\PlanDesign\\choose-manage-PCs.md"
-  ],
-  "4ab7e235dab85429044a0a15f70de899960b931d": [
-    "InTuneDocs\\PlanDesign\\choose-manage-PCs.md"
-  ],
-  "8d8e69fa2c8c520eee9d3f40449d5b2d19a7a2de": [
-    "InTuneDocs\\PlanDesign\\choose-manage-PCs.md"
-  ],
-  "5338071b72b738871d7661fc175e6e5ce3f34f87": [
-    "InTuneDocs\\PlanDesign\\choose-manage-PCs.md"
-  ],
-  "2437cca096ca215f8c5dc1595054d705c8b34678": [
-    "InTuneDocs\\PlanDesign\\choose-manage-PCs.md"
-  ],
-  "1080b4366edd31a6d12d86c7ec28deec0e5aacb1": [
-    "InTuneDocs\\PlanDesign\\choose-mdm-solution.md"
-  ],
-  "92df05d0e91f770cc34623ed1da75f1a50ea9624": [
-    "InTuneDocs\\PlanDesign\\choose-mdm-solution.md"
-  ],
-  "ca3849bf9d704256d48056946e8bd0ce19e18a11": [
-    "InTuneDocs\\PlanDesign\\choose-mdm-solution.md"
-  ],
-  "fc0e112b9c624624c459b0e422444332c29cc5fc": [
-    "InTuneDocs\\PlanDesign\\choose-mdm-solution.md"
-  ],
-  "89649f51fe795e4ed4239ebb26b746f238d9d1c2": [
-    "InTuneDocs\\PlanDesign\\choose-mdm-solution.md"
-  ],
-  "7937d28ff98ec0dc30e9ddcc969b89d088770a76": [
-    "InTuneDocs\\PlanDesign\\ways-to-do-enterprise-mobility.md"
-  ],
-  "5bc15e5b18b100f1b6e581a7bbf6a229e999d976": [
-    "InTuneDocs\\PlanDesign\\ways-to-do-enterprise-mobility.md"
-  ],
-  "ab56ab181684f5dde0a382597fe879f415cbfe6c": [
-    "InTuneDocs\\PlanDesign\\ways-to-do-enterprise-mobility.md"
-  ],
-  "0798676f8956468282bc2b3e23c39cbcf6794cf7": [
-    "InTuneDocs\\PlanDesign\\ways-to-do-enterprise-mobility.md"
-  ],
   "0b63694fae79872f7b8eb686a9478eb7d866748a": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -7771,6 +7636,9 @@
   "022419048233d679938c3a0013fc690a60c413e9": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-7-open-cp.png"
   ],
+  "373b3f3b646a057bb100a6996e9a0df2566e95dd": [
+    "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
+  ],
   "919c1c2fb2bd3e370f46b8796d23c3c4dbe26abf": [
     "InTuneDocs\\GetStarted\\media\\posh-addlic-verify.png"
   ],
@@ -7785,5 +7653,11 @@
   ],
   "0ad03e0ab85624031c48db341f37edb527115e06": [
     "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-51-remt-mgmt-trust.jpg"
+  ],
+  "1cefd151c6516cc55a81339da65e15677bcee92f": [
+    "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
+  ],
+  "c884181d0fab8ec4ea3866f4d61a38836b9236e8": [
+    "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
   ]
 }
