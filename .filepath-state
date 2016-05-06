@@ -758,15 +758,6 @@
   "9242121407a83f9fa4e442945475e3517695014d": [
     "InTuneDocs\\DeployUse\\retire-apps.md"
   ],
-  "80f16e5851e574014594e4d93ba194beb2cc9653": [
-    "InTuneDocs\\DeployUse\\Sample.md",
-    "InTuneDocs\\GetStarted\\Sample.md",
-    "InTuneDocs\\Troubleshoot\\Sample.md",
-    "InTuneDocs\\Understand\\Sample.md"
-  ],
-  "84421bf7f4ba657e685239fb27f4798a46485f71": [
-    "InTuneDocs\\DeployUse\\media\\150x150.png"
-  ],
   "884bde8d5af8228b5f1acceb87db9fda743dcda3": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
   ],
@@ -937,6 +928,9 @@
   ],
   "0d287ac56e48a8ee8027a2c71318358cbd224420": [
     "InTuneDocs\\DeployUse\\understand-microsoft-intune-operations-by-using-reports.md"
+  ],
+  "ef94c33d4edb550915ebd47ad67fb7ebd2faceb9": [
+    "InTuneDocs\\DeployUse\\understand-your-devices-with-inventory-in-microsoft-intune.md"
   ],
   "ae57b14dd4ff8b6572f933406b7eb36652fa797d": [
     "InTuneDocs\\DeployUse\\understand-your-devices-with-inventory-in-microsoft-intune.md"
@@ -1135,6 +1129,9 @@
   ],
   "d686f3240763875d3f5bfee61c7b99ca90b996b6": [
     "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+  ],
+  "4d8e0bb97f519aa1d6ff7f07fb8fa4273f72ebc3": [
+    "InTuneDocs\\GetStarted\\TOC.md"
   ],
   "4024ffd65f270d950529302dba74fca70927efca": [
     "InTuneDocs\\GetStarted\\TOC.md"
@@ -4708,6 +4705,9 @@
   "fe3d37e292bd8b1b7d62ef7134dc92634ec35b78": [
     "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
   ],
+  "d1912736361a9fa74a8827be367227336ee800eb": [
+    "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+  ],
   "00055d42bb34c5225fb01aeb439fb2f0ec847de3": [
     "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
   ],
@@ -6223,6 +6223,9 @@
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
+  "00e4b3b2c4ceb555290dd8719fda4048a1f4083b": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
+  ],
   "a983cbc5633ece8fcf624316b7d88001a0e1fce0": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
@@ -7012,6 +7015,9 @@
   "204ed85ed1c4dea12212eea34b080998af6cc211": [
     "InTuneDocs\\DeployUse\\media\\pol-sa-terms-conditions.png"
   ],
+  "882f0aa030d1d9e03ca50baed3f618f7a719b5b5": [
+    "InTuneDocs\\DeployUse\\overview-of-app-lifecycle-in-microsoft-intune.md"
+  ],
   "ee966f34466df924d6d83311b427f8dcf3950a27": [
     "InTuneDocs\\DeployUse\\overview-of-app-lifecycle-in-microsoft-intune.md"
   ],
@@ -7036,6 +7042,9 @@
   "0ff7b28b2696476fe19c868528028494b9924428": [
     "InTuneDocs\\DeployUse\\overview-of-app-lifecycle-in-microsoft-intune.md"
   ],
+  "908c052484dc1532ade9576ab09070b18a85d71e": [
+    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
+  ],
   "67a1be70b8a8b91d2bd881003efa6462176f5e70": [
     "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
   ],
@@ -7059,6 +7068,18 @@
   ],
   "02c432e436bec4c7b45ad9f0c7beb9615edf8fac": [
     "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
+  ],
+  "d331fa9c9cd16ec05782efb1e47ac44692cb0d9f": [
+    "InTuneDocs\\DeployUse\\media\\app-lifecycle.png"
+  ],
+  "7b378232f6a41ddac861ccf2973ab6ab17180b86": [
+    "InTuneDocs\\DeployUse\\media\\app-lifecycle.png"
+  ],
+  "b0c8f6406b62e93d7452847c928898ea15dcd928": [
+    "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
+  ],
+  "2dbdf59f110ba01706fc5bea4a35dad3523c1587": [
+    "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
   ],
   "5b3551ac48c41f27c2f2e59467a03eb527bffb46": [
     "InTuneDocs\\EndUser\\media\\1-macosx-enroll-tap-enroll.png"
@@ -7582,15 +7603,6 @@
   "3fa518a16be89ecb93047d13b45209a863aa0815": [
     "InTuneDocs\\DeployUse\\deploy-apps.md"
   ],
-  "6a0ead2adc51ca6cd1c32469d34f95d9e768ae1f": [
-    "InTuneDocs\\DeployUse\\media\\devicelifecycle_nobg.png"
-  ],
-  "9e0e3406325e63e1965e8cc517ddec56faa75de2": [
-    "InTuneDocs\\DeployUse\\media\\applifecycle_nobg.png"
-  ],
-  "92438c8dcbc2c7e520f6027f46d32365c1604873": [
-    "InTuneDocs\\DeployUse\\media\\device_appslifecycle_nobg.png"
-  ],
   "94f4b1fae8d7bb55b1ecb8415a5489f6b7172360": [
     "InTuneDocs\\media\\mam-azure-portal-user-status-summary.png"
   ],
@@ -7642,6 +7654,9 @@
   "022419048233d679938c3a0013fc690a60c413e9": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-7-open-cp.png"
   ],
+  "c16c61ee517cdc98da5e78ac5461664bf77fb834": [
+    "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
+  ],
   "373b3f3b646a057bb100a6996e9a0df2566e95dd": [
     "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
   ],
@@ -7660,10 +7675,19 @@
   "0ad03e0ab85624031c48db341f37edb527115e06": [
     "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-51-remt-mgmt-trust.jpg"
   ],
+  "8f47fe7227c15c858207ae09e21c11d53435b216": [
+    "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
+  ],
   "1cefd151c6516cc55a81339da65e15677bcee92f": [
     "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
   ],
+  "87b44d66693740cd470db585c1857936ece4d56b": [
+    "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
+  ],
   "c884181d0fab8ec4ea3866f4d61a38836b9236e8": [
     "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
+  ],
+  "48b2ff55d4258cffd6cce21efa2ebe6312f37681": [
+    "InTuneDocs\\DeployUse\\media\\device-app-lifecycle.png"
   ]
 }
