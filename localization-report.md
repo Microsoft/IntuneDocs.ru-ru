@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2245
 [ Handoff Failed Files ](#handoff-failed-list)| 3
-[ Handoff Success Files ](#handoff-success-list)| 1860
+[ Handoff Success Files ](#handoff-success-list)| 1859
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 382
+[ Ignored Files ](#ignored-list)| 383
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -194,7 +194,6 @@
  [InTuneDocs\DeployUse\monitoring-and-reports-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/cc64e51499908d08823429871cda91dfb0078b1e/InTuneDocs/DeployUse/monitoring-and-reports-with-microsoft-intune.md) | HandedOffSuccess | [Details](#c8273a85399a64d5174fe82cf779be949387ad46225)
  [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md) | HandedOffSuccess | [Details](#04b275f158079a658a7d3569e62d02e88dce1f7c224)
  [InTuneDocs\DeployUse\overview-of-app-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/overview-of-app-lifecycle-in-microsoft-intune.md) | HandedOffSuccess | [Details](#ee966f34466df924d6d83311b427f8dcf3950a27226)
- [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md) | HandedOffSuccess | [Details](#0a06e816702e7a50719d0a6819972308cfd18c40227)
  [InTuneDocs\DeployUse\overview-of-device-lifecycle-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/overview-of-device-lifecycle-in-microsoft-intune.md) | HandedOffSuccess | [Details](#67a1be70b8a8b91d2bd881003efa6462176f5e70228)
  [InTuneDocs\DeployUse\overview-of-the-microsoft-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/overview-of-the-microsoft-intune-app-sdk.md) | HandedOffSuccess | [Details](#8a9dfe8224b4e0e441691043eaffea73c456b3ec229)
  [InTuneDocs\DeployUse\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7c4a74defdbad06e676ed48753c759eb3c7109f8/InTuneDocs/DeployUse/plan-your-user-and-device-groups.md) | HandedOffSuccess | [Details](#4863e37b93f30cbaaa48d5efd174d1513c2939d7230)
@@ -1901,7 +1900,7 @@
  [.gitmodules](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/.gitmodules) | Ignored | [Details](#e7e79af50c10b6e937e0312adefef30acc2fb2451)
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/.localization-config) | Ignored | [Details](#a87de388b97bdff606108077adc5fb3e69e8d5652)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
- [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/.openpublishing.publish.config.json) | Ignored | [Details](#9678fa24b364a6eda9f79100fb0742d16c6665014)
+ [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/.openpublishing.publish.config.json) | Ignored | [Details](#71e159308d42603d269afa8a1e751d8549d099ff4)
  [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#c2e8ae64ba3b1c0acdc910fe4ae8bfbde7db7a1c32)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476173)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e080)
@@ -1953,6 +1952,7 @@
  [InTuneDocs\DeployUse\media\SCEP_Registry_editor_MSCEP.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/media/SCEP_Registry_editor_MSCEP.png) | Ignored | [Details](#bfc8fc4530e19362ec49490a1f70ed336477d701215)
  [InTuneDocs\DeployUse\media\SCEP_Registry_MDM.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/media/SCEP_Registry_MDM.png) | Ignored | [Details](#ba3a1aa88585ec5753eb25d94943732d57ab652c216)
  [InTuneDocs\DeployUse\media\SCEP_SSL_settings.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/media/SCEP_SSL_settings.png) | Ignored | [Details](#fd444a39ea7fdea011b5ba7d32147e684a6a1e32217)
+ [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md) | Ignored | [Details](#00055d42bb34c5225fb01aeb439fb2f0ec847de3227)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/docfx.json) | Ignored | [Details](#4047b230394bd2a4be901a7a901f65595e49e858284)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#2fc62fdaa73f8ec1b8298ce3aa3f905c8c3ab829297)
  [InTuneDocs\EndUser\media\and-enroll-6-knox-agree.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/EndUser/media/and-enroll-6-knox-agree.png) | Ignored | [Details](#9587a8105f75c185c407c3078272d1d3e6aed93d340)
@@ -2249,7 +2249,7 @@
  [migrated-03-14\Image\WIT_TryNowIcon.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/migrated-03-14/Image/WIT_TryNowIcon.png) | Ignored | [Details](#91f9a79ec71f220d6c9a450e2aae190d5e30f2ca1570)
  [migrated-03-14\Image\WIT_TryNowIcon2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/migrated-03-14/Image/WIT_TryNowIcon2.png) | Ignored | [Details](#9f80ffe98f18b9a0023f224433b99b9525f5c5111571)
  [migrated-03-14\Image\wit_walk_cert2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/migrated-03-14/Image/wit_walk_cert2.png) | Ignored | [Details](#8fafed2e2654f26fb665ae8fe5d78bb98bcba1201572)
- [README.md](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/README.md) | Ignored | [Details](#a22d33aca7aa9cff423a5a69ae1b79d14f6146071842)
+ [README.md](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/README.md) | Ignored | [Details](#57132fc9e167937b5f9c43a0b1e43ba177300a2f1842)
  [sandbox\Plan topics\best-practices-for-using-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/sandbox/Plan topics/best-practices-for-using-intune.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd807091852)
  [zDeletedTopics\AppManagement\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/zDeletedTopics/AppManagement/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f647611871)
  [zDeletedTopics\AppManagement\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/zDeletedTopics/AppManagement/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e01878)
@@ -2329,7 +2329,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9678fa24b364a6eda9f79100fb0742d16c6665014'></a> Source: [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/.openpublishing.publish.config.json)
+##### <a name='71e159308d42603d269afa8a1e751d8549d099ff4'></a> Source: [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/.openpublishing.publish.config.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -5102,12 +5102,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='0a06e816702e7a50719d0a6819972308cfd18c40227'></a> Source: [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
-* Status: HandedOffSuccess
+##### <a name='00055d42bb34c5225fb01aeb439fb2f0ec847de3227'></a> Source: [InTuneDocs\DeployUse\overview-of-device-and-app-lifecycles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/InTuneDocs/DeployUse/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/79c1799f1600a3b99d8d9f60187edda9ca3cab8e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/overview-of-device-and-app-lifecycles-in-microsoft-intune.751001cc04be2f390298ead3f49c7182080934a1.ru-ru.xlf)
-* Handoff Datetime: 2016-05-01 18:22:49
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -25205,7 +25205,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a22d33aca7aa9cff423a5a69ae1b79d14f6146071842'></a> Source: [README.md](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/README.md)
+##### <a name='57132fc9e167937b5f9c43a0b1e43ba177300a2f1842'></a> Source: [README.md](https://github.com/Microsoft/IntuneDocs-pr/blob/200d07102210e8645b2b3f97ec1aeb402b13090d/README.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
