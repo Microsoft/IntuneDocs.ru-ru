@@ -4750,6 +4750,9 @@
   "879d69e0e923473238e36d2abf48ce19d12c2583": [
     "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
   ],
+  "7e7c50552b5a61804e759a7ec5443029d4bd4584": [
+    "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md"
+  ],
   "0b5c3b6255276d5785bf182df36f5dcfb23ba099": [
     "InTuneDocs\\DeployUse\\Custom-configurations-for-VPN-profiles.md"
   ],
@@ -4875,6 +4878,9 @@
   ],
   "8424e87bd47f3f7f08fd4a3ff62f6f43e6c2f160": [
     "InTuneDocs\\media\\Windows-Device-Enrollment.png"
+  ],
+  "017ae819d0d5f16116b087a7dc057bd494922195": [
+    "InTuneDocs\\DeployUse\\media\\Intune_Add_VPN_URI.PNG"
   ],
   "8b8f1f0c12840d9b401a7893e936df12c5dc88b1": [
     "InTuneDocs\\DeployUse\\media\\ca_win10-os-version.png"
@@ -5902,6 +5908,9 @@
   "dc9c8b2983ae639098c98ada0106311344cdd74a": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
+  "059f1ba6dc6863fbbdb309d092dcd4d14c7018df": [
+    "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
+  ],
   "05d51136e630f383abe73f23c07a80d86c485d56": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
@@ -6091,6 +6100,9 @@
   "1ecd877239787a40c0f627b1b93e4cf264cc6beb": [
     "InTuneDocs\\DeployUse\\policies-to-protect-windows-pcs-in-microsoft-intune.md"
   ],
+  "5f5c3add10fc30b8e8a39993d6504497ccebd42b": [
+    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
+  ],
   "839da02f3fbe6d61e3aab1ae9fd49e32b2104021": [
     "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
   ],
@@ -6222,6 +6234,9 @@
   ],
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "3ba8d148dc81126a5e0ea5a54967129d4306954f": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "00e4b3b2c4ceb555290dd8719fda4048a1f4083b": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
