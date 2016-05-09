@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 2260
 [ Handoff Failed Files ](#handoff-failed-list)| 3
-[ Handoff Success Files ](#handoff-success-list)| 1877
+[ Handoff Success Files ](#handoff-success-list)| 1873
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 380
+[ Ignored Files ](#ignored-list)| 384
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
  Source File | Status | Details 
@@ -244,11 +244,7 @@
  [InTuneDocs\DeployUse\windows-team-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/windows-team-configuration-policy-settings-in-microsoft-intune.md) | HandedOffSuccess | [Details](#b08d52289b94429b1328a7470469a7efdf4d46a7255)
  [InTuneDocs\DeployUse\wipe-for-exchange-managed-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/wipe-for-exchange-managed-mobile-devices.md) | HandedOffSuccess | [Details](#47e4533b6f97ff711c2efbeb6102f497af615871256)
  [InTuneDocs\DeployUse\wipe-managed-company-app-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/wipe-managed-company-app-data-with-microsoft-intune.md) | HandedOffSuccess | [Details](#77558e253be16cfa96ef9e3049e42342f198bcae257)
- [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk.md) | HandedOffSuccess | [Details](#fec3bab3651d5356a5e833e663a5a4d0ad67270d262)
  [InTuneDocs\develop\intune-app-sdk-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk-android.md) | HandedOffSuccess | [Details](#d2e4b6903d86b79edd9c758b2ce51733831e785a258)
- [InTuneDocs\develop\intune-app-sdk-faq.md](https://github.com/Microsoft/IntuneDocs-pr/blob/dd584e3da358c699f493d1a65f32bf022583b0da/InTuneDocs/develop/intune-app-sdk-faq.md) | HandedOffSuccess | [Details](#bae3b273288474d3c1471661c82d435148e899a9259)
- [InTuneDocs\develop\intune-app-sdk-get-started.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk-get-started.md) | HandedOffSuccess | [Details](#dcb4f921ddebc503736ed85ae1affdc4f85d89ee260)
- [InTuneDocs\develop\intune-app-sdk-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk-ios.md) | HandedOffSuccess | [Details](#ad06a713fc8bd2e221f648dc2833d10108cc42db261)
  [InTuneDocs\develop\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/dd584e3da358c699f493d1a65f32bf022583b0da/InTuneDocs/develop/TOC.md) | HandedOffSuccess | [Details](#144e7c31dea197f10b9cc1dc07741f52f0164b5f263)
  [InTuneDocs\EndUser\company-portal-app-not-supported.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/company-portal-app-not-supported.md) | HandedOffSuccess | [Details](#003210b7b282114ee3b8aef81ae7f9bddd2585ca265)
  [InTuneDocs\EndUser\company-portal-frequently-asked-questions.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/company-portal-frequently-asked-questions.md) | HandedOffSuccess | [Details](#e002d3e23e07c428bd7aebf74f761458500466c2266)
@@ -1951,6 +1947,10 @@
  [InTuneDocs\DeployUse\media\iOSWordSaveLocations.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/DeployUse/media/iOSWordSaveLocations.PNG) | Ignored | [Details](#dfd24f3ad411d512f06161aff0792d750bda3cb3176)
  [InTuneDocs\DeployUse\media\MAM_BYOD.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/DeployUse/media/MAM_BYOD.png) | Ignored | [Details](#f0195917d20400de735979f290d25100a9c9df63177)
  [InTuneDocs\DeployUse\media\MAM_ManagedDevices.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/DeployUse/media/MAM_ManagedDevices.png) | Ignored | [Details](#2a1888e9f2cd20e31af1e45b55468ce6b403af33179)
+ [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk.md) | Ignored | [Details](#3abf566831348de11f718370d6267e3ff4355bfb262)
+ [InTuneDocs\develop\intune-app-sdk-faq.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk-faq.md) | Ignored | [Details](#be8413659b57948cfe58e6c106c230ad3252c388259)
+ [InTuneDocs\develop\intune-app-sdk-get-started.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk-get-started.md) | Ignored | [Details](#a042f0c6206e9aaf4ec0eb012a70930aa95ecc47260)
+ [InTuneDocs\develop\intune-app-sdk-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk-ios.md) | Ignored | [Details](#820ec2da0554f0af383895482241be7d1c0cf305261)
  [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/docfx.json) | Ignored | [Details](#f4b06770f20fa2f3f045a445e206e8e9d39c9456264)
  [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#94aeec2710e35eaa735825ca2f2bb147b31cecda277)
  [InTuneDocs\EndUser\media\and-enroll-6-knox-agree.png](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/EndUser/media/and-enroll-6-knox-agree.png) | Ignored | [Details](#9587a8105f75c185c407c3078272d1d3e6aed93d320)
@@ -5484,12 +5484,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='fec3bab3651d5356a5e833e663a5a4d0ad67270d262'></a> Source: [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk.md)
-* Status: HandedOffSuccess
+##### <a name='3abf566831348de11f718370d6267e3ff4355bfb262'></a> Source: [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e2d6e2a86ff35e81036b9a99a08df2653d0ee98c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf)
-* Handoff Datetime: 2016-05-09 21:52:54
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -5508,36 +5508,36 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='bae3b273288474d3c1471661c82d435148e899a9259'></a> Source: [InTuneDocs\develop\intune-app-sdk-faq.md](https://github.com/Microsoft/IntuneDocs-pr/blob/dd584e3da358c699f493d1a65f32bf022583b0da/InTuneDocs/develop/intune-app-sdk-faq.md)
-* Status: HandedOffSuccess
+##### <a name='be8413659b57948cfe58e6c106c230ad3252c388259'></a> Source: [InTuneDocs\develop\intune-app-sdk-faq.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk-faq.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [intune-app-sdk-faq.5f11c0a2fea4c8fb4092719e5cb10ac63290be73.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e2d6e2a86ff35e81036b9a99a08df2653d0ee98c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/intune-app-sdk-faq.5f11c0a2fea4c8fb4092719e5cb10ac63290be73.ru-ru.xlf)
-* Handoff Datetime: 2016-05-09 21:52:54
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='dcb4f921ddebc503736ed85ae1affdc4f85d89ee260'></a> Source: [InTuneDocs\develop\intune-app-sdk-get-started.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk-get-started.md)
-* Status: HandedOffSuccess
+##### <a name='a042f0c6206e9aaf4ec0eb012a70930aa95ecc47260'></a> Source: [InTuneDocs\develop\intune-app-sdk-get-started.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk-get-started.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [intune-app-sdk-get-started.a23c7787f04349da87500764078536b4b35916e3.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e2d6e2a86ff35e81036b9a99a08df2653d0ee98c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/intune-app-sdk-get-started.a23c7787f04349da87500764078536b4b35916e3.ru-ru.xlf)
-* Handoff Datetime: 2016-05-09 21:52:54
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='ad06a713fc8bd2e221f648dc2833d10108cc42db261'></a> Source: [InTuneDocs\develop\intune-app-sdk-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk-ios.md)
-* Status: HandedOffSuccess
+##### <a name='820ec2da0554f0af383895482241be7d1c0cf305261'></a> Source: [InTuneDocs\develop\intune-app-sdk-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9a4f2dfed115517697da91f56d47f50448234b67/InTuneDocs/develop/intune-app-sdk-ios.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [intune-app-sdk-ios.4ad9292e2441b11912f5613421143be8aade1c32.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/e2d6e2a86ff35e81036b9a99a08df2653d0ee98c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/intune-app-sdk-ios.4ad9292e2441b11912f5613421143be8aade1c32.ru-ru.xlf)
-* Handoff Datetime: 2016-05-09 21:52:54
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
