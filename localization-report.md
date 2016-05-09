@@ -1909,7 +1909,7 @@
  [.localization-config](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/.localization-config) | Ignored | [Details](#a87de388b97bdff606108077adc5fb3e69e8d5652)
  [.openpublishing.build.ps1](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/.openpublishing.build.ps1) | Ignored | [Details](#9103b6933f2481864ecb6a66b76ba730e7f133b43)
  [.openpublishing.publish.config.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/.openpublishing.publish.config.json) | Ignored | [Details](#71e159308d42603d269afa8a1e751d8549d099ff4)
- [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#c2e8ae64ba3b1c0acdc910fe4ae8bfbde7db7a1c32)
+ [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/docfx.json) | Ignored | [Details](#cd7d779b2d226665af6f71af0270f2c45cf8de0432)
  [InTuneDocs\DeployUse\media\Andorid_OneDriveOneDriveSuccess.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/media/Andorid_OneDriveOneDriveSuccess.png) | Ignored | [Details](#2ead93b77428c154dcc20a15da196bc9a4f6476172)
  [InTuneDocs\DeployUse\media\Android_OneDriveSignIn.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/media/Android_OneDriveSignIn.png) | Ignored | [Details](#0463790ba618ddddd26d79e8c50c8e48b44436e079)
  [InTuneDocs\DeployUse\media\App_Access_EXO.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/media/App_Access_EXO.png) | Ignored | [Details](#2b6df2d39a7f26448017cf118278efe1197bdeca83)
@@ -1940,8 +1940,8 @@
  [InTuneDocs\DeployUse\media\iOSWordSaveLocations.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/media/iOSWordSaveLocations.PNG) | Ignored | [Details](#dfd24f3ad411d512f06161aff0792d750bda3cb3176)
  [InTuneDocs\DeployUse\media\MAM_BYOD.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/media/MAM_BYOD.png) | Ignored | [Details](#f0195917d20400de735979f290d25100a9c9df63177)
  [InTuneDocs\DeployUse\media\MAM_ManagedDevices.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/media/MAM_ManagedDevices.png) | Ignored | [Details](#2a1888e9f2cd20e31af1e45b55468ce6b403af33179)
- [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/docfx.json) | Ignored | [Details](#4047b230394bd2a4be901a7a901f65595e49e858258)
- [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#2fc62fdaa73f8ec1b8298ce3aa3f905c8c3ab829271)
+ [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/docfx.json) | Ignored | [Details](#8839327ae7b0ff020354637b8a8341ffb108b596258)
+ [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/docfx.json) | Ignored | [Details](#3bcf4c62708f26d85fa6fa7d2673351c78e54005271)
  [InTuneDocs\EndUser\media\and-enroll-6-knox-agree.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/media/and-enroll-6-knox-agree.png) | Ignored | [Details](#9587a8105f75c185c407c3078272d1d3e6aed93d314)
  [InTuneDocs\EndUser\media\andr_verbose_logging-and-send-diag-data.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/media/andr_verbose_logging-and-send-diag-data.png) | Ignored | [Details](#098f2e0d496a1560f1d2e239caa3c512076e887c327)
  [InTuneDocs\EndUser\media\andrknox-unenroll-1-settings-phone-admin.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/media/andrknox-unenroll-1-settings-phone-admin.png) | Ignored | [Details](#6400c69b778398a051c1d625b26b3835cb7b4100328)
@@ -1965,7 +1965,7 @@
  [InTuneDocs\EndUser\media\W81-3-dev-mgt-turn-on_old.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/media/W81-3-dev-mgt-turn-on_old.png) | Ignored | [Details](#283a824417b0bfcf949287f65d36e2e4e21b8b23374)
  [InTuneDocs\EndUser\media\W81-5-enrolled-done_old.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/media/W81-5-enrolled-done_old.png) | Ignored | [Details](#436f77a04c06ed0c0f605b34da6869c59e800c08377)
  [InTuneDocs\EndUser\media\WP81-1-CP-search-store.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/media/WP81-1-CP-search-store.png) | Ignored | [Details](#2b709d3d9f48b52ff478159e26adaf0da823f45a388)
- [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/GetStarted/docfx.json) | Ignored | [Details](#90f8fc40f4270c01fa0501b4e32c2a9ba723c6e4463)
+ [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/GetStarted/docfx.json) | Ignored | [Details](#4d2aef950d303687d5d17b8532d91932b7e4cfa1463)
  [InTuneDocs\GetStarted\media\IntuneSA1aclickADMIN.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/GetStarted/media/IntuneSA1aclickADMIN.png) | Ignored | [Details](#e851fa97048ceb9a60cab1b2ea956c4f8b54a4cb471)
  [InTuneDocs\GetStarted\media\IntuneSA1bSetupExchangeConnection.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/GetStarted/media/IntuneSA1bSetupExchangeConnection.png) | Ignored | [Details](#6dfc87c3aca94cbe08860f07d25b712327eca9c6472)
  [InTuneDocs\GetStarted\media\IntuneSA1cOnpremConnector.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/GetStarted/media/IntuneSA1cOnpremConnector.png) | Ignored | [Details](#f71f97da9e2c57e8ec7c9cfd67f8cb467e5d42ca473)
@@ -2113,10 +2113,10 @@
  [InTuneDocs\media\WIT_TryNowGreen.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/media/WIT_TryNowGreen.png) | Ignored | [Details](#ff628dffd13b2881858c27a62f7cf0e36c9435db1074)
  [InTuneDocs\media\WIT_TryNowIcon.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/media/WIT_TryNowIcon.png) | Ignored | [Details](#91f9a79ec71f220d6c9a450e2aae190d5e30f2ca1075)
  [InTuneDocs\media\WIT_TryNowIcon2.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/media/WIT_TryNowIcon2.png) | Ignored | [Details](#9f80ffe98f18b9a0023f224433b99b9525f5c5111076)
- [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/PlanDesign/docfx.json) | Ignored | [Details](#fdbfe19209c5fafe029f85c3aacb2ae48f0c0edd1078)
- [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#be950bda56be8d3fe31142a0eaff3c15461a90191084)
+ [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/PlanDesign/docfx.json) | Ignored | [Details](#4f9ccfab7670580723fe1c8a5ed17a18b0a4b8fa1078)
+ [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Troubleshoot/docfx.json) | Ignored | [Details](#af662c73983154a6977d6fef143c1f613aeb1c481084)
  [InTuneDocs\Troubleshoot\media\HybridOnlineWizard1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Troubleshoot/media/HybridOnlineWizard1.png) | Ignored | [Details](#e9b4c235a72763d938cfbade201312a958df37e31089)
- [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#0561738d79a3e8fc3a04db0757b6b1f53db9383a1101)
+ [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Understand/docfx.json) | Ignored | [Details](#22442cbea2b941c9da610639824b5c105f01cd9e1101)
  [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Understand/jaygpn0s.dr4.json) | Ignored | [Details](#cb4dc36f532900884078fa6e088ec751301360801112)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-47-tap-enroll.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.png) | Ignored | [Details](#420f2040334650ca412a8068ea12424cd737733f1150)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-48-profile-install-1.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-48-profile-install-1.png) | Ignored | [Details](#3aaa7663833334075cd52c558a2c3d308c2811c21152)
@@ -2674,7 +2674,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='c2e8ae64ba3b1c0acdc910fe4ae8bfbde7db7a1c32'></a> Source: [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/docfx.json)
+##### <a name='cd7d779b2d226665af6f71af0270f2c45cf8de0432'></a> Source: [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/DeployUse/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -5478,7 +5478,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='4047b230394bd2a4be901a7a901f65595e49e858258'></a> Source: [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/docfx.json)
+##### <a name='8839327ae7b0ff020354637b8a8341ffb108b596258'></a> Source: [InTuneDocs\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -5634,7 +5634,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2fc62fdaa73f8ec1b8298ce3aa3f905c8c3ab829271'></a> Source: [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/docfx.json)
+##### <a name='3bcf4c62708f26d85fa6fa7d2673351c78e54005271'></a> Source: [InTuneDocs\EndUser\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/EndUser/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -8019,7 +8019,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='90f8fc40f4270c01fa0501b4e32c2a9ba723c6e4463'></a> Source: [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/GetStarted/docfx.json)
+##### <a name='4d2aef950d303687d5d17b8532d91932b7e4cfa1463'></a> Source: [InTuneDocs\GetStarted\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/GetStarted/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -15728,7 +15728,7 @@
 * Dependency From: InTuneDocs\set-up-windows-phone-management-with-microsoft-intune.md, InTuneDocs\GetStarted\set-up-windows-phone-management-with-microsoft-intune.md, migrated-03-14\Topic\Set-up-Windows-Phone-management-with-Microsoft-Intune.md, InTuneDocs\GetStarted\set-up-windows-8.0-management-with-microsoft-intune.md, InTuneDocs\DeployUse\set-up-windows-8.0-management-with-microsoft-intune.md, InTuneDocs\zDeletedTopics\Set-up-Windows-Phone-management-with-Microsoft-Intune.md, InTuneDocs\DeployUse\set-up-windows-phone-8.0-management-with-microsoft-intune.md
 * [Back to Top](#report-top)
 
-##### <a name='fdbfe19209c5fafe029f85c3aacb2ae48f0c0edd1078'></a> Source: [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/PlanDesign/docfx.json)
+##### <a name='4f9ccfab7670580723fe1c8a5ed17a18b0a4b8fa1078'></a> Source: [InTuneDocs\PlanDesign\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/PlanDesign/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -15801,7 +15801,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='be950bda56be8d3fe31142a0eaff3c15461a90191084'></a> Source: [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Troubleshoot/docfx.json)
+##### <a name='af662c73983154a6977d6fef143c1f613aeb1c481084'></a> Source: [InTuneDocs\Troubleshoot\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Troubleshoot/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -16007,7 +16007,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='0561738d79a3e8fc3a04db0757b6b1f53db9383a1101'></a> Source: [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Understand/docfx.json)
+##### <a name='22442cbea2b941c9da610639824b5c105f01cd9e1101'></a> Source: [InTuneDocs\Understand\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/1df72fc7b7e542327cf76ebba92e203e12c63b85/InTuneDocs/Understand/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
