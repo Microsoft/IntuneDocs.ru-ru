@@ -53,6 +53,9 @@
   "d82c5b7925987dba2917eefb3f7294cb08fb6b47": [
     "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
   ],
+  "ef725c34514031d3e40a8e4e5ebfe17dc076db79": [
+    "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
+  ],
   "e002d3e23e07c428bd7aebf74f761458500466c2": [
     "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
   ],
@@ -2796,6 +2799,9 @@
   ],
   "c1d1f12bbdec1b9043dc5a5c54eb4d495307af00": [
     "InTuneDocs\\DeployUse\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
+  ],
+  "d8fc6c1eadfbd7925ccf2ffd82d033dfc18cbafd": [
+    "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
   ],
   "5e07f905b5484094852798a9e1e70f588412f56c": [
     "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
@@ -5740,6 +5746,9 @@
   "74f1a90233fc98a931a21ec80ff0ba13de36f2be": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
+  "00af128807771f5646543614503ab7807362307b": [
+    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
   "68353dbdee81d59fce986c63575d307bb8cadfeb": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
   ],
@@ -6679,6 +6688,9 @@
   "314533eb30bd30a76dccca3510843ad9cd0ca070": [
     "InTuneDocs\\EndUser\\media\\wp81-3-sync-tap-sync-button.png"
   ],
+  "c0a76642b316f148f93cd6c6a487b34e34144d27": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
+  ],
   "244abd59a4d259da3e78e8a78488ce9e76546d8f": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
   ],
@@ -6702,6 +6714,9 @@
   ],
   "7e121c13a2649898b5f531c3ab31aa2b1197731f": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
+  ],
+  "ceebb0d7ce382289d4b7d15f30094ecf28645c14": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
   ],
   "f44416c03de0e0b49072239e46bf614dbf5689f6": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
@@ -7774,6 +7789,9 @@
   "1cefd151c6516cc55a81339da65e15677bcee92f": [
     "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
   ],
+  "26647bdff0870dbf8989911b7c193e53c4eaea02": [
+    "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
+  ],
   "6dcd79d7540f819a9844cf369a212ed8ae2768fe": [
     "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
   ],
@@ -7824,5 +7842,17 @@
   ],
   "7a9fdd79fa1ab5967023a80e1d0e317128667834": [
     "InTuneDocs\\media\\intune-app-sdk-ios-linked-frameworks-and-libraries.png"
+  ],
+  "dd0e5b2235858e12ad3733cbef8d89718b36c2a2": [
+    "InTuneDocs\\EndUser\\device-compliance-state-is-unknown.md"
+  ],
+  "614731350f28c84de57ac230d9ff70e6fd5cc03d": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-all.md"
+  ],
+  "63296af56a00d58057ad1ef741190faac3b2803a": [
+    "InTuneDocs\\EndUser\\install-a-new-version-of-the-company-portal-app.md"
+  ],
+  "73d94beada4963c0698d0c2152fd745792878ec1": [
+    "InTuneDocs\\EndUser\\password-does-not-meet-it-administrator-requirements.md"
   ]
 }
