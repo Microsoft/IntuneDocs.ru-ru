@@ -7786,17 +7786,29 @@
   "48b2ff55d4258cffd6cce21efa2ebe6312f37681": [
     "InTuneDocs\\DeployUse\\media\\device-app-lifecycle.png"
   ],
+  "3abf566831348de11f718370d6267e3ff4355bfb": [
+    "InTuneDocs\\develop\\intune-app-sdk.md"
+  ],
   "fec3bab3651d5356a5e833e663a5a4d0ad67270d": [
     "InTuneDocs\\develop\\intune-app-sdk.md"
   ],
   "d2e4b6903d86b79edd9c758b2ce51733831e785a": [
     "InTuneDocs\\develop\\intune-app-sdk-android.md"
   ],
+  "be8413659b57948cfe58e6c106c230ad3252c388": [
+    "InTuneDocs\\develop\\intune-app-sdk-faq.md"
+  ],
   "bae3b273288474d3c1471661c82d435148e899a9": [
     "InTuneDocs\\develop\\intune-app-sdk-faq.md"
   ],
+  "a042f0c6206e9aaf4ec0eb012a70930aa95ecc47": [
+    "InTuneDocs\\develop\\intune-app-sdk-get-started.md"
+  ],
   "dcb4f921ddebc503736ed85ae1affdc4f85d89ee": [
     "InTuneDocs\\develop\\intune-app-sdk-get-started.md"
+  ],
+  "820ec2da0554f0af383895482241be7d1c0cf305": [
+    "InTuneDocs\\develop\\intune-app-sdk-ios.md"
   ],
   "ad06a713fc8bd2e221f648dc2833d10108cc42db": [
     "InTuneDocs\\develop\\intune-app-sdk-ios.md"
