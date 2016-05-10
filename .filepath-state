@@ -53,6 +53,9 @@
   "d82c5b7925987dba2917eefb3f7294cb08fb6b47": [
     "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
   ],
+  "05dc37621c5eb08a89e752f4ad4fbe09b7a8da6e": [
+    "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
+  ],
   "30b18070f77004cd768ba7035ae09850744a7ef7": [
     "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
   ],
@@ -2412,6 +2415,9 @@
   ],
   "a68c322e3da4453faeadb79ed76251b1553fc456": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-software-updates-in-microsoft-intune.md"
+  ],
+  "c854893f457a60a7424010cdf69a91cb8476e167": [
+    "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
   ],
   "86552240b86f4a86f918e3ebef3b55ecddb1829c": [
     "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
