@@ -239,6 +239,9 @@
   "2ea9ca90af7a4beff5e7348985a022be46b1fd95": [
     "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
   ],
+  "f4e8fd298de6b92a994e67be5d9fb59cb5bd136f": [
+    "InTuneDocs\\DeployUse\\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md"
+  ],
   "8dec8d89ae80b1f114829fcf31caafcb26679ce4": [
     "InTuneDocs\\DeployUse\\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md"
   ],
@@ -1004,6 +1007,9 @@
   "4ee149b7571d8126d97a011be003520b68ad32ae": [
     "InTuneDocs\\DeployUse\\update-apps-using-microsoft-intune.md"
   ],
+  "2bb9ac819b63ea47ebc890d23cf83ee127c8e994": [
+    "InTuneDocs\\DeployUse\\use-the-sdk-to-enable-apps-for-mobile-application-management.md"
+  ],
   "8ca73f8a8cf445ecd06bba2db00d0ccf8bfc6839": [
     "InTuneDocs\\DeployUse\\use-the-sdk-to-enable-apps-for-mobile-application-management.md"
   ],
@@ -1289,6 +1295,9 @@
   "0e98e3c9f294953cf125d459afb818a29a8e0163": [
     "InTuneDocs\\EndUser\\how-to-encrypt-your-windows-device.md"
   ],
+  "e6267a7107008472855a47d122777da2c97ce361": [
+    "InTuneDocs\\EndUser\\how-to-reconnect-a-compromised-android-device.md"
+  ],
   "77f085299260544fc4047ae1365b9c8a38249881": [
     "InTuneDocs\\EndUser\\how-to-reconnect-a-compromised-android-device.md"
   ],
@@ -1309,6 +1318,9 @@
   ],
   "c93cbf3c01958ef87355b0370690d68c9b6974a6": [
     "InTuneDocs\\EndUser\\how-to-reconnect-a-compromised-ios-device.md"
+  ],
+  "60c650fa62e6bfd08cfb7c52c650b2ffba38d213": [
+    "InTuneDocs\\EndUser\\how-to-set-the-period-before-your-android-device-is-locked.md"
   ],
   "0cb02e484c5888f2211ffb0245049643dbc6ae99": [
     "InTuneDocs\\EndUser\\how-to-set-the-period-before-your-android-device-is-locked.md"
@@ -2701,6 +2713,9 @@
   "d05e2045c3f38e40c021fbd2992c6141e3bb9606": [
     "InTuneDocs\\EndUser\\using-your-android-device-with-intune.md"
   ],
+  "316fe0a16e45f22c69031ba4e28a74baedcd9cbf": [
+    "InTuneDocs\\EndUser\\using-your-ios-or-mac-os-x-device-with-intune.md"
+  ],
   "d578a998d1c7ccd69db9549a373e23cfc339df16": [
     "InTuneDocs\\EndUser\\using-your-ios-or-mac-os-x-device-with-intune.md"
   ],
@@ -3730,6 +3745,9 @@
   "d1352c21d7aea1dfe6b61c5bd24c213e0146a12e": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-android.md"
   ],
+  "fdc95e2ec0c4b47e0f953b4390de86fa4e04546d": [
+    "InTuneDocs\\EndUser\\device-doesnt-comply-with-the-maximum-operating-system-version-ios.md"
+  ],
   "68f5accd58bc43f9215eb2aaf2928cf2952070b8": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-the-maximum-operating-system-version-ios.md"
   ],
@@ -3810,6 +3828,9 @@
   ],
   "e044a6f0e3827b01cbee2a20def0e8649aac9f4f": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-android.md"
+  ],
+  "0a7fafc645d926aeb09ecce52f261f2ccdfa413d": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-ios.md"
   ],
   "45dc327859f1418431b59e31867ccaa05c114cfe": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-ios.md"
@@ -3910,6 +3931,9 @@
   "835988ae9787d37db53c6bffd57f6484981f292e": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
   ],
+  "9c7c52f3d20b493886b23e44cadb400d306c1e6f": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
+  ],
   "b0cb97f8b7044894686e571b896a1c6c4955ac02": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
   ],
@@ -3930,6 +3954,9 @@
   ],
   "fdd22ee080201c817f129f237a2cef63e9d32c17": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
+  ],
+  "8772fcbabd29e423d3624fe1779726c871cd1c36": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
   ],
   "7186959a4572054ecd3552ef62baa467f8c8cf40": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
@@ -3981,6 +4008,9 @@
   ],
   "311bb2753d4419fac4c92c6c26d970c082f97c7c": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-windows.md"
+  ],
+  "be8dcd03c409b5a51b008b28e97353f4a36764f8": [
+    "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
   ],
   "6316bf2cfc4472f079e0b19b54f7b083618fdbea": [
     "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
@@ -4107,6 +4137,9 @@
   ],
   "9a17ea0664a0eeaa97b7b6dff718035e93270dba": [
     "InTuneDocs\\EndUser\\reset-erase-your-lost-or-stolen-device-android.md"
+  ],
+  "e992b17f424a09e56c7a376ffae4f0db9af71ddb": [
+    "InTuneDocs\\EndUser\\reset-erase-your-lost-or-stolen-device-ios.md"
   ],
   "c25490e11eb41fad37a77624b351aa9256e4f24b": [
     "InTuneDocs\\EndUser\\reset-erase-your-lost-or-stolen-device-ios.md"
@@ -4294,6 +4327,9 @@
   "a2f58dc10db101468e48059916d8249d4f37a3a3": [
     "InTuneDocs\\EndUser\\turn-off-microsoft-usage-data-collection-android.md"
   ],
+  "343551db25a9e945cca997cdd68b2f3780a7da60": [
+    "InTuneDocs\\EndUser\\turn-off-microsoft-usage-data-collection-ios.md"
+  ],
   "4fef73018493d5b51711f566f3dc72e199b15193": [
     "InTuneDocs\\EndUser\\turn-off-microsoft-usage-data-collection-ios.md"
   ],
@@ -4363,6 +4399,9 @@
   "065f6bc138891059d157b03a6925168b8621bbce": [
     "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md"
   ],
+  "4940ce9515fa0a21eec5674f4ab5ccbd22320523": [
+    "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-ios.md"
+  ],
   "8d634273caf394253010c5062e86e3dda6a15df0": [
     "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-ios.md"
   ],
@@ -4425,6 +4464,9 @@
   ],
   "ed450cb5b9ec457bd698c27a04fed66a4ff3b127": [
     "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-android.md"
+  ],
+  "a4a2ba9b7fac8ee79c8c6607762fd166c97f1d91": [
+    "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md"
   ],
   "7a0db108250de42c4ad9f21d9037cffe1025f92f": [
     "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md"
@@ -4504,6 +4546,9 @@
   "b5383d3ad1066152d07005c6ccb50477a8ef1f9f": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
   ],
+  "113c3b21fdd68c700dfa8b1ba34d9ece562e93e7": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
+  ],
   "4aedefe5cf069866a91c321c0912a3f8264c6afc": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
@@ -4576,6 +4621,9 @@
   "f7ac07a646422375ce8230495a7d930de3be2e32": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-android.md"
   ],
+  "0d6f3b5cd4bd79d915ef9ae3ec7b3cc05038b693": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-ios.md"
+  ],
   "8453fddc6cb5e99ab67255068c1864695d4e187f": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-ios.md"
   ],
@@ -4633,6 +4681,9 @@
   "e4e1116227a33c9943a2d8cd9816ffa955c27d5a": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-android.md"
   ],
+  "94eedc7e11131f6ad001c92b5637c2cf1824d6b8": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
+  ],
   "2279b366f068a7b83dd3cba5cd1ee641e8f30e5a": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
   ],
@@ -4674,6 +4725,9 @@
   ],
   "6690412772ded769c14f56244daa9b501ae75936": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
+  ],
+  "ab307676bc85cc8c32ca850174de76081ef377ec": [
+    "InTuneDocs\\EndUser\\you-get-an-error-while-using-the-company-portal-app-ios.md"
   ],
   "3d692ad3b68293ea19dcbc9b89ae171d8cd4bc9b": [
     "InTuneDocs\\EndUser\\you-get-an-error-while-using-the-company-portal-app-ios.md"
@@ -6342,6 +6396,9 @@
   ],
   "4fb65c3b7f364d12adc9e28afa538035014e7826": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
+  ],
+  "df16b937f841184268d9e758ce5779a3017aa55e": [
+    "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md"
   ],
   "3b24f90ea13170096d89f7c323dbc277ff81dbbe": [
     "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md"
