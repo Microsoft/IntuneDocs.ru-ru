@@ -2779,6 +2779,9 @@
   "aa76c597f0f7b81aabccb7ff49c843da983aecb1": [
     "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
   ],
+  "aa62528e588b0579669ab8d115766efd72e6f9b2": [
+    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
+  ],
   "5587c8b02eb33cfb20862d1c33b3c678ed84a19b": [
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
   ],
@@ -6927,6 +6930,9 @@
   ],
   "daab0a97f8594e42256a6c044458e5c3389e70cc": [
     "InTuneDocs\\DeployUse\\windows-10-policy-settings-in-microsoft-intune.md"
+  ],
+  "fe685da41bb5379526bdc28c2f9cceb6b7800703": [
+    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
   ],
   "ce22379454d33fe211bd476e6f2870f89437d4cb": [
     "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
