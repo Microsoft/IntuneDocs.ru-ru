@@ -5830,6 +5830,9 @@
   "74f1a90233fc98a931a21ec80ff0ba13de36f2be": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
+  "0b550e43581a004e55ac7d7eaa212059f0d285d8": [
+    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
   "00af128807771f5646543614503ab7807362307b": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
   ],
@@ -5874,6 +5877,9 @@
   ],
   "2e31a61bf97ce9cf5f21cbc53dd3aa4767cf2f31": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
+  "e6d8507a143dede66ae4c299d928ea7f3cb9bd1b": [
+    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
   ],
   "b3db4a9c6afc8b2e01c3bef4d422f7ab4fb1ab36": [
     "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
@@ -6354,6 +6360,9 @@
   ],
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
+  ],
+  "6680388772bf735c11eb0d32d39bbb806607b014": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
   "0b63694fae79872f7b8eb686a9478eb7d866748a": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
@@ -7962,5 +7971,17 @@
   ],
   "d74af430afe23a421673e87f7899a927f6c497d1": [
     "InTuneDocs\\EndUser\\you-are-prompted-to-install-lookout-for-work.md"
+  ],
+  "6779337c69659dc77934ea56f23859b237aa953d": [
+    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-pfx.md"
+  ],
+  "fa22c9213e7cfa2d089f0aa9c3f6b104ea94016f": [
+    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-scep.md"
+  ],
+  "ffec31b4fed619db873661c38cebaaa1d2a9511e": [
+    "InTuneDocs\\DeployUse\\find-a-pfn-for-per-app-vpn.md"
+  ],
+  "972a71a2f50e8542905da58ff8e8ff6af7883dc2": [
+    "InTuneDocs\\DeployUse\\per-app-vpn-for-android-pulse-secure.md"
   ]
 }
