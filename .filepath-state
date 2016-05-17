@@ -5344,6 +5344,9 @@
   "7138ac8494083ee62a45fc223ab759c9b6a6f2e4": [
     "InTuneDocs\\GetStarted\\network-bandwidth-use.md"
   ],
+  "b35ce6ea00df2eeaaaf0f2f76d318182b12c8578": [
+    "InTuneDocs\\GetStarted\\supported-web-browsers.md"
+  ],
   "b2da5912b980dd3a4b0c1283ce071c6020a461e3": [
     "InTuneDocs\\GetStarted\\supported-web-browsers.md"
   ],
@@ -7555,6 +7558,9 @@
   "38f65bd3c7885b2e3c704e9081779d8b16760754": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-5.md"
   ],
+  "bee00e5bbb7b8fde5c7a11dc8338b5fda4ee745f": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
+  ],
   "a9b02fee76905c50babb4157f86a35ca434f6504": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-6.md"
   ],
@@ -7615,6 +7621,9 @@
   "f35aa373dff85836b06d4a1cd7f65d781c82d974": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-7.md"
   ],
+  "78cf5472a6069e09b5072253635066d95094a89e": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
+  ],
   "ec59c6529de944004e69eabcfc422f7f9fbcb3a1": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-8.md"
   ],
@@ -7665,6 +7674,9 @@
   ],
   "1ca47168d35fff1e5f8c8402d4413851307a7aad": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md"
+  ],
+  "15e641f4f5f60c4a3eb3a7b09cab8cb9ef788cba": [
+    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md"
   ],
   "53c5c1229ac8a801ecc3f8c53d63a0f344fa9ec8": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md"
