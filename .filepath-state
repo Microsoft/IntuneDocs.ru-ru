@@ -5833,6 +5833,9 @@
   "74f1a90233fc98a931a21ec80ff0ba13de36f2be": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
+  "1f3234ed0819364fb2b28955a0ae565c660e5632": [
+    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
   "0b550e43581a004e55ac7d7eaa212059f0d285d8": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
   ],
@@ -6060,6 +6063,9 @@
   ],
   "dc9c8b2983ae639098c98ada0106311344cdd74a": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
+  "4367f7f59db9b9803d1793bd07ad533c8e7489ff": [
+    "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
   "059f1ba6dc6863fbbdb309d092dcd4d14c7018df": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
@@ -6393,6 +6399,9 @@
   ],
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "fe9d8074cecfe264673d519385211ee44b4f430f": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "13280e5048788571df82b25c2852dc12f4cce8e7": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -7987,13 +7996,40 @@
   "6779337c69659dc77934ea56f23859b237aa953d": [
     "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-pfx.md"
   ],
+  "e28123b0e904211be9ba71899ba3a72f871ae706": [
+    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-scep.md"
+  ],
   "fa22c9213e7cfa2d089f0aa9c3f6b104ea94016f": [
     "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-scep.md"
+  ],
+  "39f861c6bf3df8409c2138c119e37d5c07a5b7c8": [
+    "InTuneDocs\\DeployUse\\find-a-pfn-for-per-app-vpn.md"
   ],
   "ffec31b4fed619db873661c38cebaaa1d2a9511e": [
     "InTuneDocs\\DeployUse\\find-a-pfn-for-per-app-vpn.md"
   ],
   "972a71a2f50e8542905da58ff8e8ff6af7883dc2": [
     "InTuneDocs\\DeployUse\\per-app-vpn-for-android-pulse-secure.md"
+  ],
+  "5ec77117337cc48dbabaa2e5326d26ae72999eb8": [
+    "InTuneDocs\\media\\SCEP_IIS_max_URL.png"
+  ],
+  "c2b1925fbc54bd76795cf5a05d67e90eede9dbde": [
+    "InTuneDocs\\media\\scep_ndes_extensions.jpg"
+  ],
+  "1fdfd4a4b0c286678dd2473f928c43ca67d6572e": [
+    "InTuneDocs\\media\\scep_ndes_issuance_reqs.jpg"
+  ],
+  "5716ecd3293eb0cca3012fb904a5c67bede6eb23": [
+    "InTuneDocs\\media\\scep_ndes_request_handling.png"
+  ],
+  "d9f855bd8ed1be5b04f9b41e64bf1b029f480a57": [
+    "InTuneDocs\\media\\scep_ndes_security.jpg"
+  ],
+  "f137a08c583910b12138f0d94f34506f831b8d77": [
+    "InTuneDocs\\media\\scep_ndes_subject_name.jpg"
+  ],
+  "cc76f1067638bc79cd2654f89c1a2a8642256eb9": [
+    "InTuneDocs\\media\\SCEP_NDES_URL.png"
   ]
 }
