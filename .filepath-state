@@ -101,6 +101,9 @@
   "277ec8bb036488e5cc89bebdb51de0b2bc05a26c": [
     "InTuneDocs\\Troubleshoot\\contact-assisted-phone-support-for-microsoft-intune.md"
   ],
+  "d752721db4a5aa527cad0267c40fdc70684bbe07": [
+    "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
+  ],
   "2416faffac016e381e93ca661ff7a55bff4be120": [
     "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
   ],
@@ -199,6 +202,9 @@
   ],
   "f90816ca06edd15af26b9979a28c0ed916f3ebaf": [
     "InTuneDocs\\DeployUse\\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md"
+  ],
+  "2454aecb48cceab96c79094bc95185898bdf734a": [
+    "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
   ],
   "3072ddc0f2289a93de5ae722abb34e8a3c6b27ac": [
     "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
@@ -589,6 +595,9 @@
   ],
   "f89ea0418cc7f53fdce16f26d31e3e24920b3c69": [
     "InTuneDocs\\DeployUse\\manage-windows-pcs-with-microsoft-intune.md"
+  ],
+  "6bec50736915ab4458ad31dda43eee59a774bdcf": [
+    "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
   ],
   "04b275f158079a658a7d3569e62d02e88dce1f7c": [
     "InTuneDocs\\DeployUse\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
@@ -3676,6 +3685,9 @@
   "51cd068a83081ddc9b4fd65c579f4869b8aa4dff": [
     "InTuneDocs\\DeployUse\\Release-notes-for-Microsoft-Intune.md"
   ],
+  "c082a47dd0bc348ce4b5e6e8c23a5d1ce9d01547": [
+    "InTuneDocs\\DeployUse\\previous-intune-releases.md"
+  ],
   "c197695fe61874c3781996cca8745fd5474204f6": [
     "InTuneDocs\\DeployUse\\previous-intune-releases.md"
   ],
@@ -5767,6 +5779,9 @@
   "8ddac3378745a18105a7230af192e7c49c550b25": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
   ],
+  "620e48bbc5ff9e8abe286bbdcd34181215fc7f93": [
+    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
+  ],
   "1b30346d0605ecc4ebd39e3c39a3f0581a8e7128": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
   ],
@@ -5799,6 +5814,9 @@
   ],
   "ae436c13137b09f261281b17e8adde32942f1775": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
+  ],
+  "964c7f5adbd90d5e01036676bc44b919dc5dcd39": [
+    "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
   "370578198abd2d6a1e9d4586efcce9b22f21567b": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
@@ -6133,6 +6151,9 @@
   "1e00d5fb315cac297294a74496d2a4342051f945": [
     "InTuneDocs\\media\\passport.png"
   ],
+  "6e3330d5c66ac06f860661eaecf53f2da8318a96": [
+    "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+  ],
   "633a3c5e0184464d33bc1ecc53e4f06fb4c455c4": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
   ],
@@ -6168,6 +6189,9 @@
   ],
   "75027d332bff2481c5d2cbbe4e8b5e92741c6f83": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+  ],
+  "90513027ef0492d209356556cedb2db17c1d703c": [
+    "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
   ],
   "5ebdc3d6146616e5d5fd67366ef6d32eec0ec983": [
     "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
@@ -6378,6 +6402,9 @@
   ],
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
+  ],
+  "4d4aa5d8d92ec8d691c1de603f0bc73d35d88908": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
   "6680388772bf735c11eb0d32d39bbb806607b014": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
@@ -7897,6 +7924,9 @@
   "022419048233d679938c3a0013fc690a60c413e9": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-7-open-cp.png"
   ],
+  "0cb77f8683324c96f6580a4a4a5b778c382cf240": [
+    "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
+  ],
   "3c5fb298ddcf1fd3299e94928c0c33af54eabd83": [
     "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
   ],
@@ -8043,5 +8073,29 @@
   ],
   "2b2dad1e511176c14bf2dd21276431a5413e189c": [
     "InTuneDocs\\media\\ep_sa_malwarescan.png"
+  ],
+  "c49da9a0a811d8c1bfb2f20b64a694558d09313b": [
+    "InTuneDocs\\DeployUse\\media\\team-viewer.png"
+  ],
+  "3788e4a24c0e33cf0c9d5188d2aefb104f0e8b9b": [
+    "InTuneDocs\\DeployUse\\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md"
+  ],
+  "e8d616862134044dd2989069528b02dce3158e22": [
+    "InTuneDocs\\media\\mam-azure-portal-add-app-details.png"
+  ],
+  "5513455b163d840375c2808ca7f51e5a8d7e77e9": [
+    "InTuneDocs\\media\\mam-azure-portal-add-lob-app-action.png"
+  ],
+  "70314be91e0af4e2f83d5026faa73f1bb947cfe1": [
+    "InTuneDocs\\media\\mam-azure-portal-delete-app.png"
+  ],
+  "2415ec9b08debedea47e3ec5343224e924f205d1": [
+    "InTuneDocs\\media\\mam-azure-portal-lob-context-menu.png"
+  ],
+  "c71e2b3806fcde1aa16b640b7b9eb502b6e7f687": [
+    "InTuneDocs\\media\\mam-azure-portal-lob-on-settings.png"
+  ],
+  "f948061634eabd424ff32bd350ae3b01536941e6": [
+    "InTuneDocs\\media\\mam-azure-portal-lob-on-targeted-app-list.png"
   ]
 }
