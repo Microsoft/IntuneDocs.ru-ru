@@ -101,6 +101,9 @@
   "277ec8bb036488e5cc89bebdb51de0b2bc05a26c": [
     "InTuneDocs\\Troubleshoot\\contact-assisted-phone-support-for-microsoft-intune.md"
   ],
+  "c06a8733ed4751877effa8d6a3e363233540803d": [
+    "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
+  ],
   "d752721db4a5aa527cad0267c40fdc70684bbe07": [
     "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
   ],
@@ -3421,6 +3424,9 @@
   "7f6e2f7854074424054da297c533382e242f5a1e": [
     "InTuneDocs\\media\\MAM_ManagedDevices_November.png"
   ],
+  "1e19c0029ac0eaa43d298dee8639c113b2dda585": [
+    "InTuneDocs\\DeployUse\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
+  ],
   "25c8274834a430fd49668fce0587fbc2abb4ab0a": [
     "InTuneDocs\\DeployUse\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
   ],
@@ -5839,6 +5845,9 @@
   "ae436c13137b09f261281b17e8adde32942f1775": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
   ],
+  "28448f5ca267e0a3fa0ffc35018b480da45aefc6": [
+    "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "964c7f5adbd90d5e01036676bc44b919dc5dcd39": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -6178,6 +6187,9 @@
   "1e00d5fb315cac297294a74496d2a4342051f945": [
     "InTuneDocs\\media\\passport.png"
   ],
+  "565c4789b0f27e904e66cb70843d3f4710ba2ebe": [
+    "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+  ],
   "6e3330d5c66ac06f860661eaecf53f2da8318a96": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
   ],
@@ -6430,6 +6442,9 @@
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
+  "c987664541d65c516f40940b87ac0be54bc4a495": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "4a7915f2e440634f192104fbed95588330fe1f4e": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -6465,6 +6480,9 @@
   ],
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "cc2fb7cdffd3f23a406777722c026b9bbb3f0ebb": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "fe9d8074cecfe264673d519385211ee44b4f430f": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
