@@ -2686,6 +2686,9 @@
   "4fea71a05f8f48a12977e8b0fccab3b915b5f5d3": [
     "InTuneDocs\\EndUser\\media\\iwp-3-tap-reset-passcode-after-signin.png"
   ],
+  "94348e8e2062af15768ef31dbd43b94956e94476": [
+    "InTuneDocs\\EndUser\\using-your-android-device-with-intune.md"
+  ],
   "116a9e48add2cd0936caccfa1114de05e2329744": [
     "InTuneDocs\\EndUser\\using-your-android-device-with-intune.md"
   ],
@@ -4132,6 +4135,9 @@
   "4d5da1679a8140de5b4aa2474de2a1415c55e517": [
     "InTuneDocs\\EndUser\\rename-your-device-cpwebsite.md"
   ],
+  "9d8037dec5042f4d6301df5ecee9185e8020071d": [
+    "InTuneDocs\\EndUser\\reset-erase-your-lost-or-stolen-device-android.md"
+  ],
   "dd1f11d1be1f3df750dd3630ceb590ad2dba4703": [
     "InTuneDocs\\EndUser\\reset-erase-your-lost-or-stolen-device-android.md"
   ],
@@ -4200,6 +4206,9 @@
   ],
   "8c5cd7722b38f73603ff3c91d82816500a253458": [
     "InTuneDocs\\EndUser\\reset-your-device-cpwebsite.md"
+  ],
+  "8eae934362404ee23b35934b6fa26c56793b1974": [
+    "InTuneDocs\\EndUser\\reset-your-passcode-cpwebsite.md"
   ],
   "2387944e574474d546817d897e845e663164c7a8": [
     "InTuneDocs\\EndUser\\reset-your-passcode-cpwebsite.md"
@@ -4429,6 +4438,9 @@
   "44957e696209d3e6d8f6658cb9f3ed95496f3e72": [
     "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-ios.md"
   ],
+  "92e30cd7a5bdf790cea75123b0ec2a488ff7c658": [
+    "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-windows.md"
+  ],
   "b1fac87afcaa72cb63b6a836ac36cc56caabeb2a": [
     "InTuneDocs\\EndUser\\unenroll-your-device-from-intune-windows.md"
   ],
@@ -4579,6 +4591,9 @@
   "fd8b9574a87de312bb0a6b93efa06ef19c7c8122": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
+  "2000278e0012dd5f45ec46212df3378140fdf17b": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
+  ],
   "86ec26e4a89f3d02212b76a0c71a8fe14e594122": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
   ],
@@ -4678,6 +4693,9 @@
   "734e51656471cd6859ef495bfbfab19a47da3985": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
   ],
+  "94239f1af609cb2961af04f03a9972bae1d6230b": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-android.md"
+  ],
   "a9282d828d8913efc462946bf4a6ac434c6ae4fd": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-android.md"
   ],
@@ -4716,6 +4734,9 @@
   ],
   "9b49ce3645a8219f61a457d0448cc179a1cbdf6f": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-ios.md"
+  ],
+  "2c5bfcbad02d1eef7662b19f9cc3051bdd6739b0": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
   ],
   "4c0d0f5cca6435ff149ad0a0e93663519482c3fc": [
     "InTuneDocs\\EndUser\\what-happens-if-you-unenroll-your-device-from-intune-windows.md"
@@ -6409,6 +6430,9 @@
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
+  "4a7915f2e440634f192104fbed95588330fe1f4e": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "4d4aa5d8d92ec8d691c1de603f0bc73d35d88908": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -6850,6 +6874,9 @@
   "314533eb30bd30a76dccca3510843ad9cd0ca070": [
     "InTuneDocs\\EndUser\\media\\wp81-3-sync-tap-sync-button.png"
   ],
+  "a44483e4ec4b12ca45dad8a85afa4aa9ae75248e": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
+  ],
   "c0a76642b316f148f93cd6c6a487b34e34144d27": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
   ],
@@ -6876,6 +6903,9 @@
   ],
   "7e121c13a2649898b5f531c3ab31aa2b1197731f": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
+  ],
+  "2d9ce9b71a081398be30279fcc468b1d1bc52b18": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
   ],
   "ceebb0d7ce382289d4b7d15f30094ecf28645c14": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-windows.md"
@@ -7038,6 +7068,9 @@
   ],
   "c325a34778f52b965695ef27147b1d07e957f632": [
     "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
+  ],
+  "67d005fc75397f5cf24693c953e69460c1f470a3": [
+    "InTuneDocs\\EndUser\\remote-lock-your-device-cpwebsite.md"
   ],
   "3d19350f6c5df9ee55ff4c14485a468618e88f3b": [
     "InTuneDocs\\EndUser\\remote-lock-your-device-cpwebsite.md"
@@ -8034,6 +8067,9 @@
   ],
   "73d94beada4963c0698d0c2152fd745792878ec1": [
     "InTuneDocs\\EndUser\\password-does-not-meet-it-administrator-requirements.md"
+  ],
+  "de806d0b16ca874290e730b4d0d53228dfafb9c7": [
+    "InTuneDocs\\EndUser\\you-are-prompted-to-install-lookout-for-work.md"
   ],
   "d74af430afe23a421673e87f7899a927f6c497d1": [
     "InTuneDocs\\EndUser\\you-are-prompted-to-install-lookout-for-work.md"
