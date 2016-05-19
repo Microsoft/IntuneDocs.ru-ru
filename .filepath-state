@@ -329,6 +329,9 @@
   "99440011eccdb51498d4bd1c08bb99751f5de321": [
     "InTuneDocs\\DeployUse\\get-notified-by-microsoft-intune-alerts.md"
   ],
+  "7bbd761b13f110297959a036ec15cafe1396377e": [
+    "InTuneDocs\\DeployUse\\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md"
+  ],
   "373e58d7107bffdcb78f35e06052effdc2aaf872": [
     "InTuneDocs\\DeployUse\\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md"
   ],
@@ -6736,6 +6739,9 @@
   "e9c1051c9debf79bc34e97f2b3f01c1d34ac09f9": [
     "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
   ],
+  "e3d742f144ee7ab1e123cf9f312dad54ecb2df23": [
+    "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
+  ],
   "231b0279cf47721164f2014e1bb5da2c3e09beab": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
   ],
@@ -7981,6 +7987,9 @@
   "022419048233d679938c3a0013fc690a60c413e9": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-7-open-cp.png"
   ],
+  "711d1ca4d6afe52fdeec94ff2e7893618b4fe28c": [
+    "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
+  ],
   "0cb77f8683324c96f6580a4a4a5b778c382cf240": [
     "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
   ],
@@ -8019,6 +8028,9 @@
   ],
   "1cefd151c6516cc55a81339da65e15677bcee92f": [
     "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
+  ],
+  "4ce01f47ef07afed2041cea6f8606d8ef1bb6993": [
+    "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
   ],
   "26647bdff0870dbf8989911b7c193e53c4eaea02": [
     "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
