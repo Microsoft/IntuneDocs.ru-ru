@@ -527,6 +527,9 @@
   "9e749d8f92f288c50330194b891803f0e32f318a": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
   ],
+  "31eb1b31fa86b3c1898722ca7f2bf63f5e91e0af": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
   "3a4b6264f7b2a0c56519c4500d03b019de51c37e": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
   ],
@@ -1063,6 +1066,9 @@
   ],
   "0d0beaf50520938373778efd23b943271c53939a": [
     "InTuneDocs\\DeployUse\\wipe-managed-company-app-data-with-microsoft-intune.md"
+  ],
+  "bdc2ba21ddeaedcbb0cf847f2491be118c275057": [
+    "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
   ],
   "409cbcdf4e162654454e9fda6a11ee8ab5b8e62c": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
@@ -3528,6 +3534,9 @@
   ],
   "e10d5743797882b6bc58e95d79006e33220a6892": [
     "InTuneDocs\\DeployUse\\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
+  ],
+  "e468ff102b45bf0c23fd76d8d15c44978861ae8a": [
+    "InTuneDocs\\DeployUse\\edition-upgrade-policy-settings-in-microsoft-intune.md"
   ],
   "949afc54c6f54ed57e606c350f38feadd96647f6": [
     "InTuneDocs\\DeployUse\\edition-upgrade-policy-settings-in-microsoft-intune.md"
@@ -6166,6 +6175,9 @@
   "e14facf2d873f0dd533ab23beab56f7b0365db84": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
+  "a5aaab9d11d7f992e052efb3ca11e4a5621435e4": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
+  ],
   "2bd8634ba0a1cc2d0f797d116c9decf31243d4f3": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
@@ -6742,6 +6754,9 @@
   "e9c1051c9debf79bc34e97f2b3f01c1d34ac09f9": [
     "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
   ],
+  "44d4bae56cb5595d86117289a28ff4bc97aa861d": [
+    "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
+  ],
   "e3d742f144ee7ab1e123cf9f312dad54ecb2df23": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
   ],
@@ -6966,6 +6981,9 @@
   ],
   "8e11b2aa1e985e9c2b9013fae17c305466aea1c8": [
     "InTuneDocs\\DeployUse\\media\\conditional_access_SFBPolicy.png"
+  ],
+  "01e1cf0c790db4ebebdf29f33aa7e4d85f5f1c8c": [
+    "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
   ],
   "9e9a029a11d3172b8bbb65cb68071fc84878be90": [
     "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
@@ -7491,6 +7509,9 @@
   ],
   "c427b3f1a59d33001cf00f6f997796ac9be47a3c": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
+  ],
+  "fba18ed5a3ebd8c8dd8f6c277ece543d49ff2f1e": [
+    "InTuneDocs\\DeployUse\\add-apps.md"
   ],
   "6d7eeca227229ccd3234b0577054c28a2b89c01a": [
     "InTuneDocs\\DeployUse\\add-apps.md"
@@ -8148,9 +8169,6 @@
   ],
   "cc76f1067638bc79cd2654f89c1a2a8642256eb9": [
     "InTuneDocs\\media\\SCEP_NDES_URL.png"
-  ],
-  "2b2dad1e511176c14bf2dd21276431a5413e189c": [
-    "InTuneDocs\\media\\ep_sa_malwarescan.png"
   ],
   "c49da9a0a811d8c1bfb2f20b64a694558d09313b": [
     "InTuneDocs\\DeployUse\\media\\team-viewer.png"
