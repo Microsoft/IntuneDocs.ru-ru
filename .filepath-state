@@ -818,6 +818,9 @@
   "f320af47609657198e0c7359486222c2652bdf83": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
   ],
+  "06120af2deb97e3b0977b1a555212a50400b4eb1": [
+    "InTuneDocs\\DeployUse\\TOC.md"
+  ],
   "ff13f321f6950c29a33ee43a9aa54ce85c902075": [
     "InTuneDocs\\DeployUse\\TOC.md"
   ],
@@ -6174,6 +6177,9 @@
   ],
   "e14facf2d873f0dd533ab23beab56f7b0365db84": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
+  ],
+  "b8a08f25c785bfc9eb65d671c62966a9ab42e904": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
   "a5aaab9d11d7f992e052efb3ca11e4a5621435e4": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
