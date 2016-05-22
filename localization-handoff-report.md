@@ -1,20 +1,21 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 3
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\manage-corporate-owned-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79c3d267389aadba1e5879413d34d295de2e3b8c/InTuneDocs/DeployUse/manage-corporate-owned-devices.md) | HandedOffSuccess | [Details](#b8a08f25c785bfc9eb65d671c62966a9ab42e90467)
- [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5cf3c41113124cae9b1f021c6fa2a37b26d40576/InTuneDocs/DeployUse/TOC.md) | HandedOffSuccess | [Details](#06120af2deb97e3b0977b1a555212a50400b4eb1244)
+ [InTuneDocs\DeployUse\Configure-certificate-infrastructure-for-scep.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8cb6562030c0df1366fb0469db2b2c18e9dbc8d4/InTuneDocs/DeployUse/Configure-certificate-infrastructure-for-scep.md) | HandedOffSuccess | [Details](#50f9ad6d9983e1f0c931d53dee94873705a06dfc21)
+ [InTuneDocs\DeployUse\per-app-vpn-for-android-pulse-secure.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8cb6562030c0df1366fb0469db2b2c18e9dbc8d4/InTuneDocs/DeployUse/per-app-vpn-for-android-pulse-secure.md) | HandedOffSuccess | [Details](#250bf0cf078aaeb7d740826a236bcd5b4544ed91210)
+ [InTuneDocs\media\android_per_app_vpn_oma_uri.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/d5c48a4cead6250864f5b10444d99d062441bd99/InTuneDocs/media/android_per_app_vpn_oma_uri.PNG) | HandedOffSuccess | [Details](#3d897adfae78fa4be7946051155da197121b1213698)
 
 ## Item Details
-##### <a name='b8a08f25c785bfc9eb65d671c62966a9ab42e90467'></a> Source: [InTuneDocs\DeployUse\manage-corporate-owned-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/79c3d267389aadba1e5879413d34d295de2e3b8c/InTuneDocs/DeployUse/manage-corporate-owned-devices.md)
+##### <a name='50f9ad6d9983e1f0c931d53dee94873705a06dfc21'></a> Source: [InTuneDocs\DeployUse\Configure-certificate-infrastructure-for-scep.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8cb6562030c0df1366fb0469db2b2c18e9dbc8d4/InTuneDocs/DeployUse/Configure-certificate-infrastructure-for-scep.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [manage-corporate-owned-devices.865c6a0e2c92ad75f207f32281351fc87b2074b4.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/2fb58332fbac775699173ac7dc38371510773e1d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/manage-corporate-owned-devices.865c6a0e2c92ad75f207f32281351fc87b2074b4.ru-ru.xlf)
-* Handoff Datetime: 2016-05-21 19:14:04
+* Handoff File: [Configure-certificate-infrastructure-for-scep.fc0c1e54cbbd8768ac8185f7fcac6d5e86e891c1.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/15b11d17d67947cc2edf22d24e8b3d1be29008aa/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Configure-certificate-infrastructure-for-scep.fc0c1e54cbbd8768ac8185f7fcac6d5e86e891c1.ru-ru.xlf)
+* Handoff Datetime: 2016-05-22 17:13:21
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -22,16 +23,29 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='06120af2deb97e3b0977b1a555212a50400b4eb1244'></a> Source: [InTuneDocs\DeployUse\TOC.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5cf3c41113124cae9b1f021c6fa2a37b26d40576/InTuneDocs/DeployUse/TOC.md)
+##### <a name='250bf0cf078aaeb7d740826a236bcd5b4544ed91210'></a> Source: [InTuneDocs\DeployUse\per-app-vpn-for-android-pulse-secure.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8cb6562030c0df1366fb0469db2b2c18e9dbc8d4/InTuneDocs/DeployUse/per-app-vpn-for-android-pulse-secure.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/2fb58332fbac775699173ac7dc38371510773e1d/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.d669f1ddce84ce475f1caaaba10ea2dad4bca1c5.ru-ru.xlf)
-* Handoff Datetime: 2016-05-21 19:14:04
+* Handoff File: [per-app-vpn-for-android-pulse-secure.485169ccf37ac7372216fe35469fa6d5e32127ea.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/15b11d17d67947cc2edf22d24e8b3d1be29008aa/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/per-app-vpn-for-android-pulse-secure.485169ccf37ac7372216fe35469fa6d5e32127ea.ru-ru.xlf)
+* Handoff Datetime: 2016-05-22 17:13:21
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='3d897adfae78fa4be7946051155da197121b1213698'></a> Source: [InTuneDocs\media\android_per_app_vpn_oma_uri.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/d5c48a4cead6250864f5b10444d99d062441bd99/InTuneDocs/media/android_per_app_vpn_oma_uri.PNG)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [3d897adfae78fa4be7946051155da197121b1213.PNG](https://github.com/Microsoft/EM.handoff/blob/15b11d17d67947cc2edf22d24e8b3d1be29008aa/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/3d897adfae78fa4be7946051155da197121b1213.PNG)
+* Handoff Datetime: 2016-05-22 17:13:21
+* Handoff Reason: IsDependency
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: InTuneDocs\DeployUse\per-app-vpn-for-android-pulse-secure.md
 * [Back to Top](#report-top)
 
 
