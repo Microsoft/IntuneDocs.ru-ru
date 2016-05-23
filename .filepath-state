@@ -6469,6 +6469,9 @@
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
+  "eea3899deb276ad7e8b51fc67d18f066751da6ad": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "c987664541d65c516f40940b87ac0be54bc4a495": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -6507,6 +6510,9 @@
   ],
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "bdb4059504fd10af7ec2e928df6d36d7ba842d74": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "cc2fb7cdffd3f23a406777722c026b9bbb3f0ebb": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
