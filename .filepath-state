@@ -4489,6 +4489,9 @@
   "d211711ad142aa99dab0b7f1a2569ef2ffc54b3a": [
     "InTuneDocs\\DeployUse\\pre-shared-key-wi-fi-profile.md"
   ],
+  "43ba7c92c631862b0aaaf4dc5e78108a60f7f60d": [
+    "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
+  ],
   "f0d47b08082cad8e9883700b7cca179f59996373": [
     "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
@@ -4515,6 +4518,9 @@
   ],
   "1964b48c221eed4b6c38cf54ccddc736c0d5abbe": [
     "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
+  ],
+  "db76fb3a3751938b107494b2c6397b5e7a335e0c": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
   ],
   "4d04f57643b317227bc273d39f5fdf3c0a396263": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
@@ -5556,6 +5562,9 @@
   ],
   "05d51136e630f383abe73f23c07a80d86c485d56": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
+  ],
+  "33b3db1fb6e24123b5097c57fb165be902c6339c": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
   "5b4862e4d16be380ff76b1c16fc5f81db63a452f": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
@@ -7377,6 +7386,9 @@
   ],
   "3d897adfae78fa4be7946051155da197121b1213": [
     "InTuneDocs\\media\\android_per_app_vpn_oma_uri.PNG"
+  ],
+  "34d3f090665bc0205b7001726d1e9052f830395d": [
+    "InTuneDocs\\includes\\mdm-supported-devices.md"
   ],
   "d1718363cf0406b1dff7db12cac0d715177dfc76": [
     "InTuneDocs\\includes\\mdm-supported-devices.md"
