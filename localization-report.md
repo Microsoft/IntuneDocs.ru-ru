@@ -4999,9 +4999,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\EndUser\how-to-reconnect-a-compromised-android-device.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/f106d0756d5ef7ebf5b221f8177b35397f8b1db9/InTuneDocs/EndUser/how-to-reconnect-a-compromised-android-device.md)
-* Current Handback File: [How-to-reconnect-a-compromised-Android-device.b37cc42ef4c8f67645dce35915535321c06d8b3e.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/bda803073be44f26edf8bf4217a8526c23678f20/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/How-to-reconnect-a-compromised-Android-device.b37cc42ef4c8f67645dce35915535321c06d8b3e.ru-ru.xlf)
-* Current Handback Datetime: 2016-05-24 02:49:04
+* Current Target File: [InTuneDocs\EndUser\how-to-reconnect-a-compromised-android-device.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/7bf04c849f832c6c7abde3c94253de9cfd1de6cb/InTuneDocs/EndUser/how-to-reconnect-a-compromised-android-device.md)
+* Current Handback File: [how-to-reconnect-a-compromised-android-device.ce662fdb7474f5ec2d57b25b0f0f347567f67088.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b40ea03134f50e79ffa1591d3c7d668077f5f180/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/how-to-reconnect-a-compromised-android-device.ce662fdb7474f5ec2d57b25b0f0f347567f67088.ru-ru.xlf)
+* Current Handback Datetime: 2016-05-24 03:58:51
 * [Back to Top](#report-top)
 
 ##### <a name='eff33efbc589d6c06e8a132bc804df68af5395de302'></a> Source: [InTuneDocs\EndUser\how-to-reconnect-a-compromised-ios-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/EndUser/how-to-reconnect-a-compromised-ios-device.md)
