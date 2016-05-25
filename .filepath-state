@@ -5563,6 +5563,9 @@
   "05d51136e630f383abe73f23c07a80d86c485d56": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
+  "0ce1bf409ced1fa46ba13ab8ea294d00df7f4766": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
+  ],
   "33b3db1fb6e24123b5097c57fb165be902c6339c": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
@@ -7386,6 +7389,9 @@
   ],
   "3d897adfae78fa4be7946051155da197121b1213": [
     "InTuneDocs\\media\\android_per_app_vpn_oma_uri.PNG"
+  ],
+  "fb8b5453664b3b60d801ddb372114eb2d0d67704": [
+    "InTuneDocs\\includes\\mdm-supported-devices.md"
   ],
   "34d3f090665bc0205b7001726d1e9052f830395d": [
     "InTuneDocs\\includes\\mdm-supported-devices.md"
