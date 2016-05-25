@@ -2437,21 +2437,6 @@
   "5e07f905b5484094852798a9e1e70f588412f56c": [
     "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
   ],
-  "98bbe082c17afc715fb3940d572fa3ca0259e7f5": [
-    "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
-  ],
-  "ef474ac6816deecb6c37f6279ce5706748d29c74": [
-    "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
-  ],
-  "03516fe1753d22a4ee9dec664efa945072d7ee9d": [
-    "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
-  ],
-  "cc79e0eaff4890ff3e79aa38562cf27d10dd3d08": [
-    "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
-  ],
-  "81df3b4c921dc3287d10b0fb96ad03eddef32c4d": [
-    "InTuneDocs\\EndUser\\your-computer-is-already-enrolled.md"
-  ],
   "8769ee216a7fe5b94d9f4f6dc505d2d4230e5551": [
     "InTuneDocs\\media\\IntuneSA1dconfigureExchConnector.png"
   ],
@@ -2459,45 +2444,6 @@
     "InTuneDocs\\media\\IntuneSA5cServiceToServiceConnector.PNG"
   ],
   "cdf297e71cb341b365afa9a2827214b803f8aa12": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "ae4aa249f3ed47887909ec7c7ab634af4841f8c1": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "c274cdd0932eaed1a4b55d055b4eea3eeaf759aa": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "239bb67c3a218b161871ddc5db311f861243957b": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "ccde808c9e86ebc4484d6367a5ad34d8ba757422": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "7d9896153f493f500de47c59bbf2edec1986c1bb": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "303c55f5828a842f87c8623c9f331a6af509bd02": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "1ac3d538937206bd42bd935c0dd338ae2dffc66a": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "1326b4b63f54f2d10dc2ad1fb959717a92f34a00": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "3531b65707db18f89f7a61f9955d6cb5a7a20d13": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "fc8e1d39b6957cf03a11e113e5a0db666dfe2748": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "1c128431cfeb56b59ea6b826238bf9985e9d85fb": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "c9e3dfa2aaa06b206cc9372756f70de138b0a59b": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
-  ],
-  "89596536ef9251efc72c50945976c9d531645fcd": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune.md"
   ],
   "af1976c092b3a380c09006227bfc16e1e7933d6d": [
@@ -3463,18 +3409,6 @@
   "6316bf2cfc4472f079e0b19b54f7b083618fdbea": [
     "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
   ],
-  "f0f27c1488577abf17144c47c63a8e5f3fac0548": [
-    "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
-  ],
-  "2829f057b5d9ad8e067ddb6229a0fbfe0e869bea": [
-    "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
-  ],
-  "26e469b33431ba3bbc54a74b72fb753820e3585f": [
-    "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
-  ],
-  "40cef66b4b11251af272c428eeaa8ea5731d81f1": [
-    "InTuneDocs\\EndUser\\how-do-i-find-the-serial-number-on-my-device-ios.md"
-  ],
   "80e9253e08e5aca9c89f0968e7656593b106a93d": [
     "InTuneDocs\\EndUser\\install-and-sign-in-to-the-intune-company-portal-app-ios.md"
   ],
@@ -4258,33 +4192,6 @@
   "2e3d951fd0dffae2c7b3adf938b1f06909ca55a4": [
     "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
   ],
-  "0cf78c6b9ebe9af2d4110e7e4338b9194e59dff4": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "7503e1a2b27e2884d66844c3af9e44d78f951d3e": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "835da1a7f626161b3c353f0e8e92a30e1bce9d14": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "2bb0135e13f75d33a798dfd1c48ef776b086675f": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "33252622df76d82e89724e0b75f315eee6247f9e": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "d584af5a745909ee3e61e1568937a3cd9de5742d": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "c81b3fb35cce0039eaacff79e52c3d4b8d0992c3": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "53469948fdd42cdc8da753b1ce1a17f0c694bbf9": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
-  "fe3d37e292bd8b1b7d62ef7134dc92634ec35b78": [
-    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
-  ],
   "d1912736361a9fa74a8827be367227336ee800eb": [
     "InTuneDocs\\DeployUse\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
   ],
@@ -4957,24 +4864,6 @@
   "2f9787609f190e26215c540a50a453ab7be7e64c": [
     "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
   ],
-  "07f439bfd76e83b98bdb402d5f455da73147fe23": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "06cf8e69049cd9c86432d865d39136bf64cab318": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "1ce8865c7f29d567b5454835d3008b04f68dfe9c": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "8a77e218d88726aea2acc407c03d312b05614436": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "da34a71068098a45fa1ad588f9666c6ef1a99584": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
-  "d21a69a3df2f3c3baa67d555b8915fb3b7491f3a": [
-    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
-  ],
   "b551aca6994780591dabe042420d5f23d98b218b": [
     "InTuneDocs\\GetStarted\\network-infrastructure-requirements-for-microsoft-intune.md"
   ],
@@ -5545,33 +5434,6 @@
   "839da02f3fbe6d61e3aab1ae9fd49e32b2104021": [
     "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
   ],
-  "bd87600d46ee07037b38a5226d08f4c7ab463fd6": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "2e815b52c948f102e98a87215fd139fa2ff3855e": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "786265568ac95c0adf7882925fd5a5d22ec45016": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "4688878fe5aa851cc08a302f473ee5bc8e2f7285": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "b650cdb05481b6b6b6cdbbc70b1271eba3b2e575": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "1fb1360f8d705c19d451568455d922617c4398b4": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "5e678b7723a68b2d0ef569c545ec2ce000bc8475": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "cb86b5436de34186d517031f1485704b186afbed": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
-  "268099405631c36dc3fa7c3f0765025c6c7a5270": [
-    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
-  ],
   "b2fc107fc43818d74c4400077e996e4488547281": [
     "InTuneDocs\\media\\enroll-Intune-WinEnr.png"
   ],
@@ -5612,21 +5474,6 @@
     "InTuneDocs\\DeployUse\\manage-volume-purchased-apps-in-microsoft-intune.md"
   ],
   "c92b7de51de0ac0115dd53e421d4852bed8d729a": [
-    "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
-  ],
-  "c247b20bfbbbdcae9b04f0ad9233f68d4303813c": [
-    "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
-  ],
-  "5d8df5e7a172fc580d923187d3c942781172dcf1": [
-    "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
-  ],
-  "2b9a0c4520f4c89f92bc29dc16ba39994012f5e3": [
-    "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
-  ],
-  "07db97d9c100acc67ca27ff7915bf673fd9e39c8": [
-    "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
-  ],
-  "918dc946b2afb5298b6416f3c3cd4527273bdb06": [
     "InTuneDocs\\DeployUse\\monitor-apps-in-microsoft-intune.md"
   ],
   "b469138625ba29ccbaa2edc797872f9e812dbad3": [
@@ -5737,18 +5584,6 @@
   "3b24f90ea13170096d89f7c323dbc277ff81dbbe": [
     "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md"
   ],
-  "7ca446de7230fef8d52756edf6f72739b213edc5": [
-    "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md"
-  ],
-  "d5881d4228b43fa7f821267c7210d595cc5e061e": [
-    "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md"
-  ],
-  "c28d3dedec0f4038e34d237c4ce6cfa0e11a92d4": [
-    "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md"
-  ],
-  "eed182e372b1d2ed2c0d291bf1fe82ce9a125589": [
-    "InTuneDocs\\EndUser\\you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md"
-  ],
   "b3a60bde0102f405e115743da44fe7b71c503d07": [
     "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-13-enbl-ios-plat.png"
   ],
@@ -5791,15 +5626,6 @@
   "f38f85dbe343fb4f3bfbc61f46d5f3523481b5ef": [
     "InTuneDocs\\DeployUse\\how-your-android-users-get-their-apps.md"
   ],
-  "2e0d0d3baf7580ef6498e09b9c961aa050cfc5c1": [
-    "InTuneDocs\\DeployUse\\how-your-android-users-get-their-apps.md"
-  ],
-  "71308a1f205859325e352bb765c8a9187787caed": [
-    "InTuneDocs\\DeployUse\\how-your-android-users-get-their-apps.md"
-  ],
-  "f2a90e68270229eee3fa2896e2a19a7723befe98": [
-    "InTuneDocs\\DeployUse\\how-your-android-users-get-their-apps.md"
-  ],
   "f36bc73d3397fef5bebe6896d91bcffcd5507cfc": [
     "InTuneDocs\\DeployUse\\how-your-ios-users-get-their-apps.md"
   ],
@@ -5825,27 +5651,6 @@
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
   "8ba0c83fc8a80937bfd7010134f3eb15dfac21df": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "d55bc906922b0b648d49277f38a5b00e019f7056": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "344c69e503a4c8c7d4c0ed81db8b4e388c1473b3": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "aad69c45f43cecb39cca2b69fdd9ddf887480807": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "31bfe30948a23bae87fa24ca51a3794b1d45c612": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "85a25f96e74c4b872060ce2db6023d279d2844ab": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "c092011d541277b4447b6acf7a061d1990737eaf": [
-    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
-  ],
-  "9d03b6990321208ec58b65fdaa1ef91dff170b11": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
   "eac2f6affbfae14d4be1b8c1ce22cf593c04a776": [
@@ -6418,15 +6223,6 @@
   "5a391383fec76e7602c7e9ccc047dec7eb5362e1": [
     "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
   ],
-  "56d86fc3380658c740ed41729360d5a37deaf437": [
-    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
-  ],
-  "298cc7bc76330459a5c7ef0f728d1ed3fad88f4b": [
-    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
-  ],
-  "b9f015265fc432c9ce2a6806ba15b31b0df069cb": [
-    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
-  ],
   "b8284a6060e8bd5dc51a9f1c41448d3c69fca5e3": [
     "InTuneDocs\\media\\pol-sa-corp-enroll.png"
   ],
@@ -6887,24 +6683,6 @@
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md"
   ],
   "f26b64015f483eb5b6a6efbaa6fe6730dde7dac9": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
-  ],
-  "1dcdc0c871d70f7acc6c8a74973d3ad3816bd74e": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
-  ],
-  "387220de7d18493ab587fe7ea0dc4e8fb9ccf990": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
-  ],
-  "f32d26bd9950e329f9ffc78fb6f62686c14c4e10": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
-  ],
-  "bb22fa356d932f035618554fab2a5010d7c70f03": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
-  ],
-  "dcf67ebd9fbb8b194ee34884aaef2113296bb5df": [
-    "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
-  ],
-  "a2dea28fd7b8da3fc9e9ab1067f17d2d1b8a71e5": [
     "InTuneDocs\\Understand\\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md"
   ],
   "29295f4aeec978857b5bfa40f79cdac5fd499dd3": [
