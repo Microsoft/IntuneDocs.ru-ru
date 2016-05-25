@@ -2782,6 +2782,9 @@
   "340da5e05c93022c46e1ecde580ac4b090fa776d": [
     "InTuneDocs\\DeployUse\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
   ],
+  "a949eb8f212746cace9ad69855780feb7bab0bee": [
+    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure.md"
+  ],
   "44422f61b9668b0e2e5f5077d45b75b4acad53e6": [
     "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure.md"
   ],
@@ -6220,8 +6223,14 @@
   "d74af430afe23a421673e87f7899a927f6c497d1": [
     "InTuneDocs\\EndUser\\you-are-prompted-to-install-lookout-for-work.md"
   ],
+  "0f282784c3d2ea87b5ea065cb042d135a4ce1609": [
+    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-pfx.md"
+  ],
   "6779337c69659dc77934ea56f23859b237aa953d": [
     "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-pfx.md"
+  ],
+  "23094d0ae88b2ade100dbec55eb147a647e6c567": [
+    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-scep.md"
   ],
   "50f9ad6d9983e1f0c931d53dee94873705a06dfc": [
     "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure-for-scep.md"
