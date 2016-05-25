@@ -1,13 +1,30 @@
 ---
-title: Общие сведения о пакете SDK для приложений Microsoft Intune
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: ef1751bb-3a2f-4662-a922-38c076869eb3
+# required metadata
+
+title: Общие сведения о пакете SDK для приложений Microsoft Intune | Microsoft Intune
+description:
+keywords:
 author: Msmbaldwin
+manager: jeffgilb
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service: microsoft-intune
+ms.technology:
+ms.assetid: ef1751bb-3a2f-4662-a922-38c076869eb3
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: jeffgilb
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Общие сведения о пакете SDK для приложений Microsoft Intune
 Пакет SDK для приложений Intune доступен как для платформы Android, так и для платформы iOS и предоставляет возможности управления мобильными приложениями с помощью Microsoft Intune. Кроме того, мы постарались уменьшить объем изменений кода, которые необходимо внести разработчику. Вы обнаружите, что большинство функций SDK можно включить без изменения поведения приложения. В целях улучшения взаимодействия с конечными пользователями и администраторами можно воспользоваться нашими API, чтобы настроить поведение приложения для тех функций, которые требуют содействия со стороны приложения. 
 
@@ -44,6 +61,6 @@ author: Msmbaldwin
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=May16_HO2-->
 
 
