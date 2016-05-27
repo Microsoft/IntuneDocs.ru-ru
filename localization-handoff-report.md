@@ -6,22 +6,19 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [InTuneDocs\DeployUse\how-your-windows-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9d867202b8b3cc5e6ed77d97bcfddce2beabdd40/InTuneDocs/DeployUse/how-your-windows-users-get-their-apps.md) | OutofSyncHandedBackSuccess | [Details](#f226ea2a7be64ef759f61c61903bb0dc964c141053)
+ [InTuneDocs\DeployUse\deploy-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5189bc57d4f9f752c411f7c92506bd0860302732/InTuneDocs/DeployUse/deploy-apps.md) | HandedOffSuccess | [Details](#bd326638952b7e74de72f42a6033df4e0d9fc9e434)
 
 ## Item Details
-##### <a name='f226ea2a7be64ef759f61c61903bb0dc964c141053'></a> Source: [InTuneDocs\DeployUse\how-your-windows-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9d867202b8b3cc5e6ed77d97bcfddce2beabdd40/InTuneDocs/DeployUse/how-your-windows-users-get-their-apps.md)
-* Status: OutofSyncHandedBackSuccess
+##### <a name='bd326638952b7e74de72f42a6033df4e0d9fc9e434'></a> Source: [InTuneDocs\DeployUse\deploy-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5189bc57d4f9f752c411f7c92506bd0860302732/InTuneDocs/DeployUse/deploy-apps.md)
+* Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [how-your-windows-users-get-their-apps.4960b99a5369d8ee5635610763c13935b3eae406.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/df77d7cfcd1fa92a5f7f89d374098811d27f3337/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/how-your-windows-users-get-their-apps.4960b99a5369d8ee5635610763c13935b3eae406.ru-ru.xlf)
-* Handoff Datetime: 2016-05-27 16:14:35
+* Handoff File: [deploy-apps.6f4ed44a5bf51a5f9d10c2ffdef2dca650afc4bf.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/770c527509107fc7f6978d2a9432e637dc9c59d7/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-apps.6f4ed44a5bf51a5f9d10c2ffdef2dca650afc4bf.ru-ru.xlf)
+* Handoff Datetime: 2016-05-27 20:13:24
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\how-your-windows-users-get-their-apps.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/59a506291cf889571300ec885edaabddda2e0ca9/InTuneDocs/DeployUse/how-your-windows-users-get-their-apps.md)
-* Current Handback File: [how-your-windows-users-get-their-apps.4960b99a5369d8ee5635610763c13935b3eae406.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/75f2d04dd31e997a8302327e9dcc46074c83606b/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/how-your-windows-users-get-their-apps.4960b99a5369d8ee5635610763c13935b3eae406.ru-ru.xlf)
-* Current Handback Datetime: 2016-05-25 03:58:17
 * [Back to Top](#report-top)
 
 
