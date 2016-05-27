@@ -4072,6 +4072,9 @@
   "1964b48c221eed4b6c38cf54ccddc736c0d5abbe": [
     "InTuneDocs\\DeployUse\\set-up-ios-and-mac-management-with-microsoft-intune.md"
   ],
+  "bf39e48428b261bde7e7340cc9a7178134d5e40f": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
+  ],
   "db76fb3a3751938b107494b2c6397b5e7a335e0c": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
   ],
@@ -5022,6 +5025,9 @@
   ],
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
+  ],
+  "9007cccc3f16822d42e53978e9a458f686b61c0d": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
   "eea3899deb276ad7e8b51fc67d18f066751da6ad": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
@@ -6378,6 +6384,9 @@
   ],
   "040b5d21fb3f56dc4ad6840a7c2369b3e118adb8": [
     "InTuneDocs\\EndUser\\set-or-change-your-password-windows.md"
+  ],
+  "c0ab778c90013492c63b797a226bd9f64b5ec237": [
+    "InTuneDocs\\DeployUse\\account-portal-merged-with-Office-365.md"
   ],
   "185030602c919b5dd7da75cadbf0bac799052c19": [
     "InTuneDocs\\DeployUse\\account-portal-merged-with-Office-365.md"
