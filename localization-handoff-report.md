@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\DeployUse\get-notified-by-alerts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e929a95d95b71e22d46e124f1a423af7046b0539/InTuneDocs/DeployUse/get-notified-by-alerts.md) | HandedOffSuccess | [Details](#f1dd166b7b1278003ac8785b8be07c29396dfe8c45)
+ [InTuneDocs\DeployUse\vpn-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/82313c19b116e1f264d7b6d8b81ef5269b288048/InTuneDocs/DeployUse/vpn-connections-in-microsoft-intune.md) | HandedOffSuccess | [Details](#d35f165e222d119d2df3ab2b5ffc99bb3fc44624253)
 
 ## Item Details
+##### <a name='f1dd166b7b1278003ac8785b8be07c29396dfe8c45'></a> Source: [InTuneDocs\DeployUse\get-notified-by-alerts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e929a95d95b71e22d46e124f1a423af7046b0539/InTuneDocs/DeployUse/get-notified-by-alerts.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [get-notified-by-alerts.8d0af4b25841b12a327ed41729dd729e77b93046.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7ec2c60533e3839b7cb308ea4c503f47ff3d6423/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/get-notified-by-alerts.8d0af4b25841b12a327ed41729dd729e77b93046.ru-ru.xlf)
+* Handoff Datetime: 2016-05-31 15:28:33
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='d35f165e222d119d2df3ab2b5ffc99bb3fc44624253'></a> Source: [InTuneDocs\DeployUse\vpn-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/82313c19b116e1f264d7b6d8b81ef5269b288048/InTuneDocs/DeployUse/vpn-connections-in-microsoft-intune.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [vpn-connections-in-microsoft-intune.fb1020834695c6cc29b0f170f5683cc0f44eee15.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/7ec2c60533e3839b7cb308ea4c503f47ff3d6423/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/vpn-connections-in-microsoft-intune.fb1020834695c6cc29b0f170f5683cc0f44eee15.ru-ru.xlf)
+* Handoff Datetime: 2016-05-31 15:28:33
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

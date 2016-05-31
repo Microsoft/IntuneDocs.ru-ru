@@ -275,9 +275,6 @@
   "25158dc0acf4350ff3620a3dcd914e869bc82f7f": [
     "InTuneDocs\\DeployUse\\enable-access-to-company-resources-with-microsoft-intune.md"
   ],
-  "c9ec50ed89db68d24b08732bf3e144b5c53f0bbb": [
-    "InTuneDocs\\DeployUse\\get-notified-by-microsoft-intune-alerts.md"
-  ],
   "7bbd761b13f110297959a036ec15cafe1396377e": [
     "InTuneDocs\\DeployUse\\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md"
   ],
@@ -4705,6 +4702,9 @@
   "370578198abd2d6a1e9d4586efcce9b22f21567b": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
+  "d35f165e222d119d2df3ab2b5ffc99bb3fc44624": [
+    "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
   "1f3234ed0819364fb2b28955a0ae565c660e5632": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
   ],
@@ -6390,5 +6390,8 @@
   ],
   "185030602c919b5dd7da75cadbf0bac799052c19": [
     "InTuneDocs\\DeployUse\\account-portal-merged-with-Office-365.md"
+  ],
+  "f1dd166b7b1278003ac8785b8be07c29396dfe8c": [
+    "InTuneDocs\\DeployUse\\get-notified-by-alerts.md"
   ]
 }
