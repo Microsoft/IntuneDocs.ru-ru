@@ -518,6 +518,9 @@
   "9242121407a83f9fa4e442945475e3517695014d": [
     "InTuneDocs\\DeployUse\\retire-apps.md"
   ],
+  "55567f9745c6e16f7086c7a7774d7728848dc40f": [
+    "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
   "884bde8d5af8228b5f1acceb87db9fda743dcda3": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
   ],
@@ -5026,6 +5029,9 @@
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
+  "2664b3c45132a64b453967b6899b2a4e5ad1b18e": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "9007cccc3f16822d42e53978e9a458f686b61c0d": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -5070,6 +5076,9 @@
   ],
   "ed9ddbce928723dc68d315e085afaa91a127d0a0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "5c33031389b67e09f7b1f2f11003ce3bdca6ca45": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "bdb4059504fd10af7ec2e928df6d36d7ba842d74": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -6393,5 +6402,8 @@
   ],
   "f1dd166b7b1278003ac8785b8be07c29396dfe8c": [
     "InTuneDocs\\DeployUse\\get-notified-by-alerts.md"
+  ],
+  "387ba2cadfdedd512bf546a002a0c87782409642": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
   ]
 }
