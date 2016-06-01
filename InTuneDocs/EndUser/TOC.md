@@ -1,5 +1,10 @@
-# [Microsoft Intune end user help]()
-## [Using your iOS or Mac OS device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
-## [Using your Android device with Intune](using-your-android-device-with-intune.md)
-## [Using your Windows device with Intune](using-your-windows-device-with-intune.md)
-## [Using the Intune company portal website](using-the-intune-company-portal-website.md)
+# [Справка для пользователя Microsoft Intune]()
+## [Использование устройства iOS или Mac OS в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+## [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
+## [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
+## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
+
+
+<!--HONumber=May16_HO2-->
+
+

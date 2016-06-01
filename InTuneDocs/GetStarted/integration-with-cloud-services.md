@@ -45,7 +45,7 @@ ms.suite: ems
 Дополнительные сведения см. в разделе [Управление мобильными устройствами с помощью Configuration Manager и Windows Intune](http://msdn.microsoft.com/library/2c6bd0e5-d436-41c8-bf38-30152d76be10) раздела документации по [!INCLUDE[cm5short](../includes/cm5short_md.md)] с пакетом обновления 1 (SP1).
 
 ### См. также
-[Предварительные сведения перед началом работы с Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
+[Предварительные сведения для установки Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
 
 <!--HONumber=May16_HO2-->
 

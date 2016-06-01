@@ -96,7 +96,7 @@ ms.suite: ems
 Получите дополнительные сведения о [добавлении пользователей в подписку](start-with-a-paid-subscription-to-microsoft-intune-step-3.md) и [назначении лицензий для подписки](start-with-a-paid-subscription-to-microsoft-intune-step-4.md).
 
  ### См. также
- [Предварительные сведения перед началом работы с Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
+ [Предварительные сведения для установки Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
 
 
 <!--HONumber=May16_HO2-->
