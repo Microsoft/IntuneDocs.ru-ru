@@ -1477,6 +1477,9 @@
   "4aedefe5cf069866a91c321c0912a3f8264c6afc": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
+  "73ceb1d3eb396a2f6023860cf33e2c80d69b026e": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
+  ],
   "2000278e0012dd5f45ec46212df3378140fdf17b": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md"
   ],
@@ -1765,6 +1768,9 @@
   "47e4533b6f97ff711c2efbeb6102f497af615871": [
     "InTuneDocs\\DeployUse\\wipe-for-exchange-managed-mobile-devices.md"
   ],
+  "4e20553cc4d3ec7804b41b6a1294bb76018102e0": [
+    "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
   "c52a4d746d4c11afb45618db850b5afdc2e621fe": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
@@ -1785,6 +1791,9 @@
   ],
   "05d51136e630f383abe73f23c07a80d86c485d56": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
+  ],
+  "bfe9ff488a272d2f68769bfa374fff7a52a6cca6": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
   "0ce1bf409ced1fa46ba13ab8ea294d00df7f4766": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
@@ -1823,7 +1832,8 @@
     "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
   ],
   "f12f9ce7f1cc2617755aa8884f51cc557ac9f59b": [
-    "InTuneDocs\\GetStarted\\media\\CompanyPortal.PNG"
+    "InTuneDocs\\GetStarted\\media\\CompanyPortal.PNG",
+    "InTuneDocs\\media\\cp_setup.png"
   ],
   "beb27bab4afd25c8d6a30c711a85fe0141176c26": [
     "InTuneDocs\\GetStarted\\media\\groups.PNG"
@@ -1884,6 +1894,9 @@
   ],
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
+  ],
+  "e3a2de96c153be29c6bcb9b8c8c18fdbbd95e935": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
   "2664b3c45132a64b453967b6899b2a4e5ad1b18e": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
@@ -2698,10 +2711,16 @@
   "f1dd166b7b1278003ac8785b8be07c29396dfe8c": [
     "InTuneDocs\\DeployUse\\get-notified-by-alerts.md"
   ],
+  "0f05729eee1cbec855ad87f2e997d7d58e93f915": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
+  ],
   "387ba2cadfdedd512bf546a002a0c87782409642": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
   ],
   "4fc08fcea6cea897b9ddc3d0c00f2d83069f639d": [
     "InTuneDocs\\Troubleshoot\\collect-device-logs.md"
+  ],
+  "d1b5b14c05861e48087013ee254134197682ee82": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md"
   ]
 }
