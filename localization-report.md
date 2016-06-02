@@ -7899,9 +7899,9 @@
 * Archive Datetime: 2016-06-02 02:52:17
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md)
-* Current Handback File: [network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-01 01:38:58
+* Current Target File: [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/575cf0ba8f6c1a17d325e182be156fc730bbe5e0/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md)
+* Current Handback File: [network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/565b2cdb3edcc20525a1be35ff92eacd0665c37b/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/network-infrastructure-requirements-for-microsoft-intune.39f20ee87a8b0f7097375627bf80ffb842b3cebe.ru-ru.xlf)
+* Current Handback Datetime: 2016-06-02 06:43:43
 * [Back to Top](#report-top)
 
 ##### <a name='69dd5bc7dba04ba5d58f64ceec6ff4ea075d8fdf512'></a> Source: [InTuneDocs\GetStarted\operations-and-maintenance.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/operations-and-maintenance.md)
