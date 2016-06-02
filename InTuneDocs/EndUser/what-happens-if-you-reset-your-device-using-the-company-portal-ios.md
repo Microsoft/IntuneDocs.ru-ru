@@ -15,7 +15,7 @@ ms.assetid: db99c3eb-4813-4c8b-8e32-958e983b7f0f
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -43,8 +43,8 @@ ms.suite: ems
 -   ваша учетная запись электронной почты компании будет удалена вместе с несохраненной почтой.
 
 ### См. также
-[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

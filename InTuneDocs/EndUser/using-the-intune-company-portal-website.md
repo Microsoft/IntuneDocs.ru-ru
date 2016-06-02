@@ -51,10 +51,10 @@ ms.suite: ems
 Большинство тех задач, которые можно выполнить с помощью установленного на устройстве **приложения корпоративного портала** , доступно и на **веб-сайте корпоративного портала** . Чтобы подробнее узнать о приложении корпоративного портала, регистрации устройства в Intune и многом другом, коснитесь ссылки для типа используемого устройства:
 
 - [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
-- [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
-- [Использование устройства Android с Intune](using-your-windows-device-with-intune.md)
+- [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+- [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=May16_HO4-->
 
 

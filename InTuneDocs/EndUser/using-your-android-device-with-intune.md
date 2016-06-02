@@ -63,11 +63,12 @@ ms.suite: ems
 - [Отправка ошибок регистрации ИТ-администратору](send-enrollment-errors-to-your-it-administrator-android.md)</br>
 - [Устройство не содержит необходимую минимальную версию операционной системы](device-doesnt-have-the-required-minimum-operating-system-version-android.md)</br>
 - [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply-with-maximum-operating-system-version-android.md)</br>
-- [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
-- [Устройство не имеет необходимого сертификата](your-device-is-missing-a-required-certificate-android.md)
+- [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)</br>
+- [Устройство не имеет необходимого сертификата](your-device-is-missing-a-required-certificate-android.md)</br>
 
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=May16_HO3-->
 
 
