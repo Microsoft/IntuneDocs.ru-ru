@@ -1897,6 +1897,9 @@
   "47e4533b6f97ff711c2efbeb6102f497af615871": [
     "InTuneDocs\\DeployUse\\wipe-for-exchange-managed-mobile-devices.md"
   ],
+  "86d3b7894eca70454fa82393c4d06eab5a99246f": [
+    "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
   "8290f261cc1b3da07042d9db651a8c06b3e7b782": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
@@ -1923,6 +1926,9 @@
   ],
   "05d51136e630f383abe73f23c07a80d86c485d56": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
+  ],
+  "271446485e01d7e89b6438ead4e9f484ad63703b": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
   "bfe9ff488a272d2f68769bfa374fff7a52a6cca6": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
@@ -1965,7 +1971,7 @@
   ],
   "f12f9ce7f1cc2617755aa8884f51cc557ac9f59b": [
     "InTuneDocs\\GetStarted\\media\\CompanyPortal.PNG",
-    "InTuneDocs\\media\\cp_setup.png"
+    "InTuneDocs\\media\\cp_sa_cpsetup.PNG"
   ],
   "beb27bab4afd25c8d6a30c711a85fe0141176c26": [
     "InTuneDocs\\GetStarted\\media\\groups.PNG"
