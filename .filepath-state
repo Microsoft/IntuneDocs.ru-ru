@@ -2036,6 +2036,9 @@
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
+  "141de80a80020cafaee9af0e8b2ceb887609270c": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "e3a2de96c153be29c6bcb9b8c8c18fdbbd95e935": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -2269,6 +2272,9 @@
   ],
   "314533eb30bd30a76dccca3510843ad9cd0ca070": [
     "InTuneDocs\\EndUser\\media\\wp81-3-sync-tap-sync-button.png"
+  ],
+  "a2e15340726c43ca2996d27a3389cd8523838531": [
+    "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
   ],
   "71cbea053cf0516f19225a234147bbb1d39270de": [
     "InTuneDocs\\EndUser\\sync-your-device-manually-cpwebsite.md"
@@ -2896,6 +2902,9 @@
   ],
   "f1dd166b7b1278003ac8785b8be07c29396dfe8c": [
     "InTuneDocs\\DeployUse\\get-notified-by-alerts.md"
+  ],
+  "988eac7d1d2ce61f4ce90b19d182df0b4f0cd5c0": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
   ],
   "0f05729eee1cbec855ad87f2e997d7d58e93f915": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
