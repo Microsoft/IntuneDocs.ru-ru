@@ -44,6 +44,9 @@
   "2416faffac016e381e93ca661ff7a55bff4be120": [
     "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
   ],
+  "599e9e78474011076c5c66d399dafffeaeac8dc4": [
+    "InTuneDocs\\DeployUse\\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md"
+  ],
   "73f3f8086b462173a0f54fabb1fe5622bc300c0d": [
     "InTuneDocs\\DeployUse\\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md"
   ],
@@ -2923,5 +2926,8 @@
   ],
   "5e61744d19d744c8a0327843c2cd8f0efe620172": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-cpwebsite.md"
+  ],
+  "b9213a6a62379a531b87f63eeedae0fe20e6e2d0": [
+    "InTuneDocs\\GetStarted\\choose-how-to-enroll-devices.md"
   ]
 }
