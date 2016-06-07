@@ -1462,6 +1462,9 @@
   "44a5c8b1019ab2edf9810ca4b0be7a2d87d6931b": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-windows.md"
   ],
+  "22e9071171d2dc63562e94cabe2abdec3b2bd85e": [
+    "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
+  ],
   "c7626bad72024575868a1d00c361cd9d60e5daf0": [
     "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
   ],
@@ -3061,6 +3064,9 @@
   ],
   "63296af56a00d58057ad1ef741190faac3b2803a": [
     "InTuneDocs\\EndUser\\install-a-new-version-of-the-company-portal-app.md"
+  ],
+  "e22fe3d41f93788f0b4d0f3e639d046f4dff1171": [
+    "InTuneDocs\\EndUser\\password-does-not-meet-it-administrator-requirements.md"
   ],
   "1666680101a6a683e80db5eb5b64db041bc37afb": [
     "InTuneDocs\\EndUser\\password-does-not-meet-it-administrator-requirements.md"
