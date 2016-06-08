@@ -35,6 +35,9 @@
   "de00d31ab32916f29a111c93b39a578f82524f80": [
     "InTuneDocs\\Troubleshoot\\contact-assisted-phone-support-for-microsoft-intune.md"
   ],
+  "222b9aac19993f184ff68800a00f8d9df8b36237": [
+    "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
+  ],
   "bd36ee9c1c6080abda869a525335b272d1932994": [
     "InTuneDocs\\DeployUse\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
   ],
@@ -841,6 +844,9 @@
   "0e76cc445998b859596fd4325f64af157518eb53": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-company-resource-access-problems-with-microsoft-intune.md"
   ],
+  "3380b83c907650ce407ffc5bec769fa4eb9a2b73": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
+  ],
   "c742f0eb9af30d3a150a954fa0c2906e487b47ab": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
@@ -885,6 +891,9 @@
   ],
   "86552240b86f4a86f918e3ebef3b55ecddb1829c": [
     "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
+  ],
+  "2b146d33d60b7cab2b05fc43a6318fc2c477d621": [
+    "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
   ],
   "55f880db2805159e174d268bf68b8caf92781d71": [
     "InTuneDocs\\Understand\\frequently-asked-questions-for-microsoft-intune.md"
@@ -2282,6 +2291,9 @@
   "5f6877d384db80143c34573c1dd341e37636bcfd": [
     "InTuneDocs\\media\\IntuneSASharePointOnlineCAPolicy.png"
   ],
+  "7ba8e046cfcb9ff988fdaaaaa8a87a78c27a8669": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "141de80a80020cafaee9af0e8b2ceb887609270c": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -2311,6 +2323,9 @@
   ],
   "0b63694fae79872f7b8eb686a9478eb7d866748a": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "4a3a4ef00610db6f7819295975f69be4f4330d62": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "5c33031389b67e09f7b1f2f11003ce3bdca6ca45": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -2954,6 +2969,9 @@
   "d1479bca9f912b175991714919d93a24ab0da911": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-windows.md"
   ],
+  "f8eeac89dc782b62de8f25212c11f0f5284cc53e": [
+    "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
+  ],
   "711d1ca4d6afe52fdeec94ff2e7893618b4fe28c": [
     "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
   ],
@@ -3229,6 +3247,9 @@
   ],
   "f1dd166b7b1278003ac8785b8be07c29396dfe8c": [
     "InTuneDocs\\DeployUse\\get-notified-by-alerts.md"
+  ],
+  "53abc76251705c5f39a139ccfecb834e6a02d70d": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
   ],
   "988eac7d1d2ce61f4ce90b19d182df0b4f0cd5c0": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
