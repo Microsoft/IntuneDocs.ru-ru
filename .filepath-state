@@ -1999,6 +1999,9 @@
   "e104dc52a8a9bdda4b2edb2939d8c7c36e8ecc12": [
     "InTuneDocs\\GetStarted\\network-bandwidth-use.md"
   ],
+  "2455bf97c54859af4fa014e20455787db4c4f543": [
+    "InTuneDocs\\GetStarted\\supported-web-browsers.md"
+  ],
   "fa18657cce82f79db979c08293b1aa0d9b2eab04": [
     "InTuneDocs\\GetStarted\\supported-web-browsers.md"
   ],
@@ -2007,6 +2010,9 @@
   ],
   "b2da5912b980dd3a4b0c1283ce071c6020a461e3": [
     "InTuneDocs\\GetStarted\\supported-web-browsers.md"
+  ],
+  "2456d1f378ade046e5e0df9630544fe99342360d": [
+    "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
   ],
   "c92fd8f7ca59944c719d73ae54a4a7b88a385fb0": [
     "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
@@ -2052,6 +2058,9 @@
   ],
   "a8d9cf5d36107c54b97d2b5a5250645dc735a8da": [
     "InTuneDocs\\GetStarted\\administrative-accounts-websites-perms.md"
+  ],
+  "815e36569e17bde750b49c7d7b10744a9b614635": [
+    "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
   ],
   "f3583c87c1d0f5eba666a74ce6511079b43364b1": [
     "InTuneDocs\\GetStarted\\microsoft-intune-company-portal.md"
@@ -3250,5 +3259,8 @@
   ],
   "b9213a6a62379a531b87f63eeedae0fe20e6e2d0": [
     "InTuneDocs\\GetStarted\\choose-how-to-enroll-devices.md"
+  ],
+  "7bd3129c6884fc1c59d467bc60f00c2fe95ab1e7": [
+    "InTuneDocs\\GetStarted\\supported-mobile-devices-and-computers.md"
   ]
 }
