@@ -8,6 +8,9 @@
   "ddf727348aae2edb3981bec3251f09f1231b752e": [
     "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
   ],
+  "cb3d955f5cb92bf47e9c0092c9f3eca0fba9c868": [
+    "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
+  ],
   "9d8511584da1af4b5770ff5ddbe5382777415387": [
     "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
   ],
@@ -16,6 +19,9 @@
   ],
   "003210b7b282114ee3b8aef81ae7f9bddd2585ca": [
     "InTuneDocs\\EndUser\\company-portal-app-not-supported.md"
+  ],
+  "56edeafa9221b3574ceaba269891dfb92df44408": [
+    "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
   ],
   "990ce4c7f4d8cfdb9f02716d2544355c0f0b0f5b": [
     "InTuneDocs\\EndUser\\company-portal-frequently-asked-questions.md"
@@ -1387,6 +1393,9 @@
   "c197695fe61874c3781996cca8745fd5474204f6": [
     "InTuneDocs\\DeployUse\\previous-intune-releases.md"
   ],
+  "902d8a8962bcadbe9fb10845bb80023781cb8b3c": [
+    "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-android.md"
+  ],
   "f875ffbfd2095e614f79338e3a973b7d30124fba": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-android.md"
   ],
@@ -1395,6 +1404,9 @@
   ],
   "41586d94b1cab7698faab3303d9caf2050ae7781": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-android.md"
+  ],
+  "6d1d1a382b8b10426f73fba3c579765dbf6f4af3": [
+    "InTuneDocs\\EndUser\\device-doesnt-comply-with-the-maximum-operating-system-version-ios.md"
   ],
   "b2cf61c37e3d260e166c763e99763f984c69648b": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-the-maximum-operating-system-version-ios.md"
@@ -1405,6 +1417,9 @@
   "fdc95e2ec0c4b47e0f953b4390de86fa4e04546d": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-the-maximum-operating-system-version-ios.md"
   ],
+  "2c8250c6001b8d06e973268057c3457e6f21c95b": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-antimalware-software-enabled-windows.md"
+  ],
   "1caeee78911786f398a4374d221d5c9a7333983b": [
     "InTuneDocs\\EndUser\\device-doesnt-have-antimalware-software-enabled-windows.md"
   ],
@@ -1413,6 +1428,9 @@
   ],
   "95adc931dacebdc2c2f6281ac6e467998f0be0b0": [
     "InTuneDocs\\EndUser\\device-doesnt-have-antimalware-software-enabled-windows.md"
+  ],
+  "dcc3872c4237023c80324ee3dca927e5095b87be": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-bitlocker-enabled-windows.md"
   ],
   "a1977342c0c00201c31938e19d96487e87976f89": [
     "InTuneDocs\\EndUser\\device-doesnt-have-bitlocker-enabled-windows.md"
@@ -1423,6 +1441,9 @@
   "573aa214f375959bb669faa56763741c4df664d2": [
     "InTuneDocs\\EndUser\\device-doesnt-have-bitlocker-enabled-windows.md"
   ],
+  "793a3eb17aaa5e04c27a31302d93bfc46ff71cac": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-code-integrity-enabled-windows.md"
+  ],
   "ca238e65fbc8ae002725cb95242fd95d5f3c737f": [
     "InTuneDocs\\EndUser\\device-doesnt-have-code-integrity-enabled-windows.md"
   ],
@@ -1431,6 +1452,9 @@
   ],
   "1681d2a9a5cdcad958bcdb827f565f7c044c220f": [
     "InTuneDocs\\EndUser\\device-doesnt-have-code-integrity-enabled-windows.md"
+  ],
+  "e4c2066c0acb1c410ad420ebd5918535b72a5559": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-secure-boot-enabled-windows.md"
   ],
   "7ce12560d1a9459380848b0d16540f8a1f3370fb": [
     "InTuneDocs\\EndUser\\device-doesnt-have-secure-boot-enabled-windows.md"
@@ -1441,6 +1465,9 @@
   "a3c7e0807207972311d717efe77569aef0260141": [
     "InTuneDocs\\EndUser\\device-doesnt-have-secure-boot-enabled-windows.md"
   ],
+  "949c1543e1b1cf532c22c2667d126ea87f395c01": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-android.md"
+  ],
   "08d350c57cb7c51a4b4be2b91e670e9f5f514c65": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-android.md"
   ],
@@ -1449,6 +1476,9 @@
   ],
   "71bf4196f60c5259e0c03834824d4e7f5689b2bd": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-android.md"
+  ],
+  "b42d1b78961590f44100a90f99b53bef514fa6fd": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-ios.md"
   ],
   "38c97816d09b10aedd3d54aa6066dd45b5b572c2": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-ios.md"
@@ -1461,6 +1491,9 @@
   ],
   "45dc327859f1418431b59e31867ccaa05c114cfe": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-ios.md"
+  ],
+  "12e559f51419da6c3edfa7af1d8b0f09c99e4caa": [
+    "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-windows.md"
   ],
   "3c5cfe728708e730970b17d3d0acd9d33c1fbba8": [
     "InTuneDocs\\EndUser\\device-doesnt-have-the-required-minimum-operating-system-version-windows.md"
@@ -1483,6 +1516,9 @@
   "656bc3b8766582eddb5de765f923cdfc98bfb812": [
     "InTuneDocs\\EndUser\\encrypt-your-device-android.md"
   ],
+  "aeeb607e54a207792e1cc8c16ee2ecd25a553e34": [
+    "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
+  ],
   "7e58854e235bf8b77ef50377cb243fab750a8ea9": [
     "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
   ],
@@ -1492,11 +1528,17 @@
   "1816bc5005ef4ac91acc5aa4dd8ea66de9588385": [
     "InTuneDocs\\EndUser\\encrypt-your-device-windows.md"
   ],
+  "ee93d87aecd97cd6a58d516298db58441b4c1d7a": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
+  ],
   "167f456a060ed29c58a3405e489c6f27483e0557": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
   ],
   "d04b05344a3e1da285b7c9c7866e188a6c7f4dab": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-Intune-android.md"
+  ],
+  "305308aa94a7650df8b44710025620906714421b": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
   ],
   "f92c9ba0e0003664a3d015c284af0104d4218c98": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
@@ -1509,6 +1551,9 @@
   ],
   "b0cb97f8b7044894686e571b896a1c6c4955ac02": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-ios.md"
+  ],
+  "b85d2ac62ca313f0740c68ff6d85918ff7bcd55a": [
+    "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
   ],
   "ecb0e65219f78f48814abbffebf67b340c2960a5": [
     "InTuneDocs\\EndUser\\enroll-your-device-in-intune-mac-os-x.md"
@@ -2675,6 +2720,9 @@
   "e054508cfe6f64fa3b53110dc70c07df4c959961": [
     "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequests.png"
   ],
+  "47341626bceaa5d4ad0775c3d22d80985ce699cc": [
+    "InTuneDocs\\EndUser\\enroll-your-rt-windows.md"
+  ],
   "e1d63e4631cc468bd4b696b5dfe25c1164c019db": [
     "InTuneDocs\\EndUser\\enroll-your-rt-windows.md"
   ],
@@ -2683,6 +2731,9 @@
   ],
   "6f8cc6d3690609df03e4efa40339ec59e4746a67": [
     "InTuneDocs\\EndUser\\enroll-your-rt-windows.md"
+  ],
+  "543f0acd6fb3691ba31e9da6fec49b3f30f67613": [
+    "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
   ],
   "6f5aa30efff3e62b89e18c35ed17d05b75813826": [
     "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
@@ -2693,6 +2744,9 @@
   "c581ccf3633a9445e7a58ea2fda8b0d61f884fb0": [
     "InTuneDocs\\EndUser\\enroll-your-w10-phone-or-w10-pc-windows.md"
   ],
+  "6607ea6c355e0ec767e514ac0097789b83c5d8c7": [
+    "InTuneDocs\\EndUser\\enroll-your-w81-or-rt81-windows.md"
+  ],
   "43a2c99ec40f0e1544712f936717c114dd230cbb": [
     "InTuneDocs\\EndUser\\enroll-your-w81-or-rt81-windows.md"
   ],
@@ -2702,6 +2756,9 @@
   "527c6267f394cabfd1af3bfdc5fa1d90a63f44f7": [
     "InTuneDocs\\EndUser\\enroll-your-w81-or-rt81-windows.md"
   ],
+  "cc427327897084d6366ade896f7d760603d86eb7": [
+    "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
+  ],
   "b5caecca0c930b15ce3e90ab930516f68b41910e": [
     "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
   ],
@@ -2710,6 +2767,9 @@
   ],
   "c29cc0f9b4e0cae5b1deea9393247787f9c6ed85": [
     "InTuneDocs\\EndUser\\enroll-your-wp81-windows.md"
+  ],
+  "21e904766d1621b2182de8adde8142f5f7ad8e26": [
+    "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
   ],
   "4782ddfdea4ac4b1fdfc64451540ebf4cf525006": [
     "InTuneDocs\\EndUser\\enroll-your-wp8-windows.md"
@@ -2960,6 +3020,9 @@
   "022419048233d679938c3a0013fc690a60c413e9": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-7-open-cp.png"
   ],
+  "524501f8680eab35f7d773d47c9c2396ece30509": [
+    "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-windows.md"
+  ],
   "5d6d376cd52476f0345784166a5ca159520d56a4": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-windows.md"
   ],
@@ -3070,6 +3133,9 @@
   ],
   "7a9fdd79fa1ab5967023a80e1d0e317128667834": [
     "InTuneDocs\\media\\intune-app-sdk-ios-linked-frameworks-and-libraries.png"
+  ],
+  "89b8ffcb9b8064fa95eefaa1d9e93f3fb46a9d34": [
+    "InTuneDocs\\EndUser\\device-compliance-state-is-unknown.md"
   ],
   "be1b3095627c239c7a886da31aa1b2dc3a3ddc37": [
     "InTuneDocs\\EndUser\\device-compliance-state-is-unknown.md"
