@@ -15,7 +15,7 @@ ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -34,7 +34,7 @@ ms.suite: ems
 
 1.  В приложении корпоративного портала откройте раздел **Мои устройства**и выберите устройство, регистрацию которого вы хотите отменить.
 
-2.  Выберите **Удалить** &gt; **Удалить**..
+2.  Нажмите **Удалить** &gt; **Удалить**.
 
 При отмене регистрации устройства в Intune происходит следующее:
 
@@ -55,8 +55,8 @@ ms.suite: ems
 -   устройства, настроенные только для электронной почты, больше не будут отображаться в приложении корпоративного портала или на веб-сайте.
 
 ### См. также
-[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

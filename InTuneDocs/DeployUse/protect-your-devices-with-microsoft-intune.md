@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Защита устройств с помощью Microsoft Intune | Microsoft Intune
+title: Защита устройств | Microsoft Intune
 description:
 keywords:
 author: Robstackmsft
@@ -41,9 +41,9 @@ ms.suite: ems
 Intune позволяет интегрировать [Microsoft Passport for Work](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md) —альтернативный метод входа для Windows 10 и более поздней версии, который использует Active Directory или учетную запись Azure Active Directory для замены пароля, смарт-карты или виртуальной смарт-карты.
 
 ## Защита компьютеров под управлением клиента Intune
-Intune продолжает поддерживать политики безопасности для компьютеров под управлением Windows, которые не регистрируются, но управляются с помощью клиентского программного обеспечения Intune. Чтобы узнать, как эти политики помогают защитить ваш ПК под управлением Windows, см. статью [Использование политик для защиты компьютеров Windows, на которых запущено клиентское ПО Intune](policies-to-protect-windows-pcs-in-microsoft-intune.md)..
+Intune продолжает поддерживать политики безопасности для компьютеров под управлением Windows, которые не регистрируются, но управляются с помощью клиентского программного обеспечения Intune. Чтобы узнать, как эти политики помогают защитить ваши ПК под управлением Windows, см. статью [Использование политик для защиты компьютеров Windows, на которых запущено клиентское ПО Intune](policies-to-protect-windows-pcs-in-microsoft-intune.md).
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

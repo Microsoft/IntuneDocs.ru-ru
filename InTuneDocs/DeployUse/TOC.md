@@ -30,7 +30,7 @@
 
 ### [Управление параметрами и компонентами на устройствах с помощью политик](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [Параметры iOS](ios-policy-settings-in-microsoft-intune.md)
-#### [Параметры Android](android-policy-settings-in-microsoft-intune.md)
+#### [Параметры Android и Samsung KNOX](android-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows 8 и Windows 8.1](windows-configuration-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows Phone 8.1](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows 10 Desktop и Mobile](windows-10-policy-settings-in-microsoft-intune.md)
@@ -106,6 +106,7 @@
 ### [Подготовка бизнес-приложений для MAM](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
 #### [Оболочка для приложений iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
 #### [Оболочка для приложений Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
+#### [Бизнес-приложения на устройствах, не находящихся под управлением Intune](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
 #### [Использование пакета SDK при создании приложения](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
@@ -120,9 +121,11 @@
 
 ## [Новые возможности](whats-new-in-microsoft-intune.md)
 
+# [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
+
 # [Устранение неполадок](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

@@ -6,7 +6,7 @@ description:
 keywords:
 author: nbigman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/26/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,7 +29,7 @@ ms.suite: ems
 После развертывания Microsoft Intune могут возникать проблемы с конфигурацией или клиентами. Перечисленные ниже ресурсы помогут вам выявить причину проблемы, а затем устранить ее.
 
 > [!NOTE]
-> Чтобы создать запрос в службу поддержки или просмотреть существующий запрос, щелкните [здесь](https://portal.office.com/admin/default.aspx) для перехода в Центр администрирования Office 365. Дополнительные сведения о вариантах поддержки см. в разделе [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md)..
+> Чтобы создать запрос в службу поддержки или просмотреть существующий запрос, [перейдите в центр администрирования Office 365](https://portal.office.com/admin/default.aspx). Дополнительные сведения о вариантах поддержки см. в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 ## Определение проблемы
 
 -   Какое поведение имеет место?
@@ -46,6 +46,8 @@ ms.suite: ems
 
 -   Испытывает ли пользователь проблемы с проверкой подлинности? Если это возможно, проверьте, может ли пользователь войти в другие службы, использующие Azure Active Directory. Кроме того, проверьте, может ли пользователь выполнить вход с другого устройства.
 
+-   Проверили ли вы состояние службы? Вы сможете отслеживать работоспособность службы Intune на [портале управления Office 365](https://portal.office.com/Admin/Default.aspx). Выберите **Работоспособность службы** в области слева. 
+
 ## Сбор доступных данных
 
 -   Журналы устройств. Узнайте, как собрать журналы устройств:
@@ -54,7 +56,7 @@ ms.suite: ems
   - [Отправка ошибок регистрации Android ИТ-администратору](/intune/enduser/send-enrollment-errors-to-your-it-administrator-android)
   - [Отправка ошибок регистрации iOS ИТ-администратору](/intune/enduser/send-errors-to-your-it-admin-ios.md)
 
--   Данные из консоли администрирования. Например, для проблем с реализацией политик следует изучить применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/indune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)..
+-   Данные из консоли администрирования. Например, для проблем с реализацией политик следует изучить применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/indune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
 
 ## Поиск решения
 
@@ -64,7 +66,7 @@ ms.suite: ems
 
 -   Вы можете открыть запрос на поддержку. Служба поддержки Intune сможет оказать вам более квалифицированную помощь, если вы определили проблему и собрали доступные данные.
 
-    Чтобы создать запрос на поддержку, щелкните [здесь](https://portal.office.com/admin/default.aspx) для перехода в Центр администрирования Office 365. Дополнительные сведения о вариантах поддержки см. в разделе [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md)..
+    Чтобы создать запрос на поддержку, [перейдите в центр администрирования Office 365](https://portal.office.com/admin/default.aspx). Дополнительные сведения о вариантах поддержки см. в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 ## Ресурсы сообщества
 Другие полезные сведения, которые можно найти в этих ресурсах сообщества:
@@ -77,8 +79,8 @@ ms.suite: ems
 
 -   [Форумы по Intune](https://social.technet.microsoft.com/Forums/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc)
 
-## Дальнейшие действия
-Перечисленные ниже разделы могут помочь в устранении определенных неполадок. Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в разделе [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md)..
+### Дальнейшие действия
+Перечисленные ниже разделы могут помочь в устранении определенных неполадок. Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 [Troubleshoot Endpoint Protection in Microsoft Intune](troubleshoot-endpoint-protection-in-microsoft-intune.md)
 
@@ -93,9 +95,8 @@ ms.suite: ems
 [Устранение неполадок при настройке клиента в Microsoft Intune](troubleshoot-client-setup-in-microsoft-intune.md)
 
 [Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune](troubleshoot-software-updates-in-microsoft-intune.md)
-g
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

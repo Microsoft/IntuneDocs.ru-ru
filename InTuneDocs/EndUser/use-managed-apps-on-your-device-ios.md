@@ -15,7 +15,7 @@ ms.assetid: 3232c5c1-cb9f-45ca-806f-7e74eeb3533e
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -39,7 +39,7 @@ ms.suite: ems
 ### Как получить управляемые приложения?
 Управляемые приложения можно получить двумя способами.
 
--   При регистрации устройства в Microsoft Intune либо вы устанавливаете приложение из приложения или с веб-сайта корпоративного портала, либо ИТ-администратор может установить его на вашем устройстве. Дополнительные сведения о регистрации см. в статьях [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md) или [Регистрация устройства Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md)..
+-   При регистрации устройства в Microsoft Intune либо вы устанавливаете приложение из приложения или с веб-сайта корпоративного портала, либо ИТ-администратор может установить его на вашем устройстве. Дополнительные сведения о регистрации см. в статьях [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md) или [Регистрация устройства Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md).
 
 -   Вы устанавливаете приложение из Магазина Google Play и затем выполняете вход с корпоративной учетной записью, которая управляется Intune.
 
@@ -79,8 +79,8 @@ ms.suite: ems
 Для получения дополнительных сведений об управляемых приложениях на устройстве обратитесь к ИТ-администратору.
 
 ### См. также
-[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

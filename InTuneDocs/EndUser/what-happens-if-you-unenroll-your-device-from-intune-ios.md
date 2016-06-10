@@ -15,7 +15,7 @@ ms.assetid: c6a97c74-c35c-4977-b925-6efe01e31d3c
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -44,11 +44,11 @@ ms.suite: ems
 
 -   профили электронной почты компании удаляются с устройства.
 
-Инструкции по отмене регистрации см. в статье [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-ios.md)..
+Инструкции по отмене регистрации см. в статье [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-ios.md).
 
 ### См. также
-[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

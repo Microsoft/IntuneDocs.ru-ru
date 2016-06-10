@@ -42,6 +42,7 @@ ms.suite: ems
 Этот раздел содержит сведения о действиях, которые можно предпринять после регистрации устройства Windows в Intune.
 
 - [Шифрование устройства](encrypt-your-device-windows.md)</br>
+- [Установка или изменение пароля](set-or-change-your-password-windows.md)</br>
 - [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-lost-or-stolen-device-windows.md)</br>
 - [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-windows.md)</br>
 - [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)</br>
@@ -54,7 +55,7 @@ ms.suite: ems
 Этот раздел содержит сведения об устранении проблем, с которыми вы можете столкнуться при регистрации устройства Windows в Intune.
 
 - [Устройство не содержит необходимую минимальную версию операционной системы](device-doesnt-have-the-required-minimum-operating-system-version-windows.md)</br>
-- [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply with-maximum-operating-system-version-windows.md)</br>
+- [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply-with-maximum-operating-system-version-windows.md)</br>
 - [На устройстве не включено шифрование BitLocker](device-doesnt-have-bitlocker-enabled-windows.md)</br>
 - [На устройстве не включено антивредоносное ПО](device-doesnt-have-antimalware-software-enabled-windows.md)</br>
 - [На устройстве не включена безопасная загрузка](device-doesnt-have-secure-boot-enabled-windows.md)</br>
@@ -63,6 +64,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=May16_HO4-->
 
 

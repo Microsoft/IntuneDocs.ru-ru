@@ -38,13 +38,13 @@ ms.suite: ems
 
 Для использования пакета SDK нужен доступ к исходному коду приложения, однако большинство возможностей пакета можно включить без изменения поведения приложения.
 
-Обзор пакета SDK см. на странице [Обзор](https://msdn.microsoft.com/en-us/library/mt627767.aspx). Сведения о начале работы с пакетом SDK для приложений Intune см. в статье [Начало работы с пакетом SDK для приложений Microsoft Intune](https://msdn.microsoft.com/library/mt627766.aspx)..
+Обзор пакета SDK см. на странице [Обзор](/intune/develop/intune-app-sdk). Сведения о начале работы с пакетом SDK для приложений Intune см. в статье [Начало работы с пакетом SDK для приложений Microsoft Intune](/intune/develop/intune-app-sdk-get-started).
 
 ### См. также
 [Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

@@ -15,7 +15,7 @@ ms.assetid: 3d648819-b866-412b-bd19-ac4505eb5eaf
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -43,6 +43,7 @@ ms.suite: ems
 Этот раздел содержит сведения о действиях, которые можно предпринять после регистрации устройства iOS в Intune.
 
 - [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)</br>
+- [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)</br>
 - [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-lost-or-stolen-device-ios.md)</br>
 - [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)</br>
 - [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-ios.md)</br>
@@ -65,6 +66,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

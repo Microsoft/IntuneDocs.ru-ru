@@ -15,7 +15,7 @@ ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: jeffgilb
@@ -98,11 +98,11 @@ ms.suite: ems
 
 -   Включить или отключить автоматическую синхронизацию файлов при роуминге на устройстве. Если она включена, может взиматься плата за роуминг.
 
-Инструкции по регистрации устройства см. в статье [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md) или [Регистрация устройства Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md)..
+Инструкции по регистрации устройства см. в статье [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md) или [Регистрация устройства Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md).
 
 ### См. также
 [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Выбор способа управления устройствами с помощью Microsoft Intune | Microsoft Intune
+title: Выбор способа управления устройствами | Microsoft Intune
 description:
 keywords:
 author: jeffgilb
@@ -31,12 +31,7 @@ ms.suite: ems
 ## Способы управления мобильными устройствами
 [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] может управлять следующими платформами устройств:
 
-- Apple iOS 7.1 и более поздние версии
-- Google Android 4.0 и более поздние версии (включая Samsung KNOX)
-- Windows Phone 8.0 и более поздней версии.
-- Windows RT и Windows 8.1 RT.
-- Компьютеры с ОС Windows 8.1 и более поздних версий
-- Mac OS X 10.9 и более поздние версии
+[!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
 
 <div class="alert alert-tip">
   <h5><span class="icon-tip"></span> Совет</h5>
@@ -80,16 +75,16 @@ ms.suite: ems
 ## Управление с помощью Exchange ActiveSync
 Вы также можете управлять устройствами с помощью Exchange ActiveSync. Для этого необходимо установить локальный соединитель или использовать встроенный соединитель служб для подключения к Exchange Server.
 
-Дополнительные сведения о требованиях к оборудованию и программному обеспечению для установки локального соединителя см. в разделе [Требования для локального соединителя](/Intune/network-infrastructure-requirements-for-microsoft-intune.md)..
+Дополнительные сведения о требованиях к оборудованию и программному обеспечению для установки локального соединителя см. в разделе [Требования для локального соединителя](../deploy-use/intune-on-premises-exchange-connector#requirements-for-the-on-premises-connector).
 
-Сведения об использовании локального соединителя или соединителя служб с Exchange см. в разделе [Управление мобильными устройствами с помощью Exchange ActiveSync и Microsoft Intune](/Intune/get-started/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)..
+Сведения об использовании локального соединителя или соединителя служб с Exchange см. в разделе [Управление мобильными устройствами с помощью Exchange ActiveSync и Microsoft Intune](../deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
 
 
 
 ## Дальнейшие действия
-Вы ознакомились с некоторыми возможностями, которые можно использовать при регистрации устройств в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]. Теперь вам нужно [подготовиться к регистрации устройств](/Intune/get-started/get-ready-to-enroll-devices-in-microsoft-intune.md). После регистрации устройств вы сможете использовать все возможности, описанные в этом разделе. <!--lindavr: There's a logical flaw in our "get to know/get started" content. You can take the path in this topic or you can take the path in the What to know before your get started topic. And they don't cover the same ground. -->
+Вы ознакомились с некоторыми возможностями, которые можно использовать при регистрации устройств в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]. Теперь вам нужно [зарегистрировать устройства](../deploy-use/enroll-devices-in-microsoft-intune). После регистрации устройств вы сможете использовать все возможности, описанные в этом разделе. <!--lindavr: There's a logical flaw in our "get to know/get started" content. You can take the path in this topic or you can take the path in the What to know before your get started topic. And they don't cover the same ground. -->
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO4-->
 
 

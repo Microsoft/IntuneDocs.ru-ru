@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Возможности управления мобильными устройствами в Microsoft Intune | Microsoft Intune
+title: Возможности управления мобильными устройствами | Microsoft Intune
 description:
 keywords:
 author: robstackmsft
@@ -66,12 +66,13 @@ Microsoft Intune позволяет управлять различными ус
 
 |Функция|Подробные сведения|Дополнительные сведения|
 |--------------|-----------|--------------------|
-|Инвентаризация и отчетность|Получите сведения об управляемых устройствах и их программном обеспечении.<br /><br />Эти отчеты можно фильтровать разными способами, например по платформе устройства или соответствию корпоративным стандартам.|[Использование отчетов в Microsoft Intune](/intune/understand-explore/understand-microsoft-intune-operations-by-using-reports)|
+|Инвентаризация и отчетность|Получите сведения об управляемых устройствах и их программном обеспечении.|[Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune](./deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)|
+
 
 ### См. также
-[Возможности управления компьютерами с Windows в Microsoft Intune](/intune/understand-explore/windows-pc-management-capabilities-in-microsoft-intune)
+[Возможности управления компьютерами с Windows в Microsoft Intune](./windows-pc-management-capabilities-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO2-->
 
 
