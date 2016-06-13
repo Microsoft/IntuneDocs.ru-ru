@@ -1939,6 +1939,9 @@
   "48e6011ea0d7c1b654ca2106a66cded25a8487cf": [
     "InTuneDocs\\DeployUse\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
   ],
+  "c443bb51ba05161c5088475e528e6ada28c105a5": [
+    "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
+  ],
   "bb5d1e439dcafd2006318adcbaa1ce6fbe546d37": [
     "InTuneDocs\\DeployUse\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
   ],
@@ -2177,6 +2180,9 @@
   "b2fc107fc43818d74c4400077e996e4488547281": [
     "InTuneDocs\\media\\enroll-Intune-WinEnr.png"
   ],
+  "46562ed3463c4a23a511eb5c7f28a0b11e84f421": [
+    "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
+  ],
   "723bf2dcafcc0c0fc064c960cb4e04dc9da9e51a": [
     "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
   ],
@@ -2317,6 +2323,9 @@
   ],
   "eb735cdbaf574104ad090c770fcc9f1f18a54d30": [
     "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
+  ],
+  "7da75576bf5296da6fbf35fb3c35c5d0d45c511d": [
+    "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
   ],
   "44d4bae56cb5595d86117289a28ff4bc97aa861d": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
@@ -2660,6 +2669,9 @@
   "79e07431c479746ed259690d1c2ea6ae542358aa": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ],
+  "2a76daee73f0dd3c6219a4cf42f9bb00fd83f257": [
+    "InTuneDocs\\DeployUse\\add-apps.md"
+  ],
   "2758799a3713a79a43280b8ff61deff08993827a": [
     "InTuneDocs\\DeployUse\\add-apps.md"
   ],
@@ -2944,6 +2956,9 @@
   ],
   "c49da9a0a811d8c1bfb2f20b64a694558d09313b": [
     "InTuneDocs\\DeployUse\\media\\team-viewer.png"
+  ],
+  "3b80551ccb68248a5d80fc2465be8c83542b8df6": [
+    "InTuneDocs\\DeployUse\\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md"
   ],
   "c3425ea7796949f1c57bad9ce0dfb0ca39506260": [
     "InTuneDocs\\DeployUse\\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md"
