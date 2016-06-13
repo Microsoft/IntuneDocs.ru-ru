@@ -2408,8 +2408,14 @@
   "8e11b2aa1e985e9c2b9013fae17c305466aea1c8": [
     "InTuneDocs\\DeployUse\\media\\conditional_access_SFBPolicy.png"
   ],
+  "28b5351be7d4fa46b4dee0b6145c5e9f81fe15af": [
+    "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
+  ],
   "01e1cf0c790db4ebebdf29f33aa7e4d85f5f1c8c": [
     "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
+  ],
+  "b105eca7a93b8648e832e422239709b284b5f0ef": [
+    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
   "e614ffc58110c62ea661f394d4b96b811ebe83dc": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
