@@ -40,7 +40,7 @@ ms.suite: ems
 Предоставьте конечным пользователям следующие ссылки на справку для конечных пользователей, когда они нуждаются в дополнительных сведениях об использовании Intune на устройствах. По этим ссылкам пользователи найдут сведения на том, как установить приложение корпоративного портала, зарегистрировать свои устройства, получить управляемые приложения, устранять неполадки и многое другое.
 
 - [Использование устройства Android с Intune](/Intune/EndUser/using-your-android-device-with-intune)
-- [Using your iOS or Mac OS X device with Intune](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune)
+- [Использование устройства iOS или Mac OS X в Intune](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune)
 - [Использование устройства Windows в Intune](/Intune/EndUser/using-your-windows-device-with-intune)
 - [Использование веб-сайта корпоративного портала Intune](/Intune/EndUser/using-the-intune-company-portal-website)
 

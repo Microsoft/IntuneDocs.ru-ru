@@ -59,7 +59,7 @@ ms.suite: ems
 
 2.  Откройте консоль администрирования Intune ([https://admin.manage.microsoft.com](https://admin.manage.microsoft.com)) и перейдите в раздел **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Windows Phone**, а затем нажмите кнопку **Отправить подписанное приложение**.
 
-3.  Отправьте вновь подписанный корпоративный портал. You’ll need the newly signed SSP.xap and the new .PFX file you received from Symantec or the Application enrollment token that wслужбу created with this new .PFX file.
+3.  Отправьте вновь подписанный корпоративный портал. Вам понадобятся вновь подписанный SSP.xap и новый PFX-файл, полученный от Symantec, или маркер регистрации приложения, который был создан с использованием этого нового PFX-файла.
 
 4.  После завершения передачи удалите старую версию портала компании в рабочей области **Программное обеспечение**  .
 

@@ -40,7 +40,7 @@ ms.suite: ems
 |MdmAuthorityNotDefined|Вашему ИТ-администратору необходимо настроить способ управления мобильными устройствами в организации.<br /><br />Обратитесь к ИТ-администраторам, укажите, что получили сообщение **MdmAuthorityNotDefined** при попытке зарегистрировать мобильное устройство, и подскажите искать решение в этой таблице.|В Intune не был назначен центр управления мобильными устройствами.<br /><br />См. пункт 1 в разделе "Шаг 6. Регистрация мобильных устройств и установка приложения" статьи [Начало работы с 30-дневной пробной версией Microsoft Intune](/Intune/Understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune).|
 
 ### См. также
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 <!--HONumber=May16_HO2-->
 
