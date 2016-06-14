@@ -1789,6 +1789,9 @@
   "b9892c78426150558cd0749f9f2e5e294e6632d2": [
     "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-android.md"
   ],
+  "8feb4b293a021efd1f4cd26c43be76355d947143": [
+    "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md"
+  ],
   "2712563570885563e5679b5b1b583d174fe06613": [
     "InTuneDocs\\EndUser\\use-managed-apps-on-your-device-ios.md"
   ],
@@ -1888,6 +1891,9 @@
   "0d6f3b5cd4bd79d915ef9ae3ec7b3cc05038b693": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-ios.md"
   ],
+  "9ff73d6e2066b0fb3d2e8ca9d7732d4685e258fd": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
+  ],
   "333cf155b2e0aee0f4c182b0a9ac8a41201dfefe": [
     "InTuneDocs\\EndUser\\what-happens-if-you-reset-your-device-using-the-company-portal-windows.md"
   ],
@@ -1956,6 +1962,9 @@
   ],
   "cef1dac1b5b23281b64509c38319a3534b8b4bd8": [
     "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
+  ],
+  "21305aa10caecdcc6f2d22f305d47f74a5b3f3ba": [
+    "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
   ],
   "218360cf29a3b4c25c238ecb1aff1a13fb089b9f": [
     "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
@@ -2305,6 +2314,9 @@
   ],
   "e3a2de96c153be29c6bcb9b8c8c18fdbbd95e935": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "e1e25cacfdd99f4e1db6f2eff762781a04adbc86": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "e8860142f163fbea4f766422477b1458dd4dee19": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -2866,6 +2878,9 @@
   ],
   "70a2d32de67f0a69bbc29ca68a1c831c9cf38796": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-3.md"
+  ],
+  "9fa2c44e18f0bc9a7a8da0ae0fb2400ca68f31af": [
+    "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-4.md"
   ],
   "adefe438da1150cc0f305795f01d77caa78722f4": [
     "InTuneDocs\\GetStarted\\start-with-a-paid-subscription-to-microsoft-intune-step-4.md"
