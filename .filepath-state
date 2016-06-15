@@ -2224,6 +2224,9 @@
   "4367f7f59db9b9803d1793bd07ad533c8e7489ff": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
+  "25d293e4821bfcfb364c1eca0297252885989e64": [
+    "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
+  ],
   "271446485e01d7e89b6438ead4e9f484ad63703b": [
     "InTuneDocs\\DeployUse\\manage-corporate-owned-devices.md"
   ],
@@ -2393,6 +2396,9 @@
   "cdc4eaa69d8f0ce7b818204f0489aaa72b1625bb": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
+  "605734e4fe64ed101c3e05b19d28b3ec41787c87": [
+    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
+  ],
   "8ba0c83fc8a80937bfd7010134f3eb15dfac21df": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
@@ -2461,6 +2467,9 @@
   ],
   "19064a8aaede330ac742af6e3a735598ac868733": [
     "InTuneDocs\\media\\em-vision.png"
+  ],
+  "5848a8767751a21fe7e2b0a14a4f5c2d16779e59": [
+    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
   ],
   "a18af33cd419833f6bdc2f8846956a32133e6d7a": [
     "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
