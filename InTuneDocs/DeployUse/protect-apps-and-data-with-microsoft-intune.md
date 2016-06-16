@@ -18,7 +18,7 @@ ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -56,6 +56,6 @@ Intune защищает данные организации посредство
 Помимо ограничения перемещения данных, вы можете [выборочно удалить данные компании](wipe-managed-company-app-data-with-microsoft-intune.md), оставив только личные данные, если устройство потеряно или украдено, либо его пользователь больше не работает в организации.
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

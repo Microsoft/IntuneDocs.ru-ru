@@ -18,7 +18,7 @@ ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: andcerat
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -100,6 +100,6 @@ ms.suite: ems
 - **Блокировать снимки экрана и Android Assistant (Android 6 Marshmallow или более поздней версии)**: выберите **Да**, чтобы блокировать снимки экрана и возможности **Android Assistant** на устройстве при использовании приложения.
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

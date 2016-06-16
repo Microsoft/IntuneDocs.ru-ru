@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: [VPN на уровне приложения в Android с использованием Pulse Secure | Microsoft Intune]
+title: VPN на уровне приложения в Android с использованием Pulse Secure | Microsoft Intune
 description:
 keywords:
-author: [nbigman]
-manager: [jeffgilb]
+author: nbigman
+manager: jeffgilb
 ms.date: 05/08/2016
 ms.topic: article
 ms.prod:
@@ -18,7 +18,7 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: [ALIAS]
+#ms.reviewer: chrisbal
 #ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -82,6 +82,6 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

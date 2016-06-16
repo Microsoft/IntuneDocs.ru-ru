@@ -18,7 +18,7 @@ ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: andcerat
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -117,6 +117,6 @@ ms.suite: ems
   **Значение по умолчанию — 90 дней.**
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 
