@@ -961,6 +961,9 @@
   "3f9a65b1057f766025d4f3a37fdea7df0c7e5592": [
     "InTuneDocs\\media\\Windows-Phone-Enrollment.png"
   ],
+  "baec26939027810af3bd21c6fb49919af229ef40": [
+    "InTuneDocs\\GetStarted\\enterprise-rollout.md"
+  ],
   "f1fdb0d41040607a9ae5269d25701bc2465fccd7": [
     "InTuneDocs\\GetStarted\\enterprise-rollout.md"
   ],
@@ -2260,6 +2263,9 @@
   ],
   "e3a2de96c153be29c6bcb9b8c8c18fdbbd95e935": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "deb801b87c9e34601379f0e83524a37587da8afc": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "e1e25cacfdd99f4e1db6f2eff762781a04adbc86": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
