@@ -4634,9 +4634,9 @@
 * Archive Datetime: 2016-06-16 01:48:47
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/596257c13122ad3068c89964e1ae0d5087e099c9/InTuneDocs/DeployUse/what-to-tell-your-end-users-about-using-microsoft-intune.md)
-* Current Handback File: [what-to-tell-your-end-users-about-using-microsoft-intune.75782c091e439be2e606e59a19dabd450941b21a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/4288f0169e1105f530702cd3c3358b41e8a4c914/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/what-to-tell-your-end-users-about-using-microsoft-intune.75782c091e439be2e606e59a19dabd450941b21a.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-14 02:49:02
+* Current Target File: [InTuneDocs\DeployUse\what-to-tell-your-end-users-about-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/3a85ca3b0a6625eb55ee084ccda7cfc18ea41779/InTuneDocs/DeployUse/what-to-tell-your-end-users-about-using-microsoft-intune.md)
+* Current Handback File: [what-to-tell-your-end-users-about-using-microsoft-intune.75782c091e439be2e606e59a19dabd450941b21a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/c430f1c9ed37ffa825d31b0b00fc53aa698fae76/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/what-to-tell-your-end-users-about-using-microsoft-intune.75782c091e439be2e606e59a19dabd450941b21a.ru-ru.xlf)
+* Current Handback Datetime: 2016-06-17 01:00:30
 * [Back to Top](#report-top)
 
 ##### <a name='e6d8507a143dede66ae4c299d928ea7f3cb9bd1b260'></a> Source: [InTuneDocs\DeployUse\wi-fi-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9809454637f17321bf019c7e8f5e11ffaebd2008/InTuneDocs/DeployUse/wi-fi-connections-in-microsoft-intune.md)
@@ -5315,9 +5315,9 @@
 * Archive Datetime: 2016-06-16 01:48:47
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\EndUser\install-and-sign-in-to-the-intune-company-portal-app-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/596257c13122ad3068c89964e1ae0d5087e099c9/InTuneDocs/EndUser/install-and-sign-in-to-the-intune-company-portal-app-ios.md)
-* Current Handback File: [install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/4288f0169e1105f530702cd3c3358b41e8a4c914/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-14 02:49:02
+* Current Target File: [InTuneDocs\EndUser\install-and-sign-in-to-the-intune-company-portal-app-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/3a85ca3b0a6625eb55ee084ccda7cfc18ea41779/InTuneDocs/EndUser/install-and-sign-in-to-the-intune-company-portal-app-ios.md)
+* Current Handback File: [install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/c430f1c9ed37ffa825d31b0b00fc53aa698fae76/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf)
+* Current Handback Datetime: 2016-06-17 01:00:30
 * [Back to Top](#report-top)
 
 ##### <a name='29d409f272800e0c5ccaf71494b5e98d1edaae4e307'></a> Source: [InTuneDocs\EndUser\install-a-new-version-of-the-company-portal-app.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/install-a-new-version-of-the-company-portal-app.md)
@@ -6908,9 +6908,9 @@
 * Archive Datetime: 2016-06-16 01:48:47
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\EndUser\send-errors-to-your-it-admin-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/596257c13122ad3068c89964e1ae0d5087e099c9/InTuneDocs/EndUser/send-errors-to-your-it-admin-ios.md)
-* Current Handback File: [send-errors-to-your-it-admin-ios.cee28dc6269207a419930483bcbd53d43121348c.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/4288f0169e1105f530702cd3c3358b41e8a4c914/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/send-errors-to-your-it-admin-ios.cee28dc6269207a419930483bcbd53d43121348c.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-14 02:49:02
+* Current Target File: [InTuneDocs\EndUser\send-errors-to-your-it-admin-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/3a85ca3b0a6625eb55ee084ccda7cfc18ea41779/InTuneDocs/EndUser/send-errors-to-your-it-admin-ios.md)
+* Current Handback File: [send-errors-to-your-it-admin-ios.cee28dc6269207a419930483bcbd53d43121348c.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/c430f1c9ed37ffa825d31b0b00fc53aa698fae76/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/send-errors-to-your-it-admin-ios.cee28dc6269207a419930483bcbd53d43121348c.ru-ru.xlf)
+* Current Handback Datetime: 2016-06-17 01:00:30
 * [Back to Top](#report-top)
 
 ##### <a name='ca7c8d3f87c90b5f586af6b43d214edb3b99ce4a430'></a> Source: [InTuneDocs\EndUser\set-or-change-your-passcode-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/set-or-change-your-passcode-ios.md)
@@ -7517,9 +7517,9 @@
 * Archive Datetime: 2016-06-16 01:48:47
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\EndUser\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/596257c13122ad3068c89964e1ae0d5087e099c9/InTuneDocs/EndUser/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md)
-* Current Handback File: [you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/4288f0169e1105f530702cd3c3358b41e8a4c914/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-14 02:49:02
+* Current Target File: [InTuneDocs\EndUser\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/3a85ca3b0a6625eb55ee084ccda7cfc18ea41779/InTuneDocs/EndUser/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md)
+* Current Handback File: [you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/c430f1c9ed37ffa825d31b0b00fc53aa698fae76/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.6eac219c556cfc7ae7341602a5988dc71415dcee.ru-ru.xlf)
+* Current Handback Datetime: 2016-06-17 01:00:30
 * [Back to Top](#report-top)
 
 ##### <a name='fcc8f1a96757c03bbe731f8624a4441e7ac6b360472'></a> Source: [InTuneDocs\EULA\acceptable-use-policy-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/07c2b1f31f949d0720a9482242f83ce153dec5cd/InTuneDocs/EULA/acceptable-use-policy-for-microsoft-intune.md)
