@@ -170,6 +170,9 @@
   "16f9ab5651999458728f1e0ae91526bb3f3555d5": [
     "InTuneDocs\\DeployUse\\retire-apps.md"
   ],
+  "af4b87eb8082ee5ff11cd2d42b788ad17b334bcb": [
+    "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
   "55567f9745c6e16f7086c7a7774d7728848dc40f": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
   ],
@@ -2275,6 +2278,9 @@
   ],
   "e3a2de96c153be29c6bcb9b8c8c18fdbbd95e935": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "77d2e74dcb032ff52808998c56de7d6b8847ebbe": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "4c95a6cd426e4bc15c0a130293a859af9c8b0eb1": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
