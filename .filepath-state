@@ -185,6 +185,9 @@
   "55b99e326e4f22aee62b207eb2e976a8d52e70c3": [
     "InTuneDocs\\DeployUse\\understand-your-devices-with-inventory-in-microsoft-intune.md"
   ],
+  "9e5b8f4a467e8e58cc2f8fa495b5f008eee7e35b": [
+    "InTuneDocs\\DeployUse\\update-apps-using-microsoft-intune.md"
+  ],
   "76098c4e82ab1805da384e70cf7dfc5741c2b352": [
     "InTuneDocs\\DeployUse\\update-apps-using-microsoft-intune.md"
   ],
@@ -810,6 +813,9 @@
   ],
   "49a08a21107a9e66d2c846074d9d41c14f237a2e": [
     "InTuneDocs\\Troubleshoot\\TOC.md"
+  ],
+  "dc782a54983e4db39a029a15183834a925d0e00c": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-app-deployment-problems-in-microsoft-intune.md"
   ],
   "320987ee5523dff796920dbf1df39ddc641a5635": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-app-deployment-problems-in-microsoft-intune.md"
@@ -2166,6 +2172,9 @@
   ],
   "d35f165e222d119d2df3ab2b5ffc99bb3fc44624": [
     "InTuneDocs\\DeployUse\\vpn-connections-in-microsoft-intune.md"
+  ],
+  "1ab6229a31da94ba8fe46534a7d2cd386bb37362": [
+    "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
   ],
   "e6d8507a143dede66ae4c299d928ea7f3cb9bd1b": [
     "InTuneDocs\\DeployUse\\wi-fi-connections-in-microsoft-intune.md"
