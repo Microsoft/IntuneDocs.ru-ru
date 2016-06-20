@@ -113,6 +113,9 @@
   "575b8525b8b99d06358a911b8deb24ee5de48fe1": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
   ],
+  "d9504716817a753a87aa2f69884b5931731a7e2e": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
   "4ce694110ff38207d9112bd468691173b91837ff": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
   ],
@@ -175,6 +178,9 @@
   ],
   "55567f9745c6e16f7086c7a7774d7728848dc40f": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
+  "c717daf3ae218bac02694a89c6d4231d869ceee3": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "06120af2deb97e3b0977b1a555212a50400b4eb1": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -244,6 +250,9 @@
   ],
   "6787d0c35621b2bc94bfe376dfd1669e9dfe46db": [
     "InTuneDocs\\Understand\\start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md"
+  ],
+  "6de68667fbb47755a15aa3fb78ed1df30b73b165": [
+    "InTuneDocs\\GetStarted\\TOC.md"
   ],
   "0dc04c1bba266fdba3fd6326f7cb6908a41e8c2d": [
     "InTuneDocs\\GetStarted\\TOC.md"
@@ -757,6 +766,9 @@
   "8a9dfe8224b4e0e441691043eaffea73c456b3ec": [
     "InTuneDocs\\DeployUse\\overview-of-the-microsoft-intune-app-sdk.md"
   ],
+  "53e9a439f245a6c6561c6330da53fbf943abc8fb": [
+    "InTuneDocs\\PlanDesign\\TOC.md"
+  ],
   "1f12e5b9d36dc3b71a77f0f99c243e9345109829": [
     "InTuneDocs\\PlanDesign\\TOC.md"
   ],
@@ -808,11 +820,17 @@
   "b86daa607f8bdfca2b36b2e9c956dc9872a80e4d": [
     "InTuneDocs\\media\\wit-walk-cert2.gif"
   ],
+  "ca1e7e27c4e3c3d5b4e0aefad09f2b452ed12a45": [
+    "InTuneDocs\\TOC.md"
+  ],
   "54c8223332895749f8c846fe57d0fec1e69c969d": [
     "InTuneDocs\\TOC.md"
   ],
   "cd18e85bd76b92acf76d6f2210244503c6189e33": [
     "InTuneDocs\\Troubleshoot\\how-to-get-support-for-microsoft-intune.md"
+  ],
+  "1eb99ff99af6e3cc4e966e1f6a589e835bf7e4b7": [
+    "InTuneDocs\\Troubleshoot\\TOC.md"
   ],
   "49a08a21107a9e66d2c846074d9d41c14f237a2e": [
     "InTuneDocs\\Troubleshoot\\TOC.md"
@@ -844,6 +862,9 @@
   "0f4d8c49eb87ef94a1ddfdebd7dcd40c41b9a5a0": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-endpoint-protection-in-microsoft-intune.md"
   ],
+  "3ac6b06b7eb85503786b4d8b0b9bd2a30d2a15e6": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-policies-in-microsoft-intune.md"
+  ],
   "7363b60ac5a82e4712610927cbb8f46eef09a42b": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-policies-in-microsoft-intune.md"
   ],
@@ -861,6 +882,9 @@
   ],
   "da9db0b3961cbbd53fc2b7aa7704fa31c8c78718": [
     "InTuneDocs\\Understand\\introduction-to-microsoft-intune.md"
+  ],
+  "8e24b2f0d978fe59c1fab350230026c58171fa2b": [
+    "InTuneDocs\\Understand\\TOC.md"
   ],
   "b1fe07143474e4ad150033f94e2bb85caf87ff10": [
     "InTuneDocs\\Understand\\TOC.md"
@@ -2762,6 +2786,9 @@
   "79e07431c479746ed259690d1c2ea6ae542358aa": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ],
+  "119a795697feb0cdbc2b93293cd66df7e77147cf": [
+    "InTuneDocs\\DeployUse\\add-apps.md"
+  ],
   "2a76daee73f0dd3c6219a4cf42f9bb00fd83f257": [
     "InTuneDocs\\DeployUse\\add-apps.md"
   ],
@@ -2836,6 +2863,9 @@
   ],
   "cb40e46e38063760b5af35c5f749139fa61c8ac8": [
     "InTuneDocs\\DeployUse\\media\\pol-sa-pc-policy-realtime.png"
+  ],
+  "a68cb85602bd585539147c7d7d38c0d906f2b1f7": [
+    "InTuneDocs\\DeployUse\\deploy-apps.md"
   ],
   "261264d9c586505af8673d2b74d00cf8ee286214": [
     "InTuneDocs\\DeployUse\\deploy-apps.md"
