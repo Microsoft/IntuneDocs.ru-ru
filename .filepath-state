@@ -113,6 +113,9 @@
   "575b8525b8b99d06358a911b8deb24ee5de48fe1": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
   ],
+  "479995dec5b161a23ce6a9afa4fa69862d8bf715": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
   "d9504716817a753a87aa2f69884b5931731a7e2e": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
   ],
@@ -2118,6 +2121,9 @@
   ],
   "2524ff0c6139029b162fd58ed209e2d1c284df76": [
     "InTuneDocs\\GetStarted\\supported-web-browsers.md"
+  ],
+  "65ddb1e455de7a9ccb4bcc702cde066ff74b594b": [
+    "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
   ],
   "2456d1f378ade046e5e0df9630544fe99342360d": [
     "InTuneDocs\\GetStarted\\what-to-know-before-you-start-microsoft-intune.md"
