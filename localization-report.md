@@ -8411,9 +8411,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/6e924ab963850445d180bca9103dfd57ef218340/InTuneDocs/GetStarted/TOC.md)
-* Current Handback File: [TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/699bcf7ad5e919f486c3eb286a0ffce5b4b256a1/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-02 22:32:48
+* Current Target File: [InTuneDocs\GetStarted\TOC.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/cd54e48bc034938d4bbbcad60807865a7cda1f1c/InTuneDocs/GetStarted/TOC.md)
+* Current Handback File: [TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/0429f9e95dca34ca74c839cf573644d5e66c46e6/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/TOC.fa7452f10c1ac8148ce488a34d334ba7b01068f4.ru-ru.xlf)
+* Current Handback Datetime: 2016-06-22 11:00:46
 * [Back to Top](#report-top)
 
 ##### <a name='65ddb1e455de7a9ccb4bcc702cde066ff74b594b541'></a> Source: [InTuneDocs\GetStarted\what-to-know-before-you-start-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/7411725ade00743ae187ac3d4efba5b3c84cb059/InTuneDocs/GetStarted/what-to-know-before-you-start-microsoft-intune.md)
