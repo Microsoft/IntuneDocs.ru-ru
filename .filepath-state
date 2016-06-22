@@ -110,6 +110,9 @@
   "04454c6d40ba17e3a479c01ceb98171c4454edcd": [
     "InTuneDocs\\DeployUse\\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md"
   ],
+  "c4462af584d54225084159dfa35f5e1d07c36397": [
+    "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
+  ],
   "3de3b55426636dad69e527e186ff27cb2cd3cb50": [
     "InTuneDocs\\DeployUse\\manage-internet-access-using-managed-browser-policies.md"
   ],
@@ -3010,6 +3013,9 @@
   ],
   "0ad03e0ab85624031c48db341f37edb527115e06": [
     "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-cfg-pol-51-remt-mgmt-trust.jpg"
+  ],
+  "e1657b557998b81c96b1277c9b361ed63b2ef669": [
+    "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
   ],
   "3235d7f0db88db980dd08399fd2a650e1b6ad639": [
     "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
