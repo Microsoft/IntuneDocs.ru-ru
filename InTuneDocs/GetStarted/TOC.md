@@ -2,6 +2,7 @@
 
 # [Приступая к работе](what-to-know-before-you-start-microsoft-intune.md)
 ## [Что нужно знать перед началом работы](what-to-know-before-you-start-microsoft-intune.md)
+### [Поддерживаемые мобильные устройства и компьютеры](supported-mobile-devices-and-computers.md)
 ### [Поддерживаемые веб-браузеры](supported-web-browsers.md)
 ### [Требования к сетевой инфраструктуре](network-infrastructure-requirements-for-microsoft-intune.md)
 ### [Административные учетные записи, веб-сайты и разрешения](administrative-accounts-websites-perms.md)
@@ -38,6 +39,6 @@
 # [Устранение неполадок](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 
