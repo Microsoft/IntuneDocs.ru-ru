@@ -1763,6 +1763,9 @@
   "7da75576bf5296da6fbf35fb3c35c5d0d45c511d": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
   ],
+  "48b15b00d1dd52d799193839d562cccf766b2cb1": [
+    "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "9b2f625f3871746f758320e1c4c988ce48cbb47f": [
     "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -1870,6 +1873,9 @@
   ],
   "7a42482dd56b25d867e2bb80dcd7ad4c3474b5e9": [
     "InTuneDocs\\DeployUse\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
+  ],
+  "fce0081fc1ecb92acf539a2d69f0493fb30ee418": [
+    "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
   ],
   "2521500820d769bfe7c5742cf035e5eee8f2aacc": [
     "InTuneDocs\\DeployUse\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
@@ -2011,6 +2017,9 @@
   ],
   "2a76daee73f0dd3c6219a4cf42f9bb00fd83f257": [
     "InTuneDocs\\DeployUse\\add-apps.md"
+  ],
+  "b6e3e5189a1567dd5b13017d275ff4bd548e5fa1": [
+    "InTuneDocs\\index.md"
   ],
   "8aa2bcd921254083fc05ad2768c0a69f9d96ba4f": [
     "InTuneDocs\\index.md"
@@ -2350,6 +2359,9 @@
   ],
   "a6a8d2c7c3239985e54745b56857ff7c66dc33eb": [
     "InTuneDocs\\media\\mdm-ca-spo-policy-configuration.png"
+  ],
+  "c7b96e2b7c3051f472ce2b909c66cc3d1dd1e990": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-networks.md"
   ],
   "3c35ffb62aadc67bdf25322e0c35efee1f2d2be8": [
     "InTuneDocs\\DeployUse\\restrict-access-to-networks.md"
