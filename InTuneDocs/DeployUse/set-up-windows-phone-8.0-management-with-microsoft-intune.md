@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Настройка управления Windows Phone 8.0 с помощью Microsoft Intune | Microsoft Intune
+title: Настройка управления для Windows Phone 8.0 | Microsoft Intune
 description:
 keywords:
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/09/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,6 +28,8 @@ ms.suite: ems
 # Настройка управления устройствами для Windows Phone 8.0
 
 В Windows Phone 8.0 для установки приложения корпоративного портала Intune и разрешения управления устройствами необходим сертификат Symantec. Кроме того, сертификат требуется для подписи бизнес-приложений. Следующий раздел предназначен только для Windows Phone 8.0. Для управления Windows Phone 8.1 или более поздней версии, в том числе Windows 10 Mobile, обратитесь к разделу [Настройка регистрации Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md).
+
+> [!IMPORTANT] Начиная с сентября 2016 года приложение "Корпоративный портал" для Windows 8.0 и Windows Phone 8.0 будет недоступно для скачивания.
 
 -   **Windows Phone 8** — требуется сертификат
 -   **Windows Phone 8.1 и Windows 10 Mobile** нуждаются в сертификате только в следующих ситуациях:
@@ -184,6 +186,6 @@ ms.suite: ems
     > -   Если загруженные неопубликованные приложения необходимо установить и требуется регистрация устройств Windows Phone 8.0 и получение файла ssp.xap, создайте новое развертывание программного обеспечения для файла ssp.xap и разверните его с помощью действия **удалить** . Устройства Windows Phone 8.0 не поддерживают принудительную установку или удаление приложений, поэтому развертывание будет пропущено. Устройства Windows Phone 8.1 поддерживают действие удаления, и файл ssp.xap будет удален.
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

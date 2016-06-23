@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 2a9183a6-b40d-4132-a1ce-61ce0f1c23aa
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -32,9 +32,11 @@ ms.suite: ems
 
 Чтобы включить или отключить функцию **Подробные сведения в журнале**, выполните вход в приложение корпоративного портала, используя ваши рабочие или учебные учетные данные, нажмите элемент **Параметры**, а затем кнопку включения/отключения рядом с параметром **Подробные сведения в журнале**.
 
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

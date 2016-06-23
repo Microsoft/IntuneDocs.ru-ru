@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/03/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -42,7 +42,7 @@ ms.suite: ems
 
 -   [вручную синхронизировать устройство, чтобы ускорить установку медленных приложений;](sync-your-device-manually-cpwebsite.md)
 
--   искать контактные данные ИТ-администратора, если он их настроил;
+-   найти контактные данные ИТ-администратора, если он его настроил; 
 
 -   просматривать подробную информацию об устройстве, включая его соответствие политикам компании или учебного заведения;
 
@@ -51,10 +51,10 @@ ms.suite: ems
 Большинство тех задач, которые можно выполнить с помощью установленного на устройстве **приложения корпоративного портала** , доступно и на **веб-сайте корпоративного портала** . Чтобы подробнее узнать о приложении корпоративного портала, регистрации устройства в Intune и многом другом, коснитесь ссылки для типа используемого устройства:
 
 - [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
-- [Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+- [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 - [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

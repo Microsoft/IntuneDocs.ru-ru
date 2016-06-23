@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/11/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 3232c5c1-cb9f-45ca-806f-7e74eeb3533e
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: maxles
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -64,23 +64,12 @@ ms.suite: ems
 
 -   Требования к шифрованию данных
 
-Некоторые распространенные приложения, которыми может управлять ваш ИТ-отдел:
 
--   Управляемые веб-браузера
-
--   Средство просмотра управляемых
-
--   Управляемые просмотра PDF-файлов
-
--   Управляемые AV проигрывателя
-
--   Microsoft Word, Excel, PowerPoint
-
-Для получения дополнительных сведений об управляемых приложениях на устройстве обратитесь к ИТ-администратору.
+Для получения дополнительных сведений об управляемых приложениях на устройстве обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 ### См. также
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

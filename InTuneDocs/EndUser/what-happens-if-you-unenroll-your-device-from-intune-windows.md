@@ -18,7 +18,7 @@ ms.assetid: 47e03edb-0c57-4e25-8e89-4a1069267b8c
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,7 +28,7 @@ ms.suite: ems
 
 # Что происходит при отмене регистрации устройства в Intune?
 
-При удалении приложения корпоративного портала с устройства отменяется регистрация этого устройства в Intune. Для получения дополнительных сведений выберите соответствующую типу устройства ссылку из раздела "В данной статье" выше.
+Для получения дополнительных сведений выберите соответствующую типу устройства ссылку из раздела "В данной статье" выше.
 
 - [Windows 10 Mobile, Windows 8.1, Windows 8, Windows 7, Vista](#windows-10-mobile--8-1,-windows-8,-windows-7,-vista)
 - [Windows 10, Windows 8.1 или Windows Phone 8](#windows-10--windows-8-1-or-windows-phone-8)
@@ -92,10 +92,11 @@ ms.suite: ems
 
 -   параметры, измененные на устройстве после его добавления, например выключение камеры или включение требований к паролю, перестанут действовать;
 
+Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

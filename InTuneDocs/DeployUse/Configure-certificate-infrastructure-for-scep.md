@@ -17,7 +17,7 @@ ms.assetid: 4ae137ae-34e5-4a45-950c-983de831270f
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer: kmyrup
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -346,6 +346,6 @@ I
 Теперь вы готовы к настройке профилей сертификатов, как описано в разделе [Настройка профилей сертификатов](Configure-Intune-certificate-profiles.md).
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

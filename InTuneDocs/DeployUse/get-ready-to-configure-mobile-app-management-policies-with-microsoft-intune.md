@@ -18,7 +18,7 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -46,6 +46,7 @@ ms.suite: ems
 
 - Android 4 или более поздняя версия
 
+Устройства с Windows сейчас не поддерживаются.
 ##  Поддерживаемые приложения
 * **Приложения Microsoft:** эти приложения содержат встроенные пакеты SDK для приложений Microsoft Intune и не требуют дальнейших вспомогательных действий перед применением политик MAM.
 Чтобы просмотреть полный список приложений, поддерживаемых Microsoft, посетите [коллекцию мобильных приложений Microsoft Intune](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx) на странице приложений Microsoft Intune от партнеров. Выберите приложение, чтобы просмотреть поддерживаемые сценарии, платформы и сведения о поддержке множественной идентификации.
@@ -123,6 +124,6 @@ ms.suite: ems
 [Создание и развертывание политик управления мобильными приложениями с помощью Microsoft Intune](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

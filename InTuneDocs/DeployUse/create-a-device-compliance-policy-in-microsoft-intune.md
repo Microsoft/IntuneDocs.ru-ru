@@ -18,7 +18,7 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -29,7 +29,7 @@ ms.suite: ems
 В этом разделе приведены инструкции по созданию политики соответствия, которая должна соблюдаться устройством, чтобы оно считалось соответствующим.
 
 ##  Шаг 1. Добавление новой политики
-  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** &gt; **Политики соответствия** &gt; **Добавить**.
+  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) последовательно выберите **Политика** &gt; **Политики соответствия** &gt; **Добавить**.
 
   ![Снимок экрана: страница политики соответствия в консоли администрирования Intune с пунктом "Добавить" в меню в верхней части страницы](./media/intune-sa-3a-add-compliance-policy.png)
 
@@ -84,6 +84,6 @@ ms.suite: ems
 [Общие сведения о политиках соответствия устройств](introduction-to-device-compliance-policies-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

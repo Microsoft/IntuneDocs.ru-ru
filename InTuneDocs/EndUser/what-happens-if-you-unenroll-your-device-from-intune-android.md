@@ -18,7 +18,7 @@ ms.assetid: 0321062d-1363-4ac3-81d4-5405f3b79481
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -44,9 +44,11 @@ ms.suite: ems
 
 Инструкции по отмене регистрации см. в статье [Отмена регистрации устройства в Intune с помощью приложения корпоративного портала](unenroll-your-device-from-intune-android.md).
 
+Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

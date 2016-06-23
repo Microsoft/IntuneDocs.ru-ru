@@ -18,7 +18,7 @@ ms.assetid: f40aab26-7613-48cc-a74e-de83df9465a4
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,7 +28,7 @@ ms.suite: ems
 
 # Отмена регистрации устройства в Intune
 
-При отмене регистрации устройства Android в Intune оно больше не сможет получать доступ к ресурсам организации.  Дополнительные сведения о том, что происходит при отмене регистрации, см. в статье [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-android.md).
+При отмене регистрации устройства Android в Intune оно больше не сможет получать доступ к ресурсам организации.  Дополнительные сведения о том, что происходит при отмене регистрации, см. в статье [What happens if you unenroll your device from Intune?](what-happens-if-you-unenroll-your-device-from-intune-android.md) (Что происходит при отмене регистрации устройства в Intune?).
 
 Чтобы отменить регистрацию устройства в Intune и удалить приложение корпоративного портала, выполните следующие действия или посмотрите это [видео](http://aka.ms/gyq2du).
 
@@ -46,10 +46,11 @@ ms.suite: ems
 
     ![android-company-portal-unenroll-warning](./media/andr-3-warning-about-remove.png)
 
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

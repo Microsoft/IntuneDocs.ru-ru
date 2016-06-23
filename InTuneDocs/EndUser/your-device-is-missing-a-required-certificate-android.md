@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 9081b1d8-50e8-4bc2-ba37-766421364213
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -41,7 +41,7 @@ ms.suite: ems
 
 4.  На экране **Имя сертификата** примите имя сертификата по умолчанию.
 
-5. Убедитесь, что для параметра **Использование учетных данных** задано значение **Использовать для VPN и приложений**, и нажмите кнопку **ОК**.
+5. Убедитесь, что для параметра **Credential Use** (Использование учетных данных) задано значение **Used for VPN and apps** (Использовать для VPN и приложений), и нажмите кнопку **ОК**.
 
     ![andr-cert-install-add-cert-name](./media/andr-cert_install-2-add_cert_name.png)
 
@@ -49,6 +49,8 @@ ms.suite: ems
 
 7. Снова откройте приложение корпоративного портала. Теперь вы сможете войти в приложение корпоративного портала. Если вам нужна помощь, обратитесь к системному администратору.
 
-<!--HONumber=May16_HO2-->
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
+<!--HONumber=Jun16_HO2-->
 
 

@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Корпоративный портал Microsoft Intune
 
-Перед настройкой [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] ознакомьтесь с этим разделом и другими требованиями в статье [Предварительные сведения для установки Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md).
+Перед настройкой Intune ознакомьтесь со следующей статьей [What to know before you start Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md) (Что следует знать перед началом использования Microsoft Intune) и другими требованиями, приведенными в ней.
 
 Корпоративный портал Intune — это средство, которое предоставляет пользователям доступ к корпоративным данным и приложениям. Корпоративный портал в двух формах.
 
@@ -58,6 +58,6 @@ ms.suite: ems
 [Предварительные сведения перед началом работы с Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

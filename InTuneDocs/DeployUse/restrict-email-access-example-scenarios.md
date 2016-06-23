@@ -18,7 +18,7 @@ ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -70,7 +70,7 @@ ms.suite: ems
 ## Устройства Android не могут обращаться к локальной организации Exchange.
 ### Требования сценария
 - Необходимо заблокировать доступ к Exchange для всех устройств Android.
-- Все остальные поддерживаемые устройства могут получить доступ Exchange, если они управляются
+- Все остальные поддерживаемые устройства могут получить доступ Exchange, если они управляются [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
 
 Для этого настройте в политике условного доступа к локальной организации Exchange следующие параметры:
 
@@ -86,6 +86,6 @@ ms.suite: ems
 ![Процедура доступа к устройствам](./media/ConditionalAccess8-4.png)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

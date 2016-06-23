@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 8bb47a5c-f66d-491b-b909-e6a8844f773a
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -32,21 +32,21 @@ ms.suite: ems
 
 Дополнительные сведения о том, что происходит при сбросе устройства, см. в статье [Что происходит при сбросе вашего устройства с помощью корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 
-> [!WARNING] Сброс устройства приводит к удалению личных и рабочих данных.
+> [!WARNING] Сброс устройства к заводским настройкам по умолчанию приводит к удалению с устройства как личных, так и рабочих или учебных данных.
 
-1.  Откройте [веб-сайт корпоративного портала](http://portal.manage.microsoft.com) в браузере и войдите в рабочую учетную запись.
+1.  Откройте [веб-сайт корпоративного портала](http://portal.manage.microsoft.com) в браузере и войдите в рабочую или учебную учетную запись.
 
 2.  Нажмите **Мои устройства** и выберите имя утерянного или украденного устройства.
 
 3.  Выберите **Сбросить** &gt; **Сбросить**.
 
-Если не удается сбросить утерянное или украденное устройство, обратитесь к ИТ-администратору.
+Если не удается сбросить утерянное или украденное устройство, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

@@ -1,25 +1,25 @@
 ---
 # required metadata
 
-title: [Защита бизнес-приложений и данных на незарегистрированных устройствах | Microsoft Intune]
+title: Защита бизнес-приложений и данных на незарегистрированных устройствах | Microsoft Intune
 description:
 keywords:
-author: [karthikaraman]
-manager: [jeffgilb]
+author: karthikaraman
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: [00219467-a62e-43b6-954b-3084f54c45ba]
+ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 
 # optional metadata
 
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: [joglocke]
-#ms.suite: ems
+ms.reviewer: joglocke
+ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
@@ -52,6 +52,11 @@ ms.assetid: [00219467-a62e-43b6-954b-3084f54c45ba]
 
 ## Шаг 3. Применение политик MAM
 После отправки метаданных приложения в службу приложение появится в списке приложений.  Теперь можно [создать новую или выбрать существующую политику](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) и применить ее к бизнес-приложениям, добавленным на шаге 2.
+
+>[!IMPORTANT]
+>Политику MAM необходимо нацелить на пользователей, которые будут использовать упакованное приложение.  Пользователи, для которых эта политика не развернута, не смогут использовать приложение.
+
+
   ![Снимок экрана: колонка со списком целевых приложений, в которой отображаются новые бизнес-приложения](../media/mam-azure-portal-lob-on-targeted-app-list.png)
 ## Шаг 4. Распространение приложения
 Развернуть приложения для конечных пользователей можно следующими способами:
@@ -75,6 +80,6 @@ ms.assetid: [00219467-a62e-43b6-954b-3084f54c45ba]
   При этом приложение будет удалено из списка бизнес-приложений и целевого списка приложений политики MAM.
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

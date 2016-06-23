@@ -18,7 +18,7 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -38,7 +38,7 @@ ms.suite: ems
 
 **Перед** настройкой политики условного доступа для Skype для бизнеса Online необходимо выполнить следующие условия:
 - Получить **подписку Skype для бизнеса Online** и назначить лицензии Skype для бизнеса Online пользователям.
-- Получить подписку для **Enterprise Mobility Suite** или **Azure Active Directory Premium**.
+- Получить подписку на **Enterprise Mobility Suite** или **Azure Active Directory Premium**.
 -   **Включить современную проверку подлинности** для Skype для бизнеса Online. Войти в Microsoft Connect и заполнить [эту форму](https://connect.microsoft.com/office/Survey/NominationSurvey.aspx?SurveyID=17299&ProgramID=8715) для регистрации в программе современной проверки подлинности.
 -  Все пользователи должны использовать **Skype для бизнеса Online**. Если имеется развертывание Skype для бизнеса Online и локальной версии Skype для бизнеса, политика условного доступа для конечных пользователей не применяется.
 
@@ -46,7 +46,7 @@ ms.suite: ems
 
 -   Устройство должно относиться к платформе **Android** или **iOS**.
 
--   Устройств должно быть **зарегистрировано** в
+-   Устройство должно быть **зарегистрировано** в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
 
 -   Устройство должно **удовлетворять** всем развернутым политикам соответствия [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
 
@@ -73,20 +73,20 @@ ms.suite: ems
 Если пользователь входит в обе группы, то он будет исключен из политики.
 
 ### Шаг 2. Настройка и развертывание политики соответствия требованиям
-[Создайте](create-a-device-compliance-policy-in-microsoft-intune.md) и [разверните](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) политику соответствия для всех устройств, которые будет затрагивать эта политика. Это будут все устройства, используемые пользователями в **целевых группах**.
+[Создайте](create-a-device-compliance-policy-in-microsoft-intune.md) и [разверните](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) политику соответствия для всех устройств, которые будет затрагивать эта политика. Это все устройства, которые используются пользователями в **целевых группах**.
 
-> Во время развертывания политик в группах [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] политики условного доступа нацелены на группы безопасности Azure Active Directory.
+> [!NOTE] Во время развертывания политик в группах [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] политики условного доступа нацелены на группы безопасности Azure Active Directory.
 
 
-> Если политика соответствия не развернута, устройства считаются соответствующими.
+> [!IMPORTANT] Если политика соответствия требованиям не развернута, устройства считаются соответствующими.
 
-Когда будете готовы, перейдите к **шагу 3**.
+Когда будете готовы, перейдите к **шагу 3**.
 
 ### Шаг 3. Настройка политики Skype для бизнеса Online
 Далее настройте в политике требование, разрешающее доступ к Skype для бизнеса Online только для управляемых и соответствующих политике устройств. Эта политика будет храниться в Azure Active Directory.
 
 ####
-1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) щелкните **Политика** > **Условный доступ** > **Skype для бизнеса Online**.
+1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) щелкните **Политика** > **Условный доступ** > **Политика Skype для бизнеса Online**.
 
 ![Снимок экрана со страницей политики условного доступа Skype для бизнеса Online](./media/conditional_access_SFBPolicy.png)
 
@@ -119,6 +119,6 @@ ms.suite: ems
 * **Устройства, соответствующие условиям и зарегистрированные в AAD** — эти устройства могут получить доступ к Skype для бизнеса Online.
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

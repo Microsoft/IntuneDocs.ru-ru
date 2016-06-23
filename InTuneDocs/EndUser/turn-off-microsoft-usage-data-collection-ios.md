@@ -18,7 +18,7 @@ ms.assetid: 6515f4c4-3821-49b0-9bfe-abdf8143c8d1
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -32,9 +32,11 @@ ms.suite: ems
 
 Сбор этих данных на устройстве iOS можно отключить с помощью параметра **Данные об использовании** в приложении корпоративного портала. ИТ-администраторы не могут управлять сбором этих данных и не могут изменить выбранный вами параметр.
 
-### См. также
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
-<!--HONumber=May16_HO2-->
+### См. также
+[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+
+<!--HONumber=Jun16_HO2-->
 
 

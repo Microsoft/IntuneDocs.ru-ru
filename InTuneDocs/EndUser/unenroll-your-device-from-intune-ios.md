@@ -18,7 +18,7 @@ ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -54,9 +54,11 @@ ms.suite: ems
 
 -   устройства, настроенные только для электронной почты, больше не будут отображаться в приложении корпоративного портала или на веб-сайте.
 
-### См. также
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
-<!--HONumber=May16_HO2-->
+### См. также
+[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+
+<!--HONumber=Jun16_HO2-->
 
 

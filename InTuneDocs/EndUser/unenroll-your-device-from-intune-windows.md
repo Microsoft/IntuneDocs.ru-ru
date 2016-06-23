@@ -18,7 +18,7 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: priyar
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -66,9 +66,11 @@ ms.suite: ems
 
 4.  В диалоговом окне **Удалить учетную запись** нажмите **Удалить**.
 
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO2-->
 
 

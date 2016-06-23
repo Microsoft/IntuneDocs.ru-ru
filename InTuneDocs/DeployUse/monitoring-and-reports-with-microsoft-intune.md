@@ -18,7 +18,7 @@ ms.assetid: 0f7dc155-cb8e-477b-ba02-2623194a9575
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: pbala
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -33,10 +33,10 @@ ms.suite: ems
 
 -   **[Оповещения](get-notified-by-microsoft-intune-alerts.md)** позволяют отслеживать работоспособность устройств, управляемых с помощью Intune (включая состояние Endpoint Protection и оповещения о вредоносных программах, а также предупреждения о нехватке дискового пространства или недостаточной скорости сетевого подключения).
 
--   Устройства и компьютеры, управляемые Intune, возвращают подробные сведения о свойствах и установленном программном обеспечении.  Intune предоставляет средства и отчеты для изучения и представления данных. Дополнительные сведения см. в статье [Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune](understand-your-devices-with-inventory-in-microsoft-intune.md).
+-   Устройства и компьютеры, управляемые Intune, возвращают подробные сведения о свойствах и установленном программном обеспечении.  Intune предоставляет средства и отчеты для изучения и представления данных. Дополнительные сведения см. в статье [Understand your devices with inventory in Microsoft Intune](understand-your-devices-with-inventory-in-microsoft-intune.md) (Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune).
 
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

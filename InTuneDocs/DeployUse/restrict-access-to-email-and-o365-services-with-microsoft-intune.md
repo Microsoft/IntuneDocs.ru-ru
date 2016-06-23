@@ -18,7 +18,7 @@ ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -40,7 +40,7 @@ ms.suite: ems
 ![На схеме показаны точки принятия решений, используемые для выбора между разрешением доступа к службе и блокировкой устройства.](./media/ConditionalAccess4.png)
 
 ## Как настроить условный доступ?
-Используйте условный доступ для управления доступом к **локальной организации Microsoft Exchange**, **Exchange Online**, **выделенной среде Exchange Online**, **SharePoint Online** и **Skype для бизнеса Online**.
+Условный доступ используется для управления доступом к **локальному Microsoft Exchange**, **Exchange Online**, **выделенной среде Exchange Online**, **SharePoint Online** и **Skype для бизнеса Online**.
 
 Чтобы настроить условный доступ, настройте политики соответствия устройств и политику условного доступа.
 
@@ -69,6 +69,6 @@ ms.suite: ems
   - [Создание политики условного доступа для Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

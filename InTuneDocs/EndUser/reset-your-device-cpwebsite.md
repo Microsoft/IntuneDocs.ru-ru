@@ -18,7 +18,7 @@ ms.assetid: d3182a85-328b-45b4-bf7a-9f6249984641
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mamoriss
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,16 +36,18 @@ ms.suite: ems
 
 1.  Откройте [веб-сайт корпоративного портала](http://portal.manage.microsoft.com) и выберите устройство, имя которого требуется изменить.
 
-2.  Нажмите **Сброс**.
+2.  Нажмите **Сбросить**.
 
     ![reset-device](./media//iwp-1-tap-reset-passcode.png)
 
 Ваше устройство сброшено.
 
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
 ### См. также
 [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

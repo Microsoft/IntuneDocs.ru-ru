@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Поиск имени семейства пакетов (PFN) для VPN для каждого приложения | Microsoft Intune|
+title: Поиск имени семейства пакетов (PFN) для VPN для каждого приложения | Microsoft Intune
 description:
 keywords:
 author: nbigman
@@ -18,7 +18,7 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: [ALIAS]
+#ms.reviewer: tycast
 #ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -91,6 +91,6 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO1-->
 
 

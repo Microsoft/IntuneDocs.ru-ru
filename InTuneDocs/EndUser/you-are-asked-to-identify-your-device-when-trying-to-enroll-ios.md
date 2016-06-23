@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/06/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 8e40f228-cf04-4077-845f-300fbc3baee6
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -34,9 +34,11 @@ ms.suite: ems
 2. Нажмите **Продолжить**.
 3. Введите четыре последних символа серийного номера устройства, чтобы помочь Intune подтвердить его регистрацию. Чтобы найти серийный номер, обратитесь к разделу [Как найти серийный номер на устройстве?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 
-### См. также
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
-<!--HONumber=May16_HO2-->
+### См. также
+[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+
+<!--HONumber=Jun16_HO2-->
 
 

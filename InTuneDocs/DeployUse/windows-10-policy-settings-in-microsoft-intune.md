@@ -18,7 +18,7 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -31,7 +31,7 @@ ms.suite: ems
 
 ## Параметры общей политики конфигурации
 
-Используйте **общую политику конфигурации** Microsoft Intune для Windows 10, чтобы настроить общие параметры для зарегистрированных устройств на базе Windows 10 Desktop и Windows 10 Mobile.
+Используйте **общую политику конфигурации** Microsoft Intune для Windows 10, чтобы настроить общие параметры для зарегистрированных устройств с Windows 10 Desktop и Windows 10 Mobile. Эта политика не может использоваться для управления компьютерами Windows 10 с клиентским программным обеспечением Intune.
 
 
 ### Пароль
@@ -332,6 +332,6 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

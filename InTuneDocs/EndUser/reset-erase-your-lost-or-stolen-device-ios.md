@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/09/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 70788dca-765f-47a7-9994-a286f8a88588
 ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: esmich
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -44,11 +44,12 @@ ms.suite: ems
 1.  На [веб-сайте корпоративного портала](http://portal.manage.microsoft.com) выберите устройство, данные которого требуется очистить.
 
 2.  Нажмите **Сбросить** &gt; **Сбросить**.
-> [!NOTE] Если не удается сбросить утерянное или украденное устройство, обратитесь к ИТ-администратору.
+> [!NOTE]
+> Если не удается сбросить утерянное или украденное устройство, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 ### См. также
-[Using your iOS or Mac OS X device with Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

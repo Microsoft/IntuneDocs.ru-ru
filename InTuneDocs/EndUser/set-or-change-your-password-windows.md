@@ -18,7 +18,7 @@ ms.assetid: c4801a78-580e-4e3d-beca-0b09b9b2437c
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: [ALIAS]
+#ms.reviewer: priyar
 #ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -48,9 +48,11 @@ ms.assetid: c4801a78-580e-4e3d-beca-0b09b9b2437c
 4. Введите новый пароль в поле **Новый пароль** и повторно введите его в поле **Подтверждение пароля**.
 4. Нажмите **Готово**.
 
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

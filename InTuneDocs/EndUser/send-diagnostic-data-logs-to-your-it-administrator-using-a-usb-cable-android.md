@@ -18,7 +18,7 @@ ms.assetid: c46775c2-9d2a-4a88-89f0-4104a462b898
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: arnab
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -34,13 +34,15 @@ ms.suite: ems
 
 2.  Используйте USB-кабель для подключения устройства Android к компьютеру.
 
-3.  На компьютере найдите каталог с именем вашего телефона. В этом каталоге найдите вложенный каталог &lt;Устройство Android&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files\.\.
+3.  На компьютере найдите каталог с именем вашего телефона. В этом каталоге найдите подкаталог &lt;Android Device&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files.\.
 
 4.  Вложите все файлы в сообщение и отправьте их ИТ-администратору.
+
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

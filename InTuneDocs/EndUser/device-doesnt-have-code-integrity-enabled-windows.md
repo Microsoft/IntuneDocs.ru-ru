@@ -6,7 +6,7 @@ description:
 keywords:
 author: Staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/30/2016
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -18,7 +18,7 @@ ms.assetid: 84892bbc-f888-417b-bbeb-978cc7e10028
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: chrisbal
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,9 +36,11 @@ ms.suite: ems
 
 Если вы используете компьютер, обратитесь к ИТ-администратору или ознакомьтесь с разделом "Чтобы снова включить безопасную загрузку, выполните следующие действия" статьи [Отключение безопасной загрузки](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx), чтобы попытаться включить безопасную загрузку самостоятельно.
 
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 
