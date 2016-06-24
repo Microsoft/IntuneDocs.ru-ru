@@ -200,9 +200,9 @@ Intune не оценивает полезные данные файлов кон
 
 ### Где найти справочную информацию об устранении проблем, связанных с политиками?
 
-См. статью [Troubleshoot policies in Microsoft Intune](/troubleshoot/troubleshoot-policies-in-microsoft-intune.md) (Устранение проблем с политиками Microsoft Intune).
+См. статью [Устранение проблем с политиками Microsoft Intune](../Troubleshoot/troubleshoot-policies-in-microsoft-intune).
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jun16_HO3-->
 
 
