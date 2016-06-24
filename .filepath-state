@@ -1640,6 +1640,9 @@
   "893e896fc52e6e883fcd151db2c47030113502a2": [
     "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
+  "d96f27f3946e47b8becc768322dd2a5f9df02dd8": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "2d7e32ff876139f15d1322dd154ecdc0b32fc33d": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -1754,6 +1757,9 @@
   "340198b6ffeb8880fca82dfe52725196a39fd030": [
     "InTuneDocs\\GetStarted\\domain-names-for-microsoft-intune.md"
   ],
+  "795843f012434e1a50cd6abab05b6af2c811cf3e": [
+    "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
+  ],
   "eb735cdbaf574104ad090c770fcc9f1f18a54d30": [
     "InTuneDocs\\DeployUse\\add-apps-for-mobile-devices-in-microsoft-intune.md"
   ],
@@ -1831,6 +1837,9 @@
   ],
   "28b5351be7d4fa46b4dee0b6145c5e9f81fe15af": [
     "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
+  ],
+  "8a28912de41bab6adf691983cc59b801d3271b56": [
+    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
   "b105eca7a93b8648e832e422239709b284b5f0ef": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
@@ -1921,6 +1930,9 @@
   ],
   "882f0aa030d1d9e03ca50baed3f618f7a719b5b5": [
     "InTuneDocs\\DeployUse\\overview-of-app-lifecycle-in-microsoft-intune.md"
+  ],
+  "751025aa71ef41564100ea57ac0d1fe60619e214": [
+    "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
   ],
   "908c052484dc1532ade9576ab09070b18a85d71e": [
     "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
@@ -2269,6 +2281,9 @@
   ],
   "f1dd166b7b1278003ac8785b8be07c29396dfe8c": [
     "InTuneDocs\\DeployUse\\get-notified-by-alerts.md"
+  ],
+  "ae524a989e236e84a6ce9d8266fc648dd683a825": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
   ],
   "ad43197047734eee6d18481a9c6694b6f0b381cf": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
