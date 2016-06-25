@@ -9515,14 +9515,14 @@
 
 ##### <a name='b6e3e5189a1567dd5b13017d275ff4bd548e5fa1656'></a> Source: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e8f9d974947835d5ec5a356bea6b4261960277ef/InTuneDocs/index.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/d470a9858207d5bf52a3980e49637943b0dc9da9/InTuneDocs/index.md)
+* Target File: [InTuneDocs\index.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/5eb649914ae5896a246a17f2c181da9103dbee46/InTuneDocs/index.md)
 * Handoff File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/789d5b32f5bd0ddfdca09d9436b4f65adfdab686/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
 * Handoff Datetime: 2016-06-23 23:13:47
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/67800a5dac2ebb920482279f5983d38af16727e0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
-* Handback Datetime: 2016-06-24 17:40:34
+* Handback File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/e7443718f3cbb6999ba1729fe09522038fc7c9b7/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
+* Handback Datetime: 2016-06-25 06:45:37
 * [Back to Top](#report-top)
 
 ##### <a name='11fd1aed877c922967ea3e4f2cc115d4b8cc596a657'></a> Source: [InTuneDocs\intunefiles.txt](https://github.com/Microsoft/IntuneDocs-pr/blob/fbf73dcc15a3ea4580650f4b1d78dc8b12fc4e37/InTuneDocs/intunefiles.txt)
