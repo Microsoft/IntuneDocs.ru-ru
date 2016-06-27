@@ -9,9 +9,11 @@
           "**/obj/**",
           "Understand/**",
           "GetStarted/**",
-          "DeployUser/**",
+          "DeployUse/**",
           "PlanDesign/**",
-          "Troubleshoot/**"      
+          "Troubleshoot/**",
+	  "EndUser/**",
+          "**/includes/**"
         ]
       }
     ],
@@ -24,16 +26,16 @@
           "**/*.gif",
           "**/*.bmp",
           "**/*.html",
-          "**/*.css",
-          "_themes/**"
+          "**/*.css"
           ],
         "exclude": [
           "**/obj/**",
-          "_themes/DocPacker/**",
+          "_themes/**",
           "Understand/**",
           "GetStarted/**",
-          "DeployUser/**",
+          "DeployUse/**",
           "PlanDesign/**",
+	  "EndUser/**",
           "Troubleshoot/**"   
         ]
       }
@@ -43,7 +45,6 @@
     "globalMetadata": {
       "layout": "Conceptual",
       "breadcrumb_path": "/enterprise-mobility/toc.json",
-      "ms.locale": "en-us",
       "product_feedback_displaytext" : "Intune Feedback",
       "product_feedback_url": "https://microsoftintune.uservoice.com/"
     }
@@ -54,3 +55,4 @@
   },
   "basepath": "/InTune"
 }
+
