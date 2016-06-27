@@ -1246,6 +1246,9 @@
   "65ceaa5a8f6604463463820545a9d108839c00c1": [
     "InTuneDocs\\DeployUse\\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
   ],
+  "f8fcb01629c68e9c04b0e0319b937178859877ec": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-sharepoint-online-with-microsoft-intune.md"
+  ],
   "0be4724cbcd80cce83e8efdcce9cb5289d6f5082": [
     "InTuneDocs\\DeployUse\\restrict-access-to-sharepoint-online-with-microsoft-intune.md"
   ],
@@ -1582,6 +1585,9 @@
   "d24395786daa7aec103ec754895868a75983e099": [
     "InTuneDocs\\DeployUse\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md"
   ],
+  "87663f2677a006e5db525f8897fea4bf05cb5912": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
+  ],
   "02def5a8d03e4c0b129881f37c37584f2af8eddc": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
   ],
@@ -1645,8 +1651,14 @@
   "1e00d5fb315cac297294a74496d2a4342051f945": [
     "InTuneDocs\\media\\passport.png"
   ],
+  "3f43dc871dc0b0a81a6d0b05376a1254957fc35b": [
+    "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+  ],
   "dcc1af47b789dc62a9cda877ea991af991950c82": [
     "InTuneDocs\\DeployUse\\android-mam-policy-settings.md"
+  ],
+  "b3df4b35dbe2710157b88a4e7fdba9734f8b998b": [
+    "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
   ],
   "066d7931904ec3c0a618c79a84dba7f11e58c550": [
     "InTuneDocs\\DeployUse\\ios-mam-policy-settings.md"
@@ -1832,6 +1844,9 @@
   "7da75576bf5296da6fbf35fb3c35c5d0d45c511d": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
   ],
+  "161351164d9e99abb867aa34721ef4f992fb14fa": [
+    "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "48b15b00d1dd52d799193839d562cccf766b2cb1": [
     "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -1903,6 +1918,9 @@
   ],
   "28b5351be7d4fa46b4dee0b6145c5e9f81fe15af": [
     "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
+  ],
+  "3292df922eeb53108f2b34d4113b0b6c5a114564": [
+    "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
   "8a28912de41bab6adf691983cc59b801d3271b56": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
@@ -2209,6 +2227,9 @@
   ],
   "524501f8680eab35f7d773d47c9c2396ece30509": [
     "InTuneDocs\\EndUser\\device-doesnt-comply-with-maximum-operating-system-version-windows.md"
+  ],
+  "9e7a2f5cb2afdeca737c0c8b1b91418352ad5539": [
+    "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
   ],
   "f8eeac89dc782b62de8f25212c11f0f5284cc53e": [
     "InTuneDocs\\GetStarted\\windows-pc-management-capabilities-in-microsoft-intune.md"
