@@ -71,6 +71,9 @@
   "9f338efe3ef40da3db40c12d1a18c4122e65dc5d": [
     "InTuneDocs\\DeployUse\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
   ],
+  "b1b1cc90672903ac0336151373272b5e20e56165": [
+    "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
+  ],
   "2925b9ce88aa73648c0ac5384c1ad5b4743466e3": [
     "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
   ],
@@ -1864,6 +1867,9 @@
   ],
   "9e6af6165eb396969fe666307f9b7b81e9f708d0": [
     "InTuneDocs\\Understand\\media\\Email-Walkthrough\\Email-Walkthrough-9.png"
+  ],
+  "0c48a016da0ca2e393ed3ce6d6e2187d9f752364": [
+    "InTuneDocs\\GetStarted\\domain-names-for-microsoft-intune.md"
   ],
   "6eef1ae0a6c93e6fd2d36fdf665883af7a0623a7": [
     "InTuneDocs\\GetStarted\\domain-names-for-microsoft-intune.md"
