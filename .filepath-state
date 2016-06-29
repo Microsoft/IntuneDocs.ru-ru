@@ -1234,9 +1234,6 @@
   "e449467467394e530b56209bad3c1264d66ca7bd": [
     "InTuneDocs\\DeployUse\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
   ],
-  "89e8e82a3a61e4cb40c1e1f9bfccd4d79a624fa1": [
-    "InTuneDocs\\DeployUse\\Configure-certificate-infrastructure.md"
-  ],
   "8343abe8861468bbba27272aa1f3569390cb826b": [
     "InTuneDocs\\DeployUse\\Configure-Intune-certificate-profiles.md"
   ],
@@ -1665,6 +1662,9 @@
   ],
   "86d3b7894eca70454fa82393c4d06eab5a99246f": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
+  "6cab0bacd9157323e342662609de8c9f20550d78": [
+    "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
   "1fdb1dc56b7803b72bce4a6d60bb4cd20b03af5e": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
