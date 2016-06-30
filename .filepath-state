@@ -619,9 +619,6 @@
   "fbdceabc89cd98dbc786fdfb0bf92bd32ac9c836": [
     "InTuneDocs\\EndUser\\media\\W10-enroll-3-add-work-school-acct.png"
   ],
-  "8d72f23fd90bab74b7be63193a64e829ff31cafa": [
-    "InTuneDocs\\EndUser\\media\\W10-enroll-3-add-work-school-acct.png"
-  ],
   "044b7904c52d43660346732c91708a0689012b8e": [
     "InTuneDocs\\EndUser\\media\\W10-enroll-4-sign-in.png"
   ],
@@ -698,9 +695,6 @@
     "InTuneDocs\\EndUser\\media\\andr-2-tap-trashcan.png"
   ],
   "d0456ebe7602cfda05694ea1354e07bd59789ab3": [
-    "InTuneDocs\\EndUser\\media\\andr-3-warning-about-remove.png"
-  ],
-  "6845f199402ab000359e2412abe6cdad232518cf": [
     "InTuneDocs\\EndUser\\media\\andr-3-warning-about-remove.png"
   ],
   "8b7dac0bef8505567a9d0485fe6e952a3f6aa305": [
@@ -856,9 +850,6 @@
   "99f6577885256f450a034a7ca9bece4511e3c753": [
     "InTuneDocs\\EndUser\\media\\iwp-2-sign-out.png"
   ],
-  "8c9f6962f0d3b1ff6d40143c9bac31906f1ae735": [
-    "InTuneDocs\\EndUser\\media\\iwp-2-sign-out.png"
-  ],
   "d9951555e2388362cd3c15eaa35b8d063da9ec39": [
     "InTuneDocs\\EndUser\\media\\iwp-3-tap-reset-passcode-after-signin.png"
   ],
@@ -962,9 +953,6 @@
     "InTuneDocs\\media\\AppManagement\\AzurePortal_MAM_WipeRequestsSummary.png"
   ],
   "82372661288da89bb59e04aa02fec9bf08b59ea6": [
-    "InTuneDocs\\media\\Intune-MDM-Authority.png"
-  ],
-  "fd228641a36b69f77af54b978b5a70379e20f636": [
     "InTuneDocs\\media\\Intune-MDM-Authority.png"
   ],
   "64f06d45481657e65ee924d286623dc83a514f40": [
@@ -1157,9 +1145,6 @@
     "InTuneDocs\\media\\AppManagement\\AzurePortal_MAMStartboard_NoMAM.png"
   ],
   "135fa1a2fe339c2a7d071bd6c844be0466754f66": [
-    "InTuneDocs\\media\\AppManagement\\iOS_AppPINPrompt.png"
-  ],
-  "4e604d7b70b728e57979112bc5e596c43c2b5814": [
     "InTuneDocs\\media\\AppManagement\\iOS_AppPINPrompt.png"
   ],
   "324064e6e4172486b8a30a18cd63d20e7151e0c8": [
@@ -2082,9 +2067,6 @@
     "InTuneDocs\\DeployUse\\media\\app-lifecycle.png"
   ],
   "b0c8f6406b62e93d7452847c928898ea15dcd928": [
-    "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
-  ],
-  "2dbdf59f110ba01706fc5bea4a35dad3523c1587": [
     "InTuneDocs\\DeployUse\\media\\device-lifecycle.png"
   ],
   "5b3551ac48c41f27c2f2e59467a03eb527bffb46": [
