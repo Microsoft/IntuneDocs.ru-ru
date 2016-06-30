@@ -625,9 +625,6 @@
   "2e3ad016a7788378e7fb8daa48c1536a46a38059": [
     "InTuneDocs\\EndUser\\media\\W81-1-workplacejoin.png"
   ],
-  "26ce9402b45ed2170bdb32ec6a30d357fe4045f2": [
-    "InTuneDocs\\EndUser\\media\\W81-1-workplacejoin.png"
-  ],
   "f72a46e34a3fb5466e44478d45449a6c04ca8ad2": [
     "InTuneDocs\\EndUser\\media\\W81-2-workplacesettings_signin.png"
   ],
@@ -740,15 +737,6 @@
     "InTuneDocs\\DeployUse\\media\\ios-required-install.PNG"
   ],
   "2bb92c233767e29035ee7309984d3bcb1003f475": [
-    "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
-  ],
-  "18e989b17ac7b5ae661fab1abb4a22ab9b6b970d": [
-    "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
-  ],
-  "b5192178543e9b1084aa92548bc921b6cef05334": [
-    "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
-  ],
-  "a1fc1220518728a6371ddcbe7f8a680abe6de4c9": [
     "InTuneDocs\\media\\Intune-iOS-enrollment-with-APNS.png"
   ],
   "357558a36a885fc6c50279d11801440587fe3676": [
@@ -2061,9 +2049,6 @@
     "InTuneDocs\\DeployUse\\overview-of-device-lifecycle-in-microsoft-intune.md"
   ],
   "d331fa9c9cd16ec05782efb1e47ac44692cb0d9f": [
-    "InTuneDocs\\DeployUse\\media\\app-lifecycle.png"
-  ],
-  "7b378232f6a41ddac861ccf2973ab6ab17180b86": [
     "InTuneDocs\\DeployUse\\media\\app-lifecycle.png"
   ],
   "b0c8f6406b62e93d7452847c928898ea15dcd928": [
