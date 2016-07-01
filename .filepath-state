@@ -670,13 +670,7 @@
   "e256cb6a104706c8e1d861dc565b88abb00e6652": [
     "InTuneDocs\\EndUser\\media\\and-enroll-2-cp-sign-in.png"
   ],
-  "e76c105cd90d2172c2d80565e54573995b0087a5": [
-    "InTuneDocs\\EndUser\\media\\and-enroll-2-cp-sign-in.png"
-  ],
   "e9fd27ac80a101d2e8b5bbd65249913b45111a16": [
-    "InTuneDocs\\EndUser\\media\\and-enroll-3-accept-terms.png"
-  ],
-  "9a0b75f97efb0fca001ea4d6cd5f8b582c059615": [
     "InTuneDocs\\EndUser\\media\\and-enroll-3-accept-terms.png"
   ],
   "1d96acea0475ff448c6895f38dfbf2305fd4edca": [
@@ -820,9 +814,6 @@
   "1dde0f9c701974b72ef12e63ecc4ed76f84f053e": [
     "InTuneDocs\\media\\ConditionalAccess8-2.png"
   ],
-  "6dc6d327b445e37e8e0a9f52afd82c3342c3101a": [
-    "InTuneDocs\\media\\ConditionalAccess8-2.png"
-  ],
   "495a0e184d5b0f7d60292dd23b38e57fdad93e87": [
     "InTuneDocs\\media\\ConditionalAccess8-1.png"
   ],
@@ -842,9 +833,6 @@
     "InTuneDocs\\EndUser\\media\\iwp-2-sign-out.png"
   ],
   "d9951555e2388362cd3c15eaa35b8d063da9ec39": [
-    "InTuneDocs\\EndUser\\media\\iwp-3-tap-reset-passcode-after-signin.png"
-  ],
-  "4fea71a05f8f48a12977e8b0fccab3b915b5f5d3": [
     "InTuneDocs\\EndUser\\media\\iwp-3-tap-reset-passcode-after-signin.png"
   ],
   "4622897f5e32514ad80b5000732cf6835224160a": [
@@ -1163,9 +1151,6 @@
     "InTuneDocs\\media\\AppManagement\\iOS_O365SignInPage.png"
   ],
   "6ee35bab5017002badebbfb40606a0fa1ec6c9d7": [
-    "InTuneDocs\\media\\AppManagement\\iOS_OneDriveLaunch.png"
-  ],
-  "73754841fae791215435e0c0ca811c65914e2770": [
     "InTuneDocs\\media\\AppManagement\\iOS_OneDriveLaunch.png"
   ],
   "768aa0fa33b97d1bd179f1caeb4762b5e50bfa17": [
@@ -2045,13 +2030,7 @@
   "17c994b410342e96f734afe63b28392a7fe7ed28": [
     "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user.png"
   ],
-  "adc15aa0f53c35d42cf97f95d8b2fb9ed345348c": [
-    "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user.png"
-  ],
   "69f39c0fa233ffb62173bd3c434b7ac1b0f949d6": [
-    "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user-settings-blade.png"
-  ],
-  "a6222ba1ffdc40fa2280ab62ef32de8053510b94": [
     "InTuneDocs\\media\\mam-azure-portal-app-reporting-by-user-settings-blade.png"
   ],
   "5522836a146b306aa18c04ef52fac97e2f41c4c7": [
