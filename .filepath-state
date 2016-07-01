@@ -769,6 +769,9 @@
   "320987ee5523dff796920dbf1df39ddc641a5635": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-app-deployment-problems-in-microsoft-intune.md"
   ],
+  "78fa086f2e7e6c836aa74acb303d9a6564ed0993": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-client-setup-in-microsoft-intune.md"
+  ],
   "5fa12aebbddb0129cba57c40cf0c21346a75de63": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-client-setup-in-microsoft-intune.md"
   ],
@@ -1225,6 +1228,9 @@
   "e468ff102b45bf0c23fd76d8d15c44978861ae8a": [
     "InTuneDocs\\DeployUse\\edition-upgrade-policy-settings-in-microsoft-intune.md"
   ],
+  "1d2e6676714daba76a9b54553b4ad1af23a0f880": [
+    "InTuneDocs\\DeployUse\\secure-resource-access-with-certificate-profiles.md"
+  ],
   "91d80e0bae12b4c912b61f675e20caa49fa9206d": [
     "InTuneDocs\\DeployUse\\secure-resource-access-with-certificate-profiles.md"
   ],
@@ -1420,6 +1426,9 @@
   "c94414ee28e8fa808ba08a5c97624d3d9b95fecb": [
     "InTuneDocs\\EndUser\\your-device-is-rooted-and-you-cant-connect-android.md"
   ],
+  "bd63e69f59c6e19aed92fc997f047cfe3f00717a": [
+    "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
+  ],
   "7c5f703758e156c38e65a241dcdff077f9d28388": [
     "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
   ],
@@ -1585,6 +1594,9 @@
   "b551aca6994780591dabe042420d5f23d98b218b": [
     "InTuneDocs\\GetStarted\\network-infrastructure-requirements-for-microsoft-intune.md"
   ],
+  "40f2ead80326a451dfd59a4969191009dc35deef": [
+    "InTuneDocs\\PlanDesign\\help-end-users-understand-company-portal-app-messages.md"
+  ],
   "2317ba5a0d33a4d26977bce06b1e4e31f53f4578": [
     "InTuneDocs\\PlanDesign\\help-end-users-understand-company-portal-app-messages.md"
   ],
@@ -1721,6 +1733,9 @@
   "8d1bad7af972a32ce3509d67edab3f4f9c9df299": [
     "InTuneDocs\\DeployUse\\policies-to-protect-windows-pcs-in-microsoft-intune.md"
   ],
+  "6b2d1d5eecb543e45fca5fbb8aa1854c88ec4f9c": [
+    "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
+  ],
   "ffbdb421cfcc251e830b07253c50785b9396bf6c": [
     "InTuneDocs\\Troubleshoot\\general-troubleshooting-tips-for-microsoft-intune.md"
   ],
@@ -1738,6 +1753,9 @@
   ],
   "893e896fc52e6e883fcd151db2c47030113502a2": [
     "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
+  ],
+  "65e53ad6a74fbf0e9249c367f517ab52ea0efa80": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
   "288560dc07d7ae93fa017917b45c71a88d089d31": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
