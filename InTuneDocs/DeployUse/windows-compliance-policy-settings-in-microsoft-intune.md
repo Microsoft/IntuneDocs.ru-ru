@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Параметры политики соответствия для устройств Windows | Microsoft Intune
-description:
-keywords:
+title: "Параметры политики соответствия для устройств Windows | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f996842c-e9a4-4819-acb4-ee66e8fb35b8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: a836057cf6c226c8330b0b916c18cd609f791344
+
 
 ---
 
@@ -145,6 +139,7 @@ ms.suite: ems
 > ![CA_Win10OSVersion](./media/ca_win10-os-version.png)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

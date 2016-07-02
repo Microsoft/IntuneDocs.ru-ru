@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Удаленная блокировка устройства с веб-сайта корпоративного портала | Microsoft Intune
-description:
-keywords:
+title: "Удаленная блокировка устройства с веб-сайта корпоративного портала | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: adc6af23-b22f-42e5-955a-4dffbdb8b42b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mamoriss
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 7e5d48d35e8216bac2fae8e2f9a1ba82d3493acc
+
 
 ---
 
@@ -65,6 +59,7 @@ Windows Phone 8.0 | Не поддерживается
 ### См. также
 [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

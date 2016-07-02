@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Веб-браузеры, поддерживаемые Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Веб-браузеры, поддерживаемые Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 05/06/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 6f4ff11d-dc81-481a-bcd9-d8cdab32f876
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 2847c9af38ae0ddddc8d76d548ae7abddc63e4c1
+ms.openlocfilehash: 2524ff0c6139029b162fd58ed209e2d1c284df76
+
 
 ---
 
@@ -42,6 +36,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

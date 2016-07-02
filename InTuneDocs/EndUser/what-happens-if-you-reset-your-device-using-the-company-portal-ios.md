@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Что происходит при сбросе вашего устройства с помощью корпоративного портала? | Microsoft Intune
-description:
-keywords:
+title: "Что происходит при сбросе вашего устройства с помощью корпоративного портала? | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: db99c3eb-4813-4c8b-8e32-958e983b7f0f
-
-# optional metadata
-
-ROBOTS:
-#audience:
-#ms.devlang:
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: a9512738cd48438d85c7a98b0d533fbe6e6b8ba2
+
 
 ---
 
@@ -47,6 +42,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

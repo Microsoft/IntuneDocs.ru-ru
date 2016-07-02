@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Пилотное развертывание | Microsoft Intune
-description:
-keywords:
+title: "Пилотное развертывание | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 14e55841-37f1-472c-9678-a1ba847cb331
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: af0c3e623167ae7df0177ddcd8e541482512e6b3
+
 
 ---
 
@@ -113,6 +107,7 @@ ms.suite: ems
 [Корпоративное развертывание](enterprise-rollout.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
