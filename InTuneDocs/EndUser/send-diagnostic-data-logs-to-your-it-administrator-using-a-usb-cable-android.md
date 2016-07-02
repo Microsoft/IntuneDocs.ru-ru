@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Отправка журналов диагностических данных ИТ-администратору по USB-кабелю | Microsoft Intune
-description:
-keywords:
+title: "Отправка журналов диагностических данных ИТ-администратору по USB-кабелю | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: c46775c2-9d2a-4a88-89f0-4104a462b898
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 7ad4f4b726f093a14663fc5c4dbadf5603965075
+
 
 ---
 
@@ -43,6 +37,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

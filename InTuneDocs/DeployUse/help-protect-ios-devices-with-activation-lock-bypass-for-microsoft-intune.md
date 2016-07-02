@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Позволяют защищать устройства iOS с помощью обхода блокировки активации | Microsoft Intune
-description:
-keywords:
+title: "Позволяют защищать устройства iOS с помощью обхода блокировки активации | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 496679a196dc3e84c6b16ad0d3b830c81f12631b
+ms.openlocfilehash: 7bbd761b13f110297959a036ec15cafe1396377e
+
 
 ---
 
@@ -93,6 +87,7 @@ Intune может запрашивать состояние блокировки
 [Защита устройств с помощью функций удаленной очистки и сброса секретного кода](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
