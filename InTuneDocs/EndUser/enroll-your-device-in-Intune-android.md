@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Регистрация устройства Android в Intune | Microsoft Intune
-description:
-keywords:
+title: "Регистрация устройства Android в Intune | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 06/14/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
+ms.openlocfilehash: 76cc1a43e09039285be76858155ef22f7b41cf9b
+
 
 ---
 
@@ -127,6 +121,7 @@ ms.suite: ems
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
