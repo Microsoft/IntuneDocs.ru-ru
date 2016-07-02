@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Общие сведения о Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Общие сведения о Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Lindavr
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1bdcfa71aab0918fba1f59bd0782fc63eef6994e
+ms.openlocfilehash: da9db0b3961cbbd53fc2b7aa7704fa31c8c78718
+
 
 ---
 
@@ -58,6 +52,7 @@ Intune позволяет управлять мобильными устройс
 * Узнайте о [технических требованиях и возможностях](/intune/get-started/what-to-know-before-you-start-microsoft-intune) Intune.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

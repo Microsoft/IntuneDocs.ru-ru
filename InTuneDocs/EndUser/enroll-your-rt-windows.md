@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Регистрация устройства Windows RT в Intune | Microsoft Intune
-description:
-keywords:
+title: "Регистрация устройства Windows RT в Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: ca6519e8-d0da-4314-b0bc-1753784d7969
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
+ms.openlocfilehash: 47341626bceaa5d4ad0775c3d22d80985ce699cc
+
 
 ---
 
@@ -59,6 +53,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
