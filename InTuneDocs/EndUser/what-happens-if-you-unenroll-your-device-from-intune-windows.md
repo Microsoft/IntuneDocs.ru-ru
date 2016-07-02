@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Что происходит при отмене регистрации устройства в Intune? | Microsoft Intune
-description:
-keywords:
+title: "Что происходит при отмене регистрации устройства в Intune? | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 47e03edb-0c57-4e25-8e89-4a1069267b8c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1244d931d1bd3db012fbcfe0bd055d1fd4f2d88a
+ms.openlocfilehash: f0108b884439aac9661c9f36f85b47d80209d155
+
 
 ---
 
@@ -43,7 +37,8 @@ ms.suite: ems
 
 -   Программное обеспечение Intune Endpoint Protection удаляется с компьютера. Если на компьютере установлено другое ПО для защиты от вирусов и оно отключено, это приложение можно будет снова включить после удаления Intune Endpoint Protection. Проверьте компьютер после удаления на корпоративном портале.
 
-    > [!IMPORTANT] Если другое ПО для защиты от вирусов не включено повторно или не установлено, ваш компьютер может оказаться уязвим для вирусов и вредоносного ПО.
+    > [!IMPORTANT]
+    > Если другое ПО для защиты от вирусов не включено повторно или не установлено, ваш компьютер может оказаться уязвим для вирусов и вредоносного ПО.
 
 -   Параметры, измененные на устройстве после его добавления, например выключение камеры, перестанут действовать.
 
@@ -97,6 +92,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

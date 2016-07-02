@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Использование подробного ведения журналов, чтобы помочь ИТ-администратору с устранением проблем на устройстве | Microsoft Intune
-description:
-keywords:
+title: "Использование подробного ведения журналов, чтобы помочь ИТ-администратору с устранением проблем на устройстве | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 2a9183a6-b40d-4132-a1ce-61ce0f1c23aa
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
+ms.openlocfilehash: 9089943b8e86b298e0182483a5f98cf4d74efd63
+
 
 ---
 
@@ -37,6 +31,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
