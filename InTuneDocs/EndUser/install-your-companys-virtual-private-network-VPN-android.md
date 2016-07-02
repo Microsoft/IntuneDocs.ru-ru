@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Установка виртуальной частной сети (VPN) компании | Microsoft Intune
-description:
-keywords:
+title: "Установка виртуальной частной сети (VPN) компании | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: ed4a9f15-72fb-4171-84cb-63d2f1a6d04c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisbal
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: d4c0e05002b3d6f2785b401159c2872d93313524
+
 
 ---
 
@@ -41,6 +35,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
