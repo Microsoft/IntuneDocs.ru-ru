@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Контактные телефоны службы поддержки | Microsoft Intune
-description:
-keywords:
+title: "Контактные телефоны службы поддержки | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 01c096eb-088b-4d2b-a1fa-dce6cdb12294
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: cc64e51499908d08823429871cda91dfb0078b1e
+ms.openlocfilehash: de00d31ab32916f29a111c93b39a578f82524f80
+
 
 ---
 
@@ -123,6 +117,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
