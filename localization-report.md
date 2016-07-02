@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 9
 [ Handback Failed Files ](#handback-failed-list)| 42
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 602
-[ In Sync Handback Files ](#insync-handback-success-list)| 139
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 581
+[ In Sync Handback Files ](#insync-handback-success-list)| 160
 [ Ignored Files ](#ignored-list)| 224
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -329,12 +329,10 @@
  ----------- | ------ | ------- 
  [InTuneDocs\accessibility-features-of-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/accessibility-features-of-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#d34e754e3815b43f4b5b74d24711cf55aacfc7574)
  [InTuneDocs\accessibility-for-people-with-disabilities.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/accessibility-for-people-with-disabilities.md) | OutofSyncHandedBackSuccess | [Details](#c666275027344d2972a94bb515ca32109936290a5)
- [InTuneDocs\accessibility-products-and-services-from-microsoft.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/accessibility-products-and-services-from-microsoft.md) | OutofSyncHandedBackSuccess | [Details](#966677b7d9488d37d44f42ff8ef8bbac7a5d39146)
  [InTuneDocs\activate-your-product-key.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/activate-your-product-key.md) | OutofSyncHandedBackSuccess | [Details](#d575d77a5f951311dc0d94abc96767952111b1467)
  [InTuneDocs\DeployUse\account-portal-merged-with-Office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/928b79530ac278f78356f8d1ef9f267077634b5b/InTuneDocs/DeployUse/account-portal-merged-with-Office-365.md) | OutofSyncHandedBackSuccess | [Details](#505e446125c938a9a978eb2908cfa0873ed66fcc8)
  [InTuneDocs\DeployUse\add-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f85e91b985d9d30c71dff9e0d910293354fc40b7/InTuneDocs/DeployUse/add-apps.md) | OutofSyncHandedBackSuccess | [Details](#119a795697feb0cdbc2b93293cd66df7e77147cf11)
  [InTuneDocs\DeployUse\add-apps-for-mobile-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5140c4943be630ea8e48f80f7e6b590d223beac1/InTuneDocs/DeployUse/add-apps-for-mobile-devices-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#795843f012434e1a50cd6abab05b6af2c811cf3e9)
- [InTuneDocs\DeployUse\add-apps-for-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/024ba0e2c63a42c121bd27302e8926bddac5566b/InTuneDocs/DeployUse/add-apps-for-windows-pcs-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#7da75576bf5296da6fbf35fb3c35c5d0d45c511d10)
  [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e736d688032dd2ddee5be9edf2a33d5e7ba5257b/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#dd3369cf59ea972f1ecc4953881ddbbede9a99c812)
  [InTuneDocs\DeployUse\android-mam-policy-settings.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5a445f06d6c2328f7689468ca4d68a969af1e825/InTuneDocs/DeployUse/android-mam-policy-settings.md) | OutofSyncHandedBackSuccess | [Details](#3f43dc871dc0b0a81a6d0b05376a1254957fc35b13)
  [InTuneDocs\DeployUse\android-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/62beaec31a0cdc3c28fd3eed820a6771e42ef3e7/InTuneDocs/DeployUse/android-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#f4c0eccb0cd30daaba97e8f34eea69e3d0e8e0ad14)
@@ -355,7 +353,6 @@
  [InTuneDocs\DeployUse\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8c1f4f209c5ec704290882b8f6f71e0b1b01d21c/InTuneDocs/DeployUse/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#986d864a3169fa3b094241a3522e3f25b7bfe34929)
  [InTuneDocs\DeployUse\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#52da5cf6d14a5fc3ff3db6bdb07823d3bf37346630)
  [InTuneDocs\DeployUse\deploy-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e6b995118e66fd146a68b49ce4decdcbd1fe3572/InTuneDocs/DeployUse/deploy-apps.md) | OutofSyncHandedBackSuccess | [Details](#a68cb85602bd585539147c7d7d38c0d906f2b1f732)
- [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c95a776e79cf3e1c7009d6e27f8f50482434d298/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#46562ed3463c4a23a511eb5c7f28a0b11e84f42131)
  [InTuneDocs\DeployUse\edition-upgrade-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8e911193075d2a621ef94f2917b2126501ea2100/InTuneDocs/DeployUse/edition-upgrade-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#e468ff102b45bf0c23fd76d8d15c44978861ae8a34)
  [InTuneDocs\DeployUse\enable-access-to-company-resources-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8c1f4f209c5ec704290882b8f6f71e0b1b01d21c/InTuneDocs/DeployUse/enable-access-to-company-resources-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#556b9ea5ac5edcc1126dbcc6310ab7dfa917cb5635)
  [InTuneDocs\DeployUse\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/3f797e3ef4a7e2d1b27ce6b1ed6e5322343c6cff/InTuneDocs/DeployUse/end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#9b557c272c9d740792560a392d52efff6a7deed136)
@@ -438,7 +435,6 @@
  [InTuneDocs\DeployUse\microsoft-intune-policy-reference.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/microsoft-intune-policy-reference.md) | OutofSyncHandedBackSuccess | [Details](#3d9e03a3c89af72caeaa9c9c47426f331adb0fca198)
  [InTuneDocs\DeployUse\migrate-to-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8c1f4f209c5ec704290882b8f6f71e0b1b01d21c/InTuneDocs/DeployUse/migrate-to-intune.md) | OutofSyncHandedBackSuccess | [Details](#20394c243b9355cd3f4e30f170dfd00d10e1153f199)
  [InTuneDocs\DeployUse\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/mobile-device-management-with-exchange-activesync-and-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#d24395786daa7aec103ec754895868a75983e099200)
- [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#8b7dac0bef8505567a9d0485fe6e952a3f6aa305201)
  [InTuneDocs\DeployUse\monitor-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/monitor-apps-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#c92b7de51de0ac0115dd53e421d4852bed8d729a202)
  [InTuneDocs\DeployUse\monitoring-and-reports-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f33a86c51320c75ce74d20e0cac2b9581990ecec/InTuneDocs/DeployUse/monitoring-and-reports-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#ffbcc48e909887647a2c1b7f7c40bde5682cddea204)
  [InTuneDocs\DeployUse\monitor-mobile-app-management-policies-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/monitor-mobile-app-management-policies-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#99b50bd040bbbdfa3ad7937d7703700526c9c4d5203)
@@ -450,7 +446,6 @@
  [InTuneDocs\DeployUse\plan-your-user-and-device-groups.md](https://github.com/Microsoft/IntuneDocs-pr/blob/82ab2dbfada6c0745195da149d5f0dc1948ceb92/InTuneDocs/DeployUse/plan-your-user-and-device-groups.md) | OutofSyncHandedBackSuccess | [Details](#e89d8384532b994d810649fc07c698237e2f3cec210)
  [InTuneDocs\DeployUse\policies-to-protect-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/policies-to-protect-windows-pcs-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#8d1bad7af972a32ce3509d67edab3f4f9c9df299211)
  [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e91193523284113c2029e0762dfc48ddc15540d4/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | OutofSyncHandedBackSuccess | [Details](#4342a00029c4943f67ff0420d43f885153f579e5214)
- [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md) | OutofSyncHandedBackSuccess | [Details](#e5a2bf543e2627839f27a4610ca27a2b40caaaf2213)
  [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8c1f4f209c5ec704290882b8f6f71e0b1b01d21c/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) | OutofSyncHandedBackSuccess | [Details](#da3c318cb25ca2fcd080e374d5bd202b2108a616216)
  [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-app-management.md) | OutofSyncHandedBackSuccess | [Details](#b9d826cd801cca47fbf4b17dd38982feb3bdb752215)
  [InTuneDocs\DeployUse\pre-shared-key-wi-fi-profile.md](https://github.com/Microsoft/IntuneDocs-pr/blob/066baae17da1fd399f4f7d10784719e3dc46f235/InTuneDocs/DeployUse/pre-shared-key-wi-fi-profile.md) | OutofSyncHandedBackSuccess | [Details](#632adf3dccf40dd2b361d170f501a851bf0fda38212)
@@ -497,8 +492,6 @@
  [InTuneDocs\DeployUse\windows-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a280fcbecf82e6ff27e40d2d53331b3988953ff7/InTuneDocs/DeployUse/windows-configuration-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#aa62528e588b0579669ab8d115766efd72e6f9b2263)
  [InTuneDocs\DeployUse\windows-phone-8-1-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/a280fcbecf82e6ff27e40d2d53331b3988953ff7/InTuneDocs/DeployUse/windows-phone-8-1-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#fe685da41bb5379526bdc28c2f9cceb6b7800703264)
  [InTuneDocs\DeployUse\windows-team-configuration-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/windows-team-configuration-policy-settings-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#b08d52289b94429b1328a7470469a7efdf4d46a7265)
- [InTuneDocs\DeployUse\wipe-managed-company-app-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/wipe-managed-company-app-data-with-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#ebc83611679f5128df45e4ca6b2f3b745f47061d267)
- [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f62c5ee18d8f69fa174f09a1c46b6925c7517c/InTuneDocs/develop/intune-app-sdk.md) | OutofSyncHandedBackSuccess | [Details](#3abf566831348de11f718370d6267e3ff4355bfb271)
  [InTuneDocs\develop\intune-app-sdk-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk-android.md) | OutofSyncHandedBackSuccess | [Details](#d2e4b6903d86b79edd9c758b2ce51733831e785a268)
  [InTuneDocs\develop\intune-app-sdk-get-started.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f62c5ee18d8f69fa174f09a1c46b6925c7517c/InTuneDocs/develop/intune-app-sdk-get-started.md) | OutofSyncHandedBackSuccess | [Details](#a042f0c6206e9aaf4ec0eb012a70930aa95ecc47269)
  [InTuneDocs\develop\intune-app-sdk-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f62c5ee18d8f69fa174f09a1c46b6925c7517c/InTuneDocs/develop/intune-app-sdk-ios.md) | OutofSyncHandedBackSuccess | [Details](#820ec2da0554f0af383895482241be7d1c0cf305270)
@@ -513,23 +506,19 @@
  [InTuneDocs\EndUser\device-doesnt-have-bitlocker-enabled-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/device-doesnt-have-bitlocker-enabled-windows.md) | OutofSyncHandedBackSuccess | [Details](#dcc3872c4237023c80324ee3dca927e5095b87be281)
  [InTuneDocs\EndUser\device-doesnt-have-code-integrity-enabled-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/device-doesnt-have-code-integrity-enabled-windows.md) | OutofSyncHandedBackSuccess | [Details](#793a3eb17aaa5e04c27a31302d93bfc46ff71cac282)
  [InTuneDocs\EndUser\device-doesnt-have-secure-boot-enabled-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/device-doesnt-have-secure-boot-enabled-windows.md) | OutofSyncHandedBackSuccess | [Details](#e4c2066c0acb1c410ad420ebd5918535b72a5559283)
- [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md) | OutofSyncHandedBackSuccess | [Details](#620078cdd6a6d918153ab5a9813a14406c11acb4284)
  [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-ios.md) | OutofSyncHandedBackSuccess | [Details](#b42d1b78961590f44100a90f99b53bef514fa6fd285)
  [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-windows.md) | OutofSyncHandedBackSuccess | [Details](#12e559f51419da6c3edfa7af1d8b0f09c99e4caa286)
  [InTuneDocs\EndUser\encrypt-your-device-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/39bcea03cad061e5b84e073cc5affcdd14fc6015/InTuneDocs/EndUser/encrypt-your-device-android.md) | OutofSyncHandedBackSuccess | [Details](#22e9071171d2dc63562e94cabe2abdec3b2bd85e288)
- [InTuneDocs\EndUser\encrypt-your-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/encrypt-your-device-windows.md) | OutofSyncHandedBackSuccess | [Details](#aeeb607e54a207792e1cc8c16ee2ecd25a553e34289)
  [InTuneDocs\EndUser\enroll-your-device-in-intune-all.md](https://github.com/Microsoft/IntuneDocs-pr/blob/98ba0968653ceaf13ab5422468040f8e2ce50422/InTuneDocs/EndUser/enroll-your-device-in-intune-all.md) | OutofSyncHandedBackSuccess | [Details](#b38457634263b8fbda0c6b6e3e5d9156dd6668a8290)
  [InTuneDocs\EndUser\enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-device-in-intune-ios.md) | OutofSyncHandedBackSuccess | [Details](#305308aa94a7650df8b44710025620906714421b292)
  [InTuneDocs\EndUser\enroll-your-device-in-intune-mac-os-x.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-device-in-intune-mac-os-x.md) | OutofSyncHandedBackSuccess | [Details](#b85d2ac62ca313f0740c68ff6d85918ff7bcd55a293)
  [InTuneDocs\EndUser\enroll-your-device-in-intune-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/98ba0968653ceaf13ab5422468040f8e2ce50422/InTuneDocs/EndUser/enroll-your-device-in-intune-windows.md) | OutofSyncHandedBackSuccess | [Details](#e343905f7359e310bc5b171feb3311adf8b4012f294)
- [InTuneDocs\EndUser\enroll-your-rt-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-rt-windows.md) | OutofSyncHandedBackSuccess | [Details](#47341626bceaa5d4ad0775c3d22d80985ce699cc295)
  [InTuneDocs\EndUser\enroll-your-w10-phone-or-w10-pc-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-w10-phone-or-w10-pc-windows.md) | OutofSyncHandedBackSuccess | [Details](#543f0acd6fb3691ba31e9da6fec49b3f30f67613296)
  [InTuneDocs\EndUser\enroll-your-w81-or-rt81-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-w81-or-rt81-windows.md) | OutofSyncHandedBackSuccess | [Details](#6607ea6c355e0ec767e514ac0097789b83c5d8c7297)
  [InTuneDocs\EndUser\enroll-your-wp81-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-wp81-windows.md) | OutofSyncHandedBackSuccess | [Details](#cc427327897084d6366ade896f7d760603d86eb7299)
  [InTuneDocs\EndUser\enroll-your-wp8-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-wp8-windows.md) | OutofSyncHandedBackSuccess | [Details](#21e904766d1621b2182de8adde8142f5f7ad8e26298)
  [InTuneDocs\EndUser\existing-company-email-account-found.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/existing-company-email-account-found.md) | OutofSyncHandedBackSuccess | [Details](#02a07a6017ed2bb569dd9d3756f84b7b8078f630301)
  [InTuneDocs\EndUser\how-do-i-find-the-serial-number-on-my-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-do-i-find-the-serial-number-on-my-device-ios.md) | OutofSyncHandedBackSuccess | [Details](#afd6c6c12c76f5bf8f561f062df65a625cc19a3d302)
- [InTuneDocs\EndUser\how-to-encrypt-your-windows-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-to-encrypt-your-windows-device.md) | OutofSyncHandedBackSuccess | [Details](#8291a96487ee84ce0214d7054236941c3cf37a6d303)
  [InTuneDocs\EndUser\how-to-reconnect-a-compromised-android-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-to-reconnect-a-compromised-android-device.md) | OutofSyncHandedBackSuccess | [Details](#c089b36676feb4caa7064738d6ef4b709139ab49304)
  [InTuneDocs\EndUser\how-to-reconnect-a-compromised-ios-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-to-reconnect-a-compromised-ios-device.md) | OutofSyncHandedBackSuccess | [Details](#4b83e426e440928fea5308223764716a4ee77456305)
  [InTuneDocs\EndUser\how-to-set-the-period-before-your-android-device-is-locked.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-to-set-the-period-before-your-android-device-is-locked.md) | OutofSyncHandedBackSuccess | [Details](#00fca8673ff1b52535fb6c06a02b38b7879f204f306)
@@ -568,7 +557,6 @@
  [InTuneDocs\EndUser\media\wp81-3-sync-tap-sync-button.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e50c3401ce0b8e5e1e10e196b3d9e00c71de884d/InTuneDocs/EndUser/media/wp81-3-sync-tap-sync-button.png) | OutofSyncHandedBackSuccess | [Details](#314533eb30bd30a76dccca3510843ad9cd0ca070412)
  [InTuneDocs\EndUser\media\WP81-enroll-1-swipe-my-devices.png](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EndUser/media/WP81-enroll-1-swipe-my-devices.png) | OutofSyncHandedBackSuccess | [Details](#88a1101825e9ecf41e5f2e308e3f4f90ba395977413)
  [InTuneDocs\EndUser\media\WP81-enroll-4-account-added.png](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EndUser/media/WP81-enroll-4-account-added.png) | OutofSyncHandedBackSuccess | [Details](#f4fe095324508e127d6cb0f927cd60517d8a898c416)
- [InTuneDocs\EndUser\password-does-not-meet-it-administrator-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/password-does-not-meet-it-administrator-requirements.md) | OutofSyncHandedBackSuccess | [Details](#cf6a7a005aaf703f2dfc20b89236056dff84e137417)
  [InTuneDocs\EndUser\remote-lock-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/remote-lock-your-device-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#7e5d48d35e8216bac2fae8e2f9a1ba82d3493acc418)
  [InTuneDocs\EndUser\remove-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/remove-your-device-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#9f63869b6c4f3a082da7587921870004c6ffc5e1419)
  [InTuneDocs\EndUser\rename-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/rename-your-device-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#301fdc58dbe827fa21ba7a76457ff5584bd2ff69420)
@@ -576,7 +564,6 @@
  [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-ios.md) | OutofSyncHandedBackSuccess | [Details](#7c6e3e0f008f084a63288eec66f7161a1edb9ffe422)
  [InTuneDocs\EndUser\reset-erase-your-lost-or-stolen-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-erase-your-lost-or-stolen-device-windows.md) | OutofSyncHandedBackSuccess | [Details](#2b2790826e46e6af43f3bdeeede6dc834845a83b423)
  [InTuneDocs\EndUser\reset-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-your-device-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#dcde651a95a7f1affaf5489c2664d96a7f5e9e8f424)
- [InTuneDocs\EndUser\reset-your-passcode-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-your-passcode-cpwebsite.md) | OutofSyncHandedBackSuccess | [Details](#31023a2d51d4dd4cb854c1fa077f5a9910232bb4425)
  [InTuneDocs\EndUser\send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md) | OutofSyncHandedBackSuccess | [Details](#7ad4f4b726f093a14663fc5c4dbadf5603965075426)
  [InTuneDocs\EndUser\send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md) | OutofSyncHandedBackSuccess | [Details](#57646f103fb0520295729a89a30692c657896e55427)
  [InTuneDocs\EndUser\send-enrollment-errors-to-your-it-administrator-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/send-enrollment-errors-to-your-it-administrator-android.md) | OutofSyncHandedBackSuccess | [Details](#e336289290cd79a2599ccfb7eccbc5df4230555b428)
@@ -639,7 +626,6 @@
  [InTuneDocs\GetStarted\media\wit_walk_cert2.gif](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/GetStarted/media/wit_walk_cert2.gif) | OutofSyncHandedBackSuccess | [Details](#b86daa607f8bdfca2b36b2e9c956dc9872a80e4d514)
  [InTuneDocs\GetStarted\media\WPCertReqs.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/GetStarted/media/WPCertReqs.png) | OutofSyncHandedBackSuccess | [Details](#357558a36a885fc6c50279d11801440587fe3676515)
  [InTuneDocs\GetStarted\microsoft-intune-company-portal.md](https://github.com/Microsoft/IntuneDocs-pr/blob/65769fade08dea34b3e788628e578d58f90389f3/InTuneDocs/GetStarted/microsoft-intune-company-portal.md) | OutofSyncHandedBackSuccess | [Details](#815e36569e17bde750b49c7d7b10744a9b614635516)
- [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f33a86c51320c75ce74d20e0cac2b9581990ecec/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#0f460165f251acf95f4af36afa39409d3eb21162517)
  [InTuneDocs\GetStarted\network-bandwidth-use.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/network-bandwidth-use.md) | OutofSyncHandedBackSuccess | [Details](#e104dc52a8a9bdda4b2edb2939d8c7c36e8ecc12518)
  [InTuneDocs\GetStarted\network-infrastructure-requirements-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c5d1b53f09ce2f475cd934e36ddb19d019737431/InTuneDocs/GetStarted/network-infrastructure-requirements-for-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#b551aca6994780591dabe042420d5f23d98b218b519)
  [InTuneDocs\GetStarted\operations-and-maintenance.md](https://github.com/Microsoft/IntuneDocs-pr/blob/d82d0ae4820d2e2141848235b8741abccaec3bc6/InTuneDocs/GetStarted/operations-and-maintenance.md) | OutofSyncHandedBackSuccess | [Details](#a26de5f97800d8cac0c52c87014c75402460fee4520)
@@ -667,10 +653,7 @@
  [InTuneDocs\includes\accessibility1.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility1.md) | OutofSyncHandedBackSuccess | [Details](#1f04ca268c5fc8669102a61ce243d107f7f2cce5542)
  [InTuneDocs\includes\accessibility10.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility10.md) | OutofSyncHandedBackSuccess | [Details](#696afdb33b3539746abcc89d588f0fa72ec1a68d543)
  [InTuneDocs\includes\accessibility10_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility10_md.md) | OutofSyncHandedBackSuccess | [Details](#bd86629f830d9cea39e290305cd10032efb8cc55544)
- [InTuneDocs\includes\accessibility11.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11.md) | OutofSyncHandedBackSuccess | [Details](#d2d2c4f3fbe181d1d8adcec1667b30b3a1b7719d557)
  [InTuneDocs\includes\accessibility11_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11_md.md) | OutofSyncHandedBackSuccess | [Details](#b6835d4d9c12000dbf0c7cff2f1468832aeca9ad558)
- [InTuneDocs\includes\accessibility11-a.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-a.md) | OutofSyncHandedBackSuccess | [Details](#18bb09579287c7c558485362790a89212fdead13545)
- [InTuneDocs\includes\accessibility11-a_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-a_md.md) | OutofSyncHandedBackSuccess | [Details](#3d58defb5b2334d6b039085ad024d097fb3629e0546)
  [InTuneDocs\includes\accessibility11-b.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-b.md) | OutofSyncHandedBackSuccess | [Details](#ceba79bcc1d750e82a97db2ecd4e267b7005430d547)
  [InTuneDocs\includes\accessibility11-b_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-b_md.md) | OutofSyncHandedBackSuccess | [Details](#9f2c5a213db0c9124bbec8641f0d860f9a2225fe548)
  [InTuneDocs\includes\accessibility11-c.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-c.md) | OutofSyncHandedBackSuccess | [Details](#ca8f47caac0f2a1744ca4f85426bb068faad40c8549)
@@ -681,7 +664,6 @@
  [InTuneDocs\includes\accessibility11-f.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-f.md) | OutofSyncHandedBackSuccess | [Details](#f7b4ab09cc4894e1a807b7f80c08d35e62593731555)
  [InTuneDocs\includes\accessibility12.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility12.md) | OutofSyncHandedBackSuccess | [Details](#bf20d3df144eed21166ea7235e9e3f1a45cbc7cd559)
  [InTuneDocs\includes\accessibility12_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility12_md.md) | OutofSyncHandedBackSuccess | [Details](#6a53bb33f107679e333a9728c8e709f47a2a0cbe560)
- [InTuneDocs\includes\accessibility13.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13.md) | OutofSyncHandedBackSuccess | [Details](#d64ab436a4fd522c988668574a966d76c2ed7bb6561)
  [InTuneDocs\includes\accessibility13_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13_md.md) | OutofSyncHandedBackSuccess | [Details](#dc9a83c3b47b21b3a38bfa737ad97aa992eb11a6562)
  [InTuneDocs\includes\accessibility14.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility14.md) | OutofSyncHandedBackSuccess | [Details](#34b72160db4cc4964cecd827a3a564001a57e2e2563)
  [InTuneDocs\includes\accessibility14_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility14_md.md) | OutofSyncHandedBackSuccess | [Details](#a94c8709ede3ec7fbfced448ab01b04dd7352371564)
@@ -717,7 +699,6 @@
  [InTuneDocs\includes\firstref_client_7.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/firstref_client_7.md) | OutofSyncHandedBackSuccess | [Details](#eec4429fa1f423668cea654543380ac880e2d0ef598)
  [InTuneDocs\includes\firstref_client_7_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/firstref_client_7_md.md) | OutofSyncHandedBackSuccess | [Details](#8d825513a8fcd30c0e610859192ef20fa89ebad2599)
  [InTuneDocs\includes\firstref_vista.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/firstref_vista.md) | OutofSyncHandedBackSuccess | [Details](#13ff460ac519f9cd49ce1cf25a819cea78e2772f600)
- [InTuneDocs\includes\firstref_vista_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/firstref_vista_md.md) | OutofSyncHandedBackSuccess | [Details](#da178e2adfef6403babbf2628c7511519b7833d6601)
  [InTuneDocs\includes\group-deprecation.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5ec8e8d42232efdac7e8c36e00341bb07c66c0e5/InTuneDocs/includes/group-deprecation.md) | OutofSyncHandedBackSuccess | [Details](#de6b0a502492984a20cb9f16abbdea1d7c34dc60602)
  [InTuneDocs\includes\Intune-feedback-footer.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/Intune-feedback-footer.md) | OutofSyncHandedBackSuccess | [Details](#d9fdbbe0d10fcd31299c021749df2ea6dc55d199603)
  [InTuneDocs\includes\longhornshort.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/longhornshort.md) | OutofSyncHandedBackSuccess | [Details](#7541052b56e8a04bca42cc6721a4f92814f8db96604)
@@ -728,7 +709,6 @@
  [InTuneDocs\includes\nextref_server_7_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/nextref_server_7_md.md) | OutofSyncHandedBackSuccess | [Details](#4cbb5695d57f7e07523eab7e4db7a7c8f05a0bcc610)
  [InTuneDocs\includes\nextref_vista.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/nextref_vista.md) | OutofSyncHandedBackSuccess | [Details](#0e0d453a927f125a58d1b307ba93e97993ed8a9c611)
  [InTuneDocs\includes\nextref_vista_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/nextref_vista_md.md) | OutofSyncHandedBackSuccess | [Details](#44e64345682fc26ddae6f1bc70290bd2bf84369d612)
- [InTuneDocs\includes\sccmshortname.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/sccmshortname.md) | OutofSyncHandedBackSuccess | [Details](#cad3187986387bfe5f86110f478472b563645089613)
  [InTuneDocs\includes\sccmshortname_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/sccmshortname_md.md) | OutofSyncHandedBackSuccess | [Details](#20a783276163d706389339c9aac1f842a67b9530614)
  [InTuneDocs\includes\sco_dm_2.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/sco_dm_2.md) | OutofSyncHandedBackSuccess | [Details](#fc2812773cc47aea0a10db21ce53670c3a0dd87c615)
  [InTuneDocs\includes\sco_dm_2_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/sco_dm_2_md.md) | OutofSyncHandedBackSuccess | [Details](#1202b6045bb557987046393241d45a6c4e1a9be5616)
@@ -893,7 +873,6 @@
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9755499575118feecf33780ee29a70525f95508e/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md) | OutofSyncHandedBackSuccess | [Details](#658806c07ea78a327819376c1b47af53ac51f0f91170)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md](https://github.com/Microsoft/IntuneDocs-pr/blob/9755499575118feecf33780ee29a70525f95508e/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md) | OutofSyncHandedBackSuccess | [Details](#f26b64015f483eb5b6a6efbaa6fe6730dde7dac91171)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f33a86c51320c75ce74d20e0cac2b9581990ecec/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md) | OutofSyncHandedBackSuccess | [Details](#0574891a021d43f54ef78ded20d6cf19c18eb25b1172)
- [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1bdcfa71aab0918fba1f59bd0782fc63eef6994e/InTuneDocs/Understand/introduction-to-microsoft-intune.md) | OutofSyncHandedBackSuccess | [Details](#da9db0b3961cbbd53fc2b7aa7704fa31c8c787181175)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-12-link-set-mdm.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png) | OutofSyncHandedBackSuccess | [Details](#73ef645cbc717eb389266a0e21f6ac7bdb749a6f1179)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-14-dwnld-cert-reqst.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-14-dwnld-cert-reqst.png) | OutofSyncHandedBackSuccess | [Details](#ee409dfd08f5fa81e2578e1efe7e3bbab45524591181)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-16-cert-portl-link.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-16-cert-portl-link.png) | OutofSyncHandedBackSuccess | [Details](#151651e0979833aeabd508b9ddae8a298cbd940c1183)
@@ -933,6 +912,9 @@
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
  ----------- | ------ | ------- 
+ [InTuneDocs\accessibility-products-and-services-from-microsoft.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/accessibility-products-and-services-from-microsoft.md) | InSyncHandedBackSuccess | [Details](#966677b7d9488d37d44f42ff8ef8bbac7a5d39146)
+ [InTuneDocs\DeployUse\add-apps-for-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/024ba0e2c63a42c121bd27302e8926bddac5566b/InTuneDocs/DeployUse/add-apps-for-windows-pcs-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#7da75576bf5296da6fbf35fb3c35c5d0d45c511d10)
+ [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c95a776e79cf3e1c7009d6e27f8f50482434d298/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#46562ed3463c4a23a511eb5c7f28a0b11e84f42131)
  [InTuneDocs\DeployUse\find-a-pfn-for-per-app-vpn.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e32cbcd54220cf36d6770ee16897d27e1d2d71db/InTuneDocs/DeployUse/find-a-pfn-for-per-app-vpn.md) | InSyncHandedBackSuccess | [Details](#21bc0bcaf64cf67eea2ca30b933c314c4c3e6dae42)
  [InTuneDocs\DeployUse\media\Android_O365SignInPage.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/DeployUse/media/Android_O365SignInPage.png) | InSyncHandedBackSuccess | [Details](#67f34f8854205724ef5b5c915715735dda078cc379)
  [InTuneDocs\DeployUse\media\app-filters.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75ab39f59afa27190ac87e792b143df237eef6c4/InTuneDocs/DeployUse/media/app-filters.png) | InSyncHandedBackSuccess | [Details](#c4920e933b7c8a910303cadfb2543e4864fbbcbb84)
@@ -965,13 +947,21 @@
  [InTuneDocs\DeployUse\media\pc-SA-client-download.png](https://github.com/Microsoft/IntuneDocs-pr/blob/1bdcfa71aab0918fba1f59bd0782fc63eef6994e/InTuneDocs/DeployUse/media/pc-SA-client-download.png) | InSyncHandedBackSuccess | [Details](#409ffeb7ccaa205878019bcca9db671b9da19859189)
  [InTuneDocs\DeployUse\media\pol-sa-pc-endpoint-policy.png](https://github.com/Microsoft/IntuneDocs-pr/blob/106c40dd9b3842dbea50d374b83ed57297ecda42/InTuneDocs/DeployUse/media/pol-sa-pc-endpoint-policy.png) | InSyncHandedBackSuccess | [Details](#8ed6922c36742fbe2310bdf575a99eaf3b7d36d8191)
  [InTuneDocs\DeployUse\media\publisher-for-pc.png](https://github.com/Microsoft/IntuneDocs-pr/blob/75ab39f59afa27190ac87e792b143df237eef6c4/InTuneDocs/DeployUse/media/publisher-for-pc.png) | InSyncHandedBackSuccess | [Details](#b91de3ef520b2cc704eadf508732f4383853480b195)
+ [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#8b7dac0bef8505567a9d0485fe6e952a3f6aa305201)
+ [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md) | InSyncHandedBackSuccess | [Details](#e5a2bf543e2627839f27a4610ca27a2b40caaaf2213)
  [InTuneDocs\DeployUse\resolve-gpo-and-microsoft-intune-policy-conflicts.md](https://github.com/Microsoft/IntuneDocs-pr/blob/211543b75e2bcda85cd74ab34c254d70f036eebd/InTuneDocs/DeployUse/resolve-gpo-and-microsoft-intune-policy-conflicts.md) | InSyncHandedBackSuccess | [Details](#7fc97e21fa7e57d8585c421ac12ff0d3c4b366a0225)
  [InTuneDocs\DeployUse\retire-apps.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/retire-apps.md) | InSyncHandedBackSuccess | [Details](#16f9ab5651999458728f1e0ae91526bb3f3555d5235)
  [InTuneDocs\DeployUse\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/aa4dc77c66a34d9d50b83d072ed5e03674b4d293/InTuneDocs/DeployUse/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#bfb82684d8c4347297c3ed8659cc44e70ad4706c252)
  [InTuneDocs\DeployUse\vpn-connections-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/95abe7b12e68755f3c95f91888efd3e85c057119/InTuneDocs/DeployUse/vpn-connections-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#b55cf263611d6e90805cad9985eb8a5e7ebeb4a0254)
  [InTuneDocs\DeployUse\wipe-for-exchange-managed-mobile-devices.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/wipe-for-exchange-managed-mobile-devices.md) | InSyncHandedBackSuccess | [Details](#47e4533b6f97ff711c2efbeb6102f497af615871266)
+ [InTuneDocs\DeployUse\wipe-managed-company-app-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/wipe-managed-company-app-data-with-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#ebc83611679f5128df45e4ca6b2f3b745f47061d267)
+ [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f62c5ee18d8f69fa174f09a1c46b6925c7517c/InTuneDocs/develop/intune-app-sdk.md) | InSyncHandedBackSuccess | [Details](#3abf566831348de11f718370d6267e3ff4355bfb271)
+ [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md) | InSyncHandedBackSuccess | [Details](#620078cdd6a6d918153ab5a9813a14406c11acb4284)
+ [InTuneDocs\EndUser\encrypt-your-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/encrypt-your-device-windows.md) | InSyncHandedBackSuccess | [Details](#aeeb607e54a207792e1cc8c16ee2ecd25a553e34289)
  [InTuneDocs\EndUser\enroll-your-device-in-Intune-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/enroll-your-device-in-Intune-android.md) | InSyncHandedBackSuccess | [Details](#76cc1a43e09039285be76858155ef22f7b41cf9b291)
+ [InTuneDocs\EndUser\enroll-your-rt-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-rt-windows.md) | InSyncHandedBackSuccess | [Details](#47341626bceaa5d4ad0775c3d22d80985ce699cc295)
  [InTuneDocs\EndUser\error-evaluating-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/error-evaluating-device.md) | InSyncHandedBackSuccess | [Details](#6c28c3d259f0678669117afbc8a897b0b77056bf300)
+ [InTuneDocs\EndUser\how-to-encrypt-your-windows-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-to-encrypt-your-windows-device.md) | InSyncHandedBackSuccess | [Details](#8291a96487ee84ce0214d7054236941c3cf37a6d303)
  [InTuneDocs\EndUser\media\1-macosx-enroll-tap-enroll.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e50c3401ce0b8e5e1e10e196b3d9e00c71de884d/InTuneDocs/EndUser/media/1-macosx-enroll-tap-enroll.png) | InSyncHandedBackSuccess | [Details](#5b3551ac48c41f27c2f2e59467a03eb527bffb46312)
  [InTuneDocs\EndUser\media\iwp-2-sign-out.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e50c3401ce0b8e5e1e10e196b3d9e00c71de884d/InTuneDocs/EndUser/media/iwp-2-sign-out.png) | InSyncHandedBackSuccess | [Details](#99f6577885256f450a034a7ca9bece4511e3c753379)
  [InTuneDocs\EndUser\media\W10-enroll-1-settings-accounts.png](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EndUser/media/W10-enroll-1-settings-accounts.png) | InSyncHandedBackSuccess | [Details](#7433cba078bfa29c741dd08c0f44b083b822e734385)
@@ -989,15 +979,24 @@
  [InTuneDocs\EndUser\media\wp81-2-sync-tap-compname.png](https://github.com/Microsoft/IntuneDocs-pr/blob/e50c3401ce0b8e5e1e10e196b3d9e00c71de884d/InTuneDocs/EndUser/media/wp81-2-sync-tap-compname.png) | InSyncHandedBackSuccess | [Details](#cf72a616b2c679b342f45442bbd783e69df2f8c3411)
  [InTuneDocs\EndUser\media\WP81-enroll-2-enroll-this-device.png](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EndUser/media/WP81-enroll-2-enroll-this-device.png) | InSyncHandedBackSuccess | [Details](#bcab588dd1d00990681d0d9d3c09a5bb14af020e414)
  [InTuneDocs\EndUser\media\WP81-enroll-3-workplace-add-acct.png](https://github.com/Microsoft/IntuneDocs-pr/blob/71af89a1feb73bccae1f07007bb5c30ea3f7950e/InTuneDocs/EndUser/media/WP81-enroll-3-workplace-add-acct.png) | InSyncHandedBackSuccess | [Details](#cddb4c0bba4880b1370c3ff6b683ce9f18bc7b80415)
+ [InTuneDocs\EndUser\password-does-not-meet-it-administrator-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/password-does-not-meet-it-administrator-requirements.md) | InSyncHandedBackSuccess | [Details](#cf6a7a005aaf703f2dfc20b89236056dff84e137417)
+ [InTuneDocs\EndUser\reset-your-passcode-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-your-passcode-cpwebsite.md) | InSyncHandedBackSuccess | [Details](#31023a2d51d4dd4cb854c1fa077f5a9910232bb4425)
  [InTuneDocs\GetStarted\media\apps.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/6fabcc6928f90bdab9b1a400e2641758095abb5f/InTuneDocs/GetStarted/media/apps.PNG) | InSyncHandedBackSuccess | [Details](#c1432f9dd733dccca6c615a50fb3139bdf81d150501)
  [InTuneDocs\GetStarted\media\POLICY.PNG](https://github.com/Microsoft/IntuneDocs-pr/blob/6fabcc6928f90bdab9b1a400e2641758095abb5f/InTuneDocs/GetStarted/media/POLICY.PNG) | InSyncHandedBackSuccess | [Details](#ca1cfbb4f83a6e26059fcfb35b5850aafefb81f2509)
+ [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f33a86c51320c75ce74d20e0cac2b9581990ecec/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#0f460165f251acf95f4af36afa39409d3eb21162517)
  [InTuneDocs\includes\accessibility1_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility1_md.md) | InSyncHandedBackSuccess | [Details](#1b484f283bacee97d6a181351aeef2a6366d0943571)
+ [InTuneDocs\includes\accessibility11.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11.md) | InSyncHandedBackSuccess | [Details](#d2d2c4f3fbe181d1d8adcec1667b30b3a1b7719d557)
+ [InTuneDocs\includes\accessibility11-a.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-a.md) | InSyncHandedBackSuccess | [Details](#18bb09579287c7c558485362790a89212fdead13545)
+ [InTuneDocs\includes\accessibility11-a_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-a_md.md) | InSyncHandedBackSuccess | [Details](#3d58defb5b2334d6b039085ad024d097fb3629e0546)
  [InTuneDocs\includes\accessibility11-c_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-c_md.md) | InSyncHandedBackSuccess | [Details](#c58380143deb78c0f9405620f2ef78bffd072441550)
  [InTuneDocs\includes\accessibility11-f_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-f_md.md) | InSyncHandedBackSuccess | [Details](#6722b74ba9ab0dcb5a0fb74121f4c2c53b44a9f3556)
+ [InTuneDocs\includes\accessibility13.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13.md) | InSyncHandedBackSuccess | [Details](#d64ab436a4fd522c988668574a966d76c2ed7bb6561)
  [InTuneDocs\includes\accessibility15.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility15.md) | InSyncHandedBackSuccess | [Details](#abe200b5848d30d96b4cddf5a01b021b3ab5dac9565)
  [InTuneDocs\includes\accessibility5.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility5.md) | InSyncHandedBackSuccess | [Details](#3d53fa1d2138eec864f67b6cb757a300635bc9f5578)
  [InTuneDocs\includes\accessibility9_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility9_md.md) | InSyncHandedBackSuccess | [Details](#02114bbbfd235a8f84fb73880c8815583a1ca11e587)
+ [InTuneDocs\includes\firstref_vista_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/firstref_vista_md.md) | InSyncHandedBackSuccess | [Details](#da178e2adfef6403babbf2628c7511519b7833d6601)
  [InTuneDocs\includes\longhornshort_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/longhornshort_md.md) | InSyncHandedBackSuccess | [Details](#2504575346cece1887f998d2d76408a38af5141e605)
+ [InTuneDocs\includes\sccmshortname.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/sccmshortname.md) | InSyncHandedBackSuccess | [Details](#cad3187986387bfe5f86110f478472b563645089613)
  [InTuneDocs\includes\winblue_client_2_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/winblue_client_2_md.md) | InSyncHandedBackSuccess | [Details](#9fe8c734d18c33e1fe587ed88ac86891c9413013624)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | InSyncHandedBackSuccess | [Details](#64f06d45481657e65ee924d286623dc83a514f40659)
  [InTuneDocs\media\30-day-trial-walkthrus\30day-cfg-pol-13-enbl-ios-plat.png](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/media/30-day-trial-walkthrus/30day-cfg-pol-13-enbl-ios-plat.png) | InSyncHandedBackSuccess | [Details](#b3a60bde0102f405e115743da44fe7b71c503d07661)
@@ -1053,6 +1052,7 @@
  [InTuneDocs\media\pol-sa-pc-endpoint-policy.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/media/pol-sa-pc-endpoint-policy.png) | InSyncHandedBackSuccess | [Details](#8ed6922c36742fbe2310bdf575a99eaf3b7d36d81027)
  [InTuneDocs\Troubleshoot\troubleshoot-email-profiles-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c22ddd554928b394e14742b8ba7d583d390d1c44/InTuneDocs/Troubleshoot/troubleshoot-email-profiles-in-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#766c5d5f8e512ea1c36c73936b0ffb95977395ae1160)
  [InTuneDocs\Understand\get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1a5d9e44ae524f9f8ca3cfe9912e6dae2d1a7d49/InTuneDocs/Understand/get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md) | InSyncHandedBackSuccess | [Details](#5ae133583311963d5a3b8c55d8caf43453b3aedf1173)
+ [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1bdcfa71aab0918fba1f59bd0782fc63eef6994e/InTuneDocs/Understand/introduction-to-microsoft-intune.md) | InSyncHandedBackSuccess | [Details](#da9db0b3961cbbd53fc2b7aa7704fa31c8c787181175)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-11-start-mg-mobl-dev.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png) | InSyncHandedBackSuccess | [Details](#64f06d45481657e65ee924d286623dc83a514f401178)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-13-enbl-ios-plat.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-13-enbl-ios-plat.png) | InSyncHandedBackSuccess | [Details](#b3a60bde0102f405e115743da44fe7b71c503d071180)
  [InTuneDocs\Understand\media\30-day-trial-walkthrus\30day-cfg-pol-15-cert-name-loc.png](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/Understand/media/30-day-trial-walkthrus/30day-cfg-pol-15-cert-name-loc.png) | InSyncHandedBackSuccess | [Details](#8fa0dd136cb4c31b5bf4998d8b7b10133290810f1182)
@@ -1375,15 +1375,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='966677b7d9488d37d44f42ff8ef8bbac7a5d39146'></a> Source: [InTuneDocs\accessibility-products-and-services-from-microsoft.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/accessibility-products-and-services-from-microsoft.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\accessibility-products-and-services-from-microsoft.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/accessibility-products-and-services-from-microsoft.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\accessibility-products-and-services-from-microsoft.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/accessibility-products-and-services-from-microsoft.md)
 * Handoff File: [accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility-products-and-services-from-microsoft.85feafe7a822f7cbae6f9c8942ef2cca87fa9531.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='d575d77a5f951311dc0d94abc96767952111b1467'></a> Source: [InTuneDocs\activate-your-product-key.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/activate-your-product-key.md)
@@ -1441,15 +1441,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='7da75576bf5296da6fbf35fb3c35c5d0d45c511d10'></a> Source: [InTuneDocs\DeployUse\add-apps-for-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/024ba0e2c63a42c121bd27302e8926bddac5566b/InTuneDocs/DeployUse/add-apps-for-windows-pcs-in-microsoft-intune.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\add-apps-for-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/DeployUse/add-apps-for-windows-pcs-in-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\add-apps-for-windows-pcs-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/DeployUse/add-apps-for-windows-pcs-in-microsoft-intune.md)
 * Handoff File: [add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/add-apps-for-windows-pcs-in-microsoft-intune.84ad95a8e9b4c852e7b655dc39ed08767dc14139.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='dd3369cf59ea972f1ecc4953881ddbbede9a99c812'></a> Source: [InTuneDocs\DeployUse\android-compliance-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e736d688032dd2ddee5be9edf2a33d5e7ba5257b/InTuneDocs/DeployUse/android-compliance-policy-settings-in-microsoft-intune.md)
@@ -1507,9 +1507,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/dd3db2f91c234ceba65ee24dd553354e45bcaf34/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md)
-* Current Handback File: [azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b194bb90a173816aebbfd0b8577e3594f94aa7c5/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-16 03:25:25
+* Current Target File: [InTuneDocs\DeployUse\azure-portal-for-microsoft-intune-mam-policies.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/DeployUse/azure-portal-for-microsoft-intune-mam-policies.md)
+* Current Handback File: [azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/azure-portal-for-microsoft-intune-mam-policies.d79360cf342fc6271d499db2e776b3adc200e795.ru-ru.xlf)
+* Current Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='55f811153bf37048a4fcdfc6da301a5f181700c316'></a> Source: [InTuneDocs\DeployUse\categorize-devices-with-device-group-mapping-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/bb30b8e61a768b15e2f09993f4dceae8f4e1bd8a/InTuneDocs/DeployUse/categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
@@ -1726,15 +1726,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='46562ed3463c4a23a511eb5c7f28a0b11e84f42131'></a> Source: [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/c95a776e79cf3e1c7009d6e27f8f50482434d298/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/dd3db2f91c234ceba65ee24dd553354e45bcaf34/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\deploy-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/DeployUse/deploy-apps-in-microsoft-intune.md)
 * Handoff File: [deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b194bb90a173816aebbfd0b8577e3594f94aa7c5/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf)
-* Handback Datetime: 2016-06-16 03:25:25
+* Handback File: [deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/deploy-apps-in-microsoft-intune.0cf6e71c2179ec739da13742db6825d2ea43f5af.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='e11845f22821d9eb1017e07be40d2470259e05bf33'></a> Source: [InTuneDocs\DeployUse\docfx.json](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/DeployUse/docfx.json)
@@ -3921,15 +3921,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='8b7dac0bef8505567a9d0485fe6e952a3f6aa305201'></a> Source: [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/42e21b802fb605c98f688485c3b77703b3950e94/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/397390e20e13434aa93491a89b7720d64c19a1ca/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\mobile-device-security-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/DeployUse/mobile-device-security-policy-settings-in-microsoft-intune.md)
 * Handoff File: [mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf)
-* Handback Datetime: 2016-06-10 16:47:08
+* Handback File: [mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-security-policy-settings-in-microsoft-intune.08536070c6520d33b3c6662a4a83534f0d4def6a.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='c92b7de51de0ac0115dd53e421d4852bed8d729a202'></a> Source: [InTuneDocs\DeployUse\monitor-apps-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/monitor-apps-in-microsoft-intune.md)
@@ -4083,15 +4083,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e5a2bf543e2627839f27a4610ca27a2b40caaaf2213'></a> Source: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\prepare-android-apps-for-mobile-app-management.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/DeployUse/prepare-android-apps-for-mobile-app-management.md)
 * Handoff File: [prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/prepare-android-apps-for-mobile-app-management.ecea6bd6e16f3b9302a04d9d4dd5255d36d0fa0d.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='da3c318cb25ca2fcd080e374d5bd202b2108a616216'></a> Source: [InTuneDocs\DeployUse\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md](https://github.com/Microsoft/IntuneDocs-pr/blob/8c1f4f209c5ec704290882b8f6f71e0b1b01d21c/InTuneDocs/DeployUse/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
@@ -4800,27 +4800,27 @@
 * [Back to Top](#report-top)
 
 ##### <a name='ebc83611679f5128df45e4ca6b2f3b745f47061d267'></a> Source: [InTuneDocs\DeployUse\wipe-managed-company-app-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e/InTuneDocs/DeployUse/wipe-managed-company-app-data-with-microsoft-intune.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\wipe-managed-company-app-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/DeployUse/wipe-managed-company-app-data-with-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\wipe-managed-company-app-data-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/DeployUse/wipe-managed-company-app-data-with-microsoft-intune.md)
 * Handoff File: [wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/wipe-managed-company-app-data-with-microsoft-intune.da7678b46f0eb7ae22df1ec96d1ed134f418fc34.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='3abf566831348de11f718370d6267e3ff4355bfb271'></a> Source: [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr/blob/b7f62c5ee18d8f69fa174f09a1c46b6925c7517c/InTuneDocs/develop/intune-app-sdk.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/397390e20e13434aa93491a89b7720d64c19a1ca/InTuneDocs/develop/intune-app-sdk.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\develop\intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/develop/intune-app-sdk.md)
 * Handoff File: [intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf)
-* Handback Datetime: 2016-06-10 16:47:08
+* Handback File: [intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/intune-app-sdk.4f96971771a37a604ad6a75e8a3f74519aa0b04e.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='d2e4b6903d86b79edd9c758b2ce51733831e785a268'></a> Source: [InTuneDocs\develop\intune-app-sdk-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2915cca314b489bbcb590d01b03a0b38134fa619/InTuneDocs/develop/intune-app-sdk-android.md)
@@ -5004,15 +5004,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='620078cdd6a6d918153ab5a9813a14406c11acb4284'></a> Source: [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/0bb435b87c937ea118a0794c8332b9a8f268d36e/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-android.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-android.md)
 * Handoff File: [device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/device-doesnt-have-the-required-minimum-operating-system-version-android.8530187d7b052ec22ef3b242475cebce58b01093.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='b42d1b78961590f44100a90f99b53bef514fa6fd285'></a> Source: [InTuneDocs\EndUser\device-doesnt-have-the-required-minimum-operating-system-version-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/device-doesnt-have-the-required-minimum-operating-system-version-ios.md)
@@ -5064,15 +5064,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='aeeb607e54a207792e1cc8c16ee2ecd25a553e34289'></a> Source: [InTuneDocs\EndUser\encrypt-your-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/encrypt-your-device-windows.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\encrypt-your-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/EndUser/encrypt-your-device-windows.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\encrypt-your-device-windows.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/EndUser/encrypt-your-device-windows.md)
 * Handoff File: [encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/encrypt-your-device-windows.a1b7004e1ae6f1a27ef03f8848a658a2cbe8bce5.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='b38457634263b8fbda0c6b6e3e5d9156dd6668a8290'></a> Source: [InTuneDocs\EndUser\enroll-your-device-in-intune-all.md](https://github.com/Microsoft/IntuneDocs-pr/blob/98ba0968653ceaf13ab5422468040f8e2ce50422/InTuneDocs/EndUser/enroll-your-device-in-intune-all.md)
@@ -5136,15 +5136,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='47341626bceaa5d4ad0775c3d22d80985ce699cc295'></a> Source: [InTuneDocs\EndUser\enroll-your-rt-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-rt-windows.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\enroll-your-rt-windows.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/EndUser/enroll-your-rt-windows.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\enroll-your-rt-windows.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/EndUser/enroll-your-rt-windows.md)
 * Handoff File: [enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/enroll-your-rt-windows.82158afa192affda7990b1035eee00db2b9cd1f2.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='543f0acd6fb3691ba31e9da6fec49b3f30f67613296'></a> Source: [InTuneDocs\EndUser\enroll-your-w10-phone-or-w10-pc-windows.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f83a539e9bec5207d7c1c682942b4bb6797d616c/InTuneDocs/EndUser/enroll-your-w10-phone-or-w10-pc-windows.md)
@@ -5232,15 +5232,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='8291a96487ee84ce0214d7054236941c3cf37a6d303'></a> Source: [InTuneDocs\EndUser\how-to-encrypt-your-windows-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-to-encrypt-your-windows-device.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\how-to-encrypt-your-windows-device.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/EndUser/how-to-encrypt-your-windows-device.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\how-to-encrypt-your-windows-device.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/EndUser/how-to-encrypt-your-windows-device.md)
 * Handoff File: [how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/how-to-encrypt-your-windows-device.814dd6aedce31481d6795284d96c32a4fa24a65a.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='c089b36676feb4caa7064738d6ef4b709139ab49304'></a> Source: [InTuneDocs\EndUser\how-to-reconnect-a-compromised-android-device.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/how-to-reconnect-a-compromised-android-device.md)
@@ -6691,15 +6691,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='cf6a7a005aaf703f2dfc20b89236056dff84e137417'></a> Source: [InTuneDocs\EndUser\password-does-not-meet-it-administrator-requirements.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/password-does-not-meet-it-administrator-requirements.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\password-does-not-meet-it-administrator-requirements.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/EndUser/password-does-not-meet-it-administrator-requirements.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\password-does-not-meet-it-administrator-requirements.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/EndUser/password-does-not-meet-it-administrator-requirements.md)
 * Handoff File: [password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/password-does-not-meet-it-administrator-requirements.02c9ca97ffe1759953549b28fa49accc84c26580.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='7e5d48d35e8216bac2fae8e2f9a1ba82d3493acc418'></a> Source: [InTuneDocs\EndUser\remote-lock-your-device-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/remote-lock-your-device-cpwebsite.md)
@@ -6787,15 +6787,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='31023a2d51d4dd4cb854c1fa077f5a9910232bb4425'></a> Source: [InTuneDocs\EndUser\reset-your-passcode-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/reset-your-passcode-cpwebsite.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\EndUser\reset-your-passcode-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/c21ad2ef8008168359893d164919f5694ede30cd/InTuneDocs/EndUser/reset-your-passcode-cpwebsite.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\EndUser\reset-your-passcode-cpwebsite.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/EndUser/reset-your-passcode-cpwebsite.md)
 * Handoff File: [reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/b82162a412ad8380e0b5ee317702001bf3139a31/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf)
-* Handback Datetime: 2016-06-23 11:57:17
+* Handback File: [reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/reset-your-passcode-cpwebsite.13151d6ff82e2d5b5eba1209aa03a09587a0dcce.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='7ad4f4b726f093a14663fc5c4dbadf5603965075426'></a> Source: [InTuneDocs\EndUser\send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e52ebdd62ca68f1d9226def654961075400184a8/InTuneDocs/EndUser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)
@@ -7931,18 +7931,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='0f460165f251acf95f4af36afa39409d3eb21162517'></a> Source: [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/f33a86c51320c75ce74d20e0cac2b9581990ecec/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md)
 * Handoff File: [mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/ddcd1dfca2ff928350773300e78defd5c77bd73e/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf)
 * Handoff Datetime: 2016-06-28 10:23:56
 * Handoff Reason: Include
 * Archive File: [mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\GetStarted\mobile-device-management-capabilities-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/60c80a898726a8957c3a7771f6ac1bfbcaed4a00/InTuneDocs/GetStarted/mobile-device-management-capabilities-in-microsoft-intune.md)
-* Current Handback File: [mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/d07063292c488b14701ef2294b782072f4e201ea/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf)
-* Current Handback Datetime: 2016-06-22 20:27:38
+* Handback File: [mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/mobile-device-management-capabilities-in-microsoft-intune.a25495f5edd7d0f4c06d5073e0c4e94c5f4b99cc.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='e104dc52a8a9bdda4b2edb2939d8c7c36e8ecc12518'></a> Source: [InTuneDocs\GetStarted\network-bandwidth-use.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/GetStarted/network-bandwidth-use.md)
@@ -8312,15 +8309,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d2d2c4f3fbe181d1d8adcec1667b30b3a1b7719d557'></a> Source: [InTuneDocs\includes\accessibility11.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility11.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/includes/accessibility11.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\accessibility11.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/includes/accessibility11.md)
 * Handoff File: [accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11.cc9eea260918618ce6b50c8a3677dc6a5bb26a72.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='b6835d4d9c12000dbf0c7cff2f1468832aeca9ad558'></a> Source: [InTuneDocs\includes\accessibility11_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11_md.md)
@@ -8336,27 +8333,27 @@
 * [Back to Top](#report-top)
 
 ##### <a name='18bb09579287c7c558485362790a89212fdead13545'></a> Source: [InTuneDocs\includes\accessibility11-a.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-a.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility11-a.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/includes/accessibility11-a.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\accessibility11-a.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/includes/accessibility11-a.md)
 * Handoff File: [accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11-a.a97a53f42a651378ee87f80ca8acbc181af0a468.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='3d58defb5b2334d6b039085ad024d097fb3629e0546'></a> Source: [InTuneDocs\includes\accessibility11-a_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-a_md.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility11-a_md.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/includes/accessibility11-a_md.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\accessibility11-a_md.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/includes/accessibility11-a_md.md)
 * Handoff File: [accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility11-a_md.51e4b66a0cdb4a38e2eec80de1a9fe86de58af99.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='ceba79bcc1d750e82a97db2ecd4e267b7005430d547'></a> Source: [InTuneDocs\includes\accessibility11-b.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility11-b.md)
@@ -8504,15 +8501,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d64ab436a4fd522c988668574a966d76c2ed7bb6561'></a> Source: [InTuneDocs\includes\accessibility13.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\accessibility13.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/includes/accessibility13.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\accessibility13.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/includes/accessibility13.md)
 * Handoff File: [accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/accessibility13.e919c7473701c1d843afbe2776a58619c80c973e.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='dc9a83c3b47b21b3a38bfa737ad97aa992eb11a6562'></a> Source: [InTuneDocs\includes\accessibility13_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/accessibility13_md.md)
@@ -8972,15 +8969,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='da178e2adfef6403babbf2628c7511519b7833d6601'></a> Source: [InTuneDocs\includes\firstref_vista_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/firstref_vista_md.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\firstref_vista_md.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/includes/firstref_vista_md.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\firstref_vista_md.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/includes/firstref_vista_md.md)
 * Handoff File: [firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/firstref_vista_md.f348a490233cba683925200bb4235aee1d30137c.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='de6b0a502492984a20cb9f16abbdea1d7c34dc60602'></a> Source: [InTuneDocs\includes\group-deprecation.md](https://github.com/Microsoft/IntuneDocs-pr/blob/5ec8e8d42232efdac7e8c36e00341bb07c66c0e5/InTuneDocs/includes/group-deprecation.md)
@@ -9119,15 +9116,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='cad3187986387bfe5f86110f478472b563645089613'></a> Source: [InTuneDocs\includes\sccmshortname.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/sccmshortname.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\includes\sccmshortname.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/includes/sccmshortname.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\includes\sccmshortname.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/includes/sccmshortname.md)
 * Handoff File: [sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/sccmshortname.e2c299d134eed8e2fd1631c4bdf1855f8db3513b.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='20a783276163d706389339c9aac1f842a67b9530614'></a> Source: [InTuneDocs\includes\sccmshortname_md.md](https://github.com/Microsoft/IntuneDocs-pr/blob/56ab8c21f7da490c3bf0d541c7026e2ed84926dd/InTuneDocs/includes/sccmshortname_md.md)
@@ -16270,15 +16267,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='da9db0b3961cbbd53fc2b7aa7704fa31c8c787181175'></a> Source: [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/1bdcfa71aab0918fba1f59bd0782fc63eef6994e/InTuneDocs/Understand/introduction-to-microsoft-intune.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/9ead3d0b9e70bd1346a7120b49ef87f195062c61/InTuneDocs/Understand/introduction-to-microsoft-intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\Understand\introduction-to-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/8957079e9e04abc8c3c73aae95396c81aaa7d7f4/InTuneDocs/Understand/introduction-to-microsoft-intune.md)
 * Handoff File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/f4c32fc150209d21ec07cf93cfcc58796d1dd904/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
-* Handback Datetime: 2016-06-01 01:38:58
+* Handback File: [introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6b3120a5748d897fcccd46a2031a700d609bc4c0/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/introduction-to-microsoft-intune.207766a0a8a320d45af71c3792d9a6fc6a4bfab7.ru-ru.xlf)
+* Handback Datetime: 2016-07-02 12:48:11
 * [Back to Top](#report-top)
 
 ##### <a name='cb4dc36f532900884078fa6e088ec751301360801176'></a> Source: [InTuneDocs\Understand\jaygpn0s.dr4.json](https://github.com/Microsoft/IntuneDocs-pr/blob/5aa7c22cfcc25a19ba3649840b267261d0f4ffd8/InTuneDocs/Understand/jaygpn0s.dr4.json)
