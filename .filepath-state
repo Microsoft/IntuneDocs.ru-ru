@@ -44,6 +44,9 @@
   "bdf7dfda3814ad6c6c00f5c133027175a95fb5e2": [
     "InTuneDocs\\DeployUse\\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md"
   ],
+  "86e685fa356be9c5cd6574fb40ab07625e6b5861": [
+    "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "f1b9216c673039f8600e07508b255e12cc30bf3f": [
     "InTuneDocs\\DeployUse\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -208,6 +211,9 @@
   ],
   "bdc2ba21ddeaedcbb0cf847f2491be118c275057": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
+  ],
+  "be8018b22afc73488c59a83b5b0f8a1004fa9b7d": [
+    "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
   ],
   "48359b44bec9ac3e1c9510debc01d2cf8abf6d2b": [
     "InTuneDocs\\DeployUse\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
@@ -907,6 +913,9 @@
   "5b746cee0806fb44b1fd847efb9791d525673133": [
     "InTuneDocs\\Understand\\set-up-email-access-for-ios-devices-using-microsoft-intune.md"
   ],
+  "5d3a1a32519507385af9b9e20a7669da0005161c": [
+    "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
+  ],
   "a1fca14c1638524585401e77cfbb306381b6dda3": [
     "InTuneDocs\\DeployUse\\set-up-windows-device-management-with-microsoft-intune.md"
   ],
@@ -1480,6 +1489,9 @@
   "02f9b7c7abe2daf942299015bfdfb052755ec2de": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
   ],
+  "c6ffec0c595d1b4fe4611e0f01baa43f9ecceb23": [
+    "InTuneDocs\\DeployUse\\set-up-windows-phone-management-with-microsoft-intune.md"
+  ],
   "e67a5be851b68d87a4cdda871824cf0ecb14579e": [
     "InTuneDocs\\DeployUse\\set-up-windows-phone-management-with-microsoft-intune.md"
   ],
@@ -1591,6 +1603,9 @@
   "bac9420657d6e709a3f3e93d0fc386b9870cb135": [
     "InTuneDocs\\media\\IntuneSA5bExchangeOnPremPolicy.png"
   ],
+  "12ded763527798a3d606fc7a9eb4675f0c831910": [
+    "InTuneDocs\\DeployUse\\protect-apps-and-data-with-microsoft-intune.md"
+  ],
   "9445b4b171eb2102d73cf0e866e85b535274eee2": [
     "InTuneDocs\\DeployUse\\protect-apps-and-data-with-microsoft-intune.md"
   ],
@@ -1624,8 +1639,14 @@
   "ca5f705bb4ef6d8a86a11696808bad7e0806ce75": [
     "InTuneDocs\\DeployUse\\restrict-access-to-exchange-online-with-microsoft-intune.md"
   ],
+  "7d27f131b07ccc8d2904b10c51e0b8936cc34f59": [
+    "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
+  ],
   "519bde55966d88f516553d509af60e34a6af62a9": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
+  ],
+  "36a814c250b70d8743b4209b87f7e78dfaa45391": [
+    "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
   "da4020eb71432f9bccb52909272d027da64ee47c": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
@@ -1850,11 +1871,17 @@
   "f226ea2a7be64ef759f61c61903bb0dc964c1410": [
     "InTuneDocs\\DeployUse\\how-your-windows-users-get-their-apps.md"
   ],
+  "a58b882034bf63ad78b91ff7a02e9cb3327641ac": [
+    "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
+  ],
   "cd763f9fa0b08cc7b822eccbd043a5b9cd355d0f": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
   ],
   "c0016056e2176290d75e91c1cab827ce2e6b340c": [
     "InTuneDocs\\DeployUse\\ios-device-enrollment-program-in-microsoft-intune.md"
+  ],
+  "46b9a6a57ed06ee8a4ec63a84a239e13c21a8932": [
+    "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
   ],
   "b9cb10ccb26d4f61d63fb2dc6c18be48cc0a3182": [
     "InTuneDocs\\DeployUse\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
@@ -1922,6 +1949,9 @@
   "7da75576bf5296da6fbf35fb3c35c5d0d45c511d": [
     "InTuneDocs\\DeployUse\\add-apps-for-windows-pcs-in-microsoft-intune.md"
   ],
+  "413dfb313b0f0f468896920ea2b94cd997558f93": [
+    "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "161351164d9e99abb867aa34721ef4f992fb14fa": [
     "InTuneDocs\\DeployUse\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -1939,6 +1969,9 @@
   ],
   "19064a8aaede330ac742af6e3a735598ac868733": [
     "InTuneDocs\\media\\em-vision.png"
+  ],
+  "9cec67db4c243fbe6025860bee8e6270daf408ef": [
+    "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
   ],
   "8fea0f7f87972bc643bbb20348095e05f701287e": [
     "InTuneDocs\\DeployUse\\ios-direct-enrollment-in-microsoft-intune.md"
@@ -2515,6 +2548,9 @@
   ],
   "de8d822c9df7aa0235a998a64b412afd6fc48bd5": [
     "InTuneDocs\\DeployUse\\subscription-might-include-downloadable-software.md"
+  ],
+  "de6b0a502492984a20cb9f16abbdea1d7c34dc60": [
+    "InTuneDocs\\includes\\group-deprecation.md"
   ],
   "ded69399e398e759be574e067d2c62b143ecb405": [
     "InTuneDocs\\includes\\group-deprecation.md"
