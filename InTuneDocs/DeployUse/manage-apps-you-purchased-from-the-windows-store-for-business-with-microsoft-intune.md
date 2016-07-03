@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Управление приложениями, приобретенными в Магазине Windows для бизнеса| Microsoft Intune
-description:
-keywords:
+title: "Управление приложениями, приобретенными в Магазине Windows для бизнеса| Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
+ms.openlocfilehash: b6e2f0ec13caa9616b72a2fa225e77fe43a4755c
+
 
 ---
 
@@ -82,6 +76,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

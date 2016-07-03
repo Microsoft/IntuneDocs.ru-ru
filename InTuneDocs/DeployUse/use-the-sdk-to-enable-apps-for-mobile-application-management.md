@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Подготовка приложений для управления мобильными приложениями с помощью пакета SDK | Microsoft Intune
-description:
-keywords:
+title: "Подготовка приложений для управления мобильными приложениями с помощью пакета SDK | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 26b00081-7c05-4969-ace1-0585e44d5cd2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 6d435c2c9773040d6870aea274d3879c00461457
+ms.openlocfilehash: 2bb9ac819b63ea47ebc890d23cf83ee127c8e994
+
 
 ---
 
@@ -45,6 +39,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
