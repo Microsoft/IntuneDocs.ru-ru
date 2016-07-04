@@ -1,5 +1,5 @@
 портал компании Microsoft Intune
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO4-->
 
 
