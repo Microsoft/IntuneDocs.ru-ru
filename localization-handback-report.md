@@ -18,7 +18,7 @@
 * Archive File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
 * Handback File: [index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/e7443718f3cbb6999ba1729fe09522038fc7c9b7/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/index.404579aeff405d27d9820f60e5e015fb7352d33a.ru-ru.xlf)
-* Handback Datetime: 2016-07-04 15:34:40
+* Handback Datetime: 2016-07-04 17:31:48
 * Handback Error: [handback_transform_failed](#b6e3e5189a1567dd5b13017d275ff4bd548e5fa1654handback_transform_failed)
 * [Back to Top](#report-top)
 
