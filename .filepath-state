@@ -1201,6 +1201,9 @@
   "e468ff102b45bf0c23fd76d8d15c44978861ae8a": [
     "InTuneDocs\\DeployUse\\edition-upgrade-policy-settings-in-microsoft-intune.md"
   ],
+  "afe108940173ad5fc445c411cd5110a35d768632": [
+    "InTuneDocs\\DeployUse\\secure-resource-access-with-certificate-profiles.md"
+  ],
   "1d2e6676714daba76a9b54553b4ad1af23a0f880": [
     "InTuneDocs\\DeployUse\\secure-resource-access-with-certificate-profiles.md"
   ],
@@ -1413,6 +1416,9 @@
   ],
   "52a77e50b3dde24ba270766d4472bdd6176cc415": [
     "InTuneDocs\\DeployUse\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
+  ],
+  "0fb99a1f920b8d9f9142bac5c20681ee80dbbdb8": [
+    "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
   ],
   "930cbc806d8fd1185cf33fd64d866b88ec9a6a04": [
     "InTuneDocs\\DeployUse\\enroll-devices-in-microsoft-intune.md"
@@ -2309,6 +2315,9 @@
   "0f460165f251acf95f4af36afa39409d3eb21162": [
     "InTuneDocs\\GetStarted\\mobile-device-management-capabilities-in-microsoft-intune.md"
   ],
+  "502a08c1bf49057220917d929a8ffe0b98d3de2a": [
+    "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
+  ],
   "c9b34408e4af34dafc700d016304a6d29c2e8585": [
     "InTuneDocs\\GetStarted\\choose-how-to-manage-devices.md"
   ],
@@ -2536,6 +2545,9 @@
   ],
   "a6a8d2c7c3239985e54745b56857ff7c66dc33eb": [
     "InTuneDocs\\media\\mdm-ca-spo-policy-configuration.png"
+  ],
+  "e983f4045d7e5e075edf1ccb10950b28b4acab8b": [
+    "InTuneDocs\\DeployUse\\restrict-access-to-networks.md"
   ],
   "78945498a951e7b897164ae6f33c4e87d521ca5b": [
     "InTuneDocs\\DeployUse\\restrict-access-to-networks.md"
