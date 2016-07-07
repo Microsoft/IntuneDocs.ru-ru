@@ -784,6 +784,9 @@
   "ed14e92d48a2604d16ceee8b844ae5cc0c45f051": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-company-resource-access-problems-with-microsoft-intune.md"
   ],
+  "26e5b128abcc508fab0c7c9c7c437a89037abb55": [
+    "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
+  ],
   "62668c607bc3064cf8148fd7929b3c1268b721d7": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-device-enrollment-in-intune.md"
   ],
@@ -1748,6 +1751,9 @@
   "893e896fc52e6e883fcd151db2c47030113502a2": [
     "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
+  "e345cbfc295add0e0e7896c70a817e02c1bf3444": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "65e53ad6a74fbf0e9249c367f517ab52ea0efa80": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -2180,6 +2186,9 @@
   "01efa92152d330256b0fa6e6df8f43a66437a893": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-9-comp-access-setup-complete.PNG"
   ],
+  "35c29b94c0be0fd32b63de9bee827c058321098c": [
+    "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
+  ],
   "6e887d226228d073dc136b50ba9320ada996a6cd": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ],
@@ -2596,5 +2605,11 @@
   ],
   "373b9bf9794840f999d5e5b21fc411ff621a23e1": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-conditional-access.md"
+  ],
+  "2164bb46ad0e2f3a824d418ccfca9cbb6156ec81": [
+    "InTuneDocs\\EndUser\\media\\andr-missg-cert-ie-view-cert-button.png"
+  ],
+  "b82ebfaf8537f9cd100aab7bf31aae6bfeadf357": [
+    "InTuneDocs\\EndUser\\media\\andr-missing-cert-ie-padlock-symbol.png"
   ]
 }
