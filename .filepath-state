@@ -2186,6 +2186,9 @@
   "01efa92152d330256b0fa6e6df8f43a66437a893": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-9-comp-access-setup-complete.PNG"
   ],
+  "f0e28bf7bdd19f94df2db3e3c5fee6825cfb805c": [
+    "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
+  ],
   "35c29b94c0be0fd32b63de9bee827c058321098c": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ],
@@ -2611,5 +2614,8 @@
   ],
   "b82ebfaf8537f9cd100aab7bf31aae6bfeadf357": [
     "InTuneDocs\\EndUser\\media\\andr-missing-cert-ie-padlock-symbol.png"
+  ],
+  "71c151fbd51f43e1b31e42bb5b36f1d9b29761a9": [
+    "InTuneDocs\\EndUser\\media\\andr-missing-cert-cert-name.png"
   ]
 }
