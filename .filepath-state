@@ -80,6 +80,9 @@
   "b1b1cc90672903ac0336151373272b5e20e56165": [
     "InTuneDocs\\DeployUse\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
   ],
+  "02fb630881ed077929f3e23fcf857e66e7ee19b2": [
+    "InTuneDocs\\DeployUse\\install-the-windows-pc-client-with-microsoft-intune.md"
+  ],
   "723bef398338946e085e9d04d57a85b433ebc1c8": [
     "InTuneDocs\\DeployUse\\install-the-windows-pc-client-with-microsoft-intune.md"
   ],
@@ -109,6 +112,9 @@
   ],
   "4ce694110ff38207d9112bd468691173b91837ff": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
+  "d22714f7b6eda1632892785568463fc5bafce8d0": [
+    "InTuneDocs\\DeployUse\\manage-windows-pcs-with-microsoft-intune.md"
   ],
   "92f4ddde3336fd4cf07c701596f5ebe4c0aeb49f": [
     "InTuneDocs\\DeployUse\\manage-windows-pcs-with-microsoft-intune.md"
@@ -172,6 +178,9 @@
   ],
   "af4b87eb8082ee5ff11cd2d42b788ad17b334bcb": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
+  "90a99dd1973ff36dfb5a06923041fe75975c59d7": [
+    "InTuneDocs\\DeployUse\\TOC.md"
   ],
   "1902d73650f11197bb9b3bd205f5b61179b4cf5b": [
     "InTuneDocs\\DeployUse\\TOC.md"
@@ -424,9 +433,6 @@
   ],
   "506d830e0cbc622ea3c0637656d5c60c9a6b38f8": [
     "InTuneDocs\\includes\\cmshort_md.md"
-  ],
-  "684e5f2e2abf80fc14b08811f816dfc434f22fdf": [
-    "InTuneDocs\\includes\\CPEnrollmentTermsAndConditions.md"
   ],
   "3912b65a31e52de663cbbf07329e7c92b88f604a": [
     "InTuneDocs\\includes\\CPEnrollmentTermsAndConditions_md.md"
@@ -1390,6 +1396,9 @@
   "e2f5849a63dceabb42b910b50f0257bc823a251a": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md"
   ],
+  "eff306dba46d8f24d911b14bd3309529e2d7b6f6": [
+    "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
+  ],
   "a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4": [
     "InTuneDocs\\EndUser\\what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md"
   ],
@@ -1621,6 +1630,9 @@
   "519bde55966d88f516553d509af60e34a6af62a9": [
     "InTuneDocs\\DeployUse\\azure-portal-for-microsoft-intune-mam-policies.md"
   ],
+  "01b4e7649f92275ca4c039320cac9b603cb147cf": [
+    "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
   "36a814c250b70d8743b4209b87f7e78dfaa45391": [
     "InTuneDocs\\DeployUse\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
   ],
@@ -1751,6 +1763,9 @@
   "893e896fc52e6e883fcd151db2c47030113502a2": [
     "InTuneDocs\\DeployUse\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
   ],
+  "6f687d5b38d94f118b6432ff0d153f5b03911ee5": [
+    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
   "e345cbfc295add0e0e7896c70a817e02c1bf3444": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
   ],
@@ -1774,6 +1789,9 @@
   ],
   "7ba8e046cfcb9ff988fdaaaaa8a87a78c27a8669": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "9f72b151d0f37247335b2135595c9c39ca8b9350": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "77d2e74dcb032ff52808998c56de7d6b8847ebbe": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -1819,6 +1837,9 @@
   ],
   "2b98d65188572566b1d14b4413dacb6f3e915cea": [
     "InTuneDocs\\media\\30-day-trial-walkthrus\\30day-start-trial-5-ReadyToGo.png"
+  ],
+  "3b39e0de265928ab0d68ecca1d62f46300687a9b": [
+    "InTuneDocs\\DeployUse\\how-your-android-users-get-their-apps.md"
   ],
   "24b746a8d2677d9f85f74c1714fe9c08d489727a": [
     "InTuneDocs\\DeployUse\\how-your-android-users-get-their-apps.md"
@@ -2185,6 +2206,9 @@
   ],
   "01efa92152d330256b0fa6e6df8f43a66437a893": [
     "InTuneDocs\\EndUser\\media\\ios-enroll-9-comp-access-setup-complete.PNG"
+  ],
+  "2c46ca9a0679344fd91d49052577c596b7df4369": [
+    "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
   ],
   "f0e28bf7bdd19f94df2db3e3c5fee6825cfb805c": [
     "InTuneDocs\\EndUser\\your-device-is-missing-a-required-certificate-android.md"
