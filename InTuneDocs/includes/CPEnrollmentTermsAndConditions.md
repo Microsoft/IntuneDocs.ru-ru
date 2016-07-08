@@ -1,5 +1,0 @@
-<Token xmlns:xlink="http://www.w3.org/1999/xlink"><maml:para address="BKMK_TAC" xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5"> <maml:embeddedLabel>Настройка условий</maml:embeddedLabel> <maml:br/>Вы можете опубликовать условия, которые пользователи увидят при первом использовании корпоративного портала на любом устройстве независимо от того, является ли оно зарегистрированным. Чтобы получить доступ к порталу, пользователям потребуется принять эти условия.  Если изменения значительны и вы хотите, чтобы пользователи просмотрели и приняли их, можно отметить новые условия как новую версию, чтобы пользователи прошли тот же процесс при следующем посещении портала.  </maml:para><maml:para xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">В <maml:externalLink><maml:linkText>консоль администрирования Microsoft Intune</maml:linkText><maml:linkUri>http://manage.microsoft.com</maml:linkUri></maml:externalLink> щелкните <maml:embeddedLabel>Портал организации</maml:embeddedLabel> &gt; <maml:embeddedLabel>Условия</maml:embeddedLabel>.</maml:para></Token>
-
-<!--HONumber=May16_HO2-->
-
-
