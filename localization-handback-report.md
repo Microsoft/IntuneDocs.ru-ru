@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [InTuneDocs\DeployUse\Release-notes-for-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/Release-notes-for-Microsoft-Intune.md) | InSyncHandedBackSuccess | [Details](#1906f14568484ebbf23ac7c4350964fb2d5d508f223)
 
 ## Item Details
+##### <a name='1906f14568484ebbf23ac7c4350964fb2d5d508f223'></a> Source: [InTuneDocs\DeployUse\Release-notes-for-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/779127bfd39145010f0d9b6609286aaf4dedfdc8/InTuneDocs/DeployUse/Release-notes-for-Microsoft-Intune.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [InTuneDocs\DeployUse\Release-notes-for-Microsoft-Intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/90dc665ef352d6bf92f147d2973e0d18ad97c45d/InTuneDocs/DeployUse/Release-notes-for-Microsoft-Intune.md)
+* Handoff File: [Release-notes-for-Microsoft-Intune.163d73f6943e601094cfb36b22c9dbda42277f9f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/Release-notes-for-Microsoft-Intune.163d73f6943e601094cfb36b22c9dbda42277f9f.ru-ru.xlf)
+* Handoff Datetime: 2016-06-27 11:49:34
+* Handoff Reason: Include
+* Archive File: [Release-notes-for-Microsoft-Intune.163d73f6943e601094cfb36b22c9dbda42277f9f.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/Release-notes-for-Microsoft-Intune.163d73f6943e601094cfb36b22c9dbda42277f9f.ru-ru.xlf)
+* Archive Datetime: 2016-07-02 01:38:39
+* Handback File: [Release-notes-for-Microsoft-Intune.163d73f6943e601094cfb36b22c9dbda42277f9f.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/a4ce2d01bd1c5b11162ddcc05163133baa57d8f6/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/Release-notes-for-Microsoft-Intune.163d73f6943e601094cfb36b22c9dbda42277f9f.ru-ru.xlf)
+* Handback Datetime: 2016-07-11 23:15:56
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
