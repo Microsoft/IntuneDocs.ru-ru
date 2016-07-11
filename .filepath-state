@@ -1498,6 +1498,9 @@
   "47e4533b6f97ff711c2efbeb6102f497af615871": [
     "InTuneDocs\\DeployUse\\wipe-for-exchange-managed-mobile-devices.md"
   ],
+  "5b32b90775670df902f4286b85f5af653029adb6": [
+    "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
   "86d3b7894eca70454fa82393c4d06eab5a99246f": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
   ],
@@ -2215,9 +2218,6 @@
   ],
   "f1dd166b7b1278003ac8785b8be07c29396dfe8c": [
     "InTuneDocs\\DeployUse\\get-notified-by-alerts.md"
-  ],
-  "ae524a989e236e84a6ce9d8266fc648dd683a825": [
-    "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.experimental.md"
   ],
   "4fc08fcea6cea897b9ddc3d0c00f2d83069f639d": [
     "InTuneDocs\\Troubleshoot\\collect-device-logs.md"
