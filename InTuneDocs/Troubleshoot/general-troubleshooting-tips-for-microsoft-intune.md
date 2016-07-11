@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Общие советы по устранению неполадок | Microsoft Intune
-description:
-keywords:
+title: "Общие советы по устранению неполадок | Microsoft Intune"
+description: 
+keywords: 
 author: nbigman
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: c86a4e4a-6b9f-4835-a3d3-61a3f5f4c1ec
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
+ms.openlocfilehash: 6b2d1d5eecb543e45fca5fbb8aa1854c88ec4f9c
+
 
 ---
 
@@ -46,7 +40,7 @@ ms.suite: ems
 
 -   Испытывает ли пользователь проблемы с проверкой подлинности? Если это возможно, проверьте, может ли пользователь войти в другие службы, использующие Azure Active Directory. Кроме того, проверьте, может ли пользователь выполнить вход с другого устройства.
 
--   Проверили ли вы состояние службы? Вы сможете отслеживать работоспособность службы Intune на [портале управления Office 365](https://portal.office.com/Admin/Default.aspx). Выберите **Работоспособность службы** в области слева. 
+-   Проверили ли вы состояние службы? Вы сможете отслеживать работоспособность службы Intune на [портале управления Office 365](https://portal.office.com/Admin/Default.aspx). Выберите **Работоспособность службы** в области слева.
 
 ## Сбор доступных данных
 
@@ -54,9 +48,9 @@ ms.suite: ems
   - [Отправка журналов диагностических данных Android ИТ-администратору по USB-кабелю](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
   - [Отправка журналов диагностических данных Android ИТ-администратору по электронной почте](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
   - [Отправка ошибок регистрации Android ИТ-администратору](/intune/enduser/send-enrollment-errors-to-your-it-administrator-android)
-  - [Отправка ошибок регистрации iOS ИТ-администратору](/intune/enduser/send-errors-to-your-it-admin-ios.md)
+  - [Отправка ошибок регистрации iOS ИТ-администратору](/intune/enduser/send-errors-to-your-it-admin-ios)
 
--   Данные из консоли администрирования. Например, для проблем с реализацией политик следует изучить применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/indune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
+-   Данные из консоли администрирования. Например, для проблем с реализацией политик следует изучить применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
 
 ## Поиск решения
 
@@ -97,6 +91,7 @@ ms.suite: ems
 [Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune](troubleshoot-software-updates-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jul16_HO1-->
 
 

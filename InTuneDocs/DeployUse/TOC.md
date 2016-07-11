@@ -47,6 +47,7 @@
 #### [VPN-подключения в Intune](vpn-connections-in-microsoft-intune.md)
 #### [Профили электронной почты в Intune](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)
 ### [Использование групп для управления пользователями и устройствами](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
+### [Сопоставление устройств с группами](categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
 ### [Получение сведений об устройствах с помощью инвентаризации](understand-your-devices-with-inventory-in-microsoft-intune.md)
 ### [Общие задачи управления ПК](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 
@@ -86,14 +87,19 @@
 #### [Для Windows и Windows Phone](windows-compliance-policy-settings-in-microsoft-intune.md)
 #### [Развертывание политики соответствия устройства](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
 
-### [Ограничение доступа к электронной почте и службам Office 365](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+### [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+
+
 #### [Exchange Online и новая выделенная среда Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
 #### [Локальная среда Exchange Online и прежняя выделенная среда Exchange Online](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
 #### [SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 #### [Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+#### [Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 #### [Ограничение доступа к электронной почте: примеры](restrict-email-access-example-scenarios.md)
 
-### [Защита данных приложения](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
+### [Ограничение доступа к сетям (Cisco ISE)](restrict-access-to-networks.md)
+
+### [Защита данных приложения с помощью MAM](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Портал Azure для политик управления мобильными приложениями](azure-portal-for-microsoft-intune-mam-policies.md)
 #### [Подготовка к настройке политик MAM](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Создание и развертывание политик MAM](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
@@ -102,6 +108,7 @@
 #### [Мониторинг соответствия политик](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Управление передачей данных между приложениями iOS](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 #### [Взаимодействие с пользователем](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
+#### [Консоль администрирования Intune для политик MAM](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
 
 ### [Подготовка бизнес-приложений для MAM](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
 #### [Оболочка для приложений iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)
@@ -123,9 +130,9 @@
 
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
 
-# [Устранение неполадок](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
+# [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO5-->
 
 

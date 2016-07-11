@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Настройка управления для Windows Phone 8.0 | Microsoft Intune
-description:
-keywords:
+title: "Настройка управления для Windows Phone 8.0 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 06/09/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: eed5855f3e27460146703ddf40fd935229a974e5
+ms.openlocfilehash: 02f9b7c7abe2daf942299015bfdfb052755ec2de
+
 
 ---
 
@@ -29,7 +23,8 @@ ms.suite: ems
 
 В Windows Phone 8.0 для установки приложения корпоративного портала Intune и разрешения управления устройствами необходим сертификат Symantec. Кроме того, сертификат требуется для подписи бизнес-приложений. Следующий раздел предназначен только для Windows Phone 8.0. Для управления Windows Phone 8.1 или более поздней версии, в том числе Windows 10 Mobile, обратитесь к разделу [Настройка регистрации Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md).
 
-> [!IMPORTANT] Начиная с сентября 2016 года приложение "Корпоративный портал" для Windows 8.0 и Windows Phone 8.0 будет недоступно для скачивания.
+> [!IMPORTANT]
+> Начиная с сентября 2016 года приложение "Корпоративный портал" для Windows 8.0 и Windows Phone 8.0 будет недоступно для скачивания.
 
 -   **Windows Phone 8** — требуется сертификат
 -   **Windows Phone 8.1 и Windows 10 Mobile** нуждаются в сертификате только в следующих ситуациях:
@@ -41,7 +36,8 @@ ms.suite: ems
 
 ![Схема требований к сертификатам](../media/wpcertreqs.png)
 
-  > [!IMPORTANT] Сертификат Symantec, используемый для управления определенными мобильными устройствами Windows и Windows Phone, [должен периодически обновляться](renew-a-symantec-code-signing-certificate.md).
+  > [!IMPORTANT]
+  > Сертификат Symantec, используемый для управления определенными мобильными устройствами Windows и Windows Phone, [должен периодически обновляться](renew-a-symantec-code-signing-certificate.md).
 
 Требования к установке для управления мобильными устройствами Windows Phone зависят от способа управления устройствами.  Настройка двух записей CNAME в регистрации DNS упрощает использование соглашения о регистрации. Если пользователи скачают приложение портала компании из Магазина, то после настройки параметров DNS вам потребуется только настроить портал компании и уведомить пользователей о способе регистрации.  Для Windows Phone 8.0 или Windows Phone 8.1, где будет развернут корпоративный портал, потребуется сертификат Symantec для подписания кода приложения.
 
@@ -186,6 +182,7 @@ ms.suite: ems
     > -   Если загруженные неопубликованные приложения необходимо установить и требуется регистрация устройств Windows Phone 8.0 и получение файла ssp.xap, создайте новое развертывание программного обеспечения для файла ssp.xap и разверните его с помощью действия **удалить** . Устройства Windows Phone 8.0 не поддерживают принудительную установку или удаление приложений, поэтому развертывание будет пропущено. Устройства Windows Phone 8.1 поддерживают действие удаления, и файл ssp.xap будет удален.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Использование устройства Android в Intune | Microsoft Intune
-description:
-keywords:
+title: "Использование устройства Android в Intune | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 06/14/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 24573d04c319e359b810b6fdf607b44db19306e9
+ms.openlocfilehash: 4622897f5e32514ad80b5000732cf6835224160a
+
 
 ---
 
@@ -52,6 +46,7 @@ ms.suite: ems
 - [Отмена регистрации устройства при отказе от условий использования](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
 - [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
 - [Что происходит при сбросе вашего устройства Android с помощью приложения корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
+<!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
 
 ## Устранение проблем с устройством
 
@@ -65,10 +60,16 @@ ms.suite: ems
 - [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply-with-maximum-operating-system-version-android.md)
 - [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
 - [Устройство не имеет необходимого сертификата](your-device-is-missing-a-required-certificate-android.md)
+- [Вам предложено отключить неизвестные источники.](you-are-asked-to-turn-off-unknown-sources-android.md)
+- [Вам предложено отключить режим отладки по USB.](you-are-asked-to-turn-off-usb-debugging-android.md)
+- [Вам предложено включить проверку устройств на предмет угроз безопасности.](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
+- [На устройстве отсутствует минимальная версия исправления безопасности.](your-device-does-not-meet-the-minimum-security-patch-android.md)
 
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+
+<!--HONumber=Jun16_HO5-->
 
 

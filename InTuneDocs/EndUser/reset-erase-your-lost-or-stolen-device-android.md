@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Сброс (очистка) потерянного или украденного устройства | Microsoft Intune
-description:
-keywords:
+title: "Сброс (очистка) потерянного или украденного устройства | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8bb47a5c-f66d-491b-b909-e6a8844f773a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
+ms.openlocfilehash: 63799f8242db4618ea7b71af9608e30b98a8a27a
+
 
 ---
 
@@ -32,7 +26,8 @@ ms.suite: ems
 
 Дополнительные сведения о том, что происходит при сбросе устройства, см. в статье [Что происходит при сбросе вашего устройства с помощью корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 
-> [!WARNING] Сброс устройства к заводским настройкам по умолчанию приводит к удалению с устройства как личных, так и рабочих или учебных данных.
+> [!WARNING] 
+> Сброс устройства к заводским настройкам по умолчанию приводит к удалению с устройства как личных, так и рабочих или учебных данных.
 
 1.  Откройте [веб-сайт корпоративного портала](http://portal.manage.microsoft.com) в браузере и войдите в рабочую или учебную учетную запись.
 
@@ -47,6 +42,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

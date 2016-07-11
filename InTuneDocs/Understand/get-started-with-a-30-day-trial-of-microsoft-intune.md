@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Руководство по оценке Intune | Microsoft Intune
-description:
-keywords:
+title: "Руководство по оценке Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 4af13629986e7cef814104f3d1f298eb2be240ac
+ms.openlocfilehash: 26ecc3dfe8816da9f30829901d929af53b1bedc0
+
 
 ---
 
@@ -30,7 +23,7 @@ ms.suite: ems
 
 В этом разделе вы научитесь основам запуска ознакомительной версии Intune и получите общие сведения о службе, чтобы оценить функции и возможности Intune.
 
-Посмотрите пятиминутное демонстрационное видео, чтобы узнать, как легко начать работу с бесплатной ознакомительной версией Microsoft Intune и управлять устройствами.
+Посмотрите следующее пятиминутное демонстрационное видео, чтобы узнать, как легко начать работу с бесплатной ознакомительной версией Microsoft Intune и управлять устройствами. В первой части видео упоминается портал, который был удален. Однако несмотря на то, что будет использоваться другой портал, действия будут одинаковыми. Подробнее об этом портале можно прочитать [здесь](https://docs.microsoft.com/intune/deploy-use/account-portal-merged-with-Office-365).
 
 <iframe width="675" height="480" src="https://www.youtube.com/embed/ltcZvm4VOFU" frameborder="0" allowfullscreen></iframe>
 
@@ -47,9 +40,9 @@ ms.suite: ems
 
     |Платформа|Требования к сертификатам|Дополнительные сведения|
     |------------|----------------------------|--------------------|
-    |Windows Phone 8.1 и Windows Phone 8 |Пользователи Windows Phone 8.1, устанавливающие приложение корпоративного портала из Магазина, не нуждаются в сертификате. Сертификат Symantec необходим для Windows Phone 8.0 или при использовании Intune для развертывания приложения корпоративного портала на устройствах Windows Phone 8.1.|В этом руководстве предполагается, что пользователи получают приложение корпоративного портала в Магазине Windows Phone 8.1 или на более поздней версии устройства. Сведения о поддержке Windows Phone 8.0 см. в разделе [Настройка управления Windows Phone с помощью Microsoft Intune](/Intune/DeployUse/set-up-windows-phone-management-with-microsoft-intune).|
-    |Устройства с Windows 10, Windows RT 8.1, Windows RT или Windows 8.1|Требования к сертификатам для регистрации устройств Windows RT и Windows отсутствуют.|Установка клиента на компьютере Windows с помощью Microsoft Intune|
-    |iOS 7.1 или более поздней версии|Получите сертификат службы уведомлений Apple Push.|Запросите сертификат службы push-уведомлений Apple у Apple, как описано здесь: [Настройка управления устройствами iOS и Mac с помощью Microsoft Intune](/Intune/DeployUse/set-up-ios-and-mac-management-with-microsoft-intune).|
+    |Windows Phone 8.1 и Windows Phone 8 |Пользователи Windows Phone 8.1, устанавливающие приложение корпоративного портала из Магазина, не нуждаются в сертификате. Сертификат Symantec необходим для Windows Phone 8.0 или при использовании Intune для развертывания приложения корпоративного портала на устройствах Windows Phone 8.1.|В этом руководстве предполагается, что пользователи получают приложение корпоративного портала в Магазине Windows Phone 8.1 или на более поздней версии устройства. Сведения о поддержке Windows Phone 8.0 см. в разделе [Настройка управления Windows Phone с помощью Microsoft Intune](/Intune/Deploy-Use/set-up-windows-phone-management-with-microsoft-intune).|
+    |Устройства с Windows 10, Windows RT 8.1, Windows RT или Windows 8.1|Требования к сертификатам для регистрации устройств Windows RT и Windows отсутствуют.|[Установка клиента на компьютере Windows с помощью Microsoft Intune](/Intune/Deploy-Use/install-the-windows-pc-client-with-microsoft-intune).|
+    |iOS 7.1 или более поздней версии|Получите сертификат службы уведомлений Apple Push.|Запросите сертификат службы push-уведомлений Apple у Apple, как описано здесь: [Настройка управления устройствами iOS и Mac с помощью Microsoft Intune](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune).|
 
 ## Действия по настройке 30-дневной ознакомительной версии Intune
 - [Шаг 1. Войдите в 30-дневную ознакомительную версию или зарегистрируйтесь для ее получения](get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md). Прежде чем регистрироваться или входить в Intune, следует решить, будете ли вы выполнять вход с помощью существующей учетной записи или создадите временную учетную запись, которая будет применяться только в течение 30-дневного периода ознакомительного использования Microsoft Intune.
@@ -65,11 +58,13 @@ ms.suite: ems
 Пришло время приступить к использованию 30-дневной ознакомительной подписки!
 
 >[!div class="step-by-step"]
+[**Регистрация в Intune** &rarr;](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md)
 
-### Регистрация в Intune
-[См. также](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune)
+### См. также
+[Руководство по быстрому запуску Intune](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

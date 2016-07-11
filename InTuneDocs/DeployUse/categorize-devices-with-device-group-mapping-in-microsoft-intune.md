@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Классификация устройств с помощью сопоставления групп устройств | Microsoft Intune
-description:
-keywords:
+title: "Классификация устройств с помощью сопоставления групп устройств | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8b8c06a3-6b6c-4cf1-8646-b24fa9b1a39e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: sumitp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: bb30b8e61a768b15e2f09993f4dceae8f4e1bd8a
+ms.openlocfilehash: 55f811153bf37048a4fcdfc6da301a5f181700c3
+
 
 ---
 
@@ -46,8 +39,8 @@ ms.suite: ems
 
 ## Настройка сопоставления групп устройств
 1. Создайте группу устройств Intune для каждой категории устройств. Сведения о создании групп см. в разделе [Использование групп для управления пользователями и устройствами в Microsoft Intune](use-groups-to-manage-users-and-devices-with-microsoft-intune.md).
-2. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) щелкните **Администрирование**.
-3. В рабочей области **Администрирование** разверните узел **Управление мобильными устройствами**, а затем щелкните элемент **Сопоставление групп устройств**.
+2. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Администрирование**.
+3. В рабочей области **Администрирование** разверните узел **Управление мобильными устройствами**, а затем выберите элемент **Сопоставление групп устройств**.
 4. На странице **Сопоставление групп устройств** включите сопоставление групп устройств.
 5. Чтобы создать правило сопоставления, нажмите кнопку **Добавить**.
 6. В диалоговом окне **Добавить правило сопоставления групп устройств** введите имя категории, которую нужно создать, а затем в раскрывающемся списке выберите коллекцию устройств, которую необходимо сопоставить с этой категорией. По завершении нажмите кнопку **Добавить**.
@@ -58,6 +51,7 @@ ms.suite: ems
 ### См. также
 [Использование групп для управления пользователями и устройствами в Microsoft Intune](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO3-->
 
 

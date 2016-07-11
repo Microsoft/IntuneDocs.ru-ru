@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Разрешение доступа к ресурсам компании | Microsoft Intune
-description:
-keywords:
+title: "Разрешение доступа к ресурсам компании | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
+ms.openlocfilehash: 556b9ea5ac5edcc1126dbcc6310ab7dfa917cb56
+
 
 ---
 
@@ -50,7 +43,8 @@ ms.suite: ems
 |Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX|
 |---------------------|---------------------------|---|-------|------------|
 |Нет|Да|Да|Нет|Да|
-> Сведения о настройке профиля Wi-Fi для Windows Phone 8.1 с помощью OMA-URI см. в [этой записи блога по Intune](http://blogs.technet.com/b/microsoftintune/archive/2015/02/23/using-oma-uri-to-create-custom-wi-fi-profiles-for-windows-phone-8-1.aspx).
+> [!NOTE]
+> Сведения о настройке профиля Wi-Fi для Windows Phone 8.1 с помощью OMA-URI см. в [этой записи блога по Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/19/using-oma-uri-to-create-custom-wi-fi-profiles-for-windows-phone-8-1/).
 
 ## [Профили сертификатов](secure-resource-access-with-certificate-profiles.md) и поддерживаемые платформы
 Помогите обеспечить безопасный доступ к ресурсам компании, включая беспроводные сети и VPN-подключения.
@@ -60,6 +54,7 @@ ms.suite: ems
 |Да|Да|Да|Да|Да|
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

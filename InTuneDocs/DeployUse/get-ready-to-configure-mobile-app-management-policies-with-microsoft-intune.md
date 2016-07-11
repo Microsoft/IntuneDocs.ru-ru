@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Подготовка к настройке политик управления мобильными приложениями | Microsoft Intune
-description:
-keywords:
+title: "Подготовка к настройке политик управления мобильными приложениями | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: joglocke
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 6a989482e9c3c35c1f377e0b32bf04beb89e60a3
+ms.openlocfilehash: da4020eb71432f9bccb52909272d027da64ee47c
+
 
 ---
 
@@ -36,6 +29,8 @@ ms.suite: ems
 Если вы не знакомы с порталом Azure, прочтите раздел [Портал Azure для политик управления мобильными приложениями Microsoft Intune](azure-portal-for-microsoft-intune-mam-policies.md), чтобы получить краткий обзор.
 
 Если в настоящее время вы используете **консоль администрирования Intune** для управления устройствами, то вы сможете создать политики MAM для поддержки приложений на устройствах, зарегистрированных в Intune, с помощью **консоли администрирования Intune**. Однако даже для устройств, зарегистрированных в Intune, рекомендуется использовать портал Azure. Инструкции о том, как создать политику MAM с помощью консоли администрирования Intune, см. [здесь](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md).
+
+Политики MAM, созданные в консоли администрирования Intune, нельзя импортировать на портал Azure.  Политики MAM потребуется создавать на портале Azure заново.
 
 >[!IMPORTANT]
 > В консоли администрирования Intune могут отображаться не все параметры политики MAM. При создании политики MAM в консоли администрирования Intune и на портале Azure политики, созданные на портале Azure, применяются к приложениям и разворачиваются для пользователей.
@@ -62,7 +57,7 @@ ms.suite: ems
 -   Подписка на **Office 365**, которая требуется в следующих целях:
   - для применения политик MAM к приложениям с поддержкой множественной идентификации;
   - для создания рабочих учетных записей SharePoint Online и Exchange Online. Локальные версии Exchange и SharePoint не поддерживаются.
--    **Включение современной проверки подлинности** для **Skype для бизнеса Online**. Войти в Microsoft Connect и заполнить [эту форму](https://connect.microsoft.com/office/Survey/NominationSurvey.aspx?SurveyID=17299&ProgramID=8715) для регистрации в программе современной проверки подлинности.
+-    [Включение современной проверки подлинности](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx.md) для **Skype для бизнеса Online**.
 
 
 - **Azure Active Directory (Azure AD)** для создания пользователей. Azure AD проверяет подлинность пользователя, когда он запускает приложение и вводит свои рабочие учетные данные.
@@ -124,6 +119,7 @@ ms.suite: ems
 [Создание и развертывание политик управления мобильными приложениями с помощью Microsoft Intune](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

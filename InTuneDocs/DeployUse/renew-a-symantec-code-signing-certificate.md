@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Обновление сертификата подписи кода Symantec Enterprise, используемого с Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Обновление сертификата подписи кода Symantec Enterprise, используемого с Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: c4813044-a925-4273-b0ec-e992fd55850a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 566a226c19825990c6a34bffbbd9d1cd6a242ddb
+
 
 ---
 
@@ -41,7 +35,7 @@ ms.suite: ems
 
 ## Установка обновленного сертификата для Windows Phone 8.0
 
-1.  Скачайте и подпишите последнюю версию корпоративного портала Windows Phone по адресу: [http://www.microsoft.com/en-us/download/details.aspx?id=36060](http://www.microsoft.com/en-us/download/details.aspx?id=36060).
+1.  Скачайте и подпишите последнюю версию портала компании Windows Phone по адресу: [http://www.microsoft.com/en-us/download/details.aspx?id=36060](http://www.microsoft.com/en-us/download/details.aspx?id=36060).
 
 2.  Откройте консоль администрирования Intune ([https://admin.manage.microsoft.com](https://admin.manage.microsoft.com)) и перейдите в раздел **Администрирование**, **Управление мобильными устройствами** &gt; **Windows Phone**, а затем нажмите кнопку **Отправить подписанное приложение**.
 
@@ -55,9 +49,9 @@ ms.suite: ems
 
 ## Установка обновленного сертификата для Windows Phone 8.1 и более поздних устройств
 
-1.  Скачайте и подпишите последнюю версию корпоративного портала Windows Phone из Центра загрузки по адресу: [http://www.microsoft.com/en-us/download/details.aspx?id=36060](http://www.microsoft.com/en-us/download/details.aspx?id=36060).
+1.  Скачайте и подпишите последнюю версию портала компании Windows Phone из Центра загрузки по адресу: [http://www.microsoft.com/en-us/download/details.aspx?id=36060](http://www.microsoft.com/en-us/download/details.aspx?id=36060).
 
-2.  Откройте консоль администрирования Intune ([https://admin.manage.microsoft.com](https://admin.manage.microsoft.com)) и перейдите в раздел **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Windows Phone**, а затем нажмите кнопку **Отправить подписанное приложение**.
+2.  Откройте [консоль администрирования Intune](https://admin.manage.microsoft.com) (https://admin.manage.microsoft.com) и перейдите в раздел **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Windows Phone**, а затем нажмите кнопку **Отправить подписанное приложение**.
 
 3.  Отправьте вновь подписанный корпоративный портал. Вам понадобятся вновь подписанный SSP.xap и новый PFX-файл, полученный от Symantec, или маркер регистрации приложения, который был создан с использованием этого нового PFX-файла.
 
@@ -67,9 +61,11 @@ ms.suite: ems
 
 
 ### См. также
-Настройка управления Windows Phone 8.0
+[Настройка управления Windows Phone 8.0](set-up-windows-phone-8.0-management-with-microsoft-intune.md)
+[Настройка управления Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

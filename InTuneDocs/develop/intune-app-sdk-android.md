@@ -1,38 +1,32 @@
 ---
-# required metadata
-
-title: Руководство для разработчиков по пакету SDK для приложений Microsoft Intune для Android | Microsoft Intune
-description:
-keywords:
+title: "Руководство для разработчиков по пакету SDK для приложений Microsoft Intune для Android | Microsoft Intune"
+description: 
+keywords: 
 author: Msmbaldwin
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 2915cca314b489bbcb590d01b03a0b38134fa619
+ms.openlocfilehash: d2e4b6903d86b79edd9c758b2ce51733831e785a
+
 
 ---
 
 # Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
-> [!NOTE]При желании прочтите статью [Обзор пакета SDK для приложений Intune](intune-app-sdk.md), в которой рассмотрены актуальные функции пакета SDK и описана подготовка к интеграции на каждой поддерживаемой платформе. 
+> [!NOTE]
+> При желании прочтите статью [Обзор пакета SDK для приложений Intune](intune-app-sdk.md), в которой рассмотрены актуальные функции пакета SDK и описана подготовка к интеграции на каждой поддерживаемой платформе. 
 
 # Состав пакета SDK 
 
-Пакет SDK для приложений Intune для Android представляет собой стандартную библиотеку Android без внешних зависимостей. 
-Пакет SDK состоит из следующих компонентов:  
+Пакет SDK для приложений Intune для Android представляет собой стандартную библиотеку Android без внешних зависимостей. Пакет SDK состоит из следующих компонентов:  
 
 * **`Microsoft.Intune MAM.SDK.jar`**: интерфейсы, необходимые для включения MAM в приложении, а также для обеспечения взаимодействия с приложением корпоративного портала Microsoft Intune. Приложения должны указывать его как ссылку на библиотеку Android.
 
@@ -370,6 +364,7 @@ ms.suite: ems
 * Избегайте неоднозначного использования любых API. Например, `Activity.startActivityForResult/onActivityResult` без проверки requestCode вызывает нестандартное поведение.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
