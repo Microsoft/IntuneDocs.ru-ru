@@ -14,6 +14,9 @@
   "4a237942b4bc1e411cf55bc34c7b86d2249c526e": [
     "InTuneDocs\\GetStarted\\application-rollout.md"
   ],
+  "54e0b06cd32c5ab661fd37be8fe132822462e68e": [
+    "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
+  ],
   "55f811153bf37048a4fcdfc6da301a5f181700c3": [
     "InTuneDocs\\DeployUse\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
   ],
@@ -74,6 +77,9 @@
   "575b8525b8b99d06358a911b8deb24ee5de48fe1": [
     "InTuneDocs\\DeployUse\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
   ],
+  "a07bbc6dba4650a1746e478a0ac8a440bd069d04": [
+    "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
   "ff319c2a5e279263d438e5d0133873f49ec76528": [
     "InTuneDocs\\DeployUse\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
   ],
@@ -131,14 +137,14 @@
   "15e546b93c2a3aff551efa36ac80ff212ada5812": [
     "InTuneDocs\\DeployUse\\protect-windows-devices-with-multi-factor-authentication.md"
   ],
+  "618be07d4867ca39d0ffd08e7f7f345fc52b7b9e": [
+    "InTuneDocs\\DeployUse\\resolve-gpo-and-microsoft-intune-policy-conflicts.md"
+  ],
   "7fc97e21fa7e57d8585c421ac12ff0d3c4b366a0": [
     "InTuneDocs\\DeployUse\\resolve-gpo-and-microsoft-intune-policy-conflicts.md"
   ],
   "4857e2ff34175ee6daa64e6f95a59faaaaa3b322": [
     "InTuneDocs\\DeployUse\\retire-apps-using-microsoft-intune.md"
-  ],
-  "16f9ab5651999458728f1e0ae91526bb3f3555d5": [
-    "InTuneDocs\\DeployUse\\retire-apps.md"
   ],
   "7df281a3e35ac563f7b82e4b13407b413f8a7e4a": [
     "InTuneDocs\\DeployUse\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
@@ -157,6 +163,9 @@
   ],
   "55b99e326e4f22aee62b207eb2e976a8d52e70c3": [
     "InTuneDocs\\DeployUse\\understand-your-devices-with-inventory-in-microsoft-intune.md"
+  ],
+  "d6b42ff1db465884db3e0b31deed078ef387d029": [
+    "InTuneDocs\\DeployUse\\update-apps-using-microsoft-intune.md"
   ],
   "9e5b8f4a467e8e58cc2f8fa495b5f008eee7e35b": [
     "InTuneDocs\\DeployUse\\update-apps-using-microsoft-intune.md"
@@ -775,8 +784,14 @@
   "90891c2d0e5e8ae75e888dc4c26a056493bf594c": [
     "InTuneDocs\\EndUser\\Wait-while-your-device-is-being-evaluated.md"
   ],
+  "4a52952907cad7a4bdc3b55705af45ad29a4ffff": [
+    "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
+  ],
   "aa62528e588b0579669ab8d115766efd72e6f9b2": [
     "InTuneDocs\\DeployUse\\windows-configuration-policy-settings-in-microsoft-intune.md"
+  ],
+  "aa4a00cfa48feb1528464ab0b65a75ee575b61ed": [
+    "InTuneDocs\\DeployUse\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
   ],
   "b08d52289b94429b1328a7470469a7efdf4d46a7": [
     "InTuneDocs\\DeployUse\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
@@ -1303,6 +1318,9 @@
   "bd63e69f59c6e19aed92fc997f047cfe3f00717a": [
     "InTuneDocs\\EndUser\\you-see-errors-while-trying-to-enroll-your-device-in-intune-ios.md"
   ],
+  "b8b794b577b19bdc3f91c1a33fd0487c1aecb9db": [
+    "InTuneDocs\\DeployUse\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
+  ],
   "52a77e50b3dde24ba270766d4472bdd6176cc415": [
     "InTuneDocs\\DeployUse\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
   ],
@@ -1384,8 +1402,14 @@
   "a836057cf6c226c8330b0b916c18cd609f791344": [
     "InTuneDocs\\DeployUse\\windows-compliance-policy-settings-in-microsoft-intune.md"
   ],
+  "fe8a5029b251ac8cae57a9cd7de3aeb899cbc24f": [
+    "InTuneDocs\\DeployUse\\microsoft-intune-policy-reference.md"
+  ],
   "3d9e03a3c89af72caeaa9c9c47426f331adb0fca": [
     "InTuneDocs\\DeployUse\\microsoft-intune-policy-reference.md"
+  ],
+  "c805d664fe85b206fc1019114ee17514ef49df0f": [
+    "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
   ],
   "8079ca5abcedbe024fb6347e02c7cf61ae541a30": [
     "InTuneDocs\\DeployUse\\terms-and-condition-policy-settings-in-microsoft-intune.md"
@@ -1559,6 +1583,9 @@
   "b2fc107fc43818d74c4400077e996e4488547281": [
     "InTuneDocs\\media\\enroll-Intune-WinEnr.png"
   ],
+  "89eff4cd9bb785987480c7cdd52128c980c7fa92": [
+    "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
+  ],
   "46562ed3463c4a23a511eb5c7f28a0b11e84f421": [
     "InTuneDocs\\DeployUse\\deploy-apps-in-microsoft-intune.md"
   ],
@@ -1582,6 +1609,9 @@
   ],
   "65e53ad6a74fbf0e9249c367f517ab52ea0efa80": [
     "InTuneDocs\\DeployUse\\whats-new-in-microsoft-intune.md"
+  ],
+  "831cec6cd0e02a94c1a3f67d4adf5a5dcbb01449": [
+    "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
   ],
   "9f72b151d0f37247335b2135595c9c39ca8b9350": [
     "InTuneDocs\\DeployUse\\whats-coming-in-intune.md"
@@ -1775,20 +1805,32 @@
   "8e11b2aa1e985e9c2b9013fae17c305466aea1c8": [
     "InTuneDocs\\DeployUse\\media\\conditional_access_SFBPolicy.png"
   ],
+  "2ddc64b5e30e4d6e2008b4e9bd5d16e046ae658b": [
+    "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
+  ],
   "f4c0eccb0cd30daaba97e8f34eea69e3d0e8e0ad": [
     "InTuneDocs\\DeployUse\\android-policy-settings-in-microsoft-intune.md"
   ],
   "3292df922eeb53108f2b34d4113b0b6c5a114564": [
     "InTuneDocs\\DeployUse\\ios-policy-settings-in-microsoft-intune.md"
   ],
+  "0c08a00b6df818d8afa5fa1a185485daa3688f61": [
+    "InTuneDocs\\DeployUse\\mac-os-x-policy-settings-in-microsoft-intune.md"
+  ],
   "bbbb666fdc34a82d247d760d156d48c5ac72374c": [
     "InTuneDocs\\DeployUse\\mac-os-x-policy-settings-in-microsoft-intune.md"
+  ],
+  "4d175672550b42bd8d23477276aa97de57fadf18": [
+    "InTuneDocs\\DeployUse\\windows-10-policy-settings-in-microsoft-intune.md"
   ],
   "4f447b112dd6fadb8513ffd93e3b728cd626d6d7": [
     "InTuneDocs\\DeployUse\\windows-10-policy-settings-in-microsoft-intune.md"
   ],
   "70347776f72a3534a4c384957aef01a909767b99": [
     "InTuneDocs\\DeployUse\\windows-10-policy-settings-in-microsoft-intune.md"
+  ],
+  "f507968f694fd78dc9aa458f22ffea708c1630cd": [
+    "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
   ],
   "fe685da41bb5379526bdc28c2f9cceb6b7800703": [
     "InTuneDocs\\DeployUse\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
