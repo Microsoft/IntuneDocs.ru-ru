@@ -844,6 +844,9 @@
   "d8470be236ac7b7a9431e07c5ca651cb6bd9fbc0": [
     "InTuneDocs\\Troubleshoot\\troubleshoot-software-updates-in-microsoft-intune.md"
   ],
+  "915f73ab4e1a89383710402a16b14c08662df9e6": [
+    "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
+  ],
   "c854893f457a60a7424010cdf69a91cb8476e167": [
     "InTuneDocs\\Understand\\common-ways-to-use-intune.md"
   ],
@@ -1968,6 +1971,9 @@
   ],
   "86d3b7894eca70454fa82393c4d06eab5a99246f": [
     "InTuneDocs\\DeployUse\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
+  "9e0142ae97ae80c1ab78ab3c848852eb5d660e10": [
+    "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
   ],
   "1171ec6d7984d8a9649fbcd5533211bab5d567ee": [
     "InTuneDocs\\Understand\\microsoft-intune-service-description.md"
