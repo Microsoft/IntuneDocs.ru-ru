@@ -46,6 +46,7 @@ ms.openlocfilehash: 9b557c272c9d740792560a392d52efff6a7deed1
 
     ![Снимок экрана: открытое расположение со списком имеющихся файлов](../media/AppManagement/iOS_OneDriveSuccess.png)
 
+    > [!NOTE]
     > [!NOTE] При модификации развернутой политики изменения применяются при следующем открытии приложения.
 
 ##  Доступ к OneDrive на устройстве Android
@@ -169,6 +170,6 @@ Intune поддерживает развертывание политик MAM т
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

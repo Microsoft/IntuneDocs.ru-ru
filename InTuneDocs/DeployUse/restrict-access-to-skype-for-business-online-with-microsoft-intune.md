@@ -68,9 +68,11 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 ### Шаг 2. Настройка и развертывание политики соответствия требованиям
 [Создайте](create-a-device-compliance-policy-in-microsoft-intune.md) и [разверните](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) политику соответствия для всех устройств, которые будет затрагивать эта политика. Это все устройства, которые используются пользователями в **целевых группах**.
 
+> [!NOTE]
 > [!NOTE] Во время развертывания политик в группах [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] политики условного доступа нацелены на группы безопасности Azure Active Directory.
 
 
+> [!IMPORTANT]
 > [!IMPORTANT] Если политика соответствия требованиям не развернута, устройства считаются соответствующими.
 
 Когда будете готовы, перейдите к **шагу 3**.
@@ -113,6 +115,6 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
