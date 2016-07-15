@@ -1936,9 +1936,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/6324b2e92b834791dd58b1e878b5a9b159dfd8d3/InTuneDocs/DeployUse/get-ready-to-enroll-devices-in-microsoft-intune.md)
-* Current Handback File: [get-ready-to-enroll-devices-in-microsoft-intune.1c1d777cd24a140ea97642e8404647eb99f16625.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/a50dcd452c89d466dd483c4e008b2419f6b52efb/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/get-ready-to-enroll-devices-in-microsoft-intune.1c1d777cd24a140ea97642e8404647eb99f16625.ru-ru.xlf)
-* Current Handback Datetime: 2016-07-02 13:18:45
+* Current Target File: [InTuneDocs\DeployUse\get-ready-to-enroll-devices-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/e254e97217bc5182d2115e768cb51c4d3f02d919/InTuneDocs/DeployUse/get-ready-to-enroll-devices-in-microsoft-intune.md)
+* Current Handback File: [get-ready-to-enroll-devices-in-microsoft-intune.1c1d777cd24a140ea97642e8404647eb99f16625.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/1e9d5608bcf1a89ee598e09a94f8eaec5d94c6bb/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/get-ready-to-enroll-devices-in-microsoft-intune.1c1d777cd24a140ea97642e8404647eb99f16625.ru-ru.xlf)
+* Current Handback Datetime: 2016-07-15 02:31:10
 * [Back to Top](#report-top)
 
 ##### <a name='d0a77f626a21212d3d310e8021e4e034298e90d346'></a> Source: [InTuneDocs\DeployUse\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ce78bc0e8ab341cda03cd9077c5541cbb7362bca/InTuneDocs/DeployUse/help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)
@@ -4075,9 +4075,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\overview-of-the-microsoft-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/a8f6b970c85000f1aadf6080a5a960f320ef2472/InTuneDocs/DeployUse/overview-of-the-microsoft-intune-app-sdk.md)
-* Current Handback File: [overview-of-the-microsoft-intune-app-sdk.dc762007edc0ecac474af6c54372cf79bde17387.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/ed9ad897c2b09b7983d0a6aaef62389c1c92b504/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/overview-of-the-microsoft-intune-app-sdk.dc762007edc0ecac474af6c54372cf79bde17387.ru-ru.xlf)
-* Current Handback Datetime: 2016-07-02 12:28:21
+* Current Target File: [InTuneDocs\DeployUse\overview-of-the-microsoft-intune-app-sdk.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/e254e97217bc5182d2115e768cb51c4d3f02d919/InTuneDocs/DeployUse/overview-of-the-microsoft-intune-app-sdk.md)
+* Current Handback File: [overview-of-the-microsoft-intune-app-sdk.dc762007edc0ecac474af6c54372cf79bde17387.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/1e9d5608bcf1a89ee598e09a94f8eaec5d94c6bb/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/overview-of-the-microsoft-intune-app-sdk.dc762007edc0ecac474af6c54372cf79bde17387.ru-ru.xlf)
+* Current Handback Datetime: 2016-07-15 02:31:10
 * [Back to Top](#report-top)
 
 ##### <a name='fc58e71a9b2279200dee2630aab7dbab727ea128209'></a> Source: [InTuneDocs\DeployUse\per-app-vpn-for-android-pulse-secure.md](https://github.com/Microsoft/IntuneDocs-pr/blob/40e5602a4675bd92a85001827fb43426c41ed1e3/InTuneDocs/DeployUse/per-app-vpn-for-android-pulse-secure.md)
