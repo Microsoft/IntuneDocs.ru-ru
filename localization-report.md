@@ -1399,9 +1399,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\activate-your-product-key.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/5471c4824b7e379901be8a2a9e07f0d00b490897/InTuneDocs/activate-your-product-key.md)
-* Current Handback File: [activate-your-product-key.638636470058f33280c9e5a098e09bb36e24e81d.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6704c06b73fd425651ba0a73027f7da7c4edf056/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/activate-your-product-key.638636470058f33280c9e5a098e09bb36e24e81d.ru-ru.xlf)
-* Current Handback Datetime: 2016-07-02 19:36:34
+* Current Target File: [InTuneDocs\activate-your-product-key.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/b95144f03cb5bd9558723b623de86e839c461a29/InTuneDocs/activate-your-product-key.md)
+* Current Handback File: [activate-your-product-key.638636470058f33280c9e5a098e09bb36e24e81d.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/8a1297dd1bb7cdf69d282214942232b338775d5f/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/activate-your-product-key.638636470058f33280c9e5a098e09bb36e24e81d.ru-ru.xlf)
+* Current Handback Datetime: 2016-07-15 16:57:29
 * [Back to Top](#report-top)
 
 ##### <a name='505e446125c938a9a978eb2908cfa0873ed66fcc8'></a> Source: [InTuneDocs\DeployUse\account-portal-merged-with-Office-365.md](https://github.com/Microsoft/IntuneDocs-pr/blob/928b79530ac278f78356f8d1ef9f267077634b5b/InTuneDocs/DeployUse/account-portal-merged-with-Office-365.md)
@@ -1882,9 +1882,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\DeployUse\exchange-activesync-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/5471c4824b7e379901be8a2a9e07f0d00b490897/InTuneDocs/DeployUse/exchange-activesync-policy-settings-in-microsoft-intune.md)
-* Current Handback File: [exchange-activesync-policy-settings-in-microsoft-intune.7befdd2a5b912f0c96869e2edf316931c762b66b.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/6704c06b73fd425651ba0a73027f7da7c4edf056/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/exchange-activesync-policy-settings-in-microsoft-intune.7befdd2a5b912f0c96869e2edf316931c762b66b.ru-ru.xlf)
-* Current Handback Datetime: 2016-07-02 19:36:34
+* Current Target File: [InTuneDocs\DeployUse\exchange-activesync-policy-settings-in-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/b95144f03cb5bd9558723b623de86e839c461a29/InTuneDocs/DeployUse/exchange-activesync-policy-settings-in-microsoft-intune.md)
+* Current Handback File: [exchange-activesync-policy-settings-in-microsoft-intune.7befdd2a5b912f0c96869e2edf316931c762b66b.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/8a1297dd1bb7cdf69d282214942232b338775d5f/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/exchange-activesync-policy-settings-in-microsoft-intune.7befdd2a5b912f0c96869e2edf316931c762b66b.ru-ru.xlf)
+* Current Handback Datetime: 2016-07-15 16:57:29
 * [Back to Top](#report-top)
 
 ##### <a name='21bc0bcaf64cf67eea2ca30b933c314c4c3e6dae42'></a> Source: [InTuneDocs\DeployUse\find-a-pfn-for-per-app-vpn.md](https://github.com/Microsoft/IntuneDocs-pr/blob/e32cbcd54220cf36d6770ee16897d27e1d2d71db/InTuneDocs/DeployUse/find-a-pfn-for-per-app-vpn.md)
@@ -4220,14 +4220,14 @@
 
 ##### <a name='15e546b93c2a3aff551efa36ac80ff212ada5812219'></a> Source: [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr/blob/2023d7bc1d35b423a216ece195cdca9a6a542446/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/4a20528c56ae7e76f363b3ba337cbddeae287daa/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md)
+* Target File: [InTuneDocs\DeployUse\protect-windows-devices-with-multi-factor-authentication.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/b95144f03cb5bd9558723b623de86e839c461a29/InTuneDocs/DeployUse/protect-windows-devices-with-multi-factor-authentication.md)
 * Handoff File: [protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/d957daa563a1f87c821e475884c16094aad87d8c/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf)
 * Handoff Datetime: 2016-06-27 11:49:34
 * Handoff Reason: Include
 * Archive File: [protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf](https://github.com/Microsoft/EM.handoff/blob/bc67b5150c0c88234f080379f76d979da1c6b4a2/ol-handoff/Microsoft/IntuneDocs-pr.ru-ru/master/archive/protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf)
 * Archive Datetime: 2016-07-02 01:38:39
-* Handback File: [protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/19ce1a3fd7c6f27c656cc052c0dd3e77c94bb458/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf)
-* Handback Datetime: 2016-07-02 13:52:06
+* Handback File: [protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/8a1297dd1bb7cdf69d282214942232b338775d5f/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/protect-windows-devices-with-multi-factor-authentication.4c3e12b9e285ddce704f4e53be2ce6d8e74a9b75.ru-ru.xlf)
+* Handback Datetime: 2016-07-15 16:57:29
 * [Back to Top](#report-top)
 
 ##### <a name='2544fa1905e9e733739dba796cf152dff2c142a6220'></a> Source: [InTuneDocs\DeployUse\protect-your-devices-with-microsoft-intune.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ce78bc0e8ab341cda03cd9077c5541cbb7362bca/InTuneDocs/DeployUse/protect-your-devices-with-microsoft-intune.md)
@@ -5167,9 +5167,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\EndUser\enroll-your-device-in-Intune-android.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/a8f6b970c85000f1aadf6080a5a960f320ef2472/InTuneDocs/EndUser/enroll-your-device-in-Intune-android.md)
-* Current Handback File: [enroll-your-device-in-Intune-android.872d3051e290d3da5da8865100706bd6fb00d4ac.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/ed9ad897c2b09b7983d0a6aaef62389c1c92b504/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/enroll-your-device-in-Intune-android.872d3051e290d3da5da8865100706bd6fb00d4ac.ru-ru.xlf)
-* Current Handback Datetime: 2016-07-02 12:28:21
+* Current Target File: [InTuneDocs\EndUser\enroll-your-device-in-Intune-android.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/b95144f03cb5bd9558723b623de86e839c461a29/InTuneDocs/EndUser/enroll-your-device-in-Intune-android.md)
+* Current Handback File: [enroll-your-device-in-Intune-android.872d3051e290d3da5da8865100706bd6fb00d4ac.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/8a1297dd1bb7cdf69d282214942232b338775d5f/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/enroll-your-device-in-Intune-android.872d3051e290d3da5da8865100706bd6fb00d4ac.ru-ru.xlf)
+* Current Handback Datetime: 2016-07-15 16:57:29
 * [Back to Top](#report-top)
 
 ##### <a name='5ac7edaa8d5a2681d6c93d718ae088f767a18750288'></a> Source: [InTuneDocs\EndUser\enroll-your-device-in-intune-ios.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ea35d0222f33a0babb8bdc4fb30f0f5a405214a2/InTuneDocs/EndUser/enroll-your-device-in-intune-ios.md)
@@ -5407,9 +5407,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [InTuneDocs\EndUser\install-and-sign-in-to-the-intune-company-portal-app-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/f5c4862725a2f0e3d6f667b2d522825b4419433f/InTuneDocs/EndUser/install-and-sign-in-to-the-intune-company-portal-app-ios.md)
-* Current Handback File: [install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/0eb0c2b116fd66fb92f2c00a8e4ef0cd07fef59a/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf)
-* Current Handback Datetime: 2016-07-02 14:24:00
+* Current Target File: [InTuneDocs\EndUser\install-and-sign-in-to-the-intune-company-portal-app-ios.md](https://github.com/Microsoft/IntuneDocs-pr.ru-ru/blob/b95144f03cb5bd9558723b623de86e839c461a29/InTuneDocs/EndUser/install-and-sign-in-to-the-intune-company-portal-app-ios.md)
+* Current Handback File: [install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf](https://github.com/Microsoft/EM.handback/blob/8a1297dd1bb7cdf69d282214942232b338775d5f/ol-handback/Microsoft/IntuneDocs-pr.ru-ru/master/install-and-sign-in-to-the-intune-company-portal-app-ios.2430b0f32982280b2a0f3f392b6d83675c150350.ru-ru.xlf)
+* Current Handback Datetime: 2016-07-15 16:57:29
 * [Back to Top](#report-top)
 
 ##### <a name='441c5018b2461ed8d9ac899d94f38deda296e34e303'></a> Source: [InTuneDocs\EndUser\install-a-new-version-of-the-company-portal-app.md](https://github.com/Microsoft/IntuneDocs-pr/blob/ea35d0222f33a0babb8bdc4fb30f0f5a405214a2/InTuneDocs/EndUser/install-a-new-version-of-the-company-portal-app.md)
