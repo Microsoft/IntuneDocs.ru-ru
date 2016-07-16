@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Повторное подключение к скомпрометированному устройству Android | Microsoft Intune
-description:
-keywords:
+title: "Повторное подключение к скомпрометированному устройству Android | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 06/06/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: ade7353e-7338-484d-a50f-b91146d5fc46
-
-# optional metadata
-
-ROBOTS:
-#audience:
-#ms.devlang:
+ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: c089b36676feb4caa7064738d6ef4b709139ab49
+
 
 ---
 
@@ -32,6 +27,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

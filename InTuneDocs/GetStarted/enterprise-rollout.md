@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Корпоративное развертывание | Microsoft Intune
-description:
-keywords:
+title: "Корпоративное развертывание | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d894708e-7071-44f5-aa3b-af5aef02fb98
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: 588d37ac5524c80da9082ee5b1af0e897e925ef9
+
 
 ---
 
@@ -113,6 +107,7 @@ ms.suite: ems
 [Использование и обслуживание](operations-and-maintenance.md)
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

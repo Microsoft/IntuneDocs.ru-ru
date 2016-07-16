@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune? | Microsoft Intune
-description:
-keywords:
+title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune? | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
-
-# optional metadata
-
-ROBOTS:
-#audience:
-#ms.devlang:
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
+
 
 ---
 
@@ -105,6 +100,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

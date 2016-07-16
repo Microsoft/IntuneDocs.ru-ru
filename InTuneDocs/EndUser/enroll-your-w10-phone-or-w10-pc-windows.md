@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Регистрация устройства с ОС Windows 10 Mobile или Windows 10 Desktop в Intune | Microsoft Intune
-description:
-keywords:
+title: "Регистрация устройства с ОС Windows 10 Mobile или Windows 10 Desktop в Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 05/11/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
+ms.openlocfilehash: 543f0acd6fb3691ba31e9da6fec49b3f30f67613
+
 
 ---
 
@@ -73,6 +67,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

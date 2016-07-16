@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Отмена регистрации устройства в Intune | Microsoft Intune
-description:
-keywords:
+title: "Отмена регистрации устройства в Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: c323aed2b4fbac831ae4919c8145b7253eb97ace
+
 
 ---
 
@@ -71,6 +65,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

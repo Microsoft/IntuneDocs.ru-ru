@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Регистрация мобильных устройств для ознакомительной версии | Microsoft Intune
-description:
-keywords:
+title: "Регистрация мобильных устройств для ознакомительной версии | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9755499575118feecf33780ee29a70525f95508e
+ms.openlocfilehash: f26b64015f483eb5b6a6efbaa6fe6730dde7dac9
+
 
 ---
 
@@ -38,11 +32,11 @@ ms.suite: ems
 
     — включите управление мобильными устройствами для той платформы устройств, которой вы хотите управлять. В зависимости от используемой платформы есть различные требования:
 
-    -   **iOS и Mac OS X**: см. раздел [Настройка управления iOS и Mac с помощью Microsoft Intune](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune).
+    -   **iOS и Mac OS X**: см. статью [Настройка управления в iOS и Mac с помощью Microsoft Intune](/Intune/Deploy-Use/set-up-ios-and-mac-management-with-microsoft-intune).
 
     -   **Android**: мобильные устройства Android позволяют пользователям регистрироваться с помощью доступного в Google Play приложения корпоративного портала. Никаких дополнительных настроек в Intune не требуется.
 
-    -   **Windows Phone**: см. раздел [Настройка управления Windows Phone с помощью Microsoft Intune](/Intune/Deploy-Use/set-up-windows-phone-management-with-microsoft-intune).
+    -   **Windows Phone**: см. статью [Настройка управления Windows Phone с помощью Microsoft Intune](/Intune/Deploy-Use/set-up-windows-phone-management-with-microsoft-intune).
 
 ## Регистрация тестовых устройств
 
@@ -71,9 +65,10 @@ ms.suite: ems
 
 >[!div class="step-by-step"]
 
->[&larr; **Создание политик**](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)     [**Параметры и дополнения** &rarr;](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)  
+>[&larr; **Создание политик**](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md) [**Параметры и дополнения** &rarr;](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)  
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

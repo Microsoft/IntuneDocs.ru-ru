@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Подтверждение концепции | Microsoft Intune
-description:
-keywords:
+title: "Подтверждение концепции | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f3c97380-23ca-40da-acbc-78108507cad7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: 4c01b7cec6474153fcea465fc050ac419ca2eec5
+
 
 ---
 
@@ -83,6 +77,7 @@ ms.suite: ems
 [Пилотное развертывание](pilot.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

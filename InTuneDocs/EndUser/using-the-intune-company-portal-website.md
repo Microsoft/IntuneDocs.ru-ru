@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Использование веб-сайта корпоративного портала Intune | Microsoft Intune
-description:
-keywords:
+title: "Использование веб-сайта корпоративного портала Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 06/03/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mamoriss
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 79e8d7da83997dc9c89b95097ca50493af1f9f6b
+
 
 ---
 
@@ -55,6 +49,7 @@ ms.suite: ems
 - [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

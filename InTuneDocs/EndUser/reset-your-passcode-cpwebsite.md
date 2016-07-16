@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Сброс секретного кода устройства с веб-сайта корпоративного портала | Microsoft Intune
-description:
-keywords:
+title: "Сброс секретного кода устройства с веб-сайта корпоративного портала | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 4fa3255b-9d1e-42d5-bd8b-70963dcf2d86
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mamoriss
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 31023a2d51d4dd4cb854c1fa077f5a9910232bb4
+
 
 ---
 
@@ -30,7 +24,8 @@ ms.suite: ems
 
 В случае утери ПИН-кода или пароля для устройства, зарегистрированного в Intune, можно воспользоваться [веб-сайтом корпоративного портала](http://portal.manage.microsoft.com), чтобы сбросить его. Веб-сайт корпоративного портала — это веб-страница, которую можно использовать для управления компьютерами и устройствами, зарегистрированными в Intune. На этом веб-сайте доступно большинство тех задач, которые можно выполнить с помощью приложения корпоративного портала.
 
-> [!NOTE] В зависимости от того, как администратор настроил Intune, кнопка "Сбросить секретный код" на веб-сайте корпоративного портала может отсутствовать. Сброс секретного кода не поддерживается на устройствах Windows 8.1 и Windows RT.
+> [!NOTE] 
+> В зависимости от того, как администратор настроил Intune, кнопка "Сбросить секретный код" на веб-сайте корпоративного портала может отсутствовать. Сброс секретного кода не поддерживается на устройствах Windows 8.1 и Windows RT.
 
 Сброс секретного кода
 
@@ -67,6 +62,7 @@ ms.suite: ems
 ### См. также
 [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

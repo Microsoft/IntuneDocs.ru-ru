@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Сбор журналов устройств | Microsoft Intune
-description:
-keywords:
+title: "Сбор журналов устройств | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 06/01/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d97fb610-9d88-40e5-bb06-447eec533630
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ac5c66f57194a84580aa495a58e5281683aa1cca
+ms.openlocfilehash: 4fc08fcea6cea897b9ddc3d0c00f2d83069f639d
+
 
 ---
 
@@ -51,6 +45,7 @@ ms.suite: ems
 Для корпоративного портала Windows файлы журнала расположены в каталоге *%localappdata%\Packages\Microsoft.CompanyPortal_8wekyb3d8bbwe\LocalState*.
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

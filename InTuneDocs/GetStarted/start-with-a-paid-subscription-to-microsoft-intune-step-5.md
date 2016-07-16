@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Создание групп для организации пользователей и устройств | Microsoft Intune
-description:
-keywords:
+title: "Создание групп для организации пользователей и устройств | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
+ms.openlocfilehash: 00ac59ffe219109dd48c47e59de9ecf588f07344
+
 
 ---
 
@@ -34,7 +28,8 @@ ms.suite: ems
 ![Рабочая область "Группы" в консоли администрирования](./media/groups.png)
 
 
-> Дополнительные сведения об использовании групп см. в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
+> [!TIP]
+> Дополнительные сведения об использовании групп см. в статье [Использование групп для управления пользователями и устройствами с помощью Microsoft Intune](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
 
 
 ## Создание группы устройств
@@ -76,9 +71,10 @@ ms.suite: ems
 
 >[!div class="step-by-step"]
 
->[&larr; **Управление лицензиями Intune**](.\start-with-a-paid-subscription-to-microsoft-intune-step-4.md)       [**Создание политик и приложений** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  
+>[&larr; **Управление лицензиями Intune**](.\start-with-a-paid-subscription-to-microsoft-intune-step-4.md) [**Создание политик и приложений** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

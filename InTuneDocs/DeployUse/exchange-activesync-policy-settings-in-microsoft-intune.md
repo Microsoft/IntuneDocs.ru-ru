@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Параметры политики Exchange ActiveSync | Microsoft Intune
-description:
-keywords:
+title: "Параметры политики Exchange ActiveSync | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
+ms.openlocfilehash: 7ab9c5f283f65c82e1713d29923fa16a6a542352
+
 
 ---
 
@@ -86,6 +80,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

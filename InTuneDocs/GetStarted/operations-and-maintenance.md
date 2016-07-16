@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Использование и обслуживание | Microsoft Intune
-description:
-keywords:
+title: "Использование и обслуживание | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f46fb18e-228c-4a2d-92e7-20734e9bdae3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: a26de5f97800d8cac0c52c87014c75402460fee4
+
 
 ---
 
@@ -85,6 +79,7 @@ Intune часто получает обновления с новыми функ
     **Решение.** Подготовьте специалистов службы технической поддержки, предоставив им материалы по устранению неполадок для быстрого устранения распространенных проблем.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

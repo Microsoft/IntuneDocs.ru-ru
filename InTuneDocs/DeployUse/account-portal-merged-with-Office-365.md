@@ -1,27 +1,19 @@
 ---
-# required metadata
-
-title: Портал учетных записей объединяется с порталом управления Office 365 | Microsoft Intune
-description:
-keywords:
+title: "Портал учетных записей объединяется с порталом управления Office 365 | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 80f7d796-ad0e-4a50-a6e2-cdc52e7eb57e
+translationtype: Human Translation
+ms.sourcegitcommit: 928b79530ac278f78356f8d1ef9f267077634b5b
+ms.openlocfilehash: 505e446125c938a9a978eb2908cfa0873ed66fcc
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: [ALIAS]
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -38,6 +30,7 @@ ms.assetid: 80f7d796-ad0e-4a50-a6e2-cdc52e7eb57e
 Ознакомьтесь с дополнительными сведениями о переносе в нашем [блоге Microsoft Intune](https://blogs.technet.microsoft.com/microsoftintune/2015/09/01/intune-and-ems-subscriptions-now-available-in-the-office-365-portal/) или сразу перейдите на новый [портал управления Office 365](https://portal.office.com/Admin/Default.aspx) по ссылке https://portal.office.com/Admin/Default.aspx с существующими учетными данными.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

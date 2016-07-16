@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Настройка управления в iOS и Mac | Microsoft Intune
-description:
-keywords:
+title: "Настройка управления в iOS и Mac | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: bb44d53c87bec1b6892bf49a65f3df684199ed08
+ms.openlocfilehash: 9766b6e64259d809b04e6f6004c25ed88ad72659
+
 
 ---
 
@@ -55,6 +49,7 @@ ms.suite: ems
 [Подготовка к регистрации устройств в Microsoft Intune](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

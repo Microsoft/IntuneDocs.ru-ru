@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Настройка корпоративного портала | Microsoft Intune
-description:
-keywords:
+title: "Настройка корпоративного портала | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: eb4a9f01-f857-4563-ab6f-5d0d7dfa659d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
+ms.openlocfilehash: 45f574a975c94338c4543c0cdbc3aef549030601
+
 
 ---
 
@@ -29,6 +23,7 @@ ms.suite: ems
 # Настройка корпоративного портала
 [!INCLUDE[wit_iwportal_1](../includes/wit_iwportal_1_md.md)]— это место доступа пользователей к корпоративным данным и выполнения общих задач, таких как регистрация устройств, установка приложения и поиск поддержки ИТ-отдела.
 
+> [!TIP]
 > При настройке корпоративного портала все конфигурации применяются к веб-сайту корпоративного портала и приложениям корпоративного портала.
 
 Настройка корпоративного портала позволяет обеспечить удобную и привычную среду для конечных пользователей. Чтобы сделать это, просто войдите в [консоль администрирования Microsoft Intune](https://manage.microsoft.com) в качестве администратора клиента или службы, выберите **Администрирование** &gt; **Корпоративный портал** и настройте параметры корпоративного портала.
@@ -71,9 +66,10 @@ ms.suite: ems
 Поздравляем! Вы завершили шаг 7 *краткого руководства по Intune*.
 >[!div class="step-by-step"]
 
->[&larr; **Создание политик и приложений**](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)       [**Регистрация устройств** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)  
+>[&larr; **Создание политик и приложений**](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md) [**Регистрация устройств** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)  
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

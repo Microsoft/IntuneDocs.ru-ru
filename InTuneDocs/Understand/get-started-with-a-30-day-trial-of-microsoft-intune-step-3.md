@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Создание групп для организации пользователей и устройств подписок на ознакомительную версию | Microsoft Intune
-description:
-keywords:
+title: "Создание групп для организации пользователей и устройств подписок на ознакомительную версию | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 7162cad3-5c14-43f3-a760-833ffd7786b1
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9755499575118feecf33780ee29a70525f95508e
+ms.openlocfilehash: f438b2b5e53d9bc119341effae1533d26cc9a47b
+
 
 ---
 
@@ -31,7 +25,7 @@ ms.suite: ems
 ## Создание группы устройств
 Используйте группы устройств для развертывания программного обеспечения и обновлений, а также настройки параметров агента Microsoft Intune и политик параметров брандмауэра Windows. Например, настройте группу "Мои устройства пробной версии", выполнив следующие действия.
 
-1.  В [консоли администрирования Intune](https://manage.microsoft.com/) последовательно выберите **Группы** &gt; **Обзор** &gt; **Создать группу**.
+1.  В [консоли администрирования Intune](https://manage.microsoft.com/) выберите **Группы** &gt; **Обзор** &gt; **Создать группу**.
 
 2.  В качестве значения **Имя группы** введите "Устройства пробной версии" и в списке родительской группы выберите **Все устройства**, а затем нажмите кнопку **Далее**.
 
@@ -46,7 +40,7 @@ ms.suite: ems
 ## Создание группы пользователей
 Используйте группы пользователей для развертывания политик программного обеспечения и устройств. Например, можно настроить группу "Мои пользователи пробной версии", выполнив следующие действия.
 
-1.  В [консоли администрирования Intune](https://manage.microsoft.com/) последовательно выберите **Группы** &gt; **Обзор** &gt; **Создать группу**.
+1.  В [консоли администрирования Intune](https://manage.microsoft.com/) выберите **Группы** &gt; **Обзор** &gt; **Создать группу**.
 
 2.  В качестве значения **Имя группы** введите "Пользователи пробной версии" и в списке родительской группы выберите **Все пользователи**, а затем нажмите кнопку **Далее**.
 
@@ -60,16 +54,17 @@ ms.suite: ems
 
 Созданная группа появится в списке **Группы** в рабочей области **Группы** в разделе **Все пользователи**. Здесь также можно изменять или удалять группу.
 
-Дополнительные сведения об использовании групп см. в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/Intune/Deploy-Use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
+Дополнительные сведения об использовании групп см. в статье [Использование групп для управления пользователями и устройствами с помощью Microsoft Intune](/Intune/Deploy-Use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
 
 ### Дальнейшие действия
 Поздравляем! Вы завершили шаг 3 пошагового руководства по *ознакомительной версии Microsoft Intune*.
 
 >[!div class="step-by-step"]
 
->[&larr; **Добавление пользователей**](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md)     [**Создание политик** &larr;](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)  
+>[&larr; **Добавление пользователей**](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md) [**Создание политик** &larr;](.\get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)  
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

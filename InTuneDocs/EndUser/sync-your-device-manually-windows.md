@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Синхронизация устройства вручную | Microsoft Intune
-description:
-keywords:
+title: "Синхронизация устройства вручную | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 05/18/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 443c6de7-5187-4dc4-b844-6085a0c659bd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: fbe46abe0b13e8972a5e9fa09566dff0c09b9939
+
 
 ---
 
@@ -103,6 +97,7 @@ ms.suite: ems
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

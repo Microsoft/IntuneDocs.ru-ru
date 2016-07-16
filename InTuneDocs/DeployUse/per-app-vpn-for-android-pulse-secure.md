@@ -1,27 +1,18 @@
 ---
-# required metadata
-
-title: VPN на уровне приложения в Android с использованием Pulse Secure | Microsoft Intune
-description:
-keywords:
+title: "VPN на уровне приложения в Android с использованием Pulse Secure | Microsoft Intune"
+description: 
+keywords: 
 author: nbigman
 manager: jeffgilb
 ms.date: 05/08/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
+ms.sourcegitcommit: 40e5602a4675bd92a85001827fb43426c41ed1e3
+ms.openlocfilehash: fc58e71a9b2279200dee2630aab7dbab727ea128
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: chrisbal
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 
 ---
 
@@ -35,7 +26,7 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 2. Выберите шаблон для новой политики, развернув **Android** и выбрав **профиль VPN (Android 4 и более поздней версии)**.
 
 3. В поле **Тип подключения** для шаблона выберите **Pulse Secure**.
-4. Закройте и сохраните профиль VPN. Дополнительные сведения о профилях VPN см. в разделе [Профили VPN](Help%20users%20connect%20to%20their%20work%20using%20VPN%20profiles%20with%20Microsoft%20Intune.md).
+4. Закройте и сохраните профиль VPN. Дополнительные сведения о профилях VPN см. в статье [Профили VPN](vpn-connections-in-microsoft-intune.md).
 
 > [!NOTE]
 Запишите имя профиля VPN для использования на следующем шаге. Например, **MyAppVpnProfile**.
@@ -82,6 +73,7 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

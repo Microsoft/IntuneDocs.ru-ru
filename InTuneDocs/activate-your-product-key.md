@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Активация ключа продукта | Microsoft Intune
-description:
-keywords:
+title: "Активация ключа продукта | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 844c2ca8-2721-4f72-b1dd-be9b1da1f220
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: d575d77a5f951311dc0d94abc96767952111b146
+
 
 ---
 
@@ -35,7 +29,8 @@ ms.suite: ems
 
 -   Если вы активируете ключ продукта Enterprise Mobility Suite, перейдите [на эту страницу](http://www.microsoft.com/ems/open).
 
-> [!NOTE] Если ключ продукта утерян, обратитесь к партнеру или торговому посреднику, у которого вы приобрели конкретный продукт.
+> [!NOTE]
+> Если ключ продукта утерян, обратитесь к партнеру или торговому посреднику, у которого вы приобрели его.
 
 ## Загрузка программного обеспечения System Center Configuration Manager
 Чтобы скачать программное обеспечение System Center Configuration Manager, перейдите в [Центр Volume Licensing Service Center](http://go.microsoft.com/fwlink/?LinkID=232300).
@@ -56,6 +51,7 @@ ms.suite: ems
 |**К сожалению, мы не можем обработать ваш заказ**.|Клиент был создан, но ключи продукта не были активированы. Попробуйте снова активировать ключи продукта с помощью ссылки, приведенной выше. Если проблема будет повторяться, обратитесь в [службу поддержки](http://go.microsoft.com/fwlink/?LinkID=394189).|
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
