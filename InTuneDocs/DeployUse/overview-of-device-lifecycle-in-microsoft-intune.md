@@ -1,33 +1,26 @@
 ---
-# required metadata
-
-title: Общие сведения о жизненном цикле устройств | Microsoft Intune
-description:
-keywords:
+title: "Общие сведения о жизненном цикле MDM | Microsoft Intune"
+description: "Узнайте, как Intune помогает управлять устройствами в течение их жизненного цикла от регистрации до настройки и списания."
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 5140c4943be630ea8e48f80f7e6b590d223beac1
+ms.openlocfilehash: 751025aa71ef41564100ea57ac0d1fe60619e214
+
 
 ---
 
 # Общие сведения о жизненном цикле системы управления мобильными устройствами (MDM)
 
-Жизненный цикл устройства Intune начинается с первоначальной регистрации устройства и его прохождения через ряд этапов вплоть до того, пока оно не перестанет быть нужным.
+Все управляемые устройства имеют так называемый *жизненный цикл*. Intune помогает управлять этим жизненным циклом, начиная с регистрации и заканчивая списанием устройства, когда оно больше не требуется.
 
 ![Жизненный цикл устройства](./media/device-lifecycle.png "the Intune device lifecycle")
 
@@ -51,6 +44,7 @@ ms.suite: ems
 При потере или краже устройства, при необходимости его замены или вступлении пользователя в другую должность обычно требуется [снять устройство и учета или очистить его](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md). Существует ряд способов выполнения этих процедур, начиная от сброса настроек устройства, вывода его из управления или удаления с него корпоративных данных.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

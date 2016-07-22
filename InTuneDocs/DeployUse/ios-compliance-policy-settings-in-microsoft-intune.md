@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Параметры политики соответствия для устройств iOS | Microsoft Intune
-description:
-keywords:
+title: "Параметры политики соответствия для устройств iOS | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: e736d688032dd2ddee5be9edf2a33d5e7ba5257b
+ms.openlocfilehash: 591023ea08b669ca69e8cac45e37b5fb2689ddcd
+
 
 ---
 
@@ -72,7 +65,7 @@ ms.suite: ems
 - **Выберите профиль электронной почты, которым должна управлять служба Intune: **
    Если выбран параметр **Учетная запись почты должна управляться Intune**, нажмите кнопку **Выбрать**, чтобы выбрать профиль электронной почты Intune. На устройстве должен быть профиль электронной почты.
 
-     Дополнительные сведения о профилях электронной почты см. в статье [Configure access to corporate email using email profiles with Microsoft Intune](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) (Настройка доступа к электронной почте организации с помощью профилей в Microsoft Intune).
+     Дополнительные сведения о профилях электронной почты см. в статье [Настройка доступа к электронной почте организации с помощью профилей в Microsoft Intune](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md).
 
 ## Параметры работоспособности устройства
 
@@ -85,6 +78,7 @@ ms.suite: ems
 - **Максимальная версия ОС:** если устройство использует версию ОС, более позднюю по сравнению с указанной в правиле, доступ к ресурсам компании блокируется, и пользователя просят связаться с ИТ-администратором. До изменения правила для разрешения конкретной версии ОС это устройство невозможно будет использовать для доступа к ресурсам компании.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

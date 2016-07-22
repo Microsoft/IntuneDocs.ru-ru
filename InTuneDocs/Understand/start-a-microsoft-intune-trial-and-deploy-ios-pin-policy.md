@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Запуск пробной версии Microsoft Intune и развертывание политики iOS в отношении ПИН-кодов | Microsoft Intune
-description:
-keywords:
+title: "Запуск пробной версии Microsoft Intune и развертывание политики iOS в отношении ПИН-кодов | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 06cb9a73-0f17-44b3-b334-86c98020316e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7f3985b10ac9612c8c1efc4756eb25cdcf29b023
+ms.openlocfilehash: 6787d0c35621b2bc94bfe376dfd1669e9dfe46db
+
 
 ---
 
@@ -39,6 +33,7 @@ ms.suite: ems
 -   Телефон для проверки подлинности при регистрации в пробной версии
 
 ## Создание бесплатной пробной учетной записи Intune
+> [!NOTE]
 > Если у вас уже есть подписка Intune, перейдите к следующему разделу.
 
 1.  На ПК Windows щелкните правой кнопкой мыши **Internet Explorer** (IE) и выберите пункт **Просмотр InPrivate**.
@@ -173,7 +168,7 @@ ms.suite: ems
 
         ![Отправка сертификата APNs](../media/30-day-trial-walkthrus/30day-cfg-pol-29-upld-cert.png)
 
-    17. Введите свой идентификатор Apple ID и нажмите кнопку **Обзор**.
+    17. Введите свой идентификатор Apple и нажмите кнопку **Обзор**.
 
         ![Ввод Apple ID](../media/30-day-trial-walkthrus/30day-cfg-pol-30-app-id-browse.png)
 
@@ -181,7 +176,7 @@ ms.suite: ems
 
         ![Открытие PEM-файла](../media/30-day-trial-walkthrus/30day-cfg-pol-31-sel-pem-open.png)
 
-    19. Нажмите кнопку **Отправить**.
+    19. Чтобы завершить работу мастера, нажмите кнопку **Отправить**.
 
         ![Отправка PEM-файла](../media/30-day-trial-walkthrus/30day-cfg-pol-32-pem-upload.png)
 
@@ -289,6 +284,7 @@ ms.suite: ems
 [Руководство по оценке Intune](get-started-with-a-30-day-trial-of-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

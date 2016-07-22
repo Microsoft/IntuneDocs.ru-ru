@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Краткое руководство по Intune | Microsoft Intune
-description:
-keywords:
+title: "Краткое руководство по Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
+ms.openlocfilehash: ca0ca74357b59d9cc6fbf4ec7eb237dff972c411
+
 
 ---
 
@@ -41,7 +35,7 @@ ms.suite: ems
 -   Настройка функций Intune для использования в рабочей среде.
 
 >[!TIP]
->При покупке хотя бы 150 лицензий для Microsoft Intune в рамках подходящего плана можно использовать FastTrack Center Benefit — службу, c помощью которой специалисты Майкрософт совместно c вами подготовят среду для Intune. См. [описание преимущества службы Microsoft Intune](https://technet.microsoft.com/library/mt228265.aspx).
+>При покупке хотя бы 150 лицензий для Microsoft Intune в рамках подходящего плана можно использовать FastTrack Center Benefit — службу, c помощью которой специалисты Майкрософт совместно c вами подготовят среду для Intune. См. статью [Описание преимуществ службы Microsoft Intune](https://technet.microsoft.com/library/mt228265.aspx).
 
 
 ## Подготовка к работе
@@ -57,6 +51,7 @@ ms.suite: ems
 ### Устройство с браузером, поддерживающим Silverlight
 Оно потребуется для доступа к консоли администрирования Intune, служащей для управления устройствами, приложениями и политиками. Веб-браузер также нужен для доступа к корпоративному веб-порталу, когда вы не используете н приложение корпоративного портала с мобильного устройства. Чтобы упростить работу, можно использовать параметр "Режим конфиденциальности" в том же браузере, который применяется для администрирования Intune (например, в Internet Explorer можно выбрать **Сервис** &gt; **Просмотр InPrivate**).
 
+>[!TIP]
 >Из-за этого требования браузер Microsoft Edge не подходит для доступа к консоли администрирования Intune.
 
 
@@ -68,16 +63,18 @@ ms.suite: ems
 >[!NOTE]
 >В этом кратком руководстве предполагается, что пользователи получают приложение корпоративного портала из Магазина на устройстве с Windows Phone 8.1 или более поздней версии. Сведения о поддержке Windows Phone 8.0 см. в статье [Настройка управления Windows Phone 8.0 с помощью Microsoft Intune](/Intune/deploy-use/set-up-windows-phone-8.0-management-with-microsoft-intune).
 
-- У **ПК на базе Windows** или **устройств с Windows RT** требования к сертификатам отсутствуют, если выполняется регистрация компьютеров с Windows в качестве устройств или [установка клиента ПК Windows для Microsoft Intune](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune)
+- У **ПК на базе Windows** или **устройств с Windows RT** требования к сертификатам отсутствуют, если выполняется регистрация компьютеров с Windows в качестве устройств или [установка клиента ПК Windows для Microsoft Intune](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune).
 
-- Для устройств **iOS** или **Mac OS X** потребуется запросить у Apple сертификат Cлужбы push-уведомлений Apple, как описано в шаге 3 статьи [Настройка управления устройствами в iOS и Mac с помощью Microsoft Intune](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune).
+- Для устройств **iOS** или **Mac OS X** потребуется запросить у Apple сертификат Cлужбы push-уведомлений Apple, как описано в шаге 3 статьи [Настройка управления устройствами в iOS и Mac с помощью Microsoft Intune](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune).
 
 ### Дальнейшие действия
 Пришло время приступить к изучению краткого руководства по Intune!
 
 >[!div class="step-by-step"]
+[**Вход в Intune** &rarr;](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

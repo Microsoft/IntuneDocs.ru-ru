@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Создание политики соответствия устройств в Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Создание политики соответствия устройств в Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: f4f036fc1b6fe2394e05907e2d14289c9fba3426
+
 
 ---
 
@@ -84,6 +78,7 @@ ms.suite: ems
 [Общие сведения о политиках соответствия устройств](introduction-to-device-compliance-policies-in-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

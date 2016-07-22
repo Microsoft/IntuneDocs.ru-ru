@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Устранение неполадок с обновлениями программного обеспечения | Microsoft Intune
-description:
-keywords:
+title: "Устранение неполадок с обновлениями программного обеспечения | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ca4d4197ac1ece3e9abf44ad462d8ec7a807b4b2
+ms.openlocfilehash: d8470be236ac7b7a9431e07c5ca651cb6bd9fbc0
+
 
 ---
 
@@ -29,6 +23,8 @@ ms.suite: ems
 Сведения этого раздела помогут решить проблемы с обновлениями программного обеспечения в Microsoft Intune.
 
 Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
+
+## Коды ошибок агента обновления
 
 В следующей таблице перечислены коды ошибок **агента обновления** Intune. Если какой-либо код ошибки отсутствует в этой таблице, см. статью [Windows Update Agent Result Codes (Коды результата агента Центра обновления Windows)](http://go.microsoft.com/fwlink/?LinkID=221542).
 
@@ -268,6 +264,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO5-->
 
 

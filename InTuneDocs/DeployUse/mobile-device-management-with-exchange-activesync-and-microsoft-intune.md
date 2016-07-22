@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Управление мобильными устройствами с помощью Exchange ActiveSync и Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Управление мобильными устройствами с помощью Exchange ActiveSync и Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: nathbarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 14f5cf53-6764-4e22-a18b-fa750b3acd41
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: d24395786daa7aec103ec754895868a75983e099
+
 
 ---
 
@@ -41,14 +35,16 @@ Exchange требуется набор правил, определяющий, �
 -   [Настройка Intune service to service connector для размещенного Exchange](intune-service-to-service-exchange-connector.md)
 
 ## Применение политики для мобильных устройств под управлением Exchange
-Параметры политики можно применить с помощью консоли. См. статью [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md). Список параметров политик и функций Exchange ActiveSync, поддерживаемых определенными устройствами, см. в таблице [Exchange ActiveSync Client Comparison Table (Сравнение клиентов Exchange ActiveSync)](http://go.microsoft.com/fwlink/?LinkId=247270).
+Параметры политики можно применить с помощью консоли. См. статью [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md). Список параметров политик и функций Exchange ActiveSync, поддерживаемых определенными мобильными устройствами, см. в таблице [Сравнение клиентов Exchange ActiveSync](http://go.microsoft.com/fwlink/?LinkId=247270).
 
+> [!NOTE]
 > После подключения Intune к среде Microsoft Exchange политика EAS всех пользователей, управляемых с помощью Intune, будет сброшена до текущей политики по умолчанию на сервере Microsoft Exchange Server, если в Intune не определена более конкретная политика.
 
 ## Удаление корпоративных данных с мобильных устройств
 И, наконец, можно [удалить корпоративные данные с мобильных устройств под управлением EAS](wipe-for-exchange-managed-mobile-devices.md), если они больше не используется или устройства потеряны или украдены.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

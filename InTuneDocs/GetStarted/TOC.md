@@ -36,9 +36,9 @@
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
-# [Устранение неполадок](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
+# [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jun16_HO3-->
 
 

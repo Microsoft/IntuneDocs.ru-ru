@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Переход на Intune | Microsoft Intune
-description:
-keywords:
+title: "Переход на Intune | Microsoft Intune"
+description: 
+keywords: 
 author: jeffgilb
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
+ms.openlocfilehash: 20394c243b9355cd3f4e30f170dfd00d10e1153f
+
 
 ---
 
@@ -34,7 +27,7 @@ ms.suite: ems
 
 ## Уведомление пользователей
 
-Если вы уверены в том, что пилотное развертывание Intune выполнено в соответствии с требованиями, сообщите пользователям о предстоящей миграции их устройств на Intune. Сообщения электронной почты, [инструкции](http://www.microsoft.com/en-us/download/details.aspx?id=46398) и [плакаты](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT) помогут определить ожидания. В них можно указать действия по регистрации, которые необходимо выполнить пользователям для обеспечения непрерывного подключения к корпоративным ресурсам и приложениям. Убедитесь, что сотрудники службы поддержки готовы помочь пользователям в процессе миграции.
+Если вы уверены в том, что пилотное развертывание Intune выполнено в соответствии с требованиями, сообщите пользователям о предстоящей миграции их устройств на Intune. Сообщения электронной почты, инструкции и [плакаты](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT) помогут определить ожидания. В них можно указать действия по регистрации, которые необходимо выполнить пользователям для обеспечения непрерывного подключения к корпоративным ресурсам и приложениям. Убедитесь, что сотрудники службы поддержки готовы помочь пользователям в процессе миграции.
 
 ## Изменение существующего решения по управлению корпоративной мобильностью
 
@@ -75,9 +68,10 @@ ms.suite: ems
 
 ## Получить скачиваемую копию этого руководства
 
-Чтобы получить скачиваемую копию этого руководства, посетите [коллекцию TechNet](https://gallery.technet.microsoft.com/Migrating-to-Intune-ea439387).
+Чтобы получить загружаемую копию этого руководства, посетите [коллекцию TechNet](https://gallery.technet.microsoft.com/Migrating-to-Intune-ea439387).
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Настройка управления Android с помощью Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Настройка управления Android с помощью Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: lacranda
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f1dc713099c982d6e32c87b814dd3f55b1656eda
+ms.openlocfilehash: 5f65887345c1a650c6d80863e42f447035c789f7
+
 
 ---
 
@@ -51,6 +45,7 @@ ms.suite: ems
 [Подготовка к регистрации устройств в Microsoft Intune](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

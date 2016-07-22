@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Шифрование устройства | Microsoft Intune
-description:
-keywords:
+title: "Шифрование устройства | Microsoft Intune"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 06/07/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: arnab
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 39bcea03cad061e5b84e073cc5affcdd14fc6015
+ms.openlocfilehash: 22e9071171d2dc63562e94cabe2abdec3b2bd85e
+
 
 ---
 
@@ -53,6 +47,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

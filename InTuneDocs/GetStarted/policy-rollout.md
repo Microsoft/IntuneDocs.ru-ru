@@ -1,34 +1,28 @@
 ---
-# required metadata
-
-title: Развертывание политик | Microsoft Intune
-description:
-keywords:
+title: "Развертывание политик | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 390d5adf-86d2-4e23-ba93-1e61e6b1028b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
+ms.openlocfilehash: 8935fbc42d7b406a5bcdbfc4353209b4447ae413
+
 
 ---
 
 # Развертывание политик
 В этом разделе приведены некоторые рекомендации по поэтапному развертыванию политик в Microsoft Intune. Этот подход действует для первых политик, применяемых в новом развертывании Intune, или политик, добавляемых в существующее развертывание.
 
-Общие сведения об этапах развертывания см. в разделе [Rollout phases for Microsoft Intune deployment (Этапы развертывания в Microsoft Intune)](rollout-phases-for-microsoft-intune-deployment.md).
+Общие сведения об этапах развертывания см. в статье [Этапы развертывания Microsoft Intune](rollout-phases-for-microsoft-intune-deployment.md).
 
 ### Этапы развертывания политики
 Ниже перечислены этапы развертывания политики.
@@ -61,7 +55,7 @@ ms.suite: ems
 ## Подтверждение концепции
 На этапе подтверждения концепции необходимо протестировать развертывание политики в лабораторной среде на основе устройств и пользователей, настроенных исключительно в целях тестирования.
 
--   Привлеките службу технической поддержки к участию в этом этапе, чтобы выяснить, какие проблемы могут возникнуть во время пилотного и рабочего развертывания. Сведения об устранении неполадок доступны в разделе [Устранение неполадок с политиками Microsoft Intune](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune).
+-   Привлеките службу технической поддержки к участию в этом этапе, чтобы выяснить, какие проблемы могут возникнуть во время пилотного и рабочего развертывания. Сведения об устранении неполадок доступны в статье [Устранение неполадок с политиками Microsoft Intune](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune).
 
 -   На этом этапе процесса следует разработать планы коммуникации для пользователей пилотного и рабочего развертывания. Этот план должен содержать по крайней мере следующие сведения: какие поведения устройств будут изменены и когда, в чем заключается бизнес-цель изменения и что делать пользователям или ИТ-специалистам при возникновении проблем (информация для самостоятельного устранения неполадок и контактные данные службы поддержки).
 
@@ -102,6 +96,7 @@ ms.suite: ems
 [Устранение неполадок с политиками Microsoft Intune](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Настраиваемые конфигурации профилей VPN | Microsoft Intune
-description:
-keywords:
+title: "Настраиваемые конфигурации профилей VPN | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d5c48a4cead6250864f5b10444d99d062441bd99
+ms.openlocfilehash: 7e7c50552b5a61804e759a7ec5443029d4bd4584
+
 
 ---
 
@@ -50,7 +44,8 @@ ms.suite: ems
 
 При выборе развернутой политики можно просмотреть дополнительные сведения о развертывании в нижней части списка политик.
 
-##Пример параметров URI для настраиваемой конфигурации профиля VPN. Ниже приведены примеры значений URI для создания настраиваемой конфигурации VPN в вымышленной организации Contoso. Дополнительные сведения, например о типе данных для каждой записи, см. в статье [Поставщик службы конфигурации VPNv2](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx).
+##Пример параметров URI для настраиваемой конфигурации профиля VPN
+Ниже приведены примеры значений URI для создания настраиваемой конфигурации VPN в вымышленной компании Contoso. Дополнительные сведения, например о типе данных для каждой записи, см. в статье [Поставщик службы конфигурации VPNv2](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx).
 
 Собственный VPN Contoso (IKEv2): ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Servers
 
@@ -116,6 +111,7 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 (VPN-подключения в Microsoft Intune)[vpn-connections-in-microsoft-intune.md]
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

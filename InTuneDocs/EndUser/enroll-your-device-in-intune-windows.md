@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Регистрация устройства Windows в Intune | Microsoft Intune
-description:
-keywords:
+title: "Регистрация устройства Windows в Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 06/03/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d217ddcf-4908-4047-97a1-716bd433a13c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: priyar
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 98ba0968653ceaf13ab5422468040f8e2ce50422
+ms.openlocfilehash: e343905f7359e310bc5b171feb3311adf8b4012f
+
 
 ---
 
@@ -44,6 +38,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

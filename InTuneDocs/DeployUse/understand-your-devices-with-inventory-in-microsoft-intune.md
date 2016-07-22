@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Получение сведений об устройствах с помощью инвентаризации | Microsoft Intune
-description:
-keywords:
+title: "Получение сведений об устройствах с помощью инвентаризации | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
+ms.openlocfilehash: 55b99e326e4f22aee62b207eb2e976a8d52e70c3
+
 
 ---
 
@@ -66,7 +60,8 @@ Microsoft Intune позволяет просматривать данные ин
 |**Шифрование включено**|Все устройства|
 
 ## Данные, собираемые с компьютеров Windows
-> [!IMPORTANT] Этот раздел применим только для компьютеров под управлением Windows, на которых запущено клиентское программное обеспечение Windows Intune.
+> [!IMPORTANT]
+> Этот раздел применим только для компьютеров под управлением Windows, где запущено клиентское программное обеспечение Windows Intune.
 
 Чтобы просмотреть данные об инвентаризации компьютеров Windows, выполните [Отчеты об инвентаризации компьютеров](understand-microsoft-intune-operations-by-using-reports.md). Intune собирает следующие данные инвентаризации с компьютеров Windows:
 
@@ -118,6 +113,7 @@ Microsoft Intune позволяет просматривать данные ин
 -->
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Продукты и службы корпорации Майкрософт для реализации специальных возможностей | Microsoft Intune
-description:
-keywords:
+title: "Продукты и службы корпорации Майкрософт для реализации специальных возможностей | Microsoft Intune"
+description: 
+keywords: 
 author: 
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: b23d4007-1866-42e9-b6cb-d45408562da4
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
+
 
 ---
 
@@ -75,6 +69,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

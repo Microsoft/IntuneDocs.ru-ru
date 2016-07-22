@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: На устройстве не включена безопасная загрузка | Microsoft Intune
-description:
-keywords:
+title: "На устройстве не включена безопасная загрузка | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 05/30/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: de881f1b-7622-4ec2-8bf8-025f71ca9887
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisbal
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
+ms.openlocfilehash: e4c2066c0acb1c410ad420ebd5918535b72a5559
+
 
 ---
 
@@ -39,6 +33,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Параметры политики Windows Phone 8.1 | Microsoft Intune
-description:
-keywords:
+title: "Параметры политики Windows Phone 8.1 | Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 83f7469c-272e-43f2-8139-b0d7bc34f43f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a280fcbecf82e6ff27e40d2d53331b3988953ff7
+ms.openlocfilehash: fe685da41bb5379526bdc28c2f9cceb6b7800703
+
 
 ---
 
@@ -127,7 +121,8 @@ ms.suite: ems
 |**Импорт приложений**|Импортирует список приложений, указанных в файле с разделителями-запятыми. Используйте формат, имя приложения, издателя, URL-адрес приложения в файле.|
 |**Правка**|Позволяет изменить имя, издателя и URL-адрес выбранного приложения.|
 |**Удалить**|Удаляет выбранное приложение из списка.|
-> [!IMPORTANT] Если указать список разрешенных приложений для устройств Windows Phone 8.1, необходимо добавить в этот список приложение корпоративного портала, иначе оно будет заблокировано.
+> [!IMPORTANT]
+> Если указать список разрешенных приложений для устройств Windows Phone 8.1, необходимо добавить в этот список приложение корпоративного портала, иначе оно будет заблокировано.
 
 
 ### Справочные сведения для совместимых и несовместимых приложений.
@@ -174,6 +169,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

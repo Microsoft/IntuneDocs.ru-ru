@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Endpoint Protection для компьютеров с ОС Windows| Microsoft Intune
-description:
-keywords:
+title: "Endpoint Protection для компьютеров с ОС Windows| Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
-manager: jeffgilb
+manager: muhosabe
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 002241bf-6cd0-4c75-a4f0-891ac7e6721a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9b96e6c49ec9122961588156d77bf94cdbccd787
+ms.openlocfilehash: b1b1cc90672903ac0336151373272b5e20e56165
+
 
 ---
 
@@ -52,7 +46,8 @@ Microsoft Intune позволяет защищать управляемые ко
 
     -   Вручную удалите стороннее приложение защиты конечной точки.
 
-> [!NOTE] Intune не выполняет автоматического удаления сторонних приложений для защиты конечной точки.
+> [!NOTE]
+> Intune не выполняет удаление сторонних приложений защиты конечной точки.
 
 ## Настройка Microsoft Intune Endpoint Protection
 Ниже приведена процедура настройки Microsoft Intune Endpoint Protection.
@@ -162,7 +157,8 @@ Microsoft Active Protection Service — это интернет-сообщест
   - **Просмотреть свойства** открывает страницу с дополнительными сведениями о выбранном вредоносном ПО.
   - **Дополнительные сведения о вредоносной программе** открывает раздел с дополнительными сведениями из Центра Майкрософт по защите от вредоносных программ.
 
-> [!IMPORTANT] Рабочая область **Защита** будет отображаться на консоли администрирования, только если клиент установлен и управляет по крайней мере одним клиентом компьютера.
+> [!IMPORTANT]
+> Рабочая область **Защита** будет отображаться на консоли администрирования, только если клиент установлен и управляет по крайней мере одним клиентом компьютера.
 
   ![Наблюдение в Endpoint Protection](./media/pol-sa-ep-monitor.png)
 
@@ -181,7 +177,7 @@ Intune может выполнить полную или быструю пров
 1. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com/) выберите **Группы** > **Обзор** > **Все устройства** > **Все компьютеры** и затем выберите соответствующий компьютер.
 
 2. Выберите задачу из раскрывающегося списка **Удаленные задачи**. Задачи для выполнения на удаленном компьютере.
-![Запуск удаленной проверки на наличие вредоносных программ](../media/ep_sa_malwarescan.png)
+
 
 
 
@@ -192,6 +188,7 @@ Intune может выполнить полную или быструю пров
 [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO5-->
 
 

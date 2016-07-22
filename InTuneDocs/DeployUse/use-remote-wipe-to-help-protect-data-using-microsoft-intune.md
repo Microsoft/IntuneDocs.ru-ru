@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Использование удаленной очистки для защиты данных | Microsoft Intune
-description:
-keywords:
+title: "Использование удаленной очистки для защиты данных | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: aa4dc77c66a34d9d50b83d072ed5e03674b4d293
+ms.openlocfilehash: bfb82684d8c4347297c3ed8659cc44e70ad4706c
+
 
 ---
 
@@ -144,6 +138,7 @@ ms.suite: ems
 [Windows Selective Wipe for Device Data Management (Выборочная очистка Windows для управления данными устройства)](http://technet.microsoft.com/library/dn486874.aspx)
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

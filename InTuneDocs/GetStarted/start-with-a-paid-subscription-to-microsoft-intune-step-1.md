@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Регистрация или вход в Intune | Microsoft Intune
-description:
-keywords:
+title: "Регистрация или вход в Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
+ms.openlocfilehash: 1a67e22ef8f2b9d0c8bf0c816c774a15acc24f35
+
 
 ---
 
@@ -31,6 +25,7 @@ ms.suite: ems
 
 Если у вас уже есть рабочая или учебная учетная запись, можно просто выполнить **вход** с ней, чтобы добавить Intune в существующую среду подписки. В противном случае вам потребуется **зарегистрироваться** для создания новой учетной записи, позволяющей управлять Intune в вашей организации.
 
+>[!WARNING]
 >Если вы регистрируетесь для получения новой учетной записи, вы не сможете использовать существующую рабочую или учебную учетную запись для управления подпиской или объединить ее с существующими соглашениями о корпоративном лицензировании.
 
 ## Порядок регистрации или входа в Intune
@@ -44,16 +39,18 @@ ms.suite: ems
 
 После завершения процедуры регистрации вы будете направлены на страницу, позволяющую добавить пользователей и назначить им лицензии с помощью Центра администрирования Office 365. Если вы будете использовать только облачные учетные записи с именем домена по умолчанию onmicrosoft.com, то добавить пользователей и назначить лицензии можно уже на этом этапе. Однако если вы будете использовать имя личного домена организации или хотите синхронизировать учетные записи пользователей из локальной службы Active Directory, можно закрыть это окно браузера и перейти к шагу 2 этого краткого руководства.
 
->После следующего входа в Intune вы будете автоматически перенаправлены в консоль администрирования Intune.
+>[!TIP]
+> После следующего входа в Intune вы будете автоматически перенаправлены в консоль администрирования Intune.
 
 ### Дальнейшие действия
 Поздравляем! Вы завершили шаг 1 *краткого руководства по Intune*.
 
 >[!div class="step-by-step"]
 
->[&larr; **Приступая к работе**](.\start-with-a-paid-subscription-to-microsoft-intune.md)     [**Параметры домена** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-2.md)  
+>[&larr; **Начало работы**](.\start-with-a-paid-subscription-to-microsoft-intune.md) [**Параметры домена** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-2.md)  
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

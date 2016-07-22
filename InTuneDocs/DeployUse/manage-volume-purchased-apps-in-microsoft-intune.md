@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Управление приложениями, приобретенными по программе корпоративных закупок| Microsoft Intune
-description:
-keywords:
+title: "Управление приложениями, приобретенными по программе корпоративных закупок| Microsoft Intune"
+description: 
+keywords: 
 author: robstackmsft
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 674c8f4c-00be-4c69-85b7-cf7bdaa71c94
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 0b8da55b81040fd20e8234303ac4da384de954d8
+
 
 ---
 
@@ -43,6 +37,7 @@ Microsoft Intune помогает управлять приложениями, �
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

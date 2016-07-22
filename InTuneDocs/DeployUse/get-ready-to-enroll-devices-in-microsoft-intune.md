@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Подготовка к регистрации устройств | Microsoft Intune
-description:
-keywords:
+title: "Подготовка к регистрации устройств | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 71077d9f86a53cc66536928e4799fa4b1a51cdf0
+ms.openlocfilehash: 86d3b7894eca70454fa82393c4d06eab5a99246f
+
 
 ---
 
@@ -48,7 +42,8 @@ ms.suite: ems
 
 С помощью корпоративного портала Intune пользователи могут обращаться к данным компании и решать общие задачи, такие как регистрация устройств, установка приложений и получение поддержки отдела ИТ.
 
-> [!TIP] При настройке корпоративного портала конфигурации применяются как к веб-сайту корпоративного портала, так и к приложениям корпоративного портала.
+> [!TIP]
+> При настройке корпоративного портала все конфигурации применяются к веб-сайту корпоративного портала и приложениям корпоративного портала.
 
 Настройка корпоративного портала позволяет обеспечить удобную и привычную среду для конечных пользователей. Чтобы сделать это, просто войдите в [консоль администрирования Microsoft Intune](https://manage.microsoft.com) в качестве администратора клиента или службы, выберите **Администрирование** &gt; **Корпоративный портал** и настройте параметры корпоративного портала.
 
@@ -113,6 +108,7 @@ ms.suite: ems
  - [Указание принадлежащих организации устройств с помощью номеров IMEI](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md) для регистрации устройств и применения политики
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

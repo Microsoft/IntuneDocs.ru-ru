@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Устранение неполадок с политиками | Microsoft Intune
-description:
-keywords:
+title: "Устранение неполадок с политиками | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: ac3417781df0a5b092a70620aa7343849b1e8c82
+ms.openlocfilehash: 3ac6b06b7eb85503786b4d8b0b9bd2a30d2a15e6
+
 
 ---
 
@@ -58,7 +51,7 @@ ms.suite: ems
 ## Интервалы обновления политик
 Имейте в виду, что политики обновляются через равные промежутки времени. В общем случае политики должны регистрироваться на устройствах в течение 15 минут после внесения изменений. Ниже приведены дополнительные сведения о интервалах обновления политик.
 
--   **Устройство Windows, зарегистрированное для MDM**: активируется запланированной задачей в 3:00 по местному времени на устройстве и выполняется каждый день.
+-   **Устройства Windows, зарегистрированные для MDM**: политика обновляется каждые 8 часов для устройств Windows 8.1 и Windows 10 и каждые 24 часа для устройств Windows RT.
 
 -   **Windows Phone**: политика обновляется каждые 8 часов. Это можно выполнить принудительно с помощью элемента обновления на корпоративном портале в разделе **Параметры**.
 
@@ -116,6 +109,7 @@ ms.suite: ems
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO3-->
 
 

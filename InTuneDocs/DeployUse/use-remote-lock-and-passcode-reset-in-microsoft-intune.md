@@ -1,25 +1,19 @@
 ---
-title: Удаленная блокировка и сброс секретного кода | Microsoft Intune
-description:
-keywords:
+title: "Удаленная блокировка и сброс секретного кода | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
+translationtype: Human Translation
+ms.sourcegitcommit: 6d9b79a09eef2546d78a19e061ba5cc3f24f645c
+ms.openlocfilehash: 34379881b8299a2e3f9886b14b6d83e9dfe83373
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-#ms.reviewer: [ALIAS]
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
 ---
 # Защита устройств с помощью функций удаленной очистки и сброса секретного кода
 Microsoft Intune предоставляет возможности удаленной блокировки и сброса секретного кода.
@@ -73,9 +67,11 @@ Microsoft Intune предоставляет возможности удален�
 
 
 ### См. также
-Снятие устройств с учета
+[Списание устройств](retire-devices-from-microsoft-intune-management.md)
+[Выборочная очистка Windows для управления данными устройства](http://technet.microsoft.com/library/dn486874.aspx)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

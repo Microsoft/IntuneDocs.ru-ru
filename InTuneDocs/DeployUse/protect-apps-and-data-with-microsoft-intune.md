@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Защита приложений и данных | Microsoft Intune
-description:
-keywords:
+title: "Защита приложений и данных | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: 9445b4b171eb2102d73cf0e866e85b535274eee2
+
 
 ---
 
@@ -56,6 +50,7 @@ Intune защищает данные организации посредство
 Помимо ограничения перемещения данных, вы можете [выборочно удалить данные компании](wipe-managed-company-app-data-with-microsoft-intune.md), оставив только личные данные, если устройство потеряно или украдено, либо его пользователь больше не работает в организации.
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

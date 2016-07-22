@@ -1,31 +1,24 @@
 ---
-# required metadata
-
-title: Ограничение доступа к электронной почте и службам Office 365 | Microsoft Intune
-description:
-keywords:
+title: "Ограничение доступа к электронной почте и службам Office 365 | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 06/16/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: chrisgre
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f770bdc312879d1c833e8861494ecd2204ea603a
+ms.openlocfilehash: ebce26b0e09bb5282475cb1a39c8070a5d5b44aa
+
 
 ---
 
-# Ограничение доступа к электронной почте и службам Office 365 с помощью Microsoft Intune
+# Ограничение доступа к электронной почте, Office 365 и другим службам с помощью Microsoft Intune
 Доступ к корпоративной электронной почте и службам Office 365 можно ограничить с помощью условного доступа в Intune. Возможность условного доступа Intune позволяет ограничить доступ к корпоративной электронной почте и службам Office 365 теми устройствами, которые удовлетворяют заданным правилам.
 ## Как работает условный доступ?
 Параметры политики соответствия используются для оценки соответствия устройства. Политика условного доступа использует эту оценку для разрешения и ограничения доступа к конкретной службе. При использовании политики условного доступа в сочетании с политикой соответствия доступ к службе получают только соответствующие устройства.
@@ -37,7 +30,7 @@ ms.suite: ems
 
 Типовой алгоритм условного доступа:
 
-![На схеме показаны точки принятия решений, используемые для выбора между разрешением доступа к службе и блокировкой устройства.](./media/ConditionalAccess4.png)
+![На схеме показаны точки принятия решений, используемые для выбора между разрешением доступа к службе и блокировкой устройства.](../media/ConditionalAccess4.png)
 
 ## Как настроить условный доступ?
 Условный доступ используется для управления доступом к **локальному Microsoft Exchange**, **Exchange Online**, **выделенной среде Exchange Online**, **SharePoint Online** и **Skype для бизнеса Online**.
@@ -67,8 +60,10 @@ ms.suite: ems
   - [Создание политики условного доступа для прежней выделенной среды Exchange Online](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
   - [Создание политики условного доступа для SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
   - [Создание политики условного доступа для Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+  - [Создание политики условного доступа для Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO3-->
 
 

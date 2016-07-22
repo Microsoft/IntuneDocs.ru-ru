@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Мониторинг политик управления мобильными приложениями с помощью Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Мониторинг политик управления мобильными приложениями с помощью Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: karthikaraman
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: joglocke
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
+ms.openlocfilehash: 99b50bd040bbbdfa3ad7937d7703700526c9c4d5
+
 
 ---
 
@@ -77,6 +71,7 @@ ms.suite: ems
 [Работа конечных пользователей с приложениями с включенной поддержкой MAM](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

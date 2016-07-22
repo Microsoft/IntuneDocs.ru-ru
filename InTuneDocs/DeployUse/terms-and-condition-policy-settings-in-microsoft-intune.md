@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Параметры политики условий в Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Параметры политики условий в Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: NathBarn
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 6edf0ac1-4f46-4543-a9e5-f484ac37e9a5
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
+ms.openlocfilehash: 8079ca5abcedbe024fb6347e02c7cf61ae541a30
+
 
 ---
 
@@ -32,7 +26,7 @@ ms.suite: ems
 
 ## Создание политики условий
 
-1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) перейдите в раздел **Политика** &gt; **Условия**.
+1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) выберите **Политика** &gt; **Условия**.
 
     ![Снимок экрана с политикой условий](./media/pol-sa-terms-conditions.png)
 
@@ -54,7 +48,7 @@ ms.suite: ems
 
 ## Развертывание политики условий
 
-1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) перейдите в раздел **Политика** &gt; **Условия**.
+1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) выберите **Политика** &gt; **Условия**.
 
 2.  В списке **Политики условий** выберите политику, которую нужно развернуть, и щелкните **Управление развертыванием**.
 
@@ -64,7 +58,7 @@ ms.suite: ems
 
 ## Мониторинг политики условий
 
-1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) перейдите в раздел **Политика** &gt; **Условия**.
+1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) выберите **Политика** &gt; **Условия**.
 
 2.  В окне **Создать новый отчет** нажмите кнопку **Просмотреть отчет**. Появится отчет с подробными сведениями о пользователях, которые приняли развернутые условия.
 
@@ -73,7 +67,7 @@ ms.suite: ems
 
 ## Работа с несколькими версиями условий
 
-1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) перейдите в раздел **Политика** &gt; **Условия**.
+1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) выберите **Политика** &gt; **Условия**.
 
 2.  Выберите политику условий, которую требуется изменить, и нажмите кнопку **Изменить**.
 
@@ -85,6 +79,7 @@ ms.suite: ems
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

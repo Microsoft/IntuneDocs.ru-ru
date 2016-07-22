@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Сброс (очистка) потерянного или украденного устройства | Microsoft Intune
-description:
-keywords:
+title: "Сброс (очистка) потерянного или украденного устройства | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 05/09/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 70788dca-765f-47a7-9994-a286f8a88588
-
-# optional metadata
-
-ROBOTS:
-#audience:
-#ms.devlang:
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
+ms.openlocfilehash: 7c6e3e0f008f084a63288eec66f7161a1edb9ffe
+
 
 ---
 
@@ -50,6 +45,7 @@ ms.suite: ems
 ### См. также
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

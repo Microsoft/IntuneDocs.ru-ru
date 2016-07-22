@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Получение поддержки | Microsoft Intune
-description:
-keywords:
+title: "Получение поддержки | Microsoft Intune"
+description: 
+keywords: 
 author: Nbigman
 manager: jeffgilb
 ms.date: 05/26/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 632115d1010217f927e20a7e9532311d48f2b106
+ms.openlocfilehash: a6cb77b441c7c44f33c0353232409f8d7b2daa6a
+
 
 ---
 
@@ -41,6 +34,7 @@ ms.suite: ems
 
     -   Для всех других проблем Intune выберите **Управление мобильными устройствами**. Кроме того, этот вариант распространяется на Office 365 MDM и System Center Configuration Manager с Intune.
 
+    > [!NOTE]
     > [!NOTE] Для просмотра всех категорий щелкните **дополнительно** в нижней части списка.
 
 3.  На странице **Identify the issue** (Описание проблемы) выберите **функцию** и **симптом**, по которым вам требуется помощь. Вам будет предложено указать **Issue summary** (Cводные сведения о проблеме) и **Issue details** (Подробные сведения о проблеме).
@@ -58,7 +52,8 @@ ms.suite: ems
 Для отслеживания запросов перейдите в [Центр администрирования Office 365](https://portal.office.com/admin/default.aspx). В нижней части списка **Создание запроса на обслуживание** выберите **Показать все запросы в службу поддержки**. По умолчанию отображаются все запросы на обслуживание, находящиеся в открытом состоянии. Чтобы изменить режим отображения запросов на обслуживание, например для просмотра закрытых запросов, щелкните значок фильтра в верхней панели навигации и выберите нужное представление.
 
 > [!NOTE]
-> **Если вы используете Microsoft System Center Configuration Manager** или **Microsoft System Center Endpoint Protection:** для получения технической поддержки с Configuration Manager или Endpoint Protection обратитесь к своему партнеру или посетите [Microsoft System Center Configuration Manager и System Center Endpoint Protection Solution Center](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx), где находится множество материалов для самостоятельного решения вопросов и можно открыть запрос на поддержку через Интернет или по телефону.
+> [!NOTE]
+**Если вы используете Microsoft System Center Configuration Manager** или **Microsoft System Center Endpoint Protection:** для получения технической поддержки с Configuration Manager или Endpoint Protection обратитесь к своему партнеру или посетите [Microsoft System Center Configuration Manager и System Center Endpoint Protection Solution Center](http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2/resources.aspx), где находится множество материалов для самостоятельного решения вопросов и можно открыть запрос на поддержку через Интернет или по телефону.
 >
 > Техническая поддержка для System Center Configuration Manager или System Center Endpoint Protection является платной или будет относиться на счет существующих лицензионных соглашений или соглашений для поддержки Premier.
 
@@ -144,9 +139,7 @@ ms.suite: ems
 [Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune](troubleshoot-software-updates-in-microsoft-intune.md)
 
 
-[Часто задаваемые вопросы по Intune](/intune/understand-explore/frequently-asked-questions-for-microsoft-intune)
 
-
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 

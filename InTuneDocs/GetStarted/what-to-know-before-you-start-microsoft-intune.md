@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Предварительные сведения перед началом работы с Microsoft Intune | Microsoft Intune
-description:
-keywords:
+title: "Предварительные сведения перед началом работы с Microsoft Intune | Microsoft Intune"
+description: 
+keywords: 
 author: Staciebarker
 manager: jeffgilb
 ms.date: 06/08/2016
 ms.topic: get-started-article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 09caaa76d08f99b0d455d291fbd4002289f2f11c
+ms.openlocfilehash: fe2ebc32005d04e92b93fd817981aa2a632c2288
+
 
 ---
 
@@ -36,7 +30,7 @@ ms.suite: ems
 - [Корпоративный портал Microsoft Intune](microsoft-intune-company-portal.md)
 - [Интеграция Intune с облачными службами и продуктами Майкрософт](integration-with-cloud-services.md)
 - [Использование пропускной способности сети Intune](network-bandwidth-use.md)
-- [Доменные имена для Microsoft Intune](domain-names-for-microsoft-intune.md)
+- [Управление пользовательскими доменами с помощью Microsoft Intune](domain-names-for-microsoft-intune.md)
 
 
 Перед использованием Intune также можно ознакомиться со статьей [Intune mobile device management capabilities](/intune/get-started/mobile-device-management-capabilities-in-microsoft-intune) (Возможности Intune по управлению мобильными устройствами). Если вы начнете с пробной подписки, в дальнейшем ее можно будет преобразовать в полную. См. статью [Как приобрести Microsoft Intune](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx).
@@ -47,6 +41,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 
