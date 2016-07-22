@@ -1,20 +1,20 @@
 ---
 title: "Параметры политики условий в Microsoft Intune | Microsoft Intune"
-description: 
+description: "Можно развернуть условия Intune для групп пользователей, чтобы объяснить, как регистрация, доступ к рабочим ресурсам и применение приложения корпоративного портала влияют на устройства и пользователей."
 keywords: 
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/11/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6edf0ac1-4f46-4543-a9e5-f484ac37e9a5
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 8079ca5abcedbe024fb6347e02c7cf61ae541a30
+ms.sourcegitcommit: ac41e0e65a4687262d76b01ee4e1b7356c76650c
+ms.openlocfilehash: c805d664fe85b206fc1019114ee17514ef49df0f
 
 
 ---
@@ -80,6 +80,6 @@ ms.openlocfilehash: 8079ca5abcedbe024fb6347e02c7cf61ae541a30
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

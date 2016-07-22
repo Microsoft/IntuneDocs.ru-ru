@@ -3,18 +3,19 @@ title: "Установка интервала времени до блокиро
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5f365c7d-5889-4072-a994-613ce3c26ce4
+ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 898d840c00d2ebdc06bb0f8f54d886c1573b79e5
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: fe54897fe42d07040b873d6112e34830652fdf20
 
 
 ---
@@ -35,6 +36,6 @@ ms.openlocfilehash: 898d840c00d2ebdc06bb0f8f54d886c1573b79e5
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

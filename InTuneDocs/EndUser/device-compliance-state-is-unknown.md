@@ -3,18 +3,19 @@ title: "Состояние соответствия устройства неи�
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 796297c4-02a1-4d7a-aec1-bae63727ffd3
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: 89b8ffcb9b8064fa95eefaa1d9e93f3fb46a9d34
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 2adae96c0051056beae86b12dfef1234c00fff9f
 
 
 ---
@@ -28,6 +29,6 @@ ms.openlocfilehash: 89b8ffcb9b8064fa95eefaa1d9e93f3fb46a9d34
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

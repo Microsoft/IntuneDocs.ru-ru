@@ -3,16 +3,17 @@ title: "Установка или изменение секретного код
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 5/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 365f72a6-564d-4cbd-8f0a-70ec80b6e253
+ROBOTS: noindex,nofollow
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: ca7c8d3f87c90b5f586af6b43d214edb3b99ce4a
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 25c1da243f5d0ccde54a9b1c70c300e64f76ea34
 
 
 ---
@@ -44,6 +45,6 @@ ms.openlocfilehash: ca7c8d3f87c90b5f586af6b43d214edb3b99ce4a
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

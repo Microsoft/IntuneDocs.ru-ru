@@ -10,10 +10,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1712bd39-562b-4409-9cec-155d5f4d8a39
-ms.reviewer: jeffgilb
+ms.reviewer: dagerrit
 ms.suite: ems
-ms.sourcegitcommit: 398d93d4e2317d00a2f9d5f89966aaec3b942504
-ms.openlocfilehash: af4b87eb8082ee5ff11cd2d42b788ad17b334bcb
+translationtype: Human Translation
+ms.sourcegitcommit: 590b8bc5a307e238ba41d32f98f6878daebf1185
+ms.openlocfilehash: 7df281a3e35ac563f7b82e4b13407b413f8a7e4a
 
 
 ---
@@ -48,6 +49,6 @@ Microsoft Intune позволяет администраторам импорт�
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

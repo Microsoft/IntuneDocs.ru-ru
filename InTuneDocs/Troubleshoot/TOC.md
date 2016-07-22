@@ -16,6 +16,6 @@
 ## [Устранение неполадок с профилями электронной почты](Troubleshoot-email-profiles-in-microsoft-intune.md)
 ## [Устранение неполадок условного доступа](troubleshoot-conditional-access.md)
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

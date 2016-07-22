@@ -3,18 +3,19 @@ title: "Найдена существующая учетная запись эл
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 74c51f7b-7bd8-45cf-99bd-02d1972267cb
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 02a07a6017ed2bb569dd9d3756f84b7b8078f630
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: cca55c987b42894547977d94bd549342b4ca4bd8
 
 
 ---
@@ -35,6 +36,6 @@ ms.openlocfilehash: 02a07a6017ed2bb569dd9d3756f84b7b8078f630
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

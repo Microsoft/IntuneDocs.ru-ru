@@ -1,9 +1,9 @@
 ---
 title: "Управление лицензиями Intune с помощью PowerShell | Microsoft Intune"
-description: 
+description: "Управление лицензиями Intune с помощью PowerShell"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d2d31c80-c32c-4315-8271-1b0cf9a1f78a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2847c9af38ae0ddddc8d76d548ae7abddc63e4c1
-ms.openlocfilehash: e0eca2ecc9948c7caf15d5df5e6e106428b8b964
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: ab33ee908f943b58ad00e86839452c420124bc4d
 
 
 ---
@@ -67,6 +67,6 @@ ms.openlocfilehash: e0eca2ecc9948c7caf15d5df5e6e106428b8b964
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

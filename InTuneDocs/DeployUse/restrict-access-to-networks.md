@@ -3,16 +3,18 @@ title: "Ограничение доступа к сетям с помощью Ci
 description: "Используйте Cisco ISE с Intune, чтобы регистрировать устройства в Intune и обеспечивать соответствие политикам до того, как они получат доступ к сетям Wi-Fi и VPN, управляемым Cisco ISE."
 keywords: 
 author: nbigman
-manager: jeffgilb
+manager: Arob98
 ms.date: 06/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
+ms.reviewer: muhosabe
+ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: 78945498a951e7b897164ae6f33c4e87d521ca5b
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 9e90971a9997e65e98a8c55b24fb70a42da93702
 
 
 ---
@@ -52,8 +54,8 @@ ms.openlocfilehash: 78945498a951e7b897164ae6f33c4e87d521ca5b
     г. Выберите сертификат, а затем выберите **Экспорт**.  
 
 
-> [!IMPORTANT]
-> Проверьте срок действия сертификата, поскольку по истечении срока действия этого сертификата потребуется экспортировать и импортировать новый.
+    > [!IMPORTANT]
+    > Проверьте срок действия сертификата, поскольку по истечении срока действия этого сертификата потребуется экспортировать и импортировать новый.
 
     
 
@@ -126,10 +128,10 @@ ms.openlocfilehash: 78945498a951e7b897164ae6f33c4e87d521ca5b
 
 Если пользователь выберет регистрацию, он будет перенаправлен в процесс регистрации Intune. Процедура регистрации пользователей для Intune описана в следующих разделах:
 
-- [Регистрация устройства Android в Intune](/intune/end-user/enroll-your-device-in-Intune-android)</br>
-- [Регистрация устройства iOS в Intune](/intune/end-user/enroll-your-device-in-intune-ios)</br>
-- [Регистрация устройства Mac OS X в Intune](/intune/end-user/enroll-your-device-in-intune-mac-os-x)</br>
-- [Регистрация устройства Windows в Intune](/intune/end-user/enroll-your-device-in-intune-windows)</br> 
+- [Регистрация устройства Android в Intune](/intune/enduser/enroll-your-device-in-Intune-android)</br>
+- [Регистрация устройства iOS в Intune](/intune/enduser/enroll-your-device-in-intune-ios)</br>
+- [Регистрация устройства Mac OS X в Intune](/intune/enduser/enroll-your-device-in-intune-mac-os-x)</br>
+- [Регистрация устройства Windows в Intune](/intune/enduser/enroll-your-device-in-intune-windows)</br> 
 
 Также можно [загрузить набор инструкций по регистрации](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a), с помощью которых можно составить свое собственное руководство для пользователей.
 
@@ -141,6 +143,6 @@ ms.openlocfilehash: 78945498a951e7b897164ae6f33c4e87d521ca5b
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
