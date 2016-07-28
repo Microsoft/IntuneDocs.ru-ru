@@ -1,10 +1,10 @@
 ---
-title: "Защита бизнес-приложений и данных на незарегистрированных устройствах | Microsoft Intune"
-description: 
+title: "Защита бизнес-приложений на незарегистрированных устройствах | Microsoft Intune"
+description: "В этом разделе описывается, как подготовить пользовательские бизнес-приложения, чтобы можно было применить политики управления мобильными приложениями, которые позволяют предотвратить потерю данных."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: 5e8b2a3f830016bbcd1965898dcf7b5d9a0597b5
+translationtype: Human Translation
+ms.sourcegitcommit: ce0bc5d1256e96e04e5d59420baed2117cb4854d
+ms.openlocfilehash: 1df9d98f45eaf93163116e4f6a4c9d32125043c8
 
 
 ---
@@ -74,6 +75,6 @@ ms.openlocfilehash: 5e8b2a3f830016bbcd1965898dcf7b5d9a0597b5
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

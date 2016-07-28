@@ -1,27 +1,27 @@
 ---
-title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune? | Microsoft Intune"
+title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или Mac OS X в Intune? | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
-ROBOTS: 
+ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: f07eaf82a3bd8fc7fb47032642b30850fcbbb30d
 
 
 ---
 
 
-# Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?
+# Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или Mac OS X в Intune?
 
 Когда вы устанавливаете приложение корпоративного портала и затем регистрируете устройство iOS или Mac OS X в Intune, это приложение можно использовать, чтобы:
 
@@ -29,9 +29,9 @@ ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
 
 -   скачать приложения организации с корпоративного портала;
 
--   автоматически настроить учетную запись почты компании;
+-   удаленно сбросить настройки телефона до заводских при его утере или краже;
 
--   сбросить телефон до заводских настроек при его утере или краже.
+-   автоматически настроить учетную запись почты компании;
 
 Регистрируя устройство в Intune, вы предоставляете своему ИТ-администратору разрешение на управление устройством для защиты корпоративных данных на нем.
 
@@ -64,8 +64,6 @@ ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
 -   Владелец
 
 -   Имя устройства
-
--   Изготовитель
 
 Когда устройство зарегистрировано, ИТ-администратор может:
 
@@ -101,6 +99,6 @@ ms.openlocfilehash: a83edd3ed51bddafd6f057ed9ae2bb0958c88fe4
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

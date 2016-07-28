@@ -1,6 +1,6 @@
 ---
 title: "Устранение неполадок с обновлениями программного обеспечения | Microsoft Intune"
-description: 
+description: "Сведения о решении проблем с обновлениями программного обеспечения в Microsoft Intune."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,14 +13,14 @@ ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ca4d4197ac1ece3e9abf44ad462d8ec7a807b4b2
-ms.openlocfilehash: d8470be236ac7b7a9431e07c5ca651cb6bd9fbc0
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: b5e561b17f385d828fbd34658e4c30ac62ab0ea3
 
 
 ---
 
 # Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune
-Сведения этого раздела помогут решить проблемы с обновлениями программного обеспечения в Microsoft Intune.
+Сведения в этом разделе помогут решить проблемы с обновлениями программного обеспечения в Microsoft Intune.
 
 Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
@@ -265,6 +265,6 @@ ms.openlocfilehash: d8470be236ac7b7a9431e07c5ca651cb6bd9fbc0
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

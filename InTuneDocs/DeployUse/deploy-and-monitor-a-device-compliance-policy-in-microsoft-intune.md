@@ -1,10 +1,10 @@
 ---
-title: "Развертывание и мониторинг политики соответствия в Microsoft Intune | Microsoft Intune"
-description: 
+title: "Развертывание и мониторинг политики соответствия требованиям | Microsoft Intune"
+description: "Воспользуйтесь пошаговыми инструкциями из этого раздела, чтобы развернуть политику соответствия требованиям и следить за ней."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 42d326dbe937724141213dacc133aefe5020a61d
 
 
 ---
@@ -31,7 +31,8 @@ ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
 
 Используйте сводку состояния и оповещения на странице **Обзор** рабочей области **Политика** для выявления проблем с политикой, требующих вашего внимания. Кроме того, сводка состояний отображается в рабочей области **Панель мониторинга** .
 
-> [!IMPORTANT]Если политика соответствия не была развернута и включена политика условного доступа Exchange, доступ будет разрешен всем целевым устройствам.
+> [!IMPORTANT]
+> Если политика соответствия не была развернута и включена политика условного доступа Exchange, доступ будет разрешен всем целевым устройствам.
 
 ## Разрешение конфликтов политик Intune
 Конфликты могут возникать из-за применения нескольких политик Intune к устройству. Если параметры политик пересекаются, Intune разрешает конфликты согласно приведенным ниже правилам.
@@ -71,6 +72,6 @@ ms.openlocfilehash: 52da5cf6d14a5fc3ff3db6bdb07823d3bf373466
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

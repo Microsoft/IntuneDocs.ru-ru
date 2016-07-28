@@ -13,8 +13,8 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: c9b34408e4af34dafc700d016304a6d29c2e8585
+ms.sourcegitcommit: 4a7c6d8f4e47f050888e9fcf5edfa586c4a24065
+ms.openlocfilehash: 502a08c1bf49057220917d929a8ffe0b98d3de2a
 
 
 ---
@@ -69,7 +69,7 @@ ms.openlocfilehash: c9b34408e4af34dafc700d016304a6d29c2e8585
 ## Управление с помощью Exchange ActiveSync
 Вы также можете управлять устройствами с помощью Exchange ActiveSync. Для этого необходимо установить локальный соединитель или использовать встроенный соединитель служб для подключения к Exchange Server.
 
-Дополнительные сведения о требованиях к оборудованию и программному обеспечению для установки локального соединителя см. в разделе [Требования для локального соединителя](/intune/deploy-use/intune-on-premises-exchange-connector#requirements-for-the-on-premises-connect).
+Дополнительные сведения о требованиях к оборудованию и программному обеспечению для установки локального соединителя см. в разделе [Требования для локального соединителя](/intune/deploy-use/intune-on-premises-exchange-connector#requirements-for-the-on-premises-connector).
 
 Сведения об использовании локального соединителя или соединителя служб с Exchange см. в разделе [Управление мобильными устройствами с помощью Exchange ActiveSync и Microsoft Intune](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
 
@@ -80,6 +80,6 @@ ms.openlocfilehash: c9b34408e4af34dafc700d016304a6d29c2e8585
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

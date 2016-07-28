@@ -1,26 +1,27 @@
 ---
-title: "Что происходит при отмене регистрации устройства в Intune? | Microsoft Intune"
+title: "Что происходит при отмене регистрации устройства Android в Intune? | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0321062d-1363-4ac3-81d4-5405f3b79481
+ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: f0465d4302bda3df82c994043df52c27761a8345
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 55bb03075da7fab06196857c1d5e5a95befc248d
 
 
 ---
 
 
-# Что происходит при отмене регистрации устройства в Intune?
+# Что происходит при отмене регистрации устройства Android в Intune?
 
 После отмены регистрации устройства Android в Intune:
 
@@ -38,12 +39,13 @@ ms.openlocfilehash: f0465d4302bda3df82c994043df52c27761a8345
 
 Инструкции по отмене регистрации см. в статье [Отмена регистрации устройства в Intune с помощью приложения корпоративного портала](unenroll-your-device-from-intune-android.md).
 
-Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+Требуется помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
+
 
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

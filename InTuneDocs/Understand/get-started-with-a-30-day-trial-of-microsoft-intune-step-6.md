@@ -1,9 +1,9 @@
 ---
-title: "Прочие параметры и дополнения для подписок на ознакомительную версию Intune | Microsoft Intune"
-description: 
+title: "Прочие параметры и дополнения для ознакомительной версии Intune | Microsoft Intune"
+description: "Описание оповещений, уведомлений и отчетов, а также общие возможности Intune, которые необходимо знать при регистрации для получения бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 170cd959-d35b-4129-ae60-117d7e881bc9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: 0574891a021d43f54ef78ded20d6cf19c18eb25b
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 30ed78b967d8669999f59046d610eca6c78260a1
 
 
 ---
@@ -58,6 +58,6 @@ Intune имеет широкий набор возможностей в допо
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

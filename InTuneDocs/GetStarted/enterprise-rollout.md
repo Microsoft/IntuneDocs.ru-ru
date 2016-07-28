@@ -1,6 +1,6 @@
 ---
 title: "Корпоративное развертывание | Microsoft Intune"
-description: 
+description: "Рекомендации по этапу развертывания в процессе развертывания Intune."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: d894708e-7071-44f5-aa3b-af5aef02fb98
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
-ms.openlocfilehash: 588d37ac5524c80da9082ee5b1af0e897e925ef9
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 65506ec3b4d903672e2259be567c07402ee29f31
 
 
 ---
@@ -108,6 +108,6 @@ ms.openlocfilehash: 588d37ac5524c80da9082ee5b1af0e897e925ef9
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

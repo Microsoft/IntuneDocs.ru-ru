@@ -1,10 +1,10 @@
 ---
 title: "Управление корпоративными устройствами | Microsoft Intune"
-description: 
+description: "Здесь описываются разные способы управления корпоративными устройствами в зависимости от типа устройства, способа его приобретения и потребностей организации."
 keywords: 
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 2b60bbff-25e6-489b-9621-c71b4275fa06
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 69cf07aa0747448e0ef3384b5b5132e0e76aed45
-ms.openlocfilehash: e07053b9b26afacc03e45f2cb104eda6088a1e05
+ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
+ms.openlocfilehash: 6cf620a96b39540c8b7ca618936af1367971bb8f
 
 
 ---
@@ -32,13 +32,27 @@ ms.openlocfilehash: e07053b9b26afacc03e45f2cb104eda6088a1e05
 
 [Регистрация корпоративных устройств с помощью диспетчера регистрации устройств](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)
 
-## Международный идентификатор мобильного оборудования (IMEI)
-Уникальные номера IMEI являются общим свойством устройств для многих производителей мобильных устройств. Администраторы Intune могут импортировать номера IMEI для принадлежащих организации устройств. Когда устройство попадает под управление Intune, его можно пометить как корпоративное и применить к нему соответствующую политику.
+## Регистрация корпоративных компьютеров с Windows 10
+
+Если ваша организация использует решение Azure Active Directory Premium (AADP) или Enterprise Management Suite (EMS), вы можете [зарегистрировать Windows 10 для предприятия](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview), после чего устройства будут автоматически помечаться как корпоративные, когда пользователи будут добавлять свою рабочую или учебную учетную запись.
+
+## Определение устройства как корпоративного
+
+Корпоративные устройства отмечаются как **Корпоративные** в области **Владение** списков устройств. Устройства можно определить как корпоративные следующими способами:
+
+ - [зарегистрировав с помощью диспетчера регистрации устройств;](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)
+ - зарегистрировав с помощью [программы регистрации устройств](ios-device-enrollment-program-in-microsoft-intune.md) Apple или [Apple Configurator](ios-setup-assistant-enrollment-in-microsoft-intune.md);
+ - [предварительно объявив устройства с использованием номеров IMEI;](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
+ - [зарегистрировав устройства с Windows 10 в Azure Active Directory или Enterprise Management Suite.](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)
+
+### Международный идентификатор мобильного оборудования (IMEI)
+
+Уникальные номера IMEI являются общим свойством устройств для многих производителей мобильных устройств. Администраторы Intune могут импортировать номера IMEI для принадлежащих организации устройств. Когда устройство попадает под управление Intune, оно помечается как корпоративное.
 
 [Указание корпоративных устройств по номерам IMEI](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

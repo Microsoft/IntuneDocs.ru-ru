@@ -1,26 +1,27 @@
 ---
-title: "Синхронизация устройства вручную | Microsoft Intune"
+title: "Ручная синхронизация устройства с помощью веб-сайта корпоративного портала | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ecd0628a-3c8a-4d6b-8985-1641dd24132b
+ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 98ba0968653ceaf13ab5422468040f8e2ce50422
-ms.openlocfilehash: 2fc13272848bd70d4ebed2750c550f7a5eb13508
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 24ebed67f0d452ec14a778b2e249b10ad035162c
 
 
 ---
 
 
-# Синхронизация устройства вручную
+# Ручная синхронизация устройства с помощью веб-сайта корпоративного портала.
 
 Если установка приложения занимает слишком много времени, можно попробовать синхронизировать устройство вручную, что ускоряет установку. Выполните действия, соответствующие типу используемого вами устройства или вашей версии Windows. Синхронизация устройства для ускорения установки приложений доступна только для перечисленных ниже версий.
 
@@ -33,6 +34,6 @@ ms.openlocfilehash: 2fc13272848bd70d4ebed2750c550f7a5eb13508
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

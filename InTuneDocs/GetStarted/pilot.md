@@ -1,6 +1,6 @@
 ---
 title: "Пилотное развертывание | Microsoft Intune"
-description: 
+description: "Рекомендации по пилотному этапу развертывания Intune."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 14e55841-37f1-472c-9678-a1ba847cb331
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
-ms.openlocfilehash: af0c3e623167ae7df0177ddcd8e541482512e6b3
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: cdaa159ba46036e966a3a4585192599908d7cec9
 
 
 ---
@@ -108,6 +108,6 @@ ms.openlocfilehash: af0c3e623167ae7df0177ddcd8e541482512e6b3
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

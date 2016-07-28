@@ -1,10 +1,10 @@
 ---
 title: "Настраиваемые конфигурации профилей VPN | Microsoft Intune"
-description: 
+description: "Создание профилей VPN в Intune с помощью настраиваемых конфигураций."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d5c48a4cead6250864f5b10444d99d062441bd99
-ms.openlocfilehash: 7e7c50552b5a61804e759a7ec5443029d4bd4584
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: b61a4c90cfed9922df151a6c1ac93e276db18623
 
 
 ---
@@ -112,6 +112,6 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

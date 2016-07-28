@@ -1,9 +1,9 @@
 ---
 title: "Регистрация устройства в Intune | Microsoft Intune"
-description: 
+description: "Содержит ссылки на инструкции по регистрации различных устройств в Intune."
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/06/2016
 ms.topic: article
 ms.prod: 
@@ -11,8 +11,8 @@ ms.service:
 ms.technology: 
 ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6
 translationtype: Human Translation
-ms.sourcegitcommit: 98ba0968653ceaf13ab5422468040f8e2ce50422
-ms.openlocfilehash: b38457634263b8fbda0c6b6e3e5d9156dd6668a8
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 4b4ba4c57b8675ad1fde256ce07904af93fd8cd7
 
 
 ---
@@ -34,6 +34,6 @@ ms.openlocfilehash: b38457634263b8fbda0c6b6e3e5d9156dd6668a8
 - [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

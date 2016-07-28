@@ -1,6 +1,6 @@
 ---
 title: "Общие советы по устранению неполадок | Microsoft Intune"
-description: 
+description: "Общие ресурсы для решения проблем при работе с Intune."
 keywords: 
 author: nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: c86a4e4a-6b9f-4835-a3d3-61a3f5f4c1ec
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
-ms.openlocfilehash: 6b2d1d5eecb543e45fca5fbb8aa1854c88ec4f9c
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 3fe277417c82bc4d60f355ac5366f0f7d70039ab
 
 
 ---
@@ -92,6 +92,6 @@ ms.openlocfilehash: 6b2d1d5eecb543e45fca5fbb8aa1854c88ec4f9c
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

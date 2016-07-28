@@ -1,10 +1,10 @@
 ---
-title: "Обеспечение доступа к ресурсам компании с помощью профилей сертификатов | Microsoft Intune"
-description: 
+title: "Профили сертификатов для доступа к ресурсам | Microsoft Intune"
+description: "Защита доступа к VPN, Wi-Fi и электронной почте с помощью сертификата, устанавливаемого на каждом устройстве пользователя."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 79617dd41e51402a73759da792f581028095a2f5
-ms.openlocfilehash: 1d2e6676714daba76a9b54553b4ad1af23a0f880
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: c8158b6a54347f6bec1008142eed44daca8946d0
 
 
 ---
@@ -47,7 +47,7 @@ ms.openlocfilehash: 1d2e6676714daba76a9b54553b4ad1af23a0f880
 > -    При отсутствии центра сертификации предприятия необходимо создать его.
 >- Если в зависимости от платформ устройств вы решите использовать профиль SCEP, необходимо также настроить сервер службы регистрации сертификатов для сетевых устройств (NDES).
 >-  Если вы планируете использовать профили SCEP или PFX, необходимо скачать и настроить соединитель сертификатов Microsoft Intune.
-> Настройка всего этого описана в статье [Configure certificate infrastructure](configure-certificate-infrastructure.md) (Настройка инфраструктуры сертификатов).
+> Все действия по настройке описаны в разделах [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) и [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md).
 
 ### Дальнейшие действия
 - [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md)
@@ -56,6 +56,6 @@ ms.openlocfilehash: 1d2e6676714daba76a9b54553b4ad1af23a0f880
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

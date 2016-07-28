@@ -1,6 +1,6 @@
 ---
 title: "Создание и развертывание политик управления мобильными приложениями | Microsoft Intune"
-description: 
+description: "Следуйте пошаговым инструкциям в этом разделе, чтобы создавать и развертывать политики управления мобильными приложениями."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
-ms.sourcegitcommit: 3f79de38ce7fc9a5434033ee45ddf43f22517356
-ms.openlocfilehash: f1b9216c673039f8600e07508b255e12cc30bf3f
+translationtype: Human Translation
+ms.sourcegitcommit: 3c3fe3f55b625754eac44d245d7c5065514af25c
+ms.openlocfilehash: 4eb126a89249e796944786bfe0274366fc8982c4
 
 
 ---
@@ -26,10 +27,12 @@ ms.openlocfilehash: f1b9216c673039f8600e07508b255e12cc30bf3f
 - устройства под управлением решения MDM стороннего производителя;
 - устройства, не находящиеся под управлением какого-либо решения MDM (BYOD).
 
-Если вы используете **консоль администрирования Intune** для управления устройствами, вы можете создать политику MAM, поддерживающую приложения на устройствах, зарегистрированных в Intune, с помощью [этой консоли](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md).
+>[!IMPORTANT]
+
+> Если вы используете **консоль администрирования Intune** для управления устройствами, вы можете создать политику MAM, поддерживающую приложения на устройствах, зарегистрированных в Intune, с помощью [этой консоли](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md).
 Политики MAM, созданные в консоли администрирования Intune, нельзя импортировать на портал Azure.  Политики MAM потребуется создавать на портале Azure заново.
 
->[!IMPORTANT]
+
 > В консоли администрирования Intune могут отображаться не все параметры политики MAM. Портал Azure — это новая консоль администрирования для создания политик MAM. При создании политики MAM в консоли администрирования Intune и на портале Azure политики, созданные на портале Azure, применяются к приложениям и разворачиваются для пользователей.
 
 Чтобы просмотреть список параметров политики, поддерживаемых для платформ Android и iOS, выберите один из следующих элементов:
@@ -47,7 +50,7 @@ ms.openlocfilehash: f1b9216c673039f8600e07508b255e12cc30bf3f
     > [!TIP]
     > Если вы пользуетесь порталом Azure впервые, сначала ознакомьтесь со статьей [Портал Azure для политик MAM Microsoft Intune](azure-portal-for-microsoft-intune-mam-policies.md), чтобы узнать о возможностях этого портала.
 
-2.  В колонке **Параметры** щелкните **Политика приложения**.  Открывается колонка **App policy** (Политика приложений), где можно создавать и изменять политики.
+2.  В колонке **Параметры** щелкните **Политика приложения**.  Откроется колонка **Политика приложения**, в которой можно создавать и изменять политики.
 
     ![Снимок экрана: колонка "Политика приложения" со списком существующих политик](../media/AppManagement/AzurePortal_MAM_AppPolicy.png)
 
@@ -155,8 +158,8 @@ ms.openlocfilehash: f1b9216c673039f8600e07508b255e12cc30bf3f
 Чтобы просмотреть полный список параметров политики для iOS и Android, выберите один из следующих элементов:
 
 > [!div class="op_single_selector"]
-  - [Политики iOS](ios-mam-policy-settings.md)
-  - [Политики Android](android-mam-policy-settings.md)
+- [Политики iOS](ios-mam-policy-settings.md)
+- [Политики Android](android-mam-policy-settings.md)
 
 ## Дальнейшие действия
 [Мониторинг соответствия требованиям и состояния пользователей](monitor-mobile-app-management-policies-with-microsoft-intune.md)
@@ -166,6 +169,6 @@ ms.openlocfilehash: f1b9216c673039f8600e07508b255e12cc30bf3f
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

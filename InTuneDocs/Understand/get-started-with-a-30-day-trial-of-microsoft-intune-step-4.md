@@ -1,9 +1,9 @@
 ---
-title: "Создание политик и публикация приложений для пользователей ознакомительной версии | Microsoft Intune"
-description: 
+title: "Создание политик и публикация приложений для пользователей | Microsoft Intune"
+description: "Сведения о создании политик и публикации приложений при использовании бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: c3a17884-442a-44f5-bc81-4589e823f65e
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9755499575118feecf33780ee29a70525f95508e
-ms.openlocfilehash: 658806c07ea78a327819376c1b47af53ac51f0f9
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 1cc190aa4103bbaa2b2273f08319c3fba9f5507e
 
 
 ---
@@ -99,6 +99,6 @@ ms.openlocfilehash: 658806c07ea78a327819376c1b47af53ac51f0f9
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

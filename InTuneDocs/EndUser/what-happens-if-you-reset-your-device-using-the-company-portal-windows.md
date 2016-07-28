@@ -1,26 +1,27 @@
 ---
-title: "Что происходит при сбросе вашего устройства с помощью корпоративного портала? | Microsoft Intune"
+title: "Что происходит при сбросе устройства с Windows с помощью корпоративного портала? | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1ee6e275-d1ec-4da3-bbef-d5da2c61a02a
+ROBOTS: noindex,nofollow
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 39e810466d3a98789f0f1338f68d2be80d757d39
-ms.openlocfilehash: 9ff73d6e2066b0fb3d2e8ca9d7732d4685e258fd
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 29fab114e2b5b9b3a7c8e050af6f37287a715026
 
 
 ---
 
 
-# Что происходит при сбросе вашего устройства с помощью корпоративного портала?
+# Что происходит при сбросе устройства с Windows с помощью корпоративного портала?
 
 При сбросе устройства Windows с помощью корпоративного портала или [веб-сайта корпоративного портала](reset-your-device-cpwebsite.md) устройство сбрасывается до заводских настроек с удалением всех приложений, настроек и данных, включая личные данные. То, что происходит на каждом устройстве, зависит от типа вашего устройства и от того, как эти устройства используются (см. следующую таблицу). Инструкции по сбросу потерянного или украденного устройства см. в статье [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-windows.md) (Сброс (очистка) потерянного или украденного устройства).
 
@@ -36,6 +37,6 @@ ms.openlocfilehash: 9ff73d6e2066b0fb3d2e8ca9d7732d4685e258fd
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Запуск пробной версии Microsoft Intune и развертывание политики iOS в отношении ПИН-кодов | Microsoft Intune"
-description: 
+title: "Запуск пробной версии Intune и развертывание политики ПИН-кодов iOS | Microsoft Intune"
+description: "Развертывание политики ПИН-кодов iOS в Intune."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 06cb9a73-0f17-44b3-b334-86c98020316e
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7f3985b10ac9612c8c1efc4756eb25cdcf29b023
-ms.openlocfilehash: 6787d0c35621b2bc94bfe376dfd1669e9dfe46db
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: b2b24492693b61a544a4adc3e878b8b212d15a21
 
 
 ---
@@ -285,6 +285,6 @@ ms.openlocfilehash: 6787d0c35621b2bc94bfe376dfd1669e9dfe46db
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Регистрация устройства Windows в Intune | Microsoft Intune"
-description: 
+description: "Описывается, как зарегистрировать устройство с Windows в Intune."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/03/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d217ddcf-4908-4047-97a1-716bd433a13c
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 98ba0968653ceaf13ab5422468040f8e2ce50422
-ms.openlocfilehash: e343905f7359e310bc5b171feb3311adf8b4012f
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 55b73604efcbaf9d2c833031189f02a527a2122e
 
 
 ---
@@ -39,6 +39,6 @@ ms.openlocfilehash: e343905f7359e310bc5b171feb3311adf8b4012f
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Развертывание политик | Microsoft Intune"
-description: 
+description: "Рекомендации по поэтапному развертыванию политики в Microsoft Intune."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 390d5adf-86d2-4e23-ba93-1e61e6b1028b
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
-ms.openlocfilehash: 8935fbc42d7b406a5bcdbfc4353209b4447ae413
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: bab43006d4f142f34ecbb69487acb8b63151ee61
 
 
 ---
@@ -97,6 +97,6 @@ ms.openlocfilehash: 8935fbc42d7b406a5bcdbfc4353209b4447ae413
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

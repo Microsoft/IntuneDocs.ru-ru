@@ -24,6 +24,7 @@
 #### [Правила доступа Exchange](exchange-access-rules-for-mobile-devices.md)
 ### [Управление компьютерами](manage-windows-pcs-with-microsoft-intune.md)
 #### [Установка клиента компьютера](install-the-windows-pc-client-with-microsoft-intune.md)
+#### [Общие задачи управления ПК](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 #### [Разрешение конфликтов политик для компьютеров](resolve-gpo-and-microsoft-intune-policy-conflicts.md)
 
 ## [Настройка устройств](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
@@ -49,7 +50,7 @@
 ### [Использование групп для управления пользователями и устройствами](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 ### [Сопоставление устройств с группами](categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
 ### [Получение сведений об устройствах с помощью инвентаризации](understand-your-devices-with-inventory-in-microsoft-intune.md)
-### [Общие задачи управления ПК](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
+
 
 ## [Защита устройств](protect-your-devices-with-microsoft-intune.md)
 ### [Удаленная блокировка и сброс секретного кода](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
@@ -76,6 +77,7 @@
 ## [Настройка приложений](update-apps-using-microsoft-intune.md)
 ### [Обновление приложений ](update-apps-using-microsoft-intune.md)
 ### [Политики конфигурации приложений iOS](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
+### [Профили подготовки мобильных приложений iOS](ios-mobile-app-provisioning-profiles.md)
 ### [Управление доступом в Интернет](manage-internet-access-using-managed-browser-policies.md)
 
 
@@ -133,6 +135,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

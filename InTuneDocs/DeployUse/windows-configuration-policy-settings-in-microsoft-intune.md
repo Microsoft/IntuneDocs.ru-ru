@@ -1,10 +1,10 @@
 ---
 title: "Параметры политики Windows | Microsoft Intune"
-description: 
+description: "Сведения об использовании общей политики конфигурации Intune для Windows (Windows 8.1 и более поздней версии) для настройки параметров для зарегистрированных устройств с Windows 8 и 8.1."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,14 @@ ms.assetid: 6982a2bc-aafa-475a-9236-4840b709e5a1
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a280fcbecf82e6ff27e40d2d53331b3988953ff7
-ms.openlocfilehash: aa62528e588b0579669ab8d115766efd72e6f9b2
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: a70b81e490a5c55d9ce11bd8dbdfc42ab364273c
 
 
 ---
 
 # Параметры политики Windows в Microsoft Intune
-Используйте **общую политику конфигурации Microsoft Intune для Windows (Windows 8.1 и более поздней версии)**, чтобы настроить параметры для зарегистрированных устройств Windows 8 и 8.1:
+Используйте **общую политику конфигурации Microsoft Intune для Windows (Windows 8.1 и более поздней версии)**, чтобы настроить приведенные ниже параметры для зарегистрированных устройств с Windows 8 и 8.1.
 
 ## Возможность применения параметров
 
@@ -120,6 +120,6 @@ ms.openlocfilehash: aa62528e588b0579669ab8d115766efd72e6f9b2
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: "Управление параметрами Microsoft Passport на устройствах | Microsoft Intune"
-description: 
+description: "Узнайте, как Intune интегрируется с приложением Microsoft Passport for Work, которое является альтернативным средством входа, использующим Active Directory или учетную запись Azure Active Directory для замены пароля, смарт-карты или виртуальной смарт-карты."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
-ms.openlocfilehash: bdf7dfda3814ad6c6c00f5c133027175a95fb5e2
+ms.sourcegitcommit: ada366e91806c6f443ac4548af99c587ac218ec9
+ms.openlocfilehash: 934ae78edf4de2003d62179fa38269d97e6d7ef6
 
 
 ---
@@ -23,6 +23,9 @@ ms.openlocfilehash: bdf7dfda3814ad6c6c00f5c133027175a95fb5e2
 Microsoft Intune позволяет интегрировать **Microsoft Passport for Work**, который является альтернативным методом входа, использующим Active Directory или учетную запись Azure Active Directory для замены пароля, смарт-карты или виртуальной смарт-карты.
 
 Passport позволяет использовать для входа **жест пользователя**, а не пароль. Жестом пользователя может быть простой ПИН-код, биометрическая проверка подлинности, например Windows Hello, или внешнее устройство, например считыватель отпечатков пальцев.
+
+>[!TIP]
+>Microsoft Passport for Work теперь называется Windows Hello для бизнеса. В будущем консоль Intune будет обновлена, чтобы отразить это изменение.
 
 Intune интегрируется с Passport for Work двумя способами:
 
@@ -75,6 +78,6 @@ Intune интегрируется с Passport for Work двумя способа
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

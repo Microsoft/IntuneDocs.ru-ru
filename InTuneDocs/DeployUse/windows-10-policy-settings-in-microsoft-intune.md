@@ -1,10 +1,10 @@
 ---
 title: "Параметры политики Windows 10 | Microsoft Intune"
-description: 
+description: "Здесь приведены параметры политики, с помощью которых можно настроить стандартные и пользовательские параметры для зарегистрированных устройств на базе Windows 10 Desktop и Windows 10 Mobile."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,19 +12,24 @@ ms.technology:
 ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
-ms.sourcegitcommit: 1cccafa5f740bad50779ae36c899fd23ee7dc5f3
-ms.openlocfilehash: 70347776f72a3534a4c384957aef01a909767b99
+translationtype: Human Translation
+ms.sourcegitcommit: 01356d08257cf381d1a981f749702800c173de33
+ms.openlocfilehash: 08336c56f4e099c8cd0a0152364824455cae0f03
 
 
 ---
 
 # Параметры политики Windows 10 в Microsoft Intune
 
-Используйте описанные в этой статье параметры политики, чтобы настроить параметры для зарегистрированных устройств на базе Windows 10 Desktop и Windows 10 Mobile.
+Здесь приведены параметры политики, с помощью которых можно настроить стандартные и пользовательские параметры для зарегистрированных устройств на базе Windows 10 Desktop и Windows 10 Mobile.
+
+> [!IMPORTANT]
+> Получить возможность управления компьютерами с Windows 10 можно двумя способами: путем регистрации или с помощью установки клиентского программного обеспечения Intune. Каждый метод предоставляет разные возможности (дополнительные сведения см. в статье [Выбор способа управления устройствами](/intune/get-started/choose-how-to-manage-devices)).
+> При управлении компьютерами с Windows 10 с помощью клиентского программного обеспечения Intune нельзя использовать политики и параметры, описанные в этом разделе. Чтобы применить эти параметры, необходимо зарегистрировать устройство с Windows 10 в Intune.
 
 ## Параметры общей политики конфигурации
 
-Используйте **общую политику конфигурации** Microsoft Intune для Windows 10, чтобы настроить общие параметры для зарегистрированных устройств с Windows 10 Desktop и Windows 10 Mobile. Эта политика не может использоваться для управления компьютерами Windows 10 с клиентским программным обеспечением Intune.
+Используйте **общую политику конфигурации** Microsoft Intune для Windows 10, чтобы настроить общие параметры для зарегистрированных устройств с Windows 10 Desktop и Windows 10 Mobile. 
 
 
 ### Пароль
@@ -327,6 +332,6 @@ ms.openlocfilehash: 70347776f72a3534a4c384957aef01a909767b99
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

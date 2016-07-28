@@ -1,6 +1,6 @@
 ---
 title: "Устранение неполадок, связанных с доступом к ресурсам компании | Microsoft Intune"
-description: 
+description: "Коды ошибок и состояний, приведенные в этом разделе, помогут устранить проблемы с доступом к ресурсу."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c22ddd554928b394e14742b8ba7d583d390d1c44
-ms.openlocfilehash: ed14e92d48a2604d16ceee8b844ae5cc0c45f051
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 9a4dce9d7b963e03ceeeba35ba1e529384f42d06
 
 
 ---
@@ -372,6 +372,6 @@ ms.openlocfilehash: ed14e92d48a2604d16ceee8b844ae5cc0c45f051
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

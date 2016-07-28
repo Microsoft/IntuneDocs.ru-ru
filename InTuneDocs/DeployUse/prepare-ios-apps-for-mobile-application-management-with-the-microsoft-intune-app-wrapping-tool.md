@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Подготовка приложений iOS для управления мобильными приложениями с помощью инструмента упаковки для приложений | Microsoft Intune
-description:
-keywords:
-author: Staciebarker
+title: "Создание программы-оболочки для приложений iOS с помощью соответствующего инструмента | Microsoft Intune"
+description: "Здесь описано, как создать программу-оболочку для приложения iOS без изменения кода самого приложения, а также подготовить приложения для применения политики управления мобильными приложениями."
+keywords: 
+author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 05/11/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: jeffgilb
+ms.reviewer: matgates
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 754c026832b980d3a1cd406e9ab3146585b87b46
+
 
 ---
 
@@ -30,7 +24,7 @@ ms.suite: ems
 
 Инструмент является приложением командной строки Mac OS, которое создает "оболочку" вокруг приложения. После обработки приложения его функциональность можно изменить с помощью настраиваемых [политик управления мобильными приложениями](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md).
 
-Чтобы скачать это средство, см. статью [Инструмент упаковки приложений Microsoft Intune для iOS](http://www.microsoft.com/en-us/download/details.aspx?id=45218).
+Чтобы скачать этот инструмент, см. статью [Инструмент упаковки приложений Microsoft Intune для iOS](http://www.microsoft.com/en-us/download/details.aspx?id=45218).
 
 ## Шаг 1. Выполнение необходимых условий для использования инструмента упаковки приложений
 
@@ -59,7 +53,7 @@ ms.suite: ems
 
 1.  На компьютере Mac откройте окно терминала и перейдите к папке с сохраненными файлами. Поскольку исполняемый файл находится внутри пакета, выполните команду следующим образом:
 ```
-    ./IntuneMAMPackager.app/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -a <client ID of input app> -r <reply URI of input app> -v true
+    ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -a <client ID of input app> -r <reply URI of input app> -v true
 ```
     > [!NOTE]
     > Some parameters are optional as shown in the table below.
@@ -135,6 +129,7 @@ ms.suite: ems
     ```
     Отфильтрованные журналы можно отправить в корпорацию Майкрософт.
 
+    > [!NOTE]
     > В файле журнала элемент "версия сборки" представляет версию сборки Xcode.
 
     Изолированные приложения в случае сбоя дают возможность отправлять журналы по электронной почте непосредственно с устройства. Пользователи могут отправлять журналы вам для анализа и (при необходимости) последующей пересылки в корпорацию Майкрософт.
@@ -148,7 +143,7 @@ ms.suite: ems
 
 -   Приложение должно использовать ADAL версии 1.0.2 или более поздней.
 
--   Разработчик должен предоставить своему приложению доступ к ресурсу управления мобильными приложениями Intune, как описано в разделе [Шаги для приложений, использующих ADAL](#steps-to-follow-for-apps-that-use-adal).
+-   Разработчик должен предоставить своему приложению доступ к ресурсу управления мобильными приложениями Intune, как описано в подразделе [Шаги для приложений, использующих ADAL](#steps-to-follow-for-apps-that-use-adal).
 
 ### Обзор идентификаторов, которые необходимо получить
 Приложения, использующие ADAL, необходимо зарегистрировать на портале управления Azure для получения двух уникальных идентификаторов.
@@ -169,9 +164,9 @@ ms.suite: ems
 
     2.  В Azure Active Directory щелкнуть **Регистрация существующего бизнес-приложения** .
 
-    3.  В разделе настройки выберите **Настройка доступа к веб-API в других приложениях**.
+    3.  В разделе "Настройка" выбрать **Настроить доступ к веб-API в других приложениях**.
 
-    4.  В первом раскрывающемся списке в разделе **Разрешение для других приложений** выберите **Управление мобильными приложениями Intune**.
+    4.  В первом раскрывающемся списке в разделе **Permission to other applications** (Разрешение для других приложений) выберите **Управление мобильными приложениями Intune**.
 
         Теперь вы можете использовать идентификатор клиента приложения в средства упаковки приложений. Идентификатор клиента приложения можно найти на портале управления Azure Active Directory, как описано в разделе [Обзор идентификаторов, которые необходимо получить](#overview-of-identifiers-you-need-to-get).
 
@@ -198,7 +193,7 @@ ms.suite: ems
 -   Указание идентификатора клиента приложения и URI перенаправления позволяет избежать дублирования запросов на ввод учетных данных для входа. Идентификатор клиента должен быть зарегистрирован для доступа к опубликованному ресурсу MAM [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] на панели мониторинга AAD. Невыполнение этого требования приведет к ошибке входа при запуске приложения.
 
 ## Установка прав приложения
-Перед упаковкой приложения можно назначить **права** для предоставления приложению дополнительных разрешений и возможностей, которые отсутствуют в приложении по умолчанию.  **Файл прав** используется во время подписи кода для задания специальных разрешений в приложении (например, доступа к общей цепочке ключей). Определенные службы приложения, которые называют **возможностями**, включаются в Xcode во время разработки приложения. После включения возможности отражаются в файле прав. Дополнительные сведения о правах и возможностях см. в статье [Добавление возможностей](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html) в библиотеке разработчика iOS. Полный список поддерживаемых возможностей см. в статье [Поддерживаемые возможности](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html).
+Перед упаковкой приложения можно назначить **права** для предоставления приложению дополнительных разрешений и возможностей, которые отсутствуют в приложении по умолчанию.  **Файл прав** используется во время подписи кода для задания специальных разрешений в приложении (например, доступа к общей цепочке ключей). Определенные службы приложения, которые называют **возможностями**, включаются в Xcode во время разработки приложения. После включения возможности отражаются в файле прав. Дополнительные сведения о правах и возможностях см. в статье [Добавление возможностей](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html) в библиотеке разработчика iOS. Полный список поддерживаемых возможностей см. [в этой статье](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html).
 
 ### Поддерживаемые возможности для средства упаковки приложений для iOS
 
@@ -229,7 +224,7 @@ ms.suite: ems
 
     1.  Войдите в центр разработчиков Apple.
 
-    2.  Создайте подготовительный профиль для приложения. Инструкции см. в статье [Получение необходимых компонентов для инструмента упаковки приложений Intune для iOS](http://blogs.technet.com/b/microsoftintune/archive/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios.aspx).
+    2.  Создайте подготовительный профиль для приложения. Инструкции см. в статье [How to Obtain the Prerequisites for the Intune App Wrapping Tool for iOS](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/) (Получение необходимых компонентов для инструмента создания программы-оболочки для приложений Intune для iOS).
 
     3.  В подготовительном профиле включите те же права, что и в приложении. Потребуется указать те же идентификаторы, которые вы задали во время разработки приложения.
 
@@ -270,7 +265,7 @@ ms.suite: ems
 Эта команда удаляет все возможности, включенные в приложении, которые не находятся в файле прав. Удаление возможностей, которые используются приложением, может нарушить работу приложения. Примером ситуации, в которой можно удалить отсутствующие возможности, является наличие приобретенного у поставщика приложения, содержащего все возможности по умолчанию.
 
 ```
-./IntuneMAMPackager.app/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -e
+./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -e
 ```
 
 ## Обеспечение безопасности и конфиденциальности средства изоляции приложений
@@ -296,6 +291,7 @@ ms.suite: ems
 - [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Устранение неполадок при настройке клиента | Microsoft Intune"
-description: 
+description: "Устранение распространенных неполадок при установке клиента."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c8409d58e3e7a1038e4d030d88a9ffe7d29bc1b6
-ms.openlocfilehash: 78fa086f2e7e6c836aa74acb303d9a6564ed0993
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: a1f9432e8789a40ec65c64cb958414b97c548f06
 
 
 ---
@@ -126,6 +126,6 @@ ms.openlocfilehash: 78fa086f2e7e6c836aa74acb303d9a6564ed0993
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

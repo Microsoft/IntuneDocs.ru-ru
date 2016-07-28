@@ -1,9 +1,9 @@
 ---
 title: "Отмена регистрации устройства в Intune при отказе от условий использования | Microsoft Intune"
-description: 
+description: "Сведения о том, как отменить регистрацию устройства Android в Intune, если вы отклонили условия использования и не можете войти в приложение корпоративного портала"
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 4278f000-0258-4de5-93a1-195b48e5061e
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: abcb7dbe4f3423fcba108a7ea0c4b2efa295c970
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 06e2fa597e9e4143d17e817daee7eeac8eb46bf7
 
 
 ---
@@ -38,12 +38,13 @@ ms.openlocfilehash: abcb7dbe4f3423fcba108a7ea0c4b2efa295c970
 
     Теперь можно удалить приложение корпоративного портала.
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
+
 
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,24 +1,27 @@
 ---
 title: "Параметры политики Mac OS X | Microsoft Intune"
-description: 
+description: "Intune предоставляет ряд встроенных общих параметров, которые можно настроить на устройствах Mac OS X. Кроме того, с помощью инструмента Apple Configurator можно создавать настраиваемые параметры, отсутствующие в Intune."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 98b2f19b-bee8-42d7-a215-a716d56a25a3
-ms.reviewer: jeffgilb
+ms.reviewer: heenamac
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: bbbb666fdc34a82d247d760d156d48c5ac72374c
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 90eee9515696f049194515fb6bed280564d0f923
 
 
 ---
 
 # Параметры политики конфигурации Mac OS X в Microsoft Intune
+
+Intune предоставляет ряд встроенных общих параметров, которые можно настроить на устройствах Mac OS X. Кроме того, с помощью инструмента Apple Configurator можно создавать настраиваемые параметры, отсутствующие в Intune.
 
 ## Параметры общей политики конфигурации
 
@@ -121,6 +124,6 @@ ms.openlocfilehash: bbbb666fdc34a82d247d760d156d48c5ac72374c
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

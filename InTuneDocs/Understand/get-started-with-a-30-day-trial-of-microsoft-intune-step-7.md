@@ -1,9 +1,9 @@
 ---
 title: "Дальнейшие действия после завершения оценки Intune | Microsoft Intune"
-description: 
+description: "Сведения о подписках и лицензировании, которые необходимо знать после настройки бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: cad9ae15-26e5-418d-8ce5-c2dafc2071f0
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1a5d9e44ae524f9f8ca3cfe9912e6dae2d1a7d49
-ms.openlocfilehash: 5ae133583311963d5a3b8c55d8caf43453b3aedf
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 882ea746690197c98a8f686bd9a0adca591bb988
 
 
 ---
@@ -34,6 +34,6 @@ ms.openlocfilehash: 5ae133583311963d5a3b8c55d8caf43453b3aedf
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: "Общие задачи управления компьютерами с Windows | Microsoft Intune"
-description: 
+description: "В этом разделе рассматривается управление компьютерами, на которых выполняется клиентское программное обеспечение Intune."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,14 @@ ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 530bf3234001946776593ae0257ea72a06c8612f
-ms.openlocfilehash: 222b9aac19993f184ff68800a00f8d9df8b36237
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: c915f8ae60637dcdc64899c59cd07138c17ceef9
 
 
 ---
 
 # Общие задачи управления ПК Windows с клиентом Microsoft Intune
-В этом разделе рассматривается управление компьютерами, на которых выполняется клиент Intune. Если вы еще не установили клиент на своих компьютерах, см. статью [Установка клиента на компьютере Windows с помощью Microsoft Intune](install-the-windows-pc-client-with-microsoft-intune.md).
+В этом разделе рассматривается управление компьютерами, на которых выполняется клиентское программное обеспечение Intune. Если вы еще не установили клиент на своих компьютерах, см. статью [Установка клиента на компьютере Windows с помощью Microsoft Intune](install-the-windows-pc-client-with-microsoft-intune.md).
 
 
 ## Использование политик для упрощения управления компьютерами
@@ -214,6 +214,6 @@ While in a remote assistance session, you can use all available TeamViewer comma
 From the **Actions** menu of the **TeamViewer** window, choose **End Session**.--->
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

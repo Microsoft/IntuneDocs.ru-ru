@@ -1,10 +1,10 @@
 ---
 title: "Политики соответствия устройств | Microsoft Intune"
-description: 
+description: "В этом разделе описаны аспекты, о которых нужно знать, чтобы понимать, что представляют собой политики соответствия устройства и как они действуют."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9e069a2887b812b30c620634a8e0d093093b460
-ms.openlocfilehash: c443bb51ba05161c5088475e528e6ada28c105a5
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: f34ff402ae1012a471219647e94bc1f5225a6f07
 
 
 ---
@@ -62,6 +62,6 @@ ms.openlocfilehash: c443bb51ba05161c5088475e528e6ada28c105a5
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

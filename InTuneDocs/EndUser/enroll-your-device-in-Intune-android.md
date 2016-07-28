@@ -1,9 +1,9 @@
 ---
 title: "Регистрация устройства Android в Intune | Microsoft Intune"
-description: 
+description: "Описывается, как зарегистрировать устройство Android в Intune."
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/14/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 76cc1a43e09039285be76858155ef22f7b41cf9b
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: d979334c792ba604fe142c62b17f1af4f9e69db7
 
 
 ---
@@ -115,13 +115,14 @@ ms.openlocfilehash: 76cc1a43e09039285be76858155ef22f7b41cf9b
 
 Перед установкой приложений компании выберите **Settings** (Настройки) &gt; **Security** (Безопасность) и включите параметр **Unknown sources** (Неизвестные источники). В противном случае при попытке установки выводится сообщение Install blocked. For security reasons, your device is set to block installations of apps obtained from unknown sources." (Установка заблокирована. По соображениям безопасности на вашем устройстве включена блокировка приложений, полученных из неизвестных источников). Можно нажать **Параметры** в диалоговом окне ошибки, чтобы перейти к параметру **Неизвестные источники**.
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
+
 
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

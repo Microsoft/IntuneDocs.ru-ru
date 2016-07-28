@@ -1,10 +1,10 @@
 ---
 title: "Ограничение доступа к SharePoint Online | Microsoft Intune"
-description: 
+description: "Защита и контроль доступа к корпоративным данным, размещенным в SharePoint Online, с помощью условного доступа."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 06/16/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5a445f06d6c2328f7689468ca4d68a969af1e825
-ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 334eb869ddbc67767a6e9ed6711bd9135ceb558b
 
 
 ---
@@ -25,6 +25,8 @@ ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
 - Политика соответствия устройств, которой устройства должны удовлетворять, чтобы считаться соответствующими.
 - Политика условного доступа, где указываются условия, которым должно удовлетворять устройство для доступа к службе.
 Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
+
+Политики соответствия требованиям и условного доступа развертываются для пользователя. Любое устройство, используемое пользователем для доступа к службам, проверяется на соответствие политикам.
 
 Когда пользователь пытается подключиться к файлу с помощью поддерживаемого приложения (например, OneDrive) на устройстве, выполняется следующая оценка:
 
@@ -55,6 +57,10 @@ ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
 
 -   Если устройство не соответствует требованиям, отображается сообщение, направляющее пользователя на веб-сайт корпоративного портала [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], где можно найти сведения о данной проблеме и способах ее решения.
 
+**Условный доступ применяется ко всем сайтам SharePoint, и внешние общие ресурсы блокируются.**
+
+>[!NOTE]
+>Если вы включили условный доступ для SharePoint Online, то рекомендуется отключить домен в списке, как описано в разделе [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx).  
 ## Поддержка мобильных устройств
 - iOS 7.1 и более поздние версии
 - Android 4.0 и более поздние версии, Samsung KNOX Standard 4.0 и более поздние версии
@@ -183,6 +189,6 @@ ms.openlocfilehash: f8fcb01629c68e9c04b0e0319b937178859877ec
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

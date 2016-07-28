@@ -1,18 +1,19 @@
 ---
-title: "Портал учетных записей объединяется с порталом управления Office 365 | Microsoft Intune"
+title: "Портал учетных записей объединен с Office 365 | Microsoft Intune"
 description: 
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 05/26/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 80f7d796-ad0e-4a50-a6e2-cdc52e7eb57e
+ms.reviewer: amyro
 translationtype: Human Translation
-ms.sourcegitcommit: 928b79530ac278f78356f8d1ef9f267077634b5b
-ms.openlocfilehash: 505e446125c938a9a978eb2908cfa0873ed66fcc
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: b2ffb28f9d283acae3f913b4ac2e72f73fb0bde3
 
 
 ---
@@ -31,6 +32,6 @@ ms.openlocfilehash: 505e446125c938a9a978eb2908cfa0873ed66fcc
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

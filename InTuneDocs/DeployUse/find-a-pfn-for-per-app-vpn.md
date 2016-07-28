@@ -1,19 +1,20 @@
 ---
 title: "Поиск имени семейства пакетов (PFN) для VPN для каждого приложения | Microsoft Intune"
-description: 
+description: "Сведения о поиске имени семейства пакетов для настройки VPN для каждого приложения."
 keywords: 
 author: nbigman
-manager:
-- ALIAS
-ms.date: 05/10/2016
+manager: Arob98
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
+ms.reviewer: tycast
+ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e32cbcd54220cf36d6770ee16897d27e1d2d71db
-ms.openlocfilehash: 21bc0bcaf64cf67eea2ca30b933c314c4c3e6dae
+ms.sourcegitcommit: 9a049127d79098bfb8992055a0a8b20fbfafd8c9
+ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
 
 
 ---
@@ -85,6 +86,6 @@ ms.openlocfilehash: 21bc0bcaf64cf67eea2ca30b933c314c4c3e6dae
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

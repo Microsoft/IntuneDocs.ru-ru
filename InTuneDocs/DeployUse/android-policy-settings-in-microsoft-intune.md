@@ -1,10 +1,10 @@
 ---
-title: "Параметры политики конфигурации Android и Samsung KNOX | Microsoft Intune"
-description: 
+title: "Параметры политики Android и Samsung KNOX | Microsoft Intune"
+description: "Создание политик для управления параметрами и функциями на устройствах Android, которые управляются с помощью Intune."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +13,15 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 62beaec31a0cdc3c28fd3eed820a6771e42ef3e7
-ms.openlocfilehash: f4c0eccb0cd30daaba97e8f34eea69e3d0e8e0ad
+ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
+ms.openlocfilehash: e983f4ac4e396a30db19e5a0d487ac0f9c25ff14
 
 
 ---
 
 # Параметры политики Android и Samsung KNOX в Microsoft Intune
+
+Intune предоставляет ряд встроенных общих параметров, которые можно настроить на устройствах Android. Кроме того, можно создать настраиваемые параметры, отсутствующие в Intune, задав значения OMA-URI.
 
 ## Общая политика конфигурации
 
@@ -254,6 +256,6 @@ ms.openlocfilehash: f4c0eccb0cd30daaba97e8f34eea69e3d0e8e0ad
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

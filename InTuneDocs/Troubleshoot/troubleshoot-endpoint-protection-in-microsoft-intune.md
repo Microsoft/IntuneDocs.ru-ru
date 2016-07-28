@@ -1,6 +1,6 @@
 ---
 title: "Устранение неполадок Endpoint Protection | Microsoft Intune"
-description: 
+description: "Сведения об устранении неполадок при работе с Microsoft Intune Endpoint Protection."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: e31df2d2-bb1b-491b-9a71-04e0b18829c1
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c22ddd554928b394e14742b8ba7d583d390d1c44
-ms.openlocfilehash: 0f4d8c49eb87ef94a1ddfdebd7dcd40c41b9a5a0
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 40d4c602064f0e16d541948ceb284dcde50e2339
 
 
 ---
@@ -49,6 +49,6 @@ ms.openlocfilehash: 0f4d8c49eb87ef94a1ddfdebd7dcd40c41b9a5a0
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

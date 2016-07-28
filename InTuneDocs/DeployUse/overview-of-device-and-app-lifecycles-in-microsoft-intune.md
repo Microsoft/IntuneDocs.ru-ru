@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Общие сведения о жизненных циклах устройств и приложений | Microsoft Intune
-description:
-keywords:
+title: "Общие сведения о жизненных циклах устройств и приложений | Microsoft Intune"
+description: "Общие сведения о жизненных циклах устройств и приложений в Intune."
+keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
-ms.prod:
+ms.prod: 
 ms.service: microsoft-intune
-ms.technology:
+ms.technology: 
 ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: jeffgilb
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: a87df3551d0758a3db8eb622db32fdcb60e4fd0e
+
 
 ---
 
@@ -29,13 +23,14 @@ ms.suite: ems
 
 Несмотря на то, что каждая организация может иметь собственные потребности, следует отметить наличие определенных общих шагов, которые требуется выполнять на постоянной основе. Их можно объединить в две основные категории, которые называются **жизненными циклами**. Жизненный цикл развертывания, которому вы следуете, зависит от реализуемого сценария. Например, может потребоваться только жизненный цикл устройств, жизненный цикл приложений или оба цикла.
 
-![Жизненный цикл MDM и приложений](./media/device_appslifecycle_nobg.png "mobile device and app lifecycles")
+![Жизненный цикл MDM и приложений](./media/device-app-lifecycle.png "mobile device and app lifecycles")
 
 Для целей управления все устройства имеют жизненный цикл, который начинается с первоначальной регистрации устройств и продолжается до снятия их с учета, когда они больше не нужны. [Жизненный цикл управления устройствами](overview-of-device-lifecycle-in-microsoft-intune.md) предполагает знакомство со всеми вариантами регистрации, способами настройки и защиты устройств и их последующего удаления из управления.
 
 Точно так же, приложения имеют собственный [жизненный цикл](overview-of-app-lifecycle-in-microsoft-intune.md) с этапами от добавления приложений в Intune и вплоть до их удаления, когда они больше не требуются.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

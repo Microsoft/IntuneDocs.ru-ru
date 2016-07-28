@@ -1,10 +1,10 @@
 ---
 title: "Настройка профилей сертификатов | Microsoft Intune"
-description: 
+description: "Узнайте, как создать профиль сертификата Intune."
 keywords: 
 author: nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ee6b3607688cb02be7316b83e10424dfbea9746b
-ms.openlocfilehash: 8343abe8861468bbba27272aa1f3569390cb826b
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 40ae2ce3ea4393d24770c010bf5292ca1829a7f1
 
 
 ---
@@ -145,6 +145,6 @@ ms.openlocfilehash: 8343abe8861468bbba27272aa1f3569390cb826b
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

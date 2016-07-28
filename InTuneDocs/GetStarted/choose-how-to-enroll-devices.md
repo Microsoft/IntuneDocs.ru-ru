@@ -11,93 +11,52 @@ ms.service:
 ms.technology: 
 ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
 translationtype: Human Translation
-ms.sourcegitcommit: f1dc713099c982d6e32c87b814dd3f55b1656eda
-ms.openlocfilehash: 5668a4d8a6cce15446201926b03d71ede174a299
+ms.sourcegitcommit: d1206cd49e92618eef79f35885b3e8be08e03925
+ms.openlocfilehash: 2126dc2647e2ec7a09971ef86b00439f2b59c36b
 
 
 ---
 
 # Выбор способа регистрации мобильных устройств
 
-Регистрация мобильных устройств — это процесс передачи смартфонов, планшетных и настольных компьютеров под управление Microsoft Intune. Как администратору вам следует определить наилучший способ регистрации на основе следующих критериев:
-
- -  Владение (личное устройство или устройство организации)
- -  Использование (общее или личное устройство)
- -  Платформа (iOS, Android, Windows Phone, компьютер с Windows, компьютер с Mac) — выбирается по методу регистрации.
-
 Определить наилучший способ регистрации для устройств, которыми вы управляете, помогут ответы на следующие вопросы.
 
 ## **Пользователи приносят собственные устройства или устройства предоставляются организацией?**
 
-  Регистрация **устройств, принадлежащих пользователям** (эта схема также известна как "Принеси свое устройство", BYOD) позволяет пользователям зарегистрировать свои устройства для доступа к ресурсам компании, таким как электронная почта, приложения компании, данные компании и поддержка. **Устройства компании** (COD) предоставляются сотрудникам организацией для решения бизнес-задач.
-  > [!div class="button"]
-  [Регистрация BYOD >](#byod-device-enrollment) [Регистрация COD >](#cod-device-enrollment)
+  - **Устройства, принадлежащие пользователям** — регистрация устройств BYOD (принеси свое устройство).
+  - **Устройства, принадлежащие компании** — регистрация устройств COD.
 
-### Регистрация устройств BYOD
-
-Для регистрации устройств BYOD пользователям необходимо установить приложение корпоративного портала Intune на свои устройства. Затем они смогут запустить приложение и зарегистрировать устройство, указав рабочие или учебные учетные данные. Если Intune найдет лицензию для этих учетных данных, устройство будет добавлено в консоль администрирования Intune и получит от Intune политику, предоставляющую доступ к ресурсам компании.
-
-**Выберите тип устройства:**
 > [!div class="button"]
-[Android](..deploy-use/set-up-android-management-with-microsoft-intune) [iOS и Mac](..deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) [Windows 10 Mobile и Window Phone](..deploy-use/set-up-windows-phone-management-with-microsoft-intune) [компьютеры с Windows](..deploy-use/set-up-windows-device-management-with-microsoft-intune)
+[Регистрация BYOD >](#what-byod-devices-can-your-users-enroll) [Регистрация COD >](#are-your-company-owned-devices-shared-or-do-they-have-dedicated-users)
 
+## **Какие устройства BYOD могут зарегистрировать пользователи?**
 
-### Регистрация устройств COD
-
-Устройства компании (COD) можно зарегистрировать для поддержки отдельных пользователей или как общие устройства.  **Общие устройства** не привязаны к отдельному пользователю и обычно не имеют доступа к электронной почте. К ним относятся устройства, работающие в полноэкранном режиме, и устройства, ориентированные на задачи, которые пользователи берут из пула при необходимости, а затем возвращают. Рекомендуемые методы регистрации зависят от платформы устройств. **Выделенные устройства** передаются отдельным пользователям и должны отслеживаться как активы компании, позволяя пользователям при этом работать с электронной почтой и данными как на личных устройствах. Рекомендуемые методы регистрации зависят от платформы устройств. [Следующий вопрос...](Are your company-owned devices shared or do they have dedicated users?)
+> [!div class="button"]
+[Android](/intune/deploy-use/set-up-android-management-with-microsoft-intune) [iOS и Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) [Windows 10 Mobile и Window Phone](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune) [Компьютеры с Windows](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 
 ## **Являются ли устройства компании общими или привязаны к отдельным пользователям?**
 
 > [!div class="button"]
-[Общие >](#Shared-company-owned-devices) [Выделенные >](..deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)
+[Общие >](#what-operating-system-are-your-shared-devices-running) [Выделенные >](#how-will-you-manage-dedicated-ios-devices)
 
 
-### Общие устройства компании
-
-Эти устройства не привязаны к отдельному пользователю и обычно не имеют доступа к электронной почте. К ним относятся устройства, работающие в полноэкранном режиме, и устройства, ориентированные на задачи, которые пользователи берут из пула при необходимости, а затем возвращают. Рекомендуемые методы регистрации зависят от платформы устройств.
-
-  - **Устройства с Windows и Android**: *диспетчер регистрации устройств* — это учетная запись Intune, которая может использоваться для регистрации нескольких общих устройств с помощью приложения "Корпоративный портал".
-  > [!div class="button"]
-  [Windows >](../deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [Android >](../deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [iOS >](#shared-ios-device-enrollment)
-
-### Регистрация общих устройств с iOS
-
-Предпочтительный метод регистрации для общих устройств компании с iOS зависит от того, как вы приобретаете эти устройства и управляете ими:
-
-  - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно скачает профиль DEP и выполнит регистрацию с использованием этого профиля.
-  - **Apple Configurator на компьютере Mac (Mac)**: Apple Configurator — это приложение Apple, которое выполняется на компьютере Mac. Для установки профиля регистрации на устройстве с iOS его можно подключить к компьютеру Mac с помощью USB-кабеля. Если для регистрации вы можете сбросить устройство до заводских настроек, используйте регистрацию с помощью помощника по настройке. Если вы не хотите сбрасывать устройство, используйте прямую регистрацию.
-  - **Ни один из указанных методов** — если вы не хотите или не можете использовать программу DEP Apple и Apple Configurator, используйте диспетчер регистрации устройств Intune.
-
-  **Выберите метод регистрации:**
-    > [!div class="button"]
-     [Регистрация DEP >](../deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Mac >](../deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [Прямая регистрация >](../deploy-use/ios-direct-enrollment-in-microsoft-intune)  
+## **Какая операционная система выполняется на общих устройствах?**
 
   > [!div class="button"]
-    [Регистрация DEM >](../deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune).
+  [Windows >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [Android >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [iOS >](#how-will-you-manage-shared-ios-devices)
 
-**Отдельные пользователи** — устройства компании, которые передаются отдельным пользователям и должны отслеживаться как активы компании, позволяя пользователям при этом работать с электронной почтой и данными как на личных устройствах. Рекомендуемые методы регистрации зависят от платформы устройств.
+## **Как вы будете управлять общими устройствами iOS?**
 
-  - **Устройства с Windows и Android** — импортировав международные идентификаторы мобильного оборудования (IMEI) устройств компании, можно пометить эти устройства как принадлежащие компании в Intune. Затем пользователи смогут зарегистрировать свои устройства как личные, установив корпоративный портал для доступа к ресурсам компании, таким как электронная почта, приложения и данные.
   > [!div class="button"]
-  [Тег с IMEI >](../deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
+  [Регистрация с помощью программы регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Прямая регистрация устройств iOS >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) [Регистрация с помощью диспетчера регистрации устройств (DEM) >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 
-  - **Устройства с iOS** — общими устройствами с iOS можно управлять тремя способами.  **Как вы будете регистрировать общие устройства с iOS?**
+## **Как вы будете управлять выделенными устройствами iOS?**
 
-    - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно скачает профиль DEP и выполнит регистрацию с использованием этого профиля.
-    > [!div class="button"]
-    [Регистрация DEP >](../deploy-use/ios-device-enrollment-program-in-microsoft-intune).
-
-    - **Apple Configurator на компьютере Mac**: Apple Configurator — это приложение Apple, которое выполняется на компьютере Mac. Для установки профиля регистрации на устройстве с iOS его можно подключить к компьютеру Mac с помощью USB-кабеля. Если для регистрации вы можете сбросить устройство до заводских настроек, используйте регистрацию с помощью помощника по настройке.
-
-    Если вы не хотите сбрасывать устройство, используйте прямую регистрацию.
-    Если для регистрации вы можете сбросить устройство до заводских настроек, используйте регистрацию с помощью помощника по настройке.
-    > [!div class="button"][iOS Setup Assistant enrollment](.. / deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [!div class="button"][iOS direct enrollment](.. / deploy-use/ios-direct-enrollment-in-microsoft-intune).
-
-    - **Ни один из указанных методов** — если вы не хотите или не можете использовать программу DEP Apple и Apple Configurator, вы можете пометить устройства как устройства компании в Intune, импортировав их международные идентификаторы мобильного оборудования (IMEI). Затем пользователи смогут зарегистрировать свои устройства как личные, установив корпоративный портал для доступа к ресурсам компании, таким как электронная почта, приложения и данные.
-    > [!div class="button"][Tag devices with IMEI numbers](../deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
+  > [!div class="button"]
+  [Теги с IMEI >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers) [Программа регистрации устройств (DEP) iOS](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Помощник по настройке iOS](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [Теги с IMEI](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

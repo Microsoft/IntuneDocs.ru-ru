@@ -1,6 +1,6 @@
 ---
 title: "Подтверждение концепции | Microsoft Intune"
-description: 
+description: "Рекомендации по этапу подтверждения концепции при выполнении развертывания Intune."
 keywords: 
 author: Nbigman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: f3c97380-23ca-40da-acbc-78108507cad7
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d82d0ae4820d2e2141848235b8741abccaec3bc6
-ms.openlocfilehash: 4c01b7cec6474153fcea465fc050ac419ca2eec5
+ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
+ms.openlocfilehash: 57f6d51a3f1e05a7edd260b0923d099510114a9f
 
 
 ---
@@ -78,6 +78,6 @@ ms.openlocfilehash: 4c01b7cec6474153fcea465fc050ac419ca2eec5
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

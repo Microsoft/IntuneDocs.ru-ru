@@ -1,26 +1,27 @@
 ---
-title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune? | Microsoft Intune"
+title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune? | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d22f5aea-7be4-419b-b51b-a522ca037b69
+ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: e2f5849a63dceabb42b910b50f0257bc823a251a
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 39aafbccda265ee24c7561440a11f1b22fef6170
 
 
 ---
 
 
-# Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?
+# Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune?
 
 Когда вы устанавливаете приложение корпоративного портала и затем регистрируете устройство Android в Intune, это приложение можно использовать, чтобы:
 
@@ -54,12 +55,13 @@ ms.openlocfilehash: e2f5849a63dceabb42b910b50f0257bc823a251a
 
     -   Отправка обновлений инвентаризации корпоративных приложений (они не содержат персональных данных).
 
-Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+Требуется помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
+
 
 ### См. также
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

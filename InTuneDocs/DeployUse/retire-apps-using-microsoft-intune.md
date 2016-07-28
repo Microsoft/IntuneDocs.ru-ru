@@ -1,10 +1,10 @@
 ---
 title: "Снятие приложений с учета | Microsoft Intune"
-description: 
+description: "Узнайте, как прекратить использование приложений или удалить их с помощью Intune."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 6fbf0805-1144-4e08-bafd-4f181d932bf2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 4857e2ff34175ee6daa64e6f95a59faaaaa3b322
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 2af2e139d2d1ca969095067a2d9ec111d3d7127f
 
 
 ---
@@ -38,6 +38,6 @@ ms.openlocfilehash: 4857e2ff34175ee6daa64e6f95a59faaaaa3b322
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

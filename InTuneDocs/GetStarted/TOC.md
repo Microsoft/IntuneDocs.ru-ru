@@ -9,9 +9,9 @@
 ### [Портал компании](microsoft-intune-company-portal.md)
 ### [Интеграция с облачными службами и продуктами Майкрософт](integration-with-cloud-services.md)
 ### [Использование пропускной способности сети](network-bandwidth-use.md)
-### [Доменные имена](domain-names-for-microsoft-intune.md)
+### [Имена личных доменов](domain-names-for-microsoft-intune.md)
 
-## [Краткое руководство по Intune](start-with-a-paid-subscription-to-microsoft-intune.md)
+## [Руководство по быстрому запуску Intune](start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [Вход в Intune](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 ### [Настройка имени домена](start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
 ### [Синхронизация AD и добавление пользователей](start-with-a-paid-subscription-to-microsoft-intune-step-3.md)
@@ -39,6 +39,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

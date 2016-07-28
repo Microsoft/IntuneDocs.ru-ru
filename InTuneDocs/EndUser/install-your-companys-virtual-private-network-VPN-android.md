@@ -3,18 +3,19 @@ title: "Установка виртуальной частной сети (VPN) 
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 7/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed4a9f15-72fb-4171-84cb-63d2f1a6d04c
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: d4c0e05002b3d6f2785b401159c2872d93313524
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 73fee953e10336fe659e271b49d96a518b2730aa
 
 
 ---
@@ -28,7 +29,9 @@ ms.openlocfilehash: d4c0e05002b3d6f2785b401159c2872d93313524
 
 2.  В **Магазине Google Play** щелкните **УСТАНОВИТЬ** и следуйте инструкциям на экране для установки приложения.
 
-3.  Нажмите **Install corporate VPN profile** (Установить профиль VPN предприятия) и следуйте инструкциям на экране, чтобы принять условия и активировать приложение.
+3.  Коснитесь **Install corporate VPN profile** (Установить профиль VPN предприятия) и следуйте инструкциям на экране. Действия по установке могут несколько отличаться в зависимости поставщика VPN, используемого в вашей компании.
+
+
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
@@ -36,6 +39,6 @@ ms.openlocfilehash: d4c0e05002b3d6f2785b401159c2872d93313524
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

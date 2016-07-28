@@ -1,28 +1,26 @@
 ---
 title: "Настройка управления в iOS и Mac | Microsoft Intune"
-description: 
+description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств iOS, включая устройства iPad и iPhone, а также для устройств Mac OS X."
 keywords: 
 author: NathBarn
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
-ms.reviewer: jeffgilb
+ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bb44d53c87bec1b6892bf49a65f3df684199ed08
-ms.openlocfilehash: 9766b6e64259d809b04e6f6004c25ed88ad72659
+ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
+ms.openlocfilehash: f393f2f34658d9c4c341f1c961e9dd527fcec4b1
 
 
 ---
 
 # Настройка управления устройствами в iOS и Mac
-Благодаря Microsoft Intune вы можете включить регистрацию устройства BYOD ("принеси свое устройство") под управлением iOS и Mac OS X, чтобы предоставить пользователям iPhone, iPad и Mac доступ к корпоративной электронной почте и приложениям организации. После включения этой функции пользователи могут установить приложение корпоративного портала Intune, а к их устройствам могут применяться политики с помощью консоли администрирования Intune.
-
-Чтобы устройствами iOS можно было управлять в Intune, они должны иметь возможность взаимодействовать с Intune. Apple требует установки отношения доверия с Intune путем импорта сертификата Cлужбы push-уведомлений Apple (APNs).
+Управление мобильными устройствами iPad, iPhone и Mac OS X с помощью Intune позволяет предоставлять доступ к корпоративной электронной почте и приложениям. Для управления устройствами iOS и Mac с помощью Intune требуется сертификат службы push-уведомлений Apple (APNs). После добавления этого сертификата в Intune пользователи смогут установить приложение корпоративного портала для регистрации своих устройств. Или же администратор сможет настроить [управление корпоративными устройствами iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
 1.  **Настройка Intune**<br>
     Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
@@ -50,6 +48,6 @@ ms.openlocfilehash: 9766b6e64259d809b04e6f6004c25ed88ad72659
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Специальные возможности для людей с ограниченными возможностями | Microsoft Intune"
-description: 
+description: "Прочитайте сведения о специальных возможностях продуктов Майкрософт."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3a503548-434c-410a-a419-7eadd7e7fb99
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: c666275027344d2972a94bb515ca32109936290a
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 6c7ed87bf4d1b2f66abf2079391fed17832b2989
 
 
 ---
@@ -30,6 +30,6 @@ ms.openlocfilehash: c666275027344d2972a94bb515ca32109936290a
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

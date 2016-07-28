@@ -1,6 +1,6 @@
 ---
 title: "Настройка управления устройствами Windows 10 Mobile и Windows Phone с помощью Microsoft Intune | Microsoft Intune"
-description: 
+description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для компьютеров с Windows 10 Mobile или Windows Phone."
 keywords: 
 author: NathBarn
 manager: jeffgilb
@@ -10,11 +10,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
-ms.reviewer: jeffgilb
+ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c5d1b53f09ce2f475cd934e36ddb19d019737431
-ms.openlocfilehash: e67a5be851b68d87a4cdda871824cf0ecb14579e
+ms.sourcegitcommit: 5f336cf52cbecd93cb7b2850560327e6024302e0
+ms.openlocfilehash: d1bba612d9f613dde33f71790e2c3b2d6b33fe88
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: e67a5be851b68d87a4cdda871824cf0ecb14579e
 
 2.  **Задать DNS-псевдоним для адреса сервера регистрации** (необязательно)
 
-    Создание DNS-псевдонима (тип записи CNAME) упрощает регистрацию устройств для пользователей. Если вы не создаете DNS-псевдоним, пользователи должны сделать следующее.
+    Создание DNS-псевдонима (тип записи CNAME) упрощает регистрацию устройств для пользователей. Несмотря на то, что запись CNAME DNS является необязательной для регистрации устройства с Windows, рекомендуется при необходимости создать одну или несколько записей, чтобы упростить процесс регистрации устройств с Windows. При отсутствии записей CNAME пользователю предлагается ввести имя сервера MDM вручную.
 
   1.  Создайте запись ресурсов **CNAME** DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, которая выполняет перенаправление с EnterpriseEnrollment.contoso.com на manage.microsoft.com. Если имеется несколько проверенных доменов, создайте запись CNAME для каждого из них. Записи ресурсов CNAME должны содержать следующие сведения:
 
@@ -56,6 +56,6 @@ ms.openlocfilehash: e67a5be851b68d87a4cdda871824cf0ecb14579e
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

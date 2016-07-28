@@ -1,9 +1,9 @@
 ---
-title: "Регистрация устройства Windows 8.1 или Windows RT 8.1 в Intune | Microsoft Intune"
-description: 
+title: "Регистрация устройства с Windows 8.1 или Windows RT 8.1 | Microsoft Intune"
+description: "Описывается, как зарегистрировать устройство с Windows 8.1 или Windows RT 8.1 в Intune."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 28984f26-1070-4f7a-877c-669a59375c0c
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: 6607ea6c355e0ec767e514ac0097789b83c5d8c7
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: f0cbecec3d13a9784faa14ca8d9dc1c42de855a3
 
 
 ---
@@ -69,6 +69,6 @@ ms.openlocfilehash: 6607ea6c355e0ec767e514ac0097789b83c5d8c7
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

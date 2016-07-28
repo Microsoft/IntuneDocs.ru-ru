@@ -1,19 +1,20 @@
 ---
-title: "Управление доступом в Интернет с помощью политик управляемого браузера| Microsoft Intune"
-description: 
+title: "Управление веб-доступом с помощью Managed Browser | Microsoft Intune"
+description: "Сведения о развертывании приложения Managed Browser для ограничения просмотра веб-страниц и передачи веб-данных в другие приложения."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
-ms.reviewer: jeffgilb
+ms.reviewer: maxles
 ms.suite: ems
-ms.sourcegitcommit: 2df44199ecd904dcfb6774a942244338c1384186
-ms.openlocfilehash: c4462af584d54225084159dfa35f5e1d07c36397
+translationtype: Human Translation
+ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
+ms.openlocfilehash: 882042349c19ef0b688954577eb6519d0c0ac860
 
 
 ---
@@ -150,6 +151,6 @@ Intune Managed Browser поддерживает открытие веб-узла
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

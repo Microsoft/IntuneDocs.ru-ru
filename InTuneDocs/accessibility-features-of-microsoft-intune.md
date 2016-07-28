@@ -1,9 +1,9 @@
 ---
 title: "Специальные возможности | Microsoft Intune"
-description: 
+description: "Узнайте о функциях Intune, упрощающих доступ для людей с ограниченными возможностями."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 6d7ed613-be97-4973-9532-8cb5bd434a1b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 42e21b802fb605c98f688485c3b77703b3950e94
-ms.openlocfilehash: d34e754e3815b43f4b5b74d24711cf55aacfc757
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 3356ed7337814df1003905dba031b7d65959fc0f
 
 
 ---
@@ -48,6 +48,6 @@ ms.openlocfilehash: d34e754e3815b43f4b5b74d24711cf55aacfc757
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

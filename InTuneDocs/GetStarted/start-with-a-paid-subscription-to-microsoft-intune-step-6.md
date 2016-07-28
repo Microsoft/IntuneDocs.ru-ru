@@ -1,9 +1,9 @@
 ---
 title: "Создание политик и публикация приложения | Microsoft Intune"
-description: 
+description: "Описывается, как создать политики и опубликовать пример приложения для подписки Intune."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2847c9af38ae0ddddc8d76d548ae7abddc63e4c1
-ms.openlocfilehash: b3b65a1fd1e426bf566f39382321a29e913f102c
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: d079452cb41ca8b37c292d75a606eb72ba5304df
 
 
 ---
@@ -23,11 +23,6 @@ ms.openlocfilehash: b3b65a1fd1e426bf566f39382321a29e913f102c
 Политики Intune предоставляют параметры, позволяющие контролировать безопасность на мобильных устройствах, поддерживать параметры брандмауэра Windows и Endpoint Protection для компьютеров и развертывать приложения. Дополнительные сведения см. в статьях [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](/Intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) и [Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection для Microsoft Intune](/Intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune).
 
 Можно использовать два вида установки приложения с помощью Intune. Первый — **обязательная установка**, которая автоматически развертывает приложение на управляемых компьютерах. Второе — **доступная установка**, которая развертывает приложение или ссылку на приложение на корпоративном портале Intune, чтобы пользователи могли выбрать необходимость установки на своих компьютерах или мобильных устройствах.
-
-<!-- this section really isn't necessary and confuses a lot of people because most mobile device apps aren't licensed this way (and our licensing/reporting features aren't super helpful). I think it's best to avoid this during a quick start guide.
-
-Before using Intune to deploy apps, make sure that you have the appropriate licenses to publish, distribute, and use the app. The Licenses workspace lets you add and manage license agreement information for apps or software purchased through Microsoft Volume Licensing agreements, and for Microsoft or non-Microsoft software that was purchased by other means. You can then create license reports that display managed license usage information throughout your company to stay informed of license usage activity.
--->
 
 Приведенные ниже шаги посвящены настройке политики конфигурации мобильного устройства и политики брандмауэра Windows для компьютера, а также настройке Skype в качестве доступной установки для мобильных устройств после их регистрации.
 
@@ -46,6 +41,10 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 3.  На странице **Обзор политики** в списке **Задачи** выберите команду **Добавить политику**.
 
 4.  В списке политик разверните платформу, для которой необходимо создать политику, а затем выберите пункты **Общая конфигурация** > **Создание и развертывание политики с рекомендуемыми параметрами** > **Создать политику**.
+
+> [!NOTE]
+> Для политик конфигурации устройств не предусмотрены рекомендуемые параметры, так как на выбор предоставляется множество параметров. Необходимо создать пользовательскую политику конфигурации устройств.
+
 
 5.  При появлении запроса **Выберите группы для развертывания этой политики** выберите группу из списка доступных групп и нажмите **Добавить** > **ОК**.
 
@@ -110,6 +109,6 @@ Before using Intune to deploy apps, make sure that you have the appropriate lice
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

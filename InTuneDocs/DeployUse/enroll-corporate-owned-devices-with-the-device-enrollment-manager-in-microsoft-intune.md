@@ -1,10 +1,10 @@
 ---
-title: "Регистрация корпоративных устройств с помощью диспетчера регистрации устройств | Microsoft Intune"
-description: 
+title: "Регистрация с помощью диспетчера регистрации устройств | Microsoft Intune"
+description: "С помощью одной учетной записи диспетчера регистрации устройств (DEM) можно управлять множеством общих мобильных устройств, принадлежащих компании."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: a23abc61-69ed-44f1-9b71-b86aefc6ba03
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.sourcegitcommit: 7b0154d73ab540e7543fab9088463ed8b61b45a0
-ms.openlocfilehash: 74ff3209d00dee0b5ddd14e107b5544b364d08f7
+translationtype: Human Translation
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 5c7eecf5b7801eca3d23dd0eee954203e9c9cb06
 
 
 ---
@@ -91,6 +92,7 @@ ms.openlocfilehash: 74ff3209d00dee0b5ddd14e107b5544b364d08f7
 -   связь учетной записи удаленного диспетчера регистрации устройств остается, но невозможно зарегистрировать дополнительные устройства.
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Использование веб-сайта корпоративного портала Intune | Microsoft Intune"
-description: 
+description: "Сведения о веб-сайте корпоративного портала и ссылки на инструкции по выполнению задач, которые можно выполнять на этом веб-сайте"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 06/03/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 79e8d7da83997dc9c89b95097ca50493af1f9f6b
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 118a25b6ebb156c4ed642fee8802ef6a54582f8e
 
 
 ---
@@ -50,6 +50,6 @@ ms.openlocfilehash: 79e8d7da83997dc9c89b95097ca50493af1f9f6b
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

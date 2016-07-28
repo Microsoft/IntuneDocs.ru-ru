@@ -1,6 +1,6 @@
 ---
 title: "Ограничение доступа электронной почты к Dynamics CRM Online | Microsoft Intune"
-description: 
+description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.sourcegitcommit: 89e522a99687fc9b6e82db9f721858d17afdce6a
-ms.openlocfilehash: 8f90f99d621d7edebcb7a4c67e0774da59098df7
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: cbcf2c8d923524b8a1993140fbec0234740075ae
 
 
 ---
@@ -54,9 +55,11 @@ ms.openlocfilehash: 8f90f99d621d7edebcb7a4c67e0774da59098df7
 ### Шаг 2. Настройка и развертывание политики соответствия требованиям
 [Создайте](create-a-device-compliance-policy-in-microsoft-intune.md) и [разверните](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) политику соответствия для всех устройств, которые будет затрагивать эта политика. Это все устройства, которые используются пользователями в целевых группах.
 
-> [!NOTE] Во время развертывания политик в группах Microsoft Intune политики условного доступа применяются к группам безопасности Azure Active Directory.
+> [!NOTE]
+> Во время развертывания политик в группах Microsoft Intune политики условного доступа применяются к группам безопасности Azure Active Directory.
 
-> [!IMPORTANT] Если политика соответствия требованиям не развернута, устройства считаются соответствующими.
+> [!IMPORTANT]
+> Если политика соответствия не развернута, устройства считаются соответствующими.
 
 Когда будете готовы, перейдите к шагу 3.
 ### Шаг 3. Настройка политики Dynamics CRM
@@ -94,6 +97,6 @@ ms.openlocfilehash: 8f90f99d621d7edebcb7a4c67e0774da59098df7
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO3-->
 
 

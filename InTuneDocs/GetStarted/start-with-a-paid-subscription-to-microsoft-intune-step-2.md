@@ -1,9 +1,9 @@
 ---
 title: "Настройка имени личного домена | Microsoft Intune"
-description: 
+description: "Описывается процесс добавления имени личного домена для подписки Intune."
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed26d65b98a0ae1bbc4fbac682fb53fddd50b4e5
-ms.openlocfilehash: a202f06fef0bc8b7eec730728ec10e5fbf234902
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: f18afc5487fe20ba4a13d938dad78fa6087128d7
 
 
 ---
@@ -40,6 +40,6 @@ ms.openlocfilehash: a202f06fef0bc8b7eec730728ec10e5fbf234902
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

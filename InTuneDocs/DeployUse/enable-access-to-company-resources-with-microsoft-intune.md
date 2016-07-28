@@ -1,10 +1,10 @@
 ---
 title: "Разрешение доступа к ресурсам компании | Microsoft Intune"
-description: 
+description: "Профили Wi-Fi, VPN и электронной почты в совокупности позволяют пользователям получать доступ к нужным файлам и ресурсам."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: Arob98
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: 556b9ea5ac5edcc1126dbcc6310ab7dfa917cb56
+translationtype: Human Translation
+ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
+ms.openlocfilehash: 9448b5fd9121a3bce33b947c79fee7290d2a43f9
 
 
 ---
@@ -55,6 +56,6 @@ ms.openlocfilehash: 556b9ea5ac5edcc1126dbcc6310ab7dfa917cb56
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

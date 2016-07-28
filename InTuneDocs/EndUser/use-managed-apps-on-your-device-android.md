@@ -1,26 +1,27 @@
 ---
-title: "Использование управляемых приложений на устройстве | Microsoft Intune"
+title: "Использование управляемых приложений на устройстве Android | Microsoft Intune"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
+ROBOTS: noindex,nofollow
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0bb435b87c937ea118a0794c8332b9a8f268d36e
-ms.openlocfilehash: 5a25d845113ef6a3cb402923ef451fab63138979
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: 84dc834c28ab75c4091d7665e8492ec40ede95f9
 
 
 ---
 
 
-# Использование управляемых приложений на устройстве
+# Использование управляемых приложений на устройстве Android
 
 Управляемые приложения — это приложения, которые ИТ-администратор может настроить для защиты данных организации, доступных в таком приложении. При доступе к данным организации в управляемом приложении на устройстве Android вы можете заметить, что работа приложения немного отличается от ожидаемой. Например, может отсутствовать возможность скопировать и вставить защищенные данные организации или сохранить данные в определенных расположениях.
 
@@ -77,6 +78,6 @@ ms.openlocfilehash: 5a25d845113ef6a3cb402923ef451fab63138979
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

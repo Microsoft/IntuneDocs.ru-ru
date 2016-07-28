@@ -1,10 +1,10 @@
 ---
 title: "Возможности управления мобильными устройствами | Microsoft Intune"
-description: 
+description: "В этом разделе содержатся сведения о том, как Intune может помочь в управлении мобильными устройствами, зарегистрированными в службе."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f33a86c51320c75ce74d20e0cac2b9581990ecec
-ms.openlocfilehash: 0f460165f251acf95f4af36afa39409d3eb21162
+ms.sourcegitcommit: 23054b2f02d11ca19cd0902ebc1e6fdcf499d1f1
+ms.openlocfilehash: 8f44256fe249c60df8e910858516a25463c8e875
 
 
 ---
@@ -42,7 +42,8 @@ Microsoft Intune позволяет управлять различными ус
 |Развертывание приложений и управление ими|Предоставляет широкий набор средств для управления мобильными приложениями в жизненном цикле, включая развертывание приложений из файлов установки и магазинов приложений, а также подробный мониторинг состояния приложений и их удаление.|[Развертывание приложений в Microsoft Intune](/intune/deploy-use/deploy-apps)|
 |Соответствующие и несоответствующие приложения|Позволяет указать списки соответствующих приложений (которые пользователям разрешено устанавливать) и несоответствующих приложений (которые пользователям запрещено устанавливать).|[Параметры политики iOS в Microsoft Intune](/intune/deploy-use/ios-policy-settings-in-microsoft-intune)|
 |Управление мобильными приложениями|Настраивайте ограничения для приложений с помощью политики управления мобильными приложениями для устройств, управляемых и не управляемых Intune. Это позволяет повысить безопасность данных компании посредством запрета таких операций как копирование и вставка, внешнее резервное копирование данных и передача данных между приложениями.|[Настройка и развертывание политик управления мобильными приложениями в консоли Microsoft Intune](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console)<br><br>[Создание и развертывание политик управления мобильными приложениями с помощью Microsoft Intune](/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)<br /><br />[Подготовка приложений iOS для управления мобильными приложениями с помощью средства Microsoft Intune App Wrapping Tool](/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)<br /><br />[Подготовка приложений Android для управления мобильными приложениями с помощью инструмента упаковки для приложений Microsoft Intune](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)|
-|Конфигурация мобильного приложения|Используйте политики конфигурации мобильных приложений для предоставления параметров приложениям iOS, которые могут быть необходимы, когда пользователь работает с приложением. Например, приложению может потребоваться, чтобы пользователь указал номер порта или данные для входа. Это позволит упростить конфигурацию приложения и сократить число обращений в службу технической поддержки.|[Настройка приложений iOS с помощью политик конфигурации мобильных приложений в Microsoft Intune](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)|
+|Конфигурация мобильного приложения iOS|Используйте политики конфигурации мобильных приложений для предоставления параметров приложениям iOS, которые могут быть необходимы, когда пользователь работает с приложением. Например, приложению может потребоваться, чтобы пользователь указал номер порта или данные для входа. Это позволит упростить конфигурацию приложения и сократить число обращений в службу технической поддержки.|[Настройка приложений iOS с помощью политик конфигурации мобильных приложений в Microsoft Intune](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)|
+|Профили подготовки мобильных приложений iOS|Intune предоставляет инструменты, позволяющие заранее развертывать профили подготовки на приложениях iOS, срок действия которых вскоре истекает.|[Предотвращение истечения срока действия сертификата мобильного приложения iOS с помощью политик профиля подготовки](/intune/deploy-use/ios-mobile-app-provisioning-profiles)|
 |Управляемый браузер|После развертывания управляемого браузера для пользователей можно настроить политику управляемого браузера для определения того, какие сайты могут посещать пользователи. Кроме того, можно применять политики управления мобильными приложениями к управляемому браузеру.|[Управление доступом в Интернет с помощью политик управляемого браузера в Microsoft Intune](/intune/deploy-use/manage-internet-access-using-managed-browser-policies)|
 |Microsoft Passport|Intune позволяет интегрировать Microsoft Passport for Work —альтернативный метод входа для Windows 10, который использует Active Directory или учетную запись Azure Active Directory для замены пароля, смарт-карты или виртуальной смарт-карты.|[Управление параметрами Microsoft Passport на устройствах с помощью Microsoft Intune](/intune/deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune)|
 
@@ -68,6 +69,6 @@ Microsoft Intune позволяет управлять различными ус
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

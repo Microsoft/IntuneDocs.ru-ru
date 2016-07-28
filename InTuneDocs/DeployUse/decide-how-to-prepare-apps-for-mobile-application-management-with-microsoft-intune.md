@@ -1,10 +1,10 @@
 ---
-title: "Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune | Microsoft Intune"
-description: 
+title: "Подготовка приложений для управления мобильными приложениями | Microsoft Intune"
+description: "Сведения этого раздела помогут решить, когда следует использовать инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями."
 keywords: 
-author: Staciebarker
+author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: 986d864a3169fa3b094241a3522e3f25b7bfe349
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 4a15279bb4460c88412ede6c8678deea72a3629f
 
 
 ---
@@ -68,6 +69,6 @@ ms.openlocfilehash: 986d864a3169fa3b094241a3522e3f25b7bfe349
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

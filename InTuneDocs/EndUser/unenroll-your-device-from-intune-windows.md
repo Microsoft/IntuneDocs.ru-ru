@@ -1,9 +1,9 @@
 ---
-title: "Отмена регистрации устройства в Intune | Microsoft Intune"
-description: 
+title: "Отмена регистрации устройства с Windows в Intune | Microsoft Intune"
+description: "Сведения об отмене регистрации устройства с Windows в Intune"
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: arob98
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: c323aed2b4fbac831ae4919c8145b7253eb97ace
+ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
+ms.openlocfilehash: e510d9800fde2f1f10c583da273dc28739044009
 
 
 ---
 
 
-# Отмена регистрации устройства в Intune
+# Отмена регистрации устройства с Windows в Intune
 
 Если вы зарегистрированы в Intune, но больше не хотите использовать устройство Windows для работы или учебы и вам не нужен доступ к рабочей или учебной почте, приложениям или другим ресурсам, необходимо отменить регистрацию устройства. После отмены регистрации устройства в Intune вы больше не сможете получить доступ к этим ресурсам. Дополнительные сведения о том, что происходит при отмене регистрации, см. в статье [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)
 
@@ -66,6 +66,6 @@ ms.openlocfilehash: c323aed2b4fbac831ae4919c8145b7253eb97ace
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

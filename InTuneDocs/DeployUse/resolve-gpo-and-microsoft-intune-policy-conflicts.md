@@ -1,10 +1,10 @@
 ---
 title: "Разрешение конфликтов GPO и политик Intune | Microsoft Intune"
-description: 
+description: "Сведения об устранении конфликтов между групповой политикой и политиками конфигурации Intune."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: e76af5b7-e933-442c-a9d3-3b42c5f5868b
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 211543b75e2bcda85cd74ab34c254d70f036eebd
-ms.openlocfilehash: 7fc97e21fa7e57d8585c421ac12ff0d3c4b366a0
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 77f7bc40471437cf69fe5553d4d82dc71a6ba405
 
 
 ---
@@ -117,6 +117,6 @@ For more information about how to apply WMI filters in Group Policy, see the blo
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

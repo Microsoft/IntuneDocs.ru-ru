@@ -1,6 +1,6 @@
 ---
 title: "Портал Azure для политик управления мобильными приложениями | Microsoft Intune"
-description: 
+description: "Создание политик управления мобильными приложениями на портале Azure. Создаваемые на портале политики могут применяться к устройствам с регистрацией в Intune или без нее."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -13,8 +13,8 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ded7bd6c971a9448ad6e6492ebc5e42dfcb5d76e
-ms.openlocfilehash: 519bde55966d88f516553d509af60e34a6af62a9
+ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
+ms.openlocfilehash: c466a854474c1c5ba3270f848caa51edcd5b6856
 
 
 ---
@@ -28,8 +28,10 @@ ms.openlocfilehash: 519bde55966d88f516553d509af60e34a6af62a9
 - приложения, работающие на устройствах, которые **не зарегистрированы** в каком-либо решении для управления мобильными устройствами;
 - приложения, работающие на устройствах, которые **зарегистрированы в решении для управления мобильными устройствами стороннего производителя**.
 
-Если вы используете **консоль администрирования Intune** для управления устройствами, вы можете создать политику MAM, поддерживающую приложения на устройствах, зарегистрированных в Intune, с помощью [этой консоли](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md).
 >[!IMPORTANT]
+
+> Если вы используете [консоль администрирования Intune](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md) для управления устройствами, то с ее помощью вы можете создать политику MAM, поддерживающую приложения на устройствах, зарегистрированных в Intune.
+
 > В консоли администрирования Intune могут отображаться не все параметры политики MAM. Портал Azure — это новая консоль администрирования для создания политик MAM. При создании политики MAM в консоли администрирования Intune и на портале Azure политики, созданные на портале Azure, применяются к приложениям и разворачиваются для пользователей.
 
 ## Вход на портал Azure и настройка начальной страницы
@@ -59,6 +61,6 @@ ms.openlocfilehash: 519bde55966d88f516553d509af60e34a6af62a9
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

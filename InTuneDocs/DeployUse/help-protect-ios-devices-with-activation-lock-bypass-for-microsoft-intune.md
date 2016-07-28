@@ -1,20 +1,20 @@
 ---
-title: "Позволяют защищать устройства iOS с помощью обхода блокировки активации | Microsoft Intune"
-description: 
+title: "Управление блокировкой активации iOS на устройствах | Microsoft Intune"
+description: "Microsoft Intune позволяет управлять функцией блокировки активации iOS, которая представляет собой отдельный компонент приложения Find My iPhone для устройств на базе iOS 7.1 и более поздних версий."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
-ms.reviewer: jeffgilb
+ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 496679a196dc3e84c6b16ad0d3b830c81f12631b
-ms.openlocfilehash: 7bbd761b13f110297959a036ec15cafe1396377e
+ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
+ms.openlocfilehash: 724186bdff1ae40e956c1f1c49476d80c7e1d657
 
 
 ---
@@ -82,12 +82,16 @@ Intune может запрашивать состояние блокировки
 
     Если выбрать устройство в узле **Все корпоративные устройства** и включить для него блокировку активации, также можно будет увидеть код обхода. Этот код можно использовать для включения обхода блокировки активации вручную.
 
+    > [!IMPORTANT]
+    >Intune проводит инвентаризацию устройств для получения состояния блокировки активации каждые 7 дней. По этой причине устройства могут не сразу отображаться с состоянием блокировки активации на консоли Intune.
+
+
 ### См. также
 [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md)
 [Защита устройств с помощью функций удаленной очистки и сброса секретного кода](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

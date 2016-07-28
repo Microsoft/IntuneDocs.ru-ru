@@ -1,10 +1,10 @@
 ---
-title: "Управление Apple DEP для устройств iOS с помощью Microsoft Intune | Microsoft Intune"
-description: 
+title: "Управление Apple DEP для устройств iOS | Microsoft Intune"
+description: "Здесь описывается настройка управления устройствами Apple путем развертывания профиля регистрации, который регистрирует устройства iOS, приобретенные по программе регистрации устройств (DEP), в автоматическом режиме."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1b942c7e09e59de59e3e406b84a21a712c0e973a
-ms.openlocfilehash: cd763f9fa0b08cc7b822eccbd043a5b9cd355d0f
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: c63badfcbc736476f17b39e09ef189eb4d2c08ef
 
 
 ---
@@ -55,9 +55,7 @@ Microsoft Intune позволяет развертывать профиль ре
 
     Также можно **Присвоить устройства следующей группе**. Щелкните **Выбрать...**, чтобы выбрать группу.
 
-    >[!Important]
-    >Назначения групп будут перемещены из Intune в Azure Active Directory. [Дополнительные сведения](#changes-to-intune-group-assignments)
-
+    [!INCLUDE[groups deprecated](../includes/group-deprecation.md)]
 
     Затем включите параметр **Настройка параметров программы регистрации устройств для этой политики** для поддержки DEP.
 
@@ -101,13 +99,13 @@ Microsoft Intune позволяет развертывать профиль ре
 
 ## Изменения в назначениях групп Intune
 
-Начиная с сентября управление группами устройств будет перемещено в Azure Active Directory. После перехода на группы Azure Active Directory интерфейс для назначения групп не будет отображаться в параметрах **Профиль регистрации в среде организации**. Поскольку это изменение будет внедряться в течение нескольких месяцев, изменения могут отобразиться не сразу. Дополнительные сведения будут опубликованы в ближайшее время.
+Начиная с сентября управление группами устройств будет перемещено в Azure Active Directory. После перехода на группы Azure Active Directory интерфейс для назначения групп не будет отображаться в параметрах **Профиль регистрации в среде организации**. Поскольку это изменение будет внедряться в течение нескольких месяцев, изменения могут отобразиться не сразу. В Azure Active Directory можно определить новое динамическое назначение для групп устройств на основе имени профиля регистрации в среде организации. Этот процесс гарантирует, что устройства, предварительно назначенные группе устройств, будут автоматически зарегистрированы в группе с развернутыми приложениями и политиками. [Узнайте больше о группах Azure Active Directory.](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
 
 ### См. также
 [Подготовка к регистрации устройств](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

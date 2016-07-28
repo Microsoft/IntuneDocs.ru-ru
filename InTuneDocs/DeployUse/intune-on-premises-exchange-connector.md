@@ -1,19 +1,20 @@
 ---
-title: "Установка локального соединителя Exchange Intune для локального Exchange | Microsoft Intune"
-description: 
+title: "Соединитель Exchange для локальной службы EAS | Microsoft Intune"
+description: "Сведения об использовании инструмента &quot;Соединитель&quot; для обеспечения взаимодействия между консолью администрирования Intune и локальным сервером Exchange Server для управления мобильными устройствами с помощью Exchange ActiveSync."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
-ms.reviewer: jeffgilb
+ms.reviewer: muhosabe
 ms.suite: ems
-ms.sourcegitcommit: 8c1f4f209c5ec704290882b8f6f71e0b1b01d21c
-ms.openlocfilehash: 45f815ea379007b75316552d34f5bd8669b2ccef
+translationtype: Human Translation
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
 
 
 ---
@@ -36,7 +37,6 @@ ms.openlocfilehash: 45f815ea379007b75316552d34f5bd8669b2ccef
 |Дополнительное программное обеспечение|На компьютере, на котором размещен соединитель, необходимо выполнить полную установку платформы Microsoft .NET Framework 4 и Windows PowerShell 2.0.|
 |Network (Сеть)|Компьютер, на котором устанавливается соединитель, должен входить в домен, имеющий отношение доверия с доменом, где размещен сервер Exchange Server.<br /><br />Для компьютера необходимо настроить доступ к службе Intune через брандмауэры и прокси-серверы на портах 80 и 443. Домены, используемые Intune, включают manage.microsoft.com, &#42;manage.microsoft.com и &#42;.manage.microsoft.com.|
 |Размещенный Exchange настроен и запущен|Дополнительные сведения см. в разделе [Exchange Server 2016](https://technet.microsoft.com/library/mt170645.aspx). |
-|Установите Intune в качестве центра управления мобильными устройствами|[Настройка Intune в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)|
 
 ### Требования к командлетам Exchange
 
@@ -58,16 +58,14 @@ ms.openlocfilehash: 45f815ea379007b75316552d34f5bd8669b2ccef
 
 ## Загрузка пакета установки программного обеспечения локального соединителя Exchange
 
-1. В поддерживаемой операционной системе для локального соединителя Exchange откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com) (http://manage.microsoft.com) с использованием учетной записи с правами администратора в клиенте Exchange с лицензией на использование сервера Exchange.
+1. В поддерживаемой операционной системе Windows Server для локального соединителя Exchange откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com) (http://manage.microsoft.com), используя учетную запись с правами администратора в клиенте Exchange с лицензией на использование сервера Exchange.
 ![Откройте настроенное подключение к Exchange.](../media/ExchangeConnector.gif)
 
-2.  На панели ярлыков рабочей области щелкните **Администратор**.
+2.  На панели ярлыков рабочей области выберите **Администрирование**, щелкните **Управление мобильными устройствами** > **Microsoft Exchange**, а затем выберите **Setup Exchange Connection** (Настройка подключения к Exchange).
 
-3.  На панели навигации в области **Управление мобильными устройствами** разверните узел **Microsoft Exchange**, а затем выберите **Настроить подключение к Exchange**.
+3.  На странице **Настройка подключения Exchange** щелкните **Загрузка On-Premises Connector**.
 
-4.  На странице **Настройка подключения Exchange** щелкните **Загрузка On-Premises Connector**.
-
-5.  Локальный соединитель Exchange находится в сжатой ZIP-папке, которую можно открыть или сохранить. В диалоговом окне **Загрузка файла** выберите **Сохранить**, чтобы сохранить сжатую папку в безопасное расположение.
+4.  Локальный соединитель Exchange находится в сжатой ZIP-папке, которую можно открыть или сохранить. В диалоговом окне **Загрузка файла** выберите **Сохранить**, чтобы сохранить сжатую папку в безопасное расположение.
 
 > [!IMPORTANT]
 > Не переименовывайте и не перемещайте файлы в папке локального соединителя Exchange. Перемещение или переименование папки прервет установку.
@@ -133,6 +131,6 @@ ms.openlocfilehash: 45f815ea379007b75316552d34f5bd8669b2ccef
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

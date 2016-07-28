@@ -1,6 +1,6 @@
 ---
 title: "Работа конечных пользователей с приложениями с включенной поддержкой MAM | Microsoft Intune"
-description: 
+description: "В этом разделе описывается, чего следует ожидать от управления приложением посредством политик управления мобильными приложениями."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
-ms.sourcegitcommit: 3f797e3ef4a7e2d1b27ce6b1ed6e5322343c6cff
-ms.openlocfilehash: 9b557c272c9d740792560a392d52efff6a7deed1
+translationtype: Human Translation
+ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
+ms.openlocfilehash: e43dea5630975165ea7468836a8b0328f0656030
 
 
 ---
@@ -47,7 +48,7 @@ ms.openlocfilehash: 9b557c272c9d740792560a392d52efff6a7deed1
     ![Снимок экрана: открытое расположение со списком имеющихся файлов](../media/AppManagement/iOS_OneDriveSuccess.png)
 
     > [!NOTE]
-    > [!NOTE] При модификации развернутой политики изменения применяются при следующем открытии приложения.
+    > При модификации развернутой политики изменения применяются при следующем открытии приложения.
 
 ##  Доступ к OneDrive на устройстве Android
 
@@ -170,6 +171,6 @@ Intune поддерживает развертывание политик MAM т
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

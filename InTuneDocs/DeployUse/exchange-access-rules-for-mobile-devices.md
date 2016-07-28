@@ -1,26 +1,26 @@
 ---
-title: "Правила доступа к Exchange для мобильных устройств, управляемых Microsoft Intune | Microsoft Intune"
-description: 
+title: "Правила доступа к Exchange для мобильных устройств | Microsoft Intune"
+description: "Правила доступа к Exchange ActiveSync для управления мобильными устройствами (MDM) определяют уровень доступа к Exchange, предоставляемый этим устройствам."
 keywords: 
 author: NathBarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 208b9f45-02d9-413a-b86a-8bad9b5008fa
-ms.reviewer: jeffgilb
+ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: ef0b9901e340aec8b2b516f0180133e37833bf37
+ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
+ms.openlocfilehash: f69c086333e359f7d1bf202a8d13667779bd3c86
 
 
 ---
 
 # Правила доступа к Exchange для мобильных устройств
-Правила доступа к Exchange для мобильных устройств определяют уровень доступа к Exchange, предоставляемый этим устройствам. Эти параметры влияют на все мобильные устройства, включая те, которые не зарегистрированы в Microsoft Intune. Начните с определения **правила по умолчанию** , которое будет применяться к мобильным устройствам, не имеющим настраиваемого правила. В следующей таблице приводятся уровни доступа, управляемые Exchange ActiveSync.
+Правила доступа к Exchange для мобильных устройств определяют уровень доступа к Exchange ActiveSync, предоставляемый этим устройствам. Эти параметры влияют на все мобильные устройства, включая те, которые не зарегистрированы в Microsoft Intune. Начните с определения **правила по умолчанию** , которое будет применяться к мобильным устройствам, не имеющим настраиваемого правила. В следующей таблице приводятся уровни доступа, управляемые Exchange ActiveSync.
 
 |Уровень доступа|Описание|
 |----------------|---------------|
@@ -53,6 +53,6 @@ ms.openlocfilehash: ef0b9901e340aec8b2b516f0180133e37833bf37
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

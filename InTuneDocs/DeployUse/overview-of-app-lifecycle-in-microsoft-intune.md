@@ -1,20 +1,20 @@
 ---
 title: "Общие сведения о жизненном цикле приложений | Microsoft Intune"
-description: 
+description: "Сведения о жизненном цикле приложений, управляемых Intune, начиная с добавления вплоть до прекращения использования."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: arob98
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
-ms.reviewer: jeffgilb
+ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8d83f8ea2fa116ca6f1dbf96370c837ca6581d0b
-ms.openlocfilehash: 882f0aa030d1d9e03ca50baed3f618f7a719b5b5
+ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
+ms.openlocfilehash: 86d9de9992003ffd163291035174c8d1e822929a
 
 
 ---
@@ -51,6 +51,6 @@ Intune предоставляет множество способов защит
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

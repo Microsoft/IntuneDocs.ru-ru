@@ -1,10 +1,10 @@
 ---
 title: "Ограничение доступа к Skype для бизнеса Online | Microsoft Intune"
-description: 
+description: "Защита и контроль доступа к Skype для бизнеса Online с помощью условного доступа."
 keywords: 
 author: karthikaraman
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.sourcegitcommit: 5cbf748ffee8fbb53f7e64a5499f06d5bd89c415
-ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
+translationtype: Human Translation
+ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
+ms.openlocfilehash: 693feee133a594032c0edc69f03f65681bacfb81
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 **Перед** настройкой политики условного доступа для Skype для бизнеса Online необходимо выполнить следующие условия:
 - Получить **подписку Skype для бизнеса Online** и назначить лицензии Skype для бизнеса Online пользователям.
 - Получить подписку на **Enterprise Mobility Suite** или **Azure Active Directory Premium**.
--   [Включение современной проверки подлинности](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune) для Skype для бизнеса Online. 
+-   [Включение современной проверки подлинности](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune) для Skype для бизнеса Online.
 -  Все пользователи должны использовать **Skype для бизнеса Online**. Если имеется развертывание Skype для бизнеса Online и локальной версии Skype для бизнеса, политика условного доступа для конечных пользователей не применяется.
 
     Устройство, которому требуется доступ к Skype для бизнеса Online должно соответствовать следующим условиям:
@@ -69,11 +70,11 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 [Создайте](create-a-device-compliance-policy-in-microsoft-intune.md) и [разверните](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md) политику соответствия для всех устройств, которые будет затрагивать эта политика. Это все устройства, которые используются пользователями в **целевых группах**.
 
 > [!NOTE]
-> [!NOTE] Во время развертывания политик в группах [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] политики условного доступа нацелены на группы безопасности Azure Active Directory.
+> Во время развертывания политик в группах [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] политики условного доступа нацелены на группы безопасности Azure Active Directory.
 
 
 > [!IMPORTANT]
-> [!IMPORTANT] Если политика соответствия требованиям не развернута, устройства считаются соответствующими.
+> Если политика соответствия не развернута, устройства считаются соответствующими.
 
 Когда будете готовы, перейдите к **шагу 3**.
 
@@ -115,6 +116,6 @@ ms.openlocfilehash: c26f3b732eb42903c72e8655542ee1ed586f5c67
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 
