@@ -3,8 +3,8 @@ title: "Определение области проекта | Microsoft Intune"
 description: "Рекомендации по этапу определения области проекта при выполнении развертывания Intune."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 71488dad-2f78-478c-a505-5cb9410eec07
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 8bd547eb70f1b933a9dee578a9f843b4cbdd7b57
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: 14c65bdef3c9663c81ac9ecc00b662845f3209e5
 
 
 ---
@@ -60,7 +60,7 @@ ms.openlocfilehash: 8bd547eb70f1b933a9dee578a9f843b4cbdd7b57
 
 
  > [!NOTE]
- > 
+ >
  > Эти шаблоны могут оказаться полезными при определении объема проекта:
  > > - [Шаблон принятия решения по Intune или Intune с Configuration Manager](https://gallery.technet.microsoft.com/Intune-or-Intune-with-900e8a78)
  > - [Шаблон планирования для мобильных приложений](https://gallery.technet.microsoft.com/Mobile-app-planning-18689d59)
@@ -113,6 +113,6 @@ ms.openlocfilehash: 8bd547eb70f1b933a9dee578a9f843b4cbdd7b57
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

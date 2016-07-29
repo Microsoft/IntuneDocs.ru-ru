@@ -3,7 +3,7 @@ title: "Устройство iOS не содержит необходимую м
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 1d5ff475c2cd2ac678ee94f3850c0e18513ffe16
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 74dec333f662fc700ecc544299ba535a16287dd7
 
 
 ---
@@ -31,6 +31,7 @@ ms.openlocfilehash: 1d5ff475c2cd2ac678ee94f3850c0e18513ffe16
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

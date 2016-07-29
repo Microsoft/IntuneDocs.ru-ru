@@ -3,7 +3,7 @@ title: "Параметры политики Exchange ActiveSync | Microsoft Intu
 description: "Используйте политику Exchange ActiveSync в Intune для настройки параметров, позволяющих контролировать возможности и функции на устройствах под управлением Exchange ActiveSync."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 7cdb34c469d2932deb10deec592a899b9848226a
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 0779fca11a692ce6843ef2ebf1c6a459273fc7cc
 
 
 ---
@@ -81,6 +81,6 @@ ms.openlocfilehash: 7cdb34c469d2932deb10deec592a899b9848226a
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

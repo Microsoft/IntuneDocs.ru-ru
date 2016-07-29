@@ -3,8 +3,8 @@ title: "Общие задачи оценки Intune | Microsoft Intune"
 description: "Списки и ссылки на некоторые распространенные задачи, например развертывание политики ПИН-кодов для iOS и настройка доступа к электронной почте, которые можно выполнить с помощью Intune."
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 05/5/2016
+manager: angrobe
+ms.date: 05/05/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: c7c2d100-793a-4ed8-b1ac-1da637a1a19d
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 5ba5c82de668a69aee29a06a5732f9a52079a9a6
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: 5ff17a245630746e68492d94a094ebfe3114300c
 
 
 ---
@@ -34,6 +34,6 @@ ms.openlocfilehash: 5ba5c82de668a69aee29a06a5732f9a52079a9a6
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

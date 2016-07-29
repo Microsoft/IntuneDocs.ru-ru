@@ -3,7 +3,7 @@ title: "Параметры политики безопасности мобил�
 description: "Сведения об использовании Intune для настройки ряда параметров, которые можно развернуть на управляемых устройствах в организации."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e5ab3b76-08af-4893-b294-fb6627fdc4c6
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 41813b383003311e68f2a7fb50d42638434649f7
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 648cc02b47682a58195ee927560763818b6d32ac
 
 
 ---
@@ -212,6 +212,6 @@ ms.openlocfilehash: 41813b383003311e68f2a7fb50d42638434649f7
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "Регистрация устройства iOS в Intune | Microsoft In
 description: "Описывается, как зарегистрировать устройство iOS в Intune."
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/18/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 3cf778aa14aab093c9f5d58bda932a35f2db5089
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 7bc57a9416023077d22323d4e88d1464304e21ea
 
 
 ---
@@ -35,53 +35,53 @@ ms.openlocfilehash: 3cf778aa14aab093c9f5d58bda932a35f2db5089
 
 2. На странице **Настройка доступа к ресурсам организации** нажмите **Начать**.
 
-    ![ios-enroll-comp-access-setup-begin](./media/ios-enroll-1a-comp-access-setup.png) 
+    ![ios-enroll-comp-access-setup-begin](./media/ios-enroll-1a-comp-access-setup.png)
 
 3. На экране **Зачем регистрировать устройство?** ознакомьтесь с возможностями, которые доступны при регистрации устройства, а затем выберите **Продолжить**.
 
-    ![ios-enroll-why-enroll](./media/ios-enroll-1b-why-enroll.png) 
+    ![ios-enroll-why-enroll](./media/ios-enroll-1b-why-enroll.png)
 
 4. Просмотрите сведения о том, что именно ИТ-администратор может просматривать на вашем зарегистрированном устройстве, и выберите элемент **Продолжить**.
 
-    ![ios-enroll-what-it-can-see](./media/ios-enroll-1c-we-care-privacy.png) 
+    ![ios-enroll-what-it-can-see](./media/ios-enroll-1c-we-care-privacy.png)
 
 5.  На экране **Дальнейшие действия** ознакомьтесь с тем, что происходит во время регистрации, а затем нажмите **Зарегистрировать**.
 
-    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png) 
+    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
 
 6.  На экране **Установить профиль** выберите **Установить** и введите секретный код при появлении соответствующего запроса.
 
-    ![ios-enroll-install-profile](./media/ios-enroll-2-mgt-profile-install.png) 
-  
+    ![ios-enroll-install-profile](./media/ios-enroll-2-mgt-profile-install.png)
+
 7.  Нажмите **Установить**.
 
     ![ios-enroll-tap-install](./media/ios-enroll-3-mgt-profile-install-2.png)    
 
 8.  Нажмите **Установить**, чтобы указать, что вы прочитали предупреждение.
 
-    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png) 
+    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
 
 9.  Нажмите **Доверие**.
 
-    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png) 
+    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
 
 10.  После окончания установки профиля нажмите **Готово**.
 
-    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png) 
+    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
 
     На экране отображается сообщение "Регистрации устройства".
 
 11.  Когда появится сообщение с вопросом, хотите ли вы открыть страницу на корпоративном портале, нажмите **Открыть**.
 
-    ![ios-enroll-open-comp-portal](./media/ios-enroll-7-open-cp.png) 
+    ![ios-enroll-open-comp-portal](./media/ios-enroll-7-open-cp.png)
 
 12. На экране **Настройка доступа к ресурсам организации** нажмите **Продолжить**. Если ваш ИТ-администратор установил дополнительные требования к безопасности, например, необходимость установки пароля, следуйте инструкциям на экране, пока не будут выполнены все требования к соответствию и вы не вернетесь на экран "Настройка доступа к ресурсам организации", после чего выберите **Продолжить**.
 
-    ![ios-enroll-comp-access-tap-continue](./media/ios-enroll-8-comp-access-setup-compliance.png) 
+    ![ios-enroll-comp-access-tap-continue](./media/ios-enroll-8-comp-access-setup-compliance.png)
 
-13. Нажмите **Готово**. 
+13. Нажмите **Готово**.
 
-    ![ios-enroll-tap-done](./media/ios-enroll-9-comp-access-setup-complete.png) 
+    ![ios-enroll-tap-done](./media/ios-enroll-9-comp-access-setup-complete.png)
 
 Теперь ваше устройство зарегистрировано в Intune и вы вернулись в приложение корпоративного портала.
 
@@ -91,6 +91,7 @@ ms.openlocfilehash: 3cf778aa14aab093c9f5d58bda932a35f2db5089
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

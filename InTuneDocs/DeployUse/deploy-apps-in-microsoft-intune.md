@@ -3,7 +3,7 @@ title: "Как развернуть приложения | Microsoft Intune"
 description: "В этом разделе приводятся сведения, которые помогут вам развернуть приложения с помощью Microsoft Intune."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5ef1d2d69acfeea9670324f580d33b191001ffa9
-ms.openlocfilehash: 8ab2517a11ecb6ae5395814472dfbb3e83da132b
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: f3a8492532f01c576b1abf3c3228ba99dbd0d547
 
 ---
 # Развертывание приложений в Microsoft Intune
@@ -64,6 +64,6 @@ ms.openlocfilehash: 8ab2517a11ecb6ae5395814472dfbb3e83da132b
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

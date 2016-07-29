@@ -3,7 +3,7 @@ title: "Контактные телефоны службы поддержки | 
 description: 
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 01c096eb-088b-4d2b-a1fa-dce6cdb12294
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cc64e51499908d08823429871cda91dfb0078b1e
-ms.openlocfilehash: de00d31ab32916f29a111c93b39a578f82524f80
+ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
+ms.openlocfilehash: 54e6c08d30ee9b5d1b9ae45bf998c64cbf6a1e44
 
 
 ---
@@ -117,7 +117,6 @@ ms.openlocfilehash: de00d31ab32916f29a111c93b39a578f82524f80
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

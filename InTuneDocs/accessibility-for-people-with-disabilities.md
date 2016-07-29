@@ -3,7 +3,7 @@ title: "Специальные возможности для людей с ог�
 description: "Прочитайте сведения о специальных возможностях продуктов Майкрософт."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3a503548-434c-410a-a419-7eadd7e7fb99
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 6c7ed87bf4d1b2f66abf2079391fed17832b2989
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 42c85455dd9a99b86ed475b4d24d2c1c08cb9e49
 
 
 ---
@@ -30,6 +30,6 @@ ms.openlocfilehash: 6c7ed87bf4d1b2f66abf2079391fed17832b2989
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

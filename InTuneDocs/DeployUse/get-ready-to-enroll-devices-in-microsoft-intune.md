@@ -4,7 +4,7 @@ description: "В статье описывается настройка необ
 keywords: 
 author: NathBarn
 manager: arob98
-ms.date: 04/28/2016
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: f7fd551ab35408236a58ccd581382a6b11343dda
+ms.sourcegitcommit: 1f6f98d582ce9a686ca02682a9066d8b2162d6ab
+ms.openlocfilehash: 24b8434993d7661e12172ac0e5fe58d1e6621558
 
 
 ---
@@ -109,6 +109,6 @@ ms.openlocfilehash: f7fd551ab35408236a58ccd581382a6b11343dda
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

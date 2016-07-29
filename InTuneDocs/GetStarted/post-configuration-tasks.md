@@ -3,7 +3,7 @@ title: "Задачи, выполняемые после настройки | Mic
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 34a412cd-8240-4e06-a60e-df270a711e7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 2ea7f48c8d34da920c7cb3a70309d34c3f768fed
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: a589974b4170754f94fbc73fcbaff4d7776261f7
 
 
 ---
@@ -30,6 +30,6 @@ ms.openlocfilehash: 2ea7f48c8d34da920c7cb3a70309d34c3f768fed
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

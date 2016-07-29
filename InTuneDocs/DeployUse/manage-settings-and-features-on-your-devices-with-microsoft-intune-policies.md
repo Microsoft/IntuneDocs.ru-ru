@@ -3,7 +3,7 @@ title: "Использование политик для управления п
 description: "Сведения о создании и развертывании политик для управления параметрами и функциями на зарегистрированных устройствах, которыми вы управляете, с помощью Intune."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/12/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
-ms.openlocfilehash: 661a8807076da4c67f3e55e82dfc8824071c6352
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 70b980c045d8d37aa4ea5bee5858c0c728d54114
 
 
 ---
@@ -215,6 +215,6 @@ Intune не оценивает полезные данные файлов кон
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

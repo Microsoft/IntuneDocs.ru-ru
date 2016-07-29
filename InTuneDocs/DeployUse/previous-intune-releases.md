@@ -3,7 +3,7 @@ title: "Предыдущие выпуски | Microsoft Intune"
 description: 
 keywords: 
 author: Lindavr
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 45dad14a-d412-488d-bb1e-ad990ea503df
 ROBOTS: noindex,nofollow
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b812a3124c330a9b45378c99ee77959c8d7bc537
-ms.openlocfilehash: b30ab535ac7d8b10e3feef52ab01a68ba8572dba
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 31e36fdb77916841e30b0e7276ef62850df45d12
 
 
 ---
@@ -311,6 +311,6 @@ Intune теперь позволяет [управлять приложения�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

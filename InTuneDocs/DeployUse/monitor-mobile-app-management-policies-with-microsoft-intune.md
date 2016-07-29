@@ -3,8 +3,8 @@ title: "Мониторинг политик MAM с помощью Microsoft Intu
 description: "Здесь описано, как просмотреть сведения о пользователях, использующих политику, и ознакомиться с более подробной информацией."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 07/06/2016
+manager: angrobe
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: 1efbecc33e33e5e4864bcc2417ebed1e8a5b5826
+ms.sourcegitcommit: 644860abcd351d24f08d7a517a3a4b5f44824689
+ms.openlocfilehash: 1d22d26c1a1c52dda4f9b01658d22f8de8187f0f
 
 
 ---
@@ -75,6 +75,6 @@ ms.openlocfilehash: 1efbecc33e33e5e4864bcc2417ebed1e8a5b5826
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,8 +3,8 @@ title: "Общие сведения о жизненном цикле MDM | Micro
 description: "Узнайте, как Intune помогает управлять устройствами в течение их жизненного цикла от регистрации до настройки и списания."
 keywords: 
 author: robstackmsft
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.sourcegitcommit: 5140c4943be630ea8e48f80f7e6b590d223beac1
-ms.openlocfilehash: 751025aa71ef41564100ea57ac0d1fe60619e214
+translationtype: Human Translation
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 11260ad0e7dc45b7dec42fe12456ed18a484ab89
 
 
 ---
@@ -45,6 +46,6 @@ ms.openlocfilehash: 751025aa71ef41564100ea57ac0d1fe60619e214
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

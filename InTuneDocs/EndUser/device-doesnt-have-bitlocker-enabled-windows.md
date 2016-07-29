@@ -3,18 +3,19 @@ title: "На устройстве не включено шифрование Bit
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e0c5993b-3fa5-411e-bae0-93fb66c49bea
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: dcc3872c4237023c80324ee3dca927e5095b87be
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 476611020c249f7993fd5bd295cbc73657cd659e
 
 
 ---
@@ -28,6 +29,7 @@ ms.openlocfilehash: dcc3872c4237023c80324ee3dca927e5095b87be
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

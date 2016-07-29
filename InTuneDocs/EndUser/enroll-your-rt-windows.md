@@ -3,7 +3,7 @@ title: "Регистрация устройства Windows RT в Intune | Micr
 description: "Описывается, как зарегистрировать устройство с Windows RT в Intune."
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: ca6519e8-d0da-4314-b0bc-1753784d7969
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 6d7bd56ae4617365ef89672903d411c5d713ea25
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 2cf905d4c3189ad1be9cd8feae8525d02aad7355
 
 
 ---
@@ -53,7 +53,6 @@ ms.openlocfilehash: 6d7bd56ae4617365ef89672903d411c5d713ea25
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

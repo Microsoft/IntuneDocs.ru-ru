@@ -3,7 +3,7 @@ title: "Управление параметрами Microsoft Passport на ус
 description: "Узнайте, как Intune интегрируется с приложением Microsoft Passport for Work, которое является альтернативным средством входа, использующим Active Directory или учетную запись Azure Active Directory для замены пароля, смарт-карты или виртуальной смарт-карты."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ada366e91806c6f443ac4548af99c587ac218ec9
-ms.openlocfilehash: 934ae78edf4de2003d62179fa38269d97e6d7ef6
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 9f75306e1448bd474bd90b1836393962c0e08522
 
 
 ---
@@ -78,6 +78,6 @@ Intune интегрируется с Passport for Work двумя способа
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

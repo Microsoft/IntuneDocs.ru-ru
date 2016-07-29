@@ -3,8 +3,8 @@ title: "Работа конечных пользователей с прилож
 description: "В этом разделе описывается, чего следует ожидать от управления приложением посредством политик управления мобильными приложениями."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 359f76daa35a14e4107a9e03c6a1b1f4d1215777
-ms.openlocfilehash: e43dea5630975165ea7468836a8b0328f0656030
+ms.sourcegitcommit: a1a8d80ad2b0ee66101ad9e67532e806ebc4b690
+ms.openlocfilehash: 3361c9069a3258621b9349a0cf332a38c206d041
 
 
 ---
@@ -171,6 +171,6 @@ Intune поддерживает развертывание политик MAM т
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

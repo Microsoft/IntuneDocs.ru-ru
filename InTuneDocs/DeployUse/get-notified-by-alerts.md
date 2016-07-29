@@ -3,7 +3,7 @@ title: "Получение уведомлений в оповещениях | Mi
 description: "Сведения о том, как оповещения позволяют отслеживать, что происходит в Microsoft Intune."
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 396ea714-0433-4bd5-a934-8d0b477f28e4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: b56854664e90fe74a6a63aa52c645ba0b53476d0
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 59c5cf28a7be2d1b4b9071dd889803e18f31f83b
 
 
 ---
@@ -85,6 +85,6 @@ ms.openlocfilehash: b56854664e90fe74a6a63aa52c645ba0b53476d0
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

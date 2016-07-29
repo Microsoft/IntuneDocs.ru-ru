@@ -3,7 +3,7 @@ title: "Регистрация устройства Mac OS X в Intune | Micro
 description: "Описывается, как зарегистрировать устройство Mac OS X в Intune."
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/30/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 04380c2adf65f76a786da51509db24d773ac30f1
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 9e3c351591f496fbc7be3fefdc320af9caaae726
 
 
 ---
@@ -34,19 +34,19 @@ ms.openlocfilehash: 04380c2adf65f76a786da51509db24d773ac30f1
 
 2.  Нажмите элемент **Это устройство не зарегистрировано, либо портал компании не может идентифицировать его**.
 
-    ![device-not-enrolled](./media/1-macosx-enroll-tap-enroll.png) 
+    ![device-not-enrolled](./media/1-macosx-enroll-tap-enroll.png)
 
 3.  Нажмите **Установить** для начала регистрации устройства.
 
-    ![tap-install-to-enroll](./media/2-macosx-enroll--install-button.png) 
+    ![tap-install-to-enroll](./media/2-macosx-enroll--install-button.png)
 
 4.  В диалоговом окне **Install Management Profile** (Установить профиль управления) нажмите элемент **Установить**. Если отображается диалоговое окно с запросом на ввод учетных данных, введите имя пользователя и пароль, а затем нажмите **Продолжить** &gt; **Установить**.
 
-    ![install-management-profile](./media/3-macosx-enroll-tap-install.png) 
+    ![install-management-profile](./media/3-macosx-enroll-tap-install.png)
 
     После регистрации отображается страница профиля управления с сообщением о проверке профиля.
 
-    ![management-profile-verified](./media/4-macosx-enroll-done.png) 
+    ![management-profile-verified](./media/4-macosx-enroll-done.png)
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
@@ -54,6 +54,7 @@ ms.openlocfilehash: 04380c2adf65f76a786da51509db24d773ac30f1
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Jul16_HO4-->
 
 

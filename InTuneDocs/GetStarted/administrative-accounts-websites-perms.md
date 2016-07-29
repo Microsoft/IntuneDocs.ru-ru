@@ -3,7 +3,7 @@ title: "Административные учетные записи, веб-с�
 description: "административные учетные записи, веб-сайты, разрешения"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: db3075e7-38fd-4dfe-b266-26aed10ac8ea
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 88bd3f329a6b0d137f8cf02f5221263b64a33141
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: e174cb6706e7910d511d5f39836cec6b9a98403d
 
 
 ---
@@ -94,6 +94,6 @@ ms.openlocfilehash: 88bd3f329a6b0d137f8cf02f5221263b64a33141
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

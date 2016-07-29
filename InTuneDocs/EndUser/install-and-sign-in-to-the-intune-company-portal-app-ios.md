@@ -3,18 +3,19 @@ title: "Установка приложения корпоративного п�
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 05/04/2016
+manager: angrobe
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8dfe66b4-f585-4862-87fa-7dbb4487549c
+ROBOTS: noindex,nofollow
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: d59ee373d4b5b90442bdf0a282cf37e76c013e44
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 87245219c4e1c44c575e0c91d6f3598467044945
 
 
 ---
@@ -40,6 +41,7 @@ ms.openlocfilehash: d59ee373d4b5b90442bdf0a282cf37e76c013e44
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "Возможности управления мобильными уст�
 description: "В этом разделе содержатся сведения о том, как Intune может помочь в управлении мобильными устройствами, зарегистрированными в службе."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 23054b2f02d11ca19cd0902ebc1e6fdcf499d1f1
-ms.openlocfilehash: 8f44256fe249c60df8e910858516a25463c8e875
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 720112c7c20883200557510da2a42ee402eff50a
 
 
 ---
@@ -69,6 +69,6 @@ Microsoft Intune позволяет управлять различными ус
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

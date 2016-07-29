@@ -3,7 +3,7 @@ title: "Повторное подключение к скомпрометиро
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 06/06/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c017a666bf208e02c1db8f1137281435217fc5e6
-ms.openlocfilehash: 08c85817b46d5acb454c96419198080ba4c7a0ad
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: a9569062c0b1470db131e1dfac98248b1180054b
 
 
 ---
@@ -27,8 +27,6 @@ ms.openlocfilehash: 08c85817b46d5acb454c96419198080ba4c7a0ad
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

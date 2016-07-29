@@ -3,8 +3,8 @@ title: "Развертывание приложений | Microsoft Intune"
 description: "Рекомендации по поэтапному развертыванию приложений в Microsoft Intune."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0fc32ed3-bcf4-472a-80e7-eb20986f78fa
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2427768c0ca73d20140462946ba2984b7999d864
-ms.openlocfilehash: d72247936a0dec8e2e00d107c0d52c1568a92c03
+ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
+ms.openlocfilehash: 83306c0847eaf98d499e649308669a33306aa97e
 
 
 ---
@@ -95,6 +95,6 @@ ms.openlocfilehash: d72247936a0dec8e2e00d107c0d52c1568a92c03
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

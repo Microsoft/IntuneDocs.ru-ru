@@ -3,7 +3,7 @@ title: "Регистрация устройства Windows Phone 8.1 в Intune
 description: "Описывается, как зарегистрировать устройство с Windows Phone 8.1 в Intune."
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 4a120c3d-d520-4d48-ae4c-3338ca4e7bde
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 64e25452980839ddde8d9cb10508089a5ce85034
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 04a1f3009adb1d9f5774467491b29b39d50fc248
 
 
 ---
@@ -90,7 +90,6 @@ ms.openlocfilehash: 64e25452980839ddde8d9cb10508089a5ce85034
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

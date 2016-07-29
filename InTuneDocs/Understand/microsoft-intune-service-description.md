@@ -3,18 +3,18 @@ title: "Описание службы | Microsoft Intune"
 description: "Intune — это облачная служба, которая помогает управлять компьютерами с Windows, а также мобильными устройствами на базе iOS, Mac OS X, Android и Windows."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
-ms.reviewer: jeffgilb
+ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 98a5013ef42732e6a1a541e128986bedbb004611
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: c13366ea7f42272e6fc3d606cb8dbe0ed1c45fe4
 
 
 ---
@@ -83,6 +83,6 @@ Microsoft Intune — это облачная служба, которая по�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,18 +3,18 @@ title: "Настраиваемые конфигурации профилей VPN
 description: "Создание профилей VPN в Intune с помощью настраиваемых конфигураций."
 keywords: 
 author: Nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
-ms.reviewer: jeffgilb
+ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: b61a4c90cfed9922df151a6c1ac93e276db18623
+ms.sourcegitcommit: 9a124663a80bb477d0312faa0fb43e4457ba8246
+ms.openlocfilehash: ae5ac5c697195f8b45f500cfa9d0de24953f8cb0
 
 
 ---
@@ -86,19 +86,19 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 По любым вопросам о назначении и использовании этих параметров клиентам следует обращаться к документации по поставщику службы конфигурации: https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx
 
 ## Параметры URI для VPN для каждого приложения Android в PulseSecure
-### НАСТРАИВАЕМЫЙ КОД URI ДЛЯ СПИСКА ПРИЛОЖЕНИЙ 
+### НАСТРАИВАЕМЫЙ КОД URI ДЛЯ СПИСКА ПРИЛОЖЕНИЙ
 -  Тип данных = строковый
--  OMA-URI = ./Vendor/MSFT/VPN/Profile/<Name>/PackageList 
+-  OMA-URI = ./Vendor/MSFT/VPN/Profile/<Name>/PackageList
 -  Значение = список пакетов с разделителями
    - Разделители: точка с запятой (;), двоеточие (:), запятая (,), вертикальная черта (|)
 
-Примеры: 
+Примеры:
 - com.android.chrome
 - com.android.chrome;com.android.browser
 
 ### НАСТРАИВАЕМЫЙ КОД URI ДЛЯ РЕЖИМА (НЕОБЯЗАТЕЛЬНО)
 - Тип данных = строковый
-- OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode 
+- OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode
 
 > Примечания
 > - Используйте то же *имя*, которые вы присвоили настраиваемому профилю.
@@ -112,6 +112,6 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

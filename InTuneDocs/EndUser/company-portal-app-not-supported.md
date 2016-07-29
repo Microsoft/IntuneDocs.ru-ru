@@ -3,18 +3,19 @@ title: "Приложение портала организации не подд
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 7/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: dea37b91-33fa-4d4a-ac44-560b450c02a6
+ROBOTS: noindex,nofollow
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: cb3d955f5cb92bf47e9c0092c9f3eca0fba9c868
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 350dc15f67f4f76d18768ff9fc7f648b290d6402
 
 
 ---
@@ -27,6 +28,6 @@ ms.openlocfilehash: cb3d955f5cb92bf47e9c0092c9f3eca0fba9c868
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

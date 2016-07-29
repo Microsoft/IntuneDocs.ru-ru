@@ -3,7 +3,7 @@ title: "Установка интервала времени до блокиро
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: fe54897fe42d07040b873d6112e34830652fdf20
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: df24ef5c0562d04c1f9aaf08c5905e4928b6c4fa
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: fe54897fe42d07040b873d6112e34830652fdf20
 # Установка интервала времени до блокировки устройства
 
 Для защиты данных на устройстве Android ИТ-администратор может установить политику, требующую от вас задать период простоя устройства до его автоматической блокировки. Чтобы задать этот период, выполните описанные ниже действия.
- 
+
 1.  В меню **Параметры** на устройстве щелкните **Безопасность** &gt; **Автоматическая блокировка** (на некоторых устройствах этот пункт называется **Заблокировать телефон после**).
 
 2.  Укажите значение времени ожидания пароля.
@@ -36,6 +36,6 @@ ms.openlocfilehash: fe54897fe42d07040b873d6112e34830652fdf20
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

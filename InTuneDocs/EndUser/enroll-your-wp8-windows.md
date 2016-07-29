@@ -3,7 +3,7 @@ title: "Регистрация устройства Windows Phone 8 в Intune |
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 4ac887f3-52e1-41f0-97fe-21985e0573ab
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f83a539e9bec5207d7c1c682942b4bb6797d616c
-ms.openlocfilehash: 21e904766d1621b2182de8adde8142f5f7ad8e26
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: ba6e26cd26e210ccb30bf0431ffa3d1682dba0ca
 
 
 ---
@@ -43,7 +43,6 @@ ms.openlocfilehash: 21e904766d1621b2182de8adde8142f5f7ad8e26
 
 
 
-
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 

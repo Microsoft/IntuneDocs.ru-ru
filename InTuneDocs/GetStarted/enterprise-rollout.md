@@ -3,8 +3,8 @@ title: "Корпоративное развертывание | Microsoft Intune
 description: "Рекомендации по этапу развертывания в процессе развертывания Intune."
 keywords: 
 author: Nbigman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d894708e-7071-44f5-aa3b-af5aef02fb98
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 65506ec3b4d903672e2259be567c07402ee29f31
+ms.sourcegitcommit: 0fff944e180bda99d70caafebe4ae69b6bd05b1b
+ms.openlocfilehash: aae62850d35aab6908cae2841988822911989a40
 
 
 ---
@@ -73,7 +73,9 @@ ms.openlocfilehash: 65506ec3b4d903672e2259be567c07402ee29f31
 
 -   Определите группы, которым могут потребоваться адресные сообщения и специальное обучение.
 
--   Настройте обмен сообщениями по электронной почте, обновите сайт интрасети, определите лицо, постоянно отвечающее за обновление коммуникации и ресурсов.
+-   Настройте сообщения электронной почты, обновите сайт в интрасети.
+
+-   Определите лиц, ответственных за текущие коммуникации и обновление ресурсов.
 
 -   Определитесь с используемыми методами обучения.
 
@@ -108,6 +110,6 @@ ms.openlocfilehash: 65506ec3b4d903672e2259be567c07402ee29f31
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

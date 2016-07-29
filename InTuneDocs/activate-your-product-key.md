@@ -3,7 +3,7 @@ title: "Активация ключа продукта | Microsoft Intune"
 description: "С помощью ключа продукта можно активировать подписку Intune или добавить пользователей в существующую подписку."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 844c2ca8-2721-4f72-b1dd-be9b1da1f220
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 839550751563b5507becb0d8d019fd163af718f5
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 36cec469166ebaac2def784fa3134dd56587f52a
 
 
 ---
@@ -52,6 +52,6 @@ ms.openlocfilehash: 839550751563b5507becb0d8d019fd163af718f5
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

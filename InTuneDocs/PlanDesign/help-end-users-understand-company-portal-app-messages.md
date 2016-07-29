@@ -3,7 +3,7 @@ title: "Сообщения в приложении корпоративного 
 description: "Сообщения в приложении корпоративного портала, которые могут видеть пользователи Intune"
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 5e0b2943da5572c672f9374e0f878b84f79f0a15
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: 7cd6c67d875f9d8fcc1e6774b84afc2c526511a9
 
 
 ---
@@ -78,6 +78,6 @@ ms.openlocfilehash: 5e0b2943da5572c672f9374e0f878b84f79f0a15
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

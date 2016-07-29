@@ -3,7 +3,7 @@ title: "Настройка инфраструктуры сертификатов
 description: "Создание и развертывание PFX-файлов профилей сертификатов."
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 05/16/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: f654dba31198115851feeeec90f04b8ad767e549
+ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
+ms.openlocfilehash: 2f45c54d18156469488c77600626ea359374a588
 
 
 
@@ -158,6 +158,6 @@ ms.openlocfilehash: f654dba31198115851feeeec90f04b8ad767e549
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

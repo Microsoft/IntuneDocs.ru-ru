@@ -3,7 +3,7 @@ title: "Регистрация мобильных устройств для оз
 description: "Сведения о регистрации мобильных устройств и установке приложений при использовании бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 2424d52f800ae61dbadc0a3ae73c2b3f24d936c3
+ms.sourcegitcommit: 60ee39a7eeeb9068a7350ec87f60e7148ccb7826
+ms.openlocfilehash: d441bb68a28a18cf45c616271cb33556df9f67f3
 
 
 ---
@@ -69,6 +69,6 @@ ms.openlocfilehash: 2424d52f800ae61dbadc0a3ae73c2b3f24d936c3
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

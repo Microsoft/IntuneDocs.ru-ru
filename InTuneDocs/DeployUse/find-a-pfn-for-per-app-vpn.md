@@ -3,7 +3,7 @@ title: "Поиск имени семейства пакетов (PFN) для VPN
 description: "Сведения о поиске имени семейства пакетов для настройки VPN для каждого приложения."
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ms.reviewer: tycast
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9a049127d79098bfb8992055a0a8b20fbfafd8c9
-ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
+ms.sourcegitcommit: 9a124663a80bb477d0312faa0fb43e4457ba8246
+ms.openlocfilehash: 0bbb8aef7929ac09ef5f6a5a466d66b5df03e921
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
 
 Найти имя семейства пакетов для настройки VPN для каждого приложения можно двумя способами.
 
-## Поиск имени семейства пакетов для приложения, установленного на компьютере Windows 10 
+## Поиск имени семейства пакетов для приложения, установленного на компьютере Windows 10
 
 Если приложение, с которым вы работаете, уже установлено на компьютере Windows 10, для получения PFN можно использовать командлет [Get-AppxPackage](https://technet.microsoft.com/library/hh856044.aspx).
 
@@ -74,7 +74,7 @@ ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
 4.  В другой вкладке вставьте следующий URL-адрес, `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`, заменив `<app id>` идентификатором приложения, полученным на странице https://www.microsoft.com/en-us/store/apps — это ряд букв в конце URL-адреса на шаге 3. В нашем примере с OneNote нужно вставить следующее: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
 
 В Edge нужные вам сведения уже отображаются; в Internet Explorer щелкните **Открыть**, чтобы просмотреть сведения. Значение PFN указано в первой строке. Ниже приведены результаты для нашего примера:
- 
+
 
 `{`
 `  "packageFamilyName": "Microsoft.Office.OneNote_8wekyb3d8bbwe",`
@@ -85,7 +85,6 @@ ms.openlocfilehash: 980611a6c1fafdbc990f30d3144766abc97e632b
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -3,7 +3,7 @@ title: "Общие сведения о жизненном цикле прило�
 description: "Сведения о жизненном цикле приложений, управляемых Intune, начиная с добавления вплоть до прекращения использования."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a409d36c1c5fcfd3d81ce0cbdf1f69af4747157a
-ms.openlocfilehash: 86d9de9992003ffd163291035174c8d1e822929a
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: ede28a99224b3d0bd94a4300b4b8b85815ae9591
 
 
 ---
@@ -51,6 +51,6 @@ Intune предоставляет множество способов защит
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

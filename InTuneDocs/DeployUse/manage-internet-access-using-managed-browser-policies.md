@@ -3,7 +3,7 @@ title: "Управление веб-доступом с помощью Managed B
 description: "Сведения о развертывании приложения Managed Browser для ограничения просмотра веб-страниц и передачи веб-данных в другие приложения."
 keywords: 
 author: robstackmsft
-manager: arob98
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1850e89830de61ccdeb81cb6ee9cc0f0c1d237a
-ms.openlocfilehash: 882042349c19ef0b688954577eb6519d0c0ac860
+ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
+ms.openlocfilehash: 44f6ee1354f1fdfc7f8db7d5b844dc12c01e686c
 
 
 ---
@@ -151,6 +151,6 @@ Intune Managed Browser поддерживает открытие веб-узла
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

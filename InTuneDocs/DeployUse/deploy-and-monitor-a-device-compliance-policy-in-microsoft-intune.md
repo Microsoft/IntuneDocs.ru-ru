@@ -3,7 +3,7 @@ title: "Развертывание и мониторинг политики со
 description: "Воспользуйтесь пошаговыми инструкциями из этого раздела, чтобы развернуть политику соответствия требованиям и следить за ней."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: arob98
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: 42d326dbe937724141213dacc133aefe5020a61d
+ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
+ms.openlocfilehash: 4345f46b67e1a2d77580fa87e4143bd96588f4e3
 
 
 ---
@@ -72,6 +72,6 @@ ms.openlocfilehash: 42d326dbe937724141213dacc133aefe5020a61d
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
