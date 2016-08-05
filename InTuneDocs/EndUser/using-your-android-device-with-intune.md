@@ -3,8 +3,8 @@ title: "Использование устройства Android в Intune | Micr
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве Android, зарегистрированном в Intune"
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 06/14/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 3dfe3f8a0a8538d14acddb9a7c9541bae928b6e6
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
 
 # Использование устройства Android с Intune
 
-Выполните эти действия на устройстве Android, если ваша организация использует Microsoft Intune.
+Эта страница содержит ссылки на все задачи, которые пользователи могут выполнять на своих устройствах, управляемых Intune. Администраторы ИТ могут использовать эти сведения для ознакомления с действиями пользователей при выполнении ими множества задач, которые объединены в категории: сведения о регистрации, задачи управления и проблемы соответствия требованиям.
 
 ## Установка приложения корпоративного портала и регистрация в Intune
 
@@ -67,9 +67,6 @@ ms.openlocfilehash: e0ff9b0b1c31e0037f34e223ff26c2b111c5a0aa
 
 
 
-
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

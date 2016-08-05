@@ -3,8 +3,8 @@ title: "Использование устройства iOS или Mac OS X в I
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве iOS или Mac OS X, зарегистрированном в Intune"
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 06/03/2016
+manager: angrobe
+ms.date: 07/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,15 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 6c3d8b3a64d98357b7aac2a9f000ca33125c1858
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: c91355b77850acbb76cd028bffb231e2ba1a5174
 
 
 ---
 
 # Использование устройства iOS или Mac OS X в Intune
 
-Выполните эти действия на устройстве iOS или Mac OS X, если ваша организация использует Microsoft Intune.
+Эта страница содержит ссылки на все задачи, которые пользователи могут выполнять на своих устройствах, управляемых Intune. Администраторы ИТ могут использовать эти сведения для ознакомления с действиями пользователей при выполнении ими множества задач, которые объединены в категории: сведения о регистрации, задачи управления и проблемы соответствия требованиям.
 
 ## Установка приложения корпоративного портала и регистрация в Intune
 
@@ -61,8 +61,6 @@ ms.openlocfilehash: 6c3d8b3a64d98357b7aac2a9f000ca33125c1858
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

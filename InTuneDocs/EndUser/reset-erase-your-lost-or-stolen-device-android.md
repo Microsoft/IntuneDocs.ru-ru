@@ -3,8 +3,8 @@ title: "Сброс (очистка) потерянного или украден
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 05/31/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 9797eb4b7b18527d13fc1f0a9cbcc900d76dc54f
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: d9f31b48fb1b44a0bdf07a6eee3fe5b19f7bf610
 
 
 ---
@@ -27,12 +27,12 @@ ms.openlocfilehash: 9797eb4b7b18527d13fc1f0a9cbcc900d76dc54f
 
 Дополнительные сведения о том, что происходит при сбросе устройства, см. в статье [Что происходит при сбросе вашего устройства с помощью корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 
-> [!WARNING] 
+> [!WARNING]
 > Сброс устройства к заводским настройкам по умолчанию приводит к удалению с устройства как личных, так и рабочих или учебных данных.
 
 ## Сброс устройства с помощью приложения корпоративного портала
 
-1.  Откройте [веб-сайт корпоративного портала](http://portal.manage.microsoft.com) в браузере и войдите в рабочую или учебную учетную запись.
+1.  На другом зарегистрированном устройстве откройте приложение корпоративного портала и выполните вход со своей рабочей учетной записью.
 
 2.  Нажмите **Мои устройства** и выберите имя утерянного или украденного устройства.
 
@@ -42,7 +42,7 @@ ms.openlocfilehash: 9797eb4b7b18527d13fc1f0a9cbcc900d76dc54f
 
 Просмотрите описание следующих действий или это видео.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=K-Vi7lNfaMk&feature=youtu.be" frameborder="0" allowfullscreen></iframe> 
+<iframe width="675" height="379" src="https://www.youtube.com/embed/6e73o7f8gxE" frameborder="0" allowfullscreen></iframe>
 
 1.  Откройте [веб-сайт корпоративного портала](http://portal.manage.microsoft.com) в браузере и войдите в рабочую учетную запись.
 
@@ -57,7 +57,6 @@ ms.openlocfilehash: 9797eb4b7b18527d13fc1f0a9cbcc900d76dc54f
 
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

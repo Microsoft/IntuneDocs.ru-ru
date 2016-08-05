@@ -3,18 +3,19 @@ title: "Сброс секретного кода устройства с веб-
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4fa3255b-9d1e-42d5-bd8b-70963dcf2d86
+ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 31023a2d51d4dd4cb854c1fa077f5a9910232bb4
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 4fab2d71b7cf2557b73810e5f05b82fb9ba1c36b
 
 
 ---
@@ -24,7 +25,7 @@ ms.openlocfilehash: 31023a2d51d4dd4cb854c1fa077f5a9910232bb4
 
 В случае утери ПИН-кода или пароля для устройства, зарегистрированного в Intune, можно воспользоваться [веб-сайтом корпоративного портала](http://portal.manage.microsoft.com), чтобы сбросить его. Веб-сайт корпоративного портала — это веб-страница, которую можно использовать для управления компьютерами и устройствами, зарегистрированными в Intune. На этом веб-сайте доступно большинство тех задач, которые можно выполнить с помощью приложения корпоративного портала.
 
-> [!NOTE] 
+> [!NOTE]
 > В зависимости от того, как администратор настроил Intune, кнопка "Сбросить секретный код" на веб-сайте корпоративного портала может отсутствовать. Сброс секретного кода не поддерживается на устройствах Windows 8.1 и Windows RT.
 
 Сброс секретного кода
@@ -33,7 +34,7 @@ ms.openlocfilehash: 31023a2d51d4dd4cb854c1fa077f5a9910232bb4
 
 2.  Нажмите **Сбросить секретный код**.
 
-    ![tap-passcode-to-reset](./media/iwp-1-tap-reset-passcode.png)
+    !resetp-passcode-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
 3.  Выберите **Выйти** и снова войдите, используя рабочую или учебную учетную запись. Повторный вход необходимо выполнить в течение пяти минут.
 
@@ -63,6 +64,7 @@ ms.openlocfilehash: 31023a2d51d4dd4cb854c1fa077f5a9910232bb4
 [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 

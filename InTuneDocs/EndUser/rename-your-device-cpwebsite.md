@@ -3,18 +3,19 @@ title: "Переименование устройства с веб-сайта �
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 35a34ef8-efbb-4edf-88eb-a03c1b27a026
+ROBOTS: noindex,nofollow
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 301fdc58dbe827fa21ba7a76457ff5584bd2ff69
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: dc9d01cb24fbdd594c7f84b72d244d81a08d4384
 
 
 ---
@@ -30,7 +31,7 @@ ms.openlocfilehash: 301fdc58dbe827fa21ba7a76457ff5584bd2ff69
 
 2.  Выберите **Переименовать**.
 
-    ![rename-device](./media/iwp-1-tap-reset-passcode.png)
+    ![rename-device-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
 3.  В поле, где отображается текущее имя устройства, введите новое имя для устройства, а затем нажмите кнопку **Переименовать**. Теперь ваше устройство отображается с новым именем.
 
@@ -40,6 +41,7 @@ ms.openlocfilehash: 301fdc58dbe827fa21ba7a76457ff5584bd2ff69
 [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Jul16_HO4-->
 
 
