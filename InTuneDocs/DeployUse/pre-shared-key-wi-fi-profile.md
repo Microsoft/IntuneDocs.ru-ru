@@ -3,7 +3,7 @@ title: "Подключения Wi-F с PSK | Microsoft Intune"
 description: "Сведения об использовании настраиваемой конфигурации для создания профиля Wi-Fi с общим ключом."
 keywords: 
 author: nbigman
-manager: Arob98
+manager: angrobe
 ms.date: 07/21/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: afdd0c3569c0c294a9bef47755de2d9e77e7507d
+ms.sourcegitcommit: 8fe47a5843414fbe4add7f77df63c0d6466273cd
+ms.openlocfilehash: f15fce6890d6e5850d12115a97bf7331ce515508
 
 
 
@@ -40,12 +40,15 @@ ms.openlocfilehash: afdd0c3569c0c294a9bef47755de2d9e77e7507d
 
    в.   **Тип данных**: в качестве значения задайте String(XML).
 
-   г.   **OMA-URI**: ./Vendor/MSFT/Wi-Fi /Profile/<SSID>/Settings
+   г.   **OMA-URI**: 
+        
+- **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
+- **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
 Примечание. В начале обязательно должна стоять точка.
 
 SSID — это SSID, для которого создается политика. Например,
-`./Vendor/MSFT/Wi-Fi/Profile/Hotspot-1/Settings`
+`./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
   д.    Поле значения: это поле для вставки XML-кода. Вот пример. Каждое значение должно быть адаптировано для параметров сети. Некоторые сведения приведены в разделе комментариев кода.
 
@@ -197,6 +200,6 @@ SSID — это SSID, для которого создается политик
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

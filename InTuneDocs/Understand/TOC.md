@@ -12,8 +12,11 @@
 ### [Запуск пробной версии и развертывание политики iOS в отношении ПИН-кодов](start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md)
 ### [Настройка доступа к электронной почте для устройств iOS](set-up-email-access-for-ios-devices-using-microsoft-intune.md)
 ## [Распространенные сценарии](common-ways-to-use-intune.md)
-
-<!--- ## [Intune FAQ](frequently-asked-questions-for-microsoft-intune.md)--->
+## [Краткие руководства по началу работы](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
+### [Предотвращение утечки корпоративных данных из мобильных приложений Office 365](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
+### [Публикация мобильных приложений для пользователей](publish-mobile-apps-to-users.md)
+### [Защита компьютеров с Windows от вредоносных программ](protect-pcs-against-malware-threats.md)
+### [Упрощение конфигурации электронной почты на мобильных устройствах](simplify-email-configuration-on-mobile-devices.md)
 
 # [Приступая к работе](/intune/get-started/what-to-know-before-you-start-microsoft-intune)
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
@@ -22,6 +25,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO4-->
 
 

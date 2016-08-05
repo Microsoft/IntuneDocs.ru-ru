@@ -3,8 +3,8 @@ title: "Настройка инфраструктуры сертификатов
 description: "Инфраструктура для создания и развертывания профилей сертификатов SCEP."
 keywords: 
 author: nbigman
-manager: Arob98
-ms.date: 05/16/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 4ae137ae-34e5-4a45-950c-983de831270f
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72288296d966b9b9fae4fd721b4460528213f626
-ms.openlocfilehash: e7d6bc1e06217237a79c547c9b449c1fc16aeed4
+ms.sourcegitcommit: 5b9d201200d2b18553778ba2234831854658c6c2
+ms.openlocfilehash: 1f8e692e1938822342fda399df3832d2749de7c3
 
 ---
 # Настройка инфраструктуры сертификатов для SCEP
@@ -44,6 +44,8 @@ I
 Для подключений из Интернета к сети периметра разрешите порт 443 со всех узлов или IP-адресов в Интернете на сервер NDES.
 
 Для подключений из сети периметра к доверенной сети разрешите все порты и протоколы, необходимые для доступа к домену на сервере NDES, присоединенном к домену. Серверу NDES необходим доступ к серверам сертификатов, DNS-серверам, серверам Configuration Manager и контроллерам домена.
+
+Рекомендуется публиковать сервер NDES через прокси, например через [прокси приложения Azure AD](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/), [прокси веб-доступа](https://technet.microsoft.com/en-us/library/dn584107.aspx) или прокси-сервер стороннего поставщика.
 
 
 ### <a name="BKMK_CertsAndTemplates"></a>Сертификаты и шаблоны
@@ -347,6 +349,6 @@ I
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

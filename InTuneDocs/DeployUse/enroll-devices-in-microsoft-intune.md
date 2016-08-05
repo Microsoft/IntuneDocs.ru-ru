@@ -1,6 +1,6 @@
 ---
 title: "Регистрация устройств | Microsoft Intune"
-description: "В системе управления мобильными устройствами Microsoft регистрация используется для обеспечения управления устройствами и доступа к ресурсам."
+description: "В системе управления мобильными устройствами (MDM) регистрация используется для обеспечения управления устройствами и доступа к ресурсам."
 keywords: 
 author: NathBarn
 manager: arob98
@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: d128b9c9f0c9eda70abed058afeb665377047f66
+ms.sourcegitcommit: 6256b1ed5edb72bf9f623555a4c6e3fddb864b32
+ms.openlocfilehash: 71f0637a1cb6fdafb590ca274fcc0f80707ed6ce
 
 
 ---
@@ -89,7 +89,7 @@ Intune может управлять следующими платформами
   - Условный доступ к корпоративной электронной почте и данным
   - Приложение корпоративного портала
 
-[Сходство пользователей](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#enrollment-of-company-owned-ios-devices-with-user-affinity) ([Вернуться к таблице](#overview-of-device-enrollment-methods))
+[Сходство пользователей](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#user-affinity-for-ios-corporate-owned-devices-using-the-company-portal) ([Вернуться к таблице](#overview-of-device-enrollment-methods))
 
 ### Блокировка
 Указывает, можно ли заблокировать устройство для предотвращения удаления политики Intune. При этом устройство по существу исключается из управления. Для блокировки устройства iOS оно должно находиться в контролируемом режиме.
@@ -124,6 +124,6 @@ Intune может управлять следующими платформами
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

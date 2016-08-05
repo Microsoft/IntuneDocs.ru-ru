@@ -3,8 +3,8 @@ title: "Использование устройства Windows в Intune | Micr
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве с Windows, зарегистрированном в Intune"
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 07/20/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,15 @@ ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 018d8936fe9158ebd85920cac978844e6949fb64
-ms.openlocfilehash: c1fe0db8967ad2c483718bdc908097967be8b459
+ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
+ms.openlocfilehash: 85e6b4c4e507b83ba4a5f104e552e5a4f1fd68f2
 
 
 ---
 
 # Использование устройства Windows в Intune
 
-Здесь указаны действия, которые необходимо выполнить на устройстве или компьютере Windows, если ваша организация использует Microsoft Intune.
+Эта страница содержит ссылки на все задачи, которые пользователи могут выполнять на своих устройствах, управляемых Intune. Администраторы ИТ могут использовать эти сведения для ознакомления с действиями пользователей при выполнении ими множества задач, которые объединены в категории: сведения о регистрации, задачи управления и проблемы соответствия требованиям.
 
 ## Установка приложения корпоративного портала и регистрация в Intune
 
@@ -57,8 +57,6 @@ ms.openlocfilehash: c1fe0db8967ad2c483718bdc908097967be8b459
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

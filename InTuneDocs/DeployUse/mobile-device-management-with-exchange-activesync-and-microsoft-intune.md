@@ -1,20 +1,20 @@
 ---
-title: "Управление мобильными устройствами с помощью Exchange ActiveSync и Microsoft Intune | Microsoft Intune"
-description: 
+title: "Управление устройствами с помощью Exchange ActiveSync | Microsoft Intune"
+description: "Напрямую управляйте мобильными устройствами, которые не были зарегистрированы пользователями, используя управление Exchange ActiveSync (EAS) с помощью соединителя Exchange."
 keywords: 
 author: nathbarn
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 14f5cf53-6764-4e22-a18b-fa750b3acd41
-ms.reviewer: jeffgilb
+ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: d24395786daa7aec103ec754895868a75983e099
+ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
+ms.openlocfilehash: f545c7db4c29690a72c5a84dfcab6f179cbe72a2
 
 
 ---
@@ -45,6 +45,6 @@ Exchange требуется набор правил, определяющий, �
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 
