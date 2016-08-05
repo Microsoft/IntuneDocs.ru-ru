@@ -3,7 +3,7 @@ title: "Ограничение доступа к Skype для бизнеса Onl
 description: "Защита и контроль доступа к Skype для бизнеса Online с помощью условного доступа."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: 693feee133a594032c0edc69f03f65681bacfb81
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 27d993974d71b34b36cbd3216b83a1303689bf15
 
 
 ---
@@ -116,6 +116,6 @@ ms.openlocfilehash: 693feee133a594032c0edc69f03f65681bacfb81
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

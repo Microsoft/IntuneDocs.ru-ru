@@ -2,19 +2,19 @@
 title: "Устранение неполадок с политиками | Microsoft Intune"
 description: "Сведения об устранении неполадок, связанных с конфигурацией политик."
 keywords: 
-author: Nbigman
-manager: jeffgilb
-ms.date: 05/26/2016
+author: robstack
+manager: angrobe
+ms.date: 08/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
-ms.reviewer: jeffgilb
+ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: 64518fc58a97c0d5060d909b60df565c19498389
+ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
+ms.openlocfilehash: 98f15f304d5d372d05abfdd296ddff1ef98dd3eb
 
 
 ---
@@ -77,10 +77,6 @@ ms.openlocfilehash: 64518fc58a97c0d5060d909b60df565c19498389
 
 4.  Переместите ползунок уведомлений на значение по умолчанию.
 
-## Ошибка 0x87D1FDE8 для устройства KNOX
-**Проблема**: после создания и развертывания профиля электронной почты Exchange Active Sync для Samsung KNOX для различных устройств Android они сообщают об ошибке **0x87D1FDE8** или **сбое исправления** на вкладке политики &gt; в свойствах устройства.
-
-Проверьте конфигурацию профиля EAS для Samsung KNOX и исходную политику. Параметр синхронизации заметок Samsung больше не поддерживается, поэтому не следует выбирать его в своем профиле. Убедитесь, что у устройств было достаточно времени (до 24 часов) на обработку политики.
 
 ## Предупреждение: не удалось сохранить правила доступа к Exchange
 **Проблема**: в консоли администрирования появляется предупреждение **Не удалось сохранить правила доступа в Exchange**  .
@@ -113,6 +109,6 @@ ms.openlocfilehash: 64518fc58a97c0d5060d909b60df565c19498389
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

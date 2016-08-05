@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Nbigman
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 01c096eb-088b-4d2b-a1fa-dce6cdb12294
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9915b275101e287498217c4f35e1c0e56d2425c2
-ms.openlocfilehash: 54e6c08d30ee9b5d1b9ae45bf998c64cbf6a1e44
+ms.sourcegitcommit: eeb0aeac2f94dfde50d9398b09c6b21c7ae40624
+ms.openlocfilehash: 573108e176dbac7b9bbaa0f601f6fff6e73563fb
 
 
 ---
@@ -117,6 +117,6 @@ ms.openlocfilehash: 54e6c08d30ee9b5d1b9ae45bf998c64cbf6a1e44
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

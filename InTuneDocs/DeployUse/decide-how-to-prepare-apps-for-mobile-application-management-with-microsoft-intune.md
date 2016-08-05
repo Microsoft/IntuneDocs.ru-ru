@@ -3,7 +3,7 @@ title: "Подготовка приложений для управления м
 description: "Сведения этого раздела помогут решить, когда следует использовать инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: a7aa32704a8eb33d20a3149941b3e6f2a91478a0
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: d2d11cc8bed7575b2fe818c9aa5b2359a62a77e0
 
 
 ---
@@ -69,6 +69,6 @@ ms.openlocfilehash: a7aa32704a8eb33d20a3149941b3e6f2a91478a0
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 

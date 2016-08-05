@@ -3,7 +3,7 @@ title: "Подготовка приложений для управления м
 description: 
 keywords: 
 author: karthikaraman
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 26b00081-7c05-4969-ace1-0585e44d5cd2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: addf6791cbd72f9fe9806fd799d36ac198f6df74
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 58e127b1924f68a663326ab076ad623dd66782d7
 
 
 ---
@@ -39,6 +39,6 @@ ms.openlocfilehash: addf6791cbd72f9fe9806fd799d36ac198f6df74
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

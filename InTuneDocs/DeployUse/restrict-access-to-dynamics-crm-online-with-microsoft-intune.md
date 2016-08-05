@@ -3,8 +3,8 @@ title: "Ограничение доступа электронной почты 
 description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 06/16/2016
+manager: angrobe
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: cbcf2c8d923524b8a1993140fbec0234740075ae
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 875da922b311b06fa8a1eb8ba7207108684825d5
 
 
 ---
@@ -97,6 +97,6 @@ ms.openlocfilehash: cbcf2c8d923524b8a1993140fbec0234740075ae
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

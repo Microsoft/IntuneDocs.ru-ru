@@ -3,8 +3,8 @@ title: "Очистка данных управляемых приложений 
 description: "Сведения о выборочном удалении данных компании с устройств в удаленном режиме."
 keywords: 
 author: karthikaraman
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 2742e1d5-d2d5-42cd-b719-665dd6e0a0e9
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c72c8e1a764af73ba4d421ca6637ee91ab7bca0a
-ms.openlocfilehash: 61dee41861738a72d67c875e18d6c9714a17457d
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 3d52345b043115185e667c41d3f09d8257792002
 
 
 ---
@@ -61,6 +61,6 @@ ms.openlocfilehash: 61dee41861738a72d67c875e18d6c9714a17457d
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

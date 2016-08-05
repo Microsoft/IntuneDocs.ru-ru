@@ -4,7 +4,7 @@ description: "Описывается, как зарегистрировать у
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 06/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: ca6519e8-d0da-4314-b0bc-1753784d7969
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 2cf905d4c3189ad1be9cd8feae8525d02aad7355
+ms.sourcegitcommit: 80ebf1a56106ad4e66d2d791ab98edae1ab11505
+ms.openlocfilehash: ddbe0bd7b9a69a92d5bf4681bf8c897d7712acee
 
 
 ---
@@ -53,6 +53,6 @@ ms.openlocfilehash: 2cf905d4c3189ad1be9cd8feae8525d02aad7355
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

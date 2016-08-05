@@ -3,7 +3,7 @@ title: "Управление передачей данных между прил
 description: "В этом разделе описано, как использовать функцию &quot;Открыть с помощью&quot; в iOS и политики управления мобильными приложениями для управления передачей данных между приложениями."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: b95b721ba2d26f3d8f621a7ca5a4968bc86c1daf
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 488ecb801eac2b591db87683bbe9f371879483c4
 
 
 ---
@@ -75,6 +75,6 @@ ms.openlocfilehash: b95b721ba2d26f3d8f621a7ca5a4968bc86c1daf
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 

@@ -3,7 +3,7 @@ title: "Создание политики соответствия устрой�
 description: "Создание политики соответствия требованиям для защиты мобильных устройств и компьютеров, используемых для доступа к данным компании."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: da2059c476d91ac6729543f67fa11db85502f60d
+ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
+ms.openlocfilehash: 2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2
 
 
 ---
@@ -87,6 +87,6 @@ ms.openlocfilehash: da2059c476d91ac6729543f67fa11db85502f60d
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Jul16_HO5-->
 
 

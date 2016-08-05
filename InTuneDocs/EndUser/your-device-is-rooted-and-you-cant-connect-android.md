@@ -3,8 +3,8 @@ title: "Устройство Android является рутированным, 
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 05/30/2016
+manager: angrobe
+ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 32ddb1865ac1fc8cbc0e51aaa380a5d561f8d203
+ms.sourcegitcommit: 80ebf1a56106ad4e66d2d791ab98edae1ab11505
+ms.openlocfilehash: 6d4d9a1eaa326b5738aeac1f9e78b51dbd25e5c9
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: 32ddb1865ac1fc8cbc0e51aaa380a5d561f8d203
 
 # Устройство Android является рутированным, и подключение невозможно
 
-Если устройство Android является рутированным, то есть было изменено для включения определенных возможностей, это может поставить под угрозу ресурсы организации и безопасность. Если вы видите это сообщение, вы не сможете получить доступ к ресурсам компании, пока проблема не будет устранена. 
+Если устройство Android является рутированным, то есть было изменено для включения определенных возможностей, это может поставить под угрозу ресурсы организации и безопасность. Если вы видите это сообщение, вы не сможете получить доступ к ресурсам компании, пока проблема не будет устранена.
 
 Если вы не знаете, почему устройство является рутированным, просмотрите приведенные ниже возможные причины.
 
@@ -36,6 +36,7 @@ ms.openlocfilehash: 32ddb1865ac1fc8cbc0e51aaa380a5d561f8d203
 [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 
