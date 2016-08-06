@@ -2,7 +2,7 @@
 title: "Устранение неполадок в работе соединителя с Exchange | Microsoft Intune"
 description: "Устранение неполадок, связанных с работой соединителя Intune с Exchange."
 keywords: 
-author: nbigman
+author: nathbarn
 manager: angrobe
 ms.date: 07/26/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: c5cb5465-fd8e-4524-83b9-ccdf3393b6dc
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 75a780cd536304be7749c967603910003f7fadfd
-ms.openlocfilehash: e92f995d42036a3ae47a88acb90a8a90a8a336bb
+ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
+ms.openlocfilehash: 04ac69a30f6c1d91fe755f9720fbc2adc51745f7
 
 
 ---
@@ -50,6 +50,6 @@ ms.openlocfilehash: e92f995d42036a3ae47a88acb90a8a90a8a336bb
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

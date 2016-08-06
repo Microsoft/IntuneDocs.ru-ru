@@ -5,7 +5,7 @@ description: "Создание политик для управления пар
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/03/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6e3e81f37e677a016ac49240cc70602a568afcd5
-ms.openlocfilehash: 9385ca0e5aa9dd8fc2daf79c57b47951bcd5c0cb
+ms.sourcegitcommit: 8465ab2ead21b825141c1aa6e77c02a9b7061a66
+ms.openlocfilehash: 5e7ba0d4546c13106e32359c9578a6f0a49d6de7
 
 
 ---
@@ -197,65 +197,16 @@ Intune предоставляет ряд встроенных общих пар�
     |**OMA-URI (с учетом регистра)**|Укажите OMA-URI, для которого необходимо указать параметр.|
     |**Значение**|Укажите значение, которое требуется сопоставить с указанным ранее OMA-URI.|
 
-### Пример: настройка настраиваемого профиля Wi-Fi с общим ключом
-Хотя Intune поддерживает профили Wi-Fi для устройств Android, эта функция в настоящее время не поддерживает включение общего ключа в конфигурацию. В этом примере показано, как создать настраиваемую политику Android, которая создает профиль Wi-Fi с общим ключом на устройстве Android.
+### Примеры
 
-#### Создание профиля Wi-Fi с общим ключом
-
-1.  Убедитесь, что ваши пользователи работают с последней версией приложения [корпоративного портала Intune](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) для Android.
-
-2.  Создайте настраиваемую политику Android и добавьте следующие параметры.
-
-|Имя параметра|Подробные сведения|
-|----------------|--------------------|
-|**Имя параметра**|Укажите для параметра имя по своему усмотрению.|
-|**Описание параметра**|Укажите описание для параметра.|
-|**Тип данных**|Выберите **Строка (XML)**.|
-|**OMA-URI**|Введите следующее: ./Vendor/MSFT/WiFi/Profile/*&lt;ваш профиль Wi-Fi&gt;*/Settings.|
-
-3.  Для поля **Значение** скопируйте и вставьте следующий XML-код:
-
-    ```
-    <!--
-    WEP Wifi Profile
-                    <Name of wifi profile> = Name of profile
-                    <SSID of wifi profile> = Plain text version of SSID. Does not need to be escaped, could be <name>Your Company's Network</name>
-                    <WEP password> = Password to connect to the network
-    -->
-    <WLANProfile
-    xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
-      <name><Name of wifi profile></name>
-      <SSIDConfig>
-        <SSID>
-          <name><SSID of wifi profile></name>
-        </SSID>
-      </SSIDConfig>
-      <connectionType>ESS</connectionType>
-      <MSM>
-        <security>
-          <authEncryption>
-            <authentication>open</authentication>
-            <encryption>WEP</encryption>
-            <useOneX>false</useOneX>
-          </authEncryption>
-          <sharedKey>
-            <keyType>networkKey</keyType>
-            <protected>false</protected>
-            <keyMaterial><WEP password></keyMaterial>
-          </sharedKey>
-          <keyIndex>0</keyIndex>
-        </security>
-      </MSM>
-    </WLANProfile>
-    ```
-
-4.  После этого можно сохранить политику и развернуть ее на необходимых устройствах Android. Новый профиль Wi-Fi появится в списке подключений на устройстве.
+- [Создание профиля Wi-Fi с общим ключом](pre-shared-key-wi-fi-profile.md)
+- [Используйте настраиваемую политику для создания профиля VPN на уровне приложения для устройств Android](per-app-vpn-for-android-pulse-secure.md)
 
 ### См. также
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 
