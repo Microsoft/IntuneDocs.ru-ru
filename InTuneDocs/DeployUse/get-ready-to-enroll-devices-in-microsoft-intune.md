@@ -3,7 +3,7 @@ title: "Подготовка к регистрации устройств | Micr
 description: "В статье описывается настройка необходимых компонентов управления мобильными устройствами и подготовка к регистрации разных операционных систем."
 keywords: 
 author: NathBarn
-manager: arob98
+manager: angrobe
 ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
@@ -13,14 +13,14 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1f6f98d582ce9a686ca02682a9066d8b2162d6ab
-ms.openlocfilehash: 24b8434993d7661e12172ac0e5fe58d1e6621558
+ms.sourcegitcommit: 9b7b8f6e5182e228458f5ea75e804a638f1e2a2b
+ms.openlocfilehash: 7e3e29113dd03ea25f102d7f71c63e5c3faefad8
 
 
 ---
 
 # Подготовка к регистрации устройств в Microsoft Intune
-Чтобы позволить сотрудникам регистрировать мобильные устройства (в том числе устройства [Android](set-up-android-management-with-microsoft-intune.md), [iOS и Mac](set-up-ios-and-mac-management-with-microsoft-intune.md), [Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md), а также [компьютеры с Windows](set-up-windows-device-management-with-microsoft-intune.md)) в Intune, необходимо включить регистрацию устройств. Чтобы разрешить регистрацию, необходимо задать центр управления мобильными устройствами (MDM), настроить корпоративный портал Intune, назначить лицензии и включить регистрацию для платформы устройств.
+Чтобы сотрудники могли регистрировать мобильные устройства (в том числе устройства [Android](set-up-android-management-with-microsoft-intune.md), [iOS и Mac](set-up-ios-and-mac-management-with-microsoft-intune.md), [Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md), а также [компьютеры с Windows](set-up-windows-device-management-with-microsoft-intune.md)) в Intune и для управления устройствами, принадлежащими компании, необходимо включить регистрацию устройств. Чтобы разрешить регистрацию, необходимо задать центр управления мобильными устройствами (MDM), настроить корпоративный портал Intune, назначить лицензии и включить регистрацию для платформы устройств.
 
 ## Указание центра управления мобильными устройствами
 Центр MDM определяет службу управления, у которой есть разрешение на управление набором устройств. Возможные варианты центра управления мобильными устройствами — отдельная служба Intune или Configuration Manager с Intune. Если Configuration Manager задан в качестве центра управления, использовать другие службы для управления мобильными устройствами нельзя.
@@ -109,6 +109,6 @@ ms.openlocfilehash: 24b8434993d7661e12172ac0e5fe58d1e6621558
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

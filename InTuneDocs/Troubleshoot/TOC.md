@@ -15,7 +15,8 @@
 ## [Устранение неполадок с обновлениями программного обеспечения](Troubleshoot-software-updates-in-microsoft-intune.md)
 ## [Устранение неполадок с профилями электронной почты](Troubleshoot-email-profiles-in-microsoft-intune.md)
 ## [Устранение неполадок условного доступа](troubleshoot-conditional-access.md)
+## [Устранение проблем в работе соединителя с Exchange](troubleshoot-exchange-connector.md)
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

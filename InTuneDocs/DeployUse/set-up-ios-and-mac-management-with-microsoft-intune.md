@@ -3,7 +3,7 @@ title: "Настройка управления в iOS и Mac | Microsoft Intune
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств iOS, включая устройства iPad и iPhone, а также для устройств Mac OS X."
 keywords: 
 author: NathBarn
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
@@ -13,13 +13,15 @@ ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26ac7d52c0ad3e37e517b60d448a94849c0f4b30
-ms.openlocfilehash: f393f2f34658d9c4c341f1c961e9dd527fcec4b1
+ms.sourcegitcommit: 06d6c8ce97ba6a259055e94f0eba87f7c5a96531
+ms.openlocfilehash: e61e764f4761ab83500ff6f0febe253d427729d9
 
 
 ---
 
 # Настройка управления устройствами в iOS и Mac
+Инструкции по настройке устройства iOS или Mac см. [здесь](../enduser/using-your-ios-or-mac-os-x-device-with-intune.md).
+
 Управление мобильными устройствами iPad, iPhone и Mac OS X с помощью Intune позволяет предоставлять доступ к корпоративной электронной почте и приложениям. Для управления устройствами iOS и Mac с помощью Intune требуется сертификат службы push-уведомлений Apple (APNs). После добавления этого сертификата в Intune пользователи смогут установить приложение корпоративного портала для регистрации своих устройств. Или же администратор сможет настроить [управление корпоративными устройствами iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
 1.  **Настройка Intune**<br>
@@ -39,7 +41,9 @@ ms.openlocfilehash: f393f2f34658d9c4c341f1c961e9dd527fcec4b1
     В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) перейдите в меню **Администрирование** &gt; **Управление мобильными устройствами** &gt; **iOS и Mac OS X** &gt; **Отправка сертификата APNs** и щелкните **Отправить сертификат APNs**. **Перейдите** в файл сертификата (.pem) и щелкните **Открыть** , а затем введите ваш **Apple ID**. С помощью сертификата APN служба Intune может зарегистрировать устройства iOS и управлять ими, применяя политику к зарегистрированным мобильным устройствам.
 
 5.  **Сообщите пользователям о том, как получить доступ к ресурсам компании с помощью корпоративного портала**<br>
-    Вашим пользователям потребуется узнать, как зарегистрировать устройства и чего ожидать после того, как они начнут управлять ими. [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+    Вашим пользователям потребуется узнать, как зарегистрировать устройства и чего ожидать после того, как они начнут управлять ими.
+    - [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+    - [Руководство конечного пользователя для устройств iOS и Mac](../enduser/using-your-ios-or-mac-os-x-device-with-intune.md)
 
 Если ваша организация приобретает устройства iOS для пользователей, эти устройства также могут быть зарегистрированы для управления как [корпоративные устройства iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
@@ -48,6 +52,6 @@ ms.openlocfilehash: f393f2f34658d9c4c341f1c961e9dd527fcec4b1
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

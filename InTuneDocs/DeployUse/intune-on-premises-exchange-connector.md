@@ -3,8 +3,8 @@ title: "Соединитель Exchange для локальной службы E
 description: "Сведения об использовании инструмента &quot;Соединитель&quot; для обеспечения взаимодействия между консолью администрирования Intune и локальным сервером Exchange Server для управления мобильными устройствами с помощью Exchange ActiveSync."
 keywords: 
 author: NathBarn
-manager: arob98
-ms.date: 07/19/2016
+manager: angrobe
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
+ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
+ms.openlocfilehash: 18614cc272323b8031c94b8e582f80aa5c06d9d3
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
 # Установка локального соединителя Exchange Intune
 
 
-Для установки подключения, позволяющего Microsoft Intune обмениваться данными с Exchange Server, на котором находятся почтовые ящики мобильных устройств, требуется загрузить и настроить средство "Локальный соединитель" из консоли администратора Intune.
+Для установки подключения, позволяющего Microsoft Intune обмениваться данными с Exchange Server, на котором находятся почтовые ящики мобильных устройств, требуется загрузить и настроить средство "Локальный соединитель" из консоли администратора Intune. Intune поддерживает только одно подключение соединителя с Exchange любого типа на подписку.
 
 ## Требования к локальному соединителю
 В следующей таблице указаны требования к компьютеру, на котором устанавливается локальный соединитель Exchange.
@@ -30,7 +30,7 @@ ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
 |Требование|Дополнительные сведения|
 |---------------|--------------------|
 |Операционные системы|Intune поддерживает локальный соединитель Exchange на компьютере под управлением любого 64-разрядного выпуска Windows Server 2008 с пакетом обновления 2 (SP2), Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2.<br /><br />Соединитель не поддерживается ни в какой установке Server Core.|
-|Версия Microsoft Exchange|Локальный соединитель требует использования Microsoft Exchange 2010 с пакетом обновления 1 (SP1) или более поздней версии.|
+|Версия Microsoft Exchange|Локальный соединитель требует использования Microsoft Exchange 2010 с пакетом обновления 1 (SP1) или более поздней версии либо старой выделенной среды Exchange Online. Чтобы определить, используется ли в вашей выделенной среде Exchange Online **новая** или **устаревшая** конфигурация, обратитесь к своему менеджеру по работе с клиентами.|
 |Центр управления мобильными устройствами| [Установите Intune в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority).|
 |Оборудование|Компьютер, на котором устанавливается соединитель, должен иметь ЦП с частотой 1,6 ГГц, 2 ГБ ОЗУ и 10 ГБ свободного дискового пространства.|
 |Синхронизация Active Directory|Прежде чем использовать любой соединитель для подключения Intune к Exchange Server, необходимо [настроить синхронизацию Active Directory](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
@@ -131,6 +131,6 @@ ms.openlocfilehash: 233aae987467a574c34aa06168a3c6d59eab663c
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 
