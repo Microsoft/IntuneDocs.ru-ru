@@ -12,8 +12,8 @@ ms.technology:
 ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: 08ad4961c973d66b2ca932b313f121f24c9dff62
+ms.sourcegitcommit: c671610b9c56d8b92d126d9902cce9c8c689ed63
+ms.openlocfilehash: aac4eee56ec7326b2ce466d19b580aa5f1388aea
 
 
 ---
@@ -49,15 +49,29 @@ ms.openlocfilehash: 08ad4961c973d66b2ca932b313f121f24c9dff62
 ## **Как вы будете управлять общими устройствами iOS?**
 
   > [!div class="button"]
-  [Регистрация с помощью программы регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Прямая регистрация устройств iOS >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) [Регистрация с помощью диспетчера регистрации устройств (DEM) >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+  [Регистрация через программу регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Прямая регистрация устройств iOS >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) [Регистрация с помощью диспетчера регистрации устройств (DEM) >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+
+  - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно скачает профиль DEP и зарегистрируется с его использованием.
+
+  - **Apple Configurator на компьютере Mac**: Apple Configurator — это приложение Apple, которое выполняется на компьютере Mac. Для установки профиля регистрации на устройстве с iOS его можно подключить к компьютеру Mac с помощью USB-кабеля. Если для регистрации вы можете сбросить устройство до заводских настроек, используйте регистрацию с помощью помощника по настройке. Если вы не хотите сбрасывать устройство, используйте прямую регистрацию.
+
+  - **Диспетчер регистрации устройств** — диспетчер регистрации устройств Intune (DEM) позволяет менеджеру или администратору зарегистрировать множество мобильных устройств с помощью одной учетной записи пользователя. Сходство пользователей (например, выделенные пользователи) на этих устройствах не может присутствовать, их необходимо зарегистрировать путем установки приложения корпоративного портала и входа в него.
 
 ## **Как вы будете управлять выделенными устройствами iOS?**
 
   > [!div class="button"]
   [Теги с IMEI >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers) [Программа регистрации устройств (DEP) iOS](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Помощник по настройке iOS](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [Теги с IMEI](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
 
+  Вы можете зарегистрировать устройства организации с выделенными пользователями следующим образом:
+
+  - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно скачает профиль DEP и зарегистрируется с использованием Intune.
+
+  - **Apple Configurator на компьютере Mac**: Apple Configurator — это приложение Apple, которое выполняется на компьютере Mac. Для установки профиля регистрации на устройстве с iOS его можно подключить к компьютеру Mac с помощью USB-кабеля. Если для регистрации вы можете сбросить устройство до заводских настроек, используйте регистрацию с помощью помощника по настройке.
+
+  - **Пометка с номером IMEI** — импортировав международные идентификаторы мобильного оборудования (IMEI) устройств компании, можно пометить эти устройства как принадлежащие компании в Intune. Затем пользователи смогут зарегистрировать свои устройства как личные, установив корпоративный портал для доступа к ресурсам компании, таким как электронная почта, приложения и данные.
 
 
-<!--HONumber=Jul16_HO4-->
+
+<!--HONumber=Aug16_HO1-->
 
 

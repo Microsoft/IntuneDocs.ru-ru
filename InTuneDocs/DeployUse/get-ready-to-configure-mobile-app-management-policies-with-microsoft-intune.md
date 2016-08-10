@@ -3,7 +3,7 @@ title: "Подготовка к настройке политик MAM | Microsof
 description: "В этом разделе описаны предварительные требования и процедура настройки пользователей, которые необходимо выполнить перед созданием политик управления мобильными приложениями."
 keywords: 
 author: karthikaraman
-manager: arob98
+manager: angrobe
 ms.date: 07/22/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2038ed6219a94dc4285891d71ce00fd51310f3e3
-ms.openlocfilehash: 39af738fe83ec6ea2e963d857cc233332063c80b
+ms.sourcegitcommit: bebf57269ae41f04a47240063cde4a4dd0bf334f
+ms.openlocfilehash: aeaa64124384a71126eeca7339416b80d395d07d
 
 
 ---
@@ -58,7 +58,7 @@ ms.openlocfilehash: 39af738fe83ec6ea2e963d857cc233332063c80b
 -   Подписка Office 365, которая требуется в следующих целях:
   - для применения политик MAM к приложениям с поддержкой нескольких удостоверений;
   - для создания рабочих учетных записей SharePoint Online и Exchange Online. Локальные версии Exchange и SharePoint не поддерживаются.
--   Настройка Skype для бизнеса Online для современной проверки подлинности. Дополнительные сведения см. в статье о [включении современной проверки подлинности](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx.md).
+-   Настройка Skype для бизнеса Online для современной проверки подлинности. Дополнительные сведения см. в статье [Включение современной проверки подлинности](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
 
 
 - Azure Active Directory (Azure AD) для создания пользователей. Azure AD выполняет аутентификацию пользователей, когда они открывают приложение и вводят рабочие учетные данные.
@@ -125,6 +125,6 @@ ms.openlocfilehash: 39af738fe83ec6ea2e963d857cc233332063c80b
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

@@ -13,14 +13,16 @@ ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: cc928e4facf592ca0f7398b374242a7a07ae193e
+ms.sourcegitcommit: 06d6c8ce97ba6a259055e94f0eba87f7c5a96531
+ms.openlocfilehash: 344f1cf4367deb12288f9c361e043d345f9846bb
 
 
 ---
 
 
 # Настройка управления устройствами Windows 10 Mobile и Windows Phone с помощью Microsoft Intune
+Справку по настройке устройства с Windows см. [здесь](../enduser/using-your-windows-device-with-intune.md).
+
 Чтобы устройствами Windows 10 Mobile или Windows Phone можно было управлять в Microsoft Intune, они должны иметь возможность взаимодействовать с Intune. Для упрощения этого процесса можно создать запись DNS, чтобы пользователям не приходилось вводить адрес сервера. Приведенные ниже действия позволяют упростить регистрацию для пользователей.  
 
 Для большинства сценариев пользователи могут установить приложение корпоративного портала из магазина Windows. Если вы управляете устройствами Windows Phone 8.0 или хотите развернуть корпоративный портал на устройства Windows Phone, необходимо скачать и подписать приложение корпоративного портала. См. статью [Настройка управления Windows Phone 8.0](set-up-windows-phone-8.0-management-with-microsoft-intune.md).
@@ -50,12 +52,16 @@ ms.openlocfilehash: cc928e4facf592ca0f7398b374242a7a07ae193e
 
     3.  Введите URL-адрес проверенного домена веб-сайта организации в поле **Укажите проверенное имя домена** и нажмите кнопку **Проверить автообнаружение**.
 
+    4.  Вашим пользователям потребуется узнать, как зарегистрировать устройства и чего ожидать после того, как они начнут управлять ими.
+        - [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+        - [Руководство пользователя для устройств с Windows](../enduser/using-your-windows-device-with-intune.md)
+
 
 
 Дополнительные действия требуются только в случае развертывания корпоративного портала на устройствах.  Шаги 2 и 3 в консоли администрирования можно спокойно пропустить.
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

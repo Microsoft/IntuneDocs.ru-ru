@@ -13,13 +13,15 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: 147765f6e8225e8e1d9d8e64473e8b6988256b03
+ms.sourcegitcommit: d8e524b267622f91ed0c2ed854f931299f316312
+ms.openlocfilehash: e42f49558ea9744b59693be873aa5130c7e1a0c3
 
 
 ---
 
 # Настройка управления устройством Android
+Справку по настройке устройства с Windows см. [здесь](../enduser/using-your-android-device-with-intune.md).
+
 С помощью Microsoft Intune можно включить режим BYOD ("принеси свое устройство") для устройств Android без какой-либо дополнительных усилий.
 
 Выберите один из следующих вариантов платформы устройства для получения дополнительных сведений:
@@ -41,11 +43,15 @@ ms.openlocfilehash: 147765f6e8225e8e1d9d8e64473e8b6988256b03
 3.  **Сообщите пользователям о том, как получить доступ к ресурсам компании с помощью корпоративного портала**<br>
     Вашим пользователям потребуется узнать, как зарегистрировать устройства и чего ожидать после того, как они начнут управлять ими. [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
 
+4.  Вашим пользователям потребуется узнать, как зарегистрировать устройства и чего ожидать после того, как они начнут управлять ими.
+        - [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+        - [Руководство пользователя для устройств с Windows](../enduser/using-your-android-device-with-intune.md)
+
 ### См. также
 [Подготовка к регистрации устройств в Microsoft Intune](get-ready-to-enroll-devices-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 
