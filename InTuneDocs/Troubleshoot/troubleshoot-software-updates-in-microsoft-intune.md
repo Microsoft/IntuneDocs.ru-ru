@@ -2,7 +2,7 @@
 title: "Устранение неполадок с обновлениями программного обеспечения | Microsoft Intune"
 description: "Сведения о решении проблем с обновлениями программного обеспечения в Microsoft Intune."
 keywords: 
-author: robstack
+author: robstackmsft
 manager: angrobe
 ms.date: 08/02/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: fd490bf3e745e8d0020299dc9be78bb7288edb0d
+ms.sourcegitcommit: 906371576609152aaf61e033da5ce60744ddd255
+ms.openlocfilehash: 07e5737b75870319445f5af4d7038916b155d083
 
 
 ---
@@ -264,6 +264,6 @@ ms.openlocfilehash: fd490bf3e745e8d0020299dc9be78bb7288edb0d
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 
