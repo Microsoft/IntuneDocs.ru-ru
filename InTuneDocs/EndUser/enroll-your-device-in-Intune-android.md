@@ -13,8 +13,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 8f342183590c1099661a0121c1d99c2aa3aa0ba4
+ms.sourcegitcommit: 46479cfe3d2648eefbaefd0a831af2412b509fce
+ms.openlocfilehash: e920f133aeaf0b0a938e07b4923869318a902d57
 
 
 ---
@@ -91,17 +91,11 @@ ms.openlocfilehash: 8f342183590c1099661a0121c1d99c2aa3aa0ba4
 
     ![Ввод ПИН-кода или пароля](./media/and-enroll-6-PIN-native.png)
 
-13.  Выполните приведенные ниже инструкции для используемого типа устройства (собственное устройство Android или Samsung Knox). Чтобы определить, используете ли вы устройство Samsung Knox, перейдите в раздел **Settings** (Настройки) &gt; **About device** (О телефоне). Если вы не видите строку KNOX version (версия KNOX), значит у вас "собственное" устройство с Android.
-
-    -   На собственном устройстве (не Samsung Knox): на экране **Имя сертификата** нажмите **ОК**, чтобы принять сертификат по умолчанию.
-
-    ![Экран "Имя сертификата"](./media/and-enroll-7-cert-native.png)
-
-    -   Для устройств Samsung Knox: примите политику конфиденциальности и выберите **ПОДТВЕРДИТЬ**.
+13.  Если вы используете устройство Samsung Knox, коснитесь кнопки **Подтвердить**, после чего появится сообщение о регистрации устройства. При использовании нативного устройства с Android обратите внимание на экран ниже, на котором показано, что идет регистрация устройства.
 
     ![Политика конфиденциальности Samsung KNOX](./media/and-enroll-7-knox-privacy-policy.png)
 
-    В процессе регистрации устройства в Intune вы увидите на экране приведенное ниже сообщение.
+    На этом экране показано, что идет регистрация устройства.
 
     ![Экран регистрации устройства](./media/and-enroll-8-device-enrolling.png)
 
@@ -123,6 +117,6 @@ ms.openlocfilehash: 8f342183590c1099661a0121c1d99c2aa3aa0ba4
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO2-->
 
 

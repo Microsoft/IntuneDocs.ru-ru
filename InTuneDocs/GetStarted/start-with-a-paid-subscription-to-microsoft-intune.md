@@ -3,7 +3,7 @@ title: "Краткое руководство по Intune | Microsoft Intune"
 description: "Требования и предварительные условия, которые следует выполнить перед использованием подписки Intune."
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: e7ecf24c3fa678e68603f0e3523f2694a73e145c
+ms.sourcegitcommit: 13ff2feb5918725306ebee96cdbf8e5212066ddc
+ms.openlocfilehash: c8984d37296fc79eb67b5604ab735b1be47d4e11
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: e7ecf24c3fa678e68603f0e3523f2694a73e145c
 >[!NOTE]
 >В этой статье основное внимание уделяется настройке Intune как автономной службы. Кроме того, если в данный момент вы используете Microsoft System Center Configuration Manager для управления компьютерами и серверами, то можно [расширить функции Configuration Manager, чтобы управлять мобильными устройствами](https://technet.microsoft.com/library/jj884158.aspx). Это можно сделать, подключив Intune к Configuration Manager в гибридном развертывании для управления мобильными устройствами (MDM).
 
-Действия, описанные в этом кратком руководстве, во совпадают с действиями из [руководства по оценке Intune](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune). Однако когда после завершения оценки вы будете готовы приступить к управлению мобильными устройствами, потребуется выполнить несколько дополнительных требований:
+В этом кратком руководстве по началу работы представлено множество действий, аналогичных действиям в [руководстве по оценке Intune](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune). Однако когда после завершения оценки вы будете готовы приступить к управлению мобильными устройствами, потребуется выполнить несколько дополнительных требований:
 
 -   Синхронизировать локальные учетные записи Active Directory с Intune и Azure Active Directory.
 
@@ -75,6 +75,6 @@ ms.openlocfilehash: e7ecf24c3fa678e68603f0e3523f2694a73e145c
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -2,7 +2,7 @@
 title: "Устранение неполадок с политиками | Microsoft Intune"
 description: "Сведения об устранении неполадок, связанных с конфигурацией политик."
 keywords: 
-author: robstack
+author: robstackmsft
 manager: angrobe
 ms.date: 08/01/2016
 ms.topic: article
@@ -13,18 +13,15 @@ ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 98f15f304d5d372d05abfdd296ddff1ef98dd3eb
+ms.sourcegitcommit: 436d0c40ef317e1d258654d2164e7a1f8c35c5e1
+ms.openlocfilehash: 6bfa9bab46248be802679e70de18ff117171a1fb
 
 
 ---
 
 # Устранение неполадок с политиками Microsoft Intune
 
-Ниже приведены некоторые проблемы, которые могут быть вызваны вашей конфигурацией политик Microsoft Intune , а также рекомендации по их устранению.
-
-Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
-
+Если у вас возникли проблемы при развертывании политик и управления ими в Intune, начните здесь. В этой статье описывается ряд распространенных проблем, которые могут возникнуть, а также их решения.
 
 ## Применена ли политика к устройству?
 **Проблема:** не ясно, применяется ли политика для устройства, или работа устройства противоречит политике.
@@ -109,6 +106,6 @@ ms.openlocfilehash: 98f15f304d5d372d05abfdd296ddff1ef98dd3eb
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO2-->
 
 
