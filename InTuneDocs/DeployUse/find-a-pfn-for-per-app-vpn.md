@@ -13,8 +13,8 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ms.reviewer: tycast
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 026bb4c8bf90bbe1af93513df46f0ec21f82509b
+ms.sourcegitcommit: 3cc73e43f09709b71c78a81c73b044d92d4ef401
+ms.openlocfilehash: 77977ea32ea37a54e9d67638bb0e4c3bb6841fb3
 
 
 ---
@@ -25,18 +25,19 @@ ms.openlocfilehash: 026bb4c8bf90bbe1af93513df46f0ec21f82509b
 
 ## Поиск имени семейства пакетов для приложения, установленного на компьютере Windows 10
 
-Если приложение, с которым вы работаете, уже установлено на компьютере Windows 10, для получения PFN можно использовать командлет [Get-AppxPackage](https://technet.microsoft.com/library/hh856044.aspx).
+Если приложение, с которым вы работаете, уже установлено на компьютере Windows 10, для получения имени семейства пакетов можно использовать командлет [Get-AppxPackage](https://technet.microsoft.com/library/hh856044.aspx).
 
 Синтаксис командлета Get-AppxPackage таков:
 
 ` Parameter Set: __AllParameterSets`
 ` Get-AppxPackage [[-Name] <String> ] [[-Publisher] <String> ] [-AllUsers] [-User <String> ] [ <CommonParameters>]`
 
-> Примечание: для получения PFN может потребоваться запустить PowerShell с правами администратора.
+> [!NOTE]
+Для получения имени PFN может потребоваться запустить PowerShell с правами администратора.
 
 Например, для получения сведений обо всех универсальных приложениях, установленных на компьютере, используйте `Get-AppxPackage`.
 
-Чтобы получить сведения о приложении по имени или части имени приложения, используйте `Get-AppxPackage *<app_name>`. Обратите внимание на использование подстановочного знака, если вы не знаете полного имени приложения. Например, чтобы получить сведения об OneNote, используйте `Get-AppxPackage *OneNote`.
+Чтобы получить сведения о приложении по имени или части имени приложения, используйте `Get-AppxPackage *<app_name>`. Обратите внимание на использование подстановочного знака: он особенно удобен, если вам неизвестно полное имя приложения. Например, чтобы получить сведения об OneNote, используйте `Get-AppxPackage *OneNote`.
 
 
 Ниже приведена полученная информация об OneNote:
@@ -67,13 +68,12 @@ ms.openlocfilehash: 026bb4c8bf90bbe1af93513df46f0ec21f82509b
 
 ## Поиск имени семейства пакетов в том случае, если приложение не установлено на компьютере
 
-1.  Перейдите на страницу https://www.microsoft.com/en-us/store/apps
+1.  Перейдите на страницу https://www.microsoft.com/en-us/store/apps.
 2.  Введите имя приложения в строке поиска. В нашем примере это "OneNote".
-3.  Щелкните ссылку на приложение. Обратите внимание, что URL-адрес, по которому вы обращаетесь, содержит последовательность букв в конце. В нашем примере URL-адрес выглядит следующим образом:
-`https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`
-4.  В другой вкладке вставьте следующий URL-адрес, `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`, заменив `<app id>` идентификатором приложения, полученным на странице https://www.microsoft.com/en-us/store/apps — это ряд букв в конце URL-адреса на шаге 3. В нашем примере с OneNote нужно вставить следующее: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
+3.  Щелкните ссылку на приложение. Обратите внимание, что URL-адрес, по которому вы переходите, содержит последовательность букв в конце. В нашем примере URL-адрес выглядит следующим образом: `https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`.
+4.  Вставьте следующий URL-адрес в адресную строку другой вкладки: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`. Замените `<app id>` идентификатором приложения, полученным на странице https://www.microsoft.com/en-us/store/apps (это ряд букв в конце URL-адреса на шаге 3). В нашем примере с OneNote нужно вставить следующее: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
 
-В Edge нужные вам сведения уже отображаются; в Internet Explorer щелкните **Открыть**, чтобы просмотреть сведения. Значение PFN указано в первой строке. Ниже приведены результаты для нашего примера:
+В Microsoft Edge отображаются нужные вам сведения; в Internet Explorer щелкните **Открыть**, чтобы просмотреть сведения. Значение PFN указано в первой строке. Ниже приведены результаты для нашего примера:
 
 
 `{`
@@ -85,6 +85,6 @@ ms.openlocfilehash: 026bb4c8bf90bbe1af93513df46f0ec21f82509b
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

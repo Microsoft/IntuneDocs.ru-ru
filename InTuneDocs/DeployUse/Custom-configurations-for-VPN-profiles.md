@@ -13,8 +13,8 @@ ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9a124663a80bb477d0312faa0fb43e4457ba8246
-ms.openlocfilehash: ae5ac5c697195f8b45f500cfa9d0de24953f8cb0
+ms.sourcegitcommit: 374a56612b5c2a4dfd65d920307d5a4deb709b9b
+ms.openlocfilehash: e96daf7f10db82adf0f4f92412128fabbe652d51
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: ae5ac5c697195f8b45f500cfa9d0de24953f8cb0
 ## Создание настраиваемой конфигурации
 Для создания профилей VPN в Intune можно использовать настраиваемые конфигурации. Чтобы создать настраиваемую конфигурацию, выполните указанные ниже действия.
 
-   1. В консоли администрирования Intune выберите **Политика** -> **Добавить политику** -> *<Expand platform>* -> **Настраиваемая конфигурация** -> **Создать политику**
+   1. В консоли администрирования Intune выберите **Политика** > **Добавить политику** > *<Expand platform>* > **Настраиваемая конфигурация** > **Создать политику**.
    2. Укажите имя политики.
    3. Для каждого параметра URI щелкните **Добавить** и укажите требуемые данные. Пример:
 
@@ -38,7 +38,7 @@ ms.openlocfilehash: ae5ac5c697195f8b45f500cfa9d0de24953f8cb0
 
 2.  В диалоговом окне **Управление развертыванием** выполните следующие действия.
 
-    -   **Развертывание политики**. Выберите одну или несколько групп для развертывания политики, а затем нажмите **Добавить** &gt; **ОК**.
+    -   **Чтобы развернуть политику**, выберите одну или несколько групп для развертывания, а затем нажмите кнопку **Добавить** &gt; **ОК**.
 
     -   **Чтобы закрыть диалоговое окно, не развертывая политику**, нажмите кнопку **Отмена**.
 
@@ -83,7 +83,7 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 **./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/1/App/Id** Microsoft.MicrosoftEdge_8wekyb3d8bbwe
 
-По любым вопросам о назначении и использовании этих параметров клиентам следует обращаться к документации по поставщику службы конфигурации: https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx
+По любым вопросам о назначении и использовании этих параметров клиентам следует обращаться к документации по поставщику службы конфигурации (CSP): https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx.
 
 ## Параметры URI для VPN для каждого приложения Android в PulseSecure
 ### НАСТРАИВАЕМЫЙ КОД URI ДЛЯ СПИСКА ПРИЛОЖЕНИЙ
@@ -112,6 +112,6 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO3-->
 
 

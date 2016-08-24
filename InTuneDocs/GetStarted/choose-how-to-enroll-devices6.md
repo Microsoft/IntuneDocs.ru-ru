@@ -13,8 +13,8 @@ ms.assetid: 40262e47-1ab4-437d-8ca5-c89b5022f91f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: e1fe6b167b7d46f03472833bc1c3c19030f47bce
-ms.openlocfilehash: 38dce11fa7df302bc2dffc3a2352d516c873fedb
+ms.sourcegitcommit: f65bdbc7aa708b37a766275494e080436d9a5485
+ms.openlocfilehash: 3e5c9ed2ba374172ea27b61a34f0746f582f0ebc
 
 
 ---
@@ -25,7 +25,7 @@ ms.openlocfilehash: 38dce11fa7df302bc2dffc3a2352d516c873fedb
 ## **Как вы будете управлять выделенными устройствами iOS?**
 
   > [!div class="button"]
-  [Теги с IMEI >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers) [Программа регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Помощник по настройке iOS >](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [Теги с IMEI >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
+[Программа регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)   [Помощник по настройке iOS >](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [Теги с IMEI >](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
 
   Вы можете зарегистрировать устройства организации с выделенными пользователями следующим образом:
 
@@ -40,6 +40,6 @@ ms.openlocfilehash: 38dce11fa7df302bc2dffc3a2352d516c873fedb
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

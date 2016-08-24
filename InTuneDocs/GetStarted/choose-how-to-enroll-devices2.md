@@ -13,8 +13,8 @@ ms.assetid: 242de106-36a0-469f-a89c-4173ae8bdd7f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: e1fe6b167b7d46f03472833bc1c3c19030f47bce
-ms.openlocfilehash: ad64d2bb0b1e815e316dfbee128a407d4de78730
+ms.sourcegitcommit: f65bdbc7aa708b37a766275494e080436d9a5485
+ms.openlocfilehash: a76ec4c0ca262f70b22538bbe99cae21d5a2c449
 
 
 ---
@@ -25,13 +25,13 @@ ms.openlocfilehash: ad64d2bb0b1e815e316dfbee128a407d4de78730
 ## **Какие платформы BYOD вы хотите включить?**
 
 > [!div class="button"]
-[Android](/intune/deploy-use/set-up-android-management-with-microsoft-intune) [iOS и Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) [Windows 10 Mobile и Window Phone](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune) [Компьютеры с Windows](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
+[Android >](/intune/deploy-use/set-up-android-management-with-microsoft-intune) [iOS и Mac >](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) [Windows 10 Mobile и Window Phone >](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune) [Компьютеры с Windows >](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 
 > [!div class="button"]
 [< Назад](choose-how-to-enroll-devices1.md)
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

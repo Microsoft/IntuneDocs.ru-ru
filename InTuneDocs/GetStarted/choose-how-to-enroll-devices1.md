@@ -13,8 +13,8 @@ ms.assetid: d2989e39-9b76-411b-b6fb-7209adb3bfb6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: e1fe6b167b7d46f03472833bc1c3c19030f47bce
-ms.openlocfilehash: 73756fbf4b2b433507ca0f855d0be73b41f6fa5c
+ms.sourcegitcommit: 08d4352ef88a266d05047d386247815f3765f552
+ms.openlocfilehash: d4fc57f50e2adf70a49f64174f85dd03709e8ce3
 
 
 ---
@@ -23,10 +23,10 @@ ms.openlocfilehash: 73756fbf4b2b433507ca0f855d0be73b41f6fa5c
 
 Определить наилучший способ регистрации устройств, которыми вы управляете, помогут ответы на ряд вопросов.
 
-## **Пользователи приносят собственные устройства или устройства предоставляются организацией?**
+## **Пользователи приносят собственные устройства (BYOD) или устройства предоставляются организацией (COD)?**
 
 > [!div class="button"]
-[Регистрация BYOD >](choose-how-to-enroll-devices2.md)   [Регистрация COD >](choose-how-to-enroll-devices3.md)
+[BYOD >](choose-how-to-enroll-devices2.md)   [COD >](choose-how-to-enroll-devices3.md)
 
 - **Устройства, принадлежащие пользователям**. Регистрация BYOD-устройств (принеси свое устройство) позволяет пользователю установить приложение корпоративного портала Intune на своем устройстве и зарегистрировать его для доступа к ресурсам компании, таким как электронная почта, приложения компании, данные компании и поддержка.  
 
