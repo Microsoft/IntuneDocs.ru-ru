@@ -3,18 +3,18 @@ title: "Получение поддержки | Microsoft Intune"
 description: "Для оплаченных и пробных подписок доступна поддержка в Интернете и по телефону."
 keywords: 
 author: Nbigman
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
-ms.reviewer: jeffgilb
+ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c1e215320168c659d5f838355f6350111d6979b0
-ms.openlocfilehash: c464f0ff5d36e2bc4fb03ae8cfa6ac38580f9213
+ms.sourcegitcommit: f400f8b2ffd85b6328eceb74b97de1e67203ee6b
+ms.openlocfilehash: 3342ee86179348dbff880cb5884bf2975d26b50d
 
 
 ---
@@ -25,6 +25,11 @@ ms.openlocfilehash: c464f0ff5d36e2bc4fb03ae8cfa6ac38580f9213
 В этом разделе описывается, как создать запрос на обслуживание или позвонить в службу поддержки на различных языках.
 
 Для самостоятельного устранения проблем с Intune изучите статью [General troubleshooting tips for Microsoft Intune (Общие советы по устранению неполадок Microsoft Intune)](general-troubleshooting-tips-for-microsoft-intune.md) или любой из разделов по устранению неполадок для конкретных проблем, перечисленных в подразделе **См. также** этого раздела.
+
+>[!NOTE]
+>
+>Клиенты службы поддержки Premier могут открыть запрос в службу поддержки Intune на [странице поддержки Premier](https://support.microsoft.com/en-us/premier/contacts).
+
 ## Создание запроса на обслуживание в Интернете
 
 1.  Войдите в [Центр администрирования Office 365](https://portal.office.com/admin/default.aspx#Overview_SupportPage_AltUSupportPage), используя учетные данные Intune.
@@ -140,6 +145,6 @@ ms.openlocfilehash: c464f0ff5d36e2bc4fb03ae8cfa6ac38580f9213
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO3-->
 
 
