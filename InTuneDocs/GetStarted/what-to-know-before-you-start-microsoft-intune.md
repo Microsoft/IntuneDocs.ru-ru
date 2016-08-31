@@ -2,8 +2,8 @@
 title: "Предварительные сведения перед началом работы с Microsoft Intune | Microsoft Intune"
 description: "Страница со ссылками на предварительные требования и компоненты, необходимые для работы с Intune"
 keywords: 
-author: Staciebarker
-manager: arob98
+author: barlanmsft
+manager: angrobe
 ms.date: 06/08/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 77de74a7847557893c5489492ef049b324b2f137
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: cd9c0a27a9cded6049b472a0327349a9c847ea35
 
 
 ---
@@ -37,11 +37,6 @@ ms.openlocfilehash: 77de74a7847557893c5489492ef049b324b2f137
 
 
 
-
-
-
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

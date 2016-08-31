@@ -13,8 +13,8 @@ ms.assetid: 4ac887f3-52e1-41f0-97fe-21985e0573ab
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 80ebf1a56106ad4e66d2d791ab98edae1ab11505
-ms.openlocfilehash: 3e62cff85df4b17b4a952899157f118c2e5530fb
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 2cf58c3e1e70febe8709f3ce6c81d72d9cdda985
 
 
 ---
@@ -43,6 +43,6 @@ ms.openlocfilehash: 3e62cff85df4b17b4a952899157f118c2e5530fb
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 

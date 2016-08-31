@@ -4,7 +4,7 @@ description: "Методы предоставления приложений д�
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: e471fed8-19f0-4b37-aaa2-65f28a6b4794
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 300df17fd5844589a1e81552d2d590aee5615897
-ms.openlocfilehash: 6e99ddf519a216d0772f69127f560034ca1895d0
+ms.sourcegitcommit: 9f1946c02c6267a22844106e8f72555ec5e9cabb
+ms.openlocfilehash: 205821f1e6a9685b2a60f6c6d3e0ba3e9e961d85
 
 
 ---
@@ -38,6 +38,6 @@ ms.openlocfilehash: 6e99ddf519a216d0772f69127f560034ca1895d0
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -8,9 +8,6 @@
 ### [Регистрация мобильных устройств и установка приложения](get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md)
 ### [Другие параметры и дополнения](get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
 ### [Дальнейшие действия](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
-## [Общие задачи оценки Intune](common-microsoft-intune-evaluation-tasks.md)
-### [Запуск пробной версии и развертывание политики iOS в отношении ПИН-кодов](start-a-microsoft-intune-trial-and-deploy-ios-pin-policy.md)
-### [Настройка доступа к электронной почте для устройств iOS](set-up-email-access-for-ios-devices-using-microsoft-intune.md)
 ## [Распространенные сценарии](common-ways-to-use-intune.md)
 ## [Краткие руководства по началу работы](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
 ### [Предотвращение утечки корпоративных данных из мобильных приложений Office 365](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
@@ -25,6 +22,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

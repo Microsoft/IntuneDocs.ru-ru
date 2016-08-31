@@ -2,8 +2,8 @@
 title: "Настройка корпоративного портала | Microsoft Intune"
 description: "Объясняется, как настроить корпоративный портал для подписки Intune."
 keywords: 
-author: Staciebarker
-manager: arob98
+author: barlanmsft
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: eb4a9f01-f857-4563-ab6f-5d0d7dfa659d
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: cd82cb9b049a4f61dc19beeedb62cb454a62512c
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: f43888e2ae923afec6c4ffbd4472fd8f36968472
 
 
 ---
@@ -70,6 +70,6 @@ ms.openlocfilehash: cd82cb9b049a4f61dc19beeedb62cb454a62512c
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 
