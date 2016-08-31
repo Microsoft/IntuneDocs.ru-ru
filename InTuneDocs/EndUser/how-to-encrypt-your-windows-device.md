@@ -3,18 +3,19 @@ title: "Шифрование устройства Windows | Microsoft Intune"
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 05/30/2016
+manager: angrobe
+ms.date: 6/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7d9645a9-6058-4112-aa31-8cdbccdc5463
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 8291a96487ee84ce0214d7054236941c3cf37a6d
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 7418330fe3eac4936843eff38cf713cdcb6f64f4
 
 
 ---
@@ -23,7 +24,7 @@ ms.openlocfilehash: 8291a96487ee84ce0214d7054236941c3cf37a6d
 
 Чтобы защитить данные организации или учебного заведения, ИТ-администратор может настроить обязательное шифрование устройств с Windows. Если у вас есть устройство с Windows Phone и вы зарегистрировали его, то устройство будет автоматически зашифровано, если шифрование требуется.
 
-Если у вас настольное устройство, выполните следующие действия для шифрования его данных: 
+Если у вас настольное устройство, выполните следующие действия для шифрования его данных:
 
 1.  Найдите и запустите приложение **Управление BitLocker**.
 
@@ -33,7 +34,6 @@ ms.openlocfilehash: 8291a96487ee84ce0214d7054236941c3cf37a6d
 
 
 
-
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

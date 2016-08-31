@@ -10,12 +10,12 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e0c5993b-3fa5-411e-bae0-93fb66c49bea
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: 476611020c249f7993fd5bd295cbc73657cd659e
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 44b9d572956250da916fb72afdddc8a90860025a
 
 
 ---
@@ -30,6 +30,6 @@ ms.openlocfilehash: 476611020c249f7993fd5bd295cbc73657cd659e
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

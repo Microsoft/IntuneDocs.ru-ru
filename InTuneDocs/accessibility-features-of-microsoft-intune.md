@@ -4,7 +4,7 @@ description: "Узнайте о функциях Intune, упрощающих д
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 6d7ed613-be97-4973-9532-8cb5bd434a1b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: e237a99669744379cff7f5947ea497b53a731196
+ms.sourcegitcommit: 55bdbaf5e521caa05d44bc45d4ec226dc05bf64b
+ms.openlocfilehash: 819fdb5bf4fd06a2b3b5010057cdd003e46f4758
 
 
 ---
@@ -48,6 +48,6 @@ ms.openlocfilehash: e237a99669744379cff7f5947ea497b53a731196
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

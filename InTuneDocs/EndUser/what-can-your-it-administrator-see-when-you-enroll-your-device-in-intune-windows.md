@@ -3,18 +3,19 @@ title: "Что может видеть ИТ-администратор при р
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 05/26/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 12655728-a1af-4d89-97bc-925fe36c0dc4
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e52ebdd62ca68f1d9226def654961075400184a8
-ms.openlocfilehash: 04131fc569c904cf948683089933c38786a9b847
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 5454a9ddfb7489e6d048abea3acca089752c2f45
 
 
 ---
@@ -63,6 +64,7 @@ ms.openlocfilehash: 04131fc569c904cf948683089933c38786a9b847
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Aug16_HO4-->
 
 
