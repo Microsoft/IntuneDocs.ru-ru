@@ -2,8 +2,8 @@
 title: "Веб-браузеры, поддерживаемые Microsoft Intune | Microsoft Intune"
 description: "Поддерживаемые Intune веб-браузеры."
 keywords: 
-author: Staciebarker
-manager: arob98
+author: barlanmsft
+manager: angrobe
 ms.date: 05/06/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 6f4ff11d-dc81-481a-bcd9-d8cdab32f876
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 1c7c0fbedb45e1086bcab66d4e2bab88eac6d29e
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: d6e0e3cfb39921f390ab7673f2656376e5f299f5
 
 
 ---
@@ -35,8 +35,6 @@ ms.openlocfilehash: 1c7c0fbedb45e1086bcab66d4e2bab88eac6d29e
 
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

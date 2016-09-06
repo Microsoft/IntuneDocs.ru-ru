@@ -3,24 +3,24 @@ title: "Вам предложено отключить неизвестные и
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 07/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c7a10998-9aa6-4bc0-8405-27a30c61bca7
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: eeb9888d803a53c2f17d88cdb3f010cf14c9b18d
-ms.openlocfilehash: 0a4bf23b547a4f02db663049b84e77365509aeaf
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: e5b2c0c21af8cad443710fe62f65e5c6c7076b9c
 
 
 ---
 
 # Вам предложено отключить неизвестные источники.
 
-Когда появится сообщение Installation from Unknown sources must be disable (Необходимо отключить установку из неизвестных источников), перейдите в меню **Настройки** > **Безопасность** (на некоторых устройствах — **Lock screen and security** (Блокировка экрана и безопасность)) и отключите параметр **Unknown sources** (Неизвестные источники). 
+Когда появится сообщение Installation from Unknown sources must be disable (Необходимо отключить установку из неизвестных источников), перейдите в меню **Настройки** > **Безопасность** (на некоторых устройствах — **Lock screen and security** (Блокировка экрана и безопасность)) и отключите параметр **Unknown sources** (Неизвестные источники).
 
 ИТ-администратор требует выключить этот параметр для защиты корпоративных данных на устройстве Android. Когда параметр **Неизвестные источники** включен, он позволяет устанавливать приложения из неизвестных источников, которые могут представлять угрозу безопасности.
 
@@ -33,6 +33,6 @@ ms.openlocfilehash: 0a4bf23b547a4f02db663049b84e77365509aeaf
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

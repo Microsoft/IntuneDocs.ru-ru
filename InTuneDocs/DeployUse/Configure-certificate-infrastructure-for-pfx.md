@@ -4,7 +4,7 @@ description: "Создание и развертывание PFX-файлов п
 keywords: 
 author: nbigman
 manager: angrobe
-ms.date: 05/16/2016
+ms.date: 08/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f400f8b2ffd85b6328eceb74b97de1e67203ee6b
-ms.openlocfilehash: 7376713410e802ffbee6238e7242e6d8ecc204df
+ms.sourcegitcommit: 07d719cadf9c80540ef36f3b6a9187012d715a75
+ms.openlocfilehash: 3086bcfd493b45fad3ba2c1bf553203e3396e97c
 
 
 
@@ -158,6 +158,6 @@ ms.openlocfilehash: 7376713410e802ffbee6238e7242e6d8ecc204df
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

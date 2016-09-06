@@ -3,19 +3,19 @@ title: "Возникновение ошибок при попытке регис
 description: 
 keywords: 
 author: Staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 06/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 92a8d06d-0ecb-4912-898b-993e8eaf4e58
-ROBOTS: noindex
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0708fcca562a1547840c2a382c397265a0e46a44
-ms.openlocfilehash: bd63e69f59c6e19aed92fc997f047cfe3f00717a
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: e8b6da8348f9c4d8ba1b85687510388cd40eac8a
 
 
 ---
@@ -40,6 +40,6 @@ ms.openlocfilehash: bd63e69f59c6e19aed92fc997f047cfe3f00717a
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 

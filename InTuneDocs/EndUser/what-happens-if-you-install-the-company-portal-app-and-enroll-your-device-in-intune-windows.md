@@ -3,19 +3,19 @@ title: "Что произойдет, если установить прилож�
 description: 
 keywords: 
 author: Staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 7/8/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d65e3452-5bbf-4d26-a06e-401ddcc47f39
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 25d2708dbc514717affa54cba195e5fef7d602ba
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 840d985fd2c4771831f722cdff214026a383f606
 
 
 ---
@@ -89,6 +89,6 @@ ms.openlocfilehash: 25d2708dbc514717affa54cba195e5fef7d602ba
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 
