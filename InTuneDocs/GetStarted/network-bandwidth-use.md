@@ -2,7 +2,7 @@
 title: "Использование пропускной способности сети Intune | Microsoft Intune"
 description: "использование пропускной способности сети Intune"
 keywords: 
-author: Staciebarker
+author: barlanmsft
 manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
-ms.openlocfilehash: 2a600b7948c55a408314aedc3895c25fcc09251d
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: 6534eb7bbff2fba39e1dfa9be4ad01196156cc15
 
 
 ---
@@ -88,6 +88,6 @@ ms.openlocfilehash: 2a600b7948c55a408314aedc3895c25fcc09251d
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -3,19 +3,19 @@ title: "Отправка ошибок ИТ-администратору | Micros
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
-ms.date: 05/03/2016
+manager: angrobe
+ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: fbc9c2b9-b454-4b33-86cc-650742bbf1e1
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 49f741a77e0d31686a14f7446e719b4630ab7895
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: 35cb5187260eb7b96e09ee7feb24bad90cbb0cb3
 
 
 ---
@@ -35,6 +35,7 @@ ms.openlocfilehash: 49f741a77e0d31686a14f7446e719b4630ab7895
 [Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO4-->
 
 

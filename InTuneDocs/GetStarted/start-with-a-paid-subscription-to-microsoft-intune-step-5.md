@@ -2,8 +2,8 @@
 title: "Создание групп для организации пользователей и устройств | Microsoft Intune"
 description: "Объясняется, как создавать пользователей и группы для подписки Intune."
 keywords: 
-author: Staciebarker
-manager: arob98
+author: barlanmsft
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 8c6620d5d8f0d927da6328ea844625957ba2d240
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: 07a2de6922f6b3f3a2b56dfc6bbe4e5f09c7d976
 
 
 ---
@@ -75,6 +75,6 @@ ms.openlocfilehash: 8c6620d5d8f0d927da6328ea844625957ba2d240
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

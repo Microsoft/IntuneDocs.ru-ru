@@ -2,7 +2,7 @@
 title: "Задачи, выполняемые после настройки | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
+author: barlanmsft
 manager: angrobe
 ms.date: 04/28/2016
 ms.topic: get-started-article
@@ -13,8 +13,8 @@ ms.assetid: 34a412cd-8240-4e06-a60e-df270a711e7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a192c71b1b82f59b34ea614d09d895174f8112b
-ms.openlocfilehash: a589974b4170754f94fbc73fcbaff4d7776261f7
+ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
+ms.openlocfilehash: 95934b6900719671ea0d7fc5ebbd4162d9538c33
 
 
 ---
@@ -30,6 +30,6 @@ ms.openlocfilehash: a589974b4170754f94fbc73fcbaff4d7776261f7
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

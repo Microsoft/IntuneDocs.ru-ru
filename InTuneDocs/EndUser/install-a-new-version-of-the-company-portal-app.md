@@ -10,10 +10,10 @@ ms.prod:
 ms.service: 
 ms.technology: 
 ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 618e2abda642c3b9b2e813824dfd4235c9309faa
-ms.openlocfilehash: f15f3efc10936a964a72718daf8219f5b9c1e24a
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: ebd5c89b661c8852874f0c7ab83009a945eb7801
 
 
 ---
@@ -56,6 +56,6 @@ ms.openlocfilehash: f15f3efc10936a964a72718daf8219f5b9c1e24a
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

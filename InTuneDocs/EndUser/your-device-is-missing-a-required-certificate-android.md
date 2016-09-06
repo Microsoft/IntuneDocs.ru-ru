@@ -3,19 +3,19 @@ title: "Устройство не имеет необходимого серти
 description: 
 keywords: 
 author: staciebarker
-manager: arob98
+manager: angrobe
 ms.date: 7/7/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9081b1d8-50e8-4bc2-ba37-766421364213
-ROBOTS: noindex,nofollow
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: 61dda32b55e108b340923f4ff2a86163da2971dc
+ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
+ms.openlocfilehash: e10de556babc49d4e2f1ebf6ba9c766291d58efd
 
 
 ---
@@ -74,7 +74,7 @@ ms.openlocfilehash: 61dda32b55e108b340923f4ff2a86163da2971dc
 
     ![screenshot-internet-explorer-view-certificates-button-on-website-identification-dialog](./media/andr-missg-cert-ie-view-cert-button.png)
 
-5. В диалоговом окне **Сертификат** щелкните вкладку **Путь сертификации** и укажите сертификат, который необходимо получить из Интернета. Имя нужного сертификата будет находиться там же, где находится выделенное имя на примере снимка экрана выше. 
+5. В диалоговом окне **Сертификат** щелкните вкладку **Путь сертификации** и укажите сертификат, который необходимо получить из Интернета. Имя нужного сертификата будет находиться там же, где находится выделенное имя на примере снимка экрана выше.
 
 ### Скачивание и установка отсутствующего сертификата на мобильное устройство Android
 
@@ -94,12 +94,13 @@ ms.openlocfilehash: 61dda32b55e108b340923f4ff2a86163da2971dc
 
 7. Снова откройте приложение корпоративного портала. Теперь вы сможете войти в приложение корпоративного портала. Если вам нужна помощь, обратитесь к системному администратору.
 
-Если вы видите сообщение об отсутствующем сертификате, которое показано выше, но уже выполнили приведенные здесь шаги, вероятно, необходим другой сертификат, для установки которого нужна помощь администратора ИТ. Обратитесь к администратору ИТ и предоставьте ему эту [ссылку](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues). Здесь содержатся шаги, которые помогут решить проблему. 
+Если вы видите сообщение об отсутствующем сертификате, которое показано выше, но уже выполнили приведенные здесь шаги, вероятно, необходим другой сертификат, для установки которого нужна помощь администратора ИТ. Обратитесь к администратору ИТ и предоставьте ему эту [ссылку](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues). Здесь содержатся шаги, которые помогут решить проблему.
 
 ### См. также
 [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO4-->
 
 
