@@ -4,7 +4,7 @@ description: "Интеграция Intune с облачными службами
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 49675811-08a3-408f-810b-89552ff404bd
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: 83020d347a4bc036778d830f5189e68e7f8d85da
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: 58f7293ed8fbb99572f8ed3a264defcc7a2d225c
 
 
 ---
@@ -43,6 +43,6 @@ ms.openlocfilehash: 83020d347a4bc036778d830f5189e68e7f8d85da
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

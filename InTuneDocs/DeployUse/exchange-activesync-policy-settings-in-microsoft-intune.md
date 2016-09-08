@@ -4,7 +4,7 @@ description: "Используйте политику Exchange ActiveSync в Int
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 72e6bcd3fd480c1ed8558fefd3958b4bbf3184c2
-ms.openlocfilehash: 39a844db56edf18f25996c1aaf52223ac80f8071
+ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
+ms.openlocfilehash: d8f7de4013c1bdf6174cd4e1d7491514b11a14a3
 
 
 ---
@@ -80,6 +80,6 @@ ms.openlocfilehash: 39a844db56edf18f25996c1aaf52223ac80f8071
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO5-->
 
 

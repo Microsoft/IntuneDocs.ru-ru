@@ -4,7 +4,7 @@ description: "Требования к брандмауэру, порту, дом
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 074de65b-84a5-4a01-a824-18ffd838eab0
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: d77d33f0c849be6b9edcbe977900fd5dac6c4e2f
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: e1e855bcd8ef617fa5383e757ee844603978feac
 
 
 ---
@@ -170,6 +170,6 @@ ms.openlocfilehash: d77d33f0c849be6b9edcbe977900fd5dac6c4e2f
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 
