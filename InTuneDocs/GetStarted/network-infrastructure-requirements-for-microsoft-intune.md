@@ -13,8 +13,8 @@ ms.assetid: 074de65b-84a5-4a01-a824-18ffd838eab0
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: e1e855bcd8ef617fa5383e757ee844603978feac
+ms.sourcegitcommit: 073e3df63a5de9cf92c739c1ced858e21a9ac351
+ms.openlocfilehash: aa4d2219a5962d83b80630ed3a09660a76469764
 
 
 ---
@@ -35,7 +35,7 @@ ms.openlocfilehash: e1e855bcd8ef617fa5383e757ee844603978feac
 
 
 |**Домен**|**Порты**|**IP-адрес**|
-|------|----|
+|------|----|---|
 |manage.microsoft.com<br>a.manage.microsoft.com<br>admin.manage.microsoft.com<br>enterpriseenrollment.manage.microsoft.com<br>enterpriseenrollment-s.manage.microsoft.com<br>i.manage.microsoft.com<br>m.manage.microsoft.com<br>p.manage.microsoft.com<br>portal.manage.microsoft.com<br>r.manage.microsoft.com|80 и 443|134.170.168.254<br>134.170.51.126
 |account.manage.microsoft.com|80 и 443|157.56.13.59
 |fef.msua01.manage.microsoft.com|80 и 443|138.91.243.97
@@ -170,6 +170,6 @@ ms.openlocfilehash: e1e855bcd8ef617fa5383e757ee844603978feac
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

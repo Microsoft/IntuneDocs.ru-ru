@@ -4,7 +4,7 @@ description: "Intune помогает управлять приложениям�
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 08/08/2016
+ms.date: 09/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 97e434da5dbb4739d9f3e46aecb28154adc115bc
-ms.openlocfilehash: c408f417febe674325b8bcdd10688640101cbda2
+ms.sourcegitcommit: 164f9656246a46bf39e263fc3c5f16828674e1fd
+ms.openlocfilehash: a5c37c470f937c682d9138a636d1211f641da784
 
 
 ---
@@ -89,6 +89,6 @@ Microsoft Intune помогает управлять приложениями, �
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Sep16_HO2-->
 
 

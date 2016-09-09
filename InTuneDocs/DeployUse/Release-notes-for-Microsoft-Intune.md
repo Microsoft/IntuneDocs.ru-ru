@@ -3,8 +3,8 @@ title: "Заметки о выпуске Microsoft Intune | Microsoft Intune"
 description: "Заметки о выпуске Intune"
 keywords: 
 author: Staciebarker
-manager: arob98
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 09/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: db9479b2-582d-4a1a-9fbc-fbfc6c680e6f
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 376e6c1ae229187ab8ec73390f091f1d534365dd
-ms.openlocfilehash: b7643ccb64185adb1eb4326a19d56814d8667462
+ms.sourcegitcommit: 7549b5af84e5a1712c2e1649b1afe03718d53dcc
+ms.openlocfilehash: ad95830b37d3b83554b64d2f82fa537e603190d6
 
 
 ---
@@ -91,6 +91,6 @@ Microsoft Intune — это интегрированное, основанно�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO2-->
 
 
