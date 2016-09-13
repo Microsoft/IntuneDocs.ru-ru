@@ -13,8 +13,8 @@ ms.assetid: 0775107a-6662-41c8-9404-be14bbb599f3
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: b17a47a2924ef36df69db2aa852f0b225471ecd1
+ms.sourcegitcommit: 44443db664753b202cc3fa07f8b76894320dc55d
+ms.openlocfilehash: f3bb686dda7bdf1e9557be2b5f5e0da2fb4d27e4
 
 
 ---
@@ -35,7 +35,7 @@ ms.openlocfilehash: b17a47a2924ef36df69db2aa852f0b225471ecd1
 --------------
 
 |Параметр политики| Windows 8.1 и более поздние версии| Windows Phone 8.1 и более поздней версии| iOS 6.0 и более поздних версий|Android 4.0 и более поздней версии<br/>Samsung KNOX Standard 4.0 и более поздние версии|
-|-----|----|----|----|
+|-----|----|----|----|----|
 |**Конфигурация ПИН-кода или пароля** |Исправлено|Исправлено|Исправлено|Помещено в карантин|
 |**Шифрование устройства**|Н/Д|Исправлено|Исправлено (путем установки ПИН-кода)|Помещено в карантин|
 |**Устройство со снятой защитой или административным доступом**|Н/Д|Н/Д|Карантин (не параметр)|Карантин (не параметр)|
@@ -52,7 +52,7 @@ ms.openlocfilehash: b17a47a2924ef36df69db2aa852f0b225471ecd1
 
 -   Корпоративный портал будет уведомлять пользователя о любых проблемах соответствия.
 
-## Дальнейшие действия
+## Дальнейшие шаги
 [Создание политики соответствия устройства](create-a-device-compliance-policy-in-microsoft-intune.md)
 
 [Развертывание и мониторинг политики соответствия устройства](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
@@ -62,6 +62,6 @@ ms.openlocfilehash: b17a47a2924ef36df69db2aa852f0b225471ecd1
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO1-->
 
 

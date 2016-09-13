@@ -4,7 +4,7 @@ description: "Объясняется, как создавать пользова
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: 07a2de6922f6b3f3a2b56dfc6bbe4e5f09c7d976
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: 3b2f896ea6c3e66924dbd8b35fcddcccd0b65ca6
 
 
 ---
@@ -75,6 +75,6 @@ ms.openlocfilehash: 07a2de6922f6b3f3a2b56dfc6bbe4e5f09c7d976
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

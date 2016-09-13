@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 3f9f985e2e40d67bedf8eb37125274ea029e602a
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: b5ecb5b4c7629b04c679995b5788ee307bac79f0
 
 
 ---
@@ -95,11 +95,8 @@ ms.openlocfilehash: 3f9f985e2e40d67bedf8eb37125274ea029e602a
 
 Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
-### См. также
-[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
-
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

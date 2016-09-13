@@ -23,8 +23,8 @@
 ### [Задачи, выполняемые после настройки](post-configuration-tasks.md)
 
 ## [Выбор способа управления устройствами](choose-how-to-manage-devices.md)
-### [Возможности управления мобильными устройствами](mobile-device-management-capabilities-in-microsoft-intune.md)
-### [Возможности управления компьютерами с Windows](windows-pc-management-capabilities-in-microsoft-intune.md)
+### [Возможности управления зарегистрированными устройствами](mobile-device-management-capabilities-in-microsoft-intune.md)
+### [Возможности программного клиента Intune для ПК](windows-pc-management-capabilities-in-microsoft-intune.md)
 
 ## [Этапы развертывания для Intune](rollout-phases-for-microsoft-intune-deployment.md)
 ### [Определение области проекта](project-scope.md)
@@ -39,6 +39,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

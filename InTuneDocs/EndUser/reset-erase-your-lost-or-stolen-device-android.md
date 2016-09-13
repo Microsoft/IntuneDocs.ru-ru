@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: fbdaf27865a715a7ae9efb68390fc21a5dcd17c5
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 2b759c45a045fff29c6d21a16b3798482886d587
 
 
 ---
@@ -52,11 +52,10 @@ ms.openlocfilehash: fbdaf27865a715a7ae9efb68390fc21a5dcd17c5
 
 Если не удается сбросить утерянное или украденное устройство, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
-### См. также
-[Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

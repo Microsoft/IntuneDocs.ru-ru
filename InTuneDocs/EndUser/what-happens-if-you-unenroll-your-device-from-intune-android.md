@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 1260ef2cf63563e492831709656eea8ec45eef22
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: dadc57ec9a8ba1a9c412824ea35d6f38dfb934a9
 
 
 ---
@@ -42,11 +42,8 @@ ms.openlocfilehash: 1260ef2cf63563e492831709656eea8ec45eef22
 Требуется помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
 
 
-### См. также
-[Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
-
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

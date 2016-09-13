@@ -4,7 +4,7 @@ description: "Описывается процесс добавления име�
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: 60f96b21f9e8f6ce610c24c6078906f51e327cb7
+ms.sourcegitcommit: bf2122afc7f86d81b9d072147b19f75be2a55b51
+ms.openlocfilehash: 63c0b3340a6f69e20c85abf7947c25ce88f5d826
 
 
 ---
@@ -40,6 +40,6 @@ ms.openlocfilehash: 60f96b21f9e8f6ce610c24c6078906f51e327cb7
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

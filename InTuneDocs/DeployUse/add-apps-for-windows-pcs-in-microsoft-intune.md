@@ -4,7 +4,7 @@ description: "В этом разделе описывается, как доба
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: f7f43d3225d8fafc54cbc9043a2b67aca9e30c95
+ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
+ms.openlocfilehash: 24767de9ad5a1f0ebe6f713018098a5dd692466e
 
 
 ---
@@ -90,6 +90,6 @@ ms.openlocfilehash: f7f43d3225d8fafc54cbc9043a2b67aca9e30c95
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: "Возможности управления мобильными устройствами | Microsoft Intune"
-description: "В этом разделе содержатся сведения о том, как Intune может помочь в управлении мобильными устройствами, зарегистрированными в службе."
+title: "Возможности управления зарегистрированными устройствами | Microsoft Intune"
+description: "В этом разделе содержатся сведения о том, как Intune может помочь в управлении зарегистрированными устройствами."
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/23/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2ef264e963f689bb5a47a795170e0b9915848eec
-ms.openlocfilehash: efe86b7fd56603de2b910a8ec76b6de91db3b698
+ms.sourcegitcommit: a09c5e3349945cfdcb4ae9d3aa51aa3f7024330a
+ms.openlocfilehash: eab582d30408d1a57643e30ba4965bd08f6ce847
 
 
 ---
-# Возможности управления мобильными устройствами в Microsoft Intune
+# Возможности управления зарегистрированными устройствами в Microsoft Intune
 
 Microsoft Intune позволяет управлять различными устройствами путем их *регистрации* в службе. Можно зарегистрировать некоторые типы устройств самостоятельно, кроме того, устройства могут регистрировать пользователи с помощью приложения *корпоративного портала*. Это также позволяет им выполнять такие операции, как просмотр и установка приложений, проверка и реализация соответствия устройств политикам организации и обращение в службу ИТ-поддержки.
 
@@ -70,6 +70,6 @@ Microsoft Intune позволяет управлять различными ус
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 
