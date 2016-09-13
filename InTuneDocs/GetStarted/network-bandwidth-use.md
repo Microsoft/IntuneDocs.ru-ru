@@ -4,7 +4,7 @@ description: "использование пропускной способнос
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: 6534eb7bbff2fba39e1dfa9be4ad01196156cc15
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: b40c5ce0d4447b10ec949af6933f28b091136315
 
 
 ---
@@ -88,6 +88,6 @@ ms.openlocfilehash: 6534eb7bbff2fba39e1dfa9be4ad01196156cc15
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

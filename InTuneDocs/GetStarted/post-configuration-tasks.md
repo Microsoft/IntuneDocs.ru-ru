@@ -4,7 +4,7 @@ description:
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 34a412cd-8240-4e06-a60e-df270a711e7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: 95934b6900719671ea0d7fc5ebbd4162d9538c33
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: 2ea332e7f0739ef55fcd0174d21e67086bcc9f4f
 
 
 ---
@@ -30,6 +30,6 @@ ms.openlocfilehash: 95934b6900719671ea0d7fc5ebbd4162d9538c33
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

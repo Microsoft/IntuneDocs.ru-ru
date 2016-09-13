@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 472dc010232c6720873b4c2f697c853a410c72e1
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: b8bc9cca66d35147b5bb235f2e01c3867104d1ee
 
 
 ---
@@ -32,11 +32,9 @@ ms.openlocfilehash: 472dc010232c6720873b4c2f697c853a410c72e1
 - Изготовитель устройства установил на нем ПО, которое программа обнаружения рутированности распознает как представляющее угрозу безопасности. Необходимо обратиться за помощью к администратору ИТ. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
-### См. также
-[Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

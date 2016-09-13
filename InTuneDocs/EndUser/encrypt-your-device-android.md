@@ -4,7 +4,7 @@ description: "Описывается шифрование устройства A
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 06/07/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: d4430e92-04cc-48e9-a77a-81b95a90b6b3
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6c6a6fed876e49888d8fda1fd93b39313387ba38
-ms.openlocfilehash: 6cb6c0b8a8f4c1b88565ce4b7a5690406b4ddf40
+ms.sourcegitcommit: 08eeb1f330ed8fcea5da41f71ded0ccf124da7c5
+ms.openlocfilehash: 2fff575f84512304a119508b49486d02695a06bd
 
 
 ---
@@ -60,11 +60,10 @@ ms.openlocfilehash: 6cb6c0b8a8f4c1b88565ce4b7a5690406b4ddf40
 
 По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
 
-### См. также
-[Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO2-->
+
+<!--HONumber=Aug16_HO5-->
 
 

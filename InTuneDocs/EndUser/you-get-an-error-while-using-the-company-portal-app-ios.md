@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 85a036fd910bb91bf8f0728ca2aa486189471ac6
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 481f9570f4c1cf30bfb7be9beef2681fa5fc84f7
 
 
 ---
@@ -32,11 +32,10 @@ ms.openlocfilehash: 85a036fd910bb91bf8f0728ca2aa486189471ac6
 -   Встряхните устройство, находясь в приложении корпоративного портала, а затем нажмите **Электронная почта** при появлении предупреждения диагностики. Если при встряхивании устройства предупреждение не отображается, откройте **Параметры** &gt; **Корпоративный портал** и включите параметр **Жест встряхивания**.
 
 
-### См. также
-[Использование устройства iOS или Mac OS X в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 

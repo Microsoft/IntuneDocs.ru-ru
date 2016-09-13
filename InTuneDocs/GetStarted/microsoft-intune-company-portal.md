@@ -4,7 +4,7 @@ description: "Сведения о настройке корпоративног�
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 4dc3d084-0394-4ee7-b7fa-a72523928627
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6d1c7c670341692d4ea0c823e4a9a96746b83067
-ms.openlocfilehash: b6dc2a6b9f8464bb6accbbc5163700a6d7da1fdb
+ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
+ms.openlocfilehash: 7c9fceaae077907480d4c207d56f654d168248a1
 
 
 ---
@@ -53,6 +53,6 @@ ms.openlocfilehash: b6dc2a6b9f8464bb6accbbc5163700a6d7da1fdb
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

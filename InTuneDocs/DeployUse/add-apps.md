@@ -4,7 +4,7 @@ description: "Прежде чем приступить к развертыван
 keywords: 
 author: robstackmsft
 manager: angrobe
-ms.date: 07/19/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6716a3d1fb53dc3de0189f637d5664d0a2023d05
-ms.openlocfilehash: 8bc18a2f77a2ebcc4a3a2fc4d0902e745991dfae
+ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
+ms.openlocfilehash: 93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d
 
 
 ---
@@ -82,6 +82,6 @@ ms.openlocfilehash: 8bc18a2f77a2ebcc4a3a2fc4d0902e745991dfae
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

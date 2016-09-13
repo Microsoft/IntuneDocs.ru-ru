@@ -1,5 +1,5 @@
 ---
-title: "Установка клиента на компьютере с Windows | Microsoft Intune"
+title: "Установка клиентского программного обеспечения для ПК | Microsoft Intune"
 description: "В этом руководстве содержатся сведения об управлении ПК Windows с помощью клиентского программного обеспечения Microsoft Intune."
 keywords: 
 author: NathBarn
@@ -13,8 +13,8 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e0d05a4f229e2a8e72d1d60021b159f12dfa0d1
-ms.openlocfilehash: 3cb693eff7545fe4de8e5c082cfa3ab088c005db
+ms.sourcegitcommit: 2c162e2a885887d0aa69da2a4cec55c7737bccd1
+ms.openlocfilehash: 7e16d0057b91eece7a5aa92a0ba495eaf159caae
 
 
 ---
@@ -85,7 +85,7 @@ ms.openlocfilehash: 3cb693eff7545fe4de8e5c082cfa3ab088c005db
 
 1.  Скопируйте файлы установки клиента, **Microsoft_Intune_Setup.exe** и **MicrosoftIntune.accountcert**, в папку **%Systemdrive%\Temp\Microsoft_Intune_Setup** на эталонном компьютере.
 
-2.  Создайте запись реестра **WindowsIntuneEnrollPending** , добавив в сценарий **SetupComplete.cmd** следующую команду:
+2.  Создайте запись реестра **WindowsIntuneEnrollPending**, добавив в сценарий **SetupComplete.cmd** следующую команду:
 
     ```
     %windir%\system32\reg.exe add HKEY_LOCAL_MACHINE\Software\Microsoft\Onlinemanagement\Deployment /v
@@ -104,7 +104,7 @@ ms.openlocfilehash: 3cb693eff7545fe4de8e5c082cfa3ab088c005db
 
 5.  Запишите образ эталонного компьютера, а затем разверните его на целевых компьютерах.
 
-После перезагрузки целевого компьютера по завершении выполнения программы установки Windows будет создан раздел реестра **WindowsIntuneEnrollPending** . Пакет регистрации проверяет, зарегистрирован ли компьютер. Если компьютер зарегистрирован, дальнейшие действия не предпринимаются. Если компьютер не зарегистрирован, пакет регистрации создает задачу автоматической регистрации в Microsoft Intune.
+После перезагрузки целевого компьютера по завершении выполнения программы установки Windows будет создан раздел реестра **WindowsIntuneEnrollPending**. Пакет регистрации проверяет, зарегистрирован ли компьютер. Если компьютер зарегистрирован, дальнейшие действия не предпринимаются. Если компьютер не зарегистрирован, пакет регистрации создает задачу автоматической регистрации в Microsoft Intune.
 
 При следующем запланированном запуске задачи автоматической регистрации выполняется проверка на наличие параметра реестра **WindowsIntuneEnrollPending** и предпринимается попытка регистрации целевого компьютера в Intune. Если по какой-либо причине выполнить регистрацию не удается, при следующем запуске задачи будет предпринята повторная попытка. Попытки продолжаются в течение одного месяца.
 
@@ -139,6 +139,6 @@ ms.openlocfilehash: 3cb693eff7545fe4de8e5c082cfa3ab088c005db
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 
