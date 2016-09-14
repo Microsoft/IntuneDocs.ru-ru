@@ -13,8 +13,8 @@ ms.assetid: d2989e39-9b76-411b-b6fb-7209adb3bfb6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: a5f80058e004f119acc9a918123c897b72b71314
-ms.openlocfilehash: 7474d6fc583c2fd514cfd0b2d0dfd497b1d14480
+ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
+ms.openlocfilehash: 509a0af6949d95a0c66c72043e67567b70ace22d
 
 
 ---
@@ -26,7 +26,9 @@ ms.openlocfilehash: 7474d6fc583c2fd514cfd0b2d0dfd497b1d14480
 ## **Пользователи приносят собственные устройства (BYOD) или устройства предоставляются организацией (COD)?**
 
 > [!div class="button"]
-[BYOD >](choose-how-to-enroll-devices2.md)<br>[Устройства, принадлежащие компании >](choose-how-to-enroll-devices3.md)
+[BYOD >](choose-how-to-enroll-devices2.md)
+> [!div class="button"]
+[Устройства, принадлежащие компании >](choose-how-to-enroll-devices3.md)
 
 - **Устройства, принадлежащие пользователям**. Регистрация BYOD-устройств (принеси свое устройство) позволяет пользователю установить приложение корпоративного портала Intune на своем устройстве и зарегистрировать его для доступа к ресурсам компании, таким как электронная почта, приложения компании, данные компании и поддержка.  
 
@@ -34,6 +36,6 @@ ms.openlocfilehash: 7474d6fc583c2fd514cfd0b2d0dfd497b1d14480
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 
