@@ -9,8 +9,9 @@
 ## [регистрации устройств;](enroll-devices-in-microsoft-intune.md)
 ### [Подготовка к регистрации устройств в Intune](get-ready-to-enroll-devices-in-microsoft-intune.md)
 #### [Управление устройствами Mac и iOS](set-up-ios-and-mac-management-with-microsoft-intune.md)
-#### [Windows 10 Mobile и Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
+#### [Управление Android](set-up-android-management-with-microsoft-intune.md)
 #### [Управление устройствами Windows ](set-up-windows-device-management-with-microsoft-intune.md)
+#### [Windows 10 Mobile и Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 ### [Управление устройствами, являющимися собственностью организации](manage-corporate-owned-devices.md)
 #### [Регистрация корпоративных устройств iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)
 ##### [Регистрация iOS с помощником по установке](ios-setup-assistant-enrollment-in-microsoft-intune.md)
@@ -107,6 +108,7 @@
 #### [Создание и развертывание политик MAM](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Политики MAM для Android](android-mam-policy-settings.md)
 #### [Политики MAM для iOS](ios-mam-policy-settings.md)
+#### [Проверка политик MAM](validate-mobile-application-management.md)
 #### [Мониторинг соответствия политик](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Управление передачей данных между приложениями iOS](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 #### [Взаимодействие с пользователем](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
@@ -135,6 +137,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO1-->
 
 

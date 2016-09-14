@@ -13,8 +13,8 @@ ms.assetid: 24b8ecbf-7336-4543-8094-32688bda0b8f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: e1fe6b167b7d46f03472833bc1c3c19030f47bce
-ms.openlocfilehash: 498e1a68c2c87e57851e229d55e5054060affa81
+ms.sourcegitcommit: a5f80058e004f119acc9a918123c897b72b71314
+ms.openlocfilehash: 43bbb8590738182a26efcbeead1e59eff9e5f20d
 
 
 ---
@@ -25,7 +25,7 @@ ms.openlocfilehash: 498e1a68c2c87e57851e229d55e5054060affa81
 ## **Являются ли устройства компании общими или привязаны к отдельным пользователям?**
 
 > [!div class="button"]
-[Общие >](choose-how-to-enroll-devices4.md)   [Выделенные >](choose-how-to-enroll-devices6.md)
+[Общие >](choose-how-to-enroll-devices4.md)<br>[Выделенные >](choose-how-to-enroll-devices6.md)
 
 - **Общие устройства, принадлежащие компании**. Такие устройства не привязываются к отдельному пользователю и обычно не предназначены для доступа к электронной почте. К ним относятся устройства, работающие в полноэкранном режиме, и устройства, ориентированные на задачи, которые пользователи берут из пула при необходимости, а затем возвращают. Рекомендуемые методы регистрации зависят от платформы устройств.
 
@@ -36,6 +36,6 @@ ms.openlocfilehash: 498e1a68c2c87e57851e229d55e5054060affa81
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO5-->
 
 

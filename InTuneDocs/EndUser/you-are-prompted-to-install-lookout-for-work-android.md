@@ -4,7 +4,7 @@ description:
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 05/27/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,14 +12,14 @@ ms.technology:
 ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 7be786dafa5b4707688bacd1f2b4790db91bad6c
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 3ac185bae98948ab756abdc2a2bb22672b362f90
 
 
 ---
 
 # Вам предложено установить Lookout for Work
-Примечание. Этот компонент добавлен в приложение "Корпоративный портал" для Android, но он начнет работать только в августе 2016 г.
+Примечание. Этот компонент добавлен в приложение "Корпоративный портал" для Android, но он начнет работать только в сентябре 2016 г.
 
 Lookout for Work — приложение, которое помогает защитить устройства путем проверки рисков и угроз безопасности. Если вы видите уведомление о том, что необходимо установить приложение Lookout for Work, это означает, что ИТ-администратор настроил политику, которая требует загрузить и установить приложение из магазина Google Play.
 
@@ -30,11 +30,10 @@ Lookout for Work — приложение, которое помогает за
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
-### См. также
-[Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 
 
 
-<!--HONumber=Aug16_HO4-->
+
+<!--HONumber=Aug16_HO5-->
 
 
