@@ -12,8 +12,8 @@ ms.technology:
 ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: c671610b9c56d8b92d126d9902cce9c8c689ed63
-ms.openlocfilehash: aac4eee56ec7326b2ce466d19b580aa5f1388aea
+ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
+ms.openlocfilehash: 0e516e3762dc5712a1b2d0f83016b51b15b7070f
 
 
 ---
@@ -28,7 +28,9 @@ ms.openlocfilehash: aac4eee56ec7326b2ce466d19b580aa5f1388aea
   - **Устройства, принадлежащие компании** — регистрация устройств COD.
 
 > [!div class="button"]
-[Регистрация BYOD >](#what-byod-devices-can-your-users-enroll) [Регистрация COD >](#are-your-company-owned-devices-shared-or-do-they-have-dedicated-users)
+[Регистрация устройств BYOD >](#what-byod-devices-can-your-users-enroll)   
+> [!div class="button"]
+[Регистрация устройств COD >](#are-your-company-owned-devices-shared-or-do-they-have-dedicated-users)
 
 ## **Какие устройства BYOD могут зарегистрировать пользователи?**
 
@@ -64,7 +66,7 @@ ms.openlocfilehash: aac4eee56ec7326b2ce466d19b580aa5f1388aea
 
   Вы можете зарегистрировать устройства организации с выделенными пользователями следующим образом:
 
-  - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно скачает профиль DEP и зарегистрируется с использованием Intune.
+  - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно скачает профиль DEP и зарегистрируется с его использованием.
 
   - **Apple Configurator на компьютере Mac**: Apple Configurator — это приложение Apple, которое выполняется на компьютере Mac. Для установки профиля регистрации на устройстве с iOS его можно подключить к компьютеру Mac с помощью USB-кабеля. Если для регистрации вы можете сбросить устройство до заводских настроек, используйте регистрацию с помощью помощника по настройке.
 
@@ -72,6 +74,6 @@ ms.openlocfilehash: aac4eee56ec7326b2ce466d19b580aa5f1388aea
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 
