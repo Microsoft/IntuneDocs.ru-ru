@@ -56,7 +56,7 @@
 ## [Защита устройств](protect-your-devices-with-microsoft-intune.md)
 ### [Удаленная блокировка и сброс секретного кода](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
 ### [Защита устройств Windows с помощью многофакторной проверки подлинности](protect-windows-devices-with-multi-factor-authentication.md)
-### [Управление параметрами Microsoft Passport на устройствах](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
+### [Управление параметрами Windows Hello для бизнеса](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
 ### [Обход блокировки активации в iOS](help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)
 ### [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)
 #### [Обновления программного обеспечения](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)

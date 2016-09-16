@@ -13,8 +13,8 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: 564edd672052f41215294a9562101289f20128db
+ms.sourcegitcommit: f86fe2710318209a2a4373beea1590c5343cbf4c
+ms.openlocfilehash: 08e112bfae9a3655f428d53f68922fd3ff4713b4
 
 
 ---
@@ -30,7 +30,7 @@ ms.openlocfilehash: 564edd672052f41215294a9562101289f20128db
 Если подписка использует Azure AD совместно с другими облачными службами в вашей подписке, вы получаете доступ к пользователям, которые были добавлены для этих служб. У этих пользователей не будет лицензии на [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] до тех пор, пока вы не назначите ее каждому из них.
 
 > [!TIP]
-> Если параметр назначения или отзыва лицензии [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] недоступен, ваша подписка должна включать варианты корпоративного лицензирования, например доступные при использовании [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx). Дополнительные сведения о назначении или отзыве лицензий см. в документации к вариантам лицензирования.
+> Если вариант назначения или отзыва лицензии [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] недоступен, ваша подписка должна включать варианты корпоративного лицензирования, например доступные при использовании [Enterprise Mobility Suite + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx). Дополнительные сведения о назначении или отзыве лицензий см. в документации к вариантам лицензирования.
 
 ## Назначение лицензии пользователя Intune
 
@@ -92,6 +92,6 @@ ms.openlocfilehash: 564edd672052f41215294a9562101289f20128db
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO1-->
 
 
