@@ -7,9 +7,9 @@
   - Компьютеры под управлением Windows 10 (Домашняя, Профессиональная, Корпоративная версии и версия для образовательных учреждений)
   - Mac OS X 10.9 и более поздние версии
 
-С помощью [клиентского программного обеспечения Intune](/intune/deploy-use/manage-windows-pcs-with-microsoft-intune) можно управлять компьютерами с Windows, на которых установлена операционная система Windows 7 и более поздние версии. Клиенты с Enterprise Management Suite (EMS) могут также [использовать Azure Active Directory (AAD) для регистрации устройств с Windows 10](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview).
+[Клиентское программное обеспечение Intune](/intune/deploy-use/manage-windows-pcs-with-microsoft-intune) позволяет управлять компьютером под управлением операционной системы Windows Vista и более поздних версий, исключая все выпуски Windows Домашняя, которые не поддерживаются.  Клиенты с Enterprise Management + Security (EMS) могут также [использовать Azure Active Directory (AAD) для регистрации устройств с Windows 10](set-up-windows-device-management-with-microsoft-intune.md#azure-active-directory-enrollment).
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 
