@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Msmbaldwin
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 09/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b7f62c5ee18d8f69fa174f09a1c46b6925c7517c
-ms.openlocfilehash: 3abf566831348de11f718370d6267e3ff4355bfb
+ms.sourcegitcommit: 952cfa4f23f8ba080ce53f6785baceb8a0a367c6
+ms.openlocfilehash: ce8fa172c68fed7a1398cd5b1263ac970b87559b
 
 
 ---
@@ -71,6 +71,6 @@ API предварительной версии позволяют указат�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Sep16_HO2-->
 
 

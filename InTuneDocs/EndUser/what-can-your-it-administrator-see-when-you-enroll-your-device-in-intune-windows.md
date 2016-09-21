@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 05/26/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: 5454a9ddfb7489e6d048abea3acca089752c2f45
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 48377dfbe945447c6c4141d86e134685b97db1e8
 
 
 ---
@@ -58,13 +58,10 @@ ms.openlocfilehash: 5454a9ddfb7489e6d048abea3acca089752c2f45
 -   Изготовитель
 
 
-Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-### См. также
-[Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
+Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала] (http://
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 
