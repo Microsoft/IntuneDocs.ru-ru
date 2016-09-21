@@ -13,26 +13,14 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 95b3401b66256ef44623b74e6e0b549ec1e7fc2c
-ms.openlocfilehash: 27af2b714ff51f8710f67e7445225366d2722fb7
+ms.sourcegitcommit: 3d737c44e3586a4339a324dcb6701f7c86a29d01
+ms.openlocfilehash: 3bf0e6f8bc010c23712f9908cff7d515c2c62671
 
 
 ---
 
 # Настройка управления устройством Android
-Инструкции по настройке устройства Android см. [здесь](../enduser/using-your-android-device-with-intune.md).
-
-С помощью Microsoft Intune можно включить режим BYOD ("принеси свое устройство") для устройств Android без какой-либо дополнительных усилий.
-
-Выберите один из следующих вариантов платформы устройства для получения дополнительных сведений:
-
-> [!div class="op_single_selector"]
-- [Настройка управления Android с помощью Microsoft Intune](set-up-android-management-with-microsoft-intune.md)
-- [Set up iOS and Mac management with Microsoft Intune](set-up-ios-and-mac-management-with-microsoft-intune.md)
-- [Настройка управления Windows Phone с помощью Microsoft Intune](set-up-windows-phone-management-with-microsoft-intune.md)
-- [Настройка управления устройствами Windows с помощью Microsoft Intune](set-up-windows-device-management-with-microsoft-intune.md)
-
-Мобильные устройства Android позволяют пользователям регистрироваться с помощью доступного в Google Play приложения корпоративного портала. Чтобы разрешить пользователям регистрировать свои устройства в Intune, выполните следующие действия:
+Как администратор Intune, вы можете включить управление устройствами Android из корпоративного портала. После этого пользователи могут зарегистрировать свои устройства с помощью доступного в Google Play приложения корпоративного портала.
 
 1.  **Настройка Intune**<br>
     Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
@@ -52,6 +40,6 @@ ms.openlocfilehash: 27af2b714ff51f8710f67e7445225366d2722fb7
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

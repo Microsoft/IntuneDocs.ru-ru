@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 07/28/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: c676c15ad526ff31b98484704190b96006bf4f36
+ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
+ms.openlocfilehash: 275e51d2f32aec340a31b67773dbccc77d48a573
 
 
 ---
@@ -23,7 +23,9 @@ ms.openlocfilehash: c676c15ad526ff31b98484704190b96006bf4f36
 
 # Ручная синхронизация устройства с помощью веб-сайта корпоративного портала.
 
-Если установка приложения занимает слишком много времени, можно попробовать синхронизировать устройство вручную, что ускоряет установку. Выполните действия, соответствующие типу используемого вами устройства или вашей версии Windows. Синхронизация устройства для ускорения установки приложений доступна только для перечисленных ниже версий.
+Если установка приложения или какая-либо другая задача занимает слишком много времени, можно попробовать синхронизировать устройство вручную, что ускоряет установку или задачу. Выполните указанные ниже действия, соответствующие используемому вами устройству. 
+
+Функция синхронизации работает только для перечисленных ниже версий.
 
 * [Windows 10 Mobile](sync-your-device-manually-windows.md#windows-10-mobile)
 * [Windows 10 Desktop](sync-your-device-manually-windows.md#windows-10-desktop)
@@ -32,6 +34,6 @@ ms.openlocfilehash: c676c15ad526ff31b98484704190b96006bf4f36
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

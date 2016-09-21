@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Msmbaldwin
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 09/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 63d94a83a3a5ad9520abab3ef25e8d9690c26ce7
-ms.openlocfilehash: 512ef2416e14f2a44e1c46e996c8519b5776581f
+ms.sourcegitcommit: 952cfa4f23f8ba080ce53f6785baceb8a0a367c6
+ms.openlocfilehash: 0d69d0b230771a87c1103682b17336dc47d26622
 
 
 ---
@@ -241,6 +241,6 @@ ADALLogOverrideDisabled | Логическое значение  | Указыв�
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

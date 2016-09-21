@@ -13,8 +13,8 @@ ms.assetid: 0be369d5-d4ad-433a-8a81-c04b070d76e3
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: e1fe6b167b7d46f03472833bc1c3c19030f47bce
-ms.openlocfilehash: a3763c3384aea1cf8dcb2639664dc189d41caa4b
+ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
+ms.openlocfilehash: b9ff11b211aae12f4387be3b347acb040d095c69
 
 
 ---
@@ -25,13 +25,17 @@ ms.openlocfilehash: a3763c3384aea1cf8dcb2639664dc189d41caa4b
 ## **Какая операционная система выполняется на общих устройствах?**
 
   > [!div class="button"]
-  [Windows >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [Android >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [iOS >](choose-how-to-enroll-devices5.md)
+  [Windows >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+  > [!div class="button"]
+  [Android >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+  > [!div class="button"]
+  [iOS >](choose-how-to-enroll-devices5.md)
 
   > [!div class="button"]
   [< Назад](choose-how-to-enroll-devices3.md)
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Sep16_HO2-->
 
 
