@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 63f86f135d369d8c96903c0add1e194fd9d5ded2
-ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
+ms.sourcegitcommit: 5c522c12325925c45f47bc7b521e3d8aa87454f4
+ms.openlocfilehash: 84d1e337a8328b2b133f5e3c71c6101380cfa3ce
 
 
 ---
@@ -68,9 +68,11 @@ ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
 - [Вам предложено отключить режим отладки по USB.](you-are-asked-to-turn-off-usb-debugging-android.md)
 - [Вам предложено включить проверку устройств на предмет угроз безопасности.](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
 - [На устройстве отсутствует минимальная версия исправления безопасности.](your-device-does-not-meet-the-minimum-security-patch-android.md)
+- [Вам предложено установить Lookout for Work на устройстве Android](you-are-prompted-to-install-lookout-for-work-android.md)
+- [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

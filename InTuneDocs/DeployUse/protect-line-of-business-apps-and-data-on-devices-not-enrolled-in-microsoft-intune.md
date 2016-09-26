@@ -13,8 +13,8 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 3e09af2cd329d556a9a0a1b2fb4750856e336ab1
+ms.sourcegitcommit: 45c6622624230e3486d2498b1b023f2efcdc2970
+ms.openlocfilehash: eb04f0e7b9627ad1869ef677f1b32380db868490
 
 
 ---
@@ -27,7 +27,7 @@ ms.openlocfilehash: 3e09af2cd329d556a9a0a1b2fb4750856e336ab1
 ##  Шаг 1. Подготовка приложения
 Перед применением политик MAM к приложению сначала нужно упаковать приложение с помощью средства упаковки приложений Microsoft Intune.  Инструкции по установке и использованию средства упаковки приложений включены в пакет для скачивания.  
 >[!IMPORTANT]  
->Эта версия средства упаковки приложений, которая поддерживает устройства, не зарегистрированные в Intune, будет доступна в ближайшие недели в частной предварительной версии. Если вы хотите принять участие, отправьте электронное письмо по адресу msintuneappsdk@microsoft.com для получения дополнительных сведений.
+>Эта версия средства упаковки приложений, которая поддерживает устройства, не зарегистрированные в Intune, доступна в рамках общедоступной предварительной версии. Если вы хотите участвовать в оценке общедоступной предварительной версии, вы можете скачать средство на [этой странице Github](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview) для iOS и [этом сайте](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview) для Android.
 
 ## Шаг 2. Добавление приложения
 
@@ -75,6 +75,6 @@ ms.openlocfilehash: 3e09af2cd329d556a9a0a1b2fb4750856e336ab1
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

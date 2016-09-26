@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a1d0b330b42ea920af9512552a9f3d9c875e99da
-ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
+ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
+ms.openlocfilehash: 2bbb17881a1e40cd6552fe4303d55bd0cb4ffcf6
 
 
 ---
@@ -67,7 +67,7 @@ ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
 Доступ к электронной почте Exchange Online можно ограничить **Outlook** и другими **приложениями, использующими современную проверку подлинности**:
 
 - Android 4.0 и более поздние версии, Samsung KNOX Standard 4.0 и более поздние версии
-- iOS 7.1 и более поздние версии
+- Устройства iOS 8.0 и более поздней версии
 - Windows Phone 8.1 и более поздней версии
 
 **Современная проверка подлинности** активирует для клиентов Microsoft Office процедуру входа на основе библиотеки проверки подлинности Active Directory (ADAL).
@@ -93,7 +93,7 @@ ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
 
 - Android 4.0 и более поздние версии, Samsung KNOX Standard 4.0 и более поздние версии
 
-- iOS 7.1 и более поздние версии
+- Устройства iOS 8.0 и более поздней версии
 
 - Windows Phone 8.1 и более поздней версии
 
@@ -262,6 +262,6 @@ ms.openlocfilehash: 9e2b16a2ea16417864b82f4b025053d9c87fcb14
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO2-->
 
 

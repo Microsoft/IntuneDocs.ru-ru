@@ -13,8 +13,8 @@ ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6b6a5e2435a3cdffeaf27b0045dee9b8263cdc7a
-ms.openlocfilehash: 1e2dc1e94870bb53143bee62ccc9696a28285987
+ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
+ms.openlocfilehash: a2f98bbd34cf8b0c86531ae6ff40b1044c15d8bd
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 1e2dc1e94870bb53143bee62ccc9696a28285987
 
 # Параметры политики соответствия для устройств iOS в Microsoft Intune
 
-Параметры политики, описанные в этом разделе, применяются к устройствам под управлением iOS 6 и более поздних версий.
+Параметры политики, описанные в этом разделе, применяются к устройствам под управлением iOS 8.0 и более поздних версий.
 
 Если вам нужны сведения о других платформах, выберите один из следующих вариантов:
 > [!div class="op_single_selector"]
@@ -80,6 +80,6 @@ ms.openlocfilehash: 1e2dc1e94870bb53143bee62ccc9696a28285987
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 
