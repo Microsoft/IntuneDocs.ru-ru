@@ -4,7 +4,7 @@ description: "Защита и контроль доступа к корпора�
 keywords: 
 author: karthikaraman
 manager: angrobe
-ms.date: 06/16/2016
+ms.date: 09/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
-ms.openlocfilehash: 2bbb17881a1e40cd6552fe4303d55bd0cb4ffcf6
+ms.sourcegitcommit: 99b01f5ca5bb389fc8a9d87e956796823fee6c0d
+ms.openlocfilehash: dd5ae411cc2541566805131d0076efc15875c988
 
 
 ---
@@ -262,6 +262,6 @@ ms.openlocfilehash: 2bbb17881a1e40cd6552fe4303d55bd0cb4ffcf6
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO3-->
 
 

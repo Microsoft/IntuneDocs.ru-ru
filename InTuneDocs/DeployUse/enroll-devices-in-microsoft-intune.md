@@ -4,7 +4,7 @@ description: "В системе управления мобильными уст
 keywords: 
 author: NathBarn
 manager: angrobe
-ms.date: 07/18/2016
+ms.date: 09/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d1b6fea5284f7825da412351f5b5d5f2a47857d
-ms.openlocfilehash: caef9301c965704893b3a546429760cf779579f2
+ms.sourcegitcommit: e6b182ebab1691c62e69cabaf4689ac7395ab31a
+ms.openlocfilehash: 0995d3ced978f5213fdb0e9905f508b64a1e5c09
 
 
 ---
