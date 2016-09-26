@@ -99,7 +99,7 @@ ms.openlocfilehash: 70949301499efedd99eeddb60dd2fa0efc6d2309
  Each time you create a restrictive policy, you'll want to communicate it to your users. After you create the more general groups and policies, pay attention to how you create smaller groups so that you can reduce unnecessary communication.--->
 
 ## Встроенные группы
-Intune включает восемь встроенных групп, которые нельзя изменить или удалить: <!--maybe a screen shot would be best?-->
+Intune включает девять встроенных групп, которые нельзя изменить или удалить: <!--maybe a screen shot would be best?-->
 
 -   **Все пользователи**
     -   Пользователи без группировки
