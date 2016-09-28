@@ -4,7 +4,7 @@ description:
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 07/20/2016
+ms.date: 09/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,8 @@ ms.technology:
 ms.assetid: efb3c261-1f6c-4d39-bfa4-18661f8c59c7
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 96e8db7415e48a77f3e789aecddebe407e9a4b00
-ms.openlocfilehash: 37c5809e86d466717268f6fdec0c22f6bad2ac61
+ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
+ms.openlocfilehash: 782fb6132a8f049e67446085babe5d7e699c4749
 
 
 ---
@@ -40,6 +40,6 @@ ms.openlocfilehash: 37c5809e86d466717268f6fdec0c22f6bad2ac61
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO3-->
 
 

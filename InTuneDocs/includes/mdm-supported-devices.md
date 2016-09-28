@@ -1,5 +1,5 @@
 
-  - Apple iOS 7.1 и более поздние версии
+  - Apple iOS 8.0 и более поздней версии
   - Google Android 4.0 и более поздние версии (включая пакет SDK 4.0 для Samsung KNOX и более поздние версии)
   - Windows Phone 8.0 и более поздней версии.
   - Windows RT и Windows 8.1 RT.

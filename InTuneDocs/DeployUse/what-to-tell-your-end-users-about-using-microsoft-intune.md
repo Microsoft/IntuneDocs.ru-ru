@@ -4,7 +4,7 @@ description: "Ссылки на сведения, которые нужно пр
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 08/24/2016
+ms.date: 09/20/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9f1946c02c6267a22844106e8f72555ec5e9cabb
-ms.openlocfilehash: d29649c204f50aec1d1604b55bebc6018a3c7ef2
+ms.sourcegitcommit: e07685a26329b7374d9fe50d64bf9e4699c03180
+ms.openlocfilehash: 51b281a6799fa89ed49082acea34024a6214e835
 
 
 ---
@@ -57,14 +57,12 @@ ms.openlocfilehash: d29649c204f50aec1d1604b55bebc6018a3c7ef2
 - [Получение приложений пользователями iOS](how-your-ios-users-get-their-apps.md)
 - [Получение приложений пользователями Windows](how-your-windows-users-get-their-apps.md)
 
-## Пояснения к сообщениям в приложении корпоративного портала
 
-Чтобы помочь пользователям решить проблемы при работе с корпоративным порталом, можно просмотреть [список сообщений, которые могут отображаться для пользователей на корпоративном портале](/Intune/Plan-Design/help-end-users-understand-company-portal-app-messages).
 
 Если вы хотели бы добавить в эту статью еще какие-то сведения, напишите свое предложение в поле для комментария в нижней части этого раздела. Благодарим вас!
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO3-->
 
 

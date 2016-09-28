@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 09/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: b045840288790cb0efda3a2a6490ad97325c9620
+ms.sourcegitcommit: 967ef85a356cdbc81c80f55eff758cd1a25b8af7
+ms.openlocfilehash: c99b95a4127573dbe397b891daa881f6be015a8a
 
 
 ---
@@ -27,10 +27,10 @@ ms.openlocfilehash: b045840288790cb0efda3a2a6490ad97325c9620
 
 - [Android](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 - [iOS](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
-- [Windows](/what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
+- [Windows](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 

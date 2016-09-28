@@ -66,8 +66,9 @@
 ## [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md)
 
 ## [Добавление приложений](add-apps.md)
-### [Добавление приложений для мобильных устройств](add-apps-for-mobile-devices-in-microsoft-intune.md)
-### [Добавление приложений для компьютеров с ОС Windows](add-apps-for-windows-pcs-in-microsoft-intune.md)
+### [Добавление приложений для зарегистрированных устройств](add-apps-for-mobile-devices-in-microsoft-intune.md)
+### [Добавление приложений для клиентских компьютеров Intune](add-apps-for-windows-pcs-in-microsoft-intune.md)
+#### [Управление лицензионными соглашениями для клиентских компьютеров Intune](manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
 ## [Развертывание приложений](deploy-apps.md)
 ### [Развертывание приложений для устройств и компьютеров](deploy-apps-in-microsoft-intune.md)
 ### [Мониторинг приложений](monitor-apps-in-microsoft-intune.md)
@@ -101,6 +102,11 @@
 #### [Ограничение доступа к электронной почте: примеры](restrict-email-access-example-scenarios.md)
 
 ### [Ограничение доступа к сетям (Cisco ISE)](restrict-access-to-networks.md)
+### [Ограничение доступа на основе риска для устройства, сети и приложений](restrict-access-based-on-device-network-app-risk.md)
+#### [Настройка Lookout MTP](set-up-your-subscription-with-lookout-mtp.md)
+#### [Включение Lookout в Intune](enable-lookout-mtp-connection-in-intune.md)
+#### [Развертывание Lookout для рабочих приложений](configure-and-deploy-lookout-for-work-apps.md)
+#### [Включение политики соответствия для защиты устройства от угроз](enable-device-threat-protection-rule-in-compliance-policy.md)
 
 ### [Защита данных приложения с помощью MAM](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Портал Azure для политик управления мобильными приложениями](azure-portal-for-microsoft-intune-mam-policies.md)
@@ -137,6 +143,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO2-->
 
 

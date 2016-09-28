@@ -1,5 +1,5 @@
 ---
-title: "Добавление приложений для компьютеров с ОС Windows | Microsoft Intune"
+title: "Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune | Microsoft Intune"
 description: "В этом разделе описывается, как добавить в Intune приложения для компьютеров с Windows перед их развертыванием."
 keywords: 
 author: robstackmsft
@@ -13,18 +13,18 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
-ms.openlocfilehash: 24767de9ad5a1f0ebe6f713018098a5dd692466e
+ms.sourcegitcommit: f01f2715ebd5666b53de848f06300e7aa3344caf
+ms.openlocfilehash: 33ef6a417c38ab04095afc8fb7573ea92253f229
 
 
 ---
 
-# Добавление приложений для компьютеров с ОС Windows в Microsoft Intune
+# Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
 
 В этом разделе описывается, как добавить приложения в Intune перед их развертыванием.
 
 > [!IMPORTANT]
-> Сведения в этом разделе помогут вам добавить приложения для компьютеров с Windows, которые управляются с помощью клиентского ПО Intune. Если нужно добавить приложения для зарегистрированных компьютеров с Windows и мобильных устройств, см. раздел [Добавление приложений для мобильных устройств в Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md).
+> Сведения в этом разделе помогут вам добавить приложения для компьютеров Windows, которые управляются с помощью программного клиента Intune. Если нужно добавить приложения для зарегистрированных компьютеров с Windows и мобильных устройств, см. раздел [Добавление приложений для мобильных устройств в Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md).
 
 
 ## Добавление приложения
@@ -90,6 +90,6 @@ ms.openlocfilehash: 24767de9ad5a1f0ebe6f713018098a5dd692466e
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 310a1160d105a80623742ce4e2dc046c670bc167
-ms.openlocfilehash: d597cd13bd2254a9303769e2f5d5519c739f0aaf
+ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
+ms.openlocfilehash: beba0471f31a19dad78ddf71c07e323b18af18e8
 
 
 ---
@@ -40,7 +40,7 @@ ms.openlocfilehash: d597cd13bd2254a9303769e2f5d5519c739f0aaf
 
 -   Android 4.0 и более поздней версии
 
--   iOS 7.1 и более поздние версии
+-   Устройства iOS 8.0 и более поздней версии
 
 -   Mac OS X 10.9 и более поздние версии
 
@@ -52,7 +52,7 @@ ms.openlocfilehash: d597cd13bd2254a9303769e2f5d5519c739f0aaf
 
     -   Профиль Wi-Fi (Android 4 и более поздней версии)
 
-    -   Профиль Wi-Fi (iOS 7.1 и более поздние версии)
+    -   Профиль Wi-Fi (iOS 8.0 и более поздние версии)
 
     -   Профиль Wi-Fi (Mac OS X 10.9 и более поздние версии)
 
@@ -173,6 +173,6 @@ ms.openlocfilehash: d597cd13bd2254a9303769e2f5d5519c739f0aaf
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO3-->
 
 

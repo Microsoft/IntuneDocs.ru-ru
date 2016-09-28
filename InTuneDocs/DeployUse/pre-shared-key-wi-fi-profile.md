@@ -13,8 +13,8 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bf8da72092a2380e73cfbed2a693831706b40d23
-ms.openlocfilehash: c005a1b38289580b1543e0e62cbb4cd00cb22c47
+ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
+ms.openlocfilehash: daecea644300ee1e47db9b028b72d71b3211f46d
 
 
 
@@ -55,12 +55,18 @@ ms.openlocfilehash: c005a1b38289580b1543e0e62cbb4cd00cb22c47
 4. Нажмите кнопку **ОК**, а затем сохраните и разверните политику.
 
     > [!NOTE]
-Эта политика может быть развернута только для групп пользователей.
+    > Эта политика может быть развернута только для групп пользователей.
 
 При каждой следующей регистрации устройства применяется политика и на устройстве создается профиль Wi-Fi. Устройство будет автоматически подключено к сети.
 ## Профиль Wi-Fi для Android или Windows
 
 Ниже приведен пример XML-кода для профиля Wi-Fi для Android или Windows:
+
+> [!IMPORTANT]
+> 
+> `<protected>false</protected>`. Задайте значение **false**, так как при установке значения **true** устройство будет ожидать зашифрованный пароль и затем попытается расшифровать его, что может привести к сбою подключения.
+> 
+>  `<hex>53534944</hex>` должно быть присвоено шестнадцатеричное значение `<name><SSID of wifi profile></name>`.
 
     <!--
     <Name of wifi profile> = Name of profile
@@ -70,6 +76,7 @@ ms.openlocfilehash: c005a1b38289580b1543e0e62cbb4cd00cb22c47
     <Type of encryption> = Type of encryption used by the network
     <protected>false</protected> do not change this value, as true could cause device to expect an encrypted password and then try to decrypt it, which may result in a failed connection.
     <password> = Password to connect to the network
+    <hex>53534944</hex> should be set to the hexadecimal value of <name><SSID of wifi profile></name>
     -->
     <WLANProfile
     xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
@@ -207,6 +214,6 @@ ms.openlocfilehash: c005a1b38289580b1543e0e62cbb4cd00cb22c47
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 
