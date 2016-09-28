@@ -4,7 +4,7 @@ description:
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 09/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4386e9c545c3427060478e0fb3482074a8c1d5a0
-ms.openlocfilehash: ba1869e63d9c9e83199ecfde312129c548dd5f07
+ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
+ms.openlocfilehash: 05f54088f3b18d90368e1b408b7012d28021abfc
 
 
 ---
@@ -45,6 +45,6 @@ ms.openlocfilehash: ba1869e63d9c9e83199ecfde312129c548dd5f07
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Sep16_HO3-->
 
 

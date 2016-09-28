@@ -13,8 +13,8 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55d3bd060b5567e98ca9ee6f4c4a003ce40a0371
-ms.openlocfilehash: 370a21f559fd1f86f60aeef5cbddea05d6fea682
+ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
+ms.openlocfilehash: c51c5ae199ca2950dc0371b400727af534a70f09
 
 
 ---
@@ -41,7 +41,7 @@ ms.openlocfilehash: 370a21f559fd1f86f60aeef5cbddea05d6fea682
 1.  В [консоли администрирования Intune](https://manage.microsoft.com) выберите пункты **Политика** &gt; **Добавить политику**.
 2.  Добавьте один из следующих типов политик:
     - **Android &gt; Профиль доверенного сертификата (Android 4 и более поздние версии)**
-    - **iOS &gt; Профиль доверенного сертификата (iOS 7.1 и более поздние версии)**
+    - **iOS &gt; Профиль доверенного сертификата (iOS 8.0 и более поздней версии)**
     - **Mac OS X &gt; Профиль доверенного сертификата (Mac OS X 10.9 и более поздние версии)**
     - **Windows &gt; Профиль доверенного сертификата (Windows 8.1 или более поздней версии)**
     - **Windows &gt; Профиль доверенного сертификата (Windows Phone 8.1 или более поздней версии)**
@@ -63,7 +63,7 @@ ms.openlocfilehash: 370a21f559fd1f86f60aeef5cbddea05d6fea682
 1.  В [консоли администрирования Intune](https://manage.microsoft.com) выберите пункты **Политика** &gt; **Добавить политику**.
 2.  Добавьте один из следующих типов политик:
     - **Android &gt; Профиль сертификата SCEP (Android 4 или более поздней версии)**
-    - **iOS &gt; Профиль сертификата SCEP (iOS 7.1 и более поздние версии)**
+    - **iOS &gt; Профиль сертификата SCEP (iOS 8.0 и более поздней версии)**
     - **Mac OS X &gt; Профиль сертификата SCEP (Mac OS X 10.9 и более поздние версии)**
     - **Windows &gt; Профиль сертификата SCEP (Windows 8.1 или более поздней версии)**
     - **Windows &gt; Профиль сертификата SCEP (Windows Phone 8.1 или более поздней версии)**
@@ -92,7 +92,7 @@ ms.openlocfilehash: 370a21f559fd1f86f60aeef5cbddea05d6fea682
   - **Android &gt; Профиль сертификата PFX (Android 4 или более поздней версии)**
   - **Windows &gt; PKCS #12 (.PFX) Профиль сертификата (Windows 10 и более поздние версии)**
   - **Windows &gt; PKCS #12 (.PFX) Профиль сертификата (Windows Phone 10 и более поздние версии)**
-  - **iOS > Профиль сертификата PKCS 12 (.PFX) (iOS 7.1 и более поздние версии)**    
+  - **iOS > Профиль сертификата PKCS 12 (.PFX) (iOS 8.0 и более поздней версии)**    
     Дополнительные сведения см. в статье [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md).
 3.  Введите данные, запрашиваемые в форме политики.
 4.  Выберите **Сохранить политику**.
@@ -130,6 +130,6 @@ ms.openlocfilehash: 370a21f559fd1f86f60aeef5cbddea05d6fea682
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO3-->
 
 

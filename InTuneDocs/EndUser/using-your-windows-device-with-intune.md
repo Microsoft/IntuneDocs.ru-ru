@@ -4,7 +4,7 @@ description: "Список ссылок на задачи, которые мож
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 09/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d0cc50bb5d79f4840afee7984cf3f58f6dd26dac
-ms.openlocfilehash: 8832235ffdc8cd0b5b3eec244315711cfa59e069
+ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
+ms.openlocfilehash: 28062ec58760a793d0e19f281efd026c3d8070da
 
 
 ---
@@ -60,6 +60,6 @@ ms.openlocfilehash: 8832235ffdc8cd0b5b3eec244315711cfa59e069
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 

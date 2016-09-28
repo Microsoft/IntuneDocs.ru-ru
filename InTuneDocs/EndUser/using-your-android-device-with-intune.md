@@ -4,7 +4,7 @@ description: "Список ссылок на задачи, которые мож
 keywords: 
 author: staciebarker
 manager: angrobe
-ms.date: 07/26/2016
+ms.date: 09/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 63f86f135d369d8c96903c0add1e194fd9d5ded2
-ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
+ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
+ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
 
 
 ---
@@ -68,9 +68,11 @@ ms.openlocfilehash: e98aa19d38af47ba2d19a2a67b7a836796aded2a
 - [Вам предложено отключить режим отладки по USB.](you-are-asked-to-turn-off-usb-debugging-android.md)
 - [Вам предложено включить проверку устройств на предмет угроз безопасности.](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
 - [На устройстве отсутствует минимальная версия исправления безопасности.](your-device-does-not-meet-the-minimum-security-patch-android.md)
+- [Вам предложено установить Lookout for Work на устройстве Android](you-are-prompted-to-install-lookout-for-work-android.md)
+- [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 

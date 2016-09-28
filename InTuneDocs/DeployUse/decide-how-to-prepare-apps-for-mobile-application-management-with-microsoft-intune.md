@@ -4,23 +4,23 @@ description: "Сведения этого раздела помогут реши
 keywords: 
 author: karthikaraman
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 09/13/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
-ms.reviewer: jeffgilb
+ms.reviewer: oldang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: d2d11cc8bed7575b2fe818c9aa5b2359a62a77e0
+ms.sourcegitcommit: 70f9fb5580b114fe1ba14a1bd05de58467d5cd00
+ms.openlocfilehash: b5dd5bec0910a8ce3a940b5ed288907aba0f7ee4
 
 
 ---
 
 # Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune
-Можно позволить приложениям использовать политики управления мобильными приложениями, используя инструмент упаковки приложений Intune или пакет SDK для приложений Intune. Используйте приведенные сведения для изучения этих двух методов и способов их использования.
+Можно позволить приложениям использовать политики управления мобильными приложениями (MAM), используя инструмент упаковки приложений Intune или пакет SDK для приложений Intune. Используйте приведенные сведения для изучения этих двух методов и способов их использования.
 
 ## Инструмент упаковки приложений Intune
 Инструмент упаковки приложений используется в основном для внутренних бизнес-приложений. Инструмент представляет собой приложение командной строки, которое создает оболочку вокруг приложения, что позволяет управлять приложением с помощью политики управления мобильными приложениями Intune. Для использования инструмента исходный код не требуется, однако необходимы учетные данные подписи.  Дополнительные сведения об учетных данных подписи см. в [блоге Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/). Документацию по инструменту упаковки приложений см. в статьях [Инструмент упаковки приложений Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) и [Инструмент упаковки приложений iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md).
@@ -29,10 +29,24 @@ ms.openlocfilehash: d2d11cc8bed7575b2fe818c9aa5b2359a62a77e0
 
 Инструмент упаковки приложений следует использовать вместо пакета SDK, если приложение уже было записано или исходный код недоступен.
 
+** Инструмент упаковки приложений для MAM на устройствах, которые не зарегистрированы в Intune, сейчас поддерживается в рамках общедоступной предварительной версии. Дополнительные сведения см. в статье [Защита бизнес-приложений на устройствах, на незарегистрированных в Intune](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)**.
+
+### Поддерживаемые платформы
+
+|**Инструмент упаковки приложений** | **Xamarin** |**Cordova** |
+|------|----|----|
+|**iOS** |да|да|
+|**Android**| Нет |да|
 ## Пакет SDK для приложений Intune
 Пакет SDK для приложений предназначен главным образом для клиентов, имеющих приложения в Магазине приложений или Google Play и стремящихся управлять приложениями с помощью Intune. Однако преимуществами интеграции пакета SDK может воспользоваться любое приложение, даже бизнес-приложение.
 
 Дополнительные сведения о пакете SDK см. в разделе [Обзор](/intune/develop/intune-app-sdk). Сведения о начале работы с пакетом SDK см. в статье [Начало работы с пакетом SDK для приложений Microsoft Intune](/intune/develop/intune-app-sdk-get-started).
+
+### Поддерживаемые платформы
+|**Пакет SDK для приложений Intune** |**Xamarin** |**Cordova**
+|------|----|----|
+|**iOS**|Да, используйте компонент Xamarin из пакета SDK для приложений Intune|Да, используйте подключаемый модуль Cordova из пакета SDK для приложений Intune|
+|**Android**| Да, используйте компонент Xamarin из пакета SDK для приложений Intune|Да, используйте подключаемый модуль Cordova из пакета SDK для приложений Intune|
 
 ## Сравнение функций
 В этой таблице перечислены параметры, которые можно использовать для пакета SDK приложений и инструмента упаковки приложений.
@@ -61,14 +75,14 @@ ms.openlocfilehash: d2d11cc8bed7575b2fe818c9aa5b2359a62a77e0
 |выборочная очистка; <br></br>**Примечание.** При удалении профиля управления для iOS удаляется и приложение.|X||
 |Запретить "Сохранить как" |X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||
-
 ### См. также
+
 [Инструмент упаковки приложений Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</br>
 [Инструмент упаковки приложений iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</br>
 [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO2-->
 
 

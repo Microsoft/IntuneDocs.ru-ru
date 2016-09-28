@@ -4,7 +4,7 @@ description: "В этом разделе описывается, как испо
 keywords: 
 author: karthikaraman
 manager: angrobe
-ms.date: 06/16/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 536d34e618efdc78b3103a3b1b36f13fb784781c
+ms.sourcegitcommit: 99b01f5ca5bb389fc8a9d87e956796823fee6c0d
+ms.openlocfilehash: 6e11d71265f01ae31ab3124a46aaa544ad2f453a
 
 
 ---
@@ -65,6 +65,6 @@ ms.openlocfilehash: 536d34e618efdc78b3103a3b1b36f13fb784781c
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 

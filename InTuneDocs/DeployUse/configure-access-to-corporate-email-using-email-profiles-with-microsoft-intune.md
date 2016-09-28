@@ -13,8 +13,8 @@ ms.assetid: 10f0cd61-e514-4e44-b13e-aeb85a8e53ae
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d8a4fd4673560d6e2ffb4264ba8d8e56b0e5cb8d
-ms.openlocfilehash: 59b8cc2ad33521fd4575e46d78129c168da757b3
+ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
+ms.openlocfilehash: ef4041b7d9f47d9e1e1463e62274f93597fc6503
 
 
 ---
@@ -31,7 +31,7 @@ ms.openlocfilehash: 59b8cc2ad33521fd4575e46d78129c168da757b3
 Профили электронной почты можно использовать для настройки встроенных почтовых клиентов на устройствах следующих типов:
 -   Windows Phone 8 и более поздней версии.
 -   Windows 10 (для компьютеров), Windows 10 Mobile или более поздние версии
--   iOS 7.1 и более поздние версии
+-   Устройства iOS 8.0 и более поздней версии
 -   Samsung KNOX Standard (4.0 и более поздние версии)
 
 Помимо настройки учетной записи электронной почты на устройстве можно настроить параметры синхронизации, например объем электронной почты для синхронизации и, в зависимости от типа устройства, типы содержимого для синхронизации.
@@ -71,7 +71,7 @@ ms.openlocfilehash: 59b8cc2ad33521fd4575e46d78129c168da757b3
 
     -   **Профиль электронной почты для Samsung KNOX Standard (4.0 и более поздней версии)**
 
-    -   **Профиль электронной почты (iOS 7.1 и более поздние версии)**
+    -   **Профиль электронной почты (iOS 8.0 и более поздние версии)**
 
     -   **Профиль электронной почты (Windows Phone 8 и более поздней версии)**
 
@@ -122,6 +122,6 @@ ms.openlocfilehash: 59b8cc2ad33521fd4575e46d78129c168da757b3
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Sep16_HO3-->
 
 

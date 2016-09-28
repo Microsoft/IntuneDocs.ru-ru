@@ -4,7 +4,7 @@ description: "Сведения о веб-сайте корпоративного
 keywords: 
 author: Staciebarker
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 09/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: 558840491a701347e23697cee22c52c1218bc6af
+ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
+ms.openlocfilehash: f44f4785f768e6fea8532199b28d3621248e2dd4
 
 
 ---
@@ -50,6 +50,6 @@ ms.openlocfilehash: 558840491a701347e23697cee22c52c1218bc6af
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO3-->
 
 
