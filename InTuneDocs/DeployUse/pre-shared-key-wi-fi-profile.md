@@ -13,8 +13,8 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
-ms.openlocfilehash: daecea644300ee1e47db9b028b72d71b3211f46d
+ms.sourcegitcommit: b7f11f752f6c38736a2dfa5875050f50bd86bae4
+ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
 
 
 
@@ -64,9 +64,10 @@ ms.openlocfilehash: daecea644300ee1e47db9b028b72d71b3211f46d
 
 > [!IMPORTANT]
 > 
-> `<protected>false</protected>`. Задайте значение **false**, так как при установке значения **true** устройство будет ожидать зашифрованный пароль и затем попытается расшифровать его, что может привести к сбою подключения.
+> `<protected>false</protected>`необходимо задать значение **false**, так как при установке значения **true** устройство может ожидать зашифрованный пароль и затем попытается расшифровать его, что может привести к сбою подключения.
 > 
 >  `<hex>53534944</hex>` должно быть присвоено шестнадцатеричное значение `<name><SSID of wifi profile></name>`.
+>  Устройства с Windows 10 могут возвращать ложную ошибку *0x87D1FDE8: сбой исправления*. При этом устройство все равно будет подготовлено с указанным профилем.
 
     <!--
     <Name of wifi profile> = Name of profile
