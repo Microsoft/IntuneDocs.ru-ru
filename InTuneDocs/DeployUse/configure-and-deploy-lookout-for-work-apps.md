@@ -12,8 +12,8 @@ ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c4d05b9ba7249e4068d21480b1c9db342277757e
-ms.openlocfilehash: 687a102ccb34cb7acfaab1e8a1d4b67cb54b9e92
+ms.sourcegitcommit: ceaeba74f8671caf4125252fce02fd06752c3fe8
+ms.openlocfilehash: 46a6b836e344c9cf876d633f868753a49c0cd440
 
 
 ---
@@ -37,9 +37,9 @@ ms.openlocfilehash: 687a102ccb34cb7acfaab1e8a1d4b67cb54b9e92
 
 **Чтобы развернуть приложение для пользователей**, выберите приложение Lookout for Work (показанное на снимке выше) и щелкните **Управление развертыванием**.
 
-Необходимо выбрать тех же пользователей, которые были добавлены в разделе Enrollment Management (Управление регистрацией) в консоли Lookout MTP.  См. шаг 3 в разделе [Настройка службы Lookout MTP в подписке](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp), где приводятся сведения о добавлении групп пользователей в Lookout MTP.
+Необходимо выбрать тех же пользователей, которые были добавлены в разделе Enrollment Management (Управление регистрацией) в консоли Lookout.  См. шаг 3 в разделе [Настройка службы защиты от угроз на устройствах Lookout в подписке](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp), где приводится информация о добавлении групп пользователей в Lookout MTP.
 >[!IMPORTANT]
-> Мастер развертывания приложений Intune не обладает информацией о группах пользователей Azure AD и вместо этого использует группы пользователей Intune. Поэтому вам необходимо создать группу пользователей Intune на основе группы пользователей Azure AD, зарегистрированной в консоли MTP, как описано в [этой](plan-your-user-and-device-groups.md) статье.
+> Мастер развертывания приложений Intune не обладает информацией о группах пользователей Azure AD и вместо этого использует группы пользователей Intune. Поэтому вам необходимо создать группу пользователей Intune на основе группы пользователей Azure AD, зарегистрированной в консоли Lookout, как описано в [этой](plan-your-user-and-device-groups.md) статье.
 
 Выберите вариант **Обязательная установка**, чтобы система требовала от пользователей установить приложение Lookout на устройства.
 
@@ -57,6 +57,6 @@ ms.openlocfilehash: 687a102ccb34cb7acfaab1e8a1d4b67cb54b9e92
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 
