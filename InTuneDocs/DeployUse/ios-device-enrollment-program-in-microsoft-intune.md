@@ -13,8 +13,8 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e2daff5dae435df55c866adbf602f554500d50e0
-ms.openlocfilehash: e898d070eb61583ff379821c9bf24f3997ae177e
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: d06d6e7de5c2e30ae8078642184ad8cfadf15be4
 
 
 ---
@@ -102,10 +102,10 @@ Microsoft Intune позволяет развертывать профиль ре
 Начиная с ноября управление группами устройств будет перемещено в Azure Active Directory. После перехода на группы Azure Active Directory интерфейс для назначения групп не будет отображаться в параметрах **Профиль регистрации в среде организации**. Поскольку это изменение будет внедряться в течение нескольких месяцев, изменения могут отобразиться не сразу. После перехода на новый портал новое динамическое назначение для групп устройств можно определить на основе имени профиля регистрации в среде организации. Этот процесс гарантирует, что устройства, предварительно назначенные группе устройств, будут автоматически зарегистрированы в группе с развернутыми приложениями и политиками. [Узнайте больше о группах Azure Active Directory.](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)
 
 ### См. также
-[Подготовка к регистрации устройств](get-ready-to-enroll-devices-in-microsoft-intune.md)
+[Предварительные требования для регистрации устройств](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 

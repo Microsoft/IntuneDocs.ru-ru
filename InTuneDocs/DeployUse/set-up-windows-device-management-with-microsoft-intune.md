@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ebb1648ab13d31a2ba1ab17615814be8dda8a08c
-ms.openlocfilehash: 9b063c1e6b1ff5dcab16fce958ede49303284b18
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 149508942b89b15308591e17723884add3ac78ae
 
 
 ---
@@ -32,7 +32,7 @@ ms.openlocfilehash: 9b063c1e6b1ff5dcab16fce958ede49303284b18
 Вы можете разрешить пользователям регистрировать свои устройства посредством установки приложения корпоративного портала Intune. Создание DNS CNAME помогает пользователям подключиться к Intune и выполнять регистрацию без ввода имени сервера.
 
 1. **Настройка Intune**<br>
-Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
+Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
 
 2. **Создание записей CNAME** (необязательно)<br>Создайте запись ресурсов **CNAME** DNS для домена вашей организации, чтобы упростить регистрацию. Хотя создание записей CNAME DNS и не является обязательным, оно упрощает процедуру регистрации для пользователей. При отсутствии записи CNAME для регистрации пользователям предлагается вручную ввести имя сервера MDM `https://manage.microsoft.com`.  Записи ресурсов CNAME должны содержать следующие сведения:
 
@@ -60,10 +60,10 @@ ms.openlocfilehash: 9b063c1e6b1ff5dcab16fce958ede49303284b18
       - [Руководство конечного пользователя для устройств с Windows](../enduser/using-your-windows-device-with-intune.md)
 
 ### См. также
-[Подготовка к регистрации устройств в Microsoft Intune](get-ready-to-enroll-devices-in-microsoft-intune.md)
+[Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

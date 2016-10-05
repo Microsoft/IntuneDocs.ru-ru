@@ -13,8 +13,8 @@ ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 727d28cff074124b5401f6c2931f87df3a9d2d23
-ms.openlocfilehash: 93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: c4b1e5d3bb8b949096f7d15ddbbf0d1540485d0d
 
 
 ---
@@ -46,7 +46,7 @@ ms.openlocfilehash: 93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d
 С помощью управляемых приложений iOS из магазина приложений можно управлять приложениями iOS и развертывать их бесплатно. Также с помощью управляемых приложений iOS можно связать [политики управления мобильными приложениями](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md) с [совместимыми приложениями](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx) и просмотреть их состояние в консоли администрирования.<br /><br />Управляемые приложения iOS не хранятся в облачном хранилище Intune.
 
 > [!TIP]
-> Параметры мобильных устройств становятся доступными только после [настройки Intune в качестве центра MDM](get-ready-to-enroll-devices-in-microsoft-intune.md).
+> Параметры мобильных устройств становятся доступными только после [настройки Intune в качестве центра MDM](prerequisites-for-enrollment.md).
 
 ## Издатель ПО Intune
 При добавлении или изменении приложений в консоли администрирования Intune происходит запуск издателя ПО Microsoft Intune. В программе "Издатель" можно выбрать тип установщика программного обеспечения для выполнения следующих действий:
@@ -82,6 +82,6 @@ ms.openlocfilehash: 93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 06d6c8ce97ba6a259055e94f0eba87f7c5a96531
-ms.openlocfilehash: e61e764f4761ab83500ff6f0febe253d427729d9
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 263fb9add8d30c0f98af46e46b566f15513db109
 
 
 ---
@@ -22,10 +22,10 @@ ms.openlocfilehash: e61e764f4761ab83500ff6f0febe253d427729d9
 # Настройка управления устройствами в iOS и Mac
 Инструкции по настройке устройства iOS или Mac см. [здесь](../enduser/using-your-ios-or-mac-os-x-device-with-intune.md).
 
-Управление мобильными устройствами iPad, iPhone и Mac OS X с помощью Intune позволяет предоставлять доступ к корпоративной электронной почте и приложениям. Для управления устройствами iOS и Mac с помощью Intune требуется сертификат службы push-уведомлений Apple (APNs). После добавления этого сертификата в Intune пользователи смогут установить приложение корпоративного портала для регистрации своих устройств. Или же администратор сможет настроить [управление корпоративными устройствами iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
+Intune позволяет управлять мобильными устройствами iPad, iPhone и Mac OS X, а также предоставляет пользователям доступ к корпоративной электронной почте и приложениям. Для управления устройствами iOS и Mac с помощью Intune требуется сертификат службы push-уведомлений Apple (APNs). После добавления этого сертификата в Intune пользователи смогут установить приложение корпоративного портала для регистрации своих устройств. Или же администратор сможет настроить [управление корпоративными устройствами iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
 1.  **Настройка Intune**<br>
-    Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
+    Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
 
 2.  **Получение запроса подписи сертификата**<br>
     Используя учетную запись с правами администратора, откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com), перейдите в меню **Администрирование** &gt; **Управление мобильными устройствами** &gt; **iOS и Mac OS X** &gt; **Отправка сертификата APNs** и щелкните **Скачать запрос на сертификат APNs**. Сохраните файл запроса на подписывание сертификата (CSR-файл) локально. CSR-файл используется для запроса сертификата отношений доверия с портала сертификатов push-уведомлений Apple.
@@ -48,10 +48,10 @@ ms.openlocfilehash: e61e764f4761ab83500ff6f0febe253d427729d9
 Если ваша организация приобретает устройства iOS для пользователей, эти устройства также могут быть зарегистрированы для управления как [корпоративные устройства iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
 ### См. также
-[Подготовка к регистрации устройств в Microsoft Intune](get-ready-to-enroll-devices-in-microsoft-intune.md)
+[Предварительные требования для регистрации с помощью Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO4-->
 
 

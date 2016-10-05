@@ -13,8 +13,8 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d40ec3b5b7c5c4ee2cfd48a95ada0dadcaa80be4
-ms.openlocfilehash: 077029a962797a18fab27c3f1f5340eae6edfe04
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 8eee27e0c24e353143ce2014b65dc91af2c04843
 
 
 ---
@@ -28,7 +28,7 @@ ms.openlocfilehash: 077029a962797a18fab27c3f1f5340eae6edfe04
 
 ## Перед началом работы
 Перед началом синхронизации и развертывания приложений из Магазина Windows для бизнеса, ознакомьтесь со приведенными далее сведениями.
-* Необходимо настроить Intune в качестве центра управления мобильными устройствами для вашей организации. Дополнительные сведения см. в статье [Подготовка к регистрации устройств в Microsoft Intune](get-ready-to-enroll-devices-in-microsoft-intune.md).
+* Необходимо настроить Intune в качестве центра управления мобильными устройствами для вашей организации. Дополнительные сведения см. в разделе [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md).
 * Необходимо иметь действительную учетную запись Магазина Windows для бизнеса.
 * После привязки учетной записи Магазина Windows для бизнеса к Intune вы не сможете выбрать другую учетную запись в будущем.
 * Приобретенные в Магазине приложения нельзя вручную добавить или удалить в Intune. Их можно только синхронизировать с Магазином Windows для бизнеса.
@@ -77,6 +77,6 @@ ms.openlocfilehash: 077029a962797a18fab27c3f1f5340eae6edfe04
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO4-->
 
 

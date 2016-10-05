@@ -13,8 +13,8 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3d737c44e3586a4339a324dcb6701f7c86a29d01
-ms.openlocfilehash: 3bf0e6f8bc010c23712f9908cff7d515c2c62671
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 68ae3b90977e73c49b21d3196100f73d11549b63
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: 3bf0e6f8bc010c23712f9908cff7d515c2c62671
 Как администратор Intune, вы можете включить управление устройствами Android из корпоративного портала. После этого пользователи могут зарегистрировать свои устройства с помощью доступного в Google Play приложения корпоративного портала.
 
 1.  **Настройка Intune**<br>
-    Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
+    Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#set-mobile-device-management-authority) службу **Microsoft Intune** и настроив MDM.
 
 2.  **Включение регистрации устройств Android**<br>
     Для регистрации мобильных устройств Android никакие дополнительные настройки в консоли Intune не требуются.
@@ -36,10 +36,10 @@ ms.openlocfilehash: 3bf0e6f8bc010c23712f9908cff7d515c2c62671
   - [Руководство конечного пользователя для устройств с Windows](../enduser/using-your-android-device-with-intune.md)
 
 ### См. также
-[Подготовка к регистрации устройств в Microsoft Intune](get-ready-to-enroll-devices-in-microsoft-intune.md)
+[Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

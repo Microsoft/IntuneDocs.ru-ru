@@ -13,8 +13,8 @@ ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
-ms.openlocfilehash: 18614cc272323b8031c94b8e582f80aa5c06d9d3
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 07ed8c922d53169839bba50547f56bbc979d58ac
 
 
 ---
@@ -31,7 +31,7 @@ ms.openlocfilehash: 18614cc272323b8031c94b8e582f80aa5c06d9d3
 |---------------|--------------------|
 |Операционные системы|Intune поддерживает локальный соединитель Exchange на компьютере под управлением любого 64-разрядного выпуска Windows Server 2008 с пакетом обновления 2 (SP2), Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2.<br /><br />Соединитель не поддерживается ни в какой установке Server Core.|
 |Версия Microsoft Exchange|Локальный соединитель требует использования Microsoft Exchange 2010 с пакетом обновления 1 (SP1) или более поздней версии либо старой выделенной среды Exchange Online. Чтобы определить, используется ли в вашей выделенной среде Exchange Online **новая** или **устаревшая** конфигурация, обратитесь к своему менеджеру по работе с клиентами.|
-|Центр управления мобильными устройствами| [Установите Intune в качестве центра управления мобильными устройствами](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority).|
+|Центр управления мобильными устройствами| [Установите Intune в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#set-mobile-device-management-authority).|
 |Оборудование|Компьютер, на котором устанавливается соединитель, должен иметь ЦП с частотой 1,6 ГГц, 2 ГБ ОЗУ и 10 ГБ свободного дискового пространства.|
 |Синхронизация Active Directory|Прежде чем использовать любой соединитель для подключения Intune к Exchange Server, необходимо [настроить синхронизацию Active Directory](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
 |Дополнительное программное обеспечение|На компьютере, на котором размещен соединитель, необходимо выполнить полную установку платформы Microsoft .NET Framework 4 и Windows PowerShell 2.0.|
@@ -131,6 +131,6 @@ ms.openlocfilehash: 18614cc272323b8031c94b8e582f80aa5c06d9d3
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

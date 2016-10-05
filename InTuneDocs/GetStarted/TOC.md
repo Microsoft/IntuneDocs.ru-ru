@@ -11,6 +11,12 @@
 ### [Использование пропускной способности сети](network-bandwidth-use.md)
 ### [Имена личных доменов](domain-names-for-microsoft-intune.md)
 
+## [Выбор способа управления устройствами](choose-how-to-manage-devices.md)
+### [Возможности управления зарегистрированными устройствами](mobile-device-management-capabilities-in-microsoft-intune.md)
+### [Возможности программного клиента Intune для ПК](windows-pc-management-capabilities-in-microsoft-intune.md)
+
+## [Переход на Intune](migrate-to-intune.md)
+
 ## [Руководство по быстрому запуску Intune](start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [Вход в Intune](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 ### [Настройка имени домена](start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
@@ -22,10 +28,6 @@
 ### [Регистрация мобильных устройств и установка приложения](start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [Задачи, выполняемые после настройки](post-configuration-tasks.md)
 
-## [Выбор способа управления устройствами](choose-how-to-manage-devices.md)
-### [Возможности управления зарегистрированными устройствами](mobile-device-management-capabilities-in-microsoft-intune.md)
-### [Возможности программного клиента Intune для ПК](windows-pc-management-capabilities-in-microsoft-intune.md)
-
 ## [Этапы развертывания для Intune](rollout-phases-for-microsoft-intune-deployment.md)
 ### [Определение области проекта](project-scope.md)
 ### [Подтверждение концепции](proof-of-concept.md)
@@ -34,11 +36,12 @@
 ### [Использование и обслуживание](operations-and-maintenance.md)
 
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
+# [Что нового](/intune/whats-new/whats-new-in-microsoft-intune)
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO5-->
 
 

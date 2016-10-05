@@ -13,8 +13,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 226376601fdd381839ca389fd012e4bc462abfd5
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: d8d64fcdd783401fd41415702d5ff4ae18215cca
 
 
 ---
@@ -28,7 +28,7 @@ ms.openlocfilehash: 226376601fdd381839ca389fd012e4bc462abfd5
 
 Прежде чем приступать к устранению неполадок, убедитесь, что в Intune должным образом настроена регистрация. О требованиях к настройке можно прочитать в следующих разделах.
 
--   [Подготовка к регистрации устройств в Microsoft Intune](/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune)
+-   [Подготовка к регистрации устройств в Microsoft Intune](/intune/deploy-use/gprerequisites-for-enrollment.md)
 -   [Настройка управления устройствами в iOS и Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
 -   [Настройка управления устройствами Windows 10 Mobile и Windows Phone с помощью Microsoft Intune](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
 -   [Настройка управления устройствами Windows](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
@@ -69,9 +69,9 @@ ms.openlocfilehash: 226376601fdd381839ca389fd012e4bc462abfd5
 
 3.  Создайте подписку Azure, если у вас ее нет. Если у вас платная учетная запись, кредитная карта или оплата не потребуются (щелкните ссылку **Зарегистрировать бесплатную подписку Azure Active Directory**).
 
-4.  Выберите **Active Directory** , а затем выберите вашу организацию.
+4.  Выберите **Active Directory**, а затем выберите вашу организацию.
 
-5.  Откройте вкладку **Пользователи** .
+5.  Откройте вкладку **Пользователи**.
 
 6.  Выберите пользователя, устройства которого требуется удалить.
 
@@ -306,6 +306,6 @@ ms.openlocfilehash: 226376601fdd381839ca389fd012e4bc462abfd5
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO4-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 51fba2b01d8978bc062c50c4388714609be0fdf0
-ms.openlocfilehash: 66dc46eb9dc1010b8c176ccfdea68b9a6e4b0618
+ms.sourcegitcommit: dc767abc733457d975b61b96e21781952f79c6f9
+ms.openlocfilehash: fb99e78261b678ef776f992d5abfd2ba0555d4da
 
 
 ---
@@ -58,7 +58,7 @@ ms.openlocfilehash: 66dc46eb9dc1010b8c176ccfdea68b9a6e4b0618
 ## Установка ранее развернутого приложения
 На мобильном устройстве откройте корпоративный портал, выберите **Приложения**, а затем установите **Microsoft Skype**.
 
-Дополнительные сведения об управлении мобильными устройствами с помощью Intune см. в разделе [Подготовка к регистрации устройств в Microsoft Intune](/Intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune).
+Дополнительные сведения об управлении мобильными устройствами с помощью Intune см. в разделе [Подготовка к регистрации устройств в Microsoft Intune](/Intune/deploy-use/prerequisites-for-enrollment).
 
 ### Дальнейшие действия
 Поздравляем! Вы завершили шаг 5 пошагового руководства по *ознакомительной версии Microsoft Intune*.
@@ -69,6 +69,6 @@ ms.openlocfilehash: 66dc46eb9dc1010b8c176ccfdea68b9a6e4b0618
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Sep16_HO5-->
 
 
