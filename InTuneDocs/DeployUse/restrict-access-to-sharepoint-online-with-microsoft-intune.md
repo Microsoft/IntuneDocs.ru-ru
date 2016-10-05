@@ -13,8 +13,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4f98937d7adfc0c1584625303da3350785af8169
-ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
+ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
+ms.openlocfilehash: ba7e7e19966ce3ad582c8a520b7c9174dba76bf5
 
 
 ---
@@ -32,14 +32,10 @@ ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
 
 ![На схеме показаны точки принятия решений, используемые для выбора между разрешением доступа к SharePoint и блокировкой устройства. ](../media/ConditionalAccess8-6.png)
 
->[!IMPORTANT]
->Функция условного доступа для ПК и устройств на базе Windows 10 Mobile с приложениями, использующими современную проверку подлинности, сейчас доступна не всем клиентам Intune. Если вы уже используете эти функции, никаких дополнительных действий не требуется. Просто продолжайте пользоваться ими.
-
->Если вы еще не создали политики условного доступа для компьютеров или устройств Windows 10 Mobile с приложениями, использующими современную проверку подлинности, и хотите сделать это, зарегистрируйтесь для получения бесплатной пробной версии Azure Active Directory, в которую входит условный доступ на основе устройств для устройств, управляемых Intune, или компьютеров с Windows, присоединенных к домену. Дополнительные сведения см. в [этой записи блога](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/).
 
 **Перед** настройкой политики условного доступа для SharePoint Online необходимо выполнить следующие условия:
 - Получить **подписку SharePoint Online**, а пользователи должны иметь лицензию на SharePoint Online.
-- Получить подписку на **Enterprise Mobility Suite** или **Azure Active Directory Premium**.
+- Требуется **подписка Azure Active Directory Premium**. Дополнительные сведения см. на странице [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/). **Подписка Enterprise Mobility Suite + Security** включает в подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility Suite](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing).
 
   Для подключения к необходимым файлам устройство должно удовлетворять следующим требованиям:
 -   **Регистрация** в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] или на ПК, присоединенном к домену.
@@ -61,6 +57,7 @@ ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
 
 >[!NOTE]
 >Если вы включили условный доступ для SharePoint Online, то рекомендуется отключить домен в списке, как описано в разделе [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx).  
+
 ## Поддержка мобильных устройств
 - Устройства iOS 8.0 и более поздней версии
 - Android 4.0 и более поздние версии, Samsung KNOX Standard 4.0 и более поздние версии
@@ -75,7 +72,9 @@ ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
 
 ## Поддержка для ПК
 - Windows 8.1 и более поздней версии (при регистрации Intune);
-- Windows 7.0 или Windows 8.1 (при присоединении к домену)
+- Windows 7.0, Windows 8.1 или Windows 10 (при присоединении к домену)
+> [!NOTE]
+>Чтобы использовать условный доступ с компьютерами под управлением Windows 10, необходимо установить на них юбилейное обновление Windows 10.
 
   - Для ПК, присоединенных к домену, необходимо задать [автоматическую регистрацию](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-automatic-device-registration/) в Azure Active Directory.
 Служба AAD DRS активируется автоматически для клиентов Intune и Office 365. Клиенты, которые уже развернули службу регистрации устройств ADFS, не будут видеть зарегистрированные устройства в своем локальном Active Directory.
@@ -122,6 +121,10 @@ ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
 
 #### <a name="bkmk_spopolicy"></a>
 
+>[!NOTE]
+> Можно также создать политику условного доступа в консоли управления Azure AD. Консоль управления Azure AD позволяет создавать политики условного доступа для устройств Intune (в Azure AD их называют **политиками условного доступа на основе устройств**), а также другие политики условного доступа, такие как многофакторная проверка подлинности.  Можно также задать политики условного доступа для сторонних корпоративных приложений, таких как Salesforce и Box, которые поддерживает Azure AD. Дополнительные сведения см. в разделе [Настройка политики условного доступа на основе устройств Azure Active Directory для контроля доступа к подключенным приложениям Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-policy-connected-applications/).
+
+
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** > **Условный доступ** > **Политика SharePoint Online**.
 ![Снимок экрана для страницы политики SharePoint Online](../media/mdm-ca-spo-policy-configuration.png)
 
@@ -136,8 +139,6 @@ ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
         Выбор варианта **Все платформы** означает, что Azure Active Directory будет применять эту политику ко всем запросам проверки подлинности независимо от платформы, о которой сообщает клиентское приложение.  Все платформы должны быть зарегистрированными и соответствующими со следующими исключениями.
         *   Устройства Windows должны быть зарегистрированными и соответствующими, присоединенными к домену с локальным каталогом Active Directory, либо для них могут выполняться оба условия.
         * Неподдерживаемые платформы, такие как Mac OS.  Однако приложения, использующие современные способы проверки подлинности, реализованные в этих платформах, будут блокироваться.
-        >[!TIP]
-        >Этот параметр может не отображаться, если вы еще не используете условный доступ для ПК.  Используйте вместо него параметр **Определенные платформы**. Сейчас условный доступ для ПК доступен не для всех клиентов Intune.   Дополнительные сведения о том, как получить доступ к этой функции, см. [в этой записи блога](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/).
 
     -   **Определенные платформы**
 
@@ -192,6 +193,6 @@ ms.openlocfilehash: 84c9d355fde49fd18899a43ed0def0c801694291
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO5-->
 
 
