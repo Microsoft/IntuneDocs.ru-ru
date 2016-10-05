@@ -13,8 +13,8 @@ ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: de3296e81c88b3ac04e3ba3f3d3ca222a59df7bd
-ms.openlocfilehash: 1aabf820170483eacc83bec5e2b275e84dc07ffd
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: a6438bb3ca21e5c46dca5ebe69266fd9bce9a4b8
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: 1aabf820170483eacc83bec5e2b275e84dc07ffd
 |Требование|Дополнительные сведения|
 |---------------|--------------------|
 |Настроенная и запущенная служба Exchange Online|[Exchange Online](https://technet.microsoft.com/library/jj200580.aspx) |
-|Центр управления мобильными устройствами| [Задайте Microsoft Intune в качестве центра управления мобильными устройствами.](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)|
+|Центр управления мобильными устройствами| [Задайте Microsoft Intune в качестве центра управления мобильными устройствами.](prerequisites-for-enrollment.md#set-mobile-device-management-authority)|
 |Версия Microsoft Exchange|Exchange Online или новая служба выделенной среды Exchange Online|
 |Синхронизация Active Directory|Прежде чем использовать любой соединитель Intune, необходимо [настроить синхронизацию Active Directory](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
 
@@ -64,6 +64,6 @@ Service To Service Connector автоматически настроится и 
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Sep16_HO4-->
 
 

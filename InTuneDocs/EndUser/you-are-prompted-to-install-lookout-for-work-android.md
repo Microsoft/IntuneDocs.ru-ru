@@ -12,8 +12,8 @@ ms.technology:
 ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 5c522c12325925c45f47bc7b521e3d8aa87454f4
-ms.openlocfilehash: d4ffed6fa0a2380ebfc5c4cf9999233635a3469f
+ms.sourcegitcommit: dd08b2e454b14c82e1dd9704617b32ac86ff7790
+ms.openlocfilehash: 53a239f574c327be461663872545bda63ac4b7a5
 
 
 ---
@@ -39,9 +39,9 @@ ms.openlocfilehash: d4ffed6fa0a2380ebfc5c4cf9999233635a3469f
 
     ![откройте Lookout for Work и коснитесь кнопки "Активировать"](./media/lookout-activate-button-android.png)
 
-4. Коснитесь кнопки **Выполнить вход с помощью рабочей учетной записи** и укажите учетную запись, которая используется для доступа к рабочей или учебной электронной почте и файлам.
+4. Коснитесь элемента **Sign in with Azure Active Directory** (Вход с использованием Azure Active Directory) и укажите учетную запись, которая используется для доступа к рабочей или учебной электронной почте и файлам.
 
-    ![войдите с помощью рабочей или учебной учетной записи](./media/lookout-sign-in-android.png)
+    ![войдите с помощью рабочей или учебной учетной записи](./media/lookout-sign-in-azure-android.png)
 
 5. Выберите учетную запись, используемую для доступа к рабочей или учебной электронной почте и файлам, и коснитесь кнопки **ДОБАВИТЬ УЧЕТНУЮ ЗАПИСЬ**.
 
@@ -78,6 +78,6 @@ ms.openlocfilehash: d4ffed6fa0a2380ebfc5c4cf9999233635a3469f
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Sep16_HO4-->
 
 

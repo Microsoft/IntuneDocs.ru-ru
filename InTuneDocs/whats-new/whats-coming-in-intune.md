@@ -2,7 +2,7 @@
 title: "Предстоящие изменения | Microsoft Intune"
 description: 
 keywords: 
-author: Lindavr
+author: barlanmsft
 manager: angrobe
 ms.date: 08/04/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 52b9e786fe22b04081441db88a3629062fc85668
-ms.openlocfilehash: 0949172a7b8517b12fb46e8fd1f8a3cd70d93099
+ms.sourcegitcommit: ecf43b38e9593375981770583220d4ce2dfd709f
+ms.openlocfilehash: b5da0aca366a24f2f0ccf62a3661b0b91db9b01a
 
 
 ---
@@ -113,6 +113,6 @@ Google удаляет возможность для ИТ-администрат�
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO5-->
 
 

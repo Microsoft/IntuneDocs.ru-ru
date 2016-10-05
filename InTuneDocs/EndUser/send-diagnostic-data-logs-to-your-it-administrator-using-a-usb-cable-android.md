@@ -31,7 +31,7 @@ ms.openlocfilehash: e88afa6d8cc2720a001e7ee138e169bd3f1c67fa
 
 2.  Используйте USB-кабель для подключения устройства Android к компьютеру.
 
-3.  На компьютере найдите каталог с именем вашего телефона. В этом каталоге найдите подкаталог &lt;Android Device&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files.\.
+3.  На компьютере найдите каталог с именем вашего телефона. В этом каталоге найдите подкаталог &lt;Android Device&gt;\Phone\Android\data\com.microsoft.windowsintune.companyportal\files\.
 
 4.  Вложите все файлы в сообщение и отправьте их ИТ-администратору.
 

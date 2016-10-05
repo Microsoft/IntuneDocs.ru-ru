@@ -13,8 +13,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e6b182ebab1691c62e69cabaf4689ac7395ab31a
-ms.openlocfilehash: 0995d3ced978f5213fdb0e9905f508b64a1e5c09
+ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
+ms.openlocfilehash: 145d373edd65d7ba01c696c3b851692a13831dad
 
 
 ---
@@ -35,17 +35,24 @@ ms.openlocfilehash: 0995d3ced978f5213fdb0e9905f508b64a1e5c09
 
 | **Метод** |  **Очистка** |  **Сходство**    |   **Блокировка** | **Подробные сведения** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | Нет|    Да |   Нет | [еще](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)|
+|**[BYOD](#byod)** | Нет|    Да |   Нет | [еще](prerequisites-for-enrollment.md#set-up-device-management)|
 |**[DEM](#dem)**|   Нет |Нет |Нет  | [еще](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 |**[DEP](#dep)**|   да |   Необязательно |  Необязательно|[еще](ios-device-enrollment-program-in-microsoft-intune.md)|
 |**[USB-SA](#usb-sa)**| да |   Необязательно |  Нет| [еще](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
 |**[Прямое подключение USB](#usb-direct)**| Нет |    Нет  | Нет|[еще](ios-direct-enrollment-in-microsoft-intune.md)|
 
-**Методы регистрации Windows и Android**
+**Методы регистрации в Windows**
 
 | **Метод** |  **Очистка** |  **Сходство**    |   **Блокировка** | **Подробные сведения**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | Нет|    Да |   Нет | [еще](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)|
+|**[BYOD](#byod)** | да|   Да |   Нет | [еще](prerequisites-for-enrollment.md#set-up-device-management)|
+|**[DEM](#dem)**|   Нет |Нет |Нет  |[еще](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+
+**Методы регистрации в Android**
+
+| **Метод** |  **Очистка** |  **Сходство**    |   **Блокировка** | **Подробные сведения**|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|**[BYOD](#byod)** | Нет|    Да |   Нет | [еще](prerequisites-for-enrollment.md#set-up-device-management)|
 |**[DEM](#dem)**|   Нет |Нет |Нет  |[еще](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 Серия вопросов, которые помогут выбрать правильный метод, см. в разделе [Выбор способа регистрации устройств](/intune/get-started/choose-how-to-enroll-devices1).
@@ -111,6 +118,6 @@ Intune может управлять следующими платформами
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 

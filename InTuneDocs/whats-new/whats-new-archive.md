@@ -2,8 +2,8 @@
 title: "Архив сведений о новых возможностях | Microsoft Intune"
 description: 
 keywords: 
-author: Lindavr
-manager: jeffgilb
+author: barlanmsft
+manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
 ms.prod: 
@@ -13,8 +13,8 @@ ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 805dfa1eeb81f4407066e27f203f315451937f8b
-ms.openlocfilehash: acf502bdf73176450157535577047c9428aabfd1
+ms.sourcegitcommit: ecf43b38e9593375981770583220d4ce2dfd709f
+ms.openlocfilehash: 8b0f393da727b433a926e780d6de42cf7b4c6034
 
 
 ---
@@ -267,6 +267,6 @@ Microsoft automatically collects anonymous data about the performance and use of
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO5-->
 
 
