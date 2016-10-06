@@ -1,5 +1,5 @@
 [Веб-сайт Learning Ally](http://go.microsoft.com/fwlink/?LinkID=239)
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 
