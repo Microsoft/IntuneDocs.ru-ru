@@ -13,8 +13,8 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
-ms.openlocfilehash: 8b68465554946c198a8b5f0fd6cf2a8466c05e40
+ms.sourcegitcommit: db1d43dd647122e7ba8ebd4e6df48e3c970a3392
+ms.openlocfilehash: 0abe3a79135a9b6db14502f1132da0bd1537d445
 
 
 ---
@@ -32,7 +32,8 @@ ms.openlocfilehash: 8b68465554946c198a8b5f0fd6cf2a8466c05e40
 
 **Перед** настройкой политики условного доступа для Skype для бизнеса Online необходимо выполнить следующие условия:
 - Получить **подписку Skype для бизнеса Online** и назначить лицензии Skype для бизнеса Online пользователям.
-- Иметь **подписку Azure AD Premium**. Дополнительные сведения см. на странице [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/). **Подписка Enterprise Mobility Suite + Security** включает в подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility Suite](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing).
+- Получить **подписку Enterprise Mobility + Security или Azure Active Directory Premium**, а пользователи должны иметь лицензии для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/). 
+
 -   [Включение современной проверки подлинности](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune) для Skype для бизнеса Online.
 -  Все пользователи должны использовать **Skype для бизнеса Online**. Если имеется развертывание Skype для бизнеса Online и локальной версии Skype для бизнеса, политика условного доступа для конечных пользователей не применяется.
 
@@ -116,6 +117,6 @@ ms.openlocfilehash: 8b68465554946c198a8b5f0fd6cf2a8466c05e40
 
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO1-->
 
 

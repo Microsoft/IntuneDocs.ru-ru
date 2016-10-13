@@ -1,10 +1,10 @@
 ---
-title: "Предстоящие изменения | Microsoft Intune"
+title: "Ранний выпуск | Microsoft Intune"
 description: 
 keywords: 
 author: barlanmsft
 manager: angrobe
-ms.date: 08/04/2016
+ms.date: 10/05/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,105 +14,112 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ecf43b38e9593375981770583220d4ce2dfd709f
-ms.openlocfilehash: b5da0aca366a24f2f0ccf62a3661b0b91db9b01a
+ms.sourcegitcommit: a5c4b0f15456a9f24c95954d669a17c63f96a459
+ms.openlocfilehash: 273016d4fe114bbe60e9cebc06e89584c8f91f0b
 
 
 ---
 
-# Предстоящие изменения в Microsoft Intune в августе
-Эта информация предоставляется в рамках соглашения о неразглашении, в крайне ограниченном объеме и может изменяться. Некоторые из указанных здесь компонентов могут быть не готовы к сроку, поэтому их выпуск может быть отложен. Другие функции проходят проверку в пилотном проекте, которая должна доказать их готовность для развертывания у клиентов. При наличии любых вопросов или проблем обратитесь к своему контактному лицу по Intune/PM.
+# Предстоящие изменения в Microsoft Intune в октябре
+**Ранний выпуск** содержит список функций, которые будут включены в предстоящие выпуски Microsoft Intune. Эта информация предоставляется в рамках соглашения о неразглашении, в крайне ограниченном объеме и может изменяться. Некоторые из указанных здесь компонентов могут быть не готовы к сроку, поэтому их выпуск может быть отложен. Другие функции проходят проверку в пилотном проекте, которая должна доказать их готовность для развертывания у клиентов. При наличии любых вопросов или проблем обратитесь к своему контактному лицу по Intune/PM.
 
 Эта страница периодически обновляется. Следите за обновлением сведений о предстоящих изменениях.
 
 Следующие изменения находятся в разработке для Intune. В будущем все эти функции будут также поддерживаться в гибридных развертываниях (Configuration Manager с Intune). Дополнительные сведения о новых гибридных функциях см. на [странице новых гибридных функций](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx).
 
+### Управление печатью из приложений, контролируемых политиками MAM
+Теперь можно запретить печать данных организации из приложений, которые имеют политики MAM. Этот параметр доступен на [портале Azure](..deployuse/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md) и поддерживается устройствами с [iOS](..deployuse/ios-mam-policy-settings) и [Android](..deployuse/android-mam-policy-settings).
+<!--TFS 1014328-->
 
-## Управление приложениями
-### Скрытые и отображающиеся приложения для iOS 9.3
-Для защищенных устройств под управлением iOS 9.3 или более поздней версии вы сможете использовать список скрытых и отображающихся приложений в политике общей конфигурации в следующих целях:
-- Указание списка приложений, которые будут скрыты от пользователей. Пользователи будут видеть и не смогут запускать эти приложения.
-- Указание списка приложений, которые пользователи будут видеть и смогут запускать. Другие приложения не будут доступны для просмотра или запуска.
+### Новый корпоративный портал Microsoft Intune доступен для устройств с Windows 10
+Корпорация Майкрософт выпускает новый корпоративный портал Microsoft Intune для устройств с Windows 10. Это приложение, которое использует новый формат Windows 10 Universal, представит пользователю обновленный интерфейс в приложении и аналогичный интерфейс на всех устройствах, компьютерах и мобильных устройствах под управлением Windows 10, при этом оно включает те же функциональные возможности, которые доступны пользователям сейчас.
 
-К числу приложений, которые можно указать, относятся как развернутые, так и встроенные приложения iOS, такие как "Сообщения" и "Заметки".
-<!---TFS 1279009--->
+Это новое приложение также позволит пользователям использовать дополнительные функциональные возможности платформы, такие как единый вход (SSO) и проверка подлинности на основе сертификатов на устройствах с Windows 10. Приложение станет доступно в качестве обновления для существующих установок корпоративного портала Windows 8.1 и Windows Phone 8.1 в Магазине Windows.
+<!--TFS 1016502-->
 
-### Политика разрешенных и заблокированных приложений для устройств Samsung KNOX
+### Поддержка Android for Work
 
-Теперь вы можете настроить пользовательскую политику для устройств Samsung KNOX, которая позволяет создать следующее:
-- Список приложений, запуск которых заблокирован на конкретном устройстве. Даже если такое приложение установлено, его невозможно активировать на устройстве.
-- Список приложений, которые пользователи устройства могут установить из магазина Google Play. Другие приложения невозможно установить из магазина.
+Intune теперь входит в программу [Android for Work](https://enterprise.google.com/android/partners/). Предоставление поддержки для функций Android for Work для Intune начнется в этом месяце.
 
-Эти настройки могут использовать только устройства под управлением Samsung KNOX.
-<!--- For details, see [Use custom policies to allow and block apps for Samsung KNOX devices]( custom-policy-to-allow-and-block-samsung-knox-apps.md)--->
-<!---TFS 1311629 --->
+[Ознакомьтесь с объявлением Майкрософт о поддержке Intune для Android for Work](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/12/microsoft-intune-support-for-android-for-work/).
 
-### Новые приложения, совместимые с политиками системы управления мобильными приложениями (MAM)
-Приложение Yammer для [iOS](https://itunes.apple.com/app/yammer/id289559439?mt=8) и [Android](https://play.google.com/store/apps/details?id=com.yammer.v1) будет совместимо с [политиками системы управления мобильными приложениями Intune (MAM)](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) независимо от того, зарегистрировано устройство или нет.
+<!---This month, some newly provisioned Intune tenants will start seeing the Android for Work features. We will announce later when existing tenants will begin to see this feature.--->
+<!--TFS 1043303-->
 
-Полный список совместимых с MAM приложений см. на сайте [партнеров по приложениям Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
-<!--- TFS 1252335 & 1252336--->
+### Совместимость Android Samsung KNOX с Intune
 
-## Управление устройствами
-### Поддержка Android 7.0
-В августе Intune обеспечит поддержку уровня "день 0" для следующей операционной системы, Android 7.0, для мобильных устройств.
-<!---TFS 1262053--->
-### Удаление возможности удаленного сброса секретного кода на устройствах с Android 7.0 компанией Google
-Google удаляет возможность для ИТ-администраторов и конечных пользователей удаленно сбрасывать секретный код на устройствах с Android 7.0. Ранее ИТ-администраторы могли удаленно сбросить секретный код пользователя, а конечные пользователи могли сбросить свои секретные коды на веб-сайте корпоративного портала.
+Для некоторых моделей телефонов Samsung Galaxy Ace отсутствует возможность управления с помощью Intune в качестве устройств Samsung KNOX. При регистрации этих устройств с помощью Intune управление ими будет осуществляться в качестве стандартных устройств Android.
+Затронутые номера моделей:
 
-## Управление группами
-### Переход групп Intune на группы Azure Active Directory, начиная с сентября 2016 года
-Сейчас Intune создает новый интерфейс управления группами, который использует группы безопасности Azure Active Directory (AAD) в качестве групп пользователей и устройств в Intune. **Когда мы представим новый портал администрирования Intune на основе Azure**, эти группы будут использоваться для управления всеми группами, развертывания политик и профилей.
+* SM-G313HU
+* SM G313HY
+* SM-G313M
+* SM-G313MY
+* SM-G313U
 
-Таким образом, вам не придется дублировать группы в разных службах. **Кроме того, этот интерфейс предоставляет доступ к некоторым новым компонентам группы Azure Active Directory Premium (AADP)** и обеспечивает расширяемость благодаря использованию PowerShell и Graph. Это также унифицирует интерфейс управления группами в решении по управлению корпоративной мобильностью.
+От вас и ваших пользователей дополнительные действия не требуются.
+Дополнительные сведения см. на веб-сайте [Samsung KNOX](https://www.samsungknox.com).
 
-Чтобы обеспечить переход на использование групп безопасности, интерфейс в **текущей консоли администрирования** подвергнется некоторым изменениям. **Сведения об этих изменениях и использовании групп безопасности AAD будут внесены в документацию по Intune**.
+<!--TFS 1173566 iX blurb provided by Barry; requires PM signoff
 
-Пользователи, которые только начали знакомиться с Intune, увидят **некоторые изменения групп безопасности раньше уже имеющихся клиентов**.
+### Multi-factor authentication for Android and iOS enrollment
 
-Помимо изменений в управлении группами **следующие функциональные возможности будут объявлены устаревшими**:
-- исключение участников или групп при создании группы;
-- группы **Несгруппированные пользователи** и **Несгруппированные устройства**;
-- **управление группами** в роли администратора службы;
-- настраиваемые оповещения на основе групп для правил уведомлений;
-- сведение с использованием групп в отчетах.
-<!--- TFS 1295329--->
+In addition to Windows 8.1 and later, administrators can now enable multi-factor authentication for Android and iOS devices in the Microsoft Intune Enrollment application. -->    
 
-## Устаревание служб
-### Приложения "Корпоративный портал" для Windows 8 и Windows Phone 8 устареют в сентябре 2016 года
-Начиная с октября 2016 г., Microsoft Intune прекращает поддержку приложений корпоративного портала для Windows 8 и Windows Phone 8. Кроме того, Microsoft Intune прекращает поддержку платформы Windows Phone 8. Как следствие, вы не сможете регистрировать или обновлять любые устройства Windows Phone 8. Однако вы можете продолжить управление уже зарегистрированными устройствами Windows Phone 8 и Windows 8. Чтобы продолжить беспроблемное распространение приложений на устройства Windows 8 и Windows Phone 8, обновите их до Windows 8.1 и Windows Phone 8.1 и используйте соответствующие приложения "Корпоративный портал" для Windows 8.1 и Windows Phone 8.1.
-<!---TFS 1255391--->
+### Приложение корпоративного портала для Windows 8 устарело; поддержка для платформ Windows Phone 8 и Windows RT прекращена.
+Начиная с октября 2016 г. Microsoft Intune прекращает поддержку корпоративного портала для Windows 8. Кроме того, Microsoft Intune прекращает поддержку платформ Windows Phone 8 и Windows RT. Как следствие, вы не сможете регистрировать или обновлять любые устройства с Windows Phone 8 или Windows RT.
 
-### Устранение ориентирования правил генерации уведомлений на настраиваемые группы
-Правила уведомлений Intune определяют, кому будет отправлено оповещение по электронной почте Intune. В настоящее время можно настроить правила уведомлений для отправки сообщений электронной почты всем пользователям устройств в созданной вами группе устройств Intune. Начиная с июня 2016 года назначение созданных пользователями групп больше не поддерживается.
+Но вы можете продолжить управление уже зарегистрированными устройствами с Windows Phone 8, Windows RT и Windows 8. Чтобы продолжить беспроблемное распространение приложений на устройства Windows 8 и Windows Phone 8, обновите их до Windows 8.1 и Windows Phone 8.1 и используйте соответствующие приложения "Корпоративный портал" для Windows 8.1 и Windows Phone 8.1.
 
-Предварительная временная шкала для этого изменения выглядит следующим образом:
-- В сентябре 2016 года для новых клиентов перестанет отображаться второй шаг мастера создания правил генерации уведомлений. Это не распространяется на имеющихся клиентов.
-- В октябре 2016 года некоторые существующие клиенты перестанут видеть шаг "Выбор групп устройств" в мастере.
-- Позже все существующие клиенты перестанут видеть шаг "Выбор групп устройств" в мастере.
+Начиная с ноября 2016 г. будет прекращена поддержка корпоративного портала Windows Phone 8.
+<!--TFS 1255391-->
 
-<!---   TFS 1278864--->
-### Изменения в поддержке для приложения корпоративного портала iOS
-В сентябре использование последней версии приложения корпоративного портала Microsoft Intune для iOS станет обязательным для всех пользователей. Новые пользователи смогут скачать только последнюю версию, а текущие пользователи должны будут обновить приложение до нее. Для использования последней версии необходима ОС iOS 8.0 или более поздней версии, поэтому на устройствах под управлением более старых версий iOS будет невозможно пользоваться корпоративным порталом и регистрировать устройства. Чтобы это стало возможным, нужно обновить версию iOS до 8.0 или более поздней версии, а затем обновить приложение корпоративного портала до последней версии. Зарегистрированные устройства под управлением iOS с версией ниже 8.0 будут по-прежнему отображаться в консоли администрирования Intune, где ими по-прежнему можно будет управлять.
+### Условный доступ для управления мобильными приложениями
+Теперь вы можете создать политику условного доступа, чтобы заблокировать неуправляемым мобильным приложениям доступ к [Exchange Online](..deployuse/restrict-access-to-exchange-online-with-microsoft-intune.md) и [SharePoint Online](..deployuse/restrict-access-to-sharepoint-online-with-microsoft-intune.md). Также можно заблокировать встроенные почтовые клиенты и приложения, для которых отключена функция MAM в пакете SDK приложения Intune.  Это можно сделать, создав политику условного доступа и указав приложения, которым требуется предоставить доступ к Exchange Online и SharePoint Online с помощью портала Azure.
+<!--TFS 1317673-->
 
-<!---TFS 1283165--->
+<!--TFS 1318014; awaiting approval in notes as to whether to proceed
 
+### "Default" policy is deprecated
 
-### Приложения Intune Viewer
-С выпуском нового приложения для управления RMS-доступом мы удаляем следующие приложения Intune Viewer в августе 2016 года:
-- Intune AV Viewer
-- Intune PDF Viewer
-- Intune Image Viewer для Android в Google Play
+To minimize unintentionally assigned profiles, Intune is removing support for the "default" Corporate Device Enrollment profile for Apple Device Enrollment Program (DEP) device serial numbers in the new Azure console. Serial numbers synchronized from an Apple DEP account will initially have no Corporate Device Enrollment profile assigned.  A profile must be assigned manually after synchronization. This change will apply to the new console only. Until the existing Admin console is retired, no change will take place.
+-->
 
-Вместо приложений Intune Viewer мы рекомендуем использовать новое приложение управления правами (RMS-доступом) для Android, которое позволяет развернуть одно, а не три отдельных приложения для безопасного просмотра корпоративных файлов на устройствах. Дополнительные сведения о [приложении для управления RMS-доступом](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
-<!--- goes in 1608 What's New--->
+<!--TFS 1318023; awaiting approval in notes as to whether to proceed
 
+### Deprecation of row-by-row iOS Details review for iOS device CSV uploads
+
+In order to streamline uploading IMEI numbers for Corporate devices and Apple serial numbers for Configurator enrollment, Intune is removing the row by row review of hardware identifiers already found in the system. This review allows the IT Pro to accept associated Details from the CSV to overwrite the existing details for a hardware identifier already in the system. The review will be replaced by a single option to automatically overwrite Details for all hardware identifiers or ignore new details for existing identifiers. This change will apply to the new console only. Until the existing Admin console is retired, no change will take place.
+-->
+
+### Интеграция Lookout для защиты устройств с iOS
+В октябре Майкрософт интегрируется с решением мобильной защиты от угроз Lookout для защиты мобильных устройств с iOS путем обнаружения вредоносных программ, опасных приложений и многого другого на таких устройствах. Решение Lookout помогает определить настраиваемый уровень угроз. Вы можете создать правило политики соответствия в Intune, чтобы определить соответствие устройств на основе оценки рисков Lookout. Используя политики условного доступа, вы можете разрешить или заблокировать доступ к ресурсам организации на основе состояния соответствия устройства.
+
+Чтобы конечные пользователи не соответствующих политике устройств с iOS могли получить доступ к корпоративным данным, потребуется зарегистрироваться, установить приложение Lookout for Work на устройствах, активировать приложение и устранить угрозы в приложении Lookout for Work.
+<!--TFS 1319493-->
+
+### Пакет SDK приложения Intune и инструмент упаковки для приложения для Android
+Можно позволить приложениям применять политики управления мобильными приложениями (MAM) Intune, используя инструмент упаковки приложений Intune или пакет SDK для приложений Intune. Новые обновления для инструмента упаковки для приложения и пакета SDK содержат следующие возможности.
+
+* Поддержка Android N
+* Поддержка политик Intune MAM без необходимости регистрации устройств
+* Поддержка приложений Android на базе Xamarin
+
+Можно проверить MAM без регистрации устройства и поддержки Xamarin с помощью общедоступной предварительной версии инструмента упаковки приложений Android здесь: [https://github.com/msintuneappsdk/intune-app-wrapper-android-preview](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview).
+<!--TFS 1319511; please create new TFS entry for WN text associated with this TFS item-->
+
+<!--TFS 1319613; no iX review on PM text blurb
+
+### Private preview customers using MAM Conditional Access will have their policies reset
+
+Due to changes in the policy structure for Conditional Access for Mobile App Management, any existing policies that were set by customers through the private preview will be removed. Customers will need to set new policies once the change is made. The timing will coincide with the October service update.
+-->
 
 ### См. также
 См. статью [Новые возможности в Microsoft Intune](whats-new-in-microsoft-intune.md) для ознакомления с нововведениями.
 
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
-ms.openlocfilehash: ee57650e1613030b4b22963890cf648b514e0db3
+ms.sourcegitcommit: db1d43dd647122e7ba8ebd4e6df48e3c970a3392
+ms.openlocfilehash: e840783f3c50155a6f4f8801047ed474074218f6
 
 
 ---
@@ -31,7 +31,7 @@ ms.openlocfilehash: ee57650e1613030b4b22963890cf648b514e0db3
 
 -   Необходимо использовать подписку **Office 365, включающую в себя Exchange Online (например, E3)**, а пользователи должны иметь лицензию на Exchange Online.
 
-- Требуется **подписка Azure Active Directory Premium**. Дополнительные сведения см. на странице [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/). **Подписка Enterprise Mobility Suite + Security** включает в подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility Suite](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing).
+- Получить **подписку Enterprise Mobility + Security или Azure Active Directory Premium**, а пользователи должны иметь лицензии для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
 
 -  Рекомендуется настроить дополнительный соединитель служб **Microsoft Intune Service To Service Connector**, который подключает [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] к Microsoft Exchange Online и позволяет управлять устройствами с помощью консоли [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]. Соединитель не требуется для использования политик соответствия требованиям или политик условного доступа, но необходим для выполнения отчетов, которые помогут оценить влияние условного доступа.
 
@@ -263,6 +263,6 @@ ms.openlocfilehash: ee57650e1613030b4b22963890cf648b514e0db3
 
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO1-->
 
 
