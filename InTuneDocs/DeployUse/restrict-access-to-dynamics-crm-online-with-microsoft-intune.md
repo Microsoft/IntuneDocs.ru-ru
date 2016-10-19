@@ -13,8 +13,8 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: baf87ad746a320784252966398bd665241209935
-ms.openlocfilehash: e82452abd00cf7a06ac501ed4e16bdab423697bd
+ms.sourcegitcommit: db1d43dd647122e7ba8ebd4e6df48e3c970a3392
+ms.openlocfilehash: 233b7cad41fbd35e0fef615737fc41f8a49db35e
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: e82452abd00cf7a06ac501ed4e16bdab423697bd
 
 Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
-[!IMPORTANT] Для развертывания условного доступа требуются подписки на Intune и Azure Active Directory Premium.  Дополнительные сведения об Azure Active Directory Premium см. на странице [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/). **Подписка Enterprise Mobility Suite + Security** включает в подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility Suite](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing).
+[!IMPORTANT] Для развертывания условного доступа требуются подписки на Intune и Azure Active Directory Premium; при этом пользователи должны иметь лицензии на оба продукта. **Подписка Enterprise Mobility + Security (EMS)** включает подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing). Если у вас нет подписки EMS, можно получить подписку для Azure Active Directory Premium. См. [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/). 
 
 Когда целевой пользователь пытается использовать приложение Dynamics CRM на своем устройстве, выполняется следующая оценка:
 
@@ -99,6 +99,6 @@ ms.openlocfilehash: e82452abd00cf7a06ac501ed4e16bdab423697bd
 
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO1-->
 
 
