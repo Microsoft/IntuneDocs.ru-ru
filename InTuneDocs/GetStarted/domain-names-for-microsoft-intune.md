@@ -4,7 +4,7 @@ description: "Добавление доменного имени для Intune"
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 06/20/2016
+ms.date: 10/11/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: c3c136f0-330d-432a-a91f-16f7dd097e55
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3eb096fea4569be24cf1ea42088705f0d5da38a4
-ms.openlocfilehash: 176da99a198b0a8167ac5d7992a751f2c965f0ac
+ms.sourcegitcommit: 38159f6dbcae2eeb4dca47141e60eed12cd7f6ee
+ms.openlocfilehash: abcf37e7ec3150b5a2fe4cda910631f83d4c510a
 
 
 ---
@@ -61,6 +61,6 @@ ms.openlocfilehash: 176da99a198b0a8167ac5d7992a751f2c965f0ac
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 
