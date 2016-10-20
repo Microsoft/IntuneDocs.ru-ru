@@ -13,8 +13,8 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db1d43dd647122e7ba8ebd4e6df48e3c970a3392
-ms.openlocfilehash: e840783f3c50155a6f4f8801047ed474074218f6
+ms.sourcegitcommit: af4c84d0e317f5903d22cdfead9ce0ab4fbddc8f
+ms.openlocfilehash: 602be42b75c091cb43359f30256d51eabe597008
 
 
 ---
@@ -64,7 +64,7 @@ ms.openlocfilehash: e840783f3c50155a6f4f8801047ed474074218f6
 ## Поддержка мобильных устройств
 Доступ к электронной почте Exchange Online можно ограничить **Outlook** и другими **приложениями, использующими современную проверку подлинности**:
 
-- Android 4.0 и более поздние версии, Samsung KNOX Standard 4.0 и более поздние версии
+- Android 4.0 и более поздней версии, Samsung Knox Standard 4.0 и более поздней версии и Android for Work
 - Устройства iOS 8.0 и более поздней версии
 - Windows Phone 8.1 и более поздней версии
 
@@ -225,6 +225,9 @@ ms.openlocfilehash: e840783f3c50155a6f4f8801047ed474074218f6
 
 5.  В разделе **Приложения Exchange ActiveSync** можно заблокировать доступ несоответствующих устройств к Exchange Online. Также можно разрешить или запретить доступ к электронной почте, когда устройство работает на неподдерживаемой платформе. К поддерживаемым платформам относятся Android, iOS, Windows и Windows Phone.
 
+ Приложения Exchange Active Sync для устройств **Android for Work**:
+ -  На устройствах Android for Work поддерживаются только приложения **Gmail** и **Nine Work** в **профиле работы**. Чтобы условный доступ работал для устройств Android for Work, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work, а также развернуть эти приложения в качестве **обязательной** установки. 
+
 6.  В разделе **Целевые группы**выберите группы безопасности Active Directory пользователей, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные их группы.
 ![Снимок экрана со страницей политики условного доступа Exchange Online с параметрами для целевых и исключенных групп](../media/IntuneSA5eTargetedExemptedGroups.PNG)
     > [!NOTE]
@@ -263,6 +266,6 @@ ms.openlocfilehash: e840783f3c50155a6f4f8801047ed474074218f6
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
