@@ -13,8 +13,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
+ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
+ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 
 
 ---
@@ -33,6 +33,7 @@ ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
 Этот раздел содержит сведения об установке корпоративного портала Intune и регистрации устройств Android.
 
 - [Регистрация устройства в Intune](enroll-your-device-in-Intune-android.md)
+- [Создание профиля работы и регистрация устройства в Intune](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
 - [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
 ## Что вы можете делать, когда ваше устройство зарегистрировано в Intune
@@ -73,6 +74,6 @@ ms.openlocfilehash: 43b43aa82aa69bea95d6d521193bd32c53e881fe
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 6163f2b2a1c562e5315785b8b4c486fe2347f89d
+ms.sourcegitcommit: 389daf0ed39fa2cd4b2e5d6e52cbd6809a568c9e
+ms.openlocfilehash: e751619f6d65e10099d1f8ff5a2342185181af69
 
 
 ---
@@ -122,8 +122,6 @@ ms.openlocfilehash: 6163f2b2a1c562e5315785b8b4c486fe2347f89d
 
 Например, когда пользователь запускает приложение OneDrive с помощью своей рабочей учетной записи, он не может перемещать файлы в личное хранилище. Однако когда пользователь открывает OneDrive с помощью личной учетной записи, он может копировать и перемещать данные из своего личного хранилища OneDrive без ограничений.  
 
-Подробное описание возможностей приложений, связанных с политиками MAM, и того, как приложения с поддержкой множественной идентификации обеспечивают применение политик MAM только в рабочем контексте, см. в статье [Использование приложений с поддержкой множественной идентификации](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md#using-apps-with-multi-identity-support)
-
 Все мобильные приложения Office поддерживает множественное удостоверение.
 
 ##  Дальнейшие действия
@@ -133,6 +131,6 @@ ms.openlocfilehash: 6163f2b2a1c562e5315785b8b4c486fe2347f89d
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 
