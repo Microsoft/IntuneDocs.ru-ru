@@ -3,6 +3,7 @@ title: "Настройка управления устройствами Android
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств Android и KNOX."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 07/25/2016
 ms.topic: article

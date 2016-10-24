@@ -3,6 +3,7 @@ title: "Включение Lookout MTP в Intune | Microsoft Intune"
 description: "Включение защиты от угроз на мобильных устройствах Lookout MTP в консоли администрирования Intune"
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "Ограничение доступа к электронной почт
 description: "В этом разделе описывается, как использовать условный доступ, чтобы разрешать доступ к корпоративной электронной почте и данным, расположенным в SharePoint Online и других службах, только совместимым устройствам."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/29/2016
 ms.topic: article

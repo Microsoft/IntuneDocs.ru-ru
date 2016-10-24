@@ -3,6 +3,7 @@ title: "Новые возможности | Microsoft Intune"
 description: "Новые возможности в выпусках Microsoft Intune этого месяца и за прошлые периоды"
 keywords: 
 author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 10/13/2016
 ms.topic: article

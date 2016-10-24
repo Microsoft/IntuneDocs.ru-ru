@@ -3,6 +3,7 @@ title: "Параметры политики iOS | Microsoft Intune"
 description: "Создание политик для управления параметрами и функциями на устройствах iOS, которые управляются с помощью Intune."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/06/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "Использование устройства Android в Intune | Micr
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве Android, зарегистрированном в Intune"
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

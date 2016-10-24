@@ -3,6 +3,7 @@ title: "Управление Магазином Windows для бизнес-пр
 description: "Сведения о подключении Microsoft Intune к Магазину Windows для бизнеса для развертывания приложений, приобретенных по программе корпоративных закупок, и управления ими в консоли Intune"
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article

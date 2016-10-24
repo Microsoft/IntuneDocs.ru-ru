@@ -3,6 +3,7 @@ title: "Ограничение доступа электронной почты 
 description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/22/2016
 ms.topic: article

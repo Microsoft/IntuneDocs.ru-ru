@@ -3,6 +3,7 @@ title: "Защита приложений и данных | Microsoft Intune"
 description: "В этом разделе рассматриваются различные функции и возможности Intune, предназначенные для защиты корпоративных приложений и данных."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article

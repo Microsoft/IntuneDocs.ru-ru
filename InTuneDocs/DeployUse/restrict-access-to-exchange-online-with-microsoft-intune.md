@@ -3,6 +3,7 @@ title: "Ограничение доступа электронной почты 
 description: "Защита и контроль доступа к корпоративной электронной почте, размещенной в Exchange Online, с помощью условного доступа."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article

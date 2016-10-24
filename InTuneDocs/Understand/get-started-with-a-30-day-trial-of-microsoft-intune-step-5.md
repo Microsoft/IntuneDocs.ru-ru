@@ -3,6 +3,7 @@ title: "Регистрация мобильных устройств для оз
 description: "Сведения о регистрации мобильных устройств и установке приложений при использовании бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: lindavr
+ms.author: lindavr
 manager: angrobe
 ms.date: 08/09/2016
 ms.topic: get-started-article

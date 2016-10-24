@@ -3,6 +3,7 @@ title: "Разрешение доступа к ресурсам компании
 description: "Профили Wi-Fi, VPN и электронной почты в совокупности позволяют пользователям получать доступ к нужным файлам и ресурсам."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
 ms.date: 10/14/2016
 ms.topic: article

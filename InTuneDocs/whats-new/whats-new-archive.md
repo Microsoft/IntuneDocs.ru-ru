@@ -3,6 +3,7 @@ title: "Архив сведений о новых возможностях | Mic
 description: 
 keywords: 
 author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article

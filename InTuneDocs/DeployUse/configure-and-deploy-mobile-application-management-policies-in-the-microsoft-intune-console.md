@@ -3,6 +3,7 @@ title: "Настройка политик MAM в консоли Intune | Microso
 description: "Политики управления мобильными приложениями в Microsoft Intune позволяют изменять функциональность развернутых приложений, чтобы они соответствовали требованиям компании в отношении безопасности."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/06/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "Многофакторная проверка подлинности с 
 description: "Как настроить обязательную многофакторную проверку подлинности в Azure AD для регистрации устройств."
 keywords: 
 author: nbigman
+ms.author: nbigman
 manager: angerobe
 ms.date: 09/22/2016
 ms.topic: article
