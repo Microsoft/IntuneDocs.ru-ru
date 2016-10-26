@@ -5,7 +5,7 @@ keywords:
 author: karthikaraman
 ms.author: karaman
 manager: angrobe
-ms.date: 07/22/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -27,7 +27,7 @@ ms.openlocfilehash: 233b7cad41fbd35e0fef615737fc41f8a49db35e
 
 Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
-[!IMPORTANT] Для развертывания условного доступа требуются подписки на Intune и Azure Active Directory Premium; при этом пользователи должны иметь лицензии на оба продукта. **Подписка Enterprise Mobility + Security (EMS)** включает подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing). Если у вас нет подписки EMS, можно получить подписку для Azure Active Directory Premium. См. [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/). 
+[!IMPORTANT] Для развертывания условного доступа требуются подписки на Intune и Azure Active Directory Premium; при этом пользователи должны иметь лицензии на оба продукта. **Подписка Enterprise Mobility + Security (EMS)** включает подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing). Если у вас нет подписки EMS, можно получить подписку для Azure Active Directory Premium. См. [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
 
 Когда целевой пользователь пытается использовать приложение Dynamics CRM на своем устройстве, выполняется следующая оценка:
 
