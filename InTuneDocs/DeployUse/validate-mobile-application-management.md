@@ -4,6 +4,7 @@ title:
 description: "В этом разделе описывается, как можно протестировать и проверить правильность настройки и работы политики MAM."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angerobe
 ms.date: 08/16/2016
 ms.topic: article

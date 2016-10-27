@@ -3,6 +3,7 @@ title: "Устранение проблем при регистрации уст
 description: "Рекомендации по устранению неполадок с регистрацией устройств."
 keywords: 
 author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 08/02/2016
 ms.topic: article

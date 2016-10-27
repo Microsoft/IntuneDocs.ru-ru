@@ -3,6 +3,7 @@ title: "Ограничение доступа к SharePoint Online | Microsoft I
 description: "Защита и контроль доступа к корпоративным данным, размещенным в SharePoint Online, с помощью условного доступа."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/13/2016
 ms.topic: article

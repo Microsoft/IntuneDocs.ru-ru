@@ -3,6 +3,7 @@ title: "Регистрация корпоративных устройств iOS
 description: "Регистрация корпоративных устройств iOS с помощью программы регистрации устройств Apple (DEP) или Apple Configurator."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 09/07/2016
 ms.topic: article

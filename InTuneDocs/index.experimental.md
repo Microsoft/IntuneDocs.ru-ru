@@ -6,6 +6,7 @@ title: "Документация по Intune: документация по MDM 
 description: "Техническая документация по Microsoft Intune: управление мобильными устройствами и приложениями"
 keywords: "Документация по Intune, документация по MDM, документация по управлению мобильными устройствами, документация по управлению мобильными устройствами и приложениями"
 author: jeffgilb
+ms.author: jeffgilb
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: hubpage

@@ -3,6 +3,7 @@ title: "Параметры политики Windows 10 | Microsoft Intune"
 description: "Здесь приведены параметры политики, с помощью которых можно настроить стандартные и пользовательские параметры для зарегистрированных устройств на базе Windows 10 Desktop и Windows 10 Mobile."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 10/03/2016
 ms.topic: article
