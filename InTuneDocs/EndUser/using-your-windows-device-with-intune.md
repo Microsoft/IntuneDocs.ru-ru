@@ -3,6 +3,7 @@ title: "Использование устройства Windows в Intune | Micr
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве с Windows, зарегистрированном в Intune"
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article

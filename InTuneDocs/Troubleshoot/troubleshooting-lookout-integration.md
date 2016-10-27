@@ -3,6 +3,7 @@ title: "Устранение неполадок интеграции Lookout | M
 description: "В этом разделе описывается устранение неполадок, которые часто возникают при интеграции с Lookout."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article

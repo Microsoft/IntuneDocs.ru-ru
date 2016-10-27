@@ -3,6 +3,7 @@ title: "Добавление приложений | Microsoft Intune"
 description: "Прежде чем приступить к развертыванию приложений с помощью Intune, ознакомьтесь с некоторыми базовыми принципами, представленными в этом разделе."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article

@@ -3,6 +3,7 @@ title: "Политики соответствия устройств | Microsoft
 description: "В этом разделе описаны аспекты, о которых нужно знать, чтобы понимать, что представляют собой политики соответствия устройства и как они действуют."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article

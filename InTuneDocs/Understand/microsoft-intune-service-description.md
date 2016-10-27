@@ -3,6 +3,7 @@ title: "Описание службы | Microsoft Intune"
 description: "Intune — это облачная служба, которая помогает управлять компьютерами с Windows, а также мобильными устройствами на базе iOS, Mac OS X, Android и Windows."
 keywords: 
 author: Nbigman
+ms.author: nbigman
 manager: angrobe
 ms.date: 09/22/2016
 ms.topic: article

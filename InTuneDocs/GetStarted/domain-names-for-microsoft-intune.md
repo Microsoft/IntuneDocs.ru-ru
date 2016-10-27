@@ -3,6 +3,7 @@ title: "Доменные имена для Microsoft Intune | Microsoft Intune"
 description: "Добавление доменного имени для Intune"
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/11/2016
 ms.topic: article

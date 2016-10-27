@@ -3,6 +3,7 @@ title: "Параметры политики Windows Phone 8.1 | Microsoft Intun
 description: "Intune предоставляет ряд встроенных общих параметров, которые можно настроить на устройствах с Windows Phone 8.1. Кроме того, можно создать настраиваемые параметры, отсутствующие в Intune, задав значения OMA-URI."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 10/11/2016
 ms.topic: article
