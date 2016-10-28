@@ -2,8 +2,8 @@
 title: "Отключение сбора данных об использовании корпорацией Майкрософт на устройстве iOS | Microsoft Intune"
 description: 
 keywords: 
-author: barlan
-ms.author: barlan
+author: barlanmsft
+ms.author: barlanmsft
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -22,7 +22,7 @@ ms.openlocfilehash: 1b193a401c05ae649456e27222503ee5bd9e150f
 ---
 
 
-# Отключение сбора данных об использовании корпорацией Майкрософт
+# <a name="turn-off-microsoft-usage-data-collection"></a>Отключение сбора данных об использовании корпорацией Майкрософт
 
 В целях усовершенствования своих продуктов и служб корпорация Майкрософт автоматически собирает анонимные данные о надежности и производительности корпоративного портала, а также о его использовании.
 
