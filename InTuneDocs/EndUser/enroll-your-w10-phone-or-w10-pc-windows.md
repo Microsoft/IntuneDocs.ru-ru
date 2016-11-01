@@ -3,7 +3,7 @@ title: "Регистрация устройства с Windows 10 в Intune | Mi
 description: "Описывается, как зарегистрировать мобильное или настольное устройство с Windows 10 в Intune."
 keywords: 
 author: barlanmsft
-ms.author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 10/18/2016
 ms.topic: article

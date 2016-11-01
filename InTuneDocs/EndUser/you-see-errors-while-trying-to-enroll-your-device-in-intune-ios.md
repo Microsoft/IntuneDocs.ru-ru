@@ -3,7 +3,7 @@ title: "Возникновение ошибок при попытке регис
 description: 
 keywords: 
 author: barlanmsft
-ms.author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 08/28/2016
 ms.topic: article

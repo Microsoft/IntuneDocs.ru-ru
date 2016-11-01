@@ -2,8 +2,8 @@
 title: "Устранение неполадок, связанных с доступом к ресурсам компании | Microsoft Intune"
 description: "Коды ошибок и состояний, приведенные в этом разделе, помогут устранить проблемы с доступом к ресурсу."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 09/22/2016
 ms.topic: article
@@ -44,7 +44,7 @@ ms.openlocfilehash: 114d4107dc73b3ad905de3fe02ffb81fa2e0e954
 |130 (APP_CI_ENFORCEMENT_ERROR)|Не удалось установить лицензию MSADP||
 |Нет состояния (APP_CI_ENFORCEMENT_UNKNOWN)|н/д|В настоящее время состояние неизвестно.|
 
-## <a name="company-resource-access-(common-errors)"></a>Доступ к ресурсам компании (распространенные ошибки)
+## <a name="company-resource-access-common-errors"></a>Доступ к ресурсам компании (распространенные ошибки)
 
 |Код состояния|Шестнадцатеричный код ошибки|Сообщение об ошибке|
 |---------------|--------------------------|-----------------|

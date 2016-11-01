@@ -3,7 +3,7 @@ title: "Что происходит при создании профиля ра�
 description: "Описывается шифрование устройства Android."
 keywords: 
 author: barlanmsft
-ms.author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article
