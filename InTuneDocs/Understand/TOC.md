@@ -1,5 +1,6 @@
 # [Изучение вопроса](introduction-to-microsoft-intune.md)
 ## [Общие сведения об Intune](introduction-to-microsoft-intune.md)
+## [Современные возможности управления Windows](modern-windows-management)
 ## [Руководство по оценке Intune](get-started-with-a-30-day-trial-of-microsoft-intune.md)
 ### [Вход в 30-дневную ознакомительную версию или регистрация для ее получения](get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md)
 ### [Добавление пользователей](get-started-with-a-30-day-trial-of-microsoft-intune-step-2.md)
@@ -19,6 +20,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 
