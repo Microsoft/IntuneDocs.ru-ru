@@ -1,10 +1,11 @@
 ---
 title: "Параметры политики соответствия для устройств Windows | Microsoft Intune"
-description: 
+description: "В этом разделе описываются правила и параметры, которые можно настроить для политики соответствия устройств Windows."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
-ms.date: 07/22/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +14,8 @@ ms.assetid: f996842c-e9a4-4819-acb4-ee66e8fb35b8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: be1ebcdf2514e45d383dd49890e0e21acf6ede44
-ms.openlocfilehash: 12239464012029e3ffff3a9bed4f4ccb2cebe633
+ms.sourcegitcommit: 9a442d9472159757333a9ebe081d86eac9907cdc
+ms.openlocfilehash: 40c63094f37fbffa62ea0d3e5b52ef1f3988e7e1
 
 
 ---
@@ -140,6 +141,6 @@ ms.openlocfilehash: 12239464012029e3ffff3a9bed4f4ccb2cebe633
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

@@ -2,9 +2,10 @@
 title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или Mac OS X в Intune? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
+author: barlan
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4881d765a6a79d380ab6d3facdb55d9f0c81bf97
-ms.openlocfilehash: e6e08b1947f93fde6c9e7bff966042647386e7d0
+ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
+ms.openlocfilehash: fd5ad37706bc4d7f780c5059bda5305335b4ff68
 
 
 ---
@@ -27,11 +28,11 @@ ms.openlocfilehash: e6e08b1947f93fde6c9e7bff966042647386e7d0
 
 -   получить доступ к локальной сети, почте и рабочим файлам;
 
--   скачать приложения организации с корпоративного портала;
+-   загрузить приложения организации с корпоративного портала;
 
 -   удаленно сбросить настройки телефона до заводских при его утере или краже;
 
--   автоматически настроить учетную запись почты компании;
+-   автоматически настроить почтовую учетную запись организации;
 
 Регистрируя устройство в Intune, вы предоставляете своему ИТ-администратору разрешение на управление устройством для защиты корпоративных данных на нем.
 
@@ -95,6 +96,6 @@ ms.openlocfilehash: e6e08b1947f93fde6c9e7bff966042647386e7d0
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

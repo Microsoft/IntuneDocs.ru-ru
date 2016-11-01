@@ -3,6 +3,7 @@ title: "Отмена регистрации устройства с Windows в I
 description: "Сведения об отмене регистрации устройства с Windows в Intune"
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: 93374a2098447a11b164ae3fb5d7b1b3d4824806
+ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
+ms.openlocfilehash: b3dda0cda3600721db5f2ea73166652abff7a44d
 
 
 ---
@@ -44,9 +45,9 @@ ms.openlocfilehash: 93374a2098447a11b164ae3fb5d7b1b3d4824806
 
 1.  Перейдите в раздел **Параметры ПК** &gt; **Сеть** &gt; **Рабочая область**.
 
-2.  В разделе **Присоединение к рабочей области** нажмите **Выйти**.
+2.  В разделе **Подключение к рабочему месту** нажмите **Выйти**.
 
-3.  В разделе **Turn on device management** (Включение управления устройством) нажмите **Отключить**.
+3.  В разделе **Включение управления устройством** нажмите **Отключить**.
 
 4.  В открывшемся всплывающем окне выберите **Отключить**.
 
@@ -64,7 +65,6 @@ ms.openlocfilehash: 93374a2098447a11b164ae3fb5d7b1b3d4824806
 
 
 
-
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO2-->
 
 
