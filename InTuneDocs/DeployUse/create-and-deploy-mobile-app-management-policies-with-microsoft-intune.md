@@ -3,6 +3,7 @@ title: "Создание и развертывание политик управ
 description: "Следуйте пошаговым инструкциям в этом разделе, чтобы создавать и развертывать политики управления мобильными приложениями."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
 ms.date: 07/22/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 74d9c9843fd6119095c9670a76afd26443bcc796
-ms.openlocfilehash: dab86ce2210c1f0cec81e402d730a6b996db64fc
+ms.sourcegitcommit: 389daf0ed39fa2cd4b2e5d6e52cbd6809a568c9e
+ms.openlocfilehash: e5befdd4925f88d41c454d9c1c36eaf02fdb598d
 
 
 ---
@@ -111,8 +112,9 @@ ms.openlocfilehash: dab86ce2210c1f0cec81e402d730a6b996db64fc
 >[!IMPORTANT]
 > При использовании Intune с Configuration Manager для управления устройствами iOS и Android политика применяется только к пользователям, находящимся непосредственно в выбранной вами группе.  Члены дочерних групп, вложенных в выбранную вами группу, не затрагиваются.
 
-Конечные пользователи могут скачать приложения из магазина App Store или Google Play. Подробное пошаговое руководство по защите данных организации на устройствах с помощью MAM см. в разделе [Работа конечных пользователей с приложениями с включенной поддержкой MAM](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md).
-
+Конечные пользователи могут скачать приложения из магазина App Store или Google Play. Дополнительные сведения см. на странице
+* [Что происходит при управлении приложением Android с помощью политик MAM](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
+* [Что происходит при управлении приложением iOS с помощью политик MAM](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
 ##  Изменение существующих политик
 Вы можете изменить существующую политику и применить ее к целевым пользователям. Однако при изменении существующих политик пользователи, которые уже выполнили вход в приложения, не заметят никаких изменений в течение 8 часов.
 
@@ -165,10 +167,11 @@ ms.openlocfilehash: dab86ce2210c1f0cec81e402d730a6b996db64fc
 [Мониторинг соответствия требованиям и состояния пользователей](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 
 ### См. также
-[Работа конечных пользователей с приложениями с включенной поддержкой MAM](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
+* [Что происходит при управлении приложением Android с помощью политик MAM](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
+* [Что происходит при управлении приложением iOS с помощью политик MAM](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Oct16_HO3-->
 
 
