@@ -3,6 +3,7 @@ title: "Настройка управления для Windows Phone 8.0 | Micr
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств с Windows Phone 8.0."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 07/09/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 61e9b6c3-8795-49b0-8ab2-a9a05ee3ea1f
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c880bd9dfb998355a18e78af898a96d4cee393f7
-ms.openlocfilehash: 1d3823392b7060b9d04996c29c68213d421ef4bd
+ms.sourcegitcommit: 067b46c4e537f6def75142411a6d6b60a63cd642
+ms.openlocfilehash: 32d1272d1e125c8a1a5b9f7c6291fb4acf14ea6e
 
 
 ---
@@ -24,7 +25,7 @@ ms.openlocfilehash: 1d3823392b7060b9d04996c29c68213d421ef4bd
 В Windows Phone 8.0 для установки приложения корпоративного портала Intune и разрешения управления устройствами необходим сертификат Symantec. Кроме того, сертификат требуется для подписи бизнес-приложений. Следующий раздел предназначен только для Windows Phone 8.0. Для управления Windows Phone 8.1 или более поздней версии, в том числе Windows 10 Mobile, обратитесь к разделу [Настройка регистрации Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md).
 
 > [!IMPORTANT]
-> Начиная с сентября 2016 года приложение "Корпоративный портал" для Windows 8.0 и Windows Phone 8.0 будет недоступно для скачивания.
+> С сентября 2016 г. приложение корпоративного портала для Windows Phone 8 и Windows 8 больше не доступно для загрузки.
 
 -   **Windows Phone 8** — требуется сертификат
 -   **Windows Phone 8.1 и Windows 10 Mobile** нуждаются в сертификате только в следующих ситуациях:
@@ -183,6 +184,6 @@ ms.openlocfilehash: 1d3823392b7060b9d04996c29c68213d421ef4bd
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO3-->
 
 

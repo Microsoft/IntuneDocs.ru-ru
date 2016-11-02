@@ -2,7 +2,8 @@
 title: "Найдена существующая учетная запись электронной почты в организации | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,14 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: ce231116ad405d274546cee81dbdd0b0909b2d01
+ms.sourcegitcommit: eebc35277aedabb2575b753afbaf9ea05b1555e8
+ms.openlocfilehash: 6b7123dc4ec0b7a73e6e3151ca9c66a65354f9de
 
 
 ---
 
-# Существующую учетную запись электронной почты компании найти
-Пользователь уже имеет учетной записи электронной почты компании. Продолжать подключаться к своей электронной почте компании, необходимо выполнить следующие действия, чтобы включить ИТ-администратора для правильной настройки и управления вашей учетной записи:
+# <a name="existing-company-email-account-found"></a>Существующую учетную запись электронной почты компании найти
+
+Пользователь уже имеет учетной записи электронной почты компании. Для дальнейшей работы со своей корпоративной электронной почтой выполните указанные ниже действия, чтобы позволить своему ИТ-администратору корректно настроить вашу учетную запись и управлять ею.
 
 1.  В **Параметры** на устройстве, удалите подключение, ранее настроен на ваш адрес электронной почты компании.
 
@@ -35,6 +37,6 @@ ms.openlocfilehash: ce231116ad405d274546cee81dbdd0b0909b2d01
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO3-->
 
 

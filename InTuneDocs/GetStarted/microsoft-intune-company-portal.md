@@ -3,18 +3,19 @@ title: "Корпоративный портал Microsoft Intune | Microsoft Int
 description: "Сведения о настройке корпоративного портала Intune"
 keywords: 
 author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4dc3d084-0394-4ee7-b7fa-a72523928627
-ms.reviewer: jeffgilb
+ms.reviewer: jve
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: 7c9fceaae077907480d4c207d56f654d168248a1
+ms.sourcegitcommit: 584cfc22cd885149054c1e5e42cc539a478db637
+ms.openlocfilehash: 0a9d7bdce29532f63c724d406cd13cd619c9034e
 
 
 ---
@@ -48,11 +49,18 @@ ms.openlocfilehash: 7c9fceaae077907480d4c207d56f654d168248a1
 
 Прежде чем пользователь сможет получить доступ к корпоративному порталу, учетной записи пользователя должна быть предоставлена лицензия на использование [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] и, кроме того, она должна иметь состояние для входа **Разрешено**. Дополнительные сведения о [добавлении пользователей](start-with-a-paid-subscription-to-microsoft-intune-step-3.md) и [назначении лицензий для подписки](start-with-a-paid-subscription-to-microsoft-intune-step-4.md). Вы также можете [настроить веб-сайт корпоративного портала](start-with-a-paid-subscription-to-microsoft-intune-step-7.md), используя логотип компании, условия использования и многое другое. Доступ к веб-сайту корпоративного портала осуществляется путем перехода на веб-сайт и входа с использованием рабочей учетной записи.
 
+> [!NOTE]
+> Приложение корпоративного портала пока не доступно в некоторых странах.
+
+> __iOS__: приложение корпоративного портала для iOS опубликовано во [всех странах](https://go.microsoft.com/fwlink/?linkid=831284), в которых доступен магазин Apple iOS App Store.
+
+> __Android__: приложение корпоративного портала для Android недоступно в следующих странах: Антигуа и Барбуда, Аруба, Бенин, Буркина-Фасо, Габон, Гаити, Гвинея-Бисау, Иран, Камбоджа, Китай, Куба, Лаос, Мали, Мозамбик, Мьянма, Нигер, Нидерландские Антилы, Папуа — Новая Гвинея, Судан и Того. В этих странах альтернативным решением является [загрузка неопубликованной версии приложения корпоративного портала для Android](https://www.microsoft.com/en-us/download/details.aspx?id=49140).  
+
 ### См. также
 [Предварительные сведения перед началом работы с Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

@@ -17,7 +17,7 @@
 
 ## [Переход на Intune](migrate-to-intune.md)
 
-## [Руководство по быстрому запуску Intune](start-with-a-paid-subscription-to-microsoft-intune.md)
+## [Краткое руководство по началу работы](start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [Вход в Intune](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 ### [Настройка имени домена](start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
 ### [Синхронизация AD и добавление пользователей](start-with-a-paid-subscription-to-microsoft-intune-step-3.md)
@@ -27,6 +27,13 @@
 ### [Настройка корпоративного портала](start-with-a-paid-subscription-to-microsoft-intune-step-7.md)
 ### [Регистрация мобильных устройств и установка приложения](start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [Задачи, выполняемые после настройки](post-configuration-tasks.md)
+
+## [Краткие руководства](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
+### [Краткое руководство. Предотвращение утечки корпоративных данных из мобильных приложений Office 365](prevent-company-data-leaks-from-Office-365-mobile-apps.md)
+### [Краткое руководство. Защита корпоративных данных с помощью шифрования](protect-data-encryption.md)
+### [Краткое руководство. Публикация мобильных приложений для пользователей](publish-mobile-apps-to-users.md)
+### [Краткое руководство. Упрощение конфигурации электронной почты на мобильных устройствах](simplify-email-configuration-on-mobile-devices.md)
+### [Краткое руководство. Защита компьютеров с Windows от вредоносных программ](protect-pcs-against-malware-threats.md)
 
 ## [Этапы развертывания для Intune](rollout-phases-for-microsoft-intune-deployment.md)
 ### [Определение области проекта](project-scope.md)
@@ -42,6 +49,6 @@
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

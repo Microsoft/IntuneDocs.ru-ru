@@ -3,6 +3,7 @@ title: "Использование устройства iOS или Mac OS X в I
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве iOS или Mac OS X, зарегистрированном в Intune"
 keywords: 
 author: Staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -14,8 +15,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 6e84676a8ea1e149f73871ef1468c2da80fa221c
+ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
+ms.openlocfilehash: e894ad75fd6e86d5d93393886b37e2af87b5eefc
 
 
 ---
@@ -61,9 +62,11 @@ ms.openlocfilehash: 6e84676a8ea1e149f73871ef1468c2da80fa221c
 - [Как найти серийный номер на устройстве?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 - [Устройство не содержит необходимую минимальную версию операционной системы](device-doesnt-have-the-required-minimum-operating-system-version-ios.md)
 - [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply-with-the-maximum-operating-system-version-ios.md)
+- [Предложение установить Lookout for Work на устройстве iOS](you-are-prompted-to-install-lookout-for-work-ios.md)
+- [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве iOS](you-need-to-resolve-a-threat-found-by-lookout-for-work-ios.md)
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

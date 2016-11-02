@@ -11,6 +11,7 @@
 ### [Предварительные требования для MDM](prerequisites-for-enrollment.md)
 #### [Управление устройствами Mac и iOS](set-up-ios-and-mac-management-with-microsoft-intune.md)
 #### [Управление Android](set-up-android-management-with-microsoft-intune.md)
+#### [Управление Android for Work](set-up-android-for-work.md)
 #### [Управление устройствами Windows ](set-up-windows-device-management-with-microsoft-intune.md)
 #### [Windows 10 Mobile и Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 ### [Управление устройствами, являющимися собственностью организации](manage-corporate-owned-devices.md)
@@ -34,6 +35,7 @@
 ### [Управление параметрами и компонентами на устройствах с помощью политик](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [Параметры iOS](ios-policy-settings-in-microsoft-intune.md)
 #### [Параметры Android и Samsung KNOX](android-policy-settings-in-microsoft-intune.md)
+#### [Параметры Android for Work](android-for-work-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows 8 и Windows 8.1](windows-configuration-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows Phone 8.1](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows 10 Desktop и Mobile](windows-10-policy-settings-in-microsoft-intune.md)
@@ -72,6 +74,7 @@
 #### [Управление лицензионными соглашениями для клиентских компьютеров Intune](manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
 ## [Развертывание приложений](deploy-apps.md)
 ### [Развертывание приложений для устройств и компьютеров](deploy-apps-in-microsoft-intune.md)
+### [Развертывание приложений на устройствах Android for Work](android-for-work-apps.md)
 ### [Мониторинг приложений](monitor-apps-in-microsoft-intune.md)
 ### [Управление приложениями, приобретенными по корпоративной программе](manage-volume-purchased-apps-in-microsoft-intune.md)
 #### [Управление приложениями iOS, приобретенными по корпоративной программе](manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md)
@@ -80,6 +83,7 @@
 ## [Настройка приложений](update-apps-using-microsoft-intune.md)
 ### [Обновление приложений ](update-apps-using-microsoft-intune.md)
 ### [Политики конфигурации приложений iOS](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
+### [Политики конфигурации приложений Android for Work](afw-app-configuration-policy.md)
 ### [Профили подготовки мобильных приложений iOS](ios-mobile-app-provisioning-profiles.md)
 ### [Управление доступом в Интернет](manage-internet-access-using-managed-browser-policies.md)
 
@@ -87,12 +91,13 @@
 ## [Защита приложений и данных](protect-apps-and-data-with-microsoft-intune.md)
 ### [Политики соответствия устройств](introduction-to-device-compliance-policies-in-microsoft-intune.md)
 #### [Создание политики соответствия устройства](create-a-device-compliance-policy-in-microsoft-intune.md)
-#### [Для Android](android-compliance-policy-settings-in-microsoft-intune.md)
-#### [Для iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
-#### [Для Windows и Windows Phone](windows-compliance-policy-settings-in-microsoft-intune.md)
+#### [ Android](android-compliance-policy-settings-in-microsoft-intune.md)
+#### [Android for Work](afw-compliance-policy-settings-in-microsoft-intune.md)
+#### [iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
+#### [Windows и Windows Phone](windows-compliance-policy-settings-in-microsoft-intune.md)
 #### [Развертывание политики соответствия устройства](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
 
-### [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+### [Ограничение доступа на основании соответствия устройств](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
 #### [Exchange Online и новая выделенная среда Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
@@ -101,7 +106,9 @@
 #### [Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 #### [Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 #### [Ограничение доступа к электронной почте: примеры](restrict-email-access-example-scenarios.md)
-
+### [Разрешить доступ к службам Office 365 только для управляемых политиками приложений](allow-policy-managed-apps-access-to-o365.md)
+#### [Exchange Online](mam-ca-for-exchange-online.md)
+#### [Блокировать приложения без ADAL](block-apps-with-no-modern-authentication.md)
 ### [Ограничение доступа к сетям (Cisco ISE)](restrict-access-to-networks.md)
 ### [Ограничение доступа на основе риска для устройства, сети и приложений](restrict-access-based-on-device-network-app-risk.md)
 #### [Настройка защиты устройства от угроз Lookout](set-up-your-subscription-with-lookout-mtp.md)
@@ -118,7 +125,7 @@
 #### [Проверка политик MAM](validate-mobile-application-management.md)
 #### [Мониторинг соответствия политик](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Управление передачей данных между приложениями iOS](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
-#### [Взаимодействие с пользователем](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)
+
 #### [Консоль администрирования Intune для политик MAM](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
 
 ### [Подготовка бизнес-приложений для MAM](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
@@ -133,13 +140,16 @@
 ### [Снятие приложений с учета ](retire-apps-using-microsoft-intune.md)
 ### [Очистка данных управляемых приложений компании](Wipe-managed-company-app-data-with-microsoft-intune.md)
 
-## [Что нужно сообщить конечным пользователям](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+## [Ресурсы по пользовательскому интерфейсу](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+### [Восстановление управляемых устройств iOS](restore-managed-ios-devices-from-backup.md)
+### [Приложения Android с политиками управления мобильными приложениями](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
+### [Приложения iOS с политиками управления мобильными приложениями](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
 
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
 
 # [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Oct16_HO3-->
 
 

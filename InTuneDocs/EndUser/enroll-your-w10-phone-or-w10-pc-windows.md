@@ -2,7 +2,7 @@
 title: "Регистрация устройства с Windows 10 в Intune | Microsoft Intune"
 description: "Описывается, как зарегистрировать мобильное или настольное устройство с Windows 10 в Intune."
 keywords: 
-author: barlan
+author: barlanmsft
 ms.author: barlan
 manager: angrobe
 ms.date: 10/18/2016
@@ -21,7 +21,7 @@ ms.openlocfilehash: 75f19a1c613b2d018e0cb89862f15aa4be2bc138
 ---
 
 
-# Регистрация устройства с ОС Windows 10 Mobile или Windows 10 Desktop в Intune
+# <a name="enroll-your-windows-10-mobile-or-windows-10-desktop-device-in-intune"></a>Регистрация устройства с ОС Windows 10 Mobile или Windows 10 Desktop в Intune
 
 Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать свои устройства, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет организации обеспечить безопасность корпоративных данных. Дополнительные сведения о регистрации см. в статьях [What happens if you install the Company Portal app and enroll your device in Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) (Что произойдет, если установить приложение "Корпоративный портал" и зарегистрировать устройство в Intune?) и [What your IT administrator can and can't see on your device](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md) (Что ИТ-администратор может и не может видеть на вашем устройстве).
 
@@ -42,7 +42,7 @@ ms.openlocfilehash: 75f19a1c613b2d018e0cb89862f15aa4be2bc138
 
     ![Ваша учетная запись](./media/w10-enroll-2-accounts-your-account.png)
 
-## Действия при появлении элемента "Доступ к учетной записи места работы или учебного заведения"
+## <a name="steps-to-follow-if-you-see-access-work-or-school"></a>Действия при появлении элемента "Доступ к учетной записи места работы или учебного заведения"
 
 1.  Коснитесь пункта **Доступ к учетной записи места работы или учебного заведения**, а затем — пункта **Подключиться**.
 
@@ -69,7 +69,7 @@ ms.openlocfilehash: 75f19a1c613b2d018e0cb89862f15aa4be2bc138
 Если вы выполнили описанные выше действия, но по-прежнему не можете получить доступ к рабочей или учебной учетной записи электронной почты и файлам, выполните инструкции из раздела [Устранение неполадок при появлении элемента "Доступ к учетной записи места работы или учебного заведения"](troubleshoot-your-windows-10-device-windows.md#troubleshooting-steps-to-follow-if-you-see-access-work-or-school).
 
 
-## Действия при появлении элемента "Ваша учетная запись"
+## <a name="steps-to-follow-if-you-see-your-account"></a>Действия при появлении элемента "Ваша учетная запись"
 
 1.  Перейдите в раздел **Параметры** Windows и нажмите **Учетные записи**.
 
