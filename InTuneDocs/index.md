@@ -3,41 +3,42 @@ experimental: true
 experiment_id: lindavr-hubpage-20160925
 asset_id: 3414479e-e548-4753-bcf7-6322b43221fd
 layout: HubPage
-title: "Документация по Intune: документация по MDM | Документы Microsoft"
+title: "Документация по Intune | Microsoft Docs"
 description: "Техническая документация по Microsoft Intune: управление мобильными устройствами и приложениями"
-keywords: "Документация по Intune, документация по MDM, документация по управлению мобильными устройствами, документация по управлению мобильными устройствами и приложениями"
-author: jeffgilb
-manager: jeffgilb
-ms.date: 04/28/2016
+keywords: "документация по Intune, управление приложениями, управление устройствами, документация по MDM, документация по MAM"
+author: arob98
+ms.author: angrobe
+manager: angrobe
+ms.date: 10/07/2016
 ms.topic: hubpage
 ms.service: microsoft-intune
 ms.suite: ems
 ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 translationtype: Human Translation
-ms.sourcegitcommit: bbab228b86bbec49bf68c7d91a05c4d0e7f37209
-ms.openlocfilehash: a478d1dce92e9bf9de2b485e613c607ebc2de88c
+ms.sourcegitcommit: 315c159869303fd6a26caa35160d5ba3c7ccdc1f
+ms.openlocfilehash: db637ebb1165466493b633012ab170059678996c
 
 
 ---
-# Документация по Intune
+# <a name="intune-documentation"></a>Документация по Intune
 <article id="main">
     <section id="hero-content">
       <h1>Документация по Intune</h1>
       <h2>Сведения о развертывании службы управления мобильными устройствами и приложениями Microsoft Intune и управлении ей.</h2>
-      <h3>Управлять Intune с помощью Configuration Manager? <a href="http://go.microsoft.com/fwlink/?LinkId=816854" target="_blank">Просмотреть документацию по Configuration Manager &rarr;</a></h3>
+      <h3>Хотите управлять Intune с помощью Configuration Manager? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management" target="_blank">Ознакомьтесь с гибридным управлением мобильными устройствами&rarr;</a></h3>
     </section>
     <section id="featured" class="container">
       <h2 class="section-heading"><span class="icon icon-warning"></span> Популярные материалы</h2>
       <div class="features row">
         <ul class="column column-half">
-          <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">Общие сведения о Microsoft Intune</a></li>
-          <li><a href="/intune/understand-explore/common-ways-to-use-intune">Общие сценарии, основанные на Intune</a></li>
-          <li><a href="/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune">Руководство по быстрому запуску Intune</a></li>
+          <li><a href="/intune/whats-new/whats-new-in-microsoft-intune">Что нового?</a></li>
+          <li><a href="/intune/understand-explore/common-ways-to-use-intune">Стандартные способы использования Intune</a></li>
+          <li><a href="/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune">Защита данных приложения</a></li>
         </ul>
         <ul class="column column-half">
-          <li><a href="/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune">Общие сведения о жизненных циклах устройств и приложений</a></li>
-          <li><a href="/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune">Защита данных приложения</a></li>
-          <li><a href="/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune">Что нужно сообщить конечным пользователям об Intune</a></li>
+          <li><a href="/intune/deploy-use/restrict-access-based-on-device-network-app-risk">Защита доступа к ресурсам компании</a></li>
+          <li><a href="/intune/develop/intune-app-sdk-ios">Руководство по пакету SDK для приложений Intune для разработчиков под iOS</a></li>
+          <li><a href="/intune/develop/intune-app-sdk-android">Руководство по пакету SDK для приложений Intune для разработчиков под Android</a></li>
         </ul>
       </div>
     </section>
@@ -262,7 +263,7 @@ ms.openlocfilehash: a478d1dce92e9bf9de2b485e613c607ebc2de88c
       <div class="resource-list row">
           <ul class="column-half">
           <li><a href="https://microsoftintune.uservoice.com/" target="_blank">Отправить отзыв о функциях Intune</a></li>
-          <li><a href="https://microsoftintune.uservoice.com/forums/297408-issues/category/113871-documentation" target="_blank">Отправить отзыв по документации Intune</a></li>
+          <li><a href="https://microsoftintune.uservoice.com/forums/291681-ideas/category/115707-documentation" target="_blank">Отправить отзыв о документации</a></li>
           <li><a href="https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=User&f%5B0%5D.Value=ECM%20Docs%20Team%20-%20MSFT" target="_blank">Документация по Intune для скачивания</a></li>
           </ul>
           <ul class="column-half">
@@ -284,6 +285,6 @@ ms.openlocfilehash: a478d1dce92e9bf9de2b485e613c607ebc2de88c
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Nov16_HO2-->
 
 

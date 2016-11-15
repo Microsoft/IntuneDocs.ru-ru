@@ -5,6 +5,7 @@ title: "Общие сведения о Microsoft Intune | Microsoft Intune"
 description: "Узнайте о том, что Intune является компонентом управления мобильными устройствами решения &quot;Enterprise Mobility + Security&quot;."
 keywords: 
 author: Lindavr
+ms.author: lindavr
 manager: angrobe
 ms.date: 08/10/2016
 ms.topic: article
@@ -15,14 +16,14 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f88c9f6b856f91db8c9218ab41a87bc95f45a578
-ms.openlocfilehash: efc6fed1d9e0766dd0deb24e8f5f422d1f60f568
+ms.sourcegitcommit: b3b46c1025ad0792ed4623656c878c53bd69d6cb
+ms.openlocfilehash: f2f5d901ae3b6ffb298b56eef4ae593842b80cfb
 
 
 ---
 
-# Общие сведения об Intune
-Microsoft Intune — это служба по управлению, входящая в набор Microsoft Enterprise Mobility + Security (EMS, прежнее название — Enterprise Mobility Suite). Enterprise Mobility сохраняет производительность пользователей на всех устройствах, обеспечивая защиту данных компании.  
+# <a name="introduction-to-intune"></a>Общие сведения об Intune
+Microsoft Intune — это служба для управления, входящая в набор Microsoft Enterprise Mobility + Security (EMS, прежнее название — Enterprise Mobility Suite). Enterprise Mobility сохраняет производительность пользователей на всех устройствах, обеспечивая защиту данных компании.  
 
 EMS — это полный интегрированный набор для обеспечения мобильности в организациях, включающий функции повышения производительности, управления удостоверениями, контроля доступа, управления и защиты данных. Он предоставляет эффективный способ развертывания и эксплуатации мобильных решений в вашей организации.  
 
@@ -48,13 +49,13 @@ Intune позволяет управлять мобильными устройс
 
 В этой документации объясняется, как использовать инструменты, предоставляемые Intune, для поддержки конкретных бизнес-сценариев.  Вы также узнаете, как использовать эти инструменты с Office 365, Azure AD, Azure RMS и другими компонентами набора мобильных решений Майкрософт. Вы получите развернутый обзор о способах стандартного применения технологии и ее преимуществах в имеющейся среде организации, а также узнаете о действиях по их реализации. Сама технология обладает достаточной гибкостью и может быть адаптирована для всех видов сценариев наряду с описанными здесь.
 
-### Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие действия
 * Прочитайте о некоторых [стандартных способах использования Intune](common-ways-to-use-intune.md).
 * Ознакомьтесь с продуктом, воспользовавшись [30-дневной пробной версией Intune](get-started-with-a-30-day-trial-of-microsoft-intune.md).
 * Узнайте о [технических требованиях и возможностях](/intune/get-started/what-to-know-before-you-start-microsoft-intune) Intune.
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Nov16_HO2-->
 
 
