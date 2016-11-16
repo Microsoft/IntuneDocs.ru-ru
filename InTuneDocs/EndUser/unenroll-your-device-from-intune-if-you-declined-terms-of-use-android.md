@@ -2,10 +2,10 @@
 title: Unenroll your device from Intune if you declined "Terms of Use" | Microsoft Intune
 description: "Сведения о том, как отменить регистрацию устройства Android в Intune, если вы отклонили условия использования и не можете войти в приложение корпоративного портала"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,16 +14,16 @@ ms.assetid: 4278f000-0258-4de5-93a1-195b48e5061e
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: 4f5088bc645fed0451885078f5ab0dcd04a33d81
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 6303400645bf26ede733413fe2dabdb360e3bafb
 
 
 ---
 
 
-# Отмена регистрации устройства в Intune при отказе от условий использования
+# <a name="unenroll-your-device-from-intune-if-you-declined-terms-of-use"></a>Отмена регистрации устройства в Intune при отказе от условий использования
 
-Удобнее всего отменить регистрацию устройства Android, приняв условия использования, войдя в приложение корпоративного портала и отменив регистрацию в соответствии с [этими инструкциями](unenroll-your-device-from-intune-android.md). Однако если вы отклонили условия использования при попытке войти в приложение корпоративного портала, ваши дальнейшие попытки входа блокируются. В этом случае для отмены регистрации устройства воспользуйтесь этим обходным решением.
+Удобнее всего отменить регистрацию устройства Android, приняв условия использования, войдя в приложение корпоративного портала и отменив регистрацию в соответствии с [этими инструкциями](unenroll-your-device-from-intune-android.md). Однако если вы отклонили условия использования при попытке войти в приложение корпоративного портала, ваши дальнейшие попытки входа блокируются. Поэтому для отмены регистрации устройства воспользуйтесь этим обходным решением.
 
 При удалении приложения корпоративного портала также отменяется регистрация устройства в Intune. Ваше устройство больше не будет иметь доступ к ресурсам компании. Дополнительные сведения о том, что происходит при отмене регистрации, см. в статье [What happens if you unenroll your device from Intune?](what-happens-if-you-unenroll-your-device-from-intune-android.md) (Что происходит при отмене регистрации устройства в Intune?).
 
@@ -39,10 +39,10 @@ ms.openlocfilehash: 4f5088bc645fed0451885078f5ab0dcd04a33d81
 
     Теперь можно удалить приложение корпоративного портала.
 
-По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
+По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо [команде разработчиков Майкрософт для Android](mailto:wintunedroidfbk@microsoft.com).
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

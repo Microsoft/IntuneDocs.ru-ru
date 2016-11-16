@@ -2,10 +2,10 @@
 title: "Отмена регистрации устройства с Windows в Intune | Microsoft Intune"
 description: "Сведения об отмене регистрации устройства с Windows в Intune"
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,24 +14,24 @@ ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: b3dda0cda3600721db5f2ea73166652abff7a44d
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: e71dece9a286ecb086197959739b0f4cb66c856d
 
 
 ---
 
 
-# Отмена регистрации устройства с Windows в Intune
+# <a name="unenroll-your-windows-device-from-intune"></a>Отмена регистрации устройства с Windows в Intune
 
 Если вы зарегистрированы в Intune, но больше не хотите использовать устройство Windows для работы или учебы и вам не нужен доступ к рабочей или учебной почте, приложениям или другим ресурсам, необходимо отменить регистрацию устройства. После отмены регистрации устройства в Intune вы больше не сможете получить доступ к этим ресурсам. Дополнительные сведения о том, что происходит при отмене регистрации, см. в статье [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)
 
 Для отмены регистрации устройства выберите ссылку из раздела "В данной статье" выше в соответствии с типом используемого устройства:
 
 -   [Отмена регистрации устройства с Windows 10](#unenroll-your-windows-10-device)
--   [Отмена регистрации компьютера с Windows 8.1](#unenroll-your-windows-8-1-computer)
--   [Отмена регистрации устройства с Windows Phone 8.1](#unenroll-your-windows-phone-8-1-device)
+-   [Отмена регистрации компьютера с Windows 8.1](#unenroll-your-windows-8-1-computer)
+-   [Отмена регистрации устройства с Windows Phone 8.1](#unenroll-your-windows-phone-8-1-device)
 
-## Отмена регистрации устройства с Windows 10
+## <a name="unenroll-your-windows-10-device"></a>Отмена регистрации устройства с Windows 10
 
 1.  В списке приложений коснитесь приложения **Портал компании** .
 
@@ -41,7 +41,7 @@ ms.openlocfilehash: b3dda0cda3600721db5f2ea73166652abff7a44d
 
 4.  Нажмите **Удалить** &gt; **Удалить**.
 
-## Отмена регистрации компьютера с Windows 8.1
+## <a name="unenroll-your-windows-81-computer"></a>Отмена регистрации компьютера с Windows 8.1
 
 1.  Перейдите в раздел **Параметры ПК** &gt; **Сеть** &gt; **Рабочая область**.
 
@@ -51,7 +51,7 @@ ms.openlocfilehash: b3dda0cda3600721db5f2ea73166652abff7a44d
 
 4.  В открывшемся всплывающем окне выберите **Отключить**.
 
-## Отмена регистрации устройства с Windows Phone 8.1
+## <a name="unenroll-your-windows-phone-81-device"></a>Отмена регистрации устройства с Windows Phone 8.1
 
 1.  Выберите **Параметры** &gt; **Рабочее место**.
 
@@ -65,6 +65,6 @@ ms.openlocfilehash: b3dda0cda3600721db5f2ea73166652abff7a44d
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

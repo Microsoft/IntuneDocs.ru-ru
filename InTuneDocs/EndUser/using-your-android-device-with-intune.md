@@ -2,10 +2,10 @@
 title: "Использование устройства Android в Intune | Microsoft Intune"
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве Android, зарегистрированном в Intune"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
-ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
 
 
 ---
 
 
-# Использование устройства Android с Intune
+# <a name="using-your-android-device-with-intune"></a>Использование устройства Android с Intune
 
 Эта статья содержит ссылки на все задачи, которые пользователи могут выполнять на своих устройствах, управляемых Intune. ИТ-администраторы могут использовать эту информацию, чтобы узнать, что пользователям нужно делать для выполнения различных задач, сгруппированных по следующим категориям:
 
@@ -29,7 +29,7 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 - Задачи управления после регистрации
 - Проблемы с соответствием
 
-## Установка приложения корпоративного портала и регистрация в Intune
+## <a name="company-portal-app-installation-and-intune-enrollment"></a>Установка приложения корпоративного портала и регистрация в Intune
 
 Этот раздел содержит сведения об установке корпоративного портала Intune и регистрации устройств Android.
 
@@ -37,9 +37,9 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 - [Создание профиля работы и регистрация устройства в Intune](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
 - [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 
-## Что вы можете делать, когда ваше устройство зарегистрировано в Intune
+## <a name="things-users-can-do-when-their-device-is-enrolled-in-intune"></a>Что могут делать пользователи, если их устройства зарегистрированы в Intune
 
-Этот раздел содержит сведения о действиях, которые можно предпринять после регистрации устройства Android в Intune.
+Этот раздел содержит сведения о действиях, которые можно выполнять после регистрации устройства Android в Intune.
 
 - [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-android.md)
 - [Шифрование устройства](encrypt-your-device-android.md)
@@ -54,9 +54,9 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 - [Что происходит при сбросе вашего устройства Android с помощью приложения корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
 <!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
 
-## Устранение проблем с устройством
+## <a name="steps-to-fix-device-and-compliance-issues"></a>Устранение проблем с устройством и соответствием
 
-Этот раздел содержит сведения об устранении проблем, с которыми вы можете столкнуться при регистрации устройства Android в Intune.
+Этот раздел содержит сведения об устранении проблем, с которыми пользователи могут столкнуться при регистрации устройства Android в Intune.
 
 - [Использование подробного ведения журналов, чтобы помочь ИТ-администратору с устранением проблем на устройстве](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 - [Отправка журналов диагностических данных ИТ-администратору по электронной почте](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
@@ -66,15 +66,15 @@ ms.openlocfilehash: 21517d4aa198771ce26dedbfc8f00f54d21c7f2a
 - [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply-with-maximum-operating-system-version-android.md)
 - [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
 - [Устройство не имеет необходимого сертификата](your-device-is-missing-a-required-certificate-android.md)
-- [Вам предложено отключить неизвестные источники.](you-are-asked-to-turn-off-unknown-sources-android.md)
-- [Вам предложено отключить режим отладки по USB.](you-are-asked-to-turn-off-usb-debugging-android.md)
-- [Вам предложено включить проверку устройств на предмет угроз безопасности.](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
-- [На устройстве отсутствует минимальная версия исправления безопасности.](your-device-does-not-meet-the-minimum-security-patch-android.md)
+- [Вам предложено отключить неизвестные источники](you-are-asked-to-turn-off-unknown-sources-android.md)
+- [Вам предложено отключить режим отладки по USB](you-are-asked-to-turn-off-usb-debugging-android.md)
+- [Вам предложено включить проверку устройств на предмет угроз безопасности](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
+- [На устройстве отсутствует минимальная версия исправления безопасности](your-device-does-not-meet-the-minimum-security-patch-android.md)
 - [Вам предложено установить Lookout for Work на устройстве Android](you-are-prompted-to-install-lookout-for-work-android.md)
 - [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

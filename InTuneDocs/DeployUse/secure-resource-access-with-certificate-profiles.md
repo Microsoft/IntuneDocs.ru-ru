@@ -2,9 +2,10 @@
 title: "Профили сертификатов для доступа к ресурсам | Microsoft Intune"
 description: "Защита доступа к VPN, Wi-Fi и электронной почте с помощью сертификата, устанавливаемого на каждом устройстве пользователя."
 keywords: 
-author: Nbigman
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +14,13 @@ ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0ced62efd04803943cbbfd8cecef907409a03c0b
-ms.openlocfilehash: b5b0270468cbb1e5bbd2a3b4970329a467927cee
+ms.sourcegitcommit: 56988f0a69e6ff281439e6e77d1814ec130c8b49
+ms.openlocfilehash: ee10ea01bb2e55a1c8b52a7ec0bdaf14f3c297f1
 
 
 ---
 
-# Защита доступа к ресурсам с помощью профилей сертификатов в Microsoft Intune
+# <a name="secure-resource-access-with-certificate-profiles-in-microsoft-intune"></a>Защита доступа к ресурсам с помощью профилей сертификатов в Microsoft Intune
 При предоставлении пользователям доступа к корпоративным ресурсам через профили VPN, Wi-Fi или электронной почты можно обеспечить безопасность доступа, установив сертификат на каждом устройстве. Это работает следующим образом.
 
 1. Настройте подходящую инфраструктуру сертификатов, как описано в статьях [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) и [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md).
@@ -28,13 +29,17 @@ ms.openlocfilehash: b5b0270468cbb1e5bbd2a3b4970329a467927cee
  -  Устройства iOS 8.0 и более поздней версии
  -  Mac OS X 10.9 и более поздние версии
  -  Android 4.0 и более поздней версии
+ -  Android for Work
  -  Windows 8.1 и более поздние версии
  -  Windows Phone 8.1 и более поздней версии
+
+[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 3. Создайте профили сертификатов, чтобы устройства запрашивали сертификат, используемый для проверки подлинности доступа к VPN, Wi-Fi и электронной почте, как описано в статье [Настройка профилей сертификатов Intune](configure-intune-certificate-profiles.md). Можно создать и развернуть **профиль сертификата PKCS 12 (PFX)** *или* **профиль сертификата SCEP** для устройств на следующих платформах:
 
   -  Устройства iOS 8.0 и более поздней версии
   -  Android 4.0 и более поздней версии
+  -  Android for Work
   -  Windows 10 (Desktop и Mobile) и более поздних версий
 
   Используйте **профиль сертификата SCEP** для устройств на следующих платформах:
@@ -49,13 +54,13 @@ ms.openlocfilehash: b5b0270468cbb1e5bbd2a3b4970329a467927cee
 >-  Если вы планируете использовать профили SCEP или PFX, необходимо скачать и настроить соединитель сертификатов Microsoft Intune.
 >-  Сведения о настройке всех необходимых служб описаны в статьях [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) и [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md).
 
-### Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие действия
 - [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md)
-- [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-pfx.md)
+- [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md)
 - [Настройка профилей сертификатов Intune](configure-intune-certificate-profiles.md)
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 
