@@ -3,8 +3,9 @@ title: "Ограничение доступа электронной почты 
 description: "Защита и контроль доступа к корпоративной электронной почте в локальной организации Exchange с помощью условного доступа."
 keywords: 
 author: karthikaraman
+ms.author: karaman
 manager: angrobe
-ms.date: 07/18/2016
+ms.date: 10/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +14,13 @@ ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 651e352161f8d0e1e4a9a0cb1944ebb5f7003e0e
-ms.openlocfilehash: b902da2f077a3b18157eca9501d86c916c32a8a0
+ms.sourcegitcommit: 56988f0a69e6ff281439e6e77d1814ec130c8b49
+ms.openlocfilehash: 4e8bf567601ad181238b74644b4c282e8f5bbf36
 
 
 ---
 
-# Ограничение доступа к электронной почте в локальной организации Exchange и прежней выделенной среде Exchange Online с помощью Intune
+# <a name="restrict-email-access-to-exchange-onpremises-and-legacy-exchange-online-dedicated-with-intune"></a>Ограничение доступа к электронной почте в локальной организации Exchange и прежней выделенной среде Exchange Online с помощью Intune
 
 
 Если для выделенной среды Exchange Online требуется определить, используется ли в ней новая или устаревшая конфигурация, обратитесь к менеджеру по работе с клиентами.
@@ -57,26 +58,30 @@ ms.openlocfilehash: b902da2f077a3b18157eca9501d86c916c32a8a0
 
 Следующая схема показывает процедуру, применяемую политиками условного доступа для локальной организации Exchange, чтобы предоставить или заблокировать доступ для устройств:
 
-![Схема, показывающая точки принятия решений, которые определяют, разрешен ли устройству доступ к локальной организации Exchange](../media/ConditionalAccess8-2.png) Если политика условного доступа не соблюдается, то при входе в систему пользователь получает одно из следующих сообщений:
+![Схема, показывающая точки принятия решений, которые определяют, разрешен ли устройству доступ к локальной организации Exchange](../media/ConditionalAccess8-2.png). Если политика условного доступа не соблюдается, то при входе в систему пользователь получает одно из следующих сообщений:
 
 - Если устройство не зарегистрировано в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] либо в Azure Active Directory, выводится сообщение с инструкциями о том, как установить приложение корпоративного портала, выполнить регистрацию и активировать электронную почту. Этот процесс также связывает идентификатор Exchange ActiveSync устройства с записью в Azure Active Directory.
 
 -   Если устройство не соответствует требованиям, отображается сообщение, направляющее пользователя на веб-сайт или в приложение корпоративного портала [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], где можно найти сведения о данной проблеме и способах ее решения.
 
-## Поддержка мобильных устройств
--   Windows Phone 8 и более поздней версии.
+## <a name="support-for-mobile-devices"></a>Поддержка мобильных устройств
+-   Windows Phone 8.1 и более поздней версии
 
 -   Собственное почтовое приложение в iOS
 
--   Почтовые клиенты EAS, например Gmail на Android 4 или более поздней версии
+-   Почтовые клиенты EAS, например Gmail на Android 4 или более поздней версии.
+- Почтовые клиенты EAS на **устройствах Android for Work.** На устройствах Android for Work поддерживаются только приложения **Gmail** и **Nine Work** в **профиле работы**. Чтобы условный доступ работал для Android for Work, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work, а также развернуть эти приложения в качестве обязательной установки. 
+
+[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
+
 > [!NOTE]
 > Приложение Microsoft Outlook в iOS и Android не поддерживается.
 
-## Поддержка для ПК
+## <a name="support-for-pcs"></a>Поддержка для ПК
 
-Приложение **Почта** в Windows 8 и более поздних версиях (при регистрации в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)])
+Приложение **Почта** в Windows 8.1 и более поздних версиях (при регистрации в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)])
 
-##  Настройка политики условного доступа
+##  <a name="configure-a-conditional-access-policy"></a>Настройка политики условного доступа
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** > **Условный доступ** > **Локальная политика Exchange**.
 ![IntuneSA5aSelectExchOnPremPolicy](../media/IntuneSA5aSelectExchOnPremPolicy.png)
@@ -114,15 +119,15 @@ ms.openlocfilehash: b902da2f077a3b18157eca9501d86c916c32a8a0
 
 -   Если пользователь отменяет регистрацию из [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], блокировка устройства может занять от 1 до 3 часов.
 
-**Примеры сценариев по настройке политики условного доступа для ограничения доступа к устройству см. в статье с [Примеры сценариев ограничения доступа к электронной почте](restrict-email-access-example-scenarios.md).**
+**Примеры сценариев по настройке политики условного доступа для ограничения доступа к устройству см. в статье [Примеры сценариев ограничения доступа к электронной почте](restrict-email-access-example-scenarios.md).**
 
-## Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 [Ограничение доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 [Ограничение доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Sep16_HO5-->
+<!--HONumber=Nov16_HO1-->
 
 

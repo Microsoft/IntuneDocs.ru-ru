@@ -2,10 +2,10 @@
 title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune? | Microsoft Intune"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/16/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
-ms.openlocfilehash: bf3d0db1b4322ff417e96331b29faabd046abb65
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 8843fe7854db72cf3983dc9a6ab44c1517d92b60
 
 
 ---
 
 
-# Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-android-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune?
 
 Когда вы устанавливаете приложение корпоративного портала и затем регистрируете устройство Android в Intune, это приложение можно использовать, чтобы:
 
@@ -56,10 +56,10 @@ ms.openlocfilehash: bf3d0db1b4322ff417e96331b29faabd046abb65
 
 -   Отправка обновлений инвентаризации для корпоративных приложений. (Эти обновления не содержат личных сведений.)
 
-Требуется помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо команде разработчиков Майкрософт для Android по адресу wintunedroidfbk@microsoft.com.
+Требуется помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо [команде разработчиков Майкрософт для Android](mailto:wintunedroidfbk@microsoft.com).
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

@@ -2,10 +2,10 @@
 title: "Ограничение доступа к сетям с помощью Cisco ISE | Microsoft Intune"
 description: "Используйте Cisco ISE с Intune, чтобы регистрировать устройства в Intune и обеспечивать соответствие политикам до того, как они получат доступ к сетям Wi-Fi и VPN, управляемым Cisco ISE."
 keywords: 
-author: nbigman
-ms.author: nbigman
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 10/05/2016
+ms.date: 11/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,23 +14,23 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 625d0851446c9cf54e704a62c9afe79cac263665
-ms.openlocfilehash: 44dc8ce90537580ef30ba4b8c9f3ee2dd5e20c24
+ms.sourcegitcommit: 1dd3fde8119b54f574265c2ca9cf62cee9e77b01
+ms.openlocfilehash: bd6307cd8ff465bbce3de124ffdb444333d12efe
 
 
 ---
 
-# Использование Cisco ISE с Microsoft Intune
+# <a name="using-cisco-ise-with-microsoft-intune"></a>Использование Cisco ISE с Microsoft Intune
 Интеграция Intune с Cisco Identity Services Engine (ISE) позволяет создавать политики сети в среде ISE с помощью регистрации устройств и состояния соответствия Intune. Эти политики позволяют гарантировать, что доступ к сети организации будут иметь только устройства, управляемые Intune и соответствующие политикам Intune.
 
-## Шаги настройки
+## <a name="configuration-steps"></a>Шаги настройки
 
 Для использования такой интеграции не нужно настраивать клиент Intune. Вам потребуется предоставить серверу Cisco ISE разрешения для доступа к вашему клиенту Intune. Дальнейшая настройка выполняется на сервере Cisco ISE. В этой статье приводятся инструкции по предоставлению серверу ISE разрешений на доступ к клиенту Intune.
 
-### Шаг 1. Управление сертификатами
+### <a name="step-1-manage-the-certificates"></a>Шаг 1. Управление сертификатами
 Экспортируйте сертификат из консоли Azure Active Directory (Azure AD), а затем импортируйте его в хранилище доверенных сертификатов консоли ISE.
 
-#### Internet Explorer 11
+#### <a name="internet-explorer-11"></a>Internet Explorer 11
 
 
    а. Запустите Internet Explorer от имени администратора и выполните вход в консоль Azure AD.
@@ -47,7 +47,7 @@ ms.openlocfilehash: 44dc8ce90537580ef30ba4b8c9f3ee2dd5e20c24
 
    ж. В консоли ISE импортируйте сертификат Intune (экспортированный файл) в хранилище **Доверенных сертификатов**.
 
-#### Safari
+#### <a name="safari"></a>Safari
 
  а. Войдите в консоль Azure AD.
 
@@ -64,18 +64,19 @@ b. Щелкните значок замка &gt; **Дополнительные 
 > Проверьте срок действия сертификата, поскольку по истечении срока действия этого сертификата потребуется экспортировать и импортировать новый.
 
 
-### Получите самозаверяющий сертификат в системе ISE. 
+### <a name="obtain-a-selfsigned-cert-from-ise"></a>Получите самозаверяющий сертификат в системе ISE. 
 
 1.  В консоли ISE последовательно выберите **Администрирование** > **Сертификаты** > **Сертификаты системы** > **Создать самозаверяющий сертификат**.  
 2.       Экспортируйте самозаверяющий сертификат.
 3. В текстовом редакторе отредактируйте экспортированный сертификат.
+
  - Удалите строку ** -----BEGIN CERTIFICATE-----**.
  - Удалите строку ** -----END CERTIFICATE-----**.
  
 Убедитесь, что весь текст представляет собой одну строку.
 
 
-### Шаг 2. Создание приложения для ISE в клиенте Azure AD
+### <a name="step-2-create-an-app-for-ise-in-your-azure-ad-tenant"></a>Шаг 2. Создание приложения для ISE в клиенте Azure AD
 1. В консоли Azure AD выберите **Приложения** > **Добавить приложение** > **Добавить приложение, разрабатываемое моей организацией**.
 2. Укажите имя и URL-адрес приложения. URL-адрес может быть веб-сайтом вашей компании.
 3. Загрузите манифест приложения (файл JSON).
@@ -99,7 +100,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 |Конечная точка маркера OAuth 2.0|URL-адрес издания маркера|
 |Добавьте в ваш код ИД клиента|Идентификатор клиента|
 
-### Шаг 4. Отправка самозаверяющего сертификата из среды в ISE в приложение ISE, созданное в Azure AD
+### <a name="step-4-upload-the-selfsigned-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>Шаг 4. Отправка самозаверяющего сертификата из среды в ISE в приложение ISE, созданное в Azure AD
 1.     Получите отпечаток и значение сертификата в кодировке base64 из CER-файла открытого сертификата X.509. В этом примере используется PowerShell.
    
       
@@ -136,7 +137,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 > KeyCredentials — это коллекция, поэтому можно отправлять несколько сертификатов X.509 для сценариев развертывания, а также удалять сертификаты в случае нарушения безопасности.
 
 
-### Шаг 4. Настройка параметров ISE
+### <a name="step-4-configure-ise-settings"></a>Шаг 4. Настройка параметров ISE
 В консоли администрирования ISE задайте следующие значения параметров.
   - **Тип сервера**: Mobile Device Manager.
   - **Тип проверки подлинности**: OAuth, учетные данные клиента.
@@ -147,7 +148,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 
 
 
-## Данные, которыми обмениваются клиент Intune и сервер Cisco ISE
+## <a name="information-shared-between-your-intune-tenant-and-your-cisco-ise-server"></a>Данные, которыми обмениваются клиент Intune и сервер Cisco ISE
 В следующей таблице приведены данные, которыми обмениваются клиент Intune и сервер Cisco ISE для устройств, управляемых Intune.
 
 |Свойство|  Описание|
@@ -166,7 +167,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 |lastContactTimeUtc|Дата и время, когда устройство последний раз регистрировалось в службе управления Intune.
 
 
-## Взаимодействие с пользователем
+## <a name="user-experience"></a>Взаимодействие с пользователем
 
 Когда пользователь пытается получить доступ к ресурсам с помощью незарегистрированного устройства, он получит приглашение для регистрации, как показано ниже.
 
@@ -174,20 +175,20 @@ b. Щелкните значок замка &gt; **Дополнительные 
 
 Если пользователь выберет регистрацию, он будет перенаправлен к процедуре регистрации Intune. Процедура регистрации пользователей для Intune описана в следующих разделах:
 
-- [Регистрация устройства Android в Intune](/intune/enduser/enroll-your-device-in-Intune-android)</br>
-- [Регистрация устройства iOS в Intune](/intune/enduser/enroll-your-device-in-intune-ios)</br>
-- [Регистрация устройства Mac OS X в Intune](/intune/enduser/enroll-your-device-in-intune-mac-os-x)</br>
-- [Регистрация устройства Windows в Intune](/intune/enduser/enroll-your-device-in-intune-windows)</br>
+- [Регистрация устройства с Android в Intune](/intune/enduser/enroll-your-device-in-Intune-android)</br>
+- [Регистрация устройства с iOS в Intune](/intune/enduser/enroll-your-device-in-intune-ios)</br>
+- [Регистрация устройства с Mac OS X в Intune](/intune/enduser/enroll-your-device-in-intune-mac-os-x)</br>
+- [Регистрация устройства с Windows в Intune](/intune/enduser/enroll-your-device-in-intune-windows)</br>
 
 Также можно [загрузить набор инструкций по регистрации](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a), с помощью которых можно составить свое собственное руководство для пользователей.
 
 
-### См. также
+### <a name="see-also"></a>См. также
 
 [Руководство администратора по Cisco Identity Services Engine, выпуск 2.1](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html#task_820C9C2A1A6647E995CA5AAB01E1CDEF)
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO1-->
 
 

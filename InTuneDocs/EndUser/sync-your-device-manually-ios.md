@@ -2,9 +2,10 @@
 title: "Синхронизация устройства iOS вручную | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,26 +15,26 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 38301b4e6964550008b08e99bf7016f1cc2561c3
-ms.openlocfilehash: 54633d57fc1898c70abf1f37cff08e2dd553e5a1
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: a08a9865463edcea2308df33fb40635d9466091f
 
 
 ---
 
 
-# Синхронизация устройства iOS вручную.
+# <a name="sync-your-ios-device-manually"></a>Синхронизация устройства iOS вручную.
 
-Если установка приложения занимает слишком много времени, воспользуйтесь приведенными ниже инструкциями, чтобы синхронизировать устройство iOS вручную, что ускоряет установку. Эта функция синхронизации доступна только для iOS, но не для Mac OS X.
+Если установка приложения выполняется слишком долго, можно попробовать синхронизировать устройство Windows вручную. Синхронизация вручную может помочь ускорить установку. Эта функция синхронизации доступна только для iOS, но не для Mac OS X.
 
 1. Откройте приложение корпоративного портала iOS.
 
-2. В разделе **Мои устройства** выберите используемое сейчас устройство. Это крайняя левая плитка устройства с галочкой.
+2. В разделе **Мои устройства** выберите используемое сейчас устройство. Это крайняя левая плитка устройства с установленным флажком.
 
-    ![ios-sync-1-comp-portal-apps](./media/ios-sync-1-comp-portal-apps.png)
+    ![Экран устройства с разделом "Мои устройства"](./media/ios-sync-1-comp-portal-apps.png)
 
 3.  Нажмите кнопку **Синхронизация** в правом нижнем углу экрана.
 
-    ![ios-sync-2-sync-button](./media/ios-sync-2-sync-button.png)
+    ![Сведения об устройстве и кнопка "Синхронизация"](./media/ios-sync-2-sync-button.png)
 
 Вращающийся круг отображается на экране до завершения синхронизации.
 
@@ -41,7 +42,6 @@ ms.openlocfilehash: 54633d57fc1898c70abf1f37cff08e2dd553e5a1
 
 
 
-
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Nov16_HO1-->
 
 

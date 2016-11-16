@@ -2,7 +2,8 @@
 title: "Требования к сетевой инфраструктуре | Microsoft Intune"
 description: "Требования к брандмауэру, порту, домену и прокси-серверу Intune."
 keywords: 
-author: barlanmsft
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article
@@ -13,8 +14,8 @@ ms.assetid: 074de65b-84a5-4a01-a824-18ffd838eab0
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 073e3df63a5de9cf92c739c1ced858e21a9ac351
-ms.openlocfilehash: aa4d2219a5962d83b80630ed3a09660a76469764
+ms.sourcegitcommit: 0d422b421c3716ad576c4fc565b181dec28c947e
+ms.openlocfilehash: 178d9fc474588c088ed510098dc71bc763695b3c
 
 
 ---
@@ -29,7 +30,7 @@ ms.openlocfilehash: aa4d2219a5962d83b80630ed3a09660a76469764
 Для управления компьютерами, находящимися за брандмауэрами и прокси-серверами, необходимо настроить эти брандмауэры и прокси-серверы для разрешения подключения к Intune.
 
 ## Требования к брандмауэрам, портам и доменам
-Управляемые устройства должны иметь конфигурации с выбранным параметром **Все пользователи**, чтобы все пользователи могли получать доступ к различным службам через брандмауэры.
+Управляемые устройства должны иметь конфигурации с выбранным параметром **Все пользователи**, чтобы все пользователи могли получать доступ к службам через брандмауэры.
 
 В следующей таблице приводится перечень доменов и служб, к которым обращается клиент Intune.
 
@@ -170,6 +171,6 @@ ms.openlocfilehash: aa4d2219a5962d83b80630ed3a09660a76469764
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Oct16_HO4-->
 
 

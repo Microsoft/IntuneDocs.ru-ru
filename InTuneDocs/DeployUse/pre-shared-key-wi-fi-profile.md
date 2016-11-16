@@ -2,9 +2,10 @@
 title: "Подключения Wi-F с PSK | Microsoft Intune"
 description: "Сведения об использовании настраиваемой конфигурации для создания профиля Wi-Fi с общим ключом."
 keywords: 
-author: nbigman
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +14,13 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b7f11f752f6c38736a2dfa5875050f50bd86bae4
-ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
+ms.sourcegitcommit: 71237aabac763e33d7973d0d169291bd7fa1df32
+ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
 
 
 
 ---
-# Создание профиля Wi-Fi с общим ключом
+# <a name="use-a-custom-policy-to-create-a-wifi-profile-with-a-preshared-key"></a>Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом
 В этом разделе содержатся сведения об использовании **настраиваемой конфигурации** Intune для создания профиля Wi-Fi с общим ключом. Здесь также приводится пример создания профиля Wi-Fi на основе EAP.
 
 > [!NOTE]
@@ -48,8 +49,7 @@ ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
     > [!NOTE]
 В начале обязательно должна стоять точка.
 
-    SSID — это SSID, для которого создается политика. Например,
-    `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
+    SSID — это SSID, для которого создается политика. Например, `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
   д. **Поле значения** служит для вставки XML-кода. Вот пример. Каждое значение должно быть адаптировано для параметров сети. Некоторые сведения приведены в разделе комментариев кода.
 4. Нажмите кнопку **ОК**, а затем сохраните и разверните политику.
@@ -58,13 +58,13 @@ ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
     > Эта политика может быть развернута только для групп пользователей.
 
 При каждой следующей регистрации устройства применяется политика и на устройстве создается профиль Wi-Fi. Устройство будет автоматически подключено к сети.
-## Профиль Wi-Fi для Android или Windows
+## <a name="android-or-windows-wifi-profile"></a>Профиль Wi-Fi для Android или Windows
 
 Ниже приведен пример XML-кода для профиля Wi-Fi для Android или Windows:
 
 > [!IMPORTANT]
 > 
-> `<protected>false</protected>`необходимо задать значение **false**, так как при установке значения **true** устройство может ожидать зашифрованный пароль и затем попытается расшифровать его, что может привести к сбою подключения.
+> `<protected>false</protected>`необходимо задать значение **false**, так как при установке значения **true** устройство может ожидать зашифрованного пароля и затем попытается расшифровать его, что может привести к сбою подключения.
 > 
 >  `<hex>53534944</hex>` должно быть присвоено шестнадцатеричное значение `<name><SSID of wifi profile></name>`.
 >  Устройства с Windows 10 могут возвращать ложную ошибку *0x87D1FDE8: сбой исправления*. При этом устройство все равно будет подготовлено с указанным профилем.
@@ -109,7 +109,7 @@ ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
       </MSM>
     </WLANProfile>
 
-## Профиль Wi-Fi на основе EAP
+## <a name="eapbased-wifi-profile"></a>Профиль Wi-Fi на основе EAP
 Ниже приведен пример XML-кода для профиля Wi-Fi на основе EAP.
 
     <WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
@@ -190,7 +190,7 @@ ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
       </MSM>
     </WLANProfile>
 
-## Создание XML-файла из существующего подключения Wi-Fi
+## <a name="create-the-xml-file-from-an-existing-wifi-connection"></a>Создание XML-файла из существующего подключения Wi-Fi
 Можно также создать XML-файл из существующего подключения Wi-Fi.
 1. На компьютере, который подключен или недавно был подключен к беспроводной сети, откройте следующую папку: C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid}.
 
@@ -198,7 +198,7 @@ ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
 3.     Выполните поиск в XML-файлах, чтобы найти нужный файл.
 4.     После нахождения нужного XML-файла скопируйте и вставьте XML-код в поле данных на странице параметров OMA-URI.
 
-## Развертывание политики
+## <a name="deploy-the-policy"></a>Развертывание политики
 
 1.  В рабочей области **Политика** выберите политику, которую требуется развернуть, а затем щелкните **Управление развертыванием**.
 
@@ -210,11 +210,11 @@ ms.openlocfilehash: 14e43dadc0d7bc20238ec87447f311fdc864d891
 
 При выборе развернутой политики можно просмотреть дополнительные сведения о развертывании в нижней части списка политик.
 
-### См. также
+### <a name="see-also"></a>См. также
 [Подключения Wi-Fi в Microsoft Intune](wi-fi-connections-in-microsoft-intune.md)
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

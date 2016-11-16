@@ -2,10 +2,10 @@
 title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows в Intune? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
-ms.openlocfilehash: 678ef01b215442e3d767a38388a579c6ee329975
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 2d56c2f23fd70ab0ca593d1ad5d60889e5855a7a
 
 
 ---
 
 
-# Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows в Intune?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows в Intune?
 
 Когда вы устанавливаете приложение корпоративного портала, а затем используете его для регистрации устройства с Windows или Windows Phone, вы предоставляете ИТ-администратору возможность управлять этим устройством. Это позволяет защитить данные предприятия или учебного заведения. В этом разделе описывается, что происходит с устройствами с операционными системами, предшествующими Windows 10. Сведения для устройств с Windows 10 см. в [связанном разделе](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md).
 
-## Что происходит со всеми устройствами с Windows после регистрации?
+## <a name="what-happens-to-all-windows-devices-after-enrollment"></a>Что происходит со всеми устройствами с Windows после регистрации?
 Регистрация устройства с Windows или Windows Phone в Intune позволяет:
 
 -   получить доступ к локальной сети, почте и рабочим файлам;
@@ -53,7 +53,7 @@ ms.openlocfilehash: 678ef01b215442e3d767a38388a579c6ee329975
 
 -   Запретить делать фото данных, относящихся к организации.
 
-## Что происходит со всеми компьютерами с Windows после регистрации?
+## <a name="what-happens-to-all-windows-pcs-after-enrollment"></a>Что происходит со всеми компьютерами с Windows после регистрации?
 
 -  На компьютере будет установлено программное обеспечение, позволяющее ИТ-администратору управлять компьютером, а вам — пользоваться корпоративными ресурсами, такими как приложения и сведения о поддержке. ИТ-администратор может автоматически обновлять это программное обеспечение.
 
@@ -63,7 +63,7 @@ ms.openlocfilehash: 678ef01b215442e3d767a38388a579c6ee329975
 
 -  ИТ-администратор сможет устанавливать приложения и обновления на компьютере.
 
-## Что происходит каждые восемь часов после регистрации устройства?
+## <a name="what-happens-every-eight-hours-after-device-enrollment"></a>Что происходит каждые восемь часов после регистрации устройства?
 Приблизительно каждые восемь часов будет происходить следующее.
 
 -   Загрузка обновлений политик и приложений, опубликованных вашим ИТ-администратором.
@@ -76,6 +76,6 @@ ms.openlocfilehash: 678ef01b215442e3d767a38388a579c6ee329975
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/14/2016
+ms.date: 11/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7b4acce1b1861ca2c2d1432b0258ad1e95e46d2a
-ms.openlocfilehash: 2959ad5f09be686e4dae9b751e8ede5e6b60bd89
+ms.sourcegitcommit: 24411fdefa3f1e4e89c66d23448360934a5de7c7
+ms.openlocfilehash: f91c3530599b75093f536fd85eaf21d0b4e86e50
 
 
 ---
@@ -28,21 +28,21 @@ ms.openlocfilehash: 2959ad5f09be686e4dae9b751e8ede5e6b60bd89
 Разверните параметры беспроводной сети для пользователей. Эти параметры упрощают подключение к корпоративной сети.
 #### <a name="supported-platforms"></a>Поддерживаемые платформы
 
-|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX|
+|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |Да (вы можете импортировать профиль Wi-Fi Windows)|Да (вы можете настроить OMA-URI) |да|Да|да|
 
 ## <a name="vpn-profilesvpnconnectionsinmicrosoftintunemd-and-supported-platforms"></a>[Профили VPN](vpn-connections-in-microsoft-intune.md) и поддерживаемые платформы
 Разверните параметры виртуальной частной сети (VPN) для своих пользователей. Эти параметры упрощают подключение к ресурсам в корпоративной сети.
 
-|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX|
+|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |да|Да|Да|Да|да|
 
 ## <a name="email-profilesconfigureaccesstocorporateemailusingemailprofileswithmicrosoftintunemd-and-supported-platforms"></a>[Профили электронной почты](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) и поддерживаемые платформы
 Создание, развертывание и отслеживание параметров собственных почтовых клиентов на устройствах в организации.
 
-|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX|
+|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |Нет|Да|Да|Нет|да|
 > [!NOTE]
@@ -51,12 +51,12 @@ ms.openlocfilehash: 2959ad5f09be686e4dae9b751e8ede5e6b60bd89
 ## <a name="certificate-profilessecureresourceaccesswithcertificateprofilesmd-and-supported-platforms"></a>[Профили сертификатов](secure-resource-access-with-certificate-profiles.md) и поддерживаемые платформы
 Помогите обеспечить безопасный доступ к ресурсам компании, включая беспроводные сети и VPN-подключения.
 
-|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX|
+|Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |да|Да|Да|Да|да|
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

@@ -2,7 +2,7 @@
 title: "Предложение установить Lookout for Work на устройстве iOS | Microsoft Intune"
 description: 
 keywords: 
-author: barlan
+author: barlanmsft
 ms.author: barlan
 manager: angrobe
 ms.date: 10/17/2016
@@ -13,13 +13,13 @@ ms.technology:
 ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 2edbb8a70458290e69626d85f734d38243a2002a
-ms.openlocfilehash: 03eee971fe74b73983111549338b13bf4068a85c
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 0c1fd681cd2ef9001083df16d4fb7506c47f9572
 
 
 ---
 
-# Предложение установить Lookout for Work на устройстве iOS
+# <a name="you-are-prompted-to-install-lookout-for-work-on-your-ios-device"></a>Предложение установить Lookout for Work на устройстве iOS
 
 Перед тем как вы сможете получить доступ к рабочим файлам, ИТ-администратору необходимо установить приложение Lookout for Work, которое помогает защитить устройство путем поиска потенциальных угроз безопасности. На устройстве могут выводиться различные запросы в зависимости от того, как ИТ-администратор настроил Lookout for Work.
 
@@ -55,6 +55,6 @@ ms.openlocfilehash: 03eee971fe74b73983111549338b13bf4068a85c
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

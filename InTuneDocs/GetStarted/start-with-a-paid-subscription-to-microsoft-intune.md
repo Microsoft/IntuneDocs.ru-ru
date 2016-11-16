@@ -2,7 +2,8 @@
 title: "Краткое руководство по Intune | Microsoft Intune"
 description: "Требования и предварительные условия, которые следует выполнить перед использованием подписки Intune."
 keywords: 
-author: barlanmsft
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article
@@ -13,14 +14,14 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0c1e08cc49d75303f6793894e3c8a040f6e7a8b1
-ms.openlocfilehash: aecd5f76e234835c38bf47d8de7e13034d683998
+ms.sourcegitcommit: 0d422b421c3716ad576c4fc565b181dec28c947e
+ms.openlocfilehash: 2e385a6f1721c7b8acbc1e280b8d8c3277fa00f8
 
 
 ---
 
 
-# Руководство по быстрому запуску Intune
+# Краткое руководство по Intune
 Это краткое руководство содержит инструкции по настройке платной подписки Microsoft Intune, что позволит легко и быстро управлять мобильными устройствами и компьютерами с Windows в вашей организации. Вы можете выполнять все действия подряд, а также пропускать те из них, которые не распространяются на вашу среду или бизнес-требования.
 
 >[!NOTE]
@@ -75,6 +76,6 @@ ms.openlocfilehash: aecd5f76e234835c38bf47d8de7e13034d683998
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Oct16_HO4-->
 
 

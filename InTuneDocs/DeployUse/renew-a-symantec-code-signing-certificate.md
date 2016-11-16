@@ -2,8 +2,8 @@
 title: "Обновление сертификата подписи кода Symantec Enterprise, используемого с Intune | Microsoft Intune"
 description: "Руководство по обновлению сертификата Symantec, используемого для управления определенными мобильными устройствами с Windows и Windows Phone."
 keywords: 
-author: NathBarn
-manager: angrobe
+author: staciebarker
+manager: stabar
 ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
@@ -13,17 +13,17 @@ ms.assetid: c4813044-a925-4273-b0ec-e992fd55850a
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e9cbf5858cc4e860b540f421b6d463b8e7a429cf
-ms.openlocfilehash: afb669f1e867b386bfb5a80bbb4a665be7b71478
+ms.sourcegitcommit: 8fd2a90025ae9310a214978cd2d42ea7ad035fa3
+ms.openlocfilehash: 2479f8065a2bb46e63b0e3971700a8d2c0982755
 
 
 ---
 
-# Обновление сертификата подписи кода Symantec Enterprise для устройств Windows
+# <a name="renew-a-symantec-enterprise-codesigning-certificate-for-windows-devices"></a>Обновление сертификата подписи кода Symantec Enterprise для устройств Windows
 
-Сертификат Symantec, используемый для управления определенными мобильными устройствами Windows и Windows Phone, должен периодически обновляться. Для регистрации устройств Windows Phone 8.0 необходимы подписанное приложение портала компании и сертификат подписи кода. Устройства Windows Phone более поздних версий могут использовать приложение корпоративного портала, загруженное из магазина. Сертификат подписи кода также может потребоваться для развертывания бизнес-приложений.
+Сертификат Symantec, используемый для развертывания мобильных приложений Windows и Windows Phone, должен периодически обновляться.
 
-## Инструкции по обновлению корпоративного сертификата Symantec для подписи кода
+## <a name="how-to-renew-the-symantec-enterprise-codesigning-certificate"></a>Инструкции по обновлению корпоративного сертификата Symantec для подписи кода
 
 1.  Дождитесь сообщения электронной почты об обновлении, которое отправляет компания Symantec приблизительно за 14 дней до истечения срока действия сертификата. Это сообщение электронной почты содержит указания компании Symantec об обновлении корпоративного сертификата.
 
@@ -33,7 +33,7 @@ ms.openlocfilehash: afb669f1e867b386bfb5a80bbb4a665be7b71478
 
 3.  После утверждения и оплаты обновления загрузите сертификат.
 
-## Установка обновленного сертификата для Windows Phone 8.0
+## <a name="how-to-install-the-updated-certificate-for-windows-phone-80"></a>Установка обновленного сертификата для Windows Phone 8.0
 
 1.  Скачайте и подпишите последнюю версию портала компании Windows Phone по адресу: [http://www.microsoft.com/en-us/download/details.aspx?id=36060](http://www.microsoft.com/en-us/download/details.aspx?id=36060).
 
@@ -47,7 +47,7 @@ ms.openlocfilehash: afb669f1e867b386bfb5a80bbb4a665be7b71478
 
 Предоставление подписанного файла SSP.xap в настоящее время является единственным способом предоставления обновленного сертификата подписи кода. Для поддержки подписанных бизнес-приложений необходимо подписать и отправить приложение портала компании, даже несмотря на то, что пользователи будут самостоятельно устанавливать приложение портала компании из магазина.
 
-## Установка обновленного сертификата для Windows Phone 8.1 и более поздних устройств
+## <a name="how-to-install-the-updated-certificate-for-windows-phone-81-and-later-devices"></a>Установка обновленного сертификата для Windows Phone 8.1 и более поздних устройств
 
 1.  Скачайте и подпишите последнюю версию портала компании Windows Phone из Центра загрузки по адресу: [http://www.microsoft.com/en-us/download/details.aspx?id=36060](http://www.microsoft.com/en-us/download/details.aspx?id=36060).
 
@@ -60,12 +60,12 @@ ms.openlocfilehash: afb669f1e867b386bfb5a80bbb4a665be7b71478
 5.  Подпишите все новые и обновленные корпоративные бизнес-приложения с помощью нового сертификата. Существующие приложения не требуется заново подписывать и развертывать.
 
 
-### См. также
+### <a name="see-also"></a>См. также
 [Настройка управления Windows Phone 8.0](set-up-windows-phone-8.0-management-with-microsoft-intune.md)
 [Настройка управления Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Oct16_HO4-->
 
 
