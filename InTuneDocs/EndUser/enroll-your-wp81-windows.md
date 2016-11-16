@@ -2,7 +2,8 @@
 title: "Регистрация устройства Windows Phone 8.1 в Intune | Microsoft Intune"
 description: "Описывается, как зарегистрировать устройство с Windows Phone 8.1 в Intune."
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -13,14 +14,14 @@ ms.assetid: 4a120c3d-d520-4d48-ae4c-3338ca4e7bde
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: d1c65c826a978fc5d263cfc0ed4eeee0854d0c3b
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: b4569ec01a0b8c6a8ec06cb9036d7753e34b38d2
 
 
 ---
 
 
-# Регистрация устройства Windows Phone 8.1 в Intune
+# <a name="enroll-your-windows-phone-81-device-in-intune"></a>Регистрация устройства Windows Phone 8.1 в Intune
 
 Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать свои устройства, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет организации обеспечить безопасность корпоративных данных. Дополнительные сведения о регистрации см. в статьях [What happens if you install the Company Portal app and enroll your device in Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) (Что произойдет, если установить приложение "Корпоративный портал" и зарегистрировать устройство в Intune?) и [What your IT administrator can and can't see on your device](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md) (Что ИТ-администратор может и не может видеть на вашем устройстве).
 
@@ -29,9 +30,9 @@ ms.openlocfilehash: d1c65c826a978fc5d263cfc0ed4eeee0854d0c3b
 
 -   [Если ваша компания позволяет использовать корпоративный портал из Магазина Windows](#if-your-company-lets-you-use-the-company-portal-from-the-windows-store)
 
--   [Если у вас нет прав на доступ к Магазину Windows со своего устройства Windows Phone или если у вас нет учетной записи Майкрософт](#if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account)
+-   [Если у вас нет прав на доступ к Магазину Windows со своего устройства Windows Phone или нет учетной записи Майкрософт](#if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account)
 
-## Если ваша компания позволяет использовать корпоративный портал из Магазина Windows
+## <a name="if-your-company-lets-you-use-the-company-portal-from-the-windows-store"></a>Если ваша компания позволяет использовать корпоративный портал из Магазина Windows
 Установите приложение корпоративного портала на устройство.
 
 1.  Выберите **Пуск** &gt; **Магазин**.
@@ -70,7 +71,7 @@ ms.openlocfilehash: d1c65c826a978fc5d263cfc0ed4eeee0854d0c3b
 
     ![Экран "Добавлена учетная запись"](./media/WP81-enroll-4-account-added.png)
 
-## Если у вас нет права на доступ к Магазину Windows со своего устройства Windows Phone или если у вас нет учетной записи Майкрософт
+## <a name="if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account"></a>Если у вас нет права на доступ к Магазину Windows со своего устройства Windows Phone или если у вас нет учетной записи Майкрософт
 
 1.  Выберите **Настройки** &gt; **Рабочая область**.
 
@@ -86,7 +87,6 @@ ms.openlocfilehash: d1c65c826a978fc5d263cfc0ed4eeee0854d0c3b
 
 
 
-
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

@@ -5,15 +5,15 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/23/2016
+ms.date: 03/11/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 translationtype: Human Translation
-ms.sourcegitcommit: 030db4b1520a4f06756c0feac69de352aab6f473
-ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
+ms.sourcegitcommit: 86233c42bca72b880f33aa9a38c2c9e0c801009d
+ms.openlocfilehash: a3bba2176cb7719b8335077276f584ae42649b6d
 
 
 ---
@@ -124,11 +124,13 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 |||
 |-|-|
 |Selective wipe (Выборочная очистка)|[Выборочная очистка](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) удаляет с устройства только данные организации, включая данные управления мобильными приложениями (MAM), где это возможно, параметры и профили электронной почты. При выборочной очистке личные данные пользователя остаются на устройстве.|
+|Подписка|Заключенное вами соглашение, которое обеспечивает доступ к клиенту Intune.|
 
 ## <a name="t"></a>T
 |||
 |-|-|
 |TeamViewer|Стороннее приложение, работающее с Intune для предоставления [возможности удаленной помощи](/intune/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#request-and-provide-remote-assistance-for-windows-pcs) компьютерам с Windows, управляемым с помощью программного клиента Intune.|
+|Клиент|Один экземпляр службы Intune, к которому вы можете получить доступ с помощью подписки.|
 |Terms and conditions (Условия)|Тип политики, который можно развернуть для пользователей, содержащий сведения, которые пользователи должны [прочесть и принять](/intune/deploy-use/terms-and-condition-policy-settings-in-microsoft-intune), чтобы в дальнейшем использовать корпоративный портал для регистрации и доступа к своей работе.|
 
 ## <a name="v"></a>V
@@ -147,6 +149,6 @@ ms.openlocfilehash: 1dba9553c97e9e02fd4b080915756f4f23ed8635
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Nov16_HO1-->
 
 
