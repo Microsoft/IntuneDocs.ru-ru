@@ -2,10 +2,10 @@
 title: "Использование устройства iOS или Mac OS X в Intune | Microsoft Intune"
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве iOS или Mac OS X, зарегистрированном в Intune"
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,31 +15,31 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
-ms.openlocfilehash: e894ad75fd6e86d5d93393886b37e2af87b5eefc
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: bc031fe080cd17b3436388f59ecc83df53a16a32
 
 
 ---
 
-# Использование устройства iOS или Mac OS X в Intune
+# <a name="using-your-ios-or-mac-os-x-device-with-intune"></a>Использование устройства iOS или Mac OS X в Intune
 
 Эта статья содержит ссылки на все задачи, которые конечные пользователи могут выполнять на своих устройствах, управляемых Intune. ИТ-администраторы могут использовать эту информацию, чтобы узнать, что пользователям нужно делать для выполнения различных задач, сгруппированных по следующим категориям:
 - Установка приложения корпоративного портала и регистрация в Intune
 - Задачи управления после регистрации
 - Проблемы с соответствием
 
-## Установка приложения корпоративного портала и регистрация в Intune
+## <a name="company-portal-app-installation-and-intune-enrollment"></a>Установка приложения корпоративного портала и регистрация в Intune
 
 Этот раздел содержит сведения об установке корпоративного портала Intune и регистрации устройств iOS.
 
 - [Установка приложения корпоративного портала Intune и вход в него](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
-- [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md)
-- [Регистрация устройства Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md)
+- [Регистрация устройства с iOS в Intune](enroll-your-device-in-intune-ios.md)
+- [Регистрация устройства с Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md)
 - [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md)
 
-## Что вы можете делать, когда ваше устройство зарегистрировано в Intune
+## <a name="things-users-can-do-when-their-device-is-enrolled-in-intune"></a>Что могут делать пользователи, если их устройства зарегистрированы в Intune
 
-Этот раздел содержит сведения о действиях, которые можно предпринять после регистрации устройства iOS в Intune.
+Этот раздел содержит сведения о действиях, которые можно выполнять после регистрации устройства iOS в Intune.
 
 - [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
 - [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
@@ -50,9 +50,9 @@ ms.openlocfilehash: e894ad75fd6e86d5d93393886b37e2af87b5eefc
 - [Что происходит при сбросе вашего устройства с помощью корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
 - [Синхронизация устройства вручную](sync-your-device-manually-ios.md)
 
-## Устранение проблем с устройством
+## <a name="steps-to-fix-device-and-compliance-issues"></a>Устранение проблем с устройством и соответствием
 
-Этот раздел содержит сведения об устранении проблем, с которыми вы можете столкнуться при регистрации устройства iOS в Intune.
+Этот раздел содержит сведения об устранении проблем, с которыми пользователи могут столкнуться при регистрации устройства iOS в Intune.
 
 - [Повторное подключение к скомпрометированному устройству iOS](how-to-reconnect-a-compromised-ios-device.md)
 - [Отправка ошибок ИТ-администратору](send-errors-to-your-it-admin-ios.md)
@@ -67,6 +67,6 @@ ms.openlocfilehash: e894ad75fd6e86d5d93393886b37e2af87b5eefc
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 

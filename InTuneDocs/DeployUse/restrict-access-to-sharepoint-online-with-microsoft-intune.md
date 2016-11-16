@@ -14,8 +14,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db1d43dd647122e7ba8ebd4e6df48e3c970a3392
-ms.openlocfilehash: 76ac4c92d090ef0057bd7c9687b169cd12b901a1
+ms.sourcegitcommit: ab341e0b80f1b8a19c434a2fd4f0c78acab77fe4
+ms.openlocfilehash: f0bbc66b87a555e3607effa820fc3b5534923729
 
 
 ---
@@ -68,7 +68,7 @@ ms.openlocfilehash: 76ac4c92d090ef0057bd7c9687b169cd12b901a1
 Можно ограничить доступ к SharePoint Online, если доступ осуществляется из браузера на устройствах под управлением **iOS** и **Android**.  Доступ будет разрешен только из поддерживаемых браузеров на соответствующих устройствах:
 * Safari (iOS)
 * Chrome (Android)
-* Managed Browser (iOS и Android)
+* Управляемый браузер (iOS и Android 5.0 или более поздней версии)
 
 **Неподдерживаемые браузеры будут заблокированы**.
 
@@ -195,6 +195,6 @@ ms.openlocfilehash: 76ac4c92d090ef0057bd7c9687b169cd12b901a1
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO4-->
 
 

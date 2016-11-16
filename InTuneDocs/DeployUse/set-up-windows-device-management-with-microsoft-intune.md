@@ -2,9 +2,8 @@
 title: "Настройка управления устройствами Windows с помощью Microsoft Intune | Microsoft Intune"
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для компьютеров с Windows, включая устройства с Windows 10."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
-manager: angrobe
+author: staciebarker
+manager: stabar
 ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
@@ -14,13 +13,13 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dfc5241376033471a232b059ac07fa4488f05514
-ms.openlocfilehash: c405408bd6a1e2b0743566e413436aefbaa7018b
+ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.openlocfilehash: 2d8f0694281249a30f55579b4cce2ade21fb14d7
 
 
 ---
 
-# Настройка управления устройствами Windows
+# <a name="set-up-windows-device-management"></a>Настройка управления устройствами Windows
 
 Как администратор Intune вы можете включить регистрацию и управление для компьютеров с Windows двумя способами.
 
@@ -29,7 +28,7 @@ ms.openlocfilehash: c405408bd6a1e2b0743566e413436aefbaa7018b
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
-## Настройка регистрации в приложении корпоративного портала
+## <a name="set-up-company-portal-app-enrollment"></a>Настройка регистрации в приложении корпоративного портала
 Вы можете разрешить пользователям устанавливать приложение корпоративного портала Intune и регистрировать свои устройства с его помощью. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера.
 
 1. **Настройка Intune**<br>
@@ -54,17 +53,17 @@ ms.openlocfilehash: c405408bd6a1e2b0743566e413436aefbaa7018b
 
   ![Диалоговое окно "Управление устройствами Windows"](../media/enroll-intune-winenr.png)
 
-4.  **Дополнительные шаги**<br>Для Windows 10 шаг **Добавление ключей для загрузки неопубликованных приложений** не требуется. Шаг **Отправка сертификата подписи кода** необходим только в том случае, если планируется распространять на устройства бизнес-приложения, недоступные в Магазине Windows. [Дополнительные сведения](set-up-windows-phone-8.0-management-with-microsoft-intune.md).
+4.  **Дополнительные шаги**<br>Для Windows 10 шаг **Добавление ключей для загрузки неопубликованных приложений** не требуется. Шаг **Отправка сертификата подписи кода** необходим только в том случае, если планируется распространять на устройства бизнес-приложения, недоступные в Магазине Windows.
 
 6.  **Оповещение пользователей**<br>Вам следует сообщить пользователям, как зарегистрировать устройства и чего ожидать после начала управления ими:
       - [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
       - [Руководство конечного пользователя для устройств с Windows](../enduser/using-your-windows-device-with-intune.md)
 
-### См. также
+### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

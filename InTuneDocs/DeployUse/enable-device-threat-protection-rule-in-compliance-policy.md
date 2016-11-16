@@ -8,19 +8,19 @@ manager: angrobe
 ms.date: 09/13/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c951692d-6538-46c0-a9f0-d607ded189ae
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ceaeba74f8671caf4125252fce02fd06752c3fe8
-ms.openlocfilehash: c074dd8850aef8cec79a9362222c3678d679bf4f
+ms.sourcegitcommit: 9bf5764d1e1bd73fd62e5033b2309fc8d5a912e4
+ms.openlocfilehash: ec287d49910a72c22122f45a01850bcbd3a7d203
 
 
 ---
 
-# Включение правила защиты устройства от угроз в политике соответствия
+# <a name="enable-device-threat-protection-rule-in-the-compliance-policy"></a>Включение правила защиты устройства от угроз в политике соответствия
 Intune со службой защиты от угроз на мобильных устройствах Lookout MTP дает возможность выявить угрозы мобильных устройств и провести оценку рисков на устройстве. Можно создать правило политики соответствия требованиям, которое будет включать оценку рисков, чтобы определить, соответствует ли устройство политике. Затем можно использовать политику условного доступа, чтобы разрешить или запретить доступ к Exchange, SharePoint и другим службам в зависимости от соответствия устройства требованиям.
 
 Чтобы служба выявления угроз на устройствах Lookout могла влиять на политику соответствия требованиям устройства, необходимо выполнить следующие условия.
@@ -52,16 +52,16 @@ Intune со службой защиты от угроз на мобильных 
 
 ![снимок экрана страницы "Устройства" в консоли администрирования Intune, показывающий состояние соответствия устройства](../media/mtp/mtp-device-status-intune-console.png)
 
-## Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие шаги
 * Создание политики условного доступа
   * [Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
-  * [локальной организации Microsoft Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+  * [Локальная организация Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
   * [SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
   * [Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune,md)
-  * [Dynamics CRM](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
+  * [Dynamics CRM](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Nov16_HO2-->
 
 

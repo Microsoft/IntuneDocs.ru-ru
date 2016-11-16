@@ -2,29 +2,29 @@
 title: "Корпоративный портал Microsoft Intune | Microsoft Intune"
 description: "Сведения о настройке корпоративного портала Intune"
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 10/14/2016
+ms.date: 11/3/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4dc3d084-0394-4ee7-b7fa-a72523928627
-ms.reviewer: jve
+ms.reviewer: jve, arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 584cfc22cd885149054c1e5e42cc539a478db637
-ms.openlocfilehash: 0a9d7bdce29532f63c724d406cd13cd619c9034e
+ms.sourcegitcommit: 4ae0bd214dbae7e459f52b79e388aab23b5d6e8e
+ms.openlocfilehash: bea321c455a13a11766f19de42df193cefecf05f
 
 
 ---
 
-# Корпоративный портал Microsoft Intune
+# <a name="microsoft-intune-company-portal"></a>Корпоративный портал Microsoft Intune
 
 Перед настройкой Intune ознакомьтесь со следующей статьей [What to know before you start Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md) (Что следует знать перед началом использования Microsoft Intune) и другими требованиями, приведенными в ней.
 
-Корпоративный портал Intune — это средство, которое предоставляет пользователям доступ к корпоративным данным и приложениям. Корпоративный портал в двух формах.
+Корпоративный портал Intune предоставляет пользователям доступ к корпоративным данным и приложениям. Корпоративный портал в двух формах.
 
 -   **Приложение корпоративного портала** — приложение, доступное на устройствах, управляемых с помощью [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]. Узнайте больше о приложениях корпоративного портала для [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune) и [Windows](/Intune/EndUser/using-your-windows-device-with-intune).
 
@@ -54,13 +54,13 @@ ms.openlocfilehash: 0a9d7bdce29532f63c724d406cd13cd619c9034e
 
 > __iOS__: приложение корпоративного портала для iOS опубликовано во [всех странах](https://go.microsoft.com/fwlink/?linkid=831284), в которых доступен магазин Apple iOS App Store.
 
-> __Android__: приложение корпоративного портала для Android недоступно в следующих странах: Антигуа и Барбуда, Аруба, Бенин, Буркина-Фасо, Габон, Гаити, Гвинея-Бисау, Иран, Камбоджа, Китай, Куба, Лаос, Мали, Мозамбик, Мьянма, Нигер, Нидерландские Антилы, Папуа — Новая Гвинея, Судан и Того. В этих странах альтернативным решением является [загрузка неопубликованной версии приложения корпоративного портала для Android](https://www.microsoft.com/en-us/download/details.aspx?id=49140).  
+> __Android__: приложение корпоративного портала для Android недоступно в Китае. В этих странах альтернативным решением является [загрузка неопубликованной версии приложения корпоративного портала для Android](https://www.microsoft.com/en-us/download/details.aspx?id=49140).  
 
-### См. также
+### <a name="see-also"></a>См. также
 [Предварительные сведения перед началом работы с Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

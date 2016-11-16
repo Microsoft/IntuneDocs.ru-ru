@@ -2,9 +2,10 @@
 title: "Настраиваемые конфигурации профилей VPN | Microsoft Intune"
 description: "Создание профилей VPN в Intune с помощью настраиваемых конфигураций."
 keywords: 
-author: Nbigman
+author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 07/21/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,18 +14,18 @@ ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 374a56612b5c2a4dfd65d920307d5a4deb709b9b
-ms.openlocfilehash: e96daf7f10db82adf0f4f92412128fabbe652d51
+ms.sourcegitcommit: 1035a8ca4f63ad973e83ec24a7d700fac1d256cc
+ms.openlocfilehash: ee36cd5f3c64fc5dbeeb7265116c14be33b50067
 
 
 ---
 
-# Настраиваемые конфигурации профилей VPN
+# <a name="custom-configurations-for-vpn-profiles"></a>Настраиваемые конфигурации профилей VPN
 
-## Создание настраиваемой конфигурации
+## <a name="create-a-custom-configuration"></a>Создание настраиваемой конфигурации
 Для создания профилей VPN в Intune можно использовать настраиваемые конфигурации. Чтобы создать настраиваемую конфигурацию, выполните указанные ниже действия.
 
-   1. В консоли администрирования Intune выберите **Политика** > **Добавить политику** > *<Expand platform>* > **Настраиваемая конфигурация** > **Создать политику**.
+   1. В консоли администрирования Intune выберите **Политика** > **Добавить политику** > *Развернуть платформу* > **Настраиваемая конфигурация** > **Создать политику**.
    2. Укажите имя политики.
    3. Для каждого параметра URI щелкните **Добавить** и укажите требуемые данные. Пример:
 
@@ -32,7 +33,7 @@ ms.openlocfilehash: e96daf7f10db82adf0f4f92412128fabbe652d51
 
    4.  Задав все параметры URI, щелкните **Сохранить политику**, а затем разверните политику.
 
-## Развертывание политики конфигурации
+## <a name="deploy-a-configuration-policy"></a>Развертывание политики конфигурации
 
 1.  В рабочей области **Политика** выберите политику, которую требуется развернуть, а затем щелкните **Управление развертыванием**.
 
@@ -44,7 +45,7 @@ ms.openlocfilehash: e96daf7f10db82adf0f4f92412128fabbe652d51
 
 При выборе развернутой политики можно просмотреть дополнительные сведения о развертывании в нижней части списка политик.
 
-##Пример параметров URI для настраиваемой конфигурации профиля VPN
+##<a name="example-of-uri-settings-for-a-custom-vpn-profile-configuration"></a>Пример параметров URI для настраиваемой конфигурации профиля VPN
 Ниже приведены примеры значений URI для создания настраиваемой конфигурации VPN в вымышленной компании Contoso. Дополнительные сведения, например о типе данных для каждой записи, см. в статье [Поставщик службы конфигурации VPNv2](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx).
 
 Собственный VPN Contoso (IKEv2): ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Servers
@@ -85,10 +86,10 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 По любым вопросам о назначении и использовании этих параметров клиентам следует обращаться к документации по поставщику службы конфигурации (CSP): https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx.
 
-## Параметры URI для VPN для каждого приложения Android в PulseSecure
-### НАСТРАИВАЕМЫЙ КОД URI ДЛЯ СПИСКА ПРИЛОЖЕНИЙ
+## <a name="uri-settings-for-android-perapp-vpn-on-pulsesecure"></a>Параметры URI для VPN для каждого приложения Android в PulseSecure
+### <a name="custom-uri-for-package-list"></a>НАСТРАИВАЕМЫЙ КОД URI ДЛЯ СПИСКА ПРИЛОЖЕНИЙ
 -  Тип данных = строковый
--  OMA-URI = ./Vendor/MSFT/VPN/Profile/<Name>/PackageList
+-  OMA-URI = ./Vendor/MSFT/VPN/Profile/Name/PackageList
 -  Значение = список пакетов с разделителями
    - Разделители: точка с запятой (;), двоеточие (:), запятая (,), вертикальная черта (|)
 
@@ -96,7 +97,7 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 - com.android.chrome
 - com.android.chrome;com.android.browser
 
-### НАСТРАИВАЕМЫЙ КОД URI ДЛЯ РЕЖИМА (НЕОБЯЗАТЕЛЬНО)
+### <a name="custom-uri-for-mode-optional"></a>НАСТРАИВАЕМЫЙ КОД URI ДЛЯ РЕЖИМА (НЕОБЯЗАТЕЛЬНО)
 - Тип данных = строковый
 - OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode
 
@@ -107,11 +108,11 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 > - Если значение PackageList указано, по умолчанию используется значение *WHITELIST*.
 
 
-### См. также
+### <a name="see-also"></a>См. также
 (VPN-подключения в Microsoft Intune)[vpn-connections-in-microsoft-intune.md]
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

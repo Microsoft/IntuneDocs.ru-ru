@@ -7,18 +7,18 @@
 ## [Общие сведения о жизненных циклах устройств и приложений](overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
 ### [Жизненный цикл устройства](overview-of-device-lifecycle-in-microsoft-intune.md)
 ### [Жизненный цикл приложения](overview-of-app-lifecycle-in-microsoft-intune.md)
-## [регистрации устройств;](enroll-devices-in-microsoft-intune.md)
+## [Регистрация устройств](enroll-devices-in-microsoft-intune.md)
 ### [Предварительные требования для MDM](prerequisites-for-enrollment.md)
 #### [Управление устройствами Mac и iOS](set-up-ios-and-mac-management-with-microsoft-intune.md)
 #### [Управление Android](set-up-android-management-with-microsoft-intune.md)
 #### [Управление Android for Work](set-up-android-for-work.md)
-#### [Управление устройствами Windows ](set-up-windows-device-management-with-microsoft-intune.md)
+#### [Управление устройствами Windows](set-up-windows-device-management-with-microsoft-intune.md)
 #### [Windows 10 Mobile и Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 ### [Управление устройствами, являющимися собственностью организации](manage-corporate-owned-devices.md)
 #### [Регистрация корпоративных устройств iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)
-##### [Регистрация iOS с помощником по установке](ios-setup-assistant-enrollment-in-microsoft-intune.md)
-##### [Прямая регистрация iOS](ios-direct-enrollment-in-microsoft-intune.md)
-##### [Прямая iOS с помощью программы регистрации устройств](ios-device-enrollment-program-in-microsoft-intune.md)
+##### [Регистрация помощника по установке](ios-setup-assistant-enrollment-in-microsoft-intune.md)
+##### [Прямая регистрация](ios-direct-enrollment-in-microsoft-intune.md)
+##### [Регистрация DEP](ios-device-enrollment-program-in-microsoft-intune.md)
 #### [Регистрация с помощью диспетчера регистрации устройств](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)
 #### [Пометка устройств номерами IMEI](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)
 ### [MDM с Exchange ActiveSync](mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)
@@ -35,6 +35,9 @@
 ### [Управление параметрами и компонентами на устройствах с помощью политик](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [Параметры iOS](ios-policy-settings-in-microsoft-intune.md)
 #### [Параметры Android и Samsung KNOX](android-policy-settings-in-microsoft-intune.md)
+##### [Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом](pre-shared-key-wi-fi-profile.md)
+##### [Используйте настраиваемую политику для создания профиля VPN на уровне приложения для устройств Android](per-app-vpn-for-android-pulse-secure.md)
+##### [Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX](custom-policy-to-allow-and-block-samsung-knox-apps.md)
 #### [Параметры Android for Work](android-for-work-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows 8 и Windows 8.1](windows-configuration-policy-settings-in-microsoft-intune.md)
 #### [Параметры Windows Phone 8.1](windows-phone-8-1-policy-settings-in-microsoft-intune.md)
@@ -64,7 +67,7 @@
 ### [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)
 #### [Обновления программного обеспечения](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)
 #### [Брандмауэр Windows](help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md)
-#### [Endpoint Protection](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)
+#### [Защита конечных точек](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)
 
 ## [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md)
 
@@ -81,7 +84,7 @@
 #### [Управление приложениями Windows, приобретенными по корпоративной программе](manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md)
 
 ## [Настройка приложений](update-apps-using-microsoft-intune.md)
-### [Обновление приложений ](update-apps-using-microsoft-intune.md)
+### [Обновление приложений](update-apps-using-microsoft-intune.md)
 ### [Политики конфигурации приложений iOS](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)
 ### [Политики конфигурации приложений Android for Work](afw-app-configuration-policy.md)
 ### [Профили подготовки мобильных приложений iOS](ios-mobile-app-provisioning-profiles.md)
@@ -106,7 +109,8 @@
 #### [Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 #### [Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 #### [Ограничение доступа к электронной почте: примеры](restrict-email-access-example-scenarios.md)
-### [Разрешить доступ к службам Office 365 только для управляемых политиками приложений](allow-policy-managed-apps-access-to-o365.md)
+### [Разрешить доступ к службам Office 365 только для управляемых политиками приложений](allow-policy-managed-apps-access-to-o365.md)
+#### [Приложения с помощью MAM CA](use-apps-with-mam-ca.md)
 #### [Exchange Online](mam-ca-for-exchange-online.md)
 #### [Блокировать приложения без ADAL](block-apps-with-no-modern-authentication.md)
 ### [Ограничение доступа к сетям (Cisco ISE)](restrict-access-to-networks.md)
@@ -137,7 +141,7 @@
 
 ## [Снятие приложений и данных с учета](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
 ### [Использование полной или выборочной очистки](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
-### [Снятие приложений с учета ](retire-apps-using-microsoft-intune.md)
+### [Снятие приложений с учета](retire-apps-using-microsoft-intune.md)
 ### [Очистка данных управляемых приложений компании](Wipe-managed-company-app-data-with-microsoft-intune.md)
 
 ## [Ресурсы по пользовательскому интерфейсу](what-to-tell-your-end-users-about-using-microsoft-intune.md)
@@ -147,9 +151,9 @@
 
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
 
-# [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
+# [Устранение проблем](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

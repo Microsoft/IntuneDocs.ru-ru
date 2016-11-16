@@ -1,9 +1,9 @@
 ---
 title: "Регистрация мобильных устройств и установка приложения | Microsoft Intune"
-description: "Объясняется, как зарегистрировать мобильные устройства и установить приложение на устройство, зарегистрированное в Intune."
+description: "Регистрация мобильных устройств и установка приложения на устройство, зарегистрированное в Intune"
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: get-started-article
@@ -14,8 +14,8 @@ ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3306d772b074ddcfd1bfcf7178b32f9b371321e7
-ms.openlocfilehash: f57728bb41b750f53b021bed532de18187e764a0
+ms.sourcegitcommit: 0d422b421c3716ad576c4fc565b181dec28c947e
+ms.openlocfilehash: ec478ad05b72a358dbce4f08a6b1a1f106a28303
 
 
 ---
@@ -65,6 +65,6 @@ ms.openlocfilehash: f57728bb41b750f53b021bed532de18187e764a0
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Oct16_HO4-->
 
 
