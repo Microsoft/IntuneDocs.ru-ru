@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
-ms.openlocfilehash: 2d8f0694281249a30f55579b4cce2ade21fb14d7
+ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
+ms.openlocfilehash: 78137299b1c4e18fe68e1f9720a2111d1794e177
 
 
 ---
@@ -43,7 +43,7 @@ ms.openlocfilehash: 2d8f0694281249a30f55579b4cce2ade21fb14d7
 
   `EnterpriseEnrollment-s.manage.microsoft.com` — поддерживает перенаправление в службу Intune с распознаванием домена по имени домена электронной почты.
 
-  `EnterpriseRegistration.windows.net` — поддерживает устройства Windows 8.1 и Windows 10 Mobile, которые будут зарегистрированы в Azure Active Directory с помощью рабочей или учебной учетной записи.
+  `EnterpriseRegistration.windows.net` — поддерживает устройства Windows 8.1 и Windows 10 Mobile, которые будут зарегистрированы в Azure Active Directory с помощью рабочей или учебной учетной записи.
 
   Если ваша организация использует несколько доменов для учетных данных пользователей, создайте записи CNAME для каждого домена.
 
@@ -55,8 +55,12 @@ ms.openlocfilehash: 2d8f0694281249a30f55579b4cce2ade21fb14d7
 
 4.  **Дополнительные шаги**<br>Для Windows 10 шаг **Добавление ключей для загрузки неопубликованных приложений** не требуется. Шаг **Отправка сертификата подписи кода** необходим только в том случае, если планируется распространять на устройства бизнес-приложения, недоступные в Магазине Windows.
 
-6.  **Оповещение пользователей**<br>Вам следует сообщить пользователям, как зарегистрировать устройства и чего ожидать после начала управления ими:
-      - [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+6.  **Сообщите пользователям, как зарегистрировать устройства и что произойдет при управлении ими.**
+
+    Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Windows в Intune](../enduser/enroll-your-device-in-intune-windows.md).
+
+    Дополнительные сведения о других задачах для пользователей см. в статьях:
+      - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
       - [Руководство конечного пользователя для устройств с Windows](../enduser/using-your-windows-device-with-intune.md)
 
 ### <a name="see-also"></a>См. также
@@ -64,6 +68,6 @@ ms.openlocfilehash: 2d8f0694281249a30f55579b4cce2ade21fb14d7
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
