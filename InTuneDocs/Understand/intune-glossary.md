@@ -5,15 +5,15 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/11/2016
+ms.date: 11/17/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 translationtype: Human Translation
-ms.sourcegitcommit: 86233c42bca72b880f33aa9a38c2c9e0c801009d
-ms.openlocfilehash: a3bba2176cb7719b8335077276f584ae42649b6d
+ms.sourcegitcommit: 0c6c9d44e6a328b4bfb3827f54ac35b83e3c7aac
+ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 
 
 ---
@@ -149,6 +149,6 @@ ms.openlocfilehash: a3bba2176cb7719b8335077276f584ae42649b6d
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 
