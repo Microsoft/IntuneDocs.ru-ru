@@ -7,22 +7,22 @@ manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 557c1b3b36adf40ec4ad94f22ed7bb9705c6eec4
-ms.openlocfilehash: 5c6a5848c447c0eacbdfa166962a47b1299c2b74
+ms.sourcegitcommit: 9bf5764d1e1bd73fd62e5033b2309fc8d5a912e4
+ms.openlocfilehash: 646bd62dcf95b37ce9154e4852612b17ab71f954
 
 
 ---
 
-# Настройка и развертывание приложения Lookout for Work
+# <a name="configure-and-deploy-lookout-for-work-apps"></a>Настройка и развертывание приложения Lookout for Work
 В этой статье описывается настройка и развертывание приложения Lookout for Work для устройств Android и iOS.
 
-## Android (приложение магазина Google Play)
+## <a name="android-google-play-store-app"></a>Android (приложение магазина Google Play)
 
 * **Шаг 1.** В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) перейдите в раздел **Приложения** и выберите **Добавить приложения**.   
 * **Шаг 2.** На странице **Установка ПО** издателя выберите **Внешняя ссылка** и укажите следующий URL-адрес: https://play.google.com/store/apps/details?id=com.lookout.enterprise.
@@ -36,7 +36,7 @@ ms.openlocfilehash: 5c6a5848c447c0eacbdfa166962a47b1299c2b74
   * **Категория:** управление компьютерами
 * **Шаг 4.** После успешного завершения отображается сообщение **Отправка данных в Microsoft Intune выполнена успешно**.
 
-Теперь в консоли Intune при щелчке элемента **Приложения** в списке будет отображаться приложение Lookout for Work ![ снимок экрана страницы "Приложения" консоли администрирования Intune с приложением Lookout for Work в списке](../media/mtp/lookout-app-listed-intune-console.png)
+Когда в консоли Intune вы щелкнете **Приложения**, в списке отобразится приложение Lookout for Work. ![Снимок экрана: страница "Приложения" консоли администрирования Intune с приложением Lookout for Work в списке](../media/mtp/lookout-app-listed-intune-console.png)
 
 * **Шаг 5.** Чтобы развернуть приложение для пользователей, выберите приложение Lookout for Work и нажмите **Управление развертыванием**.
 
@@ -47,7 +47,7 @@ ms.openlocfilehash: 5c6a5848c447c0eacbdfa166962a47b1299c2b74
 * **Шаг 6**. Выберите вариант **Обязательная установка**, чтобы настроить обязательную установку приложения Lookout на устройствах пользователей.
 
 
-## iOS (версия приложения Lookout с корпоративной подписью)
+## <a name="ios-enterprisesigned-version-of-lookout-app"></a>iOS (версия приложения Lookout с корпоративной подписью)
 
 * **Шаг 1.** Убедитесь, что на устройстве настроено **Управление iOS**. Инструкции по настройке управления iOS на устройстве см. в статье [Настройка управления устройствами в iOS и Mac](set-up-ios-and-mac-management-with-microsoft-intune.md).
 
@@ -82,22 +82,22 @@ ms.openlocfilehash: 5c6a5848c447c0eacbdfa166962a47b1299c2b74
 
 Выберите вариант **Обязательная установка**, чтобы система требовала от пользователей установить приложение Lookout на устройства.
 
-## Что происходит при открытии развернутого приложения на устройстве
+## <a name="what-happens-when-the-deployed-app-is-opened-on-the-device"></a>Что происходит при открытии развернутого приложения на устройстве
 
 
 
 
 Когда пользователь откроет приложение Lookout for Work на устройстве, ему будет предложено активировать приложение и выбрать вариант входа с помощью Azure Active Directory. Подробное пошаговое руководство с процедурой для конечных пользователей можно найти в следующих разделах:
 
-* [Вам предложено установить Lookout for Work на устройстве Android](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)
+* [Вам предложено установить Lookout for Work на устройстве с Android](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android).
 
 * [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 
-## Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 * [Включение правила защиты устройства от угроз в политике соответствия](enable-device-threat-protection-rule-in-compliance-policy.md)
 
 
 
-<!--HONumber=Oct16_HO4-->
+<!--HONumber=Nov16_HO2-->
 
 

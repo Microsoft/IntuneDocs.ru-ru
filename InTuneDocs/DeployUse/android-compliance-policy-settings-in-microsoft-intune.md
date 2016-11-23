@@ -5,7 +5,7 @@ keywords:
 author: karthikaraman
 ms.author: karaman
 manager: angrobe
-ms.date: 07/13/2016
+ms.date: 11/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 30fae0cc2e9b3b08f9195c2622b0daec639e0d62
-ms.openlocfilehash: 20f61b9dec289252797650e7ef40ff4c5b7c0fbc
+ms.sourcegitcommit: 8cde3ffb3be8656d5f256e16eb71ed4aaa7ceb5b
+ms.openlocfilehash: 2fd4d3c7cb92e27a01090fdec85e02db4010f859
 
 
 ---
@@ -26,8 +26,9 @@ ms.openlocfilehash: 20f61b9dec289252797650e7ef40ff4c5b7c0fbc
 Параметры политики, описанные в этом разделе, применяются к устройствам с Android 4.0 и более поздней версии или Samsung KNOX Standard 4.0 или более поздней версии.
 
 Если вам нужны сведения о других платформах, выберите один из следующих вариантов:
-> [!div class="op_single_selector"]
-- [Параметры политики соответствия для устройств iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
+> [!div class = "op_single_selector"]
+- [Параметры политики соответствия для Android for Work](afw-compliance-policy-settings-in-microsoft-intune.md)
+- [Параметры политики соответствия для устройств с iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
 - [Параметры политики соответствия для устройств Windows](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 ## <a name="system-security-settings"></a>Параметры безопасности системы
@@ -85,6 +86,6 @@ ms.openlocfilehash: 20f61b9dec289252797650e7ef40ff4c5b7c0fbc
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

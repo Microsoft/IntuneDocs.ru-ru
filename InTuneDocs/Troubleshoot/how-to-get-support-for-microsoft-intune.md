@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 10/31/2016
+ms.date: 11/16/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
 ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d332e46b27bea274a38355dfb01806160b1041ee
-ms.openlocfilehash: 44069a34c1c9c2fb05f2b250188fe45a7d419911
+ms.sourcegitcommit: 2c50c38843521dfc2c9df48305e619803f32b1e9
+ms.openlocfilehash: 8b0591195b58f5fa331d213cfe03a38aa5ffafdd
 
 
 ---
@@ -36,11 +36,12 @@ ms.openlocfilehash: 44069a34c1c9c2fb05f2b250188fe45a7d419911
 2.  Выберите плитку "Администрирование".
 3.  Слева, под заголовком **Служба поддержки**, выберите пункт **Поддержка**, чтобы отправить запрос. Появится следующее окно:
 
-    ![Отправка нового запроса в службу поддержки Intune](../media/suport-open-ticket.png)
+    ![Отправка нового запроса в службу поддержки Intune](../media/support-open-ticket.png)
 
     >[!NOTE]
     >
     >  Оно появится для клиентов, у которых есть или была учетная запись Office 365 со 100 лицензиями или меньше, и им потребуется ознакомиться с разделом [Другие способы обращения в службу поддержки](#alternate-method-to-open-a-support-ticket).
+    >  
     > ![Другие способы поддержки Intune](../media/alternate-support-ui.png)
 
     -   Для проблем с выставлением счетов, лицензированием и оплатой выберите **Billing and product info** (Сведения о выставлении счетов и продуктах).
@@ -114,6 +115,6 @@ ms.openlocfilehash: 44069a34c1c9c2fb05f2b250188fe45a7d419911
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

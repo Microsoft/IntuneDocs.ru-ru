@@ -88,6 +88,12 @@
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.ru-ru",
       "branch": "master"
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/Microsoft/IntuneDocs-pr",
+      "branch": "live"
     }
-  ]
+  ],
+  "need_generate_pdf_url_template": false
 }

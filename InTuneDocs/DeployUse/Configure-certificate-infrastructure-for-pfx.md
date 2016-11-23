@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 11/17/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
-ms.openlocfilehash: f903a62e7fb28e71e773a27db341c846e1f76b63
+ms.sourcegitcommit: 7d1f37a2ba2e634fb75058d33eaaccf3aa5845b0
+ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 
 
 
@@ -76,7 +76,7 @@ ms.openlocfilehash: f903a62e7fb28e71e773a27db341c846e1f76b63
 
     -   Укажите понятное **Отображаемое имя шаблона** .
 
-    -   На вкладке **Имя субъекта** выберите **Отправить в запросе**. (Безопасность обеспечивается модулем политики Intune для NDES.)
+    -   На вкладке **Имя субъекта** выберите **Отправить в запросе**. 
 
     -   На вкладке **Расширения** включите в раздел **Описание политик приложений** пункт **Проверка подлинности клиента**.
 
@@ -142,8 +142,6 @@ ms.openlocfilehash: f903a62e7fb28e71e773a27db341c846e1f76b63
 
     а. Выберите **Войти** и введите учетные данные администратора службы Intune или учетные данные администратора клиента с разрешениями глобального администратора.
 
-  <!--  If your organization uses a proxy server and the proxy is needed for the NDES server to access the Internet, click **Use proxy server** and then provide the proxy server name, port, and account credentials to connect.-->
-
     b. Откройте вкладку **Дополнительно**, а затем укажите учетные данные учетной записи с разрешением **Выдача сертификатов и управление ими** в выдающем центре сертификации.
 
     в. Нажмите кнопку **Применить**.
@@ -152,15 +150,12 @@ ms.openlocfilehash: f903a62e7fb28e71e773a27db341c846e1f76b63
 
 6.  Откройте командную строку и введите **services.msc**. Затем нажмите клавишу **ВВОД**, щелкните правой кнопкой мыши элемент **Служба соединителя Intune** и выберите пункт **Перезапустить**.
 
-Чтобы убедиться, что служба работает, откройте браузер и введите следующий URL-адрес (он должен вернуть ошибку **403** ):
-
-**http:// &lt;полное_доменное_имя_сервера_NDES&gt;/certsrv/mscep/mscep.dll**
 
 ### <a name="next-steps"></a>Дальнейшие действия
 Теперь вы готовы к настройке профилей сертификатов, как описано в разделе [Настройка профилей сертификатов](Configure-Intune-certificate-profiles.md).
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 
