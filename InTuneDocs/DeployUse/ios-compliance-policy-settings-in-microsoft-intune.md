@@ -5,7 +5,7 @@ keywords:
 author: karthikaraman
 ms.author: karaman
 manager: angrobe
-ms.date: 07/28/2016
+ms.date: 11/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7ac77ea3f1ef79dd7ce95f1eef80f05a870f4ab1
-ms.openlocfilehash: 4c5e1097d5ad6b9af3e558d7874321077f04aeb1
+ms.sourcegitcommit: 8cde3ffb3be8656d5f256e16eb71ed4aaa7ceb5b
+ms.openlocfilehash: 37f8d9a2d3057df4f7e8d105e48d75edd6d77dc4
 
 
 ---
@@ -27,7 +27,8 @@ ms.openlocfilehash: 4c5e1097d5ad6b9af3e558d7874321077f04aeb1
 
 Если вам нужны сведения о других платформах, выберите один из следующих вариантов:
 > [!div class="op_single_selector"]
-- [Параметры политики соответствия для устройств Android](android-compliance-policy-settings-in-microsoft-intune.md)
+- [Параметры политики соответствия для устройств с Android](android-compliance-policy-settings-in-microsoft-intune.md)
+- [Параметры политики соответствия для Android for Work](afw-compliance-policy-settings-in-microsoft-intune)
 - [Параметры политики соответствия для устройств Windows](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 ## <a name="system-security-settings"></a>Параметры безопасности системы
@@ -81,6 +82,6 @@ ms.openlocfilehash: 4c5e1097d5ad6b9af3e558d7874321077f04aeb1
 
 
 
-<!--HONumber=Oct16_HO5-->
+<!--HONumber=Nov16_HO2-->
 
 

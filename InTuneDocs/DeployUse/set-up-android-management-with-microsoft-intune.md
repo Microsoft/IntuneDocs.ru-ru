@@ -14,8 +14,8 @@ ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
-ms.openlocfilehash: 1cde91da5dd42488925c2a3c57cc79db0a9e16fa
+ms.sourcegitcommit: d51f34dea3463bec83ea39cdfb79c7bedf9e3926
+ms.openlocfilehash: 504b8334485217ab00d42080e1fab8728e7b62c4
 
 
 ---
@@ -29,18 +29,19 @@ ms.openlocfilehash: 1cde91da5dd42488925c2a3c57cc79db0a9e16fa
 2.  **Регистрация устройств Android включена**<br>
     Для регистрации мобильных устройств Android никакие дополнительные настройки в консоли Intune не требуются.
 
-3.  **Сообщите пользователям, как получить доступ к ресурсам компании с помощью корпоративного портала**<br>
-    Вашим пользователям потребуется узнать, как зарегистрировать устройства и чего ожидать после того, как они начнут управлять ими. [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+3.  **Сообщите пользователям, как регистрировать свои устройства, чтобы получить доступ к ресурсам компании.**
 
-4.  Вашим пользователям потребуется узнать, как зарегистрировать устройства и чего ожидать после того, как они начнут управлять ими.
-  - [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
-  - [Руководство конечного пользователя для устройств с Windows](../enduser/using-your-android-device-with-intune.md)
+    Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Android в Intune](../enduser/enroll-your-device-in-intune-android.md). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
+
+    Дополнительные сведения о других задачах для пользователей см. в статьях:
+  - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+  - [Руководство пользователя для устройств с Android](../enduser/using-your-android-device-with-intune.md)
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

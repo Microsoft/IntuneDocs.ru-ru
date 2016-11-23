@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 11/10/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,15 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d422b421c3716ad576c4fc565b181dec28c947e
-ms.openlocfilehash: 2b781bc77dc32aff726683f33bdd9d29650661ea
+ms.sourcegitcommit: 1ed86339103f165092776ec94b50c5a02d054236
+ms.openlocfilehash: 7a5ff0f021b487f4586ca3199c6db2cb0ada3930
 
 
 ---
 
-# Предварительные сведения перед началом работы с Microsoft Intune
+# <a name="what-to-know-before-you-start-microsoft-intune"></a>Предварительные сведения перед началом работы с Microsoft Intune
 
-Перед настройкой Microsoft Intune изучите каждое из следующих требований:
+Перед настройкой Microsoft Intune изучите следующие материалы:
 
 - [Поддерживаемые мобильные устройства и компьютеры](supported-mobile-devices-and-computers.md)
 - [Поддерживаемые Intune веб-браузеры](supported-web-browsers.md)
@@ -38,6 +38,6 @@ ms.openlocfilehash: 2b781bc77dc32aff726683f33bdd9d29650661ea
 
 
 
-<!--HONumber=Oct16_HO4-->
+<!--HONumber=Nov16_HO2-->
 
 
