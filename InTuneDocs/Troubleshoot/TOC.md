@@ -5,10 +5,10 @@
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
 
-# [Устранение неполадок](general-troubleshooting-tips-for-microsoft-intune.md)
+# [Устранение проблем](general-troubleshooting-tips-for-microsoft-intune.md)
 ## [Получение поддержки](how-to-get-support-for-microsoft-intune.md)
 ## [Устранение неполадок Endpoint Protection](Troubleshoot-Endpoint-Protection-in-microsoft-intune.md)
-## [Устранение неполадок, связанных с доступом к ресурсам компании](Troubleshoot-company-resource-access-problems-with-microsoft-intune.md)
+## [Устранение неполадок, связанных с доступом к ресурсам организации](Troubleshoot-company-resource-access-problems-with-microsoft-intune.md)
 ## [Устранение неполадок, связанных с развертыванием приложений](Troubleshoot-app-deployment-problems-in-microsoft-intune.md)
 ## [Устранение проблем при регистрации устройств](troubleshoot-device-enrollment-in-intune.md)
 ## [Политики устранения неполадок](Troubleshoot-policies-in-microsoft-intune.md)
@@ -23,6 +23,6 @@
 ## [Устранение неполадок интеграции Lookout](troubleshooting-lookout-integration.md)
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO2-->
 
 

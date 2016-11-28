@@ -3,26 +3,27 @@ title: "Выбор способа регистрации мобильных ус
 description: "Выберите способ регистрации мобильных устройств в Intune, ответив на несколько простых вопросов."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 11/14/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 24b8ecbf-7336-4543-8094-32688bda0b8f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
-ms.openlocfilehash: fc2f95b0e780b42dbeab977c340f3b2b7c9881e5
+ms.sourcegitcommit: 3a00f9cdfb137306a28b33f9d1acdb6bc108670f
+ms.openlocfilehash: 09007527fe4c2c94c02a674ccef01c0bb8893709
 
 
 ---
-# Выбор способа регистрации мобильных устройств
+# <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
 
 Определить наилучший способ регистрации устройств, которыми вы управляете, помогут ответы на ряд вопросов.
 
-## **Являются ли устройства компании общими или привязаны к отдельным пользователям?**
+## <a name="are-your-company-owned-devices-shared-or-do-they-have-dedicated-users"></a>**Являются ли устройства организации общими или привязаны к отдельным пользователям?**
 
 > [!div class="button"]
 [Общие >](choose-how-to-enroll-devices4.md)
@@ -38,6 +39,6 @@ ms.openlocfilehash: fc2f95b0e780b42dbeab977c340f3b2b7c9881e5
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 

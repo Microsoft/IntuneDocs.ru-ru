@@ -3,27 +3,28 @@ title: "Выбор способа регистрации мобильных ус
 description: "Выберите способ регистрации мобильных устройств в Intune, ответив на несколько простых вопросов."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 11/14/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed9250aa-e894-4eac-92b8-5f1a3748e255
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
-ms.openlocfilehash: fea9e10de761fa1bacfb87d07ce571d40f8286bc
+ms.sourcegitcommit: 3a00f9cdfb137306a28b33f9d1acdb6bc108670f
+ms.openlocfilehash: 5581e80612286471b29d35f193fba5146f9ca90f
 
 
 ---
-# Выбор способа регистрации мобильных устройств
+# <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
 
 Определить наилучший способ регистрации устройств, которыми вы управляете, помогут ответы на ряд вопросов.
 
 
-## **Как вы будете управлять общими устройствами iOS?**
+## <a name="how-will-you-manage-shared-ios-devices"></a>**Как вы будете управлять общими устройствами iOS?**
 
   > [!div class="button"]
   [Регистрация iOS с помощью программы регистрации устройств >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
@@ -43,6 +44,6 @@ ms.openlocfilehash: fea9e10de761fa1bacfb87d07ce571d40f8286bc
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 

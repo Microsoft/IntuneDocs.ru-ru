@@ -7,7 +7,7 @@
 ### [Создание политик и публикация приложения](get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)
 ### [Регистрация мобильных устройств и установка приложения](get-started-with-a-30-day-trial-of-microsoft-intune-step-5.md)
 ### [Другие параметры и дополнения](get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
-### [Дальнейшие действия](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
+### [Дальнейшие шаги](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
 ## [Распространенные сценарии](common-ways-to-use-intune.md)
 ## [Глоссарий](intune-glossary.md)
 
@@ -16,9 +16,9 @@
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
-# [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
+# [Устранение проблем](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Oct16_HO4-->
+<!--HONumber=Nov16_HO2-->
 
 

@@ -5,11 +5,13 @@
 # [Разработка и настройка приложений](intune-app-sdk.md)
 ## [Общие сведения о пакете SDK для приложений Microsoft Intune](intune-app-sdk.md)
 ## [Начало работы с пакетом SDK для приложений Microsoft Intune](intune-app-sdk-get-started.md)
-## [Руководство по пакету SDK для приложений Intune для разработчиков под iOS](intune-app-sdk-ios.md)
-## [Руководство по пакету SDK для приложений Intune для разработчиков под Android](intune-app-sdk-android.md)
-# [Устранение неполадок](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
+## [Руководство разработчика iOS по SDK для приложений Intune](intune-app-sdk-ios.md)
+## [Руководство разработчика Android по SDK для приложений Intune](intune-app-sdk-android.md)
+## [подключаемый модуль Cordova из пакета SDK для приложений Intune](intune-app-sdk-cordova.md).
+## [компонент Xamarin из пакета SDK для приложений Intune](intune-app-sdk-xamarin.md);
+# [Устранение проблем](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 

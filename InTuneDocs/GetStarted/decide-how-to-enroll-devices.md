@@ -3,22 +3,23 @@ title: "Выбор способа регистрации мобильных ус
 description: "Выберите способ регистрации мобильных устройств в Intune, ответив на несколько простых вопросов."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 07/25/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 178df739-d3b9-43cb-8440-c5c110b1276b
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: 90a26e1008a8e0800b07940c11a8adcd00cbb241
-ms.openlocfilehash: becbaa195dc3fde6bc0a0edb0916c75a4d07c017
+ms.sourcegitcommit: 3a00f9cdfb137306a28b33f9d1acdb6bc108670f
+ms.openlocfilehash: 02aed5f84340f7d64681e27f1e4312f7f927a6c1
 
 
 ---
 
-# Выбор способа регистрации мобильных устройств
+# <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
 
 Регистрация мобильных устройств — это процесс передачи смартфонов, планшетных и настольных компьютеров под управление Microsoft Intune. Как администратору вам следует определить наилучший способ регистрации на основе следующих критериев:
 
@@ -28,7 +29,7 @@ ms.openlocfilehash: becbaa195dc3fde6bc0a0edb0916c75a4d07c017
 
 Определить наилучший способ регистрации для устройств, которыми вы управляете, помогут ответы на следующие вопросы.
 
-## **Пользователи приносят собственные устройства или устройства предоставляются организацией?**
+## <a name="do-employees-bring-their-own-devices-or-are-devices-provided-by-your-organization"></a>**Пользователи приносят собственные устройства или устройства предоставляются организацией?**
 
   - **Устройства, принадлежащие пользователям**. Регистрация BYOD-устройств (принеси свое устройство) позволяет пользователю установить приложение корпоративного портала Intune на своем устройстве и зарегистрировать его для доступа к ресурсам компании, таким как электронная почта, приложения компании, данные компании и поддержка.  
 
@@ -37,12 +38,12 @@ ms.openlocfilehash: becbaa195dc3fde6bc0a0edb0916c75a4d07c017
 > [!div class="button"]
 [Регистрация BYOD >](#what-byod-devices-can-your-users-enroll) [Регистрация COD >](#are-your-company-owned-devices-shared-or-do-they-have-dedicated-users)
 
-## **Какие устройства BYOD могут зарегистрировать пользователи?**
+## <a name="what-byod-devices-can-your-users-enroll"></a>**Какие устройства BYOD могут зарегистрировать пользователи?**
 
 > [!div class="button"]
 [Android](/intune/deploy-use/set-up-android-management-with-microsoft-intune) [iOS и Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) [Windows 10 Mobile и Window Phone](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune) [Компьютеры с Windows](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 
-## **Являются ли устройства компании общими или привязаны к отдельным пользователям?**
+## <a name="are-your-company-owned-devices-shared-or-do-they-have-dedicated-users"></a>**Являются ли устройства организации общими или привязаны к отдельным пользователям?**
 
 - **Общие устройства, принадлежащие компании**. Такие устройства не привязываются к отдельному пользователю и обычно не предназначены для доступа к электронной почте. К ним относятся устройства, работающие в полноэкранном режиме, и устройства, ориентированные на задачи, которые пользователи берут из пула при необходимости, а затем возвращают. Рекомендуемые методы регистрации зависят от платформы устройств.
 
@@ -52,12 +53,12 @@ ms.openlocfilehash: becbaa195dc3fde6bc0a0edb0916c75a4d07c017
 [Общие >](#what-operating-system-are-your-shared-devices-running) [Выделенные >](#how-will-you-manage-dedicated-ios-devices)
 
 
-## **Какая операционная система выполняется на общих устройствах?**
+## <a name="what-operating-system-are-your-shared-devices-running"></a>**Какая операционная система выполняется на общих устройствах?**
 
   > [!div class="button"]
   [Windows >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [Android >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [iOS >](#how-will-you-manage-shared-ios-devices)
 
-## **Как вы будете управлять общими устройствами iOS?**
+## <a name="how-will-you-manage-shared-ios-devices"></a>**Как вы будете управлять общими устройствами iOS?**
 
 - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно скачает профиль DEP и выполнит регистрацию с использованием этого профиля.
 
@@ -68,7 +69,7 @@ ms.openlocfilehash: becbaa195dc3fde6bc0a0edb0916c75a4d07c017
   > [!div class="button"]
   [Регистрация с помощью программы регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Прямая регистрация устройств iOS >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) [Регистрация с помощью диспетчера регистрации устройств (DEM) >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 
-## **Как вы будете управлять выделенными устройствами iOS?**
+## <a name="how-will-you-manage-dedicated-ios-devices"></a>**Как вы будете управлять выделенными устройствами iOS?**
 
 Вы можете зарегистрировать устройства организации с выделенными пользователями следующим образом:
 
@@ -83,6 +84,6 @@ ms.openlocfilehash: becbaa195dc3fde6bc0a0edb0916c75a4d07c017
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 
