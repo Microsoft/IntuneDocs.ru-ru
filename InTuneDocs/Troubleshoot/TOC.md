@@ -1,5 +1,5 @@
 # [Изучение вопроса](/intune/understand-explore/introduction-to-microsoft-intune)
-# [Приступая к работе](/intune/get-started/what-to-know-before-you-start-microsoft-intune)
+# [Приступая к работе](/intune/get-started/get-started)
 # [Что нового](/intune/whats-new/whats-new-in-microsoft-intune)
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
@@ -23,6 +23,6 @@
 ## [Устранение неполадок интеграции Lookout](troubleshooting-lookout-integration.md)
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 

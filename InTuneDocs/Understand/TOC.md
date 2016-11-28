@@ -1,4 +1,4 @@
-# [Изучение вопроса](introduction-to-microsoft-intune.md)
+# Изучение вопроса
 ## [Общие сведения об Intune](introduction-to-microsoft-intune.md)
 ## [Руководство по оценке Intune](get-started-with-a-30-day-trial-of-microsoft-intune.md)
 ### [Вход в 30-дневную ознакомительную версию или регистрация для ее получения](get-started-with-a-30-day-trial-of-microsoft-intune-step-1.md)
@@ -11,7 +11,7 @@
 ## [Распространенные сценарии](common-ways-to-use-intune.md)
 ## [Глоссарий](intune-glossary.md)
 
-# [Приступая к работе](/intune/get-started/what-to-know-before-you-start-microsoft-intune)
+# [Приступая к работе](/intune/get-started/get-started)
 # [Что нового](/intune/whats-new/whats-new-in-microsoft-intune)
 <!-- # [Plan and Design](/intune/plan-design/ways-to-do-enterprise-mobility) -->
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
@@ -19,6 +19,6 @@
 # [Устранение проблем](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 
