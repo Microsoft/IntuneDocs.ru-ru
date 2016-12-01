@@ -14,38 +14,42 @@ ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: karthikaraman
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ca4623db80d711f3543b6d688fb1bb1ef228c62c
-ms.openlocfilehash: 5583c496a10d93d041d3387b7b10931bf87c73d6
+ms.sourcegitcommit: af7df3fcf50c3508d495522341bb287c638f40a3
+ms.openlocfilehash: 2af369cc44c710789ab65eb25f10602882772019
 
 
 ---
 # ﻿<a name="microsoft-intune-app-sdk-cordova-plugin"></a>Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
 
+> [!NOTE]
+> Вы можете сначала прочесть статью [Начало работы с пакетом SDK для приложений Intune](intune-app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
+
+
 ## <a name="overview"></a>Обзор
 
 [Подключаемый модуль Cordova из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam) позволяет использовать [возможности управления мобильными приложениями Intune](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) в приложениях iOS и Android, созданных с помощью Cordova. С его помощью разработчики могут интегрировать в свое приложение на основе Cordova функции защиты данных и приложений Intune.
 
-Вы обнаружите, что функции SDK можно включить без изменения поведения приложения. После встраивания подключаемого модуля в мобильное приложение iOS или Android ИТ-администратор сможет развернуть политику с помощью Microsoft Intune, где поддерживается множество разных функций для обеспечения защиты данных. Мы разработали этот подключаемый модуль таким образом, чтобы большинство действий выполнялось автоматически в процессе сборки Cordova. Это позволяет быстро реализовать функции управления в приложении. Чтобы начать работу, выполните указанные ниже действия с учетом целевой платформы.
+Вы обнаружите, что функции SDK можно включить без изменения поведения приложения. После встраивания подключаемого модуля в мобильное приложение для iOS или Android ИТ-администратор сможет развернуть политику при помощи системы управления мобильными приложениями Microsoft Intune, где поддерживается множество разных возможностей для защиты данных. Мы разработали этот подключаемый модуль таким образом, чтобы большинство действий выполнялось автоматически в процессе сборки Cordova. Это позволяет быстро реализовать функции управления в приложении. Чтобы начать работу, выполните указанные ниже действия с учетом целевой платформы.
 
-Перед установкой и использованием подключаемого модуля Cordova из пакета SDK для приложений Intune **требуется** выполнить следующее:
 
-* Ознакомиться с [условиями лицензии для подключаемого модуля Cordova из пакета SDK для приложений Intune.](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam/blob/master/Intune_App_SDK_Cordova_plugin_RTM_license.pdf).
-* Распечатать и сохранить копию условий лицензии для своих записей. Скачивая и используя подключаемый модуль Cordova из пакета SDK для приложений Intune, вы соглашаетесь с этими условиями лицензии.  Если вы не согласны, не используйте это программное обеспечение.
 
-Более подробное описание пакета SDK для приложений Intune см. в [официальной документации](/intune/develop/intune-app-sdk).
 
-## <a name="supported-scenarios"></a>Поддерживаемые сценарии
+## <a name="whats-supported"></a>Поддерживаемые возможности
 
-### <a name="platforms"></a>Платформы
-* Android
+### <a name="developer-machines"></a>Компьютеры разработчиков
+* Windows
+* Mac OS
+
+
+### <a name="mobile-app-platforms"></a>Платформы мобильных приложений
+* Android 4.0+
 * iOS
 
+### <a name="intune-mobile-application-management-scenarios"></a>Ситуации, связанные с управлением мобильными приложениями Intune
 
-### <a name="emm-scenarios"></a>Сценарии EMM
-
-* Intune MAM на устройствах, зарегистрированных в Intune MDM
-* Intune MAM на устройствах, зарегистрированных в EMM стороннего производителя
-* Intune MAM на незарегистрированных и неуправляемых устройствах
+* Устройства, зарегистрированные в Intune MDM
+* Сторонние устройства, зарегистрированные в EMM
+* Неуправляемые устройства (не зарегистрированные в MDM)
 
 Приложения Cordova, созданные с помощью подключаемого модуля Cordova из пакета SDK для приложений Intune, теперь могут получать политики управления мобильными приложениями (MAM) Intune как на устройствах, зарегистрированных в системе управления мобильными устройствами (MDM) Intune, так и на незарегистрированных устройствах.
 
@@ -53,11 +57,21 @@ ms.openlocfilehash: 5583c496a10d93d041d3387b7b10931bf87c73d6
 
 ## <a name="prerequisites"></a>Предварительные требования
 
+### <a name="technical-prerequisites"></a>Технические предварительные требования
+
 * **[Только для Android]** На устройстве должно быть установлено самое новое приложение корпоративного портала Microsoft Intune.
 
 
 * Требуется [подключаемый модуль библиотек проверки подлинности Azure Active Directory (ADAL) для Cordova](https://github.com/AzureAD/azure-activedirectory-library-for-cordova) версии 0.8.0 или более поздней.
-  * **Примечание.** Из-за ошибки в Apache Cordova, описанной [здесь](https://issues.apache.org/jira/browse/CB-6227?jql=text%20~%20%22plugin%20dependency%22), приложения, которые уже имеют зависимость от подключаемого модуля, не обновляют подключаемый модуль до нужной версии автоматически.
+  * **Внимание!** Из-за ошибки в Apache Cordova, описанной [здесь](https://issues.apache.org/jira/browse/CB-6227?jql=text%20~%20%22plugin%20dependency%22), приложения, которые уже имеют зависимость от подключаемого модуля, не обновляют его до нужной версии автоматически.
+
+
+### <a name="before-you-install-and-use-microsoft-intune-app-sdk-cordova-plugin-you-must"></a>Перед установкой и использованием подключаемого модуля Cordova из пакета SDK для приложений Intune **требуется** выполнить следующее:
+
+* Ознакомиться с [условиями лицензии для подключаемого модуля Cordova из пакета SDK для приложений Intune.](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam/blob/master/Intune_App_SDK_Cordova_plugin_RTM_license.pdf).
+
+* Распечатать и сохранить копию условий лицензии для своих записей. Скачивая и используя подключаемый модуль Cordova из пакета SDK для приложений Intune, вы соглашаетесь с этими условиями лицензии.  Если вы не согласны, не используйте это программное обеспечение.
+
 
 ## <a name="quick-start"></a>Быстрое начало работы
 
@@ -122,11 +136,11 @@ $ cordova run --nobuild
 
 2. **Cordova 6.x.x:** в `[PROJECT_ROOT]/platforms/android/cordova/lib/Adb.js` измените строку 60 с
 
-    ```
+    ```javascript
     var args = ['-s', target, 'install'];
     ```
     значение
-    ```
+    ```javascript
     var args = ['-s', target, 'install', '-t'];
     ```
 
@@ -137,8 +151,8 @@ $ cordova run --nobuild
 
 ## <a name="known-limitations"></a>Известные ограничения
 ### <a name="android"></a>Android
-* Поддержка Multi-Dex является неполной.
-* Приложение должно ориентироваться на Android 4.0 (Android API 14) или более поздней версии.
+* Поддержка MultiDex является неполной.
+* Приложение должно быть нацелено на Android 4.0 (Android API 14) или более поздней версии.
 
 ### <a name="ios"></a>iOS
 * Каждый раз при изменении списка UTI в узле **CFBundleDocumentTypes** файла **Info.plist** следует очистить UTI в разделе импортированных UTI того же файла PLIST (узел **UTImportedTypeDeclarations**) перед повторной сборкой. Все UTI Intune начинаются с префикса `com.microsoft.intune.mam`.
@@ -147,6 +161,6 @@ $ cordova run --nobuild
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

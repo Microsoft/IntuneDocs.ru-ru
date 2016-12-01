@@ -14,8 +14,8 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 027e7e56e6f7d3a604336e0465f688af514c69e6
-ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
+ms.sourcegitcommit: 4f6e7525ae2a125851ad402644d5fbc8767c77dc
+ms.openlocfilehash: 9bfc8886b464452f8fe35d4b740607ef3bc07a71
 
 
 ---
@@ -25,7 +25,7 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
 Условный доступ состоит из двух компонентов:
 - Политика соответствия устройств, которой устройства должны удовлетворять, чтобы считаться соответствующими.
 - Политика условного доступа, где указываются условия, которым должно удовлетворять устройство для доступа к службе.
-Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
+Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
 Политики соответствия требованиям и условного доступа развертываются для пользователя. Любое устройство, используемое пользователем для доступа к службам, проверяется на соответствие политикам.
 
@@ -36,7 +36,7 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
 
 **Перед** настройкой политики условного доступа для SharePoint Online необходимо выполнить следующие условия:
 - Получить **подписку SharePoint Online**, а пользователи должны иметь лицензию на SharePoint Online.
-- Получить **подписку Enterprise Mobility + Security или Azure Active Directory Premium**, а пользователи должны иметь лицензии для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
+- Получить **подписку Enterprise Mobility + Security или Azure Active Directory Premium**, а пользователи должны иметь лицензии для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
 
 
   Для подключения к необходимым файлам устройство должно удовлетворять следующим требованиям:
@@ -55,13 +55,13 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
 
 -   Если устройство не соответствует требованиям, отображается сообщение, направляющее пользователя на веб-сайт корпоративного портала [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], где можно найти сведения о данной проблеме и способах ее решения.
 
-**Условный доступ не применяется к внешнему общему доступу**. Сведения о том, как запретить внешний общий доступ в клиенте или семействе веб-сайтов, см. в разделе [Управление внешним общим доступом для среды SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US).
+**Условный доступ не применяется к внешнему общему доступу**. Информацию о том, как запретить внешний совместный доступ в клиенте или семействе веб-сайтов, см. в статье [Управление внешним доступом для среды SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US).
 
 >[!NOTE]
 >Если вы включили условный доступ для SharePoint Online, то рекомендуется отключить домен в списке, как описано в разделе [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx).  
 
 ## <a name="support-for-mobile-devices"></a>Поддержка мобильных устройств
-- Устройства iOS 8.0 и более поздней версии
+- Устройства iOS 8.0 и более поздней версии
 - Android 4.0 и более поздние версии, Samsung KNOX Standard 4.0 и более поздние версии
 - Windows Phone 8.1 и более поздней версии
 
@@ -74,9 +74,9 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
 
 ## <a name="support-for-pcs"></a>Поддержка для ПК
 - Windows 8.1 и более поздней версии (при регистрации Intune);
-- Windows 7.0, Windows 8.1 или Windows 10 (при присоединении к домену)
+- Windows 7.0, Windows 8.1 или Windows 10 (при присоединении к домену)
 > [!NOTE]
->Чтобы использовать условный доступ с компьютерами под управлением Windows 10, необходимо установить на них юбилейное обновление Windows 10.
+>Чтобы использовать условный доступ с компьютерами под управлением Windows 10, необходимо установить на них юбилейное обновление Windows 10.
 
   - Для ПК, присоединенных к домену, необходимо задать [автоматическую регистрацию](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-automatic-device-registration/) в Azure Active Directory.
 Служба AAD DRS активируется автоматически для клиентов Intune и Office 365. Клиенты, которые уже развернули службу регистрации устройств ADFS, не будут видеть зарегистрированные устройства в своем локальном Active Directory.
@@ -87,7 +87,7 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
   >[!NOTE]
   >Условный доступ не поддерживается на компьютерах, где выполняется клиент Intune.
 
--    [Должна быть включена современная проверка подлинности Office 365](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a), а также должны быть установлены все последние обновления Office.
+-    [Должна быть включена современная проверка подлинности Office 365](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a), а также должны быть установлены все последние обновления Office.
 
     Современная проверка подлинности для клиентов Office 2013 под управлением Windows использует библиотеку проверки подлинности Active Directory (ADAL) и поддерживает более высокий уровень безопасности, обеспечиваемый **многофакторной проверкой подлинности** и **проверкой подлинности на основе сертификатов**.
 
@@ -99,9 +99,9 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
 
 В каждой политике SharePoint Online можно указать два типа групп:
 
--   **целевые группы** — группы пользователей, к которым применяется политика;
+-   **целевые группы** — группы пользователей, к которым применяется политика;
 
--   **исключенные группы** — группы пользователей, которые исключены из политики.
+-   **исключенные группы** — группы пользователей, которые исключены из политики.
 
 Если пользователь входит в обе группы, то он будет исключен из политики.
 
@@ -160,7 +160,7 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
   1.    Запустите **приложение корпоративного портала**.
   2.    Перейдите на страницу **Настройки**, нажав кнопку с тремя точками (...) или аппаратную кнопку меню.
   3.    Нажмите кнопку **Включить доступ браузера**.
-  4.  В браузере Chrome выйдите из Office 365 и перезагрузите Chrome.
+  4.  В браузере Chrome выйдите из Office 365 и перезагрузите Chrome.
 
   На платформах **iOS и Android**. Для идентификации устройства, используемого для доступа к службе, Azure Active Directory выдаст устройству сертификат безопасности TLS.  На устройстве этот сертификат отобразится вместе с запросом на выбор сертификата, как показано на снимках экрана ниже. Конечный пользователь должен выбрать этот сертификат, прежде чем сможет продолжить работать с браузером.
 
@@ -191,10 +191,10 @@ ms.openlocfilehash: 5e8fa073cfd98d77ad7fd269fa14bce117e3e9e5
 -   **Устройства, зарегистрированные в AAD и соответствующие политикам** — эти устройства могут получить доступ к SharePoint Online.
 
 ### <a name="see-also"></a>См. также
-[Ограничение доступа к электронной почте и службам Office 365 с помощью Microsoft Intune](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+[Ограничение доступа к электронной почте и службам Office 365 с помощью Microsoft Intune](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 
