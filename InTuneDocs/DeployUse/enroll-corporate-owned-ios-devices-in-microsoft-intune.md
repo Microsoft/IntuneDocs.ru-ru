@@ -14,13 +14,13 @@ ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
-ms.openlocfilehash: 81eb6df96f4c34e8524bb8f3faef964179c91dfc
+ms.sourcegitcommit: 00ca6ea06aa63646d6ede6337f8e70d1ab956c5f
+ms.openlocfilehash: cfc97f4ed931a5c7dc5b38eafd0a2d081bc30975
 
 
 ---
 
-# <a name="enroll-corporateowned-ios-devices-in-microsoft-intune"></a>Регистрация корпоративных устройств iOS в Microsoft Intune
+# <a name="enroll-corporate-owned-ios-devices-in-microsoft-intune"></a>Регистрация корпоративных устройств iOS в Microsoft Intune
 Служба Microsoft Intune поддерживает регистрацию корпоративных устройств iOS с помощью программы регистрации устройств Apple (DEP) или средства [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) на компьютерах Mac.
 
 **Предварительное требование**. [Получите сертификат службы push-уведомлений Apple.](set-up-ios-and-mac-management-with-microsoft-intune.md)
@@ -38,7 +38,7 @@ ms.openlocfilehash: 81eb6df96f4c34e8524bb8f3faef964179c91dfc
 ## <a name="use-the-device-enrollment-program-dep"></a>Использование программы регистрации устройств (DEP)
 Программа DEP по беспроводному каналу развертывает профиль регистрации на устройствах, приобретенных через DEP. Когда пользователь запускает на устройстве помощник по настройке, оно регистрируется в Intune.  Регистрация устройств, выполненная с помощью программы DEP, не может быть отменена пользователями. Подробнее см. статью [Регистрация корпоративных устройств с помощью программы регистрации устройств iOS](ios-device-enrollment-program-in-microsoft-intune.md).
 
-## <a name="use-the-company-portal-on-depenrolled-or-apple-configuratorenrolled-devices"></a>Использование корпоративного портала на устройствах, зарегистрированных через DEP или Apple Configurator
+## <a name="use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices"></a>Использование корпоративного портала на устройствах, зарегистрированных через DEP или Apple Configurator
 
 Устройства, для которых настроено сопоставление с пользователем (сходство пользователей), могут установить и запустить приложение корпоративного портала для скачивания приложений и управления устройствами. Когда пользователи получают свои устройства, они должны выполнить ряд дополнительных действий, чтобы запустить помощник по настройке и установить приложение корпоративного портала.
 
@@ -68,7 +68,7 @@ ms.openlocfilehash: 81eb6df96f4c34e8524bb8f3faef964179c91dfc
 
 8. На этом регистрация завершена. Теперь можно использовать все функции этого устройства.
 
-### <a name="about-corporateowned-managed-devices-with-no-user-affinity"></a>Корпоративные управляемые устройства без сопоставления пользователей
+### <a name="about-corporate-owned-managed-devices-with-no-user-affinity"></a>Корпоративные управляемые устройства без сопоставления пользователей
 
 Устройства, для которых не настроено сопоставление с пользователем, не смогут использовать корпоративный портал, поэтому на них не следует устанавливать приложение. Корпоративный портал предназначен для пользователей, у которых есть корпоративные учетные данные и которым необходим доступ к персонализированным корпоративным ресурсам (например, электронной почте). Устройства, зарегистрированные без сопоставления с пользователем, предназначены для использования без входа конкретного пользователя. Обычно устройства, зарегистрированные без сопоставления с пользователем, используются в киосках, точках продаж (POS-терминалы) или являются корпоративными устройствами совместного пользования.
 
@@ -77,10 +77,10 @@ ms.openlocfilehash: 81eb6df96f4c34e8524bb8f3faef964179c91dfc
 
 
 ### <a name="see-also"></a>См. также
-[Предварительные требования для регистрации устройств в Microsoft Intune](gprerequisites-for-enrollment.md)
+[Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

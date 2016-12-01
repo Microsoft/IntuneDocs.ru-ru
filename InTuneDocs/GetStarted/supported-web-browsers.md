@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 10/19/2016
+ms.date: 11/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 6f4ff11d-dc81-481a-bcd9-d8cdab32f876
 ms.reviewer: camoya
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d422b421c3716ad576c4fc565b181dec28c947e
-ms.openlocfilehash: efb8dd90eab9bbcc77135ef2ff3e0ffd37d128bf
+ms.sourcegitcommit: 4ee5f39ac31c2a35770b88c937f138f9c0b525b6
+ms.openlocfilehash: 80681cf6c1b76b70b1da00b4a1f1b56a3436014a
 
 
 ---
 
-# Веб-браузеры, поддерживаемые Microsoft Intune
+# <a name="microsoft-intune-supported-web-browsers"></a>Веб-браузеры, поддерживаемые Microsoft Intune
 
 Перед настройкой Intune ознакомьтесь с этим разделом и другими требованиями в статье [Предварительные сведения перед началом работы](what-to-know-before-you-start-microsoft-intune.md).
 
@@ -33,11 +33,11 @@ ms.openlocfilehash: efb8dd90eab9bbcc77135ef2ff3e0ffd37d128bf
 > [!Note]
 > Microsoft Edge и браузеры мобильных устройств не поддерживаются для консоли администратора, так как они не поддерживают [Microsoft Silverlight](https://msdn.microsoft.com/en-us/library/cc838158(v=vs.95).aspx). Консоль Intune постепенно переводится с платформы Silverlight. В итоге все функции управления мобильными устройствами и приложениями Intune станут [доступны на новом портале Microsoft Azure](https://blogs.technet.microsoft.com/enterprisemobility/2015/11/17/enhancing-managed-mobile-productivity/).
 
-### См. также
+### <a name="see-also"></a>См. также
 [Предварительные сведения перед началом работы с Microsoft Intune](what-to-know-before-you-start-microsoft-intune.md)
 
 
 
-<!--HONumber=Oct16_HO4-->
+<!--HONumber=Nov16_HO4-->
 
 

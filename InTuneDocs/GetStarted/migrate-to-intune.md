@@ -5,7 +5,7 @@ keywords:
 author: jeffgilb
 ms.author: jeffgilb
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 11/22/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
-ms.openlocfilehash: 8ebe9c29f4155a2aac39b502252f3225372d374f
+ms.sourcegitcommit: 29b6e5a3d319c741482fcc2b600842e2e42b96e2
+ms.openlocfilehash: c5adeb2164a55d029c9d7f86490092a72f04f126
 
 
 ---
@@ -74,6 +74,6 @@ ms.openlocfilehash: 8ebe9c29f4155a2aac39b502252f3225372d374f
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 

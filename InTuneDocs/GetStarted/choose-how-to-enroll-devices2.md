@@ -3,26 +3,27 @@ title: "Выбор способа регистрации мобильных ус
 description: "Выберите способ регистрации мобильных устройств в Intune, ответив на несколько простых вопросов."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 11/22/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 242de106-36a0-469f-a89c-4173ae8bdd7f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
-ms.openlocfilehash: 1e7c4f9963aaba3389a903e2fe2fd3fd582c8ce6
+ms.sourcegitcommit: 29b6e5a3d319c741482fcc2b600842e2e42b96e2
+ms.openlocfilehash: a30634f7a33e99083dbb5e1c2cca61352c3eed14
 
 
 ---
-# Выбор способа регистрации мобильных устройств
+# <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
 
 Определить наилучший способ регистрации устройств, которыми вы управляете, помогут ответы на ряд вопросов.
 
-## **Какие платформы BYOD вы хотите включить?**
+## <a name="which-byod-platform-do-you-want-to-enable"></a>**Какие платформы BYOD вы хотите включить?**
 
 > [!div class="button"]
 [Android >](/intune/deploy-use/set-up-android-management-with-microsoft-intune)
@@ -39,6 +40,6 @@ ms.openlocfilehash: 1e7c4f9963aaba3389a903e2fe2fd3fd582c8ce6
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/2/2016
+ms.date: 11/14/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,107 +14,73 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b5035c4560fa298af83fe0d016cd83b85959b450
-ms.openlocfilehash: 12c066ed165509cc9182a3735d516fa2dd3e6a90
+ms.sourcegitcommit: 8e88c14ad77d8fe1b4c0fe2e7676d126e6288146
+ms.openlocfilehash: bcd77b751c2059131558e1cbfeebd4d3f71086e5
 
 
 ---
-# <a name="whats-new-in-microsoft-intune-october-2016"></a>Новые возможности Microsoft Intune — октябрь 2016 г.
+# <a name="whats-new-in-microsoft-intune---november-2016"></a>Новые возможности Microsoft Intune — октябрь 2016 г.
 Узнайте о новых возможностях этого выпуска Microsoft Intune. Кроме того, здесь можно узнать о предстоящих изменениях, к которым следует подготовиться, а также сведения о прошлых выпусках.
 
 В будущем все эти функции будут также поддерживаться в гибридных развертываниях (Configuration Manager с Intune). Дополнительные сведения о новых гибридных функциях см. на [странице новых гибридных функций](https://technet.microsoft.com/library/mt718155.aspx).
 <!---@Barry, the above blurb stays in each version, but make sure Tyler signs off each time. Also, remember to set the ms.date in the metadata to the sprint release. --->
 
-## <a name="whats-new"></a>Новые возможности
+## <a name="new-capabilities"></a>Новые возможности
 
-### <a name="conditional-access-for-mobile-application-management"></a>Условный доступ для управления мобильными приложениями
-Вы сможете предоставить доступ к Exchange Online только для приложений, которые поддерживают политики управления мобильными приложениями Intune, таких как Outlook. [Эту новую функцию](/intune/deploy-use/allow-policy-managed-apps-access-to-o365) удобно совмещать с политиками управления мобильными приложениями Intune (MAM), так как вы можете блокировать доступ к встроенным почтовым клиентам и другим приложениям, для которых не были настроены политики Intune MAM. Это гарантирует, что пользователи получат доступ к данным организации только в приложениях, которые можно защитить с помощью Intune MAM. Начать работу с управлением мобильными приложениями Intune можно на портале Azure. Новый раздел "Условный доступ" находится в колонке "Настройки".
+<!--### View App States for All Platforms in Real Time
+App installation status is now shown in real-time in the console. When you previously deployed an app, you had to wait for a targeted device to report back before the app install status was displayed in the Intune console.
 
-### <a name="conditional-access-for-windows-pcs"></a>Условный доступ для ПК под управлением Windows
-Теперь вы можете создавать политики условного доступа через консоль администрирования Intune, чтобы заблокировать компьютерам под управлением Windows доступ к [Exchange Online](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune) и [SharePoint Online](/intune/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune). Можно также создать политики условного доступа для блокировки доступа к классическим и универсальным приложениям Office.
+### Streamline iOS App Management for your End Users
+Intune can now automatically take over management of the previously installed app and no end user action is required.
 
-### <a name="android-for-work-support"></a>Поддержка Android for Work
-Intune теперь входит в программу Android for Work. Начиная с этого месяца, мы начинаем развертывать поддержку функций Android for Work и продолжим эту работу в течение следующих нескольких месяцев. Обратите внимание на то, что в доступном развертывании AfW используются новые параметры группирования и таргетирования. Вновь подготовленные учетные записи Intune смогут использовать эту функцию, как только получат доступ к Android for Work.
+Previously, if the end user of an enrolled iOS device installed an app from the App Store before you deployed that same app with a deployment action of __Available__, then the end user had to:
 
-Действующие клиенты Intune смогут использовать эту функцию в рабочей среде после переноса своего клиента. Действующим пользователям рекомендуется создать пробную учетную запись Intune, чтобы протестировать эту функцию до переноса клиента. По вопросам, связанным со сроками реализации группирования и таргетирования, обращайтесь к [специалистам по миграции](mailto:intunegrps@microsoft.com).
+1. Open the __Company Portal__.
+2. Select the app.
+3. Tap __Install__ to enable Intune to take over management of the app.-->
 
-[Ознакомьтесь с объявлением Майкрософт о поддержке Intune для Android for Work](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/12/microsoft-intune-support-for-android-for-work/).
+<!--### New Microsoft Intune Company Portal App for Windows 10 Devices
+Microsoft is releasing a new Intune Company Portal for Windows 10 devices. This app, which leverages the new Windows 10 Universal format, will provide the user with an updated user experience within the app and identical experiences across all Windows 10 devices, PC and Mobile alike - while still enabling all the same functionality that they are using today.
 
-Следующие разделы по Intune являются новыми или были обновлены с учетом сведений по Android for Work:
+The new app will also allow users to leverage additional platform features like single sign-on and certificate-based authentication on Windows 10 devices. The app will be made available as an upgrade to the existing Windows 8.1 Company Portal and Windows Phone 8.1 Company Portal installs from the Windows Store. It will also be available for sideloading.-->
 
-ИТ-специалистам
-- [Настройка Android for Work](/intune/deploy-use/set-up-android-for-work)
-<!--- [Nathan Bigman's resource access topics]()-->
-- [Ограничение доступа к электронной почте в Exchange Online и новой выделенной среде Exchange Online с помощью Intune](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune)
-- [Ограничение доступа к электронной почте в локальной организации Exchange и прежней выделенной среде Exchange Online с помощью Intune](/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune)
-- [Параметры политики соответствия для устройств Android for Work](/intune/deploy-use/afw-compliance-policy-settings-in-microsoft-intune)
-- [Развертывание приложений Android for Work](/intune/deploy-use/android-for-work-apps)
-- [Настройка приложений Android for Work с помощью политик конфигурации мобильных приложений](/intune/deploy-use/afw-app-configuration-policy)
-- [Параметры политики Android for Work](/intune/deploy-use/android-for-work-policy-settings-in-microsoft-intune)
+<!--### Support for Windows Store for Business Apps Being Deployed as Available
+You can now deploy apps you synchronized from the Windows Store for Business (WSfB) with a deployment action of __Available__ or __Required__. After syncing WSfB apps into Intune, administrators will be able to target those apps as available installs to groups of users. End users will see the deployed WSfB apps as available for install in the Universal Company Portal, where they can choose whether they would like to acquire the apps.
 
-Конечным пользователям
-- [Что происходит при создании профиля работы](/intune/enduser/what-happens-when-you-create-a-work-profile-android)
-- [Создание профиля работы и регистрация устройства в Intune](/intune/enduser/create-a-work-profile-and-enroll-your-device-in-intune-android)
+### Conditional Access for MAM with SharePoint Online
 
-### <a name="lookout-integration-to-protect-ios-devices"></a>Интеграция Lookout для защиты устройств с iOS
-В октябре Майкрософт интегрируется с решением мобильной защиты от угроз Lookout для защиты мобильных устройств с iOS путем обнаружения вредоносных программ, опасных приложений и многого другого на таких устройствах. Решение Lookout помогает определить настраиваемый уровень угроз. Вы можете создать правило политики соответствия в Intune, чтобы определить соответствие устройств на основе оценки рисков Lookout. Используя политики условного доступа, вы можете разрешить или заблокировать доступ к ресурсам организации на основе состояния соответствия устройства.
+You can block apps that are not supported by Intune mobile app management (MAM) policies from accessing SharePoint online.  You can get started in Intune mobile app management via the Azure portal. Look for the  Conditional Access section in the “Settings” blade which now includes the option for SharePoint online.-->
 
-Чтобы конечные пользователи не соответствующих политике устройств с iOS могли получить доступ к корпоративным данным, потребуется зарегистрироваться, установить приложение Lookout for Work на устройствах, активировать приложение и устранить угрозы в приложении Lookout for Work. [Настройка и развертывание приложений Lookout for Work](/intune/deploy-use/configure-and-deploy-lookout-for-work-apps).
-<!--TFS 1319493-->
+> [!IMPORTANT]
 
-<!--### New Microsoft Intune Company Portal available for Windows 10 devices
-Microsoft is releasing a new [Microsoft Intune Company Portal for Windows 10 devices](https://go.microsoft.com/fwlink/?linkid=830663). This app, which leverages the new Windows 10 Universal format, will provide the user with an updated user experience within the app and identical experiences across all Windows 10 devices, PC and Mobile alike, while still enabling all the same functionality that they are using today.
+> __Обновления в Intune и Android for Work__
 
-The new app will also allow users to leverage additional platform features like single sign-on (SSO) and certificate-based authentication on Windows 10 devices. The app will be made available as an upgrade to the existing Windows 8.1 Company Portal and Windows Phone 8.1 Company Portal installs from the Windows Store.-->
+> Хотя приложения Android for Work можно разворачивать с действием __Необходимо__, в случае миграции групп Intune на новый интерфейс Azure AD приложения можно развернуть только с действием __Доступно__.
 
-### <a name="intune-app-wrapping-tool-for-android"></a>Инструмент упаковки приложений Intune для Android
-Можно позволить приложениям применять политики управления мобильными приложениями (MAM) Intune с помощью инструмента упаковки приложений Intune. Теперь имеется поддержка политик Intune MAM без необходимости регистрации устройств.
+### <a name="intune-app-sdk-for-cordova-plugin-now-supports-mam-without-enrollment"></a>Пакет SDK для приложений Intune для подключаемого модуля Cordova сейчас поддерживает MAM без регистрации
+Разработчики приложений теперь могут использовать пакет SDK для приложений Intune для подключаемого модуля Cordova для включения функций MAM без регистрации устройств в своих приложениях на основе Cordova для iOS и Android. Пакет SDK для приложений Intune для подключаемого модуля Cordova можно найти [здесь](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam).
 
-### <a name="manage-printing-from-apps-managed-using-mam-policies"></a>Управление печатью из приложений, контролируемых политиками MAM
-Теперь можно запретить печать данных организации из приложений, которые имеют политики MAM. Этот параметр доступен на [портале Azure](/Intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune) и поддерживается устройствами с [iOS](/Intune/deploy-use/ios-mam-policy-settings) и [Android](/Intune/deploy-use/android-mam-policy-settings).
-<!--TFS 1014328-->
-
-### <a name="support-for-fingerprints-on-android-devices"></a>Поддержка отпечатков пальцев на устройствах Android
-Теперь политики управления мобильными приложениями (MAM) Android позволяют пользователям получать доступ к приложению, используя вместо PIN-кода отпечаток пальца. Этот и другие параметры политики управления мобильными приложениями для устройств Android рассматриваются [здесь](/Intune/deploy-use/android-mam-policy-settings).
+### <a name="intune-app-sdk-xamarin-component-now-supports-mam-without-enrollment"></a>Пакет SDK для приложений Intune для компонента Xamarin сейчас поддерживает MAM без регистрации
+Разработчики приложений теперь могут использовать пакет SDK для приложений Intune для компонента Xamarin, чтобы включать функции MAM без регистрации устройств в своих приложениях на основе Xamarin для iOS и Android. Пакет SDK для приложений Intune для компонента Xamarin можно найти [здесь](https://github.com/msintuneappsdk/intune-app-sdk-xamarin).
 
 ## <a name="notices"></a>Объявления
 
-### <a name="android-samsung-knox-compatibility-with-intune"></a>Совместимость Android Samsung KNOX с Intune
-Для некоторых моделей телефонов Samsung Galaxy Ace отсутствует возможность управления с помощью Intune в качестве устройств Samsung KNOX. При регистрации этих устройств с помощью Intune управление ими будет осуществляться в качестве стандартных устройств Android.
+### <a name="symantec-signing-certificate-no-longer-requires-signed-windows-phone-8-company-portal-for-upload"></a>Для отправки сертификата для подписи Symantec больше не требуется подписанный корпоративный портал Windows Phone 8
+При отправке сертификата для подписи Symantec больше не требуется подписанное приложение корпоративного портала Windows Phone 8. Сертификат можно отправить без сторонних средств.
 
-Затронутые номера моделей:
+## <a name="deprecations"></a>Устаревшие возможности
 
-* SM-G313HU
-* SM G313HY
-* SM-G313M
-* SM-G313MY
-* SM-G313U
+### <a name="support-for-the-windows-phone-8-company-portal"></a>Поддержка корпоративного портала Windows Phone 8
+Поддержка корпоративного портала Windows Phone 8 будет прекращена. Кроме того, в октябре 2016 г. прекращена поддержка платформ Windows Phone 8 и Windows RT. В октябре 2016 г. прекращена поддержка также корпоративного портала Windows 8.
 
-От вас и ваших пользователей дополнительные действия не требуются. Дополнительные сведения см. на веб-сайте [Samsung KNOX](https://www.samsungknox.com).
-
-### <a name="company-portal-app-for-windows-8-is-deprecated-support-for-windows-phone-8-and-windows-rt-platforms-are-being-deprecated"></a>Приложение корпоративного портала для Windows 8 устарело; поддержка для платформ Windows Phone 8 и Windows RT прекращена.
-Начиная с октября 2016 г. Microsoft Intune прекращает поддержку корпоративного портала для Windows 8. Кроме того, Microsoft Intune прекращает поддержку платформ Windows Phone 8 и Windows RT. Как следствие, вы не сможете регистрировать или обновлять любые устройства с Windows Phone 8 или Windows RT.
-
-Но вы можете продолжить управление уже зарегистрированными устройствами с Windows Phone 8, Windows RT и Windows 8. Чтобы продолжить беспроблемное распространение приложений на устройства Windows 8 и Windows Phone 8, обновите их до Windows 8.1 и Windows Phone 8.1 и используйте соответствующие приложения "Корпоративный портал" для Windows 8.1 и Windows Phone 8.1.
-
-Начиная с ноября 2016 г. будет прекращена поддержка корпоративного портала Windows Phone 8.
-<!--TFS 1255391-->
-
-## <a name="whats-coming"></a>Предстоящие изменения
-
-### <a name="new-microsoft-intune-company-portal-available-for-windows-10-devices"></a>Новый корпоративный портал Microsoft Intune доступен для устройств с Windows 10
-Корпорация Майкрософт выпускает новый корпоративный портал Microsoft Intune для устройств с Windows 10. Это приложение, которое использует новый формат Windows 10 Universal, представит пользователю обновленный интерфейс в приложении и аналогичный интерфейс на всех устройствах, компьютерах и мобильных устройствах под управлением Windows 10, при этом оно включает те же функциональные возможности, которые доступны пользователям сейчас.
-
-Это новое приложение также позволит пользователям использовать дополнительные функциональные возможности платформы, такие как единый вход (SSO) и проверка подлинности на основе сертификатов на устройствах с Windows 10. Приложение станет доступно в качестве обновления для существующих установок корпоративного портала Windows 8.1 и Windows Phone 8.1 в Магазине Windows. Дополнительные сведения см. по адресу [aka.ms/intunecp_universalapp](http://aka.ms/intunecp_universalapp).
-<!--TFS 1016502-->
 
 ### <a name="see-also"></a>См. также
 * [Блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882)
 * [Стратегии развития облачной платформы](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&dropValue=Intune)
-* [Предыдущие выпуски Intune](previous-intune-releases.md)
+* [Предыдущие выпуски Intune](whats-new-archive.md)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO3-->
 
 

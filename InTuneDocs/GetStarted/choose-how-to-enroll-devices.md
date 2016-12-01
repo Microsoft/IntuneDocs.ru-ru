@@ -5,25 +5,25 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 11/22/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cac62b64-3f8b-47ae-aa66-970c7ba15466
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: 2c14071f5fb1a3604b897d6b2f81797d40bedc6d
-ms.openlocfilehash: 1fd8495811e2cbcf4761707f2d1b705e49a240c6
+ms.sourcegitcommit: a563105aafb447c6e009cca09645e630709ff72d
+ms.openlocfilehash: 143f77bde09648a233ff09e9740668191a50cb1e
 
 
 ---
 
-# Выбор способа регистрации мобильных устройств
+# <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
 
 Определить наилучший способ регистрации для устройств, которыми вы управляете, помогут ответы на приведенные ниже вопросы.
 
-## **Пользователи приносят собственные устройства или устройства предоставляются организацией?**
+## <a name="do-employees-bring-their-own-devices-or-are-devices-provided-by-your-organization"></a>**Пользователи приносят собственные устройства или устройства предоставляются организацией?**
 
   - **Устройства, принадлежащие пользователям** — регистрация устройств BYOD (принеси свое устройство).
   - **Устройства, принадлежащие компании** — регистрация устройств COD.
@@ -33,26 +33,26 @@ ms.openlocfilehash: 1fd8495811e2cbcf4761707f2d1b705e49a240c6
 > [!div class="button"]
 [Регистрация устройств COD >](#are-your-company-owned-devices-shared-or-do-they-have-dedicated-users)
 
-## **Какие устройства BYOD могут зарегистрировать пользователи?**
+## <a name="what-byod-devices-can-your-users-enroll"></a>**Какие устройства BYOD могут зарегистрировать пользователи?**
 
 > [!div class="button"]
 [Android](/intune/deploy-use/set-up-android-management-with-microsoft-intune) [iOS и Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune) [Windows 10 Mobile и Window Phone](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune) [Компьютеры с Windows](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
 
-## **Являются ли устройства компании общими или привязаны к отдельным пользователям?**
+## <a name="are-your-company-owned-devices-shared-or-do-they-have-dedicated-users"></a>**Являются ли устройства организации общими или привязаны к отдельным пользователям?**
 
 > [!div class="button"]
 [Общие >](#what-operating-system-are-your-shared-devices-running) [Выделенные >](#how-will-you-manage-dedicated-ios-devices)
 
 
-## **Какая операционная система выполняется на общих устройствах?**
+## <a name="what-operating-system-are-your-shared-devices-running"></a>**Какая операционная система выполняется на общих устройствах?**
 
-  > [!div class="button"]
-  [Windows >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [Android >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [iOS >](#how-will-you-manage-shared-ios-devices)
+> [!div class="button"]
+[Windows >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [Android >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) [iOS >](#how-will-you-manage-shared-ios-devices)
 
-## **Как вы будете управлять общими устройствами iOS?**
+## <a name="how-will-you-manage-shared-ios-devices"></a>**Как вы будете управлять общими устройствами iOS?**
 
-  > [!div class="button"]
-  [Регистрация через программу регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Прямая регистрация устройств iOS >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) [Регистрация с помощью диспетчера регистрации устройств (DEM) >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
+> [!div class="button"]
+[Регистрация через программу регистрации устройств (DEP) iOS >](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Прямая регистрация устройств iOS >](/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) [Регистрация с помощью диспетчера регистрации устройств (DEM) >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
 
   - **Программа регистрации устройств Apple (DEP)** —для устройств с iOS, приобретаемых или управляемых с помощью программы DEP, можно задать профиль регистрации. При первом включении устройства оно загрузит профиль DEP и зарегистрируется с его помощью.
 
@@ -60,10 +60,10 @@ ms.openlocfilehash: 1fd8495811e2cbcf4761707f2d1b705e49a240c6
 
   - **Диспетчер регистрации устройств (Intune)** — диспетчер регистрации устройств Intune (DEM) позволяет менеджеру или администратору зарегистрировать множество мобильных устройств с помощью одной учетной записи пользователя. Выделенные пользователи (сходство пользователей) на этих устройствах не могут присутствовать; их необходимо зарегистрировать путем установки приложения корпоративного портала и входа в него.
 
-## **Как вы будете управлять выделенными устройствами iOS?**
+## <a name="how-will-you-manage-dedicated-ios-devices"></a>**Как вы будете управлять выделенными устройствами iOS?**
 
-  > [!div class="button"]
-   [Программа регистрации устройств (DEP) iOS](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Помощник по настройке iOS](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [Теги с IMEI](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
+> [!div class="button"]
+[Программа регистрации устройств (DEP) iOS](/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) [Помощник по настройке iOS](/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) [Теги с IMEI](/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers)
 
   Вы можете зарегистрировать устройства организации с выделенными пользователями следующим образом:
 
@@ -75,6 +75,6 @@ ms.openlocfilehash: 1fd8495811e2cbcf4761707f2d1b705e49a240c6
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 
