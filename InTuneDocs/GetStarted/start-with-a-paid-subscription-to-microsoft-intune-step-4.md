@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 11/22/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,18 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d422b421c3716ad576c4fc565b181dec28c947e
-ms.openlocfilehash: df2a8c526f3c569a491d999ee4c80a36a30b77e3
+ms.sourcegitcommit: 149f3a3310907d131affeaad4bd372aa60be9206
+ms.openlocfilehash: 325373a19de96265d3605ef22e633eb60e6be2b3
 
 
 ---
 
-# Управление лицензиями Intune
+# <a name="manage-intune-licenses"></a>Управление лицензиями Intune
 Чтобы пользователи могли войти в систему и получить доступ к службам Intune или зарегистрировать свои устройства для управления, нужно назначить каждому пользователю лицензию на вашу подписку Intune на [портале Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854).
 
 Организации, использующие Microsoft Enterprise Mobility + Security (EMS), могут иметь пользователей, которым в пакете EMS нужны только службы Azure Active Directory Premium или Intune. Можно назначить одну службу или подмножество служб с помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx). Дополнительные сведения см. в разделе [Управление лицензиями Intune с помощью PowerShell](start-with-a-paid-subscription-to-microsoft-intune-step-4-posh.md).
 
-## Назначение лицензий Intune
+## <a name="how-intune-licenses-are-assigned"></a>Назначение лицензий Intune
 Когда учетные записи синхронизируются из локальной службы Active Directory или вручную добавляются в подписку облачных служб на [портале Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854), лицензия Intune не назначается им автоматически. Вы как администратор клиента Intune должны изменить учетную запись пользователя на портале Office 365, назначив лицензию этому пользователю.
 
 Если подписка использует Azure AD совместно с другими облачными службами в вашей подписке, вы получаете доступ к пользователям, которые были добавлены для этих служб. У этих пользователей не будет лицензии на [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] до тех пор, пока вы не назначите ее каждому из них.
@@ -33,7 +33,7 @@ ms.openlocfilehash: df2a8c526f3c569a491d999ee4c80a36a30b77e3
 > [!TIP]
 > Если вариант назначения или отзыва лицензии [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] недоступен, ваша подписка должна включать варианты корпоративного лицензирования, например доступные при использовании [Enterprise Mobility Suite + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx). Дополнительные сведения о назначении или отзыве лицензий см. в документации к вариантам лицензирования.
 
-## Назначение лицензии пользователя Intune
+## <a name="assign-an-intune-user-license"></a>Назначение лицензии пользователя Intune
 
 Используйте [портал Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854), чтобы вручную добавить облачных пользователей и назначить лицензии облачным учетным записям пользователей, а также учетным записям, синхронизированным из локальной службы Active Directory в Azure AD.
 
@@ -43,9 +43,10 @@ ms.openlocfilehash: df2a8c526f3c569a491d999ee4c80a36a30b77e3
 
 3.  Теперь учетная запись пользователя имеет необходимые разрешения на использование службы и регистрацию устройств для управления.
 
-> [!NOTE] Пользователи будут отображаться в консоли после регистрации устройства.
+> [!NOTE]
+> Пользователи будут отображаться в консоли после регистрации устройства.
 
-### Использование PowerShell для избирательного управления пользовательскими лицензиями EMS
+### <a name="use-powershell-to-selectively-manage-ems-user-licenses"></a>Использование PowerShell для избирательного управления пользовательскими лицензиями EMS
 Организации, использующие Microsoft Enterprise Mobility + Security (ранее Enterprise Mobility Suite), могут иметь пользователей, которым в пакете EMS нужны только службы Azure Active Directory Premium или Intune. Можно назначить одну службу или подмножество служб с помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx).
 
 Чтобы выборочно назначить лицензии пользователя для служб EMS, откройте PowerShell с правами администратора на компьютере с установленным [модулем Azure Active Directory для Windows PowerShell](https://msdn.microsoft.com/library/jj151815.aspx#bkmk_installmodule). PowerShell можно установить на локальном компьютере или на сервере ADFS.
@@ -85,7 +86,7 @@ ms.openlocfilehash: df2a8c526f3c569a491d999ee4c80a36a30b77e3
 
 ![PoSH-AddLic-Verify](./media/posh-addlic-verify.png)
 
-### Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие действия
 Поздравляем! Вы завершили шаг 4 *краткого руководства по началу работы с Intune*.
 >[!div class="step-by-step"]
 
@@ -93,6 +94,6 @@ ms.openlocfilehash: df2a8c526f3c569a491d999ee4c80a36a30b77e3
 
 
 
-<!--HONumber=Oct16_HO4-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,5 +1,5 @@
 # [Изучение вопроса](/intune/understand-explore/introduction-to-microsoft-intune)
-# [Приступая к работе](/intune/get-started/what-to-know-before-you-start-microsoft-intune)
+# [Приступая к работе](/intune/get-started/get-started)
 <!--- ## [Migrate to Intune](migrating-to-intune.md)
 ### [Set up Intune](migrating-to-intune-step-one.md)
 ### [Configure Intune](migrating-to-intune-step-two.md)
@@ -17,9 +17,9 @@
 # [Что нового](/intune/whats-new/whats-new-in-microsoft-intune)
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # [Разработка и настройка приложений](/intune/develop/intune-app-sdk)
-# [Устранение неполадок](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
+# [Устранение проблем](/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune)
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO4-->
 
 

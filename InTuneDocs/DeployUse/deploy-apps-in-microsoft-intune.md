@@ -3,6 +3,7 @@ title: "Как развернуть приложения | Microsoft Intune"
 description: "В этом разделе приводятся сведения, которые помогут вам развернуть приложения с помощью Microsoft Intune."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
 ms.date: 08/29/2016
 ms.topic: article
@@ -13,19 +14,19 @@ ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6b6a5e2435a3cdffeaf27b0045dee9b8263cdc7a
-ms.openlocfilehash: 1e6e0656fb3da0d77dab10736e7b1607d77e6335
+ms.sourcegitcommit: d73df65a36b348f0941b1e7889d083406bc082f9
+ms.openlocfilehash: b13d1a6a1a0f995b1169fabd09a2f0a4cf9b630d
 
 ---
-# Развертывание приложений в Microsoft Intune
+# <a name="deploy-apps-in-microsoft-intune"></a>Развертывание приложений в Microsoft Intune
 
 В этом разделе приводятся сведения, которые помогут вам развернуть приложения с помощью Microsoft Intune.
 
 
-## Развертывание приложения
+## <a name="deploy-an-app"></a>Развертывание приложения
 Эта процедура используется для развертывания приложения в выбранных группах устройств или пользователей.
 
-### Развертывание приложения
+### <a name="to-deploy-an-app"></a>Развертывание приложения
 
 1. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Приложения** &gt; **Приложения**, чтобы перейти к списку управляемых приложений.
 
@@ -49,7 +50,12 @@ ms.openlocfilehash: 1e6e0656fb3da0d77dab10736e7b1607d77e6335
 6. Если развертываемое приложение совместимо с профилями VPN Intune, отображается страница **Профили VPN**. На этой странице можно связать iOS-приложения с развернутым профилем VPN. VPN-подключение будет автоматически открываться при запуске приложения. Чтобы сделать профиль VPN доступным, необходимо включить параметр профиля **VPN на приложение**.
  Сведения о настройке профилей VPN, включая информацию о привязке профилей к приложениям, см. в статье [VPN-подключения в Microsoft Intune](vpn-connections-in-microsoft-intune.md).
 
-## Пример
+<!---
+>[!TIP]
+>If an end user previously installed an iOS app and you now deploy it with a deployment action of **Available**, Intune will automatically begin to manage that app with no further action required by you, or the end-user.
+--->
+
+## <a name="example"></a>Пример
 
 В этом примере вы развернули приложение как **доступное** на устройстве iOS.
 Приложение отображается на устройствах пользователей в корпоративном портале, и пользователи могут установить его с портала.
@@ -60,12 +66,12 @@ ms.openlocfilehash: 1e6e0656fb3da0d77dab10736e7b1607d77e6335
 Если приложение развернуто на устройстве iOS в качестве **обязательного**, пользователь получит уведомление о готовности приложения к установке. Например, на этом снимке экрана приложение "Рабочие папки" для iOS было развернуто с помощью типа установки **Управляемое приложение iOS из магазина App Store**.  
 ![Обязательное приложение iOS](./media/iOS-Required-install.PNG)
 
-## Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания приложения можно отслеживать его. Дополнительные сведения см. в разделе [Мониторинг приложений в Microsoft Intune](monitor-apps-in-microsoft-intune.md).
 
 
 
-<!--HONumber=Aug16_HO5-->
+<!--HONumber=Nov16_HO2-->
 
 

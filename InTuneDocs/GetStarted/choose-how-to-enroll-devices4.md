@@ -3,26 +3,27 @@ title: "Выбор способа регистрации мобильных ус
 description: "Выберите способ регистрации мобильных устройств в Intune, ответив на несколько простых вопросов."
 keywords: 
 author: NathBarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 11/14/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0be369d5-d4ad-433a-8a81-c04b070d76e3
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: 899f50cfec9e7c20d2981c077f93e0fccf37dc2b
-ms.openlocfilehash: b9ff11b211aae12f4387be3b347acb040d095c69
+ms.sourcegitcommit: 3a00f9cdfb137306a28b33f9d1acdb6bc108670f
+ms.openlocfilehash: e87b8a42be01b9d43515effce34f253e5a251214
 
 
 ---
-# Выбор способа регистрации мобильных устройств
+# <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
 
 Определить наилучший способ регистрации устройств, которыми вы управляете, помогут ответы на ряд вопросов.
 
-## **Какая операционная система выполняется на общих устройствах?**
+## <a name="what-operating-system-are-your-shared-devices-running"></a>**Какая операционная система выполняется на общих устройствах?**
 
   > [!div class="button"]
   [Windows >](/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
@@ -36,6 +37,6 @@ ms.openlocfilehash: b9ff11b211aae12f4387be3b347acb040d095c69
 
 
 
-<!--HONumber=Sep16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 
