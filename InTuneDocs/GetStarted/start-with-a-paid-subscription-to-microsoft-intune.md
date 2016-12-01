@@ -1,81 +1,55 @@
 ---
-title: "Краткое руководство по Intune | Microsoft Intune"
+title: "Начало работы | Microsoft Intune"
 description: "Требования и предварительные условия, которые следует выполнить перед использованием подписки Intune."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 11/22/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
-ms.reviewer: jeffgilb
+ms.reviewer: angrobe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d422b421c3716ad576c4fc565b181dec28c947e
-ms.openlocfilehash: 2e385a6f1721c7b8acbc1e280b8d8c3277fa00f8
+ms.sourcegitcommit: 29b6e5a3d319c741482fcc2b600842e2e42b96e2
+ms.openlocfilehash: 7fceadbfcca319dfd928ec6226de27f2189beee7
 
 
 ---
 
 
-# Краткое руководство по Intune
-Это краткое руководство содержит инструкции по настройке платной подписки Microsoft Intune, что позволит легко и быстро управлять мобильными устройствами и компьютерами с Windows в вашей организации. Вы можете выполнять все действия подряд, а также пропускать те из них, которые не распространяются на вашу среду или бизнес-требования.
+# <a name="intune-quick-start-guide"></a>Краткое руководство по Intune
+Это руководство поможет вам начать работу с платной подпиской на Microsoft Intune для управления мобильными устройствами и компьютерами с Windows. Вы можете выполнять все действия подряд, а также пропускать те из них, которые не распространяются на вашу среду или бизнес-требования. Если вы хотите опробовать Intune, см. [руководство по оценке Intune](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune).  
 
->[!NOTE]
->В этой статье основное внимание уделяется настройке Intune как автономной службы. Кроме того, если в данный момент вы используете Microsoft System Center Configuration Manager для управления компьютерами и серверами, то можно [расширить функции Configuration Manager, чтобы управлять мобильными устройствами](https://technet.microsoft.com/library/jj884158.aspx). Это можно сделать, подключив Intune к Configuration Manager в гибридном развертывании для управления мобильными устройствами (MDM).
-
-В этом кратком руководстве по началу работы представлено множество действий, аналогичных действиям в [руководстве по оценке Intune](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune). Однако когда после завершения оценки вы будете готовы приступить к управлению мобильными устройствами, потребуется выполнить несколько дополнительных требований:
-
--   Синхронизировать локальные учетные записи Active Directory с Intune и Azure Active Directory.
-
--   Обновить записи службы DNS и общедоступного домена с помощью регистратора доменных имен.
-
--   Настроить функции Intune для использования в рабочей среде.
+Если в данный момент вы используете Microsoft System Center Configuration Manager для управления компьютерами и серверами, то можно [расширить функции Configuration Manager, чтобы управлять мобильными устройствами](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management).
 
 >[!TIP]
->При покупке хотя бы 150 лицензий для Microsoft Intune в рамках подходящего плана можно использовать *FastTrack Center Benefit* — службу, c помощью которой специалисты Майкрософт совместно c вами подготовят среду для Intune. См. статью [Описание преимуществ службы Microsoft Intune](https://technet.microsoft.com/library/mt228265.aspx).
+>При покупке хотя бы 150 лицензий для Intune в рамках подходящего плана можно использовать *FastTrack Center Benefit* — службу, c помощью которой специалисты Майкрософт совместно c вами подготовят среду для Intune. См. статью [Программа FastTrack для Enterprise Mobility](https://docs.microsoft.com/enterprise-mobility-security/Solutions/enterprise-mobility-fasttrack-program).
 
+## <a name="checklist"></a>Контрольный список
 
-## Подготовка к работе
-Используйте это руководство, когда вы приступаете к работе с платной подпиской и готовы к развертыванию Intune и изменениям в существующей сетевой инфраструктуре. Эти задачи могут включать в себя как добавление или обновление записей DNS, так и синхронизацию существующих учетных записей пользователей Active Directory с Azure Active Directory. При любом выбранном сочетании функций управления мобильными устройствами Intune необходимо тщательно спланировать взаимодействие Intune с существующими сетевыми компонентами и службами. В частности, следует учесть следующее.
+| Шаги | состояние;  |
+| ------------- |-------------|
+| 1  | [Предварительные требования](what-to-know-before-you-start-microsoft-intune.md) |
+| 2 |  [Вход в Intune](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)     |  
+| 3 | [Настройка пользовательского доменного имени](start-with-a-paid-subscription-to-microsoft-intune-step-2.md)  |
+| 4 | [Синхронизация AD и добавление пользователей](start-with-a-paid-subscription-to-microsoft-intune-step-3.md)  |
+| 5 | [Управление лицензиями Intune](start-with-a-paid-subscription-to-microsoft-intune-step-4.md) |
+| 6 | [Организация пользователей и устройств](start-with-a-paid-subscription-to-microsoft-intune-step-5.md) |
+| 7 | [Создание политик и публикация приложения](start-with-a-paid-subscription-to-microsoft-intune-step-6.md) |
+| 8 | [Настройка корпоративного портала](start-with-a-paid-subscription-to-microsoft-intune-step-7.md) |
+| 9 | [Регистрация мобильных устройств и установка приложения](start-with-a-paid-subscription-to-microsoft-intune-step-8.md) |
+|10 | [Дальнейшие шаги](post-configuration-tasks.md) |
 
--   **Управление удостоверениями пользователей**. Для большинства организаций среднего и крупного размера подключение существующих служб каталогов к Intune через Azure Active Directory является лучшим и наиболее удобным способом управления удостоверениями пользователей в Intune. Это особенно важно, если используются другие облачные службы Майкрософт, такие как Office 365 и Exchange Online. Синхронизация существующих учетных записей пользователей с помощью [Microsoft Azure Active Directory Connect](https://www.microsoft.com/download/details.aspx?id=47594) — это быстрый и простой способ подключения вашей локальной структуры Active Directory к Azure Active Directory и настройки единого входа для пользователей.
-
--   **Как будет затронута служба DNS**. Если вы хотите использовать собственное доменное имя вместо домена onmicrosoft.com по умолчанию, предоставляемое при первой регистрации в Intune, то потребуется изменить некоторые общедоступные записи DNS. Обновление записей DNS нужно для того, чтобы мобильные устройства могли найти службу Intune, а также проверить работоспособность службы управления, охватывающей все устройства в вашей организации, для вашей подписки.
-
-## Элементы, которые могут вам пригодиться
-Готовы к началу работы? При начале работы с платной подпиской Intune необходимо следующее:
-
-### Устройство с браузером, поддерживающим Silverlight
-Оно требуется для доступа к консоли администрирования Intune, служащей для управления устройствами, приложениями и политиками. Веб-браузер также нужен для доступа к корпоративному веб-порталу, когда вы не используете приложение корпоративного портала с мобильного устройства. Чтобы упростить работу, можно использовать параметр "Режим конфиденциальности" в том же браузере, который применяется для администрирования Intune (например, в Internet Explorer можно выбрать **Сервис** &gt; **Просмотр InPrivate**).
-
->[!TIP]
->Из-за этого требования браузер Microsoft Edge не подходит для доступа к консоли администрирования Intune.
-
-
-### Сертификаты для мобильных устройств
-Если управление устройствами iOS или устройствами с Windows Phone осуществляется с помощью Intune, то вам понадобятся сертификаты и учетные записи для получения этих сертификатов. Для управления устройствами Android дополнительные сертификаты не требуются.
-
-- Пользователи **Windows Phone 8.1**, устанавливающие приложение корпоративного портала из Магазина, не нуждаются в сертификате. Однако [сертификат подписи кода Symantec](https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do) необходим для **Windows Phone 8.0** или при использовании Intune для развертывания приложения корпоративного портала на устройствах с Windows Phone 8.1.
-
->[!NOTE]
->В этом кратком руководстве предполагается, что пользователи получают приложение корпоративного портала из Магазина на устройстве с Windows Phone 8.1 или более поздней версии. Сведения о поддержке Windows Phone 8.0 см. в статье [Настройка управления Windows Phone 8.0 с помощью Microsoft Intune](/Intune/deploy-use/set-up-windows-phone-8.0-management-with-microsoft-intune).
-
-- Для **компьютеров с Windows** или **устройств с Windows RT** требования к сертификатам отсутствуют, если выполняется регистрация компьютеров с Windows в качестве устройств или [установка клиента для компьютеров с Windows для Microsoft Intune](/intune/deploy-use/install-the-windows-pc-client-with-microsoft-intune).
-
-- Для устройств **iOS** или **Mac OS X** потребуется запросить у Apple сертификат службы push-уведомлений Apple, как описано в шаге 3 статьи [Настройка управления устройствами в iOS и Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune).
-
-## Дальнейшие действия
-Пришло время приступить к изучению краткого руководства по Intune!
 
 >[!div class="step-by-step"]
-[**Вход в Intune** &rarr;](start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
+[**Предварительные требования**&rarr;](what-to-know-before-you-start-microsoft-intune.md)
 
 
 
-<!--HONumber=Oct16_HO4-->
+<!--HONumber=Nov16_HO4-->
 
 
