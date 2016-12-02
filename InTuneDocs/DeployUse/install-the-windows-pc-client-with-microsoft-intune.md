@@ -3,8 +3,7 @@
 title: "Установка клиентского программного обеспечения для ПК | Microsoft Intune"
 description: "В этом руководстве содержатся сведения об управлении ПК Windows с помощью клиентского программного обеспечения Microsoft Intune."
 keywords: 
-author: NathBarn
-manager: arob98
+author: staciebarker
 ms.date: 07/19/2016
 ms.topic: article
 ms.prod: 
@@ -14,8 +13,8 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 738b6bedcefbfd8bf0fa7bde5b86c79293af527e
-ms.openlocfilehash: 7d239a80ed68d39b2a7179a45178ba6ae11c5423
+ms.sourcegitcommit: 103e7065d1e2c3281f8f04808ee2546d3c7e2b53
+ms.openlocfilehash: 32af8a615453b8c72e704f40dcdf0de6fbf10907
 
 
 ---
@@ -59,7 +58,7 @@ ms.openlocfilehash: 7d239a80ed68d39b2a7179a45178ba6ae11c5423
 
 ## <a name="deploy-the-client-software-by-using-group-policy"></a>Развертывание клиентского программного обеспечения с помощью групповой политики
 
-1.  В папке с файлами **Microsoft_Intune_Setup.exe** и **MicrosoftIntune.accountcert** выполните следующую команду для извлечения программ установки установщика Windows для 32- и 64-разрядных компьютеров.
+1.  В папке с файлами **Microsoft_Intune_Setup.exe** и **MicrosoftIntune.accountcert** выполните следующую команду для извлечения программ установки установщика Windows для 32- и 64-разрядных компьютеров.
 
     ```
     Microsoft_Intune_Setup.exe/Extract <destination folder>
@@ -104,7 +103,7 @@ ms.openlocfilehash: 7d239a80ed68d39b2a7179a45178ba6ae11c5423
 
 После успешной регистрации или через месяц задача автоматической регистрации Intune, значение реестра **WindowsIntuneEnrollPending** и сертификат учетной записи удаляются с целевого компьютера (в зависимости от того, что произойдет раньше).
 
-## <a name="instruct-users-to-selfenroll"></a>Инструктирование пользователей по самостоятельной регистрации
+## <a name="instruct-users-to-self-enroll"></a>Инструктирование пользователей по самостоятельной регистрации
 
 Пользователи могут установить клиентское программное обеспечение Intune, перейдя на [веб-сайт корпоративного портала](http://portal.manage.microsoft.com). Если веб-порталу удается определить, что устройство является компьютером под управлением Windows, он предлагает пользователям зарегистрировать этот компьютер, скачав клиент программного обеспечения Intune. После скачивания программного обеспечения пользователи могут установить его, чтобы включить свои компьютеры в систему управления.
 
@@ -139,6 +138,6 @@ ms.openlocfilehash: 7d239a80ed68d39b2a7179a45178ba6ae11c5423
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Nov16_HO5-->
 
 

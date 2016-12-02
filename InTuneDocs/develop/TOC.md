@@ -1,5 +1,5 @@
 # [Изучение вопроса](/intune/understand-explore/introduction-to-microsoft-intune)
-# [Что нового](/intune/whats-new/whats-new-in-microsoft-intune)
+# [Приступая к работе](/intune/get-started/get-started)
 # [Что нового](/intune/whats-new/whats-new-in-microsoft-intune)
 # [Развертывание и использование](/intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune)
 # Разработка и настройка приложений
@@ -12,6 +12,6 @@
 # [Устранение проблем](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Nov16_HO5-->
 
 

@@ -14,8 +14,8 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4f8db75ed17e70dae5d3507b6af33a835c1658e9
-ms.openlocfilehash: 5195de40f35085c45ae63957da1a9058ed7d6493
+ms.sourcegitcommit: dcca68485db7e2c206077ce457081fdbf5cccea4
+ms.openlocfilehash: 92c59bd8061648cedaf31e50c5c599a96302a50f
 
 
 ---
@@ -31,7 +31,7 @@ ms.openlocfilehash: 5195de40f35085c45ae63957da1a9058ed7d6493
 
 >[!IMPORTANT]
 >
->Если при открытии рабочей области "Группы" на портале Intune отображается элемент **Intune user groups are now managed as groups in Azure Active Directory** (Управление группами пользователей Intune сейчас осуществляется в Azure Active Directory) со ссылкой на портал Azure AD, то вы уже используете *новый* подход к управлению группами безопасности Azure AD в Intune. Чтобы узнать, как создавать группы, см. статью [Управление группами в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-manage-groups).
+>Если при открытии рабочей области "Группы" на портале Intune отображается элемент **Intune user groups are now managed as groups in Azure Active Directory** (Управление группами пользователей Intune сейчас осуществляется в Azure Active Directory) со ссылкой на портал Azure AD, то вы уже используете *новый* подход к управлению группами безопасности Azure AD в Intune. Чтобы узнать, как создавать группы, см. статью [Управление группами в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-groups-create-azure-portal).
 >
 >Если ссылка на портал Azure AD отсутствует, вы по-прежнему используете портал Intune для управления группами.
 
@@ -89,6 +89,6 @@ ms.openlocfilehash: 5195de40f35085c45ae63957da1a9058ed7d6493
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Nov16_HO5-->
 
 
