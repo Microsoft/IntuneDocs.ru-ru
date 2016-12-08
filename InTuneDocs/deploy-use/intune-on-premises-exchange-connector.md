@@ -14,18 +14,18 @@ ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c84b1e95b32ec878fffa001d0234940ebfb35576
+ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: 16f8520e6f302c1896039aa5a11b0002e87959c9
 
 
 ---
 
-# <a name="install-the-intune-onpremises-exchange-connector"></a>Установка локального соединителя Exchange Intune
+# <a name="install-the-intune-on-premises-exchange-connector"></a>Установка локального соединителя Exchange Intune
 
 
 Для установки подключения, позволяющего Microsoft Intune обмениваться данными с Exchange Server, на котором находятся почтовые ящики мобильных устройств, требуется загрузить и настроить средство "Локальный соединитель Exchange" из консоли администратора Intune. Intune поддерживает только одно подключение соединителя с Exchange любого типа на подписку.
 
-## <a name="onpremises-exchange-connector-requirements"></a>Требования к локальному соединителю Exchange
+## <a name="on-premises-exchange-connector-requirements"></a>Требования к локальному соединителю Exchange
 В следующей таблице указаны требования к компьютеру, на котором устанавливается локальный соединитель Exchange.
 
 |Требование|Дополнительные сведения|
@@ -57,7 +57,7 @@ ms.openlocfilehash: 16f8520e6f302c1896039aa5a11b0002e87959c9
  -   Set-ADServerSettings.
  -   Get-Command
 
-## <a name="download-the-onpremises-exchange-connector-software-installation-package"></a>Загрузка пакета установки программного обеспечения локального соединителя Exchange
+## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>Загрузка пакета установки программного обеспечения локального соединителя Exchange
 
 1. В поддерживаемой операционной системе Windows Server для локального соединителя Exchange откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com) (http://manage.microsoft.com), используя учетную запись с правами администратора в клиенте Exchange с лицензией на использование сервера Exchange.
 ![Открытие настроенного подключения к Exchange](../media/ExchangeConnector.gif)
@@ -71,7 +71,7 @@ ms.openlocfilehash: 16f8520e6f302c1896039aa5a11b0002e87959c9
 > [!IMPORTANT]
 > Не переименовывайте и не перемещайте файлы в папке локального соединителя Exchange. Перемещение или переименование содержимого папки прервет установку.
 
-## <a name="install-and-configure-the-intune-onpremises-exchange-connector"></a>Установка и настройка локального соединителя Exchange Intune
+## <a name="install-and-configure-the-intune-on-premises-exchange-connector"></a>Установка и настройка локального соединителя Exchange Intune
 Чтобы установить локальный соединитель Exchange, выполните следующие действия. Локальный соединитель Exchange можно установить для подписки Intune только один раз и только на один компьютер. При попытке настройки дополнительного локального соединителя Exchange исходное подключение заменяется новым.
 
 1.  В поддерживаемой операционной системе для локального соединителя извлеките файлы из папки **Exchange_Connector_Setup.zip** в безопасное место.

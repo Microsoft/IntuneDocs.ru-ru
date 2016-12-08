@@ -14,7 +14,7 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
 
 
@@ -119,7 +119,7 @@ ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
 
 3.  Учетная запись пользователя будет добавлена в группу пользователей Microsoft Intune, которая предоставляет разрешения на использование службы и регистрацию устройств в системе управления.
 
-### <a name="to-synchronize-onpremises-users-with-azure-ad"></a>Синхронизация локальных пользователей с Azure AD
+### <a name="to-synchronize-on-premises-users-with-azure-ad"></a>Синхронизация локальных пользователей с Azure AD
 
 1. [Добавьте суффикс имени участника-пользователя](https://technet.microsoft.com/en-us/library/cc772007.aspx) для своего пользовательского домена в локальном каталоге Active Directory.
 2. Задайте новый суффикс имени участника-пользователя для локальных пользователей, которых планируется импортировать.

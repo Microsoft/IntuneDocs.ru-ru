@@ -14,7 +14,7 @@ ms.assetid: 14f5cf53-6764-4e22-a18b-fa750b3acd41
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
+ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: 1b26e1298cf0b65f99219338b7ba59987e70c3ab
 
 
@@ -36,7 +36,7 @@ Exchange требуется набор правил, определяющий, �
 -   [Установка соединителя с Intune для локальных серверов Exchange Server и старых выделенных сред Exchange Online](intune-on-premises-exchange-connector.md)
 
 
-## <a name="apply-policy-for-exchangemanaged-mobile-devices"></a>Применение политики для мобильных устройств под управлением Exchange
+## <a name="apply-policy-for-exchange-managed-mobile-devices"></a>Применение политики для мобильных устройств под управлением Exchange
 Консоль Intune можно использовать для управления [настройками политики EAS](exchange-activesync-policy-settings-in-microsoft-intune.md) и для [ограничения доступа к ресурсам компании](restrict-access-to-email-and-o365-services-with-microsoft-intune.md). Список параметров политик и функций Exchange ActiveSync, поддерживаемых определенными мобильными устройствами, см. в таблице [Сравнение клиентов Exchange ActiveSync](http://go.microsoft.com/fwlink/?LinkId=247270).
 
 > [!NOTE]
