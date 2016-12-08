@@ -12,7 +12,7 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 translationtype: Human Translation
-ms.sourcegitcommit: 0c6c9d44e6a328b4bfb3827f54ac35b83e3c7aac
+ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 
 
@@ -25,9 +25,9 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 |||
 |-|-|
 |App SDK (Пакет SDK для приложений)|[Пакет SDK для приложений Microsoft Intune](/intune/develop/intune-app-sdk) позволяет добавить функциональные возможности в собственные приложения, после чего ими можно будет управлять посредством политик управления мобильными приложениями Intune.|
-|App Wrapping Tool (Инструмент упаковки приложений)|[Приложение командной строки](/intune/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune), которое создает оболочку вокруг бизнес-приложения, что позволяет управлять им с помощью политики управления мобильными приложениями Intune.|
+|App wrapping tool (Инструмент упаковки приложений)|[Приложение командной строки](/intune/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune), которое создает оболочку вокруг бизнес-приложения, что позволяет управлять им с помощью политики управления мобильными приложениями Intune.|
 |Available install (Доступная установка)|При развертывании приложения с помощью этого действия оно отображается на корпоративном портале, и пользователи могут [установить его по запросу](/intune/deploy-use/deploy-apps).|
-|Azure Portal (Портал Azure)|Новая консоль Intune, которая появится в ближайшее время. Сейчас для создания [политик Intune MAM](/intune/deploy-use/azure-portal-for-microsoft-intune-mam-policies) для устройств можно использовать портал Azure.|
+|Azure Portal (Портал Azure)|Новая консоль Intune, которая появится в ближайшее время. Сейчас для создания [политик Intune MAM](/intune/deploy-use/azure-portal-for-microsoft-intune-mam-policies) для устройств можно использовать портал Azure.||
 
 ## <a name="b"></a>B
 |||
