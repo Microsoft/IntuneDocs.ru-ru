@@ -14,16 +14,16 @@ ms.assetid: 9b4f197d-bc10-4bee-91c9-19bcc8287d36
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ab9ad1fb42176f2fc2babaa6fa3c91cea40b4ca5
+ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: 1bfd17f9fcc73049254bc77351eae48da874fb4c
 
 
 ---
 
-# <a name="protect-windows-devices-with-multifactor-authentication"></a>Protect Windows devices with multi-factor authentication
+# <a name="protect-windows-devices-with-multi-factor-authentication"></a>Protect Windows devices with multi-factor authentication
 Microsoft Intune интегрирует многофакторную проверку подлинности (MFA) для защиты корпоративных ресурсов. Многофакторная проверка подлинности требует использования факторов, таких как текстовая проверка подлинности, дополняющих имена пользователей и пароли. Intune поддерживает использование многофакторной проверки подлинности во время регистрации устройств Windows 8.1 или более поздней версии, Windows Phone 8.1 или Windows 10 Desktop и Mobile.
 
-## <a name="onpremises-infrastructure-requirements-for-adfs-mfa"></a>Требования к локальной инфраструктуре для ADFS MFA
+## <a name="on-premises-infrastructure-requirements-for-adfs-mfa"></a>Требования к локальной инфраструктуре для ADFS MFA
 Чтобы настроить MFA, необходимо следующее:
 
 -   Автоматическая регистрация, как описано в разделе [Настройка управления устройствами Windows](set-up-windows-device-management-with-microsoft-intune.md).

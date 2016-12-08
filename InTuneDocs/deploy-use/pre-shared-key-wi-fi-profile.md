@@ -14,13 +14,13 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 71237aabac763e33d7973d0d169291bd7fa1df32
+ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
 
 
 
 ---
-# <a name="use-a-custom-policy-to-create-a-wifi-profile-with-a-preshared-key"></a>Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом
+# <a name="use-a-custom-policy-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом
 В этом разделе содержатся сведения об использовании **настраиваемой конфигурации** Intune для создания профиля Wi-Fi с общим ключом. Здесь также приводится пример создания профиля Wi-Fi на основе EAP.
 
 > [!NOTE]
@@ -58,7 +58,7 @@ ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
     > Эта политика может быть развернута только для групп пользователей.
 
 При каждой следующей регистрации устройства применяется политика и на устройстве создается профиль Wi-Fi. Устройство будет автоматически подключено к сети.
-## <a name="android-or-windows-wifi-profile"></a>Профиль Wi-Fi для Android или Windows
+## <a name="android-or-windows-wi-fi-profile"></a>Профиль Wi-Fi для Android или Windows
 
 Ниже приведен пример XML-кода для профиля Wi-Fi для Android или Windows:
 
@@ -109,7 +109,7 @@ ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
       </MSM>
     </WLANProfile>
 
-## <a name="eapbased-wifi-profile"></a>Профиль Wi-Fi на основе EAP
+## <a name="eap-based-wi-fi-profile"></a>Профиль Wi-Fi на основе EAP
 Ниже приведен пример XML-кода для профиля Wi-Fi на основе EAP.
 
     <WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
@@ -190,7 +190,7 @@ ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
       </MSM>
     </WLANProfile>
 
-## <a name="create-the-xml-file-from-an-existing-wifi-connection"></a>Создание XML-файла из существующего подключения Wi-Fi
+## <a name="create-the-xml-file-from-an-existing-wi-fi-connection"></a>Создание XML-файла из существующего подключения Wi-Fi
 Можно также создать XML-файл из существующего подключения Wi-Fi.
 1. На компьютере, который подключен или недавно был подключен к беспроводной сети, откройте следующую папку: C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid}.
 

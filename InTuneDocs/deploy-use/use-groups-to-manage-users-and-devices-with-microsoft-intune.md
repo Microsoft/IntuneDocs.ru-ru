@@ -14,7 +14,7 @@ ms.assetid: eb9b01ce-9b9b-4c2a-bf99-3879c0bdaba5
 ms.reviewer: lpatha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 17b957cc2baedddfc53bfdf7b875e4ecb28b8517
+ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
 ms.openlocfilehash: 46fd83ac8048a313b0fe4f15e01563698bf7995c
 
 
@@ -68,7 +68,7 @@ ms.openlocfilehash: 46fd83ac8048a313b0fe4f15e01563698bf7995c
 -   Группы "Несгруппированные пользователи" и "Несгруппированные устройства" поддерживаться не будут. Мы не будем переносить эти группы из Intune в Azure AD.
 
 
-#### <a name="groupdependent-functionality"></a>Функции, зависящие от групп
+#### <a name="group-dependent-functionality"></a>Функции, зависящие от групп
 
 -   Роль администратора служб утратит разрешения на **управление группами**.
 -   Вы не сможете группировать устройства Exchange ActiveSync. Группа "Все управляемые устройства EAS" будет преобразована из представления группы в представление отчета.
