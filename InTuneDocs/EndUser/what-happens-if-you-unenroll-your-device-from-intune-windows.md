@@ -2,10 +2,10 @@
 title: "Что происходит при отмене регистрации устройства с Windows в Intune? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,19 +15,19 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8975e57c604565c57c86472564ab660aed560a7b
-ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 5cf2e7e821f962d2f12813062cc30b724e2fc45a
 
 
 ---
 
 
-# Что происходит при отмене регистрации устройства с Windows в Intune?
+# <a name="what-happens-if-you-unenroll-your-windows-device-from-intune"></a>Что происходит при отмене регистрации устройства с Windows в Intune?
 
 Используйте ссылки в правой части этой страницы **В этой статье**, чтобы найти сведения о типе используемого устройства.
 
 
-## Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista
+## <a name="windows-10-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
 -   Устройство больше не отображается на корпоративном портале, и вы не можете устанавливать приложения с корпоративного портала.
 
@@ -52,7 +52,7 @@ ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
 
 -   вы можете потерять доступ к ряду корпоративных ресурсов, например общим папкам или внутренним веб-сайтам, с вашего устройства.
 
-## Windows 10 Mobile и Windows Phone 8.1
+## <a name="windows-10-mobile-and-windows-phone-81"></a>Windows 10 Mobile и Windows Phone 8.1
 
 -   Приложение корпоративного портала удаляется с устройства. Это означает, что устройство больше не отображается на корпоративном портале, и вы не можете устанавливать приложения из приложения или с веб-сайта корпоративного портала.
 
@@ -63,7 +63,7 @@ ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
     > [!IMPORTANT]
     > Единственное исключение — политики шифрования, которые продолжают действовать. Если политика компании требовала шифровать Windows Phone, то единственный способ расшифровки — сброс настроек телефона в меню **Параметры**.
 
-## Windows RT с Windows 8.1
+## <a name="windows-rt-running-windows-81"></a>Windows RT с Windows 8.1
 
 -   Приложение корпоративного портала удаляется с устройства. Это означает, что устройство больше не отображается на корпоративном портале и вы не можете устанавливать приложения с корпоративного портала.
 
@@ -89,6 +89,6 @@ ms.openlocfilehash: 22179d5d80d2b24e61778249367bec6845290206
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO1-->
 
 

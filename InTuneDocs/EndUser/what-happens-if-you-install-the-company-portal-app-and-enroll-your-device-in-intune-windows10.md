@@ -2,10 +2,10 @@
 title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune? | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd54ec104a26ebae845dfe3942dac2e8d9dae4a9
-ms.openlocfilehash: 0462635a4c995866f8ad504ea724e795424b4405
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 94868431ce100a252ddfc7df5f9c2e287f0eedaf
 
 
 ---
 
 
-# Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-10-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune?
 
 Когда вы устанавливаете приложение корпоративного портала и затем используете его для регистрации устройства Windows 10 Корпоративная или Профессиональная в Intune, это приложение корпоративного портала можно затем использовать, чтобы:
 
@@ -56,6 +56,6 @@ ms.openlocfilehash: 0462635a4c995866f8ad504ea724e795424b4405
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO1-->
 
 
