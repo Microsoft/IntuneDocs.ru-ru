@@ -2,8 +2,8 @@
 title: "Соединитель Exchange для локальной службы EAS | Microsoft Intune"
 description: "Сведения об использовании инструмента &quot;Соединитель&quot; для обеспечения взаимодействия между консолью администрирования Intune и локальным сервером Exchange Server для управления мобильными устройствами с помощью Exchange ActiveSync."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 07/29/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 16f8520e6f302c1896039aa5a11b0002e87959c9
+ms.sourcegitcommit: d50a5751a5afd987196336e9443dc5a429a283fd
+ms.openlocfilehash: 58c5ab6b506695fb5b0f7556dc1deac39580f59b
 
 
 ---
@@ -32,7 +32,7 @@ ms.openlocfilehash: 16f8520e6f302c1896039aa5a11b0002e87959c9
 |---------------|--------------------|
 |Операционные системы|Intune поддерживает локальный соединитель Exchange на компьютере под управлением любого 64-разрядного выпуска Windows Server 2008 с пакетом обновления 2 (SP2), Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2.<br /><br />Соединитель не поддерживается ни в какой установке Server Core.|
 |Microsoft Exchange|Локальный соединитель требует использования Microsoft Exchange 2010 с пакетом обновления 1 (SP1) или более поздней версии либо старой выделенной среды Exchange Online. Чтобы определить, используется ли в вашей выделенной среде Exchange Online **новая** или **устаревшая** конфигурация, обратитесь к своему менеджеру по работе с клиентами.|
-|Центр управления мобильными устройствами| [Установите Intune в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#set-mobile-device-management-authority).|
+|Центр управления мобильными устройствами| [Установите Intune в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#step-2-set-mdm-authority).|
 |Оборудование|Компьютер, на котором устанавливается соединитель, должен иметь ЦП с частотой 1,6 ГГц, 2 ГБ ОЗУ и 10 ГБ свободного дискового пространства.|
 |Синхронизация Active Directory|Прежде чем использовать любой соединитель для подключения Intune к Exchange Server, необходимо [настроить синхронизацию Active Directory](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
 |Дополнительное программное обеспечение|На компьютере, на котором размещен соединитель, необходимо выполнить полную установку платформы Microsoft .NET Framework 4.5 и Windows PowerShell 2.0.|
@@ -132,6 +132,6 @@ ms.openlocfilehash: 16f8520e6f302c1896039aa5a11b0002e87959c9
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

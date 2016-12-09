@@ -2,8 +2,8 @@
 title: "Параметры политики MAM для Android | Microsoft Intune"
 description: "В этом разделе описываются параметры политики управления мобильными приложениями для устройств Android."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 09/30/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 13477a66ca8e89345334476445aae037ea8d9702
-ms.openlocfilehash: 55bf3ebde7d1185aebdb874c46aae72d8e179d85
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: d0a1a2b3f4e5dbac8b333db3a5cc4bb32c0d61ef
 
 
 ---
@@ -107,6 +107,6 @@ ms.openlocfilehash: 55bf3ebde7d1185aebdb874c46aae72d8e179d85
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

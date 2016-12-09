@@ -14,8 +14,8 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: 270e6015e629c048b01b218793640888706d118e
 
 
 ---
@@ -40,8 +40,8 @@ ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
 ## <a name="step-1-enable-connections"></a>Шаг 1. Включение подключений
 
 Прежде чем разрешить регистрацию мобильных устройств, сделайте следующее:
-- [Обзор требуемых URL-адресов и портов](../get-started/network-infrastructure-requirements-for-microsoft-intune)
-- [Добавление и проверка доменного имени](../get-started/domain-names-for-microsoft-intune)
+- [Обзор требуемых URL-адресов и портов](../get-started/network-infrastructure-requirements-for-microsoft-intune.md)
+- [Добавление и проверка доменного имени](../get-started/domain-names-for-microsoft-intune.md)
 
 ## <a name="step-2-set-mdm-authority"></a>Шаг 2. Настройка центра MDM
 Центр MDM определяет службу управления, у которой есть разрешение на управление набором устройств. Возможные варианты центра управления мобильными устройствами — отдельная служба Intune или Configuration Manager с Intune. Если Configuration Manager задан в качестве центра управления, использовать другие службы для управления мобильными устройствами нельзя.
@@ -111,7 +111,7 @@ ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
 
 ## <a name="step-5-assign-user-licenses"></a>Шаг 5. Назначение лицензий пользователя
 
-Используйте **портал управления Office 365**, чтобы вручную добавить облачных пользователей и назначить лицензии облачным учетным записям пользователей, а также учетным записям, синхронизированным из локальной службы Active Directory в Azure Active Directory. Вы можете [синхронизировать локальных пользователей с Azure AD](../get-started/domain-names-for-microsoft-intune#to-synchronize-on-premises-users-with-azure-ad.md).
+Используйте **портал управления Office 365**, чтобы вручную добавить облачных пользователей и назначить лицензии облачным учетным записям пользователей, а также учетным записям, синхронизированным из локальной службы Active Directory в Azure Active Directory. Вы можете [синхронизировать локальных пользователей с Azure AD](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md#how-to-sync-on-premises-users-with-azure-ad).
 
 1.  Войдите на [портал управления Office 365](https://portal.office.com/Admin/Default.aspx), используя учетные данные администратора клиента.
 
@@ -136,7 +136,7 @@ ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
 - [Компьютеры и ноутбуки Windows](set-up-windows-device-management-with-microsoft-intune.md)
 - [Windows 10 Mobile и Windows Phone](set-up-windows-phone-management-with-microsoft-intune.md)
 
-Можно также включить [регистрацию корпоративных устройств](manage-corporate-owned-devices).
+Можно также включить [регистрацию корпоративных устройств](manage-corporate-owned-devices.md).
 
 ## <a name="step-7-next-steps"></a>Шаг 7. Дальнейшие действия
 
@@ -149,6 +149,6 @@ ms.openlocfilehash: 391612c35a7665073ca8a5c629169e5be967ab59
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

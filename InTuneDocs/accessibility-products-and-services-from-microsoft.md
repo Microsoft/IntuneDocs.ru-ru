@@ -4,7 +4,7 @@ description:
 keywords: 
 author: 
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 12/05/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +13,13 @@ ms.assetid: b23d4007-1866-42e9-b6cb-d45408562da4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 779127bfd39145010f0d9b6609286aaf4dedfdc8
-ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
+ms.sourcegitcommit: b99c90bfafd65e87e258e1e0ac01691e83581659
+ms.openlocfilehash: d5f2f9a641089bb67cee525e05abffec5c92c577
 
 
 ---
 
-# Продукты и службы корпорации Майкрософт для реализации специальных возможностей
+# <a name="accessibility-products-and-services-from-microsoft"></a>Продукты и службы корпорации Майкрософт для реализации специальных возможностей
 [!INCLUDE[accessibility1](./includes/accessibility1_md.md)]
 
 -   [!INCLUDE[accessibility2](./includes/accessibility2_md.md)]
@@ -33,16 +33,16 @@ ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
 > [!NOTE]
 > [!INCLUDE[accessibility6](./includes/accessibility6_md.md)]
 
-## Специальные возможности Windows
+## <a name="accessibility-features-of-windows"></a>Специальные возможности Windows
 [!INCLUDE[accessibility7](./includes/accessibility7_md.md)]
 
-### Бесплатные пошаговые учебники
+### <a name="free-step-by-step-tutorials"></a>Бесплатные пошаговые учебники
 [!INCLUDE[accessibility8](./includes/accessibility8_md.md)]
 
-### Продукты с поддержкой специальных возможностей для Windows
+### <a name="assistive-technology-products-for-windows"></a>Продукты с поддержкой специальных возможностей для Windows
 [!INCLUDE[accessibility9](./includes/accessibility9_md.md)]
 
-## Документация в альтернативных форматах
+## <a name="documentation-in-alternative-formats"></a>Документация в альтернативных форматах
 [!INCLUDE[accessibility10](./includes/accessibility10_md.md)]
 
 [!INCLUDE[accessibility11](./includes/accessibility11_md.md)]
@@ -55,7 +55,7 @@ ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
 
 [!INCLUDE[accessibility12](./includes/accessibility12_md.md)]
 
-## Поддержка пользователей для людей с нарушениями слуха
+## <a name="customer-service-for-people-with-hearing-impairments"></a>Поддержка пользователей для людей с нарушениями слуха
 [!INCLUDE[accessibility13](./includes/accessibility13_md.md)]
 
 -   [!INCLUDE[accessibility14](./includes/accessibility14_md.md)]
@@ -64,12 +64,11 @@ ms.openlocfilehash: 966677b7d9488d37d44f42ff8ef8bbac7a5d3914
 
 [!INCLUDE[accessibility16](./includes/accessibility16_md.md)]
 
-## Дополнительные сведения
+## <a name="for-more-information"></a>Дополнительные сведения
 [!INCLUDE[accessibility17](./includes/accessibility17_md.md)]
 
 
 
-
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Dec16_HO1-->
 
 

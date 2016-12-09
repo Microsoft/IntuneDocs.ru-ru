@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 4563673f1c38cbe29e7cf27e94e8b32411c6c089
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: 1bb9969d4ac8a7a03c599866857b7236408fdcef
 
 
 ---
@@ -58,10 +58,10 @@ ms.openlocfilehash: 4563673f1c38cbe29e7cf27e94e8b32411c6c089
 
 -   Изготовитель
 
-Дополнительные сведения см. в статье [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Windows в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows)
+Дополнительные сведения см. в статье [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Windows в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

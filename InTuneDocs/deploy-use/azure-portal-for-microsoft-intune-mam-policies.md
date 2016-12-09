@@ -2,8 +2,8 @@
 title: "Портал Azure для политик управления мобильными приложениями | Microsoft Intune"
 description: "Создание политик управления мобильными приложениями на портале Azure. Создаваемые на портале политики могут применяться к устройствам с регистрацией в Intune или без нее."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 10/22/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 03410d1e82cfeb8d354ee1d010ada07ca86191bc
-ms.openlocfilehash: e9d917401a8927099bdf8558e9f7e7185351f709
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: b377d527621693f4c231f6f8b16cab277853cdf7
 
 
 ---
@@ -67,6 +67,6 @@ ms.openlocfilehash: e9d917401a8927099bdf8558e9f7e7185351f709
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 
