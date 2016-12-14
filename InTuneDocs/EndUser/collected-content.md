@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: 
 ms.suite: 
 translationtype: Human Translation
-ms.sourcegitcommit: dd510ff917417507fa0d5c748ce32043ff435bd4
-ms.openlocfilehash: 6548e7d6e0e7d6d323ac7b3698987706ab3cac69
+ms.sourcegitcommit: 2f92ce22c9e6a87bccc7ab17144d0d52ff6cfc7b
+ms.openlocfilehash: c9ccca5f22ba7860321a319cc3cb48a4977d60ca
 
 
 ---
@@ -51,7 +51,7 @@ ms.openlocfilehash: 6548e7d6e0e7d6d323ac7b3698987706ab3cac69
 ### <a name="windowsenroll-your-device-in-intune-windowsmd"></a>[Windows](enroll-your-device-in-intune-windows.md)
 ### <a name="androidenroll-your-device-in-intune-androidmd"></a>[Android](enroll-your-device-in-intune-android.md)
 ### <a name="iosenroll-your-device-in-intune-iosmd"></a>[iOS](enroll-your-device-in-intune-ios.md)
-### <a name="os-xenroll-your-device-in-intune-mac-os-xmd"></a>[OS X](enroll-your-device-in-intune-mac-os-x.md)
+### <a name="os-xenroll-your-device-in-intune-macosmd"></a>[OS X](enroll-your-device-in-intune-macos.md)
 ### <a name="win10-phone-or-pcenroll-your-w10-phone-or-w10-pc-windowsmd"></a>[Win10: телефон или ПК](enroll-your-w10-phone-or-w10-pc-windows.md)
 ### <a name="win81rt81enroll-your-w81-or-rt81-windowsmd"></a>[Win8.1/RT8.1](enroll-your-w81-or-rt81-windows.md)
 ### <a name="winphone-81enroll-your-wp81-windowsmd"></a>[WinPhone 8.1](enroll-your-wp81-windows.md)
@@ -180,6 +180,6 @@ ms.openlocfilehash: 6548e7d6e0e7d6d323ac7b3698987706ab3cac69
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

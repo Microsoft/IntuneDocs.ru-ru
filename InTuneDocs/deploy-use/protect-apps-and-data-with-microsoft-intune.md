@@ -2,8 +2,8 @@
 title: "Защита приложений и данных | Microsoft Intune"
 description: "В этом разделе рассматриваются различные функции и возможности Intune, предназначенные для защиты корпоративных приложений и данных."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 07/18/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 3e302c50d931bd2545116dc510ddf2f1d7aa4f93
+ms.sourcegitcommit: ee7e0491c0635c45cbc0377a5de01d5eba851132
+ms.openlocfilehash: 4f8cb86126a982b21ad3288108295d1784f08df3
 
 
 ---
@@ -54,6 +54,6 @@ Intune защищает данные организации посредство
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 13959c1456a0b160ce1fdcb76888d67cd13a5991
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: 7c518c176e315cbf005b2fceb8d74de09bdcfa98
 
 
 ---
@@ -32,7 +32,7 @@ ms.openlocfilehash: 13959c1456a0b160ce1fdcb76888d67cd13a5991
 Вы можете разрешить пользователям устанавливать приложение корпоративного портала Intune и регистрировать свои устройства с его помощью. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера.
 
 1. **Настройка Intune**<br>
-Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами (MDM)](prerequisites-for-enrollment.md#set-mobile-device-management-authority) службу **Microsoft Intune** и затем настроив MDM.
+Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами (MDM)](prerequisites-for-enrollment.md#step-2-set-mdm-authority) службу **Microsoft Intune** и затем настроив MDM.
 
 2. **Создание записей CNAME** (необязательно)<br>Создайте запись ресурсов **CNAME** DNS для домена вашей организации. Например, если у организации есть веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment.manage.microsoft.com.
 
@@ -72,6 +72,6 @@ ms.openlocfilehash: 13959c1456a0b160ce1fdcb76888d67cd13a5991
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

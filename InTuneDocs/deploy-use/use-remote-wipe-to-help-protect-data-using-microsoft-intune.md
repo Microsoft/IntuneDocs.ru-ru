@@ -14,8 +14,8 @@ ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
 ms.reviewer: lancecra
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e33dcb095b1a405b3c8d99ba774aee1832273eaf
-ms.openlocfilehash: df7f2683d8ae8860b7eaa0d1c37c7443830291a0
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: cbfdb0e5db6862fcf046f42b85b8c9aabbba8721
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: df7f2683d8ae8860b7eaa0d1c37c7443830291a0
 Можно удалять приложения и данные, поступающие от устройств под управлением Intune, которые вам больше не нужны, используются с другой целью или не используются вообще. Для этого Intune предлагает возможности выборочной и полной очистки. Кроме того, пользователи могут запускать команду удаленной очистки данных на устройстве с приложения корпоративного портала Intune для личных устройств, зарегистрированных в Intune.
 
   > [!NOTE]
-  > Эта статья посвящена исключительно очистке данных на устройствах, управляемых системой управления мобильными устройствами Intune. Кроме того, вы можете использовать [портал Azure](https://portal.azure.com) для [удаления корпоративных данных из приложений](wipe-managed-company-app-data-with-microsoft-intune.md). Вы также можете [снять с учета компьютеры, управляемые клиентским программным обеспечением Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#retire-a-computer.md).
+  > Эта статья посвящена исключительно очистке данных на устройствах, управляемых системой управления мобильными устройствами Intune. Кроме того, вы можете использовать [портал Azure](https://portal.azure.com) для [удаления корпоративных данных из приложений](wipe-managed-company-app-data-with-microsoft-intune.md). Вы также можете [снять с учета компьютеры, управляемые клиентским программным обеспечением Intune](retire-a-windows-pc-with-microsoft-intune.md).
 
 ## <a name="full-wipe"></a>Полная очистка
 
@@ -165,6 +165,6 @@ ms.openlocfilehash: df7f2683d8ae8860b7eaa0d1c37c7443830291a0
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

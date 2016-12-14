@@ -2,8 +2,8 @@
 title: "Защита данных с помощью политик MAM | Microsoft Intune"
 description: "В этом разделе описано использование политик управления мобильными приложениями для защиты данных организации, предотвращения потери данных и отдельного хранения рабочих и персональных данных."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 87c1f90f41ec72ff74c23bfa270efade31890fc0
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: 66a5814ba34f9fd15460512b0a6d40566ec33401
 
 
 ---
@@ -130,6 +130,6 @@ ms.openlocfilehash: 87c1f90f41ec72ff74c23bfa270efade31890fc0
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

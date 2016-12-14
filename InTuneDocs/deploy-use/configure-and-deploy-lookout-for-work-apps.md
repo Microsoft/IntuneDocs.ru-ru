@@ -1,8 +1,8 @@
 ---
 title: "Развертывание приложения Lookout for Work | Microsoft Intune"
 description: "Настройка и развертывание приложения Lookout for Work для Android."
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ms.reviewer: sandera
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9bf5764d1e1bd73fd62e5033b2309fc8d5a912e4
-ms.openlocfilehash: 646bd62dcf95b37ce9154e4852612b17ab71f954
+ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
+ms.openlocfilehash: 720fe241e7f1205dbad4b64af5cf7f16a80db23e
 
 
 ---
@@ -40,14 +40,15 @@ ms.openlocfilehash: 646bd62dcf95b37ce9154e4852612b17ab71f954
 
 * **Шаг 5.** Чтобы развернуть приложение для пользователей, выберите приложение Lookout for Work и нажмите **Управление развертыванием**.
 
-  Необходимо выбрать тех же пользователей, которые были добавлены при задании параметра "Управление регистрацией" в консоли Lookout MTP.  См. шаг 3 в разделе [Настройка службы Lookout MTP в подписке](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp), где приводятся сведения о добавлении групп пользователей в Lookout MTP.
+  Необходимо выбрать тех же пользователей, которые были добавлены при задании параметра "Управление регистрацией" в консоли Lookout MTP.  См. шаг 3 в разделе [Настройка службы Lookout MTP в подписке](set-up-your-subscription-with-lookout-mtp.md#configure-your-subscription-with-lookout-device-threat-protection), где приводятся сведения о добавлении групп пользователей в Lookout MTP.
+
   >[!IMPORTANT]
   > Мастер развертывания приложений Intune не учитывает группы пользователей Azure AD и использует вместо них группы пользователей Intune. Поэтому необходимо создать группу пользователей Intune на основе группы пользователей Azure AD, зарегистрированной в консоли Lookout MTP, как описано в [этом](plan-your-user-and-device-groups.md) разделе.
 
 * **Шаг 6**. Выберите вариант **Обязательная установка**, чтобы настроить обязательную установку приложения Lookout на устройствах пользователей.
 
 
-## <a name="ios-enterprisesigned-version-of-lookout-app"></a>iOS (версия приложения Lookout с корпоративной подписью)
+## <a name="ios-enterprise-signed-version-of-lookout-app"></a>iOS (версия приложения Lookout с корпоративной подписью)
 
 * **Шаг 1.** Убедитесь, что на устройстве настроено **Управление iOS**. Инструкции по настройке управления iOS на устройстве см. в статье [Настройка управления устройствами в iOS и Mac](set-up-ios-and-mac-management-with-microsoft-intune.md).
 
@@ -76,7 +77,8 @@ ms.openlocfilehash: 646bd62dcf95b37ce9154e4852612b17ab71f954
 
 * **Шаг 6.** **Чтобы развернуть приложение для пользователей**, выберите приложение Lookout for Work и нажмите **Управление развертыванием**.
 
-  Необходимо выбрать тех же пользователей, которые были добавлены в разделе Enrollment Management (Управление регистрацией) в консоли Lookout.  См. шаг 3 в разделе [Настройка службы защиты от угроз на устройствах Lookout в подписке](set-up-your-subscription-with-lookout-mtp#configure-your-subscription-with-lookout-mtp), где приводится информация о добавлении групп пользователей в Lookout MTP.
+  Необходимо выбрать тех же пользователей, которые были добавлены в разделе Enrollment Management (Управление регистрацией) в консоли Lookout.  См. шаг 3 в разделе [Настройка службы защиты от угроз на устройствах Lookout в подписке](set-up-your-subscription-with-lookout-mtp.md#configure-your-subscription-with-lookout-device-threat-protection), где приводится информация о добавлении групп пользователей в Lookout MTP.
+
 >[!IMPORTANT]
 > Мастер развертывания приложений Intune не обладает информацией о группах пользователей Azure AD и вместо этого использует группы пользователей Intune. Поэтому вам необходимо создать группу пользователей Intune на основе группы пользователей Azure AD, зарегистрированной в консоли Lookout, как описано в [этой](plan-your-user-and-device-groups.md) статье.
 
@@ -98,6 +100,6 @@ ms.openlocfilehash: 646bd62dcf95b37ce9154e4852612b17ab71f954
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

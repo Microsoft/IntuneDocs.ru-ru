@@ -2,7 +2,8 @@
 title: "Использование приложений с политиками управления мобильными приложениями | Microsoft Intune"
 description: "Объяснение того, как MAM CA может помочь в управлении доступом приложений к службам Office 365."
 keywords: 
-author: karthikaraman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 10/24/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 71dcf9bc-bfd1-4e06-b7ad-14b33a2288d0
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: df77e1473532399056c3e0c1b4c4db3c7b6ba995
-ms.openlocfilehash: 0fc24f1c93cfcdb86c2a66c9a027b4ed9c516dab
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: 317d101c34854fdf4913adcf53bdef614599deb7
 
 
 ---
@@ -63,6 +64,6 @@ MAM CA проверяет подлинность разрешенного при
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 
