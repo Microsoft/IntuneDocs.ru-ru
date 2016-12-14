@@ -3,8 +3,9 @@ title: "Специальные возможности | Microsoft Intune"
 description: "Узнайте о функциях Intune, упрощающих доступ для людей с ограниченными возможностями."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/24/2016
+ms.date: 12/05/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,13 +14,13 @@ ms.assetid: 6d7ed613-be97-4973-9532-8cb5bd434a1b
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55bdbaf5e521caa05d44bc45d4ec226dc05bf64b
-ms.openlocfilehash: 819fdb5bf4fd06a2b3b5010057cdd003e46f4758
+ms.sourcegitcommit: b99c90bfafd65e87e258e1e0ac01691e83581659
+ms.openlocfilehash: 9915f85e6bc2dc20b061618fc8ccc6da8f3cec36
 
 
 ---
 
-# Специальные возможности Microsoft Intune
+# <a name="accessibility-features-of-microsoft-intune"></a>Специальные возможности Microsoft Intune
 В дополнение к функциям и средствам специальных возможностей Microsoft Windows в службе [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] предусмотрены следующие функции, которые позволяют сделать ее более удобной для людей с ограниченными возможностями:
 
 -   Использование сочетаний клавиш
@@ -27,7 +28,7 @@ ms.openlocfilehash: 819fdb5bf4fd06a2b3b5010057cdd003e46f4758
 > [!NOTE]
 > [!INCLUDE[accessibility6](./includes/accessibility6_md.md)]
 
-## Использование сочетаний клавиш
+## <a name="using-keyboard-shortcuts"></a>Использование сочетаний клавиш
 
 |Задача|Использование сочетания клавиш|
 |--------------|------------------------------|
@@ -43,11 +44,10 @@ ms.openlocfilehash: 819fdb5bf4fd06a2b3b5010057cdd003e46f4758
 |Переход к следующей группе приложений|Стрелка "вверх"|
 |Отображение действий для выбранного устройства|Стрелка вправо|
 > [!NOTE]
-> [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] Навигация на порталах осуществляется с помощью стандартных сочетаний клавиш Internet Explorer.
+> Навигация на порталах [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] осуществляется с помощью стандартных сочетаний клавиш Internet Explorer.
 
 
 
-
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Dec16_HO1-->
 
 

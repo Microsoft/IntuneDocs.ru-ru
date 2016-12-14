@@ -2,8 +2,8 @@
 title: "Создание и развертывание политик управления мобильными приложениями | Microsoft Intune"
 description: "Следуйте пошаговым инструкциям в этом разделе, чтобы создавать и развертывать политики управления мобильными приложениями."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 93960044c4fa322cf20677b612ce732b8a30f84b
-ms.openlocfilehash: b5901c56384b7f5c80be4f849906e8bba4737ff0
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: 05b898ffdd0b76eb04d344adb3cfb20ec15aeb52
 
 
 ---
@@ -173,6 +173,6 @@ ms.openlocfilehash: b5901c56384b7f5c80be4f849906e8bba4737ff0
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

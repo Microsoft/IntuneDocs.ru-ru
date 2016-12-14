@@ -15,8 +15,8 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 162d176c5f272f5f19ba18cdd07fe815ac1bcce7
-ms.openlocfilehash: fc0efceb8a0c3e1323f7d94625bc5f618d35bfd6
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: 650e9b0700971e626e4062c312111ef60e74badc
 
 
 ---
@@ -46,7 +46,7 @@ ms.openlocfilehash: fc0efceb8a0c3e1323f7d94625bc5f618d35bfd6
  ![Зарегистрировать это устройство Mac OS](./media/macOS_enroll_003_enroll_popup.png)
 
   > [!NOTE]
-  > Службе Intune нужно предоставить доступ к вашему компьютеру. Это позволит ей убедиться, что устройство является достаточно надежным для доступа к ресурсам организации. См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или Mac OS X в Intune?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios).
+  > Службе Intune нужно предоставить доступ к вашему компьютеру. Это позволит ей убедиться, что устройство является достаточно надежным для доступа к ресурсам организации. См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или Mac OS X в Intune?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md).
 
 6. Откроется окно __системных настроек__ и появится запрос на подтверждение __установки профиля управления__. Нажмите кнопку __Установить__, чтобы продолжить, или __Показать профиль__, чтобы просмотреть дополнительные сведения.
 
@@ -64,6 +64,6 @@ ms.openlocfilehash: fc0efceb8a0c3e1323f7d94625bc5f618d35bfd6
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

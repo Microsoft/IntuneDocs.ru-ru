@@ -2,8 +2,8 @@
 title: "Ограничение доступа электронной почты к локальной организации Exchange | Microsoft Intune"
 description: "Защита и контроль доступа к корпоративной электронной почте в локальной организации Exchange с помощью условного доступа."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 10/12/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 4e8bf567601ad181238b74644b4c282e8f5bbf36
+ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
+ms.openlocfilehash: 9567d67a8567113c81b20428b5e4f8749aae3d69
 
 
 ---
@@ -128,6 +128,6 @@ ms.openlocfilehash: 4e8bf567601ad181238b74644b4c282e8f5bbf36
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

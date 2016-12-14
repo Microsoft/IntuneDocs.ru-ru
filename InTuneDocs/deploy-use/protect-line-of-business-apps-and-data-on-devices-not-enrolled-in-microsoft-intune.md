@@ -2,8 +2,8 @@
 title: "Защита бизнес-приложений на незарегистрированных устройствах | Microsoft Intune"
 description: "В этом разделе описывается, как подготовить пользовательские бизнес-приложения, чтобы можно было применять политики управления мобильными приложениями для предотвращения потери данных."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: mtillman
+ms.author: mtillman
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 3bce8989944985c36a3d233fbb05d2f3f135b7e7
+ms.sourcegitcommit: d6ff74f0b46baf384dbdedf13ad75538dd33a089
+ms.openlocfilehash: bc1efb1e0c62e6bd52658690db95901c70403d4d
 
 
 ---
@@ -29,9 +29,9 @@ ms.openlocfilehash: 3bce8989944985c36a3d233fbb05d2f3f135b7e7
 
 ##  <a name="step-1-prepare-the-app"></a>Шаг 1. Подготовка приложения
 
-Перед применением политик MAM к приложению сначала нужно упаковать приложение с помощью инструмента упаковки приложений Microsoft Intune для [iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) и [Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) или использовать [пакет SDK для приложений Intune](/../develop/intune-app-sdk), чтобы вручную интегрировать функции защиты приложений Intune.
+Перед применением политик MAM к приложению сначала нужно упаковать приложение с помощью инструмента упаковки приложений Microsoft Intune для [iOS](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) и [Android](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md) или использовать [пакет SDK для приложений Intune](../develop/intune-app-sdk.md), чтобы вручную интегрировать функции защиты приложений Intune.
 
-Дополнительные сведения о выборе между инструментом упаковки приложений и пакетом SDK см. в статье [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune).
+Дополнительные сведения о выборе между инструментом упаковки приложений и пакетом SDK см. в статье [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md).
 
 ## <a name="step-2-add-the-app"></a>Шаг 2. Добавление приложения
 
@@ -81,6 +81,6 @@ ms.openlocfilehash: 3bce8989944985c36a3d233fbb05d2f3f135b7e7
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

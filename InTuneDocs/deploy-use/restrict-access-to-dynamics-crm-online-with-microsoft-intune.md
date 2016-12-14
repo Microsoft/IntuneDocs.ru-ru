@@ -2,8 +2,8 @@
 title: "Ограничение доступа к Dynamics CRM Online | Microsoft Intune"
 description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
 keywords: 
-author: karthikaraman
-ms.author: karaman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article
@@ -14,8 +14,8 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 8dba2883b3261017bc66a409c5261f4422890015
+ms.sourcegitcommit: dae04661289c79798c2f37272a0f941d30335ea5
+ms.openlocfilehash: 2f4ba24ca6c56cee684931519937525fcde1c211
 
 
 ---
@@ -27,7 +27,8 @@ ms.openlocfilehash: 8dba2883b3261017bc66a409c5261f4422890015
 
 Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
-> [!IMPORTANT] Для развертывания условного доступа нужны подписки на Intune и Azure Active Directory Premium; при этом пользователям нужны лицензии на оба продукта. **Подписка Enterprise Mobility + Security (EMS)** включает подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing). Если у вас нет подписки EMS, можно получить подписку для Azure Active Directory Premium. См. [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
+> [!IMPORTANT]
+> Для развертывания условного доступа нужны подписки на Intune и Azure Active Directory Premium; при этом пользователям нужны лицензии на оба продукта. **Подписка Enterprise Mobility + Security (EMS)** включает подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing). Если у вас нет подписки EMS, можно получить подписку для Azure Active Directory Premium. См. [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
 
 Когда целевой пользователь пытается использовать приложение Dynamics CRM на своем устройстве, выполняется следующая оценка:
 
@@ -100,6 +101,6 @@ ms.openlocfilehash: 8dba2883b3261017bc66a409c5261f4422890015
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

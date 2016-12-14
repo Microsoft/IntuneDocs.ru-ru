@@ -2,7 +2,8 @@
 title: "Устранение неполадок условного доступа | Microsoft Intune"
 description: "Описывается, что нужно делать, если пользователям не удается получить доступ к ресурсам через условный доступ Intune."
 keywords: 
-author: karaman
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 10/24/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 433fc32c-ca9c-4bad-9616-852c72faf996
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 289e6019aa1a17deb91b38ed32f0432af0902a9d
-ms.openlocfilehash: d819e2e25e00791793add519694fc34a251178db
+ms.sourcegitcommit: 001bacbfc6a61a1c6b8f75c8e7ca55e311a1fa71
+ms.openlocfilehash: 7d52b3bb05a00b0da5e0845380f8431044b1c121
 
 
 ---
@@ -79,7 +80,7 @@ ms.openlocfilehash: d819e2e25e00791793add519694fc34a251178db
 - Просмотрите действия sendemail в журналах соединителя Exchange и проверьте их на наличие ошибок. Пример команды для поиска: SendEmail from notification account to useremail.
 - Прежде чем заблокировать устройство, соединитель Exchange отправляет электронное сообщение для активации. Если устройство находится вне сети, то оно может не получить это сообщение. Проверьте, использует ли почтовый клиент на устройстве для получения электронной почты технологию Push, а не Poll, так как из-за этого пользователь также может пропустить электронное сообщение. Переключите клиент на использование технологии Poll и проверьте, получит ли устройство электронное сообщение.
 
-## <a name="noncompliant-device-not-blocked"></a>Несовместимое устройство не заблокировано
+## <a name="non-compliant-device-not-blocked"></a>Несовместимое устройство не заблокировано
 
 При выявлении устройства, которое не соответствует требованиям, но все равно имеет доступ, выполните следующие действия.
 
@@ -158,6 +159,6 @@ ms.openlocfilehash: d819e2e25e00791793add519694fc34a251178db
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 
