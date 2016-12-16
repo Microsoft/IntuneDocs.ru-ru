@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 12/05/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,27 +15,27 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 62b9808c234b31f08467a971d8e4d4cb600e563b
+ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
+ms.openlocfilehash: 68e4df02fa298af68f6c01a4dbb658cca5bb231b
 
 
 ---
 
 
-# <a name="sync-your-device-manually-by-using-the-company-portal-website"></a>Ручная синхронизация устройства с помощью веб-сайта корпоративного портала
+# <a name="use-the-company-portal-website-to-sync-your-device"></a>Использование веб-сайта корпоративного портала для синхронизации устройства
 
-Если установка приложения или какая-либо другая задача занимает слишком много времени, можно попробовать синхронизировать устройство вручную. Синхронизация вручную может помочь ускорить установку или выполнение задачи.
+Иногда установка приложения или выполнение какой-либо задачи может занять больше времени, чем обычно. Если требуется слишком много времени, попробуйте вручную синхронизировать устройство, чтобы ускорить выполняемую операцию.
 
-Функция синхронизации работает только для перечисленных ниже устройств. Если устройства нет в списке, синхронизация не поддерживается. Используйте ссылку, соответствующую вашему устройству: 
+> [!Note]
+> Функция синхронизации сейчас доступна не для всех устройств. Если устройство отсутствует в списке, попробуйте выполнить его сброс, отключив Wi-Fi примерно на 30 секунд, а затем снова подключившись к сети.
 
 * [iOS](sync-your-device-manually-ios.md)
 * [Windows 10 Mobile](sync-your-device-manually-windows.md#windows-10-mobile)
 * [Windows 10 Desktop](sync-your-device-manually-windows.md#windows-10-desktop)
-* [Windows Phone 8.1](sync-your-device-manually-windows.md#windows-phone-8-1)
+* [Windows Phone 8.1](sync-your-device-manually-windows.md#windows-phone-81)
 
 
 
-
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

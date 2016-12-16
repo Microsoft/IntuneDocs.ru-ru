@@ -1,11 +1,11 @@
 ---
-title: "Приложение портала организации не поддерживается | Microsoft Intune"
+title: "Обновление приложения корпоративного портала | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 12/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,20 +15,19 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: a6b551ce5c0810ec98ed2303733f0efa43b8ffdb
+ms.sourcegitcommit: e007f666d2c179dd1dc4bcdd1265cecf8b9e5358
+ms.openlocfilehash: b3e98f32901512b9164c2e28c38e3bad751f7e8a
 
 
 ---
 
-# Приложение портала организации не поддерживается
-Эта версия портала компании больше не используется. Установите последнюю версию приложения **Корпоративный портал** из Магазина Windows, чтобы продолжить.
-
+# <a name="your-company-portal-app-is-out-of-date"></a>Приложение корпоративного портала устарело
+Вам нужно обновить приложение корпоративного портала для дальнейшего использования таких компонентов, как корпоративная электронная почта, контакты и документы. Чтобы устранить эту проблему, откройте **Магазин Windows** и установите новую версию приложения **корпоративного портала**.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Dec16_HO1-->
 
 

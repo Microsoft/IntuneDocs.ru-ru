@@ -1,25 +1,25 @@
 ---
-title: "Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune | Microsoft Intune"
+title: "Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune | Документация Майкрософт"
 description: 
 keywords: sdk, Cordova, intune
 author: oydang
 manager: angrobe
 ms.author: oydang
-ms.date: 11/15/2016
+ms.date: 12/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
-ms.reviewer: karthikaraman
+ms.reviewer: oydang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: af7df3fcf50c3508d495522341bb287c638f40a3
-ms.openlocfilehash: 2af369cc44c710789ab65eb25f10602882772019
+ms.sourcegitcommit: 613e293d9bd853d6de7cdc0d753cc8473afc180b
+ms.openlocfilehash: 9ef09f43e6c878af689a500457bab578149de499
 
 
 ---
-# ﻿<a name="microsoft-intune-app-sdk-cordova-plugin"></a>Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
+# <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
 
 > [!NOTE]
 > Вы можете сначала прочесть статью [Начало работы с пакетом SDK для приложений Intune](intune-app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
@@ -152,7 +152,7 @@ $ cordova run --nobuild
 ## <a name="known-limitations"></a>Известные ограничения
 ### <a name="android"></a>Android
 * Поддержка MultiDex является неполной.
-* Приложение должно быть нацелено на Android 4.0 (Android API 14) или более поздней версии.
+* Приложение должно быть нацелено на Android 4.0 (Android API 14) или более поздней версии.
 
 ### <a name="ios"></a>iOS
 * Каждый раз при изменении списка UTI в узле **CFBundleDocumentTypes** файла **Info.plist** следует очистить UTI в разделе импортированных UTI того же файла PLIST (узел **UTImportedTypeDeclarations**) перед повторной сборкой. Все UTI Intune начинаются с префикса `com.microsoft.intune.mam`.
@@ -161,6 +161,6 @@ $ cordova run --nobuild
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 
