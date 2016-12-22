@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/30/2016
+ms.date: 12/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,64 +14,76 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8ef3b7e4eec5a520c93fb3f70c8e5b6ee7d2c3aa
-ms.openlocfilehash: e0b0c7eb3ddc07f05fc0c2e4caa6726ed052c9d8
+ms.sourcegitcommit: 9fd309a10d9eb020795c5ce46df124b13dc1a006
+ms.openlocfilehash: d117c929fbde4dd0a39503b8da695aa9c9ea91ad
 
 
 ---
-# <a name="whats-new-in-microsoft-intune---november-2016"></a>Новые возможности Microsoft Intune — октябрь 2016 г.
+# <a name="whats-new-in-microsoft-intune---december-2016"></a>Новые возможности Microsoft Intune — ноябрь 2016 г.
 Узнайте о новых возможностях этого выпуска Microsoft Intune. Кроме того, здесь можно узнать о предстоящих изменениях, к которым следует подготовиться, а также сведения о прошлых выпусках.
 
 > [!Note]
 > В будущем все эти функции будут также поддерживаться в гибридных развертываниях (Configuration Manager с Intune). Дополнительные сведения о новых гибридных функциях см. на [странице новых гибридных функций](https://docs.microsoft.com/en-us/sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management).
 
+## <a name="public-preview-of-the-new-intune-admin-experience-on-azure--736542--"></a>Общедоступная предварительная версия нового интерфейса администратора Intune в Azure<!--736542-->
+В начале 2017 года мы планируем перенести все административные функции в Azure. Это позволит обеспечить интегрированное и эффективное управление основными рабочими процессами EMS на современной платформе служб, расширяемой с помощью интерфейсов API Graph. Предваряя выпуск общедоступной версии этого портала для всех клиентов Intune, мы рады сообщить, что позже в этом месяце начнем развертывать предварительную версию этого нового интерфейса администрирования для отдельных клиентов.
+
+В интерфейсе администратора на портале Azure будут реализованы уже объявленные возможности группирования и определения целевых объектов. Если применить новые параметры группирования на имеющемся клиенте, на нем также будет реализован новый интерфейс администратора. А пока вы можете узнать, что именно мы приготовили для Microsoft Intune на портале Azure, в нашей [новой документации](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune).
+
+Вопросы о сроках переноса вашего клиента отравляйте нашей команде по миграции по адресу [intunegrps@microsoft.com](mailto:intunegrps@microsoft.com).
+
+### <a name="telecom-expense-management-integration-in-public-preview-of-azure-portal--747605--"></a>Интеграция служб управления телекоммуникационными расходами в общедоступной предварительной версии портала Azure<!--747605-->
+В настоящее время мы начинаем предварительную интеграцию со сторонними службами управления телекоммуникационными расходами (TEM) на портале Azure. Используйте службу Intune, чтобы установить ограничения на использование национальных данных и данных, передаваемых в роуминге. Мы начинаем эту интеграцию со службой [Saaswedo](http://www.saaswedo.com).
+
 ## <a name="new-capabilities"></a>Новые возможности
 
-<!--### View App States for All Platforms in Real Time
-App installation status is now shown in real-time in the console. When you previously deployed an app, you had to wait for a targeted device to report back before the app install status was displayed in the Intune console.
+### <a name="multi-factor-authentication-across-all-platforms---747590--"></a>Многофакторная идентификация на всех платформах <!--747590-->
+Теперь Многофакторную идентификацию (MFA) можно применить для определенной группы пользователей во время регистрации устройств iOS, Android, Windows 8.1+, Windows Phone 8.1+ на портале управления Azure. Это можно сделать, настроив MFA в приложении для регистрации Microsoft Intune в Azure Active Directory.
 
-### Streamline iOS App Management for your End Users
-Intune can now automatically take over management of the previously installed app and no end user action is required.
+<!--VSO 679339, awaiting chrisgre for go-live--><!--### Conditional access for MAM with SharePoint Online
+Доступ приложений, не поддерживающих политики управления мобильными приложениями Intune, к SharePoint Online можно заблокировать.  Приступить к управлению мобильными приложениями можно на портале Azure. Откройте колонку __Параметры__ и перейдите в раздел __Условный доступ__, в котором содержится параметр для SharePoint Online. Эта возможность будет предоставляться отдельно от остального выпуска службы. Узнайте подробнее об этой новой функции [здесь](https://docs.microsoft.com/intune/deploy-use/mam-ca-for-sharepoint-online).-->
 
-Previously, if the end user of an enrolled iOS device installed an app from the App Store before you deployed that same app with a deployment action of __Available__, then the end user had to:
+### <a name="ability-to-restrict-mobile-device-enrollment--747596--"></a>Возможность ограничения на регистрацию мобильных устройств<!--747596-->
+В Intune добавлены новые ограничения на регистрацию, определяющие, какие платформы мобильных устройств разрешено регистрировать. Intune разделяет платформы мобильных устройств на категории: iOS, macOS, Android, Windows и Windows Mobile.
+* Ограничение на регистрацию мобильных устройств не означает ограничение на регистрацию клиентов ПК.
+* Только для iOS существует один дополнительный параметр для блокировки регистрации персональных устройств.
 
-1. Open the __Company Portal__.
-2. Select the app.
-3. Tap __Install__ to enable Intune to take over management of the app.-->
+Все новые устройства в Intune помечаются как персональные, если только ИТ-администратор не отметит их как принадлежащие организации, как описано в [этой статье](https://docs.microsoft.com/en-us/intune/deploy-use/manage-corporate-owned-devices).
 
-__Новый корпоративный портал Microsoft Intune доступен для устройств с Windows 10__. Корпорация Майкрософт выпустила новое [приложение корпоративного портала Microsoft Intune для устройств с Windows 10](https://www.microsoft.com/store/apps/9wzdncrfj3pz). Это приложение, которое использует новый формат Windows 10 Universal, представит пользователю обновленный интерфейс в приложении и аналогичный интерфейс на всех устройствах, компьютерах и мобильных устройствах под управлением Windows 10, при этом оно включает те же функциональные возможности, которые доступны пользователям сейчас.
-
-Это новое приложение также позволит пользователям использовать дополнительные функциональные возможности платформы, такие как единый вход (SSO) и проверка подлинности на основе сертификатов на устройствах с Windows 10. Приложение станет доступно в качестве обновления для существующих установок корпоративного портала Windows 8.1 и Windows Phone 8.1 в Магазине Windows. Дополнительные сведения см. по адресу [aka.ms/intunecp_universalapp](http://aka.ms/intunecp_universalapp).
-
-<!--### Support for Windows Store for Business Apps Being Deployed as Available
-You can now deploy apps you synchronized from the Windows Store for Business (WSfB) with a deployment action of __Available__ or __Required__. After syncing WSfB apps into Intune, administrators will be able to target those apps as available installs to groups of users. End users will see the deployed WSfB apps as available for install in the Universal Company Portal, where they can choose whether they would like to acquire the apps.
-
-### Conditional Access for MAM with SharePoint Online
-
-You can block apps that are not supported by Intune mobile app management (MAM) policies from accessing SharePoint online.  You can get started in Intune mobile app management via the Azure portal. Look for the  Conditional Access section in the “Settings” blade which now includes the option for SharePoint online.-->
-
-> [!IMPORTANT]
-
-> __Обновления в Intune и Android for Work__
-
-> Хотя приложения Android for Work можно разворачивать с действием __Необходимо__, в случае миграции групп Intune на новый интерфейс Azure AD приложения можно развернуть только с действием __Доступно__.
-
-### <a name="intune-app-sdk-for-cordova-plugin-now-supports-mam-without-enrollment"></a>Пакет SDK для приложений Intune для подключаемого модуля Cordova сейчас поддерживает MAM без регистрации
-Разработчики приложений теперь могут использовать пакет SDK для приложений Intune для подключаемого модуля Cordova для включения функций MAM без регистрации устройств в своих приложениях на основе Cordova для iOS и Android. Пакет SDK для приложений Intune для подключаемого модуля Cordova можно найти [здесь](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam).
-
-### <a name="intune-app-sdk-xamarin-component-now-supports-mam-without-enrollment"></a>Пакет SDK для приложений Intune для компонента Xamarin сейчас поддерживает MAM без регистрации
-Разработчики приложений теперь могут использовать пакет SDK для приложений Intune для компонента Xamarin, чтобы включать функции MAM без регистрации устройств в своих приложениях на основе Xamarin для iOS и Android. Пакет SDK для приложений Intune для компонента Xamarin можно найти [здесь](https://github.com/msintuneappsdk/intune-app-sdk-xamarin).
 
 ## <a name="notices"></a>Объявления
 
-### <a name="symantec-signing-certificate-no-longer-requires-signed-windows-phone-8-company-portal-for-upload"></a>Для отправки сертификата для подписи Symantec больше не требуется подписанный корпоративный портал Windows Phone 8
-При отправке сертификата для подписи Symantec больше не требуется подписанное приложение корпоративного портала Windows Phone 8. Сертификат можно отправить без сторонних средств.
+### <a name="multi-factor-authentication-on-enrollment-moving-to-the-azure-portal---vso-750545--"></a>Многофакторная идентификация при выполнении регистрации на портале Azure <!--VSO 750545-->
+Ранее, чтобы настроить MFA для процессов регистрации в Intune, администраторы использовали консоль Intune или Configuration Manager (до выпуска за октябрь 2016 г.). В этом обновлении параметры MFA можно настроить на [портале Microsoft Azure](https://manage.windowsazure.com). Для этого на портал нужно войти, используя учетные данные Intune. Дополнительные сведения см. [здесь](https://aka.ms/mfa_ad).
+
+### <a name="company-portal-app-for-android-now-available-in-china---vso-658093--"></a>Теперь приложение корпоративного портала для Android доступно в Китае <!--VSO 658093-->
+Мы публикуем приложение корпоративного портала для Android, которое можно скачать в Китае. Так как в Китае отсутствует магазин Google Play, это приложение для устройств Android можно скачать в китайских магазинах приложений. Приложение корпоративного портала для Android можно будет скачать в следующих магазинах:
+* [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)
+* [Huawei](https://go.microsoft.com/fwlink/?linkid=836948)
+* [Tencent](https://go.microsoft.com/fwlink/?linkid=836949)
+* [Wandoujia](https://go.microsoft.com/fwlink/?linkid=836950)
+* [Xiaomi](https://go.microsoft.com/fwlink/?linkid=836947)
+
+В этом приложении взаимодействие со службой Microsoft Intune осуществляется с помощью Сервисов Google Play. В настоящее время Сервисы Google Play еще недоступны в Китае, поэтому на выполнение одной из следующих задач понадобится до 8 часов. 
+
+|Консоль администрирования Intune| Приложение корпоративного портала Intune для Android |Веб-сайт корпоративного портала Intune|   
+|---|---|---|
+|Полная очистка| Удаление удаленного устройства| Удаление устройства (локального и удаленного)|
+|Selective wipe (Выборочная очистка)| Сброс устройства| Сброс устройства|
+|Развертывание нового или обновленного приложения| Установка доступных бизнес-приложений| Сброс секретного кода устройства|
+|удаленная блокировка;|||
+|Сброс секретного кода|||
 
 ## <a name="deprecations"></a>Устаревшие возможности
 
-### <a name="support-for-the-windows-phone-8-company-portal"></a>Поддержка корпоративного портала Windows Phone 8
-Поддержка корпоративного портала Windows Phone 8 будет прекращена. Кроме того, в октябре 2016 г. прекращена поддержка платформ Windows Phone 8 и Windows RT. В октябре 2016 г. прекращена поддержка также корпоративного портала Windows 8.
+### <a name="firefox-to-no-longer-support-silverlight--vso-tba--"></a>Firefox больше не поддерживает Silverlight<!--VSO TBA-->
+Mozilla удаляет поддержку Silverlight в версии 52 [браузера Firefox](https://www.mozilla.org/firefox), начиная с марта 2017 г. В результате вы больше не сможете войти в существующую консоль Intune, с помощью браузера Firefox, версия которого старше 51. Для доступа к консоли администрирования рекомендуется использовать Internet Explorer 10 или 11 либо [версию Firefox, выпущенную до версии 52](https://ftp.mozilla.org/pub/firefox/releases/). Переход Intune на портал Azure позволит решению поддерживать несколько [современных браузеров](https://docs.microsoft.com/en-us/azure/azure-preview-portal-supported-browsers-devices) без зависимости от Silverlight.
 
+### <a name="removal-of-exchange-online-mobile-inbox-policies---770687--"></a>Удаление политик мобильных почтовых ящиков Exchange Online <!--770687-->
+Начиная с декабря, администраторы больше не смогут просматривать или настраивать политики для мобильных почтовых ящиков Exchange Online (EAS) в консоли Intune. Это изменение будет реализовано на всех клиентах Intune в течение декабря и января. Все имеющиеся политики останутся прежними. Чтобы настроить новые политики, используйте командную консоль Exchange. Дополнительные сведения см. [здесь](https://technet.microsoft.com/en-us/library/bb123783%28v=exchg.150%29.aspx).
+
+### <a name="intune-av-player-image-viewer-and-pdf-viewer-apps-are-no-longer-supported-on-android---747553--"></a>Приложения Intune AV Player, Image Viewer и PDF Viewer больше не поддерживаются в Android <!--747553-->
+С середины декабря 2016 года пользователи больше не смогут использовать приложения Intune AV Player, Image Viewer и PDF Viewer. Они были заменены на приложение Azure Information Protection. Дополнительные сведения о приложении Azure Information Protection см. [здесь](https://docs.microsoft.com/information-protection/rms-client/mobile-app-faq).
 
 ### <a name="see-also"></a>См. также
 * [Блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882)
@@ -80,6 +92,6 @@ You can block apps that are not supported by Intune mobile app management (MAM) 
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

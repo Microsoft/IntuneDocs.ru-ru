@@ -2,9 +2,10 @@
 title: "Установка приложения корпоративного портала Intune и вход в него | Microsoft Intune"
 description: 
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: b23073a0bad085c8994f5e9b7c1b46e2985cd05c
+ms.sourcegitcommit: 2f92ce22c9e6a87bccc7ab17144d0d52ff6cfc7b
+ms.openlocfilehash: ebb2a164e631388d073d11440eb6072ae4d90468
 
 
 ---
 
 
-# Установка приложения корпоративного портала Intune и вход в него
+# <a name="install-and-sign-in-to-the-intune-company-portal-app"></a>Установка приложения корпоративного портала Intune и вход в него
 
 Корпоративный портал — это приложение, устанавливаемое на устройстве iOS, чтобы предоставить вам доступ к приложениям, электронной почте и сети компании или учебного заведения.  Прежде чем вы можете получить доступ, необходимо установить приложение корпоративного портала и использовать его для регистрации устройства в Microsoft Intune. Дополнительные сведения см. в разделе [What happens if you install the Company Portal app and enroll your device in Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md) (Что произойдет, если установить приложение "Корпоративный портал" и зарегистрировать устройство в Intune?).
 
@@ -29,17 +30,16 @@ ms.openlocfilehash: b23073a0bad085c8994f5e9b7c1b46e2985cd05c
 
 2.  Скачайте приложение **корпоративного портала Microsoft Intune**.
 
-    ![download-ios-comp-portal-app](./media/ios-cpinstall-1-cpinstore.png)
+    ![Загрузите приложение корпоративного портала Intune](./media/ios-cpinstall-1-cpinstore.png)
 
-3.  Откройте приложение корпоративного портала, введите рабочую или учебную учетную запись, укажите пароль и выберите **Войти**.
+3.  Откройте приложение корпоративного портала, введите рабочий или учебный адрес и пароль и нажмите **Войти**.
 
-    Если вы вошли в приложение корпоративного портала первый раз и ваша организация или учебное заведение используют Intune, вам будет предложено зарегистрировать устройство в Intune. Чтобы зарегистрировать устройство, выполните действия, описанные в статье [Enroll your iOS device in Intune](enroll-your-device-in-intune-ios.md) (Регистрация устройства с iOS в Intune) или [Enroll your Mac OS X device in Intune](enroll-your-device-in-intune-mac-os-x.md) (Регистрация устройства с Mac OS X в Intune).
+    Если вы вошли в приложение корпоративного портала первый раз и ваша организация или учебное заведение используют Intune, вам будет предложено зарегистрировать устройство в Intune. Чтобы зарегистрировать устройство, выполните действия, описанные в статье [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md) или [Регистрация устройства macOS в Intune](enroll-your-device-in-intune-macos.md).
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
 
-
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

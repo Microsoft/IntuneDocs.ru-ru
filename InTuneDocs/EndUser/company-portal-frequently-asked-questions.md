@@ -1,11 +1,11 @@
 ---
-title: "О корпоративном портале | Microsoft Intune"
+title: "Что такое корпоративный портал? | Microsoft Intune"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 12/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
+ms.sourcegitcommit: 3891d0389df3526ea328fc2952e3d181b1e766c0
+ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
 
 
 ---
@@ -42,7 +42,7 @@ ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
 
 > [!div class="op_single_selector"]
 - [Android](using-your-android-device-with-intune.md)
-- [iOS и Mac OS X](using-your-ios-or-mac-os-x-device-with-intune.md)
+- [iOS и macOS](using-your-ios-or-mac-os-x-device-with-intune.md);
 - [Windows](using-your-windows-device-with-intune.md)
 - [Веб-сайт корпоративного портала](using-the-intune-company-portal-website.md)
 
@@ -53,12 +53,12 @@ ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
 
 > [!div class="op_single_selector"]
 - [Android](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
-- [iOS и Mac OS X](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
+- [iOS и macOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md);
 - [Windows](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
 
 ## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>Какие компьютеры или устройства можно добавлять на корпоративный портал?
 
--   Устройства iPhone, iPad и Mac OS X
+-   Устройства iPhone, iPad и macOS
 
 -   Мобильные устройства Android
 
@@ -75,7 +75,7 @@ ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
 
 > [!div class="op_single_selector"]
 - [Android](unenroll-your-device-from-intune-android.md)
-- [iOS и Mac OS X](unenroll-your-device-from-intune-ios.md)
+- [iOS и macOS](unenroll-your-device-from-intune-ios.md);
 - [Windows](unenroll-your-device-from-intune-windows.md)
 
 При *сбросе* компьютера или устройства корпоративный портал пытается выполнить сброс устройства до заводских настроек по умолчанию. При сбросе устройства с него удаляются все корпоративные и персональные данные! В случае потери устройства вы сможете удаленно сбросить его с веб-сайта корпоративного портала.
@@ -84,7 +84,7 @@ ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
 
 > [!div class="op_single_selector"]
 - [Android](reset-erase-your-lost-or-stolen-device-android.md)
-- [iOS и Mac OS X](reset-erase-your-lost-or-stolen-device-ios.md)
+- [iOS и macOS](reset-erase-your-lost-or-stolen-device-ios.md);
 - [Windows](reset-erase-your-lost-or-stolen-device-windows.md)
 - [Сброс устройства с веб-сайта корпоративного портала](reset-your-device-cpwebsite.md)
 
@@ -96,6 +96,6 @@ ms.openlocfilehash: adf7fc0b7ddeb7fa8361d37efd0fdd5c714a72e4
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO1-->
 
 

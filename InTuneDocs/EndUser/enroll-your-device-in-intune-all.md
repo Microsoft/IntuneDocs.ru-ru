@@ -12,8 +12,8 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b51dbdd6-aaa3-48dd-a47f-9d01a4ca37f6
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 531fb4274a3a2ebd26278c0dd3f0d45d5458120d
+ms.sourcegitcommit: 2f92ce22c9e6a87bccc7ab17144d0d52ff6cfc7b
+ms.openlocfilehash: da065b7ea92d9372b9dd8bbbcdf21b0f789cc241
 
 
 ---
@@ -26,11 +26,11 @@ ms.openlocfilehash: 531fb4274a3a2ebd26278c0dd3f0d45d5458120d
 
 - [Регистрация устройства с Android в Intune](enroll-your-device-in-Intune-android.md)
 - [Регистрация устройства с iOS в Intune](enroll-your-device-in-intune-ios.md)
-- [Регистрация устройства с Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md)
+- [Регистрация устройства macOS в Intune](enroll-your-device-in-intune-macos.md)
 - [Регистрация устройства с Windows в Intune](enroll-your-device-in-intune-windows.md)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 
