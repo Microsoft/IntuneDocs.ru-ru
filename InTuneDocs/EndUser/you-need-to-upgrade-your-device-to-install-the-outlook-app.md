@@ -2,8 +2,8 @@
 title: "Необходимо обновить устройство для установки приложения Outlook | Microsoft Intune"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,26 +15,28 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: vadona
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 28c0cb63e1d14efb4e80d7d1f3608a354ee1b090
+ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
+ms.openlocfilehash: 9219829cf73cbd141a165f88b30f564f857e2b5d
 
 
 ---
 
-# Необходимо обновить устройство для установки приложения Outlook.
+# <a name="you-need-to-upgrade-your-device-to-install-the-outlook-app"></a>Необходимо обновить устройство для установки приложения Outlook.
 
 Если вы пытаетесь загрузить приложение электронной почты Outlook и видите сообщение о том, что версия операционной системы Android или iOS меньше минимальной требуемой версии, для продолжения необходимо обновить устройство.
 
 Для обновления выполните следующие действия, соответствующие типу используемого вами устройства.
 
-## Обновление устройства Android
+## <a name="to-upgrade-your-android-device"></a>Обновление устройства Android
 Выберите меню **Настройки**, а затем используйте функцию **обновление** или **обновление системы**.
 
-## Обновление устройства iOS
+## <a name="to-upgrade-your-ios-device"></a>Обновление устройства iOS
 Коснитесь меню **Настройки** &gt; **Основные** &gt; **Обновление ПО**.
 
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
-<!--HONumber=Sep16_HO3-->
+
+<!--HONumber=Nov16_HO1-->
 
 

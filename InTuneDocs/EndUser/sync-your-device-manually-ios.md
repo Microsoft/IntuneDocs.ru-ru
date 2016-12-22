@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: a08a9865463edcea2308df33fb40635d9466091f
+ms.sourcegitcommit: e007f666d2c179dd1dc4bcdd1265cecf8b9e5358
+ms.openlocfilehash: 8a8f3416f22cb5ce11fe0951f126d8ce36a248bd
 
 
 ---
@@ -24,7 +24,7 @@ ms.openlocfilehash: a08a9865463edcea2308df33fb40635d9466091f
 
 # <a name="sync-your-ios-device-manually"></a>Синхронизация устройства iOS вручную.
 
-Если установка приложения выполняется слишком долго, можно попробовать синхронизировать устройство Windows вручную. Синхронизация вручную может помочь ускорить установку. Эта функция синхронизации доступна только для iOS, но не для Mac OS X.
+Если установка приложения выполняется слишком долго, можно попробовать синхронизировать устройство Windows вручную. Синхронизация вручную может помочь ускорить установку. Эта функция синхронизации доступна только для iOS, но не для macOS.
 
 1. Откройте приложение корпоративного портала iOS.
 
@@ -42,6 +42,6 @@ ms.openlocfilehash: a08a9865463edcea2308df33fb40635d9466091f
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO1-->
 
 

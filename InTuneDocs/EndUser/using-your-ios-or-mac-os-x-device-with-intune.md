@@ -1,6 +1,6 @@
 ---
-title: "Использование устройства iOS или Mac OS X в Intune | Microsoft Intune"
-description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве iOS или Mac OS X, зарегистрированном в Intune"
+title: "Использование устройства iOS или macOS в Intune | Microsoft Intune"
+description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве iOS или macOS, зарегистрированном в Intune"
 keywords: 
 author: barlanmsft
 ms.author: barlan
@@ -15,13 +15,13 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: bc031fe080cd17b3436388f59ecc83df53a16a32
+ms.sourcegitcommit: 2f92ce22c9e6a87bccc7ab17144d0d52ff6cfc7b
+ms.openlocfilehash: e10c0eb3000bcf3a98a0cab891c40d32fe06d335
 
 
 ---
 
-# <a name="using-your-ios-or-mac-os-x-device-with-intune"></a>Использование устройства iOS или Mac OS X в Intune
+# <a name="using-your-ios-or-macos-device-with-intune"></a>Использование устройства iOS или macOS в Intune
 
 Эта статья содержит ссылки на все задачи, которые конечные пользователи могут выполнять на своих устройствах, управляемых Intune. ИТ-администраторы могут использовать эту информацию, чтобы узнать, что пользователям нужно делать для выполнения различных задач, сгруппированных по следующим категориям:
 - Установка приложения корпоративного портала и регистрация в Intune
@@ -34,7 +34,7 @@ ms.openlocfilehash: bc031fe080cd17b3436388f59ecc83df53a16a32
 
 - [Установка приложения корпоративного портала Intune и вход в него](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
 - [Регистрация устройства с iOS в Intune](enroll-your-device-in-intune-ios.md)
-- [Регистрация устройства с Mac OS X в Intune](enroll-your-device-in-intune-mac-os-x.md)
+- [Регистрация устройства macOS в Intune](enroll-your-device-in-intune-macos.md)
 - [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-ios.md)
 
 ## <a name="things-users-can-do-when-their-device-is-enrolled-in-intune"></a>Что могут делать пользователи, если их устройства зарегистрированы в Intune
@@ -67,6 +67,6 @@ ms.openlocfilehash: bc031fe080cd17b3436388f59ecc83df53a16a32
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 
