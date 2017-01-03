@@ -1,5 +1,5 @@
 ---
-title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune? | Microsoft Intune"
+title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune? | Документация Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 94868431ce100a252ddfc7df5f9c2e287f0eedaf
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 1f872d245144727406d926b0c9401827939470f1
 
 
 ---
@@ -56,6 +56,6 @@ ms.openlocfilehash: 94868431ce100a252ddfc7df5f9c2e287f0eedaf
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

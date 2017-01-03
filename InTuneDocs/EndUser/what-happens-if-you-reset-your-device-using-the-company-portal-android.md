@@ -1,11 +1,11 @@
 ---
-title: "Что происходит при сбросе вашего устройства Android с помощью корпоративного портала? | Microsoft Intune"
+title: "Что происходит при сбросе вашего устройства Android с помощью корпоративного портала? | Документация Майкрософт"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3f531adc042677d12c64e2efb4f8e3401e4b5bd4
-ms.openlocfilehash: ff0dca484b7e7a75dcaff69c86985510ee17277e
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: a696858380fe15efd4e40db9f2b4c6b5157051bc
 
 
 ---
 
 
-# Что происходит при сбросе вашего устройства Android с помощью корпоративного портала?
+# <a name="what-happens-if-you-reset-your-android-device-using-the-company-portal"></a>Что происходит при сбросе вашего устройства Android с помощью корпоративного портала?
 
 При сбросе устройства Android с помощью корпоративного портала все приложения, параметры и персональные данные на устройстве будут удалены. Устройство будет сброшено к заводским настройкам по умолчанию.
 
@@ -36,6 +36,6 @@ ms.openlocfilehash: ff0dca484b7e7a75dcaff69c86985510ee17277e
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 
