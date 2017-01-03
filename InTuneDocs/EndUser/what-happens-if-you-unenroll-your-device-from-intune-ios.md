@@ -1,11 +1,11 @@
 ---
-title: "Что происходит при отмене регистрации устройства iOS в Intune? | Microsoft Intune"
+title: "Что происходит при отмене регистрации устройства iOS в Intune? | Документация Майкрософт"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2bc39ae41779e02882a5edf3698cb0e6976caec2
-ms.openlocfilehash: a47d3fc5c3a2063e49e9f250e15eb8d6126bb903
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: a88b89114db0f9d76c783bf99ff55e4eb4107865
 
 
 ---
 
 
-# Что происходит при отмене регистрации устройства iOS в Intune?
+# <a name="what-happens-if-you-unenroll-your-ios-device-from-intune"></a>Что происходит при отмене регистрации устройства iOS в Intune?
 
 После отмены регистрации устройства iOS в Intune:
 
@@ -46,6 +46,6 @@ ms.openlocfilehash: a47d3fc5c3a2063e49e9f250e15eb8d6126bb903
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 
