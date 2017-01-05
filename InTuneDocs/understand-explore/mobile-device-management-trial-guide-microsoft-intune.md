@@ -117,6 +117,6 @@ Open the Company Portal on the mobile device, choose **Apps**, and then install 
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Jan17_HO1-->
 
 
