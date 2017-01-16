@@ -1,9 +1,9 @@
 ---
-title: "Создание и развертывание политик управления мобильными приложениями | Microsoft Intune"
+title: "Создание и развертывание политик управления мобильными приложениями | Документы Майкрософт"
 description: "Следуйте пошаговым инструкциям в этом разделе, чтобы создавать и развертывать политики управления мобильными приложениями."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,13 +14,16 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 05b898ffdd0b76eb04d344adb3cfb20ec15aeb52
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: 3e077bfa8a03526b9472b4e9fdd4a75da22c28c8
 
 
 ---
 
 # <a name="create-and-deploy-mobile-app-management-policies-with-microsoft-intune"></a>Создание и развертывание политик управления мобильными приложениями с помощью Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Политики управления мобильными приложениями (MAM) могут применяться к приложениям, которые работают на устройствах, находящихся или не находящихся под управлением Intune. Более подробное описание того, как работают политики MAM и какие сценарии поддерживаются политиками MAM в Intune, см. в статье [Защита данных приложений с помощью политик управления мобильными приложениями](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md).
 
 В этом разделе описывается процедура создания политики MAM на **портале Azure**. Портал Azure — это новая консоль администрирования для создания политик MAM, и мы рекомендуем использовать этот портал для создания политик MAM. Портал Azure поддерживает следующие сценарии MAM:
@@ -173,6 +176,6 @@ ms.openlocfilehash: 05b898ffdd0b76eb04d344adb3cfb20ec15aeb52
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

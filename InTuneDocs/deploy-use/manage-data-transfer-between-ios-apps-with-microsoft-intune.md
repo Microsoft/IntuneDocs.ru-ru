@@ -1,9 +1,9 @@
 ---
-title: "Управление передачей данных между приложениями iOS | Microsoft Intune"
+title: "Управление передачей данных между приложениями iOS | Документы Майкрософт"
 description: "В этом разделе описано, как использовать функцию &quot;Открыть с помощью&quot; в iOS и политики управления мобильными приложениями для управления передачей данных между приложениями."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,13 +14,16 @@ ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 94163d5f303b293da2301b81a5c96f6c9c2e5e5d
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: fdbe65ff13b9b16a125ee37f9dd4614c727f2886
 
 
 ---
 
 # <a name="manage-data-transfer-between-ios-apps-with-microsoft-intune"></a>Управление передачей данных между приложениями iOS в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 ## <a name="manage-ios-apps"></a>Управление приложениями iOS
 В рамках защиты данных организации требуется убедиться, что передача файлов осуществляется только между управляемыми вами приложениями.  Управление приложениями iOS можно осуществлять указанными далее способами.
 
@@ -76,6 +79,6 @@ ms.openlocfilehash: 94163d5f303b293da2301b81a5c96f6c9c2e5e5d
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

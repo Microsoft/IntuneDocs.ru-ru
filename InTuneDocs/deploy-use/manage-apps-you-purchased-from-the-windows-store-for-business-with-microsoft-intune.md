@@ -1,5 +1,5 @@
 ---
-title: "Управление Магазином Windows для бизнес-приложений | Microsoft Intune"
+title: "Управление Магазином Windows для бизнес-приложений | Документы Майкрософт"
 description: "Сведения о подключении Microsoft Intune к Магазину Windows для бизнеса для развертывания приложений, приобретенных по программе корпоративных закупок, и управления ими в консоли Intune"
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 37044da4c7a58749c7b3423b1872b07d1673603d
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 1e0cb157182415e25cd5829e244e47b2bd5b539b
 
 
 ---
 
 # <a name="manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Windows для бизнеса, с помощью Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 [Магазин Windows для бизнеса](https://www.microsoft.com/business-store) позволяет находить и приобретать приложения для вашей организации по отдельности или в рамках корпоративной программы. Подключив хранилище к Microsoft Intune, вы можете управлять приложениями, приобретенными по корпоративной программе, из консоли Intune. Пример.
 * можно синхронизировать список приобретенных приложений с Intune;
 * синхронизированные приложения отображаются в консоли Intune и могут быть развернуты обычным образом;
@@ -80,6 +83,6 @@ ms.openlocfilehash: 37044da4c7a58749c7b3423b1872b07d1673603d
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

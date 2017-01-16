@@ -1,11 +1,11 @@
 ---
-title: "Регистрация устройства Android в Intune | Microsoft Intune"
+title: "Регистрация устройства Android в Intune | Документы Майкрософт"
 description: "Описывается, как зарегистрировать устройство Android в Intune."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/09/2016
+ms.date: 12/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6dc3173207d1e99e1bd0207f8ea5a5b137b36be1
-ms.openlocfilehash: b87799b0ee8dcf98b82bd8353ca7684ede0d8bc2
+ms.sourcegitcommit: 385565bd1ce05c9402a52cdd6eeb93f58caaf72a
+ms.openlocfilehash: 02bd3d2f62bd8b8e3f590de4bc8f4e6099f4917d
 
 
 ---
@@ -114,6 +114,6 @@ ms.openlocfilehash: b87799b0ee8dcf98b82bd8353ca7684ede0d8bc2
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

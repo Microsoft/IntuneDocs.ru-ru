@@ -1,5 +1,5 @@
 ---
-title: "Ограничение доступа к Dynamics CRM Online | Microsoft Intune"
+title: "Ограничение доступа к Dynamics CRM Online | Документы Майкрософт"
 description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
 keywords: 
 author: andredm7
@@ -14,8 +14,8 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dae04661289c79798c2f37272a0f941d30335ea5
-ms.openlocfilehash: 2f4ba24ca6c56cee684931519937525fcde1c211
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: abbfeb493d9e85eaa601b127d618996f2e01a01d
 
 
 ---

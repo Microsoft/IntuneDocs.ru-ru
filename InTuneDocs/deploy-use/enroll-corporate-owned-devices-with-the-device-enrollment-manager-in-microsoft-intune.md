@@ -1,5 +1,5 @@
 ---
-title: "Регистрация с помощью диспетчера регистрации устройств | Microsoft Intune"
+title: "Регистрация с помощью диспетчера регистрации устройств | Документы Майкрософт"
 description: "С помощью одной учетной записи диспетчера регистрации устройств (DEM) можно управлять множеством общих мобильных устройств, принадлежащих компании."
 keywords: 
 author: staciebarker
@@ -14,8 +14,8 @@ ms.assetid: a23abc61-69ed-44f1-9b71-b86aefc6ba03
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 83b89d06793f6f3934537408fb600b3b89afd35b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 751c6bee73175b8e6ac5ad192f12540520c676c0
 
 
 ---

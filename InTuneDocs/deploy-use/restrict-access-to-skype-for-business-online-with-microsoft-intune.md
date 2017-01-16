@@ -1,5 +1,5 @@
 ---
-title: "Ограничение доступа к Skype для бизнеса Online | Microsoft Intune"
+title: "Ограничение доступа к Skype для бизнеса Online | Документы Майкрософт"
 description: "Защита и контроль доступа к Skype для бизнеса Online с помощью условного доступа."
 keywords: 
 author: andredm7
@@ -14,8 +14,8 @@ ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 04fcdceb593051a32b715cb39b53cc328f167d09
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 23199b84ca1acf202442e096c637f0dbad53f3e0
 
 
 ---

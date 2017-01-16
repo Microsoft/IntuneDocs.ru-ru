@@ -1,5 +1,5 @@
 ---
-title: "Ограничение доступа к сетям с помощью Cisco ISE | Microsoft Intune"
+title: "Ограничение доступа к сетям с помощью Cisco ISE | Документы Майкрософт"
 description: "Используйте Cisco ISE с Intune, чтобы регистрировать устройства в Intune и обеспечивать соответствие политикам до того, как они получат доступ к сетям Wi-Fi и VPN, управляемым Cisco ISE."
 keywords: 
 author: robstackmsft
@@ -14,8 +14,8 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1dd3fde8119b54f574265c2ca9cf62cee9e77b01
-ms.openlocfilehash: bd6307cd8ff465bbce3de124ffdb444333d12efe
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 9eb0ea307702f3ae07db4d5c5a82d03f13b727fb
 
 
 ---
@@ -64,7 +64,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 > Проверьте срок действия сертификата, поскольку по истечении срока действия этого сертификата потребуется экспортировать и импортировать новый.
 
 
-### <a name="obtain-a-selfsigned-cert-from-ise"></a>Получите самозаверяющий сертификат в системе ISE. 
+### <a name="obtain-a-self-signed-cert-from-ise"></a>Получите самозаверяющий сертификат в системе ISE. 
 
 1.  В консоли ISE последовательно выберите **Администрирование** > **Сертификаты** > **Сертификаты системы** > **Создать самозаверяющий сертификат**.  
 2.       Экспортируйте самозаверяющий сертификат.
@@ -100,7 +100,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 |Конечная точка маркера OAuth 2.0|URL-адрес издания маркера|
 |Добавьте в ваш код ИД клиента|Идентификатор клиента|
 
-### <a name="step-4-upload-the-selfsigned-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>Шаг 4. Отправка самозаверяющего сертификата из среды в ISE в приложение ISE, созданное в Azure AD
+### <a name="step-4-upload-the-self-signed-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>Шаг 4. Отправка самозаверяющего сертификата из среды в ISE в приложение ISE, созданное в Azure AD
 1.     Получите отпечаток и значение сертификата в кодировке base64 из CER-файла открытого сертификата X.509. В этом примере используется PowerShell.
    
       
@@ -189,6 +189,6 @@ b. Щелкните значок замка &gt; **Дополнительные 
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

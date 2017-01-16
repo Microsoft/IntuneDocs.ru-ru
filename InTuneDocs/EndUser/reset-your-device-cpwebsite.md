@@ -1,5 +1,5 @@
 ---
-title: "Сброс устройства с веб-сайта корпоративного портала | Microsoft Intune"
+title: "Сброс устройства с веб-сайта корпоративного портала | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -11,12 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d3182a85-328b-45b4-bf7a-9f6249984641
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: c5791e70c35446fb11971321b6b7a4178ebdfdb5
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: a17943828be883964c7d8f55ecfdcb0b9a738bc3
 
 
 ---
@@ -46,6 +48,6 @@ ms.openlocfilehash: c5791e70c35446fb11971321b6b7a4178ebdfdb5
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

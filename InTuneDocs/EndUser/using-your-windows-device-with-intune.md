@@ -1,5 +1,5 @@
 ---
-title: "Использование устройства Windows в Intune | Microsoft Intune"
+title: "Использование устройства Windows в Intune | Документы Майкрософт"
 description: "Список ссылок на задачи, которые пользователи могут выполнять на устройстве Windows, зарегистрированном в Intune"
 keywords: 
 author: barlanmsft
@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0de5f03a-c288-423b-b9ea-493a39eb715a
+searchScope:
+- Company Portal
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 05eb711e65e6db13e480a966849e7f39d3ec8c71
+ms.sourcegitcommit: 8611566f5f5d33b7f0937fabd15892353953df77
+ms.openlocfilehash: a3433e1976063513ee836189738ff02d85d40044
 
 
 ---
@@ -52,15 +54,15 @@ ms.openlocfilehash: 05eb711e65e6db13e480a966849e7f39d3ec8c71
 
 Этот раздел содержит сведения об устранении проблем, с которыми пользователи могут столкнуться при регистрации устройства Windows в Intune.
 
-- [Устройство не содержит необходимую минимальную версию операционной системы](device-doesnt-have-the-required-minimum-operating-system-version-windows.md)
-- [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply-with-maximum-operating-system-version-windows.md)
-- [На устройстве не включено шифрование BitLocker](device-doesnt-have-bitlocker-enabled-windows.md)
-- [На устройстве не включено антивредоносное ПО](device-doesnt-have-antimalware-software-enabled-windows.md)
-- [На устройстве не включена безопасная загрузка](device-doesnt-have-secure-boot-enabled-windows.md)
-- [На устройстве не включена целостность кода](device-doesnt-have-code-integrity-enabled-windows.md)
+- [Устройство не содержит необходимую минимальную версию операционной системы](you-need-to-update-your-windows-device.md)
+- [Устройство не соответствует максимальной версии операционной системы](your-windows-version-isnt-yet-supported.md)
+- [На устройстве не включено шифрование BitLocker](you-need-to-enable-windows-encryption.md)
+- [На устройстве не включено антивредоносное ПО](your-device-needs-antimalware-software.md)
+- [На устройстве не включена безопасная загрузка](you-need-to-enable-secure-boot-windows.md)
+- [На устройстве не включена целостность кода](you-need-to-enable-code-integrity.md)
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

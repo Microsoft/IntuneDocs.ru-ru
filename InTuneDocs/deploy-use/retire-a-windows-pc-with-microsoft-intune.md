@@ -1,11 +1,11 @@
 ---
-title: "Снятие компьютера Windows с учета | Microsoft Intune"
+title: "Снятие компьютера Windows с учета | Документы Майкрософт"
 description: "Сведения о снятии с учета компьютера Windows, управляемого Intune."
 keywords: 
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 08/04/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.assetid: 5c916182-d99c-44c5-a779-3f596f261c40
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 19e8e2b6a7eaa3cf02e4296a6fd147baa1472b61
+ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
+ms.openlocfilehash: fbf188be16ca4a47ee369e3fdde8c0a7f799beab
 
 
 ---
 
 # <a name="retire-a-windows-pc"></a>Снятие компьютера Windows с учета
-Следующие действия предназначены для снятия с учета компьютеров под управлением Intune.
+Воспользуйтесь указанными ниже сведениями, чтобы снять с учета настольные системы Windows, которые управляются как компьютеры с помощью программного клиента Intune на них. При снятии компьютера с учета он удаляется из системы управления Intune. Вы не можете выполнить из Intune сброс ПК к заводским значениям параметров.
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com/) щелкните **Группы** &gt; **Все устройства** (или другую группу с компьютером, который требуется снять с учета).
 
@@ -31,7 +31,7 @@ ms.openlocfilehash: 19e8e2b6a7eaa3cf02e4296a6fd147baa1472b61
 
 Если компьютеру не удается подключиться к Intune, в рабочей области **Панель мониторинга** отобразится сообщение.
 
-При снятии компьютера с учета происходит следующее.
+При снятии компьютера с учета происходит следующее:
 
 -   Он удаляется из системы управления и инвентаризации Intune, а связанная с ним лицензия становится доступной для использования. Процедуры снятия с учета и очистки удаляют клиентское программное обеспечение Intune, но не удаляют приложения и данные с компьютера. Такое снятие с учета не приводит к полной очистке компьютера.
 
@@ -50,13 +50,13 @@ ms.openlocfilehash: 19e8e2b6a7eaa3cf02e4296a6fd147baa1472b61
     > [!IMPORTANT]
     > Если клиентское ПО устанавливалось с помощью объекта групповой политики, его необходимо удалить, прежде чем можно будет удалить клиентское ПО, чтобы предотвратить повторную установку программного обеспечения.
 
-    Если не удается удалить клиент, прочтите раздел [Устранение неполадок Endpoint Protection](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune) для получения дополнительных сведений.
+    Если не удается удалить клиент Endpoint Protection, прочтите раздел [Устранение неполадок Endpoint Protection](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune) для получения дополнительных сведений.
 
 ### <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

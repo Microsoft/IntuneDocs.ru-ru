@@ -1,5 +1,5 @@
 ---
-title: "Регистрация устройства с Windows 10 в Intune | Microsoft Intune"
+title: "Регистрация устройства с Windows 10 в Intune | Документы Майкрософт"
 description: "Описывается, как зарегистрировать мобильное или настольное устройство с Windows 10 в Intune."
 keywords: 
 author: barlanmsft
@@ -14,8 +14,8 @@ ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 3e6a4ca1e415eb56dd5792c8d9f6a9fe83f6d362
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: 8d1644c5a52d728aecd095979fec130cfa8a86f2
 
 
 ---
@@ -53,6 +53,6 @@ ms.openlocfilehash: 3e6a4ca1e415eb56dd5792c8d9f6a9fe83f6d362
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

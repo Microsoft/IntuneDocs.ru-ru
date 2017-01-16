@@ -1,35 +1,37 @@
 ---
-title: "Сброс (очистка) потерянного или украденного устройства iOS | Microsoft Intune"
+title: "Сброс (очистка) потерянного или украденного устройства iOS | Документы Майкрософт"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 70788dca-765f-47a7-9994-a286f8a88588
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 705c70b034378113a29003891f465a0e88186c69
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 9014a09c79287a28502adfbf7e66c4b004336fa9
 
 
 ---
 
 
-# Сброс (очистка) потерянного или украденного устройства iOS
+# <a name="reset-erase-your-lost-or-stolen-ios-device"></a>Сброс (очистка) потерянного или украденного устройства iOS
 
 Если телефон, зарегистрированный в Intune, был потерян или украден, можно выполнить его сброс до заводских настроек с помощью приложения корпоративного портала с другого устройства либо с помощью [веб-сайта корпоративного портала](http://portal.manage.microsoft.com).
 
 > [!WARNING]
 > Сброс устройства приводит к удалению с него личных и рабочих данных. Дополнительные сведения о том, что происходит при сбросе устройства, см. в статье [Что происходит при сбросе вашего устройства с помощью корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
 
-## Сброс устройства с помощью приложения корпоративного портала
+## <a name="to-reset-your-device-using-the-company-portal-app"></a>Сброс устройства с помощью приложения корпоративного портала
 
 1.  На другом зарегистрированном устройстве откройте приложение корпоративного портала и выполните вход со своей рабочей учетной записью.
 
@@ -37,7 +39,7 @@ ms.openlocfilehash: 705c70b034378113a29003891f465a0e88186c69
 
 3.  Последовательно выберите **Сбросить** &gt; **Сбросить**.
 
-## Сброс устройства с помощью веб-сайта корпоративного портала
+## <a name="to-reset-your-device-using-the-company-portal-website"></a>Сброс устройства с помощью веб-сайта корпоративного портала
 
 Просмотрите описание следующих действий или это видео.
 
@@ -51,8 +53,6 @@ ms.openlocfilehash: 705c70b034378113a29003891f465a0e88186c69
 
 
 
-
-
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Предварительные требования для политик MAM | Microsoft Intune"
+title: "Предварительные требования для политик MAM | Документы Майкрософт"
 description: "В этом разделе описаны компоненты, необходимые для настройки пользователей перед созданием политик управления мобильными приложениями."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/29/2016
 ms.topic: article
@@ -14,13 +14,16 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: ac820146d81fb121a60f7029f6a52a0056d6ab0a
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: cb525deb240668c0f0f14b19f39eb1226e338629
 
 
 ---
 
 # <a name="get-ready-to-configure-mobile-app-management-policies-on-the-azure-portal"></a>Подготовка к настройке политик управления мобильными приложениями на портале Azure
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 В этом разделе описываются предварительные требования и действия, которые необходимо выполнить **перед** созданием политик управления мобильными приложениями (MAM) на портале Azure.
 
 Сведения о том, как политики MAM в Intune могут защитить данные вашей организации, см. в статье [Защита приложений и данных с помощью политик управления мобильными приложениями](protect-apps-and-data-with-microsoft-intune.md).
@@ -121,6 +124,6 @@ ms.openlocfilehash: ac820146d81fb121a60f7029f6a52a0056d6ab0a
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Приложения iOS с политиками управления мобильными приложениями | Microsoft Intune"
+title: "Приложения iOS с политиками управления мобильными приложениями | Документы Майкрософт"
 description: "В этом разделе описывается, чего следует ожидать от управления приложением iOS посредством политик управления мобильными приложениями."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 10/18/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,21 +14,26 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 3aa6728036ff66ea489176063af2d136bef4c7cc
+ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
+ms.openlocfilehash: f5a26d3d5ed060571892d91637dc12cae08f1a69
 
 
 ---
 
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-mam-policies"></a>Что происходит при управлении приложением iOS с помощью политик MAM
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
  В этом разделе описывается взаимодействие пользователей с приложениями, имеющими политики управления мобильным доступом (MAM). Политики MAM применяются только в том случае, если приложения используются в рабочем контексте, например, когда пользователь получает доступ к приложениям с помощью рабочей учетной записи или обращается к файлам, которые хранятся в корпоративном хранилище OneDrive.
 
 ##  <a name="access-apps"></a>Доступ к приложениям
 
-Если устройство **не зарегистрировано в Intune**, пользователю предлагается перезапустить приложение при его первом использовании.  Перезапуск необходим для применения политик MAM к приложению. Этот запрос на перезапуск проиллюстрирован на приведенном ниже снимке экрана из Skype:
+Если устройство **не зарегистрировано в Intune**, пользователю предлагается перезапустить приложение при его первом использовании.  Перезапуск необходим для применения политик MAM к приложению. 
+
+<!--- The following screenshot from the Skype app illustrates this restart request: --->
 
 
-![Снимок экрана: устройство iOS с запросом на ввод ПИН-кода](../media/appmanagement/iOS_AppPINPrompt.png)
+<!---  ![Screenshot of the iOS device showing PIN prompt](../media/appmanagement/iOS_AppPINPrompt.png) --->
 
 Если устройство **зарегистрировано для управления в Intune**, пользователь получает сообщение о том, что приложение теперь является управляемым:
 
@@ -68,6 +73,6 @@ Intune поддерживает развертывание политик MAM т
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

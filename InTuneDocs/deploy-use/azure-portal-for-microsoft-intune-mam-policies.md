@@ -1,9 +1,9 @@
 ---
-title: "Портал Azure для политик управления мобильными приложениями | Microsoft Intune"
+title: "Портал Azure для политик управления мобильными приложениями | Документы Майкрософт"
 description: "Создание политик управления мобильными приложениями на портале Azure. Создаваемые на портале политики могут применяться к устройствам с регистрацией в Intune или без нее."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 10/22/2016
 ms.topic: article
@@ -14,13 +14,15 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: b377d527621693f4c231f6f8b16cab277853cdf7
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: 423f525be6ff9fb72542af46ff18a57d00d04d79
 
 
 ---
 
 # <a name="azure-portal-for-microsoft-intune-mam-policies"></a>Портал Azure для политик управления мобильными приложениями Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 ## <a name="use-the-azure-portal"></a>Использование портала Azure
 Портал Azure позволяет создавать политики управления мобильными приложениями (MAM) и управлять ими.
@@ -67,6 +69,6 @@ ms.openlocfilehash: b377d527621693f4c231f6f8b16cab277853cdf7
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

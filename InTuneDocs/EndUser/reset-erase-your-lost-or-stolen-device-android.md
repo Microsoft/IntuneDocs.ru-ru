@@ -1,22 +1,24 @@
 ---
-title: "Проверка соответствия на устройстве Android | Microsoft Intune"
+title: "Проверка соответствия на устройстве Android | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/13/2016
+ms.date: 12/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d98d9bbe-98fa-48a9-8808-110435eac9e4
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 22786ed9a7598222003847c33311209faa3291c1
+ms.sourcegitcommit: 385565bd1ce05c9402a52cdd6eeb93f58caaf72a
+ms.openlocfilehash: e14f60637daa89607f015da81eea45801bc39a78
 
 
 ---
@@ -34,8 +36,6 @@ ms.openlocfilehash: 22786ed9a7598222003847c33311209faa3291c1
 
 
 
-
-
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

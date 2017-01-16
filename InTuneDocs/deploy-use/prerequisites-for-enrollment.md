@@ -1,5 +1,5 @@
 ---
-title: "Предварительные требования для регистрации мобильных устройств | Microsoft Intune"
+title: "Предварительные требования для регистрации мобильных устройств | Документы Майкрософт"
 description: "В статье описывается настройка необходимых компонентов управления мобильными устройствами и подготовка к регистрации разных операционных систем."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 44fd4af0-f9b0-493a-b590-7825139d9d40
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
-ms.openlocfilehash: 270e6015e629c048b01b218793640888706d118e
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 2b7fe00a2f3b289958aa77df5eaffd35de7c8c97
 
 
 ---
 
 # <a name="prerequisites-for-mobile-device-management-in-intune"></a>Предварительные требования для управления мобильными устройствами в Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Можно позволить сотрудникам регистрировать свои мобильные устройства в Intune, выполнив указанные ниже шаги. Аналогичные шаги необходимы и для управления устройствами, принадлежащими организации.
 
 |Шаги|Подробные сведения|  

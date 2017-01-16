@@ -1,11 +1,11 @@
 ---
-title: "Снятие устройств с учета | Microsoft Intune"
+title: "Снятие устройств с учета | Документы Майкрософт"
 description: "Intune поддерживает выборочную и полную очистку для удаления устройства из системы управления Intune. Для этого удаляются его политики, а также сведения о нем на корпоративном портале."
 keywords: 
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 12/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,21 @@ ms.assetid: 3dbec400-5d8a-47be-b892-7745811d9de2
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8f3a8e42688bf830e3050cf387ccb15a1af811fa
-ms.openlocfilehash: e7f861adc757b4037c5d0ef97c361a57948386bf
+ms.sourcegitcommit: 464e6d73765a75aaefb3eca95281bf54b4cc7a2d
+ms.openlocfilehash: 2bb4eb56bea4f640fa304c03b0f86b78625fe6a7
 
 
 ---
 
 # <a name="retire-devices-from-intune-management"></a>Снятие устройств с учета из системы управления Intune
 
-Как для устройств организации, так и для личных устройств наступает момент, когда устройство требуется удалить из системы управления Intune. Устройство может потребоваться снять с учета по ряду причин:
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+Как для устройств организации, так и для личных устройств наступает момент, когда устройство требуется удалить из системы управления Intune. 
+
+Устройства никогда не удаляются из Intune без вашего вмешательства, даже если они уже длительное время не подключались к этой службе. 
+
+Устройство может потребоваться снять с учета по ряду причин:
 
 -   плановый ("управляемый") уход пользователя из компании;
 -   внезапный уход пользователя (увольнение по собственному желанию или по другой причине и т. д.);
@@ -70,6 +76,6 @@ ms.openlocfilehash: e7f861adc757b4037c5d0ef97c361a57948386bf
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

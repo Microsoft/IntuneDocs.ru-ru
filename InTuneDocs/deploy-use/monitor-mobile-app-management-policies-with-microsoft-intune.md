@@ -1,9 +1,9 @@
 ---
-title: "Мониторинг политик MAM с помощью Microsoft Intune | Microsoft Intune"
+title: "Мониторинг политик MAM с помощью Microsoft Intune | Документы Майкрософт"
 description: "Здесь описано, как просмотреть сведения о пользователях, использующих политику, и ознакомиться с более подробной информацией."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
@@ -14,13 +14,16 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 487fe778bae73c2ac5564f90c21328932060f576
+ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
+ms.openlocfilehash: 2a18ad7226c6fc6de0277f1f20443ea64dc8b918
 
 
 ---
 
 # <a name="monitor-mobile-app-management-policies-with-microsoft-intune"></a>Мониторинг политик управления мобильными приложениями с помощью Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 После настройки и применения политики MAM к пользователям можно отслеживать состояние соответствия на [портале Azure](https://portal.azure.com). На портале Azure отображаются сведения о пользователях, затронутых политикой, состояние соответствия и проблемы, которые могут возникать у пользователей.
 ## <a name="summary-view"></a>Представление "Сводка"
 В колонке **Управление мобильными приложениями Intune** можно просмотреть сводку состояния соответствия:
@@ -80,6 +83,6 @@ ms.openlocfilehash: 487fe778bae73c2ac5564f90c21328932060f576
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

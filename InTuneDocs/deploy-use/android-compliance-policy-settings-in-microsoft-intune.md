@@ -1,5 +1,5 @@
 ---
-title: "Параметры политики соответствия для устройств Android | Microsoft Intune"
+title: "Параметры политики соответствия для устройств Android | Документы Майкрософт"
 description: "В этом разделе описываются параметры политики соответствия требованиям для устройств Android."
 keywords: 
 author: andredm7
@@ -14,14 +14,16 @@ ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 398f0c8bc789d9106a296e50f0e0cdc27d5920a7
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 1c4721172d36f4f9b2b149f0da96e65bc65d9484
 
 
 ---
 
 
 # <a name="compliance-policy-settings-for-android-devices-in-microsoft-intune"></a>Параметры политики соответствия для устройств Android в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Параметры политики, описанные в этом разделе, применяются к устройствам с Android 4.0 и более поздней версии или Samsung KNOX 4.0 или более поздней версии.
 

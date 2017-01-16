@@ -1,5 +1,5 @@
 ---
-title: "Настройка инфраструктуры сертификатов для PFX | Microsoft Intune"
+title: "Настройка инфраструктуры сертификатов для PFX | Документы Майкрософт"
 description: "Создание и развертывание PFX-файлов профилей сертификатов."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 2c543a02-44a5-4964-8000-a45e3bf2cc69
 ms.reviewer: vinaybha
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7d1f37a2ba2e634fb75058d33eaaccf3aa5845b0
-ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 12773352970deeacf30b1336a4e560e08b400ee3
 
 
 
 ---
 # <a name="configure-certificate-infrastructure"></a>Настройка инфраструктуры сертификатов
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 В этом разделе описывается, что необходимо для создания и развертывания PFX-файлов профилей сертификатов.
 
 Для аутентификации на основе сертификатов в организации требуется центр сертификации предприятия.
@@ -31,7 +34,7 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 
 -  Соединитель сертификатов Intune, работающий на компьютере, который может взаимодействовать с центром сертификации.
 
-## <a name="onpremises-infrastructure-description"></a>Описание локальной инфраструктуры
+## <a name="on-premises-infrastructure-description"></a>Описание локальной инфраструктуры
 
 
 -    **Домен Active Directory**: все серверы, указанные в этом разделе (за исключением сервера прокси-службы веб-приложения), должны быть присоединены к домену Active Directory.
@@ -65,7 +68,7 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 - **Задача 1**. Настройка шаблонов сертификатов в центре сертификации
 - **Задача 2**. Включение, установка и настройка соединителя сертификатов Intune
 
-### <a name="task-1-configure-certificate-templates-on-the-certification-authority"></a>Задача 1. Настройка шаблонов сертификатов в центре сертификации
+### <a name="task-1---configure-certificate-templates-on-the-certification-authority"></a>Задача 1. Настройка шаблонов сертификатов в центре сертификации
 В этой задаче будет опубликован шаблон сертификата.
 
 ##### <a name="to-configure-the-certification-authority"></a>Настройка центра сертификации
@@ -104,7 +107,7 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 
 4.  На компьютере центра сертификации убедитесь, что компьютер, где размещается соединитель сертификатов Intune, имеет разрешение на регистрацию и может получить доступ к шаблону, используемому при создании профиля PFX. Задайте это разрешение на вкладке **Безопасность** свойств компьютера ЦС.
 
-### <a name="task-2-enable-install-and-configure-the-intune-certificate-connector"></a>Задача 2. Включение, установка и настройка соединителя сертификатов Intune
+### <a name="task-2---enable-install-and-configure-the-intune-certificate-connector"></a>Задача 2. Включение, установка и настройка соединителя сертификатов Intune
 В этой задаче вы:
 
 скачаете, установите и настроите соединитель сертификатов.
@@ -156,6 +159,6 @@ ms.openlocfilehash: 8fc1cc718fd0edae8b8ec4a0a8dc25487eafda2b
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO2-->
 
 
