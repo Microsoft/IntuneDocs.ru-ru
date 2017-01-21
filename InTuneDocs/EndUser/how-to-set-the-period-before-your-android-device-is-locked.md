@@ -1,30 +1,32 @@
 ---
-title: "Задание временного периода до блокировки устройства Android | Microsoft Intune"
+title: "Задание временного периода до блокировки устройства Android | Документы Майкрософт"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 98034875-cd3a-4367-a8d7-c5d4a438d496
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 6fd49127321b665c4c23eafc0dabab6787307881
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: 5df88351d84da28c93d010b8484601b7dbcdaf7e
 
 
 ---
 
-# Задание временного периода до блокировки устройства Android
+# <a name="how-to-set-the-period-before-your-android-device-is-locked"></a>Задание временного периода до блокировки устройства Android
 Чтобы повторно подключиться к рабочей учетной записи, необходимо задать время ожидания на ввод пароля на устройстве, выполнив следующие инструкции, соответствующие типу используемого вами устройства.
 
-## Собственные устройства (не Samsung KNOX)
+## <a name="native-non-samsung-knox-device"></a>Собственные устройства (не Samsung KNOX)
 
 1.  В меню **Параметры** на устройстве коснитесь **Безопасность** &gt; **Automatically Lock** (Автоматическая блокировка) (на некоторых устройствах этот пункт называется **Lock phone after** (Заблокировать телефон после)).
 
@@ -32,7 +34,7 @@ ms.openlocfilehash: 6fd49127321b665c4c23eafc0dabab6787307881
 
 2.  Укажите значение времени ожидания пароля.
 
-## Устройство Samsung KNOX
+## <a name="samsung-knox-device"></a>Устройство Samsung KNOX
 
 1.  В меню **Параметры** на устройстве коснитесь **Lock screen and security (Блокировка экрана и безопасность)** &gt; **Lock automatically** (Автоматическая блокировка).
 
@@ -44,6 +46,6 @@ ms.openlocfilehash: 6fd49127321b665c4c23eafc0dabab6787307881
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Dec16_HO3-->
 
 

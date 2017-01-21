@@ -1,5 +1,5 @@
 ---
-title: "Управление лицензиями Intune | Microsoft Intune"
+title: "Управление лицензиями Intune | Документы Майкрософт"
 description: "Назначение лицензий пользователям для подписки Intune"
 keywords: 
 author: nathbarn
@@ -14,8 +14,8 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: f0f9d60a27afa580aaba8a3c24fff6325ae53f08
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 68cdc77de1fa77b4fed6a1f37850b5427fb2b121
 
 
 ---

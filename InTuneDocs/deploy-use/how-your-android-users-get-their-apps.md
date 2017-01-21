@@ -1,5 +1,5 @@
 ---
-title: "Получение приложений пользователями Android | Microsoft Intune"
+title: "Получение приложений пользователями Android | Документация Майкрософт"
 description: "Методы предоставления приложений Android пользователям"
 keywords: 
 author: barlanmsft
@@ -14,14 +14,17 @@ ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1c131a017e08482f0c31f7f4579cc8d317a366a0
-ms.openlocfilehash: 15151552da5365958ff784b678e58ae5c88fed0e
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 370dd5d4a96253f0b7d208ef85659beeace18739
 
 
 ---
 
 
 # <a name="how-your-android-users-get-their-apps"></a>Получение приложений пользователями Android
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Приведенные здесь сведения помогут вам понять, как и где пользователи Android могут получать приложения, распространяемые через Microsoft Intune. Сведения могут зависеть от типа устройства (обычное устройство Android или стандартное устройство Samsung Knox).
 
 ## <a name="native-non-samsung-knox-standard-android-devices"></a>Собственные устройства Android (не стандартные устройства Samsung KNOX)
@@ -53,6 +56,6 @@ ms.openlocfilehash: 15151552da5365958ff784b678e58ae5c88fed0e
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Установка или изменение пароля | Microsoft Intune"
+title: "Установка или изменение пароля | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -11,10 +11,12 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c4801a78-580e-4e3d-beca-0b09b9b2437c
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 6a5bf59f3ef25df590625033fca4c114c3ace62f
-ms.openlocfilehash: 9a2f435220b9b2d4304f78e30cf152a4bb2af0c6
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 635cd7c9cd6edec82fec76400b410cabce2d8c4c
 
 
 ---
@@ -47,6 +49,6 @@ ms.openlocfilehash: 9a2f435220b9b2d4304f78e30cf152a4bb2af0c6
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

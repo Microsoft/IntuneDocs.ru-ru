@@ -1,37 +1,40 @@
 ---
-title: "Как найти серийный номер на устройстве? | Microsoft Intune"
+title: "Как найти серийный номер на устройстве iOS? | Документация Майкрософт"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 12/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e6c4fedc-47b6-44b1-8c59-2fb81417f978
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 3831b4897596c7b49caaee76cb7063bab4399216
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: 613bbe5da9a7f9dcbcb1af1a0b1c00b7aaa88efe
 
 
 ---
 
+# <a name="how-do-i-find-the-serial-number-on-my-device"></a>Как найти серийный номер на устройстве?
 
-# Как найти серийный номер на устройстве?
+Серийный номер устройства однозначно идентифицирует его и может помочь ИТ-администратору выполнить определенные задачи, такие как замена устройства на новое. Чтобы найти серийный номер, сделайте следующее:
 
-На устройствах под управлением iOS 8.0 и более поздней версии нажмите значок **Параметры**, выберите **Общие** > **О программе**, а затем прокрутите экран вниз до элемента **Серийный номер**.
+1. Перейдите на экран __Домашний__.
+2. Коснитесь элемента __Параметры__ и затем __Общие__.
+3. Выберите __О программе__ и выполните прокрутку до элемента __Серийный номер__.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
 
-
-
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Dec16_HO3-->
 
 

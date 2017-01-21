@@ -1,28 +1,30 @@
 ---
-title: "Использование управляемых приложений на устройстве Android | Microsoft Intune"
+title: "Использование управляемых приложений на устройстве Android | Документы Майкрософт"
 description: 
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/28/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: maxles
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: 9f98871b6054e0277cb2c041776fc05e8a6aefe3
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: ca37b4bf393d03e61bed93fa8e7d83efe3922412
 
 
 ---
 
 
-# Использование управляемых приложений на устройстве Android
+# <a name="use-managed-apps-on-your-android-device"></a>Использование управляемых приложений на устройстве Android
 
 Управляемые приложения — это приложения, которые ИТ-администратор может настроить для защиты данных организации, доступных в таком приложении. При доступе к данным организации в управляемом приложении на устройстве Android вы можете заметить, что работа приложения немного отличается от ожидаемой. Например, может отсутствовать возможность скопировать и вставить защищенные данные организации или сохранить данные в определенных расположениях.
 
@@ -32,14 +34,14 @@ ms.openlocfilehash: 9f98871b6054e0277cb2c041776fc05e8a6aefe3
 
 ![open-managed-apps-message](./media/managed-apps-message.png)
 
-## Как получить управляемые приложения?
+## <a name="how-do-i-get-managed-apps"></a>Как получить управляемые приложения?
 Управляемые приложения можно получить двумя способами.
 
 -   При регистрации устройства в Microsoft Intune либо вы устанавливаете приложение из приложения или с веб-сайта корпоративного портала, либо ИТ-администратор может установить его на вашем устройстве. Дополнительные сведения о регистрации см. в статье [Enroll your device in Intune](enroll-your-device-in-Intune-android.md) (Регистрация устройства в Intune).
 
 -   Вы устанавливаете приложение из Магазина Google Play и затем выполняете вход под корпоративной учетной записью, которая управляется Intune.
 
-## Чем ИТ-администратор может управлять в приложении?
+## <a name="what-can-my-it-admin-manage-in-an-app"></a>Чем ИТ-администратор может управлять в приложении?
 Ниже приведено несколько примеров параметров, которые затрагивают ваше взаимодействие с данными организации на устройстве и могут управляться ИТ-администратором в приложении.
 
 -   Доступ для определенных веб-сайтов
@@ -76,6 +78,6 @@ ms.openlocfilehash: 9f98871b6054e0277cb2c041776fc05e8a6aefe3
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

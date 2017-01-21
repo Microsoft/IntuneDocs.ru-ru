@@ -1,5 +1,5 @@
 ---
-title: "Создание политики соответствия устройств | Microsoft Intune"
+title: "Создание политики соответствия устройств | Документы Майкрософт"
 description: "Создание политики соответствия требованиям для защиты мобильных устройств и компьютеров, используемых для доступа к данным компании."
 keywords: 
 author: andredm7
@@ -14,13 +14,16 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: b21fcbf10659e072d8eb73703dfdd6695ac9a9b0
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 21875001129da8f5ca01869fa69960f18ae28c56
 
 
 ---
 
 # <a name="create-a-device-compliance-policy-in-microsoft-intune"></a>Создание политики соответствия устройств в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 В этом разделе приведены инструкции по созданию политики соответствия, которая должна соблюдаться устройством, чтобы оно считалось соответствующим.
 
 ##  <a name="step-1-add-a-new-policy"></a>Шаг 1. Добавление новой политики
@@ -28,7 +31,7 @@ ms.openlocfilehash: b21fcbf10659e072d8eb73703dfdd6695ac9a9b0
 
   ![Снимок экрана: страница политики соответствия в консоли администрирования Intune с пунктом "Добавить" в меню в верхней части страницы](./media/intune-sa-3a-add-compliance-policy.png)
 
-##  <a name="step-2-configure-settings"></a>Шаг 2. Настройка параметров
+##  <a name="step-2--configure-settings"></a>Шаг 2. Настройка параметров
 На странице **Создание политики** включите необходимые параметры:
   -   параметры безопасности системы, такие как пароль и шифрование;
   -   параметры работоспособности устройства, например, снята ли защита на устройстве и определяется ли устройство как работоспособное службой подтверждения работоспособности устройства Windows;

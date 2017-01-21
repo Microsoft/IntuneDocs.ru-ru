@@ -1,5 +1,5 @@
 ---
-title: "Архив сведений о новых возможностях | Microsoft Intune"
+title: "Архив сведений о новых возможностях | Документы Майкрософт"
 description: "Архивные объявления о новых возможностях для Microsoft Intune"
 keywords: 
 author: barlanmsft
@@ -14,8 +14,8 @@ ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b4dab832da4490c3df045d2c627b231028c92b25
-ms.openlocfilehash: 8e8c4f9708994275c36a2e9bd5ad4dff171a8756
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 53d53edf174b325788c10e0c553addf3e4078509
 
 
 ---
@@ -30,6 +30,6 @@ ms.openlocfilehash: 8e8c4f9708994275c36a2e9bd5ad4dff171a8756
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

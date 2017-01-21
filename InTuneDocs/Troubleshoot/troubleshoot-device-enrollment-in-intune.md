@@ -1,11 +1,11 @@
 ---
-title: "Устранение проблем при регистрации устройств | Microsoft Intune"
+title: "Устранение проблем при регистрации устройств | Документы Майкрософт"
 description: "Рекомендации по устранению неполадок с регистрацией устройств."
 keywords: 
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 11/20/2016
+ms.date: 12/30/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 998c24744776e0b04c9201ab44dfcdf66537d523
-ms.openlocfilehash: 9c5963f1413e1cd9f119186f47f46c7f7f16720d
+ms.sourcegitcommit: d12e2c0a38e406aa8b96cc03e97d327126503531
+ms.openlocfilehash: 5afc7a3bc91dae95581f42979cbe7d8d6d57ba8d
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: 9c5963f1413e1cd9f119186f47f46c7f7f16720d
 
 Прежде чем приступать к устранению неполадок, убедитесь, что в Intune должным образом настроена регистрация. О требованиях к настройке можно прочитать в следующих разделах.
 
--   [Подготовка к регистрации устройств в Microsoft Intune](/intune/deploy-use/prerequisites-for-enrollment.md)
+-   [Подготовка к регистрации устройств в Microsoft Intune](/intune/deploy-use/prerequisites-for-enrollment)
 -   [Настройка управления устройствами в iOS на Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
 -   [Настройка управления Windows 10 Mobile и Windows Phone с помощью Microsoft Intune](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
 -   [Настройка управления устройствами в Windows](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
@@ -58,7 +58,7 @@ ms.openlocfilehash: 9c5963f1413e1cd9f119186f47f46c7f7f16720d
 
 2.  В консоли администрирования Intune в разделе "Администрирование\Управление мобильными устройствами\Правила регистрации" убедитесь, что для параметра "Предел для регистрации устройств" задано значение 15.
 
-Пользователи мобильных устройств могут удалять устройства по следующему URL-адресу: [https://byodtestservice.azurewebsites.net/](https://byodtestservice.azurewebsites.net/).
+<!--- Mobile device users can delete devices at the following URL: [https://byodtestservice.azurewebsites.net/](https://byodtestservice.azurewebsites.net/). --->
 
 Администраторы могут удалять устройства на портале Azure Active Directory.
 
@@ -86,7 +86,7 @@ ms.openlocfilehash: 9c5963f1413e1cd9f119186f47f46c7f7f16720d
 >
 > Учетная запись пользователя, добавленная в группу диспетчеров регистрации устройств, не сможет завершить регистрацию при применении политики условного доступа для этого конкретного имени входа.
 
-### <a name="company-portal-emporarily-unavailable"></a>Корпоративный портал временно недоступен
+### <a name="company-portal-temporarily-unavailable"></a>Корпоративный портал временно недоступен
 **Проблема:** на устройстве появляется ошибка **Корпоративный портал временно недоступен**.
 
 **Решение:**
@@ -319,7 +319,7 @@ ms.openlocfilehash: 9c5963f1413e1cd9f119186f47f46c7f7f16720d
 ### <a name="other-ios-enrollment-errors"></a>Другие ошибки регистрации в iOS
 Список ошибок регистрации в iOS приведен в документации по устройствам для пользователей в статье [You see errors while trying to enroll your device in Intune](/intune/enduser/using-your-ios-or-mac-os-x-device-with-intune) (Ошибки при попытке регистрации устройства в Intune).
 
-## <a name="pc-issues"></a>Проблемы с компьютером
+## <a name="pc--issues"></a>Проблемы с компьютером
 
 ### <a name="the-machine-is-already-enrolled---error-hr-0x8007064c"></a>Компьютер уже зарегистрирован — ошибка hr 0x8007064c
 **Проблема:** регистрация завершается с ошибкой **компьютер уже зарегистрирован**. В журнале регистрации присутствует ошибка **hr 0x8007064c**.
@@ -373,6 +373,6 @@ ms.openlocfilehash: 9c5963f1413e1cd9f119186f47f46c7f7f16720d
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 
