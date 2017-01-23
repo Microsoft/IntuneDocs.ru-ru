@@ -1,5 +1,5 @@
 ---
-title: "Устранение неполадок при настройке клиента | Microsoft Intune"
+title: "Устранение неполадок при настройке клиента | Документы Майкрософт"
 description: "Устранение распространенных неполадок при установке клиента."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
 ms.reviewer: tscott
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 889a13bd50943b9cdf0f40d50b6f8ce263dde56d
-ms.openlocfilehash: e37b5da81150f89fce1ee3d57bd84de0ff7fb76f
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 2d5c7d4800e1140efb502c47151ea8cc87548acd
 
 
 ---
 
 # <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Устранение неполадок при настройке клиента в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Приведенные ниже сведения помогут устранить основные неполадки, которые возникают при настройке клиента. Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 ## <a name="client-installation-fails"></a>Сбой установки клиента
@@ -70,7 +73,7 @@ ms.openlocfilehash: e37b5da81150f89fce1ee3d57bd84de0ff7fb76f
 **Решение:** убедитесь, что политика обновления программного обеспечения разрешает установку критических обновлений, как описано в статье [Обновление программного обеспечения на компьютерах Windows с помощью Microsoft Intune](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune).
 
 
-## <a name="microsoft-intune-policyrelated-errors-in-policyplatformlog"></a>Ошибки в policyplatform.log, связанные с политиками Microsoft Intune
+## <a name="microsoft-intune-policy-related-errors-in-policyplatformlog"></a>Ошибки в policyplatform.log, связанные с политиками Microsoft Intune
 Для устройств Windows, не входящих в систему MDM, ошибки политик в файле policyplatform.log могут быть вызваны тем, что для параметров контроля учетных записей Windows (UAC) на устройстве заданы значения, отличные от стандартных. Некоторые отличные от используемых по умолчанию значения параметров UAC могут затрагивать установки клиента Microsoft Intune и выполнение политик.
 
 ### <a name="to-resolve-uac-issues"></a>Устранение проблем с UAC
@@ -127,6 +130,6 @@ ms.openlocfilehash: e37b5da81150f89fce1ee3d57bd84de0ff7fb76f
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Добавление приложений | Microsoft Intune"
+title: "Добавление приложений | Документы Майкрософт"
 description: "Прежде чем приступить к развертыванию приложений с помощью Intune, ознакомьтесь с некоторыми базовыми принципами, представленными в этом разделе."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,16 @@ ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: f896f51c21beaf7561168f3f622cfc7b0d0c8068
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: 27e6a4d59c0cc00ac9dd154605518d9c937e5fc6
 
 
 ---
 
 # <a name="add-apps-with-microsoft-intune"></a>Добавление приложений с помощью Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Прежде чем приступать к развертыванию приложений с помощью Microsoft Intune, ознакомьтесь с некоторыми базовыми принципами, представленными в этом разделе. Эти сведения помогут вам понять, какие приложения можно развертывать на той или иной платформе. А также помогут понять, какие предварительные требования должны выполняться для развертывания приложений.
 
 ## <a name="app-types-that-you-can-deploy"></a>Типы приложений, которые можно развертывать
@@ -93,6 +96,6 @@ ms.openlocfilehash: f896f51c21beaf7561168f3f622cfc7b0d0c8068
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

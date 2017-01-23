@@ -1,6 +1,6 @@
 ---
-title: Unenroll your device from Intune if you declined "Terms of Use" | Microsoft Intune
-description: "Сведения о том, как отменить регистрацию устройства Android в Intune, если вы отклонили условия использования и не можете войти в приложение корпоративного портала"
+title: Unenroll your device from Intune if you declined "Terms of Use" | Microsoft Docs
+description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4278f000-0258-4de5-93a1-195b48e5061e
+searchScope:
+- Company Portal
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 6303400645bf26ede733413fe2dabdb360e3bafb
+ms.sourcegitcommit: 1d91847166f0e2da22a322ac1a1483266b46d8ed
+ms.openlocfilehash: e8dbf10fcc649bd71ac33bd07d1d79f825a91f73
 
 
 ---
@@ -43,6 +45,6 @@ ms.openlocfilehash: 6303400645bf26ede733413fe2dabdb360e3bafb
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

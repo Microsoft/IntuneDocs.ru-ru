@@ -20,6 +20,9 @@ ms.openlocfilehash: 4133c64d283682f0be37cd6ac69164ef872a5026
 ---
 
 # <a name="evaluate-mobile-device-management-in-microsoft-intune"></a>Оценка управления мобильными устройствами в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 В этом руководстве по оценке содержатся сведения о работе управления мобильными устройствами в Intune. Вы выполните следующие задачи:
 - Регистрация устройства для управления Intune.
 - Создание групп для организации пользователей и устройств.
@@ -117,6 +120,6 @@ Open the Company Portal on the mobile device, choose **Apps**, and then install 
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Jan17_HO1-->
 
 

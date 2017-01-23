@@ -1,5 +1,5 @@
 ---
-title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune? | Microsoft Intune"
+title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune? | Документация Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -11,12 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d22f5aea-7be4-419b-b51b-a522ca037b69
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 8843fe7854db72cf3983dc9a6ab44c1517d92b60
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: d0e244659f8a78504ffa2a0b8a6579c829e3642b
 
 
 ---
@@ -60,6 +62,6 @@ ms.openlocfilehash: 8843fe7854db72cf3983dc9a6ab44c1517d92b60
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

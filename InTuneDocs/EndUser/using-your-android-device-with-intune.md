@@ -1,5 +1,5 @@
 ---
-title: "Использование устройства Android в Intune | Microsoft Intune"
+title: "Использование устройства Android в Intune | Документы Майкрософт"
 description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве Android, зарегистрированном в Intune"
 keywords: 
 author: barlanmsft
@@ -14,8 +14,8 @@ ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
+ms.sourcegitcommit: 8611566f5f5d33b7f0937fabd15892353953df77
+ms.openlocfilehash: 1c4e77d3089df2ff184a414ba668b01b2d040854
 
 
 ---
@@ -62,8 +62,8 @@ ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
 - [Отправка журналов диагностических данных ИТ-администратору по электронной почте](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
 - [Отправка журналов диагностических данных ИТ-администратору по USB-кабелю](send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)
 - [Отправка ошибок регистрации ИТ-администратору](send-enrollment-errors-to-your-it-administrator-android.md)
-- [Устройство не содержит необходимую минимальную версию операционной системы](device-doesnt-have-the-required-minimum-operating-system-version-android.md)
-- [Устройство не соответствует максимальной версии операционной системы](device-doesnt-comply-with-maximum-operating-system-version-android.md)
+- [Устройство не содержит необходимую минимальную версию операционной системы](you-need-to-update-your-android-device.md)
+- [Устройство не соответствует максимальной версии операционной системы](your-android-version-isnt-yet-supported.md)
 - [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
 - [Устройство не имеет необходимого сертификата](your-device-is-missing-a-required-certificate-android.md)
 - [Вам предложено отключить неизвестные источники](you-are-asked-to-turn-off-unknown-sources-android.md)
@@ -75,6 +75,6 @@ ms.openlocfilehash: 7751d5661f3fb9235820c716fdbded3dab385ec4
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

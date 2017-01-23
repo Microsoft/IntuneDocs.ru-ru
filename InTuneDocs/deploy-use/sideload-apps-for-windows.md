@@ -1,5 +1,5 @@
 ---
-title: "Загрузка неопубликованных приложений для Windows и Windows Phone | Microsoft Intune"
+title: "Загрузка неопубликованных приложений для Windows и Windows Phone | Документы Майкрософт"
 description: "Узнайте, как подписывать бизнес-приложения, чтобы использовать Intune для их развертывания."
 keywords: 
 author: robstackmsft
@@ -11,12 +11,14 @@ ms.service:
 ms.technology: 
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 938e3a1914f379d115bf24ebd7d990f6e1d319a9
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 2e8220f850e3b38a24aa4c48bcc3a59088251c24
 
 
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Подписывание бизнес-приложений для развертывания на устройствах Windows с помощью Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Администратор Intune может развертывать бизнес-приложения (LOB), включая приложение корпоративного портала, на устройствах Windows и Windows 10 Mobile. Чтобы развертывать приложения APPX или XAP на устройствах Windows 10 или Windows 10 Mobile либо любое бизнес-приложение на устройствах Windows 8.1 или Windows Phone 8.1, необходимо получить **сертификат подписи мобильного кода Symantec Enterprise**. Только сертификат Symantec является доверенным для этих приложений соответствующих устройств Windows. Для приложений Windows 10 и "универсальных" приложений можно использовать собственный центр сертификации. Этот сертификат необходим для выполнения следующих задач:
 

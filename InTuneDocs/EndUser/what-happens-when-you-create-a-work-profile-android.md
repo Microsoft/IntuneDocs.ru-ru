@@ -1,5 +1,5 @@
 ---
-title: "Что происходит при создании профиля работы | Microsoft Intune"
+title: "Что происходит при создании рабочего профиля | Документы Майкрософт"
 description: "Описывается шифрование устройства Android."
 keywords: 
 author: barlanmsft
@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b217da11-2cd7-49ab-a91f-2f6d7784c6b6
+searchScope:
+- Company Portal
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
-ms.openlocfilehash: 77d420bd1a635f8cd64b32c584c2be62f52f1706
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: 215e630141aa2739a2fe73926476db965c42922a
 
 
 ---
@@ -48,6 +50,6 @@ ms.openlocfilehash: 77d420bd1a635f8cd64b32c584c2be62f52f1706
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

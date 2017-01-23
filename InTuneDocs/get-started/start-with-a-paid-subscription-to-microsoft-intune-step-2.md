@@ -1,5 +1,5 @@
 ---
-title: "Настройка имени личного домена | Microsoft Intune"
+title: "Настройка имени личного домена | Документы Майкрософт"
 description: "Добавление пользовательского домена для подписки Intune"
 keywords: 
 author: nathbarn
@@ -14,8 +14,8 @@ ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 26b019b2b4c079daa89d15c783be0abf2b61dfee
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: b40ce33560ea49fdc966889a1bf2cac2ae537578
 
 
 ---

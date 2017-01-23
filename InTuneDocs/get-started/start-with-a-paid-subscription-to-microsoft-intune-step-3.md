@@ -1,5 +1,5 @@
 ---
-title: "Добавление пользователей и предоставление разрешений | Microsoft Intune"
+title: "Добавление пользователей и предоставление разрешений | Документы Майкрософт"
 description: "Синхронизация локальных пользователей с Azure AD и предоставление разрешений администратора для подписки Intune."
 keywords: 
 author: nathbarn
@@ -14,8 +14,8 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: angrobe
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 18d31a306549bae6dd44ab78d1dd08649ee71158
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 247bc72fce1146d83729cadb9905d8ceed134c14
 
 
 ---

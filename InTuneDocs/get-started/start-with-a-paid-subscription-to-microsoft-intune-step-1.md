@@ -1,5 +1,5 @@
 ---
-title: "Регистрация или вход в Intune | Microsoft Intune"
+title: "Регистрация или вход в Intune | Документы Майкрософт"
 description: "Описывается, как зарегистрировать подписку Intune или выполнить вход, чтобы начать использовать подписку"
 keywords: 
 author: nathbarn
@@ -14,8 +14,8 @@ ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: bf4a57146a77ce83a86112e08f5e839cf5f9eaf6
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 047a2fb0ad286ece183116a70466fc259b9a0dea
 
 
 ---

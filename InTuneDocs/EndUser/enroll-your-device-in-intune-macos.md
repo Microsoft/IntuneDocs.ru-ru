@@ -1,5 +1,5 @@
 ---
-title: "Регистрация устройства Mac OS в Intune | Microsoft Intune"
+title: "Регистрация устройства Mac OS в Intune | Документы Майкрософт"
 description: "Сведения о регистрации устройства Mac OS в Intune."
 keywords: Mac OS X, Mac OS, OS X
 author: barlanmsft
@@ -11,12 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 58eb0e7a-1321-4c66-a281-88fb01e72c1c
+searchScope:
+- Company Portal
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 650e9b0700971e626e4062c312111ef60e74badc
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 70b11804b6b96e76b43cc450ac4c433fb31be6f8
 
 
 ---

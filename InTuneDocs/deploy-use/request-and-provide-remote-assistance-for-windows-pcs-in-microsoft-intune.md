@@ -1,11 +1,11 @@
 ---
-title: "Запрос и предоставление удаленной помощи для компьютеров под управлением Windows | Microsoft Intune"
-description: "Описание действий конечных пользователей и ИТ-администраторов по запросу и предоставлению удаленной помощи для компьютеров под управлением Windows и по удаленному запуску компьютеров."
+title: "Запрос и предоставление удаленной помощи для компьютеров под управлением Windows | Документы Майкрософт"
+description: "Описание действий конечных пользователей и ИТ-администраторов по запросу и предоставлению удаленной помощи для настольных систем с Windows, управляемых как компьютеры, и по удаленному запуску компьютеров."
 keywords: 
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 08/04/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,17 @@ ms.assetid: c2654491-5144-408a-a45a-644eb91ac1bb
 ms.reviewer: owenyen
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: ab954204fffa6ad67a4a0d0f5e2e521c795eae31
+ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
+ms.openlocfilehash: 628875c2f874c824761befd9886d7f7987c045df
 
 
 ---
 
 # <a name="request-and-provide-remote-assistance-for-windows-pcs"></a>Запрос и предоставление удаленной помощи для компьютеров под управлением Windows
 
-Благодаря Microsoft Intune пользователи компьютеров с программным клиентом Intune могут получить от вас удаленную поддержку с помощью программы [TeamViewer](https://www.teamviewer.com) (приобретается отдельно). Когда пользователь запрашивает поддержку в центре Microsoft Intune, вы получаете оповещение и можете принять запрос и оказать поддержку. Эта функция заменяет существующие возможности удаленного помощника Windows в Intune.
+Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune.
+
+Благодаря Intune пользователи компьютеров с программным клиентом Intune могут получить от вас удаленную поддержку с помощью программы [TeamViewer](https://www.teamviewer.com) (приобретается отдельно). Когда пользователь запрашивает поддержку в центре Microsoft Intune, вы получаете оповещение и можете принять запрос и оказать поддержку. Эта функция заменяет существующие возможности удаленного помощника Windows в Intune.
 
 
 ## <a name="before-you-start"></a>Перед началом работы
@@ -30,7 +32,7 @@ ms.openlocfilehash: ab954204fffa6ad67a4a0d0f5e2e521c795eae31
 Перед тем как вы сможете получать запросы удаленной поддержки и отвечать на них, убедитесь, что все перечисленное далее сделано и настроено.
 
 - Необходимо [зарегистрировать учетную запись TeamViewer](https://login.teamviewer.com/LogOn#register) для входа на веб-сайт TeamViewer.
-- Компьютеры Windows, которые вы хотите администрировать, должны находиться [под управлением клиента компьютера Windows](manage-windows-pcs-with-microsoft-intune.md).
+- Компьютеры Windows, которые вы хотите администрировать, должны находиться [под управлением программного клиента Windows](manage-windows-pcs-with-microsoft-intune.md).
 - Можно администрировать все операционные системы ПК Windows, поддерживаемые Intune.
 
 ## <a name="configure-the-teamviewer-connector"></a>Настройка соединителя TeamViewer
@@ -84,6 +86,6 @@ ms.openlocfilehash: ab954204fffa6ad67a4a0d0f5e2e521c795eae31
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

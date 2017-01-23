@@ -1,11 +1,11 @@
 ---
 title: "Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS | Документация Майкрософт"
-description: 
+description: "Пакет SDK для приложений Microsoft Intune в iOS позволяет встроить в вашем приложении для iOS политики защиты приложений Intune в виде системы управления мобильными приложениями (MAM)."
 keywords: 
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 12/07/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b55147e2be338bd46661695134fd0f0de105bb72
-ms.openlocfilehash: b8a723fce088c1d61bddb5f2479da59a4b5c3771
+ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
+ms.openlocfilehash: cb80d531a28eaccbd26bc53df3e13ad233522dcf
 
 
 ---
@@ -656,6 +656,6 @@ MAMTelemetryUsePPE | Логическое значение | Указывает,
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

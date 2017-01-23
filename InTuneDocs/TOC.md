@@ -10,18 +10,17 @@
 ## [Глоссарий](understand-explore/intune-glossary.md)
 
 # [Приступая к работе](get-started/get-started.md)
-## [Краткое руководство по началу работы](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
+## [Настройка Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
 ### [Предварительные требования](get-started/what-to-know-before-you-start-microsoft-intune.md)
-#### [Поддерживаемые мобильные устройства и компьютеры](get-started/supported-mobile-devices-and-computers.md)
-#### [Использование пропускной способности сети](get-started/network-bandwidth-use.md)
+#### [Использование сети](get-started/network-bandwidth-use.md)
 ### [Вход в Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
-### [Настройка доменного имени](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
+### [Настройка доменов](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
 ### [Добавление пользователей](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md)
-### [Управление лицензиями Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md)
+### [Управление лицензиями](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md)
 ### [Организация пользователей и устройств](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5.md)
 ### [Развертывание политик и приложений](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-6.md)
 ### [Настройка корпоративного портала](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-7.md)
-### [Регистрация мобильных устройств](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
+### [Регистрация устройств](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [Задачи, выполняемые после настройки](get-started/post-configuration-tasks.md)
 ## [Переход на Intune](get-started/migrate-to-intune.md)
 ## Дальнейшие действия
@@ -30,14 +29,22 @@
 ### [Публикация мобильных приложений для пользователей](get-started/publish-mobile-apps-to-users.md)
 ### [Упрощение конфигурации электронной почты на мобильных устройствах](get-started/simplify-email-configuration-on-mobile-devices.md)
 ### [Защита компьютеров с Windows от вредоносных программ](get-started/protect-pcs-against-malware-threats.md)
-## [Этапы развертывания Intune](get-started/rollout-phases-for-microsoft-intune-deployment.md)
-### [Определение области проекта](get-started/project-scope.md)
-### [Подтверждение концепции](get-started/proof-of-concept.md)
-### [Пилотное развертывание](get-started/pilot.md)
-### [Корпоративное развертывание](get-started/enterprise-rollout.md)
-### [Использование и обслуживание](get-started/operations-and-maintenance.md)
 
-# [Что нового](whats-new/whats-new-in-microsoft-intune.md)
+# [Планирование и проектирование](plan-design/introduction.md)
+## [Раздел 1. Определение целей развертывания, задач и возможных трудностей](plan-design/section-1-determine-deployment-goals-objectives-challenges.md)
+## [Раздел 2. Определение сценариев вариантов использования](plan-design/section-2-identify-use-case-scenarios.md)
+## [Раздел 3. Определение требований для сценариев вариантов использования](plan-design/section-3-determine-use-case-requirements.md)
+## [Раздел 4. Разработка плана развертывания](plan-design/section-4-develop-a-rollout-plan.md)
+## [Раздел 5. Разработка коммуникационного плана](plan-design/section-5-develop-a-rollout-communication-plan.md)
+## [Раздел 6. Разработка плана поддержки](plan-design/section-6-develop-a-support-plan.md)
+## [Раздел 7. Создание структуры Intune](plan-design/section-7-create-an-intune-design.md)
+## [Раздел 8. Внедрение Intune](plan-design/section-8-onboarding-process.md)
+## [Раздел 9. Тестирование и проверка](plan-design/section-9-test-and-validation.md)
+## [Дополнительные ресурсы](plan-design/additional-resources.md)
+
+# Что нового
+## [Что нового](whats-new/whats-new-in-microsoft-intune.md)
+## [Новые возможности — архив](whats-new/whats-new-archive.md)
 
 # Развертывание и использование
 ## [Общие сведения о жизненных циклах устройств и приложений](deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
@@ -209,6 +216,6 @@
 ## [Устранение неполадок интеграции Lookout](troubleshoot/troubleshooting-lookout-integration.md)
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

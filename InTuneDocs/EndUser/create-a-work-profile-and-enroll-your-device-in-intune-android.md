@@ -1,5 +1,5 @@
 ---
-title: "Создание профиля работы и регистрация устройства в Intune | Microsoft Intune"
+title: "Создание профиля работы и регистрация устройства в Intune | Документы Майкрософт"
 description: "Описывается шифрование устройства Android."
 keywords: 
 author: barlanmsft
@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 33ffff16-0280-43bf-87b3-74ddf4439bfa
+searchScope:
+- Company Portal
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2a3ad9562d271ee67b49db28b0fc62caec9f3050
-ms.openlocfilehash: f3aa8f3169eebb19301d4bdc5624817f54a29aa0
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: d4e3d60115bf5e2f41a40cd3746c9678cfb915bd
 
 
 ---
@@ -87,6 +89,6 @@ ms.openlocfilehash: f3aa8f3169eebb19301d4bdc5624817f54a29aa0
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

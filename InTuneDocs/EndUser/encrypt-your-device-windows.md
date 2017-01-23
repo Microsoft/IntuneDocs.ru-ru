@@ -1,21 +1,23 @@
 ---
-title: "Шифрование устройства Windows | Microsoft Intune"
+title: "Шифрование устройства Windows | Документы Майкрософт"
 description: "Описывается шифрование устройства с Windows."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 12/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8d022ea7-d9b6-43c4-adcd-4f6421606a7f
+searchScope:
+- Company Portal
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9ddbcde20fac83289c4622f69538ff00fa0cb65b
-ms.openlocfilehash: 2a625d6dcf5fa840906d352c5f0be098fdbdc98c
+ms.sourcegitcommit: 01d2fcd0202f1ef347693c973edb82acfae6c818
+ms.openlocfilehash: ce4e912259321d72e6bb4278e5b3e8da5cf39332
 
 
 ---
@@ -35,6 +37,6 @@ ms.openlocfilehash: 2a625d6dcf5fa840906d352c5f0be098fdbdc98c
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

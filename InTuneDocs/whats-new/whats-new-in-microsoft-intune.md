@@ -1,5 +1,5 @@
 ---
-title: "Новые возможности | Microsoft Intune"
+title: "Новые возможности | Документы Майкрософт"
 description: "Новые возможности в выпусках Microsoft Intune этого месяца и за прошлые периоды"
 keywords: 
 author: barlanmsft
@@ -14,8 +14,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9fd309a10d9eb020795c5ce46df124b13dc1a006
-ms.openlocfilehash: d117c929fbde4dd0a39503b8da695aa9c9ea91ad
+ms.sourcegitcommit: 1d9ebc7fd727b80091625ed5256ae634323a9257
+ms.openlocfilehash: f7e71d20923e113b533668a7b5aef688de196182
 
 
 ---
@@ -33,15 +33,12 @@ ms.openlocfilehash: d117c929fbde4dd0a39503b8da695aa9c9ea91ad
 Вопросы о сроках переноса вашего клиента отравляйте нашей команде по миграции по адресу [intunegrps@microsoft.com](mailto:intunegrps@microsoft.com).
 
 ### <a name="telecom-expense-management-integration-in-public-preview-of-azure-portal--747605--"></a>Интеграция служб управления телекоммуникационными расходами в общедоступной предварительной версии портала Azure<!--747605-->
-В настоящее время мы начинаем предварительную интеграцию со сторонними службами управления телекоммуникационными расходами (TEM) на портале Azure. Используйте службу Intune, чтобы установить ограничения на использование национальных данных и данных, передаваемых в роуминге. Мы начинаем эту интеграцию со службой [Saaswedo](http://www.saaswedo.com).
+В настоящее время мы начинаем предварительную интеграцию со сторонними службами управления телекоммуникационными расходами (TEM) на портале Azure. Используйте службу Intune, чтобы установить ограничения на использование национальных данных и данных, передаваемых в роуминге. Мы начинаем эту интеграцию со службой [Saaswedo](http://www.saaswedo.com). Чтобы включить эту функцию в клиенте пробной версии, [обратитесь в службу поддержки корпорации Майкрософт](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune).
 
 ## <a name="new-capabilities"></a>Новые возможности
 
 ### <a name="multi-factor-authentication-across-all-platforms---747590--"></a>Многофакторная идентификация на всех платформах <!--747590-->
 Теперь Многофакторную идентификацию (MFA) можно применить для определенной группы пользователей во время регистрации устройств iOS, Android, Windows 8.1+, Windows Phone 8.1+ на портале управления Azure. Это можно сделать, настроив MFA в приложении для регистрации Microsoft Intune в Azure Active Directory.
-
-<!--VSO 679339, awaiting chrisgre for go-live--><!--### Conditional access for MAM with SharePoint Online
-Доступ приложений, не поддерживающих политики управления мобильными приложениями Intune, к SharePoint Online можно заблокировать.  Приступить к управлению мобильными приложениями можно на портале Azure. Откройте колонку __Параметры__ и перейдите в раздел __Условный доступ__, в котором содержится параметр для SharePoint Online. Эта возможность будет предоставляться отдельно от остального выпуска службы. Узнайте подробнее об этой новой функции [здесь](https://docs.microsoft.com/intune/deploy-use/mam-ca-for-sharepoint-online).-->
 
 ### <a name="ability-to-restrict-mobile-device-enrollment--747596--"></a>Возможность ограничения на регистрацию мобильных устройств<!--747596-->
 В Intune добавлены новые ограничения на регистрацию, определяющие, какие платформы мобильных устройств разрешено регистрировать. Intune разделяет платформы мобильных устройств на категории: iOS, macOS, Android, Windows и Windows Mobile.
@@ -56,7 +53,7 @@ ms.openlocfilehash: d117c929fbde4dd0a39503b8da695aa9c9ea91ad
 ### <a name="multi-factor-authentication-on-enrollment-moving-to-the-azure-portal---vso-750545--"></a>Многофакторная идентификация при выполнении регистрации на портале Azure <!--VSO 750545-->
 Ранее, чтобы настроить MFA для процессов регистрации в Intune, администраторы использовали консоль Intune или Configuration Manager (до выпуска за октябрь 2016 г.). В этом обновлении параметры MFA можно настроить на [портале Microsoft Azure](https://manage.windowsazure.com). Для этого на портал нужно войти, используя учетные данные Intune. Дополнительные сведения см. [здесь](https://aka.ms/mfa_ad).
 
-### <a name="company-portal-app-for-android-now-available-in-china---vso-658093--"></a>Теперь приложение корпоративного портала для Android доступно в Китае <!--VSO 658093-->
+### <a name="company-portal-app-for-android-now-available-in-china--vso-658093--"></a>Теперь приложение корпоративного портала для Android доступно в Китае <!--VSO 658093-->
 Мы публикуем приложение корпоративного портала для Android, которое можно скачать в Китае. Так как в Китае отсутствует магазин Google Play, это приложение для устройств Android можно скачать в китайских магазинах приложений. Приложение корпоративного портала для Android можно будет скачать в следующих магазинах:
 * [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)
 * [Huawei](https://go.microsoft.com/fwlink/?linkid=836948)
@@ -88,10 +85,10 @@ Mozilla удаляет поддержку Silverlight в версии 52 [бра
 ### <a name="see-also"></a>См. также
 * [Блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882)
 * [Стратегии развития облачной платформы](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&dropValue=Intune)
-* [Предыдущие выпуски Intune](whats-new-archive.md)
+* [Новые возможности — архив](whats-new-archive.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO4-->
 
 

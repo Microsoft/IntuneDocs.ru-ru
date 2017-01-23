@@ -1,5 +1,5 @@
 ---
-title: "Вам предложено отключить режим отладки по USB | Microsoft Intune"
+title: "Вам предложено отключить режим отладки по USB | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -13,8 +13,8 @@ ms.technology:
 ms.assetid: f250f455-898d-46fe-93ac-2b3aec6a0b71
 ROBOTS: NOINDEX,NOFOLLOW
 translationtype: Human Translation
-ms.sourcegitcommit: 016449720f6e77b8862fcaa232d252eefa8b20b3
-ms.openlocfilehash: 8b9efea8bb43b8a7d1754c00a358595af3f0e42c
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 5a2555deeb5829cf951ed56f856e43d69f8e8991
 
 
 ---
@@ -33,6 +33,6 @@ ms.openlocfilehash: 8b9efea8bb43b8a7d1754c00a358595af3f0e42c
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

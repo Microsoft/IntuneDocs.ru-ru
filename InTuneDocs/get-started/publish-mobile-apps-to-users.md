@@ -1,12 +1,12 @@
 ---
-title: "Публикация мобильных приложений для пользователей | Microsoft Intune"
+title: "Публикация мобильных приложений для пользователей | Документы Майкрософт"
 description: 
 keywords: 
 author: jeffgilb
 ms.author: jeffgilb
 manager: angrobe
 ms.date: 11/22/2016
-ms.topic: article
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -14,13 +14,16 @@ ms.assetid: b1e84ef8-a260-4e3d-aaf1-8b3facfecafa
 ms.reviewer: pchacon
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 29b6e5a3d319c741482fcc2b600842e2e42b96e2
-ms.openlocfilehash: 21e79e5dc5fa47c3612182bbc7040c488f94849b
+ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
+ms.openlocfilehash: fc2fb3c2c59b4fc2de048d8a27a6eadec592fba3
 
 
 ---
 
 # <a name="quick-start-guide-publish-mobile-apps-to-your-users"></a>Краткое руководство по началу работы. Публикация мобильных приложений для пользователей
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune может повысить продуктивность пользователей, быстро и легко предоставляя им доступ к необходимым мобильным и классическим приложениям с помощью устройств на их выбор. Удобный доступ к приложениям уменьшает время и усилия пользователей, необходимые для поиска и установки правильных приложений, что снижает количество звонков в службу поддержки в случаях, когда пользователям не удается найти необходимые приложения.   
 
 ## <a name="is-this-quick-start-guide-right-for-me"></a>Подходит ли для меня это краткое руководство по началу работы?
@@ -34,7 +37,7 @@ Microsoft Intune может повысить продуктивность пол
 3.  [С помощью Intune разверните приложения](/intune/deploy-use/deploy-apps) на зарегистрированных устройствах.
 
 ### <a name="additional-information"></a>Дополнительная информация:
-Если целью публикации мобильных приложений Office является использование возможностей Intune MAM для управления защитой от потери данных этих приложений, то каждому пользователю, которому назначены политики MAM, необходимо будет [ назначить пользовательскую лицензию для Office 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+Если целью публикации мобильных приложений Office является использование возможностей Intune MAM для управления защитой от потери данных этих приложений, то каждому пользователю, которому назначены политики MAM, необходимо будет [ назначить пользовательскую лицензию для Office 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 
 ## <a name="what-should-i-do-next"></a>Дальнейшие действия
 - [Мониторинг развертываний приложений в Microsoft Intune](/intune/deploy-use/monitor-apps-in-microsoft-intune)
@@ -42,6 +45,6 @@ Microsoft Intune может повысить продуктивность пол
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Сброс секретного кода устройства с веб-сайта корпоративного портала | Microsoft Intune"
+title: "Сброс секретного кода устройства с веб-сайта корпоративного портала | Документы Майкрософт"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2aea845bc00c153f070e04abb67582a5d5a726ca
-ms.openlocfilehash: 47b36616f7a8ee23d4d47b41a1db2c41c185c6f5
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: 975759db98854c8276999592d6ecdba195438681
 
 
 ---
 
 
-# Сброс секретного кода устройства с веб-сайта корпоративного портала
+# <a name="reset-your-device-passcode-from-the-company-portal-website"></a>Сброс секретного кода устройства с веб-сайта корпоративного портала
 
 В случае утери ПИН-кода или пароля для устройства, зарегистрированного в Intune, можно воспользоваться [веб-сайтом корпоративного портала](http://portal.manage.microsoft.com), чтобы сбросить его. Веб-сайт корпоративного портала можно использовать для управления компьютерами и устройствами, зарегистрированными в Intune. На этом веб-сайте доступно большинство тех задач, которые можно выполнить с помощью приложения корпоративного портала.
 
@@ -63,6 +63,6 @@ ms.openlocfilehash: 47b36616f7a8ee23d4d47b41a1db2c41c185c6f5
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Dec16_HO3-->
 
 

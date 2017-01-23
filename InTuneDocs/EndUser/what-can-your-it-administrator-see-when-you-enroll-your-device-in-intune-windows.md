@@ -1,5 +1,5 @@
 ---
-title: "Что может видеть ИТ-администратор при регистрации устройства в Intune? | Microsoft Intune"
+title: "Что может видеть ИТ-администратор при регистрации устройства в Intune? | Документация Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -11,12 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 12655728-a1af-4d89-97bc-925fe36c0dc4
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 1bb9969d4ac8a7a03c599866857b7236408fdcef
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: c3c4fc47e953a562def6e1334502760fc08390ac
 
 
 ---

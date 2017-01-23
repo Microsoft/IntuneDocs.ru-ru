@@ -1,5 +1,5 @@
 ---
-title: "Использование удаленной очистки для защиты данных | Microsoft Intune"
+title: "Использование удаленной очистки для защиты данных | Документы Майкрософт"
 description: "Intune предоставляет возможности выборочной и полной очистки для удаления конфиденциальных корпоративных данных и закрытия доступа к различным корпоративным ресурсам."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: 8519e411-3d48-44eb-9b41-3e4fd6a93112
 ms.reviewer: lancecra
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
-ms.openlocfilehash: cbfdb0e5db6862fcf046f42b85b8c9aabbba8721
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 8131d130e843db37e99b05ab17cd1b8ba23c7c57
 
 
 ---
 
 # <a name="help-protect-your-data-with-full-or-selective-wipe-using-microsoft-intune"></a>Защита данных посредством полной или выборочной очистки с помощью Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Можно удалять приложения и данные, поступающие от устройств под управлением Intune, которые вам больше не нужны, используются с другой целью или не используются вообще. Для этого Intune предлагает возможности выборочной и полной очистки. Кроме того, пользователи могут запускать команду удаленной очистки данных на устройстве с приложения корпоративного портала Intune для личных устройств, зарегистрированных в Intune.
 
   > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: "Получение сведений об устройствах с помощью инвентаризации | Microsoft Intune"
+title: "Получение сведений об устройствах с помощью инвентаризации | Документы Майкрософт"
 description: "Сведения об использовании Intune для просмотра информации об оборудовании управляемых устройств."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dbf3ac5c7ab326fd82acb979ea7a4933ac68ff1c
-ms.openlocfilehash: 1bfb47cccc6438bae54a57271e585bdc9f9f6611
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 3ae5809f8506e2255d9443d3587f2564bc863066
 
 
 ---
 
 # <a name="understand-your-devices-with-inventory-in-microsoft-intune"></a>Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Microsoft Intune позволяет просматривать данные инвентаризацию зарегистрированных устройств и компьютеров под управлением Windows, где запущено клиентское программное обеспечение Intune.
 Обычно Intune собирает данные инвентаризации с управляемых устройств раз в 7 дней. Из-за этого внесенные на устройствах изменения, например смена имени или свободное дисковое пространство, могут отображаться в отчетах с задержкой.
 
@@ -116,6 +119,6 @@ Microsoft Intune позволяет просматривать данные ин
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

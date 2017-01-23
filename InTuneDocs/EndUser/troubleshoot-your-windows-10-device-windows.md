@@ -1,26 +1,29 @@
 ---
-title: "Устранение проблем при регистрации устройств c Windows 10 | Microsoft Intune"
+title: "Устранение проблем при регистрации устройств c Windows 10 | Документы Майкрософт"
 description: 
 keywords: 
-author: Staciebarker
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 8/18/2016
+ms.date: 10/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4ab630b6-47ff-443b-a2a5-be23388bcea7
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d3a2daebdb781ce99aa103e7717ffa1b0297cb3a
-ms.openlocfilehash: ff70fb247133234f1a90113326c5641b4f73b9df
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: b81465ae9ae22cea347a3e052b70ac3b2be465c5
 
 
 ---
 
-# Устранение проблем при регистрации устройств c Windows 10
+# <a name="troubleshoot-your-windows-10-device-enrollment"></a>Устранение проблем при регистрации устройств c Windows 10
 Если вы выполнили инструкции из статьи [Регистрация устройства с ОС Windows 10 Mobile или Windows 10 Desktop в Intune](enroll-your-w10-phone-or-w10-pc-windows.md), но по-прежнему не можете получить доступ к своей рабочей или учебной электронной почте и файлам, попробуйте выполнить следующие действия по устранению неполадок.
 
 1.  Посмотрите на следующие два снимка экрана и выберите тот, который похож на экран вашего устройства. Выполните действия, показанные на выбранном экране.
@@ -33,7 +36,7 @@ ms.openlocfilehash: ff70fb247133234f1a90113326c5641b4f73b9df
 
     ![settings-accounts-your-account](./media/W10-enroll-2-accounts-your-account.png)
 
-## Устранение неполадок при появлении элемента "Доступ к учетной записи места работы или учебного заведения"
+## <a name="troubleshooting-steps-to-follow-if-you-see-access-work-or-school"></a>Устранение неполадок при появлении элемента "Доступ к учетной записи места работы или учебного заведения"
 
 1.  Если вы выполнили описанные выше действия, но по-прежнему не можете получить доступ к рабочей или учебной электронной почте и файлам, вернитесь в раздел **Доступ к учетной записи места работы или учебного заведения**.
 
@@ -45,7 +48,7 @@ ms.openlocfilehash: ff70fb247133234f1a90113326c5641b4f73b9df
 
     - Если сведения о подключении, описанные выше, не отображаются или отображаются не все команды, выберите **Подключить** и войдите со своими рабочими или учебными учетными данными. После этого подключение должно быть установлено.
 
-## Устранение неполадок при появлении элемента "Ваша учетная запись"
+## <a name="troubleshooting-steps-to-follow-if-you-see-your-account"></a>Устранение неполадок при появлении элемента "Ваша учетная запись"
 
 Если вы выполнили описанные выше действия, но по-прежнему не можете получить доступ к рабочей или учебной электронной почте, файлам и другим данным, вернитесь в раздел **Учетные записи** и выберите **Рабочий доступ**.
 
@@ -57,6 +60,6 @@ ms.openlocfilehash: ff70fb247133234f1a90113326c5641b4f73b9df
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

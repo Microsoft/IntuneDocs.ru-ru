@@ -1,11 +1,11 @@
 ---
-title: "Настройка политик MAM в консоли Intune | Microsoft Intune"
+title: "Настройка политик MAM в консоли Intune | Документы Майкрософт"
 description: "Политики управления мобильными приложениями в Microsoft Intune позволяют изменять функциональность развернутых приложений, чтобы они соответствовали требованиям компании в отношении безопасности."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/06/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,16 @@ ms.assetid: b4fb33a8-a2fa-4353-bd89-5bda48b68e83
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a4f7a503417938eabb4334757dcf12a63f082fd3
-ms.openlocfilehash: 90b5a9f78a93cde7466937d0ce9dac3d83f3ff64
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: f7504657f5fb2d73242f25f2f059c8c4e7ab1547
 
 
 ---
 
 # <a name="configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console"></a>Configure and deploy mobile application management policies in the Microsoft Intune console
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Политики управления мобильными приложениями (MAM) в Microsoft Intune позволяют изменять функциональность развернутых приложений, чтобы они соответствовали требованиям компании в отношении безопасности. Например, можно запретить функцию вырезания, копирования и вставки в управляемом приложении либо настроить приложение на открытие всех веб-ссылок в управляемом браузере.
 
 Политики управления мобильными приложениями поддерживают:
@@ -71,7 +74,7 @@ ms.openlocfilehash: 90b5a9f78a93cde7466937d0ce9dac3d83f3ff64
 
 -   **Шаг 5.** Отслеживайте развертывание приложения.
 
-## <a name="step-1-get-the-link-to-a-policy-managed-app-create-a-wrapped-app-or-use-the-intune-app-sdk-to-write-a-mamenabled-app"></a>Шаг 1. Получите ссылку на приложение, находящееся под управлением политики, создайте упакованное приложение или напишите приложение с поддержкой MAM, используя пакет SDK для приложений Intune.
+## <a name="step-1-get-the-link-to-a-policy-managed-app-create-a-wrapped-app-or-use-the-intune-app-sdk-to-write-a-mam-enabled-app"></a>Шаг 1. Получите ссылку на приложение, находящееся под управлением политики, создайте упакованное приложение или напишите приложение с поддержкой MAM, используя пакет SDK для приложений Intune.
 
 В магазине приложений найдите и сохраните URL-адрес приложения, управляемого политикой, которое вы хотите развернуть. Например, URL-адрес приложения Microsoft Word для iPad: **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8**.
 
@@ -194,6 +197,6 @@ ms.openlocfilehash: 90b5a9f78a93cde7466937d0ce9dac3d83f3ff64
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Настройка управления в iOS и Mac | Microsoft Intune"
+title: "Настройка управления в iOS и Mac | Документы Майкрософт"
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств iOS, включая устройства iPad и iPhone, а также для устройств Mac OS X."
 keywords: 
 author: staciebarker
@@ -14,13 +14,16 @@ ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
 ms.reviewer: dagerrit
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 641d2db2bfb49ce6c4f88d823188a714e61f683c
+ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
+ms.openlocfilehash: 594b6b66a4c756155e958815b926674e63f07bb5
 
 
 ---
 
 # <a name="set-up-ios-and-mac-device-management"></a>Настройка управления устройствами в iOS и Mac
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune позволяет управлять мобильными устройствами iPad, iPhone и Mac OS X, а также предоставляет пользователям доступ к корпоративной электронной почте и приложениям. Для управления устройствами iOS и Mac с помощью Intune требуется сертификат службы push-уведомлений Apple (APNs). После добавления этого сертификата в Intune пользователи смогут установить приложение корпоративного портала для регистрации своих устройств. Или же администратор сможет настроить [управление корпоративными устройствами iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
 1.  **Настройка Intune**<br>
@@ -48,7 +51,7 @@ Intune позволяет управлять мобильными устройс
 
     Дополнительные сведения о других задачах для пользователей см. в статьях:
     - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
-    - [Руководство конечного пользователя для устройств iOS и Mac](../enduser/using-your-ios-or-mac-os-x-device-with-intune.md)
+    - [Руководство конечного пользователя для устройств iOS и Mac](../enduser/using-your-ios-or-macOS-device-with-intune.md)
 
 Если ваша организация приобретает устройства iOS для пользователей, эти устройства также можно зарегистрировать в системе управления как [корпоративные устройства iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
@@ -57,6 +60,6 @@ Intune позволяет управлять мобильными устройс
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

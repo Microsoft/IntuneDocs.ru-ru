@@ -1,11 +1,11 @@
 ---
-title: "VPN-подключения | Microsoft Intune"
+title: "VPN-подключения | Документы Майкрософт"
 description: "Сведения о развертывании параметров VPN для пользователей и устройств в организации с помощью профилей VPN."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 12/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,15 @@ ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4cab83c3d1a63a0e4f16ee838443ec032bcf1532
-ms.openlocfilehash: 6d5d97a8e91ba3a99db5714a5634904c62320e76
+ms.sourcegitcommit: 0ba06e1d698e051ba72e9f88a654d37041c57cf1
+ms.openlocfilehash: cd9785889ca8b2a78a49ea2b04284d32b3fa8a65
 
 
 ---
 
 # <a name="vpn-connections-in-microsoft-intune"></a>VPN-подключения в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Виртуальная частная сеть (VPN) предоставляет пользователям безопасный удаленный доступ к сети компании. Устройства используют *профиль VPN-подключения * для создания подключения к VPN-серверу. Используйте *профили VPN* в Microsoft Intune, чтобы развернуть параметры VPN для пользователей и устройств в организации для обеспечения простого и безопасного подключения к сети.
 
@@ -67,7 +69,7 @@ L2TP|Настраиваемый профиль iOS|Нет |Нет |Нет|Да (
 > [!IMPORTANT]
 > Перед использованием профилей VPN, развернутых на устройстве, необходимо установить приложение VPN, подходящее для профиля. Можно обратиться к статье [Развертывание приложений с помощью Microsoft Intune](deploy-apps-in-microsoft-intune.md) за информацией, которая окажется полезной при развертывании подходящего приложения с использованием Intune.  
 
- Сведения о создании настраиваемых профилей VPN с помощью параметров URI см. в статье [Настраиваемые конфигурации профилей VPN](custom-configurations-for-vpn-profiles.md).     
+ Сведения о создании настраиваемых профилей VPN с помощью параметров URI см. в статье [Настраиваемые конфигурации профилей VPN](create-custom-vpn-profiles.md).     
 
 ## <a name="methods-of-securing-vpn-profiles"></a>Методы защиты профилей VPN
 
@@ -194,13 +196,10 @@ VPN по запросу можно настроить для устройств 
 
 В сводке состояния и оповещениях на странице **Обзор** рабочей области **Политика** указаны проблемы с политикой, требующие вашего внимания. Кроме того, сводка состояния отображается в рабочей области "Панель мониторинга".
 
-### <a name="see-also"></a>См. также
-[Настраиваемые конфигурации профилей VPN](Custom-configurations-for-VPN-profiles.md)
-
-[VPN на уровне приложения в Android с использованием Pulse Secure](per-app-vpn-for-android-pulse-secure.md)
 
 
 
-<!--HONumber=Nov16_HO2-->
+
+<!--HONumber=Dec16_HO3-->
 
 

@@ -1,28 +1,30 @@
 ---
-title: "Отмена регистрации устройства iOS в Intune | Microsoft Intune"
+title: "Отмена регистрации устройства iOS в Intune | Документы Майкрософт"
 description: "Сведения об отмене регистрации устройства iOS в Intune"
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2016
+ms.date: 10/24/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
+searchScope:
+- Company Portal
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0d32aa982cf9d45da36f71be5554f31375521e35
-ms.openlocfilehash: acd83d6cac946c7cc3c08bc179bf88dcc7475a69
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: eb41be0b4096c2b2ee5711204b34e8c3bb13e25b
 
 
 ---
 
 
-# Отмена регистрации устройства iOS в Intune
+# <a name="unenroll-your-ios-device-from-intune"></a>Отмена регистрации устройства iOS в Intune
 
 При отмене регистрации устройства iOS в Intune оно больше не сможет получать доступ к ресурсам компании и больше не будет управляться Intune.
 
@@ -57,6 +59,6 @@ ms.openlocfilehash: acd83d6cac946c7cc3c08bc179bf88dcc7475a69
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Dec16_HO2-->
 
 

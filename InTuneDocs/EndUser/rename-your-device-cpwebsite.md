@@ -1,9 +1,9 @@
 ---
-title: "Переименование устройства с веб-сайта корпоративного портала | Microsoft Intune"
+title: "Переименование устройства с веб-сайта корпоративного портала | Документы Майкрософт"
 description: 
 keywords: 
-author: Staciebarker
-ms.author: stabar
+author: barlanmsft
+ms.author: barlan
 manager: angrobe
 ms.date: 09/19/2016
 ms.topic: article
@@ -15,14 +15,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bff97f79c6e88bbf55c2c3a259891bb6206b690b
-ms.openlocfilehash: 905d29289f621bcfd4c7faccb119adcf5ce9ef63
+ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
+ms.openlocfilehash: c539af3b4ac901029faeaa4947491eec8ff0c378
 
 
 ---
 
 
-# Переименование устройства с веб-сайта корпоративного портала
+# <a name="rename-your-device-from-the-company-portal-website"></a>Переименование устройства с веб-сайта корпоративного портала
 
 Если вам потребуется переименовать устройство, это можно сделать удаленно с [веб-сайта корпоративного портала](http://portal.manage.microsoft.com). Веб-сайт корпоративного портала — это веб-страница, которую можно использовать для управления компьютерами и устройствами, зарегистрированными в Intune. На этом веб-сайте доступно большинство тех задач, которые можно выполнить с помощью приложения корпоративного портала.
 
@@ -40,6 +40,6 @@ ms.openlocfilehash: 905d29289f621bcfd4c7faccb119adcf5ce9ef63
 
 
 
-<!--HONumber=Sep16_HO3-->
+<!--HONumber=Dec16_HO3-->
 
 

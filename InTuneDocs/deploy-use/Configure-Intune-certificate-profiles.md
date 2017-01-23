@@ -1,5 +1,5 @@
 ---
-title: "Настройка профилей сертификатов | Microsoft Intune"
+title: "Настройка профилей сертификатов | Документы Майкрософт"
 description: "Узнайте, как создать профиль сертификата Intune."
 keywords: 
 author: robstackmsft
@@ -14,13 +14,16 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: bafb86b1e388163c07110559e2a51bbe0dadc5ed
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: f5b5bc13a834cb5071ebf875f3c5512c564efe93
 
 
 ---
 
 # <a name="configure-intune-certificate-profiles"></a>Настройка профилей сертификатов Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 После настройки инфраструктуры и сертификатов, как описано в статье [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) или [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md), вы можете создать профили сертификатов. Вот как это делается:
 
 - **Задача 1**. Экспорт доверенного корневого сертификата ЦС
@@ -157,6 +160,6 @@ ms.openlocfilehash: bafb86b1e388163c07110559e2a51bbe0dadc5ed
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

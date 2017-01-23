@@ -1,5 +1,5 @@
 ---
-title: "Настройка управления устройствами Windows с помощью Microsoft Intune | Microsoft Intune"
+title: "Настройка управления устройствами Windows с помощью Microsoft Intune | Документы Майкрософт"
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для компьютеров с Windows, включая устройства с Windows 10."
 keywords: 
 author: staciebarker
@@ -13,18 +13,21 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6adfb7375f9747f64e7037164f48918789bd7ee0
-ms.openlocfilehash: 7c518c176e315cbf005b2fceb8d74de09bdcfa98
+ms.sourcegitcommit: 31d58d9973cca4023186731a5411c9c9e830e32a
+ms.openlocfilehash: e24251a066349e23beb94b75a66c5710ba7e41f1
 
 
 ---
 
 # <a name="set-up-windows-device-management"></a>Настройка управления устройствами Windows
 
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Как администратор Intune вы можете включить регистрацию и управление для компьютеров с Windows двумя способами.
 
 - **[Автоматическая регистрация с помощью Azure Active Directory](#azure-active-directory-enrollment)** — пользователи Windows 10 и Windows 10 Mobile регистрируют свои устройства, добавляя на них рабочую или учебную учетную запись.
-- **[Регистрация на корпоративном портале](#company-portal-app-enrollment)** — пользователи устройств с Windows 8.1 и более поздних версий регистрируют их посредством загрузки и установки приложения корпоративного портала с последующим вводом в нем данных рабочей или учебной учетной записи.
+
+- **[Регистрация на корпоративном портале](#set-up-company-portal-app-enrollment)** — пользователи устройств с Windows 8.1 и более поздних версий регистрируют их посредством загрузки и установки приложения корпоративного портала с последующим вводом в нем данных рабочей или учебной учетной записи.
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
@@ -55,23 +58,20 @@ ms.openlocfilehash: 7c518c176e315cbf005b2fceb8d74de09bdcfa98
 
 3.  **Проверка CNAME**<br>В [консоли администратора Intune](http://manage.microsoft.com) последовательно выберите **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Windows**. Введите URL-адрес проверенного домена веб-сайта организации в поле **Укажите проверенное имя домена** и нажмите кнопку **Проверить автообнаружение**.
 
-  ![Диалоговое окно "Управление устройствами Windows"](../media/enroll-intune-winenr.png)
-
 4.  **Дополнительные шаги**<br>Для Windows 10 шаг **Добавление ключей для загрузки неопубликованных приложений** не требуется. Шаг **Отправка сертификата подписи кода** необходим только в том случае, если планируется распространять на устройства бизнес-приложения, недоступные в Магазине Windows.
 
 6.  **Сообщите пользователям, как зарегистрировать устройства и что произойдет при управлении ими.**
 
-    Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Windows в Intune](../enduser/enroll-your-device-in-intune-windows.md).
+    Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Windows в Intune](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-windows).
 
-    Дополнительные сведения о других задачах для пользователей см. в статьях:
-      - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
-      - [Руководство конечного пользователя для устройств с Windows](../enduser/using-your-windows-device-with-intune.md)
+    Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune).
+
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

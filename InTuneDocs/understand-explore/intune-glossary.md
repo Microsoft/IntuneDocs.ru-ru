@@ -1,19 +1,19 @@
 ---
-title: "Глоссарий Intune | Microsoft Intune"
+title: "Глоссарий Intune | Документация Майкрософт"
 description: "Дополнительные сведения о терминологии в Microsoft Intune"
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
 ms.date: 11/17/2016
-ms.topic: article
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
+ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
+ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
 
 <<<<<<< HEAD
 
@@ -291,6 +291,8 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 
 # <a name="microsoft-intune-glossary"></a>Глоссарий Microsoft Intune
 
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 ## <a name="a"></a>A
 
 |||
@@ -303,7 +305,7 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 ## <a name="b"></a>B
 |||
 |-|-|
-|BYOD|[Принеси свое устройство](/intune/get-started/choose-how-to-enroll-devices1). Пользователи могут установить приложение корпоративного портала Intune на своем устройстве и зарегистрировать его для доступа к ресурсам организации, таким как электронная почта, корпоративные приложения, корпоративные данные и поддержка.| 
+|BYOD|[Принеси свое устройство](/intune/get-started/choose-how-to-enroll-devices1). Пользователи могут установить приложение корпоративного портала Intune на своем устройстве и зарегистрировать его для доступа к ресурсам организации, таким как электронная почта, корпоративные приложения, корпоративные данные и поддержка.|
 
 ## <a name="c"></a>C
 |||
@@ -366,7 +368,7 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 |-|-|
 |Managed Browser|[Приложение для просмотра веб-страниц](/intune/deploy-use/manage-internet-access-using-managed-browser-policies), которое можно развернуть в организации с помощью Microsoft Intune. Политика управляемого браузера настраивает список разрешений или список блокировок, ограничивающий те веб-сайты, которые могут посетить пользователи управляемого браузера.|
 |Mobile application management (Управление мобильными приложениями)|[Управление мобильными приложениями (MAM)](/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune) дает возможность публикации, отправки, настройки, защиты, мониторинга и обновления мобильных приложений для пользователей.
-|Mobile device management (управление мобильными устройствами)|[Управление мобильными устройствами (MDM)](/intune/deploy-use/overview-of-device-lifecycle-in-microsoft-intune) дает возможность регистрации устройств в Intune для последующей подготовки, настройки, мониторинга и выполнения действий на этих устройствах. 
+|Mobile device management (управление мобильными устройствами)|[Управление мобильными устройствами (MDM)](/intune/deploy-use/overview-of-device-lifecycle-in-microsoft-intune) дает возможность регистрации устройств в Intune для последующей подготовки, настройки, мониторинга и выполнения действий на этих устройствах.
 |MDM authority (Центр MDM)|[Центр MDM](/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune) определяет службу управления, у которой есть разрешение на управление набором устройств. Возможные варианты центра управления мобильными устройствами — отдельная служба Intune или Configuration Manager с Intune.|
 |Mobile app provisioning policy (Политика подготовки мобильных приложений)|Политика iOS, помогающая предотвращать истечение срока действия для [профилей подготовки](/intune/deploy-use/ios-mobile-app-provisioning-profiles) для развертываемых приложений iOS.|
 |Mobile app configuration policy (Политика конфигурации мобильных приложений)|Политика iOS, которая позволяет [предоставить параметры для совместимых приложений iOS](/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune) при их запуске, например название организации или адрес сервера.|
@@ -417,10 +419,7 @@ ms.openlocfilehash: e3aec8468dab4796cdc9b4afd783219f8aeef00b
 
 
 
-
-
-
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Dec16_HO3-->
 
 >>>>>>> c2e40f0b85c542c5e128326656a4961bb485c71e
 

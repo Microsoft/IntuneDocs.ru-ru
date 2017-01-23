@@ -1,11 +1,11 @@
 ---
-title: "Что такое корпоративный портал? | Microsoft Intune"
+title: "Что такое корпоративный портал? | Документация Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/06/2016
+ms.date: 12/20/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3891d0389df3526ea328fc2952e3d181b1e766c0
-ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
+ms.sourcegitcommit: 01d2fcd0202f1ef347693c973edb82acfae6c818
+ms.openlocfilehash: 13198d264d7d49454e2aba76604b4c2e9445a502
 
 
 ---
@@ -41,10 +41,10 @@ ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
 Чтобы узнать, что можно делать с помощью веб-сайта корпоративного портала и приложения корпоративного портала на устройстве, выберите одну из следующих ссылок:
 
 > [!div class="op_single_selector"]
-- [Android](using-your-android-device-with-intune.md)
-- [iOS и macOS](using-your-ios-or-mac-os-x-device-with-intune.md);
-- [Windows](using-your-windows-device-with-intune.md)
-- [Веб-сайт корпоративного портала](using-the-intune-company-portal-website.md)
+- [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
+- [Использование устройств iOS и macOS в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+- [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
+- [Использование веб-сайта корпоративного портала](using-the-intune-company-portal-website.md)
 
 ## <a name="what-happens-when-you-add-a-computer-or-device-to-the-company-portal"></a>Что происходит при добавлении компьютера или устройства на корпоративный портал?
 При добавлении компьютера или устройства на корпоративный портал могут быть установлены некоторые программы или загружено приложение (в зависимости от устройства).  Вы также предоставляете своему ИТ-администратору разрешение на управление устройством для защиты корпоративных данных на нем.
@@ -58,9 +58,9 @@ ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
 
 ## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>Какие компьютеры или устройства можно добавлять на корпоративный портал?
 
--   Устройства iPhone, iPad и macOS
+-   Устройства Apple на базе iOS (iPhone, iPad) и macOS (iMac, MacBook)
 
--   Мобильные устройства Android
+-   Устройства Android
 
 -   Устройства Windows
     -   Windows 10 Mobile
@@ -96,6 +96,6 @@ ms.openlocfilehash: a0424ada754a210fb34acd49cf47d1c457ed86af
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

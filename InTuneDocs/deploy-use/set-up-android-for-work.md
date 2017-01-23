@@ -1,5 +1,5 @@
 ---
-title: "Настройка управления Android for Work | Microsoft Intune"
+title: "Настройка управления Android for Work | Документы Майкрософт"
 description: "Включение управления мобильными устройствами (MDM) для устройств Android for Work с помощью Microsoft Intune."
 keywords: 
 author: NathBarn
@@ -12,13 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: cfb1ba8ad3d737538fe1e54167121552571d7a1b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: e0116fb151cd8d05d2d854f0102894a9d72b818e
 
 
 ---
 
 # <a name="enable-enrollment-of-android-for-work-devices"></a>Включение регистрации устройств Android for Work
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 [!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 

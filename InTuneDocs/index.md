@@ -9,14 +9,14 @@ keywords: "документация по Intune, управление прило
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 12/7/2016
+ms.date: 12/20/2016
 ms.topic: hubpage
 ms.service: microsoft-intune
 ms.suite: ems
 ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 translationtype: Human Translation
-ms.sourcegitcommit: b921a15ca5fd24d9ddbf54789c42a0740b72d7f6
-ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
+ms.sourcegitcommit: d63d670f12f27511671b9015ad53a93f1a784c40
+ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
 
 
 ---
@@ -37,8 +37,8 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
         </ul>
         <ul class="column column-half">
           <li><a href="/intune/deploy-use/restrict-access-based-on-device-network-app-risk">Защита доступа к ресурсам компании</a></li>
-          <li><a href="/intune/develop/intune-app-sdk-ios">Руководство по пакету SDK для приложений Intune для разработчиков под iOS</a></li>
-          <li><a href="/intune/develop/intune-app-sdk-android">Руководство по пакету SDK для приложений Intune для разработчиков под Android</a></li>
+          <li><a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/intune_graph_overview">Работа с Intune в Microsoft Graph</a></li>
+          <li><a href="/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune">Ресурсы по пользовательскому интерфейсу Microsoft Intune</a></li>
         </ul>
       </div>
     </section>
@@ -61,13 +61,13 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
               <ul class="row">
                 <li class="column-third">
                   <a href="/intune/understand-explore/introduction-to-microsoft-intune">
-                    <h3>Общие сведения об Intune</h3>
+                    <h3>Что такое Intune?</h3>
                     <p>Сведения о предоставлении возможностей управления устройствами, приложениями и данными для мобильных устройств (iOS, Android, Windows Phone) и компьютерами Windows в Intune.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune">
-                    <h3>Руководство по оценке Intune</h3>
+                    <h3>Подходит ли вам Intune?</h3>
                     <p>В руководстве по пробной версии вы получите пошаговые инструкции по настройке до 100 пользователей и устройств.</p>
                   </a>
                 </li>
@@ -94,21 +94,21 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
             <section class="journey-step-elements content">
               <ul class="row">
                 <li class="column-third">
-                  <a href="/intune/get-started/what-to-know-before-you-start-microsoft-intune">
-                    <h3>Что нужно знать перед началом работы</h3>
-                    <p>Краткое знакомство с базовыми требованиями для любого развертывания Intune.</p>
-                  </a>
-                </li>
-                <li class="column-third">
                   <a href="/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune">
-                    <h3>Краткое руководство по Intune</h3>
-                    <p>В этом разделе, основанном на руководстве по пробной 30-дневной версии, представлены сведения о синхронизации Azure Active Directory, проблемах домена и DNS, а также других настройках Intune.</p>
+                    <h3>Руководство по началу работы</h3>
+            <p>В этом разделе, основанном на руководстве по пробной 30-дневной версии, представлены сведения о синхронизации Azure Active Directory, проблемах домена и DNS, а также других настройках Intune.</p>
                   </a>
                 </li>
                 <li class="column-third">
-                  <a href="/intune/get-started/rollout-phases-for-microsoft-intune-deployment">
-                    <h3>Этапы выпуска</h3>
-                    <p>Определение целей, архитектуры, а также планов пилотных и рабочих развертываний Intune.</p>
+                  <a href="/intune/get-started/prevent-company-data-leaks-from-office-365-mobile-apps">
+                    <h3>Предотвращение утечки корпоративных данных из мобильных приложений Office 365</h3>
+                    <p>Защитите данные организации с помощью политик защиты приложений, помогающих предотвратить утечки данных организации.</p>
+                  </a>
+                </li>
+                <li class="column-third">
+                  <a href="/intune/get-started/simplify-email-configuration-on-mobile-devices">
+                    <h3>Упрощение конфигурации электронной почты на мобильных устройствах</h3>
+                    <p>Сэкономьте время и ресурсы организации, развернув профили электронной почты (а также Wi-Fi и VPN) на мобильных устройствах Windows, iOS и Android, управляемых службой Intune.</p>
                   </a>
                 </li>
               </ul>
@@ -155,8 +155,8 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
                 </li>
                 <li class="column-third">
                   <a href="/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune">
-                    <h3>Ограничение доступа к электронной почте и службам Office 365</h3>
-                    <p>Используйте условный доступ Intune для ограничения доступа к корпоративной электронной почте и службам Office 365.</p>
+                    <h3>Защита доступа к электронной почте и службам Office 365</h3>
+                    <p>Используйте условный доступ Intune для защиты доступа к корпоративной электронной почте и службам Office 365.</p>
                   </a>
                 </li>
                 <li class="column-third">
@@ -285,6 +285,6 @@ ms.openlocfilehash: 61855f89dd2aa70bf9b6d7be72acae90e5463b7d
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 
