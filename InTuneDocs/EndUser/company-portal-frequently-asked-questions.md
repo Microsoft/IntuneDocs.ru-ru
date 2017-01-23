@@ -5,18 +5,20 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 01/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 01d2fcd0202f1ef347693c973edb82acfae6c818
-ms.openlocfilehash: 13198d264d7d49454e2aba76604b4c2e9445a502
+ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
+ms.openlocfilehash: fa9c3fd2c995615e9aa9a16f3bd834b0c145b6d0
 
 
 ---
@@ -24,7 +26,7 @@ ms.openlocfilehash: 13198d264d7d49454e2aba76604b4c2e9445a502
 # <a name="about-the-company-portal"></a>О корпоративном портале
 
 ## <a name="what-is-the-company-portal-and-what-can-you-do-with-it"></a>Что такое корпоративный портал и для чего он нужен?
-Корпоративный портал Microsoft Intune предоставляет доступ к корпоративным или учебным данным и приложениям. Доступ к корпоративному порталу можно получить двумя способами:
+Корпоративный портал предоставляет доступ к принадлежащим организации или учебным данным и приложениям. Доступ к корпоративному порталу можно получить двумя способами:
 
 - Установив приложение корпоративного портала на устройство. Обычно приложение корпоративного портала устанавливается через магазин приложений на вашем устройстве, однако его также может установить ИТ-администратор.
 - Перейдя на [веб-сайт корпоративного портала](http://portal.manage.microsoft.com), который настроил ИТ-администратор.
@@ -42,7 +44,7 @@ ms.openlocfilehash: 13198d264d7d49454e2aba76604b4c2e9445a502
 
 > [!div class="op_single_selector"]
 - [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
-- [Использование устройств iOS и macOS в Intune](using-your-ios-or-mac-os-x-device-with-intune.md)
+- [Использование устройств iOS и macOS в Intune](using-your-ios-or-macOS-device-with-intune.md)
 - [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 - [Использование веб-сайта корпоративного портала](using-the-intune-company-portal-website.md)
 
@@ -96,6 +98,6 @@ ms.openlocfilehash: 13198d264d7d49454e2aba76604b4c2e9445a502
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

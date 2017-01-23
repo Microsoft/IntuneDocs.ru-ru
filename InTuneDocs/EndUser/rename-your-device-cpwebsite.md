@@ -5,26 +5,27 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/19/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 35a34ef8-efbb-4edf-88eb-a03c1b27a026
+searchScope:
+- Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: c539af3b4ac901029faeaa4947491eec8ff0c378
+ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
+ms.openlocfilehash: b8452e55f8ba76e787e43e2239510d7665a561f4
 
 
 ---
 
-
 # <a name="rename-your-device-from-the-company-portal-website"></a>Переименование устройства с веб-сайта корпоративного портала
 
-Если вам потребуется переименовать устройство, это можно сделать удаленно с [веб-сайта корпоративного портала](http://portal.manage.microsoft.com). Веб-сайт корпоративного портала — это веб-страница, которую можно использовать для управления компьютерами и устройствами, зарегистрированными в Intune. На этом веб-сайте доступно большинство тех задач, которые можно выполнить с помощью приложения корпоративного портала.
+Возможно, вы захотите переименовать устройство, чтобы с ним проще было работать. Это можно сделать на [корпоративном портале](http://portal.manage.microsoft.com). Корпоративный портал — это веб-страница, на которой можно управлять компьютерами и устройствами, зарегистрированными в вашем отделе ИТ.
 
 Переименование устройства
 
@@ -34,12 +35,12 @@ ms.openlocfilehash: c539af3b4ac901029faeaa4947491eec8ff0c378
 
     ![rename-device-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
-3.  В поле, где отображается текущее имя устройства, введите новое имя для устройства, а затем нажмите кнопку **Переименовать**. Теперь ваше устройство отображается с новым именем.
+3.  В поле с названием устройства введите новое название, а затем коснитесь кнопки **Переименовать**. Теперь ваше устройство отображается с новым именем.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Ограничение доступа к SharePoint Online | Документы Майкрософт"
+title: "Защита доступа к SharePoint Online | Microsoft Docs"
 description: "Защита и контроль доступа к корпоративным данным, размещенным в SharePoint Online, с помощью условного доступа."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,18 +14,21 @@ ms.assetid: b088e5a0-fd4a-4fe7-aa49-cb9c8cfb1585
 ms.reviewer: chrisgre
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 6b900f2bf41ea84088f8453f59b71136e013a884
+ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
+ms.openlocfilehash: 2efac12d3564932ebcb3cbe4165fbc7ad4595172
 
 
 ---
 
-# <a name="restrict-access-to-sharepoint-online-with-microsoft-intune"></a>Ограничение доступа к SharePoint Online с помощью Microsoft Intune
+# <a name="protect-access-to-sharepoint-online-with-microsoft-intune"></a>Защита доступа к SharePoint Online при помощи Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Используйте условный доступ [!INCLUDE[wit_firstref](../includes/wit_firstref_md.md)] для управления доступом к файлам в SharePoint Online.
 Условный доступ состоит из двух компонентов:
 - Политика соответствия устройств, которой устройства должны удовлетворять, чтобы считаться соответствующими.
 - Политика условного доступа, где указываются условия, которым должно удовлетворять устройство для доступа к службе.
-Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
+Дополнительные сведения о принципах работы условного доступа см. в статье [Защита доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
 Вы развертываете политики соответствия и условного доступа для пользователей. Любое устройство, используемое пользователем для доступа к службам, проверяется на соответствие политикам.
 
@@ -66,7 +69,7 @@ ms.openlocfilehash: 6b900f2bf41ea84088f8453f59b71136e013a884
 - Android 4.0 и более поздние версии, Samsung KNOX Standard 4.0 и более поздние версии
 - Windows Phone 8.1 и более поздней версии
 
-Можно ограничить доступ к SharePoint Online, если он осуществляется из браузера на устройствах под управлением **iOS** и **Android**. Доступ разрешен только из поддерживаемых браузеров на соответствующих устройствах:
+Вы можете защитить доступ к SharePoint Online, если он осуществляется из браузера на устройствах с ОС **iOS** и **Android**. Доступ разрешен только из поддерживаемых браузеров на соответствующих устройствах:
 * Safari (iOS)
 * Chrome (Android)
 * Intune Managed Browser (iOS и Android 5.0 или более поздней версии)
@@ -192,10 +195,10 @@ ms.openlocfilehash: 6b900f2bf41ea84088f8453f59b71136e013a884
 -   **Устройства, соответствующие условиям и зарегистрированные в AAD**. Эти устройства могут получить доступ к SharePoint Online.
 
 ### <a name="see-also"></a>См. также
-[Ограничение доступа к электронной почте и службам Office 365 с помощью Microsoft Intune](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+[Защита доступа к электронной почте и службам Office 365 при помощи Microsoft Intune](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

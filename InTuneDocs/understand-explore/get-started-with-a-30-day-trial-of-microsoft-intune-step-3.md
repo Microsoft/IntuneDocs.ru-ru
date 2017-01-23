@@ -1,5 +1,5 @@
 ---
-title: "Создание групп для организации пользователей и устройств | Документы Майкрософт"
+title: "Создание групп для упорядочивания пользователей и устройств в бесплатной пробной версии | Microsoft Docs"
 description: "Сведения о создании групп устройств и пользователей при использовании бесплатной 30-дневной ознакомительной версии Microsoft Intune."
 keywords: 
 author: lindavr
@@ -13,13 +13,16 @@ ms.technology:
 ms.assetid: 7162cad3-5c14-43f3-a760-833ffd7786b1
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: e4072108d5d06857acb10f243df68ef2c33066a2
+ms.sourcegitcommit: 89e190e6a3e514c0f38b33409cde2abea0776885
+ms.openlocfilehash: 0cdf5bf8f9fad1f44dbb0ef11de71aea55949d89
 
 
 ---
 
 # <a name="create-groups-to-organize-evaluation-subscription-users-and-devices"></a>Создание групп для организации пользователей и устройств подписок на ознакомительную версию
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Группы в Intune обеспечивают гибкость управления устройствами и пользователями. Можно настроить группы в соответствии с потребностями организации (например, по географическому положению, отделам или характеристикам оборудования) и использовать их для выполнения разнообразных административных задач в масштабе, от развертывания политики для группы пользователей до развертывания приложений на наборе устройств.
 
 ## <a name="create-a-device-group"></a>Создание группы устройств
@@ -61,6 +64,6 @@ ms.openlocfilehash: e4072108d5d06857acb10f243df68ef2c33066a2
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
