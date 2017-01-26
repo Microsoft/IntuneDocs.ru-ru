@@ -7,7 +7,7 @@
 ### [Другие параметры и дополнения](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
 ### [Преобразование в платную подписку](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
 ## [Распространенные сценарии](understand-explore/common-ways-to-use-intune.md)
-## [Глоссарий](understand-explore/intune-glossary.md)
+
 
 # [Приступая к работе](get-started/get-started.md)
 ## [Настройка Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
@@ -44,6 +44,7 @@
 
 # Что нового
 ## [Что нового](whats-new/whats-new-in-microsoft-intune.md)
+## [Новые возможности в предварительной версии Azure](/intune-azure/introduction/whats-new?toc=%2fintune%2ftoc.json)
 ## [Новые возможности — архив](whats-new/whats-new-archive.md)
 
 # Развертывание и использование
@@ -72,6 +73,7 @@
 #### [Установка клиента компьютера](deploy-use/install-the-windows-pc-client-with-microsoft-intune.md)
 #### [Общие задачи управления ПК](deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 #### [Разрешение конфликтов политик для компьютеров](deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
+### [Управление устройствами Android for Work с помощью Intune](deploy-use/android-for-work.md)
 
 ## Настройка устройств
 ### [Управление параметрами и компонентами на устройствах с помощью политик](deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
@@ -97,6 +99,7 @@
 #### [VPN-подключения в Intune](deploy-use/vpn-connections-in-microsoft-intune.md)
 #### [Профили электронной почты в Intune](deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)
 ### [Использование групп для управления пользователями и устройствами](deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
+#### [Новый способ использования групп в Intune](deploy-use/migrating-groups-to-azure-active-directory.md)
 ### [Сопоставление устройств с группами](deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune.md)
 ### [Получение сведений об устройствах с помощью инвентаризации](deploy-use/understand-your-devices-with-inventory-in-microsoft-intune.md)
 
@@ -142,24 +145,24 @@
 #### [Windows и Windows Phone](deploy-use/windows-compliance-policy-settings-in-microsoft-intune.md)
 #### [Развертывание политики соответствия устройства](deploy-use/deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)
 
-### [Ограничение доступа на основании соответствия устройств](deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
+### [Защита доступа на основе соответствия устройств требованиям](deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
 
 #### [Exchange Online и новая выделенная среда Exchange Online](deploy-use/restrict-access-to-exchange-online-with-microsoft-intune.md)
 #### [Локальная среда Exchange Online и прежняя выделенная среда Exchange Online](deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
 #### [SharePoint Online](deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 #### [Skype для бизнеса Online](deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 #### [Dynamics CRM Online](deploy-use/restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
-#### [Ограничение доступа к электронной почте: примеры](deploy-use/restrict-email-access-example-scenarios.md)
+#### [Защита доступа к электронной почте: примеры](deploy-use/restrict-email-access-example-scenarios.md)
 ### [Разрешить доступ к службам Office 365 только для управляемых политиками приложений](deploy-use/allow-policy-managed-apps-access-to-o365.md)
 #### [Приложения с помощью MAM CA](deploy-use/use-apps-with-mam-ca.md)
 #### [Exchange Online](deploy-use/mam-ca-for-exchange-online.md)
 #### [Блокировать приложения без ADAL](deploy-use/block-apps-with-no-modern-authentication.md)
-### [Ограничение доступа к сетям (Cisco ISE)](deploy-use/restrict-access-to-networks.md)
-### [Ограничение доступа на основе риска для устройства, сети и приложений](deploy-use/restrict-access-based-on-device-network-app-risk.md)
-#### [Настройка защиты устройства от угроз Lookout](deploy-use/set-up-your-subscription-with-lookout-mtp.md)
-#### [Включение Lookout в Intune](deploy-use/enable-lookout-mtp-connection-in-intune.md)
-#### [Развертывание Lookout для рабочих приложений](deploy-use/configure-and-deploy-lookout-for-work-apps.md)
-#### [Включение политики соответствия для защиты устройства от угроз](deploy-use/enable-device-threat-protection-rule-in-compliance-policy.md)
+### [Защита доступа к сетям (Cisco ISE)](deploy-use/restrict-access-to-networks.md)
+### [Защита доступа на основе рисков, связанных с устройствами, сетями и приложениями](deploy-use/device-threat-protection.md)
+#### [Настройка защиты устройства от угроз Lookout](deploy-use/device-threat-protection-subscription-setup.md)
+#### [Включение Lookout в Intune](deploy-use/device-threat-protection-enable.md)
+#### [Развертывание Lookout для рабочих приложений](deploy-use/device-threat-protection-apps.md)
+#### [Включение политики соответствия для защиты устройства от угроз](deploy-use/device-threat-protection-policy.md)
 
 ### [Защита данных приложения с помощью MAM](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Портал Azure для политик управления мобильными приложениями](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
@@ -179,6 +182,7 @@
 #### [Бизнес-приложения на устройствах, не находящихся под управлением Intune](deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
 #### [Использование пакета SDK при создании приложения](deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
+### [Часто задаваемые вопросы по защите MAM и приложений](deploy-use/mam-faq.md)
 
 ## Снятие приложений и данных с учета
 ### [Использование полной или выборочной очистки](deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
@@ -215,7 +219,9 @@
 
 ## [Устранение неполадок интеграции Lookout](troubleshoot/troubleshooting-lookout-integration.md)
 
+# [Глоссарий](understand-explore/intune-glossary.md)
 
-<!--HONumber=Dec16_HO5-->
+
+<!--HONumber=Jan17_HO3-->
 
 

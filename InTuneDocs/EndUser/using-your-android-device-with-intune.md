@@ -11,11 +11,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
+searchScope:
+- Company Portal
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8611566f5f5d33b7f0937fabd15892353953df77
-ms.openlocfilehash: 1c4e77d3089df2ff184a414ba668b01b2d040854
+ms.sourcegitcommit: bb949c9a83fdde630dd2023765d32e98c43a1c20
+ms.openlocfilehash: 22a5cab46a6ca8cf2d350ba9844328a3dea13766
 
 
 ---
@@ -59,22 +61,22 @@ ms.openlocfilehash: 1c4e77d3089df2ff184a414ba668b01b2d040854
 Этот раздел содержит сведения об устранении проблем, с которыми пользователи могут столкнуться при регистрации устройства Android в Intune.
 
 - [Использование подробного ведения журналов, чтобы помочь ИТ-администратору с устранением проблем на устройстве](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-- [Отправка журналов диагностических данных ИТ-администратору по электронной почте](send-diagnostic-data-logs-to-your-it-administrator-using-email-android.md)
-- [Отправка журналов диагностических данных ИТ-администратору по USB-кабелю](send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android.md)
-- [Отправка ошибок регистрации ИТ-администратору](send-enrollment-errors-to-your-it-administrator-android.md)
+- [Отправка журналов ИТ-администратору по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
+- [Отправка журналов ИТ-администратору по USB-кабелю](send-logs-to-your-it-admin-using-cable-android.md)
+- [Отправка ошибок регистрации ИТ-администратору](send-enrollment-errors-to-your-it-admin-android.md)
 - [Устройство не содержит необходимую минимальную версию операционной системы](you-need-to-update-your-android-device.md)
 - [Устройство не соответствует максимальной версии операционной системы](your-android-version-isnt-yet-supported.md)
 - [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
-- [Устройство не имеет необходимого сертификата](your-device-is-missing-a-required-certificate-android.md)
-- [Вам предложено отключить неизвестные источники](you-are-asked-to-turn-off-unknown-sources-android.md)
-- [Вам предложено отключить режим отладки по USB](you-are-asked-to-turn-off-usb-debugging-android.md)
-- [Вам предложено включить проверку устройств на предмет угроз безопасности](you-are-asked-to-turn-on-scan-device-for-security-threats-android.md)
+- [Устройство не имеет необходимого сертификата](your-device-is-missing-a-required-certificate-landing-android.md)
+- [Вам необходимо отключить неизвестные источники](you-need-to-turn-off-unknown-sources-android.md)
+- [Вам необходимо отключить режим отладки по USB](you-need-to-turn-off-usb-debugging-android.md)
+- [Вам необходимо включить проверку на наличие угроз безопасности](you-need-to-turn-on-scanning-for-security-threats-android.md)
 - [На устройстве отсутствует минимальная версия исправления безопасности](your-device-does-not-meet-the-minimum-security-patch-android.md)
 - [Вам предложено установить Lookout for Work на устройстве Android](you-are-prompted-to-install-lookout-for-work-android.md)
 - [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO2-->
 
 
