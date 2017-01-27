@@ -14,19 +14,35 @@ ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
 ms.reviewer: cacamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 1a83bd41e4dc3aaa2e98b78b918b0cfe4c74dfe3
+ms.sourcegitcommit: 9d891933178d4bdf1079287efc151fe8859c7e83
+ms.openlocfilehash: e91c9da9614791e128a64add822d7f101818b9c0
 
 
 ---
 
-# <a name="how-to-get-admin-support-for-microsoft-intune"></a>Получение поддержки администратора для Microsoft Intune
+# <a name="how-admins-get-support-for-microsoft-intune"></a>Получение администраторами поддержки по Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Для каждой подписки Microsoft Intune Майкрософт предлагает услуги глобальной, технической и предпродажной поддержки, а также поддержки по выставлению счетов и продлению подписки. Для оплаченных и пробных подписок доступна поддержка в Интернете и по телефону. Техническая поддержка в Интернете доступна только на английском и японском языках. Поддержка по телефону и поддержка выставления счетов по сети доступны на дополнительных языках.
 
 Поддержка Intune и для Intune с Configuration Manager предоставляется бесплатно. С клиентов службы поддержки уровня Premier взимается плата за вопросы о процедурах (например, как настроить функцию Intune).
+
+## <a name="find-help-without-opening-a-support-ticket"></a>Поиск справки без обращения в службу поддержки
+
+Поищите ответы в источниках ниже, прежде чем отправлять обращение в службу поддержки.
+
+### <a name="microsoft-intune-technet-forums"></a>Форумы TechNet по Microsoft Intune
+
+Задайте вопрос техническим экспертам Майкрософт или начните обсуждение! На [форуме TechNet по Microsoft Intune](https://social.technet.microsoft.com/Forums/home) представлена ценная информация и мы отвечаем на вопросы.
+
+    ![Microsoft Intune TechNet Forum](../media/technet-forum-for-support.png)
+
+### <a name="microsoft-intune-uservoice-product-feedback-site"></a>Сайт UserVoice с отзывами о Microsoft Intune
+
+Вы знаете, как Майкрософт может улучшить Intune? Поделитесь идеями на сайте отзывов [UserVoice](https://microsoftintune.uservoice.com/forums/291681-ideas) о Microsoft Intune. Вы также можете голосовать за идеи, добавленные другими пользователями. 
+
+    ![Microsoft Intune UserVoice feedback page](../media/intune-uservoice-feedback-page.png)
 
 ## <a name="create-an-online-service-ticket"></a>Создание запроса на обслуживание в Интернете
 
@@ -116,6 +132,6 @@ ms.openlocfilehash: 1a83bd41e4dc3aaa2e98b78b918b0cfe4c74dfe3
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

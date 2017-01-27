@@ -42,10 +42,10 @@
 ## [Раздел 9. Тестирование и проверка](plan-design/section-9-test-and-validation.md)
 ## [Дополнительные ресурсы](plan-design/additional-resources.md)
 
-# Что нового
-## [Что нового](whats-new/whats-new-in-microsoft-intune.md)
+# [Что нового](whats-new/whats-new-in-microsoft-intune.md)
+## [Новые возможности пользовательского интерфейса приложений в Intune](whats-new/whats-new-in-intune-app-ui.md)
 ## [Новые возможности в предварительной версии Azure](/intune-azure/introduction/whats-new?toc=%2fintune%2ftoc.json)
-## [Новые возможности — архив](whats-new/whats-new-archive.md)
+## [Архив статей "Новые возможности"](whats-new/whats-new-archive.md)
 
 # Развертывание и использование
 ## [Общие сведения о жизненных циклах устройств и приложений](deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune.md)
@@ -222,6 +222,6 @@
 # [Глоссарий](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Jan17_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 
