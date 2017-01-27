@@ -14,8 +14,8 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e208608d50c9b5f7fe66743de0d3c7e741dbfbd
-ms.openlocfilehash: c2293306e847148ff7413be3e9eeafb8349e33fe
+ms.sourcegitcommit: 40298ae2de5f3bc8090e19882e039c5ec6471820
+ms.openlocfilehash: 3d3c3e0b5fa68f838b8cf1d72346d7abb140073a
 
 
 ---
@@ -60,7 +60,10 @@ ms.openlocfilehash: c2293306e847148ff7413be3e9eeafb8349e33fe
 -   iOS 8.1 или более поздняя версия
 -   Android 4 или более поздняя версия
 
-Устройства с Windows сейчас не поддерживаются.
+>[!NOTE]
+>Устройства Windows не поддерживаются в MAM без сценария регистрации. Но при регистрации устройств с ОС Windows 10 в Intune вы можете использовать компонент Windows Information Protection, который предоставляет сходные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
+
+
 ##  <a name="how-mam-policies-protect-app-data"></a>Защита данных приложения с помощью политик MAM
 
 ###  <a name="apps-without-mam-policies"></a>Приложения без политик MAM
@@ -132,6 +135,6 @@ ms.openlocfilehash: c2293306e847148ff7413be3e9eeafb8349e33fe
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

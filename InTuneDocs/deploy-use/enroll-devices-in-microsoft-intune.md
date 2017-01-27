@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 09/15/2016
+ms.date: 01/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: 8fc415f7-0053-4aa5-8d2b-03202eca4b87
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: bfb1cee100b9c7bfcdc862489254e6ccefe9ecf0
+ms.sourcegitcommit: b75d034b4540f93eb235729b1cdad52b4c463eb0
+ms.openlocfilehash: cf5089053178120e633fdbae5868bec5aa0466f5
 
 
 ---
@@ -34,7 +34,7 @@ ms.openlocfilehash: bfb1cee100b9c7bfcdc862489254e6ccefe9ecf0
 
 - **Очистка** — указывает, нужно ли очищать устройство, прежде чем пользователи смогут зарегистрировать его. Термин "очистка" означает сброс устройства в заводские параметры по умолчанию, при котором все данные удаляются. Дополнительные сведения см. в статье [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md).
 - **Сходство**  —связывание устройств с пользователями. Необходимо для управления мобильными приложениями (MAM) и условного доступа к данным организации. Дополнительные сведения см. в статье [Сопоставление пользователей](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices).
-- **Блокировка** запрещает пользователям удалять устройства из среды управления. Для блокировки устройств iOS на них должен быть установлен режим "Защищено". Дополнительные сведения см. в статье [Удаленная блокировка](retire-devices-from-microsoft-intune-management.md#block-access-a-device).
+- **Блокировка** — указывает, запрещено ли пользователям отменять регистрацию устройств в системе управления. Отменить регистрацию устройства на базе любой из платформ можно из приложения "Корпоративный портал". Из встроенных меню ОС это невозможно. 
 
 **Методы регистрации в iOS**
 
@@ -123,6 +123,6 @@ Intune может управлять следующими платформами
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
