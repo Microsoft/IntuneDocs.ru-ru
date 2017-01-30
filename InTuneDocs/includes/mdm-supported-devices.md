@@ -26,6 +26,6 @@
 Полный список устройств и методов управления см. в разделе [Устройства с поддержкой Intune](https://docs.microsoft.com/intune/get-started/what-to-know-before-you-start-microsoft-intune#intune-supported-devices).
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Jan17_HO5-->
 
 
