@@ -13,8 +13,8 @@ ms.assetid: f5615051-2dd1-453b-9872-d3fdcefb2cb8
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: d58b2d57ec99add7bbc372584f0ecc430830530a
+ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
+ms.openlocfilehash: ac22478c1de2421e1a7345aca92510fbda73f7e8
 
 
 ---
@@ -39,7 +39,7 @@ ms.openlocfilehash: d58b2d57ec99add7bbc372584f0ecc430830530a
 
 2.  **Создание записей CNAME** (необязательно)<br>Создайте запись ресурсов **CNAME** DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.
 
-    Хотя создание записей DNS CNAME и не является обязательным, записи CNAME упрощают регистрацию для пользователей. При отсутствии записи CNAME для регистрации пользователям предлагается вручную ввести имя сервера MDM — https://manage.microsoft.com.
+    Хотя создание записей DNS CNAME и не является обязательным, записи CNAME упрощают регистрацию для пользователей. При отсутствии записи CNAME для регистрации пользователям предлагается вручную ввести имя сервера MDM — это https://enrollment.manage.microsoft.com.
 
     Если у вас уже есть запись CNAME в службе DNS, которая перенаправляет EnterpriseEnrollment.contoso.com на manage.microsoft.com, предполагается, следует заменить ее записью CNAME в службе DNS, которая перенаправляет EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com. Это рекомендуемое изменение, так как конечная точка manage.microsoft.com в будущем выпуске не будет использоваться для регистрации.
 
@@ -62,9 +62,7 @@ ms.openlocfilehash: d58b2d57ec99add7bbc372584f0ecc430830530a
 
     ![Диалоговое окно "Настройка управления мобильными устройствами для Windows"](../media/windows-phone-enrollment.png)
 
-4.  **Дополнительные шаги**<br>Для Windows 10 шаг **Добавление ключей для загрузки неопубликованных приложений** не требуется. Шаг **Отправка сертификата подписи кода** необходим, только если планируется распространять на устройства бизнес-приложения, недоступные в Магазине Windows.
-
-5.  **Сообщите пользователям, как регистрировать свои устройства, чтобы получить доступ к ресурсам компании.**
+4.  **Сообщите пользователям, как регистрировать свои устройства, чтобы получить доступ к ресурсам компании.**
 
     Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Windows в Intune](../enduser/enroll-your-device-in-intune-windows.md). Вы также можете перенаправить пользователей к статье [Что может видеть ИТ-администратор при регистрации устройства в Intune?](../enduser/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
 
@@ -76,6 +74,6 @@ ms.openlocfilehash: d58b2d57ec99add7bbc372584f0ecc430830530a
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

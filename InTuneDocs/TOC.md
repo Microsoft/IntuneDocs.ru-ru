@@ -159,9 +159,9 @@
 #### [Блокировать приложения без ADAL](deploy-use/block-apps-with-no-modern-authentication.md)
 ### [Защита доступа к сетям (Cisco ISE)](deploy-use/restrict-access-to-networks.md)
 ### [Защита доступа на основе рисков, связанных с устройствами, сетями и приложениями](deploy-use/device-threat-protection.md)
-#### [Настройка защиты устройства от угроз Lookout](deploy-use/device-threat-protection-subscription-setup.md)
-#### [Включение Lookout в Intune](deploy-use/device-threat-protection-enable.md)
-#### [Развертывание Lookout для рабочих приложений](deploy-use/device-threat-protection-apps.md)
+#### [Настройка защиты устройств от угроз](deploy-use/device-threat-protection-subscription-setup.md)
+#### [Включение защиты устройств от угроз](deploy-use/device-threat-protection-enable.md)
+#### [Развертывание приложений для защиты устройств от угроз](deploy-use/device-threat-protection-apps.md)
 #### [Включение политики соответствия для защиты устройства от угроз](deploy-use/device-threat-protection-policy.md)
 
 ### [Защита данных приложения с помощью MAM](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
@@ -217,7 +217,7 @@
 
 ## [Устранение неполадок управления мобильными приложениями](troubleshoot/troubleshoot-mam.md)
 
-## [Устранение неполадок интеграции Lookout](troubleshoot/troubleshooting-lookout-integration.md)
+## [Устранение неполадок при защите устройств от угроз](troubleshoot/device-threat-protection-troubleshooting.md)
 
 # [Глоссарий](understand-explore/intune-glossary.md)
 
