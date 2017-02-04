@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/10/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -50,8 +50,6 @@ ms.openlocfilehash: 985b3d14091f1adff15ae08dd95800640363d2f2
 -   Mac OS X 10.9 и более поздние версии
 
 Для устройств под управлением Windows 8.1 или Windows 10 для настольных компьютеров или мобильных устройств можно импортировать профиль конфигурации Wi-Fi, который ранее был экспортирован в файл. Дополнительные сведения см. в разделе [Экспорт или импорт профиля конфигурации Wi-Fi для устройств Windows](#export-or-import-a-wi-fi-configuration-profile-for-windows-devices).
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите пункты **Политика** &gt; **Добавить политику**.
 

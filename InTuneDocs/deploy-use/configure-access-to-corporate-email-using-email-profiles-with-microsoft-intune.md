@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/10/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -23,8 +23,6 @@ ms.openlocfilehash: 519d3f475e158391b08ab4e51f9410b7bdefcd4c
 # <a name="configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune"></a>Настройка доступа к корпоративной электронной почте с помощью профилей электронной почты с Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 Многие платформы мобильных устройств имеют собственные почтовые клиенты, которые входят в состав операционных систем. Некоторые из этих клиентов можно настраивать с помощью профилей электронной почты, которые описываются в этом разделе.
 
