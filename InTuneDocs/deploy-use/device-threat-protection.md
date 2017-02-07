@@ -2,8 +2,8 @@
 title: "Защита доступа при помощи функции защиты устройства от угроз | Microsoft Docs"
 description: "Защита доступа к ресурсам организации на основе риска для устройства, сети и приложений."
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
