@@ -2,8 +2,8 @@
 title: "Правила доступа к Exchange для мобильных устройств | Документы Майкрософт"
 description: "Правила доступа к Exchange ActiveSync позволяют разрешать или запрещать подключение устройств к EAS."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 07/19/2016
 ms.topic: article
