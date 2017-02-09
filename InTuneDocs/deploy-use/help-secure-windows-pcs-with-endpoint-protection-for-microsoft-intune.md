@@ -2,10 +2,10 @@
 title: "Endpoint Protection для компьютеров с ОС Windows| Документы Майкрософт"
 description: "Сведения о защите управляемых компьютеров с помощью службы Endpoint Protection, которая обеспечивает защиту в реальном времени от угроз вредоносных программ."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: arob98
-ms.date: 07/25/2016
+ms.date: 01/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune

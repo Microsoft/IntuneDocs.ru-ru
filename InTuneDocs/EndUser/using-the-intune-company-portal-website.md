@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
 translationtype: Human Translation
@@ -37,7 +38,7 @@ ms.openlocfilehash: d10cc421dc6fe422b7a2c26b4902997c8c6b2e61
 
 -   [Удаленная блокировка устройства](remote-lock-your-device-cpwebsite.md)
 
--   [Синхронизация устройства вручную, чтобы ускорить установку медленных приложений](sync-your-device-manually-cpwebsite.md)
+-    [Синхронизация устройства вручную, чтобы ускорить установку медленных приложений](sync-your-device-manually-cpwebsite.md)
 
 -   Поиск контактных данных ИТ-администратора, если они настроены
 

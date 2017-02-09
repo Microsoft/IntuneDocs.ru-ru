@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 018bda65-7238-41f5-b92a-e5f67b7fe085
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
@@ -29,9 +30,9 @@ ms.openlocfilehash: 7d06eabf07039b14a5d24617d94a968bc2e85f22
 
 Для отмены регистрации устройства выберите ссылку из раздела "В данной статье" выше в соответствии с типом используемого устройства:
 
--   [Отмена регистрации устройства с Windows 10](#unenroll-your-windows-10-device)
--   [Отмена регистрации компьютера с Windows 8.1](#unenroll-your-windows-8-1-computer)
--   [Отмена регистрации устройства с Windows Phone 8.1](#unenroll-your-windows-phone-8-1-device)
+-    [Отмена регистрации устройства с Windows 10](#unenroll-your-windows-10-device)
+-    [Отмена регистрации компьютера с Windows 8.1](#unenroll-your-windows-8-1-computer)
+-    [Отмена регистрации устройства с Windows Phone 8.1](#unenroll-your-windows-phone-8-1-device)
 
 ## <a name="unenroll-your-windows-10-device"></a>Отмена регистрации устройства с Windows 10
 

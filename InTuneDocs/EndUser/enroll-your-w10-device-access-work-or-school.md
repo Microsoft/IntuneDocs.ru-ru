@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 812e82df-76df-402b-bfe9-29302838f40e
 searchScope:
 - Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
 translationtype: Human Translation
@@ -23,6 +24,8 @@ ms.openlocfilehash: 865c0e607b053c4d5aff648332b1dcfc68dc0e6c
 ---
 
 # <a name="enroll-your-windows-10-device-in-intune"></a>Регистрация устройства на базе Windows 10 в Intune
+
+<iframe src="https://channel9.msdn.com/Series/IntuneEnrollment/Windows-Enrollment/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
 1.  Коснитесь пункта **Доступ к учетной записи места работы или учебного заведения**, а затем — пункта **Подключиться**.
 

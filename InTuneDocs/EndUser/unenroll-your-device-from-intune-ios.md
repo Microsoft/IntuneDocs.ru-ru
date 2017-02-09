@@ -13,7 +13,7 @@ ms.technology:
 ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 searchScope:
 - Company Portal
-ROBOTS: 
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 translationtype: Human Translation
