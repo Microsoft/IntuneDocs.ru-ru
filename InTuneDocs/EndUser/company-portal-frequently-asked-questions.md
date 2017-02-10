@@ -1,103 +1,13 @@
 ---
-title: "Что такое корпоративный портал? | Документация Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
-manager: angrobe
-ms.date: 01/04/2017
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
-searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
-ms.reviewer: jeffgilb
-ms.suite: ems
+redirect_url: https://docs.microsoft.com/intune/enduser/use-managed-devices-to-get-your-work-done
 translationtype: Human Translation
-ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
-ms.openlocfilehash: fa9c3fd2c995615e9aa9a16f3bd834b0c145b6d0
-
+ms.sourcegitcommit: 68c7a23dc8769330c14f74e6aebb07eeb188a991
+ms.openlocfilehash: b4ac7e15106983a6fb7ade089da57b4f28fa9375
 
 ---
 
-# <a name="about-the-company-portal"></a>О корпоративном портале
-
-## <a name="what-is-the-company-portal-and-what-can-you-do-with-it"></a>Что такое корпоративный портал и для чего он нужен?
-Корпоративный портал предоставляет доступ к принадлежащим организации или учебным данным и приложениям. Доступ к корпоративному порталу можно получить двумя способами:
-
-- Установив приложение корпоративного портала на устройство. Обычно приложение корпоративного портала устанавливается через магазин приложений на вашем устройстве, однако его также может установить ИТ-администратор.
-- Перейдя на [веб-сайт корпоративного портала](http://portal.manage.microsoft.com), который настроил ИТ-администратор.
-
-Между приложением и веб-сайтом корпоративного портала существуют небольшие различия, но большая часть задач в них выполняется одинаково. Ниже приведены некоторые доступные задачи.
-
-- Регистрация устройств
-- Просмотр состояния устройств
-- Скачивание доступных корпоративных или учебных приложений
-- переименовывать устройство;
-- Сброс ПИН-кода или пароля
-- Обращение в ИТ-отдел за поддержкой
-
-Чтобы узнать, что можно делать с помощью веб-сайта корпоративного портала и приложения корпоративного портала на устройстве, выберите одну из следующих ссылок:
-
-> [!div class="op_single_selector"]
-- [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
-- [Использование устройств iOS и macOS в Intune](using-your-ios-or-macOS-device-with-intune.md)
-- [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
-- [Использование веб-сайта корпоративного портала](using-the-intune-company-portal-website.md)
-
-## <a name="what-happens-when-you-add-a-computer-or-device-to-the-company-portal"></a>Что происходит при добавлении компьютера или устройства на корпоративный портал?
-При добавлении компьютера или устройства на корпоративный портал могут быть установлены некоторые программы или загружено приложение (в зависимости от устройства).  Вы также предоставляете своему ИТ-администратору разрешение на управление устройством для защиты корпоративных данных на нем.
-
-Чтобы узнать, что ИТ-администратор может и не может просмотреть на вашем устройстве, используйте ссылку, соответствующую типу устройства:
-
-> [!div class="op_single_selector"]
-- [Android](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
-- [iOS и macOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md);
-- [Windows](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
-
-## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>Какие компьютеры или устройства можно добавлять на корпоративный портал?
-
--   Устройства Apple на базе iOS (iPhone, iPad) и macOS (iMac, MacBook)
-
--   Устройства Android
-
--   Устройства Windows
-    -   Windows 10 Mobile
-    -   Windows 10 Desktop
-    -   Windows Phone 8.1
-    -   Windows 8.1
-
-## <a name="can-you-remove-a-computer-or-device-from-the-company-portal"></a>Можно ли удалить компьютер или устройство из корпоративного портала?
-Можно удалить компьютер или устройство из корпоративного портала или сбросить его. Существует различие между **удалением** и **сбросом** устройства.
-
-При *удалении* компьютера или устройства выполняется отмена регистрации устройства в Intune. После отмены регистрации вы больше не сможете обращаться к корпоративному порталу с этого устройства, и некоторые корпоративные данные могут быть удалены с вашего устройства. Чтобы узнать, как удалить устройство из корпоративного портала, выберите одну из следующих ссылок:
-
-> [!div class="op_single_selector"]
-- [Android](unenroll-your-device-from-intune-android.md)
-- [iOS и macOS](unenroll-your-device-from-intune-ios.md);
-- [Windows](unenroll-your-device-from-intune-windows.md)
-
-При *сбросе* компьютера или устройства корпоративный портал пытается выполнить сброс устройства до заводских настроек по умолчанию. При сбросе устройства с него удаляются все корпоративные и персональные данные! В случае потери устройства вы сможете удаленно сбросить его с веб-сайта корпоративного портала.
-
-Чтобы узнать, как выполнить сброс устройства, выберите одну из следующих ссылок:
-
-> [!div class="op_single_selector"]
-- [Android](reset-erase-your-lost-or-stolen-device-android.md)
-- [iOS и macOS](reset-erase-your-lost-or-stolen-device-ios.md);
-- [Windows](reset-erase-your-lost-or-stolen-device-windows.md)
-- [Сброс устройства с веб-сайта корпоративного портала](reset-your-device-cpwebsite.md)
-
-## <a name="you-do-not-see-all-of-your-devices-in-the-company-portal"></a>Почему не все устройства отображаются на корпоративном портале?
-Устройство отображается на корпоративном портале, только если оно добавлено на него. Перейдите на корпоративный портал в соответствии с указаниями администратора и выполните действия, предусмотренные для вашего устройства. Также не будут отображаться корпоративные устройства и устройства, которыми управляет ваша компания.
-
-## <a name="if-you-have-questions-contact-your-it-administrator"></a>Если у вас есть вопросы, обратитесь к ИТ-администратору.
-Если вам нужна помощь, обратитесь к системному администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
-
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO2-->
 
 
