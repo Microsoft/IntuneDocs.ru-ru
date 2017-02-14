@@ -11,7 +11,8 @@
 
 # [Приступая к работе](get-started/get-started.md)
 ## [Настройка Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
-### [Предварительные требования](get-started/what-to-know-before-you-start-microsoft-intune.md)
+### [Предварительные требования]
+#### [Поддерживаемые устройства](get-started/what-to-know-before-you-start-microsoft-intune.md)
 #### [Использование сети](get-started/network-bandwidth-use.md)
 ### [Вход в Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
 ### [Настройка доменов](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2.md)
@@ -57,7 +58,6 @@
 #### [Управление Android](deploy-use/set-up-android-management-with-microsoft-intune.md)
 #### [Управление Android for Work](deploy-use/set-up-android-for-work.md)
 #### [Управление устройствами Windows](deploy-use/set-up-windows-device-management-with-microsoft-intune.md)
-#### [Windows 10 Mobile и Windows Phone](deploy-use/set-up-windows-phone-management-with-microsoft-intune.md)
 ### [Управление устройствами, являющимися собственностью организации](deploy-use/manage-corporate-owned-devices.md)
 #### [Регистрация корпоративных устройств iOS](deploy-use/enroll-corporate-owned-ios-devices-in-microsoft-intune.md)
 ##### [Регистрация помощника по установке](deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune.md)
@@ -106,7 +106,7 @@
 
 ## [Защита устройств](deploy-use/protect-your-devices-with-microsoft-intune.md)
 ### [Удаленная блокировка и сброс секретного кода](deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
-### [Защита устройств Windows с помощью многофакторной проверки подлинности](deploy-use/protect-windows-devices-with-multi-factor-authentication.md)
+### [Защита устройств Windows с помощью многофакторной проверки подлинности](deploy-use/multi-factor-authentication-azure-active-directory.md)
 ### [Управление параметрами Windows Hello для бизнеса](deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
 ### [Обход блокировки активации в iOS](deploy-use/help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)
 ### [Политики для защиты компьютеров с ОС Windows](deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune.md)
@@ -222,6 +222,6 @@
 # [Глоссарий](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Jan17_HO5-->
+<!--HONumber=Feb17_HO2-->
 
 
