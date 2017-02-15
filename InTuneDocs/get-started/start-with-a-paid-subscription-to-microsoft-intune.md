@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -22,6 +22,9 @@ ms.openlocfilehash: 7777b7fb4a0977ed663a3ef01547f22e9e61bb8a
 
 
 # <a name="intune-quick-start-guide"></a>Краткое руководство по Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Сведения в этом руководстве помогут вам начать работу с платной подпиской на Microsoft Intune. Приведенные ниже действия предназначены для управления мобильными устройствами и ПК с ОС Windows, а также приложениями в вашей организации. Вы можете выполнять все действия подряд или пропускать те из них, которые не распространяются на вашу среду или бизнес-требования. Если вы хотите опробовать Intune, см. [руководство по оценке Intune](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune).  
 
 Если в данный момент вы используете Microsoft System Center Configuration Manager для управления компьютерами и серверами, то можно [расширить функции Configuration Manager, чтобы управлять мобильными устройствами](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management).
