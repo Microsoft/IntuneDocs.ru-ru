@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 02/16/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: ed9250aa-e894-4eac-92b8-5f1a3748e255
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: f28c96328c915fdcd0a0cd263de9c4bb9181808f
+ms.sourcegitcommit: b4295fbc9df88fa537f18b1280dfcc32702ccc51
+ms.openlocfilehash: ef14eba575df3c4498a5a70384c3cf59c34b86b0
 
 
 ---
@@ -46,6 +46,6 @@ ms.openlocfilehash: f28c96328c915fdcd0a0cd263de9c4bb9181808f
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO3-->
 
 
