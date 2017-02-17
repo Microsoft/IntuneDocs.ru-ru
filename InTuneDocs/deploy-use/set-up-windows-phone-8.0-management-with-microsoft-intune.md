@@ -4,7 +4,7 @@ description: "Включение управления мобильными ус�
 keywords: 
 author: NathBarn
 manager: angrobe
-ms.date: 10/21/2016
+ms.date: 02/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
