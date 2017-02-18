@@ -1,19 +1,20 @@
 ---
-title: "Настройка управления Android for Work | Документы Майкрософт"
+title: "Настройка Android for Work | Документы Майкрософт"
 description: "Включение управления мобильными устройствами (MDM) для устройств Android for Work с помощью Microsoft Intune."
 keywords: 
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 10/12/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: e0116fb151cd8d05d2d854f0102894a9d72b818e
+ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
+ms.openlocfilehash: 24ab39a92d69e92e1c202005fcd783018c4d4621
 
 
 ---
@@ -21,8 +22,6 @@ ms.openlocfilehash: e0116fb151cd8d05d2d854f0102894a9d72b818e
 # <a name="enable-enrollment-of-android-for-work-devices"></a>Включение регистрации устройств Android for Work
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 Чтобы включить управление устройствами Android for Work, в Intune необходимо добавить привязку Android for Work. Для регистрации устройств, которые поддерживают Android for Work, но ранее были зарегистрированы как обычные устройства Android, их регистрацию необходимо отменить, а затем снова зарегистрировать.
 
@@ -37,7 +36,7 @@ ms.openlocfilehash: e0116fb151cd8d05d2d854f0102894a9d72b818e
 3. **Вход в Google**<br>
    На странице входа в Google выполните вход с учетной записью Google, которая будет связана со всеми задачами управления устройствами Android for Work для этого клиента. Это может быть учетная запись Google, общая для всех администраторов, управляющих Intune. Это учетная запись Google, которая используется в организации для управления и публикации приложений в консоли Play for Work.
 
-4. **Сведения об организации**<br>
+4. **Указание данных об организации**<br>
    Укажите наименование своей компании в поле **Название организации**. Для параметра **Поставщик услуг Enterprise mobility management (EMM)** должно быть указано значение *Microsoft Intune*. Примите соглашение Android for Work и нажмите кнопку **Подтвердить**. Ваш запрос будет обработан.
 
 ## <a name="specify-android-for-work-enrollment-settings"></a>Настройка параметров регистрации Android for Work
@@ -54,7 +53,7 @@ ms.openlocfilehash: e0116fb151cd8d05d2d854f0102894a9d72b818e
 
 ## <a name="unbinding-your-android-for-work-administrative-account"></a>Отмена привязки учетной записи администратора Android for Work
 
-Вы можете отменить регистрацию и управление Android for Work. Нажатие кнопки **Отменить привязку** отменяет регистрацию всех зарегистрированных устройств Android for Work и удаляет связь между учетной записью Android for Work и Intune.
+Вы можете отменить регистрацию и управление Android for Work. Нажатие кнопки **Отменить привязку** в консоли администрирования Intune отменяет регистрацию всех зарегистрированных устройств Android for Work и удаляет связь между учетной записью Android for Work и Intune.
 
 ### <a name="how-to-unbind-an-android-for-work-account"></a>Отмена привязки учетной записи Android for Work
 
@@ -66,6 +65,6 @@ ms.openlocfilehash: e0116fb151cd8d05d2d854f0102894a9d72b818e
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO1-->
 
 

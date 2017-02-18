@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/6/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: cd0bbd90-d3fe-4efc-83fd-d1f3f86800d4
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
+ms.sourcegitcommit: 31e28514ab4bdb0f5af261a1f7c87633ca0bd4a6
+ms.openlocfilehash: e67ec317b22e18d0be8bca449b9382f74935d6e8
 
 
 ---
@@ -24,10 +25,9 @@ ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
 Развертывание приложений на устройствах Android for Work осуществляется иначе, чем на обычных устройствах Android. Все приложения для устройств Android for Work устанавливаются из магазина Google Play for Work. Для этого нужно войти в магазин, найти нужное приложение и подтвердить его установку.
 Приложение появится в узле **Volume-Purchased Apps** консоли Intune. Здесь можно управлять развертыванием приложения аналогично любому другому приложению.
+
 Кроме того, при наличии можно установить собственные бизнес-приложения. Для этого необходимо зарегистрировать учетную запись разработчика Google, которая позволит публиковать приложения в закрытой области магазина Google Play, а затем синхронизировать их с Intune.
 
 ## <a name="before-you-start"></a>Перед началом работы
@@ -40,9 +40,9 @@ ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
 1. Перейдите в [магазин Google Play for Work](https://play.google.com/work). Войдите с использованием той же учетной записи, которая использовалась для настройки подключения между Intune и Android for Work.
 2. Найдите в магазине приложение, которое нужно развернуть с помощью Intune.
 3. На странице выбранного приложения выберите **Утвердить**. В этом примере выбрано приложение Microsoft Excel.<br>
-  ![Пример утверждения приложения](/intune/deploy-use/media/approve.png)
+  ![Пример утверждения приложения](media/approve.png)
 4. Откроется окно приложения с запросом о предоставлении ему разрешений на выполнение различных операций. Чтобы продолжить, выберите **Утвердить**.<br>
-  ![Пример утверждения разрешений для приложения](/intune/deploy-use/media/approve-app-permissions.png)
+  ![Пример утверждения разрешений для приложения](media/approve-app-permissions.png)
 5. Через некоторое время появится сообщение с подтверждением того, что приложение было утверждено и доступно в консоли ИТ-администрирования.
 
 ## <a name="publish-then-synchronize-a-line-of-business-app-from-the-google-play-for-work-store"></a>Публикация и последующая синхронизация бизнес-приложения из магазина Google Play for Work
@@ -51,7 +51,7 @@ ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
 2. Войдите с использованием той же учетной записи, которая использовалась для настройки подключения между Intune и Android for Work. При входе в систему первый раз необходимо зарегистрироваться и заплатить взнос, чтобы стать участником программы Google для разработчиков.
 3. В консоли выберите **Добавить новое приложение**.
 4. Предоставление и отправка данных о приложении осуществляются так же, как при публикации любого другого приложения в магазине Google Play. Тем не менее, необходимо выбрать параметр **Сделать приложение доступным только для моей организации (<*Название организации*>) **, как показано ниже.<br>
-  ![Параметр, определяющий доступность приложения только для вашей организации](/intune/deploy-use/media/restrict.png)<br>
+  ![Параметр, определяющий доступность приложения только для вашей организации](media/restrict.png)<br>
 Это гарантирует, что приложение будет доступно только для вашей организации и недоступно в общедоступном магазине Google Play.
 Дополнительные сведения о загрузке и публикации приложений Android см. в [Справке по консоли разработчика Google](https://support.google.com/googleplay/android-developer/answer/113469).
 5. После публикации приложения перейдите в [магазин Google Play for Work](https://play.google.com/work). Войдите с использованием той же учетной записи, которая использовалась для настройки подключения между Intune и Android for Work.
@@ -71,6 +71,6 @@ ms.openlocfilehash: c3a46f9a8e66a1d7de8878105f5752b17a3857b7
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO1-->
 
 
