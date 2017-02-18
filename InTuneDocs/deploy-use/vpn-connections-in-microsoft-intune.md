@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 02/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: abc57093-7351-408f-9f41-a30877f96f73
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 0ba06e1d698e051ba72e9f88a654d37041c57cf1
-ms.openlocfilehash: cd9785889ca8b2a78a49ea2b04284d32b3fa8a65
+ms.sourcegitcommit: 0154e3bfeac0457de57257045e3e7ce833325bce
+ms.openlocfilehash: a462bcfa107bf1a37ea4e84bc3d88d0dd81f9fc8
 
 
 ---
@@ -40,20 +41,16 @@ ms.openlocfilehash: cd9785889ca8b2a78a49ea2b04284d32b3fa8a65
 
 Параметры конфигурации для профиля VPN различаются в зависимости от выбранного типа устройств.
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
 ## <a name="vpn-connection-types"></a>Типы VPN-подключений
 
 Intune поддерживает создание профилей VPN, которые используют следующие типы подключений:
-
-
 
 
 Тип подключения |iOS и Mac OS X  |Android и Android for Work|Windows 8.1|Windows RT 8.1|Windows Phone 8.1|Windows 10 Desktop и Mobile |
 ----------------|------------------|-------|-----------|----------|--------------|-----------------|----------------------|
 Cisco AnyConnect|Да |Да   |Нет    |Нет  |Нет    | Да (OMA-URI, только Mobile)|     
 Cisco (IPsec)|да |Да   |Нет  |Нет  |Нет | Нет|
-Citrix|да |Нет   |Нет  |Нет  |Нет | Нет|
+Citrix|да |Да (только Android)   |Нет  |Нет  |Нет | Нет|
 Pulse Secure|Да  |Да |Да   |Да  |Да| Да|        
 F5 Edge Client|Да |Да |Да |Да  |   Да |  Да|   
 Dell SonicWALL Mobile Connect|Да |Да |Да |Да |Да |Да|         
@@ -198,8 +195,6 @@ VPN по запросу можно настроить для устройств 
 
 
 
-
-
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO1-->
 
 
