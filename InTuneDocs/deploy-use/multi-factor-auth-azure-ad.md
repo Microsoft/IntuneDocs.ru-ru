@@ -1,32 +1,13 @@
 ---
-title: "Эта функция не включена| Документы Майкрософт"
-description: 
-keywords: 
-author: robstackmsft
-ms.author: robstack
-manager: angerobe
-ms.date: 12/27/2016
-ms.topic: article
-ms.prod: 
-ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: c87fe9d2-efe5-425d-99c5-3c71734e1d5d
-ROBOTS: NOINDEX,NOFOLLOW
+redirect_url: https://docs.microsoft.com/intune/deploy-use/multi-factor-authentication-azure-active-directory
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 6dd21e7538b77c397a694289563107fefd97e914
-
+ms.sourcegitcommit: d3771ed940c969ac675e089ad80e93ea960bedfa
+ms.openlocfilehash: ecf7cc5f55e3545b4532c1f1df0bc878470efbd0
 
 ---
 
-# <a name="this-feature-has-not-been-enabled"></a>Эта функция не включена
-
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
-Эта функция проходит тестирование. Если вы настраиваете эту функцию, она не окажет никакого влияния на конфигурацию, так как эта функция не включена.
 
 
-
-<!--HONumber=Dec16_HO5-->
+<!--HONumber=Jan17_HO3-->
 
 

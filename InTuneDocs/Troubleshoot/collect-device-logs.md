@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 12/15/2016
+ms.date: 02/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: d97fb610-9d88-40e5-bb06-447eec533630
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
-ms.openlocfilehash: 7009cf7626008124e4c8a71198e21ae6def93581
+ms.sourcegitcommit: 211b996263aae7a42f8370eb343c7e759ef87790
+ms.openlocfilehash: 5aae8edd2b851eb94156e82bc9b6e604644cb900
 
 
 ---
@@ -35,7 +36,7 @@ ms.openlocfilehash: 7009cf7626008124e4c8a71198e21ae6def93581
 
 - [Использование подробного журнала для помощи ИТ-администратору в устранении неполадок на устройствах](/intune/enduser/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android) описывает, как пользователи могут включить функцию ведения подробных журналов, которая автоматически отправляет вам все данные журналов. По умолчанию подробное ведение журнала включено.
 
-- [Отправка журналов диагностических данных Android ИТ-администратору по электронной почте](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
+- [Отправка журналов диагностических данных Android ИТ-администратору по электронной почте](/intune/enduser/send-logs-to-your-it-admin-by-email-android)
 
 - [Отправка журналов диагностических данных ИТ-администратору по USB-кабелю](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
 
@@ -59,6 +60,6 @@ ms.openlocfilehash: 7009cf7626008124e4c8a71198e21ae6def93581
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO2-->
 
 
