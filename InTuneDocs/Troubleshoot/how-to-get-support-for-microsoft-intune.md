@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 4682b6b6-c9ef-483e-a6de-b8830cb98b63
 ms.reviewer: cacamp
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
 ms.openlocfilehash: 8f43dc529b2da2c97500c03056ba7908bb8ab0fa

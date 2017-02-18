@@ -12,6 +12,7 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cad9ae15-26e5-418d-8ce5-c2dafc2071f0
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: f121ff01a3eee20473637626128239c4d883e826

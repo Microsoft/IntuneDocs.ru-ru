@@ -16,6 +16,7 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: vadona
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
 ms.openlocfilehash: 8ef336e58c7b1d995d314202b5530d2f6b2ff138

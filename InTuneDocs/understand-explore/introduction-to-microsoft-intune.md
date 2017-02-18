@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: d0057f1e3d2ead729c2143587571fa4b16a3dd2f
 ms.openlocfilehash: 9b4eed086853c0feeb8266a8087a275f2b70e40f
@@ -71,7 +72,7 @@ Intune интегрируется с Azure AD, чтобы поддерживат
 При использовании Intune с другими службами в EMS для мобильных приложений организации можно обеспечить значительно более высокий уровень безопасности, чем тот, который позволяет реализовать мобильная операционная система и конфигурация мобильных приложений. Приложение, управляемое с помощью EMS, имеет доступ к обширному набору средств защиты мобильных приложений и данных, включая следующее:
 
 * [Единый вход](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-appssoaccess-whatis)  
-*   [Многофакторная проверка подлинности](https://docs.microsoft.com/en-us/multi-factor-authentication/multi-factor-authentication)
+*    [Многофакторная проверка подлинности](https://docs.microsoft.com/en-us/multi-factor-authentication/multi-factor-authentication)
 * [Условный доступ для приложения (разрешите доступ, если мобильное приложение содержит корпоративные данные)](https://docs.microsoft.com/en-us/intune/deploy-use/allow-policy-managed-apps-access-to-o365)
 * [Изоляция корпоративных данных от личных данных внутри одного приложения](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)
 * [Политика защиты приложения (ПИН-код, шифрование, элемент "сохранить как", буфер обмена и т. д.)](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)

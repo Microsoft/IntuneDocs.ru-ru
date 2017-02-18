@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: f2b364b2c57adab33df2a8e6b34c1f30c02988d3
 ms.openlocfilehash: 9dbb44981c1525e6137dd8a469b1582731ee9719

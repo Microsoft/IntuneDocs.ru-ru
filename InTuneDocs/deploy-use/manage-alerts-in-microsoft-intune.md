@@ -14,6 +14,7 @@ ms.assetid: 74dc4ce4-21da-4f40-a07f-3eea34561eee
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pbala
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 67a7e25c8365970eb108b2529692a6f67c5de054

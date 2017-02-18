@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 0b1b86ed-2e80-474d-8437-17dd4bc07b55
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 985b3d14091f1adff15ae08dd95800640363d2f2
@@ -43,7 +44,7 @@ ms.openlocfilehash: 985b3d14091f1adff15ae08dd95800640363d2f2
 
 -   Android 4.0 и более поздней версии
 
--   Android for Work   
+-    Android for Work   
 
 -   Устройства iOS 8.0 и более поздней версии
 

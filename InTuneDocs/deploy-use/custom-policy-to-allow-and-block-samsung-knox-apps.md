@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: bbc8e0df-7bf3-494e-8bc4-dac59a98ab41
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
@@ -40,9 +41,9 @@ ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
     
     - **Имя параметра.** Введите **PreventStartPackages**.
     - **Описание параметра.** Введите необязательное описание, например "Список приложений, запуск которых запрещен".
-    -   **Тип данных.** В раскрывающемся списке выберите **Строка**.
-    -   **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
-    -   **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
+    -     **Тип данных.** В раскрывающемся списке выберите **Строка**.
+    -     **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
+    -     **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
 
     Для списка приложений, которые пользователи могут устанавливать из магазина Google Play (все прочие приложения исключаются):
 

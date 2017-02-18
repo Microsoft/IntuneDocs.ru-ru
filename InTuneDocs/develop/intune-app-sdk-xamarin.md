@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: oydang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
 ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
@@ -57,22 +58,22 @@ ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
 
 ## <a name="get-started"></a>Начало работы
 
-1.  Скачайте **Xamarin-component.exe** [отсюда](https://components.xamarin.com/submit/xpkg) и извлеките его.
+1.    Скачайте **Xamarin-component.exe** [отсюда](https://components.xamarin.com/submit/xpkg) и извлеките его.
 
 2. Прочитайте [условия лицензионного соглашения](https://components.xamarin.com/license/microsoft.intune.mam) для компонента Xamarin Microsoft Intune MAM.
 
-3.  Скачайте папку компонента Xamarin из пакета SDK для приложений Intune с [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) или [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam) и извлеките ее. Файлы, скачанные на шагах 1 и 2, должны находиться на одном уровне каталога.
+3.    Скачайте папку компонента Xamarin из пакета SDK для приложений Intune с [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) или [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam) и извлеките ее. Файлы, скачанные на шагах 1 и 2, должны находиться на одном уровне каталога.
 
-4.  В командной строке с правами администратора запустите `Xamain.Component.exe install <.xam> file`.
+4.    В командной строке с правами администратора запустите `Xamain.Component.exe install <.xam> file`.
 
-5.  В Visual Studio щелкните правой кнопкой мыши **компоненты** в ранее созданном проекте Xamarin.
+5.    В Visual Studio щелкните правой кнопкой мыши **компоненты** в ранее созданном проекте Xamarin.
 
-6.  Выберите **Изменить компоненты** и добавьте компонент пакета SDK для приложений Intune, который скачали на свой компьютер.
+6.    Выберите **Изменить компоненты** и добавьте компонент пакета SDK для приложений Intune, который скачали на свой компьютер.
 
 
 
 ## <a name="enabling-intune-mam-in-your-ios-mobile-app"></a>Включение Intune MAM в мобильном приложении iOS
-1.  Чтобы инициализировать пакет SDK для приложений Intune, потребуется выполнить вызов для любого API в классе `AppDelegate.cs`. Пример.
+1.    Чтобы инициализировать пакет SDK для приложений Intune, потребуется выполнить вызов для любого API в классе `AppDelegate.cs`. Пример.
 
       ```csharp
       public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
@@ -83,7 +84,7 @@ ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
 
       ```
 
-2.  Теперь, когда компонент добавлен и инициализирован, следует выполнить общие шаги, необходимые для встраивания пакета SDK в мобильное приложение iOS. Вы найдете полную документацию по включению собственных приложений iOS в разделе [Руководство разработчика iOS по SDK для приложений Intune](intune-app-sdk-ios.md).
+2.    Теперь, когда компонент добавлен и инициализирован, следует выполнить общие шаги, необходимые для встраивания пакета SDK в мобильное приложение iOS. Вы найдете полную документацию по включению собственных приложений iOS в разделе [Руководство разработчика iOS по SDK для приложений Intune](intune-app-sdk-ios.md).
 3. **Важно**! Существует несколько изменений, характерных именно для приложений iOS на базе Xamarin. Например, при включении групп цепочек ключей вам потребуется добавить следующий код для включения примера приложения Xamarin в компонент. Ниже приведен пример групп, которые должны присутствовать в группах доступа к цепочкам ключей:
 
       ```xml
@@ -109,15 +110,15 @@ ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
 
 Для Xamarin Forms и других инфраструктур пользовательского интерфейса мы предоставили средство `MAM.Remapper`. Оно поможет выполнить описанную замену класса. При этом вам потребуется выполнить следующие действия.
 
-1.  Добавьте ссылку на пакет nuget ` Microsoft.Intune.MAM.Remapper.Tasks` версии 0.1.0.0 или более поздней.
+1.    Добавьте ссылку на пакет nuget ` Microsoft.Intune.MAM.Remapper.Tasks` версии 0.1.0.0 или более поздней.
 
-2.  Добавьте следующую строку в файл CSPROJ Android:
+2.    Добавьте следующую строку в файл CSPROJ Android:
   ```xml
   <Import
   Project="$(NugetPack)\\Microsoft.Intune.MAM.Remapper.Tasks.0.1.X.X\\build\\MonoAndroid10\\Microsoft.Intune.MAM.Remapper.targets" />
   ```
 
-3.  Задайте действие сборки для добавленного файла `remapping-config.json` в **RemappingConfigFile**. Имеющийся `remapping-config.json` работает только с Xamarin.Forms. Информацию для других инфраструктур пользовательского интерфейса см. в файле сведений, входящем в состав пакета nuget Remapper.
+3.    Задайте действие сборки для добавленного файла `remapping-config.json` в **RemappingConfigFile**. Имеющийся `remapping-config.json` работает только с Xamarin.Forms. Информацию для других инфраструктур пользовательского интерфейса см. в файле сведений, входящем в состав пакета nuget Remapper.
 
 ## <a name="test-your-app"></a>Тестирование приложения
 

@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 34a412cd-8240-4e06-a60e-df270a711e7b
 ms.reviewer: angrobe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b068da7685792757825a4bc0d555e28ee0168cb1
 ms.openlocfilehash: 2748a70e7f75b474d73fb884343df95e621201e0

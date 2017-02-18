@@ -16,6 +16,7 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
 ms.openlocfilehash: f557aab61a61bde8937d72c99ccf652787170002

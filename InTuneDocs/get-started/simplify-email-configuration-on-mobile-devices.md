@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 1696c715-1e9a-401e-a530-77904fd189ad
 ms.reviewer: pchacon
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
 ms.openlocfilehash: bf25dd15aa9074692017d94bb94285b4c8e77ca8
@@ -34,8 +35,8 @@ Microsoft Intune экономит время и ресурсы компании,
 Когда профиль электронной почты настроен, можно легко ограничить доступ к корпоративной электронной почте и службам Office 365 с помощью политик условного доступа Intune. Эти политики позволяют ограничить доступ к корпоративной электронной почте и службам Office 365 теми устройствами, которые удовлетворяют заданным в Intune правилам.
 
 ## <a name="how-do-i-do-it"></a>Как это сделать?
-1.  Автоматически [настраивайте профили электронной почты пользователей](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) на устройствах Windows, iOS и Android.
-2.  [Управляйте доступом к корпоративной электронной почте](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) с помощью политик условного доступа.
+1.    Автоматически [настраивайте профили электронной почты пользователей](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) на устройствах Windows, iOS и Android.
+2.    [Управляйте доступом к корпоративной электронной почте](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) с помощью политик условного доступа.
 
 
 ### <a name="additional-information"></a>Дополнительная информация:

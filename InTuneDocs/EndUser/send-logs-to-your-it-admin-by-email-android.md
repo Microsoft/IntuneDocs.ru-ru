@@ -16,6 +16,7 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
 ms.openlocfilehash: 5ce680b35ff2a931b13e0395d7bb550f534d2b29

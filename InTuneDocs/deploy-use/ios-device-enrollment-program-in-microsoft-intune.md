@@ -13,6 +13,7 @@ ms.technology:
 ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
 ms.openlocfilehash: ab035d069fa1dbf5f5f38a959dc2f896a0109b6f

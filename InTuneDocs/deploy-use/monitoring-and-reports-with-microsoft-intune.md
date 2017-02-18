@@ -11,6 +11,7 @@ ms.technology:
 ms.assetid: 0f7dc155-cb8e-477b-ba02-2623194a9575
 ms.reviewer: pbala
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: c90fe2fbe0655e34be5bbd38e969928e288f613d
