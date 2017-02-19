@@ -1,11 +1,11 @@
 ---
-title: "Предложение установить Lookout for Work на устройстве iOS | Документы Майкрософт"
+title: "Вам необходимо установить Lookout for Work на устройстве iOS | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/17/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,20 +14,21 @@ ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 64e094c8648c0737cdbc0dcdc4ec6b3a8bc96831
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 15c820d4b25b8deb3ab17601a4835c57e5ede780
 
 
 ---
 
-# <a name="you-are-prompted-to-install-lookout-for-work-on-your-ios-device"></a>Предложение установить Lookout for Work на устройстве iOS
+# <a name="you-need-to-install-lookout-for-work-on-your-ios-device"></a>Вам необходимо установить Lookout for Work на устройстве iOS
 
 Перед тем как вы сможете получить доступ к рабочим файлам, ИТ-администратору необходимо установить приложение Lookout for Work, которое помогает защитить устройство путем поиска потенциальных угроз безопасности. На устройстве могут выводиться различные запросы в зависимости от того, как ИТ-администратор настроил Lookout for Work.
 
 **Необходимо выполнить следующие действия:**
 
-1.  Если появился приведенный ниже запрос, выберите **Установить**, чтобы разрешить установку Lookout for Work на устройстве.
+1.    Если появился приведенный ниже запрос, выберите **Установить**, чтобы разрешить установку Lookout for Work на устройстве.
 
     ![Нажмите "Установить", чтобы установить Lookout for Work](./media/ios-lfw-install-app-request.png)
 
@@ -43,7 +44,7 @@ ms.openlocfilehash: 64e094c8648c0737cdbc0dcdc4ec6b3a8bc96831
 
     ![Выберите "Параметры", а затем "Службы определения местоположения"](./media/ios-lfw-allow-notifications.png)
 
-    
+
 Установка Lookout for Work завершится, и вы увидите приведенный ниже экран, если на устройстве не будут обнаружены угрозы безопасности.
 
 ![приложение Lookout for Work не нашло угроз безопасности](./media/ios-lfw-no-threats-found.png)
@@ -56,7 +57,6 @@ ms.openlocfilehash: 64e094c8648c0737cdbc0dcdc4ec6b3a8bc96831
 
 
 
-
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

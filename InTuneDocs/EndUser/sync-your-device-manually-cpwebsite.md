@@ -1,11 +1,11 @@
 ---
-title: "Ручная синхронизация устройства с помощью веб-сайта корпоративного портала | Документы Майкрософт"
+title: "Синхронизация устройства с веб-сайтом корпоративного портала | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/05/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,15 +16,16 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: fbbe9233ae2e07209356a0cec14d085f742e6436
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 1dded693cb60bacb9c0a445bb26c818dde778a7a
 
 
 ---
 
 
-# <a name="use-the-company-portal-website-to-sync-your-device"></a>Использование веб-сайта корпоративного портала для синхронизации устройства
+# <a name="sync-your-device-with-the-company-portal-website"></a>Синхронизация устройства с веб-сайтом корпоративного портала
 
 Иногда установка приложения или выполнение какой-либо задачи может занять больше времени, чем обычно. Если требуется слишком много времени, попробуйте вручную синхронизировать устройство, чтобы ускорить выполняемую операцию.
 
@@ -38,6 +39,6 @@ ms.openlocfilehash: fbbe9233ae2e07209356a0cec14d085f742e6436
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Ограничение доступа к электронной почте и службам Office 365 | Документы Майкрософт"
+title: "Защита электронной почты и Office 365 | Документы Майкрософт"
 description: "В этом разделе описывается, как использовать условный доступ, чтобы разрешать доступ к корпоративной электронной почте и данным, расположенным в SharePoint Online и других службах, только совместимым устройствам."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,19 @@ ms.technology:
 ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 2e342bef07ff28bf2df027240471f74dfe373f83
-ms.openlocfilehash: a55087b96855645ef3f6e161fe85f6244c30120d
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 399c6260a98d51417a067d001c0fd42c926c1513
 
 
 ---
 
-# <a name="restrict-access-to-email-office-365-and-other-services-with-microsoft-intune"></a>Ограничение доступа к электронной почте, Office 365 и другим службам с помощью Microsoft Intune
-Вы можете ограничить доступ к корпоративной электронной почте, службам Office 365, таким как **локальная организация Exchange **, **Exchange Online**, **выделенная среда Exchange Online**, **SharePoint Online**, **Skype для бизнеса Online** и другим службам с помощью условного доступа Enterprise Mobility + Security (EMS). Эта возможность позволяет ограничить доступ к корпоративной электронной почте и службам Office 365 теми устройствами, которые удовлетворяют правилам условного доступа, заданным в консоли администрирования Intune или на классическом портале Azure.
+# <a name="protect-access-to-email-office-365-and-other-services-with-microsoft-intune"></a>Защита доступа к электронной почте, Office 365 и другим службам при помощи Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+Вы можете защитить доступ к электронной почте организации, службам Office 365, таким как **локальная организация Exchange**, **Exchange Online**, **выделенная среда Exchange Online**, **SharePoint Online**, **Skype для бизнеса Online** и другим службам при помощи условного доступа Enterprise Mobility + Security (EMS). Эта возможность позволяет ограничить доступ к корпоративной электронной почте и службам Office 365 теми устройствами, которые удовлетворяют правилам условного доступа, заданным в консоли администрирования Intune или на классическом портале Azure.
 ## <a name="how-does-conditional-access-work"></a>Как работает условный доступ?
 Для оценки соответствия устройства используются параметры политики соответствия. Политика условного доступа применяет эту оценку для разрешения и ограничения доступа к конкретной службе. При использовании политики условного доступа в сочетании с политикой соответствия устройств доступ к службе получают только соответствующие устройства. Политика соответствия требованиям и политика условного доступа развертываются для пользователя. Любое устройство, используемое пользователем для доступа к службам, проверяется на соответствие политикам.
 
@@ -40,7 +44,7 @@ ms.openlocfilehash: a55087b96855645ef3f6e161fe85f6244c30120d
 
 Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно совместимы друг с другом, обеспечивая несколько уровней управления за счет условного доступа EMS. Если вы хотите развернуть политики условного доступа с помощью Intune, вам требуется лицензия для обоих продуктов.
 
-**Лицензии Azure AD Premium** можно приобрести в качестве автономной службы и (вместе с Windows Intune) в составе пакета Enterprise. В случае развертывания политик условного доступа с помощью Intune убедитесь, что получены соответствующие лицензии на Azure AD Premium или **EMS**.
+**Лицензии на Azure AD Premium** можно приобрести в качестве отдельной службы и (вместе с Intune) в составе соглашения Enterprise. В случае развертывания политик условного доступа с помощью Intune убедитесь, что получены соответствующие лицензии на Azure AD Premium или **EMS**.
 
 - Дополнительные сведения о Enterprise Mobility см. на странице [цен на Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [цены на Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
 
@@ -54,7 +58,7 @@ Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно
 
 ### <a name="conditional-access-policy"></a>Политика условного доступа
 
-Можно задать политику условного доступа для ограничения доступа на основе следующих факторов:
+Вы можете задать политику условного доступа для защиты доступа на основе следующих факторов.
 - Состояние соответствия устройства.
 - Платформа на устройстве.
 - Тип приложений, используемый для доступа к службам.
@@ -79,6 +83,6 @@ Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Возникновение ошибок при попытке регистрации устройства iOS в Intune | Документы Майкрософт"
+title: "Возникновение ошибок при попытке регистрации устройства iOS | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/02/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,10 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 9da632e906a1486ac705a0af99179ce9669c8a24
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 06866b9db458851dbb23d5ccf741cad3e1d4c5d0
 
 
 ---
@@ -39,6 +40,6 @@ ms.openlocfilehash: 9da632e906a1486ac705a0af99179ce9669c8a24
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

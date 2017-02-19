@@ -1,11 +1,11 @@
 ---
-title: "Использование подробного ведения журналов для помощи ИТ-администратору в устранении проблем с устройством | Документы Майкрософт"
+title: "Оказание помощи ИТ-администратору в устранении проблем с устройством с помощью подробного ведения журналов | Документы Майкрософт"
 description: "Помощь ИТ-администратору в устранении проблем с устройством за счет подробного ведения журналов"
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,15 +16,16 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 501b2c5990acce9bc2f8c5efd1efc07fbee1606f
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 352e76d4a2e1d0c9f92fce196d6e699b3cf6e333
 
 
 ---
 
 
-# <a name="use-verbose-logging-to-help-your-it-admin-fix-device-issues"></a>Использование подробного ведения журналов для помощи ИТ-администратору в устранении проблем с устройством
+# <a name="help-your-it-admin-fix-device-issues-with-verbose-logging"></a>Оказание помощи ИТ-администратору в устранении проблем с устройством с помощью подробного ведения журналов
 
 После регистрации устройства Android в Intune можно использовать параметр *Подробное ведение журналов*, чтобы приложение корпоративного портала и управляемые Intune приложения вели подробные журналы обо всех выполняемых на устройстве операциях. Эти журналы помогут ИТ-администратору устранить все проблемы, с которыми вы можете столкнуться при использовании корпоративного портала или приложения, управляемого с помощью Intune. По умолчанию функция подробного ведения журналов на устройстве включена, а отправляемые ИТ-администратору журналы содержат ваш адрес электронной почты.
 
@@ -34,6 +35,6 @@ ms.openlocfilehash: 501b2c5990acce9bc2f8c5efd1efc07fbee1606f
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

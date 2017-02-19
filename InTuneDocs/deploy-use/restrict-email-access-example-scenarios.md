@@ -1,11 +1,11 @@
 ---
-title: "Примеры сценариев с ограничением доступа к электронной почте | Документы Майкрософт"
+title: "Сценарии защиты электронной почты | Документы Майкрософт"
 description: "Несколько примеров сценариев и способов их реализации с применением условного доступа."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,17 @@ ms.technology:
 ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 2d6ead1495a64e4e215c49b14064e390065a06de
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 
 
 ---
 
-# <a name="restrict-access-to-email-with-microsoft-intune-example-scenarios"></a>Ограничение доступа к электронной почте с помощью Microsoft Intune: примеры сценариев
+# <a name="protect-access-to-email-with-microsoft-intune-example-scenarios"></a>Защита доступа к электронной почте при помощи Microsoft Intune: ситуации-примеры
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 ## <a name="scenario-1-block-users-from-using-noncompliant-devices-to-access-exchange-online"></a>Сценарий 1. Запрет пользователям на использование несовместимых устройств для доступа к Exchange Online
 ### <a name="scenario-requirements"></a>Требования сценария
@@ -82,6 +85,6 @@ ms.openlocfilehash: 2d6ead1495a64e4e215c49b14064e390065a06de
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

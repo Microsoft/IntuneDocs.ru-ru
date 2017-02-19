@@ -1,11 +1,11 @@
 ---
-title: "Ограничение доступа к Dynamics CRM Online | Документы Майкрософт"
+title: "Защита Dynamics CRM Online | Документы Майкрософт"
 description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,19 +13,23 @@ ms.technology:
 ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: abbfeb493d9e85eaa601b127d618996f2e01a01d
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 827c7cd1b6b3ef98a681eef26bb7742228fca5e9
 
 
 ---
 
-# <a name="restrict-access-to-dynamics-crm-online-with-intune"></a>Ограничение доступа к Dynamics CRM Online с помощью Intune
+# <a name="protect-access-to-dynamics-crm-online-with-intune"></a>Защита доступа к Dynamics CRM Online при помощи Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Доступом к Microsoft Dynamics CRM Online можно управлять с устройств с iOS и Android с помощью условного доступа Microsoft Intune.  Условный доступ Intune включает два компонента:
 * [Политика соответствия устройств](introduction-to-device-compliance-policies-in-microsoft-intune.md), которой устройства должны удовлетворять, чтобы считаться соответствующими.
 * [Политика условного доступа](restrict-access-to-email-and-o365-services-with-microsoft-intune.md), где указываются условия, которым должно удовлетворять устройство для доступа к службе.
 
-Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
+Дополнительные сведения о принципах работы условного доступа см. в статье [Защита доступа к электронной почте, Office 365 и другим службам](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
 > [!IMPORTANT]
 > Для развертывания условного доступа нужны подписки на Intune и Azure Active Directory Premium; при этом пользователям нужны лицензии на оба продукта. **Подписка Enterprise Mobility + Security (EMS)** включает подписки Intune и Azure Active Directory Premium. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing). Если у вас нет подписки EMS, можно получить подписку для Azure Active Directory Premium. См. [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
@@ -78,8 +82,8 @@ ms.openlocfilehash: abbfeb493d9e85eaa601b127d618996f2e01a01d
   * **iOS**
   * **Android**
 4.  В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.
-5.  Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
-6.  По завершении нажмите кнопку **Сохранить**.
+5.    Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
+6.    По завершении нажмите кнопку **Сохранить**.
 
 Настройка условного доступа для Dynamics CRM выполнена. Развертывать политику условного доступа не нужно; она вступает в силу немедленно.
 ##  <a name="monitor-the-compliance-and-conditional-access-policies"></a>Мониторинг соответствия и политик условного доступа
@@ -91,16 +95,16 @@ ms.openlocfilehash: abbfeb493d9e85eaa601b127d618996f2e01a01d
 * **Устройства, не соответствующие условиям**. Эти устройства заблокированы в Dynamics CRM.
 * **Устройства, соответствующие условиям и зарегистрированные в AAD**. Эти устройства могут получать доступ к Dynamics CRM.
 
-##  <a name="next-steps"></a>Дальнейшие шаги
-* [Ограничение доступа к Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
+##  <a name="next-steps"></a>Дальнейшие действия
+* [Защита доступа к Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
 
-* [Ограничение доступа к локальной среде Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-* [Ограничение доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
+* [Защита доступа к локальной организации Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+* [Защита доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
-* [Ограничение доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+* [Защита доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

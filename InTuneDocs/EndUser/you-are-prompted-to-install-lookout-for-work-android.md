@@ -1,11 +1,11 @@
 ---
-title: "Вам предложено установить Lookout for Work на устройстве Android | Документы Майкрософт"
+title: "Вам необходимо установить Lookout for Work на устройстве Android | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/17/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,15 @@ ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 searchScope:
 - Company Portal
 ROBOTS: NOINDEX,NOFOLLOW
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 05d2c3868175d405c49076ea93582eb151c9c791
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: 356de226dce12a1e079b0f58214d9bc590f3a71d
 
 
 ---
 
-# <a name="you-are-prompted-to-install-lookout-for-work"></a>Вам предложено установить Lookout for Work
+# <a name="you-need-to-install-lookout-for-work"></a>Вам необходимо установить Lookout for Work
 
 Перед тем как вы сможете получить доступ к рабочим файлам, ИТ-администратору необходимо установить приложение Lookout for Work, которое помогает защитить устройство путем поиска потенциальных угроз безопасности.
 
@@ -30,13 +31,13 @@ ms.openlocfilehash: 05d2c3868175d405c49076ea93582eb151c9c791
 
 **Необходимо выполнить следующие действия:**
 
-1.  Перетащите вниз из верхней части экрана панель уведомлений и откройте ее, а затем коснитесь пункта **Необходимые приложения — установить Lookout for Work из Магазина Google Play**.
+1.    Перетащите вниз из верхней части экрана панель уведомлений и откройте ее, а затем коснитесь пункта **Необходимые приложения — установить Lookout for Work из Магазина Google Play**.
 
     ![необходимо установить Lookout for Work](./media/lookout-required-app-install-android.png)
 
     Будет выполнен переход на страницу Lookout for Work в Магазине Google Play.
 
-2.  Установите Lookout for Work и коснитесь кнопки **ПРИНЯТЬ**, чтобы разрешить Lookout for Work доступ к устройству.
+2.    Установите Lookout for Work и коснитесь кнопки **ПРИНЯТЬ**, чтобы разрешить Lookout for Work доступ к устройству.
 
     ![коснитесь кнопки "Принять", чтобы разрешить для Lookout for Work доступ к устройству](./media/lookout-accept-store-permissions-android.png)
 
@@ -78,12 +79,12 @@ ms.openlocfilehash: 05d2c3868175d405c49076ea93582eb151c9c791
 
 **Если установка не выполняется**
 
-Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае попробуйте установить Lookout for Work вручную из Магазина Google Play: [https://play.google.com/store/apps/details?id=com.lookout.enterprise](https://play.google.com/store/apps/details?id=com.lookout.enterprise) 
+Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае попробуйте установить Lookout for Work вручную из Магазина Google Play: [https://play.google.com/store/apps/details?id=com.lookout.enterprise](https://play.google.com/store/apps/details?id=com.lookout.enterprise)
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

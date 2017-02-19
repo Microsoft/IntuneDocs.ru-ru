@@ -1,11 +1,11 @@
 ---
-title: "Отключение сбора данных об использовании корпорацией Майкрософт | Документы Майкрософт"
+title: "Отключение сбора данных корпорацией Майкрософт для Windows | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,15 +16,16 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: bc757320199362ba1885a6322b316e4f30750613
-ms.openlocfilehash: 42c1b63bb6bd6890c98b5c619d2dced945c10484
+ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
+ms.openlocfilehash: fc48199acad7a65bd4a06b5a51f6f5b851997edb
 
 
 ---
 
 
-# <a name="turn-off-microsoft-usage-data-collection"></a>Отключение сбора данных об использовании корпорацией Майкрософт
+# <a name="how-to-turn-off-microsoft-data-collection"></a>Отключение сбора данных корпорацией Майкрософт
 
 Корпорация Майкрософт автоматически собирает определенные данные о своих продуктах и услугах. Это делается для повышения надежности и производительности продуктов, включая приложение корпоративного портала. Хотя эти данные анонимизированы, некоторым пользователям может не нравиться их сбор. Ваши ИТ-администраторы не могут управлять сбором этих данных и изменить выбранный вами параметр.
 
@@ -34,6 +35,6 @@ ms.openlocfilehash: 42c1b63bb6bd6890c98b5c619d2dced945c10484
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

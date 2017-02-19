@@ -1,5 +1,5 @@
 ---
-title: "Удаленная блокировка устройства с корпоративного портала | Microsoft Docs"
+title: "Блокировка устройства с корпоративного портала | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -16,9 +16,10 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mamoriss
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
-ms.openlocfilehash: fad219ca06ceb62e8bad0b3dbd30b330d90ac977
+ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
+ms.openlocfilehash: a888592c4bf4f71cba44cebadb5cf90d2cc9aef6
 
 
 ---
@@ -39,13 +40,13 @@ ms.openlocfilehash: fad219ca06ceb62e8bad0b3dbd30b330d90ac977
 
 ## <a name="to-use-remote-lock-to-lock-your-device"></a>Удаленная блокировка устройства
 
-1.  На [веб-сайте корпоративного портала](http://portal.manage.microsoft.com) выберите имя устройства, которое требуется заблокировать.
+1.    На [веб-сайте корпоративного портала](http://portal.manage.microsoft.com) выберите имя устройства, которое требуется заблокировать.
 
-2.  Выберите **Удаленная блокировка**.
+2.    Выберите **Удаленная блокировка**.
 
     ![remote-lock-option-on-company-portal-website](./media/iwp-screen-with-all-options.png)
 
-3.  Появится уведомление о том, что вы собираетесь заблокировать устройство. Коснитесь кнопки **Удаленная блокировка**, и корпоративный портал попытается заблокировать ваше устройство.
+3.    Появится уведомление о том, что вы собираетесь заблокировать устройство. Коснитесь кнопки **Удаленная блокировка**, и корпоративный портал попытается заблокировать ваше устройство.
 
     После того, как вы коснетесь кнопки **Удаленная блокировка**, появится сообщение "Ожидается удаленная блокировка".  После успешной удаленной блокировки состояние меняется на "Удаленная блокировка успешно выполнена".
 
@@ -64,6 +65,6 @@ ms.openlocfilehash: fad219ca06ceb62e8bad0b3dbd30b330d90ac977
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

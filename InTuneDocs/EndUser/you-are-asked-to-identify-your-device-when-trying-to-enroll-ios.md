@@ -1,11 +1,11 @@
 ---
-title: "Вам предлагают идентифицировать устройство при попытке его зарегистрировать | Документы Майкрософт"
+title: "Вам необходимо идентифицировать устройство iOS при попытке его зарегистрировать | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,15 +16,16 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 94380907981fbb50892b35244ef5eecab8fd8e7b
+ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
+ms.openlocfilehash: a1a669b12e3c072bf532dc25352889015aec7d47
 
 
 ---
 
 
-# <a name="you-are-asked-to-identify-your-device-when-youre-trying-to-enroll"></a>Вам предлагают идентифицировать устройство при попытке его зарегистрировать
+# <a name="you-need-to-identify-your-device-when-youre-trying-to-enroll"></a>Вам необходимо идентифицировать устройство при попытке его зарегистрировать
 
 Если при попытке зарегистрировать свое устройство iOS или macOS в Intune вы видите экран с запросом об идентификации устройства, по меньшей мере одно из ваших устройств уже зарегистрировано и назначено вашей учетной записи способом, отличным от приложения корпоративного портала. Для правильной работы приложения корпоративного портала необходимо определить, было ли используемое устройство уже зарегистрировано в Intune.
 
@@ -36,6 +37,6 @@ ms.openlocfilehash: 94380907981fbb50892b35244ef5eecab8fd8e7b
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
