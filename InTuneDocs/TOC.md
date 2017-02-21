@@ -6,6 +6,7 @@
 ### [Создание политик и публикация приложения](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)
 ### [Другие параметры и дополнения](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
 ### [Преобразование в платную подписку](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
+## [Часто задаваемые вопросы по защите MAM и приложений](understand-explore/mam-faq.md)
 ## [Распространенные сценарии](understand-explore/common-ways-to-use-intune.md)
 
 
@@ -78,6 +79,7 @@
 ## Настройка устройств
 ### [Управление параметрами и компонентами на устройствах с помощью политик](deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [Параметры iOS](deploy-use/ios-policy-settings-in-microsoft-intune.md)
+#### [Восстановление управляемых устройств iOS](deploy-use/restore-managed-ios-devices-from-backup.md)
 #### [Параметры Android и Samsung KNOX](deploy-use/android-policy-settings-in-microsoft-intune.md)
 ##### [Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом](deploy-use/pre-shared-key-wi-fi-profile.md)
 ##### [Используйте настраиваемую политику для создания профиля VPN на уровне приложения для устройств Android](deploy-use/per-app-vpn-for-android-pulse-secure.md)
@@ -106,7 +108,7 @@
 
 ## [Защита устройств](deploy-use/protect-your-devices-with-microsoft-intune.md)
 ### [Удаленная блокировка и сброс секретного кода](deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
-### [Защита устройств Windows с помощью многофакторной проверки подлинности](deploy-use/multi-factor-authentication-azure-active-directory.md)
+### [Защита устройств с помощью многофакторной проверки подлинности](deploy-use/multi-factor-authentication-azure-active-directory.md)
 ### [Управление параметрами Windows Hello для бизнеса](deploy-use/control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)
 ### [Обход блокировки активации в iOS](deploy-use/help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md)
 ### [Политики для защиты компьютеров с ОС Windows](deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune.md)
@@ -139,7 +141,7 @@
 ## [Защита приложений и данных](deploy-use/protect-apps-and-data-with-microsoft-intune.md)
 ### [Политики соответствия устройств](deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune.md)
 #### [Создание политики соответствия устройства](deploy-use/create-a-device-compliance-policy-in-microsoft-intune.md)
-#### [ Android](deploy-use/android-compliance-policy-settings-in-microsoft-intune.md)
+#### [Android](deploy-use/android-compliance-policy-settings-in-microsoft-intune.md)
 #### [Android for Work](deploy-use/afw-compliance-policy-settings-in-microsoft-intune.md)
 #### [iOS](deploy-use/ios-compliance-policy-settings-in-microsoft-intune.md)
 #### [Windows и Windows Phone](deploy-use/windows-compliance-policy-settings-in-microsoft-intune.md)
@@ -165,13 +167,14 @@
 #### [Включение политики соответствия для защиты устройства от угроз](deploy-use/device-threat-protection-policy.md)
 
 ### [Защита данных приложения с помощью MAM](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
-#### [Портал Azure для политик управления мобильными приложениями](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
-#### [Подготовка к настройке политик MAM](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
-#### [Создание и развертывание политик MAM](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-#### [Политики MAM для Android](deploy-use/android-mam-policy-settings.md)
-#### [Политики MAM для iOS](deploy-use/ios-mam-policy-settings.md)
-#### [Проверка политик MAM](deploy-use/validate-mobile-application-management.md)
-#### [Мониторинг соответствия политик](deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Портал Azure для политик защиты приложений](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
+#### [Подготовка к настройке политик защиты приложений](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Создание и развертывание политик защиты приложений](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Политики защиты приложений для Android](deploy-use/android-mam-policy-settings.md)
+#### [Политики защиты приложений для iOS](deploy-use/ios-mam-policy-settings.md)
+#### [Проверка политик защиты приложений](deploy-use/validate-mobile-application-management.md)
+#### [Мониторинг соответствия политикам защиты приложений](deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune.md)
+
 #### [Управление передачей данных между приложениями iOS](deploy-use/manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 
 #### [Консоль администрирования Intune для политик MAM](deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)
@@ -182,17 +185,16 @@
 #### [Бизнес-приложения на устройствах, не находящихся под управлением Intune](deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)
 #### [Использование пакета SDK при создании приложения](deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management.md)
 
-### [Часто задаваемые вопросы по защите MAM и приложений](deploy-use/mam-faq.md)
 
 ## Снятие приложений и данных с учета
 ### [Использование полной или выборочной очистки](deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
 ### [Снятие приложений с учета](deploy-use/retire-apps-using-microsoft-intune.md)
 ### [Очистка данных управляемых приложений компании](deploy-use/Wipe-managed-company-app-data-with-microsoft-intune.md)
 
-## [Ресурсы по пользовательскому интерфейсу](deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune.md)
-### [Восстановление управляемых устройств iOS](deploy-use/restore-managed-ios-devices-from-backup.md)
-### [Приложения Android с политиками управления мобильными приложениями](deploy-use/user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-### [Приложения iOS с политиками управления мобильными приложениями](deploy-use/user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
+## [Как рассказать конечным пользователям об Intune](deploy-use/how-to-educate-your-end-users-about-microsoft-intune.md)
+### [Получение приложений пользователями Android](deploy-use/how-your-android-users-get-their-apps.md)
+### [Получение приложений пользователями iOS](deploy-use/how-your-ios-users-get-their-apps.md)
+### [Получение приложений пользователями Windows](deploy-use/how-your-windows-users-get-their-apps.md)
 
 # Разработка и настройка приложений
 ## [Общие сведения о пакете SDK для приложений Microsoft Intune](develop/intune-app-sdk.md)
@@ -222,6 +224,6 @@
 # [Глоссарий](understand-explore/intune-glossary.md)
 
 
-<!--HONumber=Feb17_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

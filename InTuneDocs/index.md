@@ -15,8 +15,8 @@ ms.service: microsoft-intune
 ms.suite: ems
 ms.assetid: 3414479e-e548-4753-bcf7-6322b43221fd
 translationtype: Human Translation
-ms.sourcegitcommit: d63d670f12f27511671b9015ad53a93f1a784c40
-ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
+ms.sourcegitcommit: 8c4351761b1e4047a0e997cdfabe3deb35b31e54
+ms.openlocfilehash: 9d35de896e21abd8b7e0026e915745aa6dbcb80f
 
 
 ---
@@ -25,18 +25,18 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
     <section id="hero-content">
       <h1>Документация по Intune</h1>
       <h2>Управление мобильными устройствами, приложениями и компьютерами из облака. </h2>
-      <h3>Хотите управлять Intune с помощью Configuration Manager? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management" target="_blank">Ознакомьтесь с гибридным управлением мобильными устройствами&rarr;</a></h3>
+      <h3>Хотите управлять Intune с помощью Configuration Manager? <a href="https://docs.microsoft.com/en-us/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management" target="_blank">Ознакомьтесь с гибридным управлением мобильными устройствами &rarr;</a></h3>
     </section>
     <section id="featured" class="container">
       <h2 class="section-heading"><span class="icon icon-warning"></span> Популярные материалы</h2>
       <div class="features row">
         <ul class="column column-half">
-          <li><a href="http://fasttrack.microsoft.com/ems">Более 150 лицензий? Используйте преимущества FastTrack</a></li>
+          <li><a href="http://fasttrack.microsoft.com/ems">Более&150; лицензий? Используйте преимущества FastTrack</a></li>
           <li><a href="/intune/understand-explore/common-ways-to-use-intune">Стандартные способы использования Intune</a></li>
           <li><a href="/intune-azure/introduction/what-is-microsoft-intune">Intune в предварительной версии портала Azure</a></li>
         </ul>
         <ul class="column column-half">
-          <li><a href="/intune/deploy-use/restrict-access-based-on-device-network-app-risk">Защита доступа к ресурсам компании</a></li>
+          <li><a href="/intune/deploy-use/restrict-access-based-on-device-network-app-risk">Защита доступа к ресурсам организации</a></li>
           <li><a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/intune_graph_overview">Работа с Intune в Microsoft Graph</a></li>
           <li><a href="/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune">Ресурсы по пользовательскому интерфейсу Microsoft Intune</a></li>
         </ul>
@@ -140,7 +140,7 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
                   </a>
                 </li>
                 <li class="column-third">
-                  <a href="/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune">
+                  <a href="/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune">
                     <h3>Что нужно сообщить конечным пользователям</h3>
                     <p>Узнайте о том, какие шаги необходимо выполнить конечным пользователям для использования устройств в Intune, и предоставьте эти сведения конечным пользователям, чтобы они могли самостоятельно выполнить задачи.</p>
                   </a>
@@ -259,7 +259,7 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
     </div>
     <div class="section-border">
       <section class="resources container">
-      <h2 class="section-heading"><span class="icon icon-note"></span>Дополнительные ресурсы для Intune</h2>
+      <h2 class="section-heading"><span class="icon icon-note"></span> Дополнительные ресурсы по Intune</h2>
       <div class="resource-list row">
           <ul class="column-half">
           <li><a href="https://microsoftintune.uservoice.com/" target="_blank">Отправить отзыв о функциях Intune</a></li>
@@ -285,6 +285,6 @@ ms.openlocfilehash: eda6352368a3593d56ce8879501e2ebf4fda41f9
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO3-->
 
 
