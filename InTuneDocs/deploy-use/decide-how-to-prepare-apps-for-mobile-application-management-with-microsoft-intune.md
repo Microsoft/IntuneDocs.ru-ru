@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b15f56f6e771faeb924668aa68140ab89a174b8d
-ms.openlocfilehash: c9bba34d2252e6b9dff295724f9c935c558aa179
+ms.sourcegitcommit: 06e0a74dd2c0b861497062f2d659c5eb08126fca
+ms.openlocfilehash: 6ec9f6136cf23b9015da125817bfeb86ecfbfca6
 
 
 ---
@@ -55,7 +56,7 @@ ms.openlocfilehash: c9bba34d2252e6b9dff295724f9c935c558aa179
 ## <a name="intune-app-sdk"></a>Пакет SDK для приложений Intune
 Пакет SDK для приложений предназначен главным образом для клиентов, имеющих приложения в Apple App Store или Магазине Google Play и стремящихся управлять ими с помощью Intune. Однако преимуществами интеграции пакета SDK может воспользоваться любое приложение, даже бизнес-приложение.
 
-Дополнительные сведения о пакете SDK см. в разделе [Обзор](/intune/develop/intune-app-sdk). Сведения о начале работы с пакетом SDK см. в статье [Начало работы с пакетом SDK для приложений Microsoft Intune](/intune/develop/intune-app-sdk-get-started).
+Дополнительные сведения о пакете SDK см. в разделе [Обзор](../develop/intune-app-sdk.md). Сведения о начале работы с пакетом SDK см. в статье [Начало работы с пакетом SDK для приложений Microsoft Intune](../develop/intune-app-sdk-get-started.md).
 
 ### <a name="reasons-to-use-the-sdk"></a>Причины для использования пакета SDK
 * В приложении отсутствуют встроенные функции защиты данных.
@@ -69,8 +70,8 @@ ms.openlocfilehash: c9bba34d2252e6b9dff295724f9c935c558aa179
 
 |**Пакет SDK для приложений Intune** |**Xamarin** |**Cordova**
 |------|----|----|
-|**iOS**|Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](/../develop/intune-app-sdk-xamarin).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](/../develop/intune-app-sdk-cordova).|
-|**Android**| Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](/../develop/intune-app-sdk-xamarin).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](/../develop/intune-app-sdk-cordova).|
+|**iOS**|Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](../develop/intune-app-sdk-xamarin.md).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](../develop/intune-app-sdk-cordova.md).|
+|**Android**| Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](../develop/intune-app-sdk-xamarin.md).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](../develop/intune-app-sdk-cordova.md).|
 
 ## <a name="feature-comparison"></a>Сравнение функций
 В этой таблице перечислены параметры, которые можно использовать для пакета SDK приложений и инструмента упаковки приложений.
