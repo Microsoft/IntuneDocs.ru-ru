@@ -1,4 +1,4 @@
-## <a name="azure-active-directory-enrollment"></a>Регистрация в Azure Active Directory
+## <a name="set-up-windows-10-and-windows-10-mobile-automatic-enrollment-with-azure-active-directory-premium"></a>Настройка автоматической регистрации Windows 10 и Windows 10 Mobile с помощью Azure Active Directory Premium
 
 Автоматическая регистрация позволяет пользователям регистрировать принадлежащие организации или личные компьютеры с Windows 10 и устройства с Windows 10 Mobile в Intune, добавив рабочую или учебную учетную запись и дав согласие на управление. Проще простого. Устройство пользователя в фоновом режиме регистрируется и присоединяется к Azure Active Directory. После регистрации устройство управляется с помощью Intune.
 
@@ -11,13 +11,13 @@
 
 1. На [портале управления Azure](https://manage.windowsazure.com) (https://manage.windowsazure.com) перейдите к узлу **Active Directory** и выберите свой каталог.
 
-2. Откройте вкладку **Приложения** и убедитесь, что в списке приложений есть **Microsoft Intune**.
+2. Выберите вкладку **Приложения**. В списке приложений будет **Microsoft Intune**.
 
     ![Управление приложениями Azure AD с помощью Microsoft Intune](../media/aad-intune-app.png)
 
-3. Щелкните стрелку для **Microsoft Intune**, чтобы отобразить страницу, позволяющую настроить Microsoft Intune.
+3. Щелкните стрелку рядом с **Microsoft Intune**. Откроется страница, на которой можно настроить Microsoft Intune.
 
-4. Щелкните элемент **Настройка**, чтобы приступить к настройке автоматической регистрации MDM с помощью Microsoft Intune.
+4. Щелкните **Настройка**, чтобы приступить к настройке автоматической регистрации MDM с помощью Microsoft Intune.
 
 5. Укажите URL-адреса для Intune:
 
@@ -34,6 +34,6 @@
 7. Выберите **Сохранить**.
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO2-->
 
 

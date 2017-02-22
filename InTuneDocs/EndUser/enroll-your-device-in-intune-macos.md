@@ -13,19 +13,20 @@ ms.technology:
 ms.assetid: 58eb0e7a-1321-4c66-a281-88fb01e72c1c
 searchScope:
 - Company Portal
-ROBOTS: 
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 70b11804b6b96e76b43cc450ac4c433fb31be6f8
+ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
+ms.openlocfilehash: 60879acf553934d246c662060e3d57ec50c51658
 
 
 ---
 
 # <a name="enroll-your-macos-device-in-intune"></a>Регистрация устройства Mac OS в Intune
 
-Благодаря доступу к приложениям, данным и ресурсам организации пользователи могут выполнять свою работу. При использовании на работе устройств Mac OS необходимо установить __профиль управления__. Обычно это файл, настроенный ИТ-администратором, который загружает параметры и сведения о доступе на компьютер Mac. Хотите получить дополнительные сведения? См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или Mac OS X в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
+Благодаря доступу к приложениям, данным и ресурсам организации пользователи могут выполнять свою работу. При использовании на работе устройств Mac OS необходимо установить __профиль управления__. Это просто файл, который загружает на компьютер Mac необходимые настройки и сведения о доступе. Этот файл настраивает ваш ИТ-администратор. Хотите получить дополнительные сведения? См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или macOS в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
 
   > [!NOTE]
   > Если вы хотите зарегистрировать устройство iOS, например iPhone или iPad, [используйте эти инструкции](enroll-your-device-in-intune-ios.md).
@@ -66,6 +67,6 @@ ms.openlocfilehash: 70b11804b6b96e76b43cc450ac4c433fb31be6f8
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 

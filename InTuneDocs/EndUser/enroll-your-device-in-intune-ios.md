@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 02/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,12 +13,13 @@ ms.technology:
 ms.assetid: 6eeec7aa-1b07-4ce3-894c-13e09b89bdd4
 searchScope:
 - Company Portal
-ROBOTS: 
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 58295c0e27c6c74a1efb9771e0fe8fb917c6cca6
+ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
+ms.openlocfilehash: c7fa06ea443523c51a79c33af7e8094d7a7777c5
 
 
 ---
@@ -26,9 +27,12 @@ ms.openlocfilehash: 58295c0e27c6c74a1efb9771e0fe8fb917c6cca6
 
 # <a name="enroll-your-ios-device-in-intune"></a>Регистрация устройства iOS в Intune
 
-Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать устройство iOS, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет ИТ-отделу управлять рабочими или учебными ресурсами и обеспечивать их безопасность, предоставляя вам свободу выбора устройств для выполнения рабочих задач. Дополнительные сведения о регистрации см. в разделах [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
+Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать устройство iOS, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет ИТ-отделу управлять рабочими или учебными ресурсами и обеспечивать их безопасность, предоставляя вам свободу выбора устройств для выполнения рабочих задач. Дополнительные сведения о регистрации см. в разделе [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
 
-Если вы пытаетесь зарегистрировать устройство macOS, см. статью [Регистрация устройства macOS в Intune](enroll-your-device-in-intune-macos.md).
+<iframe src="https://channel9.msdn.com/Series/IntuneEnrollment/iOS-Enrollment/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+
+> [!NOTE]
+> Если вы хотите зарегистрировать устройство под управлением macOS, например MacBook Pro или iMac, [используйте эти инструкции](enroll-your-device-in-intune-macos.md).
 
 **Перед началом работы:**
 
@@ -55,7 +59,7 @@ ms.openlocfilehash: 58295c0e27c6c74a1efb9771e0fe8fb917c6cca6
 
 5.  На экране **Дальнейшие действия** ознакомьтесь с тем, что происходит во время регистрации, а затем нажмите **Зарегистрировать**.
 
-    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
+     ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
 
 6.  На экране **Установить профиль** выберите **Установить** и введите секретный код при появлении соответствующего запроса.
 
@@ -67,15 +71,15 @@ ms.openlocfilehash: 58295c0e27c6c74a1efb9771e0fe8fb917c6cca6
 
 8.  Нажмите **Установить**, чтобы указать, что вы прочитали предупреждение.
 
-    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
+       ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
 
 9.  Нажмите **Доверие**.
 
-    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
+       ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
 
 10.  После окончания установки профиля нажмите **Готово**.
 
-    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
+     ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
 
     На экране появится сообщение "Регистрация устройства".
 
@@ -93,11 +97,10 @@ ms.openlocfilehash: 58295c0e27c6c74a1efb9771e0fe8fb917c6cca6
 
 Теперь ваше устройство зарегистрировано в Intune и вы вернулись в приложение корпоративного портала.
 
-
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 

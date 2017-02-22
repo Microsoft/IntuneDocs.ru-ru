@@ -1,11 +1,11 @@
 ---
-title: "Новые возможности | Документы Майкрософт"
+title: "Новые возможности | Документация Майкрософт"
 description: "Новые возможности в выпусках Microsoft Intune этого месяца и за прошлые периоды"
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/26/2017
+ms.date: 02/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: cacampbell
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3ab53e40f4b7ea67733127f445005ecb77a404f7
-ms.openlocfilehash: 37031eed6efa48ff52ec37a942fa77af414f78fe
+ms.sourcegitcommit: 053cf0a1b5d06496397b36cbd1a7ebdce420fed3
+ms.openlocfilehash: 5158d58c32066ea720335a878fef87451542c195
 
 
 ---
@@ -55,8 +55,11 @@ Links inside of the Company Portal app for iOS, including those to documentation
 ### <a name="improving-mobile-app-management-support-for-selective-wipe---581242--"></a>Улучшение поддержки управления мобильными приложениями для выборочной очистки <!--581242-->
 Конечным пользователям будут представлены дополнительные указания о том, как восстановить доступ к рабочим или учебным данным в случае их автоматического удаления политикой "Offline interval before app data is wiped" (Период автономной работы до очистки данных).<!--, or the removal of the Intune Company Portal on Android.-->
 
+### <a name="company-portal-for-ios-links-open-inside-the-app---665954--"></a>Открытие ссылок корпоративного портала для iOS внутри приложения <!--665954-->
+Ссылки внутри приложения корпоративного портала для iOS, включая указывающие на документацию и приложения, открываются непосредственно в приложении корпоративного портала, используя представление Safari в приложении. Это обновление будет поставляться отдельно от обновления за январь.
+
 ### <a name="modernizing-the-company-portal-website---753980--"></a>Модернизация сайта корпоративного портала <!--753980-->
-В феврале сайт корпоративного портала предоставит поддержку приложений для пользователей, у которых нет управляемых устройств. Контрастная цветовая схема, динамические иллюстрации и значок меню сайта будут оформлены в стиле других продуктов и служб Майкрософт, а в ![меню корпоративного портала](../media/CP_hamburger_menu.png) можно будет найти контактные данные службы поддержки и информацию об управляемых устройствах. На целевой странице появятся карусели для рекомендуемых и недавно обновленных приложений, доступных пользователям, и им будет отведено видное место. Изображения с изменениями "до" и "после" см. на странице [Новые возможности пользовательского интерфейса корпоративного портала](https://docs.microsoft.com/intune/whats-new/whats-new-in-intune-app-ui#January_2017).
+В феврале сайт корпоративного портала предоставит поддержку приложений для пользователей, у которых нет управляемых устройств. Контрастная цветовая схема, динамические иллюстрации и значок меню сайта будут оформлены в стиле других продуктов и служб Майкрософт, а в ![меню корпоративного портала](./media/CP_hamburger_menu.png) можно будет найти контактные данные службы поддержки и информацию об управляемых устройствах. На целевой странице появятся карусели для рекомендуемых и недавно обновленных приложений, доступных пользователям, и им будет отведено видное место. Изображения с изменениями "до" и "после" см. в статье [Новые возможности пользовательского интерфейса для приложений в Intune](https://docs.microsoft.com/intune/whats-new/whats-new-in-intune-app-ui#January_2017).
 
 ### <a name="new-documentation-for-app-protection-policies---583398--"></a>Новая документация для политик защиты приложений <!--583398-->
 Мы обновили документацию для администраторов и разработчиков, желающих включить политики защиты приложений (известные как политики MAM) в своих приложениях iOS и Android с помощью инструмента упаковки приложений Intune или пакета SDK для приложений Intune.
@@ -75,6 +78,9 @@ Links inside of the Company Portal app for iOS, including those to documentation
 
 <!--### Progress bar when launching the Company Portal on iOS <!--665978
 The Company Portal for iOS is introducing a progress bar on the launch screen to provide the user with information about the loading processes that occur. There will be a phased rollout of the progress bar to replace the spinner. This means that some of your users will see the new progress bar while others will continue to see the spinner.-->
+
+### <a name="progress-bar-when-launching-the-company-portal-on-ios---665978--"></a>Индикатор выполнения при запуске корпоративного портала на iOS <!--665978-->
+На экране запуска корпоративного портала для iOS появился индикатор выполнения, предоставляющий пользователю сведения о процессе загрузки. Замена вертушки индикатором выполнения будет проводиться поэтапно. Это означает, что некоторые пользователи увидят новый индикатор, а другие продолжат видеть вертушку.
 
 ## <a name="whats-new-in-the-public-preview-of-the-intune-admin-experience-on-azure---736542--"></a>Новые возможности в общедоступной предварительной версии в интерфейсе администрирования Intune в Azure <!--736542-->
 
@@ -97,6 +103,6 @@ The Company Portal for iOS is introducing a progress bar on the launch screen to
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO1-->
 
 

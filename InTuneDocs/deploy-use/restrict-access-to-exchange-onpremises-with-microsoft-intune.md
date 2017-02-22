@@ -1,11 +1,11 @@
 ---
-title: "Ограничение доступа электронной почты к локальной организации Exchange | Документы Майкрософт"
+title: "Защита электронной почты в локальной среде Exchange | Документы Майкрософт"
 description: "Защита и контроль доступа к корпоративной электронной почте в локальной организации Exchange с помощью условного доступа."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/12/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,27 +13,31 @@ ms.technology:
 ms.assetid: a55071f5-101e-4829-908d-07d3414011fc
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 51e06bafef761eaf06d35343b459262524ad9168
-ms.openlocfilehash: c090d4bbc539d4174deee139e51242bae94feeb3
+ms.sourcegitcommit: 53d2c0d5b2157869804837ae2fa08b1cce429982
+ms.openlocfilehash: e3b404526d8e662fd8ae285c144b1d6f5cf22bf3
 
 
 ---
 
-# <a name="restrict-email-access-to-exchange-on-premises-and-legacy-exchange-online-dedicated-with-intune"></a>Ограничение доступа к электронной почте в локальной организации Exchange и прежней выделенной среде Exchange Online с помощью Intune
+# <a name="protect-email-access-to-exchange-on-premises-and-legacy-exchange-online-dedicated-with-intune"></a>Защита доступа к электронной почте в локальной организации Exchange и прежней выделенной среде Exchange Online при помощи Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+Вы можете настроить условный доступ для управления доступом к электронной почте в локальной организации Exchange или устаревшей выделенной среде Exchange Online с помощью Microsoft Intune.
+Дополнительные сведения о принципах работы условного доступа см. в статье [Защита доступа к электронной почте и службам Office 365](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
 > [!NOTE]
 > Если для выделенной среды Exchange Online требуется определить, используется ли в ней новая или устаревшая конфигурация, обратитесь к менеджеру по работе с клиентами.
 
+## <a name="before-you-begin"></a>Подготовка к работе
 
-Для управления доступом к электронной почте в локальной организации Exchange или прежней выделенной среде Exchange Online можно настроить условный доступ к локальной организации Exchange с помощью Microsoft Intune.
-Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте и службам Office 365]( restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
-
-**Прежде чем** настроить условный доступ, требуется выполнить следующие условия:
+Обязательно проверьте следующее:
 
 -   Следует использовать **Exchange 2010 или Exchange более поздней версии**. Массивы сервера клиентского доступа (CAS) сервера Exchange Server поддерживаются.
 
--   Нужно использовать **локальный соединитель Exchange**, который подключает [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] к локальной организации Exchange. Это позволяет управлять устройствами с помощью консоли [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]. Дополнительные сведения о соединителе см. в статье [Локальный соединитель Exchange в Intune](intune-on-premises-exchange-connector.md).
+-   Нужно использовать [локальный соединитель Intune с Exchange](intune-on-premises-exchange-connector.md), который подключает [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] к локальной организации Exchange. Это позволяет управлять устройствами с помощью консоли [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
 
     -   Доступный в консоли Intune локальный соединитель Exchange привязан к вашему клиенту Intune и не может использоваться с любым другим клиентом. Рекомендуется убедиться, что соединитель Exchange для вашего клиента устанавливается **только на одном компьютере**.
 
@@ -45,6 +49,8 @@ ms.openlocfilehash: c090d4bbc539d4174deee139e51242bae94feeb3
 
 -   **Exchange ActiveSync** можно настроить с помощью проверки подлинности на основе сертификатов или записи учетных данных пользователя.
 
+### <a name="device-compliance-requirements"></a>Требования соответствия устройств
+
 Если политики условного доступа настроены и ориентированы на пользователя, то для подключения к электронной почте его **устройство** должно удовлетворять следующим требованиям:
 
 -  Компьютер, присоединенный к домену, или **регистрация ** в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
@@ -55,11 +61,13 @@ ms.openlocfilehash: c090d4bbc539d4174deee139e51242bae94feeb3
 
 -   **Удовлетворение** любым развернутым на нем политикам соответствия [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
 
+### <a name="how-conditional-access-works-with-exchange-on-premises"></a>Как работает условный доступ с локальной системой Exchange
+
 Следующая схема показывает процедуру, применяемую политиками условного доступа для локальной организации Exchange, чтобы предоставить или заблокировать доступ для устройств:
 
 ![Схема, показывающая точки принятия решений, которые используются для определения того, разрешен ли устройству доступ к локальной организации Exchange.](../media/ConditionalAccess8-2.png)
 
-Если политика условного доступа не соблюдается, при входе пользователь получает одно из следующих сообщений:
+Если политика условного доступа не соблюдается, через 10 минут устройство будет заблокировано. Кроме того, пользователь при входе увидит одно из следующих уведомлений о карантине:
 
 - Если устройство не зарегистрировано в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] либо в Azure Active Directory, выводится сообщение с инструкциями о том, как установить приложение корпоративного портала, выполнить регистрацию и активировать электронную почту. Этот процесс также связывает идентификатор Exchange ActiveSync устройства с записью в Azure Active Directory.
 
@@ -119,21 +127,21 @@ ms.openlocfilehash: c090d4bbc539d4174deee139e51242bae94feeb3
 
 -   Развертывать политику условного доступа не нужно, она вступает в силу немедленно.
 
--   После того как пользователь настроит профиль Exchange ActiveSync, блокировка устройства может занять от 1 до 3 часов (если оно не находится под управлением [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]).
+-   После того как пользователь настроит профиль Exchange ActiveSync, блокировка устройства может занять от&1; до&3; часов (если оно не находится под управлением [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]).
 
--   Если заблокированный пользователь регистрирует устройство в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] (и устраняет несоответствие), доступ к электронной почте будет разблокирован в течение 2 минут.
+-   Если заблокированный пользователь регистрирует устройство в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] (и устраняет несоответствие), доступ к электронной почте будет разблокирован в течение&2; минут.
 
--   Если пользователь отменяет регистрацию из [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], блокировка устройства может занять от 1 до 3 часов.
+-   Если пользователь отменяет регистрацию из [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], блокировка устройства может занять от&1; до&3; часов.
 
-**Примеры сценариев по настройке политики условного доступа для ограничения доступа к устройству см. в статье [Примеры сценариев ограничения доступа к электронной почте](restrict-email-access-example-scenarios.md).**
+**Примеры сценариев, в которых выполняется настройка политики условного доступа для защиты доступа к устройству, см. в статье [Ситуации-примеры, связанные с защитой доступа к электронной почте](restrict-email-access-example-scenarios.md).**
 
 ## <a name="next-steps"></a>Дальнейшие действия
--   [Ограничение доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
+-   [Защита доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
--   [Ограничение доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+-   [Защита доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Подготовка приложений для управления мобильными приложениями | Документы Майкрософт"
+title: "Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune | Документация Майкрософт"
 description: "Сведения этого раздела помогут решить, когда следует применить инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями."
 keywords: 
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 12/19/2016
+ms.date: 02/8/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f46f13e9dbf03fa2b3e2ec7339cad927ea0b38e0
-ms.openlocfilehash: 8ee3f539e619d4646013db4982ea96223eea5896
+ms.sourcegitcommit: b15f56f6e771faeb924668aa68140ab89a174b8d
+ms.openlocfilehash: c9bba34d2252e6b9dff295724f9c935c558aa179
 
 
 ---
 
-# <a name="decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune"></a>Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune
+# <a name="prepare-line-of-business-apps-for-mam"></a>Подготовка бизнес-приложений для MAM
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
@@ -109,6 +109,6 @@ ms.openlocfilehash: 8ee3f539e619d4646013db4982ea96223eea5896
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO2-->
 
 

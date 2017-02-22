@@ -1,10 +1,10 @@
 ---
-title: "Настройка управления устройствами Windows с помощью Microsoft Intune | Документы Майкрософт"
-description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для компьютеров с Windows, включая устройства с Windows 10."
+title: "Настройка управления устройствами Windows с помощью Microsoft Intune | Документация Майкрософт"
+description: "Включение управления мобильными устройствами (MDM) для устройств Windows с помощью Microsoft Intune"
 keywords: 
 author: staciebarker
 manager: stabar
-ms.date: 01/26/2016
+ms.date: 02/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
-ms.openlocfilehash: f4f3b89cf066bcc98d043f66d4d40fd9d9ca3fd5
+ms.sourcegitcommit: 45c32cf08e4d6fd570af287ed64411edc9d9b394
+ms.openlocfilehash: e020ac2a4f600a94e7409e04c4c48f0c405c56cf
 
 
 ---
@@ -23,23 +23,29 @@ ms.openlocfilehash: f4f3b89cf066bcc98d043f66d4d40fd9d9ca3fd5
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-Как администратор Intune вы можете включить регистрацию и управление для компьютеров с Windows двумя способами.
+Чтобы настроить регистрацию устройств Windows, воспользуйтесь одним из описанных ниже методов.
 
-- **[Автоматическая регистрация с помощью Azure Active Directory](#azure-active-directory-enrollment)** — пользователи Windows 10 и Windows 10 Mobile регистрируют свои устройства, добавляя на них рабочую или учебную учетную запись.
+- **[Автоматическая регистрация Windows 10 и Windows 10 Mobile с помощью Azure Active Directory Premium](#set-up-windows-10-and-windows-10-mobile-automatic-enrollment-with-azure-active-directory-premium)**. 
+ -  Этот метод подходит только для устройств Windows 10 и Windows 10 Mobile.
+ -  Для использования этого метода необходима служба Azure Active Directory Premium. Если у вас ее нет, используйте метод регистрации для Windows 8.1 и Windows Phone 8.1.
+ -  Если вы решили не включать автоматическую регистрацию, используйте метод регистрации для Windows 8.1 и Windows Phone 8.1.
 
-- **[Регистрация на корпоративном портале](#set-up-company-portal-app-enrollment)** — пользователи устройств с Windows 8.1 и более поздних версий регистрируют их посредством загрузки и установки приложения корпоративного портала с последующим вводом в нем данных рабочей или учебной учетной записи.
+
+- **[Регистрация Windows 8.1 и Windows Phone 8.1 путем настройки CNAME](#set-up-windows-8--1-and-windows-phone-8--1-enrollment-by-configuring-cname)**. 
+ - Этот метод следует использовать для регистрации устройств Windows 8.1 и Windows Phone 8.1.
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
-## <a name="set-up-company-portal-app-enrollment"></a>Настройка регистрации в приложении корпоративного портала
-Вы можете разрешить пользователям устанавливать приложение корпоративного портала Intune и регистрировать свои устройства с его помощью. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера.
+## <a name="set-up-windows-81-and-windows-phone-81-enrollment-by-configuring-cname"></a>Настройка регистрации Windows 8.1 и Windows Phone 8.1 путем настройки CNAME
+Вы можете разрешить пользователям устанавливать и регистрировать свои устройства с помощью корпоративного портала Intune. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера.
 
 1. **Настройка Intune**<br>
 Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами (MDM)](prerequisites-for-enrollment.md#step-2-set-mdm-authority) службу **Microsoft Intune** и затем настроив MDM.
 
-2. **Создание записей CNAME** (необязательно)<br>Создайте запись ресурсов **CNAME** DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.
+2. **Создание записей CNAME** (необязательно)<br>
+Создайте запись ресурсов **CNAME** DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.
 
-    Хотя создание записей DNS CNAME и не является обязательным, записи CNAME упрощают регистрацию для пользователей. При отсутствии записи CNAME для регистрации пользователям предлагается вручную ввести имя сервера MDM — это https://enrollment.manage.microsoft.com. 
+    Хотя создание записей DNS CNAME и не является обязательным, записи CNAME упрощают регистрацию для пользователей. При отсутствии регистрационной записи CNAME пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.com.    
 
     Если у вас уже есть запись CNAME в службе DNS, которая перенаправляет EnterpriseEnrollment.contoso.com на manage.microsoft.com, предполагается, следует заменить ее записью CNAME в службе DNS, которая перенаправляет EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com. Это рекомендуемое изменение, так как конечная точка manage.microsoft.com в будущем выпуске не будет использоваться для регистрации.
 
@@ -72,6 +78,6 @@ ms.openlocfilehash: f4f3b89cf066bcc98d043f66d4d40fd9d9ca3fd5
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO2-->
 
 
