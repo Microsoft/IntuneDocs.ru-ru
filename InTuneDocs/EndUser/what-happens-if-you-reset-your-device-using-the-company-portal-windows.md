@@ -18,8 +18,8 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
-ms.openlocfilehash: b48d3559f776de529c95666d4d4f762c8fbc82d2
+ms.sourcegitcommit: 42e6b4d44dffa457f009e8402d5c429aa55932d6
+ms.openlocfilehash: 74983ab11e1c1763bd5394af483b93b74b715f89
 
 
 ---
@@ -27,7 +27,7 @@ ms.openlocfilehash: b48d3559f776de529c95666d4d4f762c8fbc82d2
 
 # <a name="what-happens-if-you-reset-your-windows-device-using-the-company-portal"></a>Что происходит при сбросе устройства с Windows с помощью корпоративного портала?
 
-При сбросе устройства Windows с помощью корпоративного портала или [веб-сайта корпоративного портала](reset-your-device-cpwebsite.md) устройство сбрасывается до заводских настроек с удалением всех приложений, настроек и данных, включая личные данные. То, что происходит на каждом устройстве, зависит от типа вашего устройства и от того, как эти устройства используются (см. таблицу ниже). Инструкции по сбросу потерянного или украденного устройства см. в статье [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-windows.md) (Сброс (очистка) потерянного или украденного устройства).
+При сбросе устройства Windows с помощью корпоративного портала или [веб-сайта корпоративного портала](reset-erase-your-device-cpwebsite.md) устройство сбрасывается до заводских настроек с удалением всех приложений, настроек и данных, включая личные данные. То, что происходит на каждом устройстве, зависит от типа вашего устройства и от того, как эти устройства используются (см. таблицу ниже). Инструкции по сбросу потерянного или украденного устройства см. в статье [Reset (erase) your lost or stolen device](reset-erase-your-device-cpwebsite.md) (Сброс (очистка) потерянного или украденного устройства).
 
 |Настройка устройства и управление им|Тип устройства|
 |---------------------------------------|---------------|
@@ -39,6 +39,6 @@ ms.openlocfilehash: b48d3559f776de529c95666d4d4f762c8fbc82d2
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO4-->
 
 

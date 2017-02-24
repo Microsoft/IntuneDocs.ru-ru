@@ -14,8 +14,8 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 53862e49c922b75b414fd5aceec3bba2b10299a6
-ms.openlocfilehash: a7c1a2b7ec1719a47c36e1fe09d1deccd0eed1b1
+ms.sourcegitcommit: 6f687a1db84b49bc173d2067ab95598b4485daa8
+ms.openlocfilehash: ab94439d9fd5300d61c5991434d41f7fdca693d2
 
 
 ---
@@ -78,7 +78,7 @@ ms.openlocfilehash: a7c1a2b7ec1719a47c36e1fe09d1deccd0eed1b1
 
 6. **Чтобы развернуть приложение для пользователей**, выберите приложение Lookout for Work и нажмите **Управление развертыванием**.
 
-  Необходимо выбрать тех же пользователей, которые были добавлены в разделе Enrollment Management (Управление регистрацией) в консоли Lookout.  См. шаг 3 в разделе [Настройка службы защиты от угроз на устройствах Lookout в подписке](configure-and-deploy-lookout-for-work-apps.md), где приводится информация о добавлении групп пользователей в Lookout MTP.
+  Необходимо выбрать тех же пользователей, которые были добавлены в разделе Enrollment Management (Управление регистрацией) в консоли Lookout.  См. шаг 3 в разделе [Настройка службы защиты от угроз на устройствах Lookout в подписке](https://docs.microsoft.com/sccm/protect/deploy-use/configure-and-deploy-lookout-for-work-apps), где приводится информация о добавлении групп пользователей в Lookout MTP.
 
   >[!IMPORTANT]
   > Мастер развертывания приложений Intune не обладает информацией о группах пользователей Azure AD и вместо этого использует группы пользователей Intune. Поэтому вам необходимо создать группу пользователей Intune на основе группы пользователей Azure AD, зарегистрированной в консоли Lookout, как описано в [этой](plan-your-user-and-device-groups.md) статье.
@@ -94,10 +94,10 @@ ms.openlocfilehash: a7c1a2b7ec1719a47c36e1fe09d1deccd0eed1b1
 * [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Включение правила защиты устройства от угроз в политике соответствия](enable-device-threat-protection-rule-in-compliance-policy.md)
+* [Включение правила защиты устройства от угроз в политике соответствия](https://docs.microsoft.com/sccm/protect/deploy-use/enable-device-threat-protection-rule-compliance-policy)
 
 
 
-<!--HONumber=Jan17_HO2-->
+<!--HONumber=Feb17_HO4-->
 
 

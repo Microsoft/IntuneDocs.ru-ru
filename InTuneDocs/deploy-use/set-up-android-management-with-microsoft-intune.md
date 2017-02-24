@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 07/25/2016
+ms.date: 01/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,21 @@ ms.technology:
 ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
 ms.reviewer: lacranda
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 99612d5c83030ee05c19c21471cfd23f423fcd80
+ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
+ms.openlocfilehash: 8e2588e2bb0537877f0164bc996fa973f25ea4dd
 
 
 ---
 
 # <a name="set-up-android-device-management"></a>Настройка управления устройством Android
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Как администратор Intune вы можете включить управление устройствами Android (в т. ч. устройства Samsung Knox Standard) из корпоративного портала. После этого пользователи могут зарегистрировать свои устройства с помощью доступного в Google Play приложения корпоративного портала.
+
+По умолчанию устройства с Android могут зарегистрироваться для участия в Intune. Чтобы запретить регистрацию устройств с Android, войдите на [портал администрирования Microsoft Intune](http://manage.microsoft.com), используя учетные данные администратора. Откройте раздел **Администратор** > **Управление мобильными устройствами** > **Правила регистрации** и снимите флажок **Разрешить устройства с Android**.
 
 1.  **Настройка Intune**<br>
     Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#step-2-set-mdm-authority) службу **Microsoft Intune** и настроив MDM.
@@ -34,14 +40,31 @@ ms.openlocfilehash: 99612d5c83030ee05c19c21471cfd23f423fcd80
     Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Android в Intune](../enduser/enroll-your-device-in-intune-android.md). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
 
     Дополнительные сведения о других задачах для пользователей см. в статьях:
-  - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](what-to-tell-your-end-users-about-using-microsoft-intune.md)
+  - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](how-to-educate-your-end-users-about-microsoft-intune.md)
   - [Руководство пользователя для устройств с Android](../enduser/using-your-android-device-with-intune.md)
+
+Так как в Китае отсутствует Магазин Google Play, корпоративный портал для устройств Android можно скачать в китайских магазинах приложений. Приложение корпоративного портала для Android можно будет скачать в следующих магазинах:
+* [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)
+* [Huawei](https://go.microsoft.com/fwlink/?linkid=836948)
+* [Tencent](https://go.microsoft.com/fwlink/?linkid=836949)
+* [Wandoujia](https://go.microsoft.com/fwlink/?linkid=836950)
+* [Xiaomi](https://go.microsoft.com/fwlink/?linkid=836947)
+
+В этом приложении взаимодействие со службой Microsoft Intune осуществляется с помощью Сервисов Google Play. В настоящее время Сервисы Google Play еще недоступны в Китае, поэтому на выполнение одной из следующих задач понадобится до 8 часов. 
+
+|Консоль администрирования Intune| Приложение корпоративного портала Intune для Android |Веб-сайт корпоративного портала Intune|   
+|---|---|---|
+|Полная очистка| Удаление удаленного устройства| Удаление устройства (локального и удаленного)|
+|Selective wipe (Выборочная очистка)| Сброс устройства| Сброс устройства|
+|Развертывание нового или обновленного приложения| Установка доступных бизнес-приложений| Сброс секретного кода устройства|
+|удаленная блокировка;|||
+|Passcode reset (Сброс секретного кода)|||
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

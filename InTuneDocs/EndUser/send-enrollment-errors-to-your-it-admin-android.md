@@ -1,6 +1,6 @@
 ---
-title: "Отправка сообщений об ошибках регистрации ИТ-администратору | Документация Майкрософт"
-description: "Отправка сообщений об ошибках регистрации администратору"
+title: "Отправка сообщений об ошибках регистрации ИТ-администратору | Документы Майкрософт"
+description: "Отправка ошибок регистрации ИТ-администратору"
 keywords: 
 author: barlanmsft
 ms.author: barlan
@@ -16,9 +16,10 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 54bed5af4ef6dce6c304c04e8f43b08910c05b3a
-ms.openlocfilehash: 11649e6a48d88183dc7139f8763f0cdc3d03b00e
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: ca3097cad8874acee1e5839a9c96afc526e2dd28
 
 
 ---
@@ -36,6 +37,6 @@ ms.openlocfilehash: 11649e6a48d88183dc7139f8763f0cdc3d03b00e
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO3-->
 
 

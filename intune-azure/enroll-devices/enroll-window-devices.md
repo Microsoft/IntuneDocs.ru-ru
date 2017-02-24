@@ -1,5 +1,6 @@
 ---
-title: "Регистрация устройств Windows | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Регистрация устройств Windows"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: включение управления мобильными устройствами Intune (MDM) для устройств Windows."
 keywords: 
 author: staciebarker
@@ -12,9 +13,10 @@ ms.technology:
 ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: a4103a4cef393df585b9b9daa92ab63dd7805e9e
-ms.openlocfilehash: a55118e60750616f8b058846148364cbeccb5784
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 7262093700dab3a7befd5b82ac9f8ee3dde22dcf
 
 
 ---

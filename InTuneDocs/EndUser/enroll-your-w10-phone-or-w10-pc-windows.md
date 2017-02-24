@@ -5,17 +5,21 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 01/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
-ms.reviewer: priyar
+searchScope:
+- Company Portal
+ROBOTS: NOINDEX,NOFOLLOW
+ms.reviewer: jieyan
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: 8d1644c5a52d728aecd095979fec130cfa8a86f2
+ms.sourcegitcommit: aca401cab49230d2bcb9171cf532b52ce5219798
+ms.openlocfilehash: b6e9a357b79b0069e5fadf5aa280dae5b4787212
 
 
 ---
@@ -25,10 +29,10 @@ ms.openlocfilehash: 8d1644c5a52d728aecd095979fec130cfa8a86f2
 
 Регистрация устройств в Microsoft Intune позволяет устройствам Windows 10 получить доступ к защищенным данным организации, включая электронную почту, файлы и другие ресурсы. Это справедливо как для устройств с ОС Windows 10 Desktop, так и для устройств с ОС Windows 10 Mobile. Регистрация устройств позволяет защитить доступ как для вас, так и для вашей организации, и помогает отделить рабочие данные от персональных.
 
-Хотите получить дополнительные сведения? Узнайте, что происходит при [регистрации устройства в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) и что это означает для [сведений на устройстве](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md).
+Хотите получить дополнительные сведения? Узнайте, что происходит при [регистрации устройства в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) и что это означает для [сведений на устройстве](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md).
 
 ## <a name="windows-10-desktop-devices"></a>Устройства Windows 10 Desktop
-1.  Перейдите в меню __Пуск__.
+1.    Перейдите в меню __Пуск__.
 
  ![Меню "Пуск" Windows](../media/windows-start-menu.png).
 
@@ -36,23 +40,23 @@ ms.openlocfilehash: 8d1644c5a52d728aecd095979fec130cfa8a86f2
 
  ![параметры поиска для сведений о ПК](../media/searching_for_about_your_pc.png)
 
-2.  В области __Параметры__ появится список сведений о версии Windows 10, установленной на ПК. В этом списке найдите пункт __Версия__.
+2.    В области __Параметры__ появится список сведений о версии Windows 10, установленной на ПК. В этом списке найдите пункт __Версия__.
 
  ![Сведения о ПК в ОС Windows 10 Desktop](../media/settings_about_pc.png)
 
-3.  Если ваша версия — __1607__, продолжите выполнять [эти шаги](enroll-your-w10-device-access-work-or-school.md). Если ваша версия — __1511__, продолжите выполнять [эти шаги](enroll-your-w10-device-your-account.md).
+3.    Если ваша версия — __1607__, продолжите выполнять [эти шаги](enroll-your-w10-device-access-work-or-school.md). Если ваша версия — __1511 или ниже__, продолжать следует [эти шаги](enroll-your-w10-device-your-account.md).
 
 ## <a name="windows-10-mobile-devices"></a>Устройства Windows 10 Mobile
 
-1.  В меню __Пуск__ проведите по экрану, чтобы перейти к списку __Все приложения__, а затем выберите приложение __Настройки__.
-2.  Коснитесь пункта __Система__, а затем — __Сведения__.
-3.  В разделе __Сведения об устройстве__ коснитесь кнопки __Дополнительные сведения__. Появится список сведений о вашем устройстве. В этом списке найдите пункт __Версия__.
-4.  Если ваша версия — __1607__, продолжите выполнять [эти шаги](enroll-your-w10-device-access-work-or-school.md). Если ваша версия — __1511__, продолжите выполнять [эти шаги](enroll-your-w10-device-your-account.md).
+1.    В меню __Пуск__ проведите по экрану, чтобы перейти к списку __Все приложения__, а затем выберите приложение __Настройки__.
+2.    Коснитесь пункта __Система__, а затем — __Сведения__.
+3.    В разделе __Сведения об устройстве__ коснитесь кнопки __Дополнительные сведения__. Появится список сведений о вашем устройстве. В этом списке найдите пункт __Версия__.
+4.    Если ваша версия — __1607__, продолжите выполнять [эти шаги](enroll-your-w10-device-access-work-or-school.md). Если ваша версия — __1511 или ниже__, продолжать следует [эти шаги](enroll-your-w10-device-your-account.md).
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 
 
-<!--HONumber=Dec16_HO3-->
+<!--HONumber=Feb17_HO3-->
 
 

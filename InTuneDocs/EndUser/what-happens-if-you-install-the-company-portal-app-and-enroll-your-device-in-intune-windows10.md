@@ -1,11 +1,11 @@
 ---
-title: "Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune? | Документация Майкрософт"
+title: "Установка приложения корпоративного портала для Windows 10 | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,13 +16,13 @@ searchScope:
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: priyar
 ms.suite: ems
+ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 1f872d245144727406d926b0c9401827939470f1
+ms.sourcegitcommit: 0e6b7ae1794ff0857dfb203eb3c67d7ba494bd8e
+ms.openlocfilehash: 329d34e7a6ad83512e98dce85e1effe9c54a1bce
 
 
 ---
-
 
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-10-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune?
 
@@ -36,7 +36,7 @@ ms.openlocfilehash: 1f872d245144727406d926b0c9401827939470f1
 
 -   сбросить телефон до заводских настроек при его утере или краже.
 
-Действия по регистрации см. в статье [Регистрация устройства с Windows 10 Mobile или Windows 10 Desktop в Intune](enroll-your-w10-phone-or-w10-pc-windows.md). Сведения о том, что именно ИТ-администратор может просматривать на вашем устройстве, см. в статье [Что может видеть ИТ-администратор, когда я регистрирую свое устройство в Intune?](what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows.md)
+Действия по регистрации см. в статье [Регистрация устройства с Windows 10 Mobile или Windows 10 Desktop в Intune](enroll-your-w10-phone-or-w10-pc-windows.md). Сведения о том, что именно ИТ-администратор может просматривать на вашем устройстве, см. в статье [Что может видеть ИТ-администратор, когда я регистрирую свое устройство в Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 
 При добавлении компьютера происходит следующее.
 
@@ -58,6 +58,6 @@ ms.openlocfilehash: 1f872d245144727406d926b0c9401827939470f1
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 
