@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,17 +13,23 @@ ms.technology:
 ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 68cdc77de1fa77b4fed6a1f37850b5427fb2b121
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: b6ab60eff3c65244290b7141e81a7b052dd790ed
 
 
 ---
 
 # <a name="manage-intune-licenses"></a>Управление лицензиями Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе администраторы узнают, как назначать лицензии Intune пользователям, чтобы они могли управлять устройствами.
+
 Чтобы пользователи могли войти в систему и получить доступ к службам Intune или зарегистрировать свои устройства для управления, нужно назначить каждому пользователю лицензию на вашу подписку Intune на [портале Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854).
 
-Организации, использующие Microsoft Enterprise Mobility + Security (EMS), могут иметь пользователей, которым в пакете EMS нужны только службы Azure Active Directory Premium или Intune. Можно назначить одну службу или подмножество служб с помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx). Дополнительные сведения см. в разделе [Управление лицензиями Intune с помощью PowerShell](start-with-a-paid-subscription-to-microsoft-intune-step-4-posh.md).
+Организации, использующие Microsoft Enterprise Mobility + Security (EMS), могут иметь пользователей, которым в пакете EMS нужны только службы Azure Active Directory Premium или Intune. Можно назначить одну службу или набор служб с помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx). Дополнительные сведения см. в разделе [Управление лицензиями Intune с помощью PowerShell](start-with-a-paid-subscription-to-microsoft-intune-step-4-posh.md).
 
 ## <a name="how-intune-licenses-are-assigned"></a>Назначение лицензий Intune
 Когда учетные записи синхронизируются из локальной службы Active Directory или вручную добавляются в подписку облачных служб на [портале Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854), лицензия Intune не назначается им автоматически. Вы как администратор клиента Intune должны изменить учетную запись пользователя на портале Office 365, назначив лицензию этому пользователю.
@@ -94,6 +100,6 @@ ms.openlocfilehash: 68cdc77de1fa77b4fed6a1f37850b5427fb2b121
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

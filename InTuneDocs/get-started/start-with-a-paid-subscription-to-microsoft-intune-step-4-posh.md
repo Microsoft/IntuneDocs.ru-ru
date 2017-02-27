@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: d2d31c80-c32c-4315-8271-1b0cf9a1f78a
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 6b5ea7323f08ae63ce37adedbf23b9fab31a6f55
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: dd71cc8f0d1fc5802f7f24e5f275089ffa24a1c5
 
 
 ---
@@ -23,6 +24,8 @@ ms.openlocfilehash: 6b5ea7323f08ae63ce37adedbf23b9fab31a6f55
 # <a name="manage-intune-licenses-using-powershell"></a>Управление лицензиями Intune с помощью PowerShell
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе администраторы узнают, как использовать PowerShell для управления пользовательскими лицензиями Intune.
 
 Перед тем как пользователи смогут выполнять вход для использования службы Intune или регистрировать свои устройства для управления, вы должны назначить каждому пользователю лицензию на вашу подписку Intune, как описано в статье [Управление лицензиями Intune](start-with-a-paid-subscription-to-microsoft-intune-step-4.md). Тем не менее организации, в которых используется решение Microsoft Enterprise Mobility + Security, могут включать пользователей, которым из всего пакета EMS требуется только Azure Active Directory Premium или службы Intune. Можно назначить одну службу или подмножество служб с помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx).
 
@@ -71,6 +74,6 @@ ms.openlocfilehash: 6b5ea7323f08ae63ce37adedbf23b9fab31a6f55
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

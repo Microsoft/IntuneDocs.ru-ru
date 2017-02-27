@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 02/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,10 @@ ms.technology:
 ms.assetid: 2b770f4f-6d36-41e4-b535-514b46e29aaa
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 27e6a4d59c0cc00ac9dd154605518d9c937e5fc6
+ms.sourcegitcommit: f7998da5566f9b963807b613a47d35b629620f96
+ms.openlocfilehash: 9e8b9e1c935dd771c3e37bea5a552fba2374bf68
 
 
 ---
@@ -63,7 +64,7 @@ ms.openlocfilehash: 27e6a4d59c0cc00ac9dd154605518d9c937e5fc6
 ## <a name="cloud-storage-space"></a>Пространство облачного хранилища
 Все приложения, создаваемые с помощью установщика программного обеспечения (например, бизнес-приложения), упаковываются и передаются в облачное хранилище Microsoft Intune. Пробная подписка на Intune включает 2 гигабайта (ГБ) пространства в облачном хранилище, используемого для хранения управляемых приложений и обновлений. Полная подписка включает в себя 20 ГБ пространства хранилища.
 
-Вы можете просмотреть, какой объем хранилища используется, в узле **Использование хранилища** рабочей области **Администрирование**.
+Вы можете просмотреть, какой объем хранилища используется, в узле **Использование хранилища** рабочей области **Администрирование**. Вы можете приобрести дополнительное хранилище Intune с помощью исходного способа покупки.  Если ваш способ оплаты — выставление счета или кредитная карта, перейдите на [портал управления подписками](https://portal.office.com/adminportal/home?switchtomodern=true#/subscriptions).  В противном случае обратитесь к партнеру или торговому представителю.
 
 Ниже приведены требования для облачного хранилища.
 
@@ -96,6 +97,6 @@ ms.openlocfilehash: 27e6a4d59c0cc00ac9dd154605518d9c937e5fc6
 
 
 
-<!--HONumber=Dec16_HO5-->
+<!--HONumber=Feb17_HO2-->
 
 
