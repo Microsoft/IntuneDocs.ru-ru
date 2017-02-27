@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,21 @@ ms.technology:
 ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 1587ffbc85470624e53983278b7a6d00b6dc8a51
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: 1b14ec6330c512981025a2910dbd222fa4d7cf7f
 
 
 ---
 
 
 # <a name="create-groups-to-organize-users-and-devices"></a>Создание групп для организации пользователей и устройств
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе администраторы узнают, как создать группы пользователей в Intune.
+
 Группы в Intune обеспечивают гибкость управления устройствами и пользователями. Можно настроить группы в соответствии с потребностями организации (например, по географическому положению, отделам или характеристикам оборудования) и использовать их для выполнения разнообразных административных задач от развертывания политики для группы пользователей до развертывания приложений на наборе устройств.
 
 ## <a name="group-management-moving-to-azure-ad"></a>Перемещение управления группами в Azure AD
@@ -84,6 +90,6 @@ ms.openlocfilehash: 1587ffbc85470624e53983278b7a6d00b6dc8a51
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 
