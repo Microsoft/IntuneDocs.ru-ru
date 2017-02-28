@@ -156,7 +156,7 @@
 #### [Dynamics CRM Online](deploy-use/restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
 #### [Защита доступа к электронной почте: примеры](deploy-use/restrict-email-access-example-scenarios.md)
 ### [Разрешить доступ к службам Office 365 только для управляемых политиками приложений](deploy-use/allow-policy-managed-apps-access-to-o365.md)
-#### [Приложения с помощью MAM CA](deploy-use/use-apps-with-mam-ca.md)
+#### [Использование приложений с центром сертификации на основе приложения](deploy-use/use-apps-with-mam-ca.md)
 #### [Exchange Online](deploy-use/mam-ca-for-exchange-online.md)
 #### [Блокировать приложения без ADAL](deploy-use/block-apps-with-no-modern-authentication.md)
 ### [Защита доступа к сетям (Cisco ISE)](deploy-use/restrict-access-to-networks.md)
@@ -222,8 +222,3 @@
 ## [Устранение неполадок при защите устройств от угроз](troubleshoot/device-threat-protection-troubleshooting.md)
 
 # [Глоссарий](understand-explore/intune-glossary.md)
-
-
-<!--HONumber=Feb17_HO3-->
-
-
