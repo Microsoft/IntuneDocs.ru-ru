@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/10/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 67e3481f9cf01bd1b298cfb26f25d1a3205e0f29
-ms.openlocfilehash: 0c22d8a85d90139b3ac17c54668890d5b4c0afe6
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: c6293e9c669266203705a8fe06c323869dc7881f
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-configure-device-restriction-settings-in-intune-azure-preview"></a>Настройка параметров ограничений для устройств iOS в предварительной версии Intune Azure
+# <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений для устройств iOS в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -41,7 +42,7 @@ ms.openlocfilehash: 0c22d8a85d90139b3ac17c54668890d5b4c0afe6
     - **iOS**
     - **macOS**
     - **Windows Phone 8.1**
-    - **Windows 8.1 и более поздних версий**
+    - **Windows 8.1 и более поздние версии**
     - **Windows 10 и более поздних версий**
 6. В раскрывающемся списке **Профиль** выберите **Ограничения устройств**. Если вы хотите создать профиль ограничений для устройств Windows 10 для совместной работы, например Surface Hub, выберите **Ограничения для устройств (Windows 10 для совместной работы)**.
 7. Доступные для настройки параметры будут отличаться в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
@@ -62,10 +63,5 @@ ms.openlocfilehash: 0c22d8a85d90139b3ac17c54668890d5b4c0afe6
 В этом примере вы создадите политику ограничений устройства, которая блокирует использование встроенной камеры на устройствах Android.
 
 ![Как отключить камеру на устройствах Android](./media/disable-android-camera.png)
-
-
-
-
-<!--HONumber=Feb17_HO1-->
 
 

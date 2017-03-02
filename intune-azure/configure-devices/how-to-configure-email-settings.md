@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 484bd9b0-fbf1-4f4f-940c-6b12fa07e228
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3ee87c8f6104b06c8a9492566ff160540624f17e
-ms.openlocfilehash: 79faa771a9af0761703ca3e72b937fab1a83a81f
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 66c189ed45b8b5226e36ef4769c0872c428646bb
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-configure-email-settings"></a>Настройка параметров электронной почты 
+# <a name="how-to-configure-email-settings-in-microsoft-intune"></a>Настройка параметров электронной почты в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -55,7 +56,7 @@ ms.openlocfilehash: 79faa771a9af0761703ca3e72b937fab1a83a81f
     - [Параметры Android](email-profile-settings-for-android.md)
     - [Параметры iOS](email-profile-settings-for-ios.md)
     - [Параметры Windows Phone 8.1](email-profile-settings-for-windows-phone-8-1.md)
-    - [Параметры Windows 10](email-profile-settings-for-windows-10.md).
+    - [Параметры Windows 10](email-profile-settings-for-windows-10.md)
 8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
 
 Созданный профиль отобразится в колонке со списком профилей.
@@ -85,9 +86,4 @@ ms.openlocfilehash: 79faa771a9af0761703ca3e72b937fab1a83a81f
 - **Windows.** Обнаружение имеющегося дубликата профиля электронной почты выполняется по имени узла и адресу электронной почты. Intune перезаписывает существующий профиль электронной почты, созданный пользователем.
 - **Android.** Обнаружение имеющегося дубликата профиля электронной почты выполняется по адресу электронной почты. Он заменяется профилем Intune.
 Так как Android не использует имя узла для идентификации профиля, мы не рекомендуем создавать несколько профилей электронной почты для использования с одним и тем же адресом электронной почты на разных узлах, в таком случае они будут перезаписывать друг друга.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
