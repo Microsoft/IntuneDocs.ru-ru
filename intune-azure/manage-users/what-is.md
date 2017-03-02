@@ -1,5 +1,6 @@
 ---
-title: "Основные сведения об управлении пользователями | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Основные сведения об управлении пользователями"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как просматривать пользователей и управлять ими с помощью Microsoft Intune и Azure."
 keywords: 
 author: nathbarn
@@ -12,10 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 00e9dfd165a449182c5b937372db7085c981c68f
-ms.openlocfilehash: 9c9a10dc47dc6a8fc38ac197230c3c131d5aff03
-ms.lasthandoff: 02/14/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 03860275184824e72c94937ef3bb32c76cfef933
+ms.lasthandoff: 02/18/2017
 
 
 ---

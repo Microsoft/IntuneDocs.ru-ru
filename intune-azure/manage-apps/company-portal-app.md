@@ -1,5 +1,6 @@
 ---
-title: "Как настроить приложение корпоративного портала | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Как настроить приложение корпоративного портала"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как использовать фирменный стиль в приложении корпоративного портала. "
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 142b57f48c2950f6eecc228decfa06ce44c76319
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 9ebfadd945916b6be8225b9e07d67100e3f91222
+ms.lasthandoff: 02/18/2017
 
 ---
 

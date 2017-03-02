@@ -1,5 +1,6 @@
 ---
-title: "Как добавлять в Intune приложения из магазина Windows Phone 8.1 | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Как добавлять в Intune приложения из магазина Windows Phone 8.1"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как добавлять в Intune приложения из магазина Windows Phone 8.1."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 4a95e575-2c63-4bfc-b9c4-f0a132eef618
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 4a08e0ac90faa0715172e7c5355b474822536afe
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 7b09c7425f9649cd14ae4a9970577a33aeb83ac6
+ms.lasthandoff: 02/18/2017
 
 ---
 

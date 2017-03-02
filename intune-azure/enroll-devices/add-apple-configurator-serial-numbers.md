@@ -1,5 +1,6 @@
 ---
-title: "Добавление серийных номеров Apple Configurator | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Добавление серийных номеров Apple Configurator"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте о том, как добавлять серийные номера в корпоративные устройства iOS с помощью Apple Configurator."
 keywords: 
 author: staciebarker
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: d408aa38-7d1e-40df-9067-246e53f6e26f
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 37c56d0c219c61c345874b24e8ba9ac640f1ef76
-ms.openlocfilehash: 4c2ebe535935518127a799ae0518c43a2e53de72
-ms.lasthandoff: 02/17/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 26d253f013195cc18f9a97b8259c603d707d22bf
+ms.lasthandoff: 02/18/2017
 
 
 ---

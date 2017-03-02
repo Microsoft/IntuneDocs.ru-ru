@@ -1,5 +1,6 @@
 ---
-title: "Управление приложениями iOS, приобретенными по программе Volume Purchase Program | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Управление приложениями iOS, приобретенными по программе корпоративных закупок"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте о том, как синхронизировать приложения, приобретенные по программе Volume Purchase Program в магазине iOS, в Intune, а затем управлять ими и отслеживать их использование."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 7a2d494a995072c6fa61cf99aa5f841256e86885
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: e75ab41176f2aa1feac98fcf067349b132d4d61b
+ms.lasthandoff: 02/18/2017
 
 ---
 

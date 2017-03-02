@@ -1,5 +1,6 @@
 ---
-title: "Параметры политик для защиты приложений в iOS |Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры политик для защиты приложений в iOS"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. В этой статье описываются параметры политик для защиты приложений на устройствах iOS."
 keywords: 
 author: NathBarn
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 0f8b08f2-504c-4b38-bea2-b8a4ef0526b8
 ms.reviewer: andcerat
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: c169ed02e707d605f2b3108bcf955b41d7e48918
-ms.openlocfilehash: 451e4c396bc9384172592a159acab1af620e6007
-ms.lasthandoff: 02/14/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: a391f9e16faf315c5fb88191f3de3f8f2f3d5178
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -50,7 +52,7 @@ ms.lasthandoff: 02/14/2017
 
 Среди приложений и служб платформ существует несколько исключений, в которых политика защиты приложений Intune может в некоторых случаях разрешить передачу данных. Этот список может измениться. В нем представлены полезные службы и приложения для безопасной работы.
 
-| Имя службы или приложения | Описание |
+| Имя (имена) службы или приложения | Описание |
 | ---- | --- |
 |tel; telprompt | Встроенное приложение телефона |
 | skype | Skype |

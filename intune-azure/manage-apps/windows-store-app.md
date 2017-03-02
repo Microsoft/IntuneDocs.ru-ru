@@ -1,5 +1,6 @@
 ---
-title: "Добавление приложений Магазина Windows в Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Добавление приложений Магазина Windows в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как добавить приложения Магазина Windows в Intune."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 80fe042dbdc909d1c81098567b1a87d8b089cc19
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: e6e6ba0aae5da25b3f8b07326a2e323c75268ff5
+ms.lasthandoff: 02/18/2017
 
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: "Параметры политик для защиты приложений в Android |Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры политик для защиты приложений в Android"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. В этой статье описываются параметры политик для защиты приложений на устройствах Android."
 keywords: 
 author: NathBarn
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 9e9ef9f5-1215-4df1-b690-6b21a5a631f8
 ms.reviewer: andcerat
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 59bf958274d19f6e260c24222f0eb3d175158db1
-ms.openlocfilehash: cc9b2e34878b410aa7d6f61b3bc58515ad6a67d4
-ms.lasthandoff: 02/14/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 5a5bef54e805dacf4bf972a4f0a56bd08dbf95f7
+ms.lasthandoff: 02/18/2017
 
 
 ---
