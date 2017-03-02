@@ -1,11 +1,11 @@
 ---
 title: "Новые возможности предварительной версии Microsoft Intune | Предварительная версия Intune Azure | Документация Майкрософт"
-description: "Предварительная версия Intune Azure. Сведения о новых возможностях предварительной версии Intune Azure."
+description: "Сведения о новых возможностях предварительной версии Intune Azure"
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/02/2017
+ms.date: 02/15/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,28 +14,40 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e405363f9d0a89b1589b01d18ee8d2861b07ec60
-ms.openlocfilehash: 70007f5501fba37964a0a54807c0e0f565510a74
-
+ms.sourcegitcommit: 9852fdb9d1bfeede4931f0ead2fa0898dfcacb0b
+ms.openlocfilehash: a05c7464b3f2fbca467d44218904671529320dda
+ms.lasthandoff: 02/15/2017
 
 ---
 
 # <a name="whats-new-in-the-microsoft-intune-preview"></a>Новые возможности предварительной версии Microsoft Intune
 
-
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
-
 
 Предварительная версия развивается, и добавляются новые функции, поэтому мы расскажем о них в этой статье.
 
-<!--## February 2017-->
+## <a name="february-2017"></a>Февраль 2017 г.
 
-<!--### Custom app categories <!--748805
-You can now create, edit, and assign categories for apps you add to Intune. Currently, categories can only be specified in English.
-See [How to add an app to Intune](/intune-azure/manage-apps/add-apps).-->
+### <a name="ability-to-restrict-mobile-device-enrollment---747600-795782--"></a>Возможность ограничить регистрацию мобильных устройств <!--747600, 795782-->
+В Intune добавлены новые ограничения на регистрацию, определяющие, какие платформы мобильных устройств разрешено регистрировать. Intune разделяет платформы мобильных устройств на категории: iOS, macOS, Android, Windows и Windows Mobile.
 
-<!--### Display device categories <!--814654
-You can now view the device category as a column in the device list. You can also edit the category from the properties section of the device properties blade.-->
+* Ограничение на регистрацию мобильных устройств не означает ограничение на регистрацию клиентов ПК.  
+* Только для iOS и Android существует один дополнительный параметр для блокировки регистрации персональных устройств.
+
+Все новые устройства в Intune помечаются как персональные, если только ИТ-администратор не отметит их как принадлежащие организации, как описано в [этой статье](https://docs.microsoft.com/en-us/intune/deploy-use/manage-corporate-owned-devices).
+
+### <a name="view-all-actions-on-managed-devices---677150--"></a>Просмотр всех действий на управляемых устройствах <!--677150-->
+Новый отчет __Действия устройства__ показывает, кто выполнял на устройствах удаленные операции, например возврат к заводским настройкам, а кроме того, указывает состояние этих действий. См. раздел [Что такое управление устройствами?](https://docs.microsoft.com/intune-azure/manage-devices/what-is).
+
+### <a name="non-managed-devices-can-access-assigned-apps---664691--"></a>Неуправляемые устройства могут получить доступ к назначенным приложениям <!--664691-->
+В рамках изменений структуры веб-сайта корпоративного портала пользователи iOS и Android смогут устанавливать приложения, которые назначены им как "доступные без регистрации", на неуправляемых устройствах. Используя свои учетные данные Intune, пользователи смогут войти на веб-сайт корпоративного портала и просмотреть список приложений, которые им назначены. Пакеты приложений, "доступных без регистрации", можно будет скачать с веб-сайта корпоративного портала. Приложения, требующие регистрации для установки, это изменение не затрагивает. Пользователям будет предложено зарегистрировать свое устройство, если они захотят установить такие приложения.
+
+### <a name="custom-app-categories---748805--"></a>Категории пользовательских приложений <!--748805-->
+Теперь вы можете создать, изменить и назначить категории для приложений, добавляемых в Intune. Сейчас категории можно указать только на английском языке.
+См. раздел [Добавление приложения в Intune](/intune-azure/manage-apps/add-apps).
+
+### <a name="display-device-categories---814654--"></a>Отображение категорий устройств <!--814654-->
+Теперь можно просмотреть категории устройств как столбец в списке устройств. Можно также изменить категорию в разделе "Свойства" в колонке свойств устройства. См. раздел [Добавление приложения в Intune](/intune-azure/manage-apps/add-apps). 
 
 ## <a name="january-2017"></a>Январь 2017 г.
 
@@ -83,9 +95,4 @@ You can now view the device category as a column in the device list. You can als
 
 #### <a name="how-to-get-ready-for-this-change"></a>Как подготовиться к этому изменению
 Сведения предоставляются заранее, поэтому если эти изменения повлияют на вашу работу, сообщите о них администраторам службы технической поддержки. Внедрение этого изменения совпадает с переходом на портал Azure, который ожидается в первой половине 2017 г.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

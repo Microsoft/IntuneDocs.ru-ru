@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,12 +14,13 @@ ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: f27eacc8a8282c9216f8983db32dc5e4e8bc7006
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 142b57f48c2950f6eecc228decfa06ce44c76319
+ms.lasthandoff: 02/16/2017
 
 ---
 
-# <a name="how-to-configure-the-company-portal-app"></a>Как настроить приложение корпоративного портала
+# <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Настройка приложения корпоративного портала Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -64,9 +65,4 @@ ms.openlocfilehash: f27eacc8a8282c9216f8983db32dc5e4e8bc7006
 |**Показывать эмблему компании**|Если включить этот параметр, можно отправить логотип компании, который будет отображаться на корпоративном портале. Вы можете отправить два логотипа — для белого цвета фона и для цвета выбранной вами темы. Файл логотипа должен быть в формате PNG или JPG и иметь максимальное разрешение 400 x 100 пикселей и размер не более 750 КБ.<br>Также можно отображать имя компании рядом с загруженной эмблемой.|
 
 После сохранения изменений выберите **Preview your settings in the Intune Web Portal** (Предварительный просмотр параметров на веб-портале Intune), чтобы просмотреть результаты настройки.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

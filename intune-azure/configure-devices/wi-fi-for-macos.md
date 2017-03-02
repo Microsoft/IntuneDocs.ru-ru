@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 322a38d5-21f5-48ee-bc59-0a4f9da78d38
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ac907e4cb63e4175dafc4c50239d3e0cbe581ad9
-ms.openlocfilehash: 46c567dbcbfb84d4e0f8e3c3e8567cc6498befcf
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: c4be15ee4dce4fcc5a2dc5bdce6d6d4638b96a60
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="intune-wi-fi-settings-for-macos-devices-in-intune-azure-preview"></a>Параметры Wi-Fi в Intune для устройств macOS в предварительной версии Intune Azure
+# <a name="wi-fi-settings-for-macos-devices-in-microsoft-intune"></a>Параметры Wi-Fi для устройств macOS в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -40,14 +41,14 @@ ms.openlocfilehash: 46c567dbcbfb84d4e0f8e3c3e8567cc6498befcf
 - **Тип безопасности**. Выберите протокол безопасности, который будет использоваться для проверки подлинности в сети Wi-Fi:
     - **Открыть (без проверки подлинности)**. Используйте этот параметр, если сеть не защищена.
     - **WPA/WPA2-Personal**
-    - **WEP**.
+    - **WEP**
 
 ## <a name="wi-fi-settings-for-enterprise-profiles-only"></a>Параметры Wi-Fi только для корпоративных профилей
 
 - **Тип EAP**. Выберите тип протокола расширяемой проверки подлинности (EAP), используемый для аутентификации безопасных беспроводных подключений:
     - **EAP-FAST**;
     - **EAP-SIM**;
-    - **EAP-TLS**;
+    - **EAP-TLS**
     - **EAP-TTLS**;
     - **LEAP**;
     - **PEAP**.
@@ -76,9 +77,4 @@ ms.openlocfilehash: 46c567dbcbfb84d4e0f8e3c3e8567cc6498befcf
 |--------------|-------------|----------|
 |**Сертификат клиента для проверки подлинности клиента (сертификат удостоверения)**|Выберите профиль сертификата SCEP или PKCS, используемый для проверки подлинности подключения.|Тип EAP — **EAP-TLS**.|
 |**Метод проверки подлинности**|Выберите метод проверки подлинности для подключения:<br>- **Сертификаты**, чтобы выбрать клиентский сертификат SCEP или PKCS, который является сертификатом удостоверения для сервера.<br><br>- **Имя пользователя и пароль**, чтобы указать другой метод проверки подлинности. <br><br>Если вы выбрали **Имя пользователя и пароль**, настройте следующие параметры:<br><br>-  **Метод отличается от EAP (внутреннее удостоверение)**, затем выберите, как будет проходить проверка подлинности подключения:<br>- **Нет**<br>- **Незашифрованный пароль (PAP)**<br>- **Протокол проверки пароля (CHAP)**<br>- **Microsoft CHAP (MS-CHAP)**<br>- **Microsoft CHAP версии 2 (MS-CHAP v2)**<br>Доступные параметры зависят от выбранного типа EAP.<br><br>**и**<br><br>- **Конфиденциальность удостоверений (внешнее удостоверение).** Укажите текст, отправляемый в ответ на запрос удостоверения EAP. Этот текст может иметь любое значение. Во время проверки подлинности сначала будет отправлено это анонимное удостоверение, после чего в защищенный туннель будет отправлена фактическая идентификация.|Тип EAP — **EAP-TTLS** или **PEAP**.|
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

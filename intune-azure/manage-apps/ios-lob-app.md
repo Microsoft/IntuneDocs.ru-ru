@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,19 +14,20 @@ ms.assetid: 099101e8-4b22-40ac-ba19-82ba5c71944c
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: d8615611eb715da66b1cf0972b885fbccb12fe6a
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 6d41adabfab178daa7f6fce3d86bc8216bf4ab29
+ms.lasthandoff: 02/16/2017
 
 ---
 
-# <a name="how-to-add-ios-line-of-business-lob-apps-to-intune"></a>Как добавлять в Intune бизнес-приложения iOS
+# <a name="how-to-add-ios-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune бизнес-приложения iOS
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 
 ## <a name="step-1---specify-the-software-setup-file"></a>Шаг 1. Выбор файла установки программного обеспечения
 
-1. Войдите на портал Azure.
+1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке Intune выберите **Управление приложениями**.
 4. В рабочей нагрузке **Мобильные приложения** выберите "Управление" > **Приложения**.
@@ -53,8 +54,3 @@ ms.openlocfilehash: d8615611eb715da66b1cf0972b885fbccb12fe6a
 2. По завершении в колонке **Добавить приложение** нажмите кнопку **Сохранить**.
 
 Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. Сведения см. в статье о [назначении приложений группам](/intune-azure/manage-apps/deploy-apps).
-
-
-<!--HONumber=Feb17_HO1-->
-
-

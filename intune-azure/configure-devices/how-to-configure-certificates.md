@@ -1,11 +1,12 @@
 ---
-title: "Настройка сертификатов с помощью Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Настройка сертификатов с помощью Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как использовать Intune для создания и назначения сертификатов, которые помогают защитить подключения Wi-Fi, VPN и другие подключения."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/03/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +14,16 @@ ms.technology:
 ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 3f05e0018fb202ab5774e935c3f59855e4aa2e75
-ms.openlocfilehash: a0183f2a170ed458b19c7688b20ee5ba5c2c696e
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 364534ad788466f8b268b4091decee5326b94163
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="how-to-configure-certificates-with-intune-azure-preview"></a>Настройка сертификатов с помощью предварительной версии Intune Azure
+# <a name="how-to-configure-certificates-in-microsoft-intune"></a>Настройка сертификатов в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -42,8 +45,8 @@ ms.openlocfilehash: a0183f2a170ed458b19c7688b20ee5ba5c2c696e
 
     Профиль сертификата SCEP можно использовать только на следующих платформах:
 
--   устройства macOS 10.9 и более поздней версии;
--   Windows Phone 8.1 и более поздней версии
+-     устройства macOS 10.9 и более поздней версии;
+-     Windows Phone 8.1 и более поздней версии
 
 Необходимо создать отдельный профиль для каждой платформы устройства. При создании профиля необходимо сопоставить его с уже созданным профилем доверенного корневого сертификата.
 
@@ -85,7 +88,7 @@ ms.openlocfilehash: a0183f2a170ed458b19c7688b20ee5ba5c2c696e
     - **iOS**
     - **macOS**
     - **Windows Phone 8.1**
-    - **Windows 8.1 и более поздние версии**;
+    - **Windows 8.1 и более поздние версии**
     - **Windows 10 и более поздние версии**.
 6. Из раскрывающегося списка **Профиль** выберите **Доверенный сертификат**.
 7. Найдите сертификат, сохраненный при выполнении задачи 1, а затем нажмите кнопку **ОК**.
@@ -116,7 +119,7 @@ ms.openlocfilehash: a0183f2a170ed458b19c7688b20ee5ba5c2c696e
     - **iOS**
     - **macOS**
     - **Windows Phone 8.1**
-    - **Windows 8.1 и более поздние версии**;
+    - **Windows 8.1 и более поздние версии**
     - **Windows 10 и более поздние версии**.
 6. Из раскрывающегося списка **Профиль** выберите **Сертификат SCEP**.
 7. В колонке **Сертификат SCEP** настройте следующие параметры:
@@ -196,9 +199,4 @@ ms.openlocfilehash: a0183f2a170ed458b19c7688b20ee5ba5c2c696e
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Общие сведения о назначении профилей устройств см. в [этой статье](how-to-assign-device-profiles.md).
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

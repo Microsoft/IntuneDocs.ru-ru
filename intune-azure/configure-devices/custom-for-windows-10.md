@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 7bcea136-7260-4042-b21b-c7dab86b380d
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0da8c0fe399f76f43439cc66eaecd12bb454f9a6
-ms.openlocfilehash: 05856480f8bb76e561f2b459d4ab800f9909a40a
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: bc740d9e43e2937757075bf84735fe611433f6f0
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="custom-device-settings-for-windows-10-devices-in-intune-azure-preview"></a>Настраиваемые параметры для устройств Windows 10 в предварительной версии Intune Azure
+# <a name="custom-device-settings-for-windows-10-devices-in-microsoft-intune"></a>Настраиваемые параметры устройств с ОС Windows 10 в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -167,9 +168,4 @@ ms.openlocfilehash: 05856480f8bb76e561f2b459d4ab800f9909a40a
 |**Разрешить сохранение пароля**<br>./Vendor/MSFT/Policy/Config/Browser/AllowPasswordManager|Для настольных компьютеров и мобильных устройств<br />**Тип данных:** целочисленный<br />**Значения:**<br>**0** — диспетчер паролей отключен <br>**1** — диспетчер паролей включен (по умолчанию).|
 |**Разрешить автозаполнение**<br>./Vendor/MSFT/Policy/Config/Browser/AllowAutofill|Только для настольных компьютеров<br />**Тип данных:** целочисленный<br />**Значения:** **0** — отключено (по умолчанию), **1** — включено|
 |**Настройка списка корпоративных сайтов**<br>./Vendor/MSFT/Policy/Config/Browser/EnterpriseModeSiteList|Только для настольных компьютеров<br />**Тип данных:** строковый<br />**Значения:<br>**0** — не настроено<br>**1** — использовать список сайтов для режима предприятия в IE, если настроено (по умолчанию)<br>**2** — указать расположение списка сайтов для режима предприятия|
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

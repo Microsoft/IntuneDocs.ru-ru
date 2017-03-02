@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 16c056ca-320e-4107-ad03-a0cf96c28885
 ms.reviewer: karanda
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6cd3069a63bd657d1c9f5e33b96db39a3b3f98d2
-ms.openlocfilehash: f93ab44889837fe8acc5dd5287b63f3b30678159
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: edf359b326626155a2e6acd01f72321c4cd0fe9c
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="vpn-settings-for-android-devices-in-intune-azure-preview"></a>Параметры VPN в Intune для устройств Android в предварительной версии Intune Azure
+# <a name="vpn-settings-for-android-devices-in-microsoft-intune"></a>Параметры VPN для устройств Android в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -41,9 +42,4 @@ ms.openlocfilehash: f93ab44889837fe8acc5dd5287b63f3b30678159
 
 - **Отпечаток** (только Check Point Capsule VPN). Укажите строку (например "Код отпечатка Contoso"), которая будет использоваться для проверки доверия VPN-сервера. Отпечаток можно отправлять клиенту, чтобы он доверял любому серверу, представившему этот же отпечаток при подключении. Если на устройстве еще нет отпечатка, пользователь получит запрос на доверие к VPN-серверу, к которому осуществляется подключение, с отображением отпечатка (пользователь должен вручную проверить отпечаток и подтвердить доверие для подключения).
 - **Введите пары "ключ — значение" для атрибутов Citrix VPN** (только Citrix). Введите пары "ключ — значение", предоставленные Citrix, чтобы настроить свойства VPN-подключения.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

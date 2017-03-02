@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 103e17a4-2993-4359-b340-73e2acf4cf7d
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ac907e4cb63e4175dafc4c50239d3e0cbe581ad9
-ms.openlocfilehash: 03227912dd8a51342c71505746f087bf6b6a4da0
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: e4d42dd165d6a485e9b5691ef9ed9f420d82d3dc
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="intune-wi-fi-settings-for-android-devices-in-intune-azure-preview"></a>Параметры Wi-Fi в Intune для устройств Android в предварительной версии Intune Azure
+# <a name="wi-fi-settings-for-android-devices-in-microsoft-intune"></a>Параметры Wi-Fi для устройств Android в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -59,9 +60,4 @@ ms.openlocfilehash: 03227912dd8a51342c71505746f087bf6b6a4da0
 |----------|--------------|----------|
 |**Сертификат клиента для проверки подлинности клиента (сертификат удостоверения)**|Выберите профиль сертификата SCEP или PKCS, используемый для проверки подлинности подключения.|Тип EAP — **EAP-TLS**.|
 |**Метод проверки подлинности**|Выберите метод проверки подлинности для подключения:<br>- **Сертификаты**, чтобы выбрать клиентский сертификат SCEP или PKCS, который является сертификатом удостоверения для сервера.<br><br>- **Имя пользователя и пароль**, чтобы указать другой метод проверки подлинности. <br><br>Если вы выбрали **Имя пользователя и пароль**, настройте следующие параметры:<br><br>-  **Метод отличается от EAP (внутреннее удостоверение)**, затем выберите, как будет проходить проверка подлинности подключения:<br>- **Нет**<br>- **Незашифрованный пароль (PAP)**<br>- **Протокол проверки пароля (CHAP)**<br>- **Microsoft CHAP (MS-CHAP)**<br>- **Microsoft CHAP версии 2 (MS-CHAP v2)**<br>Доступные параметры зависят от выбранного типа EAP.<br><br>**и**<br><br>- **Конфиденциальность удостоверений (внешнее удостоверение).** Укажите текст, отправляемый в ответ на запрос удостоверения EAP. Этот текст может иметь любое значение. Во время проверки подлинности сначала будет отправлено это анонимное удостоверение, после чего в защищенный туннель будет отправлена фактическая идентификация.|Тип EAP — **EAP-TTLS** или **PEAP**.|
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

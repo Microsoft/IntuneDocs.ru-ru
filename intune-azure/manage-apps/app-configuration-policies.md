@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,12 +14,13 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: 75e3f3f62dd392cda1530321b12cd27e9ee8847f
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 1e1f03a81d28d73476b64cef7af3b93e4d003697
+ms.lasthandoff: 02/16/2017
 
 ---
 
-# <a name="how-to-use-intune-app-configuration-policies"></a>Использование политик конфигурации приложений Intune
+# <a name="how-to-use-microsoft-intune-app-configuration-policies"></a>Использование политик конфигурации приложений Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -133,9 +134,4 @@ Intune поддерживает следующие типы данных в сп
 </dict>
 
 ```
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

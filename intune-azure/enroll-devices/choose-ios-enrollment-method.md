@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 12/13/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: e6c0a430-1851-4108-812a-87e0fc2623b5
 ms.reviewer: damionw
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: c228601451b33238d0f6929987dcdec3a5e56e8d
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: a08274fd4b2d3105b28f46a6d35257b3664f7510
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: c228601451b33238d0f6929987dcdec3a5e56e8d
 
 ## <a name="user-owned-ios-devices-byod"></a>Пользовательские устройства iOS (BYOD)
 
-Единственный доступный метод регистрации личных устройств (BYOD) — скачивание приложения корпоративного портала для iOS из Магазина приложений и выполнение инструкций по регистрации в приложении. Зарегистрировав устройство, пользователи могут подключиться к сети организации, присоединиться к домену или к Azure Active Directory и получить доступ к корпоративным ресурсам.
+Единственный доступный метод регистрации личных устройств (BYOD) — скачивание приложения корпоративного портала для iOS из Магазина приложений и выполнение инструкций по регистрации в приложении. Зарегистрировав устройство, пользователи могут подключиться к сети организации, присоединиться к домену или к Azure Active Directory и получить доступ к корпоративным ресурсам. Вы можете запретить регистрацию личных устройств iOS. Инструкции см. в разделе [Установка ограничений по типу устройства](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-type-restrictions).
 
 ## <a name="apple-configurator"></a>Apple Configurator
 
@@ -48,9 +49,4 @@ ms.openlocfilehash: c228601451b33238d0f6929987dcdec3a5e56e8d
 
 ## <a name="use-the-device-enrollment-manager-dem"></a>Использование диспетчера регистрации устройств (DEM)
 Диспетчер регистрации устройств — это тип учетной записи пользователя, на которую можно зарегистрировать до 1000 устройств. Эта учетная запись также может управлять этими устройствами. Чтобы предоставить существующим пользователям эти возможности, добавьте их в учетную запись DEM. Каждое устройство, регистрирующее пользователя DEM, использует отдельную лицензию Intune. Дополнительные сведения см. в статье [Enroll devices using device enrollment manager](enroll-devices-using-device-enrollment-manager.md) (Регистрация устройств с помощью диспетчера регистрации устройств).
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

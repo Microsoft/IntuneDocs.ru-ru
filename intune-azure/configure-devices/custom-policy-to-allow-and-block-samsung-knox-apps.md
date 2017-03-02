@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/18/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c2b49fb985290b2806e172543f95db21727c113e
-ms.openlocfilehash: 581283b1918efb941409c7f58d99682fa2894ce5
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: f5267d2e06f1cd7ec471fd1782bfd965843d1c7e
+ms.lasthandoff: 02/16/2017
 
 
 
 ---
-# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-intune-azure-preview"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в предварительной версии Intune Azure
+# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в Microsoft Intune
 [!INCLUDE[azure_preview](../includes/azure_preview.md)] В этой статье описано, как создать настраиваемую политику Microsoft Intune, которая создает один из следующих элементов.
 
 - Список приложений, запуск которых заблокирован на конкретном устройстве. Выполнение приложений в этом списке блокируется, даже если они были установлены после применения политики.
@@ -45,9 +46,9 @@ ms.openlocfilehash: 581283b1918efb941409c7f58d99682fa2894ce5
 
 - **Имя.** Введите **PreventStartPackages**.
 - **Описание.** Введите необязательное описание, например "Список приложений, запуск которых запрещен".
--   **Тип данных.** В раскрывающемся списке выберите **Строка**.
--   **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
--   **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
+-     **Тип данных.** В раскрывающемся списке выберите **Строка**.
+-     **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
+-     **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
 
 ### <a name="for-a-list-of-apps-that-users-are-allowed-to-install-from-the-google-play-store-while-excluding-all-other-apps"></a>Для списка приложений, которые пользователи могут устанавливать из магазина Google Play (все прочие приложения исключаются):
 - **Имя.** Введите **AllowInstallPackages**.
@@ -65,9 +66,4 @@ ms.openlocfilehash: 581283b1918efb941409c7f58d99682fa2894ce5
 
 
 <!---## Assign the custom profile--->
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

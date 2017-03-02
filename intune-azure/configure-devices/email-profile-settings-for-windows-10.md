@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/19/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 2ffafbd0-4b5d-4c86-a46b-611f9b7a58e5
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f16c9dfb41cb2cfe07ce473a131dac767dee9c74
-ms.openlocfilehash: 02b1acca12cfd78afa932319fc389b78bea58e64
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: a69df096dd3ff1012eadba01213a6f2192bad3a9
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="email-profile-settings-for-windows-10-devices-in-intune-azure-preview"></a>Параметры профиля электронной почты для устройств Windows 10 в предварительной версии Intune Azure
+# <a name="email-profile-settings-for-windows-10-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Windows 10 в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -32,7 +33,7 @@ ms.openlocfilehash: 02b1acca12cfd78afa932319fc389b78bea58e64
 - **Атрибут адреса электронной почты из AAD**. Способ создания адреса электронной почты для пользователя на каждом устройстве. Выберите **Первичный SMTP-адрес**, чтобы входить в Exchange с помощью основного SMTP-адреса, или **Имя субъекта-пользователя**, чтобы использовать полное имя субъекта-пользователя в качестве адреса электронной почты.
 
 
-## <a name="security-settings"></a>Параметры безопасности
+## <a name="security-settings"></a>параметры безопасности;
 
 - **SSL**. Использование протокола SSL при отправке и получении электронной почты, а также для взаимодействия с сервером Exchange.
 
@@ -49,9 +50,4 @@ ms.openlocfilehash: 02b1acca12cfd78afa932319fc389b78bea58e64
     - **Контакты**
     - **Календарь**
     - **Задачи**
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

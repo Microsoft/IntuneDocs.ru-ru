@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/11/2017
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,12 +14,13 @@ ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
 ms.reviewer: mghadial
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: ef43194daa5cbdf058b4fe0ed94e775fe2e7340e
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: dbeaabe0f119a0e819857ef7181bbf6de2b1dbd8
+ms.lasthandoff: 02/16/2017
 
 ---
 
-# <a name="how-to-add-android-line-of-business-lob-apps-to-intune"></a>Как добавлять в Intune бизнес-приложения Android
+# <a name="how-to-add-android-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune бизнес-приложения Android
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -53,9 +54,4 @@ ms.openlocfilehash: ef43194daa5cbdf058b4fe0ed94e775fe2e7340e
 3. По завершении в колонке **Добавить приложение** нажмите кнопку **Сохранить**.
 
 Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. Сведения см. в статье о [назначении приложений группам](/intune-azure/manage-apps/deploy-apps).
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 10/19/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,14 @@ ms.assetid: 9f0fa6af-3669-439a-bd0d-75d8b1a0b135
 ms.reviewer: heenamac
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f16c9dfb41cb2cfe07ce473a131dac767dee9c74
-ms.openlocfilehash: 255a5e8c8b430e15aba989e1ce805f7d627f0e0c
+ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
+ms.openlocfilehash: 186630903a606842406ff1d76115c1fa7d1c962e
+ms.lasthandoff: 02/16/2017
 
 
 ---
 
-# <a name="email-profile-settings-for-ios-devices-in-intune-azure-preview"></a>Параметры электронной почты для устройств iOS в предварительной версии Intune Azure
+# <a name="email-profile-settings-for-ios-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств iOS в Microsoft Intune
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -39,9 +40,4 @@ ms.openlocfilehash: 255a5e8c8b430e15aba989e1ce805f7d627f0e0c
 - **Разрешить перемещение сообщений в другие учетные записи электронной почты**. Выберите этот параметр, чтобы разрешить пользователям перемещать сообщения электронной почты между разными учетными записями, настроенными на их устройствах.
 - **Разрешить отправку сообщений электронной почты сторонними приложениями**. Пользователь может выбрать этот профиль в качестве учетной записи по умолчанию для отправки электронной почты, а сторонние приложения — чтобы открывать электронную почту в собственном почтовом клиенте, например для вложения файлов в сообщения.
 - **Синхронизация недавно использовавшихся адресов электронной почты**. Выберите этот параметр, чтобы разрешить пользователям синхронизировать с сервером список адресов электронной почты, которые недавно использовались на устройстве.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

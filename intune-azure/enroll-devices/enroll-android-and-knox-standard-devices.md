@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
-ms.date: 12/16/2016
+ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 990062ecf03a117dad74eb71e3f40abb79f22be6
-ms.openlocfilehash: edd6303f3bb05dfff758cbb7d4bd08e21f083998
+ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
+ms.openlocfilehash: 99b790e33843efcf83a4687490b186a6e174bd81
+ms.lasthandoff: 02/15/2017
 
 
 ---
@@ -24,7 +25,7 @@ ms.openlocfilehash: edd6303f3bb05dfff758cbb7d4bd08e21f083998
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-Как администратор Intune вы можете включить управление устройствами Android (в т. ч. устройства Samsung Knox Standard) из корпоративного портала. После этого пользователи могут зарегистрировать свои устройства с помощью доступного в Google Play приложения корпоративного портала.
+Intune позволяет управлять устройствами Android, включая устройства Samsung Knox Standard. Чтобы обеспечить управление устройствами, пользователям необходимо зарегистрировать их, скачав приложение корпоративного портала Intune, которое доступно в Google Play, а затем открыв это приложение и выполнив указания по установке. Когда устройства Android будут зарегистрированы в системе управления, вы можете [создавать политики соответствия требованиям](https://docs.microsoft.com/intune-azure/set-device-compliance/create-a-compliance-policy-for-android), [управлять приложениями](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-management) и выполнять другие действия.
 
 ## <a name="prerequisite"></a>Необходимое условие
 
@@ -32,20 +33,19 @@ ms.openlocfilehash: edd6303f3bb05dfff758cbb7d4bd08e21f083998
 
 ## <a name="set-up-android-enrollment"></a>Настройка регистрации устройств Android
 
-По умолчанию в службе Intune разрешена регистрация устройств с Android и Samsung Knox Standard. 
+По умолчанию в службе Intune разрешена регистрация устройств Android и Samsung Knox Standard. 
 
-Чтобы просмотреть параметры, которые разрешают или запрещают регистрацию устройств Android, откройте на портале Azure колонку Intune и щелкните **Регистрация** > **Ограничения регистрации**. 
+Чтобы заблокировать регистрацию всех или только личных устройств Android, см. инструкции в разделе [Установка ограничений по типу устройства](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-type-restrictions). 
+
+Сведения о том, как задать максимальное число устройств, которые может зарегистрировать пользователь, см. в разделе [Установка ограничений по числу устройств](https://docs.microsoft.com/intune-azure/enroll-devices/set-enrollment-restrictions#set-device-limit-restrictions).
 
 ## <a name="tell-your-users-how-to-enroll-their-devices-to-access-company-resources"></a>Сообщите пользователям, как зарегистрировать свои устройства, чтобы получить доступ к ресурсам компании
 
-Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Android в Intune](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-android). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
+Вам следует сообщить пользователям о том, что им необходимо перейти в Google Play, чтобы скачать приложение корпоративного портала Intune, а затем открыть это приложение и зарегистрировать устройство, выполнив указания. Приложение помогает пользователям пройти процедуру регистрации, уведомляя их о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
+
+Вы также можете отправить им ссылку инструкции по регистрации в Интернете: [Регистрация устройства Android в Intune](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-android). 
 
 Дополнительные сведения о других задачах для пользователей см. в статьях:
 
 - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune)
 - [Использование устройства Android с Intune](https://docs.microsoft.com/intune/enduser/using-your-android-device-with-intune)
-
-
-<!--HONumber=Feb17_HO1-->
-
-
