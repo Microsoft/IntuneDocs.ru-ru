@@ -5,7 +5,7 @@ keywords:
 author: staciebarker
 ms.author: staciebarker
 manager: angrobe
-ms.date: 08/02/2016
+ms.date: 02/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 2d5c7d4800e1140efb502c47151ea8cc87548acd
+ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
+ms.openlocfilehash: 9de1c3f8c3dbb7a5e00c5384cc7321aedfa5b9b5
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -120,17 +121,22 @@ ms.openlocfilehash: 2d5c7d4800e1140efb502c47151ea8cc87548acd
 |**0x80070032**|Не удалось найти как минимум один обязательный компонент для установки клиентского программного обеспечения на клиентском компьютере.|Убедитесь, что на клиентском компьютере установлены все требуемые обновления и затем снова попытайтесь установить клиентское программное обеспечение. Дополнительные сведения о компонентах, необходимых для установки клиентского программного обеспечения, см. в статье [Требования к сетевой инфраструктуре для Microsoft Intune](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune).|
 |**0x80043008**|Не удалось запустить службу обновления Microsoft Online Management.|Чтобы сделать это, обратитесь в службу поддержки, как описано в статье [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).|
 |**0x80043009**|Клиентский компьютер уже зарегистрирован в службе.|Перед повторной регистрацией компьютера в службе необходимо снять его с учета. Инструкции см. в статье [Снятие данных и устройств с учета в Microsoft Intune](/intune/deploy-use/retire-devices-from-microsoft-intune-management).|
+|**0x8004300A**|(Этап 21) Ошибка при развертывании пакета регистрации в объекте групповой политики, который будет установлен в области пользователя, а в не области компьютера. |Убедитесь, что объект групповой политики установлен в области компьютера, с помощью GPSI. Обсуждение этой темы см. на [форуме TechNet](https://social.technet.microsoft.com/Forums/en-US/bb9fa71c-c132-4954-abb0-70be8acbd925/failed-to-install-windows-intune?forum=microsoftintuneprod).|
 |**0x8004300B**|Невозможно запустить пакет установки клиентского программного обеспечения, так как версия ОС Windows, установленная на клиентском компьютере, не поддерживается.|Intune не поддерживает версию ОС Windows, установленную на клиентском компьютере. Список поддерживаемых операционных систем см. в статье [Требования к сетевой инфраструктуре для Microsoft Intune](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune).|
 |**0xAB2**|Установщику Windows не удалось получить доступ к среде выполнения VBScript для выполнения настраиваемого действия.|Эта ошибка вызвана настраиваемым действием на основе библиотек динамической компоновки (DLL). При устранении неполадок, связанных с библиотекой DLL, могут быть полезны средства, описанные в [статье 198038 базы знаний на сайте поддержки Майкрософт: "Полезные средства для решения вопросов упаковки и развертывания"](http://go.microsoft.com/fwlink/?LinkID=234255).|
 |**0x8004300f**|Не удается установить программное обеспечение, поскольку клиент System Center Configuration Manager уже установлен.|Удалите клиент Configuration Manager и затем снова попытайтесь установить клиентское программное обеспечение.|
 |**0x80043010**|Не удается установить программное обеспечение, поскольку клиент Open Mobile Alliance Device Management (OMADM) уже установлен.|Отмените регистрацию клиента OMADM и затем снова попытайтесь установить клиентское программное обеспечение.|
 Если устранить проблемы установки не удается, обратитесь в службу поддержки, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md). Приготовьте журнал регистрации клиентского компьютера (расположенный в папке %*файлы_программы*%\Microsoft\OnlineManagement\Logs\Enrollment.log и %*профиль_пользователя*%\AppData\Local\Microsoft\OnlineManagement\Logs\Enrollement.log) и журнал Центра обновления Windows (%*windir*%\windowsupdate.log) для предоставления сотрудникам службы поддержки.
 
+## <a name="what-to-do-if-endpoint-protection-is-not-uninstalled-when-you-uninstall-the-client"></a>Что делать, если Endpoint Protection не удаляется при удалении клиента
+
+Иногда агент Host Protection (Endpoint Protection) не удаляется после выполнения приведенных выше команд. В этом случае выполните следующую команду с повышенными привилегиями:
+
+    ```
+    "C:\Program Files\Managed Defender\Setup.exe" /x /q /s
+    ```
+
+
 ### <a name="next-steps"></a>Дальнейшие действия
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

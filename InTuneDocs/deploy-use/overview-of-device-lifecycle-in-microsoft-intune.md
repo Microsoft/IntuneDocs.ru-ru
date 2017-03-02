@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 106b24e73a21d7cd8608c44c4dd7ded4c0eebe4f
+ms.sourcegitcommit: b7a066c1387a97d6100be0e6ab22d78222bf2a30
+ms.openlocfilehash: 3311ba5081c4b04d72fdeb1f9a558ffc2e1b02fc
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -40,15 +42,10 @@ ms.openlocfilehash: 106b24e73a21d7cd8608c44c4dd7ded4c0eebe4f
 
 ## <a name="protect"></a>Защита
 В современном мире ИТ-технологий защита устройств от несанкционированного доступа является одной из важнейших задач. Помимо элементов на этапе **Настройка** жизненного цикла устройства, Intune предоставляет следующие возможности для защиты управляемых устройств от несанкционированного доступа или вредоносных атак:
-- [**Multi-Factor Authentication**](protect-windows-devices-with-multi-factor-authentication.md). Добавление дополнительного уровня проверки подлинности при входе пользователей на устройства повышает степень их защиты. Устройства с Windows, Windows Phone и Windows Mobile поддерживают Multi-Factor Authentication, требующую второго уровня проверки подлинности, такого как телефонный звонок или SMS, прежде чем пользователи смогут получить доступ.
+- [**Multi-Factor Authentication**](protect-your-devices-with-microsoft-intune.md). Добавление дополнительного уровня проверки подлинности при входе пользователей на устройства повышает степень их защиты. Многие устройства поддерживают многофакторную проверку подлинности, при которой для получения доступа нужно пройти второй уровень проверки подлинности (например, с помощью телефонного звонка или SMS-сообщения).
 - [**Настройки Microsoft Passport**](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md). Microsoft Passport — это альтернативный метод входа с использованием *жеста*, например отпечатка пальца, или Windows Hello для входа без пароля.
 - [**Политики для защиты компьютеров с Windows (с клиентским программным обеспечением Intune)**](policies-to-protect-windows-pcs-in-microsoft-intune.md). При управлении компьютерами с Windows с помощью клиентского программного обеспечения Intune вам доступны политики для управления настройками Endpoint Protection, обновлениями программного обеспечения и брандмауэром Windows на управляемых компьютерах.
 
 ## <a name="retire"></a>Прекратить использование
 При потере или краже устройства, при необходимости его замены или вступлении пользователя в другую должность обычно требуется [снять устройство с учета или очистить его](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md). Существует ряд способов выполнения этих процедур, включая сброс настроек устройства, вывод его из управления или удаление с него данных организации.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

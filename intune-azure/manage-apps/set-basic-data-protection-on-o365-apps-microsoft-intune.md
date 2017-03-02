@@ -1,5 +1,6 @@
 ---
-title: "Настройка основных функций управления данными в приложениях Office 365 | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Настройка основных функций управления данными в приложениях Office 365 — предварительная версия Intune Azure"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Сопроводительная документация по работе с мастером управления приложениями Office 365."
 keywords: 
 author: lindavr
@@ -14,9 +15,11 @@ ms.assetid: 852612ac-f146-4372-a900-3f6fdebd05ad
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4c45b7fc8a520d869f21717fea36e27b242cf39
-ms.openlocfilehash: 7cff88f0365cff1de133fdafdce2bd45b36d551e
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: e3924cb3409ab03f8070376c2248a2791a1e713d
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -130,9 +133,4 @@ ms.openlocfilehash: 7cff88f0365cff1de133fdafdce2bd45b36d551e
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Узнайте больше о [политике защиты приложений](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-protection-policy).
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 02/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,8 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 5ca9814992edd0a18d48145243a4be524dbb4f23
-ms.openlocfilehash: 727b99f9ca2f0322eb1fee5fec29cd71dc901e01
+ms.sourcegitcommit: 879f8faa37309edae9d1cbb0456d372ff27b8b98
+ms.openlocfilehash: a36c7dca0274b465315493261f03ab362c09383a
+ms.lasthandoff: 02/23/2017
 
 
 ---
@@ -40,6 +41,9 @@ ms.openlocfilehash: 727b99f9ca2f0322eb1fee5fec29cd71dc901e01
     (На некоторых телефонах потребуется выбрать **Хранилище** &gt; **Шифрование хранилища** или **Хранилище** &gt; **Блокировка экрана и безопасность** &gt; **Другие параметры безопасности**, чтобы найти параметр "Шифрование".)
 
 3.  Следуйте инструкциям на экране. Во время шифрования устройство может несколько раз перезагрузиться.
+
+> [!Note]
+> Для некоторых устройств Android шифрование включить невозможно. Дополнительные сведения см. [здесь](your-device-appears-encrypted-but-cp-says-otherwise-android.md).
 
 ### <a name="what-to-do-if-you-have-issues"></a>Действия при возникновении проблем
 **Проблема**. Вы уже зашифровали свое устройство и сталкиваетесь с одной из следующих проблем:
@@ -64,10 +68,6 @@ ms.openlocfilehash: 727b99f9ca2f0322eb1fee5fec29cd71dc901e01
 
     5. Откройте приложение корпоративного портала, выберите свое устройство и коснитесь пункта **Проверить соответствие**.
 
+
 По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо [команде разработчиков Майкрософт для Android](mailto:wintunedroidfbk@microsoft.com).
-
-
-
-<!--HONumber=Jan17_HO5-->
-
 

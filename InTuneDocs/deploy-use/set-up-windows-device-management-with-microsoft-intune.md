@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 115eae8e2d733397eb4b0f025789ca7d0522a845
-ms.openlocfilehash: 5dc90c1e1ddba91fe8bbb4530eb09bca0c9e3ac9
+ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
+ms.openlocfilehash: 6277f82483eb8fb7f5a4e4a832a909490ba0050c
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -45,7 +47,9 @@ ms.openlocfilehash: 5dc90c1e1ddba91fe8bbb4530eb09bca0c9e3ac9
 2. **Создание записей CNAME** (необязательно)<br>
 Создайте запись ресурсов **CNAME** DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.
 
-    Хотя создание записей DNS CNAME и не является обязательным, записи CNAME упрощают регистрацию для пользователей. При отсутствии регистрационной записи CNAME пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.com.    
+
+    Хотя создание записей DNS CNAME и не является обязательным, записи CNAME упрощают регистрацию для пользователей. При отсутствии записи CNAME для регистрации пользователям предлагается вручную ввести имя сервера MDM — это https://enrollment.manage.microsoft.com.
+
 
     Записи ресурсов CNAME должны содержать следующие сведения:
 
@@ -70,12 +74,9 @@ ms.openlocfilehash: 5dc90c1e1ddba91fe8bbb4530eb09bca0c9e3ac9
 
     Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune).
 
+Дополнительные сведения о задачах пользователей см. в разделе       - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](how-to-educate-your-end-users-about-microsoft-intune.md)
+      - [Руководство конечного пользователя по устройствам Windows](../enduser/using-your-windows-device-with-intune.md).
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

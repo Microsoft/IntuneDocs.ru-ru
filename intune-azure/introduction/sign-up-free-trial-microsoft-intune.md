@@ -1,5 +1,6 @@
 ---
-title: "Регистрация для использования 30-дневной бесплатной пробной версии | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Зарегистрируйтесь для получения 30-дневной бесплатной пробной версии."
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Регистрация для использования Intune в Azure."
 keywords: 
 author: lindavr
@@ -12,9 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: cd98141b4b377f0013607f2a2ebb93a93cd7f0ce
-ms.openlocfilehash: ce69e7efbee286839a1bf3440db692bd237b0e06
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 29b33341b136c8e8d76b666f94a9f620212944c5
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -144,9 +147,4 @@ To get from Intune back to the Office 365 Admin center, choose the **Add Users**
 - [Требования к многофакторной идентификации](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
 Дополнительные сведения об использовании [Intune с System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

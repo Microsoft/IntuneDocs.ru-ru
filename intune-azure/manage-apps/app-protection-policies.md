@@ -1,5 +1,6 @@
 ---
-title: "Создание и развертывание политик защиты приложений | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Создание и развертывание политик защиты приложений"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: защита корпоративных данных, используемых в управляемых приложениях, с помощью политик защиты приложений Intune."
 keywords: 
 author: NathBarn
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 424fae862592c1ab5b4221fb5ad40a52c39f6760
-ms.openlocfilehash: 5112c6641577f3faefb85650dd06bd1634542019
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 607598812a414843f1f33a00670a6a85b6687878
+ms.lasthandoff: 02/18/2017
 
 ---
 
@@ -122,9 +125,4 @@ ms.openlocfilehash: 5112c6641577f3faefb85650dd06bd1634542019
 ### <a name="see-also"></a>См. также
 * [Что происходит при управлении приложением Android с помощью политик защиты приложений](app-protection-enabled-android-apps.md)
 * [Что происходит при управлении приложением iOS с помощью политик защиты приложений](app-protection-enabled-ios-apps.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

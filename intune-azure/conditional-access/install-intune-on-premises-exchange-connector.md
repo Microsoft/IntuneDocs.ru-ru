@@ -1,5 +1,6 @@
 ---
-title: "Соединитель Exchange для локального протокола EAS | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Соединитель Exchange для локальной службы EAS"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Сведения об использовании соединителя для обеспечения взаимодействия между консолью администрирования Intune и локальным сервером Exchange Server для управления мобильными устройствами по протоколу Exchange ActiveSync."
 keywords: 
 author: andredm7
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 2871136fc15f945fe5b757a6e4364d3980832e37
-ms.openlocfilehash: 92e4a15630c70ac80dd07684baafbbd15cd2f38c
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: d112f453302361ac95eb2c44d7440a72d212cc4a
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -133,9 +136,4 @@ ms.openlocfilehash: 92e4a15630c70ac80dd07684baafbbd15cd2f38c
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Создание политики условного доступа для локального сервера Exchange](create-conditional-access-policy-for-exchange-on-premises.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

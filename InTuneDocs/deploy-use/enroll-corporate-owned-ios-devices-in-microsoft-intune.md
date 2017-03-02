@@ -2,10 +2,10 @@
 title: "Регистрация корпоративных устройств iOS | Документы Майкрософт"
 description: "Регистрация корпоративных устройств iOS с помощью программы регистрации устройств Apple (DEP) или Apple Configurator."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
-ms.openlocfilehash: 03f5da3a819768ff8221257f091a000f18f00fb4
+ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
+ms.openlocfilehash: 7fcb910dfc566cdf7112a48558cda375ea1c39a8
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -49,7 +50,7 @@ ms.openlocfilehash: 03f5da3a819768ff8221257f091a000f18f00fb4
 - **Прямая регистрация** — создает файл, совместимый с Apple Configurator, который будет использоваться при подготовке устройства. Для зарегистрированного устройства не выполняется сброс, но и не устанавливается привязка к пользователю. При использовании этого метода администратору необходимо подключить устройство iOS к USB-порту на компьютере Mac со средством [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) для регистрации устройства. См. статью [Прямая регистрация устройств iOS с помощью Apple Configurator](ios-direct-enrollment-in-microsoft-intune.md).
 
 ## <a name="use-the-device-enrollment-program-dep"></a>Использование программы регистрации устройств (DEP)
-Программа DEP по беспроводному каналу развертывает профиль регистрации на устройствах, приобретенных через DEP. Когда пользователь запускает на устройстве помощник по настройке, оно регистрируется в Intune.  Регистрация устройств, выполненная с помощью программы DEP, не может быть отменена пользователями. Подробнее см. статью [Регистрация корпоративных устройств с помощью программы регистрации устройств iOS](ios-device-enrollment-program-in-microsoft-intune.md).
+Программа DEP по беспроводному каналу развертывает профиль регистрации на устройствах, приобретенных через DEP. Когда пользователь запускает на устройстве помощник по настройке, оно регистрируется в Intune. Подробнее см. статью [Регистрация корпоративных устройств с помощью программы регистрации устройств iOS](ios-device-enrollment-program-in-microsoft-intune.md).
 
 ## <a name="use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices"></a>Использование корпоративного портала на устройствах, зарегистрированных через DEP или Apple Configurator
 
@@ -91,9 +92,4 @@ ms.openlocfilehash: 03f5da3a819768ff8221257f091a000f18f00fb4
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

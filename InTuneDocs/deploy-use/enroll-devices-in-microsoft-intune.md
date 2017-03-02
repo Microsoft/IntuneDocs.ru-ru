@@ -2,10 +2,10 @@
 title: "Регистрация устройств | Документы Майкрософт"
 description: "В системе управления мобильными устройствами (MDM) регистрация используется для обеспечения управления устройствами и доступа к ресурсам."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 01/26/2017
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 39f7de3a94b813cbd7b353cd319ecc54fcbf8694
-ms.openlocfilehash: 483fd327be25a1cb08e5295d72a27987ab018062
+ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
+ms.openlocfilehash: d1b24b745fe1e860e42fa23647976aadea1953cd
+ms.lasthandoff: 02/21/2017
 
 
 ---
@@ -37,7 +38,7 @@ ms.openlocfilehash: 483fd327be25a1cb08e5295d72a27987ab018062
 
 - **Очистка** — указывает, нужно ли очищать устройство, прежде чем пользователи смогут зарегистрировать его. Термин "очистка" означает сброс устройства в заводские параметры по умолчанию, при котором все данные удаляются. Дополнительные сведения см. в статье [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md).
 - **Сходство**  —связывание устройств с пользователями. Необходимо для управления мобильными приложениями (MAM) и условного доступа к данным организации. Дополнительные сведения см. в статье [Сопоставление пользователей](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices).
-- **Блокировка** — указывает, запрещено ли пользователям отменять регистрацию устройств в системе управления. Отменить регистрацию устройства на базе любой из платформ можно из приложения "Корпоративный портал". Из встроенных меню ОС это невозможно. 
+- **Блокировка** — указывает, запрещено ли пользователям отменять регистрацию устройств с помощью собственных меню ОС. Отменить регистрацию устройства на базе любой из платформ можно из приложения "Корпоративный портал". 
 
 **Методы регистрации в iOS**
 
@@ -130,9 +131,4 @@ Intune может управлять следующими платформами
 - [Предварительные условия для регистрации устройств](prerequisites-for-enrollment.md)
 - [Управление устройствами, являющимися собственностью организации](manage-corporate-owned-devices.md)
 - [Поддерживаемые мобильные устройства и компьютеры](../get-started/supported-mobile-devices-and-computers.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

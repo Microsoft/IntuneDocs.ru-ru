@@ -11,9 +11,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
+ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
+ms.openlocfilehash: ea5407c284f5408774ee5934ad6151bccfd7e6d1
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -61,7 +63,7 @@ ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
 |-|-|
 |Email profile (Профиль электронной почты)|Эта политика позволяет настроить [параметры доступа к электронной почте](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) для отдельных почтовых клиентов на мобильных устройствах, минимизируя объем необходимой настройки со стороны пользователя.|
 |EMS|Microsoft Enterprise Mobility + Security (прежнее название — Enterprise Mobility Suite) защищает корпоративные данные и предоставляет вашим пользователям [доступ к нужным приложениям и содержимому](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).|
-|End user (Конечный пользователь)|[Пользователи таких устройств, как телефоны и ПК](/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune), которыми вы управляете с помощью Intune.|
+|End user (Конечный пользователь)|[Пользователи таких устройств, как телефоны и компьютеры](/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune), которые находятся под управлением Intune.|
 |Enroll (Регистрация)|В Microsoft Intune [регистрация](/intune/deploy-use/enroll-devices-in-microsoft-intune) используется для обеспечения управления устройствами и доступа к ресурсам.|
 
 ## <a name="f"></a>F
@@ -145,9 +147,4 @@ ms.openlocfilehash: b9a51cb2123bc9b6e73c0bf72ef5393252e8d37d
 |||
 |-|-|
 |Wi-Fi profile (Профиль Wi-Fi)|Политика, которая развертывает на устройствах [параметры беспроводной сети](/intune/deploy-use/wi-fi-connections-in-microsoft-intune), чтобы позволить пользователям подключаться к корпоративной сети без настройки каких-либо параметров.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

@@ -1,5 +1,6 @@
 ---
-title: "Очистка только корпоративных данных в приложениях | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Как удалить из приложений только данные, относящиеся к организации"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как выборочно очищать приложения с помощью Microsoft Intune."
 keywords: 
 author: andredm7
@@ -13,9 +14,11 @@ ms.technology:
 ms.assetid: 42605e6e-5b84-44ff-b86e-346ea123b53e
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 44aefa68761236b946f5ab1db678ecc4aa81e92b
-ms.openlocfilehash: ab2f9d065a1c4b0e0a016ff6195742cd09965191
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 0d5385583265800ccfbb7d57e3dd325d6c8283e7
+ms.lasthandoff: 02/18/2017
 
 ---
 
@@ -81,8 +84,3 @@ ms.openlocfilehash: ab2f9d065a1c4b0e0a016ff6195742cd09965191
 [Что такое политика защиты приложений](what-is-app-protection-policy.md)
 
 [Что такое управление приложениями](what-is-app-management.md)
-
-
-<!--HONumber=Feb17_HO2-->
-
-
