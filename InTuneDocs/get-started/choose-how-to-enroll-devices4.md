@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0be369d5-d4ad-433a-8a81-c04b070d76e3
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
+ms.custom: intune-classic EXPIERIMENT
 translationtype: Human Translation
 ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
 ms.openlocfilehash: 3bad3b42bebdb89d25610aeb6e66132780ffd9ad
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -36,9 +38,4 @@ ms.openlocfilehash: 3bad3b42bebdb89d25610aeb6e66132780ffd9ad
 
 > [!div class="button"]
 [< Назад](choose-how-to-enroll-devices3.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

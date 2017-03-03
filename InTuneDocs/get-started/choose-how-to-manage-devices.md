@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: angrobe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: e13a9c426e07ebb2443bd403d1a5c7274afd387e
 ms.openlocfilehash: dea0700e2901bfed566a87d7c599569219de85a2
+ms.lasthandoff: 12/20/2016
 
 
 ---
@@ -53,9 +55,4 @@ ms.openlocfilehash: dea0700e2901bfed566a87d7c599569219de85a2
 - [Выбор способа регистрации мобильных устройств](/intune/get-started/choose-how-to-enroll-devices1)
 - [Управление компьютерами с ОС Windows при помощи клиентского программного обеспечения Intune](/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)
 - [Управление мобильными устройствами Exchange ActiveSync с использованием Microsoft Intune](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 
