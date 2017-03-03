@@ -20,10 +20,10 @@ ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: f80c6e7089519860e822f974753ac9dc0356e055
+ms.lasthandoff: 01/24/2017
 
 
 ---
-
 
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-android-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune?
 
@@ -60,9 +60,4 @@ ms.openlocfilehash: f80c6e7089519860e822f974753ac9dc0356e055
 -   Отправка обновлений инвентаризации для корпоративных приложений. (Эти обновления не содержат личных сведений.)
 
 Требуется помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо [команде разработчиков Майкрософт для Android](mailto:wintunedroidfbk@microsoft.com).
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
