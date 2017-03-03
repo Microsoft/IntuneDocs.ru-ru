@@ -1,11 +1,11 @@
 ---
-title: "Ограничение доступа к сетям с помощью Cisco ISE | Документы Майкрософт"
+title: "Защита доступа к сетям при помощи Cisco ISE | Microsoft Docs"
 description: "Используйте Cisco ISE с Intune, чтобы регистрировать устройства в Intune и обеспечивать соответствие политикам до того, как они получат доступ к сетям Wi-Fi и VPN, управляемым Cisco ISE."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/06/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,19 @@ ms.technology:
 ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 9eb0ea307702f3ae07db4d5c5a82d03f13b727fb
+ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
+ms.openlocfilehash: 8ef24e4d413662012f091c1be318d1d274e16439
+ms.lasthandoff: 01/04/2017
 
 
 ---
 
 # <a name="using-cisco-ise-with-microsoft-intune"></a>Использование Cisco ISE с Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Интеграция Intune с Cisco Identity Services Engine (ISE) позволяет создавать политики сети в среде ISE с помощью регистрации устройств и состояния соответствия Intune. Эти политики позволяют гарантировать, что доступ к сети организации будут иметь только устройства, управляемые Intune и соответствующие политикам Intune.
 
 ## <a name="configuration-steps"></a>Шаги настройки
@@ -151,7 +156,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 ## <a name="information-shared-between-your-intune-tenant-and-your-cisco-ise-server"></a>Данные, которыми обмениваются клиент Intune и сервер Cisco ISE
 В следующей таблице приведены данные, которыми обмениваются клиент Intune и сервер Cisco ISE для устройств, управляемых Intune.
 
-|Свойство|  Описание|
+|Свойство|    Описание|
 |---------------|------------------------------------------------------------|
 |complianceState|Значение true или false (строка) указывает, соответствует ли устройство требованиям.|
 |IsManaged|Значение true или false указывает, выполняется ли управление клиентом с помощью Intune.|
@@ -186,9 +191,4 @@ b. Щелкните значок замка &gt; **Дополнительные 
 ### <a name="see-also"></a>См. также
 
 [Руководство администратора по Cisco Identity Services Engine, выпуск 2.1](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html#task_820C9C2A1A6647E995CA5AAB01E1CDEF)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
