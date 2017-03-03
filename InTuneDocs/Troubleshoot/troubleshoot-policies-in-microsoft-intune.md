@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 12/27/2016
+ms.date: 01/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,16 +13,20 @@ ms.technology:
 ms.assetid: 99fb6db6-21c5-46cd-980d-50f063ab8ab8
 ms.reviewer: tscott
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 2a620d1e499e286365e5913be0ceb3d1efe3b846
+ms.sourcegitcommit: b28590bdb5a9387331354c8e5766975e3188bb91
+ms.openlocfilehash: e314d247c964b98c4159ca05cd746862d1b0db2e
+ms.lasthandoff: 01/13/2017
 
 
 ---
 
 # <a name="troubleshoot-policies-in-microsoft-intune"></a>Устранение неполадок с политиками Microsoft Intune
 
-Если у вас возникли проблемы при развертывании политик и управления ими в Intune, начните здесь. В этой статье описывается ряд распространенных проблем, которые могут возникнуть, а также их решения.
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+Если у вас возникли проблемы при развертывании политик и управлении ими в Intune, начните здесь. В этой статье описывается ряд распространенных проблем, которые могут возникнуть, а также их решения.
 
 ## <a name="general-issues"></a>Общие проблемы
 
@@ -96,9 +100,4 @@ ms.openlocfilehash: 2a620d1e499e286365e5913be0ceb3d1efe3b846
 
 ### <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

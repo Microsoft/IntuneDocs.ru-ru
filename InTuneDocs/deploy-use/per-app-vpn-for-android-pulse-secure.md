@@ -5,7 +5,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 01/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: afbb103f1deecff323d07c510f42a2083a4ea0d5
+ms.sourcegitcommit: b268bb16b7fc7e38021441bb16517e754b5e395f
+ms.openlocfilehash: 4a52d714d47a0b3af56be6eb5096fffae160e435
+ms.lasthandoff: 01/13/2017
 
 
 ---
@@ -30,7 +32,7 @@ ms.openlocfilehash: afbb103f1deecff323d07c510f42a2083a4ea0d5
 
 > [!NOTE]
 >
-> Для этого профиля поддерживается только тип подключения Pulse Secure.
+> Для этого профиля поддерживаются только типы подключений Pulse Secure и Citrix.
 
 
 ### <a name="step-1-create-a-vpn-profile"></a>Шаг 1. Создание профиля VPN
@@ -52,7 +54,7 @@ ms.openlocfilehash: afbb103f1deecff323d07c510f42a2083a4ea0d5
    4. Введите имя параметра.
    5. В поле **Тип данных** укажите **Строка**.
    6. В поле **OMA-URI** укажите следующую строку: **./Vendor/MSFT/VPN/Profile/*Name*/PackageList**, где *Name* — имя профиля VPN, записанное на шаге 1. В нашем примере строка будет такой: **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**.
-   7.   В поле **Значение** укажите имена пакетов, которые должны быть связаны с профилем, разделяя их точкой с запятой. Например, если вы хотите, чтобы VPN-подключение использовали Excel и браузер Google Chrome, введите: **com.microsoft.office.excel;com.android.chrome**.
+   7.    В поле **Значение** укажите имена пакетов, которые должны быть связаны с профилем, разделяя их точкой с запятой. Например, если вы хотите, чтобы VPN-подключение использовали Excel и браузер Google Chrome, введите: **com.microsoft.office.excel;com.android.chrome**.
 
 ![Пример настраиваемой политики VPN на уровне приложения для Android](./media/android_per_app_vpn_oma_uri.png)
 
@@ -77,9 +79,4 @@ ms.openlocfilehash: afbb103f1deecff323d07c510f42a2083a4ea0d5
     -   **Чтобы закрыть диалоговое окно, не развертывая политику**, нажмите кнопку **Отмена**.
 
 В сводке состояния и оповещениях на странице **Обзор** рабочей области **Политика** указаны проблемы с политикой, требующие вашего внимания. Кроме того, сводка состояния отображается в рабочей области **Панель мониторинга**.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
