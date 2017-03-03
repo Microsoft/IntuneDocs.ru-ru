@@ -16,9 +16,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: d335572ae2bc5ce74532de281658d06903f995ee
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: b464a07e701797d39b7f9f50d1854a9a2682ac8e
+ms.openlocfilehash: 3208e964f2676ebcc1e54e29f039c4965c20238f
+ms.lasthandoff: 03/01/2017
 
 
 ---
@@ -44,7 +44,7 @@ Intune поддерживает регистрацию корпоративны�
 - [Настройка доменов](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2)
 - [настройте центр MDM](set-mdm-authority.md);
 - [Создание групп](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5)
-- [настройте корпоративный портал](/intune-azure/manage-apps/company-portal-app.md);
+- [настройте корпоративный портал](/intune-azure/manage-apps/company-portal-app);
 - назначьте пользовательские лицензии на [портале Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854);
 - [Получение сертификата MDM Push Certificate](get-an-apple-mdm-push-certificate.md)
 - убедитесь в наличии физического доступа к устройствам iOS;

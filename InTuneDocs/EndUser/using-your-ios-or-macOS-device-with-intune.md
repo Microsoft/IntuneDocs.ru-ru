@@ -18,9 +18,9 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 4b5f0129d6824a51c36662a1cc7ef4e8a2de9e20
-ms.openlocfilehash: 0c594c7a22a86ab576c9bdb191ed02f13cdcc19c
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 57a067684ccada3df4faa15e6bf009b39caf5c94
+ms.openlocfilehash: 598ecac4aafaff5715e311dcfc058c1d2661bd3e
+ms.lasthandoff: 03/02/2017
 
 
 ---
@@ -40,7 +40,8 @@ ms.lasthandoff: 02/18/2017
 
 - [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
 - [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
-- [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-lost-or-stolen-device-ios.md)
+<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-ios.md) -->
+- [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-device-cpwebsite.md)
 - [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
 - [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-ios.md)
 - [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
