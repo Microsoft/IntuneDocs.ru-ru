@@ -193,9 +193,12 @@
 ### [Очистка данных управляемых приложений компании](deploy-use/Wipe-managed-company-app-data-with-microsoft-intune.md)
 
 ## [Как рассказать конечным пользователям об Intune](deploy-use/how-to-educate-your-end-users-about-microsoft-intune.md)
-### [Получение приложений пользователями Android](deploy-use/how-your-android-users-get-their-apps.md)
-### [Получение приложений пользователями iOS](deploy-use/how-your-ios-users-get-their-apps.md)
-### [Получение приложений пользователями Windows](deploy-use/how-your-windows-users-get-their-apps.md)
+### [Использование устройства с Android с Intune](EndUser/using-your-android-device-with-intune.md)
+#### [Получение приложений пользователями Android](deploy-use/how-your-android-users-get-their-apps.md)
+### [Использование устройства с iOS с Intune](EndUser/using-your-iOS-or-macos-device-with-intune.md)
+#### [Получение приложений пользователями iOS](deploy-use/how-your-ios-users-get-their-apps.md)
+### [Использование устройства с Windows с Intune](EndUser/using-your-windows-device-with-intune.md)
+#### [Получение приложений пользователями Windows](deploy-use/how-your-windows-users-get-their-apps.md)
 
 # Разработка и настройка приложений
 ## [Общие сведения о пакете SDK для приложений Microsoft Intune](develop/intune-app-sdk.md)
