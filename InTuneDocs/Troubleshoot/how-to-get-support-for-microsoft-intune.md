@@ -2,8 +2,8 @@
 title: "Получение поддержки | Документы Майкрософт"
 description: "Для оплаченных и пробных подписок доступна поддержка в Интернете и по телефону."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 01/27/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 526830839aa801a7ac78aeb4baaa790d6bb5da5c
 ms.openlocfilehash: 8f43dc529b2da2c97500c03056ba7908bb8ab0fa
+ms.lasthandoff: 01/28/2017
 
 
 ---
@@ -146,9 +147,4 @@ ms.openlocfilehash: 8f43dc529b2da2c97500c03056ba7908bb8ab0fa
 Если инженер службы поддержки предлагает открыть дополнительные обращения в службу поддержки для дополнительных проблем, необходимо понимать, что это делается в общих интересах. Благодарим вас за понимание и партнерство в работе над оказанием поддержки мирового уровня!
 
 Цены за обращения и уровни серьезности см. в разделе [Варианты профессиональной поддержки](https://support.microsoft.com/gp/offerprophone).
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

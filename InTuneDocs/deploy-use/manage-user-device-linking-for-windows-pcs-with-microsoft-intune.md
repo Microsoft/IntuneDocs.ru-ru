@@ -2,8 +2,8 @@
 title: "Управление связыванием пользователей и устройств с компьютерами под управлением Windows | Документы Майкрософт"
 description: "Сведения о связывании пользователя с компьютером с Windows, управляемым Intune."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
 ms.openlocfilehash: 3a20dc18a72518ba9e01552cd1283170972b4bbb
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -48,8 +49,3 @@ ms.openlocfilehash: 3a20dc18a72518ba9e01552cd1283170972b4bbb
 ### <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-
-
-<!--HONumber=Dec16_HO3-->
-
-

@@ -3,8 +3,8 @@ title: "Установка центра управления мобильным�
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: выбор центра управления мобильными устройствами в Intune. "
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 01/06/2016
 ms.topic: article

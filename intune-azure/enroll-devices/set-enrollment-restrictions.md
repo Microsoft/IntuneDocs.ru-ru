@@ -3,8 +3,8 @@ title: "Установка ограничений регистрации в Intu
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: ограничение регистрации по типу платформы и установка ограничения на регистрацию устройств в Intune. "
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article

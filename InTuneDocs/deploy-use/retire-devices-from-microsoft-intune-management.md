@@ -2,8 +2,8 @@
 title: "Снятие устройств с учета | Документы Майкрософт"
 description: "Intune поддерживает выборочную и полную очистку для удаления устройства из системы управления Intune. Для этого удаляются его политики, а также сведения о нем на корпоративном портале."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/13/2017
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 00e9dfd165a449182c5b937372db7085c981c68f
 ms.openlocfilehash: cca12024ba12cff5cdb8c515f7719a7592ba97ea
+ms.lasthandoff: 02/14/2017
 
 
 ---
@@ -77,9 +78,4 @@ ms.openlocfilehash: cca12024ba12cff5cdb8c515f7719a7592ba97ea
 
 ### <a name="see-also"></a>См. также
 [Защита данных с помощью полной или выборочной очистки](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

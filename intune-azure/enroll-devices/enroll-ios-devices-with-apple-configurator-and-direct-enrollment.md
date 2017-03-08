@@ -3,8 +3,8 @@ title: "Регистрация устройств iOS с помощью Apple Co
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: использование Apple Configurator для прямой регистрации корпоративных устройств iOS."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article

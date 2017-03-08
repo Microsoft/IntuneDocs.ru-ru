@@ -2,8 +2,8 @@
 title: "Управление ПК с помощью клиентского программного обеспечения | Документы Майкрософт"
 description: "Управление ПК под управлением Windows с помощью установки клиентского программного обеспечения Intune."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/09/2017
 ms.topic: article

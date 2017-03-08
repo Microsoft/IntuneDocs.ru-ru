@@ -3,8 +3,8 @@ title: "Полная или выборочная очистка устройст
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как выполнить выборочную очистку корпоративных данных на устройстве или провести полную очистку (сбор устройства к заводским настройкам)."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/07/2016
 ms.topic: article

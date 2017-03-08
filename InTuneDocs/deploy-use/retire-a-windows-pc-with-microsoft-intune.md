@@ -2,8 +2,8 @@
 title: "Снятие компьютера Windows с учета | Документы Майкрософт"
 description: "Сведения о снятии с учета компьютера Windows, управляемого Intune."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
 ms.openlocfilehash: fbf188be16ca4a47ee369e3fdde8c0a7f799beab
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -56,8 +57,3 @@ ms.openlocfilehash: fbf188be16ca4a47ee369e3fdde8c0a7f799beab
 ### <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-
-
-<!--HONumber=Dec16_HO3-->
-
-

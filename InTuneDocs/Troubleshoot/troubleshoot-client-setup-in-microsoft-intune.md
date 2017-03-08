@@ -2,8 +2,8 @@
 title: "Устранение неполадок при настройке клиента | Документы Майкрософт"
 description: "Устранение распространенных неполадок при установке клиента."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/22/2017
 ms.topic: article

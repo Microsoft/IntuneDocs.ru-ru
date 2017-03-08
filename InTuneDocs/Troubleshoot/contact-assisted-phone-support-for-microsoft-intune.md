@@ -2,8 +2,8 @@
 title: "Контактные телефоны службы поддержки | Microsoft Docs"
 description: "Номера телефонов для получения справки по Microsoft Intune."
 keywords: "рабочие часы"
-author: staciebarker
-ms.author: staciebarker
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article

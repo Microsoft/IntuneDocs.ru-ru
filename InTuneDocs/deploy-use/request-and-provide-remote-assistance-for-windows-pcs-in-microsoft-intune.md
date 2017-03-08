@@ -2,8 +2,8 @@
 title: "Запрос и предоставление удаленной помощи для компьютеров под управлением Windows | Документы Майкрософт"
 description: "Описание действий конечных пользователей и ИТ-администраторов по запросу и предоставлению удаленной помощи для настольных систем с Windows, управляемых как компьютеры, и по удаленному запуску компьютеров."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
 ms.openlocfilehash: 628875c2f874c824761befd9886d7f7987c045df
+ms.lasthandoff: 12/16/2016
 
 
 ---
@@ -85,8 +86,3 @@ ms.openlocfilehash: 628875c2f874c824761befd9886d7f7987c045df
 ### <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-
-
-<!--HONumber=Dec16_HO3-->
-
-

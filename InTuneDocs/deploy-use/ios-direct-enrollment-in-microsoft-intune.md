@@ -2,8 +2,8 @@
 title: "Прямая регистрация устройств с iOS | Документы Майкрософт"
 description: "Здесь описано, как использовать инструмент Apple Configurator, чтобы выполнять прямую регистрацию корпоративных устройств iOS с предопределенной политикой, подключив их к компьютеру Mac с помощью USB-порта."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 01/29/2017
 ms.topic: article

@@ -3,8 +3,8 @@ title: "Устранение проблем при регистрации уст
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте о том, как устранять неполадки при регистрации устройства."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article

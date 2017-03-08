@@ -2,8 +2,8 @@
 title: "Устранение проблем при регистрации устройств | Документы Майкрософт"
 description: "Рекомендации по устранению неполадок с регистрацией устройств."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 03/01/2017
 ms.topic: article

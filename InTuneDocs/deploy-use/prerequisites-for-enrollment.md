@@ -2,8 +2,8 @@
 title: "Предварительные требования для регистрации мобильных устройств | Документы Майкрософт"
 description: "В статье описывается настройка необходимых компонентов управления мобильными устройствами и подготовка к регистрации разных операционных систем."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/21/2017
 ms.topic: article

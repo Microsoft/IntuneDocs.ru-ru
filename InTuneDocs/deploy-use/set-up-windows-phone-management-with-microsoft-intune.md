@@ -2,7 +2,8 @@
 title: "Настройка управления устройствами Windows 10 Mobile и Windows Phone | Документы Майкрософт"
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для компьютеров с Windows 10 Mobile или Windows Phone."
 keywords: 
-author: staciebarker
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/08/2017
 ms.topic: article

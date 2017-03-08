@@ -2,8 +2,8 @@
 title: "Регистрация с помощью диспетчера регистрации устройств | Документы Майкрософт"
 description: "С помощью одной учетной записи диспетчера регистрации устройств (DEM) можно управлять множеством общих мобильных устройств, принадлежащих компании."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 01/29/17
 ms.topic: article
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: adb2fd27d7f2b3f0ef4dce6b26fcb20d74b69a00
 ms.openlocfilehash: f099fdf942795b128fe46f9bd1d82432d89f6f75
+ms.lasthandoff: 02/04/2017
 
 
 ---
@@ -106,9 +107,4 @@ ms.openlocfilehash: f099fdf942795b128fe46f9bd1d82432d89f6f75
 -   но теперь нельзя очистить или снять с учета устройства, используя учетные данные учетной записи удаленного диспетчера регистрации устройств;
 
 -   учетная запись удаленного диспетчера регистрации устройств сохраняет связь с уже зарегистрированными устройствами, но с ее помощью теперь нельзя регистрировать новые устройства.
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

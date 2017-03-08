@@ -2,8 +2,8 @@
 title: "Управление Apple DEP для устройств iOS | Документация Майкрософт"
 description: "Здесь описывается настройка управления устройствами Apple путем развертывания профиля регистрации, который регистрирует устройства iOS, приобретенные по программе регистрации устройств (DEP), в автоматическом режиме."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
