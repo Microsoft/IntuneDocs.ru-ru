@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 85c868e7-8d63-480c-9770-4e99614a5c94
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
 ms.openlocfilehash: 5ce680b35ff2a931b13e0395d7bb550f534d2b29
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -44,9 +45,4 @@ ms.openlocfilehash: 5ce680b35ff2a931b13e0395d7bb550f534d2b29
 3.  В разделе **Справка** коснитесь **Получить помощь**.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

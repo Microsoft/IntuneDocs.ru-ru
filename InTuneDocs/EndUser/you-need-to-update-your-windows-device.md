@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 2df6fca5-9731-4ea0-a8ee-45b648caa5b4
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: dc3444f6da563ac3489790d6d2bc112c497376d4
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -38,9 +39,4 @@ ms.openlocfilehash: dc3444f6da563ac3489790d6d2bc112c497376d4
 Для Windows 10 и Windows 8.1 введите __версия Windows__ в __панели поиска__. В разделе __Can I help?__ (Можно ли вам помочь?) выберите __версия windows__. Отображается номер версии. Этот номер имеет вид, похожий на __10.0.14393.447__.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

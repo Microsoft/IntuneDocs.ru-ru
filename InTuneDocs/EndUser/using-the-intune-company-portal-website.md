@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: mamoriss
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: d2ed7b2e713f5efd4161eb8015ab43c8f97a017b
 ms.openlocfilehash: d10cc421dc6fe422b7a2c26b4902997c8c6b2e61
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -52,9 +53,4 @@ ms.openlocfilehash: d10cc421dc6fe422b7a2c26b4902997c8c6b2e61
 - [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 - [Использование устройства с iOS или Mac OS в Intune](using-your-ios-or-macOS-device-with-intune.md)
 - [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

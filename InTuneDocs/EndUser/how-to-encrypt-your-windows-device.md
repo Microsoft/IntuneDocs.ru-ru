@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7d9645a9-6058-4112-aa31-8cdbccdc5463
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: a3cf36eae0342d2047910d1a7ca0da2acb7d2ae6
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -35,9 +36,4 @@ ms.openlocfilehash: a3cf36eae0342d2047910d1a7ca0da2acb7d2ae6
 2.  Щелкните **Включить BitLocker** и следуйте приведенным инструкциям, чтобы зашифровать все диски.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

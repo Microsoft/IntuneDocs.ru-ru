@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 47e03edb-0c57-4e25-8e89-4a1069267b8c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: 7d41dc09c36684bd30263cfc0519cdacb3ab321b
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -89,9 +90,4 @@ ms.openlocfilehash: 7d41dc09c36684bd30263cfc0519cdacb3ab321b
 -   параметры, измененные на устройстве после его добавления, например выключение камеры или включение требований к паролю, перестают действовать;
 
 Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 33ffff16-0280-43bf-87b3-74ddf4439bfa
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 5ca9814992edd0a18d48145243a4be524dbb4f23
 ms.openlocfilehash: 2384889d377713757b6172a12d608b32a1756978
+ms.lasthandoff: 01/31/2017
 
 
 ---
@@ -86,9 +87,4 @@ ms.openlocfilehash: 2384889d377713757b6172a12d608b32a1756978
     ![Страница приложений Play Store for Work](./media/andr-afw-tap-work-play-store-icon.png)
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Jan17_HO5-->
-
 

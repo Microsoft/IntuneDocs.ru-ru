@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9786b71a-d2ff-4d95-a2d9-47ece0aec8ca
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 3bebc6cb1d44e99f8337a057eadfae676904ea3d
 ms.openlocfilehash: 27b57f7f8723a1271442b4ed18e219660959b0a8
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -37,9 +38,4 @@ ms.openlocfilehash: 27b57f7f8723a1271442b4ed18e219660959b0a8
 - Изготовитель устройства установил на нем ПО, которое программа обнаружения рутированности распознает как представляющее угрозу безопасности. В этом случае следует обратиться за помощью к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
 Если вы рутировали устройство самостоятельно, потребуется обратить этот процесс и восстановить устройство в исходном состоянии.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

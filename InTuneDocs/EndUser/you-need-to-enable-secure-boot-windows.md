@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: de881f1b-7622-4ec2-8bf8-025f71ca9887
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
 ms.openlocfilehash: b90aec6297fdeb00940109ae0465e2bc25ab9436
+ms.lasthandoff: 12/21/2016
 
 
 ---
@@ -34,9 +35,4 @@ ms.openlocfilehash: b90aec6297fdeb00940109ae0465e2bc25ab9436
 Если вы используете компьютер, обратитесь к ИТ-администратору или ознакомьтесь с разделом "Чтобы снова включить безопасную загрузку, выполните следующие действия" статьи [Отключение безопасной загрузки](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx), чтобы попытаться включить безопасную загрузку самостоятельно.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

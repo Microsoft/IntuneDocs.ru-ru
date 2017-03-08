@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1ee6e275-d1ec-4da3-bbef-d5da2c61a02a
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 42e6b4d44dffa457f009e8402d5c429aa55932d6
 ms.openlocfilehash: 74983ab11e1c1763bd5394af483b93b74b715f89
+ms.lasthandoff: 02/24/2017
 
 
 ---
@@ -36,9 +37,4 @@ ms.openlocfilehash: 74983ab11e1c1763bd5394af483b93b74b715f89
 |ПК и ноутбуки|**Windows 8.1 и Windows 8**<br />Сбросить настройки компьютера с Windows 8 или Windows 8.1, используемого не только для электронной почты, нельзя.<br /><br />**Windows 7 или Windows Vista**<br />Сбросить настройки компьютера с ОС Windows 7 или более ранней версии нельзя.|
 
 Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

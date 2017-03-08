@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8dfe66b4-f585-4862-87fa-7dbb4487549c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: cf110d8758e8ab589acbceabb5df733b29068b0f
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -40,9 +41,4 @@ ms.openlocfilehash: cf110d8758e8ab589acbceabb5df733b29068b0f
     Если вы вошли в приложение корпоративного портала первый раз и ваша организация или учебное заведение используют Intune, вам будет предложено зарегистрировать устройство в Intune. Чтобы зарегистрировать устройство, выполните действия, описанные в статье [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md) или [Регистрация устройства macOS в Intune](enroll-your-device-in-intune-macos.md).
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

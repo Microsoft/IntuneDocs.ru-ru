@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ccb7451e-5ffc-4604-b28e-8322cc64c58c
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: vadona
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
 ms.openlocfilehash: 8ef336e58c7b1d995d314202b5530d2f6b2ff138
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -37,9 +38,4 @@ ms.openlocfilehash: 8ef336e58c7b1d995d314202b5530d2f6b2ff138
 Коснитесь элемента **Параметры** > **Общие** > **Обновление программного обеспечения**.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

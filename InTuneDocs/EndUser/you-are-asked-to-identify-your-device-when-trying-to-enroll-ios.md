@@ -12,14 +12,15 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8e40f228-cf04-4077-845f-300fbc3baee6
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
 ms.sourcegitcommit: a87fe0cf9591040f1455d71b1f40cd0705ba8abf
 ms.openlocfilehash: a1a669b12e3c072bf532dc25352889015aec7d47
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -34,9 +35,4 @@ ms.openlocfilehash: a1a669b12e3c072bf532dc25352889015aec7d47
 3. Введите четыре последних символа серийного номера устройства, чтобы помочь Intune подтвердить его регистрацию. Чтобы найти серийный номер, обратитесь к разделу [Как найти серийный номер на устройстве?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
