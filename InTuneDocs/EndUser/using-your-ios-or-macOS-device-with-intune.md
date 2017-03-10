@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/14/2017
+ms.date: 03/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -40,7 +40,6 @@ ms.lasthandoff: 03/02/2017
 
 - [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
 - [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
-<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-ios.md) -->
 - [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-device-cpwebsite.md)
 - [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
 - [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-ios.md)

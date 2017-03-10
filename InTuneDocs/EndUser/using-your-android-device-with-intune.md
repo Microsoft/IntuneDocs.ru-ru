@@ -43,7 +43,6 @@ ms.lasthandoff: 03/02/2017
 - [Задание ПИН-кода или пароля](set-your-pin-or-password-android.md)
 - [Установка виртуальной частной сети (VPN) компании](install-your-companys-virtual-private-network-VPN-android.md)
 - [Установка интервала времени до блокировки устройства](set-the-amount-of-time-before-your-device-is-locked-android.md)
-<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-android.md)-->
 - [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-device-cpwebsite.md)
 - [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-android.md)
 - [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-android.md)
