@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/16/17
+ms.date: 03/06/17
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,9 @@ ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 87589903acd3c2e7c45d62c619571a1273e7fb76
-ms.openlocfilehash: 8de91a0e0640b9c0fb281686d4ecd4983134d4af
+ms.sourcegitcommit: 665d3347636d5ec0c698ffb93b768028c9d59ce3
+ms.openlocfilehash: b918c9843bdc6cfbbfd9c2da9d698b255487152c
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>Защита устройств с помощью функций удаленной очистки и сброса секретного кода
@@ -34,6 +35,7 @@ Microsoft Intune предоставляет возможности удален�
 |macOS|Не поддерживается|
 |iOS|Поддерживается|
 |Android|Поддерживается|
+|Android for Work|Поддерживается|
 |Windows 10 (Mobile)|Поддерживается|
 |Windows 10 (Desktop)|Не поддерживается|
 |Windows Phone 8 и Windows Phone 8.1|Поддерживается|
@@ -61,6 +63,7 @@ Microsoft Intune предоставляет возможности удален�
 |macOS|Не поддерживается|
 |iOS|Поддерживается для очистка секретного кода с устройства. Не создает новый временный секретный код.|
 |Android|Поддерживается в версиях до Android 7.0. Создает временный секретный код.|
+|Android for Work|Не поддерживается|
 |Windows 10 Mobile|Поддерживается|
 |Windows Phone 8 и Windows Phone 8.1|Поддерживается|
 |Windows RT 8.1|Не поддерживается|
@@ -83,9 +86,4 @@ Microsoft Intune предоставляет возможности удален�
 
 ### <a name="see-also"></a>См. также
 [Списание устройств](retire-devices-from-microsoft-intune-management.md) и [Выборочная очистка Windows для управления данными устройства](http://technet.microsoft.com/library/dn486874.aspx)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
