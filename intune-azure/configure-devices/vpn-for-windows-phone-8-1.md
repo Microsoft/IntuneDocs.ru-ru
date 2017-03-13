@@ -1,5 +1,6 @@
 ---
-title: "Параметры VPN Intune для устройств Windows Phone 8.1 | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры VPN для устройств с Windows Phone 8.1 в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows Phone 8.1."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: c1a9053f-02a7-4735-bc0d-fe4573b31ed4
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 674a806b16d1f88413c1d1bbda1fb1d4f3363771
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 2fe54f4d97c28825f06d40ec47a8a9dc40da2554
+ms.lasthandoff: 02/18/2017
 
 
 ---
