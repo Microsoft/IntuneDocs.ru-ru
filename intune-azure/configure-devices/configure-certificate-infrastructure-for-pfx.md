@@ -1,5 +1,6 @@
 ---
-title: "Настройка инфраструктуры сертификатов Intune для PKCS | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Настройка инфраструктуры сертификатов Intune для PKCS"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как с помощью Intune настроить инфраструктуру для использования сертификатов PKCS."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: e189ebd1-6ca1-4365-9d5d-fab313b7e979
 ms.reviewer: vinaybha
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 6f08dc63a9afaa5e92b188883d160d0b76f3631f
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 74899f8d9721ff3a6ddbdd0716fb935c937a5a55
+ms.lasthandoff: 02/18/2017
 
 
 

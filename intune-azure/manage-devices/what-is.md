@@ -1,5 +1,6 @@
 ---
-title: "Управление устройствами с помощью Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Управление устройствами с помощью Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как просмотреть устройства, управляемые с помощью Intune, и выполнять с ними различные операции."
 keywords: 
 author: robstackmsft
@@ -12,10 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 5ed437eca48375def0e4da9715693325845f53a9
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: d5d7b87f58604b93ba3b65d5d264a0a5e3743d45
+ms.lasthandoff: 02/18/2017
 
 
 ---

@@ -1,5 +1,6 @@
 ---
-title: "Новые возможности предварительной версии Microsoft Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Новые возможности предварительной версии Microsoft Intune"
+titleSuffix: Intune Azure preview
 description: "Сведения о новых возможностях предварительной версии Intune Azure"
 keywords: 
 author: barlanmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: 
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 9852fdb9d1bfeede4931f0ead2fa0898dfcacb0b
-ms.openlocfilehash: a05c7464b3f2fbca467d44218904671529320dda
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: ffbc91edbdec4abbb5c3c9e28c3b44df03117492
+ms.lasthandoff: 02/18/2017
 
 ---
 

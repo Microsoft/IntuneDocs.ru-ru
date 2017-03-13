@@ -1,5 +1,6 @@
 ---
-title: "Как отслеживать профили устройств с помощью Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Отслеживание профилей устройств с помощью Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как отслеживать назначенные профили устройств Intune."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 9deaed87-fb4b-4689-ba88-067bc61686d7
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: e48ef79726c542da210e167707c4ca044a7cdd51
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 5c6bf134ad49edb64e994b95bf7378602042052e
+ms.lasthandoff: 02/18/2017
 
 
 ---

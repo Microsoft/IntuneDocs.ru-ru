@@ -1,9 +1,10 @@
 ---
-title: "Регистрация устройств macOS в Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Регистрация устройств macOS в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как регистрировать устройства macOS в предварительной версии Intune Azure."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/14/2017
 ms.topic: article
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: a2e840797c06322b9efc59438e0675e57b7cdb24
-ms.openlocfilehash: f217988313debd33bcba3f8168aa03b6dbf8586e
-ms.lasthandoff: 02/14/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 63ac5ecf6fbe9ae66c879466c7785b051dfb7a61
+ms.lasthandoff: 02/18/2017
 
 
 ---

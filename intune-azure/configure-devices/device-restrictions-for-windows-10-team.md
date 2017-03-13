@@ -1,5 +1,6 @@
 ---
-title: "Параметры ограничений для устройств Windows 10 для совместной работы в Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Ограничения для устройств с Windows 10 для совместной работы в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительный просмотр Intune Azure: ограничения устройств, доступные для устройств Windows 10 для совместной работы."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 677c41a2-5344-4c52-85f0-809dce3a5d5b
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: ab9c879763ce1ed02a52a57e66fdc06fa970c2a4
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 4df8afe50912912e42e03b6b9bc1c397fff2d6db
+ms.lasthandoff: 02/18/2017
 
 
 ---

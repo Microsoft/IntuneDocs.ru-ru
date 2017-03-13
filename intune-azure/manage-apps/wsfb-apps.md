@@ -1,5 +1,6 @@
 ---
-title: "Управление приложениями, приобретенными в Магазине Windows для бизнеса | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Управление приложениями, приобретенными в Магазине Windows для бизнеса"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: узнайте, как синхронизировать приложения, приобретенные в Магазине Windows для бизнеса, с Intune, а затем назначать и отслеживать их."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: b213fcaae8f17af412687d01df6ea27b39b3edb9
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: d02d7c3367e18c96cc1d72de3a3a0ef581ef63ff
+ms.lasthandoff: 02/18/2017
 
 ---
 

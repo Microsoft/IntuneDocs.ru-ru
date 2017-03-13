@@ -1,5 +1,6 @@
 ---
-title: "Параметры электронной почты для устройств Windows 10 | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры электронной почты для устройств с Windows 10"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows 10."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 2ffafbd0-4b5d-4c86-a46b-611f9b7a58e5
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: a69df096dd3ff1012eadba01213a6f2192bad3a9
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 9a052f26d87fbfdc5794cf97033b409846db6a73
+ms.lasthandoff: 02/18/2017
 
 
 ---

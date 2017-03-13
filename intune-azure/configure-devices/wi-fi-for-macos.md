@@ -1,5 +1,6 @@
 ---
-title: "Параметры Wi-Fi в Intune для устройств macOS | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры Wi-Fi для устройств macOS в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте о параметрах Intune, которые можно использовать для настройки подключений Wi-Fi на устройствах macOS."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 322a38d5-21f5-48ee-bc59-0a4f9da78d38
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: c4be15ee4dce4fcc5a2dc5bdce6d6d4638b96a60
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: c287ce2c528610bbbb9c0df204eed9f492a32cc2
+ms.lasthandoff: 02/18/2017
 
 
 ---

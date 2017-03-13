@@ -1,5 +1,6 @@
 ---
-title: "Параметры ограничений для устройств Android в Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры ограничений Intune для применения к устройствам Android"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Android."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: a003b2b16e05c2d071bb7dbaaf564e24d0cf5823
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: fafc2b14d3060f79b92bb9d18aabda6b08737881
+ms.lasthandoff: 02/18/2017
 
 
 ---

@@ -1,5 +1,6 @@
 ---
-title: "Использование категорий устройств в Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Использование категорий устройств в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как использовать категории устройств, которые пользователи могут выбрать при регистрации устройств в Intune."
 keywords: 
 author: robstackmsft
@@ -12,10 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
-ms.openlocfilehash: 57dce5b23b9c8cd878a9ce746e6459a69f1270ff
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: c635ced382074f7f45254fb219b58f54b56abb8e
+ms.lasthandoff: 02/18/2017
 
 
 ---

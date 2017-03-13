@@ -1,9 +1,10 @@
 ---
-title: "Настройка условий в Microsoft Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Настройка условий в Microsoft Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Настройка условий, которые пользователи видят на корпоративном портале в Intune. "
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 4a3a11a8-9c0c-4334-8c6b-6fea4d0a2efb
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 08dad848a48adad7d9c6f0b5b3286f6550a266bd
-ms.openlocfilehash: f7d6ebc9d71a077492ab615a3bc5397e092b1deb
-ms.lasthandoff: 02/15/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 07a42cf8fa10d3223129fbb2932217ff90ac365b
+ms.lasthandoff: 02/18/2017
 
 ---
 

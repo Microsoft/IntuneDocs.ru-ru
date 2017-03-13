@@ -3,9 +3,9 @@
 title: "Установка клиентского программного обеспечения для ПК | Документация Майкрософт"
 description: "В этом руководстве содержатся сведения об управлении ПК Windows с помощью клиентского программного обеспечения Microsoft Intune."
 keywords: 
-author: staciebarker
-ms.author: stabar
-ms.date: 02/14/2017
+author: nathbarn
+ms.author: nathbarn
+ms.date: 02/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 2e7062169ceb855f03a13d1afb4b4de41af593ac
-ms.openlocfilehash: 9606d8f79166e6b38f02aefd4afc52f2a47c1362
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
+ms.openlocfilehash: e7e199bd1820299e7c0ea4f9adc3f5e62bffab97
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -179,6 +179,83 @@ ms.lasthandoff: 02/16/2017
     > [!TIP]
     > Чтобы отсортировать список по содержимому столбца, щелкните заголовок столбца.
 
+## <a name="uninstall-the-windows-client-software"></a>Удаление клиентского программного обеспечения Windows
+
+Отменить регистрацию клиентского программного обеспечения Windows можно двумя способами:
+
+- из консоли администрирования Intune (рекомендуется);
+- из командной строки в клиенте.
+
+### <a name="unenroll-by-using-the-intune-admin-console"></a>Отмена регистрации с помощью консоли администрирования Intune
+
+Чтобы отменить регистрацию клиентского программного обеспечения с помощью консоли администрирования Intune, откройте меню **Группы** > **Все компьютеры** > **Устройства**. Щелкните клиент правой кнопкой мыши и выберите параметр **Снять с учета/очистить**.
+
+### <a name="unenroll-by-using-a-command-prompt-on-the-client"></a>Отмена регистрации из командной строки в клиенте
+
+Используя командную строку с повышенными привилегиями, выполните одну из указанных ниже команд.
+
+**Метод 1**.
+
+    ```
+    "C:\Program Files\Microsoft\OnlineManagement\Common\ProvisioningUtil.exe" /UninstallAgents /MicrosoftIntune
+    ```
+
+**Метод 2** (обратите внимание, что не все из этих агентов устанавливаются на каждый SKU Windows).
+
+    ```
+    wmic product where name="Microsoft Endpoint Protection Management Components" call uninstall<br>
+    wmic product where name="Microsoft Intune Notification Service" call uninstall<br>
+    wmic product where name="System Center 2012 - Operations Manager Agent" call uninstall<br>
+    wmic product where name="Microsoft Online Management Policy Agent" call uninstall<br>
+    wmic product where name="Microsoft Policy Platform" call uninstall<br>
+    wmic product where name="Microsoft Security Client" call uninstall<br>
+    wmic product where name="Microsoft Online Management Client" call uninstall<br>
+    wmic product where name="Microsoft Online Management Client Service" call uninstall<br>
+    wmic product where name="Microsoft Easy Assist v2" call uninstall<br>
+    wmic product where name="Microsoft Intune Monitoring Agent" call uninstall<br>
+    wmic product where name="Windows Intune Endpoint Protection Agent" call uninstall<br>
+    wmic product where name="Windows Firewall Configuration Provider" call uninstall<br>
+    wmic product where name="Microsoft Intune Center" call uninstall<br>
+    wmic product where name="Microsoft Online Management Update Manager" call uninstall<br>
+    wmic product where name="Microsoft Online Management Agent Installer" call uninstall<br>
+    wmic product where name="Microsoft Intune" call uninstall<br>
+    wmic product where name="Windows Endpoint Protection Management Components" call uninstall<br>
+    wmic product where name="Windows Intune Notification Service" call uninstall<br>
+    wmic product where name="System Center 2012 - Operations Manager Agent" call uninstall<br>
+    wmic product where name="Windows Online Management Policy Agent" call uninstall<br>
+    wmic product where name="Windows Policy Platform" call uninstall<br>
+    wmic product where name="Windows Security Client" call uninstall<br>
+    wmic product where name="Windows Online Management Client" call uninstall<br>
+    wmic product where name="Windows Online Management Client Service" call uninstall<br>
+    wmic product where name="Windows Easy Assist v2" call uninstall<br>
+    wmic product where name="Windows Intune Monitoring Agent" call uninstall<br>
+    wmic product where name="Windows Intune Endpoint Protection Agent" call uninstall<br>
+    wmic product where name="Windows Firewall Configuration Provider" call uninstall<br>
+    wmic product where name="Windows Intune Center" call uninstall<br>
+    wmic product where name="Windows Online Management Update Manager" call uninstall<br>
+    wmic product where name="Windows Online Management Agent Installer" call uninstall<br>
+    wmic product where name="Windows Intune" call uninstall
+    ```
+
+> [!TIP]
+> При отмене регистрации клиента на стороне сервера останется устаревшая запись о соответствующем клиенте. Отмена регистрации осуществляется асинхронно, а так как удалить необходимо девять агентов, процесс может занять до 30 минут.
+
+### <a name="check-the-unenrollment-status"></a>Проверка состояния отмены регистрации
+
+Проверьте адрес "% ProgramFiles%\Microsoft\OnlineManagement" и убедитесь, что в левой части окна отображаются только следующие каталоги.
+
+- AgentInstaller
+- Журналы
+- Updates
+- Общие 
+
+### <a name="remove-the-onlinemanagement-folder"></a>Удалите папку OnlineManagement.
+
+В процессе отмены регистрации папка OnlineManagement не удаляется. Подождите 30 минут после удаления и выполните указанную ниже команду. Если выполнить эту команду слишком рано, процесс удаления может еще находиться в неизвестном состоянии. Чтобы удалить папку, запустите командную строку с повышенными привилегиями и выполните следующую команду:
+
+    ```
+    "rd /s /q %ProgramFiles%\Microsoft\OnlineManagement".
+    ```
 
 ### <a name="see-also"></a>См. также
 [Управление компьютером с Windows с помощью Microsoft Intune](manage-windows-pcs-with-microsoft-intune.md)

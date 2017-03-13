@@ -1,5 +1,6 @@
 ---
-title: "Добавление приложений в Microsoft Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Добавление приложений в Microsoft Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Выполнив следующие процедуры, вы сможете добавить приложения в Intune для назначения пользователям и устройствам. "
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 472e65be196d1090e89b46271bb97a82b6fb1a9c
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 296e7db9be18323b44cc79592c981f5d7241602f
+ms.lasthandoff: 02/18/2017
 
 ---
 

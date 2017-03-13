@@ -1,5 +1,6 @@
 ---
-title: "Что такое управление приложениями | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Что такое управление приложениями?"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. В этой статье содержатся общие сведения об управлении приложениями с помощью Microsoft Intune"
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: d3be47257556e8bfa331cebf68baa43524690d1a
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 33def827fc7417930338e56c650d01df4dad85fb
+ms.lasthandoff: 02/18/2017
 
 
 ---

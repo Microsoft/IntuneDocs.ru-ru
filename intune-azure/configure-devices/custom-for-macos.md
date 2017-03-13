@@ -1,5 +1,6 @@
 ---
-title: "Настраиваемые параметры Intune для устройств macOS | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Пользовательские параметры для устройств macOS в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, какие параметры можно использовать в настраиваемом профиле macOS."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 68100ea5-7d9b-4c0b-8df7-b9a24b2442c8
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 13648aa35057201ac7420e2f1d334aee206605fe
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 84902bb0e7ea67b388debd8bd7992d396d981a7b
+ms.lasthandoff: 02/18/2017
 
 
 ---

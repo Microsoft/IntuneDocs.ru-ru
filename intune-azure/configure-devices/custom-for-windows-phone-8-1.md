@@ -1,5 +1,6 @@
 ---
-title: "Настраиваемые параметры Intune для устройств Windows Phone 8.1 | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Пользовательские параметры Intune для устройств с Windows Phone 8.1"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, какие параметры можно использовать в настраиваемом профиле Windows Phone 8.1."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 21c55041-3821-4a62-9f85-855b97dba269
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: ab1ad9852b8f9145f405bb71cf52bfcb00e078f6
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 652eca69f3e53365b75fd8590fce299209e2a12f
+ms.lasthandoff: 02/18/2017
 
 
 ---

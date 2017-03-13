@@ -1,5 +1,6 @@
 ---
-title: "Начало работы с группами в предварительной версии портала Intune Azure | Документация Майкрософт"
+title: "Начало работы с группами в предварительной версии портала Intune Azure"
+titleSuffix: Intune Azure preview
 description: "Сведения о новых возможностях групп в предварительной версии портала Intune Azure"
 keywords: 
 author: nathbarn
@@ -11,10 +12,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 323f384d-8a76-4adc-999b-e508d641bfa1
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 00e9dfd165a449182c5b937372db7085c981c68f
-ms.openlocfilehash: 9386002cf5ab8bc9dac66646a7de3b00b54b1b72
-ms.lasthandoff: 02/14/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 0b3ef70a54c5d91922cecbf07f864c94c559061e
+ms.lasthandoff: 02/18/2017
 
 
 ---

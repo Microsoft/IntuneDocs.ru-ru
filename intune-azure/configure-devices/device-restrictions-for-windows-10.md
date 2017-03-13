@@ -1,5 +1,6 @@
 ---
-title: "Параметры ограничений для устройств в Intune для Windows 10 | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры ограничений Intune для применения к устройствам Windows Phone 10"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Windows 10."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 89f2d806-2e97-430c-a9a1-70688269627f
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 208312eea9df0b6330e6eac9334bd63bb13624c5
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 74f99d5e2d4eef8d42ccd2c7bc34e0ed7b6f0d51
+ms.lasthandoff: 02/18/2017
 
 
 ---

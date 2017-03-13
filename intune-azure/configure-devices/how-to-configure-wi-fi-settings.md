@@ -1,5 +1,6 @@
 ---
-title: "Настройка параметров Wi-Fi Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Настройка параметров Wi-Fi в Intune"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как с помощью Intune можно настроить подключения Wi-Fi на управляемых устройствах."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: 1fadb488-9c6c-43c1-ba23-8c69db633b96
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: bc7d94f70c65f06d10fffa04788072e504a2d071
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: aea6d9868d91260dd7a3a4c3b1426f12fcc9f47d
+ms.lasthandoff: 02/18/2017
 
 
 ---

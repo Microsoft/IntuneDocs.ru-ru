@@ -1,5 +1,6 @@
 ---
-title: "Параметры VPN Intune для устройств macOS | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Параметры VPN Intune для устройств macOS"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах macOS."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: d203a70d-37df-4195-85f7-ad5ef14ac2a1
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 758573964627b1d5e4f98ea3729df696bf96bf1c
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: 068dcd5209ff1cc2b2799919fe38bdfbf809423a
+ms.lasthandoff: 02/18/2017
 
 
 ---

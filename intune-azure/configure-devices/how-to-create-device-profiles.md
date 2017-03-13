@@ -1,5 +1,6 @@
 ---
-title: "Создание профилей конфигурации устройств в Intune | Предварительная версия Intune Azure | Документация Майкрософт"
+title: "Создание профилей конфигурации устройств в Intune | Предварительная версия Intune Azure"
+titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure: создание профилей конфигурации устройств в Intune."
 keywords: 
 author: robstackmsft
@@ -13,10 +14,11 @@ ms.technology:
 ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: b4d095506215b775d56d172e9aabae1737757310
-ms.openlocfilehash: 908169c47d9eaa583c775c8ed06acea233040e50
-ms.lasthandoff: 02/16/2017
+ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
+ms.openlocfilehash: cc9ef6777f06aca5ef93154c38e12520ab9ed348
+ms.lasthandoff: 02/18/2017
 
 
 ---
