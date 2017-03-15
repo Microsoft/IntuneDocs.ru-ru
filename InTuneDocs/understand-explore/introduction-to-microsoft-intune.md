@@ -5,7 +5,7 @@ keywords: "что такое Intune"
 author: Lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 11/15/2016
+ms.date: 03/7/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,8 +15,9 @@ ms.reviewer: pmay
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d0057f1e3d2ead729c2143587571fa4b16a3dd2f
-ms.openlocfilehash: 9b4eed086853c0feeb8266a8087a275f2b70e40f
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: ee1f41384df083d6479804ba05c0252d9ba12e1b
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -31,7 +32,7 @@ Intune — это облачная служба управления корпо
 * Защита данных организации посредством управления обращением к ним и их совместного использования.
 * Обеспечение соответствия устройств и приложений требованиям безопасности организации.
 
-Intune тесно интегрируется с Azure Active Directory (Azure AD) для управления удостоверениями и контроля доступа, а также с Azure Rights Management (Azure RMS) для защиты данных. Это *служба для управления*, входящая в набор Microsoft Enterprise Mobility + Security (EMS), а Office 365 — это *служба обеспечения производительности труда* в решении мобильности Майкрософт.  
+Intune тесно интегрируется с Azure Active Directory (Azure AD) для управления удостоверениями и контроля доступа, а также с Azure Information Protection для защиты данных. Это *служба для управления*, входящая в набор Microsoft Enterprise Mobility + Security (EMS), а Office 365 — это *служба обеспечения производительности труда* в решении мобильности Майкрософт.  
 
 Вместе Office 365 и EMS позволяют сотрудникам эффективно работать на всех устройствах, обеспечивая защиту данных организации. Office 365 с EMS — это полный интегрированный набор для обеспечения мобильности в организациях, включающий функции повышения производительности, управления удостоверениями, контроля доступа, управления и защиты данных. Он предоставляет эффективный способ развертывания и эксплуатации мобильных решений в вашей организации.
 
@@ -114,9 +115,4 @@ Intune интегрируется с Azure AD, чтобы поддерживат
 * Прочитайте о некоторых [стандартных способах использования Intune](common-ways-to-use-intune.md).
 * Ознакомьтесь с продуктом, воспользовавшись [30-дневной пробной версией Intune](get-started-with-a-30-day-trial-of-microsoft-intune.md).
 * Узнайте о [технических требованиях и возможностях](/intune/get-started/what-to-know-before-you-start-microsoft-intune) Intune.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

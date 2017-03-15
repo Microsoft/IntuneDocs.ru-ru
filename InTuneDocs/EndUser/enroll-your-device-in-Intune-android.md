@@ -5,21 +5,22 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 03/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 searchScope:
-- Company Portal
-ROBOTS: NOINDEX,NOFOLLOW
+- User help
+ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 9530eb45bf027c66c4a36e4cea1ec05c5f15a6e5
-ms.openlocfilehash: b1de425a00e3c4200f71c8bf03661e4d0aca45c7
+ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
+ms.openlocfilehash: 49a28a493abd5c0835606e4d550bf2229b7e5bac
+ms.lasthandoff: 03/08/2017
 
 
 ---
@@ -98,7 +99,7 @@ ms.openlocfilehash: b1de425a00e3c4200f71c8bf03661e4d0aca45c7
 
     ![Ввод ПИН-кода или пароля](./media/and-enroll-6-PIN-native.png)
 
-13.  Если вы используете устройство Samsung Knox, коснитесь кнопки **Подтвердить**, после чего появится сообщение о регистрации устройства. При использовании обычного устройства Android обратите внимание на экран ниже, на котором показано, что идет регистрация устройства.
+13.  Если вы используете устройство Samsung KNOX, коснитесь кнопки **Подтвердить**, после чего появится сообщение о регистрации устройства. При использовании обычного устройства Android обратите внимание на экран ниже, на котором показано, что идет регистрация устройства.
 
     ![Политика конфиденциальности Samsung KNOX](./media/and-enroll-7-knox-privacy-policy.png)
 
@@ -116,10 +117,8 @@ ms.openlocfilehash: b1de425a00e3c4200f71c8bf03661e4d0aca45c7
 
 Перед установкой приложений компании выберите **Настройки** &gt; **Безопасность** и включите параметр **Неизвестные источники**. В противном случае при попытке установки выводится сообщение "Install blocked. For security reasons, your device is set to block installations of apps obtained from unknown sources." (Установка заблокирована. По соображениям безопасности на вашем устройстве включена блокировка приложений, полученных из неизвестных источников). Можно нажать **Настройки** в диалоговом окне ошибки, чтобы перейти к параметру **Неизвестные источники**.
 
+> [!Note]
+> Если в вашей организации используется программное обеспечение для управления затратами на телекоммуникации, для полной регистрации устройства потребуется выполнить дополнительные действия. Дополнительные сведения см. [здесь](enroll-your-device-with-telecom-expense-management-android.md).
+
 По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные данные на [корпоративном портале](http://portal.manage.microsoft.com)) или напишите команде разработчиков Майкрософт по Android на адрес wintunedroidfbk@microsoft.com.
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
