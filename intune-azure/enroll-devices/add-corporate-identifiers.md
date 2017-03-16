@@ -3,10 +3,10 @@ title: "Добавление идентификаторов IMEI в Intune"
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Добавление корпоративных идентификаторов (номеров IMEI) в Microsoft Intune. "
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 0d7c8eedbdad917a43d43d2e79ead5663e8e2871
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: d8cb15d1b8c1c100f15084e43d2c3c4633fd64b5
+ms.openlocfilehash: f12d538b1f4cd327b893d234f2b558185cdd9d85
+ms.lasthandoff: 03/09/2017
 
 ---
 
@@ -44,6 +44,9 @@ ms.lasthandoff: 02/18/2017
 3. При импорте файла с новыми сведениями, которые перезапишут имеющиеся сведения, выберите **Overwrite details for existing identifiers** (Перезапись сведений для существующих идентификаторов) для замены имеющихся сведений новыми.
 
 4. Перейдите к CSV-файлу с номерами IMEI и выберите **Добавить**.
+
+> [!IMPORTANT]
+> У некоторых устройств с Android есть несколько номеров IMEI. В Intune с одним устройством связывается один номер IMEI. Если вы импортировали номер IMEI, но это не тот номер, под которым устройство зарегистрировано в Intune, устройство будет классифицировано как личное, а не корпоративное. При импорте устройств с несколькими номерами IMEI для номеров, не входящих в список зарегистрированных номеров IMEI Intune, в качестве состояния регистрации будет отображаться **Неизвестно**.
 
 **Как удалить список CSV-файлов с корпоративными идентификаторами**
 
