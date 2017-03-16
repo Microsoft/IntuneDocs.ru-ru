@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 03/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: cb1679deda0ba325ee3bd7288713f12317489006
-ms.openlocfilehash: 37d44dc2752815ef7abf47e5d4a658a126892a86
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: a9336e3d230de962d2623dd627e45c6e9262a822
+ms.openlocfilehash: cfe4a0bb802956278387ac2a39d5316482e09332
+ms.lasthandoff: 03/02/2017
 
 
 ---
@@ -80,6 +80,12 @@ ms.lasthandoff: 02/18/2017
 Вопросы о сроках переноса вашего клиента отравляйте нашей команде по миграции по адресу [intunegrps@microsoft.com](mailto:intunegrps@microsoft.com).
 
 Новые возможности в предварительной версии Intune в Azure см. [здесь](https://docs.microsoft.com/intune-azure/introduction/whats-new).
+
+## <a name="whats-coming"></a>Предстоящие изменения
+
+### <a name="apple-to-require-updates-for-application-transport-security---748318--"></a>Требуемые обновления Application Transport Security от Apple <!--748318-->
+
+Компания Apple объявила, что с весны 2017 г. к Application Transport Security (ATS) будут применяться определенные требования. ATS позволяет обеспечить высокий уровень безопасности при передаче данных в приложениях по протоколу HTTPS. Это изменение затрагивает клиентов Intune, которые используют приложения корпоративного портала для iOS. Дополнительные сведения см. в [блоге службы поддержки Intune](https://aka.ms/compportalats). 
 
 ### <a name="see-also"></a>См. также
 * [Блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882)
