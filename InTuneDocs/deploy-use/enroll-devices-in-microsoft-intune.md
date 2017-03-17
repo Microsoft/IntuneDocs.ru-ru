@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/21/2017
+ms.date: 03/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
-ms.openlocfilehash: d1b24b745fe1e860e42fa23647976aadea1953cd
-ms.lasthandoff: 02/21/2017
+ms.sourcegitcommit: 911d2887791cf16d4290c3ac5189aa44086f4603
+ms.openlocfilehash: 8f18f9ff2c32bb24b68fa987a8aad990b911a549
+ms.lasthandoff: 03/11/2017
 
 
 ---
@@ -38,7 +38,7 @@ ms.lasthandoff: 02/21/2017
 
 - **Очистка** — указывает, нужно ли очищать устройство, прежде чем пользователи смогут зарегистрировать его. Термин "очистка" означает сброс устройства в заводские параметры по умолчанию, при котором все данные удаляются. Дополнительные сведения см. в статье [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md).
 - **Сходство**  —связывание устройств с пользователями. Необходимо для управления мобильными приложениями (MAM) и условного доступа к данным организации. Дополнительные сведения см. в статье [Сопоставление пользователей](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices).
-- **Блокировка** — указывает, запрещено ли пользователям отменять регистрацию устройств с помощью собственных меню ОС. Отменить регистрацию устройства на базе любой из платформ можно из приложения "Корпоративный портал". 
+- **Блокировка** — указывает, запрещено ли пользователям отменять регистрацию устройств с помощью собственных меню ОС. Отменить регистрацию устройства на базе любой из платформ можно из приложения "Корпоративный портал".
 
 **Методы регистрации в iOS**
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 02/21/2017
 
 | **Метод** |    **Требуется очистка?** |    **Сходство**    |    **Блокировка** | **Сведения**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | да|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
+|**[BYOD](#byod)** | Нет|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
 |**[DEM](#dem)**|    Нет |Нет |Нет    |[Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Методы регистрации в Android**
@@ -75,7 +75,7 @@ ms.lasthandoff: 02/21/2017
 
 | **Метод** |    **Требуется очистка?** |    **Сходство**    |    **Блокировка** | **Сведения**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | да|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
+|**[BYOD](#byod)** | Нет|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
 
 
 Серию вопросов, которые помогут выбрать правильный метод, см. в статье [Выбор способа регистрации устройств](/intune/get-started/choose-how-to-enroll-devices1).
