@@ -6,19 +6,19 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
-ms.reviewer: heenamac
+ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 5edcdf20d07c63a33707c31134af8adf22049929
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: deea78dcea9ade031441bf12b388a862235a8e9c
+ms.openlocfilehash: 617ca50569885431394ab630f297ba919d119522
+ms.lasthandoff: 03/15/2017
 
 
 ---
@@ -29,9 +29,10 @@ ms.lasthandoff: 02/18/2017
 
 Ознакомившись с этой статьей, вы узнаете, как настраивать профиль обновлений выпуска Windows 10. Профиль позволяет автоматически обновлять устройства, работающие под управлением одной из следующих версий Windows 10:
 
-- Windows 10 Desktop
+- Windows 10 Домашняя
 - Windows 10 Holographic
 - Windows 10 Mobile
+
 
 Поддерживаются следующие варианты обновления:
 
@@ -39,6 +40,7 @@ ms.lasthandoff: 02/18/2017
 - С Windows 10 Домашняя до Windows 10 для образовательных учреждений
 - С Windows 10 Mobile до Windows 10 Mobile Корпоративная
 - С Windows 10 Holographic Pro до Windows 10 Holographic Корпоративная
+
 
 ## <a name="before-you-start"></a>Перед началом работы
 Перед тем как начать обновление устройств до последней версии, потребуется следующее:

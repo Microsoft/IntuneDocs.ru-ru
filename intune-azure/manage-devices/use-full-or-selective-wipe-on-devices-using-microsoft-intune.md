@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,14 +15,14 @@ ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 22e188e81f2bc278045bb0988642b1b68372d6af
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: 6b723069108ff2cbe85951f7d65ef803323eceb9
+ms.lasthandoff: 03/13/2017
 
 
 ---
 
-# <a name="use-full-or-selective-wipe"></a>Использование полной или выборочной очистки 
+# <a name="use-full-or-selective-wipe"></a>Использование полной или выборочной очистки
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
@@ -104,6 +104,10 @@ ms.lasthandoff: 02/18/2017
 |Outlook|Удаляются сообщения, полученные приложением Microsoft Outlook для iOS.</br>Исключение. Если Exchange размещается локально, сообщения электронной почты не удаляются.|Удаляются сообщения, полученные приложением Microsoft Outlook для iOS.</br>Исключение. Если Exchange размещается локально, сообщения электронной почты не удаляются.|
 |Отсоединение Azure Active Directory (AAD)|Запись AAD удалена.|Запись AAD удалена.|
 |Контакты | Контакты, синхронизированные напрямую из приложения в собственную адресную книгу, удаляются.  Все контакты, синхронизированные из собственной адресной книги в другой внешний источник, нельзя очистить. <br /> <br />Сейчас поддерживается только приложение Outlook.|Контакты, синхронизированные напрямую из приложения в собственную адресную книгу, удаляются.  Все контакты, синхронизированные из собственной адресной книги в другой внешний источник, нельзя очистить. <br /> <br />Сейчас поддерживается только приложение Outlook.
+
+**Android for Work**
+
+При выборочной очистке на устройствах Android for Work удаляются все данные, приложения и параметры в рабочем профиле этого устройства. В этом случае управление устройством с помощью Intune прекращается. В случае с Android for Work полная очистка не поддерживается.
 
 **Windows**
 

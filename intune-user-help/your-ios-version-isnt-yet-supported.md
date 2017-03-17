@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/04/2016
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 028bc2a3a42b3e3415b10e543364060d73dc6017
-ms.openlocfilehash: ce5b042c9526671458da6949aca4fc4bf1435b66
-ms.lasthandoff: 01/05/2017
+ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
+ms.openlocfilehash: 22144721ba6bfad565009b306e7216ad1e5582af
+ms.lasthandoff: 03/16/2017
 
 
 ---
