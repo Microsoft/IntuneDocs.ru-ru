@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 7777b7fb4a0977ed663a3ef01547f22e9e61bb8a
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 5fe4a0f9443e1bedc124aac5bf5530f56ce4ea91
+ms.lasthandoff: 03/16/2017
 
 
 ---
@@ -50,9 +52,4 @@ ms.openlocfilehash: 7777b7fb4a0977ed663a3ef01547f22e9e61bb8a
 
 >[!div class="step-by-step"]
 [**Предварительные требования**&rarr;](what-to-know-before-you-start-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
