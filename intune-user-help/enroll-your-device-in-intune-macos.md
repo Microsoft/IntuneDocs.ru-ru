@@ -14,7 +14,7 @@ ms.assetid: 58eb0e7a-1321-4c66-a281-88fb01e72c1c
 searchScope:
 - User help
 ROBOTS: 
-ms.reviewer: mamoriss
+ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
