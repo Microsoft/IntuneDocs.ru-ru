@@ -120,6 +120,7 @@
 
 ## [Добавление приложений](deploy-use/add-apps.md)
 ### [Добавление приложений для зарегистрированных устройств](deploy-use/add-apps-for-mobile-devices-in-microsoft-intune.md)
+### [Неопубликованные приложения Windows](deploy-use/sideload-apps-for-windows.md)
 ### [Добавление приложений для клиентских компьютеров Intune](deploy-use/add-apps-for-windows-pcs-in-microsoft-intune.md)
 #### [Управление лицензионными соглашениями для клиентских компьютеров Intune](deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
 ## [Развертывание приложений](deploy-use/deploy-apps.md)
@@ -136,7 +137,6 @@
 ### [Политики конфигурации приложений Android for Work](deploy-use/afw-app-configuration-policy.md)
 ### [Профили подготовки мобильных приложений iOS](deploy-use/ios-mobile-app-provisioning-profiles.md)
 ### [Управление доступом в Интернет](deploy-use/manage-internet-access-using-managed-browser-policies.md)
-### [Загрузка неопубликованных бизнес-приложений](deploy-use/sideload-apps-for-windows.md)
 
 ## [Защита приложений и данных](deploy-use/protect-apps-and-data-with-microsoft-intune.md)
 ### [Политики соответствия устройств](deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune.md)
