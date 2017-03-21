@@ -15,8 +15,9 @@ ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b3732d0c6461f9fb8462ae5584055204d597aae0
-ms.openlocfilehash: 0af4f49713a65900079d69a09f20d210797c935c
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 61851f7669e9a5c3a192b2eda344fcde9c4fa3e6
+ms.lasthandoff: 03/20/2017
 
 
 ---
@@ -74,9 +75,4 @@ Intune нельзя использовать для управления опе�
 >[!div class="step-by-step"]
 
 >[**Сеть** &rarr;](network-bandwidth-use.md)  
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
