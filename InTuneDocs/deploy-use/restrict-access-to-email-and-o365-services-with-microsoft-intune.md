@@ -74,7 +74,7 @@ Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно
 2. [Создайте политику соответствия устройства](create-a-device-compliance-policy-in-microsoft-intune.md).
 
 2.  Создайте политику условного доступа из одной из следующих облачных служб или продуктов Майкрософт:
-> [!div class="op_single_selector"]
+
   - [Создание политики условного доступа для Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
   - [Создание политики условного доступа для локальной организации Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
   - [Создание политики условного доступа для новой выделенной среды Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
