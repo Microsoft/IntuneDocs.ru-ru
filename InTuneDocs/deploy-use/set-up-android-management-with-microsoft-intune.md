@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 03/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: lacranda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
-ms.openlocfilehash: 8e2588e2bb0537877f0164bc996fa973f25ea4dd
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 86fd9d7212277f9524eb4d7f225df2c7beda1313
+ms.openlocfilehash: a5a4f11ae341480b2e674ca55a514b62831bdd60
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -38,11 +38,11 @@ ms.lasthandoff: 02/18/2017
 
 3.  **Сообщите пользователям, как регистрировать свои устройства, чтобы получить доступ к ресурсам компании.**
 
-    Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Android в Intune](../enduser/enroll-your-device-in-intune-android.md). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
+    Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Android в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
 
     Дополнительные сведения о других задачах для пользователей см. в статьях:
   - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](how-to-educate-your-end-users-about-microsoft-intune.md)
-  - [Руководство пользователя для устройств с Android](../enduser/using-your-android-device-with-intune.md)
+  - [Руководство пользователя для устройств с Android](https://docs.microsoft.com/intune-user-help/using-your-android-device-with-intune)
 
 Так как в Китае отсутствует Магазин Google Play, корпоративный портал для устройств Android можно скачать в китайских магазинах приложений. Приложение корпоративного портала для Android можно будет скачать в следующих магазинах:
 * [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)

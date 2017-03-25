@@ -14,13 +14,13 @@ ms.assetid: fe110bbc-479b-4d11-beeb-70d15b199eda
 searchScope:
 - User help
 ROBOTS: 
-ms.reviewer: mamoriss
+ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 102a10e5942011e8de2c43bf169adafd65d6f351
-ms.lasthandoff: 12/10/2016
+ms.sourcegitcommit: 07a1f63d02e2517e4ab64305304127a40922263c
+ms.openlocfilehash: b79d7b59a887e0d29e17816ff6acc58bd30b6a35
+ms.lasthandoff: 03/20/2017
 
 
 ---

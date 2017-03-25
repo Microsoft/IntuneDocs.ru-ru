@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: afca2af0b07b939adc66c8804f04a1125e12001b
-ms.openlocfilehash: 9c71a83f9514187753360fa9c2085584d1b76711
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 86fd9d7212277f9524eb4d7f225df2c7beda1313
+ms.openlocfilehash: 825acdb4452aa7fc9369be653b8afcdd4312ab23
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -49,11 +49,11 @@ Intune позволяет управлять мобильными устройс
 
 5.  **Сообщите пользователям, как регистрировать свои устройства, чтобы получить доступ к ресурсам компании.**
 
-    Инструкции по регистрации для пользователей см. в статьях [Регистрация устройства iOS в Intune](../enduser/enroll-your-device-in-intune-ios.md) и [Регистрация устройства macOS в Intune](../enduser/enroll-your-device-in-intune-macos.md). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
+    Инструкции по регистрации для пользователей см. в статьях [Регистрация устройства iOS в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) и [Регистрация устройства macOS в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
 
     Дополнительные сведения о других задачах для пользователей см. в статьях:
     - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](how-to-educate-your-end-users-about-microsoft-intune.md)
-    - [Руководство конечного пользователя для устройств iOS и Mac](../enduser/using-your-ios-or-macOS-device-with-intune.md)
+    - [Руководство конечного пользователя для устройств iOS и Mac](https://docs.microsoft.com/intune-user-help/using-your-ios-or-macOS-device-with-intune)
 
 Если ваша организация приобретает устройства iOS для пользователей, эти устройства также можно зарегистрировать в системе управления как [корпоративные устройства iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
