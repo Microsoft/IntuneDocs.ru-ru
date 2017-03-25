@@ -41,7 +41,7 @@
 #### [Регистрация устройств iOS с помощью программы регистрации устройств](enroll-devices/enroll-ios-devices-using-device-enrollment-program.md)
 ### [Регистрация устройств с помощью диспетчера регистрации устройств](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
 ### [Регистрация устройств с macOS](enroll-devices/enroll-macos-devices.md)
-### [Регистрация устройств с Windows](enroll-devices/enroll-window-devices.md)
+### [Регистрация устройств с Windows](enroll-devices/enroll-windows-devices.md)
 ### Управление регистрацией устройств
 #### [Создание условий](enroll-devices/create-terms-and-conditions.md)
 #### [Установка ограничений на регистрацию](enroll-devices/set-enrollment-restrictions.md)
@@ -108,6 +108,11 @@
 ## [Plan and design](configure-devices/plan-and-design.md) --->
 ## Инструкции
 ### [Настройка профилей устройств](configure-devices/how-to-create-device-profiles.md)
+
+### [Настройка функций устройства](configure-devices/how-to-configure-device-features.md)
+#### [iOS](configure-devices/device-features-for-ios.md)
+#### [macOS](configure-devices/device-features-for-macos.md)
+
 ### [Настройка ограничений для устройств](configure-devices/how-to-configure-device-restrictions.md)
 #### [Android](configure-devices/device-restrictions-for-android.md)
 #### [iOS](configure-devices/device-restrictions-for-ios.md)
@@ -169,6 +174,8 @@
 ### [Создание политики соответствия Android for Work](set-device-compliance/create-a-compliance-policy-for-android-for-work.md)
 ### [Создание политики соответствия iOS](set-device-compliance/create-a-compliance-policy-for-ios.md)
 ### [Создание политики соответствия Windows](set-device-compliance/create-a-compliance-policy-for-windows.md)
+### [Создайте действий для несоответствия](set-device-compliance/actions-for-noncompliance.md)
+### [Мониторинг устройств на соответствие требованиям](set-device-compliance/monitor-intune-device-compliance-policies.md)
 <!--- ### [Monitor device compliance](set-device-compliance/monitor-device-compliance.md)--->
 
 
