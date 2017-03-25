@@ -16,13 +16,13 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: d59d94aafa71a9891a6746902339255ea7a9ad15
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: b6c245d60c661c04b4c4d29c9bdcdd752254d978
+ms.openlocfilehash: 6932e75fd002661245baa7754824ec6cfe500a22
+ms.lasthandoff: 03/15/2017
 
 
 ---
-# <a name="how-to-monitor-compliance-in-intune-azure-preview"></a>Мониторинг соответствия устройств требованиям в предварительной версии Intune Azure
+# <a name="how-to-monitor-device-compliance-in-intune-azure-preview"></a>Как отслеживать соответствие устройств требованиям в предварительной версии Intune Azure
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 

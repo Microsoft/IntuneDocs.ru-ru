@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/03/2017
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
-ms.openlocfilehash: 011bdf38327319358a364a17fa82c03f1320ab63
-ms.lasthandoff: 01/05/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: d3401f32994fcd0e54d35a2615a636c5d06183d2
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/05/2017
 
 1.  Выберите **Главная** > **Магазин Google Play**.
 
-2.  В поле **Поиск** введите текст **корпоративный портал**.
+2.  В поле **Поиск** введите текст **корпоративный портал intune**.
 
 3.  Нажмите **Корпоративный портал Intune**.
 

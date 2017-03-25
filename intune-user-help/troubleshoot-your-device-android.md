@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,9 +17,9 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cd5d97ec4524477fe6ac08a863eaf5cc03913e50
-ms.openlocfilehash: 9862ef9fd1d4827ae99480cd2cf2eac8dfca54d8
-ms.lasthandoff: 02/21/2017
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: b80ced5cbaee26dfe8cb4b2f5e46d93af9733788
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -28,6 +28,7 @@ ms.lasthandoff: 02/21/2017
 
 Иногда на устройствах с Android могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться к своему ИТ-администратору. Его контактные данные см. на [веб-сайта корпоративного портала](http://portal.manage.microsoft.com).
 
+- [Проверка соответствия на устройстве с Android](check-compliance-on-your-device-android.md)
 - [Использование подробного ведения журналов, чтобы помочь ИТ-администратору с устранением проблем на устройстве](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 - [Отправка журналов ИТ-администратору по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
 - [Отправка журналов ИТ-администратору по USB-кабелю](send-logs-to-your-it-admin-using-cable-android.md)

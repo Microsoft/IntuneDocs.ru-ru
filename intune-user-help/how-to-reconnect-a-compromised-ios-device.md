@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 38edb26334cdfdee0ab66465c4bed21d6e8d14c1
-ms.openlocfilehash: 7506063b56231feea1b2f6b22b157171896e25ab
-ms.lasthandoff: 12/21/2016
+ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
+ms.openlocfilehash: 208b7775ef66042339ed5e77637a6f0d63eb9831
+ms.lasthandoff: 03/16/2017
 
 
 ---
@@ -29,5 +29,5 @@ ms.lasthandoff: 12/21/2016
 
 ИТ-администратор обнаружил, что вы используете модификацию устройства. "Снятие защиты" (или "снятие ограничения на доступ к файловой системе") означает, что устройство было изменено для получения неограниченного доступа к определенным критическим файлам. Это может отрицательно повлиять на уровень безопасности и создать угрозу для ресурсов компании.
 
-Такое устройство теряет доступ к ресурсам компании. В этом случае необходимо обратиться к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+Такое устройство теряет доступ к ресурсам организации. В этом случае необходимо обратиться к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 

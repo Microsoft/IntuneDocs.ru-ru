@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/20/2016
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 4e1b2094a89940355e02c062614620a4abf70e53
-ms.openlocfilehash: 5de975c1c4b06d1cce0dcdb2564826d09a53260e
-ms.lasthandoff: 12/21/2016
+ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
+ms.openlocfilehash: c6a9c0aa97a06f7b54768ee6927ea8866c40eb13
+ms.lasthandoff: 03/16/2017
 
 
 ---
@@ -34,6 +34,8 @@ ms.lasthandoff: 12/21/2016
 -   На экране **О программе** в приложении корпоративного портала выберите **Отправить диагностический отчет**.
 
 -   Находясь в приложении корпоративного портала, встряхните устройство, а затем нажмите **Электронная почта** при появлении предупреждения диагностики. Если при встряхивании устройства предупреждение не отображается, откройте **Параметры** > **Корпоративный портал** и включите параметр **Жест встряхивания**.
+
+Если при таком способе отправки журналов возникают проблемы, можно также [отправить журналы ИТ-администратору по электронной почте](send-logs-to-your-it-admin-by-email-iOS.md).
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 

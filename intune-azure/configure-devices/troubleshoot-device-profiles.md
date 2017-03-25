@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,8 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 962eb30ada84355c1aceacbf8f487b0f5b3cf1f2
+ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.openlocfilehash: 9bc5b328fc204a12cf7aa992f62ac00b9ddfd45d
+ms.lasthandoff: 03/13/2017
 
 
 ---
@@ -34,14 +35,14 @@ ms.openlocfilehash: 962eb30ada84355c1aceacbf8f487b0f5b3cf1f2
 
 Если устройство не подключается к службе для получения политики после отправки первого уведомления, Intune предпринимает еще три попытки.  Если устройство находится в автономном режиме (например, выключено или не подключено к сети), оно не сможет получать уведомления. В этом случае устройство получит политику при следующем запланированном сеансе связи со службой Intune:
 
-- iOS и Mac OS X — каждые 6 часов;
+- iOS и macOS — каждые 6 часов.
 - Android — каждые 8 часов;
 - Windows Phone — каждые 8 часов;
 - компьютеры с Windows 8.1 и Windows 10, зарегистрированные как устройства — каждые 8 часов.
 
 Если устройство только что было зарегистрировано, частота связи будет более высокой:
 
-- iOS и Mac OS X — каждые 15 минут в течение 6 часов, затем каждые 6 часов;
+- iOS и macOS — каждые 15 минут в течение 6 часов, затем каждые 6 часов.
 - Android — каждые 3 минуты в течение 15 минут, затем каждые 15 минут в течение 2 часов, затем каждые 8 часов;
 - Windows Phone — каждые 5 минут в течение 15 минут, затем каждые 15 минут в течение 2 часов, затем каждые 8 часов;
 - компьютеры с Windows, зарегистрированные как устройства — каждые 3 минуты в течение 30 минут, затем каждые 8 часов.
@@ -499,8 +500,3 @@ Intune не оценивает полезные данные файлов кон
 
 ### <a name="next-steps"></a>Дальнейшие действия
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](/intune/troubleshoot/how-to-get-support-for-microsoft-intune).
-
-
-<!--HONumber=Feb17_HO3-->
-
-

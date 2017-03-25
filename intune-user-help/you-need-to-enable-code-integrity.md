@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/24/2016
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -18,9 +18,9 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: db5714009d4d0bcdd77be23314e4f2ff4db44b6e
-ms.openlocfilehash: d73777a0fb6cb981d57c92740a70e9d3058c03cb
-ms.lasthandoff: 12/21/2016
+ms.sourcegitcommit: 499ec16ffa04ec6c5d1fff829729fddc3f74a02b
+ms.openlocfilehash: 4a1639c289e335d4f50c549da7b7d895dd2a10bb
+ms.lasthandoff: 03/16/2017
 
 
 ---
@@ -32,9 +32,9 @@ ms.lasthandoff: 12/21/2016
 Целостность кода автоматически включается, когда компьютер активно использует безопасную загрузку.
 
 > [!Tip]
-> Включение безопасной загрузки — это сложная задача. При использовании мобильного устройства Windows обратитесь за помощью к ИТ-администратору. При использовании настольного устройства обратитесь к ИТ-администратору.
+> Включение безопасной загрузки — это сложная задача. Обратитесь к ИТ-администратору за помощью в решении этой задачи.
 
-<!--Or, see the section “To re-enable Secure Boot” on the [Disabling Secure Boot](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx) page to try enabling Secure Boot yourself.-->
+Или ознакомьтесь с разделом "Чтобы снова включить безопасную загрузку, выполните следующие действия" статьи [Отключение безопасной загрузки](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx), чтобы включить безопасную загрузку самостоятельно.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 

@@ -16,9 +16,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: a3e3d4968623f29e320f1fcca8243c861c7caab4
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: cddeb6bf854b9ffbbc1744d5d164c8ceea34ff49
+ms.openlocfilehash: 0c0d2f73e48864caabdec6e83c2fdf58db5a0630
+ms.lasthandoff: 03/10/2017
 
 
 ---
@@ -28,19 +28,20 @@ ms.lasthandoff: 02/18/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-Из этой статьи вы узнаете об обязательных условиях, которые нужно выполнить, прежде чем создавать политику соответствия устройств, и получите общее представление о доступных действиях на портале Azure. Если соответствие устройства политике — новая тема для вас, прочтите эту статью, чтобы узнать, что такое соответствие устройства и как его можно использовать в вашей компании.
+В этом разделе рассматриваются следующие вопросы. 
+
+- Необходимые условия для создания политики соответствия устройств.
+- Общее представление о доступных действиях на портале предварительной версии Intune Azure. 
+
+Если соответствие устройства политике — новая тема для вас, прочтите [эту статью](https://docs.microsoft.com/intune-azure/set-device-compliance/what-is-device-compliance), чтобы узнать, что такое соответствие устройства и как его можно использовать в вашей организации.
 
 ##  <a name="pre-requisites"></a>Предварительные условия
-
 
 -   Оформлена подписка на Intune.
 
 -   Подписка на Azure Active Directory
 
-
-
 ##  <a name="supported-platforms"></a>Поддерживаемые платформы:
-
 
 -   Android
 
@@ -54,8 +55,7 @@ ms.lasthandoff: 02/18/2017
 
 ##  <a name="azure-portal-workflow"></a>Рабочий процесс портала Azure
 
-
-Ниже объясняется, как создавать политики соответствия устройств и управлять ими на портале Azure.
+Ниже объясняется, как создавать политики соответствия устройств и управлять ими на портале предварительной версии Intune Azure.
 
 <!---### Overview
 
