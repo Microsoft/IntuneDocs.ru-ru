@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/16/2017
+ms.date: 03/27/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,6 +17,7 @@ ms.custom: intune-classic EXPIERIMENT
 translationtype: Human Translation
 ms.sourcegitcommit: b4295fbc9df88fa537f18b1280dfcc32702ccc51
 ms.openlocfilehash: ef14eba575df3c4498a5a70384c3cf59c34b86b0
+ms.lasthandoff: 02/17/2017
 
 
 ---
@@ -25,7 +26,6 @@ ms.openlocfilehash: ef14eba575df3c4498a5a70384c3cf59c34b86b0
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Определить наилучший способ регистрации устройств, которыми вы управляете, помогут ответы на ряд вопросов.
-
 
 ## <a name="how-will-you-manage-shared-ios-devices"></a>**Как вы будете управлять общими устройствами iOS?**
 
@@ -42,11 +42,6 @@ ms.openlocfilehash: ef14eba575df3c4498a5a70384c3cf59c34b86b0
 
   - **Диспетчер регистрации устройств** — диспетчер регистрации устройств Intune (DEM) позволяет менеджеру или администратору зарегистрировать множество мобильных устройств с помощью одной учетной записи пользователя. Сходство пользователей (например, выделенные пользователи) на этих устройствах не может присутствовать, их необходимо зарегистрировать путем установки приложения корпоративного портала и входа в него.
 
-  > [!div class="button"]
-  [< Назад](choose-how-to-enroll-devices3.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
+> [!div class="button"]
+[< Назад](choose-how-to-enroll-devices3.md)
 
