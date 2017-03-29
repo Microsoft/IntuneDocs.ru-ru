@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 53d2c0d5b2157869804837ae2fa08b1cce429982
 ms.openlocfilehash: e3b404526d8e662fd8ae285c144b1d6f5cf22bf3
+ms.lasthandoff: 02/10/2017
 
 
 ---
@@ -53,7 +54,7 @@ ms.openlocfilehash: e3b404526d8e662fd8ae285c144b1d6f5cf22bf3
 
 Если политики условного доступа настроены и ориентированы на пользователя, то для подключения к электронной почте его **устройство** должно удовлетворять следующим требованиям:
 
--  Компьютер, присоединенный к домену, или **регистрация ** в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
+-  Компьютер, присоединенный к домену, или **регистрация** в [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
 
 -  **Регистрация в Azure Active Directory**. Кроме того, идентификатор клиента Exchange ActiveSync должен быть зарегистрирован в Azure Active Directory.
 
@@ -139,9 +140,4 @@ ms.openlocfilehash: e3b404526d8e662fd8ae285c144b1d6f5cf22bf3
 -   [Защита доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 -   [Защита доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
