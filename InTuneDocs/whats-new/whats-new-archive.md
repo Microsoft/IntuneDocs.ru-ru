@@ -2,8 +2,8 @@
 title: "Архив сведений о новых возможностях | Документы Майкрософт"
 description: "Архивные объявления о новых возможностях для Microsoft Intune"
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: mtillman
+ms.author: mtillman
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
