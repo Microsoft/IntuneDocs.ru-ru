@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
 ms.openlocfilehash: 827c7cd1b6b3ef98a681eef26bb7742228fca5e9
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -78,7 +79,7 @@ ms.openlocfilehash: 827c7cd1b6b3ef98a681eef26bb7742228fca5e9
   ![Снимок экрана со страницей политики условного доступа Dynamics CRM Online](../media/mdm-ca-dynamics-crm-policy-configuration.png)
 
 2.  Выберите политику **Включить условный доступ**.
-3.  В разделе **Доступ приложения ** можно выбрать область применения политики условного доступа:
+3.  В разделе **Доступ приложения** можно выбрать область применения политики условного доступа:
   * **iOS**
   * **Android**
 4.  В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.
@@ -102,9 +103,4 @@ ms.openlocfilehash: 827c7cd1b6b3ef98a681eef26bb7742228fca5e9
 * [Защита доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 * [Защита доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
