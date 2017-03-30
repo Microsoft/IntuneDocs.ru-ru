@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: cc9ef6777f06aca5ef93154c38e12520ab9ed348
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
+ms.openlocfilehash: 17c5649e7ece5becd17e8ef9a74d748b6202693f
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -39,6 +39,7 @@ ms.lasthandoff: 02/18/2017
     - **Платформа.** Выберите тип платформы для профиля, который нужно создать.
     - **Тип профиля.** Выберите тип создаваемого профиля. Список доступных типов будет разным в зависимости от выбранной платформы.
     - **Параметры.** Информацию о параметрах для каждого типа профиля см. по ссылкам ниже.
+        -  [Параметры возможностей устройства](/intune-azure/configure-devices/how-to-configure-device-features)
         -  [Параметры ограничений для устройств](/intune-azure/configure-devices/how-to-configure-device-restrictions)
         -  [Параметры электронной почты](/intune-azure/configure-devices/how-to-configure-email-settings)
         -  [Параметры VPN](/intune-azure/configure-devices/how-to-configure-vpn-settings)
@@ -46,7 +47,7 @@ ms.lasthandoff: 02/18/2017
         -  [Параметры для обновления выпуска Windows 10](/intune-azure/configure-devices/how-to-configure-windows-10-edition-upgrade)
         -  [Параметры сертификата](/intune-azure/configure-devices/how-to-configure-certificates)
         -  [Параметры Windows Information Protection](/intune-azure/configure-devices/how-to-configure-windows-information-protection)
-        -  [Параметры образования](/intune-azure/configure-devices/education-settings-for-ios.md)
+        -  [Параметры образования](/intune-azure/configure-devices/how-to-configure-education-settings)
         -  [Пользовательские параметры](/intune-azure/configure-devices/how-to-configure-custom-settings)
 
     ![Создание профиля устройства](./media/create-device-profile.png)

@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 0cf638348df2f01d70c0765a4932abc3eb801f23
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
+ms.openlocfilehash: 2c79f5f796152e930c4a952388541383ab50e595
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/18/2017
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Другое** > **Intune**.
-3. В колонке **Intune** выберите **Настройка устройств**.
+3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 2. В колонке списка профилей выберите **Создание профиля**.
 3. В колонке **Создание профиля** введите **имя** и **описание** (необязательно) для профиля VPN.
@@ -55,7 +55,7 @@ ms.lasthandoff: 02/18/2017
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Другое** > **Intune**.
-3. В колонке **Intune** выберите **Настройка устройств**.
+3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создать профиль**.
 4. В колонке **Создание профиля** введите **имя** и **описание** для пользовательского профиля.
@@ -65,7 +65,7 @@ ms.lasthandoff: 02/18/2017
 3. В колонке **Настраиваемые параметры OMA-URI** выберите **Добавить**.
     - Введите имя параметра.
     - В поле **Тип данных** укажите **Строка**.
-    - В поле **OMA-URI** укажите следующую строку: **./Vendor/MSFT/VPN/Profile/*Name*/PackageList**, где *Name* — имя профиля VPN, записанное на шаге 1. В нашем примере строка будет такой: **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**.
+    - В поле **OMA-URI** укажите следующую строку: **./Vendor/MSFT/VPN/Profile/*Name*/PackageList**, где*Name* — имя профиля VPN, записанное на шаге 1. В нашем примере строка будет такой: **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**.
     - В поле **Значение** укажите имена пакетов, которые должны быть связаны с профилем, разделяя их точкой с запятой. Например, если вы хотите, чтобы VPN-подключение использовали Excel и браузер Google Chrome, введите: **com.microsoft.office.excel;com.android.chrome**.
 
 ![Пример настраиваемой политики VPN на уровне приложения для Android](./media/android_per_app_vpn_oma_uri.png)
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/18/2017
   1.    В колонке **Настраиваемые параметры OMA-URI** выберите **Добавить**.
   2.    Введите имя параметра.
   3.    В поле **Тип данных** укажите **Строка**.
-  4.    В поле **OMA-URI** укажите следующую строку: **./Vendor/MSFT/VPN/Profile/*Name*/Mode**, где *Name* — имя профиля VPN, записанное на шаге 1. В нашем примере строка будет такой: **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode**.
+  4.    В поле **OMA-URI** укажите следующую строку: **./Vendor/MSFT/VPN/Profile/*Name*/Mode**, где*Name* — имя профиля VPN, записанное на шаге 1. В нашем примере строка будет такой: **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode**.
   5.    В поле **Значение** введите **BLACKLIST** или **WHITELIST**.
 
 

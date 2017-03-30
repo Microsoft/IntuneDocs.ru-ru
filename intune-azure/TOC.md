@@ -33,6 +33,7 @@
 ### [Получение токена Apple DEP](enroll-devices/get-apple-dep-token.md)
 ### [Выбор способа регистрации устройств iOS](enroll-devices/choose-ios-enrollment-method.md)
 ## Инструкции
+### [Назначение лицензий пользователям](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4?toc=%2fintune-azure%2ftoc.json)
 ### [Регистрация устройств Android](enroll-devices/enroll-android-and-knox-standard-devices.md)
 ### Регистрация устройств iOS
 #### [Регистрация устройств iOS посредством помощника по настройке](enroll-devices/enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)

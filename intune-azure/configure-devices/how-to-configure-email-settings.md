@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: d201715e5e744b0bf2bd37aca2867ef17133311b
-ms.openlocfilehash: 12ad8430d4a9bd6a3f91447db2422f1eb4144a24
-ms.lasthandoff: 02/24/2017
+ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
+ms.openlocfilehash: 786028412ca46d07e5180f469d07f9103f956033
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -44,7 +44,7 @@ ms.lasthandoff: 02/24/2017
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Другое** > **Intune**.
-3. В колонке **Intune** выберите **Настройка устройств**.
+3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создание профиля**.
 4. В колонке **Создание профиля** введите **имя** и **описание** для профиля электронной почты.

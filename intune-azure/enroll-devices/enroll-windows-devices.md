@@ -5,7 +5,7 @@ description: "Предварительная версия Intune Azure: вклю
 keywords: 
 author: nathbarn
 manager: nathbarn
-ms.date: 03/15/17
+ms.date: 03/21/17
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: a95aca706a4996d40e268a80c7c334ebb9854df5
-ms.openlocfilehash: 6cbaf8414452f11f0aa97616bbed2cf164b49ac0
-ms.lasthandoff: 03/15/2017
+ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
+ms.openlocfilehash: 609656c2831c09c67e911c8150d31f38faad020b
+ms.lasthandoff: 03/22/2017
 
 
 ---
@@ -33,23 +33,13 @@ ms.lasthandoff: 03/15/2017
  -  Для использования этого метода необходима служба Azure Active Directory Premium. Если у вас ее нет, используйте метод регистрации для Windows 8.1 и Windows Phone 8.1.
  -  Если вы решили не включать автоматическую регистрацию, используйте метод регистрации для Windows 8.1 и Windows Phone 8.1.
 
-- [**Регистрация Windows 8.1 и Windows Phone 8.1 путем настройки CNAME**](#simplify-enrollment-by-configuring-cname).
+- [**Регистрации без автоматической регистрации в Azure AD Premium**](#enable-windows-enrollment-without-azure-ad-premium)
  - Этот метод следует использовать для регистрации устройств Windows 8.1 и Windows Phone 8.1.
- - Этот метод можно также использовать в том случае, если у вас нет Azure Active Directory (AD) Premium.
-
-
-## <a name="prerequisites"></a>Необходимые компоненты
-
-Если некоторых из указанных ниже необходимых компонентов еще нет в предварительной версии Intune Azure, выполните эти действия в классической консоли администрирования Intune.
-
-- [Настройка пользовательского доменного имени](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-2)
-- Настройка **Microsoft Intune** в качестве [центра управления мобильными устройствами (MDM)](set-mdm-authority.md).
-- [Настройка приложения корпоративного портала](/intune-azure/manage-apps/company-portal-app.md)
-- Назначение лицензий пользователям
+ - Этот метод можно использовать для Windows 8.1 и более поздних устройств, если вы не хотите использовать Azure Active Directory (AD) Premium.
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
-## <a name="enable-windows-workplace-enrollment"></a>Включение регистрации рабочей области Windows
+## <a name="enable-windows-enrollment-without-azure-ad-premium"></a>Включение регистрации Windows без Azure AD Premium
 
 Вы можете разрешить пользователям устанавливать и регистрировать свои устройства без автоматической регистрации в Azure AD Premium. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера.
 
@@ -79,7 +69,7 @@ ms.lasthandoff: 03/15/2017
 
     Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Windows в Intune](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-windows). Вы также можете перенаправить пользователей к статье [Что может видеть ИТ-администратор при регистрации устройства в Intune?](https://docs.microsoft.com/intune/enduser/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows)
 
-    Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune).
+    Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune).
 
 Дополнительные действия требуются только в случае развертывания корпоративного портала на устройствах.  Шаги 2 и 3 в консоли администрирования можно спокойно пропустить.
 

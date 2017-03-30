@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: b0157f1021ae7c98392dc3c96481a4514758b059
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
+ms.openlocfilehash: 9f98a786e97afbb93628609808637def0a7e8fe8
+ms.lasthandoff: 03/17/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/18/2017
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Другое** > **Intune**.
-3. В колонке **Intune** выберите **Настройка устройств**.
+3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создать профиль**.
 4. В колонке **Создание профиля** введите **имя** и **описание** для профиля ограничения устройства.

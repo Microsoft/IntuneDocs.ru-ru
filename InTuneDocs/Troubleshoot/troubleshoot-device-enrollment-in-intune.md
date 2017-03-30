@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 03/01/2017
+ms.date: 03/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 785e7514c6c6109cfec61a47ae2fc7183c7c2330
-ms.openlocfilehash: 91c6a040f8fd3990c8d48087ac7397db8360f666
-ms.lasthandoff: 01/25/2017
+ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
+ms.openlocfilehash: 3d4a89cd8e6e57f5a1e268dcda98cfb3c68c5587
+ms.lasthandoff: 03/21/2017
 
 
 ---
@@ -35,9 +35,9 @@ ms.lasthandoff: 01/25/2017
 
 -    [Подготовка к регистрации устройств в Microsoft Intune](/intune/deploy-use/prerequisites-for-enrollment)
 -    [Настройка управления устройствами в iOS на Mac](/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)
--    [Настройка управления Windows 10 Mobile и Windows Phone с помощью Microsoft Intune](/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune)
 -    [Настройка управления устройствами в Windows](/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
-
+-    [Настройка управления устройствами с Android](/intune/deploy-use/set-up-android-management-with-microsoft-intune) —дополнительные действия не требуются
+-    [Настройка управления устройствами с Android for Work](/intune/deploy-use/set-up-android-for-work)
 
 Пользователи управляемых вами устройств могут собирать данные из журналов регистрации и диагностики для дальнейшей проверки. Инструкции по сбору данных журналов для пользователей приведены в следующих статьях:
 
@@ -149,7 +149,7 @@ ms.lasthandoff: 01/25/2017
 **Проблема:** при добавлении второго проверенного домена в AD FS пользователи с суффиксом имени субъекта-пользователя (UPN) этого второго домена могут не иметь возможности входить на порталы или регистрировать устройства.
 
 
-**Решение:** клиентам Microsoft Office 365, использующим единый вход (SSO) через AD FS 2.0 и имеющим несколько доменов верхнего уровня для UPN-суффиксов пользователей в организации (например, @contoso.com или @fabrikam.com)), следует развернуть отдельный экземпляр службы федерации AD FS 2.0 для каждого суффикса. Сейчас существует [свертка для AD FS 2.0](http://support.microsoft.com/kb/2607496), работающая совместно с параметром **SupportMultipleDomain**, чтобы сервер AD FS поддерживал этот сценарий без дополнительных серверов AD FS 2.0. Дополнительные сведения см. в [этом блоге](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/).
+**Решение**. Клиентам Microsoft Office 365, использующим единый вход (SSO) через AD FS 2.0 и имеющим несколько доменов верхнего уровня для UPN-суффиксов пользователей в организации (например, @contoso.com или @fabrikam.com), следует развернуть отдельный экземпляр службы федерации AD FS 2.0 для каждого суффикса. Сейчас существует [свертка для AD FS 2.0](http://support.microsoft.com/kb/2607496), работающая совместно с параметром **SupportMultipleDomain**, чтобы сервер AD FS поддерживал этот сценарий без дополнительных серверов AD FS 2.0. Дополнительные сведения см. в [этом блоге](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/).
 
 
 ## <a name="android-issues"></a>Проблемы в Android
@@ -279,6 +279,18 @@ ms.lasthandoff: 01/25/2017
   ![Экран "Настройка доступа к ресурсам организации"](./media/ios_cp_app_company_access_setup.png)
 
 После регистрации устройства перейдут в работоспособное состояние и снова получат доступ к ресурсам организации.
+
+### <a name="verify-ws-trust-13-is-enabled"></a>Убедитесь, что включен WS-Trust 1.3
+**Проблема**. Не удается зарегистрировать устройства с iOS с поддержкой программы регистрации устройств (DEP)
+
+Регистрация устройств DEP с сопоставлением пользователей требует включения конечной точки WS-Trust 1.3 в режиме "Имя пользователя/Смешанный" для запроса токенов пользователя. Active Directory включает эту конечную точку по умолчанию. Получить список задействованных конечных точек можно с помощью командлета PowerShell Get-AdfsEndpoint и поиска конечной точки trust/13/UsernameMixed. Пример.
+
+      Get-AdfsEndpoint -AddressPath “/adfs/services/trust/13/UsernameMixed”
+
+Дополнительные сведения см. в [документации Get-AdfsEndpoint](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
+
+Дополнительные сведения см. в статье [Рекомендации по защите служб федерации Active Directory](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/best-practices-securing-ad-fs). Если требуется дополнительная помощь для определения, включена ли у вашего поставщика удостоверений федерации конечная точка WS-Trust 1.3 в режиме "Имя пользователя/Смешанный", обратитесь в службу технической поддержки Майкрософт при использовании служб ADFS или к стороннему поставщику удостоверений.
+
 
 ### <a name="profile-installation-failed"></a>Сбой установки профиля
 **Проблема:** на устройстве с iOS появляется ошибка **Сбой установки профиля**.
