@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ searchScope:
 ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: 6157cef87c5cdad6d0e293946321fa8bdf18e61a
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
+ms.openlocfilehash: 62e37d42aef9a828551db1fbbcf5e3cb1b3eeec9
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -31,24 +31,23 @@ ms.lasthandoff: 03/08/2017
 
 1.    Если появился приведенный ниже запрос, выберите **Установить**, чтобы разрешить установку Lookout for Work на устройстве.
 
-    ![Нажмите "Установить", чтобы установить Lookout for Work](./media/ios-lfw-install-app-request.png)
+  ![Нажмите "Установить", чтобы установить Lookout for Work](./media/ios-mtd-install-app-request.png)
 
 2. Если появилось приведенное ниже сообщение, выберите **Параметры**, включите **Службы определения местоположения**, а затем нажмите **Продолжить**.
 
-    ![Выберите "Параметры", а затем "Службы определения местоположения"](./media/ios-lfw-allow-location-services.png)
+  ![Выберите "Параметры", а затем "Службы определения местоположения"](./media/ios-lfw-allow-location-services.png)
 
 3. Просмотрите разрешения, которые требуются приложению Lookout for Work, и нажмите **Продолжить**.
 
-    ![теперь вы подключены к Lookout for Work](./media/ios-lfw-permissions-lookout-needs.png)
+  ![теперь вы подключены к Lookout for Work](./media/ios-lfw-permissions-lookout-needs.png)
 
 4. При появлении запроса на предоставление приложению Lookout for Work разрешения на отправку уведомлений нажмите **Разрешить**.
 
-    ![Выберите "Параметры", а затем "Службы определения местоположения"](./media/ios-lfw-allow-notifications.png)
-
+  ![Выберите "Параметры", а затем "Службы определения местоположения"](./media/ios-lfw-allow-notifications.png)
 
 Установка Lookout for Work завершится, и вы увидите приведенный ниже экран, если на устройстве не будут обнаружены угрозы безопасности.
 
-![приложение Lookout for Work не нашло угроз безопасности](./media/ios-lfw-no-threats-found.png)
+  ![приложение Lookout for Work не нашло угроз безопасности](./media/ios-lfw-no-threats-found.png)
 
 Если Lookout for Work обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
 
