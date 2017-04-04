@@ -1,5 +1,6 @@
 # Введение
 ## [Что представляет собой предварительная версия портала Azure?](introduction/what-is-microsoft-intune.md)
+## [Возможности Intune в Azure](introduction/ui-changes-in-microsoft-intune.md)
 ## Начало работы
 <!---(introduction/get-started.md) --->
 ### [Регистрация для использования бесплатной пробной версии](introduction/sign-up-free-trial-microsoft-intune.md)
