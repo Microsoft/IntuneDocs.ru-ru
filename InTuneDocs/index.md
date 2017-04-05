@@ -9,9 +9,9 @@ ms.topic: hub-page
 title: "Документация по Microsoft Intune | Документация Майкрософт"
 description: "Сведения о работе с Microsoft Intune (FIXME)"
 translationtype: Human Translation
-ms.sourcegitcommit: 53fb11411bef8bc581692651e6773157f0c61cb8
-ms.openlocfilehash: 84f8f39d7696a1e33af044612443f7f4eb392300
-ms.lasthandoff: 03/30/2017
+ms.sourcegitcommit: 34d74067d3dc1b568648558d170c777f56678d22
+ms.openlocfilehash: ff68040cd36be83d81918425526e9090a145f29e
+ms.lasthandoff: 04/05/2017
 
 ---
 <div id="main" class="v2">
@@ -26,17 +26,17 @@ ms.lasthandoff: 03/30/2017
                     <ul id="manage-featured" class="cardsC">
                         <li>
                             <div>
-                                <h3>Популярные статьи</h3>
+                                <h3 style="font-size: 1.4rem; margin-top: 0px; margin-left: 11px;">Популярные статьи</h3>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <h3>Рекомендуемые статьи</h3>
+                                <h3 style="font-size: 1.4rem; margin-top: 0px; margin-left: 11px;">Рекомендуемые статьи</h3>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <h3>Новые статьи</h3>
+                                <h3 style="font-size: 1.4rem; margin-top: 0px; margin-left: 11px;">Новые статьи</h3>
                             </div>
                         </li>
                         <li>
@@ -117,7 +117,7 @@ ms.lasthandoff: 03/30/2017
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3><a href="http://fasttrack.microsoft.com/ems">Более 150 лицензий? Используйте преимущества FastTrack</a></h3>
+                                            <h3><a href="https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">Более 150 лицензий? Используйте преимущества FastTrack</a></h3>
                                             <p>Оценка, исправление, запуск в работу и стимулирование использования ваших служб при поддержке специалистов Майкрософт.</p>
                                         </div>
                                     </div>
@@ -1046,11 +1046,11 @@ ms.lasthandoff: 03/30/2017
             </ul>
         </li>
         <li>
-            <a href="#moreres">Дополнительные ресурсы</a>
-            <ul id="moreres">
+            <a href="#community">Сообщество</a>
+            <ul id="community">
                 <li>
-                    <a href="#moreres-all">Все</a>
-                    <ul id="moreres-all" class="cardsF">
+                    <a href="#community-all">Все</a>
+                    <ul id="community-all" class="cardsF">
                         <li>
                             <a href="https://microsoftintune.uservoice.com/forums/291681-ideas">
                             <div class="cardSize">
