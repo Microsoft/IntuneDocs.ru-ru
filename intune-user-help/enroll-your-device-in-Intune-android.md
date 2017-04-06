@@ -18,9 +18,9 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 07a1f63d02e2517e4ab64305304127a40922263c
-ms.openlocfilehash: a4886c9fb780f2748aa767e426f404e03671f42e
-ms.lasthandoff: 03/20/2017
+ms.sourcegitcommit: 1d0284ca2b5fd935a8657e3dd73d23d45071fd50
+ms.openlocfilehash: 9e70ef08eabb1595804f84247fc1663c5c6f985e
+ms.lasthandoff: 03/25/2017
 
 
 ---
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/20/2017
 
     ![Экран приветствия приложения корпоративного портала для Android, на котором пользователю предлагается выполнить вход с использованием рабочей или учебной учетной записи. На нем также выводится предупреждение о том, что учетные записи Майкрософт и другие личные учетные записи не принимаются.](./media/and-enroll-0-welcome-screen.png)   
 
-4.  Если ваш ИТ-администратор задал условия соглашения организации, нажмите **ПРИНЯТЬ**, чтобы принять их.
+4.  Если ваш ИТ-администратор задал условия соглашения организации, нажмите **ПРИНЯТЬ**, чтобы принять их. Этот экран может немного отличаться от снимка экрана на следующем рисунке с учетом используемой версии Android.
 
     ![android-company-portal-sign-in](./media/and-enroll-3-accept-terms.png)
 

@@ -5,7 +5,7 @@ description: "В этом руководстве содержатся сведе
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-ms.date: 02/22/2017
+ms.date: 03/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7beff3bf4579d9fb79f0c3f2fb8fbf9bb1ea160
-ms.openlocfilehash: e7e199bd1820299e7c0ea4f9adc3f5e62bffab97
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 2b3041019a7fe5a1ed7421401b36a72321af6cea
+ms.openlocfilehash: 0498aebe8e06314cb6f63f3f4def7011a3badf64
+ms.lasthandoff: 03/27/2017
 
 
 ---
@@ -106,7 +106,7 @@ ms.lasthandoff: 02/22/2017
 
 ## <a name="instruct-users-to-self-enroll"></a>Инструктирование пользователей по самостоятельной регистрации
 
-Пользователи могут установить клиентское программное обеспечение Intune, перейдя на [веб-сайт корпоративного портала](http://portal.manage.microsoft.com). Точные сведения, которые пользователи видят на веб-портале, могут отличаться. Это зависит от центра MDM вашей учетной записи, а также платформы и версии ОС пользовательского компьютера. 
+Пользователи могут установить клиентское программное обеспечение Intune, перейдя на [веб-сайт корпоративного портала](http://portal.manage.microsoft.com). Точные сведения, которые пользователи видят на веб-портале, могут отличаться. Это зависит от центра MDM вашей учетной записи, а также платформы и версии ОС пользовательского компьютера.
 
 Если пользователям не назначена лицензия Intune или если в качестве центра MDM организации не задана служба Intune, пользователям недоступны варианты регистрации.
 
@@ -200,7 +200,7 @@ ms.lasthandoff: 02/22/2017
     "C:\Program Files\Microsoft\OnlineManagement\Common\ProvisioningUtil.exe" /UninstallAgents /MicrosoftIntune
     ```
 
-**Метод 2** (обратите внимание, что не все из этих агентов устанавливаются на каждый SKU Windows).
+**Метод 2**<br>Обратите внимание, что все агенты устанавливаются на каждый SKU Windows.
 
     ```
     wmic product where name="Microsoft Endpoint Protection Management Components" call uninstall<br>
@@ -247,7 +247,7 @@ ms.lasthandoff: 02/22/2017
 - AgentInstaller
 - Журналы
 - Updates
-- Общие 
+- Общие
 
 ### <a name="remove-the-onlinemanagement-folder"></a>Удалите папку OnlineManagement.
 

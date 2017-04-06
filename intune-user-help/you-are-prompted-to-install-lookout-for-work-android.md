@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/23/2017
+ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ searchScope:
 ROBOTS: 
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: bea23fe261cdcb09c7f6699e3a2ee3fcb8f32aba
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: c473a1f05b0a7b0ce5205598b2b9a9b86bfe6c1d
+ms.openlocfilehash: 957a0f5104030043e8049bf65ba30e4579a0acb0
+ms.lasthandoff: 03/29/2017
 
 
 ---
@@ -29,58 +29,53 @@ ms.lasthandoff: 03/08/2017
 
 Если возникают проблемы с установкой, выполните действия по устранению неполадок, описанные в конце этого раздела.
 
-
 **Необходимо выполнить следующие действия:**
 
 1.    Перетащите вниз из верхней части экрана панель уведомлений и откройте ее, а затем коснитесь пункта **Необходимые приложения — установить Lookout for Work из Магазина Google Play**.
 
-    ![необходимо установить Lookout for Work](./media/lookout-required-app-install-android.png)
+  ![необходимо установить Lookout for Work](./media/lookout-required-app-install-android.png)
 
-    Будет выполнен переход на страницу Lookout for Work в Магазине Google Play.
+2.    Будет выполнен переход на страницу Lookout for Work в Магазине Google Play. Установите Lookout for Work и коснитесь кнопки **ПРИНЯТЬ**, чтобы разрешить Lookout for Work доступ к устройству.
 
-2.    Установите Lookout for Work и коснитесь кнопки **ПРИНЯТЬ**, чтобы разрешить Lookout for Work доступ к устройству.
-
-    ![коснитесь кнопки "Принять", чтобы разрешить для Lookout for Work доступ к устройству](./media/lookout-accept-store-permissions-android.png)
+  ![коснитесь кнопки "Принять", чтобы разрешить для Lookout for Work доступ к устройству](./media/lookout-accept-store-permissions-android.png)
 
 3. Откройте Lookout for Work и коснитесь кнопки **АКТИВИРОВАТЬ**.
 
-    ![откройте Lookout for Work и коснитесь кнопки "Активировать"](./media/lookout-activate-button-android.png)
+  ![откройте Lookout for Work и коснитесь кнопки "Активировать"](./media/lookout-activate-button-android.png)
 
 4. Коснитесь элемента **Sign in with Azure Active Directory** (Вход с использованием Azure Active Directory) и укажите учетную запись, которая используется для доступа к рабочей или учебной электронной почте и файлам.
 
-    ![войдите с помощью рабочей или учебной учетной записи](./media/lookout-sign-in-azure-android.png)
+  ![войдите с помощью рабочей или учебной учетной записи](./media/lookout-sign-in-azure-android.png)
 
 5. Выберите учетную запись, используемую для доступа к рабочей или учебной электронной почте и файлам, и коснитесь кнопки **ДОБАВИТЬ УЧЕТНУЮ ЗАПИСЬ**.
 
-    ![выберите рабочую учетную запись и коснитесь кнопки "Добавить учетную запись"](./media/lookout-pick-account-android.png)
+  ![выберите рабочую учетную запись и коснитесь кнопки "Добавить учетную запись"](./media/lookout-pick-account-android.png)
 
-6. Коснитесь кнопки **Принять**, чтобы предоставить Lookout for Work разрешение на вход и чтение профиля.
+6. Коснитесь кнопки **Принять**, чтобы предоставить Lookout for Work разрешение на вход и чтение профиля. Появится окно с сообщением о том, что Lookout for Work подключается к Lookout Security Cloud.
 
-    ![коснитесь кнопки "Принять", чтобы предоставить Lookout for Work разрешение на вход и чтение профиля](./media/lookout-needs-permission-to-view-profile-android.png)
-
-    Появится окно с сообщением о том, что Lookout for Work подключается к Lookout Security Cloud.
+  ![коснитесь кнопки "Принять", чтобы предоставить Lookout for Work разрешение на вход и чтение профиля](./media/lookout-needs-permission-to-view-profile-android.png)
 
 7. Ознакомьтесь с материалами о защите устройств с помощью Lookout, а затем коснитесь кнопки **ОK**.
 
-    ![узнайте о том, как Lookout for Work защищает ваше устройство](./media/lookout-how-it-protects-your-device-android.png)
+  ![узнайте о том, как Lookout for Work защищает ваше устройство](./media/lookout-how-it-protects-your-device-android.png)
 
-    Появление следующего экрана означает, что Lookout установлен и подключен.
+  Появление следующего экрана означает, что Lookout установлен и подключен.
 
-    ![теперь вы подключены к Lookout for Work](./media/lookout-you-are-now-connected-android.png)
+  ![теперь вы подключены к Lookout for Work](./media/lookout-you-are-now-connected-android.png)
 
-    Lookout for Work сразу начнет проверять ваше устройство на наличие угроз безопасности. Если угрозы не найдены, появится следующий экран.
+  Lookout for Work сразу начнет проверять ваше устройство на наличие угроз безопасности. Если угрозы не найдены, появится следующий экран.
 
-    ![приложение Lookout for Work не нашло угроз безопасности](./media/lookout-scan-no-threats-found-android.png)
+  ![приложение Lookout for Work не нашло угроз безопасности](./media/lookout-scan-no-threats-found-android.png)
 
-    Экран сведений об устройстве на корпоративном портале показывает, что вы теперь соответствуете требованиям безопасности вашей организации.
+  Экран сведений об устройстве на корпоративном портале показывает, что вы теперь соответствуете требованиям безопасности вашей организации.
 
-    ![устройство теперь соответствует политикам](./media/lookout-device-now-compliant-android.png)
+    ![устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
 
-    Если Lookout for Work обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
+  Если Lookout for Work обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
 
 **Если установка не выполняется**
 
-Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае попробуйте установить Lookout for Work вручную из Магазина Google Play: [https://play.google.com/store/apps/details?id=com.lookout.enterprise](https://play.google.com/store/apps/details?id=com.lookout.enterprise)
+Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае попробуйте установить Lookout for Work [вручную из Магазина Google Play](https://play.google.com/store/apps/details?id=com.lookout.enterprise).
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
 
