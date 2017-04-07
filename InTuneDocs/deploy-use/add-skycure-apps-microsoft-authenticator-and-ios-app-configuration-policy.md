@@ -32,7 +32,7 @@ ms.lasthandoff: 03/21/2017
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
--   Следующие действия необходимо выполнить в [классический консоли Intune](https://manage.microsoft.com/).
+-   Следующие действия необходимо выполнить в [классической консоли Intune](https://manage.microsoft.com/).
 
 -   Используйте ту же учетную запись Azure AD, которая ранее была настроена в консоли управления Skycure. Это должна быть учетная запись для входа в классическую консоль Intune.
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/21/2017
 
     -   [Добавление политики конфигурации приложения для iOS в Intune](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune).
 
-## <a name="to-add-the-skycure-app-for-android"></a>Добавления приложения Skycure для Android
+## <a name="to-add-the-skycure-app-for-android"></a>Добавление приложения Skycure для Android
 
 1.  В классической консоли Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/21/2017
 
 4.  Нажмите кнопку **Отправить**, затем — **Закрыть**.
 
-## <a name="to-add-the-skycure-app-for-ios"></a>Добавления приложения Skycure для iOS
+## <a name="to-add-the-skycure-app-for-ios"></a>Добавление приложения Skycure для iOS
 
 1.  В классической консоли Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
 
@@ -92,7 +92,7 @@ ms.lasthandoff: 03/21/2017
 
 ## <a name="to-add-the-skycure-ios-app-configuration-policy"></a>Добавление политики настройки приложения Skycure для iOS
 
-1.  В классической консоли Intune выберите пункты **Политика** &gt; **Обзор&gt; Добавить политику**.
+1.  В классической консоли Intune выберите пункты **Политика** &gt; **Обзор &gt; Добавить политику**.
 
 2.  В списке политик разверните узел **iOS**, выберите пункт **Политика настройки мобильного приложения (iOS 8.0 и более поздние версии)** и выберите команду **Создать политику**.
 
