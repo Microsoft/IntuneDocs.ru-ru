@@ -1,11 +1,11 @@
 ---
-title: "Начало работы | Microsoft Intune"
+title: "Начало работы | Документы Майкрософт"
 description: "Требования и предварительные условия, которые следует выполнить перед использованием подписки Intune."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,20 @@ ms.technology:
 ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 6963f14de4bf54ba37166e7e37cd8395a941db51
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 5fe4a0f9443e1bedc124aac5bf5530f56ce4ea91
+ms.lasthandoff: 03/16/2017
 
 
 ---
 
 
 # <a name="intune-quick-start-guide"></a>Краткое руководство по Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Сведения в этом руководстве помогут вам начать работу с платной подпиской на Microsoft Intune. Приведенные ниже действия предназначены для управления мобильными устройствами и ПК с ОС Windows, а также приложениями в вашей организации. Вы можете выполнять все действия подряд или пропускать те из них, которые не распространяются на вашу среду или бизнес-требования. Если вы хотите опробовать Intune, см. [руководство по оценке Intune](/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune).  
 
 Если в данный момент вы используете Microsoft System Center Configuration Manager для управления компьютерами и серверами, то можно [расширить функции Configuration Manager, чтобы управлять мобильными устройствами](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management).
@@ -47,9 +52,4 @@ ms.openlocfilehash: 6963f14de4bf54ba37166e7e37cd8395a941db51
 
 >[!div class="step-by-step"]
 [**Предварительные требования**&rarr;](what-to-know-before-you-start-microsoft-intune.md)
-
-
-
-<!--HONumber=Nov16_HO5-->
-
 

@@ -1,5 +1,5 @@
 ---
-title: "Разрешение доступа к ресурсам компании | Microsoft Intune"
+title: "Разрешение доступа к ресурсам компании | Документы Майкрософт"
 description: "Профили Wi-Fi, VPN и электронной почты в совокупности позволяют пользователям получать доступ к нужным файлам и ресурсам."
 keywords: 
 author: robstackmsft
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: f91c3530599b75093f536fd85eaf21d0b4e86e50
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: bda32f27216c7b65bd02334bae2882e840e7a99d
 
 
 ---
 
 # <a name="enable-access-to-company-resources-with-microsoft-intune"></a>Разрешение доступа к ресурсам компании с помощью Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Профили Wi-Fi, VPN и электронной почты в Microsoft Intune совместно позволяют пользователям получать доступ к файлам и ресурсам, необходимым для работы в любом месте. Профили сертификатов помогают защитить этот доступ.
 
 ## <a name="wi-fi-profileswi-fi-connections-in-microsoft-intunemd-and-supported-platforms"></a>[Профили Wi-Fi](wi-fi-connections-in-microsoft-intune.md) и поддерживаемые платформы
@@ -57,6 +61,6 @@ ms.openlocfilehash: f91c3530599b75093f536fd85eaf21d0b4e86e50
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

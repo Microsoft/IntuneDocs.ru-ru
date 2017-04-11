@@ -1,11 +1,11 @@
 ---
-title: "Устранение неполадок, связанных с доступом к ресурсам компании | Microsoft Intune"
+title: "Устранение неполадок, связанных с доступом к ресурсам компании | Документы Майкрософт"
 description: "Коды ошибок и состояний, приведенные в этом разделе, помогут устранить проблемы с доступом к ресурсу."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 09/22/2016
+ms.date: 09/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
 ms.reviewer: tscott
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 03f7433bc46d6a24498104bed7e5f1f366aca890
-ms.openlocfilehash: 114d4107dc73b3ad905de3fe02ffb81fa2e0e954
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: 2640df8eb3f8505320f965ee1f6edbf5d4f8cfe7
 
 
 ---
 
 # <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Устранение неполадок, связанных с доступом к ресурсам компании, с использованием Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Используйте приведенные в этой статье коды ошибок и состояний для устранения неполадок, возникающих, когда действие Microsoft Intune возвращает код ошибки.
 
 Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
@@ -373,6 +377,6 @@ ms.openlocfilehash: 114d4107dc73b3ad905de3fe02ffb81fa2e0e954
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Dec16_HO5-->
 
 

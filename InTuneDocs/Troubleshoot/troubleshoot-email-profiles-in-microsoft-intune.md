@@ -1,11 +1,11 @@
 ---
-title: "Устранение неполадок с профилями электронной почты | Microsoft Intune"
+title: "Устранение неполадок с профилями электронной почты | Документы Майкрософт"
 description: "Перечень проблем, возникающих с профилями электронной почты, а также способы их устранения."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/01/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,20 +13,24 @@ ms.technology:
 ms.assetid: f5c944ea-32a6-48af-bb57-16d5f1f3c588
 ms.reviewer: tscott
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 1b6fcf0cae23581c0391009fd7d63498d3c7eb2d
-ms.openlocfilehash: 504714c09815d8c6fed6515cf7a27b841d77eb57
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: 017a7912cb991f00916373acc18f4ab2b97ce8ed
 
 
 ---
 
 # <a name="troubleshoot-email-profiles-in-microsoft-intune"></a>Устранение неполадок с профилями электронной почты в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Ниже приведены некоторые проблемы, возникающие с профилями электронной почты, а также способы их устранения.
 
 Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 
-## <a name="unable-to-send-images-from-email-account"></a>Не удается отправить изображения из учетной записи электронной почты
+## <a name="unable-to-send-images-from--email-account"></a>Не удается отправить изображения из учетной записи электронной почты
 Пользователи, учетные записи электронной почты которых настраиваются автоматически, не могут отправить изображения или рисунки со своих устройств.
 Это происходит, когда параметр **Разрешить отправку сообщений электронной почты сторонними приложениями** отключен.
 
@@ -61,7 +65,7 @@ ms.openlocfilehash: 504714c09815d8c6fed6515cf7a27b841d77eb57
 
 Поскольку Samsung KNOX не использует имя узла для идентификации профиля, не рекомендуем создавать несколько профилей электронной почты для развертывания с одним и тем же адресом электронной почты на разных узлах, поскольку в этом случае они будут перезаписывать друг друга.
 
-## <a name="error-0x87d1fde8-for-knox-standard-device"></a>Ошибка 0x87D1FDE8 для устройства KNOX Standard
+## <a name="error--0x87d1fde8-for-knox-standard-device"></a>Ошибка 0x87D1FDE8 для устройства KNOX Standard
 **Проблема**: после создания и развертывания профиля электронной почты Exchange Active Sync для Samsung KNOX Standard для различных устройств Android они сообщают об ошибке **0x87D1FDE8** или **сбое исправления** на вкладке политики &gt; в свойствах устройства.
 
 Проверьте конфигурацию профиля EAS для Samsung KNOX и исходную политику. Параметр синхронизации заметок Samsung больше не поддерживается, поэтому не следует выбирать его в своем профиле. Убедитесь, что у устройств было достаточно времени (до 24 часов) на обработку политики.
@@ -71,6 +75,6 @@ ms.openlocfilehash: 504714c09815d8c6fed6515cf7a27b841d77eb57
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO5-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Настройка имени личного домена | Microsoft Intune"
+title: "Настройка имени личного домена | Документы Майкрософт"
 description: "Добавление пользовательского домена для подписки Intune"
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,20 @@ ms.technology:
 ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 26b019b2b4c079daa89d15c783be0abf2b61dfee
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: 7e921e3f92b0c9b94e4fdc387513ab5c1627817a
 
 
 ---
 
 
 # <a name="configure-a-custom-domain-name"></a>Настройка имени домена
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе администраторы узнают, как создать запись DNS CNAME, чтобы упростить или настроить процедуру входа.
 
 При регистрации организации в облачной службе Майкрософт, такой как Intune, ей предоставляется исходное доменное имя в Azure Active Directory (AD) следующего вида: **имя_домена.onmicrosoft.com**. В этом примере **имя_домена** — это имя домена, выбранное при регистрации, а **onmicrosoft.com** — суффикс, назначенный учетным записям, добавленным в подписку. Если организации принадлежит личный домен, можно настроить имеющийся экземпляр Intune для использования этого имени домена вместо имени, предоставленного с подпиской.
 
@@ -59,6 +64,6 @@ ms.openlocfilehash: 26b019b2b4c079daa89d15c783be0abf2b61dfee
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

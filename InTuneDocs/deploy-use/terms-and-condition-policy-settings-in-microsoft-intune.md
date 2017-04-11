@@ -1,9 +1,9 @@
 ---
-title: "Параметры политики условий использования | Microsoft Intune"
+title: "Параметры политики условий использования | Документы Майкрософт"
 description: "Можно развернуть условия Intune для групп пользователей, чтобы объяснить, как регистрация, доступ к рабочим ресурсам и применение приложения корпоративного портала влияют на устройства и пользователей."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 07/11/2016
 ms.topic: article
@@ -13,14 +13,19 @@ ms.technology:
 ms.assetid: 6edf0ac1-4f46-4543-a9e5-f484ac37e9a5
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: cba0d6d781d3050f4dd8aabd661d677ae849eff1
-ms.openlocfilehash: bc9a7b837ab4dcd402aeec572b819d56070eba82
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: a6d5f19b1d5f5bac3cd5e6d8bc445d765d703de0
+ms.lasthandoff: 12/10/2016
 
 
 ---
 
 # <a name="terms-and-condition-policy-settings-in-microsoft-intune"></a>Параметры политики условий в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Можно развернуть условия Intune для групп пользователей, чтобы объяснить, как регистрация, доступ к рабочим ресурсам и приложение корпоративного портала влияют на устройства и пользователей. Пользователи должны сначала принять эти условия, чтобы в дальнейшем использовать корпоративный портал для регистрации и доступа к своей работе.
 
 Можно создать и развернуть несколько политик, содержащих различные условия. Также можно создать несколько версий одних и тех условий на разных языках, а затем развернуть их в соответствующих группах.
@@ -78,9 +83,4 @@ ms.openlocfilehash: bc9a7b837ab4dcd402aeec572b819d56070eba82
 
 ### <a name="see-also"></a>См. также
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-
-
-
-<!--HONumber=Nov16_HO2-->
-
 

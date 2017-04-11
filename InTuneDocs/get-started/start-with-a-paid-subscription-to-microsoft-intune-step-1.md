@@ -1,11 +1,11 @@
 ---
-title: "Регистрация или вход в Intune | Microsoft Intune"
+title: "Регистрация или вход в Intune | Документы Майкрософт"
 description: "Описывается, как зарегистрировать подписку Intune или выполнить вход, чтобы начать использовать подписку"
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,21 @@ ms.technology:
 ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: bf4a57146a77ce83a86112e08f5e839cf5f9eaf6
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: af147a50f533e4be948261898b60c4d522a9e4eb
 
 
 ---
 
 
 # <a name="sign-up-or-sign-in-to-intune"></a>Регистрация или вход в Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе системные администраторы узнают, как зарегистрировать учетную запись Intune.
+
 Перед регистрацией или входом в Intune необходимо определить, имеет ли ваша организация рабочую или учебную учетную запись Microsoft Online Services и заключила ли она соглашение Enterprise или аналогичное соглашение о корпоративном лицензировании с корпорацией Майкрософт. Рабочая или учебная учетная запись предоставляется при подписании соглашения о корпоративном лицензировании с Майкрософт или подписке на другие облачные службы Майкрософт, такие как Office 365.
 
 Если у вас уже есть рабочая или учебная учетная запись, можно просто выполнить **вход** с ней, чтобы добавить Intune в существующую среду подписки. В противном случае вам потребуется **зарегистрироваться** для создания новой учетной записи, позволяющей управлять Intune в вашей организации.
@@ -50,6 +56,6 @@ ms.openlocfilehash: bf4a57146a77ce83a86112e08f5e839cf5f9eaf6
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

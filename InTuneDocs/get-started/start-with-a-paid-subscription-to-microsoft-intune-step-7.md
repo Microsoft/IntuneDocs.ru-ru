@@ -1,11 +1,11 @@
 ---
-title: "Настройка корпоративного портала | Microsoft Intune"
+title: "Настройка корпоративного портала | Документы Майкрософт"
 description: "Корпоративный портал Intune позволяет пользователям выполнять общие задачи, такие как регистрация устройств, установка приложений и поиск сведений об ИТ-отделе."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,19 +13,25 @@ ms.technology:
 ms.assetid: eb4a9f01-f857-4563-ab6f-5d0d7dfa659d
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 04cccd410417dca4477c0d6cd61b0940dda8c389
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: 2191295407e0c1bb2c3861b8a8d168dd3697da45
 
 
 ---
 
 # <a name="customize-the-company-portal"></a>Настройка корпоративного портала
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе администраторы узнают, как настроить корпоративный портал Intune и его приложение.
+
 С помощью корпоративного портала Intune пользователи могут обращаться к данным компании и решать общие задачи, такие как регистрация устройств, установка приложений и получение поддержки отдела ИТ.
 
 Корпоративный портал Intune предоставляет пользователям доступ к корпоративным данным и приложениям. Корпоративный портал в двух формах.
 
--   **Приложение корпоративного портала** — приложение, доступное на устройствах, управляемых с помощью Intune. Узнайте больше о приложениях корпоративного портала для [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-ios-or-mac-os-x-device-with-intune) и [Windows](/Intune/EndUser/using-your-windows-device-with-intune).
+-   **Приложение корпоративного портала** — приложение, доступное на устройствах, управляемых с помощью Intune. Узнайте больше о приложениях корпоративного портала для [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-iOS-or-macOS-device-with-intune) и [Windows](/Intune/EndUser/using-your-windows-device-with-intune).
 
 
 - **Веб-сайт корпоративного портала** — веб-сайт, позволяющий пользователям выполнять большинство задач, которые можно выполнить из приложения корпоративного портала. URL-адрес корпоративного портала Intune: [http://portal.manage.microsoft.com](http://portal.manage.microsoft.com). Дополнительные сведения об этом веб-сайте см. в статье [Использование веб-сайта корпоративного портала Intune](/Intune/EndUser/using-the-intune-company-portal-website).
@@ -42,11 +48,6 @@ ms.openlocfilehash: 04cccd410417dca4477c0d6cd61b0940dda8c389
 -   Удаленная блокировка устройства
 -   загрузки программного обеспечения, которое развертывается в организации.
 -   Обращение в ИТ-отдел за поддержкой
-
-> [!NOTE]
-> Приложение корпоративного портала пока не доступно в некоторых странах.
-> __iOS__: приложение корпоративного портала для iOS опубликовано во [всех странах](https://go.microsoft.com/fwlink/?linkid=831284), в которых доступен магазин Apple iOS App Store.
-> __Android__: приложение корпоративного портала для Android недоступно в Китае. В этих странах альтернативным решением является [загрузка неопубликованной версии приложения корпоративного портала для Android](https://www.microsoft.com/en-us/download/details.aspx?id=49140).  
 
 ## <a name="customize-company-portal-settings"></a>Настройка параметров корпоративного портала
 Настройка корпоративного портала позволяет обеспечить удобную и привычную среду для конечных пользователей. Войдите в [консоль администрирования Microsoft Intune](https://manage.microsoft.com) в качестве администратора клиента или службы, выберите **Администрирование** &gt; **Корпоративный портал** и настройте параметры корпоративного портала.
@@ -91,6 +92,6 @@ ms.openlocfilehash: 04cccd410417dca4477c0d6cd61b0940dda8c389
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Ограничение доступа к Skype для бизнеса Online | Microsoft Intune"
+title: "Защита Skype для бизнеса Online | Документы Майкрософт"
 description: "Защита и контроль доступа к Skype для бизнеса Online с помощью условного доступа."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,19 +13,24 @@ ms.technology:
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: 04fcdceb593051a32b715cb39b53cc328f167d09
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: 182ca17c53b672d70ff1b30a63c0662050db95c3
+ms.lasthandoff: 01/24/2017
 
 
 ---
 
-# <a name="restrict-access-to-skype-for-business-online-with-microsoft-intune"></a>Ограничение доступа к Skype для бизнеса Online с помощью Microsoft Intune
+# <a name="protect-access-to-skype-for-business-online-with-microsoft-intune"></a>Защита доступа к Skype для бизнеса Online при помощи Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Вы можете использовать политику условного доступа для **Skype для бизнеса Online**, чтобы управлять доступом к Skype для бизнеса Online.
 Условный доступ состоит из двух компонентов:
 - Политика соответствия устройств, которой устройства должны удовлетворять, чтобы считаться соответствующими.
 - Политика условного доступа, где указываются условия, которым должно удовлетворять устройство для доступа к службе.
-Дополнительные сведения о принципах работы условного доступа см. в статье [Ограничение доступа к электронной почте и службам Office 365](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
+Дополнительные сведения о принципах работы условного доступа см. в статье [Защита доступа к электронной почте и службам Office 365](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
 Когда целевой пользователь пытается подключиться к Skype для бизнеса Online на устройстве, выполняется следующая оценка:
 
@@ -89,7 +94,7 @@ ms.openlocfilehash: 04fcdceb593051a32b715cb39b53cc328f167d09
 
 2.  Выберите параметр **Включить политику условного доступа**.
 
-3.  В разделе **Доступ приложения ** можно выбрать область применения политики условного доступа:
+3.  В разделе **Доступ приложения** можно выбрать область применения политики условного доступа:
 
     -   **iOS**
 
@@ -114,9 +119,4 @@ ms.openlocfilehash: 04fcdceb593051a32b715cb39b53cc328f167d09
 * **Устройства, не соответствующие условиям** — для этих устройств заблокирован доступ к Skype для бизнеса Online.
 
 * **Устройства, соответствующие условиям и зарегистрированные в AAD** — эти устройства могут получить доступ к Skype для бизнеса Online.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

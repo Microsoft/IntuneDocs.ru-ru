@@ -1,11 +1,11 @@
 ---
-title: "Создание политик и публикация приложений для пользователей | Microsoft Intune"
+title: "Создание политик и публикация приложений для пользователей | Документы Майкрософт"
 description: "Сведения о создании политик и публикации приложений при использовании бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 08/09/2016
+ms.date: 12/12/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,19 @@ ms.technology:
 ms.assetid: c3a17884-442a-44f5-bc81-4589e823f65e
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 64f857307046ea061e702d0b383968b322b89c33
+ms.sourcegitcommit: 53b05e0ad1be63315dcb5e5b9938a7d9459cb6c3
+ms.openlocfilehash: edcef68c4dd6715c0e3b7c8a164d6266d1c154ae
 
 
 ---
 
 
 # <a name="create-policies-and-publish-an-app-to-evaluation-users"></a>Создание политик и публикация приложений для пользователей ознакомительной версии
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Политики Intune предоставляют параметры, позволяющие контролировать безопасность на мобильных устройствах, поддерживать параметры брандмауэра Windows и Endpoint Protection для компьютеров и развертывать приложения. Если вы планируете использовать Intune для устройств, которые можно настроить для использования в рабочей среде после пробной версии, абсолютно необходимо следовать инструкциям, приведенным в разделах [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) и [Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection для Microsoft Intune](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune).
 
 Можно использовать два вида установки приложения с помощью Intune. Первый — **обязательная установка**, которая автоматически развертывает приложение на управляемых устройствах. Второе — **доступная установка**, которая развертывает приложение или ссылку на приложение на корпоративном портале Intune, чтобы пользователи могли выбрать необходимость установки на своих компьютерах или мобильных устройствах.
@@ -102,6 +106,6 @@ ms.openlocfilehash: 64f857307046ea061e702d0b383968b322b89c33
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Dec16_HO2-->
 
 

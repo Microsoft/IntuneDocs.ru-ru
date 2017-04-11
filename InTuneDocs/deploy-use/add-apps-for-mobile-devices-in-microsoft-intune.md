@@ -1,11 +1,11 @@
 ---
-title: "Добавление приложений для зарегистрированных устройств | Microsoft Intune"
+title: "Добавление приложений для зарегистрированных устройств | Документы Майкрософт"
 description: "Перед развертыванием приложения необходимо добавить его в Intune. После этого оно станет доступно в консоли Intune, где осуществляется развертывание и управление приложениями."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/28/2016
+ms.date: 01/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: f5b1f1ae-f177-450a-9af9-936a02d052e3
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 00facaf07d8cb5ad7f1827eee9b0efb3547cec95
+ms.sourcegitcommit: 18f200ca30cfcd4c9fb00519c149f48e9b9fa8cb
+ms.openlocfilehash: b566b13f8c93c8a6bddccdbc0da5eb508907dac2
+ms.lasthandoff: 01/11/2017
 
 
 ---
 
 # <a name="add-apps-for-enrolled-devices-to-intune"></a>Добавление приложений для зарегистрированных устройств в Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Перед развертыванием приложения и управлением им его необходимо добавить в Microsoft Intune. В этом разделе показано, как добавить приложения для зарегистрированных устройств.
 
@@ -56,7 +60,10 @@ ms.openlocfilehash: 00facaf07d8cb5ad7f1827eee9b0efb3547cec95
 
         Например, если вы хотите развернуть на устройствах приложение Microsoft Word из магазина iTunes, страница будет выглядеть следующим образом:
 
-        ![издателя программного обеспечения Intune](./media/publisher-for-mobile.png)
+        ![Intune Software Publisher (издателя программного обеспечения Intune)](./media/publisher-for-mobile.png)
+
+> [!NOTE]
+> Чтобы конечные пользователи могли установить приложение, которое вы добавили в магазин и развернули, у них должна быть учетная запись для магазина.
 
 3.  На странице **Описание программного обеспечения** настройте следующие параметры.
 
@@ -97,9 +104,4 @@ ms.openlocfilehash: 00facaf07d8cb5ad7f1827eee9b0efb3547cec95
 ## <a name="next-steps"></a>Дальнейшие действия
 
 После создания приложения его необходимо развернуть. Дополнительные сведения см. в статье [Развертывание приложений с помощью Microsoft Intune](deploy-apps.md).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

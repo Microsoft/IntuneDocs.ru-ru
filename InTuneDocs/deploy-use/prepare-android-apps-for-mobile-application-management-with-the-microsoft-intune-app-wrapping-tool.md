@@ -1,11 +1,11 @@
 ---
-title: "Создание программы-оболочки для приложений Android с помощью соответствующего инструмента | Microsoft Intune"
+title: "Создание программы-оболочки для приложений Android с помощью соответствующего инструмента | Документы Майкрософт"
 description: "В этой статье описано, как создать программу-оболочку для приложений Android, не меняя код самого приложения, а также подготовить приложения для применения политики управления мобильными приложениями."
 keywords: 
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 09/13/2016
+ms.date: 12/19/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,17 @@ ms.technology:
 ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: oldang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ee7e0491c0635c45cbc0377a5de01d5eba851132
-ms.openlocfilehash: e8ca141b31104fb5759d9796f19b618debe74752
+ms.sourcegitcommit: f46f13e9dbf03fa2b3e2ec7339cad927ea0b38e0
+ms.openlocfilehash: 9a9899e192db1488c9a2c0fd38ffed6cef625c34
 
 
 ---
 
 # <a name="prepare-android-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для управления мобильными приложениями с помощью инструмента упаковки для приложений Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Инструмент упаковки для приложений Microsoft Intune для Android используется для изменения поведения внутрикорпоративных приложений Android за счет ограничения возможностей приложения без изменения кода самого приложения.
 
@@ -140,6 +143,6 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Dec16_HO3-->
 
 

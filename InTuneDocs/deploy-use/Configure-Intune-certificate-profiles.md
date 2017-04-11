@@ -1,5 +1,5 @@
 ---
-title: "Настройка профилей сертификатов | Microsoft Intune"
+title: "Настройка профилей сертификатов | Документы Майкрософт"
 description: "Узнайте, как создать профиль сертификата Intune."
 keywords: 
 author: robstackmsft
@@ -13,14 +13,19 @@ ms.technology:
 ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: bafb86b1e388163c07110559e2a51bbe0dadc5ed
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 70fba8f983efb245afc3fb19fa38287d1a84b1f4
+ms.lasthandoff: 02/18/2017
 
 
 ---
 
 # <a name="configure-intune-certificate-profiles"></a>Настройка профилей сертификатов Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 После настройки инфраструктуры и сертификатов, как описано в статье [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) или [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md), вы можете создать профили сертификатов. Вот как это делается:
 
 - **Задача 1**. Экспорт доверенного корневого сертификата ЦС
@@ -154,9 +159,4 @@ ms.openlocfilehash: bafb86b1e388163c07110559e2a51bbe0dadc5ed
 -  [Настройка доступа к корпоративной электронной почте с помощью профилей электронной почты](configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md)
 -  [Подключения Wi-Fi в Microsoft Intune](wi-fi-connections-in-microsoft-intune.md)
 -  [VPN-подключения в Microsoft Intune](vpn-connections-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Nov16_HO1-->
-
 

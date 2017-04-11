@@ -1,5 +1,5 @@
 ---
-title: "Развертывание и мониторинг политики соответствия требованиям | Microsoft Intune"
+title: "Развертывание и мониторинг политики соответствия требованиям | Документы Майкрософт"
 description: "Воспользуйтесь пошаговыми инструкциями из этого раздела, чтобы развернуть политику соответствия требованиям и следить за ней."
 keywords: 
 author: andredm7
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 87e37cd8334ddb9331c0662b691545cd0ab0553a
-ms.openlocfilehash: c5c7ed25942a2f7c570bd81aa1e6c08483c0417b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 59c107b9431d4e2925b13d09ab3e01a25c8351fa
 
 
 ---
 
 # <a name="deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune"></a>Развертывание и мониторинг политики соответствия устройств в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 ## <a name="deploy-a-compliance-policy"></a>Развертывание политики соответствия
 Разверните [созданную](create-a-device-compliance-policy-in-microsoft-intune.md) политику соответствия в одной или нескольких группах пользователей в организации. При развертывании политики соответствия для пользователя его устройства проверяются на соответствие.
 

@@ -1,8 +1,9 @@
 ---
-title: "Устранение неполадок в работе соединителя с Exchange | Microsoft Intune"
+title: "Устранение неполадок в работе соединителя с Exchange | Документы Майкрософт"
 description: "Устранение неполадок, связанных с работой соединителя Intune с Exchange."
 keywords: 
-author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 07/26/2016
 ms.topic: article
@@ -12,17 +13,21 @@ ms.technology:
 ms.assetid: c5cb5465-fd8e-4524-83b9-ccdf3393b6dc
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 7b16c19c95384655e170c199597dd6bd31afb90d
-ms.openlocfilehash: 04ac69a30f6c1d91fe755f9720fbc2adc51745f7
+ms.sourcegitcommit: 04c89b6dba34be4e3c49bfc907abe7a6240f3d51
+ms.openlocfilehash: 4ada25264aee779f5b31708fdec4f44d19b2e7f7
 
 
 ---
 
-# Устранение неполадок в работе соединителя с Exchange
+# <a name="troubleshoot-the-exchange-connector"></a>Устранение неполадок в работе соединителя с Exchange
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 В этом разделе описывается, как устранять неполадки, которые могут быть связаны с работой соединителя Intune с Exchange.
 
-## Действия по проверке конфигурации соединителя 
+## <a name="steps-for-checking-the-connector-configuration"></a>Действия по проверке конфигурации соединителя 
 
 Проверьте конфигурацию соединителя с Exchange, а затем убедитесь, что проблема устранена.
 
@@ -31,7 +36,7 @@ ms.openlocfilehash: 04ac69a30f6c1d91fe755f9720fbc2adc51745f7
 - При настройке соединителя с Exchange укажите сервер клиентского доступа (CAS), который должен быть как можно ближе к серверу, где размещен соединитель с Exchange. Задержка взаимодействия между CAS и соединителем с Exchange может привести к задержкам обнаружения устройств, особенно при использовании Office 365 Dedicated.
 - Учитывайте, что между синхронизациями соединителя с Exchange и сервера клиентского доступа Exchange существует временной промежуток. Полная синхронизация выполняется один раз в день, а дельта-синхронизация (быстрая) — каждые два часа. Существует вероятность того, что пользователь с только что зарегистрированным устройством при попытке получения доступа столкнется с задержкой.
 - 
-## Устройство Exchange ActiveSync не обнаруживается из Exchange
+## <a name="exchange-activesync-device-not-discovered-from-exchange"></a>Устройство Exchange ActiveSync не обнаруживается из Exchange
 Проверьте, выполняется ли синхронизация соединителя с Exchange и сервера Exchange. Для этого найдите журналы полной или дельта-синхронизации. Просмотрите журналы соединителя с Exchange. Если после подключения устройства успешно выполнялась полная или дельта-синхронизация, то этот вариант можно исключить из вероятных причин проблемы. Если синхронизация не выполнялась, соберите журналы синхронизации и вложите их в свой запрос на поддержку.
 
 - Если у пользователя нет лицензии Intune, то соединитель с Exchange не сможет обнаружить устройства.
@@ -40,16 +45,16 @@ ms.openlocfilehash: 04ac69a30f6c1d91fe755f9720fbc2adc51745f7
 - Для сред Exchange Dedicated (Office 365 Dedicated) необходимо изначально настроить соединитель с Exchange таким образом, чтобы он указывал на сервер клиентского доступа Exchange 2013 (а не 2010) в выделенной среде, так как он будут взаимодействовать только с этим сервером при выполнении командлетов Powershell.
 
 
-## Использование Powershell для получения дополнительных сведений о неполадках в работе соединителя с Exchange
+## <a name="using-powershell-to-get-more-data-on-exchange-connector-issues"></a>Использование Powershell для получения дополнительных сведений о неполадках в работе соединителя с Exchange
 - Чтобы получить список всех мобильных устройств для почтового ящика, используйте команду Get-ActiveSyncDeviceStatistics -mailbox mbx
 - Чтобы получить список SMTP-адресов для почтового ящика, используйте команду Get-Mailbox -Identity user | select emailaddresses | fl.
 - Чтобы получить подробные сведения о состоянии доступа устройства, используйте команду Get-CASMailbox <upn> | fl
 
-### Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие действия
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Dec16_HO5-->
 
 
