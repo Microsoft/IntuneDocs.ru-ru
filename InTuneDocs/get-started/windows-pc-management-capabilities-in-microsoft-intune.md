@@ -1,26 +1,30 @@
 ---
-title: "Возможности программного клиента Intune для ПК | Microsoft Intune"
+title: "Возможности программного клиента Intune для ПК | Документы Майкрософт"
 description: "Сведения о возможностях управления компьютерами с Windows с помощью программного клиента Intune."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
 ms.date: 11/22/2016
-ms.topic: article
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 77fa5c66-a87c-47df-964c-800eea509b33
 ms.reviewer: owenyen
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 29b6e5a3d319c741482fcc2b600842e2e42b96e2
-ms.openlocfilehash: 1bc5370574c038d0fe34746aa89067d06cc80c31
+ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
+ms.openlocfilehash: 36a20feed1756ea8dde2230db81099b6c5f8c7f6
 
 
 ---
 
 # <a name="windows-pc-management-capabilities-when-you-use-the-intune-software-client"></a>Возможности управления компьютерами Windows при использовании программного клиента Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 В большинстве случаев устройства регистрируются в Microsoft Intune, что дает более широкий набор возможностей. Но для управления компьютерами можно использовать программный клиент, предоставляющий следующие возможности:
 
 -   **[Управление обновлениями программного обеспечения](/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)**. Вы можете обновлять компьютеры и управлять временем применения обновлений.
@@ -75,6 +79,6 @@ Intune позволяет управлять компьютерами под у�
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO3-->
 
 

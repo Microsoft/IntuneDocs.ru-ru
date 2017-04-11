@@ -1,11 +1,11 @@
 ---
-title: "Управление связыванием пользователей и устройств с компьютерами под управлением Windows | Microsoft Intune"
+title: "Управление связыванием пользователей и устройств с компьютерами под управлением Windows | Документы Майкрософт"
 description: "Сведения о связывании пользователя с компьютером с Windows, управляемым Intune."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 08/04/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,17 +13,21 @@ ms.technology:
 ms.assetid: 53c99d63-c312-442a-8a71-de1b10fcd39b
 ms.reviewer: owenyen
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 39fec6a2ea8d8c0f4b6ea1460c76a8a6c652d614
+ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
+ms.openlocfilehash: 3a20dc18a72518ba9e01552cd1283170972b4bbb
+ms.lasthandoff: 12/16/2016
 
 
 ---
 
 # <a name="manage-user-device-linking-for-windows-pcs"></a>Управление связыванием пользователей и устройств с компьютерами под управлением Windows
+Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. 
+
 Прежде чем программное обеспечение можно будет развернуть для пользователя, необходимо связать его с компьютером. Пользователя можно связать с несколькими компьютерами, однако каждый компьютер связывается только с одним пользователем. Пользователи автоматически связываются с компьютерами, которые они регистрируют в Intune, используя корпоративный портал.
 
-Связывание пользователя с компьютером
+Связывание пользователя с компьютером:
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com/) щелкните **Группы** &gt; **Все устройства** (или другую группу с компьютером, который требуется связать с пользователем).
 
@@ -45,8 +49,3 @@ ms.openlocfilehash: 39fec6a2ea8d8c0f4b6ea1460c76a8a6c652d614
 ### <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
-
-
-<!--HONumber=Nov16_HO4-->
-
-

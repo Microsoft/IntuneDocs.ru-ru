@@ -1,10 +1,11 @@
 ---
-title: "Устранение неполадок с обновлениями программного обеспечения | Microsoft Intune"
+title: "Устранение неполадок с обновлениями программного обеспечения | Документы Майкрософт"
 description: "Сведения о решении проблем с обновлениями программного обеспечения в Microsoft Intune."
 keywords: 
 author: robstackmsft
+ms.author: robstack
 manager: angrobe
-ms.date: 08/02/2016
+ms.date: 12/27/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,19 +13,23 @@ ms.technology:
 ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
 ms.reviewer: mghadial
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 906371576609152aaf61e033da5ce60744ddd255
-ms.openlocfilehash: 07e5737b75870319445f5af4d7038916b155d083
+ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
+ms.openlocfilehash: 66ec65e856c0ab70264b797bb3ef7fe4f5673b54
 
 
 ---
 
-# Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune
+# <a name="troubleshoot-software-updates-in-microsoft-intune"></a>Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Сведения в этом разделе помогут решить проблемы с обновлениями программного обеспечения в Microsoft Intune.
 
 Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
-## Коды ошибок агента обновления
+## <a name="update-agent-error-codes"></a>Коды ошибок агента обновления
 
 В следующей таблице перечислены коды ошибок **агента обновления** Intune. Если какой-либо код ошибки отсутствует в этой таблице, см. статью [Windows Update Agent Result Codes (Коды результата агента Центра обновления Windows)](http://go.microsoft.com/fwlink/?LinkID=221542).
 
@@ -240,7 +245,7 @@ ms.openlocfilehash: 07e5737b75870319445f5af4d7038916b155d083
 |**0x80af0005**|OMC_E_INSTALL_NOT_ALLOWED_REBOOT_REQUIRED|Не удалось выполнить установку из-за ожидающей обязательной перезагрузки.|
 |**0x80af0006**|OMC_E_DOWNLOAD_CANCELLED|Загрузка была отменена.|
 
-## Компьютеры на базе Windows 7 с большим количеством замененных обновлений перестают отвечать в консоли Microsoft Intune
+## <a name="windows-7-based-computers-with-lots-of-superseded-updates-stop-reporting-to-the-microsoft-intune-console"></a>Компьютеры на базе Windows 7 с большим количеством замененных обновлений перестают отвечать в консоли Microsoft Intune
 **Проблема**. Могут возникнуть ситуации, когда клиенты Microsoft Intune демонстрируют один или несколько следующих симптомов:
 - Они внезапно перестают отвечать на запросы консоли администрирования Майкрософт.  
 - Они вызывают высокую загрузку ЦП.
@@ -259,11 +264,11 @@ ms.openlocfilehash: 07e5737b75870319445f5af4d7038916b155d083
 
 Кроме того, если вы используете Windows 7, убедитесь, что установлено следующее обновление:[3050265 Клиент Центра обновления Windows для Windows 7: июнь 2015 г.](https://support.microsoft.com/kb/3050265)
 
-### Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие действия
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Dec16_HO5-->
 
 

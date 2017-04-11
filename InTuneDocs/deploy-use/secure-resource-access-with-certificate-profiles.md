@@ -1,11 +1,11 @@
 ---
-title: "Профили сертификатов для доступа к ресурсам | Microsoft Intune"
+title: "Профили сертификатов для доступа к ресурсам | Документы Майкрософт"
 description: "Защита доступа к VPN, Wi-Fi и электронной почте с помощью сертификата, устанавливаемого на каждом устройстве пользователя."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/23/2016
+ms.date: 02/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 35d08100b4332cc63667a401143c17972225a908
-ms.openlocfilehash: b64260fd44e5c3fd0fb80e0dab4d75bd5c4eb305
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 9cf53cb240ba14317fbb680ad4f4c40c8320506d
 
 
 ---
 
 # <a name="secure-resource-access-with-certificate-profiles-in-microsoft-intune"></a>Защита доступа к ресурсам с помощью профилей сертификатов в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 При предоставлении пользователям доступа к корпоративным ресурсам через профили VPN, Wi-Fi или электронной почты можно обеспечить безопасность доступа, установив сертификат на каждом устройстве. Это работает следующим образом.
 
 1. Настройте подходящую инфраструктуру сертификатов, как описано в статьях [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) и [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md).
@@ -44,7 +48,7 @@ ms.openlocfilehash: b64260fd44e5c3fd0fb80e0dab4d75bd5c4eb305
 
   Используйте **профиль сертификата SCEP** для устройств на следующих платформах:
     -   Mac OS X 10.9 и более поздние версии
-    -   Windows Phone 8.1 
+    -   Windows Phone 8.1
 
 Необходимо создать отдельный профиль для каждой платформы. При создании профиля необходимо сопоставить его с уже созданным **профилем доверенного корневого сертификата**.
 
@@ -61,6 +65,6 @@ ms.openlocfilehash: b64260fd44e5c3fd0fb80e0dab4d75bd5c4eb305
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

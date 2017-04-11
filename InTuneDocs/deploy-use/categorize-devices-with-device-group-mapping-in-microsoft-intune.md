@@ -1,5 +1,5 @@
 ---
-title: "Классификация устройств с помощью сопоставления групп устройств | Microsoft Intune"
+title: "Классификация устройств с помощью сопоставления групп устройств | Документы Майкрософт"
 description: "Используйте сопоставление групп устройств в Microsoft Intune, чтобы группировать устройства по определенным категориям для упрощения управления этими устройствами."
 keywords: 
 author: robstackmsft
@@ -13,13 +13,17 @@ ms.technology:
 ms.assetid: 8b8c06a3-6b6c-4cf1-8646-b24fa9b1a39e
 ms.reviewer: damionw
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: bdfa96a4268733bf6fa3a7999d85a881a7c4e513
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: 28af253b0a0fe174478961810a26b45d8ac3d959
 
 ---
 
-# Классификация устройств с помощью сопоставления групп устройств в Microsoft Intune
+# <a name="categorize-devices-with-device-group-mapping-in-microsoft-intune"></a>Классификация устройств с помощью сопоставления групп устройств в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Используйте **сопоставление групп устройств** в Microsoft Intune для автоматической группировки устройств по определенным категориям с целью упростить управление ими. 
 
 Сопоставление групп устройств осуществляется в указанном ниже порядке.
@@ -36,18 +40,18 @@ ms.openlocfilehash: bdfa96a4268733bf6fa3a7999d85a881a7c4e513
 * Учет
 * Manager
 
-## Важные сведения об изменении управления группами в Intune
+## <a name="important-information-about-a-change-in-group-management-for-intune"></a>Важные сведения об изменении управления группами в Intune
 
 В данный момент на основании отзывов пользователей идет унификация группирования и настройки целевых объектов в Enterprise Mobility + Security. В силу этого группы Intune вскоре будут преобразованы в группы безопасности Azure Active Directory. После этого изменения больше не нужно будет создавать группы в Intune. Вместо этого они будут создаваться на портале Azure. Это изменение будет внедряться постепенно, подробные сведения о нем и график внедрения приводятся [в этом разделе](use-groups-to-manage-users-and-devices-with-microsoft-intune.md).
 
-### Какую процедуру из этого раздела следует использовать для настройки сопоставления групп устройств?
+### <a name="which-procedure-in-this-topic-should-you-use-to-configure-device-group-mapping"></a>Какую процедуру из этого раздела следует использовать для настройки сопоставления групп устройств?
 
 Из-за поэтапного внедрения групп безопасности Azure Active Directory для определения используемой процедуры требуется открыть рабочее пространство **Группы** в [консоли администрирования Intune](https://manage.microsoft.com):
 
 -  Если вы видите ссылку на портал Azure, значит, группы Intune больше не используются. Выполните процедуру, описанную ниже в разделе [Настройка сопоставления групп устройств для групп Azure Active Directory](/intune/deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune#how-to-configure-device-group-mapping-for-azure-active-directory-groups).
 -  Если вы не видите ссылку на портал Azure, значит, по-прежнему используются группы Intune. Выполните процедуру, описанную ниже в разделе [Настройка сопоставления групп устройств для групп Intune](/intune/deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune#how-to-configure-device-group-mapping-for-intune-groups).
 
-## Настройка сопоставления групп устройств для групп Intune
+## <a name="how-to-configure-device-group-mapping-for-intune-groups"></a>Настройка сопоставления групп устройств для групп Intune
 1. Создайте или выберите существующую группу устройств Intune для каждой категории устройств, которую предполагается использовать. Сведения о создании групп см. в разделе [Использование групп для управления пользователями и устройствами в Microsoft Intune](use-groups-to-manage-users-and-devices-with-microsoft-intune.md).
 2. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Администрирование**.
 3. В рабочей области **Администрирование** разверните узел **Управление мобильными устройствами**, а затем выберите элемент **Сопоставление групп устройств**.
@@ -58,9 +62,9 @@ ms.openlocfilehash: bdfa96a4268733bf6fa3a7999d85a881a7c4e513
 
 
 
-## Настройка сопоставления групп устройств для групп Azure Active Directory
+## <a name="how-to-configure-device-group-mapping-for-azure-active-directory-groups"></a>Настройка сопоставления групп устройств для групп Azure Active Directory
 
-### Шаг 1. Создание категорий устройств в консоли администрирования Intune
+### <a name="step-1---create-device-categories-in-the-intune-administration-console"></a>Шаг 1. Создание категорий устройств в консоли администрирования Intune
 1. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Администрирование**.
 3. В рабочей области **Администрирование** разверните узел **Управление мобильными устройствами**, а затем выберите элемент **Категории устройств**.
 4. На странице **Категории устройств** будет показан список, в котором можно настроить категории устройств. 
@@ -69,7 +73,7 @@ ms.openlocfilehash: bdfa96a4268733bf6fa3a7999d85a881a7c4e513
 
 Имя категории устройств используется при создании групп безопасности Azure Active Directory на шаге 2.
 
-### Шаг 2. Создание групп безопасности Azure Active Directory
+### <a name="step-2---create-azure-active-directory-security-groups"></a>Шаг 2. Создание групп безопасности Azure Active Directory
 
 На этом шаге на портале Azure создаются динамические группы с использованием категории устройств и имени категории устройств.
 
@@ -78,15 +82,15 @@ ms.openlocfilehash: bdfa96a4268733bf6fa3a7999d85a881a7c4e513
 Например, (**device.deviceCategory -eq** "<*имя категории устройств, полученное в консоли администрирования Intune*>")
 
 
-## После настройки групп устройств
+## <a name="after-you-configure-device-groups"></a>После настройки групп устройств
 
 После регистрации своего устройства пользователю предлагается список настроенных категорий. После выбора категории и завершения регистрации устройство добавляется в группу устройств Intune или группу безопасности Active Directory, соответствующую выбранной категории.
 
-### См. также
+### <a name="see-also"></a>См. также
 [Использование групп для управления пользователями и устройствами в Microsoft Intune](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
 
 
 
-<!--HONumber=Oct16_HO4-->
+<!--HONumber=Dec16_HO2-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Переход на Intune | Microsoft Intune"
-description: 
+title: "Переход на Intune | Документы Майкрософт"
+description: "Переход с существующего решения по управлению корпоративной мобильностью на Intune осуществляется согласно общей последовательности приведенных далее шагов."
 keywords: 
-author: jeffgilb
-ms.author: jeffgilb
-manager: jeffgilb
-ms.date: 11/22/2016
+author: andredm7
+ms.author: andredm
+manager: angrobe
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,17 @@ ms.technology:
 ms.assetid: 88936b8a-7453-4410-b6db-29f636ba3e72
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 29b6e5a3d319c741482fcc2b600842e2e42b96e2
-ms.openlocfilehash: c5adeb2164a55d029c9d7f86490092a72f04f126
+ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
+ms.openlocfilehash: 43ac18d298901f24c8d6352537b285bf0108f667
 
 
 ---
 
 # <a name="migrate-to-intune"></a>Переход на Intune
 
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Переход с существующего решения по управлению корпоративной мобильностью на Intune осуществляется согласно общей последовательности приведенных далее шагов.
 
@@ -45,7 +47,7 @@ ms.openlocfilehash: c5adeb2164a55d029c9d7f86490092a72f04f126
 
 ## <a name="enrolling-devices-in-intune"></a>Регистрация устройств в Intune
 
-Пользователи, запланированные для миграции, должны немедленно зарегистрироваться в Intune, чтобы восстановить доступ или не допустить потери доступа к корпоративным ресурсам, электронной почте и приложениям. Если вы настроили условный доступ, а пользователи пытаются получить доступ к электронной почте до регистрации в Intune, доступ будет заблокирован и они получат приветственное регистрационное письмо. Это письмо поможет им зарегистрировать устройства в Intune.  Кроме того, пользователи могут зарегистрироваться в Intune с помощью приложения корпоративного портала или в операционной системе на устройствах Windows 8.1 и Windows 10 Mobile. Дополнительные инструкции по регистрации на каждой платформе см. в статье [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](/intune/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune).
+Пользователи, запланированные для миграции, должны немедленно зарегистрироваться в Intune, чтобы восстановить доступ или не допустить потери доступа к корпоративным ресурсам, электронной почте и приложениям. Если вы настроили условный доступ, а пользователи пытаются получить доступ к электронной почте до регистрации в Intune, доступ будет заблокирован и они получат приветственное регистрационное письмо. Это письмо поможет им зарегистрировать устройства в Intune.  Кроме того, пользователи могут зарегистрироваться в Intune с помощью приложения корпоративного портала или в операционной системе на устройствах Windows 8.1 и Windows 10 Mobile. Дополнительные инструкции по регистрации на каждой платформе см. в статье [Что нужно сообщить конечным пользователям об использовании Microsoft Intune](/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune).
 
 ## <a name="configure-intune-conditional-access-optional"></a>Настройка условного доступа Intune (необязательно)
 
@@ -74,6 +76,6 @@ ms.openlocfilehash: c5adeb2164a55d029c9d7f86490092a72f04f126
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Feb17_HO3-->
 
 

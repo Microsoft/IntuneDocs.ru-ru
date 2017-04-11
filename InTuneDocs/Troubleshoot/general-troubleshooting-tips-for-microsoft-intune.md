@@ -1,11 +1,11 @@
 ---
-title: "Общие советы по устранению неполадок | Microsoft Intune"
+title: "Общие советы по устранению проблем | Microsoft Docs"
 description: "Общие ресурсы для решения проблем при работе с Intune."
 keywords: 
-author: staciebarker
-ms.author: staciebarker
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 10/25/2016
+ms.date: 12/08/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,20 @@ ms.technology:
 ms.assetid: c86a4e4a-6b9f-4835-a3d3-61a3f5f4c1ec
 ms.reviewer: tscott
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 266ee94f0c61a3f99824a0210ec6f7a205343b21
-ms.openlocfilehash: 93add0c558be2288cd4776f1976101c2eaa2a378
+ms.sourcegitcommit: d05c9d7a78474c19e142bca94e232289fbfba1d9
+ms.openlocfilehash: ef6c482a45a7c759cec1062b129d2644562d0da2
+ms.lasthandoff: 01/10/2017
 
 
 ---
 
 # <a name="general-troubleshooting-tips-for-microsoft-intune"></a>Общие советы по устранению неполадок в Microsoft Intune
-После развертывания Microsoft Intune могут возникать проблемы с конфигурацией или клиентами. Перечисленные ниже ресурсы помогут вам выявить причину проблемы, а затем устранить ее.
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+После развертывания Microsoft Intune могут возникать проблемы с конфигурацией или клиентскими устройствами. Используйте указанные ниже ресурсы, чтобы определить причину проблемы и способы ее решения.
 
 > [!NOTE]
 > Чтобы создать запрос в службу поддержки или просмотреть существующий запрос, [перейдите в центр администрирования Office 365](https://portal.office.com/admin/default.aspx). Дополнительные сведения о вариантах поддержки см. в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
@@ -36,7 +41,7 @@ ms.openlocfilehash: 93add0c558be2288cd4776f1976101c2eaa2a378
 
 -   Какие изменения были внесены в Intune или конфигурацию устройства?
 
--   Определите, были ли внесены в среду, где вы работаете, какие-либо другие изменения, кроме изменений конфигурации.
+-   Были ли внесены в среду, где вы работаете, какие-либо другие изменения, кроме изменений конфигурации?
 
 -   Как часто возникает эта проблема, носит ли она разовый или регулярный характер?
 
@@ -46,25 +51,25 @@ ms.openlocfilehash: 93add0c558be2288cd4776f1976101c2eaa2a378
 
 ## <a name="collect-available-data"></a>Сбор доступных данных
 
--   Журналы устройств. Узнайте, как собрать журналы устройств:
+-   Следующие ресурсы помогут вам узнать, как собирать сведения о журналах устройств:
   - [Отправка журналов диагностических данных Android ИТ-администратору по USB-кабелю](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
   - [Отправка журналов диагностических данных Android ИТ-администратору по электронной почте](/intune/enduser/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
   - [Отправка ошибок регистрации Android ИТ-администратору](/intune/enduser/send-enrollment-errors-to-your-it-administrator-android)
   - [Отправка ошибок регистрации iOS ИТ-администратору](/intune/enduser/send-errors-to-your-it-admin-ios)
 
--   Данные из консоли администрирования. Например, для проблем с реализацией политик следует изучить применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
+-   Используя данные из консоли администрирования (например, при проблемах с реализацией политик), изучите применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
 
 ## <a name="research-the-solution"></a>Поиск решения
 
--   Выполните поиск решения в Интернете. Например, если возникает ошибка 0x80073CF0, можно выполнить поиск строки **technet intune 0x80073cf0** в Интернете и найти статью [Устранение неполадок, связанных с развертыванием приложений, в Microsoft Intune](troubleshoot-app-deployment-problems-in-microsoft-intune.md) с рекомендациями по устранению этой проблемы.
+-   Выполните поиск решения в Интернете. Например, если возникает ошибка 0x80073CF0, выполните поиск строки **technet intune 0x80073cf0** в Интернете, чтобы найти статью [Устранение неполадок, связанных с развертыванием приложений, в Microsoft Intune](troubleshoot-app-deployment-problems-in-microsoft-intune.md). Данная статья содержит рекомендации по устранению этой ошибки.
 
--   Можно попытаться найти ответ на [форуме Intune TechNet](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod).  Если проблема ранее не обсуждалась, вам следует опубликовать вопрос, чтобы члены сообщества смогли высказать свои предложения.
+-   Попытайтесь найти ответ на [форуме Intune TechNet](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod).  Если проблема ранее не обсуждалась, опубликуйте вопрос, чтобы члены сообщества смогли высказать свои предложения.
 
--   Вы можете открыть запрос на поддержку. Служба поддержки Intune сможет оказать вам более квалифицированную помощь, если вы определили проблему и собрали доступные данные.
+-   Откройте запрос на техническую поддержку. Служба поддержки Intune сможет оказать вам более квалифицированную помощь, если вы определили проблему и собрали доступные данные.
 
-    Чтобы создать запрос на поддержку, [перейдите в центр администрирования Office 365](https://portal.office.com/admin/default.aspx). Дополнительные сведения о вариантах поддержки см. в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
+    Чтобы создать запрос на поддержку, [перейдите в Центр администрирования Office 365](https://portal.office.com/admin/default.aspx). Дополнительные сведения о вариантах поддержки см. в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
-## <a name="community-resources"></a>Ресурсы сообщества
+## <a name="find-community-resources"></a>Поиск ресурсов сообщества
 Другие полезные сведения, которые можно найти в этих ресурсах сообщества:
 
 -   Статья [Практические советы по Microsoft Intune](http://social.technet.microsoft.com/wiki/contents/articles/23431.microsoft-intune-survival-guide.aspx) содержит ссылки на различные ресурсы, которые могут помочь при настройке, обслуживании и устранении неполадок Intune.
@@ -91,9 +96,4 @@ ms.openlocfilehash: 93add0c558be2288cd4776f1976101c2eaa2a378
 [Устранение неполадок при настройке клиента в Microsoft Intune](troubleshoot-client-setup-in-microsoft-intune.md)
 
 [Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune](troubleshoot-software-updates-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Nov16_HO1-->
-
 

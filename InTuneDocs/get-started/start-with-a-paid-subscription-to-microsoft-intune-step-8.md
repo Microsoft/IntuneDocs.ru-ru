@@ -1,11 +1,11 @@
 ---
-title: "Обеспечение регистрации устройств | Microsoft Intune"
+title: "Обеспечение регистрации устройств | Документы Майкрософт"
 description: "Задание центра MDM и обеспечение регистрации для устройств iOS, Windows, Android и Mac."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,20 @@ ms.technology:
 ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 031cf995da4fa46b244b65a6b1c51b6a1aa00d9f
-ms.openlocfilehash: 8c3076b26844669f9927478b5847f88f2265c6c9
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: c4ef429722f5e33092473641839b59de3bee1c1c
 
 
 ---
 
-# <a name="enroll-mobile-devices-and-install-an-app"></a>Регистрация мобильных устройств и установка приложения
+# <a name="enable-enrollment-for-mobile-devices"></a>Включение регистрации для мобильных устройств
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе описывается, как администратор Intune может включить регистрацию мобильных устройств. Справку по использованию Intune на телефоне см. в разделе [Использование управляемых устройств для выполнения задач](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions). 
+
 Чтобы настроить управление мобильными устройствами с помощью Intune, необходимо сначала задать *центр управления мобильными устройствами*, который идентифицирует службу, позволяющую управлять устройствами, связанными с учетной записью. В этом руководстве предполагается, что вместо System Center Configuration Manager будет использоваться служба Intune. Задав центр управления мобильными устройствами, можно включить управление для платформ устройств и зарегистрировать устройства с помощью приложения корпоративного портала.
 
 ## <a name="enable-device-enrollment"></a>Обеспечение регистрации устройств
@@ -34,7 +40,7 @@ ms.openlocfilehash: 8c3076b26844669f9927478b5847f88f2265c6c9
 
 ## <a name="choose-how-to-enroll-devices"></a>Выбор способа регистрации устройств
 
-Intune может управлять устройствами различными способами в зависимости от требований вашей компании. "Принеси свое устройство" (BYOD), корпоративные устройства, "выбери свое устройство" (CYOD) и устройства в полноэкранном режиме — это лишь несколько доступных сценариев регистрации.
+Intune может управлять устройствами различными способами в зависимости от требований вашей компании. "Принеси свое устройство" (BYOD), корпоративные устройства, "выбери свое устройство" (CYOD) и устройства в полноэкранном режиме — это лишь несколько доступных сценариев регистрации.
 
 Выполните следующие действия, чтобы [выбрать способ регистрации мобильных устройств](choose-how-to-enroll-devices1.md).
 
@@ -43,9 +49,9 @@ Intune может управлять устройствами различным
 
 Включите регистрацию устройств для платформы устройств, которой необходимо управлять. В зависимости от используемой платформы есть различные требования:
 
--  [iOS и macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune.md);
+-  [iOS и macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune);
 -  [компьютер с Windows](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune);
--  [Windows 10 Mobile и Windows Phone](https://docs.microsoft.com/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune);
+-  [Windows 10 Mobile и Windows Phone](https://docs.microsoft.com/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune);
 - [Android for Work](https://docs.microsoft.com/intune/deploy-use/set-up-android-for-work)
 
 После включения регистрации пользователи могут скачать приложение корпоративного портала на устройство и завершить процесс регистрации устройства.
@@ -66,6 +72,6 @@ Intune может управлять устройствами различным
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Feb17_HO3-->
 
 

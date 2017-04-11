@@ -1,11 +1,11 @@
 ---
-title: "Развертывание политик и приложений | Microsoft Intune"
+title: "Развертывание политик и приложений | Документы Майкрософт"
 description: "Вы можете включить параметры политики и развернуть приложения, которые будут применяться сразу после регистрации устройств в системе управления."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/22/2016
+ms.date: 02/14/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,21 +13,27 @@ ms.technology:
 ms.assetid: e0d8e98f-7dd8-4cbf-887c-a9af63ffe970
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 56f7d1578ba6b193c6547686675e0fd4fde5f378
+ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
+ms.openlocfilehash: 4093497553ccb7cc5f5c949f2ff0004697beb42a
 
 
 ---
 
 # <a name="create-policies-and-publish-apps"></a>Создание политик и публикация приложений
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
+В этом разделе администраторы Intune узнают, как создавать политики и публиковать приложения, которые потом можно развернуть на управляемых устройствах.
+
 Прежде чем начать регистрацию приложений в Intune, можно включить параметры политики и приложения, которые будут развернуты сразу после регистрации устройств в системе управления. Политики Intune предоставляют параметры, позволяющие контролировать безопасность на мобильных устройствах, поддерживать параметры брандмауэра Windows и Endpoint Protection для компьютеров и развертывать приложения. Вы можете настроить политику, добавить и развернуть приложения, чтобы устройства получили параметры и приложения сразу после регистрации в Intune.
 
 Политики и приложения зависят от платформы.
 
 ## <a name="manage-device-settings"></a>Управление параметрами устройства
 
- Настройка параметров политики устройств и управление ими осуществляется в каждой платформе. Политики можно настроить для следующих платформ:
+ Настройка параметров политики устройств и управление ими осуществляется в каждой платформе. По следующим ссылкам находятся списки доступных параметров для соответствующих платформ.
 
 - [iOS](https://docs.microsoft.com/intune/deploy-use/ios-policy-settings-in-microsoft-intune)
 - [Android и Samsung KNOX Standard](https://docs.microsoft.com/intune/deploy-use/android-policy-settings-in-microsoft-intune);
@@ -69,6 +75,6 @@ ms.openlocfilehash: 56f7d1578ba6b193c6547686675e0fd4fde5f378
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO3-->
 
 

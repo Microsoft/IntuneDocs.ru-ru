@@ -1,11 +1,11 @@
 ---
-title: "Параметры политики соответствия для устройств iOS | Microsoft Intune"
+title: "Параметр политики соответствия для устройств iOS | Документы Майкрософт"
 description: "В этом разделе описываются правила и параметры, которые можно настроить в политике соответствия для устройств iOS."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 11/14/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,15 +13,18 @@ ms.technology:
 ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d6ff74f0b46baf384dbdedf13ad75538dd33a089
-ms.openlocfilehash: 0ee697472a7cb553d78aef9977381197149c3177
+ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
+ms.openlocfilehash: f4867d18634add8cb6ffc61a4413618b1bea5a4b
 
 
 ---
 
 
 # <a name="compliance-policy-settings-for-ios-devices-in-microsoft-intune"></a>Параметры политики соответствия для устройств iOS в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Параметры политики, описанные в этом разделе, применяются к устройствам под управлением iOS 8.0 и более поздних версий.
 
@@ -82,6 +85,6 @@ ms.openlocfilehash: 0ee697472a7cb553d78aef9977381197149c3177
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

@@ -1,11 +1,11 @@
 ---
-title: "Регистрация корпоративных устройств iOS | Microsoft Intune"
+title: "Регистрация корпоративных устройств iOS | Документы Майкрософт"
 description: "Регистрация корпоративных устройств iOS с помощью программы регистрации устройств Apple (DEP) или Apple Configurator."
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
-ms.date: 09/07/2016
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,19 +13,33 @@ ms.technology:
 ms.assetid: 2d3ca4ab-f20c-4d56-9413-f8ef19cf0722
 ms.reviewer: dagerrit
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 00ca6ea06aa63646d6ede6337f8e70d1ab956c5f
-ms.openlocfilehash: cfc97f4ed931a5c7dc5b38eafd0a2d081bc30975
+ms.sourcegitcommit: 2ed76d2905042f299022f1625ce7215c6834ad3f
+ms.openlocfilehash: 7fcb910dfc566cdf7112a48558cda375ea1c39a8
+ms.lasthandoff: 02/21/2017
 
 
 ---
 
 # <a name="enroll-corporate-owned-ios-devices-in-microsoft-intune"></a>Регистрация корпоративных устройств iOS в Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Служба Microsoft Intune поддерживает регистрацию корпоративных устройств iOS с помощью программы регистрации устройств Apple (DEP) или средства [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) на компьютерах Mac.
 
-**Предварительное требование**. [Получите сертификат службы push-уведомлений Apple.](set-up-ios-and-mac-management-with-microsoft-intune.md)
+**Предварительное требование**. [Сертификат службы push-уведомлений Apple](set-up-ios-and-mac-management-with-microsoft-intune.md)
 
-Корпоративные устройства iOS можно регистрировать тремя способами: с помощью Apple Configurator, DEP или корпоративного портала.
+Регистрировать корпоративные устройства с iOS можно тремя способами:
+
+- Apple Configurator с помощью помощника по настройке или прямой регистрации;
+- программа регистрации устройств (DEP);
+- Приложение корпоративного портала
+
+>[!NOTE]
+>Регистрацию через Apple Configurator и программу регистрации устройств невозможно использовать с [диспетчером регистрации устройств](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md).
+
+По умолчанию все устройства с iOS могут регистрироваться в Intune. Чтобы запретить регистрацию персональных или корпоративных устройств, войдите на [портал администрирования Microsoft Intune](http://manage.microsoft.com), используя учетные данные администратора. Откройте раздел **Администратор** > **Управление мобильными устройствами** > **Правила регистрации** и снимите соответствующие флажки.
 
 ## <a name="use-apple-configurator"></a>Использование Apple Configurator
 
@@ -36,7 +50,7 @@ ms.openlocfilehash: cfc97f4ed931a5c7dc5b38eafd0a2d081bc30975
 - **Прямая регистрация** — создает файл, совместимый с Apple Configurator, который будет использоваться при подготовке устройства. Для зарегистрированного устройства не выполняется сброс, но и не устанавливается привязка к пользователю. При использовании этого метода администратору необходимо подключить устройство iOS к USB-порту на компьютере Mac со средством [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) для регистрации устройства. См. статью [Прямая регистрация устройств iOS с помощью Apple Configurator](ios-direct-enrollment-in-microsoft-intune.md).
 
 ## <a name="use-the-device-enrollment-program-dep"></a>Использование программы регистрации устройств (DEP)
-Программа DEP по беспроводному каналу развертывает профиль регистрации на устройствах, приобретенных через DEP. Когда пользователь запускает на устройстве помощник по настройке, оно регистрируется в Intune.  Регистрация устройств, выполненная с помощью программы DEP, не может быть отменена пользователями. Подробнее см. статью [Регистрация корпоративных устройств с помощью программы регистрации устройств iOS](ios-device-enrollment-program-in-microsoft-intune.md).
+Программа DEP по беспроводному каналу развертывает профиль регистрации на устройствах, приобретенных через DEP. Когда пользователь запускает на устройстве помощник по настройке, оно регистрируется в Intune. Подробнее см. статью [Регистрация корпоративных устройств с помощью программы регистрации устройств iOS](ios-device-enrollment-program-in-microsoft-intune.md).
 
 ## <a name="use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices"></a>Использование корпоративного портала на устройствах, зарегистрированных через DEP или Apple Configurator
 
@@ -44,8 +58,8 @@ ms.openlocfilehash: cfc97f4ed931a5c7dc5b38eafd0a2d081bc30975
 
 Сопоставление пользователей необходимо для поддержки следующих функций:
   - Приложения MAM
-  - Условный доступ к корпоративной электронной почте и данным
-  - Приложение корпоративного портала
+  -    Условный доступ к корпоративной электронной почте и данным
+  -    Приложение корпоративного портала
 
 **Как зарегистрировать корпоративное устройство iOS с помощью сопоставления пользователей**
 1. Когда пользователь включает свое устройство, ему предлагается запустить помощник по настройке. Во время установки пользователям предлагается ввести свои учетные данные. Пользователь должен использовать учетные данные (т. е. уникальное имя или имя участника-пользователя), связанные с подпиской в Intune.
@@ -78,9 +92,4 @@ ms.openlocfilehash: cfc97f4ed931a5c7dc5b38eafd0a2d081bc30975
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
-
-
-
-<!--HONumber=Nov16_HO3-->
-
 

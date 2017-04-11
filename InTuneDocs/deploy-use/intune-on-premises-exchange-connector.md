@@ -1,5 +1,5 @@
 ---
-title: "Соединитель Exchange для локальной службы EAS | Microsoft Intune"
+title: "Соединитель Exchange для локальной службы EAS | Документы Майкрософт"
 description: "Сведения об использовании инструмента &quot;Соединитель&quot; для обеспечения взаимодействия между консолью администрирования Intune и локальным сервером Exchange Server для управления мобильными устройствами с помощью Exchange ActiveSync."
 keywords: 
 author: andredm7
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: 41ff4212-a6f5-4374-8731-631f7560cff1
 ms.reviewer: muhosabe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d50a5751a5afd987196336e9443dc5a429a283fd
-ms.openlocfilehash: 58c5ab6b506695fb5b0f7556dc1deac39580f59b
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 68dbebbd7d29514bde438b7dff3142dc45e8471d
+ms.lasthandoff: 03/21/2017
 
 
 ---
 
 # <a name="install-the-intune-on-premises-exchange-connector"></a>Установка локального соединителя Exchange Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 
 Для установки подключения, позволяющего Microsoft Intune обмениваться данными с Exchange Server, на котором находятся почтовые ящики мобильных устройств, требуется загрузить и настроить средство "Локальный соединитель Exchange" из консоли администратора Intune. Intune поддерживает только одно подключение соединителя с Exchange любого типа на подписку.
@@ -129,9 +133,4 @@ ms.openlocfilehash: 58c5ab6b506695fb5b0f7556dc1deac39580f59b
 
 
 Также можно проверить время и дату последней успешной попытки синхронизации.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

@@ -1,11 +1,11 @@
 ---
 title: "Руководство по пакету SDK для приложений Microsoft Intune для разработчиков под Android | Документация Майкрософт"
-description: 
+description: "Пакет SDK для приложений Microsoft Intune для Android позволяет встроить в ваше приложение Android функции управления мобильными приложениями (MAM)."
 keywords: "Пакет SDK"
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 12/07/2016
+ms.date: 12/15/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 613e293d9bd853d6de7cdc0d753cc8473afc180b
-ms.openlocfilehash: 7d6ac9de7dbfee4336121be69a38600448af2b68
+ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
+ms.openlocfilehash: 178fbaeb1d3235a81cb4da49b7a955f6999c49a2
+ms.lasthandoff: 02/18/2017
 
 
 ---
@@ -677,7 +679,7 @@ public final class MAMDataProtectionManager {
      * @param input
      *            Input stream to get information on. Either this input
  *            stream must have been returned by a previous call to
-     *            protect OR input.markSupported() must return true.
+      *            protect OR input.markSupported() must return true.
  *            Otherwise it will be impossible to get protection info
  *            without advancing the stream position. The stream must be
  *            positioned at the beginning of the protected data.
@@ -752,9 +754,4 @@ public final class MAMDataProtectionManager {
 * Любые производные функции следует вызвать через их версии суперкласса.
 
 * Избегайте неоднозначного использования любых API. Например, `Activity.startActivityForResult/onActivityResult` без проверки `requestCode` вызывает нестандартное поведение.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

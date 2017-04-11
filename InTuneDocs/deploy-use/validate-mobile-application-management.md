@@ -12,6 +12,7 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 41d82597-e13e-4c3e-9151-e71392236ca0
 ms.reviewer: joglocke
+ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: d6ff74f0b46baf384dbdedf13ad75538dd33a089
 ms.openlocfilehash: 080d8f4fd4b6e1b53df860f4319b1c199d504c06
@@ -20,6 +21,8 @@ ms.openlocfilehash: 080d8f4fd4b6e1b53df860f4319b1c199d504c06
 ---
 
 # <a name="validating-your-mobile-application-management-setup"></a>Проверка настройки управления мобильными приложениями
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 В этом разделе приведены сведения о поиске неполадок после настройки управления мобильными приложениями (MAM). Это руководство применяется к политикам MAM на портале Azure.
 

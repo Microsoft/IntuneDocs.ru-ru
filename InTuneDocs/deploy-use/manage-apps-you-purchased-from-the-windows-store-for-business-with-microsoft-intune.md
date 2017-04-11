@@ -1,26 +1,30 @@
 ---
-title: "Управление Магазином Windows для бизнес-приложений | Microsoft Intune"
+title: "Управление Магазином Windows для бизнес-приложений | Документы Майкрософт"
 description: "Сведения о подключении Microsoft Intune к Магазину Windows для бизнеса для развертывания приложений, приобретенных по программе корпоративных закупок, и управления ими в консоли Intune"
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/28/2016
+ms.date: 02/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
-ms.reviewer: jeffgilb
+ms.reviewer: coryfe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 37044da4c7a58749c7b3423b1872b07d1673603d
+ms.sourcegitcommit: a57ac0e6cb29dbfc87bb09c04bb372228a1d72be
+ms.openlocfilehash: 34e9ce6a5c0b7cb912a54644e6323574c2e041a7
 
 
 ---
 
 # <a name="manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Windows для бизнеса, с помощью Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 [Магазин Windows для бизнеса](https://www.microsoft.com/business-store) позволяет находить и приобретать приложения для вашей организации по отдельности или в рамках корпоративной программы. Подключив хранилище к Microsoft Intune, вы можете управлять приложениями, приобретенными по корпоративной программе, из консоли Intune. Пример.
 * можно синхронизировать список приобретенных приложений с Intune;
 * синхронизированные приложения отображаются в консоли Intune и могут быть развернуты обычным образом;
@@ -42,6 +46,9 @@ ms.openlocfilehash: 37044da4c7a58749c7b3423b1872b07d1673603d
 1. Вход в Магазин для бизнеса следует выполнить по той же учетной записи клиента, которая используется для входа в Intune.
 2. В Магазине для бизнеса выберите **Параметры** > **Средства управления**.
 3. На странице "Средства управления" используйте команду **Добавить средство управления** и выберите **Microsoft Intune**.
+
+> [!NOTE]
+> При использовании нескольких средств управления для развертывания приложений через Магазин Windows для бизнеса ранее можно было связать только одно из них с Магазином Windows для бизнеса. Теперь можно связать с Магазином несколько средств управления, например Intune и Configuration Manager.
 
 Теперь можно настроить синхронизацию в консоли Intune.
 
@@ -80,6 +87,6 @@ ms.openlocfilehash: 37044da4c7a58749c7b3423b1872b07d1673603d
 
 
 
-<!--HONumber=Nov16_HO5-->
+<!--HONumber=Feb17_HO1-->
 
 

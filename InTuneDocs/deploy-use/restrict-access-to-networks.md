@@ -1,11 +1,11 @@
 ---
-title: "Ограничение доступа к сетям с помощью Cisco ISE | Microsoft Intune"
+title: "Защита доступа к сетям при помощи Cisco ISE | Microsoft Docs"
 description: "Используйте Cisco ISE с Intune, чтобы регистрировать устройства в Intune и обеспечивать соответствие политикам до того, как они получат доступ к сетям Wi-Fi и VPN, управляемым Cisco ISE."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/06/2016
+ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,19 @@ ms.technology:
 ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 1dd3fde8119b54f574265c2ca9cf62cee9e77b01
-ms.openlocfilehash: bd6307cd8ff465bbce3de124ffdb444333d12efe
+ms.sourcegitcommit: 9f34d54710f0ec662eecec85f7fa041061132a0d
+ms.openlocfilehash: 8ef24e4d413662012f091c1be318d1d274e16439
+ms.lasthandoff: 01/04/2017
 
 
 ---
 
 # <a name="using-cisco-ise-with-microsoft-intune"></a>Использование Cisco ISE с Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Интеграция Intune с Cisco Identity Services Engine (ISE) позволяет создавать политики сети в среде ISE с помощью регистрации устройств и состояния соответствия Intune. Эти политики позволяют гарантировать, что доступ к сети организации будут иметь только устройства, управляемые Intune и соответствующие политикам Intune.
 
 ## <a name="configuration-steps"></a>Шаги настройки
@@ -64,7 +69,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 > Проверьте срок действия сертификата, поскольку по истечении срока действия этого сертификата потребуется экспортировать и импортировать новый.
 
 
-### <a name="obtain-a-selfsigned-cert-from-ise"></a>Получите самозаверяющий сертификат в системе ISE. 
+### <a name="obtain-a-self-signed-cert-from-ise"></a>Получите самозаверяющий сертификат в системе ISE. 
 
 1.  В консоли ISE последовательно выберите **Администрирование** > **Сертификаты** > **Сертификаты системы** > **Создать самозаверяющий сертификат**.  
 2.       Экспортируйте самозаверяющий сертификат.
@@ -100,7 +105,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 |Конечная точка маркера OAuth 2.0|URL-адрес издания маркера|
 |Добавьте в ваш код ИД клиента|Идентификатор клиента|
 
-### <a name="step-4-upload-the-selfsigned-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>Шаг 4. Отправка самозаверяющего сертификата из среды в ISE в приложение ISE, созданное в Azure AD
+### <a name="step-4-upload-the-self-signed-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>Шаг 4. Отправка самозаверяющего сертификата из среды в ISE в приложение ISE, созданное в Azure AD
 1.     Получите отпечаток и значение сертификата в кодировке base64 из CER-файла открытого сертификата X.509. В этом примере используется PowerShell.
    
       
@@ -151,7 +156,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 ## <a name="information-shared-between-your-intune-tenant-and-your-cisco-ise-server"></a>Данные, которыми обмениваются клиент Intune и сервер Cisco ISE
 В следующей таблице приведены данные, которыми обмениваются клиент Intune и сервер Cisco ISE для устройств, управляемых Intune.
 
-|Свойство|  Описание|
+|Свойство|    Описание|
 |---------------|------------------------------------------------------------|
 |complianceState|Значение true или false (строка) указывает, соответствует ли устройство требованиям.|
 |IsManaged|Значение true или false указывает, выполняется ли управление клиентом с помощью Intune.|
@@ -186,9 +191,4 @@ b. Щелкните значок замка &gt; **Дополнительные 
 ### <a name="see-also"></a>См. также
 
 [Руководство администратора по Cisco Identity Services Engine, выпуск 2.1](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html#task_820C9C2A1A6647E995CA5AAB01E1CDEF)
-
-
-
-<!--HONumber=Nov16_HO1-->
-
 

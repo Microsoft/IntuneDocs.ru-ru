@@ -1,25 +1,29 @@
 ---
-title: "Выбор способа регистрации мобильных устройств | Microsoft Intune"
+title: "Выбор способа регистрации мобильных устройств | Документы Майкрософт"
 description: "Выберите способ регистрации мобильных устройств в Intune, ответив на несколько простых вопросов."
 keywords: 
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 11/14/2016
-ms.topic: article
+ms.date: 02/16/2017
+ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 24b8ecbf-7336-4543-8094-32688bda0b8f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
+ms.custom: intune-classic EXPIERIMENT
 translationtype: Human Translation
-ms.sourcegitcommit: 3a00f9cdfb137306a28b33f9d1acdb6bc108670f
-ms.openlocfilehash: 09007527fe4c2c94c02a674ccef01c0bb8893709
+ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
+ms.openlocfilehash: ad4367beb27d4defbf44ce4a041a29e24f59ede0
+ms.lasthandoff: 12/16/2016
 
 
 ---
 # <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Определить наилучший способ регистрации устройств, которыми вы управляете, помогут ответы на ряд вопросов.
 
@@ -36,9 +40,4 @@ ms.openlocfilehash: 09007527fe4c2c94c02a674ccef01c0bb8893709
 
 > [!div class="button"]
 [< Назад](choose-how-to-enroll-devices1.md)
-
-
-
-<!--HONumber=Nov16_HO3-->
-
 

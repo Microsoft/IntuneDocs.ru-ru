@@ -1,11 +1,11 @@
 ---
-title: "Подготовка приложений для управления мобильными приложениями | Microsoft Intune"
+title: "Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune | Документация Майкрософт"
 description: "Сведения этого раздела помогут решить, когда следует применить инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями."
 keywords: 
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 09/13/2016
+ms.date: 02/8/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ee7e0491c0635c45cbc0377a5de01d5eba851132
-ms.openlocfilehash: 3d7b60862942742d663ff23c7b5f3fd135c72640
+ms.sourcegitcommit: 06e0a74dd2c0b861497062f2d659c5eb08126fca
+ms.openlocfilehash: 6ec9f6136cf23b9015da125817bfeb86ecfbfca6
 
 
 ---
 
-# <a name="decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune"></a>Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune
+# <a name="prepare-line-of-business-apps-for-mam"></a>Подготовка бизнес-приложений для MAM
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Можно позволить приложениям использовать политики управления мобильными приложениями (MAM), используя инструмент упаковки приложений Intune или пакет SDK для приложений Intune. Используйте приведенные сведения для изучения этих двух методов и способов их использования.
 
 ## <a name="intune-app-wrapping-tool"></a>Инструмент упаковки приложений Intune
@@ -52,7 +56,7 @@ ms.openlocfilehash: 3d7b60862942742d663ff23c7b5f3fd135c72640
 ## <a name="intune-app-sdk"></a>Пакет SDK для приложений Intune
 Пакет SDK для приложений предназначен главным образом для клиентов, имеющих приложения в Apple App Store или Магазине Google Play и стремящихся управлять ими с помощью Intune. Однако преимуществами интеграции пакета SDK может воспользоваться любое приложение, даже бизнес-приложение.
 
-Дополнительные сведения о пакете SDK см. в разделе [Обзор](/intune/develop/intune-app-sdk). Сведения о начале работы с пакетом SDK см. в статье [Начало работы с пакетом SDK для приложений Microsoft Intune](/intune/develop/intune-app-sdk-get-started).
+Дополнительные сведения о пакете SDK см. в разделе [Обзор](../develop/intune-app-sdk.md). Сведения о начале работы с пакетом SDK см. в статье [Начало работы с пакетом SDK для приложений Microsoft Intune](../develop/intune-app-sdk-get-started.md).
 
 ### <a name="reasons-to-use-the-sdk"></a>Причины для использования пакета SDK
 * В приложении отсутствуют встроенные функции защиты данных.
@@ -66,8 +70,8 @@ ms.openlocfilehash: 3d7b60862942742d663ff23c7b5f3fd135c72640
 
 |**Пакет SDK для приложений Intune** |**Xamarin** |**Cordova**
 |------|----|----|
-|**iOS**|Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](/../develop/intune-app-sdk-xamarin).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](/../develop/intune-app-sdk-cordova).|
-|**Android**| Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](/../develop/intune-app-sdk-xamarin).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](/../develop/intune-app-sdk-cordova).|
+|**iOS**|Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](../develop/intune-app-sdk-xamarin.md).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](../develop/intune-app-sdk-cordova.md).|
+|**Android**| Да, используйте [компонент Xamarin из пакета SDK для приложений Intune](../develop/intune-app-sdk-xamarin.md).|Да, используйте [подключаемый модуль Cordova из пакета SDK для приложений Intune](../develop/intune-app-sdk-cordova.md).|
 
 ## <a name="feature-comparison"></a>Сравнение функций
 В этой таблице перечислены параметры, которые можно использовать для пакета SDK приложений и инструмента упаковки приложений.
@@ -106,6 +110,6 @@ ms.openlocfilehash: 3d7b60862942742d663ff23c7b5f3fd135c72640
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Feb17_HO2-->
 
 

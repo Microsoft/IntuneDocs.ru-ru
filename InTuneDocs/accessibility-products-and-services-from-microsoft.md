@@ -1,20 +1,22 @@
 ---
-title: "Продукты и службы корпорации Майкрософт для реализации специальных возможностей | Microsoft Intune"
-description: 
+title: "Продукты и службы корпорации Майкрософт для реализации специальных возможностей | Документы Майкрософт"
+description: "Сведения о продуктах и службах корпорации Майкрософт для реализации специальных возможностей."
 keywords: 
-author: 
-manager: jeffgilb
-ms.date: 12/05/2016
-ms.topic: article
+author: robstackmsft
+ms.author: robstack
+manager: angrobe
+ms.date: 12/30/2016
+ms.topic: reference
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b23d4007-1866-42e9-b6cb-d45408562da4
 ms.reviewer: jeffgilb
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b99c90bfafd65e87e258e1e0ac01691e83581659
-ms.openlocfilehash: d5f2f9a641089bb67cee525e05abffec5c92c577
+ms.sourcegitcommit: 9e3d509cf404c89b27f92ad54c900e927ce3878b
+ms.openlocfilehash: a848e92be9896016159533c0ba7291fe193a217a
 
 
 ---
@@ -69,6 +71,6 @@ ms.openlocfilehash: d5f2f9a641089bb67cee525e05abffec5c92c577
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO5-->
 
 

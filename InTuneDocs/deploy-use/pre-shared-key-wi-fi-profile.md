@@ -1,5 +1,5 @@
 ---
-title: "Подключения Wi-F с PSK | Microsoft Intune"
+title: "Подключения Wi-F с PSK | Документы Майкрософт"
 description: "Сведения об использовании настраиваемой конфигурации для создания профиля Wi-Fi с общим ключом."
 keywords: 
 author: robstackmsft
@@ -13,35 +13,39 @@ ms.technology:
 ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
+ms.sourcegitcommit: bb706f122753219d8034bcd25fbe2e25b7142b30
+ms.openlocfilehash: 7fce50c88419a920aa7c4814517523e7a4ced919
 
 
 
 ---
 # <a name="use-a-custom-policy-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 В этом разделе содержатся сведения об использовании **настраиваемой конфигурации** Intune для создания профиля Wi-Fi с общим ключом. Здесь также приводится пример создания профиля Wi-Fi на основе EAP.
 
 > [!NOTE]
--   Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
+-    Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
 - Для Android можно использовать [генератор PSK Android](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/) от Джонатона Бирсака (Johnathon Biersack).
--   Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
+-    Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
 -  Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Можно также воспользоваться генератором [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/) от Джонатона Бирсака.
 
 
-1.  Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании политики вместо профиля Wi-Fi выберите **Настраиваемая конфигурация** для этой платформы устройства.
+1.    Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании политики вместо профиля Wi-Fi выберите **Настраиваемая конфигурация** для этой платформы устройства.
 
-2.  Укажите имя и введите описание.
-3.  Добавление нового параметра OMA URI
+2.    Укажите имя и введите описание.
+3.    Добавление нового параметра OMA URI
 
-   а.   Введите имя для этого параметра сети Wi-Fi.
+   а.    Введите имя для этого параметра сети Wi-Fi.
 
-   b.   Введите описание параметра OMA-URI или оставьте поле пустым.
+   b.    Введите описание параметра OMA-URI или оставьте поле пустым.
 
-   в.   **Тип данных**: в качестве значения задайте String(XML).
+   в.    **Тип данных**: в качестве значения задайте String(XML).
 
-   г.   **OMA-URI**:
+   г.    **OMA-URI**:
 
     - **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
     - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
@@ -69,24 +73,24 @@ ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
 >  `<hex>53534944</hex>` должно быть присвоено шестнадцатеричное значение `<name><SSID of wifi profile></name>`.
 >  Устройства с Windows 10 могут возвращать ложную ошибку *0x87D1FDE8: сбой исправления*. При этом устройство все равно будет подготовлено с указанным профилем.
 
-    <!--
-    <Name of wifi profile> = Name of profile
-    <SSID of wifi profile> = Plain text of SSID. Does not need to be escaped, could be <name>Your Company's Network</name>
-    <nonBroadcast><true/false></nonBroadcast>
-    <Type of authentication> = Type of authentication used by the network, such as WPA2PSK.
-    <Type of encryption> = Type of encryption used by the network
-    <protected>false</protected> do not change this value, as true could cause device to expect an encrypted password and then try to decrypt it, which may result in a failed connection.
-    <password> = Password to connect to the network
-    <hex>53534944</hex> should be set to the hexadecimal value of <name><SSID of wifi profile></name>
-    -->
-    <WLANProfile
-    xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
-      <name><Name of wifi profile></name>
-      <SSIDConfig>
-        <SSID>
-          <hex>53534944</hex>
-        <name><SSID of wifi profile></name>
-        </SSID>
+```
+<!--
+<Name of wifi profile> = Name of profile
+<SSID of wifi profile> = Plain text of SSID. Does not need to be escaped, could be <name>Your Company's Network</name>
+<nonBroadcast><true/false></nonBroadcast>
+<Type of authentication> = Type of authentication used by the network, such as WPA2PSK.
+<Type of encryption> = Type of encryption used by the network
+<protected>false</protected> do not change this value, as true could cause device to expect an encrypted password and then try to decrypt it, which may result in a failed connection.
+<password> = Password to connect to the network
+<hex>53534944</hex> should be set to the hexadecimal value of <name><SSID of wifi profile></name>
+-->
+<WLANProfile
+xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+  <name><Name of wifi profile></name>
+  <SSIDConfig>
+    <SSID>
+      <hex>53534944</hex>
+ <name><SSID of wifi profile></name>        </SSID>
         <nonBroadcast>false</nonBroadcast>
       </SSIDConfig>
       <connectionType>ESS</connectionType>
@@ -108,10 +112,12 @@ ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
         </security>
       </MSM>
     </WLANProfile>
+```
 
 ## <a name="eap-based-wi-fi-profile"></a>Профиль Wi-Fi на основе EAP
 Ниже приведен пример XML-кода для профиля Wi-Fi на основе EAP.
 
+```
     <WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
       <name>testcert</name>
       <SSIDConfig>
@@ -189,6 +195,7 @@ ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
         </security>
       </MSM>
     </WLANProfile>
+```
 
 ## <a name="create-the-xml-file-from-an-existing-wi-fi-connection"></a>Создание XML-файла из существующего подключения Wi-Fi
 Можно также создать XML-файл из существующего подключения Wi-Fi.
@@ -215,6 +222,6 @@ ms.openlocfilehash: ad5bb09eb18463f541ca0cbb60ff1f27bdc3251e
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO3-->
 
 

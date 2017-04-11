@@ -1,5 +1,5 @@
 ---
-title: "Использование политик для управления параметрами устройств | Microsoft Intune"
+title: "Использование политик для управления параметрами устройств | Документы Майкрософт"
 description: "Сведения о создании и развертывании политик для управления параметрами и функциями на зарегистрированных устройствах, которыми вы управляете, с помощью Intune."
 keywords: 
 author: robstackmsft
@@ -13,14 +13,18 @@ ms.technology:
 ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
+ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 0238350139837a06a48d0bff7c53e4c39e07168c
-ms.openlocfilehash: b2cba92c4cf75412b562267aef9d6a138f25952b
+ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
+ms.openlocfilehash: f153e3a58f9655bd1e36094f292098c9f55742b6
 
 
 ---
 
 # <a name="manage-settings-and-features-on-your-devices-with-microsoft-intune-policies"></a>Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 *Политики* Microsoft Intune — это группы параметров, контролирующие функции на мобильных устройствах и компьютерах. Политики создаются с помощью шаблонов, содержащих рекомендуемые или настроенные параметры, а затем развертываются в группах пользователей или устройств.
 
 ## <a name="types-of-policies"></a>Типы политик
@@ -211,6 +215,6 @@ Intune не оценивает полезные данные файлов кон
 
 
 
-<!--HONumber=Nov16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 
