@@ -24,7 +24,6 @@
 ### [Настройка корпоративного портала](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-7.md)
 ### [Регистрация устройств](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [Задачи, выполняемые после настройки](get-started/post-configuration-tasks.md)
-## [Переход на Intune](get-started/migrate-to-intune.md)
 ## Дальнейшие действия
 ### [Предотвращение утечки корпоративных данных из мобильных приложений Office 365](get-started/prevent-company-data-leaks-from-Office-365-mobile-apps.md)
 ### [Защита корпоративных данных с помощью шифрования](get-started/protect-data-encryption.md)
@@ -224,8 +223,8 @@
 ## [Начало работы с пакетом SDK для приложений Microsoft Intune](develop/intune-app-sdk-get-started.md)
 ## [Руководство разработчика iOS по SDK для приложений Intune](develop/intune-app-sdk-ios.md)
 ## [Руководство разработчика Android по SDK для приложений Intune](develop/intune-app-sdk-android.md)
-## [подключаемый модуль Cordova из пакета SDK для приложений Intune](develop/intune-app-sdk-cordova.md).
-## [компонент Xamarin из пакета SDK для приложений Intune](develop/intune-app-sdk-xamarin.md);
+## [подключаемый модуль Cordova из пакета SDK для приложений Intune](develop/intune-app-sdk-cordova.md)
+## [компонент Xamarin из пакета SDK для приложений Intune](develop/intune-app-sdk-xamarin.md)
 
 # [Устранение проблем](troubleshoot/general-troubleshooting-tips-for-microsoft-intune.md)
 ## [Получение поддержки](troubleshoot/how-to-get-support-for-microsoft-intune.md)
