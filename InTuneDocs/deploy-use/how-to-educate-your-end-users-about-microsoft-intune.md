@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 04/10/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,16 +14,16 @@ ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: robstack
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bb2848e42e0e842bd8049ab74904c70c582d6917
-ms.openlocfilehash: 5f01c174be566b9dd645bb058de501b02693e07e
-ms.lasthandoff: 02/23/2017
+ms.sourcegitcommit: bed28fc91271c12377f45662aa00fc9616d16fe8
+ms.openlocfilehash: 3d3f35f38a4d6f09f8fdc3e1bbc1c6ca5af6bbe7
+ms.lasthandoff: 04/11/2017
 
 
 ---
 
 # <a name="how-to-educate-your-end-users-about-microsoft-intune"></a>Инструкции по использованию Microsoft Intune для конечных пользователей
 
-Использование Microsoft Intune позволяет мобильным сотрудникам работать с данными на своих мобильных устройствах, при этом корпоративные данные останутся под защитой. Чтобы развертывание было успешным, нужно выполнить несколько действий, в том числе оценку Intune с помощью [бесплатной пробной версии](/Intune/Understand/mobile-device-management-trial-guide-microsoft-intune.md), [защиту электронной почты](/Intune/Understand/common-ways-to-use-intune#protecting-your-office-365-email-and-data-so-it-can-be-safely-accessed-by-mobile-devices.md) и [внедрение приложения с помощью пакета SDK Intune](/intune/develop/intune-app-sdk.md).
+Использование Microsoft Intune позволяет мобильным сотрудникам работать с данными на своих мобильных устройствах, при этом корпоративные данные останутся под защитой. Чтобы развертывание было успешным, нужно выполнить несколько действий, в том числе оценку Intune с помощью [бесплатной пробной версии](/Intune/Understand/mobile-device-management-trial-guide-microsoft-intune.md), [защиту электронной почты](https://docs.microsoft.com/intune/understand-explore/common-ways-to-use-intune#protecting-your-on-premises-email-and-data-so-it-can-be-safely-accessed-by-mobile-devices) и [внедрение приложения с помощью пакета SDK Intune](/intune/develop/intune-app-sdk.md).
 
 Ни одна из этих технологий не гарантирует, что пользователи поймут, почему вам важно управлять их устройствами. На самом деле многие пользователи даже могут подумать, что вы нарушаете их конфиденциальность, особенно если вы развертываете Intune в виде [решения "Принеси свое устройство" (BYOD)](/enterprise-mobility-security/solutions/byod-design-considerations-guide.md).
 
