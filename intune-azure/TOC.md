@@ -31,17 +31,16 @@
 ### [Установка центра MDM](enroll-devices/set-mdm-authority.md)
 ## План и проект
 ### [Получение сертификата MDM Push Certificate](enroll-devices/get-an-apple-mdm-push-certificate.md)
-### [Получение токена Apple DEP](enroll-devices/get-apple-dep-token.md)
 ### [Выбор способа регистрации устройств iOS](enroll-devices/choose-ios-enrollment-method.md)
 ## Инструкции
 ### [Назначение лицензий пользователям](/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4?toc=%2fintune-azure%2ftoc.json)
 ### [Регистрация устройств Android](enroll-devices/enroll-android-and-knox-standard-devices.md)
 ### Регистрация устройств iOS
-#### [Регистрация устройств iOS посредством помощника по настройке](enroll-devices/enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)
-#### [Прямая регистрация устройств iOS](enroll-devices/enroll-ios-devices-with-apple-configurator-and-direct-enrollment.md)
+#### [Apple Configurator — помощник по настройке](enroll-devices/enroll-ios-devices-with-apple-configurator-and-setup-assistant.md)
+#### [Apple Configurator — прямая регистрация](enroll-devices/enroll-ios-devices-with-apple-configurator-and-direct-enrollment.md)
 #### [Добавление серийных номеров Apple Configurator](enroll-devices/add-apple-configurator-serial-numbers.md)
-#### [Регистрация устройств iOS с помощью программы регистрации устройств](enroll-devices/enroll-ios-devices-using-device-enrollment-program.md)
-### [Регистрация устройств с помощью диспетчера регистрации устройств](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
+#### [DEP](enroll-devices/enroll-ios-devices-using-device-enrollment-program.md)
+### [Диспетчер регистрации устройств](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
 ### [Регистрация устройств с macOS](enroll-devices/enroll-macos-devices.md)
 ### [Регистрация устройств с Windows](enroll-devices/enroll-windows-devices.md)
 ### Управление регистрацией устройств
@@ -75,9 +74,7 @@
 ## [Plan and design](manage-apps/plan-and-design.md) --->
 ## Управление приложениями
 ### [Добавление приложений](manage-apps/add-apps.md)
-#### [Бизнес-приложения Android](manage-apps/android-lob-app.md)
 #### [Приложения из Магазина Android](manage-apps/android-store-app.md)
-#### [Бизнес-приложения iOS](manage-apps/ios-lob-app.md)
 #### [Приложения из Магазина iOS](manage-apps/ios-store-app.md)
 #### [Веб-приложения](manage-apps/web-app.md)
 #### [Приложения Магазина Windows Phone 8.1](manage-apps/windows-phone-8-1-store-app.md)
