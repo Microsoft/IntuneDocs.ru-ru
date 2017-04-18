@@ -7,10 +7,10 @@ ms.service: microsoft-intune
 ms.assetid: 99e91b60-d6a5-44a8-908f-442161fbb077
 ms.topic: hub-page
 title: "Документация по Microsoft Intune | Документация Майкрософт"
-description: "Сведения о работе с Microsoft Intune (FIXME)"
+description: "Сведения о работе с Microsoft Intune."
 translationtype: Human Translation
-ms.sourcegitcommit: 34d74067d3dc1b568648558d170c777f56678d22
-ms.openlocfilehash: ff68040cd36be83d81918425526e9090a145f29e
+ms.sourcegitcommit: 4ebd74c77145464574a1fed878ec4dbc2eb3c271
+ms.openlocfilehash: 22f847751162d7e14951c848624564c894da55f9
 ms.lasthandoff: 04/05/2017
 
 ---
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-featured-portalpreview.svg" alt="" />
                                             </div>
                                         </div>
@@ -61,7 +61,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-featured-deploymentplanning.svg" alt="" />
                                             </div>
                                         </div>
@@ -78,7 +78,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-featured-educateusers.svg" alt="" />
                                             </div>
                                         </div>
@@ -95,7 +95,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-featured-microsoftgraph.svg" alt="" />
                                             </div>
                                         </div>
@@ -112,7 +112,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-featured-fasttrack.svg" alt="" />
                                             </div>
                                         </div>
@@ -129,7 +129,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-featured-faq.svg" alt="" />
                                             </div>
                                         </div>
@@ -208,7 +208,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-intro-whatisintune.svg" alt="" />
                                             </div>
                                         </div>
@@ -227,7 +227,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-intro-scenarios.svg" alt="" />
                                             </div>
                                         </div>
@@ -246,7 +246,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-intro-devicemgmt.svg" alt="" />
                                             </div>
                                         </div>
@@ -456,7 +456,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-deployments-goals.svg" alt="" />
                                             </div>
                                         </div>
@@ -475,7 +475,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-deployments-identify.svg" alt="" />
                                             </div>
                                         </div>
@@ -494,7 +494,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-deployments-plan.svg" alt="" />
                                             </div>
                                         </div>
@@ -580,7 +580,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-howto-conditionalpolicy.svg" alt="" />
                                             </div>
                                         </div>
@@ -599,7 +599,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-howto-mdm.svg" alt="" />
                                             </div>
                                         </div>
@@ -618,7 +618,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-howto-configuredevice.svg" alt="" />
                                             </div>
                                         </div>
@@ -637,7 +637,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-howto-configurerestrictions.svg" alt="" />
                                             </div>
                                         </div>
@@ -656,7 +656,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-howto-manageapps.svg" alt="" />
                                             </div>
                                         </div>
@@ -675,7 +675,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-howto-protectaccess.svg" alt="" />
                                             </div>
                                         </div>
@@ -761,7 +761,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-troubleshoot-getsupport.svg" alt="" />
                                             </div>
                                         </div>
@@ -780,7 +780,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-troubleshoot-knownissues.svg" alt="" />
                                             </div>
                                         </div>
@@ -799,7 +799,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-troubleshoot-appdeployment.svg" alt="" />
                                             </div>
                                         </div>
@@ -818,7 +818,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-troubleshoot-deviceentrollment.svg" alt="" />
                                             </div>
                                         </div>
@@ -837,7 +837,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-troubleshoot-deviceprofiles.svg" alt="" />
                                             </div>
                                         </div>
@@ -856,7 +856,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-troubleshoot-emailprofiles.svg" alt="" />
                                             </div>
                                         </div>
@@ -890,7 +890,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-getstarted-overview.svg" alt="" />
                                             </div>
                                         </div>
@@ -909,7 +909,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-sdk-getstarted.svg" alt="" />
                                             </div>
                                         </div>
@@ -928,7 +928,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-sdk-iosguide.svg" alt="" />
                                             </div>
                                         </div>
@@ -947,7 +947,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-sdk-androidguide.svg" alt="" />
                                             </div>
                                         </div>
@@ -966,7 +966,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-featured-microsoftgraph.svg" alt="" />
                                             </div>
                                         </div>
@@ -985,7 +985,7 @@ ms.lasthandoff: 04/05/2017
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
-                                            <div class="cardImage">
+                                            <div class="cardImage bgdAccent1">
                                                 <img src="/media/hubs/intune/intune-mam.svg" alt="" />
                                             </div>
                                         </div>
