@@ -1,6 +1,7 @@
 # Справка по Intune
 ## [Использование управляемых устройств для выполнения задач](use-managed-devices-to-get-work-done.md)
 ## [Какие сведения моей организации можно увидеть с помощью Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
+## [Что происходит при сбросе параметров устройства?](what-happens-if-you-reset-your-device-cpwebsite.md)
 ## [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 ### [Что происходит при регистрации устройства с Android?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 ### [Решение распространенных проблем с Android](troubleshoot-your-device-android.md)
@@ -12,8 +13,3 @@
 ### [Что происходит при регистрации устройства с Windows?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 ### [Решение распространенных проблем с Windows](troubleshoot-your-device-windows.md)
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
-
-
-<!--HONumber=Feb17_HO3-->
-
-
