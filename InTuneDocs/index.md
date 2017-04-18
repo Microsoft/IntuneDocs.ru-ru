@@ -9,9 +9,9 @@ ms.topic: hub-page
 title: "Документация по Microsoft Intune | Документация Майкрософт"
 description: "Сведения о работе с Microsoft Intune."
 translationtype: Human Translation
-ms.sourcegitcommit: 4ebd74c77145464574a1fed878ec4dbc2eb3c271
-ms.openlocfilehash: 22f847751162d7e14951c848624564c894da55f9
-ms.lasthandoff: 04/05/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 1f8b03315c6026a60ef25b1ee6946d4186c82b08
+ms.lasthandoff: 04/14/2017
 
 ---
 <div id="main" class="v2">
@@ -100,7 +100,7 @@ ms.lasthandoff: 04/05/2017
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3><a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_graph_overview">Работа с Intune в Microsoft Graph</a></h3>
+                                            <h3><a href="https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview">Работа с Intune в Microsoft Graph</a></h3>
                                             <p>Настройка политик и элементов управления Intune с помощью API-интерфейсов Microsoft Graph.</p>
                                         </div>
                                     </div>
@@ -117,7 +117,7 @@ ms.lasthandoff: 04/05/2017
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3><a href="https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">Более 150 лицензий? Используйте преимущества FastTrack</a></h3>
+                                            <h3><a href="https://docs.microsoft.com/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">Более 150 лицензий? Используйте преимущества FastTrack</a></h3>
                                             <p>Оценка, исправление, запуск в работу и стимулирование использования ваших служб при поддержке специалистов Майкрософт.</p>
                                         </div>
                                     </div>
@@ -961,7 +961,7 @@ ms.lasthandoff: 04/05/2017
                             </a>
                         </li>
                         <li>
-                            <a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_graph_overview">
+                            <a href="https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
