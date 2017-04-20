@@ -15,8 +15,9 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
+ms.sourcegitcommit: adf7e2d0f76e63f67b7cf3d26d26df0da0e50bd0
+ms.openlocfilehash: 933a47163ccc66a1bab636982ca422c4a704656d
+ms.lasthandoff: 03/31/2017
 
 
 
@@ -43,7 +44,7 @@ ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
     - **Описание параметра.** Введите необязательное описание, например "Список приложений, запуск которых запрещен".
     -     **Тип данных.** В раскрывающемся списке выберите **Строка**.
     -     **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
-    -     **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
+    -     **Значение.** Введите список имен пакетов приложений, которые требуется заблокировать. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
 
     Для списка приложений, которые пользователи могут устанавливать из магазина Google Play (все прочие приложения исключаются):
 
@@ -72,9 +73,4 @@ ms.openlocfilehash: be3cfc0120caf6e702139b829fc6ee1fa9bf9a1e
 
 ### <a name="see-also"></a>См. также
 [Параметры политики Android и Samsung KNOX в Microsoft Intune](android-policy-settings-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

@@ -15,8 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 64b59ccb29e05af0472d463f426a06509d242034
-ms.openlocfilehash: 7a13afcbfd6b37a209c2cb879a47370f9a00b937
+ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
+ms.openlocfilehash: 9759c1331a3fb5308e1dbc53564059618a8ef45c
+ms.lasthandoff: 04/01/2017
 
 
 ---
@@ -57,9 +58,10 @@ ms.openlocfilehash: 7a13afcbfd6b37a209c2cb879a47370f9a00b937
 ##  <a name="supported-platforms"></a>Поддерживаемые платформы
 - iOS 8.1 или более поздняя версия
 - Android 4 или более поздняя версия
+- Windows 10
 
 >[!NOTE]
->Устройства с Windows не поддерживают эти политики защиты приложений. Однако при регистрации устройств Windows 10 в Intune вы можете использовать компонент Windows Information Protection, который обеспечивает аналогичные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
+>Начиная с версии 1703, политики защиты приложений можно определять для устройств Windows 10 в MAM без сценария регистрации. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 
 ##  <a name="supported-apps"></a>Поддерживаемые приложения
 * **Приложения Майкрософт**. В эти приложения встроен пакет SDK для приложений Intune, и они не требуют дополнительных действий перед применением политик защиты приложений.
@@ -106,9 +108,4 @@ ms.openlocfilehash: 7a13afcbfd6b37a209c2cb879a47370f9a00b937
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 [Создание и развертывание политик защиты приложений с помощью Microsoft Intune](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
