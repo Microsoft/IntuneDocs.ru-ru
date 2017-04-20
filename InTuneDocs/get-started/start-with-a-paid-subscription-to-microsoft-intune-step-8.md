@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: c4ef429722f5e33092473641839b59de3bee1c1c
+ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
+ms.openlocfilehash: a2f8067bc169147a60db582d796631bea1ea5a8d
+ms.lasthandoff: 04/01/2017
 
 
 ---
@@ -25,7 +26,7 @@ ms.openlocfilehash: c4ef429722f5e33092473641839b59de3bee1c1c
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-В этом разделе описывается, как администратор Intune может включить регистрацию мобильных устройств. Справку по использованию Intune на телефоне см. в разделе [Использование управляемых устройств для выполнения задач](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions). 
+В этом разделе описывается, как администратор Intune может включить регистрацию мобильных устройств. Справку по использованию Intune на телефоне см. в разделе [Использование управляемых устройств для выполнения задач](https://docs.microsoft.com/intune/enduser/company-portal-frequently-asked-questions).
 
 Чтобы настроить управление мобильными устройствами с помощью Intune, необходимо сначала задать *центр управления мобильными устройствами*, который идентифицирует службу, позволяющую управлять устройствами, связанными с учетной записью. В этом руководстве предполагается, что вместо System Center Configuration Manager будет использоваться служба Intune. Задав центр управления мобильными устройствами, можно включить управление для платформ устройств и зарегистрировать устройства с помощью приложения корпоративного портала.
 
@@ -49,9 +50,9 @@ Intune может управлять устройствами различным
 
 Включите регистрацию устройств для платформы устройств, которой необходимо управлять. В зависимости от используемой платформы есть различные требования:
 
--  [iOS и macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune);
--  [компьютер с Windows](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune);
--  [Windows 10 Mobile и Windows Phone](https://docs.microsoft.com/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune);
+- [iOS и macOS](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune);
+- [Windows 10 и Windows Phone](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune)
+- [ПК Windows](https://docs.microsoft.com/intune/deploy-use/manage-windows-pcs-with-microsoft-intune) (программный клиент Intune)
 - [Android for Work](https://docs.microsoft.com/intune/deploy-use/set-up-android-for-work)
 
 После включения регистрации пользователи могут скачать приложение корпоративного портала на устройство и завершить процесс регистрации устройства.
@@ -60,18 +61,12 @@ Intune может управлять устройствами различным
 Вы также можете реализовать различные сценарии [регистрации устройств, принадлежащих компании](https://docs.microsoft.com/intune/deploy-use/manage-corporate-owned-devices), включая следующие:
 - [программа регистрации устройств Apple](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune);
 - [помощник по настройке регистрации Apple Configurator](https://docs.microsoft.com/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune);
-- [помощник по настройке регистрации Apple Configurator](https://docs.microsoft.com/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune);
+- [прямая регистрация с помощью Apple Configurator](https://docs.microsoft.com/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune);
 - [диспетчер регистрации устройств](https://docs.microsoft.com/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune).
 
 ### <a name="next-steps"></a>Дальнейшие действия
 Поздравляем! Вы завершили последний шаг *краткого руководства по Intune*. Теперь, когда начальная настройка завершена, рассмотрите возможность включения дополнительных функций MDM.
 
 >[!div class="step-by-step"]
-
 >[&larr; **Регистрация устройств**](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)     [**Задачи, выполняемые после настройки** &rarr;](.\post-configuration-tasks.md)  
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
