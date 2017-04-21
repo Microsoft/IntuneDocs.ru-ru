@@ -43,6 +43,7 @@
 ### [Диспетчер регистрации устройств](enroll-devices/enroll-devices-using-device-enrollment-manager.md)
 ### [Регистрация устройств с macOS](enroll-devices/enroll-macos-devices.md)
 ### [Регистрация устройств с Windows](enroll-devices/enroll-windows-devices.md)
+### [Массовая регистрация устройств Windows](enroll-devices/bulk-enroll-windows.md)
 ### Управление регистрацией устройств
 #### [Создание условий](enroll-devices/create-terms-and-conditions.md)
 #### [Установка ограничений на регистрацию](enroll-devices/set-enrollment-restrictions.md)
@@ -57,6 +58,7 @@
 <!--- ## [Plan and design](manage-devices/plan-and-design.md) --->
 ## Инструкции
 ### [Использование полной или выборочной очистки](manage-devices/use-full-or-selective-wipe-on-devices-using-microsoft-intune.md)
+### [Удаленное управление устройствами Android](manage-devices/control-android-devices-with-teamviewer.md)
 <!--- ## [Troubleshoot](manage-devices/troubleshooting.md) --->
 
 # Управление пользователями
@@ -75,7 +77,9 @@
 ## Управление приложениями
 ### [Добавление приложений](manage-apps/add-apps.md)
 #### [Приложения из Магазина Android](manage-apps/android-store-app.md)
+#### [Бизнес-приложения Android](manage-apps/android-lob-app.md)
 #### [Приложения из Магазина iOS](manage-apps/ios-store-app.md)
+#### [Бизнес-приложения iOS](manage-apps/ios-lob-app.md)
 #### [Веб-приложения](manage-apps/web-app.md)
 #### [Приложения Магазина Windows Phone 8.1](manage-apps/windows-phone-8-1-store-app.md)
 #### [Приложения Магазина Windows](manage-apps/windows-store-app.md)
@@ -109,8 +113,12 @@
 ### [Настройка профилей устройств](configure-devices/how-to-create-device-profiles.md)
 
 ### [Настройка функций устройства](configure-devices/how-to-configure-device-features.md)
-#### [iOS](configure-devices/device-features-for-ios.md)
-#### [macOS](configure-devices/device-features-for-macos.md)
+#### [AirPrint для iOS и MacOS](configure-devices/air-print-settings-for-ios-and-macos.md)
+#### [AirPlay для iOS](configure-devices/airplay-settings-for-ios-devices.md)
+#### [Макет начального экрана для iOS](configure-devices/home-screen-settings-for-ios.md)
+#### [Уведомления приложений для iOS](configure-devices/app-notification-settings-for-ios.md)
+#### [Общие устройства для iOS](configure-devices/shared-device-settings-for-ios.md)
+#### [Фильтр веб-содержимого для iOS](configure-devices/web-content-filter-settings-for-ios.md)
 
 ### [Настройка ограничений для устройств](configure-devices/how-to-configure-device-restrictions.md)
 #### [Android](configure-devices/device-restrictions-for-android.md)
@@ -120,6 +128,7 @@
 #### [Windows Phone 8.1](configure-devices/device-restrictions-for-windows-phone-8-1.md)
 #### [Windows 10](configure-devices/device-restrictions-for-windows-10.md)
 #### [Windows 10 для совместной работы](configure-devices/device-restrictions-for-windows-10-team.md)
+#### [Android for Work](configure-devices/device-restrictions-for-afw.md)
 
 ### [Настройка параметров электронной почты](configure-devices/how-to-configure-email-settings.md)
 #### [Android](configure-devices/email-profile-settings-for-android.md)
@@ -142,6 +151,7 @@
 #### [Windows 8.1 и Windows 10](configure-devices/wi-fi-import-for-windows-8-1.md)
 
 ### [Настройка параметров обновления выпуска Windows 10](configure-devices/how-to-configure-windows-10-edition-upgrade.md)
+### [Настройка параметров Windows 10 для образовательных учреждений](configure-devices/how-to-configure-education-settings.md)
 ### [Настройка параметров Центра обновления Windows для бизнеса](configure-devices/how-to-configure-windows-update-for-business.md)
 ### [Настройка сертификатов](configure-devices/how-to-configure-certificates.md)
 #### [SCEP](configure-devices/configure-certificate-infrastructure-for-scep.md)
@@ -159,6 +169,7 @@
 #### [macOS](configure-devices/custom-for-macos.md)
 #### [Windows Phone 8.1](configure-devices/custom-for-windows-phone-8-1.md)
 #### [Windows 10](configure-devices/custom-for-windows-10.md)
+#### [Android for Work](configure-devices/custom-android-for-work.md)
 
 ### [Назначение профилей устройств](configure-devices/how-to-assign-device-profiles.md)
 ### [Отслеживание профилей устройств](configure-devices/how-to-monitor-device-profiles.md)
