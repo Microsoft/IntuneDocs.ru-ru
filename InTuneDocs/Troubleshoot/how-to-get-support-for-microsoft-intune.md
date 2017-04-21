@@ -5,7 +5,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 01/27/2016
+ms.date: 04/12/2016
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,20 +15,23 @@ ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 5726934501b3d6b243de94951cf0c57cbd79a811
-ms.openlocfilehash: ccc0502c81cb16d2ca13e5d6a702c0ff863b83e4
-ms.lasthandoff: 03/09/2017
+ms.sourcegitcommit: df54ac3a62b5ef21e8a32f3a282dd5299974a1b0
+ms.openlocfilehash: ae9af31263de8b0b95f98e423f8a9a59c0c66c4c
+ms.lasthandoff: 04/12/2017
 
 
 ---
 
-# <a name="how-admins-get-support-for-microsoft-intune"></a>Получение администраторами поддержки по Microsoft Intune
+# <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Для каждой подписки Microsoft Intune Майкрософт предлагает услуги глобальной, технической и предпродажной поддержки, а также поддержки по выставлению счетов и продлению подписки. Для оплаченных и пробных подписок доступна поддержка в Интернете и по телефону. Техническая поддержка в Интернете доступна только на английском и японском языках. Поддержка по телефону и поддержка выставления счетов по сети доступны на дополнительных языках.
 
 Поддержка Intune и для Intune с Configuration Manager предоставляется бесплатно. С клиентов службы поддержки уровня Premier взимается плата за вопросы о процедурах (например, как настроить функцию Intune).
+
+>[!IMPORTANT]
+> Чтобы получить техническую поддержку для продуктов, используемых с Intune, от сторонних разработчиков (например, SaaSwedo, Cisco или Lookout), сначала попробуйте обратиться к поставщику продукта, чтобы убедиться в правильности настройки. Затем можно обратиться в службу поддержки Intune.
 
 ## <a name="find-help-without-opening-a-support-ticket"></a>Поиск справки без обращения в службу поддержки
 
@@ -39,6 +42,13 @@ ms.lasthandoff: 03/09/2017
 Задайте вопрос техническим экспертам Майкрософт или начните обсуждение! На [форуме TechNet по Microsoft Intune](https://social.technet.microsoft.com/Forums/home) представлена ценная информация и мы отвечаем на вопросы.
 
 ![Форум TechNet по Microsoft Intune](./media/technet-forum-for-support.png)
+
+### <a name="get-started-with-the-forum"></a>Начало работы с форумами
+
+1. На странице форумов введите в соответствующее поле "Microsoft Intune", а затем выберите нужный форум в списке.<br>
+![Элемент управления для выбора форума Intune](./media/forum-select-intune.png)
+2. Теперь вы увидите Microsoft Intune в списке выбранных форумов.<br>
+![Выбор Intune в элементе управления для выбора форумов](./media/forum-selected-intune.png)
 
 ### <a name="microsoft-intune-uservoice-product-feedback-site"></a>Сайт UserVoice с отзывами о Microsoft Intune
 

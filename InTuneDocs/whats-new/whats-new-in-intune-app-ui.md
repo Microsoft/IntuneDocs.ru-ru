@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,9 +15,9 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: 69f7f366e798c1c987a6ddfb93300598b22a7d01
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: 0a39abc7f19f4c2c8074de66a9cd5df9cef78ed5
+ms.openlocfilehash: 81761af5ab5aebe6abb44ff43a7df5a337d38fc7
+ms.lasthandoff: 04/13/2017
 
 
 ---
@@ -27,9 +27,58 @@ ms.lasthandoff: 03/17/2017
 > [!Note]
 > Обратите внимание, что приведенные ниже изображения относятся к предварительной версии, и опубликованный продукт может отличаться от представленных версий.
 
+## <a name="whats-coming-in-intune-app-ui"></a>Новые возможности пользовательского интерфейса приложений Intune
+
+### <a name="april-2017"></a>Апрель 2017 г.
+
+#### <a name="new-icons-for-the-managed-browser-and-the-company-portal---918433-918431--"></a>Новые значки для Managed Browser и корпоративного портала <!--918433, 918431-->
+
+В Managed Browser добавлены обновленные значки для версий приложения для iOS и Android. Новый значок будет содержать обновленную эмблему Intune, что повышает согласованность с другими приложениями в среде Enterprise Mobility + Security (EM+S).
+
+<html>
+<body>
+   <table id="wrapper">
+      <tr>
+         <td>
+            <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_manbro_before_042017.png" alt="The previous version of the Managed Browser app icon." width=200 height=366 align=center>
+          </td>
+          <td>
+             <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_manbro_after_042017.png" alt="The updated version of the Managed Browser app icon." width=200 height=366 align=center>
+           </td>
+      </tr>
+   </table>
+</body>
+</html>
+
+В приложение корпоративного портала также добавлены обновленные значки для версий приложения для Android, iOS и Windows, чтобы повысить согласованность с другими приложениями в EM+S. Эти значки будут постепенно выпускаться для разных платформ с апреля до конца мая.
+
+#### <a name="sign-in-progress-indicator-in-android-company-portal---953374--"></a>Индикатор выполнения входа в приложении корпоративного портала для Android <!--953374-->
+
+В обновленной версии приложения корпоративного портала для Android отображается индикатор выполнения входа, когда пользователь запускает приложение или возобновляет его работу. Перед предоставлением пользователю доступа к приложению на индикаторе отображаются новые состояния, например "Подключение…", "Вход в…" и "Проверка требований безопасности…".
+
+<html>
+<body>
+   <table id="wrapper">
+      <tr>
+         <td>
+            <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_signing_in_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Connecting' underneath it." width=200 height=366 align=center>
+          </td>
+          <td>
+             <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_checking_security_reqs_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Signing in' underneath it." width=200 height=366 align=center>
+           </td>
+           <td>
+              <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_connecting_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Checking for security requirements' underneath it." width=200 height=366 align=center>
+           </td>
+      </tr>
+   </table>
+</body>
+</html>
+
+## <a name="whats-been-announced-for-ui-updates-for-end-user-apps"></a>Объявленные обновления пользовательского интерфейса для пользовательских приложений
+
 ### <a name="february-2017"></a>Февраль 2017 г.
 
-#### <a name="new-user-experience-for-the-company-portal-app-for-android---621622-announced-1702--"></a>Новый интерфейс приложения корпоративного портала для Android <!--621622, announced 1702-->
+### <a name="new-user-experience-for-the-company-portal-app-for-android---621622-announced-1702--"></a>Новый интерфейс приложения корпоративного портала для Android <!--621622, announced 1702-->
 Начиная с марта, приложение "Корпоративный портал" для Android будет следовать [рекомендациям по материальному дизайну](https://material.io/guidelines/material-design/introduction.html) для обеспечения более современного внешнего вида и поведения. Сюда входят следующие улучшения интерфейса.
 
 * __Цвета__: заголовки вкладок будут выделены цветом в соответствии с вашей пользовательской цветовой палитрой.
@@ -47,16 +96,16 @@ ms.lasthandoff: 03/17/2017
    <table id="wrapper">
       <tr>
          <td>
-            <img src="https://docs.microsoft.com/en-us/InTune/whats-new/media/cp_android_contactit_after.png" alt="The Company Portal app for Android displaying an updated version of the Contact IT tab. The tab shows available contact information for IT, including phone number, email address, IT website, and IT contact information." width=200 height=366 align=center>
+            <img src="https://docs.microsoft.com/InTune/whats-new/media/cp_android_contactit_after.png" alt="The Company Portal app for Android displaying an updated version of the Contact IT tab. The tab shows available contact information for IT, including phone number, email address, IT website, and IT contact information." width=200 height=366 align=center>
           </td>
       </tr>
    </table>
 </body>
 </html>
 
-### <a name="january-2017"></a>Январь 2017 г.
+## <a name="january-2017"></a>Январь 2017 г.
 
-#### <a name="modernizing-the-company-portal-website---753980-announced-1701--"></a>Модернизация сайта корпоративного портала <!--753980, announced 1701-->
+### <a name="modernizing-the-company-portal-website---753980-announced-1701--"></a>Модернизация сайта корпоративного портала <!--753980, announced 1701-->
 В феврале сайт корпоративного портала предоставит поддержку приложений для пользователей, у которых нет управляемых устройств. Веб-сайт будет приведен в соответствие с другими продуктами и службами Майкрософт за счет новой контрастной цветовой схемы, динамических иллюстраций и "меню-гамбургера". ![Небольшое изображение меню-гамбургера, которое будет добавлено в левом верхнем углу веб-сайта корпоративного портала;](./media/CP_hamburger_menu.png) оно будет содержать контактные сведения службы поддержки, а также сведения о существующих управляемых устройствах. На целевой странице появятся карусели для рекомендуемых и недавно обновленных приложений, доступных пользователям, и им будет отведено видное место.
 
 ![Слева появится изображение текущей версии корпоративного портала с предыдущей версией представлений "Приложения", "Мои устройства", "Подборка" и "Категории". Справа появится изображение обновленной версии корпоративного портала с измененной каруселью приложений, списком последних опубликованных приложений и улучшенным представлением "Категории".](./media/CP_Website_BeforeAfter_Feb2016.png)

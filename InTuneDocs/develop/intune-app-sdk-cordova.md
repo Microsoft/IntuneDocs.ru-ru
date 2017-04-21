@@ -15,8 +15,9 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 613e293d9bd853d6de7cdc0d753cc8473afc180b
-ms.openlocfilehash: 9ef09f43e6c878af689a500457bab578149de499
+ms.sourcegitcommit: df54ac3a62b5ef21e8a32f3a282dd5299974a1b0
+ms.openlocfilehash: 40c369bb0ff18bda30b221c461f75799e601c67c
+ms.lasthandoff: 04/12/2017
 
 
 ---
@@ -25,143 +26,136 @@ ms.openlocfilehash: 9ef09f43e6c878af689a500457bab578149de499
 > [!NOTE]
 > Вы можете сначала прочесть статью [Начало работы с пакетом SDK для приложений Intune](intune-app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
 
-
 ## <a name="overview"></a>Обзор
 
-[Подключаемый модуль Cordova из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam) позволяет использовать [возможности управления мобильными приложениями Intune](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) в приложениях iOS и Android, созданных с помощью Cordova. С его помощью разработчики могут интегрировать в свое приложение на основе Cordova функции защиты данных и приложений Intune.
+[Подключаемый модуль Cordova из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam) позволяет использовать [политику защиты мобильных приложений Intune](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) в приложениях iOS и Android, созданных с помощью Cordova. С его помощью разработчики могут интегрировать в свое приложение на основе Cordova функции защиты данных и приложений Intune.
 
-Вы обнаружите, что функции SDK можно включить без изменения поведения приложения. После встраивания подключаемого модуля в мобильное приложение для iOS или Android ИТ-администратор сможет развернуть политику при помощи системы управления мобильными приложениями Microsoft Intune, где поддерживается множество разных возможностей для защиты данных. Мы разработали этот подключаемый модуль таким образом, чтобы большинство действий выполнялось автоматически в процессе сборки Cordova. Это позволяет быстро реализовать функции управления в приложении. Чтобы начать работу, выполните указанные ниже действия с учетом целевой платформы.
+Вы обнаружите, что функции пакета SDK можно включить, не изменяя поведение приложения. После создания подключаемого модуля в приложении iOS или Android администратор Microsoft Intune сможет развернуть политику защиты приложений Intune, которая включает различные компоненты для защиты данных. Этот подключаемый модуль создан таким образом, что большинство действий выполняются автоматически в процессе сборки Cordova. Это позволяет быстро реализовать защиту приложения в Intune. Чтобы начать работу, выполните указанные ниже действия с учетом целевой платформы.
 
+## <a name="supported-platforms"></a>Поддерживаемые платформы
 
+* Подключаемый модуль работает в ОС Windows, Mac и Linux.
+* Подключаемый модуль работает с приложениями Android: `minSdkVersion` >= 14 и `targetSdkVersion` <= 24.
+* Подключаемый модуль работает с приложениями iOS, предназначенными для iOS 9.0 и более поздних версий.
 
-
-## <a name="whats-supported"></a>Поддерживаемые возможности
-
-### <a name="developer-machines"></a>Компьютеры разработчиков
-* Windows
-* Mac OS
-
-
-### <a name="mobile-app-platforms"></a>Платформы мобильных приложений
-* Android 4.0+
-* iOS
-
-### <a name="intune-mobile-application-management-scenarios"></a>Ситуации, связанные с управлением мобильными приложениями Intune
+## <a name="intune-mobile-application-management-scenarios"></a>Ситуации, связанные с управлением мобильными приложениями Intune
 
 * Устройства, зарегистрированные в Intune MDM
 * Сторонние устройства, зарегистрированные в EMM
 * Неуправляемые устройства (не зарегистрированные в MDM)
 
-Приложения Cordova, созданные с помощью подключаемого модуля Cordova из пакета SDK для приложений Intune, теперь могут получать политики управления мобильными приложениями (MAM) Intune как на устройствах, зарегистрированных в системе управления мобильными устройствами (MDM) Intune, так и на незарегистрированных устройствах.
+Приложения Cordova, созданные с помощью подключаемого модуля Cordova из пакета SDK для приложений Intune, теперь могут получать политики защиты приложений Intune как на устройствах, зарегистрированных в системе управления мобильными устройствами (MDM) Intune, так и на незарегистрированных устройствах.
 
+## <a name="prerequisites"></a>Необходимые компоненты
 
+### <a name="android"></a>Android
 
-## <a name="prerequisites"></a>Предварительные требования
+* На устройстве должна быть установлена последняя версия приложения корпоративного портала Microsoft Intune.
+* В расположении, где будет выполняться сборка Cordova при использовании подключаемого модуля, необходимо установить Java 7 (или более поздней версии).
 
-### <a name="technical-prerequisites"></a>Технические предварительные требования
+### <a name="ios"></a>iOS
 
-* **[Только для Android]** На устройстве должно быть установлено самое новое приложение корпоративного портала Microsoft Intune.
+* Для использования функций MDM на устройстве должна быть установлена последняя версия приложения корпоративного портала Microsoft Intune. Это *не* требуется, если используется политика защиты приложений Intune без функций регистрации устройств.
 
+### <a name="both-platforms"></a>Все платформы
 
 * Требуется [подключаемый модуль библиотек проверки подлинности Azure Active Directory (ADAL) для Cordova](https://github.com/AzureAD/azure-activedirectory-library-for-cordova) версии 0.8.0 или более поздней.
-  * **Внимание!** Из-за ошибки в Apache Cordova, описанной [здесь](https://issues.apache.org/jira/browse/CB-6227?jql=text%20~%20%22plugin%20dependency%22), приложения, которые уже имеют зависимость от подключаемого модуля, не обновляют его до нужной версии автоматически.
 
+> [!NOTE]
+> Из-за ошибки в Apache Cordova, описанной [здесь](https://issues.apache.org/jira/browse/CB-6227?jql=text%20~%20%22plugin%20dependency%22), приложения, которые зависят от подключаемого модуля, не обновляют подключаемый модуль до нужной версии автоматически.
 
-### <a name="before-you-install-and-use-microsoft-intune-app-sdk-cordova-plugin-you-must"></a>Перед установкой и использованием подключаемого модуля Cordova из пакета SDK для приложений Intune **требуется** выполнить следующее:
-
-* Ознакомиться с [условиями лицензии для подключаемого модуля Cordova из пакета SDK для приложений Intune.](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam/blob/master/Intune_App_SDK_Cordova_plugin_RTM_license.pdf).
-
-* Распечатать и сохранить копию условий лицензии для своих записей. Скачивая и используя подключаемый модуль Cordova из пакета SDK для приложений Intune, вы соглашаетесь с этими условиями лицензии.  Если вы не согласны, не используйте это программное обеспечение.
 
 
 ## <a name="quick-start"></a>Быстрое начало работы
 
 1. Обновите версию ADAL:
 
-    ```
-    cordova plugin remove cordova-plugin-ms-adal
-    cordova plugin add cordova-plugin-ms-adal@0.8.x
-    ```
+  ```shell
+  cordova plugin remove cordova-plugin-ms-adal
+  cordova plugin add cordova-plugin-ms-adal@0.8.x
+  ```
 
 2. Добавьте пакет SDK для приложений Intune для подключаемого модуля Cordova:
 
-    ```
-    cordova plugin add cordova-plugin-ms-intune-mam
-    ```
+  ```shell
+  cordova plugin add cordova-plugin-ms-intune-mam
+  ```
 
-## <a name="how-to-build-the-plugin-into-your-ios-app"></a>Встраивание подключаемого модуля в приложение iOS
+## <a name="build-the-plugin-into-your-ios-app"></a>Встраивание подключаемого модуля в приложение iOS
 
-Чтобы обеспечить поддержку приложения в Intune MAM, требуется выполнить несколько действий. Из соображений удобства эти действия выполняются автоматически в процессе сборки Cordova в качестве предварительной обработки. В результате автоматические действия изменят файлы `*.pbxproj`, `*-Info.plist` и `*.entitlements` файлы, связанные с конфигурацией проекта. Если проект не содержит файл объема обслуживания, подключаемый модуль создаст его автоматически.
+Чтобы включить для приложения политику защиты приложений Intune, потребуется выполнить несколько действий. Из соображений удобства эти действия выполняются автоматически в процессе сборки Cordova в качестве предварительной обработки. В результате автоматические действия изменят файлы `*.pbxproj`, `*-Info.plist` и `*.entitlements` файлы, связанные с конфигурацией проекта. Если проект не содержит файл объема обслуживания, подключаемый модуль создаст его автоматически.
 
 Эта настройка поддерживает только один целевой объект. При наличии нескольких таких объектов настройка выполняется для первого из них. Если процедура завершается со сбоем, проверьте следующее:
 
 1. Проект приложения Xcode называется `[name].xcodeproj`, где значение `[name]` определяется в `config.xml`
 2. Проект использует [стандартную структуру каталогов для приложения Cordova](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure).
 
-## <a name="how-to-build-the-plugin-into-your-android-app"></a>Встраивание подключаемого модуля в приложение Android
+## <a name="build-the-plugin-into-your-android-app"></a>Встраивание подключаемого модуля в приложение Android
 
 1. Импортируйте этот подключаемый модуль с помощью самых новых средств Cordova. Подключаемый модуль будет автоматически вызываться как шаг `after_compile`.
 
-2. В конце процесса сборки подключаемый модуль создаст версию APK с поддержкой MAM (Android API 14 или более поздней версии). Выходные данные сборки будут содержать `[Project]-intunewrapped-[Build_Configuration].apk` (например, `helloWorld-intunewrapped-debug.apk`).
+2. В конце процесса сборки подключаемый модуль создаст версию встроенного пакета APK с поддержкой Intune (Android API 14 или более поздней версии). Выходные данные сборки будут содержать `[Project]-intunewrapped-[Build_Configuration].apk` (например, `helloWorld-intunewrapped-debug.apk`).
 
-Подключаемый модуль поддерживает только сборки Gradle.
+> [!NOTE]
+> Подключаемый модуль поддерживает только сборки Gradle.
 
 В связи с описанной [здесь](https://issues.apache.org/jira/browse/CB-9434) ошибкой Cordova, из-за которой пропускаются некоторые обработчики Cordova при `cordova run`, для выполнения изолированного приложения из командной строки требуется выполнить следующие действия:
 
-```
+```shell
 $ cordova build
 $ cordova run --nobuild
 ```
 
+## <a name="sign-your-android-app"></a>Подписывание приложения Android
 
-### <a name="signing-your-android-app"></a>Подписывание приложения Android
-Чтобы добавить сведения о подписи в изолированный APK, измените `build.json` обычным образом. Пример.
-```json
-{
-  "android": {
-    "release": {
-      "keystore": "your.keystore",
-      "storePassword": "yourpassword",
-      "alias": "youralias",
-      "password" : "yourpassword",
-      "keystoreType": ""
-    }
-  }
-}
-```
+Подключаемый модуль автоматически распознает сведения о подписи, которые вы указываете для Cordova в следующих расположениях:
 
-### <a name="build-for-android-test-only"></a>Сборка только для тестирования на платформе Android
+* platforms/android/debug-signing.properties
+* platforms/android/release-signing.properties
+* res/native/android/ant.properties
 
-1. Добавьте `android:testOnly="true"` к узлу приложения в файле `AndroidManifest.xml`.
+Дополнительные сведения о требуемом формате см. в разделе о [свойствах подписи Cordova Gradle](https://cordova.apache.org/docs/en/latest/guide/platforms/android/#using-gradle).
 
+Предоставление сведений о подписи в `build.json` или произвольных расположениях, передаваемых через параметры в сборку Cordova, сейчас не поддерживается.
 
-2. **Cordova 6.x.x:** в `[PROJECT_ROOT]/platforms/android/cordova/lib/Adb.js` измените строку 60 с
+## <a name="debugging-from-visual-studio"></a>Отладка в Visual Studio
 
-    ```javascript
-    var args = ['-s', target, 'install'];
-    ```
-    значение
-    ```javascript
-    var args = ['-s', target, 'install', '-t'];
-    ```
-
-Целью всего этого является выполнение `adb install` с флагом "-t", так как без него приложения `testOnly` не устанавливаются.
-
-### <a name="debugging-from-visual-studio"></a>Отладка в Visual Studio
 После первого запуска приложения должно появиться диалоговое окно с уведомлением о том, что приложение управляется Intune. Выберите параметр "Больше не показывать" и еще раз нажмите кнопку отладки и запуска в VS для перехода по точкам останова.
 
 ## <a name="known-limitations"></a>Известные ограничения
+
 ### <a name="android"></a>Android
+
 * Поддержка MultiDex является неполной.
-* Приложение должно быть нацелено на Android 4.0 (Android API 14) или более поздней версии.
+* Приложение должно иметь `minSdkVersion` 14 и `targetSdkVersion` 24 (или ниже). Приложения, предназначенные для API 25, сейчас не поддерживаются.
+* Нельзя повторно подписывать приложения, которые были подписаны с использованием схемы подписи V2. Когда такие приложения упаковываются с помощью подключаемого модуля, упакованный выходной APK-файл не будет подписан.
+*
+  * Вы можете отключить стандартную функцию схемы подписи V2 в Cordova, добавив следующий код в файл `build-extras.gradle`:
+
+  ```gradle
+  android {
+      signingConfigs {
+          release {
+              v2SigningEnabled false
+          }
+          debug {
+              v2SigningEnabled false
+          }
+      }
+      buildTypes {
+          release {
+              signingConfig signingConfigs.release
+          }
+          debug {
+              signingConfig signingConfigs.debug
+          }
+      }
+  }
+  ```
 
 ### <a name="ios"></a>iOS
-* Каждый раз при изменении списка UTI в узле **CFBundleDocumentTypes** файла **Info.plist** следует очистить UTI в разделе импортированных UTI того же файла PLIST (узел **UTImportedTypeDeclarations**) перед повторной сборкой. Все UTI Intune начинаются с префикса `com.microsoft.intune.mam`.
 
-* Если вы хотите удалить подключаемый модуль Intune из проекта Cordova, следует также удалить платформу iOS и повторно добавить ее, чтобы отменить некоторые элементы конфигурации Intune в файлах XCODEPROJ и PLIST.
+* Каждый раз при изменении списка UTI в узле **CFBundleDocumentTypes** файла **Info.plist** следует очищать UTI Intune в разделе импортированных UTI того же PLIST-файла (узел **UTImportedTypeDeclarations**) перед повторной сборкой. Все UTI Intune начинаются с префикса `com.microsoft.intune.mam`.
 
-
-
-<!--HONumber=Dec16_HO2-->
-
+* Если вы хотите удалить из проекта Cordova пакет SDK для приложений Intune для подключаемого модуля Cordova, следует также удалить платформу iOS и повторно добавить ее, чтобы отменить некоторые элементы конфигурации Intune в XCODEPROJ- и PLIST-файлах.
 
