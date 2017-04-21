@@ -13,9 +13,9 @@ ms.technology:
 ms.assetid: 03b69afa-3548-4033-9039-191528f3fd99
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 911d2887791cf16d4290c3ac5189aa44086f4603
-ms.openlocfilehash: d3b4b823683196148d4fb8aa296b59c9c712e99f
-ms.lasthandoff: 03/11/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 2296490a8c3984e79eeeb553d90591048ed46711
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -51,9 +51,9 @@ ms.lasthandoff: 03/11/2017
 ## <a name="how-to-get-ready"></a>Подготовка
 
 - Ознакомьтесь со следующими разделами Azure AD, чтобы узнать о группах безопасности Azure AD и принципах их работы:
-    -  [Управление доступом к ресурсам с помощью групп Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-manage-groups/).
-    -  [Управление группами в Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/).
-    -  [Использование атрибутов для создания дополнительных правил](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
+    -  [Управление доступом к ресурсам с помощью групп Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-manage-groups/).
+    -  [Управление группами в Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/).
+    -  [Использование атрибутов для создания дополнительных правил](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/).
 - Перед миграцией рекомендуется удалить все неиспользуемые группы Intune.
 -  Убедитесь, что все администраторы, которым требуется создавать группы, добавлены в роль **Администратор службы Intune** Azure AD. При этом не забывайте, что у роли администратора служб Azure AD нет разрешений **Управление группой**.
 -  Если вы используете группы с параметром **Исключить конкретные члены**, попробуйте видоизменить их таким образом, чтобы им не требовались исключения. Кроме того, в тех же целях можно использовать расширенные правила в запросе Azure AD.

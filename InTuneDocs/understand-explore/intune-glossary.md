@@ -13,9 +13,9 @@ ms.technology:
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 6b99854e17e00a0dd0f91fa82fd1b79d1dfe5663
-ms.openlocfilehash: ea5407c284f5408774ee5934ad6151bccfd7e6d1
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 9e084cce8e34b0de2dce7c6b8503d5b5089c930e
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -62,7 +62,7 @@ ms.lasthandoff: 02/18/2017
 |||
 |-|-|
 |Email profile (Профиль электронной почты)|Эта политика позволяет настроить [параметры доступа к электронной почте](/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) для отдельных почтовых клиентов на мобильных устройствах, минимизируя объем необходимой настройки со стороны пользователя.|
-|EMS|Microsoft Enterprise Mobility + Security (прежнее название — Enterprise Mobility Suite) защищает корпоративные данные и предоставляет вашим пользователям [доступ к нужным приложениям и содержимому](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).|
+|EMS|Microsoft Enterprise Mobility + Security (прежнее название — Enterprise Mobility Suite) защищает корпоративные данные и предоставляет вашим пользователям [доступ к нужным приложениям и содержимому](https://www.microsoft.com/cloud-platform/enterprise-mobility).|
 |End user (Конечный пользователь)|[Пользователи таких устройств, как телефоны и компьютеры](/intune/deploy-use/how-to-educate-your-end-users-about-microsoft-intune), которые находятся под управлением Intune.|
 |Enroll (Регистрация)|В Microsoft Intune [регистрация](/intune/deploy-use/enroll-devices-in-microsoft-intune) используется для обеспечения управления устройствами и доступа к ресурсам.|
 
@@ -122,7 +122,7 @@ ms.lasthandoff: 02/18/2017
 |Remote lock (удаленная блокировка)|Функция Intune, позволяющая [заблокировать поддерживаемые устройства](/intune/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune), включая те, которые вам не принадлежат.|
 |Reports|Intune предлагает обширный набор [встроенных отчетов](/intune/deploy-use/understand-microsoft-intune-operations-by-using-reports), предоставляющих сведения об управляемых устройствах.|
 |Required install (Обязательная установка)|При развертывании приложения с помощью этого действия оно устанавливается на устройстве [без вмешательства пользователя](/intune/deploy-use/deploy-apps) (хотя на некоторых платформах пользователю может потребоваться принять установку).|
-|Requirements (Требования)|[Операция развертывания приложения](/en-us/intune/deploy-use/add-apps), позволяющая выбрать требования, которые должны быть выполнены на устройстве перед установкой приложения. Например, можно указать версию ОС IOS, которую необходимо установить перед установкой приложения.|
+|Requirements (Требования)|[Операция развертывания приложения](/intune/deploy-use/add-apps), позволяющая выбрать требования, которые должны быть выполнены на устройстве перед установкой приложения. Например, можно указать версию ОС IOS, которую необходимо установить перед установкой приложения.|
 
 ## <a name="s"></a>S
 |||

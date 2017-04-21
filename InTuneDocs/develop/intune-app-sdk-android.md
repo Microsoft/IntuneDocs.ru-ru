@@ -15,9 +15,9 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: 178fbaeb1d3235a81cb4da49b7a955f6999c49a2
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 17fa23f1d04e22a2cb10452fe3a9425f7482a6de
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -80,7 +80,7 @@ ms.lasthandoff: 02/18/2017
 
 * `android.permission.USE_CREDENTIALS`
 
-Эти разрешения требуются библиотеке проверки подлинности Active Directory Azure ([ADAL](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/)) для проверки подлинности через посредника. Если эти разрешения приложению не предоставлены или отменены пользователем, проверка подлинности, для которой требуется посредник (приложение корпоративного портала), будет отключена.
+Эти разрешения требуются библиотеке проверки подлинности Active Directory Azure ([ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)) для проверки подлинности через посредника. Если эти разрешения приложению не предоставлены или отменены пользователем, проверка подлинности, для которой требуется посредник (приложение корпоративного портала), будет отключена.
 
 
 ###<a name="company-portal-app"></a>Приложение корпоративного портала

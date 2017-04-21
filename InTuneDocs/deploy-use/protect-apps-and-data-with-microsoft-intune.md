@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f46f13e9dbf03fa2b3e2ec7339cad927ea0b38e0
-ms.openlocfilehash: 16e4b6ddd1df9c56e36318dfd3050d1a1f627adc
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: fdd85177f21a430eb940d1f88b3bb016c56cee55
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -48,14 +49,9 @@ Intune защищает данные организации посредство
 
 Приложение, связываемое с политикой MAM, должно включать в себя пакет SDK для приложений Microsoft Intune, или же вы можете использовать инструмент упаковки приложений.
 
-Такие приложения, как Microsoft Office, имеют встроенный пакет SDK для приложений Intune. Чтобы просмотреть полный список поддерживаемых приложений, посетите [коллекцию мобильных приложений Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps) на странице приложений Microsoft Intune от партнеров. Выберите приложение, чтобы просмотреть поддерживаемые сценарии, платформы и получить сведения о поддержке множественной идентификации.
+Такие приложения, как Microsoft Office, имеют встроенный пакет SDK для приложений Intune. Чтобы просмотреть полный список поддерживаемых приложений, посетите [коллекцию мобильных приложений Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) на странице приложений Microsoft Intune от партнеров. Выберите приложение, чтобы просмотреть поддерживаемые сценарии, платформы и получить сведения о поддержке множественной идентификации.
 
 Политики MAM можно использовать и с [самостоятельно разработанными бизнес-приложениями](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md).
 
 Помимо ограничения перемещения данных, вы можете [выборочно удалить данные организации](wipe-managed-company-app-data-with-microsoft-intune.md), оставив только персональные данные, если устройство потеряно или украдено либо его пользователь больше не работает в организации.
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

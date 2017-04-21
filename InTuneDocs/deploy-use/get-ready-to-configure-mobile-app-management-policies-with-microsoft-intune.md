@@ -15,9 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
-ms.openlocfilehash: 9759c1331a3fb5308e1dbc53564059618a8ef45c
-ms.lasthandoff: 04/01/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 53b86bf579af6af29fd36ce58f9cdf1e92b98abc
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -61,11 +61,11 @@ ms.lasthandoff: 04/01/2017
 - Windows 10
 
 >[!NOTE]
->Начиная с версии 1703, политики защиты приложений можно определять для устройств Windows 10 в MAM без сценария регистрации. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
+>Начиная с версии 1703, политики защиты приложений можно определять для устройств Windows 10 в MAM без сценария регистрации. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 
 ##  <a name="supported-apps"></a>Поддерживаемые приложения
 * **Приложения Майкрософт**. В эти приложения встроен пакет SDK для приложений Intune, и они не требуют дополнительных действий перед применением политик защиты приложений.
-Чтобы просмотреть полный список поддерживаемых приложений Майкрософт, перейдите в [коллекцию мобильных приложений Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps) на странице партнеров приложений Microsoft Intune. Выберите приложение, чтобы просмотреть поддерживаемые сценарии и платформы, а также сведения о поддержке нескольких удостоверений.
+Чтобы просмотреть полный список поддерживаемых приложений Майкрософт, перейдите в [коллекцию мобильных приложений Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) на странице партнеров приложений Microsoft Intune. Выберите приложение, чтобы просмотреть поддерживаемые сценарии и платформы, а также сведения о поддержке нескольких удостоверений.
 
 * **Бизнес-приложения вашей организации**. Эти приложения нужно подготовить к включению пакета SDK приложений Intune перед применением политик защиты приложений.
 
@@ -76,7 +76,7 @@ ms.lasthandoff: 04/01/2017
 ## <a name="prerequisites"></a>Необходимые компоненты
 
 -   **Подписка Microsoft Intune**. Пользователям нужны лицензии [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] для получения приложений с политиками защиты приложений.
-У вас уже есть подписка [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], если вы используете [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] для управления устройствами. Вы также располагаете подпиской [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], если приобрели лицензию Enterprise Mobility Suite. Если вы используете [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], чтобы ознакомиться с возможностями MAM, пробную учетную запись можно получить на [странице Microsoft Intune](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/).
+У вас уже есть подписка [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], если вы используете [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] для управления устройствами. Вы также располагаете подпиской [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], если приобрели лицензию Enterprise Mobility Suite. Если вы используете [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], чтобы ознакомиться с возможностями MAM, пробную учетную запись можно получить на [странице Microsoft Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/).
 
     Чтобы проверить, есть ли у вас подписка [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], перейдите на страницу **Выставление счетов** портала Office.  Если у вас есть подписка, в списке подписок для [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] должно быть указано значение **Активно**.
 
@@ -98,13 +98,13 @@ ms.lasthandoff: 04/01/2017
 
 1.  Войдите на [портал Office](http://portal.office.com), используя свои учетные данные администратора.
 
-2.  Добавьте пользователей, как описано в разделе **Действия по настройке 30-дневной ознакомительной версии Intune** руководства [по оценке Intune](https://docs.microsoft.com/en-us/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune), а затем назначьте лицензии Intune. Чтобы предоставить пользователю возможность доступа к порталу Office, порталу Azure AD и порталу Azure, назначьте ему роль **глобального администратора**.
+2.  Добавьте пользователей, как описано в разделе **Действия по настройке 30-дневной ознакомительной версии Intune** руководства [по оценке Intune](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune), а затем назначьте лицензии Intune. Чтобы предоставить пользователю возможность доступа к порталу Office, порталу Azure AD и порталу Azure, назначьте ему роль **глобального администратора**.
 
-5.  Политики защиты приложений развертываются в группах пользователей в Azure Active Directory. Чтобы создать группы пользователей для политик защиты приложений, выполните инструкции в разделе **Создание группы пользователей** статьи [Создание групп для организации пользователей и устройств с подпиской на ознакомительную версию](https://docs.microsoft.com/en-us/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3).
+5.  Политики защиты приложений развертываются в группах пользователей в Azure Active Directory. Чтобы создать группы пользователей для политик защиты приложений, выполните инструкции в разделе **Создание группы пользователей** статьи [Создание групп для организации пользователей и устройств с подпиской на ознакомительную версию](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3).
 
 ### <a name="assign-roles-to-non-global-admin-users"></a>Назначение ролей пользователям, не являющимся глобальными администраторами
 
-Глобальные администраторы имеют доступ на [портал Azure](https://portal.azure.com).  Если вы хотите, чтобы пользователи, не являющиеся глобальными администраторами, могли настраивать политики и выполнять другие задачи по управлению мобильными приложениями, прочтите статью [Использование назначений ролей для управления доступом к ресурсам подписки Azure](https://azure.microsoft.com/en-us/documentation/articles/role-based-access-control-configure/).
+Глобальные администраторы имеют доступ на [портал Azure](https://portal.azure.com).  Если вы хотите, чтобы пользователи, не являющиеся глобальными администраторами, могли настраивать политики и выполнять другие задачи по управлению мобильными приложениями, прочтите статью [Использование назначений ролей для управления доступом к ресурсам подписки Azure](https://azure.microsoft.com/documentation/articles/role-based-access-control-configure/).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 [Создание и развертывание политик защиты приложений с помощью Microsoft Intune](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)

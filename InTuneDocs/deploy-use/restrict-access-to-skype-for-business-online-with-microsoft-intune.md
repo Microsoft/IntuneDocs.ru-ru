@@ -15,9 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: 182ca17c53b672d70ff1b30a63c0662050db95c3
-ms.lasthandoff: 01/24/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 312a3ae8a74b0a8460f969f96bee14077c6c7161
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -38,9 +38,9 @@ ms.lasthandoff: 01/24/2017
 
 **Перед** настройкой политики условного доступа для Skype для бизнеса Online необходимо выполнить следующие условия:
 - Получить **подписку Skype для бизнеса Online** и назначить лицензии Skype для бизнеса Online пользователям.
-- Получить **подписку Enterprise Mobility + Security (EMS)** или **Azure Active Directory (Azure AD) Premium** и предоставить пользователям лицензии для EMS или Azure AD. Дополнительные сведения см. в статье [Цены на Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [Цены на Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
+- Получить **подписку Enterprise Mobility + Security (EMS)** или **Azure Active Directory (Azure AD) Premium** и предоставить пользователям лицензии для EMS или Azure AD. Дополнительные сведения см. в статье [Цены на Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [Цены на Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
--   [Включение современной проверки подлинности](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune) для Skype для бизнеса Online.
+-   [Включение современной проверки подлинности](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-skype-for-business-online-with-microsoft-intune) для Skype для бизнеса Online.
 -  Все пользователи должны использовать **Skype для бизнеса Online**. Если имеется развертывание Skype для бизнеса Online и локальной версии Skype для бизнеса, политика условного доступа для пользователей не применяется.
 
 Устройство, которому требуется доступ к Skype для бизнеса Online должно соответствовать следующим условиям:

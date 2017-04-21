@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: c4077c41da897e570e5d29702ba0e776c7deee6b
-ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 9e4fca9e29c8f0c2ec3ef088c3f91ad15ac11804
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -40,7 +41,7 @@ ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
 
 **Перед** настройкой политики условного доступа для SharePoint Online необходимо выполнить следующие условия:
 - Получить **подписку SharePoint Online**, а пользователи должны иметь лицензию на SharePoint Online.
-- Получить **подписку Enterprise Mobility + Security (EMS)** или **Azure Active Directory (Azure AD) Premium**, а пользователи должны иметь лицензию для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
+- Получить **подписку Enterprise Mobility + Security (EMS)** или **Azure Active Directory (Azure AD) Premium**, а пользователи должны иметь лицензию для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
 
   Для подключения к необходимым файлам устройство должно удовлетворять следующим требованиям:
@@ -59,10 +60,10 @@ ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
 
 -   Если устройство не соответствует требованиям, отображается сообщение, направляющее пользователя на веб-сайт корпоративного портала [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], где можно найти сведения о данной проблеме и способах ее решения.
 
-**Условный доступ не применяется к внешнему общему доступу**. Информацию о том, как запретить внешний совместный доступ в клиенте или семействе веб-сайтов, см. в статье [Управление внешним доступом для среды SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US).
+**Условный доступ не применяется к внешнему общему доступу**. Информацию о том, как запретить внешний совместный доступ в клиенте или семействе веб-сайтов, см. в статье [Управление внешним доступом для среды SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85).
 
 >[!NOTE]
->Если вы включили условный доступ для SharePoint Online, то рекомендуется отключить домен в списке, как описано в разделе [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/en-us/library/dn917451.aspx).  
+>Если вы включили условный доступ для SharePoint Online, то рекомендуется отключить домен в списке, как описано в разделе [Remove-SPOTenantSyncClientRestriction](https://technet.microsoft.com/library/dn917451.aspx).  
 
 ## <a name="support-for-mobile-devices"></a>Поддержка мобильных устройств
 Поддерживаются:
@@ -84,7 +85,7 @@ ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
 > [!NOTE]
 >Чтобы использовать условный доступ с компьютерами под управлением Windows 10, необходимо установить на них юбилейное обновление Windows 10.
 
-  - Для ПК, присоединенных к домену, следует задать [автоматическую регистрацию](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-automatic-device-registration/) в Azure Active Directory. Служба регистрации устройств Azure AD активируется автоматически для клиентов Intune и Office 365. Клиенты, которые уже развернули службу регистрации устройств ADFS, не будут видеть зарегистрированные устройства в локальном Active Directory.
+  - Для ПК, присоединенных к домену, следует задать [автоматическую регистрацию](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/) в Azure Active Directory. Служба регистрации устройств Azure AD активируется автоматически для клиентов Intune и Office 365. Клиенты, которые уже развернули службу регистрации устройств ADFS, не будут видеть зарегистрированные устройства в локальном Active Directory.
 
   - Если политика требует присоединения к домену, а ПК не присоединен к домену, отображается сообщение, рекомендующее обратиться к ИТ-администратору.
 
@@ -92,7 +93,7 @@ ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
   >[!NOTE]
   >Условный доступ не поддерживается на компьютерах, где выполняется клиент Intune.
 
-[Должна быть включена современная проверка подлинности Office 365](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a), а также должны быть установлены все последние обновления Office.
+[Должна быть включена современная проверка подлинности Office 365](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a), а также должны быть установлены все последние обновления Office.
 
 Современная проверка подлинности для клиентов Office 2013 под управлением Windows использует библиотеку проверки подлинности Active Directory (ADAL) и поддерживает более высокий уровень безопасности, обеспечиваемый **многофакторной проверкой подлинности** и **проверкой подлинности на основе сертификатов**.
 
@@ -129,7 +130,7 @@ ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
 #### <a name="bkmk_spopolicy"></a>
 
 >[!NOTE]
-> Политику условного доступа для устройств Intune также можно создать в консоли управления Azure AD (в Azure AD она называется **политикой условного доступа на основе устройств**). Кроме того, можно создать другие политики условного доступа, такие как многофакторная проверка подлинности. Можно также задать политики условного доступа для сторонних корпоративных приложений, поддерживаемых Azure AD, таких как Salesforce и Box. Дополнительные сведения см. в разделе [Настройка политики условного доступа на основе устройств Azure Active Directory для контроля доступа к подключенным приложениям Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-policy-connected-applications/).
+> Политику условного доступа для устройств Intune также можно создать в консоли управления Azure AD (в Azure AD она называется **политикой условного доступа на основе устройств**). Кроме того, можно создать другие политики условного доступа, такие как многофакторная проверка подлинности. Можно также задать политики условного доступа для сторонних корпоративных приложений, поддерживаемых Azure AD, таких как Salesforce и Box. Дополнительные сведения см. в разделе [Настройка политики условного доступа на основе устройств Azure Active Directory для контроля доступа к подключенным приложениям Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/).
 
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** > **Условный доступ** > **Политика SharePoint Online**.
@@ -195,9 +196,4 @@ ms.openlocfilehash: c72d4525a41e7b1498232526c6e05cc4b7bef978
 
 ### <a name="see-also"></a>См. также
 [Защита доступа к электронной почте и службам Office 365 при помощи Microsoft Intune](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
