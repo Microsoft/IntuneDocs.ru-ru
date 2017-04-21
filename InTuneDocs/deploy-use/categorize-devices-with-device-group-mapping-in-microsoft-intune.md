@@ -15,8 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 28af253b0a0fe174478961810a26b45d8ac3d959
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 57c739444c18d12a6d7ee8ca591f9a1dd72985d7
+ms.lasthandoff: 04/14/2017
 
 ---
 
@@ -77,7 +78,7 @@ ms.openlocfilehash: 28af253b0a0fe174478961810a26b45d8ac3d959
 
 На этом шаге на портале Azure создаются динамические группы с использованием категории устройств и имени категории устройств.
 
-Дальнейшие действия описываются в разделе [Использование атрибутов для создания расширенных правил](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) в документации по Azure Active Directory.
+Дальнейшие действия описываются в разделе [Использование атрибутов для создания расширенных правил](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) в документации по Azure Active Directory.
 Сведения в этом разделе помогут создать группу устройств с расширенным правилом с помощью атрибута **deviceCategory**.
 Например, (**device.deviceCategory -eq** "<*имя категории устройств, полученное в консоли администрирования Intune*>")
 
@@ -88,9 +89,4 @@ ms.openlocfilehash: 28af253b0a0fe174478961810a26b45d8ac3d959
 
 ### <a name="see-also"></a>См. также
 [Использование групп для управления пользователями и устройствами в Microsoft Intune](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

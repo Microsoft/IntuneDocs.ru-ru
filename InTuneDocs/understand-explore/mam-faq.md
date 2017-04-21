@@ -15,8 +15,9 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 7447a85e03e38aa0f536ce008bae9f3c82528cec
-ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: aea41c86e1fe784d6234f4ff90e299632b2a6d5f
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 
 **Что такое MAM?** [Управление мобильными приложениями (MAM) в Intune](../deploy-use/overview-of-app-lifecycle-in-microsoft-intune.md) — это набор функций управления, позволяющих публиковать, отправлять, настраивать, защищать, отслеживать и обновлять мобильные приложения для пользователей.
 
-**Каковы преимущества защиты приложений, обеспечиваемой MAM?** MAM защищает корпоративные данные в самом приложении. С помощью MAM-WE вы можете управлять рабочими или учебными приложениями, которые содержат конфиденциальные данные, практически с любого устройства, включая личные устройства в рамках сценария BYOD. Intune MAM позволяет управлять многими бизнес-приложениями, включая программы Microsoft Office. См. официальный список общедоступных [приложений с поддержкой Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps).
+**Каковы преимущества защиты приложений, обеспечиваемой MAM?** MAM защищает корпоративные данные в самом приложении. С помощью MAM-WE вы можете управлять рабочими или учебными приложениями, которые содержат конфиденциальные данные, практически с любого устройства, включая личные устройства в рамках сценария BYOD. Intune MAM позволяет управлять многими бизнес-приложениями, включая программы Microsoft Office. См. официальный список общедоступных [приложений с поддержкой Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
 
 **Какие конфигурации устройств поддерживает MAM?** Intune MAM поддерживает две конфигурации.
   1. **Intune MDM + MAM**. Это первая конфигурация, которую поддерживает MAM при первом запуске. ИТ-администраторы могут управлять приложениями только с помощью MAM и политик защиты приложений на устройствах, зарегистрированных с использованием управления мобильными устройствами Intune (MDM). Управлять приложениями с помощью MDM + MAM можно с помощью автономной консоли Intune, доступной по адресу http://manage.microsoft.com.
@@ -48,7 +49,7 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 
 ## <a name="apps-you-can-manage-with-app-protection-policies"></a>Приложения, которыми можно управлять с помощью политик защиты приложений
 
-**Какими приложениями можно управлять с помощью политик защиты приложений?** Любым приложением, поддерживающим [пакет SDK для приложений Intune](../develop/intune-app-sdk.md) или упакованным с помощью [инструмента упаковки для приложений Intune](../deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md), можно управлять с помощью политик защиты приложений Intune. См. официальный список общедоступных [приложений с поддержкой Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-apps).
+**Какими приложениями можно управлять с помощью политик защиты приложений?** Любым приложением, поддерживающим [пакет SDK для приложений Intune](../develop/intune-app-sdk.md) или упакованным с помощью [инструмента упаковки для приложений Intune](../deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md), можно управлять с помощью политик защиты приложений Intune. См. официальный список общедоступных [приложений с поддержкой Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
 
 **Каковы базовые требования к приложениям с поддержкой Intune для использования политик защиты приложений?**
   1. Пользователь должен иметь учетную запись Azure Active Directory (AAD). Дополнительные сведения о создании пользователей Intune в Azure Active Directory см. в статье [Добавление пользователей и предоставление административного разрешения для Intune](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md).
@@ -59,18 +60,18 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 
   4. Пользователь должен войти в приложение, используя свою учетную запись AAD.
 
-**Каковы дополнительные требования к использованию [мобильного приложения Outlook](https://www.microsoft.com/en-us/outlook-com/mobile/)?**
+**Каковы дополнительные требования к использованию [мобильного приложения Outlook](https://www.microsoft.com/outlook-com/mobile/)?**
 
   1. На устройстве пользователя должно быть установлено мобильное приложение Outlook.
 
-  2. Пользователь должен иметь почтовый ящик [Office 365 Exchange Online](https://products.office.com/en-us/exchange/exchange-online) и лицензию, связанную с учетной записью Azure Active Directory.
+  2. Пользователь должен иметь почтовый ящик [Office 365 Exchange Online](https://products.office.com/exchange/exchange-online) и лицензию, связанную с учетной записью Azure Active Directory.
 
   >[!NOTE]
   > Мобильное приложение Outlook сейчас поддерживает только службу Microsoft Exchange Online, но не локальную службу Exchange или Exchange в Office 365 Dedicated.
 
 **Каковы дополнительные требования к использованию приложений [Word, Excel и PowerPoint](https://products.office.com/business/office)?**
 
-  1. Пользователь должен иметь лицензию на пакет ["Office 365 бизнес" или "Office 365 корпоративный"](https://products.office.com/business/compare-more-office-365-for-business-plans), назначенную его учетной записи Azure Active Directory. Подписка должна включать приложения Office на мобильных устройствах и облачную учетную запись хранения с поддержкой [OneDrive для бизнеса](https://onedrive.live.com/about/business/). Лицензии Office 365 можно назначить на [портале Office](http://portal.office.com), следуя этим [инструкциям](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US).
+  1. Пользователь должен иметь лицензию на пакет ["Office 365 бизнес" или "Office 365 корпоративный"](https://products.office.com/business/compare-more-office-365-for-business-plans), назначенную его учетной записи Azure Active Directory. Подписка должна включать приложения Office на мобильных устройствах и облачную учетную запись хранения с поддержкой [OneDrive для бизнеса](https://onedrive.live.com/about/business/). Лицензии Office 365 можно назначить на [портале Office](http://portal.office.com), следуя этим [инструкциям](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 
   2. На устройстве пользователя должно быть установлено приложение [OneDrive](https://onedrive.live.com/about/), и он должен войти с помощью учетной записи AAD.
 
@@ -105,7 +106,7 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 
 **Как используется шифрование?** ИТ-администраторы могут развернуть политику защиты приложений, в соответствии с которой данные приложения должны шифроваться. В рамках политики ИТ-администратор также может определить, когда содержимое должно быть зашифровано.
 
-  1. **Как выполняется шифрование данных в Intune?** Дополнительные сведения о параметрах шифрования в политике защиты приложений см. в статьях [Параметры политики управления мобильными приложениями в Microsoft Intune](../deploy-use/android-mam-policy-settings.md) и [Параметры политики управления мобильными приложениями iOS](../deploy-use/ios-mam-policy-settings.md).
+  1. **Как выполняется шифрование данных в Intune?** Дополнительные сведения о параметрах шифрования в политике защиты приложений см. в статьях [Android app protection policy settings](../deploy-use/android-mam-policy-settings.md) (Параметры политики защиты мобильных приложений для Android) и [iOS app protection policy settings](../deploy-use/ios-mam-policy-settings.md) (Параметры политики защиты мобильных приложений для iOS).
 
   2. **Какие данные шифруются?** В соответствии с политикой защиты приложений, определенной ИТ-администратором, шифруются только те данные, которые отмечены как корпоративные. Данные считаются корпоративными, если они созданы в корпоративном расположении. При работе с приложениями Office в Intune корпоративными считаются такие расположения: электронная почта (Exchange) или облачное хранилище (приложение OneDrive с учетной записью OneDrive для бизнеса). В бизнес-приложениях с поддержкой инструмента упаковки для приложений Intune все данные считаются корпоративными.
 
@@ -140,9 +141,4 @@ ms.openlocfilehash: 1ab1645a8c25bf51fc42788364e498d18c2f15d9
 - [Проверка настройки управления мобильными приложениями](../deploy-use/validate-mobile-application-management.md)
 - [Подготовка к настройке политик управления мобильными приложениями в Microsoft Intune](../deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 - [Получение поддержки для Microsoft Intune](../troubleshoot/how-to-get-support-for-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

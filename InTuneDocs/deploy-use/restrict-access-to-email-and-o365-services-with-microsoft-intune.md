@@ -15,9 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: 399c6260a98d51417a067d001c0fd42c926c1513
-ms.lasthandoff: 01/24/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: f66772dd318e97b9fef124776e80d9d9a4c7de7f
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/24/2017
 ## <a name="how-does-conditional-access-work"></a>Как работает условный доступ?
 Для оценки соответствия устройства используются параметры политики соответствия. Политика условного доступа применяет эту оценку для разрешения и ограничения доступа к конкретной службе. При использовании политики условного доступа в сочетании с политикой соответствия устройств доступ к службе получают только соответствующие устройства. Политика соответствия требованиям и политика условного доступа развертываются для пользователя. Любое устройство, используемое пользователем для доступа к службам, проверяется на соответствие политикам.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Имейте в виду, что у пользователя, использующего устройство, должна быть развернута политика соответствия требованиям, оценивающая соответствие устройства.
 > Если политика соответствия не развернута для пользователя, устройство считается соответствующим, поэтому ограничения доступа к нему не применяются.
 
@@ -48,7 +48,7 @@ Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно
 
 **Лицензии на Azure AD Premium** можно приобрести в качестве отдельной службы и (вместе с Intune) в составе соглашения Enterprise. В случае развертывания политик условного доступа с помощью Intune убедитесь, что получены соответствующие лицензии на Azure AD Premium или **EMS**.
 
-- Дополнительные сведения о Enterprise Mobility см. на странице [цен на Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [цены на Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
+- Дополнительные сведения о Enterprise Mobility см. на странице [цен на Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [цены на Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
 Кроме того, убедитесь, что пользователям, к которым вы планируете применять политики условного доступа, [назначены лицензии Azure AD Premium или EMS](/Intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md).
 

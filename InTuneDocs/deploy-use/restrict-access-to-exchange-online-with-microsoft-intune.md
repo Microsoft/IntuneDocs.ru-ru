@@ -15,9 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
-ms.openlocfilehash: 9a814f6df407802b8e48626ed0e3f828c52c661b
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: cfb3a7cc4e70a062bc511cd4fe80a50b6262864f
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/21/2017
 
 -   Использовать подписку **Office 365, включающую в себя Exchange Online (например, E3)**, а пользователи должны иметь лицензию на Exchange Online.
 
-- Получить **подписку Enterprise Mobility + Security (EMS)** или **Azure Active Directory (Azure AD) Premium**, а пользователи должны иметь лицензию для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/en-us/pricing/details/active-directory/).
+- Получить **подписку Enterprise Mobility + Security (EMS)** или **Azure Active Directory (Azure AD) Premium**, а пользователи должны иметь лицензию для EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
 -  Рекомендуется настроить дополнительный соединитель служб **Intune Service To Service Connector**, который подключает [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] к Exchange Online и позволяет управлять устройствами с помощью консоли [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]. Соединитель не требуется для использования политик соответствия требованиям или политик условного доступа, но необходим для выполнения отчетов, которые помогут оценить влияние условного доступа.
     -  Дополнительные сведения о [соединителе Intune Service To Service Connector](intune-service-to-service-exchange-connector.md).
@@ -83,7 +83,7 @@ ms.lasthandoff: 03/21/2017
 **Современная проверка подлинности** активирует для клиентов Microsoft Office процедуру входа на основе библиотеки проверки подлинности Active Directory (ADAL).
 
 -   Процедура проверки подлинности на основе ADAL позволяет клиентам Office применять проверку подлинности на основе браузера (также называемую пассивной проверкой подлинности). Для проверки подлинности пользователь перенаправляется на веб-страницу входа в систему.
--   Этот новый метод входа обеспечивает более высокий уровень безопасности за счет **многофакторной проверки подлинности** и **проверки подлинности на основе сертификатов**. Дополнительные сведения см. в разделе [Принципы работы современной проверки подлинности](https://support.office.com/en-US/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517). Вы можете настроить правила утверждений ADFS для блокирования несовременных протоколов проверки подлинности. Подробные инструкции представлены в разделе [Сценарий 3. Полная блокировка доступа к Office 365, за исключением браузерных приложений](https://technet.microsoft.com/library/dn592182.aspx).
+-   Этот новый метод входа обеспечивает более высокий уровень безопасности за счет **многофакторной проверки подлинности** и **проверки подлинности на основе сертификатов**. Дополнительные сведения см. в разделе [Принципы работы современной проверки подлинности](https://support.office.com/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517). Вы можете настроить правила утверждений ADFS для блокирования несовременных протоколов проверки подлинности. Подробные инструкции представлены в разделе [Сценарий 3. Полная блокировка доступа к Office 365, за исключением браузерных приложений](https://technet.microsoft.com/library/dn592182.aspx).
 
 Вы можете защитить доступ к **Outlook Web Access (OWA)** в Exchange Online, если доступ осуществляется из браузера на устройствах с ОС **iOS** и **Android**. Доступ разрешен только из поддерживаемых браузеров на соответствующих устройствах:
 
@@ -123,7 +123,7 @@ ms.lasthandoff: 03/21/2017
   >[!NOTE]
     >Условный доступ не поддерживается на компьютерах, где выполняется клиент Intune.
 
--   [Должна быть включена современная проверка подлинности Office 365](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a), а также должны быть установлены все последние обновления Office.
+-   [Должна быть включена современная проверка подлинности Office 365](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a), а также должны быть установлены все последние обновления Office.
 
     Современная проверка подлинности активирует для клиентов Office 2013/Windows процедуру входа на основе библиотеки проверки подлинности Active Directory (ADAL). Это обеспечивает более высокий уровень безопасности за счет **многофакторной проверки подлинности** и **проверки подлинности на основе сертификатов**.
 
@@ -192,7 +192,7 @@ ms.lasthandoff: 03/21/2017
 >[!NOTE]
 > Можно также создать политику условного доступа в консоли управления Azure AD. Консоль управления Azure AD позволяет создать политику условного доступа для устройств Intune (в Azure AD ее называют **политикой условного доступа на основе устройств**), а также другие политики условного доступа, такие как многофакторная проверка подлинности.
 
->Можно также задать политики условного доступа для сторонних корпоративных приложений, поддерживаемых Azure AD, таких как Salesforce и Box. Дополнительные сведения см. в статье [Настройка политики условного доступа на основе устройств Azure Active Directory для контроля доступа к подключаемым приложениям Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-policy-connected-applications/).
+>Можно также задать политики условного доступа для сторонних корпоративных приложений, поддерживаемых Azure AD, таких как Salesforce и Box. Дополнительные сведения см. в статье [Настройка политики условного доступа на основе устройств Azure Active Directory для контроля доступа к подключаемым приложениям Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/).
 
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** > **Условный доступ** > **Политика Exchange Online**.

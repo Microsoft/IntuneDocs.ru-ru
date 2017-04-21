@@ -15,8 +15,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 32653a46d8758eac5b884f4f6f7a2e07447c1e36
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 7451b1872a848ac322db4ec485564f2ebf983f0d
+ms.lasthandoff: 04/14/2017
 
 ---
 # <a name="deploy-apps-in-microsoft-intune"></a>Развертывание приложений в Microsoft Intune
@@ -48,7 +49,7 @@ ms.openlocfilehash: 32653a46d8758eac5b884f4f6f7a2e07447c1e36
 
 5. Если развертываемое приложение можно настроить с помощью политики управления мобильными приложениями, открывается страница **Управление мобильными приложениями**. На этой странице выберите политику управления мобильными приложениями, которую требуется связать с этим приложением.
 
-    [Посмотрите, какие приложения Майкрософт совместимы с политиками управления мобильными приложениями.](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)
+    [Посмотрите, какие приложения Майкрософт совместимы с политиками управления мобильными приложениями.](https://www.microsoft.com/server-cloud/products/microsoft-intune/partners.aspx)
 
 6. Если развертываемое приложение совместимо с профилями VPN Intune, отображается страница **Профили VPN**. На этой странице можно связать iOS-приложения с развернутым профилем VPN. VPN-подключение будет автоматически открываться при запуске приложения. Чтобы сделать профиль VPN доступным, необходимо включить параметр профиля **VPN на приложение**.
  Сведения о настройке профилей VPN, включая информацию о привязке профилей к приложениям, см. в статье [VPN-подключения в Microsoft Intune](vpn-connections-in-microsoft-intune.md).
@@ -72,9 +73,4 @@ ms.openlocfilehash: 32653a46d8758eac5b884f4f6f7a2e07447c1e36
 ## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания приложения можно отслеживать его. Дополнительные сведения см. в разделе [Мониторинг приложений в Microsoft Intune](monitor-apps-in-microsoft-intune.md).
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

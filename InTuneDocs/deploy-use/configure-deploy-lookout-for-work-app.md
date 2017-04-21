@@ -14,9 +14,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
-ms.openlocfilehash: ad1133d17f8d64c79c08437b914ae28e00cae638
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: eaf30c8a59013af6359743227edc8aa6709577c5
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/21/2017
 
 1. Убедитесь, что на устройстве настроено **Управление iOS**. Инструкции по настройке управления iOS на устройстве см. в статье [Настройка управления устройствами в iOS и Mac](set-up-ios-and-mac-management-with-microsoft-intune.md).
 
-2. **Повторно подпишите** приложение Lookout for Work iOS. Lookout распространяет приложение Lookout for Work iOS за пределами магазина iOS App Store. **Перед распространением приложения** необходимо повторно подписать приложение с сертификатом корпоративного разработчика iOS. Подробные инструкции по повторной подписи приложений Lookout for Work iOS см. в статье [Процесс повторной подписи приложения Lookout for Work iOS](https://personal.support.lookout.com/hc/en-us/articles/114094038714) на сайте Lookout.
+2. **Повторно подпишите** приложение Lookout for Work iOS. Lookout распространяет приложение Lookout for Work iOS за пределами магазина iOS App Store. **Перед распространением приложения** необходимо повторно подписать приложение с сертификатом корпоративного разработчика iOS. Подробные инструкции по повторной подписи приложений Lookout for Work iOS см. в статье [Процесс повторной подписи приложения Lookout for Work iOS](https://personal.support.lookout.com/hc/articles/114094038714) на сайте Lookout.
 
 3. Включите проверку подлинности Azure Active Directory для пользователей iOS, выполнив следующие действия.
   1.  Выполните вход на [портал управления Azure Active Directory](https://manage.windowsazure.com) и перейдите на страницу приложения.
@@ -67,13 +67,13 @@ ms.lasthandoff: 03/21/2017
   4.  Добавьте дополнительный URI перенаправления: **&lt;companyportal://code/>**, за которым указывается оригинальный URI перенаправления, закодированный как URL-адрес.
   5.  Добавьте **Делегированные разрешения** в приложение.
 
-  Дополнительные сведения см. в статье [Настройка встроенного клиентского приложения](https://azure.microsoft.com/en-us/documentation/articles/app-service-mobile-how-to-configure-active-directory-authentication/#optional-configure-a-native-client-application).
+  Дополнительные сведения см. в статье [Настройка встроенного клиентского приложения](https://azure.microsoft.com/documentation/articles/app-service-mobile-how-to-configure-active-directory-authentication/#optional-configure-a-native-client-application).
 
-4. Передайте повторно подписанный IPA-файл, как описано в разделе [Добавление приложения для мобильных устройств в Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune). Установите минимальную версию ОС равную iOS 8.0 или более поздней версии.
+4. Передайте повторно подписанный IPA-файл, как описано в разделе [Добавление приложения для мобильных устройств в Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune). Установите минимальную версию ОС равную iOS 8.0 или более поздней версии.
 
   ![Снимок экрана: страница приложений в консоли администрирования Intune с приложением Lookout for Work в списке приложений](../media/mtp/ios-app-uploaded-intune.png)
 
-5. Создайте политику конфигурации управляемого приложения, как описано в разделе [Настройка приложений iOS с помощью политик конфигурации мобильных приложений в Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune).
+5. Создайте политику конфигурации управляемого приложения, как описано в разделе [Настройка приложений iOS с помощью политик конфигурации мобильных приложений в Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune).
 
   ![Снимок экрана: мастер создания политики с выбранной политикой конфигурации приложения для iOS 8.0 или более поздней версии](../media/mtp/ios-app-config.png)
 
