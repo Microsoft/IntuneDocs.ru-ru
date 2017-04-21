@@ -15,9 +15,9 @@ ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: df54ac3a62b5ef21e8a32f3a282dd5299974a1b0
-ms.openlocfilehash: ae9af31263de8b0b95f98e423f8a9a59c0c66c4c
-ms.lasthandoff: 04/12/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 15229d2dff3b5e9a13bf1f9321ba09df81717052
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -70,11 +70,11 @@ ms.lasthandoff: 04/12/2017
 
 1.  Войдите в [Центр администрирования Office 365](https://portal.office.com), используя учетные данные Intune.
 
-    Клиентам службы поддержки Premier необходимо открыть запрос в службу поддержки Intune на [странице поддержки Premier](https://support.microsoft.com/en-us/premier/contacts).
+    Клиентам службы поддержки Premier необходимо открыть запрос в службу поддержки Intune на [странице поддержки Premier](https://support.microsoft.com/premier/contacts).
 
     >[!NOTE]
     >
-    >Клиентам службы поддержки Premier необходимо открыть запрос в службу поддержки Intune на [странице поддержки Premier](https://support.microsoft.com/en-us/premier/contacts).
+    >Клиентам службы поддержки Premier необходимо открыть запрос в службу поддержки Intune на [странице поддержки Premier](https://support.microsoft.com/premier/contacts).
 
 2.  Выберите плитку **Администрирование**.
 3.  В левой части под заголовком **Служба поддержки** выберите пункт **Поддержка**, чтобы отправить запрос.
@@ -136,7 +136,7 @@ ms.lasthandoff: 04/12/2017
 - Частично нарушается работа одного пользователя. Существует приемлемое решение проблемы.
 
 > [!NOTE]
-> **Если вы используете Microsoft System Center Configuration Manager** или **Microsoft System Center Endpoint Protection**, чтобы получить техническую поддержку по Configuration Manager или Endpoint Protection, обратитесь к партнеру или посетите библиотеку [документации по System Center Configuration Microsoft](https://docs.microsoft.com/sccm/) и [Endpoint Protection](https://technet.microsoft.com/en-us/library/hh508836.aspx), где находится множество материалов для самостоятельного решения вопросов. Здесь также можно открыть запрос на поддержку через Интернет или по телефону.
+> **Если вы используете Microsoft System Center Configuration Manager** или **Microsoft System Center Endpoint Protection**, чтобы получить техническую поддержку по Configuration Manager или Endpoint Protection, обратитесь к партнеру или посетите библиотеку [документации по System Center Configuration Microsoft](https://docs.microsoft.com/sccm/) и [Endpoint Protection](https://technet.microsoft.com/library/hh508836.aspx), где находится множество материалов для самостоятельного решения вопросов. Здесь также можно открыть запрос на поддержку через Интернет или по телефону.
 >
 > Техническая поддержка для System Center Configuration Manager или System Center Endpoint Protection является платной или будет относиться на счет существующих лицензионных соглашений или соглашений для поддержки Premier.
 
