@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/27/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 4c790438911b06915c49bd76a4ae413b7a9471d1
-ms.openlocfilehash: 70f9638941b61309fc2d97987ab20b3d54e529ee
-ms.lasthandoff: 02/28/2017
+ms.sourcegitcommit: df54ac3a62b5ef21e8a32f3a282dd5299974a1b0
+ms.openlocfilehash: 679ac408349a82b17ec63109770126e0ad072c6d
+ms.lasthandoff: 04/12/2017
 
 
 ---
@@ -31,6 +31,10 @@ ms.lasthandoff: 02/28/2017
 
 Поддержка Intune и для Intune с Configuration Manager предоставляется бесплатно. С клиентов службы поддержки уровня Premier взимается плата за вопросы о процедурах (например, как настроить функцию Intune).
 
+>[!IMPORTANT]
+> Чтобы получить техническую поддержку для продуктов, используемых с Intune, от сторонних разработчиков (например, SaaSwedo, Cisco или Lookout), сначала попробуйте обратиться к поставщику продукта, чтобы убедиться в правильности настройки. Затем можно обратиться в службу поддержки Intune.
+
+
 ## <a name="find-help-without-opening-a-support-ticket"></a>Поиск справки без обращения в службу поддержки
 
 Поищите ответы и сведения в ресурсах ниже, прежде чем отправлять запрос в службу поддержки. Вам также пригодятся [Общие советы по устранению неполадок в Microsoft Intune](https://docs.microsoft.com/intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune).
@@ -40,6 +44,13 @@ ms.lasthandoff: 02/28/2017
 Задайте вопрос техническим экспертам Майкрософт или начните обсуждение! На [форуме TechNet по Microsoft Intune](https://social.technet.microsoft.com/Forums/home) представлена ценная информация и мы отвечаем на вопросы.
 
 ![Форум TechNet по Microsoft Intune](./media/technet-forum-for-support.png)
+
+### <a name="get-started-with-the-forum"></a>Начало работы с форумами
+
+1. На странице форумов введите в соответствующее поле "Microsoft Intune", а затем выберите нужный форум в списке.<br>
+![Элемент управления для выбора форума Intune](./media/forum-select-intune.png)
+2. Теперь вы увидите Microsoft Intune в списке выбранных форумов.<br>
+![Выбор Intune в элементе управления для выбора форумов](./media/forum-selected-intune.png)
 
 ### <a name="microsoft-intune-uservoice-product-feedback-site"></a>Сайт UserVoice с отзывами о Microsoft Intune
 
