@@ -14,8 +14,9 @@ ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ca4af205f8f391089e86e0ee7787e32813d54cca
-ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 55556d781149b97af3556f3a6774b4bc5b3b76ac
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -27,7 +28,7 @@ ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
 В этой статье рассматриваются процедуры регистрации для использования пробной версии Intune и настройки этой версии с несколькими пользователями, после выполнения которых вы сможете выполнить инструкции в связанном руководстве по оценке, чтобы узнать об управлении мобильными устройствами в Intune. <!---or app data when devices are not enrolled in Intune.--->
 
 >[!Note]
-> Начиная с декабря 2016 года Microsoft Intune перемещается на портал Azure, поэтому некоторые бесплатные пробные версии для Intune будут работать на портале Azure, а другие — в классической службе Intune. Если ваша пробная версия работает на портале Azure, после изучения этой статьи рекомендуется ознакомиться с [материалами о предварительной версии Intune Azure](https://docs.microsoft.com/en-us/intune-azure/introduction/what-is-microsoft-intune).
+> Начиная с декабря 2016 года Microsoft Intune перемещается на портал Azure, поэтому некоторые бесплатные пробные версии для Intune будут работать на портале Azure, а другие — в классической службе Intune. Если ваша пробная версия работает на портале Azure, после изучения этой статьи рекомендуется ознакомиться с [материалами о предварительной версии Intune Azure](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune).
 
 ## <a name="assumptions"></a>Допущения
 В этой статье по регистрации и руководстве по оценке предполагается, что пробная версия используется только в ознакомительных целях и запускается в чистой среде при оформлении подписки.
@@ -39,7 +40,7 @@ ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
 ## <a name="sign-up-for-your-trial"></a>Регистрация для использования ознакомительной версии
 На странице [регистрации в Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20) заполните форму регистрации для работы с пробной подпиской.
 
-Если для пробной версии Intune вы хотите использовать имеющуюся рабочую или учебную учетную запись, следуйте [этим инструкциям по входу](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1). Однако в этой статье и руководствах по оценке предполагается, что вы не используете такую учетную запись.
+Если для пробной версии Intune вы хотите использовать имеющуюся рабочую или учебную учетную запись, следуйте [этим инструкциям по входу](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1). Однако в этой статье и руководствах по оценке предполагается, что вы не используете такую учетную запись.
 
 > [!TIP]
 > Если большая часть ваших ИТ-операций и пользователей поддерживает язык и региональные параметры, отличные от ваших, этот языковой стандарт можно задать для пробной версии в целях тестирования производительности.
@@ -54,7 +55,7 @@ ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
 ## <a name="add-users"></a>Добавление пользователей
 Прежде чем выйти из Центра администрирования Office 365 для Intune, необходимо добавить несколько пользователей в пробную учетную запись.
 
-В Центре администрирования Office 365 можно добавлять пользователей индивидуально или массово путем отправки CSV-файла. При настройке пробной версии будут реализованы оба способа. Однако в рабочей среде стоит воспользоваться преимуществами учетных записей пользователей Azure Active Directory. Дополнительные сведения о них можно получить в [руководстве по началу работы](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3) и разделе [Дальнейшие действия](#Next-steps) этой статьи.
+В Центре администрирования Office 365 можно добавлять пользователей индивидуально или массово путем отправки CSV-файла. При настройке пробной версии будут реализованы оба способа. Однако в рабочей среде стоит воспользоваться преимуществами учетных записей пользователей Azure Active Directory. Дополнительные сведения о них можно получить в [руководстве по началу работы](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3) и разделе [Дальнейшие действия](#Next-steps) этой статьи.
 
 ### <a name="add-an-individual-user"></a>Добавление отдельного пользователя
 1. Выберите один из вариантов добавления, чтобы открыть форму для создания пользователя. Обязательными для указания являются элементы, отмеченные звездочкой (\*).
@@ -137,18 +138,13 @@ ms.openlocfilehash: 6bd6cc3470c93f96e7c71b5d1efe6d9ffc045a7e
 Сценарий оценки. [Оценка управления мобильными устройствами в Microsoft Intune](mobile-device-management-trial-guide-microsoft-intune.md)
 
 ### <a name="intune-azure-preview"></a>Предварительная версия Intune Azure
-Дополнительные сведения об [Intune в предварительной версии портала Azure](https://docs.microsoft.com/en-us/intune-azure/introduction/what-is-microsoft-intune)
+Дополнительные сведения об [Intune в предварительной версии портала Azure](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune)
 
 ### <a name="integration-with-other-products"></a>Интеграция с другими продуктами
 Дополнительные сведения об использовании учетных записей пользователей Azure Active Directory в Intune:
-- [Требования к удостоверениям](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
-- [Требования к синхронизации каталогов](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
-- [Требования к многофакторной идентификации](https://docs.microsoft.com/en-us/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
+- [Требования к удостоверениям](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
+- [Требования к синхронизации каталогов](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
+- [Требования к многофакторной идентификации](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
-Дополнительные сведения об использовании [Intune с System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
+Дополнительные сведения об использовании [Intune с System Center Configuration Manager](https://docs.microsoft.com/sccm/mdm/understand/hybrid-mobile-device-management)
 

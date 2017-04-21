@@ -15,8 +15,9 @@ ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: 11ed6b14bc940940e6fa22f6760420e690ac364f
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: c47106ddfebcd1df8c1bc5090bf3f047015b6c45
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -40,7 +41,7 @@ Microsoft Intune может помочь предотвратить потерю
 > [!NOTE]
 > Windows пока не является поддерживаемой платформой для мобильных приложений Office. Управление мобильными приложениями без регистрации пока не совместимо с локальными развертываниями Exchange и SharePoint. Вы можете защищать только данные, размещенные в веб-версиях.
 
-Это руководство может помочь вам защитить свою организацию от потери данных путем применения секретных кодов и шифрования данных с помощью политик в мобильных приложениях, которые ваши сотрудники используют для доступа к конфиденциальным данным. При этом не требуется полностью выполнять процедуру регистрации в решении для управления устройствами. Microsoft Intune позволяет настраивать политики управления мобильными приложениями (MAM) в мобильных приложениях Office для [iOS](https://products.office.com/en-us/mobile/office-mobile-apps-for-ios) и [Android](https://products.office.com/en-us/mobile/office-mobile-apps-for-android). Такой подход обеспечивает защиту данных Office 365 и не требует регистрации устройств пользователями в решении для управления мобильными устройствами, поэтому конечные пользователи смогут по-прежнему комфортно работать с мобильными приложениями Office.
+Это руководство может помочь вам защитить свою организацию от потери данных путем применения секретных кодов и шифрования данных с помощью политик в мобильных приложениях, которые ваши сотрудники используют для доступа к конфиденциальным данным. При этом не требуется полностью выполнять процедуру регистрации в решении для управления устройствами. Microsoft Intune позволяет настраивать политики управления мобильными приложениями (MAM) в мобильных приложениях Office для [iOS](https://products.office.com/mobile/office-mobile-apps-for-ios) и [Android](https://products.office.com/mobile/office-mobile-apps-for-android). Такой подход обеспечивает защиту данных Office 365 и не требует регистрации устройств пользователями в решении для управления мобильными устройствами, поэтому конечные пользователи смогут по-прежнему комфортно работать с мобильными приложениями Office.
 
 ## <a name="how-do-i-do-it"></a>Как это сделать?
 1.    [Узнайте, как можно защитить данные приложения](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
@@ -50,10 +51,5 @@ Microsoft Intune может помочь предотвратить потерю
 ## <a name="additional-information"></a>Дополнительная информация:
 - [Что происходит при управлении приложением iOS с помощью политик MAM](/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune)
 - [Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](/intune/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)
-- [Просмотр списка партнеров, предоставляющих приложения для Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
+- [Просмотр списка партнеров, предоставляющих приложения для Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-partners)
 

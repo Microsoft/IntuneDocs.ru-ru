@@ -15,8 +15,9 @@ ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f46f13e9dbf03fa2b3e2ec7339cad927ea0b38e0
-ms.openlocfilehash: 9a9899e192db1488c9a2c0fd38ffed6cef625c34
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: a89c2b26daf2b3b4da57e0c190f772e078681bee
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -130,7 +131,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 -   Импортируйте выходное приложение в консоль Intune на том же компьютере, где запущен инструмент. Дополнительные сведения о Java Keytool см. [здесь](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html).
 
--   Если выходное приложение и инструмент расположены по UNC-пути и вы не используете инструмент и входные файлы на одном и том же компьютере, настройте среду на безопасную работу с помощью [протокола IPsec](http://en.wikipedia.org/wiki/IPsec) или [подписывания SMB](https://support.microsoft.com/en-us/kb/887429).
+-   Если выходное приложение и инструмент расположены по UNC-пути и вы не используете инструмент и входные файлы на одном и том же компьютере, настройте среду на безопасную работу с помощью [протокола IPsec](http://wikipedia.org/wiki/IPsec) или [подписывания SMB](https://support.microsoft.com/kb/887429).
 
 -   Убедитесь, что приложение получено из надежного источника.
 
@@ -140,9 +141,4 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 - [Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
 
 - [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](use-the-sdk-to-enable-apps-for-mobile-application-management.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

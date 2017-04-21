@@ -15,8 +15,9 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 7b91e52d72704b6beb79a1b35bb1a24ebb340a4b
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 2de9a7d639ee667ee195ded2875a8ac8e478fffb
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -34,7 +35,7 @@ ms.openlocfilehash: 7b91e52d72704b6beb79a1b35bb1a24ebb340a4b
 Кроме того, политики соответствия можно использовать независимо от условного доступа. При независимом использовании политики соответствия происходит оценка целевых устройств и вывод сведений о них с указанием состояния соответствия. Например, может потребоваться сообщить от количестве незашифрованных устройств или количестве устройств со снятой защитой или административным доступом. Однако если политики соответствия используются независимо друг от друга, доступ к корпоративным ресурсам не ограничивается.
 
 Политики соответствия развертываются для пользователей. При развертывании политики соответствия для пользователя его устройства проверяются на соответствие.
-Дополнительные сведения о том, сколько времени требуется мобильным устройствам для получения политики после развертывания, см. в разделе [Управление настройками и функциями на устройствах](https://docs.microsoft.com/en-us/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies#frequently-asked-questions-about-intune-policies)
+Дополнительные сведения о том, сколько времени требуется мобильным устройствам для получения политики после развертывания, см. в разделе [Управление настройками и функциями на устройствах](https://docs.microsoft.com/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies#frequently-asked-questions-about-intune-policies)
 
 Ниже перечислены типы устройств, которые поддерживает политика соответствия. В таблице также описано управление несоответствующими параметрами при использовании политики соответствия с политикой условного доступа.
 
@@ -67,9 +68,4 @@ ms.openlocfilehash: 7b91e52d72704b6beb79a1b35bb1a24ebb340a4b
 
 ### <a name="see-also"></a>См. также
 [Ограничение доступа к электронной почте и службам Office 365](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

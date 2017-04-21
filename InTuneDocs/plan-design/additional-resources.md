@@ -15,8 +15,9 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 53bb650bbb20d5efae0ba53f0c0bc257a19cbaae
-ms.openlocfilehash: caa197f030008da886462ca734ea3d28980aa6da
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 1dbfff2da9f11eb87315b9fdd6f6d608faef2523
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -75,12 +76,7 @@ ms.openlocfilehash: caa197f030008da886462ca734ea3d28980aa6da
 
 -   [Intune User Voice](http://microsoftintune.uservoice.com/)
 
--   [Обучение по развертыванию EMS в Microsoft Virtual Academy](https://mva.microsoft.com/en-US/training-courses/deploying-microsoft-enterprise-mobility-suite-16408?l=wjq9vmwvD_5805996570)
+-   [Обучение по развертыванию EMS в Microsoft Virtual Academy](https://mva.microsoft.com/training-courses/deploying-microsoft-enterprise-mobility-suite-16408?l=wjq9vmwvD_5805996570)
 
 -   [Руководство по регистрации](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT)
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

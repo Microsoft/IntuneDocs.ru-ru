@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab5aa4e12d951d818c5afb4e1ac5e866b05733fb
-ms.openlocfilehash: 35543604ed68393e859517e32f5186247be001df
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: f30ab8799b2e049372139c7f9ee7213547736bb0
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/27/2017
 
 ## <a name="app-protection-policies-with-lob-apps"></a>Политики защиты приложения с бизнес-приложениями
 
-Политики защиты мобильных приложений можно также применять к бизнес-приложениям, используя [пакет SDK для приложений Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management) или средства упаковки приложений Microsoft Intune на платформах [iOS](https://www.microsoft.com/en-us/download/details.aspx?id=45218&751be11f-ede8-5a0c-058c-2ee190a24fa6=True) и [Android](https://www.microsoft.com/en-us/download/details.aspx?id=47267).
+Политики защиты мобильных приложений можно также применять к бизнес-приложениям, используя [пакет SDK для приложений Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management) или средства упаковки приложений Microsoft Intune на платформах [iOS](https://www.microsoft.com/download/details.aspx?id=45218&751be11f-ede8-5a0c-058c-2ee190a24fa6=True) и [Android](https://www.microsoft.com/download/details.aspx?id=47267).
 
 ## <a name="how-do-app-protection-policies-help-during-migration"></a>Как политики защиты приложений помогают во время миграции?
 
@@ -46,9 +46,9 @@ Intune может предложить защиту корпоративных �
 
 ## <a name="task-list-for-app-protection-policies"></a>Список задач для политик защиты приложений
 
--   Задача 1. Узнайте, [как приступить к настройке политик защиты мобильных приложений](https://docs.microsoft.com/en-us/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune).
+-   Задача 1. Узнайте, [как приступить к настройке политик защиты мобильных приложений](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune).
 
--   Задача 2. Узнайте, [как создать и развернуть политики защиты мобильных приложений](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune).
+-   Задача 2. Узнайте, [как создать и развернуть политики защиты мобильных приложений](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune).
 
 ## <a name="next-steps"></a>Дальнейшие действия 
 

@@ -14,8 +14,9 @@ ms.assetid: 170cd959-d35b-4129-ae60-117d7e881bc9
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 361348939341b580a9abc576938522d166125183
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 31788f18d983ab6b0fc57a93566bd43e6606f10f
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -36,7 +37,7 @@ ms.openlocfilehash: 361348939341b580a9abc576938522d166125183
 ## <a name="intune-capabilities"></a>Возможности Intune
 Intune имеет широкий набор возможностей в дополнение к тем, которые описаны в этом кратком пошаговом руководстве по установке. Рассмотрим некоторые примеры этих возможностей.
 
--   **Управление доступом к Exchange и Office 365.** Дополнительные сведения см. в статьях [Управление доступом приложений к Exchange Online](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) и [Управление доступом приложений к службам Office 365](https://docs.microsoft.com/en-us/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune).
+-   **Управление доступом к Exchange и Office 365.** Дополнительные сведения см. в статьях [Управление доступом приложений к Exchange Online](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) и [Управление доступом приложений к службам Office 365](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune).
 
 -   **Управление устройствами с iOS, являющимися собственностью организации.** Дополнительные сведения см. в статье [Регистрация корпоративных устройств iOS в Microsoft Intune](/Intune/Deploy-Use/enroll-corporate-owned-ios-devices-in-microsoft-intune).
 
@@ -56,9 +57,4 @@ Intune имеет широкий набор возможностей в допо
 Прочитайте о [стандартных способах использования Intune](common-ways-to-use-intune.md).
 
 Преобразование в [платную подписку](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

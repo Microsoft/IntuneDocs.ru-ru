@@ -14,9 +14,9 @@ ms.assetid: 47806f69-303d-41d9-9b0e-9b9445ea24ac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: eeb85a28ea6f99a0123ec5df3b0d476a678b85cb
-ms.openlocfilehash: 4133c64d283682f0be37cd6ac69164ef872a5026
-ms.lasthandoff: 01/05/2017
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 9a988945c499c3145208b86d6832d02c28136ece
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -43,8 +43,8 @@ ms.lasthandoff: 01/05/2017
 ## <a name="whats-not-covered"></a>Неохваченные темы
 |Интересующий вас вопрос |Статья |
 |------------------------|----------|
-|MDM в среде, не являющейся тестовой | [Приступая к работе](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune) |
-|MDM с Intune and System Center Configuration Manager | [Гибридное управление мобильными устройствами](https://docs.microsoft.com/en-us/sccm/mdm/understand/hybrid-mobile-device-management) |
+|MDM в среде, не являющейся тестовой | [Приступая к работе](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune) |
+|MDM с Intune and System Center Configuration Manager | [Гибридное управление мобильными устройствами](https://docs.microsoft.com/sccm/mdm/understand/hybrid-mobile-device-management) |
 
 Поскольку указанные выше руководства предназначены для настройки Intune в рабочих средах, они охватывают больше точек принятия решений, которые необходимо проработать, чем руководство по оценке.
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 01/05/2017
 
 Если вы используете автономное развертывание Intune, как предполагается в этой пробной версии, или используете Intune в составе подписки Enterprise Mobility + Security (EMS), необходимо задать Intune в качестве центра управления мобильными устройствами. При этом Intune становится службой, применяемой для управления мобильными устройствами в вашей организации.
 
-Клиентам, желающим использовать Intune с System Center Configuration Manager для управления мобильными устройствами, необходимо решить, что будет их центром управления мобильными устройствами — Intune или Configuration Manager. Это важное решение, принимаемое в рабочей среде, так как в настоящее время очень сложно изменить уже сделанный выбор. Кроме того, этот вопрос не рассматривается в настоящем руководстве по оценке. Дополнительные сведения о последствии настройки Intune или Configuration Manager в качестве центра MDM см. в статье [Choose between standalone Intune and hybrid mobile device management](https://docs.microsoft.com/en-us/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management) (Выбор между автономной версией Intune и гибридным управлением мобильными устройствами).
+Клиентам, желающим использовать Intune с System Center Configuration Manager для управления мобильными устройствами, необходимо решить, что будет их центром управления мобильными устройствами — Intune или Configuration Manager. Это важное решение, принимаемое в рабочей среде, так как в настоящее время очень сложно изменить уже сделанный выбор. Кроме того, этот вопрос не рассматривается в настоящем руководстве по оценке. Дополнительные сведения о последствии настройки Intune или Configuration Manager в качестве центра MDM см. в статье [Choose between standalone Intune and hybrid mobile device management](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management) (Выбор между автономной версией Intune и гибридным управлением мобильными устройствами).
 
 В пробной версии Intune будет установлена в качестве центра управления мобильными устройствами. Это не повлияет на рабочую среду, если только в ней не будет использоваться пробная версия.
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 01/05/2017
 3.    **Добавление сертификата APNs в Intune**<BR/>
 В консоли администрирования Microsoft Intune последовательно выберите пункты **Администрирование** > **Управление мобильными устройствами** > **iOS и Mac OS X** > **Отправка сертификата APNs**, а затем выберите команду **Отправить сертификат APNs**. Перейдите к файлу сертификата (PEM) и нажмите кнопку **Открыть**, а затем введите ваш идентификатор Apple. С помощью сертификата APNs Служба Intune позволяет регистрировать устройства с iOS и управлять ими, принудительно применяя политику к зарегистрированным мобильным устройствам.
 4.    **Сообщите пользователям, как регистрировать свои устройства, чтобы получить доступ к ресурсам компании.**<br/>
-Дополнительные сведения о регистрации для пользователей см. в статьях [Регистрация устройства iOS в Intune](https://docs.microsoft.com/en-us/Intune/enduser/enroll-your-device-in-intune-ios) и [Регистрация устройства Mac OS X в Intune](https://docs.microsoft.com/en-us/Intune/enduser/enroll-your-device-in-intune-mac-os-x). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
+Дополнительные сведения о регистрации для пользователей см. в статьях [Регистрация устройства iOS в Intune](https://docs.microsoft.com/Intune/enduser/enroll-your-device-in-intune-ios) и [Регистрация устройства Mac OS X в Intune](https://docs.microsoft.com/Intune/enduser/enroll-your-device-in-intune-mac-os-x). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
 
 
 ### <a name="learn-more-about-device-enrollment"></a>Дополнительные сведения о регистрации устройств
