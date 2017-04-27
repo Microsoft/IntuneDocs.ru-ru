@@ -58,13 +58,13 @@
 <!--- ## [Plan and design](manage-devices/plan-and-design.md) --->
 ## Инструкции
 ### [Использование полной или выборочной очистки](manage-devices/use-full-or-selective-wipe-on-devices-using-microsoft-intune.md)
-### [Удаленное управление устройствами Android](manage-devices/control-android-devices-with-teamviewer.md)
 <!--- ## [Troubleshoot](manage-devices/troubleshooting.md) --->
 
 # Управление пользователями
 ## [Что такое управление пользователями?](manage-users/what-is.md)
 <!--- Was What is users & group management--->
 ## [Приступая к работе](manage-users/get-started-with-groups.md)
+## [Справка для пользователей](manage-users/help-desk.md)
 <!--- ## [Plan and design](manage-users/plan-and-design.md) --->
 
 <!--- ## [Troubleshoot](manage-users/troubleshooting.md) --->
