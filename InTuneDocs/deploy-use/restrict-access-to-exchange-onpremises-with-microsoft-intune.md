@@ -83,10 +83,7 @@ ms.lasthandoff: 03/30/2017
 -   Почтовые клиенты Exchange ActiveSync, например Gmail на Android 4 или более поздней версии.
 -   Почтовые клиенты Exchange ActiveSync на **устройствах Android for Work**: на устройствах Android for Work поддерживаются только приложения **Gmail** и **Nine Work** в **рабочем профиле**. Чтобы условный доступ работал для Android for Work, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work, а также развернуть эти приложения в качестве обязательной установки. 
 
-<!---
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
---->
-> [!NOTE] 
+> [!NOTE]
 > Приложение Microsoft Outlook в iOS и Android не поддерживается.
 
 ## <a name="support-for-pcs"></a>Поддержка для ПК

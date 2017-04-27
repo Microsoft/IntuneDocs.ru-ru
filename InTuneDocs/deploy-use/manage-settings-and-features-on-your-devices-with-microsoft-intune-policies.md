@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: f153e3a58f9655bd1e36094f292098c9f55742b6
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -41,7 +42,6 @@ ms.openlocfilehash: f153e3a58f9655bd1e36094f292098c9f55742b6
 - **Политики доступа к ресурсам**. Эти политики действуют совместно, чтобы помочь пользователям получить доступ к файлам и ресурсам, необходимым для успешной работы, независимо от их типа.
 Дополнительные сведения см. в разделе [Разрешение доступа к корпоративным ресурсам с помощью Microsoft Intune](enable-access-to-company-resources-with-microsoft-intune.md).
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 Полный список политик Intune см. в статье [Справочник по политикам Microsoft Intune](microsoft-intune-policy-reference.md).
 
@@ -212,9 +212,4 @@ Intune не оценивает полезные данные файлов кон
 ### <a name="where-can-i-find-help-troubleshooting-policies"></a>Где найти справочную информацию об устранении проблем, связанных с политиками?
 
 См. статью [Устранение проблем с политиками Microsoft Intune](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune).
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

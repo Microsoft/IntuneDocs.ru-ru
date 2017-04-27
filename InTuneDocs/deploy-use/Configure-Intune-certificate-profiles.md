@@ -58,8 +58,6 @@ ms.lasthandoff: 04/14/2017
 
 -  Windows Phone 8.1 и более поздней версии
 
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
-
 2.  Добавление политики **Профиль доверенного сертификата**
 
     Дополнительные сведения см. в статье [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md).
