@@ -12,7 +12,7 @@
 
 # [Приступая к работе](get-started/get-started.md)
 ## [Настройка Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune.md)
-### [Предварительные требования]
+### Необходимые компоненты
 #### [Поддерживаемые устройства](get-started/what-to-know-before-you-start-microsoft-intune.md)
 #### [Использование сети](get-started/network-bandwidth-use.md)
 ### [Вход в Intune](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1.md)
@@ -189,10 +189,13 @@
 
 ### [Защита данных приложения с помощью MAM](deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 #### [Портал Azure для политик защиты приложений](deploy-use/azure-portal-for-microsoft-intune-mam-policies.md)
-#### [Подготовка к настройке политик защиты приложений](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
-#### [Создание и развертывание политик защиты приложений](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Подготовка к настройке политик защиты приложений для iOS и Android](deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Подготовка к настройке политик защиты приложений для Windows 10](deploy-use/get-ready-to-configure-app-protection-policies-for-windows-10.md)
 #### [Политики защиты приложений для Android](deploy-use/android-mam-policy-settings.md)
 #### [Политики защиты приложений для iOS](deploy-use/ios-mam-policy-settings.md)
+#### [Политики защиты приложений для Windows](deploy-use/create-windows-information-protection-policy-with-intune.md)
+#### [Создание и развертывание политик защиты приложений для iOS и Android](deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
+#### [Создание и развертывание политик защиты приложений WIP для Windows 10](deploy-use/create-windows-information-protection-policy-with-intune.md)
 #### [Проверка политик защиты приложений](deploy-use/validate-mobile-application-management.md)
 #### [Мониторинг соответствия политикам защиты приложений](deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune.md)
 
