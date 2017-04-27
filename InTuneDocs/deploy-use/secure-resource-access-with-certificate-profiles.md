@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
 ms.openlocfilehash: 9cf53cb240ba14317fbb680ad4f4c40c8320506d
+ms.lasthandoff: 12/10/2016
 
 
 ---
@@ -36,8 +37,6 @@ ms.openlocfilehash: 9cf53cb240ba14317fbb680ad4f4c40c8320506d
  -  Android for Work
  -  Windows 8.1 и более поздние версии
  -  Windows Phone 8.1 и более поздней версии
-
-[!INCLUDE[wit_nextref](../includes/afw_rollout_disclaimer.md)]
 
 3. Создайте профили сертификатов, чтобы устройства запрашивали сертификат, используемый для проверки подлинности доступа к VPN, Wi-Fi и электронной почте, как описано в статье [Настройка профилей сертификатов Intune](configure-intune-certificate-profiles.md). Можно создать и развернуть **профиль сертификата PKCS 12 (PFX)** *или* **профиль сертификата SCEP** для устройств на следующих платформах:
 
@@ -62,9 +61,4 @@ ms.openlocfilehash: 9cf53cb240ba14317fbb680ad4f4c40c8320506d
 - [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md)
 - [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md)
 - [Настройка профилей сертификатов Intune](configure-intune-certificate-profiles.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
