@@ -15,8 +15,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: fa8f4b1df83e37ab20d5b4a045ba535758368835
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 47d1437159da85b958e6e6fa91fa743d7746c5ce
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -46,7 +47,7 @@ ms.openlocfilehash: fa8f4b1df83e37ab20d5b4a045ba535758368835
 
 ## <a name="create-a-default-access-rule"></a>Создание правила доступа по умолчанию
 
-1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) выберите **Политика** &gt; **Exchange ActiveSync**.
+1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** &gt; **Exchange ActiveSync**.
 
 2.  В списке **Правило по умолчанию** выберите правило доступа, которое будет применено ко всем мобильным устройствам, на которые не распространяются правила или индивидуальные исключения. Выберите **Сохранить**.
 
@@ -54,12 +55,7 @@ ms.openlocfilehash: fa8f4b1df83e37ab20d5b4a045ba535758368835
 
 ## <a name="create-a-custom-access-rule"></a>Создание настраиваемого правила доступа
 
-1. В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) выберите **Политика** &gt; **Exchange ActiveSync**.
+1. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** &gt; **Exchange ActiveSync**.
 
 2.  В списке **Исключения платформы** щелкните **Добавить правило** и создайте настраиваемое правило. Выберите **Сохранить**.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

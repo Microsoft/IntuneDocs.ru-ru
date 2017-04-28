@@ -15,9 +15,9 @@ ms.reviewer: lacranda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 86fd9d7212277f9524eb4d7f225df2c7beda1313
-ms.openlocfilehash: a5a4f11ae341480b2e674ca55a514b62831bdd60
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 4042a22ecfbab7970ea4b3dab8ee6a82b0da5f78
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/21/2017
 
 Как администратор Intune вы можете включить управление устройствами Android (в т. ч. устройства Samsung Knox Standard) из корпоративного портала. После этого пользователи могут зарегистрировать свои устройства с помощью доступного в Google Play приложения корпоративного портала.
 
-По умолчанию устройства с Android могут зарегистрироваться для участия в Intune. Чтобы запретить регистрацию устройств с Android, войдите на [портал администрирования Microsoft Intune](http://manage.microsoft.com), используя учетные данные администратора. Откройте раздел **Администратор** > **Управление мобильными устройствами** > **Правила регистрации** и снимите флажок **Разрешить устройства с Android**.
+По умолчанию устройства с Android могут зарегистрироваться для участия в Intune. Чтобы запретить регистрацию устройств с Android, войдите на [портал администрирования Microsoft Intune](https://manage.microsoft.com), используя учетные данные администратора. Откройте раздел **Администратор** > **Управление мобильными устройствами** > **Правила регистрации** и снимите флажок **Разрешить устройства с Android**.
 
 1.  **Настройка Intune**<br>
     Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#step-2-set-mdm-authority) службу **Microsoft Intune** и настроив MDM.

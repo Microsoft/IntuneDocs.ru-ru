@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: dbc5f1b106df17aa8875997330dbfbb04a81f82f
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 02e54d4ae2ffa860fb95725c74fdff913e88365b
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -40,13 +41,13 @@ ms.openlocfilehash: dbc5f1b106df17aa8875997330dbfbb04a81f82f
 
 Зарегистрированные пользователи получают свои приложения, коснувшись следующих элементов на экране приложений в приложении корпоративного портала:
 
-- Элемент **Все приложения** открывает список всех приложений на вкладке "ВСЕ" [веб-сайта корпоративного портала](http://portal.manage.microsoft.com).
+- Элемент **Все приложения** открывает список всех приложений на вкладке "ВСЕ" [веб-сайта корпоративного портала](https://portal.manage.microsoft.com).
 
 - Элемент **Специальные приложения** направляет пользователей на вкладку "ПОДБОРКА" веб-сайта корпоративного портала.
 
 - Элемент **Категории** ведет на вкладку "КАТЕГОРИИ" веб-сайта корпоративного портала.
 
- 
+
 ![Экран приложений корпоративного портала для iOS](./media/ios-cp-app-main-apps-screen.png)
 
 Сведения о том, как добавлять приложения и размещать их на этих элементах, см. в разделе [Добавление приложений для зарегистрированных устройств в Intune](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune.md).
@@ -55,9 +56,4 @@ ms.openlocfilehash: dbc5f1b106df17aa8875997330dbfbb04a81f82f
 [Получение приложений пользователями Android](how-your-android-users-get-their-apps.md)
 
 [Получение приложений пользователями Windows](how-your-windows-users-get-their-apps.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
