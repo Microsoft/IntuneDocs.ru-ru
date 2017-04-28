@@ -15,9 +15,9 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a4b6d8b0a63d707631e3f0e231b2e9b40f2609cf
-ms.openlocfilehash: 1d8109fca8170ad127f6377918d7c0313ba26d78
-ms.lasthandoff: 03/24/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: ea57a51f2855dea416ad4a76e657e1846ffe41f1
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -69,9 +69,9 @@ ms.lasthandoff: 03/24/2017
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств
 
-1.  Убедитесь, что пользователь, которого вы хотите добавить в учетную запись DEM, уже существует. Если вам нужно добавить пользователя, войдите на [портал Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854) и выполните действия, описанные в статье [Добавление пользователей в Office 365 по одному или массово](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
+1.  Убедитесь, что пользователь, которого вы хотите добавить в учетную запись DEM, уже существует. Если вам нужно добавить пользователя, войдите на [портал Office 365](https://go.microsoft.com/fwlink/p/?LinkId=698854) и выполните действия, описанные в статье [Добавление пользователей в Office 365 по одному или массово](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
 
-2.  Войдите в [консоль администрирования Microsoft Intune](http://manage.microsoft.com), используя учетные данные администратора.
+2.  Войдите в [консоль администрирования Microsoft Intune](https://manage.microsoft.com), используя учетные данные администратора.
 
 3.  На панели навигации выберите **Администрирование**, перейдите в раздел **Управление администраторами** и выберите **Диспетчер регистрации устройств**. Откроется страница **Диспетчеры регистрации устройств**.
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 03/24/2017
 
 ## <a name="delete-a-device-enrollment-manager-from-intune"></a>Удаление диспетчера регистрации устройств из Intune
 
-1.  Войдите на [портал администрирования Microsoft Intune](http://manage.microsoft.com), используя учетные данные администратора.
+1.  Войдите на [портал администрирования Microsoft Intune](https://manage.microsoft.com), используя учетные данные администратора.
 
 2.  На панели навигации выберите **Администрирование**, перейдите в раздел **Управление администраторами** и выберите **Диспетчер регистрации устройств**. Откроется страница **Диспетчеры регистрации устройств**.
 

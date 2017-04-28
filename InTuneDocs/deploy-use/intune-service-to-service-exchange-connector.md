@@ -15,8 +15,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: b322f368637e39da1ab10b41dd724859fb49e1f2
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: dce7050a7439a7e24e34be3c79473d6ec3159c83
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -50,7 +51,7 @@ ms.openlocfilehash: b322f368637e39da1ab10b41dd724859fb49e1f2
 
 ## <a name="set-up-the-service-to-service-connector"></a>Настройка службы для соединителя службы
 
-1. Откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com) с использованием учетной записи с правами администратора Exchange и разрешениями для командлетов, [приведенных выше](#exchange-cmdlet-requirements). Для настройки подключения Microsoft Intune использует адрес электронной почты пользователя, вошедшего в систему.
+1. Откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com) с использованием учетной записи с правами администратора Exchange и разрешениями для командлетов, [приведенных выше](#exchange-cmdlet-requirements). Для настройки подключения Microsoft Intune использует адрес электронной почты пользователя, вошедшего в систему.
 
 2.  На панели ярлыков рабочей области последовательно выберите пункты **Администрирование**>**Управление мобильными устройствами** > **Microsoft Exchange** > **Настройка подключения Exchange**.
 ![Страница настройки Service To Service Connector](../media/intunesa5cservicetoserviceconnector.png)
@@ -62,12 +63,7 @@ Service To Service Connector автоматически настроится и 
 
 ## <a name="validate-your-exchange-connection"></a>Проверка подключения к Exchange
 
-После успешной настройки Exchange Connector перейдите в [консоль администрирования Microsoft Intune](http://manage.microsoft.com). Последовательно выберите пункты **Администрирование**> **Управление мобильными устройствами** > **Microsoft Exchange**. Убедитесь, что указанные сведения отображаются в разделе **Сведения о подключении Exchange**.
+После успешной настройки Exchange Connector перейдите в [консоль администрирования Microsoft Intune](https://manage.microsoft.com). Последовательно выберите пункты **Администрирование**> **Управление мобильными устройствами** > **Microsoft Exchange**. Убедитесь, что указанные сведения отображаются в разделе **Сведения о подключении Exchange**.
 
 Также можно проверить время и дату последней успешной попытки синхронизации.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

@@ -15,8 +15,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: f35a6da93e48141489b89e62b37b473d885479cf
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: c4023007f993436e0d7628cce52f78a1127c88f8
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -50,7 +51,7 @@ ms.openlocfilehash: f35a6da93e48141489b89e62b37b473d885479cf
 |**Обязательное использование шифрования на картах памяти**|Требует шифровать данные, хранящиеся на внешних носителях, например SD-картах (на поддерживаемых устройствах).
 <sup>1</sup> Дополнительная информация для устройств, работающих под управлением Windows 8.1
 
--   Чтобы применить шифрование на устройствах, работающих под управлением Windows 8.1, необходимо установить [обновление клиента MDM для Windows от декабря 2014 года](http://support.microsoft.com/kb/3013816) на всех устройствах.
+-   Чтобы применить шифрование на устройствах, работающих под управлением Windows 8.1, необходимо установить [обновление клиента MDM для Windows от декабря 2014 года](https://support.microsoft.com/kb/3013816) на всех устройствах.
 
 -   Если включить этот параметр для устройств с Windows 8.1, все пользователи таких устройств должны иметь учетную запись Майкрософт.
 
@@ -82,9 +83,4 @@ ms.openlocfilehash: f35a6da93e48141489b89e62b37b473d885479cf
 
 ### <a name="see-also"></a>См. также
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

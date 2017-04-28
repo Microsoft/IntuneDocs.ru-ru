@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: f57323fe0b093f2478d71d3f01b9c0e5ee2727eb
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 160b8a7fe883b8af61831b30b711ad0243a3ec08
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -55,7 +55,7 @@ ms.lasthandoff: 04/14/2017
 > Необходимо тщательно продумать вариант управления мобильными устройствами: с помощью только Intune (веб-служба) или System Center Configuration Manager с Intune (локальное программное решение в сочетании с веб-службой). После выбора центра управления мобильными устройствами его можно изменить, только обратившись в службу технической поддержки Майкрософт. Инструкции см. в разделе [Что делать, если центр управления мобильными устройствами выбран неправильно](#what-to-do-if-you-choose-the-wrong-mdm-authority-setting).
 
 
-1.  В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) щелкните **Администрирование** &gt; **Управление мобильными устройствами**.
+1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) щелкните **Администрирование** &gt; **Управление мобильными устройствами**.
 
 2.  В списке **Задачи** выберите **Задать центр управления мобильными устройствами**. Откроется диалоговое окно **Установка центра MDM**.
 

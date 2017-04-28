@@ -13,9 +13,9 @@ ms.technology:
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: a85b9f603e022b3296cb16754effd06087074a72
-ms.openlocfilehash: df1a9b21cd7114c2eebfeb114edf161c4a0e9ef3
-ms.lasthandoff: 04/01/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 660d0c69fc09c6ec8b82185b3808269ef4bb6852
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 04/01/2017
 Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8#enable-device-enrollment) службу **Microsoft Intune** и настроив MDM.
 
 2. **Настройка привязки Android for Work**<br>
-    Выполнив вход в качестве администратора Intune, откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com), последовательно выберите **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Android for Work** и нажмите кнопку **Настроить**, чтобы открыть веб-сайт Android for Work в Google Play. Он откроется на новой вкладке в браузере.
+    Выполнив вход в качестве администратора Intune, откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com), последовательно выберите **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Android for Work** и нажмите кнопку **Настроить**, чтобы открыть веб-сайт Android for Work в Google Play. Он откроется на новой вкладке в браузере.
 
 3. **Вход в Google**<br>
    На странице входа в Google выполните вход с учетной записью Google, которая будет связана со всеми задачами управления устройствами Android for Work для этого клиента. Это учетная запись Google, которая совместно используется ИТ-администраторами в организации для управления и публикации приложений в консоли Play for Work.
@@ -59,7 +59,7 @@ ms.lasthandoff: 04/01/2017
 ### <a name="how-to-unbind-an-android-for-work-account"></a>Отмена привязки учетной записи Android for Work
 
 1. **Отмена привязки Android for Work**<br>
-    В качестве пользователя с правами администратора откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com), последовательно выберите **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Android for Work** и нажмите кнопку **Отменить привязку**.
+    В качестве пользователя с правами администратора откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com), последовательно выберите **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Android for Work** и нажмите кнопку **Отменить привязку**.
 
 2. **Согласие на удаление привязки Android for Work**<br>
   Нажмите кнопку **Да**, чтобы удалить привязку и отменить регистрацию всех устройств Android for Work в Intune.

@@ -15,9 +15,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 911d2887791cf16d4290c3ac5189aa44086f4603
-ms.openlocfilehash: 8f18f9ff2c32bb24b68fa987a8aad990b911a549
-ms.lasthandoff: 03/11/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 2a35387cdc2ebeb3c83fa043a8b2c6583fccdbc9
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/11/2017
 
 Организации, использующие локальную или размещенную в облаке службу [Exchange ActiveSync](#mobile-device-management-with-exchange-activesync-and-intune), могут реализовать простой процесс управления Intune без регистрации. Компьютерами Windows также можно управлять с помощью [клиентского ПО Intune](#manage-windows-pcs-with-intune).
 
-По умолчанию устройства на любых платформах могут регистрироваться в Intune. Чтобы запретить регистрацию устройств, войдите на [портал администрирования Microsoft Intune](http://manage.microsoft.com), используя учетные данные администратора. Выберите пункт **Администратор** > **Управление мобильными устройствами** > **Правила регистрации** и снимите флажки для платформ, которые нужно заблокировать.
+По умолчанию устройства на любых платформах могут регистрироваться в Intune. Чтобы запретить регистрацию устройств, войдите на [портал администрирования Microsoft Intune](https://manage.microsoft.com), используя учетные данные администратора. Выберите пункт **Администратор** > **Управление мобильными устройствами** > **Правила регистрации** и снимите флажки для платформ, которые нужно заблокировать.
 
 ## <a name="overview-of-device-enrollment-methods"></a>Общие сведения о методах регистрации устройств
 
