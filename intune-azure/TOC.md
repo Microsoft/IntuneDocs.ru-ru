@@ -118,7 +118,6 @@
 #### [Макет начального экрана для iOS](configure-devices/home-screen-settings-for-ios.md)
 #### [Уведомления приложений для iOS](configure-devices/app-notification-settings-for-ios.md)
 #### [Общие устройства для iOS](configure-devices/shared-device-settings-for-ios.md)
-#### [Фильтр веб-содержимого для iOS](configure-devices/web-content-filter-settings-for-ios.md)
 
 ### [Настройка ограничений для устройств](configure-devices/how-to-configure-device-restrictions.md)
 #### [Android](configure-devices/device-restrictions-for-android.md)
@@ -194,7 +193,8 @@
 ## [Что такое условный доступ?](conditional-access/what-is-conditional-access.md)
 ## Инструкции
 ### [Установка локального коннектора Exchange](conditional-access/install-intune-on-premises-exchange-connector.md)
-### [Создание политики условного доступа](conditional-access/create-conditional-access-policy-for-exchange-on-premises.md)
+### [Создание и назначение политики условного доступа](conditional-access/create-conditional-access-policy-for-exchange-on-premises.md)
+### [Мониторинг соответствия условного доступа](conditional-access/monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online.md)
 
 # Контроль доступа
 ## [Что такое управление доступом на основе ролей?](access-control/role-based-access-control.md)
