@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: e1bc6388ec1927693bac676a20a18935cdbf894e
-ms.lasthandoff: 04/19/2017
+ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
+ms.openlocfilehash: fddd4963ceea09b37ad4d8c739f437dbcf3b053e
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -49,7 +49,6 @@ ms.lasthandoff: 04/19/2017
     - [Параметры макета начального экрана для iOS](home-screen-settings-for-ios.md)
     - [Параметры уведомлений приложения для iOS](app-notification-settings-for-ios.md)
     - [Параметры конфигурации iOS общего устройства](shared-device-settings-for-ios.md)
-    - [Параметры фильтра веб-содержимого для iOS](web-content-filter-settings-for-ios.md)
 
 8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
 
