@@ -1,11 +1,11 @@
 ---
 title: "Регистрация устройства iOS в службе управления затратами на телекоммуникации с помощью Intune"
-description: 
+description: "Узнайте, как зарегистрировать устройство iOS в службе управления затратами на телекоммуникации."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/03/2017
+ms.date: 04/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,14 +13,14 @@ ms.technology:
 ms.assetid: 6d8c6372-f2ce-4558-8886-1d7c1966699c
 searchScope:
 - User help
-ROBOTS: NOINDEX,NOFOLLOW
+ROBOTS: 
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-enduser
 translationtype: Human Translation
-ms.sourcegitcommit: 6673c8de8d5deb74005b40a58274efcb10783fcc
-ms.openlocfilehash: 439adf2481eef00f22f809724c121dd58b5788d7
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
+ms.openlocfilehash: a71b8d1a100100e204eb7e90ba0ab00573ffc5c6
+ms.lasthandoff: 04/20/2017
 
 
 ---
@@ -31,19 +31,36 @@ ms.lasthandoff: 03/08/2017
 
   ![Снимок экрана "Выбор наиболее подходящей категории для устройства" на устройстве iOS. На нем отображаются варианты корпоративной или персональной регистрации.](./media/ios-enroll-10-tem-select-best-category.png)
 
-1. Выберите подходящий вариант, и вы получите уведомление для установки приложения [__Datalert__](https://itunes.apple.com/us/app/datalert/id771029268?mt=8) из Магазина приложений. С помощью приложения Datalert специалисты организации могут оценить использование данных. Необходимо указать сведения, такие как номер телефона, и подтвердить их, используя код. .
+Выберите подходящий вариант, и вы получите уведомление для установки приложения [__Datalert__](https://itunes.apple.com/app/datalert/id771029268?mt=8) из Магазина приложений. С помощью приложения Datalert специалисты организации могут оценить использование данных. Если в вашей организации есть возможность регистрации с помощью рабочей или учебной учетной записи, вам потребуется войти в соответствующую учетную запись. Если учетная запись еще не включена, укажите свой номер телефона и проверьте свое устройство с помощью кода для регистрации в службе Datalert из приложения.
 
   ![Снимок экрана приветствия приложения Datalert с предложением перейти к следующему экрану, ознакомившись с краткими сведениями о том, как эффективнее использовать тарифный план с помощью Datalert.](./media/ios-enroll-11-tem-datalert-setup.png)
 
-2. Укажите номер телефона устройства.
+## <a name="enroll-into-datalert-using-your-microsoft-work-or-school-account"></a>Регистрация в Datalert с помощью рабочей или учебной учетной записи Майкрософт
+
+> [!NOTE]
+> Чтобы зарегистрировать устройство таким образом, установите и активируйте на своем телефоне приложение [Microsoft Authenticator](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to).
+
+1. Выберите __Enroll with Microsoft account__ (Регистрация с помощью учетной записи Майкрософт).
+
+  ![Изображение экрана настроек приложения Datalert, на котором предлагается ввести номер телефона и выбрать регистрацию с помощью учетной записи Майкрософт, если у вас есть учетная запись Microsoft Office 365 и подписка Intune.](./media/ios-enroll-11a-tem-datalert-enroll-msft-account.png)
+
+2. Вы получите уведомление __"Datalert" wants to open "Authenticator"__ (Приложение Datalert хочет открыть Authenticator). Выберите __Open__ (Открыть).
+
+  ![Изображение всплывающего окна, которое предлагает пользователю открыть приложение Authenticator по запросу приложения Datalert.](./media/ios-enroll-11b-tem-datalert-open-authenticator.png)
+
+3. Войдите с помощью своей __рабочей или учебной учетной записи Майкрософт__. Установка Datalert займет некоторое время. Выберите __Finish__ (Готово), когда установка завершится.
+
+## <a name="enroll-into-datalert-using-your-phone-number"></a>Регистрация в Datalert с помощью номера телефона
+
+1. Укажите номер телефона устройства.
 
   ![Снимок экрана с запросом номера телефона приложением Datalert.](./media/ios-enroll-12-tem-datalert-phone-number.png)
 
-3. Затем вы получите SMS-сообщение с кодом проверки. Введите код и коснитесь __ОК__.
+2. Затем вы получите SMS-сообщение с кодом проверки. Введите код и коснитесь __ОК__.
 
   ![Снимок экрана с запросом кода проверки в SMS приложением Datalert.](./media/ios-enroll-13-tem-datalert-sms.png)
 
-4. После ввода кода проверки установка Datalert будет завершена. Коснитесь __Готово__. После этого вы сможете отслеживать данные в приложении Datalert.
+3. После ввода кода проверки установка Datalert будет завершена. Коснитесь __Готово__. После этого вы сможете отслеживать данные в приложении Datalert.
 
   ![Снимок экрана приложения Datalert с мониторингом использования данных за сегодня.](./media/ios-enroll-14-tem-datalert-monitoring-active.png)
 

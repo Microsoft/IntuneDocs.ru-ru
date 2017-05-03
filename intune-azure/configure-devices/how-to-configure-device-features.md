@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: ca4f1adc5704ecd66d2af7823f95ca63ec20469e
-ms.openlocfilehash: dd53e547a8f834eff528e79cf2506be1e6c2dc2a
-ms.lasthandoff: 03/17/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: e1bc6388ec1927693bac676a20a18935cdbf894e
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -44,8 +44,12 @@ ms.lasthandoff: 03/17/2017
     - **macOS**
 6. В раскрывающемся списке **Тип профиля** выберите **Возможности устройств**. 
 7. Доступные для настройки параметры будут отличаться в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
-    - [Параметры iOS](device-features-for-ios.md)
-    - [Параметры macOS](device-features-for-macos.md)
+    - [Параметры AirPrint для iOS и MacOS](air-print-settings-for-ios-and-macos.md)
+     - [Параметры AirPlay для iOS](airplay-settings-for-ios-devices.md)
+    - [Параметры макета начального экрана для iOS](home-screen-settings-for-ios.md)
+    - [Параметры уведомлений приложения для iOS](app-notification-settings-for-ios.md)
+    - [Параметры конфигурации iOS общего устройства](shared-device-settings-for-ios.md)
+    - [Параметры фильтра веб-содержимого для iOS](web-content-filter-settings-for-ios.md)
 
 8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
 

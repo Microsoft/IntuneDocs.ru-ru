@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
-ms.openlocfilehash: b664620f424f9ef612d17beb810564dbdd68ff79
-ms.lasthandoff: 03/22/2017
+ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
+ms.openlocfilehash: b2cbabea781840df0a2a283f803dc76520590aba
+ms.lasthandoff: 04/19/2017
 
 
 ---
@@ -28,6 +28,8 @@ ms.lasthandoff: 03/22/2017
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 Intune позволяет управлять устройствами Android, включая устройства Samsung Knox Standard. Чтобы обеспечить управление устройствами, пользователям необходимо зарегистрировать их, скачав приложение корпоративного портала Intune, которое доступно в Google Play, а затем открыв это приложение и выполнив указания по установке. Когда устройства Android будут зарегистрированы в системе управления, вы можете [создавать политики соответствия требованиям](https://docs.microsoft.com/intune-azure/set-device-compliance/create-a-compliance-policy-for-android), [управлять приложениями](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-management) и выполнять другие действия.
+
+Устройства под управлением Samsung KNOX Standard теперь поддерживаются для управления несколькими пользователями с помощью Intune. Это означает, что пользователи могут выполнять вход и выход на устройстве с помощью учетных данных Azure AD, а устройством можно управлять централизованно, независимо от того, используется оно или нет. Когда пользователь входит в систему, он получает доступ к приложениям, кроме того, к нему применяются соответствующие политики. После выхода пользователя из системы все данные приложения удаляются.
 
 ## <a name="prerequisite"></a>Необходимое условие
 
