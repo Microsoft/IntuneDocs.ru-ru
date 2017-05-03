@@ -14,9 +14,9 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 771aed4e1c57171183b9a9ea7d9e0f702dc1859c
-ms.openlocfilehash: f6014c5500b05762d123b2285ef859d67382e402
-ms.lasthandoff: 04/06/2017
+ms.sourcegitcommit: 66be6716df38d868e8247131b49ffb50fc48e60b
+ms.openlocfilehash: 1d9bd55a8abee4175d2e71727d7ff18274defd3d
+ms.lasthandoff: 04/15/2017
 
 
 ---
@@ -25,21 +25,21 @@ ms.lasthandoff: 04/06/2017
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
-Чтобы настроить регистрацию устройств Windows, воспользуйтесь одним из описанных ниже методов.
+Этот раздел поможет ИТ-администраторам упростить регистрацию Windows для пользователей организации.  Устройства Windows можно регистрировать без выполнения дополнительных действий, но вы можете упростить регистрацию для пользователей.
 
-- [**Автоматическая регистрация Windows 10 с помощью Azure Active Directory Premium**](#set-up-windows-10-and-windows-10-mobile-automatic-enrollment-with-azure-active-directory-premium)
- -  Этот способ доступен только для устройств Windows 10.
- -  Для использования этого метода необходима служба Azure Active Directory Premium.
- -  Если вы решили не включать автоматическую регистрацию, используйте метод регистрации для Windows 8.1 и Windows Phone 8.1.
+Ниже приведены два фактора, которые определяют способ упрощения регистрации устройств Windows.
+- **Вы используете Azure Active Directory Premium?** <br>[Azure AD Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) входит в состав Enterprise Mobility + Security и других планов лицензирования.
+- **Какие версии клиентов Windows будут регистрироваться?** <br>Устройства с Windows 10 можно зарегистрировать автоматически, добавив рабочую или учебную учетную запись. Более ранние версии необходимо регистрировать с помощью приложения корпоративного портала.
 
-- [**Регистрации без автоматической регистрации в Azure AD Premium**](#enable-windows-enrollment-without-azure-ad-premium)
- - Этот метод следует использовать для регистрации устройств Windows 8.1 и Windows Phone 8.1.
- - Этот метод можно использовать для Windows 8.1 и более поздних устройств, если вы не хотите использовать Azure Active Directory (AD) Premium.
+||**Azure AD Premium**|**AD других версий**|
+|----------|---------------|---------------|  
+|**Windows 10**|[Автоматическая регистрация](#enable-windows-10-automatic-enrollment) |[Регистрация пользователей](#enable-windows-enrollment-without-azure-ad-premium)|
+|**Более ранние версии Windows**|[Регистрация пользователей](#enable-windows-enrollment-without-azure-ad-premium)|[Регистрация пользователей](#enable-windows-enrollment-without-azure-ad-premium)|
 
 [!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
 ## <a name="enable-windows-enrollment-without-automatic-enrollment"></a>Включение регистрации Windows без автоматической регистрации
-Вы можете разрешить пользователям устанавливать и регистрировать свои устройства без автоматической регистрации в Azure AD Premium. После назначения лицензии учетной записи пользователя он сможет добавить эту учетную запись на устройство Windows и подтвердить регистрацию устройства в среде управления. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера.
+Вы можете разрешить пользователям регистрировать свои устройства без автоматической регистрации в Azure AD Premium. После того как вы назначили пользователям лицензии, они могут регистрироваться после добавления их рабочей учетной записи на личные устройства или после присоединения их корпоративных устройств к Azure AD. Создание DNS-псевдонима (тип записи CNAME) упрощает регистрацию устройств для пользователей. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера Intune.
 
 **Шаг 1. Создание записи CNAME** (необязательно)<br>
 Создайте запись ресурсов CNAME DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.

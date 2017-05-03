@@ -15,8 +15,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: b02a5247cec36b45679a76bf3d637cf8b5c031f4
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: de2f224f203257fe539196557180f0b5da5d8373
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -36,7 +37,7 @@ Lookout MTP предоставляет доступ к службе только
 
 * Адрес электронной почты: enterprisesupport@lookout.com
 * Войдите в [консоль MTP](http://aad.lookout.com) и перейдите к модулю **Поддержка**.
-* Перейдите по адресу https://enterprise.support.lookout.com/hc/en-us/requests и отправьте запрос в службу поддержки.
+* Перейдите по адресу https://enterprise.support.lookout.com/hc/requests и отправьте запрос в службу поддержки.
 
 ## <a name="unable-to-sign-in"></a>Не удается выполнить вход
 Если пользователь с правами глобального администратора Azure AD не принял условия первоначальной установки Lookout, отображается следующая ошибка.
@@ -55,7 +56,7 @@ Lookout MTP предоставляет доступ к службе только
 
 ### <a name="device-reported-as-pending"></a>Устройство отображается в состоянии **ожидания**.
 
-Если для устройства отображается состояние **Ожидание**, значит конечный пользователь еще не открыл приложение Lookout for Work и не нажал кнопку **Активировать**. Дополнительные сведения об активации устройства с помощью приложения Lookout for Work см. в разделе [Вам предложено установить Lookout for Work на устройстве с Android](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android) или [Вам предложено установить Lookout for Work на устройстве с iOS](https://docs.microsoft.com/en-us/intune/enduser/you-are-prompted-to-install-lookout-for-work-ios).
+Если для устройства отображается состояние **Ожидание**, значит конечный пользователь еще не открыл приложение Lookout for Work и не нажал кнопку **Активировать**. Дополнительные сведения об активации устройства с помощью приложения Lookout for Work см. в разделе [Вам предложено установить Lookout for Work на устройстве с Android](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android) или [Вам предложено установить Lookout for Work на устройстве с iOS](https://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-ios).
 
 ## <a name="device-whos-active-but-has-no-device-id"></a>Активное устройство без идентификатора устройства
 Если у активного устройства в консоли Lookout MTP отсутствует идентификатор, значит его пользователь не входит в группу регистрации. Устройство может перейти в это состояние, если его пользователь был удален из группы регистрации или была удалена сама эта группа регистрации.
@@ -83,14 +84,9 @@ Lookout MTP предоставляет доступ к службе только
 ## <a name="compliance-remediation-workflows"></a>Рабочие процессы устранения проблем совместимости
 - [Вам предложено установить Lookout for Work на устройстве с Android]( http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android).
 - [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
-- [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве iOS](https://docs.microsoft.com/en-us/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-ios)
+- [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве iOS](https://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-ios)
 
 
 ### <a name="see-also"></a>См. также
-[Настройка службы Lookout MTP в подписке](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-your-subscription-with-lookout-mtp)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
+[Настройка службы Lookout MTP в подписке](https://docs.microsoft.com/intune/deploy-use/set-up-your-subscription-with-lookout-mtp)
 

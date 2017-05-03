@@ -15,8 +15,9 @@ ms.reviewer: tycast
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: b0006416f2b078c8c0cf5eb14ccea4749604e1dc
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 0fd7d7e1e09f193479c6ad221c8ace7470942c5a
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -72,10 +73,10 @@ ms.openlocfilehash: b0006416f2b078c8c0cf5eb14ccea4749604e1dc
 
 ## <a name="find-a-pfn-if-the-app-is-not-installed-on-a-computer"></a>Поиск имени семейства пакетов в том случае, если приложение не установлено на компьютере
 
-1.    Перейдите на страницу https://www.microsoft.com/en-us/store/apps.
+1.    Перейдите на страницу https://www.microsoft.com/store/apps.
 2.    Введите имя приложения в строке поиска. В нашем примере это "OneNote".
-3.    Щелкните ссылку на приложение. Обратите внимание, что URL-адрес, по которому вы переходите, содержит последовательность букв в конце. В нашем примере URL-адрес выглядит следующим образом: `https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`.
-4.    Вставьте следующий URL-адрес в адресную строку другой вкладки: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`. Замените `<app id>` идентификатором приложения, полученным на странице https://www.microsoft.com/en-us/store/apps (это ряд букв в конце URL-адреса на шаге 3). В нашем примере с OneNote нужно вставить следующее: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
+3.    Щелкните ссылку на приложение. Обратите внимание, что URL-адрес, по которому вы переходите, содержит последовательность букв в конце. В нашем примере URL-адрес выглядит следующим образом: `https://www.microsoft.com/store/apps/onenote/9wzdncrfhvjl`.
+4.    Вставьте следующий URL-адрес в адресную строку другой вкладки: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`. Замените `<app id>` идентификатором приложения, полученным на странице https://www.microsoft.com/store/apps (это ряд букв в конце URL-адреса на этапе 3). В нашем примере с OneNote нужно вставить следующее: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
 
 В Microsoft Edge отображаются нужные вам сведения; в Internet Explorer щелкните **Открыть**, чтобы просмотреть сведения. Значение PFN указано в первой строке. Ниже приведены результаты для нашего примера:
 
@@ -86,9 +87,4 @@ ms.openlocfilehash: b0006416f2b078c8c0cf5eb14ccea4749604e1dc
 `  "windowsPhoneLegacyId": "ca05b3ab-f157-450c-8c49-a1f127f5e71d",`
 `  "publisherCertificateName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"`
 `}`
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

@@ -15,8 +15,9 @@ ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: f2b364b2c57adab33df2a8e6b34c1f30c02988d3
-ms.openlocfilehash: 9dbb44981c1525e6137dd8a469b1582731ee9719
+ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.openlocfilehash: 260c328d37174c94bde37162ec011aded26a9f72
+ms.lasthandoff: 04/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.openlocfilehash: 9dbb44981c1525e6137dd8a469b1582731ee9719
 * Устройства Android for Work
 * Зарегистрированные устройства под управлением Windows 8.1 и более поздней версии.
 * Устройства под управлением Windows Phone 8.1 и более поздней версии.
-* Зарегистрированные устройства под управлением Windows 10 Desktop и более поздней версии. 
+* Зарегистрированные устройства под управлением Windows 10 Desktop и более поздней версии.
 * Устройства под управлением Windows 10 Mobile.
 
 Этот тип политики удобен, когда стандартные политики VPN Intune не содержат нужные вам параметры
@@ -52,7 +53,7 @@ ms.openlocfilehash: 9dbb44981c1525e6137dd8a469b1582731ee9719
 ## <a name="example-uri-settings"></a>Примеры параметров URI
 
 Эти параметры можно использовать для создания настраиваемой конфигурации VPN в вымышленной компании Contoso.
-Дополнительные сведения обо всех параметрах, которые можно использовать, см. в статье [VPNv2 CSP](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx)
+Дополнительные сведения обо всех параметрах, которые можно использовать, см. в статье [VPNv2 CSP](https://msdn.microsoft.com/library/windows/hardware/dn914776.aspx)
 
 Собственный VPN Contoso (IKEv2): ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Servers
 
@@ -90,7 +91,7 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 **./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/1/App/Id** Microsoft.MicrosoftEdge_8wekyb3d8bbwe
 
-По любым вопросам о назначении и использовании этих параметров клиентам следует обращаться к документации по поставщику службы конфигурации (CSP): https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx.
+При возникновении каких-либо вопросов о назначении и использовании этих параметров клиентам обращайтесь к документации по поставщику службы конфигурации (CSP): https://msdn.microsoft.com/library/windows/hardware/dn914776(v=vs.85).aspx.
 
 ## <a name="uri-settings-for-android-per-app-vpn-on-pulsesecure"></a>Параметры URI для VPN для каждого приложения Android в PulseSecure
 ### <a name="custom-uri-for-package-list"></a>НАСТРАИВАЕМЫЙ КОД URI ДЛЯ СПИСКА ПРИЛОЖЕНИЙ
@@ -116,9 +117,4 @@ Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuratio
 
 ### <a name="see-also"></a>См. также
 [VPN-подключения в Microsoft Intune](vpn-connections-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 
