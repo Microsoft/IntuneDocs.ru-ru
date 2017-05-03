@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/18/2017
+ms.date: 04/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,14 +16,14 @@ ms.reviewer: vinaybha
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
-ms.openlocfilehash: 0c378fe6ed26bafb5a78daf36b9326771fdd287b
-ms.lasthandoff: 04/19/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 11bb2cbcf14abe5966e0b203ba3466adc12bd4dd
+ms.lasthandoff: 04/24/2017
 
 
 
 ---
-# <a name="configure-your-microsoft-intune-certificate-infrastructure-for-pkcs"></a>Настройка инфраструктуры сертификатов Microsoft Intune для PKCS
+# <a name="configure-and-manage-pkcs-certificates-with-intune"></a>Настройка инфраструктуры сертификатов Microsoft Intune для PKCS
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
 В этой статье объясняется, как настроить инфраструктуру, а затем создать и назначить профили сертификатов PKCS в Intune.
