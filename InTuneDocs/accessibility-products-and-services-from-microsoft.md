@@ -2,10 +2,10 @@
 title: "Продукты и службы корпорации Майкрософт для реализации специальных возможностей | Документы Майкрософт"
 description: "Сведения о продуктах и службах корпорации Майкрософт для реализации специальных возможностей."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 12/30/2016
+ms.date: 05/04/2017
 ms.topic: reference
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: 9e3d509cf404c89b27f92ad54c900e927ce3878b
 ms.openlocfilehash: a848e92be9896016159533c0ba7291fe193a217a
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -68,9 +69,4 @@ ms.openlocfilehash: a848e92be9896016159533c0ba7291fe193a217a
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 [!INCLUDE[accessibility17](./includes/accessibility17_md.md)]
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

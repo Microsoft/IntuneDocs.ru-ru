@@ -17,6 +17,7 @@ ms.custom: intune-classic
 translationtype: Human Translation
 ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
 ms.openlocfilehash: ee35fb2c8e39af099fb061211ea1fdf767230217
+ms.lasthandoff: 12/30/2016
 
 
 ---
@@ -39,7 +40,7 @@ ms.openlocfilehash: ee35fb2c8e39af099fb061211ea1fdf767230217
     -   **Доступ только для чтения**
     -   **Служба технической поддержки — узел групп**
 
-    Полный доступ и доступ только для чтения не требуют разъяснений. <!--- **Helpdesk - Groups Node** allows users to choose from one of the following designations that provide custom levels of access to the [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] admin console:--->
+    Полный доступ и доступ только для чтения не требуют разъяснений. <!--- **Helpdesk - Groups Node** allows users to choose from one of the following designations that provide custom levels of access to the Intune admin console:--->
 
     **Служба технической поддержки — узел групп** — администратор может выполнять только следующие действия.
 
@@ -70,9 +71,4 @@ ms.openlocfilehash: ee35fb2c8e39af099fb061211ea1fdf767230217
         -   Сброс секретного кода
 
 При следующем открытии консоли администрирования Intune настроенному администратору будет предоставлен заданный уровень доступа.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 
