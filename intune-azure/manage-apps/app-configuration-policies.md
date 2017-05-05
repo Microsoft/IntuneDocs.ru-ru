@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 73360154765d53fe1f42e4e97699ad9385bfda6f
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 82af84bc3e31317023a2f8f7089431b1dbcaed52
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -54,8 +54,8 @@ ms.lasthandoff: 02/18/2017
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Другое** > **Intune**.
-3. В колонке **Intune** выберите **Управление приложениями**.
-1.  В рабочей нагрузке **Управление приложениями** выберите **Управление** > **Политики конфигурации приложений**.
+3. В колонке **Intune** выберите **Мобильные приложения**.
+1.  В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Политики конфигурации приложений**.
 
 2.  В колонке списка политик выберите **Добавить**.
 

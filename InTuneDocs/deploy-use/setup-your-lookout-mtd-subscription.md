@@ -1,5 +1,5 @@
 ---
-title: "Настройка службы Lookout в подписке | Документы Майкрософт"
+title: "Настройка службы Lookout в подписке | Документация Майкрософт"
 description: "Эта статья содержит подробную информацию о настройке службы защиты от угроз на устройствах Lookout."
 keywords: 
 author: andredm7
@@ -15,9 +15,9 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 66be6716df38d868e8247131b49ffb50fc48e60b
-ms.openlocfilehash: 60dbfa644a53fec3823e1182f5dec7eb97d8b5df
-ms.lasthandoff: 04/15/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 24e33bd106679c5de38f48b2863ad78702982da7
+ms.lasthandoff: 04/25/2017
 
 
 ---

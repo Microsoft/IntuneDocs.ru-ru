@@ -15,9 +15,9 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: a2597a43e48d8cdde6c29070986528dcba473d8e
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: c28ba63136c1037c8c8191e9a7f46fa9a4823b4e
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +56,7 @@ Intune со службой защиты мобильных устройств о
 
     г.  **Высокий** — это наименее безопасный вариант. При этом допустимы все уровни угроз, а защита мобильных устройств от угроз Skycure используется только для создания отчетов.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > При создании политик условного доступа для Office 365 и других служб такая оценка соответствия принимается во внимание, и доступ несоответствующих устройств к указанным службам блокируется до устранения угрозы.
 
 ## <a name="span-idmonitor-device-threats-classanchorspan-idnext-steps-classanchorspan-idtoc477360344-classanchorspanspanspannext-steps"></a><span id="monitor-device-threats" class="anchor"><span id="next-steps" class="anchor"><span id="_Toc477360344" class="anchor"></span></span></span>Дальнейшие шаги

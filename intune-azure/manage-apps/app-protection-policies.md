@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 607598812a414843f1f33a00670a6a85b6687878
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 0aabb7af82bc7c9ed55eca91e615bace5e299d11
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -26,12 +26,12 @@ ms.lasthandoff: 02/18/2017
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
 
-**Если вы не вошли в предварительную версию службы Intune на портале Azure **, в этой статье объясняется, как [создать политику защиты приложения](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune) в консоли классической версии Intune.
+**Если вы не вошли в предварительную версию службы Intune на портале Azure** , в этой статье объясняется, как [создать политику защиты приложения](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune) в консоли классической версии Intune.
 
 Политики защиты приложений могут применяться к приложениям на устройствах, которыми управляет или не управляет Intune. Подробное описание использования политик защиты приложений и сценариев, поддерживаемых политиками защиты приложения Intune, см. в статье о [политиках защиты приложений Microsoft Intune](what-is-app-protection-policy.md).
 
 ##  <a name="create-an-app-protection-policy"></a>Создание политики защиты приложений
-1.  В рабочей нагрузке **Управление приложениями** выберите **Управление** > **Политики защиты приложений**.
+1.  В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Политики защиты приложений**.
 
 2.  Откроется колонка **Политики защиты приложений**, в которой можно создавать и изменять политики. Выберите **Добавить политику**.
 

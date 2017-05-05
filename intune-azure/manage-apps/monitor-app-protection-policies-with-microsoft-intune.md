@@ -16,8 +16,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 330dba6b9402ef354d0925da27ee1b37ef50db00
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -42,8 +43,8 @@ ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Другое** > **Intune**.
-3. В колонке **Intune** выберите **Управление приложениями**.
-4. В рабочей нагрузке **Управление приложениями** выберите **Мониторинг** > **App protection user status** (Состояние пользователя для защиты приложения), чтобы увидеть представление "Сводка":
+3. В колонке **Intune** выберите **Мобильные приложения**.
+4. В рабочей нагрузке **Мобильные приложения** выберите **Мониторинг** > **App protection user status** (Состояние пользователя для защиты приложения), чтобы увидеть представление "Сводка":
 
 ![Плитка "Сводка" в колонке "Управление мобильными приложениями Intune"](../media/app-protection-user-status-summary.png)
 
@@ -137,9 +138,4 @@ ms.openlocfilehash: 1809422e7f5a3d5aa5e2ef32e1aa7cadf00ecabb
 
 * [Что происходит при управлении приложением Android с помощью политик защиты приложений](app-protection-enabled-android-apps.md)
 * [Что происходит при управлении приложением iOS с помощью политик защиты приложений](app-protection-enabled-ios-apps.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

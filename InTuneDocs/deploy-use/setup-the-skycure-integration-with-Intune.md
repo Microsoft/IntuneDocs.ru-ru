@@ -1,5 +1,5 @@
 ---
-title: "Настройка интеграции Skycure и Intune | Документы Майкрософт"
+title: "Настройка интеграции Skycure и Intune | Документация Майкрософт"
 description: "Настройка интеграции Skycure и Microsoft Intune."
 keywords: 
 author: andredm7
@@ -15,14 +15,14 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: e76d66768ac58df25313e102b7f60d2bc7bbc59b
-ms.openlocfilehash: 6ff56f736c289dbc9a8340ad76e044363acbfea5
-ms.lasthandoff: 03/22/2017
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 18afa2b84c90e77280daf7ed9b1b8357365f7380
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="setup-the-skycure-integration-with-intune"></a>Настройка интеграции Skycure и Intune
+# <a name="set-up-the-skycure-integration-with-intune"></a>Настройка интеграции Skycure и Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
@@ -54,7 +54,7 @@ Skycure поддерживает два режима интеграции с Int
 
 ## <a name="to-set-up-the-read-only-integration-between-intune-and-skycure"></a>Настройка интеграции между Intune и Skycure только для чтения
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Учетные данные администратора Skycure — это адрес электронной почты, который должен принадлежать действительному пользователю в Azure Active Directory; в противном случае войти не удастся. Skycure использует Azure Active Directory для проверки подлинности администратора с помощью единого входа (SSO).
 
 1.  Перейдите в [Консоль управления Skycure](https://aad.skycure.com).
@@ -75,7 +75,7 @@ Skycure поддерживает два режима интеграции с Int
 
     ![Экран завершения для приложения для iOS](../media/mtp/skycure-setup-3.png)
 
-> [!NOTE] 
+> [!NOTE]
 > Повторите те же действия для приложений **Skycure Android** и **Управление**.
 
 ### <a name="add-an-azure-ad-security-group-into-skycure"></a>Добавление группы безопасности Azure AD в Skycure

@@ -15,8 +15,9 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ad13897fe7bbe4fe13167bb4ce7f558b436a7a90
-ms.openlocfilehash: 2191295407e0c1bb2c3861b8a8d168dd3697da45
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 3794981387e73176152c212854a97b4333023f5d
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -34,7 +35,7 @@ ms.openlocfilehash: 2191295407e0c1bb2c3861b8a8d168dd3697da45
 -   **Приложение корпоративного портала** — приложение, доступное на устройствах, управляемых с помощью Intune. Узнайте больше о приложениях корпоративного портала для [Android](/Intune/EndUser/using-your-android-device-with-intune), [iOS](/Intune/EndUser/using-your-iOS-or-macOS-device-with-intune) и [Windows](/Intune/EndUser/using-your-windows-device-with-intune).
 
 
-- **Веб-сайт корпоративного портала** — веб-сайт, позволяющий пользователям выполнять большинство задач, которые можно выполнить из приложения корпоративного портала. URL-адрес корпоративного портала Intune: [http://portal.manage.microsoft.com](http://portal.manage.microsoft.com). Дополнительные сведения об этом веб-сайте см. в статье [Использование веб-сайта корпоративного портала Intune](/Intune/EndUser/using-the-intune-company-portal-website).
+- **Веб-сайт корпоративного портала** — веб-сайт, позволяющий пользователям выполнять большинство задач, которые можно выполнить из приложения корпоративного портала. URL-адрес корпоративного портала Intune: [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com). Дополнительные сведения об этом веб-сайте см. в статье [Использование веб-сайта корпоративного портала Intune](/Intune/EndUser/using-the-intune-company-portal-website).
 
 > [!TIP]
 > При настройке корпоративного портала все конфигурации применяются к веб-сайту корпоративного портала и приложениям корпоративного портала.
@@ -89,9 +90,4 @@ ms.openlocfilehash: 2191295407e0c1bb2c3861b8a8d168dd3697da45
 >[!div class="step-by-step"]
 
 >[&larr; **Создание политик и приложений**](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md) [**Регистрация устройств** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)  
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 
