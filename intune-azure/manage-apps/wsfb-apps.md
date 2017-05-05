@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,9 +16,9 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: d02d7c3367e18c96cc1d72de3a3a0ef581ef63ff
-ms.lasthandoff: 02/18/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 6e410a37f91e0828d5f6b205acb4d340dae86c6d
+ms.lasthandoff: 04/24/2017
 
 ---
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 02/18/2017
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Другое** > **Intune**.
-3. В колонке **Intune** выберите **Управление приложениями**.
+3. В колонке **Intune** выберите **Мобильные приложения**.
 1. В колонке **Мобильные приложения** выберите **Установка** > **Магазин Windows для бизнеса**.
 2. Выберите команду **Включить**.
 3. Если вы еще не сделали это, щелкните ссылку, чтобы зарегистрироваться в Магазине Windows для бизнеса и связать с ним свою учетную запись, как описано выше.
@@ -67,7 +67,7 @@ ms.lasthandoff: 02/18/2017
 
 ## <a name="synchronize-apps"></a>Синхронизация приложений
 
-1. В рабочей нагрузке **Управление приложениями** выберите **Установка** > **Магазин Windows для бизнеса**.
+1. В рабочей нагрузке **Мобильные приложения** выберите **Установка** > **Магазин Windows для бизнеса**.
 2. Щелкните **Синхронизировать**, чтобы приложения, которые вы приобрели в магазине Windows, отобразились в Intune.
 
 ## <a name="assign-apps"></a>Назначение приложений

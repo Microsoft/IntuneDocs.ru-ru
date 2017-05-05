@@ -15,9 +15,9 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 53b86bf579af6af29fd36ce58f9cdf1e92b98abc
-ms.lasthandoff: 04/14/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 71ebb310699cf80310b33be1b665a968ac102bde
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -86,7 +86,7 @@ ms.lasthandoff: 04/14/2017
 
   - для создания рабочих учетных записей SharePoint Online и Exchange Online. Локальные версии Exchange и SharePoint не поддерживаются.
 
--   **Настройка Skype для бизнеса Online для современной проверки подлинности**. Дополнительные сведения см. в статье [Включение современной проверки подлинности](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
+-   **Настройка Skype для бизнеса Online для современной проверки подлинности**. Дополнительные сведения см. в статье [Включение современной проверки подлинности](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
 
 
 - Azure Active Directory (Azure AD) для создания пользователей. Azure AD выполняет аутентификацию пользователей, когда они открывают приложение и вводят рабочие учетные данные.
@@ -96,7 +96,7 @@ ms.lasthandoff: 04/14/2017
 
 ### <a name="create-users-and-assign-microsoft-intune-licenses"></a>Создание пользователей и назначение лицензий Microsoft Intune
 
-1.  Войдите на [портал Office](http://portal.office.com), используя свои учетные данные администратора.
+1.  Войдите на [портал Office](https://portal.office.com), используя свои учетные данные администратора.
 
 2.  Добавьте пользователей, как описано в разделе **Действия по настройке 30-дневной ознакомительной версии Intune** руководства [по оценке Intune](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune), а затем назначьте лицензии Intune. Чтобы предоставить пользователю возможность доступа к порталу Office, порталу Azure AD и порталу Azure, назначьте ему роль **глобального администратора**.
 

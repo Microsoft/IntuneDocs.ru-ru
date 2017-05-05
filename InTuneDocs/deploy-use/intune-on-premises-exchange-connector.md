@@ -15,9 +15,9 @@ ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
 translationtype: Human Translation
-ms.sourcegitcommit: 905be6a926dc5bab8e9b1016ba82751ee47313e5
-ms.openlocfilehash: 68dbebbd7d29514bde438b7dff3142dc45e8471d
-ms.lasthandoff: 03/21/2017
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: f760d567ac339bbb60240ee9f8d28cb550656a59
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -63,7 +63,7 @@ ms.lasthandoff: 03/21/2017
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>Загрузка пакета установки программного обеспечения локального соединителя Exchange
 
-1. В поддерживаемой операционной системе Windows Server для локального соединителя Exchange откройте [консоль администрирования Microsoft Intune](http://manage.microsoft.com) (http://manage.microsoft.com), используя учетную запись с правами администратора в клиенте Exchange с лицензией на использование сервера Exchange.
+1. В поддерживаемой операционной системе Windows Server для локального соединителя Exchange откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com) (https://manage.microsoft.com), используя учетную запись с правами администратора в клиенте Exchange с лицензией на использование сервера Exchange Server.
 ![Открытие настроенного подключения к Exchange](../media/ExchangeConnector.gif)
 
 2.  На панели ярлыков рабочей области последовательно выберите пункты **Администрирование**>**Управление мобильными устройствами** > **Microsoft Exchange**>**Настройка подключения Exchange**.
@@ -129,7 +129,7 @@ ms.lasthandoff: 03/21/2017
 
 ## <a name="validate-the-exchange-connection"></a>Проверка подключения к Exchange
 
-После успешной настройки соединителя Exchange можно просмотреть состояние подключения и последней успешной попытки синхронизации. В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) выберите рабочую область **Администратор**. В разделе **Управление мобильными устройствами** выберите **Microsoft Exchange** и проверьте правильность данных, указанных в разделе **Сведения о подключении к Exchange**.
+После успешной настройки соединителя Exchange можно просмотреть состояние подключения и последней успешной попытки синхронизации. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите рабочую область **Администратор**. В разделе **Управление мобильными устройствами** выберите **Microsoft Exchange** и проверьте правильность данных, указанных в разделе **Сведения о подключении к Exchange**.
 
 
 Также можно проверить время и дату последней успешной попытки синхронизации.
