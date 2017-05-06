@@ -94,6 +94,8 @@
 ### [Настройка приложения корпоративного портала](manage-apps/company-portal-app.md)
 ## Использование политик защиты приложений
 ### [Создание и развертывание политик защиты приложений](manage-apps/app-protection-policies.md)
+### [Подготовка к использованию политик защиты приложений WIP](manage-apps/get-ready-to-configure-app-protection-policies-for-windows-10.md)
+### [Создание и назначение политик защиты приложений WIP](manage-apps/create-windows-information-protection-policy-with-intune.md)
 #### [Параметры Android](manage-apps/android-app-protection-policy-settings.md)
 #### [Параметры iOS](manage-apps/ios-app-protection-policy-settings.md)
 ### [Проверка политик защиты приложений](manage-apps/validate-app-protection-policies.md)
@@ -151,6 +153,7 @@
 
 ### [Настройка параметров обновления выпуска Windows 10](configure-devices/how-to-configure-windows-10-edition-upgrade.md)
 ### [Настройка параметров Windows 10 для образовательных учреждений](configure-devices/how-to-configure-education-settings.md)
+### [Настройка параметров iOS для образовательных учреждений](configure-devices/how-to-configure-ios-edu-settings.md)
 ### [Настройка параметров Центра обновления Windows для бизнеса](configure-devices/how-to-configure-windows-update-for-business.md)
 ### [Настройка сертификатов](configure-devices/how-to-configure-certificates.md)
 #### [SCEP](configure-devices/configure-certificate-infrastructure-for-scep.md)
