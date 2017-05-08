@@ -1,5 +1,6 @@
 # Введение
 ## [Что представляет собой предварительная версия портала Azure?](introduction/what-is-microsoft-intune.md)
+## [Основные сведения об Intune для образовательных учреждений](/intune/understand-explore/introduction-to-intune-education?toc=/intune/toc.json)
 ## [Возможности Intune в Azure](introduction/ui-changes-in-microsoft-intune.md)
 ## Начало работы
 <!---(introduction/get-started.md) --->
@@ -82,10 +83,13 @@
 #### [Бизнес-приложения iOS](manage-apps/ios-lob-app.md)
 #### [Веб-приложения](manage-apps/web-app.md)
 #### [Приложения Магазина Windows Phone 8.1](manage-apps/windows-phone-8-1-store-app.md)
+#### [Бизнес-приложения Windows Phone](manage-apps/windows-phone-line-of-business-app.md)
 #### [Приложения Магазина Windows](manage-apps/windows-store-app.md)
+#### [Бизнес-приложения Windows](manage-apps/windows-line-of-business-app.md)
 ### [Назначение приложений](manage-apps/deploy-apps.md)
 ### [Мониторинг приложений](manage-apps/monitor-apps.md)
-### [Использование политик конфигурации приложений](manage-apps/app-configuration-policies.md)
+### [Использование профилей конфигурации приложений](manage-apps/app-configuration-policies.md)
+### [Использование профилей подготовки приложений iOS](manage-apps/ios-app-provisioning-profile.md)
 ### [Выборочная очистка приложений](manage-apps/app-selective-wipe.md)
 <!---Is this specific to app protection policy or more general app management?--->
 ### [Работа с приложениями, приобретенными по корпоративной программе](manage-apps/volume-purchased-apps.md)
