@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
-ms.openlocfilehash: be3307165b420ef0fe9c143a3a55f88285a344da
-ms.lasthandoff: 01/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a1968bedeba42758c36e7b9bb9cddfc26309ca71
+ms.openlocfilehash: af2625387e6d2d454200e851ce5e64f8eb5607c7
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/10/2017
 
 
 ---
