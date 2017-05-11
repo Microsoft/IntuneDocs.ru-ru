@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 03/18/17
+ms.date: 03/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,10 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e0ecc775f70703574c4e1adf0f0aa204f2745b72
-ms.openlocfilehash: 723830f686991fe13de13f75c6a5d1bc84e6920b
-ms.lasthandoff: 04/20/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: c8715f96f532ee6bacda231e1147d03226ecbb48
+ms.openlocfilehash: 4916b66e1f2eeabb42401645dbece28dad28eb19
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/26/2017
 
 ---
 # <a name="help-users-with-the-troubleshooting-portal-in-microsoft-intune"></a>Помогите пользователям устранить проблемы с помощью портала диагностики в Microsoft Intune
@@ -40,7 +41,8 @@ ms.lasthandoff: 04/20/2017
 ## <a name="access-the-troubleshooting-portal"></a>Доступ к порталу диагностики
 
 Персонал службы технической поддержки и администраторы Intune могут перейти на портал диагностики двумя способами.
-- На [портале Azure](https:portal.azure.com)выберите последовательно **Другие службы** > **Мониторинг и управление** > **Intune**. В колонке навигации слева выберите **Устранение неполадок**. Другие рабочие нагрузки отображаются в колонке навигации слева, но они недоступны.
+- На [портале Azure](https://portal.azure.com)выберите последовательно **Другие службы** > **Мониторинг и управление** > **Intune**. В колонке навигации слева выберите **Устранение неполадок**. Другие рабочие нагрузки отображаются в колонке навигации слева, но они недоступны.
+
 ![Снимок экрана: рабочая нагрузка устранения неполадок Intune со ссылкой "Выбор пользователя"](media/help-desk-user.png)
 - Откройте в веб-браузере [http://aka.ms/intunetroubleshooting](http://aka.ms/intunetroubleshooting). Отображается только портал диагностики.
 

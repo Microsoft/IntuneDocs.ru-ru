@@ -14,10 +14,11 @@ ms.assetid: bbe0b5f4-b8bc-49f3-85a9-51fb2f226fca
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: de2f224f203257fe539196557180f0b5da5d8373
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.openlocfilehash: 0b5586a06af7658c0c7a328ae1a824f88129039f
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
