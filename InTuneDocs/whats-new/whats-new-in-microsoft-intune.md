@@ -14,10 +14,11 @@ ms.assetid: fab51ee0-638d-4dd4-8d8f-1f263bc11e5c
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 62dcb40ad5a7921c514a9d41da14b991e39f3bcd
-ms.openlocfilehash: b3cf8d8f60482be2d4d903d1b2c00c1a3a392b73
-ms.lasthandoff: 04/20/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
+ms.openlocfilehash: 0dc3fd3b4cc355bc95677ca648efdee07d1066b2
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/24/2017
 
 
 ---
@@ -97,6 +98,15 @@ ms.lasthandoff: 04/20/2017
 
 
 ## <a name="whats-coming"></a>Предстоящие изменения
+
+### <a name="plan-for-change-intune-is-changing-the-intune-partner-portal-experience----1050016---"></a>Планирование изменений: Intune изменяет интерфейс портала партнеров<!-- 1050016 -->
+
+Мы удалим страницу партнеров Intune с сайта manage.microsoft.com после обновления службы в середине мая 2017 г.  
+
+Если вы являетесь администратором страницы партнеров Intune, вы больше не сможете просматривать страницу и выполнять здесь действия от имени своих клиентов. Вместо этого вам нужно будет войти на один из двух других порталов партнера корпорации Майкрософт.
+
+И в [центре партнеров Майкрософт](https://partnercenter.microsoft.com/), и в [центре администратора партнера Microsoft Office 365](https://portal.office.com/) вы сможете входить в учетные записи клиентов, которыми вы управляете. Если вы являетесь партнером, используйте один из этих сайтов для управления своими клиентами. 
+
 
 ### <a name="apple-to-require-updates-for-application-transport-security---748318--"></a>Требуемые обновления Application Transport Security от Apple <!--748318-->
 
