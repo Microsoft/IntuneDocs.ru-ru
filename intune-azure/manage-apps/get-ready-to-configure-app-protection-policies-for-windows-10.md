@@ -15,10 +15,11 @@ ms.assetid: 949fddec-5318-4c9a-957e-ea260e6e05be
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 5f172290d493717308446c4f9e2313a03ba8f3aa
-ms.openlocfilehash: 7cd202384eeb17f5ff5a2812fe87a2fffabe6eb0
-ms.lasthandoff: 04/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 9490951b2953f8b8c6fe3d38824053bbe75f9af1
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -58,5 +59,5 @@ ms.lasthandoff: 04/27/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](https://docs.microsoft.com/intune-azure/manage-apps/create-windows-information-protection-policy-with-intune)
+[Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](https://docs.microsoft.comcreate-windows-information-protection-policy-with-intune.md)
 
