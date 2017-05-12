@@ -14,9 +14,11 @@ ms.assetid: 454eab79-b620-42c9-b8e6-fada6e719fcd
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 7d0b9cee72e8810b4f39bd81bd8f49d0818618c4
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -28,7 +30,7 @@ ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 ## <a name="scenario-1-block-users-from-using-noncompliant-devices-to-access-exchange-online"></a>Сценарий 1. Запрет пользователям на использование несовместимых устройств для доступа к Exchange Online
 ### <a name="scenario-requirements"></a>Требования сценария
 - Всем пользователям в группе безопасности Azure Active Directory **Бухгалтерия** необходимо заблокировать доступ к Exchange Online, если их устройства не соответствуют развернутой политике соответствия.
-- Если в этой группе присутствуют какие-либо пользователи, чьи устройства не поддерживаются [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], им необходимо заблокировать доступ к Exchange Online на соответствующем устройстве.
+- Если в этой группе присутствуют какие-либо пользователи, чьи устройства не поддерживаются Intune, им необходимо заблокировать доступ к Exchange Online на соответствующем устройстве.
 - Пользователи в группе безопасности Azure Active Directory **Финансы** должны быть исключены из политики, даже если они также присутствуют в группе **Бухгалтерия**.
 
 Для этого настройте в политике условного доступа к Exchange Online следующие параметры:
@@ -68,7 +70,7 @@ ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 ## <a name="scenario-3-no-android-devices-can-access-exchange-on-premises"></a>Сценарий 3. Устройства Android не могут обращаться к локальной организации Exchange
 ### <a name="scenario-requirements"></a>Требования сценария
 - Необходимо заблокировать доступ к Exchange для всех устройств Android.
-- Все остальные поддерживаемые устройства могут получить доступ Exchange, если они управляются [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
+- Все остальные поддерживаемые устройства могут получить доступ Exchange, если они управляются Intune.
 
 Для этого настройте в политике условного доступа к локальной организации Exchange следующие параметры:
 
@@ -82,9 +84,4 @@ ms.openlocfilehash: c02961aa984f8041394639a872bf4cfcdfc0be91
 Чтобы определить устройства, которые могут получить доступ к Exchange, используется следующая процедура:
 
 ![Процедура доступа к устройствам](./media/ConditionalAccess8-4.png)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

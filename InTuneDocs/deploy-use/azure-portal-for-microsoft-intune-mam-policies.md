@@ -14,9 +14,11 @@ ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e2503c44f434e67f45064f28d1e921eb5accb0b6
-ms.openlocfilehash: 2707e3fae32e73aa17696886f493932e903ffc10
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 5eda4f43f3c62cfb0129656dcac75335570ec86f
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -40,7 +42,7 @@ ms.openlocfilehash: 2707e3fae32e73aa17696886f493932e903ffc10
 
 ## <a name="sign-in-to-the-azure-portal-and-customize-your-start-page"></a>Вход на портал Azure и настройка начальной страницы
 
-1.  Перейдите на [портал Azure](https://portal.azure.com) и выполните вход с помощью своих учетных данных [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)].
+1.  Перейдите на [портал Azure](https://portal.azure.com) и войдите в систему с помощью своих учетных данных Intune.
 
     ![Снимок экрана со страницей входа на портал Azure](../media/AppManagement/AzurePortal_MAMSigninPage.png)
 
@@ -64,9 +66,4 @@ ms.openlocfilehash: 2707e3fae32e73aa17696886f493932e903ffc10
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 [Подготовка к настройке политик защиты приложений](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO3-->
-
 

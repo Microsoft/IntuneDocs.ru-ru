@@ -2,10 +2,10 @@
 title: "Специальные возможности | Документы Майкрософт"
 description: "Узнайте о функциях Intune, упрощающих доступ для людей с ограниченными возможностями."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 12/30/2016
+ms.date: 05/04/2017
 ms.topic: reference
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,17 @@ ms.assetid: 6d7ed613-be97-4973-9532-8cb5bd434a1b
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 9e3d509cf404c89b27f92ad54c900e927ce3878b
-ms.openlocfilehash: c1b585da0b2875f393a0cbe929f11d3a04875905
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: b54dffd23db966d9ed15ec23fe25a7e58a187d0b
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
 
 # <a name="accessibility-features-of-microsoft-intune"></a>Специальные возможности Microsoft Intune
-В дополнение к функциям и средствам специальных возможностей Microsoft Windows в службе [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] предусмотрены следующие функции, которые позволяют сделать ее более удобной для людей с ограниченными возможностями:
+В дополнение к функциям и средствам специальных возможностей Microsoft Windows в службе Microsoft Intune предусмотрены следующие функции, которые позволяют сделать ее более удобной для людей с ограниченными возможностями:
 
 -   Использование сочетаний клавиш
 
@@ -45,10 +47,5 @@ ms.openlocfilehash: c1b585da0b2875f393a0cbe929f11d3a04875905
 |Переход к следующей группе приложений|Стрелка "вверх"|
 |Отображение действий для выбранного устройства|Стрелка вправо|
 > [!NOTE]
-> Навигация на порталах [!INCLUDE[wit_firstref](./includes/wit_firstref_md.md)] осуществляется с помощью стандартных сочетаний клавиш Internet Explorer.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
+> Навигация на порталах Microsoft Intune осуществляется с помощью стандартных сочетаний клавиш Internet Explorer.
 

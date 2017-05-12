@@ -14,10 +14,11 @@ ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 71ebb310699cf80310b33be1b665a968ac102bde
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 7901508dc482af55f0ef2296cf35576f09340fb0
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -75,10 +76,10 @@ ms.lasthandoff: 04/24/2017
 
 ## <a name="prerequisites"></a>Необходимые компоненты
 
--   **Подписка Microsoft Intune**. Пользователям нужны лицензии [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] для получения приложений с политиками защиты приложений.
-У вас уже есть подписка [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], если вы используете [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] для управления устройствами. Вы также располагаете подпиской [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], если приобрели лицензию Enterprise Mobility Suite. Если вы используете [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], чтобы ознакомиться с возможностями MAM, пробную учетную запись можно получить на [странице Microsoft Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/).
+-   **Подписка Microsoft Intune**. Чтобы получить приложения с политиками защиты, пользователям нужны лицензии Intune.
+У вас уже есть подписка Intune, если вы используете Intune для управления устройствами. Вы также располагаете подпиской Intune, если приобрели лицензию Enterprise Mobility Suite. Если вы используете Intune, чтобы ознакомиться с возможностями MAM, пробную учетную запись можно получить на [странице Microsoft Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/).
 
-    Чтобы проверить, есть ли у вас подписка [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], перейдите на страницу **Выставление счетов** портала Office.  Если у вас есть подписка, в списке подписок для [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)] должно быть указано значение **Активно**.
+    Чтобы проверить, есть ли у вас подписка Intune, перейдите на страницу **Выставление счетов** портала Office.  Если у вас есть подписка, в списке подписок для Intune должно быть указано значение **Активно**.
 
 -   **Подписка Office 365**, которая требуется в следующих целях:
 

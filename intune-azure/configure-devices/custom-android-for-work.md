@@ -15,19 +15,20 @@ ms.assetid: 4724d6e5-05e5-496c-9af3-b74f083141f8
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: ac27b1915483568b9b9857405f7acaf704fd53d9
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 69a500c78e0cc732cee2967c35ea4b2fec53b54b
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/05/2017
 
 
 ---
 
 # <a name="create-intune-custom-profile-settings-for-android-for-work-devices"></a>Создание настраиваемых параметров профиля Intune для устройств Android for Work
 
-Используйте настраиваемую политику конфигурации Android for Work в Intune для развертывания параметров OMA-URI, которые можно применять для управления функциями на устройствах Android for Work. Это стандартные параметры, которые многие производители мобильных устройств используют для управления функциями устройств.
+Используйте настраиваемую политику конфигурации Android for Work в Intune для назначения параметров OMA-URI, которые можно применять для управления функциями на устройствах Android for Work. Это стандартные параметры, которые многие производители мобильных устройств используют для управления функциями устройств.
 
-Эта возможность позволяет развертывать параметры Android, которые нельзя настроить с помощью политик Intune. Сейчас Intune поддерживает ограниченное число настраиваемых политик Android. Ознакомьтесь с примерами в этом разделе, чтобы узнать, какие политики можно настроить.
+Эта возможность позволяет назначать параметры Android, которые невозможно настроить с помощью политик Intune. Сейчас Intune поддерживает ограниченное число настраиваемых политик Android. Ознакомьтесь с примерами в этом разделе, чтобы узнать, какие политики можно настроить.
 
 ## <a name="create-a-custom-profile"></a>Создание настраиваемого профиля
 
