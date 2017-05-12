@@ -15,10 +15,11 @@ ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: e885b0be6d8782f6dd20f395a7792839f20e1adc
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: fe0c54356454f92ed7de79a5857c8473d0421656
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -49,4 +50,4 @@ ms.lasthandoff: 02/18/2017
     - **Отправить значок**. Отправьте значок, который будет связан с приложением. Это значок, который будет отображаться с приложением при просмотре пользователями корпоративного портала.
 8. По завершении в колонке **Добавить приложение** нажмите кнопку **Сохранить**.
 
-Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. Сведения см. в статье о [назначении приложений группам](/intune-azure/manage-apps/deploy-apps).
+Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. Сведения см. в статье о [назначении приложений группам](deploy-apps.md).

@@ -15,10 +15,11 @@ ms.assetid: 3cfb8222-d05b-49e3-ae6f-36ce1a16c61d
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: c2ace3061e175a6eefd864bdda176651cc09a5b1
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 6fb4b81e11ae8c66341922898d9ecc4cce3a002d
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -109,7 +110,7 @@ ms.lasthandoff: 02/18/2017
   - Пользователь уже настроил учетную запись электронной почты на устройстве, соответствующем профилю электронной почты Intune, развернутому на устройстве. Intune не может перезаписывать профиль, созданный пользователем, поэтому не может управлять им. Чтобы обеспечить соответствие требованиям, пользователь должен удалить существующие параметры электронной почты. После этого Intune сможет установить управляемый профиль электронной почты.
 - **Select the email profile that must be managed by Intune** (Выберите профиль электронной почты, которым должен управлять Intune). Если выбран параметр **Учетная запись почты должна управляться Intune**, нажмите кнопку **Выбрать**, чтобы выбрать профиль электронной почты Intune. На устройстве должен быть профиль электронной почты.
 
-Дополнительные сведения о профилях электронной почты см. в статье [Настройка доступа к корпоративной электронной почте с помощью профилей электронной почты с Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune).
+Дополнительные сведения о профилях электронной почты см. в статье [Настройка доступа к корпоративной электронной почте с помощью профилей электронной почты с Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune).
 
 ## <a name="device-health-settings"></a>Параметры работоспособности устройства
 

@@ -14,10 +14,11 @@ ms.technology:
 ms.assetid: 
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 03860275184824e72c94937ef3bb32c76cfef933
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 41de68c6962056164e8ac62aea657a74dd9b229e
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -29,7 +30,7 @@ ms.lasthandoff: 02/18/2017
 
 Если вы еще не знакомы с Intune на портале Azure, помните: вам больше не нужно создавать группы для Intune. Intune использует группы Azure AD так же, как и многие другие приложения, с которыми вы работаете.
 
-Дополнительные сведения о работе с группами в Azure AD см. в статье [Управление доступом к ресурсам с помощью групп Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-manage-groups).
+Дополнительные сведения о работе с группами в Azure AD см. в статье [Управление доступом к ресурсам с помощью групп Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-manage-groups).
 
 Для управления группами на [портале Azure](https://portal.azure.com), выполните поиск по запросу **Intune**. Щелкнув **Управление пользователями**, вы попадете в раздел **Пользователи и группы**, где можно выполнять следующие действия:
 
@@ -43,5 +44,5 @@ ms.lasthandoff: 02/18/2017
 
 ## <a name="next-step"></a>Дальнейшие действия
 
-[Начало работы с группами](/intune-azure/manage-users/get-started-with-groups)
+[Начало работы с группами](../manage-users/get-started-with-groups.md)
 
