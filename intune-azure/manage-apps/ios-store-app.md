@@ -1,12 +1,12 @@
 ---
-title: "Добавление приложений из магазина iOS в Intune"
+title: "Как добавить приложения из Магазина iOS в Intune | Документация Майкрософт"
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как добавить приложения из магазина iOS в Intune."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,16 +15,21 @@ ms.assetid: c59514d7-1256-4576-9380-e7a0b85a0378
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 153cce3809e24303b8f88a833e2fc7bdd9428a4a
-ms.openlocfilehash: 21e6089bf8a88f107518c7bccfa7bf79b3021a23
-ms.lasthandoff: 02/18/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 9a7d1e6fa032cbc281ced07302d6faaca4ba22e3
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/05/2017
 
 ---
 
 # <a name="how-to-add-ios-store-apps-to-microsoft-intune"></a>Добавление в Microsoft Intune приложений из магазина iOS
 
 [!INCLUDE[azure_preview](../includes/azure_preview.md)]
+
+## <a name="before-you-start"></a>Перед началом работы
+
+В Intune можно назначить только приложения, которые предоставляются бесплатно в магазине приложений. Если вы хотите назначить платные приложения, мы советуем использовать [программу iOS Volume Purchase Program](/intune-azure/manage-apps/ios-vpp-apps).
 
 
 ## <a name="step-1---search-for-the-app-in-the-store"></a>Шаг 1. Найдите приложение в магазине
@@ -58,3 +63,4 @@ ms.lasthandoff: 02/18/2017
 3. По завершении в колонке **Добавить приложение** нажмите кнопку **Сохранить**.
 
 Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. Сведения см. в статье о [назначении приложений группам](/intune-azure/manage-apps/deploy-apps).
+

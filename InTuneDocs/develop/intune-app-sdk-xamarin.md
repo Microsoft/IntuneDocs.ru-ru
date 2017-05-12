@@ -14,9 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: c59707ba2967b069dc30aee71d2642e91d71b23b
-ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
+ms.translationtype: Human Translation
+ms.sourcegitcommit: cce2cd69808937f3e088aa04f6142611a4594895
+ms.openlocfilehash: a9780dd3a951cc074a38061bf67aa5485c1eab68
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -62,9 +64,9 @@ ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
 
 2. Прочитайте [условия лицензионного соглашения](https://components.xamarin.com/license/microsoft.intune.mam) для компонента Xamarin Microsoft Intune MAM.
 
-3.    Скачайте папку компонента Xamarin из пакета SDK для приложений Intune с [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) или [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam) и извлеките ее. Файлы, скачанные на шагах 1 и 2, должны находиться на одном уровне каталога.
+3.    Скачайте папку компонента Xamarin из пакета SDK для приложений Intune с [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) или [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam) и извлеките ее. Файлы, скачанные на шагах 1 и 3, должны находиться на одном уровне каталога.
 
-4.    В командной строке с правами администратора запустите `Xamain.Component.exe install <.xam> file`.
+4.    В командной строке с правами администратора запустите `Xamarin.Component.exe install <.xam> file`.
 
 5.    В Visual Studio щелкните правой кнопкой мыши **компоненты** в ранее созданном проекте Xamarin.
 
@@ -123,9 +125,4 @@ ms.openlocfilehash: 74607fc704234e6ac85eae3bf55c186000c6e68a
 ## <a name="test-your-app"></a>Тестирование приложения
 
 Вы завершили основные этапы встраивания компонента в приложение. Теперь можно выполнить действия, включенные в пример приложения Android Xamarin. Мы предоставили два примера: один для Xamarin.Forms, а другой — для Android.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

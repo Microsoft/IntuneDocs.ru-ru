@@ -14,10 +14,11 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 31b7ff2b9644f47107199f0f1d237847169c3143
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: a7d38caac1cfd035c66d02579766d60d4394dd5e
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -157,7 +158,7 @@ ms.lasthandoff: 04/24/2017
 
     Вы создали политику и развернули ее для пользователей.
 
-Эта политика затрагивает только пользователей с назначенными лицензиями [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]. Пользователей из выбранной вами группы безопасности, у которых нет назначенной лицензии [!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)], эта политика не затрагивает.
+Эта политика затрагивает только пользователей с назначенными лицензиями Intune. Пользователей из выбранной вами группы безопасности, у которых нет назначенной лицензии Intune, эта политика не затрагивает.
 
 >[!IMPORTANT]
 > При использовании Intune с Configuration Manager для управления устройствами iOS и Android политика применяется только к пользователям, находящимся непосредственно в выбранной вами группе. Члены дочерних групп, вложенных в выбранную вами группу, не затрагиваются.

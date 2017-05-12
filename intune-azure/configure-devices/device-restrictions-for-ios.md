@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: e5dd7cb5b320df7f443b52a1b502027fa3c4acaf
-ms.openlocfilehash: 9e348278f62b2b9ba10f0f77c9fda214b43812a7
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
+ms.openlocfilehash: 68738f25393eec006a8bc7a78412669859f91c27
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/05/2017
 
 
 ---
@@ -123,7 +124,7 @@ URL-адрес приложения в списке приложений нео�
 
 Найдите с помощью поисковой системы iTunes App Store приложение, которое вы хотите использовать, и откройте его страницу.
 Скопируйте URL-адрес страницы и используйте его как URL-адрес для настройки списка разрешенных и запрещенных приложений или приложения, которое нужно запустить в полноэкранном режиме.
-Профили устройств, содержащие параметры ограниченных приложений, следует развертывать для групп пользователей.
+Профили устройств, содержащие параметры ограниченных приложений, должны назначаться группам пользователей.
 
 Пример: выполните поиск по запросу Microsoft Word для iPad. Нужный URL-адрес будет следующим: https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8.
 
@@ -160,52 +161,6 @@ URL-адрес приложения в списке приложений нео�
 ### <a name="additional-options"></a>Дополнительные параметры
 
 Вы также можете щелкнуть **Импорт**, чтобы заполнить список из CSV-файла в формате <*URL-адрес приложения*>, <*имя приложения*>, <*издатель приложения*>, или **Экспорт**, чтобы создать CSV-файл, содержащий список скрытых или отображаемых приложений в том же формате.
-
-### <a name="app-information-for-built-in-ios-apps"></a>Сведения о встроенных приложениях iOS
-Используйте сведения в этом списке, чтобы определить имя, издателя и идентификатор пакета для встроенных приложений iOS, которые может потребоваться показать или скрыть. Если вы хотите показать или скрыть все приложения в списке, можно скопировать приведенные ниже данные в текстовый файл с расширением **CSV**, а затем воспользоваться пунктом **Импорт**, чтобы импортировать все приложения одновременно.
-
-
-    App Store,Apple,com.apple.AppStore
-    Calculator,Apple,com.apple.calculator
-    Calendar,Apple,com.apple.mobilecal
-    Camera,Apple,com.apple.camera
-    Clock,Apple,com.apple.mobiletimer
-    Compass,Apple,com.apple.compass
-    Contacts,Apple,com.apple.MobileAddressBook
-    FaceTime,Apple,com.apple.facetime
-    Find Friends,Apple,com.apple.mobileme.fmf1
-    Find iPhone,Apple,com.apple.mobileme.fmip1
-    Game Center,Apple,com.apple.gamecenter
-    GarageBand,Apple,com.apple.mobilegarageband
-    Health,Apple,com.apple.Health
-    iBooks,Apple,com.apple.iBooks
-    iTunes Store,Apple,com.apple.MobileStore
-    iTunes U,Apple,com.apple.itunesu
-    Keynote,Apple,com.apple.Keynote
-    Mail,Apple,com.apple.mobilemail
-    Maps,Apple,com.apple.Maps
-    Messages,Apple,com.apple.MobileSMS
-    Music,Apple,com.apple.Music
-    News,Apple,com.apple.news
-    Notes,Apple,com.apple.mobilenotes
-    Numbers,Apple,com.apple.Numbers
-    Pages,Apple,com.apple.Pages
-    Photo Booth,Apple,com.apple.Photo-Booth
-    Photos,Apple,com.apple.mobileslideshow
-    Podcasts,Apple,com.apple.podcasts
-    Reminders,Apple,com.apple.reminders
-    Safari,Apple,com.apple.mobilesafari
-    Settings,Apple,com.apple.Preferences
-    Stocks,Apple,com.apple.stocks
-    Tips,Apple,com.apple.tips
-    Videos,Apple,com.apple.videos
-    VoiceMemos,Apple,com.apple.VoiceMemos
-    Wallet,Apple,com.apple.Passbook
-    Watch,Apple,com.apple.Bridge
-    Weather,Apple,com.apple.weather
-
-
-
 
 
 ## <a name="cellular"></a>Сотовая сеть
@@ -249,7 +204,7 @@ URL-адрес приложения в списке приложений нео�
 |Магазин App Store|com.apple.AppStore|
 |"Калькулятор"|com.apple.calculator|
 |"Календарь"|com.apple.mobilecal|
-|"Камера"|com.apple.camera|
+|Камера|com.apple.camera|
 |"Часы"|com.apple.mobiletimer|
 |"Компас"|com.apple.compass|
 |"Контакты"|com.apple.MobileAddressBook|
@@ -308,7 +263,7 @@ URL-адрес приложения в списке приложений нео�
 
 >[!NOTE]
 > Перед настройкой устройства iOS для работы в полноэкранном режиме необходимо использовать средство Apple Configurator или программу регистрации устройств (DEP) Apple, чтобы перевести устройство в защищенный режим. Дополнительные сведения о средстве Apple Configurator см. в документации для разработчиков от Apple.
->Если указанное iOS-приложение установлено после развертывания политики конфигурации, устройство не перейдет в полноэкранный режим до своей перезагрузки.
+>Если указанное приложение iOS установлено после назначения профиля, устройство не перейдет в режим киоска до перезагрузки.
 
 ## <a name="safari"></a>Safari
 -     **Safari (только в защищенном режиме).** Указывает, можно ли на устройстве использовать обозреватель Safari.

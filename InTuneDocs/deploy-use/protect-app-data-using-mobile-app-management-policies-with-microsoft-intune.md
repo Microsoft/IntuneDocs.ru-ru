@@ -14,10 +14,11 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
-ms.openlocfilehash: 651899219458f799e26ed7957ccef97d7ae2af09
-ms.lasthandoff: 02/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 9959e9f757e83c7aa4274b7e7b9df949fff022cc
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -128,9 +129,9 @@ ms.lasthandoff: 02/14/2017
 
 Например, когда пользователь запускает приложение OneDrive с помощью своей рабочей учетной записи, он не может перемещать файлы в личное хранилище. Если же пользователь открывает OneDrive с помощью личной учетной записи, он может копировать и перемещать данные из своего личного хранилища OneDrive без ограничений.  
 
-Множественную идентификацию поддерживают все мобильные приложения Office.
+- Ознакомьтесь с дополнительными сведениями о приложениях, поддерживающих [MAM и множественную идентификацию](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) в Intune.
 
-##  <a name="next-steps"></a>Дальнейшие шаги
+##  <a name="next-steps"></a>Дальнейшие действия
 - [Подготовка к настройке политик защиты приложений](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 - [Создание и развертывание политик защиты приложений с помощью Microsoft Intune](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)

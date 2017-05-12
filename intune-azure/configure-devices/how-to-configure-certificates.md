@@ -1,12 +1,12 @@
 ---
-title: "Настройка сертификатов с помощью Intune"
+title: "Как настроить сертификаты с помощью Intune | Документация Майкрософт"
 titleSuffix: Intune Azure preview
 description: "Предварительная версия Intune Azure. Узнайте, как использовать Intune для создания и назначения сертификатов, которые помогают защитить подключения Wi-Fi, VPN и другие подключения."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/18/2017
+ms.date: 05/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: a981b0253f56d66292ce77639faf4beba8832a9e
-ms.openlocfilehash: 7d1d3c101aaa3832e36a0b9e9369fd1eeb0a6250
-ms.lasthandoff: 04/19/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
+ms.openlocfilehash: dfbf8e4f6a2ead4fa9ba1b476a0bf6ce6190d0a3
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/03/2017
 
 
 ---
@@ -47,7 +48,7 @@ ms.lasthandoff: 04/19/2017
     - Windows 8.1 и более поздние версии
     - Windows Phone 8.1 и более поздней версии
     - Windows 10 и более поздней версии
-3. Создайте профили сертификатов, чтобы устройства запрашивали сертификат, используемый для проверки подлинности доступа к VPN, Wi-Fi и электронной почте. Вы можете создать и развернуть профиль сертификата **PKCS** или **SCEP** для устройств на следующих платформах:
+3. Создайте профили сертификатов, чтобы устройства запрашивали сертификат, используемый для проверки подлинности доступа к VPN, Wi-Fi и электронной почте. Вы можете создать и назначить профиль сертификата **PKCS** или **SCEP** для устройств на следующих платформах:
     - Устройства iOS 8.0 и более поздней версии
     - Android 4.0 и более поздней версии
     - Android for Work

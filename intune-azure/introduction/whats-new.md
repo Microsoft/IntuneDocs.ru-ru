@@ -6,7 +6,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 04/20/2017
+ms.date: 04/29/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,10 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-translationtype: Human Translation
-ms.sourcegitcommit: 62dcb40ad5a7921c514a9d41da14b991e39f3bcd
-ms.openlocfilehash: 9554a431859665312daf414f2c6cdfb47baf8547
-ms.lasthandoff: 04/20/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: b9f56099c1f102472ba7f6c6a67b16cf29649365
+ms.openlocfilehash: 255b36b0c4473ff2450bf6f9a2db920c731bddc1
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/02/2017
 
 ---
 
@@ -32,6 +33,11 @@ ms.lasthandoff: 04/20/2017
 > Мы выпускаем перечисленные на этой странице изменения для предварительной версии портала Azure. Но изменения могут оказаться доступны не сразу, так как это зависит от способа обновления службы Intune.  Прежде чем новые функции портала станут доступны, несколько компонентов службы необходимо последовательно обновить. Рассмотрим изменения, которые должны появиться в этом месяце.
 
 ## <a name="april-2017"></a>Апрель 2017 г.
+
+### <a name="support-for-managing-the-apple-classroom-app"></a>Поддержка управления приложением Apple Класс
+
+Теперь вы можете управлять приложением iOS Класс на устройствах iPad. Внесите правильные данные об учащихся и аудиториях в приложение Класс на устройствах iPad преподавателей, а затем настройте устройства iPad учащихся, чтобы управлять ими с помощью приложения.
+Дополнительные сведения см. в статье [Как настроить параметры Intune для приложения iOS Класс](/intune-azure/configure-devices/how-to-configure-ios-edu-settings)
 
 ### <a name="support-for-managed-configuration-options-for-android-apps----621621---"></a>Поддержка управляемых параметров конфигурации для приложений Android <!-- 621621 -->
 
