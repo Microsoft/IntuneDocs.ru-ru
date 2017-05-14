@@ -16,10 +16,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: cce2cd69808937f3e088aa04f6142611a4594895
-ms.openlocfilehash: 05ca385d2fee544915dd244a3edf1a7a606ac073
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 95d0c1b5598785ff30bfd912f65c39cc5e46b85c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -66,5 +66,5 @@ ms.lasthandoff: 05/04/2017
 1. В колонке **Добавить приложение** проверьте правильность указанных сведений.
 2. Выберите **Добавить**, чтобы отправить приложение в Intune.
 
-Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. Сведения см. в статье о [назначении приложений группам](/intune-azure/manage-apps/deploy-apps).
+Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. Сведения см. в статье о [назначении приложений группам](deploy-apps.md).
 

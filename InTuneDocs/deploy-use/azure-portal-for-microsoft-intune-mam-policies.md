@@ -15,10 +15,10 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
-ms.openlocfilehash: 5eda4f43f3c62cfb0129656dcac75335570ec86f
+ms.sourcegitcommit: 2b064d14e8a46c19c0eafc3276b470dead114438
+ms.openlocfilehash: e7fd0a83e21d499da39bd65502d8981bc3b1f61c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 05/06/2017
 
 
 ---

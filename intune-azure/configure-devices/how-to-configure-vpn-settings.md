@@ -16,10 +16,10 @@ ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
-ms.openlocfilehash: 571d12427a8d5103470837819ab356923a2fcccd
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: d44eec0cdfc2a7762a0f0ca62da4dacd0d083484
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/05/2017
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -54,7 +54,7 @@ ms.lasthandoff: 05/05/2017
 
 
 > [!IMPORTANT]
-> Перед использованием назначенных устройству профилей VPN необходимо установить приложение VPN, подходящее для профиля. Чтобы назначить приложение с помощью Intune, см. инструкции в статье [Что такое управление приложениями с помощью Microsoft Intune](/intune-azure/manage-apps/what-is-app-management).  
+> Перед использованием назначенных устройству профилей VPN необходимо установить приложение VPN, подходящее для профиля. Чтобы назначить приложение с помощью Intune, см. инструкции в статье [Что такое управление приложениями с помощью Microsoft Intune](../manage-apps/what-is-app-management.md).  
 
 Чтобы узнать, как создать настраиваемые профили VPN с помощью параметров URI, см. [эту](create-custom-vpn-profiles.md) статью.     
 

@@ -16,10 +16,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
-ms.openlocfilehash: d3a3ef32f480d60a15b33312e436b2e40cc07bdd
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 847ddf08fdd7308475895af36f43c5391c9556fa
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/03/2017
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/03/2017
 > -   **Управляемое приложение iOS из магазина приложений**
 > -   **Пакет приложений для iOS**
 >
-> Дополнительные сведения о типах установки приложений см. в статье [Добавление приложения в Microsoft Intune](/intune-azure/manage-apps/add-apps).
+> Дополнительные сведения о типах установки приложений см. в статье [Добавление приложения в Microsoft Intune](add-apps.md).
 
 ## <a name="create-an-app-configuration-policy"></a>Создание политики конфигурации приложений
 

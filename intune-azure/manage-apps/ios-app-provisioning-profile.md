@@ -16,10 +16,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a9748a0ad6b9bbe10e36ba133ba74edb6aa6e09a
-ms.openlocfilehash: dfa2fb44e7366d7e139b22d9a08d882ae5353fb4
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: fa3e0b481c31779261d5f6b23b729ca55331266b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/05/2017
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -54,5 +54,5 @@ ms.lasthandoff: 05/05/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Назначьте профиль на требуемых устройствах iOS. Дополнительные сведения см. в статье [Как назначать профили устройств Microsoft Intune](/intune-azure/configure-devices/how-to-assign-device-profiles).
+Назначьте профиль на требуемых устройствах iOS. Дополнительные сведения см. в статье [Как назначать профили устройств Microsoft Intune](../configure-devices/how-to-assign-device-profiles.md).
 
