@@ -14,9 +14,11 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: 898975338edcd3267fd47d62d23b35e295f0d99b
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 271459e3faf886a45bcd673d2450f36a4a33a5db
+ms.openlocfilehash: 54a424677ef2df62c7a1fb18f2419f7b419112c0
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/28/2017
 
 
 ---
@@ -68,13 +70,4 @@ Microsoft Intune позволяет управлять различными ус
 |Функция|Подробные сведения|Дополнительные сведения|
 |--------------|-----------|--------------------|
 |Инвентаризация и отчетность|Поиск сведений об управляемых устройствах и программном обеспечении, используемом этими устройствами.|[Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune](/intune/deploy-use/understand-your-devices-with-inventory-in-microsoft-intune)|
-
-
-### <a name="see-also"></a>См. также
-[Возможности управления компьютерами с ОС Windows в Microsoft Intune](windows-pc-management-capabilities-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 
