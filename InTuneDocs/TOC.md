@@ -84,7 +84,7 @@
 #### [Правила доступа Exchange](deploy-use/exchange-access-rules-for-mobile-devices.md)
 ### [Управление устройствами Android for Work с помощью Intune](deploy-use/android-for-work.md)
 
-## [Управление компьютерами с помощью агента программного обеспечения](deploy-use/manage-windows-pcs-with-microsoft-intune.md)
+## [Управление компьютерами с помощью клиентского программного обеспечения](deploy-use/manage-windows-pcs-with-microsoft-intune.md)
 ### [Установка клиента компьютера](deploy-use/install-the-windows-pc-client-with-microsoft-intune.md)
 ### [Общие задачи управления ПК](deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
 #### [Политики компьютера](deploy-use/use-policies-to-simplify-windows-pc-management.md)
