@@ -100,8 +100,8 @@
 ### [Создание и развертывание политик защиты приложений](manage-apps/app-protection-policies.md)
 ### [Подготовка к использованию политик защиты приложений WIP](manage-apps/get-ready-to-configure-app-protection-policies-for-windows-10.md)
 ### [Создание и назначение политик защиты приложений WIP](manage-apps/create-windows-information-protection-policy-with-intune.md)
-#### [Параметры Android](manage-apps/android-app-protection-policy-settings.md)
-#### [Параметры iOS](manage-apps/ios-app-protection-policy-settings.md)
+### [Параметры Android](manage-apps/android-app-protection-policy-settings.md)
+### [Параметры iOS](manage-apps/ios-app-protection-policy-settings.md)
 ### [Проверка политик защиты приложений](manage-apps/validate-app-protection-policies.md)
 ### [Мониторинг состояния пользователя защиты приложений](manage-apps/monitor-app-protection-policies-with-microsoft-intune.md)
 ### [Управление передачей данных между приложениями iOS](manage-apps/manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
@@ -190,7 +190,7 @@
 ### [Создание политики соответствия Android for Work](set-device-compliance/create-a-compliance-policy-for-android-for-work.md)
 ### [Создание политики соответствия iOS](set-device-compliance/create-a-compliance-policy-for-ios.md)
 ### [Создание политики соответствия Windows](set-device-compliance/create-a-compliance-policy-for-windows.md)
-### [Создайте действий для несоответствия](set-device-compliance/actions-for-noncompliance.md)
+<!---### [Create Actions for noncompliance](set-device-compliance/actions-for-noncompliance.md)--->
 ### [Мониторинг устройств на соответствие требованиям](set-device-compliance/monitor-intune-device-compliance-policies.md)
 <!--- ### [Monitor device compliance](set-device-compliance/monitor-device-compliance.md)--->
 
