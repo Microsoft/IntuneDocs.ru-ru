@@ -5,7 +5,7 @@ keywords: "что такое Intune"
 author: Lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 03/7/2017
+ms.date: 05/04/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,10 +14,11 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: 3b1c61bc78db2c674bf108ed6110c3826cff150e
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 33febef8787887401960592d95356347f6917681
+ms.openlocfilehash: 2552f84dc38c4453851167cd1570143c7a9820c2
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/04/2017
 
 
 ---
@@ -32,7 +33,7 @@ Intune — это облачная служба управления корпо
 * Защита данных организации посредством управления обращением к ним и их совместного использования.
 * Обеспечение соответствия устройств и приложений требованиям безопасности организации.
 
-Intune тесно интегрируется с Azure Active Directory (Azure AD) для управления удостоверениями и контроля доступа, а также с Azure Information Protection для защиты данных. Это *служба для управления*, входящая в набор Microsoft Enterprise Mobility + Security (EMS), а Office 365 — это *служба обеспечения производительности труда* в решении мобильности Майкрософт.  
+Intune тесно интегрируется с Azure Active Directory (Azure AD) для управления удостоверениями и контроля доступа, а также с Azure Information Protection для защиты данных.
 
 Вместе Office 365 и EMS позволяют сотрудникам эффективно работать на всех устройствах, обеспечивая защиту данных организации. Office 365 с EMS — это полный интегрированный набор для обеспечения мобильности в организациях, включающий функции повышения производительности, управления удостоверениями, контроля доступа, управления и защиты данных. Он предоставляет эффективный способ развертывания и эксплуатации мобильных решений в вашей организации.
 
