@@ -16,10 +16,10 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
-ms.openlocfilehash: c7ddc58d15ea260b31adad0bab65428df7e4b9ac
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: b33d8ec48c057ce1e67487d5772ca203793d8a79
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/03/2017
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/03/2017
 
 ## <a name="getting-started"></a>Начало работы
 
-Рабочий процесс создания профилей устройств одинаковый для всех профилей. Дополнительные сведения о создании профилей конфигурации устройств Microsoft Intune см. в [этой статье](/intune-azure/configure-devices/how-to-create-device-profiles). Далее приведены сведения о создании параметров для каждого типа профиля.
+Рабочий процесс создания профилей устройств одинаковый для всех профилей. Дополнительные сведения о создании профилей конфигурации устройств Microsoft Intune см. в [этой статье](how-to-create-device-profiles.md). Далее приведены сведения о создании параметров для каждого типа профиля.
 
 Ниже указаны возможности, которыми можно управлять на устройствах.
 

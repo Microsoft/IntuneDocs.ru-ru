@@ -16,10 +16,10 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
-ms.openlocfilehash: dfbf8e4f6a2ead4fa9ba1b476a0bf6ce6190d0a3
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: ecb6a806e7870fd2b1986c4247607c9374431151
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/03/2017
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -72,8 +72,8 @@ ms.lasthandoff: 05/03/2017
 
 Инструкции по настройке инфраструктуры для каждого типа профиля сертификатов см. в следующих статьях.
 
-- [Настройка инфраструктуры сертификатов для SCEP в Microsoft Intune](/intune-azure/configure-devices/configure-certificate-infrastructure-for-scep)
-- [Настройка инфраструктуры сертификатов Microsoft Intune для PKCS](/intune-azure/configure-devices/configure-certificate-infrastructure-for-pfx)
+- [Настройка инфраструктуры сертификатов для SCEP в Microsoft Intune](configure-certificate-infrastructure-for-scep.md)
+- [Настройка инфраструктуры сертификатов Microsoft Intune для PKCS](configure-certificate-infrastructure-for-pfx.md)
 
 
 ## <a name="step-2---export-your-trusted-root-ca-certificate"></a>Шаг 2. Экспорт доверенного корневого сертификата ЦС
@@ -120,8 +120,8 @@ ms.lasthandoff: 05/03/2017
 
 Инструкции по настройке и назначению каждого типа профиля сертификатов см. в следующих статьях.
 
-- [Настройка инфраструктуры сертификатов для SCEP в Microsoft Intune](/intune-azure/configure-devices/configure-certificate-infrastructure-for-scep)
-- [Настройка инфраструктуры сертификатов Microsoft Intune для PKCS](/intune-azure/configure-devices/configure-certificate-infrastructure-for-pfx)
+- [Настройка инфраструктуры сертификатов для SCEP в Microsoft Intune](configure-certificate-infrastructure-for-scep.md)
+- [Настройка инфраструктуры сертификатов Microsoft Intune для PKCS](configure-certificate-infrastructure-for-pfx.md)
 
 После создания профиля доверенного сертификата создайте профили сертификатов SCEP или PKCS для каждой платформы, которую хотите использовать. При создании профиля сертификата SCEP необходимо указать профиль доверенного сертификата для этой же платформы. Это свяжет два профиля сертификатов, но каждый профиль необходимо по-прежнему назначать отдельно.
 

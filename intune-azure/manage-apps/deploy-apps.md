@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 05/02/2017
+ms.date: 05/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,10 +16,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
 ms.translationtype: Human Translation
-ms.sourcegitcommit: f9e8a5deb17ebb77d480213567e5ccf6550e3493
-ms.openlocfilehash: e0134f1a3aec2774de50b636b1cbea393847e886
+ms.sourcegitcommit: 3758df744311392528be01c826527c2a9d879975
+ms.openlocfilehash: 21ccb23023e9cb4f4b827887f8191ea73474c5de
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/03/2017
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 05/03/2017
 |Назначение упакованных приложений или приложений, интегрированных с пакетом SDK для Intune (для политик защиты приложений)|да|да|
 |Назначение приложений в качестве доступных|да|да|
 |Назначение приложений в качестве необходимых|да|Нет|
-|Удаление приложений|да|да|
+|Удаление приложений|да|Нет|
 |Установка доступных приложений с приложения корпоративного портала|да|Нет|
 |Установка доступных приложений с корпоративного веб-портала|да|да|
 
