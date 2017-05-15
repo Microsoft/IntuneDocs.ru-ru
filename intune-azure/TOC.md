@@ -86,6 +86,7 @@
 #### [Бизнес-приложения Windows Phone](manage-apps/windows-phone-line-of-business-app.md)
 #### [Приложения Магазина Windows](manage-apps/windows-store-app.md)
 #### [Бизнес-приложения Windows](manage-apps/windows-line-of-business-app.md)
+#### [Приложений Android for Work](/manage-apps/android-for-work-apps.md)
 ### [Назначение приложений](manage-apps/deploy-apps.md)
 ### [Мониторинг приложений](manage-apps/monitor-apps.md)
 ### [Использование профилей конфигурации приложений](manage-apps/app-configuration-policies.md)
