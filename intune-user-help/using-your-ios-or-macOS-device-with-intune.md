@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/09/2017
+ms.date: 05/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 57a067684ccada3df4faa15e6bf009b39caf5c94
-ms.openlocfilehash: 598ecac4aafaff5715e311dcfc058c1d2661bd3e
-ms.lasthandoff: 03/02/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: bc32b2f4b1ea26cc4487ac8576ec5fb7cd333aaa
+ms.openlocfilehash: 5de619d98ab78384e42c8a3a2264ce4deebc2602
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/09/2017
 
 
 ---
@@ -28,6 +29,10 @@ ms.lasthandoff: 03/02/2017
 # <a name="using-your-ios-or-macos-device-with-intune"></a>Использование устройства iOS или macOS в Intune
 
 Существует ряд вещей, которые можно сделать в Intune для упрощения работы. Ниже приведен список самых распространенных задач, которые могут потребоваться в вашей организации.
+
+## <a name="supported-versions"></a>Поддерживаемые версии
+
+Сейчас Intune поддерживает iOS 8.0 и более поздние версии. Также поддерживается macOS 10.9 Mavericks и более поздние версии. 
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Регистрация в Intune и установка корпоративного портала
 
@@ -40,6 +45,7 @@ ms.lasthandoff: 03/02/2017
 
 - [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
 - [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
+<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-ios.md) -->
 - [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-device-cpwebsite.md)
 - [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
 - [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-ios.md)
