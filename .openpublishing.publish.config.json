@@ -66,8 +66,7 @@
     ""
   ],
   "branches_to_filter": [
-    "master-oldev",
-    "live"
+    "master-oldev"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/IntuneDocs.ru-ru",
   "git_repository_branch_open_to_public_contributors": "live",
