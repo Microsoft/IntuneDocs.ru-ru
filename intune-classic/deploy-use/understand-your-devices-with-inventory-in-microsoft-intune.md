@@ -14,9 +14,11 @@ ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 3ae5809f8506e2255d9443d3587f2564bc863066
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 59b6a72a17490d7c4aada6bee5caaaac2ba0979c
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -117,9 +119,4 @@ Microsoft Intune позволяет просматривать данные ин
 ### See Also
 [Monitoring and reports with Microsoft Intune](monitoring-and-reports-with-microsoft-intune.md)
 -->
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

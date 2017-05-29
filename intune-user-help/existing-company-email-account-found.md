@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: a1e346047fb029689c0c9c68073b89b9bac20530
-ms.openlocfilehash: 27bb2c0834d07225756ea9133e557a930290dcf5
-ms.lasthandoff: 01/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 510e35a7c60709a6f002907e0f7963ba5b78f35c
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

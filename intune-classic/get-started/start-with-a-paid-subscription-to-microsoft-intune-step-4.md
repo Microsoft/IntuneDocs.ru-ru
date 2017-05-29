@@ -15,10 +15,10 @@ ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 7db42e591df8ec6c21f73b7ce49be624e1e29690
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 793df9f3734b84c74ecac9b8192d0b06306607e8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/02/2017
+ms.lasthandoff: 05/23/2017
 
 
 ---

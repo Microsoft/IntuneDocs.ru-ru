@@ -14,10 +14,11 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 6740e6f5894f6dfd7788d90cc8f445e0a63821a9
-ms.lasthandoff: 04/14/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -79,7 +80,7 @@ ms.lasthandoff: 04/14/2017
   ![Снимок экрана со страницей политики условного доступа Dynamics CRM Online](../media/mdm-ca-dynamics-crm-policy-configuration.png)
 
 2.  Выберите политику **Включить условный доступ**.
-3.  В разделе **Доступ приложения** можно выбрать область применения политики условного доступа:
+3.  В разделе **Доступ приложения**  можно выбрать область применения политики условного доступа:
   * **iOS**
   * **Android**
 4.  В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.

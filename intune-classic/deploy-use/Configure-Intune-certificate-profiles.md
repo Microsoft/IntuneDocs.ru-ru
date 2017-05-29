@@ -2,8 +2,8 @@
 title: "Настройка профилей сертификатов | Документы Майкрософт"
 description: "Узнайте, как создать профиль сертификата Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article
@@ -14,10 +14,11 @@ ms.assetid: 679a20a1-e66f-4b6b-bd8f-896daf1f8175
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
-ms.openlocfilehash: acfcb5fc8bf0af2ba5fb897e9e18d61e60f11978
-ms.lasthandoff: 04/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 2cd8394b520e29a8bbe405bda19e8bc4fc0efe5b
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 5ca9814992edd0a18d48145243a4be524dbb4f23
-ms.openlocfilehash: c6414623087ed1a61ca26ca83d6ddccb2b1c1f70
-ms.lasthandoff: 01/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 5db7489d379ca374e41030870df20ff16b919bbc
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

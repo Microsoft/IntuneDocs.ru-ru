@@ -2,8 +2,8 @@
 title: "Настройка инфраструктуры сертификатов для SCEP | Документы Майкрософт"
 description: "Инфраструктура для создания и развертывания профилей сертификатов SCEP."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 11/15/2016
 ms.topic: article
@@ -14,10 +14,11 @@ ms.assetid: 4ae137ae-34e5-4a45-950c-983de831270f
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e10453155343bb7fd91a4fd3874d393ef78d0b1a
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 88fd05cf1ccaf2c033b737ce76a3ce5d83557313
-ms.lasthandoff: 04/25/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 ---
 # <a name="configure-certificate-infrastructure-for-scep"></a>Настройка инфраструктуры сертификатов для SCEP

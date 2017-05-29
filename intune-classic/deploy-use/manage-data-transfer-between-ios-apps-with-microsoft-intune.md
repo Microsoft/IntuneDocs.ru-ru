@@ -14,10 +14,11 @@ ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: c66226b7fc31f91669c4f4f0693ccbd7c679189f
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: e71ebacec9d7b890b41e7650c8c50f42952c6326
-ms.lasthandoff: 03/29/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -78,7 +79,7 @@ ms.lasthandoff: 03/29/2017
 |Сторонний поставщик MDM| Раздел конфигурации | Тип значения | Значение конфигурации|
 | ------- | ---- | ---- | ---- |
 | VMware AirWatch | IntuneMAMUPN | Строка | {UserPrincipalName}|
-| MobileIron Core | IntuneMAMUPN | Строка | $EMAIL$**или**$USER_UPN$ |
+| MobileIron Core | IntuneMAMUPN | Строка | $EMAIL$ **или** $USER_UPN$ |
 | MobileIron Cloud | IntuneMAMUPN | Строка | ${userUPN} **или** ${userEmailAddress} |
 
 ### <a name="example-2-end-user-experience"></a>Пример 2. Взаимодействие с конечным пользователем

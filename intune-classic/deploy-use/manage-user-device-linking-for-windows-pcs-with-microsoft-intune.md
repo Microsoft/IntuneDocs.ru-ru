@@ -14,10 +14,11 @@ ms.assetid: 53c99d63-c312-442a-8a71-de1b10fcd39b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 10dd2caa9ce1b96424f55e373e904a778390eb15
-ms.openlocfilehash: 3a20dc18a72518ba9e01552cd1283170972b4bbb
-ms.lasthandoff: 12/16/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 44edcb211852224e9e9e9a82dd2d097d84b49b74
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -39,7 +40,7 @@ ms.lasthandoff: 12/16/2016
 
     -   Чтобы оставить компьютер связанным с его текущим пользователем (если таковой существует), нажмите кнопку **Отмена**.
 
-    -   Чтобы удалить связь с текущим пользователем (при его наличии), щелкните **Удалить связь**&gt; **ОК**.
+    -   Чтобы удалить связь с текущим пользователем (при его наличии), выберите **Удалить связь**&gt; **OК**.
 
     -   Чтобы связать компьютер с новым пользователем, в списке **Все пользователи** выберите пользователя. Убедитесь в том, что указаны правильные данные пользователя, и нажмите кнопку **ОК**.
 

@@ -14,9 +14,11 @@ ms.assetid: ad5ea85c-aa2e-4110-a184-172cd0b8f270
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: efa8245020b961797405a6f8b90df7e7b172b4c3
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: b2f0709beb6c64da1b70c20be6b3bb82bd06d5e8
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -74,9 +76,4 @@ ms.openlocfilehash: efa8245020b961797405a6f8b90df7e7b172b4c3
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [развертывать приложения в Microsoft Intune](deploy-apps-in-microsoft-intune.md).
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 3bda44c401ae7cf5dd796486d2d1a6332828bed1
-ms.openlocfilehash: cea226a32c5c2c6d49f1444e55a986d0c68d5448
-ms.lasthandoff: 01/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 22885c8b39cdbce2c9defb3b2ff11b218a8582f0
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

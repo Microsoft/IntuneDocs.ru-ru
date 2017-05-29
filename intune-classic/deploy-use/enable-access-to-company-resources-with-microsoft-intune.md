@@ -2,8 +2,8 @@
 title: "Разрешение доступа к ресурсам компании | Документы Майкрософт"
 description: "Профили Wi-Fi, VPN и электронной почты в совокупности позволяют пользователям получать доступ к нужным файлам и ресурсам."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 11/02/2016
 ms.topic: article
@@ -14,9 +14,11 @@ ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: bda32f27216c7b65bd02334bae2882e840e7a99d
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 5e336e72b66cf997f8808f0acc79bbebacad26d1
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -58,9 +60,4 @@ ms.openlocfilehash: bda32f27216c7b65bd02334bae2882e840e7a99d
 |Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |да|Да|Да|Да|да|
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

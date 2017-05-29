@@ -14,9 +14,11 @@ ms.assetid: fd8cb5f7-19f0-4d80-8825-2bafa49624af
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: f807d6e4b20b98ecf622d1ebdd9db33b132a2e6a
-ms.openlocfilehash: 91b25fe35c6a1f8a554d543ca005cc3b482f22d7
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: a56b683e57997171053f35414289d5b782c8fc2d
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -65,9 +67,4 @@ ms.openlocfilehash: 91b25fe35c6a1f8a554d543ca005cc3b482f22d7
 ## <a name="next-section"></a>Следующий раздел
 
 В следующем разделе приведены рекомендации по [разработке плана развертывания Intune](section-4-develop-a-rollout-plan.md).
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

@@ -14,10 +14,11 @@ ms.assetid: bbc8e0df-7bf3-494e-8bc4-dac59a98ab41
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: adf7e2d0f76e63f67b7cf3d26d26df0da0e50bd0
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 933a47163ccc66a1bab636982ca422c4a704656d
-ms.lasthandoff: 03/31/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 

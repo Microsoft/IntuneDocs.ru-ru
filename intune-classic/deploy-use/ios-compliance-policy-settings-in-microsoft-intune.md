@@ -14,9 +14,11 @@ ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 9f05e516723976dcf6862475dbb78f9dce2913be
-ms.openlocfilehash: f4867d18634add8cb6ffc61a4413618b1bea5a4b
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: fbb2e7ced783160fb6034aecc893d0c5dde639d7
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -82,9 +84,4 @@ ms.openlocfilehash: f4867d18634add8cb6ffc61a4413618b1bea5a4b
 Приводится ссылка на сведения о том, как выполнить обновление. По желанию пользователь может обновить свои устройства. После этого он сможет получить доступ к ресурсам компании.
 
 - **Максимальная версия ОС**: если устройство использует версию ОС, более позднюю по сравнению с указанной в правиле, доступ к ресурсам компании блокируется и пользователя просят связаться с ИТ-администратором. До изменения правила для разрешения конкретной версии ОС это устройство невозможно будет использовать для доступа к ресурсам компании.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

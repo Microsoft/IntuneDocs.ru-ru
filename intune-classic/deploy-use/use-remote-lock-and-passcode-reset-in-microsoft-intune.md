@@ -13,10 +13,11 @@ ms.technology:
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: f0a477c9eb1ed0580314e79135e377809eaab197
-ms.openlocfilehash: 9b0ae19b211373548061e2c2979620739a0bf0a0
-ms.lasthandoff: 04/17/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: e7cc218f34173443057eaa628ca8c7e4de8e3507
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>Защита устройств с помощью функций удаленной очистки и сброса секретного кода

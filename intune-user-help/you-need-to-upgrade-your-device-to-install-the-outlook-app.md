@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: vadona
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 1bf478eae73bb7385369e4d5cde26b937831e665
-ms.openlocfilehash: 8ef336e58c7b1d995d314202b5530d2f6b2ff138
-ms.lasthandoff: 12/30/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 081798753f3e962e0ca500097fc55e021802c73d
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
