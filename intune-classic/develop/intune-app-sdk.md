@@ -13,9 +13,11 @@ ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: a2e43444bff3b189c1516c6ca7131771035313ea
-ms.openlocfilehash: a967758387e9904eb9ce794b3783e777322c83a7
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 7944b6e16e72b781bb2f9101623deb1ce484fa46
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -70,9 +72,4 @@ ms.openlocfilehash: a967758387e9904eb9ce794b3783e777322c83a7
 Многие пользователи с личными устройствами хотят обращаться к корпоративным данным без регистрации своих устройств у поставщика управления мобильными устройствами (MDM). Так как регистрация MDM подразумевает полное управление устройством, пользователи часто сомневаются, стоит ли предоставлять свое личное устройство для управления организации.
 
 Защита приложений без регистрации устройств позволяет службе Microsoft Intune развернуть политику защиты приложений в самом приложении, не полагаясь на канал управления устройствами.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

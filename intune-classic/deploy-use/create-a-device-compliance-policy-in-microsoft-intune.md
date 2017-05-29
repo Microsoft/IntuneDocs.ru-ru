@@ -14,9 +14,11 @@ ms.assetid: 5336dac0-a2cc-4cd4-8511-67e4f95bd700
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 21875001129da8f5ca01869fa69960f18ae28c56
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 018fc2ff3b5609d3cc5f130db548f1dd3c839020
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -89,9 +91,4 @@ ms.openlocfilehash: 21875001129da8f5ca01869fa69960f18ae28c56
 
 ### <a name="see-also"></a>См. также
 [Общие сведения о политиках соответствия устройств](introduction-to-device-compliance-policies-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

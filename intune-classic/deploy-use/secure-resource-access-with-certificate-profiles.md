@@ -2,8 +2,8 @@
 title: "Профили сертификатов для доступа к ресурсам | Документы Майкрософт"
 description: "Защита доступа к VPN, Wi-Fi и электронной почте с помощью сертификата, устанавливаемого на каждом устройстве пользователя."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 02/03/2017
 ms.topic: article
@@ -14,10 +14,11 @@ ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 9cf53cb240ba14317fbb680ad4f4c40c8320506d
-ms.lasthandoff: 12/10/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 3dd6e5971d084773640c577cace43c2f011dbb69
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

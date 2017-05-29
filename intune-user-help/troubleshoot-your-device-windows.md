@@ -16,10 +16,11 @@ searchScope:
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: cd5d97ec4524477fe6ac08a863eaf5cc03913e50
-ms.openlocfilehash: 43c4972fa850c0f6652be241b5e3a41e4eda0c7c
-ms.lasthandoff: 02/21/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 9c3276885a588e964f30b871fd1ee91ff83f3676
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

@@ -14,9 +14,11 @@ ms.assetid: beee6933-876a-4be0-b395-4c24cfbd519b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: 824605544487c987c8726e0efe91d06a597fadb2
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 512f19a1e894479404d25d2500b0db79ba0882cf
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -60,9 +62,4 @@ Microsoft Intune позволяет управлять обновлениями 
 Приложения, установленные с помощью пакета приложения (бизнес-приложения), будут обновлены автоматически в рамках обязательного и доступного развертывания, если приложение имеет тот же идентификатор.
 
 Для приложений, развернутых в виде ссылки на магазин, обновлением управляет магазин, из которого получено приложение.
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

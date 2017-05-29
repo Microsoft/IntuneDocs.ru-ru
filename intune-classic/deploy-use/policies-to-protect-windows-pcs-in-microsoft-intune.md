@@ -14,9 +14,11 @@ ms.assetid: d081f466-45dd-41d1-ab25-6d974c72a52a
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: c482cbbd489c94d0cf8ec2c080d75b3d7df7f3d9
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 36be534c800a4f053ffaf34efdbb1debec4978f3
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -42,9 +44,4 @@ Intune упрощает [обновление управляемых компь�
 
 ### <a name="see-also"></a>См. также
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

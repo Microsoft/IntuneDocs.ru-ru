@@ -14,9 +14,11 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: bb706f122753219d8034bcd25fbe2e25b7142b30
-ms.openlocfilehash: 7fce50c88419a920aa7c4814517523e7a4ced919
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 6845097b768e67c7fbc6ff16bf41f27982c4b33e
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 
@@ -219,9 +221,4 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
 
 ### <a name="see-also"></a>См. также
 [Подключения Wi-Fi в Microsoft Intune](wi-fi-connections-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO3-->
-
 

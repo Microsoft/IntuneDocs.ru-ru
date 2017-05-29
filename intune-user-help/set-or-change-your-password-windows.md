@@ -15,10 +15,11 @@ searchScope:
 - User help
 ROBOTS: 
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 1ba0dab35e0da6cfe744314a4935221a206fcea7
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: d7d9ce0e1dc17dfafe78757a4bd8e48f9f67132d
-ms.lasthandoff: 03/13/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

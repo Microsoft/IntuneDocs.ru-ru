@@ -14,9 +14,11 @@ ms.assetid: 6982a2bc-aafa-475a-9236-4840b709e5a1
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: b6d5ea579b675d85d4404f289db83055642ffddd
-ms.openlocfilehash: 53ac1c31cf2a2054080e43716b30c50c73961759
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: d95852c20b98ee86552672cf03364980f06f010a
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -120,9 +122,4 @@ ms.openlocfilehash: 53ac1c31cf2a2054080e43716b30c50c73961759
 
 ### <a name="see-also"></a>См. также
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

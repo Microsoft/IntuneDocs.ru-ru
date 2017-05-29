@@ -14,9 +14,11 @@ ms.assetid: 9549c072-ac3d-4d14-a931-a2eda8846217
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: e7d1760a10e63233fe7cc7f6fd57a68c5283647c
-ms.openlocfilehash: bad0d8867602baf69dc398cc06b91ca30b24c487
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: d96fd3cf4d8963f1e79ef4ed27c1b826c8893b5f
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -133,9 +135,4 @@ Microsoft Intune позволяет защитить компьютеры Window
 
 ### <a name="see-also"></a>См. также
 [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Dec16_HO5-->
-
 

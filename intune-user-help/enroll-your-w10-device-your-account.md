@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 02/17/2017
+ms.date: 05/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,31 +17,40 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 10c7bc5461c746ab50e83c2ffc590b89efe75e5f
-ms.openlocfilehash: 351a0e6cf440b1506426db57ec0529496ed70231
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 624819ddd8afabef1e3b5419706268eef6d960d0
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
 
 # <a name="enroll-your-windows-10-device-in-intune"></a>Регистрация устройства на базе Windows 10 в Intune
 
-1.  Откройте **Параметры** Windows , перейдя в **меню "Пуск"** и нажав кнопку **Параметры**. Вы можете также ввести слово "параметры" в строке поиска.
+> [!NOTE]
+> Windows 10 работает на устройствах всех типов. Независимо от того, используете ли вы компьютер, телефон или планшет, действия, которые нужно выполнить, одинаковы — даже если они немного отличаются от изображений, приведенных на этой странице.
 
-2. Выберите **Учетные записи**.
+1.  Перейдите в меню **Пуск**.
+
+  - Для устройств с **Windows 10 Desktop** перейдите в **меню Пуск**.
+  - Для устройств с **Windows 10 Mobile** перейдите к **начальному экрану**, затем проведите, чтобы открыть список **Все приложения**.
+
+2. Откройте приложение **Параметры** в Windows, набрав "параметры" в строке поиска.
+
+3. Выберите **Учетные записи**.
 
     ![Переход в раздел "Параметры" и "Учетные записи"](./media/W10-enroll-1-settings-accounts.png)
 
-3. Выберите пункт **Моя учетная запись**.
+4. Выберите пункт **Моя учетная запись**.
 
     ![Выбор своей учетной записи](./media/W10-enroll-2-accounts-your-account.png)
 
-4. Выберите команду **Добавить рабочую или учебную учетную запись**.
+5. Выберите команду **Добавить рабочую или учебную учетную запись**.
 
     ![Добавление рабочей или учебной учетной записи](./media/w10-enroll-3-add-work-school-acct.png)
 
-5. Войдите, используя рабочую или учебную учетную запись.
+6. Войдите, используя рабочую или учебную учетную запись.
 
     ![Вход](./media/W10-enroll-4-sign-in.png)
 

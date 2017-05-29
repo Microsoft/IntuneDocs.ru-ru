@@ -1,11 +1,11 @@
 ---
 title: "Регистрация устройства с Windows 10 в Intune | Документы Майкрософт"
-description: "Регистрация устройства на базе Windows 10 1607 в Intune"
+description: "Регистрация устройства с Windows 10 версии 1607 или более поздней версии в Intune"
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 04/18/2017
+ms.date: 05/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -17,21 +17,30 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 10c7bc5461c746ab50e83c2ffc590b89efe75e5f
-ms.openlocfilehash: 5cf93d5f29e7fa3b989b1a00070d620e06f720c4
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: aa12a88cfd80f62e2f7b249b52333bd16cbb6533
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
 
 # <a name="enroll-your-windows-10-device-in-intune"></a>Регистрация устройства на базе Windows 10 в Intune
 
+> [!NOTE]
+> Windows 10 работает на устройствах всех типов. Независимо от того, используете ли вы компьютер, телефон или планшет, действия, которые нужно выполнить, одинаковы — даже если они немного отличаются от изображений, приведенных на этой странице.
+
 <iframe src="https://channel9.msdn.com/Series/IntuneEnrollment/Windows-Enrollment/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
-1.  Откройте **Параметры** Windows , перейдя в **меню "Пуск"** и нажав кнопку **Параметры**. Вы можете также ввести слово "параметры" в строке поиска.
+1. Перейдите в меню **Пуск**.
 
-2. Выберите пункты **Учетные записи** > **Доступ к рабочей или учебной учетной записи** > **Подключить**.
+  - Для устройств с **Windows 10 Desktop** перейдите в **меню Пуск**.
+  - Для устройств с **Windows 10 Mobile** перейдите к **начальному экрану**, затем проведите, чтобы открыть список **Все приложения**.
+
+2.  Откройте приложение **Параметры** в Windows, набрав "параметры" в строке поиска.
+
+3. Выберите пункты **Учетные записи** > **Доступ к рабочей или учебной учетной записи** > **Подключить**.
 
     ![Доступ к рабочей или учебной учетной записи](./media/w10-enroll-rs1-connect-to-work-or-school.png)
 

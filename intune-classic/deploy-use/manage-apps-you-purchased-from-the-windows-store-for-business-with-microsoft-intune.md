@@ -14,9 +14,11 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: a57ac0e6cb29dbfc87bb09c04bb372228a1d72be
-ms.openlocfilehash: 34e9ce6a5c0b7cb912a54644e6323574c2e041a7
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 0a6c84735b6bb8e7f636ea155437e7d90b8f3cc0
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
@@ -84,9 +86,4 @@ ms.openlocfilehash: 34e9ce6a5c0b7cb912a54644e6323574c2e041a7
 
 ### <a name="see-also"></a>См. также
 [Добавление приложений для мобильных устройств в Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md)
-
-
-
-<!--HONumber=Feb17_HO1-->
-
 

@@ -14,10 +14,11 @@ ms.assetid: 24b8ecbf-7336-4543-8094-32688bda0b8f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
-translationtype: Human Translation
-ms.sourcegitcommit: f268cf29461447306d0f5c3ca06d541d9a03a49d
-ms.openlocfilehash: ad4367beb27d4defbf44ce4a041a29e24f59ede0
-ms.lasthandoff: 12/16/2016
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 4d1ff670d6fdcb03dcfe2355dbc9879828818bdf
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

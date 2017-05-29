@@ -14,10 +14,11 @@ ms.assetid: 1712bd39-562b-4409-9cec-155d5f4d8a39
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 8b2bd3ecba0b597bc742ea08872ffe8fc58155cf
-ms.openlocfilehash: 5d317c837d43d58b9ac4750fa6f0e054fe2ff7da
-ms.lasthandoff: 04/24/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: 3388bce5bc4bb675b0342b463ed620c6023d51a2
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

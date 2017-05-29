@@ -14,10 +14,11 @@ ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 7451b1872a848ac322db4ec485564f2ebf983f0d
-ms.lasthandoff: 04/14/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 ---
 # <a name="deploy-apps-in-microsoft-intune"></a>Развертывание приложений в Microsoft Intune

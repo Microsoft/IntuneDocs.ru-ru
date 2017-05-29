@@ -16,10 +16,11 @@ searchScope:
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: d42fa20a3bc6b6f4a74dd0872aae25cfb33067b9
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 88f1d4b3e54a27be86a542e1265ea9606498ab4f
-ms.lasthandoff: 03/21/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

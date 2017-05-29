@@ -14,10 +14,11 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: fbb41a8cf6fada76b72213b8cb04fdc0428515e9
-ms.openlocfilehash: 96c25307c4060a8872ba4f6de47992c4d9f9dd85
-ms.lasthandoff: 02/14/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: d80632aceaa675f08eb4b23ce59e3bcabb72b4d0
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

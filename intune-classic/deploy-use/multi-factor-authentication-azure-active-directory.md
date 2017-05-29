@@ -13,10 +13,11 @@ ms.technology:
 ms.assetid: 47abdabd-dcd6-48d8-aade-3f3eefb92ee1
 ROBOTS: 
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: 7768013a1cc764b6dfbf4b7d22be4f5cf95f50bf
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: dba070ef76de8015b347e760b424a5e28ce6ddec
-ms.lasthandoff: 02/18/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

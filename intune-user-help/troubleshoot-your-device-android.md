@@ -16,10 +16,11 @@ searchScope:
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: bed28fc91271c12377f45662aa00fc9616d16fe8
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: f46a93d42427ea41adf71403c91fa95052c0bba2
-ms.lasthandoff: 04/11/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---

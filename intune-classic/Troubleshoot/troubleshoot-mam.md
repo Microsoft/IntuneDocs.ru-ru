@@ -12,10 +12,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cd5a0a3b-0013-4be3-a233-ce6e9083149f
 ms.custom: intune-classic
-translationtype: Human Translation
-ms.sourcegitcommit: ab6d9b6b296fb4e1fb0aaa9496fede28976728dc
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: c795b0b5b12d900155e55e0874009177b32a2546
-ms.lasthandoff: 04/14/2017
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
