@@ -15,10 +15,10 @@ ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 50780a8e516848bed41169c597dd2a964a1d296f
+ms.sourcegitcommit: 2f24da5173c5d4e19af1e2ac4d425ca20d48f150
+ms.openlocfilehash: a89a624544d8b46a3aca5325cedd06ff8a93b7e2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 05/31/2017
 
 
 ---
