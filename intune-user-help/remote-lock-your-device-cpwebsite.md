@@ -17,10 +17,11 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-translationtype: Human Translation
-ms.sourcegitcommit: 10c7bc5461c746ab50e83c2ffc590b89efe75e5f
-ms.openlocfilehash: 6910fd7b67fcd934b35a81cdbd372b2069fb3493
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
+ms.openlocfilehash: a213a46066de4244df23d0cd532b5fb4596ede77
+ms.contentlocale: ru-ru
+ms.lasthandoff: 05/23/2017
 
 
 ---
