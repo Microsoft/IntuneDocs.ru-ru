@@ -1,5 +1,5 @@
 ---
-title: "Снятие компьютера Windows с учета | Документы Майкрософт"
+title: "Снятие компьютера Windows с учета"
 description: "Сведения о снятии с учета компьютера Windows, управляемого Intune."
 keywords: 
 author: nathbarn
@@ -15,15 +15,18 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 30781be121782196b760f5aa163e922122480d33
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 09bba1ea199b51fdd1503cb1f0a3beeb97b6aa47
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="retire-a-windows-pc"></a>Снятие компьютера Windows с учета
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Воспользуйтесь указанными ниже сведениями, чтобы снять с учета настольные системы Windows, которые управляются как компьютеры с помощью программного клиента Intune на них. При снятии компьютера с учета он удаляется из системы управления Intune. Вы не можете выполнить из Intune сброс ПК к заводским значениям параметров.
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com/) щелкните **Группы** &gt; **Все устройства** (или другую группу с компьютером, который требуется снять с учета).

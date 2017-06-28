@@ -1,5 +1,5 @@
 ---
-title: "Упрощение конфигурации электронной почты на мобильных устройствах | Документы Майкрософт"
+title: "Упрощение конфигурации электронной почты на мобильных устройствах"
 description: 
 keywords: 
 author: jeffgilb
@@ -15,10 +15,10 @@ ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 78bce5b82cfbb65473ad0b8cadb0db349ed3df3c
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 2fe65f3021596390af8262f83704d6e4ceaa1716
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -37,8 +37,8 @@ Microsoft Intune экономит время и ресурсы компании,
 Когда профиль электронной почты настроен, можно легко ограничить доступ к корпоративной электронной почте и службам Office 365 с помощью политик условного доступа Intune. Эти политики позволяют ограничить доступ к корпоративной электронной почте и службам Office 365 теми устройствами, которые удовлетворяют заданным в Intune правилам.
 
 ## <a name="how-do-i-do-it"></a>Как это сделать?
-1.    Автоматически [настраивайте профили электронной почты пользователей](/intune-classic/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) на устройствах Windows, iOS и Android.
-2.    [Управляйте доступом к корпоративной электронной почте](/intune-classic/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) с помощью политик условного доступа.
+1.  Автоматически [настраивайте профили электронной почты пользователей](/intune-classic/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) на устройствах Windows, iOS и Android.
+2.  [Управляйте доступом к корпоративной электронной почте](/intune-classic/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) с помощью политик условного доступа.
 
 
 ### <a name="additional-information"></a>Дополнительная информация:

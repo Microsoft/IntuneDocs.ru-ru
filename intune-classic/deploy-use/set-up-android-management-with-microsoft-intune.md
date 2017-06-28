@@ -1,5 +1,5 @@
 ---
-title: "Настройка управления устройствами Android | Документы Майкрософт"
+title: "Настройка управления Android"
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств Android и KNOX Standard."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: lacranda
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 4042a22ecfbab7970ea4b3dab8ee6a82b0da5f78
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 927259d2f3b3078c9fdb0f1ba3bb22a69b555ab6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -42,7 +42,7 @@ ms.lasthandoff: 05/23/2017
     Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Android в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
 
     Дополнительные сведения о других задачах для пользователей см. в статьях:
-  - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](how-to-educate-your-end-users-about-microsoft-intune.md)
+  - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](/intune/end-user-educate)
   - [Руководство пользователя для устройств с Android](https://docs.microsoft.com/intune-user-help/using-your-android-device-with-intune)
 
 Так как в Китае отсутствует Магазин Google Play, корпоративный портал для устройств Android можно скачать в китайских магазинах приложений. Приложение корпоративного портала для Android можно будет скачать в следующих магазинах:

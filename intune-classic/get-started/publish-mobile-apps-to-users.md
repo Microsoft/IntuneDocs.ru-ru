@@ -1,5 +1,5 @@
 ---
-title: "Публикация мобильных приложений для пользователей | Документы Майкрософт"
+title: "Публикация мобильных приложений для пользователей"
 description: 
 keywords: 
 author: jeffgilb
@@ -15,10 +15,10 @@ ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fea0f98051d1a13a2ace178fe440520f495aaa68
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 71d57965164f0822e1a6d95715c4f9c92f7bf4bd
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -35,9 +35,9 @@ Microsoft Intune может повысить продуктивность пол
 Если ответ утвердительный, то Microsoft Intune позволит публиковать приложения (мобильные приложения Office, внутренние бизнес-приложения или другие мобильные и классические приложения) на одном общем портале. Это может быть [приложение или веб-сайт корпоративного портала Intune](/intune-user-help/company-portal-frequently-asked-questions).
 
 ## <a name="how-do-i-do-it"></a>Как это сделать?
-1.    [Зарегистрируйте устройства](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) для управления мобильными устройствами Intune.
-2.    [Добавьте в Intune приложения](/intune-classic/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune), которые вы хотите развернуть на зарегистрированных устройствах.
-3.    [С помощью Intune разверните приложения](/intune-classic/deploy-use/deploy-apps) на зарегистрированных устройствах.
+1.  [Зарегистрируйте устройства](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) для управления мобильными устройствами Intune.
+2.  [Добавьте в Intune приложения](/intune-classic/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune), которые вы хотите развернуть на зарегистрированных устройствах.
+3.  [С помощью Intune разверните приложения](/intune-classic/deploy-use/deploy-apps) на зарегистрированных устройствах.
 
 ### <a name="additional-information"></a>Дополнительная информация:
 Если целью публикации мобильных приложений Office является использование возможностей Intune MAM для управления защитой от потери данных этих приложений, то каждому пользователю, которому назначены политики MAM, необходимо будет [ назначить пользовательскую лицензию для Office 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).

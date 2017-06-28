@@ -1,5 +1,5 @@
 ---
-title: "Политики для защиты компьютеров с ОС Windows | Документы Майкрософт"
+title: "Политики для защиты компьютеров с ОС Windows"
 description: "Сведения о политиках, которые можно использовать для защиты компьютеров с Windows, когда они управляются с помощью клиентского ПО Intune."
 keywords: 
 author: robstackmsft
@@ -15,15 +15,17 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 36be534c800a4f053ffaf34efdbb1debec4978f3
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 6f840cf1b9319cd3a7650f645e6148bb4e56cfa3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="use-policies-to-help-protect-windows-pcs-that-run-the-intune-client-software"></a>Использование политик для защиты компьютеров Windows, на которых запущено клиентское ПО Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune предоставляет три политики, которые можно использовать для защиты компьютеров с ОС Windows, управляющихся [клиентским ПО Intune](manage-windows-pcs-with-microsoft-intune.md).
 

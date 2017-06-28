@@ -1,5 +1,5 @@
 ---
-title: "Создание политики соответствия защиты мобильных устройств от угроз Skycure | Документы Майкрософт"
+title: "Создание политики соответствия защиты мобильных устройств от угроз Skycure"
 description: "Создание политики соответствия защиты мобильных устройств от угроз Skycure в классической консоли Intune."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 54c36ffaee24ed7643bf8d64c52084d66550b240
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 29caf162500e25c2a0151be92aabe4cc432e241b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

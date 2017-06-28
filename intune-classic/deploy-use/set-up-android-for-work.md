@@ -1,5 +1,5 @@
 ---
-title: "Настройка Android for Work | Документы Майкрософт"
+title: "Настройка Android for Work"
 description: "Включение управления мобильными устройствами (MDM) для устройств Android for Work с помощью Microsoft Intune."
 keywords: 
 author: NathBarn
@@ -13,10 +13,10 @@ ms.technology:
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 644dd302abcb7bb943f1ce8239cd6b98f3e89e79
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 852997044cef22901e8133d76f327e98b2a1ee72
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

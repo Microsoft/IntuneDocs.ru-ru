@@ -1,5 +1,5 @@
 ---
-title: "Управление связыванием пользователей и устройств с компьютерами под управлением Windows | Документы Майкрософт"
+title: "Управление связыванием пользователей и устройств с компьютерами под управлением Windows"
 description: "Сведения о связывании пользователя с компьютером с Windows, управляемым Intune."
 keywords: 
 author: nathbarn
@@ -15,15 +15,18 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 44edcb211852224e9e9e9a82dd2d097d84b49b74
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 9641c40229be52066a97389584e55f2f95bc286d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="manage-user-device-linking-for-windows-pcs"></a>Управление связыванием пользователей и устройств с компьютерами под управлением Windows
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. 
 
 Прежде чем программное обеспечение можно будет развернуть для пользователя, необходимо связать его с компьютером. Пользователя можно связать с несколькими компьютерами, однако каждый компьютер связывается только с одним пользователем. Пользователи автоматически связываются с компьютерами, которые они регистрируют в Intune, используя корпоративный портал.

@@ -1,5 +1,5 @@
 ---
-title: "Поиск имени семейства пакетов (PFN) для VPN для каждого приложения | Документы Майкрософт"
+title: "Поиск имени семейства пакетов для VPN для каждого приложения"
 description: "Сведения о поиске имени семейства пакетов для настройки VPN для каждого приложения."
 keywords: 
 author: robstackmsft
@@ -15,10 +15,10 @@ ms.reviewer: tycast
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0fd7d7e1e09f193479c6ad221c8ace7470942c5a
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: eea3b9e2888f07399c8cda1e81ae8a5318d02d42
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -74,10 +74,10 @@ ms.lasthandoff: 05/23/2017
 
 ## <a name="find-a-pfn-if-the-app-is-not-installed-on-a-computer"></a>Поиск имени семейства пакетов в том случае, если приложение не установлено на компьютере
 
-1.    Перейдите на страницу https://www.microsoft.com/store/apps.
-2.    Введите имя приложения в строке поиска. В нашем примере это "OneNote".
-3.    Щелкните ссылку на приложение. Обратите внимание, что URL-адрес, по которому вы переходите, содержит последовательность букв в конце. В нашем примере URL-адрес выглядит следующим образом: `https://www.microsoft.com/store/apps/onenote/9wzdncrfhvjl`.
-4.    Вставьте следующий URL-адрес в адресную строку другой вкладки: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`. Замените `<app id>` идентификатором приложения, полученным на странице https://www.microsoft.com/store/apps (это ряд букв в конце URL-адреса на этапе 3). В нашем примере с OneNote нужно вставить следующее: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
+1.  Перейдите на страницу https://www.microsoft.com/store/apps.
+2.  Введите имя приложения в строке поиска. В нашем примере это "OneNote".
+3.  Щелкните ссылку на приложение. Обратите внимание, что URL-адрес, по которому вы переходите, содержит последовательность букв в конце. В нашем примере URL-адрес выглядит следующим образом: `https://www.microsoft.com/store/apps/onenote/9wzdncrfhvjl`.
+4.  Вставьте следующий URL-адрес в адресную строку другой вкладки: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/<app id>/applockerdata`. Замените `<app id>` идентификатором приложения, полученным на странице https://www.microsoft.com/store/apps (это ряд букв в конце URL-адреса на этапе 3). В нашем примере с OneNote нужно вставить следующее: `https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`.
 
 В Microsoft Edge отображаются нужные вам сведения; в Internet Explorer щелкните **Открыть**, чтобы просмотреть сведения. Значение PFN указано в первой строке. Ниже приведены результаты для нашего примера:
 

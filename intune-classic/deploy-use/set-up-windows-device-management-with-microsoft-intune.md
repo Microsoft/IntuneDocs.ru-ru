@@ -1,5 +1,5 @@
 ---
-title: "Настройка управления устройствами Windows с помощью Microsoft Intune | Документация Майкрософт"
+title: "Настройка управления устройствами Windows с помощью Microsoft Intune"
 description: "Включение управления мобильными устройствами (MDM) для устройств Windows с помощью Microsoft Intune"
 keywords: 
 author: NathBarn
@@ -14,10 +14,10 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: be2587f8ccb43632d861012416bbbca720698bb1
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: cf77cb313d5a36c5e7975e70d54bf044aa2d30c8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -69,7 +69,7 @@ ms.lasthandoff: 05/23/2017
 Сообщите пользователям, как зарегистрировать устройства Windows и что произойдет при управлении ими.
 Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Windows в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows). Вы также можете перенаправить пользователей к статье [Какие сведения становятся доступными моей организации при регистрации устройства в Intune?](https://docs.microsoft.com/intune-user-help/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows).
 
-Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](/intune-classic/deploy-use/how-to-educate-your-end-users-about-microsoft-intune).
+Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](/intune/end-user-educate).
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)
