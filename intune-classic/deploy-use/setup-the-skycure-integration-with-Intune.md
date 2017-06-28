@@ -1,5 +1,5 @@
 ---
-title: "Настройка интеграции Skycure и Intune | Документация Майкрософт"
+title: "Настройка интеграции Skycure и Intune"
 description: "Настройка интеграции Skycure и Microsoft Intune."
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 8c862b085f654102f2d461ee5571aba1ab470ea5
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 1d5a59f34a5dacdc2e1a0d5c6601b4ede1a908e4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

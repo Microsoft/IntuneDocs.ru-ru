@@ -1,5 +1,5 @@
 ---
-title: "Устранение неполадок с обновлениями программного обеспечения | Документы Майкрософт"
+title: "Устранение неполадок с обновлениями программного обеспечения"
 description: "Сведения о решении проблем с обновлениями программного обеспечения в Microsoft Intune."
 keywords: 
 author: robstackmsft
@@ -15,10 +15,10 @@ ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: bb46e329230483009c6ac5327493a2a32d4f46d8
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: b33c5978c2cb27eb7e486d139e71937c41f48b28
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

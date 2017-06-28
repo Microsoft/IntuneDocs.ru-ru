@@ -1,5 +1,5 @@
 ---
-title: "Настройка управления в iOS и Mac | Документы Майкрософт"
+title: Set up iOS and Mac management
 description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств iOS, включая устройства iPad и iPhone, а также для устройств Mac OS X."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ef1fbee09172a89e0f83cbe905a00f3a3ef25b05
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: af300534b3868a829c0b648d4df2587886ef749b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -53,7 +53,7 @@ Intune позволяет управлять мобильными устройс
     Инструкции по регистрации для пользователей см. в статьях [Регистрация устройства iOS в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) и [Регистрация устройства macOS в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos). При регистрации пользователи будут уведомлены о том, что они могут ожидать, а также об объеме сведений, отображаемых на устройствах для ИТ-администраторов.
 
     Дополнительные сведения о других задачах для пользователей см. в статьях:
-    - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](how-to-educate-your-end-users-about-microsoft-intune.md)
+    - [Ресурсы по пользовательскому интерфейсу Microsoft Intune](/intune/end-user-educate)
     - [Руководство конечного пользователя для устройств iOS и Mac](https://docs.microsoft.com/intune-user-help/using-your-ios-or-macOS-device-with-intune)
 
 Если ваша организация приобретает устройства iOS для пользователей, эти устройства также можно зарегистрировать в системе управления как [корпоративные устройства iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).

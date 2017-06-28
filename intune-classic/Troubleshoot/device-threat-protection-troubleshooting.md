@@ -1,5 +1,5 @@
 ---
-title: "Устранение неполадок интеграции Lookout | Документация Майкрософт"
+title: "Устранение неполадок интеграции Lookout"
 description: "В этом разделе описывается устранение неполадок, которые часто возникают при интеграции с Lookout."
 keywords: 
 author: NathBarn
@@ -15,10 +15,10 @@ ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2529c5b247b90775a99e47c73f93d80be33646d7
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: cd3c2809161aa438eb7aef91a65d68cb0f657607
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

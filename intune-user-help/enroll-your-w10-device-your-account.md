@@ -18,10 +18,10 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 624819ddd8afabef1e3b5419706268eef6d960d0
+ms.sourcegitcommit: b5ad9cc6c03712090398cacb3d4bb653deb1d2a4
+ms.openlocfilehash: 39d2dad94b949a39451dca79431be22782cddcb8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/12/2017
 
 
 ---

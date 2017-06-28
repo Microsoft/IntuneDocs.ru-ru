@@ -1,5 +1,5 @@
 ---
-title: "Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune | Документация Майкрософт"
+title: "Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune"
 description: "Создание и развертывание политики защиты приложений WIP с помощью Intune"
 keywords: 
 author: andredm7
@@ -15,10 +15,10 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ce327a54dc5960a3fdceeb54a5016d90fe252d2b
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 7aa879307ef3b72660d1ba7b3c3c2f99fc82dc97
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Разрешение конфликтов GPO и политик Intune | Документы Майкрософт"
+title: "Разрешение конфликтов GPO и политик Intune"
 description: "Сведения об устранении конфликтов между групповой политикой и политиками конфигурации Intune."
 keywords: 
 author: robstackmsft
@@ -15,15 +15,18 @@ ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 250ddb35aa33523141ae0f5af19b48b75ce0bef0
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 42debb9e26a226da6b2485a2ab1be2855d309747
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
 
 # <a name="resolve-group-policy-objects-gpo-and-microsoft-intune-policy-conflicts"></a>Разрешение конфликтов объектов групповой политики (GPO) и политик Microsoft Intune
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Intune использует политики, упрощающие работу с настройками на компьютерах Windows. Например, с помощью политики можно управлять настройками брандмауэра Windows на компьютерах. Многие настройки Intune совпадают с настройками, задаваемыми с помощью групповой политики Windows. Но иногда между двумя методами могут возникать конфликты.
 
 При возникновении конфликта групповая политика уровня домена имеет более высокий приоритет по сравнению с политикой Intune, за исключением той ситуации, когда компьютер не может подключиться к домену. В этом случае к клиентскому компьютеру применяется политика Intune.

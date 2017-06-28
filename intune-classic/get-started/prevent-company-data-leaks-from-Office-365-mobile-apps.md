@@ -1,5 +1,5 @@
 ---
-title: "Предотвращение утечки корпоративных данных из мобильных приложений Office 365 | Документы Майкрософт"
+title: "Предотвращение утечки корпоративных данных из мобильных приложений Office 365"
 description: "Используйте Intune, чтобы защитить данные своей организации с помощью политик управления мобильными приложениями (MAM), которые позволяют избежать утечки корпоративных данных из мобильных приложений Office 365 и других бизнес-приложений."
 keywords: 
 author: jeffgilb
@@ -15,10 +15,10 @@ ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: db350fbefe5ed9b1aa796ee8430000d33ebd1b4e
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 3f35dcb7168e9c76a8286a1425a26306914cfdb3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -35,13 +35,13 @@ Microsoft Intune поможет вам защитить данные своей 
 Если это так, то Microsoft Intune позволяет задать политики MAM для мобильных приложений Office 365 на устройствах iOS и Android, включая ограничения на вырезание, копирование и вставку, запрет команды "Сохранить как", настройку обязательного ввода ПИН-кода и возможность удаленной очистки данных, защищенных с помощью MAM.  Это обеспечивает защиту корпоративных данных и не требует регистрации устройств в решении MDM, поэтому конечные пользователи смогут по-прежнему комфортно работать с мобильными приложениями Office.
 
 ## <a name="how-do-i-do-it"></a>Как это сделать?
-1.    Получите общее представление о том, [как происходит управление мобильными приложениями в Intune /intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
-2.    Узнайте, [что необходимо для того, чтобы приступить к созданию политик MAM](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune) на портале Azure.
-3.    [Создайте и разверните политики MAM](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune) с помощью Intune.
+1.  Изучите основные принципы работы [управления мобильными приложениями (MAM) Intune](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
+2.  Узнайте, [что необходимо для того, чтобы приступить к созданию политик MAM](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune) на портале Azure.
+3.  [Создайте и разверните политики MAM](/intune-classic/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune) с помощью Intune.
 
 ### <a name="additional-information"></a>Дополнительная информация:
 - [Работа конечных пользователей](/intune-classic/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune) с приложениями с включенной поддержкой MAM.
-- [Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](/intune-classic/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune)
+- [Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](/intune/apps-prepare-mobile-application-management)
 - <a href="https://www.microsoft.com/cloud-platform/microsoft-intune-partners" target="_blank"> Список партнеров Microsoft Intune &rarr;</a>, предоставляющих приложения с включенной поддержкой MAM.
 
 ## <a name="what-should-i-do-next"></a>Дальнейшие действия

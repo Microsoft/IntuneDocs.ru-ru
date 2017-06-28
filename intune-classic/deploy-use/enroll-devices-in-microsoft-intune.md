@@ -1,5 +1,5 @@
 ---
-title: "Регистрация устройств | Документы Майкрософт"
+title: "регистрации устройств;"
 description: "В системе управления мобильными устройствами (MDM) регистрация используется для обеспечения управления устройствами и доступа к ресурсам."
 keywords: 
 author: nathbarn
@@ -15,10 +15,10 @@ ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e724e648dc8e768f11e51103a050665a60ffcb1a
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: c7c4390629178256728c55e47f06bffae043a729
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -43,40 +43,40 @@ ms.lasthandoff: 05/23/2017
 
 **Методы регистрации в iOS**
 
-| **Метод** |    **Требуется очистка?** |    **Сходство**    |    **Блокировка** | **Сведения** |
+| **Метод** |  **Требуется очистка?** |    **Сходство**    |   **Блокировка** | **Сведения** |
 |:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | Нет|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    Нет |Нет |Нет    | [Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
-|**[DEP](#dep)**|    да |    Необязательно |    Необязательно|[Дополнительные сведения](ios-device-enrollment-program-in-microsoft-intune.md)|
-|**[USB-SA](#usb-sa)**|    да |    Необязательно |    Нет| [Дополнительные сведения](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
-|**[Прямое подключение USB](#usb-direct)**|    Нет |    Нет    | Нет|[Дополнительные сведения](ios-direct-enrollment-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | Нет|    Да |   Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   Нет |Нет |Нет  | [Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[DEP](#dep)**|   да |   Необязательно |  Необязательно|[Дополнительные сведения](ios-device-enrollment-program-in-microsoft-intune.md)|
+|**[USB-SA](#usb-sa)**| да |   Необязательно |  Нет| [Дополнительные сведения](ios-setup-assistant-enrollment-in-microsoft-intune.md)|
+|**[Прямое подключение USB](#usb-direct)**| Нет |    Нет  | Нет|[Дополнительные сведения](ios-direct-enrollment-in-microsoft-intune.md)|
 
 **Методы регистрации в Windows**
 
-| **Метод** |    **Требуется очистка?** |    **Сходство**    |    **Блокировка** | **Сведения**|
+| **Метод** |  **Требуется очистка?** |    **Сходство**    |   **Блокировка** | **Сведения**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | Нет|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    Нет |Нет |Нет    |[Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | Нет|    Да |   Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   Нет |Нет |Нет  |[Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Методы регистрации в Android**
 
-| **Метод** |    **Требуется очистка?** |    **Сходство**    |    **Блокировка** | **Сведения**|
+| **Метод** |  **Требуется очистка?** |    **Сходство**    |   **Блокировка** | **Сведения**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | Нет|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    Нет |Нет |Нет    |[Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | Нет|    Да |   Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   Нет |Нет |Нет  |[Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Методы регистрации в Android for Work**
 
-| **Метод** |    **Требуется очистка?** |    **Сходство**    |    **Блокировка** | **Сведения**|
+| **Метод** |  **Требуется очистка?** |    **Сходство**    |   **Блокировка** | **Сведения**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | Нет|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
-|**[DEM](#dem)**|    Нет |Нет |Нет    |[Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
+|**[BYOD](#byod)** | Нет|    Да |   Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
+|**[DEM](#dem)**|   Нет |Нет |Нет  |[Дополнительные сведения](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)|
 
 **Методы регистрации в iOS**
 
-| **Метод** |    **Требуется очистка?** |    **Сходство**    |    **Блокировка** | **Сведения**|
+| **Метод** |  **Требуется очистка?** |    **Сходство**    |   **Блокировка** | **Сведения**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|**[BYOD](#byod)** | Нет|    Да |    Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
+|**[BYOD](#byod)** | Нет|    Да |   Нет | [Дополнительные сведения](prerequisites-for-enrollment.md)|
 
 
 Серию вопросов, которые помогут выбрать правильный метод, см. в статье [Выбор способа регистрации устройств](/intune-classic/get-started/choose-how-to-enroll-devices1).
@@ -94,15 +94,15 @@ ms.lasthandoff: 05/23/2017
 
 ### <a name="dep"></a>DEP
 Управление в рамках программы регистрации устройств Apple (DEP) позволяет создавать и развертывать политики по беспроводной сети для устройств iOS, приобретенных и управляемых в рамках программы DEP. Устройство регистрируется, когда пользователь впервые включает устройство и запускает помощник по установке iOS. Этот метод поддерживает **контролируемый режим iOS**, который, в свою очередь, обладает следующими характеристиками:
-  -    Блокировка регистрации
-  -    Полноэкранный режим и другие дополнительные параметры и ограничения
+  - Блокировка регистрации
+  - Полноэкранный режим и другие дополнительные параметры и ограничения
 
 Ознакомьтесь с дополнительными сведениями о [DEP](ios-device-enrollment-program-in-microsoft-intune.md). ([Вернуться к таблице](#overview-of-device-enrollment-methods))
 
 ### <a name="usb-sa"></a>USB-SA
 ИТ-администраторы используют Apple Configurator через USB для ручной подготовки каждого корпоративного устройства к регистрации с помощью помощника по настройке. ИТ-администратор создает профиль регистрации и экспортирует его в Apple Configurator. Когда пользователи получают свои устройства, им будет предложено запустить помощник по настройке, чтобы зарегистрировать свое устройство. Этот метод поддерживает **контролируемый режим iOS**, который, в свою очередь, обладает следующими характеристиками:
-  -    Блокировка регистрации
-  -    Полноэкранный режим и другие дополнительные параметры и ограничения
+  - Блокировка регистрации
+  - Полноэкранный режим и другие дополнительные параметры и ограничения
 
 Ознакомьтесь с дополнительными сведениями о [Помощнике по настройке регистрации с Apple Configurator](ios-setup-assistant-enrollment-in-microsoft-intune.md). ([Вернуться к таблице](#overview-of-device-enrollment-methods))
 
@@ -131,5 +131,5 @@ Intune может управлять следующими платформами
 ## <a name="next-steps"></a>Дальнейшие действия
 - [Предварительные условия для регистрации устройств](prerequisites-for-enrollment.md)
 - [Управление устройствами, являющимися собственностью организации](manage-corporate-owned-devices.md)
-- [Поддерживаемые мобильные устройства и компьютеры](../get-started/what-to-know-before-you-start-microsoft-intune.md#intune-supported-devices)
+- [Поддерживаемые мобильные устройства и компьютеры](/intune/supported-devices-browsers#intune-supported-devices)
 

@@ -1,5 +1,5 @@
 ---
-title: "Специальные возможности для людей с ограниченными возможностями | Документы Майкрософт"
+title: "Специальные возможности для людей с ограниченными возможностями"
 description: "Прочитайте сведения о специальных возможностях продуктов Майкрософт."
 keywords: 
 author: arob98
@@ -15,10 +15,10 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: f9117c881e5a38b08dbf61e841980f16a9c26135
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 0b101170523c02aea0e9df46e7887cf423abef7c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/31/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

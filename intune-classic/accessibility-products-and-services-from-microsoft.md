@@ -1,5 +1,5 @@
 ---
-title: "Продукты и службы корпорации Майкрософт для реализации специальных возможностей | Документы Майкрософт"
+title: "Продукты и службы корпорации Майкрософт для реализации специальных возможностей"
 description: "Сведения о продуктах и службах корпорации Майкрософт для реализации специальных возможностей."
 keywords: 
 author: arob98
@@ -15,10 +15,10 @@ ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 73934aaa762f99f70912e197e27c125a31e999e2
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: 69ff11881d8a5e6c4abfff5e9df4eeda87d140c2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/31/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---

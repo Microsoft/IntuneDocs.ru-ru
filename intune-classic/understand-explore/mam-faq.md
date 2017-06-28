@@ -15,10 +15,10 @@ ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 32446d9a6f9383b5449dbabf288b0eac0b483ebb
+ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
+ms.openlocfilehash: a39f67a532f53ef6ab2e3cc5d17b2d593a3483ae
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
+ms.lasthandoff: 06/08/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="mam-basics"></a>Основы MAM
 
 
-**Что такое MAM?** [Управление мобильными приложениями (MAM) в Intune](../deploy-use/overview-of-app-lifecycle-in-microsoft-intune.md) — это набор функций управления, позволяющих публиковать, отправлять, настраивать, защищать, отслеживать и обновлять мобильные приложения для пользователей.
+**Что такое MAM?** [Управление мобильными приложениями (MAM) в Intune](/intune/app-lifecycle) — это набор функций управления, позволяющих публиковать, отправлять, настраивать, защищать, отслеживать и обновлять мобильные приложения для пользователей.
 
 **Каковы преимущества защиты приложений, обеспечиваемой MAM?** MAM защищает корпоративные данные в самом приложении. С помощью MAM-WE вы можете управлять рабочими или учебными приложениями, которые содержат конфиденциальные данные, практически с любого устройства, включая личные устройства в рамках сценария BYOD. Intune MAM позволяет управлять многими бизнес-приложениями, включая программы Microsoft Office. См. официальный список общедоступных [приложений с поддержкой Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
 
@@ -50,12 +50,12 @@ ms.lasthandoff: 05/23/2017
 
 ## <a name="apps-you-can-manage-with-app-protection-policies"></a>Приложения, которыми можно управлять с помощью политик защиты приложений
 
-**Какими приложениями можно управлять с помощью политик защиты приложений?** Любым приложением, поддерживающим [пакет SDK для приложений Intune](../develop/intune-app-sdk.md) или упакованным с помощью [инструмента упаковки для приложений Intune](../deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md), можно управлять с помощью политик защиты приложений Intune. См. официальный список общедоступных [приложений с поддержкой Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
+**Какими приложениями можно управлять с помощью политик защиты приложений?** Любым приложением, поддерживающим [пакет SDK для приложений Intune](/intune/app-sdk) или упакованным с помощью [инструмента упаковки для приложений Intune](/intune/apps-prepare-mobile-application-management), можно управлять с помощью политик защиты приложений Intune. См. официальный список общедоступных [приложений с поддержкой Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
 
 **Каковы базовые требования к приложениям с поддержкой Intune для использования политик защиты приложений?**
-  1. Пользователь должен иметь учетную запись Azure Active Directory (AAD). Дополнительные сведения о создании пользователей Intune в Azure Active Directory см. в статье [Добавление пользователей и предоставление административного разрешения для Intune](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3.md).
+  1. Пользователь должен иметь учетную запись Azure Active Directory (AAD). Дополнительные сведения о создании пользователей Intune в Azure Active Directory см. в статье [Добавление пользователей и предоставление административного разрешения для Intune](/intune/users-permissions-add).
 
-  2. Пользователь должен иметь лицензию Microsoft Intune, назначенную его учетной записи Azure Active Directory. Дополнительные сведения о назначении лицензий Intune пользователям см. в статье [Управление лицензиями Intune](../get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md).
+  2. Пользователь должен иметь лицензию Microsoft Intune, назначенную его учетной записи Azure Active Directory. Дополнительные сведения о назначении лицензий Intune пользователям см. в статье [Управление лицензиями Intune](/intune/licenses-assign).
 
   3. Пользователь должен быть включен в группу безопасности, на которую распространяется политика защиты приложений. Эта же политика защиты приложений должна распространяться и на определенное используемое приложение. Политики защиты приложений можно создавать и развертывать в консоли Intune на [портале Azure](http://portal.azure.com). Сейчас группы безопасности можно создавать на [портале Office](http://portal.office.com).
 
