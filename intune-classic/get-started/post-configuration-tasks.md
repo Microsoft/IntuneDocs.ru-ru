@@ -14,15 +14,12 @@ ms.assetid: 34a412cd-8240-4e06-a60e-df270a711e7b
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: a3a928e1b3ed6cd0bdfdaeee1da383c8e2183885
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="post-configuration-tasks"></a>Задачи, выполняемые после настройки
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -34,4 +31,3 @@ ms.lasthandoff: 06/08/2017
 -   **Отчеты Intune.** Microsoft Intune предоставляет оповещения и отчеты, которые помогают для мониторинга устройств, состояния лицензий на программное обеспечение и действий, оказывающих влияние на устройства (например, очистка устройств).  Дополнительные сведения об отчетах см. в статье [Получение сведений об операциях Microsoft Intune с помощью отчетов](/intune-classic/deploy-use/understand-microsoft-intune-operations-by-using-reports).
 
 -   **Защита ресурсов компании.** После настройки Intune и регистрации устройств необходимо убедиться, что они защищены от потери данных и других угроз. Дополнительные сведения о защите ресурсов см. в статье [Защита приложений и данных с помощью Microsoft Intune](/intune-classic/deploy-use/protect-apps-and-data-with-microsoft-intune).
-

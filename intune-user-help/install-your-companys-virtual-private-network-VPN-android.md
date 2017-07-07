@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed4a9f15-72fb-4171-84cb-63d2f1a6d04c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 6d18e7c2fc0e0aff071b60f5a51238897c56b247
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="how-to-install-your-companys-virtual-private-network-vpn"></a>Установка виртуальной частной сети (VPN) компании
 
 Если ИТ-администратор настроил подключение к ресурсам компании через приложение VPN, вы увидите на устройстве Android уведомление о том, что необходимо установить это приложение. Чтобы установить приложение VPN, выполните следующие действия.
@@ -39,4 +34,3 @@ ms.lasthandoff: 05/23/2017
 
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

@@ -1,5 +1,5 @@
 ---
-title: "Защита доступа к сетям при помощи Cisco ISE | Microsoft Docs"
+title: "Защита доступа к сетям при помощи Cisco ISE"
 description: "Используйте Cisco ISE с Intune, чтобы регистрировать устройства в Intune и обеспечивать соответствие политикам до того, как они получат доступ к сетям Wi-Fi и VPN, управляемым Cisco ISE."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 5631bac3-921d-438e-a320-d9061d88726c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e3dd45ace4016619a962fdd6836ddddad5d143f6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 958108c4fbeb52803bf900a1a0f9f633716cddb8
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="using-cisco-ise-with-microsoft-intune"></a>Использование Cisco ISE с Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -157,7 +154,7 @@ b. Щелкните значок замка &gt; **Дополнительные 
 ## <a name="information-shared-between-your-intune-tenant-and-your-cisco-ise-server"></a>Данные, которыми обмениваются клиент Intune и сервер Cisco ISE
 В следующей таблице приведены данные, которыми обмениваются клиент Intune и сервер Cisco ISE для устройств, управляемых Intune.
 
-|Свойство|    Описание|
+|Свойство|  Описание|
 |---------------|------------------------------------------------------------|
 |complianceState|Значение true или false (строка) указывает, соответствует ли устройство требованиям.|
 |IsManaged|Значение true или false указывает, выполняется ли управление клиентом с помощью Intune.|
@@ -192,4 +189,3 @@ b. Щелкните значок замка &gt; **Дополнительные 
 ### <a name="see-also"></a>См. также
 
 [Руководство администратора по Cisco Identity Services Engine, выпуск 2.1](http://www.cisco.com/c/en/us/td/docs/security/ise/2-1/admin_guide/b_ise_admin_guide_21/b_ise_admin_guide_20_chapter_01000.html#task_820C9C2A1A6647E995CA5AAB01E1CDEF)
-

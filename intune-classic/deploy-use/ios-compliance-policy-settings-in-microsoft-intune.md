@@ -1,5 +1,5 @@
 ---
-title: "Параметр политики соответствия для устройств iOS | Документы Майкрософт"
+title: "Параметр политики соответствия для устройств iOS"
 description: "В этом разделе описываются правила и параметры, которые можно настроить в политике соответствия для устройств iOS."
 keywords: 
 author: andredm7
@@ -14,16 +14,12 @@ ms.assetid: 4a59d24f-ed58-49b1-b874-b2d4aea3ec76
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fbb2e7ced783160fb6034aecc893d0c5dde639d7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1d3248747740dafe858a581ed19a02ba87c4b761
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="compliance-policy-settings-for-ios-devices-in-microsoft-intune"></a>Параметры политики соответствия для устройств iOS в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -84,4 +80,3 @@ ms.lasthandoff: 05/23/2017
 Приводится ссылка на сведения о том, как выполнить обновление. По желанию пользователь может обновить свои устройства. После этого он сможет получить доступ к ресурсам компании.
 
 - **Максимальная версия ОС**: если устройство использует версию ОС, более позднюю по сравнению с указанной в правиле, доступ к ресурсам компании блокируется и пользователя просят связаться с ИТ-администратором. До изменения правила для разрешения конкретной версии ОС это устройство невозможно будет использовать для доступа к ресурсам компании.
-

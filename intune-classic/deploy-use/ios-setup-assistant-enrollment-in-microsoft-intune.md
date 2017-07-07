@@ -1,5 +1,5 @@
 ---
-title: "Регистрация устройств iOS с использованием помощника по настройке | Документы Майкрософт"
+title: "Регистрация устройств iOS с использованием помощника по настройке"
 description: "Здесь описывается регистрация корпоративных устройств iOS с помощью инструмента Apple Configurator, чтобы сбросить настройки устройства до заводских и подготовить его для запуска помощника по настройке."
 keywords: 
 author: nathbarn
@@ -14,15 +14,12 @@ ms.assetid: 46e5b027-4280-4809-b45f-651a6ab6d0cd
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 12466562ea8431156e9644e63fda16231ac70f32
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 402b5b469b1536e9f2ea13948e45c9232baca458
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-ios-devices-with-apple-configurator-by-using-setup-assistant"></a>Регистрация устройств iOS с Apple Configurator с использованием помощника по настройке
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -175,4 +172,3 @@ Intune поддерживает регистрацию корпоративны�
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации устройств](prerequisites-for-enrollment.md)
-

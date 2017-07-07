@@ -1,5 +1,5 @@
 ---
-title: "Регистрация для использования 30-дневной бесплатной пробной версии Microsoft Intune | Microsoft Docs"
+title: "Регистрация для использования 30-дневной бесплатной пробной версии Microsoft Intune"
 description: "Регистрация для использования бесплатной 30-дневной ознакомительной версии Microsoft Intune и настройка этой версии."
 keywords: 
 author: lindavr
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 619a1d11-3d22-4635-8f70-770eba3e1712
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 560765fa9d9afa4a1050515e1b2304c998f8c158
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ffa07d5e36abc8686cedd600123494180c286011
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Регистрация для использования бесплатной пробной версии Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -29,7 +26,7 @@ ms.lasthandoff: 05/23/2017
 В этой статье рассматриваются процедуры регистрации для использования пробной версии Intune и настройки этой версии с несколькими пользователями, после выполнения которых вы сможете выполнить инструкции в связанном руководстве по оценке, чтобы узнать об управлении мобильными устройствами в Intune. <!---or app data when devices are not enrolled in Intune.--->
 
 >[!Note]
-> Начиная с декабря 2016 года Microsoft Intune перемещается на портал Azure, поэтому некоторые бесплатные пробные версии для Intune будут работать на портале Azure, а другие — в классической службе Intune. Если ваша пробная версия работает на портале Azure, после изучения этой статьи рекомендуется ознакомиться с [материалами о предварительной версии Intune Azure](/intune/what-is--intune).
+> Начиная с декабря 2016 года Microsoft Intune перемещается на портал Azure, поэтому некоторые бесплатные пробные версии для Intune будут работать на портале Azure, а другие — в классической службе Intune. Если ваша пробная версия работает на портале Azure, после изучения этой статьи рекомендуется ознакомиться с [материалами о предварительной версии Intune Azure](/intune/what-is-intune).
 
 ## <a name="assumptions"></a>Допущения
 В этой статье по регистрации и руководстве по оценке предполагается, что пробная версия используется только в ознакомительных целях и запускается в чистой среде при оформлении подписки.
@@ -41,7 +38,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="sign-up-for-your-trial"></a>Регистрация для использования ознакомительной версии
 На странице [регистрации в Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20) заполните форму регистрации для работы с пробной подпиской.
 
-Если для пробной версии Intune вы хотите использовать имеющуюся рабочую или учебную учетную запись, следуйте [этим инструкциям по входу](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-1). Однако в этой статье и руководствах по оценке предполагается, что вы не используете такую учетную запись.
+Если для пробной версии Intune вы хотите использовать имеющуюся рабочую или учебную учетную запись, следуйте [этим инструкциям по входу](/intune/account-sign-up). Однако в этой статье и руководствах по оценке предполагается, что вы не используете такую учетную запись.
 
 > [!TIP]
 > Если большая часть ваших ИТ-операций и пользователей поддерживает язык и региональные параметры, отличные от ваших, этот языковой стандарт можно задать для пробной версии в целях тестирования производительности.
@@ -56,7 +53,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="add-users"></a>Добавление пользователей
 Прежде чем выйти из Центра администрирования Office 365 для Intune, необходимо добавить несколько пользователей в пробную учетную запись.
 
-В Центре администрирования Office 365 можно добавлять пользователей индивидуально или массово путем отправки CSV-файла. При настройке пробной версии будут реализованы оба способа. Однако в рабочей среде стоит воспользоваться преимуществами учетных записей пользователей Azure Active Directory. Дополнительные сведения о них можно получить в [руководстве по началу работы](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3) и разделе [Дальнейшие действия](#Next-steps) этой статьи.
+В Центре администрирования Office 365 можно добавлять пользователей индивидуально или массово путем отправки CSV-файла. При настройке пробной версии будут реализованы оба способа. Однако в рабочей среде стоит воспользоваться преимуществами учетных записей пользователей Azure Active Directory. Дополнительные сведения о них можно получить в [руководстве по началу работы](/intune/users-permissions-add) и разделе [Дальнейшие действия](#next-steps) этой статьи.
 
 ### <a name="add-an-individual-user"></a>Добавление отдельного пользователя
 1. Выберите один из вариантов добавления, чтобы открыть форму для создания пользователя. Обязательными для указания являются элементы, отмеченные звездочкой (\*).
@@ -110,8 +107,8 @@ ms.lasthandoff: 05/23/2017
 
 ![Изображение ссылки для возврата в Центр администрирования Office 365](./media/sign-up/task-add-users.png)
 
-### <a name="intune-azure-preview"></a>Предварительная версия Intune Azure
-Для работы с предварительной версией Intune Azure используются три портала:
+### <a name="intune-on-azure"></a>Intune на портале Azure
+Для работы с Intune на портале Azure используются три портала:
 - Центр администрирования Office 365 ([portal.office.com](https://portal.office.com))
 - Панель мониторинга Intune в Azure ([portal.azure.com](https://portal.azure.com))
 - Консоль администрирования классической службы Intune ([manage.microsoft.com](https://manage.microsoft.com))
@@ -138,8 +135,8 @@ ms.lasthandoff: 05/23/2017
 ### <a name="classic-intune"></a>Классическая служба Intune
 Сценарий оценки. [Оценка управления мобильными устройствами в Microsoft Intune](mobile-device-management-trial-guide-microsoft-intune.md)
 
-### <a name="intune-azure-preview"></a>Предварительная версия Intune Azure
-Дополнительные сведения об [Intune в предварительной версии портала Azure](/intune/what-is-intune)
+### <a name="intune-on-azure"></a>Intune на портале Azure
+Дополнительные сведения см. в разделе [Intune на портале Azure](/intune/what-is-intune)
 
 ### <a name="integration-with-other-products"></a>Интеграция с другими продуктами
 Дополнительные сведения об использовании учетных записей пользователей Azure Active Directory в Intune:
@@ -148,4 +145,3 @@ ms.lasthandoff: 05/23/2017
 - [Требования к многофакторной идентификации](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
 
 Дополнительные сведения об использовании [Intune с System Center Configuration Manager](https://docs.microsoft.com/sccm/mdm/understand/hybrid-mobile-device-management)
-

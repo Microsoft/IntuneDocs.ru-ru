@@ -14,15 +14,12 @@ ms.assetid: 149def73-9d08-494b-97b7-4ba1572f0623
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: a39f67a532f53ef6ab2e3cc5d17b2d593a3483ae
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>Часто задаваемые вопросы об управлении мобильными приложениями (MAM) и защите приложений
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -142,4 +139,3 @@ ms.lasthandoff: 06/08/2017
 - [Проверка настройки управления мобильными приложениями](../deploy-use/validate-mobile-application-management.md)
 - [Подготовка к настройке политик управления мобильными приложениями в Microsoft Intune](../deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 - [Получение поддержки для Microsoft Intune](../troubleshoot/how-to-get-support-for-microsoft-intune.md)
-

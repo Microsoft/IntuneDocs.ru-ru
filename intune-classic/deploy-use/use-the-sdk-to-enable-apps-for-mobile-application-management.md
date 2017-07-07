@@ -1,5 +1,5 @@
 ---
-title: "Подготовка приложений для управления мобильными приложениями с помощью пакета SDK | Документы Майкрософт"
+title: "Подготовка приложений для управления мобильными приложениями с помощью пакета SDK"
 description: "В этом разделе содержатся общие сведения о том, почему следует использовать пакет SDK для приложений Intune."
 keywords: 
 author: mtillman
@@ -14,15 +14,12 @@ ms.assetid: 26b00081-7c05-4969-ace1-0585e44d5cd2
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ec4e2f966fa8c24505ce1fa74a59c95908273bd1
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: de7c4f57e6d42ac36ba5873e3d0ba1eaee6a5e8b
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-the-sdk-to-enable-apps-for-mobile-application-management"></a>Подготовка приложений для управления мобильными приложениями с помощью пакета SDK
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -39,8 +36,7 @@ ms.lasthandoff: 05/23/2017
 
 Для использования пакета SDK нужен доступ к исходному коду приложения, однако большинство возможностей пакета можно включить без изменения поведения приложения.
 
-Обзор пакета SDK см. в разделе [Обзор](/intune-classic/develop/intune-app-sdk-get-started).
+Обзор пакета SDK см. в разделе [Обзор](/intune/app-sdk-get-started).
 
 ### <a name="see-also"></a>См. также
-[Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)
-
+[Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](/intune/apps-prepare-mobile-application-management)

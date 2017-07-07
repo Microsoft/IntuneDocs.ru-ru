@@ -1,5 +1,5 @@
 ---
-title: "Мониторинг развертываний приложений| Документы Майкрософт"
+title: "Мониторинг развертываний приложений"
 description: "Сведения о мониторинге приложений, развернутых с помощью Intune."
 keywords: 
 author: robstackmsft
@@ -14,16 +14,12 @@ ms.assetid: 5daad56d-71c8-455b-8a55-f8b33e279a8a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 808268faa797d8576f5fb693d9940d97d17abf21
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 9255a9cb966ef02aba11e0a6aaf7caf7e808a41c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="monitor-app-deployments-in-microsoft-intune"></a>Мониторинг развертываний приложений в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -49,4 +45,3 @@ ms.lasthandoff: 05/23/2017
 На странице **Свойства программного обеспечения** выберите приложения и щелкните одну из вкладок: **Общие** — отображение общих данных о приложении и состоянии его установки, **Устройства** — отображение устройств, на которые успешно установлено целевое развертывание приложения, **Пользователи** — отображение пользователей, на устройства которых успешно установлено целевое развертывание приложения.
 
 Как и раньше, можно использовать раскрывающийся список **Фильтры** для настройки значений, приведенных на каждой из вкладок.
-

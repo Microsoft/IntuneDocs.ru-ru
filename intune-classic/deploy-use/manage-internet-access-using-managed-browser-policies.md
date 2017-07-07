@@ -1,5 +1,5 @@
 ---
-title: "Управление веб-доступом с помощью Managed Browser | Документы Майкрософт"
+title: "Управление веб-доступом с помощью Managed Browser"
 description: "Сведения о развертывании приложения Managed Browser для ограничения просмотра веб-страниц и передачи веб-данных в другие приложения."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: dc946303-e09b-4d73-8bf4-87742299bc54
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 49ad005846265deb7d4b34b52a1c139e8f61372b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: 89f60e34fd89784ca8ea1fa3999927c7b0bc66e4
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Управление доступом в Интернет с помощью политик управляемого браузера в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -158,4 +155,3 @@ ms.lasthandoff: 05/31/2017
 -   Если устройство впервые получает политики управляемого браузера и две политики вступают в конфликт, соответствующие URL-адреса не применяются к данному устройству. Чтобы просмотреть конфликты, используйте узел **Конфликты политик** в рабочей области **Политика** .
 
 -   Если устройство уже получило политику управляемого браузера и развертывается вторая политика с конфликтующими параметрами, на устройстве продолжают действовать исходные параметры. Чтобы просмотреть конфликты, используйте узел **Конфликты политик** в рабочей области **Политика** .
-

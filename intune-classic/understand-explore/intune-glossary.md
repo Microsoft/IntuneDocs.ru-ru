@@ -1,26 +1,24 @@
 ---
-title: "Глоссарий Intune | Документация Майкрософт"
+title: "Глоссарий Intune"
 description: "Дополнительные сведения о терминологии в Microsoft Intune"
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 11/17/2016
+ms.date: 06/16/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
+ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 43b6dbfc004e8687eaf2a0ee185728136f457bfc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: be3b078edc4e133fb586bb9476ba1dd770d0f389
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="microsoft-intune-glossary"></a>Глоссарий Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -29,10 +27,17 @@ ms.lasthandoff: 05/23/2017
 
 |||
 |-|-|
-|App SDK (Пакет SDK для приложений)|[Пакет SDK для приложений Microsoft Intune](/intune-classic/develop/intune-app-sdk) позволяет добавить функциональные возможности в собственные приложения, после чего ими можно будет управлять посредством политик управления мобильными приложениями Intune.|
-|App wrapping tool (Инструмент упаковки приложений)|[Приложение командной строки](/intune-classic/deploy-use/decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune), которое создает оболочку вокруг бизнес-приложения, что позволяет управлять им с помощью политики управления мобильными приложениями Intune.|
+|Профиль конфигурации приложения|Определяет [конкретные параметры](/intune-classic/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune) конфигурации приложения iOS до его запуска.|
+|Развертывание приложений|Позволяет пользователям [находить, скачивать и устанавливать](/intune-classic/deploy-use/deploy-apps) нужные приложения.|
+|Мониторинг приложений|Позволяет [просматривать последние сведения о состоянии и действиях](/intune-classic/deploy-use/monitor-apps-in-microsoft-intune) для развертывания приложения.|
+|Задача по удалению данных для защиты приложения|[Удаляет данные приложения](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) с устройства пользователя.|
+|Политика защиты приложений|Гарантирует, что приложения пользователя соответствуют требованиям [политик защиты данных организации](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).|
+|Отчеты по приложению|Позволяют [просматривать данные журнала](/intune-classic/deploy-use/understand-microsoft-intune-operations-by-using-reports), относящиеся к состоянию и действиям, для развертывания приложения.|
+|App SDK (Пакет SDK для приложений)|[Пакет SDK для приложений Microsoft Intune](/intune/app-sdk) позволяет добавить функциональные возможности в собственные приложения, после чего ими можно будет управлять посредством политик управления мобильными приложениями Intune.|
+|Действие удаления приложения|Позволяет [удалять приложения](/intune-classic/deploy-use/deploy-apps) с устройств пользователя.|
+|App wrapping tool (Инструмент упаковки приложений)|[Приложение командной строки](/intune/apps-prepare-mobile-application-management), которое создает оболочку вокруг бизнес-приложения, что позволяет управлять им с помощью политики управления мобильными приложениями Intune.|
 |Available install (Доступная установка)|При развертывании приложения с помощью этого действия оно отображается на корпоративном портале, и пользователи могут [установить его по запросу](/intune-classic/deploy-use/deploy-apps).|
-|Azure Portal (Портал Azure)|Новая консоль Intune, которая появится в ближайшее время. Сейчас для создания [политик Intune MAM](/intune-classic/deploy-use/azure-portal-for-microsoft-intune-mam-policies) для устройств можно использовать портал Azure.||
+|Azure Portal (Портал Azure)|Новая консоль Intune, которая появится в ближайшее время. [Дополнительные сведения о новом портале](/intune/what-is-intune).|
 
 ## <a name="b"></a>B
 |||
@@ -56,7 +61,7 @@ ms.lasthandoff: 05/23/2017
 |-|-|
 |Deployment (Развертывание)|Процедура отправки приложения или политики для устройства или пользователя, которыми вы управляете.|
 |Deployment action (Действие развертывания)|Выбор, выполняемый при [развертывании приложения](/intune-classic/deploy-use/deploy-apps-in-microsoft-intune). Можно сделать установку приложения обязательной или необязательной, а также удалить приложение.|
-|Device enrollment manager (Диспетчер регистрации устройств)|Организации могут использовать Intune для управления большим количеством мобильных устройств с помощью одной учетной записи пользователя. Учетная запись [диспетчер регистрации устройств /intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) — это специальная учетная запись Intune, с помощью которой можно зарегистрировать до 1000 устройств.|
+|Device enrollment manager (Диспетчер регистрации устройств)|Организации могут использовать Intune для управления большим количеством мобильных устройств с помощью одной учетной записи пользователя. Учетная запись [диспетчера регистрации устройств (DEM)](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) — это специальная учетная запись Intune, на которую можно зарегистрировать до 1000 устройств.|
 |Device group mapping (Сопоставление группы устройств)|Помогает [автоматически добавить устройства в группы](/intune-classic/deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune) на основе категории (например, "Личные" или "Продажи"), которую вы или конечный пользователь назначаете устройству.|
 
 ## <a name="e"></a>E
@@ -64,7 +69,7 @@ ms.lasthandoff: 05/23/2017
 |-|-|
 |Email profile (Профиль электронной почты)|Эта политика позволяет настроить [параметры доступа к электронной почте](/intune-classic/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) для отдельных почтовых клиентов на мобильных устройствах, минимизируя объем необходимой настройки со стороны пользователя.|
 |EMS|Microsoft Enterprise Mobility + Security (прежнее название — Enterprise Mobility Suite) защищает корпоративные данные и предоставляет вашим пользователям [доступ к нужным приложениям и содержимому](https://www.microsoft.com/cloud-platform/enterprise-mobility).|
-|End user (Конечный пользователь)|[Пользователи таких устройств, как телефоны и компьютеры](/intune-classic/deploy-use/how-to-educate-your-end-users-about-microsoft-intune), которые находятся под управлением Intune.|
+|End user (Конечный пользователь)|[Пользователи таких устройств, как телефоны и компьютеры](/intune/end-user-educate), которые находятся под управлением Intune.|
 |Enroll (Регистрация)|В Microsoft Intune [регистрация](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) используется для обеспечения управления устройствами и доступа к ресурсам.|
 
 ## <a name="f"></a>F
@@ -99,8 +104,8 @@ ms.lasthandoff: 05/23/2017
 |||
 |-|-|
 |Managed Browser|[Приложение для просмотра веб-страниц](/intune-classic/deploy-use/manage-internet-access-using-managed-browser-policies), которое можно развернуть в организации с помощью Microsoft Intune. Политика управляемого браузера настраивает список разрешений или список блокировок, ограничивающий те веб-сайты, которые могут посетить пользователи управляемого браузера.|
-|Управление мобильными приложениями|[Управление мобильными приложениями /intune-classic/deploy-use/overview-of-app-lifecycle-in-microsoft-intune) позволяет публиковать, отправлять, настраивать, защищать, отслеживать и обновлять мобильные приложения для пользователей.
-|управление мобильными устройствами|[Управление мобильными устройствами /intune-classic/deploy-use/overview-of-device-lifecycle-in-microsoft-intune) позволяет зарегистрировать устройства в Intune для последующей подготовки, настройки, мониторинга и выполнения действий на этих устройствах.
+|Mobile application management (Управление мобильными приложениями)|[Управление мобильными приложениями (MAM)](/intune/app-lifecycle) дает возможность публикации, отправки, настройки, защиты, мониторинга и обновления мобильных приложений для пользователей.
+|Mobile device management (управление мобильными устройствами)|[Управление мобильными устройствами (MDM)](/intune/device-lifecycle) дает возможность регистрации устройств в Intune для последующей подготовки, настройки, мониторинга и выполнения действий на этих устройствах.
 |MDM authority (Центр MDM)|[Центр MDM](/intune-classic/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune) определяет службу управления, у которой есть разрешение на управление набором устройств. Возможные варианты центра управления мобильными устройствами — отдельная служба Intune или Configuration Manager с Intune.|
 |Mobile app provisioning policy (Политика подготовки мобильных приложений)|Политика iOS, помогающая предотвращать истечение срока действия для [профилей подготовки](/intune-classic/deploy-use/ios-mobile-app-provisioning-profiles) для развертываемых приложений iOS.|
 |Mobile app configuration policy (Политика конфигурации мобильных приложений)|Политика iOS, которая позволяет [предоставить параметры для совместимых приложений iOS](/intune-classic/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune) при их запуске, например название организации или адрес сервера.|
@@ -148,4 +153,3 @@ ms.lasthandoff: 05/23/2017
 |||
 |-|-|
 |Wi-Fi profile (Профиль Wi-Fi)|Политика, которая развертывает на устройствах [параметры беспроводной сети](/intune-classic/deploy-use/wi-fi-connections-in-microsoft-intune), чтобы позволить пользователям подключаться к корпоративной сети без настройки каких-либо параметров.
-
