@@ -1,6 +1,5 @@
 ---
-
-title: "Установка клиентского программного обеспечения для ПК | Документация Майкрософт"
+title: "Установка клиентского программного обеспечения для ПК"
 description: "В этом руководстве содержатся сведения об управлении ПК Windows с помощью клиентского программного обеспечения Microsoft Intune."
 keywords: 
 author: nathbarn
@@ -14,16 +13,16 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 19cfb242fbd1be613b38c8aa06c12b741bc6cd74
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 356ada64224f8982baf93ddaccb44df123c4568c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Установка программного клиента Intune на компьютерах Windows
+
+[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+
 Компьютеры под управлением Windows можно зарегистрировать с помощью установки клиентского программного обеспечения Intune. Клиентское программное обеспечение Intune можно установить одним из следующих способов:
 
 - ИТ-администратор может использовать один из следующих способов: установка вручную, групповая политика или установка из образа диска;
@@ -261,4 +260,3 @@ ms.lasthandoff: 05/23/2017
 ### <a name="see-also"></a>См. также
 [Управление компьютером с Windows с помощью Microsoft Intune](manage-windows-pcs-with-microsoft-intune.md)
 [Устранение неполадок при настройке клиента](../troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)
-

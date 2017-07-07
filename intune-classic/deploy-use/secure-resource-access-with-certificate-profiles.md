@@ -1,5 +1,5 @@
 ---
-title: "Профили сертификатов для доступа к ресурсам | Документы Майкрософт"
+title: "Профили сертификатов для доступа к ресурсам"
 description: "Защита доступа к VPN, Wi-Fi и электронной почте с помощью сертификата, устанавливаемого на каждом устройстве пользователя."
 keywords: 
 author: lleonard-msft
@@ -14,15 +14,12 @@ ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3dd6e5971d084773640c577cace43c2f011dbb69
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 5570c13b9ca1782b12ad7ca718d18c98bda7bbfa
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="secure-resource-access-with-certificate-profiles-in-microsoft-intune"></a>Защита доступа к ресурсам с помощью профилей сертификатов в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -62,4 +59,3 @@ ms.lasthandoff: 05/23/2017
 - [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md)
 - [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md)
 - [Настройка профилей сертификатов Intune](configure-intune-certificate-profiles.md)
-

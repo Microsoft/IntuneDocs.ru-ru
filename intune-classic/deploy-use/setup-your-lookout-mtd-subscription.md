@@ -1,5 +1,5 @@
 ---
-title: "Настройка службы Lookout в подписке | Документация Майкрософт"
+title: "Настройка службы Lookout в подписке"
 description: "Эта статья содержит подробную информацию о настройке службы защиты от угроз на устройствах Lookout."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 8477a2f1-2e1d-4d42-8bcb-e1181cc900bb
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3c777d8857fd177e5a27840ab8a97c8a137aa189
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 5acbf2aacc747113ff8b3889dba306e30567f24a
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-up-your-lookout-mobile-threat-defense-subscription"></a>Настройка подписки защиты от угроз на мобильных устройствах Lookout
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -76,7 +73,7 @@ ms.lasthandoff: 05/23/2017
 
   ![снимок экрана для страницы консоли Lookout при первом входе](../media/mtp/lookout_mtp_initial_login.png) После принятия условий и подтверждения согласия вы будете перенаправлены в консоль Lookout.
 
-  В разделе [Диагностика интеграции Lookout](/intune-classic/troubleshoot/troubleshooting-lookout-integration) описаны способы устранения проблем со входом в систему.
+  В разделе [Диагностика интеграции Lookout](/intune-classic/Troubleshoot/device-threat-protection-troubleshooting.md) описаны способы устранения проблем со входом в систему.
 
 3.  В модуле **Система** [консоли Lookout](https://aad.lookout.com) выберите **Соединители** и **Intune**.
 
@@ -139,4 +136,3 @@ ms.lasthandoff: 05/23/2017
 После завершения установки служба защиты от угроз на мобильных устройствах Lookout начинает опрашивать Azure AD на предмет наличия устройств, которые соответствуют указанным группам регистрации.  Сведения о зарегистрированных устройствах можно найти в модуле Devices (Устройства).  Начальное состояние для устройств указывается как состояние ожидания.  Состояние устройства изменится после установки, открытия и активации приложения Lookout for Work на устройстве.  Сведения о принудительной установке Lookout for Work на устройство можно найти в статье [Настройка и развертывание приложения Lookout for Work](configure-deploy-lookout-for-work-app.md).
 ## <a name="next-steps"></a>Дальнейшие действия
 [Включение подключения Lookout MTP в Intune](/intune-classic/deploy-use/enable-lookout-mtd-connection)
-

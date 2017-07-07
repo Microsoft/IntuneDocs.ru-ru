@@ -14,15 +14,12 @@ ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 8acde93c1c0c0d3bf443daf61d5f8d75b3d061df
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-devices-with-microsoft-intune"></a>Защита устройств с помощью Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -65,4 +62,3 @@ Intune позволяет интегрировать [Windows Hello для би�
 
 ## <a name="protect-windows-pcs-managed-with-the-intune-client"></a>Защита компьютеров под управлением клиента Intune
 Intune продолжает поддерживать политики безопасности для компьютеров под управлением Windows, которые не регистрируются, но управляются с помощью клиентского программного обеспечения Intune. Чтобы узнать, как эти политики помогают защитить ваши ПК под управлением Windows, см. статью [Использование политик для защиты компьютеров Windows, на которых запущено клиентское ПО Intune](policies-to-protect-windows-pcs-in-microsoft-intune.md).
-

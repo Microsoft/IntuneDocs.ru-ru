@@ -1,5 +1,5 @@
 ---
-title: "Защита электронной почты и Office 365 | Документы Майкрософт"
+title: "Защита электронной почты и Office 365"
 description: "В этом разделе описывается, как использовать условный доступ, чтобы разрешать доступ к корпоративной электронной почте и данным, расположенным в SharePoint Online и других службах, только совместимым устройствам."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fc89c1b5b502f00bab5ed02f6e7df6422241aeb1
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 3405671130a58aa944d6c689264379a254face1d
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-access-to-email-office-365-and-other-services-with-microsoft-intune"></a>Защита доступа к электронной почте, Office 365 и другим службам при помощи Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -51,7 +48,7 @@ Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно
 
 - Дополнительные сведения о Enterprise Mobility см. на странице [цен на Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [цены на Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
-Кроме того, убедитесь, что пользователям, к которым вы планируете применять политики условного доступа, [назначены лицензии Azure AD Premium или EMS](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4.md).
+Кроме того, убедитесь, что пользователям, к которым вы планируете применять политики условного доступа, [назначены лицензии Azure AD Premium или EMS](/intune/licenses-assign).
 
 ### <a name="device-compliance-settings"></a>Параметры соответствия устройств
 
@@ -83,4 +80,3 @@ Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно
   - [Создание политики условного доступа для SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
   - [Создание политики условного доступа для Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
   - [Создание политики условного доступа для Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
-

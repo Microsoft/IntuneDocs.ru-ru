@@ -1,5 +1,5 @@
 ---
-title: "Проверка настройки MAM | Документация Майкрософт"
+title: "Проверка настройки MAM"
 description: "В этом разделе описывается, как можно протестировать и проверить правильность настройки и работы политики MAM."
 keywords: 
 author: andredm7
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 41d82597-e13e-4c3e-9151-e71392236ca0
 ms.reviewer: joglocke
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ab04c85d6704d7011cc5d4ea2a9f83d78b5b73e3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1e22be7b238cce195ee88c938b1cca009c0b21d3
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="validating-your-mobile-application-management-setup"></a>Проверка настройки управления мобильными приложениями
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -50,7 +47,7 @@ ms.lasthandoff: 05/23/2017
 ### <a name="what-to-do"></a>Предпринимаемые действия
 Ниже приведены действия, которые выполняются в зависимости от состояния пользователя:
 
-- Если пользователь не лицензирован для MAM, назначьте ему лицензию Intune, как описано в разделе [Управление лицензиями Intune](..\get-started\start-with-a-paid-subscription-to-microsoft-intune.md).
+- Если пользователь не лицензирован для MAM, назначьте ему лицензию Intune, как описано в разделе [Управление лицензиями Intune](/intune/setup-steps).
 - Если пользователь не лицензирован для O365, получите для него лицензию.
 - Если для приложения пользователя отображается состояние **Не записано после изменений**, проверьте, правильно ли настроена политика MAM для этого приложения.
 - Убедитесь, что эти условия применяются для всех пользователей, к которыми должны применяться политики MAM.
@@ -59,4 +56,3 @@ ms.lasthandoff: 05/23/2017
 [Подготовка к настройке политик управления мобильными приложениями в Microsoft Intune](..\deploy-use\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 [Защита данных с помощью политик управления мобильными приложениями в Microsoft Intune](..\deploy-use\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
-

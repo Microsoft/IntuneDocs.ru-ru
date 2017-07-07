@@ -14,15 +14,12 @@ ms.assetid: 2b60bbff-25e6-489b-9621-c71b4275fa06
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 8dae789ad1996543ddf9b92d031ac995beff6a46
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-corporate-owned-devices-by-using-intune"></a>Регистрация корпоративных устройств с помощью Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -67,4 +64,3 @@ Intune распознает устройство как "корпоративн�
  - Устройство зарегистрировано в [Azure Active Directory или Enterprise Mobility Suite как устройство с Windows 10 Корпоративная](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview) (только Windows 10).
 
 Когда устройство помечено как корпоративное, в столбце **Тип собственности** для записи этого устройства в консоли администрирования отображается значение **Корпоративное**. 
-

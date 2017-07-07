@@ -1,5 +1,5 @@
 ---
-title: "Подключения Wi-F с PSK | Документы Майкрософт"
+title: "Wi-Fi с предварительным общим ключом (PSK)"
 description: "Сведения об использовании настраиваемой конфигурации для создания профиля Wi-Fi с общим ключом."
 keywords: 
 author: robstackmsft
@@ -14,14 +14,11 @@ ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6845097b768e67c7fbc6ff16bf41f27982c4b33e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
-
+ms.openlocfilehash: 7f3432f914c2f4a76d7a9303924d106b270220a1
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="use-a-custom-policy-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом
 
@@ -30,24 +27,24 @@ ms.lasthandoff: 05/23/2017
 В этом разделе содержатся сведения об использовании **настраиваемой конфигурации** Intune для создания профиля Wi-Fi с общим ключом. Здесь также приводится пример создания профиля Wi-Fi на основе EAP.
 
 > [!NOTE]
--    Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
+-   Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
 - Для Android можно использовать [генератор PSK Android](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/) от Джонатона Бирсака (Johnathon Biersack).
--    Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
+-   Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
 -  Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Можно также воспользоваться генератором [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/) от Джонатона Бирсака.
 
 
-1.    Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании политики вместо профиля Wi-Fi выберите **Настраиваемая конфигурация** для этой платформы устройства.
+1.  Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании политики вместо профиля Wi-Fi выберите **Настраиваемая конфигурация** для этой платформы устройства.
 
-2.    Укажите имя и введите описание.
-3.    Добавление нового параметра OMA URI
+2.  Укажите имя и введите описание.
+3.  Добавление нового параметра OMA URI
 
-   а.    Введите имя для этого параметра сети Wi-Fi.
+   а.   Введите имя для этого параметра сети Wi-Fi.
 
-   b.    Введите описание параметра OMA-URI или оставьте поле пустым.
+   b.   Введите описание параметра OMA-URI или оставьте поле пустым.
 
-   в.    **Тип данных**: в качестве значения задайте String(XML).
+   в.   **Тип данных**: в качестве значения задайте String(XML).
 
-   г.    **OMA-URI**:
+   г.   **OMA-URI**:
 
     - **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
     - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
@@ -221,4 +218,3 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
 
 ### <a name="see-also"></a>См. также
 [Подключения Wi-Fi в Microsoft Intune](wi-fi-connections-in-microsoft-intune.md)
-

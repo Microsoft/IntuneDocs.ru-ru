@@ -14,15 +14,12 @@ ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: af300534b3868a829c0b648d4df2587886ef749b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-up-ios-and-mac-device-management"></a>Настройка управления устройствами в iOS и Mac
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -60,4 +57,3 @@ Intune позволяет управлять мобильными устройс
 
 ### <a name="see-also"></a>См. также
 [Предварительные требования для регистрации с помощью Microsoft Intune](prerequisites-for-enrollment.md)
-

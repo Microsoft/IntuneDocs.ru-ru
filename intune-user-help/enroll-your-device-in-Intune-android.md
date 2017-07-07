@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 9e70ef08eabb1595804f84247fc1663c5c6f985e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="enroll-your-android-device-in-intune"></a>Регистрация устройства Android в Intune
 
 Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать устройство Android, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет ИТ-отделу управлять рабочими или учебными ресурсами и обеспечивать их безопасность, предоставляя вам свободу выбора устройств для выполнения рабочих задач. Дополнительные сведения о регистрации см. в разделе [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md)
@@ -79,7 +74,7 @@ ms.lasthandoff: 05/23/2017
 10.  Если вы используете Android 6.0 или более поздней версии, выполните это действие. В противном случае перейдите к следующему шагу.
 
     Если ИТ-администратор настроил определенные политики, может появиться следующее сообщение:
-    -    **Разрешить корпоративному порталу совершать телефонные звонки и управлять ими?**
+    -   **Разрешить корпоративному порталу совершать телефонные звонки и управлять ими?**
 
         ![android-company-portal-sign-in](./media/and-enroll-3a-allow-phone-access.png)
 
@@ -87,7 +82,7 @@ ms.lasthandoff: 05/23/2017
 
     Если запретить доступ, сообщение появится снова при следующем входе на корпоративный портал, но отображение последующих сообщений можно отключить, установив флажок **Больше не спрашивать**. Если вы захотите разрешить доступ в дальнейшем, потребуется перейти в раздел **Settings** (Настройки) &gt; **Apps** (Приложения) &gt; **Company Portal** (Корпоративный портал) &gt; **Permissions** (Разрешения) &gt; **Phone** (Телефон) и предоставить разрешение.
 
-    -    **Разрешить корпоративному порталу доступ к вашим контактам?**
+    -   **Разрешить корпоративному порталу доступ к вашим контактам?**
 
         ![android-company-portal-sign-in](./media/and-enroll-3b-allow-contacts-access.png)
 
@@ -139,4 +134,3 @@ ms.lasthandoff: 05/23/2017
 > Если в вашей организации используется программное обеспечение для управления затратами на телекоммуникации, для полной регистрации устройства потребуется выполнить дополнительные действия. Дополнительные сведения см. [здесь](enroll-your-device-with-telecom-expense-management-android.md).
 
 По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with enrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.
-

@@ -1,5 +1,5 @@
 ---
-title: "Параметры политики MAM для Android | Документы Майкрософт"
+title: "Параметры политики MAM для Android"
 description: "В этом разделе описываются параметры политики управления мобильными приложениями для устройств Android."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 017c316ce102b71b3ef9552d8fe69181b79473de
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: 785e36bb9354e02e4040b5cf2271cbf6f10c4041
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Параметры политики защиты приложений Android в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -91,4 +88,3 @@ ms.lasthandoff: 05/31/2017
 | **Период автономности до очистки данных приложения (в днях)** | По истечении указанного количества дней (значение определяется администратором) автономной работы приложение проведет выборочную очистку самостоятельно. Эта выборочная очистка аналогична той, которую может инициировать администратор в рабочем процессе очистки MAM. <br><br> | Через 90 дней |
 | **Блокировать снимки экрана и Android Assistant (Android 6.0+)** | Выберите **Да**, чтобы блокировать создание снимков экранов и возможности **Android Assistant** данного устройства при использовании этого приложения. В случае выбора значения **Да** изображение предварительного просмотра переключателя приложений при использовании этого приложения с рабочей или учебной учетной записью будет размыто. | Нет |
 | **Отключить ПИН-код приложения при управлении ПИН-кодом устройства** | Выберите **Да**, чтобы отключать ПИН-код приложения при обнаружении блокировки устройства на зарегистрированном устройстве. | Нет |
-
