@@ -14,15 +14,12 @@ ms.assetid: bbe0b5f4-b8bc-49f3-85a9-51fb2f226fca
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: cd3c2809161aa438eb7aef91a65d68cb0f657607
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="troubleshoot-lookout-integration-with-intune"></a>Устранение неполадок интеграции Lookout с Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -31,7 +28,7 @@ ms.lasthandoff: 06/08/2017
 
 **Ошибки входа**
 
-## <a name="403-errors"></a>Ошибки 403
+## <a name="403-errors"></a>Ошибкa 403
 При входе в [консоль Lookout MTP](https://aad.lookout.com) отображается ошибка 403: **вы не авторизованы для доступа к службе**. Это может произойти, если вы указали имя пользователя, который не является членом группы Azure Active Directory (AD), настроенной для доступа к Lookout MTP.
 
 Lookout MTP предоставляет доступ к службе только пользователям из настроенных групп Azure AD. Чтобы определить, для какой группы настроен доступ к Lookout MTP, обратитесь в службу поддержки Lookout:
@@ -90,4 +87,3 @@ Lookout MTP предоставляет доступ к службе только
 
 ### <a name="see-also"></a>См. также
 [Настройка службы Lookout MTP в подписке](/intune-classic/deploy-use/set-up-your-subscription-with-lookout-mtp)
-

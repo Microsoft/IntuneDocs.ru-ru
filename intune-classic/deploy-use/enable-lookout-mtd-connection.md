@@ -1,5 +1,5 @@
 ---
-title: "Включение Lookout MTP в Intune | Документы Майкрософт"
+title: "Включение Lookout MTP в Intune"
 description: "Включение защиты от угроз на мобильных устройствах Lookout MTP в консоли администрирования Intune"
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 2f835fd0-4e62-42f3-b7ca-ce8b7ddd40e4
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2a99839ece16c56c7bfaacb295796525903f9464
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: aad5b158e1217155c3e3ec671654ee6e81054675
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-lookout-mtd-connection-in-the-intune-classic-console"></a>Включение подключения Lookout MTP в классической консоли Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -41,4 +38,3 @@ ms.lasthandoff: 05/23/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Настройка приложения Lookout for Work ](/intune-classic/deploy-use/device-threat-protection-apps)
-

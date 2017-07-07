@@ -1,5 +1,5 @@
 ---
-title: "Защита данных с помощью политик MAM | Документы Майкрософт"
+title: "Защита данных приложения с помощью политик MAM"
 description: "В этом разделе описано использование политик управления мобильными приложениями для защиты данных организации, предотвращения потери данных и отдельного хранения рабочих и персональных данных."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 9959e9f757e83c7aa4274b7e7b9df949fff022cc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: 40a6badf072c254f635a2656189d626e4f13a320
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-app-data-using-app-protection-policies-with-microsoft-intune"></a>Защита данных приложений с помощью политик защиты приложений в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -38,8 +35,8 @@ ms.lasthandoff: 05/31/2017
 
 -   **Устройства, зарегистрированные в стороннем решении по управлению мобильными устройствами**. Обычно это устройства, принадлежащие организации.
 
-      > [!NOTE]
-      > Не рекомендуется использовать политики защиты приложений со сторонними решениями по управлению мобильными приложениями или безопасными контейнерами.
+    > [!NOTE]
+    > Не рекомендуется использовать политики защиты приложений со сторонними решениями по управлению мобильными приложениями или безопасными контейнерами.
 
 -   **Устройства, не зарегистрированные в каком-либо решении по управлению мобильными устройствами**. Обычно это устройства, которые принадлежат сотрудникам и не управляются и не регистрируются в Intune или других решениях MDM.
 
@@ -135,4 +132,3 @@ ms.lasthandoff: 05/31/2017
 - [Подготовка к настройке политик защиты приложений](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 - [Создание и развертывание политик защиты приложений с помощью Microsoft Intune](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)
-

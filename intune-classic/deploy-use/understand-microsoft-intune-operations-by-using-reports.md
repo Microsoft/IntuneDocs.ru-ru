@@ -1,5 +1,5 @@
 ---
-title: "Получение сведений об операциях с помощью отчетов | Документы Майкрософт"
+title: "Получение сведений об операциях с помощью отчетов"
 description: "Сведения о создании отчетов о программном обеспечении, оборудовании и лицензиях в организации, а также управлении ими."
 keywords: 
 author: robstackmsft
@@ -14,16 +14,12 @@ ms.assetid: 857309c2-61c9-4c22-becf-4839fedeaece
 ms.reviewer: pbala
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d16374606d60f3b09dc24b3c4ef4f196a739b32e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
-
+ms.openlocfilehash: c433acc553b1f89789cdb72a33e8dbbc7929bae0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="understand-microsoft-intune-operations-by-using-reports"></a>Получение сведений об операциях Microsoft Intune с помощью отчетов
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -73,6 +69,5 @@ ms.lasthandoff: 05/23/2017
 |**Сохранить**|На странице **Создание отчета** каждый пользователь может сохранить до 100 отчетов. Настройте параметры отчета в соответствии со своими требованиями, а затем нажмите кнопку **Сохранить**или **Сохранить как** (чтобы задать другое имя).|
 |**Загрузить**|На странице **Создание отчета** нажмите кнопку **Загрузить**, чтобы извлечь сохраненные ранее наборы параметров отчета.|
 |**Удалить**|В рабочей области **Отчеты** выберите нужный тип отчета и нажмите кнопку **Загрузить**. Затем в списке отчетов щелкните значок удаления (x) рядом с отчетом.|
-
 
 

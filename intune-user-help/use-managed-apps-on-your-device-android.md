@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed10a62c-b026-4ad3-ac41-641933522df2
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 371e534a25df470edf2731b901640092e1a6e366
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="use-managed-apps-on-your-android-device"></a>Использование управляемых приложений на устройстве Android
 
 Управляемые приложения — это приложения, которые ИТ-администратор может настроить для защиты данных организации, доступных в таком приложении. При доступе к данным организации в управляемом приложении на устройстве Android вы можете заметить, что работа приложения немного отличается от ожидаемой. Например, может отсутствовать возможность скопировать и вставить защищенные данные организации или сохранить данные в определенных расположениях.
@@ -78,4 +73,3 @@ ms.lasthandoff: 05/23/2017
 -   Microsoft Word, Excel и PowerPoint
 
 Для получения дополнительных сведений об управляемых приложениях на устройстве обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

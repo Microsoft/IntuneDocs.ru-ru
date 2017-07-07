@@ -1,7 +1,7 @@
 ---
 title: "Параметры VPN для устройств с Windows 10 в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows 10."
+titleSuffix: Intune on Azure
+description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows 10.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,18 +15,15 @@ ms.assetid: 495e4ed6-b2ef-47cc-a110-13fa9b5f85a6
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6dd98b176c76e19d6ff261a4dafbabfb9698f787
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 6f112983a33c1af24d288f19140114084575f36d
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="vpn-settings-for-windows-10-devices-in-microsoft-intune"></a>Параметры VPN для устройств с ОС Windows 10 в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 В зависимости от выбранных параметров не все приведенные в следующем списке значения будут доступны для настройки.
 
@@ -120,4 +117,3 @@ ms.lasthandoff: 05/23/2017
     - **Адрес**. Введите адрес прокси-сервера (в формате IP-адреса).
     - **Номер порта.** Введите номер порта, связанного с прокси-сервером.
 - **Обходить прокси-сервер для локальных адресов.** Если VPN-серверу требуется прокси-сервер для подключения, выберите этот параметр, если вы не хотите использовать прокси-сервер для указанных локальных адресов. Дополнительные сведения см. в документации по Windows Server.
-

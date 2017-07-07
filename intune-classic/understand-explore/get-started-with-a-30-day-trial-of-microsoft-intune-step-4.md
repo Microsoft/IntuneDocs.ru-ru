@@ -1,5 +1,5 @@
 ---
-title: "Создание политик и публикация приложений для пользователей | Документы Майкрософт"
+title: "Создание политик и публикация приложений для пользователей"
 description: "Сведения о создании политик и публикации приложений при использовании бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: lindavr
@@ -14,16 +14,12 @@ ms.assetid: c3a17884-442a-44f5-bc81-4589e823f65e
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0e836571b869e7a32b19968da1d78035a6bae7f2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 335d91cd6583052bfcc72fc018b387eed8823b7e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="create-policies-and-publish-an-app-to-evaluation-users"></a>Создание политик и публикация приложений для пользователей ознакомительной версии
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -102,7 +98,6 @@ ms.lasthandoff: 05/23/2017
 ## <a name="next-steps"></a>Дальнейшие действия
 Узнайте о других [возможностях Intune](get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
 
-Прочитайте о [стандартных способах использования Intune](common-ways-to-use-intune.md).
+Прочитайте о [стандартных способах использования Intune](/intune/common-scenarios).
 
 Преобразование в [платную подписку](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
-

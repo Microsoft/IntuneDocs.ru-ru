@@ -1,7 +1,7 @@
 ---
 title: "Настройка ограничений для устройств Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: сведения о настройке параметров и функций на управляемых устройствах с помощью Intune."
+titleSuffix: Intune on Azure
+description: "Сведения о настройке параметров и функций на управляемых устройствах с помощью Intune.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 600ff92bf1b53800712fc2e77fef7158ab765970
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 8652b2b6db340f3b0cddcf538fa418c8774b1d6c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений для устройств iOS в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Ограничения устройств позволяют управлять параметрами и функциями разных категорий, включая безопасность, браузер, оборудование и общий доступ к данным. Например, можно создать профиль ограничения устройства, который запрещает доступ к камере пользователям устройств iOS.
 
@@ -35,7 +32,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
 
 1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Другое** > **Intune**.
+2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите **Настройка устройств**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создание профиля**.
@@ -67,5 +64,4 @@ ms.lasthandoff: 05/23/2017
 В этом примере вы создадите политику ограничений устройства, которая блокирует использование встроенной камеры на устройствах Android.
 
 ![Как отключить камеру на устройствах Android](./media/disable-android-camera.png)
-
 

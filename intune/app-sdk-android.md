@@ -14,16 +14,12 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b5ad9cc6c03712090398cacb3d4bb653deb1d2a4
-ms.openlocfilehash: 7dfcc0bf8f3da1e600df59927db6e78ec2021e0f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/12/2017
-
-
+ms.openlocfilehash: 403917adb1fb1156f0ed0027a316677d1e4f2f84
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/03/2017
 ---
-
-
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
 > [!NOTE]
@@ -80,7 +76,8 @@ ms.lasthandoff: 06/12/2017
 Для библиотек ADAL могут быть предусмотрены собственные ограничения ProGuard. Если приложение включает ADAL, необходимо следовать инструкциям из документации по ADAL в отношении этих ограничений.
 
 ### <a name="entry-points"></a>Точки входа
-======= Эти разрешения требуются библиотеке проверки подлинности Active Directory Azure ([ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)) для проверки подлинности через посредника. Если эти разрешения приложению не предоставлены или отменены пользователем, проверка подлинности, для которой требуется посредник (приложение корпоративного портала), будет отключена.
+
+Эти разрешения требуются библиотеке проверки подлинности Active Directory Azure ([ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)) для проверки подлинности через посредника. Если эти разрешения приложению не предоставлены или отменены пользователем, проверка подлинности, для которой требуется посредник (приложение корпоративного портала), будет отключена.
 
 Чтобы включить политики защиты приложений, пакету SDK для приложений Intune нужно внести изменения в исходный код приложения. Это осуществляется путем замены базовых классов Android на эквивалентные базовые классы Intune с префиксом **MAM**. Классы пакета SDK располагаются между базовым классом Android и производной версией этого класса в самом приложении. Используя действие в качестве примера, вы получаете иерархию наследования, которая выглядит следующим образом: `Activity` > `MAMActivity` > `AppSpecificActivity`.
 
@@ -161,7 +158,7 @@ ms.lasthandoff: 06/12/2017
 
 * `android.permission.USE_CREDENTIALS`
 
-Эти разрешения требуются библиотеке проверки подлинности Active Directory Azure ([ADAL](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/)) для проверки подлинности через посредника. Если эти разрешения приложению не предоставлены или отменены пользователем, проверка подлинности, для которой требуется посредник (приложение корпоративного портала), будет отключена.
+Эти разрешения требуются библиотеке проверки подлинности Active Directory Azure ([ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/)) для проверки подлинности через посредника. Если эти разрешения приложению не предоставлены или отменены пользователем, проверка подлинности, для которой требуется посредник (приложение корпоративного портала), будет отключена.
 
 ## <a name="logging"></a>Logging
 
@@ -410,7 +407,7 @@ public interface MAMNotificationReceiver {
 
 Во-первых, следует ознакомиться с рекомендациями по интеграции ADAL, доступными в [репозитории ADAL в GitHub](https://github.com/AzureAD/azure-activedirectory-library-for-android).
 
-Для [аутентификации](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-scenarios/) пакет SDK использует библиотеки [ADAL](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/) и сценарии условного запуска. Для этого в приложении должна быть определенная конфигурация [Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/). Значения конфигурации передаются в пакет SDK с метаданными AndroidManifest.
+Для [аутентификации](https://azure.microsoft.com/documentation/articles/active-directory-authentication-scenarios/) пакет SDK использует библиотеки [ADAL](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/) и сценарии условного запуска. Для этого в приложении должна быть определенная конфигурация [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/). Значения конфигурации передаются в пакет SDK с метаданными AndroidManifest.
 
 Чтобы настроить приложение и включить надлежащий тип аутентификации, добавьте следующий код в узел приложения в AndroidManifest.xml. Некоторые из этих конфигураций нужны, только если приложение использует библиотеку ADAL для общей аутентификации. В этом случае вам потребуются эти конкретные значения, используемые вашим приложением для регистрации в AAD. Это позволяет предотвратить ситуацию, когда пользователь получает два запроса на аутентификацию, так как AAD распознает два отдельных значения регистрации: одно из приложения и одно из пакета SDK.
 
@@ -1181,4 +1178,3 @@ public final class MAMDataProtectionManager {
 * Используйте самые новые средства сборки пакета SDK для Android.
 
 * Удалите все ненужные и неиспользуемые библиотеки (например, android.support.v4).
-

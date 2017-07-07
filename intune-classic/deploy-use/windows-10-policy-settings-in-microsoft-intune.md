@@ -1,5 +1,5 @@
 ---
-title: "Параметры политики Windows 10 | Документы Майкрософт"
+title: "Параметры политики Windows 10"
 description: "Здесь приведены параметры политики, с помощью которых можно настроить стандартные и пользовательские параметры для зарегистрированных устройств на базе ОС Windows 10 Desktop и Windows 10 Mobile."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: dd81102eb768ab8ad5f9ee1d2f122f15a8e17b89
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 85612fc63b3fb738e6135ac71065edc06169fa9e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="intune-policy-settings-for-windows-10-devices-in-microsoft-intune"></a>Параметры политики Intune для устройств на базе Windows 10 в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -214,4 +211,3 @@ ms.lasthandoff: 05/23/2017
 
 ### <a name="see-also"></a>См. также
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

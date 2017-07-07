@@ -1,5 +1,5 @@
 ---
-title: "Прочие параметры и дополнения для ознакомительной версии Intune | Документы Майкрософт"
+title: "Прочие параметры и дополнения для ознакомительной версии Intune"
 description: "Описание оповещений, уведомлений и отчетов, а также общие возможности Intune, которые необходимо знать при регистрации для получения бесплатной 30-дневной ознакомительной версии Intune"
 keywords: 
 author: lindavr
@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 170cd959-d35b-4129-ae60-117d7e881bc9
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3dcaf3ccc8c8581704351a19bce0a0ab57013040
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c0299b9bcb8c4cf35e2ddf60da428cc04bbdb4f0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="other-options-and-extras-for-intune-evaluation-subscriptions"></a>Прочие параметры и дополнения для подписок на ознакомительную версию Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -46,16 +43,13 @@ Intune имеет широкий набор возможностей в допо
 
 -   **Управление доступом к ресурсам организации.** Вы можете развернуть сертификаты, профили электронной почты, профили VPN и профили Wi-Fi на мобильных устройствах, ускоряя настройку мобильных устройств. Дополнительные сведения см. в статье [Разрешение доступа к корпоративным ресурсам с помощью Microsoft Intune](/intune-classic/Deploy-Use/enable-access-to-company-resources-with-microsoft-intune).
 
-Дополнительные сведения о полных возможностях Intune см. в указанных далее разделах.
-- [Возможности управления зарегистрированными устройствами в Microsoft Intune](/intune-classic/get-started/mobile-device-management-capabilities-in-microsoft-intune)
-- [Возможности управления компьютерами с ОС Windows в Microsoft Intune](/intune-classic/get-started/windows-pc-management-capabilities-in-microsoft-intune)
+Дополнительные сведения обо всех возможностях Intune см. в статье [Возможности управления зарегистрированными устройствами в Microsoft Intune](/intune-classic/get-started/mobile-device-management-capabilities-in-microsoft-intune).
 
-Дополнительные сведения о возможностях, недавно представленных в Intune, см. в статье [Новые возможности Microsoft Intune](/intune-classic/Deploy-Use/whats-new-in-microsoft-intune).
+Дополнительные сведения о возможностях, недавно представленных в Intune, см. в статье [Новые возможности Microsoft Intune](/intune-classic/whats-new/whats-new-in-microsoft-intune).
 
 Варианты поддержки описаны в статье [Получение поддержки для Microsoft Intune](/intune-classic/Troubleshoot/how-to-get-support-for-microsoft-intune). Вы можете присоединиться к обсуждениям Intune на [форумах Microsoft Intune](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Прочитайте о [стандартных способах использования Intune](common-ways-to-use-intune.md).
+Прочитайте о [стандартных способах использования Intune](/intune/common-scenarios).
 
 Преобразование в [платную подписку](get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
-

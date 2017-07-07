@@ -1,7 +1,7 @@
 ---
 title: "Параметры электронной почты для устройств iOS в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах iOS."
+titleSuffix: Intune on Azure
+description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах iOS.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,18 +15,15 @@ ms.assetid: 9f0fa6af-3669-439a-bd0d-75d8b1a0b135
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6f941247295761815804b2e91234ce664c90e06f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: dcac410ae5c20b5942bf37f5eaa9a46205a4cc07
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="email-profile-settings-for-ios-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств iOS в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
 
@@ -43,4 +40,3 @@ ms.lasthandoff: 05/23/2017
 - **Разрешить перемещение сообщений в другие учетные записи электронной почты**. Выберите этот параметр, чтобы разрешить пользователям перемещать сообщения электронной почты между разными учетными записями, настроенными на их устройствах.
 - **Разрешить отправку сообщений электронной почты сторонними приложениями**. Пользователь может выбрать этот профиль в качестве учетной записи по умолчанию для отправки электронной почты, а сторонние приложения — чтобы открывать электронную почту в собственном почтовом клиенте, например для вложения файлов в сообщения.
 - **Синхронизация недавно использовавшихся адресов электронной почты**. Выберите этот параметр, чтобы разрешить пользователям синхронизировать с сервером список адресов электронной почты, которые недавно использовались на устройстве.
-

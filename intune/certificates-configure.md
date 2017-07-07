@@ -1,12 +1,12 @@
 ---
-title: "Как настроить сертификаты с помощью Intune | Документация Майкрософт"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как использовать Intune для создания и назначения сертификатов, которые помогают защитить подключения Wi-Fi, VPN и другие подключения."
+title: "Настройка сертификатов с помощью Intune"
+titleSuffix: Intune on Azure
+description: "Узнайте, как использовать Intune для создания и назначения сертификатов, которые помогают защитить подключения Wi-Fi, VPN и другие подключения.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 05/02/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 81c7e04d4b4cc7599b63917e5507775b38b65ba7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: da23a0c79c5e0e178e52e956561e2764268d09df
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-certificates-in-microsoft-intune"></a>Настройка сертификатов в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 При предоставлении пользователям доступа к корпоративным ресурсам через профили VPN, Wi-Fi или электронной почты можно обеспечить проверку подлинности этих подключений с помощью сертификатов. Благодаря этому не нужно вводить имена пользователей и пароли для проверки подлинности подключений.
 
@@ -56,8 +53,8 @@ ms.lasthandoff: 05/23/2017
 
     Профиль сертификата SCEP можно использовать только на следующих платформах:
 
--     устройства macOS 10.9 и более поздней версии;
--     Windows Phone 8.1 и более поздней версии
+-   устройства macOS 10.9 и более поздней версии;
+-   Windows Phone 8.1 и более поздней версии
 
 Необходимо создать отдельный профиль для каждой платформы устройства. При создании профиля необходимо сопоставить его с уже созданным профилем доверенного корневого сертификата.
 
@@ -88,7 +85,7 @@ ms.lasthandoff: 05/23/2017
 ### <a name="to-create-a-trusted-certificate-profile"></a>Создание профиля доверенного сертификата
 
 1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Другое** > **Intune**.
+2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создание профиля**.
@@ -128,4 +125,3 @@ ms.lasthandoff: 05/23/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Общие сведения о назначении профилей устройств см. в [этой статье](device-profile-assign.md).
-

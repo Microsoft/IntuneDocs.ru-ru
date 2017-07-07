@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0dc35efe-4fd4-4d4a-8569-d649ea704fea
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
 ms.openlocfilehash: 0f5c1eb76f823c72904bad7543409d9efa9e93e6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/26/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-10-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune?
 
 Когда вы устанавливаете приложение корпоративного портала и затем используете его для регистрации устройства Windows 10 Корпоративная или Профессиональная в Intune, это приложение корпоративного портала можно затем использовать, чтобы:
@@ -57,4 +53,3 @@ ms.lasthandoff: 05/26/2017
 -   ИТ-администратор может применять политики на компьютере. Например, он может включить обязательный ввод пароля или ПИН-кода на компьютере. Ваш ИТ-администратор может также ограничить количество попыток ввода пароля и блокировать ваш компьютер или удалить все данные с его жесткого диска при превышении указанного числа попыток.
 
 Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
-

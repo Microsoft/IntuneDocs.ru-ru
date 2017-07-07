@@ -14,15 +14,12 @@ ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 18091d5dea0ff4b4519082973255a21e5cbc311e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-access-to-company-resources-with-microsoft-intune"></a>Разрешение доступа к ресурсам компании с помощью Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -60,4 +57,3 @@ ms.lasthandoff: 06/08/2017
 |Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
 |да|Да|Да|Да|да|
-

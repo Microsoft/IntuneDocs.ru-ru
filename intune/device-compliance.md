@@ -1,7 +1,7 @@
 ---
 title: "Соответствие устройства"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: из этой статьи вы узнаете о соответствии устройств в Microsoft Intune"
+titleSuffix: Intune on Azure
+description: "Из этой статьи вы узнаете о соответствии устройств в Microsoft Intune\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,18 +15,15 @@ ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2aec7463b9a2b3bdaa78281fca0bbb39dcd3f884
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a747d577a28433635883ad6c4fe4c858e75902d0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="what-is-device-compliance-in-intune"></a>Что такое соответствие устройств в Intune?
 
-# <a name="what-is-device-compliance-in-intune-azure-preview"></a>Что такое соответствие устройств в предварительной версии Intune Azure?
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Политики соответствия устройств Intune определяют правила и параметры, которым должно соответствовать устройство, чтобы оно рассматривалось как совместимое согласно политикам условного доступа Intune и EMS. Политики соответствия устройств можно также использовать для отслеживания и устранения проблем совместимости у устройств. 
 
@@ -79,7 +76,7 @@ Remember that you need to implement conditional access policies in addition to c
 
 Политика соответствия развертывается для пользователей. При развертывании политики соответствия для пользователя его устройства проверяются на соответствие. Дополнительные сведения о том, сколько времени требуется мобильным устройствам для получения политики после развертывания, см. в статье "Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune".
 
-##  <a name="intune-classic-admin-console-vs-intune-azure-preview-portal"></a>Разница между классической консолью администрирования Intune и порталом предварительной версии Intune Azure
+##  <a name="intune-classic-admin-console-vs-intune-on-the-azure-portal"></a>Разница между классической консолью администрирования Intune и Intune на портале Azure
 
 Если вы используете классическую консоль администрирования Intune, обратите внимание на различия, которые нужно учитывать при переходе на новый рабочий процесс с политиками соответствия устройств на портале Azure.
 
@@ -89,7 +86,7 @@ Remember that you need to implement conditional access policies in addition to c
 
 -   In the Azure portal, you can set a grace period to allow time for the end-user to get their device back to compliance status before they completely lose the ability to get company data on their device. This is not available in the Intune admin console.--->
 
-##  <a name="migration-from-intune-classic-console-to-intune-azure-preview-portal"></a>Миграция с классической консоли Intune на портал предварительной версии Azure Intune
+##  <a name="migration-from-intune-classic-console-to-intune-on-the-azure-portal"></a>Миграция с классической консоли Intune в Intune на портале Azure
 
 Политики соответствия устройства, созданные в [классической консоли Intune](https://manage.microsoft.com), не будут отображаться на новом [портале Intune Azure](https://portal.azure.com). Тем не менее они будут по-прежнему назначаться пользователям, а управление ими будет осуществляться через классическую консоль Intune.
 
@@ -103,4 +100,3 @@ Remember that you need to implement conditional access policies in addition to c
 <!---### See also
 
 Conditional access--->
-

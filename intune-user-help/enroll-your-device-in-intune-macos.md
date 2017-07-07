@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 58eb0e7a-1321-4c66-a281-88fb01e72c1c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 16f7f06d02a56b4887c0d29ffcaed111185652a9
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enroll-your-macos-device-in-intune"></a>Регистрация устройства Mac OS в Intune
 
 Благодаря доступу к приложениям, данным и ресурсам организации пользователи могут выполнять свою работу. При использовании на работе устройств Mac OS необходимо установить __профиль управления__. Это просто файл, который загружает на компьютер Mac необходимые настройки и сведения о доступе. Этот файл настраивает ваш ИТ-администратор. Хотите получить дополнительные сведения? См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или macOS в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
@@ -70,4 +66,3 @@ ms.lasthandoff: 05/23/2017
  ![Установленный профиль Mac OS](./media/macOS_enroll_007_sysprefs_installed_profile.png)
 
 По-прежнему нужна помощь? Свяжитесь со своим ИТ-администратором. Его контактные данные доступны на [корпоративном портале](http://portal.manage.microsoft.com).
-

@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6eeec7aa-1b07-4ce3-894c-13e09b89bdd4
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: af3313e6ba5cbf9184aaaa9b197f7a3b2b9d4c3e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="enroll-your-ios-device-in-intune"></a>Регистрация устройства iOS в Intune
 
 Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать устройство iOS, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет ИТ-отделу управлять рабочими или учебными ресурсами и обеспечивать их безопасность, предоставляя вам свободу выбора устройств для выполнения рабочих задач. Дополнительные сведения о регистрации см. в разделе [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
@@ -65,7 +60,7 @@ ms.lasthandoff: 05/23/2017
 
 5.  На экране **Дальнейшие действия** ознакомьтесь с тем, что происходит во время регистрации, а затем нажмите **Зарегистрировать**.
 
-     ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
+    ![ios-enroll-what-comes-next](./media/ios-enroll-1d-what-comes-next.png)
 
 6.  На экране **Установить профиль** выберите **Установить** и введите секретный код при появлении соответствующего запроса.
 
@@ -77,15 +72,15 @@ ms.lasthandoff: 05/23/2017
 
 8.  Нажмите **Установить**, чтобы указать, что вы прочитали предупреждение.
 
-       ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
+    ![ios-enroll-tap-install-after-warning](./media/ios-enroll-4-warning.png)
 
 9.  Нажмите **Доверие**.
 
-       ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
+    ![ios-enroll-tap-trust](./media/ios-enroll-5-trust.png)
 
 10.  После окончания установки профиля нажмите **Готово**.
 
-     ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
+    ![ios-enroll-tap-done](./media/ios-enroll-6-done.png)
 
     На экране появится сообщение "Регистрация устройства".
 
@@ -107,4 +102,3 @@ ms.lasthandoff: 05/23/2017
 > Если в вашей организации используется программное обеспечение для управления затратами на телекоммуникации, для полной регистрации устройства потребуется выполнить дополнительные действия. Дополнительные сведения см. [здесь](enroll-your-device-with-telecom-expense-management-ios.md).
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-
