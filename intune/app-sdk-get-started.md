@@ -14,15 +14,12 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 1d61432eafef67ca997d4e03d305e1c068ac5fd6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
 Это руководство поможет вам быстро реализовать в своем приложении поддержку политик защиты приложений с помощью Microsoft Intune. При желании вы можете ознакомиться с преимуществами пакета SDK для приложений Intune в статье [Обзор пакета SDK для приложений Intune](app-sdk.md).
@@ -139,4 +136,3 @@ Microsoft Intune собирает данные о статистике испо�
 * Приложение для обработки изображений, распознающее файлы **EPS**, или приложение Adobe, позволяющее открыть файлы **AI**.
 
 * [Ресурсы и инструкции для эмблем приложений Intune](https://github.com/msintuneappsdk/intune-app-partner-badge) доступны на странице Microsoft Intune в GitHub.
-

@@ -14,15 +14,12 @@ ms.assetid: ca36589b-804d-40b8-b112-9195d8897800
 ms.reviewer: lindavr
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: d69727762e63f0258eacc084801827c50eaa1454
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="what-is-intune-for-education"></a>Основные сведения об Intune для образовательных учреждений
 
 Intune для образовательных учреждений предназначена для эффективной работы учителей и учащихся, а также для обеспечения защиты учебных данных. Intune — это облачная служба управления корпоративной мобильностью, на основе которой создана Intune для образовательных учреждений.
@@ -45,4 +42,3 @@ Intune для образовательных учреждений позволя
 * Ознакомьтесь с продуктом, воспользовавшись [30-дневной пробной версией Intune](/intune-classic/understand-explore/sign-up-for-30-day-trial-microsoft-intune).
 * Узнайте о том, как быстрее всего [приступить к работе с Intune для образовательных учреждений](/intune-education/what-is-express-configuration).
 * Узнайте о [технических требованиях и возможностях](/intune/supported-devices-browsers) Intune.
-

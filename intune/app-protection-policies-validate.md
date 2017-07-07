@@ -1,7 +1,7 @@
 ---
 title: "Проверка политик защиты приложений"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. В этом разделе описывается, как можно протестировать и проверить правильность настройки и работы политики защиты приложений."
+titleSuffix: Intune on Azure
+description: "В этом разделе описывается, как можно протестировать и проверить правильность настройки и работы политики защиты приложений.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,21 +15,18 @@ ms.assetid: 15f8a838-0b69-412b-a42e-c6edb61f0cae
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 26e191965eff482cf97b920e028cdf60d1881d32
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ddfecbcd8709569ff177e6c7021d3e8fdab39290
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-validate-your-app-protection-policy-setup"></a>Проверка настройки политики защиты приложений
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
-В этом разделе приведены сведения о поиске неполадок после настройки политики защиты приложений. Это руководство применяется к политикам защиты приложений в **предварительной версии** портала Azure.
+В этом разделе приведены сведения о поиске неполадок после настройки политики защиты приложений. Это руководство применяется к политикам защиты приложений на портале Azure.
 
 ### <a name="checking-for-symptoms"></a>Проверка симптомов
 Так как защита приложений служит для защиты данных, получение отчетов о неполадках от пользователей маловероятно. При наличии проблемы с конфигурацией защиты приложений пользователь получает неограниченный доступ, как если бы защита приложений полностью отсутствовала, и не имеет представления о том, что возникла проблема. Поэтому рекомендуется проверить конфигурацию защиты приложений с помощью пилотного проекта политик защиты приложений с небольшой группой пользователей, способной преднамеренно испытать ограничения защиты приложений.
@@ -61,4 +58,3 @@ ms.lasthandoff: 05/23/2017
 ### <a name="see-also"></a>См. также
 
 [What is Intune app protection policy?](app-protection-policies.md) (Что такое политика защиты приложений в Intune?)
-

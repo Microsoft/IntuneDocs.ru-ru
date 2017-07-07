@@ -1,7 +1,7 @@
 ---
 title: "Основные сведения об управлении пользователями"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как просматривать пользователей и управлять ими с помощью Microsoft Intune и Azure."
+titleSuffix: Intune on Azure
+description: "Узнайте, как просматривать пользователей и управлять ими с помощью Microsoft Intune и Azure.\""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -14,19 +14,16 @@ ms.technology:
 ms.assetid: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 29c8f436d611e590ef1304d221e27da0ceef2450
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 1cbdb92928411ff56e6740e83e081ee966fb7af8
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="what-is-user-management"></a>Основные сведения об управлении пользователями
 
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Если вы еще не знакомы с Intune на портале Azure, помните: вам больше не нужно создавать группы для Intune. Intune использует группы Azure AD так же, как и многие другие приложения, с которыми вы работаете.
 
@@ -45,4 +42,3 @@ ms.lasthandoff: 05/23/2017
 ## <a name="next-step"></a>Дальнейшие действия
 
 [Начало работы с группами](groups-get-started.md)
-
