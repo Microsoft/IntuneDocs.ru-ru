@@ -1,5 +1,5 @@
 ---
-title: "Управление блокировкой активации iOS на устройствах | Документы Майкрософт"
+title: "Управление блокировкой активации iOS на устройствах"
 description: "Microsoft Intune позволяет управлять функцией блокировки активации iOS, которая представляет собой отдельный компонент приложения Find My iPhone для устройств на базе iOS 7.1 и более поздних версий."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 22ccccefae44190ffb2d65bdf475eaef1f9b8bd2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 3695e4c047edd9b788768db36184460f0e27d3bc
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune"></a>Позволяют защищать устройства iOS с помощью обхода блокировки активации для Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -106,4 +103,3 @@ Intune может запрашивать состояние блокировки
 ### <a name="see-also"></a>См. также
 [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md)
 [Защита устройств с помощью функций удаленной очистки и сброса секретного кода](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)
-

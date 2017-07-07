@@ -1,7 +1,7 @@
 ---
 title: "Общие сведения о соответствии устройств"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: компоненты, необходимые для создания политик соответствия в Microsoft Intune."
+titleSuffix: Intune on Azure
+description: "В этом разделе описываются компоненты, необходимые для создания политик соответствия в Microsoft Intune\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,24 +15,21 @@ ms.assetid: 8103df7f-1700-47b4-9a72-c196d2a02f22
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: f59801abf29d15581fcdc577c5320942208595b1
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: aa9a5c8c44b82dcbc1ae7a4609b12e22c6599e9e
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="get-started-with-device-compliance-in-intune"></a>Общие сведения о соответствии устройств требованиям в Intune
 
-# <a name="get-started-with-device-compliance-in-intune-azure-preview"></a>Общие сведения о соответствии устройств политике в предварительной версии Intune Azure
 
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 В этом разделе рассматриваются следующие вопросы. 
 
 - Необходимые условия для создания политики соответствия устройств.
-- Общее представление о доступных действиях на портале предварительной версии Intune Azure. 
+- Общее представление о доступных данных и действиях на портале Intune Azure. 
 
 Если соответствие устройства политике — новая тема для вас, прочтите [эту статью](device-compliance.md), чтобы узнать, что такое соответствие устройства и как его можно использовать в вашей организации.
 
@@ -56,7 +53,7 @@ ms.lasthandoff: 05/23/2017
 
 ##  <a name="azure-portal-workflow"></a>Рабочий процесс портала Azure
 
-Ниже объясняется, как создавать политики соответствия устройств и управлять ими на портале предварительной версии Intune Azure.
+Ниже объясняется, как создавать политики соответствия устройств и управлять ими на портале Intune Azure.
 
 <!---### Overview
 
@@ -83,4 +80,3 @@ This section is a detailed view of what you see in the **Overview**. A list of a
 [Создание политики соответствия для iOS](compliance-policy-create-ios.md)
 
 [Создание политики соответствия для Windows](compliance-policy-create-windows.md)
-

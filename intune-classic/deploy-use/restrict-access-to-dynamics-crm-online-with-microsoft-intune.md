@@ -1,5 +1,5 @@
 ---
-title: "Защита Dynamics CRM Online | Документы Майкрософт"
+title: "Защита Dynamics CRM Online"
 description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6740e6f5894f6dfd7788d90cc8f445e0a63821a9
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: da92d75cfafa2a605ed8606ba7c8f3ec18dc6063
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="protect-access-to-dynamics-crm-online-with-intune"></a>Защита доступа к Dynamics CRM Online при помощи Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -84,8 +81,8 @@ ms.lasthandoff: 05/23/2017
   * **iOS**
   * **Android**
 4.  В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.
-5.    Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
-6.    По завершении нажмите кнопку **Сохранить**.
+5.  Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
+6.  По завершении нажмите кнопку **Сохранить**.
 
 Настройка условного доступа для Dynamics CRM выполнена. Развертывать политику условного доступа не нужно; она вступает в силу немедленно.
 ##  <a name="monitor-the-compliance-and-conditional-access-policies"></a>Мониторинг соответствия и политик условного доступа
@@ -104,4 +101,3 @@ ms.lasthandoff: 05/23/2017
 * [Защита доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 * [Защита доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-

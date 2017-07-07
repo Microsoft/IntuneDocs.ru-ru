@@ -1,5 +1,5 @@
 ---
-title: "Управление параметрами Windows Hello для бизнеса на устройствах | Документы Майкрософт"
+title: "Управление параметрами Windows Hello для бизнеса на устройствах"
 description: "Узнайте, как интегрировать Intune с Windows Hello для бизнеса. Это альтернативный способ входа с использованием учетной записи Active Directory или Azure Active Directory для замены пароля, смарт-карты или виртуальной смарт-карты."
 keywords: 
 author: lleonard-msft
@@ -14,15 +14,12 @@ ms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 9a223f7fb1fd0736541da0d6a15ad5285241577a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 7c4ac0b79e30283b90612c77acf1462a25bb6093
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="control-windows-hello-for-business-settings-on-devices-with-microsoft-intune"></a>Управление параметрами Windows Hello для бизнеса на устройствах с помощью Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -83,4 +80,3 @@ Intune интегрируется с Hello для бизнеса двумя сп
 
 ## <a name="further-information"></a>Дополнительные сведения
 Дополнительные сведения о Microsoft Passport см. в [руководстве](https://technet.microsoft.com/library/mt589441.aspx) в документации по Windows 10.
-

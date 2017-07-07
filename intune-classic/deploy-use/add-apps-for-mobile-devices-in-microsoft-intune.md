@@ -14,15 +14,12 @@ ms.assetid: f5b1f1ae-f177-450a-9af9-936a02d052e3
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 98d0376ff02ea89e019fba6022de800f3ca84555
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="add-apps-for-enrolled-devices-to-intune"></a>Добавление приложений для зарегистрированных устройств в Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -105,4 +102,3 @@ ms.lasthandoff: 06/08/2017
 ## <a name="next-steps"></a>Дальнейшие действия
 
 После создания приложения его необходимо развернуть. Дополнительные сведения см. в статье [Развертывание приложений с помощью Microsoft Intune](deploy-apps.md).
-
