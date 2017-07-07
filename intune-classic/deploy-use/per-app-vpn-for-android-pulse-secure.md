@@ -1,11 +1,11 @@
 ---
-title: "VPN на уровне приложения в Android с использованием Pulse Secure | Документы Майкрософт"
+title: "VPN на уровне приложения в Android с использованием Pulse Secure"
 description: "Для устройств Android, находящихся под управлением Intune, можно создать профиль VPN на уровне приложения."
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 01/12/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,12 @@ ms.assetid: ac65e906-3922-429f-8d9c-d313d3126645
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 6786ac87c34e913ba71cd203f431f746df816459
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 262cc461d5c1790fdfb162d5453a9cebd48271c4
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-a-custom-policy-to-create-a-per-app-vpn-profile-for-android-devices"></a>Используйте настраиваемую политику для создания профиля VPN на уровне приложения для устройств Android
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -45,7 +42,7 @@ ms.lasthandoff: 05/23/2017
 
 > [!NOTE]
 >
-> Запишите имя профиля VPN для использования на следующем шаге. Например, MyAppVpnProfile.
+> Запишите значение параметра **Имя подключения VPN (показывается пользователям)**, которое было указано при создании профиля VPN. Оно потребуется на следующем шаге. Например, **MyAppVpnProfile**.
 
 ### <a name="step-2-create-a-custom-configuration-policy"></a>Шаг 2. Создание настраиваемой политики конфигурации
 
@@ -55,7 +52,7 @@ ms.lasthandoff: 05/23/2017
    4. Введите имя параметра.
    5. В поле **Тип данных** укажите **Строка**.
    6. В поле **OMA-URI** укажите следующую строку: **./Vendor/MSFT/VPN/Profile/*Name*/PackageList**, где *Name* — имя профиля VPN, записанное на шаге 1. В нашем примере строка будет такой: **./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList**.
-   7.    В поле **Значение** укажите имена пакетов, которые должны быть связаны с профилем, разделяя их точкой с запятой. Например, если вы хотите, чтобы VPN-подключение использовали Excel и браузер Google Chrome, введите: **com.microsoft.office.excel;com.android.chrome**.
+   7.   В поле **Значение** укажите имена пакетов, которые должны быть связаны с профилем, разделяя их точкой с запятой. Например, если вы хотите, чтобы VPN-подключение использовали Excel и браузер Google Chrome, введите: **com.microsoft.office.excel;com.android.chrome**.
 
 ![Пример настраиваемой политики VPN на уровне приложения для Android](./media/android_per_app_vpn_oma_uri.png)
 
@@ -80,4 +77,3 @@ ms.lasthandoff: 05/23/2017
     -   **Чтобы закрыть диалоговое окно, не развертывая политику**, нажмите кнопку **Отмена**.
 
 В сводке состояния и оповещениях на странице **Обзор** рабочей области **Политика** указаны проблемы с политикой, требующие вашего внимания. Кроме того, сводка состояния отображается в рабочей области **Панель мониторинга**.
-

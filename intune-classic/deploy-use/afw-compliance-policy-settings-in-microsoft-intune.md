@@ -1,5 +1,5 @@
 ---
-title: "Параметры соответствия для Android for Work | Документы Майкрософт"
+title: "Параметры соответствия для Android for Work"
 description: "В этом разделе описываются параметры политики соответствия требованиям для устройств Android, поддерживающих Android for Work."
 keywords: 
 author: andredm7
@@ -14,16 +14,12 @@ ms.assetid: e721c5c7-9678-4f3b-81d4-564da5efd337
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 88774055297f06d6901f1a9eea8e6fd60a697e64
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 79be4993c9b23294d1f49743f863588f9d0cb9b5
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="compliance-policy-settings-for-android-for-work-devices-in-microsoft-intune"></a>Параметры политики соответствия для устройств Android for Work в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -85,4 +81,3 @@ ms.lasthandoff: 05/23/2017
   Отображается ссылка со сведениями о том, как выполнить обновление. Конечный пользователь может обновить устройство, после чего он получит доступ к ресурсам организации.
 
 - **Максимальная версия ОС**: если устройство использует версию ОС, более позднюю по сравнению с указанной в правиле, доступ к ресурсам компании блокируется и пользователя просят связаться с ИТ-администратором. До изменения правила и разрешения конкретной версии ОС это устройство невозможно будет использовать для доступа к ресурсам компании.
-

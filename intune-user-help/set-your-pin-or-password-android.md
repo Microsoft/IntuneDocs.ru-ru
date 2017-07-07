@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b29ac1bb-ef57-4ef1-9ea5-191ee8694e58
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 393a1aa0f9e917d2a124f4deaa086f0369ded4ef
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-your-pin-or-password"></a>Задание ПИН-кода или пароля
 
 ИТ-администратор может потребовать от вас установить ПИН-код или пароль на устройстве Android, если вы используете Intune для доступа к рабочим или учебным данным. Могут также появляться сообщения о том, что необходимо задать более длинный или более сложный ПИН-код либо пароль, чтобы повысить его надежность. Эти пароли используются, например, для доступа к устройству с экрана блокировки.
@@ -38,4 +34,3 @@ ms.lasthandoff: 05/23/2017
 
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

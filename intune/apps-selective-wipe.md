@@ -1,7 +1,7 @@
 ---
 title: "Как удалить из приложений только данные, относящиеся к организации"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как выборочно очищать приложения с помощью Microsoft Intune."
+titleSuffix: Intune on Azure
+description: "Узнайте, как выборочно очищать приложения с помощью Microsoft Intune.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,17 +15,15 @@ ms.assetid: 42605e6e-5b84-44ff-b86e-346ea123b53e
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: affe7323b8572aa17122011b293cb6a3a2fd7747
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: bfebc391997ac4e63466eb3a09044318cf807dbc
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-wipe-only-corporate-data-from-intune-managed-apps"></a>Очистка только корпоративных данных в приложениях, управляемых с помощью Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 В случае потери или кражи устройства либо увольнения сотрудника необходимо убедиться, что данные приложений организации удалены с устройства. Однако может потребоваться не затронуть при этом личные данные, особенно в случае, если это устройство принадлежит сотруднику.
 
@@ -38,7 +36,7 @@ ms.lasthandoff: 05/23/2017
 
 1.  Войдите на [портал Azure](https://portal.azure.com).
 
-2.  Выберите **Больше служб**, в текстовом поле фильтра введите **Intune** и выберите **Intune**. Когда откроется колонка предварительной версии Intune, выберите колонку **Управление приложениями**.
+2.  Выберите **Больше служб**, в текстовом поле фильтра введите **Intune** и выберите **Intune**. Когда откроется колонка Intune, выберите колонку **Управление приложениями**.
 
     ![Снимок экрана для колонки "Новый запрос на очистку"](./media/intune-azure-preview-blade.png)
 

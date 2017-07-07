@@ -1,12 +1,12 @@
 ---
 title: "Установка центра управления мобильными устройствами"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: выбор центра управления мобильными устройствами в Intune. "
+titleSuffix: Intune on Azure
+description: "Выбор центра управления мобильными устройствами в Intune. \""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 04/20/2016
+ms.date: 05/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,15 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: c36ddef7e53d6f4f15c82c97dc6d18863e6859f1
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 449c45e0edcc0d0a33352ba154ad68fa6c4725c0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Параметр центра управления мобильными устройствами (MDM) определяет способ администрирования устройств. ИТ-администратор должен задать центр MDM, чтобы пользователи могли регистрировать устройства для управления.
 
@@ -37,8 +35,8 @@ ms.lasthandoff: 05/23/2017
 
 - **Управление мобильными устройствами для Office 365** — интеграция Office 365 с облачным решением Intune. Вы настраиваете Intune из центра администрирования Office 365. Конфигурация включает набор возможностей, доступных в автономной среде Intune. Задайте центр MDM в центре администрирования Office 365.
 
->[!IMPORTANT]
->Настроив центр управления мобильными устройствами, вам нужно обратиться в [центр поддержки Майкрософт](https://docs.microsoft.com/intune-classic/troubleshoot/get-support) для его изменения. Поэтому будьте внимательны при выборе.
+>[!IMPORTANT]    
+В Configuration Manager версии 1610 или более поздней и Microsoft Intune версии 1705 вы сможете изменять центр MDM без обращения в службу поддержки Майкрософт и без отмены регистрации и повторной регистрации существующих управляемых устройств. Дополнительные сведения см. в разделе [Что делать, если центр управления мобильными устройствами выбран неправильно](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting).
 
 ## <a name="set-mdm-authority-to-intune"></a>Выбор Intune в качестве центра MDM
 
@@ -48,3 +46,6 @@ ms.lasthandoff: 05/23/2017
 
 3. В колонке **Управление устройствами** выберите **Выбрать Intune в качестве центра MDM**. Появится сообщение о том, что вы успешно установили Intune в качестве центра управления мобильными устройствами.
 
+## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>Очистка мобильного устройства после окончания срока действия сертификата MDM
+
+Сертификат MDM обновляется автоматически, когда мобильные устройства взаимодействуют со службой Intune. Если мобильные устройства очищены или не могут связаться со службой Intune на протяжении некоторого времени, сертификат MDM не будет обновлен. Устройство будет удалено с портала Azure через 180 дней после окончания срока действия сертификата MDM.

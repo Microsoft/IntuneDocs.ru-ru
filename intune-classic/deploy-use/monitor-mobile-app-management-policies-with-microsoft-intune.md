@@ -1,5 +1,5 @@
 ---
-title: "Мониторинг политик MAM с помощью Microsoft Intune | Документы Майкрософт"
+title: "Мониторинг политик MAM с помощью Microsoft Intune"
 description: "Здесь описано, как просмотреть сведения о пользователях, использующих политику, и ознакомиться с более подробной информацией."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d80632aceaa675f08eb4b23ce59e3bcabb72b4d0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c3c41f5e3b0fc81232b03fe547bee7f72fb427a0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="monitor-app-protection-policies-with-microsoft-intune"></a>Мониторинг политик защиты приложений с помощью Microsoft Intune
 Вы можете отслеживать соответствие политикам защиты приложений, которые вы применили к пользователям. Вы можете находить сведения о пользователях, на которых распространяются политики защиты приложений, состоянии соответствия и любых проблемах, которые могут возникнуть у пользователей.
 
@@ -134,6 +131,5 @@ ms.lasthandoff: 05/23/2017
 ## <a name="see-also"></a>См. также
 [Управление передачей данных между приложениями iOS](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)
 
-* [Что происходит при управлении приложением Android с помощью политик защиты приложений](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [Что происходит при управлении приложением iOS с помощью политик защиты приложений](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
-
+* [Что происходит при управлении приложением Android с помощью политик защиты приложений](/intune/end-user-mam-apps-android)
+* [Что происходит при управлении приложением iOS с помощью политик защиты приложений](/intune/end-user-mam-apps-ios)

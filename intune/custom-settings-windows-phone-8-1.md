@@ -1,7 +1,7 @@
 ---
 title: "Пользовательские параметры Intune для устройств с Windows Phone 8.1"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, какие параметры можно использовать в настраиваемом профиле Windows Phone 8.1."
+titleSuffix: Intune on Azure
+description: "Параметры, которые можно использовать в настраиваемом профиле Windows Phone 8.1.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 21c55041-3821-4a62-9f85-855b97dba269
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 646d0ec4274e068487ad9546ff0b5dabfc815e46
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: b3dcad95b85d967e48c8b05d655a5e679daa0aee
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="custom-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Настраиваемые параметры для устройств Windows Phone 8.1 в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Используйте в Microsoft Intune **настраиваемый профиль** Windows Phone 8.1 для назначения параметров OMA-URI, с помощью которых можно управлять функциями на устройствах Windows Phone 8.1. Это стандартные параметры, которые многие производители мобильных устройств используют для управления функциями устройств.
 
@@ -44,4 +41,3 @@ ms.lasthandoff: 05/23/2017
     - **Значение.** Введите значение, которое нужно сопоставить с указанным OMA-URI.
 
 4. Завершив настройку, нажмите кнопку **ОК**. Затем добавьте другие параметры при необходимости.
-

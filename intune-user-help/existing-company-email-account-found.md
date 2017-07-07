@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 74c51f7b-7bd8-45cf-99bd-02d1972267cb
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 510e35a7c60709a6f002907e0f7963ba5b78f35c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="an-existing-company-email-account-was-found"></a>Найдена существующая учетная запись электронной почты компании.
 
 Вы уже получили учетную запись электронной почты в своей организации. Теперь вам нужен доступ к ней на мобильном устройстве. ИТ-администратору нужно защитить доступ к вашей электронной почте и получаемым письмам, и от вас потребуется содействие. Возможно, ваш текущий канал получения электронной почты и работал без проблем, но эти действия помогут лучше защитить информацию.
@@ -39,4 +35,3 @@ ms.lasthandoff: 05/23/2017
 3.  Подождите некоторое время для новых параметров электронной почты автоматически применяются к устройству.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

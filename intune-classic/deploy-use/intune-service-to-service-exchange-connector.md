@@ -1,5 +1,5 @@
 ---
-title: "Соединитель с Exchange для Exchange Online | Документы Майкрософт"
+title: "Соединитель с Exchange для Exchange Online"
 description: "Подключения Intune к службе Office 365 Exchange для обеспечения поддержки управления мобильными устройствами с помощью Exchange ActiveSync."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 05fa5dc9-9bad-4557-987a-9b8ce4edebb0
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 4b73767f585cfa6283c7fb0601e7061efe42c606
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: c2f30e7827db280ba49fc49b6b7a00c9a8d9eade
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-the-intune-service-to-service-connector-for-exchange-online"></a>Настройка Service To Service Connector Intune для Exchange Online
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -36,8 +33,8 @@ ms.lasthandoff: 05/23/2017
 |---------------|--------------------|
 |Настроенная и запущенная служба Exchange Online|[Exchange Online](https://technet.microsoft.com/library/jj200580.aspx) |
 |Центр управления мобильными устройствами| [Укажите Microsoft Intune в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#step-2-set-mdm-authority).|
-|Версия Microsoft Exchange|Exchange Online или новая выделенная служба Exchange Online|
-|Синхронизация Active Directory|Прежде чем использовать любой соединитель Intune, необходимо [настроить синхронизацию Active Directory](/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-3), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
+|Версия Microsoft Exchange|Exchange Online или новая выделенная служба Exchange Online|/intune/users-permissions-add
+|Синхронизация Active Directory|Прежде чем использовать любой соединитель Intune, необходимо [настроить синхронизацию Active Directory](/intune/users-permissions-add), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
 
 ### <a name="exchange-cmdlet-requirements"></a>Требования к командлетам Exchange
 
@@ -67,4 +64,3 @@ Service To Service Connector автоматически настроится и 
 После успешной настройки Exchange Connector перейдите в [консоль администрирования Microsoft Intune](https://manage.microsoft.com). Последовательно выберите пункты **Администрирование**> **Управление мобильными устройствами** > **Microsoft Exchange**. Убедитесь, что указанные сведения отображаются в разделе **Сведения о подключении Exchange**.
 
 Также можно проверить время и дату последней успешной попытки синхронизации.
-

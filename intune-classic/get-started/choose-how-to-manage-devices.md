@@ -1,5 +1,5 @@
 ---
-title: "Выбор способа управления устройствами | Документы Майкрософт"
+title: "Выбор способа управления устройствами"
 description: "Узнайте о различных способах регистрации устройств и управления ими."
 keywords: 
 author: nathbarn
@@ -14,15 +14,12 @@ ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: dfd79323c7db53cb3291f729878bcd1d36f93fe7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 0dbe387ee6b8130e3dc64323f89b38e868087dfe
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="choose-how-to-manage-devices"></a>Выбор способа управления устройствами
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -48,12 +45,11 @@ ms.lasthandoff: 05/23/2017
 - Endpoint Protection и брандмауэр Windows
 - Удаленная помощь пользователям с помощью программного обеспечения TeamViewer
 
-Подробное описание возможностей управления для каждого способа см. в разделе [Возможности управления мобильными устройствами](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune).
-Сведения об устройствах и компьютерах, поддерживаемых Intune, см. в разделе [Поддерживаемые мобильные устройства и компьютеры](/intune-classic/get-started/what-to-know-before-you-start-microsoft-intune#intune-supported-devices).
+Подробное описание возможностей управления для каждого способа см. в разделе [Mobile device managem/intune/supported-devices-browserssoft-intune).
+Сведения об устройствах и компьютерах, поддерживаемых Intune, см. в разделе [Поддерживаемые мобильные устройства и компьютеры](/intune/supported-devices-browsers#intune-supported-devices).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Выбор способа регистрации мобильных устройств](/intune-classic/get-started/choose-how-to-enroll-devices1)
 - [Управление компьютерами с ОС Windows при помощи клиентского программного обеспечения Intune](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune)
 - [Управление мобильными устройствами Exchange ActiveSync с использованием Microsoft Intune](/intune-classic/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
-
