@@ -1,7 +1,7 @@
 ---
 title: "Мониторинг политик соответствия устройств Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как вести мониторинг политик соответствия устройств Intune."
+titleSuffix: Intune on Azure
+description: "Сведения о мониторинге политик соответствия устройств.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,13 +15,11 @@ ms.assetid: 503d1dd2-a647-4aea-bf48-55319a3dd8a7
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 9c57a45ed93b12c3b9fd9635bfa1aec465f63bbc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 6d0105e49bac2af0c241fe9203c411ef7f9e7d76
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Мониторинг политик соответствия устройств Intune
 
@@ -123,8 +121,6 @@ ms.lasthandoff: 05/23/2017
 
 Если нажать **кнопку "Обновить"**, раскрывающееся меню закроется, и результаты должны обновиться в соответствии с выбранными условиями фильтра.
 
-![Кнопка обновления фильтра](./media/idc-5.png)
-
 ##### <a name="device-details"></a>Сведения об устройстве
 
 Если щелкнуть устройство, откроется **колонка устройств** с выбранным устройством. В ней будут содержаться более подробные сведения о параметре политики соответствия, примененном для этого устройства.
@@ -154,4 +150,3 @@ ms.lasthandoff: 05/23/2017
 Если щелкнуть плитку соответствия параметру, а затем один из параметров политики соответствия устройств, то можно будет увидеть **состояние соответствия**, **псевдоним электронной почты пользователя**, **модель устройства** и **местоположение** для каждого устройства, для которого был назначен этот параметр политики соответствия устройств.
 
 ![Плитка соответствия параметру](./media/idc-11.png)
-

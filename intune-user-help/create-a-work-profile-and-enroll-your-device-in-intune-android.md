@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 33ffff16-0280-43bf-87b3-74ddf4439bfa
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 734856b1598a225f6f3a2aaf640d34d393c744e7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="create-a-work-profile-and-enroll-your-device-in-intune"></a>Создание профиля работы и регистрация устройства в Intune
 
 Регистрация устройства Android обеспечивает доступ к корпоративной электронной почте, приложениям и другим рабочим данным. В процессе регистрации вы настраиваете рабочий профиль, с помощью которого личные данные на устройстве отделяются от рабочих данных. ИТ-администратор может управлять только рабочим профилем, который содержит рабочие данные. ИТ-администратор не может управлять личными данными на вашем устройстве. Дополнительные сведения см. в разделе, где рассказывается о том, [что происходит при создании рабочего профиля](what-happens-when-you-create-a-work-profile-android.md).
@@ -88,4 +83,3 @@ ms.lasthandoff: 05/23/2017
     ![Страница приложений Play Store for Work](./media/andr-afw-tap-work-play-store-icon.png)
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

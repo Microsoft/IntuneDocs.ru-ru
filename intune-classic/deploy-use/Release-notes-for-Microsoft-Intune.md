@@ -1,5 +1,5 @@
 ---
-title: "Заметки о выпуске Microsoft Intune | Документы Майкрософт"
+title: "Заметки о выпуске Microsoft Intune"
 description: "Заметки о выпуске Intune"
 keywords: 
 author: arob98
@@ -14,15 +14,12 @@ ms.assetid: db9479b2-582d-4a1a-9fbc-fbfc6c680e6f
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2c7563ba79819a59740ba81c078c5540d0792ee5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 751bd0bc90b762c5b51b85fae2129e53773b54fe
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="release-notes-for-microsoft-intune"></a>Заметки о выпуске Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -78,7 +75,7 @@ Microsoft will continue to work closely with Samsung on a fix or additional work
 ## <a name="microsoft-intune-app-wrapping-tool-for-android-has-no-built-in-uninstall-capability"></a>Инструмент упаковки приложений Microsoft Intune для Android не имеет встроенной возможности удаления
 **Проблема:** **инструмент упаковки приложений Майкрософт для Android** не имеет встроенных функциональных возможностей для удаления этого средства.
 
-**Обходной путь:** перейдите к расположению, куда был установлен инструмент, и удалите этот каталог. Для установки по умолчанию используется следующее расположение: **C:\Program Files /intune-classic/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
+**Обходной путь:** перейдите к расположению, куда был установлен инструмент, и удалите этот каталог. По умолчанию используется расположение установки **C:\Program Files\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool. Дополнительные сведения об инструменте упаковки приложений см. в статье [Подготовка приложений Android для управления мобильными приложениями с помощью инструмента упаковки для приложений Microsoft Intune](/intune/app-wrapper-prepare-android).
 
 ## <a name="remote-assistance-is-not-available-on-computers-that-run-windows-8-or-windows-81"></a>Удаленная помощь недоступна на компьютерах под управлением Windows 8 или Windows 8.1
 **Проблема:** в этом выпуске функция удаленной помощи не доступна на компьютерах под управлением Windows 8 или Windows 8.1.
@@ -94,4 +91,3 @@ Microsoft will continue to work closely with Samsung on a fix or additional work
 Портал Azure поддерживает следующие языки: китайский (упрощенное письмо), китайский (традиционное письмо), чешский, нидерландский, английский, немецкий, венгерский, итальянский, японский, португальский (Бразилия), португальский (Португалия), русский, испанский, английский, французский, корейский, польский, шведский, турецкий.
 
 Консоль администрирования Intune и мобильный пользовательский интерфейс в дополнение ко всем языкам портала Azure поддерживают датский, греческий, финский, норвежский и румынский языки.
-

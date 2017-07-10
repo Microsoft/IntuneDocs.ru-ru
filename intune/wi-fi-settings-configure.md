@@ -1,12 +1,12 @@
 ---
 title: "Настройка параметров Wi-Fi в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как с помощью Intune можно настроить подключения Wi-Fi на управляемых устройствах."
+titleSuffix: Intune on Azure
+description: "Сведения об использовании Intune для настройке подключений Wi-Fi на управляемых устройствах.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 05/04/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: 1fadb488-9c6c-43c1-ba23-8c69db633b96
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3378df904936def8737ca3b5b791feebdb95823b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 0e191fe443757a5ea43ccc2b4ef2e9cb331b2142
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Настройка параметров Wi-Fi в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Используйте профили Wi-Fi в Microsoft Intune, чтобы назначить параметры беспроводной сети для пользователей и устройств в вашей организации. При назначении профиля Wi-Fi пользователи получают доступ к корпоративной сети Wi-Fi, не настраивая его самостоятельно.
 
@@ -39,6 +36,7 @@ ms.lasthandoff: 05/23/2017
 Профили Wi-Fi поддерживают следующие платформы устройств:
 
 - Android 4 и более поздней версии.
+- Android for Work
 - Устройства iOS 8.0 и более поздней версии
 - macOS (Mac OS X 10.9 и более поздней версии).
 
@@ -49,13 +47,14 @@ ms.lasthandoff: 05/23/2017
 ## <a name="create-a-device-profile-containing-wi-fi-settings"></a>Создание профиля устройства, содержащего параметры Wi-Fi
 
 1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Другое** > **Intune**.
+2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создание профиля**.
 4. В колонке **Создание профиля** введите **имя** и **описание** для профиля Wi-Fi.
 5. В раскрывающемся списке **Платформа** выберите платформу устройства, к которой необходимо применить параметры Wi-Fi. Сейчас для параметров Wi-Fi можно выбрать одну из следующих платформ:
     - **Android**
+    - **Android for Work**
     - **iOS**
     - **macOS**
     - **Windows 8.1 и более поздние версии (импорт профиля)**.
@@ -63,7 +62,7 @@ ms.lasthandoff: 05/23/2017
     >[!TIP]
     >Выберите **Базовый Wi-Fi**, чтобы предоставить основные функции, такие как имя сети и идентификатор SSID. **Корпоративный Wi-Fi.** Позволяет указать дополнительные сведения, например протокол расширенной проверки подлинности (EAP), если он используется в сети Wi-Fi. **Импорт Wi-Fi** (для Windows 8.1 и Windows 10). Позволяет импортировать параметры Wi-Fi в XML-файл, который ранее был экспортирован с другого устройства.
 7. Доступные для настройки параметры будут отличаться в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
-    - [Параметры Android](wi-fi-settings-android.md)
+    - [Параметры Android и Android for Work](wi-fi-settings-android.md)
     - [Параметры iOS](wi-fi-settings-ios.md)
     - [Параметры macOS](wi-fi-settings-macos.md)
     - [Параметры Windows Phone 8.1](wi-fi-settings-import-windows-8-1.md)
@@ -71,5 +70,3 @@ ms.lasthandoff: 05/23/2017
 
 Созданный профиль отобразится в колонке со списком профилей.
 Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
-
-

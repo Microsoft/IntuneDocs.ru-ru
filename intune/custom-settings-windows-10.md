@@ -1,7 +1,7 @@
 ---
 title: "Пользовательские параметры для устройств с Windows 10 в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: параметры, которые можно использовать в настраиваемом профиле Windows 10."
+titleSuffix: Intune on Azure
+description: "Параметры, которые можно использовать в настраиваемом профиле Windows 10.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 7bcea136-7260-4042-b21b-c7dab86b380d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 52ad4f141c3b2b73a400c69fb9d9beb174bbac64
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: bda9e939e2d4aba4c4d005ea55ba65bec9c6e217
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="custom-device-settings-for-windows-10-devices-in-microsoft-intune"></a>Настраиваемые параметры устройств с ОС Windows 10 в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
  Используйте **настраиваемый** профиль Microsoft Intune для Windows 10 и Windows 10 Mobile, чтобы развернуть параметры OMA-URI (универсальный код ресурса Open Mobile Alliance), с помощью которых можно управлять функциями устройств. В ОС Windows 10 становятся доступными многие параметры CSP, например [Policy Configuration Service Provider (Policy CSP)](https://technet.microsoft.com/itpro/windows/manage/how-it-pros-can-use-configuration-service-providers) (Поставщик службы конфигурации (CSP) политик).
 Если вам нужен какой-то конкретный параметр, не забывайте, что [профиль ограничения устройств с Windows 10](device-restrictions-windows-10.md) содержит множество параметров, которые встроены в Intune и не требуют указания пользовательских значений.
@@ -62,6 +59,5 @@ ms.lasthandoff: 05/23/2017
 Не все параметры совместимы со всеми версиями ОС Windows 10. Таблица в разделе Windows содержит сведения о том, какие версии поддерживаются для каждого поставщика служб конфигурации (CSP).
 
 Кроме того, Intune поддерживает не все параметры, перечисленные в этом разделе. Чтобы узнать, поддерживает ли Intune необходимый параметр, откройте соответствующий раздел для этого параметра. На странице каждого параметра отображаются сведения о поддерживаемых операциях. Для работы с Intune параметр должен поддерживать операции **добавления** или **замены**.
-
 
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Параметры политики Android for Work"
 description: "Создание политик для управления параметрами и функциями на устройствах Android for Work, которые управляются с помощью Intune."
 keywords: 
@@ -15,15 +14,12 @@ ms.assetid: 35a53076-74d6-486d-b201-e0da2e170008
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 858c4a525945694326952e8afe280e4b66cd2ccb
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="android-for-work-policy-settings-in-microsoft-intune"></a>Параметры политики Android for Work в Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -93,4 +89,3 @@ Intune предоставляет ряд встроенных общих пар�
 
 ### <a name="see-also"></a>См. также
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
-

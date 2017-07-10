@@ -1,7 +1,7 @@
 ---
 title: "Ограничения для устройств с Windows 10 для совместной работы в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительный просмотр Intune Azure: ограничения устройств, доступные для устройств Windows 10 для совместной работы."
+titleSuffix: Intune on Azure
+description: "Ограничения устройств, доступные для устройств Windows 10 для совместной работы.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 677c41a2-5344-4c52-85f0-809dce3a5d5b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: afbbe6b7649e1ffc3f84ada64396d9033a2db200
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 7a5c3eaf3d2b1fc4383282473352124c793b666f
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="windows-10-team-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с Windows 10 для совместной работы в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 - **Включать экран при наличии людей в комнате**. Устройство автоматически выходит из режима сна, когда его датчик обнаруживает человека в комнате.
 - **PIN-код для беспроводной проекции**. Указывает, необходимо ли вводить ПИН-код для использования возможностей беспроводной проекции устройства.
@@ -37,4 +34,3 @@ ms.lasthandoff: 05/23/2017
 - **URL-адрес фонового изображения для экрана приветствия**. Включите этот параметр, чтобы на экране **приветствия** устройств с Windows 10 для совместной работы отображался настраиваемый фон, доступный по указанному URL-адресу.<br>Образ должен иметь формат PNG, а URL-адрес должен начинаться с **https://**.
 - **Период обслуживания для обновлений**. Позволяет настроить период, когда на устройстве разрешено выполнение обновлений. Можно настроить время начала периода и его длительность (от 1 до 5 часов).
 - **Оперативная аналитика Azure**. Оперативная аналитика Azure, входящая в состав набора Microsoft Operations Manager, собирает, хранит и анализирует данные журналов с устройств Windows 10 для совместной работы.<br>Чтобы подключиться к оперативной аналитике Azure, следует указать **идентификатор рабочей области** и **ключ рабочей области**.
-

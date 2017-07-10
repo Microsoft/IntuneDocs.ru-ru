@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 09cd4ed6-1ce4-4530-9753-59808f01c6d7
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 2208d25b4e27f3a896c431f301a46392a4b21f80
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="you-get-an-error-while-using-the-company-portal-app"></a>Возникновение ошибки при использовании приложения корпоративного портала
 
 Если при использовании приложения корпоративного портала на устройстве iOS появляется сообщение об ошибке, можно отправить эти сведения ИТ-администратору, чтобы помочь ему устранить проблему. Сведения об ошибке можно отправить разными способами:
@@ -38,4 +33,3 @@ ms.lasthandoff: 05/23/2017
 -   Находясь в приложении корпоративного портала, встряхните устройство, а затем нажмите **Электронная почта** при появлении предупреждения диагностики. Если при встряхивании устройства предупреждение не отображается, откройте **Параметры** > **Корпоративный портал** и включите параметр **Жест встряхивания**.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

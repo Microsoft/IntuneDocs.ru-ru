@@ -5,28 +5,24 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 05/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: fbc9c2b9-b454-4b33-86cc-650742bbf1e1
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 1e501c1a94a44c677569b8b85be7704844587694
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 12fe4702217ad180a94dcf4d79326dd6840a7839
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-# <a name="send-errors-to-your-it-admin"></a>Отправка ошибок ИТ-администратору
+# <a name="send-errors-to-your-it-admin-for-issues-with-your-ios-device"></a>Отправка ИТ-администратору ошибок с устройством iOS
 
 Если при использовании приложения корпоративного портала на устройстве iOS появляется сообщение об ошибке, можно отправить эти сведения, чтобы помочь ИТ-администратору устранить данную проблему. Сведения об ошибке можно отправить разными способами:
 
@@ -36,7 +32,4 @@ ms.lasthandoff: 05/23/2017
 
 -   Находясь в приложении корпоративного портала, встряхните устройство, а затем нажмите кнопку **Отправить диагностический отчет** при появлении предупреждения диагностики. Если при встряхивании устройства предупреждение не отображается, откройте **Параметры** > **Корпоративный портал** и включите параметр **Жест встряхивания**.
 
-Если при таком способе отправки журналов возникают проблемы, можно также [отправить журналы ИТ-администратору по электронной почте](send-logs-to-your-it-admin-by-email-iOS.md).
-
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

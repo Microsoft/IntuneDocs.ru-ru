@@ -1,5 +1,5 @@
 ---
-title: "Создание и развертывание политик управления мобильными приложениями | Документы Майкрософт"
+title: "Создание и развертывание политик MAM"
 description: "Следуйте пошаговым инструкциям в этом разделе, чтобы создавать и развертывать политики управления мобильными приложениями."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: c1b9a343-1737-4a65-a9c6-aca48acad11c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d91ce526650166197520d37c82084c0ff141ec80
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: ebb4b03307f8af7e1390c6db994d3120942fae89
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="create-and-deploy-app-protection-policies-with-microsoft-intune"></a>Создание и развертывание политик защиты приложений с помощью Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -109,9 +106,9 @@ ms.lasthandoff: 05/23/2017
 ## <a name="line-of-business-lob-apps-optional"></a>Бизнес-приложения (необязательно)
 
 Начиная с версии Intune 1703 поддерживается добавление бизнес-приложений в Intune при создании новой политики защиты приложений. Это дает возможность определять политики защиты приложений для бизнес-приложений с помощью пакета SDK для MAM в отсутствие полного набора разрешений для развертывания приложения.
-
+/intune/app-sdk-get-started
 > [!TIP]
-> Бизнес-приложения можно также добавить в Intune при выполнении рабочего процесса [пакета SDK для приложений Intune](/intune-classic/develop/intune-app-sdk-get-started).
+> Бизнес-приложения можно также добавить в Intune при выполнении рабочего процесса [пакета SDK для приложений Intune](/intune/app-sdk-get-started).
 
 > [!IMPORTANT]
 > Если пользователи имеют только определенные разрешения для развертывания приложений MAM, но не полный набор разрешений развертывания, который позволил бы им развертывать любые приложения в Intune, они не смогут выполнить рабочий процесс пакета SDK для Intune, но, тем не менее, смогут добавлять свои бизнес-приложения в рамках рабочего процесса создания политики защиты приложений MAM.
@@ -164,8 +161,8 @@ ms.lasthandoff: 05/23/2017
 > При использовании Intune с Configuration Manager для управления устройствами iOS и Android политика применяется только к пользователям, находящимся непосредственно в выбранной вами группе. Члены дочерних групп, вложенных в выбранную вами группу, не затрагиваются.
 
 Конечные пользователи могут загрузить приложения из магазина App Store или Google Play. Дополнительные сведения см. на странице
-* [Что происходит при управлении приложением Android с помощью политик защиты приложений](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [Что происходит при управлении приложением iOS с помощью политик защиты приложений](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
+* [Что происходит при управлении приложением Android с помощью политик защиты приложений](/intune/end-user-mam-apps-android)
+* [Что происходит при управлении приложением iOS с помощью политик защиты приложений](/intune/end-user-mam-apps-ios)
 
 ##  <a name="change-existing-policies"></a>Изменение существующих политик
 Вы можете изменить существующую политику и применить ее к целевым пользователям. Однако при изменении существующих политик пользователи, которые уже выполнили вход в приложения, не заметят никаких изменений в течение 8 часов.
@@ -219,6 +216,5 @@ ms.lasthandoff: 05/23/2017
 [Мониторинг соответствия требованиям и состояния пользователей](monitor-mobile-app-management-policies-with-microsoft-intune.md)
 
 ### <a name="see-also"></a>См. также
-* [Что происходит при управлении приложением Android с помощью политик защиты приложений](user-experience-for-mam-enabled-android-apps-with-microsoft-intune.md)
-* [Что происходит при управлении приложением iOS с помощью политик защиты приложений](user-experience-for-mam-enabled-ios-apps-with-microsoft-intune.md)
-
+* [Что происходит при управлении приложением Android с помощью политик защиты приложений](/intune/end-user-mam-apps-android)
+* [Что происходит при управлении приложением iOS с помощью политик защиты приложений](/intune/end-user-mam-apps-ios)

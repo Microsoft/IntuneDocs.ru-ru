@@ -1,7 +1,7 @@
 ---
 title: "Параметры Wi-Fi для устройств macOS в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте о параметрах Intune, которые можно использовать для настройки подключений Wi-Fi на устройствах macOS."
+titleSuffix: Intune on Azure
+description: "Сведения о параметрах Intune, которые можно использовать для настройки подключений Wi-Fi на устройствах macOS.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,18 +15,15 @@ ms.assetid: 322a38d5-21f5-48ee-bc59-0a4f9da78d38
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: eeccc30962ae64fea31a43d423d7bd0760a01168
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 539c4d97f6f868ea2c4d4e6f2f58bfffa9cf7ce6
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="wi-fi-settings-for-macos-devices-in-microsoft-intune"></a>Параметры Wi-Fi для устройств macOS в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="wi-fi-settings-for-basic-and-enterprise-profiles"></a>Параметры Wi-Fi для простых и корпоративных профилей
 
@@ -80,4 +77,3 @@ ms.lasthandoff: 05/23/2017
 |--------------|-------------|----------|
 |**Сертификат клиента для проверки подлинности клиента (сертификат удостоверения)**|Выберите профиль сертификата SCEP или PKCS, используемый для проверки подлинности подключения.|Тип EAP — **EAP-TLS**.|
 |**Метод проверки подлинности**|Выберите метод проверки подлинности для подключения:<br>- **Сертификаты**, чтобы выбрать клиентский сертификат SCEP или PKCS, который является сертификатом удостоверения для сервера.<br><br>- **Имя пользователя и пароль**, чтобы указать другой метод проверки подлинности. <br><br>Если вы выбрали **Имя пользователя и пароль**, настройте следующие параметры:<br><br>-  **Метод отличается от EAP (внутреннее удостоверение)**, затем выберите, как будет проходить проверка подлинности подключения:<br>- **Нет**<br>- **Незашифрованный пароль (PAP)**<br>- **Протокол проверки пароля (CHAP)**<br>- **Microsoft CHAP (MS-CHAP)**<br>- **Microsoft CHAP версии 2 (MS-CHAP v2)**<br>Доступные параметры зависят от выбранного типа EAP.<br><br>**и**<br><br>- **Конфиденциальность удостоверений (внешнее удостоверение).** Укажите текст, отправляемый в ответ на запрос удостоверения EAP. Этот текст может иметь любое значение. Во время проверки подлинности сначала будет отправлено это анонимное удостоверение, после чего в защищенный туннель будет отправлена фактическая идентификация.|Тип EAP — **EAP-TTLS** или **PEAP**.|
-

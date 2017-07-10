@@ -1,7 +1,7 @@
 ---
 title: "Что такое политики защиты приложений"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. В этой статье содержатся сведения о защите корпоративных данных с помощью политик защиты приложений Microsoft Intune."
+titleSuffix: Intune on Azure
+description: "В этой статье содержатся сведения о защите корпоративных данных с помощью политик защиты приложений Microsoft Intune.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,19 +15,16 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 01f77e3511785d2c8da2edcd92df809b3b7e73e7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 13b3199108c34a61d117e4d89d118bdd05d7d20f
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/03/2017
 ---
-
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Политики защиты приложений Microsoft Intune позволяют защитить данные компании и предотвратить их потерю.
 
@@ -68,7 +65,7 @@ ms.lasthandoff: 05/23/2017
 
 -   Android 4 или более поздняя версия
 
-Устройства с Windows сейчас не поддерживаются. Однако при регистрации устройств Windows 10 в Intune вы можете использовать компонент Windows Information Protection, который обеспечивает аналогичные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
+Устройства с Windows сейчас не поддерживаются. Однако при регистрации устройств Windows 10 в Intune вы можете использовать компонент Windows Information Protection, который обеспечивает аналогичные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 ##  <a name="how-app-protection-policies-protect-app-data"></a>Защита данных приложений с помощью политик защиты приложений
 
 ####  <a name="apps-without-app-protection-policies"></a>Приложения без политик защиты приложений
@@ -138,4 +135,3 @@ ms.lasthandoff: 05/23/2017
 ##  <a name="next-steps"></a>Дальнейшие действия
 
 [How to create and assign app protection policies](app-protection-policies.md) (Как создавать и назначать политики защиты приложений с помощью Microsoft Intune)
-

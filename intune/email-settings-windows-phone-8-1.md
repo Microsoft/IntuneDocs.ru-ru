@@ -1,7 +1,7 @@
 ---
 title: "Параметры электронной почты для устройств с Windows Phone 8.1 в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: параметры Intune, которые можно использовать для настройки электронной почты на устройствах Windows Phone 8.1."
+titleSuffix: Intune on Azure
+description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows Phone 8.1.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,18 +15,15 @@ ms.assetid: 352d6bd9-ec8c-439e-be3a-ad3daf307df2
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 986d02721012ce356b18cf983087b5babd03bb23
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 4925ceb1be344a12270ee40519096a62b1f0c739
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="email-profile-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Windows Phone 8.1 в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
 - **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10 Mobile.
@@ -53,4 +50,3 @@ ms.lasthandoff: 05/23/2017
     - **Контакты**
     - **Календарь**
     - **Задачи**
-

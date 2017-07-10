@@ -1,7 +1,7 @@
 ---
 title: "Создание и развертывание политик защиты приложений"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: защита корпоративных данных, используемых в управляемых приложениях, с помощью политик защиты приложений Intune."
+titleSuffix: Intune on Azure
+description: "Защита корпоративных данных, используемых в управляемых приложениях, с помощью политик защиты приложений Intune.\""
 keywords: 
 author: NathBarn
 ms.author: nathbarn
@@ -15,21 +15,23 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d63e99561766268941b2c6d8b3bb6a1dd028f72c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 56a19bc4d970f230f719af9369dada45ffb65e76
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-create-and-assign-app-protection-policies"></a>Как создать и назначить политики защиты приложений
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-**Если вы не вошли в предварительную версию службы Intune на портале Azure** , в этой статье объясняется, как [создать политику защиты приложения](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune) в консоли классической версии Intune.
+## <a name="before-you-begin"></a>Подготовка к работе
+
+Инструкции для классической консоли Intune см. в статье [Создание политик защиты приложений](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune).
 
 Политики защиты приложений могут применяться к приложениям на устройствах, которыми управляет или не управляет Intune. Подробное описание использования политик защиты приложений и сценариев, поддерживаемых политиками защиты приложения Intune, см. в статье о [политиках защиты приложений Microsoft Intune](app-protection-policy.md).
+
+Список поддерживаемых приложений MAM см. в статье [Список приложений MAM](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
 
 ##  <a name="create-an-app-protection-policy"></a>Создание политики защиты приложений
 1.  В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Политики защиты приложений**.
@@ -116,7 +118,6 @@ ms.lasthandoff: 05/23/2017
 ## <a name="policy-settings"></a>Параметры политики
 Чтобы просмотреть полный список параметров политики для iOS и Android, выберите один из следующих элементов:
 
-> [!div class="op_single_selector"]
 - [Политики iOS](app-protection-policy-settings-ios.md)
 - [Политики Android](app-protection-policy-settings-android.md)
 
@@ -126,4 +127,3 @@ ms.lasthandoff: 05/23/2017
 ### <a name="see-also"></a>См. также
 * [Что происходит при управлении приложением Android с помощью политик защиты приложений](app-protection-enabled-apps-android.md)
 * [Что происходит при управлении приложением iOS с помощью политик защиты приложений](app-protection-enabled-apps-ios.md)
-

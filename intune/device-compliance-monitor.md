@@ -1,7 +1,7 @@
 ---
 title: "Мониторинг соответствия устройств требованиям"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как отслеживать соответствие устройств требованиям."
+titleSuffix: Intune on Azure
+description: "Сведения о мониторинге соответствия устройств.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,20 +15,18 @@ ms.assetid: 0790934b-48b9-435b-a8aa-e83ed5b73191
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e073ca318d7db23239fc68b79718198dbee54b6e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 8f18bfa7fb045dbad4ab785c2c8e1bc13fc439db
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-# <a name="how-to-monitor-device-compliance-in-intune-azure-preview"></a>Как отслеживать соответствие устройств требованиям в предварительной версии Intune Azure
+# <a name="how-to-monitor-device-compliance-in-intune"></a>Мониторинг соответствия устройств требованиям в Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Сводку по состоянию **профилей соответствия требованиям** можно просмотреть в колонке **Обзор**.
-Вы можете интерактивно пролистать диаграммы, чтобы перейти к подробным сведениям. Если вы настроили несколько профилей соответствия требованиям, можно просмотреть состояние каждой политики, перейдя в колонку политики и выбрав **Отчеты** в разделе **Управление**.  Ниже перечислены сведения о доступных для просмотра отчетов.
+Вы можете интерактивно пролистать диаграммы, чтобы перейти к подробным сведениям. Если вы настроили несколько профилей соответствия требованиям, можно просмотреть состояние каждой политики, перейдя в колонку политики и выбрав **Отчеты** в разделе **Управление**.  Ниже перечислены сведения о доступных отчетах.
 
 ##  <a name="device-compliance"></a>Соответствие устройства
 
@@ -48,4 +46,3 @@ ms.lasthandoff: 05/23/2017
 - Платформа, к которой применяются параметры.
 
 Вы можете детализировать каждый параметр (а также его значения), чтобы просмотреть дополнительные сведения о профилях, в которых эти параметры включены.
-

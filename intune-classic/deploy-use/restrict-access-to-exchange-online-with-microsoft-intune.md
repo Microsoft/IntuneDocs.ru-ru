@@ -1,5 +1,5 @@
 ---
-title: "Защита электронной почты в Exchange Online | Документы Майкрософт"
+title: "Защита электронной почты в Exchange Online"
 description: "Защита и контроль доступа к корпоративной электронной почте, размещенной в Exchange Online, с помощью условного доступа."
 keywords: 
 author: andredm7
@@ -14,16 +14,12 @@ ms.assetid: 09c82f5d-531c-474d-add6-784c83f96d93
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 742a989744a11dbc1c9e17a25b70388e06dd5ae7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/31/2017
-
-
+ms.openlocfilehash: c428d7f01872c9f0968bb69dc4dc1886a7c1828b
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="protect-email-access-to-exchange-online-and-new-exchange-online-dedicated-with-intune"></a>Защита доступа к электронной почте в Exchange Online и новой выделенной среде Exchange Online при помощи Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -210,7 +206,7 @@ ms.lasthandoff: 05/31/2017
         Любое устройство, используемое для доступа к **Exchange Online**, должно быть зарегистрировано в Intune и удовлетворять заданным политикам. Любое клиентское приложение, использующее **современную проверку подлинности**, регулируется политикой условного доступа. Если в настоящее время платформа не поддерживается службой Intune, доступ к **Exchange Online** блокируется.
 
         Выбор варианта **Все платформы** означает, что Azure Active Directory применяет эту политику ко всем запросам проверки подлинности независимо от платформы, о которой сообщает клиентское приложение. Все платформы должны быть зарегистрированными и соответствующими со следующими исключениями:
-        *    Устройства Windows должны быть зарегистрированными и соответствующими, присоединенными к домену с локальным каталогом Active Directory, либо для них могут выполняться оба этих условия.
+        *   Устройства Windows должны быть зарегистрированными и соответствующими, присоединенными к домену с локальным каталогом Active Directory, либо для них могут выполняться оба этих условия.
         * Неподдерживаемые платформы, такие как Mac OS. Однако приложения, использующие современные способы проверки подлинности, реализованные в этих платформах, по-прежнему блокируются.
 
     -   **Определенные платформы**
@@ -275,4 +271,3 @@ ms.lasthandoff: 05/31/2017
 - [Защита доступа к SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
 
 - [Защита доступа к Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-

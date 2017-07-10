@@ -11,19 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 6b25c4551cd66e2e58b12c90ca9055c14b4e33cd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="you-need-to-update-your-android-devices-operating-system"></a>Необходимо обновить операционную систему на устройстве Android
 
 Если отображается сообщение с уведомлением о том, что минимальный уровень исправления безопасности Android не настроен, необходимо установить обновление, чтобы обеспечить безопасность устройства. _Исправления_ выпускаются для обеспечения бесперебойной работы программного обеспечения и его обновления. ИТ-администратору необходимо установить исправление, чтобы обеспечить максимально возможную защиту корпоративных данных на устройстве. Расположение требуемого исправления зависит от типа устройства Samsung.
@@ -43,4 +39,3 @@ ms.lasthandoff: 05/23/2017
 
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

@@ -11,26 +11,22 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7394ff8f-3a21-414d-be4a-4626ec370720
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: ca6072ce66482f5986d37b2f61a123587ad8313f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="you-need-to-install-skycure-on-your-ios-device"></a>Вам необходимо установить Skycure на устройстве iOS
 
 Перед тем как вы сможете получить доступ к рабочим файлам, ИТ-администратору необходимо установить приложение Skycure, которое помогает защитить устройство путем поиска потенциальных угроз безопасности. На устройстве могут выводиться различные запросы в зависимости от того, как ИТ-администратор настроил iOS.
 
 **Необходимо выполнить следующие действия:**
 
-1.    Если появился приведенный ниже запрос, выберите **Установить**, чтобы разрешить установку Skycure на устройстве.
+1.  Если появился приведенный ниже запрос, выберите **Установить**, чтобы разрешить установку Skycure на устройстве.
 
   ![Коснитесь кнопки "Установить", чтобы установить Skycure](./media/ios-mtd-install-app-request.png)
 
@@ -57,4 +53,3 @@ ms.lasthandoff: 05/23/2017
 **Если установка не выполняется**
 
 Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

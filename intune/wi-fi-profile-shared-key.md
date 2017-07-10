@@ -1,7 +1,7 @@
 ---
 title: "Создание профиля Wi-Fi с общим ключом"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как создать профиль Wi-Fi с общим ключом с помощью настраиваемого профиля Intune."
+titleSuffix: Intune on Azure
+description: "Узнайте, как создать профиль Wi-Fi с общим ключом с помощью настраиваемого профиля Intune.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
@@ -15,39 +15,36 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: fe7d9e9998156825bfd9637c3f9d80df80b916cf
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
-
+ms.openlocfilehash: b56a6da04ae53a812a7d153de2618b72fa14ec44
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="use-a-microsoft-intune-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Использование пользовательского профиля устройств Microsoft Intune для создания профиля Wi-Fi с общим ключом
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 В этой статье мы расскажем, как создавать профили Wi-Fi с общим ключом с помощью **настраиваемых профилей устройств** в Intune. Здесь также приводится пример создания профиля Wi-Fi на основе EAP.
 
 > [!NOTE]
--    Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
+-   Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
 - Для Android можно использовать [генератор PSK Android](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/) от Джонатона Бирсака (Johnathon Biersack).
--    Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
+-   Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
 -  Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Можно также воспользоваться генератором [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/) от Джонатона Бирсака.
 
 
-1.    Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании профиля устройства вместо профиля Wi-Fi выберите для платформы устройства вариант **Настраиваемая конфигурация**.
+1.  Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании профиля устройства вместо профиля Wi-Fi выберите для платформы устройства вариант **Настраиваемая конфигурация**.
 
-2.    Укажите имя и введите описание.
-3.    Добавление нового параметра OMA URI
+2.  Укажите имя и введите описание.
+3.  Добавление нового параметра OMA URI
 
-   а.    Введите имя для этого параметра сети Wi-Fi.
+   а.   Введите имя для этого параметра сети Wi-Fi.
 
-   b.    Введите описание параметра OMA-URI или оставьте поле пустым.
+   b.   Введите описание параметра OMA-URI или оставьте поле пустым.
 
-   в.    **Тип данных**: задайте значение **Строка**.
+   в.   **Тип данных**: задайте значение **Строка**.
 
-   г.    **OMA-URI**:
+   г.   **OMA-URI**:
 
     - **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
     - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
@@ -208,4 +205,3 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
     Рекомендуется использовать компьютер, подключенный к небольшому числу беспроводных сетей, так как вам придется просмотреть каждый профиль, чтобы найти нужный.
 3.     Выполните поиск в XML-файлах, чтобы найти нужный файл.
 4.     После нахождения нужного XML-файла скопируйте и вставьте XML-код в поле данных на странице параметров OMA-URI.
-
