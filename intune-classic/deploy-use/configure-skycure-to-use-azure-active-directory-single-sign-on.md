@@ -1,5 +1,5 @@
 ---
-title: "Настройка Skycure для использования единого входа Azure Active Directory (SSO) | Документы Майкрософт"
+title: "Настройка Skycure для использования единого входа Azure Active Directory"
 description: "Настройка Skycure для использования единого входа Azure Active Directory (SSO)"
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 34d5d359-5c7c-4225-a205-8ce890b6f890
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: bf4cf8441a0ff53abf3f7830f0cdd955a4317fb0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a26292f2247c4fa65e9aa2df047a9ef1fe98476a
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="configure-skycure-to-use-azure-active-directory-single-sign-on-sso"></a>Настройка Skycure для использования единого входа Azure Active Directory (SSO)
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -86,4 +83,3 @@ ms.lasthandoff: 05/23/2017
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Скачать политику конфигурации приложения Skycure для iOS](/intune-classic/deploy-use/download-skycure-ios-app-configuration-policy)
-

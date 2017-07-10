@@ -1,7 +1,7 @@
 ---
-title: "Настройка основных функций управления данными в приложениях Office 365 — предварительная версия Intune Azure"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Сопроводительная документация по работе с мастером управления приложениями Office 365."
+title: "Настройка основных функций управления данными в приложениях Office 365 в Intune"
+titleSuffix: Intune on Azure
+description: "Сопроводительная документация по работе с мастером управления приложениями Office 365.\""
 keywords: 
 author: lindavr
 ms.author: lindavr
@@ -16,16 +16,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 639d045e036ecdc6ff40d6ae335d2c5109d9e420
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 302f646bfb9ff0ac024687fa0b3926d83158995c
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps"></a>Описание действия основной защиты в управляемых приложениях Office 365
 
 Мастер **управления приложениями Office 365** создает политику защиты приложения для каждой платформы устройств.
@@ -129,9 +125,8 @@ ms.lasthandoff: 05/23/2017
 Эти параметры политики всегда можно изменить в соответствии с требованиями вашей организации.
 
 ### <a name="how-can-i-view-and-edit-the-policies-created-by-the-wizard"></a>Порядок просмотра и изменения политик, созданных с помощью мастера
-Чтобы просмотреть или обновить эти политики или любые политики созданные в предварительной версии Intune Azure, на панели мониторинга выберите **Управление приложениями** > **App Protection Policies** (Политики защиты приложений). Справа откроется список политик. Выберите политику, которую необходимо открыть, чтобы просмотреть и изменить параметры. <br/>
+Чтобы просмотреть или обновить эти политики или любые политики, созданные на портале Intune Azure, на панели мониторинга выберите **Управление приложениями** > **Политики защиты приложений**. Справа откроется список политик. Выберите политику, которую необходимо открыть, чтобы просмотреть и изменить параметры. <br/>
 ![Изображение интерфейса пользователя и пути для просмотра политик](./media/image-for-faq.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Узнайте больше о [политике защиты приложений](https://docs.microsoft.comapp-protection-policy.md).
-

@@ -11,19 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c4801a78-580e-4e3d-beca-0b09b9b2437c
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: d7d9ce0e1dc17dfafe78757a4bd8e48f9f67132d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="make-your-device-safer-with-the-right-password"></a>Повысьте безопасность своего устройства с помощью надежного пароля
 
 Ежедневно пользователям приходится использовать свои устройства Windows для доступа к корпоративным ресурсам, таким как электронная почта и документы. Поэтому требуется, чтобы устройство работало в защищенном режиме. Одним из способов безопасного доступа устройства к этим ресурсам является необходимость использования пароля. Эти пароли используются, например, для доступа к устройству с экрана блокировки.
@@ -49,4 +45,3 @@ ms.lasthandoff: 05/23/2017
 4. Выберите **Готово**.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

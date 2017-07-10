@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 98034875-cd3a-4367-a8d7-c5d4a438d496
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: af2625387e6d2d454200e851ce5e64f8eb5607c7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-set-the-amount-of-time-before-your-android-device-locks-its-screen"></a>Установка периода времени до блокировки экрана на устройстве Android
 
 Чтобы повторно подключиться к рабочей учетной записи, необходимо задать время ожидания на ввод пароля на устройстве, выполнив следующие инструкции, соответствующие типу используемого вами устройства.
@@ -47,4 +43,3 @@ ms.lasthandoff: 05/23/2017
 2.  Укажите значение времени ожидания пароля.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

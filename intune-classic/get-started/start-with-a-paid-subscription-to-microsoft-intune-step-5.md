@@ -1,5 +1,5 @@
 ---
-title: "Создание групп для организации пользователей и устройств | Документы Майкрософт"
+title: "Создание групп для организации пользователей и устройств"
 description: "Создание пользователей и групп для подписки Intune"
 keywords: 
 author: nathbarn
@@ -14,16 +14,12 @@ ms.assetid: 5fdf98c8-fe67-4d7a-9837-ed1234348014
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 058006b2356d62c77c3a5a6ee0f4c8ed74ed4a50
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a6e9eb087b730c66bcf32f877fd22f2d3be0c121
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="create-groups-to-organize-users-and-devices"></a>Создание групп для организации пользователей и устройств
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -87,6 +83,4 @@ ms.lasthandoff: 05/23/2017
 Созданная группа появится в списке **Группы** раздела **Все пользователи** рабочей области **Группы**. Здесь также можно изменять или удалять группу.
 
 >[!div class="step-by-step"]
-
->[&larr; **Управление лицензиями Intune**](.\start-with-a-paid-subscription-to-microsoft-intune-step-4.md) [**Создание политик и приложений** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  
-
+/intune/licenses-assign [&larr; **Управление лицензиями Intune**](/intune/licenses-assign)       [**Создание политик и приложений** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  

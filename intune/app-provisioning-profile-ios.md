@@ -1,7 +1,7 @@
 ---
-title: "Профили подготовки приложений | Документы Майкрософт"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Служба Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает."
+title: "Профили подготовки приложений"
+titleSuffix: Intune on Azure
+description: "Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,17 +15,15 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 966c097280ebebac68749e71c20381ee816360da
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: bf2da880f0f092b9948a400f6a10bd9ad032f959
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-ios-mobile-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия сертификата мобильного приложения iOS с помощью профиля подготовки
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="introduction"></a>Введение
 
@@ -42,7 +40,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>Как создать профиль подготовки для мобильного приложения iOS
 
 1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Другое** > **Intune**.
+2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите **Мобильные приложения**.
 1.  В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Профили подготовки iOS**.
 2.  В колонке списка профилей выберите **Создать профиль**.
@@ -55,4 +53,3 @@ ms.lasthandoff: 05/23/2017
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Назначьте профиль на требуемых устройствах iOS. Дополнительные сведения см. в статье [Как назначать профили устройств Microsoft Intune](device-profile-assign.md).
-

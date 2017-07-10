@@ -11,20 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f0ba4cbb-ef0a-4335-86bf-f1d006867fa2
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: b1f4176704ba25f5e4ff1b1572a6f1e5ce0f620b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="your-android-device-is-missing-a-certificate-required-by-your-it-admin"></a>На устройстве Android отсутствует сертификат, требуемый ИТ-администратором
 
 Если устройство не зарегистрировано в Intune и на нем отсутствует определенный сертификат, требуемый ИТ-администратором, вы не сможете войти в приложение корпоративного портала. При попытке войти вы увидите следующее сообщение:
@@ -73,4 +70,3 @@ ms.lasthandoff: 05/23/2017
 7. Снова откройте приложение корпоративного портала. Теперь вы сможете войти в приложение корпоративного портала. Если вам нужна помощь, обратитесь к системному администратору.
 
 Если вы видите сообщение об отсутствующем сертификате, которое показано выше, но уже выполнили описанную здесь процедуру, вероятно, необходим другой сертификат, для установки которого нужна помощь ИТ-администратора. Если вам нужна помощь, обратитесь к ИТ-администратору, используя контактные данные на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

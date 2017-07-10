@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d7c871b8-e5d8-4912-b87f-7e6bc59897be
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 667282ef1ab6e5058e852b6e3b94daecd01c5d53
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="send-enrollment-errors-to-your-it-admin"></a>Отправка ошибок регистрации ИТ-администратору
 
 Если при попытке регистрации устройства Android в Intune появляется сообщение об ошибке, можно повторить попытку регистрации, нажав **Повторить**. Если это не поможет, можно уведомить ИТ-администратора по электронной почте, выбрав команду **Отправить сведения**.
@@ -36,4 +32,3 @@ ms.lasthandoff: 05/23/2017
 
 - [с помощью кнопки отправки сведений для отправки журналов по электронной почте](send-logs-to-your-it-admin-by-email-android.md);
 - [с помощью USB-кабеля для отправки журналов в качестве вложения электронной почты](send-logs-to-your-it-admin-using-cable-android.md).
-

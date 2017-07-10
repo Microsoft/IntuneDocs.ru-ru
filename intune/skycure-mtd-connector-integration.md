@@ -1,12 +1,12 @@
 ---
 title: "Настройка интеграции Skycure и Intune"
-titleSuffix: Intune Azure preview
+titleSuffix: Intune on Azure
 description: "Настройка интеграции Skycure и Microsoft Intune."
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 06/09/2017
+ms.date: 06/21/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,12 @@ ms.assetid: 359448d9-2384-42ac-a21c-a25148c20a7b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3d21f440ee6806b545d2b346559d6516993a9cbf
-ms.openlocfilehash: 7740f9748e2d3ece6223fddc0bdf0ba6ee897cad
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/14/2017
-
-
+ms.openlocfilehash: ff27d4b99be0d09ae6b4e3ee665ce13ba62720c0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="set-up-the-skycure-integration-with-intune"></a>Настройка интеграции Skycure и Intune
 
 Для получения возможности единого входа нужно добавить приложения Skycure в Azure AD.
@@ -110,5 +107,4 @@ Skycure синхронизирует устройства, на которых �
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Включение службы защиты мобильных устройств от угроз Skycure в Intune](skycure-mtd-connector-enable.md)
-
+[Включение службы защиты мобильных устройств от угроз Skycure в Intune](mtd-connector-enable.md)

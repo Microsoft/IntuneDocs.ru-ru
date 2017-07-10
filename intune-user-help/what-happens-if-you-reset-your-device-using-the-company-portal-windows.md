@@ -11,22 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1ee6e275-d1ec-4da3-bbef-d5da2c61a02a
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 4c4d46a8d90c3435b640a6135d69df1f3949b6a3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-
 # <a name="what-happens-if-you-reset-your-windows-device-using-the-company-portal"></a>Что происходит при сбросе устройства с Windows с помощью корпоративного портала?
 
 При сбросе устройства Windows с помощью корпоративного портала или [веб-сайта корпоративного портала](reset-erase-your-device-cpwebsite.md) устройство сбрасывается до заводских настроек с удалением всех приложений, настроек и данных, включая личные данные. То, что происходит на каждом устройстве, зависит от типа вашего устройства и от того, как эти устройства используются (см. таблицу ниже). Инструкции по сбросу потерянного или украденного устройства см. в статье [Reset (erase) your lost or stolen device](reset-erase-your-device-cpwebsite.md) (Сброс (очистка) потерянного или украденного устройства).
@@ -38,4 +33,3 @@ ms.lasthandoff: 05/23/2017
 |ПК и ноутбуки|**Windows 8.1 и Windows 8**<br />Сбросить настройки компьютера с Windows 8 или Windows 8.1, используемого не только для электронной почты, нельзя.<br /><br />**Windows 7 или Windows Vista**<br />Сбросить настройки компьютера с ОС Windows 7 или более ранней версии нельзя.|
 
 Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

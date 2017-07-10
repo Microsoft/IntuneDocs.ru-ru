@@ -13,12 +13,11 @@ ms.technology:
 ms.assetid: 970f8c81-7c7f-4789-9ed4-2133d50b9db6
 ms.reviewer: chrisgre
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: f43c2fb3c2aaff43aaef8cb033185c8c517d83a0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="help-protect-your-devices-with-remote-lock-and-passcode-reset"></a>Защита устройств с помощью функций удаленной очистки и сброса секретного кода
 
@@ -87,4 +86,3 @@ Microsoft Intune предоставляет возможности удален�
 
 ### <a name="see-also"></a>См. также
 [Списание устройств](retire-devices-from-microsoft-intune-management.md) и [Выборочная очистка Windows для управления данными устройства](http://technet.microsoft.com/library/dn486874.aspx)
-

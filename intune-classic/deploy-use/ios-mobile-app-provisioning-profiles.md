@@ -1,5 +1,5 @@
 ---
-title: "Профили подготовки приложений | Документы Майкрософт"
+title: "Профили подготовки приложений"
 description: "Intune предоставляет инструменты для упреждающего развертывания новой политики профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает."
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 86fbe736-7bdb-4f5e-ae21-13c91eb2462c
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: adebcc5a8d8f43bed383b51bb094fa122ebabc0a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 6e975aa7ee22f826c7a0a60d637d651fd347bc54
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-ios-mobile-provisioning-profile-policies-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия сертификата мобильного приложения iOS с помощью политик профиля подготовки
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -54,4 +51,3 @@ ms.lasthandoff: 05/23/2017
     - **Файл профиля конфигурации**. Щелкните **Импортировать**, а затем выберите файл профиля конфигурации мобильного устройства Apple (с расширением **MOBILEPROVISION**), скачанный с веб-сайта для разработчиков Apple.
 4. По завершении щелкните **Сохранить политику**.
 5. Затем разверните политику на требуемых устройствах iOS. Дополнительные сведения см. в статье [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md).
-

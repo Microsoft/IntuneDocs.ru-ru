@@ -1,12 +1,12 @@
 ---
 title: "Политика разрешения и блокировки приложений для Samsung KNOX в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: создание настраиваемых профилей для разрешения и блокировки приложений для устройств Samsung KNOX Standard."
+titleSuffix: Intune on Azure
+description: "Создание настраиваемых профилей для разрешения и блокировки приложений для устройств Samsung KNOX Standard.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,14 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: dea090e108d5ea023dc64d8d168b25d30b688cb2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
-
+ms.openlocfilehash: 8245bb3fa8f08e719df903a70f079f4fdf534ca5
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в Microsoft Intune
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]В этой статье описано, как создать настраиваемую политику Microsoft Intune, которая создает один из следующих элементов.
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]В этой статье описано, как создать настраиваемую политику Microsoft Intune, которая создает один из следующих элементов.
 
 - Список приложений, запуск которых заблокирован на конкретном устройстве. Выполнение приложений в этом списке блокируется, даже если они были установлены после применения политики.
 - Список приложений, которые пользователи устройства могут установить из магазина Google Play. Устанавливать можно будет только приложения из списка. Другие приложения невозможно установить из магазина.
@@ -35,7 +32,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="create-an-allowed-or-blocked-app-list"></a>Создание списка разрешенных или заблокированных приложений
 
 1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Другое** > **Intune**.
+2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 2. В колонке списка профилей выберите **Создать профиль**.
@@ -49,9 +46,9 @@ ms.lasthandoff: 05/23/2017
 
 - **Имя.** Введите **PreventStartPackages**.
 - **Описание.** Введите необязательное описание, например "Список приложений, запуск которых запрещен".
--     **Тип данных.** В раскрывающемся списке выберите **Строка**.
--     **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
--     **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
+-   **Тип данных.** В раскрывающемся списке выберите **Строка**.
+-   **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
+-   **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
 
 ### <a name="for-a-list-of-apps-that-users-are-allowed-to-install-from-the-google-play-store-while-excluding-all-other-apps"></a>Для списка приложений, которые пользователи могут устанавливать из магазина Google Play (все прочие приложения исключаются):
 - **Имя.** Введите **AllowInstallPackages**.
@@ -69,4 +66,3 @@ ms.lasthandoff: 05/23/2017
 
 
 <!---## Assign the custom profile--->
-

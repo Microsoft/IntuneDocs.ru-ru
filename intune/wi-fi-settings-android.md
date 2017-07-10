@@ -1,12 +1,12 @@
 ---
 title: "Параметры Wi-Fi для устройств Android в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте о параметрах Intune, которые можно использовать для настройки подключений Wi-Fi на устройствах Android."
+titleSuffix: Intune on Azure
+description: "Сведения о настройке параметров подключений Wi-Fi в Intune для устройств Android и Android for Work.\""
 keywords: 
 author: lleonard-msft
 ms.author: alleonar
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 06/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,20 +15,19 @@ ms.assetid: 103e17a4-2993-4359-b340-73e2acf4cf7d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0dd0b8c4e4cf6733c20282817cba99d8379ef24e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 8e1c64730dc8bb91a0fe5e7936ed963d67be1feb
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="wi-fi-settings-for-android-and-android-for-work-devices-in-microsoft-intune"></a>Параметры подключений Wi-Fi для устройств Android и Android for Work в Microsoft Intune
 
-# <a name="wi-fi-settings-for-android-devices-in-microsoft-intune"></a>Параметры Wi-Fi для устройств Android в Microsoft Intune
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="wi-fi-settings-for-basic-and-enterprise-profiles"></a>Параметры Wi-Fi для простых и корпоративных профилей
+
+Для устройств Android и Android for Work доступны следующие параметры подключений Wi-Fi:
 
 - **Имя сети**. Введите имя подключения Wi-Fi. Это имя, которое отображается в списке доступных подключений на устройствах пользователей при поиске.
 - **SSID**. Идентификатор беспроводной сети. Это настоящее имя беспроводной сети, к которой будут подключаться устройства. Тем не менее при выборе подключения пользователи видят только имя созданной ранее сети.
@@ -63,4 +62,3 @@ ms.lasthandoff: 05/23/2017
 |----------|--------------|----------|
 |**Сертификат клиента для проверки подлинности клиента (сертификат удостоверения)**|Выберите профиль сертификата SCEP или PKCS, используемый для проверки подлинности подключения.|Тип EAP — **EAP-TLS**.|
 |**Метод проверки подлинности**|Выберите метод проверки подлинности для подключения:<br>- **Сертификаты**, чтобы выбрать клиентский сертификат SCEP или PKCS, который является сертификатом удостоверения для сервера.<br><br>- **Имя пользователя и пароль**, чтобы указать другой метод проверки подлинности. <br><br>Если вы выбрали **Имя пользователя и пароль**, настройте следующие параметры:<br><br>-  **Метод отличается от EAP (внутреннее удостоверение)**, затем выберите, как будет проходить проверка подлинности подключения:<br>- **Нет**<br>- **Незашифрованный пароль (PAP)**<br>- **Протокол проверки пароля (CHAP)**<br>- **Microsoft CHAP (MS-CHAP)**<br>- **Microsoft CHAP версии 2 (MS-CHAP v2)**<br>Доступные параметры зависят от выбранного типа EAP.<br><br>**и**<br><br>- **Конфиденциальность удостоверений (внешнее удостоверение).** Укажите текст, отправляемый в ответ на запрос удостоверения EAP. Этот текст может иметь любое значение. Во время проверки подлинности сначала будет отправлено это анонимное удостоверение, после чего в защищенный туннель будет отправлена фактическая идентификация.|Тип EAP — **EAP-TTLS** или **PEAP**.|
-

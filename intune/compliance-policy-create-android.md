@@ -1,7 +1,7 @@
 ---
 title: "Создание политики соответствия для Android"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как создать политику соответствия требованиям для устройств Android."
+titleSuffix: Intune on Azure
+description: "Узнайте, как создать политику соответствия требованиям для устройств Android.\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -15,21 +15,18 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 08d503fad2304b25e6feb7f41cf0b93546dd26fd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: cc68bf4a52e5fcf9a8fbb3550a5bee814f4f46f0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
+# <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune"></a>Создание политики соответствия для устройств Android в Intune
 
-# <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune-azure-preview-portal"></a>Создание политики соответствия для устройств Android в предварительной версии портала Intune Azure
 
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
-
-Политики соответствия устройств создаются для каждой платформы в предварительной версии портала Intune. 
+Политики соответствия устройств создаются для каждой платформы на портале Intune Azure. 
 
 - Дополнительные сведения о политике соответствия требованиям для устройства см. в [этой статье](device-compliance.md).
 - Сведения о предварительных требованиях, которые необходимо выполнить при создании политики соответствия требованиям, см. в статье [Общие сведения о соответствии устройств политике в предварительной версии Intune Azure](device-compliance-get-started.md).
@@ -134,4 +131,3 @@ ms.lasthandoff: 05/23/2017
 <!--- ## Next steps
 
 [How to monitor device compliance](device-compliance-monitor.md)--->
-

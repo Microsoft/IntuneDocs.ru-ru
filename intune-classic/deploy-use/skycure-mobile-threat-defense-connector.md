@@ -1,5 +1,5 @@
 ---
-title: "Соединитель службы защиты мобильных устройств от угроз Skycure | Документация Майкрософт"
+title: "Соединитель службы защиты мобильных устройств от угроз Skycure"
 description: "Защита доступа к ресурсам организации на основе риска для устройств, сети и приложений с помощью соединителя службы защиты мобильных устройств от угроз Skycure и Intune."
 keywords: 
 author: andredm7
@@ -14,15 +14,12 @@ ms.assetid: 7a004e6c-604a-448c-bfb8-cfda63749f5b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 15b00957f694863bb10ee32162eb20fc39bcda88
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: d0b401babf356e44479229c3bea27c956926a6f9
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="skycure-mobile-threat-defense-connector"></a>Соединитель службы защиты мобильных устройств от угроз Skycure
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -119,7 +116,7 @@ Intune поддерживает два режима интеграции с Skyc
 
 Что нужно сделать для интеграции Intune с Skycure:
 
-1.  [Настройка единого входа Azure Active Directory для Skycure /intune-classic/deploy-use/configure-skycure-to-use-azure-active-directory-single-sign-on)
+1.  [Настройка Skycure для использования единого входа Azure Active Directory (SSO)](/intune-classic/deploy-use/configure-skycure-to-use-azure-active-directory-single-sign-on)
 
 2.  [Скачать политику конфигурации приложения Skycure для iOS](/intune-classic/deploy-use/download-skycure-ios-app-configuration-policy)
 
@@ -132,4 +129,3 @@ Intune поддерживает два режима интеграции с Skyc
 6.  [Включение службы защиты мобильных устройств от угроз Skycure в Intune](/intune-classic/deploy-use/enable-skycure-mobile-threat-defense-in-intune)
 
 7.  [создать в Intune политику соответствия для службы защиты мобильных устройств от угроз Skycure.](/intune-classic/deploy-use/create-skycure-mobile-threat-defense-compliance-policy)
-

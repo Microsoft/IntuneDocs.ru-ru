@@ -5,27 +5,23 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/16/2017
+ms.date: 06/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a26d9e3c-8f58-4494-9571-fc88ba91852e
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
-ms.openlocfilehash: f01d8b31f493b7103fe788aa62d37f9c73981984
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/26/2017
-
-
+ms.openlocfilehash: 90168dae6b73185ae8cdf6c55093c79ab3d729c0
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="using-the-intune-company-portal-website"></a>Использование веб-сайта корпоративного портала Intune
 [Веб-сайт корпоративного портала](https://portal.manage.microsoft.com) — это веб-страница, на которой можно управлять компьютерами и устройствами, зарегистрированными в Intune.
 
@@ -41,7 +37,7 @@ ms.lasthandoff: 05/26/2017
 
 -   [Удаленная блокировка устройства](remote-lock-your-device-cpwebsite.md)
 
--    [Синхронизация устройства вручную для более быстрой установки приложений](sync-your-device-manually-cpwebsite.md)
+-   [Синхронизация устройства вручную для более быстрой установки приложений](sync-your-device-manually-cpwebsite.md)
 
 -   Поиск контактных данных ИТ-администратора, если они настроены
 
@@ -49,9 +45,4 @@ ms.lasthandoff: 05/26/2017
 
 -   Удаленное управление компьютером (работает только для ПК)
 
-Большинство тех задач, которые можно выполнить с помощью установленного на устройстве **приложения корпоративного портала** , доступно и на **веб-сайте корпоративного портала** . Ссылки на все задачи, которые конечные пользователи могут выполнять на своих устройствах, управляемых Intune, см. на следующих страницах:
-
-- [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
-- [Использование устройства с iOS или Mac OS в Intune](using-your-ios-or-macOS-device-with-intune.md)
-- [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
-
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).

@@ -11,19 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c7a10998-9aa6-4bc0-8405-27a30c61bca7
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
 ms.openlocfilehash: 4afd57da42d634dbead124d2f0dec4b4715c546e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="you-need-to-turn-off-unknown-sources"></a>Вам необходимо отключить неизвестные источники
 
 Устройство Android может устанавливать приложения из разных мест. Большинство пользователей скачивают приложения из магазина Google Play. Некоторые приложения, например разработанные организацией для внутреннего использования, могут устанавливаться из других магазинов. Установка приложений из непроверенных источников может привести к проблемам с устройством и создать угрозы для безопасности. Ваш администратор решил, что для защиты корпоративных данных следует запретить доступ к неизвестным источникам.
@@ -33,4 +29,3 @@ ms.lasthandoff: 05/23/2017
 После отключения параметра **Неизвестные источники** может потребоваться несколько минут, прежде чем можно будет продолжить использование устройства Android для доступа к данным компании или учебного заведения.
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
-

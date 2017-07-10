@@ -1,12 +1,12 @@
 ---
 title: "Настройка параметров образования Intune для Windows 10"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: узнайте, как с помощью Intune можно настроить параметры образования Windows 10 на управляемых устройствах."
+titleSuffix: Intune on Azure
+description: "Узнайте, как с помощью Intune можно настроить параметры образования Windows 10 на управляемых устройствах.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/12/2017
+ms.date: 06/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,15 @@ ms.assetid: 6f4de4bd-3dde-4a8d-8e22-46c5d06c3eea
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 3acb45ccc9e67fb410a9511f138d1558a49fadf9
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 39aa668794280adc612122e9b2c3c4e7737b65e9
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-configure-windows-10-education-settings-in-microsoft-intune"></a>Настройка параметров образования Windows 10 в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Профили образования позволяют указать сведения для настройки приложения "Тест" Windows, включая данные учетной записи и URL для сдачи тестов. После настройки приложение "Тест" будет открываться с указанным тестом, и никакие другие приложения не смогут выполняться на устройстве до завершения теста.
 
@@ -35,7 +32,7 @@ ms.lasthandoff: 05/23/2017
 ## <a name="create-a-device-profile-containing-education-profile-settings"></a>Создание профиля устройства с параметрами образования
 
 1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Другое** > **Intune**.
+2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создание профиля**.
@@ -51,7 +48,6 @@ ms.lasthandoff: 05/23/2017
 
 Созданный профиль отобразится в колонке со списком профилей.
 Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
-
 
 
 

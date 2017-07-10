@@ -1,7 +1,7 @@
 ---
 title: "Контактные телефоны службы поддержки Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure: номера телефонов для получения справки по Microsoft Intune."
+titleSuffix: Intune on Azure
+description: "Номера телефонов для получения справки по Microsoft Intune.\""
 keywords: "рабочие часы"
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 1326e65e-56cc-4987-9006-3a788597ca19
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e8d284e8bbcf472c4c03e6411902356ee42cd5a5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: a261e01b81e3ad1caa7d8b780a79004dfbbe6ecd
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="contact-assisted-phone-support-for-microsoft-intune"></a>Контактные телефоны службы поддержки Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 ## <a name="phone-numbers-and-business-hours"></a>Номера телефонов и рабочие часы
 
@@ -121,4 +118,3 @@ ms.lasthandoff: 05/23/2017
 |Уругвай|Круглосуточно|С понедельника по пятницу<br /><br />С 09:00 до 17:00 по уругвайскому времени (UTC -2)|Испанский&#42;, английский|000-411-002-7131||
 |Венесуэла|Круглосуточно|С понедельника по пятницу<br /><br />С 09:00 до 17:00 по венесуэльскому времени (UTC -4:30)|Испанский&#42;, английский|0-800-100-8763||
 &#42; Поддерживается с переводом по телефону.
-

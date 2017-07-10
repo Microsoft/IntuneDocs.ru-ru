@@ -11,21 +11,17 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
-searchScope:
-- User help
+searchScope: User help
 ROBOTS: 
 ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ed0e84c16ea540c08e97cb55ef8a09cbc7339f6
 ms.openlocfilehash: d57da14ad070275f7cdef639d971c176c1010634
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/26/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="use-managed-devices-to-get-work-done"></a>Использование управляемых устройств для выполнения задач
 Microsoft Intune — это программное обеспечение, которое позволяет организациям управлять устройствами (например, смартфонами, планшетами и компьютерами), приложениями и другими ресурсами организации, такими как сообщения электронной почты. Благодаря этому ПО сотрудники получают доступ к рабочей информации практически из любого места и с любого устройства, при этом корпоративные данные находятся в безопасности.
 
@@ -101,4 +97,3 @@ Microsoft Intune — это программное обеспечение, ко
 - [Решение распространенных проблем с устройствами с Windows](troubleshoot-your-device-windows.md)
 
 Ниже вы можете разместить комментарий с описанием проблемы, но у каждой организации есть свои собственные требования, поэтому мы не всегда можем ответить на ваши вопросы. Чтобы получить наиболее быстрый и точный ответ, следует обратиться к своему ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
-

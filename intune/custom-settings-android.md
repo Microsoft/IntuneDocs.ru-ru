@@ -1,7 +1,7 @@
 ---
 title: "Пользовательские параметры для устройств Android в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, какие параметры можно использовать в настраиваемом профиле Android."
+titleSuffix: Intune on Azure
+description: "Узнайте, какие параметры можно использовать в настраиваемом профиле Android.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,18 +15,15 @@ ms.assetid: 494b3892-916e-4b40-9b67-61adec889bdf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: ff3d3b1596f58213bed2509b1bfd5ae81c63f440
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 014e59c017eac0d54a632e545692e1a1a8053164
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="custom-settings-for-android-devices-in-microsoft-intune"></a>Настраиваемые параметры для устройств Android в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Используйте **настраиваемый** профиль Microsoft Intune для назначения параметров OMA-URI, которые можно использовать для управления функциями на устройствах Android. Это стандартные параметры, которые многие производители мобильных устройств используют для управления функциями устройств.
 
@@ -43,4 +40,3 @@ ms.lasthandoff: 05/23/2017
     - **OMA-URI.** Укажите OMA-URI, для которого необходимо указать параметр.
     - **Значение.** Введите значение, которое нужно сопоставить с указанным OMA-URI.
 4. Завершив настройку, нажмите кнопку **ОК**. Затем добавьте другие параметры при необходимости.
-

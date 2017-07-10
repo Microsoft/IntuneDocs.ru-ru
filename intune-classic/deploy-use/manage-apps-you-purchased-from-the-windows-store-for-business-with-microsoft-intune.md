@@ -1,5 +1,5 @@
 ---
-title: "Управление Магазином Windows для бизнес-приложений | Документы Майкрософт"
+title: "Управление приложениями Магазина Windows для бизнеса"
 description: "Сведения о подключении Microsoft Intune к Магазину Windows для бизнеса для развертывания приложений, приобретенных по программе корпоративных закупок, и управления ими в консоли Intune"
 keywords: 
 author: robstackmsft
@@ -14,15 +14,12 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 0a6c84735b6bb8e7f636ea155437e7d90b8f3cc0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 888d825fb9955e97b49e54a0c36ab882055076d8
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Windows для бизнеса, с помощью Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -86,4 +83,3 @@ ms.lasthandoff: 05/23/2017
 
 ### <a name="see-also"></a>См. также
 [Добавление приложений для мобильных устройств в Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md)
-

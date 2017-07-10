@@ -1,7 +1,7 @@
 ---
 title: "Добавление приложений Магазина Windows в Intune"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте, как добавить приложения Магазина Windows в Intune."
+titleSuffix: Intune on Azure
+description: "Узнайте, как добавить приложения Магазина Windows в Intune.\""
 keywords: 
 author: robstackmsft
 ms.author: robstack
@@ -15,17 +15,15 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 5ae37b805ee2ddb6b6720190cbe4918d5b793818
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 7ad1156076f0ec34d5ac110e32a19a8332c8f863
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune приложения из Магазина Windows
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
 1. Зарегистрируйтесь на портале Azure.
@@ -107,4 +105,3 @@ ms.lasthandoff: 05/23/2017
 |PublisherId |Идентификатор издателя организации. Если он отсутствует, используется поле Subject (Тема) корпоративного сертификата подписи кода для мобильных устройств Symantec.|
 |SdkPath | Путь к корневой папке пакета Windows SDK для Windows 10. Этот аргумент является необязательным и по умолчанию имеет значение ${env:ProgramFiles(x86)}\Windows Kits\10|
 По окончании работы скрипт создаст подписанную версию приложения корпоративного портала для Windows 10. Затем подписанную версию приложения можно будет назначить как бизнес-приложение через Intune, что приведет к обновлению назначенных сейчас версий до этого нового приложения.  
-

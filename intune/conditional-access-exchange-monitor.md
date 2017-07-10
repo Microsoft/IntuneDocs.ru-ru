@@ -1,6 +1,6 @@
 ---
 title: "Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online"
-titleSuffix: Intune Azure preview
+titleSuffix: Intune on Azure
 description: "Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online на портале Azure Intune"
 keywords: 
 author: andredm7
@@ -14,16 +14,13 @@ ms.technology:
 ms.assetid: 5712682d-285b-43fd-9978-3dcfd95ec5f9
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: d170958bbdc00423081aa606c9c7f4e7a8ec4b06
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 2ec9bcc605486258203f49f9f7631bd2a04cdf22
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
-# <a name="monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online-in-intune-azure-preview"></a>Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online в предварительной версии Azure Intune
+# <a name="monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online-in-intune"></a>Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online в Intune
 
 Начиная с выпуска Intune 1704 администраторы могут просматривать сведения отчетов, связанные с записями устройства Exchange ActiveSync, которые синхронизируются с Intune либо через локальный соединитель Exchange, либо через Service To Service Connector (соединитель Exchange Online). В отчетах о соответствии условного доступа требованиям представлены сводные сведения об устройствах с разными с состояниями синхронизации:
 
@@ -70,4 +67,3 @@ ms.lasthandoff: 05/23/2017
 -   **Конфигурация устройства**: отображаются сведения о конфигурации всех устройств.
 
 -   **Доступ к Exchange**: здесь можно получить дополнительные сведения о состоянии устройства после применения политик условного доступа.
-

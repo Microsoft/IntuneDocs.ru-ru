@@ -14,15 +14,12 @@ ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: bc02af1e0813580ed70f181ff401d0408f6dd082
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="overview-of-device-and-app-lifecycles"></a>Общие сведения о жизненных циклах устройств и приложений
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
@@ -34,4 +31,3 @@ ms.lasthandoff: 06/08/2017
 Все устройства имеют жизненный цикл управления. Он начинается с первоначальной регистрации устройств и продолжается до снятия их с учета. [Жизненный цикл управления устройствами](device-lifecycle.md) предполагает знакомство со всеми вариантами регистрации, способов настройки и защиты устройств, а также их последующего удаления из управления.
 
 Точно так же, приложения имеют собственный [жизненный цикл](app-lifecycle.md) с этапами от добавления приложений в Intune и вплоть до их удаления, когда они больше не требуются.
-
