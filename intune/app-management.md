@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/16/2017
+ms.date: 07/11/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,14 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 515d4e2b089d077ec708fc1dea1e1747169a60ae
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 33ddb60df7aebe36ff652e1da6da592442b96d4b
+ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/12/2017
 ---
-# <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
+# Что такое управление приложениями с помощью Microsoft Intune
+<a id="what-is-microsoft-intune-app-management" class="xliff"></a>
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -36,7 +37,8 @@ ms.lasthandoff: 07/01/2017
 
 Intune предлагает широкий набор возможностей, позволяющих получить нужные приложения на требуемых устройствах.
 
-## <a name="app-management-capabilities-by-platform"></a>Возможности управления приложениями в зависимости от платформы
+## Возможности управления приложениями в зависимости от платформы
+<a id="app-management-capabilities-by-platform" class="xliff"></a>
 
 ||||||
 |-|-|-|-|-|
@@ -56,11 +58,12 @@ Intune предлагает широкий набор возможностей, 
 |Приложения из магазина|да|Да|Да|да|
 |Обновление приложений|да|Да|Да|да|
 
-<sup>1</sup> Для защиты приложений на устройствах с Windows 10 рекомендуется использовать [Windows Information Protection]windows-information-protection-configure.md).
+<sup>1</sup> Рассмотрите возможность использования [Windows Information Protection](windows-information-protection-configure.md) для защиты приложений на устройствах под управлением Windows 10.
 
 <sup>2</sup> Поддерживается только для устройств под управлением Intune.
 
-## <a name="how-to-get-started"></a>Начало работы
+## Начало работы
+<a id="how-to-get-started" class="xliff"></a>
 
 Большинство параметров, связанных с приложениями, находятся в рабочей нагрузке **Мобильные приложения**, доступ к которой можно получить следующим образом:
 
@@ -70,7 +73,8 @@ Intune предлагает широкий набор возможностей, 
 
     ![Рабочая нагрузка "Мобильные приложения"](./media/apps-workload.png)
 
-### <a name="manage"></a>управление
+### управление
+<a id="manage" class="xliff"></a>
 - **Приложения**. В этом разделе можно добавлять, назначать и отслеживать большинство приложений.
     - [Добавление приложений](apps-add.md)
     - [Назначение приложений](apps-deploy.md)
@@ -85,7 +89,8 @@ Intune предлагает широкий набор возможностей, 
 - **Профили подготовки приложений iOS.** Приложения IOS содержат профиль подготовки и код, подписанный сертификатом. Если срок действия сертификата истек, вы не сможете запустить приложение. Intune предоставляет средства для упреждающего назначения новой политики профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.
     - [Предотвращение истечения срока действия сертификата мобильного приложения iOS с помощью профиля подготовки](app-provisioning-profile-ios.md)
 
-### <a name="monitor"></a>Монитор
+### Монитор
+<a id="monitor" class="xliff"></a>
 - **Лицензированные приложения.** В этом разделе можно просматривать, назначать и отслеживать приложения, приобретенные по программе Volume Purchase Program из магазина приложений.
     - [Приложения, приобретенные в Магазине Windows для бизнеса по программе корпоративного лицензирования](windows-store-for-business.md)
 - **Обнаруженные приложения.** Здесь отображаются все приложения, назначенные Intune и установленные на устройстве.
@@ -94,7 +99,8 @@ Intune предлагает широкий набор возможностей, 
 
 Дополнительные сведения о мониторинге приложений см. в [этом разделе](apps-monitor.md).
 
-### <a name="setup"></a>Настройка
+### Настройка
+<a id="setup" class="xliff"></a>
 <!--- **iOS VPP Tokens**
     - [iOS volume-purchased apps](vpp-apps-ios.md) --->
 - **Магазин Windows для бизнеса**. В этом разделе можно настроить интеграцию с Магазином Windows для бизнеса. После этого вы сможете синхронизировать приобретенные приложения с Intune, назначать их и отслеживать использование лицензий.

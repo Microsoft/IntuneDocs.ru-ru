@@ -16,19 +16,20 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 8885b82cf452bcc6bb99efb1d7e7394706edac57
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b2af07817b15c2afd2d2674aa0c6d8a403147421
+ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
-# <a name="unenroll-your-ios-device-from-intune"></a>Отмена регистрации устройства iOS в Intune
+# Отмена регистрации устройства iOS в Intune
+<a id="unenroll-your-ios-device-from-intune" class="xliff"></a>
 
 При отмене регистрации устройства iOS в Intune оно больше не сможет получать доступ к ресурсам компании и больше не будет управляться Intune.
 
 Для отмены регистрации устройства в Intune выполните следующие действия или просмотрите это видео.
 
-<iframe width="675" height="379" src="https://www.youtube.com/embed/6UFtBrBWUUI" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/6UFtBrBWUUI]
 
 
 1.  В приложении корпоративного портала откройте раздел **Мои устройства** и выберите устройство, регистрацию которого вы хотите отменить.

@@ -14,13 +14,14 @@ ms.assetid: fd8cb5f7-19f0-4d80-8825-2bafa49624af
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8806dc965653deaca5ab370c290403ae049e5c58
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 032427a9965f368d7be17339e3cbe5b426800347
+ms.sourcegitcommit: ce363409d1206e4a3d669709863ccc9eb22b7d5f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/11/2017
 ---
-# <a name="determine-use-case-scenario-requirements"></a>Определение требований для сценариев вариантов использования
+# Определение требований для сценариев вариантов использования
+<a id="determine-use-case-scenario-requirements" class="xliff"></a>
 
 В этом разделе вы определите требования для каждой организационной группы в каждом из сценариев вариантов использования. Это поможет вам лучше подготовиться к другим аспектам планирования развертывания Intune, таким как архитектура и проектирование, адаптация и развертывание. Кроме того, эта процедура поможет выявить потенциальные недоработки и проблемы, связанные с проектом развертывания Intune.
 
@@ -41,7 +42,8 @@ ms.lasthandoff: 07/01/2017
 Вы можете [скачать шаблон приведенной выше таблицы](https://gallery.technet.microsoft.com/Intune-deployment-planning-fae156c2?redir=0) и использовать его для ввода требований основных и второстепенных вариантов использования для организации.
 
 
-## <a name="examples-of-requirements"></a>Примеры требований
+## Примеры требований
+<a id="examples-of-requirements" class="xliff"></a>
 
 Вот несколько дополнительных примеров, которые можно использовать в столбце "Требования":
 
@@ -62,6 +64,7 @@ ms.lasthandoff: 07/01/2017
     - Office 365 с политиками защиты приложений
     - Бизнес-решения с политиками защиты приложений
 
-## <a name="next-section"></a>Следующий раздел
+## Дальнейшие действия
+<a id="next-steps" class="xliff"></a>
 
 В следующем разделе приведены рекомендации по [разработке плана развертывания Intune](planning-guide-rollout-plan.md).
