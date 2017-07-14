@@ -14,13 +14,14 @@ ms.assetid: ca36589b-804d-40b8-b112-9195d8897800
 ms.reviewer: lindavr
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d69727762e63f0258eacc084801827c50eaa1454
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c094d59d7261b602c51196233286d10c27732236
+ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
-# <a name="what-is-intune-for-education"></a>Основные сведения об Intune для образовательных учреждений
+# Основные сведения об Intune для образовательных учреждений
+<a id="what-is-intune-for-education" class="xliff"></a>
 
 Intune для образовательных учреждений предназначена для эффективной работы учителей и учащихся, а также для обеспечения защиты учебных данных. Intune — это облачная служба управления корпоративной мобильностью, на основе которой создана Intune для образовательных учреждений.
 
@@ -30,7 +31,7 @@ Intune для образовательных учреждений позволя
 
 Службу Intune для образовательных учреждений можно использовать саму по себе со [всеми возможностями управления устройствами, доступными в Intune](introduction-intune.md). Она также поддерживает остальные средства, доступные в [образовательных предложениях Майкрософт](https://microsoft.com/education), что позволяет без труда использовать Intune для образовательных учреждений с другими полезными средствами для обучения Майкрософт.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ukrnCwcLvV8" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/ukrnCwcLvV8]
 
 С помощью Intune и Intune для образовательных учреждений можно сделать следующее:
 * управлять мобильными устройствами, которые сотрудники используют для доступа к данным;
@@ -38,7 +39,8 @@ Intune для образовательных учреждений позволя
 * защитить данные организации, управляя обращением к ним и их совместным использованием пользователями;
 * обеспечить соответствие устройств и приложений требованиям к безопасности.
 
-### <a name="next-steps"></a>Дальнейшие действия
+### Дальнейшие действия
+<a id="next-steps" class="xliff"></a>
 * Ознакомьтесь с продуктом, воспользовавшись [30-дневной пробной версией Intune](/intune-classic/understand-explore/sign-up-for-30-day-trial-microsoft-intune).
 * Узнайте о том, как быстрее всего [приступить к работе с Intune для образовательных учреждений](/intune-education/what-is-express-configuration).
 * Узнайте о [технических требованиях и возможностях](/intune/supported-devices-browsers) Intune.
