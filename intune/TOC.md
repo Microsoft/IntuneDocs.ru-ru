@@ -2,6 +2,7 @@
 ## [Что представляет собой портал Azure?](what-is-intune.md)
 ## [Основные сведения об Intune для образовательных учреждений](introduction-intune-education.md)
 ## [Возможности Intune в Azure](ui-changes.md)
+### [Изменения в группах](groups-get-started.md)
 ## [Регистрация для использования бесплатной пробной версии](free-trial-sign-up.md)
 ## [Что нового](whats-new.md)
 ### [Новые возможности пользовательского интерфейса приложения](whats-new-app-ui.md)
@@ -16,12 +17,13 @@
 ## [Распространенные сценарии](common-scenarios.md)
 ## [Известные проблемы](known-issues.md)
 ## [Получить поддержку](get-support.md)
-## [Описание службы Intune](microsoft-intune-service-description.md)
 
-<!--# Get started
-## [Manage devices](/intune-classic/understand-explore/mobile-device-management-trial-guide-microsoft-intune?toc=/intune/toc.json)
-## [Create policies](/intune-classic/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3?toc=/intune/toc.json)
-## [Manage apps](/intune-classic/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-4?toc=/intune/toc.json) -->
+# [Приступая к работе](get-started-evaluation.md)
+## [Создание группы](get-started-groups.md)
+## [Создание пользователя](get-started-users.md)
+## [Регистрация устройств](get-started-enroll.md)
+## [Назначение политик ](get-started-policies.md)
+## [Назначение приложений](get-started-apps.md)
 
 
 # Планирование развертывания
@@ -63,6 +65,7 @@
 ### [Вход в Intune](account-sign-up.md)
 ### [настройте домены](custom-domain-name-configure.md)
 ### [Добавление пользователей](users-permissions-add.md)
+### [Добавление групп](groups-add.md)
 ### [Назначение лицензий](licenses-assign.md)       
 ### [Настройка корпоративного портала](company-portal-customize.md)     
 ### [Установка центра MDM](mdm-authority-set.md)
@@ -75,7 +78,8 @@
 #### [Корпоративные идентификаторы](corporate-identifiers-add.md)
 #### [Диспетчер регистрации устройств](device-enrollment-manager-enroll.md)
 #### [Сопоставление устройств с группами](device-group-mapping.md)
-### [Настройка регистрации Windows](windows-enroll.md)
+### Настройка регистрации Windows
+#### [Регистрация Windows](windows-enroll.md)
 #### [Массовая регистрация](windows-bulk-enroll.md)
 ### [Настройка регистрации Android](android-enroll.md)
 ### Настройка регистрации iOS
@@ -95,11 +99,13 @@
 ### [Удаление данных организации](device-company-data-remove.md)
 ### [Сбросить секретный код](device-passcode-reset.md)
 ### [Перезапуск устройства](device-restart.md)
+### [Выход из системы для текущего пользователя](device-logout-user.md)
+### [Удалить пользователя](device-remove-user.md)
 ### [Удаленное управление устройством Android](device-profile-android-teamviewer.md)
+### [Сброс ПИН-кода для Windows 10](device-windows-pin-reset.md)
 ### [Проверка данных по инвентаризации устройств](device-inventory.md)
 
 ## [Управление пользователями](user-management.md)
-### [Начало работы с группами](groups-get-started.md)
 <!--### Add and delete users -->
 
 ## [Управление приложениями](app-management.md)
@@ -126,16 +132,6 @@
 #### [Электронные книги по iOS](vpp-ebooks-ios.md)
 ### [Настройка приложения корпоративного портала](company-portal-app.md)
 ### [Настройка управляемого браузера](app-configuration-managed-browser.md)
-## [Политики защиты использования приложений](app-protection-policies.md)
-### [Подготовка к использованию политик защиты приложений WIP](app-protection-policies-configure-windows-10.md)
-### [Создание и назначение политик защиты приложений WIP](windows-information-protection-policy-create.md)
-### [Параметры Android](app-protection-policy-settings-android.md)
-### [Параметры iOS](app-protection-policy-settings-ios.md)
-### [Проверка политик защиты приложений](app-protection-policies-validate.md)
-### [Мониторинг состояния пользователя защиты приложений](app-protection-policies-monitor.md)
-### [Подготовка к использованию политик защиты приложений WIP](app-protection-policies-configure-windows-10.md)
-### [Создание и назначение политик защиты приложений WIP](windows-information-protection-policy-create.md)
-### [Управление передачей данных между приложениями iOS](data-transfer-between-apps-manage-ios.md)
 
 ## [Настройка устройств](device-profiles.md)
 ### [Настройка профилей устройств](device-profile-create.md)
@@ -173,13 +169,16 @@
 #### [macOS](wi-fi-settings-macos.md)
 #### [Windows 8.1 и Windows 10](wi-fi-settings-import-windows-8-1.md)
 ### [Настройка параметров обновления выпуска Windows 10](edition-upgrade-configure-windows-10.md)
+### [Защита конечных точек в Windows 10](endpoint-protection-windows-10.md)
 ### [Настройка параметров Windows 10 для образовательных учреждений](education-settings-configure.md)
 ### [Настройка параметров iOS для образовательных учреждений](education-settings-configure-ios.md)
+### [Настройка общих устройств iOS для образовательных учреждений](education-settings-configure-ios-shared.md)
 ### [Настройка параметров Центра обновления Windows для бизнеса](windows-update-for-business-configure.md)
 ### [Настройка сертификатов](certificates-configure.md)
 #### [SCEP](certificates-scep-configure.md)
 #### [PKCS](certficates-pfx-configure.md)
 ### [Настройка параметров Windows Information Protection](windows-information-protection-configure.md)
+### [Мониторинг затрат на телекоммуникации](telecom-expenses-monitor.md)
 ### [Назначение профилей](device-profile-assign.md)
 ### [Мониторинг профилей](device-profile-monitor.md)
 ### [Устранение неполадок с профилями](device-profile-troubleshoot.md)
@@ -190,20 +189,31 @@
 ### [Создание политики Android for Work](compliance-policy-create-android-for-work.md)
 ### [Создание политики Android](compliance-policy-create-ios.md)
 ### [Создание политики Windows](compliance-policy-create-windows.md)
-<!--### Create Actions for noncompliance-->
+### Создание действий для несоответствия
 ### [Мониторинг устройств на соответствие требованиям](compliance-policy-monitor.md)
 
 ## [Настройка условного доступа](conditional-access.md)
 ### [Стандартные способы использования условного доступа](conditional-access-intune-common-ways-use.md)
-### [Условный доступ на основе приложений](app-based-conditional-access-intune.md)
 ### [Установка локального коннектора Exchange](exchange-connector-install.md)
 ### [Создание и назначение политики условного доступа](conditional-access-exchange-create.md)
-### [Настройка условного доступа на основе приложений для Exchange Online](app-based-conditional-access-intune-exchange-online-create.md)
-### [Настройка условного доступа на основе приложений для SharePoint Online](app-based-conditional-access-intune-sharepoint-online-create.md)
+### [Переназначение политик условного доступа с классического портала Intune](conditional-access-intune-reassign.md)
+### [Условный доступ на основе приложений](app-based-conditional-access-intune.md)
+### [Настройка условного доступа на основе приложений](app-based-conditional-access-intune-create.md)
 ### [ADAL и Intune](app-modern-authentication-block.md)
 ### [Мониторинг соответствия условного доступа](conditional-access-exchange-monitor.md)
 
-## Защита данных и устройств
+## Защита данных приложения и устройства
+
+### [Политики защиты использования приложений](app-protection-policy.md)
+#### [Создание политик защиты приложений](app-protection-policies.md)
+##### [Параметры Android](app-protection-policy-settings-android.md)
+##### [Параметры iOS](app-protection-policy-settings-ios.md)
+#### [Проверка политик защиты приложений](app-protection-policies-validate.md)
+#### [Мониторинг состояния пользователя защиты приложений](app-protection-policies-monitor.md)
+#### [Подготовка к использованию политик защиты приложений WIP](app-protection-policies-configure-windows-10.md)
+#### [Создание и назначение политик защиты приложений WIP](windows-information-protection-policy-create.md)
+#### [Управление передачей данных между приложениями iOS](data-transfer-between-apps-manage-ios.md)
+
 
 ### [Защита мобильных устройств от угроз](mobile-threat-defense.md)
 
@@ -213,19 +223,27 @@
 ##### [Настройка единого входа Azure AD](skycure-azure-sso-configure.md)
 ##### [Скачивание политики конфигурации приложения iOS](skycure-ios-app-configuration-policy-download.md)
 ##### [Интеграция Skycure и Intune](skycure-mtd-connector-integration.md)
-#### [Добавление и назначение приложений MTD](mtd-apps-ios-app-configuration-policy-add-assign.md)
+#### [Добавление приложений MTD](mtd-apps-ios-app-configuration-policy-add-assign.md)
 #### [Включение MTD в Intune](mtd-connector-enable.md)
-#### [Создание и назначение политики MTD для устройств](mtd-device-compliance-policy-create.md)
+#### [Создание политики соответствия устройств MTD](mtd-device-compliance-policy-create.md)
 
 ### [Управление доступом к сети](network-access-control-integrate.md)
 
+
+<!-- ### Set up mobile threat protection        
+#### Prerequisites
+#### Set up Lookout
+#### Set up Skycure
+#### Enable mobile threat protection in Intune
+#### Create a mobile threat protection compliance policy -->
+
 ### [Настройка Windows Hello](windows-hello.md)        
-<!-- ### Protect devices with remote actions        -->
+<!-- ### Protect devices with remote actions -->
 
 ## [Управление ролями](role-based-access-control.md)
 <!-- ### Create a custom role
 ### Assign a role -->
-### [Использование роли оператора службы поддержки](help-desk-operators.md)
+
 <!-- ### Custom role settings -->
 
 ## [Управление компьютерами с помощью агента программного обеспечения](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
@@ -254,8 +272,7 @@
 ### [Как получить приложения Windows](end-user-apps-windows.md)
 
 # Мониторинг и устранение неполадок
-## [Мониторинг затрат на телекоммуникации](telecom-expenses-monitor.md)
-
+## [Использование роли оператора службы поддержки](help-desk-operators.md)
 
 # Разработка и настройка
 ## [Настройка пользовательских параметров устройства](custom-settings-configure.md)
@@ -280,6 +297,5 @@
 ### [Компонент Xamarin из пакета SDK приложений Intune](app-sdk-xamarin.md)
 ## [Использование API Graph для Intune](intune-graph-apis.md)
 ## [API Graph Intune](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
-
 
 # [Глоссарий](intune-glossary.md)
