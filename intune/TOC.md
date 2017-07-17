@@ -38,9 +38,9 @@
 ### [Внедрение](planning-guide-onboarding.md)
 ### [Тестирование и проверка](planning-guide-test-validation.md)
 ### [Дополнительные ресурсы](planning-guide-resources.md)
-<!-- ## Scenario implementation guides
-### [BYOD](/enterprise-mobility-security/solutions/enable-byod?toc=/intune/toc.json)
-### [Protect O365 data](/enterprise-mobility-security/solutions/protect-office365-data-with-intune?toc=/intune/toc.json)
+## Руководства по реализации сценария
+### [BYOD](byod-enable.md)
+<!--### [Protect O365 data](/enterprise-mobility-security/solutions/protect-office365-data-with-intune?toc=/intune/toc.json)
 ### [Protect on-premises data](/enterprise-mobility-security/solutions/protect-on-premises-data-with-intune?toc=/intune/toc.json)
 ### [Protect data without enrollment](/enterprise-mobility-security/solutions/protect-company-data-without-managing-devices?toc=/intune/toc.json)
 ### [Manage company-owned devices](/enterprise-mobility-security/solutions/issue-corp-devices?toc=/intune/toc.json)
@@ -63,15 +63,14 @@
 ### [Предварительные требования](supported-devices-browsers.md)
 #### [Использование пропускной способности сети](network-bandwidth-use.md)
 ### [Вход в Intune](account-sign-up.md)
-### [настройте домены](custom-domain-name-configure.md)
-### [Добавление пользователей](users-permissions-add.md)
+### [Настройка доменов](custom-domain-name-configure.md)
+### [Добавление пользователей](users-add.md)
 ### [Добавление групп](groups-add.md)
-### [Назначение лицензий](licenses-assign.md)       
-### [Настройка корпоративного портала](company-portal-customize.md)     
+### [Назначение лицензий](licenses-assign.md)
 ### [Установка центра MDM](mdm-authority-set.md)
 
 ## [Регистрация устройств](device-enrollment.md)
-### Параметры установки
+### [Параметры регистрации](enrollment-options.md)
 #### [Условия](terms-and-conditions-create.md)
 #### [Ограничения](enrollment-restrictions-set.md)
 #### [Сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md)
@@ -105,7 +104,6 @@
 ### [Сброс ПИН-кода для Windows 10](device-windows-pin-reset.md)
 ### [Проверка данных по инвентаризации устройств](device-inventory.md)
 
-## [Управление пользователями](user-management.md)
 <!--### Add and delete users -->
 
 ## [Управление приложениями](app-management.md)
@@ -219,32 +217,24 @@
 
 #### [Настройка Lookout](lookout-mobile-threat-defense-connector.md)
 ##### [Интеграция Lookout и Intune](lookout-mtd-connector-integration.md)
+
 #### [Настройка Skycure](skycure-mobile-threat-defense-connector.md)
-##### [Настройка единого входа Azure AD](skycure-azure-sso-configure.md)
-##### [Скачивание политики конфигурации приложения iOS](skycure-ios-app-configuration-policy-download.md)
 ##### [Интеграция Skycure и Intune](skycure-mtd-connector-integration.md)
+
+#### [Настройка Check Point](checkpoint-sandblast-mobile-mobile-threat-defense-connector.md)
+##### [Интеграция Check Point и Intune](checkpoint-sandblast-mobile-mtd-connector-integration.md)
+
 #### [Добавление приложений MTD](mtd-apps-ios-app-configuration-policy-add-assign.md)
 #### [Включение MTD в Intune](mtd-connector-enable.md)
 #### [Создание политики соответствия устройств MTD](mtd-device-compliance-policy-create.md)
 
 ### [Управление доступом к сети](network-access-control-integrate.md)
 
-
-<!-- ### Set up mobile threat protection        
-#### Prerequisites
-#### Set up Lookout
-#### Set up Skycure
-#### Enable mobile threat protection in Intune
-#### Create a mobile threat protection compliance policy -->
-
 ### [Настройка Windows Hello](windows-hello.md)        
 <!-- ### Protect devices with remote actions -->
 
 ## [Управление ролями](role-based-access-control.md)
-<!-- ### Create a custom role
-### Assign a role -->
 
-<!-- ### Custom role settings -->
 
 ## [Управление компьютерами с помощью агента программного обеспечения](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
 ### [Сравнение функций управления компьютером](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json)
