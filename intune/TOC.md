@@ -118,6 +118,7 @@
 #### [Приложения Магазина Windows](store-apps-windows.md)
 #### [Бизнес-приложения Windows](lob-apps-windows.md)
 #### [Приложений Android for Work](apps-add-android-for-work.md)
+#### [Приложения Office 365 для Windows 10](apps-add-office365.md)
 ### [Назначение приложений](apps-deploy.md)
 ### [Мониторинг приложений](apps-monitor.md)
 ### [Профили конфигурации приложений iOS](app-configuration-policies-use-ios.md)
