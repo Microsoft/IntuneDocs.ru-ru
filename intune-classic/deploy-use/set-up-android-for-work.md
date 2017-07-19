@@ -12,15 +12,12 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 852997044cef22901e8133d76f327e98b2a1ee72
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-enrollment-of-android-for-work-devices"></a>Включение регистрации устройств Android for Work
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -60,8 +57,7 @@ ms.lasthandoff: 06/08/2017
 ### <a name="how-to-unbind-an-android-for-work-account"></a>Отмена привязки учетной записи Android for Work
 
 1. **Отмена привязки Android for Work**<br>
-    В качестве пользователя с правами администратора откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com), последовательно выберите **Администрирование** &gt; **Управление мобильными устройствами** &gt; **Android for Work** и нажмите кнопку **Отменить привязку**.
+    В качестве пользователя с правами администратора откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com), последовательно выберите **Администрирования** &gt; **Управление мобильными устройствами** &gt; **Android for Work** и нажмите кнопку **Отменить привязку**.
 
 2. **Согласие на удаление привязки Android for Work**<br>
   Нажмите кнопку **Да**, чтобы удалить привязку и отменить регистрацию всех устройств Android for Work в Intune.
-

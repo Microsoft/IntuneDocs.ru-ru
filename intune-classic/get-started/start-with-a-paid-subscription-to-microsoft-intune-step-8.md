@@ -14,15 +14,12 @@ ms.assetid: 5d3215e7-0a5c-44bd-afb0-aeafce98c43f
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.translationtype: Human Translation
-ms.sourcegitcommit: df3c42d8b52d1a01ddab82727e707639d5f77c16
 ms.openlocfilehash: 64c6eb58246ac3ad232c1b8ee89d12a83e7e1784
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/08/2017
-
-
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="enable-enrollment-for-mobile-devices"></a>Включение регистрации для мобильных устройств
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
@@ -33,8 +30,7 @@ ms.lasthandoff: 06/08/2017
 
 ## <a name="enable-device-enrollment"></a>Обеспечение регистрации устройств
 
-1. **Превращение Intune в центр управления мобильными устройствами.**
-    В [консоли администрирования Intune](https://manage.microsoft.com/) щелкните **Администратор** > **Управление мобильными устройствами** и в разделе **Задачи** выберите **Set MDM Authority** (Задать центр управления мобильными устройствами).  
+1. **Превращение Intune в центр управления мобильными устройствами**. В [консоли администрирования Intune](https://manage.microsoft.com/) щелкните **Администратор** > **Управление мобильными устройствами** и в разделе **Задачи** выберите **Set MDM Authority** (Выбрать в качестве центра MDM).  
 
 2. Выберите **Да** в диалоговом окне "Центр MDM" .
 
@@ -70,4 +66,3 @@ Intune может управлять устройствами различным
 
 >[!div class="step-by-step"]
 >[&larr; **Регистрация устройств**](.\start-with-a-paid-subscription-to-microsoft-intune-step-8.md)     [**Задачи, выполняемые после настройки** &rarr;](.\post-configuration-tasks.md)  
-
