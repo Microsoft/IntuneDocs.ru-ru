@@ -1,7 +1,7 @@
 ---
 title: "Добавление серийных номеров Apple Configurator"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Узнайте о том, как добавлять серийные номера в корпоративные устройства iOS с помощью Apple Configurator."
+titleSuffix: Intune on Azure
+description: "Узнайте о том, как добавлять серийные номера в корпоративные устройства iOS с помощью Apple Configurator.\""
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -15,18 +15,15 @@ ms.assetid: d408aa38-7d1e-40df-9067-246e53f6e26f
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: e3d56d93e2e229faad8effa63eeb91e627468a3a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: 689008f278e676ce0bab075c6ad6b54748e56313
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="add-apple-configurator-serial-numbers"></a>Добавление серийных номеров Apple Configurator
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Выполните описанные ниже действия для добавления серийных номеров в Intune, если необходимо [зарегистрировать корпоративные устройства iOS с помощью Apple Configurator и помощника по настройке](apple-configurator-setup-assistant-enroll-ios.md). Серийные номера можно добавлять по одному или отправить CSV-файл с серийными номерами. После этого им можно назначить профиль. Он содержит определенные параметры управления, которые необходимо применить к устройствам.
 
@@ -37,7 +34,7 @@ ms.lasthandoff: 05/23/2017
 1. Создайте список значений с разделителями-запятыми (CSV-файл) с двумя столбцами без заголовка. Добавьте идентификатор IMEI в левый столбец, а сведения — в правый. Текущая максимальная длина списка составляет 500 строк. В текстовом редакторе список CSV-файлов выглядит примерно так:
 
     F7TLWCLBX196, сведения об устройстве</br>
-   DLXQPCWVGHMJ, сведения об устройстве
+    DLXQPCWVGHMJ, сведения об устройстве
 
 2. На портале Azure выберите пункты **Другие службы** > **Мониторинг и управление** > **Intune**.
 
@@ -76,4 +73,3 @@ ms.lasthandoff: 05/23/2017
 **Чтобы просмотреть состояние серийного номера, сделайте следующее:**
 
 В колонке **Серийные номера конфигуратора Apple** выберите серийный номер, состояние которого нужно просмотреть, и найдите элемент **Состояние**.
-

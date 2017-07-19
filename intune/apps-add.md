@@ -1,12 +1,12 @@
 ---
-title: "Как добавить приложения в Microsoft Intune | Документация Майкрософт"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Выполнив следующие процедуры, вы сможете добавить приложения в Intune для назначения пользователям и устройствам. "
+title: "Добавление приложений в Microsoft Intune"
+titleSuffix: Intune on Azure
+description: "Выполнив следующие процедуры, вы сможете добавить приложения в Intune для назначения пользователям и устройствам. \""
 keywords: 
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 05/10/2017
+ms.date: 06/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,15 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 36cafd2b943ab1dd5045a8ed1fe1fcf1b28af385
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
+ms.openlocfilehash: 6a4dfa9e0066a2ac6f410aa9f8e4d77a40484ea5
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
 ---
-
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Добавление веб-приложения в Microsoft Intune
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Прежде чем вы сможете назначать приложения пользователям и управлять ими, их необходимо добавить в Intune. Intune поддерживает множество различных приложений, каждое из которых имеет собственные параметры.
 

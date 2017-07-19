@@ -1,7 +1,7 @@
 ---
 title: "Создание и назначение политики условного доступа к локальной службе Exchange"
-titleSuffix: Intune Azure preview
-description: "Предварительная версия Intune Azure. Сведения о настройке условного доступа к локальной организации Exchange и прежней версии выделенной среды Exchange Online в Intune."
+titleSuffix: Intune on Azure
+description: "Сведения о настройке условного доступа к локальной организации Exchange и прежней версии выделенной среды Exchange Online в Intune\""
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,18 +14,15 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9ff1adae93fe6873f5551cf58b1a2e89638dee85
-ms.openlocfilehash: 2f1775eb98d6518ce35dcc38852e167c5eada616
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2017
-
-
+ms.openlocfilehash: b72dbe27b52be187a907392aea5a1803fb36e4d3
+ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/03/2017
 ---
+# <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Создание и назначение политики условного доступа к локальной организации Exchange и прежней версии выделенной среды Exchange Online в Microsoft Intune
 
-# <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune-azure-preview"></a>Создание и назначение политики условного доступа к локальной службе Exchange и прежняя выделенная среда Exchange Online в предварительной версии Intune в Microsoft Azure
-
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 В этом разделе рассматривается процесс настройки условного доступа к локальной организации Exchange на основании соответствия устройств требованиям.
 
@@ -85,7 +82,7 @@ ms.lasthandoff: 05/23/2017
 
 4. Выберите **Intune**, и тогда отобразится **панель мониторинга Intune**.
 
-5.  Выберите **Условный доступ**, а затем выберите
+5. Выберите **Локальный доступ**, а затем выберите
 
 6. В колонке **Локально** отображается состояние политики условного доступа и устройств, к которым она применена.
 
@@ -93,8 +90,8 @@ ms.lasthandoff: 05/23/2017
 
 8. В колонке **Локальный доступ к Exchange** выберите **Да**, чтобы включить управление доступом в локальной организации Exchange.
 
-      > [!NOTE]
-      > Если соединитель локальной организации Exchange Active Sync не настроен, этот параметр будет отключен.  Перед включением условного доступа к локальной организации Exchange сначала установите и настройте этот соединитель. Дополнительные сведения см. в статье [Install the Intune On-premises Exchange Connector](exchange-connector-install.md) (Установка локального соединителя Exchange в Intune).
+    > [!NOTE]
+    > Если соединитель локальной организации Exchange Active Sync не настроен, этот параметр будет отключен.  Перед включением условного доступа к локальной организации Exchange сначала установите и настройте этот соединитель. Дополнительные сведения см. в статье [Install the Intune On-premises Exchange Connector](exchange-connector-install.md) (Установка локального соединителя Exchange в Intune).
 
 9. В разделе **Назначение** выберите **Включенные группы**.  Используйте пользовательскую группу безопасности, к которой необходимо применить условный доступ. Для этого пользователи должны зарегистрировать свои устройства в Intune и выполнить требования профилей соответствия требованиям.
 
@@ -114,12 +111,12 @@ ms.lasthandoff: 05/23/2017
 
 15. В колонке **Локально** нажмите кнопку **Сохранить**, чтобы сохранить политику условного доступа.
 
-## <a name="create-azure-ad-conditional-access-policies-in-intune-azure-preview"></a>Создание политик условного доступа к Azure AD в предварительной версии Azure Intune
+## <a name="create-azure-ad-conditional-access-policies-in-intune"></a>Создание политик условного доступа к Azure AD в Intune
 
-Начиная с выпуска Intune 1704 администраторы могут создавать политики условного доступа к Azure AD из предварительной версии Azure Intune. Это удобно, так как не нужно переключаться между рабочими нагрузками Azure и Intune.
+Начиная с выпуска Intune 1704, администраторы могут создавать политики условного доступа к Azure AD на портале Intune Azure. Это удобно, так как не нужно переключаться между рабочими нагрузками Azure и Intune.
 
 > [!IMPORTANT]
-> У вас должна быть лицензия Azure AD Premium для создания политик условного доступа к Azure AD на портале предварительной версии Intune Azure.
+> У вас должна быть лицензия Azure AD Premium для создания политик условного доступа к Azure AD на портале Intune Azure.
 
 ### <a name="to-create-azure-ad-conditional-access-policy"></a>Создание политики условного доступа в Azure AD
 

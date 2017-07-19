@@ -1,23 +1,29 @@
-mdm-authority-set---
-# <a name="required-metadata"></a>необходимые метаданные
-
-заголовок: Регистрация устройств Android в Intune titleSuffix: "Предварительная версия Intune Azure" description: "Предварительная версия Intune Azure. Узнайте, как зарегистрировать устройства Android в предварительной версии Intune Azure".
-ключевые слова: author: nathbarn ms.author: nathbarn manager: angrobe ms.date: 04/12/2017 ms.topic: article ms.prod: ms.service: microsoft-intune ms.technology: ms.assetid: f276d98c-b077-452a-8835-41919d674db5
-
-# <a name="optional-metadata"></a>необязательные метаданные
-
-#<a name="robots"></a>ROBOTS:
-#<a name="audience"></a>audience:
-#<a name="msdevlang"></a>ms.devlang:
-ms.reviewer: chrisbal ms.suite: ems
-#<a name="mstgtpltfrm"></a>ms.tgt_pltfrm:
-ms.custom: intune-azure
-
 ---
-
+title: "Подготовка к регистрации устройств Android в Intune"
+titleSuffix: Intune on Azure
+description: "Узнайте, как подготовить устройства Android к регистрации в Intune.\""
+keywords: 
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
+ms.date: 06/28/2017
+ms.topic: article
+ms.prod: 
+ms.service: microsoft-intune
+ms.technology: 
+ms.assetid: f276d98c-b077-452a-8835-41919d674db5
+ms.reviewer: chrisbal
+ms.suite: ems
+ms.custom: intune-azure
+ms.openlocfilehash: 295315dae52662c386055747862717b85ed4b877
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/01/2017
+---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
-[!INCLUDE[azure_preview](./includes/azure_preview.md)]
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Как администратор Intune вы получаете возможность управления устройствами Android, в том числе устройствами Samsung Knox Standard. Кроме того, вы можете управлять рабочим профилем на устройствах [Android for Work](#enable-enrollment-of-android-for-work-devices).
 
@@ -25,15 +31,13 @@ ms.custom: intune-azure
 
 ## <a name="prerequisite"></a>Необходимое условие
 
-Чтобы подготовиться к управлению мобильными устройствами, в качестве центра MDM необходимо указать **Microsoft Intune**. Инструкции см. в статье [Установка центра управления мобильными устройствами](mdm-authority-set.md). Этот параметр указывается только один раз при первой настройке Intune для управления мобильными устройствами, поэтому, возможно, он уже настроен.
+Чтобы подготовиться к управлению мобильными устройствами, в качестве центра MDM необходимо указать **Microsoft Intune**. Инструкции см. в статье [Установка центра управления мобильными устройствами](mdm-authority-set.md). Этот параметр указывается только один раз при первой настройке Intune для управления мобильными устройствами.
 
 ## <a name="set-up-android-enrollment"></a>Настройка регистрации устройств Android
 
 По умолчанию в службе Intune разрешена регистрация устройств Android и Samsung Knox Standard.
 
-Чтобы заблокировать регистрацию всех или только личных устройств Android, см. инструкции в разделе [Установка ограничений по типу устройства](enrollment-restrictions-set.md#set-device-type-restrictions).
-
-Сведения о том, как задать максимальное число устройств, которые может зарегистрировать пользователь, см. в разделе [Установка ограничений по числу устройств](enrollment-restrictions-set.md#set-device-limit-restrictions).
+Чтобы заблокировать регистрацию всех или только личных устройств Android, см. инструкции в разделе [Установка ограничений по типу устройства](enrollment-restrictions-set.md).
 
 Чтобы обеспечить управление устройствами, пользователям необходимо зарегистрировать их, скачав приложение корпоративного портала Intune, которое доступно в Google Play, а затем открыв это приложение и выполнив указания по установке. Когда устройства Android будут зарегистрированы в системе управления, вы сможете [назначать политики соответствия требованиям](compliance-policy-create-android.md), [управлять приложениями](app-management.md) и выполнять другие действия.
 
@@ -78,7 +82,7 @@ After configuring the Android for Work binding and settings, you can do the foll
 
 Дополнительные сведения о других задачах для пользователей см. в статьях:
 
-- [Ресурсы по пользовательскому интерфейсу Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/how-to-educate-your-end-users-about-microsoft-intune)
+- [Ресурсы по пользовательскому интерфейсу Microsoft Intune](end-user-educate.md)
 - [Использование устройства Android с Intune](https://docs.microsoft.com/intune-user-help/using-your-android-device-with-intune)
 
 ## <a name="unbinding-your-android-for-work-administrative-account"></a>Отмена привязки учетной записи администратора Android for Work
