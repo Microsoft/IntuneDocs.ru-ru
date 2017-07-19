@@ -1,12 +1,6 @@
 # Изучение вопроса
 ## [Общие сведения об Intune](/intune/introduction-intune?toc=/intune-classic/toc.json)
 ## [Intune для Образование](/intune/introduction-intune-education?toc=/intune-classic/toc.json)
-## [Регистрация для использования бесплатной пробной версии](understand-explore/sign-up-for-30-day-trial-microsoft-intune.md)
-## [Оценка Intune MDM](understand-explore/mobile-device-management-trial-guide-microsoft-intune.md)
-### [Создание групп для организации пользователей и устройств](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-3.md)
-### [Создание политик и публикация приложения](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-4.md)
-### [Другие параметры и дополнения](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-6.md)
-### [Преобразование в платную подписку](understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune-step-7.md)
 ## [Часто задаваемые вопросы по защите MAM и приложений](understand-explore/mam-faq.md)
 ## [Распространенные сценарии](/intune/common-scenarios?toc=/intune-classic/toc.json)
 
