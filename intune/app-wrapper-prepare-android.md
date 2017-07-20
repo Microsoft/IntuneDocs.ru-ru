@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 ms.author: mtillman
 manager: angrobe
-ms.date: 12/19/2016
+ms.date: 07/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b7b3ee8b82b1a58762c5969cbbcea3037be8a3e7
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 299e2ed0a84c7158a582ee874f0711eb3c379532
+ms.sourcegitcommit: bee30f4c9e04129d70305fcafc4152c6e062a8b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/11/2017
 ---
 # <a name="prepare-android-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для управления мобильными приложениями с помощью инструмента упаковки для приложений Intune
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="run-the-app-wrapping-tool"></a>Запуск инструмента упаковки для приложений
 
-1.  На компьютере Windows, где установлен инструмент создания программ-оболочек для приложений, откройте окно PowerShell от имени администратора.
+1.  На компьютере Windows, где установлен инструмент упаковки для приложений, откройте окно PowerShell.
 
 2.  Из папки, куда был установлен инструмент, импортируйте модуль PowerShell инструмента упаковки для приложений:
 

@@ -1,12 +1,12 @@
 ---
 title: "Настройка соединителя Exchange для локальной службы EAS с помощью Intune"
-titleSuffix: Intune Azure preview
-description: "Сведения об использовании соединителя для обеспечения взаимодействия между Intune и локальным сервером Exchange Server для управления мобильными устройствами по протоколу Exchange ActiveSync"
+titleSuffix: Intune Azure
+description: "Intune Azure: сведения об использовании соединителя для обеспечения взаимодействия между Intune и локальным сервером Exchange Server для управления мобильными устройствами по протоколу Exchange ActiveSync"
 keywords: 
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 06/08/2017
+ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9f4a310078a30f7dfefe66a9aba60cc74ad4e29b
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1dd5143ce6c604f416af1c6b6b1df684346e2f6d
+ms.sourcegitcommit: be12974a7eaa4ce9cffe45aabe456c858d582e20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/14/2017
 ---
-# <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure-preview"></a>Настройка локального соединителя Exchange для Intune в предварительной версии Microsoft Intune Azure
+# <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
 В локальных средах Exchange Server можно использовать локальный соединитель Intune Exchange, который позволяет управлять доступом устройств к почтовым ящикам локальной среды Exchange на основе сведений о наличии у устройств регистрации в Intune и их соответствии политикам соответствия Intune. Локальный соединитель Exchange также обеспечивает обнаружение мобильных устройств, которые подключаются к локальной среде Exchange Server, за счет синхронизации существующих записей Exchange Active Sync (EAS) с Intune.
 
@@ -42,8 +42,8 @@ ms.lasthandoff: 07/01/2017
 |Операционные системы|Intune поддерживает локальный соединитель Exchange на компьютере под управлением любого 64-разрядного выпуска Windows Server 2008 с пакетом обновления 2 (SP2), Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2.<br /><br />Соединитель не поддерживается ни в какой установке Server Core.|
 |Microsoft Exchange|Локальный соединитель требует использования Microsoft Exchange 2010 с пакетом обновления 1 (SP1) или более поздней версии либо старой выделенной среды Exchange Online. Чтобы определить, используется ли в вашей выделенной среде Exchange Online **новая** или **устаревшая** конфигурация, обратитесь к своему менеджеру по работе с клиентами.|
 |Центр управления мобильными устройствами| [Установите Intune в качестве центра управления мобильными устройствами](https://docs.microsoft.com/intune-classic/deploy-use/prerequisites-for-enrollment#step-2-mdm-authority-set).|
-|Оборудование|Компьютер, на котором устанавливается соединитель, должен иметь ЦП с частотой 1,6 ГГц, 2 ГБ ОЗУ и 10 ГБ свободного дискового пространства.|users-permissions-add.md
-|Синхронизация Active Directory|Прежде чем использовать любой соединитель для подключения Intune к Exchange Server, необходимо [настроить синхронизацию Active Directory](users-permissions-add.md), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
+|Оборудование|Компьютер, на котором устанавливается соединитель, должен иметь ЦП с частотой 1,6 ГГц, 2 ГБ ОЗУ и 10 ГБ свободного дискового пространства.|users-add.md
+|Синхронизация Active Directory|Прежде чем использовать любой соединитель для подключения Intune к Exchange Server, необходимо [настроить синхронизацию Active Directory](users-add.md), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.|
 |Дополнительное программное обеспечение|На компьютере, на котором размещен соединитель, необходимо выполнить полную установку платформы Microsoft .NET Framework 4.5 и Windows PowerShell 2.0.|
 |Network (Сеть)|Компьютер, на котором устанавливается соединитель, должен входить в домен, имеющий отношение доверия с доменом, где размещен сервер Exchange Server.<br /><br />Для компьютера необходимо настроить доступ к службе Intune через брандмауэры и прокси-серверы на портах 80 и 443. Домены, используемые Intune, включают manage.microsoft.com, &#42;manage.microsoft.com и &#42;.manage.microsoft.com.|
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/17/2017
+ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,19 +16,19 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9e70ef08eabb1595804f84247fc1663c5c6f985e
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: e12f8d31abc4e067a6339e93cc21680921ce88e4
+ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
 # <a name="enroll-your-android-device-in-intune"></a>Регистрация устройства Android в Intune
 
 Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать устройство Android, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет ИТ-отделу управлять рабочими или учебными ресурсами и обеспечивать их безопасность, предоставляя вам свободу выбора устройств для выполнения рабочих задач. Дополнительные сведения о регистрации см. в разделе [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-android.md)
 
-<iframe src="https://channel9.msdn.com/Series/IntuneEnrollment/Android-Enrollment/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+> [!VIDEO https://channel9.msdn.com/Series/IntuneEnrollment/Android-Enrollment/player]
 
-Эти инструкции предназначены для устройств Android с ПО Samsung KNOX и устройств Android без дополнительных программных оболочек. Samsung KNOX — это программа для обеспечения безопасности, используемая для дополнительной защиты на некоторых устройствах Samsung под управлением Android. Чтобы определить, используете ли вы устройство Samsung KNOX, последовательно выберите **Settings** > **About device** (Настройки | Сведения об устройстве). Если вы не видите строку KNOX version (версия KNOX), значит у вас "собственное" устройство с Android.
+Эти инструкции описывают регистрацию устройств Android с ПО Samsung KNOX и устройств Android без дополнительных программных оболочек. Samsung KNOX — это программа для обеспечения безопасности, используемая для дополнительной защиты на некоторых устройствах Samsung под управлением Android. Чтобы определить, используете ли вы устройство Samsung KNOX, последовательно выберите **Settings** > **About device** (Настройки | Сведения об устройстве). Если вы не видите строку KNOX version (версия KNOX), значит у вас "собственное" устройство с Android.
 
 Возможно, до или после регистрации вам потребуется выбрать категорию, которая наилучшим образом соответствует характеру использования устройства. ИТ-администратор использует эту категорию для определения приложений, к которым у вас есть доступ.
 

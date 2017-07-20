@@ -1,6 +1,6 @@
 ---
 title: "Реализация в системах конечных пользователей за счет условного доступа"
-description: "В этой статье представлены сведения о том, как привлечь пользователей к регистрации в Intune за счет условного доступа."
+description: "В этой статье описывается, как привлекать пользователей к регистрации в Intune за счет условного доступа."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,16 +13,13 @@ ms.technology:
 ms.assetid: c2d7ce3f-fe97-4044-ad9e-25ac8fa301c9
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: 0b2fbcc1d63f229e1b63873841bc300bdde92fa3
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 7a9c3bef955239ad653a9ca45c55c533be36c5ce
+ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 07/12/2017
 ---
 # <a name="drive-end-user-adoption-with-conditional-access"></a>Реализация в системах конечных пользователей за счет условного доступа
-
-[!INCLUDE[note for both-portals](./includes/note-for-both-portals.md)]
 
 Включение функций условного доступа с помощью Intune, таких как блокирование электронной почты с устройств, регистрация которых отменена, может помочь заинтересовать пользователей в регистрации и обеспечении соответствия, но это не требуется для успешной миграции. Успех определяют цели внедрения миграции и требования к безопасности.
 
@@ -48,16 +45,16 @@ ms.lasthandoff: 07/03/2017
 
 -   Пользователи предыдущих решений потенциально могут обращаться к ресурсам с неуправляемых устройств до включения условного доступа.
 
-> [!TIP]
-> Это один из многих подходов. Вы можете выбрать простой процесс, при котором предоставление условного доступа откладывается до регистрации на каждом этапе, или более строгий процесс, при котором условный доступ применяется с самого начала, а для доступа требуется полное соответствие требованиям.
 
--   Дополнительные сведения об [условном доступе](/intune/conditional-access).
+Это один из многих подходов. Вы можете выбрать простой процесс, при котором предоставление условного доступа откладывается до регистрации на каждом этапе, или более строгий процесс, при котором условный доступ применяется с самого начала, а для доступа требуется полное соответствие требованиям.
+
+-   Дополнительные сведения об [условном доступе](conditional-access.md).
 
 ## <a name="task-list-for-conditional-access"></a>Список задач для условного доступа
 
 ### <a name="task-1-decide-how-you-are-going-to-implement-conditional-access"></a>Задача 1. Выбор способа реализации условного доступа
 
-[Стандартные способы использования условного доступа](/intune/conditional-access-intune-common-ways-use).
+[Стандартные способы использования условного доступа](conditional-access-intune-common-ways-use.md).
 
 ### <a name="task-2-set-up-intune-conditional-access"></a>Задача 2. Настройка условного доступа Intune
 
@@ -65,14 +62,14 @@ ms.lasthandoff: 07/03/2017
 
 -   [Настройка условного доступа в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
 
--   [Установка локального соединителя Exchange с помощью Intune](/intune/exchange-connector-install)
+-   [Установка локального соединителя Exchange с помощью Intune](exchange-connector-install.md)
 
--   [Настройка политик условного доступа на базе приложений для Exchange Online](/intune/app-based-conditional-access-intune-exchange-online-create)
+-   [Настройка политик условного доступа на базе приложений для Exchange Online](app-based-conditional-access-intune-create.md)
 
--   [Настройка политик условного доступа на базе приложений для SharePoint Online](/intune/app-based-conditional-access-intune-sharepoint-online-create)
+-   [Настройка политик условного доступа на базе приложений для SharePoint Online](app-based-conditional-access-intune-create.md)
 
--   [Блокировка приложений, не поддерживающих современные средства проверки подлинности (ADAL)](/intune/app-modern-authentication-block)
+-   [Блокировка приложений, не поддерживающих современные средства проверки подлинности (ADAL)](app-modern-authentication-block.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Типичный цикл миграции](migration-guide-cycle.md)
+Дополнительные сведения о типичном цикле миграции см. [здесь](migration-guide-cycle.md).
