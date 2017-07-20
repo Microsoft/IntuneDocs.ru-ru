@@ -4,7 +4,7 @@ description: "В этом руководстве содержатся сведе
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-ms.date: 03/27/2017
+ms.date: 07/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 356ada64224f8982baf93ddaccb44df123c4568c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8e10f3a72cf522888108895f9f7141480b9af0b3
+ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/13/2017
 ---
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Установка программного клиента Intune на компьютерах Windows
 
@@ -32,6 +32,8 @@ ms.lasthandoff: 07/01/2017
 Клиентское программное обеспечение Intune содержит минимальный набор программного обеспечения, необходимый для регистрации компьютера в службе управления Intune. Когда компьютер будет зарегистрирован, клиентское программное обеспечение Intune скачает полное клиентское программное обеспечение, требуемое для управления компьютером.
 
 Эта серия скачиваний минимизирует влияние на пропускную способность сети и сокращает время, требуемое для первоначальной регистрации компьютера в Intune. Она также предоставляет новейшее программное обеспечение клиенту после завершения второго скачивания.
+
+Одна лицензия Intune позволяет установить клиентское ПО Intune на пять компьютеров.
 
 ## <a name="download-the-intune-client-software"></a>Скачать клиентское программное обеспечение Intune
 
