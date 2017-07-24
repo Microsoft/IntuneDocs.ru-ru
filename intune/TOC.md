@@ -183,13 +183,12 @@
 ### [Мониторинг профилей](device-profile-monitor.md)
 ### [Устранение неполадок с профилями](device-profile-troubleshoot.md)
 
-## [Задание соответствия устройства требованиям](device-compliance.md)
-### [Предварительные требования](device-compliance-get-started.md)
+## [Задание соответствия устройства требованиям](device-compliance-get-started.md)
 ### [Создание политики Android](compliance-policy-create-android.md)
 ### [Создание политики Android for Work](compliance-policy-create-android-for-work.md)
 ### [Создание политики Android](compliance-policy-create-ios.md)
+### [Создание политики macOS](compliance-policy-create-mac-os.md)
 ### [Создание политики Windows](compliance-policy-create-windows.md)
-### Создание действий для несоответствия
 ### [Мониторинг устройств на соответствие требованиям](compliance-policy-monitor.md)
 
 ## [Настройка условного доступа](conditional-access.md)
