@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0fb1d52a97a03609ddefb94caf707bd8cbee8f12
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: a5f7ffa14a78cecd613dcf6b7523acc0afb427cf
+ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/10/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -49,15 +49,25 @@ ms.lasthandoff: 07/01/2017
 
 * **IntuneMAMResources.bundle**: пакет ресурсов, на которых основан пакет SDK.
 
-* **Заголовки**: предоставляет API пакета SDK для приложений Intune. При использовании API необходимо включить файл заголовков, содержащий этот API. Следующие файлы заголовков включают в себя вызовы функций API, необходимые для использования функциональных возможностей пакета SDK для приложений Intune:
+* **Заголовки**: предоставляет API пакета SDK для приложений Intune. При использовании API необходимо включить файл заголовков, содержащий этот API. Следующие файлы заголовков включают API, типы данных и протоколы, предоставляемые разработчиком в SDK-пакете Intune для приложений.
 
-    * IntuneMAMAsyncResult.h
+    * IntuneMAMAppConfig.h
+    * IntuneMAMAppConfigManager.h
     * IntuneMAMDataProtectionInfo.h
     * IntuneMAMDataProtectionManager.h
+    * IntuneMAMDefs.h
+    * IntuneMAMEnrollmentDelegate.h
+    * IntuneMAMEnrollmentManager.h
+    * IntuneMAMEnrollmentStatus.h
     * IntuneMAMFileProtectionInfo.h
     * IntuneMAMFileProtectionManager.h
-    * IntuneMAMPolicyDelegate.h
     * IntuneMAMLogger.h
+    * IntuneMAMPolicy.h
+    * IntuneMAMPolicyDelegate.h
+    * IntuneMAMPolicyManager.h
+    * IntuneMAMVersionInfo.h
+    
+Чтобы получить доступ ко всем указанным выше файлам заголовков, разработчикам достаточно просто импортировать IntuneMAM.h
 
 
 ## <a name="how-the-intune-app-sdk-works"></a>Принцип работы пакета SDK для приложений Intune
@@ -144,11 +154,13 @@ ms.lasthandoff: 07/01/2017
     > [!NOTE]
     > Файл прав — это XML-файл, который является уникальным в рамках вашего мобильного приложения. Он используется для задания специальных разрешений и возможностей в вашем приложении для iOS.
 
-7. Если приложение определяет схемы URL-адресов в своем файле Info.plist, добавьте другую схему с суффиксом `-intunemam` для каждой схемы URL-адресов.
+8. Если приложение определяет схемы URL-адресов в своем файле Info.plist, добавьте другую схему с суффиксом `-intunemam` для каждой схемы URL-адресов.
 
-8. В случае мобильных приложений для iOS 9 и более поздней версии необходимо включить в массив `LSApplicationQueriesSchemes` в файле Info.plist приложения каждый из протоколов, которые приложение передает в `UIApplication canOpenURL`. Кроме того, для каждого из указанных протоколов следует добавить новый протокол, добавив к нему суффикс `-intunemam`. Следует также включить `http-intunemam`, `https-intunemam`и `ms-outlook-intunemam` в этот массив.
+9. Если для приложения в файле Info.plist определены типы документов, добавьте к массиву «UTI типов содержимого документа» каждого элемента дублирующую запись для каждой строки с префиксом «com.microsoft.intune.mam.».
 
-9. Если в файле прав приложения определены группы приложений, добавьте эти группы в словарь **IntuneMAMSettings** ключа `AppGroupIdentifiers` в виде массива строк.
+10. В случае мобильных приложений для iOS 9 и более поздней версии необходимо включить в массив `LSApplicationQueriesSchemes` в файле Info.plist приложения каждый из протоколов, которые приложение передает в `UIApplication canOpenURL`. Кроме того, для каждого из указанных протоколов следует добавить новый протокол, добавив к нему суффикс `-intunemam`. Следует также включить `http-intunemam`, `https-intunemam`и `ms-outlook-intunemam` в этот массив.
+
+11. Если в файле прав приложения определены группы приложений, добавьте эти группы в словарь **IntuneMAMSettings** ключа `AppGroupIdentifiers` в виде массива строк.
 
 
 
