@@ -9,10 +9,10 @@ ms.topic: hub-page
 title: "Документация по Microsoft Intune"
 description: "Сведения о работе с Microsoft Intune."
 ms.openlocfilehash: db3afc3146c1b4e83aee5b64f0a7e6c5215c7ddd
-ms.sourcegitcommit: 716e0170683c03999e3cd8e1a6b2b14adb7d5b54
+ms.sourcegitcommit: 00b815393c5169a1249539c863a0cec4e673b0f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/04/2017
+ms.lasthandoff: 07/25/2017
 ---
 <div id="main" class="v2">
 <div class="container">
