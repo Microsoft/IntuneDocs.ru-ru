@@ -13,11 +13,11 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8e10f3a72cf522888108895f9f7141480b9af0b3
-ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
+ms.openlocfilehash: 2720cf6f1c5d6b71966c4b4987734cc40dca8aa9
+ms.sourcegitcommit: 2b7d644c7a4f85315e11a7d0c5885cc66975c2ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 07/14/2017
 ---
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Установка программного клиента Intune на компьютерах Windows
 
@@ -43,11 +43,11 @@ ms.lasthandoff: 07/13/2017
 
   ![Загрузка клиентского ПО Intune](../media/pc-sa-client-download.png)
 
-2.  На странице **Загрузка клиентского программного обеспечения** нажмите кнопку **Загрузить клиентское программное обеспечение**. После этого сохраните пакет **Microsoft_Intune_Setup.zip**, который содержит программное обеспечение, в безопасном месте в сети.
+2. На странице **Загрузка клиентского программного обеспечения** нажмите кнопку **Загрузить клиентское программное обеспечение**. После этого сохраните пакет **Microsoft_Intune_Setup.zip**, который содержит программное обеспечение, в безопасном месте в сети.
 
-Пакет установки клиентского программного обеспечения Intune содержит определенные уникальные сведения о вашей учетной записи, содержащиеся во внедренном сертификате. Если доступ к установочному пакету получат неавторизованные пользователи, они смогут зарегистрировать компьютеры в учетной записи, указанной во внедренном сертификате, и получить доступ к ресурсам организации.
+  Пакет установки клиентского программного обеспечения Intune содержит определенные уникальные сведения о вашей учетной записи, содержащиеся во внедренном сертификате. Если доступ к установочному пакету получат неавторизованные пользователи, они смогут зарегистрировать компьютеры в учетной записи, указанной во внедренном сертификате, и получить доступ к ресурсам организации.
 
-3.  Извлеките содержимое пакета установки и сохраните его в надежной сетевой папке.
+3. Извлеките содержимое пакета установки и сохраните его в надежной сетевой папке.
 
     > [!IMPORTANT]
     > Не переименовывайте и не удаляйте извлеченный файл **ACCOUNTCERT**, так как в этом случае установка клиентского программного обеспечения будет невозможна.
@@ -198,13 +198,10 @@ ms.lasthandoff: 07/13/2017
 
 **Метод 1**.
 
-    ```
     "C:\Program Files\Microsoft\OnlineManagement\Common\ProvisioningUtil.exe" /UninstallAgents /MicrosoftIntune
-    ```
 
 **Метод 2**<br>Обратите внимание, что все агенты устанавливаются на каждый SKU Windows.
 
-    ```
     wmic product where name="Microsoft Endpoint Protection Management Components" call uninstall<br>
     wmic product where name="Microsoft Intune Notification Service" call uninstall<br>
     wmic product where name="System Center 2012 - Operations Manager Agent" call uninstall<br>
@@ -237,7 +234,6 @@ ms.lasthandoff: 07/13/2017
     wmic product where name="Windows Online Management Update Manager" call uninstall<br>
     wmic product where name="Windows Online Management Agent Installer" call uninstall<br>
     wmic product where name="Windows Intune" call uninstall
-    ```
 
 > [!TIP]
 > При отмене регистрации клиента на стороне сервера останется устаревшая запись о соответствующем клиенте. Отмена регистрации осуществляется асинхронно, а так как удалить необходимо девять агентов, процесс может занять до 30 минут.
@@ -255,10 +251,8 @@ ms.lasthandoff: 07/13/2017
 
 В процессе отмены регистрации папка OnlineManagement не удаляется. Подождите 30 минут после удаления и выполните указанную ниже команду. Если выполнить эту команду слишком рано, процесс удаления может еще находиться в неизвестном состоянии. Чтобы удалить папку, запустите командную строку с повышенными привилегиями и выполните следующую команду:
 
-    ```
     "rd /s /q %ProgramFiles%\Microsoft\OnlineManagement".
-    ```
 
-### <a name="see-also"></a>См. также
+### <a name="next-steps"></a>Дальнейшие действия
 [Управление компьютером с Windows с помощью Microsoft Intune](manage-windows-pcs-with-microsoft-intune.md)
 [Устранение неполадок при настройке клиента](../troubleshoot/troubleshoot-client-setup-in-microsoft-intune.md)

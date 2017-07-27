@@ -1,49 +1,92 @@
 ---
-title: "Общие сведения о соответствии устройств"
+title: "Политики соответствия устройств Intune"
 titleSuffix: Intune on Azure
-description: "В этом разделе описываются компоненты, необходимые для создания политик соответствия в Microsoft Intune\""
+description: "Из этой статьи вы узнаете о соответствии устройств в Microsoft Intune\""
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
-ms.date: 12/07/2016
+ms.date: 07/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 8103df7f-1700-47b4-9a72-c196d2a02f22
+ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aa9a5c8c44b82dcbc1ae7a4609b12e22c6599e9e
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9723e5a8b001068e8b7c9994723e6c7111e7a80d
+ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/20/2017
 ---
-# <a name="get-started-with-device-compliance-in-intune"></a>Общие сведения о соответствии устройств требованиям в Intune
-
+# <a name="get-started-with-intune-device-compliance-policies"></a>Начало работы с политиками соответствия устройств Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-В этом разделе рассматриваются следующие вопросы. 
+## <a name="what-is-device-compliance-in-intune"></a>Что такое соответствие устройств в Intune?
 
-- Необходимые условия для создания политики соответствия устройств.
-- Общее представление о доступных данных и действиях на портале Intune Azure. 
+Политики соответствия устройств Intune определяют правила и параметры, которым должно соответствовать устройство, чтобы программа Intune расценивала его как соответствующее.
 
-Если соответствие устройства политике — новая тема для вас, прочтите [эту статью](device-compliance.md), чтобы узнать, что такое соответствие устройства и как его можно использовать в вашей организации.
+В их число могут входить следующие правила.
+
+- Использование пароля для доступа к устройствам
+
+- Шифрование
+
+- Снята ли на устройстве защита или имеется ли административный доступ
+
+- Минимально допустимая версия ОС
+
+- Максимально допустимая версия ОС
+
+- Должно ли устройство находиться на уровне защиты мобильных устройств от угроз или ниже этого уровня
+
+Вы также можете использовать политики соответствия для отслеживания состояния соответствия на устройствах.
+
+### <a name="device-compliance-requirements"></a>Требования соответствия устройств
+
+Требования соответствия — это такие правила, как требование шифрования или установки ПИН-кода устройства. Это правило можно указать, как обязательное или необязательное для политики соответствия.
+
+<!---### Actions for noncompliance
+
+You can specify what needs to happen when a device is determined as noncompliant. This can be a sequence of actions during a specific time.
+When you specify these actions, Intune will automatically initiate them in the sequence you specify. See the following example of a sequence of
+actions for a device that continues to be in the noncompliant status for
+a week:
+
+-   When the device is first determined to be non-compliant, an email with noncompliant notification is sent to the user.
+
+-   3 days after initial noncompliance state, a follow up reminder is sent to the user.
+
+-   5 days after initial noncompliance state, a final reminder with a notification that access to company resources will be blocked on the device in 2 days if the compliance issues are not remediated is sent to the user.
+
+-   7 days after initial noncompliance state, access to company resources is blocked. This requires that you have conditional access policy that specifies that access from noncompliant devices should    be blocked for services such as Exchange and SharePoint.
+
+### Grace Period
+
+This is the time between when a device is first determined as
+noncompliant to when access to company resources on that device is blocked. This time allows for time that the user has to resolve
+compliance issues on the device. You can also use this time to create your action sequences to send notifications to the user before their access is blocked.
+
+Remember that you need to implement conditional access policies in addition to compliance policies in order for access to company resources to be blocked.--->
 
 ##  <a name="pre-requisites"></a>Предварительные условия
 
--   Оформлена подписка на Intune.
+Чтобы использовать политики соответствия устройств в Intune, необходимы следующие подписки.
 
--   Подписка на Azure Active Directory
+- Intune EMS
 
-##  <a name="supported-platforms"></a>Поддерживаемые платформы:
+- Azure AD Premium
+
+###  <a name="supported-platforms"></a>Поддерживаемые платформы:
 
 -   Android
 
 -   iOS
+
+-   macOS (предварительная версия)
 
 -   Windows 8.1
 
@@ -51,32 +94,48 @@ ms.lasthandoff: 07/01/2017
 
 -   Windows 10
 
-##  <a name="azure-portal-workflow"></a>Рабочий процесс портала Azure
+> [!IMPORTANT]
+> Для отправки своего состояния соответствия устройства должны быть зарегистрированы в Intune.
 
-Ниже объясняется, как создавать политики соответствия устройств и управлять ими на портале Intune Azure.
+## <a name="how-intune-device-compliance-policies-work-with-azure-ad"></a>Политики соответствия устройств Intune в Azure AD
 
-<!---### Overview
+Когда устройство регистрируется в Intune, происходит регистрация в Azure AD, при которой в атрибуты устройства в Azure AD добавляется дополнительная информация. Один из основных параметров устройства — его состояние соответствия, которое используется политиками условного доступа для запрета или разрешения доступа к электронной почте и другим корпоративным ресурсам.
 
-When you choose the **Set device compliance** workload, the blade opens with an  **Overview** section that displays a summary view of your compliance policies that you have created and the status of the devices they have been applied to. If you
-don’t have any policies configured yet, the overview will just include the various reports but with no data.--->
+- См. дополнительные сведения о [процессе регистрации Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-device-registration-overview).
 
-### <a name="manage"></a>управление
+##  <a name="ways-to-use-device-compliance-policies"></a>Способы использования политик соответствия устройств
 
-Вы можете создавать, изменять и удалять политики соответствия требованиям. Здесь вы также можете назначать политики пользователям.
+### <a name="with-conditional-access"></a>С условным доступом
+Политику соответствия с условным доступом можно использовать для предоставления доступа к электронной почте и другим корпоративным ресурсам только тем устройствам, которые отвечают определенным правилам политики.
 
-<!---### Monitor
+### <a name="without-conditional-access"></a>Без условного доступа
+Политики соответствия устройств также можно использовать независимо от условного доступа. При независимом использовании политики соответствия происходит оценка целевых устройств и вывод сведений о них с указанием состояния соответствия. Например, вы можете получить отчет о количестве незашифрованных устройств либо о количестве устройств со снятой защитой или с административным доступом. Однако если политики соответствия используются независимо друг от друга, доступ к корпоративным ресурсам не ограничивается.
 
-This section is a detailed view of what you see in the **Overview**. A list of all the reports are displayed in this section and you can interactively drill down through each of these reports.--->
+Политика соответствия развертывается для пользователей. При развертывании политики соответствия для пользователя его устройства проверяются на соответствие. Дополнительные сведения о том, сколько времени требуется мобильным устройствам для получения политики после развертывания, см. в статье "Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune".
 
-### <a name="setup"></a>Настройка
+##  <a name="using-device-compliance-policies-in-the-intune-classic-portal-vs-azure-portal"></a>Использование политик соответствия устройств: классический портал Intune и портал Azure;
 
-Период действия состояния соответствия
+Обратите внимание на основные отличия — это поможет вам перейти на новый процесс работы с политиками соответствия устройств на портале Azure.
+
+- На портале Azure политики соответствия создаются отдельно для каждой поддерживаемой платформы.
+- На классическом портале Intune для всех поддерживаемых платформ использовалась одна общая политика соответствия устройств.
+
+<!--- -   In the Azure portal, you have the ability to specify actions and notifications that are intiated when a device is determined to be noncompliant. This ability does not exist in the Intune admin console.
+
+-   In the Azure portal, you can set a grace period to allow time for the end-user to get their device back to compliance status before they completely lose the ability to get company data on their device. This is not available in the Intune admin console.--->
+
+##  <a name="migrate-device-compliance-policies-from-the-intune-classic-portal-to-the-azure-portal"></a>Перенос политик соответствия устройств с классического портала Intune на портал Azure
+
+Политики соответствия устройств, созданные на [классическом портале Intune](https://manage.microsoft.com), не появятся на новом [портале Azure для Intune](https://portal.azure.com). Но их по-прежнему можно будет назначать пользователям и контролировать с классического портале Intune.
+
+Если вы хотите воспользоваться новыми возможностями портала Azure в этой области, вам нужно будет создать политики соответствия устройств уже на нем. Если пользователю, которому назначена политика соответствия устройств на классическом портале Intune, назначить новую политику соответствия устройств на портале Azure, последняя будет иметь более высокий приоритет, чем созданная на классическом портале Intune.
 
 ##  <a name="next-steps"></a>Дальнейшие действия
-[Создание политики соответствия для Android](compliance-policy-create-android.md)
 
-[Создание политики соответствия для Android for Work](compliance-policy-create-android-for-work.md)
+Создайте политику соответствия устройств для следующих платформ.
 
-[Создание политики соответствия для iOS](compliance-policy-create-ios.md)
-
-[Создание политики соответствия для Windows](compliance-policy-create-windows.md)
+- [Android](compliance-policy-create-android.md)
+- [Android for Work](compliance-policy-create-android-for-work.md)
+- [iOS](compliance-policy-create-ios.md)
+- [macOS](compliance-policy-create-mac-os.md)
+- [Windows](compliance-policy-create-windows.md)
