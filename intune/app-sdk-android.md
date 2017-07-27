@@ -5,7 +5,7 @@ keywords: "Пакет SDK"
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 06/12/2017
+ms.date: 07/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 403917adb1fb1156f0ed0027a316677d1e4f2f84
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: a11b094a896a2358d8e414cc248976fd34bad38b
+ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 07/20/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -83,7 +83,7 @@ ms.lasthandoff: 07/03/2017
 
 Например, если `AppSpecificActivity` взаимодействует со своим родительским элементом (например, вызывая `super.onCreate()`), `MAMActivity` является суперклассом.
 
-Типичные приложения Android работают в одиночном режиме и обращаются к системе через свой объект [**Context**](https://developer.android.com/reference/android/content/Context.html). С другой стороны, приложения с внедренным пакетом SDK для приложений Intune работают в двойном режиме. Эти приложения по-прежнему получают доступ к системе через объект `Context`. В зависимости от используемого базового `Activity` объект `Context` будет предоставляться системой Android или будет интеллектуально мультиплексирован между ограниченным представлением системы и `Context`, предоставляемым системой Android.
+Типичные приложения Android работают в одиночном режиме и обращаются к системе через свой объект [**Context**](https://developer.android.com/reference/android/content/Context.html). С другой стороны, приложения с внедренным пакетом SDK для приложений Intune работают в двойном режиме. Эти приложения по-прежнему получают доступ к системе через объект `Context`. В зависимости от используемого базового `Activity` объект `Context` будет предоставляться системой Android или будет интеллектуально мультиплексирован между ограниченным представлением системы и `Context`, предоставляемым системой Android. Унаследовав от одной из точек входа MAM, вы можете безопасно использовать `Context` обычным образом, например создавая `Activity` классы и используя `PackageManager`.
 
 
 ## <a name="replace-classes-methods-and-activities-with-their-mam-equivalent"></a>Замена классов, методов и действий их эквивалентом MAM
@@ -136,7 +136,7 @@ ms.lasthandoff: 07/03/2017
 
 
 ### <a name="renamed-methods"></a>Переименованные методы
-Унаследовав от одной из точек входа MAM, вы можете безопасно использовать `Context` обычным образом, например создавая `Activity` классы и используя `PackageManager`.
+
 
 Часто метод, доступный в классе Android, отмечается как окончательный в замещающем классе MAM. В этом случае замещающий класс MAM предоставляет метод с таким же именем (обычно добавляется суффикс `MAM`), который должен быть переопределен вместо исходного. Например, при наследовании от `MAMActivity` вместо переопределения `onCreate()` и вызова `super.onCreate()` объекту `Activity` необходимо переопределить `onMAMCreate()` и вызвать `super.onMAMCreate()`. Компилятор Java должен налагать окончательные ограничения во избежание случайного переопределения исходного метода вместо его эквивалента MAM.
 
@@ -146,7 +146,7 @@ ms.lasthandoff: 07/03/2017
 ### <a name="manifest-replacements"></a>Замены в манифесте
 Обратите внимание, что вам может потребоваться выполнить некоторые описанные выше замены класса в манифесте и коде Java. Примечание.
 * Ссылки на манифест `android.support.v4.content.FileProvider` необходимо заменить `com.microsoft.intune.mam.client.support.v4.content.MAMFileProvider`.
-
+* Если приложению не нужен собственный производный класс приложения, нужно задать `com.microsoft.intune.mam.client.app.MAMApplication` как имя класса приложений, которое используется в манифесте.
 
 ## <a name="sdk-permissions"></a>Разрешения пакета SDK
 
@@ -198,7 +198,7 @@ public interface MAMLogHandlerWrapper {
 
 ## <a name="enable-features-that-require-app-participation"></a>Включение функций, требующих содействия со стороны приложения
 
-Есть несколько политик защиты приложений, которые пакет SDK не может реализовать самостоятельно. Приложение может управлять своим поведением для выполнения этих функций, используя несколько интерфейсов API, которые находятся в указанном ниже интерфейсе `AppPolicy`.
+Есть несколько политик защиты приложений, которые пакет SDK не может реализовать самостоятельно. Приложение может управлять своим поведением для выполнения этих функций, используя несколько интерфейсов API, которые находятся в указанном ниже интерфейсе `AppPolicy`. Чтобы извлечь экземпляр `AppPolicy`, используйте `MAMPolicyManager.getPolicy`.
 
 ```java
 /**
@@ -267,7 +267,7 @@ String toString();
 ```
 
 > [!NOTE]
-> `MAMComponents.get(AppPolicy.class)` всегда будет возвращать политику приложений, отличную от NULL, даже если устройство или приложение не управляются Intune.
+> `MAMPolicyManager.getPolicy` всегда будет возвращать политику приложений, отличную от NULL, даже если устройство или приложение не управляются Intune.
 
 ### <a name="example-determine-if-pin-is-required-for-the-app"></a>Пример. Определение необходимости использования ПИН-кода в приложении
 
@@ -321,13 +321,13 @@ SaveLocation service, String username);
 
     * SaveLocation.ONEDRIVE_FOR_BUSINESS
     * SaveLocation.LOCAL
-    * SaveLocation.OTHER
+    * SaveLocation.SHAREPOINT
 
 Предыдущий метод, с помощью которого можно определить, разрешает ли пользовательская политика сохранять данные в разных расположениях, представлен `getIsSaveToPersonalAllowed()` в рамках того же класса **AppPolicy**. Эта функция сейчас является **устаревшей** и не должна больше использоваться; следующий вызов эквивалентен `getIsSaveToPersonalAllowed()`:
 
 ```java
 
-MAMComponents.get(AppPolicy.class).getIsSaveToLocationAllowed(SaveLocation.LOCAL, userNameInQuestion);
+MAMPolicyManager.getPolicy(currentActivity).getIsSaveToLocationAllowed(SaveLocation.LOCAL, userNameInQuestion);
 ```
 
 >[!NOTE]
@@ -746,15 +746,19 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
 ## <a name="multi-identity-optional"></a>Использование нескольких удостоверений (необязательно)
 
 ### <a name="overview"></a>Обзор
-По умолчанию пакет SDK для приложений Intune применяет политику для всего приложения. Множественная идентификация — это дополнительная функция защиты приложений Intune, которую можно включить, чтобы разрешить применять политики на уровне удостоверения. Для этого требуется намного больше действий со стороны приложения, чем при использовании других функций защиты приложений.
+По умолчанию пакет SDK для приложений Intune применяет политику ко всему приложению. Множественная идентификация — это дополнительная функция защиты приложений Intune, которую можно включить, чтобы разрешить применять политики на уровне удостоверения. Для этого требуется намного больше действий со стороны приложения, чем при использовании других функций защиты приложений.
 
-Приложение _должно_ информировать пакет SDK приложений о намерении изменить активное удостоверение, а пакет SDK, в свою очередь, будет уведомлять приложение о том, что удостоверение необходимо заменить. Когда приложение или устройство будет зарегистрировано пользователем, пакет SDK будет использовать это удостоверение, считая его основным управляемым удостоверением Intune. Другие пользователи в приложении будут рассматриваться как неуправляемые и не имеющие ограничений для параметров политик.
+Приложение *обязано* уведомить пакет SDK о том, что оно собирается сменить активное удостоверение. В некоторых случаях пакет SDK также будет уведомлять приложение, когда удостоверение требуется заменить. В большинстве случаев MAM не может знать, какие данные сейчас отображаются в пользовательском интерфейсе или используются в потоке, и при задании удостоверения полагается на приложение, чтобы избежать утечки данных. В следующих разделах будут отмечен ряд сценариев, в которых требуется действие от приложений.
+
+> [!NOTE]
+>  Если приложение не участвует должным образом во взаимодействии, возможна утечка данных или другие проблемы с безопасностью.
+
+Когда приложение или устройство будет зарегистрировано пользователем, пакет SDK будет использовать это удостоверение, считая его основным управляемым удостоверением Intune. Другие пользователи в приложении будут рассматриваться как неуправляемые и не имеющие ограничений для параметров политик.
 
 > [!NOTE]
 > Сейчас поддерживается только одно управляемое удостоверение Intune на устройство.
 
 Обратите внимание, что удостоверение определяется просто в виде строки. Удостоверения задаются **без учета регистра**, а запросы удостоверения, направляемые к пакету SDK, могут возвращать удостоверения с использованием другого регистра.
-
 
 ### <a name="enabling-multi-identity"></a>Включение множественной идентификации
 
@@ -774,7 +778,9 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
   2. Уровень контекста (как правило, действия).
   3. Уровень процесса.
 
-Удостоверение, определенное на уровне потока, заменяет удостоверение, определенное на уровне контекста, которое, в свою очередь, заменяет удостоверение, определенное на уровне процесса. Удостоверение, определенное на уровне контекста, используется только в соответствующих связанных сценариях. Операции ввода-вывода файлов, например, не имеют связанного контекста. Вы можете использовать следующие методы в `MAMPolicyManager`, чтобы определить удостоверение и получить значения удостоверений, определенные ранее.
+Удостоверение, определенное на уровне потока, заменяет удостоверение, определенное на уровне контекста, которое, в свою очередь, заменяет удостоверение, определенное на уровне процесса. Удостоверение, заданное в контексте, используется только в соответствующих связанных сценариях. Например, с операциями ввода-вывода файлов никакой контекст не связан. Чаще всего приложения задают в качестве удостоверения контекста действие. Приложение *не должно* отображать данные для управляемого удостоверения, если оно не совпадает с удостоверением действия. В общем случае удостоверение уровня процесса помогает, только если приложение в любой момент работает только с одним пользователем во всех потоках. Во многих приложениях это не требуется.
+
+Вы можете использовать следующие методы в `MAMPolicyManager`, чтобы определить удостоверение и получить значения удостоверений, определенные ранее.
 
 ```java
   public static void setUIPolicyIdentity(final Context context, final String identity, final MAMSetUIIdentityCallback mamSetUIIdentityCallback);
@@ -797,8 +803,8 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
   public static AppPolicy getPolicy();
 
   /**
-   * Get the currently applicable app policy, taking the context
-   * identity into account.
+  * Get the current app policy. This does NOT take the UI (Context) identity into account.
+   * If the current operation has any context (e.g. an Activity) associated with it, use the overload below.
    */
   public static AppPolicy getPolicy(final Context context);
 
@@ -820,9 +826,11 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
 | Возвращаемое значение | Сценарий |
 |--|--|
 | SUCCEEDED | Удостоверение изменено. |
-| NOT_ALLOWED | Изменение удостоверения запрещено. <br><br>Это происходит при попытке переключиться на другого управляемого пользователя, который относится к той же организации, что и зарегистрированный пользователь. Это также происходит при попытке определить удостоверение на уровне пользовательского интерфейса (контекста), когда в текущем потоке указано другое удостоверение. |
+| NOT_ALLOWED | Изменение удостоверения запрещено. Изменение удостоверения запрещено. Это происходит при попытке задать удостоверение на уровне пользовательского интерфейса (контекста), когда указано другое удостоверение для текущего потока. |
 | CANCELLED | Пользователь отменил изменение удостоверения (как правило, при нажатии кнопки возврата в запросе PIN-кода или аутентификации). |
 | FAILED | Изменить удостоверение не удалось по неизвестной причине.|
+
+Приложение *обязано* проверить, что удостоверение заменено, прежде чем отображать или использовать корпоративные данные. Замена удостоверений процессов и потоков сейчас всегда будет выполняться для приложений с поддержкой нескольких удостоверений, но мы оставляем за собой право добавить условия для сбоев. Замена удостоверений пользовательского интерфейса может не сработать, если аргументы недопустимые, если она конфликтует с удостоверением потока или если пользователь не выполнит условные требования для запуска (например, нажмет кнопку «Назад» на экране ПИН-кода).
 
 
 Если удостоверение задается на уровне контекста, результаты передаются асинхронно. Если контекстом является действие, пакет SDK не сможет проверить изменение удостоверения, пока не будет выполнен условный запуск. Для этого пользователю может потребоваться ввести PIN-код или данные корпоративной учетной записи. Для получения этого результата приложение должно реализовать `MAMSetUIIdentityCallback`, хотя вы можете передать пустое значение для этого параметра.
@@ -927,10 +935,10 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
 
   ```java
     public final class MAMFileProtectionManager {
+    /**
+         * Protect a file. This will synchronously trigger whatever protection is required for the 
+           file, and will tag the file for future protection changes.
 
-        /**
-         * Protect a file. This will synchronously trigger whatever protection is required for the file, and will tag the file for
-         * future protection changes.
          *
          * @param identity
          *            Identity to set.
@@ -940,23 +948,37 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
          *             If the file cannot be changed.
          */
         public static void protect(final File file, final String identity) throws IOException;
+        
+        /**
+        * Protect a file obtained from a content provider. This is intended to be used for
+        * sdcard (whether internal or removable) files accessed through the Storage Access Framework.
+        * It may also be used with descriptors referring to private files owned by this app.
+        * It is not intended to be used for files owned by other apps and such usage will fail. If
+        * creating a new file via a content provider exposed by another MAM-integrated app, the new
+        * file identity will automatically be set correctly if the ContentResolver in use was
+        * obtained via a Context with an identity or if the thread identity is set.
+        *
+        * This will synchronously trigger whatever protection is required for the file, and will tag
+        * the file for future protection changes. If an identity is set on a directory, it is set
+        * recursively on all files and subdirectories. If MAM is operating in offline mode, this
+        * method will silently do nothing.
+        *
+        * @param identity
+        *       Identity to set.
+        * @param file
+        *       File to protect.
+        *
+        * @throws IOException
+        *       If the file cannot be protected.
+
+        */
+        public static void protect(final ParcelFileDescriptor file, final String identity) throws IOException;
 
         /**
          * Get the protection info on a file.
          *
          * @param file
          *            File or directory to get information on.
-         * @return File protection info, or null if there is no protection info.
-         * @throws IOException
-         *             If the file cannot be read or opened.
-         */
-        public static MAMFileProtectionInfo getProtectionInfo(final File file) throws IOException;
-
-        /**
-         * Get the protection info on a file.
-         *
-         * @param file
-         *            File to get information on.
          * @return File protection info, or null if there is no protection info.
          * @throws IOException
          *             If the file cannot be read or opened.
@@ -970,6 +992,19 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
     }
 
   ```
+#### <a name="app-responsibility"></a>Ответственность приложения
+MAM не может автоматически определить связь между читаемыми файлами и отображаемыми данными в `Activity`. Приложения *обязаны* должным образом задать удостоверение пользовательского интерфейса, прежде чем отображать корпоративные данные. Это относится и к данным, прочитанным из файлов. Если файл получен извне приложения (из `ContentProvider` или прочитан из общего доступного для записи расположения), приложение *обязано* попытаться определить удостоверение файла (с использованием `MAMFileProtectionManager.getProtectionInfo`), прежде чем отображать прочитанные из файла сведения. Если `getProtectionInfo` сообщает о ненулевом и непустом удостоверении, удостоверение пользовательского интерфейса *обязано* быть назначено таким же (с использованием `MAMActivity.switchMAMIdentity` или `MAMPolicyManager.setUIPolicyIdentity`). Если замена удостоверения не сработает, данные из файла *не должны* отображаться.
+
+Пример последовательности работы
+  * Пользователь выбирает документ, который нужно открыть в приложении.
+  * В ходе открытия, перед чтением данных с диска приложение подтверждает удостоверение, которое следует использовать для отображения содержимого.
+    * MAMFileProtectionInfo info = MAMFileProtectionManager.getProtectionInfo(docPath)
+    * if(info)   MAMPolicyManager.setUIPolicyIdentity(activity, info.getIdentity(), callback)
+    * Приложение ожидает отправки результата в обратный вызов.
+    * Если происходит сбой отправленного результата, приложение не отображает документ.
+  * Приложение открывает и обрабатывает файл.
+
+## <a name="offline-scenarios"></a>Автономные сценарии
 
 Удостоверение файла маркируется как чувствительное к автономному режиму. Необходимо учитывать следующее:
 
@@ -1093,6 +1128,150 @@ public final class MAMDataProtectionManager {
 
 Если для приложения с поддержкой множественной идентификации требуется стандартная выборочная очистка MAM, которая, тем не менее, должна выполняться _**самостоятельно**_, такое приложение необходимо зарегистрировать для использования уведомлений `WIPE_USER_AUXILIARY_DATA`. Такие уведомления будут отправляться пакетом SDK непосредственно перед выполнением стандартной выборочной очистки MAM. Приложение никогда не следует регистрировать для WIPE_USER_DATA и WIPE_USER_AUXILIARY_DATA.
 
+## <a name="enabling-mam-targeted-configuration-for-your-android-applications-optional"></a>Включение целевой конфигурации MAM для приложений Android (необязательно)
+Вы можете настроить в консоли Intune пары «ключ-значение» для конкретных приложений. Intune никак не интерпретирует эти пары, они просто передаются в приложение. Приложения, которым нужно получить такую конфигурацию, могут использовать для этого классы `MAMAppConfigManager` и `MAMAppConfig`. Если на одно приложение нацелены несколько политик, возможно, для одного ключа доступно несколько конфликтующих значений.
+
+### <a name="example"></a>Пример
+```
+MAMAppConfigManager configManager = MAMComponents.get(MAMAppConfigManager.class);
+String identity = "user@contoso.com"
+MAMAppConfig appConfig = configManager.getAppConfig(identity);
+LOGGER.info("App Config Data = " + (appConfig == null ? "null" : appConfig.getFullData()));
+String valueToUse = null;
+if (appConfig.hasConflict("foo")) {
+    List<String> values = appConfig.getAllStringsForKey("foo");
+    for (String value : values) {
+        if (isCorrectValue(value)) {
+            valueToUse = value;
+        }
+    }
+} else {
+    valueToUse = appConfig.getStringForKey("foo", MAMAppConfig.StringQueryType.Any);
+}
+LOGGER.info("Found value " + valueToUse);
+```
+
+### <a name="mamappconfig-reference"></a>Ссылка MAMAppConfig
+
+```
+public interface MAMAppConfig {
+    /**
+     * Conflict resolution types for Boolean values.
+     */
+    enum BooleanQueryType {
+        /**
+         * In case of conflict, arbitrarily picks one. This is not guaranteed to return the same value every time.
+         */
+        Any,
+        /**
+         * In case of conflict, returns true if any of the values are true.
+         */
+        Or,
+        /**
+         * In case of conflict, returns false if any of the values are false.
+         */
+        And
+    }
+
+    /**
+     * Conflict resolution types for integer and double values.
+     */
+    enum NumberQueryType {
+        /**
+         * In case of conflict, arbitrarily picks one. This is not guaranteed to return the same value every time.
+         */
+        Any,
+        /**
+         * In case of conflict, returns the minimum Integer.
+         */
+        Min,
+        /**
+         * In case of conflict, returns the maximum Integer.
+         */
+        Max
+    }
+
+    /**
+     * Conflict resolution types for Strings.
+     */
+    enum StringQueryType {
+        /**
+         * In case of conflict, arbitrarily picks one. This is not guaranteed to return the same value every time.
+         */
+        Any,
+        /**
+         * In case of conflict, returns the first result ordered alphabetically.
+         */
+        Min,
+        /**
+         * In case of conflict, returns the last result ordered alphabetically.
+         */
+        Max
+    }
+
+    /**
+     * Retrieve the List of Dictionaries containing all the custom
+     *  config data sent by the MAMService. This will return every
+     * Application Configuration setting available for this user, one
+     *  mapping for each policy applied to the user.
+     */
+    List<Map<String, String>> getFullData();
+
+    /**
+     * Returns true if there is more than one targeted custom config setting for the key provided. 
+     */
+    boolean hasConflict(String key);
+
+    /**
+     * @return a Boolean value for the given key if it can be coerced into a Boolean, or 
+     * null if none exists or it cannot be coerced.
+     */
+    Boolean getBooleanForKey(String key, BooleanQueryType queryType);
+
+    /**
+     * @return a Long value for the given key if it can be coerced into a Long, or null if none exists or it cannot be coerced.
+     */
+    Long getIntegerForKey(String key, NumberQueryType queryType);
+
+    /**
+     * @return a Double value for the given key if it can be coerced into a Double, or null if none exists or it cannot be coerced.
+     */
+    Double getDoubleForKey(String key, NumberQueryType queryType);
+
+    /**
+     * @return a String value for the given key, or null if none exists.
+     */
+    String getStringForKey(String key, StringQueryType queryType);
+
+    /**
+     * Like getBooleanForKey except returns all values if multiple are present.
+     */
+    List<Boolean> getAllBooleansForKey(String key);
+
+    /**
+     * Like getIntegerForKey except returns all values if multiple are present.
+     */
+    List<Long> getAllIntegersForKey(String key);
+
+    /**
+     * Like getDoubleForKey except returns all values if multiple are present.
+     */
+    List<Double> getAllDoublesForKey(String key);
+
+    /**
+     * Like getStringForKey except returns all values if multiple are present.
+     */
+    List<String> getAllStringsForKey(String key);
+}
+```
+
+### <a name="notification"></a>Уведомление
+Конфигурация приложения добавляет новый тип уведомления.
+* **REFRESH_APP_CONFIG**. Это уведомление отправляется в `MAMUserNotification` и сообщает приложению о том, что доступны новые данные конфигурации приложения.
+
+Дополнительные сведения о возможностях API Graph при работе со значениями целевой конфигурации MAM см. в [справочнике по API Graph для целевой конфигурации MAM](https://graph.microsoft.io/en-us/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create). <br>
+
+Дополнительные сведения о создании целевой политики конфигурации приложений MAM в Android см. в статье [Использование политик конфигурации приложений Microsoft Intune для Android](https://docs.microsoft.com/en-us/intune/app-configuration-policies-use-android) в разделе, посвященном целевой конфигурации приложений MAM.
 
 ## <a name="style-customization-optional"></a>Настройка стиля (необязательно)
 
@@ -1141,18 +1320,22 @@ public final class MAMDataProtectionManager {
 1.  Предел в 65 тысяч для полей.
 2.  Предел в 65 тысяч для методов.
 
-
-
 ### <a name="policy-enforcement-limitations"></a>Ограничения применения политики
 
 * **Снимок экрана**: пакет SDK не может применить новое значение параметра для снимка экрана в действиях, которые уже прошли через Activity.onCreate. Это может привести к тому, что в течение определенного времени, когда приложение настроено на отключение снимков экрана, снимки экрана по-прежнему могут создаваться.
 
 * **Использование сопоставителей содержимого**. В Intune политика передачи или получения может полностью или частично блокировать использование сопоставителя содержимого для доступа к поставщику содержимого в другом приложении. Это приводит к тому, что методы ContentResolver возвращают значение NULL или выдают значение сбоя (например, при блокировке `openOutputStream` выдает исключение `FileNotFoundException` ). Приложение может определить, вызван ли (и может ли быть вызван) сбой записи данных через сопоставитель политики, выполнив вызов:
+    ```java
+    MAMPolicyManager.getPolicy(currentActivity).getIsSaveToLocationAllowed(contentURI);
+    ```
+    Либо проверить отсутствие связанных действий.
 
     ```java
-    MAMComponents.get(AppPolicy.class).getIsSaveToLocationAllowed(contentURI);
+    MAMPolicyManager.getPolicy().getIsSaveToLocationAllowed(contentURI);
     ```
 
+    Во втором случае приложения с несколькими удостоверениями обязательно должны задать нужное удостоверение потока (или передать явное удостоверение в вызов `getPolicy`).
+    
 ### <a name="exported-services"></a>Экспортированные службы
 
  Файл AndroidManifest.xml, входящий в состав пакета SDK для приложений Intune, содержит объект **MAMNotificationReceiverService**, который должен быть экспортированной службой, чтобы разрешить корпоративному порталу отправлять уведомления в приложение с расширенными возможностями. Служба проверяет вызывающий объект, чтобы убедиться, что корпоративный портал может отправлять уведомления.

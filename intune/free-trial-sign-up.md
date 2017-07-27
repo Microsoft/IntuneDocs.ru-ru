@@ -1,7 +1,7 @@
 ---
-title: "Зарегистрируйтесь для получения 30-дневной бесплатной пробной версии."
-titleSuffix: Intune on Azure
-description: "Регистрация для использования Intune в Azure.\""
+title: "Регистрация для использования 30-дневной бесплатной пробной версии Microsoft Intune"
+titleSuffix: 
+description: "Регистрация для использования 30-дневной бесплатной пробной версии Microsoft Intune."
 keywords: 
 author: lindavr
 ms.author: lindavr
@@ -13,22 +13,22 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
-ms.custom: intune-azure
-ms.openlocfilehash: 7dafdb974dd975eaa7f3268119de6c047c50f858
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.custom: 
+ms.openlocfilehash: de86b6c9938d4be3f90d62e96080d8b967886792
+ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 07/18/2017
 ---
-# <a name="sign-up-for-a-microsoft-intune-free-trial-for-the-azure-portal"></a>Регистрация для использования бесплатной пробной версии Microsoft Intune для работы с порталом Azure
+# <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Регистрация для использования бесплатной пробной версии Microsoft Intune
 
 
 В этой статье рассматривается регистрация для использования пробной версии Intune для работы с порталом Azure.
 
 1. На странице [регистрации в Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20) заполните форму регистрации для работы с пробной подпиской.
-account-sign-up.md
+* Если для пробной версии Intune вы хотите использовать имеющуюся рабочую или учебную учетную запись, следуйте [этим инструкциям по входу](/intune/account-sign-up).
 
-  Если большая часть ваших ИТ-операций и пользователей поддерживают региональные параметры, отличные от ваших, эти параметры можно задать в раскрывающемся списке **Where's your company located?** (Где расположена ваша компания?).
+* Если большая часть ваших ИТ-операций и пользователей поддерживают региональные параметры, отличные от ваших, эти параметры можно задать в раскрывающемся списке **Where's your company located?** (Где расположена ваша компания?).
 
 2. По завершении регистрации вы получаете сообщение со сведениями о новой учетной записи. <br/> ![Изображение со сведениями об учетной записи](./media/2-end-of-sign-up-process.png) <br/>Если на этом этапе щелкнуть **Можно начинать**, вы перейдете в Центр администрирования Office 365, где можно добавить пользователей в свою тестовую среду. <br/><br/>Однако если вы хотите перейти непосредственно на портал Intune Azure, откройте новое окно браузера и введите в адресную строку **https://portal.azure.com**. Вы переходите на страницу входа Azure, где нужно использовать предоставленные учетные данные для входа. Используйте этот адрес для входа в пробную версию Intune. <br/> ![Изображение страницы входа на портал Azure](./media/azure-portal-signin.png)
 
@@ -70,8 +70,6 @@ account-sign-up.md
 
 ### <a name="intune-on-azure"></a>Intune на портале Azure
 Дополнительные сведения об [Intune на портале Azure](what-is-intune.md)
-### <a name="classic-intune"></a>Классическая служба Intune
-Сценарий оценки. [Оценка управления мобильными устройствами в Microsoft Intune](https://docs.microsoft.com/intune-classic/understand-explore/mobile-device-management-trial-guide-microsoft-intune)
 
 ### <a name="integration-with-other-products"></a>Интеграция с другими продуктами
 Дополнительные сведения об использовании учетных записей пользователей Azure Active Directory в Intune:
