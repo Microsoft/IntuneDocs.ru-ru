@@ -19,11 +19,9 @@ ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/11/2017
 ---
-# Дополнительные ресурсы по планированию развертывания Intune
-<a id="additional-resources-for-planning-your-intune-deployment" class="xliff"></a>
+# <a name="additional-resources-for-planning-your-intune-deployment"></a>Дополнительные ресурсы по планированию развертывания Intune
 
-## Шаблоны
-<a id="templates" class="xliff"></a>
+## <a name="templates"></a>Шаблоны
 
 Шаблоны Microsoft Excel по таблицам, используемым в руководстве по планированию, можно [скачать](https://gallery.technet.microsoft.com/Intune-deployment-planning-fae156c2?redir=0).
 
@@ -44,8 +42,7 @@ ms.lasthandoff: 07/11/2017
 | | Политика условного доступа|-|
 
 
-## Дополнительные материалы
-<a id="further-reading" class="xliff"></a>
+## <a name="further-reading"></a>Дополнительные материалы
 
 Ознакомьтесь с этими ссылками на дополнительные сведения, которые могут оказаться полезными во время планирования, проектирования и внедрения развертывания Intune.
 

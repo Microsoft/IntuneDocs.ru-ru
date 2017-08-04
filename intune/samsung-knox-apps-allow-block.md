@@ -15,14 +15,17 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8245bb3fa8f08e719df903a70f079f4fdf534ca5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c5403c8b81caf84a0c7d4bd126a0903ac3122539
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в Microsoft Intune
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]В этой статье описано, как создать настраиваемую политику Microsoft Intune, которая создает один из следующих элементов.
+
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+В этом разделе приведены процедуры для создания настраиваемой политики Microsoft Intune, которая создает один из следующих элементов:
 
 - Список приложений, запуск которых заблокирован на конкретном устройстве. Выполнение приложений в этом списке блокируется, даже если они были установлены после применения политики.
 - Список приложений, которые пользователи устройства могут установить из магазина Google Play. Устанавливать можно будет только приложения из списка. Другие приложения невозможно установить из магазина.
