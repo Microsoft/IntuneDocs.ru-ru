@@ -11,10 +11,10 @@ ms.service:
 ms.technology: 
 ms.assetid: GET ONE FROM guidgenerator.com
 ms.openlocfilehash: 68090a038cec49009b6bd0ce0515a075f62483b8
-ms.sourcegitcommit: 02fb1274ae0dc11288f8bd9cd4799af144b8feae
+ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 07/01/2017
 ---
 # <a name="metadata-and-markdown-template"></a>Метаданные и шаблон разметки
 

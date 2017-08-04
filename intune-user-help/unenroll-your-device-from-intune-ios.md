@@ -22,8 +22,7 @@ ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/13/2017
 ---
-# Отмена регистрации устройства iOS в Intune
-<a id="unenroll-your-ios-device-from-intune" class="xliff"></a>
+# <a name="unenroll-your-ios-device-from-intune"></a>Отмена регистрации устройства iOS в Intune
 
 При отмене регистрации устройства iOS в Intune оно больше не сможет получать доступ к ресурсам компании и больше не будет управляться Intune.
 

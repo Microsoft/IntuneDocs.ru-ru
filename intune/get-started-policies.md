@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 06/27/2017
+ms.date: 08/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,15 @@ ms.assetid: 1ac74ba5-7441-44ac-98b5-9d8bb8899747
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 232ec25c34df5e71f70737ca5f0f8a2ef12a05f0
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: dd3279288fe5ea1fec16224c70b4562fcf53555d
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="getting-started-with-policies"></a>Начало работы с политиками
+
+[!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Одной из основных целей начала работы с Intune является регистрация устройств, обеспечивающая их соответствие корпоративным политикам. Политики соответствия не только помогают управлять специализированными типами устройств, такими как корпоративные киоски, но также и личными (BYOD) устройствами, планшетами и устройствами без пользователей.
 

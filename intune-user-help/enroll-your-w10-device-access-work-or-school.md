@@ -22,8 +22,7 @@ ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/13/2017
 ---
-# Регистрация устройства на базе Windows 10 в Intune
-<a id="enroll-your-windows-10-device-in-intune" class="xliff"></a>
+# <a name="enroll-your-windows-10-device-in-intune"></a>Регистрация устройства на базе Windows 10 в Intune
 
 > [!NOTE]
 > Windows 10 работает на устройствах всех типов. Независимо от того, используете ли вы компьютер, телефон или планшет, действия, которые нужно выполнить, одинаковы — даже если они немного отличаются от изображений, приведенных на этой странице.

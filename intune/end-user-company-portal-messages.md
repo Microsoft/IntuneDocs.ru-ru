@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.openlocfilehash: ae0bd848413fc82f68f2ce6e6ac55fe92b9cb989
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 6e3a5e39cf3ee38820b1ff79eb54c019dbb68d29
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>Пояснения к сообщениям в приложении корпоративного портала
 
@@ -97,4 +97,4 @@ ms.lasthandoff: 07/01/2017
 
 
 ### <a name="see-also"></a>См. также
-[What to tell your end users about using Intune](/intune-classic/deploy-use/what-to-tell-your-end-users-about-using-microsoft-intune) (Что нужно сообщить конечным пользователям об использовании Intune)
+[What to tell your end users about using Intune](end-user-educate.md) (Что нужно сообщить конечным пользователям об использовании Intune)
