@@ -8,9 +8,7 @@
 ### [Новые возможности пользовательского интерфейса приложения](whats-new-app-ui.md)
 ### [Архив сведений о новых возможностях (портал Azure)](whats-new-archive.md)
 ### [Архив сведений о новых возможностях (классический портал)](whats-new-archive-classic.md)
-
-<!--## High-level architecture-->
-
+## [Высокоуровневая архитектура](high-level-architecture.md)
 ## [Жизненные циклы устройств и приложений](introduction-device-app-lifecycles.md)
 ### [Жизненный цикл устройства](device-lifecycle.md)
 ### [Жизненный цикл приложения](app-lifecycle.md)
@@ -264,6 +262,8 @@
 
 # Мониторинг и устранение неполадок
 ## [Использование роли оператора службы поддержки](help-desk-operators.md)
+## [Использование хранилища данных Intune](reports-nav-create-intune-reports.md)
+### [Подключение к хранилищу данных с помощью Power BI](reports-proc-get-a-link-powerbi.md)
 
 # Разработка и настройка
 ## [Настройка пользовательских параметров устройства](custom-settings-configure.md)
@@ -288,5 +288,16 @@
 ### [Компонент Xamarin из пакета SDK приложений Intune](app-sdk-xamarin.md)
 ## [Использование API Graph для Intune](intune-graph-apis.md)
 ## [API Graph Intune](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
+## [API хранилища данных Intune](reports-nav-intune-date-warehouse.md)
+<!-- ### [Get data from the Data Warehouse API with a REST client](reports-proc-data-rest.md) -->
+### [Конечная точка API для хранилища данных](reports-api-url.md)
+### [Модель данных для хранилища данных](reports-ref-data-model.md)
+#### [Справочник по сущности даты](reports-ref-date.md)
+#### [Справочник по сущности пользователя](reports-ref-user.md)
+#### [Справочник по сущностям управления мобильными приложениями (MAM)](reports-ref-mobile-app-management.md)
+#### [Справочник по сущностям устройств](reports-ref-devices.md)
+#### [Справочник по сущностям приложения](reports-ref-application.md)
+#### [Справочник по сущностям политики](reports-ref-policy.md)
+<!-- #### [Relationship of Entities](reports-api-entity-relationships.md) !-->
 
 # [Глоссарий](intune-glossary.md)
