@@ -83,7 +83,7 @@
 ### [Настройка регистрации iOS](ios-enroll.md)
 #### [программа регистрации устройств (DEP);](device-enrollment-program-enroll-ios.md)
 #### [Apple School Manager](apple-school-manager-set-up-ios.md)
-#### [Apple Configurator](apple-configurator-setup-assistant-enroll-ios.md)
+#### [Apple Configurator](apple-configurator-enroll-ios.md)
 ### [Настройка регистрации macOS](macos-enroll.md)
 
 ## [Управление устройствами](device-management.md)
@@ -101,6 +101,7 @@
 ### [Удалить пользователя](device-remove-user.md)
 ### [Удаленное управление устройством Android](device-profile-android-teamviewer.md)
 ### [Сброс ПИН-кода для Windows 10](device-windows-pin-reset.md)
+### [Синхронизация устройств](device-sync.md)
 ### [Проверка данных по инвентаризации устройств](device-inventory.md)
 
 <!--### Add and delete users -->
@@ -171,6 +172,7 @@
 ### [Настройка параметров Windows 10 для образовательных учреждений](education-settings-configure.md)
 ### [Настройка параметров iOS для образовательных учреждений](education-settings-configure-ios.md)
 ### [Настройка общих устройств iOS для образовательных учреждений](education-settings-configure-ios-shared.md)
+### [Настройка политик обновления iOS](software-updates-ios.md)
 ### [Настройка параметров Центра обновления Windows для бизнеса](windows-update-for-business-configure.md)
 ### [Настройка сертификатов](certificates-configure.md)
 #### [SCEP](certificates-scep-configure.md)
@@ -254,8 +256,8 @@
 
 ## [Как рассказать пользователям](end-user-educate.md)
 ### [Сообщения Портала организации](end-user-company-portal-messages.md)
-### [Приложения с поддержкой MAM на Android](end-user-mam-apps-android.md)
-### [Приложения с поддержкой MAM на iOS](end-user-mam-apps-ios.md)
+### [Защита приложений на Android](end-user-mam-apps-android.md)
+### [Защита приложений на iOS](end-user-mam-apps-ios.md)
 ### [Как получить приложения Android](end-user-apps-android.md)
 ### [Как получить приложения iOS](end-user-apps-ios.md)
 ### [Как получить приложения Windows](end-user-apps-windows.md)
@@ -276,7 +278,7 @@
 ### [Windows Phone 8.1](custom-settings-windows-phone-8-1.md)
 ### [Windows 10](custom-settings-windows-10.md)
 ### [Android for Work](custom-settings-android-for-work.md)
-## [Подготовка приложений для управления мобильными приложениями](apps-prepare-mobile-application-management.md)
+## [Подготовка бизнес-приложений к защите](apps-prepare-mobile-application-management.md)
 ### [Инструмент упаковки приложений для iOS](app-wrapper-prepare-ios.md)
 ### [Инструмент упаковки приложений для Android](app-wrapper-prepare-android.md)
 ## [Неопубликованные приложения Windows](app-sideload-windows.md)
