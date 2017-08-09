@@ -15,17 +15,17 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a9852759983a4bc68c596146e2f5691893376cfd
-ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
+ms.openlocfilehash: 6b38bf2da70537d07a050fa21be9a2a3062ca84b
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="add-corporate-identifiers"></a>Добавление корпоративных идентификаторов
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Администратор Intune может создать и импортировать файл данных с разделителями-запятыми (CSV), содержащий список серийных номеров или номеров IMEI. Intune назначит корпоративное владение для устройств с этими идентификаторами. Номера IMEI можно объявлять только для всех поддерживаемых платформ. Серийный номер можно объявить только для устройств iOS и Android. Каждый номер IMEI или серийный номер может сопровождаться сведениями, указанными в списке для административных целей.
+Администратор Intune может создать и импортировать файл данных с разделителями-запятыми (CSV), содержащий список серийных номеров или номеров IMEI. Intune назначит корпоративное владение для устройств с этими идентификаторами. Номера IMEI можно объявлять для всех поддерживаемых платформ. Серийный номер можно объявить только для устройств iOS и Android. Каждый номер IMEI или серийный номер может сопровождаться сведениями, указанными в списке для административных целей.
 
 <!-- When you upload serial numbers for company-owned iOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as company-owned. -->
 
