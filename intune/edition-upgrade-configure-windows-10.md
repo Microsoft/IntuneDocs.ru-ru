@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/03/2017
+ms.date: 07/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 30cea0ecfa62e9bbc0200d15eff94782d48a81fa
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 7da261fcb59b8ac90ea412155d093dd09bf41d46
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="how-to-configure-windows-10-edition-upgrades-in-microsoft-intune"></a>Настройка обновлений выпуска Windows 10 в Microsoft Intune
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 07/01/2017
 Перед тем как начать обновление устройств до последней версии, потребуется следующее:
 
 - допустимый ключ продукта для установки новой версии Windows на всех целевых устройствах политики (для выпусков Windows 10 Desktop); Вы можете использовать либо ключи многократной активации (MAK), либо ключи сервера управления ключами (KMS). Или можно использовать файл лицензии Майкрософт, который содержит сведения о лицензии для установки новой версии Windows на всех целевых устройствах, которые подпадают под действие политики (для выпусков Windows 10 Mobile и Windows 10 Holographic).
-- Целевые устройства Windows 10 должны быть зарегистрированы в Microsoft Intune. Политику обновления выпусков нельзя использовать на компьютерах под управлением клиентского программного обеспечения Intune.
+- Целевые устройства Windows 10, которым назначается политика, должны быть зарегистрированы в Microsoft Intune. Политику обновления выпусков нельзя использовать на компьютерах под управлением клиентского программного обеспечения Intune.
 
 ## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
 
@@ -64,5 +64,11 @@ ms.lasthandoff: 07/01/2017
 8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
 
 Созданный профиль отобразится в колонке со списком профилей.
+
+## <a name="next-steps"></a>Дальнейшие действия
+
 Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
+
+>[!NOTE]
+>Если позднее удалить назначение политики, откат версии Windows на устройстве не выполняется и она продолжает нормальную работу.
 

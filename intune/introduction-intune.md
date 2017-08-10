@@ -5,7 +5,7 @@ keywords: "что такое Intune"
 author: Lindavr
 ms.author: lindavr
 manager: angrobe
-ms.date: 05/04/2017
+ms.date: 07/28/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology:
 ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: b1fbc73c0bc3589856f09bd3b9858fef66b82b08
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.custom: 
+ms.openlocfilehash: 53115eba5e5150139b8ff0f359cde279df297d47
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="what-is-intune"></a>Что такое Intune?
 
@@ -37,7 +37,7 @@ Intune тесно интегрируется с Azure Active Directory (Azure A
 ## <a name="how-does-intune-work"></a>Как работает Intune?
 Intune предоставляет функции управления мобильными устройствами (MDM) и управления мобильными приложениями (MAM). Эти функции MDM и MAM Intune используются в наборе сценариев EMS для защиты и обеспечения соответствия данных.  
 
-Способ использования функций MDM и MAM Intune и защиты данных EMS зависит от [бизнес-задач, которые вы пытаетесь решить](#common-business-problems-that-intune-helps-solve). Пример.
+Способ использования функций MDM и MAM Intune и защиты данных EMS зависит от [бизнес-задач, которые вы пытаетесь решить](#common-business-problems-that-intune-helps-solve). Например:
 * Функции MDM будут активно использоваться, если вы создаете пул устройств, которые будут применяться сотрудниками разных смен в розничном магазине.
 * Функции MAM и защиты данных окажутся востребованными, когда вы разрешаете работникам использовать личные устройства для доступа к корпоративным данным (BYOD).  
 * Если вы выдаете информационным работникам корпоративные телефоны, вам потребуется активно использовать все описанные технологии.
@@ -72,10 +72,10 @@ Intune интегрируется с Azure AD, чтобы поддерживат
 
 * [Единый вход](https://docs.microsoft.com/azure/active-directory/active-directory-appssoaccess-whatis)  
 *   [Многофакторная проверка подлинности](https://docs.microsoft.com/multi-factor-authentication/multi-factor-authentication)
-* [Условный доступ для приложения (разрешите доступ, если мобильное приложение содержит корпоративные данные)](app-based-conditional-access-intune.md) ([классическая консоль](/intune-classic/deploy-use/allow-policy-managed-apps-access-to-o365))
-* [Изоляция корпоративных данных от личных данных внутри одного приложения](app-protection-policy.md) ([классическая консоль](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune))
-* [Политика защиты приложений (ПИН-код, шифрование, элемент "Сохранить как", буфер обмена и т. д.)](app-protection-policies.md) ([классическая консоль](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune))
-* [Очистка корпоративных данных из мобильного приложения](/intune-classic/deploy-use/wipe-managed-company-app-data-with-microsoft-intune)
+* [Условный доступ для приложения — разрешите доступ, если мобильное приложение содержит корпоративные данные](app-based-conditional-access-intune.md)
+* [Изоляция корпоративных данных от личных данных внутри одного приложения](app-protection-policy.md)
+* [Политика защиты приложения (ПИН-код, шифрование, элемент "сохранить как", буфер обмена и т. д.)](app-protection-policies.md)
+* [Очистка корпоративных данных из мобильного приложения](apps-selective-wipe.md)
 * [Поддержка управления правами](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
 ![Изображение, показывающее уровни безопасности данных при управлении приложениями](./media/managing-mobile-apps.png)
@@ -110,6 +110,6 @@ Intune интегрируется с Azure AD, чтобы поддерживат
 * [Выдача сотрудникам общих планшетов для ограниченного использования](common-scenarios.md#issue-limited-use-shared-tablets-to-your-employees)
 
 ### <a name="next-steps"></a>Дальнейшие действия
-* Прочитайте о некоторых [стандартных способах использования Intune](common-scenarios.md) ([классическая консоль](/intune-classic/understand-explore/common-ways-to-use-intune)).
-* Ознакомьтесь с продуктом, воспользовавшись [30-дневной пробной версией Intune](free-trial-sign-up.md) ([классическая консоль](/intune-classic/understand-explore/sign-up-for-30-day-trial-microsoft-intune)).
-* Узнайте о [технических требованиях и возможностях](supported-devices-browsers.md) ([классическая консоль](/intune-classic/get-started/what-to-know-before-you-start-microsoft-in)) Intune.
+* Прочитайте о некоторых [стандартных способах использования Intune](common-scenarios.md).
+* Ознакомьтесь с продуктом, воспользовавшись [30-дневной пробной версией Intune](free-trial-sign-up.md).
+* Узнайте о [технических требованиях и возможностях](supported-devices-browsers.md) Intune.

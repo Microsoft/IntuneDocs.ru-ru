@@ -14,11 +14,11 @@ ms.assetid: 00219467-a62e-43b6-954b-3084f54c45ba
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1627627ab1744f963d738dcedde6a772bb3ae663
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: 205c9c52759d5fee2429fe46d19c8882aacafa7a
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="protect-line-of-business-apps-and-data-on-devices-that-are-not-enrolled-in-microsoft-intune"></a>Защита бизнес-приложений и данных на не зарегистрированных в Microsoft Intune устройствах
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 07/18/2017
 
 ##  <a name="step-1-prepare-the-app"></a>Шаг 1. Подготовка приложения
 
-Перед применением политик MAM к приложению сначала нужно создать для него программу-оболочку с помощью инструмента упаковки приложений Microsoft Intune для [iOS](prepare-ios-apps-for-mo/intune/apps-prepare-mobile-application-managementoid](/intune/app-wrapper-prepare-android) или использовать [пакет SDK для приложений Intune](/intune/app-sdk), чтобы вручную интегрировать функции защиты приложений Intune.
+Перед применением политик MAM к приложению сначала нужно упаковать приложение с помощью инструмента упаковки приложений Microsoft Intune для [iOS](/intune/app-wrapper-prepare-ios) и [Android](/intune/app-wrapper-prepare-android) или использовать [пакет SDK для приложений Intune](/intune/app-sdk), чтобы вручную интегрировать функции защиты приложений Intune.
 
 Дополнительные сведения о выборе между инструментом упаковки приложений и пакетом SDK см. в статье [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](/intune/apps-prepare-mobile-application-management).
 
