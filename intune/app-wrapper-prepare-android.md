@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ebea9fe4cbf0c6c788ba4a209132856eda06445e
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: fed97412df96d0bdffaf3b10ad5306a6f56d0066
+ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 08/03/2017
 ---
 # <a name="prepare-android-apps-for-mobile-application-management-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для управления мобильными приложениями с помощью инструмента упаковки для приложений Intune
 
@@ -50,16 +50,7 @@ ms.lasthandoff: 07/18/2017
     > [!NOTE]
     > В некоторых случаях 32-разрядная версия Java может привести к проблемам с памятью. Рекомендуется установить 64-разрядную версию.
 
-- В Android все пакеты приложений (.apk) должны быть подписаны. Используйте средство Java KeyTool для создания учетных данных, необходимых для подписи упакованного выходного приложения. Например, приведенная ниже команда использует исполняемый файл Java keytool.exe, чтобы создавать ключи, которые можно применять для подписи в инструменте упаковки для приложений.
-
-    ```
-    keytool.exe -genkeypair -v -keystore mykeystorefile -alias mykeyalias -keyalg RSA -keysize 2048 -validity 50000
-    ```
-    Этот пример создает пару ключей (открытый ключ и связанный с ним закрытый 2048-битный ключ) с помощью алгоритма RSA. Затем открытый ключ упаковывается в самозаверяющий сертификат X.509 версии 3, который хранится как цепочка сертификатов из одного элемента. Эти цепочка сертификатов и закрытый ключ хранятся в новом хранилище ключей с именем "mykeystorefile" и определяются по псевдониму "mykeyalias". Запись в хранилище ключей действительна в течение 50 000 дней.
-
-    Команда предложит указать пароли для ключа и хранилища ключей. Используйте безопасные пароли, но не забывайте их, так как они потребуются позже для запуска инструмента упаковки для приложений.
-
-    Подробную документацию по Java [KeyTool](http://docs.oracle.com/javase/6/docs/technotes/tools/windows/keytool.html) и Java [KeyStore](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html) можно получить на веб-сайте документации Oracle.
+- В Android все пакеты приложений (.apk) должны быть подписаны. Сведения о **повторном использовании** существующих сертификатов и общее руководство о сертификатах для подписи см. в статье [Повторное использование сертификатов для подписи и упаковка приложений](https://docs.microsoft.com/en-us/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps). Исполняемый файл keytool.exe Java используется для **создания** учетных данных, необходимых для подписи упакованного выходного приложения. Все заданные пароли должны быть безопасными, но не забывайте их, так как они потребуются позже для запуска инструмента упаковки для приложений.
 
 ## <a name="install-the-app-wrapping-tool"></a>Установка инструмента упаковки для приложений
 
@@ -95,7 +86,7 @@ ms.lasthandoff: 07/18/2017
 |**-KeyStorePassword**&lt;SecureString&gt;|Пароль, используемый для расшифровки KEYSTORE-файла. Для Android требуется, чтобы все пакеты приложения (с расширением APK) были подписаны. Используйте средство Java KeyTool, чтобы создать пароль для хранилища ключей. Дополнительные сведения о Java [KeyStore](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html) Java см. здесь.| |
 |**-KeyAlias**&lt;строка&gt;|Имя ключа, используемого для подписания.| |
 |**-KeyPassword**&lt;SecureString&gt;|Пароль, используемый для расшифровки закрытого ключа, который будет использоваться для подписания.| |
-|**-SigAlg**&lt;SecureString&gt;| (Необязательно.) Имя используемого алгоритма подписи. Этот алгоритм должен быть совместим с закрытым ключом.|Примеры: SHA256withRSA, SHA1withRSA, MD5withRSA|
+|**-SigAlg**&lt;SecureString&gt;| (Необязательно.) Имя используемого алгоритма подписи. Этот алгоритм должен быть совместим с закрытым ключом.|Примеры: SHA256withRSA, SHA1withRSA|
 | **&lt;CommonParameters&gt;** | Команда поддерживает общие параметры PowerShell, такие как verbose и debug (необязательно). |
 
 
