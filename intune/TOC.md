@@ -263,7 +263,7 @@
 ### [Как получить приложения Windows](end-user-apps-windows.md)
 
 # Мониторинг и устранение неполадок
-## [Использование роли оператора службы поддержки](help-desk-operators.md)
+## [Помощь пользователям в устранении проблем](help-desk-operators.md)
 ## [Использование хранилища данных Intune](reports-nav-create-intune-reports.md)
 ### [Подключение к хранилищу данных с помощью Power BI](reports-proc-get-a-link-powerbi.md)
 
