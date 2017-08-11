@@ -3,8 +3,8 @@ title: "Параметры политик для защиты приложени
 titleSuffix: Intune on Azure
 description: "В этой статье описываются параметры политик для защиты приложений на устройствах iOS.\""
 keywords: 
-author: andredm7
-ms.author: andredm
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 0f8b08f2-504c-4b38-bea2-b8a4ef0526b8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f9274daf30a89f75c5c664a17a5f890540e9f562
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 5261d3df82525a5b363b6c0ee89821770a4e9e35
+ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/09/2017
 ---
 #  <a name="ios-app-protection-policy-settings"></a>Параметры политик для защиты приложений в iOS
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
