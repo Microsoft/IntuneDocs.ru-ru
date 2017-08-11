@@ -3,8 +3,8 @@ title: "Проверка политик защиты приложений"
 titleSuffix: Intune on Azure
 description: "В этом разделе описывается, как можно протестировать и проверить правильность настройки и работы политики защиты приложений.\""
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: mattbriggs
+ms.author: mabrigg
 manager: angerobe
 ms.date: 01/23/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 15f8a838-0b69-412b-a42e-c6edb61f0cae
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ddfecbcd8709569ff177e6c7021d3e8fdab39290
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 28fcd15d2d2e11e4aa2ba6982fc3cb8567e56a31
+ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="how-to-validate-your-app-protection-policy-setup"></a>Проверка настройки политики защиты приложений
 

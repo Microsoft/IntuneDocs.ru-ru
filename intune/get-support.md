@@ -15,15 +15,15 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9846dfb66becc04e6786ce6e49327cb2fbc75c5c
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 8c761b3e5c1acb36f5604dc3bf1cd9ce08b29494
+ms.sourcegitcommit: 99ffed621855357de427d6fdf7b70d4e543197e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/07/2017
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE[azure_portal](./includes/note-for-both-portals.md)]
 
 Для каждой подписки Microsoft Intune Майкрософт предлагает услуги глобальной, технической и предпродажной поддержки, а также поддержки по выставлению счетов и продлению подписки. Для оплаченных и пробных подписок доступна поддержка в Интернете и по телефону. Техническая поддержка в Интернете доступна только на английском и японском языках. Поддержка по телефону и поддержка выставления счетов по сети доступны на дополнительных языках.
 

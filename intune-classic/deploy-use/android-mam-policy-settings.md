@@ -2,8 +2,8 @@
 title: "Параметры политики MAM для Android"
 description: "В этом разделе описываются параметры политики управления мобильными приложениями для устройств Android."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 04/18/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 785e36bb9354e02e4040b5cf2271cbf6f10c4041
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: e818b6a365ebd4ab1b3c00e42a4dad341debdc75
+ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Параметры политики защиты приложений Android в Microsoft Intune
 
