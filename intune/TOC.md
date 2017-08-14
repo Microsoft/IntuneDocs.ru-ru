@@ -74,6 +74,7 @@
 #### [Ограничения](enrollment-restrictions-set.md)
 #### [Сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md)
 #### [Корпоративные идентификаторы](corporate-identifiers-add.md)
+#### [Многофакторная проверка подлинности](multi-factor-authentication.md)
 #### [Диспетчер регистрации устройств](device-enrollment-manager-enroll.md)
 #### [Сопоставление устройств с группами](device-group-mapping.md)
 ### Настройка регистрации Windows
@@ -291,7 +292,7 @@
 ## [Использование API Graph для Intune](intune-graph-apis.md)
 ## [API Graph Intune](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
 ## [API хранилища данных Intune](reports-nav-intune-date-warehouse.md)
-<!-- ### [Get data from the Data Warehouse API with a REST client](reports-proc-data-rest.md) -->
+### [Получение данных из API хранилища данных через клиент REST](reports-proc-data-rest.md)
 ### [Конечная точка API для хранилища данных](reports-api-url.md)
 ### [Модель данных для хранилища данных](reports-ref-data-model.md)
 #### [Справочник по сущности даты](reports-ref-date.md)
@@ -300,6 +301,6 @@
 #### [Справочник по сущностям устройств](reports-ref-devices.md)
 #### [Справочник по сущностям приложения](reports-ref-application.md)
 #### [Справочник по сущностям политики](reports-ref-policy.md)
-<!-- #### [Relationship of Entities](reports-api-entity-relationships.md) !-->
+<!-- #### [Relationship of Entities](reports-api-entity-relationships.md) -->
 
 # [Глоссарий](intune-glossary.md)
