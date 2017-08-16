@@ -291,7 +291,7 @@
 ### [Компонент Xamarin из пакета SDK приложений Intune](app-sdk-xamarin.md)
 ## [Использование API Graph для Intune](intune-graph-apis.md)
 ## [API Graph Intune](https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview)
-## [API хранилища данных Intune](reports-nav-intune-date-warehouse.md)
+## [API хранилища данных Intune](reports-nav-intune-data-warehouse.md)
 ### [Получение данных из API хранилища данных через клиент REST](reports-proc-data-rest.md)
 ### [Конечная точка API для хранилища данных](reports-api-url.md)
 ### [Модель данных для хранилища данных](reports-ref-data-model.md)
