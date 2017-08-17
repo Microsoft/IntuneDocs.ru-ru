@@ -14,13 +14,13 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 7aad054f0861522174faa01b979083a818c106af
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 066f8668ea37e928455792f512e4e337a1f19c20
+ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/10/2017
 ---
-# <a name="help-users-with-the-troubleshooting-portal-in-microsoft-intune"></a>Помогите пользователям устранить проблемы с помощью портала диагностики в Microsoft Intune
+# <a name="use-the-troubleshooting-portal-to-help-users"></a>Использование портала диагностики для оказания помощи пользователям
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -35,22 +35,21 @@ ms.lasthandoff: 08/03/2017
 -   устройство не получает параметры VPN или Wi-Fi;
 -   сбой при установке приложения.
 
-
 ## <a name="add-help-desk-operators"></a>Добавление операторов службы технической поддержки
 Как администратор Intune вы можете назначить группе пользователей роль оператора службы технической поддержки. Члены этой группы могут использовать портал администрирования для устранения проблем пользователей. Для доступа к порталу Intune каждому оператору службы поддержки требуется лицензия Intune. Вы можете узнать, как [назначить лицензии Intune](licenses-assign.md).
 
 Чтобы добавить пользователей службы технической поддержки, сделайте следующее:
-1. [Добавьте пользователя в Intune](users-add.md), если это необходимо.
+1. [Добавьте пользователей в Intune](users-add.md), если это необходимо.
 2. [Создайте группу службы технической поддержки](groups-add.md) и добавьте в нее пользователей.
-3. [Назначьте роли оператора службы технической поддержки RBAC](role-based-access-control.md#built-in-roles) или [создайте пользовательскую роль](role-based-access-control.md#custom-roles) со следующими разрешениями:
-  - MobileApps: чтение;
-  - ManagedApps: чтение;
-  - ManagedDevices: чтение;
-  - Organization: чтение.
-  - DeviceCompliancePolices: чтение
-  - DeviceConfigurations: чтение
+3. [Назначение встроенной роли оператора службы технической поддержки](role-based-access-control.md#built-in-roles)
 
-  ![Снимок экрана с порталом Intune, показывающий выделенные роли Intune и список встроенных ролей, включая оператора службы технической поддержки](./media/help-desk-user-add.png)
+  ![Снимок экрана портала Intune с выделенными ролями Intune и списком встроенных ролей, включая оператора службы технической поддержки](./media/help-desk-user-add.png). Вы также можете [создать пользовательскую роль](role-based-access-control.md#custom-roles), которую можно изменить для предоставления доступа операторам службы технической поддержки.  Чтобы операторы службы технической поддержки могли устранять проблемы пользователей, им необходимы следующие разрешения:
+    - MobileApps: чтение;
+    - ManagedApps: чтение;
+    - ManagedDevices: чтение;
+    - Organization: чтение.
+    - DeviceCompliancePolices: чтение
+    - DeviceConfigurations: чтение
 
 4. Чтобы разрешить операторам службы технической поддержки просматривать работоспособность службы и направлять в службу поддержки запросы по Intune, [назначьте пользователям разрешения](https://docs.microsoft.com/azure/active-directory/active-directory-users-assign-role-azure-portal) **администратора службы**. Не предоставляйте разрешение **администратора службы Intune**, так как эта роль каталога имеет больше прав, чем требуется операторам.
 

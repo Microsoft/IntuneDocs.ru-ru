@@ -14,11 +14,11 @@ ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f55d99ccf2fb5263ac9c7e0c4c8d0db8208456f5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 90ce9ae6c1f48b6a42cf62f8873621499ba05256
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="whats-new-in-the-intune-classic-console---previous-months"></a>Новые возможности классической консоли Intune — предыдущие месяцы
 
@@ -232,8 +232,8 @@ ms.lasthandoff: 07/01/2017
 
 Изображения "до" и "после" см. на [странице обновлений пользовательского интерфейса](whats-new-app-ui.md).
 
-### <a name="associate-multiple-management-tools-with-the-windows-store-for-business---926135--"></a>Связывание нескольких средств управления с Магазином Windows для бизнеса <!--926135-->
-При использовании нескольких средств управления для развертывания приложений через Магазин Windows для бизнеса ранее можно было связать только одно из них с Магазином Windows для бизнеса. Теперь можно связать с Магазином несколько средств управления, например Intune и Configuration Manager. Дополнительные сведения см. в статье [Управление приложениями, приобретенными в Магазине Windows для бизнеса, с помощью Microsoft Intune](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune#associate-your-windows-store-for-business-account-with-intune).
+### <a name="associate-multiple-management-tools-with-the-microsoft-store-for-business---926135--"></a>Связывание нескольких средств управления с Магазином Майкрософт для бизнеса <!--926135-->
+При использовании нескольких средств управления для развертывания приложений через Магазин Майкрософт для бизнеса ранее можно было связать только одно из них с Магазином Майкрософт для бизнеса. Теперь можно связать с Магазином несколько средств управления, например Intune и Configuration Manager. Дополнительные сведения см. в статье [Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune#associate-your-windows-store-for-business-account-with-intune).
 
 ## <a name="whats-new-in-the-public-preview-of-the-intune-admin-experience-on-azure---736542--"></a>Новые возможности в общедоступной предварительной версии в интерфейсе администрирования Intune в Azure <!--736542-->
 
@@ -346,7 +346,7 @@ __Приложения Intune AV Player, Image Viewer и PDF Viewer больше
 
 __Новый корпоративный портал Microsoft Intune доступен для устройств с Windows 10__. Корпорация Майкрософт выпустила новое [приложение корпоративного портала Microsoft Intune для устройств с Windows 10](https://www.microsoft.com/store/apps/9wzdncrfj3pz). Это приложение, которое использует новый формат Windows 10 Universal, представит пользователю обновленный интерфейс в приложении и аналогичный интерфейс на всех устройствах, компьютерах и мобильных устройствах под управлением Windows 10, при этом оно включает те же функциональные возможности, которые доступны пользователям сейчас.
 
-Это новое приложение также позволит пользователям использовать дополнительные функциональные возможности платформы, такие как единый вход (SSO) и проверка подлинности на основе сертификатов на устройствах с Windows 10. Приложение станет доступно в качестве обновления для существующих установок корпоративного портала Windows 8.1 и Windows Phone 8.1 в Магазине Windows. Дополнительные сведения см. по адресу [aka.ms/intunecp_universalapp](http://aka.ms/intunecp_universalapp).
+Это новое приложение также позволит пользователям использовать дополнительные функциональные возможности платформы, такие как единый вход (SSO) и проверка подлинности на основе сертификатов на устройствах с Windows 10. Приложение станет доступно в качестве обновления для существующих установок корпоративного портала Windows 8.1 и Windows Phone 8.1 в Магазине Майкрософт. Дополнительные сведения см. по адресу [aka.ms/intunecp_universalapp](http://aka.ms/intunecp_universalapp).
 
 > [!IMPORTANT]
 > __Обновления в Intune и Android for Work__ Хотя приложения Android for Work можно разворачивать с действием __Необходимо__, в случае миграции групп Intune на новый интерфейс Azure AD приложения можно развернуть только с действием __Доступно__.

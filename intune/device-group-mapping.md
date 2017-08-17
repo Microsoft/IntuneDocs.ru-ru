@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/06/2017
+ms.date: 08/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4e7c46a0bab45223293b73f8eaa2f8b40850cd43
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 6c5d97499545d0ad3899f28ed4e88eb4dc1fe734
+ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="map-device-groups"></a>Сопоставление групп устройств
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 07/01/2017
 ### <a name="step-1---create-device-categories-in-the-intune-blade-of-the-azure-portal"></a>Шаг 1. Создание категорий устройств в колонке Intune на портале Azure
 1. На портале Azure выберите пункты **Другие службы** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите **Регистрация устройств**.
-3. В колонке **Регистрация** выберите **Категории устройств**.
+3. В колонке **Регистрация устройств** выберите **Категории устройств**.
 4. Чтобы добавить новую категорию, на странице **Категории устройств** выберите **Создать**.
 5. В следующей колонке введите **имя** и необязательное **описание** для новой категории.
 6. Завершив настройку, нажмите кнопку **Создать**. Созданная вами категория появится в списке.

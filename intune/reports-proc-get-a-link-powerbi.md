@@ -14,17 +14,17 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a9d99b71b9f84eea45ae597ed0f69010f6e95805
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: b70bf3410e20dd792c0fcff050292ddea714d63e
+ms.sourcegitcommit: 99ffed621855357de427d6fdf7b70d4e543197e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/07/2017
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Подключение к хранилищу данных с помощью Power BI
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Intune. Файл Power BI для хранилища данных (PBIX) содержит параметры подключения для вашего клиента, а также следующие примеры отчетов и диаграмм: 
+Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Intune. Файл Power BI для хранилища данных (PBIX) содержит параметры подключения для вашего клиента, а также следующие примеры отчетов и диаграмм:  
 
   -  Устройства
   -  Регистрация
@@ -45,6 +45,9 @@ ms.lasthandoff: 08/04/2017
 ## <a name="load-the-data-and-reports-using-the-power-bi-file-pbix"></a>Загрузка данных и отчетов с помощью файла Power BI (PBIX)
 
 Файл Power BI (PBIX) содержит сведения о подключении для клиента и набор готовых отчетов, основанных на модели данных хранилища данных. Откройте файл в Power BI Desktop и войдите в Azure AD. Отчет загружает данные из вашего клиента Intune.
+
+> [!Important]  
+> Каждый файл Power BI (PBIX) может отличаться в зависимости от расположения клиента. При управлении несколькими клиентами Intune необходимо использовать файл, скачанный с портала Azure, во время нахождения в этом клиенте.  
 
 1.  Войдите на портал Azure и выберите **Мониторинг и управление** > **Intune**. Вы также можете выполнить поиск в ресурсах по слову **Intune**.  
 2.  Откройте колонку **API хранилища данных Microsoft Intune (предварительная версия)**.

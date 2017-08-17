@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 04/27/2017
+ms.date: 08/09/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 3e544286-12ad-4a3a-86f8-d2cf16940b1f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 80aa0e5afd1f8862b181d455ff6b545e462f90c9
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8c6035ce5119b618ed63cf817082dd3eedc6eda7
+ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/09/2017
 ---
 # <a name="locate-lost-or-stolen-ios-devices-with-intune"></a>Поиск потерянных или украденных устройств iOS с помощью Intune
 
@@ -26,6 +26,16 @@ ms.lasthandoff: 07/01/2017
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Действие **Найти устройство** позволит отобразить на карте местоположение потерянного или украденного устройства с iOS. Это должно быть корпоративное устройство с iOS, зарегистрированное через DEP и находящееся в защищенном режиме. Перед использованием этого действия устройство необходимо перевести в [режим пропажи](/intune-azure/manage-devices/lost-mode.md).
+
+## <a name="supported-platforms"></a>Поддерживаемые платформы
+
+- Windows — не поддерживается
+- Windows Phone — не поддерживается
+- iOS — поддерживается в iOS 9.3 и более поздних версиях (в режиме пропажи), защищенные и корпоративные
+- macOS — не поддерживается
+- Android — не поддерживается
+
+## <a name="how-to-locate-a-lost-or-stolen-device"></a>Поиск потерянного или украденного устройства
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
@@ -44,3 +54,8 @@ ms.lasthandoff: 07/01/2017
 - Данные будут храниться в течение 24 часов, а затем будут удалены. Данные о расположении удалить вручную нельзя.
 - Данные о расположении шифруются как во время хранения, так и во время передачи.
 - При настройке режима пропажи рекомендуем включить в сообщение, отображаемое на экране блокировки, информацию о том, как нашедший устройство может вернуть его.
+
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Чтобы просмотреть состояние выполненного действия, в колонке **Устройства и группы** выберите **Действия устройства**.
