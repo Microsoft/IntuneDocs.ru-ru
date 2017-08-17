@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/05/2017
+ms.date: 08/09/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,23 @@ ms.technology:
 ms.assetid: 5027d012-d6c2-4971-a9ac-217f91d67d87
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3688eef68fc9dcfced976db02c8d50126fa30da8
-ms.sourcegitcommit: fd5b7aa26446d2fa92c21638cb29371e43fe169f
+ms.openlocfilehash: 9cf2549852c5949ff1c95af12b40f59136d56e34
+ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2017
+ms.lasthandoff: 08/10/2017
 ---
 # <a name="reset-the-passcode-on-windows-devices-integrated-with-the-microsoft-pin-reset-service-using-intune"></a>Сброс секретного кода на устройствах Windows, интегрированных со службой сброса ПИН-кода Майкрософт, с помощью Intune
 
 Возможность сброса секретного кода для устройств Windows интегрирована со службой сброса ПИН-кода Майкрософт, что позволяет сформировать новый секретный код для устройств под управлением Windows 10 Mobile. На устройствах должна использоваться Windows 10 Creators Update и более поздней версии.
+
+## <a name="supported-platforms"></a>Поддерживаемые платформы
+
+- Windows — поддерживается в Windows 10 Creators Update и более поздних версиях (присоединение к Azure AD)
+- Windows Phone — не поддерживается
+- iOS — не поддерживается
+- macOS — не поддерживается
+- Android — не поддерживается
 
 
 ## <a name="before-you-start"></a>Перед началом работы
@@ -43,10 +51,11 @@ ms.lasthandoff: 07/06/2017
 Чтобы настроить сброс ПИН-кода на управляемых устройствах Windows, используйте [настраиваемую политику устройств Windows 10 в Intune](custom-settings-windows-10.md) для включения этой функции. Настройте политику с помощью следующих поставщиков служб конфигурации (CSP) политики Windows:
 
 
-- **для пользователей** - **./User/Vendor/MSFT/PassportForWork/<tenant ID>/Policies/EnablePinRecovery**;
-- **для устройств** - **./Device/Vendor/MSFT/PassportForWork/<tenant ID>/Policies/EnablePinRecovery**;
+- **Для устройств** - **./Device/Vendor/MSFT/PassportForWork/*идентификатор_клиента*/Policies/EnablePinRecovery**
 
-для обоих этих поставщиков служб конфигурации нужно задать значения **True**.
+*идентификатор клиента* ссылается на ID Azure Active Directory, который можно получить на странице **Свойства** Azure Active Directory.
+
+Для этого поставщика CSP задайте значение **True**.
 
 ## <a name="steps-to-reset-the-passcode"></a>Процедура сброса секретного кода
 

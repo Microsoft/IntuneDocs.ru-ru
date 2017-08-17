@@ -14,11 +14,11 @@ ms.assetid: c002bcb2-ae37-478d-acf3-2bf51faae490
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 586a5355e2ee4b0dda6e0238628fa71bdce6f1a2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1cccc69ab772499183a7f434303d78ecf4308a5f
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="how-to-update-the-company-portal-app"></a>Обновление приложения корпоративного портала
 
@@ -40,12 +40,12 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="update-the-intune-company-portal-app-on-your-windows-device"></a>Обновление приложения корпоративного портала Intune на устройстве Windows
 
-1.  Войдите в Магазин Windows и найдите в поиске **корпоративный портал intune**.
+1.  Войдите в Магазин Майкрософт и найдите в поиске **корпоративный портал intune**.
 
 2.  Выполните действия по установке.
 
     > [!NOTE]
-    > Если доступ к Магазину Windows отсутствует, обратитесь к ИТ-администратору.
+    > Если доступ к Магазину Майкрософт отсутствует, обратитесь к ИТ-администратору.
 
 
 По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).

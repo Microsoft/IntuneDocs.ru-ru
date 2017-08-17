@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 307999a7bb18a7b33d111bec212922558a5e10bf
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c7c03148d4063d0752a7c615222047bc6f02f58e
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="enroll-your-windows-phone-81-device-in-intune"></a>Регистрация устройства Windows Phone 8.1 в Intune
 
@@ -29,11 +29,11 @@ ms.lasthandoff: 07/01/2017
 
 Для регистрации устройства Windows Phone 8.1 в Intune выполните инструкции, которые применяются в вашей организации или учебном заведении.
 
--   [Если ваша компания позволяет использовать корпоративный портал из Магазина Windows](#if-your-company-lets-you-use-the-company-portal-from-the-windows-store)
+-   [Если ваша компания позволяет использовать корпоративный портал из Магазина Майкрософт](#if-your-company-lets-you-use-the-company-portal-from-the-windows-store)
 
--   [Если у вас нет прав на доступ к Магазину Windows со своего устройства Windows Phone или нет учетной записи Майкрософт](#if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account)
+-   [Если у вас нет права на доступ к Магазину Майкрософт со своего устройства Windows Phone или если у вас нет учетной записи Майкрософт](#if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account)
 
-## <a name="if-your-company-lets-you-use-the-company-portal-from-the-windows-store"></a>Если ваша компания позволяет использовать корпоративный портал из Магазина Windows
+## <a name="if-your-company-lets-you-use-the-company-portal-from-the-microsoft-store"></a>Если ваша компания позволяет использовать корпоративный портал из Магазина Майкрософт
 Установите приложение корпоративного портала на устройство.
 
 1.  Выберите **Пуск** &gt; **Магазин**.
@@ -72,7 +72,7 @@ ms.lasthandoff: 07/01/2017
 
     ![Экран "Добавлена учетная запись"](./media/WP81-enroll-4-account-added.png)
 
-## <a name="if-you-are-not-allowed-to-access-the-windows-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account"></a>Если у вас нет права на доступ к Магазину Windows со своего устройства Windows Phone или если у вас нет учетной записи Майкрософт
+## <a name="if-you-are-not-allowed-to-access-the-microsoft-store-from-your-windows-phone-or-if-you-do-not-have-a-microsoft-account"></a>Если у вас нет права на доступ к Магазину Майкрософт со своего устройства Windows Phone или если у вас нет учетной записи Майкрософт
 
 1.  Выберите **Настройки** &gt; **Рабочая область**.
 

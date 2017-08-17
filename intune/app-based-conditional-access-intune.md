@@ -14,11 +14,11 @@ ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0893d511c73e4154c61063d96e26937ea2825467
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9899f08cac650b1fea05370eb52327bc3c204a48
+ms.sourcegitcommit: 3bafbec5822bb5baa2d313f2bd19f35a67438beb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/07/2017
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Условный доступ на основе приложений с помощью Intune
 
@@ -36,8 +36,10 @@ ms.lasthandoff: 07/01/2017
 ## <a name="prerequisites"></a>Необходимые компоненты
 Требования для создания политики условного доступа на основе приложений:
 
-- **Подписка Enterprise Mobility + Security или Azure Active Directory Premium**; пользователи должны иметь лицензии для EMS или Azure AD.
-    - Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
+- **Enterprise Mobility + Security (EMS)** или **Azure Active Directory (AD) Premium**.
+- Пользователи должны иметь лицензию на EMS или Azure AD.
+
+Дополнительные сведения см. в статье [Цены на Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [Цены на Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
 ## <a name="supported-apps"></a>Поддерживаемые приложения
 
@@ -53,24 +55,22 @@ ms.lasthandoff: 07/01/2017
 <br></br>
 - **Microsoft Teams**
 
-    > [!NOTE] 
-    > Модель условного доступа на основе приложений [также поддерживает бизнес-приложения](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication), однако такие приложения должны использовать [современные средства проверки подлинности Office 365](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a).
+Модель условного доступа на основе приложений [также поддерживает бизнес-приложения](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication), однако такие приложения должны использовать [современные средства проверки подлинности Office 365](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a).
 
 ## <a name="how-app-based-conditional-access-works"></a>Принципы реализации условного доступа на основе приложений
 
-В этом примере администратор применяет к приложению Outlook политики защиты приложений, а также правило условного доступа, по которому приложение Outlook добавляется в список утвержденных приложений, которые можно использовать для доступа к корпоративной электронной почте.
+В этом примере администратор применил к приложению Outlook политики защиты приложений, а также правило условного доступа, по которому приложение Outlook добавляется в список утвержденных приложений, которые можно использовать для доступа к корпоративной электронной почте.
 
-> [!NOTE] 
+> [!NOTE]
 > Приведенная ниже блок-схема может использоваться для других управляемых приложений.
 
-![Блок-схема процесса на основе приложений для Intune](./media/ca-intune-common-ways-3.png)
+![Блок -схема условного доступа на основе приложений с помощью Intune](./media/ca-intune-common-ways-3.png)
 
 1.  Пользователь пытается пройти проверку подлинности в Azure AD из приложения Outlook.
 
 2.  При первичной проверке подлинности пользователь перенаправляется в магазин приложений, чтобы установить приложение посредника. В качестве приложения посредника могут выступать решения Microsoft Authenticator для iOS или корпоративный портал Майкрософт для устройств Android.
 
-    > [!NOTE]
-    > В этом случае при попытке использовать собственное приложение электронной почты пользователь будет перенаправляться в магазин приложений для последующей установки приложения Outlook.
+ При попытке использовать собственное приложение электронной почты пользователь будет перенаправляться в магазин приложений для последующей установки приложения Outlook.
 
 3.  Приложение посредника устанавливается на устройстве.
 

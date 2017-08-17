@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 05/04/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 494b3892-916e-4b40-9b67-61adec889bdf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 014e59c017eac0d54a632e545692e1a1a8053164
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 45a3a8fe4960cc1bb8c5f2150f57d34d59c08e0a
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="custom-settings-for-android-devices-in-microsoft-intune"></a>Настраиваемые параметры для устройств Android в Microsoft Intune
 
@@ -40,3 +40,13 @@ ms.lasthandoff: 07/01/2017
     - **OMA-URI.** Укажите OMA-URI, для которого необходимо указать параметр.
     - **Значение.** Введите значение, которое нужно сопоставить с указанным OMA-URI.
 4. Завершив настройку, нажмите кнопку **ОК**. Затем добавьте другие параметры при необходимости.
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+После установки параметров созданный профиль отобразится в колонке со списком профилей. Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
+
+Некоторые примеры пользовательских параметров см. в следующих статьях:
+
+- [Использование пользовательского профиля устройств Microsoft Intune для создания профиля Wi-Fi с общим ключом](/intune/wi-fi-profile-shared-key)
+- [Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android](/intune/android-pulse-secure-per-app-vpn)
+- [Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в Microsoft Intune](/intune/samsung-knox-apps-allow-block)

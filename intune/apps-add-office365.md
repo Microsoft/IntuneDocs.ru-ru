@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 07/30/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1a97e58f1d108932e44b0b4e36bda5a30b7a90da
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: e41eceed55a323a7f3c07c7b5d8ab2da7764ff53
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Назначение приложений Office 365 профессиональный плюс 2016 устройствам на базе Windows 10 с помощью Microsoft Intune
 
@@ -36,6 +36,7 @@ ms.lasthandoff: 08/03/2017
 - Когда Intune устанавливает набор приложений, если у конечных пользователей открыты какие-то приложения Office, они могут потерять данные из несохраненных файлов.
 - Этот метод установки не поддерживается на устройствах Windows 10.
 - При назначении этого типа приложения как доступного и ориентировании его для нескольких пользователей с различными назначениями пользователи увидят только самое последнее назначение.
+- Intune не поддерживает установку классических приложений Office 365 из Магазина Windows (известных как приложения Office Centennial) на устройство, где уже развернуты приложения Office 365 с помощью Intune. Установка этой конфигурации может привести к потере или повреждению данных.
 
 
 ## <a name="get-started"></a>Начало работы

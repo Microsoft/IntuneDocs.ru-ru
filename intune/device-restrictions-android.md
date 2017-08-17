@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/01/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,20 @@ ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b9e009e94fb4d9bdb99960e0d238d5471d1f4b50
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 09641b5e34ab8200e7dd9d4c27f0dabf59fa62d2
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="android-and-samsung-knox-standard-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств Android и Samsung KNOX Standard в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Используйте эти параметры с политикой ограниченного использования устройств Android для настройки устройств в организации.
+
+>[!TIP]
+>Если нужные параметры недоступны, можно настроить устройства с помощью [пользовательского профиля](custom-settings-android.md). 
 
 ## <a name="general"></a>Общие
 
@@ -132,3 +135,8 @@ ms.lasthandoff: 08/03/2017
     - **Добавить управляемые приложения**
 - **Кнопка спящего режима экрана.** Включает или отключает кнопку выхода из спящего режима экрана на устройстве.
 - **Кнопки громкости**. Включает или отключает использование кнопок громкости на устройстве.
+
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Продолжайте следовать инструкциям по [настройке ограничений для устройств](device-restrictions-configure.md), чтобы создать, а затем назначить профиль ограниченного использования устройств.

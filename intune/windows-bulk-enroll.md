@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: 4e9dae27b981533dfff2080a5b7f9ca961509cd8
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 67af5f6545a0ef4a833c6f709fc4685de7f64113
+ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/08/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="create-a-provisioning-package"></a>Создание пакета подготовки
 
-1. Скачайте [конструктор конфигураций Windows](https://www.microsoft.com/store/apps/9nblggh4tx22) из Магазина Windows.
+1. Скачайте [конструктор конфигураций Windows (WCD)](https://www.microsoft.com/store/apps/9nblggh4tx22) из Магазина Майкрософт.
 ![Снимок экрана: конструктор конфигураций Windows в магазине приложений — снимки экрана и описание](media/bulk-enroll-store.png)
 
 2. Откройте приложение **Конструктор конфигураций Windows** и выберите плитку **Provision desktop devices** (Подготовка компьютеров).
