@@ -17,11 +17,12 @@
 ## [Известные проблемы](known-issues.md)
 ## [Получить поддержку](get-support.md)
 
-# [Приступая к работе](get-started-evaluation.md)
-## [Создание группы](get-started-groups.md)
+# [Начало работы с Intune](get-started-evaluation.md)
+## [Навигация по порталу Azure](get-started-azure.md)
 ## [Создание пользователя](get-started-users.md)
-## [Регистрация устройств](get-started-enroll.md)
+## [Создание группы](get-started-groups.md)
 ## [Назначение политик ](get-started-policies.md)
+## [Регистрация устройств](get-started-enroll.md)
 ## [Назначение приложений](get-started-apps.md)
 
 
