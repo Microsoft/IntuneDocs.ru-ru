@@ -3,8 +3,8 @@ title: "Назначение приложений устройствам Android
 titleSuffix: Intune on Azure
 description: "В этом разделе рассказывается, как синхронизировать, а затем назначить приложение для устройств Android for Work из магазина Google Play for Work.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 06/13/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 94394a889d97b4d1bdf09303b11cdc3688e4f55a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: bbe5be4afead5d80f38e2ef56d12c0b26351dfd8
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-assign-apps-to-android-for-work-devices-with-intune"></a>Как назначать приложения устройствам Android for Work с помощью Intune
 

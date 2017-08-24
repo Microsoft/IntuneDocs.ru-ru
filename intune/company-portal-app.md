@@ -3,8 +3,8 @@ title: "Как настроить приложение корпоративно�
 titleSuffix: Intune on Azure
 description: "Узнайте, как использовать фирменный стиль в приложении корпоративного портала Intune. \""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ee3d77b74f2313a0746b041335865f1d967ad926
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 118e842c40574a0858f6b8071fd9c0c8db5cb3a3
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Настройка приложения корпоративного портала Microsoft Intune
 

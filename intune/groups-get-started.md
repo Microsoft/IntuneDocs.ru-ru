@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 323f384d-8a76-4adc-999b-e508d641bfa1
 ms.custom: intune-azure
-ms.openlocfilehash: 3e7cf02ed43507eabdf6038940058f94eb09b0fa
-ms.sourcegitcommit: d1ad84edf4f03cb4c11fe55131556b43fc3a4500
+ms.openlocfilehash: c51c3102cc78cf095e27da4ff199cb3fb5ae14a6
+ms.sourcegitcommit: 45204e0fb8cb4cce449e65f2f1d7bb6f6ac4ccf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2017
+ms.lasthandoff: 08/16/2017
 ---
 # <a name="intune-classic-groups-in-the-azure-portal"></a>Классические группы Intune на портале Azure
 

@@ -3,8 +3,8 @@ title: "Добавление приложений в Microsoft Intune"
 titleSuffix: Intune on Azure
 description: "Выполнив следующие процедуры, вы сможете добавить приложения в Intune для назначения пользователям и устройствам. \""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c102e93738ca2da3c247ad364db160c812b91118
-ms.sourcegitcommit: 21a9db380956a50031dbea360b4c76664cbc2768
+ms.openlocfilehash: 14f2ac5b25cfe3e688363a21775872baaa9ff89a
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-add-an-app-to-microsoft-intune"></a>Добавление веб-приложения в Microsoft Intune
 

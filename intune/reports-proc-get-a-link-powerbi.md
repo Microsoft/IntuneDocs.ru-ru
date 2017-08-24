@@ -14,11 +14,11 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b70bf3410e20dd792c0fcff050292ddea714d63e
-ms.sourcegitcommit: 99ffed621855357de427d6fdf7b70d4e543197e9
+ms.openlocfilehash: 6b3ce7e895920d2bb9ff3537fd0ef87ecb4efcc0
+ms.sourcegitcommit: b8ef9d8387b4d9b2ea4e6ce937635304771e6532
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 08/11/2017
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Подключение к хранилищу данных с помощью Power BI
 
@@ -60,18 +60,20 @@ ms.lasthandoff: 08/07/2017
 
 После того, как клиент прошел проверку подлинности в Azure AD, URL-адрес OData подключается к конечной точке RESTful в API хранилища данных, который предоставляет вашему клиенту отчетов модель данных. Следуйте этим инструкциям, чтобы использовать Power BI Desktop для подключения и создания собственных отчетов. Вы не ограничены Power BI Desktop и можете использовать любой аналитический инструмент с URL-адресом OData при условии, что клиент поддерживает проверку подлинности OAUTH2.0 и стандарт OData версии 4.0.
 
-1.  Получите **URL-адрес OData** из колонки отчетности, например `https://fef.{yourinfo}.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`.
-2.  Откройте **Power BI Desktop**.
-3.  Выберите **Домашняя** > **Получить данные**. Выберите **Канал OData**.
-4.  Выберите **Базовый**.
-5.  Введите или вставьте **URL-адрес OData** в поле URL-адреса.
-6.  Нажмите кнопку **ОК**.
-7.  Если вы не выполняли проверку подлинности в Azure AD для своего клиента из клиента Power BI Desktop, введите свои учетные данные.  
-    а.  Выберите **Учетная запись в организации**.  
-    b.  Введите имя пользователя и пароль.  
-    в.  Нажмите кнопку **Войти**.  
-    г.  Нажмите кнопку **Подключиться**.  
-8.  Нажмите кнопку **Загрузить**.
+1.  Войдите на портал Azure и выберите **Мониторинг и управление** > **Intune**. Вы также можете выполнить поиск в ресурсах по слову **Intune**.  
+2.  Откройте колонку **API хранилища данных Microsoft Intune (предварительная версия)**.
+3. Получите пользовательский URL-адрес канала из колонки отчетности, например `https://fef.{yourinfo}.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`.
+4. Откройте **Power BI Desktop**.
+5. Выберите **Домашняя** > **Получить данные**. Выберите **Канал OData**.
+6. Выберите **Базовый**.
+7. Введите или вставьте **URL-адрес OData** в поле URL-адреса.
+8. Нажмите кнопку **ОК**.
+9. Если вы не выполняли проверку подлинности в Azure AD для своего клиента из клиента Power BI Desktop, введите свои учетные данные.  
+    1.  Выберите **Учетная запись в организации**.  
+    2.  Введите имя пользователя и пароль.  
+    3.  Нажмите кнопку **Войти**.  
+    4.  Нажмите кнопку **Подключиться**.  
+10. Нажмите кнопку **Загрузить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -79,4 +81,4 @@ ms.lasthandoff: 08/07/2017
 
 <!-- -  You can use Power BI Desktop to create additional report types with your data. For example, you could create a custom chart representing the ratio of device manufactures in your enterprise. For more information about creating custom reports with Power BI and the Intune Data Warehouse, see `BLOG POST ON POWER BI`. -->
  -  Данные клиента упорядочиваются, чтобы помочь вам извлекать из них ценные сведения. Дополнительные сведения об упорядочении данных см. в разделе [Модель данных для хранилища данных](reports-ref-data-model.md). 
-<!-- -  You can also access the data from a RESTful interface and incorporate the data into your own app. For more information, see [Get data from the Data Warehouse API with a REST client](reports-proc-data-rest.md). -->
+ -  Можно также обращаться к данным из интерфейса RESTful и встраивать данные в собственное приложение. Дополнительные сведения см. в статье [Получение данных из API хранилища данных через клиент REST](reports-proc-data-rest.md).

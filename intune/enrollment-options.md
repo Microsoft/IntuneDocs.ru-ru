@@ -11,11 +11,11 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cf4ad6d4-423f-4826-ab8d-6eb7a7cfb559
-ms.openlocfilehash: dcc97e5bcffb35752b65e8ce275d38b9578da6fa
-ms.sourcegitcommit: bee30f4c9e04129d70305fcafc4152c6e062a8b0
+ms.openlocfilehash: 3514b580a4e35cc9e0813d6dd7fd0e1eee550d7c
+ms.sourcegitcommit: af013af8d9a63c9aa16e5e9eddf38ad9c5a77898
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 08/12/2017
 ---
 # <a name="enrollment-options-for-intune"></a>Варианты регистрации устройств в Intune
 
@@ -41,6 +41,9 @@ ms.lasthandoff: 07/11/2017
 ## <a name="corporate-identifiers"></a>Корпоративные идентификаторы
 
 Вы можете составить список номеров международных идентификаторов мобильного оборудования (IMEI) и серийных номеров для идентификации корпоративных устройств. Дополнительные сведения о [корпоративных идентификаторах](corporate-identifiers-add.md).
+## <a name="multi-factor-authentication"></a>многофакторную идентификацию;
+
+При регистрации устройств можно требовать от пользователей выполнения дополнительной проверки, например с помощью телефона, ПИН-кода или биометрических данных. Дополнительные сведения о [многофакторной идентификации](multi-factor-authentication.md).
 
 ## <a name="device-enrollment-manager"></a>Device enrollment manager (Диспетчер регистрации устройств)
 Вы можете создать диспетчеры регистрации пользовательских устройств.  Пользователи диспетчеров регистрации устройств могут регистрировать большое количество мобильных устройств с помощью одной учетной записи пользователя. Учетная запись диспетчера регистрации устройств (DEM) позволяет зарегистрировать до 1000 устройств. Дополнительные сведения о [диспетчерах регистрации устройств](device-enrollment-manager-enroll.md).

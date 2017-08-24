@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 08/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 066f8668ea37e928455792f512e4e337a1f19c20
-ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
+ms.openlocfilehash: 32d3d014abc48eb2c3d0e10a71dc7f4616c49db8
+ms.sourcegitcommit: af013af8d9a63c9aa16e5e9eddf38ad9c5a77898
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 08/12/2017
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users"></a>Использование портала диагностики для оказания помощи пользователям
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 08/10/2017
 Чтобы добавить пользователей службы технической поддержки, сделайте следующее:
 1. [Добавьте пользователей в Intune](users-add.md), если это необходимо.
 2. [Создайте группу службы технической поддержки](groups-add.md) и добавьте в нее пользователей.
-3. [Назначение встроенной роли оператора службы технической поддержки](role-based-access-control.md#built-in-roles)
+3. [Назначьте роль RBAC оператора службы технической поддержки](role-based-access-control.md#built-in-roles).
 
   ![Снимок экрана портала Intune с выделенными ролями Intune и списком встроенных ролей, включая оператора службы технической поддержки](./media/help-desk-user-add.png). Вы также можете [создать пользовательскую роль](role-based-access-control.md#custom-roles), которую можно изменить для предоставления доступа операторам службы технической поддержки.  Чтобы операторы службы технической поддержки могли устранять проблемы пользователей, им необходимы следующие разрешения:
     - MobileApps: чтение;
@@ -61,8 +61,6 @@ ms.lasthandoff: 08/10/2017
 - Войдите на портал Azure, выберите **Другие службы** > **Мониторинг и управление** > **Intune**, а затем перейдите в раздел **Справка и поддержка** > **Устранение неполадок**.
 
 Нажмите кнопку **Выбор пользователя**, чтобы просмотреть пользователя и сведения о нем.
-
-![Снимок экрана: рабочая нагрузка устранения неполадок Intune со ссылкой "Выбор пользователя"](media/help-desk-user.png)
 
 ## <a name="use-the-troubleshooting-portal"></a>Использование портала диагностики
 

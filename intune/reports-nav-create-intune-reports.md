@@ -14,11 +14,11 @@ ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: db6661dd92b890d711f655a60eb883b417a30d8a
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: cb311429e0537709b3476154bdef24347cb99026
+ms.sourcegitcommit: 294de4d4058de2c625abb8143e90880d27da9284
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="use-the-intune-data-warehouse"></a>Использование хранилища данных Intune
 
@@ -41,4 +41,4 @@ ms.lasthandoff: 08/04/2017
 **Дальнейшие шаги**
 
 - Вы можете получить ссылку и использовать Power BI для сбора ценных сведений. Инструкции см. в разделе [Подключение к хранилищу данных Intune с помощью Power BI](reports-proc-get-a-link-powerbi.md).
-- Вы можете получить дополнительные сведения об API хранилища данных Intune, модели данных и связях между сущностями<!-- , and an example of creating a custom client to retrieve data,--> в разделе [API хранилища данных Intune](reports-nav-intune-date-warehouse.md).
+- Вы можете получить дополнительные сведения об API хранилища данных Intune, модели данных и связях между сущностями<!-- , and an example of creating a custom client to retrieve data,--> в разделе [API хранилища данных Intune](reports-nav-intune-data-warehouse.md).

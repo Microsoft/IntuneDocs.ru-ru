@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8013d7f091c154709f0dd98dcda2e7f5f09056d2
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: 2dad8cf3e9a38625b4657e284f8d8bb53ba289c0
+ms.sourcegitcommit: c8fb42fcb8735af432c7e07c380d956171012bd4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/14/2017
 ---
 # <a name="reference-for-devices-entities"></a>Справочник по сущностям устройств
 
@@ -261,96 +261,41 @@ ms.lasthandoff: 08/04/2017
 |---------|------------|
 | DateKey |Ссылка на таблицу дат с указанием дня |
 | DeviceKey |Уникальный идентификатор для устройства в хранилище данных — суррогатный ключ. Это ссылка на таблицу устройства, содержащую идентификатор устройства Intune. |
-| DeviceModel |Модель устройства |
-| ОС |Операционная система устройства |
 | DeviceName |Имя устройства на платформах, допускающих именование устройства. На других платформах Intune создает имя из других свойств. Этот атрибут может быть доступен не для всех устройств. |
-| SoftwareVersion |В большинстве случаев это версия ОС, только на платформах Apple это значение отличается от версии ОС. |
-| Imei |Номер IMEI |
-| HardwareInventoryTimeUtc |Время первой инвентаризации для этого устройства. |
-| InventoryModifiedTimeUtc |Время сохранения последней инвентаризации при создании этого моментального снимка |
-| InventoryReportingTimeUtc |Время сбора последней инвентаризации для этого устройства |
-| ExchangeActiveSyncId |Идентификатор устройства Exchange ActiveSync |
-| ComputerSystemDescription |Описание системы |
-| ComputerSystemName |Имя системы |
-| ComputerSystemManufacturer |Производитель системы |
-| ComputerSystemModel |Модель системы |
-| UserName |Имя пользователя |
-| OSType |Тип ОС |
-| OSCaption |Название операционной системы |
-| OSName |Имя операционной системы |
-| OSManufacturer |Производитель операционной системы |
-| OSProductSuite |Набор продуктов операционной системы |
-| OSProductType |Тип продуктов операционной системы |
-| Локаль |Языковой стандарт операционной системы |
-| PhysicalMemoryCapacity |Объем физической памяти (в байтах) |
-| PhysicalMemoryRemovable |Объем физической памяти съемного носителя (в байтах) |
-| SystemEnclosureChassisTypesInnerText |Определяет тип системного шасси для этого устройства. Числа обозначают следующее: 0 или пусто — неизвестно, 1 — настольная система, 2 — ноутбук, 3 — рабочая станция, 4 — корпоративный сервер, 100 — телефон, 101 — планшет, 102/103 — другой неизвестный тип мобильного устройства |
-| SystemEnclosureModel |Модель системного корпуса |
-| SystemEnclosureSerialNumber |Серийный номер системного корпуса |
-| NetworkAdapterConfigurationText |Текст конфигурации из сетевого адаптера |
-| MacAddress |MAC-адрес; |
-| SmsID |Идентификатор устройства Intune |
-| CertExpiry |Дата окончания срока действия для сертификата управления MDM |
-| DeviceClientAgentVersion |Версия агента клиента |
-| DeviceClientID |Идентификатор клиента устройства |
-| SerialNumber |Серийный номер |
-| DeviceManufacturer |Изготовитель устройства |
-| DMVersion |Версия DM |
-| FirmwareVersion |Версия встроенного ПО |
-| HardwareVersion |Версия оборудования |
-| PlatformType |Тип платформы |
-| ProcessorLevel |Уровень процессора |
-| ProcessorRevision |Версия процессора |
-| Продукт |Продукт |
-| ProductVersion |Версия продукта |
-| ПВТ |Поставщик вычислительной техники |
-| DeviceBuildVersion |Версия сборки устройства |
-| Meid |Идентификатор мобильного оборудования |
-| PhoneNumber |Номер телефона |
-| SubscriberCarrierNetwork |Имя сети оператора телефонной связи |
-| CellularTechnology |Тип сети оператора телефонной связи (CDMA/GSM) |
-| Imsi |Номер IMSI |
-| JailBroken |Значение True, если на устройстве получен корневой доступ или выполнен взлом ОС. |
-| IsActivationLockEnabled |Значение True, если включена Блокировка активации |
-| DeviceType |Тип устройства |
-| IsSupervised |Защищено |
-| DeviceDisplayNumberOfColors |Число цветов у дисплея устройства |
-| HorizontalResolution |Горизонтальное разрешение экрана устройства |
-| VerticalResolution |Вертикальное разрешение экрана устройства |
-| StorageFree |Свободное место для хранения (в байтах) |
-| StorageTotal |Общее место для хранения (в байтах) |
-| ProgramFree |Свободная память программ (в байтах) |
-| ProgramTotal |Общая память программ (в байтах) |
-| RemovableStorageFree |Свободная память на съемном носителе (в байтах) |
-| RemovableStorageTotal |Общая память на съемном носителе (в байтах) |
-| DeviceMemoryDeviceCapacity |Объем памяти устройства |
-| DeviceMemoryAvailableDeviceCapacity |Доступный объем памяти устройства |
-| DeviceOSVersion |Версия ОС |
-| DeviceOSPlatform |Платформа ОС |
-| DeviceOSLanguage |Язык ОС |
-| PasswordMaxAttemptsBeforeWipe |Максимально допустимое число попыток ввода пароля, прежде чем будет выполнена очистка устройства |
-| PasswordMinComplexChars |Минимальное количество сложных символов в пароле |
-| PasswordMinLength |Минимальная длина пароля |
-| PasswordHistory |Минимальное число непринятых паролей для занесения в журнал |
-| PasswordEnabled |Указание того, включен ли пароль |
-| PasswordExpiration |Срок действия пароля |
-| AllowRecoveryPassword |Разрешить восстановление паролей |
-| PasswordAutoLockTimeout |Время ожидания автоматической блокировки |
-| PasswordType |Тип пароля |
-| BacklightACTimeout |Время ожидания для подсветки при подключении к источнику питания |
-| BacklightBatTimeout |Время ожидания для подсветки при работе от батареи |
-| PowerBackupPercent |Процент резервирования питания |
-| BatteryPercent |Процент оставшегося заряда батареи |
-| PlatformID |Идентификатор платформы |
-| ExchangeDeviceID |Идентификатор устройства Exchange |
-| SmsProcessorDescription |Описание процессора |
-| OwnerEmailAddress |Адрес электронной почты владельца |
-| DeviceOSName |Имя операционной системы |
-| WifiMac |MAC-адрес для Wi-Fi |
-| EthernetMac |MAC-адрес для Ethernet |
-| RequireEncryption |Указывает, шифруется ли устройство |
-| ActivationLockBypassCode |Код обхода Блокировки активации |
-
+| DeviceTypeKey |Ключ атрибута типа устройства для этого устройства |
+| ClientRegisterationStateKey |Ключ атрибута состояния регистрации клиента для этого устройства |
+| OwnerTypeKey |Ключа атрибута типа владельца для этого устройства: corporate, personal или unknown. |
+| objectSourceKey |Игнорируйте этот столбец. |
+| CreatedDate |Дата регистрации устройства |
+| LastContact |Последняя известная отметка устройства в Intune |
+| LastContactNotification |Последнее уведомление об отметке в Intune, выданное Intune устройству |
+| LastContactWorkplaceJoin |Метка времени, указывающая последнее известное состояние подключения к рабочему месту для этого устройства. |
+| ManagementAgentKey |Ключ агента управления, сопоставленный с этим устройством. |
+| ManagementStateKey |Ключ состояния управления, сопоставленный с этим устройством, который указывает последнее состояние удаленного действия либо наличие корневого доступа или взлома ОС. |
+| ReferenceId |Идентификатор устройства в Azure Active Directory |
+| WorkPlaceJoinStateKey |Ключ состояния подключения к рабочему месту, сопоставленный с этим устройством. |
+| CategoryId |Игнорируйте этот столбец. |
+| EnrollmentTypeKey |Ключ типа регистрации, сопоставленный с этим устройством, который указывает метод регистрации. |
+| CertExpirationDate |Дата окончания срока действия для сертификата управления MDM. |
+| MdmStatusKey |Ключ для MdmStatus |
+| OSFamily |Семейство ОС (Windows, iOS, Android и т. п.) |
+| OSVersion |Версия ОС |
+| OSMajorVersion |Компонент основного номера версии в версии ОС (основной.дополнительный.сборка.редакция) |
+| OSMinorVersion |Компонент дополнительного номера версии в версии ОС (основной.дополнительный.сборка.редакция) |
+| OSBuildNumber |Компонент версии сборки в версии ОС (основной.дополнительный.сборка.редакция) |
+| OSRevisionNumber |Компонент версии редакции в версии ОС (основной.дополнительный.сборка.редакция) |
+| EasID |Идентификатор EAS этого устройства, если оно управляется Exchange Active Sync. |
+| GraphDeviceIsManaged |Последнее состояние управления, заданное Intune в AAD |
+| GraphDeviceIsCompliant |Последнее состояние соответствия, заданное Intune в AAD |
+| SerialNumber |Серийный номер устройства при его наличии |
+| EnrolledByUser |Идентификатор пользователя, зарегистрировавшего это устройство, который ссылается на столбец userId в таблице пользователя. |
+| RowLastModifiedDateTimeUTC |Время последнего изменения этой записи. |
+| ProcessorArchitecture |Архитектура процессора |
+| DeviceAction |Последнее выполненное действие устройства, пока игнорируйте. |
+| Изготовитель |Производитель устройства |
+| Модель |Модель устройства |
+| LastPolicyUpdateUtc |Время последнего изменения политики на устройстве |
+| LastExchangeStatusUtc |Время последней синхронизации устройства с Exchange. |
 ## <a name="mdmdeviceinventoryhistories"></a>MdmDeviceInventoryHistories
 
 Сущность **MdmDeviceInventoryHistories** содержит ежедневные моментальные снимки данных инвентаризации для устройств, управляемых с помощью MDM, за последние 90 дней. Столбец DateKey указывает день для строки. Возможно, некоторые свойства невозможно применить или заполнить для всех устройств, поэтому обратитесь к этой странице для получения дополнительных сведений. Дополнительные сведения см. в статье [Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune](https://docs.microsoft.com/Intune-classic/deploy-use/understand-your-devices-with-inventory-in-microsoft-Intune).

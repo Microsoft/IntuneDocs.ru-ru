@@ -3,8 +3,8 @@ title: "Назначение приложений группам"
 titleSuffix: Intune on Azure
 description: "Сведения о назначении приложения группам пользователей или устройств после его добавления в Intune.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 07/24/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0bb3ca2f63ee963dae61ee6622d41fe4aef7adfd
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: a0249fe3ecd82f6382b2625378d6a81d33129069
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-assign-apps-to-groups-with-microsoft-intune"></a>Назначение приложений группам с помощью Microsoft Intune
 
