@@ -3,8 +3,8 @@ title: "Профили подготовки приложений"
 titleSuffix: Intune on Azure
 description: "Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 05/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bf2da880f0f092b9948a400f6a10bd9ad032f959
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d6635dc3f408984bf5f8b8ce04dc7a6f529616c0
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="use-ios-mobile-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия сертификата мобильного приложения iOS с помощью профиля подготовки
 

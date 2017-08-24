@@ -14,11 +14,11 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d56935bc2828273af28323e40d9f3b4e2bd84025
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: 9257af29c65dbe27667738abc8ee06203177124f
+ms.sourcegitcommit: b8ef9d8387b4d9b2ea4e6ce937635304771e6532
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/11/2017
 ---
 # <a name="data-warehouse-data-model"></a>Модель данных для хранилища данных
 
@@ -47,4 +47,4 @@ ms.lasthandoff: 08/04/2017
 
 <!-- ## Data Model relationships
 
-For more information on the relationships in the data model, see [Relationships of Entities](). -->
+For more information on the relationships in the data model, see [Relationships of Entities](reports-api-entity-relationships.md). -->

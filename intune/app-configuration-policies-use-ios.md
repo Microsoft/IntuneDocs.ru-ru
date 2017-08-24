@@ -3,8 +3,8 @@ title: "Использование политик конфигурации пр�
 titleSuffix: Intune on Azure
 description: "Узнайте о том, как предоставлять данные конфигурации при работе с приложением iOS, используя политики конфигурации приложений.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 07/26/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b261834c85a9dd3cbc6f8fae40933dd7a79acf93
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 3a9d56a2f570c0332b394b03f25deb6351b6ba67
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-use-microsoft-intune-app-configuration-policies-for-ios"></a>Использование политик конфигурации приложений Microsoft Intune для iOS
 

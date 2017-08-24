@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 05/31/2017
+ms.date: 08/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 97dede1ac393a434342f62d1f8488389dcb28d44
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: dfcd7b97848ed68edb4572429abc53a1cc8f8558
+ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 08/21/2017
 ---
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 
@@ -40,11 +40,27 @@ ms.lasthandoff: 08/03/2017
 
 ## <a name="set-mdm-authority-to-intune"></a>Выбор Intune в качестве центра MDM
 
-1. На портале Azure выберите пункты **Другие службы** > **Мониторинг и управление** > **Intune**.
-  ![Снимок экрана: рабочая нагрузка устранения неполадок Intune со ссылкой "Выбор пользователя"](media/set-mdm-auth.png)
+1. На [портале Azure](https://portal.azure.com) выберите пункты **Дополнительные службы** > **Мониторинг и управление** > **Intune**.
 2. В колонке Intune выберите **Регистрация устройства**, а затем щелкните **Обзор**.
+![Снимок экрана центра управления мобильными устройствами Intune](media/set-mdm-auth.png)
 
-3. В колонке **Управление устройствами** выберите **Выбрать Intune в качестве центра MDM**. Появится сообщение о том, что вы успешно установили Intune в качестве центра управления мобильными устройствами.
+3. В разделе **Центр управления мобильными устройствами**, выберите свой центр MDM в следующем списке.
+  - **Центр MDM в Intune**
+  - **Центр MDM в Configuration Manager**
+  - **Нет**
+
+  Появится сообщение о том, что вы успешно установили Intune в качестве центра управления мобильными устройствами.
+
+## <a name="enable-device-enrollment"></a>Обеспечение регистрации устройств
+
+С Intune в качестве центра управления мобильными устройствами пользователи могут регистрировать личные устройства и получать доступ к ресурсам, например к электронной почте, одним из следующих способов: установив корпоративный портал (iOS и Android), добавив рабочие учетные данные (Windows) или получив доступ к веб-сайту корпоративного портала (iOS, Android, macOS).
+
+На разных платформах существуют следующие требования для включения или упрощения регистрации:
+- **iOS** — (обязательно) [получить сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md), а затем [включить регистрацию для корпоративных устройств iOS](ios-enroll.md) (необязательно);
+- **Android** — (необязательно) [включить профили Android for WorkAndroid](android-enroll.md);
+- **Windows** — (необязательно) включить [автоматическую регистрацию](windows-enroll.md) или [массовую регистрацию](windows-bulk-enroll.md);
+- **macOS** — требования отсутствуют.
+
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>Очистка мобильного устройства после окончания срока действия сертификата MDM
 

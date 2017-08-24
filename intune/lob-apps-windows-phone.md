@@ -3,8 +3,8 @@ title: "Добавление бизнес-приложений Windows Phone в 
 titleSuffix: Intune on Azure
 description: "Сведения о добавлении в Intune бизнес-приложений Windows Phone.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 07/12/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: a097b7b2-d01d-454b-954c-da4f3cd0ae86
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f27ad720556a866b5f2a9326df0a574cc37f2a5d
-ms.sourcegitcommit: f100c943a635f5a08254ba7cf30f1aaebb7e810e
+ms.openlocfilehash: d5f7a38f811c1e8b1a3a93bdb733642c02f07bfc
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-add-windows-phone-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавить бизнес-приложения Windows Phone в Microsoft Intune
 

@@ -14,11 +14,11 @@ ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2e12792445b36ba6657cbe6b2f6c924f6d97fe3c
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: 6107059888c8d2fb6227277202a5906491ac9092
+ms.sourcegitcommit: b8ef9d8387b4d9b2ea4e6ce937635304771e6532
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 08/11/2017
 ---
 # <a name="reference-for-application-entities"></a>Справочник по сущностям приложения
 
@@ -52,9 +52,9 @@ ms.lasthandoff: 08/04/2017
 | IsCurrent |Указывает, является ли эта версия приложения актуальной или не находится в хранилище данных |Истина/ложь |
 | RowLastModifiedDateTimeUTC |Дата и время (в формате UTC) последнего изменения этой версии приложения в хранилище данных |23/11/2016 12:00:00 |
 
-## <a name="appinstallertypes"></a>AppInstallerTypes
+## <a name="apptypes"></a>AppTypes
 
-Сущность **AppInstallerTypes** перечисляет источники установки приложения.
+Сущность **AppTypes** перечисляет источники установки приложения.
 
 | Свойство  | Описание |
 |---------|------------|
@@ -80,44 +80,6 @@ ms.lasthandoff: 08/04/2017
 | 11 |Windows Mobile MSI |Бизнес-приложение MSI |
 | 12 |Бизнес-приложение Windows Phone |Бизнес-приложение Windows Phone |
 
-## <a name="applicationtypes"></a>ApplicationTypes
-
-Сущность **ApplicationTypes** перечисляет возможные типы для приложения.
-
-| Свойство  | Описание |
-|---------|------------|
-| ApplicationTypeID |Идентификатор типа |
-| ApplicationTypeKey |Суррогатный ключ для ключа |
-| ApplicationTypeName |Тип приложения |
-
-## <a name="example"></a>Пример
-
-| ApplicationTypeID  | Имя | Описание |
-|---------|------------|--------|
-| 0 |InHouse |Самостоятельно разработанное приложение |
-| 1 |DeepLink |Ссылка на приложение в Магазине |
-| 2 |WebLink |Ссылка на веб-приложение |
-
-## <a name="managedsoftwaretypes"></a>ManagedSoftwareTypes
-
-Сущность **ManagedSoftwareTypes** перечисляет возможные типы управляемого программного обеспечения для приложения.
-
-| Свойство  | Описание |
-|---------|------------|
-| SoftwareTypeID |Идентификатор типа |
-| SoftwareTypeKey |Суррогатный ключ для ключа |
-| SoftwareTypeName |Тип программного обеспечения |
-
-## <a name="example"></a>Пример
-
-| SoftwareTypeID  | Имя | Описание |
-|---------|------------|--------|
-| 0 |Настольные |Классическое приложение |
-| 2 |Обновление: |Обновление окна |
-| 5 |SideCarAgent | |
-| 1 |Мобильные |Мобильное приложение |
-| 3 |WebLink |Веб-ссылка |
-| 4 |VppDeepLink |Ссылка на приложение в Магазине, которое входит в программу Volume Purchase Program (VPP) |
 
 ## <a name="vppprogramtypes"></a>VppProgramTypes
 

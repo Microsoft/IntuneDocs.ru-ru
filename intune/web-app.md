@@ -3,8 +3,8 @@ title: "Как добавлять веб-приложения в Intune"
 titleSuffix: Intune on Azure
 description: "Узнайте, как добавлять веб-приложения в Intune.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 05/04/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 5f08752f-0e87-4ad9-a34c-4991b3150775
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 476e547f2ee21119443b08db0984f66844f701d3
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: f64d60b659d0316cab542cb6005026a353ab0589
+ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="how-to-add-web-apps-to-microsoft-intune"></a>Как добавлять веб-приложения в Microsoft Intune
 

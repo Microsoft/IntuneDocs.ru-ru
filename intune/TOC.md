@@ -175,7 +175,6 @@
 ### [Настройка параметров iOS для образовательных учреждений](education-settings-configure-ios.md)
 ### [Настройка общих устройств iOS для образовательных учреждений](education-settings-configure-ios-shared.md)
 ### [Настройка политик обновления iOS](software-updates-ios.md)
-### [Настройка параметров Центра обновления Windows для бизнеса](windows-update-for-business-configure.md)
 ### [Настройка сертификатов](certificates-configure.md)
 #### [SCEP](certificates-scep-configure.md)
 #### [PKCS](certficates-pfx-configure.md)
@@ -237,7 +236,7 @@
 <!-- ### Protect devices with remote actions -->
 
 ## [Управление ролями](role-based-access-control.md)
-
+## [Управление обновлениями программного обеспечения](windows-update-for-business-configure.md)
 
 ## [Управление компьютерами с помощью агента программного обеспечения](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json)
 ### [Сравнение функций управления компьютером](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json)
