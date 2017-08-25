@@ -1,16 +1,111 @@
 # Справка по Intune
+
 ## [Использование управляемых устройств для выполнения задач](use-managed-devices-to-get-work-done.md)
+
 ## [Какие сведения моей организации можно увидеть с помощью Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
+
 ## [Что происходит при сбросе параметров устройства?](what-happens-if-you-reset-your-device-cpwebsite.md)
+
 ## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)
+
 ## [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
 ### [Что происходит при регистрации устройства с Android?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
+### [Регистрация устройства](enroll-your-device-in-Intune-android.md)
+#### [Регистрация устройства с Android for Work](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
+### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-android.md)
+### [Шифрование устройства](encrypt-your-device-android.md)
+### [Задание ПИН-кода или пароля](set-your-pin-or-password-android.md)
+### [Что происходит при сбросе параметров устройства?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
+### [Сброс устройства](reset-erase-your-device-cpwebsite.md)
+### [Установка времени блокировки](set-the-amount-of-time-before-your-device-is-locked-android.md)
+### [Установка VPN](install-your-companys-virtual-private-network-VPN-android.md)
+### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-android.md)
+### [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
+#### [Отмена регистрации устройства](unenroll-your-device-from-intune-android.md)
+#### [Отмена регистрации устройства при отказе от условий использования](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
+
 ### [Решение распространенных проблем с Android](troubleshoot-your-device-android.md)
+#### [Проверка соответствия устройств требованиям](check-compliance-on-your-device-android.md)
+
+#### [Использование журналов для устранения проблем]
+##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
+##### [Отправка журналов по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
+##### [Отправка журналов при помощи USB-кабеля](send-logs-to-your-it-admin-using-cable-android.md)
+##### [Отправка сведений об ошибках регистрации](send-enrollment-errors-to-your-it-admin-android.md)
+
+### Вопросы по операционным системам
+#### [Обновление устройства](you-need-to-update-your-android-device.md)
+#### [Неподдерживаемая версия](your-android-version-isnt-yet-supported.md)
+#### [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
+#### [Отсутствие необходимого сертификата](your-device-is-missing-a-required-certificate-landing-android.md)
+#### [Отключение неизвестных источников](you-need-to-turn-off-unknown-sources-android.md)
+#### [Отключение USB-отладки](you-need-to-turn-off-usb-debugging-android.md)
+#### [Включение проверки на наличие угроз безопасности](you-need-to-turn-on-scanning-for-security-threats-android.md)
+#### [Неподдерживаемое обновление для системы безопасности](you-need-to-update-your-device-OS-security-patch-android.md)
+#### [Устройства с ошибками шифрования](your-device-appears-encrypted-but-cp-says-otherwise-android.md)
+
+### Mobile Threat Defense
+#### [Установка приложения Mobile Threat Defense](you-are-prompted-to-install-mtd-android.md)
+#### [Устранение угрозы](you-need-to-resolve-a-threat-found-by-mtd-android.md)
+
+
 ## [Использование устройства с iOS или Mac OS в Intune](using-your-iOS-or-macOS-device-with-intune.md)
 ### [Что происходит при регистрации устройства с iOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
+### [Установка корпоративного портала и вход в него](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
+### [Регистрация устройства iOS](enroll-your-device-in-intune-ios.md)
+### [Регистрация устройства macOS](enroll-your-device-in-intune-macos.md)
+### [Регистрация устройства macOS с использованием корпоративного портала](enroll-your-device-in-intune-macos-cp.md)
+
+### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
+### [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
+### [Что происходит при сбросе вашего устройства с помощью корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
+### [Сброс устройства](reset-erase-your-device-cpwebsite.md)
+### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
+### [Отмена регистрации устройства](unenroll-your-device-from-intune-ios.md)
+#### [Что происходит при отмене регистрации устройства?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
+### [Синхронизация устройства вручную](sync-your-device-manually-ios.md)
+
 ### [Решение распространенных проблем с iOS](troubleshoot-your-device-iOS.md)
+#### [Повторное подключение к скомпрометированному устройству iOS](how-to-reconnect-a-compromised-ios-device.md)
+#### [Отправка сведений об ошибках в компанию](send-errors-to-your-it-admin-ios.md)
+#### [Отправка сведений об ошибках в корпорацию Майкрософт](send-logs-to-microsoft-ios.md)
+#### [Появилось сообщение об ошибке](you-get-an-error-while-using-the-company-portal-app-ios.md)
+#### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
+#### [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-ios.md)
+#### [Обновление устройства iOS](you-need-to-update-your-ios-device.md)
+#### [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md).
+
+### Mobile Threat Defense
+#### [Установка приложения Mobile Threat Defense](you-are-prompted-to-install-mtd-ios.md)
+#### [Устранение угрозы](you-need-to-resolve-a-threat-found-by-mtd-ios.md)
+
+
 ## [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 ### [Что происходит при регистрации устройства с Windows 10?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
-### [Что происходит при регистрации устройства с Windows?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+### [Что происходит при регистрации устройства с Windows другой версии?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+
+### [Регистрация устройства с Windows](enroll-your-device-in-intune-windows.md)
+### [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+### [Сброс устройства](reset-erase-your-device-cpwebsite.md)
+
+### [Шифрование устройства](encrypt-your-device-windows.md)
+### [Установка или изменение пароля](set-or-change-your-password-windows.md)
+### [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-windows.md)
+### [Что происходит при отмене регистрации устройства?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)
+### [Что происходит при сбросе устройства?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
+### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-windows.md)
+### [Синхронизация устройства вручную](sync-your-device-manually-windows.md)
+
 ### [Решение распространенных проблем с Windows](troubleshoot-your-device-windows.md)
+#### [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md).
+#### [Обновление устройства с Windows](you-need-to-update-your-windows-device.md)
+#### [Отправка журналов из приложения корпоративного портала](send-logs-to-your-it-admin-cp-windows.md)
+#### [Отправка журналов из приложения параметров](send-logs-to-your-it-admin-settings-windows.md)
+#### [Моя версия Windows пока не поддерживается](your-windows-version-isnt-yet-supported.md).
+#### [Включение шифрования Windows](you-need-to-enable-windows-encryption.md)
+#### [Моему устройству требуется защита от вредоносных программ](your-device-needs-antimalware-software.md).
+#### [Включение безопасной загрузки](you-need-to-enable-secure-boot-windows.md)
+#### [Включение проверки целостности кода](you-need-to-enable-code-integrity.md)
+
+
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
