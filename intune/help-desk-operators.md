@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 08/11/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 32d3d014abc48eb2c3d0e10a71dc7f4616c49db8
-ms.sourcegitcommit: af013af8d9a63c9aa16e5e9eddf38ad9c5a77898
+ms.openlocfilehash: c932781f988d63395b98452a4f4739e0bce1d9c8
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2017
+ms.lasthandoff: 08/28/2017
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users"></a>Использование портала диагностики для оказания помощи пользователям
 
@@ -29,7 +29,6 @@ ms.lasthandoff: 08/12/2017
 Например, когда пользователь обращается в службу поддержки с техническим вопросом по Intune, оператор вводит имя этого пользователя. Intune показывает полезные данные, способные помочь в устранении многих проблем уровня 1, таких как:
 - Состояние пользователя
 - Назначения
-- Сбой при установке приложения
 - Проблемы с соответствием
 - устройство не отвечает;
 -   устройство не получает параметры VPN или Wi-Fi;
