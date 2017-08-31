@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a11b094a896a2358d8e414cc248976fd34bad38b
-ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
+ms.openlocfilehash: a6e0ea5edc5a174e0400ccca3931323712f3cbbe
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2017
+ms.lasthandoff: 08/28/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -663,6 +663,7 @@ Intune позволяет использовать все [функции авт
     ```xml
 android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
     ```
+
 
 2. **[Необязательно]** Если реализуется необязательный пользовательский агент BackupAgent, необходимо использовать MAMBackupAgent или MAMBackupAgentHelper. См. следующие разделы. Рассмотрите возможность использования агента Intune **MAMDefaultFullBackupAgent** (см. шаг 1), который обеспечивает простое и удобное резервное копирование в Android версии M и выше.
 
@@ -1340,8 +1341,6 @@ public interface MAMAppConfig {
 
  Файл AndroidManifest.xml, входящий в состав пакета SDK для приложений Intune, содержит объект **MAMNotificationReceiverService**, который должен быть экспортированной службой, чтобы разрешить корпоративному порталу отправлять уведомления в приложение с расширенными возможностями. Служба проверяет вызывающий объект, чтобы убедиться, что корпоративный портал может отправлять уведомления.
 
-
-
 ## <a name="expectations-of-the-sdk-consumer"></a>Ожидания потребителя пакета SDK
 
 Пакет SDK Intune поддерживает контракт, предоставляемый API Android, хотя состояния сбоя могут возникать чаще в результате применения политики. Эти рекомендации для Android позволяют снизить вероятность сбоя:
@@ -1353,6 +1352,13 @@ public interface MAMAppConfig {
 * Любые производные функции следует вызвать через их версии суперкласса.
 
 * Избегайте неоднозначного использования любых API. Например, использование `Activity.startActivityForResult` без проверки requestCode вызовет нестандартное поведение.
+
+## <a name="telemetry"></a>Телеметрия
+
+Пакет SDK для приложений Intune для Android не управляет сбором данных из приложения. По умолчанию приложение корпоративного портала записывает данные телеметрии при следующих событиях использования. Эти данные отправляются в Microsoft Intune. Согласно политике конфиденциальности Майкрософт мы не собираем персональные данные.
+
+> [!NOTE]
+> Если конечные пользователи отказываются от отправки этих данных, им необходимо отключить телеметрию в разделе "Параметры" приложения корпоративного портала. Дополнительные сведения см. в разделе [Отключение сбора данных об использовании корпорацией Майкрософт](https://docs.microsoft.com/en-us/intune-user-help/turn-off-microsoft-usage-data-collection-android). 
 
 ## <a name="recommended-android-best-practices"></a>Рекомендации для Android
 

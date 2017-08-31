@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/22/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 03a278762401ee9697909cf45b3fe86212393e66
-ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
+ms.openlocfilehash: 12556e394e2e09307c4f89e1ae56bb3f268b28ae
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2017
+ms.lasthandoff: 08/28/2017
 ---
-# <a name="add-corporate-identifiers"></a>Добавление корпоративных идентификаторов
+# <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -31,15 +31,13 @@ ms.lasthandoff: 08/21/2017
 
 - зарегистрировано с помощью учетной записи [диспетчера регистрации устройств](device-enrollment-manager-enroll.md) (все платформы);
 - зарегистрировано с помощью [программы регистрации устройств](device-enrollment-program-enroll-ios.md) Apple, [Apple School Manager](apple-school-manager-set-up-ios.md) или [Apple Configurator](apple-configurator-enroll-ios.md) (только для устройств iOS);
-- предварительно объявлено с номерами IMEI (все платформы с номерами IMEI) или серийным номером (iOS и Android);
-- зарегистрировано в Azure Active Directory или Enterprise Mobility Suite как устройство с Windows 10 Корпоративная (только Windows 10);
-- указано **Корпоративное** в разделе **Свойства** устройства.
+- [идентифицировано как корпоративное перед регистрацией](#identify-corporate-owned-devices-with-imei-or-serial-number) с помощью номеров IMEI (все платформы с номерами IMEI) или серийных номеров (iOS и Android);
+- зарегистрировано в Azure Active Directory или Enterprise Mobility + Security как устройство с Windows 10 Корпоративная (только Windows 10);
+- в свойствах устройства указана [принадлежность устройства организации](#change-device-ownership).
 
-Для корпоративных устройств отображается значение **Корпоративный** в столбце **Владение** для записей устройств в Intune. Чтобы просмотреть значение, выберите **Устройства** > **Все устройства**.
+## <a name="identify-corporate-owned-devices-with-imei-or-serial-number"></a>Идентификация корпоративных устройств с номерами IMEI и серийными номерами
 
-## <a name="predeclare-a-device-with-imei-or-serial-number"></a>Предварительное объявление устройства с номером IMEI или серийным номером
-
-Администратор Intune может создать и импортировать файл данных с разделителями-запятыми (CSV), содержащий список номеров IMEI или серийных номеров. Intune назначит корпоративное владение для устройств с этими идентификаторами. Номера IMEI можно объявлять для всех поддерживаемых платформ. Серийный номер можно объявить только для устройств iOS и Android. Каждый номер IMEI или серийный номер может сопровождаться сведениями, указанными в списке для административных целей.
+Администратор Intune может создать и импортировать файл данных с разделителями-запятыми (CSV), содержащий список номеров IMEI или серийных номеров. Intune назначит корпоративное владение для устройств с этими идентификаторами во время регистрации. Номера IMEI можно объявлять для всех поддерживаемых платформ. Серийный номер можно объявить только для устройств iOS и Android. Каждый номер IMEI или серийный номер может сопровождаться сведениями, указанными в списке для административных целей.
 
 <!-- When you upload serial numbers for company-owned iOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as company-owned. -->
 
@@ -80,7 +78,7 @@ ms.lasthandoff: 08/21/2017
 
 Импортированные устройства регистрируются не всегда. Устройства могут быть в состоянии **Зарегистрировано** или **Не связано**. Состояние **Не связано** означает, что устройство никогда не подключалось к службе Intune.
 
-## <a name="delete-corporate-identifiers"></a>Удаление корпоративных идентификаторов
+### <a name="delete-corporate-identifiers"></a>Удаление корпоративных идентификаторов
 
 1. В Intune портале Azure выберите **Регистрация устройства** > **Идентификаторы корпоративных устройств**.
 2. Выберите идентификаторы устройств, которые требуется удалить, и нажмите кнопку **Удалить**.
@@ -88,5 +86,16 @@ ms.lasthandoff: 08/21/2017
 
 Удаление корпоративного идентификатора для зарегистрированного устройства не приводит к изменению владения устройством. Чтобы изменить владение устройством, выберите **Устройства** > **Все устройства**, выберите устройство, щелкните **Свойства** и измените параметр **Владение устройством**.
 
-## <a name="imei-specifications"></a>Характеристики IMEI
+### <a name="imei-specifications"></a>Характеристики IMEI
 Для получения подробной информации о международных идентификаторах мобильных устройств (IMEI) см. [3GGPP TS 23.003](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=729).
+
+## <a name="change-device-ownership"></a>Смена владения устройством
+
+Для каждой записи устройства в Intune в разделе свойств устройства отображаются сведения о **владении**. Как администратор, вы можете назначить устройство **личным** или **корпоративным**.
+
+**Смена владения устройством**
+1. В Intune на портале Azure перейдите в раздел **Устройства** > **Все устройства** и выберите устройство.
+3. Выберите пункт **Свойства**.
+4. Укажите для параметра **Владение устройством** значение **Личное** или **Корпоративное**.
+
+  ![Снимок экрана свойств устройства с параметрами "Категория устройства" и "Владение устройством".](./media/device-properties.png)

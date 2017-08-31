@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 06/28/2017
+ms.date: 08/23/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5288bfc3aebbd119b49ef5261944840fd863afa5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 95ce3b6a307a71431b9717abdc3980f15a916a18
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="what-are-microsoft-intune-device-profiles"></a>Что такое профили устройств в Microsoft Intune?
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 07/01/2017
 Дополнительные сведения см. в статье [о настройке обновлений выпуска Windows 10](edition-upgrade-configure-windows-10.md). Поддержка: только устройства Windows 10.
 
 ## <a name="endpoint-protection"></a>Защита конечных точек
-Этот тип профиля позволяет настроить параметры BitLocker для устройств Windows 10.
+Этот тип профиля позволяет настроить параметры BitLocker и Защитника Windows для устройств Windows 10.
 Дополнительные сведения см. в статье [Параметры защиты конечных точек для Windows 10](endpoint-protection-windows-10.md). Поддержка: только Windows 10.
 
 ## <a name="windows-information-protection"></a>Windows Information Protection

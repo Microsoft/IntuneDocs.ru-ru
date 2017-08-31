@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/01/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 89f2d806-2e97-430c-a9a1-70688269627f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bd84f24400c5ca0828fb13a36963ffda274ba073
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: e0bbbdfae73dfd843f4b011cecf0217d2c6eb699
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с ОС Windows 10 и более поздних версий в Microsoft Intune
 
@@ -100,7 +100,7 @@ ms.lasthandoff: 08/08/2017
 -   **Устанавливать данные приложения на системный том.** Блокирует сохранение данных приложений на системном томе устройства.
 -   **Установить приложения на системный диск.** Блокирует сохранение данных приложений на системном диске устройства.
 -   **DVR для игр (только для настольных систем).** Указывает, разрешена ли запись и трансляция игр.
--   **Только приложения из магазина.** Определяет, могут ли пользователи устанавливать приложения из мест, отличных от магазина приложений.
+-   **Только приложения из магазина**. Определяет, могут ли пользователи устанавливать приложения из мест, отличных от магазина приложений.
 
 
 

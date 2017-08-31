@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 06/07/2017
+ms.date: 06/23/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: df9c4c0a0a23740bf9df4c13e34b8752838aa99a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: f862129d73c83e078d8b29201f1d92b9b65aa609
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/28/2017
 ---
 # <a name="supported-devices-and-browsers"></a>Поддерживаемые устройства и браузеры
 
@@ -65,7 +65,7 @@ You can manage [Exchange ActiveSync devices](/intune-classic/deploy-use/mobile-d
 
 ### <a name="intune-classic-portal"></a>Классический портал Intune
 
-Классические функции Intune, такие как программный клиент Intune для ПК и интеграция с партнерами Mobile Threat Defense, доступны только на классическом портале Intune (https://manage.microsoft.com). Для работы с классической консолью Intune требуется браузер, поддерживающий Silverlight.
+Классические функции Intune, такие как программный клиент Intune для ПК и интеграция с партнерами Mobile Threat Defense, доступны только на классическом портале Intune (https://manage.microsoft.com). Для работы с классическим порталом Intune требуется браузер, поддерживающий Silverlight.
 
 Для работы с классической консолью Intune можно использовать следующие браузеры с поддержкой Silverlight:
 - Internet Explorer 10 или более поздней версии
@@ -74,6 +74,5 @@ You can manage [Exchange ActiveSync devices](/intune-classic/deploy-use/mobile-d
 
 > [!Note]
 > Microsoft Edge и браузеры мобильных устройств не поддерживаются для классической консоли Intune, так как они не поддерживают [Microsoft Silverlight](https://msdn.microsoft.com/library/cc838158(v=vs.95).aspx).
-
 
 Входить на портал могут только пользователи, имеющие разрешения администратора службы или являющиеся администраторами клиента с ролью глобального администратора. Чтобы получить доступ к консоли администрирования, учетной записи должна быть назначена лицензия на использование Intune и состояние входа должно быть **Разрешено**.
