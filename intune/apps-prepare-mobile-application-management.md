@@ -14,27 +14,27 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e8b218ce38a7e76135a62b1155dbf9060ba511cc
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 2394068c43e652accfb428ff644229f794d33f24
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 08/25/2017
 ---
-# <a name="prepare-line-of-business-apps-for-mam"></a>Подготовка бизнес-приложений для MAM
+# <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-Можно позволить приложениям использовать политики управления мобильными приложениями (MAM), используя инструмент упаковки приложений Intune или пакет SDK для приложений Intune. Используйте приведенные сведения для изучения этих двух методов и способов их использования.
+Можно позволить приложениям использовать политики защиты приложений, используя инструмент упаковки приложений Intune или пакет SDK для приложений Intune. Используйте приведенные сведения для изучения этих двух методов и способов их использования.
 
 ## <a name="intune-app-wrapping-tool"></a>Инструмент упаковки приложений Intune
-Инструмент упаковки приложений используется в основном для внутренних бизнес-приложений. Инструмент представляет собой программу командной строки, которая создает оболочку вокруг приложения, что позволяет управлять приложением с помощью политики MAM Intune.
+Инструмент упаковки приложений используется в основном для внутренних бизнес-приложений. Инструмент представляет собой программу командной строки, которая создает оболочку вокруг приложения, что позволяет управлять приложением с помощью политики защиты приложений.
 
-Для использования инструмента исходный код не требуется, однако необходимы учетные данные подписи.  Дополнительные сведения об учетных данных подписи см. в [блоге Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/). Документацию по инструменту упаковки приложений см. в статьях [Инструмент упаковки приложений Android](app-wrapper-prepare-android.md) и [Инструмент упаковки приложений iOS](app-wrapper-prepare-ios.md).
+Для использования инструмента исходный код не требуется, однако необходимы учетные данные подписи. Дополнительные сведения об учетных данных подписи см. в [блоге Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/). Документацию по инструменту упаковки приложений см. в статьях [Инструмент упаковки приложений Android](app-wrapper-prepare-android.md) и [Инструмент упаковки приложений iOS](app-wrapper-prepare-ios.md).
 
 Инструмент упаковки приложений **не** поддерживает Apple App Store или Магазин Google Play. Кроме того, он не поддерживает отдельные функции, требующие интеграции во время разработки (см. следующую таблицу сравнения функций).
 
 
-Дополнительные сведения о средстве упаковки приложений для MAM на устройствах, не зарегистрированных в Intune, см. в разделе [Защита бизнес-приложений и данных на незарегистрированных устройствах](/intune-classic/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune).
+Дополнительные сведения об инструменте упаковки приложений для политик защиты приложений на устройствах, не зарегистрированных в Intune, см. в разделе [Защита бизнес-приложений и данных на незарегистрированных устройствах](/intune-classic/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune).
 
 ### <a name="reasons-to-use-the-app-wrapping-tool"></a>Причины для использования инструмента упаковки приложений
 * В приложении отсутствуют встроенные функции защиты данных.
@@ -102,8 +102,10 @@ ms.lasthandoff: 07/01/2017
 |Целевая конфигурация приложения |X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||
 |Настраиваемый стиль |X|||
-### <a name="see-also"></a>См. также
+## <a name="next-steps"></a>Дальнейшие действия
 
-[Инструмент упаковки приложений Android](app-wrapper-prepare-android.md)</br>
-[Инструмент упаковки приложений iOS](app-wrapper-prepare-ios.md)</br>
-[Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](/intune-classic/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management)
+Дополнительные сведения о политиках защиты приложений и Intune см. в следующих разделах.
+
+  -  [Инструмент упаковки приложений Android](app-wrapper-prepare-android.md)</br>
+  - [Инструмент упаковки приложений iOS](app-wrapper-prepare-ios.md)</br>
+  - [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](/intune-classic/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management)

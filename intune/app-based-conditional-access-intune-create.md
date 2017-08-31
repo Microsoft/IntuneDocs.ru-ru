@@ -14,11 +14,11 @@ ms.assetid: d1693515-de18-4553-91ef-801976cd3ec7
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a7f054868d0bae061f348239614f3a40b96a15b1
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 88db3730be62a9b481d924b4f09b70be775cb067
+ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/25/2017
 ---
 # <a name="set-up-app-based-conditional-access-policies"></a>Настройка политик условного доступа на основе приложений
 
@@ -59,9 +59,30 @@ ms.lasthandoff: 07/03/2017
 2. Щелкните многоточие, чтобы просмотреть параметры удаления.
 3. Выберите **Удалить**, чтобы удалить группу пользователей из списка.
 
+## <a name="create-app-based-conditional-access-policies-in-azure-ad-workload"></a>Создание политик условного доступа на основе приложений в рабочей нагрузке Azure AD
+
+Начиная с выпуска Intune 1708 ИТ-администраторы могут создавать политики условного доступа на основе приложений из рабочей нагрузки Azure AD. Это удобно, так как вам не нужно переключаться между рабочими нагрузками Azure и Intune.
+
+> [!IMPORTANT]
+> У вас должна быть лицензия Azure AD Premium для создания политик условного доступа к Azure AD на портале Intune Azure.
+
+### <a name="to-create-an-app-based-conditional-access-policy"></a>Создание политики условного доступа на базе приложений
+
+> [!IMPORTANT]
+> Перед использованием политик условного доступа на основе приложений к приложениям должны быть применены [политики защиты приложений Intune](app-protection-policies.md).
+
+1. На **панели мониторинга Intune** выберите **Условный доступ**.
+
+2. В колонке **Политики** выберите пункт **Создать политику**, чтобы создать новую политику условного доступа на основе приложений.
+
+4. Указав имя политики и настроив параметры, доступные в разделе **Назначения**, выберите **Предоставить** в разделе **Управление доступом**.
+
+5. Выберите **Требовать утвержденное клиентское приложение**, щелкните **Выбрать**, а затем **ОК** для сохранения новой политики.
+
 ## <a name="next-steps"></a>Дальнейшие действия
 [Блокировка приложений, не поддерживающих современные средства проверки подлинности](app-modern-authentication-block.md)
 
 ### <a name="see-also"></a>См. также
 
-[Защита данных приложений с помощью политик защиты приложений](app-protection-policies.md)
+[Защита данных приложения с помощью политик защиты приложений](app-protection-policies.md)
+[Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access)

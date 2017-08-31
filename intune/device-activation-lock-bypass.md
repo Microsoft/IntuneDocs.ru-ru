@@ -6,7 +6,7 @@ keywords:
 author: robstackmsft
 ms.author: robstack
 manager: angrobe
-ms.date: 08/09/2017
+ms.date: 08/22/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 9ca3b0ba-e41c-45fb-af28-119dff47c59f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c771d07cc41d91812a1cfa80ffe08234e58803e5
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: ae92a75958abdc97d781c5b518d70a4e54f4939a
+ms.sourcegitcommit: b5d7442e03d9727793acd1a1dd946779dbe9218d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/22/2017
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Обход блокировки активации на защищенных устройствах iOS с помощью Intune
 
@@ -58,8 +58,8 @@ Intune может запрашивать состояние блокировки
 Чтобы обходить блокировку активации на устройствах, ее необходимо включить, выполнив следующие инструкции.
 
 1. Настройте профиль ограниченного использования для iOS, используя информацию из раздела [Настройка параметров ограниченного использования устройства](/intune-azure/configure-devices/how-to-configure-device-restrictions).
-2. Для **режима терминала** включите параметр **Блокировка активации**.
-3. Сохраните профиль и назначьте его устройствам, на которых требуется реализовать управление обходом блокировки активации.
+2. В разделе [настройки параметров ограниченного использования устройств для iOS](device-restrictions-ios.md) на вкладке **Общие** установите флажок **Блокировка активации**.
+3. Сохраните профиль и [назначьте его](device-profile-assign.md) устройствам, на которых требуется реализовать управление обходом блокировки активации.
 
 
 ## <a name="how-to-use-activation-lock-bypass"></a>Применение обхода блокировки активации

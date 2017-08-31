@@ -6,20 +6,20 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/16/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8deff871-5dff-4767-9484-647428998d82
-ms.reviewer: dagerrit
+ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dfcd7b97848ed68edb4572429abc53a1cc8f8558
-ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
+ms.openlocfilehash: 4eb211fdeb8c51b67edc08f956c99c2af8319679
+ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2017
+ms.lasthandoff: 08/28/2017
 ---
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 
@@ -41,13 +41,13 @@ ms.lasthandoff: 08/21/2017
 ## <a name="set-mdm-authority-to-intune"></a>Выбор Intune в качестве центра MDM
 
 1. На [портале Azure](https://portal.azure.com) выберите пункты **Дополнительные службы** > **Мониторинг и управление** > **Intune**.
-2. В колонке Intune выберите **Регистрация устройства**, а затем щелкните **Обзор**.
-![Снимок экрана центра управления мобильными устройствами Intune](media/set-mdm-auth.png)
-
+2. Щелкните оранжевый баннер, чтобы открыть **центр управления мобильными устройствами**.
 3. В разделе **Центр управления мобильными устройствами**, выберите свой центр MDM в следующем списке.
   - **Центр MDM в Intune**
   - **Центр MDM в Configuration Manager**
   - **Нет**
+
+  ![Снимок экрана центра управления мобильными устройствами Intune](media/set-mdm-auth.png)
 
   Появится сообщение о том, что вы успешно установили Intune в качестве центра управления мобильными устройствами.
 
