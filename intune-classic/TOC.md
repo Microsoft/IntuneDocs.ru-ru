@@ -94,6 +94,7 @@
 ### [Добавление приложений для клиентских компьютеров Intune](deploy-use/add-apps-for-windows-pcs-in-microsoft-intune.md)
 #### [Управление лицензионными соглашениями](deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)
 ### [Разрешение конфликтов политик](deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts.md)
+### [Управление оповещениями](deploy-use/get-notified-by-alerts.md)
 ## Настройка устройств
 ### [Управление параметрами и компонентами на устройствах с помощью политик](deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)
 #### [Параметры iOS](deploy-use/ios-policy-settings-in-microsoft-intune.md)
