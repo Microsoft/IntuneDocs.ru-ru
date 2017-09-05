@@ -5,7 +5,7 @@ keywords:
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 06/27/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29911cf5a8fa3488640813efd8f33ee07c951c31
-ms.sourcegitcommit: 99ffed621855357de427d6fdf7b70d4e543197e9
+ms.openlocfilehash: 62478796f1f24464503a0d564e0d8972dd04f8b3
+ms.sourcegitcommit: 10e3ab2aeb79a1fb2243bef2748ccc003fdd4cc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 09/02/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -87,9 +87,6 @@ ms.lasthandoff: 08/07/2017
 2. **Вариант 2**. Выполните связывание с библиотекой `libIntuneMAM.a`. Перетащите библиотеку `libIntuneMAM.a` в список **Linked Frameworks and Libraries** (Связанные платформы и библиотеки) цели проекта.
 
     ![Пакет SDK для приложений Intune в iOS — связанные платформы и библиотеки](./media/intune-app-sdk-ios-linked-frameworks-and-libraries.png)
-
-    > [!NOTE]
-    > Если вы планируете опубликовать приложение в App Store, используйте окончательную версию `libIntuneMAM.a`, которая предназначена для рабочих сред, а не отладочную версию. Окончательная версия будет находиться в папке **release**. Отладочная версия имеет подробные выходные данные, которые хорошо подходят для устранения проблем, связанных с пакетом SDK для приложений Intune.
 
     Добавьте `-force_load {PATH_TO_LIB}/libIntuneMAM.a` в любое из следующих расположений, заменив `{PATH_TO_LIB}` путем к пакету SDK для приложений Intune:
       * Параметр конфигурации сборки `OTHER_LDFLAGS` проекта.

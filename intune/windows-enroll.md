@@ -5,7 +5,7 @@ description: "Включение управления мобильными ус�
 keywords: 
 author: nathbarn
 manager: nathbarn
-ms.date: 06/30/2017
+ms.date: 08/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b873e72e39c5c6f1d96ddac138f920be9dc673dd
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 3b5b5e2cdf2b31c33a02a90560e4abf955d398b0
+ms.sourcegitcommit: d5b5cb9b6dcb59094e436e07f8ed46924b37ac94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 08/30/2017
 ---
 # <a name="enroll-windows-devices"></a>Регистрация устройств Windows
 
@@ -56,9 +56,10 @@ ms.lasthandoff: 07/03/2017
 
 Несмотря на то, что создавать записи CNAME в DNS не обязательно, записи CNAME позволяют упростить регистрацию для пользователей. Если запись CNAME для регистрации не обнаружена, пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.com.
 
-|Тип|Имя узла|Указывает на|СРОК ЖИЗНИ|  
+|Тип|Имя узла|Указывает на|СРОК ЖИЗНИ|
 |----------|---------------|---------------|---|
 |CNAME|EnterpriseEnrollment.company_domain.com|EnterpriseEnrollment-s.manage.microsoft.com| 1 час|
+|CNAME|EnterpriseRegistration.company_domain.com|EnterpriseRegistration.windows.net|1 час|
 
 При наличии нескольких UPN-суффиксов необходимо создать по одной записи CNAME для каждого имени домена и указать для них EnterpriseEnrollment-s.manage.microsoft.com. Если в качестве электронной почты или UPN пользователи используют name@contoso.com, а также name@us.contoso.com и name@eu.constoso.com, администратору Contoso DNS нужно создать следующие записи CNAME.
 
