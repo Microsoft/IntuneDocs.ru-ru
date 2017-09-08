@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 07/06/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4d7ad138a8aa59ceeff00866469e59e2e1d19520
-ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
+ms.openlocfilehash: 975344e5eb773a2bff3a04d11e4e63d167b30b29
+ms.sourcegitcommit: 2d67df51af66ec859587b66a6ce3965461601c29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 09/01/2017
 ---
 # <a name="enroll-your-ios-device-in-intune"></a>Регистрация устройства iOS в Intune
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 07/13/2017
 > [!VIDEO https://channel9.msdn.com/Series/IntuneEnrollment/iOS-Enrollment/player]
 
 > [!NOTE]
-> Если вы регистрируете устройство под управлением macOS, например MacBook Pro или iMac, [используйте эти инструкции](enroll-your-device-in-intune-macos.md).
+> Если вы пытаетесь получить доступ к корпоративной электронной почте в почтовом приложении, вероятно, вы уже получили запрос на управление устройством для обеспечения безопасности. Следуйте инструкциям ниже, чтобы получить доступ к электронной почте и другим ресурсам компании на устройстве iOS.
 
 **Перед началом работы:**
 
