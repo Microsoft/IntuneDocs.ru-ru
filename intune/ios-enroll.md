@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/15/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 439c33a6-e80c-4da9-ba09-a51fc36f62ad
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 61bdbc7ca68995e23295cf099ce73dfdcaeba37c
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: 8bae9bd48493f20bb4abb94290013f27a6a75dd6
+ms.sourcegitcommit: 10e3ab2aeb79a1fb2243bef2748ccc003fdd4cc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/02/2017
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Регистрация устройств с iOS в Intune
 
@@ -32,7 +32,19 @@ Intune позволяет осуществлять управление моби
 - [Настройка Intune](setup-steps.md). Выполните необходимые этапы по настройке вашей инфраструктуры Intune. В частности, для регистрации устройств нужно [настроить центр MDM](mdm-authority-set.md).
 - [Получение сертификата Apple MDM Push Certificate](apple-mdm-push-certificate-get.md). Apple требует сертификат для управления устройствами с iOS и macOS.
 
-Когда вы выполните эти шаги, пользователи смогут установить приложение корпоративного портала и зарегистрировать свои персональные устройства с iOS либо администратор сможет настроить управление корпоративными iOS-устройствами. Администраторы могут также назначить [менеджеров регистрации устройств](device-enrollment-manager-enroll.md), которым разрешено регистрировать множество устройств с одной учетной записью управления. Intune поддерживает несколько способов регистрации корпоративных устройств с iOS, которые приведены ниже.
+## <a name="user-owned-ios-devices-byod"></a>Пользовательские устройства iOS (BYOD)
+
+Можно разрешить пользователям регистрировать личные устройства в системе управления Intune. Такая политика называется "принеси свое устройство" или BYOD. После выполнения необходимых условий и назначения пользовательских лицензий пользователи могут скачать приложение корпоративного портала iOS из App Store и выполнить инструкции по регистрации в приложении.
+
+## <a name="company-owned-ios-devices"></a>Корпоративные устройства iOS
+Для организаций, приобретающих устройства для своих пользователей, Intune поддерживает следующие методы регистрации корпоративных устройств iOS:
+
+- программа регистрации устройств (DEP) Apple;
+- Apple School Manager
+- помощник по настройке регистрации Apple Configurator;
+- прямая регистрация с помощью Apple Configurator.
+
+Кроме того, устройства iOS, принадлежащие компании, можно регистрировать с помощью учетной записи [диспетчера регистрации устройств](device-enrollment-manager-enroll.md).
 
 ## <a name="device-enrollment-program"></a>Программа регистрации устройств
 Организации могут приобретать устройства с iOS через программу регистрации устройств Apple (DEP). Эта программа позволяет развертывать в удаленном режиме профиль регистрации для управления устройствами. См. дополнительные сведения о [программе регистрации устройств](device-enrollment-program-enroll-ios.md).
