@@ -1,6 +1,6 @@
 ---
 title: "Отслеживание сведений о приложении и его назначений"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Назначив приложение определенным пользователям или устройствам, используйте эту информацию для отслеживания состояния приложения.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0a558c7d7c804b62535b2223cde9c409c56f22f6
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: ddb9b939b695f8612c02a2a25f4670e28c556c44
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-monitor-app-information-and-assignments-with-microsoft-intune"></a>Как отслеживать сведения о приложении и его назначения с помощью Microsoft Intune
 

@@ -1,6 +1,6 @@
 ---
 title: "Добавление приложений Магазина Windows в Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, как добавить приложения Магазина Windows в Intune.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ee7a15be73f3d70295ceec29e31b4fa35ea1c04e
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: f10da996f8587e63320e31ae57e88a5f14f3f9c2
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune приложения из Магазина Windows
 

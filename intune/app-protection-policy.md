@@ -1,6 +1,6 @@
 ---
 title: "Что такое политики защиты приложений"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "В этой статье содержатся сведения о защите корпоративных данных с помощью политик защиты приложений Microsoft Intune.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5a776de8a27c5fc7b1c472df067610ba7140b07b
-ms.sourcegitcommit: 45204e0fb8cb4cce449e65f2f1d7bb6f6ac4ccf5
+ms.openlocfilehash: 48294a922e191fa570c39d3e0de815b695506709
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 

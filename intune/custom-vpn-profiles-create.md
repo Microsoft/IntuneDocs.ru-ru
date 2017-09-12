@@ -1,6 +1,6 @@
 ---
 title: "Как создать настраиваемые профили VPN с помощью Microsoft Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Создание профилей VPN в Intune с помощью настраиваемых конфигураций."
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 11da0d31a9a00364a6105006c3e75b6bb6f2cb77
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: ea86abedb49dea45af18caacbe25572d06ce984f
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-create-custom-vpn-profiles-in-microsoft-intune"></a>Как создать настраиваемые профили VPN в Microsoft Intune
 

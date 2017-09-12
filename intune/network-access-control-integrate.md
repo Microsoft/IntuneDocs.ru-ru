@@ -1,6 +1,6 @@
 ---
 title: "Интеграция управления доступом к сети с Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Интеграция управления доступом к сети (NAC) с Intune"
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: aa7ecff7-8579-4009-8fd6-e17074df67de
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 15651b3f03959fd96edf1a585d0075204e35e61b
-ms.sourcegitcommit: ce49a5c50e0d1e377ecb94185c4e6ac450e4701d
+ms.openlocfilehash: 6d75d996f4166fb2a760d1ccb518ca7a228c1a0d
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="network-access-control-nac-integration-with-intune"></a>Интеграция управления доступом к сети (NAC) с Intune
 

@@ -1,6 +1,6 @@
 ---
 title: "Управление веб-доступом с помощью приложения Managed Browser"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Сведения о развертывании приложения Managed Browser для ограничения просмотра веб-страниц и передачи веб-данных в другие приложения.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b87857425a40beb9fc07a78ab144f5b14a4d7c8e
-ms.sourcegitcommit: 7674efb7de5ad54390801165364f5d9c58ccaf84
+ms.openlocfilehash: 4f8534b51c89cd8dedc674468c5299b79a29f608
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Управление доступом в Интернет с помощью политик Managed Browser в Microsoft Intune
 
@@ -67,7 +67,7 @@ Intune Managed Browser поддерживает открытие веб-конт
 6.  Для типа **Регистрация устройства** выберите **Не зарегистрировано в Intune**.
 7.  Выделите **Выбрать необходимые приложения**. Затем в колонке **Целевые приложения** выберите **Managed Browser** для iOS, Android или одновременно обеих платформ.
 8.  Нажмите кнопку **ОК** для возврата к колонке **Добавить конфигурацию приложения**.
-9.  Выберите **Параметры конфигурации** . В колонке **Конфигурация** можно определить пары ключей и значений, которые будут задавать конфигурацию Managed Browser. Сведения о доступных парах ключей и значений см. далее в этой статье.
+9.  Выберите **Параметры конфигурации **. В колонке **Конфигурация** можно определить пары ключей и значений, которые будут задавать конфигурацию Managed Browser. Сведения о доступных парах ключей и значений см. далее в этой статье.
 10. По завершении нажмите кнопку **ОК**.
 11. В колонке **Добавить конфигурацию приложения** выберите **Создать**.
 12. Созданная конфигурация отображается в колонке **Конфигурация приложения**.

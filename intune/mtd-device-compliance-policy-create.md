@@ -1,6 +1,6 @@
 ---
 title: "Создание политики соответствия для устройств Mobile Threat Defense в Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Создание политики соответствия для устройств Mobile Threat Defense в Intune"
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c6b05522c7390acb3974e088ecd60d13db46ef5a
-ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
+ms.openlocfilehash: b2cffc21ba78cbd54edfb75eaa892df1539ad62b
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Создание политики соответствия для устройств Mobile Threat Defense (MTD) в Intune
 

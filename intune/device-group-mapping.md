@@ -1,6 +1,6 @@
 ---
 title: "Использование категорий устройств в Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, как использовать категории устройств, которые пользователи могут выбрать при регистрации устройств в Intune.\""
 keywords: 
 author: robstackmsft
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6c5d97499545d0ad3899f28ed4e88eb4dc1fe734
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: 00becba338f9a64e341b0b6d220b1a4ace3b40a9
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="map-device-groups"></a>Сопоставление групп устройств
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 08/09/2017
 
 Дальнейшие действия описываются в разделе [Использование атрибутов для создания расширенных правил](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) в документации по Azure Active Directory. 
 
-Сведения из этого раздела помогут создать группу устройств с расширенным правилом с использованием атрибута **deviceCategory**. Например: (**device.deviceCategory -eq** "*<the device category name you got from the Intune portal>*").
+Сведения из этого раздела помогут создать группу устройств с расширенным правилом с использованием атрибута **deviceCategory**. Например: (**device.deviceCategory -eq** "*<the device category name you got from the Azure portal>*").
 
 После настройки групп устройств и их регистрации пользователю предлагается список настроенных категорий. После выбора категории и завершения регистрации устройство добавляется в группу безопасности Active Directory, соответствующую выбранной категории.
 

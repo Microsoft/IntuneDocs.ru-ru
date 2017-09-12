@@ -1,6 +1,6 @@
 ---
 title: "Подготовка к регистрации устройств Android в Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Узнайте, как подготовить устройства Android к регистрации в Intune.\""
 keywords: 
 author: nathbarn
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 183e60af4d6174c18fc3883f2cdd9827505d2aba
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: ba809003dbdf63377a0b87b747c9865393786d72
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 

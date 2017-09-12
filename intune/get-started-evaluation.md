@@ -1,10 +1,10 @@
 ---
 title: "Начало работы с Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Выполните ряд коротких практических занятий, которые помогут узнать об Intune."
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/16/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 6bfab644-c1e2-4154-a254-e95b9a1d75f2
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5dc7a76ddac12dd3e002c8780541d3dd4e976896
-ms.sourcegitcommit: 45204e0fb8cb4cce449e65f2f1d7bb6f6ac4ccf5
+ms.openlocfilehash: abfd1c1a05ce0eac3e6ab835d6ac8b017c9a6d77
+ms.sourcegitcommit: fa6aaf12611c3e03e38e467806fc30b1d0255e88
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="what-can-intune-do-for-my-company"></a>В чем преимущества Intune для организации?
 
@@ -27,7 +27,7 @@ Intune — это облачная служба управления корпо
 
 ![Высокоуровневая архитектурная схема для Microsoft Intune](/intune/media/intunearchitecture.svg)
 
-Мы понимаем, что начало работы с управлением мобильными устройствами может вызывать трудности, так как вам потребуется принять множество различных решений от имени вашей организации. На занятиях вы выполните ряд задач, которые помогут понять принципы использования Intune для защиты ресурсов организации. 
+Мы понимаем, что начало работы с управлением мобильными устройствами может вызывать трудности, так как вам потребуется принять множество различных решений от имени вашей организации. На занятиях вы выполните ряд задач, которые помогут понять принципы использования Intune для защиты ресурсов организации.
 
 ## <a name="what-are-the-exercises"></a>Что собой представляют занятия?
 

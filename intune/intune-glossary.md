@@ -1,6 +1,6 @@
 ---
 title: "Глоссарий Intune"
-titleSuffix: 
+titleSuffix: Azure portal
 description: "Сведения о терминологии, используемой в Microsoft Intune"
 keywords: 
 author: robstackmsft
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bd7b5613-ee9f-4dc3-990c-ab4c1d40720d
 ms.custom: intune-azure
-ms.openlocfilehash: 2df6c8c79954c2145ffa6eb33782cee690d78b1d
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 8eaf82e995e3b572d897b63aaf36480424603ce6
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="microsoft-intune-glossary"></a>Глоссарий Microsoft Intune
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 08/03/2017
 ## <a name="i"></a>I
 |||
 |-|-|
-|Портал Intune|Портал Azure, используемый для большинства операций управления Intune.|
+|портал Azure;|Портал Azure, используемый для большинства операций управления Intune.|
 |Intune software client (Программный клиент Intune)|Альтернативный способ [управления несколькими компьютерами с Windows](/intune-classic/get-started/choose-how-to-manage-devices) для помощи в выборе подходящего метода.|
 |Intune Software Publisher (издателя программного обеспечения Intune)|Средство, используемое для [определения приложений, которые необходимо развернуть и отправить в облачное хранилище](/intune-classic/deploy-use/add-apps).|
 |Inventory (Товары)|Используйте для просмотра [оборудования и установленного программного обеспечения](/intune/device-inventory) на управляемых устройствах.|

@@ -1,6 +1,6 @@
 ---
 title: "Политики соответствия устройств Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Из этой статьи вы узнаете о соответствии устройств в Microsoft Intune\""
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9723e5a8b001068e8b7c9994723e6c7111e7a80d
-ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
+ms.openlocfilehash: aa78383233950e342c5ab0f83095bba3c8fda1f9
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="get-started-with-intune-device-compliance-policies"></a>Начало работы с политиками соответствия устройств Intune
 

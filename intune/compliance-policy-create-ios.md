@@ -1,6 +1,6 @@
 ---
 title: "Создание политики соответствия для iOS"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, как создать политику соответствия требованиям для устройств с iOS.\""
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 3cfb8222-d05b-49e3-ae6f-36ce1a16c61d
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9337586ad5daa909f38aba2b25fc159b44f55e65
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 3b0fdb06b072c325d30b3e5ee72f1982c5f61849
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-ios-devices-in-intune"></a>Создание политики соответствия требованиям для устройств iOS в Intune
 

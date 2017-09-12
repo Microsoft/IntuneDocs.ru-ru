@@ -1,6 +1,6 @@
 ---
 title: "Добавление бизнес-приложений Windows в Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Сведения о добавлении в Intune бизнес-приложений Windows.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 94c8c2ac583cca88b051404999664bf93c02a9f5
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: c8ae15dc7b192cbfe3f0759e568b92783f24e1fe
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-add-windows-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавить бизнес-приложения Windows в Microsoft Intune
 

@@ -1,6 +1,6 @@
 ---
 title: "Параметры VPN Intune для устройств macOS"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах macOS.\""
 keywords: 
 author: lleonard-msft
@@ -15,11 +15,11 @@ ms.assetid: d203a70d-37df-4195-85f7-ad5ef14ac2a1
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 83e3776aacbddc37e5e7586d8fd7580143dead64
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 3cb9d3eb3e1a52b8b68ddd1f12f7dad78e0a6329
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="vpn-settings-for-macos-devices-in-microsoft-intune"></a>Параметры VPN для устройств macOS в Microsoft Intune
 
