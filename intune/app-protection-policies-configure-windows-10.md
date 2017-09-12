@@ -1,6 +1,6 @@
 ---
 title: "Подготовка к настройке политик защиты приложений для Windows 10"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Настройка поставщика управления мобильными приложениями (MAM) в Azure AD"
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: 949fddec-5318-4c9a-957e-ea260e6e05be
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 08fd1362363a4795e5372431b2000c97273caf41
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: 52b273532935184918e65d25a37ca3d03e76680c
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Подготовка к настройке политик защиты приложений для Windows 10
 

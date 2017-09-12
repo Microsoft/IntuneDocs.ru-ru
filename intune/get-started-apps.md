@@ -1,10 +1,10 @@
 ---
 title: "Начало работы с приложениями"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Поиск и добавление приложений для устройств, чтобы сотрудники могли реализовывать поставленные задачи."
 keywords: 
-author: barlanmsft
-ms.author: barlan
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/16/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: a1542fc3-672e-47c1-a21f-82826a2f8ac4
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7ac2a6f027a78c6b0093a0d299a7cae3265e5954
-ms.sourcegitcommit: 45204e0fb8cb4cce449e65f2f1d7bb6f6ac4ccf5
+ms.openlocfilehash: 28bc8547d56073a2175ca57e03dbd9b94fc03ba9
+ms.sourcegitcommit: fa6aaf12611c3e03e38e467806fc30b1d0255e88
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="get-started-with-adding-apps"></a>Начало работы с добавлением приложений
 

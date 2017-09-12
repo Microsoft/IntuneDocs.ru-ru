@@ -1,6 +1,6 @@
 ---
 title: "Настройка интеграции Lookout с Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Настройка вашей подписки Lookout в Intune"
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c6af49be38e760e14824eb380e4cf3467a695df8
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 77021ddc681f10d735ed0e680738122667608bdf
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Настройка интеграции Lookout Mobile Threat Defense с Intune
 

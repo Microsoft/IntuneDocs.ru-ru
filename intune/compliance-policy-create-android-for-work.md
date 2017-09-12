@@ -1,6 +1,6 @@
 ---
 title: "Создание политики соответствия для Android for Work"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, как создать политику соответствия требованиям для устройств Android for Work.\""
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 9da89713-6306-4468-b211-57cfb4b51cc6
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 518b74703de88a1cded2ad38d33c52b54699dc44
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d9a01b88708dd077f15b6e23536667f7ee752e67
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-for-work-devices-in-intune"></a>Создание политики соответствия требованиям для устройств Android for Work в Intune
 

@@ -1,6 +1,6 @@
 ---
 title: "Поиск потерянного устройства iOS с помощью Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Сведения о том, как найти потерянное или украденное устройство iOS с помощью Intune.\""
 keywords: 
 author: robstackmsft
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 3e544286-12ad-4a3a-86f8-d2cf16940b1f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8c6035ce5119b618ed63cf817082dd3eedc6eda7
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: 1d38906ef14a97043dc97ff9149cd602cd4de120
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="locate-lost-or-stolen-ios-devices-with-intune"></a>Поиск потерянных или украденных устройств iOS с помощью Intune
 

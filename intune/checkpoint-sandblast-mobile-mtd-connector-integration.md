@@ -1,6 +1,6 @@
 ---
 title: "Настройка интеграции Check Point SandBlast Mobile с Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Настройка интеграции Check Point SandBlast Mobile с Intune"
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 1e9b1576-b239-48cc-a672-da6b5fb7be0a
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: eaeaa7eef50b24a1d0b8cc104a673b8676bb7734
-ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
+ms.openlocfilehash: 92e1f8474625d2036c698da0473ec20926da68d2
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="integrate-check-point-sandblast-mobile-with-intune"></a>Интеграция Check Point SandBlast Mobile с Intune
 

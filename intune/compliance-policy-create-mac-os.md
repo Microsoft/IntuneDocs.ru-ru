@@ -1,6 +1,6 @@
 ---
 title: "Создание политики соответствия для macOS"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, как создавать политику соответствия для устройств с macOS."
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 0444183e-f924-4605-96a8-48fdfbc58fd1
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 55fa980c79ed178649562189dfe8fb704e26fcd9
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 0c6e3c3f8e31d9ac6d42c3a2c519836dee186f0b
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="create-a-device-compliance-policy-for-macos-devices-preview-with-intune"></a>Создание политики соответствия устройств с macOS (предварительная версия) при помощи Intune
 

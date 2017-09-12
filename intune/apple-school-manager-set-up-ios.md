@@ -1,6 +1,6 @@
 ---
 title: "Настройка регистрации программы Apple School Manager для устройств iOS"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Сведения о настройке регистрации программы Apple School Manager для корпоративных устройств iOS с помощью Intune\""
 keywords: 
 author: nathbarn
@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 91fd4719a4305f5e422163f9049684ebd9e9e656
-ms.sourcegitcommit: bb1a1e4e0bc26543a9c8fb52cb208e298c6b8e3f
+ms.openlocfilehash: 6b3ecc9af91d1a78f84dd6d4b8f47f0bf3e8c742
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Включение регистрации устройств iOS с помощью Apple School Manager
 

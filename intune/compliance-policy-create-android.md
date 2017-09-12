@@ -1,6 +1,6 @@
 ---
 title: "Создание политики соответствия для Android"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, как создать политику соответствия требованиям для устройств Android.\""
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cc68bf4a52e5fcf9a8fbb3550a5bee814f4f46f0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 64e16233a9acb021c0a50b32f3eb750125eb0638
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune"></a>Создание политики соответствия для устройств Android в Intune
 

@@ -1,6 +1,6 @@
 ---
 title: "Добавление приложений из магазина iOS в Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Узнайте, как добавить приложения из магазина iOS в Intune.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: c59514d7-1256-4576-9380-e7a0b85a0378
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3d6a12a21c156a45974e096da852f749f19bd330
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 53ff149b28a2f75a3b30c59fa5f30edcf4879fae
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-add-ios-store-apps-to-microsoft-intune"></a>Добавление в Microsoft Intune приложений из магазина iOS
 

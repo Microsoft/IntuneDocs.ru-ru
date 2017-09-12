@@ -1,6 +1,6 @@
 ---
 title: "Служба защиты мобильных устройств от угроз в Intune"
-titleSuffix: Intune Azure preview
+titleSuffix: Azure portal
 description: "Защита доступа к ресурсам организации с учетом риска для устройств"
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: ac77b590-a7ec-45a0-9516-ebf5243b6210
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fe2387f57d73b86b647e997eac4c411fbaf2bfbc
-ms.sourcegitcommit: bee30f4c9e04129d70305fcafc4152c6e062a8b0
+ms.openlocfilehash: f9c28bbd06fbee620466d4f269fbb08d98bbcde2
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="mobile-threat-defense-integration-with-intune"></a>Интеграция службы защиты мобильных устройств от угроз с Intune
 

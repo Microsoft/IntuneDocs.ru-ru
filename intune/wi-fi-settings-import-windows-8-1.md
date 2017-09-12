@@ -1,6 +1,6 @@
 ---
 title: "Импорт параметров Wi-Fi для устройств с Windows 8.1 или более поздней версии"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Импорт параметров Wi-Fi из Windows в профиль Wi-Fi в Intune.\""
 keywords: 
 author: lleonard-msft
@@ -15,11 +15,11 @@ ms.assetid: 2c4e9b19-b268-4f6d-9663-7cdbe4e4a8dd
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c4ef9bf6ed3f731afada55d2af71d56367f4638d
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: aa16955fa768dbaa6f97b0b9a8e0b28faa3be1f2
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-import-wi-fi-settings-for-windows-81-and-later-devices-in-microsoft-intune"></a>Импорт параметров Wi-Fi на устройства с ОС Windows 8.1 и более поздних версий в Microsoft Intune
 

@@ -1,6 +1,6 @@
 ---
 title: "Как настроить приложение корпоративного портала"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, как использовать фирменный стиль в приложении корпоративного портала Intune. \""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 118e842c40574a0858f6b8071fd9c0c8db5cb3a3
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 303d4a4cbce9d63abc0809a27ae1e22dcd1e195b
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Настройка приложения корпоративного портала Microsoft Intune
 

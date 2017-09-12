@@ -1,6 +1,6 @@
 ---
 title: "Пользовательские параметры для устройств Android в Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте, какие параметры можно использовать в настраиваемом профиле Android.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 494b3892-916e-4b40-9b67-61adec889bdf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 45a3a8fe4960cc1bb8c5f2150f57d34d59c08e0a
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: 92014eb9fd5564c0527b8cbf68732a51cf83bc96
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="custom-settings-for-android-devices-in-microsoft-intune"></a>Настраиваемые параметры для устройств Android в Microsoft Intune
 

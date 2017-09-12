@@ -1,6 +1,6 @@
 ---
 title: "Выход из системы для пользователя устройства iOS с помощью Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Вы можете узнать, как выполнить выход из системы для пользователя устройства iOS с помощью Intune."
 keywords: 
 author: robstackmsft
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 702bc46c-1a6f-4689-bd53-3b778a447baa
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1de2069b7b25ee5e5c21a8e4caa7512f13d4ca0e
-ms.sourcegitcommit: ee7f69efe9f32a1d6bdeb1fab73d03dbfe1ae58c
+ms.openlocfilehash: 72518a997434b9f2b5e234162b9d76736102d6de
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="logout-the-current-user-on-intune-managed-ios-devices"></a>Выход из системы для текущего пользователя на устройствах iOS, управляемых в Intune
 

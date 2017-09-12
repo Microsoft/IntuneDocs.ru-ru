@@ -1,6 +1,6 @@
 ---
 title: "Соединитель Skycure в Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Интеграция соединителя Skycure с Intune."
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: df4ce3f6-a093-432c-ab86-7a83865e389e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2a7c15cf695fd88ba5961611c78ecc28a29238af
-ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
+ms.openlocfilehash: 9afb22b5fdfa20824f2a470936b213e3d5b76056
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="skycure-mobile-threat-defense-connector"></a>Соединитель службы защиты мобильных устройств от угроз Skycure
 
