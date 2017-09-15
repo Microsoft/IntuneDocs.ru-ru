@@ -1,12 +1,12 @@
 ---
 title: "Использование сброса параметров до заводских настроек или удаление данных организации на устройствах с помощью Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Сведения об удалении данных организации на устройстве или о сбросе параметров устройства до заводских настроек."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/07/2017
+ms.date: 08/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 331ced93f0697f7c76d1356aae32b955602d17a3
-ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
+ms.openlocfilehash: 41bfb62f90965288d73948650b6935434c986d92
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>Очистка устройств с помощью сброса параметров до заводских настроек или удаления данных организации
 
@@ -106,7 +106,7 @@ ms.lasthandoff: 08/10/2017
 
 ## <a name="delete-devices-from-the-azure-active-directory-portal"></a>Удаление устройств на портале Azure Active Directory
 
-Из-за проблем со связью или отсутствующих устройств вам может потребоваться удалить устройства из Azure Active Directory (AD). Команда удаления не удаляет устройство из системы управления, но команду **Удалить** можно использовать для удаления записей устройства из консоли Azure, которые известны как недоступные и вряд ли будут обмениваться данными с Azure снова.
+Из-за проблем со связью или отсутствующих устройств вам может потребоваться удалить устройства из Azure Active Directory (AD). Команда удаления не удаляет устройство из системы управления, но команду **Удалить** можно использовать для удаления записей устройства на портале Azure, которые известны как недоступные и вряд ли будут обмениваться данными с Azure снова.
 
 1.  Войдите в [Azure Active Directory на портале Azure](http://aka.ms/accessaad) с помощью учетных данных администратора. Можно также войти на [портал Office 365](https://portal.office.com) и выбрать **Администрирование** &gt; **Azure AD** с помощью ссылки в левой части страницы.
 3.  Создайте подписку Azure, если у вас ее нет. Если у вас платная учетная запись, кредитная карта или оплата не потребуются (щелкните ссылку **Зарегистрировать бесплатную подписку Azure Active Directory**).

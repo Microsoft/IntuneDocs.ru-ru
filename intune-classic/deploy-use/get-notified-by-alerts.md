@@ -14,11 +14,11 @@ ms.assetid: 396ea714 0433 4bd5 a934 8d0b477f28e4
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune classic
-ms.openlocfilehash: 7f8f914e9b7b0e2db2da3f9c8317485208d97574
-ms.sourcegitcommit: 2d67df51af66ec859587b66a6ce3965461601c29
+ms.openlocfilehash: 9a84cc5b294a1a330aab978de5ef0fd8cfa4c259
+ms.sourcegitcommit: 30b51c625311398b371c0326d41216f55315f627
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2017
+ms.lasthandoff: 09/05/2017
 ---
 #  <a name="use-alerts-to-get-notified-by-microsoft-intune"></a>Использование оповещений для получения уведомлений от Microsoft Intune
 

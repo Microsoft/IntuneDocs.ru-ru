@@ -1,6 +1,6 @@
 ---
 title: "Перенос политик условного доступа с классического портала Intune на портал Azure"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Перенос политик условного доступа с классического портала Intune на портал Azure."
 keywords: 
 author: andredm7
@@ -15,11 +15,11 @@ ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d5f1ea2b0ceb32d0aa05a28e0f01f65b80b1ddcf
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 5b0b0982018dcfa3c606ea55b9264e5cd6cd1a82
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 

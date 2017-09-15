@@ -5,20 +5,20 @@ keywords: "Пакет SDK"
 author: mtillman
 manager: angrobe
 ms.author: mtillman
-ms.date: 07/05/2017
+ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
-ms.reviewer: oydang
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a6e0ea5edc5a174e0400ccca3931323712f3cbbe
-ms.sourcegitcommit: ce8a1f0f4e95444949556600d1837937b6efd769
+ms.openlocfilehash: a28305aab1fff16a46b8142e5869bfa25008017c
+ms.sourcegitcommit: fa6aaf12611c3e03e38e467806fc30b1d0255e88
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -456,8 +456,9 @@ public interface MAMNotificationReceiver {
     |--|--|
     | Authority | Желаемая среда, в которой настроены учетные записи AAD. |
     | ClientID | Идентификатор ClientID приложения (созданный в Azure AD при регистрации приложения). |
-    | NonBrokerRedirectURI | Допустимый URI перенаправления для приложения или стандартное значение `urn:ietf:wg:oauth:2.0:oob`. <br><br> Значение должно быть определено как допустимый URI перенаправления для идентификатора ClientID приложения.
-    | SkipBroker | False |
+    | NonBrokerRedirectURI | Допустимый URI перенаправления для приложения или значение `urn:ietf:wg:oauth:2.0:oob`. 
+    . <br><br> Значение должно быть определено как допустимый URI перенаправления для идентификатора ClientID приложения.
+   | SkipBroker | False |
 
 
 3. **Приложение включает ADAL, но не поддерживает аутентификацию и единый вход с помощью брокера на уровне устройства**
@@ -1355,7 +1356,7 @@ public interface MAMAppConfig {
 
 ## <a name="telemetry"></a>Телеметрия
 
-Пакет SDK для приложений Intune для Android не управляет сбором данных из приложения. По умолчанию приложение корпоративного портала записывает данные телеметрии при следующих событиях использования. Эти данные отправляются в Microsoft Intune. Согласно политике конфиденциальности Майкрософт мы не собираем персональные данные.
+Пакет SDK для приложений Intune для Android не управляет сбором данных из приложения. По умолчанию приложение корпоративного портала записывает данные телеметрии. Эти данные отправляются в Microsoft Intune. Согласно политике конфиденциальности Майкрософт мы не собираем персональные данные.
 
 > [!NOTE]
 > Если конечные пользователи отказываются от отправки этих данных, им необходимо отключить телеметрию в разделе "Параметры" приложения корпоративного портала. Дополнительные сведения см. в разделе [Отключение сбора данных об использовании корпорацией Майкрософт](https://docs.microsoft.com/en-us/intune-user-help/turn-off-microsoft-usage-data-collection-android). 

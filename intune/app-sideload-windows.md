@@ -12,11 +12,11 @@ ms.service:
 ms.technology: 
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
-ms.openlocfilehash: 2a8754d684896f2c945e11ed0fc2577114459069
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 3567f26053a235c5a5af761829f043e0db2f79b5
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Подписывание бизнес-приложений для развертывания на устройствах Windows с помощью Intune
 
@@ -55,7 +55,7 @@ ms.lasthandoff: 08/15/2017
 6.  **Отправка приложения в Intune**<br>
     Отправьте подписанный файл приложения и сертификат подписи кода, чтобы предоставить приложение конечным пользователям.
 
-    1.  На портале Intune щелкните **Администрирование** &gt; **Windows Phone**.
+    1.  На портале Azure щелкните **Администрирование** &gt; **Windows Phone**.
 
     2.  Щелкните **Отправить подписанный файл приложения** и выполните вход с помощью вашего ИД администратора Intune.
 
@@ -118,7 +118,7 @@ ms.lasthandoff: 08/15/2017
 
     -   `-EnterpriseId` — идентификатор организации. Необходимо указать либо этот аргумент, либо AetxPath. Если этот аргумент не задан, идентификатор организации считывается из AETX-файла. Например, 1000000001.
 
-6.  Разверните приложение портала компании Windows Phone 8.1 (SSP.appx). См. инструкции в разделе [Как добавить бизнес-приложения Windows Phone в Microsoft Intune](lob-apps-windows-phone.md) ([классическая консоль](/intune-classic/deploy-use/deploy-apps-in-microsoft-intune)).
+6.  Разверните приложение портала компании Windows Phone 8.1 (SSP.appx). См. инструкции в разделе [Как добавить бизнес-приложения Windows Phone в Microsoft Intune](lob-apps-windows-phone.md) ([классический портал](/intune-classic/deploy-use/deploy-apps-in-microsoft-intune)).
 
 ## <a name="how-to-renew-the-symantec-enterprise-code-signing-certificate"></a>Инструкции по обновлению корпоративного сертификата Symantec для подписи кода
 
@@ -136,7 +136,7 @@ ms.lasthandoff: 08/15/2017
 
 1.  Подпишите последнюю версию бизнес-приложения.
 
-2.  Откройте консоль Intune, перейдите в раздел **Администратор** &gt; **Управление мобильными устройствами** &gt; **Windows Phone** и щелкните **Отправить подписанное приложение**.
+2.  На портале Azure перейдите в раздел **Администратор** &gt; **Управление мобильными устройствами** &gt; **Windows Phone** и щелкните **Отправить подписанное приложение**.
 
 3.  Отправьте вновь подписанный корпоративный портал. Вам понадобятся вновь подписанный SSP.xap и новый PFX-файл, полученный от Symantec, или маркер регистрации приложения, который был создан с использованием этого нового PFX-файла.
 

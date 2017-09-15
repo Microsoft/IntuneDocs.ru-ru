@@ -1,6 +1,6 @@
 ---
 title: "Устранение неполадок в профилях устройств Microsoft Intune"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Если у вас возникли трудности, эта статья поможет вам устранить неполадки в профилях устройств Intune.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ed238f35927f17b20402f64586686246afabb900
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 426bed61930e045f38e3c7c658dbb7168dc2f551
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="troubleshooting-device-profiles-in-microsoft-intune"></a>Устранение неполадок в профилях устройств Microsoft Intune
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 07/01/2017
 
 -   При сравнении аналогичных параметров разных политик соответствия требованиям применяется наиболее строгий из них.
 
--   Если параметр политики конфигурации конфликтует с параметром в другой политике конфигурации, этот конфликт отображается в консоли Intune. Такие конфликты необходимо разрешать вручную.
+-   Если параметр политики конфигурации конфликтует с параметром в другой политике конфигурации, этот конфликт отображается в на портале Azure. Такие конфликты необходимо разрешать вручную.
 
 ## <a name="what-happens-when-app-protection-policies-conflict-with-each-other-which-one-will-be-applied-to-the-app"></a>Что происходит, если политики защиты приложений конфликтуют друг с другом? Какая из них будет применяться к приложению?
 Конфликтующие значения — это наиболее строгие параметры, доступные в политике защиты приложений, за исключением полей ввода чисел (например, число попыток ввода PIN-кода перед сбросом).  В качестве значений для полей ввода чисел устанавливаются значения, которые были бы заданы при создании политики MAM в консоли с рекомендуемыми настройками.

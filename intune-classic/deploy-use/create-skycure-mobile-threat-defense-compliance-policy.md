@@ -1,6 +1,6 @@
 ---
 title: "Создание политики соответствия защиты мобильных устройств от угроз Skycure"
-description: "Создание политики соответствия защиты мобильных устройств от угроз Skycure в классической консоли Intune."
+description: "Создание политики соответствия защиты мобильных устройств от угроз Skycure на классическом портале Intune."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,11 +14,11 @@ ms.assetid: 56ff1728-1119-4e8a-aae6-ed5c7fafa052
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29caf162500e25c2a0151be92aabe4cc432e241b
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: e8f7b6c5c1e8497ca698b83215525ba9b4056f59
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="create-skycure-mobile-threat-defense-compliance-policy"></a>Создание политики соответствия защиты мобильных устройств от угроз Skycure
 
@@ -38,7 +38,7 @@ Intune со службой защиты мобильных устройств о
 
 ## <a name="to-create-skycure-compliance-policy"></a>Создание политики соответствия Skycure
 
-1.  Перейдите в [классическую консоль Intune](https://manage.microsoft.com/) и введите свои учетные данные.
+1.  Перейдите на [классический портал Intune](https://manage.microsoft.com/) и введите свои учетные данные.
 
 2.  Выберите пункты **Политика** &gt; **Политики соответствия**. Можно использовать существующую политику соответствия или создать новую.
 

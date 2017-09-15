@@ -1,6 +1,6 @@
 ---
 title: "Регистрация устройств iOS с помощью программы регистрации устройств"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Сведения о том, как регистрировать корпоративные устройства iOS с помощью программы регистрации устройств.\""
 keywords: 
 author: nathbarn
@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d88d191e3212e1999376fb2577a85c3dc957a787
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: c14903d227164089f52c9bd3288a99f29a9141b8
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 
@@ -55,7 +55,7 @@ ms.lasthandoff: 08/03/2017
 Токен DEP создается на портале Apple DEP. Кроме того, на портале DEP можно назначать устройства для управления службой Intune.
 
 > [!NOTE]
-> Если вы удалите токен из классической консоли Intune перед миграцией в Azure, Intune может восстановить удаленный токен программы регистрации устройств Apple. Вы можете просто удалить токен DEP на портале Azure. Вы можете просто удалить токен DEP на портале Azure.
+> Если вы удалите токен на классическом портале Intune перед миграцией в Azure, Intune сможет восстановить удаленный токен программы регистрации устройств Apple. Вы можете просто удалить токен DEP на портале Azure. Вы можете просто удалить токен DEP на портале Azure.
 
 **Шаг 1. Скачайте сертификат открытого ключа Intune, необходимый для создания токена DEP Apple.**<br>
 

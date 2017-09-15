@@ -1,6 +1,6 @@
 ---
 title: "Создание и развертывание политик защиты приложений"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Защита корпоративных данных, используемых в управляемых приложениях, с помощью политик защиты приложений Intune.\""
 keywords: 
 author: mattbriggs
@@ -15,11 +15,11 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 47cafd6fa252ca7db9ca1129c5dcc5bd0d70d154
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: 2e535b2aa11401d51edb33cbad54e9222fd6da6a
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>Как создать и назначить политики защиты приложений
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/09/2017
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-Инструкции для классической консоли Intune см. в статье [Создание политик защиты приложений](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune).
+Инструкции для классического портала Intune см. в статье [Создание политик защиты приложений](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune).
 
 Политики защиты приложений могут применяться к приложениям на устройствах, которыми управляет или не управляет Intune. Подробное описание использования политик защиты приложений и сценариев, поддерживаемых политиками защиты приложения Intune, см. в статье о [политиках защиты приложений Microsoft Intune](app-protection-policy.md).
 

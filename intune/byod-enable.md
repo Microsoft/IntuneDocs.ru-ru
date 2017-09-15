@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.openlocfilehash: fa70e21b9e9f7adfc508e24bd442a48c834ed7db
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: f4e414f3696c64f8ea450394928aa055ad427afd
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="enable-byod-with-intune"></a>Реализация BYOD с помощью Intune
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 08/25/2017
 
 -   **Устройства Android**. Для регистрации устройств Android подготавливать службу Intune не нужно. Пользователи могут просто [регистрировать свои устройства Android](/intune-user-help/enroll-your-device-in-intune-android) в системе управления с помощью доступного в Google Play приложения корпоративного портала.
 
--   **Устройства Windows Phone и компьютеры**. Устройства Windows можно зарегистрировать с помощью дополнительной настройки. Чтобы упростить процесс, можно включить автоматическую регистрацию ПК Windows 10 и мобильных устройств Windows 10 в Azure Active Directory (AD) Premium. Если у вас нет Azure AD Premium или если требуется поддержка Windows 8.1, для упрощения регистрации можно создать [псевдоним DNS для сервера регистрации](windows-enroll.md#enable-windows-enrollment-without-azure-ad-premium).
+-   **Устройства Windows Phone и компьютеры**. Устройства Windows можно зарегистрировать с помощью дополнительной настройки. Чтобы упростить процесс, можно включить автоматическую регистрацию ПК Windows 10 и мобильных устройств Windows 10 в Azure Active Directory (AD) Premium. Если у вас нет Azure AD Premium или если требуется поддержка Windows 8.1, для упрощения регистрации можно создать [псевдоним DNS для сервера регистрации](windows-enroll.md#simplify-windows-enrollment-without-azure-ad-premium).
 
 
 ### <a name="make-sure-that-managed-devices-meet-basic-security-requirements"></a>Проверка соответствия управляемых устройств основным требованиям безопасности
@@ -82,7 +82,7 @@ ms.lasthandoff: 08/25/2017
 
 -   [Управление приложениями, приобретенными по программе Volume Purchase Program, для устройств iOS.](vpp-apps-ios.md) Единовременная покупка нескольких лицензий на iOS-приложения осуществляется по программе [Apple Volume Purchase Program for Business](http://www.apple.com/business/vpp/). Для этого необходимо создать учетную запись Apple VPP на веб-сайте Apple и передать токен Apple VPP в Intune. После этого вы сможете синхронизировать данные корпоративной закупки с Intune и отслеживать использование приобретенных таким образом приложений.
 
--   [Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса](windows-store-for-business.md). [Магазин Майкрософт для бизнеса](https://www.microsoft.com/business-store) позволяет находить и приобретать приложения для вашей организации по отдельности или в рамках корпоративной программы. Подключив магазин к Intune, вы сможете управлять приложениями, приобретенными по программе Volume Purchase Program, с портала Intune.
+-   [Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса](windows-store-for-business.md). [Магазин Майкрософт для бизнеса](https://www.microsoft.com/business-store) позволяет находить и приобретать приложения для вашей организации по отдельности или в рамках корпоративной программы. Подключив магазин к Intune, вы сможете управлять приложениями, приобретенными по программе Volume Purchase Program, на портале Azure.
 
 ## <a name="protect-company-data"></a>Защита корпоративных данных
 
