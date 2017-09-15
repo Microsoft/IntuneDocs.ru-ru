@@ -1,6 +1,6 @@
 ---
 title: "Настраиваемые параметры профиля Intune для устройств Android for Work"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "Сведения о создании настраиваемых параметров профиля Intune для устройств Android for Work.\""
 keywords: 
 author: robstackmsft
@@ -15,11 +15,11 @@ ms.assetid: 4724d6e5-05e5-496c-9af3-b74f083141f8
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1b48fc7bd784b5d6d531ef5bf28fe835e394b106
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 47af10ea2eb04b5e5a470aff36d45d41105feb15
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="create-intune-custom-profile-settings-for-android-for-work-devices"></a>Создание настраиваемых параметров профиля Intune для устройств Android for Work
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 07/01/2017
 1. Для начала выполните инструкции из статьи [Настройка пользовательских параметров устройств в Microsoft Intune](custom-settings-configure.md).
 2. В колонке **Настраиваемые параметры OMA-URI** выберите **Добавить**, чтобы добавить новый параметр.
 3. Настройте следующие значения в колонке **Добавить строку**:
-    - **Имя.** Введите уникальное имя для настраиваемых параметров Android for Work, чтобы их было легко найти на портале Intune.
+    - **Имя.** Введите уникальное имя для настраиваемых параметров Android for Work, чтобы их было легко найти на портале Azure.
     - **Описание.** Укажите в описании общие сведения о настраиваемой политике Android и другую актуальную информацию о ее расположении.
     - **OMA-URI.** Введите OMA-URI, для которого необходимо указать параметр.
     - **Тип данных.** Выберите тип данных, в котором следует указать этот параметр OMA-URI. Выберите **Строка**, **Строка (XML-файл)**, **Дата и время**, **Целое число**, **Число с плавающей запятой**, **Логическое значение** или **Base64 (файл)**.

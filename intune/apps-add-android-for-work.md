@@ -1,6 +1,6 @@
 ---
 title: "Назначение приложений устройствам Android for Work"
-titleSuffix: Intune on Azure
+titlesuffix: Azure portal
 description: "В этом разделе рассказывается, как синхронизировать, а затем назначить приложение для устройств Android for Work из магазина Google Play for Work.\""
 keywords: 
 author: mattbriggs
@@ -15,18 +15,18 @@ ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bbe5be4afead5d80f38e2ef56d12c0b26351dfd8
-ms.sourcegitcommit: 4034ac474bfed358270a32459a2cf2fe02f44e45
+ms.openlocfilehash: 803f1475a220e52a0f7d8a41d58f0a5337ff6555
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-assign-apps-to-android-for-work-devices-with-intune"></a>Как назначать приложения устройствам Android for Work с помощью Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Приложения назначаются устройствам Android for Work иначе, чем обычным устройствам Android. Все приложения для устройств Android for Work устанавливаются из магазина Google Play for Work. Для этого нужно войти в магазин, найти нужное приложение и подтвердить его установку.
-Приложение появится в узле **Лицензированные приложения** портала Intune. Здесь можно управлять назначением приложения так же, как назначением любого другого приложения.
+Приложение появится в узле **Лицензированные приложения** на портале Azure. Здесь можно управлять назначением приложения так же, как назначением любого другого приложения.
 
 Кроме того, здесь можно назначать собственные бизнес-приложения, если они у вас есть, следующим образом:
 - Зарегистрируйте учетную запись разработчика Google, которая позволит публиковать приложения в закрытой области магазина Google Play.
@@ -34,7 +34,7 @@ ms.lasthandoff: 08/15/2017
 
 ## <a name="before-you-start"></a>Перед началом работы
 
-Настройте взаимодействие Intune и Android for Work в рабочей нагрузке **Регистрация устройств** на портале Intune.
+Настройте взаимодействие Intune и Android for Work в рабочей нагрузке **Регистрация устройств** на портале Azure.
 
 ## <a name="synchronize-an-app-from-the-google-play-for-work-store"></a>Синхронизация приложения из магазина Google Play for Work
 

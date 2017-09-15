@@ -1,6 +1,6 @@
 ---
 title: "Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS"
-description: "Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS в классической консоли Intune."
+description: "Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS на классическом портале Intune."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,11 +14,11 @@ ms.assetid: 018d26f4-4a75-4e27-bb04-54f54106cb2f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 425b86e92281bb6e3657a6c806be269ccae94311
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 6d762e1aed998642db66908549b2d15d54601aed
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="add-skycure-apps-microsoft-authenticator-app-and-ios-configuration-policy"></a>Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
--   Следующие действия необходимо выполнить в [классической консоли Intune](https://manage.microsoft.com/).
+-   Следующие действия необходимо выполнить на [классическом портале Intune](https://manage.microsoft.com/).
 
--   Используйте ту же учетную запись Azure AD, которая ранее была настроена в консоли управления Skycure. Это должна быть учетная запись для входа в классическую консоль Intune.
+-   Используйте ту же учетную запись Azure AD, которая ранее была настроена в консоли управления Skycure. Это должна быть учетная запись для входа на классический портал Intune.
 
 -   У вас должен быть готовый к использованию файл интеграции Skycure. Это ранее скачанный из консоли управления Skycure ZIP-файл, который содержит файл **skycure\_configuration.plist** с параметрами политики конфигурации приложения для iOS.
 
@@ -44,9 +44,9 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="to-add-the-skycure-app-for-android"></a>Добавление приложения Skycure для Android
 
-1.  В классической консоли Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
+1.  На классическом портале Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
 
-2.  На странице **Настройка ПО**  выберите пункт **Внешняя ссылка** и вставьте [URL-адрес приложения Skycure для Android](https://play.google.com/store/apps/details?id=com.skycure.skycure) в поле **Укажите URL-адрес**.
+2.  На странице **Настройка ПО ** выберите пункт **Внешняя ссылка** и вставьте [URL-адрес приложения Skycure для Android](https://play.google.com/store/apps/details?id=com.skycure.skycure) в поле **Укажите URL-адрес**.
 
     !["Издатель ПО Intune", "Укажите URL-адрес"](../media/mtp/skycure-add-apps-1.png)
 
@@ -58,9 +58,9 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="to-add-the-skycure-app-for-ios"></a>Добавление приложения Skycure для iOS
 
-1.  В классической консоли Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
+1.  На классическом портале Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
 
-2.  На странице **Настройка ПО**  выберите **Управляемое приложение iOS из магазина App Store** и вставьте [URL-адрес приложения Skycure для iOS](https://itunes.apple.com/us/app/skycure/id695620821?mt=8) в поле **Укажите URL-адрес**.
+2.  На странице **Настройка ПО ** выберите **Управляемое приложение iOS из магазина App Store** и вставьте [URL-адрес приложения Skycure для iOS](https://itunes.apple.com/us/app/skycure/id695620821?mt=8) в поле **Укажите URL-адрес**.
 
     !["Издатель ПО Intune", "Управляемое приложение iOS"](../media/mtp/skycure-add-apps-3.png)
 
@@ -74,9 +74,9 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="to-add-the-microsoft-authenticator-app-for-ios"></a>Добавление приложения Microsoft Authenticator для iOS
 
-1.  В классической консоли Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
+1.  На классическом портале Intune выберите пункты **Приложения** &gt; **Добавить приложения** для запуска издателя ПО Intune и нажмите кнопку **Далее**.
 
-2.  На странице **Настройка ПО**  выберите **Управляемое приложение iOS из магазина App Store** и вставьте [URL-адрес приложения Microsoft Authenticator для iOS](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8) в поле **Укажите URL-адрес**.
+2.  На странице **Настройка ПО ** выберите **Управляемое приложение iOS из магазина App Store** и вставьте [URL-адрес приложения Microsoft Authenticator для iOS](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8) в поле **Укажите URL-адрес**.
 
     !["Издатель ПО Intune", "Управляемое приложение iOS 2"](../media/mtp/skycure-add-apps-5.png)
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="to-add-the-skycure-ios-app-configuration-policy"></a>Добавление политики настройки приложения Skycure для iOS
 
-1.  В классической консоли Intune выберите пункты **Политика** &gt; **Обзор &gt; Добавить политику**.
+1.  На классическом портале Intune выберите пункты **Политика** &gt; **Обзор &gt; Добавить политику**.
 
 2.  В списке политик разверните узел **iOS**, выберите пункт **Политика настройки мобильного приложения (iOS 8.0 и более поздние версии)** и выберите команду **Создать политику**.
 

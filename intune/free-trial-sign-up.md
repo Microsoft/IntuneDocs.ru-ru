@@ -1,6 +1,6 @@
 ---
 title: "Регистрация для использования 30-дневной бесплатной пробной версии Microsoft Intune"
-titleSuffix: 
+titleSuffix: Azure portal
 description: "Регистрация для использования 30-дневной бесплатной пробной версии Microsoft Intune."
 keywords: 
 author: lindavr
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: de86b6c9938d4be3f90d62e96080d8b967886792
-ms.sourcegitcommit: 5eb209ae48173ddfdbbab131f12f3ac3498dcd87
+ms.openlocfilehash: 21ee75ab006c1770bc61039facc28d8a0118e706
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Регистрация для использования бесплатной пробной версии Microsoft Intune
 
@@ -47,11 +47,11 @@ ms.lasthandoff: 07/18/2017
 Для работы с порталом Intune Azure используются три портала.
 - Панель мониторинга Intune в Azure ([portal.azure.com](https://portal.azure.com)), где можно просматривать [возможности Intune на портале Azure](what-is-intune.md).
 - Центр администрирования Office 365 ([portal.office.com](https://portal.office.com)), где можно добавлять пользователей и управлять ими, если для этого не используется Azure Active Directory. Здесь также можно управлять и другими функциями учетной записи, включая выставление счетов и предоставление поддержки.
-- Классическая консоль администрирования Intune ([manage.microsoft.com](https://manage.microsoft.com)), где можно просматривать функции, которые еще не были добавлены в Azure.
+- Консоль администрирования Intune ([manage.microsoft.com](https://manage.microsoft.com)), где можно просматривать функции, которые еще не были добавлены в Azure.
 
 Как правило, все действия выполняются в панели мониторинга Intune, приведенной ниже. Это сайт, где осуществляется настройка групп, политик, устройств и приложений и управление ими.
 
-Вы можете перейти в классическую консоль администрирования Intune из панели мониторинга, выбрав элемент **Классический портал** в верхней ее части.
+Вы можете перейти в консоль администрирования Intune из панели мониторинга, выбрав элемент **Классический портал** в верхней ее части.
 
 Чтобы вернуться на портал Intune Azure, введите https://portal.azure.com в адресной строке браузера и снова выберите **Intune** в списке служб.
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 07/18/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-### <a name="intune-on-azure"></a>Intune на портале Azure
+### <a name="intune-in-the-azure-portal"></a>Intune на портале Azure
 Дополнительные сведения об [Intune на портале Azure](what-is-intune.md)
 
 ### <a name="integration-with-other-products"></a>Интеграция с другими продуктами

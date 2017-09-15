@@ -5,7 +5,7 @@ keywords: Mac OS X, Mac OS, OS X
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/23/2017
+ms.date: 09/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1b177b05f065f66deb8c60be768c123fc7991937
-ms.sourcegitcommit: 091f7b34f1fbf73db2bed5b46d92a78ba0dad1e4
+ms.openlocfilehash: 8eaeb2e0c44870dbebf85d98e2b49d46008068cd
+ms.sourcegitcommit: 1afff0fd464ece84ffea6bc0c71c78215d59e696
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2017
+ms.lasthandoff: 09/08/2017
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>Регистрация устройства macOS в Intune с помощью приложения корпоративного портала
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/23/2017
   > [!NOTE]
   > Если вы хотите зарегистрировать устройство iOS, например iPhone или iPad, [используйте эти инструкции](enroll-your-device-in-intune-ios.md).
 
-1. На панели __Dock__ найдите __Safari__ и откройте страницу [Центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=55770), чтобы найти приложение корпоративного портала для macOS.
+1.  На панели __Dock__ откройте __Safari__ и перейдите по адресу [aka.ms/macoscompanyportal](https://aka.ms/macoscompanyportal). 
 
 2. Скачайте приложение. Система Mac выполнит проверку безопасности загрузки файла **CompanyPortal.dmg**. Открыв его в папке **Downloads** (Загрузки), перетащите приложение **CompanyPortal** в папку **Applications** (Приложения).
 

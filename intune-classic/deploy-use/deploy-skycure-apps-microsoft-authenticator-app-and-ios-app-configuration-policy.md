@@ -1,6 +1,6 @@
 ---
 title: "Развертывание приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS"
-description: "Развертывание приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS в классической консоли Intune."
+description: "Развертывание приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS на классическом портале Intune."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,11 +14,11 @@ ms.assetid: 45826fbc-6df5-41b2-8e80-d1353f904b43
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 60f4ab5a656a2e253d82971d7bea6b3a6c9eb25a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 6334686f350c54e11ef4ef5cbacf39a81e6a1a7e
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="deploy-skycure-apps-microsoft-authenticator-app-and-ios-app-configuration-policy"></a>Развертывание приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS
 
@@ -26,9 +26,9 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
--   Следующие действия необходимо выполнить в [классической консоли Intune](https://manage.microsoft.com/).
+-   Следующие действия необходимо выполнить на [классическом портале Intune](https://manage.microsoft.com/).
 
--   Используйте ту же учетную запись Azure AD, которая ранее была настроена в консоли управления Skycure. Это должна быть учетная запись для входа в классическую консоль Intune.
+-   Используйте ту же учетную запись Azure AD, которая ранее была настроена в консоли управления Skycure. Это должна быть учетная запись для входа на классический портал Intune.
 
 -   Убедитесь, что вы знакомы со следующими процессами.
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="to-deploy-skycure-apps-microsoft-authenticator-app-and-the-ios-app-configuration-policy"></a>Развертывание приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS
 
-1.  В классической консоли Intune выберите пункты **Приложения** &gt; **Приложения** для просмотра списка приложений, которыми можно управлять.
+1.  На классическом портале Intune выберите пункты **Приложения** &gt; **Приложения** для просмотра списка приложений, которыми можно управлять.
 
 2.  Выберите следующие приложения.
 
@@ -48,19 +48,19 @@ ms.lasthandoff: 07/01/2017
 
     в.  Приложение Skycure для iOS
 
-       ![Классическая консоль Intune, все приложения для развертывания](../media/mtp/skycure-deploy-app-1.png)
+       ![Классический портал Intune: все приложения для развертывания](../media/mtp/skycure-deploy-app-1.png)
 
 3.  Выберите **Управление развертываниями**, выберите группу безопасности Azure AD с пользователями Skycure, а затем нажмите кнопку **Далее**.
 
 4.  На странице **Действие развертывания** выберите параметр **Требуемая установка** в раскрывающемся списке **Утверждение**, а затем нажмите кнопку **Далее**.
 
-    ![Классическая консоль Intune, действие развертывания](../media/mtp/skycure-deploy-app-2.png)
+    ![Классический портал Intune: действие развертывания](../media/mtp/skycure-deploy-app-2.png)
 
 5.  На странице **Профиль VPN** выберите параметр **Нет** в раскрывающемся списке **Политика VPN**, а затем нажмите кнопку **Далее**.
 
 6.  На странице **Конфигурация мобильного приложения** выберите ранее созданную политику приложения для iOS в раскрывающемся списке **Политика конфигурации приложения**, а затем нажмите кнопку **Готово**.
 
-    ![Классическая консоль Intune, конфигурация мобильного приложения](../media/mtp/skycure-deploy-app-3.png)
+    ![Классический портал Intune: конфигурация мобильного приложения](../media/mtp/skycure-deploy-app-3.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

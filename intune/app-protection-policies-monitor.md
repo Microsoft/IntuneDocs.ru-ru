@@ -1,6 +1,6 @@
 ---
 title: "Как отслеживать политики защиты приложений"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Здесь описано, как просмотреть сведения о пользователях, использующих политику, и ознакомиться с более подробной информацией.\""
 keywords: 
 author: mattbriggs
@@ -15,16 +15,16 @@ ms.assetid: 9b0afb7d-cd4e-4fc6-83e2-3fc0da461d02
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 241ae7d2d615cd58babfc2d14b98e2bfb2f63f7d
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: 31ed141bb4d6f7d9e5f1362c7dfd24e710389e3b
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="how-to-monitor-app-protection-policies"></a>Как отслеживать политики защиты приложений
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-**Если вы не работаете на портале Azure**, в этой статье объясняется, как [создать политики защиты приложения](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune) в классической консоли Intune.
+**Если вы не работаете на портале Azure**, в этой статье объясняется, как [создать политики защиты приложения](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune) на классическом портале Intune.
 
 
 Вы можете отслеживать состояние соответствия политикам управления мобильными устройствами (MAM), примененным к пользователям, в колонке Intune app protection (Защита приложений в Intune) на [портале Azure](https://portal.azure.com). В ней представлены данные о пользователях, на которых распространяются политики MAM, состояние соответствия требованиям этих пользователей и любые проблемы, которые могут у них возникнуть.

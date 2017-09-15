@@ -1,6 +1,6 @@
 ---
 title: "Параметры VPN для устройств с Windows 8.1 в Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows 8.1.\""
 keywords: 
 author: lleonard-msft
@@ -15,11 +15,11 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d851a8900ae1e164cb22f1878b352c3e90096f73
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: de811d4a41aa8bdf9fd016b6ee439e1ed2ef2a92
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="vpn-settings-for-windows-81-devices-in-microsoft-intune"></a>Параметры VPN для устройств с ОС Windows 8.1 в Microsoft Intune
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/01/2017
 ## <a name="base-vpn-settings"></a>Основные параметры VPN
 
 
-- **Apply all settings to Windows 8.1 only** (Применение всех параметров только к устройствам с Windows 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10.
+- **Apply all settings to Windows 8.1 only** (Применение всех параметров только к устройствам с Windows 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10.
 - **Имя подключения.** Введите имя подключения. Конечные пользователи увидят это имя при поиске устройства в списке доступных VPN-подключений.
 - **Серверы.** Добавьте один или несколько VPN-серверов, к которым будут подключаться устройства.
     - **Добавить**. Открывает колонку **Добавить строку**, в которой можно указать перечисленные ниже сведения:

@@ -1,6 +1,6 @@
 ---
 title: "Параметры электронной почты для устройств с Windows Phone 8.1 в Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows Phone 8.1.\""
 keywords: 
 author: lleonard-msft
@@ -15,18 +15,18 @@ ms.assetid: 352d6bd9-ec8c-439e-be3a-ad3daf307df2
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4925ceb1be344a12270ee40519096a62b1f0c739
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 611ef17c72e27a31360c3c9d75bb282fdb8388a9
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="email-profile-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Windows Phone 8.1 в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 
-- **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10 Mobile.
+- **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10 Mobile.
 - **Почтовый сервер**. Имя узла вашего сервера Exchange.
 - **Имя учетной записи**. Отображаемое имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
 - **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого будет создано имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com**) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com**).
