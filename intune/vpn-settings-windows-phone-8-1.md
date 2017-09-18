@@ -1,6 +1,6 @@
 ---
 title: "Параметры VPN для устройств с Windows Phone 8.1 в Intune"
-titleSuffix: Intune on Azure
+titleSuffix: Azure portal
 description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows Phone 8.1.\""
 keywords: 
 author: lleonard-msft
@@ -15,11 +15,11 @@ ms.assetid: c1a9053f-02a7-4735-bc0d-fe4573b31ed4
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a009a16c7c475864f665f6ad0ab8fe1853c801b4
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: debfe6cde108daf88db8d18db1e7da2186fc32ea
+ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/09/2017
 ---
 # <a name="vpn-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Параметры VPN для устройств Windows Phone 8.1 в Microsoft Intune
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 07/01/2017
 
 ## <a name="base-vpn-settings"></a>Основные параметры VPN
 
-- **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10 Mobile.
+- **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10 Mobile.
 - **Имя подключения**. Введите имя подключения. Конечные пользователи увидят это имя при поиске устройства в списке доступных VPN-подключений.
 - **Способ проверки подлинности**. Укажите, как устройства будут проходить проверку подлинности на VPN-сервере.
     - **Сертификаты.** В разделе **Сертификат проверки подлинности** выберите профиль сертификата SCEP или PKCS, созданный ранее для проверки подлинности подключения. Дополнительные сведения о профилях сертификатов см. в статье о [настройке сертификатов с помощью Microsoft Intune](certificates-configure.md).
