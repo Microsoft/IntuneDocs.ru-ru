@@ -1,7 +1,5 @@
 {
   "build_entry_point": "docs",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "intune-azure",
@@ -63,7 +61,8 @@
     }
   ],
   "notification_subscribers": [
-    ""
+    "CnE_Content_Brno@moravia.com",
+    "CnE_UE_Bugfixing_ENG@moravia.com"
   ],
   "branches_to_filter": [
     "master-oldev",
@@ -101,7 +100,10 @@
       }
     }
   ],
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
