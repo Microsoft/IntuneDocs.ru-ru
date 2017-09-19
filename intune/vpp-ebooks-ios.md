@@ -3,8 +3,8 @@ title: "Управление электронными книгами iOS, при
 titlesuffix: Azure portal
 description: "Узнайте о том, как синхронизировать электронные книги, приобретенные по программе Volume Purchase Program в магазине iOS, в Intune, а затем управлять ими и отслеживать их использование.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 08/17/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: f5617074-2384-4812-b913-dc94f64c0818
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fa249105521d5369f7da656d37d3a32b5e411fe6
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 16f1e720e94ac8c6b35158477b41bfaeac9dc0a8
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="how-to-manage-ios-ebooks-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление электронными книгами iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 

@@ -2,8 +2,8 @@
 title: "Параметры политики Exchange ActiveSync"
 description: "Используйте политику Exchange ActiveSync в Intune для настройки параметров, позволяющих контролировать возможности и функции на устройствах под управлением Exchange ActiveSync."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6bbb0cd7ca87a3c6cc352cbdd6dd2b61a9c5e36c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d2abab78eed4788baff71f7f5c690dc3d73b2098
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="exchange-activesync-policy-settings-in-microsoft-intune"></a>Параметры политики Exchange ActiveSync в Microsoft Intune
 

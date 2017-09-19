@@ -3,8 +3,8 @@ title: "Контактные телефоны службы поддержки In
 titlesuffix: Azure portal
 description: "Номера телефонов для получения справки по Microsoft Intune.\""
 keywords: "рабочие часы"
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 02/27/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 1326e65e-56cc-4987-9006-3a788597ca19
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 197d9b46724bcbdcf53d322f744d903ade1674f2
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 41eb9e7ef59af185bae10664123098641f9c3826
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="contact-assisted-phone-support-for-microsoft-intune"></a>Контактные телефоны службы поддержки Microsoft Intune
 

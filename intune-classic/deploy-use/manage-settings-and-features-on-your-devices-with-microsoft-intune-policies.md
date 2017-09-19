@@ -2,8 +2,8 @@
 title: "Использование политик для управления параметрами устройств"
 description: "Сведения о создании и развертывании политик для управления параметрами и функциями на зарегистрированных устройствах, которыми вы управляете, с помощью Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 11/02/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 09bae0b9-4f79-4658-8ca1-a71ab992c1b2
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f8ceb98181543d846934a16b8c9551207892ae0e
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 7943e4023344aaeb531c4a9a7fa15f00cd8a7e81
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="manage-settings-and-features-on-your-devices-with-microsoft-intune-policies"></a>Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune
 

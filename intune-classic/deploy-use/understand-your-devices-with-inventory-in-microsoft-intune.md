@@ -2,8 +2,8 @@
 title: "Получение сведений об устройствах с помощью инвентаризации"
 description: "Сведения об использовании Intune для просмотра информации об оборудовании управляемых устройств."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: nathbarn
+ms.author: nathbarn
 manager: angrobe
 ms.date: 09/05/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4d3b03d44fee3ffe103b6eeadc362d10c6f1b228
-ms.sourcegitcommit: 00352501833818a08479758ba1c9efdf7223e264
+ms.openlocfilehash: c6d3e7638ecbd58a9d9d50cadde85188b873c05f
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="understand-your-devices-with-inventory-in-microsoft-intune"></a>Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune
 

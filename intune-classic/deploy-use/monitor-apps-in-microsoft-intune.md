@@ -2,8 +2,8 @@
 title: "Мониторинг развертываний приложений"
 description: "Сведения о мониторинге приложений, развернутых с помощью Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 11/10/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 5daad56d-71c8-455b-8a55-f8b33e279a8a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9255a9cb966ef02aba11e0a6aaf7caf7e808a41c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c93ff280e57bcfc1970d9c3f7b56b1c8fc4746a5
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="monitor-app-deployments-in-microsoft-intune"></a>Мониторинг развертываний приложений в Microsoft Intune
 

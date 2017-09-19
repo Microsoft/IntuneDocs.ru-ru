@@ -2,8 +2,8 @@
 title: "Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune"
 description: "В этом разделе описывается, как добавить в Intune приложения для компьютеров с Windows перед их развертыванием."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 02/16/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: faf52c4166298d981532ee61c158f4a705c5a3da
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 4f198026e5ea7a8c2cadd894e49292ace4eeac06
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
 

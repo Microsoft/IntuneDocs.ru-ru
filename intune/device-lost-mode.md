@@ -3,8 +3,8 @@ title: "Активация режима пропажи устройства iOS 
 titlesuffix: Azure portal
 description: "Сведения об активации режима пропажи для потерянных или украденных устройств iOS с помощью Intune.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/09/2017
 ms.topic: get-started-article
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 126a7489-fe3e-43fd-a681-defb2fe0bb66
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5ae763ff24b9837b99f6402a78b9acb992bf599c
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 5f16bd212c7a23d847da0929933fbd4b497099d0
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="activate-lost-mode-on-ios-devices"></a>Активация режима пропажи на устройствах iOS
 

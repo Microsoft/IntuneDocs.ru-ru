@@ -3,8 +3,8 @@ title: "Назначение профилей устройств с помощь
 titlesuffix: Azure portal
 description: "Из этой статьи вы узнаете, как назначить устройствам созданный профиль устройства Intune.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 07/05/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: f6f5414d-0e41-42fc-b6cf-e7ad76e1e06d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 36b967ac740cc2f39d631c17556f73abb9f2f785
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: ba1438fe9227e0c7933fda7e9a2b60c8d4a5dca4
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="how-to-assign-microsoft-intune-device-profiles"></a>Как назначать профили устройств Microsoft Intune
 

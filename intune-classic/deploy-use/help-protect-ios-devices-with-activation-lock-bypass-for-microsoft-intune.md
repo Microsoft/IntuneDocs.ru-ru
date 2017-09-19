@@ -2,8 +2,8 @@
 title: "Управление блокировкой активации iOS на устройствах"
 description: "Microsoft Intune позволяет управлять функцией блокировки активации iOS, которая представляет собой отдельный компонент приложения Find My iPhone для устройств на базе iOS 7.1 и более поздних версий."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 04/24/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3695e4c047edd9b788768db36184460f0e27d3bc
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 0ca255305bee3e542559f7dd6a5d4d5cf48898fc
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune"></a>Позволяют защищать устройства iOS с помощью обхода блокировки активации для Microsoft Intune
 

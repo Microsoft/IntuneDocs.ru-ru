@@ -3,8 +3,8 @@ title: "Политика разрешения и блокировки прило
 titlesuffix: Azure portal
 description: "Создание настраиваемых профилей для разрешения и блокировки приложений для устройств Samsung KNOX Standard.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 06/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: acb7ae72c8b81e06a9974f2a1c6f084c565bee82
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 7be589889cab1e04eeebdac7091c7ce573a3dcc9
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в Microsoft Intune
 

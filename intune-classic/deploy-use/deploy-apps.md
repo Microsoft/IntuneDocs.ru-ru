@@ -2,8 +2,8 @@
 title: "Развертывание приложений"
 description: "В этом разделе описываются принципы, которые необходимо изучить, прежде чем приступать к развертыванию приложений с помощью Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: ad5ea85c-aa2e-4110-a184-172cd0b8f270
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 13c4046ed431dc25bda9a2facc59dbcb6d3e5ab5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: cd140b10bab910902783fe749c5c82bcee850ed5
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="deploy-apps-with-microsoft-intune"></a>Развертывание приложений с помощью Microsoft Intune
 

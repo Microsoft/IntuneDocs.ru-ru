@@ -2,8 +2,8 @@
 title: "Глоссарий Intune"
 description: "Дополнительные сведения о терминологии в Microsoft Intune"
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 06/16/2017
 ms.topic: get-started-article
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: be3b078edc4e133fb586bb9476ba1dd770d0f389
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: cd9ecebd6f9a50fd1edf03cbbd657f2f314f6856
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="microsoft-intune-glossary"></a>Глоссарий Microsoft Intune
 

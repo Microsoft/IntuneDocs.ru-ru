@@ -3,8 +3,8 @@ title: "Настройка обновлений выпуска Windows 10 с п
 titlesuffix: Azure portal
 description: "Узнайте, как с помощью Intune обновить управляемые устройства Windows 10 до другой версии.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 07/26/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f6bd4c4af168bc64acabc05fdaad93558ddd10a
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 40c3ca0207ed81af3212ad2ea04598654cab7198
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="how-to-configure-windows-10-edition-upgrades-in-microsoft-intune"></a>Настройка обновлений выпуска Windows 10 в Microsoft Intune
 

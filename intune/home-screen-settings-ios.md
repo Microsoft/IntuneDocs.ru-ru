@@ -3,8 +3,8 @@ title: "Параметры макета начального экрана Intune
 titlesuffix: Azure portal
 description: "Сведения о параметрах, которые можно использовать для настройки начального экрана и панели закрепления на устройствах iOS.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 07/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 6aba4491-afb9-43cd-9ccc-14e6a2a5a3b1
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4a3f175337d521c92c909db9972d844ac6997cb0
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: c5acee0ad4ea3d593acec78336f4815304503092
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="intune-home-screen-layout-settings-for-ios-devices"></a>Параметры макета начального экрана Intune для устройств iOS
 

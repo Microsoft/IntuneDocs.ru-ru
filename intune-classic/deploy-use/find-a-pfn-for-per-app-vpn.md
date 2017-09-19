@@ -2,8 +2,8 @@
 title: "Поиск имени семейства пакетов для VPN для каждого приложения"
 description: "Сведения о поиске имени семейства пакетов для настройки VPN для каждого приложения."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 74643d1d-4fd9-4cff-ac79-1a42281d2f76
 ms.reviewer: tycast
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: eea3b9e2888f07399c8cda1e81ae8a5318d02d42
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 13ae30e3e1a9ec260b540a767899f6db6e1ae692
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="find-a-package-family-name-pfn-for-per-app-vpn-configuration"></a>Поиск имени семейства пакетов (PFN) для конфигурации VPN для каждого конкретного приложения
 

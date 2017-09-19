@@ -2,8 +2,8 @@
 title: "Защита устройств с помощью Microsoft Intune"
 description: "Некоторые способы защиты устройств от несанкционированного доступа и других угроз с помощью Intune."
 keywords: 
-author: Robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 02/21/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 71e0cbf3-2bfb-412e-8a12-8503df08b4cf
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8acde93c1c0c0d3bf443daf61d5f8d75b3d061df
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 5bc18913ef361ce23e4524a6b74a7ad0c6018c9d
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="protect-devices-with-microsoft-intune"></a>Защита устройств с помощью Microsoft Intune
 
