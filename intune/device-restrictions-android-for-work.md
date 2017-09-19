@@ -3,8 +3,8 @@ title: "Параметры ограничений Intune для применен
 titlesuffix: Azure portal
 description: "Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Android for Work.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 1830720b-16cb-4f2f-a71a-62967f882563
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7e7f74f516a4b60b6a727d6c51ec54dab96aa88e
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 1c749b72949399dbe709b8ac5554cd919e2b09bc
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="android-for-work-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств Android for Work в Microsoft Intune
 
