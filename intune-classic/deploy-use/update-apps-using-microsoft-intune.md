@@ -2,8 +2,8 @@
 title: "Обновление приложений"
 description: "Сведения в этом разделе помогут понять, как обновить приложения при необходимости использования новой версии."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: beee6933-876a-4be0-b395-4c24cfbd519b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d974a3c8fd69ee970991af96afe2011c6d07db2a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c643ea0e75a3376a30d43fc0c5ac4ef421c65bea
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="update-apps-using-microsoft-intune"></a>Обновление приложений с помощью Microsoft Intune
 

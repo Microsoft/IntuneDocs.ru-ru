@@ -3,8 +3,8 @@ title: "Устранение неполадок в профилях устрой
 titlesuffix: Azure portal
 description: "Если у вас возникли трудности, эта статья поможет вам устранить неполадки в профилях устройств Intune.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 05/04/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 426bed61930e045f38e3c7c658dbb7168dc2f551
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: c1e0f79c0998025afc5018ddab42db3a0ef96f68
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="troubleshooting-device-profiles-in-microsoft-intune"></a>Устранение неполадок в профилях устройств Microsoft Intune
 

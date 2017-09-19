@@ -3,8 +3,8 @@ title: "Параметры защиты конечных точек Intune дл�
 titlesuffix: Azure portal
 description: "Вы можете узнать о параметрах Intune, позволяющих управлять функциями защиты конечных точек, например BitLocker, на устройствах с Windows 10."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/23/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 3af7c91b-8292-4c7e-8d25-8834fcf3517a
 ms.reviewer: ilwu
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6c8e9d6b63557a5c73ff027d9bf476a6980f8314
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 19c20ac5dd73b45dc06d1df6a7d08cc6bac42982
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="endpoint-protection-settings-for-windows-10-and-later-in-microsoft-intune"></a>Параметры защиты конечных точек для Windows 10 и более поздних версий в Microsoft Intune
 

@@ -3,8 +3,8 @@ title: "Известные проблемы с Microsoft Intune на порта�
 titlesuffix: Azure portal
 description: "Сведения об известных проблемах в Intune\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 08/14/2017
 ms.topic: get-started-article
@@ -15,11 +15,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7570e7b2f612d1d2a017f82967cdc5baf798a761
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 3bddab9000bfe609856b8e003f9bd4c3802f6e6b
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Известные проблемы в Microsoft Intune
 

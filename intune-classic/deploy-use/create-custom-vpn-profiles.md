@@ -2,8 +2,8 @@
 title: "Настраиваемые конфигурации профилей VPN Microsoft Intune"
 description: "Создание профилей VPN в Intune с помощью настраиваемых конфигураций."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2ee20ce0b9f7794132c3a56046b1680f940b3424
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d640dd9e80965561e5ddf24c42b5ba4278e49892
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="custom-configurations-for-microsoft-intune-vpn-profiles"></a>Настраиваемые конфигурации профилей VPN Microsoft Intune
 

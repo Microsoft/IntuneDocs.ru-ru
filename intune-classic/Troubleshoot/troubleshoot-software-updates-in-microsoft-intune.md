@@ -2,8 +2,8 @@
 title: "Устранение неполадок с обновлениями программного обеспечения"
 description: "Сведения о решении проблем с обновлениями программного обеспечения в Microsoft Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: d17b70f4-17b4-4d89-88fd-70fa4f34fbea
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b33c5978c2cb27eb7e486d139e71937c41f48b28
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 23447932afd370d062e3e725d490e9340ebcf33e
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="troubleshoot-software-updates-in-microsoft-intune"></a>Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune
 

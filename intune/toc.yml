@@ -115,7 +115,7 @@
     - name: Настройка Intune
       href: setup-steps.md
       items:
-        - name: Необходимые компоненты
+        - name: Поддерживаемые конфигурации
           href: supported-devices-browsers.md
           items:
             - name: Использование пропускной способности сети

@@ -2,8 +2,8 @@
 title: "Классификация устройств с помощью сопоставления групп устройств"
 description: "Используйте сопоставление групп устройств в Microsoft Intune, чтобы группировать устройства по определенным категориям для упрощения управления этими устройствами."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: andredm7
+ms.author: andredm
 manager: angrobe
 ms.date: 06/06/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 8b8c06a3-6b6c-4cf1-8646-b24fa9b1a39e
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ff136d430496392b6ca8e5b944820fe9e14553d3
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: a755d8da84299cc8b6b60af6d329b35ad7d582fb
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="categorize-devices-with-device-group-mapping-in-microsoft-intune"></a>Классификация устройств с помощью сопоставления групп устройств в Microsoft Intune
 

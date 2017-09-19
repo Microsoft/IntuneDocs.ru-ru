@@ -2,8 +2,8 @@
 title: "Общие сведения о жизненных циклах устройств и приложений"
 description: "Общие сведения о жизненных циклах устройств и приложений в Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 06/07/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bc02af1e0813580ed70f181ff401d0408f6dd082
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8fff2942f13d5cb9139c7e566d6592009eb89eca
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="overview-of-device-and-app-lifecycles"></a>Общие сведения о жизненных циклах устройств и приложений
 

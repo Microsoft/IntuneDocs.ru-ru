@@ -5,7 +5,7 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 08/14/2017
+ms.date: 9/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 51e53e28-5c34-4d0f-a4b1-6390a337514c
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a08296770ee3a326411d3267705ed6a912ab17bd
-ms.sourcegitcommit: c8fb42fcb8735af432c7e07c380d956171012bd4
+ms.openlocfilehash: 040ce88c47eb12bbe9b228189d90ca422e5185e7
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
 
@@ -35,13 +35,6 @@ ms.lasthandoff: 08/14/2017
 -   **Разрешенные приложения** — это приложения, которые должны соответствовать этой политике.
 
 -   **Исключенные приложения** — это приложения, которые исключаются из политики и могут получать доступ к корпоративным данным без ограничений.
-
-> [!IMPORTANT]  
-> Чтобы обеспечить правильное функционирование приложения, Intune рекомендует добавить приложение корпоративного портала в список исключенных. Для этого добавьте следующее **приложение Магазина** в список **Исключенные приложения**:  
->   - Название: Корпоративный портал  
->   - Издатель: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US  
->   - Название продукта: Microsoft.CompanyPortal  
-
 
 ### <a name="types-of-apps"></a>Типы приложений
 

@@ -3,8 +3,8 @@ title: "Параметры AirPlay для устройств iOS в Intune"
 titlesuffix: Azure portal
 description: "Узнайте, как использовать Intune для автоматического подключения устройства iOS к устройствам, совместимым с AirPlay."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 07/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 712a79fb-14ef-4f6b-aba5-1dfca900afd2
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 03ecd2de215ff5b825dc8240d0b4f1bb77891d46
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: ff64e8657d65ea8e233cde8d3e3219d2bdab6ce7
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="intune-airplay-settings-for-ios-devices"></a>Параметры AirPlay для устройств iOS в Intune
 

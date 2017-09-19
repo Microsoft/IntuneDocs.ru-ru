@@ -2,8 +2,8 @@
 title: "Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса"
 description: "Сведения о подключении Microsoft Intune к Магазину Майкрософт для бизнеса для развертывания приложений, приобретенных по программе корпоративных закупок, и управления ими в консоли Intune"
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 02/02/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d73fca5dfb5b9890e28c15438527bd540a2a9853
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: e4bac9ba7497b579d05318bd2d11829a44dbc482
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune
 

@@ -2,8 +2,8 @@
 title: "Возможности управления зарегистрированными устройствами"
 description: "В этом разделе содержатся сведения о том, как Intune может помочь в управлении зарегистрированными устройствами."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 12/12/2016
 ms.topic: get-started-article
@@ -14,11 +14,11 @@ ms.assetid: f23b3ee7-78da-4e53-9fc2-78e58401bcf9
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5fc5e6108e7e7841ed142f24f463d85273ae8a12
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: bbdf384cf80a0997d69c876d4ccf912308a2559e
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="enrolled-device-management-capabilities-of-microsoft-intune"></a>Возможности управления зарегистрированными устройствами в Microsoft Intune
 

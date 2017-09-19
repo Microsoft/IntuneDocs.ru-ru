@@ -2,8 +2,8 @@
 title: "Управление приложениями iOS, приобретенными по корпоративной программе"
 description: "Intune помогает управлять приложениями, приобретенными по программе корпоративных закупок у Apple, импортируя данные о лицензиях из магазина приложений, отслеживая число используемых лицензий и следя за тем, чтобы число установленных копий приложения не превышало число приобретенных."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 09/07/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5da29dceb5308eab72e5b24e220586aa739982ea
-ms.sourcegitcommit: 1afff0fd464ece84ffea6bc0c71c78215d59e696
+ms.openlocfilehash: bbb67c9225ef99f57f12c839b81b95a1956b70f3
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune
 

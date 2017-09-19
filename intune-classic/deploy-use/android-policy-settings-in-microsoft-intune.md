@@ -2,8 +2,8 @@
 title: "Параметры политики Android и Samsung KNOX"
 description: "Создание политик для управления параметрами и функциями на устройствах Android, которые управляются с помощью Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 12/14/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 71cc39cf-e726-40fd-8d08-78776e099a4b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 07d49d9f9628dd296c3708a063de34d485c77acb
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: b007a3b038f1d631f1f75f5fea208de75e14fed1
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="android-and-samsung-knox-standard-policy-settings-in-microsoft-intune"></a>Параметры политики Android и Samsung KNOX Standard | Microsoft Intune
 

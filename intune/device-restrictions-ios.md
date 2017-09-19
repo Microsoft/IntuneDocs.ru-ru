@@ -3,8 +3,8 @@ title: "Параметры ограничений Intune для применен
 titleSuffix: Azure portal
 description: "Узнайте о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств iOS.\""
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: lleonard-msft
+ms.author: alleonar
 manager: angrobe
 ms.date: 07/30/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 10b27d6fc806ab2565631353761ed1c31795610d
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 88dc94e74a2a9a79c056a81b6397c94a483fc7a9
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="ios-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств iOS в Microsoft Intune
 

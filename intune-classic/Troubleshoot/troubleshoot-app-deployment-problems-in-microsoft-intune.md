@@ -2,8 +2,8 @@
 title: "Устранение неполадок, связанных с развертыванием приложений"
 description: "Эта статья описывает устранение неполадок, связанных с развертыванием приложений, с помощью Microsoft Intune."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 09/27/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 28ac298e-fb73-4c1c-b3fd-8336639e05e6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f935a454f077caf096c43c892980a948dcd4c3a3
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: 50ab65ba0e1ddde3a676b84dd76e2b409c3708d7
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="troubleshoot-app-deployment-problems-in-microsoft-intune"></a>Устранение неполадок, связанных с развертыванием приложений, в Microsoft Intune
 

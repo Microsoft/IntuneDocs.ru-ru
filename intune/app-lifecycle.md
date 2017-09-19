@@ -2,8 +2,8 @@
 title: "Общие сведения о жизненном цикле приложений"
 description: "Сведения о жизненном цикле приложений, управляемых Intune, начиная с добавления вплоть до прекращения использования."
 keywords: 
-author: robstackmsft
-ms.author: robstack
+author: mattbriggs
+ms.author: mabrigg
 manager: angrobe
 ms.date: 06/07/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: cf505bec8a07923db78a870e4d7bfd64660e681c
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 01648e20704c9cfc0121ded3b95d99e4661f4f53
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="overview-of-the-app-lifecycle"></a>Общие сведения о жизненном цикле приложений
 
