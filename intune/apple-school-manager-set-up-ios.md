@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/21/2017
+ms.date: 09/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6b3ecc9af91d1a78f84dd6d4b8f47f0bf3e8c742
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 787fbdd470b4e1fbb4cb3e22ba4065e52d4c63f8
+ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Включение регистрации устройств iOS с помощью Apple School Manager
 
@@ -38,17 +38,8 @@ ms.lasthandoff: 09/09/2017
 - Для сходства пользователей требуется [конечная точка WS-Trust 1.3 в режиме "Имя пользователя/смешанный"](https://technet.microsoft.com/library/adfs2-help-endpoints). [Дополнительные сведения](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
 - Устройства, приобретенные по программе [Apple School Management](http://school.apple.com)
 
-**Процедура регистрации устройств Apple School Manager**
-1. [Получение токена Apple School Manager и назначение устройств](#get-the-apple-token-and-assign-devices)
-2. [Создание профиля регистрации](#create-an-apple-enrollment-profile)
-3. [Подключение School Data Sync](#connect-school-data-sync) (необязательно)
-4. [Синхронизация устройств под управлением Apple School Manager](#sync-managed-devices)
-5. [Назначение профиля Apple School Manager устройствам](#assign-a-profile-to-devices)
-6. [Распределение устройств между пользователями](#distribute-devices-to-users)
-
 >[!NOTE]
 >Многофакторная идентификация (MFA) не работает во время проведения регистрации на устройствах Apple School Manager со сходством пользователей. После регистрации MFA работает на этих устройствах правильно. После регистрации MFA работает на этих устройствах должным образом. Устройства не могут предложить изменить пароль пользователям при первом входе. Кроме того, пользователям, срок действия паролей которых истек, не будет предложено сбросить пароль во время регистрации. Им потребуется сбросить пароль с другого устройства.
-
 
 ## <a name="get-the-apple-token-and-assign-devices"></a>Получение токена Apple и назначение устройств
 
@@ -104,7 +95,8 @@ ms.lasthandoff: 09/09/2017
     - **Защищено** — режим управления, который обеспечивает дополнительные возможности управления и отключает блокировку активации по умолчанию. Если оставить поле пустым, возможности управления будут ограничены.
 
      - **Регистрация заблокирована** (требуется выбрать режим управления "Защищено"). Отключает параметры iOS, которые делают возможным удаление профиля управления. Если не устанавливать флажок, это позволит удалить профиль управления из меню "Параметры".
-   - **Общий iPad** (требуется выбор режима **Регистрация без сходства пользователей** и **Защищено**). Позволяет нескольким пользователям входить на зарегистрированные устройства iPad с помощью управляемого идентификатора Apple ID. Управляемые идентификаторы Apple ID создаются на портале Apple School Manager. Дополнительные сведения об [общих устройствах iPad](education-settings-configure-ios-shared.md).
+   - **Общий iPad** (требуется выбор режима **Регистрация без сходства пользователей** и **Защищено**). Позволяет нескольким пользователям входить на зарегистрированные устройства iPad с помощью управляемого идентификатора Apple ID. Управляемые идентификаторы Apple ID создаются на портале Apple School Manager. Дополнительные сведения об [общих устройствах iPad](education-settings-configure-ios-shared.md). Следует также просмотреть документ [о требованиях к общедоступному режиму iPad для Apple](https://help.apple.com/classroom/ipad/2.0/#/cad7e2e0cf56).
+
    >[!NOTE]
    >Если для параметра **Сходство пользователей** выбрано значение **Со сходством пользователей** либо для режима **Защищено** задано значение **Выкл.**, режим общего устройства iPad для профиля регистрации отключается.
 

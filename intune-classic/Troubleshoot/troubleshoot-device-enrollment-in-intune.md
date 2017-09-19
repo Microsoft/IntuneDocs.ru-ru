@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 07/16/2017
+ms.date: 09/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 6982ba0e-90ff-4fc4-9594-55797e504b62
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d7a51094851af8c3b6d872300cd9b23e845c6494
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: d553f62ed2ee1c9e5a6b9121b766e6e427d06bf7
+ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/17/2017
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Устранение проблем при регистрации устройств в Intune
 
@@ -370,7 +370,14 @@ ms.lasthandoff: 08/09/2017
 ### <a name="other-ios-enrollment-errors"></a>Другие ошибки регистрации в iOS
 Список ошибок регистрации в iOS приведен в документации по устройствам для пользователей в статье [You see errors while trying to enroll your device in Intune](/intune-user-help/using-your-iOS-or-macOS-device-with-intune) (Ошибки при попытке регистрации устройства в Intune).
 
-## <a name="pc--issues"></a>Проблемы с компьютером
+## <a name="pc-issues"></a>Проблемы с компьютером
+
+
+|Сообщение об ошибке|Проблема|Разрешение|
+|---|---|---|
+|**ИТ-администратору нужно назначить лицензию для доступа**<br>ИТ-администратор не предоставил вам доступ для использования этого приложения. Обратитесь к нему или повторите попытку позже.|Устройство невозможно зарегистрировать, так как у учетной записи пользователя нет нужной лицензии.|Чтобы пользователи могли регистрировать свои устройства, им нужно назначить необходимую лицензию. Это сообщение означает, что пользователь располагает неправильным типом лицензии для назначенного центра управления мобильными устройствами. Например, если в качестве центра управления мобильными устройствами назначен Intune, а пользователь использует System Center 2012 R2 Configuration Manager, появится указанное сообщение об ошибке.<br>Узнайте, как [назначать лицензии Intune учетным записям ваших пользователей](https://docs.microsoft.com/intune/licenses-assign).|
+
+
 
 ### <a name="the-machine-is-already-enrolled---error-hr-0x8007064c"></a>Компьютер уже зарегистрирован — ошибка hr 0x8007064c
 **Проблема:** регистрация завершается с ошибкой **компьютер уже зарегистрирован**. В журнале регистрации присутствует ошибка **hr 0x8007064c**.

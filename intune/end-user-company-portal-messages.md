@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: jeffgilb
 ms.suite: ems
-ms.openlocfilehash: 6e3a5e39cf3ee38820b1ff79eb54c019dbb68d29
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: f1a5c8a15007a38942fe543e6c1062bf957a481c
+ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 09/15/2017
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>Пояснения к сообщениям в приложении корпоративного портала
 
@@ -95,6 +95,17 @@ ms.lasthandoff: 08/03/2017
 ### <a name="how-to-explain-this-to-your-users"></a>Как объяснить это пользователям
 С дополнительными сведениями пользователи могут ознакомиться в статье [Отправка журналов ИТ-администратору по электронной почте](/intune-user-help/send-logs-to-your-it-admin-by-email-android). В статье [Send logs to your IT admin by cable](/intune-user-help/send-logs-to-your-it-admin-by-cable-android) (Отправка журналов ИТ-администратору с использованием кабеля) представлен еще один способ отправки данных. Ознакомившись с ней, пользователи могут сравнить способы.
 
+## <a name="your-company-support-needs-to-give-you-access-to-company-resources"></a>Служба поддержки вашей организации должна предоставить вам доступ к корпоративным ресурсам.
+
+### <a name="where-it-appears"></a>Место отображения
+Если вы не добавили приложение корпоративного портала в список **Разрешенные приложения** или **Исключенные приложения** и пользователь пытается выполнить вход, попытка завершится ошибкой. Появится следующее сообщение:
+
+> **Служба поддержки вашей организации должна предоставить вам доступ к корпоративным ресурсам**  
+> Ваша компания использует политики Windows Information Protection для защиты устройства. Службе поддержки необходимо убедиться, что корпоративный портал имеет к ним доступ.
+
+### <a name="what-it-means"></a>Что это означает
+
+Добавьте приложение корпоративного портала в список **Разрешенные приложения** или **Исключенные приложения** в политике защиты приложений Windows Information Protection (WIP). Дополнительные сведения см. в статье [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](/intune-classic/deploy-use/create-windows-information-protection-policy-with-intune).
 
 ### <a name="see-also"></a>См. также
 [What to tell your end users about using Intune](end-user-educate.md) (Что нужно сообщить конечным пользователям об использовании Intune)

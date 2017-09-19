@@ -14,11 +14,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 067009356171184fa34dd51c9a0b01b41f14cab7
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: cd858d617d9a9f2154a5682f5421a096d0c28224
+ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/17/2017
 ---
 # <a name="enroll-windows-devices"></a>Регистрация устройств Windows
 
@@ -28,8 +28,8 @@ ms.lasthandoff: 09/09/2017
 
 Как администратор Intune вы можете упростить регистрацию одним из следующих способов:
 - [включение автоматической регистрации](#enable-windows-10-automatic-enrollment) (требуется Azure AD Premium);
-- [регистрация CNAME]();
-- включение массовой регистрации (требуется Azure AD Premium и конструктор конфигураций Windows).
+- [регистрация CNAME](#simplify-windows-enrollment-without-azure-ad-premium);
+- [включение массовой регистрации](windows-bulk-enroll.md) (требуется Azure AD Premium и конструктор конфигураций Windows).
 
 Ниже приведены два фактора, которые определяют способ упрощения регистрации устройств Windows.
 
