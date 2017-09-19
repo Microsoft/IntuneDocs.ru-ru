@@ -15,24 +15,24 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 85303c503e068ec23c8321b9359760775bbdb6f8
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 58dac14dcc38329cfa0a98746e667bf6e5438170
+ms.sourcegitcommit: b8987b8dfb009ea55678d7f640ac5f18a6ab167e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/13/2017
 ---
 # <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Администратор Intune может обозначить устройство как корпоративное различными способами. Intune может собирать дополнительные сведения о корпоративных устройствах. Можно также задать ограничения для устройств, чтобы запретить регистрацию тех устройств, которые не являются корпоративными.
+Администратор Intune может определить устройства как корпоративные, чтобы уточнить управление и идентификацию. Intune позволяет выполнять дополнительные задачи управления и собирать дополнительные сведения, такие как полный телефонный номер и данные инвентаризации приложений с корпоративных устройств. Можно также задать ограничения для устройств, чтобы блокировать регистрацию тех устройств, которые не являются корпоративными.
 
 Устройство определяется как "корпоративное", если выполняется одно из следующих условий:
 
 - зарегистрировано с помощью учетной записи [диспетчера регистрации устройств](device-enrollment-manager-enroll.md) (все платформы);
 - зарегистрировано с помощью [программы регистрации устройств](device-enrollment-program-enroll-ios.md) Apple, [Apple School Manager](apple-school-manager-set-up-ios.md) или [Apple Configurator](apple-configurator-enroll-ios.md) (только для устройств iOS);
 - [идентифицировано как корпоративное перед регистрацией](#identify-corporate-owned-devices-with-imei-or-serial-number) с помощью номеров IMEI (все платформы с номерами IMEI) или серийных номеров (iOS и Android);
-- зарегистрировано в Azure Active Directory или Enterprise Mobility + Security как устройство с Windows 10 Корпоративная (только Windows 10);
+- зарегистрировано в Azure Active Directory или Enterprise Mobility + Security как устройство с Windows 10 Корпоративная;
 - в свойствах устройства указана [принадлежность устройства организации](#change-device-ownership).
 
 ## <a name="identify-corporate-owned-devices-with-imei-or-serial-number"></a>Идентификация корпоративных устройств с номерами IMEI и серийными номерами

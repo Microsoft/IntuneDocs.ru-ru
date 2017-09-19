@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/15/2017
+ms.date: 09/15/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fba27041fb55cfbef1cbba39e3679ce6884cd5f0
-ms.sourcegitcommit: 0b164f806165d312acfc88815a60e325e3d02672
+ms.openlocfilehash: 7fcdd4e7679bc969a7fa000e515b59882973a3da
+ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2017
+ms.lasthandoff: 09/17/2017
 ---
 # <a name="set-up-intune"></a>Настройка Intune
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 08/21/2017
 
 | Шаги | состояние;  |
 | ------------- |-------------|
-| 1  | [Предварительные требования](supported-devices-browsers.md). Что нужно знать перед началом работы. Сюда входят поддерживаемые конфигурации и требования к сети.|
+| 1  | [Поддерживаемые конфигурации](supported-devices-browsers.md). Что необходимо знать перед началом работы. Сюда входят поддерживаемые конфигурации и требования к сети.|
 | 2 |  [Вход в Intune](account-sign-up.md). Вход в пробную подписку или создание подписки Intune. |  
 | 3 | [Настройка имени домена](custom-domain-name-configure.md). Настройка регистрации DNS для подключения к доменному имени организации с помощью Intune. При этом пользователи получают знакомый домен при подключении к Intune и использовании ресурсов.  |
 | 4 | [Добавление пользователей](users-add.md). Ручное добавление пользователей или подключение к Active Directory для синхронизации пользователей с помощью Intune. Требуется, если устройства не являются устройствами киоска без пользователей. |
