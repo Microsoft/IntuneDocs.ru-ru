@@ -81,12 +81,16 @@
           href: planning-guide-resources.md
     - name: Руководства по реализации сценария
       items:
-        - name: BYOD
-          href: byod-enable.md
         - name: Защита Exchange Online
           href: exchange-online-protect.md
         - name: Сокращение затрат на службу поддержки
           href: password-reset.md
+        - name: Предотвращение несанкционированного доступа
+          href: data-outside-protect.md
+        - name: Предотвращение утечки данных на неуправляемых устройствах
+          href: data-leak-prevention.md
+        - name: BYOD
+          href: byod-enable.md
     - name: Руководство по миграции
       href: migration-guide.md
       items:
@@ -434,12 +438,19 @@
               items:
                 - name: Интеграция Check Point и Intune
                   href: checkpoint-sandblast-mobile-mtd-connector-integration.md
-            - name: Добавление приложений MTD
-              href: mtd-apps-ios-app-configuration-policy-add-assign.md
-            - name: Включение MTD в Intune
-              href: mtd-connector-enable.md
-            - name: Создание политики соответствия устройств MTD
-              href: mtd-device-compliance-policy-create.md
+            - name: Настройка Zimperium
+              href: zimperium-mobile-threat-defense-connector.md
+              items:
+                - name: Интеграция Zimperium и Intune
+                  href: zimperium-mtd-connector-integration.md
+            - name: Настройка Intune для MTD
+              items:
+                - name: Добавление приложений MTD
+                  href: mtd-apps-ios-app-configuration-policy-add-assign.md
+                - name: Создание политики соответствия устройств MTD
+                  href: mtd-device-compliance-policy-create.md
+                - name: Включение MTD в Intune
+                  href: mtd-connector-enable.md
         - name: Управление доступом к сети
           href: network-access-control-integrate.md
         - name: Настройка Windows Hello
