@@ -27,7 +27,7 @@
 ### [Решение распространенных проблем с Android](troubleshoot-your-device-android.md)
 #### [Проверка соответствия устройств требованиям](check-compliance-on-your-device-android.md)
 
-#### [Использование журналов для устранения проблем]
+#### Использование журналов для устранения проблем
 ##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 ##### [Отправка журналов по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
 ##### [Отправка журналов при помощи USB-кабеля](send-logs-to-your-it-admin-using-cable-android.md)
