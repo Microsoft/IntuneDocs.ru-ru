@@ -15,11 +15,11 @@ ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b2cffc21ba78cbd54edfb75eaa892df1539ad62b
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 2e9b1a3dc42a9c18d61fc9b55d5a7b71f00c3e29
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Создание политики соответствия для устройств Mobile Threat Defense (MTD) в Intune
 
@@ -35,8 +35,6 @@ Intune с MTD помогает обнаруживать угрозы и оцен
 Необходимые условия для политики соответствия устройств с MTD:
 
 -   настройка интеграции MTD и Intune;
-
--   включение соединителя MTD в Intune;
 
 ## <a name="to-create-a-mtd-device-compliance-policy"></a>создание политики соответствия устройств MTD.
 
@@ -77,3 +75,7 @@ Intune с MTD помогает обнаруживать угрозы и оцен
 
     > [!NOTE] 
     > Политика применена к пользователям. Устройства пользователей, на которые распространяется политика, будут проверяться на соответствие требованиям.
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+- [Включение MTD с помощью Intune](mtd-connector-enable.md)

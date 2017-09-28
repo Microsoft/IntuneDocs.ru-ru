@@ -15,11 +15,11 @@ ms.assetid: 00356258-76a8-4a84-9cf5-64ceedb58e72
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6d0802107353eee9359e0eff17b69037d9a237a6
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 98a5b1b705e79b875b83cecb53cd82d7bf5dff30
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune
 
@@ -54,16 +54,6 @@ ms.lasthandoff: 09/09/2017
 #### <a name="microsoft-authenticator-app-for-ios"></a>Приложение Microsoft Authenticator для iOS
 
 - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Используйте этот [URL-адрес приложения Microsoft Authenticator в магазине](https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8) на **шаге 5** в разделе **Настройка сведений о приложении**.
-
-### <a name="skycure"></a>Skycure
-
-#### <a name="android"></a>Android
-
-- Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). Используйте этот [URL-адрес приложения Skycure в магазине](https://play.google.com/store/apps/details?id=com.skycure.skycure) на **шаге 7**.
-
-#### <a name="ios"></a>iOS
-
-- Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Используйте этот [URL-адрес приложения Skycure в магазине](https://itunes.apple.com/us/app/skycure/id695620821?mt=8) на **шаге 5** в разделе **Настройка сведений о приложении**.
 
 ### <a name="lookout"></a>Lookout
 
@@ -101,6 +91,16 @@ ms.lasthandoff: 09/09/2017
 
 - Отправьте повторно подписанный IPA-файл, как описано в разделе [Добавление бизнес-приложений для iOS в Intune](lob-apps-ios.md). Вам также нужно установить минимальную версию ОС — iOS 8.0 или более позднюю.
 
+### <a name="skycure"></a>Skycure
+
+#### <a name="android"></a>Android
+
+- Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). Используйте этот [URL-адрес приложения Skycure в магазине](https://play.google.com/store/apps/details?id=com.skycure.skycure) на **шаге 7**.
+
+#### <a name="ios"></a>iOS
+
+- Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Используйте этот [URL-адрес приложения Skycure в магазине](https://itunes.apple.com/us/app/skycure/id695620821?mt=8) на **шаге 5** в разделе **Настройка сведений о приложении**.
+
 ### <a name="check-point-sandblast-mobile"></a>Check Point SandBlast Mobile
 
 #### <a name="android"></a>Android
@@ -111,7 +111,21 @@ ms.lasthandoff: 09/09/2017
 
 - Обратитесь в [Check Point SandBlast Mobile](https://www.checkpoint.com/products/sandblast-mobile/), чтобы получить приложение iOS. Просмотрите инструкции по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md), а затем используйте URL-адрес из магазина Apple на **шаге 5** в разделе **Настройка сведений о приложении**.
 
+### <a name="zimperium"></a>Zimperium
+
+#### <a name="android"></a>Android
+
+- Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). Используйте этот [URL-адрес приложения Zimperium в магазине](https://play.google.com/store/apps/details?id=com.zimperium.zips&hl=en) на **шаге 7**.
+
+#### <a name="ios"></a>iOS
+
+- Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Используйте этот [URL-адрес приложения Zimperium в магазине](https://itunes.apple.com/us/app/zimperium-zips/id1030924459?mt=8) на **шаге 5** в разделе **Настройка сведений о приложении**.
+
 ## <a name="to-associate-the-mtd-app-with-an-ios-app-configuration-policy"></a>Сопоставление приложения MTD с политикой конфигурации приложений iOS
+
+### <a name="for-lookout"></a>Для Lookout
+
+- Создайте политику конфигурации приложений iOS, как описано в разделе [об использовании политики конфигурации приложений iOS](app-configuration-policies-use-ios.md).
 
 ### <a name="for-skycure"></a>Для Skycure
 
@@ -139,10 +153,6 @@ ms.lasthandoff: 09/09/2017
 </dict>
 
 ```
-### <a name="for-lookout"></a>Для Lookout
-
-- Создайте политику конфигурации приложений iOS, как описано в разделе [об использовании политики конфигурации приложений iOS](app-configuration-policies-use-ios.md).
-
 ### <a name="for-check-point-sandblast-mobile"></a>Check Point SandBlast Mobile
 
 - Добавьте политику конфигурации приложения Check Point SandBlast Mobile для iOS согласно инструкции по [использованию политик конфигурации приложений для iOS в Microsoft Intune](app-configuration-policies-use-ios.md).
@@ -152,12 +162,30 @@ ms.lasthandoff: 09/09/2017
 <dict><key>MDM</key><string>INTUNE</string></dict>
 
 ```
+
+### <a name="for-zimperium"></a>Для Zimperium
+
+- См. инструкции по [использованию политик конфигурации приложений Microsoft Intune для iOS](app-configuration-policies-use-ios.md), чтобы добавить политику конфигурации приложений Zimperium для iOS.
+    - В **шаге 8** используйте функцию **Введите данные XML**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации.
+
+```
+<dict>
+<key>provider</key><string>Intune</string>
+<key>userprincipalname</key><string>{{userprincipalname}}</string>
+<key>deviceid</key>
+<string>{{deviceid}}</string>
+<key>serialnumber</key>
+<string>{{serialnumber}}</string>
+<key>udidlast4digits</key>
+<string>{{udidlast4digits}}</string>
+</dict>
+
+```
+
 ## <a name="to-assign-apps-all-mtd-partners"></a>Назначение приложений (все партнеры по MTD)
 
 - См. инструкции по [назначению приложений группам в Intune](apps-deploy.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Настройка интеграции Lookout с Intune](lookout-mtd-connector-integration.md)
-- [Настройка интеграции Skycure и Intune](skycure-mtd-connector-integration.md)
-- [Настройка интеграции Check Point SandBlast с Intune](checkpoint-sandblast-mobile-mtd-connector-integration.md)
+- [Добавление политики соответствия устройств для MTD](mtd-device-compliance-policy-create.md)

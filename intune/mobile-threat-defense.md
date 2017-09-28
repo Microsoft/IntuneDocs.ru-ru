@@ -15,11 +15,11 @@ ms.assetid: ac77b590-a7ec-45a0-9516-ebf5243b6210
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f9c28bbd06fbee620466d4f269fbb08d98bbcde2
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 52125f78ae8d0633f53002cb1507c615a327ee8b
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="mobile-threat-defense-integration-with-intune"></a>Интеграция службы защиты мобильных устройств от угроз с Intune
 
@@ -52,3 +52,4 @@ ms.lasthandoff: 09/09/2017
 - [Lookout](lookout-mobile-threat-defense-connector.md)
 - [Skycure](skycure-mobile-threat-defense-connector.md)
 - [Check Point SandBlast Mobile](checkpoint-sandblast-mobile-mobile-threat-defense-connector.md)
+- [Zimperium](zimperium-mobile-threat-defense-connector.md)

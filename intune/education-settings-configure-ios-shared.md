@@ -15,17 +15,18 @@ ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9149b4d9d263a5d68fdd73e0a3754a24a74ad973
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 9b24ee84d339b728addd753cb309b4d8572e5582
+ms.sourcegitcommit: e5501cdf08d3e79bc51dc726697606be02110e57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 09/21/2017
 ---
 # <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>Настройка параметров образования Intune для общих устройств iPad
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Intune поддерживает приложение iOS Класс, которое помогает преподавателям руководить обучением и управлять устройствами учащихся в классе. В дополнение к приложению Класс компания Apple позволяет настроить устройства iPad таким образом, чтобы несколько учащихся могли совместно использовать одно устройство. Этот документ описывает, как сделать это с помощью Intune.
+
 Сведения о настройке выделенных устройств iPad (1:1) для использования приложения Класс см. в разделе [Настройка параметров Intune для приложения iOS Класс](education-settings-configure-ios.md).
 
 ## <a name="before-you-start"></a>Перед началом работы
