@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 06/23/2017
+ms.date: 09/22/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 00fc685062c090b40e20ed3dfa30afbeeb5c9780
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 4cfdf6a8aab1bda15015f85b1fb8f364e6a0edfa
+ms.sourcegitcommit: 29ee35da2864b25f4432d2423b285014c77040af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/23/2017
 ---
 # <a name="supported-devices-and-browsers"></a>Поддерживаемые устройства и браузеры
 

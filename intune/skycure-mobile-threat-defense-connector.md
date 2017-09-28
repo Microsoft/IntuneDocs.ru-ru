@@ -15,11 +15,11 @@ ms.assetid: df4ce3f6-a093-432c-ab86-7a83865e389e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9afb22b5fdfa20824f2a470936b213e3d5b76056
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 47df2c4a909c397ac5a6c0f736d11344de44736e
+ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 09/19/2017
 ---
 # <a name="skycure-mobile-threat-defense-connector"></a>Соединитель службы защиты мобильных устройств от угроз Skycure
 
@@ -115,10 +115,10 @@ Intune поддерживает два режима интеграции с Skyc
 
 Что нужно сделать для интеграции Intune с Skycure:
 
-1.  [добавить и назначить приложения Skycure, Microsoft Authenticator и политику конфигурации приложения для iOS](mtd-apps-ios-app-configuration-policy-add-assign.md);
+- [настроить интеграцию Skycure и Intune;](skycure-mtd-connector-integration.md)
 
-2.  [настроить интеграцию Skycure и Intune;](skycure-mtd-connector-integration.md)
+- [добавить и назначить приложения Skycure, Microsoft Authenticator и политику конфигурации приложения для iOS](mtd-apps-ios-app-configuration-policy-add-assign.md);
 
-3.  [включить MTD-соединитель Skycure в Intune;](mtd-connector-enable.md)
+- [создать для Skycure политику соответствия устройств требованиям в Intune.](mtd-device-compliance-policy-create.md)
 
-4.  [создать для Skycure политику соответствия устройств требованиям в Intune.](mtd-device-compliance-policy-create.md)
+- [включить MTD-соединитель Skycure в Intune;](mtd-connector-enable.md)
