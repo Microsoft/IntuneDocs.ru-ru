@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1753545450d684f366ef4e323104d92ff0a55cbb
-ms.sourcegitcommit: 2ed8d1c39d4b3e3282111f1d758afb3a50f19f8f
+ms.openlocfilehash: 02d955e5f5f15264df8aba3ea380b7f7e6c4d87b
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="unenroll-your-ios-device-from-intune"></a>Отмена регистрации устройства iOS в Intune
 
@@ -53,4 +53,4 @@ ms.lasthandoff: 08/10/2017
 
 -   устройства, настроенные только для электронной почты, больше не будут отображаться в приложении корпоративного портала или на веб-сайте.
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).

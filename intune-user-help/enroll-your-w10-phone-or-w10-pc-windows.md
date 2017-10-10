@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: dd8af3f07abc772408ccececf12a062a82a82e71
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 8873fcd3c6cf7f5490f1cd2f85e0182e21dcd30d
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="enroll-your-windows-10-devices-in-intune"></a>Регистрация устройств Windows 10 в Intune
 
@@ -49,4 +49,4 @@ ms.lasthandoff: 07/01/2017
 3.  В разделе __Сведения об устройстве__ коснитесь кнопки __Дополнительные сведения__. Появится список сведений о вашем устройстве. В этом списке найдите пункт __Версия__.        
 4.  Если ваша версия — __1607__, продолжите выполнять [эти шаги](enroll-your-w10-device-access-work-or-school.md). Если ваша версия — __1511 или ниже__, продолжать следует [эти шаги](enroll-your-w10-device-your-account.md).
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
