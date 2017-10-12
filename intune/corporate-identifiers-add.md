@@ -15,11 +15,11 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 58dac14dcc38329cfa0a98746e667bf6e5438170
-ms.sourcegitcommit: b8987b8dfb009ea55678d7f640ac5f18a6ab167e
+ms.openlocfilehash: 82b839943d21cd44c1be457cc8436928f41fe73c
+ms.sourcegitcommit: b6a2d55d9c4e3248ff7ef738393f458f1978de44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/13/2017
 
 ## <a name="identify-corporate-owned-devices-with-imei-or-serial-number"></a>Идентификация корпоративных устройств с номерами IMEI и серийными номерами
 
-Администратор Intune может создать и импортировать файл данных с разделителями-запятыми (CSV), содержащий список номеров IMEI или серийных номеров. Intune назначит корпоративное владение для устройств с этими идентификаторами во время регистрации. Номера IMEI можно объявлять для всех поддерживаемых платформ. Серийный номер можно объявить только для устройств iOS и Android. Каждый номер IMEI или серийный номер может сопровождаться сведениями, указанными в списке для административных целей.
+Администратор Intune может создать и импортировать файл данных с разделителями-запятыми (CSV), содержащий список номеров IMEI или серийных номеров. Intune назначит корпоративное владение для устройств с этими идентификаторами во время регистрации. Номера IMEI можно объявлять для всех поддерживаемых платформ. Серийный номер можно объявить только для устройств с iOS, macOS и Android. Каждый номер IMEI или серийный номер может сопровождаться сведениями, указанными в списке для административных целей.
 
 <!-- When you upload serial numbers for company-owned iOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as company-owned. -->
 

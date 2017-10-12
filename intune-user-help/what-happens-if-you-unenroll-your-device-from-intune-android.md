@@ -16,17 +16,17 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 075435a190fba28d548b1fa54ba7bafeec3ba217
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: c75d7bee46f87bf171d105b6ebbf1ec0636e32df
+ms.sourcegitcommit: 53a1f5226d1e1172f013a1b192321dde610b2d6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/06/2017
 ---
 # <a name="what-happens-if-you-unenroll-your-android-device-from-intune"></a>Что происходит при отмене регистрации устройства Android в Intune?
 
 После отмены регистрации устройства Android в Intune:
 
--   ИТ-администратор больше не управляет вашим устройством;
+-   служба поддержки вашей компании больше не управляет вашим устройством;
 
 -   вы теряете доступ к корпоративным данным и ресурсам;
 
@@ -40,4 +40,4 @@ ms.lasthandoff: 07/01/2017
 
 Инструкции по отмене регистрации см. в статье [Отмена регистрации устройства в Intune с помощью приложения корпоративного портала](unenroll-your-device-from-intune-android.md).
 
-Требуется помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I have questions about unenrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.
+Требуется помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I have questions about unenrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.

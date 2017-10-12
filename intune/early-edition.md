@@ -5,7 +5,7 @@ keywords:
 author: brenduns
 ms.author: brenduns
 manager: angrobe
-ms.date: 09/05/2017
+ms.date: 09/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0ac0d1fd2f618339f847201f333d3f32561ca6b1
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: f2e11a7fbe226932206f6946ef0603307e76c69c
+ms.sourcegitcommit: 4184db38d1a9a223e680bcb4c9b732f7069bf510
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/02/2017
 ---
 # <a name="the-early-edition-for-microsoft-intune---september-2017"></a>Ранний выпуск Microsoft Intune, сентябрь 2017 г.
 
@@ -184,6 +184,14 @@ ms.lasthandoff: 09/15/2017
 
 
 ## <a name="intune-apps"></a>Приложения Intune
+
+### <a name="search-improvements-to-the-company-portal-website---1331697--"></a>Улучшения поиска на веб-сайте корпоративного портала<!--1331697-->
+Мы улучшаем возможности поиска приложений, причем сначала вносим изменения на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com). Помимо полей имени и описания, поиск теперь можно производить по категориям приложений. По умолчанию результаты будут сохраняться в порядке убывания важности. 
+
+Пользователи устройств с iOS также получат эти возможности, так как веб-сайт корпоративного портала используется в приложении "Корпоративный портал" для iOS. Аналогичные обновления для приложений "Корпоративный портал" для Android и Windows будут выпущены в ближайшие месяцы. 
+
+Мы все еще настраиваем способы определения актуальности результатов, поэтому сообщите нам свое мнение с помощью ссылки "Отзыв" внизу сайта корпоративного портала.
+
 ### <a name="refresh-action-added-to-the-company-portal-app-for-windows-10---1132468--"></a>В приложение корпоративного портала для Windows 10 добавлено действие обновления <!--1132468-->
 В приложении корпоративного портала для Windows 10 пользователи смогут обновлять данные приложения, отправив запрос на обновление или нажав клавишу F5 (в классической версии).
 

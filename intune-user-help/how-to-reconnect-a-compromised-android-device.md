@@ -16,14 +16,14 @@ ROBOTS:
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a51857a6e5ffd020888af6a7c0a3b85efa91fe20
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1d1447887f63edf9671fc954dbc69bfd7766ca73
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="how-to-reconnect-a-compromised-android-device"></a>Повторное подключение к скомпрометированному устройству Android
 
-ИТ-администратор обнаружил, что вы используете рутованное устройство. "Административный доступ" (или "корневой доступ") означает, что устройство было модифицировано для получения доступа к операционной системе. Это может отрицательно повлиять на уровень безопасности и представлять угрозу для ресурсов компании. Такое устройство теряет доступ к ресурсам компании.
+Служба поддержки вашей компании обнаружила, что вы используете устройство с административным доступом. "Административный доступ" (или "корневой доступ") означает, что устройство было модифицировано для получения доступа к операционной системе. Это может отрицательно повлиять на уровень безопасности и представлять угрозу для ресурсов компании. Такое устройство теряет доступ к ресурсам компании.
 
-По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with a rooted device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with a rooted device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.

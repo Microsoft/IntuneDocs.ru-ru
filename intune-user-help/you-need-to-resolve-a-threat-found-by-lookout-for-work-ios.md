@@ -1,6 +1,6 @@
 ---
 title: "Устранение угроз, обнаруженных Lookout for Work на устройствах iOS | Документы Майкрософт"
-description: 
+description: "Узнайте, как устранить угрозу, обнаруженную приложением Lookout for Work в iOS."
 keywords: 
 author: barlanmsft
 ms.author: barlan
@@ -14,13 +14,13 @@ ms.assetid: dd6aec3a-4063-4054-8d0f-d2f2034f0d3d
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 4b51ad3fcc04d8e4b2cb6da6982f62885f466080
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1b5a49c4bb29f5511dc13b7d12928b11fd98b2de
+ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="you-need-to-resolve-a-threat-found-by-lookout-for-work"></a>Вам требуется устранить угрозу, обнаруженную Lookout for Work
+# <a name="resolve-a-threat-found-by-lookout-for-work"></a>Устранение угрозы, обнаруженной Lookout for Work
 
 Приложение Lookout for Work обнаружило потенциальную угрозу на вашем устройстве, и вам необходимо устранить проблему, прежде чем вы сможете снова получить доступ к своей рабочей или учебной электронной почте, приложениям и файлам. Появившееся сообщение может выглядеть следующим образом:
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/01/2017
 
 ![Сообщение поиска работы об ошибке, содержащее ссылку на веб-сайт корпоративного портала](./media/mtd-go-to-device-management-portal-android.png)
 
-Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](http://portal.manage.microsoft.com), где вы найдете инструкции по устранению проблемы.
+Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), где вы найдете инструкции по устранению проблемы.
 
 ## <a name="example-of-an-app-that-lookout-for-work-sees-as-a-threat"></a>Пример приложения, которое поиск работы воспринимает как угрозу
 
@@ -46,4 +46,5 @@ ms.lasthandoff: 07/01/2017
 
 Удалив приложение, вы сразу получите доступ к электронной почте и другим данным вашей компании или учебного заведения. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными организации, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+

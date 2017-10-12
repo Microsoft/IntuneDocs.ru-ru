@@ -16,20 +16,20 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 16f7f06d02a56b4887c0d29ffcaed111185652a9
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 04009fa3fea401e3093a444b0fdbbbe12bd31c84
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="enroll-your-macos-device-in-intune"></a>Регистрация устройства Mac OS в Intune
 
-Благодаря доступу к приложениям, данным и ресурсам организации пользователи могут выполнять свою работу. При использовании на работе устройств Mac OS необходимо установить __профиль управления__. Это просто файл, который загружает на компьютер Mac необходимые настройки и сведения о доступе. Этот файл настраивает ваш ИТ-администратор. Хотите получить дополнительные сведения? См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или macOS в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
+Благодаря доступу к приложениям, данным и ресурсам организации пользователи могут выполнять свою работу. При использовании на работе устройств Mac OS необходимо установить __профиль управления__. Это просто файл, который загружает на компьютер Mac необходимые настройки и сведения о доступе. Этот файл настраивает служба поддержки вашей компании. Хотите получить дополнительные сведения? См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или macOS в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
 
   > [!NOTE]
   > Если вы хотите зарегистрировать устройство iOS, например iPhone или iPad, [используйте эти инструкции](enroll-your-device-in-intune-ios.md).
 
-1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](http://portal.manage.microsoft.com).
+1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com).
 2. Войдите на корпоративный портал, используя рабочую или учебную учетную запись.
 
   [!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
@@ -65,4 +65,4 @@ ms.lasthandoff: 07/01/2017
 
  ![Установленный профиль Mac OS](./media/macOS_enroll_007_sysprefs_installed_profile.png)
 
-По-прежнему нужна помощь? Свяжитесь со своим ИТ-администратором. Его контактные данные доступны на [корпоративном портале](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [корпоративном портале](https://portal.manage.microsoft.com).

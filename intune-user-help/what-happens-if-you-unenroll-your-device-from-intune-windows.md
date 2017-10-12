@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3de9589c46250727b1994381c24c68e6e2b90da2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 3b5b4136d1f6cee1dd16f9b946b35c9edf46481a
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="what-happens-if-you-unenroll-your-windows-device-from-intune"></a>Что происходит при отмене регистрации устройства с Windows в Intune?
 
@@ -85,4 +85,4 @@ ms.lasthandoff: 07/01/2017
 
 -   параметры, измененные на устройстве после его добавления, например выключение камеры или включение требований к паролю, перестают действовать;
 
-Если у вас есть вопросы, обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).

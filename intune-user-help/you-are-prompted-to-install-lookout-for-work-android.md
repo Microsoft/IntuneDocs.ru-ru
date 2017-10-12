@@ -1,11 +1,11 @@
 ---
 title: "Вам необходимо установить Lookout for Work на устройстве Android | Документы Майкрософт"
-description: 
+description: "Узнайте, как установить приложение Lookout for Work для Android."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/17/2017
+ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,19 +14,19 @@ ms.assetid: 0d357dc0-3e14-43d0-9874-6886ebc847fc
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 957a0f5104030043e8049bf65ba30e4579a0acb0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9e0ea429a6fd68bf984f814d512f9e5a8b327358
+ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="you-need-to-install-lookout-for-work"></a>Вам необходимо установить Lookout for Work
+# <a name="install-lookout-for-work"></a>Установка Lookout for Work
 
-Перед тем как вы сможете получить доступ к рабочим файлам, ИТ-администратору необходимо установить приложение Lookout for Work, которое помогает защитить устройство путем поиска потенциальных угроз безопасности.
+Перед тем как вы сможете получить доступ к рабочим файлам, вашей компании необходимо установить приложение Lookout for Work, которое помогает защитить устройство путем поиска потенциальных угроз безопасности.
 
 Если возникают проблемы с установкой, выполните действия по устранению неполадок, описанные в конце этого раздела.
 
-**Необходимо выполнить следующие действия:**
+## <a name="what-you-need-to-do"></a>Необходимые действия
 
 1.  Перетащите вниз из верхней части экрана панель уведомлений и откройте ее, а затем коснитесь пункта **Необходимые приложения — установить Lookout for Work из Магазина Google Play**.
 
@@ -70,8 +70,10 @@ ms.lasthandoff: 07/01/2017
 
   Если Lookout for Work обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
 
-**Если установка не выполняется**
+## <a name="if-the-installation-doesnt-work"></a>Если установка не выполняется
 
 Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае попробуйте установить Lookout for Work [вручную из Магазина Google Play](https://play.google.com/store/apps/details?id=com.lookout.enterprise).
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+

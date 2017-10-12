@@ -14,11 +14,11 @@ ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1a02a8b092242df369b382b6cdcc2c2bbd10c10a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 75d2a54f065e04b3f6c923dc4e83cfea498ead76
+ms.sourcegitcommit: c36f74323b57c9d9ef972322082923c449a1a74f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/03/2017
 ---
 # <a name="enroll-corporate-owned-device-enrollment-program-ios-devices"></a>Регистрация корпоративных устройств с помощью программы регистрации устройств iOS
 
@@ -28,7 +28,7 @@ Microsoft Intune позволяет развертывать профиль ре
 
 >[!NOTE]
 >Регистрацию с помощью программы регистрации устройств нельзя использовать с методом [диспетчера регистрации устройств](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md).
->Кроме того, если при регистрации устройства iOS (т. е. с помощью приложения корпоративного портала) его серийный номер импортируется и ему назначается профиль программы регистрации устройств, регистрация устройства в Intune будет отменена.
+>Кроме того, если пользователи регистрируют устройства iOS с помощью приложения "Корпоративный портал" и серийные номера этих устройств затем импортируются и им назначается профиль DEP, регистрация устройств в Intune будет отменена.
 
 ## <a name="prerequisites-for-enrolling-ios-devices-by-using-apple-dep-management"></a>Предварительные требования для регистрации устройств с iOS с помощью управления Apple DEP
 

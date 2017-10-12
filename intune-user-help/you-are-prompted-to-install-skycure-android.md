@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/29/2017
+ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,23 +14,21 @@ ms.assetid: 627cd171-6e1b-439e-809a-2e6f007c4b3d
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: f94a7cdb4feeea19527efec6486d09efcaca9b67
-ms.sourcegitcommit: 1135765fd3ac2149663341d8107f656aba236493
+ms.openlocfilehash: 6dba55de8d4c4551ff1e09bb0dffe797f0cf3190
+ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="you-need-to-install-symantec-endpoint-protection-mobile-on-your-android-device"></a>Необходимо установить Symantec Endpoint Protection Mobile на устройстве Android
+# <a name="install-symantec-endpoint-protection-mobile-on-your-android-device"></a>Установка Symantec Endpoint Protection Mobile на устройстве Android
 
-Прежде чем вы сможете получить доступ к рабочим файлам, службе поддержки вашей компании потребуется установить приложение Symantec Endpoint Protection (SEP) Mobile для мобильных устройств, которое помогает защитить устройство путем поиска потенциальных угроз безопасности.
+Прежде чем вы сможете получить доступ к рабочим файлам, вашей компании потребуется установить приложение Symantec Endpoint Protection (SEP) Mobile, которое помогает защитить устройство путем поиска потенциальных угроз безопасности.
 
 Если возникают проблемы с установкой, выполните действия по устранению неполадок, описанные в конце этого раздела.
 
-**Необходимо выполнить следующие действия:**
+## <a name="what-you-need-to-do"></a>Необходимые действия
 
 1. Перетащите вниз из верхней части экрана панель уведомлений и откройте ее, а затем коснитесь пункта **Required application – Install Skycure from Play Store** (Необходимые приложения — установить Skycure из Магазина Google Play). Его также можно найти в приложении корпоративного портала в разделе __Сведения о соответствии__.
-
-  <!--![The compliance details page on an Android device. The device is not in compliance, with a message at the bottom of the Company Portal page that says the device doesn't meet the mobile risk policy, and that Skycure must be opened to resolve the issue.](./media/skycure-resolves-compliance-android.png)-->
 
 2. Будет выполнен переход на страницу SEP Mobile в Магазине Google Play. Установите SEP Mobile, а затем коснитесь пункта **ПРИНЯТЬ**, чтобы разрешить SEP Mobile получать доступ к устройству.
 
@@ -46,20 +44,16 @@ ms.lasthandoff: 08/30/2017
 
 8. SEP Mobile сразу начнет проверять ваше устройство на наличие угроз безопасности.
 
-  <!--![Skycure is analyzing your device for security threats.](./media/skycure-scan-in-progress-android.png)-->
+  * Если SEP Mobile обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
 
-  Если SEP Mobile обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
+  * Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
 
-  <!--![Skycure found a security threat.](./media/skycure-found-a-threat-android.png)-->
-
-  Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
-
-    Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
+    * Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
 
     ![Устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
 
-**Если установка не выполняется**
+## <a name="if-the-installation-doesnt-work"></a>Если установка не выполняется
 
 Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае попробуйте установить SEP Mobile [вручную из Магазина Google Play](https://play.google.com/store/apps/details?id=com.skycure.skycure).
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).

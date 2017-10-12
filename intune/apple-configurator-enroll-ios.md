@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 09/12/2017
+ms.date: 10/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,17 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5b139db1780881e5bc0aed2345f9dc456a18f0e0
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 22a03068c543ebaa410521532dfdfc96e0f10eb0
+ms.sourcegitcommit: 6fae2dfb3a5c8f2e5ccfd120fd15656b26e5d302
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Регистрация устройств iOS с помощью Apple Configurator
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Intune поддерживает регистрацию устройств iOS с помощью средства [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12), запущенного на компьютере Mac. Для регистрации с помощью Apple требуется USB-подключение каждого устройства iOS компьютеру Mac для настройки корпоративной регистрации. Зарегистрировать устройства в Intune с помощью Apple Configurator можно двумя способами:
+Intune поддерживает регистрацию устройств iOS с помощью средства [Apple Configurator](https://itunes.apple.com/app/apple-configurator-2/id1037126344), запущенного на компьютере Mac. Для регистрации с помощью Apple требуется USB-подключение каждого устройства iOS компьютеру Mac для настройки корпоративной регистрации. Зарегистрировать устройства в Intune с помощью Apple Configurator можно двумя способами:
 - **Регистрация с использованием помощника по настройке**. Выполняет сброс устройства к заводским настройкам и подготавливает его для регистрации с использованием помощника по настройке.
 - **Прямая регистрация**. Этот процесс не выполняет сброс устройства к заводским настройкам. Он регистрирует устройство, используя параметры iOS. Этот способ предназначен только для устройств **без сходства пользователей**.
 
@@ -38,7 +38,7 @@ Intune поддерживает регистрацию устройств iOS с
 - [Сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md)
 - Серийные номера устройств (только для регистрации с использованием помощника по настройке)
 - Соединительные USB-кабели
-- Компьютер Mac с запущенным средством [Apple Configurator 2.0](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)
+- Компьютер с macOS и запущенным средством [Apple Configurator 2.0](https://itunes.apple.com/app/apple-configurator-2/id1037126344)
 
 ## <a name="create-an-apple-configurator-profile-for-devices"></a>Создание профиля Apple Configurator для устройств
 
@@ -69,7 +69,7 @@ Intune поддерживает регистрацию устройств iOS с
 
 **Чтобы добавить серийные номера Apple Configurator в Intune, сделайте следующее:**
 
-1. Создайте список значений с разделителями-запятыми (CSV-файл) с двумя столбцами без заголовка. Добавьте серийный номер в левый столбец, а сведения — в правый. Текущая максимальная длина списка составляет 500 строк. В текстовом редакторе список CSV-файлов выглядит примерно так:
+1. Создайте список значений с разделителями-запятыми (CSV-файл) с двумя столбцами без заголовка. Добавьте серийный номер в левый столбец, а сведения — в правый. Текущая максимальная длина списка составляет 5000 строк. В текстовом редакторе список CSV-файлов выглядит примерно так:
 
     F7TLWCLBX196, сведения об устройстве</br>
     DLXQPCWVGHMJ, сведения об устройстве

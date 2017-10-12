@@ -6,7 +6,7 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 07/13/2017
+ms.date: 10/3/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c8ae15dc7b192cbfe3f0759e568b92783f24e1fe
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 33959b941e39d8694387770e1f3264d74647de69
+ms.sourcegitcommit: 4b776d1a87c0707244f4ae0122de882e0eef6fa3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/04/2017
 ---
 # <a name="how-to-add-windows-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавить бизнес-приложения Windows в Microsoft Intune
 
@@ -28,8 +28,8 @@ ms.lasthandoff: 09/09/2017
 
 ## <a name="step-1---specify-the-software-setup-file"></a>Шаг 1. Выбор файла установки программного обеспечения
 
-1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
+1. Войдите на портал Azure.
+2. Выберите **Больше служб** > **Мониторинг и управление** + **Intune**.
 3. В колонке **Intune** выберите **Управление приложениями**.
 4. В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Приложения**.
 5. Щелкните **Добавить** над списком приложений.
@@ -65,6 +65,14 @@ ms.lasthandoff: 09/09/2017
 1. В колонке **Добавить приложение** проверьте правильность указанных сведений.
 2. Выберите **Добавить**, чтобы отправить приложение в Intune.
 
+## <a name="step-5---update-a-line-of-business-app"></a>Шаг 5. Обновление бизнес-приложения
+
+[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Созданное вами приложение появится в списке приложений. Теперь его можно назначить определенным группам. Сведения см. в статье о [назначении приложений группам](apps-deploy.md).
+
+Узнайте больше о способах отслеживания свойств и назначения вашего приложения. Дополнительные сведения см. в статье [Отслеживание сведений о приложении и его назначениях](apps-monitor.md).
+
+Узнайте больше о контексте приложения в Intune. Дополнительные сведения см. в статье [Общие сведения о жизненных циклах устройств и приложений](introduction-device-app-lifecycles.md).
