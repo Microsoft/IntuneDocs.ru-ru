@@ -1,5 +1,5 @@
 ---
-title: "Отмена регистрации устройства при отказе от условий использования | Документация Майкрософт"
+title: "Отмена регистрации устройства при отказе от условий использования | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: b99ce8b30e25960e09e39b81f0f58aa09af2affa
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d96619693c879d7e3041b6554363bea58f6792a5
+ms.sourcegitcommit: 659fe1b08eb7f02bc7eaed6b9e21a95fa1ef45b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/03/2017
 ---
 # <a name="unenroll-your-device-if-you-declined-terms-of-use"></a>Отмена регистрации устройства при отказе от условий использования
 
@@ -40,4 +40,4 @@ ms.lasthandoff: 07/01/2017
 
     Теперь можно удалить приложение корпоративного портала.
 
-По-прежнему нужна помощь? Обратитесь к администратору ИТ (см. контактные сведения на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having unenrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having unenrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.

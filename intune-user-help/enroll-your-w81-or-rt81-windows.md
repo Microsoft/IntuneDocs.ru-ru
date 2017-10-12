@@ -16,15 +16,15 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: afd9d8263deaeadfd802806167fbbaff730555c9
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 4ef4b297a3c841897aa702d793f675584df39eb4
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="how-to-enroll-your-windows-81-or-windows-rt-81-device-in-intune"></a>Регистрация устройства Windows 8.1 или Windows RT 8.1 в Intune
 
-Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать свои устройства, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет организации обеспечить безопасность корпоративных данных. Дополнительные сведения о регистрации см. в статьях [What happens if you install the Company Portal app and enroll your device in Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) (Что произойдет, если установить приложение "Корпоративный портал" и зарегистрировать устройство в Intune?) и [What your IT administrator can and can't see on your device](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md) (Что ИТ-администратор может и не может видеть на вашем устройстве).
+Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать свои устройства, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет организации обеспечить безопасность корпоративных данных. Дополнительные сведения о регистрации см. в статьях [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) и [Какие сведения служба поддержки вашей компании может и не может видеть на вашем устройстве](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md).
 
 
 Чтобы зарегистрировать устройство Windows 8.1 или Windows RT 8.1, выполните указанные ниже действия.
@@ -45,7 +45,7 @@ ms.lasthandoff: 07/01/2017
 
     ![turn-on-device-management](./media/W81-3-dev-mgt-turn-on.png)
 
-5.  В диалоговом окне **Разрешить приложения и службы от ИТ-администратора** установите флажок **Я принимаю**, а затем нажмите **Включить**.
+5.  В диалоговом окне **Разрешить приложения и службы от службы поддержки вашей компании** установите флажок **Я принимаю**, а затем нажмите **Включить**.
 
     ![turn-on-allow-apps-services](./media/W81-4-agree-allow-apps-services.png)
 
@@ -63,4 +63,4 @@ ms.lasthandoff: 07/01/2017
 
 4.  Нажмите **Установить** или **Бесплатно**. Отображаемый параметр зависит от того, как приложение настроено в компании.
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).

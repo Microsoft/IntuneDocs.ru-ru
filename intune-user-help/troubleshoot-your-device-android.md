@@ -15,21 +15,21 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: f46a93d42427ea41adf71403c91fa95052c0bba2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 976b58fcc7835b0992c5d53934642bd4fedb5b50
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="fix-common-issues-with-your-android-device"></a>Решение распространенных проблем с устройствами с Android
 
-Иногда на устройствах с Android могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться к своему ИТ-администратору. Его контактные данные см. на [веб-сайта корпоративного портала](http://portal.manage.microsoft.com).
+Иногда на устройствах с Android могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
 
 - [Проверка соответствия на устройстве с Android](check-compliance-on-your-device-android.md)
-- [Оказание помощи ИТ-администратору в устранении проблем с устройством с помощью подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-- [Отправка журналов ИТ-администратору по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
-- [Отправка журналов ИТ-администратору по USB-кабелю](send-logs-to-your-it-admin-using-cable-android.md)
-- [Отправка ошибок регистрации ИТ-администратору](send-enrollment-errors-to-your-it-admin-android.md)
+- [Оказание помощи службе поддержки вашей компании в устранении проблем с устройством с помощью подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
+- [Отправка журналов в службу поддержки вашей компании по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
+- [Отправка журналов в службу поддержки вашей компании по USB-кабелю](send-logs-to-your-it-admin-using-cable-android.md)
+- [Отправка ошибок регистрации в службу поддержки вашей компании](send-enrollment-errors-to-your-it-admin-android.md)
 - [Необходимо обновить устройство с Android](you-need-to-update-your-android-device.md).
 - [Устройство не соответствует максимальной версии операционной системы](your-android-version-isnt-yet-supported.md)
 - [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)

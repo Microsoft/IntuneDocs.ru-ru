@@ -1,11 +1,11 @@
 ---
 title: "Устранение угроз, обнаруженных приложениями Mobile Threat Defense на устройствах iOS | Документация Майкрософт"
-description: 
+description: "Сведения об устранении угроз с помощью приложения Mobile Threat Defense для iOS."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/21/2017
+ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,25 +14,29 @@ ms.assetid: 3c95d821-7862-486a-b9dc-0ed37bc5befb
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 9f3d03fe3c9da641f3c33d5d1e32032ac540adc9
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 399a910e9aa2ad9fdd4ceefe446c637aa5076c12
+ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
-# <a name="you-need-to-resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Вам требуется устранить угрозу, обнаруженную приложением Mobile Threat Defense
+# <a name="resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Устранение угрозы, обнаруженной приложением Mobile Threat Defense
 
-Приложение Mobile Threat Defense обнаружило потенциальную угрозу на вашем устройстве iOS, и вам необходимо устранить проблему, прежде чем вы сможете снова получить доступ к своей рабочей или учебной электронной почте, приложениям и файлам. В зависимости от того, как ИТ-администратор настроил Mobile Threat Defense, для устранения проблем вам понадобится использовать одно из следующих приложений.
+Приложение Mobile Threat Defense обнаружило потенциальную угрозу на вашем устройстве iOS, и вам необходимо устранить проблему, прежде чем вы сможете снова получить доступ к своей рабочей или учебной электронной почте, приложениям и файлам. В зависимости от того, как служба поддержки вашей компании настроила Mobile Threat Defense, для устранения проблем вам понадобится использовать одно из следующих приложений:
+
 
 * [Lookout for Work](you-need-to-resolve-a-threat-found-by-lookout-for-work-ios.md)
-* [Skycure](you-need-to-resolve-a-threat-found-by-skycure-ios.md)
+* [Symantec Endpoint Protection Mobile](you-need-to-resolve-a-threat-found-by-skycure-ios.md)
+* [SandBlast Mobile Protect](you-need-to-resolve-a-threat-found-by-checkpoint-ios.md)
+* [Zimperium zIPS](you-need-to-resolve-a-threat-found-by-zips-ios.md)
 
 Чтобы решить эту проблему, откройте приложение Mobile Threat Defense и следуйте инструкциям в нем.
 
-## <a name="example-of-an-app-that-mobile-threat-defense-sees-as-a-threat"></a>Пример приложения, которое Mobile Threat Defense воспринимает как угрозу
+**Пример приложения, которое Mobile Threat Defense воспринимает как угрозу**
 
 Если вы установили приложение, которое Mobile Threat Defense воспринимает как угрозу, отобразится экран, на котором будет указано такое приложение. Если вы видите похожее сообщение, коснитесь имени приложения в верхней части экрана и следуйте инструкциям по устранению угрозы.
 
 Удалив приложение, вы сразу получите доступ к электронной почте и другим данным вашей компании или учебного заведения. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными организации, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+

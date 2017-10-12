@@ -16,18 +16,18 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3869659ea95f561365f40bcfcd164b82a7795ac0
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 50b4b9c8399e854e2f5961f6711090778b41ba37
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="fix-common-issues-with-your-ios-device"></a>Решение распространенных проблем с устройствами iOS
 
-Иногда на устройствах iOS могут возникать проблемы, которые можно решить посредством устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться к своему ИТ-администратору. Его контактные данные см. на [веб-сайта корпоративного портала](http://portal.manage.microsoft.com).
+Иногда на устройствах iOS могут возникать проблемы, которые можно решить посредством устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
 
 - [Мне нужно повторно подключить скомпрометированное устройство с iOS](how-to-reconnect-a-compromised-ios-device.md).
-- [Мне нужно отправить ошибки ИТ-администратору](send-errors-to-your-it-admin-ios.md).
+- [Мне нужно отправить ошибки в службу поддержки моей компании](send-errors-to-your-it-admin-ios.md)
 - [Мне нужно сообщить об ошибке в Майкрософт](send-logs-to-microsoft-ios.md)
 - [Я получаю сообщение об ошибке при использовании приложения корпоративного портала](you-get-an-error-while-using-the-company-portal-app-ios.md).
 - [Мне нужно идентифицировать свое устройство для регистрации](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md).

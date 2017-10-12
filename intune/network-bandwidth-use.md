@@ -14,11 +14,11 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 531112301d0c3827ec7eb3ab4087218caa331b90
-ms.sourcegitcommit: 2b7d644c7a4f85315e11a7d0c5885cc66975c2ad
+ms.openlocfilehash: d68cbb05025e89e256a22dc88f5c4ee2afc3c536
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="intune-network-bandwidth-use"></a>Использование пропускной способности сети Intune
 
@@ -155,3 +155,16 @@ Intune не использует локальную инфраструктуру
 |fef.msuc02.manage.microsoft.com|23.98.66.118|
 |fef.msuc03.manage.microsoft.com|23.101.0.100|
 |fef.msuc05.manage.microsoft.com|52.230.16.180|
+
+### <a name="apple-device-network-information"></a>Сведений о сети на устройстве Apple
+| Имя узла  | URL-адрес (IP-адрес и подсеть) | Протокол | Port | Устройство |
+| --- | --- | --- | --- | --- |
+|  Административная консоль  | gateway.push.apple.com (17.0.0.0/8) | TCP | 2195 | Apple iOS и macOS |
+| Административная консоль  | feedback.push.apple.com(17.0.0.0/8) | TCP | 2196 | Apple iOS и macOS |
+| Административная консоль  | Apple iTunesitunes.apple.com, \*.mzstatic.com, \*.phobos.apple.com, \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple iOS и macOS  |
+| PI Server  | gateway.push.apple.com(17.0.0.0/8) feedback.push.apple.com(17.0.0.0/8) | TCP | 2195, 2196 | Для облачной системы обмена сообщениями Apple iOS и macOS. |
+| Службы устройств  | gateway.push.apple.com | TCP | 2195 | Apple  |
+| Службы устройств  | feedback.push.apple.com | TCP | 2196 | Apple  |
+| Службы устройств  | Apple iTunesitunes.apple.com \*.mzstatic.com\*.phobos.apple.com \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple  |
+| Устройства (Интернет и Wi-Fi) | #-courier.push.apple.com(17.0.0.0/8) | TCP | 5223 и 443 | Только Apple. &#39;#&#39; — это случайное число от 0 до 200. |
+| Устройства (Интернет и Wi-Fi) | phobos.apple.comocsp.apple.comax.itunes.apple.com | HTTP/HTTPS | 80 или 443 | Только Apple |

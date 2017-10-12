@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/13/2017
+ms.date: 10/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,43 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a43c15f7fb7323a17b8fe24f26128834288e0dec
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 11a3c96046a194e10d952508669b7e8fac0d1ee8
+ms.sourcegitcommit: 53a1f5226d1e1172f013a1b192321dde610b2d6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/06/2017
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для приложения конечного пользователя Intune
 Ознакомьтесь с изменениями, внесенными в пользовательский интерфейс для приложений в этом выпуске Microsoft Intune. Взаимодействовать с пользователями станет проще, и вы сможете добавить актуальную информацию в собственную документацию по своему развертыванию. Вы также поймете, как эффективнее решать проблемы, когда пользователи обращаются в службу поддержки по вопросам работы на корпоративном портале.
+
+## <a name="week-of-october-2-2017"></a>Неделя, начиная с 2 октября 2017 г.
+
+#### <a name="improvements-to-device-setup-workflow-in-company-portal---1490692--"></a>Улучшение процесса настройки устройств в приложении "Корпоративный портал" <!--1490692-->
+Мы улучшили процесс настройки устройств в приложении "Корпоративный портал" для Android. Описание стало более понятно для пользователей и привязано к вашей организации; мы также объединили экраны там, где это было возможно. 
+
+|До|После|
+|---|---|
+|![01](./media/android_cp_enroll_01_post_1709.png)|![01](./media/android_cp_enroll_01_1709_new.png)|
+|![01a](./media/android_cp_enroll_01_before_1710.png)| *Объединено с предыдущим шагом* |
+|![02](./media/android_cp_enroll_02_before_1710.png)|![02](./media/android_cp_enroll_02_after_1710.png)|
+|![03](./media/android_cp_enroll_03_before_1710.png)|![03](./media/android_cp_enroll_03_after_1710.png)|
+
+На устройствах Android for Work были улучшены дополнительные шаги.
+
+|До|После|
+|---|---|
+|![04](./media/android_work_cp_enroll_01_before_1710.png)|![04](./media/android_work_cp_enroll_01_after_1710.png)|
+|![05](./media/android_work_cp_enroll_02_before_1710.png)| *Объединено с предыдущим шагом* |
+|![06](./media/android_work_cp_enroll_03_before_1710.png)|![06](./media/android_work_cp_enroll_03_after_1710.png)|
+|![07](./media/android_work_cp_enroll_04_before_1710.png)|![07](./media/android_work_cp_enroll_04_after_1710.png)|
+|![08](./media/android_work_cp_enroll_05_before_1710.png)| *Объединено с предыдущим шагом* |
+
+
+Мы также обновили экран активации условного доступа по электронной почте.
+
+|До|После|
+|---|---|
+|![06](./media/android_conditional_access_email_before_1710.png)|![06](./media/android_conditional_access_email_after_1710.png)
 
 ## <a name="week-of-september-11-2017"></a>Неделя, начиная с 11 сентября 2017 г.
 

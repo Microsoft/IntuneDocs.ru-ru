@@ -14,11 +14,11 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: 4946404a4bdb4968c47904549a581c9c39f6e9e0
-ms.sourcegitcommit: bb1a1e4e0bc26543a9c8fb52cb208e298c6b8e3f
+ms.openlocfilehash: 527a2a1578fcf9ef8e8f80c68091e582f8f2ebd2
+ms.sourcegitcommit: 6fae2dfb3a5c8f2e5ccfd120fd15656b26e5d302
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="what-is-intune"></a>Что такое Intune?
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 07/10/2017
+ms.date: 09/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 370fbcf8bb424030eb7b7dbaba66fa943f08aa42
-ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
+ms.openlocfilehash: 208cf6eb2d29ec5458d97d0a4481cec420acc281
+ms.sourcegitcommit: 59811bf1183b3ef9c9e81eded634bd0d3124d0bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Похоже, для устройства Android включено шифрование, но корпоративный портал считает иначе.
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 07/10/2017
 
 ### <a name="downgrade-your-version-of-android"></a>Переход на более раннюю версию Android
 
-Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться к ИТ-администратору для решения этой проблемы. Информацию для связи с ИТ-администратором можно получить на [веб-сайте корпоративного портала](http://portal.manage.microsoft.com).
+Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться в службу поддержки вашей компании для решения этой проблемы. Информацию для связи со службой поддержки вашей компании можно получить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
 
 ## <a name="specific-manufacturer-issues"></a>Проблемы, связанные с конкретным производителем
 
@@ -54,12 +54,11 @@ ms.lasthandoff: 07/10/2017
 Если вы используете одно из следующих устройств, для решения этой проблемы рекомендуется выполнить обновление до последней версии Android. Для установки обновлений на этих устройствах выберите **Settings** > **Update** (Параметры > Обновление). 
 
 - [Huawei Honor 8](http://consumer.huawei.com/en/support/mobile-phones/honor8_en-sup.htm)
-- [Huawei P9](http://consumer.huawei.com/mobile-phones/p9/index.html)
+- [Huawei P9](http://consumer.huawei.com/en/phones/p9/)
 
 ### <a name="known-devices-that-currently-cannot-be-updated-to-fix-this-issue"></a>Известные устройства, обновление которых не поможет решить эту проблему
 
 Нам не удалось решить эту проблему для перечисленных ниже устройств. Для получения доступа к ресурсам компании вам может потребоваться другое устройство. 
 
 - [Huawei Mate 8](http://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
-- [Huawei Mate 9](http://consumer.huawei.com/en/phones/mate9/)
 - [Смартфоны Xiaomi Mi](https://xiaomi-mi.com/mi-smartphones/)

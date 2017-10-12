@@ -16,15 +16,15 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 5dae183cba898e0f322a69ecb74942cdb785a409
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: a2c16483efe2779260275fdadc3182b578da8a2a
+ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 09/28/2017
 ---
 # <a name="enroll-your-windows-device-in-intune"></a>Регистрация устройства Windows в Intune
 
-Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать устройство Windows, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет организации обеспечить безопасность корпоративных данных. Дополнительные сведения о регистрации см. в статьях [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) и [Что может видеть ИТ-администратор при регистрации устройства в Intune](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md).
+Если в вашей компании или учебном заведении используется Microsoft Intune, вы можете зарегистрировать устройство Windows, чтобы получить доступ к электронной почте, файлам и другим ресурсам организации. Регистрация устройств позволяет организации обеспечить безопасность корпоративных данных. Дополнительные сведения о регистрации см. в статьях [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md) и [Какие сведения служба поддержки вашей компании может и не может видеть на вашем устройстве](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md).
 
 Для регистрации щелкните ссылку, соответствующую устройству, которое вы используете:
 
