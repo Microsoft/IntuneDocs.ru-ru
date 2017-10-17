@@ -14,11 +14,11 @@ ms.assetid: c2654491-5144-408a-a45a-644eb91ac1bb
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3d173cf9a9ec8617cb7feec858b696aa0e80c12d
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 1bfa7f1dedecd47aeb30a12c5627a137b775d12a
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="request-and-provide-remote-assistance-for-windows-pcs"></a>Запрос и предоставление удаленной помощи для компьютеров под управлением Windows
 

@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 14f5cf53-6764-4e22-a18b-fa750b3acd41
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8982072b93c22e0294b6e454d597e0aa5bbb7b71
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 02d6220a4c780eafb7afb01208e18e7df7684b68
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="exchange-activesync-mobile-device-management-with-microsoft-intune"></a>Управление мобильными устройствами Exchange ActiveSync с использованием Microsoft Intune
 

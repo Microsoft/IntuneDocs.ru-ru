@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cd0bbd90-d3fe-4efc-83fd-d1f3f86800d4
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0a00c3dd1f6b6b8066a568c87f304a4da374f4d7
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 22b842f2745073f0476162278c8b209a3e251f9f
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="how-to-deploy-apps-to-android-for-work-devices-with-intune"></a>Развертывание приложений на устройствах Android for Work с помощью Intune
 

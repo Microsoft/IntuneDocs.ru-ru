@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 40a6badf072c254f635a2656189d626e4f13a320
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 23dca24c69cca3c7a2851cb3fa7d9959f31df8e7
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="protect-app-data-using-app-protection-policies-with-microsoft-intune"></a>Защита данных приложений с помощью политик защиты приложений в Microsoft Intune
 

@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d3aa6c74-6b5d-4b50-aa66-a040ec44393e
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5be08d2535acefe099429ab732d6d5d99205b2e7
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: b4b25c2ebe6fa8edf7ce954f68c22d4086fcaf7c
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="monitor-app-protection-policies-with-microsoft-intune"></a>Мониторинг политик защиты приложений с помощью Microsoft Intune
 Вы можете отслеживать соответствие политикам защиты приложений, которые вы применили к пользователям. Вы можете находить сведения о пользователях, на которых распространяются политики защиты приложений, состоянии соответствия и любых проблемах, которые могут возникнуть у пользователей.
