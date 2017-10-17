@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8589866a-3f13-489b-a5cd-cee017d16d54
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6f13e20144c96406b2e117c95a972a286b771e52
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 690fe1f1b2555996b2ef124cde6e3fba53e82ec7
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="windows-edition-upgrade-policy-settings-in-microsoft-intune"></a>Параметры политики обновления выпусков Windows в Microsoft Intune
 

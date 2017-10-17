@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e440864e76e1b64e65b185606fe65bc9cb94c545
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: a28eafb2117026ba97151ac5d49b4d077e87804d
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Устранение неполадок, связанных с доступом к ресурсам компании, с использованием Microsoft Intune
 

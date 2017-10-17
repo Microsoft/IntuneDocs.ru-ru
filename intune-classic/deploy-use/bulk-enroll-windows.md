@@ -11,13 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0053e37a-f26e-452f-9524-5039a635b52e
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.custom: intune-classic
-ms.openlocfilehash: dc37cfb782e1d1e1e076d90fef160c2ce910cda4
-ms.sourcegitcommit: 1c71fff769ca0097faf46fc2b58b953ff28386e8
+ms.openlocfilehash: 5c7a51721850f539a1a3c2648054f2d3604231e0
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 

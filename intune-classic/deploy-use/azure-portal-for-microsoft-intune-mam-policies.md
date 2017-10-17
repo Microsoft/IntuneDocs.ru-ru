@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7d6dae94-a833-40b7-9016-14ea234bb33c
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0a5ac03ca213f18d9e0403a10cdf9f9cde721f02
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: be6435b3418f06908a972fc298a26765e67c4d26
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="azure-portal-for-intune-app-protection-policies"></a>Портал Azure для политик защиты приложений Intune
 

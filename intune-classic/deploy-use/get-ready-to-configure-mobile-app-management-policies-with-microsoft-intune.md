@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 7e6a85e7-e007-41b6-9034-64d77f547b87
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 67c261a3a31229f84d02d4536ab78857369391f1
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9dbaaf5b540d79a51cef3b7f98a16a5a1f200648
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="get-ready-to-configure-app-protection-policies-in-the-azure-portal"></a>Подготовка к настройке политик защиты приложений на портале Azure
 

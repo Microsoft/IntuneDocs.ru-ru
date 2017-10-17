@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: dbe5cad1-3e0d-41a9-966b-738156089700
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: lacranda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 927259d2f3b3078c9fdb0f1ba3bb22a69b555ab6
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 5826cd29bf07a3f1cf9b91ec75f0e0bb46050d60
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="set-up-android-device-management"></a>Настройка управления устройством Android
 

@@ -11,13 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 41d82597-e13e-4c3e-9151-e71392236ca0
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.custom: intune-classic
-ms.openlocfilehash: 1e22be7b238cce195ee88c938b1cca009c0b21d3
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: e0cb44177f830236865dce0ab68bb1084fcebc2d
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="validating-your-mobile-application-management-setup"></a>Проверка настройки управления мобильными приложениями
 

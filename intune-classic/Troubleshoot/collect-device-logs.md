@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d97fb610-9d88-40e5-bb06-447eec533630
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b15e4b7fa0c650a85a080c42d00cd75cb8783c62
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: f54e0d40e0a8f723e04d4c2b936dee37bc611858
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="device-logs"></a>Журналы устройств
 

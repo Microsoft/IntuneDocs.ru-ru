@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 312911fe-b963-4949-9911-ae425e0590b2
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c6d3e7638ecbd58a9d9d50cadde85188b873c05f
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: c72e216201ac019f2cdffaf6e185bd6ff4436737
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="understand-your-devices-with-inventory-in-microsoft-intune"></a>Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune
 

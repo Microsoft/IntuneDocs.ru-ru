@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5dbb702a-1df5-4637-95c9-77a5f0b1a0e3
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e818b6a365ebd4ab1b3c00e42a4dad341debdc75
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: 9707858ba2b0462edade4847dba09404a895fb34
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Параметры политики защиты приложений Android в Microsoft Intune
 

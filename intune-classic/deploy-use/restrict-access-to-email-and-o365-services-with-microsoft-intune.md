@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3405671130a58aa944d6c689264379a254face1d
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: ab45292734c39d3eaf4a5f0403cbff6e77d9d7e6
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="protect-access-to-email-office-365-and-other-services-with-microsoft-intune"></a>Защита доступа к электронной почте, Office 365 и другим службам при помощи Microsoft Intune
 

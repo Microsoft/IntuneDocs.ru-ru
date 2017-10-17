@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 09/01/2017
+ms.date: 10/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 804ea185cf48b6781174b888436211a6d70823ca
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 8d05199359f7e4ca2c41415c0db13e339c66c162
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Получение сертификата MDM Push Certificate
 
@@ -51,9 +51,6 @@ Intune позволяет управлять мобильными устройс
 Сертификат Apple MDM Push Certificate действителен в течение одного года. Для продолжения управления устройствами iOS и macOS этот сертификат необходимо продлевать ежегодно. После истечения срока действия сертификата вы не сможете связаться с зарегистрированными устройствами Apple.
 
 Сертификат связан с идентификатором Apple ID, который использовался при его создании. Продлите сертификат MDM Push Certificate с тем же идентификатором Apple ID, который использовался для создания сертификата.
-
-> [!NOTE]
-> Сертификат связан с идентификатором Apple ID, который использовался при его создании. Для задач управления рекомендуется использовать идентификатор Apple ID организации. Никогда не используйте личный идентификатор Apple ID.
 
 1. На портале Azure выберите **Регистрация устройства** > **Регистрация Apple**, а затем — **Apple MDM Push Certificate**.
 2. Выберите **Скачать CSR**, чтобы скачать CSR-файл и сохранить его локально. Файл используется для запроса сертификата отношений доверия с портала сертификатов Apple Push.

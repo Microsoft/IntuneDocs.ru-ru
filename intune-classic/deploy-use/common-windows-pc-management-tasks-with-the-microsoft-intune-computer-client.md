@@ -14,11 +14,11 @@ ms.assetid: eb912c73-54d2-4d78-ac34-3cbe825804c7
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 535979b6adf25c67daaab2df924cbb0e21e15a36
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: f8706c34792720224624b6d430de791e5e98608a
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="common-windows-pc-management-tasks-with-the-intune-software-client"></a>Общие задачи управления ПК Windows с программным клиентом Intune
 

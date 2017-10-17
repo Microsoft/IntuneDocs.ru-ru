@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d0d48724a8c09a5dac0bfa2987a1eee05f218950
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: ae914e755b809eda55abc5dc069c9ee2897d9ff4
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune"></a>Развертывание и мониторинг политики соответствия устройств в Microsoft Intune
 

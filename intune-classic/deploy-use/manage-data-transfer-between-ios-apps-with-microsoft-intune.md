@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6314f6b13ec7fa23c0b3b46ecd3418a75d581db1
-ms.sourcegitcommit: abd8f9f62751e098f3f16b5b7de7eb006b7510e4
+ms.openlocfilehash: c460e48360bb31076e2054297b037d08545ea1ae
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="manage-data-transfer-between-ios-apps-with-microsoft-intune"></a>Управление передачей данных между приложениями iOS в Microsoft Intune
 

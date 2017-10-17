@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a692b90c-72ae-47d1-ba9c-67a2e2576cc2
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9909e1dd4f9891a2efb47383242ed7765d3f0291
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: db07c6c6aa98d880bcc9f32204dffddebe6f45b4
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="directly-enroll-ios-devices-by-using-apple-configurator"></a>Прямая регистрация устройств iOS с помощью Apple Configurator
 

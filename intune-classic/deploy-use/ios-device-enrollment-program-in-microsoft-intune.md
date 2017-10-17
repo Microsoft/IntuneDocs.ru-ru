@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 8ff9d9e7-eed8-416c-8508-efc20fca8578
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 75d2a54f065e04b3f6c923dc4e83cfea498ead76
-ms.sourcegitcommit: c36f74323b57c9d9ef972322082923c449a1a74f
+ms.openlocfilehash: 8ca8eaede9df070baf1f39023942a8b07c54b814
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="enroll-corporate-owned-device-enrollment-program-ios-devices"></a>Регистрация корпоративных устройств с помощью программы регистрации устройств iOS
 

@@ -2,8 +2,8 @@
 title: "Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune"
 description: "Сведения этого раздела помогут решить, когда следует применить инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями."
 keywords: 
-author: mtillman
-ms.author: mtillman
+author: mattbriggs
+ms.author: mabriggs
 manager: angrobe
 ms.date: 02/08/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2394068c43e652accfb428ff644229f794d33f24
-ms.sourcegitcommit: 4dc5bed94cc965a54eacac2d87fb2d49c9300c3a
+ms.openlocfilehash: e6c464e16079df0c1188870b234615c811963f08
+ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2017
+ms.lasthandoff: 10/11/2017
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 

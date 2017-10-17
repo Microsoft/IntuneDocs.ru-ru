@@ -14,11 +14,11 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4f198026e5ea7a8c2cadd894e49292ace4eeac06
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 7c2352ea47d7dab22867e213169d382b9330c171
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
 

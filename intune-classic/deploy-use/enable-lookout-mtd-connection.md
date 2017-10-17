@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 2f835fd0-4e62-42f3-b7ca-ce8b7ddd40e4
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 57cdcb50920566c61ed43b5eada5bbde35c2438e
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: f34697140a287d41203d1bad5df59250f07d08ce
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="enable-lookout-mtd-connection-in-the-intune-classic-portal"></a>Включение подключения Lookout MTP на классическом портале Intune
 

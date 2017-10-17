@@ -14,11 +14,11 @@ ms.assetid: 3b8d22fe-c318-4796-b760-44f1ccf34312
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e217648c744d76d4cde6b8927137cd569b8d0a2e
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 626f52ecb7c3e90f05cc06a7235ca96499654ce5
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="manage-windows-pcs-as-computers-via-intune-software-client"></a>Управление компьютерами c Windows как компьютерами с помощью клиентского программного обеспечения Intune
 
