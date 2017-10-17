@@ -11,13 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 531b09bb-ddfd-498f-8ee3-6675d2466208
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.openlocfilehash: 2d9065281436d4c44e6af7d7a4401786a2a01965
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 4183df8e8ed982e7aba2d55d82923564f215ad53
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="set-up-app-based-conditional-access-ca-policies-for-sharepoint-online"></a>Настройка политик условного доступа на базе приложений для SharePoint Online
 

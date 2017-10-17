@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0cc4e59d-819a-47a2-a26f-4f8d0f8df7bf
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9fe3c59e52d9d7732267ecfb28eac3b5c7368ed9
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: ce0e61a27f44f0c6cb00d79442d346db679a55ea
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="enable-skycure-mobile-threat-defense-in-intune"></a>Включение службы защиты мобильных устройств от угроз Skycure в Intune
 

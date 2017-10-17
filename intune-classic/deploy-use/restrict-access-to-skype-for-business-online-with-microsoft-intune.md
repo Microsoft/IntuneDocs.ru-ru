@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c2d6a00f99047e4b18821e81da0c36b988e36c2a
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 30d1abb3e7411cae73a98be51489cffdfc738e7f
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="protect-access-to-skype-for-business-online-with-microsoft-intune"></a>Защита доступа к Skype для бизнеса Online при помощи Microsoft Intune
 

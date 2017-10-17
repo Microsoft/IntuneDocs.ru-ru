@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e9cbb826-b155-4df6-abf3-60c6f05b2783
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d2abab78eed4788baff71f7f5c690dc3d73b2098
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 1dd762af4295c788202150799ef60b748fe7de21
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="exchange-activesync-policy-settings-in-microsoft-intune"></a>Параметры политики Exchange ActiveSync в Microsoft Intune
 

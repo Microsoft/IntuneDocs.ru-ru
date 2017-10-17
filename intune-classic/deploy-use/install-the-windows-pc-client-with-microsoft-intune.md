@@ -13,11 +13,11 @@ ms.assetid: 64c11e53-8d64-41b9-9550-4b4e395e8c52
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2720cf6f1c5d6b71966c4b4987734cc40dca8aa9
-ms.sourcegitcommit: 2b7d644c7a4f85315e11a7d0c5885cc66975c2ad
+ms.openlocfilehash: 9316f78155b38f74765a353186a29dc90afce547
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Установка программного клиента Intune на компьютерах Windows
 

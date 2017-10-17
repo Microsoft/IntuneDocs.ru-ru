@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 38194ef3-e26e-4682-958d-14b395fccba1
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d8d0ec02fccd7aff391d794f4db4c5c2db03c4dd
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 470394c715ba33fd6cd3517ce2815279090a42f0
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="windows-team-configuration-policy-settings-in-microsoft-intune"></a>Параметры политики конфигурации Windows для совместной работы в Microsoft Intune
 

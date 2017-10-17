@@ -4,21 +4,22 @@ description: "Эта статья содержит ответы на некот�
 keywords: 
 author: oydang
 ms.author: oydang
-manager: mtillman
+manager: angrobe
 ms.date: 01/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 149def73-9d08-494b-97b7-4ba1572f0623
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a39f67a532f53ef6ab2e3cc5d17b2d593a3483ae
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 56d0d3e79e38b20cb00a528fc6b55ca9de6ba871
+ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/11/2017
 ---
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>Часто задаваемые вопросы об управлении мобильными приложениями (MAM) и защите приложений
 

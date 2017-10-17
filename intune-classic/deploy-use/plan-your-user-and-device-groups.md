@@ -10,14 +10,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f11bb256-1094-4f7e-b826-1314c57f3356
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: lpatha
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1362c42cb44848d5ab3a88d08b19d8f6aee195b9
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 5c1f06cc59ff81483d9e54b23435af720d919155
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="plan-your-user-and-device-groups"></a>Планирование групп пользователей и устройств
 

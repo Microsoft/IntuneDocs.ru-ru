@@ -2,8 +2,8 @@
 title: "Новые возможности — архив"
 description: "Архивные объявления о новых возможностях для Microsoft Intune"
 keywords: 
-author: mtillman
-ms.author: mtillman
+author: brenduns
+ms.author: brenduns
 manager: angrobe
 ms.date: 06/08/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a12d3aaf6a893291e4818c76c02c8a3708b6b6a0
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: b4d83b8b83cba0dab1fc089309201aa591b3d26e
+ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/11/2017
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Новые возможности классического портала Intune: предыдущие месяцы
 

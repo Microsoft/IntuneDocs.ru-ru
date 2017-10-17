@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 725d9e40-e70c-461a-9413-72ff1b89a938
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6ed808e3dd1db1bf58d4c0caa8cddccbc49c05f7
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: d1e04113d2f8707be0d06cb0783e6113914b856a
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="lookout-mobile-threat-defense-connector-with-intune"></a>Соединитель службы защиты мобильных устройств от угроз Lookout с помощью Intune
 

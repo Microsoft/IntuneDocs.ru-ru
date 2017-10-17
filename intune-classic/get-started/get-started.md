@@ -10,12 +10,13 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5b56f8b4-269b-4e7f-b7e9-b0401bdd42f4
+ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: a9655730e15c7c7cd49cfbfbe197e7953f9c7b01
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 9471f1a64e846b81c2bc4b9f5deb08c65ab382ce
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="get-started-with-microsoft-intune"></a>Начало работы с Microsoft Intune
 

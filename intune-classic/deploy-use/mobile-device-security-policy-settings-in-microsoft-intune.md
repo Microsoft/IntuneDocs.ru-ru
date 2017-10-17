@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e5ab3b76-08af-4893-b294-fb6627fdc4c6
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3032bc941c18d73e73d0bf3a7302462181bb4bf3
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 34da6fb95a6a2b292f8f2e1d787bef179fe2301b
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="mobile-device-security-policy-settings-in-microsoft-intune"></a>Параметры политики безопасности мобильных устройств в Microsoft Intune
 

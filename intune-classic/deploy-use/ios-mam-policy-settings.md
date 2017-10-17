@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 673ff872-943c-4076-931c-0be90363aea9
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 92eac4226d94be15e7dca346d80d9e11cf00b584
-ms.sourcegitcommit: 2ee1e8248814d74cef80b609a8e43f59fa0b2618
+ms.openlocfilehash: ae861de505964e830aadc1cd913561462762f282
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 10/10/2017
 ---
 #  <a name="ios-mobile-app-protection-policy-settings"></a>Параметры политики для защиты мобильных приложений iOS
 

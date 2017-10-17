@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 857309c2-61c9-4c22-becf-4839fedeaece
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pbala
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 51140a1ef2739abbbc7eb7b8fd49b1cee7318362
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: f812a740f5a703479e001fa2c5b6d1fd3336a2e2
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="understand-microsoft-intune-operations-by-using-reports"></a>Получение сведений об операциях Microsoft Intune с помощью отчетов
 

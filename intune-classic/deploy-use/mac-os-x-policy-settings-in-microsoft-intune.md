@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 98b2f19b-bee8-42d7-a215-a716d56a25a3
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d4e7fd2aa4d6e20397533f678bd10b25b604181a
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 0039ac4552bc1995a1af033cc4572808cbd44d43
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="mac-os-x-configuration-policy-settings-in-microsoft-intune"></a>Параметры политики конфигурации Mac OS X в Microsoft Intune
 

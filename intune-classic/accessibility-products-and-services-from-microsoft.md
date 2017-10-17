@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b23d4007-1866-42e9-b6cb-d45408562da4
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 69ff11881d8a5e6c4abfff5e9df4eeda87d140c2
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: fde44a096656433de176cc6e567e7a035666c320
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Продукты и службы корпорации Майкрософт для реализации специальных возможностей
 [!INCLUDE[accessibility1](./includes/accessibility1_md.md)]

@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b1e84ef8-a260-4e3d-aaf1-8b3facfecafa
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 42ae7cdedbcbd9bf6420ca9fd2cfa39a75174736
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: f6e61015883d4c747b5a433c349501b81671a17f
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="quick-start-guide-protect-company-data-with-data-encryption"></a>Краткое руководство по началу работы. Защита корпоративных данных с помощью шифрования
 

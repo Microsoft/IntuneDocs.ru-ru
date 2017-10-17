@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bb0eea78d469bb45b833251482d55b44894f32e8
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: 27f9d3172750d4db5b96d0477ecaeeafa1e59ed2
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Устранение неполадок при настройке клиента в Microsoft Intune
 

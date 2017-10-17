@@ -11,14 +11,15 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 674c8f4c-00be-4c69-85b7-cf7bdaa71c94
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 80f8a871a366984dd7038030ae7f7e79388b2ef0
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: f82ba373d45c0238f7de62953b4527680daa79f8
+ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="manage-volume-purchased-apps-using-microsoft-intune"></a>Управление приложениями, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune
 
