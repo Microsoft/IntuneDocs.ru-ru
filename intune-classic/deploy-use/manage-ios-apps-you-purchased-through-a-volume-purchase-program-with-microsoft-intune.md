@@ -5,20 +5,21 @@ keywords:
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
-ms.date: 09/07/2017
+ms.date: 10/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1dafc28a-7f8b-4fe0-8619-f977c93d1140
+ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bbb67c9225ef99f57f12c839b81b95a1956b70f3
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: 5140d2fa04a229dda0896a74333801899f5946e2
+ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 10/11/2017
 ---
 # <a name="manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune
 
@@ -29,8 +30,7 @@ ms.lasthandoff: 09/14/2017
 Microsoft Intune помогает управлять приложениями, приобретенными по такой программе, импортируя данные о лицензиях из магазина приложений, отслеживая число используемых лицензий и следя за тем, чтобы число установленных копий приложения не превышало число приобретенных.
 
 > [!Important]
-> Сейчас Intune назначает лицензии приложений Volume Purchase Program for Business (VPP) iOS пользователям, но не устройствам. По этой причине пользователи должны вводить пароль идентификатора Apple ID для установки приложения.
-> Программа Apple Volume Purchase Program для образовательных учреждений и приложения B2B не поддерживаются в этом выпуске.
+> Сейчас Intune назначает лицензии приложений Volume Purchase Program for Business (VPP) iOS пользователям и устройствам. По этой причине пользователи должны вводить пароль идентификатора Apple ID для установки приложения.
 
 ## <a name="manage-volume-purchased-apps-for-ios-devices"></a>Управление приложениями для устройств iOS, приобретенными по корпоративной программе
 Единовременная покупка нескольких лицензий на iOS-приложения осуществляется по программе [Apple Volume Purchase Program for Business](http://www.apple.com/business/vpp/). Для этого необходимо создать учетную запись Apple VPP на веб-сайте Apple и передать токен Apple VPP в Intune.  После этого вы сможете синхронизировать данные корпоративной закупки с Intune и отслеживать использование приобретенных таким образом приложений.
