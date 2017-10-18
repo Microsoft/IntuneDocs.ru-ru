@@ -15,11 +15,11 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ddb9b939b695f8612c02a2a25f4670e28c556c44
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: fbb1d3e11f8ba3e508a261981e461f35c99ca110
+ms.sourcegitcommit: f8672ff73066c2d8bcb78c30f84fda8aa3057a1c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/11/2017
 ---
 # <a name="how-to-monitor-app-information-and-assignments-with-microsoft-intune"></a>Как отслеживать сведения о приложении и его назначения с помощью Microsoft Intune
 

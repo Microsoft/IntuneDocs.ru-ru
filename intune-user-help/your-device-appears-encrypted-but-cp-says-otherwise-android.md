@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 09/29/2017
+ms.date: 10/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 208cf6eb2d29ec5458d97d0a4481cec420acc281
-ms.sourcegitcommit: 59811bf1183b3ef9c9e81eded634bd0d3124d0bb
+ms.openlocfilehash: be68e330c2bd2800ea68fd83845b71e3b257e785
+ms.sourcegitcommit: 751587b1c6ed15877152d770772748e042c1e3ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2017
+ms.lasthandoff: 10/13/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Похоже, для устройства Android включено шифрование, но корпоративный портал считает иначе.
 
@@ -39,6 +39,15 @@ ms.lasthandoff: 10/09/2017
 ### <a name="downgrade-your-version-of-android"></a>Переход на более раннюю версию Android
 
 Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться в службу поддержки вашей компании для решения этой проблемы. Информацию для связи со службой поддержки вашей компании можно получить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+
+### <a name="encrypt-the-entire-device"></a>Шифрование всего устройства
+
+На некоторых устройствах доступна возможность шифрования всего устройства или только используемого пространства. Выберите вариант шифрования всего устройства, а не используемого пространства. Если вы уже зашифровали только используемое пространство:
+
+1. [Удалите это устройство с корпоративного портала](unenroll-your-device-from-intune-android.md).
+2. Расшифруйте используемое пространство.
+3. Зашифруйте все устройство.
+4. Повторно зарегистрируйте устройство.
 
 ## <a name="specific-manufacturer-issues"></a>Проблемы, связанные с конкретным производителем
 
