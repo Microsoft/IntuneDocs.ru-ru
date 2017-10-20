@@ -536,6 +536,8 @@
       items:
         - name: "Подключение к хранилищу данных с помощью Power\_BI"
           href: reports-proc-get-a-link-powerbi.md
+        - name: Создание отчета из веб-канала OData с помощью Power BI
+          href: reports-proc-create-with-odata.md
 - name: Автоматизация и настройка
   items:
     - name: Настройка пользовательских параметров устройства
