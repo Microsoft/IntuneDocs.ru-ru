@@ -461,6 +461,8 @@
           href: windows-hello.md
     - name: Управление ролями
       href: role-based-access-control.md
+    - name: Управление версиями операционной системы
+      href: manage-os-versions.md
     - name: Управление обновлениями программного обеспечения
       href: windows-update-for-business-configure.md
     - name: Управление компьютерами с помощью агента программного обеспечения
