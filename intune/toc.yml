@@ -162,6 +162,8 @@
               href: windows-enroll.md
             - name: Массовая регистрация
               href: windows-bulk-enroll.md
+            - name: Программа Windows AutoPilot Deployment
+              href: enrollment-autopilot.md
         - name: Настройка регистрации устройств Android
           href: android-enroll.md
         - name: Настройка регистрации iOS
@@ -601,11 +603,9 @@
               href: reports-ref-devices.md
             - name: Справочник по сущностям приложения
               href: reports-ref-application.md
-            - name: Справочник по сущностям политики
-              href: reports-ref-policy.md
+            - name: Справочник по сущностям сопоставлений устройств и пользователей
+              href: reports-ref-userdeviceassociations.md
     - name: Неопубликованные приложения Windows
-      href: app-sideload-windows.md
-    - name: Использование API Graph для Intune
       href: intune-graph-apis.md
       items:
         - name: Справочник по API Graph для Intune
