@@ -381,6 +381,8 @@
           href: compliance-policy-create-mac-os.md
         - name: Создание политики Windows
           href: compliance-policy-create-windows.md
+        - name: Действия при несоответствии
+          href: actions-for-noncompliance.md
         - name: Мониторинг устройств на соответствие требованиям
           href: compliance-policy-monitor.md
     - name: Настройка условного доступа
