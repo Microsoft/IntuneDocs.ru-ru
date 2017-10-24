@@ -6,7 +6,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 06/18/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: 3e374f383275b1e74e22ac037ecaec282eeaa87c
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 372cc50fb4ac36ec875d84a71f3d3437917a2d1a
+ms.sourcegitcommit: 93c8c7e5abe433e35d88cb3b8d3d1e7216d7fe9b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/24/2017
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 
@@ -93,5 +93,9 @@ ms.lasthandoff: 09/09/2017
 ### <a name="problems-with-bulk-enrollment-and-company-portal"></a>Проблемы с массовой регистрацией и корпоративным порталом
 Если пользователь попытается зарегистрировать устройство, ранее прошедшее массовую регистрацию, с помощью корпоративного портала, он получит предупреждение о том, что для его устройства требуется предпринять дальнейшие действия — установку или регистрацию. Устройство зарегистрировано, но этот факт не распознается веб-сайтом или приложением корпоративного портала.
 
-### <a name="conditional-access"></a>Условный доступ
+### <a name="bulk-enrollment-with-wi-fi"></a>Массовая регистрация с Wi-Fi 
+
+При массовой регистрации устройств вы не можете применять сертификаты на пользователей и развертывание с Wi-Fi. Используйте [сертификаты уровня устройств](certificates-configure.md) для работы с подключениями такого типа. 
+
+### <a name="conditional-access"></a>Conditional access (Условный доступ)
 Для устройств Windows, прошедших массовую регистрацию, не предоставляется условный доступ.
