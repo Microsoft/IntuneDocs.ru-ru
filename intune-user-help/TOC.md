@@ -26,6 +26,7 @@
 
 ### [Решение распространенных проблем с Android](troubleshoot-your-device-android.md)
 #### [Проверка соответствия устройств требованиям](check-compliance-on-your-device-android.md)
+#### [Синхронизация почты в Outlook в режиме экономии заряда](power-saving-mode-android.md)
 
 #### Использование журналов для устранения проблем
 ##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
