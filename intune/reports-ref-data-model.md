@@ -14,11 +14,11 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9257af29c65dbe27667738abc8ee06203177124f
-ms.sourcegitcommit: b8ef9d8387b4d9b2ea4e6ce937635304771e6532
+ms.openlocfilehash: d52e240763263ac4f761a8635ee6694a45168354
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="data-warehouse-data-model"></a>Модель данных для хранилища данных
 
@@ -44,6 +44,7 @@ ms.lasthandoff: 08/11/2017
   -  [Устройства](reports-ref-devices.md)
   -  [Приложения](reports-ref-application.md)
   -  [Политика](reports-ref-policy.md)
+  -  [Сопоставление пользователя и устройства](reports-ref-userdeviceassociations.md)
 
 <!-- ## Data Model relationships
 

@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e9701bbe4f39d310786fb399b3152595744019a1
-ms.sourcegitcommit: 0ee9909fc041c2e49c0e0312ae05f40bbeb2ee51
+ms.openlocfilehash: e536a31443a7140785a1f30af6fe676451e6f62c
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Управление доступом в Интернет с помощью политик Managed Browser в Microsoft Intune
 
@@ -37,7 +37,11 @@ Managed Browser — это корпоративное приложение дл
 
 Дополнительные сведения см. в разделе [Что такое политики защиты приложений?](/intune/app-protection-policy).
 
-Эти параметры могут применяться к устройствам, зарегистрированным в службе Intune или другом решении для управления устройствами, а также к устройствам, которые не находятся под управлением.
+Эти параметры можно применять к следующим устройствам:
+
+- устройства, зарегистрированные в Intune;
+- устройства, зарегистрированные в другом решении MDM;
+- неуправляемые устройства.
 
 Приложение Managed Browser, которое установлено пользователем из магазина и не находится под управлением Intune, можно использовать в качестве обычного браузера, поддерживающего функцию единого входа через сайт Microsoft MyApps. В этом случае пользователи перенаправляются на сайт MyApps, где им предлагается подготовленный список SaaS-приложений.
 Если Managed Browser не находится под управлением Intune, его нельзя использовать для доступа к данным других управляемых в Intune приложений. 

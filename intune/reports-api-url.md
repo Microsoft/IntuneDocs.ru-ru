@@ -14,27 +14,17 @@ ms.assetid: A7A174EC-109D-4BB8-B460-F53AA2D033E6
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7723bb42eedcd97142f039ca52b60911fa91838b
-ms.sourcegitcommit: addf6a40caa22c22adfd2e2eff7d666cd1877e3c
+ms.openlocfilehash: f36327f21fbb2f08906a7621b701a4e6c9deee03
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/20/2017
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Конечная точка API для хранилища данных Intune
 
 Вы можете использовать API хранилища данных Intune с помощью учетной записи, используя определенные меры управления доступом на основе ролей и учетные данные Azure AD. Позднее вы авторизуете свой клиент REST с помощью Azure AD, используя OAuth 2.0. Наконец, вы сформируете значимый URL-адрес для вызова ресурса хранилища данных.
 
-## <a name="azure-ad-and-intune-credential-requirements"></a>Требования к учетным данным Azure AD и Intune
-
-Проверка подлинности и авторизация основаны на учетных данных Azure AD и управлении доступом на основе ролей (RBAC) Intune. Все глобальные администраторы и администраторы служб Intune для вашего клиента по умолчанию имеют доступ к API. Используйте роли Intune, чтобы предоставить доступ к **ресурсам ведения отчетов** другим пользователям.
-
-Требования для доступа к API:
-
-  -  Пользователю должна быть присвоена лицензия Intune.
-  -  Пользователь должен иметь разрешения одного из следующих уровней:
-      -  Глобальный администратор Azure AD
-      -  Администратор служб Intune
-      -  Доступ на основе ролей к ресурсу **Отчеты**
+[!INCLUDE[reports-credential-reqs](./includes/reports-credential-reqs.md)]
 
 ## <a name="authorization"></a>Авторизация
 
@@ -64,4 +54,4 @@ URL-адрес содержит следующие элементы:
 
 ## <a name="odata-query-options"></a>Параметры запроса OData
 
-Текущая версия поддерживает следующие параметры запроса OData: `$skip, $top, $filter, $orderby`.
+Текущая версия поддерживает следующие параметры запроса OData: `$filter, $orderby, $select, $skip,` и `$top`.

@@ -15,11 +15,11 @@ ms.assetid: 949fddec-5318-4c9a-957e-ea260e6e05be
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 52b273532935184918e65d25a37ca3d03e76680c
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: d18ef2119ed0f8adc63f6675024c8e694235ee35
+ms.sourcegitcommit: 128770ecc820f6ff3c99b15752bce7a58257f1d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 10/21/2017
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Подготовка к настройке политик защиты приложений для Windows 10
 
@@ -53,6 +53,9 @@ ms.lasthandoff: 09/09/2017
     г.  URL-адрес соответствия требованиям MAM:
 
 5.  Настроив эти параметры, нажмите кнопку **Сохранить**.
+
+> [!NOTE]
+> Устройства с состоянием регистрации MAM должны быть присоединены к Azure AD.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/30/2017
+ms.date: 10/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 38ee5446c679472927f4dccecfdc56f1228fb92c
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 053f6449ebe3a4ad375c51d7bbc4ccc9709fdcf7
+ms.sourcegitcommit: 128770ecc820f6ff3c99b15752bce7a58257f1d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/21/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-android-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune?
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/28/2017
 
 -   Потребовать принять условия использования.
 
--   Отключить камеру (только на устройствах Samsung KNOX, но не Nexus), чтобы запретить делать фото конфиденциальных рабочих материалов, к которым не следует предоставлять общий доступ.
+-   Отключить камеру, чтобы запретить делать фото конфиденциальных рабочих материалов, к которым не следует предоставлять общий доступ.
 
 -   Требовать, чтобы все данные на устройстве шифровались для обеспечения защиты данных при утере или краже устройства.
 
