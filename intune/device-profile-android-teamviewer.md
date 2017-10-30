@@ -1,12 +1,12 @@
 ---
-title: "Использование удаленно управляемых устройств Android с помощью TeamViewer"
+title: "Использование удаленно управляемых устройств с помощью TeamViewer"
 titlesuffix: Azure portal
-description: "Сведения о том, как использовать удаленно управляемые устройства Android с помощью TeamViewer.\""
+description: "Сведения о том, как удаленно управлять устройствами с помощью TeamViewer."
 keywords: 
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 08/09/2017
+ms.date: 10/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,17 +15,29 @@ ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0a6286760e1e49cdb090736e9444fe8ce18ddeb7
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 8bb3061baf42b011c98cf7b196e939448f91cff4
+ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/20/2017
 ---
-# <a name="provide-remote-assistance-for-intune-managed-android-devices"></a>Удаленная поддержка пользователей устройств Android под управлением Intune
+# <a name="provide-remote-assistance-for-intune-managed-devices"></a>Удаленная поддержка пользователей устройств под управлением Intune
 
-Благодаря Intune пользователи устройств Android могут получить от вас удаленную поддержку с помощью программы [TeamViewer](https://www.teamviewer.com) (приобретается отдельно). В этом разделе описываются действия по началу работы.
+Благодаря Intune пользователи управляемых устройств могут получить от вас удаленную поддержку с помощью программы [TeamViewer](https://www.teamviewer.com) (приобретается отдельно). В этом разделе описываются действия по началу работы.
 
 ## <a name="before-you-start"></a>Перед началом работы
+
+### <a name="supported-devices"></a>Поддерживаемые устройства
+
+Удаленное управление поддерживают следующие устройства, управляемые с помощью Intune:
+
+- устройства Android под управлением Intune;
+- устройства с ОС Windows 10, Windows 10 Mobile и более поздних версий под управлением Intune.
+
+>[!NOTE]
+>Windows Holographic (HoloLens), Windows для совместной работы (Surface Hub) и Windows 10 S не поддерживаются программным обеспечением TeamViewer.
+
+
 
 ### <a name="required-permissions"></a>Необходимые разрешения
 
@@ -38,7 +50,7 @@ ms.lasthandoff: 09/15/2017
 
 ### <a name="configure-the-intune-teamviewer-connector"></a>Настройка соединителя TeamViewer для Intune
 
-Прежде чем предоставлять удаленную поддержку для устройств Android, необходимо настроить соединитель TeamViewer для Intune, выполнив следующие действия:
+Прежде чем предоставлять удаленную поддержку для устройств, необходимо настроить соединитель TeamViewer для Intune, выполнив следующие действия:
 
 
 1. Зарегистрируйтесь на портале Azure.
@@ -50,22 +62,22 @@ ms.lasthandoff: 09/15/2017
 7. Откроется веб-страница сайта TeamViewer. Введите учетные данные лицензии TeamViewer и нажмите кнопку **Войти**.
 
 
-## <a name="how-to-remotely-administer-an-android-device"></a>Удаленное администрирование устройства Android
+## <a name="how-to-remotely-administer-a-device"></a>Удаленное администрирование устройства
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите **Устройства**.
 4. В колонке **Устройства и группы** выберите **Управление** > **Все устройства**.
 5. Выберите устройство для удаленного управления, а затем в колонке свойств устройства выберите **Дополнительно** > **Новый сеанс удаленного помощника**.
-6. После того как Intune подключится к службе TeamViewer, появятся определенные сведения об устройстве Android. Выберите **Подключить**, чтобы начать удаленный сеанс.
+6. После того как Intune подключится к службе TeamViewer, появятся определенные сведения об устройстве. Выберите **Подключить**, чтобы начать удаленный сеанс.
 
-![Окна TeamViewer для Android](./media/android-teamviewer.png)
+![Пример окна TeamViewer для Android](./media/android-teamviewer.png)
 
-В окне TeamViewer можно выполнять целый ряд удаленных действий с устройством Android, в том числе удаленно управлять им. Полную информацию о доступных действиях см. в [документации по TeamViewer](https://www.teamviewer.com/support/documents/).
+В окне TeamViewer можно выполнять целый ряд удаленных действий с устройством, в том числе удаленно управлять им. Полную информацию о доступных действиях см. в [документации по TeamViewer](https://www.teamviewer.com/support/documents/).
 
 После завершения закройте окно TeamViewer.
 
-## <a name="end-user-notifications"></a>Уведомления для конечных пользователей
+## <a name="next-steps"></a>Дальнейшие действия
 
 При открытии приложения конечный пользователь видит флажок уведомления на значке приложения корпоративного портала на своем устройстве, а также уведомление. При необходимости конечный пользователь может принять запрос удаленной помощи.
 
