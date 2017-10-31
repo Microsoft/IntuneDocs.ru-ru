@@ -3,10 +3,10 @@ title: "Регистрация устройств macOS в Intune"
 titlesuffix: Azure portal
 description: "Узнайте, как регистрировать устройства macOS в Intune.\""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
-manager: angrobe
-ms.date: 10/04/2017
+author: arob98
+ms.author: angrobe
+nmanager: angrobe
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3afe710918ff8433b04861de2ad183e699c83023
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a18aa5091c8be2095e2ac95717c2b8294b845cd5
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="enroll-macos-devices-in-intune"></a>Регистрация устройств macOS в Intune
 

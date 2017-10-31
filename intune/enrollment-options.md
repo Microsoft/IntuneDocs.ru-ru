@@ -2,20 +2,20 @@
 title: "Варианты регистрации устройств в Intune"
 description: 
 keywords: 
-author: nathbarn
-ms.author: nathbarn
-manager: angrobe
-ms.date: 06/07/2017
+author: arob98
+ms.author: angrobe
+nmanager: angrobe
+ms.date: 10/30/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cf4ad6d4-423f-4826-ab8d-6eb7a7cfb559
-ms.openlocfilehash: 3514b580a4e35cc9e0813d6dd7fd0e1eee550d7c
-ms.sourcegitcommit: af013af8d9a63c9aa16e5e9eddf38ad9c5a77898
+ms.openlocfilehash: 96b64fe359104a980697118e52469fc8436fb327
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="enrollment-options-for-intune"></a>Варианты регистрации устройств в Intune
 

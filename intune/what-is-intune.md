@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 nmanager: angrobe
-ms.date: 07/17/2017
+ms.date: 10/30/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: e3002d08506b68069d617c413a9c3801cf4326f8
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: d83b3d6609e5fd6839e17e46520e4ef3d4551568
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Краткое описание Microsoft Intune на портале Azure
 
@@ -43,15 +43,6 @@ Microsoft Intune теперь действует на портале Azure, а
 - поддержка Microsoft Graph API для автоматизации многих действий;
 - группы Azure Active Directory (AD) для обеспечения совместимости во всех приложениях Azure;
 - поддержка современных веб-браузеров.
-
-> [!IMPORTANT]
-> **Еще не видите новый портал?**<br>
-> Существующие клиенты будут перенесены в новый интерфейс. Перед началом миграции клиента в центре сообщений Office появится соответствующее уведомление.
->
-> Учетные записи Intune, созданные до января 2017 г., потребуется перенести (единожды), перед тем как рабочие процессы регистрации Apple станут доступны в Azure. Расписание миграции на данный момент еще не объявлено. Если у вашей существующей учетной записи отсутствует доступ к порталу Azure, рекомендуется создать пробную учетную запись.
->
-> Просмотрите список потенциальных блокировщиков https://blogs.technet.microsoft.com/intunesupport/2017/05/17/intune-migration-blockers-for-grouping-targeting/.
-
 
 ## <a name="before-you-start"></a>Перед началом работы
 
