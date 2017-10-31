@@ -14,11 +14,11 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0e55246f8f089a998fa4a04fe07e5e54408d8513
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 65350c9a247c5820cb2080d8230d308a37e98d7c
+ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -94,6 +94,16 @@ ms.lasthandoff: 10/11/2017
 
 
 
+## <a name="enable-your-ios-or-android-app-for-app-based-conditional-access"></a>Включение условного доступа для приложений iOS или Android
+ 
+ Помимо включения политики защиты приложения, для правильной работы приложения с условным доступом на основе приложения Azure Active Directory (AAD) требуется следующее:
+ 
+ * Приложение должно быть создано с помощью [библиотеки аутентификации Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) и поддерживать аутентификацию через брокер AAD.
+ 
+ * [Идентификатор клиента AAD](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-active-directory-authentication#optional-configure-a-native-client-application) для приложения должен быть уникальным на платформах iOS и Android.
+ 
+ 
+ 
 
 ## <a name="configure-telemetry-for-your-app"></a>Настройка телеметрии для приложения
 

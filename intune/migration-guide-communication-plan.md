@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: e6a52506-2d29-41f7-a171-5d684a740dd4
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 59b978fa9c9084c5a70c912ca6a9b1e6c364722c
-ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
+ms.openlocfilehash: 806e355acd84f5c70029f8612c444b077c0631e4
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="plan-communications"></a>Планирование обмена данными
 
@@ -52,6 +52,8 @@ ms.lasthandoff: 07/12/2017
 -   В статье [Инструкции по использованию Microsoft Intune для конечных пользователей](end-user-educate.md) описаны этапы регистрации в зависимости от платформы мобильных устройств.
 
 -   [Шаблон регистрации конечного пользователя Intune для ИТ-администраторов](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a) — это настраиваемый документ Word, в котором описывается регистрация в Intune устройств iOS, Mac и Android.
+
+-   [Руководства и сообщения электронной почты с инструкциями по FastTrack для EMS](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c) можно персонализировать с помощью логотипа, чтобы ускорить внедрение EMS и Intune в организации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

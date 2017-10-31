@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b6fd8525da11fcc376c4850c53ed1b98f37798ae
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 27725d28ac621bae9500d0e6639a82d6f033e4dc
+ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 10/11/2017
 
 ## <a name="requirements"></a>Requirements (Требования)
 
-Пакет SDK для приложений Intune представляет собой скомпилированный проект Android. Поэтому он практически не зависит от версии Android, используемой приложением для минимальных или целевых версий API. Пакет SDK поддерживает API Android начиная с версии 14 (Android 4.0+) и заканчивая версией 25 (Android 7.1).
+Пакет SDK для приложений Intune представляет собой скомпилированный проект Android. Поэтому он практически не зависит от версии Android, используемой приложением для минимальных или целевых версий API. Пакет SDK поддерживает API Android от версии 19 (Android 4.4+) до версии 25 (Android 7.1).
 
 
 
