@@ -1,11 +1,11 @@
 ---
 title: "Вход в приложение корпоративного портала | Документы Майкрософт"
-description: 
+description: "Узнайте, как войти в приложение \"Корпоративный портал\" на различных платформах."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 07/31/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ca6d811d884b5405bdb4e5f096366c123d8e00d1
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: caea74745dc58a04c60e780727b318ebdb8ff235
+ms.sourcegitcommit: b8d3f8da6d8c2bd5d6140d538193a02d5875aefb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="how-do-i-sign-in-to-the-company-portal-app---user-story-1132123--"></a>Как войти в приложение корпоративного портала? <!--User Story 1132123-->
 
@@ -50,6 +50,16 @@ ms.lasthandoff: 09/28/2017
 4. Когда корпоративный портал принимает ваши учетные данные, вы входите в систему и можете получить доступ к корпоративным ресурсам.   
 
   ![После проверки подлинности приложение корпоративного портала входит в систему: появляется полоса загрузки.](/intune/media/cp_ios_aad_signin_from_another_device_after_1704_007.png)
+
+## <a name="signing-in-with-certificate-based-authentication"></a>Вход с помощью аутентификации на основе сертификата
+
+1.  Откройте приложение "Корпоративный портал" на устройстве.
+
+2.  Введите свою **рабочую или учебную учетную запись**.
+
+3.  Перейдите по ссылке **Войти с помощью сертификата**.
+
+4.  Коснитесь кнопки **Продолжить**, чтобы использовать сертификат.
 
 ## <a name="signing-in-from-another-device"></a>Вход с другого устройства
 

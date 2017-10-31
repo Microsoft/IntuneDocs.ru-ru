@@ -14,11 +14,11 @@ ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9899f08cac650b1fea05370eb52327bc3c204a48
-ms.sourcegitcommit: 3bafbec5822bb5baa2d313f2bd19f35a67438beb
+ms.openlocfilehash: f3a3104c4381028cca69ba3e129f4a30287a8e32
+ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Условный доступ на основе приложений с помощью Intune
 
@@ -43,17 +43,7 @@ ms.lasthandoff: 08/07/2017
 
 ## <a name="supported-apps"></a>Поддерживаемые приложения
 
-- **Exchange Online**:
-    - Microsoft Outlook для Android и iOS.
-<br></br>
-- **SharePoint Online**
-    - Microsoft Word для iOS и Android
-    - Microsoft Excel для iOS и Android
-    - Microsoft PowerPoint для iOS и Android
-    - Microsoft OneDrive для бизнеса для iOS и Android
-    - Microsoft OneNote для iOS
-<br></br>
-- **Microsoft Teams**
+Список приложений, которые поддерживают условный доступ на основе приложений, см. в [технической документации по условному доступу Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-technical-reference).
 
 Модель условного доступа на основе приложений [также поддерживает бизнес-приложения](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication), однако такие приложения должны использовать [современные средства проверки подлинности Office 365](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a).
 
