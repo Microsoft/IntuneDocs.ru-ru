@@ -2,10 +2,10 @@
 title: "Регистрация или вход в Intune"
 description: "Описывается, как зарегистрировать подписку Intune или выполнить вход, чтобы начать использовать подписку"
 keywords: 
-author: nathbarn
-ms.author: nathbarn
-manager: angrobe
-ms.date: 06/07/2017
+author: arob98
+ms.author: angrobe
+nmanager: angrobe
+ms.date: 10/30/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ead4f7308679359398383a2821b9c7e015ce59de
-ms.sourcegitcommit: 3b21f20108e2bf1cf47c141b36a7bdae609c4ec3
+ms.openlocfilehash: 5c9f85c5535444953cb46363dde54954e83fceea
+ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2017
+ms.lasthandoff: 10/31/2017
 ---
 # <a name="sign-up-or-sign-in-to-intune"></a>Регистрация или вход в Intune
 
