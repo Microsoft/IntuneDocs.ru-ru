@@ -240,10 +240,15 @@
           href: apps-deploy.md
         - name: Мониторинг приложений
           href: apps-monitor.md
-        - name: Профили конфигурации приложений iOS
-          href: app-configuration-policies-use-ios.md
-        - name: Профили конфигурации приложений Android
-          href: app-configuration-policies-use-android.md
+        - name: Политики конфигурации приложений
+          href: app-configuration-policies-overview.md
+          items:
+            - name: iOS управляемые устройства
+              href: app-configuration-policies-use-ios.md
+            - name: Android управляемые устройства
+              href: app-configuration-policies-use-android.md
+            - name: Управляемые приложения
+              href: app-configuration-policies-managed-app.md
         - name: Использование профилей подготовки приложений iOS
           href: app-provisioning-profile-ios.md
         - name: Выборочная очистка приложений
