@@ -2,10 +2,10 @@
 title: "Настройка Intune"
 description: "Требования и предварительные условия, которые следует выполнить перед использованием подписки Intune."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 09/15/2017
+ms.date: 10/31/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7fcdd4e7679bc969a7fa000e515b59882973a3da
-ms.sourcegitcommit: 75cea2402a3726c72b12df6111f6d3ee93c852bf
+ms.openlocfilehash: 54f2bdd4a415cb8a4432a8bdcf93c56ba995c201
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="set-up-intune"></a>Настройка Intune
 

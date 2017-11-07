@@ -4,18 +4,18 @@ description:
 keywords: 
 author: arob98
 ms.author: angrobe
-nmanager: angrobe
-ms.date: 10/30/2017
+manager: angrobe
+ms.date: 10/31/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: cf4ad6d4-423f-4826-ab8d-6eb7a7cfb559
-ms.openlocfilehash: 96b64fe359104a980697118e52469fc8436fb327
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: 22efa23e989ed949d22c3c25b2ea4d37559b0a25
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="enrollment-options-for-intune"></a>Варианты регистрации устройств в Intune
 
