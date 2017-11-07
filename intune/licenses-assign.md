@@ -2,10 +2,10 @@
 title: "Назначение лицензий Intune"
 description: "Назначение лицензий пользователям для подписки Intune"
 keywords: 
-author: lindavr
-ms.author: lindavr
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 06/15/2017
+ms.date: 10/31/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 317fad8beb708a10a4dbf81a04f03c2faab41925
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: ff32d7dffa933ff79220773bd5216b039620db44
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="assign-intune-licenses-to-your-user-accounts"></a>Назначение лицензий Intune учетным записям пользователей
 

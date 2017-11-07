@@ -3,10 +3,10 @@ title: "Установка ограничений регистрации в Intu
 titlesuffix: Azure portal
 description: "Ограничение регистрации по типу платформы и установка ограничения на регистрацию устройств в Intune. \""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 08/02/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 9691982c-1a03-4ac1-b7c5-73087be8c5f2
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 06c0c58992a2119aff7fd5be54ae90be886d2a53
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 0117d3249f7fd2568201762b7dd16af9cc26392c
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 

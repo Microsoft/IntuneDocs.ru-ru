@@ -2,10 +2,10 @@
 title: "Добавление пользователей и предоставление разрешений"
 description: "Синхронизация локальных пользователей с Azure AD и предоставление разрешений администратора для подписки Intune."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 07/19/2017
+ms.date: 10/31/2017
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2384bede0ef4ed68072d1884d235e091cc625fa5
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 4efc8be824acc3db869529d39617f376327b3193
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="add-users-and-give-administrative-permission-to-intune"></a>Добавление пользователей и предоставление административного разрешения для Intune
 

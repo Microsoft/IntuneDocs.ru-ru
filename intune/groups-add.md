@@ -3,10 +3,10 @@ title: "Установка ограничений регистрации в Intu
 titlesuffix: Azure portal
 description: "Ограничение регистрации по типу платформы и установка ограничения на регистрацию устройств в Intune. \""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 07/05/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f0a2b858-a824-4598-ab81-bdd8e62ac3b3
 ms.reviewer: amyros
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b74faadfc93485023ea71f42b703f3b102aaa5b3
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 8ddf5cc624685e684973b0e4ee85de609845f3bd
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="add-groups-in-intune"></a>Добавление групп в Intune
 Intune использует группы Azure Active Directory (AD) для управления устройствами и пользователями. Как администратор Intune вы можете настраивать группы так, как это нужно для вашей организации. Создавайте группы, чтобы упорядочить пользователей или устройства по географическому расположению, отделу или характеристикам оборудования. Используйте группы для управления задачами в требуемом масштабе. Например, вы можете настроить политики для многих пользователей или развернуть приложения для набора устройств.

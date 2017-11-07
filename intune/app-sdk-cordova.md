@@ -2,10 +2,10 @@
 title: "Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune"
 description: 
 keywords: sdk, Cordova, intune
-author: oydang
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.author: oydang
-ms.date: 12/07/2016
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0329720b6f02c718ef27a59e6efc5f3a76eed1c5
-ms.sourcegitcommit: 34cfebfc1d8b81032f4d41869d74dda559e677e2
+ms.openlocfilehash: fd4cedd20f427966dc3cfb7c2748f57b4d0746ab
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
 

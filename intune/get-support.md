@@ -3,8 +3,8 @@ title: "Получение поддержки для Microsoft Intune"
 titlesuffix: Azure portal
 description: "Для оплаченных и пробных подписок доступна поддержка в Интернете и по телефону.\""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 06/28/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 97e4f145906323f50aa77daa4e89c1e861f6f946
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: cc45e57a3ef9e5c043073ee67a961832294eef48
+ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
