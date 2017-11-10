@@ -57,13 +57,10 @@
 ##### [Использование SandBlast Mobile Protect](you-need-to-resolve-a-threat-found-by-checkpoint-android.md)
 ##### [Использование Zimperium zIPS](you-need-to-resolve-a-threat-found-by-zips-android.md)
 
-## [Использование устройства с iOS или Mac OS в Intune](using-your-iOS-or-macOS-device-with-intune.md)
+## [Использование устройства с iOS](using-your-iOS-device-with-intune.md)
 ### [Что происходит при регистрации устройства с iOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 ### [Установка корпоративного портала и вход в него](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
 ### [Регистрация устройства iOS](enroll-your-device-in-intune-ios.md)
-### [Регистрация устройства macOS](enroll-your-device-in-intune-macos.md)
-### [Регистрация устройства macOS с использованием корпоративного портала](enroll-your-device-in-intune-macos-cp.md)
-### [Если устройство немного отличается](device-little-different-jamf.md)
 
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
 ### [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
@@ -96,6 +93,11 @@
 ##### [Использование SandBlast Mobile Protect](you-need-to-resolve-a-threat-found-by-checkpoint-ios.md)
 ##### [Использование Zimperium zIPS](you-need-to-resolve-a-threat-found-by-zips-ios.md)
 
+## [Использование устройства с macOS](using-your-macos-device-with-intune.md)
+### [Что происходит при регистрации устройства с macOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
+### [Регистрация устройства macOS](enroll-your-device-in-intune-macos-cp.md)
+### [Регистрация устройства с macOS прежних версий](enroll-your-device-in-intune-macos-legacy.md)
+### [Если устройство немного отличается](device-little-different-jamf.md)
 
 ## [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 ### [Что происходит при регистрации устройства с Windows 10?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
@@ -123,6 +125,9 @@
 #### [Моему устройству требуется защита от вредоносных программ](your-device-needs-antimalware-software.md).
 #### [Включение безопасной загрузки](you-need-to-enable-secure-boot-windows.md)
 #### [Включение проверки целостности кода](you-need-to-enable-code-integrity.md)
-
+#### [Мне нужно включить брандмауэр](you-need-to-enable-defender-firewall-windows.md)
+#### [Мне нужно включить контроль учетных записей](you-need-to-enable-uac-windows.md)
+#### [Мне нужно обновить Windows](you-need-to-update-os-build-version-windows.md)
+#### [Мне нужно включить Защитник Windows](turn-on-defender-windows.md) 
 
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
