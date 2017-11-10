@@ -15,11 +15,11 @@ ms.assetid: 1fadb488-9c6c-43c1-ba23-8c69db633b96
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2c2417c4739a85c30fa18c000ee06fac6fe83282
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: e3333a5addfd0c4ab757121e22e19ac66c0b3e1d
+ms.sourcegitcommit: ec8561b8c63515e0b5f21a858984108dc5dbd5d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Настройка параметров Wi-Fi в Microsoft Intune
 

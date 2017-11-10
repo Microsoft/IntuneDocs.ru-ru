@@ -9,7 +9,7 @@ metadata:
   author: arob98
   ms.author: angrobe
   manager: angrobe
-  ms.date: 10/07/2017
+  ms.date: 10/31/2017
   ms.topic: article
   ms.devlang: na
   ms.service: microsoft-intune
@@ -64,16 +64,16 @@ sections:
             title: Схема высокоуровневой архитектуры Intune
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: reports-nav-create-intune-reports.md
-            title: Создание отчетов с помощью хранилища данных Intune (предварительная версия)
+          - href: enrollment-autopilot.md
+            title: Поддержка программы Windows AutoPilot Deployment в Microsoft Intune
             image:
               src: 'https://docs.microsoft.com/media/common/i_generic-database.svg'
-          - href: 'https://blogs.technet.microsoft.com/intunesupport/2017/08/22/pfx-certificates-issued-using-the-intune-certificate-connector-fix-your-intune-migration-configuration-issues/'
-            title: '[Блог] Сертификаты PFX, выпущенные с помощью Intune Certificate Connector'
+          - href: 'https://blogs.technet.microsoft.com/intunesupport/2017/10/11/upcoming-security-enhancements-in-the-intune-service-your-action-is-required/'
+            title: '[Блог] Усовершенствования безопасности в службе Intune '
             image:
               src: 'https://docs.microsoft.com/media/common/i_blog.svg'
-          - href: 'https://blogs.technet.microsoft.com/intunesupport/2017/09/19/support-tip-setting-up-communication-between-mam-managed-and-mdm-managed-apps/'
-            title: '[Блог] Настройка взаимодействия между приложениями под управлением MAM и MDM'
+          - href: 'https://cloudblogs.microsoft.com/enterprisemobility/2017/10/26/intunes-new-troubleshooting-portal-makes-diagnosing-and-resolving-end-user-issues-easier/'
+            title: '[Блог] Портал диагностики упрощает определение и устранение проблем конечного пользователя'
             image:
               src: 'https://docs.microsoft.com/media/common/i_blog.svg'
   - title: Видео

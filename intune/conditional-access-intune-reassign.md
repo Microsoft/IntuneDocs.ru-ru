@@ -15,11 +15,11 @@ ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5b0b0982018dcfa3c606ea55b9264e5cd6cd1a82
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: ff83c5926b04b11c67799e0486249dc339a167c1
+ms.sourcegitcommit: 67c037af31c1f167ec9b4f4baa754631c817e7d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/01/2017
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 
@@ -82,7 +82,7 @@ ms.lasthandoff: 09/09/2017
     ![Сравнение пользовательского интерфейса группы пользователей на порталах Intune и Azure](./media/reassign-ca-1.png)
 
     > [!IMPORTANT] 
-    > Выбор на портале Azure должен соответствовать выбору, сделанному на портале Intune. Например, если на классическом портале Intune выбраны все пользователи, выберите элемент **Все пользователи** на портале Azure. Кроме того, если вы выбрали параметр **Группы исключений** на классическом портале Intune, требуется исключить эти выбранные группы на портале Azure.
+    > Выбор на портале Azure должен соответствовать выбору, сделанному на классическом портале. Например, если на классическом портале Intune выбраны все пользователи, выберите элемент **Все пользователи** на портале Azure. Кроме того, если вы выбрали параметр **Группы исключений** на классическом портале Intune, требуется исключить эти выбранные группы на портале Azure.
 
 5. Выбрав свою группу, нажмите кнопку **Выбрать** и затем — кнопку **Готово**.
 
