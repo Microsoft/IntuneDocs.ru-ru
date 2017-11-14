@@ -5,7 +5,7 @@ description: "Сведения об отправке сценариев PowerShe
 keywords: 
 author: dougeby
 manager: angrobe
-ms.date: 10/17/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b621edad5523f3c77191fb2ef8ca2ea67318dec0
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: 237d6d090d0aae7f9a0853839b72d55618f4607e
+ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Управление сценариями PowerShell в Intune для устройств Windows 10
 Расширение управления Intune позволяет отправлять сценарии PowerShell в Intune для выполнения на устройствах Windows 10. Расширение управления дополняет возможности управления мобильными устройствами (MDM) Windows 10 и упрощает переход на современные принципы управления.
