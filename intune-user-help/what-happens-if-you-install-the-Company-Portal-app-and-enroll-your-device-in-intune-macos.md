@@ -1,5 +1,5 @@
 ---
-title: "Установка приложения Корпоративного портала для iOS | Документация Майкрософт"
+title: "Установка приложения Корпоративного портала для macOS | Документация Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: a2467c02-aac5-41c8-b788-cbda830941ef
+ms.assetid: c1601bb7-5397-44af-a2e2-9c370f23976f
 searchScope: User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 653ccf642cdf2c157694cfbe7e27e225a9df2d6d
+ms.openlocfilehash: c35c04f893e857ada04445611533c6b0f408d2dc
 ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/08/2017
 ---
-# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-device-in-intune"></a>Что произойдет, если установить приложение Корпоративного портала и зарегистрировать устройство iOS в Intune?
+# <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-macos-device-in-intune"></a>Что произойдет, если установить приложение Корпоративного портала и зарегистрировать устройство macOS в Intune?
 
-Когда вы устанавливаете приложение Корпоративного портала и затем регистрируете устройство iOS в Intune, это приложение можно использовать, чтобы:
+Когда вы устанавливаете приложение Корпоративного портала и затем регистрируете устройство macOS в Intune, это приложение можно использовать, чтобы:
 
 -   получить доступ к локальной сети, почте и рабочим файлам;
 

@@ -3,10 +3,10 @@ title: "Создание профиля Wi-Fi с общим ключом"
 titleSuffix: Azure portal
 description: "Узнайте, как создать профиль Wi-Fi с общим ключом с помощью настраиваемого профиля Intune.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 05/15/2017
+ms.date: 11/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c524acc403d6a1c041aa0dcea0948c2707202e03
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: bfcce8d38bc403a13aa28cc762370a7cfaa0bc2d
+ms.sourcegitcommit: 1df625330f4e8f7f661b5f2b9f16b5590971838d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/10/2017
 ---
-# <a name="use-a-microsoft-intune-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Использование пользовательского профиля устройств Microsoft Intune для создания профиля Wi-Fi с общим ключом
+# <a name="use-a-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Использование профиля пользовательского устройства для создания профиля Wi-Fi с общим ключом
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 В этой статье мы расскажем, как создавать профили Wi-Fi с общим ключом с помощью **настраиваемых профилей устройств** в Intune. Здесь также приводится пример создания профиля Wi-Fi на основе EAP.
@@ -205,3 +205,12 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
     Рекомендуется использовать компьютер, подключенный к небольшому числу беспроводных сетей, так как вам придется просмотреть каждый профиль, чтобы найти нужный.
 3.     Выполните поиск в XML-файлах, чтобы найти нужный файл.
 4.     После нахождения нужного XML-файла скопируйте и вставьте XML-код в поле данных на странице параметров OMA-URI.
+
+## <a name="best-practices"></a>Советы и рекомендации
+Прежде чем развертывать профиль Wi-Fi с использованием PSK, убедитесь, что устройство может подключиться напрямую к конечной точке.
+
+При смена ключей (паролей или парольных фраз) весьма вероятны простои, учитывайте это при развертываниях. Рекомендуется распространять новые профили Wi-Fi в нерабочее время. Кроме того, предупредите пользователей о возможных проблемах с подключением.
+ 
+Чтобы обеспечить плавный переход и своевременное обновление политик, устройства должны поддерживать открытым по меньшей мере один канал связи с Intune. Для этого используйте сотовую связь или предоставьте доступ к гостевой сети Wi-Fi, чтобы пользователи могли подключиться только к конечным точкам Intune.
+
+

@@ -15,11 +15,11 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8beabb21df8b122b7a1dd18a698a8075604046b5
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: b61ad1c0a114c8a66c174fa34c4520e2f6c6244a
+ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений для устройств iOS в Microsoft Intune
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/15/2017
 
 Эта статья содержит базовые сведения о настройке профилей ограничения устройств, а также ссылки на статьи со сведениями об особенностях устройств, работающих под управлением разных платформ.
 
-## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
+Создание профиля устройства с параметрами ограничения для устройства:
 
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
@@ -59,9 +59,12 @@ ms.lasthandoff: 09/15/2017
 Созданный профиль отобразится в колонке со списком профилей.
 Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
 
-## <a name="example-of-device-restriction-settings"></a>Пример параметров ограничения для устройств
+<!--  Removing image as part of design review; retaining source until we known the disposition.
 
-В этом примере вы создадите политику ограничений устройства, которая блокирует использование встроенной камеры на устройствах Android.
+## Example of device restriction settings
 
-![Как отключить камеру на устройствах Android](./media/disable-android-camera.png)
+In this high-level example, you'll create a device restriction policy that blocks the use of the built-in camera app on Android devices.
 
+![How to disable the camera on Android devices](./media/disable-android-camera.png)
+
+-->

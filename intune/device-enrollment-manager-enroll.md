@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 05/25/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5caf60d0512a33c0c88f4305b1a9eb189112ba02
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 0faca372a8bc9a632cf99133b9843b4b219f285c
+ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="enroll-devices-using-device-enrollment-manager"></a>Регистрация устройств с помощью диспетчера регистрации устройств
 
@@ -54,6 +54,7 @@ ms.lasthandoff: 09/09/2017
   - В приложении и на веб-сайте корпоративного портала отображаются только локально подключенные устройства.
   - Пользователи не могут использовать приложения, доступные в рамках программы Apple Volume Purchase Program (VPP), так как требования Apple ID к управлению приложениями допускают только устройства с одним владельцем.
   - Если вы регистрируете устройства iOS при помощи DEM, вы не сможете использовать Apple Configurator, программу регистрации устройств Apple (DEP) или Apple School Manager (ASM) в процессе регистрации (только iOS).
+  - (Только для Android) Действует ограничение на число устройств Android for Work, которые можно зарегистрировать с помощью одной учетной записи DEM. На каждую учетную запись DEM можно зарегистрировать не больше десяти устройств с рабочим профилем Android. Это ограничение не распространяется на регистрацию устройств Android прежних версий.
   - Каждому устройству требуется лицензия на устройство. Дополнительные сведения о [лицензиях на пользователя и на устройство](licenses-assign.md#how-user-and-device-licenses-affect-access-to-services).
 
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/19/2017
+ms.date: 11/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,24 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4719f31b2ea6144bc8113c596155de70aa22ace1
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: dff1cb496b85f933d8f462b94f6e15fa7ff69a28
+ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для приложения конечного пользователя Intune
 Ознакомьтесь с изменениями, внесенными в пользовательский интерфейс для приложений в этом выпуске Microsoft Intune. Взаимодействовать с пользователями станет проще, и вы сможете добавить актуальную информацию в собственную документацию по своему развертыванию. Вы также поймете, как эффективнее решать проблемы, когда пользователи обращаются в службу поддержки по вопросам работы на корпоративном портале.
+
+
+## <a name="week-of-november-6-2017"></a>Неделя с 6 ноября 2017 г.
+
+### <a name="search-improvements-to-the-company-portal-apps-and-website---1418189--"></a>Улучшения поиска на веб-сайте и приложениях Корпоративного портала<!--1418189-->
+Теперь приложения Корпоративного портала выполняют поиск по всем категориям, именам и описаниям приложений. Результаты сортируются по порядку убывания релевантности. Эти обновления также доступны и на [веб-сайте Корпоративного портала](https://portal.manage.microsoft.com).
+
+Мы все еще настраиваем способы определения актуальности результатов, поэтому сообщите нам свое мнение с помощью ссылки "Отзыв" внизу сайта корпоративного портала.
+
+
 
 ## <a name="week-of-october-16-2017"></a>Неделя, начиная с 16 октября 2017 г.
 
