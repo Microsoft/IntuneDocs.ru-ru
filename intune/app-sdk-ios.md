@@ -5,7 +5,7 @@ keywords:
 author: mattbriggs
 manager: angrobe
 ms.author: mabriggs
-ms.date: 09/01/2017
+ms.date: 11/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: oydang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: cc4ba554b498e3b41df5fb1051f1d7a0bd4fb89e
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 56bc71124c5a2714746dffcce256f0e604e9f62c
+ms.sourcegitcommit: ca10ab40fe40e5c9f4b6f6f4950b551eecf4aa03
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 11/13/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -159,7 +159,24 @@ ms.lasthandoff: 10/11/2017
 
 11. Если в файле прав приложения определены группы приложений, добавьте эти группы в словарь **IntuneMAMSettings** ключа `AppGroupIdentifiers` в виде массива строк.
 
+## <a name="using-the-intune-mam-configurator-tool"></a>Использование средства Intune MAM Configurator
 
+Средство Intune MAM Configurator теперь обрабатывает все операции с info.plist, необходимые для ручной интеграции нашего пакета SDK. Его можно получить из репозитория пакета SDK для приложений Intune для iOS. Это средство не обрабатывает параметры, относящиеся к конкретному приложению, например множественные идентификаторы, параметры AAD и т. д. Средство имеет 3 параметра:
+ 
+|Свойство|Способ использования|
+|---------------|--------------------------------|
+|- i |  `<Path to the input plist>` |
+|- e | Файлы прав |
+|- o |  (Необязательно) `<Path for the changed input plist>` |
+    
+Средство Intune MAM Configurator можно использовать для обновления:
+* любых основных файлов раскадровки и/или NIB-файлов вашего приложения в IntuneMAMSettings;
+* любых определенных схем URL-адресов вашего приложения в его файле Info.plist с суффиксом -intunemam для каждой схемы;
+* любых определенных типов документов приложения в файле Info.plist, добавьте к массиву "UTI типов содержимого документов" каждого элемента дублирующую запись для каждой строки с префиксом «com.microsoft.intune.mam.».
+* любых групп приложений, определенных в файле прав, добавьте эти группы в словарь IntuneMAMSettings ключа AppGroupIdentifiers в виде массива строк.
+
+    
+>[!NOTE] Если вы решили использовать это средство вместо ручной обработки файла info.plist, рекомендуется перезапускать его при каждом внесении изменений в файл info.plist или файл прав приложения.
 
 ## <a name="configure-azure-active-directory-authentication-library-adal"></a>Настройка библиотеки проверки подлинности Azure Active Directory (ADAL)
 

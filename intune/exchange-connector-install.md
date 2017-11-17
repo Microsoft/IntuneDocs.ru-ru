@@ -15,11 +15,11 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f1b9f6900a5dfded736bd0cc92283fdca2220a5
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: c7947c9d047c6f206f9f93c389d418379fe8267a
+ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
@@ -134,13 +134,18 @@ ms.lasthandoff: 11/01/2017
 > [!NOTE]
 > Если был установлен локальный соединитель Exchange и в определенный момент подключение к Exchange было удалено, необходимо переустановить локальный соединитель Exchange с компьютера, на котором он был установлен.
 
-## <a name="validate-the-exchange-connection"></a>Проверка подключения к Exchange
+## <a name="monitor-the-exchange-connector-activity"></a>Наблюдение за активностью соединителя Exchange
 
 После успешной настройки соединителя Exchange можно просмотреть состояние подключения и последней успешной попытки синхронизации. Проверка подключения для локального соединителя Exchange:
 
-- На панели мониторинга Intune выберите **Локальный доступ**. В разделе **Управление** выберите **Локальный доступ к Exchange**, чтобы проверить состояние подключения.
+1. На панели мониторинга Intune выберите **Локальный доступ**.
+2. В разделе **Управление** выберите **Локальный доступ к Exchange**, чтобы проверить состояние подключения.
 
 Также можно проверить время и дату последней успешной попытки синхронизации.
+
+### <a name="system-center-operations-manager-scom-management-pack"></a>Пакет управления System Center Operations Manager (SCOM)
+
+Начиная с выпуска Intune 1710, вы можете использовать [пакет управления SCOM для соединителя Exchange и Intune](https://www.microsoft.com/en-us/download/details.aspx?id=55990&751be11f-ede8-5a0c-058c-2ee190a24fa6=True&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True). Он предоставляет дополнительные способы мониторинга соединителя Exchange для устранения неполадок.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Создание политики условного доступа для локального сервера Exchange](conditional-access-exchange-create.md)

@@ -5,17 +5,17 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: angrobe
-ms.date: 10/04/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2dc5594-a373-48dc-ba3d-27aff0c3f944
-ms.openlocfilehash: 83ab9e4a6fae4fda4c8e97c5fc091d4e5a03f3ea
-ms.sourcegitcommit: b8d3f8da6d8c2bd5d6140d538193a02d5875aefb
+ms.openlocfilehash: 736eda24e355024e2abadd57206c0f0423e6d4b4
+ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="enroll-windows-devices-using-windows-autopilot-deployment-program"></a>Регистрация устройств Windows с помощью программы Windows AutoPilot Deployment
 Программа Windows AutoPilot Deployment упрощает подготовку устройств. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратиться на применение этих образов к новым устройствам с целью подготовки их к использованию перед предоставлением пользователям. Благодаря Microsoft Intune и программе AutoPilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. При использовании Intune для управления устройствами AutoPilot вы можете управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows AutoPilot](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot).
@@ -57,6 +57,13 @@ ms.lasthandoff: 10/27/2017
 > - Пропустить страницы настройки Кортаны, OneDrive и регистрации изготовителя оборудования
 > - Автоматически настроить для работы или учебы
 > - Интерфейс входа с фирменным оформлением организации или учебного заведения    
+
+## <a name="alerts-for-windows-autopilot-unassigned-devices-----163236---"></a>Оповещения для неназначенных устройств Windows AutoPilot <!-- 163236 -->
+Это оповещение показывает, скольким устройствам из программы Windows AutoPilot не назначены профили развертывания AutoPilot. Используйте эти сведения, чтобы создать профили и назначить их соответствующим устройствам. Если щелкнуть оповещение, отображается полный список устройств Windows AutoPilot с подробными сведениями о них. 
+1. Войдите в [Azure](https://portal.azure.com/). 
+2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
+3. В колонке **Intune** выберите **Регистрация устройств**.
+4. Выберите **Обзор**, чтобы просмотреть это оповещение. Щелкните оповещение, чтобы просмотреть список устройств AutoPilot.  
 
 ## <a name="assign-an-autopilot-deployment-profile"></a>Назначение профиля развертывания AutoPilot
 Создав профили развертывания AutoPilot, вы можете назначать их тем или иным устройствам.
