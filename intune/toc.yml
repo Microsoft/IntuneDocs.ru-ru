@@ -31,7 +31,7 @@
           href: device-lifecycle.md
         - name: Жизненный цикл приложения
           href: app-lifecycle.md
-    - name: Распространенные ситуации
+    - name: Распространенные сценарии
       href: common-scenarios.md
     - name: Описание службы
       href: microsoft-intune-service-description.md
@@ -142,7 +142,7 @@
         - name: Варианты регистрации
           href: enrollment-options.md
           items:
-            - name: Условия
+            - name: Terms and conditions (Условия)
               href: terms-and-conditions-create.md
             - name: Ограничения
               href: enrollment-restrictions-set.md
@@ -152,7 +152,7 @@
               href: corporate-identifiers-add.md
             - name: многофакторную идентификацию;
               href: multi-factor-authentication.md
-            - name: Диспетчер регистрации устройств
+            - name: Device enrollment manager (Диспетчер регистрации устройств)
               href: device-enrollment-manager-enroll.md
             - name: Сопоставление устройств с группами
               href: device-group-mapping.md
@@ -365,6 +365,8 @@
               href: certificates-scep-configure.md
             - name: PKCS
               href: certficates-pfx-configure.md
+            - name: Веб-служба Symantec PKI Manager
+              href: certificates-symantec-configure.md
         - name: Настройка параметров Windows Information Protection
           href: windows-information-protection-configure.md
         - name: "Управление сценариями\_PowerShell"
@@ -425,6 +427,8 @@
                   href: app-protection-policy-settings-android.md
                 - name: Параметры iOS
                   href: app-protection-policy-settings-ios.md
+                - name: Просмотр журналов защиты приложений в Managed Browser
+                  href: app-protection-policy-settings-log.md
             - name: Проверка политик защиты приложений
               href: app-protection-policies-validate.md
             - name: Мониторинг состояния пользователя защиты приложений
