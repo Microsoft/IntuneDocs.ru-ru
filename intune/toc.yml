@@ -31,7 +31,7 @@
           href: device-lifecycle.md
         - name: Жизненный цикл приложения
           href: app-lifecycle.md
-    - name: Распространенные сценарии
+    - name: Распространенные ситуации
       href: common-scenarios.md
     - name: Описание службы
       href: microsoft-intune-service-description.md
@@ -142,7 +142,7 @@
         - name: Варианты регистрации
           href: enrollment-options.md
           items:
-            - name: Terms and conditions (Условия)
+            - name: Условия
               href: terms-and-conditions-create.md
             - name: Ограничения
               href: enrollment-restrictions-set.md
@@ -152,7 +152,7 @@
               href: corporate-identifiers-add.md
             - name: многофакторную идентификацию;
               href: multi-factor-authentication.md
-            - name: Device enrollment manager (Диспетчер регистрации устройств)
+            - name: Диспетчер регистрации устройств
               href: device-enrollment-manager-enroll.md
             - name: Сопоставление устройств с группами
               href: device-group-mapping.md
@@ -608,19 +608,23 @@
         - name: Модель данных для хранилища данных
           href: reports-ref-data-model.md
           items:
+            - name: Представление времени существования пользователя в хранилище данных Intune
+              href: reports-ref-user-timeline.md
             - name: Справочник по сущностям приложения
               href: reports-ref-application.md
+            - name: Справочник по сущности текущего пользователя
+              href: reports-ref-current-user.md
             - name: Справочник по сущности даты
               href: reports-ref-date.md
             - name: Справочник по сущностям устройств
               href: reports-ref-devices.md
-            - name: "Справочник по расширению управления\_Intune"
+            - name: Справочник по сущности расширения управления Intune
               href: reports-ref-intunemanagementextension.md
             - name: Справочник по сущностям управления мобильными приложениями (MAM)
               href: reports-ref-mobile-app-management.md
             - name: Справочник по сущностям политики
               href: reports-ref-policy.md
-            - name: Справочник сопоставления пользователя и устройства
+            - name: Справочник по сущности сопоставления пользователя и устройства
               href: reports-ref-user-device.md
             - name: Справочник по сущности пользователя
               href: reports-ref-user.md
