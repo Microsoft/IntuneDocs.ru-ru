@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3462c6c418ed48991f58e0ccf2e09f2df8b48410
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 5b935f4dc3def1c7b22298f3ec9105e0b2f306d8
+ms.sourcegitcommit: 2b35c99ca7d3dbafe2dfe1e0b9de29573db403b9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="whats-new-in-the-microsoft-intune---previous-months"></a>Новые возможности в Microsoft Intune — предыдущие месяцы
 
@@ -361,7 +361,7 @@ Intune теперь отображается в на портале Azure (porta
 #### <a name="updates-to-certificate-configuration----918991-and-823198---"></a>Обновления конфигурации сертификата <!-- 918991 and 823198 -->
 При создании профиля сертификата SCEP на устройствах с iOS, Android и Windows для параметра **Формат имени субъекта** доступно значение **Другой**. До этого обновления поле **Другой** присутствовало только на устройствах iOS. Дополнительные сведения см. в разделе [Создание профиля сертификата SCEP] (certificates-scep-configure.md#how-to-create-a-scep-certificate-profile).
 
-При создании профиля сертификата PKCS для параметра **Альтернативное имя субъекта** доступен параметр **Настраиваемый атрибут Azure AD**. Теперь доступен параметр **Отдел** при выборе параметра **Настраиваемый атрибут Azure AD**. Дополнительные сведения см. в разделе [Создание профиля сертификата PKCS] (certficates-pfx-configure.md#how-to-create-a-pkcs-certificate-profile).
+При создании профиля сертификата PKCS для параметра **Альтернативное имя субъекта** доступен параметр **Настраиваемый атрибут Azure AD**. Теперь доступен параметр **Отдел** при выборе параметра **Настраиваемый атрибут Azure AD**. Дополнительные сведения см. в разделе [Создание профиля конфигурации устройства](certficates-pfx-configure.md#create-a-device-configuration-profile).
 
 #### <a name="configure-multiple-apps-that-can-run-when-an-android-device-is-in-kiosk-mode----662059---"></a>Настройка нескольких приложений, выполняемых в режиме терминала устройства Android <!-- 662059 -->
 Ранее, если устройство Android находилось в режиме терминала, вы могли настроить только одно выполняющееся приложение. Теперь вы можете использовать идентификатор приложения, URL-адрес хранилища или выбрать существующее управляемое приложение Android, чтобы настроить несколько приложений, выполняющихся в режиме терминала. Дополнительные сведения см. в разделе [Параметры режима терминала](device-restrictions-android.md#kiosk).

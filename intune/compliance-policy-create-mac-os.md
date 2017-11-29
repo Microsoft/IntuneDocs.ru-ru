@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: angrobe
-ms.date: 07/20/2017
+ms.date: 11/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: 0444183e-f924-4605-96a8-48fdfbc58fd1
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0c6e3c3f8e31d9ac6d42c3a2c519836dee186f0b
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 3cf085ff2ee4668ea4c14718719c466bcb982b10
+ms.sourcegitcommit: d4623cbfe296ae370c3d88c3213fffbda255e474
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
-# <a name="create-a-device-compliance-policy-for-macos-devices-preview-with-intune"></a>Создание политики соответствия устройств с macOS (предварительная версия) при помощи Intune
+# <a name="create-a-device-compliance-policy-for-macos-devices-with-intune"></a>Создание политики соответствия устройств с macOS при помощи Intune
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]

@@ -1,11 +1,11 @@
 ---
-title: "Похоже, для устройства Android включено шифрование"
+title: "Похоже, для устройства Android включено шифрование | Документация Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/12/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: be68e330c2bd2800ea68fd83845b71e3b257e785
-ms.sourcegitcommit: 751587b1c6ed15877152d770772748e042c1e3ff
+ms.openlocfilehash: 04ce17615055d67f38e49158bec806de9f322bfd
+ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2017
+ms.lasthandoff: 11/14/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Похоже, для устройства Android включено шифрование, но корпоративный портал считает иначе.
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 10/13/2017
 
 Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться в службу поддержки вашей компании для решения этой проблемы. Информацию для связи со службой поддержки вашей компании можно получить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
 
-### <a name="encrypt-the-entire-device"></a>Шифрование всего устройства
+### <a name="encrypt-the-entire-device"></a>Зашифруйте все устройство.
 
 На некоторых устройствах доступна возможность шифрования всего устройства или только используемого пространства. Выберите вариант шифрования всего устройства, а не используемого пространства. Если вы уже зашифровали только используемое пространство:
 
@@ -69,5 +69,7 @@ ms.lasthandoff: 10/13/2017
 
 Нам не удалось решить эту проблему для перечисленных ниже устройств. Для получения доступа к ресурсам компании вам может потребоваться другое устройство. 
 
-- [Huawei Mate 8](http://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
+- [Huawei Mate 8](https://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
+- [Устройства OPPO](http://www.oppo.com/en/smartphones)
+- [Устройства Vivo](https://www.vivo.co.in)
 - [Смартфоны Xiaomi Mi](https://xiaomi-mi.com/mi-smartphones/)

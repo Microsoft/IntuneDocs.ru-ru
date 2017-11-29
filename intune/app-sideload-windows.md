@@ -12,11 +12,11 @@ ms.service:
 ms.technology: 
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
-ms.openlocfilehash: 3567f26053a235c5a5af761829f043e0db2f79b5
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 904041ba4936917dc976fd0a6de869e931927c2d
+ms.sourcegitcommit: f9bfdaed6037bd76f8715fa7ca15a3457d26370a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Подписывание бизнес-приложений для развертывания на устройствах Windows с помощью Intune
 
@@ -192,8 +192,9 @@ ms.lasthandoff: 09/09/2017
 
 |Параметр | Описание|
 | ------------- | ------------- |
-|InputWin10AppxBundle |Путь к исходному файлу appxbundle |
-|OutputWin10AppxBundle |Выходной путь для подписанного файла appxbundle.  Win81Appx. Путь к файлу (.APPX) корпоративного портала для Windows 8.1 или Windows Phone 8.1.|
+|InputWin10AppxBundle |Путь к исходному файлу appxbundle. |
+|OutputWin10AppxBundle |Выходной путь для подписанного файла appxbundle. |
+|Win81Appx | Путь к файлу (APPX) корпоративного портала для Windows 8.1 или Windows Phone 8.1.|
 |PfxFilePath |Путь к файлу (.PFX) корпоративного сертификата подписи кода для мобильных устройств Symantec. |
 |PfxPassword| Пароль корпоративного сертификата подписи кода для мобильных устройств Symantec. |
 |PublisherId |Идентификатор издателя организации. Если он отсутствует, используется поле Subject (Тема) корпоративного сертификата подписи кода для мобильных устройств Symantec.|
