@@ -15,11 +15,11 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 395b48ab71b093c12c244fab1acd22c0ecca4c51
-ms.sourcegitcommit: 0a2897b5104dc33ca0661c27a373026d7f4cc956
+ms.openlocfilehash: bc11ad516b3256d39d4e859eca6c8aa248fb180b
+ms.sourcegitcommit: 9ccdac76e0b0716723452a6675b091f15a4d31f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Управление доступом в Интернет с помощью политик Managed Browser в Microsoft Intune
 
@@ -100,8 +100,9 @@ Intune Managed Browser и [прокси приложения Azure AD]( https:/
 
 - Настройте внутренние приложения через прокси приложения Azure AD.
     - Чтобы настроить прокси приложения и опубликовать приложения, см. [документацию по установке]( https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started). 
-    - Версия используемого приложения Managed Browser должна быть 1.2.0 или выше.
-    - Приложению Managed Browser у пользователей должна быть назначена [политика защиты приложений Intune]( app-protection-policy.md).
+- Версия используемого приложения Managed Browser должна быть 1.2.0 или выше.
+- Приложению Managed Browser у пользователей должна быть назначена [политика защиты приложений Intune]( app-protection-policy.md).
+Примечание. Для добавления данных о перенаправлении прокси-сервера обновленного приложения в Managed Browser может понадобиться до 24 часов.
 
 #### <a name="step-1-enable-automatic-redirection-to-the-managed-browser-from-outlook"></a>Шаг 1. Включение автоматического перенаправления в Managed Browser из Outlook
 Для Outlook должна быть настроена политика защиты приложений с включенным параметром **Ограничить веб-контент, отображаемый в Managed Browser**.
@@ -218,6 +219,8 @@ Intune Managed Browser и [прокси приложения Azure AD]( https:/
 1. Откройте Managed Browser.
 2. Введите `about:intunehelp` в поле адреса.
 Браузер запускает режим устранения неполадок.
+
+Список параметров, хранящихся в журналах приложений, см. в статье [Просмотр журналов защиты приложений в Managed Browser](app-protection-policy-settings-log.md).
 
 ## <a name="security-and-privacy-for-the-managed-browser"></a>Обеспечение безопасности и конфиденциальности Managed Browser
 

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 08/16/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,18 +16,18 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3a2622c7c981e64b3e220424c6661a5ba9e30751
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 895a089a58845da609423ab7fd74fbf26e0b967f
+ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/14/2017
 ---
 # <a name="how-to-protect-your-android-device-using-encryption"></a>Как защитить устройство Android с помощью шифрования
 
 При шифровании устройства информация на нем помещается в оболочку из слоя защитного кода, который предотвращает доступ к нему посторонних. Для гарантии защиты ваших данных организация требует включить шифрование устройства с Android, чтобы дать ему доступ к файлам, электронной почте или данным организации.
 
 > [!Note]
-> Перед шифрованием вам может быть предложено указать ПИН-код или пароль, если служба поддержки вашей компании задала такое требование.
+> Некоторые устройства с Android, включая Huawei, Vivo и OPPO, невозможно зашифровать. Дополнительные сведения см. [здесь](your-device-appears-encrypted-but-cp-says-otherwise-android.md).
 
 Если вы отмените регистрацию своего телефона, он останется зашифрованным.
 
@@ -37,9 +37,6 @@ ms.lasthandoff: 09/28/2017
     (На некоторых телефонах потребуется выбрать **Хранилище** > **Шифрование хранилища** или **Хранилище** > **Блокировка экрана и безопасность** > **Другие параметры безопасности**, чтобы найти параметр "Шифрование".)
 
 3.  Следуйте инструкциям на экране. Во время шифрования устройство может несколько раз перезагрузиться.
-
-> [!Note]
-> Для некоторых устройств Android шифрование включить невозможно. Дополнительные сведения см. [здесь](your-device-appears-encrypted-but-cp-says-otherwise-android.md).
 
 ### <a name="what-to-do-if-you-have-issues"></a>Действия при возникновении проблем
 **Проблема**. Вы уже зашифровали свое устройство и сталкиваетесь с одной из следующих проблем:

@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/13/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 365f72a6-564d-4cbd-8f0a-70ec80b6e253
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 7272c3d21674e4e0029cf49140638d9a3fd3306f
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 5feec496d0f7952b1ae35ed1d905cbfc526bc387
+ms.sourcegitcommit: 0b96ae18524eb976df01a5340631ef331357e666
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/15/2017
 ---
 # <a name="set-or-change-your-passcode"></a>Установка или изменение секретного кода
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/28/2017
 
 1. Выберите **Параметры** > **Touch ID и секретный код**.
 2. Введите секретный код. Откроется меню **Touch ID и секретный код**.
-2. Выберите **Изменить секретный код** и введите свой старый пароль.
+2. Выберите **Изменить секретный код** и введите свой старый секретный код.
 3. Введите новый секретный код, отвечающий требованиям службы поддержки вашей компании, а затем введите код еще раз, чтобы проверить его.
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).

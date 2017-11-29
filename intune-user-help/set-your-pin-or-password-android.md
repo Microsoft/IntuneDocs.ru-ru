@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 03/13/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0b6667bc25263cdc8d638027f4e846724e15b1d0
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 68f9f6333cbe3e450027e64399e2c0375459f1ca
+ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/14/2017
 ---
 # <a name="set-your-pin-or-password"></a>Задание ПИН-кода или пароля
 
@@ -28,9 +28,10 @@ ms.lasthandoff: 09/28/2017
 
 Это можно сделать, выполнив указанные ниже действия.
 
-1.  Последовательно выберите **Параметры** &gt; **Безопасность** &gt; **Блокировка экрана** &gt; **Пароль**.
+1.  Выберите **Параметры** > **Безопасность** > **Блокировка экрана** > **Пароль**.
 
 2.  Выберите и подтвердите новый пароль.
 
+Для запуска некоторых устройств помимо пароля на экране может потребоваться ПИН-код. Для устранения этой проблемы можно попробовать найти соответствующую настройку в приложении параметров. Например, на телефоне Samsung Galaxy S7 для включения безопасного запуска необходимо перейти в раздел **Settings** > **Lock Screen and Security** > **Secure Startup** (Параметры > Блокировка экрана и безопасность > Безопасный запуск). Дополнительные сведения см. [здесь](/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise). 
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).

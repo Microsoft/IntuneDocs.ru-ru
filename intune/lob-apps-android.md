@@ -15,11 +15,11 @@ ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ca60013503820077b25328db1089d175f2fb6a73
-ms.sourcegitcommit: 4b776d1a87c0707244f4ae0122de882e0eef6fa3
+ms.openlocfilehash: 141d0499f055441ff099a5bec1c4ea695f77326c
+ms.sourcegitcommit: 9ccdac76e0b0716723452a6675b091f15a4d31f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/20/2017
 ---
 # <a name="how-to-add-android-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune бизнес-приложения Android
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 10/04/2017
 
 ## <a name="step-5---update-a-line-of-business-app"></a>Шаг 5. Обновление бизнес-приложения
 
-[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+[!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]Примечание. Чтобы служба Intune успешно развернула новый файл APK на устройстве, необходимо добавить строку android:versionCode в файле AndroidManifest.xml в пакет APK.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
