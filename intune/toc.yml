@@ -73,7 +73,7 @@
           href: planning-guide-support-plan.md
         - name: Проектирование
           href: planning-guide-design.md
-        - name: Внедрить
+        - name: Внедрение
           href: planning-guide-onboarding.md
         - name: Тестирование и проверка
           href: planning-guide-test-validation.md
@@ -114,7 +114,7 @@
               href: migration-guide-drive-adoption.md
             - name: Типичный цикл миграции
               href: migration-guide-cycle.md
-- name: Практическое руководство
+- name: Инструкции
   items:
     - name: Настройка Intune
       href: setup-steps.md
@@ -142,7 +142,7 @@
         - name: Варианты регистрации
           href: enrollment-options.md
           items:
-            - name: Terms and conditions
+            - name: Terms and conditions (Условия)
               href: terms-and-conditions-create.md
             - name: Ограничения
               href: enrollment-restrictions-set.md
@@ -152,7 +152,7 @@
               href: corporate-identifiers-add.md
             - name: многофакторную идентификацию;
               href: multi-factor-authentication.md
-            - name: Диспетчер регистрации устройств
+            - name: Device enrollment manager (Диспетчер регистрации устройств)
               href: device-enrollment-manager-enroll.md
             - name: Сопоставление устройств с группами
               href: device-group-mapping.md
@@ -164,8 +164,6 @@
               href: windows-bulk-enroll.md
             - name: Программа Windows AutoPilot Deployment
               href: enrollment-autopilot.md
-            - name: Экран состояния регистрации
-              href: windows-enrollment-status.md
         - name: Настройка регистрации устройств Android
           href: android-enroll.md
         - name: Настройка регистрации iOS
@@ -295,7 +293,7 @@
               href: device-restrictions-android.md
             - name: iOS
               href: device-restrictions-ios.md
-            - name: MacOS
+            - name: macOS
               href: device-restrictions-macos.md
             - name: Windows 8.1
               href: device-restrictions-windows-8-1.md
@@ -327,7 +325,7 @@
               href: vpn-settings-ios.md
             - name: Настройка VPN на уровне приложения для устройств iOS
               href: vpn-setting-configure-per-app.md
-            - name: MacOS
+            - name: macOS
               href: vpn-settings-macos.md
             - name: Windows 8.1
               href: vpn-settings-windows-8-1.md
@@ -342,7 +340,7 @@
               href: wi-fi-settings-android.md
             - name: iOS
               href: wi-fi-settings-ios.md
-            - name: MacOS
+            - name: macOS
               href: wi-fi-settings-macos.md
             - name: Windows 8.1 и Windows 10
               href: wi-fi-settings-import-windows-8-1.md
@@ -521,7 +519,7 @@
             - name: Брандмауэр Windows
               href: /intune-classic/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune
               maintainContext: true
-            - name: Endpoint Protection
+            - name: "Endpoint\_Protection"
               href: /intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune
               maintainContext: true
         - name: Добавление приложений для клиентских компьютеров Intune
@@ -579,7 +577,7 @@
           href: custom-settings-ios.md
         - name: macOS
           href: custom-settings-macos.md
-        - name: Windows Phone 8.1
+        - name: "Windows\_Phone\_8.1"
           href: custom-settings-windows-phone-8-1.md
         - name: Windows 10
           href: custom-settings-windows-10.md
