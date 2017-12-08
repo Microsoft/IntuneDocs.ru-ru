@@ -1,5 +1,5 @@
 ---
-title: "Установка приложений Office 365 профессиональный плюс на устройствах с Windows 10 при помощи Intune"
+title: "Установка приложений Office 365 на мобильных устройствах с помощью Intune"
 titlesuffix: Azure portal
 description: "Узнайте, как с помощью Intune упростить установку приложений Office 365 на устройствах с Windows 10."
 keywords: 
@@ -15,15 +15,15 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f4e3ad7b68be723e0cab7b541b0ae7e3cc858c99
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 7f1958e4a0fb5aeba3225ee7ea5fae1e7fb39db3
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Назначение приложений Office 365 профессиональный плюс 2016 устройствам на базе Windows 10 с помощью Microsoft Intune
 
-Этот тип приложения позволяет легко назначать приложения Office 365 профессиональный плюс 2016 управляемым вами устройствам с Windows 10. Вы также можете устанавливать приложения клиента Microsoft Project Online для настольных ПК и программу Microsoft Visio Pro для Office 365, если у вас есть на них лицензии. Нужные вам приложения будут отображаться как одно приложение в списке консоли Intune.
+Этот тип приложения позволяет легко назначать приложения Office 365 профессиональный плюс 2016 управляемым вами устройствам с Windows 10. Вы также можете устанавливать приложения клиента Microsoft Project Online для настольных ПК и программу Microsoft Visio Pro для Office 365, если у вас есть на них лицензии. Нужные вам приложения будут отображаться как одна запись в списке приложений в консоли Intune.
 
 
 ## <a name="before-you-start"></a>Перед началом работы
@@ -137,7 +137,3 @@ ms.lasthandoff: 09/15/2017
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Теперь вы можете назначать приложения выбранным группам. Сведения см. в статье о [назначении приложений группам](/intune-azure/manage-apps/deploy-apps).
-
-             
-
-

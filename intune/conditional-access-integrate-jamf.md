@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4b6dcbcc-4661-4463-9a36-698d673502c6
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6b37ffd23f8cf8764ba457b0803dfc308cf1c071
-ms.sourcegitcommit: 82088d297eef629e3da6011681ead442ae7e25f7
+ms.openlocfilehash: 87ddb1a5f6ca5cc9be2815aacc9c1570a51e792f
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
 
@@ -58,14 +58,14 @@ ms.lasthandoff: 11/15/2017
 2. Щелкните **+ Регистрация нового приложения**.
 3. Введите **отображаемое имя**, например **Условный доступ Jamf**.
 4. Выберите **Веб-приложение или API**.
-5. Укажите **URL-адрес для входа** в Jamf Pro.
+5. Укажите **URL-адрес входа** с помощью URL-адреса экземпляра Jamf Pro.
 6. Нажмите кнопку **Создать приложение**.
-7. Сохраните только что созданный **идентификатор приложения**, а затем выберите **Все параметры** > **Ключи**, чтобы создать ключ приложения. Сохраните ключ приложения.
+7. Сохраните только что созданный **идентификатор приложения**, а затем выберите **Параметры**, щелкните **Доступ через API** > **Ключи**, чтобы создать ключ приложения. Введите сведения в поле **Описание**, укажите значение в поле **Истекает**, а затем сохраните ключ приложения. 
 
-  > [!NOTE]
+  > [!IMPORTANT]
   > Ключ приложения отображается только один раз во время этого процесса. Не забудьте сохранить его в удобном расположении.
 
-8. Выберите **Все параметры** > **Доступ через API** > **Необходимые разрешения** и удалить все разрешения.
+8. Выберите **Параметры**, щелкните **Доступ через API** > **Необходимые разрешения** и удалите все разрешения.
 
   > [!NOTE]
   > Добавьте новое требуемое разрешение. Приложение может работать должным образом только с одним таким разрешением.
@@ -79,16 +79,20 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="enable-intune-to-integrate-with-jamf-pro"></a>Включение интеграции Intune с Jamf Pro
 
-1. На портале Microsoft Azure выберите **Microsoft Intune** > **Соответствие устройства политике** > **Compliance Connector for Jamf** (Соединитель соответствия для Jamf).
+1. На портале Microsoft Azure выберите **Microsoft Intune** > **Соответствие устройства политике** > **Partner device management** (Управление устройствами партнеров).
 2. Включите соединитель соответствия для Jamf, вставив идентификатор приложения в поле **Jamf Azure Active Directory App ID** (Идентификатор приложения Jamf для Azure Active Directory).
 3. Нажмите кнопку **Сохранить**.
 
-## <a name="configure-conditional-access-in-jamf-pro"></a>Настройка условного доступа в Jamf Pro
+## <a name="configure-microsoft-intune-integration-in-jamf-pro"></a>Настройка интеграции Microsoft Intune в Jamf Pro
 
-1. В Jamf Pro выберите **Global Management** (Глобальное управление)  > **Conditional Access** (Условный доступ). Нажмите кнопку **Edit** (Изменить) на вкладке **Microsoft**.
-2. Установите флажок **Enable Conditional Access with Microsoft** (Включить условный доступ с Майкрософт).
+1. В Jamf Pro выберите **Global Management** (Глобальное управление)  > **Conditional Access** (Условный доступ). Нажмите кнопку **Изменить** на вкладке **Интеграция Microsoft Intune**.
+2. Установите флажок **Включить интеграцию Microsoft Intune**.
 3. Введите необходимые сведения о клиенте Azure, в том числе **расположение**, **доменное имя**, **идентификатор приложения** и **ключ приложения**, сохраненный на предыдущих шагах.
 4. Нажмите кнопку **Сохранить**. Jamf Pro проверит правильность параметров.
+
+## <a name="set-up-compliance-policies-and-register-devices"></a>Настройка политик соответствия требованиям и регистрация устройств
+
+После завершения настройки интеграции Intune и Jamf необходимо [применить политики соответствия требованиям к устройствам под управлением Jamf](conditional-access-assign-jamf.md).
 
 ## <a name="information-shared-from-jamf-pro-to-intune"></a>Сведения, передаваемые с Jamf Pro в Intune
 

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 790b935b71b641aec3093a9cdd7f7a98ba90babb
-ms.sourcegitcommit: 71e6e80b7370024624ce2e5fad1ca5b372975748
+ms.openlocfilehash: 206de56ee967f4cd142e5cd7c9d63971b9b727c6
+ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="set-up-access-to-your-company-resources"></a>Настройка доступа к ресурсам организации
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/21/2017
 - Обязательно выполните всю процедуру после начала этих действий. Приостановка более чем на несколько минут обычно полностью останавливает процесс, и его нужно будет перезапустить.
 - Если этот процесс завершится ошибкой, вернитесь к приложению "Корпоративный портал" и повторите попытку.
 - Убедитесь, что на устройстве включена сеть Wi-Fi и работает браузер Safari.
-- Скачайте приложение "Корпоративный портал", следуя указаниям в статье [Установка приложения корпоративного портала и вход в него](install-and-sign-in-to-the-intune-company-portal-app-ios.md).
+- Скачайте и установите [приложение корпоративного портала Intune](install-and-sign-in-to-the-intune-company-portal-app-ios.md).
 
 
 ## <a name="using-the-company-portal-app-to-set-up-access-to-company-resources"></a>Настройка доступа к ресурсам организации с помощью приложения "Корпоративный портал"
