@@ -3,8 +3,8 @@ title: "Параметры Wi-Fi для устройств Android в Intune"
 titleSuffix: Azure portal
 description: "Сведения о настройке параметров подключений Wi-Fi в Intune для устройств Android и Android for Work.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 103e17a4-2993-4359-b340-73e2acf4cf7d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f54dbec7502ea09180030d00902f729161b64157
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 9b7b97af8efc7063e749b5f0d24d07e4ec9a7e1c
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="wi-fi-settings-for-android-and-android-for-work-devices-in-microsoft-intune"></a>Параметры подключений Wi-Fi для устройств Android и Android for Work в Microsoft Intune
 

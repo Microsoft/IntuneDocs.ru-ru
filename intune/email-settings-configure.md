@@ -3,8 +3,8 @@ title: "Настройка параметров электронной почт�
 titleSuffix: Azure portal
 description: "Узнайте, как настроить Intune для создания подключений к корпоративной электронной почте на управляемых устройствах.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 484bd9b0-fbf1-4f4f-940c-6b12fa07e228
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9de8eed31a93fc1360eb1a62b1d9328b42853d74
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 8dc9c67db2a93b6cd0f1db1894b079183ee9c945
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-configure-email-settings-in-microsoft-intune"></a>Настройка параметров электронной почты в Microsoft Intune
 

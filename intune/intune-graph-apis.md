@@ -2,9 +2,9 @@
 title: "Доступ к API Intune Graph с использованием Azure AD"
 description: "В этом разделе описывается порядок доступа к API Intune Graph с использованием Azure AD"
 keywords: "intune graphapi c# powershell роли разрешений"
-author: lleonard-msft
+author: vhorne
 manager: angrobe
-ms.author: alleonar
+ms.author: victorh
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4ff36855e7a20aa7696444416d8993f9be62cbe5
-ms.sourcegitcommit: fd2e8f6f8761fdd65b49f6e4223c2d4a013dd6d9
+ms.openlocfilehash: 351a066c8852125b6fbf26c039dd3718b63f8980
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-graph-api"></a>Доступ к API Intune Graph с использованием Azure AD
 

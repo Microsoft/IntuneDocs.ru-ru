@@ -3,8 +3,8 @@ title: "Приложения iOS с политиками защиты прило
 titlesuffix: Azure portal
 description: "В этой статье описывается, что происходит при управлении приложением iOS с помощью политик защиты приложений.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 12/07/2016
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 586d9440-3813-4dec-b865-8bd319befde0
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9ca6341d57eb57ec97e487c516c0919653f327e3
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 44e96ba9fac5b95e6a508b7c2c314a49c04a6d30
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>Что происходит при управлении приложением iOS с помощью политик защиты приложений
 

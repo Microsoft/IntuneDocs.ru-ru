@@ -3,8 +3,8 @@ title: "Параметры VPN для устройств с Windows 8.1 в Intu
 titleSuffix: Azure portal
 description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows 8.1.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: de811d4a41aa8bdf9fd016b6ee439e1ed2ef2a92
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: f5ba247c67c5810ec6c9e436819d04141f26032f
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="vpn-settings-for-windows-81-devices-in-microsoft-intune"></a>Параметры VPN для устройств с ОС Windows 8.1 в Microsoft Intune
 
