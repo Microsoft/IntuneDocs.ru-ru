@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 04ce17615055d67f38e49158bec806de9f322bfd
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: f9c91c85b4a93fb211b5cd278dd82277a58cb08e
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Похоже, для устройства Android включено шифрование, но корпоративный портал считает иначе.
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/14/2017
 
 ### <a name="downgrade-your-version-of-android"></a>Переход на более раннюю версию Android
 
-Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться в службу поддержки вашей компании для решения этой проблемы. Информацию для связи со службой поддержки вашей компании можно получить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться в службу поддержки вашей компании для решения этой проблемы. Информацию для связи со службой поддержки вашей компании можно получить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 
 ### <a name="encrypt-the-entire-device"></a>Зашифруйте все устройство.
 

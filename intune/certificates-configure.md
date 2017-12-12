@@ -3,8 +3,8 @@ title: "Настройка сертификатов с помощью Intune"
 titlesuffix: Azure portal
 description: "Узнайте, как использовать Intune для создания и назначения сертификатов, которые помогают защитить подключения Wi-Fi, VPN и другие подключения.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 11/28/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e9e511cef22fdfc8e2975bd14f7b969067317a44
-ms.sourcegitcommit: 2ad0d88d3ef5b81563c6a54eaf52f09e126abeaf
+ms.openlocfilehash: 9c74ee1daf6602a4958d9955c3955b465495e013
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-configure-certificates-in-microsoft-intune"></a>Настройка сертификатов в Microsoft Intune
 

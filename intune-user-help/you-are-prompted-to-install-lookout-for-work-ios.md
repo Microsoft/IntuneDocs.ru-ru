@@ -14,11 +14,11 @@ ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 46827fa3505fd8c4f2d767ba821ce9d84fc0d16d
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 9bb4d39545964dd5c8e0bb5efe767e1315c7f6de
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="install-lookout-for-work-on-your-ios-device"></a>Установка Lookout for Work на устройстве iOS
 
@@ -54,5 +54,5 @@ ms.lasthandoff: 09/28/2017
 
 Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае попробуйте установить Lookout for Work [вручную из магазина App Store](https://itunes.apple.com/app/lookout-for-work/id997193468).
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 

@@ -14,11 +14,11 @@ ms.assetid: 9ffbb656-93cd-4e0b-96c0-c5038cd2cf31
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 62bcd106b4a75609436ef3a472262a6970daf1b8
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 95d6e4d52349e3e6527027fa8074cc92e54b0ca7
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="you-need-to-resolve-a-threat-found-by-zimperium-zips"></a>Вам требуется устранить угрозу, обнаруженную Zimperium zIPS
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/28/2017
 
 Если на зарегистрированном устройстве обнаружен вирус или другая угроза, при попытке доступа к электронной почте или файлам организации вы увидите сообщение Zimperium zIPS, призывающее к определенным действиям.
 
-Выберите ссылку **портала управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), где приведены инструкции по устранению проблемы.
+Выберите ссылку **портала управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog), где приведены инструкции по устранению проблемы.
 
 ## <a name="example-of-an-app-that-zimperium-zips-sees-as-a-threat"></a>Пример приложения, которое Zimperium zIPS воспринимает как угрозу
 
@@ -38,4 +38,4 @@ ms.lasthandoff: 09/28/2017
 
 В этом случае удалите приложение, чтобы восстановить доступ к электронной почте и другим данным вашей организации. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь к ИТ-администратору. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

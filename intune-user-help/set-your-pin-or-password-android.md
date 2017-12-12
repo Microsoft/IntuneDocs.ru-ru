@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 68f9f6333cbe3e450027e64399e2c0375459f1ca
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: 8e3805c46d357f5e07090a13d613751b7eab4c8a
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="set-your-pin-or-password"></a>Задание ПИН-кода или пароля
 
@@ -34,4 +34,4 @@ ms.lasthandoff: 11/14/2017
 
 Для запуска некоторых устройств помимо пароля на экране может потребоваться ПИН-код. Для устранения этой проблемы можно попробовать найти соответствующую настройку в приложении параметров. Например, на телефоне Samsung Galaxy S7 для включения безопасного запуска необходимо перейти в раздел **Settings** > **Lock Screen and Security** > **Secure Startup** (Параметры > Блокировка экрана и безопасность > Безопасный запуск). Дополнительные сведения см. [здесь](/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise). 
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -3,8 +3,8 @@ title: "Параметры конфигурации iOS общего устро�
 titlesuffix: Azure portal
 description: "Узнайте о параметрах Intune, с помощью которых можно отображать информацию на экране блокировки устройства iOS.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 07/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: f122e4ee-90e7-4b42-b801-8c1c7c0a5bf7
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4f57daf2674f8817c1e88cf6598c55484b90d536
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 1f9256594493aeebda9ab65e3df269ea7acaca5b
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="shared-device-configuration-settings-to-display-messages-on-the-ios-device-lock-screen"></a>Параметры конфигурации общего устройства для отображения сообщений на экране блокировки устройства iOS
 

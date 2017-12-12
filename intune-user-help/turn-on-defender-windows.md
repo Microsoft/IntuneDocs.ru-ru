@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 446b395aab311d13ebc7ac6b8c3ed7c740070729
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: d2a7cd5cc4c201a73570f73892563463cb0bdcc7
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="turn-on-windows-defender-to-access-company-resources"></a>Включение Защитника Windows для доступа к ресурсам организации
 
@@ -48,4 +48,4 @@ ms.lasthandoff: 11/09/2017
 
 Проверьте актуальность определений для антивирусного ПО, перейдя в меню **Пуск** и выполнив поиск фразы **Центр безопасности Защитника Windows**. Выберите **Обновления защиты** и **Проверить обновления**, чтобы убедиться в актуальности защиты от вирусов. Если этот параметр не отображается, выполните действия из раздела [Включение защиты в режиме реального времени](turn-on-defender-windows.md#turn-on-real-time-protection).
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

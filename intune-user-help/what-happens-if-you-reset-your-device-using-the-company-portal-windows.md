@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0720707c5e24daa9ef1677c549a8d2a763944f3b
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 4034e3848f49b13fc675f44c44ca1e80cf1e3568
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-reset-your-windows-device-using-the-company-portal"></a>Что происходит при сбросе устройства с Windows с помощью корпоративного портала?
 
@@ -32,4 +32,4 @@ ms.lasthandoff: 09/28/2017
 |Устройство может получать доступ только к электронной почте компании|**Windows Phone 8.1**<br />Устройство больше не будет отображаться на корпоративном портале, а ваша учетная запись электронной почты организации будет удалена вместе с несохраненной почтой.<br /><br />**Windows 7 или Windows Vista**<br />Сбросить настройки компьютера с ОС Windows 7 или более ранней версии, используемого только для электронной почты, нельзя.<br /><br />**Windows 8.1 и Windows 8**<br />Устройство больше не будет отображаться на корпоративном портале, а ваша учетная запись электронной почты организации будет удалена вместе с несохраненной почтой.|
 |ПК и ноутбуки|**Windows 8.1 и Windows 8**<br />Сбросить настройки компьютера с Windows 8 или Windows 8.1, используемого не только для электронной почты, нельзя.<br /><br />**Windows 7 или Windows Vista**<br />Сбросить настройки компьютера с ОС Windows 7 или более ранней версии нельзя.|
 
-Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

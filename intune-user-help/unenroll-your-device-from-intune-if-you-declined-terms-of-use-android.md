@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: d96619693c879d7e3041b6554363bea58f6792a5
-ms.sourcegitcommit: 659fe1b08eb7f02bc7eaed6b9e21a95fa1ef45b0
+ms.openlocfilehash: fda300649da30dc7f41469804bc60eb5ca1703ae
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="unenroll-your-device-if-you-declined-terms-of-use"></a>Отмена регистрации устройства при отказе от условий использования
 
@@ -40,4 +40,4 @@ ms.lasthandoff: 10/03/2017
 
     Теперь можно удалить приложение корпоративного портала.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having unenrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having unenrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.

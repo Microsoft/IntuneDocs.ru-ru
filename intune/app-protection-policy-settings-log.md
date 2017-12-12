@@ -3,8 +3,8 @@ title: "Журналы политики защиты приложений"
 titlesuffix: Azure portal
 description: "В этом разделе описываются записи параметров политики защиты приложений, хранящихся в журналах приложения."
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 11/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 4CD5EE94-7BA6-4F59-8E28-1EBCA7CA6436
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 10e3c6687259285452b95e7e5683064356431f65
-ms.sourcegitcommit: f9bfdaed6037bd76f8715fa7ca15a3457d26370a
+ms.openlocfilehash: 2b281a6b618e945750b5d5dec278e4ddc6166276
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="review-app-protection-logs-in-the-managed-browser"></a>Просмотр журналов защиты приложений в Managed Browser
 

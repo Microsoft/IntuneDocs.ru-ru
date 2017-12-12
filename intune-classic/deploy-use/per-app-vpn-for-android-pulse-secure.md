@@ -2,8 +2,8 @@
 title: "VPN на уровне приложения в Android с использованием Pulse Secure"
 description: "Для устройств Android, находящихся под управлением Intune, можно создать профиль VPN на уровне приложения."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: debedcb5137b4cdd56aaff2536b9f55bd07bb0f7
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 65bd7e15a49d5b563b6a095593ca5d8d5316a1fa
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="use-a-custom-policy-to-create-a-per-app-vpn-profile-for-android-devices"></a>Используйте настраиваемую политику для создания профиля VPN на уровне приложения для устройств Android
 

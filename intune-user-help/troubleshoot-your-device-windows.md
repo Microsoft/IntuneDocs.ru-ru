@@ -15,15 +15,15 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: priyar
 ms.suite: ems
-ms.openlocfilehash: a9da0ecabadc856c54bc8c10ec71520d549ca50c
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 17d8fd46e46586510bed2f95c502f89ae67c95be
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="fix-common-issues-with-your-windows-device"></a>Решение распространенных проблем с устройствами с Windows
 
-Иногда на устройствах с Windows могут возникать проблемы, которые можно решить посредством устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Иногда на устройствах с Windows могут возникать проблемы, которые можно решить посредством устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 
 - [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md).
 - [Мне нужно обновить устройство с Windows](you-need-to-update-your-windows-device.md)

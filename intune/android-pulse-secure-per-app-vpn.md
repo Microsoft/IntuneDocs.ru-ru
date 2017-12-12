@@ -3,8 +3,8 @@ title: "Профиль VPN на уровне приложения в Android с 
 titlesuffix: Azure portal
 description: "Сведения о том, как создать профиль VPN на уровне приложения для устройств Android, находящихся под управлением Intune.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 06293c9394b3c17f6d426715cb69deff40d32bbc
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: c5b8e85ded2ea515f361c91c61744956b8112757
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="use-a-microsoft-intune-custom-profile-to-create-a-per-app-vpn-profile-for-android-devices"></a>Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android
 

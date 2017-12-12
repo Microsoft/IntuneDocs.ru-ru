@@ -3,8 +3,8 @@ title: "Параметры Wi-Fi для устройств iOS в Intune"
 titleSuffix: Azure portal
 description: "Сведения о параметрах Intune, которые можно использовать для настройки подключений Wi-Fi на устройствах iOS.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 89229a5e-3421-4221-a62f-fa800620cc0d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2bd1896e1eee82b0fe4284902f96746038b0cce7
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 07e9a0ba825b76bf46791835e2d76a03c179f226
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="wi-fi-settings-for-ios-devices-in-microsoft-intune"></a>Параметры Wi-Fi для устройств iOS в Microsoft Intune
 

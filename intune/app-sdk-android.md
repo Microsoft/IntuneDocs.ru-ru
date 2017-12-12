@@ -2,9 +2,9 @@
 title: "Руководство по пакету SDK для приложений Intune для разработчиков под Android"
 description: "Пакет SDK для приложений Microsoft Intune для Android позволяет встроить в ваше приложение Android функции управления мобильными приложениями (MAM)."
 keywords: "Пакет SDK"
-author: mattbriggs
+author: erikre
 manager: angrobe
-ms.author: mabriggs
+ms.author: erikre
 ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f6a7df413cb8107e8dabc6e1de6ddabd441eaeca
-ms.sourcegitcommit: fa0f0402dfd25ec56a0df08c23708c7e2ad41120
+ms.openlocfilehash: 7bb78d05f9225c681c5b8a3bb6f1fcee4581a0de
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 

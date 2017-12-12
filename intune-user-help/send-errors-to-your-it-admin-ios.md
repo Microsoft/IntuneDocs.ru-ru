@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: aff747c4888c0ad9a222735b8eadf40878cc294b
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 2aa8ee8803e3001abeb8da92fb61c93c81ffb135
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="send-errors-to-your-company-support-for-issues-with-your-ios-device"></a>Отправка сведений об ошибках с устройством iOS в службу поддержки вашей компании
 
@@ -32,4 +32,4 @@ ms.lasthandoff: 09/28/2017
 
 -   Находясь в приложении корпоративного портала, встряхните устройство, а затем нажмите кнопку **Отправить диагностический отчет** при появлении предупреждения диагностики. Если при встряхивании устройства предупреждение не отображается, откройте **Параметры** > **Корпоративный портал** и включите параметр **Жест встряхивания**.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

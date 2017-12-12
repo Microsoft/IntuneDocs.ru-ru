@@ -3,8 +3,8 @@ title: "Настройка ограничений для устройств Intu
 titleSuffix: Azure portal
 description: "Сведения о настройке параметров и функций на управляемых устройствах с помощью Intune.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 04/12/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b61ad1c0a114c8a66c174fa34c4520e2f6c6244a
-ms.sourcegitcommit: af958afce3070a3044aafea490c8afc55301d9df
+ms.openlocfilehash: 552e098438e7515c1a4b82a0a8dcb941c69ac81e
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений для устройств iOS в Microsoft Intune
 

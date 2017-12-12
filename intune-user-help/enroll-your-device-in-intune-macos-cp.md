@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a49df5ee93138bd15052bfd630633b443e026e5d
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: 1559692de1a8c9c356a3f5b30e80d1abd31853d2
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>Регистрация устройства macOS в Intune с помощью приложения корпоративного портала
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/08/2017
 > [!NOTE]
 > Инструкции по регистрации устройств с более старыми версиями macOS можно найти [здесь](enroll-your-device-in-intune-macos-legacy.md).
 
-1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com).
+1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com#HelpDeskDialog).
 
 2. Войдите на корпоративный портал, используя рабочую или учебную учетную запись.
 
@@ -62,4 +62,4 @@ ms.lasthandoff: 11/08/2017
 
 11. Начнется регистрация компьютера Mac в системе управления. В ходе этой процедуры может потребоваться предоставить учетные сведения компьютера. Регистрация может занять несколько минут. В течение этого времени вы можете выполнять другие действия на компьютере. После завершения настройки доступа к ресурсам организации появится соответствующее сообщение.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [корпоративном портале](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [корпоративном портале](https://portal.manage.microsoft.com#HelpDeskDialog).

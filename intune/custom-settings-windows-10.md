@@ -3,8 +3,8 @@ title: "Пользовательские параметры для устрой�
 titlesuffix: Azure portal
 description: "Параметры, которые можно использовать в настраиваемом профиле Windows 10.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 05/09/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 7bcea136-7260-4042-b21b-c7dab86b380d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9f5faacd4b78df809d96ed5c5ece4fb7c0237a3c
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 0758aed9672c4d1279c5deb24e23beea728df81d
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="custom-device-settings-for-windows-10-devices-in-microsoft-intune"></a>Настраиваемые параметры устройств с ОС Windows 10 в Microsoft Intune
 

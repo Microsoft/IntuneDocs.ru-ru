@@ -3,8 +3,8 @@ title: "Политики конфигурации приложений для In
 titlesuffix: Azure portal
 description: "Сведения об использовании политик конфигурации приложений для Intune."
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 834B4557-80A9-48C0-A72C-C98F6AF79708
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 406d0faa1e03a41d20c1b584d2d37f9810ddbf32
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 727bf031a9e8a4c761d8d7b0c1d2737398a0fb7e
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="app-configuration-policies-for-intune"></a>Политики конфигурации приложений для Intune
 
