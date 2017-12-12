@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1e84bd13a58359f281ebfca3901d643dfc012d90
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: f36b623f78a640cfe1900dc0d1564cbf2fbfbf6f
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="send-logs-to-your-company-support-from-the-settings-app-for-windows-10"></a>Отправка журналов устройств Windows 10 из приложения параметров в службу поддержки компании
 
@@ -36,4 +36,4 @@ ms.lasthandoff: 09/28/2017
 
 Кроме того, чтобы упростить службе поддержки вашей компании задачу поиска и устранения неполадок, вам также может потребоваться отправить [журналы из приложения "Корпоративный портал"](send-logs-to-your-it-admin-cp-windows.md). 
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -14,11 +14,11 @@ ms.assetid: 5b9ee20b-3c4e-4461-86d3-6fd26e7f71a6
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: ba3a947060877fe704d4980cb1f25f34f110ff1f
-ms.sourcegitcommit: 2707a5fb68749a51c2a3ff54a1bac631bdaa3b87
+ms.openlocfilehash: be1dada5a33db5053c7a0ad783aa0827edd9295f
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="install-mobile-threat-defense-on-your-ios-device"></a>Установка Mobile Threat Defense на устройстве iOS
 
@@ -44,4 +44,4 @@ ms.lasthandoff: 10/18/2017
 
 ## <a name="if-the-installation-doesnt-work"></a>Если установка не выполняется
 
-Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Иногда может происходить сбой установки из-за технических проблем, решить которые вы не можете. В этом случае обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -2,8 +2,8 @@
 title: "Устранение неполадок, связанных с профилями электронной почты"
 description: "Перечень проблем, возникающих с профилями электронной почты, а также способы их устранения."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3f7daebb118f73bf5bbb5c331996d95f779cd8b5
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: c8f74ffd45fd46186b8b225fc64212ec61fefdad
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="troubleshoot-email-profiles-in-microsoft-intune"></a>Устранение неполадок с профилями электронной почты в Microsoft Intune
 

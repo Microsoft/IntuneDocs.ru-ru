@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 08f659cf-715e-4e10-9ab2-1bac3c6f2366
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: 8abc5e9a1e1d5ec5e0ea632b075209a0ba9456c2
-ms.sourcegitcommit: 474a24ba67f6bf4f00268bf9e4eba52331a6b82d
+ms.openlocfilehash: ca1f1c0572a2a3c1484b9c23bd14e029e506e536
+ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 12/07/2017
 ---
 # <a name="manage-software-updates"></a>Управление обновлениями программного обеспечения
 
@@ -94,8 +94,8 @@ ms.lasthandoff: 11/07/2017
 
     **Если для канала обслуживания задано значение "Semi-Annual Channel", а период отсрочки составляет 30 дней**: предположим, что обновление компонентов X стало общедоступным в Центре обновления Windows как "Semi-Annual Channel (Targeted)" в январе. Через четыре месяца — в апреле — обновление компонентов X будет выпущено как "Semi-Annual Channel". Устройство получит обновление компонентов через 30 дней после выпуска как "Semi-Annual Channel" и будет обновлено в мае.
 
-    - **Оптимизация доставки**: выберите способ, с помощью которого устройства будут скачивать обновления Windows. Дополнительные сведения см. в разделе [DeliveryOptimization/DODownloadMode](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#deliveryoptimization-dodownloadmode).
-8. Закончив, нажмите кнопку **ОК**, а затем в колонке **Создание кольца обновления** нажмите кнопку **Создать**.
+    - **Оптимизация доставки**: выберите способ, с помощью которого устройства будут скачивать обновления Windows. Дополнительные сведения см. в разделе [DeliveryOptimization/DODownloadMode](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode).
+1. Закончив, нажмите кнопку **ОК**, а затем в колонке **Создание кольца обновления** нажмите кнопку **Создать**.
 
 Новое кольцо обновления отображается в списке колец обновления.
 

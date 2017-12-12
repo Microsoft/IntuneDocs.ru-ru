@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 778ba1445361a15c43edf0d09f154750beacd3ad
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 1f7b67510faaafe79d0f05cfd8a75c9f5db4737b
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-unenroll-your-android-device-from-intune"></a>Отмена регистрации устройства Android в Intune
 
@@ -38,4 +38,4 @@ ms.lasthandoff: 09/28/2017
 
   ![Изображение диалогового окна подтверждения, которое появляется после выбора команды "Удалить корпоративный портал" в меню "Действие". В этом окне приводится следующее уведомление для пользователя: "Если вы удалите корпоративный портал, служба поддержки вашей компании больше не будет управлять вашим устройством и вы можете потерять доступ к данным, приложениям и электронной почте организации". После этого выводится запрос для подтверждения удаления корпоративного портала. Если вы хотите сделать это, выберите "Да".](./media/android_remove_cp_menu_confirmation_after_1705.png)
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: cf3c9d121f2e2578219137161a972d5d58255058
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 7275e740ff2eb23af268ad9b281f3268e1bb16a2
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-reset-your-ios-device-using-the-company-portal"></a>Что происходит при сбросе устройства iOS с помощью корпоративного портала?
 
@@ -38,4 +38,4 @@ ms.lasthandoff: 09/28/2017
 
 -   ваша учетная запись электронной почты компании будет удалена вместе с несохраненной почтой.
 
-Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

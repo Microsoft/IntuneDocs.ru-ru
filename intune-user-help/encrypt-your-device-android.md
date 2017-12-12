@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 895a089a58845da609423ab7fd74fbf26e0b967f
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: 8ad13a8534f142ec97fc15759bf863e04c36d266
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-protect-your-android-device-using-encryption"></a>Как защитить устройство Android с помощью шифрования
 
@@ -63,4 +63,4 @@ ms.lasthandoff: 11/14/2017
 
     6. Откройте приложение корпоративного портала, выберите свое устройство и коснитесь пункта **Проверить соответствие**.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with encryption on my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with encryption on my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.

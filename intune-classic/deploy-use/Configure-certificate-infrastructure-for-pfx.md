@@ -2,8 +2,8 @@
 title: "Настройка инфраструктуры сертификатов для SCEP"
 description: "Создание и развертывание PFX-файлов профилей сертификатов."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 11/17/2016
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: vinaybha
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 66306a30a0b1af941d616aeeb005a8ea1ba983b8
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: b415e84f488d3bcdd14d6c3bca1aad76831fc499
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="configure-certificate-infrastructure"></a>Настройка инфраструктуры сертификатов
 

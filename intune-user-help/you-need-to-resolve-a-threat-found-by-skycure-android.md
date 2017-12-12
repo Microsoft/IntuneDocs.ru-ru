@@ -14,11 +14,11 @@ ms.assetid: b5521762-a80c-4630-ae30-38b471da216b
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 341226bcc5ba3ca0b7f12aedeb137580a49b9f18
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 1fa368ad494ae60a9db5cbe32ce678ce6fd56c0d
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="resolve-a-threat-found-by-symantec-endpoint-protection-mobile"></a>Устранение угрозы, обнаруженной Symantec Endpoint Protection Mobile
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/28/2017
 
 ![Сообщение приложения Skycure об ошибке, содержащее ссылку на веб-сайт корпоративного портала](./media/skycure-list-of-potential-issues-android.png)
 
-Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), где вы найдете инструкции по устранению проблемы.
+Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog), где вы найдете инструкции по устранению проблемы.
 
 ## <a name="example-of-an-app-that-symantec-endpoint-protection-mobile-sees-as-a-threat"></a>Пример приложения, которое Symantec Endpoint Protection Mobile считает угрозой
 
@@ -44,5 +44,5 @@ ms.lasthandoff: 09/28/2017
 
 Удалив приложение, вы сразу получите доступ к электронной почте и другим данным вашей компании. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 

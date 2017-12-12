@@ -2,8 +2,8 @@
 title: "VPN-подключения"
 description: "Сведения о развертывании параметров VPN для пользователей и устройств в организации с помощью профилей VPN."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 05/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5b1140d990ac5d1c4364b1f48107a355c43c6cdb
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 08e1126e05d101669c5796e4bd7fcaf08339fa43
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="vpn-connections-in-microsoft-intune"></a>VPN-подключения в Microsoft Intune
 

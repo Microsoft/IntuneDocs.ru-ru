@@ -14,11 +14,11 @@ ms.assetid: 449c34ec-2d94-4c7f-8691-a5200efee3cb
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 2bcf23192829b5613b9245699cea47ffb85492f3
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 8a8a2d6669e1360ee033744120af415d7310c346
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="resolve-a-threat-found-by-sandblast-mobile-protect"></a>Устранение угрозы, обнаруженной приложением SandBlast Mobile Protect
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/28/2017
 
 Если на зарегистрированном устройстве обнаружен вирус или другая угроза, при попытке доступа к электронной почте или файлам организации вы увидите сообщение SandBlast Mobile Protect, призывающее к определенным действиям.
 
-Выберите ссылку **портала управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), где приведены инструкции по устранению проблемы.
+Выберите ссылку **портала управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog), где приведены инструкции по устранению проблемы.
 
 ## <a name="example-of-an-app-that-sandblast-mobile-protect-sees-as-a-threat"></a>Пример приложения, которое SandBlast Mobile Protect воспринимает как угрозу
 
@@ -38,4 +38,4 @@ ms.lasthandoff: 09/28/2017
 
 В этом случае удалите приложение, чтобы восстановить доступ к электронной почте и другим данным вашей организации. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

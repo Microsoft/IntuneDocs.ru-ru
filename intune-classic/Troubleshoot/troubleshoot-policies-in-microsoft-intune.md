@@ -2,8 +2,8 @@
 title: "Политики устранения неполадок"
 description: "Сведения об устранении неполадок, связанных с конфигурацией политик."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 01/04/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 43042069383330e7dbd0aa2b948b15096cdf13bf
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 2e97c47dc2d1744f539f569de4c20ee994d05ffd
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="troubleshoot-policies-in-microsoft-intune"></a>Устранение неполадок с политиками Microsoft Intune
 

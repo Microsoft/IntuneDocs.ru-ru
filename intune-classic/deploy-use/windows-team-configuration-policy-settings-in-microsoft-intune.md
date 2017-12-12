@@ -2,8 +2,8 @@
 title: "Параметры политики конфигурации Windows для совместной работы"
 description: "Сведения об использовании **общей политики конфигурации Windows 10 для совместной работы** Microsoft Intune для настройки параметров зарегистрированных устройств с Windows 10 для совместной работы, например Microsoft Surface Hub."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 470394c715ba33fd6cd3517ce2815279090a42f0
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 6cc7b187d6e3c54da588f6cc7579232c792821b0
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="windows-team-configuration-policy-settings-in-microsoft-intune"></a>Параметры политики конфигурации Windows для совместной работы в Microsoft Intune
 

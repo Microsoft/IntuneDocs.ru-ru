@@ -2,9 +2,9 @@
 title: "Компонент Xamarin из пакета SDK для приложений Microsoft Intune"
 description: 
 keywords: sdk, Xamarin, intune
-author: mattbriggs
+author: erikre
 manager: angrobe
-ms.author: mabriggs
+ms.author: erikre
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f50ecfbf5a0ac0b05de38e0ad29b27a729ab824b
-ms.sourcegitcommit: 0f877251e6adf4e45b918cc8dc9193626727f2d9
+ms.openlocfilehash: 4ef0f754980a9bc2823129c62f7100edbcdc7524
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-component"></a>Компонент Xamarin из пакета SDK для приложений Microsoft Intune
 

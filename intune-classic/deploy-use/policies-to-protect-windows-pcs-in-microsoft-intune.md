@@ -2,8 +2,8 @@
 title: "Политики для защиты компьютеров с ОС Windows"
 description: "Сведения о политиках, которые можно использовать для защиты компьютеров с Windows, когда они управляются с помощью клиентского ПО Intune."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: d081f466-45dd-41d1-ab25-6d974c72a52a
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e3b289760bf8ce6e4d7798a7c41ff91d6932851a
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: cf12d6c96371cc1f9b79c83586879ab25dbe98ff
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="use-policies-to-help-protect-windows-pcs-that-run-the-intune-client-software"></a>Использование политик для защиты компьютеров Windows, на которых запущено клиентское ПО Intune
 

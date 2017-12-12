@@ -15,15 +15,15 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: 976b58fcc7835b0992c5d53934642bd4fedb5b50
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: dd211b9dd8b09f2e3eab570eab48664fab55e3df
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="fix-common-issues-with-your-android-device"></a>Решение распространенных проблем с устройствами с Android
 
-Иногда на устройствах с Android могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Иногда на устройствах с Android могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 
 - [Проверка соответствия на устройстве с Android](check-compliance-on-your-device-android.md)
 - [Оказание помощи службе поддержки вашей компании в устранении проблем с устройством с помощью подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)

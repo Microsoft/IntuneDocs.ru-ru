@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1ea734e83cfab3fff22c775764ac9814012d52b6
-ms.sourcegitcommit: 70dc0aaad51b447e173b663d1092d993dc81ffdd
+ms.openlocfilehash: 35bf193563deb34ac59df245c622bbc011d80b76
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="the-early-edition-for-microsoft-intune---december-2017"></a>Ранний выпуск Microsoft Intune — декабрь 2017 г.
 
@@ -60,9 +60,6 @@ ms.lasthandoff: 12/02/2017
 
 ### <a name="new-ios-device-action------1244701---"></a>Новое действие устройства iOS <!-- 1244701 -->
 Вы можете завершить работу защищенных устройств iOS 10.3. Это действие завершает работу устройства сразу же, не предупреждая пользователя. Действие **завершения работы (только защищенное)** можно найти в свойствах устройства, выбрав его в рабочей нагрузке **устройства**.
-
-### <a name="palo-alto-vpn-now-supported----1333680-eeready---"></a>Поддержка VPN Palo Alto <!-- 1333680 eeready -->
-В списке **типов подключения** при настройке базового VPN будет содержаться VPN Palo Alto.
 
 ### <a name="multiple-connector-support-for-scep-and-pfx-certificate-handling----1361755-eeready---"></a>Поддержка нескольких соединителей для обработки сертификатов SCEP и PFX <!-- 1361755 eeready -->
 Пользователи, использующие локальный соединитель NDES для предоставления сертификатов устройству, смогут настроить несколько соединителей в одном клиенте.

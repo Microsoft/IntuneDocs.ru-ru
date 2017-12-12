@@ -3,8 +3,8 @@ title: "Добавление политик конфигурации прило�
 titlesuffix: Azure portal
 description: "Сведения о том, как предоставлять данные конфигурации при работе с приложением Android for Work, используя политики конфигурации приложений."
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f3fcc589010e9a153ee105aaf4b161ebcbcbfbb4
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: c936c6e0c23afa374c1de73d83e69a4e014d60e5
+ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="add-app-configuration-policies-for-managed-android-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android
 

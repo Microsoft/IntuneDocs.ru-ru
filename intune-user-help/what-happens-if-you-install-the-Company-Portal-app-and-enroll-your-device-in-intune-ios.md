@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 653ccf642cdf2c157694cfbe7e27e225a9df2d6d
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: acbf76d9d5c3981da00b9224f391222ae2f73988
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-device-in-intune"></a>Что произойдет, если установить приложение Корпоративного портала и зарегистрировать устройство iOS в Intune?
 
@@ -62,4 +62,4 @@ ms.lasthandoff: 11/08/2017
 
 -   Включить или отключить автоматическую синхронизацию файлов при роуминге на устройстве. Если она включена, может взиматься плата за роуминг.
 
-Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 31b6545b0518e369b95b6e4830617988aa806112
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 7d8dc077c3da1c9bfe302b4808142f8b7a1a60cf
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-10-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune?
 
@@ -52,4 +52,4 @@ ms.lasthandoff: 09/28/2017
 
 -   Служба поддержки вашей компании может применять политики на компьютере. Например, он может включить обязательный ввод пароля или ПИН-кода на компьютере. Служба поддержки вашей компании может также ограничить количество попыток ввода пароля и блокировать ваш компьютер или удалить все данные с его жесткого диска при превышении указанного числа попыток.
 
-Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

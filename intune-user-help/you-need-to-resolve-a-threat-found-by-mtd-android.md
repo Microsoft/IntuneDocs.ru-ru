@@ -14,11 +14,11 @@ ms.assetid: 9e176e10-72fd-42fe-94ef-b41d57a4914f
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 288feedffe36794ab6e1727165cbac2c5e2a9fe8
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: 1bff6a17a74de310833b9d19afd471afd0afc504
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Устранение угрозы, обнаруженной приложением Mobile Threat Defense
 
@@ -37,5 +37,5 @@ ms.lasthandoff: 09/28/2017
 
 Удалив приложение, вы сразу получите доступ к электронной почте и другим данным вашей компании или учебного заведения. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными организации, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 

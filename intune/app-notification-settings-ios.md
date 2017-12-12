@@ -3,8 +3,8 @@ title: "Параметры уведомлений приложений Intune д
 titlesuffix: Azure portal
 description: "Сведения о параметрах, которые вы можете использовать, чтобы управлять уведомлениями приложений для устройств iOS.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 07/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: bda26d1d-2a3b-4669-adf8-a5aa7f994916
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 46b31be3cd05c0a5252589d2b25eb92b86a42733
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: b87ffad8ee005fd8a164ec2891d81e19fb005a8b
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="intune-app-notifications-settings-for-ios-devices"></a>Параметры уведомлений приложений Intune для устройств iOS
 

@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 15e978d1407d5e09f26ba39d1fc87b01a671d5d7
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: e36330927fa6ce8b4edfc1fce984250af44bb6dc
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="update-your-windows-10-device"></a>Обновление устройства Windows 10
 
@@ -32,4 +32,4 @@ ms.lasthandoff: 11/09/2017
 
 Если используемая вами версия Windows новее версии, поддерживаемой вашей организацией, вам потребуется [ выполнить некоторые другие действия для решения проблемы](your-windows-version-isnt-yet-supported.md).
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

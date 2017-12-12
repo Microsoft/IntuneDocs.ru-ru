@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 115f32989cfbb991e097404c5297e7997f28f796
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: f46d9cc4fad54415aeea8deaf1b8daa0c274c1dc
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="enroll-your-legacy-macos-device-in-intune"></a>Регистрация устройства с macOS прежних версий в Intune
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/08/2017
 
 Благодаря доступу к приложениям, данным и ресурсам организации пользователи могут выполнять свою работу. При использовании на работе устройств Mac OS необходимо установить __профиль управления__. Это просто файл, который загружает на компьютер Mac необходимые настройки и сведения о доступе. Этот файл настраивает служба поддержки вашей компании. Хотите получить дополнительные сведения? См. статью [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или macOS в Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md).
 
-1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com).
+1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com#HelpDeskDialog).
 2. Войдите на корпоративный портал, используя рабочую или учебную учетную запись.
 
   [!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
@@ -66,4 +66,4 @@ ms.lasthandoff: 11/08/2017
 
 Некоторые профили могут иметь значение **Не проверен**. Это нормально, если они принадлежат вашей организации.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [корпоративном портале](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [корпоративном портале](https://portal.manage.microsoft.com#HelpDeskDialog).

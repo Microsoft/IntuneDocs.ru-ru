@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: b6796d004a966cd6ed3032ce7243377743e40927
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 476f1cfa59f562a8c0953236184693e1c5674ee3
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="what-happens-if-you-reset-your-android-device-using-the-company-portal"></a>Что происходит при сбросе вашего устройства Android с помощью корпоративного портала?
 
@@ -32,4 +32,4 @@ ms.lasthandoff: 09/28/2017
 - электронная почта, VPN и Wi-Fi;
 - возможность службы поддержки вашей компании применять определенные настройки.
 
-Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -14,11 +14,11 @@ ms.assetid: b40595f0-a399-4aa1-aa6f-344c2a1cb883
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: a80ab4b22aa7ace1b6df53722c5fdfaf44134e0d
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: ef3b94251b324ed95d127cde5a58517747b3ea0b
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="resolve-a-threat-found-by-symantec-endpoint-protection-mobile"></a>Устранение угрозы, обнаруженной Symantec Endpoint Protection Mobile
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/28/2017
 
 ![Сообщение приложения Skycure об ошибке, содержащее ссылку на веб-сайт корпоративного портала](./media/mtd-go-to-device-management-portal-android.png)
 
-Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), где вы найдете инструкции по устранению проблемы.
+Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog), где вы найдете инструкции по устранению проблемы.
 
 ## <a name="example-of-an-app-that-symantec-endpoint-protection-mobile-sees-as-a-threat"></a>Пример приложения, которое Symantec Endpoint Protection Mobile считает угрозой
 
@@ -44,5 +44,5 @@ ms.lasthandoff: 09/28/2017
 
 Удалив приложение, вы сразу получите доступ к электронной почте и другим данным вашей компании или учебного заведения. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными организации, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 

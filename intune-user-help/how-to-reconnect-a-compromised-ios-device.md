@@ -1,5 +1,5 @@
 ---
-title: "Повторное подключение к скомпрометированному устройству iOS | Документы Майкрософт"
+title: How to reconnect a compromised iOS device | Microsoft Docs
 description: 
 keywords: 
 author: barlanmsft
@@ -16,14 +16,14 @@ ROBOTS:
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a808f9030053b1aee571dbde9bba01d5d503a8a2
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: c63d306eac52a38dccfe78d63ea0651848a7d492
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
-# <a name="how-to-reconnect-a-compromised-ios-device"></a>Повторное подключение к скомпрометированному устройству iOS
+# <a name="how-to-reconnect-a-compromised-ios-device"></a>How to reconnect a compromised iOS device
 
-Служба поддержки вашей компании обнаружила, что вы используете устройство со снятой защитой. "Снятие защиты" (или "снятие ограничения на доступ к файловой системе") означает, что устройство было изменено для получения неограниченного доступа к определенным критическим файлам. Это может отрицательно повлиять на уровень безопасности и создать угрозу для ресурсов компании.
+Your company support detected that you are using a jailbroken device. "Jailbroken" means that the device has been changed to enable unrestricted access to certain critical files, which can compromise security and might be a threat to your company resources.
 
-Такое устройство теряет доступ к ресурсам организации. В этом случае необходимо обратиться в службу поддержки вашей организации. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+When this happens, your device can no longer access company resources and you must contact your company support for help. For contact information, check the [Company Portal website](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -3,8 +3,8 @@ title: "Пользовательские параметры Intune для уст
 titleSuffix: Azure portal
 description: "Узнайте, какие параметры можно использовать в настраиваемом профиле iOS.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 05/04/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 6da8caa8-65c2-4f47-842f-9570dcb1ac22
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6ef1d45946b22a2e41e1b6ea758a7cb1a472fefd
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 099881f9aa754f098164600e064cc793cf532460
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="microsoft-intune-custom-settings-for-ios-devices"></a>Пользовательские параметры Microsoft Intune для устройств iOS
 

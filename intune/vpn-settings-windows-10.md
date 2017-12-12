@@ -3,8 +3,8 @@ title: "Параметры VPN для устройств с Windows 10 в Intun
 titlesuffix: Azure portal
 description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows 10.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 10/20/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 495e4ed6-b2ef-47cc-a110-13fa9b5f85a6
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6de18a341f684730c74aa824c0ae8f7bdca1a4f8
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: 54ff681c96dc01587cd9a2770dacc5bb9a54d134
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="vpn-settings-for-windows-10-devices-in-microsoft-intune"></a>Параметры VPN для устройств с ОС Windows 10 в Microsoft Intune
 

@@ -3,8 +3,8 @@ title: "Настройка параметров Wi-Fi в Intune"
 titleSuffix: Azure portal
 description: "Сведения об использовании Intune для настройке подключений Wi-Fi на управляемых устройствах.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 06/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 1fadb488-9c6c-43c1-ba23-8c69db633b96
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ae5210cb3da5503c4cf1b85be8b8522fa1cfd6ce
-ms.sourcegitcommit: 1df625330f4e8f7f661b5f2b9f16b5590971838d
+ms.openlocfilehash: 8093b1a915f50dbd14da9e4836640c3be1a6ea64
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Настройка параметров Wi-Fi в Microsoft Intune
 

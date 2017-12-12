@@ -14,11 +14,11 @@ ms.assetid: 5656b3e6-e812-4264-a170-b17c9c03e4d4
 searchScope: User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: f4f878f6cd46c4ded709d833c799bb2d310adeb9
-ms.sourcegitcommit: 668b408819c75ba5e827e36974935aafaf85871e
+ms.openlocfilehash: b5e96a1d43334c3f3392c4073e2939fee7504e62
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="resolve-a-threat-found-by-lookout-for-work"></a>Устранение угрозы, обнаруженной Lookout for Work
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/28/2017
 
 ![Сообщение поиска работы об ошибке, содержащее ссылку на веб-сайт корпоративного портала](./media/mtd-go-to-device-management-portal-android.png)
 
-Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), где вы найдете инструкции по устранению проблемы.
+Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog), где вы найдете инструкции по устранению проблемы.
 
 ## <a name="example-of-an-app-that-lookout-for-work-sees-as-a-threat"></a>Пример приложения, которое поиск работы воспринимает как угрозу
 
@@ -44,4 +44,4 @@ ms.lasthandoff: 09/28/2017
 
 Удалив приложение, вы сразу получите доступ к электронной почте и другим данным вашей компании. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными, пока не удалите это приложение.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

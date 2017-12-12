@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3976327decf6b1850baed8e781609e458d375aa1
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: f5c2536e4566baa2661b77f5574085410784a787
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="remotely-lock-your-device-from-the-company-portal-website"></a>Удаленная блокировка устройства с корпоративного портала
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/28/2017
 
 [!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
 
-Чтобы обезопасить себя от этого, можно заблокировать устройство при помощи удаленной блокировки на [корпоративном портале](https://portal.manage.microsoft.com). Удаленная блокировка доступна на устройствах со следующими ОС:
+Чтобы обезопасить себя от этого, можно заблокировать устройство при помощи удаленной блокировки на [корпоративном портале](https://portal.manage.microsoft.com#HelpDeskDialog). Удаленная блокировка доступна на устройствах со следующими ОС:
 
 * Android
 * iOS
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/28/2017
 
 ## <a name="to-use-remote-lock-to-lock-your-device"></a>Удаленная блокировка устройства
 
-1.  На [веб-сайте корпоративного портала](https://portal.manage.microsoft.com) нажмите кнопку __меню__ ![Небольшое изображение кнопки меню, три параллельных горизонтальных линии](/Intune/whats-new/media/CP_hamburger_menu.png), а затем выберите __Мои устройства__.
+1.  На [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog) нажмите кнопку __меню__ ![Небольшое изображение кнопки меню, три параллельных горизонтальных линии](/Intune/whats-new/media/CP_hamburger_menu.png), а затем выберите __Мои устройства__.
 
   ![Изображение веб-сайта корпоративного портала с развернутым боковым меню в левой части экрана и кнопками "Главная", "Все приложения", "Мои устройства", "Служба поддержки" и "Выход".](/media/iwp-expanded-sidebar.png)
 
@@ -65,4 +65,4 @@ ms.lasthandoff: 09/28/2017
 
 Если вы нашли устройство и хотите разблокировать его после удаленной блокировки, просто введите секретный код.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

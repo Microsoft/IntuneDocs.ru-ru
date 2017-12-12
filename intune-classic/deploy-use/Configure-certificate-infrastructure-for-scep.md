@@ -2,8 +2,8 @@
 title: "Настройка инфраструктуры сертификатов для SCEP"
 description: "Инфраструктура для создания и развертывания профилей сертификатов SCEP."
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 11/15/2016
 ms.topic: article
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 486c223181e831680c46495a3014701211fcd716
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 54b8a14c01e0a08e76843b02f00124117617540d
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="configure-certificate-infrastructure-for-scep"></a>Настройка инфраструктуры сертификатов для SCEP
 

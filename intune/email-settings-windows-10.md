@@ -3,8 +3,8 @@ title: "Параметры электронной почты для устрой
 titleSuffix: Azure portal
 description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows 10.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 02/15/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 2ffafbd0-4b5d-4c86-a46b-611f9b7a58e5
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 61cd80fafa961ec75c400a03dbbc00ce24b99abb
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 446eac9d6ba88781613f6e197f478755c8ccc8a9
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="email-profile-settings-for-windows-10-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Windows 10 в Microsoft Intune
 
