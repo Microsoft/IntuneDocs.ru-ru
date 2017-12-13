@@ -89,8 +89,8 @@
           href: data-outside-protect.md
         - name: Предотвращение утечки данных на неуправляемых устройствах
           href: data-leak-prevention.md
-        - name: BYOD
-          href: byod-enable.md
+        - name: Сравнение MDM и MAM
+          href: byod-technology-decisions.md
     - name: Руководство по миграции
       href: migration-guide.md
       items:
@@ -552,6 +552,8 @@
   items:
     - name: Помощь пользователям в устранении проблем
       href: help-desk-operators.md
+    - name: Журналы аудита для действий Intune
+      href: monitor-audit-logs.md
     - name: Использование хранилища данных Intune
       href: reports-nav-create-intune-reports.md
       items:
