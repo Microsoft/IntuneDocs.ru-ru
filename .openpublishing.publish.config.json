@@ -7,7 +7,7 @@
       "build_output_subfolder": "intune",
       "locale": "ru-ru",
       "monikers": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -35,7 +35,7 @@
       "build_output_subfolder": "intune-user-help",
       "locale": "ru-ru",
       "monikers": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -50,7 +50,7 @@
       "build_output_subfolder": "intune-azure-redir",
       "locale": "ru-ru",
       "monikers": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
