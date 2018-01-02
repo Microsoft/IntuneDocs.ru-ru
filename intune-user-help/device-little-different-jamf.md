@@ -1,11 +1,11 @@
 ---
-title: "Это устройство немного отличается | Документы Майкрософт"
+title: "Ошибки, которые могут возникать при использовании портала самообслуживания Jamf | Документы Майкрософт"
 description: "Сведения об устройствах с macOS с поддержкой Intune, находящихся под управлением Jamf."
 keywords: Mac OS X, Mac OS, OS X
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 10/13/2017
+ms.date: 12/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 14db11738b1ef34a9180515e5f909ff1960bfbb0
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: 080bc7c287dcc068ac18a3aec60295e777840368
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="performing-actions-on-a-macos-device-managed-by-jamf"></a>Выполнение действий с устройством macOS, находящимся под управлением Jamf
 
@@ -28,4 +28,8 @@ ms.lasthandoff: 11/08/2017
 
 Если на устройстве macOS под управлением Jamf есть проблемы с соответствием требованиям, нажмите кнопку **Устранить**, чтобы запустить средство **самообслуживания**.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [корпоративном портале](https://portal.manage.microsoft.com).
+__Что делать, если возникает ошибка AccountNotOnboarded или "Устройство уже зарегистрировано"__
+
+Если вы открыли приложение "Корпоративный портал" и видите сообщение "AccountNotOnboarded", необходимо закрыть приложение "Корпоративный портал" и перейти в раздел **Приложения** > **Самообслуживание**. В вашей организации применена политика регистрации устройств, которую необходимо установить. Щелкните политику, чтобы установить ее, а затем снова откройте приложение "Корпоративный портал".
+
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [корпоративном портале](https://portal.manage.microsoft.com#HelpDeskDialog).
