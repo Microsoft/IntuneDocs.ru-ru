@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 11/08/2017
+ms.date: 12/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 68d93fe98b89f27c947e07d79eca9a0e02dea582
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 1c78c41b9883cac41b4506c1c02790008115e210
+ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 12/07/2017
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
@@ -69,6 +69,17 @@ ms.lasthandoff: 11/09/2017
    - **Управлять всеми устройствами в качестве Android**. Все устройства Android, включая устройства, поддерживающие Android for Work, регистрируются как обычные устройства Android.
    - **Управлять поддерживаемыми устройствами в качестве Android for Work**. Все устройства, поддерживающие Android for Work, регистрируются в качестве устройств Android for Work. Любое устройство Android, которое не поддерживает Android for Work, регистрируется как обычное устройство Android.
    - **Управлять поддерживаемыми устройствами лишь для пользователей в указанных группах в качестве Android for Work**. Вы можете применить управление Android for Work к ограниченному кругу пользователей. Устройства, поддерживающие Android for Work, регистрируются как устройства Android for Work, только для членов выбранных групп. Все остальные устройства регистрируются как устройства Android. Это удобно при реализации пилотных проектов Android for Work.
+
+## <a name="approve-the-company-portal-app-in-the-managed-google-play-store"></a>Утверждение приложения "Корпоративный портал" в управляемом магазине Google Play
+Чтобы приложение "Корпоративный портал" для Android автоматически получало обновления, его необходимо утвердить в управляемом магазине Google Play. Если не сделать этого, со временем приложение устареет и не будет получать важные исправления ошибок и новые функции, выпускаемые корпорацией Майкрософт.
+
+Чтобы утвердить приложение "Корпоративный портал Intune", выполните указанные ниже действия.
+
+1.  Скачайте приложение "Корпоративный портал" в [управляемом магазине Google Play](https://play.google.com/work/apps/details?id=com.microsoft.windowsintune.companyportal).
+2.  Войдите в управляемый магазин Google Play, используя учетную запись Google, которая применялась для настройки привязки Android for Work.
+3.  Нажмите кнопку **Одобрить**.  Откроется новое диалоговое окно.
+4.  Просмотрите разрешения в диалоговом окне и нажмите кнопку **Одобрить**. Эти разрешения необходимо одобрить, чтобы разрешить приложению "Корпоративный портал" управлять рабочим профилем на устройстве.
+5.  Выберите параметр **Сохранить утверждение при запросе приложением новых разрешений**, а затем нажмите кнопку **Сохранить**.
 
 <!--  ## Next steps for Android for Work
 After configuring the Android for Work binding and settings, you can do the following:

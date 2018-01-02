@@ -3,10 +3,10 @@ title: "Настройка параметров возможностей уст�
 titleSuffix: Azure portal
 description: "Сведения о настройке возможностей на управляемых устройствах с помощью Intune.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
-ms.date: 06/03/2017
+ms.date: 12/7/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4a2723bfc0adecd9b6265b4af43e6fe185882b5e
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: ea280ac6858485aa4e3d64d11835f002c5bb35ca
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-configure-device-feature-settings-in-microsoft-intune"></a>Настройка параметров возможностей устройств в Microsoft Intune
 
@@ -47,6 +47,7 @@ ms.lasthandoff: 09/15/2017
     - [Параметры макета начального экрана для iOS](home-screen-settings-ios.md)
     - [Параметры уведомлений приложения для iOS](app-notification-settings-ios.md)
     - [Параметры конфигурации iOS общего устройства](shared-device-settings-ios.md)
+    - [Настройка единого входа на устройствах с iOS для Intune](sso-ios.md)
     - [Параметры фильтра веб-содержимого для iOS](web-content-filter-settings-ios.md)
 
 8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.

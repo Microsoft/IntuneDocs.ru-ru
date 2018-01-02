@@ -3,8 +3,8 @@ title: "Параметры ограничений Intune для применен
 titleSuffix: Azure portal
 description: "Узнайте о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств iOS.\""
 keywords: 
-author: lleonard-msft
-ms.author: alleonar
+author: vhorne
+ms.author: victorh
 manager: angrobe
 ms.date: 11/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 73590192-54ca-4833-9f1d-83e1b654399f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2f35de553259921c76341fe5b4a824e60c71d4a5
-ms.sourcegitcommit: 0f877251e6adf4e45b918cc8dc9193626727f2d9
+ms.openlocfilehash: b871726c887916662986008010e0728811f2ba98
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="ios-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств iOS в Microsoft Intune
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 - **Изменение настроек уведомлений (только в защищенном режиме).** Разрешает пользователю изменять параметры уведомлений для устройства.
 - **Изменение обоев (только в защищенном режиме).** Разрешает пользователю сменить обои для устройства.
 - **Изменение настроек доверия в приложении предприятия (только в защищенном режиме).** Позволяет пользователю выбрать доверенное приложение, не скачанное из магазина.
-- **Изменения в профиле конфигурации.** Разрешает пользователям устанавливать профили конфигурации.
+- **Изменения в профиле конфигурации (только в защищенном режиме)**. Разрешает пользователям устанавливать профили конфигурации.
 - **Блокировка активации (только в защищенном режиме).** Включает блокировку активации на защищенных устройствах iOS.
 
 ## <a name="configurations-requiring-supervision"></a>Конфигурации, требующие защищенного режима

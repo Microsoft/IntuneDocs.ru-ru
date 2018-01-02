@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,22 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7ec7f322f0d35d50a7c84d8e40d43a6a04ae1b7d
-ms.sourcegitcommit: 0b96ae18524eb976df01a5340631ef331357e666
+ms.openlocfilehash: 61306d1da81340ef2e922abdf944243eac8de219
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для приложения конечного пользователя Intune
 Ознакомьтесь с изменениями, внесенными в пользовательский интерфейс для приложений в этом выпуске Microsoft Intune. Взаимодействовать с пользователями станет проще, и вы сможете добавить актуальную информацию в собственную документацию по своему развертыванию. Вы также поймете, как эффективнее решать проблемы, когда пользователи обращаются в службу поддержки по вопросам работы на корпоративном портале.
+
+## <a name="week-of-november-27-2017"></a>Неделя с 27 ноября 2017 г.
+
+### <a name="new-device-categories-step-in-guided-setup-for-the-company-portal-app-for-windows-10----1335292---"></a>Новый этап "Категории устройств" в интерактивной программе установки приложения "Корпоративный портал" для Windows 10 <!---1335292--->
+
+Если вы включили [сопоставление групп устройств](device-group-mapping.md), в приложении "Корпоративный портал" для Windows 10 теперь приводятся пошаговые инструкции для пользователей по выбору категории устройства после его регистрации.
+
+![Категория сопоставления групп устройств](./media/w10_cp_category_device_setup_after_1711.png)
 
 ## <a name="week-of-november-13-2017"></a>Неделя с 13 ноября 2017 г.
 

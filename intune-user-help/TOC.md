@@ -4,7 +4,7 @@
 
 ## [Какие сведения моей организации можно увидеть с помощью Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 
-## [Что происходит при сбросе параметров устройства?](what-happens-if-you-reset-your-device-cpwebsite.md)
+## [Сброс устройства](what-happens-if-you-reset-your-device-cpwebsite.md)
 
 ## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)
 
@@ -66,15 +66,15 @@
 ### [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
 ### [Что происходит при сбросе вашего устройства с помощью корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-ios.md)
 ### [Сброс устройства](reset-erase-your-device-cpwebsite.md)
-### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
 ### [Отмена регистрации устройства](unenroll-your-device-from-intune-ios.md)
 #### [Что происходит при отмене регистрации устройства?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
 ### [Синхронизация устройства вручную](sync-your-device-manually-ios.md)
 
-### [Решение распространенных проблем с iOS](troubleshoot-your-device-iOS.md)
+#### [Решение распространенных проблем с iOS](troubleshoot-your-device-iOS.md)
 #### [Повторное подключение к скомпрометированному устройству iOS](how-to-reconnect-a-compromised-ios-device.md)
 #### [Отправка сведений об ошибках в компанию](send-errors-to-your-it-admin-ios.md)
 #### [Отправка сведений об ошибках в корпорацию Майкрософт](send-logs-to-microsoft-ios.md)
+#### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
 #### [Появилось сообщение об ошибке](you-get-an-error-while-using-the-company-portal-app-ios.md)
 #### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
 #### [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-ios.md)
@@ -97,11 +97,20 @@
 ### [Что происходит при регистрации устройства с macOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
 ### [Регистрация устройства macOS](enroll-your-device-in-intune-macos-cp.md)
 ### [Регистрация устройства с macOS прежних версий](enroll-your-device-in-intune-macos-legacy.md)
-### [Если устройство немного отличается](device-little-different-jamf.md)
+### [Отмена регистрации устройства с macOS](unenroll-your-device-from-intune-macos.md)
+
+### [Решение распространенных проблем с macOS](troubleshoot-your-device-macos.md)
+#### [Моя версия macOS еще не поддерживается](your-macos-version-isnt-yet-supported.md)
+#### [Обновление устройства с macOS](you-need-to-update-your-macos-device.md)
+#### [Отправка сведений об ошибках на корпоративном портале](send-errors-macos.md)
+#### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-macos.md)
+#### [Если устройство немного отличается](device-little-different-jamf.md)
+#### [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-macos.md)
+#### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
 
 ## [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
-### [Что происходит при регистрации устройства с Windows 10?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
-### [Что происходит при регистрации устройства с Windows другой версии?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+### [Регистрация устройств с Windows 10](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
+### [Регистрация других версий Windows](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 
 ### [Регистрация устройства с Windows](enroll-your-device-in-intune-windows.md)
 ### [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
@@ -128,6 +137,6 @@
 #### [Мне нужно включить брандмауэр](you-need-to-enable-defender-firewall-windows.md)
 #### [Мне нужно включить контроль учетных записей](you-need-to-enable-uac-windows.md)
 #### [Мне нужно обновить Windows](you-need-to-update-os-build-version-windows.md)
-#### [Мне нужно включить Защитник Windows](turn-on-defender-windows.md) 
+#### [Мне нужно включить Защитник Windows](turn-on-defender-windows.md)
 
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)

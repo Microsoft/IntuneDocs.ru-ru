@@ -198,7 +198,7 @@
           href: device-logout-user.md
         - name: Удаление пользователя
           href: device-remove-user.md
-        - name: Удаленное управление устройством Android
+        - name: Удаленное управление мобильными устройствами
           href: device-profile-android-teamviewer.md
         - name: Сброс PIN-кода в Windows 10
           href: device-windows-pin-reset.md
@@ -236,6 +236,8 @@
               href: apps-add-android-for-work.md
             - name: Приложения Office 365 для Windows 10
               href: apps-add-office365.md
+            - name: "Приложения Office\_365 для macOS"
+              href: apps-add-office365-macos.md
         - name: Назначение приложений
           href: apps-deploy.md
         - name: Мониторинг приложений
@@ -417,6 +419,10 @@
           href: app-modern-authentication-block.md
         - name: Мониторинг соответствия условного доступа
           href: conditional-access-exchange-monitor.md
+        - name: Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
+          href: conditional-access-integrate-jamf.md
+        - name: Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
+          href: conditional-access-assign-jamf.md
     - name: Защита данных приложения и устройства
       items:
         - name: Использование политик защиты приложений

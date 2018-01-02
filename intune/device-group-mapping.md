@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 08/09/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,14 +14,13 @@ ms.technology:
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e34b9cd030244db4bdde78eedbb0f874f49fa1e1
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: ddcd4639c1f5a0949be46025e16e44d0b6ac6616
+ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="map-device-groups"></a>Сопоставление групп устройств
-
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -54,7 +53,7 @@ ms.lasthandoff: 09/15/2017
 ### <a name="step-2---create-azure-active-directory-security-groups"></a>Шаг 2. Создание групп безопасности Azure Active Directory
 На этом шаге на портале Azure создаются динамические группы с использованием категории устройств и имени категории устройств.
 
-Дальнейшие действия описываются в разделе [Использование атрибутов для создания расширенных правил](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) в документации по Azure Active Directory. 
+Дальнейшие действия описываются в разделе [Использование атрибутов для создания расширенных правил](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) в документации по Azure Active Directory.
 
 Сведения из этого раздела помогут создать группу устройств с расширенным правилом с использованием атрибута **deviceCategory**. Например: (**device.deviceCategory -eq** "*<the device category name you got from the Azure portal>*").
 
@@ -84,7 +83,7 @@ ms.lasthandoff: 09/15/2017
 
 Когда конечные пользователи устройств iOS и Android регистрируют свои устройства, им нужно выбрать категорию из списка заданных категорий. После выбора категории и завершения регистрации устройство добавляется в группу устройств Intune или группу безопасности Active Directory, соответствующую выбранной категории.
 
-Чтобы назначить категорию устройству Windows, конечные пользователи должны использовать веб-сайт корпоративного портала (portal.manage.microsoft.com) после регистрации устройства. Откройте этот веб-сайт на устройстве Windows и перейдите в раздел **Меню** > **Мои устройства**. Выберите зарегистрированное устройство в списке и укажите категорию. 
+Вне зависимости от платформы пользователи всегда могут перейти на портал portal.manage.microsoft.com после регистрации устройств. Проинструктируйте пользователей перейти на веб-сайт корпоративного портала и выбрать раздел **Мои устройства**. Пользователь может выбрать зарегистрированное устройство в списке, а затем выбрать категорию.
 
 После выбора категории устройство автоматически добавляется в соответствующую созданную группу. Если устройство было зарегистрировано до настройки категорий, конечный пользователь увидит соответствующее уведомление на веб-сайте корпоративного портала. В этом случае в следующий раз, когда конечный пользователь попробует получить доступ к приложению корпоративного портала в iOS или Android, появится запрос на выбор категории.
 
@@ -92,5 +91,3 @@ ms.lasthandoff: 09/15/2017
 - На портале Azure можно изменить категорию устройства, но в этом случае необходимо вручную обновить все группы безопасности Azure Active Directory, которые ссылаются на эту категорию.
 
 - При удалении категории во всех назначенных устройствах будет отображаться имя категории **Не назначено**.
-
-

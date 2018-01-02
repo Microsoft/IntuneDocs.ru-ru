@@ -15,11 +15,11 @@ ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6a9925b91b009f43c08533222a5fdfc765ea51c2
-ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
+ms.openlocfilehash: 6d63ddcd8f60ac3491087e3e76949f2a49cf7b9b
+ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2017
+ms.lasthandoff: 12/07/2017
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Настройка интеграции Lookout Mobile Threat Defense с Intune
 
@@ -72,7 +72,8 @@ ms.lasthandoff: 09/19/2017
 2.  При первом входе в консоль Lookout следует использовать учетную запись пользователя с ролью глобального администратора Azure AD для регистрации вашего клиента Azure AD. Для последующего входа такой уровень прав Azure AD не потребуется. Открывается страница согласия. Выберите **Принять** для завершения регистрации. Приняв условия, вы будете перенаправлены в консоль Lookout.
 
     ![снимок экрана страницы первоначального входа в консоль Lookout](./media/lookout_mtp_initial_login.png)
-    > [Примечание]. В разделе [Диагностика интеграции Lookout](https://docs.microsoft.com/intune/troubleshoot/troubleshooting-lookout-integration) описаны способы устранения проблем со входом в систему.
+    > [!NOTE] 
+    > В разделе [Диагностика интеграции Lookout](https://docs.microsoft.com/intune/troubleshoot/troubleshooting-lookout-integration) описаны способы устранения проблем со входом в систему.
 
 3.  В модуле **Система** [консоли Lookout](https://aad.lookout.com) выберите **Соединители** и **Intune**.
 
@@ -85,7 +86,8 @@ ms.lasthandoff: 09/19/2017
 ## <a name="configure-enrollment-groups"></a>Настройка групп регистрации
 1. Рекомендуется создать на [портале управления Azure AD](https://manage.windowsazure.com) группу безопасности, содержащую небольшое число пользователей, для проверки интеграции с Lookout.
 
-    > [Примечание]. Если пользователи входят в группу регистрации, любые их распознаваемые и поддерживаемые устройства, поддерживающие Lookout и зарегистрированные в Intune, регистрируются и могут быть активированы в консоли Lookout MTD.
+    > [!NOTE] 
+    > Если пользователи входят в группу регистрации, любые их распознаваемые и поддерживаемые устройства, поддерживающие Lookout и зарегистрированные в Intune, регистрируются и могут быть активированы в консоли Lookout MTD.
 
 2. В модуле **Система** [консоли Lookout](https://aad.lookout.com) откройте вкладку **Соединители** и выберите **Enrollment Management** (Управление регистрацией), чтобы задать набор пользователей, устройства которых должны быть зарегистрированы в Lookout. Добавьте **Отображаемое имя** группы безопасности Azure AD для регистрации.
 
