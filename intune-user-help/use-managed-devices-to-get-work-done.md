@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 11/07/2017
+ms.date: 12/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -16,11 +16,11 @@ ROBOTS:
 ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: d8a5989358da932e4e8ce59528602fefb2265528
-ms.sourcegitcommit: e692be57ec7044dfc224b70941affbfd7efba421
+ms.openlocfilehash: 599da7c664c139eac472c8d9ec2e418c01eeaeb4
+ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="use-managed-devices-to-get-work-done"></a>Использование управляемых устройств для выполнения задач
 Microsoft Intune — это программное обеспечение, которое позволяет организациям управлять устройствами (например, смартфонами, планшетами и компьютерами), приложениями и другими ресурсами организации, такими как сообщения электронной почты. Благодаря этому ПО сотрудники получают доступ к рабочей информации практически из любого места и с любого устройства, при этом корпоративные данные находятся в безопасности.
@@ -34,7 +34,7 @@ Microsoft Intune — это программное обеспечение, ко
 Доступ к корпоративному порталу можно получить двумя способами:
 
 - Установив приложение корпоративного портала на устройство. Обычно приложение "Корпоративный портал" устанавливается через магазин приложений на вашем устройстве, но его также может установить служба поддержки вашей компании.
-- Путем перехода на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), который настроила служба поддержки вашей компании.
+- Путем перехода на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog), который настроила служба поддержки вашей компании.
 
 ## <a name="whats-the-difference-between-the-app-and-the-website"></a>Какова разница между приложением и веб-сайтом?
 Между приложением и веб-сайтом корпоративного портала существуют небольшие различия, но большая часть задач в них выполняется одинаково. Задачи, которые вы можете выполнять:
@@ -60,8 +60,9 @@ Microsoft Intune — это программное обеспечение, ко
 Чтобы узнать, что именно может или не может служба поддержки вашей компании просматривать на вашем устройстве, используйте ссылку, соответствующую типу устройства:
 
 - [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
-- [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство iOS или macOS в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
-- [What information can my company see when I enroll my device in Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md) (Какие сведения могут видеть сотрудники компании при регистрации моего устройства в Intune?)
+- [Установка приложения "Корпоративный портал" для iOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
+- [Установка приложения "Корпоративный портал" для macOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
+- [What information can my company see when I enroll my device in Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md) (Какие сведения могут видеть сотрудники компании при регистрации моего устройства в Intune?)
 
 ## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>Какие компьютеры или устройства можно добавлять на корпоративный портал?
 -   Устройства Apple на основе iOS (например, iPhone и iPad) и macOS (например, MacBook и iMac)
@@ -78,7 +79,8 @@ Microsoft Intune — это программное обеспечение, ко
 При *удалении* компьютера или устройства с корпоративного портала отменяется регистрация устройства в Intune. После отмены регистрации вы больше не сможете обращаться к корпоративному порталу с этого устройства, и некоторые корпоративные данные могут быть удалены с вашего устройства. Чтобы узнать, как удалить устройство из корпоративного портала, выберите одну из следующих ссылок:
 
 - [Отмена регистрации устройства Android в Intune](unenroll-your-device-from-intune-android.md)
-- [Отмена регистрации устройства iOS в Intune](unenroll-your-device-from-intune-ios.md)
+- [Отмена регистрации устройства с iOS](unenroll-your-device-from-intune-ios.md)
+- [Отмена регистрации устройства с macOS](unenroll-your-device-from-intune-macos.md)
 - [Отмена регистрации устройства с Windows в Intune](unenroll-your-device-from-intune-windows.md)
 
 При *сбросе* компьютера или устройства корпоративный портал пытается выполнить сброс устройства до заводских настроек по умолчанию. При сбросе устройства с него удаляются все корпоративные и персональные данные! В случае потери устройства вы сможете удаленно сбросить его с веб-сайта корпоративного портала.
@@ -95,6 +97,7 @@ Microsoft Intune — это программное обеспечение, ко
 
 - [Решение распространенных проблем с устройствами с Android](troubleshoot-your-device-android.md)
 - [Решение распространенных проблем с устройствами с iOS](troubleshoot-your-device-ios.md)
+- [Решение распространенных проблем с устройствами с macOS](troubleshoot-your-device-macos.md)
 - [Решение распространенных проблем с устройствами с Windows](troubleshoot-your-device-windows.md)
 
-Ниже вы можете разместить комментарий с описанием проблемы, но у каждой организации есть свои собственные требования, поэтому мы не всегда можем ответить на ваши вопросы. Чтобы получить наиболее быстрый и точный ответ, следует обратиться в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com).
+Ниже вы можете разместить комментарий с описанием проблемы, но у каждой организации есть свои собственные требования, поэтому мы не всегда можем ответить на ваши вопросы. Чтобы получить наиболее быстрый и точный ответ, следует обратиться в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
