@@ -27,12 +27,14 @@
 ### [Решение распространенных проблем с Android](troubleshoot-your-device-android.md)
 #### [Проверка соответствия устройств требованиям](check-compliance-on-your-device-android.md)
 #### [Синхронизация почты в Outlook в режиме экономии заряда](power-saving-mode-android.md)
+#### [Решение распространенных проблем с Samsung Knox](samsung-knox-errors-android.md)
 
 #### Использование журналов для устранения проблем
 ##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 ##### [Отправка журналов по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
 ##### [Отправка журналов при помощи USB-кабеля](send-logs-to-your-it-admin-using-cable-android.md)
 ##### [Отправка сведений об ошибках регистрации](send-enrollment-errors-to-your-it-admin-android.md)
+##### [Отправка сведений об ошибках в корпорацию Майкрософт](send-logs-to-microsoft-android.md)
 
 ### Вопросы по операционным системам
 #### [Обновление устройства](you-need-to-update-your-android-device.md)
@@ -74,6 +76,7 @@
 #### [Повторное подключение к скомпрометированному устройству iOS](how-to-reconnect-a-compromised-ios-device.md)
 #### [Отправка сведений об ошибках в компанию](send-errors-to-your-it-admin-ios.md)
 #### [Отправка сведений об ошибках в корпорацию Майкрософт](send-logs-to-microsoft-ios.md)
+#### [Найдена существующая учетная запись электронной почты компании](existing-company-email-account-found.md)
 #### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
 #### [Появилось сообщение об ошибке](you-get-an-error-while-using-the-company-portal-app-ios.md)
 #### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
@@ -109,13 +112,13 @@
 #### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
 
 ## [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
-### [Регистрация устройств с Windows 10](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
-### [Регистрация других версий Windows](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
-
+### [Что происходит при регистрации устройства с Windows 10?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
+#### [Что происходит при регистрации других версий Windows?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 ### [Регистрация устройства с Windows](enroll-your-device-in-intune-windows.md)
-### [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
+#### [Регистрация устройства на базе Windows 10](enroll-your-w10-phone-or-w10-pc-windows.md)
+#### [Регистрация устройства Windows 8.1 или Windows RT 8.1](enroll-your-w81-or-rt81-windows.md)
+#### [Регистрация устройства Windows Phone 8.1](enroll-your-wp81-windows.md)
 ### [Сброс устройства](reset-erase-your-device-cpwebsite.md)
-
 ### [Шифрование устройства](encrypt-your-device-windows.md)
 ### [Установка или изменение пароля](set-or-change-your-password-windows.md)
 ### [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-windows.md)

@@ -527,7 +527,7 @@
             - name: Брандмауэр Windows
               href: /intune-classic/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune
               maintainContext: true
-            - name: "Endpoint\_Protection"
+            - name: Endpoint Protection
               href: /intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune
               maintainContext: true
         - name: Добавление приложений для клиентских компьютеров Intune
