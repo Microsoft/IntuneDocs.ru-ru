@@ -3,8 +3,8 @@ title: "Управление доступом на основе ролей с п
 titleSuffix: Azure portal
 description: "Предварительная версия Intune Azure. Узнайте, как RBAC позволяет управлять назначением пользователей, которые могут выполнять действия и вносить изменения."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
 ms.date: 06/21/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 791d93326ed1af173606d28639e92647ed7c1312
-ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
+ms.openlocfilehash: e33ee50ea7973a2ea2cf71c06255d99e1bc48f45
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="role-based-administration-control-rbac-with-intune"></a>Управление доступом на основе ролей (RBAC) с помощью Intune
 
@@ -124,10 +124,10 @@ ms.lasthandoff: 12/07/2017
 <br></br>
 5. По завершении нажмите кнопку **ОК**. Новое назначение отобразится в списке назначений.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Использование роли оператора службы технической поддержки Intune на портале диагностики](help-desk-operators.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [Назначение ролей с помощью Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-assign-role-azure-portal)

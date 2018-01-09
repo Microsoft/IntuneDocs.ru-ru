@@ -2,8 +2,8 @@
 title: "Сущность IntuneManagementExtension | Документация Майкрософт"
 description: "Справочник по категории \"Сущность IntuneManagementExtension\" коллекций сущностей в API хранилища данных Intune."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 11/06/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 73DF3B90-6D52-4EF6-AFFD-1873A18C7421
 ms.reviewer: dariusz
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 30908e4dbb55e16db0e253330175f65fb127d523
-ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
+ms.openlocfilehash: 91a4c46f0ed4681b6633a682e2c6c6a3d1d48521
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-intune-management-extension"></a>Справочник по расширению управления Intune
 

@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 02/15/2017
+ms.date: 12/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1447c123-ea33-4ea0-aab4-69577cdb8d00
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 27b29c7e7dd256484763b9a0cbe9e76f32fe74d8
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: fe6878601f84ccf6c7296a039060b4049a17e22d
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="vpn-settings-for-ios-devices-in-microsoft-intune"></a>Параметры VPN для устройств iOS в Microsoft Intune
 

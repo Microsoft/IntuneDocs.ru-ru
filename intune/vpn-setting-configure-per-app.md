@@ -3,8 +3,8 @@ title: "Настройка VPN на уровне приложения на ус�
 titleSuffix: Intune on Azure
 description: "Сведения о том, какие управляемые приложения могут использовать VPN на устройствах iOS, управляемых Intune."
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/5/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c883ab2b96618502be20583908a4caa52ac5432b
-ms.sourcegitcommit: 6004fe51e3cee6fb34514ed0d56e20587ecafeb4
+ms.openlocfilehash: 1a37fcc372db6fec9f460fdc242cd6d2294f96e1
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="set-up-per-app-vpn-in-microsoft-intune-for-ios-devices"></a>Настройка VPN на уровне приложения на устройствах iOS с Microsoft Intune
 
@@ -182,7 +182,7 @@ To review event logs:
 2. Open the **iPhone Configuration Utility** (IPCU). If you do not have a copy, you can install it from [CompatCenter](http://www.microsoft.com/en-us/windows/compatibility/CompatCenter/ProductDetailsViewer?Name=iPhone%20Configuration%20Utility&vendor=Apple&Locale=1033%2C2057%2C3081%2C4105%2C16393&ModelOrVersion=3&BreadCrumbPath=iphone%20configuration%20utility&LastSearchTerm=iphone%2Bconfiguration%2Butility&Type=Software&tempOsid=Windows%208.1)
 3. Review the logs. -->
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Чтобы просмотреть параметры iOS, см. статью [Параметры VPN для устройств iOS в Microsoft Intune](vpn-settings-ios.md).
 -  Дополнительные сведения о параметрах VPN и Intune см. в статье [Настройка параметров VPN в Microsoft Intune](vpn-settings-configure.md).

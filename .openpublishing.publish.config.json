@@ -1,4 +1,4 @@
-{
+﻿{
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
@@ -106,8 +106,12 @@
     "live": [ 
       "Publish", 
       "Pdf" 
+    ], 
+    "live-sxs": [ 
+      "Publish", 
+      "Pdf" 
     ] 
-  },
+  }, 
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "Targets": {

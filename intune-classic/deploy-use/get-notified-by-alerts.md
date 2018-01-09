@@ -8,18 +8,18 @@ manager: angrobe
 ms.date: 8/31/2017
 ms.topic: article
 ms.prod: 
-ms.service: microsoft intune
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 396ea714 0433 4bd5 a934 8d0b477f28e4
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune classic
-ms.openlocfilehash: 287e8f3736082e427481d7a8a363947d4c42cdd6
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 1e7ad299b91fe8e258d6769eed6f199bdb7f0537
+ms.sourcegitcommit: 12b2111839e648f85374c1c0db4288f08e0ef85d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/09/2018
 ---
 #  <a name="use-alerts-to-get-notified-by-microsoft-intune"></a>Использование оповещений для получения уведомлений от Microsoft Intune
 

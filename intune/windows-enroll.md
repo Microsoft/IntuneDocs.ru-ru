@@ -3,9 +3,9 @@ title: "Регистрация устройств Windows"
 titlesuffix: Azure portal
 description: "Включение управления мобильными устройствами Intune (MDM) для устройств Windows."
 keywords: 
-author: nathbarn
-manager: nathbarn
-ms.date: 11/29/2017
+author: ErikjeMS
+manager: erikje
+ms.date: 12/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bf9ae5f05e21fa2ca7be4af08dace5b96315cec3
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 308522e0a54d47595294b8f1c31e92a965a09ef4
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="enroll-windows-devices"></a>Регистрация устройств Windows
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 12/12/2017
 
 Несмотря на то, что создавать записи CNAME в DNS не обязательно, записи CNAME позволяют упростить регистрацию для пользователей. Если запись CNAME для регистрации не обнаружена, пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.com.
 
-|Тип|Имя узла|Указывает на|СРОК ЖИЗНИ|
+|Type|Имя узла|Указывает на|СРОК ЖИЗНИ|
 |----------|---------------|---------------|---|
 |CNAME|EnterpriseEnrollment.company_domain.com|EnterpriseEnrollment-s.manage.microsoft.com| 1 час|
 |CNAME|EnterpriseRegistration.company_domain.com|EnterpriseRegistration.windows.net|1 час|
@@ -87,6 +87,6 @@ ms.lasthandoff: 12/12/2017
 
 Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](end-user-educate.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Рекомендации по управлению устройствами Windows с помощью Intune в Azure](/intune-classic/deploy-use/intune-on-azure).

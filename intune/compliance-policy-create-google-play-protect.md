@@ -3,8 +3,8 @@ title: "Включение соответствия требованиям Googl
 titleSuffix: Azure portal
 description: "Узнайте, как создать политику соответствия требованиям на устройствах Android для включения Google Play Защиты."
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 11/20/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: E9810BEB-000A-4DFB-B5C7-A22A92082B22
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d610bc338c1bcf81ed3bc71f1357e001914c5877
-ms.sourcegitcommit: 71e6e80b7370024624ce2e5fad1ca5b372975748
+ms.openlocfilehash: 3d9e687ff31d50e30ea4d15a4eb751c0e78dc24e
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-to-enable-google-play-protect"></a>Создание политики соответствия устройств для включения Google Play Защиты
 
@@ -57,6 +57,6 @@ ms.lasthandoff: 11/21/2017
 
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 См. дополнительные сведения о [политиках соответствия устройств Intune](device-compliance-get-started.md).

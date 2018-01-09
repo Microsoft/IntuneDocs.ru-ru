@@ -3,8 +3,8 @@ title: "Регистрация устройств Android в Intune | Докум
 titlesuffix: Azure portal
 description: "Сведения о том, как зарегистрировать устройства Android в Intune."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 12/07/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1c78c41b9883cac41b4506c1c02790008115e210
-ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
+ms.openlocfilehash: ad018bdfa55b030f5d714017ae09f616ae2bf164
+ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
@@ -54,13 +54,13 @@ ms.lasthandoff: 12/07/2017
 2. **Настройка привязки Android for Work**<br>
     Войдите с правами администратора Intune на портал Azure и выберите **Другие службы** > **Мониторинг и управление** > **Intune**.
 
-   а. В колонке **Intune** выберите элемент **Регистрация устройств** > **Регистрация Android for Work** и щелкните **Настройка**, чтобы открыть веб-сайт Android for Work в Магазине Google Play. Он открывается на новой вкладке в браузере.
+   a. В колонке **Intune** выберите элемент **Регистрация устройств** > **Регистрация Android for Work** и щелкните **Настройка**, чтобы открыть веб-сайт Android for Work в Магазине Google Play. Он открывается на новой вкладке в браузере.
    ![Снимок экрана, содержащий ссылку на настройку привязки Android for Work](./media/android-work-bind.png)
 
    b. **Вход в Google**<br>
    На странице входа в Google выполните вход с учетной записью Google, которая будет связана со всеми задачами управления устройствами Android for Work для этого клиента. Это учетная запись Google, которую ИТ-администраторы вашей организации используют для управления приложениями и их публикации в консоли Play for Work.
 
-   в. **Указание данных об организации**<br>
+   c. **Указание данных об организации**<br>
    Укажите наименование своей организации в поле **Название организации**. Для параметра **Поставщик услуг Enterprise mobility management (EMM)** должно быть указано значение **Microsoft Intune**. Примите соглашение Android for Work и выберите элемент **Подтвердить**. Ваш запрос будет обработан.
 
 ## <a name="specify-android-for-work-enrollment-settings"></a>Настройка параметров регистрации Android for Work

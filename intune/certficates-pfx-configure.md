@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b72c4899debb0bbb7cb755327606cad1e239c611
-ms.sourcegitcommit: 6d5c919286b0e285f709d9b918624b927f99f979
+ms.openlocfilehash: a51d260718e0d0c3984966fab69e202b854c1847
+ms.sourcegitcommit: b2467a653ffd36c2248a30b69cb88e3dc7cca2ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="configure-and-manage-pkcs-certificates-with-intune"></a>Настройка инфраструктуры сертификатов Microsoft Intune для PKCS
 
@@ -53,12 +53,13 @@ ms.lasthandoff: 12/11/2017
 2. Откройте командную строку как администратор.
 3. Экспортируйте сертификат корневого ЦС в расположение, где вы сможете открыть его позже.
 
-   Например:
+   Пример.
+
+4.  После завершения работы мастера, но перед тем, как закрыть его, щелкните **Запустить пользовательский интерфейс соединителя сертификатов**.
 
    `certutil -ca.cert certnew.cer`
 
    Дополнительные сведения см. в разделе [Задачи Certutil для управления сертификатами](https://technet.microsoft.com/library/cc772898.aspx#BKMK_ret_sign).
-
 
 ## <a name="configure-certificate-templates-on-the-certification-authority"></a>Настройка шаблонов сертификатов в центре сертификации
 
@@ -91,7 +92,7 @@ ms.lasthandoff: 12/11/2017
     * Выберите шаблон, созданный на предыдущем шаге, и щелкните **ОК**.
 15. Чтобы сервер мог управлять сертификатами от имени зарегистрированных устройств и пользователей Intune, сделайте следующее:
 
-    а. Щелкните центр сертификации правой кнопкой мыши и выберите **Свойства**.
+    a. Щелкните центр сертификации правой кнопкой мыши и выберите **Свойства**.
 
     b. На вкладке Security (Безопасность) добавьте учетную запись компьютера для сервера, на котором запущен Microsoft Intune Certificate Connector.
       * Предоставьте для параметров **Issue and Manage Certificates** (Выдача сертификатов и управление ими) и **Request Certificates** (Запросить сертификаты) разрешения на доступ к учетной записи компьютера.

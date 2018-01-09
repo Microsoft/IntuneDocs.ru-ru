@@ -3,10 +3,10 @@ title: "Настройка Skycure для использования едино�
 titlesuffix: Azure portal
 description: "Настройка Skycure для использования единого входа Azure Active Directory с помощью Intune"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 06/09/2017
+ms.date: 12/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: e0466ac4-4942-4c4c-b8af-996b597c701d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 93e7f1a21c9badb3cc3ccdf02432267b271e6e94
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: d88048831f97ff1b29e296e3099e64b4a768eb04
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="configure-skycure-to-use-azure-active-directory-single-sign-on-sso"></a>Настройка Skycure для использования единого входа Azure Active Directory (SSO)
 
@@ -79,6 +79,6 @@ ms.lasthandoff: 09/09/2017
 > [!IMPORTANT] 
 > Skycure проверяет существование идентификатора клиента Azure AD, запрашивая Azure AD. После нахождения идентификатора администратор может переходить к следующему шагу (базовой настройке).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Скачать политику конфигурации приложения Skycure для iOS](skycure-ios-app-configuration-policy-download.md)

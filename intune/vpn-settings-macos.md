@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 05/04/2017
+ms.date: 12/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: d203a70d-37df-4195-85f7-ad5ef14ac2a1
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4633d3935aa97b31b8fc5331f1ab50911f8bcbe2
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 0a736ae0f1d1e7af5ab1452ed3d5480443e5fc8a
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="vpn-settings-for-macos-devices-in-microsoft-intune"></a>Параметры VPN для устройств macOS в Microsoft Intune
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/12/2017
 
 ## <a name="base-vpn-settings"></a>**Основные параметры VPN**
 
-**Имя подключения**. Введите имя подключения. Конечные пользователи увидят это имя при поиске устройства в списке доступных VPN-подключений.
+**Имя подключения.** Введите имя подключения. Конечные пользователи увидят это имя при поиске устройства в списке доступных VPN-подключений.
 - **IP-адрес или полное доменное имя**. Укажите IP-адрес или полное доменное имя VPN-сервера, к которому будут подключаться устройства. Примеры: **192.168.1.1**, **vpn.contoso.com**.
 - **Способ проверки подлинности.** Укажите, как устройства будут проходить проверку подлинности на VPN-сервере.
     - **Сертификаты.** В разделе **Сертификат проверки подлинности** выберите профиль сертификата SCEP или PKCS, созданный ранее для проверки подлинности подключения. Дополнительные сведения о профилях сертификатов см. в статье о [настройке сертификатов с помощью Microsoft Intune](certificates-configure.md).

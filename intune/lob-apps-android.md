@@ -3,8 +3,8 @@ title: "Добавление бизнес-приложений Android в Intune
 titlesuffix: Azure portal
 description: "Узнайте, как добавлять в Intune бизнес-приложения Android.\""
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/12/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 141d0499f055441ff099a5bec1c4ea695f77326c
-ms.sourcegitcommit: 9ccdac76e0b0716723452a6675b091f15a4d31f2
+ms.openlocfilehash: 3d421889f5c271770c2c97fe37ff82cedc531985
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="how-to-add-android-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune бизнес-приложения Android
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 11/20/2017
 
 [!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]Примечание. Чтобы служба Intune успешно развернула новый файл APK на устройстве, необходимо добавить строку android:versionCode в файле AndroidManifest.xml в пакет APK.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Созданное вами приложение появится в списке приложений. Теперь его можно назначить определенным группам. Сведения см. в статье о [назначении приложений группам](apps-deploy.md).
 
