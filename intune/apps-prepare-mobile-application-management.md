@@ -2,10 +2,10 @@
 title: "Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune"
 description: "Сведения этого раздела помогут решить, когда следует применить инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями."
 keywords: 
-author: mattbriggs
-ms.author: mabriggs
+author: erikre
+ms.author: erikre
 manager: angrobe
-ms.date: 02/08/2017
+ms.date: 08/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: oldang
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e6c464e16079df0c1188870b234615c811963f08
-ms.sourcegitcommit: f3b8fb8c47fd2c9941ebbe2c047b7d0a093e5a83
+ms.openlocfilehash: 40d0ddf78ed181dfc712bbaeee9499e3c56753ca
+ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -49,8 +49,8 @@ ms.lasthandoff: 10/11/2017
 
 |**Инструмент упаковки приложений** | **Xamarin** |**Cordova** |
 |------|----|----|
-|**iOS** |да|да|
-|**Android**| Нет |да|
+|**iOS** |Да|Да|
+|**Android**| Нет |Да|
 
 ## <a name="intune-app-sdk"></a>Пакет SDK для приложений Intune
 Пакет SDK для приложений предназначен главным образом для клиентов, имеющих приложения в Apple App Store или Магазине Google Play и стремящихся управлять ими с помощью Intune. Однако преимуществами интеграции пакета SDK может воспользоваться любое приложение, даже бизнес-приложение.
@@ -102,7 +102,7 @@ ms.lasthandoff: 10/11/2017
 |Целевая конфигурация приложения |X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||
 |Настраиваемый стиль |X|||
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Дополнительные сведения о политиках защиты приложений и Intune см. в следующих разделах.
 

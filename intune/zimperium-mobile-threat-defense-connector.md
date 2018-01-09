@@ -3,10 +3,10 @@ title: "Соединитель MTD Zimperium в Intune"
 titleSuffix: Intune on Azure
 description: "Интеграция соединителя Zimperium с Intune"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 09/06/2017
+ms.date: 12/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 975d8d84-792a-41ad-925a-4a7f1ae4dcaf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 78214293a66784d4bc05e441c2c1cdbf718b0a9a
-ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
+ms.openlocfilehash: 22fbdb95a0fe0c064f07dea2dca50c516b995b8d
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/19/2017
 
 ![Обнаружены вредоносные приложения](./media/Maliciousapps_blocked_Zimperium.png)
 
-**Доступ предоставлен после устранения угрозы:**
+**Доступ восстановлен после исправления:**
 
 ![Обнаружены вредоносные приложения, доступ предоставлен](./media/maliciousapps_unblocked_Zimperium.png)
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/19/2017
 
 ![Блокировка доступа к сети через Wi-Fi](./media/network_wifi_blocked_Zimperium.png)
 
-**Доступ предоставлен после устранения угрозы:**
+**Доступ восстановлен после исправления:**
 
 ![Доступ предоставляется после устранения угрозы](./media/network_wifi_unblocked_Zimperium.png)
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 09/19/2017
 
 ![Блокировка SharePoint Online при обнаружении сетевых угроз](./media/network_spo_blocked_Zimperium.png)
 
-**Доступ предоставлен после устранения угрозы:**
+**Доступ восстановлен после исправления:**
 
 ![Пример предоставления доступа к Sharepoint после устранения угрозы](./media/network_spo_unblocked_Zimperium.png)
 
@@ -85,17 +85,17 @@ ms.lasthandoff: 09/19/2017
 
 -   **iOS 8 и более поздние версии**
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные условия
 
 -   Azure Active Directory Premium
 
--   Подписка Microsoft Intune
+-   Подписка на Microsoft Intune
 
 -   Подписка на службу Mobile Threat Defense Zimperium
 
     -   Дополнительные сведения см. на [веб-сайте Zimperium](https://www.zimperium.com/zips-mobile-ips).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Интеграция Zimperium с Intune](zimperium-mtd-connector-integration.md)
 

@@ -2,8 +2,8 @@
 title: "Получение данных из API хранилища данных через клиент REST"
 description: "Получение данных из хранилища данных Intune с помощью RESTful API"
 keywords: 
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: D6D15039-4036-446C-A58F-A5E18175720A
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fb75d895a2100172fab337dcd740c076ff5e85b7
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 4991a2b26b97428fc54234ff35871d446107b950
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 11/09/2017
 4.  Выберите элемент **Выбор API**.
 5.  Найдите имя веб-приложения. Приложение называется **Microsoft Intune API**.
 6.  Выберите приложение в списке.
-7.  Выберите элемент **Выбрать**.
+7.  Нажмите кнопку **Выбрать**.
 8.  Установите флажок **Делегированные разрешения**, чтобы добавить параметр **Получать сведения о хранилище данных из Microsoft Intune**.
 
     ![Включение доступа](media\reports-get_rest_data_client_access.png)
@@ -222,7 +222,7 @@ namespace IntuneDataWarehouseSamples
 
 11.  Просмотрите выходные данные консоли. Выходные данные содержат данные в формате JSON, полученные из сущности **dates** в клиенте Intune.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Сведения об авторизации, структуре URL-адреса API и конечных точках OData см. в статье [Конечная точка API для хранилища данных Intune](reports-api-url.md). 
 

@@ -3,8 +3,8 @@ title: "Регистрация устройств iOS с использован�
 titlesuffix: Azure portal
 description: "Узнайте, как зарегистрировать корпоративные устройства iOS с использованием Apple Configurator и помощника по настройке.\""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 10/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 22a03068c543ebaa410521532dfdfc96e0f10eb0
-ms.sourcegitcommit: 6fae2dfb3a5c8f2e5ccfd120fd15656b26e5d302
+ms.openlocfilehash: c758519f523bf6b61adc7f779043aa4a944998ea
+ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Регистрация устройств iOS с помощью Apple Configurator
 
@@ -31,7 +31,7 @@ Intune поддерживает регистрацию устройств iOS с
 
 Методы регистрации Apple Configurator нельзя использовать с [диспетчером регистрации устройств](device-enrollment-manager-enroll.md).
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные условия
 
 - Физический доступ к устройствам iOS
 - [Настройка центра MDM](mdm-authority-set.md)

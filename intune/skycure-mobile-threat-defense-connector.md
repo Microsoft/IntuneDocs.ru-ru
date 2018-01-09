@@ -3,10 +3,10 @@ title: "Соединитель Skycure в Intune"
 titlesuffix: Azure portal
 description: "Интеграция соединителя Skycure с Intune."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 06/09/2017
+ms.date: 12/09/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: df4ce3f6-a093-432c-ab86-7a83865e389e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 47df2c4a909c397ac5a6c0f736d11344de44736e
-ms.sourcegitcommit: d434dfab7ef7a6c4082d675717fa22d5581b4f51
+ms.openlocfilehash: 555c8fa7960a080e3c845053a4893d16a082088d
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="skycure-mobile-threat-defense-connector"></a>Соединитель службы защиты мобильных устройств от угроз Skycure
 
@@ -67,7 +67,7 @@ Intune поддерживает два режима интеграции с Skyc
 
 ![Обнаружены вредоносные приложения](./media/skycure-arch-1.png)
 
-**Доступ предоставлен после устранения угрозы:**
+**Доступ восстановлен после исправления:**
 
 ![Обнаружены вредоносные приложения, доступ предоставлен](./media/skycure-arch-2.png)
 
@@ -79,7 +79,7 @@ Intune поддерживает два режима интеграции с Skyc
 
 ![Блокировка доступа к сети через Wi-Fi](./media/skycure-arch-3.png)
 
-**Доступ предоставлен после устранения угрозы:**
+**Доступ восстановлен после исправления:**
 
 ![Доступ предоставляется после устранения угрозы](./media/skycure-arch-4.png)
 
@@ -91,7 +91,7 @@ Intune поддерживает два режима интеграции с Skyc
 
 ![Блокировка SharePoint Online при обнаружении сетевых угроз](./media/skycure-arch-5.png)
 
-**Доступ предоставлен после устранения угрозы:**
+**Доступ восстановлен после исправления:**
 
 ![Пример предоставления доступа к Sharepoint после устранения угрозы](./media/skycure-arch-6.png)
 
@@ -105,13 +105,13 @@ Intune поддерживает два режима интеграции с Skyc
 
 -   Azure Active Directory Premium
 
--   Подписка Microsoft Intune
+-   Подписка на Microsoft Intune
 
 -   Подписка на службу защиты мобильных устройств от угроз Skycure
 
 Дополнительные сведения см. на [веб-сайте Skycure](https://www.skycure.com/skycure-microsoft-integration/).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Что нужно сделать для интеграции Intune с Skycure:
 

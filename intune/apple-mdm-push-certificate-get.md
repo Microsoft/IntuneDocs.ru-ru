@@ -3,8 +3,8 @@ title: "Получение сертификата Apple MDM Push Certificate"
 titlesuffix: Azure portal
 description: "Инструкции по получению сертификата Apple MDM Push Certificate для управления устройствами iOS с помощью Intune.\""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 10/04/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8d05199359f7e4ca2c41415c0db13e339c66c162
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: b67c2cb238d354ccd9801ec0b5c9f8ccb49c6715
+ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Получение сертификата MDM Push Certificate
 

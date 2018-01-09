@@ -3,10 +3,10 @@ title: "Создание и развертывание политики защи
 titlesuffix: Azure portal
 description: "Создание и развертывание политики защиты приложений WIP с помощью Intune"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: arob98
+ms.author: angrobe
 manager: angrobe
-ms.date: 11/13/2017
+ms.date: 12/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ab0456b58704f17d3dc5885ab5ae6b902c9ef152
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: f56752dc77289333fae69a81e2eb04d8b2e278f7
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
 
@@ -66,13 +66,13 @@ ms.lasthandoff: 11/14/2017
 
 2.  В колонке **Политика приложения** щелкните **Добавить политику**, а затем введите следующие значения:
 
-    а.  **Имя:** введите имя (обязательно) для новой политики.
+    a.  **Имя:** введите имя (обязательно) для новой политики.
 
     b.  **Описание:** введите описание (необязательно).
 
-    в.  **Платформа:** выберите **Windows 10** в качестве поддерживаемой платформы для вашей политики защиты приложений.
+    c.  **Платформа:** выберите **Windows 10** в качестве поддерживаемой платформы для вашей политики защиты приложений.
 
-    г.  **Состояние регистрации:** выберите вариант **Без регистрации** в качестве состояния регистрации для вашей политики.
+    d.  **Состояние регистрации:** выберите вариант **Без регистрации** в качестве состояния регистрации для вашей политики.
 
 3.  Выберите команду **Создать**. Политика будет создана и отобразится в таблице в колонке **Политика приложения**.
 

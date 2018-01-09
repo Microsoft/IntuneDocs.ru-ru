@@ -3,8 +3,8 @@ title: "Добавление корпоративных идентификато
 titlesuffix: Azure portal
 description: "Сведения о добавлении корпоративных идентификаторов (метода регистрации, номеров IMEI и серийных номеров) в Microsoft Intune. \""
 keywords: 
-author: NathBarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 08/23/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8dce9dea82673ebabd4170c74e4212c1da26382c
-ms.sourcegitcommit: 42a0e4c83e33c1a25506ca75d673e861e9206945
+ms.openlocfilehash: 1095ef736488754296eca4f21b2bf10226b43847
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 10/26/2017
 <!-- When you upload serial numbers for company-owned iOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as company-owned. -->
 
 [Вы можете узнать о том, как найти серийный номер устройства Apple](https://support.apple.com/HT204308).<br>
-[Как найти серийный номер устройства с ОС Android](https://support.google.com/store/answer/3333000).
+[Вы можете узнать о том, как найти серийный номер устройства Android](https://support.google.com/store/answer/3333000).
 
 ## <a name="add-corporate-identifiers"></a>Добавление корпоративных идентификаторов
 Создайте список без заголовка, содержащий два столбца значений, разделенных запятыми (CSV-файл). Добавьте номер IMEI или серийный номер в левый столбец, а сведения — в правый. В одном CSV-файл можно импортировать только один тип идентификатора, номера IMEI или серийного номера. Сведения ограничены 128 символами и предназначены только для администратора. Сведения не отображаются на устройстве. Текущее ограничение — 5000 строк на CSV-файл.

@@ -2,8 +2,8 @@
 title: "Временная шкала существования сущности пользователя в хранилище данных | Документация Майкрософт"
 description: "Хранилище данных Intune представляет пользователей во временной шкале."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 11/14/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 363D148E-688F-4830-B6DE-AB4FE3648817
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ce43234003da859b81dd499f22f7280db5bda41b
-ms.sourcegitcommit: d26930f45ba9e6292a49bcb08defb5b3f14b704b
+ms.openlocfilehash: 3f8f3d835369900eb4d1e0bf1287d0354cc1151c
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="user-lifetime-representation-in-the-intune-data-warehouse"></a>Представление времени существования пользователя в хранилище данных Intune
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/15/2017
  
 Чтобы просмотреть имеющиеся сейчас сущности измерений, следует применить фильтр, где **IsDeleted = FALSE**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
  - Дополнительные сведения о сущности **текущего пользователя** см. в [этом справочнике](reports-ref-current-user.md).
  - Дополнительные сведения о сущности **пользователя** см. в [этом справочнике](reports-ref-user.md).

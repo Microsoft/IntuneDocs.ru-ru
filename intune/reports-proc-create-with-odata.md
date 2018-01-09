@@ -2,8 +2,8 @@
 title: "Создание отчета из веб-канала OData с помощью Power BI | Документы Майкрософт"
 description: "Узнайте, как создать визуализацию в виде дерева с помощью Power BI Desktop, используя интерактивный фильтр из API хранилища данных Intune."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/18/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: A2C8A336-29D3-47DF-BB4A-62748339391D
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1e0ffcaa2ff8bd9e622c1d27f27564bd78df0276
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: 436114837d515d3a03f253c9c8c6e195bff0af41
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Создание отчета из веб-канала OData с помощью Power BI
 
@@ -111,7 +111,7 @@ ms.lasthandoff: 11/09/2017
 1. Выберите **Корпоративные**, чтобы увидеть распределение корпоративных устройств.
 2. Выберите **Личные**, чтобы увидеть распределение личных устройств.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
  - Дополнительные сведения о [создании связей и управлении ими](https://powerbi.microsoft.com/documentation/powerbi-desktop-create-and-manage-relationships/) в приложении Power BI Desktop см. в документации по Power BI.
  - Изучите [модель хранилища данных Intune](https://docs.microsoft.com/intune/reports-ref-data-model).
