@@ -3,8 +3,8 @@ title: "Регистрация устройств iOS с помощью прог
 titlesuffix: Azure portal
 description: "Сведения о том, как регистрировать корпоративные устройства iOS с помощью программы регистрации устройств.\""
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: angrobe
 ms.date: 10/03/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a10d158816f17c7fbe07fd14172d1a9abb9ed9b9
-ms.sourcegitcommit: 520eb7712625e129b781e2f2b9fe16f9b9f3d08a
+ms.openlocfilehash: 25e5922de658ca2137a32e43802072367587747c
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 12/01/2017
 4. [Assign DEP profile to devices](#assign-an-enrollment-profile-to-devices)
 5. [Distribute devices to users](#end-user-experience-with-managed-devices)
 -->
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные условия
 - Устройства, приобретенные по [программе регистрации устройств Apple](http://deploy.apple.com)
 - [Центр MDM](mdm-authority-set.md)
 - [Сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md)
@@ -78,7 +78,7 @@ ms.lasthandoff: 12/01/2017
 
    ![Снимок экрана, показывающий добавление имени сервера MDM для DEP и нажатие кнопки "Далее"](./media/enrollment-program-token-add-server.png)
 
-5. Открывается диалоговое окно **Добавить &lt;имя_сервера&gt;** с сообщением **Upload Your Public Key** (Отправьте свой открытый ключ). Щелкните **Выбрать файл...** для отправки PEM-файла. Затем нажмите кнопку **Далее**.
+5. Открывается диалоговое окно **Добавить &lt;имя_сервера&gt;** с сообщением **Upload Your Public Key** (Отправьте свой открытый ключ). Щелкните **Выбрать файл...** для отправки PEM-файла. Затем нажмите кнопку **Далее**.  
 
 
 7. Перейдите в меню **Программы развертывания** &gt; **Программа регистрации устройств** &gt; **Управление устройствами**.
@@ -194,4 +194,4 @@ ms.lasthandoff: 12/01/2017
 ## <a name="distribute-devices"></a>Распределение устройств
 Вы включили управление и синхронизацию между Apple и Intune и назначили профиль для разрешения регистрации устройств DEP. Теперь вы можете распределить устройства между пользователями. Устройствам со сходством пользователей требуется, чтобы каждому пользователю была назначена лицензия Intune. Устройствам без сходства пользователей требуется лицензия на устройство. Чтобы активированное устройство могло применить профиль регистрации, необходимо сбросить его параметры до заводских.
 
-См. сведения в статье [Регистрация устройства iOS в Intune с помощью программы регистрации устройств](/intune-user-help/enroll-your-device-dep-ios).
+См. сведения в статье [Регистрация устройства iOS в Intune с помощью программы регистрации устройств](/intune-user-help/enroll-your-device-dep-ios). 

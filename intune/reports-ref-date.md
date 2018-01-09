@@ -2,8 +2,8 @@
 title: "Дата — хранилище данных Intune | Документация Майкрософт"
 description: "Справочник по категории \"Дата\" коллекций сущностей в API хранилища данных Intune."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 6B4BC650-62F7-4049-9DE4-CDECB579B58F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 93d0f08697c8ee17ff44d599cb7b1bb262daa7ee
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: a52badf996ebcfaa24b37f064a28f0d77cd9eae8
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-date-entity"></a>Справочник по сущности даты
 

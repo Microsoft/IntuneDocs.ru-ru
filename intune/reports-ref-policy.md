@@ -2,8 +2,8 @@
 title: "Политика | Документация Майкрософт"
 description: "Справочник по категории \"Политика\" коллекций сущностей в API хранилища данных Intune."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: D5ADB9D8-D46A-43BD-AB0F-D6927508E3F4
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 079cfe097d6cf462f9ccd0a32d2e327b3b605e40
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 06c489f8519bda2f3f0359589c3af845ade423fe
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-policy-entities"></a>Справочник по сущностям политики
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 10/20/2017
   -  Число пользователей с состоянием успешного выполнения, ожидания, неудачного выполнения или ошибки в день  
   -  Совокупное число устройств с состоянием успешного выполнения, ожидания, неудачного выполнения или ошибки  
 
-## <a name="policy"></a>Политика
+## <a name="policy"></a>Policy (Политика)
 
 Сущность **Policy** перечисляет профили конфигурации устройств, профили конфигурации приложений и политики соответствия требованиям. Вы можете назначить политики группе в вашей организации с помощью управления мобильными устройствами (MDM).
 

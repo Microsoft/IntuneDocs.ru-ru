@@ -2,8 +2,8 @@
 title: "Модель данных для хранилища данных | Документация Майкрософт"
 description: "Хранилище данных Intune ежедневно производит выборку данных, чтобы предоставить историческое представление для вашей постоянно изменяющейся мобильной среды."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 11/14/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29825c58febc813c7b11072699d06106725584d3
-ms.sourcegitcommit: d26930f45ba9e6292a49bcb08defb5b3f14b704b
+ms.openlocfilehash: bb4248c773e30244beb310a5b5c8b3fb0bb9d5f0
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="data-warehouse-data-model"></a>Модель данных для хранилища данных
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/15/2017
 
 Хранилище распределяет данные из Intune в нисходящем направлении. Intune ежедневно в полночь (в формате UTC) создает моментальные снимки и сохраняет их в хранилище. Длительность удержания моментальных снимков зависит от таблицы фактов. Некоторые могут храниться семь дней, другие — 30 дней, а некоторые даже еще дольше.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
  - Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в [этой статье](reports-ref-user-timeline.md).
  - Дополнительные сведения о работе с хранилищами данных см. в статье [Create First Data WareHouse](https://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse) (Создание первого хранилища данных).

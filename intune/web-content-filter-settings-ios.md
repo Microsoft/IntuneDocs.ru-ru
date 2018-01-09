@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 7/03/2017
+ms.date: 12/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 16aa0f3c-8977-4495-9fbe-ca30ad278c9e
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 89641cee439d7da9f73d56c2ab3d6d8299164700
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 0d0d8a6e198a58fc513645db68ae3a3ef84a3653
+ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/30/2017
 ---
 # <a name="web-content-filter-settings-for-ios-devices"></a>Параметры фильтра веб-содержимого для устройств iOS
 
@@ -71,6 +71,6 @@ ms.lasthandoff: 12/12/2017
 
 Нажмите кнопку **ОК**, чтобы вернуться в колонку **Создание профиля**, а затем выберите **Создать**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Теперь профиль устройства можно назначить определенным группам. Дополнительные сведения см. в статье [Назначение профилей устройств](device-profile-assign.md).

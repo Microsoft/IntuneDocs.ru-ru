@@ -2,8 +2,8 @@
 title: "Устройства — хранилище данных Intune | Документация Майкрософт"
 description: "Справочник по категории \"Устройства\" коллекций сущностей в API хранилища данных Intune."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 07/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b11994028a42b19aca3e78900886afbedc1ca1d5
-ms.sourcegitcommit: e9f9fccccef691333143b7523d1b325ee7d1915a
+ms.openlocfilehash: 24260c9e6a9929c74b47e5d83bf4d1be867b6b2e
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-devices-entities"></a>Справочник по сущностям устройств
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 11/02/2017
 
 ## <a name="example"></a>Пример
 
-| deviceTypeID  | Имя | Описание |
+| deviceTypeID  | Название | Описание |
 |---------|------------|--------|
 | 0 |Настольные |Устройство Windows Desktop |
 | 1 |WindowsRT |Устройство Windows RT |
@@ -80,7 +80,7 @@ ms.lasthandoff: 11/02/2017
 
 ## <a name="example"></a>Пример
 
-| ClientRegisterationStateID  | Имя | Описание |
+| ClientRegisterationStateID  | Название | Описание |
 |---------|------------|--------|
 | 0 |NotRegistered |Не зарегистрировано |
 | 1 |SMSIDConflict |Конфликт идентификаторов SMS |
@@ -104,7 +104,7 @@ ms.lasthandoff: 11/02/2017
 
 ## <a name="example"></a>Пример
 
-| enrollmentTypeID  | Имя | Описание |
+| enrollmentTypeID  | Название | Описание |
 |---------|------------|--------|
 | 0 |Неизвестно |Тип регистрации не был получен |
 | 1 |UserEnrollment |Регистрация, инициированная пользователем |
@@ -160,7 +160,7 @@ ms.lasthandoff: 11/02/2017
 
 ## <a name="example"></a>Пример
 
-| managementStateID  | Имя | Описание |
+| managementStateID  | Название | Описание |
 |---------|------------|--------|
 | 0 |Управляемые | Управляется без ожидающих удаленных действий. |
 | 1 |RetirePending | Для устройства имеется ожидающая команда по снятию с учета. |
@@ -187,7 +187,7 @@ ms.lasthandoff: 11/02/2017
 
 ## <a name="example"></a>Пример
 
-| workPlaceJoinStateID  | Имя | Описание |
+| workPlaceJoinStateID  | Название | Описание |
 |---------|------------|--------|
 | 0 |Неизвестно |Если устройство не подключено к рабочему месту, оно находится в состоянии "Unknown" |
 | 1 |успешно |Успешно подключено к рабочему месту |
@@ -211,7 +211,7 @@ ms.lasthandoff: 11/02/2017
 
 ## <a name="example"></a>Пример
 
-| ManagementAgentTypeID  | Имя | Описание |
+| ManagementAgentTypeID  | Название | Описание |
 |---------|------------|--------|
 | 1 |EAS | Устройство управляется с помощью Exchange Active Sync |
 | 2 |MDM | Устройство управляется с помощью агента MDM |

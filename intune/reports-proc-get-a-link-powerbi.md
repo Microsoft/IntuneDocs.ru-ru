@@ -2,8 +2,8 @@
 title: "Подключение к хранилищу данных с помощью Power BI | Документация Майкрософт"
 description: "Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Intune."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
 ms.date: 10/13/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: aa559d946456f215d4db925c8a2e8a42cfacf209
-ms.sourcegitcommit: ce35790090ebe768d5f75c108e8d5934fd19c8c7
+ms.openlocfilehash: fd3bf087739af11b0d652d6fd4b2b177f2df7426
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Подключение к хранилищу данных с помощью Power BI
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/09/2017
     4.  Выберите **Подключиться**.  
 10. Выберите **Загрузить**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Вы можете найти ответы на вопросы о своей среде, например число ежедневно регистрируемых устройств на прошлой неделе. Вы можете получить представление о своей популяции клиентов Intune с помощью отчетов, используя файл Intune хранилища данных Power BI (PBIX), полученный из колонки в Azure. Кроме того, Intune предоставляет несколько дополнительных способов для расширения или повторного использования этих данных. Power BI и API хранилища данных Intune предоставляют вам гораздо больше возможностей, например:
 
