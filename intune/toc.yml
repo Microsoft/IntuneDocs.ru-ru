@@ -642,7 +642,7 @@
               href: reports-ref-user-device.md
             - name: Справочник по сущности пользователя
               href: reports-ref-user.md
-    - name: Неопубликованные приложения Windows
+    - name: API Graph Intune
       href: intune-graph-apis.md
       items:
         - name: Справочник по API Graph для Intune

@@ -6,6 +6,8 @@
 
 ## [Сброс устройства](what-happens-if-you-reset-your-device-cpwebsite.md)
 
+## [Обновление пароля](password-does-not-meet-it-administrator-requirements.md)
+
 ## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)
 
 ## [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
@@ -72,7 +74,7 @@
 #### [Что происходит при отмене регистрации устройства?](what-happens-if-you-unenroll-your-device-from-intune-ios.md)
 ### [Синхронизация устройства вручную](sync-your-device-manually-ios.md)
 
-#### [Решение распространенных проблем с iOS](troubleshoot-your-device-iOS.md)
+### [Решение распространенных проблем с iOS](troubleshoot-your-device-iOS.md)
 #### [Повторное подключение к скомпрометированному устройству iOS](how-to-reconnect-a-compromised-ios-device.md)
 #### [Отправка сведений об ошибках в компанию](send-errors-to-your-it-admin-ios.md)
 #### [Отправка сведений об ошибках в корпорацию Майкрософт](send-logs-to-microsoft-ios.md)
@@ -116,6 +118,7 @@
 #### [Что происходит при регистрации других версий Windows?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 ### [Регистрация устройства с Windows](enroll-your-device-in-intune-windows.md)
 #### [Регистрация устройства на базе Windows 10](enroll-your-w10-phone-or-w10-pc-windows.md)
+#### [Регистрация устройства Windows 10, выбрав "Доступ к учетной записи места работы или учебного заведения" в параметрах Windows](enroll-your-w10-device-access-work-or-school.md)
 #### [Регистрация устройства Windows 8.1 или Windows RT 8.1](enroll-your-w81-or-rt81-windows.md)
 #### [Регистрация устройства Windows Phone 8.1](enroll-your-wp81-windows.md)
 ### [Сброс устройства](reset-erase-your-device-cpwebsite.md)
