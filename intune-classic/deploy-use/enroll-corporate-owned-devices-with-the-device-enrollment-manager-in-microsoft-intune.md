@@ -5,7 +5,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 01/29/2017
+ms.date: 01/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6b37cf4c93d3eb7e56be3716de6b1b5ffb373673
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: b55c5d588eb366487a9e1594a46f88551e0b6ee2
+ms.sourcegitcommit: 5fd17a57989c6da3d325ed2e0018ce16fe20bb79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune"></a>Регистрация корпоративных устройств с помощью диспетчера регистрации устройств в Microsoft Intune
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/10/2017
 Прежде чем добавить пользователя как диспетчера регистрации устройств, нужно создать его на портале Azure. Для обеспечения оптимального уровня безопасности пользователь DEM не должен одновременного быть и администратором Intune.
 
 >[!NOTE]
->Способ регистрации DEM не может использоваться с [помощником по настройке Apple Configurator](ios-setup-assistant-enrollment-in-microsoft-intune.md), [прямой регистрацией](ios-direct-enrollment-in-microsoft-intune.md) или [методом регистрации DEP](ios-device-enrollment-program-in-microsoft-intune.md).
+>Способ регистрации DEM не может использоваться с [помощником по настройке Apple Configurator](ios-setup-assistant-enrollment-in-microsoft-intune.md), [прямой регистрацией](ios-direct-enrollment-in-microsoft-intune.md), регистрацией macOS или [методом регистрации DEP](ios-device-enrollment-program-in-microsoft-intune.md).
 
 ## <a name="example-of-a-device-enrollment-manager-scenario"></a>Пример сценария работы диспетчера регистрации устройств
 

@@ -15,11 +15,11 @@ ms.assetid: 494b3892-916e-4b40-9b67-61adec889bdf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 86f5b505923a709cd8f8ab4e2d91c6a891e2acc6
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 3b1ccb3b0b7b2ce024ff6a09d7f9d8366896fb67
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="custom-settings-for-android-devices-in-microsoft-intune"></a>Настраиваемые параметры для устройств Android в Microsoft Intune
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 12/12/2017
 
 - [Использование пользовательского профиля устройств Microsoft Intune для создания профиля Wi-Fi с общим ключом](/intune/wi-fi-profile-shared-key)
 - [Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android](/intune/android-pulse-secure-per-app-vpn)
-- [Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в Microsoft Intune](/intune/samsung-knox-apps-allow-block)
+- [Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung Knox Standard в Microsoft Intune](/intune/samsung-knox-apps-allow-block)
 
 >[!IMPORTANT]
 >Сейчас с помощью этого типа профиля можно настроить только приведенные выше параметры. На устройствах Android не выводится полный список параметров OMA-URI, которые можно настроить. Чтобы просмотреть дополнительные добавленные параметры, запросите их на [сайте Intune Uservoice](https://microsoftintune.uservoice.com/forums/291681-ideas).
@@ -48,7 +48,7 @@ ms.lasthandoff: 12/12/2017
     - **Значение.** Введите значение, которое нужно сопоставить с указанным OMA-URI.
 4. Завершив настройку, нажмите кнопку **ОК**. Затем добавьте другие параметры при необходимости.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 После установки параметров созданный профиль отобразится в колонке со списком профилей. Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
 

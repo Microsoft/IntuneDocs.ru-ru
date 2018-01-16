@@ -2,10 +2,10 @@
 title: "Приложение | Документация Майкрософт"
 description: "Справочник по категории \"Приложение\" коллекций сущностей в API хранилища данных Intune."
 keywords: "Хранилище данных Intune"
-author: mattbriggs
-ms.author: mabrigg
+author: Erikre
+ms.author: erikre
 manager: angrobe
-ms.date: 07/31/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9fd14c985b4cedcd0575b2b6ea29e7aa4d8bb2d4
-ms.sourcegitcommit: bb2c181fd6de929cf1e5d3856e048d617eb72063
+ms.openlocfilehash: 6698ff8d333d386c1401f942b2bbd4a75d86943c
+ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="reference-for-application-entities"></a>Справочник по сущностям приложения
 
@@ -62,9 +62,9 @@ ms.lasthandoff: 10/20/2017
 | AppTypeKey |Суррогатный ключ для ключа |
 | AppTypeName |Тип приложения |
 
-## <a name="example"></a>Пример
+### <a name="example"></a>Пример
 
-| AppTypeID  | Имя | Описание |
+| AppTypeID  | Название | Описание |
 |---------|------------|--------|
 | 0 |Приложение для Магазина Android | Приложение Магазина Android. |
 | 1 |Бизнес-приложение для Android | Бизнес-приложение Android. |
@@ -91,9 +91,9 @@ ms.lasthandoff: 10/20/2017
 | VppProgramTypeKey | Суррогатный ключ для ключа. |
 | VppProgramTypeName | Тип программы VPP. |
 
-## <a name="example"></a>Пример
+### <a name="example"></a>Пример
 
-| VppProgramID  | Имя | Описание |
+| VppProgramID  | Название | Описание |
 |---------|------------|--------|
 | 3DDA2474-470B-4503-9830-2665C21C1945 | Microsoft | Программа VPP корпорации Майкрософт. |
 | 00000000-0000-0000-0000-000000000000 | Пока недоступно | Значение по умолчанию, программа VPP отсутствует. |
@@ -112,3 +112,26 @@ ms.lasthandoff: 10/20/2017
 | ApplicationName | Имя приложения. |
 | ApplicationVersion | Версия приложения. |
 | BundleSize | Размер приложения в байтах. |
+
+## <a name="mobileappinstallstate"></a>MobileAppInstallState
+
+Сущность **MobileAppInstallState** представляет состояние установки для мобильного приложения после его назначения группе, в состав которой входят устройства, пользователи или обе категории.
+
+| Свойство | Описание |
+|---|---|
+| AppInstallStateKey | Уникальный идентификатор для состояния установки приложения в вашей учетной записи. |
+| AppInstallState | Значение перечисления состояния установки приложения. |
+| AppInstallStateName | Имя состояния для установки приложения. |
+
+## <a name="mobileappdeviceuserinstallstatus"></a>MobileAppDeviceUserInstallStatus
+
+Сущность **MobileAppDeviceUserInstallStatus** представляет состояние установки мобильного приложения для заданного устройства или пользователя.
+
+| Свойство | Описание |
+|---|---|
+| DateKey | Ключ даты, когда было записано состояние установки приложения. |
+| AppKey | Ключ мобильного приложения, используемый для идентификации экземпляра AppRevision. |
+| DeviceKey | Ключ целевого устройства, используемый для идентификации экземпляра устройства. |
+| UserKey | Ключ целевого пользователя, используемый для идентификации экземпляра пользователя. |
+|AppInstallStateKey | Ключ состояния установки приложения, используемый для идентификации экземпляра MobileAppInstallState. |
+| КодОшибки | Код ошибки, возвращаемый установщиком приложения, мобильной платформой или службой, которые относятся к установке приложения. |

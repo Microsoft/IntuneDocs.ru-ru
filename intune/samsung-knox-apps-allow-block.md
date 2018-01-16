@@ -1,7 +1,7 @@
 ---
-title: "Политика разрешения и блокировки приложений для Samsung KNOX в Intune"
+title: "Политика разрешения и блокировки приложений для Samsung Knox в Intune"
 titlesuffix: Azure portal
-description: "Создание настраиваемых профилей для разрешения и блокировки приложений для устройств Samsung KNOX Standard.\""
+description: "Создание настраиваемых профилей для включения и блокировки приложений для устройств Samsung Knox Standard.\""
 keywords: 
 author: vhorne
 ms.author: victorh
@@ -15,22 +15,22 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aaa85347dc647658faf981e93d7fb0ea60c9e296
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 22d1e578da6a0085fd2e41ffc1d2322d01d971f1
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
-# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung KNOX Standard в Microsoft Intune
+# <a name="use-custom-policies-to-allow-and-block-apps-for-samsung-knox-standard-devices-in-microsoft-intune"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung Knox Standard в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 В этом разделе приведены процедуры для создания настраиваемой политики Microsoft Intune, которая создает один из следующих элементов:
 
 - Список приложений, запуск которых заблокирован на конкретном устройстве. Выполнение приложений в этом списке блокируется, даже если они были установлены после применения политики.
-- Список приложений, которые пользователи устройства могут установить из магазина Google Play. Устанавливать можно будет только приложения из списка. Другие приложения невозможно установить из магазина.
+- Список приложений, которые пользователи устройства могут установить из магазина Google Play. Устанавливать можно будет только приложения из списка. Другие приложения устанавливать из магазина нельзя.
 
-Эти настройки могут использовать только устройства под управлением Samsung KNOX Standard.
+Эти параметры могут использовать только устройства под управлением Samsung Knox Standard.
 
 ## <a name="create-an-allowed-or-blocked-app-list"></a>Создание списка разрешенных или заблокированных приложений
 

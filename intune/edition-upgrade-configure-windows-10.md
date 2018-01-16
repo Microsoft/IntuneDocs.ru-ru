@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 07/26/2017
+ms.date: 12/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,30 +15,16 @@ ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 40c3ca0207ed81af3212ad2ea04598654cab7198
-ms.sourcegitcommit: cf7f7e7c9e9cde5b030cf5fae26a5e8f4d269b0d
+ms.openlocfilehash: b4e1fc203633a9624ce748ab1f36374c5322e3f7
+ms.sourcegitcommit: 061dab899e3fbc59b0128e2b4fbdf8ebf80afddd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="how-to-configure-windows-10-edition-upgrades-in-microsoft-intune"></a>Настройка обновлений выпуска Windows 10 в Microsoft Intune
-
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Ознакомившись с этой статьей, вы узнаете, как настраивать профиль обновлений выпуска Windows 10. Профиль позволяет автоматически обновить до нового выпуска устройства, работающие под управлением одной из следующих версий Windows 10:
-
-- Windows 10 Домашняя
-- Windows 10 Holographic
-- Windows 10 Mobile
-
-
-Поддерживаются следующие варианты обновления:
-
-- С Windows 10 Pro до Windows 10 Корпоративная
-- С Windows 10 Домашняя до Windows 10 для образовательных учреждений
-- С Windows 10 Mobile до Windows 10 Mobile Корпоративная
-- С Windows 10 Holographic Pro до Windows 10 Holographic Корпоративная
-
+Ознакомившись с этой статьей, вы узнаете, как настраивать профиль обновлений выпуска Windows 10. Профиль позволяет автоматически обновить до другого выпуска устройства, работающие под управлением Windows 10. 
 
 ## <a name="before-you-start"></a>Перед началом работы
 Перед тем как начать обновление устройств до последней версии, потребуется следующее:
@@ -46,8 +32,76 @@ ms.lasthandoff: 09/14/2017
 - допустимый ключ продукта для установки новой версии Windows на всех целевых устройствах политики (для выпусков Windows 10 Desktop); Вы можете использовать либо ключи многократной активации (MAK), либо ключи сервера управления ключами (KMS). Или можно использовать файл лицензии Майкрософт, который содержит сведения о лицензии для установки новой версии Windows на всех целевых устройствах, которые подпадают под действие политики (для выпусков Windows 10 Mobile и Windows 10 Holographic).
 - Целевые устройства Windows 10, которым назначается политика, должны быть зарегистрированы в Microsoft Intune. Политику обновления выпусков нельзя использовать на компьютерах под управлением клиентского программного обеспечения Intune.
 
-## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
+## <a name="supported-upgrade-paths-for-the-windows-10-edition-upgrade-profile"></a>Поддерживаемые варианты обновления для профиля обновления выпуска Windows 10
+Ниже приведены поддерживаемые варианты обновления для профиля обновления выпуска Windows 10. Выпуск Windows 10 для обновления выделен полужирным шрифтом. За ним следует список поддерживаемых выпусков, которые можно обновить.
 
+**Windows 10 для образовательных учреждений** 
+- Windows 10 Pro
+- Windows 10 Pro для образовательных учреждений
+- Windows 10 Cloud
+- Windows 10 Корпоративная
+- Windows 10 Core
+    
+**Windows 10 для образовательных учреждений N**    
+- Windows 10 Профессиональная N
+- Windows 10 Pro для образовательных учреждений N
+- Windows 10 Cloud N
+- Windows 10 Корпоративная N
+- Windows 10 Core N
+    
+**Windows 10 Корпоративная**
+- Windows 10 Pro
+- Windows 10 Cloud
+- Windows 10 Core
+    
+**Windows 10 Корпоративная N**
+- Windows 10 Профессиональная N
+- Windows 10 Cloud N
+- Windows 10 Core N
+    
+**Windows 10 Профессиональная**
+- Windows 10 Cloud
+    
+**Windows 10 Профессиональная N**
+- Windows 10 Cloud N
+    
+**Windows 10 Pro для образовательных учреждений**
+- Windows 10 Pro
+- Windows 10 Cloud
+- Windows 10 Core
+    
+**Windows 10 Pro для образовательных учреждений N**
+- Windows 10 Профессиональная N
+- Windows 10 Cloud N
+- Windows 10 Core N
+
+**Windows 10 Holographic для бизнеса**
+- Windows 10 Holographic
+
+**Windows 10 Mobile Корпоративная**
+- Windows 10 Mobile
+
+<!--The following table provides information about the supported upgrade paths for Windows 10 editions in this policy:
+
+![supported](./media/check_grn.png)  (X) = not supported    
+![unsupported](./media/x_blk.png)    (green checkmark) = supported    
+
+|Upgrade from edition\Upgrade to edition|Education|Education N|Pro Education|Pro Education N|Enterprise|Enterprise N|Professional|Professional N|Mobile Enterprise|Holographic for Business|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Pro|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Pro N|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Pro Education|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Pro Education N|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Cloud|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Cloud N|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Enterprise|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Enterprise N|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Core|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)   |![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Core N|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|
+|Mobile|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png)|![unsupported](./media/x_blk.png)|
+|Holographic|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![unsupported](./media/x_blk.png)|![supported](./media/check_grn.png) -->
+
+## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
 1. Зарегистрируйтесь на портале Azure.
 2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
 3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
@@ -57,15 +111,14 @@ ms.lasthandoff: 09/14/2017
 5. В раскрывающемся списке **Платформа** выберите **Windows 10 и более поздних версий**.
 6. В раскрывающемся списке **Тип профиля** выберите **Обновление выпуска**.
 7. В колонке **Обновление выпуска** настройте следующие параметры:
-    - **Обновляемый выпуск**. В раскрывающемся списке выберите версию Windows 10, которую следует обновить на устройствах.
     - **Выпуск для обновления до**. В раскрывающемся списке выберите версию Windows 10 Desktop, Windows 10 Holographic или Windows 10 Mobile, до которой вы хотите обновить целевые устройства.
     - **Ключ продукта**. Укажите ключ продукта, полученный от Майкрософт, с помощью которого можно обновить все целевые устройства Windows 10 Desktop.<br>Создав политику с ключом продукта, вы не сможете изменить этот ключ позже. Это связано с тем, что ключ скрыт по соображениям безопасности. Чтобы изменить его, необходимо повторно ввести весь ключ.
-    - **Файл лицензии**. Нажмите кнопку **Обзор**, чтобы выбрать полученный от Майкрософт файл лицензии. Этот файл содержит сведения о лицензии для выпуска Windows Holographic или Windows 10 Mobile, до которого нужно обновить целевые устройства.
+    - **Файл лицензии.** Нажмите кнопку **Обзор**, чтобы выбрать полученный от Майкрософт файл лицензии. Этот файл содержит сведения о лицензии для выпуска Windows Holographic или Windows 10 Mobile, до которого нужно обновить целевые устройства.
 8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
 
 Созданный профиль отобразится в колонке со списком профилей.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
 

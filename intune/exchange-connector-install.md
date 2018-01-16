@@ -15,11 +15,11 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c7947c9d047c6f206f9f93c389d418379fe8267a
-ms.sourcegitcommit: 5279a0bb8c5aef79aa57aa247ad95888ffe5a12b
+ms.openlocfilehash: 9650afefc8ba0ba782e95b28feaaf1aaceea8d7f
+ms.sourcegitcommit: 06abc5ccc8b868c9ff3ad3f8f62473a87b2da481
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/15/2017
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
@@ -134,6 +134,13 @@ ms.lasthandoff: 11/08/2017
 > [!NOTE]
 > Если был установлен локальный соединитель Exchange и в определенный момент подключение к Exchange было удалено, необходимо переустановить локальный соединитель Exchange с компьютера, на котором он был установлен.
 
+## <a name="on-premises-exchange-connector-high-availability-support"></a>Поддержка высокой доступности локального соединителя Exchange 
+Когда соединитель Exchange создает подключение к серверу Exchange, используя указанный CAS, такой соединитель может обнаруживать другие CAS. Если основной CAS становится недоступным, происходит отработка отказа соединителя на другой CAS (при его доступности), пока не станет доступным основной CAS. По умолчанию этот компонент включен. Эту функцию можно отключить с помощью следующей процедуры:
+1. На сервере, где установлен соединитель Exchange, перейдите в папку %*ProgramData*%\Microsoft\Windows Intune Exchange Connector. 
+2. В текстовом редакторе откройте файл **OnPremisesExchangeConnectorServiceConfiguration.xml**.
+3. Чтобы отключить эту функцию, измените &lt;IsCasFailoverEnabled&gt;**true**&lt;/IsCasFailoverEnabled&gt; на &lt;IsCasFailoverEnabled&gt;**false**&lt;/IsCasFailoverEnabled&gt;.    
+
+
 ## <a name="monitor-the-exchange-connector-activity"></a>Наблюдение за активностью соединителя Exchange
 
 После успешной настройки соединителя Exchange можно просмотреть состояние подключения и последней успешной попытки синхронизации. Проверка подключения для локального соединителя Exchange:
@@ -147,5 +154,5 @@ ms.lasthandoff: 11/08/2017
 
 Начиная с выпуска Intune 1710, вы можете использовать [пакет управления SCOM для соединителя Exchange и Intune](https://www.microsoft.com/en-us/download/details.aspx?id=55990&751be11f-ede8-5a0c-058c-2ee190a24fa6=True&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True). Он предоставляет дополнительные способы мониторинга соединителя Exchange для устранения неполадок.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 [Создание политики условного доступа для локального сервера Exchange](conditional-access-exchange-create.md)

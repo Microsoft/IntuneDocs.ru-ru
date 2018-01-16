@@ -1,12 +1,12 @@
 ---
-title: "Применение политик соответствия требованиям к устройствам под управлением Jamf"
+title: "Принудительное применение политик соответствия требованиям на устройствах под управлением Jamf"
 titlesuffix: Azure portal
 description: "Защитите устройства под управлением Jamf с помощью политик соответствия требованиям."
 keywords: 
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/05/2017
+ms.date: 12/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,22 +15,17 @@ ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fd9a9444d5a91a44672d9e0a60fb6da961883986
-ms.sourcegitcommit: 548b9e6c1e50074a5ffb89160ae23ee3caa5ba65
+ms.openlocfilehash: c72de87b87775155672994163140e342b7ba99b4
+ms.sourcegitcommit: 000684953cbb3ceae0e2bcaa51186c9221f7aa86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/15/2017
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
 
 |Область применения: Intune на портале Azure |
 |--|
 |Ищете документацию по Intune на классическом портале? [Щелкните здесь](/intune/introduction-intune?toc=/intune-classic/toc.json).|
-| |
-
-|Сейчас находится на стадии закрытой предварительной версии|
-|--|
-|Компоненты, описанные в этом разделе, доступны только в текущей закрытой предварительной версии. Это сообщение будет удалено после выпуска общедоступной версии.|
 | |
 
 Политики условного доступа Azure Active Directory и Microsoft Intune позволяют обеспечить соответствие устройств пользователей требованиям организации. Эти политики можно применять к компьютерам Mac [под управлением Jamf Pro](conditional-access-integrate-jamf.md). Для этого необходим доступ к консоли Intune и Jamf Pro.
@@ -48,7 +43,7 @@ ms.lasthandoff: 12/06/2017
 2. Откройте Jamf Pro и выберите **Computer management** (Управление компьютером)  > **Packages** (Пакеты).
 3. Создайте пакет с помощью приложения "Корпоративный портал" для macOS, а затем нажмите кнопку **Save** (Сохранить).
 4. Выберите **Computers** (Компьютеры) > **Политики** (Policies), а затем нажмите кнопку **New** (Создать).
-5. С помощью полезных данных **Общие** настройте параметры политики. В их число входят следующие: 
+5. С помощью полезных данных **Общие** настройте параметры политики. В их число входят следующие:
    - Триггер: выберите **Регистрация завершена** и **Recurring Check-in** (Повторный возврат).
    - Периодичность выполнения: выберите **Once per computer** (Один раз на компьютере).
 6. Выберите полезные данные **пакетов** и нажмите кнопку **Configure** (Настроить).
@@ -72,7 +67,7 @@ ms.lasthandoff: 12/06/2017
 3. Перейдите на вкладку **Scope** (Область) и привяжите к политике все целевые устройства.
 4. Перейдите на вкладку **Self Service** (Самообслуживание), чтобы предоставить доступ к политике на портале самообслуживания Jamf. Включите политику в категорию **Соответствие устройства политике**. Нажмите кнопку **Сохранить**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
 - [Начало работы с условным доступом в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)

@@ -16,17 +16,17 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 1c4813649092dd12b6be2c07b900d6c1af957bcb
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 13ad914f076f00d1a505510b726f84645ba22cc1
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="how-to-set-the-amount-of-time-before-your-android-device-locks-its-screen"></a>Установка периода времени до блокировки экрана на устройстве Android
 
 Чтобы повторно подключиться к рабочей учетной записи, необходимо задать время ожидания на ввод пароля на устройстве, выполнив следующие инструкции, соответствующие типу используемого вами устройства.
 
-## <a name="native-non-samsung-knox-device"></a>Собственные устройства (не Samsung KNOX)
+## <a name="native-non-samsung-knox-device"></a>Устройства без Samsung Knox
 
 1.  В меню **Параметры** на устройстве коснитесь **Безопасность** &gt; **Automatically Lock** (Автоматическая блокировка) (на некоторых устройствах этот пункт называется **Lock phone after** (Заблокировать телефон после)).
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/12/2017
 
 2.  Укажите значение времени ожидания пароля.
 
-## <a name="samsung-knox-device"></a>Устройство Samsung KNOX
+## <a name="samsung-knox-device"></a>Устройство Samsung Knox
 
 1.  В меню **Параметры** на устройстве коснитесь **Lock screen and security (Блокировка экрана и безопасность)** &gt; **Lock automatically** (Автоматическая блокировка).
 
