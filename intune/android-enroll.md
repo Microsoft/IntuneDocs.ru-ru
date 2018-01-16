@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: angrobe
-ms.date: 12/07/2017
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ad018bdfa55b030f5d714017ae09f616ae2bf164
-ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
+ms.openlocfilehash: 7877d0bb6ba7a9c9d51cd261a7f1fbf555f88961
+ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 12/22/2017
 
 Чтобы утвердить приложение "Корпоративный портал Intune", выполните указанные ниже действия.
 
-1.  Скачайте приложение "Корпоративный портал" в [управляемом магазине Google Play](https://play.google.com/work/apps/details?id=com.microsoft.windowsintune.companyportal).
+1.  Перейдите к приложению "Корпоративный портал" в [управляемом магазине Google Play](https://play.google.com/work/apps/details?id=com.microsoft.windowsintune.companyportal).
 2.  Войдите в управляемый магазин Google Play, используя учетную запись Google, которая применялась для настройки привязки Android for Work.
 3.  Нажмите кнопку **Одобрить**.  Откроется новое диалоговое окно.
 4.  Просмотрите разрешения в диалоговом окне и нажмите кнопку **Одобрить**. Эти разрешения необходимо одобрить, чтобы разрешить приложению "Корпоративный портал" управлять рабочим профилем на устройстве.

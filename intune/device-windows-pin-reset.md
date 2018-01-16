@@ -7,18 +7,18 @@ author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 08/09/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5027d012-d6c2-4971-a9ac-217f91d67d87
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: faf3e9b81f76755135f73f8753305d96d227ec14
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 144313b63c1a6349a59220c901072dbf9d4c6f43
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="reset-the-passcode-on-windows-devices-integrated-with-the-microsoft-pin-reset-service-using-intune"></a>Сброс секретного кода на устройствах Windows, интегрированных со службой сброса ПИН-кода Майкрософт, с помощью Intune
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/15/2017
 5. Выберите устройство, для которого нужно сбросить секретный код, а затем в колонке свойств устройства выберите **Новый секретный код**.
 6. В появившемся подтверждении нажмите кнопку **Да**. Формируется секретный код, который отображается на портале в течение следующих семи дней.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 В случае сбоя при сбросе секретного кода предоставляется ссылка на портал, позволяющая получить дополнительные сведения.
 

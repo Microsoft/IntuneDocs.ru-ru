@@ -5,20 +5,20 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 07/07/2017
+ms.date: 01/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
-ms.reviewer: oldang
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bc907e5671fcd6c7b777f3bc95a533503d85ca64
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: a691786ce2ee975086899844b285a91f676aa71f
+ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -113,6 +113,14 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 Упакованное приложение и файл журнала создаются и сохраняются по указанному выходному пути.
 
+## <a name="how-often-should-i-rewrap-my-android-application-with-the-intune-app-wrapping-tool"></a>Как часто следует повторно упаковывать приложение Android с помощью инструмента упаковки для приложений Intune?
+Ниже приводятся основные сценарии, в которых потребуется повторная упаковка приложений.
+* Вышла новая версия приложения.
+* Вышла новая версия инструмента упаковки для приложений Android Intune, в которой исправлены ключевые ошибки или добавлены новые функции политики защиты приложений Intune. Это происходит каждые 6–8 недель в репозитории GitHub [инструмента упаковки для приложений Android Microsoft Intune](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android).
+
+Далее приводятся некоторые рекомендации по повторной упаковке. 
+* Сведения о поддержке сертификатов для подписи, используемых в процессе сборки, см. в разделе [Повторное использование сертификатов для подписи и упаковка приложений](https://docs.microsoft.com/en-us/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps).
+
 ## <a name="reusing-signing-certificates-and-wrapping-apps"></a>Повторное использование сертификатов для подписи и упаковка приложений
 Для установки любого приложения на устройства с ОС Android у него должен иметься допустимый сертификат в качестве подписи.
 
@@ -137,7 +145,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 -   Обеспечьте безопасность выходного каталога, содержащего упакованное приложение. Рассмотрите возможность использования каталога уровня пользователя в качестве выходного каталога.
 
-### <a name="see-also"></a>См. также
-- [Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](apps-prepare-mobile-application-management.md)
+### <a name="see-also"></a>См. также:
+- [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](apps-prepare-mobile-application-management.md)
 
 - [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](/intune/classic/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management)
