@@ -15,21 +15,21 @@ ms.assetid: 4d3458cc-fcaa-4648-b13f-bf1f0616c1c5
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0c793721cad40ea0f1662ae72ed334b98226c96d
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: adc61e3d6a8b413ca5a03a2fdbc3d2353226040b
+ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="email-profile-settings-for-android--devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Android в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Администратор Intune может создавать и назначать параметры электронной почты следующим устройствам Android:
-- [Android Samsung KNOX Standard](#android-samsung-knox-standard-email-settings)
+- [Android Samsung Knox Standard](#android-samsung-knox-standard-email-settings)
 - [Android for Work](#android-for-work-email-settings)
 
-## <a name="android-samsung-knox-standard-email-settings"></a>Параметры электронной почты для устройств Android Samsung KNOX Standard
+## <a name="android-samsung-knox-standard-email-settings"></a>Параметры электронной почты для устройств Android Samsung Knox Standard
 - **Почтовый сервер**. Имя узла вашего сервера Exchange.
 - **Имя учетной записи**. Имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
 - **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого будет создано имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, user1@contoso.com) или **Имя субъекта-пользователя** (например, user1 или user1@contoso.com).
