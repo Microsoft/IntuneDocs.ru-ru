@@ -6,18 +6,18 @@ author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 06/16/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: e733d1d59d073dab9fb2b6c18ee92dadbc86adbe
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: cb186004395a4ccf84de6f0bc335cbd44a79583b
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="microsoft-intune-glossary"></a>Глоссарий Microsoft Intune
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 10/10/2017
 |Действие удаления приложения|Позволяет [удалять приложения](/intune-classic/deploy-use/deploy-apps) с устройств пользователя.|
 |App wrapping tool (Инструмент упаковки приложений)|[Приложение командной строки](/intune/apps-prepare-mobile-application-management), которое создает оболочку вокруг бизнес-приложения, что позволяет управлять им с помощью политики управления мобильными приложениями Intune.|
 |Available install (Доступная установка)|При развертывании приложения с помощью этого действия оно отображается на корпоративном портале, и пользователи могут [установить его по запросу](/intune-classic/deploy-use/deploy-apps).|
-|Azure Portal (Портал Azure)|Новая консоль Intune, которая появится в ближайшее время. [Дополнительные сведения о новом портале](/intune/what-is-intune).|
+|Портал Azure|Новая консоль Intune, которая появится в ближайшее время. [Дополнительные сведения о новом портале](/intune/what-is-intune).|
 
 ## <a name="b"></a>B
 |||
@@ -120,7 +120,7 @@ ms.lasthandoff: 10/10/2017
 |||
 |-|-|
 |Policy (Политика)|[Пакет сведений](/intune-classic/deploy-use/microsoft-intune-policy-reference), передаваемый из Intune на устройство. Например, можно развернуть на устройстве параметры безопасности или сведения о соответствии устройств.|
-|Passcode reset (Сброс секретного кода)|Функция Intune, позволяющая вынудить пользователя выполнить [сброс секретного кода](/intune-classic/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune) на поддерживаемых устройствах.|
+|Сброс секретного кода|Функция Intune, позволяющая вынудить пользователя выполнить [сброс секретного кода](/intune-classic/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune) на поддерживаемых устройствах.|
 
 ## <a name="r"></a>R
 |||

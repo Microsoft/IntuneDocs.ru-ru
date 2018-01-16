@@ -7,18 +7,18 @@ author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 08/22/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9ca3b0ba-e41c-45fb-af28-119dff47c59f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e3cd1c7d68cba09c3483cd346772e9791d66c490
-ms.sourcegitcommit: 001577b700f634da2fec0b44af2a378150d1f7ac
+ms.openlocfilehash: f976bdcc900accc2955281685c11e33a732909f5
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Обход блокировки активации на защищенных устройствах iOS с помощью Intune
 
@@ -75,6 +75,6 @@ Intune может запрашивать состояние блокировки
 4. В колонке **Устройства и группы** выберите **Все устройства**.
 5. Выберите нужное защищенное устройство iOS в списке управляемых устройств, а затем выберите действие удаленного устройства **Обход блокировки активации**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Проверить состояние запроса на разблокировку можно на странице сведений об устройстве в рабочей нагрузке **Управление устройствами**.

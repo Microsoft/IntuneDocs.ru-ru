@@ -6,7 +6,7 @@ author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 02/16/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8f04793f6fe2526088aa5074da5e9ff04b82ba5a
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e8477acf609bc55b6ff235a7ddfb2afcc7eb7d2d
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="choose-how-to-manage-devices"></a>Выбор способа управления устройствами
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 10/10/2017
 Подробное описание возможностей управления для каждого способа см. в разделе [Mobile device managem/intune/supported-devices-browserssoft-intune).
 Сведения об устройствах и компьютерах, поддерживаемых Intune, см. в разделе [Поддерживаемые мобильные устройства и компьютеры](/intune/supported-devices-browsers#intune-supported-devices).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Выбор способа регистрации мобильных устройств](/intune-classic/get-started/choose-how-to-enroll-devices1)
 - [Управление компьютерами с ОС Windows при помощи клиентского программного обеспечения Intune](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune)

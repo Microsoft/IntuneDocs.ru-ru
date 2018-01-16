@@ -1,4 +1,4 @@
-- name: Введение
+- name: Обзор
   href: introduction-intune.md
   expanded: true
   items:
@@ -22,24 +22,13 @@
           href: whats-new-archive.md
         - name: Архив сведений о новых возможностях (классический портал)
           href: whats-new-archive-classic.md
-    - name: Высокоуровневая архитектура
-      href: high-level-architecture.md
-    - name: Жизненные циклы устройств и приложений
-      href: introduction-device-app-lifecycles.md
-      items:
-        - name: Жизненный цикл устройства
-          href: device-lifecycle.md
-        - name: Жизненный цикл приложения
-          href: app-lifecycle.md
-    - name: Распространенные сценарии
-      href: common-scenarios.md
     - name: Описание службы
       href: microsoft-intune-service-description.md
     - name: Известные проблемы
       href: known-issues.md
     - name: Получение поддержки
       href: get-support.md
-- name: Начало работы с Intune
+- name: Краткие руководства
   href: get-started-evaluation.md
   items:
     - name: Навигация по порталу Azure
@@ -54,6 +43,31 @@
       href: get-started-enroll.md
     - name: Назначение приложений
       href: get-started-apps.md
+- name: Руководства по реализации сценария
+  items:
+    - name: Защита Exchange Online
+      href: exchange-online-protect.md
+    - name: Сокращение затрат на службу поддержки
+      href: password-reset.md
+    - name: Предотвращение несанкционированного доступа
+      href: data-outside-protect.md
+    - name: Предотвращение утечки данных на неуправляемых устройствах
+      href: data-leak-prevention.md
+    - name: Сравнение MDM и MAM
+      href: byod-technology-decisions.md
+- name: Основные понятия
+  items:
+    - name: Высокоуровневая архитектура
+      href: high-level-architecture.md
+    - name: Жизненные циклы устройств и приложений
+      href: introduction-device-app-lifecycles.md
+      items:
+        - name: Жизненный цикл устройства
+          href: device-lifecycle.md
+        - name: Жизненный цикл приложения
+          href: app-lifecycle.md
+    - name: Распространенные сценарии
+      href: common-scenarios.md
 - name: Планирование развертывания
   items:
     - name: Планирование развертывания DPM
@@ -79,18 +93,6 @@
           href: planning-guide-test-validation.md
         - name: Дополнительные ресурсы
           href: planning-guide-resources.md
-    - name: Руководства по реализации сценария
-      items:
-        - name: Защита Exchange Online
-          href: exchange-online-protect.md
-        - name: Сокращение затрат на службу поддержки
-          href: password-reset.md
-        - name: Предотвращение несанкционированного доступа
-          href: data-outside-protect.md
-        - name: Предотвращение утечки данных на неуправляемых устройствах
-          href: data-leak-prevention.md
-        - name: Сравнение MDM и MAM
-          href: byod-technology-decisions.md
     - name: Руководство по миграции
       href: migration-guide.md
       items:
@@ -114,7 +116,7 @@
               href: migration-guide-drive-adoption.md
             - name: Типичный цикл миграции
               href: migration-guide-cycle.md
-- name: Инструкции
+- name: Практические руководства
   items:
     - name: Настройка Intune
       href: setup-steps.md
@@ -214,35 +216,39 @@
         - name: Добавление приложений
           href: apps-add.md
           items:
-            - name: Приложения из Магазина Android
-              href: store-apps-android.md
-            - name: Бизнес-приложения Android
-              href: lob-apps-android.md
-            - name: Приложения из Магазина iOS
-              href: store-apps-ios.md
-            - name: Бизнес-приложения iOS
-              href: lob-apps-ios.md
+            - name: Приложения Магазина
+              items:
+                - name: Приложения из Магазина Android
+                  href: store-apps-android.md
+                - name: Приложения из Магазина iOS
+                  href: store-apps-ios.md
+                - name: "Приложения из Магазина Windows Phone\_8.1"
+                  href: store-apps-windows-phone-8-1.md
+                - name: Приложения из Microsoft Store
+                  href: store-apps-windows.md
+                - name: Приложения Android for Work
+                  href: apps-add-android-for-work.md
+                - name: Приложения Office 365 для Windows 10
+                  href: apps-add-office365.md
+                - name: "Приложения Office\_365 для macOS"
+                  href: apps-add-office365-macos.md
+            - name: Сборка приложения (бизнес-приложения)
+              items:
+                - name: Бизнес-приложения Android
+                  href: lob-apps-android.md
+                - name: Бизнес-приложения iOS
+                  href: lob-apps-ios.md
+                - name: Бизнес-приложения Windows Phone
+                  href: lob-apps-windows-phone.md
+                - name: Бизнес-приложения Windows
+                  href: lob-apps-windows.md
             - name: Веб-приложения
               href: web-app.md
-            - name: "Приложения из Магазина Windows Phone\_8.1"
-              href: store-apps-windows-phone-8-1.md
-            - name: Бизнес-приложения Windows Phone
-              href: lob-apps-windows-phone.md
-            - name: Приложения из Microsoft Store
-              href: store-apps-windows.md
-            - name: Бизнес-приложения Windows
-              href: lob-apps-windows.md
-            - name: Приложения Android for Work
-              href: apps-add-android-for-work.md
-            - name: Приложения Office 365 для Windows 10
-              href: apps-add-office365.md
-            - name: "Приложения Office\_365 для macOS"
-              href: apps-add-office365-macos.md
-        - name: Назначение приложений
+        - name: Развертывание приложений
           href: apps-deploy.md
         - name: Мониторинг приложений
           href: apps-monitor.md
-        - name: Политики конфигурации приложений
+        - name: Настройка приложений
           href: app-configuration-policies-overview.md
           items:
             - name: iOS управляемые устройства
@@ -251,23 +257,25 @@
               href: app-configuration-policies-use-android.md
             - name: Управляемые приложения
               href: app-configuration-policies-managed-app.md
-        - name: Использование профилей подготовки приложений iOS
-          href: app-provisioning-profile-ios.md
-        - name: Выборочная очистка приложений
-          href: apps-selective-wipe.md
-        - name: 'Работа с приложениями и книгами, приобретенными по корпоративной программе'
-          href: vpp-apps.md
+            - name: Использование профилей подготовки приложений iOS
+              href: app-provisioning-profile-ios.md
+            - name: 'Работа с приложениями и книгами, приобретенными по корпоративной программе'
+              href: vpp-apps.md
+              items:
+                - name: Приложения VPP iOS
+                  href: vpp-apps-ios.md
+                - name: Приложения из Магазина Майкрософт для бизнеса
+                  href: windows-store-for-business.md
+                - name: Электронные книги по iOS
+                  href: vpp-ebooks-ios.md
+            - name: Настройка приложения корпоративного портала
+              href: company-portal-app.md
+            - name: Настройка Managed Browser
+              href: app-configuration-managed-browser.md
+        - name: Защита приложений
           items:
-            - name: Приложения VPP iOS
-              href: vpp-apps-ios.md
-            - name: Приложения из Магазина Майкрософт для бизнеса
-              href: windows-store-for-business.md
-            - name: Электронные книги по iOS
-              href: vpp-ebooks-ios.md
-        - name: Настройка приложения корпоративного портала
-          href: company-portal-app.md
-        - name: Настройка Managed Browser
-          href: app-configuration-managed-browser.md
+            - name: Выборочная очистка приложений
+              href: apps-selective-wipe.md
     - name: Настройка устройств
       href: device-profiles.md
       items:
@@ -435,8 +443,6 @@
                   href: app-protection-policy-settings-android.md
                 - name: Параметры iOS
                   href: app-protection-policy-settings-ios.md
-                - name: Просмотр журналов защиты приложений в Managed Browser
-                  href: app-protection-policy-settings-log.md
             - name: Проверка политик защиты приложений
               href: app-protection-policies-validate.md
             - name: Мониторинг состояния пользователя защиты приложений
@@ -554,45 +560,42 @@
           href: end-user-apps-ios.md
         - name: Как получить приложения Windows
           href: end-user-apps-windows.md
-- name: Мониторинг и устранение неполадок
-  items:
-    - name: Помощь пользователям в устранении проблем
-      href: help-desk-operators.md
-    - name: Журналы аудита для действий Intune
-      href: monitor-audit-logs.md
-    - name: Использование хранилища данных Intune
-      href: reports-nav-create-intune-reports.md
+    - name: Мониторинг и устранение неполадок
       items:
-        - name: Журнал изменений для хранилища данных
-          href: reports-changelog.md
-        - name: "Подключение к хранилищу данных с помощью Power\_BI"
-          href: reports-proc-get-a-link-powerbi.md
-        - name: Создание отчета из веб-канала OData с помощью Power BI
-          href: reports-proc-create-with-odata.md
-- name: Автоматизация и настройка
-  items:
-    - name: Настройка пользовательских параметров устройства
-      href: custom-settings-configure.md
+        - name: Помощь пользователям в устранении проблем
+          href: help-desk-operators.md
+        - name: Журналы аудита для действий Intune
+          href: monitor-audit-logs.md
+        - name: Просмотрите журналы защиты приложений
+          href: app-protection-policy-settings-log.md
+    - name: Автоматизация и настройка
       items:
-        - name: Профиль Wi-Fi с общим ключом
-          href: wi-fi-profile-shared-key.md
-        - name: Android
-          href: custom-settings-android.md
+        - name: Настройка пользовательских параметров устройства
+          href: custom-settings-configure.md
           items:
-            - name: Профиль VPN на уровне приложения
-              href: android-pulse-secure-per-app-vpn.md
-            - name: Разрешение и блокировка приложений для Samsung KNOX Standard
-              href: samsung-knox-apps-allow-block.md
-        - name: iOS
-          href: custom-settings-ios.md
-        - name: macOS
-          href: custom-settings-macos.md
-        - name: "Windows\_Phone\_8.1"
-          href: custom-settings-windows-phone-8-1.md
-        - name: Windows 10
-          href: custom-settings-windows-10.md
-        - name: Android for Work
-          href: custom-settings-android-for-work.md
+            - name: Профиль Wi-Fi с общим ключом
+              href: wi-fi-profile-shared-key.md
+            - name: Android
+              href: custom-settings-android.md
+              items:
+                - name: Профиль VPN на уровне приложения
+                  href: android-pulse-secure-per-app-vpn.md
+                - name: Разрешение и блокировка приложений для Samsung KNOX Standard
+                  href: samsung-knox-apps-allow-block.md
+            - name: iOS
+              href: custom-settings-ios.md
+            - name: macOS
+              href: custom-settings-macos.md
+            - name: "Windows\_Phone\_8.1"
+              href: custom-settings-windows-phone-8-1.md
+            - name: Windows 10
+              href: custom-settings-windows-10.md
+            - name: Android for Work
+              href: custom-settings-android-for-work.md
+        - name: Загрузка неопубликованных бизнес-приложений Windows
+          href: app-sideload-windows.md
+- name: Руководство разработчика
+  items:
     - name: Защита приложений с помощью пакета SDK для приложений Intune
       href: app-sdk.md
       items:
@@ -612,6 +615,15 @@
           href: app-sdk-cordova.md
         - name: Компонент Xamarin из пакета SDK для приложений Intune
           href: app-sdk-xamarin.md
+    - name: Использование хранилища данных Intune
+      href: reports-nav-create-intune-reports.md
+      items:
+        - name: Журнал изменений для хранилища данных
+          href: reports-changelog.md
+        - name: "Подключение к хранилищу данных с помощью Power\_BI"
+          href: reports-proc-get-a-link-powerbi.md
+        - name: Создание отчета из веб-канала OData с помощью Power BI
+          href: reports-proc-create-with-odata.md
     - name: Создание отчетов с помощью API хранилища данных Intune
       href: reports-nav-intune-data-warehouse.md
       items:
@@ -647,5 +659,7 @@
       items:
         - name: Справочник по API Graph для Intune
           href: 'https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview'
-- name: Глоссарий
-  href: intune-glossary.md
+- name: Ресурсы
+  items:
+    - name: Глоссарий
+      href: intune-glossary.md

@@ -15,11 +15,11 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bfcce8d38bc403a13aa28cc762370a7cfaa0bc2d
-ms.sourcegitcommit: 1df625330f4e8f7f661b5f2b9f16b5590971838d
+ms.openlocfilehash: 7d78ec07a31a54ff16cb6ca7deb2a883da632139
+ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Использование профиля пользовательского устройства для создания профиля Wi-Fi с общим ключом
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -28,9 +28,9 @@ ms.lasthandoff: 11/10/2017
 
 > [!NOTE]
 -   Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
-- Для Android можно использовать [генератор PSK Android](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/) от Джонатона Бирсака (Johnathon Biersack).
+- Для Android можно использовать [генератор PSK Android](http://intunepskgenerator.johnathonb.com/) от Джонатона Бирсака (Johnathon Biersack).
 -   Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
--  Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Можно также воспользоваться генератором [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/) от Джонатона Бирсака.
+-  Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Можно также воспользоваться генератором [iOS PSK Mobile Config Generator](http://intunepskgenerator.johnathonb.com/) от Джонатона Бирсака.
 
 
 1.  Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании профиля устройства вместо профиля Wi-Fi выберите для платформы устройства вариант **Настраиваемая конфигурация**.
@@ -38,13 +38,13 @@ ms.lasthandoff: 11/10/2017
 2.  Укажите имя и введите описание.
 3.  Добавление нового параметра OMA URI
 
-   а.   Введите имя для этого параметра сети Wi-Fi.
+   a.   Введите имя для этого параметра сети Wi-Fi.
 
    b.   Введите описание параметра OMA-URI или оставьте поле пустым.
 
-   в.   **Тип данных**: задайте значение **Строка**.
+   c.   **Тип данных**: задайте значение **Строка**.
 
-   г.   **OMA-URI**:
+   d.   **OMA-URI**:
 
     - **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
     - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml

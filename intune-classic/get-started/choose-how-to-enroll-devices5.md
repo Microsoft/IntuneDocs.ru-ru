@@ -6,7 +6,7 @@ author: NathBarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 03/27/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -14,11 +14,11 @@ ms.assetid: ed9250aa-e894-4eac-92b8-5f1a3748e255
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.custom: intune-classic EXPIERIMENT
-ms.openlocfilehash: c83833f0e45038146e6785d27b32f6e61ef8803d
-ms.sourcegitcommit: 70dc0aaad51b447e173b663d1092d993dc81ffdd
+ms.openlocfilehash: 489936efebe4a69b834c96a4f878a905b8e4ec6f
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="choose-how-to-enroll-mobile-devices"></a>Выбор способа регистрации мобильных устройств
 
