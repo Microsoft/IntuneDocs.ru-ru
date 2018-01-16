@@ -6,7 +6,7 @@ author: arob98
 ms.author: angrobe
 nmanager: angrobe
 ms.date: 10/30/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -14,11 +14,11 @@ ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5c9f85c5535444953cb46363dde54954e83fceea
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: 8ce341a3a2c3e4ace8786c628afb448d7b9ce70d
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="sign-up-or-sign-in-to-intune"></a>Регистрация или вход в Intune
 

@@ -6,7 +6,7 @@ author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 02/14/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0920891e2c8b75d7103455b3588917372a14e3b3
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: d0bd31c07bb1b09893a065c4041d4fcc5015d72b
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="manage-intune-licenses-using-powershell"></a>Управление лицензиями Intune с помощью PowerShell
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 10/10/2017
 
 ![PoSH-AddLic-Verify](./media/posh-addlic-verify.png)
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Поздравляем! Вы завершили шаг 4 *краткого руководства по началу работы с Intune*.
 >[!div class="step-by-step"]
 (/intune/custom-domain-name-configure) [&larr; **Синхронизация пользователей с Intune**](/intune/custom-domain-name-configure)     [**Организация пользователей и устройств** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  

@@ -7,18 +7,18 @@ author: arob98
 ms.author: angrobe
 manager: angrobe
 ms.date: 08/09/2017
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dadcd33f39827365fc3f22c46d4332f3ea3cbf09
-ms.sourcegitcommit: a1c751959c9b3d5678bd9d67007e762df30eab59
+ms.openlocfilehash: 8a8bb4729314819b23d69f0ccf6f6c093f29801f
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="sync-devices-with-intune-to-get-the-latest-policies-and-actions"></a>Синхронизация устройств с Intune для получения последних политик и действий
 
@@ -64,6 +64,6 @@ ms.lasthandoff: 10/23/2017
 | 2016330889 | Сбой защищенного подключения. Сбросьте подключение.                                                                                   | Да       |
 | 2016330888 | Не удалось оценить доверие сервера.                                                                                                | Нет        |
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Выберите **Действия устройства**, чтобы просмотреть состояние действия синхронизации. 

@@ -6,7 +6,7 @@ author: jeffgilb
 ms.author: jeffgilb
 manager: angrobe
 ms.date: 12/22/2016
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0dc81769100dceeefe06be72bab8d2e41719a0fb
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 99ffa50aaf60af5b4f7253b397fbb8e3c18cce61
+ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="quick-start-guide-simplify-email-configuration-on-mobile-devices"></a>Краткое руководство по началу работы. Упрощение конфигурации электронной почты на мобильных устройствах
 

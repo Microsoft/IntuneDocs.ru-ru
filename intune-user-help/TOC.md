@@ -79,6 +79,7 @@
 #### [Отправка сведений об ошибках в компанию](send-errors-to-your-it-admin-ios.md)
 #### [Отправка сведений об ошибках в корпорацию Майкрософт](send-logs-to-microsoft-ios.md)
 #### [Найдена существующая учетная запись электронной почты компании](existing-company-email-account-found.md)
+#### [Достигнуто предельное число устройств](device-limit-wpj-ios.md)
 #### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-ios.md)
 #### [Появилось сообщение об ошибке](you-get-an-error-while-using-the-company-portal-app-ios.md)
 #### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
@@ -112,6 +113,7 @@
 #### [Если устройство немного отличается](device-little-different-jamf.md)
 #### [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-macos.md)
 #### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
+#### [Достигнуто предельное число устройств](device-limit-wpj-macos.md)
 
 ## [Использование устройства Windows в Intune](using-your-windows-device-with-intune.md)
 ### [Что происходит при регистрации устройства с Windows 10?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md)
