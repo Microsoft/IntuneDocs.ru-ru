@@ -654,11 +654,11 @@
               href: reports-ref-user-device.md
             - name: Справочник по сущности пользователя
               href: reports-ref-user.md
-    - name: API Graph Intune
+    - name: Доступ к API Intune в Microsoft Graph с использованием Azure AD
       href: intune-graph-apis.md
       items:
-        - name: Справочник по API Graph для Intune
-          href: 'https://graph.microsoft.io/docs/api-reference/beta/resources/intune_graph_overview'
+        - name: Справочник по API Intune
+          href: 'https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/intune_graph_overview'
 - name: Ресурсы
   items:
     - name: Глоссарий
