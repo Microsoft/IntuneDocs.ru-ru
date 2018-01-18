@@ -6,7 +6,7 @@ keywords:
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
-ms.date: 08/31/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 54def958cb82709f55b3c5f75d85f3b530e3d70b
-ms.sourcegitcommit: 229f9bf89efeac3eb3d28dff01e9a77ddbf618eb
+ms.openlocfilehash: 343078bf802aa45ec0cd0a3f2e554ab74e1f0b8a
+ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="remove-devices-by-using-factory-reset-or-remove-company-data"></a>Очистка устройств с помощью сброса параметров до заводских настроек или удаления данных организации
 
@@ -96,6 +96,18 @@ ms.lasthandoff: 01/05/2018
 ### <a name="android-for-work"></a>Android for Work
 
 При удалении данных организации на устройствах Android for Work удаляются все данные, приложения и параметры в рабочем профиле этого устройства. В этом случае управление устройством с помощью Intune прекращается. В случае с Android for Work сброс параметров до заводских настроек не поддерживается.
+
+
+### <a name="macos"></a>macOS
+
+|Тип данных|macOS|
+|-------------|-------|
+|"Настройки"|Настройки, заданные политикой Intune, больше не действуют. Пользователи могут изменять параметры.|
+|Параметры профилей Wi-Fi и VPN|Удаляются.|
+|Параметры профилей сертификатов|Сертификаты, которые были развернуты с помощью MDM, будут удалены и отозваны.|
+|Агент управления|Профиль управления удаляется.|
+|Outlook|Если включен условный доступ, устройство не будет получать новые сообщения электронной почты.|
+|Отсоединение Azure Active Directory (AD)|Удаляется запись Azure AD.|
 
 ### <a name="windows"></a>Windows
 
