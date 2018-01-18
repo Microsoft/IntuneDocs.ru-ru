@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 01/02/2018
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,15 @@ searchScope: User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: 8edfc4f55e9265ef6bd2dfbcb5871496d5679a9f
-ms.sourcegitcommit: 5004b9564915712b41860df20324f39fac3dc27d
+ms.openlocfilehash: 77b3b8f3fff39df94d535b28c060334b3e0a63ce
+ms.sourcegitcommit: a55a7119a15836b6941fdd5b32b9076139093693
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/10/2018
 ---
 # <a name="fix-common-issues-with-your-samsung-knox-device"></a>Решение распространенных проблем с устройствами Samsung Knox
 
-Иногда на устройствах с Samsung Knox могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+Иногда на устройствах с Samsung Knox могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. Для решения более сложных проблем рекомендуется [обращаться к команде разработчиков корпоративного портала Android](https://github.com/MicrosoftDocs/IntuneDocs/blob/master/intune-user-help/send-logs-to-microsoft-android.md).
 
 ## <a name="network-activation-error"></a>Ошибка активации в сети
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 01/03/2018
 
 |Сообщение об ошибке|Возможное решение|
 |---|---|
-|**Ошибка активации Samsung Knox**. Не удалось активировать лицензию Samsung Knox. Переключитесь на другую беспроводную сеть или сеть мобильной связи, чтобы повторить попытку.|Не удалось активировать устройство в текущей сети. Если включена передача данных, переключитесь на сеть Wi-Fi и повторите попытку.|
+|**Ошибка активации Samsung Knox**. Не удалось активировать лицензию Samsung Knox. Переключитесь на другую беспроводную сеть или сеть мобильной связи, чтобы повторить попытку.|Не удалось активировать устройство в текущей сети. Если включена передача данных, переключитесь на сеть Wi-Fi и повторите попытку (или наоборот).|
 
 ## <a name="license-activation-error"></a>Ошибка активации лицензии
 
