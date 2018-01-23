@@ -11,14 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: C29A6EEA-72B7-427E-9601-E05B408F3BB0
-ms.reviewer: jeffgilb
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 917c9585ffe17f9d090c519f716d284aa1b932b8
-ms.sourcegitcommit: b2467a653ffd36c2248a30b69cb88e3dc7cca2ed
+ms.openlocfilehash: 1f213cb735ab4dcad20c97b5924fef98774192ce
+ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/16/2018
 ---
 # <a name="reference-for-user-entity"></a>Справочник по сущности пользователя
 

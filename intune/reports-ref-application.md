@@ -11,14 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
-ms.reviewer: jeffgilb
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6698ff8d333d386c1401f942b2bbd4a75d86943c
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: a4008aa1c5e8c8219b45fffd1b021965bb83be17
+ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/16/2018
 ---
 # <a name="reference-for-application-entities"></a>Справочник по сущностям приложения
 

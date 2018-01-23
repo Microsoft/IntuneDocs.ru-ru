@@ -12,14 +12,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1326e65e-56cc-4987-9006-3a788597ca19
-ms.reviewer: jeffgilb
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 41eb9e7ef59af185bae10664123098641f9c3826
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 868a8e043c05e0913d49933270110bb084c5fb4a
+ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 01/16/2018
 ---
 # <a name="contact-assisted-phone-support-for-microsoft-intune"></a>Контактные телефоны службы поддержки Microsoft Intune
 

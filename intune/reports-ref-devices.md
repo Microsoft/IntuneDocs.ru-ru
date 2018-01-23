@@ -11,14 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6955E12D-70D7-4802-AE3B-8B276F01FA4F
-ms.reviewer: jeffgilb
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 24260c9e6a9929c74b47e5d83bf4d1be867b6b2e
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: c708361708468c544533a27a446ef33a23d88d8a
+ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/16/2018
 ---
 # <a name="reference-for-devices-entities"></a>Справочник по сущностям устройств
 

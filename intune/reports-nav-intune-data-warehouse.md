@@ -11,14 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 701D6CE9-43F6-4A29-8E84-E2B59931C635
-ms.reviewer: jeffgilb
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b9328f372e3f3d90c47db2ee77d06a924f38b560
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: 6bdb7a8d20d86ca800b61c069dcc380f86747a30
+ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/16/2018
 ---
 #  <a name="intune-data-warehouse-api"></a>API хранилища данных Intune
 
