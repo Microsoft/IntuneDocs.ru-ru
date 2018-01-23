@@ -11,14 +11,14 @@ ms.prod:
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
-ms.reviewer: jeffgilb
+ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8fff2942f13d5cb9139c7e566d6592009eb89eca
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: da35a5617ccd97db568c5aa464a4554fb4cde235
+ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 01/16/2018
 ---
 # <a name="overview-of-device-and-app-lifecycles"></a>Общие сведения о жизненных циклах устройств и приложений
 
