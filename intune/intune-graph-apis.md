@@ -1,6 +1,6 @@
 ---
-title: "Доступ к API Intune Graph с использованием Azure AD"
-description: "В этом разделе описывается порядок доступа к API Intune Graph с использованием Azure AD"
+title: "Доступ к интерфейсам API Intune в Microsoft Graph с использованием Azure AD"
+description: "В этом разделе описывается порядок доступа к интерфейсам API Intune в Microsoft Graph с использованием Azure AD."
 keywords: "intune graphapi c# powershell роли разрешений"
 author: vhorne
 manager: angrobe
@@ -13,20 +13,20 @@ ms.technology:
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 351a066c8852125b6fbf26c039dd3718b63f8980
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 6637d7269f7620dc348b80533661afac8f12e0ba
+ms.sourcegitcommit: d6dc1211e9128c2e0608542b72d1caa4d6ba691d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="how-to-use-azure-ad-to-access-the-intune-graph-api"></a>Доступ к API Intune Graph с использованием Azure AD
+# <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Доступ к интерфейсам API Intune в Microsoft Graph с использованием Azure AD
 
-[API Microsoft Graph](https://developer.microsoft.com/graph/) теперь поддерживает службу Microsoft Intune с соответствующими API и ролями разрешений.  API Graph использует Azure Active Directory (Azure AD) для проверки подлинности и управления доступом.  
-Требования для доступа к API Intune Graph:
+[API Microsoft Graph](https://developer.microsoft.com/graph/) теперь поддерживает службу Microsoft Intune с соответствующими API и ролями разрешений.  API Microsoft Graph использует Azure Active Directory (Azure AD) для проверки подлинности и управления доступом.  
+Для доступа к интерфейсам API Intune в Microsoft Graph требуется следующее:
 
 - Идентификатор приложения со следующими характеристиками:
 
-    - Разрешение на вызов Azure AD и API Graph.
+    - Разрешение на вызов Azure AD и интерфейсов Microsoft API Graph.
     - Области разрешений, соответствующие задачам конкретного приложения.
 
 - Учетные данные пользователя со следующими характеристиками:
@@ -38,11 +38,11 @@ ms.lasthandoff: 12/12/2017
 
 В этой статье:
 
-- Демонстрируется порядок регистрации приложения с доступом к API Graph и соответствующими ролями разрешений.
+- Демонстрируется порядок регистрации приложения с доступом к API Microsoft Graph и соответствующими ролями разрешений.
 
-- Описываются роли разрешений API Intune Graph.
+- Описываются роли разрешений API Intune.
 
-- Приводятся образцы проверки подлинности API Intune Graph для C# и PowerShell.
+- Приводятся образцы проверки подлинности API Intune для C# и PowerShell.
 
 - Описывается структура поддержки нескольких клиентов
 
@@ -53,9 +53,9 @@ ms.lasthandoff: 12/12/2017
 - [Интеграция приложений с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 - [Общие сведения об OAuth 2.0](https://oauth.net/2/)
 
-## <a name="register-apps-to-use-graph-api"></a>Регистрация приложения для использования API Graph
+## <a name="register-apps-to-use-the-microsoft-graph-api"></a>Регистрация приложений для использования API Microsoft Graph
 
-Чтобы зарегистрировать приложение для использования API Graph, выполните следующие действия:
+Чтобы зарегистрировать приложение для использования API Microsoft Graph, выполните указанные ниже действия.
 
 1.  Войдите на [портал Azure](https://portal.azure.com) в качестве администратора.
 
@@ -127,15 +127,15 @@ ms.lasthandoff: 12/12/2017
 
 ## <a name="intune-permission-scopes"></a>Области разрешений Intune
 
-Azure AD и API Graph используют области разрешений для управления доступом к корпоративным ресурсам.  
+Azure AD и Microsoft Graph используют области разрешений для управления доступом к корпоративным ресурсам.  
 
-Области разрешений также называются _областями OAuth_ и позволяют контролировать доступ к определенным сущностям Intune и их свойствам. В этом разделе обобщаются области разрешений для функций API Intune Graph.
+Области разрешений также называются _областями OAuth_ и позволяют контролировать доступ к определенным сущностям Intune и их свойствам. В этом разделе обобщаются области разрешений для функций API Intune.
 
 Дополнительные сведения:
 - [Проверка подлинности Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)
 - [Области разрешений приложения](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-scopes)
 
-Предоставляя разрешения API Graph, вы можете указать следующие области управления доступом к Intune, которые будут определяться показанными ниже областями разрешений API Intune Graph.  В первом столбце приводится имя функции, которое отображается на портале Azure, а во втором — имя соответствующей области разрешений.
+Предоставляя разрешения на доступ к Microsoft Graph, вы можете указать следующие области управления доступом к Intune, которые будут определяться приведенными ниже областями разрешений API Intune.  В первом столбце приводится имя функции, которое отображается на портале Azure, а во втором — имя соответствующей области разрешений.
 
 Значение параметра _Разрешить доступ_ | Имя области
 :--|:--
@@ -153,7 +153,7 @@ __Чтение конфигурации Microsoft Intune__ | [DeviceManagementSe
 
 Эта таблица содержит параметры, отображаемые на портале Azure. В следующих разделах области описываются в алфавитном порядке.
 
-На данный момент для всех областей разрешений Intune требуется доступ с правами администратора.  Это означает, что при выполнении приложений и скриптов, запрашивающих доступ к ресурсам API Intune Graph, вам потребуются соответствующие учетные данные.
+На данный момент для всех областей разрешений Intune требуется доступ с правами администратора.  Это означает, что при выполнении приложений и скриптов, запрашивающих доступ к ресурсам API Intune, вам потребуются соответствующие учетные данные.
 
 ### <a name="app-ro"></a>DeviceManagementApps.Read.All
 
@@ -319,7 +319,7 @@ __Чтение конфигурации Microsoft Intune__ | [DeviceManagementSe
 
 В этом случае убедитесь, что выполняются следующие требования:
 
-- Вы указали идентификатор приложения с разрешениями на использование API Graph и областью разрешений `DeviceManagementManagedDevices.Read.All`.
+- Вы указали новый идентификатор приложения с разрешениями на использование API Microsoft Graph и областью разрешений `DeviceManagementManagedDevices.Read.All`.
 
 - Ваши учетные данные клиента поддерживают функции администратора.
 
@@ -557,7 +557,7 @@ catch {
 
     Для этого выполните любое из следующих действий:
 
-    а. С помощью [Центра партнеров Майкрософт](https://partnercenter.microsoft.com/) определите отношение между своим клиентом и соответствующим адресом электронной почты.
+    a. С помощью [Центра партнеров Майкрософт](https://partnercenter.microsoft.com/) определите отношение между своим клиентом и соответствующим адресом электронной почты.
 
     b. Пригласите пользователя в качестве гостя клиента.
 

@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7877d0bb6ba7a9c9d51cd261a7f1fbf555f88961
-ms.sourcegitcommit: 0795870bfe941612259ebec0fe313a783a44d9b9
+ms.openlocfilehash: 632a5b2a5f6f5188ef034bdcff927af6a7fe1a59
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 01/11/2018
    ![Снимок экрана, содержащий ссылку на настройку привязки Android for Work](./media/android-work-bind.png)
 
    b. **Вход в Google**<br>
-   На странице входа в Google выполните вход с учетной записью Google, которая будет связана со всеми задачами управления устройствами Android for Work для этого клиента. Это учетная запись Google, которую ИТ-администраторы вашей организации используют для управления приложениями и их публикации в консоли Play for Work.
+   На странице входа в Google выполните вход с учетной записью Google, которая будет связана со всеми задачами управления устройствами Android for Work для этого клиента. Это учетная запись Google, которую ИТ-администраторы вашей организации используют для управления приложениями и их публикации в консоли Play for Work. Можно использовать уже существующую учетную запись Google или создать новую.  Выбранная учетная запись не должна быть связана с доменом G-Suite.
 
    c. **Указание данных об организации**<br>
    Укажите наименование своей организации в поле **Название организации**. Для параметра **Поставщик услуг Enterprise mobility management (EMM)** должно быть указано значение **Microsoft Intune**. Примите соглашение Android for Work и выберите элемент **Подтвердить**. Ваш запрос будет обработан.

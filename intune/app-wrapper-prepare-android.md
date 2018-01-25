@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a691786ce2ee975086899844b285a91f676aa71f
-ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
+ms.openlocfilehash: 1673fa1e9c580c1554537530341f87b1580e79eb
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -81,7 +81,7 @@ ms.lasthandoff: 01/13/2018
 |Свойство|Данные|Пример|
 |-------------|--------------------|---------|
 |**-InputPath**&lt;строка&gt;|Путь исходного приложения Android (APK).| |
-|**-OutputPath**&lt;строка&gt;|Путь к "выходному" приложению Android. Если это тот же путь к каталогу, что и InputPath, произойдет сбой упаковки.| |
+ |**-OutputPath**&lt;строка&gt;|Путь к "выходному" приложению Android. Если это тот же путь к каталогу, что и InputPath, произойдет сбой упаковки.| |
 |**-KeyStorePath**&lt;строка&gt;|Путь к KEYSTORE-файлу, который содержит пару открытого и закрытого ключей для подписания.|По умолчанию файлы хранилища ключей находятся в папке "C:\Program Files (x86)\Java\jreX.X.X_XX\bin". |
 |**-KeyStorePassword**&lt;SecureString&gt;|Пароль, используемый для расшифровки KEYSTORE-файла. Для Android требуется, чтобы все пакеты приложения (с расширением APK) были подписаны. Используйте средство Java KeyTool, чтобы создать пароль для хранилища ключей. Дополнительные сведения о Java [KeyStore](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html) Java см. здесь.| |
 |**-KeyAlias**&lt;строка&gt;|Имя ключа, используемого для подписания.| |
@@ -115,7 +115,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 ## <a name="how-often-should-i-rewrap-my-android-application-with-the-intune-app-wrapping-tool"></a>Как часто следует повторно упаковывать приложение Android с помощью инструмента упаковки для приложений Intune?
 Ниже приводятся основные сценарии, в которых потребуется повторная упаковка приложений.
-* Вышла новая версия приложения.
+* Вышла новая версия приложения. Предыдущая версия приложения была упакована и отправлена в консоль Intune.
 * Вышла новая версия инструмента упаковки для приложений Android Intune, в которой исправлены ключевые ошибки или добавлены новые функции политики защиты приложений Intune. Это происходит каждые 6–8 недель в репозитории GitHub [инструмента упаковки для приложений Android Microsoft Intune](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android).
 
 Далее приводятся некоторые рекомендации по повторной упаковке. 
@@ -144,6 +144,32 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 -   Убедитесь, что приложение получено из надежного источника.
 
 -   Обеспечьте безопасность выходного каталога, содержащего упакованное приложение. Рассмотрите возможность использования каталога уровня пользователя в качестве выходного каталога.
+
+## <a name="requiring-user-login-prompt-for-an-automatic-app-we-service-enrollment-requiring-intune-app-protection-policies-in-order-to-use-your-wrapped-android-lob-app-and-enabling-adal-sso-optional"></a>Настройка обязательного входа пользователя в систему для автоматической регистрации в службе APP-WE, настройка обязательного применения политик защиты приложений Intune для использования упакованного бизнес-приложения Android и включение единого входа ADAL (необязательно)
+
+Ниже приводятся указания по настройке обязательного запроса учетных данных пользователя при запуске приложения для автоматической регистрации в службе APP-WE (в этом разделе она называется **регистрацией по умолчанию**) и настройке политик защиты приложений Intune таким образом, чтобы они разрешали использование упакованного бизнес-приложения Android только пользователям, защищенным Intune. В нем также рассматривается включение единого входа для упакованного бизнес-приложения Android. 
+
+> [!NOTE] 
+> Преимущества **регистрации по умолчанию** включают в себя упрощенный способ получения политики из службы APP-WE для приложения на устройстве.
+
+### <a name="general-requirements"></a>Общие требования
+* Команда SDK Intune запросит идентификатор вашего приложения. Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Связаться с командой SDK Intune можно по электронной почте: msintuneappsdk@microsoft.com.
+     
+### <a name="working-with-the-intune-sdk"></a>Работа с пакетом SDK Intune
+Эти инструкции относятся ко всем приложениям для Android и Xamarin, которые нуждаются в обязательном применении политик защиты устройств Intune на устройстве конечного пользователя.
+
+1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/en-us/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
+> [!NOTE] 
+> Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
+* Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
+
+2. Включите регистрацию по умолчанию, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```.
+> [!NOTE] 
+> Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager могут возникнуть конфликты.
+
+3. Включите требуемую политику MAM, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```.
+> [!NOTE] 
+> В результате пользователю будет необходимо скачать приложение корпоративного портала на устройстве и пройти процедуру регистрации по умолчанию перед использованием.
 
 ### <a name="see-also"></a>См. также:
 - [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](apps-prepare-mobile-application-management.md)

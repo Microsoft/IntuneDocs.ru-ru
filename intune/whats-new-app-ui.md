@@ -5,7 +5,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: angrobe
-ms.date: 12/14/2017
+ms.date: 01/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7e7810652fdf5b7b84b4fd7bb6367ec76901b4f0
-ms.sourcegitcommit: 06abc5ccc8b868c9ff3ad3f8f62473a87b2da481
+ms.openlocfilehash: 1662245fdf9ba557fbc62fbb2e9c0e1aa29888b2
+ms.sourcegitcommit: 5877b650d93fc9a5e8f058f845acbdbfdff828b7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/22/2018
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для приложения конечного пользователя Intune
 Ознакомьтесь с изменениями, внесенными в пользовательский интерфейс для приложений в этом выпуске Microsoft Intune. Взаимодействовать с пользователями станет проще, и вы сможете добавить актуальную информацию в собственную документацию по своему развертыванию. Вы также поймете, как эффективнее решать проблемы, когда пользователи обращаются в службу поддержки по вопросам работы на корпоративном портале.
@@ -301,10 +301,10 @@ __Новый интерфейс входа при входе с другого �
    <table id="wrapper">
       <tr>
          <td>
-            <img src="/intune/media/cp_manbro_before_042017.png" alt="The previous version of the Managed Browser app icon." width=200 height=366 align=center>
+            <img src="/intune/media/cp_manbro_before_042017.png" alt="The previous version of the Managed Browser app icon." width="200" height="366" align="center">
           </td>
           <td>
-             <img src="/intune/media/cp_manbro_after_042017.png" alt="The updated version of the Managed Browser app icon." width=200 height=366 align=center>
+             <img src="/intune/media/cp_manbro_after_042017.png" alt="The updated version of the Managed Browser app icon." width="200" height="366" align="center">
            </td>
       </tr>
    </table>
@@ -322,13 +322,13 @@ __Новый интерфейс входа при входе с другого �
    <table id="wrapper">
       <tr>
          <td>
-            <img src="/intune/media/cp_android_connecting_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Connecting' underneath it." width=200 height=366 align=center>
+            <img src="/intune/media/cp_android_connecting_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Connecting' underneath it." width="200" height="366" align="center">
           </td>
           <td>
-             <img src="/intune/media/cp_android_signing_in_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Signing in' underneath it." width=200 height=366 align=center>
+             <img src="/intune/media/cp_android_signing_in_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Signing in' underneath it." width="200" height="366" align="center">
            </td>
            <td>
-              <img src="/intune/media/cp_android_checking_security_reqs_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Checking for security requirements' underneath it." width=200 height=366 align=center>
+              <img src="/intune/media/cp_android_checking_security_reqs_042017.png" alt="The Company Portal app for Android sign in screen that shows a partially filled loading bar with the phrase 'Checking for security requirements' underneath it." width="200" height="366" align="center">
            </td>
       </tr>
    </table>
@@ -362,7 +362,7 @@ __После__ ![Изображение обновленной версии за
    <table id="wrapper">
       <tr>
          <td>
-            <img src="/intune/media/cp_android_contactit_after.png" alt="The Company Portal app for Android displaying an updated version of the Contact IT tab. The tab shows available contact information for IT, including phone number, email address, IT website, and IT contact information." width=200 height=366 align=center>
+            <img src="/intune/media/cp_android_contactit_after.png" alt="The Company Portal app for Android displaying an updated version of the Contact IT tab. The tab shows available contact information for IT, including phone number, email address, IT website, and IT contact information." width="200" height="366" align="center">
           </td>
       </tr>
    </table>
@@ -382,11 +382,21 @@ __После__ ![Изображение обновленной версии за
 > [!Note]
 > Обратите внимание, что приведенные ниже изображения могут относиться к предварительной версии, и опубликованный продукт может отличаться от представленных версий.
 
+### <a name="user-experience-update-for-the-company-portal-app-for-ios---1412866--"></a>Обновление пользовательского интерфейса в приложении корпоративного портала для iOS <!--1412866-->
+
+Мы готовим к выпуску существенное обновление пользовательского интерфейса в приложении корпоративного портала для iOS. Внешний вид интерфейса будет полностью переработан и усовершенствован. Кроме того, будет повышено удобство использования и расширены специальные возможности. Все текущие функциональные возможности приложения "Корпоративный портал" для iOS сохранятся.
+
+Мы предлагаем предварительную версию обновленного приложения "Корпоративный портал" для iOS в рамках программы Apple TestFlight, чтобы вы могли испытать ее и предоставить отзыв. Чтобы получить доступ к программе TestFlight, пройдите регистрацию на странице https://aka.ms/intune_ios_cp_testflight.
+
+![Изображения нового приложения корпоративного портала для ios](./media/ios-cp-app-redesign-1801-teaser.png)
+
 ### <a name="ui-updates-to-the-company-portal-website---1313244-part-2--"></a>Обновления пользовательского интерфейса для веб-сайта корпоративного портала <!--1313244 part 2-->
 
 __Обновления для рекомендуемых приложений.__ Мы добавили выделенную страницу для сайта, где пользователи могут просматривать выбранные вами приложения, и определенным образом оптимизировали пользовательский интерфейс раздела "Рекомендуемые" на домашней странице.
 
 ![Цветные плитки, показывающие приложения. Они представляют собой большие цветные квадраты под каждым приложением. Их цвет соответствует основному оттенку в логотипе приложения. Раздел "Рекомендуемые приложения" отображается в верхней части приложения корпоративного портала.](./media/cp_win10_colorful_tiles_after_1708.png)
+
+
 
 ### <a name="see-also"></a>См. также:
 * [Блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882)

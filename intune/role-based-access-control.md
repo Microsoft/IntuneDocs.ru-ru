@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: angrobe
-ms.date: 06/21/2017
+ms.date: 01/17/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: ca3de752-3caa-46a4-b4ed-ee9012ccae8e
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 99af53b3b22d0ed0196ee3dcd7af91a972f1f0be
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: 87a921d02b4564a30d6bab0009b82d29a5252680
+ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="role-based-administration-control-rbac-with-intune"></a>Управление доступом на основе ролей (RBAC) с помощью Intune
 
@@ -61,6 +61,18 @@ ms.lasthandoff: 01/12/2018
 - **Диспетчер политик и профилей**. Управляет политикой соответствия требованиям, профилями конфигурации, регистрацией Apple и идентификаторами корпоративных устройств.
 - **Оператор только для чтения**. Просматривает сведения о пользователях, устройствах, регистрации, конфигурации и приложениях. Не может вносить изменения в Intune.
 - **Диспетчер приложений**. Управляет мобильными и управляемыми приложениями. Может читать информацию об устройстве.
+- **Администратор учебного заведения**: управляет устройствами с Windows 10 в [Intune для образовательных учреждений](introduction-intune-education.md) и может выполнять следующие действия. 
+
+|Разрешение|Операция|
+|---|---|
+|Данные аудита|Чтение|
+|DeviceConfigurations|Назначение, создание, удаление, чтение, обновление|
+|Диспетчеры регистрации устройств|Чтение, обновление|
+|Управляемые устройства|Чтение, обновление<!--, Delete [To be added in 1803]-->|
+|Мобильные приложения|Назначение, создание, удаление, чтение, обновление|
+|Reports|Чтение|
+|Удаленные действия|Очистка ПК, перезагрузка, удаленная блокировка, снятие с учета, синхронизация устройств, очистка|
+|Организация|Чтение|
 
 ### <a name="to-assign-a-built-in-role"></a>Назначение встроенной роли
 
