@@ -6,7 +6,7 @@ keywords:
 author: erikre
 ms.author: erikre
 manager: angrobe
-ms.date: 12/01/2017
+ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 668264fc0ed4d9bebf84d97aa66a886d93fbb4eb
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: b91a9e57eb368daae77958eaf4e554628361b2c4
+ms.sourcegitcommit: 7d80886ed9a12597fead9326568b4e759b29a340
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 12/08/2017
 -   **Устройства, не зарегистрированные в каком-либо решении по управлению мобильными устройствами**. Обычно это устройства, которые принадлежат сотрудникам и не управляются и не регистрируются в Intune или других решениях MDM.
 
 > [!IMPORTANT]
-> Можно создавать политики управления мобильными приложениями для мобильных приложений Office, которые подключаются к службам Office 365. Политики защиты приложений не поддерживаются для приложений, подключающихся к локальным службам Exchange, SharePoint или Skype для бизнеса.
+> Можно создавать политики управления мобильными приложениями для мобильных приложений Office, которые подключаются к службам Office 365. Политики защиты приложений не поддерживаются для приложений, подключающихся к локальным службам Exchange и SharePoint.
 
 **Ниже перечислены важные преимущества использования политик защиты приложений**.
 
@@ -131,6 +131,6 @@ ms.lasthandoff: 12/08/2017
 
 - Ознакомьтесь с дополнительными сведениями о приложениях, поддерживающих [MAM и множественную идентификацию](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) в Intune.
 
-##  <a name="next-steps"></a>Дальнейшие действия
+##  <a name="next-steps"></a>Дальнейшие шаги
 
 [How to create and assign app protection policies](app-protection-policies.md) (Как создавать и назначать политики защиты приложений с помощью Microsoft Intune)

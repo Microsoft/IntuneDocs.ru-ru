@@ -124,7 +124,7 @@
         - name: Поддерживаемые конфигурации
           href: supported-devices-browsers.md
           items:
-            - name: Использование пропускной способности сети
+            - name: конфигурация сети;
               href: network-bandwidth-use.md
         - name: Вход в Intune
           href: account-sign-up.md
@@ -166,6 +166,8 @@
               href: windows-bulk-enroll.md
             - name: Программа Windows AutoPilot Deployment
               href: enrollment-autopilot.md
+            - name: Экран состояния регистрации
+              href: windows-enrollment-status.md
         - name: Настройка регистрации устройств Android
           href: android-enroll.md
         - name: Настройка регистрации iOS

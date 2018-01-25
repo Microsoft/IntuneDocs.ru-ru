@@ -14,11 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ae53ced489542ba7e675e547740f1858d761c7ab
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: 73caf124e94994acf816c98f0788efdabe024cc4
+ms.sourcegitcommit: c3bd0d192d712fcfd52f64dd1377155796239fcb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-component"></a>Компонент Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 01/04/2018
 
 
 ## <a name="overview"></a>Обзор
-[Компонент Xamarin из пакета SDK для приложений Intune](https://components.xamarin.com/view/microsoft.intune.mam) позволяет использовать [политику защиты приложений Intune](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) в приложениях iOS и Android, созданных с помощью Xamarin. Этот компонент позволяет разработчикам легко встраивать в свои приложения на базе Xamarin функции защиты приложений Intune.
+[Компонент Xamarin из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) позволяет использовать [политику защиты приложений Intune](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) в приложениях iOS и Android, созданных с помощью Xamarin. Этот компонент позволяет разработчикам легко встраивать в свои приложения на базе Xamarin функции защиты приложений Intune.
 
 > [!NOTE]
 > Сейчас поддержка пакета SDK Intune для Xamarin доступна в предварительной версии. 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/04/2018
 
 2. Прочитайте [условия лицензионного соглашения](https://components.xamarin.com/license/microsoft.intune.mam) для компонента Xamarin Microsoft Intune MAM.
 
-3.  Скачайте папку компонента Xamarin из пакета SDK для приложений Intune с [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) или [Xamarin](https://components.xamarin.com/license/microsoft.intune.mam) и извлеките ее. Файлы, скачанные на шагах 1 и 3, должны находиться на одном уровне каталога.
+3.  Скачайте папку компонента Xamarin из пакета SDK для приложений Intune с [GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) или [Nuget.org](https://www.nuget.org/profiles/msintuneappsdk) и извлеките ее содержимое. Файлы, скачанные на шагах 1 и 3, должны находиться на одном уровне каталога.
 
 4.  В командной строке с правами администратора запустите `Xamarin.Component.exe install <.xam> file`.
 
@@ -78,6 +78,7 @@ ms.lasthandoff: 01/04/2018
 1.  Выполните общие шаги, необходимые для интеграции пакета SDK для приложений Intune в мобильное приложение iOS. Можно начать с шага 3 инструкций по интеграции из раздела [Интеграция пакета SDK с мобильным приложением](app-sdk-ios.md#build-the-sdk-into-your-mobile-app).
     **Важно.** Включение общего доступа к цепочке ключей для приложения в Visual Studio немного отличается от этой процедуры в среде Xcode. Откройте PLIST-файл прав. Убедитесь, что включен параметр "Включить цепочку ключей" и что в этом разделе добавлены соответствующие группы совместного доступа к цепочке ключей. Убедитесь, что PLIST-файл прав указан в поле "Настраиваемые назначения" параметров пакетной подписи iOS проекта для всех соответствующих сочетаний конфигурации и платформы.
 2.  После добавления компонента и правильной настройки приложение сможет использовать API пакета SDK для Intune. Для этого необходимо включить следующее пространство имен:
+
       ```csharp
       using Microsoft.Intune.MAM;
       ```
