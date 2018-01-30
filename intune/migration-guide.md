@@ -4,7 +4,7 @@ description: "В этом руководстве содержатся разны
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/11/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: dcfc21f9-1bcd-4371-a46d-f2e18154ec50
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: d86260872230bb0a9274fa302acac5caeaa682a7
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 888624530fe77f22ea9391b688fa9f9b92f0ac75
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="intune-migration-guide"></a>Руководство по переходу к Intune
 
@@ -65,6 +65,6 @@ ms.lasthandoff: 08/03/2017
 
 -   Ознакомьтесь с [распространенными способами использования Intune](common-scenarios.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Этап 1. Подготовка Intune к управлению мобильными устройствами](migration-guide-prepare.md)

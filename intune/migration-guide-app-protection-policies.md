@@ -4,7 +4,7 @@ description: "В этой статье описывается настройка
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/12/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 93cda587-bf56-4d41-b123-9fe203fad788
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: c58ce51731b476cfca71851430297aff3edc5cd6
-ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
+ms.openlocfilehash: d3c176b84a8555de245a1f4014c39885e50ab21d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="configure-app-protection-policies-optional"></a>Настройка политик защиты приложений (необязательно)
 
@@ -51,6 +51,6 @@ Intune может предложить защиту корпоративных �
 2. [Развертывание политики](app-protection-policies.md#deploy-a-policy-to-users)
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Особые примечания о миграции](migration-guide-considerations.md)

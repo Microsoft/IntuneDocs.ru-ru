@@ -4,21 +4,22 @@ description: "Узнайте, как установить SandBlast Mobile Prote
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 474fe9c8-558a-4348-ac9d-f87c79f150c4
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 2335f92bd4755152aaae88f057f6b92481eacbdc
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 4bf5aeea3aa17acf36b1993079763d3807dab347
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="you-need-to-install-sandblast-mobile-protect-on-your-ios-device"></a>Вам необходимо установить SandBlast Mobile Protect на устройстве с iOS
 

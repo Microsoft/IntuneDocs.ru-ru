@@ -5,7 +5,7 @@ description: "Ограничения устройств, доступные дл
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 677c41a2-5344-4c52-85f0-809dce3a5d5b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 33142a4e7b95d8b689ab85ef6a25e56fd365aa82
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 3648f8b273f666d1898226f3da8580e55a6bc6f8
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="windows-10-team-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с Windows 10 для совместной работы в Microsoft Intune
 
@@ -50,6 +50,6 @@ ms.lasthandoff: 12/12/2017
 - **Канал беспроводной проекции Miracast**. Выберите канал Miracast, который будет использоваться для установки соединения.
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Инструкции по сохранению профилей и их назначению пользователям и устройства см. в статье [Настройка параметров ограничений для устройств](device-restrictions-configure.md).

@@ -5,7 +5,7 @@ description: "Настройка вашей подписки Lookout в Intune"
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6d63ddcd8f60ac3491087e3e76949f2a49cf7b9b
-ms.sourcegitcommit: a7c1e10e615e5c975bb5d52eca986c5cf5287687
+ms.openlocfilehash: 6b5d9a5fafdec0750e943dcfb3542d4dfd69f6ae
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Настройка интеграции Lookout Mobile Threat Defense с Intune
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 12/07/2017
 Ваш клиент Lookout Mobility Endpoint Security будет связан с вашей подпиской Azure AD для интеграции Lookout в Intune. Чтобы включить подписку для службы защиты от угроз на мобильных устройствах Lookout, специалистам по поддержке Lookout (enterprisesupport@lookout.com) потребуются следующие данные.
 
 * **Идентификатор клиента Azure AD**
-* **Идентификатор объекта группы Azure AD** для **полного** доступа к консоли Lookout.
+* **Идентификатор объекта группы Azure AD** для **полного** доступа к консоли Lookout
 * **Идентификатор объекта группы Azure AD** для **ограниченного** доступа к консоли Lookout (при необходимости).
 
 В следующем разделе приводятся шаги по сбору данных, которые необходимо предоставить службе поддержки Lookout.
@@ -133,6 +133,6 @@ ms.lasthandoff: 12/07/2017
 ## <a name="watching-enrollment"></a>Просмотр сведений о регистрации
 После завершения установки служба защиты от угроз на мобильных устройствах Lookout начинает опрашивать Azure AD на предмет наличия устройств, которые соответствуют указанным группам регистрации.  Сведения о зарегистрированных устройствах можно найти в модуле Devices (Устройства).  Начальное состояние для устройств указывается как состояние ожидания.  Состояние устройства изменится после установки, открытия и активации приложения Lookout for Work на устройстве.  Сведения о принудительной установке Lookout for Work на устройство можно найти в статье [Добавление приложений Lookout for Work в Intune](mtd-apps-ios-app-configuration-policy-add-assign.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Настройка приложений Lookout](mtd-apps-ios-app-configuration-policy-add-assign.md)

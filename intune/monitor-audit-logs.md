@@ -3,18 +3,18 @@ title: "Журналы аудита для действий Intune"
 description: "Узнайте, как просмотреть журналы аудита, в которые записываются действия Intune"
 keywords: 
 author: dougeby
-manager: angrobe
+manager: dougeby
 ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6ee841cc-5694-4ba1-8f66-1d58edec30a4
-ms.openlocfilehash: 30067f60163a644f4347c51c249c25fb3428f8ba
-ms.sourcegitcommit: ef8610aa2ea0acdc40bad948ed7ba3a3a4464453
+ms.openlocfilehash: b2f6f6f4829e53d60cc259be220de89cf3f8d97d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="audit-logs-for-intune-activities"></a>Журналы аудита для действий Intune
 В журналы аудита записываются действия, которые генерируют изменения в Microsoft Intune. Действия создания, обновления (редактирования), удаления и назначения или удаленные задачи создают события аудита, которые вы можете просматривать. Можно просмотреть журналы аудита для большинства рабочих нагрузок Intune. 

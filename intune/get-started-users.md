@@ -5,7 +5,7 @@ description: "Добавление пользователей в Intune для �
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 22a232de-ab93-44ab-b0b5-d2b3ccb007fe
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 05378c5ecdb7950e63a2fa859afebcd9eb59c853
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: 297a9244bac8e45e14e1d22cadee9088c87f34a3
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="get-started-with-managing-users"></a>Начало работы с управлением пользователями
 
@@ -49,6 +49,6 @@ ms.lasthandoff: 11/01/2017
 
 5. Нажмите кнопку **Сохранить**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Начало работы с группами](get-started-groups.md). Организация пользователей в группы для упрощения управления политиками и приложениями, к которым они могут получить доступ.

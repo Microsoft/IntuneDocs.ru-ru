@@ -4,7 +4,7 @@ description: "Хранилище данных Intune представляет п
 keywords: "Хранилище данных Intune"
 author: Erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 363D148E-688F-4830-B6DE-AB4FE3648817
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: af9ccd1400127801e5d4de0a3a3e143fabf525f6
-ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
+ms.openlocfilehash: e72f60b9ad604f756f74b1ba7cbbde7e5c2ab9f8
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="user-lifetime-representation-in-the-intune-data-warehouse"></a>Представление времени существования пользователя в хранилище данных Intune
 

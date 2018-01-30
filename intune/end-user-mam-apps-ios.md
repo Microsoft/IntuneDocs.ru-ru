@@ -4,7 +4,7 @@ description: "В этой статье описывается, что проис
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 05/05/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9e1b11f9bf644b2e92dad0d0281bf11febae622b
-ms.sourcegitcommit: 79116d4c7f11bafc7c444fc9f5af80fa0b21224e
+ms.openlocfilehash: 76f00caa3781d0efe85a17ccb8efc6bf27c77e97
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>Что происходит при управлении приложением iOS с помощью политик защиты приложений
 
@@ -67,5 +67,5 @@ Intune поддерживает развертывание политик защ
 
 Если вы используете устройство iOS, при попытке добавить вторую рабочую учетную запись на то же самое устройство может появиться сообщение о блокировке. Выводится список учетных записей, в котором можно выбрать учетную запись для удаления.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 [Что происходит при управлении приложением Android с помощью политик защиты приложений](end-user-mam-apps-android.md)

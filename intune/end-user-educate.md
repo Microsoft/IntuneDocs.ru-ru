@@ -4,7 +4,7 @@ description: "Для успешного развертывания Intune обм
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 04/10/2017
 ms.topic: get-started-article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 48914533-f138-4dc0-8b93-4cea3ac61f7b
 ms.reviewer: robstack
 ms.suite: ems
-ms.openlocfilehash: d940bc937caf966dd2d8c2ce01570bfa09a65bfb
-ms.sourcegitcommit: ca10ab40fe40e5c9f4b6f6f4950b551eecf4aa03
+ms.openlocfilehash: 7fc524fe3f31d886427e5ebff56d3f2cb7b14693
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-educate-your-end-users-about-microsoft-intune"></a>Инструкции по использованию Microsoft Intune для конечных пользователей
 

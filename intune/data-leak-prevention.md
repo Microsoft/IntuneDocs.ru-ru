@@ -3,7 +3,7 @@ title: "Предотвращение утечки данных на неупра
 description: "Разрешите доступ к корпоративным данным на устройствах, обеспечив защиту от утечки данных."
 keywords: "защита данных предотвращение утечек устройство Office 365"
 author: arob98
-manager: angrobe
+manager: dougeby
 ms.date: 09/22/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.assetid: b1512c3a-3bbd-4111-a0df-c874a0a335df
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3ae8702c51df1c3c2b8e6dd2a79bf4599e6b7677
-ms.sourcegitcommit: 29ee35da2864b25f4432d2423b285014c77040af
+ms.openlocfilehash: 3b917b3718a7630c4a556a41c551aa5d76f4b4aa
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="prevent-data-leaks-on-non-managed-devices"></a>Предотвращение утечки данных на неуправляемых устройствах
 
@@ -58,6 +58,6 @@ ms.lasthandoff: 09/23/2017
 * [Что происходит при управлении приложением iOS с помощью политик защиты приложений](app-protection-enabled-apps-ios.md)
 * [Что происходит при управлении приложением Android с помощью политик защиты приложений](app-protection-enabled-apps-android.md) 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Требуется помощь по реализации этого сценария EMS или Office 365 или других? При наличии хотя бы 150 лицензий для Microsoft 365, Microsoft Enterprise Mobility + Security или Azure Active Directory Premium воспользуйтесь [преимуществами FastTrack](https://docs.microsoft.com/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program). 

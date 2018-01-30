@@ -4,21 +4,22 @@ description: "Узнайте, как устранить угрозы, обнар
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: eaccd9c0-cd46-48e2-8675-4c022c74f672
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 32bd0436c6d883bb351a4e00bda181ab820a94d4
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 63d5ee7b71f5b2c5423cd2cdb2b88a43ad2c715e
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="you-need-to-resolve-a-threat-found-by-zimperium-zips"></a>Вам требуется устранить угрозу, обнаруженную Zimperium zIPS
 

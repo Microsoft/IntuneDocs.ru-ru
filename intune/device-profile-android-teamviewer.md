@@ -5,7 +5,7 @@ description: "Сведения о том, как удаленно управля
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 12/14/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 46e850cdda27444d18354b972d10b0cd02c036d9
-ms.sourcegitcommit: 000684953cbb3ceae0e2bcaa51186c9221f7aa86
+ms.openlocfilehash: 476480ce3957ef2d411b37a0a078707c721fd2e6
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="provide-remote-assistance-for-intune-managed-devices"></a>Удаленная поддержка пользователей устройств под управлением Intune
 

@@ -5,7 +5,7 @@ description: "Создание политик, запрещающих польз
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 1ac74ba5-7441-44ac-98b5-9d8bb8899747
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: eaac36810f8df524fa795a0fef2cf9a368984658
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: ea5fe13f7361b968f3158a617275cd08daedac1c
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="get-started-with-policies"></a>Начало работы с политиками
 
@@ -55,7 +55,7 @@ __Создание политики__
 8. После создания политики выберите **Назначения**, чтобы назначить ее тестовой группе. Выберите тестовую группу — в ней должен находиться тестовый пользователь — и назначьте для нее политику, нажав кнопку **Сохранить**.
 9. Подождите несколько минут. Зарегистрированное устройство должно запросить новый пароль для соблюдения соответствия корпоративной политике. Можно также выполнить эту проверку вручную в **приложении корпоративного портала для iOS** , выбрав имя устройства и нажав кнопку **Синхронизировать**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Начало работы с регистрацией устройств](get-started-enroll.md). Знакомство в процессом регистрации в ходе выполнения полной процедуры регистрации устройства iOS.
 

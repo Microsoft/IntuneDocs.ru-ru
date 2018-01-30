@@ -5,7 +5,7 @@ description: "Узнайте о профилях устройств Intune и о
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 08/23/2017
 ms.topic: get-started-article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 101e19a9de67a3a47f488988957bc1e7ef7626a3
-ms.sourcegitcommit: 769db6599d5eb0e2cca537d0f60a5df9c9f05079
+ms.openlocfilehash: 0c745f9f745802e0de7a58e3dd7570c0e363ab5d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="what-are-microsoft-intune-device-profiles"></a>Что такое профили устройств в Microsoft Intune?
 
@@ -85,5 +85,5 @@ Windows Information Protection позволяет предотвратить у�
 На устройстве можно назначать настраиваемые параметры, не встроенные в Intune. Например, на устройствах Android можно указать значения OMA-URI для настройки устройства. Для устройств iOS можно импортировать файл конфигурации, созданный в Apple Configurator.
 Дополнительные сведения см. в статье [о настройке особых параметров](custom-settings-configure.md). Поддержка: устройства Android, iOS, macOS и Windows Phone 8.1.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 Выберите один из типов профилей в списке, чтобы начать настройку устройств.

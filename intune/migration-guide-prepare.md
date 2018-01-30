@@ -4,7 +4,7 @@ description: "Перед миграцией в Intune оцените комме�
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 06/12/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 58591442-6606-4f39-a06b-f17a1f25af25
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 9e935531c785a1c907454d563550f237ebffdb13
-ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
+ms.openlocfilehash: 93c17ff0343c4475bbc665ff2418e1e7860894d5
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="phase-1-prepare-intune-for-mobile-device-management-mdm"></a>Этап 1. Подготовка Intune к управлению мобильными устройствами (MDM)
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 07/12/2017
 <br/><br/>
 -   Можно ли сделать временные исключения для определенных требований во избежание простоя, или же устройства с доступом должны постоянно соответствовать всем требованиям безопасности?
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 Примеры использования в различных отраслях, которые помогут узнать, как в организациях оценили требования к управлению мобильными устройствами, см. [здесь](https://customers.microsoft.com/story/mwh-global-now-part-of-stantec-secures-mobile-devices-with-intune).
 
 Ознакомьтесь с [основными настройками Intune](migration-guide-setup.md).

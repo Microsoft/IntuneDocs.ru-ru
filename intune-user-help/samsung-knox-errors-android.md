@@ -4,22 +4,23 @@ description: "Узнайте, как решить распространенны
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 78c08b30-dc5f-46d9-9ee8-6cc8dee1e404
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: 77b3b8f3fff39df94d535b28c060334b3e0a63ce
-ms.sourcegitcommit: a55a7119a15836b6941fdd5b32b9076139093693
+ms.openlocfilehash: 93ad99507ab1473102d1286fcc2342ab013be24d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="fix-common-issues-with-your-samsung-knox-device"></a>Решение распространенных проблем с устройствами Samsung Knox
 

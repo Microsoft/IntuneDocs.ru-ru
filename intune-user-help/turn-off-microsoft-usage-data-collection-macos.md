@@ -4,23 +4,24 @@ description:
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 12/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 726c3d052b62dbcab82f75cc82ce39b72bcbef94
-ms.sourcegitcommit: 4401890db054657954a8b3947de1f4308f4da170
+ms.openlocfilehash: c4c941de8cc51cfda3282f7347696e49721c276a
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-turn-off-microsoft-data-collection"></a>Отключение сбора данных корпорацией Майкрософт
 
