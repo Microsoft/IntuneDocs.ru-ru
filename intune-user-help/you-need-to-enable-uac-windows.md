@@ -4,23 +4,24 @@ description: "Сведения о включении контроля учетн
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 11/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e3ebea03-bd06-4b5e-8709-0a504c5d7bf7
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f8f24629cbf6768e49c244ee6dfe31f0035d052a
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: d57ecaf480b4cc7e83c58362ae8b6987f36cee01
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-enable-user-access-control"></a>Включение контроля учетных записей
 

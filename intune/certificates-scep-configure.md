@@ -5,7 +5,7 @@ description: "Сведения о настройке инфраструктур�
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 1/18/2018
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3082bd52460bc9bd852edb3b560e96fb718a71c3
-ms.sourcegitcommit: 1a390b47b91e743fb0fe82e88be93a8d837e8b6a
+ms.openlocfilehash: 5aea88aa8898380c54867090650bd16d8bf60f3c
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="configure-and-manage-scep-certificates-with-intune"></a>Настройка инфраструктуры сертификатов для SCEP в Microsoft Intune
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]

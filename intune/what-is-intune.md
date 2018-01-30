@@ -5,7 +5,7 @@ description: "Основные сведения об Intune на портале 
 keywords: 
 author: arob98
 ms.author: angrobe
-nmanager: angrobe
+nmanager: dougeby
 ms.date: 10/30/2017
 ms.topic: get-started-article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: d83b3d6609e5fd6839e17e46520e4ef3d4551568
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: 19b5d98165be67b32afa86ba942c42fc4a3048b3
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Краткое описание Microsoft Intune на портале Azure
 
@@ -81,7 +81,7 @@ Microsoft Intune теперь действует на портале Azure, а
 [Сведения об управлении устройствами с помощью инвентаризации и отчетов](device-management.md).
 ### <a name="mobile-apps"></a>Мобильные приложения
 [Сведения о публикации, настройке и защите приложений, а также об управлении ими](app-management.md).
-### <a name="conditional-access"></a>Условный доступ
+### <a name="conditional-access"></a>Conditional access (Условный доступ)
 [Ограничение доступа к службам Exchange в зависимости от заданных условий](conditional-access.md).
 ### <a name="on-premises-access"></a>Локальный доступ
 [Управление мобильными устройствами Exchange ActiveSync с использованием Microsoft Intune](/intune-classic/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune)

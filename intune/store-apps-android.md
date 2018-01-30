@@ -5,7 +5,7 @@ description: "Узнайте, как добавлять в Intune приложе
 keywords: 
 author: Erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 09b5cf4bc97aa6a4d21068e96ab16f4a8f1a549f
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: eed5bc9fe478582a25284f4d3ea3ba0e7e0a1c7f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-add-android-store-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune приложения из магазина Android
 

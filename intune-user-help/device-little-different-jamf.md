@@ -4,23 +4,24 @@ description: "Сведения об устройствах с macOS с подд�
 keywords: Mac OS X, Mac OS, OS X
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 12/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 56771f9f-0583-4df8-b3e9-3f0d8edee172
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 080bc7c287dcc068ac18a3aec60295e777840368
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: c8aa6ec1ad0e9ee9889307c6224c01f8661048b8
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="performing-actions-on-a-macos-device-managed-by-jamf"></a>Выполнение действий с устройством macOS, находящимся под управлением Jamf
 

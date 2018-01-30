@@ -4,7 +4,7 @@ description: "Методы предоставления приложений Win
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 12/05/2016
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: e471fed8-19f0-4b37-aaa2-65f28a6b4794
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3f49003e927acb14982de0210c8e5a5291c334aa
-ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
+ms.openlocfilehash: 43974a4c6677d49b33ec3fccf2bf6106e001b7f3
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-your-windows-users-get-their-apps"></a>Получение приложений пользователями Windows
 

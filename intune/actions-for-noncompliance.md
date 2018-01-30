@@ -5,7 +5,7 @@ description: "Узнайте, как создавать действия при 
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 01/05/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 6d0e0c4b-a562-44f3-82a4-80eb688d4733
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9747835e01dd2cf033ff4df7cba33ffd24660d61
-ms.sourcegitcommit: bd4c4b53312407548600053ab99672cb2d08bb63
+ms.openlocfilehash: 4e45f5d3836fc33851c650703f713c03204df792
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="automate-actions-for-noncompliance"></a>Автоматические действия при несоответствии
 

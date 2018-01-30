@@ -4,23 +4,24 @@ description: "Описание регистрации устройства iOS �
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 07/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: f4e7d87e-56d1-43e4-8e88-2f62cf0999e2
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: japoehlm
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0d469a52c10a3c6080a3e900d55d18d7798bb534
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 542a7e382b6f140af3f4cf605e503efd0b7a4c6e
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-your-ios-device-in-intune-with-the-device-enrollment-program"></a>Регистрация устройства iOS в Intune с помощью программы регистрации устройств
 

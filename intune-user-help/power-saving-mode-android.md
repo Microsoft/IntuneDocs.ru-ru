@@ -4,23 +4,24 @@ description: "Узнайте, как отключить функцию энер�
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 07/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ad713f18-40a9-421f-aa2b-f8c21028d57c
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f4a6ed7d399806b2b8ac8fb24d9a29675ffe00b3
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: d0e39bfc475909ba2f6b8d361ba31c734cace523
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="outlook-wont-sync-managed-email-when-battery-optimization-for-android-is-turned-on"></a>Outlook не синхронизирует управляемую электронную почту, если на устройстве Android включена функция энергосбережения.
 

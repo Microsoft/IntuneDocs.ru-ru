@@ -5,7 +5,7 @@ description: "Узнайте, как регистрировать устройс
 keywords: 
 author: ErikjeMS
 ms.author: erikje
-nmanager: angrobe
+nmanager: dougeby
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 46429114-2e26-4ba7-aa21-b2b1a5643e01
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3d1382e85b9ce58cd65380a799ca8eb4da98b84c
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: 8528b3ec28499657b1eb39e1b981f92be3ab83ca
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-macos-devices-in-intune"></a>Регистрация устройств macOS в Intune
 

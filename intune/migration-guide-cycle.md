@@ -4,7 +4,7 @@ description: "В этой статье объясняется, как выпол
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/12/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 3688b724-9521-4210-bf4d-bcf47d8d4ca0
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 34e748e16449a99bad4c1f3e96c22dda6d8f3018
-ms.sourcegitcommit: 388c5f59bc992375ac63968fd7330af5d84a1348
+ms.openlocfilehash: 69cd071f4e5ac8e1c2cd7543951475a3f74bf808
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="typical-migration-cycle"></a>Типичный цикл миграции
 

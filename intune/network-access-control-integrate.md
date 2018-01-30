@@ -5,7 +5,7 @@ description: "Интеграция управления доступом к се
 keywords: 
 author: bruceperlerMS
 ms.author: bruceper
-manager: angrobe
+manager: dougeby
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: aa7ecff7-8579-4009-8fd6-e17074df67de
 ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0379f2843b77b0d7ed6a54065e14f91946398d65
-ms.sourcegitcommit: 061dab899e3fbc59b0128e2b4fbdf8ebf80afddd
+ms.openlocfilehash: 4673a6c6d0b83c7f31eecc919bcaa0e952f373a0
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="network-access-control-nac-integration-with-intune"></a>Интеграция управления доступом к сети (NAC) с Intune
 

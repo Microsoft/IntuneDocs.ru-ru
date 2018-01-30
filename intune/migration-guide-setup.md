@@ -4,7 +4,7 @@ description: "В этой статье описаны необходимые д�
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 06/12/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 60cfa440-0723-4ea0-bacf-3c5d26f9a1d3
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 9ea12f3707b830f0e3426526a7ae91d176d6e809
-ms.sourcegitcommit: fb17b59f4aa2b994b149fcc6d32520f74b0de6a5
+ms.openlocfilehash: bd685959aa03612002cbbe74d5678b75efe2d492
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="basic-setup"></a>Базовая настройка
 

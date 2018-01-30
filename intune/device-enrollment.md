@@ -5,7 +5,7 @@ description: "См. дополнительные сведения о регис�
 keywords: 
 author: ErikjeMS
 ms.author: erikje
-manager: angrobe
+manager: dougeby
 ms.date: 12/29/2017
 ms.topic: get-started-article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dc0105bb786d8b1e569b11898b0d3757feba406a
-ms.sourcegitcommit: a55a7119a15836b6941fdd5b32b9076139093693
+ms.openlocfilehash: a94703ecc1d7fd464f565855bb9b8dd9ee3c3bfb
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="what-is-device-enrollment"></a>Что такое регистрация устройств?
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]

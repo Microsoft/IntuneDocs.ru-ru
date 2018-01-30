@@ -5,7 +5,7 @@ description: "Сведения об использовании политик к
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 834B4557-80A9-48C0-A72C-C98F6AF79708
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 727bf031a9e8a4c761d8d7b0c1d2737398a0fb7e
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: d7267de95d36ed0e27c8a720599cc78004cd71d3
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="app-configuration-policies-for-intune"></a>Политики конфигурации приложений для Intune
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 12/08/2017
 
 Кроме того, вы можете использовать API Graph для решения задач конфигурации. Подробнее см. в [Справочнике по API Graph в разделе «Целевая конфигурация MAM»](https://graph.microsoft.io/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 ### <a name="managed-devices"></a>Управляемые устройства
 

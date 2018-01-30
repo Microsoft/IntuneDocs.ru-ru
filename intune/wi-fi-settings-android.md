@@ -5,7 +5,7 @@ description: "Сведения о настройке параметров под
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 12/15/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 103e17a4-2993-4359-b340-73e2acf4cf7d
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 36690343efc8c632a6b0e4326125ed85d93ed600
-ms.sourcegitcommit: a3a744ea55f38a360ca9f788c77a5b3018d1add5
+ms.openlocfilehash: a20ebf026850f28888cd63eb43396a12430bb3cd
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/30/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="wi-fi-settings-for-android-and-android-for-work-devices-in-microsoft-intune"></a>Параметры подключений Wi-Fi для устройств Android и Android for Work в Microsoft Intune
 

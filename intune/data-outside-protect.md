@@ -3,7 +3,7 @@ title: "Предотвращение несанкционированного д
 description: "Вы можете предотвратить несанкционированный доступ к данным компании при их совместном использовании за пределами корпоративной сети."
 keywords: "Office 365 Azure Information Protection защита данных за пределами сети данные компании"
 author: arob98
-manager: angrobe
+manager: dougeby
 ms.date: 09/22/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.assetid: 6a88573a-aa60-455c-858c-74562798246b
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 85e4712a204032497cb7fd31dbee910d52ac08b7
-ms.sourcegitcommit: 128770ecc820f6ff3c99b15752bce7a58257f1d5
+ms.openlocfilehash: e3a52b2be557139cb2d31dd4919d239daeb81853
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="prevent-unauthorized-access-to-company-data"></a>Предотвращение несанкционированного доступа к корпоративным данным 
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 10/21/2017
 
 Расскажите пользователям о том, [как и в каких случаях необходимо защищать документы и сообщения электронной почты, содержащие конфиденциальные сведения](https://docs.microsoft.com/information-protection/deploy-use/help-users).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 В рамках следующей процедуры вы узнаете о других способах повышения безопасности данных компании, включая: 
 

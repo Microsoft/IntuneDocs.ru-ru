@@ -5,7 +5,7 @@ description: "Сведения об использовании политик к
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 12/7/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: E61C1618-79D0-41A1-B61F-4123FB6672FC
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b4ccc107521ae7f199ad2b37b86b573995e83c4d
-ms.sourcegitcommit: 3285b08f1a290d6f3be3bb1cfdf40508c27c53ed
+ms.openlocfilehash: c2266e460d816dfdd908d6a68944c8c2cc5c0afc
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="add-app-configuration-policies-for-managed-apps-without-device-enrollment"></a>Добавление политик конфигурации приложений для управляемых приложений без регистрации устройств
 
@@ -62,6 +62,6 @@ Intune поддерживает следующие типы маркеров в 
 > [!Note]  
 > Символы \{\{ и \}\} используются только для типов токенов и не должны применяться в других целях.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Продолжайте [назначать](apps-deploy.md) и [отслеживать](apps-monitor.md) приложение как обычно.

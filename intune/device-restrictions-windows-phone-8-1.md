@@ -5,7 +5,7 @@ description: "Узнайте о параметрах Intune, с помощью �
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: c2d42714-49ca-43b3-b080-2e67a4268198
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 96cb8c8f45724109a0cd3414edad3720804356f6
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 98734b51cf72a097c6b4a9e425e80457b0b39afa
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="windows-phone-81-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с Windows Phone 8.1 в Microsoft Intune
 

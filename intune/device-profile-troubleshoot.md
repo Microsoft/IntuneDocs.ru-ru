@@ -5,7 +5,7 @@ description: "Если у вас возникли трудности, эта с�
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 1/17/2018
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0bc5ad6e0467fe8a8c98c1ad2d71b967c18b8233
-ms.sourcegitcommit: 967a7c23b863123398c40b812e2eb02c921a0afe
+ms.openlocfilehash: 6424be562401c672966c0f7f3fbe145c19182299
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="troubleshooting-device-profiles-in-microsoft-intune"></a>Устранение неполадок в профилях устройств Microsoft Intune
 

@@ -5,7 +5,7 @@ description: "Защита корпоративных данных, исполь
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 04/24/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c282a98ecf357f650fbfa14499a206c4d283f81a
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: 4fbb9a1f6697a8339a2854e4352749ca04bb612e
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>Как создать и назначить политики защиты приложений
 
@@ -121,9 +121,9 @@ ms.lasthandoff: 12/08/2017
 - [Политики iOS](app-protection-policy-settings-ios.md)
 - [Политики Android](app-protection-policy-settings-android.md)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 [Мониторинг соответствия требованиям и состояния пользователей](app-protection-policies-monitor.md)
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 * [Что происходит при управлении приложением Android с помощью политик защиты приложений](app-protection-enabled-apps-android.md)
 * [Что происходит при управлении приложением iOS с помощью политик защиты приложений](app-protection-enabled-apps-ios.md)

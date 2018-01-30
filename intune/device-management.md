@@ -5,7 +5,7 @@ description: "Узнайте, как просмотреть устройства
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 08/31/2017
 ms.topic: get-started-article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: d2412418-d91a-4767-a3d6-bc88bb29caa2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0686b3ece3a929cb06a29f4e58046872b70ec926
-ms.sourcegitcommit: b8987b8dfb009ea55678d7f640ac5f18a6ab167e
+ms.openlocfilehash: 1b034e144aa43d239874b484acb2a40be12aff7c
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Что такое управление устройствами с помощью Microsoft Intune
 
@@ -61,6 +61,6 @@ ms.lasthandoff: 09/13/2017
     - [Синхронизация устройств](device-sync.md)
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Выберите **Действия устройства** для просмотра состояния действий, выполняемых на управляемых устройствах.

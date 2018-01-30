@@ -4,18 +4,18 @@ description: "Сведения о регистрации новых устрой
 keywords: 
 author: ErikjeMS
 ms.author: erikje
-manager: angrobe
+manager: dougeby
 ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a2dc5594-a373-48dc-ba3d-27aff0c3f944
-ms.openlocfilehash: dae736aef57489880915c269cb30785371380a52
-ms.sourcegitcommit: 53d272defd2ec061dfdfdae3668d1b676c8aa7c6
+ms.openlocfilehash: 1e6052c914406c9cd2fe9dc72597ee4dbe5b8902
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-windows-devices-using-windows-autopilot-deployment-program"></a>Регистрация устройств Windows с помощью программы Windows AutoPilot Deployment
 Программа Windows AutoPilot Deployment упрощает подготовку устройств. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе AutoPilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. При использовании Intune для управления устройствами AutoPilot вы можете управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows AutoPilot](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot).
@@ -100,7 +100,7 @@ ms.lasthandoff: 01/23/2018
 - отображение изменений, внесенных в профили, созданные в Intune, на другом портале;
 - синхронизация профилей, созданных на другом портале;
 - отображение изменений, внесенных в назначение профилей на другом портале;
-- синхронизация назначений профилей, выполненных на другом портале;
+- синхронизация назначений профилей, выполненных на другом портале.
 - отображение изменений, внесенных в список устройств на другом портале.
 
 ## <a name="next-steps"></a>Дальнейшие шаги

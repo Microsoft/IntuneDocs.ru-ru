@@ -5,7 +5,7 @@ description: "Создание пакета массовой регистрац�
 keywords: 
 author: Erikje
 ms.author: erikje
-manager: angrobe
+manager: dougeby
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 ms.custom: intune-azure
-ms.openlocfilehash: f24bf5f8767763c3ca56d51127ab1d3f484e51d8
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: 8b4c9f5685c12bb6c15d15d85c73d573dfcd66e8
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 

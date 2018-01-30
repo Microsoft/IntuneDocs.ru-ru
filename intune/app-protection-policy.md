@@ -5,7 +5,7 @@ description: "В этой статье содержатся сведения о 
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 01/19/2018
 ms.topic: get-started-article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b91a9e57eb368daae77958eaf4e554628361b2c4
-ms.sourcegitcommit: 7d80886ed9a12597fead9326568b4e759b29a340
+ms.openlocfilehash: a6645261e2a90ea3890dc22b42fe65d6af4af6e5
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 

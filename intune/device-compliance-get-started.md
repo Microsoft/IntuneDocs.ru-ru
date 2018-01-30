@@ -5,7 +5,7 @@ description: "Из этой статьи вы узнаете о соответс
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/18/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: a916fa0d-890d-4efb-941c-7c3c05f8fe7c
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aa78383233950e342c5ab0f83095bba3c8fda1f9
-ms.sourcegitcommit: e10dfc9c123401fabaaf5b487d459826c1510eae
+ms.openlocfilehash: 1e6d758d10a3527e0dc350115f2f8f10e2c62322
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="get-started-with-intune-device-compliance-policies"></a>Начало работы с политиками соответствия устройств Intune
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/09/2017
 
 - Использование пароля для доступа к устройствам
 
-- Шифрование
+- Encryption
 
 - Снята ли на устройстве защита или имеется ли административный доступ
 
@@ -130,7 +130,7 @@ Remember that you need to implement conditional access policies in addition to c
 
 Если вы хотите воспользоваться новыми возможностями портала Azure в этой области, вам нужно будет создать политики соответствия устройств уже на нем. Если пользователю, которому назначена политика соответствия устройств на классическом портале Intune, назначить новую политику соответствия устройств на портале Azure, последняя будет иметь более высокий приоритет, чем созданная на классическом портале Intune.
 
-##  <a name="next-steps"></a>Дальнейшие действия
+##  <a name="next-steps"></a>Дальнейшие шаги
 
 Создайте политику соответствия устройств для следующих платформ.
 

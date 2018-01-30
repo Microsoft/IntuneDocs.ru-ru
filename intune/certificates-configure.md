@@ -5,7 +5,7 @@ description: "Узнайте, как использовать Intune для со
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9c74ee1daf6602a4958d9955c3955b465495e013
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 0245491540a2ade2dbb453a865ee73312fc759e0
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-configure-certificates-in-microsoft-intune"></a>Настройка сертификатов в Microsoft Intune
 
@@ -99,7 +99,7 @@ ms.lasthandoff: 12/12/2017
     - **macOS**
     - **Windows Phone 8.1**
     - **Windows 8.1 и более поздние версии**
-    - **Windows 10 и более поздние версии**.
+    - **Windows 10 и более поздних версий**.
 6. Из раскрывающегося списка **Тип профиля** выберите **Доверенный сертификат**.
 7. Найдите сертификат, сохраненный при выполнении задачи 1, а затем нажмите кнопку **ОК**.
 8. Только для устройств Windows 8.1 и Windows 10 выберите **Конечное хранилище** для доверенного сертификата из следующих расположений:
@@ -126,5 +126,5 @@ ms.lasthandoff: 12/12/2017
 После создания профиля доверенного сертификата создайте профили сертификатов SCEP или PKCS для каждой платформы, которую хотите использовать. При создании профиля сертификата SCEP необходимо указать профиль доверенного сертификата для этой же платформы. Это свяжет два профиля сертификатов, но каждый профиль необходимо по-прежнему назначать отдельно.
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 Общие сведения о назначении профилей устройств см. в [этой статье](device-profile-assign.md).

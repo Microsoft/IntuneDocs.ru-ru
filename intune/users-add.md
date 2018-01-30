@@ -4,7 +4,7 @@ description: "Синхронизация локальных пользовате
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
+manager: dougeby
 ms.date: 10/31/2017
 ms.topic: get-started-article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 6e9ec662-465b-4ed4-94c1-cff0fe18f126
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4efc8be824acc3db869529d39617f376327b3193
-ms.sourcegitcommit: 94d3d86f8ae9f82a9872384bbaae53580036a4ff
+ms.openlocfilehash: 45e1b3747b4c1b74401fc1ce73716abe5e06110d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="add-users-and-give-administrative-permission-to-intune"></a>Добавление пользователей и предоставление административного разрешения для Intune
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/01/2017
 2. Выберите **Пользователи**.
 3. В Центре администрирования выберите **Создать пользователя**.
   ![Снимок экрана администрирования Office 365](media/intune-add-user.png)
-4. Укажите следующие сведения о пользователе.
+4. Укажите следующие сведения о пользователе:
   - **Имя**
   - **Имя пользователя** — новое имя на портале Azure Active Directory. ![Снимок экрана с Центром администрирования Office 365](media/intune-add-user-info.png) Нажмите кнопку **ОК** для продолжения.
 5. Также задать следующие свойства пользователя:

@@ -4,23 +4,24 @@ description:
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 06767d1c-a012-4288-9921-f9dd2eb4eb8d
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: acde8ab4fc6132343d58277ddc01dafaa5e386e3
-ms.sourcegitcommit: a55a7119a15836b6941fdd5b32b9076139093693
+ms.openlocfilehash: b03ac31cc51d69e1872954fa4afbce55add8479f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="send-logs-to-the-company-portal-developers-for-android-devices"></a>Отправка журналов разработчикам корпоративного портала для устройств Android
 
