@@ -1,29 +1,30 @@
 ---
-title: How to reconnect a compromised iOS device | Microsoft Docs
+title: "Повторное подключение к скомпрометированному устройству iOS | Документы Майкрософт"
 description: 
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 09e97df0-d032-48ff-ab8a-8c2c4ec29897
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c63d306eac52a38dccfe78d63ea0651848a7d492
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 147ac06dbc472f1488b09766ef42b4ac2ab5685f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="how-to-reconnect-a-compromised-ios-device"></a>How to reconnect a compromised iOS device
+# <a name="how-to-reconnect-a-compromised-ios-device"></a>Повторное подключение к скомпрометированному устройству iOS
 
-Your company support detected that you are using a jailbroken device. "Jailbroken" means that the device has been changed to enable unrestricted access to certain critical files, which can compromise security and might be a threat to your company resources.
+Служба поддержки вашей компании обнаружила, что вы используете устройство со снятой защитой. "Снятие защиты" (или "снятие ограничения на доступ к файловой системе") означает, что устройство было изменено для получения неограниченного доступа к определенным критическим файлам. Это может отрицательно повлиять на уровень безопасности и создать угрозу для ресурсов компании.
 
-When this happens, your device can no longer access company resources and you must contact your company support for help. For contact information, check the [Company Portal website](https://portal.manage.microsoft.com#HelpDeskDialog).
+Такое устройство теряет доступ к ресурсам организации. В этом случае необходимо обратиться в службу поддержки вашей организации. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

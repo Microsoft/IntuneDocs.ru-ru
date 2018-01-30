@@ -4,23 +4,24 @@ description: "Регистрация устройства с Windows 10 вер�
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 05/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 812e82df-76df-402b-bfe9-29302838f40e
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3f575797a09fb4d74c2da2a7dc6b14a9723d3f4d
-ms.sourcegitcommit: 2a6ad3c233d15a9fb441362105f64b2bdd550c34
+ms.openlocfilehash: 2183f17b2797229f6af156349029e8061658c51b
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-your-windows-10-device-in-intune"></a>Регистрация устройства на базе Windows 10 в Intune
 

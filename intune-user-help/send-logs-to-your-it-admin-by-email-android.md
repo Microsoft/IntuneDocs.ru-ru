@@ -4,23 +4,24 @@ description: "Отправка журналов данных по электро
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 03/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 85c868e7-8d63-480c-9770-4e99614a5c94
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9886fdf682b08707d4a5292f8c34aca20b828028
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: ddd0c1113b7cce6f461b627a3d346806df3bbc8c
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="send-logs-to-your-company-support-using-email"></a>Отправка журналов в службу поддержки вашей компании по электронной почте
 
@@ -33,7 +34,7 @@ ms.lasthandoff: 12/12/2017
 
 1.  Откройте приложение корпоративного портала.
 
-2.  Коснитесь **Меню** >  **Справка и отзывы**.
+2.  Выберите **Меню** >  **Справка и отзывы**.
 
     > [!NOTE]
     > **Меню** может быть представлено программной или аппаратной кнопкой в зависимости от используемого устройства Android.

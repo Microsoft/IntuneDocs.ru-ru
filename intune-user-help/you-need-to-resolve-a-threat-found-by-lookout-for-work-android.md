@@ -4,27 +4,28 @@ description: "Узнайте, как устранить угрозу, обнар
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 03/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5656b3e6-e812-4264-a170-b17c9c03e4d4
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: b5e96a1d43334c3f3392c4073e2939fee7504e62
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: d321350fa2cfff051cf633335bf32c51f5be7d97
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="resolve-a-threat-found-by-lookout-for-work"></a>Устранение угрозы, обнаруженной Lookout for Work
 
 Приложение Lookout for Work обнаружило потенциальную угрозу на вашем устройстве, и вам необходимо устранить проблему, прежде чем вы сможете снова получить доступ к своей рабочей или учебной электронной почте, приложениям и файлам. Появившееся сообщение может выглядеть следующим образом:
 
-![Поиск работы обнаружил на устройстве угрозу](./media/lookout-threat-found-android.png)
+![Приложение Lookout for Work обнаружило на устройстве угрозу](./media/lookout-threat-found-android.png)
 
 Чтобы решить эту проблему, откройте приложение Lookout for Work и следуйте инструкциям в нем.
 
@@ -32,7 +33,7 @@ ms.lasthandoff: 12/12/2017
 
 Если на зарегистрированном устройстве обнаружен вирус или другая угроза, при попытке доступа к электронной почте или файлам организации вы увидите следующее сообщение:
 
-![Сообщение поиска работы об ошибке, содержащее ссылку на веб-сайт корпоративного портала](./media/mtd-go-to-device-management-portal-android.png)
+![Сообщение приложения Lookout for Work об ошибке, содержащее ссылку на веб-сайт корпоративного портала](./media/mtd-go-to-device-management-portal-android.png)
 
 Щелкните ссылку **Портал управления устройствами**, чтобы перейти на [веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog), где вы найдете инструкции по устранению проблемы.
 
@@ -40,7 +41,7 @@ ms.lasthandoff: 12/12/2017
 
 Если вы установили приложение, которое Lookout for Work считает угрозой, появится примерно следующий экран:
 
-![Пример сообщения поиска работы о вирусе](./media/lookout-virus-alert-android.png)
+![Пример сообщения Lookout for Work о вирусе](./media/lookout-virus-alert-android.png)
 
 Удалив приложение, вы сразу получите доступ к электронной почте и другим данным вашей компании. Если проигнорировать такое предупреждение, вы не сможете пользоваться электронной почтой и данными, пока не удалите это приложение.
 

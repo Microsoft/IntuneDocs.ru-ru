@@ -4,21 +4,22 @@ description: "Сведения об устранении угроз с помо�
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9e176e10-72fd-42fe-94ef-b41d57a4914f
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.custom: intune-enduser
-ms.openlocfilehash: 1bff6a17a74de310833b9d19afd471afd0afc504
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: d9e8cf854856c6d1f296b9bdb79a23d4993f213e
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Устранение угрозы, обнаруженной приложением Mobile Threat Defense
 

@@ -4,23 +4,24 @@ description: "Отправка ошибок регистрации ИТ-адми
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 01/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d7c871b8-e5d8-4912-b87f-7e6bc59897be
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 95be9fd1df23e8cc4c6d41f6c9f49cd30eef87cf
-ms.sourcegitcommit: db7a7bbead3a3fa78c4d643607f709a2909eb608
+ms.openlocfilehash: 937fbacbe0997dd2c8f06f0d4cbd8b5cdc197c68
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="send-enrollment-errors-to-your-company-support"></a>Отправка ошибок регистрации в службу поддержки вашей компании
 

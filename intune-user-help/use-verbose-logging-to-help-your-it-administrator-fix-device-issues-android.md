@@ -4,23 +4,24 @@ description: "Оказание помощи службе поддержки ко
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 01/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 2a9183a6-b40d-4132-a1ce-61ce0f1c23aa
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 055bfcf088d46c1010206bd1e77ffbad76611c7c
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 37272f31597b907f19834368747743c1f70d7d07
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="help-your-company-support-fix-device-issues-with-verbose-logging"></a>Оказание помощи службе поддержки компании в устранении проблем с устройством с помощью подробного ведения журналов
 

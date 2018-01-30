@@ -4,23 +4,24 @@ description: "Узнайте, как решить распространенны
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 06/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 66436fd8-1582-41f5-9c3b-abd914365f2d
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 656c2891a0f3c1b54d419f9d5dc3138126f7dc96
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 8e92b1d877723dbfd5a866f0bf2b0af68d3130e7
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="fix-common-issues-with-your-ios-device"></a>Решение распространенных проблем с устройствами iOS
 

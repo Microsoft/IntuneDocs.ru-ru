@@ -5,7 +5,7 @@ description: "Узнайте, как использовать Intune для ав
 keywords: 
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 07/03/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 712a79fb-14ef-4f6b-aba5-1dfca900afd2
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8953997ce5437227463b8061b8059d58721dce7a
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 5f55d05dd39fca02e72535cbbff9afb8d575ed9f
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="airprint-settings-for-ios-and-macos-devices"></a>Параметры AirPrint для устройств iOS и MacOS
 
@@ -47,6 +47,6 @@ ms.lasthandoff: 12/12/2017
 Вы также можете импортировать список принтеров из файла с разделителями-запятыми (CSV-файл) или экспортировать список.
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Теперь профиль устройства можно назначить определенным группам. Дополнительные сведения см. в статье [Назначение профилей устройств](device-profile-assign.md).

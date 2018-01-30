@@ -4,23 +4,24 @@ description: "Узнайте, как зарегистрировать устро
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 04/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 26aa3698-7e4d-453a-8852-ab75e72b6485
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4d8bf1304d0a7b1f007c85befa3565b519719dbd
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: 68f760c84b1394245494809de094e603e388e59b
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-your-android-device-in-telecom-expense-management"></a>Регистрация устройства Android в службе управления затратами на телекоммуникации
 

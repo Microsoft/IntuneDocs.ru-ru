@@ -4,22 +4,23 @@ description: "Список сведений, которые доступны и 
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 11/13/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 12655728-a1af-4d89-97bc-925fe36c0dc4
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: esmich
 ms.suite: ems
-ms.openlocfilehash: 6595382606b9c53083e7beec9ca02a314abb5899
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: 58fd9c985700e65ad5f97376382d348f009e2c29
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="what-information-can-my-company-see-when-i-enroll-my-device"></a>Какие сведения становятся доступными для моей организации при регистрации устройства?
 
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/14/2017
 
 - Журнал вызовов и журнал браузера
 - Почтовые сообщения и SMS
-- Контакты
+- "Контакты"
 - "Календарь"
 -   Пароли
 - Рисунки, включая фотографии и галерею камеры
