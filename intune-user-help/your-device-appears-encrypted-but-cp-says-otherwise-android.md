@@ -4,23 +4,24 @@ description:
 keywords: 
 author: barlanmsft
 ms.author: barlan
-manager: angrobe
+manager: dougeby
 ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba593c08-1a78-4013-8525-b45a948772ec
-searchScope: User help
+searchScope:
+- User help
 ROBOTS: 
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f9c91c85b4a93fb211b5cd278dd82277a58cb08e
-ms.sourcegitcommit: f2f147a1177d1cf5bbc8001701eb8f44dd833b7d
+ms.openlocfilehash: ab67a6f2fd1f861ba197464a9e369ca0b54e6b5d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Похоже, для устройства Android включено шифрование, но корпоративный портал считает иначе.
 
@@ -36,10 +37,6 @@ ms.lasthandoff: 12/12/2017
 
 Для защиты некоторых устройств Android необходимо создать ПИН-код запуска. Существует множество версий Android различных производителей. Для устранения этой проблемы можно попробовать найти соответствующую настройку в приложении параметров. Например, на телефоне Samsung Galaxy S7 для включения безопасного запуска необходимо перейти в раздел **Settings** > **Lock Screen and Security** > **Secure Startup** (Параметры > Блокировка экрана и безопасность > Безопасный запуск).  
 
-### <a name="downgrade-your-version-of-android"></a>Переход на более раннюю версию Android
-
-Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться в службу поддержки вашей компании для решения этой проблемы. Информацию для связи со службой поддержки вашей компании можно получить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
-
 ### <a name="encrypt-the-entire-device"></a>Зашифруйте все устройство.
 
 На некоторых устройствах доступна возможность шифрования всего устройства или только используемого пространства. Выберите вариант шифрования всего устройства, а не используемого пространства. Если вы уже зашифровали только используемое пространство:
@@ -48,6 +45,10 @@ ms.lasthandoff: 12/12/2017
 2. Расшифруйте используемое пространство.
 3. Зашифруйте все устройство.
 4. Повторно зарегистрируйте устройство.
+
+### <a name="downgrade-your-version-of-android"></a>Переход на более раннюю версию Android
+
+Если устройство предоставляет возможность возврата к Android версии 6.0 или более поздней, сделайте это. При понижении версии устройства существует риск потери данных. В противном случае рекомендуем обратиться в службу поддержки вашей компании для решения этой проблемы. Информацию для связи со службой поддержки вашей компании можно получить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
 
 ## <a name="specific-manufacturer-issues"></a>Проблемы, связанные с конкретным производителем
 

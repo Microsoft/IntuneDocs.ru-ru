@@ -5,7 +5,7 @@ description: "Узнайте, как использовать фирменный
 keywords: 
 author: Erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 02/15/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: dec6f258-ee1b-4824-bf66-29053051a1ae
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 994d8b8fd90e4e66b5fdadae1cfdbbba403897ae
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: e40b4000df61176d4f252aa7ded776f91eeecd82
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-configure-the-microsoft-intune-company-portal-app"></a>Настройка приложения корпоративного портала Microsoft Intune
 

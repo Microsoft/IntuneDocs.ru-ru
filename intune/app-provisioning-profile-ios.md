@@ -5,7 +5,7 @@ description: "Intune предоставляет средства для упре
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 05/03/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2b58fb0d9b69e875736b5d2ea884ae9d3453b481
-ms.sourcegitcommit: 67ec0606c5440cffa7734f4eefeb7121e9d4f94f
+ms.openlocfilehash: 96ae009abe8d8351052ede4efca779add01dc335
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="use-ios-mobile-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия сертификата мобильного приложения iOS с помощью профиля подготовки
 
@@ -50,6 +50,6 @@ ms.lasthandoff: 12/08/2017
     - **Отправить файл профиля**. Выберите **Импортировать**, а затем выберите файл профиля конфигурации мобильного устройства Apple (с расширением **MOBILEPROVISION**), скачанный с веб-сайта для разработчиков Apple.
 4. По завершении нажмите кнопку **Создать**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Назначьте профиль на требуемых устройствах iOS. Дополнительные сведения см. в статье [Как назначать профили устройств Microsoft Intune](device-profile-assign.md).
