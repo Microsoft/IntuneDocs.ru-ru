@@ -5,8 +5,8 @@ description: "Сведения о том, как удаленно блокиро
 keywords: 
 author: arob98
 ms.author: angrobe
-manager: angrobe
-ms.date: 11/21/2017
+manager: dougeby
+ms.date: 01/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 3b67f285-229d-4a0f-ae34-0402a20b4518
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 45d27b709ba8d4ff1d8fb4417a217ad008c19c36
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: ecd7fa03b35e91b5a77906858fb251348796704d
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="remotely-lock-managed-devices-with-intune"></a>Удаленная блокировка управляемых устройств с помощью Intune
 
@@ -29,14 +29,19 @@ ms.lasthandoff: 01/12/2018
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
-- Windows — не поддерживается
-- Windows Phone — поддерживается в Windows Phone 8.1 и более поздних версиях
-- iOS — поддерживается
-- macOS — поддерживается
+Удаленная блокировка поддерживается на указанных ниже платформах.
 
-    > [!Note]  
-    > Задайте шестизначный ПИН-код восстановления. При блокировке в колонке **Обзор устройства** отображается ПИН-код, пока не будет отправлено другое действие устройства.
-- Android — поддерживается
+|Платформа|Состояние поддержки|
+|---|---|
+|Android|Да|
+|iOS|Да|
+|macOS|Да|
+|Windows 10|Да|
+|Windows 10 Mobile|Да|
+|Windows Phone|Да, для Windows Phone 8.1 и более поздних версий|
+
+> [!NOTE]  
+> Для устройств с macOS необходимо задать ПИН-код восстановления из шести цифр. При блокировке в колонке **Обзор устройства** отображается ПИН-код, пока не будет отправлено другое действие устройства.
 
 ## <a name="how-to-remote-lock-a-device"></a>Удаленная блокировка устройства
 

@@ -5,7 +5,7 @@ description: "В этом разделе описано, как использо
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 11/06/2017
 ms.topic: article
 ms.prod: 
@@ -15,17 +15,17 @@ ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 83ef0050380b8b5e3741dc7b8ea57574df6df658
-ms.sourcegitcommit: d44c32aad3e84f6c0b296bdb010981d3a818befb
+ms.openlocfilehash: 2d110a099b4957626d4368c9e63817674d6cfaa2
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps"></a>Управление передачей данных между приложениями iOS
 ## <a name="manage-ios-apps"></a>Управление приложениями iOS
 В рамках защиты данных организации требуется убедиться, что передача файлов осуществляется только между управляемыми вами приложениями.  Управление приложениями iOS можно осуществлять указанными далее способами.
 
--   Предотвращение потери корпоративных данных с помощью настройки политики защиты приложений, которые будут называться приложениями, **управляемыми политикой**. См. [полный список приложений с поддержкой Intune, которыми можно управлять с помощью политики защиты приложений](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
+-   Предотвращение потери корпоративных данных с помощью настройки политики защиты приложений, которые будут называться приложениями, **управляемыми политикой**. См. [полный список управляемых приложений Intune, которыми можно управлять с помощью политики защиты приложений](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
 
 -   Кроме того, развертывание приложений и управление ими можно осуществлять по **каналу MDM**.  Для этого устройства должны быть зарегистрированы в решении MDM. Это могут быть приложения, **управляемые политикой**, или другие управляемые приложения.
 

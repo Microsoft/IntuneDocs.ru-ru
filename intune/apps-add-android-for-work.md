@@ -5,7 +5,7 @@ description: "В этом разделе рассказывается, как с
 keywords: 
 author: erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 06/13/2017
 ms.topic: article
 ms.prod: 
@@ -15,11 +15,11 @@ ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f873fa6324bab56ce8233a8a550e2d13fe2fb054
-ms.sourcegitcommit: 9fabf1a8db53842f7b00762374de5b137158ee25
+ms.openlocfilehash: 248dcc978b5324733d5d640230aba2b6db1a2c62
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-assign-apps-to-android-for-work-devices-with-intune"></a>Как назначать приложения устройствам Android for Work с помощью Intune
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 12/22/2017
 1. Перейдите в консоль разработчика Google Play [play.google.com/apps/publish](https://play.google.com/apps/publish).
 2. Войдите с использованием той же учетной записи, которая использовалась для настройки подключения между Intune и Android for Work. При входе в систему первый раз необходимо зарегистрироваться и заплатить взнос, чтобы стать участником программы Google для разработчиков.
 3. В консоли выберите **Добавить новое приложение**.
-4. Предоставление и отправка данных о приложении осуществляются так же, как при публикации любого другого приложения в магазине Google Play. Тем не менее необходимо выбрать параметр **Сделать приложение доступным только для моей организации (<*название организации*>)**:<br>
+4. Предоставление и отправка данных о приложении осуществляются так же, как при публикации любого другого приложения в магазине Google Play. Тем не менее необходимо выбрать параметр **Сделать приложение доступным только для моей организации (<*название организации*>)**.<br>
   ![Параметр, определяющий доступность приложения только для вашей организации](media/restrict.png)<br>
 Это гарантирует, что приложение будет доступно только для вашей организации и недоступно в общедоступном магазине Google Play.
 Дополнительные сведения о загрузке и публикации приложений Android см. в [Справке по консоли разработчика Google](https://support.google.com/googleplay/android-developer/answer/113469).

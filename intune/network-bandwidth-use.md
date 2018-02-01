@@ -1,11 +1,11 @@
 ---
-title: "Использование пропускной способности сети Intune"
-description: "использование пропускной способности сети Intune"
+title: "Требования к конфигурации сети Intune и ее пропускная способность"
+description: 
 keywords: 
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
-ms.date: 01/16/2018
+manager: dougeby
+ms.date: 01/24/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f2055a0949921b52937af18bf1cd73286bf046cf
-ms.sourcegitcommit: d6dc1211e9128c2e0608542b72d1caa4d6ba691d
+ms.openlocfilehash: 29ea491ab176a9bf2237a4e7546131945ad2dab7
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="intune-network-bandwidth-use"></a>Использование пропускной способности сети Intune
+# <a name="intune-network-configuration-requirements-and-bandwidth"></a>Требования к конфигурации сети Intune и ее пропускная способность
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
