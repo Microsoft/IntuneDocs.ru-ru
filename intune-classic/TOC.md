@@ -7,11 +7,11 @@
 
 # [Приступая к работе](get-started/get-started.md)
 ## [Настройка Intune](/intune/setup-steps?toc=/intune-classic/toc.json)
-### Необходимые компоненты
+### Предварительные условия
 #### [Поддерживаемые устройства](/intune/supported-devices-browsers?toc=/intune-classic/toc.json)
 #### [Использование сети](/intune/network-bandwidth-use?toc=/intune-classic/toc.json)
 ### [Вход в Intune](/intune/account-sign-up?toc=/intune-classic/toc.json)
-### [Настройка доменов](/intune/custom-domain-name-configure?toc=/intune-classic/toc.json)
+### [настройте домены](/intune/custom-domain-name-configure?toc=/intune-classic/toc.json)
 ### [Добавление пользователей](/intune/users-permissions-add?toc=/intune-classic/toc.json)
 ### [Управление лицензиями](/intune/licenses-assign?toc=/intune-classic/toc.json)
 ### [Организация пользователей и устройств](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5.md)
@@ -19,7 +19,7 @@
 ### [Настройка корпоративного портала](/intune/company-portal-customize?toc=/intune-classic/toc.json)
 ### [Регистрация устройств](get-started/start-with-a-paid-subscription-to-microsoft-intune-step-8.md)
 ### [Задачи, выполняемые после настройки](get-started/post-configuration-tasks.md)
-## Дальнейшие действия
+## Дальнейшие шаги
 ### [Предотвращение утечки корпоративных данных из мобильных приложений Office 365](get-started/prevent-company-data-leaks-from-Office-365-mobile-apps.md)
 ### [Защита корпоративных данных с помощью шифрования](get-started/protect-data-encryption.md)
 ### [Публикация мобильных приложений для пользователей](get-started/publish-mobile-apps-to-users.md)
