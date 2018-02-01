@@ -4,7 +4,7 @@ description: "Список поддерживаемых браузеров и п
 keywords: 
 author: ErikjeMS
 ms.author: erikje
-manager: angrobe
+manager: dougeby
 ms.date: 01/03/2018
 ms.topic: get-started-article
 ms.prod: 
@@ -14,28 +14,28 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 56516562b9a7510020475d226c74bf719bdd33a3
-ms.sourcegitcommit: 833b1921ced35be140f0107d0b4205ecacd2753b
+ms.openlocfilehash: 1e6b14d5152df8420c5d358ccd9057d7ba427800
+ms.sourcegitcommit: d9de1e92c3913f731d5da3c51a5e1e9b2686894b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="supported-devices-and-browsers"></a>Поддерживаемые устройства и браузеры
+# <a name="supported-operating-systems-and-browsers"></a>Поддерживаемые операционные системы и браузеры
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-Эта статья предназначена для системных администраторов, которые отвечают за управление устройствами на предприятии. Сведения об установке Intune на телефоне см. в статье [Использование управляемых устройств для выполнения задач](/intune-user-help/company-portal-frequently-asked-questions).
+Эта статья предназначена для системных администраторов, которые отвечают за управление устройствами на предприятии. Сведения об установке Intune на устройстве см. в статье [Использование управляемых устройств для выполнения задач](/intune-user-help/company-portal-frequently-asked-questions).
 
 Перед настройкой Microsoft Intune изучите следующие материалы:
 
-- [Поддерживаемые мобильные устройства и компьютеры](#intune-supported-devices)
+- [Поддерживаемые операционные системы](#intune-supported-operating-systems)
 - [Список поддерживаемых браузеров, позволяющих использовать Intune](#intune-supported-web-browsers)
 
 Следует также ознакомиться со статьей [Использование пропускной способности сети Intune](network-bandwidth-use.md) ([классический портал](/intune-classic/get-started/network-bandwidth-use)).
 
-## <a name="intune-supported-devices"></a>Устройства, поддерживаемые Intune
+## <a name="intune-supported-operating-systems"></a>Операционные системы, поддерживаемые Intune
 
-Вы можете управлять следующими устройствами с помощью функций управления мобильными устройствами Intune:
+Вы можете управлять устройствами с указанными ниже операционными системами.
 
 [!INCLUDE[mdm-supported-devices](./includes/mdm-supported-devices.md)]
 
@@ -85,7 +85,6 @@ ms.lasthandoff: 01/04/2018
 | Galaxy V Plus | SM-G318HZ |
 | Galaxy Young 2 Duos | SM-G130BU |
 
-Intune нельзя использовать для управления операционными системами Windows Server.
 
 ### <a name="windows-pc-software-client"></a>Программный клиент для компьютера Windows
 
