@@ -30,6 +30,7 @@
 #### [Проверка соответствия устройств требованиям](check-compliance-on-your-device-android.md)
 #### [Синхронизация почты в Outlook в режиме экономии заряда](power-saving-mode-android.md)
 #### [Решение распространенных проблем с Samsung Knox](samsung-knox-errors-android.md)
+#### [Обновление устройства для установки Outlook](update-device-outlook-android.md)
 
 #### Использование журналов для устранения проблем
 ##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
@@ -85,6 +86,7 @@
 #### [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md)
 #### [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-ios.md)
 #### [Обновление устройства iOS](you-need-to-update-your-ios-device.md)
+#### [Обновление устройства для установки Outlook](update-device-outlook-ios.md)
 #### [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md).
 
 ### Mobile Threat Defense
