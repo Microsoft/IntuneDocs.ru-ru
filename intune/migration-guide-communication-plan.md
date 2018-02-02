@@ -4,7 +4,7 @@ description: "В этой статье описываются план и стр
 keywords: 
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/12/2017
 ms.topic: article
 ms.prod: 
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: e6a52506-2d29-41f7-a171-5d684a740dd4
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 806e355acd84f5c70029f8612c444b077c0631e4
-ms.sourcegitcommit: 623c52116bc3fdd12680b9686dcd0e1eeb6ea5ed
+ms.openlocfilehash: e36e917c035d4bbadccd629ef4cc21552cc62ec6
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="plan-communications"></a>Планирование обмена данными
 
@@ -30,13 +30,13 @@ ms.lasthandoff: 10/31/2017
 -   **Электронное сообщение № 1.** Объясните преимущества и ожидаемый результат, а также предоставьте расписание. Воспользуйтесь этой возможностью, чтобы продемонстрировать другие новые службы, доступ к которым будет предоставляться на устройствах под управлением Intune.<br/><br/>
 
 
-    -   [Загрузить шаблон электронного сообщения № 1](https://gallery.technet.microsoft.com/Intune-migration-guide-end-e3209b35)
+    -   [Скачать шаблон электронного сообщения \#№ 1](https://gallery.technet.microsoft.com/Intune-migration-guide-end-e3209b35)
 <br></br>
 
 -   **Электронное сообщение №2.** Скажите, что можно получить доступ к службам в Intune. Скажите пользователям, чтобы они зарегистрировались прямо сейчас. Напомните им о преимуществах и стратегических причинах миграции.<br/><br/>
 
 
-    -   [Загрузить шаблон сообщения электронной почты № 2](https://gallery.technet.microsoft.com/Intune-migration-guide-end-a9d25eb5)
+    -   [Скачать шаблон электронного сообщения \#№ 2](https://gallery.technet.microsoft.com/Intune-migration-guide-end-a9d25eb5)
 <br></br>
 
 -   **Электронное сообщение № 3.** Сообщите пользователям сроки прекращения доступа. Еще раз напомните им о преимуществах и стратегических причинах миграции. Электронные сообщения необходимо отправлять с учетом текущего этапа миграции. Например, в июне вы отправляете письмо № 1 пользователям, находящимся на этапе 1, письмо № 2 — пользователям, находящимся на этапе 2, письмо № 3 — пользователям, находящимся на этапе 3.<br/><br/>
@@ -55,6 +55,6 @@ ms.lasthandoff: 10/31/2017
 
 -   [Руководства и сообщения электронной почты с инструкциями по FastTrack для EMS](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c) можно персонализировать с помощью логотипа, чтобы ускорить внедрение EMS и Intune в организации.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Реализация в системах конечных пользователей за счет условного доступа](migration-guide-drive-adoption.md).
