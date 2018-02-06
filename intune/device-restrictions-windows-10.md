@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4cd446310256a71e7306364b4142bfacce482fe4
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fc50d6f5c4b0350d0117b5d68a0b9ac3e9ec3ab3
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с ОС Windows 10 и более поздних версий в Microsoft Intune
 
@@ -254,7 +254,7 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="kiosk-preview"></a>Киоск (предварительная версия)
 
--   **Режим терминала** — определяет тип [режима киоска](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shared-pc), поддерживаемый этой политикой. Возможны следующие значения.
+-   **Режим терминала** — определяет тип [режима киоска](https://docs.microsoft.com/windows/configuration/kiosk-shared-pc), поддерживаемый этой политикой. Возможны следующие значения.
 
       - **Не настроен** (по умолчанию) — политика не поддерживает режим киоска. 
       - **Киоск с одним приложением** — профиль позволяет использовать устройство в качестве киоска с одним приложением.
@@ -266,7 +266,7 @@ ms.lasthandoff: 01/25/2018
 
          Для устройств в общих средах используйте учетные записи с минимальными привилегиями, чтобы предотвратить несанкционированные действия.  
 
-      - **Идентификатор модели пользователя приложения (AUMID)** — указывает AUMID для приложения киоска. Дополнительные сведения см. в статье [Поиск идентификатора модели пользователя для установленного приложения](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app).
+      - **Идентификатор модели пользователя приложения (AUMID)** — указывает AUMID для приложения киоска. Дополнительные сведения см. в статье [Поиск идентификатора модели пользователя для установленного приложения](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app).
 
     Киоскам с несколькими приложениями требуется конфигурация киоска. Нажмите кнопку **Добавить**, чтобы выбрать существующую конфигурацию киоска или создать ее.
 
@@ -280,13 +280,13 @@ ms.lasthandoff: 01/25/2018
 
             - **Приложение Win32** — традиционное классическое приложение. Вам нужен полный путь к исполняемому файлу по отношению к устройству.
 
-            - **Приложение UWP** — универсальное приложение для Windows. Вам требуется [AUMID приложения](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app).
+            - **Приложение UWP** — универсальное приложение для Windows. Вам требуется [AUMID приложения](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app).
 
-        - **Идентификатор приложения** — указывает полный путь к исполняемому файлу (приложения Win32) или [AUMID приложения](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app) (приложения UWP).
+        - **Идентификатор приложения** — указывает полный путь к исполняемому файлу (приложения Win32) или [AUMID приложения](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app) (приложения UWP).
 
     - **Панель задач** указывает, отображается (**Включено**) или скрыта (**Не настроено**) панель задач в киоске.
 
-    - **Макет меню "Пуск"** — задает XML-файл, описывающий, как приложения [отображаются в меню "Пуск"](https://docs.microsoft.com/en-us/windows/configuration/lock-down-windows-10-to-specific-apps#create-xml-file).
+    - **Макет меню "Пуск"** — задает XML-файл, описывающий, как приложения [отображаются в меню "Пуск"](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#create-xml-file).
 
     - **Назначенные пользователи** — указывает одну или несколько учетных записей пользователей, связанных с конфигурацией киоска. Это может быть локальная по отношению к устройству учетная запись или имя для входа учетной записи Azure AD, связанное с приложением киоска. Укажите присоединенные к домену учетные записи в виде `domain\\username@tenant.org`.
 
