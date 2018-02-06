@@ -15,11 +15,11 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3554623db2a153fd7f281a3b8453bedf1de3c77a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3e79ee1ddd2f8a8a9d7a3089e21b8807b9895d2c
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Регистрация устройств iOS с помощью Apple Configurator
 
@@ -71,8 +71,8 @@ Intune поддерживает регистрацию устройств iOS с
 
 1. Создайте список значений с разделителями-запятыми (CSV-файл) с двумя столбцами без заголовка. Добавьте серийный номер в левый столбец, а сведения — в правый. Текущая максимальная длина списка составляет 5000 строк. В текстовом редакторе список CSV-файлов выглядит примерно так:
 
-    F7TLWCLBX196, сведения об устройстве</br>
-    DLXQPCWVGHMJ, сведения об устройстве
+  F7TLWCLBX196, сведения об устройстве</br>
+  DLXQPCWVGHMJ, сведения об устройстве
 
    Узнайте, [как найти серийный номер устройства iOS](https://support.apple.com/HT204073).
 2. В Intune на портале Azure выберите **Регистрация устройств**, а затем щелкните **Регистрация Apple**.
@@ -164,3 +164,5 @@ Intune поддерживает регистрацию устройств iOS с
 7. На устройстве iOS откройте экран **Settings** (Параметры) и выберите **General** > **Device Management** > **Management Profile** (Общие > Управление устройством > Профиль управления). Убедитесь в том, что профиль установлен, проверьте ограничения политики iOS и установленные приложения. Для появления на устройстве ограничений политик и приложений может потребоваться до 10 минут.
 
 8. Распределите устройства. Теперь устройство iOS зарегистрировано в Intune и является управляемым.
+
+

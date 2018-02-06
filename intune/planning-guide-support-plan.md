@@ -14,11 +14,11 @@ ms.assetid: b9428769-4333-4778-b677-f23dea1f74da
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 46172f4b47a5ffeb623cdb068b7e1c6f6c7f1795
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: e557fe23b5fcee11957904b2dfd5eb99ec344f3f
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="develop-a-support-plan"></a>Разработка плана поддержки
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 01/25/2018
 
 -   Вопросы и ответы
 
-[Документация Intune](https://docs.microsoft.com/intune/) содержит общую информацию о службе Intune, подробные описания функций и некоторые сведения об устранении неполадок. [Форум Intune](https://social.technet.microsoft.com/Forums/en-US/home) — это основанный на сообществе ресурс для обсуждения вопросов и тем, не затронутых в документации Intune.
+[Документация Intune](https://docs.microsoft.com/intune/) содержит общую информацию о службе Intune, подробные описания функций и некоторые сведения об устранении неполадок. [Форум Intune](https://social.technet.microsoft.com/Forums/home) — это основанный на сообществе ресурс для обсуждения вопросов и тем, не затронутых в документации Intune.
 
 ## <a name="what-opportunities-are-there-to-involve-the-support-team-earlier"></a>Какие имеются возможности для раннего вовлечения группы поддержки в работу?
 
