@@ -55,7 +55,7 @@
       href: data-leak-prevention.md
     - name: Сравнение MDM и MAM
       href: byod-technology-decisions.md
-- name: Основные понятия
+- name: Понятия
   items:
     - name: Высокоуровневая архитектура
       href: high-level-architecture.md
@@ -68,6 +68,8 @@
           href: app-lifecycle.md
     - name: Распространенные сценарии
       href: common-scenarios.md
+    - name: ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ О MAM
+      href: mam-faq.md
 - name: Планирование развертывания
   items:
     - name: Планирование развертывания DPM
@@ -87,7 +89,7 @@
           href: planning-guide-support-plan.md
         - name: Проектирование
           href: planning-guide-design.md
-        - name: Внедрение
+        - name: Внедрить
           href: planning-guide-onboarding.md
         - name: Тестирование и проверка
           href: planning-guide-test-validation.md
@@ -124,7 +126,7 @@
         - name: Поддерживаемые конфигурации
           href: supported-devices-browsers.md
           items:
-            - name: конфигурация сети;
+            - name: Сетевая конфигурация
               href: network-bandwidth-use.md
         - name: Вход в Intune
           href: account-sign-up.md
@@ -144,7 +146,7 @@
         - name: Варианты регистрации
           href: enrollment-options.md
           items:
-            - name: Terms and conditions (Условия)
+            - name: Условия
               href: terms-and-conditions-create.md
             - name: Ограничения
               href: enrollment-restrictions-set.md
@@ -154,7 +156,7 @@
               href: corporate-identifiers-add.md
             - name: многофакторную идентификацию;
               href: multi-factor-authentication.md
-            - name: Device enrollment manager (Диспетчер регистрации устройств)
+            - name: Диспетчер регистрации устройств
               href: device-enrollment-manager-enroll.md
             - name: Сопоставление устройств с группами
               href: device-group-mapping.md
@@ -541,10 +543,10 @@
             - name: Обновления программного обеспечения
               href: /intune-classic/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune
               maintainContext: true
-            - name: Брандмауэр Windows
+            - name: Брандмауэре Windows
               href: /intune-classic/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune
               maintainContext: true
-            - name: Endpoint Protection
+            - name: "Endpoint\_Protection"
               href: /intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune
               maintainContext: true
         - name: Добавление приложений для клиентских компьютеров Intune
