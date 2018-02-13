@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 36dc2924602ffa060d01d3ba932c657fd52552c7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6d1a4513b8ef6e1f42ad84558de8a57399bb8c1b
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps"></a>Описание действия основной защиты в управляемых приложениях Office 365
 
@@ -128,4 +128,4 @@ ms.lasthandoff: 01/25/2018
 ![Изображение интерфейса пользователя и пути для просмотра политик](./media/image-for-faq.png)
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-Узнайте больше о [политике защиты приложений](https://docs.microsoft.comapp-protection-policy.md).
+Узнайте больше о [политике защиты приложений](app-protection-policy.md).

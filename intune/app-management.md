@@ -15,11 +15,11 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1f17b885ffc05808933a955dcb4f8977ffb0f4a0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 00e6b9f05f967da9066639dbf1b25bc76a49541b
+ms.sourcegitcommit: 0a5f424a8f683daa919b13b5c363173040d561c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -52,7 +52,7 @@ Intune предлагает широкий набор возможностей, 
 |Обязательная установка приложений на устройствах<sup>2</sup>|Да|Да|Да|Да|
 |Необязательная установка на устройствах с помощью корпоративного портала (доступная установка)|Да|Да|Да|Да|
 |Установка ярлыка приложения в Интернете (веб-клип)|Да|Да|Да|Да|
-|Собственные приложения (бизнес-приложения)|Да|Да|Нет|Нет|
+|Собственные приложения (бизнес-приложения)|Да|Да|Нет|Да|
 |Приложения из магазина|Да|Да|Да|Да|
 |Обновление приложений|Да|Да|Да|Да|
 

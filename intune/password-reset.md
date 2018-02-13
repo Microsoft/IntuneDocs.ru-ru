@@ -12,11 +12,11 @@ ms.technology:
 ms.assetid: e018e31d-e524-4b41-8f47-399ab0ead6ca
 ms.reviewer: pchacon
 ms.suite: ems
-ms.openlocfilehash: 7d204f97f1d6e6aad55e5b7f1b53c8c751190b0f
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ead246477ed4fe50798df7023c32041cb30a39f4
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="reduce-help-desk-costs-with-self-service-password-reset"></a>Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 01/25/2018
 ## <a name="next-steps"></a>Дальнейшие шаги
 
 Ознакомьтесь с дополнительными сведениями в следующих разделах.
-* [Рекомендации по паролям](https://docs.microsoft.com/azure/active-directory/active-directory-secure-passwordsd) 
+* [Рекомендации по паролям](https://docs.microsoft.com/azure/active-directory/active-directory-secure-passwords) 
 * [Лицензирование самостоятельного сброса паролей](https://docs.microsoft.com/azure/active-directory/active-directory-secure-passwords).
 
 Требуется помощь по реализации этого сценария EMS или Office 365 или других? При наличии хотя бы 150 лицензий для Microsoft 365, Microsoft Enterprise Mobility + Security или Azure Active Directory Premium воспользуйтесь [преимуществами FastTrack](https://docs.microsoft.com/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program).
