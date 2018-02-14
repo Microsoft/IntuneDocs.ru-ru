@@ -15,11 +15,11 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5a844255451f441f0b64cb020b863b4775fbb768
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 00a7bf5b3f5df58e29c3eb92a516b1ace3eea705
+ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 01/30/2018
     - **План поддержки**: **Техническая поддержка — включена** (Поддержка по техническим вопросам Intune предоставляется бесплатно.)
 
     >[!IMPORTANT]
-    >Поддержка Intune и для Intune с Configuration Manager предоставляется бесплатно. Чтобы просмотреть подробности предложения по поддержке Premier, см. раздел 5.3.3 "Advisory Services" (Рекомендуемые службы) документа [Description of Services](https://www.microsoft.com/en-us/microsoftservices/services-list.aspx) (Описание служб).
+    >Поддержка Intune и для Intune с Configuration Manager предоставляется бесплатно. Чтобы просмотреть подробности предложения по поддержке Premier, см. раздел 5.3.3 "Advisory Services" (Рекомендуемые службы) документа [Description of Services](https://www.microsoft.com/microsoftservices/services-list.aspx) (Описание служб).
 
     Для продолжения нажмите кнопку **Далее**.
 4. Выберите следующие параметры в колонке **Проблема**, чтобы запрос был направлен подходящему профильному специалисту.
