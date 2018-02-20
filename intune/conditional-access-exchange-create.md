@@ -6,7 +6,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: dougeby
-ms.date: 04/24/2017
+ms.date: 02/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 02b130ed13b3bb8869e35b035e787c97b76b5e85
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 70c3de614b0f5ed5075b669ecdffc08e1226817d
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="how-to-create-and-assign-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated-in-microsoft-intune"></a>Создание и назначение политики условного доступа к локальной организации Exchange и прежней версии выделенной среды Exchange Online в Microsoft Intune
 
@@ -65,7 +65,7 @@ ms.lasthandoff: 01/25/2018
 - Почтовые клиенты EAS на **устройствах Android for Work.** На устройствах Android for Work поддерживаются только приложения **Gmail** и **Nine Work** в **профиле работы**. Чтобы условный доступ работал для Android for Work, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work, а также развернуть эти приложения в качестве обязательной установки.
 
 > [!NOTE]
-> Приложение Microsoft Outlook в iOS и Android не поддерживается. Решение Android for Work будет развернуто в клиентах Intune в течение ближайших месяцев.
+> Приложение Microsoft Outlook в iOS и Android не поддерживается. 
 
 ### <a name="support-for-pcs"></a>Поддержка для ПК
 
