@@ -18,10 +18,10 @@ ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
 ms.openlocfilehash: 23d996132a6c896bb260b1bc4e46cbc6077583b3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/17/2018
 ---
 # <a name="enroll-your-legacy-macos-device-in-intune"></a>Регистрация устройства с macOS прежних версий в Intune
 
