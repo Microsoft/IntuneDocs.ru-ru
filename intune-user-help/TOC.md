@@ -150,3 +150,4 @@
 #### [Мне нужно включить Защитник Windows](turn-on-defender-windows.md)
 
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
+### [Удаленная блокировка устройства](remote-lock-your-device-cpwebsite.md)

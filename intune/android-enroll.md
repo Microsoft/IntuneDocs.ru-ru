@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 01/10/2017
+ms.date: 01/31/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a37497dcf015a611e8b770b5a28e519c0e397c87
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: e137da3ad4121f4b9cdfbb765ee00f71beca610a
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
@@ -49,6 +49,9 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="add-android-for-work-binding-for-intune"></a>Добавление привязки Android for Work для Intune
 
+> [!NOTE]
+> Из-за взаимодействия между доменами Google и Майкрософт для выполнения этого шага может потребоваться изменить параметры браузера.  Убедитесь, что адреса "portal.azure.com" и "play.google.com" находятся в одной и той же зоне безопасности в браузере.
+
 1. **Настройка Intune MDM**<br>
 Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [задав в качестве центра сертификации управления мобильными устройствами](mdm-authority-set.md) службу **Microsoft Intune**.
 2. **Настройка привязки Android for Work**<br>
@@ -64,11 +67,10 @@ ms.lasthandoff: 01/25/2018
    Укажите наименование своей организации в поле **Название организации**. Для параметра **Поставщик услуг Enterprise mobility management (EMM)** должно быть указано значение **Microsoft Intune**. Примите соглашение Android for Work и выберите элемент **Подтвердить**. Ваш запрос будет обработан.
 
 ## <a name="specify-android-for-work-enrollment-settings"></a>Настройка параметров регистрации Android for Work
-   Android for Work поддерживается только на некоторых устройствах Android. См. [Требования к Android for Work](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012 style="target=new_window") компании Google. Любое устройство, которое поддерживает Android for Work, также поддерживает обычное управление Android. Intune позволяет задать способ управления поддерживаемыми устройствами Android for Work.
+Android for Work поддерживается только на некоторых устройствах Android. См. [Требования к Android for Work](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012%20style=%22target=new_window%22) компании Google. Любое устройство, которое поддерживает Android for Work, также поддерживает обычное управление Android. Intune позволяет указать, как следует управлять устройствами с поддержкой Android for Work, с помощью параметра [Ограничения регистрации](enrollment-restrictions-set.md).
 
-   - **Управлять всеми устройствами в качестве Android**. Все устройства Android, включая устройства, поддерживающие Android for Work, регистрируются как обычные устройства Android.
-   - **Управлять поддерживаемыми устройствами в качестве Android for Work**. Все устройства, поддерживающие Android for Work, регистрируются в качестве устройств Android for Work. Любое устройство Android, которое не поддерживает Android for Work, регистрируется как обычное устройство Android.
-   - **Управлять поддерживаемыми устройствами лишь для пользователей в указанных группах в качестве Android for Work**. Вы можете применить управление Android for Work к ограниченному кругу пользователей. Устройства, поддерживающие Android for Work, регистрируются как устройства Android for Work, только для членов выбранных групп. Все остальные устройства регистрируются как устройства Android. Это удобно при реализации пилотных проектов Android for Work.
+- **Блокируется (по умолчанию)**: все устройства с Android, включая устройства, поддерживающие Android for Work, регистрируются как обычные устройства с Android.
+- **Разрешить**: все устройства, поддерживающие Android for Work, регистрируются в качестве устройств с Android for Work. Любое устройство Android, которое не поддерживает Android for Work, регистрируется как обычное устройство Android.
 
 ## <a name="approve-the-company-portal-app-in-the-managed-google-play-store"></a>Утверждение приложения "Корпоративный портал" в управляемом магазине Google Play
 Чтобы приложение "Корпоративный портал" для Android автоматически получало обновления, его необходимо утвердить в управляемом магазине Google Play. Если не сделать этого, со временем приложение устареет и не будет получать важные исправления ошибок и новые функции, выпускаемые корпорацией Майкрософт.

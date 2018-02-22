@@ -6,26 +6,24 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/03/2017
+ms.date: 1/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 2c4e9b19-b268-4f6d-9663-7cdbe4e4a8dd
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a587ef87afd9a8629ac6a274fe87406fb24f79f7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 5b4b77f9c9c1c957e3332c20e010a5e8e8ec2b56
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="how-to-import-wi-fi-settings-for-windows-81-and-later-devices-in-microsoft-intune"></a>Импорт параметров Wi-Fi на устройства с ОС Windows 8.1 и более поздних версий в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Для устройств под управлением Windows 8.1 или Windows 10 для настольных компьютеров или мобильных устройств можно импортировать профиль конфигурации Wi-Fi, который ранее был экспортирован в файл.
+В случае устройств под управлением Windows 8.1, Windows 10 для настольных компьютеров или мобильных устройств и Windows Holographic for Business можно импортировать профиль конфигурации Wi-Fi, который ранее был экспортирован в файл.
 
 ## <a name="export-wi-fi-settings-from-a-windows-device"></a>Экспорт параметров Wi-Fi с устройства Windows
 
@@ -33,7 +31,7 @@ ms.lasthandoff: 01/25/2018
 1. Создайте локальную папку для экспортированных профилей Wi-Fi, например **С:\WiFi**.
 1. Откройте командную строку с правами администратора.
 1. Выполните команду **netsh wlan show profiles** и запишите имя профиля, который требуется экспортировать. В этом примере профиль имеет имя **WiFiName**.
-1. Выполните команду **netsh wlan export profile name="ProfileName" folder=c:\Wifi**. Она создаст файл профиля Wi-Fi с именем **Wi-Fi-WiFiName.xml** в конечной папке.
+1. Выполните команду **netsh wlan export profile name="имя профиля" folder=c:\Wifi**. Она создаст файл профиля Wi-Fi с именем **Wi-Fi-WiFiName.xml** в конечной папке.
 
 ## <a name="import-the-wi-fi-settings-into-intune"></a>Импорт параметров Wi-Fi в Intune
 
@@ -43,9 +41,13 @@ ms.lasthandoff: 01/25/2018
 2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
 3. В колонке профилей выберите **Создать профиль**.
 4. В колонке **Создание профиля** введите **имя** и **описание** для профиля ограничения устройства.
+
+   > [!WARNING]
+   > Имя **должно** соответствовать значению атрибута name в XML-файле профиля Wi-Fi, в противном случае произойдет сбой.
+
 5. Из раскрывающегося списка **Платформа** выберите **Windows 8.1 и более поздней версии**.
 6. Из раскрывающегося списка **Профиль** выберите **Импорт Wi-Fi**.
-7. В колонке **Базовый Wi-Fi** настройте следующие значения:
+7. В колонке **Базовый Wi-Fi** настройте следующие параметры:
     - **Имя подключения.** Введите имя подключения Wi-Fi. Это имя будет отображаться для пользователей при просмотре доступных сетей Wi-Fi.
     - **XML-код профиля.** Нажмите кнопку "Обзор", чтобы выбрать XML-файл, содержащий параметры профиля Wi-Fi, которые необходимо импортировать в Intune.
     - **Содержимое файла.** Отображает XML-код для выбранного профиля конфигурации.

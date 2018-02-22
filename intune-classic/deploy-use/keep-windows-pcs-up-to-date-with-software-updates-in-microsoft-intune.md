@@ -14,13 +14,13 @@ ms.assetid: 48e9c41a-d2de-424e-9610-cfd1ad514210
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 85299c97c2b0c605adbb83a7c6e8017360511609
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: c31d1e44b4b96995223f4294655d8e0730170f47
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
-# <a name="keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune"></a>Обновление программного обеспечения на компьютерах Windows с помощью Microsoft Intune
+# <a name="keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune"></a>Обновление программного обеспечения на компьютерах с Windows с помощью Microsoft Intune
 
 [!INCLUDE[classic-portal](../includes/classic-portal.md)]
 
@@ -253,5 +253,5 @@ Microsoft Intune помогает защитить управляемые ком
 6.  Напоминания об обновлении будут отображаться в области сведений в нижней части страницы **Все обновления** .
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)

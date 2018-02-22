@@ -17,11 +17,11 @@ ROBOTS:
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 51e7ab7454d7ba312ecd8df1989c8c703eead31e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 60a1f9b26aa8481697c01a2af50cd6f48ae9967b
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="your-android-device-is-missing-a-certificate-required-by-your-company-support"></a>На устройстве Android отсутствует сертификат, требуемый службой поддержки вашей компании
 

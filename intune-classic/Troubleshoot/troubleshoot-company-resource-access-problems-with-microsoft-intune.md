@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f77e6c0e473e2e713186b927485d4dcda1b0f5e1
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: e6649962402dd8c8d11ea7357b48edee268b0f05
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Устранение неполадок, связанных с доступом к ресурсам компании, с использованием Microsoft Intune
 
@@ -384,5 +384,5 @@ ms.lasthandoff: 12/12/2017
 |-2016345912|0x87D100C8|команда SyncML успешно выполнена.|
 |-2016346011|0x87D10065|указанная команда SyncML выполняется, но ее выполнение еще не завершено.|
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).

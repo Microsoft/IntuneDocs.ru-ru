@@ -17,11 +17,11 @@ ROBOTS:
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f658784ae2dc462594c4ad99bc82b200b3544cb4
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ba0535e388ac730ad04cda898c2299f98686ff1d
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="enroll-your-windows-10-device-in-intune"></a>Регистрация устройства на базе Windows 10 в Intune
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 01/25/2018
 
     ![Вход](./media/W10-enroll-4-sign-in.png)
 
-По-прежнему не удается получить доступ к рабочей или учебной электронной почте, файлам или другим данным? Попробуйте восстановить доступ, [устранив неполадки со своей учетной записью](troubleshoot-your-windows-10-device-windows.md#troubleshooting-steps-to-follow-if-you-see-your-account). Если это не помогает, обратитесь за помощью в службу поддержки вашей компании.
+По-прежнему не удается получить доступ к рабочей или учебной электронной почте, файлам или другим данным? Попробуйте восстановить доступ, [устранив неполадки со своей учетной записью](troubleshoot-your-windows-10-device-windows.md#troubleshooting-steps-to-follow-if-you-see-your-account). Если это не помогает, обратитесь за помощью в службу поддержки вашей организации.
 
 Чтобы без затруднений получить помощь от службы поддержки вашей компании, используйте контактные данные, доступные в приложении "Корпоративный портал", где также можно найти и скачать рекомендуемые и обязательные приложения для повседневной работы. Возможно, приложение корпоративного портала уже установлено на вашем устройстве. Чтобы быстро проверить его наличие, найдите __Корпоративный портал__ в списке __Все приложения__.
 

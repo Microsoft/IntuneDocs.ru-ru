@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 27f9d3172750d4db5b96d0477ecaeeafa1e59ed2
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 5c9ac6ecc75c25f910a8aecd1632c947c95b26d6
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Устранение неполадок при настройке клиента в Microsoft Intune
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 10/10/2017
 
 Это может быть вызвано отсутствием критических обновлений программного обеспечения на компьютере.
 
-**Решение:** убедитесь, что политика обновления программного обеспечения разрешает установку критических обновлений, как описано в статье [Обновление программного обеспечения на компьютерах Windows с помощью Microsoft Intune](/intune-classic/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune).
+**Решение**. Убедитесь, что политика обновления программного обеспечения разрешает установку критических обновлений, как описано в статье [Обновление программного обеспечения на компьютерах с Windows при помощи Microsoft Intune](/intune-classic/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)
 
 
 ## <a name="microsoft-intune-policy-related-errors-in-policyplatformlog"></a>Ошибки в policyplatform.log, связанные с политиками Microsoft Intune
@@ -136,5 +136,5 @@ ms.lasthandoff: 10/10/2017
     ```
 
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).

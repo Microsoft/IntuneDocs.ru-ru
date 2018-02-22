@@ -14,11 +14,11 @@ ms.assetid: a8e38e29-f5e3-4a71-a170-d3b1a06e37c6
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: 
-ms.openlocfilehash: 38cae4b0726d4ad96c243dd87ea2581a691da306
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b24b7615c6070614bb19aac0f4edb7d12ddc65c5
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="create-a-design"></a>Создание структуры проектирования
 
@@ -137,11 +137,11 @@ Intune предлагает два варианта развертывания: 
 
 Дополнительные сведения о следующих требованиях удостоверениях Intune см. ниже.
 
-- [Требования к удостоверениям](https://docs.microsoft.com/en-us/azure/active-directory/understand-azure-identity-solutions).
+- [Требования к удостоверениям](https://docs.microsoft.com/azure/active-directory/understand-azure-identity-solutions).
 
-- [Требования к синхронизации каталогов](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).
+- [Требования к синхронизации каталогов](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 
-- [Требования к многофакторной идентификации](https://docs.microsoft.com/en-us/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud).
+- [Требования к многофакторной идентификации](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud).
 
 ### <a name="user-and-device-groups"></a>Группы пользователей и устройств
 
@@ -383,7 +383,7 @@ Intune поддерживает несколько способов достав
 
 Политики соответствия определяют, удовлетворяет ли устройство определенным требованиям. Intune использует политики соответствия, чтобы определить, считается ли устройство соответствующим. После этого состояние соответствия можно использовать для ограничения или предоставления доступа к ресурсам организации. Если требуется условный доступ, рекомендуется разработать [политику соответствия устройств](device-compliance.md).
 
-Изучите требования и варианты использования, чтобы определить, сколько нужно политик и какие группы пользователей являются целевыми. Кроме того, нужно решить, как долго устройство может находиться вне сети, не входя в систему, прежде чем будет считаться несоответствующим.
+Изучите требования и варианты использования, чтобы определить, сколько нужно политик и какие группы пользователей являются целевыми. Кроме того, нужно решить, как долго устройство может находиться не в сети, не отмечаясь в системе, прежде чем будет сочтено несоответствующим.
 
 Ниже приведен пример того, как можно спроектировать политику соответствия:
 

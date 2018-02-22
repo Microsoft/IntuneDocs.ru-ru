@@ -55,7 +55,7 @@
       href: data-leak-prevention.md
     - name: Сравнение MDM и MAM
       href: byod-technology-decisions.md
-- name: Понятия
+- name: Основные понятия
   items:
     - name: Высокоуровневая архитектура
       href: high-level-architecture.md
@@ -89,7 +89,7 @@
           href: planning-guide-support-plan.md
         - name: Проектирование
           href: planning-guide-design.md
-        - name: Внедрить
+        - name: Внедрение
           href: planning-guide-onboarding.md
         - name: Тестирование и проверка
           href: planning-guide-test-validation.md
@@ -126,7 +126,7 @@
         - name: Поддерживаемые конфигурации
           href: supported-devices-browsers.md
           items:
-            - name: Сетевая конфигурация
+            - name: конфигурация сети;
               href: network-bandwidth-use.md
         - name: Вход в Intune
           href: account-sign-up.md
@@ -146,7 +146,7 @@
         - name: Варианты регистрации
           href: enrollment-options.md
           items:
-            - name: Условия
+            - name: Terms and conditions (Условия)
               href: terms-and-conditions-create.md
             - name: Ограничения
               href: enrollment-restrictions-set.md
@@ -156,7 +156,7 @@
               href: corporate-identifiers-add.md
             - name: многофакторную идентификацию;
               href: multi-factor-authentication.md
-            - name: Диспетчер регистрации устройств
+            - name: Device enrollment manager (Диспетчер регистрации устройств)
               href: device-enrollment-manager-enroll.md
             - name: Сопоставление устройств с группами
               href: device-group-mapping.md
@@ -287,6 +287,26 @@
           items:
             - name: Выборочная очистка приложений
               href: apps-selective-wipe.md
+            - name: Использование политик защиты приложений
+              href: app-protection-policy.md
+              items:
+                - name: Создание политик защиты приложений
+                  href: app-protection-policies.md
+                  items:
+                    - name: Параметры Android
+                      href: app-protection-policy-settings-android.md
+                    - name: Параметры iOS
+                      href: app-protection-policy-settings-ios.md
+                - name: Проверка политик защиты приложений
+                  href: app-protection-policies-validate.md
+                - name: Мониторинг состояния пользователя защиты приложений
+                  href: app-protection-policies-monitor.md
+                - name: Подготовка к использованию политик защиты приложений WIP
+                  href: app-protection-policies-configure-windows-10.md
+                - name: Создание и назначение политик защиты приложений WIP
+                  href: windows-information-protection-policy-create.md
+                - name: Управление передачей данных между приложениями iOS
+                  href: data-transfer-between-apps-manage-ios.md
     - name: Настройка устройств
       href: device-profiles.md
       items:
@@ -444,28 +464,8 @@
           href: conditional-access-integrate-jamf.md
         - name: Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
           href: conditional-access-assign-jamf.md
-    - name: Защита данных приложения и устройства
+    - name: Защита данных устройства
       items:
-        - name: Использование политик защиты приложений
-          href: app-protection-policy.md
-          items:
-            - name: Создание политик защиты приложений
-              href: app-protection-policies.md
-              items:
-                - name: Параметры Android
-                  href: app-protection-policy-settings-android.md
-                - name: Параметры iOS
-                  href: app-protection-policy-settings-ios.md
-            - name: Проверка политик защиты приложений
-              href: app-protection-policies-validate.md
-            - name: Мониторинг состояния пользователя защиты приложений
-              href: app-protection-policies-monitor.md
-            - name: Подготовка к использованию политик защиты приложений WIP
-              href: app-protection-policies-configure-windows-10.md
-            - name: Создание и назначение политик защиты приложений WIP
-              href: windows-information-protection-policy-create.md
-            - name: Управление передачей данных между приложениями iOS
-              href: data-transfer-between-apps-manage-ios.md
         - name: Mobile Threat Defense
           href: mobile-threat-defense.md
           items:
@@ -543,10 +543,10 @@
             - name: Обновления программного обеспечения
               href: /intune-classic/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune
               maintainContext: true
-            - name: Брандмауэре Windows
+            - name: Брандмауэр Windows
               href: /intune-classic/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune
               maintainContext: true
-            - name: "Endpoint\_Protection"
+            - name: Endpoint Protection
               href: /intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune
               maintainContext: true
         - name: Добавление приложений для клиентских компьютеров Intune
@@ -651,6 +651,8 @@
           href: reports-proc-data-rest.md
         - name: Конечная точка API для хранилища данных
           href: reports-api-url.md
+        - name: 'Аутентификация в хранилище данных, предназначенная только для приложений'
+          href: data-warehouse-app-only-auth.md
         - name: Модель данных для хранилища данных
           href: reports-ref-data-model.md
           items:

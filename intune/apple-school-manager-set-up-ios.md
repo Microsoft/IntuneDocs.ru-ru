@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 09/13/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,28 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 666ce43e3bd87db5a8245694d22401819c369951
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 87e4c16fbb87ee83a01fe44a46c55c6243c8fc8a
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Включение регистрации устройств iOS с помощью Apple School Manager
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+> [!NOTE]
+> ### <a name="temporary-user-interface-differences"></a>Временные отличия в пользовательском интерфейсе
+>
+>Пользовательские интерфейсы для функций, описанных на этой странице, находятся в процессе обновления. Эти обновления будут развернуты во всех учетных записях до конца апреля.
+>
+>Если страница **регистрации устройств** выглядит как на следующем рисунке, это значит, что пользовательский интерфейс еще не обновлен для вашей учетной записи и вы можете использовать эту страницу справки.
+>
+>![Старый пользовательский интерфейс](./media/appleenroll-oldui.png)
+>
+>Если страница **регистрации устройств** выглядит как на следующем рисунке, значит пользовательский интерфейс обновлен.  Перейдите на [эту страницу справки](apple-school-manager-set-up-ios-newui.md).
+>
+>![Новый пользовательский интерфейс](./media/appleenroll-newui.png)
 
 Этот раздел поможет вам зарегистрировать устройства iOS, приобретенные по программе [Apple School Manager](https://school.apple.com/). С помощью Intune с Apple School Manager можно зарегистрировать большое количество устройств iOS даже без обращения к ним. Когда учащийся или преподаватель включает устройство, запускается помощник по установке с предварительно настроенными параметрами и устройство регистрируется для управления.
 

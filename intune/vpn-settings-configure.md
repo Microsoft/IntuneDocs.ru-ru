@@ -6,20 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/03/2017
+ms.date: 1/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 42f9b104-c1f6-4dfc-8aa4-1d33e1eaf61f
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3637ad08e097e4edcd527b3603dd00e1eac47f71
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 772b7f025adc7ae80d0f14c5c630209c4c7529b2
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Настройка параметров VPN в Microsoft Intune
 
@@ -71,13 +69,13 @@ ms.lasthandoff: 01/25/2018
     - **Windows 8.1 и более поздние версии**
     - **Windows 10 и более поздних версий**.
 6. В раскрывающемся списке **Профиль** выберите **VPN**.
-7. Доступные для настройки параметры будут отличаться в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
+7. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
     - [Параметры Android и Android for Work](vpn-settings-android.md)
     - [Параметры iOS](vpn-settings-ios.md)
     - [Параметры macOS](vpn-settings-macos.md)
     - [Параметры Windows Phone 8.1](vpn-settings-windows-phone-8-1.md)
     - [Параметры Windows 8.1](vpn-settings-windows-8-1.md)
-    - [Параметры Windows 10](vpn-settings-windows-10.md)
+    - [Параметры Windows 10](vpn-settings-windows-10.md) (включая Windows Holographic for Business)
 8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
 
 Созданный профиль отобразится в колонке со списком профилей.

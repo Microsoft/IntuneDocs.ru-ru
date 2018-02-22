@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b99ca9b196aa15d146e7a379cdc7bdffe848be28
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3efc522b8b788a0cb6cd1bbc6d04ce7545890de3
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -1311,9 +1311,9 @@ public interface MAMAppConfig {
 Конфигурация приложения добавляет новый тип уведомления.
 * **REFRESH_APP_CONFIG**. Это уведомление отправляется в `MAMUserNotification` и сообщает приложению о том, что доступны новые данные конфигурации приложения.
 
-Дополнительные сведения о возможностях API Graph при работе со значениями целевой конфигурации MAM см. в [справочнике по API Graph для целевой конфигурации MAM](https://graph.microsoft.io/en-us/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create). <br>
+Дополнительные сведения о возможностях API Graph по отношению к целевым значениям конфигурации MAM см. в статье [Справочник по целевым значениям конфигурации MAM для API Graph] ((https://developer.microsoft.com/graph/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create). <br>
 
-Дополнительные сведения о создании целевой политики конфигурации приложений MAM в Android см. в статье [Использование политик конфигурации приложений Microsoft Intune для Android](https://docs.microsoft.com/en-us/intune/app-configuration-policies-use-android) в разделе, посвященном целевой конфигурации приложений MAM.
+Дополнительные сведения о создании целевой политики конфигурации приложений MAM в Android см. в статье [Использование политик конфигурации приложений Microsoft Intune для Android](https://docs.microsoft.com/intune/app-configuration-policies-use-android) в разделе, посвященном целевой конфигурации приложений MAM.
 
 ## <a name="style-customization-optional"></a>Настройка стиля (необязательно)
 
@@ -1366,7 +1366,7 @@ public interface MAMAppConfig {
 ### <a name="working-with-the-intune-sdk"></a>Работа с пакетом SDK Intune
 Эти инструкции относятся ко всем приложениям для Android и Xamarin, которые нуждаются в обязательном применении политик защиты устройств Intune на устройстве конечного пользователя.
 
-1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/en-us/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
+1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
 > [!NOTE] 
 > Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
 * Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
@@ -1427,7 +1427,7 @@ public interface MAMAppConfig {
 Пакет SDK для приложений Intune для Android не управляет сбором данных из приложения. По умолчанию приложение корпоративного портала записывает данные телеметрии. Эти данные отправляются в Microsoft Intune. Согласно политике конфиденциальности Майкрософт мы не собираем персональные данные.
 
 > [!NOTE]
-> Если конечные пользователи отказываются от отправки этих данных, им необходимо отключить телеметрию в разделе "Параметры" приложения корпоративного портала. Дополнительные сведения см. в разделе [Отключение сбора данных об использовании корпорацией Майкрософт](https://docs.microsoft.com/en-us/intune-user-help/turn-off-microsoft-usage-data-collection-android). 
+> Если конечные пользователи отказываются от отправки этих данных, им необходимо отключить телеметрию в разделе "Параметры" приложения корпоративного портала. Дополнительные сведения см. в разделе [Отключение сбора данных об использовании корпорацией Майкрософт](https://docs.microsoft.com/intune-user-help/turn-off-microsoft-usage-data-collection-android). 
 
 ## <a name="recommended-android-best-practices"></a>Рекомендации для Android
 

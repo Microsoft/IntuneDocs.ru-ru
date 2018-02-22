@@ -2,10 +2,10 @@
 title: "Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune"
 description: 
 keywords: sdk, Cordova, intune
-author: arob98
-ms.author: angrobe
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,20 +14,23 @@ ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 00c1c805dbbf661bdcd4ad6b153fee8b2bbba9ee
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: d42f8418e2f277dca0fbb2f01248f5a815606cb6
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
 
-> [!NOTE]
-> Вы можете сначала прочесть статью [Начало работы с пакетом SDK для приложений Intune](app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
+> [!IMPORTANT]
+> Поддержка подключаемого модуля Cordova пакета SDK для приложений Microsoft Intune завершается 1 мая 2018 г. Рекомендуем использовать инструмент упаковки приложений Intune вместо этого подключаемого модуля. Дополнительные сведения об инструменте упаковки приложений: [Инструмент упаковки приложений для iOS](app-wrapper-prepare-ios.md) и [Инструмент упаковки приложений для Android](app-wrapper-prepare-android.md). Дополнительные сведения об этом изменении см. в разделе [Уведомления](whats-new.md#notices) в статье [Новые возможности Microsoft Intune](whats-new.md).
 
 ## <a name="overview"></a>Обзор
 
 [Подключаемый модуль Cordova из пакета SDK для приложений Intune](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) в iOS и приложениях под управлением Android на основе Cordova С его помощью разработчики могут интегрировать в свое приложение на основе Cordova функции защиты данных и приложений Intune.
+
+> [!NOTE]
+> Вы можете сначала прочесть статью [Начало работы с пакетом SDK для приложений Intune](app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
 
 Вы обнаружите, что функции пакета SDK можно включить, не изменяя поведение приложения. После создания подключаемого модуля в приложении iOS или Android администратор Microsoft Intune сможет развернуть политику защиты приложений Intune, которая включает различные компоненты для защиты данных. Этот подключаемый модуль создан таким образом, что большинство действий выполняются автоматически в процессе сборки Cordova. Это позволяет быстро реализовать защиту приложения в Intune. Чтобы начать работу, выполните указанные ниже действия с учетом целевой платформы.
 
@@ -65,7 +68,7 @@ ms.lasthandoff: 01/25/2018
 
 
 
-## <a name="quick-start"></a>Быстрое начало работы
+## <a name="quickstart"></a>Быстрый запуск
 
 1. Обновите версию ADAL:
 

@@ -15,11 +15,11 @@ ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1dc50fe1018bae0c13ddba51e5351f463d0ec1c8
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 0c2ebbe451f83dc14a9294c78a21ecfd30e5d155
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="android-and-samsung-knox-standard-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств Android и Samsung KNOX Standard в Microsoft Intune
 
@@ -119,7 +119,7 @@ ms.lasthandoff: 01/25/2018
 
 Настройте список приложений для каждого параметра, используя один из следующих вариантов:
 
-- **Добавить приложения по имени пакета.** В основном используется для бизнес-приложений. Введите имя приложения и имя пакета приложения.
+- **Добавить приложения по имени пакета**. В основном используется для бизнес-приложений. Введите имя приложения и имя пакета приложения.
 - **Добавить приложения по URL-адресу.** Введите имя и URL-адрес приложения в магазине Google Play.
 - **Добавить управляемые приложения.** Выберите необходимое приложение в списке приложений, управляемых с помощью Intune.
 
