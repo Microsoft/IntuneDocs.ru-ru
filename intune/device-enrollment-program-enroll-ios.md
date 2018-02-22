@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/03/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,28 @@ ms.assetid: 7981a9c0-168e-4c54-9afd-ac51e895042c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3e0163cc90e644bbae8f12759b473d81c9770bee
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: b56907217b45ddb2bfe869f23abc34c0508bdbd7
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+> [!NOTE]
+> ### <a name="temporary-user-interface-differences"></a>Временные отличия в пользовательском интерфейсе
+>
+>Пользовательские интерфейсы для функций, описанных на этой странице, находятся в процессе обновления. Эти обновления будут развернуты во всех учетных записях до конца апреля.
+>
+>Если страница **регистрации устройств** выглядит как на следующем рисунке, это значит, что пользовательский интерфейс еще не обновлен для вашей учетной записи и вы можете использовать эту страницу справки.
+>
+>![Старый пользовательский интерфейс](./media/appleenroll-oldui.png)
+>
+>Если страница **регистрации устройств** выглядит как на следующем рисунке, значит пользовательский интерфейс обновлен.  Перейдите на [эту страницу справки](device-enrollment-program-enroll-ios-newui.md).
+>
+>![Новый пользовательский интерфейс](./media/appleenroll-newui.png)
 
 Этот раздел поможет вам зарегистрировать устройства iOS, приобретенные по [Программе регистрации устройств (DEP)](https://deploy.apple.com) Apple. Вы можете включить регистрацию DEP для большого количества устройств, причем работать отдельно с каждым устройством не требуется. Устройства, например iPhone и iPad, можно сразу же отправлять пользователям. Когда пользователь включает устройство, запускается помощник по установке с предварительно настроенными параметрами, и устройство регистрируется для управления.
 

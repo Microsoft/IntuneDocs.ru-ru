@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 362c7f4dc9acfe574eb6a98819339e2db44cb9ec
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a3075aa4ecae75b2c422b1e59b9fa0ce5281a2d7
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="manage-settings-and-features-on-your-devices-with-microsoft-intune-policies"></a>Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune
 
@@ -198,7 +198,7 @@ Intune не оценивает полезные данные файлов кон
 #### <a name="windows-pcs-running-the-intune-client-software"></a>ПК Windows с клиентским ПО Intune
 
 - **Параметры Endpoint Protection**. Восстанавливаются рекомендованные значения параметров. Единственным исключением является настройка **Участвовать в работе службы Microsoft Active Protection Service**, для которой по умолчанию задано значение **Нет**. Дополнительные сведения см. в разделе [Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection для Microsoft Intune](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md).
-- **Параметры обновлений программного обеспечения**. Параметры сбрасываются до значений по умолчанию для операционной системы. Дополнительные сведения см. в разделе [Обновление программного обеспечения на компьютерах Windows с помощью Microsoft Intune](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md).
+- **Параметры обновлений программного обеспечения**. Параметры сбрасываются до значений по умолчанию для операционной системы. Дополнительные сведения см. в разделе [Обновление программного обеспечения на компьютерах с Windows при помощи Microsoft Intune](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md).
 - **Параметры Microsoft Intune Center**. Все контактные сведения службы поддержки, заданные с помощью политики, будут удалены с компьютеров.
 - **Параметры брандмауэра Windows**. Параметры сбрасываются до значений по умолчанию для операционной системы. Дополнительные сведения см. в разделе [Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection для Microsoft Intune](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md).
 

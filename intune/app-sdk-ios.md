@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c601845274e5c15ce46da80a065b586e64a53a9a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f74b996b3b96dfa808771f3dd4fc70f9c29324c2
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -99,7 +99,18 @@ ms.lasthandoff: 01/25/2018
 
     ![Пакет SDK для приложений Intune для iOS — копирование ресурсов пакета](./media/intune-app-sdk-ios-copy-bundle-resources.png)
 
-    Добавьте эти платформы iOS в проект:          * MessageUI.framework;          * Security.framework;          * MobileCoreServices.framework;          * SystemConfiguration.framework;          * libsqlite3.tbd          * libc++.tbd;          * ImageIO.framework;          * LocalAuthentication.framework;          * AudioToolbox.framework;          * QuartzCore.framework          * WebKit.framework.
+    Добавьте в проект следующие платформы iOS:  
+            * MessageUI.framework  
+            * Security.framework  
+            * MobileCoreServices.framework  
+            * SystemConfiguration.framework  
+            * libsqlite3.tbd  
+            * libc++.tbd  
+            * ImageIO.framework  
+            * LocalAuthentication.framework  
+            * AudioToolbox.framework  
+            * QuartzCore.framework  
+            * WebKit.framework  
 
 3. Включите совместное использование цепочки ключей (если оно еще не включено), щелкнув **Capabilities** (Возможности) в каждой цели проекта и включив параметр **Keychain Sharing** (Совместное использование цепочки ключей). Совместное использование цепочки ключей требуется для перехода к следующему шагу.
 
@@ -459,9 +470,9 @@ WebViewHandledURLSchemes | Массив строк | Указывает схем
 * Вызовите ```[[IntuneMAMAppConfigManager instance] appConfigForIdentity:]```, чтобы получить объект конфигурации приложения.
 * Вызовите подходящий селектор для объекта ```IntuneMAMAppConfig```. Например, если ключ приложения является строкой, можно использовать ```stringValueForKey``` или ```allStringsForKey```. Файл ```IntuneMAMAppConfig.h header``` сообщает о возвращаемых значениях и условиях ошибки.
 
-Дополнительные сведения о возможностях API Graph при работе со значениями целевой конфигурации MAM см. в [справочнике по API Graph для целевой конфигурации MAM](https://graph.microsoft.io/en-us/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create). <br>
+Дополнительные сведения о возможностях API Graph при работе со значениями целевой конфигурации MAM см. в [справочнике по API Graph для целевой конфигурации MAM](https://developer.microsoft.com/graph/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create). <br>
 
-Дополнительные сведения о создании целевой политики конфигурации приложений MAM в iOS см. в разделе, посвященном целевой конфигурации MAM приложения, статьи [Использование политик конфигурации приложений Microsoft Intune для iOS](https://docs.microsoft.com/en-us/intune/app-configuration-policies-use-ios).
+Дополнительные сведения о создании целевой политики конфигурации приложений MAM в iOS см. в разделе, посвященном целевой конфигурации MAM приложения, статьи [Использование политик конфигурации приложений Microsoft Intune для iOS](https://docs.microsoft.com/intune/app-configuration-policies-use-ios).
 
 ## <a name="telemetry"></a>Телеметрия
 

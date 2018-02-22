@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 21053cd7ce930bd11625807f7fdda3ebbdd953f3
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 5f16e14b32508adf1fc4f3f448f53a7dcad8e137
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="troubleshoot-conditional-access"></a>Устранение неполадок условного доступа
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 10/10/2017
 - Просмотрите действия sendemail в журналах соединителя Exchange и проверьте их на наличие ошибок. Пример команды для поиска: SendEmail from notification account to useremail.
 - Прежде чем заблокировать устройство, соединитель Exchange отправляет электронное сообщение для активации. Если устройство находится вне сети, то оно может не получить это сообщение. Проверьте, использует ли почтовый клиент на устройстве для получения электронной почты технологию Push, а не Poll, так как из-за этого пользователь также может пропустить электронное сообщение. Переключите клиент на использование технологии Poll и проверьте, получит ли устройство электронное сообщение.
 
-## <a name="non-compliant-device-not-blocked"></a>Несовместимое устройство не заблокировано
+## <a name="noncompliant-device-not-blocked"></a>Несовместимое устройство не заблокировано
 
 При выявлении устройства, которое не соответствует требованиям, но все равно имеет доступ, выполните следующие действия.
 
@@ -151,5 +151,5 @@ ms.lasthandoff: 10/10/2017
 
 
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).

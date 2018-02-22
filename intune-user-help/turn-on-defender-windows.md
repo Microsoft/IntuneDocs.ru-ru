@@ -17,11 +17,11 @@ ROBOTS:
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 942f855937152e0791a662cc5d697f62384d83a2
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 09d147b3f952b60bf24f2a1bc8441e5909a93090
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="turn-on-windows-defender-to-access-company-resources"></a>Включение Защитника Windows для доступа к ресурсам организации
 

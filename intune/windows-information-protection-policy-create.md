@@ -15,11 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 97f9407c8ba93307059e44c8becf4f7a36c6861a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 940c4bc17face7ecef2b6888e199ba47073659ba
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
 
@@ -125,9 +125,11 @@ ms.lasthandoff: 01/25/2018
 
 ### <a name="before-you-begin"></a>Подготовка к работе
 
-Обучение WIP — это отчет, который позволяет отслеживать приложения, неизвестные WIP. Неизвестными являются приложения, развертывание которых не выполнялось ИТ-специалистами вашей организации. Вы можете экспортировать эти приложения из отчета и добавить их в свои политики WIP во избежание прерывания работы, прежде чем они принудительно активируют WIP в режиме Block (Блокировать).
+Обучение WIP — это отчет, который позволяет отслеживать приложения, поддерживающие и не поддерживающие WIP. Неизвестными являются приложения, развертывание которых не выполнялось ИТ-специалистами вашей организации. Вы можете экспортировать эти приложения из отчета и добавить их в свои политики WIP во избежание прерывания работы, прежде чем они принудительно активируют WIP в режиме Block (Блокировать).
 
-Мы рекомендуем для начала использовать параметры **Автоматически** или **Разрешить переопределения** и выполнить проверку небольшой группы, чтобы убедиться, что в список разрешенных приложений включены только нужные приложения. После этого можно перейти к принудительному применению последней политики — **Block** (Блокировать).
+<!-- 1631908 --> In addition to viewing information about WIP-enabled apps, you can view a summary of the devices that have shared work data with websites. With this information, you can determine which websites should be added to group and user WIP policies. The summary shows which website URLs are accessed by WIP-enabled apps.
+
+При работе с приложениями с поддержкой WIP и без нее рекомендуем для начала использовать параметры **Автоматически** или **Разрешить переопределения** и провести проверку для небольшой группы, чтобы убедиться, что в список разрешенных приложений включены только нужные. После этого можно перейти к принудительному применению последней политики — **Block** (Блокировать).
 
 ### <a name="what-are-the-protection-modes"></a>Какие режимы защиты существуют?
 

@@ -15,17 +15,17 @@ ms.assetid: 975d8d84-792a-41ad-925a-4a7f1ae4dcaf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b21b06dd255cdc875242afe1fd6228f5db3887dd
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8f26cf20b4e1168fbced1df88886343f41824158
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 
 Вы можете управлять доступом к корпоративным ресурсам с мобильных устройств посредством условного доступа на основании оценки рисков, проведенной Zimperium, — решением для защиты от угроз на мобильных устройствах, интегрированным с Microsoft Intune. Оценка рисков основана на данных телеметрии, собранных с устройств, на которых выполняется приложение Zimperium.
 
-Вы можете настроить политики условного доступа на основе оценки рисков Zimperium, реализуемой с помощью политик соответствия устройств Intune. Эти политики также можно использовать для разрешения или запрета доступа несоответствующих устройств к корпоративным ресурсам на основании обнаруженных угроз.
+Вы можете настроить политики условного доступа на основе оценки рисков Zimperium, которая реализуется с помощью политик соответствия устройств Intune. Эти политики также можно использовать для разрешения или запрета доступа несоответствующих устройств к ресурсам организации на основании обнаруженных угроз.
 
 ## <a name="how-do-intune-and-zimperium-help-protect-your-company-resources"></a>Как Intune и Zimperium помогают защитить ресурсы вашей организации?
 

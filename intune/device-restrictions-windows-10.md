@@ -14,11 +14,11 @@ ms.technology:
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc50d6f5c4b0350d0117b5d68a0b9ac3e9ec3ab3
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: b4b576e9b6195f3db8d162e1f880faf9f669f2c1
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="windows-10-and-later-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с ОС Windows 10 и более поздних версий в Microsoft Intune
 
@@ -268,7 +268,7 @@ ms.lasthandoff: 02/01/2018
 
       - **Идентификатор модели пользователя приложения (AUMID)** — указывает AUMID для приложения киоска. Дополнительные сведения см. в статье [Поиск идентификатора модели пользователя для установленного приложения](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app).
 
-    Киоскам с несколькими приложениями требуется конфигурация киоска. Нажмите кнопку **Добавить**, чтобы выбрать существующую конфигурацию киоска или создать ее.
+    [Киоскам с несколькими приложениями](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-in-microsoft-intune) требуется соответствующая конфигурация. Нажмите кнопку **Добавить**, чтобы выбрать существующую конфигурацию киоска или создать ее.
 
     Конфигурации киоска с несколькими приложениями включают следующие параметры:
 

@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1a3f5d94d5b9b902c4b07939e822076215c01d7c
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 66cca236d2779fb9a7a01ad6aa10a57edf8ab657
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="troubleshoot-software-updates-in-microsoft-intune"></a>Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune
 
@@ -264,5 +264,5 @@ ms.lasthandoff: 10/10/2017
 
 Кроме того, если вы используете Windows 7, убедитесь, что установлено следующее обновление:[3050265 Клиент Центра обновления Windows для Windows 7: июнь 2015 г.](https://support.microsoft.com/kb/3050265)
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).

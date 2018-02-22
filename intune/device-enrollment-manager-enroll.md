@@ -15,11 +15,11 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: eda4ad57f1365a7fe27d58ad8f40399b1582b4b6
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4ae5060ca2ea884ddbcf0e21d7a6e95c56f973bc
+ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/03/2018
 ---
 # <a name="enroll-devices-using-device-enrollment-manager"></a>Регистрация устройств с помощью диспетчера регистрации устройств
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/25/2018
 Прежде чем добавить пользователя как диспетчера регистрации устройств, нужно создать его на портале Azure. Для обеспечения оптимального уровня безопасности пользователь DEM не должен одновременного быть и администратором Intune.
 
 >[!NOTE]
->Метод регистрации с помощью диспетчера регистрации устройств (DEM) нельзя использовать со следующими средствами регистрации: [Apple Configurator с помощником по настройке](apple-configurator-setup-assistant-enroll-ios.md), [Apple Configurator с прямой регистрацией](apple-configurator-direct-enroll-ios.md), [Apple School Manager (ASM)](apple-school-manager-set-up-ios.md) или [программа регистрации устройств (DEP)](device-enrollment-program-enroll-ios.md). Его также нельзя использоваться для регистрации устройств macOS. 
+>Метод регистрации с помощью диспетчера регистрации устройств (DEM) нельзя использовать со следующими средствами регистрации: [Apple Configurator с помощником по настройке](apple-configurator-setup-assistant-enroll-ios.md), [Apple Configurator с прямой регистрацией](apple-configurator-direct-enroll-ios.md), [Apple School Manager (ASM)](apple-school-manager-set-up-ios.md) или [программа регистрации устройств (DEP)](device-enrollment-program-enroll-ios.md). Его также нельзя использоваться для регистрации устройств macOS.
 
 ## <a name="example-of-a-device-enrollment-manager-scenario"></a>Пример сценария работы диспетчера регистрации устройств
 
@@ -65,13 +65,11 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств
 
-1.  На портале Azure выберите пункты **Другие службы** > **Мониторинг и управление** > **Intune**.
+1.  В [Intune на портале Azure](https://aka.ms/intuneportal) выберите пункты **Регистрация устройства** > **Диспетчеры регистрации устройств**.
 
-2.  В колонке Intune выберите **Регистрация устройств**, а затем щелкните **Диспетчеры регистрации устройств**.
+2.  Нажмите кнопку **Добавить**.
 
-3.  Нажмите кнопку **Добавить**.
-
-4.  В колонке **Добавить пользователя** введите имя участника-пользователя для пользователя DEM и нажмите кнопку **Добавить**. Пользователь DEM добавлен в список пользователей диспетчера регистрации устройств.
+3.  В колонке **Добавить пользователя** введите имя участника-пользователя для пользователя DEM и нажмите кнопку **Добавить**. Пользователь DEM добавлен в список пользователей диспетчера регистрации устройств.
 
 ## <a name="permissions-for-dem"></a>Разрешения для DEM
 

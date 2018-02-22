@@ -18,9 +18,9 @@
 - Windows 10 Mobile
 - Windows 10 IoT Корпоративная (32- и 64-разрядные версии)
 - Windows 10 IoT Mobile Корпоративная
-- Windows Holographic и Windows Holographic Enterprise
+- Windows Holographic for Business
 
-  Сведения об управлении устройствами Microsoft HoloLens см. в статье [Регистрация HoloLens в MDM](https://docs.microsoft.com/hololens/hololens-enroll-mdm).
+  Дополнительные сведения об управлении устройствами с Windows Holographic for Business см. в разделе [Поддержка Windows Holographic for Business](../windows-holographic-for-business.md).
 
 - Windows Phone 8.1, Windows 8.1 RT, компьютеры под управлением Windows 8.1 (режим поддержки)
 

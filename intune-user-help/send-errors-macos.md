@@ -17,11 +17,11 @@ ROBOTS:
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9859e13d8d1b39975d53bab159b204ef27560365
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: c0490f32629fb4ecbb6d66589c71cecce5172536
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="submit-errors-to-the-right-people-for-your-managed-macos-device"></a>Отправка сведений об ошибках с управляемого устройства macOS соответствующим специалистам
 
@@ -41,6 +41,6 @@ ms.lasthandoff: 01/25/2018
 
 Иногда приложение "Корпоративный портал" может работать непредвиденным образом. Вполне естественно, что его разработчики хотят знать о таких случаях. Это может помочь нам улучшить работу приложения и предотвратить такие ситуации в будущем. Эта информация хранится на устройстве в специальном документе, который называется _диагностическим журналом_.
 
-Если вы хотите отправить диагностический отчет рабочей группе Майкрософт, занимающейся разработкой приложения "Корпоративный портал", необходимо предоставить дополнительные сведения, которые помогут установить причину проблемы. Чтобы отправить отчет не в службу поддержки вашей организации, а в корпорацию Майкрософт, воспользуйтесь <a href="mailto:IntuneCPiOSfeedback@microsoft.com?subject=My Company Portal App Closed Unexpectedly&body=Press and hold, then paste your copied Company Portal app logs here.">этим шаблоном электронной почты</a>.
+Чтобы отправить диагностический отчет рабочей группе Майкрософт, занимающейся разработкой приложения "Корпоративный портал", необходимо предоставить дополнительные сведения, которые помогут установить причину проблемы. Чтобы отправить отчет не в службу поддержки вашей организации, а в корпорацию Майкрософт, воспользуйтесь <a href="mailto:IntuneCPiOSfeedback@microsoft.com?subject=My Company Portal App Closed Unexpectedly&body=Press and hold, then paste your copied Company Portal app logs here.">этим шаблоном электронной почты</a>.
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

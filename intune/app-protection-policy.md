@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a6645261e2a90ea3890dc22b42fe65d6af4af6e5
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ac997e9543df5d964b6a8fba83677baa49af38e8
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 
@@ -72,6 +72,7 @@ ms.lasthandoff: 01/25/2018
 ![Изображение, показывающее, что при отсутствии политик защиты приложений данные могут свободно перемещаться между приложениями.](./media/apps-without-protection-policies.png)
 
 При использовании приложений без ограничений данные компании и личные данные могут смешиваться.  Данные компании могут помещаться в такие расположения, как личное хранилище, или передаваться в приложения, находящиеся вне вашего поля зрения, что приводит к потере данных. Стрелки на схеме показывают неограниченное перемещение данных между приложениями (корпоративными и личными), а также в хранилищах.
+
 
 ### <a name="data-protection-with-app-protection-policies"></a>Защита данных с помощью политик защиты приложений
 
@@ -134,3 +135,6 @@ ms.lasthandoff: 01/25/2018
 ##  <a name="next-steps"></a>Дальнейшие шаги
 
 [How to create and assign app protection policies](app-protection-policies.md) (Как создавать и назначать политики защиты приложений с помощью Microsoft Intune)
+
+## <a name="see-also"></a>См. также:
+Сторонние приложения, например мобильное приложение Salesforce, работают с Intune для защиты корпоративных данных. Дополнительные сведения о том, как приложения Salesforce работает с Intune (включая описание параметров конфигурации приложений MDM) см. в статье [Salesforce App and Microsoft Intune](https://gallery.technet.microsoft.com/Salesforce-App-and-Intune-c47d44ee/file/188000/1/Salesforce%20App%20and%20Intune%20for%20external.pdf) (Приложение Salesforce и Microsoft Intune).

@@ -6,19 +6,18 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 11/01/2017
+ms.date: 1/30/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 08f659cf-715e-4e10-9ab2-1bac3c6f2366
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: fa9b09f97568b54a68f34a609c91426eb12b71e0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 1a7d047de1faa019eb137516ef75d64657e22e5a
+ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="manage-software-updates"></a>Управление обновлениями программного обеспечения
 
@@ -45,8 +44,9 @@ ms.lasthandoff: 01/25/2018
 - Центр обновления Windows поддерживает следующие версии Windows 10.
     - Windows 10
     - Windows 10 для совместной работы (для устройств Surface Hub)
+    - [Windows Holographic for Business](#windows-holographic-for-business-support)
 
- Устройства под управлением Windows 10 Mobile и Windows 10 Holographic не поддерживаются.
+ Устройства под управлением Windows 10 Mobile не поддерживаются.
 
 - На устройствах с Windows в разделе **Отзывы и диагностика** > **Данные о диагностике и использовании** должен быть установлен **Базовый** или более высокий уровень.
 
@@ -89,8 +89,7 @@ ms.lasthandoff: 01/25/2018
 
     Как правило, обновления компонентов представляют собой новые возможности Windows. После настройки параметра **Канал обслуживания** (Semi-Annual Channel (Targeted) или Semi-Annual Channel) можно указать, нужно ли откладывать получение обновлений компонентов после того, как они станут доступны в Центре обновления Windows корпорации Майкрософт, и на какой срок.
 
-    Пример.  
-    **Если для канала обслуживания задано значение "Semi-Annual Channel (Targeted)", а период отсрочки составляет 30 дней**: предположим, что обновление компонентов X стало общедоступным в Центре обновления Windows как "Semi-Annual Channel (Targeted)" в январе. Устройство не получит обновление до февраля — через 30 дней.
+    Пример. **Если для канала обслуживания задано значение "Semi-Annual Channel (Targeted)", а период отсрочки составляет 30 дней**: предположим, что обновление компонентов X стало общедоступным в Центре обновления Windows как "Semi-Annual Channel (Targeted)" в январе. Устройство не получит обновление до февраля — через 30 дней.
 
     **Если для канала обслуживания задано значение "Semi-Annual Channel", а период отсрочки составляет 30 дней**: предположим, что обновление компонентов X стало общедоступным в Центре обновления Windows как "Semi-Annual Channel (Targeted)" в январе. Через четыре месяца — в апреле — обновление компонентов X будет выпущено как "Semi-Annual Channel". Устройство получит обновление компонентов через 30 дней после выпуска как "Semi-Annual Channel" и будет обновлено в мае.
 
@@ -154,3 +153,11 @@ ms.lasthandoff: 01/25/2018
 > [!IMPORTANT]
 > После подачи команды приостановки устройства получат эту команду при следующей регистрации в службе. Не исключено, что перед регистрацией они могут установить запланированное обновление.
 > Кроме того, если в момент подачи команды приостановки целевое устройство выключено, то при включении оно может скачать и установить запланированное обновление до регистрации в Intune.
+
+## <a name="windows-holographic-for-business-support"></a>Поддержка Windows Holographic for Business
+
+Windows Holographic for Business поддерживает следующие параметры.
+
+- **Автоматическое обновление**
+- **Обновления продуктов Майкрософт**
+- **Канал обслуживания**

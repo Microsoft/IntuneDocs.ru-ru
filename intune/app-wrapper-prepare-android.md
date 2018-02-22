@@ -14,11 +14,11 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ac18336efe36a5bed952ab3d89c7ae80e1fbbfc5
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: dee688b2f6768f55a0a814679bde7b23a0b26a57
+ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/25/2018
     > [!NOTE]
     > В некоторых случаях 32-разрядная версия Java может привести к проблемам с памятью. Рекомендуется установить 64-разрядную версию.
 
-- В Android все пакеты приложений (.apk) должны быть подписаны. Сведения о **повторном использовании** существующих сертификатов и общее руководство о сертификатах для подписи см. в статье [Повторное использование сертификатов для подписи и упаковка приложений](https://docs.microsoft.com/en-us/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps). Исполняемый файл keytool.exe Java используется для **создания** учетных данных, необходимых для подписи упакованного выходного приложения. Все заданные пароли должны быть безопасными, но не забывайте их, так как они потребуются позже для запуска инструмента упаковки для приложений.
+- В Android все пакеты приложений (.apk) должны быть подписаны. Сведения о **повторном использовании** существующих сертификатов и общее руководство о сертификатах для подписи см. в статье [Повторное использование сертификатов для подписи и упаковка приложений](https://docs.microsoft.com/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps). Исполняемый файл keytool.exe Java используется для **создания** учетных данных, необходимых для подписи упакованного выходного приложения. Все заданные пароли должны быть безопасными, но не забывайте их, так как они потребуются позже для запуска инструмента упаковки для приложений.
 
 ## <a name="install-the-app-wrapping-tool"></a>Установка инструмента упаковки для приложений
 
@@ -119,7 +119,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 * Вышла новая версия инструмента упаковки для приложений Android Intune, в которой исправлены ключевые ошибки или добавлены новые функции политики защиты приложений Intune. Это происходит каждые 6–8 недель в репозитории GitHub [инструмента упаковки для приложений Android Microsoft Intune](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android).
 
 Далее приводятся некоторые рекомендации по повторной упаковке. 
-* Сведения о поддержке сертификатов для подписи, используемых в процессе сборки, см. в разделе [Повторное использование сертификатов для подписи и упаковка приложений](https://docs.microsoft.com/en-us/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps).
+* Сведения о поддержке сертификатов для подписи, используемых в процессе сборки, см. в разделе [Повторное использование сертификатов для подписи и упаковка приложений](https://docs.microsoft.com/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps).
 
 ## <a name="reusing-signing-certificates-and-wrapping-apps"></a>Повторное использование сертификатов для подписи и упаковка приложений
 Для установки любого приложения на устройства с ОС Android у него должен иметься допустимый сертификат в качестве подписи.
@@ -158,7 +158,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 ### <a name="working-with-the-intune-sdk"></a>Работа с пакетом SDK Intune
 Эти инструкции относятся ко всем приложениям для Android и Xamarin, которые нуждаются в обязательном применении политик защиты устройств Intune на устройстве конечного пользователя.
 
-1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/en-us/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
+1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
 > [!NOTE] 
 > Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
 * Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
@@ -174,4 +174,4 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 ### <a name="see-also"></a>См. также:
 - [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](apps-prepare-mobile-application-management.md)
 
-- [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](/intune/classic/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management)
+- [Руководство по пакету SDK для приложений Intune для разработчиков под Android](app-sdk-android.md)

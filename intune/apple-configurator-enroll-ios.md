@@ -6,7 +6,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/03/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,15 +15,28 @@ ms.assetid: 6d384cd0-b662-41e7-94f5-0c96790ab20a
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3e79ee1ddd2f8a8a9d7a3089e21b8807b9895d2c
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: c076bc52495d1b74a18e1d655376b6183dc5fe16
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Регистрация устройств iOS с помощью Apple Configurator
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+> [!NOTE]
+> ### <a name="temporary-user-interface-differences"></a>Временные отличия в пользовательском интерфейсе
+>
+>Пользовательские интерфейсы для функций, описанных на этой странице, находятся в процессе обновления. Эти обновления будут развернуты во всех учетных записях до конца апреля.
+>
+>Если страница **регистрации устройств** выглядит как на следующем рисунке, это значит, что пользовательский интерфейс еще не обновлен для вашей учетной записи и вы можете использовать эту страницу справки.
+>
+>![Старый пользовательский интерфейс](./media/appleenroll-oldui.png)
+>
+>Если страница **регистрации устройств** выглядит как на следующем рисунке, значит пользовательский интерфейс обновлен.  Перейдите на [эту страницу справки](apple-configurator-enroll-ios-newui.md).
+>
+>![Новый пользовательский интерфейс](./media/appleenroll-newui.png)
 
 Intune поддерживает регистрацию устройств iOS с помощью средства [Apple Configurator](https://itunes.apple.com/app/apple-configurator-2/id1037126344), запущенного на компьютере Mac. Для регистрации с помощью Apple требуется USB-подключение каждого устройства iOS компьютеру Mac для настройки корпоративной регистрации. Зарегистрировать устройства в Intune с помощью Apple Configurator можно двумя способами:
 - **Регистрация с использованием помощника по настройке**. Выполняет сброс устройства к заводским настройкам и подготавливает его для регистрации с использованием помощника по настройке.

@@ -15,11 +15,11 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b67314ec37198553adc226424bc226293350453b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7995b79422a142f3eb8d5e81d81dbc525fbbb696
+ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune"></a>Создание политики соответствия для устройств Android в Intune
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 01/25/2018
 - **Minimum OS required** (Минимальная требуемая ОС). Если устройство не соответствует требованию к минимальной версии ОС, оно будет отмечено как не соответствующее требованиям. Приводится ссылка на сведения о том, как выполнить обновление. Пользователь может обновить устройство, после чего он получит доступ к ресурсам организации.
 - **Maximum OS version allowed** (Максимально допустимая версия ОС). Если устройство использует версию ОС, более позднюю по сравнению с указанной в правиле, доступ к ресурсам компании блокируется и пользователя просят связаться с ИТ-администратором. До изменения правил для разрешения конкретной версии ОС это устройство невозможно будет использовать для доступа к ресурсам компании.
 
-## <a name="how-non-compliant-settings-work-with-conditional-access-policies"></a>Как несоответствующие параметры работают с политиками условного доступа?
+## <a name="how-noncompliant-settings-work-with-conditional-access-policies"></a>Как несоответствующие параметры работают с политиками условного доступа?
 
 В таблице ниже описано управление несоответствующими параметрами при использовании политики соответствия требованиям с политикой условного доступа.
 
