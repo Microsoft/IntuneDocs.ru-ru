@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 23dca24c69cca3c7a2851cb3fa7d9959f31df8e7
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e5f9eb33ca877fba0d59cfd9ddbc23f5eb2cd05c
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="protect-app-data-using-app-protection-policies-with-microsoft-intune"></a>Защита данных приложений с помощью политик защиты приложений в Microsoft Intune
 
@@ -57,9 +57,7 @@ ms.lasthandoff: 10/10/2017
 - **Политики защиты приложений обеспечивают защиту на уровне приложения**. Например, у вас может быть реализована политика, запрашивающая ПИН-код для открытия приложения в рабочем контексте, включающая или отключающая общий доступ к данным в приложениях, а также запрещающая сохранение данных приложений организации в личном хранилище.
 
 ## <a name="devices-that-support-mam"></a>Устройства, поддерживающие MAM
-Сейчас политики защиты приложений поддерживаются на следующих платформах.
--   iOS 8.1 или более поздняя версия
--   Android 4 или более поздняя версия
+Поддержка платформы политик защиты приложений Intune согласована с поддержкой платформы приложений Office. Подробные сведения см. на странице [Требования к системе для Office](https://products.office.com/en-US/office-system-requirements).
 
 >[!NOTE]
 >Устройства Windows не поддерживаются в MAM без сценария регистрации. Однако при регистрации устройств Windows 10 в Intune вы можете использовать компонент Windows Information Protection, который обеспечивает аналогичные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
@@ -129,7 +127,7 @@ ms.lasthandoff: 10/10/2017
 
 - Ознакомьтесь с дополнительными сведениями о приложениях, поддерживающих [MAM и множественную идентификацию](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) в Intune.
 
-##  <a name="next-steps"></a>Дальнейшие действия
+##  <a name="next-steps"></a>Дальнейшие шаги
 - [Подготовка к настройке политик защиты приложений](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
 - [Создание и развертывание политик защиты приложений с помощью Microsoft Intune](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)

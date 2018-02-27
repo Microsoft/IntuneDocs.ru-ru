@@ -6,18 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/25/2018
+ms.date: 02/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3fb7de9fb320b74895b702167750e149eba34e1e
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 465de83c5bd15cfab67a4307000c0aa9cbfb1730
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="use-windows-hello-for-business"></a>Использование Windows Hello для бизнеса
 
@@ -50,7 +50,7 @@ Intune интегрируется с Hello для бизнеса двумя сп
 
 1.  На портале Azure выберите пункты **Другие службы** > **Мониторинг и управление** > **Intune**.
 
-2.  В колонке Intune выберите **Endpoint Protection**, а затем щелкните пункты **Управление** > **Windows Hello для бизнеса**.
+2.  В колонке Intune выберите элемент **Регистрация устройств**, а затем выберите **Регистрация Windows** > **Windows Hello для бизнеса**.
 
 3.  В открывшейся колонке выберите параметры **по умолчанию**.
 
@@ -92,7 +92,7 @@ Intune интегрируется с Hello для бизнеса двумя сп
 
  - **Использовать вход с использованием телефона**. Если этому параметру присвоено значение **Да**, пользователи могут использовать удаленную службу Passport в качестве переносимого устройства-компаньона для проверки подлинности настольного компьютера. Настольный компьютер должен быть присоединен к Azure Active Directory, а устройство-компаньон должно быть настроено для использования ПИН-кода в Windows Hello для бизнеса.
 
-## <a name="windows-holographic-for-business-support"></a>Поддержка Windows Holographic for Business
+## <a name="windows-holographic-for-business-support"></a>Поддержка Windows Holographic for Business
 
 Windows Holographic for Business поддерживает следующие параметры Windows Hello for Business.
 

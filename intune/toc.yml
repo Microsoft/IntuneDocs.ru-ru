@@ -138,6 +138,8 @@
           href: groups-add.md
         - name: Назначение лицензий
           href: licenses-assign.md
+        - name: Лицензии Intune
+          href: licenses.md
         - name: Настройка центра MDM
           href: mdm-authority-set.md
     - name: регистрации устройств;
@@ -194,6 +196,8 @@
           href: device-locate.md
         - name: Включение режима пропажи в iOS
           href: device-lost-mode.md
+        - name: Включить защищенный режим iOS
+          href: device-supervised-mode.md
         - name: Блокировка устройства
           href: device-remote-lock.md
         - name: Сбросить секретный код
@@ -251,7 +255,7 @@
             - name: Веб-приложения
               href: web-app.md
             - name: Встроенные приложения
-              href: apps-add-bulit-in.md
+              href: apps-add-built-in.md
         - name: Развертывание приложений
           href: apps-deploy.md
           items:

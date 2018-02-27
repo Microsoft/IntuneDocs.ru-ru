@@ -15,11 +15,11 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 940c4bc17face7ecef2b6888e199ba47073659ba
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 67d8a6eb4f284cf1922f9f79a8b767c124b66b06
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/03/2018
 
 ## <a name="pre-requisites"></a>Предварительные условия
 
-Прежде чем создавать политику защиты приложений WIP, необходимо настроить поставщик MAM. Узнайте больше о [настройке поставщика MAM при помощи Intune](https://docs.microsoft.com/app-protection-policies-configure-windows-10.md).
+Прежде чем создавать политику защиты приложений WIP, необходимо настроить поставщик MAM. Узнайте больше о [настройке поставщика MAM при помощи Intune](app-protection-policies-configure-windows-10.md).
 
 Кроме того, вам понадобится следующее:
 
