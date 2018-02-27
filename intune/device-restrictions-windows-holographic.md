@@ -6,18 +6,18 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: angrobe
-ms.date: 1/19/2018
+ms.date: 2/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 300ddb15f2d7b8f2fc6ab4a0e9e32852e0604e0a
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 0ecf5e17bb66ac6515a3e67f4b0a1bc82ec9c3ba
+ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="windows-holographic-for-business-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с Windows Holographic for Business в Microsoft Intune
 
@@ -41,7 +41,6 @@ ms.lasthandoff: 02/01/2018
 
 ## <a name="app-store"></a>Магазин App Store
 
--   **App Store**. Разрешить или заблокировать использование магазина приложений на устройствах.
 -   **Автообновление приложений из Магазина.** Позволяет автоматически обновлять приложения, установленные из Магазина Майкрософт.
 -   **Установка доверенного приложения.** Позволяет загружать неопубликованные приложения, подписанные доверенным сертификатом.
 -   **Разблокировка для разработчиков.** Разрешает параметры разработчика Windows, например изменение пользователем неопубликованных приложений.

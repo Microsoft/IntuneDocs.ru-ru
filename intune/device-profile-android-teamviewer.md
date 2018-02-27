@@ -6,20 +6,19 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: dougeby
-ms.date: 12/14/2017
+ms.date: 2/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
-ms.reviewer: davidra
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 476480ce3957ef2d411b37a0a078707c721fd2e6
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 0219993e0322be06dbf9b26707789332039001f1
+ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="provide-remote-assistance-for-intune-managed-devices"></a>Удаленная поддержка пользователей устройств под управлением Intune
 
@@ -32,7 +31,7 @@ ms.lasthandoff: 01/25/2018
 Устройства Android и Windows, управляемые с помощью Intune, поддерживают удаленное администрирование.
 
 >[!NOTE]
->Windows Holographic (HoloLens), Windows для совместной работы (Surface Hub) и Windows 10 S не поддерживаются программным обеспечением TeamViewer. Вам по-прежнему нужно управлять устройствами с помощью [клиента компьютера](/intune-classic/deploy-use/pc-management-comparison?toc=/intune/toc.json) на классическом портале Intune.
+>Windows Holographic (HoloLens), Windows для совместной работы (Surface Hub) и Windows 10 S не поддерживаются программным обеспечением TeamViewer.
 
 
 

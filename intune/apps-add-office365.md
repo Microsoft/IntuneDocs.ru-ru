@@ -15,15 +15,15 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3174fc498b5d8cffaade7c52f417409de64c7eb6
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: f6ef1d1dab39a6939b80bd13ba090424a67c6f53
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/19/2018
 ---
-# <a name="how-to-assign-office-365-proplus-2016-apps-to-windows-10-devices-with-microsoft-intune"></a>Назначение приложений Office 365 профессиональный плюс 2016 устройствам на базе Windows 10 с помощью Microsoft Intune
+# <a name="how-to-assign-office-365-proplus-apps-to-windows-10-devices-with-microsoft-intune"></a>Назначение приложений Office 365 профессиональный плюс устройствам с ОС Windows 10 с помощью Microsoft Intune
 
-Этот тип приложения позволяет легко назначать приложения Office 365 профессиональный плюс 2016 управляемым вами устройствам с Windows 10. Вы также можете устанавливать приложения клиента Microsoft Project Online для настольных ПК и программу Microsoft Visio Pro для Office 365, если у вас есть на них лицензии. Нужные вам приложения будут отображаться как одна запись в списке приложений в консоли Intune.
+Этот тип приложения позволяет легко назначать приложения Office 365 профессиональный плюс управляемым вами устройствам с Windows 10. Вы также можете устанавливать приложения клиента Microsoft Project Online для настольных ПК и программу Microsoft Visio Pro для Office 365, если у вас есть на них лицензии. Нужные вам приложения будут отображаться как одна запись в списке приложений в консоли Intune.
 
 
 ## <a name="before-you-start"></a>Перед началом работы
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/01/2018
 >Этот метод установки Microsoft Office поддерживается, только если на устройстве не установлено других версий этого пакета.
 
 - На устройствах, где развертываются эти приложения, должна быть установлена Windows 10 Creators Update или более поздние версии.
-- Intune поддерживает добавление приложений Office только из набора Office 365 профессиональный плюс 2016.
+- Intune поддерживает добавление приложений Office только из набора Office 365 профессиональный плюс.
 - Если во время установки набора приложений Intune у пользователей открыты приложения Office, пользователи могут потерять данные из несохраненных файлов.
 - Этот метод установки не поддерживается на устройствах с Windows 10, Windows Home, Windows Team, Windows Holographic и Windows Holographic for Business.
 - Intune не поддерживает установку классических приложений Office 365 из Microsoft Store (известных как приложения Office Centennial) на устройствах, где приложения Office 365 уже развернуты с помощью Intune. Установка этой конфигурации может привести к потере или повреждению данных.

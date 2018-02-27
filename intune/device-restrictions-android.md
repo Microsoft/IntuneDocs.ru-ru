@@ -15,11 +15,11 @@ ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0c2ebbe451f83dc14a9294c78a21ecfd30e5d155
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 559550860d0882b20a005a5d0957be761978cbe6
+ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="android-and-samsung-knox-standard-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств Android и Samsung KNOX Standard в Microsoft Intune
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 01/30/2018
 
 Откройте страницу установки приложения и скопируйте URL-адрес в буфер обмена. После этого его можно использовать как URL-адрес в списке приложений, соответствующих или не соответствующих политике.
 
-Пример: выполните поиск в Google Play по запросу "Microsoft Office Mobile". Нужный URL-адрес будет следующим: **https://play.google.com/store/apps/details?id=com.microsoft.office.officehub**.
+Пример: найдите **Планировщик (Майкрософт)** в [разделе приложений в Google Play](https://play.google.com/store/apps). Используйте следующий URL-адрес **https://play.google.com/store/apps/details?id=com.microsoft.planner**.
 
 ### <a name="additional-options"></a>Дополнительные параметры
 

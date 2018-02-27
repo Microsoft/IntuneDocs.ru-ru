@@ -6,7 +6,7 @@ keywords:
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
-ms.date: 12/14/2017
+ms.date: 02/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0844852aaa1e5833e0d5013ac9dea8862d7d752b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 747e54a1c62618f267c3ed07ec3f8858cf97b184
+ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
 
@@ -66,6 +66,12 @@ ms.lasthandoff: 01/25/2018
 2. Настройте полезные данные **Microsoft Intune Integration**, в том числе триггер и периодичность выполнения.
 3. Перейдите на вкладку **Scope** (Область) и привяжите к политике все целевые устройства.
 4. Перейдите на вкладку **Self Service** (Самообслуживание), чтобы предоставить доступ к политике на портале самообслуживания Jamf. Включите политику в категорию **Соответствие устройства политике**. Нажмите кнопку **Сохранить**.
+
+## <a name="removing-a-jamf-managed-device-from-intune"></a>Удаление устройства под управлением Jamf из Intune
+
+Удалить устройство под управлением Jamf из Intune невозможно. Необходимо удалить устройство под управлением Jamf из Jamf Pro, после чего оно будет удалено из Intune. 
+
+Узнайте, как [удалить устройство под управлением Jamf, в документации по Jamf Pro](https://www.jamf.com/jamf-nation/articles/80/unmanaging-computers-while-preserving-their-inventory-information). Чтобы получить дополнительную помощь, можно также отправить запрос в [службу поддержки Jamf](https://www.jamf.com/support/). 
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

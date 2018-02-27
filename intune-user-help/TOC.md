@@ -104,7 +104,6 @@
 ## [Использование устройства с macOS](using-your-macos-device-with-intune.md)
 ### [Что происходит при регистрации устройства с macOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
 ### [Регистрация устройства macOS](enroll-your-device-in-intune-macos-cp.md)
-### [Регистрация устройства с macOS прежних версий](enroll-your-device-in-intune-macos-legacy.md)
 ### [Отмена регистрации устройства с macOS](unenroll-your-device-from-intune-macos.md)
 
 ### [Решение распространенных проблем с macOS](troubleshoot-your-device-macos.md)
@@ -140,6 +139,7 @@
 #### [Отправка журналов из приложения корпоративного портала](send-logs-to-your-it-admin-cp-windows.md)
 #### [Отправка журналов из приложения параметров](send-logs-to-your-it-admin-settings-windows.md)
 #### [Моя версия Windows пока не поддерживается](your-windows-version-isnt-yet-supported.md).
+#### [Установка Office 365 на устройстве с Windows 10](install-office-windows.md)
 #### [Включение шифрования Windows](you-need-to-enable-windows-encryption.md)
 #### [Моему устройству требуется защита от вредоносных программ](your-device-needs-antimalware-software.md).
 #### [Включение безопасной загрузки](you-need-to-enable-secure-boot-windows.md)
