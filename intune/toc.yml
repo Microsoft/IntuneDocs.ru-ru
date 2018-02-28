@@ -196,7 +196,7 @@
           href: device-locate.md
         - name: Включение режима пропажи в iOS
           href: device-lost-mode.md
-        - name: Включить защищенный режим iOS
+        - name: Включение защищенного режима iOS
           href: device-supervised-mode.md
         - name: Блокировка устройства
           href: device-remote-lock.md
@@ -470,6 +470,30 @@
           href: conditional-access-assign-jamf.md
     - name: Защита данных устройства
       items:
+        - name: Использование политик защиты приложений
+          href: app-protection-policy.md
+          items:
+            - name: Создание политик защиты приложений
+              href: app-protection-policies.md
+              items:
+                - name: Параметры Android
+                  href: app-protection-policy-settings-android.md
+                - name: Параметры iOS
+                  href: app-protection-policy-settings-ios.md
+                - name: Исключения политики передачи данных
+                  href: app-protection-policies-exception.md
+                - name: Просмотр журналов защиты приложений в Managed Browser
+                  href: app-protection-policy-settings-log.md
+            - name: Проверка политик защиты приложений
+              href: app-protection-policies-validate.md
+            - name: Мониторинг состояния пользователя защиты приложений
+              href: app-protection-policies-monitor.md
+            - name: Подготовка к использованию политик защиты приложений WIP
+              href: app-protection-policies-configure-windows-10.md
+            - name: Создание и назначение политик защиты приложений WIP
+              href: windows-information-protection-policy-create.md
+            - name: Управление передачей данных между приложениями iOS
+              href: data-transfer-between-apps-manage-ios.md
         - name: Mobile Threat Defense
           href: mobile-threat-defense.md
           items:
