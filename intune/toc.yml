@@ -606,6 +606,10 @@
           href: end-user-apps-ios.md
         - name: Как получить приложения Windows
           href: end-user-apps-windows.md
+        - name: 'Данные, отправляемые Intune в Apple'
+          href: data-intune-sends-to-apple.md
+        - name: 'Данные, отправляемые Intune в Google'
+          href: data-intune-sends-to-google.md
     - name: Мониторинг и устранение неполадок
       items:
         - name: Помощь пользователям в устранении проблем
