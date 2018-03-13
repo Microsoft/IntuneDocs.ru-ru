@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: 1a7d047de1faa019eb137516ef75d64657e22e5a
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: 63d8628c183b3efb924cae6635e2c8038fd42598
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="manage-software-updates"></a>Управление обновлениями программного обеспечения
 
@@ -130,14 +130,14 @@ ms.lasthandoff: 02/01/2018
 
 В консоли Intune для настройки коммерческого идентификатора можно использовать параметры OMA-URI настраиваемой политики. Дополнительные сведения см. в разделе [Параметры политики Intune для устройств с Windows 10 в Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune).   
 
-Путь OMA-URI (с учетом регистра) для настройки коммерческого идентификатора выглядит следующим образом: ./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID
+Путь OMA-URI (с учетом регистра) для настройки коммерческого идентификатора выглядит следующим образом: ./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID
 
 Например, в разделе **Добавление или изменение настройки OMA-URI** можно использовать следующие значения.
 
 - **Имя параметра**: коммерческий идентификатор Windows Analytics
 - **Описание параметра**: настройка коммерческого идентификатора для решений Windows Analytics
 - **Тип данных**: строковый
-- **OMA-URI** (с учетом регистра): ./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID
+- **OMA-URI** (с учетом регистра): ./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID
 - **Значение**: <*используйте GUID, показанный на вкладке "Телеметрия Windows" в рабочей области OMS*>
 
 ![Параметр Windows для данных о диагностике и использовании](./media/commID.png)

@@ -2,9 +2,9 @@
 title: "Принятие технических решений при реализации концепции BYOD с помощью Enterprise Mobility + Security"
 description: "Основные технические решения при реализации концепции BYOD и организации защиты корпоративных данных с помощью решения Microsoft Enterprise Mobility + Security."
 keywords: 
-author: arob98
-ms.author: angrobe
-manager: dougeby
+author: dougeby
+ms.author: pfetty
+manager: angrobe
 ms.date: 12/8/2017
 ms.topic: article
 ms.prod: 
@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 
 ms.suite: ems
-ms.openlocfilehash: 85fa202c3e80cdc830155299c16f121f96cc5742
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 3ee642f5c2e30023043cec4bf5286999d4397e2d
+ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="technology-decisions-for-enabling-byod-with-microsoft-enterprise-mobility--security-ems"></a>Технические решения при реализации концепции BYOD с помощью Microsoft Enterprise Mobility + Security (EMS)
 
