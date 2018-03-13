@@ -4,7 +4,8 @@ titlesuffix: Azure portal
 description: "Включение управления мобильными устройствами Intune (MDM) для устройств Windows."
 keywords: 
 author: ErikjeMS
-manager: erikje
+ms.author: erikje
+manager: dougeby
 ms.date: 12/29/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +15,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: de3f36a7d04e06d27f1ed942366502ca92d08c59
-ms.sourcegitcommit: e76dbd0882526a86b6933ace2504f442e04de387
+ms.openlocfilehash: fea5a61da77a3f96e006ee9ceb4ec3d8de645072
+ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-windows-devices"></a>Регистрация устройств Windows
 

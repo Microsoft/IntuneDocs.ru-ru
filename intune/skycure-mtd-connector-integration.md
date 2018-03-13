@@ -3,8 +3,8 @@ title: "Настройка интеграции Skycure и Intune"
 titlesuffix: Azure portal
 description: "Настройка интеграции Skycure и Microsoft Intune."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 12/21/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 359448d9-2384-42ac-a21c-a25148c20a7b
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: beaf027334ce4929e4ca824b2b7e199cea22a832
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 7a1cea01960512ca484caa643862d90cbb867963
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="set-up-the-skycure-integration-with-intune"></a>Настройка интеграции Skycure и Intune
 

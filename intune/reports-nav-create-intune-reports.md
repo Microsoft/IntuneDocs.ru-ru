@@ -1,11 +1,12 @@
 ---
-title: "Использование хранилища данных Intune | Документация Майкрософт"
+title: "Использование хранилища данных Intune"
+titlesuffix: Microsoft Intune
 description: "Используйте хранилище данных Intune для создания отчетов, предоставляющих ценные сведения о вашей корпоративной мобильной среде."
 keywords: "Хранилище данных Intune"
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/18/2017
+ms.date: 03/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +15,11 @@ ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 37ad088d722cfa2c543f43e4aa579a879dd4a4dd
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: dd90c9d51fe212b0675da4d6039a535be0ff3c89
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="use-the-intune-data-warehouse"></a>Использование хранилища данных Intune
 
