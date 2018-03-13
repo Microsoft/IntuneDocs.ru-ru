@@ -236,6 +236,9 @@
                   href: store-apps-windows-phone-8-1.md
                 - name: Приложения из Microsoft Store
                   href: store-apps-windows.md
+                  items:
+                    - name: Ручное добавление приложения "Корпоративный портал"
+                      href: store-apps-company-portal-app.md
                 - name: Приложения Android for Work
                   href: apps-add-android-for-work.md
                 - name: Приложения Office 365 для Windows 10
@@ -441,6 +444,8 @@
           href: compliance-policy-create-mac-os.md
         - name: Создание политики Windows
           href: compliance-policy-create-windows.md
+        - name: Оценка политики
+          href: policy-evaluate.md
         - name: Действия при несоответствии
           href: actions-for-noncompliance.md
         - name: Мониторинг устройств на соответствие требованиям
