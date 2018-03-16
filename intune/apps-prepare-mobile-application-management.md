@@ -1,10 +1,11 @@
 ---
-title: "Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune"
-description: "Сведения этого раздела помогут решить, когда следует применить инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями."
+title: "Подготовка бизнес-приложений для политик защиты приложений"
+titlesuffix: Microsoft Intune
+description: "Используйте инструмент упаковки приложений и пакет SDK для приложений с вашими бизнес-приложениями, чтобы использовать политики защиты приложений в Microsoft Intune."
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
-manager: angrobe
+manager: dougeby
 ms.date: 01/24/2018
 ms.topic: article
 ms.prod: 
@@ -14,11 +15,11 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6b2ab30f9bf061e7ea4a34372e7c99e059c6e30f
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 76330c926ecac9ae8b071837465d800f48f925fb
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -102,6 +103,7 @@ ms.lasthandoff: 01/25/2018
 |Целевая конфигурация приложения |X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||
 |Настраиваемый стиль |X|||
+
 ## <a name="next-steps"></a>Дальнейшие шаги
 
 Дополнительные сведения о политиках защиты приложений и Intune см. в следующих разделах.

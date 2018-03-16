@@ -1,7 +1,7 @@
 ---
-title: "Выбор способа регистрации устройств с ОС Windows в Intune"
-titlesuffix: Azure portal
-description: "Узнайте, как настроить регистрацию устройств с ОС Windows в Microsoft Intune."
+title: "Выбор способа регистрации устройств iOS в Intune"
+titlesuffix: Microsoft Intune
+description: "Настройка регистрации устройств iOS в Microsoft Intune."
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -15,11 +15,11 @@ ms.assetid: 439c33a6-e80c-4da9-ba09-a51fc36f62ad
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f36e579282f7aeaec74c3e80d866e52dfa508d3d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 602c4c1da553215ad222a7e593531fdd879c996c
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Регистрация устройств с iOS в Intune
 
@@ -34,7 +34,7 @@ Intune позволяет осуществлять управление моби
 
 ## <a name="user-owned-ios-devices-byod"></a>Пользовательские устройства iOS (BYOD)
 
-Можно разрешить пользователям регистрировать личные устройства в системе управления Intune. Такая политика называется "принеси свое устройство" или BYOD. После выполнения необходимых условий и назначения пользовательских лицензий пользователи могут скачать приложение корпоративного портала iOS из App Store и выполнить инструкции по регистрации в приложении.
+Можно разрешить пользователям регистрировать личные устройства в системе управления Intune. Такая политика называется "принеси свое устройство" или BYOD. После выполнения необходимых условий и назначения пользовательских лицензий пользователи могут загрузить приложение корпоративного портала Intune из App Store и выполнить инструкции по регистрации в приложении.
 
 ## <a name="company-owned-ios-devices"></a>Корпоративные устройства iOS
 Для организаций, приобретающих устройства для своих пользователей, Intune поддерживает следующие методы регистрации корпоративных устройств iOS:

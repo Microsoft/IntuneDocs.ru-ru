@@ -1,12 +1,12 @@
 ---
 title: "Отслеживание сведений о приложении и его назначений"
-titlesuffix: Azure portal
+titlesuffix: Microsoft Intune
 description: "Назначив приложение определенным пользователям или устройствам, используйте эту информацию для отслеживания состояния приложения."
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/21/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 85ecc9729d7c03cb760c14bda0ca4d6321af548e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6bd915093ae45ff0fc3d51a2d7279493bc783d43
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="how-to-monitor-app-information-and-assignments-with-microsoft-intune"></a>Как отслеживать сведения о приложении и его назначения с помощью Microsoft Intune
 
@@ -27,9 +27,9 @@ ms.lasthandoff: 01/25/2018
 
 Служба Intune предоставляет ряд способов для отслеживания свойств приложений, которыми вы управляете, а также их состояний назначения.
 
-1. Войдите на портал Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** + **Intune**.
-3. В рабочей нагрузке **Мобильные приложения** в группе **Управление** выберите **Приложения**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+3. Выберите **Мобильные приложения**, а затем **Приложения** в группе **Управление**.
 5. В колонке со списком приложений выберите нужное приложение. Затем вы увидите колонку <*имя приложения*> **Состояние установки устройства**.
 
 ## <a name="app-overview-blade"></a>Колонка обзора приложений

@@ -1,9 +1,9 @@
 ---
-title: "Настройка Intune"
+title: "Настройка Microsoft Intune"
 description: "Требования и предварительные условия, которые следует выполнить перед использованием подписки Intune."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 01/24/2018
 ms.topic: get-started-article
@@ -14,17 +14,17 @@ ms.assetid: d158503c-1276-422b-ab81-5f66c1cd7e7a
 ms.reviewer: angrobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a1203cf22fad93f245508284d93024df40e11b9a
-ms.sourcegitcommit: 4509039cbfd4d450324a3475fb5841906720baa1
+ms.openlocfilehash: d2abd140dc83cffa11777ab75f7fb40e76fc1b83
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="set-up-intune"></a>Настройка Intune
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-Эти шаги по настройке позволяют включить управление мобильными устройствами (MDM). Прежде чем предоставить пользователям доступ к корпоративным ресурсам или управлять параметрами этих устройств, необходимо включить управление устройствами.
+Эти шаги по настройке позволяют включить управление мобильными устройствами (MDM) с помощью Intune. Прежде чем предоставить пользователям доступ к корпоративным ресурсам или управлять параметрами этих устройств, необходимо включить управление устройствами.
 
 Некоторые действия, такие как настройка подписки Intune и установка центра управления мобильными устройствами, являются обязательными в большинстве сценариев. Другие действия, такие как настройка личного домена или добавление приложений, являются необязательными в зависимости от потребностей вашей организации.
 

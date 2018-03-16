@@ -2,10 +2,10 @@
 title: "Журнал изменений хранилища данных Intune | Документация Майкрософт"
 description: "Список изменений в API-интерфейсе хранилища данных Intune."
 keywords: "Хранилище данных Intune"
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/12/2017
+ms.date: 02/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +14,40 @@ ms.assetid: E85DBB2D-67BB-4E10-82D6-E43046B9C43C
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 306cceb704c1153b5691181d576561d9c93a36d3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 67eedf528763ae302e3850710b3fab026e15f813
+ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
 Следите за обновлениями хранилища данных Intune.
+
+## <a name="1801"></a>1801
+_Выпущен в январе 2018 г._
+
+### <a name="intune-data-warehouse-application-only-authentication----1867540---"></a>Аутентификация в хранилище данных Intune, предназначенная только для приложений <!-- 1867540 -->
+
+Вы можете настроить приложение с помощью Azure Active Directory (Azure AD) и выполнить аутентификацию в хранилище данных Intune. Дополнительные сведения см. в статье [Аутентификация в хранилище данных, предназначенная только для приложений](data-warehouse-app-only-auth.md).
+
+### <a name="azure-ad-and-intune-credential-requirements----2077525---"></a>Требования к учетным данным Azure AD и Intune <!-- 2077525 -->
+
+- Для доступа пользователей к хранилищу данных Intune (включая API) больше не нужно предоставлять им лицензию Intune.
+- Имя роли Intune было изменено с **Отчеты** на **Хранилище данных Intune**. 
+
+    Дополнительные сведения см. в статье [Требования к ученым данным Azure AD и Intune](reports-api-url.md#azure-ad-and-intune-credential-requirements).
+
+### <a name="odata-query-options----2077711---"></a>Параметры запроса OData <!-- 2077711 -->
+
+Можно использовать <code>$select</code> как параметр запроса OData. Текущая версия поддерживает следующие параметры запроса OData: <code>$filter</code>, <code>$orderby</code>, <code>$select</code>, <code>$skip</code> и <code>$top</code>. Дополнительные сведения см. в статье [Параметры запроса OData](reports-api-url.md#odata-query-options).
+
+### <a name="new-entities-in-the-in-data-warehouse-data-model----2077804---"></a>Новые сущности в модели данных для хранилища данных <!-- 2077804 -->
+
+ - Была добавлена сущность [**MobileAppDeviceuserInstallStatus**](reports-ref-application.md#mobileappdeviceuserinstallstatus). Сущность **MobileAppDeviceUserInstallStatus** представляет состояние установки мобильного приложения для заданного устройства или пользователя.
+ - Была добавлена сущность [**MobileAppInstallState**](reports-ref-application.md#mobileappinstallstate). Сущность **MobileAppInstallState** представляет состояние установки для мобильного приложения после его назначения группе, в состав которой входят устройства, пользователи или обе категории. 
 
 ## <a name="1710"></a>1710
 _Выпущено: ноябрь 2017 г._

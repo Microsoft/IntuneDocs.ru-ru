@@ -1,29 +1,28 @@
 ---
-title: "Политики соответствия устройств Intune"
-titleSuffix: Azure portal
-description: "Из этой статьи вы узнаете о соответствии устройств в Microsoft Intune\""
+title: "Политики соответствия устройств Microsoft Intune"
+titleSuffix: 
+description: "Сведения о соответствии устройств в Microsoft Intune"
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 2/6/2018
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 98a9a93efb93697b454cb9bc06d1ac268ebaf9d8
-ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
+ms.openlocfilehash: fb3ec168844708d80c83909ab6c58a52ca62e53c
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="get-started-with-intune-device-compliance-policies"></a>Начало работы с политиками соответствия устройств Intune
+# <a name="get-started-with-microsoft-intune-device-compliance-policies"></a>Начало работы с политиками соответствия устройств Microsoft Intune
+
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
-## <a name="what-is-device-compliance-in-intune"></a>Что такое соответствие устройств в Intune?
 
 Политики соответствия устройств Intune определяют правила и параметры, которым должно соответствовать устройство, чтобы программа Intune расценивала его как соответствующее.
 
@@ -43,7 +42,7 @@ ms.lasthandoff: 02/15/2018
 
 Вы также можете использовать политики соответствия для отслеживания состояния соответствия на устройствах.
 
-### <a name="device-compliance-requirements"></a>Требования соответствия устройств
+## <a name="device-compliance-requirements"></a>Требования соответствия устройств
 
 Требования соответствия — это такие правила, как требование шифрования или установки ПИН-кода устройства. Это правило можно указать, как обязательное или необязательное для политики соответствия.
 
@@ -74,7 +73,7 @@ Remember that you need to implement conditional access policies in addition to c
 
 Чтобы использовать политики соответствия устройств в Intune, необходимы следующие подписки.
 
-- Intune EMS
+- Intune
 
 - Azure AD Premium
 

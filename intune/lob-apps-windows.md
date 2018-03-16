@@ -1,12 +1,12 @@
 ---
-title: "Добавление бизнес-приложений Windows в Intune"
-titlesuffix: Azure portal
-description: "Сведения о добавлении в Intune бизнес-приложений Windows.\""
+title: "Как добавить бизнес-приложения Windows в Microsoft Intune"
+titlesuffix: 
+description: "Узнайте, как добавить бизнес-приложения Windows в Microsoft Intune."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/3/2017
+ms.date: 02/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,16 +15,17 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 72e0a9011ba6dda324ace96fb2dbefb42c608641
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: b687b71f9d264364ff758fdd46b0739465c16865
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-add-windows-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавить бизнес-приложения Windows в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+Бизнес-приложение — это приложение, добавляемое из файла установки. Приложения такого типа, как правило, создаются организацией самостоятельно. Ниже приведены инструкции по добавлению бизнес-приложений Windows в Microsoft Intune.
 
 ## <a name="step-1---specify-the-software-setup-file"></a>Шаг 1. Выбор файла установки программного обеспечения
 
@@ -68,6 +69,10 @@ ms.lasthandoff: 01/30/2018
 ## <a name="step-5---update-a-line-of-business-app"></a>Шаг 5. Обновление бизнес-приложения
 
 [!INCLUDE[shared-proc-lob-updateapp](./includes/shared-proc-lob-updateapp.md)]
+
+## <a name="configuring-a-self-updating-mobile-msi-app-to-ignore-the-version-check-process"></a>Настройка пропуска проверки версии самообновляющегося мобильного приложения MSI
+
+Вы можете настроить пропуск проверки версии для известного самообновляющегося мобильного приложения MSI. Некоторые приложения на основе установщика MSI автоматически обновляются разработчиком приложения. Для этих автоматически обновляемых приложений MSI можно настроить параметр **Игнорировать версию приложения** в колонке **Сведения о приложении**. Если для этого параметра установлено значение **Да**, Microsoft Intune не будет проверять версию приложения, установленную на клиенте Windows. Эта возможность позволяет избежать состояния гонки. Например, состояние гонки может возникнуть, если приложение обновляется автоматически его разработчиком, а также службой Intune. В результате может возникнуть конфликт из-за одновременных попыток обновить версию приложения в клиенте Windows.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

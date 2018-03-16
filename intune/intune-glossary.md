@@ -1,10 +1,10 @@
 ---
-title: "Глоссарий Intune"
-titleSuffix: Azure portal
-description: "Сведения о терминологии, используемой в Microsoft Intune"
+title: "Глоссарий Microsoft Intune"
+titleSuffix: Microsoft Intune
+description: "Терминология в Microsoft Intune."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 07/28/2017
 ms.topic: article
@@ -13,13 +13,14 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bd7b5613-ee9f-4dc3-990c-ab4c1d40720d
 ms.custom: intune-azure
-ms.openlocfilehash: 6c066dde1c302c647514659b45e17cc5ac186a13
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: d1b92613b127ccb21146f9d5f973eb1a25213792
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="microsoft-intune-glossary"></a>Глоссарий Microsoft Intune
+Определения общих терминов, используемых в Microsoft Intune.
 
 ## <a name="a"></a>A
 

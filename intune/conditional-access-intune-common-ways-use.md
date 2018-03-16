@@ -3,10 +3,10 @@ title: "Условный доступ с Intune"
 titlesuffix: Azure portal
 description: "Стандартные способы использования условного доступа с помощью Intune"
 keywords: 
-author: andredm7
-ms.author: andredm
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 11/14/2017
+ms.date: 02/22/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +14,19 @@ ms.technology:
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8987f8e6eb7a770a90d187c0787589acfbacdb09
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: d5ec945cdbc4efa791edc51e659a1546876446c5
+ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="common-ways-to-use-conditional-access-with-intune"></a>Стандартные способы использования условного доступа с помощью Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Вам необходимо настроить политику соответствия требованиям мобильных устройств Intune и возможности управления мобильными приложениями (MAM), чтобы оптимизировать соответствие требованиям к условному доступу в вашей организации. Рассмотрим стандартные способы использования условного доступа с помощью Intune.
+Существует два основных типа условного доступа с Intune. Первый тип — условный доступ на основе устройств. Второй тип — условный доступ на основе приложений. Необходимо настроить связанные политики соответствия, чтобы обеспечить соответствие условного доступа требованиям в вашей организации.
+
+Ознакомьтесь со следующей информацией, чтобы понять, как использовать возможности соответствия мобильных *устройств* и возможности управления мобильными *приложениями* (MAM) в Intune. 
 
 ## <a name="device-based-conditional-access"></a>Условный доступ на основе информации об устройстве
 
@@ -32,7 +34,7 @@ ms.lasthandoff: 01/30/2018
 
 В Intune реализованы возможности политик соответствия устройств, которые обеспечивают оценку устройств на соответствие требованиям. Сведения о состоянии соответствия передаются в Azure Active Directory и используются для применения политики условного доступа, которая создается в Azure Active Directory, когда пользователь пытается получить доступ к корпоративным ресурсам.
 
-В [новой версии портала Azure](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune) политики условного доступа на базе устройств для Exchange Online и других продуктов Office 365 настраиваются с использованием портала Azure.
+Политики условного доступа на основе устройств для Exchange Online и других продуктов Office 365 настраиваются на [портале Azure](https://docs.microsoft.com/intune-azure/introduction/what-is-microsoft-intune).
 
 -   Дополнительные сведения см. об [условном доступе в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal).
 

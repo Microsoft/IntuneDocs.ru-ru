@@ -1,31 +1,30 @@
 ---
-title: "Параметры ограничений Intune для применения к устройствам Android"
-titlesuffix: Azure portal
-description: "Узнайте о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Android.\""
+title: "Параметры ограничений устройств в Microsoft Intune для Android"
+titlesuffix: 
+description: "Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Android."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/11/2017
+ms.date: 3/1/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 6bdf714a-5d93-485c-8b52-513635c60cb6
-ms.reviewer: heenamac
+ms.reviewer: ayesham
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 559550860d0882b20a005a5d0957be761978cbe6
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: d939d86f6ccd7f9851cfc52f1080fddaeee6a947
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="android-and-samsung-knox-standard-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств Android и Samsung KNOX Standard в Microsoft Intune
+# <a name="microsoft-intune-android-and-samsung-knox-standard-device-restriction-settings"></a>Параметры ограничений для устройств Android и Samsung KNOX Standard в Microsoft Intune 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Используйте эти параметры с политикой ограниченного использования устройств Android для настройки устройств в организации.
+В этой статье описаны все параметры ограничения устройств в Microsoft Intune, которые можно настроить для устройств под управлением Android.
 
 >[!TIP]
 >Если нужные параметры недоступны, можно настроить устройства с помощью [пользовательского профиля](custom-settings-android.md).

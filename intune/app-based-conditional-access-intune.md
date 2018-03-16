@@ -1,9 +1,9 @@
 ---
 title: "Условный доступ на основе приложений с помощью Intune"
-description: "Общее описание принципов предоставления условного доступа на основе приложений в Intune."
+description: "Узнайте, как работает условный доступ на основе приложений с помощью Intune."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: Erikre
+ms.author: erikre
 manager: dougeby
 ms.date: 05/31/2017
 ms.topic: article
@@ -14,11 +14,11 @@ ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 43421ac02fc3791e2827d980adcb708619cde9b8
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 604eb86e6ae712bac360ecf45dd8f20e611bc52a
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Условный доступ на основе приложений с помощью Intune
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 01/25/2018
 > [!NOTE]
 > Приведенная ниже блок-схема может использоваться для других управляемых приложений.
 
-![блок-схема условного доступа на основе приложений с помощью Intune](./media/ca-intune-common-ways-3.png)
+![Процесс условного доступа на основе приложений проиллюстрирован на схеме](./media/ca-intune-common-ways-3.png)
 
 1.  Пользователь пытается пройти проверку подлинности в Azure AD из приложения Outlook.
 

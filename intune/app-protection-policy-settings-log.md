@@ -1,7 +1,7 @@
 ---
-title: "Журналы политики защиты приложений"
-titlesuffix: Azure portal
-description: "В этом разделе описываются записи параметров политики защиты приложений, хранящихся в журналах приложения."
+title: "Просмотр журналов политики защиты приложений"
+titlesuffix: Microsoft Intune
+description: "Дополнительные сведения о параметрах, которые можно просмотреть в журналах защиты приложений."
 keywords: 
 author: erikre
 ms.author: erikre
@@ -15,15 +15,15 @@ ms.assetid: 4CD5EE94-7BA6-4F59-8E28-1EBCA7CA6436
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 76b7771f974fb1c9a5de8afe52ef79eaa0ed0c2a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: f91328561f0dd4dc669844c0398a89f1abf15bf8
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="review-client-app-protection-logs"></a>Просмотр журналов защиты клиентских приложений
 
-Доступ к журналам можно получить, включив режим диагностики Intune для приложения в мобильном клиенте. В следующей таблице показаны имена и описание параметров, записанных в журнале.
+Дополнительные сведения о параметрах, которые можно просмотреть в журналах защиты приложений. Доступ к журналам можно получить, включив режим диагностики Intune для приложения в мобильном клиенте. В следующей таблице показаны имена и описание параметров, записанных в журнале.
 
 ## <a name="app-protection-policy-settings"></a>Параметры политик для защиты приложений
 

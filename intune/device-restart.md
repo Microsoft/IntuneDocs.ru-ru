@@ -6,7 +6,7 @@ keywords:
 author: arob98
 ms.author: angrobe
 manager: dougeby
-ms.date: 11/21/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: c707e0c4-391a-4bad-9dfd-9a7799c48dd5
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9afe804d2f9e48e27ced4bd92959cd065f6ec89a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8ab2bf622211c1a81ca9732aabebea43b5b0dcc4
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="remotely-restart-devices-with-intune"></a>Удаленный перезапуск устройств с помощью Intune
 
@@ -40,12 +40,12 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="how-to-restart-a-device"></a>Перезапуск устройства
 
-1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. В колонке **Intune** выберите **Устройства**.
-4. В колонке **Устройства и группы** выберите **Все устройства**.
-5. Выберите нужное устройство в списке управляемых устройств, а затем действие **Перезапуск**.
+4. В колонке **Устройства** выберите **Все устройства**.
+5. Выберите нужное устройство в списке управляемых устройств, а затем нажмите **...Еще** и выберите удаленное действие **Перезагрузить**.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Чтобы просмотреть состояние выполненного действия, в колонке **Устройства и группы** выберите **Действия устройства**.
+Чтобы просмотреть состояние выполненного действия, в колонке **Устройства** выберите **Действия устройства**.

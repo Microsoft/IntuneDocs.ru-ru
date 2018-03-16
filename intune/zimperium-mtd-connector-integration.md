@@ -3,8 +3,8 @@ title: "Интеграция Zimperium с Intune"
 titleSuffix: Intune on Azure
 description: "Интеграция Intune с Zimperium"
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 12/29/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 363fd280-1865-4a61-855b-eb75c3c62753
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4759bab0c302f758f3f0a4af5ca333a5f560f3b3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 062a2f0d573bd711dff75c7ab0eb3bef8ac23161
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="integrate-zimperium-with-intune"></a>Интеграция Zimperium с Intune
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/25/2018
 > [!NOTE]
 > Следующие шаги выполняются в [консоли Zimperium MTD](https://staging2-console.zimperium.com).
 
-Перед началом интеграции Zimperium с Intune убедитесь в наличии следующего:
+Перед началом интеграции Zimperium с Intune убедитесь в наличии следующей подписки и учетных данных:
 
 -   Подписка на Microsoft Intune
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 01/25/2018
 
 -   Вы разрешаете службе Zimperium передавать в Intune сведения о состоянии работоспособности устройства.
 
--   Zimperium синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
+-   Zimperium синхронизируется с членством в группе регистрации Azure Active Directory (AD) и заполняет базу данных устройства.
 
 -   Вы разрешаете консоли администрирования Zimperium использовать единый вход (SSO) Azure AD.
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/25/2018
 
 6.  Нажмите кнопку **Принять**, чтобы разрешить приложению Zimperium взаимодействовать с Intune и Azure Active Directory.
 
-7.  После добавления приложений **Zimperium zConsole** и **iOS и Android zIPS** в Azure AD добавьте группы безопасности Azure AD, чтобы служба Zimperium могла синхронизировать группы безопасности Azure AD с собственными компонентами.
+7.  После добавления приложений **Zimperium zConsole** и **iOS и Android zIPS** в Azure AD добавьте группы безопасности Azure AD. Это позволит Zimperium синхронизировать группу безопасности Azure AD со своей службой.
 
 8.  Нажмите кнопку **Готово**, чтобы сохранить конфигурацию и запустить первую синхронизацию групп безопасности Azure AD.
 

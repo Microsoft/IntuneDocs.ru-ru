@@ -1,10 +1,10 @@
 ---
 title: "Получение поддержки для Microsoft Intune"
-titlesuffix: Azure portal
-description: "Для оплаченных и пробных подписок доступна поддержка в Интернете и по телефону.\""
+titlesuffix: Microsoft Intune
+description: "Получите поддержку по платной или пробной версии Microsoft Intune онлайн или по телефону."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 06/28/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 00a7bf5b3f5df58e29c3eb92a516b1ace3eea705
-ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
+ms.openlocfilehash: 5cb06625351e67bea8b467f6ab6873d258ee8175
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
@@ -41,16 +41,20 @@ ms.lasthandoff: 02/14/2018
 2. На странице справки и поддержки Azure выберите **Новый запрос в службу поддержки**.
 
     ![Снимок экрана со страницей справки и поддержки по порталу Azure с выделенной ссылкой "Новый запрос в службу поддержки"](./media/azure-support-ticket-link.png)
+
 3. В колонке **Основные** выберите для большинства вопросов по технической поддержке Intune следующие параметры.
     - **Тип вопроса**: **Технический**
     - **Служба**: **Microsoft Intune**
-    - **План поддержки**: **Техническая поддержка — включена** (Поддержка по техническим вопросам Intune предоставляется бесплатно.)
-
+    - **План поддержки**: **Техническая поддержка — включена** (поддержка по техническим вопросам Intune предоставляется бесплатно) или **Premier**
+    
     >[!IMPORTANT]
-    >Поддержка Intune и для Intune с Configuration Manager предоставляется бесплатно. Чтобы просмотреть подробности предложения по поддержке Premier, см. раздел 5.3.3 "Advisory Services" (Рекомендуемые службы) документа [Description of Services](https://www.microsoft.com/microsoftservices/services-list.aspx) (Описание служб).
+    >- Если у вас **план Premier**, но вы не видите пункт **План поддержки: Premier**, обратитесь к своему менеджеру по технической поддержке, указав свой контракт и клиента.
+    >- Поддержка Intune и для Intune с Configuration Manager предоставляется бесплатно. Подробности предложения по поддержке Premier см. в разделе 5.3.3 "Консультационные услуги" в документе [Описание услуг](https://enterprise.microsoft.com/en-us/services/services-list/).
 
     Для продолжения нажмите кнопку **Далее**.
+
 4. Выберите следующие параметры в колонке **Проблема**, чтобы запрос был направлен подходящему профильному специалисту.
+
     - **Серьезность**
     - **Тип проблемы**
     - **Категория**
@@ -59,13 +63,15 @@ ms.lasthandoff: 02/14/2018
 
     ![Снимок экрана со страницей справки и поддержки по порталу Azure с заполненными элементами области "Проблема" и предложенными решениями](./media/support-need-solutions.png)
 
-    Чтобы помочь нам с анализом и разрешением вашей проблемы, введите следующие сведения.
-    -   **Сведения**
+    Чтобы помочь группе поддержки с анализом и разрешением вашей проблемы, укажите следующие сведения.
+    
+    - **Сведения**
     - **Дата**
     - **Время**
-    - Дополнительные данные
+    - **Дополнительные данные**
 
     Нажмите кнопку **Далее**.
+
 5. Укажите **Контактные данные** для этого запроса в службу поддержки. Корпорация Майкрософт использует эти сведения для связи с вами.
 6. Выберите **Создать**, чтобы отправить запрос в службу поддержки.
 
@@ -74,6 +80,5 @@ ms.lasthandoff: 02/14/2018
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Контактные телефоны службы поддержки Microsoft Intune](phone-support-contact.md)
-- [Веб-сайт Volume Licensing Service Center](http://go.microsoft.com/fwlink/p/?LinkID=282016)
 - [Поддержка по вопросам выставления счетов и управления подписками](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 - [Корпоративное лицензирование](http://go.microsoft.com/fwlink/p/?LinkID=282015)

@@ -1,7 +1,7 @@
 ---
 title: "Настройка VPN на уровне приложения на устройствах iOS с Microsoft Intune"
-titleSuffix: Intune on Azure
-description: "Сведения о том, какие управляемые приложения могут использовать VPN на устройствах iOS, управляемых Intune."
+titleSuffix: 
+description: "Укажите, каким управляемым приложениям разрешено использовать виртуальную частную сеть (VPN) на устройствах iOS, управляемых Intune."
 keywords: 
 author: Erikre
 ms.author: erikre
@@ -15,15 +15,15 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6f7e53f9a440d945d834c17b9db85ed5f6e42229
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4e01ca43cc42ee7228e42cd3b0176475905ef566
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
-# <a name="set-up-per-app-vpn-in-microsoft-intune-for-ios-devices"></a>Настройка VPN на уровне приложения на устройствах iOS с Microsoft Intune
+# <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
-Можно указать, каким управляемым приложениям разрешено использовать виртуальную частную сеть (VPN) на устройствах iOS, управляемых Intune. После того, как вы укажете VPN на уровне приложения в Intune, конечный пользователь сможет автоматически подключаться через VPN для доступа к корпоративным документам.
+Укажите, каким управляемым приложениям разрешено использовать виртуальную частную сеть (VPN) на устройствах iOS, управляемых Intune. После настройки VPN на уровне приложений в Intune конечный пользователь сможет автоматически подключаться через VPN для доступа к корпоративным документам.
 
 ## <a name="prerequisites-for-the-per-app-vpn"></a>Необходимые условия для VPN на уровне приложения
 
