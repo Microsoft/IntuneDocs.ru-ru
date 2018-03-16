@@ -1,11 +1,12 @@
 ---
-title: "Подключение к хранилищу данных с помощью Power BI | Документация Майкрософт"
-description: "Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Intune."
+title: "Подключение к хранилищу данных с помощью Power BI"
+titlesuffix: Microsoft Intune
+description: "Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Microsoft Intune."
 keywords: "Хранилище данных Intune"
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/13/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +15,11 @@ ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fa7c578cd8dba84910bae9b9f204c8057c76bf6b
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: 1266fa4cc5ef958e369e58b0a6619e2bab3dd3eb
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Подключение к хранилищу данных с помощью Power BI
 

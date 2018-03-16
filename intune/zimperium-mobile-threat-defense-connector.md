@@ -3,8 +3,8 @@ title: "Соединитель MTD Zimperium в Intune"
 titleSuffix: Intune on Azure
 description: "Интеграция соединителя Zimperium с Intune"
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 12/29/2017
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 975d8d84-792a-41ad-925a-4a7f1ae4dcaf
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f26cf20b4e1168fbced1df88886343f41824158
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: ec93d2821150a67faa3c8b3c34e040e62ee43a3e
+ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 01/30/2018
 
 ## <a name="how-do-intune-and-zimperium-help-protect-your-company-resources"></a>Как Intune и Zimperium помогают защитить ресурсы вашей организации?
 
-Мобильное приложение Zimperium для Android или iOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии) и отправляет их в облачную службу Zimperium для вычисления риска в отношении угроз для мобильного устройства.
+Мобильное приложение Zimperium для Android или iOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии), и отправляет их в облачную службу Zimperium для оценки риска в отношении угроз для мобильного устройства.
 
 Политика соответствия устройств Intune включает правило для защиты мобильных устройств от угроз Zimperium, основанное на оценке рисков Zimperium. При включении этого правила Intune оценивает соответствие устройства заданной политике. Если устройство определяется как несоответствующее, его доступ к таким ресурсам, как Exchange Online и SharePoint Online, блокируется. Пользователи заблокированных устройств получают от мобильного приложения Zimperium рекомендации по устранению проблемы и восстановлению доступа к корпоративным ресурсам.
 

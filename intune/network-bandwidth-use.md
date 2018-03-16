@@ -1,9 +1,10 @@
 ---
-title: "Требования к конфигурации сети Intune и ее пропускная способность"
-description: 
+title: "Требования к сети и сведения о пропускной способности для Microsoft Intune"
+titlesuffix: 
+description: "Требования к конфигурации сети и сведения о ее пропускной способности для Intune."
 keywords: 
-author: nathbarn
-ms.author: nathbarn
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 01/24/2018
 ms.topic: get-started-article
@@ -14,11 +15,11 @@ ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 29ea491ab176a9bf2237a4e7546131945ad2dab7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b21c4421914294e84bae637e489065c5e4410839
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="intune-network-configuration-requirements-and-bandwidth"></a>Требования к конфигурации сети Intune и ее пропускная способность
 

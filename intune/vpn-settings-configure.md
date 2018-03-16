@@ -1,7 +1,7 @@
 ---
-title: "Настройка параметров VPN в Intune"
-titleSuffix: Azure portal
-description: "Узнайте, как с помощью Intune можно настроить VPN-подключения на управляемых устройствах.\""
+title: "Настройка параметров VPN в Microsoft Intune"
+titleSuffix: 
+description: "Сведения об использовании Microsoft Intune для настройки виртуальной частной сети (VPN) на управляемых устройствах."
 keywords: 
 author: vhorne
 ms.author: victorh
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 772b7f025adc7ae80d0f14c5c630209c4c7529b2
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: feba7e7dc3e88d7d9beefc548c20bf19fbba662d
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Настройка параметров VPN в Microsoft Intune
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 02/01/2018
 
 ### <a name="certificates"></a>Сертификаты
 
-При создании профиля VPN вы выбираете профиль сертификата SCEP или PKCS, созданный ранее в Intune. Это называется сертификатом удостоверения. Он используется для проверки подлинности по профилю доверенного сертификата (или *корневого сертификата*), указывающего, что устройству пользователя разрешено подключаться. Доверенный сертификат назначается компьютеру, выполняющему проверку подлинности VPN-подключения, как правило VPN-сервера.
+При создании профиля VPN вы выбираете профиль сертификата SCEP или PKCS, созданный ранее в Intune. Этот профиль называется сертификатом удостоверения. Он используется для проверки подлинности по профилю доверенного сертификата (или *корневого сертификата*), указывающего, что устройству пользователя разрешено подключаться. Доверенный сертификат назначается компьютеру, выполняющему проверку подлинности VPN-подключения, как правило VPN-сервера.
 
 Дополнительные сведения о способах создания и использования профилей сертификатов см. в статье [о настройке сертификатов с помощью Microsoft Intune](certificates-configure.md).
 

@@ -1,6 +1,6 @@
 ---
-title: "Назначение лицензий Intune"
-description: "Назначение лицензий пользователям для подписки Intune"
+title: "Назначение лицензий Microsoft Intune"
+description: "Назначение пользователям лицензий для регистрации устройств в Intune"
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -14,13 +14,13 @@ ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2ad754ce3d81469bb172081b6b7f43937f45ffd9
-ms.sourcegitcommit: cccbb6730a8c84dc3a62093b8910305081ac9d24
+ms.openlocfilehash: 45baadb24ac646a6456e04c85a701842774c7930
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="assign-intune-licenses-to-your-user-accounts"></a>Назначение лицензий Intune учетным записям пользователей
+# <a name="assign-licenses-to-users-so-they-can-enroll-devices-in-intune"></a>Назначение пользователям лицензий для регистрации устройств в Intune
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/15/2018
 
 3.  Переключите **Intune** или **Enterprise Mobility + Security** в положение **Вкл.** и выберите **Сохранить**.
 
-  ![Изображение портала Office 365 с назначением лицензии продукта.](./media/office-assign-license.png)
+  ![Снимок экрана раздела лицензий на продукты на портале Office 365.](./media/office-assign-license.png)
 
 4. Теперь учетная запись пользователя имеет необходимые разрешения на использование службы и регистрацию устройств для управления.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 02/15/2018
 
 При назначении лицензии Intune для образовательных учреждений необходимо также назначить лицензию Intune A Direct.
 
-![Изображение настройки лицензии продукта](./media/i4e-set-licenses.png)
+![Снимок экрана настройки лицензии продукта](./media/i4e-set-licenses.png)
 
 Дополнительные сведения о SDS см. в статье [Общие сведения о School Data Sync и Classroom](https://support.office.com/article/Overview-of-School-Data-Sync-and-Classroom-f3d1147b-4ade-4905-8518-508e729f2e91).
 

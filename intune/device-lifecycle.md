@@ -1,30 +1,28 @@
 ---
-title: "Общие сведения о жизненном цикле MDM"
-description: "Как Intune помогает управлять устройствами в течение их жизненного цикла (от регистрации и настройки до снятия с учета)."
+title: "Общие сведения о жизненном цикле MDM Microsoft Intune"
+description: "Как Intune помогает управлять устройствами в течение их жизненного цикла — от регистрации и настройки до снятия с учета."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 06/07/2017
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: f6051fa7-133f-4712-86a5-e5f5bc5ab3c7
-ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 46297080dcb332734b1e175a62e17c6c5666b469
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8755faef07e6ddae2177a2fc2453e15f1ea0fefe
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="overview-of-the-mobile-device-management-mdm-lifecycle"></a>Общие сведения о жизненном цикле системы управления мобильными устройствами (MDM)
+# <a name="overview-of-the-microsoft-intune-mobile-device-management-mdm-lifecycle"></a>Общие сведения о жизненном цикле системы управления мобильными устройствами (MDM) Microsoft Intune
 
 [!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
 
-Все управляемые устройства имеют так называемый *жизненный цикл*. Intune помогает управлять этим жизненным циклом, от регистрации, настройки и защиты до снятия устройства с учета, когда оно больше не требуется.
+Все управляемые устройства имеют *жизненный цикл*. Intune помогает управлять этим жизненным циклом, от регистрации, настройки и защиты до снятия устройства с учета, когда оно больше не требуется.
 
 ![Жизненный цикл устройств](./media/device-lifecycle.png "жизненный цикл устройств Intune")
 

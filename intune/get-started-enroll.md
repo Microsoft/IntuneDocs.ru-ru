@@ -1,10 +1,10 @@
 ---
-title: "Начало работы с регистрацией устройств"
-titlesuffix: Azure portal
+title: "Процесс регистрации устройств iOS"
+titlesuffix: Microsoft Intune
 description: "Знакомство в процессом регистрации в ходе выполнения полной процедуры регистрации устройства iOS."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: article
@@ -15,13 +15,13 @@ ms.assetid: b595848d-c451-43ab-812d-b22e0170fb7a
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3818556f300821fb9acaa260300ae683f43b13e3
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 18a3225ef81d7f13b8656326540e30cf5ee07f1e
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="get-started-enrolling-devices"></a>Начало работы с регистрацией устройств
+# <a name="understand-the-users-experience-enrolling-an-ios-device"></a>Описание процесса регистрации пользователем устройства iOS
 
 Использование Microsoft Intune позволяет мобильным сотрудникам работать с данными на своих мобильных устройствах, при этом корпоративные данные останутся под защитой. Так как конечные пользователи будут взаимодействовать с Intune со своих устройств, а не из консоли администрирования, вам нужно досконально изучить процесс регистрации. Это позволит объединить правильно скомпонованные политики соответствия с вашим опытом, чтобы продемонстрировать умение ставить себя на место пользователей. Это особенно важно, так как пользователи будут знать, какие именно сведения вы как администратор можете просматривать.
 

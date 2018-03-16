@@ -1,12 +1,12 @@
 ---
 title: "Управление передачей данных между приложениями iOS"
-titlesuffix: Azure portal
-description: "В этом разделе описано, как использовать функцию \"Открыть с помощью\" в iOS и политики управления мобильными приложениями для управления передачей данных между приложениями.\""
+titlesuffix: Microsoft Intune
+description: "Как использовать политики управления мобильными приложениями в Microsoft Intune для управления передачей данных между приложениями."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: Erikre
+ms.author: erikre
 manager: dougeby
-ms.date: 11/06/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2d110a099b4957626d4368c9e63817674d6cfaa2
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 441f78a8b3b9c41610b78a27dbe51fb144dd82da
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="how-to-manage-data-transfer-between-ios-apps"></a>Управление передачей данных между приложениями iOS
+# <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 ## <a name="manage-ios-apps"></a>Управление приложениями iOS
 В рамках защиты данных организации требуется убедиться, что передача файлов осуществляется только между управляемыми вами приложениями.  Управление приложениями iOS можно осуществлять указанными далее способами.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/25/2018
 
 3.  Разверните приложение с указанием следующих параметров настройки приложений:
 
-      **key** = IntuneMAMUPN,  **value** = <username@company.com>
+      **key** = IntuneMAMUPN,  **value** = <username@company.com>
 
       Пример: [‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 01/25/2018
 
 2. В разделе "Настройка приложений" введите следующий параметр:
 
-  **key** = IntuneMAMUPN,  **value** = <username@company.com>
+  **key** = IntuneMAMUPN,  **value** = <username@company.com>
 
   Синтаксис пары "ключ-значение" может отличаться в зависимости от стороннего поставщика MDM. В таблице ниже показаны примеры сторонних поставщиков MDM и точные значения, которые следует ввести в качестве пары "ключ-значение".
 

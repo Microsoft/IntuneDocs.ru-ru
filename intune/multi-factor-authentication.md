@@ -1,7 +1,7 @@
 ---
-title: "Многофакторная проверка подлинности для регистрации устройств в Intune"
-titlesuffix: Azure portal
-description: "Как настроить обязательную многофакторную проверку подлинности в Azure AD для регистрации устройств."
+title: "Настройка обязательной многофакторной проверки подлинности для регистрации устройств в Intune"
+titlesuffix: Microsoft Intune
+description: "Как настроить обязательную многофакторную проверку подлинности в Azure AD для регистрации устройств в Intune."
 keywords: 
 author: ErikjeMS
 ms.author: erikje
@@ -14,13 +14,13 @@ ms.technology:
 ms.assetid: 94280c73-c05c-4e72-b0dd-a7cb997782f9
 ROBOTS: 
 ms.custom: intune-azure
-ms.openlocfilehash: 27135f0b698f5a321bd14b70f0b346a91fc0ab1e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 4dbb1b94fa7e2ebc5ce31ae00c3cb893f9e1470e
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="multi-factor-authentication-for-intune-device-enrollments"></a>Многофакторная идентификация для регистрации устройств в Intune
+# <a name="require-multi-factor-authentication-for-intune-device-enrollments"></a>Настройка обязательной многофакторной проверки подлинности для регистрации устройств в Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 

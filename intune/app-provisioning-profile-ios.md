@@ -1,12 +1,12 @@
 ---
-title: "Профили подготовки приложений"
-titlesuffix: Azure portal
+title: "Профили подготовки приложений iOS в Microsoft Intune"
+titlesuffix: 
 description: "Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.\""
 keywords: 
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/03/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6aa1fe56726f320d971f35cc971253707f968442
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 7637dcb3aba4f46a3e97c8de47d974b46af27b47
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="use-ios-mobile-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия сертификата мобильного приложения iOS с помощью профиля подготовки
+# <a name="use-ios-mobile-provisioning-profiles-in-intune-to-prevent-your-apps-from-expiring"></a>Предотвращайте истечения срока действия сертификата мобильного приложения iOS с помощью профиля подготовки в Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -39,12 +39,12 @@ ms.lasthandoff: 01/30/2018
 
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>Как создать профиль подготовки для мобильного приложения iOS
 
-1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
-3. В колонке **Intune** выберите **Мобильные приложения**.
-1.  В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Профили подготовки iOS**.
-2.  В колонке списка профилей выберите **Создать профиль**.
-3. В колонке **Создание профиля** настройте следующие значения:
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+3. На панели **Intune** выберите **Мобильные приложения**.
+1.  В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Профили подготовки приложений iOS**.
+2.  На панели списка профилей выберите **Создать профиль**.
+3. На панели **Создать профиль** настройте следующие значения:
     - **Имя**. Укажите имя профиля подготовки для мобильного устройства.
     - **Описание**. Введите описание политики (необязательно).
     - **Отправить файл профиля**. Выберите **Импортировать**, а затем выберите файл профиля конфигурации мобильного устройства Apple (с расширением **MOBILEPROVISION**), скачанный с веб-сайта для разработчиков Apple.

@@ -1,12 +1,12 @@
 ---
-title: "Удаление пользователя с устройства iOS с помощью Intune"
-titlesuffix: Azure portal
-description: "Вы можете узнать, как удалить пользователя с устройства iOS с помощью Intune."
+title: "Удаление пользователя с устройства iOS с помощью Microsoft Intune"
+titlesuffix: 
+description: "Узнайте, как удалить пользователя с устройства iOS с помощью Intune."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
-ms.date: 08/09/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.technology:
 ms.assetid: 2ea5941c-a69b-4e1c-b42c-a1fc0c3a7de7
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 979614aaa450493ea0b5cc2a1baaccc10a6dd028
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ce1b6b439c287b67a7c9e776edf136e78e5ecf5b
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="remove-a-user-from-a-shared-ios-device-with-intune"></a>Удаление пользователя с общего устройства iOS с помощью Intune
+# <a name="remove-a-user-from-a-shared-ios-device"></a>Удаление пользователя с общего устройства iOS
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -37,8 +37,8 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="how-to-remove-a-user"></a>Удаление пользователя
 
-1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. В колонке **Intune** выберите **Устройства**.
 4. В колонке **Устройства** выберите **Все устройства**.
 5. Выберите нужное устройство iOS в списке управляемых устройств.
@@ -47,4 +47,4 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Чтобы просмотреть состояние выполненного действия, в колонке **Устройства и группы** выберите **Действия устройства**.
+Чтобы просмотреть состояние выполненного действия, в колонке **Устройства** выберите **Действия устройства**.

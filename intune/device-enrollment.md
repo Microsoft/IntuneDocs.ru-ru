@@ -1,6 +1,6 @@
 ---
 title: "Что представляет собой отмена регистрации устройств в Microsoft Intune"
-titlesuffix: Azure portal
+titlesuffix: Microsoft Intune
 description: "См. дополнительные сведения о регистрации устройств под управлением iOS, Android и Windows."
 keywords: 
 author: ErikjeMS
@@ -14,11 +14,11 @@ ms.technology:
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a94703ecc1d7fd464f565855bb9b8dd9ee3c3bfb
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9f49178a2d8e8a73a693ed2f374b86b8e702680f
+ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="what-is-device-enrollment"></a>Что такое регистрация устройств?
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -37,6 +37,14 @@ Intune позволяет управлять устройствами и при�
 |**[DEP](#apple-device-enrollment-program)**|   Да |   Необязательно |  Необязательно|[Дополнительные сведения](./device-enrollment-program-enroll-ios.md)|
 |**[USB-SA](#usb-sa)**| Да |   Необязательно |  Нет| [Дополнительные сведения](./apple-configurator-setup-assistant-enroll-ios.md)|
 |**[Прямое подключение USB](#usb-direct)**| Нет |    Нет  | Нет|[Дополнительные сведения](./apple-configurator-direct-enroll-ios.md)|
+
+## <a name="macos-enrollment-methods"></a>Методы регистрации в macOS
+
+| **Метод** |  **Требуется сброс** |  **Сопоставление пользователей** | **Заблокировано** | **Сведения**|
+|:---:|:---:|:---:|:---:|:---:|
+|**[BYOD](#bring-your-own-device)** | Нет| Да | Нет | [Дополнительные сведения](./macos-enroll.md)|
+|**[DEM](#device-enrollment-manager)**| Нет |Нет |Нет  | [Дополнительные сведения](./device-enrollment-manager-enroll.md)|
+
 
 ## <a name="windows-enrollment-methods"></a>Методы регистрации в Windows
 

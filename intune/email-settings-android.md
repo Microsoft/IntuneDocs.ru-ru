@@ -1,27 +1,25 @@
 ---
-title: "Настройки электронной почты Intune для устройств Android и Android for Work"
-titleSuffix: Azure portal
-description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Android.\""
+title: "Параметры электронной почты Microsoft Intune для устройств Android и Android for Work"
+titleSuffix: 
+description: "Узнайте, какие параметры Microsoft Intune можно использовать для настройки параметров электронной почты на устройствах Android и Android for Work."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 06/15/2017
+ms.date: 3/2/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 4d3458cc-fcaa-4648-b13f-bf1f0616c1c5
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 14f726d330e1cd8e4a0f7bfcfac8fe931c66d23b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a68607be7cbd84d5a9e9080d0a8608bce85edd22
+ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="email-profile-settings-for-android--devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Android в Microsoft Intune
+# <a name="email-profile-settings-in-microsoft-intune-for-devices-running-android-and-android-for-work"></a>Параметры профиля электронной почты Microsoft Intune для устройств Android и Android for Work
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -59,7 +57,7 @@ ms.lasthandoff: 01/25/2018
 
 - **Приложение электронной почты**. Выберите **Gmail** или **Nine Work**
 - **Почтовый сервер**. Имя узла вашего сервера Exchange.
-- **Атрибут имени пользователя из AAD**. Это имя в Active Directory (AD) или Azure AD, с помощью которого будет создано имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, user1@contoso.com) или **Имя субъекта-пользователя** (например, user1 или user1@contoso.com).
+- **Атрибут имени пользователя из AAD**. Это имя в Active Directory (AD) или Azure AD, с помощью которого создается имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, user1@contoso.com) или **Имя субъекта-пользователя** (например, user1 или user1@contoso.com).
 - **Атрибут адреса электронной почты из AAD**. Способ создания адреса электронной почты для пользователя на каждом устройстве. Выберите **Имя участника-пользователя**, чтобы использовать в качестве адреса электронной почты полное имя участника-пользователя, либо **Имя пользователя**.
 - **Способ проверки подлинности**. В качестве метода аутентификации, используемого профилем электронной почты, выберите **Имя пользователя и пароль** или **Сертификаты**.
     - Выбрав способ **Сертификаты**, укажите созданный ранее профиль клиентского сертификата SCEP или PKCS, который будет использоваться для проверки подлинности подключения к Exchange.
