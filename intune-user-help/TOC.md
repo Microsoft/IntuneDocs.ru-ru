@@ -66,6 +66,7 @@
 ### [Что происходит при регистрации устройства с iOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 ### [Установка корпоративного портала и вход в него](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
 ### [Регистрация устройства iOS](enroll-your-device-in-intune-ios.md)
+### [Регистрация устройства iOS с помощью программы регистрации устройств](enroll-your-device-dep-ios.md)
 
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
 ### [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
