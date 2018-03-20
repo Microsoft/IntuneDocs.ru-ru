@@ -1,6 +1,6 @@
 ---
 title: "Данные, отправляемые Intune в Apple"
-titlesuffix: Azure portal
+titleSuffix: Microsoft Intune
 description: "Список данных, которые Intune отправляет Apple."
 keywords: 
 author: ErikjeMS
@@ -15,11 +15,11 @@ ms.assetid: b204a956-18ec-11e8-accf-0ed5f89f718b
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d23fdce58b9ef35fe292ca6570904320e0922f16
-ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
+ms.openlocfilehash: c247cfbd715368f65dfb1ba2ce8b5e88a491d302
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="data-intune-sends-to-apple"></a>Данные, отправляемые Intune в Apple
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 - [Программа регистрации устройств Apple (DEP)](device-enrollment-program-enroll-ios.md)
 - [Сертификат Apple MDM Push Certificate (APNS)](apple-mdm-push-certificate-get.md)
-- [Apple School Manager (ASM)](https://docs.microsoft.com/en-us/schooldatasync/apple-school-manager-integration-with-intune-for-education-and-school-data-sync.md)
+- [Apple School Manager (ASM)](https://docs.microsoft.com/schooldatasync/apple-school-manager-integration-with-intune-for-education-and-school-data-sync)
 - [Apple Volume Purchase Program (VPP)](vpp-apps-ios.md)
 
 Чтобы установить соединение с Microsoft Intune, необходимо создать учетную запись Apple для каждой службы Apple.

@@ -14,11 +14,11 @@ ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1f259620f64d70bfce4ed60c2a96194028a12c38
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: edbb76e0eb4a1157e70a24c47b960ef138a0f876
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Новые возможности классического портала Intune: предыдущие месяцы
 
@@ -281,7 +281,7 @@ ms.lasthandoff: 03/08/2018
 
 * [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](apps-prepare-mobile-application-management.md)
 * [Подготовка приложений из iOS для управления мобильными приложениями с помощью инструмента упаковки для приложений Intune](app-wrapper-prepare-ios.md)
-* [Начало работы с SDK для приложений Microsoft Intune](/app-sdk-get-started.md)
+* [Начало работы с SDK для приложений Microsoft Intune](app-sdk-get-started.md)
 * [Руководство разработчика iOS по SDK для приложений Intune](app-sdk-ios.md)
 
 В библиотеку документов были добавлены следующие статьи:

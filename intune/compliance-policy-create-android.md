@@ -15,11 +15,11 @@ ms.assetid: e1258fe4-0b5c-4485-8bd1-152090df6345
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 283685629ac1e268a66d82250273a17f9baa5d17
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 2539ff1703809f5f89183a9d0cfd448f2e57fd64
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-devices-in-intune"></a>Создание политики соответствия для устройств Android в Intune
 
@@ -70,8 +70,6 @@ ms.lasthandoff: 03/08/2018
   - **Низкий**. Если обнаруженные на устройстве угрозы имеют низкий уровень, считается, что устройство соответствует требованиям. Любая угроза с уровнем выше низкого переводит устройство в состояние несоответствия.
   - **Средний**. Если обнаруженные на устройстве угрозы имеют низкий или средний уровень, считается, что устройство все еще соответствует требованиям. Если на устройстве найдены угрозы с высоким уровнем, оно признается не соответствующим требованиям.
   - **Высокий** — это наименее безопасный вариант. По существу, это значение допускает все уровни угроз и может быть полезно при использовании решения только для формирования отчетов.
-
-Дополнительные сведения см. в статье [Включение правила защиты устройства от угроз в политике соответствия](https://docs.microsoft.com/intune-classic/deploy-use/enable-device-threat-protection-rule-in-compliance-policy).
 
 ## <a name="system-security-settings"></a>Параметры безопасности системы
 
