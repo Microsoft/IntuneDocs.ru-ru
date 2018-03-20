@@ -1,11 +1,12 @@
 ---
-title: "Приложение | Документация Майкрософт"
+title: "Приложение"
+titlesuffix: Microsoft Intune
 description: "Справочник по категории \"Приложение\" коллекций сущностей в API хранилища данных Intune."
 keywords: "Хранилище данных Intune"
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/11/2017
+ms.date: 01/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +15,11 @@ ms.assetid: A92DEF30-5D01-4774-9917-E26F5F0E2E68
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 4a33dd69f20d6cfd9eeda7de5e1d45432c505c81
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: e7de3ab89ff75b381d0438f49fb6015b0eb28d28
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="reference-for-application-entities"></a>Справочник по сущностям приложения
 

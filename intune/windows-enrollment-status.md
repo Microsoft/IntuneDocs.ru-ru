@@ -1,10 +1,10 @@
 ---
 title: "Добавление экрана состояния регистрации"
-titlesuffix: Azure portal
+titleSuffix: Microsoft Intune
 description: "Поприветствуйте пользователей, регистрирующих устройства на базе Windows 10."
 keywords: 
-author: barlan
-manager: barlanmsft
+author: ErikjeMS
+manager: erikje
 ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
@@ -14,11 +14,11 @@ ms.assetid: 8518d8fa-a0de-449d-89b6-8a33fad7b3eb
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 479f2c1998cd8dfd637f1487a7f4c767b17a5fa7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a8691572a25dbb94ff5d165298d48a3c68b33bab
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="set-up-an-enrollment-status-screen"></a>Настройка экрана состояния регистрации
 
@@ -27,8 +27,6 @@ ms.lasthandoff: 01/25/2018
 Когда пользователь регистрирует устройство на базе Windows, он ожидает получить доступ ко всему нужному для работы сразу после регистрации. Пользователи не осознают, что передача содержимого, приложений, политик и параметров на устройство продолжается даже после завершения регистрации.
 
 Вы можете настроить экран состояния регистрации, чтобы предоставить пользователям дополнительные сведения и информировать их о том, что происходит после регистрации. Это можно сделать в области **Регистрация устройства** > **Регистрация Windows** > **Экран состояния регистрации**.
-
-![Экран состояния регистрации для Windows 10.](win10-enrollment-status-admin-setup.png)
 
 Вы можете определить четыре поля: **Приветствие**, **Сообщение**, **Гиперссылка для справки**, где можно задать **Текст ссылки**, и **URL-адрес справки для пользователей**.
 
