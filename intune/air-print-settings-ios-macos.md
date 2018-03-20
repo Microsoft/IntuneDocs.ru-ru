@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 07/03/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 712a79fb-14ef-4f6b-aba5-1dfca900afd2
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5f55d05dd39fca02e72535cbbff9afb8d575ed9f
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7a8ef24a9e6946145bf69d279566f3b736e6efa1
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="airprint-settings-for-ios-and-macos-devices"></a>Параметры AirPrint для устройств iOS и MacOS
 
@@ -40,8 +40,9 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="configure-an-airprint-profile"></a>Настройка профиля AirPrint
 
-1. В колонке **Функции устройства** выберите **AirPrint**.
-2. Чтобы добавить целевой объект AirPrint, в колонке **AirPrint** введите его **IP-адрес** и **путь к ресурсу**, а затем нажмите кнопку **Добавить**.
+1. Из [Intune на портале Azure](https://portal.azure.com) перейдите на страницу [**Функции устройства** в области конфигурации устройства](device-features-configure.md). 
+1. На панели **Функции устройства** выберите **AirPrint**.
+2. Чтобы добавить целевой объект AirPrint, на панели **AirPrint** введите его **IP-адрес** и **путь к ресурсу**, а затем нажмите кнопку **Добавить**.
 3. Вы можете добавить любое количество целевых объектов. После этого нажмите кнопку **ОК**.
 
 Вы также можете импортировать список принтеров из файла с разделителями-запятыми (CSV-файл) или экспортировать список.

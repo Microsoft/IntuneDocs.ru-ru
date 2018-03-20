@@ -1,7 +1,7 @@
 ---
-title: "Настройка интеграции Check Point SandBlast Mobile с Intune"
-titlesuffix: Azure portal
-description: "Настройка интеграции Check Point SandBlast Mobile с Intune"
+title: "Check Point SandBlast MTD в Microsoft Intune"
+titlesuffix: 
+description: "Как настроить решение CheckPoint SandBlast Mobile Threat Defense (MTD) в Intune для управления доступом к корпоративным ресурсам с мобильных устройств."
 keywords: 
 author: msmimart
 ms.author: mimart
@@ -15,11 +15,11 @@ ms.assetid: 1e9b1576-b239-48cc-a672-da6b5fb7be0a
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0b1ea4804005abb1e2fcbc5dc3b5ef1382edd4db
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: b864d78fd7bfd7fb4e177b568b3587bc1e28b209
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="integrate-check-point-sandblast-mobile-with-intune"></a>Интеграция Check Point SandBlast Mobile с Intune
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 02/23/2018
 
 5.  После того, как Microsoft Intune будет выбран в качестве службы MDM, появится всплывающее окно **Конфигурация Microsoft Intune**. В этом окне выберите пункт **Добавить в организацию** для каждой платформы ваших устройств: iOS, Android и Windows, чтобы разрешить Check Point SandBlast Mobile взаимодействовать с Intune и Azure AD.
 
-    ![Проверка конфигурации точки MTD Intune](./media/checkpoint-MTD-1.PNG)
+    ![Изображение конфигурации Check Point MTD в Intune](./media/checkpoint-MTD-1.PNG)
 
     > [!IMPORTANT]
     > Чтобы перейти к следующему шагу, необходимо добавить все платформы устройств.

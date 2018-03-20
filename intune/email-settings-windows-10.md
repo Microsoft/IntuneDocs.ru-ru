@@ -1,35 +1,34 @@
 ---
-title: "Параметры электронной почты для устройств с Windows 10"
-titleSuffix: Azure portal
-description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows 10.\""
+title: "Пользовательские параметры электронной почты для устройств под управлением Windows 10 в Microsoft Intune"
+titleSuffix: 
+description: "Узнайте, какие параметры Microsoft Intune можно использовать для настройки параметров электронной почты на устройствах Windows 10."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 02/15/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 2ffafbd0-4b5d-4c86-a46b-611f9b7a58e5
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c3ea7974600daccb8308cd558ccb365c2f5e8bff
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b02579895123995f9b4205d64e9bf67ce04de746
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="email-profile-settings-for-windows-10-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Windows 10 в Microsoft Intune
+# <a name="email-profile-settings-in-microsoft-intune-for-devices-running-windows-10"></a>Параметры профиля электронной почты в Microsoft Intune для устройств Windows 10
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+В этой статье показано, какие параметры профиля электронной почты вы можете настроить для устройств Windows 10.
 
 
 - **Почтовый сервер**. Имя узла вашего сервера Exchange.
-- **Имя учетной записи**. Отображаемое имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
-- **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого будет создано имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com**) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com**).
+- **Имя учетной записи**. Имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
+- **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого создается имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com**) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com**).
 - **Атрибут адреса электронной почты из AAD**. Способ создания адреса электронной почты для пользователя на каждом устройстве. Выберите **Первичный SMTP-адрес**, чтобы входить в Exchange с помощью основного SMTP-адреса, или **Имя субъекта-пользователя**, чтобы использовать полное имя субъекта-пользователя в качестве адреса электронной почты.
 
 

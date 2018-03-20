@@ -1,12 +1,12 @@
 ---
-title: "Настройка соединителя Exchange для локальной службы EAS с помощью Intune"
-titleSuffix: Azure portal
-description: "Использование соединителя для обеспечения обмена данными между Intune и локальным сервером Exchange Server"
+title: "Настройка локального соединителя Exchange в Microsoft Intune"
+titleSuffix: 
+description: "Используйте локальный соединитель Exchange для управления доступом устройств к почтовым ящикам Exchange на основе регистрации в Intune и Exchange Active Sync (EAS)."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 03/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cb82b1a9af0cc8dd2f394747ce7ed8b695260bb9
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 0caea2e8b7704fe2dfcbec937b59000ac2a12ae5
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
@@ -70,11 +70,11 @@ ms.lasthandoff: 02/03/2018
 
 1. В поддерживаемой локальным соединителем Exchange операционной системе Windows Server войдите на [портал Azure](http://portal.azure.com), используя учетную запись с правами администратора локальной среды Exchange Server и лицензией на использование Exchange Server.
 
-2. Выберите пункт **Другие службы** в меню слева и введите **Intune** в текстовом поле фильтра.
+2. Выберите пункт **Все службы** в меню слева и введите **Intune** в текстовом поле фильтра.
 
 3. Щелкните **Intune** и на открывшейся панели мониторинга Intune выберите **Локальный доступ**.
 
-4. В колонке **Локальный доступ — соединитель Exchange ActiveSync** в разделе **Установка** выберите **Скачайте локальный соединитель**.
+4. Выберите **Соединитель Exchange ActiveSync**, а затем нажмите **Загрузить локальный соединитель**.
 
 5.  Локальный соединитель Exchange находится в сжатой ZIP-папке, которую можно открыть или сохранить. В диалоговом окне **Загрузка файла** выберите **Сохранить**, чтобы сохранить сжатую папку в безопасное расположение.
 
@@ -93,7 +93,7 @@ ms.lasthandoff: 02/03/2018
 
 3.  В диалоговом окне **Соединитель Microsoft Intune Exchange** выберите либо **Локальный сервер Microsoft Exchange**, либо **Размещенный сервер Microsoft Exchange**.
 
-  ![Выбор типа Exchange Server](./media/intune-sa-exchange-connector-config.png)
+  ![Изображение, показывающее выбор типа Exchange Server](./media/intune-sa-exchange-connector-config.png)
 
   Если выбран локальный сервер Exchange Server, укажите имя сервера или полное доменное имя сервера Exchange Server, на котором размещена роль **сервера клиентского доступа**.
 
@@ -116,7 +116,7 @@ ms.lasthandoff: 02/03/2018
 
     5. В поля **Пользователь (домен или пользователь)** и **Пароль** введите учетные данные, необходимые для подключения к серверу Exchange.
 
-    6.  Введите административные учетные данные, необходимые для отправки уведомлений на пользовательский почтовый ящик Exchange Server. Эти уведомления можно настроить с помощью политик условного доступа в Intune.
+    6.  Введите учетные данные, необходимые для отправки уведомлений на почтовый ящик пользователя Exchange Server. Этот пользователь может быть предназначен только для уведомлений. Пользователю для уведомлений нужен почтовый ящик Exchange, чтобы рассылать уведомления по электронной почте. Эти уведомления можно настроить с помощью политик условного доступа в Intune.  
 
         Убедитесь, что служба автоматического обнаружения и веб-службы Exchange настроены на сервере клиентского доступа Exchange. Дополнительные сведения см. в разделе [Сервер клиентского доступа](https://technet.microsoft.com/library/dd298114.aspx).
 

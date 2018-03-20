@@ -6,7 +6,7 @@ keywords:
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 07/03/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 712a79fb-14ef-4f6b-aba5-1dfca900afd2
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc1a30a86ae924777b435c67e67f926819753d67
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9de6f0e2f7c74e7aec45c27f0fa20189b26c5e22
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="intune-airplay-settings-for-ios-devices"></a>Параметры AirPlay для устройств iOS в Intune
 
@@ -33,19 +33,20 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="get-started"></a>Начало работы
 
-1. В колонке **Функции устройства** выберите **AirPlay**.
-2. В колонке **AirPlay** выберите одно или оба действия:
+1. Из [Intune на портале Azure](https://portal.azure.com) перейдите на страницу [**Функции устройства** в области конфигурации устройства](device-features-configure.md). 
+1. На панели **Функции устройства** выберите **AirPlay**.
+2. На панели **AirPlay** выберите одно или оба действия:
 
 ## <a name="configure-a-device-and-password-list"></a>Настройка списка устройств и паролей
 
-1. В колонке **Пароли** введите **имя** и **пароль** устройства AirPlay, например **Contoso Apple TV**.
+1. На панели **Пароли** введите **имя** и **пароль** устройства AirPlay, например **Contoso Apple TV**.
 2. После ввода сведений об устройстве нажмите кнопку **Добавить**. Устройство отобразится в списке **имен устройств**.
 3. Продолжайте добавлять устройства. После этого нажмите кнопку **ОК**.
 
 
 ## <a name="configure-allowed-destinations"></a>Настройка разрешенных целевых объектов
 
-1. В колонке **Разрешенные целевые объекты (только для защищенных устройств)** введите **идентификатор устройства** для устройства AirPlay, например 52:46:CD:51:83:4C.
+1. На панели **Разрешенные целевые объекты (только для защищенных устройств)** введите **идентификатор устройства** для устройства AirPlay, например 52:46:CD:51:83:4C.
 2. После ввода идентификатора устройства нажмите кнопку **Добавить**. Идентификатор отобразится в списке **идентификаторов устройств**.
 3. Продолжайте добавлять устройства. После этого нажмите кнопку **ОК**.
 

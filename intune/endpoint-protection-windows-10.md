@@ -1,12 +1,12 @@
 ---
-title: "Параметры защиты конечных точек Intune для Windows 10"
-titlesuffix: Azure portal
-description: "Вы можете узнать о параметрах Intune, позволяющих управлять функциями защиты конечных точек, например BitLocker, на устройствах с Windows 10."
+title: "Параметры защиты конечных точек в Microsoft Intune для Windows 10"
+titlesuffix: 
+description: "Узнайте о параметрах Intune, позволяющих управлять параметрами защиты конечных точек, например BitLocker, на устройствах с Windows 10."
 keywords: 
-author: arob98
-ms.author: angrobe
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 01/16/2018
+ms.date: 02/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: 3af7c91b-8292-4c7e-8d25-8834fcf3517a
 ms.reviewer: ilwu
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 35c33fb189187a678efa04d10706fe752d683e17
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 02a32f678b40b2b40535984e17b41e0a864d8fdf
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="endpoint-protection-settings-for-windows-10-and-later-in-microsoft-intune"></a>Параметры защиты конечных точек для Windows 10 и более поздних версий в Microsoft Intune
+# <a name="create-endpoint-protection-settings-for-windows-10-and-later-in-microsoft-intune"></a>Создание параметров защиты конечных точек для Windows 10 и более поздних версий в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -34,10 +34,10 @@ ms.lasthandoff: 02/19/2018
 
 ## <a name="create-an-endpoint-protection-profile"></a>Создание профиля защиты конечных точек
 
-1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
-2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
+2. В колонке **Конфигурации устройства** в разделе **Управление** выберите **Профили**.
 3. В колонке профилей выберите **Создание профиля**.
 4. В колонке **Создание профиля** введите **имя** и **описание** для профиля ограничения устройства.
 5. В раскрывающемся списке **Платформа** выберите **Windows 10 и более поздних версий**.
@@ -57,6 +57,7 @@ ms.lasthandoff: 02/19/2018
 - **Печать из виртуального браузера** — разрешить печать содержимого из виртуального браузера в PDF, XPS, на локальных или сетевых принтерах.
 - **Собрать журналы** — сбор журналов событий, происходящих в рамках сеанса просмотра Application Guard.
 - **Сохранять пользовательские данные браузера** — разрешить сохранение пользовательских данных (таких как пароли, избранное и файлы cookie), создаваемых во время сеанса работы с виртуальным браузером Application Guard.
+- **Ускорение графики** — быстрее загружайте веб-сайты с большим количеством графики при работе в виртуальном сеансе Application Guard с помощью доступа к виртуальному графическому процессору...
 
 
 ## <a name="windows-defender-firewall"></a>Брандмауэр Защитника Windows

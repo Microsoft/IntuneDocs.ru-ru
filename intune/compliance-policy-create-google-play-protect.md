@@ -6,7 +6,7 @@ keywords:
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/20/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: E9810BEB-000A-4DFB-B5C7-A22A92082B22
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 13aa627515b74d3c9fe6d091c44dd5147bd786bd
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 01b26a6165db6e3016d2b3d7063a4bca60ce0266
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-to-enable-google-play-protect"></a>Создание политики соответствия устройств для включения Google Play Защиты
 
@@ -29,14 +29,15 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="create-a-compliance-policy"></a>Создание политики соответствия
 
-1. Войдите на портал Azure. Выберите **Больше служб** > **Мониторинг и управление** + **Intune**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 2. Выберите **Соответствие устройств** в группе **Управление**. 
 3. Выберите **Политики**, а затем — **Создать политику**.
 4. Укажите **имя политики** и ее **описание**.
 5. В качестве платформы выберите **Android**.
 6. Выберите **Параметры** > **Работоспособность устройств**.
 7. Настройте параметры **Google Play Защиты**.
-8. Для этого настройте параметры **безопасности** и **свойства устройства**. По завершении нажмите кнопку **ОК**.
+8. Указав параметры защиты Google Play, настройте **Безопасность системы** и **Свойства устройства**. По завершении нажмите кнопку **ОК**.
 
 ## <a name="configure-the-google-play-protect-settings"></a>Настройка параметров Google Play Защиты
 

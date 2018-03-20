@@ -1,47 +1,47 @@
 ---
-title: "Параметры VPN Intune для устройств macOS"
-titlesuffix: Azure portal
-description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах macOS.\""
+title: "Параметры VPN для устройств macOS в Microsoft Intune"
+titlesuffix: 
+description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах macOS."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/04/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: d203a70d-37df-4195-85f7-ad5ef14ac2a1
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0ec712abe220ca6b020c5d015dc55f0d956cd860
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b7df56b0f15b9fd346dc786ab265d772135795a8
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="vpn-settings-for-macos-devices-in-microsoft-intune"></a>Параметры VPN для устройств macOS в Microsoft Intune
+# <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-macos"></a>Настройка параметров VPN для устройств macOS в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах macOS.
+
 В зависимости от выбранных параметров не все приведенные в следующем списке значения будут доступны для настройки.
 
-## <a name="base-vpn-settings"></a>**Основные параметры VPN**
+## <a name="base-vpn-settings"></a>Основные параметры VPN
 
 **Имя подключения.** Введите имя подключения. Конечные пользователи увидят это имя при поиске устройства в списке доступных VPN-подключений.
-- **IP-адрес или полное доменное имя**. Укажите IP-адрес или полное доменное имя VPN-сервера, к которому будут подключаться устройства. Примеры: **192.168.1.1**, **vpn.contoso.com**.
+- **IP-адрес или полное доменное имя**. Укажите IP-адрес или полное доменное имя VPN-сервера, к которому подключаются устройства. Примеры: **192.168.1.1**, **vpn.contoso.com**.
 - **Способ проверки подлинности.** Укажите, как устройства будут проходить проверку подлинности на VPN-сервере.
     - **Сертификаты.** В разделе **Сертификат проверки подлинности** выберите профиль сертификата SCEP или PKCS, созданный ранее для проверки подлинности подключения. Дополнительные сведения о профилях сертификатов см. в статье о [настройке сертификатов с помощью Microsoft Intune](certificates-configure.md).
     - **Имя пользователя и пароль**. Конечным пользователям необходимо ввести имя пользователя и пароль для входа на VPN-сервер.
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
     - **Check Point Capsule VPN**;
     - **Cisco AnyConnect**
-    - **Dell SonicWALL Mobile Connect**
+    - **SonicWall Mobile Connect**
     - **F5 Edge Client**
     - **Pulse Secure**
-    - **пользовательская сеть VPN**.
-- **Разделить туннелирование** - **Включите** или **отключите** этот параметр, позволяющий устройствам выбрать нужное подключение в зависимости от трафика. Например, пользователь в отеле будет использовать VPN-подключение для доступа к рабочим файлам, а стандартную сеть отеля — для обычного просмотра веб-страниц.
+    - **Пользовательская сеть VPN**.
+- **Разделить туннелирование** - . Выберите **Включить** или **Отключить** этот параметр, позволяющий устройствам выбрать нужное подключение в зависимости от трафика. Например, пользователь в отеле использует VPN-подключение для доступа к рабочим файлам, а стандартную сеть отеля — для обычного просмотра веб-страниц.
 
 <!--- **Per-app VPN** - Select this option if you want to associate this VPN connection with an iOS or macOS app so that the connection will be opened when the app is run. You can associate the VPN profile with an app when you assign the software. For more information, see [How to assign and monitor apps](apps-deploy.md). --->
 

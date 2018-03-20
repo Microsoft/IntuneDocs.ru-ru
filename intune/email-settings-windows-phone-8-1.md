@@ -1,35 +1,35 @@
 ---
-title: "Параметры электронной почты для устройств с Windows Phone 8.1 в Intune"
-titleSuffix: Azure portal
-description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows Phone 8.1.\""
+title: "Параметры электронной почты для устройств с Windows Phone 8.1 в Microsoft Intune"
+titleSuffix: 
+description: "Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows Phone 8.1."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 02/15/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 352d6bd9-ec8c-439e-be3a-ad3daf307df2
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 14b39932bb6bf2ee32fea8e51603fc055436dbe9
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 06815ac6ed6e24bc1efb4ea612b867fc78e7fb5e
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="email-profile-settings-for-windows-phone-81-devices-in-microsoft-intune"></a>Параметры профиля электронной почты для устройств Windows Phone 8.1 в Microsoft Intune
+# <a name="email-profile-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Параметры профиля электронной почты в Microsoft Intune для устройств Windows Phone 8.1
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
+В этой статье показано, какие параметры профиля электронной почты вы можете настроить для устройств Windows Phone 8.1.
 
-- **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10 Mobile.
+
+- **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры применяются только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры также применяются к устройствам Windows 10 Mobile.
 - **Почтовый сервер**. Имя узла вашего сервера Exchange.
-- **Имя учетной записи**. Отображаемое имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
-- **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого будет создано имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com**) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com**).
+- **Имя учетной записи**. Имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
+- **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого создается имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com**) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com**).
 - **Атрибут адреса электронной почты из AAD**. Способ создания адреса электронной почты для пользователя на каждом устройстве. Выберите **Первичный SMTP-адрес**, чтобы входить в Exchange с помощью основного SMTP-адреса, или **Имя субъекта-пользователя**, чтобы использовать полное имя субъекта-пользователя в качестве адреса электронной почты.
 
 

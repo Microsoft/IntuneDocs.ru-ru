@@ -1,10 +1,10 @@
 ---
-title: "Перенос политик условного доступа с классического портала Intune на портал Azure"
-titlesuffix: Azure portal
-description: "Перенос политик условного доступа с классического портала Intune на портал Azure."
+title: "Перенос условного доступа на портал Azure"
+titlesuffix: Microsoft Intune
+description: "Переназначьте политики условного доступа, созданные на классическом портале Intune, на портал Azure."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 06/28/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bdb64d4cc668bf382c39a235111547c2f4e21c9c
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 80c8c994486dd340c9037817854eb35b32ab3a9e
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 
-Начиная с нового портала Azure предложения по условному доступу поддерживают несколько политик на приложение, а также дополнительные настройки.
+Начиная с нового портала Azure предложения по условному доступу поддерживают несколько политик на приложение, а также дополнительные настройки. Если вы создали политики условного доступа на классическом портале Intune, вы можете перенести их на портал Azure. 
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 01/25/2018
 
 9. Нажмите кнопку **Готово**.
 
-    ![Сравнение пользовательского интерфейса облачной службы на порталах Intune и Azure](./media/reassign-ca-3.png)
+    ![Сравнение пользовательского интерфейса облачного приложения на порталах Intune и Azure](./media/reassign-ca-3.png)
 
     > [!TIP] 
     > При наличии нескольких приложений с одной политикой можно консолидировать их в одну политику на портале Azure.

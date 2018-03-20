@@ -1,27 +1,25 @@
 ---
-title: "Пользовательские параметры для устройств macOS в Intune"
-titleSuffix: Azure portal
-description: "Узнайте, какие параметры можно использовать в настраиваемом профиле macOS.\""
+title: "Пользовательские параметры Microsoft Intune для устройств под управлением macOS"
+titleSuffix: 
+description: "Узнайте, какие параметры можно использовать в настраиваемом профиле macOS."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 05/04/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 68100ea5-7d9b-4c0b-8df7-b9a24b2442c8
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 88224849de0727418197fcfdb96cac3b4c2ca0e7
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 5ccc9d48eb16ce155bbed2bbdf38793b8f3bdfda
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="custom-settings-for-macos-devices-in-microsoft-intune"></a>Настраиваемые параметры для устройств macOS в Microsoft Intune
+# <a name="microsoft-intune-custom-device-settings-for-devices-running-macos"></a>Пользовательские параметры Microsoft Intune для устройств под управлением macOS
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
@@ -31,10 +29,10 @@ ms.lasthandoff: 01/25/2018
 
 
 1. Для начала выполните инструкции из статьи [How to configure custom device settings in Microsoft Intune](custom-settings-configure.md) (Как настроить пользовательские параметры устройств в Microsoft Intune).
-2. В колонке **Создание профиля** укажите следующее:
+2. На панели **Пользовательский профиль конфигурации** настройте все следующие параметры.
 
-- **Имя пользовательского профиля конфигурации**. Укажите имя для политики, которое будет отображаться на устройстве и в отчете о состоянии Intune.
+- **Имя пользовательского профиля конфигурации**. Укажите имя для политики, которое будет отображаться на устройстве и в состоянии на Intune.
 - **Файл профиля конфигурации**. Выберите профиль конфигурации, который был создан с помощью средства Apple Configurator.
 Убедитесь, что параметры, экспортированные из средства Apple Configurator, совместимы с версией macOS на устройствах, где вы назначаете настраиваемую политику macOS. Для получения сведений о том, как обрабатываются несовместимые настройки, выполните поиск фраз **Справочник по профилям конфигурации** (Configuration Profile Reference) и **Справочник по протоколу управления мобильными устройствами** (Mobile Device Management Protocol Reference) на веб-сайте для [разработчиков Apple](https://developer.apple.com/).
 
-Импортированный файл появится в области колонки **Содержимое файла**.
+Импортированный файл появится в области панели **Содержимое файла**.

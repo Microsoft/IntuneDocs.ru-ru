@@ -1,29 +1,30 @@
 ---
-title: "Параметры ограничений Intune для применения к устройствам Windows Phone 8.1"
-titleSuffix: Azure portal
-description: "Узнайте о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Windows 8.1.\""
+title: "Параметры ограничений устройств в Microsoft Intune для устройств под управлением Windows 8.1"
+titleSuffix: 
+description: "Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Windows 8.1."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 08/01/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: fe5785e9-8d35-4ad7-95e8-d50f8d87154a
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3c96340255e9b71694278b5a396d907a6212541d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8cfaad3c35a0035546e5ebb7a55b9978da8025d8
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="windows-81-and-later-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств Windows 8.1 и более поздних версий в Microsoft Intune
+# <a name="microsoft-intune-windows-81-and-later-device-restriction-settings"></a>Параметры ограничений для устройств с ОС Windows 8.1 и более поздних версий в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 8.1 и более поздних версий.
+
 
 ## <a name="general"></a>Общие
 

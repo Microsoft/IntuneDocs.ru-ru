@@ -1,29 +1,29 @@
 ---
-title: "Ограничения для устройств с Windows 10 для совместной работы в Intune"
-titlesuffix: Azure portal
-description: "Ограничения устройств, доступные для устройств Windows 10 для совместной работы.\""
+title: "Ограничения для устройств с Windows 10 для совместной работы в Windows"
+titlesuffix: 
+description: "Ограничения устройств, доступные для устройств Windows 10 для совместной работы."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 08/01/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 677c41a2-5344-4c52-85f0-809dce3a5d5b
-ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3648f8b273f666d1898226f3da8580e55a6bc6f8
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 69cceda6857412f7e9a50c58d075caeee4ea9c20
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="windows-10-team-device-restriction-settings-in-microsoft-intune"></a>Параметры ограничений для устройств с Windows 10 для совместной работы в Microsoft Intune
+# <a name="microsoft-intune-windows-10-team-device-restriction-settings"></a>Параметры ограничений для устройств с Windows 10 для совместной работы в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 10 для совместной работы.
 
 
 ## <a name="apps-and-experience"></a>Приложения и взаимодействие

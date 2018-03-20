@@ -1,12 +1,12 @@
 ---
-title: "Включение соединителя Mobile Threat Defense с помощью Intune"
+title: "Включение соединителя Mobile Threat Defense в Microsoft Intune"
 titlesuffix: Azure portal
-description: "Включение соединителя Mobile Threat Defense в Intune"
+description: "Включение соединителя между партнером по Mobile Threat Defense (MTD) и Microsoft Intune."
 keywords: 
 author: msmimart
 ms.author: mimart
 manager: dougeby
-ms.date: 06/21/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,30 +15,30 @@ ms.assetid: dbb6a37e-ba47-4b69-922c-d25e66c279f6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 99b73cb0885c4d93cf91ea219ca98a8a81d67b39
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: 28233965fb68ef1b83b07d14d39568b5bd997c89
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="enable-mobile-threat-defense-in-intune"></a>Включение Mobile Threat Defense в Intune
+# <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Включение соединителя Mobile Threat Defense в Intune
 
 > [!NOTE] 
 > Этот раздел относится ко всем партнерам по Mobile Threat Defense.
 
-Чтобы включить в Intune подключение Mobile Threat Defense (MTD), требуется ранее настроенный в консоли партнера MTD соединитель Intune.
+Во время установки Mobile Threat Defense (MTD) вы настроили политику классификации угроз на консоли партнера по MTD и создали политику соответствия устройств требованиям в Intune. Если вы уже настроили соединитель Intune на консоли партнера по MTD, можете включить соединение с MTD в Intune.
 
 ## <a name="to-enable-the-mtd-connector"></a>Включение соединителя MTD
 
 1. Перейдите на [портал Azure](https://portal.azure.com) и войдите в систему с помощью своих учетных данных Intune. После успешного входа отобразится **панель мониторинга Azure**.
 
-2. На **панели мониторинга Azure** выберите пункт **Другие службы** в меню слева и введите **Intune** в текстовом поле фильтра.
+2. На **панели мониторинга Azure** выберите пункт **Все службы** в меню слева и введите **Intune** в текстовом поле фильтра.
 
 3. Выберите **Intune**, чтобы открыть **Панель мониторинга Intune**.
 
 4. На **панели мониторинга Intune** выберите **Соответствие устройства**, а затем щелкните **Mobile Threat Defense** в разделе **Установка**.
 
-5. В колонке **Mobile Threat Defense** выберите **Добавить**.
+5. На панели **Mobile Threat Defense** выберите **Добавить**.
 
 6. Выберите решение MTD в раскрывающемся списке **Настраиваемый соединитель Mobile Threat Defense**.
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="mtd-toggle-options"></a>Переключатели параметров MTD
 
-Установите переключатели параметров MTD в соответствии с требованиями вашей организации. Дополнительные сведения
+Установите переключатели параметров MTD в соответствии с требованиями вашей организации. Подробнее:
 
 - **Подключить устройства Android 4.1+ к [имя параметра MTD] for Work MTD**. При выборе этого параметра устройства с Android версии 4.1 и более поздней могут отправлять отчеты о рисках безопасности в Intune.
     - **Пометить как несоответствующее при отсутствии данных**. Если Intune не получает данные об устройстве на этой платформе от партнера MTD, устройство считается несоответствующим.
@@ -64,4 +64,4 @@ ms.lasthandoff: 02/23/2018
 > Перед созданием правил для политик соответствия устройств и условного доступа нужно добавить и назначить приложения MTD. Это гарантирует, что приложение MTD будет готово к работе и доступно для установки конечными пользователями, прежде чем они смогут получать доступ к электронной почте или другим корпоративным ресурсам.
 
 > [!TIP]
-> В колонке "Mobile Threat Defense" вы увидите соответствующие значения в полях **Состояние подключения** и **Последняя синхронизация** для Intune и партнера MTD.
+> На панели Mobile Threat Defense вы увидите соответствующие значения в полях **Состояние подключения** и **Последняя синхронизация** для Intune и партнера по MTD.

@@ -1,12 +1,12 @@
 ---
-title: "Установка встроенных приложений на мобильных устройствах с помощью Intune"
-titlesuffix: Azure portal
+title: "Установка встроенных приложений на мобильных устройствах с помощью Microsoft Intune"
+titlesuffix: 
 description: "Узнайте, как упростить установку приложений на мобильные устройства с помощью Intune."
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/13/2018
+ms.date: 03/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 0ec8de66-5a0f-4c8d-afbf-c2becc7d6eec
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d622f2cb8c6b3e8c9aace4e805108ccfa71eb4d2
-ms.sourcegitcommit: 754fcc31155b28d6910bba45419c6be745f8793e
+ms.openlocfilehash: 7d90f86babc2f73acd5ccd1b454c636c6d4f79b2
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="how-to-add-built-in-apps-to-microsoft-intune"></a>Добавление встроенных приложений в Microsoft Intune
 
@@ -67,4 +67,4 @@ ms.lasthandoff: 02/14/2018
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Теперь вы можете назначать приложения выбранным группам. Сведения см. в статье о [назначении приложений группам](apps-deploy.md).
+- Теперь вы можете назначать приложения выбранным группам. Сведения см. в статье о [назначении приложений группам](apps-deploy.md).
