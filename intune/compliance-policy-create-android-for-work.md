@@ -1,12 +1,12 @@
 ---
 title: "Создание политики соответствия для Android for Work"
-titleSuffix: Azure portal
-description: "Узнайте, как создать политику соответствия требованиям для устройств Android for Work.\""
+titleSuffix: Microsoft Intune
+description: "Создайте политику соответствия для устройств Android for Work в Intune, чтобы указывать требования, которым должно соответствовать устройство."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 12/07/2016
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ms.assetid: 9da89713-6306-4468-b211-57cfb4b51cc6
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b5ff76137da7b42fddc5c1238ef9e102adfa1307
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 8ca31d4c83ccc6b786933080b96f66953cf1a108
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-android-for-work-devices-in-intune"></a>Создание политики соответствия требованиям для устройств Android for Work в Intune
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Политики соответствия требованиям создаются для каждой платформы.  Их можно создать на портале Azure. Дополнительные сведения о политиках соответствия требованиям см. в [этой статье](device-compliance.md). Сведения о предварительных требованиях, которые необходимо выполнить при создании политики соответствия требованиям, см. в статье [Начало работы с политиками соответствия устройств Intune](device-compliance-get-started.md).
+Политика соответствия Intune для устройств Android for Work указывает правила и параметры, которым должны соответствовать устройства Android for Work. Используйте эти политики с условным доступом, чтобы разрешить или запретить доступ к ресурсам компании. Получайте отчеты об устройствах и принимайте меры в случае несоответствия. Политики соответствия устройств создаются для каждой платформы на портале Intune Azure. Сведения о политиках соответствия и предварительных требованиях, которые необходимо выполнить при создании политики соответствия, см. в статье [Общие сведения о соответствии устройств политике](device-compliance-get-started.md).
 
 Следующая таблица показывает, что происходит с несоответствующими параметрами при использовании политики соответствия требованиям вместе с политикой условного доступа.
 
@@ -51,12 +51,14 @@ ms.lasthandoff: 02/09/2018
 
 ## <a name="create-a-compliance-policy-in-the-azure-portal"></a>Создание политики соответствия требованиям на портале Azure
 
-1. В колонке **Intune** выберите **Задание соответствия устройства требованиям**. В разделе **Управление** выберите **Все политики соответствия устройства** и щелкните **Создать**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+1. На панели **Intune** выберите пункт **Соответствие устройства политике**. В разделе **Управление** выберите **Политики** и нажмите **Создать политику**.
 2. Введите имя, описание и выберите платформу, к которой должна применяться данная политика.
-3. Выберите **Требования соответствия**, чтобы указать значения параметров **Безопасность**, **Работоспособность устройства** и **Device property** (Свойство устройства). По завершении нажмите кнопку **ОК**.
+3. Выберите **Настройка параметров** и укажите **Безопасность системы**, **Работоспособность устройства** и **Свойства устройства**. По завершении нажмите кнопку **ОК**.
 
 <!--- 4. Choose **Actions for noncompliance** to say what actions should happen when a device is determined as noncompliant with this policy.
-5. In the **Actions for noncompliance** blade, choose **Add** to create a new action.  The action parameters blade allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
+5. In the **Actions for noncompliance** pane, choose **Add** to create a new action.  The action parameters pane allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
 6. The message template option allows you to create several custom emails depending on when the action is set to take. For example, you can create a message for notifications that are sent for the first time and a different message for final warning before access is blocked. The custom messages that you create can be used for all your device compliance policy.
 7. Specify the **Grace period** which determines when that action to take place.  For example, you may want to send a notification as soon as the device is evaluated as noncompliant, but allow some time before enforcing the conditional access policy to block access to company resources like SharePoint online.
 8. Choose **Add** to finish creating the action.
@@ -64,10 +66,10 @@ ms.lasthandoff: 02/09/2018
 
 ## <a name="assign-user-groups"></a>Назначение групп пользователей
 
-Чтобы назначить пользователям политику соответствия требованиям, выберите настроенную политику. Имеющиеся политики можно найти в колонке **Соответствие > Политики**.
+Чтобы назначить пользователям политику соответствия требованиям, выберите настроенную политику. Имеющиеся политики можно найти на панели **Соответствие устройства — Политики**.
 
-1. Выберите политику, которую необходимо назначить пользователям, и щелкните **Назначения**. Откроется колонка, где можно выбрать **группы безопасности Azure Active Directory** и назначать их политике.
-2. Щелкните **Выбрать группы**, чтобы открыть колонку, в которой отображаются группы безопасности Azure AD.  При нажатии кнопки **Выбрать** политика развертывается для пользователей.
+1. Выберите политику, которую необходимо назначить пользователям, и щелкните **Назначения**. Откроется панель, на которой можно выбрать **группы безопасности Azure Active Directory** и назначить их политике.
+2. Нажмите **Выбранные группы**, чтобы открыть панель, на которой отображаются группы безопасности Azure AD.  Когда вы нажмете **Сохранить**, политика будет развернута для пользователей.
 
 Политика применена к пользователям.  Устройства пользователей, на которые распространяется политика, будут проверяться на соответствие требованиям.
 

@@ -1,11 +1,12 @@
 ---
 title: "Получение данных из API хранилища данных через клиент REST"
+titlesuffix: Microsoft Intune
 description: "Получение данных из хранилища данных Intune с помощью RESTful API"
 keywords: 
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/31/2017
+ms.date: 02/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,11 +15,11 @@ ms.assetid: D6D15039-4036-446C-A58F-A5E18175720A
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e96e1a728fbb054f412dc6c2a3610179aec18b75
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 22bfcc4e2947cba54509409132da3687d51a472d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 
@@ -34,9 +35,9 @@ ms.lasthandoff: 01/25/2018
 
 ## <a name="create-a-client-app-as-a-native-app-in-azure"></a>создание клиентского приложения в качестве собственного приложения в Azure;
 
-Создайте собственное приложение в Azure. Это собственное приложение является клиентским приложением. Клиент, запущенный на локальном компьютере, ссылается на API хранилища данных Intune, когда локальный клиент запрашивает учетные данные. 
+Создайте собственное приложение в Azure. Это собственное приложение является клиентским приложением. Клиент, запущенный на локальном компьютере, ссылается на API хранилища данных Intune, когда локальный клиент запрашивает учетные данные.
 
-1. Войдите на портал Azure своего клиента. Выберите **Azure Active Directory** > **Регистрации приложений**, чтобы открыть колонку **Регистрации приложений**.
+1. Войдите на портал Azure своего клиента. Выберите **Azure Active Directory** > **Регистрации приложений**, чтобы открыть панель **Регистрации приложений**.
 2. Выберите элемент **Регистрация нового приложения**.
 3. Введите сведения о приложении.
     1.  В поле **Имя**введите понятное имя, например "Intune Data Warehouse Client".
@@ -53,19 +54,19 @@ ms.lasthandoff: 01/25/2018
 Теперь у вас есть приложение, определенное в Azure. Предоставьте доступ из собственного приложения к API Microsoft Intune.
 
 1.  Выберите собственное приложение. Вы назвали приложение **Intune Data Warehouse Client**.
-2.  В колонке **Параметры** выберите **Необходимые разрешения**.
-3.  Нажмите кнопку **Добавить** в колонке **Необходимые разрешения**.
+2.  На панели **Параметры** выберите **Необходимые разрешения**
+3.  Нажмите кнопку **Добавить** на панели **Необходимые разрешения**.
 4.  Выберите элемент **Выбор API**.
 5.  Найдите имя веб-приложения. Приложение называется **Microsoft Intune API**.
 6.  Выберите приложение в списке.
 7.  Нажмите кнопку **Выбрать**.
 8.  Установите флажок **Делегированные разрешения**, чтобы добавить параметр **Получать сведения о хранилище данных из Microsoft Intune**.
 
-    ![Включение доступа](media\reports-get_rest_data_client_access.png)
+    ![Включить доступ — API Microsot Intune](media\reports-get_rest_data_client_access.png)
 
 9.  Нажмите кнопку **Выбрать**.
 10.  Нажмите кнопку **Готово**.
-11.  При необходимости выберите элемент **Предоставить разрешения** в колонке "Необходимые разрешения". Это позволит предоставить доступ ко всем учетным записям в текущем каталоге. Кроме того, диалоговое окно согласия не будет отображаться для каждого пользователя в клиенте. Дополнительные сведения см. в статье [Интеграция приложений с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications).
+11.  При необходимости выберите элемент **Предоставить разрешения** на панели "Необходимые разрешения". Это позволит предоставить доступ ко всем учетным записям в текущем каталоге. Кроме того, диалоговое окно согласия не будет отображаться для каждого пользователя в клиенте. Дополнительные сведения см. в статье [Интеграция приложений с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications).
 12.  Выберите **Да**.
 
 ## <a name="get-data-from-the-microsoft-intune-api-with-postman"></a>Получение данных из API Microsoft Intune с помощью Postman
@@ -88,14 +89,14 @@ ms.lasthandoff: 01/25/2018
 
 ### <a name="odata-endpoint"></a>Конечная точка OData
 
-Вам также нужна конечная точка. Чтобы получить конечную точку хранилища данных, вам потребуется пользовательский URL-адрес канала. Конечную точку OData можно получить в колонке хранилища данных.
+Вам также нужна конечная точка. Чтобы получить конечную точку хранилища данных, вам потребуется пользовательский URL-адрес канала. Конечную точку OData можно получить на панели хранилища данных.
 
-1. Войдите на портал Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** + **Intune**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. Выберите элемент **Настройка хранилища данных Intune** в области **Другие задачи**.
 4. Скопируйте пользовательский URL-адрес канала из области **Использовать сторонние службы отчетов**. Он должен выглядеть примерно так: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta`.
 
-Конечная точка имеет следующий формат: `https://fef.{yourtenant}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{entity}?api-version={verson-number}`. 
+Конечная точка имеет следующий формат: `https://fef.{yourtenant}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{entity}?api-version={verson-number}`.
 
 Например, сущность **dates** выглядит следующим образом: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`.
 
@@ -151,10 +152,10 @@ ms.lasthandoff: 01/25/2018
 > Следующий пример кода можно найти на сайте [GitHub](https://github.com/Microsoft/Intune-Data-Warehouse/blob/master/Samples/CSharp/Program.cs). Проверьте репозиторий GitHub на наличие последних изменений и обновлений для примера.
 
 1.  Откройте **Microsoft Visual Studio**.
-2.  Выберите **Файл** > **Создать проект**. Разверните **Visual C#** и выберите **Консольное приложение (.Net Framework)**. 
+2.  Выберите **Файл** > **Создать проект**. Разверните **Visual C#** и выберите **Консольное приложение (.Net Framework)**.
 3.  Назовите проект ` IntuneDataWarehouseSamples`, перейдите к папке, где вы хотите сохранить проект, и нажмите кнопку **ОК**.
 4.  Щелкните правой кнопкой мыши имя решения в обозревателе решений, а затем выберите **Управление пакетами NuGet для решения**. Нажмите кнопку **Обзор**, а затем введите `Microsoft.IdentityModel.Clients.ActiveDirectory` в поле поиска.
-5. Выберите пакет, в разделе "Управление пакетами для решения" выберите проект **IntuneDataWarehouseSamples**, а затем нажмите кнопку **Установить**. 
+5. Выберите пакет, в разделе "Управление пакетами для решения" выберите проект **IntuneDataWarehouseSamples**, а затем нажмите кнопку **Установить**.
 6. Нажмите кнопку **Принимаю**, чтобы принять условия лицензии для пакета NuGet.
 7. Откройте `Program.cs` в обозревателе решений.
 
@@ -178,15 +179,15 @@ namespace IntuneDataWarehouseSamples
     * emailAddress - The email address of the user that you will authenticate as.
     *
     * password  - The password for the above email address.
-    *    This is inline only for simplicity in this sample. We do not 
+    *    This is inline only for simplicity in this sample. We do not
     *    recommend storing passwords in plaintext.
     *
     * applicationId - The application ID of the native app that was created in AAD.
     *
-    * warehouseUrl   - The data warehouse URL for your tenant. This can be found in 
+    * warehouseUrl   - The data warehouse URL for your tenant. This can be found in
     *      the Azure portal.
-    * 
-    * collectionName - The name of the warehouse entity collection you would like to 
+    *
+    * collectionName - The name of the warehouse entity collection you would like to
     *      access.
     */
    var emailAddress = "intuneadmin@yourcompany.com";
@@ -224,6 +225,6 @@ namespace IntuneDataWarehouseSamples
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Сведения об авторизации, структуре URL-адреса API и конечных точках OData см. в статье [Конечная точка API для хранилища данных Intune](reports-api-url.md). 
+Сведения об авторизации, структуре URL-адреса API и конечных точках OData см. в статье [Конечная точка API для хранилища данных Intune](reports-api-url.md).
 
 Для поиска сущностей данных, содержащихся в интерфейсе API, можно также сослаться на модель данных для хранилища данных Intune. Дополнительные сведения см. в разделе [Модель данных для API хранилища данных Intune](reports-ref-data-model.md).

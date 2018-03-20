@@ -1,12 +1,12 @@
 ---
-title: "Условный доступ с Intune"
-titlesuffix: Azure portal
-description: "Здесь содержатся сведения о том, как определить условия, которым должны отвечать пользователи и устройства для доступа к корпоративным ресурсам в Microsoft Intune.\""
+title: "Условный доступ с помощью Microsoft Intune"
+titlesuffix: 
+description: "Узнайте, как определить условия, которым должны отвечать пользователи, устройства и приложения для доступа к корпоративным ресурсам в Microsoft Intune."
 keywords: 
-author: andredm7
-ms.author: andredm
+author: msmimart
+ms.author: mimart
 manager: dougeby
-ms.date: 05/23/2017
+ms.date: 03/06/2018
 ms.topic: get-started-article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,17 +14,17 @@ ms.technology:
 ms.assetid: a1973f38-ea55-43eb-a151-505fb34a8afb
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4d3d84f8010b72b9595f3ff54924d6c3fe245702
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 08589f3d9186699ce5241579cc1879be2d442e3d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="whats-conditional-access"></a>Что такое условный доступ?
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-В этой статье описывается условный доступ, его применение в Enterprise Mobility + Security (EMS), а также распространенные сценарии использования условного доступа в Intune.
+Условный доступ — это способ управления устройствами и приложениями, которым разрешено подключаться к вашей электронной почте и ресурсам компании. В этой статье описывается условный доступ для устройств и приложений и приводятся распространенные сценарии использования условного доступа в Intune.
 
 Технология условного доступа в Enterprise Mobility + Security (EMS) не является автономным продуктом и используется всеми службами и продуктами в составе решения EMS. Она обеспечивает детализированное управление доступом для эффективной защиты корпоративных данных, гарантируя при этом максимально продуктивную работу пользователей на любом устройстве и из любого места.
 

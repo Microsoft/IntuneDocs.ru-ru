@@ -6,7 +6,7 @@ keywords:
 author: MicrosoftGuyJFlo
 ms.author: joflore
 manager: dougeby
-ms.date: 11/17/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid:
 ms.reviewer: 
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5c02ea2df53b1524933cea72a8bcc3de89772e62
-ms.sourcegitcommit: 0a5f424a8f683daa919b13b5c363173040d561c8
+ms.openlocfilehash: 0f2d37a9033464381de5c23a558d0205f85fe56a
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-up-intune-certificate-connector-for-symantec-pki-manager-web-service"></a>Настройка Intune Certificate Connector для веб-службы Symantec PKI Manager
 
@@ -166,8 +166,11 @@ ms.lasthandoff: 02/13/2018
 
 Если вы уже используете последнюю версию Intune Certificate Connector для имеющегося ЦС Майкрософт и хотите добавить поддержку ЦС Symantec, пропустите этот шаг. В противном случае скачайте последнюю версию Intune Certificate Connector на портале администрирования Intune, а затем выполните эти инструкции.
 
-1. Войдите на сайт https://portal.azure.com, используя учетные данные администратора клиента Intune, и выполните поиск ресурсов Intune.
-2. Скачайте NDESConnectorSetup.exe, выбрав **Microsoft Intune** > **Device Configuration** (Настройка устройства)  > **Центр сертификации** > **Download the certificate connector link** (Загрузить ссылку на соединитель сертификатов).
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+3. На панели **Intune** выберите пункт **Конфигурация устройства**.
+4. На панели **Конфигурация устройства** выберите пункт **Центр сертификации**.
+5. Щелкните **Добавить** и выберите пункт **Скачать файл соединителя**. Сохраните файл в расположении, в котором вы сможете открыть его с сервера, на котором выполняется установка. 
 3. Выполните NDESConnectorSetup.exe с более высоким уровнем привилегий.
 
     a. На экране **Параметры установки** установите флажок **PFX Distribution** (Распределение PFX), как показано на снимке экрана ниже.  Выполните оставшиеся этапы установки, используя стандартные значения.
@@ -233,7 +236,7 @@ ms.lasthandoff: 02/13/2018
 
     a. Войдите на [портал Azure](https://portal.azure.com), используя учетные данные администратора клиента Intune, и выполните поиск ресурсов Intune.
 
-    b. Создайте профиль доверенного сертификата, выбрав **Microsoft Intune** > **Device Configuration** (Настройка устройства)  - **Профили** > **Создание профиля**.
+    b. Создайте профиль доверенного сертификата, выбрав **Microsoft Intune** > **Конфигурация устройства** > **Профили** > **Создать профиль**.
 
     c. Введите необходимые сведения в полях **Имя** и **Описание**, а затем выберите целевую платформу. 
 
@@ -264,7 +267,7 @@ ms.lasthandoff: 02/13/2018
 ## <a name="create-a-pkcs-certificate-profile"></a>Создание профиля сертификата PKCS
 
 1. Войдите на [портал Azure](https://portal.azure.com), используя учетные данные администратора клиента Intune, и выполните поиск ресурсов Intune.
-2. Создайте профиль сертификата PKCS, выбрав **Microsoft Intune** > **Device Configuration – Profiles** (Настройка устройства — профили)  > **Создание профиля** > **PKCS Certificate** (Сертификат PKCS).
+2. Создайте профиль сертификата PKCS, выбрав **Microsoft Intune** > **Конфигурация устройства > Профили** > **Создать профиль**.
 
     a. Введите необходимые сведения в полях **Имя** и **Описание**, а затем выберите целевую платформу.
 

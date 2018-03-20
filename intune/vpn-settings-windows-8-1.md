@@ -1,54 +1,54 @@
 ---
-title: "Параметры VPN для устройств с Windows 8.1 в Intune"
-titleSuffix: Azure portal
-description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах Windows 8.1.\""
+title: "Параметры VPN для устройств Windows 8.1 в Microsoft Intune"
+titleSuffix: 
+description: "Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Windows 8.1."
 keywords: 
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 12/15/2017
+ms.date: 3/6/2018
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
 ms.technology: 
-ms.assetid: 00a602d9-b339-4fd8-ab70-defbf6686855
-ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0126c483ec905d4c073e19b35498c27069ecd285
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8ced3e03fa337034076af75c7984a30cd75105bb
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/12/2018
 ---
-# <a name="vpn-settings-for-windows-81-devices-in-microsoft-intune"></a>Параметры VPN для устройств с ОС Windows 8.1 в Microsoft Intune
+# <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-windows-81"></a>Настройка параметров VPN для устройств Windows 8.1 в Microsoft Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Windows 8.1.
 
 В зависимости от выбранных параметров не все приведенные в следующем списке значения будут доступны для настройки.
 
 ## <a name="base-vpn-settings"></a>Основные параметры VPN
 
 
-- **Apply all settings to Windows 8.1 only** (Применение всех параметров только к устройствам с Windows 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры будут применяться только к устройствам Windows 8.1. Если выбрать значение **Не настроено**, эти параметры будут также применены к устройствам Windows 10.
-- **Имя подключения.** Введите имя подключения. Конечные пользователи увидят это имя при поиске устройства в списке доступных VPN-подключений.
-- **Серверы.** Добавьте один или несколько VPN-серверов, к которым будут подключаться устройства.
-    - **Добавить**. Открывает колонку **Добавить строку**, в которой можно указать перечисленные ниже сведения:
+- **Apply all settings to Windows 8.1 only** (Применение всех параметров только к устройствам с Windows 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры применяются только к устройствам Windows 8.1. Если выбрать значение **Не настроено**, эти параметры также применяются к устройствам Windows 10.
+- **Имя подключения.** Введите имя подключения. Пользователи видят это имя при поиске устройства в списке доступных VPN-подключений.
+- **Серверы**. Добавьте один или несколько VPN-серверов, к которым подключаются устройства.
+    - **Добавить**. Открывает страницу **Добавить строку**, в которой можно указать перечисленные ниже сведения:
         - **Описание**. Укажите описательное имя сервера, например **VPN-сервер Contoso**.
-        - **IP-адрес или полное доменное имя**. Укажите IP-адрес или полное доменное имя VPN-сервера, к которому будут подключаться устройства. Примеры: **192.168.1.1**, **vpn.contoso.com**.
-        - **Сервер по умолчанию**. Позволяет использовать данный сервер как сервер по умолчанию, который устройства будут использовать для установки подключения. Обязательно установите только один сервер в качестве сервера по умолчанию.
-    - **Импорт.** Найдите файл, содержащий список серверов с разделителями-запятыми, в описании формата, IP-адресе или полном доменном имени и на сервере по умолчанию. Щелкните **ОК**, чтобы импортировать эти параметры в список **Серверы**.
+        - **IP-адрес или полное доменное имя**. Укажите IP-адрес или полное доменное имя VPN-сервера, к которому подключаются устройства. Примеры: **192.168.1.1**, **vpn.contoso.com**.
+        - **Сервер по умолчанию**. Позволяет использовать данный сервер как сервер по умолчанию, который устройства используют для установки подключения. Обязательно установите только один сервер в качестве сервера по умолчанию.
+    - **Импорт**. Найдите файл, содержащий список серверов с указанными через запятую следующими данными: описание, IP-адрес или полное доменное имя, сервер по умолчанию. Щелкните **ОК**, чтобы импортировать эти параметры в список **Серверы**.
     - **Экспорт.** Экспортирует список серверов в файл данных с разделителями-запятыми (CSV).
 
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
 - **Check Point Capsule VPN**;
-- **Dell SonicWALL Mobile Connect**
+- **SonicWall Mobile Connect**
 - **F5 Edge Client**
 - **Pulse Secure**
 
 <!--- **Fingerprint** (Check Point Capsule VPN only) - Specify a string (for example, "Contoso Fingerprint Code") that will be used to verify that the VPN server can be trusted. A fingerprint can be sent to the client so it knows to trust any server that presents the same fingerprint when connecting. If the device doesn’t already have the fingerprint, it will prompt the user to trust the VPN server that they are connecting to while showing the fingerprint. (The user manually verifies the fingerprint and chooses **trust** to connect.) --->
 
-- **Домен или группа входа** (только для Dell SonicWALL Mobile Connect). Укажите имя группы входа или домена, к которым следует подключиться.
+- **Домен или группа входа** (только для SonicWall Mobile Connect). Укажите имя группы входа или домена, к которым следует подключиться.
 
 - **Роль** (только Pulse Secure). Укажите имя роли пользователя, имеющего доступ к этому подключению. Роль пользователя определяет личные настройки и параметры, а также включает или отключает определенные функции доступа.
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 01/25/2018
 
 ```
 
-**Пример для Dell SonicWALL Mobile Connect:**
+**Пример для SonicWall Mobile Connect:**
 ```
     <MobileConnect><Compression>false</Compression><debugLogging>True</debugLogging><packetCapture>False</packetCapture></MobileConnect>
 
