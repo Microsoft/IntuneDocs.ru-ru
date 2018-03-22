@@ -1,50 +1,49 @@
 ---
-title: "Сброс и удаление секретных кодов устройств с помощью Intune"
-titlesuffix: Azure portal
-description: "Сведения о том, как сбросить и удалить секретный код устройств, управляемых в Intune."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Сброс секретных кодов для устройств с помощью Microsoft Intune в Azure | Документация Майкрософт
+description: Удалите или сбросьте секретный код, используя соответствующее действие на устройствах, управляемых и наблюдаемых с помощью Intune.
+keywords: ''
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
-ms.date: 11/06/2017
+ms.date: 03/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4e1496d24fd9d3bb636a4eab00c254b753210f63
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: 8f23a79bbe72d12750ef642226aefd1e11dcac24
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="reset-and-remove-the-passcode-on-intune-managed-devices"></a>Сброс и удаление секретного кода на устройствах, управляемых в Intune
-
+# <a name="reset-or-remove-a-device-passcode-in-intune"></a>Сброс или удаление секретного кода устройства с помощью Intune
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-В этой статье термины *удаление* и *сброс* взаимозаменяемы.
-
-Действие **Удалить секретный код** создает для устройства новый секретный код, который отображается в колонке  **Обзор**<*имя устройства*> .
+Чтобы создать секретный код устройства, используйте действие **Удалить секретный код**.
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
-- Windows — не поддерживается
-- Windows Phone — поддерживается с Windows Phone 8.1 до Windows 10 Creators Update без присоединения к Azure AD, Windows 10 Creators Update и более поздние версии
-- iOS — поддерживается
-- macOS — не поддерживается
-- Android — поддерживается в версиях до Android 7. Android for Work не поддерживается.
+- Версии, начиная с Windows Phone 8.1 до Windows 10 Creators Update без присоединения к Azure AD, Windows 10 Creators Update и более поздние версии
+- iOS
+- Android до версии Android 7
 
-## <a name="how-to-reset-a-passcode"></a>Сброс секретного кода
+Эта возможность **не** поддерживается в следующих системах:
+
+- Windows
+- macOS
+- Android for Work
+
+## <a name="reset-a-passcode"></a>Сброс секретного кода
 
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В колонке **Intune** выберите **Устройства**.
-4. В колонке **Устройства** выберите **Все устройства**.
-5. Выберите нужное устройство в списке управляемых устройств, а затем нажмите **...Еще** и выберите удаленное действие **Удалить секретный код**.
+2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+3. Выберите **Устройства**, а затем — **Все устройства**.
+4. Выберите нужное устройство в списке управляемых устройств, а затем нажмите **...Еще** и выберите удаленное действие **Удалить секретный код**.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Чтобы просмотреть состояние выполненного действия, в колонке **Устройства** выберите **Действия устройства**.
+Чтобы просмотреть состояние выполненного действия, на панели **Устройства** выберите **Действия устройства**.

@@ -1,30 +1,30 @@
 ---
-title: "Условный доступ с Intune"
-titlesuffix: Azure portal
-description: "Стандартные способы использования условного доступа с помощью Intune"
-keywords: 
-author: Erikre
-ms.author: erikre
+title: Условный доступ с помощью Microsoft Intune
+titlesuffix: ''
+description: Узнайте, как условный доступ с помощью Intune используется для условного доступа на основе устройств и приложений.
+keywords: ''
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d5ec945cdbc4efa791edc51e659a1546876446c5
-ms.sourcegitcommit: 1978a30ab1af0f43aa5f447690d0bbcdcb9b563b
+ms.openlocfilehash: 9c34e6e2891769d64885d364f05dbedaa1fb7d57
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="common-ways-to-use-conditional-access-with-intune"></a>Стандартные способы использования условного доступа с помощью Intune
+# <a name="what-are-common-ways-to-use-conditional-access-with-intune"></a>Каковы стандартные способы использования условного доступа с помощью Intune?
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Существует два основных типа условного доступа с Intune. Первый тип — условный доступ на основе устройств. Второй тип — условный доступ на основе приложений. Необходимо настроить связанные политики соответствия, чтобы обеспечить соответствие условного доступа требованиям в вашей организации.
+Есть два типа условного доступа с помощью Intune: на основе устройств и приложений. Необходимо настроить связанные политики соответствия, чтобы обеспечить соответствие условного доступа требованиям в вашей организации. Условный доступ обычно используется для выполнения таких операций, как разрешение или блокирование доступа к сети в локальной среде Exchange или интеграция решений Mobile Threat Defense.
 
 Ознакомьтесь со следующей информацией, чтобы понять, как использовать возможности соответствия мобильных *устройств* и возможности управления мобильными *приложениями* (MAM) в Intune. 
 

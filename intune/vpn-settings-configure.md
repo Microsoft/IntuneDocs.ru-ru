@@ -1,23 +1,23 @@
 ---
-title: "Настройка параметров VPN в Microsoft Intune"
-titleSuffix: 
-description: "Сведения об использовании Microsoft Intune для настройки виртуальной частной сети (VPN) на управляемых устройствах."
-keywords: 
+title: Настройка параметров VPN в Microsoft Intune
+titleSuffix: ''
+description: Сведения об использовании Microsoft Intune для настройки виртуальной частной сети (VPN) на управляемых устройствах.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/25/2018
+ms.date: 03/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: feba7e7dc3e88d7d9beefc548c20bf19fbba662d
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 9480f19a8cd71e001d196674d3e285c8f2a8bb09
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="how-to-configure-vpn-settings-in-microsoft-intune"></a>Настройка параметров VPN в Microsoft Intune
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/02/2018
 |Cisco (IPSec)|Нет|Да|Нет|Нет|Нет|Нет|
 |Citrix|Да|Да|Нет|Нет|Нет|Да|
 |F5 Edge Client|Да|Да|Да|Да|Да|Да|
-|Dell SonicWALL Mobile Connect|Да|Да|Да|Да|Да|Да|
+|SonicWall Mobile Connect|Да|Да|Да|Да|Да|Да|
 |Check Point Capsule VPN|Да|Да|Да|Да|Да|Да|
 |Cisco AnyConnect|Да|Да|Да|Нет|Нет|Нет|
 |Автоматически|Нет|Нет|Нет|Нет|Нет|Да|
@@ -54,12 +54,12 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="create-a-device-profile-containing-vpn-settings"></a>Создание профиля устройства, содержащего параметры VPN
 
-1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
-3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
-2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
-3. В колонке профилей выберите **Создание профиля**.
-4. В колонке **Создание профиля** введите **имя** и **описание** для профиля VPN.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+3. На панели **Intune** выберите пункт **Конфигурация устройства**.
+2. На панели **Конфигурация устройства** последовательно выберите **Управление** > **Профили**.
+3. На панели профилей выберите **Создать профиль**.
+4. На панели **Создать профиль** введите **имя** и **описание** для профиля VPN.
 5. В раскрывающемся списке **Платформа** выберите платформу устройства, к которой необходимо применить параметры VPN. Сейчас для параметров VPN устройства можно выбрать одну из следующих платформ:
     - **Android**
     - **Android for Work**
@@ -76,9 +76,9 @@ ms.lasthandoff: 03/02/2018
     - [Параметры Windows Phone 8.1](vpn-settings-windows-phone-8-1.md)
     - [Параметры Windows 8.1](vpn-settings-windows-8-1.md)
     - [Параметры Windows 10](vpn-settings-windows-10.md) (включая Windows Holographic for Business)
-8. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
+8. По завершении вернитесь к панели **Создать профиль** и выберите **Создать**.
 
-Созданный профиль отобразится в колонке со списком профилей.
+Созданный профиль отобразится на панели со списком профилей.
 Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройствам](device-profile-assign.md).
 
 

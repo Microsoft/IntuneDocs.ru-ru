@@ -1,25 +1,25 @@
 ---
-title: "Подготовка к регистрации устройств Android в Intune"
+title: Подготовка к регистрации устройств Android в Intune
 titlesuffix: Microsoft Intune
-description: "Сведения о том, как зарегистрировать устройства Android в Intune."
-keywords: 
+description: Сведения о том, как зарегистрировать устройства Android в Intune.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 01/31/2018
+ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0a72199c9e38f4f4d9d7317469eea2e6254efee7
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 7e65a32843cec48268c7e205ab4a064038c28415
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
@@ -55,9 +55,9 @@ ms.lasthandoff: 03/02/2018
 1. **Настройка Intune MDM**<br>
 Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [задав в качестве центра сертификации управления мобильными устройствами](mdm-authority-set.md) службу **Microsoft Intune**.
 2. **Настройка привязки Android for Work**<br>
-    Войдите с правами администратора Intune на портал Azure и выберите **Другие службы** > **Мониторинг и управление** > **Intune**.
+    Войдите с правами администратора Intune на [портал Azure](https://portal.azure.com) и выберите **Все службы** > **Мониторинг и управление** > **Intune**.
 
-   a. В колонке **Intune** выберите элемент **Регистрация устройств** > **Регистрация Android for Work** и щелкните **Настройка**, чтобы открыть веб-сайт Android for Work в Магазине Google Play. Он открывается на новой вкладке в браузере.
+   a. На панели **Intune** выберите **Регистрация устройств** > **Регистрация Android for Work** и щелкните **Управление Google Play — Настройка**, чтобы открыть веб-сайт Android for Work в Магазине Google Play. Он открывается на новой вкладке в браузере.
    ![Экран регистрации в Android for Work](./media/android-work-bind.png)
 
    b. **Вход в Google**<br>
@@ -106,7 +106,7 @@ After configuring the Android for Work binding and settings, you can do the foll
 ### <a name="to-unbind-an-android-for-work-account"></a>Отмена привязки учетной записи Android for Work
 
 1. **Отмена привязки Android for Work**<br>
-    Войдите с правами администратора Intune на портал Azure и выберите **Другие службы** > **Мониторинг и управление** > **Intune**.  В колонке **Intune** выберите элемент **Регистрация устройств** > **Регистрация Android for Work**, а затем выберите элемент **Отменить привязку**.
+    Войдите с правами администратора Intune на [портал Azure](https://portal.azure.com) и выберите **Все службы** > **Мониторинг и управление** > **Intune**.  На панели **Intune** выберите элемент **Регистрация устройств** > **Регистрация Android for Work**, а затем выберите **Отменить привязку**.
 
 2. **Согласие на удаление привязки Android for Work**<br>
   Выберите элемент **Да**, чтобы удалить привязку и отменить регистрацию всех устройств Android for Work в Intune.

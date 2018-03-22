@@ -1,25 +1,25 @@
 ---
-title: "Начало работы с Microsoft Intune на портале Azure"
-titlesuffix: 
-description: "Сведения о создании, совместном использовании и просмотре панелей мониторинга в Microsoft Intune на портале Azure."
-keywords: 
+title: Начало работы с Microsoft Intune на портале Azure
+titlesuffix: ''
+description: Сведения о создании, совместном использовании и просмотре панелей мониторинга в Microsoft Intune на портале Azure.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/22/2018
-ms.topic: get-started-article
-ms.prod: 
+ms.date: 02/26/2018
+ms.topic: article
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 917c0eed-96d0-49d8-8db8-a6ba13ad0e1f
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bd2a5af8c5535fc45083b1386f378604b0b67353
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: f2d0a77c9e9e36db53c23031fd9f06f508fef15d
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="getting-started-with-microsoft-intune-in-the-azure-portal"></a>Начало работы с Microsoft Intune на портале Azure
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/02/2018
 
 ![Пользователь, выполняющий поиск Microsoft Intune в списке "Дополнительные службы".](./media/azure-add-intune1.png)
 
-1. Выберите **Дополнительные службы** в нижней части боковой панели в левой части страницы.
+1. Выберите **Все службы** на боковой панели слева.
 2. В поле фильтра введите условие поиска **Intune**.
 3. Выберите **звездочку**, чтобы добавить Intune в нижнюю часть списка избранных служб.
 4. Наведите указатель мыши на службу Intune. Перетащите Intune с помощью **трех вертикальных точек** справа от имени службы.
@@ -52,7 +52,7 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="using-services"></a>Использование служб
 
-При открытии Microsoft Intune или любой другой службы в Azure она отображается в **колонке**. Некоторые первые рабочие нагрузки, используемые в Intune, например **Пользователи**, **Группы** и **Мобильные приложения**, отображаются в колонке в полноэкранном режиме. Выбранная рабочая нагрузка открывает эту колонку во всю страницу. Другие открываемые колонки выдвигаются из правой части колонки и сворачиваются под главную колонку, из которой они появились.
+При открытии Intune или любой другой службы в Azure она отображается на **панели**. Некоторые первые рабочие нагрузки, используемые в Intune, например **Пользователи**, **Группы** и **Мобильные приложения**, отображаются на панели в полноэкранном режиме. Выбранная рабочая нагрузка открывает эту панель во всю страницу. Другие открываемые панели разворачиваются из правой части панели и сворачиваются под главную панель, из которой они появились.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
