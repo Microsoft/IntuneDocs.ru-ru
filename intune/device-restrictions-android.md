@@ -1,24 +1,24 @@
 ---
-title: "Параметры ограничений устройств в Microsoft Intune для Android"
-titlesuffix: 
-description: "Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Android."
-keywords: 
+title: Параметры ограничений устройств в Microsoft Intune для Android
+titlesuffix: ''
+description: Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Android.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 3/1/2018
+ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.reviewer: ayesham
+ms.technology: ''
+ms.reviewer: ayesham, chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d939d86f6ccd7f9851cfc52f1080fddaeee6a947
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: f938967951045d24ae65315b3b4d40749c1bc20f
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="microsoft-intune-android-and-samsung-knox-standard-device-restriction-settings"></a>Параметры ограничений для устройств Android и Samsung KNOX Standard в Microsoft Intune 
 
@@ -144,7 +144,7 @@ ms.lasthandoff: 03/05/2018
 
 Параметры киоска применимы только к устройствам Samsung KNOX Standard и приложениям, которые управляются с помощью Intune.
 
-- **Выбрать управляемое приложение.** Выберите один из следующих вариантов, чтобы добавить одно или несколько управляемых приложений, которые могут выполняться на устройстве в режиме киоска. Другим приложениям не будет разрешено выполняться на устройстве.
+- **Выбрать управляемое приложение.** Выберите один из следующих вариантов, чтобы добавить одно или несколько управляемых приложений, которые могут выполняться на устройстве в режиме киоска. Другим приложениям не будет разрешено выполняться на устройстве. Предварительно установленные браузеры нельзя определить как приложение, которое может выполняться, пока устройство находится в полноэкранном режиме. Если требуется браузер, попробуйте использовать [Managed Browser](app-configuration-managed-browser.md).
     - **Добавить приложения по имени пакета**
     - **Добавить приложения по URL-адресу**
     - **Добавить управляемые приложения**

@@ -1,25 +1,25 @@
 ---
-title: "Настройка интеграции Lookout с Intune"
-titlesuffix: Azure portal
-description: "Настройка вашей подписки Lookout в Intune"
-keywords: 
+title: Настройка интеграции Lookout с Microsoft Intune
+titlesuffix: ''
+description: Здесь приведены сведения об интеграции Intune с Lookout Mobile Threat Defense для управления доступом к корпоративным ресурсам с мобильных устройств.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fa13ee9239dcb1f62f4fb06e876ecc272a8f620c
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: 7ffd55a82af4f7fdc8d8df7cab818c59def74109
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Настройка интеграции Lookout Mobile Threat Defense с Intune
 

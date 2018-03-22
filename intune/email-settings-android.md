@@ -1,27 +1,29 @@
 ---
-title: "Параметры электронной почты Microsoft Intune для устройств Android и Android for Work"
-titleSuffix: 
-description: "Узнайте, какие параметры Microsoft Intune можно использовать для настройки параметров электронной почты на устройствах Android и Android for Work."
-keywords: 
+title: Параметры электронной почты Microsoft Intune для устройств Android и Android for Work
+titleSuffix: ''
+description: Узнайте, какие параметры Microsoft Intune можно использовать для настройки параметров электронной почты на устройствах Android и Android for Work.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 3/2/2018
+ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a68607be7cbd84d5a9e9080d0a8608bce85edd22
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: f989f9fafa4766ab71843c9dddef2bf3e18c5134
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="email-profile-settings-in-microsoft-intune-for-devices-running-android-and-android-for-work"></a>Параметры профиля электронной почты Microsoft Intune для устройств Android и Android for Work
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+В этой статье описаны параметры профиля электронной почты, которые вы можете настроить для устройств Android.
 
 Администратор Intune может создавать и назначать параметры электронной почты следующим устройствам Android:
 - [Android Samsung Knox Standard](#android-samsung-knox-standard-email-settings)

@@ -1,27 +1,30 @@
 ---
-title: "Параметры VPN для устройств Android в Microsoft Intune"
-titlesuffix: 
-description: "Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Android"
-keywords: 
+title: Параметры VPN для устройств Android в Microsoft Intune
+titlesuffix: ''
+description: Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Android
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/2/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3fe05b5fdd87e92f5acc35c0a750287f8fd01b92
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 909c014e1d68c26c1440c2b924e05dbaabbde5e5
+ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-android"></a>Настройка параметров VPN для устройств Android в Microsoft Intune 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
+
+В этой статье содержатся ведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Android.
+
 
 Вы можете настраивать параметры VPN для следующих платформ:
 
@@ -39,7 +42,7 @@ ms.lasthandoff: 03/05/2018
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
     - **Check Point Capsule VPN**;
     - **Cisco AnyConnect**
-    - **Dell SonicWALL Mobile Connect**
+    - **SonicWall Mobile Connect**;
     - **F5 Edge Client**
     - **Pulse Secure**
     - **Citrix**;
@@ -57,7 +60,7 @@ ms.lasthandoff: 03/05/2018
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
     - **Check Point Capsule VPN**;
     - **Cisco AnyConnect**
-    - **Dell SonicWALL Mobile Connect**
+    - **SonicWall Mobile Connect**;
     - **F5 Edge Client**
     - **Pulse Secure**
 

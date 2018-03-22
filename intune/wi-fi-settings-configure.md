@@ -1,23 +1,23 @@
 ---
-title: "Настройка параметров Wi-Fi в Intune"
+title: Настройка параметров Wi-Fi в Intune
 titleSuffix: Microsoft Intune
-description: "Сведения об использовании Microsoft Intune для настройки подключений Wi-Fi на управляемых устройствах."
-keywords: 
+description: Сведения об использовании Microsoft Intune для настройки подключений Wi-Fi на управляемых устройствах.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 1/25/2018
+ms.date: 03/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 21bc79d3440e57ec91f7e4482112d77cf233575f
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 90d2df028d5a61bb134b6a2b76efa570eed80f20
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Настройка параметров Wi-Fi в Microsoft Intune
 
@@ -47,17 +47,19 @@ ms.lasthandoff: 03/02/2018
 ## <a name="create-a-device-profile-containing-wi-fi-settings"></a>Создание профиля устройства, содержащего параметры Wi-Fi
 
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
-3. В колонке **Intune** выберите пункт **Конфигурация устройства**.
-2. В колонке **Конфигурация устройства** выберите **Управление** > **Профили**.
-3. В колонке профилей выберите **Создание профиля**.
-4. В колонке **Создание профиля** введите **имя** и **описание** для профиля Wi-Fi.
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+3. На панели **Intune** выберите пункт **Конфигурация устройства**.
+2. На панели **Конфигурация устройства** в разделе **Управление** выберите **Профили**.
+3. На панели профилей выберите **Создать профиль**.
+4. На панели **Создать профиль** введите **имя** и **описание** для профиля Wi-Fi.
 5. В раскрывающемся списке **Платформа** выберите платформу устройства, к которой необходимо применить параметры Wi-Fi. Сейчас для параметров Wi-Fi можно выбрать одну из следующих платформ:
     - **Android**
     - **Android for Work**
     - **iOS**
     - **macOS**
-    - **Windows 8.1 и более поздние версии (импорт профиля)**.
+    - **Windows Phone 8.1**
+    - **Windows 8.1 и более поздние версии**
+    - **Windows 10 и более поздних версий**.
 
    > [!IMPORTANT]
    > При создании профиля для устройств под управлением Windows 10, включая Windows Holographic for Business, необходимо выбрать платформу **Windows 8.1 и более поздние версии**. Платформа **Windows 10 и более поздние версии** не включает тип профиля Wi-Fi. 
@@ -70,9 +72,9 @@ ms.lasthandoff: 03/02/2018
     - [Параметры iOS](wi-fi-settings-ios.md)
     - [Параметры macOS](wi-fi-settings-macos.md)
     - [Параметры Windows 8.1 и более поздних версий](wi-fi-settings-import-windows-8-1.md) (включая Windows Holographic for Business)
-1. По завершении вернитесь в колонку **Создание профиля** и щелкните **Создать**.
+1. По завершении вернитесь к панели **Создать профиль** и щелкните **Создать**.
 
-Созданный профиль отобразится в колонке со списком профилей.
+Созданный профиль отобразится на панели со списком профилей.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

@@ -1,25 +1,25 @@
 ---
-title: "Создание группы в Microsoft Intune"
-titleSuffix: 
-description: "Организация пользователей в группы для упрощения управления политиками и приложениями, к которым они могут получить доступ."
-keywords: 
+title: Создание группы в Microsoft Intune
+titleSuffix: ''
+description: Организация пользователей в группы для упрощения управления политиками и приложениями, к которым они могут получить доступ.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 39a93fb5-d318-4997-a409-b64549a00e7a
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e052f7c8d5742859d009816473fe97a98c499b17
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 4fc4ee80b1cf5a8422d135d13a9fb498980500b5
+ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-a-group-to-manage-your-users-and-data-access"></a>Создание группы для управления пользователями и доступа к данным
 
@@ -30,11 +30,13 @@ Microsoft Intune использует Azure Active Directory (Azure AD) для 
 ## <a name="how-do-i-create-a-group"></a>Создание группы
 
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. С помощью функции **Поиск ресурсов** найдите **Intune**.
-3. Открыв колонку **Microsoft Intune**, выберите **Группы**.
-4. В колонке **Пользователи и группы — все группы** выберите **Создать группу**.
-5. В колонке **Группа** добавьте **Имя** и **Описание** для группы.
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+3. Открыв панель **Microsoft Intune**, выберите **Группы**.
+4. На панели **Пользователи и группы — все группы** выберите **Создать группу**.
+5. На панели **Группа** выберите **Тип группы**.
+5. Введите **имя** и **описание** группы.
 6. Задайте значение **Назначено** для параметра **Тип членства**. Не используйте параметр **Включить функции Office** для тестовой группы.
+7. Выберите **членов** группы.
 7. Нажмите кнопку **Создать**.
 
 Если вы успешно создали группу, она должна появиться в списке **Все группы**. В противном случае попробуйте создать другую группу.
