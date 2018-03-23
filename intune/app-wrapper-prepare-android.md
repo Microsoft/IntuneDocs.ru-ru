@@ -1,24 +1,24 @@
 ---
-title: "Создание программы-оболочки Intune для приложений Android с помощью соответствующего инструмента"
-description: "Узнайте, как создать программу-оболочку для приложений Android, не меняя код самого приложения, а также подготовить приложения для применения политики управления мобильными приложениями."
-keywords: 
+title: Создание программы-оболочки Intune для приложений Android с помощью соответствующего инструмента
+description: Узнайте, как создать программу-оболочку для приложений Android, не меняя код самого приложения, а также подготовить приложения для применения политики управления мобильными приложениями.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/05/2018
+ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 33774f1326f961e6072197d46e9eb64f121739c9
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: de63fe9476e4fa0f3f85343659538856f2f841d8
+ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -30,8 +30,6 @@ ms.lasthandoff: 03/05/2018
 
 
 Перед запуском инструмента просмотрите раздел [Вопросы безопасности при запуске инструмента упаковки для приложений](#security-considerations-for-running-the-app-wrapping-tool). Чтобы скачать этот инструмент, посетите раздел [Microsoft Intune App Wrapping Tool for Android](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android) (Инструмент упаковки для приложений Microsoft Intune для Android) на GitHub.
-
-
 
 ## <a name="fulfill-the-prerequisites-for-using-the-app-wrapping-tool"></a>Выполнение необходимых условий для использования средства изоляции приложений
 
@@ -51,6 +49,8 @@ ms.lasthandoff: 03/05/2018
     > В некоторых случаях 32-разрядная версия Java может привести к проблемам с памятью. Рекомендуется установить 64-разрядную версию.
 
 - В Android все пакеты приложений (.apk) должны быть подписаны. Сведения о **повторном использовании** существующих сертификатов и общее руководство о сертификатах для подписи см. в статье [Повторное использование сертификатов для подписи и упаковка приложений](https://docs.microsoft.com/intune/app-wrapper-prepare-android#reusing-signing-certificates-and-wrapping-apps). Исполняемый файл keytool.exe Java используется для **создания** учетных данных, необходимых для подписи упакованного выходного приложения. Все заданные пароли должны быть безопасными, но не забывайте их, так как они потребуются позже для запуска инструмента упаковки для приложений.
+
+- Включите Multidex во входном приложении (необязательно). Иногда в приложении может достигаться максимальный размер исполняемого файла Dalvik (DEX) из-за классов пакета SDK для Intune MAM, которые добавляются во время упаковки. Файлы DEX являются частью компиляции приложения Android. В такой ситуации рекомендуется включить Multidex в самом приложении. В некоторых организациях для этого может потребоваться взаимодействие с теми, кто компилирует приложение (например, с группой по сборке приложений). 
 
 ## <a name="install-the-app-wrapping-tool"></a>Установка инструмента упаковки для приложений
 
@@ -159,6 +159,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 Эти инструкции относятся ко всем приложениям для Android и Xamarin, которые нуждаются в обязательном применении политик защиты устройств Intune на устройстве конечного пользователя.
 
 1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
+
 > [!NOTE] 
 > Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
 * Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".

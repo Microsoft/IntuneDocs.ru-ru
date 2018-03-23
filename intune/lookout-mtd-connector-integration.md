@@ -15,11 +15,11 @@ ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7ffd55a82af4f7fdc8d8df7cab818c59def74109
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 8b1b7d9ef1a7dce0b5a139f3b8acb85ab7d11d4c
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Настройка интеграции Lookout Mobile Threat Defense с Intune
 
@@ -72,8 +72,6 @@ ms.lasthandoff: 03/08/2018
 2.  При первом входе в консоль Lookout следует использовать учетную запись пользователя с ролью глобального администратора Azure AD для регистрации вашего клиента Azure AD. Для последующего входа такой уровень прав Azure AD не потребуется. Открывается страница согласия. Выберите **Принять** для завершения регистрации. Приняв условия, вы будете перенаправлены в консоль Lookout.
 
     ![снимок экрана страницы первоначального входа в консоль Lookout](./media/lookout_mtp_initial_login.png)
-    > [!NOTE] 
-    > В разделе [Диагностика интеграции Lookout](https://docs.microsoft.com/intune/troubleshoot/troubleshooting-lookout-integration) описаны способы устранения проблем со входом в систему.
 
 3.  В модуле **Система** [консоли Lookout](https://aad.lookout.com) выберите **Соединители** и **Intune**.
 

@@ -1,25 +1,25 @@
 ---
-title: "Отслеживание профилей устройств с помощью Intune"
-titlesuffix: Azure portal
-description: "Узнайте, как отслеживать назначенные профили устройств Intune.\""
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Отслеживание профилей устройств с помощью Intune
+titlesuffix: Microsoft Intune
+description: Узнайте, как отслеживать назначенные профили устройств Microsoft Intune.
+keywords: ''
+author: vhorne
+ms.author: victorh
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9deaed87-fb4b-4689-ba88-067bc61686d7
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ce72427900fcc6720048c7430a9194eb38bfe2ce
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 7483d2568ef3a43b7774916ef0a5f8f9b4540e4e
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="how-to-monitor-device-profiles-in-microsoft-intune"></a>Мониторинг профилей устройств в Microsoft Intune
 

@@ -1,25 +1,25 @@
 ---
-title: "Настройка параметров общих устройств Intune для приложения iOS Класс"
-titlesuffix: Azure portal
-description: "Сведения о параметрах Intune, с помощью которых можно управлять параметрами приложения Класс на устройствах iOS.\""
-keywords: 
+title: Настройка параметров общих устройств Intune для приложения iOS Класс
+titleSuffix: Microsoft Intune
+description: Сведения о параметрах Intune, с помощью которых можно управлять параметрами приложения "Класс" на устройствах iOS.
+keywords: ''
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8f6dc373f831b574abf7d63e97935a379e731422
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 4924d01c6f5d423b7c553d11eea065534179fe5f
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>Настройка параметров образования Intune для общих устройств iPad
 
@@ -48,7 +48,6 @@ SDS синхронизирует сведения из вашей системы
 
 - [CSV-файлы.](https://support.office.com/article/Follow-these-steps-71d5fe4a-aa51-4f35-9b53-348898a390a1) Вручную экспортируйте и скомпилируйте файлы с разделителями-запятыми (CSV-файлы).
 - [PowerSchool API.](https://support.office.com/article/Follow-these-steps-851b5edc-558f-43a9-9122-b2d63458cb8f) Поставщик SIS, который упрощает синхронизацию с Azure AD.
-- [Clever API.](https://support.office.com/article/Follow-these-steps-f3d92fde-3ad0-48f3-80a1-1ad0ac4a3fae) Решение для управления удостоверениями, которое синхронизируется напрямую с Azure AD.
 - [OneRoster.](https://support.office.com/article/Follow-these-steps-f43cbb2a-b502-497d-a8b1-783dc05a57ab) Формат CSV, который можно экспортировать и преобразовать для синхронизации с Azure AD.
 
 ### <a name="find-out-more"></a>Дополнительные сведения

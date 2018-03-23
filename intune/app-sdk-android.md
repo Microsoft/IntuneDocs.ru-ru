@@ -1,24 +1,24 @@
 ---
-title: "Руководство по пакету SDK для приложений Intune для разработчиков под Android"
-description: "Пакет SDK для приложений Microsoft Intune для Android позволяет встроить в ваше приложение Android функции управления мобильными приложениями (MAM)."
-keywords: "Пакет SDK"
+title: Руководство по пакету SDK для приложений Intune для разработчиков под Android
+description: Пакет SDK для приложений Microsoft Intune для Android позволяет встроить в ваше приложение Android функции управления мобильными приложениями (MAM).
+keywords: Пакет SDK
 author: Erikre
 manager: dougeby
 ms.author: erikre
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7089ccbcd895cb1462b098354db237f5d041aa01
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 0eafbe9c57051b62f6ed53a3930705eabf5aebd0
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -1311,7 +1311,7 @@ public interface MAMAppConfig {
 Конфигурация приложения добавляет новый тип уведомления.
 * **REFRESH_APP_CONFIG**. Это уведомление отправляется в `MAMUserNotification` и сообщает приложению о том, что доступны новые данные конфигурации приложения.
 
-Дополнительные сведения о возможностях API Graph при работе со значениями целевой конфигурации MAM см. в [справочнике по API Graph для целевой конфигурации MAM](https://developer.microsoft.com/graph/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create). <br>
+Дополнительные сведения о возможностях API Graph см. в [справочнике по API Graph](https://developer.microsoft.com/graph/docs/concepts/overview). <br>
 
 Дополнительные сведения о создании целевой политики конфигурации приложений MAM в Android см. в статье [Использование политик конфигурации приложений Microsoft Intune для Android](https://docs.microsoft.com/intune/app-configuration-policies-use-android) в разделе, посвященном целевой конфигурации приложений MAM.
 

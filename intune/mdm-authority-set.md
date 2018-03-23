@@ -1,25 +1,25 @@
 ---
-title: "Установка центра управления мобильными устройствами"
+title: Установка центра управления мобильными устройствами
 titlesuffix: Microsoft Intune
-description: "Установите Intune в качестве центра управления мобильными устройствами."
-keywords: 
+description: Установите Intune в качестве центра управления мобильными устройствами.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 02/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c4d91d00995d821b14b3b2a04681b4c57258a7c0
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: ce6464cc6aa67636743479e69ad2b55c9b102ed9
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 
@@ -40,7 +40,8 @@ ms.lasthandoff: 03/05/2018
 
 ## <a name="set-mdm-authority-to-intune"></a>Выбор Intune в качестве центра MDM
 
-1. На [портале Azure](https://portal.azure.com) выберите пункты **Дополнительные службы** > **Мониторинг и управление** > **Intune**.
+1. Войдите на [портал Azure](https://portal.azure.com).
+2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 2. Щелкните оранжевый баннер, чтобы открыть **центр управления мобильными устройствами**.
 3. В разделе **Центр управления мобильными устройствами**, выберите свой центр MDM в следующем списке.
   - **Центр MDM в Intune**
@@ -59,7 +60,7 @@ ms.lasthandoff: 03/05/2018
 - **iOS** — (обязательно) [получить сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md), а затем [включить регистрацию для корпоративных устройств iOS](ios-enroll.md) (необязательно);
 - **Android** — (необязательно) [включить профили Android for WorkAndroid](android-enroll.md);
 - **Windows** — (необязательно) включить [автоматическую регистрацию](windows-enroll.md) или [массовую регистрацию](windows-bulk-enroll.md);
-- **macOS** — требования отсутствуют.
+- **macOS** — (обязательно) [Получение сертификата MDM Push Certificate](apple-mdm-push-certificate-get.md).
 
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>Очистка мобильного устройства после окончания срока действия сертификата MDM

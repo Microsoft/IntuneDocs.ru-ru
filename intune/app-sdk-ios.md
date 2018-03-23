@@ -1,24 +1,24 @@
 ---
-title: "Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS"
-description: "Пакет SDK для приложений Microsoft Intune для iOS позволяет встроить в собственное приложение для iOS политики защиты приложений Intune, также известные как политики защиты приложений (APP) или политики управления мобильными приложениями (MAM)."
-keywords: 
+title: Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
+description: Пакет SDK для приложений Microsoft Intune для iOS позволяет встроить в собственное приложение для iOS политики защиты приложений Intune, также известные как политики защиты приложений (APP) или политики управления мобильными приложениями (MAM).
+keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 49ffac609ec24917b8490c535ebd74c6d2729ccd
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 498b9ec1ab98358f73c0ca2139f156164a253a75
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -470,7 +470,7 @@ WebViewHandledURLSchemes | Массив строк | Указывает схем
 * Вызовите ```[[IntuneMAMAppConfigManager instance] appConfigForIdentity:]```, чтобы получить объект конфигурации приложения.
 * Вызовите подходящий селектор для объекта ```IntuneMAMAppConfig```. Например, если ключ приложения является строкой, можно использовать ```stringValueForKey``` или ```allStringsForKey```. Файл ```IntuneMAMAppConfig.h header``` сообщает о возвращаемых значениях и условиях ошибки.
 
-Дополнительные сведения о возможностях API Graph при работе со значениями целевой конфигурации MAM см. в [справочнике по API Graph для целевой конфигурации MAM](https://developer.microsoft.com/graph/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create). <br>
+Дополнительные сведения о возможностях API Graph см. в [справочнике по API Graph](https://developer.microsoft.com/graph/docs/concepts/overview). <br>
 
 Дополнительные сведения о создании целевой политики конфигурации приложений MAM в iOS см. в разделе, посвященном целевой конфигурации MAM приложения, статьи [Использование политик конфигурации приложений Microsoft Intune для iOS](https://docs.microsoft.com/intune/app-configuration-policies-use-ios).
 

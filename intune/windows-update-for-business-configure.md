@@ -1,23 +1,23 @@
 ---
-title: "Настройка параметров Центра обновления Windows для бизнеса в Intune"
-titleSuffix: Azure portal
-description: "Узнайте, как настроить параметры Центра обновления Windows для бизнеса в Intune для управления обновлениями на устройствах с Windows 10.\""
-keywords: 
+title: Настройка параметров Центра обновления Windows для бизнеса в Microsoft Intune
+titleSuffix: ''
+description: Узнайте, как настроить параметры Центра обновления Windows для бизнеса в Microsoft Intune для управления обновлениями на устройствах с Windows 10.
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: d6ccda2aba0b1383de6c38b7a2fdcfdc742d0e15
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: ac26d0ac1855aa32ef0f00de6a4056bd57c07528
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="manage-software-updates"></a>Управление обновлениями программного обеспечения
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 03/08/2018
 - **Тип данных**: строковый
 - **Значение**: <*используйте GUID, показанный на вкладке "Телеметрия Windows" в рабочей области OMS*>
 
-![Параметр Windows для данных о диагностике и использовании](./media/commID.png)
+![OMA — параметр универсального кода ресурса (URI) — добавление строки](./media/commID.png)
 
 ## <a name="how-to-pause-updates"></a>Приостановка обновлений
 Получение обновлений компонентов или исправлений на устройстве можно приостановить на срок до 35 дней с момента приостановки обновлений. По истечении максимального числа дней функция приостановки будет автоматически отключена, и устройство сможет проверить наличие обновлений в Центре обновления Windows. По окончании такой проверки функцию приостановки обновлений можно снова включить.

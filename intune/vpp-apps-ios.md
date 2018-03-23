@@ -1,12 +1,12 @@
 ---
-title: Управление приложениями iOS, приобретенными по программе Volume Purchase Program | Документация Майкрософт
-titlesuffix: Azure portal
-description: Узнайте о том, как синхронизировать приложения, приобретенные по программе Volume Purchase Program в магазине iOS, в Intune, а затем управлять ими и отслеживать их использование."
+title: Управление приложениями iOS, приобретенными по программе Volume Purchase Program в Microsoft Intune
+titlesuffix: ''
+description: Вы узнаете, как синхронизировать в Microsoft Intune приложения, приобретенные по программе Volume Purchase Program в магазине iOS, а затем управлять ими и отслеживать их использование.
 keywords: ''
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/02/2018
+ms.date: 03/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 04a94e4baee23ac9a4a742a2ff11591087381fde
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: bd9915f3120e2fee2b487fbfff0d775a9d50ef8a
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 

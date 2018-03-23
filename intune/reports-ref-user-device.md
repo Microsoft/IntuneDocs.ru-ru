@@ -1,24 +1,25 @@
 ---
-title: "Сопоставление пользователя и устройства — хранилище данных Intune | Документация Майкрософт"
-description: "Список изменений в API-интерфейсе хранилища данных Intune."
-keywords: "Хранилище данных Intune"
+title: Сопоставление пользователя и устройства — хранилище данных Intune
+titlesuffix: Microsoft Intune
+description: Список изменений в API-интерфейсе хранилища данных Intune.
+keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/19/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 777484A7-09CE-4409-987F-76B3F87DFE93
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9032ffa547daeb19e694a0245dfec676d85a5793
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: de14444376cb2998f17f406f084c428523ef4e4f
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="user-device-association"></a>Сопоставление пользователя и устройства
 

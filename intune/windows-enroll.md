@@ -1,25 +1,25 @@
 ---
-title: "Настройка регистрации для устройств Windows с помощью Microsoft Intune"
-titlesuffix: 
-description: "Настройка регистрации для устройств Windows."
-keywords: 
+title: Настройка регистрации для устройств Windows с помощью Microsoft Intune
+titlesuffix: ''
+description: Настройка регистрации для устройств Windows.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 12/29/2017
+ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 21849cd4bb1c77334fdc3e9e347365a25ab4df2d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 896c984cb5831dc84a041d4ad39e4cdf6819f0f8
+ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
@@ -85,6 +85,9 @@ ms.lasthandoff: 03/08/2018
 > Чтобы просмотреть приложения Windows, назначенные для конкретных версий Windows, конечные пользователи должны зайти на веб-сайт корпоративного портала с помощью Microsoft Edge. Другие браузеры, включая Google Chrome, Mozilla Firefox и Internet Explorer, не поддерживают этот тип фильтрации.
 
 Инструкции по регистрации для пользователей см. в статье [Регистрация устройства Windows в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows). Вы также можете посоветовать пользователям изучить статью [Какие сведения ИТ-администратор может просматривать на моем устройстве?](https://docs.microsoft.com/intune-user-help/what-can-your-it-administrator-see-when-you-enroll-your-device-in-intune-windows).
+
+>[!IMPORTANT]
+> Если автоматическая регистрация в системе MDM не включена, но у вас есть устройства с Windows 10, присоединенные к Azure Active Directory, после регистрации в консоли Intune будут отображаться две записи. Чтобы этого не происходило, пользователи устройств, присоединенных к Azure Active Directory, должны выбрать элемент **Учетные записи** > **Доступ к рабочей или учебной среде** и **подключиться**, используя ту же учетную запись. 
 
 Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](end-user-educate.md).
 

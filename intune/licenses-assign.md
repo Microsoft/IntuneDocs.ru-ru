@@ -1,24 +1,24 @@
 ---
-title: "Назначение лицензий Microsoft Intune"
-description: "Назначение пользователям лицензий для регистрации устройств в Intune"
-keywords: 
+title: Назначение лицензий Microsoft Intune
+description: Назначение пользователям лицензий для регистрации устройств в Intune
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 10/31/2017
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bb4314ea-88b5-44d3-92ce-4c6aff0587a4
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 45baadb24ac646a6456e04c85a701842774c7930
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 67d12c748c5f4daabcb64eff7a154455b39a57d0
+ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="assign-licenses-to-users-so-they-can-enroll-devices-in-intune"></a>Назначение пользователям лицензий для регистрации устройств в Intune
 
@@ -58,6 +58,17 @@ ms.lasthandoff: 03/05/2018
 * Каждый **пользователь**, которому вы назначите пользовательскую лицензию на программное обеспечение, получает права на доступ к веб-службам и связанному с ними ПО (включая System Center), а также их использование для управления приложениями и максимум 15 устройствами.
 * Каждое **устройство**, которому вы назначите лицензию устройства на программное обеспечение, получает права на доступ к веб-службам и связанному с ними ПО (включая System Center), а также их использование для любого числа пользователей.
 * Если устройство используется несколькими пользователями, для каждого из них требуется лицензия устройства на ПО либо у каждого должна быть пользовательская лицензия на ПО.
+
+## <a name="understanding-the-type-of-licenses-you-have-purchased"></a>Определение типа приобретенных лицензий
+
+Сведения о подписке зависят от способа приобретения Intune.
+
+- Если вы приобрели Intune по соглашению Enterprise, сведения о подписке можно найти на портале корпоративного лицензирования в разделе **Подписки**.
+- Если вы приобрели Intune через поставщика облачных решений, обратитесь к торговому посреднику.
+- Если вы приобрели Intune по номеру CC# или накладной, лицензии предоставляются по модели "на пользователя".
+
+
+
 
 ## <a name="use-powershell-to-selectively-manage-ems-user-licenses"></a>Использование PowerShell для избирательного управления пользовательскими лицензиями EMS
 Организации, использующие Microsoft Enterprise Mobility + Security (ранее Enterprise Mobility Suite), могут иметь пользователей, которым в пакете EMS нужны только службы Azure Active Directory Premium или Intune. Можно назначить одну службу или подмножество служб с помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx).

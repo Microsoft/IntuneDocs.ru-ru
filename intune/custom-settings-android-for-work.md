@@ -1,25 +1,25 @@
 ---
-title: "Настраиваемые параметры профиля Intune для устройств Android for Work"
-titlesuffix: Azure portal
-description: "Сведения о создании настраиваемых параметров профиля Intune для устройств Android for Work.\""
-keywords: 
+title: Настраиваемые параметры профиля Intune для устройств Android for Work
+titlesuffix: Microsoft Intune
+description: Сведения о создании настраиваемых параметров профиля Microsoft Intune для устройств Android for Work.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 04/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4724d6e5-05e5-496c-9af3-b74f083141f8
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 54365f03df39d879583bd8806b5cc6513a8c4dfb
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a3f2b85e4ebf01082f075feaac5100b43d4f1392
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="create-intune-custom-profile-settings-for-android-for-work-devices"></a>Создание настраиваемых параметров профиля Intune для устройств Android for Work
 
