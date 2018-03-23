@@ -1,23 +1,24 @@
 ---
-title: "Шаблоны и ресурсы для планирования и проектирования развертывания Intune"
-description: "Ссылки на шаблоны планирования и дополнительные сведения по Intune, которые могут оказаться полезными во время планирования и внедрения развертывания Intune."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Шаблоны и ресурсы для планирования и проектирования развертывания Intune
+titlesuffix: Microsoft Intune
+description: Ссылки на шаблоны планирования и дополнительные сведения об Intune, которые могут оказаться полезными во время планирования и реализации развертывания Microsoft Intune.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 63060896-e00e-4ef0-b2ad-276e55164895
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
-ms.openlocfilehash: 8a5a819fc8d081330be60e8b83944e326baaba2b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 67476afbd00cf54162b316e6c38967bccbed34ad
+ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="additional-resources-for-planning-your-intune-deployment"></a>Дополнительные ресурсы по планированию развертывания Intune
 
@@ -50,7 +51,7 @@ ms.lasthandoff: 01/25/2018
 
 -   [Блог по Intune](https://blogs.technet.microsoft.com/enterprisemobility/). Блог, в котором вы найдете полезную информацию о службе Intune в более широком контексте среды Enterprise Mobility.
 
--   [Центр управления безопасностью Майкрософт](http://www.microsoft.com/TrustCenter/default.aspx). Сведения о подходе корпорации Майкрософт к обеспечению безопасности, конфиденциальности, соответствия требованиям и прозрачности для всех облачных продуктов и служб Майкрософт.
+-   [Центр управления безопасностью Майкрософт](http://www.microsoft.com/TrustCenter). Сведения о подходе корпорации Майкрософт к обеспечению безопасности, конфиденциальности, соответствия требованиям и прозрачности для всех облачных продуктов и служб Майкрософт.
 
 -   [Сайт Intune User Voice](http://microsoftintune.uservoice.com/). Хотите предложить собственную функцию или проголосовать за варианты других пользователей? Поделитесь своим мнением об Intune с помощью сайта User Voice. Мы будем рады вашим отзывам.
 

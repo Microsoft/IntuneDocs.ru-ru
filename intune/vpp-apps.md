@@ -1,25 +1,25 @@
 ---
-title: "Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Intune"
-titlesuffix: Azure portal
-description: "Сведения об управлении и отслеживании приложений и книг, приобретенных в магазинах по программе Volume Purchase Program, с помощью Intune.\""
-keywords: 
-author: erikre
+title: Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune
+titlesuffix: ''
+description: Сведения об управлении приложениями и книгами, приобретенными в магазинах по программе Volume Purchase Program, и их отслеживании с помощью Microsoft Intune.
+keywords: ''
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/03/2017
+ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 85b07f57-661a-4bc8-87d2-7b446d5cf4d6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: edd39502ae61991c9c596d859c667b65b6e0d3c1
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b33a129954fbd5bbf5ce3907810ceb7e42849737
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="manage-volume-purchased-apps-and-books-with-microsoft-intune"></a>Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune
 

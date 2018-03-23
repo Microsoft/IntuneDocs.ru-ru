@@ -1,24 +1,25 @@
 ---
-title: "Разработка коммуникационного плана развертывания"
-description: "Эта статья поможет вам разработать коммуникационный план развертывания для своего развертывания Intune."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Разработка коммуникационного плана развертывания
+titlesuffix: Microsoft Intune
+description: Эта статья поможет вам разработать коммуникационный план выпуска для своего развертывания Microsoft Intune.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 393ebe75-d001-485a-b81c-6361c8b5e6ee
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7a358d3cbdd1fadcb6162a9b1eb0c5266c11a0bb
-ms.sourcegitcommit: 80a2eefc1896a42cc2bc16be23093d1abf58b088
+ms.openlocfilehash: b985b92b4ea68fedba3c0d04e53c1e6116a64015
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="develop-a-rollout-communication-plan"></a>Разработка коммуникационного плана развертывания
 

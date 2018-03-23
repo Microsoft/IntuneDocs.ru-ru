@@ -1,25 +1,26 @@
 ---
-title: "Настройка политик соответствия устройств и управления приложениями во время миграции Intune"
-description: "В этой статье представлена процедура настройки политик соответствия устройств и управления приложениями во время миграции Intune."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: Настройка политик соответствия устройств и управления приложениями во время миграции Intune
+titlesuffix: Microsoft Intune
+description: В этой статье представлена процедура настройки политик соответствия устройств и управления приложениями во время миграции в Microsoft Intune.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 07/11/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0062d08e-e5b3-4f73-8b64-5ad95adbe945
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 96541c503a387e1a2ad3a4158f441266f1202be0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 13a9c0a036eb6ce6ea7e984419c9598194b35b68
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/16/2018
 ---
-# <a name="configure-device-compliance-and-app-management-policies"></a>Настройка политик соответствия устройств и управления приложениями
+# <a name="configure-device-compliance-and-app-management-policies-when-migrating-to-microsoft-intune"></a>Настройка политик соответствия устройств и управления приложениями во время миграции в Microsoft Intune
 
 При миграции в Intune важнее всего зарегистрировать все устройства в Intune и обеспечить их соответствие политикам. С помощью политик устройств можно управлять корпоративными устройствами для одного пользователя, личными (BYOD) и общими устройствами, такими как киоски, POS-компьютеры, планшеты, которые используют несколько студентов в аудитории или устройства без пользователя (только iOS).
 

@@ -1,25 +1,25 @@
 ---
-title: "Аутентификация в хранилище данных, предназначенная только для приложений"
-titlesuffix: Azure portal
-description: "В этой статье рассматривается аутентификация в хранилище данных, предназначенная только для приложений"
-keywords: 
+title: Аутентификация в хранилище данных, предназначенная только для приложений
+titleSuffix: Microsoft Intune
+description: В этой статье рассматривается проверка подлинности в хранилище данных, предназначенная только для приложений.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 02/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d7166563-6bb5-4624-b8c8-6b300a997c3a
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7a4964293b062f42becc34b14fe44cb827c44360
-ms.sourcegitcommit: 0a5f424a8f683daa919b13b5c363173040d561c8
+ms.openlocfilehash: e926d3d9e9dfbf6025fb36fd54e64f28b662fc89
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="intune-data-warehouse-application-only-authentication"></a>Аутентификация в хранилище данных, предназначенная только для приложений
 

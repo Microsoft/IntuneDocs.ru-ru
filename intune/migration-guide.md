@@ -1,29 +1,30 @@
 ---
-title: "Руководство по переходу к управлению мобильными устройствами Intune"
-description: "В этом руководстве содержатся разные сведения, посвященные переходу от стороннего поставщика MDM к Microsoft Intune."
-keywords: 
-author: andredm7
-ms.author: andredm
+title: Руководство по переходу к управлению мобильными устройствами Intune
+titlesuffix: Microsoft Intune
+description: В этом руководстве содержатся разные сведения, посвященные переходу от стороннего поставщика MDM к Microsoft Intune.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 07/11/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dcfc21f9-1bcd-4371-a46d-f2e18154ec50
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 888624530fe77f22ea9391b688fa9f9b92f0ac75
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 9bfefff2ef5960b6e52a8a37c2fd31466d16cbff
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="intune-migration-guide"></a>Руководство по переходу к Intune
 
-![Статья с руководством по переходу к Intune MDM](./media/MDM-migration-guide-art.PNG)
+![Статья с руководством по переходу на Microsoft Intune MDM](./media/MDM-migration-guide-art.PNG)
 
-Успешный переход к Intune начинается с создания надежного плана, в котором учитываются текущая среда управления мобильными устройствами (MDM), бизнес-цели и технические требования. Кроме того, необходимо заручиться поддержкой ключевых заинтересованных лиц, которые будут содействовать реализации вашего плана перехода и работать над ним вместе с вами.
+Успешный переход на Microsoft Intune начинается с создания надежного плана, в котором учитываются текущая среда управления мобильными устройствами (MDM), бизнес-цели и технические требования. Кроме того, необходимо включить ключевых заинтересованных лиц, которые будут содействовать реализации вашего плана перехода и работать над ним вместе с вами.
 
 В этом руководстве содержатся разные сведения, посвященные переходу от стороннего поставщика MDM к Intune.
 

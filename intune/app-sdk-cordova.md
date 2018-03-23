@@ -1,24 +1,24 @@
 ---
-title: "Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune"
-description: 
+title: Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
+description: С помощью подключаемого модуля Cordova из пакета SDK для приложений Intune разработчики могут интегрировать в свое приложение на основе Cordova функции защиты данных и приложений Intune.
 keywords: sdk, Cordova, intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/02/2018
+ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d42f8418e2f277dca0fbb2f01248f5a815606cb6
-ms.sourcegitcommit: a6fd6b3df8e96673bc2ea48a2b9bda0cf0a875ae
+ms.openlocfilehash: 84ff217361108ac3518567f31af8943d0b3032fe
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
 
@@ -96,7 +96,7 @@ ms.lasthandoff: 02/03/2018
 
 1. Импортируйте этот подключаемый модуль с помощью самых новых средств Cordova. Подключаемый модуль будет автоматически вызываться как шаг `after_compile`.
 
-2. В конце процесса сборки подключаемый модуль создаст версию встроенного пакета APK с поддержкой Intune (Android API 14 или более поздней версии). Выходные данные сборки будут содержать `[Project]-intunewrapped-[Build_Configuration].apk` (например, `helloWorld-intunewrapped-debug.apk`).
+2. В конце процесса сборки подключаемый модуль создаст версию собранного пакета APK с поддержкой Intune (Android API 14 или более поздней версии). Выходные данные сборки будут содержать `[Project]-intunewrapped-[Build_Configuration].apk` (например, `helloWorld-intunewrapped-debug.apk`).
 
 > [!NOTE]
 > Подключаемый модуль поддерживает только сборки Gradle.
@@ -118,7 +118,7 @@ $ cordova run --nobuild
 
 Дополнительные сведения о требуемом формате см. в разделе о [свойствах подписи Cordova Gradle](https://cordova.apache.org/docs/en/latest/guide/platforms/android/#using-gradle).
 
-Предоставление сведений о подписи в `build.json` или произвольных расположениях, передаваемых через параметры в сборку Cordova, сейчас не поддерживается.
+Предоставление сведений о подписи в `build.json` или произвольных расположениях, передаваемых через параметры в сборку Cordova, в настоящее время в Intune не поддерживается.
 
 ## <a name="debugging-from-visual-studio"></a>Отладка в Visual Studio
 
@@ -129,8 +129,8 @@ $ cordova run --nobuild
 ### <a name="android"></a>Android
 
 * Поддержка MultiDex является неполной.
-* Приложение должно иметь `minSdkVersion` 14 и `targetSdkVersion` 24 (или ниже). Приложения, предназначенные для API 25, сейчас не поддерживаются.
-* Нельзя повторно подписывать приложения, которые были подписаны с использованием схемы подписи V2. Когда такие приложения упаковываются с помощью подключаемого модуля, упакованный выходной APK-файл не будет подписан.
+* Приложение должно иметь `minSdkVersion` 14 и `targetSdkVersion` 24 (или ниже). Приложения, предназначенные для API 25, в настоящее время в Intune не поддерживаются.
+* В Intune нельзя повторно подписывать приложения, которые были подписаны с использованием схемы подписи V2. Когда такие приложения упаковываются с помощью подключаемого модуля, упакованный выходной APK-файл не будет подписан.
 *
   * Вы можете отключить стандартную функцию схемы подписи V2 в Cordova, добавив следующий код в файл `build-extras.gradle`:
 

@@ -1,30 +1,31 @@
 ---
-title: "Общие сведения о планировании и проектировании для Intune"
-description: "Эта статья содержит вводные сведения о разделах, описывающих планирование, проектирование и внедрение Intune. В них вы найдете описание средств, которые помогут вам установить цели, сценарии вариантов использования и требования, а также создавать планы развертывания и обмена данными, поддержки, тестирования и проверки."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Общие сведения о планировании и проектировании для Intune
+titlesuffix: Microsoft Intune
+description: Эта статья содержит вводные сведения о разделах, в которых описывается планирование, проектирование и внедрение Microsoft Intune. В них вы найдете описание средств, которые помогут вам установить цели, сценарии вариантов использования и требования, а также создавать планы развертывания и обмена данными, поддержки, тестирования и проверки.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a65efa6e-4a48-47f3-8f6e-34a85ca64ced
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 962ec376b7f2e30ad857ce69e24124c5d482cda0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 074490428b52effbc4a555a63d997a47da55546e
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="intune-deployment-planning-design-and-implementation-guide"></a>Руководство по планированию, проектированию и внедрению для Intune
 
 [!INCLUDE[note for both-portals](./includes/note-for-both-portals.md)]
 
-Успешное развертывание Intune начинается с хорошего плана и проектирования. Это руководство подробно описывает разработку плана, проектирование, адаптацию Intune и развертывание в рабочей среде.
+Успешное развертывание Microsoft Intune начинается с хорошего плана и проектирования. Это руководство подробно описывает разработку плана, проектирование, адаптацию Intune и развертывание в рабочей среде.
 
 ## <a name="whats-included-in-this-guide"></a>Что входит в состав этого руководства?
 

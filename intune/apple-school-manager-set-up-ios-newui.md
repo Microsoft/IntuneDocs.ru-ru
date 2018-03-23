@@ -1,25 +1,25 @@
 ---
-title: "Настройка регистрации программы Apple School Manager для устройств iOS"
-titlesuffix: Azure portal
-description: "Сведения о настройке регистрации программы Apple School Manager для корпоративных устройств iOS с помощью Intune (новый пользовательский интерфейс)"
-keywords: 
+title: Настройка регистрации программы Apple School Manager для устройств iOS
+titleSuffix: Microsoft Intune
+description: Сведения о настройке регистрации в программе Apple School Manager для корпоративных устройств iOS с помощью Intune (новый пользовательский интерфейс).
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4c35a23e-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6c9ef9355299a18833999c1c4eee941a0b6c68de
-ms.sourcegitcommit: 9bd6278d129fa29f184b2d850138f8f65f3674ea
+ms.openlocfilehash: 4054eb3804c159e6256b07bf89b8ccd93f7b2e8e
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Включение регистрации устройств iOS с помощью Apple School Manager
 
@@ -96,7 +96,7 @@ ms.lasthandoff: 02/09/2018
     ![Имя и описание профиля](./media/device-enrollment-program-enroll-ios/image05.png)
     
 4. В поле **Сходство пользователей** укажите, должны ли устройства с этим профилем регистрироваться с назначенным пользователем или без него.
-    - **Регистрация со сходством пользователей** — выберите этот вариант для устройств, которые принадлежат пользователям и должны использовать корпоративный портал для выполнения таких действий, как установка приложений. Этот вариант также позволяет проверять подлинность устройств с помощью корпоративного портала. Для сходства пользователей требуется [конечная точка WS-Trust 1.3 в режиме "Имя пользователя/смешанный"](https://technet.microsoft.com/library/adfs2-help-endpoints). [Дополнительные сведения](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).   Чтобы использовать режим общего устройства iPad в рамках программы Apple School Manager, требуется регистрировать пользователей без сходства.
+    - **Регистрация со сходством пользователей** — выберите этот вариант для устройств, которые принадлежат пользователям и должны использовать корпоративный портал для выполнения таких действий, как установка приложений. Этот вариант также позволяет аутентифицировать устройства с помощью корпоративного портала. Для сходства пользователей требуется [конечная точка WS-Trust 1.3 в режиме "Имя пользователя/смешанный"](https://technet.microsoft.com/library/adfs2-help-endpoints). [Дополнительные сведения](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).   Чтобы использовать режим общего устройства iPad в рамках программы Apple School Manager, требуется регистрировать пользователей без сходства.
 
     - **Регистрация без сходства пользователей** — выберите этот вариант для устройств, не связанных с одним пользователем, например для общего устройства. Используйте этот вариант для устройств, которые выполняют задачи без осуществления доступа к локальным данным пользователя. Такие приложения, как приложение корпоративного портала, работать не будут.
 
@@ -148,7 +148,7 @@ ms.lasthandoff: 02/09/2018
 
 12. Нажмите кнопку **ОК**.
 
-13. Выберите **Создать**, чтобы сохранить профиль.
+13. Чтобы сохранить профиль, выберите **Создать**.
 
 ## <a name="connect-school-data-sync"></a>Подключение School Data Sync
 (Необязательно.) Apple School Manager поддерживает синхронизацию данных списка курса с Azure Active Directory (AD) с помощью Microsoft School Data Sync (SDS). Можно синхронизировать только один токен с SDS. Если вы настроили другой токен с School Data Sync, данные о SDS будут удалены из токена, в котором они содержались. Текущий токен заменят данные о новом подключении. Чтобы синхронизировать сведения о школе с помощью SDS, выполните следующие действия.

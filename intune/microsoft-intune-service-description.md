@@ -1,24 +1,24 @@
 ---
-title: "Описание службы Microsoft Intune"
-description: "Intune — это облачная служба, которая помогает управлять устройствами на базе Windows, iOS, Mac OS X, Android и Windows Mobile."
-keywords: 
-author: arob98
-ms.author: angrobe
+title: Описание службы Microsoft Intune
+description: Microsoft Intune — это облачная служба, которая помогает управлять устройствами с ОС Windows, iOS, Mac OS X, Android и Windows Mobile.
+keywords: ''
+author: dougeby
+ms.author: dougeby
 manager: dougeby
-ms.date: 10/31/2017
+ms.date: 01/02/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 40fa5a2e-6c0f-4150-9740-d5ddc0cdbda0
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f4671f643f9806945043adcb9279c7bc95d8efe2
-ms.sourcegitcommit: 2c7794848777e73d6a9502b4e1000f0b07ac96bc
+ms.openlocfilehash: 7b9c3965d99e0058ae0236e1efc3daa840aebc6c
+ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="microsoft-intune-service-description"></a>Описание службы Microsoft Intune
 
@@ -33,7 +33,7 @@ Intune тесно интегрируется с Azure Active Directory (Azure A
 Дополнительные сведения о том, как управлять устройствами и приложениями, а также защищать корпоративные данные с помощью Intune, см. в [документации по Intune](https://docs.microsoft.com/intune/).
 
 ## <a name="30-day-free-trial"></a>30-дневная бесплатная пробная версия
-Можно установить 30-дневную бесплатную ознакомительную версию Intune, которая включает 100 пользовательских лицензий. Для запуска бесплатной пробной версии [перейдите на страницу регистрации Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/). Если в организации имеется соглашение Enterprise Agreement или эквивалентное соглашение о корпоративном лицензировании, обратитесь к представителю Майкрософт, чтобы установить бесплатную ознакомительную версию.
+Можно установить 30-дневную бесплатную ознакомительную версию Intune, которая включает 100 пользовательских лицензий. Для запуска бесплатной пробной версии [перейдите на страницу регистрации Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20). Если в организации имеется соглашение Enterprise Agreement или эквивалентное соглашение о корпоративном лицензировании, обратитесь к представителю Майкрософт, чтобы установить бесплатную ознакомительную версию.
 
 > [!NOTE]
 > Если в организации есть рабочая или учебная учетная запись служб Microsoft Online Services и по истечении пробного периода эту подписку Intune планируется задействовать в рабочей среде, нажмите на этой странице кнопку **Войти** и пройдите проверку подлинности, используя учетную запись глобального администратора для вашей организации. Это действие обеспечит подключение пробной версии Intune к существующей рабочей или учебной учетной записи.
