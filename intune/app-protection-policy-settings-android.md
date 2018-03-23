@@ -15,13 +15,13 @@ ms.assetid: 9e9ef9f5-1215-4df1-b690-6b21a5a631f8
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 34334186fbf74507b54d1bf4df347de2c16c39c0
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 26f81d8e6ba0fb433d714a5deeaadce9dd619c3f
+ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/16/2018
 ---
-# <a name="android-app-protection-policy-settings"></a>Параметры политик для защиты приложений в Android
+# <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Параметры политики защиты приложений Android в Microsoft Intune
 В этой статье описываются параметры политик защиты приложений на устройствах Android. Описываемые параметры политик можно [настроить](app-protection-policies.md) для политики защиты приложений на портале Azure в колонке **Параметры**.
 Существуют две категории параметров политики: параметры перемещения данных и доступа. В этой статье термин *управляемые политикой приложения* обозначает приложения, которые настроены с помощью политик для защиты приложений.
 
