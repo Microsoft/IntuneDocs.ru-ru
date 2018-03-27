@@ -1,25 +1,25 @@
 ---
-title: "Управление передачей данных между приложениями iOS"
-description: "В этом разделе описано, как использовать функцию \"Открыть с помощью\" в iOS и политики управления мобильными приложениями для управления передачей данных между приложениями."
-keywords: 
+title: Управление передачей данных между приложениями iOS
+description: В этом разделе описано, как использовать функцию "Открыть с помощью" в iOS и политики управления мобильными приложениями для управления передачей данных между приложениями.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 11/14/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3a4515c1-b325-4ac1-9f0a-45ac27e00681
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c460e48360bb31076e2054297b037d08545ea1ae
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 6b83e5fa37f9a9844e3011cded3c3cd58f268521
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="manage-data-transfer-between-ios-apps-with-microsoft-intune"></a>Управление передачей данных между приложениями iOS в Microsoft Intune
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 10/10/2017
 
   1.  Разверните приложение с указанием следующих параметров настройки приложений:
 
-      **key** = IntuneMAMUPN,  **value** = <username@company.com>
+      **key** = IntuneMAMUPN,  **value** = <username@company.com>
 
       Пример: [‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]
 
@@ -70,14 +70,14 @@ ms.lasthandoff: 10/10/2017
 
 2. В разделе "Настройка приложений" введите следующий параметр:
 
-  **key** = IntuneMAMUPN,  **value** = <username@company.com>
+  **key** = IntuneMAMUPN,  **value** = <username@company.com>
 
   Синтаксис пары "ключ-значение" может отличаться в зависимости от стороннего поставщика MDM. В таблице ниже показаны примеры сторонних поставщиков MDM и точные значения, которые следует ввести в качестве пары "ключ-значение".
 
 |Сторонний поставщик MDM| Раздел конфигурации | Тип значения | Значение конфигурации|
 | ------- | ---- | ---- | ---- |
 | VMware AirWatch | IntuneMAMUPN | Строка | {UserPrincipalName}|
-| MobileIron Core | IntuneMAMUPN | Строка | $EMAIL$ **или** $USER_UPN$ |
+| MobileIron Core | IntuneMAMUPN | Строка | $EMAIL$**или**$USER_UPN$ |
 | MobileIron Cloud | IntuneMAMUPN | Строка | ${userUPN} **или** ${userEmailAddress} |
 | ManageEngine Mobile Device Manager | IntuneMAMUPN | Строка | %upn% |
 
@@ -108,5 +108,5 @@ ms.lasthandoff: 10/10/2017
 
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Защита данных приложений с помощью политик защиты приложений в Microsoft Intune](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)

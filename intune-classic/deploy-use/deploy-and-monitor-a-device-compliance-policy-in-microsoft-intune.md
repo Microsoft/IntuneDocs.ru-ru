@@ -1,25 +1,25 @@
 ---
-title: "Развертывание и мониторинг политики соответствия"
-description: "Воспользуйтесь пошаговыми инструкциями из этого раздела, чтобы развернуть политику соответствия требованиям и следить за ней."
-keywords: 
+title: Развертывание и мониторинг политики соответствия
+description: Воспользуйтесь пошаговыми инструкциями из этого раздела, чтобы развернуть политику соответствия требованиям и следить за ней.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 11/14/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d8f246d4-0d86-4c8b-a1bf-9977985506d8
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ae914e755b809eda55abc5dc069c9ee2897d9ff4
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e24c969206d3e1f34bfee0af46c4398c9d2739a8
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune"></a>Развертывание и мониторинг политики соответствия устройств в Microsoft Intune
 
@@ -65,9 +65,9 @@ ms.lasthandoff: 10/10/2017
 
 -   При развертывании нескольких политик соответствия Intune будет использовать наиболее безопасную из них.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 Дополнительные сведения об использовании политики соответствия с политиками условного доступа для управления доступом к службам в организации см. в статье [Ограничение доступа к электронной почте и службам Office 365](restrict-access-to-email-and-o365-services-with-microsoft-intune.md).
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Общие сведения о политиках соответствия устройств в Intune](introduction-to-device-compliance-policies-in-microsoft-intune.md)

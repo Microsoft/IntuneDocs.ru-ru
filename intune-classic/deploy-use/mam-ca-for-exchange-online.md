@@ -1,25 +1,25 @@
 ---
-title: "Доступ к приложениям для Exchange Online"
-description: "В этом разделе описывается вариант настройки политики условного доступа для приложений MAM."
-keywords: 
+title: Доступ к приложениям для Exchange Online
+description: В этом разделе описывается вариант настройки политики условного доступа для приложений MAM.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 10/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f2cd1a1f-fd29-4081-8dfa-c40993a107d5
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 67a687af9396236af9685fd2bb423226a7e83797
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: d582421ed842f1e5b87419e25c5d03ad7a138e99
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-an-exchange-online-conditional-access-to-only-allow-apps-supported-by-mam"></a>Создание условного доступа для Exchange Online только для приложений, поддерживаемых MAM
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 10/10/2017
 Чтобы **удалить группу пользователей** из списка **ограниченных групп пользователей**, откройте колонку **Ограниченные группы пользователей**, выберите группу пользователей, которую нужно удалить, и выберите пункт **(...)**, чтобы открыть команду **Удалить**. Выберите **Удалить**, чтобы удалить группу пользователей из списка. Ту же процедуру можно выполнить, чтобы удалить группу пользователей из списка **исключенных групп пользователей**.
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 [Блокировка приложений, не поддерживающих современные средства проверки подлинности](block-apps-with-no-modern-authentication.md)
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Защита данных приложений с помощью политик защиты приложений](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)

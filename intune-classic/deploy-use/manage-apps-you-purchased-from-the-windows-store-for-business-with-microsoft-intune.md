@@ -1,25 +1,25 @@
 ---
-title: "Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса"
-description: "Сведения о подключении Microsoft Intune к Магазину Майкрософт для бизнеса для развертывания приложений, приобретенных по программе корпоративных закупок, и управления ими в консоли Intune"
-keywords: 
+title: Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса
+description: Сведения о подключении Microsoft Intune к Магазину Майкрософт для бизнеса для развертывания приложений, приобретенных по программе корпоративных закупок, и управления ими в консоли Intune
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
-manager: angrobe
+manager: dougeby
 ms.date: 02/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8e38d47d-0c5e-40ce-b379-29d3657f5c28
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 2de00bab670cd414d10750bb6f7f05283ea8bff3
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 50fc27efc34ab6c13fad714e41be0d87c5ab0df9
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune
 
@@ -82,5 +82,5 @@ ms.lasthandoff: 10/10/2017
 > Развернутые приложения доступны только для пользователя, который изначально зарегистрировал соответствующее устройство. Для других пользователей приложение недоступно.
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Добавление приложений для мобильных устройств в Microsoft Intune](add-apps-for-mobile-devices-in-microsoft-intune.md)

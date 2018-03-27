@@ -1,27 +1,27 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: "Документация по Microsoft Intune"
+title: Документация по Microsoft Intune
 metadata:
   document_id: 99e91b60-d6a5-44a8-908f-442161fbb077
-  title: "Документация по Microsoft Intune"
-  description: "Быстрое начало работы с Microsoft Intune Используйте облачную службу Enterprise Mobility Management (EMM), чтобы повысить производительность труда персонала и при этом обеспечить защиту корпоративных данных."
+  title: Документация по Microsoft Intune
+  description: Быстрое начало работы с Microsoft Intune Используйте облачную службу Enterprise Mobility Management (EMM), чтобы повысить производительность труда персонала и при этом обеспечить защиту корпоративных данных.
   keywords: protect, company, data, Azure, Intune, EMM, device, app, management
-  author: arob98
-  ms.author: angrobe
+  author: dougeby
+  ms.author: dougeby
   manager: dougeby
   ms.date: 10/31/2017
   ms.topic: landing-page
   ms.devlang: na
   ms.service: microsoft-intune
-  ms.openlocfilehash: 134f4053e22797c547f56b2db7876b3d1a56b15c
-  ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+  ms.openlocfilehash: f359e36b07334866a1913e5eebd37a0960fc677d
+  ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/08/2018
+  ms.lasthandoff: 03/22/2018
 sections:
 - items:
   - type: markdown
-    text: "Быстрое начало работы с Microsoft Intune Используйте облачную службу Enterprise Mobility Management (EMM), чтобы повысить производительность труда персонала и при этом обеспечить защиту корпоративных данных. Intune интегрируется с Azure Active Directory для управления удостоверениями и доступом, а также с Azure Information Protection для защиты данных."
+    text: Быстрое начало работы с Microsoft Intune Используйте облачную службу Enterprise Mobility Management (EMM), чтобы повысить производительность труда персонала и при этом обеспечить защиту корпоративных данных. Intune интегрируется с Azure Active Directory для управления удостоверениями и доступом, а также с Azure Information Protection для защиты данных.
 - items:
   - type: list
     style: cards
@@ -29,112 +29,112 @@ sections:
     columns: 2
     items:
     - href: introduction-intune.md
-      html: "<p>Возможности и принципы работы службы Intune.</p>"
+      html: <p>Возможности и принципы работы службы Intune.</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_overview.svg
-      title: "Что такое Intune?"
+      title: Что такое Intune?
     - href: get-started-evaluation.md
-      html: "<p>Простое руководство о принципах работы Intune.</p>"
+      html: <p>Простое руководство о принципах работы Intune.</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
-      title: "Начало работы"
+      title: Начало работы
     - href: get-support.md
-      html: "<p>Сведения о создании запросов в службу поддержки и получении справки при необходимости.</p>"
+      html: <p>Сведения о создании запросов в службу поддержки и получении справки при необходимости.</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_support.svg
-      title: "Получение поддержки"
+      title: Получение поддержки
     - href: whats-new.md
-      html: "<p>Новые возможности в Intune за эту неделю.</p>"
+      html: <p>Новые возможности в Intune за эту неделю.</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_whats-new.svg
-      title: "Новые возможности"
-- title: "Новые статьи и записи блогов"
+      title: Новые возможности
+- title: Новые статьи и записи блогов
   items:
   - type: paragraph
-    text: "Ознакомьтесь с последними и самыми полезными сведениями, которые могут вам пригодиться."
+    text: Ознакомьтесь с последними и самыми полезными сведениями, которые могут вам пригодиться.
   - type: list
     style: cards
     className: cardsM
     columns: 3
     items:
     - href: what-is-intune.md
-      title: "Сведения об Intune на портале Azure"
+      title: Сведения об Intune на портале Azure
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_portal.svg
     - href: ui-changes.md
-      title: "Сведения о том, как найти функции Intune на портале Azure"
+      title: Сведения о том, как найти функции Intune на портале Azure
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_guide.svg
     - href: high-level-architecture.md
-      title: "Схема высокоуровневой архитектуры Intune"
+      title: Схема высокоуровневой архитектуры Intune
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_architecture.svg
     - href: enrollment-autopilot.md
-      title: "Поддержка программы Windows AutoPilot Deployment в Microsoft Intune"
+      title: Поддержка программы Windows AutoPilot Deployment в Microsoft Intune
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_generic-database.svg
     - href: https://blogs.technet.microsoft.com/intunesupport/2017/10/11/upcoming-security-enhancements-in-the-intune-service-your-action-is-required/
-      title: "[Блог] Усовершенствования безопасности в службе Intune "
+      title: '[Блог] Усовершенствования безопасности в службе Intune '
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_blog.svg
     - href: https://cloudblogs.microsoft.com/enterprisemobility/2017/10/26/intunes-new-troubleshooting-portal-makes-diagnosing-and-resolving-end-user-issues-easier/
-      title: "[Блог] Портал диагностики упрощает определение и устранение проблем конечного пользователя"
+      title: '[Блог] Портал диагностики упрощает определение и устранение проблем конечного пользователя'
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_blog.svg
-- title: "Видео"
+- title: Видео
   items:
   - type: markdown
     text: '>[!VIDEO https://www.youtube.com/embed/FpkCI6xmsE4]'
   - type: markdown
     text: '>[!VIDEO https://www.youtube.com/embed/Cn29dmgDcIw]'
-- title: "Статьи по планированию"
+- title: Статьи по планированию
   items:
   - type: list
     style: unordered
     items:
-    - html: "<a href=\"/intune/planning-guide\">Руководство по планированию, проектированию и внедрению для Intune</a>"
-    - html: "<a href=\"/intune/migration-guide\">Руководство по переходу к Intune</a>"
-- title: "Статьи с инструкциями"
+    - html: <a href="/intune/planning-guide">Руководство по планированию, проектированию и внедрению для Intune</a>
+    - html: <a href="/intune/migration-guide">Руководство по переходу к Intune</a>
+- title: Статьи с инструкциями
   items:
   - type: list
     style: unordered
     items:
-    - html: "<a href=\"/intune/device-enrollment\">Регистрация устройств</a>"
-    - html: "<a href=\"/intune/device-management\">Управление устройствами</a>"
-    - html: "<a href=\"/intune/app-management\">Управление приложениями</a>"
-    - html: "<a href=\"/intune/device-profiles\">Настройка устройств</a>"
-    - html: "<a href=\"/intune/device-compliance-get-started\">Задание соответствия устройства требованиям</a>"
-    - html: "<a href=\"/intune/conditional-access\">Настройка условного доступа</a>"
-    - html: "<a href=\"/intune/app-protection-policy\">Защита приложений</a>"
-    - html: "<a href=\"/intune/mobile-threat-defense\">Интеграция службы защиты мобильных устройств от угроз с Intune</a>"
-    - html: "<a href=\"/intune/network-access-control-integrate\">Интеграция управления доступом к сети (NAC) с Intune</a>"
-    - html: "<a href=\"/intune/role-based-access-control\">Управление ролями</a>"
-    - html: "<a href=\"/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json\">Управление компьютерами c Windows как компьютерами с помощью клиентского программного обеспечения Intune</a>"
-- title: "Статьи по устранению неполадок"
+    - html: <a href="/intune/device-enrollment">Регистрация устройств</a>
+    - html: <a href="/intune/device-management">Управление устройствами</a>
+    - html: <a href="/intune/app-management">Управление приложениями</a>
+    - html: <a href="/intune/device-profiles">Настройка устройств</a>
+    - html: <a href="/intune/device-compliance-get-started">Задание соответствия устройства требованиям</a>
+    - html: <a href="/intune/conditional-access">Настройка условного доступа</a>
+    - html: <a href="/intune/app-protection-policy">Защита приложений</a>
+    - html: <a href="/intune/mobile-threat-defense">Интеграция службы защиты мобильных устройств от угроз с Intune</a>
+    - html: <a href="/intune/network-access-control-integrate">Интеграция управления доступом к сети (NAC) с Intune</a>
+    - html: <a href="/intune/role-based-access-control">Управление ролями</a>
+    - html: <a href="/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=/intune/toc.json">Управление компьютерами c Windows как компьютерами с помощью клиентского программного обеспечения Intune</a>
+- title: Статьи по устранению неполадок
   items:
   - type: list
     style: unordered
     items:
-    - html: "<a href=\"/intune/help-desk-operators\">Использование портала диагностики для оказания помощи пользователям</a>"
-    - html: "<a href=\"/intune/known-issues\">Известные проблемы в Microsoft Intune</a>"
-    - html: "<a href=\"/intune/get-support\">Получить поддержку</a>"
-- title: "Статьи по разработке и настройке"
+    - html: <a href="/intune/help-desk-operators">Использование портала диагностики для оказания помощи пользователям</a>
+    - html: <a href="/intune/known-issues">Известные проблемы в Microsoft Intune</a>
+    - html: <a href="/intune/get-support">Получить поддержку</a>
+- title: Статьи по разработке и настройке
   items:
   - type: list
     style: unordered
     items:
-    - html: "<a href=\"/intune/custom-settings-configure\">Настройка пользовательских параметров устройства</a>"
-    - html: "<a href=\"/intune/apps-prepare-mobile-application-management\">Подготовка бизнес-приложений для политик защиты приложений</a>"
-    - html: "<a href=\"/intune/app-sdk\">Обзор пакета SDK для приложений Intune</a>"
-    - html: "<a href=\"https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/intune_graph_overview\">Работа с Intune в Microsoft Graph</a>"
-    - html: "<a href=\"/intune/reports-nav-intune-data-warehouse\">API хранилища данных Intune</a>"
-- title: "Другие ресурсы"
+    - html: <a href="/intune/custom-settings-configure">Настройка пользовательских параметров устройства</a>
+    - html: <a href="/intune/apps-prepare-mobile-application-management">Подготовка бизнес-приложений для политик защиты приложений</a>
+    - html: <a href="/intune/app-sdk">Обзор пакета SDK для приложений Intune</a>
+    - html: <a href="https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/intune_graph_overview">Работа с Intune в Microsoft Graph</a>
+    - html: <a href="/intune/reports-nav-intune-data-warehouse">API хранилища данных Intune</a>
+- title: Другие ресурсы
   items:
   - type: list
     style: unordered
     items:
-    - html: "<a href=\"https://docs.microsoft.com/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program\">Более 150 лицензий? Используйте преимущества FastTrack</a>"
-    - html: "<a href=\"https://blogs.technet.microsoft.com/enterprisemobility/\">Блог разработчиков Enterprise Mobility + Security</a>"
-    - html: "<a href=\"https://blogs.technet.microsoft.com/intunesupport/\">Справочные сведения в блоге службы поддержки Intune</a>"
-    - html: "<a href=\"https://microsoftintune.uservoice.com/forums/291681-ideas\">Отзывы о службе Intune на платформе UserVoice</a>"
-    - html: "<a href=\"https://social.technet.microsoft.com/Forums/en-US/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc\">Вопросы и ответы на форуме обсуждения Intune</a>"
+    - html: <a href="https://docs.microsoft.com/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">Более 150 лицензий? Используйте преимущества FastTrack</a>
+    - html: <a href="https://blogs.technet.microsoft.com/enterprisemobility/">Блог разработчиков Enterprise Mobility + Security</a>
+    - html: <a href="https://blogs.technet.microsoft.com/intunesupport/">Справочные сведения в блоге службы поддержки Intune</a>
+    - html: <a href="https://microsoftintune.uservoice.com/forums/291681-ideas">Отзывы о службе Intune на платформе UserVoice</a>
+    - html: <a href="https://social.technet.microsoft.com/Forums/en-US/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc">Вопросы и ответы на форуме обсуждения Intune</a>

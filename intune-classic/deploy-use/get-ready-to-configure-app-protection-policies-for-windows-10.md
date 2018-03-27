@@ -1,25 +1,25 @@
 ---
-title: "Подготовка к настройке политик защиты приложений для Windows 10"
-description: "Настройка поставщика управления мобильными приложениями (MAM) в Azure AD"
-keywords: 
+title: Подготовка к настройке политик защиты приложений для Windows 10
+description: Настройка поставщика управления мобильными приложениями (MAM) в Azure AD
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
-manager: angrobe
+manager: dougeby
 ms.date: 04/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ebc7cfc8-40b9-47c2-8357-d392ebbb27c8
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6fc748f060d131364be39899fcb5ac35f1228801
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a18136a6b7aa26391a38aa071699dc60dc024c21
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Подготовка к настройке политик защиты приложений для Windows 10
 
@@ -44,16 +44,16 @@ ms.lasthandoff: 10/10/2017
 
 4.  Когда откроется колонка настройки, сначала выберите **Восстановить URL-адреса MAM по умолчанию**, а затем настройте следующие параметры.
 
-    а.  Область пользователей MAM: MAM можно использовать для защиты корпоративных данных определенной группы пользователей, использующих устройства Windows 10, или всех пользователей.
+    a.  Область пользователей MAM: MAM можно использовать для защиты корпоративных данных определенной группы пользователей, использующих устройства Windows 10, или всех пользователей.
 
     b.  URL-адрес условий использования MAM: URL-адрес конечной точки условий использования службы MAM. Используется для отображения условий службы MAM конечным пользователям.
 
-    в.  URL-адрес обнаружения MAM: это URL-адрес, который ищут устройства, если необходимо применить политики защиты приложений.
+    c.  URL-адрес обнаружения MAM: это URL-адрес, который ищут устройства, если необходимо применить политики защиты приложений.
 
-    г.  URL-адрес соответствия требованиям MAM:
+    d.  URL-адрес соответствия требованиям MAM:
 
 5.  Настроив эти параметры, нажмите кнопку **Сохранить**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](/intune-classic/deploy-use/create-windows-information-protection-policy-with-intune)

@@ -1,25 +1,25 @@
 ---
-title: "Выбор способа управления устройствами"
-description: "Узнайте о различных способах регистрации устройств и управления ими."
-keywords: 
+title: Выбор способа управления устройствами
+description: Узнайте о различных способах регистрации устройств и управления ими.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 02/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 770aad50-fd7a-4cf1-a793-f95fe47fc3f8
 ROBOTS: NOINDEX,NOFOLLOW
-ms.reviewer: angrobe
+ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e8477acf609bc55b6ff235a7ddfb2afcc7eb7d2d
-ms.sourcegitcommit: 22ab1c6a6bfeb4fef9850d12b29829c3fecbbeed
+ms.openlocfilehash: d29cd4ae545bfa684eea6c679c2f69957651402a
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="choose-how-to-manage-devices"></a>Выбор способа управления устройствами
 

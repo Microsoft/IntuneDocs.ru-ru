@@ -1,25 +1,25 @@
 ---
-title: "Устранение неполадок, связанных с доступом к ресурсам компании"
-description: "Коды ошибок и состояний, приведенные в этом разделе, помогут устранить проблемы с доступом к ресурсу."
-keywords: 
+title: Устранение неполадок, связанных с доступом к ресурсам компании
+description: Коды ошибок и состояний, приведенные в этом разделе, помогут устранить проблемы с доступом к ресурсу.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 05/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 40622ced-6029-4abf-873e-b51d2b51934c
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e6649962402dd8c8d11ea7357b48edee268b0f05
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: fdb76bd5ce33a96cfacf1ddc001b2917a13dfc9d
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Устранение неполадок, связанных с доступом к ресурсам компании, с использованием Microsoft Intune
 

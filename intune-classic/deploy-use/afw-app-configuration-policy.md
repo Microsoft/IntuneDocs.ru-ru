@@ -1,25 +1,25 @@
 ---
-title: "Политика конфигурации приложений Android for Work"
-description: "Используйте политики конфигурации мобильных приложений в Intune для предоставления параметров, которые могут быть необходимы, когда пользователи работают с приложением Android for Work."
-keywords: 
+title: Политика конфигурации приложений Android for Work
+description: Используйте политики конфигурации мобильных приложений в Intune для предоставления параметров, которые могут быть необходимы, когда пользователи работают с приложением Android for Work.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
-manager: angrobe
+manager: dougeby
 ms.date: 02/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: fc6b645a-e837-4b2a-a10f-144065cbd8dd
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3fd5e2891eb628fe84fae8842791b4ac4e883d21
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 02934e40346be88cb823bcfa80ff9618e86e757b
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configure-android-for-work-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Настройка приложений Android for Work с помощью политик конфигурации мобильных приложений в Microsoft Intune
 

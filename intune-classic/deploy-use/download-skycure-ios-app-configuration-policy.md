@@ -1,25 +1,25 @@
 ---
-title: "Загрузка политики конфигурации приложения Skycure для iOS"
-description: "Загрузите политику конфигурации приложения Skycure для iOS, чтобы использовать ее с приложением Skycure для iOS, развернутым для конечных пользователей."
-keywords: 
+title: Загрузка политики конфигурации приложения Skycure для iOS
+description: Загрузите политику конфигурации приложения Skycure для iOS, чтобы использовать ее с приложением Skycure для iOS, развернутым для конечных пользователей.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 03/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d211b876-4d3a-473c-999f-843c0a16cd22
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f452ca2305b83ee106827a7dca4b02a90910a289
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 0f8197146d8b4f42bcf199070551ba13aed92626
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="download-skycure-ios-app-configuration-policy"></a>Загрузка политики конфигурации приложения Skycure для iOS
 
@@ -49,6 +49,6 @@ ms.lasthandoff: 10/10/2017
 
 ![Файлы установки интеграции Skycure](../media/mtp/skycure-ios-app-2.png)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS](/intune-classic/deploy-use/add-skycure-apps-microsoft-authenticator-and-ios-app-configuration-policy)

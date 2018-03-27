@@ -1,25 +1,25 @@
 ---
-title: "Параметры политики Android for Work"
-description: "Создание политик для управления параметрами и функциями на устройствах Android for Work, которые управляются с помощью Intune."
-keywords: 
+title: Параметры политики Android for Work
+description: Создание политик для управления параметрами и функциями на устройствах Android for Work, которые управляются с помощью Intune.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 02/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 35a53076-74d6-486d-b201-e0da2e170008
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0938e4b788ef11a773854531f570e63809389fad
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: e42d33b4cc69e6b2cc836e2236c508d97c2245fe
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="android-for-work-policy-settings-in-microsoft-intune"></a>Параметры политики Android for Work в Microsoft Intune
 
@@ -88,5 +88,5 @@ Intune предоставляет ряд встроенных общих пар�
 - [Создание профиля Wi-Fi с общим ключом](pre-shared-key-wi-fi-profile.md)
 - [Используйте настраиваемую политику для создания профиля VPN на уровне приложения для устройств Android](per-app-vpn-for-android-pulse-secure.md)
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)

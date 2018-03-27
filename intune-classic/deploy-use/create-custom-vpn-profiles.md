@@ -1,25 +1,25 @@
 ---
-title: "Настраиваемые конфигурации профилей VPN Microsoft Intune"
-description: "Создание профилей VPN в Intune с помощью настраиваемых конфигураций."
-keywords: 
+title: Настраиваемые конфигурации профилей VPN Microsoft Intune
+description: Создание профилей VPN в Intune с помощью настраиваемых конфигураций.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ab235f10c8c91e707c623eca5168ff75de234f32
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 6139b656c69b58bdbdd02e296f8a061dd598a1c6
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="custom-configurations-for-microsoft-intune-vpn-profiles"></a>Настраиваемые конфигурации профилей VPN Microsoft Intune
 
@@ -156,12 +156,12 @@ Microsoft.MicrosoftEdge_8wekyb3d8bbwe
 - Тип данных = строковый
 - OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode
 
-> Примечания
+> "Заметки"
 > - Используйте то же *имя*, которые вы присвоили настраиваемому профилю.
 > - Возможные значения: *GLOBAL*, *WHITELIST*, *BLACKLIST*
 > - Если значение PackageList не указано, по умолчанию используется значение *GLOBAL* (для обратной совместимости с системными профилями).
 > - Если значение PackageList указано, по умолчанию используется значение *WHITELIST*.
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [VPN-подключения в Microsoft Intune](vpn-connections-in-microsoft-intune.md)

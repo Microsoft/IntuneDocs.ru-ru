@@ -1,25 +1,25 @@
 ---
-title: "Разрешение доступа к ресурсам компании"
-description: "Профили Wi-Fi, VPN и электронной почты в совокупности позволяют пользователям получать доступ к нужным файлам и ресурсам."
-keywords: 
+title: Разрешение доступа к ресурсам компании
+description: Профили Wi-Fi, VPN и электронной почты в совокупности позволяют пользователям получать доступ к нужным файлам и ресурсам.
+keywords: ''
 author: vhorne
 ms.author: victorh
-manager: angrobe
+manager: dougeby
 ms.date: 11/02/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3dd8dd4e-e165-4d0c-97b7-b3e86ebab909
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e3d1b8cff396f6a78d635d96b936a1bb155ca198
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: 170163a6edd372a92e04762d1ba7a1a9a420160c
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="enable-access-to-company-resources-with-microsoft-intune"></a>Разрешение доступа к ресурсам компании с помощью Microsoft Intune
 
@@ -34,21 +34,21 @@ ms.lasthandoff: 12/12/2017
 
 |Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
-|Да (вы можете импортировать профиль Wi-Fi Windows)|Да (вы можете настроить OMA-URI) |да|Да|да|
+|Да (вы можете импортировать профиль Wi-Fi Windows)|Да (вы можете настроить OMA-URI) |Да|Да|Да|
 
 ## <a name="vpn-profilesvpn-connections-in-microsoft-intunemd-and-supported-platforms"></a>[Профили VPN](vpn-connections-in-microsoft-intune.md) и поддерживаемые платформы
 Разверните параметры виртуальной частной сети (VPN) для своих пользователей. Эти параметры упрощают подключение к ресурсам в корпоративной сети.
 
 |Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
-|да|Да|Да|Да|да|
+|Да|Да|Да|Да|Да|
 
 ## <a name="email-profilesconfigure-access-to-corporate-email-using-email-profiles-with-microsoft-intunemd-and-supported-platforms"></a>[Профили электронной почты](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md) и поддерживаемые платформы
 Создание, развертывание и отслеживание параметров собственных почтовых клиентов на устройствах в организации.
 
 |Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
-|Нет|Да|Да|Нет|да|
+|Нет|да|Да|Нет|Да|
 > [!NOTE]
 > Сведения о настройке профиля Wi-Fi для Windows Phone 8.1 с помощью OMA-URI см. в [этой записи блога по Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/19/using-oma-uri-to-create-custom-wi-fi-profiles-for-windows-phone-8-1/).
 
@@ -57,4 +57,4 @@ ms.lasthandoff: 12/12/2017
 
 |Windows 8.1 и более поздние версии|Windows Phone 8.1 и более поздней версии|iOS|Android|Samsung KNOX Standard|
 |---------------------|---------------------------|---|-------|------------|
-|да|Да|Да|Да|да|
+|Да|Да|Да|Да|Да|
