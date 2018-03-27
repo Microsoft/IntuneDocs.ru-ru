@@ -1,25 +1,25 @@
 ---
-title: "Устранение неполадок Endpoint Protection"
-description: "Сведения об устранении неполадок при работе с Microsoft Intune Endpoint Protection."
-keywords: 
+title: Устранение неполадок Endpoint Protection
+description: Сведения об устранении неполадок при работе с Microsoft Intune Endpoint Protection.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 01/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e31df2d2-bb1b-491b-9a71-04e0b18829c1
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d1effa7c421448889280926acbb9369f220211b9
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: edfc9e4995610aaadfd12e8370a42bfcc15032e6
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshoot-endpoint-protection-in-microsoft-intune"></a>Troubleshoot Endpoint Protection in Microsoft Intune
 
@@ -47,5 +47,5 @@ ms.lasthandoff: 10/10/2017
 |**Быстрая проверка просрочена**|Быстрая проверка не выполнялась более 14 дней. Причиной отмены проверки может послужить перезапуск в ходе выполнения быстрой проверки.|Если быстрая проверка просрочена, можно выполнить однократную быструю проверку или запланировать регулярную быструю проверку в [консоли администрирования Intune](/intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client).|
 |**Запущено другое приложение защиты конечных точек**|Запущено другое приложение защиты конечных точек, и компьютер находится в работоспособном состоянии.|По умолчанию, если установлено другое приложение защиты конечных точек и Intune находит его, то функция Endpoint Protection отключается автоматически. Если Intune не обнаруживает другое приложение защиты конечной точки, функция Endpoint Protection остается включенной. Дополнительные сведения см. в статье [Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection для Microsoft Intune](/intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune).|
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).

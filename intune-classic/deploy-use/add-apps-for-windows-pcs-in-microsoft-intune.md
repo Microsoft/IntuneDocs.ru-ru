@@ -1,24 +1,24 @@
 ---
-title: "Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune"
-description: "В этом разделе описывается, как добавить в Intune приложения для компьютеров с Windows перед их развертыванием."
-keywords: 
+title: Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
+description: В этом разделе описывается, как добавить в Intune приложения для компьютеров с Windows перед их развертыванием.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
-manager: angrobe
+manager: dougeby
 ms.date: 02/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7c2352ea47d7dab22867e213169d382b9330c171
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 6b44ed650019c7e189b1f8f3bfe29e161558258e
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
 
@@ -93,7 +93,7 @@ ms.lasthandoff: 10/10/2017
 
 Приложение отображается в узле **Приложения** в рабочей области **Приложения**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 После создания приложения его необходимо развернуть. Дополнительные сведения см. в статье [Развертывание приложений с помощью Microsoft Intune](deploy-apps.md).
 

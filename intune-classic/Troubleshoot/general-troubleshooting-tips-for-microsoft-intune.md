@@ -1,25 +1,25 @@
 ---
-title: "Общие советы по устранению неполадок"
-description: "Общие ресурсы для решения проблем при работе с Intune."
-keywords: 
-author: arob98
-ms.author: angrobe
-manager: angrobe
+title: Общие советы по устранению неполадок
+description: Общие ресурсы для решения проблем при работе с Intune.
+keywords: ''
+author: dougeby
+ms.author: dougeby
+manager: dougeby
 ms.date: 12/08/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c86a4e4a-6b9f-4835-a3d3-61a3f5f4c1ec
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7085429b8e3e9e7dff3b56e681fb425c6551d722
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 944c5771e00d8e256944fe5767217f138797bde2
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="general-troubleshooting-tips-for-microsoft-intune"></a>Общие советы по устранению неполадок в Microsoft Intune
 
@@ -79,7 +79,7 @@ ms.lasthandoff: 10/10/2017
 
 -   [Форумы по Intune](https://social.technet.microsoft.com/Forums/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc)
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Перечисленные ниже разделы могут помочь в устранении определенных неполадок. Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 [Устранение неполадок с Endpoint Protection в Microsoft Intune](troubleshoot-endpoint-protection-in-microsoft-intune.md)

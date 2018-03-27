@@ -1,25 +1,25 @@
 ---
-title: "Условный доступ на базе приложений к 0365"
-description: "Объяснение того, как MAM CA может помочь в управлении доступом приложений к службам Office 365."
-keywords: 
+title: Условный доступ на базе приложений к 0365
+description: Объяснение того, как MAM CA может помочь в управлении доступом приложений к службам Office 365.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 12/05/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bd6bee60-5e39-42c8-a2e9-f5865ac3573f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 78b5d58df44252d1f3916c1d2a2ea02fcb1a10e2
-ms.sourcegitcommit: 82088d297eef629e3da6011681ead442ae7e25f7
+ms.openlocfilehash: b0b0fbfce086729551b211dd4bc4b83348aa4787
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="allow-only-mobile-apps-that-support-intune-app-protection-policies-to-access-office-365-services"></a>Предоставление доступа к службам Office 365 только мобильным приложениям, которые поддерживают политики защиты приложений Intune
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/15/2017
 * **AAD**: Azure Active Directory
 * **EAS**: Exchange Active Sync
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные условия
 **Перед** настройкой политики условного доступа на основе приложений необходимо установить набор **Enterprise Mobility + Security или оформить премиальную подписку Azure Active Directory**, а у пользователей должна быть лицензия на работу с EMS или Azure AD. Дополнительные сведения см. на странице [Цены Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility-pricing) или [Цены Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
 
@@ -58,13 +58,13 @@ ms.lasthandoff: 11/15/2017
 Дополнительные сведения о взаимодействии с пользователем в приложении с политиками условного доступа на основе приложений см. в статье [Что произойдет при использовании приложения с MAM CA](use-apps-with-mam-ca.md).
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 [Создание политики Exchange Online для приложений MAM](mam-ca-for-exchange-online.md)
 
 [Создание политики SharePoint Online для приложений MAM](mam-ca-for-sharepoint-online.md)
 
 [Блокировка приложений, не поддерживающих современные средства проверки подлинности](block-apps-with-no-modern-authentication.md)
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 
 [Защита данных приложений с помощью политик защиты приложений](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)

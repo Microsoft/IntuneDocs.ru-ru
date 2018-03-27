@@ -1,25 +1,25 @@
 ---
-title: "Соединитель службы защиты мобильных устройств от угроз Lookout"
-description: "Защита доступа к ресурсам компании на основе риска для устройства, сети и приложений с помощью соединителя службы защиты мобильных устройств от угроз Lookout и Intune."
-keywords: 
+title: Соединитель службы защиты мобильных устройств от угроз Lookout
+description: Защита доступа к ресурсам компании на основе риска для устройства, сети и приложений с помощью соединителя службы защиты мобильных устройств от угроз Lookout и Intune.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 725d9e40-e70c-461a-9413-72ff1b89a938
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: be7eed7618bca29b821a453c9fbf1e77cf8ce90d
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 201c431f2c30538139f0dc9c436781aae2bd9735
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="lookout-mobile-threat-defense-connector-with-intune"></a>Соединитель службы защиты мобильных устройств от угроз Lookout с помощью Intune
 

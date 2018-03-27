@@ -1,24 +1,24 @@
 ---
-title: "Рекомендации по управлению устройствами Windows с помощью Intune в Azure"
-description: "Рекомендации по использованию Intune в Azure для управления устройствами Windows в вашей организации."
-keywords: 
+title: Рекомендации по управлению устройствами Windows с помощью Intune в Azure
+description: Рекомендации по использованию Intune в Azure для управления устройствами Windows в вашей организации.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
-manager: angrobe
+manager: dougeby
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
+ms.technology: ''
+ms.assetid: ''
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f4018f505626b05dc84be509ca1e42cefff94b90
-ms.sourcegitcommit: dc2595bec05206a826cd10cb834bf6043145c917
+ms.openlocfilehash: 71effb587bfb82ecae18afda67b05fffd2127052
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="intune-on-azure-console-and-legacy-intune-pc-client"></a>Intune в консоли Azure и устаревшем клиенте компьютера Intune
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/14/2017
   ![](media/intune_on_azure/image02.png)
 2. Повторно зарегистрируйте устройство с помощью [MDM (или путем присоединения к Azure Active Directory)](https://docs.microsoft.com/intune/windows-enroll). 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 [Регистрация устройств с Windows](https://docs.microsoft.com/intune/windows-enroll)
 
  

@@ -1,25 +1,25 @@
 ---
-title: "Классификация устройств с помощью сопоставления групп устройств"
-description: "Используйте сопоставление групп устройств в Microsoft Intune, чтобы группировать устройства по определенным категориям для упрощения управления этими устройствами."
-keywords: 
+title: Классификация устройств с помощью сопоставления групп устройств
+description: Используйте сопоставление групп устройств в Microsoft Intune, чтобы группировать устройства по определенным категориям для упрощения управления этими устройствами.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 06/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8b8c06a3-6b6c-4cf1-8646-b24fa9b1a39e
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d6783f0dbf21d8bb1e652522df7ae1f37cbf4ffd
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 5fd86b380a80529ba7f6c431452ae89e22c0de25
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="categorize-devices-with-device-group-mapping-in-microsoft-intune"></a>Классификация устройств с помощью сопоставления групп устройств в Microsoft Intune
 
@@ -93,5 +93,5 @@ ms.lasthandoff: 10/10/2017
 
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Использование групп для управления пользователями и устройствами в Microsoft Intune](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)

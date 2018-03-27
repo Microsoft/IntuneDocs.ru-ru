@@ -1,25 +1,25 @@
 ---
-title: "Управление блокировкой активации iOS на устройствах"
-description: "Microsoft Intune позволяет управлять функцией блокировки активации iOS, которая представляет собой отдельный компонент приложения Find My iPhone для устройств на базе iOS 7.1 и более поздних версий."
-keywords: 
-author: arob98
-ms.author: angrobe
-manager: angrobe
+title: Управление блокировкой активации iOS на устройствах
+description: Microsoft Intune позволяет управлять функцией блокировки активации iOS, которая представляет собой отдельный компонент приложения Find My iPhone для устройств на базе iOS 7.1 и более поздних версий.
+keywords: ''
+author: dougeby
+ms.author: dougeby
+manager: dougeby
 ms.date: 04/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bb49e926-15c4-4f01-b6eb-cee6f7ee1984
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: a05c8e6a45c57f5f6f0c90d5fbb48164cde34a1c
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 12363a677bc7d1ffefe224ff0bb10067903132ae
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune"></a>Позволяют защищать устройства iOS с помощью обхода блокировки активации для Microsoft Intune
 
@@ -101,6 +101,6 @@ Intune может запрашивать состояние блокировки
     >Intune проводит инвентаризацию устройств для получения состояния блокировки активации раз в семь дней. По этой причине устройства могут не сразу отображаться с состоянием блокировки активации на консоли Intune.
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Снятие устройств с учета](retire-devices-from-microsoft-intune-management.md)
 [Защита устройств с помощью функций удаленной очистки и сброса секретного кода](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)

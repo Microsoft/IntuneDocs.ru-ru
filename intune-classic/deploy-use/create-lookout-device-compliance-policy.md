@@ -1,25 +1,25 @@
 ---
-title: "Включение правила защиты устройств"
-description: "Включение правила защиты от угроз на мобильных устройствах в политике соответствия устройств."
-keywords: 
+title: Включение правила защиты устройств
+description: Включение правила защиты от угроз на мобильных устройствах в политике соответствия устройств.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 03/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c951692d-6538-46c0-a9f0-d607ded189ae
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f649227c6ad49cd9c788e75097bc4a5eeb71f350
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 8f19318256dc4480207097d2f4ab393b799e207a
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-lookout-device-compliance-policy-in-intune"></a>Создание политики соответствия устройств Lookout в Intune
 

@@ -1,24 +1,24 @@
 ---
-title: "Создание политики условного доступа на базе приложений для SharePoint Online"
-description: 
-keywords: 
+title: Создание политики условного доступа на базе приложений для SharePoint Online
+description: ''
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 05/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 531b09bb-ddfd-498f-8ee3-6675d2466208
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.openlocfilehash: 4183df8e8ed982e7aba2d55d82923564f215ad53
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 5848fc18e0c288f8806f1fc93427d96c48317d64
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="set-up-app-based-conditional-access-ca-policies-for-sharepoint-online"></a>Настройка политик условного доступа на базе приложений для SharePoint Online
 
@@ -70,11 +70,11 @@ ms.lasthandoff: 10/10/2017
 > [!NOTE] 
 > Ту же процедуру можно выполнить, чтобы удалить группу пользователей из списка **Исключенные группы пользователей**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Блокировка приложений, не поддерживающих современные средства проверки подлинности (ADAL)](block-apps-with-no-modern-authentication.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [Защита данных приложений с помощью политик защиты приложений](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 

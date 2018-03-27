@@ -1,25 +1,25 @@
 ---
-title: "Развертывание приложений"
-description: "В этом разделе приводятся сведения, которые помогут вам развернуть приложения с помощью Microsoft Intune."
-keywords: 
+title: Развертывание приложений
+description: В этом разделе приводятся сведения, которые помогут вам развернуть приложения с помощью Microsoft Intune.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
-manager: angrobe
+manager: dougeby
 ms.date: 12/27/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3b42019e-73da-4538-a496-212f11d5bf9b
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 7e0fd24dffaf58267e492f470ee8a7861d6810aa
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: ed098a22da1def82c90fbb159d54be9b1a369ba8
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="deploy-apps-in-microsoft-intune"></a>Развертывание приложений в Microsoft Intune
 
@@ -71,6 +71,6 @@ ms.lasthandoff: 10/10/2017
 Если приложение развернуто на устройстве iOS в качестве **обязательного**, пользователь получит уведомление о готовности приложения к установке. Например, на этом снимке экрана приложение "Рабочие папки" для iOS было развернуто с помощью типа установки **Управляемое приложение iOS из магазина App Store**.  
 ![Обязательное приложение iOS](./media/iOS-Required-install.PNG)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 После развертывания приложения можно отслеживать его. Дополнительные сведения см. в разделе [Мониторинг приложений в Microsoft Intune](monitor-apps-in-microsoft-intune.md).

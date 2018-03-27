@@ -1,25 +1,25 @@
 ---
-title: "Настройка Skycure для использования единого входа Azure Active Directory"
-description: "Настройка Skycure для использования единого входа Azure Active Directory (SSO)"
-keywords: 
+title: Настройка Skycure для использования единого входа Azure Active Directory
+description: Настройка Skycure для использования единого входа Azure Active Directory (SSO)
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 03/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 34d5d359-5c7c-4225-a205-8ce890b6f890
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b89f9acded5cfd45b2716ce16aeedfd95e0af94e
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: aef978e3d8431238a5b717628b13b875aa5b89cc
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configure-skycure-to-use-azure-active-directory-single-sign-on-sso"></a>Настройка Skycure для использования единого входа Azure Active Directory (SSO)
 
@@ -81,6 +81,6 @@ ms.lasthandoff: 10/10/2017
 > [!IMPORTANT] 
 > Skycure проверяет существование идентификатора клиента Azure AD, запрашивая Azure AD. После нахождения идентификатора администратор может переходить к следующему шагу (базовой настройке).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Скачать политику конфигурации приложения Skycure для iOS](/intune-classic/deploy-use/download-skycure-ios-app-configuration-policy)

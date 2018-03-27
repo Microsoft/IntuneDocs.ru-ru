@@ -1,25 +1,25 @@
 ---
-title: "Устранение неполадок в работе соединителя с Exchange"
-description: "Устранение неполадок, связанных с работой соединителя Intune с Exchange."
-keywords: 
+title: Устранение неполадок в работе соединителя с Exchange
+description: Устранение неполадок, связанных с работой соединителя Intune с Exchange.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 07/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c5cb5465-fd8e-4524-83b9-ccdf3393b6dc
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 08a21197fd7c67aff037396e86a1555a8033daac
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a70b2707b38534826577bfe47bcd8e575c09a71f
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshoot-the-exchange-connector"></a>Устранение неполадок в работе соединителя с Exchange
 
@@ -50,5 +50,5 @@ ms.lasthandoff: 10/10/2017
 - Чтобы получить список SMTP-адресов для почтового ящика, используйте команду Get-Mailbox -Identity user | select emailaddresses | fl.
 - Чтобы получить подробные сведения о состоянии доступа устройства, используйте команду Get-CASMailbox <upn> | fl
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).

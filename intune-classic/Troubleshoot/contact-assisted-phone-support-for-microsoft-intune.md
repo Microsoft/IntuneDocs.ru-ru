@@ -1,25 +1,25 @@
 ---
-title: "Контактные телефоны службы поддержки "
-description: "Номера телефонов для получения справки по Microsoft Intune."
-keywords: "рабочие часы"
-author: arob98
-ms.author: angrobe
-manager: angrobe
+title: 'Контактные телефоны службы поддержки '
+description: Номера телефонов для получения справки по Microsoft Intune.
+keywords: рабочие часы
+author: dougeby
+ms.author: dougeby
+manager: dougeby
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 01c096eb-088b-4d2b-a1fa-dce6cdb12294
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 821234397df511e054e98bc11cd6da21ce8370d7
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: 0cabaf4474ef96f25a09477fd5d25e2c68b559a8
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="contact-assisted-phone-support-for-microsoft-intune"></a>Контактные телефоны службы поддержки Microsoft Intune
 

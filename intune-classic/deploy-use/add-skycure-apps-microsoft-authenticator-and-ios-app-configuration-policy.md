@@ -1,25 +1,25 @@
 ---
-title: "Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS"
-description: "Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS на классическом портале Intune."
-keywords: 
+title: Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS
+description: Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS на классическом портале Intune.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 03/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 018d26f4-4a75-4e27-bb04-54f54106cb2f
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3e2dd0675042e63e056254d1b85955f66d5dc3f2
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 45412855db4afd9dd03b2139a3720d1619d293e2
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="add-skycure-apps-microsoft-authenticator-app-and-ios-configuration-policy"></a>Добавление приложений Skycure, Microsoft Authenticator и политики конфигурации приложения для iOS
 
@@ -99,10 +99,10 @@ ms.lasthandoff: 10/10/2017
 
 3.  В разделе **Общее** страницы **Создание политики** введите имя и необязательное описание политики настройки приложения для iOS.
 
-    а.  Откройте файл **skycure\_configuration.plist** в текстовом редакторе (например, Блокноте), скопируйте содержимое и вставьте его в поле **Политика настройки мобильного приложения**, выберите команду **Проверить**, а затем — **Сохранить политику**.
+    a.  Откройте файл **skycure\_configuration.plist** в текстовом редакторе (например, Блокноте), скопируйте содержимое и вставьте его в поле **Политика настройки мобильного приложения**, выберите команду **Проверить**, а затем — **Сохранить политику**.
 
        ![Политика настройки приложения для iOS 2](../media/mtp/skycure-add-apps-8.png)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Развертывание приложений Skycure, Microsoft Authenticator и политики настройки приложения для iOS](/intune-classic/deploy-use/deploy-skycure-apps-microsoft-authenticator-app-and-ios-app-configuration-policy)
