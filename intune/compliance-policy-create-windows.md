@@ -1,23 +1,22 @@
 ---
-title: "Создание политики соответствия устройств Windows в Microsoft Intune"
-titleSuffix: 
-description: "Создайте политику соответствия для устройств WIndows в Microsoft Intune, чтобы указывать требования, которым должно соответствовать устройство."
-keywords: 
+title: Создание политики соответствия устройств Windows в Microsoft Intune в Azure | Документы Майкрософт
+description: Создайте политику соответствия для устройств WIndows в Microsoft Intune, чтобы указывать требования, которым должно соответствовать устройство.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 32af54e3e753e7ded3c86d9d44b793da7fe2e9c0
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 211b3c94dd7172d1755e3c12bb4d90dbcf28750d
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="how-to-create-a-device-compliance-policy-for-windows-devices-in-intune"></a>Создание политики соответствия для устройств с Windows в Intune
 
@@ -177,7 +176,7 @@ ms.lasthandoff: 03/08/2018
 
 - **Минимальная требуемая ОС**. Поддерживается в Windows 8.1 и Windows 10.
 
-Укажите здесь номер в виде основная.дополнительная.сборка. Номер версии должен соответствовать версии, возвращенной командой ```winver```.
+Укажите здесь номер в виде основная.дополнительная.сборка.накопительное обновление. Номер версии должен соответствовать версии, возвращенной командой ```winver```.
 
 Если версия ОС на устройстве более ранняя, чем указанная, устройство считается несоответствующим. Отображается ссылка со сведениями о том, как выполнить обновление. Конечный пользователь может обновить устройство, после чего он получит доступ к ресурсам организации.
 

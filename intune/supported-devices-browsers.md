@@ -1,25 +1,25 @@
 ---
-title: "Операционные системы и браузеры, поддерживаемые Microsoft Intune"
-titleSuffix: 
-description: "Список поддерживаемых браузеров и платформ устройств для управления устройствами в Intune"
-keywords: 
+title: Операционные системы и браузеры, поддерживаемые Microsoft Intune
+titleSuffix: ''
+description: Список поддерживаемых браузеров и платформ устройств для управления устройствами в Intune
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 01/03/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
-ms.reviewer: angrobe
+ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1e58201620612118f0984a1c477b3fa3bc7e923a
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 5a8962223bac0ed27b6a52404973f2c30abfc28b
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="supported-operating-systems-and-browsers"></a>Поддерживаемые операционные системы и браузеры
 
@@ -109,7 +109,7 @@ You can manage [Exchange ActiveSync devices](/intune-classic/deploy-use/mobile-d
 
 ### <a name="intune-classic-portal"></a>Классический портал Intune
 
-Классические функции Intune, такие как программный клиент Intune для ПК и интеграция с партнерами Mobile Threat Defense, доступны только на классическом портале Intune (https://manage.microsoft.com). Для работы с классическим порталом Intune требуется браузер, поддерживающий Silverlight.
+Классические функции Intune, такие как программный клиент Intune для ПК и интеграция с партнерами Mobile Threat Defense, доступны только на классическом портале Intune (https://manage.microsoft.com)). Для работы с классическим порталом Intune требуется браузер, поддерживающий Silverlight.
 
 Для работы с консолью Intune можно использовать следующие браузеры с поддержкой Silverlight:
 - Internet Explorer 10 или более поздней версии

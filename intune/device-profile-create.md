@@ -1,24 +1,24 @@
 ---
-title: "Создание профилей устройств в Microsoft Intune | Документы Майкрософт"
-description: "Добавьте или настройте профиль устройства в Microsoft Intune, включая выбор типа платформы и настройку параметров на портале Azure"
-keywords: 
+title: Создание профилей устройств в Microsoft Intune | Документы Майкрософт
+description: Добавьте или настройте профиль устройства в Microsoft Intune, включая выбор типа платформы и настройку параметров на портале Azure.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c40fd13a46a61ec0ee05efba7ece7653f5de90ca
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: e5070052c0d4cce3cfd81a7bae259bc7dfb22e7f
+ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -27,12 +27,12 @@ ms.lasthandoff: 03/05/2018
 ## <a name="create-the-profile"></a>Создание профиля
 1. На [портале Azure](https://portal.azure.com) выберите **Все службы** и найдите **Microsoft Intune**.
 
-2. В **Microsoft Intune** выберите **Конфигурация устройства** и нажмите **Профили**, а затем **Создать профиль**.
+2. В **Microsoft Intune** выберите **Конфигурация устройства** и нажмите **Профили**. Затем нажмите **Создать профиль**.
 
-3. Укажите следующие свойства. 
+3. Укажите следующие свойства.
 
-    - **Имя.** Введите описательное имя для нового профиля
-    - **Описание.** Не обязательно, но рекомендуется. Введите описание профиля.
+    - **Имя.** Введите описательное имя для нового профиля.
+    - **Описание.** Введите описание профиля. (Этот шаг является необязательным, но рекомендуемым.)
     - **Платформа.** Выберите тип платформы:  
 
         - **Android**
@@ -57,11 +57,11 @@ ms.lasthandoff: 03/05/2018
         -  [Параметры образования](education-settings-configure.md)
         -  [Пользовательские параметры](custom-settings-configure.md)
 
-    ![Введите параметры для создания профиля устройства](./media/create-device-profile.png)
+    ![Снимок экрана создания профиля](./media/create-device-profile.png)
 
-4. Нажмите **Создать** после завершения. 
+4. Нажмите **Создать** после завершения.
 
-Созданный профиль отобразится в списке. Сведения о том, как назначить этот профиль группам, см. в статье [Назначение профилей устройств](device-profile-assign.md).
+Созданный профиль отобразится в списке.
 
 
 ## <a name="next-steps"></a>Дальнейшие шаги

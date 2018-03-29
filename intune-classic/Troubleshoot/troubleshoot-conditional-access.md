@@ -1,25 +1,25 @@
 ---
-title: "Устранение неполадок условного доступа"
-description: "Описывается, что нужно делать, если пользователям не удается получить доступ к ресурсам через условный доступ Intune."
-keywords: 
+title: Устранение неполадок условного доступа
+description: Описывается, что нужно делать, если пользователям не удается получить доступ к ресурсам через условный доступ Intune.
+keywords: ''
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 10/24/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 433fc32c-ca9c-4bad-9616-852c72faf996
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5f16e14b32508adf1fc4f3f448f53a7dcad8e137
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 67a2891e4c7a6adcd7bd132c5663c9a78426ea07
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshoot-conditional-access"></a>Устранение неполадок условного доступа
 
@@ -118,7 +118,7 @@ ms.lasthandoff: 01/30/2018
 ### <a name="exchange-connector-logs"></a>Журналы соединителя с Exchange
 
 #### <a name="general-log-information"></a>Общая информация о журнале
-Чтобы просмотреть журналы соединителя Exchange, используйте [инструмент Server Trace Viewer] (инструмент Server Trace Viewer https://msdn.microsoft.com/library/ms732023(v=vs.110).aspx'). Для работы этого инструмента необходимо скачать пакет SDK для Windows Server.
+Чтобы просмотреть журналы соединителя Exchange, используйте [инструмент Server Trace Viewer] (инструмент Server Trace Viewer (https://msdn.microsoft.com/library/ms732023(v=vs.110).aspx)). Для работы этого инструмента необходимо скачать пакет SDK для Windows Server.
 
 >[!NOTE]
 >Журналы расположены в папке C:\ProgramData\Microsoft\Windows Intune Exchange Connector\Logs. Они хранятся в наборе из 30 файлов журнала, начиная с *Connector0.log* и заканчивая *Connector29.log*. После записи в файл журнала 10 МБ данных выбирается следующий файл журнала и запись производится в него. Когда заполняется файл журнала Connector29, запись снова переключается на файл журнала Connector0. При этом предыдущий файл журнала перезаписывается.
