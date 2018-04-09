@@ -1,31 +1,31 @@
 ---
-title: "Удаление пользователя с устройства iOS с помощью Microsoft Intune"
-titlesuffix: 
-description: "Узнайте, как удалить пользователя с устройства iOS с помощью Intune."
-keywords: 
+title: Удаление пользователя с устройства iOS с помощью Microsoft Intune
+titlesuffix: ''
+description: Узнайте, как удалить пользователя с устройства iOS с помощью Intune.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 2ea5941c-a69b-4e1c-b42c-a1fc0c3a7de7
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ce1b6b439c287b67a7c9e776edf136e78e5ecf5b
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 01928439f3a4d9280036b2e1a9576175ef425050
+ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="remove-a-user-from-a-shared-ios-device"></a>Удаление пользователя с общего устройства iOS
 
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Действие **Удалить пользователя** удаляет выбранного пользователя из локального кэша на общем устройстве iPad, где настроена работа с iOS-приложением «Класс» с использованием [Профиля образования iOS](education-settings-configure-ios.md). 
+Действие **Удалить пользователя** удаляет выбранного пользователя из локального кэша на общем устройстве iOS. Устройство iPad необходимо настроить для управления приложением iOS Classroom с помощью [профиля образования iOS](education-settings-configure-ios.md). 
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
@@ -35,16 +35,16 @@ ms.lasthandoff: 03/08/2018
 - macOS — не поддерживается
 - Android — не поддерживается
 
-## <a name="how-to-remove-a-user"></a>Удаление пользователя
+## <a name="remove-a-user"></a>Удаление пользователя
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В колонке **Intune** выберите **Устройства**.
-4. В колонке **Устройства** выберите **Все устройства**.
+3. На панели **Intune** выберите **Устройства**.
+4. На панели **Устройства** выберите **Все устройства**.
 5. Выберите нужное устройство iOS в списке управляемых устройств.
-6. В колонке для этого устройства выберите **Пользователи**.
+6. В области для устройства выберите **Пользователи**.
 7. В списке щелкните имя удаляемого пользователя правой кнопкой мыши и выберите пункт **Удалить пользователя**.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Чтобы просмотреть состояние выполненного действия, в колонке **Устройства** выберите **Действия устройства**.
+- Чтобы отобразились сведения о состоянии действия **Удалить пользователя**, выберите **Устройства** > **Действия устройства**.

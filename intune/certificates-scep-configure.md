@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 88109f1dc4543a5c71f36378fddb110c03afa08f
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: df77b63cbf953df030e5d0e597c0940f083ffb79
+ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="configure-and-manage-scep-certificates-with-microsoft-intune"></a>Настройка сертификатов SCEP и управление ими в Microsoft Intune
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
@@ -153,7 +153,13 @@ NDES-сервер должен быть присоединен к домену, 
 #### <a name="step-3---configure-prerequisites-on-the-ndes-server"></a>Шаг 3. Настройка необходимых компонентов на сервере NDES
 В этой задаче вы:
 
+<<<<<<< ЗАГОЛОВОК
+
+- добавите NDES к Windows Server и настроите в IIS поддержку NDES;
+- добавите учетную запись службы NDES в группу IIS_IUSR;
+- настроите SPN для учетной записи службы NDES;
 -   добавите NDES к Windows Server и настроите в IIS поддержку NDES;
+>>>>>>> родительский объект элемента 3365d47d4... выполните слияние ветви release-intune-1803 с главной ветвью;
 
 -   добавите учетную запись службы NDES в группу IIS_IUSR;
 

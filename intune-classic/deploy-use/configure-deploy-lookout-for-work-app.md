@@ -1,24 +1,24 @@
 ---
-title: "Развертывание приложения Lookout for Work"
-description: "Настройка и развертывание приложения Lookout for Work для Android."
+title: Развертывание приложения Lookout for Work
+description: Настройка и развертывание приложения Lookout for Work для Android.
 author: andredm7
 ms.author: andredm
-manager: angrobe
+manager: dougeby
 ms.date: 03/21/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 524c4209-ad57-4d35-955e-a00d796bf858
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: fd0ad36f40463ab56f1a5ab0a11fa9eeb0c35db4
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 5d56dcf54c4f087dbea0dfcd95a2eebbdf384c00
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configure-and-deploy-lookout-for-work-app"></a>Настройка и развертывание приложения Lookout for Work
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 10/10/2017
 ## <a name="android-google-play-store-app"></a>Android (приложение магазина Google Play)
 
 1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) перейдите в раздел **Приложения** и выберите **Добавить приложения**.
-2.  На странице **Установка ПО** издателя выберите **Внешняя ссылка** и укажите следующий URL-адрес: https://play.google.com/store/apps/details?id=com.lookout.enterprise.
+2.  На странице издателя **Установка программного обеспечения** выберите **Внешняя ссылка** и укажите следующий URL-адрес: https://play.google.com/store/apps/details?id=com.lookout.enterprise.
   >[!NOTE]
   >Не устанавливайте флажок для задания управляемого браузера.
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 10/10/2017
   ![Снимок экрана: диалоговое окно добавления приложений с выбранным параметром встроенного клиентского приложения](../media/mtp/aad-add-app.png)
   3. Замените адрес **com.lookout.enterprise.yourcompanyname** на идентификатор пакета клиента, выбранный во время подписи пакета IPA.
   4.  Добавьте дополнительный URI перенаправления: **&lt;companyportal://code/>**, за которым указывается оригинальный URI перенаправления, закодированный как URL-адрес.
-  5.  Добавьте **Делегированные разрешения** в приложение.
+  5.  Добавьте **делегированные разрешения** к приложению.
 
   Дополнительные сведения см. в статье [Настройка встроенного клиентского приложения](https://azure.microsoft.com/documentation/articles/app-service-mobile-how-to-configure-active-directory-authentication/#optional-configure-a-native-client-application).
 
@@ -88,9 +88,9 @@ ms.lasthandoff: 10/10/2017
 ## <a name="what-happens-when-the-deployed-app-is-opened-on-the-device"></a>Что происходит при открытии развернутого приложения на устройстве
 https://github.com/Microsoft/Docs/blob/master/ContributorGuide/index.md Когда пользователь откроет приложение Lookout for Work на устройстве, ему будет предложено активировать приложение и выбрать вариант входа с помощью Azure Active Directory. Подробное пошаговое руководство с процедурой для конечных пользователей можно найти в следующих разделах:
 
-* [Вам предложено установить Lookout for Work на устройстве с Android](https://docs.microsoft.com/intune-user-help/you-are-prompted-to-install-lookout-for-work-android).
+* [Вам предложено установить Lookout for Work на устройстве Android](https://docs.microsoft.com/intune-user-help/you-are-prompted-to-install-lookout-for-work-android)
 
-* [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](https://docs.microsoft.com/intune-user-help/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
+* [Вам необходимо устранить угрозу, которую приложение Lookout for Work обнаружило на устройстве Android](https://docs.microsoft.com/intune-user-help/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 * [Создание политики соответствия устройств Lookout в Intune](https://docs.microsoft.com/sccm/protect/deploy-use/enable-device-threat-protection-rule-compliance-policy)

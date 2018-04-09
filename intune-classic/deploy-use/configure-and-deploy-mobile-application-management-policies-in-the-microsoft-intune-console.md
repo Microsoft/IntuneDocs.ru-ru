@@ -1,25 +1,25 @@
 ---
-title: "Настройка политик MAM в консоли Intune"
-description: "Политики управления мобильными приложениями в Microsoft Intune позволяют изменять функциональность развернутых приложений, чтобы они соответствовали требованиям компании в отношении безопасности."
-keywords: 
+title: Настройка политик MAM в консоли Intune
+description: Политики управления мобильными приложениями в Microsoft Intune позволяют изменять функциональность развернутых приложений, чтобы они соответствовали требованиям компании в отношении безопасности.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
-manager: angrobe
+manager: dougeby
 ms.date: 03/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b4fb33a8-a2fa-4353-bd89-5bda48b68e83
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 881180fec0fe4fca8b49106bcae6ea1ecd52c2eb
-ms.sourcegitcommit: eac89306d1391a6d3ae1179612b0820b19c2baa6
+ms.openlocfilehash: 94c6a46d2213ba3d1389b52f7684ec531e40228a
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console"></a>Configure and deploy mobile application management policies in the Microsoft Intune console
 
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="step-1-get-the-link-to-a-policy-managed-app-create-a-wrapped-app-or-use-the-intune-app-sdk-to-write-a-mam-enabled-app"></a>Шаг 1. Получите ссылку на приложение, находящееся под управлением политики, создайте упакованное приложение или напишите приложение с поддержкой MAM, используя пакет SDK для приложений Intune.
 
-В магазине приложений найдите и сохраните URL-адрес приложения, управляемого политикой, которое вы хотите развернуть. Например, URL-адрес приложения Microsoft Word для iPad: **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8**.
+В магазине приложений найдите и сохраните URL-адрес приложения, управляемого политикой, которое вы хотите развернуть. Например, URL-адрес приложения Microsoft Word для iPad имеет вид **https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8**.
 
 
 ## <a name="step-2-publish-the-app-to-your-cloud-storage-space"></a>Шаг 2. Опубликуйте приложение в облачном хранилище.

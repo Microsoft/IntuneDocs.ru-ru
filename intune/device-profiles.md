@@ -1,24 +1,24 @@
 ---
-title: "Профили устройств в Microsoft Intune —Azure | Документы Майкрософт"
-description: "На портале Azure приводятся общие сведения о различных профилях устройств Microsoft Intune, в том числе функции, ограничения, электронная почта, Wi-Fi, VPN, образование, сертификаты, обновления Windows 10, BitLocker и защитник Windows, Windows Information Protection и пользовательские параметры устройства. Используйте эти профили для управления и защиты данных и устройств в вашей компании."
-keywords: 
+title: Профили устройств в Microsoft Intune —Azure | Документы Майкрософт
+description: На портале Azure приводятся общие сведения о различных профилях устройств Microsoft Intune, в том числе функции, ограничения, электронная почта, Wi-Fi, VPN, образование, сертификаты, обновления Windows 10, BitLocker и защитник Windows, Windows Information Protection и пользовательские параметры устройства. Используйте эти профили для управления и защиты данных и устройств в вашей компании.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/01/2018
+ms.date: 03/22/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
-ms.reviewer: 
+ms.technology: ''
+ms.assetid: ''
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 79ca6eaf22233dd6d024a28e456e57a8a74d02aa
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: e92a10f51fb403c802c1c6d3ea79ccf49a1e93fb
+ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="what-are-microsoft-intune-device-profiles"></a>Что такое профили устройств в Microsoft Intune?
 
@@ -120,6 +120,8 @@ Microsoft Intune включает в себя параметры и функци
 ## <a name="endpoint-protection-profile"></a>Профиль Endpoint Protection
 [Параметры Endpoint Protection для Windows 10](endpoint-protection-windows-10.md) — настройка параметров BitLocker и защитника Windows для устройств Windows 10.
 
+Сведения о внедрении Advanced Threat Protection в Защитнике Windows (WDATP) с помощью Microsoft Intune см. в статье [Настройка конечных точек с помощью средств управления мобильными устройствами (MDM)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-mdm-windows-defender-advanced-threat-protection).
+
 Эта функция поддерживает: только Windows 10
 
 ## <a name="windows-information-protection-profile"></a>Профиль Windows Information Protection
@@ -130,7 +132,7 @@ Microsoft Intune включает в себя параметры и функци
 ## <a name="custom-profile"></a>Пользовательский профиль
 [Пользовательские параметры](custom-settings-configure.md) — возможность назначения устройствам параметров, не встроенных в Intune. Например, на устройствах Android можно ввести значения OMA-URI. Для устройств iOS можно импортировать файл конфигурации, созданный в Apple Configurator. 
 
-Эта функция поддерживает: 
+Эта функция поддерживает:
 
 - Android
 - iOS

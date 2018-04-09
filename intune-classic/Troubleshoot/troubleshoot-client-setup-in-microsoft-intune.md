@@ -1,25 +1,25 @@
 ---
-title: "Устранение неполадок при настройке клиента"
-description: "Устранение распространенных неполадок при установке клиента."
-keywords: 
+title: Устранение неполадок при настройке клиента
+description: Устранение распространенных неполадок при установке клиента.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
-manager: angrobe
+manager: dougeby
 ms.date: 02/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e46d292b-1d16-46db-a87f-d53eefa4d22a
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5c9ac6ecc75c25f910a8aecd1632c947c95b26d6
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: f9cb68fcac7abc895f51cf2c8758c2cf59b32759
+ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Устранение неполадок при настройке клиента в Microsoft Intune
 
