@@ -1,4 +1,4 @@
 |Область применения: Intune на портале Azure |
 |--|
-|Ищете документацию по Intune на классическом портале? [Щелкните здесь](/intune/introduction-intune?toc=/intune-classic/toc.json).|
+|Ищете документацию по Intune на классическом портале? Ознакомьтесь с [общими сведениями об Intune](/intune/introduction-intune?toc=/intune-classic/toc.json).|
 | |

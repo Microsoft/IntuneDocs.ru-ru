@@ -6,7 +6,7 @@ keywords: ''
 author: barlanmsft
 ms.author: barlan
 manager: dougeby
-ms.date: 03/16/2018
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,16 +15,32 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 753b3a345dc84bee80921fd0c7994dfac79a3df6
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 7e553391bb2a98c5e57edf0a4388359703b9d550
+ms.sourcegitcommit: 390a4be5aa36007c36fb6a5abcfe8d20bc862a4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для пользовательских приложений Intune
 Ознакомьтесь с изменениями, внесенными в пользовательский интерфейс для приложений в этом выпуске Microsoft Intune. Благодаря этим изменениям взаимодействовать с пользователями станет проще, и вы сможете добавить актуальную информацию в собственную документацию по своему развертыванию. Вы также поймете, как эффективнее решать проблемы, когда пользователи обращаются в службу поддержки по вопросам работы на корпоративном портале.
 
 <!---End-user messaging for accounts 1573558, 1712; changes to be made for other platforms for 1801 Users of the Company Portal website, will be blocked from taking actions that require write access to your tenant. They will see appropriate error messaging explaining that their account is under maintenance. Similar changes are coming to the Company Portal apps for Android, iOS, macOS, and Windows soon. ![Error message that occurs during account move](./media/account-move-rom-iwp-user-1712.png)--->
+
+## <a name="week-of-march-12-2018"></a>Неделя, начиная с 12 марта 2018 г.
+
+#### <a name="company-portal-for-android-visual-updates---976944---"></a>Обновление визуальных элементов на корпоративном портале для Android <!--976944 -->
+
+Мы обновили приложение корпоративного портала для Android в соответствии с рекомендациями по [материальному дизайну](https://material.io/) для Android.
+
+|До|После|
+|---|---|
+|![01](./media/android_about_before_1803.png)|![01](./media/android_contact_it_after_1803.png)|
+|![02](./media/android_contact_it_before_1803.png)|![02](./media/android_contact_it_after_1803.png)|
+|![03](./media/android_device_details_before_1803.png)|![03](./media/android_device_details_after_1803.png)|
+|![04](./media/android_device_details_update_settings_before_1803.png)|![04](./media/android_device_details_update_settings_after_1803.png)|
+|![05](./media/android_devices_before_1803.png)|![05](./media/android_devices_before_1803.png)|
+|![06](./media/android_profile_before_1803.png)|![06](./media/android_profile_after_1803.png)|
+
 
 ## <a name="week-of-november-27-2017"></a>Неделя с 27 ноября 2017 г.
 
@@ -381,7 +397,7 @@ __После__ ![Изображение обновленной версии за
 
 В апреле мы представляем новый интерфейс веб-сайта корпоративного портала с упрощенными рабочими процессами и улучшенными специальными возможностями. В нем реализованы такие ориентированные на клиента усовершенствования, как общий доступ к приложениям, а также повышена общая производительность, что делает работу с порталом удобнее.
 
-На основе отзывов клиентов мы добавили ряд новых возможностей, которые значительно расширяют существующую функциональность и повышают удобство работы:
+Основываясь на отзывах клиентов, мы добавили ряд новых возможностей, которые значительно расширяют существующую функциональность и повышают удобство работы:
 
 -   улучшения пользовательского интерфейса веб-сайта;
 -   возможность делиться прямыми ссылками на приложения;

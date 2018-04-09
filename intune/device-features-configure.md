@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e3de7d1bccd57da1290987a714416373cbdd2b0d
-ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
+ms.openlocfilehash: 291ad9cb8b07893f538171c365110618ea376388
+ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="add-ios-or-macos-device-feature-settings-in-intune"></a>Добавление параметров для функций устройств iOS или macOS в Intune
 
@@ -37,25 +37,25 @@ ms.lasthandoff: 03/09/2018
 ## <a name="create-a-device-profile"></a>Создание профиля устройства
 
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы**, отфильтруйте список по **Intune**, а затем выберите **Microsoft Intune**.
-3. Последовательно выберите **Конфигурация устройства**, **Профили** и **Создать профиль**.
+2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+3. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 4. Укажите следующие свойства.
 
-  - **Имя.** Введите описательное имя для нового профиля
-  - **Описание.** Введите описание профиля (необязательно, но рекомендуется).
-  - **Платформа.** Выберите тип платформы:
-    - **iOS**
-    - **macOS**
-  - **Тип профиля.** Выберите **Функции устройства**.
-  - **Параметры.** Параметры зависят от выбранной платформы. Параметры каждого типа профиля описаны в следующих статьях:
+   - **Имя.** Введите описательное имя для нового профиля.
+   - **Описание.** Введите описание профиля. (Этот шаг является необязательным, но рекомендуемым.)
+   - **Платформа.** Выберите тип платформы:
+     - **iOS**
+     - **macOS**
+   - **Тип профиля.** Выберите **Функции устройства**.
+   - **Параметры.** Параметры зависят от выбранной платформы. Параметры каждого типа профиля описаны в следующих статьях:
 
-    - [Параметры AirPrint для iOS и MacOS](air-print-settings-ios-macos.md)
-    - [Параметры AirPlay для iOS](airplay-settings-ios.md)
-    - [Параметры макета начального экрана для iOS](home-screen-settings-ios.md)
-    - [Параметры уведомлений приложения для iOS](app-notification-settings-ios.md)
-    - [Параметры конфигурации iOS общего устройства](shared-device-settings-ios.md)
-    - [Настройка единого входа на устройствах с iOS для Intune](sso-ios.md)
-    - [Параметры фильтра веб-содержимого для iOS](web-content-filter-settings-ios.md)
+     - [Параметры AirPrint для iOS и MacOS](air-print-settings-ios-macos.md)
+     - [Параметры AirPlay для iOS](airplay-settings-ios.md)
+     - [Параметры макета начального экрана для iOS](home-screen-settings-ios.md)
+     - [Параметры уведомлений приложения для iOS](app-notification-settings-ios.md)
+     - [Параметры конфигурации iOS общего устройства](shared-device-settings-ios.md)
+     - [Настройка единого входа на устройствах с iOS для Intune](sso-ios.md)
+     - [Параметры фильтра веб-содержимого для iOS](web-content-filter-settings-ios.md)
 
 5. По завершении нажмите кнопку **ОК** и выберите **Создать**, чтобы сохранить изменения.
 

@@ -357,6 +357,13 @@
               href: device-restrictions-windows-holographic.md
             - name: Android for Work
               href: device-restrictions-android-for-work.md
+        - name: Настройка Endpoint Protection
+          href: endpoint-protection-configure.md
+          items:
+            - name: macOS
+              href: endpoint-protection-macos.md
+            - name: Windows 10
+              href: endpoint-protection-windows-10.md
         - name: Настройка параметров электронной почты
           href: email-settings-configure.md
           items:
@@ -398,8 +405,6 @@
               href: wi-fi-settings-import-windows-8-1.md
         - name: Настройка параметров обновления выпуска Windows 10
           href: edition-upgrade-configure-windows-10.md
-        - name: Защита конечных точек в Windows 10
-          href: endpoint-protection-windows-10.md
         - name: Настройка параметров Windows 10 для образовательных учреждений
           href: education-settings-configure.md
         - name: Настройка параметров iOS для образовательных учреждений
