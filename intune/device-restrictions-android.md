@@ -14,15 +14,15 @@ ms.technology: ''
 ms.reviewer: ayesham, chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f938967951045d24ae65315b3b4d40749c1bc20f
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 77942ef6a5f25708ce43910cde94133e174b4731
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-android-and-samsung-knox-standard-device-restriction-settings"></a>Параметры ограничений для устройств Android и Samsung KNOX Standard в Microsoft Intune 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В этой статье описаны все параметры ограничения устройств в Microsoft Intune, которые можно настроить для устройств под управлением Android.
 
@@ -93,7 +93,7 @@ ms.lasthandoff: 03/08/2018
 
 Откройте страницу установки приложения и скопируйте URL-адрес в буфер обмена. После этого его можно использовать как URL-адрес в списке приложений, соответствующих или не соответствующих политике.
 
-Пример: найдите **Планировщик (Майкрософт)** в [разделе приложений в Google Play](https://play.google.com/store/apps). Используйте следующий URL-адрес **https://play.google.com/store/apps/details?id=com.microsoft.planner**.
+Пример: найдите **Планировщик (Майкрософт)** в [разделе приложений в Google Play](https://play.google.com/store/apps). Используйте URL-адрес: **https://play.google.com/store/apps/details?id=com.microsoft.planner**.
 
 ### <a name="additional-options"></a>Дополнительные параметры
 

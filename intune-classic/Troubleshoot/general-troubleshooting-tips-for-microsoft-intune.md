@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 944c5771e00d8e256944fe5767217f138797bde2
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: d5d55f6c3efabdde51b5627d5ddd409c2b282f6c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="general-troubleshooting-tips-for-microsoft-intune"></a>Общие советы по устранению неполадок в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 После развертывания Microsoft Intune могут возникать проблемы с конфигурацией или клиентскими устройствами. Используйте указанные ниже ресурсы, чтобы определить причину проблемы и способы ее решения.
 
@@ -50,13 +50,13 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="collect-available-data"></a>Сбор доступных данных
 
--   Следующие ресурсы помогут вам узнать, как собирать сведения о журналах устройств:
+- Следующие ресурсы помогут вам узнать, как собирать сведения о журналах устройств:
   - [Отправка журналов диагностических данных Android ИТ-администратору по USB-кабелю](/intune-user-help/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
   - [Отправка журналов диагностических данных Android ИТ-администратору по электронной почте](/intune-user-help/send-diagnostic-data-logs-to-your-it-administrator-using-email-android)
   - [Отправка ошибок регистрации Android ИТ-администратору](/intune-user-help/send-enrollment-errors-to-your-it-administrator-android)
   - [Отправка ошибок регистрации iOS ИТ-администратору](/intune-user-help/send-errors-to-your-it-admin-ios)
 
--   Используя данные из консоли администрирования (например, при проблемах с реализацией политик), изучите применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/intune-classic/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
+- Используя данные из консоли администрирования (например, при проблемах с реализацией политик), изучите применяемую политику и ее состояние, как описано в статье [Использование групп для управления пользователями и устройствами в Microsoft Intune](/intune-classic/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
 
 ## <a name="research-the-solution"></a>Поиск решения
 

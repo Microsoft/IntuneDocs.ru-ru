@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 03719051179a30b0cc543098861f1b480c66082a
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: ed6f66747364debd89661d78bcf3b002b1c8a9b6
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-device-compliance-policy-in-microsoft-intune"></a>Создание политики соответствия устройств в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе приведены инструкции по созданию политики соответствия, которая должна соблюдаться устройством, чтобы оно считалось соответствующим.
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 03/22/2018
 В таблице ниже перечислены параметры политики соответствия и платформы, на которых они поддерживаются.
 
 -------------
+
 |Параметр|iOS|Android|Windows|
 |-----|----|-----|-----|
 |Требовать пароль для разблокировки мобильных устройств|iOS 6 и более поздних версий|Android 4.0 и более поздней версии <br>Samsung KNOX Standard 4.0 и более поздние версии|Windows Phone 8.1 и более поздней версии|
@@ -79,9 +80,9 @@ ms.lasthandoff: 03/22/2018
 
 Чтобы узнать больше о параметрах соответствия, поддерживаемых каждой платформой, выберите один из пунктов ниже.
 > [!div class="op_single_selector"]
-- [Параметры политики соответствия для устройств с iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
-- [Параметры политики соответствия для устройств с Android](android-compliance-policy-settings-in-microsoft-intune.md)
-- [Параметры политики соответствия для устройств Windows и Windows Phone](windows-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для устройств с iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для устройств с Android](android-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для устройств Windows и Windows Phone](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 
 ## <a name="next-steps"></a>Дальнейшие шаги

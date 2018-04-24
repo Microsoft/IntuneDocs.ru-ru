@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 498b9ec1ab98358f73c0ca2139f156164a253a75
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 74c709790295a971ff9efe7c2cc348d13d471d5a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/20/2018
     * IntuneMAMPolicyDelegate.h
     * IntuneMAMPolicyManager.h
     * IntuneMAMVersionInfo.h
-    
+
 Чтобы получить доступ ко всем указанным выше файлам заголовков, разработчикам достаточно просто импортировать IntuneMAM.h
 
 
@@ -89,66 +89,67 @@ ms.lasthandoff: 03/20/2018
     ![Пакет SDK для приложений Intune в iOS — связанные платформы и библиотеки](./media/intune-app-sdk-ios-linked-frameworks-and-libraries.png)
 
     Добавьте `-force_load {PATH_TO_LIB}/libIntuneMAM.a` в любое из следующих расположений, заменив `{PATH_TO_LIB}` путем к пакету SDK для приложений Intune:
-      * Параметр конфигурации сборки `OTHER_LDFLAGS` проекта.
-      * **Other Linker Flags** (Другие флаги компоновщика) в пользовательском интерфейсе Xcode.
+   * Параметр конфигурации сборки `OTHER_LDFLAGS` проекта.
+   * **Other Linker Flags** (Другие флаги компоновщика) в пользовательском интерфейсе Xcode.
 
-        > [!NOTE]
-        > Чтобы найти `PATH_TO_LIB`, выберите файл `libIntuneMAM.a`, а затем пункт **Получить сведения** в меню **Файл**. Скопируйте и вставьте данные **Where** (Где) (путь) из раздела **General** (Общие) окна **Info** (Сведения).
+     > [!NOTE]
+     > Чтобы найти `PATH_TO_LIB`, выберите файл `libIntuneMAM.a`, а затем пункт **Получить сведения** в меню **Файл**. Скопируйте и вставьте данные **Where** (Где) (путь) из раздела **General** (Общие) окна **Info** (Сведения).
 
-    Добавьте пакет ресурсов `IntuneMAMResources.bundle` в проект, перетащив этот набор в узел **Copy Bundle Resources** (Копирование ресурсов пакета) раздела **Build Phases** (Этапы сборки).
+     Добавьте пакет ресурсов `IntuneMAMResources.bundle` в проект, перетащив этот набор в узел **Copy Bundle Resources** (Копирование ресурсов пакета) раздела **Build Phases** (Этапы сборки).
 
-    ![Пакет SDK для приложений Intune для iOS — копирование ресурсов пакета](./media/intune-app-sdk-ios-copy-bundle-resources.png)
+     ![Пакет SDK для приложений Intune для iOS — копирование ресурсов пакета](./media/intune-app-sdk-ios-copy-bundle-resources.png)
 
-    Добавьте в проект следующие платформы iOS:  
-            * MessageUI.framework  
-            * Security.framework  
-            * MobileCoreServices.framework  
-            * SystemConfiguration.framework  
-            * libsqlite3.tbd  
-            * libc++.tbd  
-            * ImageIO.framework  
-            * LocalAuthentication.framework  
-            * AudioToolbox.framework  
-            * QuartzCore.framework  
-            * WebKit.framework  
+     Добавьте в проект следующие платформы iOS:  
+    * MessageUI.framework  
+    * Security.framework  
+    * MobileCoreServices.framework  
+    * SystemConfiguration.framework  
+    * libsqlite3.tbd;  
+    * libc++.tbd;  
+    * ImageIO.framework  
+    * LocalAuthentication.framework  
+    * AudioToolbox.framework  
+    * QuartzCore.framework  
+    * WebKit.framework
 
 3. Включите совместное использование цепочки ключей (если оно еще не включено), щелкнув **Capabilities** (Возможности) в каждой цели проекта и включив параметр **Keychain Sharing** (Совместное использование цепочки ключей). Совместное использование цепочки ключей требуется для перехода к следующему шагу.
 
-  > [!NOTE]
-    > Профиль подготовки должен поддерживать новые значения совместного использования цепочки ключей. Группы доступа к цепочке ключей должны поддерживать подстановочный знак. Это можно проверить, открыв MOBILEPROVISION-файл в текстовом редакторе, найдя **keychain-access-groups** и убедившись в наличии подстановочного знака. Пример.
-    ```xml
-    <key>keychain-access-groups</key>
-    <array>
-    <string>YOURBUNDLESEEDID.*</string>
-    </array>
-    ```
+   > [!NOTE]
+   > Профиль подготовки должен поддерживать новые значения совместного использования цепочки ключей. Группы доступа к цепочке ключей должны поддерживать подстановочный знак. Это можно проверить, открыв MOBILEPROVISION-файл в текстовом редакторе, найдя **keychain-access-groups** и убедившись в наличии подстановочного знака. Пример.
+   >  ```xml
+   >  <key>keychain-access-groups</key>
+   >  <array>
+   >  <string>YOURBUNDLESEEDID.*</string>
+   >  </array>
+   >  ```
 
 4. Чтобы создать отдельную группу доступа, в которой будут храниться данные пакета SDK для приложений Intune, после включения совместного использования цепочки ключей сделайте следующее. Группу доступа к цепочке ключей можно создать с помощью пользовательского интерфейса или с помощью файла прав. При использовании пользовательского интерфейса для создания группы доступа к цепочке ключей обязательно выполните следующие действия:
 
-    1. Если для мобильного приложения не определено ни одной группы доступа к цепочке ключей, добавьте идентификатор пакета приложения в качестве первой группы.
+   1. Если для мобильного приложения не определено ни одной группы доступа к цепочке ключей, добавьте идентификатор пакета приложения в качестве первой группы.
 
-    2. Добавьте группу общей цепочки ключей `com.microsoft.intune.mam` к существующим группам доступа. Пакет SDK для приложений Intune использует эту группу доступа для хранения данных.
+   2. Добавьте группу общей цепочки ключей `com.microsoft.intune.mam` к существующим группам доступа. Пакет SDK для приложений Intune использует эту группу доступа для хранения данных.
 
-    3. Добавьте `com.microsoft.adalcache` в свои существующие группы доступа.
+   3. Добавьте `com.microsoft.adalcache` в свои существующие группы доступа.
 
-        ![Пакет SDK для приложений Intune в iOS — совместное использование цепочки ключей](./media/intune-app-sdk-ios-keychain-sharing.png)
+       ![Пакет SDK для приложений Intune в iOS — совместное использование цепочки ключей](./media/intune-app-sdk-ios-keychain-sharing.png)
 
-    4. Если вы изменяете файл прав непосредственно (не с помощью пользовательского интерфейса Xcode, показанного выше) для создания группы доступа к цепочке ключей, добавьте `$(AppIdentifierPrefix)` в начало групп доступа к цепочке ключей (Xcode обрабатывает это значение автоматически). Пример.
+   4. Если вы изменяете файл прав непосредственно (не с помощью пользовательского интерфейса Xcode, показанного выше) для создания группы доступа к цепочке ключей, добавьте `$(AppIdentifierPrefix)` в начало групп доступа к цепочке ключей (Xcode обрабатывает это значение автоматически). Пример.
 
-            * `$(AppIdentifierPrefix)com.microsoft.intune.mam`
-            * `$(AppIdentifierPrefix)com.microsoft.adalcache`
+           * `$(AppIdentifierPrefix)com.microsoft.intune.mam`
+           * `$(AppIdentifierPrefix)com.microsoft.adalcache`
 
-    > [!NOTE]
-    > Файл прав — это XML-файл, который является уникальным в рамках вашего мобильного приложения. Он используется для задания специальных разрешений и возможностей в вашем приложении для iOS. Если файла прав нет, включите общий доступ к цепочке ключей (шаг 3), чтобы это файл был создан в Xcode для вашего приложения.
+      > [!NOTE]
+      > Файл прав — это XML-файл, который является уникальным в рамках вашего мобильного приложения. Он используется для задания специальных разрешений и возможностей в вашем приложении для iOS. Если файла прав нет, включите общий доступ к цепочке ключей (шаг 3), чтобы это файл был создан в Xcode для вашего приложения.
 
 5. Включите в массив `LSApplicationQueriesSchemes` в файле Info.plist приложения каждый из протоколов, которые приложение передает в `UIApplication canOpenURL`. Не забудьте сохранить изменения перед переходом к следующему шагу.
 
 6. Используйте средство IntuneMAMConfigurator, включенное в [репозиторий SDK](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios), для завершения настройки приложения в файле Info.plist. Средство имеет 3 параметра:
-|Свойство|Способ использования|
-|---------------|--------------------------------|
-|- i |  `<Path to the input plist>` |
-|- e | `<Path to the entitlements file>` |
-|- o |  (Необязательно) `<Path to the output plist>` |
+
+   |Свойство|Способ использования|
+   |---------------|--------------------------------|
+   |- i |  `<Path to the input plist>` |
+   |- e | `<Path to the entitlements file>` |
+   |- o |  (Необязательно) `<Path to the output plist>` |
 
 Если параметр "-о" не указан, входной файл будет изменен на месте. Средство является идемпотентным, поэтому его нужно перезапускать каждый раз, когда вносятся изменения в файл Info.plist. Кроме того, необходимо загрузить и запустить последнюю версию средства при обновлении пакета SDK Intune, если в последнем выпуске изменены требования к конфигурации Info.plist.
 
@@ -171,9 +172,9 @@ ms.lasthandoff: 03/20/2018
 1. Скачайте [библиотеку проверки подлинности Azure Active Directory (ADAL) для Objective-C](https://github.com/AzureAD/azure-activedirectory-library-for-objc) из GitHub, а затем выполните [инструкции](https://github.com/AzureAD/azure-activedirectory-library-for-objc#download) по скачиванию ADAL с помощью подмодулей Git или CocoaPods.
 
 2. Добавьте платформу ADAL (вариант 1) или статическую библиотеку (вариант 2) в проект:
-    
+
     **Вариант 1 (рекомендуемый).** Перетащите `ADAL.framework` в список **Embedded Binaries** (Встроенные двоичные файлы) для целевого объекта проекта.
-    
+
     **Вариант 2**. Перетащите библиотеку `libADALiOS.a` в список **Linked Frameworks and Libraries** (Связанные платформы и библиотеки) для целевого объекта проекта. Добавьте `-force_load {PATH_TO_LIB}/libADALiOS.a` в параметр конфигурации сборки `OTHER_LDFLAGS` проекта или в **Other Linker Flags** (Другие флаги компоновщика) в пользовательском интерфейсе Xcode. `PATH_TO_LIB` следует заменить на расположение двоичных файлов ADAL.
 
 
@@ -210,7 +211,7 @@ ms.lasthandoff: 03/20/2018
 Кроме того, приложения могут переопределять эти настройки Azure AD во время выполнения. Для этого нужно определить свойства `aadAuthorityUriOverride`, `aadClientIdOverride` и `aadRedirectUriOverride` для экземпляра `IntuneMAMPolicyManager`.
 
 > [!NOTE]
-    > Подход с файлом Info.plist рекомендуется использовать для всех параметров, которые являются статическими, но которые не обязательно определять во время выполнения. Значения, присвоенные свойствам `IntuneMAMPolicyManager`, имеют приоритет над любыми соответствующими значениями, установленными в файле Info.plist, и сохраняются даже после перезапуска приложения. Пакет SDK будет продолжать их использовать для возвратов политики до отмены регистрации либо очистки или изменения значений.
+> Подход с файлом Info.plist рекомендуется использовать для всех параметров, которые являются статическими, но которые не обязательно определять во время выполнения. Значения, присвоенные свойствам `IntuneMAMPolicyManager`, имеют приоритет над любыми соответствующими значениями, установленными в файле Info.plist, и сохраняются даже после перезапуска приложения. Пакет SDK будет продолжать их использовать для возвратов политики до отмены регистрации либо очистки или изменения значений.
 
 ### <a name="if-your-app-does-not-use-adal"></a>Если приложение не использует ADAL
 
@@ -233,7 +234,6 @@ ms.lasthandoff: 03/20/2018
  */
 
 (void)registerAndEnrollAccount:(NSString *)identity;
-
 ```
 
 Путем вызова метода `registerAndEnrollAccount` пакет SDK регистрирует учетную запись пользователя и пытается зарегистрировать приложение от имени этой учетной записи. Если по какой-либо причине регистрация не удается, пакет SDK повторит ее попытку через 24 часа. Для отладки приложение может при помощи делегата получать [уведомления](#Status-result-and-debug-notifications) о результатах запросов на регистрацию.
@@ -256,7 +256,6 @@ ms.lasthandoff: 03/20/2018
  *  @param identity The UPN of the account to be logged in and enrolled.
  */
  (void)loginAndEnrollAccount: (NSString *)identity;
-
 ```
 
 Вызвав этот метод, пакет SDK запросит учетные данные пользователя, если не удастся найти токен. Пакет SDK попытается зарегистрировать приложение с помощью службы Intune MAM от имени указанной учетной записи пользователя. Этот метод можно вызывать с "nil" в качестве удостоверения. В этом случае пакет SDK регистрируется на устройстве при помощи существующего управляемого пользователя (если используется управление мобильными устройствами), а при отсутствии такового запрашивает имя пользователя.
@@ -295,7 +294,6 @@ ms.lasthandoff: 03/20/2018
  *  @param doWipe   If YES, a selective wipe if the account is un-enrolled
  */
 (void)deRegisterAndUnenrollAccount:(NSString *)identity withWipe:(BOOL)doWipe;
-
 ```
 
 Этот метод должен вызываться до удаления токенов Azure AD учетной записи пользователя. Пакету SDK требуется, чтобы токены AAD учетной записи пользователя выполняли определенные запросы к службе Intune MAM от имени пользователя.
@@ -338,7 +336,6 @@ ms.lasthandoff: 03/20/2018
  */
 
 (void)unenrollRequestWithStatus:(IntuneMAMEnrollmentStatus *)status;
-
 ```
 
 Эти методы делегата возвращают объект `IntuneMAMEnrollmentStatus`, который содержит следующую информацию:
@@ -374,7 +371,6 @@ ms.lasthandoff: 03/20/2018
     NSLog(@"un-enroll result for identity %@ with status code %ld", status.identity, (unsigned long)status.statusCode);
     NSLog(@"Debug Message: %@", status.errorString);
 }
-
 ```
 
 ## <a name="app-restart"></a>Перезапуск приложения

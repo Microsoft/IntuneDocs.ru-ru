@@ -14,11 +14,11 @@ ms.assetid: bb940cb9-d43f-45ca-b065-ac0adc61dc6f
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 84ff217361108ac3518567f31af8943d0b3032fe
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: d32c024d6cd526062c373b56dd18bca9480c32fa
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-cordova-plugin"></a>Подключаемый модуль Cordova из пакета SDK для приложений Microsoft Intune
 
@@ -72,16 +72,16 @@ ms.lasthandoff: 03/16/2018
 
 1. Обновите версию ADAL:
 
-  ```shell
-  cordova plugin remove cordova-plugin-ms-adal
-  cordova plugin add cordova-plugin-ms-adal@0.8.x
-  ```
+   ```shell
+   cordova plugin remove cordova-plugin-ms-adal
+   cordova plugin add cordova-plugin-ms-adal@0.8.x
+   ```
 
 2. Добавьте пакет SDK для приложений Intune для подключаемого модуля Cordova:
 
-  ```shell
-  cordova plugin add cordova-plugin-ms-intune-mam
-  ```
+   ```shell
+   cordova plugin add cordova-plugin-ms-intune-mam
+   ```
 
 ## <a name="build-the-plugin-into-your-ios-app"></a>Встраивание подключаемого модуля в приложение iOS
 
@@ -131,7 +131,7 @@ $ cordova run --nobuild
 * Поддержка MultiDex является неполной.
 * Приложение должно иметь `minSdkVersion` 14 и `targetSdkVersion` 24 (или ниже). Приложения, предназначенные для API 25, в настоящее время в Intune не поддерживаются.
 * В Intune нельзя повторно подписывать приложения, которые были подписаны с использованием схемы подписи V2. Когда такие приложения упаковываются с помощью подключаемого модуля, упакованный выходной APK-файл не будет подписан.
-*
+  *
   * Вы можете отключить стандартную функцию схемы подписи V2 в Cordova, добавив следующий код в файл `build-extras.gradle`:
 
   ```gradle

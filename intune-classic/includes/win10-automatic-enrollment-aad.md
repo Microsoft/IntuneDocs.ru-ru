@@ -2,37 +2,37 @@
 
 Автоматическая регистрация позволяет пользователям регистрировать устройства Windows 10 в Intune с помощью добавления их рабочей учетной записи на личные устройства или присоединения корпоративных устройств к Azure Active Directory. Устройство пользователя в фоновом режиме регистрируется и присоединяется к Azure Active Directory. После регистрации управление устройством выполняется с помощью Intune.
 
-**Предварительные требования**
+**Необходимые компоненты**
 - Подписка Azure Active Directory Premium ([пробная подписка](http://go.microsoft.com/fwlink/?LinkID=816845))
 - Подписка на Microsoft Intune
 
 
 ### <a name="configure-automatic-mdm-enrollment"></a>Настройка автоматической регистрации для управления мобильными устройствами
 
-1. Войдите на [портал управления Azure](https://portal.azure.com) (https://manage.windowsazure.com) и выберите **Active Directory**.
+1. Войдите на [портал управления Azure](https://portal.azure.com) (https://manage.windowsazure.com)) и выберите **Azure Active Directory**.
 
-  ![Снимок экрана портала Azure](../media/auto-enroll-azure-main.png)
+   ![Снимок экрана портала Azure](../media/auto-enroll-azure-main.png)
 
 2. Выберите **Мобильность (MDM и MAM)**.
 
-  ![Снимок экрана портала Azure](../media/auto-enroll-mdm.png)
+   ![Снимок экрана портала Azure](../media/auto-enroll-mdm.png)
 
 3. Выберите **Microsoft Intune**.
 
-  ![Снимок экрана портала Azure](../media/auto-enroll-intune.png)
+   ![Снимок экрана портала Azure](../media/auto-enroll-intune.png)
 
 4. Настройте **область пользователя MDM**. Укажите, каким устройствами пользователей следует управлять с помощью Microsoft Intune. Устройства Windows 10 этих пользователей будут автоматически регистрироваться для управления в Microsoft Intune.
 
-  - **Нет**
-  - **Некоторые**
-  - **Все**
+   - **Нет**
+   - **Некоторые**
+   - **Все**
 
- ![Снимок экрана портала Azure](../media/auto-enroll-scope.png)
+   ![Снимок экрана портала Azure](../media/auto-enroll-scope.png)
 
 5. Используйте значения по умолчанию для следующих URL-адресов:
-  - **URL-адрес условий использования MDM**;
-  - **URL-адрес обнаружения MDM**;
-  - **URL-адрес соответствия MDM**.
+   - **URL-адрес условий использования MDM**;
+   - **URL-адрес обнаружения MDM**;
+   - **URL-адрес соответствия MDM**.
 
 6. Нажмите кнопку **Сохранить**.
 

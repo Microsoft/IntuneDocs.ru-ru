@@ -13,15 +13,15 @@ ms.technology: ''
 ms.assetid: 126a7489-fe3e-43fd-a681-defb2fe0bb66
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2da88a6146080014b79fbdc1b8c553eae5705195
-ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
+ms.openlocfilehash: 070256ce5267189731c3565f4332a3bd57c326f5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-lost-mode-on-ios-devices-with-intune"></a>Включение режима пропажи на устройствах iOS с помощью Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Действие устройства **Режим пропажи** позволяет активировать режим пропажи на потерянных или украденных устройствах iOS. Этот режим позволяет ввести сообщение и номер телефона, которые отображаются на экране блокировки устройства. Для использования режима пропажи это должно быть корпоративное устройство с iOS, которое находится в защищенном режиме.
 

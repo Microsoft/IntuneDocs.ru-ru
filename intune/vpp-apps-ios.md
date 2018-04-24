@@ -15,16 +15,16 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bd9915f3120e2fee2b487fbfff0d775a9d50ef8a
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 848f76f61ebf85201af18ab019d0546e48fcaa41
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Магазин приложений iOS позволяет приобретать сразу несколько лицензий, если приложение планируется использовать в организации. Приобретение нескольких копий помогает эффективно управлять приложениями в компании.
 
@@ -152,6 +152,17 @@ Intune обнаруживает обновления для приложений
 ## <a name="further-information"></a>Дополнительные сведения
 
 Когда пользователь с соответствующим устройством впервые пытается установить приложение VPP на устройство, ему предлагается присоединиться к программе Apple Volume Purchase Program. Для продолжения установки приложения нужно принять это предложение. Пользователь, получивший приглашение присоединиться к программе Apple Volume Purchase, должен использовать приложение iTunes на устройстве с iOS. Если в рамках вашей политики доступ к приложению магазина iTunes Store запрещен, лицензирование приложений по программе VPP на основе пользователей будет невозможно. В этом случае необходимо либо разрешить доступ к приложению iTunes (то есть удалить политику), либо использовать лицензирование на основе устройств.
+
+## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+
+#### <a name="how-long-does-the-portal-take-to-update-the-license-count-once-an-app-is-installed-or-removed-from-the-device"></a>Сколько времени требуется порталу для обновления количества лицензий после установки или удаления приложения с устройства?
+Количество лицензий должно быть обновлено в течение нескольких часов после установки или удаления приложения. Обратите внимание, что если конечный пользователь удаляет приложение с устройства, лицензия по-прежнему остается назначенной этому пользователю или устройству.
+
+#### <a name="is-it-possible-to-oversubscribe-an-app-and-if-so-in-what-circumstance"></a>Можно ли превысить предел подписок на приложение? Если да, то при каких условиях?
+Да. Превысить предел подписок на приложение может администратор Intune. Например, администратор приобретает 100 лицензий на приложение XYZ, а затем назначает приложение группе из 500 членов. Первые 100 членов (пользователей или устройств) получат назначенную им лицензию, остальным членам назначить лицензию не удастся.
+
+#### <a name="i-understand-intune-automatically-syncs-app-licenses-each-day-with-apple-is-that-correct"></a>Правда ли, что Intune ежедневно автоматически синхронизирует лицензии приложения с Apple?
+Intune синхронизирует лицензии приложения с Apple каждые 15 часов.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

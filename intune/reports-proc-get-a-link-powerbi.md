@@ -1,29 +1,29 @@
 ---
-title: "Подключение к хранилищу данных с помощью Power BI"
+title: Подключение к хранилищу данных с помощью Power BI
 titlesuffix: Microsoft Intune
-description: "Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Microsoft Intune."
-keywords: "Хранилище данных Intune"
+description: Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Microsoft Intune.
+keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5E5A35D3-88F8-441B-8A0B-C5D7A1E5137B
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1266fa4cc5ef958e369e58b0a6619e2bab3dd3eb
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: ef039f5182a379c319dd29f3ebfa3f7436261a0c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Подключение к хранилищу данных с помощью Power BI
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Вы можете скачать файл для Microsoft Power BI, позволяющий загружать интерактивные и динамически создаваемые отчеты своего клиента Intune. Файл Power BI для хранилища данных (PBIX) содержит параметры подключения для вашего клиента, а также следующие примеры отчетов и диаграмм:  
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/05/2018
 
 Ниже показано, как скачать файл Power BI и использовать ссылку OData с помощью Power BI.
 
-[!INCLUDE[reports-credential-reqs](./includes/reports-credential-reqs.md)]
+[!INCLUDE [reports-credential-reqs](./includes/reports-credential-reqs.md)]
 
 ## <a name="install-power-bi"></a>Установка Power BI
 

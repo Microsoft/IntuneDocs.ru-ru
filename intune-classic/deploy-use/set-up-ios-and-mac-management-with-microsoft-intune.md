@@ -1,29 +1,29 @@
 ---
 title: Set up iOS and Mac management
-description: "Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств iOS, включая устройства iPad и iPhone, а также для устройств Mac OS X."
-keywords: 
+description: Включение управления мобильными устройствами (MDM) с помощью Microsoft Intune для устройств iOS, включая устройства iPad и iPhone, а также для устройств Mac OS X.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 03/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3dccbc4bc4e300aa5d2e804e2bf500826c0bdb8e
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 280efe7e7a5a1616ebab9abce7b7a5d78e321e7c
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-ios-and-mac-device-management"></a>Настройка управления устройствами в iOS и Mac
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune позволяет управлять мобильными устройствами iPad, iPhone и macOS, а также предоставляет пользователям доступ к электронной почте и приложениям компании. Для управления устройствами iOS и Mac с помощью Intune требуется сертификат службы push-уведомлений Apple (APNs). После добавления этого сертификата в Intune пользователи смогут установить приложение корпоративного портала для регистрации своих устройств. Или же администратор сможет настроить [управление корпоративными устройствами iOS](enroll-corporate-owned-ios-devices-in-microsoft-intune.md).
 
@@ -31,7 +31,7 @@ Intune позволяет управлять мобильными устройс
     Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [установив в качестве центра управления мобильными устройствами](prerequisites-for-enrollment.md#step-2-set-mdm-authority) службу **Microsoft Intune** и настроив MDM.
 
 2.  **Получение запроса подписи сертификата**<br>
-    Используя учетную запись с правами администратора, откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com), перейдите в меню **Администрирование** &gt; **Управление мобильными устройствами** &gt; **iOS и Mac OS X** &gt; **Отправить сертификат APNs** и выберите **Загрузить запрос сертификата APNs**. Сохраните файл запроса на подписывание сертификата (CSR-файл) локально. CSR-файл используется для запроса сертификата отношений доверия с портала сертификатов push-уведомлений Apple.
+    Используя учетную запись с правами администратора, откройте [консоль администрирования Microsoft Intune](https://manage.microsoft.com), перейдите в меню **Администрирование** &gt; **Управление мобильными устройствами** &gt; **iOS и Mac OS X** &gt; **Отправить сертификат APNs** и выберите **Загрузить запрос сертификата APNs**. Сохраните файл запроса на подписывание сертификата (CSR-файл) локально. CSR-файл используется для запроса сертификата отношений доверия с портала сертификатов push-уведомлений Apple.
 
     ![Диалоговое окно "Отправка сертификата APNs"](../media/Intune-iOS-enrollment-with-apns.png)
 

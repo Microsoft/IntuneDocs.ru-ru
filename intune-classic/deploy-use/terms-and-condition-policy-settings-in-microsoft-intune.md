@@ -1,29 +1,29 @@
 ---
-title: "Параметры политики условий использования"
-description: "Можно развернуть условия Intune для групп пользователей, чтобы объяснить, как регистрация, доступ к рабочим ресурсам и применение приложения корпоративного портала влияют на устройства и пользователей."
-keywords: 
+title: Параметры политики условий использования
+description: Можно развернуть условия Intune для групп пользователей, чтобы объяснить, как регистрация, доступ к рабочим ресурсам и применение приложения корпоративного портала влияют на устройства и пользователей.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 07/11/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6edf0ac1-4f46-4543-a9e5-f484ac37e9a5
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 75e68a49fb8437bb7742cfa1e458edab5c0b1836
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e639b603e52df621cddaaf9490773336229fc6a4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="terms-and-condition-policy-settings-in-microsoft-intune"></a>Параметры политики условий в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Можно развернуть условия Intune для групп пользователей, чтобы объяснить, как регистрация, доступ к рабочим ресурсам и приложение корпоративного портала влияют на устройства и пользователей. Пользователи должны сначала принять эти условия, чтобы в дальнейшем использовать корпоративный портал для регистрации и доступа к своей работе.
 
@@ -80,5 +80,5 @@ ms.lasthandoff: 10/10/2017
 
     Мы рекомендуем увеличивать номер версии и требовать принимать условия при каждом внесении существенных изменений в политику условий. При исправлении опечаток или, например, изменении форматирования, не изменяйте номер текущей версии.
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)

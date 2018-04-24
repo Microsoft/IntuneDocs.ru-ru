@@ -2,8 +2,8 @@
 title: Установка Office 365 на устройстве с Windows 10 | Документы Майкрософт
 description: ''
 keywords: ''
-author: barlanmsft
-ms.author: barlan
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 02/21/2018
 ms.topic: article
@@ -17,11 +17,11 @@ ROBOTS: ''
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 8a4990abe994ce2a7ca2913dfecd8832ae886eeb
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 738cc313eca4c98e7cdee3dfe40f705630244a9f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="installing-office-365-on-your-windows-10-device"></a>Установка Office 365 на устройстве с Windows 10
 

@@ -15,15 +15,15 @@ ms.assetid: a097b7b2-d01d-454b-954c-da4f3cd0ae86
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4053c2f932f6101397deb6bf0c3a142fa713aec4
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 6f1a07960f4c00fa5562529a97453a61202a3913
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-windows-phone-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавить бизнес-приложения Windows Phone в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В этой статье рассказывается, как добавлять в Microsoft Intune бизнес-приложения Windows Phone. Бизнес-приложение (LOB) — это приложение, добавляемое в Intune из файла установки. Приложения такого типа, как правило, создаются организацией самостоятельно. Intune устанавливает бизнес-приложение на устройстве пользователя. 
 

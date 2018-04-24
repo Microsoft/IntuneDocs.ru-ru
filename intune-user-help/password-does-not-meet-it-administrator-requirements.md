@@ -1,25 +1,25 @@
 ---
-title: "Ваш пароль не соответствует требованиям службы поддержки вашей компании | Документы Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Ваш пароль не соответствует требованиям службы поддержки вашей компании | Документы Майкрософт
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 02/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: efb3c261-1f6c-4d39-bfa4-18661f8c59c7
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: e245523ce66ba175c2037c0635955eb69cc5e0d0
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fd221749ced3535ed72df4fda705430bc0f1f385
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="your-password-does-not-meet-your-company-supports-requirements"></a>Ваш пароль не соответствует требованиям службы поддержки вашей компании
 

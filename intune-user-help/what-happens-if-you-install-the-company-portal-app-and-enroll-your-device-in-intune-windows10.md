@@ -1,27 +1,27 @@
 ---
-title: "Установка приложения корпоративного портала для Windows 10 | Документы Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Установка приложения корпоративного портала для Windows 10 | Документы Майкрософт
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0dc35efe-4fd4-4d4a-8569-d649ea704fea
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: bd594b22c3e14211261c487da2f3dbcb5243cf98
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a268602833d9164d33a8d86c1b4c6d4485e2abe8
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-10-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows 10 в Intune?
 

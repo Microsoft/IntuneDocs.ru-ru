@@ -14,15 +14,15 @@ ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e5070052c0d4cce3cfd81a7bae259bc7dfb22e7f
-ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
+ms.openlocfilehash: 3d46960e6ea7e2ae9bed6c0016ddc309bd15f572
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="create-the-profile"></a>Создание профиля
 1. На [портале Azure](https://portal.azure.com) выберите **Все службы** и найдите **Microsoft Intune**.
@@ -31,33 +31,33 @@ ms.lasthandoff: 03/20/2018
 
 3. Укажите следующие свойства.
 
-    - **Имя.** Введите описательное имя для нового профиля.
-    - **Описание.** Введите описание профиля. (Этот шаг является необязательным, но рекомендуемым.)
-    - **Платформа.** Выберите тип платформы:  
+   - **Имя.** Введите описательное имя для нового профиля.
+   - **Описание.** Введите описание профиля. (Этот шаг является необязательным, но рекомендуемым.)
+   - **Платформа.** Выберите тип платформы:  
 
-        - **Android**
-        - **Android for Work**
-        - **iOS**
-        - **macOS**
-        - **Windows Phone 8.1**
-        - **Windows 8.1 и более поздние версии**
-        - **Windows 10 и более поздних версий**.
+       - **Android**
+       - **Android for Work**
+       - **iOS**
+       - **macOS**
+       - **Windows Phone 8.1**
+       - **Windows 8.1 и более поздние версии**
+       - **Windows 10 и более поздних версий**.
 
-    - **Тип профиля.** Выберите тип создаваемого профиля. Список зависит от выбранной платформы.
-    - **Параметры.** Параметры каждого типа профиля описаны в следующих статьях.
+   - **Тип профиля.** Выберите тип создаваемого профиля. Список зависит от выбранной платформы.
+   - **Параметры.** Параметры каждого типа профиля описаны в следующих статьях.
 
-        -  [Параметры возможностей устройства](device-features-configure.md)
-        -  [Параметры ограничений для устройств](device-restrictions-configure.md)
-        -  [Параметры электронной почты](email-settings-configure.md)
-        -  [Параметры VPN](vpn-settings-configure.md)
-        -  [Параметры Wi-Fi](wi-fi-settings-configure.md)
-        -  [Параметры для обновления выпуска Windows 10](edition-upgrade-configure-windows-10.md)
-        -  [Параметры сертификата](certificates-configure.md)
-        -  [Параметры Windows Information Protection](windows-information-protection-configure.md)
-        -  [Параметры образования](education-settings-configure.md)
-        -  [Пользовательские параметры](custom-settings-configure.md)
+       -  [Параметры возможностей устройства](device-features-configure.md)
+       -  [Параметры ограничений для устройств](device-restrictions-configure.md)
+       -  [Параметры электронной почты](email-settings-configure.md)
+       -  [Параметры VPN](vpn-settings-configure.md)
+       -  [Параметры Wi-Fi](wi-fi-settings-configure.md)
+       -  [Параметры для обновления выпуска Windows 10](edition-upgrade-configure-windows-10.md)
+       -  [Параметры сертификата](certificates-configure.md)
+       -  [Параметры Windows Information Protection](windows-information-protection-configure.md)
+       -  [Параметры образования](education-settings-configure.md)
+       -  [Пользовательские параметры](custom-settings-configure.md)
 
-    ![Снимок экрана создания профиля](./media/create-device-profile.png)
+     ![Снимок экрана создания профиля](./media/create-device-profile.png)
 
 4. Нажмите **Создать** после завершения.
 

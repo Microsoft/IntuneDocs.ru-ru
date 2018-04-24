@@ -15,16 +15,15 @@ ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: aa5e3b5559c5c17ea726b26f1c1f56ef37cfe0ae
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 512fab5a8ed70af989d6057308b48185cd697d8f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 [Магазин Майкрософт для бизнеса](https://www.microsoft.com/business-store) позволяет находить и приобретать приложения для вашей организации по отдельности или в рамках корпоративной программы. Подключив хранилище к Microsoft Intune, вы можете управлять приложениями, приобретенными по программе Volume Purchase Program, из портала Azure. Пример.
 * можно синхронизировать список приобретенных приложений с Intune;

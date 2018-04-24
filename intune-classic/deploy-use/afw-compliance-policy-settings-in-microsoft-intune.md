@@ -15,23 +15,23 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ab1e43d1cb66bdc6e0fc02324ffd1d8923e61174
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 085cca57365da0df9dd739c3a1b2b0c6dd6fded6
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="compliance-policy-settings-for-android-for-work-devices-in-microsoft-intune"></a>Параметры политики соответствия для устройств Android for Work в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Параметры политики, описанные в этом разделе, применяются к устройствам Android for Work.
 
 Если вам нужны сведения о других платформах, выберите один из следующих вариантов:
 > [!div class="op_single_selector"]
-- [Параметр политики соответствия для Android](android-compliance-policy-settings-in-microsoft-intune.md)
-- [Параметры политики соответствия для устройств с iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
-- [Параметры политики соответствия для устройств Windows](windows-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметр политики соответствия для Android](android-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для устройств с iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для устройств Windows](windows-compliance-policy-settings-in-microsoft-intune.md)
 
 ## <a name="system-security-settings"></a>Параметры безопасности системы
 ### <a name="password"></a>Пароль

@@ -1,5 +1,5 @@
 ---
-title: Новые возможности в Microsoft Intune за предыдущие месяцы
+title: Новые возможности в Microsoft Intune в Azure за предыдущие месяцы | Документы Майкрософт
 titlesuffix: ''
 description: Обзор предыдущих объявлений на странице новых возможностей в Intune
 keywords: ''
@@ -16,15 +16,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2326078f57abf3101869b463aca8eba55aad2905
-ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
+ms.openlocfilehash: d87cf0a56a6b114a210242691d0441882c186964
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-microsoft-intune---previous-months"></a>Новые возможности в Microsoft Intune — предыдущие месяцы
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="october-2017"></a>Октябрь 2017 г.
 
@@ -570,7 +570,7 @@ Intune теперь отображается в на портале Azure (porta
 Мы добавили новые [параметры ограниченного использования устройств Windows](device-restrictions-windows-10.md), чтобы управлять такими функциями, как беспроводной дисплей, обнаружение устройств, переключение задач и сообщения об ошибках SIM-карты.
 
 #### <a name="updates-to-certificate-configuration----918991-and-823198---"></a>Обновления конфигурации сертификата <!-- 918991 and 823198 -->
-При создании профиля сертификата SCEP на устройствах с iOS, Android и Windows для параметра **Формат имени субъекта** доступно значение **Другой**. До этого обновления поле **Другой** присутствовало только на устройствах iOS. Дополнительные сведения см. в разделе [Создание профиля сертификата SCEP] (certificates-scep-configure.md#how-to-create-a-scep-certificate-profile).
+При создании профиля сертификата SCEP на устройствах с iOS, Android и Windows для параметра <strong>Формат имени субъекта</strong> доступно значение <strong>Другой</strong>. До этого обновления поле <strong>Другой</strong> присутствовало только на устройствах iOS. Дополнительные сведения см. в статье о [создании профиля сертификата SCEP](certificates-scep-configure.md#create-a-scep-certificate-profile).
 
 При создании профиля сертификата PKCS для параметра **Альтернативное имя субъекта** доступен параметр **Настраиваемый атрибут Azure AD**. Теперь доступен параметр **Отдел** при выборе параметра **Настраиваемый атрибут Azure AD**. Дополнительные сведения см. в разделе [Создание профиля конфигурации устройства](certficates-pfx-configure.md#create-a-device-configuration-profile).
 

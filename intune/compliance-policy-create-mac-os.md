@@ -1,29 +1,29 @@
 ---
-title: "Создание политики соответствия для устройств macOS в Microsoft Intune"
-titleSuffix: 
-description: "Создайте политику соответствия для устройств macOS в Microsoft Intune, чтобы указывать требования, которым должно соответствовать устройство."
-keywords: 
+title: Создание политики соответствия для устройств macOS в Microsoft Intune
+titleSuffix: ''
+description: Создайте политику соответствия для устройств macOS в Microsoft Intune, чтобы указывать требования, которым должно соответствовать устройство.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e7703b8ea26d6ce53b82e806a78c788d14ae05b4
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: d6252680e64067e6d12530e0226632a1c5db7d28
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-device-compliance-policy-for-macos-devices-with-intune"></a>Создание политики соответствия устройств с macOS при помощи Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Политика соответствия Intune для устройств macOS указывает правила и параметры, которым должны соответствовать устройства macOS. Используйте эти политики с условным доступом, чтобы разрешить или запретить доступ к ресурсам компании. Получайте отчеты об устройствах и принимайте меры в случае несоответствия. Политики соответствия устройств создаются для каждой платформы на портале Intune Azure.
 
@@ -110,7 +110,7 @@ ms.lasthandoff: 03/08/2018
 
 2. После входа отобразится **панель мониторинга Azure**.
 
-3. Выберите пункт **Все службы** в меню слева и введите **Intune** в текстовом поле фильтра.
+3. Выберите **Все службы** в меню слева и введите **Intune** в текстовое поле фильтра.
 
 4. Выберите **Intune**, чтобы отобразилась **панель мониторинга Intune**.
 

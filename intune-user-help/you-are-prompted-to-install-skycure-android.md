@@ -1,25 +1,25 @@
 ---
-title: "Необходимо установить Symantec Endpoint Protection Mobile на устройстве Android | Microsoft Docs"
-description: "Дополнительные сведения об установке SEP Mobile на устройстве Android."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Необходимо установить Symantec Endpoint Protection Mobile на устройстве Android | Microsoft Docs
+description: Дополнительные сведения об установке SEP Mobile на устройстве Android.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 09/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 627cd171-6e1b-439e-809a-2e6f007c4b3d
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 040b7bad4b62acffa5dad1606d5beb81efc56b68
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 7194f63a3d9b34be00753a66b9929c033bd10b86
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="install-symantec-endpoint-protection-mobile-on-your-android-device"></a>Установка Symantec Endpoint Protection Mobile на устройстве Android
 
@@ -45,13 +45,13 @@ ms.lasthandoff: 01/25/2018
 
 8. SEP Mobile сразу начнет проверять ваше устройство на наличие угроз безопасности.
 
-  * Если SEP Mobile обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
+   * Если SEP Mobile обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
 
-  * Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
+   * Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
 
-    * Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
+     * Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
 
-    ![Устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
+     ![Устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
 
 ## <a name="if-the-installation-doesnt-work"></a>Если установка не выполняется
 

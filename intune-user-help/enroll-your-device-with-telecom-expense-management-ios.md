@@ -1,27 +1,27 @@
 ---
-title: "Регистрация устройства iOS в службе управления затратами на телекоммуникации с помощью Intune"
-description: "Узнайте, как зарегистрировать устройство iOS в службе управления затратами на телекоммуникации."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Регистрация устройства iOS в службе управления затратами на телекоммуникации с помощью Intune
+description: Узнайте, как зарегистрировать устройство iOS в службе управления затратами на телекоммуникации.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 04/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6d8c6372-f2ce-4558-8886-1d7c1966699c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 90b07e1f18ab3cb9c74337e2a3538f186f4ea52a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ff51405ee48851b5a48c4d6142c33bc16ed6218e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-ios-device-in-telecom-expense-management"></a>Регистрация устройства iOS в службе управления затратами на телекоммуникации
 
@@ -40,11 +40,11 @@ ms.lasthandoff: 01/25/2018
 
 1. Выберите __Enroll with Microsoft account__ (Регистрация с помощью учетной записи Майкрософт).
 
-  ![Изображение экрана настроек приложения Datalert, на котором предлагается ввести номер телефона и выбрать регистрацию с помощью учетной записи Майкрософт, если у вас есть учетная запись Microsoft Office 365 и подписка Intune.](./media/ios-enroll-11a-tem-datalert-enroll-msft-account.png)
+   ![Изображение экрана настроек приложения Datalert, на котором предлагается ввести номер телефона и выбрать регистрацию с помощью учетной записи Майкрософт, если у вас есть учетная запись Microsoft Office 365 и подписка Intune.](./media/ios-enroll-11a-tem-datalert-enroll-msft-account.png)
 
 2. Вы получите уведомление __"Datalert" wants to open "Authenticator"__ (Приложение Datalert хочет открыть Authenticator). Выберите __Open__ (Открыть).
 
-  ![Изображение всплывающего окна, которое предлагает пользователю открыть приложение Authenticator по запросу приложения Datalert.](./media/ios-enroll-11b-tem-datalert-open-authenticator.png)
+   ![Изображение всплывающего окна, которое предлагает пользователю открыть приложение Authenticator по запросу приложения Datalert.](./media/ios-enroll-11b-tem-datalert-open-authenticator.png)
 
 3. Войдите с помощью своей __рабочей или учебной учетной записи Майкрософт__. Установка Datalert займет некоторое время. Выберите __Finish__ (Готово), когда установка завершится.
 
@@ -52,15 +52,15 @@ ms.lasthandoff: 01/25/2018
 
 1. Укажите номер телефона устройства.
 
-  ![Снимок экрана с запросом номера телефона приложением Datalert.](./media/ios-enroll-12-tem-datalert-phone-number.png)
+   ![Снимок экрана с запросом номера телефона приложением Datalert.](./media/ios-enroll-12-tem-datalert-phone-number.png)
 
 2. Затем вы получите SMS-сообщение с кодом проверки. Введите код и коснитесь __ОК__.
 
-  ![Снимок экрана с запросом кода проверки в SMS приложением Datalert.](./media/ios-enroll-13-tem-datalert-sms.png)
+   ![Снимок экрана с запросом кода проверки в SMS приложением Datalert.](./media/ios-enroll-13-tem-datalert-sms.png)
 
 3. После ввода кода проверки установка Datalert будет завершена. Коснитесь __Готово__. После этого вы сможете отслеживать данные в приложении Datalert.
 
-  ![Снимок экрана приложения Datalert с мониторингом использования данных за сегодня.](./media/ios-enroll-14-tem-datalert-monitoring-active.png)
+   ![Снимок экрана приложения Datalert с мониторингом использования данных за сегодня.](./media/ios-enroll-14-tem-datalert-monitoring-active.png)
 
 После регистрации сведения об использовании данных начнут появляться в приложении Datalert.
 

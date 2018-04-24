@@ -1,29 +1,29 @@
 ---
-title: "Общие сведения о жизненных циклах устройств и приложений"
+title: Общие сведения о жизненных циклах устройств и приложений
 titleSuffix: Microsoft Intune
-description: "Общие сведения о жизненных циклах устройств и приложений в Microsoft Intune."
-keywords: 
+description: Общие сведения о жизненных циклах устройств и приложений в Microsoft Intune.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 38e08253-14a0-4cc4-87be-7b110c12a523
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d262d5679ceb802320bd5aa496d91f549ec12952
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: c358fff91744335080a10d45c7753293911430ae
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="overview-of-device-and-app-lifecycles"></a>Общие сведения о жизненных циклах устройств и приложений
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Несмотря на то, что у каждой организации особые потребности, существуют некоторые общие действия, которые должны выполнять все организации для управления мобильными устройствами и приложениями. Их можно объединить в две основные категории, которые называются **жизненными циклами**. Жизненный цикл развертывания, которому вы следуете, зависит от реализуемого сценария. Например, может потребоваться только жизненный цикл устройств, жизненный цикл приложений или оба цикла.
 

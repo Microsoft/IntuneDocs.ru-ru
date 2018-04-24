@@ -1,28 +1,28 @@
 ---
-title: "Проверка настройки MAM"
-description: "В этом разделе описывается, как можно протестировать и проверить правильность настройки и работы политики MAM."
-keywords: 
+title: Проверка настройки MAM
+description: В этом разделе описывается, как можно протестировать и проверить правильность настройки и работы политики MAM.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angerobe
 ms.date: 12/19/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 41d82597-e13e-4c3e-9151-e71392236ca0
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.custom: intune-classic
-ms.openlocfilehash: e0cb44177f830236865dce0ab68bb1084fcebc2d
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 6f11c2f2af53813040417a8f40e983b5c88d5189
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="validating-your-mobile-application-management-setup"></a>Проверка настройки управления мобильными приложениями
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе приведены сведения о поиске неполадок после настройки управления мобильными приложениями (MAM). Это руководство применяется к политикам MAM на портале Azure.
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 10/10/2017
 
 2. Выберите пользователя из списка или найдите и выберите его, а затем выберите **Выбор пользователя**. В верхней части столбца **Отчеты по приложению** отображаются сведения о том, есть ли у пользователя лицензия для MAM. Ниже указано, есть ли у него лицензия для O365, а также состояние приложения для всех его устройств.
 
-![Состояние приложения для MAM](..\media\ts-mam-user-apps.png)
+![Состояние приложения для MAM](../media/ts-mam-user-apps.png)
 
 ### <a name="what-to-do"></a>Предпринимаемые действия
 Ниже приведены действия, которые выполняются в зависимости от состояния пользователя:
@@ -53,7 +53,7 @@ ms.lasthandoff: 10/10/2017
 - Если для приложения пользователя отображается состояние **Не записано после изменений**, проверьте, правильно ли настроена политика MAM для этого приложения.
 - Убедитесь, что эти условия применяются для всех пользователей, к которыми должны применяться политики MAM.
 
-### <a name="see-also"></a>См. также
-[Подготовка к настройке политик управления мобильными приложениями в Microsoft Intune](..\deploy-use\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
+### <a name="see-also"></a>См. также:
+[Подготовка к настройке политик управления мобильными приложениями в Microsoft Intune](../deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)
 
-[Защита данных с помощью политик управления мобильными приложениями в Microsoft Intune](..\deploy-use\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
+[Защита данных с помощью политик управления мобильными приложениями в Microsoft Intune](../deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)

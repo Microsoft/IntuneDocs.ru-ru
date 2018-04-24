@@ -1,25 +1,25 @@
 ---
-title: "Добавление и назначение приложений MTD в Microsoft Intune"
-titleSuffix: 
-description: "Добавление приложений Mobile Threat Defense (MTD), Microsoft Authenticator и политики конфигурации для iOS в Microsoft Intune на портале Azure."
-keywords: 
+title: Добавление и назначение приложений MTD в Microsoft Intune
+titleSuffix: ''
+description: Добавление приложений Mobile Threat Defense (MTD), Microsoft Authenticator и политики конфигурации для iOS в Microsoft Intune на портале Azure.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 07/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 00356258-76a8-4a84-9cf5-64ceedb58e72
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3fc71620fee1b1df907a4027c1c57cd91b53032e
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 08cebf84443e65ded5f7884218fbe17d722bddf2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 03/08/2018
 Включите проверку подлинности Azure Active Directory для пользователей iOS, выполнив следующие действия.
 
 1. Перейдите на [портал Azure](https://portal.azure.com) и войдите с помощью своих учетных данных, а затем перейдите на страницу приложения.
-  
+
 2. Добавьте **Приложение Lookout for Work iOS** в качестве **встроенного клиентского приложения**.
 
 3. Замените адрес **com.lookout.enterprise.yourcompanyname** на идентификатор пакета клиента, выбранный во время подписи пакета IPA.
@@ -133,13 +133,13 @@ ms.lasthandoff: 03/08/2018
 
 -   Нужно **скачать** файл политики конфигурации приложения для iOS. 
     -   Перейдите в [консоль управления Skycure](https://aad.skycure.com) и войдите с учетными данными администратора.
-    
+
     -   Последовательно выберите пункты **Параметры** &gt; **Интеграция устройств управления** &gt; **Выбор интеграции EMM**, выберите **Microsoft Intune**, затем сохраните свой выбор.
-    
+
     -   Щелкните ссылку **Файлы установки интеграции** и сохраните созданный \*ZIP-файл. ZIP-файл содержит файл **skycure\_configuration.plist**, который будет использоваться для создания политики конфигурации приложения для iOS в Intune.
-    
+
     -   См. инструкции по [использованию политик конфигурации приложений Microsoft Intune для iOS](app-configuration-policies-use-ios.md), чтобы добавить политику конфигурации приложений Skycure для iOS.
-    
+
     - На **шаге 8** используйте параметр **Введите данные XML**, скопируйте содержимое из файла **skycure_configuration.plist** и вставьте его в текст политики конфигурации.
 
 Содержимое **skycure_configuration.plist** также можно скопировать здесь:
@@ -151,7 +151,6 @@ ms.lasthandoff: 03/08/2018
     <key>UserEmail</key>
     <string>{{userprincipalname}}</string>
 </dict>
-
 ```
 ### <a name="for-check-point-sandblast-mobile"></a>Check Point SandBlast Mobile
 
@@ -160,7 +159,6 @@ ms.lasthandoff: 03/08/2018
 
 ```
 <dict><key>MDM</key><string>INTUNE</string></dict>
-
 ```
 
 ### <a name="for-zimperium"></a>Для Zimperium
@@ -179,7 +177,6 @@ ms.lasthandoff: 03/08/2018
 <key>udidlast4digits</key>
 <string>{{udidlast4digits}}</string>
 </dict>
-
 ```
 
 ## <a name="to-assign-apps-all-mtd-partners"></a>Назначение приложений (все партнеры по MTD)

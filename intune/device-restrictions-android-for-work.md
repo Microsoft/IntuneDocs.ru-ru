@@ -2,8 +2,8 @@
 title: Ограничения для устройств Android for Work в Microsoft Intune в Azure | Документы Майкрософт
 description: На устройствах под управлением Android for Work можно ограничить некоторые параметры, включая копирование и вставку, отображение уведомлений, разрешения для приложений, общий доступ к данным, длину пароля, сбои при входе, использование отпечатков пальцев для разблокировки, повторное использование паролей и включение совместного использования Bluetooth для рабочих контактов.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/19/2018
 ms.topic: article
@@ -12,17 +12,17 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c155817e0bc9df00087908a86fcfcb675fa0ad97
-ms.sourcegitcommit: a22309174e617e59ab0cdd0a55abde38711a5f35
+ms.openlocfilehash: 11ce7fa7fa4d48d9cc292b7b6565b6b4f2be2dc4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="work-device-restriction-settings-in-intune"></a>Параметры ограничений для рабочих устройств в Intune
 
 В этой статье описаны все параметры ограничения устройств в Microsoft Intune, которые можно настроить для устройств под управлением Android for Work.
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="work-profile-settings"></a>Параметры профиля работы
 
@@ -48,6 +48,8 @@ ms.lasthandoff: 03/23/2018
    Запрет на добавление и удаление учетных записей вручную в рабочем профиле для конечных пользователей.
 
    Например, при развертывании приложения Gmail в профиле Android for Work вы можете запретить конечным пользователям добавлять или удалять учетные записи в этом рабочем профиле.
+
+- **Обмен контактами через Bluetooth**. Обеспечивает доступ к рабочим контактам с другого устройства, например машины, связанного по Bluetooth. По умолчанию этот параметр не задан и контакты рабочего профиля не отображаются. Выберите **Включить**, чтобы разрешить обмен и отобразить контакты рабочего профиля. Этот параметр применяется к устройствам с рабочим профилем Android с ОС Android версии 6.0 или более поздней.
 
 ### <a name="work-profile-password"></a>Пароль рабочего профиля
 

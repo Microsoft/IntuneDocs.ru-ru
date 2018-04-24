@@ -1,27 +1,27 @@
 ---
-title: "Параметры VPN для устройств Windows Phone 8.1 в Microsoft Intune"
-titleSuffix: 
-description: "Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Windows Phone 8.1."
-keywords: 
+title: Параметры VPN для устройств Windows Phone 8.1 в Microsoft Intune
+titleSuffix: ''
+description: Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Windows Phone 8.1.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 786a817fbbd821d74f4f1a03fdec5a6893ed890b
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 458586a2d507e913eb702c0ee2e3c0531350f1b4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Настройка параметров VPN для устройств Windows Phone 8.1 в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Windows Phone 8.1.
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/12/2018
 
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
     - **Check Point Capsule VPN**;
-    - **SonicWall Mobile Connect**
+    - **SonicWall Mobile Connect**;
     - **F5 Edge Client**
     - **Pulse Secure**
 
@@ -64,7 +64,6 @@ ms.lasthandoff: 03/12/2018
 
 ```
     <pulse-schema><isSingleSignOnCredential>true</isSingleSignOnCredential></pulse-schema>
-
 ```
 
 **Пример для CheckPoint Mobile VPN:**
@@ -76,13 +75,11 @@ ms.lasthandoff: 03/12/2018
 **Пример для SonicWall Mobile Connect:**
 ```
 <MobileConnect><Compression>false</Compression><debugLogging>True</debugLogging><packetCapture>False</packetCapture></MobileConnect>
-
 ```
 
 **Пример для F5 Edge Client:**
 ```
     <f5-vpn-conf><single-sign-on-credential /></f5-vpn-conf>
-
 ```
 
 Дополнительные сведения о создании пользовательских команд XML см. в документации VPN каждого производителя.
@@ -95,7 +92,7 @@ ms.lasthandoff: 03/12/2018
 ## <a name="proxy-settings"></a>Параметры прокси-сервера
 
 - **Автоматическое определение параметров прокси-сервера.** Если VPN-серверу требуется прокси-сервер для подключения, укажите, следует ли устройствам автоматически определять параметры подключения. Дополнительные сведения см. в документации по Windows Server.
-- **Скрипт автоматической настройки.** Используйте файл для настройки прокси-сервера. Введите **URL-адрес прокси-сервера** (например, **http://proxy.contoso.com**), который содержит файл конфигурации.
+- **Скрипт автоматической настройки.** Используйте файл для настройки прокси-сервера. Введите **URL-адрес прокси-сервера** (например, **http://proxy.contoso.com**), на котором находится файл конфигурации.
 - **Использовать прокси-сервер**. Включите этот параметр, если требуется ввести параметры прокси-сервера вручную.
     - **Адрес**. Введите адрес прокси-сервера (в формате IP-адреса).
     - **Номер порта.** Введите номер порта, связанного с прокси-сервером.

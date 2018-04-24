@@ -1,7 +1,7 @@
 ---
-title: Как добавлять в Microsoft Intune приложения из Магазина Windows
+title: Добавление приложений Microsoft Store в Microsoft Intune
 titleSuffix: ''
-description: Узнайте, как добавить приложения Магазина Windows в Microsoft Intune.
+description: Узнайте, как добавлять приложения Microsoft Store (Магазина Windows) в Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
@@ -15,17 +15,17 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2e2280ad72bbd353d80af316cde436e8ffc79d1f
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 511cf2e01a2f5db93f0e0db9dbe2a32326c17723
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="how-to-add-windows-store-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune приложения из Магазина Windows
+# <a name="add-microsoft-store-apps-to-microsoft-intune"></a>Добавление приложений Microsoft Store в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Чтобы назначать, отслеживать, настраивать и защищать приложения, их необходимо добавить в Intune. Следуйте инструкциям, чтобы добавить приложение Магазина Windows в Microsoft Intune.
+Чтобы назначать, отслеживать, настраивать и защищать приложения, их необходимо добавить в Intune. Следуйте приведенным далее инструкциям, чтобы добавить приложение Microsoft Store в Microsoft Intune.
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
@@ -51,5 +51,4 @@ ms.lasthandoff: 03/12/2018
 Созданное приложение отобразится в списке приложений, из которого его можно назначить выбранным группам. 
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-
 - [Назначение приложений группам](apps-deploy.md)

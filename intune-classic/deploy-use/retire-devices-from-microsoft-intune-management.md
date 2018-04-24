@@ -1,29 +1,29 @@
 ---
-title: "Снятие устройств с учета"
-description: "Intune поддерживает выборочную и полную очистку для удаления устройства из системы управления Intune. Для этого удаляются его политики, а также сведения о нем на корпоративном портале."
-keywords: 
+title: Снятие устройств с учета
+description: Intune поддерживает выборочную и полную очистку для удаления устройства из системы управления Intune. Для этого удаляются его политики, а также сведения о нем на корпоративном портале.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 02/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3dbec400-5d8a-47be-b892-7745811d9de2
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d304e0d27b6aa1ee568bc71272781f44efdce121
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: d9dc8fdd7437c9de49df9ea9a4c9641ac9d590de
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="retire-devices-from-intune-management"></a>Снятие устройств с учета из системы управления Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Как для устройств организации, так и для личных устройств наступает момент, когда устройство требуется удалить из системы управления Intune.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 10/10/2017
 
 ## <a name="to-delete-devices-in-the-azure-active-directory-portal"></a>Порядок удаления устройств на портале Azure Active Directory
 
-1.  Войдите, используя учетные данные в организации, на страницу [http://aka.ms/accessaad](http://aka.ms/accessaad) или [https://portal.office.com](https://portal.office.com), а затем выберите **Центры администрирования** &gt; **Azure AD**.
+1.  Войдите, используя учетные данные организации, на страницу [http://aka.ms/accessaad](http://aka.ms/accessaad) или [https://portal.office.com](https://portal.office.com), а затем выберите **Центры администрирования** &gt;  **Azure AD**.
 
 2.  Создайте подписку Azure, если у вас ее нет. Если у вас платная учетная запись, то производить оплату с помощью кредитной карты или иным способом не потребуется. Щелкните ссылку **Зарегистрировать бесплатную подписку на Azure Active Directory**.
 
@@ -75,5 +75,5 @@ ms.lasthandoff: 10/10/2017
 ## <a name="retire-hardware"></a>Снятие оборудования с учета
 В некоторых случаях само устройство достигает конца своего срока службы. В таких случаях [возврат заводских настроек](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md) в рамках полной очистки удаляет все данные, а само устройство — из Intune. Затем от такого оборудования можно избавиться в соответствии с политикой компании.
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Защита данных с помощью полной или выборочной очистки](use-remote-wipe-to-help-protect-data-using-microsoft-intune.md)

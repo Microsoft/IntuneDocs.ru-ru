@@ -1,27 +1,27 @@
 ---
-title: "Использование управляемых устройств для выполнения задач | Документы Майкрософт"
-description: "Узнайте, что означает регистрация устройства для управления с помощью Intune."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Использование управляемых устройств для выполнения задач | Документы Майкрософт
+description: Узнайте, что означает регистрация устройства для управления с помощью Intune.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 12/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 523caa6b-d792-4bb6-bddb-24b2479932d8
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 28e455230213da30fcf371a29b4862982f1a514b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: ecb0729a2c6911fa15dd99ad4abe990859c912ad
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="use-managed-devices-to-get-work-done"></a>Использование управляемых устройств для выполнения задач
 Microsoft Intune — это программное обеспечение, которое позволяет организациям управлять устройствами (например, смартфонами, планшетами и компьютерами), приложениями и другими ресурсами организации, такими как сообщения электронной почты. Благодаря этому ПО сотрудники получают доступ к рабочей информации практически из любого места и с любого устройства, при этом корпоративные данные находятся в безопасности.

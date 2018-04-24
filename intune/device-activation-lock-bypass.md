@@ -1,29 +1,29 @@
 ---
-title: "Обход блокировки активации iOS с помощью Intune"
+title: Обход блокировки активации iOS с помощью Intune
 titlesuffix: Microsoft Intune
-description: "Сведения о том, как использовать Intune, чтобы обойти блокировку активации iOS для доступа к заблокированным устройствам."
-keywords: 
+description: Сведения о том, как использовать Intune, чтобы обойти блокировку активации iOS для доступа к заблокированным устройствам.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9ca3b0ba-e41c-45fb-af28-119dff47c59f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6ec8c1a25acfa7c84c62d3686c5f00e7398d573d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 2a8c14e523d33c9e0994134ff1ef468b290b3992
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Обход блокировки активации на защищенных устройствах iOS с помощью Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Microsoft Intune позволяет управлять функцией блокировки активации iOS, которая представляет собой отдельный компонент приложения Find My iPhone для устройств на базе iOS 8.0 и более поздних версий. Блокировка активации включается автоматически, как только пользователь открывает на устройстве приложение Find My iPhone. После включения функции необходимо ввести Apple ID и пароль пользователя, чтобы можно было выполнить следующие операции:
 

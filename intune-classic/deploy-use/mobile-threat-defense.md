@@ -1,33 +1,33 @@
 ---
-title: "Служба защиты мобильных устройств от угроз Intune"
-description: "Защита доступа к ресурсам организации с учетом риска для устройств."
-keywords: 
+title: Служба защиты мобильных устройств от угроз Intune
+description: Защита доступа к ресурсам организации с учетом риска для устройств.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 03/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 08d87906-8158-4d5e-a49d-ad919efef3d1
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ff4595a96d34d30fee05c64fd7f88f564610902c
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 97711301422dd86ed0a76375add54987809c07b7
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="intune-mobile-threat-defense-connectors"></a>Соединители Intune Mobile Threat Defense
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Соединители Intune Mobile Threat Defense позволяют использовать выбранного поставщика Mobile Threat Defense как источник информации для политик соответствия и правил условного доступа. Это позволяет ИТ-администраторам добавить еще один уровень защиты корпоративных ресурсов, например Exchange или Sharepoint, особенно, если дело касается скомпрометированных мобильных устройств.
 
-## <a name="what-problem-does-this-solve"></a>Какие проблемы это решает?
+## <a name="what-problem-does-this-solve"></a>Какую проблему это решает?
 
 Организациям требуется защищать конфиденциальные данные от новых угроз, включающих физические, основанные на приложениях и сетевые угрозы, а также уязвимости операционной системы.
 Сложилось так, что организации действуют с упреждением, когда дело касается защиты компьютеров от атак, но при этом не уделяют должного внимания мониторингу и защите мобильных устройств. Мобильные платформы имеют встроенную защиту, такую как изоляция приложений и проверка приложений для пользователей в магазинах, однако остаются уязвимыми для более сложных атак. Сейчас все больше сотрудников используют устройства для работы и нуждаются в доступе к конфиденциальной информации. Эти устройства нужно защитить от постоянно совершенствующихся атак.

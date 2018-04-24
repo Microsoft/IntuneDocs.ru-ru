@@ -15,36 +15,48 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 504f2431754aa88ddf79bef4a201cbf7aa032834
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 28eb86a1924dc72df4c77cc3f8a05aacd61e0fbd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Получение сертификата MDM Push Certificate
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
- Intune позволяет управлять мобильными устройствами iPad, iPhone и Mac, а также предоставляет пользователям доступ к электронной почте и приложениям организации. Для управления устройствами с iOS и Mac с помощью Intune требуется сертификат MDM Push Certificate. После добавления сертификата в Intune пользователи смогут установить приложение корпоративного портала для регистрации своих устройств. Также можно настроить управление корпоративными устройствами с iOS с помощью программы регистрации устройств Apple или регистрировать устройства, например с помощью Apple Configurator. Дополнительные сведения о вариантах регистрации см. в разделе [Выбор способа регистрации устройств с iOS](enrollment-method-choose-ios.md).
+Intune позволяет управлять мобильными устройствами iPad, iPhone и Mac, а также предоставляет пользователям доступ к электронной почте и приложениям организации. Для управления устройствами с iOS и macOS с помощью Intune требуется сертификат Apple MDM Push Certificate. После добавления сертификата в Intune пользователи смогут регистрировать свои устройства с помощью:
+
+- приложения корпоративного портала;
+
+- способов массовой регистрации Apple, таких как программа регистрации устройств, Apple School Manager или Apple Configurator.
+
+Дополнительные сведения о вариантах регистрации см. в разделе [Выбор способа регистрации устройств с iOS](enrollment-method-choose-ios.md).
+
+Сертификат Push Certificate с истекшим сроком действия необходимо обновить. При обновлении следует использовать тот же идентификатор Apple ID, который применялся при создании сертификата Push Certificate.
+
 
 ## <a name="steps-to-get-your-certificate"></a>Порядок получения сертификата
 На [портале Azure](https://portal.azure.com) выберите **Регистрация устройства** > **Регистрация Apple** > **Apple MDM Push Certificate** и следуйте инструкциям на [портале Azure](https://portal.azure.com).
 
-**Шаг 1. Скачайте запрос на подписание сертификата Intune, необходимый для создания сертификата Apple MDM Push Certificate.**<br>
+### <a name="step-1-grant-microsoft-permission-to-send-user-and-device-information-to-apple"></a>Шаг 1. Предоставление корпорации Майкрософт разрешения на отправку сведения о пользователях и устройствах в Apple
+Выберите **Даю согласие**, чтобы разрешить корпорации Майкрософт отправлять данные в Apple.
+
+![Экран настройки сертификата MDM Push Certificate без настройки MDM Push.](./media/create-mdm-push-certificate.png)
+
+### <a name="step-2-download-the-intune-certificate-signing-request-required-to-create-an-apple-mdm-push-certificate"></a>Шаг 2. Скачивание запроса на подписание сертификата Intune, необходимого для создания сертификата Apple MDM Push Certificate
 Выберите **Скачать CSR**, чтобы скачать CSR-файл и сохранить его локально. Файл используется для запроса сертификата отношений доверия с портала сертификатов Apple Push.
 
-  ![Экран настройки сертификата MDM Push Certificate без настройки MDM Push.](./media/create-mdm-push-certificate.png)
-
-**Шаг 2. Создайте сертификат MDM Push Certificate.**<br>
+  ### <a name="step-3-create-an-apple-mdm-push-certificate"></a>Шаг 3. Создание сертификата Apple MDM Push Certificate
 Выберите **Создать собственный сертификат MDM Push Certificate**, чтобы перейти на портал сертификатов Apple Push. Войдите с помощью идентификатора Apple ID компании и нажмите кнопку **Создать сертификат**. Щелкните **Выбрать файл**, перейдите к файлу запроса подписи сертификата, а затем выберите **Отправить**. На странице подтверждения нажмите кнопку **Скачать**, чтобы скачать файл сертификата (PEM) и сохранить его локально.
 
 > [!NOTE]
 > Сертификат связан с идентификатором Apple ID, который использовался при его создании. Рекомендуется использовать корпоративный идентификатор Apple для выполнения задач управления. Также следует убедиться в том, что почтовый ящик просматривается несколькими пользователями, как и список рассылки. Никогда не используйте личный идентификатор Apple ID.
 
-**Шаг 3. Введите идентификатор Apple ID, который вы использовали для создания сертификата Apple MDM Push Certificate.**<br>
+### <a name="step-4-enter-the-apple-id-used-to-create-your-apple-mdm-push-certificate"></a>Шаг 4. Ввод идентификатора Apple ID, который использовался для создания сертификата Apple MDM Push Certificate
 Запишите этот идентификатор как напоминание о времени, когда его потребуется обновить.
 
-**Шаг 4. Перейдите к сертификату Apple MDM Push Certificate для отправки.**<br>
+### <a name="step-5-browse-to-your-apple-mdm-push-certificate-to-upload"></a>Шаг 5. Переход к сертификату Apple MDM Push Certificate для отправки
 Перейдите к файлу сертификата (PEM) и щелкните **Открыть**, а затем выберите **Передать**. С помощью push-сертификата Intune может регистрировать устройства Apple и управлять ими.
 
 ## <a name="renew-apple-mdm-push-certificate"></a>Продлите сертификат Apple MDM Push Certificate.

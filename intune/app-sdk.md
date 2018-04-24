@@ -1,25 +1,25 @@
 ---
-title: "Преимущества пакета SDK для приложений Intune"
+title: Преимущества пакета SDK для приложений Intune
 titlesuffix: Microsoft Intune
-description: "Пакет SDK для приложений Intune доступен как для платформы Android, так и для платформы iOS и предоставляет возможности управления мобильными приложениями с помощью Microsoft Intune."
-keywords: 
+description: Пакет SDK для приложений Intune доступен как для платформы Android, так и для платформы iOS и предоставляет возможности управления мобильными приложениями с помощью Microsoft Intune.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ae22d3e718fd01330b81206921b6e9a23313a30f
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: b34963761e9700d6cb742cb90979be30d5ae6b3e
+ms.sourcegitcommit: b727b6bd6f138c5def7ac7bf1658068db30a0ec3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="intune-app-sdk-overview"></a>Обзор пакета SDK для приложений Intune
 Пакет SDK для приложений Intune, доступный для iOS и Android, позволяет приложению использовать политики защиты приложений Intune. Это позволяет уменьшить объем изменений кода, которые необходимо внести разработчику. Вы обнаружите, что большинство функций SDK можно включить без изменения поведения приложения. В целях улучшения взаимодействия с конечными пользователями и администраторами можно воспользоваться API, чтобы настроить поведение приложения для тех функций, которые требуют содействия со стороны приложения.
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/02/2018
 ### <a name="app-protection-without-device-enrollment"></a>Защита приложений без регистрации устройства
 
 >[!IMPORTANT]
->Защита приложений Intune без регистрации устройства доступна с помощью инструмента упаковки приложений Intune, пакета SDK для приложений Intune для Android, пакета SDK для приложений Intune для iOS, компонента Xamarin из пакета SDK и подключаемого модуля Cordova из пакета SDK.
+>Защита приложений Intune без регистрации устройства доступна с помощью инструмента упаковки приложений Intune, пакета SDK для приложений Intune для Android, пакета SDK для приложений Intune для iOS, привязок Xamarin из пакета SDK для приложений Intune и подключаемого модуля Cordova из пакета SDK.
 
 Многие пользователи с личными устройствами хотят обращаться к корпоративным данным без регистрации своих устройств у поставщика управления мобильными устройствами (MDM). Так как регистрация MDM подразумевает полное управление устройством, пользователи часто сомневаются, стоит ли предоставлять свое личное устройство для управления организации.
 

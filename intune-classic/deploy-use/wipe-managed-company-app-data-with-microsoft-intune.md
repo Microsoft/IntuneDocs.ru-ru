@@ -1,29 +1,29 @@
 ---
-title: "Очистка данных управляемых приложений компании"
-description: "Сведения о выборочном удалении данных компании с устройств в удаленном режиме."
-keywords: 
+title: Очистка данных управляемых приложений компании
+description: Сведения о выборочном удалении данных компании с устройств в удаленном режиме.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 2742e1d5-d2d5-42cd-b719-665dd6e0a0e9
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d7f89d79edcc52892e2988e4b2f152cb68d80070
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 8d946b551118441b737335f6bd8c4603a49e0dd2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="wipe-company-app-data-with-intune-mam"></a>Удаление корпоративных данных с помощью Intune MAM
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В случае потери или кражи устройства либо увольнения сотрудника необходимо убедиться, что данные приложений организации удалены с устройства. Однако может потребоваться не затронуть при этом личные данные, особенно в случае, если это устройство принадлежит сотруднику.
 
@@ -89,7 +89,7 @@ ms.lasthandoff: 10/10/2017
 4.  Появится запрос на подтверждение удаления. Выберите **Да** или **Нет**, а затем нажмите кнопку **ОК**.
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Защита данных приложения с помощью политик управления мобильными приложениями](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)
 
 [Использование портала Azure](azure-portal-for-microsoft-intune-mam-policies.md)

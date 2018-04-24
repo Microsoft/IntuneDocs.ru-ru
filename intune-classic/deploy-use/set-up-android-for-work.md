@@ -1,27 +1,27 @@
 ---
-title: "Настройка Android for Work"
-description: "Включение управления мобильными устройствами (MDM) для устройств Android for Work с помощью Microsoft Intune."
-keywords: 
+title: Настройка Android for Work
+description: Включение управления мобильными устройствами (MDM) для устройств Android for Work с помощью Microsoft Intune.
+keywords: ''
 author: NathBarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 03/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b2fdcea9-9ad7-4d73-88e2-854b7a774bb2
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: b3a961bdf754100f1a48258290a635add8e03053
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 366e2b281c05e1233c61f7f35a50700677ad4b79
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-enrollment-of-android-for-work-devices"></a>Включение регистрации устройств Android for Work
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Чтобы включить управление устройствами Android for Work, в Intune необходимо добавить привязку Android for Work. Что касается регистрации устройств, которые поддерживают Android for Work, но ранее были зарегистрированы как обычные устройства Android, их регистрацию необходимо отменить, а затем снова зарегистрировать.
 

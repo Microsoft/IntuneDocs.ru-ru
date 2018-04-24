@@ -1,29 +1,29 @@
 ---
-title: "Параметры политики Windows"
-description: "Сведения об использовании общей политики конфигурации Intune для Windows (Windows 8.1 и более поздней версии) для настройки параметров для зарегистрированных устройств с Windows 8 и 8.1."
-keywords: 
+title: Параметры политики Windows
+description: Сведения об использовании общей политики конфигурации Intune для Windows (Windows 8.1 и более поздней версии) для настройки параметров для зарегистрированных устройств с Windows 8 и 8.1.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 10/11/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6982a2bc-aafa-475a-9236-4840b709e5a1
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9fa8d8454e9d22b2d3c36cd6449805d709c34ffa
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: ccd5bd201de59537dbf99ea9e19d84dbf80c1a20
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="windows-policy-settings-in-microsoft-intune"></a>Параметры политики Windows в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 **Общая политика конфигурации Microsoft Intune для Windows (Windows 8.1 и более поздней версии)** служит для настройки приведенных ниже параметров для зарегистрированных устройств Windows 8, Windows 8.1 и Windows RT 8.1.
 
@@ -49,9 +49,10 @@ ms.lasthandoff: 12/12/2017
 
 ## <a name="encryption-settings"></a>Параметры шифрования
 
-|Имя параметра|Подробные сведения|
-|----------------|-----|
-|**Требовать шифрование на мобильном устройстве**<sup>1</sup>|Требует шифровать файлы на мобильном устройстве.|
+|                           Имя параметра                           |                     Подробные сведения                      |
+|------------------------------------------------------------------|--------------------------------------------------|
+| <strong>Требовать шифрование на мобильном устройстве</strong><sup>1</sup> | Требует шифровать файлы на мобильном устройстве. |
+
 <sup>1</sup> Дополнительная информация для устройств, работающих под управлением Windows 8.1
 
 -   Чтобы применить шифрование на устройствах, работающих под управлением Windows 8.1, необходимо установить [обновление клиента MDM для Windows за декабрь 2014 года](http://support.microsoft.com/kb/3013816) на каждом устройстве.
@@ -118,5 +119,5 @@ ms.lasthandoff: 12/12/2017
 
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Управление параметрами и компонентами на устройствах с помощью политик Microsoft Intune](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)

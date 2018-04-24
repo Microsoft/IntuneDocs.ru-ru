@@ -1,29 +1,29 @@
 ---
-title: "Защита Skype для бизнеса Online"
-description: "Защита и контроль доступа к Skype для бизнеса Online с помощью условного доступа."
-keywords: 
+title: Защита Skype для бизнеса Online
+description: Защита и контроль доступа к Skype для бизнеса Online с помощью условного доступа.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 30d1abb3e7411cae73a98be51489cffdfc738e7f
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: d9d912cc0a2d8f815e046d888fc8878a8703c514
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-access-to-skype-for-business-online-with-microsoft-intune"></a>Защита доступа к Skype для бизнеса Online при помощи Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Вы можете использовать политику условного доступа для **Skype для бизнеса Online**, чтобы управлять доступом к Skype для бизнеса Online.
 Условный доступ состоит из двух компонентов:
@@ -87,23 +87,23 @@ ms.lasthandoff: 10/10/2017
 ### <a name="step-3-configure-the-skype-for-business-online-policy"></a>Шаг 3. Настройка политики Skype для бизнеса Online
 Далее настройте в политике требование, разрешающее доступ к Skype для бизнеса Online только для управляемых и соответствующих политике устройств. Эта политика будет храниться в Azure Active Directory.
 
-1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** > **Условный доступ** > **Политика Skype для бизнеса Online**.
+1. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Политика** > **Условный доступ** > **Политика Skype для бизнеса Online**.
 
-  ![Снимок экрана со страницей политики условного доступа Skype для бизнеса Online](./media/conditional_access_SFBPolicy.png)
+   ![Снимок экрана со страницей политики условного доступа Skype для бизнеса Online](./media/conditional_access_SFBPolicy.png)
 
-2.  Выберите параметр **Включить политику условного доступа**.
+2. Выберите параметр **Включить политику условного доступа**.
 
-3.  В разделе **Доступ приложения**  можно выбрать область применения политики условного доступа:
+3. В разделе **Доступ приложения**  можно выбрать область применения политики условного доступа:
 
-    -   **iOS**
+   -   **iOS**
 
-    -   **Android**
+   -   **Android**
 
-4.  В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.
+4. В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.
 
-5.  Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
+5. Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
 
-6.  По окончании нажмите кнопку **Сохранить**.
+6. По окончании нажмите кнопку **Сохранить**.
 
 Настройка условного доступа для Skype для бизнеса Online выполнена. Развертывать политику условного доступа не нужно, она вступает в силу немедленно.
 

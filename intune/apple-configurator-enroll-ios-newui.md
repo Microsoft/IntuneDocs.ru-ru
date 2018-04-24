@@ -15,15 +15,15 @@ ms.assetid: 671e4d76-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 96889cfeb3b66fa988a14143cb560eb714d749c9
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 605bfb94d720336da94e62a2629576cf178eea2f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Регистрация устройств iOS с помощью Apple Configurator
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 > [!NOTE]
 > ### <a name="temporary-user-interface-differences"></a>Временные отличия в пользовательском интерфейсе
@@ -115,7 +115,7 @@ Intune поддерживает регистрацию устройств iOS с
 2. В профиле выберите **Экспорт профиля**.
 3. Скопируйте **URL-адрес профиля**. Позже его можно добавить в Apple Configurator для определения профиля Intune, используемого устройствами iOS.
 
-  Затем этот профиль импортируется в Apple Configurator в следующей процедуре для определения профиля Intune, используемого устройствами iOS.
+   Затем этот профиль импортируется в Apple Configurator в следующей процедуре для определения профиля Intune, используемого устройствами iOS.
 
 ### <a name="enroll-devices-with-setup-assistant"></a>Регистрация устройств с использованием помощника по настройке
 

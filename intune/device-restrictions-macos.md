@@ -1,27 +1,27 @@
 ---
-title: "Параметры ограничений устройств в Microsoft Intune для macOS"
-titlesuffix: 
-description: "Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств macOS."
-keywords: 
+title: Параметры ограничений устройств в Microsoft Intune для macOS
+titlesuffix: ''
+description: Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств macOS.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 72c9036bd6062e719d55876d77f44123fe2af392
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: f4cf5a5eb716760034b25b52098b9e65e6540c63
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-macos-device-restriction-settings"></a>Параметры ограничений для устройств macOS в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В этой статье описаны параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением macOS.
 

@@ -1,37 +1,37 @@
 ---
-title: "Параметры политики соответствия для устройств Windows"
-description: "В этом разделе описываются правила и настройки, которые можно задать для политики соответствия устройств Windows."
-keywords: 
+title: Параметры политики соответствия для устройств Windows
+description: В этом разделе описываются правила и настройки, которые можно задать для политики соответствия устройств Windows.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f996842c-e9a4-4819-acb4-ee66e8fb35b8
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1c9a59fa97c11794ff8ad0a0eaa41630bfdf847e
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 6a54943873a6af158badb92cef4610e54fc8889b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="compliance-policy-settings-for-windows-devices-in-microsoft-intune"></a>Параметры политики соответствия для устройств Windows в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Настройки политики, описанные в этой статье, применяются к устройствам под управлением операционной системы Windows. В следующих разделах описаны поддерживаемые версии Windows.
 
 Если вам нужны сведения о других платформах, выберите один из следующих вариантов:
 > [!div class="op_single_selector"]
-- [Параметры политики соответствия для устройств с iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
-- [Параметры политики соответствия для устройств с Android](android-compliance-policy-settings-in-microsoft-intune.md)
-- [Параметры политики соответствия для Android for Work](afw-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для устройств с iOS](ios-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для устройств с Android](android-compliance-policy-settings-in-microsoft-intune.md)
+> - [Параметры политики соответствия для Android for Work](afw-compliance-policy-settings-in-microsoft-intune.md)
 
 ## <a name="compliance-policy-settings-for-windows-phone-devices"></a>Параметры политики соответствия для устройств Windows Phone
 Параметры, перечисленные в этом разделе, поддерживаются в Windows Phone 8.1 и более поздних версий.
@@ -51,7 +51,7 @@ ms.lasthandoff: 10/10/2017
   -   Строчные буквы
   -   Прописные буквы
   -   Символы
-  -   Числа
+  -   Numbers
 
   Чем больше значение этого параметра, тем более сложный пароль нужно будет придумать пользователю. Для устройств под управлением Windows, доступ к которым осуществляется с помощью учетной записи Майкрософт, политика соответствия не сможет правильно выполнить оценку, если минимальная длина пароля больше восьми символов или если минимальное число наборов символов больше двух.
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 10/10/2017
   > Устройства с Windows не поддерживают стороннее программное обеспечение **раннего запуска антивредоносной защиты** (ELAM), устанавливаемое в рамках аттестации работоспособности устройства.
 
   Сведения о работе службы HAS см. в статье [Health Attestation CSP](https://msdn.microsoft.com/library/dn934876.aspx) (Аттестация работоспособности CSP).
-###  <a name="device-property-settings"></a>Параметры свойств устройства
+  ###  <a name="device-property-settings"></a>Параметры свойств устройства
 - **Минимальная версия ОС**: если устройство не соответствует требованию к минимальной версии ОС, оно будет отмечено как не соответствующее требованиям.
     Отображается ссылка со сведениями о том, как выполнить обновление. Пользователь может обновить устройство, после чего он получит доступ к ресурсам организации.
 
@@ -107,7 +107,7 @@ ms.lasthandoff: 10/10/2017
   -   Строчные буквы
   -   Прописные буквы
   -   Символы
-  -   Числа     
+  -   Numbers     
 
   Чем больше значение этого параметра, тем более сложный пароль нужно будет придумать пользователю. Для устройств, доступ к которым осуществляется с помощью учетной записи Майкрософт, политика соответствия не сможет правильно выполнить оценку, если **Минимальная длина пароля** больше восьми символов или **Минимальное число наборов символов** больше двух.
 
@@ -153,4 +153,4 @@ ms.lasthandoff: 10/10/2017
 - Компьютеры под управлением Windows 8.1 возвращают версию **6.3**. Если для Windows в правиле ОС задано значение Windows 8.1, устройство считается несоответствующим, даже если на нем установлена версия ОС Windows 8.1.
 
 - На ПК с Windows 10 версия должна быть задана как **10.0** плюс номер сборки ОС, возвращенный командой **winver**. Например, она может иметь следующий вид: 10.0.10586.
-> ![Версия сборки ОС, выделенная в диалоговом окне "Сведения о Windows"](./media/ca_win10-os-version.png)
+  > ![Версия сборки ОС, выделенная в диалоговом окне "Сведения о Windows"](./media/ca_win10-os-version.png)

@@ -15,15 +15,15 @@ ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 328d8b3787bcef20a1d4949eba427cd8737edafe
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 16913689dcc5b37de73b39387efeb399b307306b
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-intune-data-warehouse"></a>Использование хранилища данных Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Используйте хранилище данных Intune для создания отчетов, предоставляющих ценные сведения о вашей корпоративной мобильной среде. Например, некоторые отчеты включают в себя следующее:
 -   Тренд по регистрации пользователей в Intune, чтобы вы могли оптимизировать покупку лицензий.

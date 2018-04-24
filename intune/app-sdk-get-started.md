@@ -1,24 +1,24 @@
 ---
-title: "Начало работы с SDK для приложений Microsoft Intune"
-description: "Вы можете быстро реализовать в своем приложении поддержку управления мобильными приложениями (MAM) с помощью Microsoft Intune."
-keywords: 
+title: Начало работы с SDK для приложений Microsoft Intune
+description: Вы можете быстро реализовать в своем приложении поддержку управления мобильными приложениями (MAM) с помощью Microsoft Intune.
+keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
 ms.date: 01/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5827c82d84be45020aa2bdec16c92e0296431cf8
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: e4437e3dbf7e942f084a0c441af7946b53c6d54d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/05/2018
 
 Для приложения Xamarin или Cordova используйте следующие варианты пакета SDK:
 
-* [компонент Xamarin из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin);
+* [привязки Xamarin из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin);
 * [подключаемый модуль Cordova из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam).
 
 Мы рекомендуем зарегистрировать учетную запись GitHub, чтобы использовать возможности ветвления и получения по запросу для репозиториев. GitHub позволяет разработчикам взаимодействовать с нашей группой разработчиков, заявлять о проблемах и получать быстрые ответы, просматривать заметки о выпуске, а также отправлять отзывы в корпорацию Майкрософт. Вопросы о GitHub пакета SDK для приложений Intune направляйте по адресу msintuneappsdk@microsoft.com.
@@ -84,7 +84,7 @@ ms.lasthandoff: 03/05/2018
 
 * **[Руководство по подключаемому модулю Cordova из пакета SDK для приложений Intune](app-sdk-cordova.md)**: этот документ поможет вам создавать приложения iOS и Android с помощью Cordova для политик защиты приложений Intune.
 
-* **[Руководство по компоненту Xamarin из пакета SDK для приложений Intune](app-sdk-xamarin.md)**: этот документ поможет вам создавать приложения iOS и Android с помощью Cordova для политик защиты приложений Intune.
+* **[Руководство по привязкам Xamarin из пакета SDK для приложений Intune](app-sdk-xamarin.md)**: этот документ поможет вам создавать приложения iOS и Android с помощью Xamarin для политик защиты приложений Intune.
 
 
 
@@ -142,7 +142,7 @@ Intune|iOS|Android|Описание|
 
 - **CFBundleShortVersionString**  
     Указывает номер версии выпуска пакета. Этот номер обозначает выпущенную версию приложения. Номер используется конечными пользователями для ссылки на приложение.
- - **CFBundleVersion**  
+  - **CFBundleVersion**  
     Версия сборки пакета, которая определяет итерацию пакета. Номер может обозначать выпуск или невыпущенный пакет. Номер используется для обнаружения приложения.
 
 #### <a name="android"></a>Android

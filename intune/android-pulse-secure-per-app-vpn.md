@@ -1,12 +1,12 @@
 ---
-title: Профиль VPN на уровне приложения в Android с использованием Pulse Secure
+title: Пользовательский профиль VPN на уровне приложения в Android
 titlesuffix: Microsoft Intune
 description: Сведения о том, как создать профиль VPN на уровне приложения для устройств Android, находящихся под управлением Microsoft Intune.
 keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
-ms.date: 03/05/2018
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,23 +15,23 @@ ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fc87363169cd2d967b2fea9683926970c18c5e97
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 96d164c0f4274a6d1fc81a0c7f9d86cccfec1fb1
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-microsoft-intune-custom-profile-to-create-a-per-app-vpn-profile-for-android-devices"></a>Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android
 
 [!INCLUDE[azure_portal](./includes/azure_portal.md)]
 
-Для устройств Android 5.0 и более поздней версии, находящихся под управлением Intune, можно создать профиль VPN на уровне приложения. Сначала создайте профиль VPN, который использует тип подключения Pulse Secure. Затем создайте настраиваемую политику конфигурации, которая связывает профиль VPN с конкретным приложением.
+Для устройств Android 5.0 и более поздней версии, находящихся под управлением Intune, можно создать профиль VPN на уровне приложения. Сначала создайте профиль VPN, который использует тип подключения Pulse Secure или Citrix. Затем создайте настраиваемую политику конфигурации, которая связывает профиль VPN с конкретным приложением.
 
-После назначения политики группам пользователей или устройствам Android пользователям следует запустить VPN PulseSecure. PulseSecure позволит использовать открытое VPN-подключение только для трафика из указанных приложений.
+После назначения политики группам пользователей или устройств Android пользователям следует запустить клиент VPN Pulse Secure или Citrix. Затем клиент VPN позволит использовать открытое VPN-подключение только для трафика из указанных приложений.
 
 > [!NOTE]
 >
-> Для этого профиля поддерживается только тип подключения Pulse Secure.
+> Для этого профиля поддерживаются только типы подключений Pulse Secure и Citrix.
 
 
 ## <a name="step-1-create-a-vpn-profile"></a>Шаг 1. Создание профиля VPN

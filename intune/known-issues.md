@@ -1,37 +1,35 @@
 ---
-title: "Известные проблемы в Microsoft Intune"
-titlesuffix: Microsoft Intune
-description: "Узнайте об известных проблемах в Microsoft Intune."
-keywords: 
+title: Известные проблемы в Microsoft Intune в Azure | Документы Майкрософт
+description: Узнайте об известных проблемах в Microsoft Intune.
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 01/11/2018
+ms.date: 03/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9933e6ed7f8ee636cb0a9416ff2409e2054e3aa0
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: d0a8a189e708ed140c3cda987a20cebb562fdb34
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Известные проблемы в Microsoft Intune
 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
-
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Из этой статьи вы узнаете об известных проблемах в Microsoft Intune.
 
 Чтобы сообщить об ошибке, которая не описана в этой статье, [создайте запрос на поддержку](get-support.md).
 
-Чтобы отправить запрос на добавление новой функции в Intune, заполните заявку на нашем сайте [UserVoice](https://microsoftintune.uservoice.com/forums/291681-ideas/category/189016-azure-admin-console).
+Чтобы отправить запрос на добавление новой функции в Intune, заполните заявку на сайте [UserVoice](https://microsoftintune.uservoice.com/forums/291681-ideas/category/189016-azure-admin-console).
 
 ## <a name="migration"></a>Миграция
 
@@ -45,7 +43,7 @@ ms.lasthandoff: 03/05/2018
 
 ### <a name="status-blades-for-migrated-policies-do-not-work"></a>Не работают колонки состояния для перенесенных политик
 
-Вы не можете просматривать сведения о состоянии для политик, которые были перенесены из классического портала на портал Azure. Тем не менее вы по-прежнему можете просматривать отчеты по этим политикам на классическом портале. Чтобы просматривать сведения о состоянии перенесенных политик конфигурации, заново создайте их на портале Azure.
+Вы не можете просматривать сведения о состоянии для политик, которые были перенесены из классического портала Azure на портал Azure. Тем не менее вы по-прежнему можете просматривать отчеты по этим политикам на классическом портале. Чтобы просматривать сведения о состоянии перенесенных политик конфигурации, заново создайте их на портале Azure.
 
 ## <a name="apps"></a>Приложения
 
@@ -66,9 +64,8 @@ ms.lasthandoff: 03/05/2018
 При добавлении дополнительных доменов с помощью команды **Дополнительные параметры** > **Периметр сети** > **Добавить защищенный домен** сохранить политику нельзя. В ближайшее время будет уточнено сообщение об ошибке, которое отображается в этом случае.
 
 ### <a name="cisco-anyconnect-vpn-client-support"></a>Поддержка клиента VPN Cisco AnyConnect
+Сейчас последний выпуск клиента VPN Cisco AnyConnect (4.0.07072) несовместим с Intune. Последующее обновление Intune обеспечит совместимость с этой версией клиента VPN. До тех пор мы рекомендуем не обновлять клиент VPN Cisco AnyConnect и продолжить работу с имеющейся версией.
 
-Сейчас последний выпуск клиента VPN Cisco AnyConnect (4.0.07072) несовместим с Intune.
-Последующее обновление Intune обеспечит совместимость с этой версией клиента VPN. До тех пор мы рекомендуем не обновлять клиент VPN Cisco AnyConnect и продолжить работу с имеющейся версией.
 
 ### <a name="using-the-numeric-password-type-with-macos-sierra-devices"></a>Использование числовых паролей с устройствами macOS Sierra
 

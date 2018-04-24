@@ -15,11 +15,11 @@ ms.assetid: 73DF3B90-6D52-4EF6-AFFD-1873A18C7421
 ms.reviewer: dariusz
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 74c6868caace323699e4c84ddc90278dadb56b6a
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: bd4ddf9712746cb97886e94e728b5a31a26f8786
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reference-for-intune-management-extension"></a>Справочник по расширению управления Intune
 
@@ -51,10 +51,12 @@ ms.lasthandoff: 03/16/2018
 **IntuneManagementExtension** ежедневно перечисляет работоспособность IntuneManagementExtension на каждом устройстве Windows 10.
 Эти данные хранятся в течение 60 дней. 
 
-| Свойство  | Описание | Пример |
-|---------|------------|--------|
-| DateKey |Уникальный идентификатор даты. | 123 |
-| TenantKey |Уникальный идентификатор клиента. | 456 |
-| DeviceKey |Уникальный идентификатор устройства. | 789 |
-| ExtensionVersionKey |Уникальный идентификатор для версии IntuneManagementExtension. | 1 |
-| ExtensionStateKey|Уникальный идентификатор для состояния работоспособности. | 2 |
+
+|      Свойство       |                         Описание                         | Пример |
+|---------------------|-------------------------------------------------------------|---------|
+|       DateKey       |               Уникальный идентификатор даты.                |   123   |
+|      TenantKey      |              Уникальный идентификатор клиента.               |   456   |
+|      DeviceKey      |              Уникальный идентификатор устройства.               |   789   |
+| ExtensionVersionKey | Уникальный идентификатор для версии IntuneManagementExtension. |    1    |
+|  ExtensionStateKey  |             Уникальный идентификатор для состояния работоспособности.              |    2    |
+

@@ -1,27 +1,27 @@
 ---
-title: "Отключение сбора данных корпорацией Майкрософт для устройств с macOS | Документы Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Отключение сбора данных корпорацией Майкрософт для устройств с macOS | Документы Майкрософт
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 12/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
+ms.technology: ''
+ms.assetid: ''
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c4c941de8cc51cfda3282f7347696e49721c276a
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 64a3a4710b8841dcc80c159d0622735fdd862e7a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-turn-off-microsoft-data-collection"></a>Отключение сбора данных корпорацией Майкрософт
 

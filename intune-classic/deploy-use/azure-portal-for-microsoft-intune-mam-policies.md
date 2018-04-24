@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ae0acf53a4987dac21e576826477d32da1f56155
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 2e3e71f52979f6285a14c5cc4fe26ea912cb3a42
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="azure-portal-for-intune-app-protection-policies"></a>Портал Azure для политик защиты приложений Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 На портале Azure можно создавать политики защиты приложений и управлять ими для следующих приложений:
 
@@ -32,9 +32,9 @@ ms.lasthandoff: 03/22/2018
 - приложения, работающие на устройствах, которые **не зарегистрированы** в каком-либо решении для управления мобильными устройствами;
 - приложения, работающие на устройствах, которые **зарегистрированы в решении для управления мобильными устройствами стороннего производителя**.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > Портал Azure — это новая консоль администрирования для создания политик защиты приложений. Вы можете также создать политику защиты приложений, которая поддерживает приложения для устройств, зарегистрированных в Intune, при помощи [консоли администрирования Intune](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md) для сценариев MDM.
-
+> 
 > В консоли администрирования Intune могут отображаться не все доступные параметры политики защиты приложений. Кроме того, при создании политик защиты приложений как в консоли администрирования Intune, так и на портале Azure, политики, созданные на портале Azure, имеют приоритет над созданными в консоли администрирования Intune. В этом случае политики защиты приложений с портала Azure будут применены к приложениям и развернуты пользователям.
 
 

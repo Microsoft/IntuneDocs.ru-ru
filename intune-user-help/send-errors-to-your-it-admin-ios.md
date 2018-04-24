@@ -1,27 +1,27 @@
 ---
-title: "Отправка сведений об ошибках в службу поддержки вашей компании | Документы Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Отправка сведений об ошибках в службу поддержки вашей компании | Документы Майкрософт
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 05/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: fbc9c2b9-b454-4b33-86cc-650742bbf1e1
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 35340f0f91ffeccacd7d674e51e961e29fbd80f4
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: b9bbd44fcace579803fc4e5c24324d70b8831645
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="send-errors-to-your-company-support-for-issues-with-your-ios-device"></a>Отправка сведений об ошибках с устройством iOS в службу поддержки вашей компании
 

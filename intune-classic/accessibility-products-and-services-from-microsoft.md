@@ -15,56 +15,67 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e0956c8011525accbe34e659b18faec5a245c9b8
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 3c227d1d9d4fc78b8c583f4c610a83bb9c136b99
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Продукты и службы корпорации Майкрософт для реализации специальных возможностей
-[!INCLUDE[accessibility1](./includes/accessibility1_md.md)]
+[!INCLUDE [accessibility1](./includes/accessibility1_md.md)]
 
--   [!INCLUDE[accessibility2](./includes/accessibility2_md.md)]
+- [!INCLUDE [accessibility2](./includes/accessibility2_md.md)]
 
--   [!INCLUDE[accessibility3](./includes/accessibility3_md.md)]
 
--   [!INCLUDE[accessibility4](./includes/accessibility4_md.md)]
+- [!INCLUDE [accessibility3](./includes/accessibility3_md.md)]
 
--   [!INCLUDE[accessibility5](./includes/accessibility5_md.md)]
+
+- [!INCLUDE [accessibility4](./includes/accessibility4_md.md)]
+
+
+- [!INCLUDE [accessibility5](./includes/accessibility5_md.md)]
 
 > [!NOTE]
-> [!INCLUDE[accessibility6](./includes/accessibility6_md.md)]
+> [!INCLUDE [accessibility6](./includes/accessibility6_md.md)]
 
 ## <a name="accessibility-features-of-windows"></a>Специальные возможности Windows
-[!INCLUDE[accessibility7](./includes/accessibility7_md.md)]
+[!INCLUDE [accessibility7](./includes/accessibility7_md.md)]
 
 ### <a name="free-step-by-step-tutorials"></a>Бесплатные пошаговые руководства
-[!INCLUDE[accessibility8](./includes/accessibility8_md.md)]
+[!INCLUDE [accessibility8](./includes/accessibility8_md.md)]
 
 ### <a name="assistive-technology-products-for-windows"></a>Продукты с поддержкой специальных возможностей для Windows
-[!INCLUDE[accessibility9](./includes/accessibility9_md.md)]
+[!INCLUDE [accessibility9](./includes/accessibility9_md.md)]
 
 ## <a name="documentation-in-alternative-formats"></a>Документация в альтернативных форматах
-[!INCLUDE[accessibility10](./includes/accessibility10_md.md)]
+[!INCLUDE [accessibility10](./includes/accessibility10_md.md)]
 
-[!INCLUDE[accessibility11](./includes/accessibility11_md.md)]
-[!INCLUDE[accessibility11-a](./includes/accessibility11-a_md.md)]
-[!INCLUDE[accessibility11-b](./includes/accessibility11-b_md.md)]
-[!INCLUDE[accessibility11-c](./includes/accessibility11-c_md.md)]
-[!INCLUDE[accessibility11-d](./includes/accessibility11-d_md.md)]
-[!INCLUDE[accessibility11-e](./includes/accessibility11-e_md.md)]
-[!INCLUDE[accessibility11-f](./includes/accessibility11-f_md.md)]
+[!INCLUDE [accessibility11](./includes/accessibility11_md.md)]
 
-[!INCLUDE[accessibility12](./includes/accessibility12_md.md)]
+[!INCLUDE [accessibility11-a](./includes/accessibility11-a_md.md)]
+
+[!INCLUDE [accessibility11-b](./includes/accessibility11-b_md.md)]
+
+[!INCLUDE [accessibility11-c](./includes/accessibility11-c_md.md)]
+
+[!INCLUDE [accessibility11-d](./includes/accessibility11-d_md.md)]
+
+[!INCLUDE [accessibility11-e](./includes/accessibility11-e_md.md)]
+
+[!INCLUDE [accessibility11-f](./includes/accessibility11-f_md.md)]
+
+[!INCLUDE [accessibility12](./includes/accessibility12_md.md)]
 
 ## <a name="customer-service-for-people-with-hearing-impairments"></a>Центр обслуживания клиентов для людей с нарушениями слуха
-[!INCLUDE[accessibility13](./includes/accessibility13_md.md)]
+[!INCLUDE [accessibility13](./includes/accessibility13_md.md)]
 
--   [!INCLUDE[accessibility14](./includes/accessibility14_md.md)]
+- [!INCLUDE [accessibility14](./includes/accessibility14_md.md)]
 
--   [!INCLUDE[accessibility15](./includes/accessibility15_md.md)]
 
-[!INCLUDE[accessibility16](./includes/accessibility16_md.md)]
+- [!INCLUDE [accessibility15](./includes/accessibility15_md.md)]
+
+[!INCLUDE [accessibility16](./includes/accessibility16_md.md)]
 
 ## <a name="for-more-information"></a>Дополнительные сведения
-[!INCLUDE[accessibility17](./includes/accessibility17_md.md)]
+[!INCLUDE [accessibility17](./includes/accessibility17_md.md)]
+

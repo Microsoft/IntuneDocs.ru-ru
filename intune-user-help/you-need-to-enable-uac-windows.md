@@ -1,27 +1,27 @@
 ---
-title: "Включение контроля учетных записей | Документация Майкрософт"
-description: "Сведения о включении контроля учетных записей для доступа к ресурсам организации."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Включение контроля учетных записей | Документация Майкрософт
+description: Сведения о включении контроля учетных записей для доступа к ресурсам организации.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 11/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e3ebea03-bd06-4b5e-8709-0a504c5d7bf7
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: d57ecaf480b4cc7e83c58362ae8b6987f36cee01
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 8b433a20aaa2ca25f54d051e3bed58989ef9dec7
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-enable-user-access-control"></a>Включение контроля учетных записей
 

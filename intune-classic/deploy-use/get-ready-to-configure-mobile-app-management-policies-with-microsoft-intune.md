@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b5d2ec278d182f3d9dbe03fbdf86791b59debf79
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 52cba4de7d19744e1a011071ac6c9bbb168ffb30
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="get-ready-to-configure-app-protection-policies-in-the-azure-portal"></a>Подготовка к настройке политик защиты приложений на портале Azure
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе описываются предварительные требования и действия, которые необходимо выполнить **перед** созданием политик защиты приложений на портале Azure.
 
@@ -74,18 +74,18 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="prerequisites"></a>Предварительные условия
 
--   **Подписка Microsoft Intune**. Чтобы получить приложения с политиками защиты, пользователям нужны лицензии Intune.
-У вас уже есть подписка Intune, если вы используете Intune для управления устройствами. Вы также располагаете подпиской Intune, если приобрели лицензию Enterprise Mobility Suite. Если вы используете Intune, чтобы ознакомиться с возможностями MAM, пробную учетную запись можно получить на [странице Microsoft Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/).
+- **Подписка Microsoft Intune**. Чтобы получить приложения с политиками защиты, пользователям нужны лицензии Intune.
+  У вас уже есть подписка Intune, если вы используете Intune для управления устройствами. Вы также располагаете подпиской Intune, если приобрели лицензию Enterprise Mobility Suite. Если вы используете Intune, чтобы ознакомиться с возможностями MAM, пробную учетную запись можно получить на [странице Microsoft Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/).
 
-    Чтобы проверить, есть ли у вас подписка Intune, перейдите на страницу **Выставление счетов** портала Office.  Если у вас есть подписка, в списке подписок для Intune должно быть указано значение **Активно**.
+  Чтобы проверить, есть ли у вас подписка Intune, перейдите на страницу **Выставление счетов** портала Office.  Если у вас есть подписка, в списке подписок для Intune должно быть указано значение **Активно**.
 
--   **Подписка Office 365**, которая требуется в следующих целях:
+- **Подписка Office 365**, которая требуется в следующих целях:
 
   - для применения политик защиты приложений к приложениям с поддержкой нескольких удостоверений;
 
   - для создания рабочих учетных записей SharePoint Online и Exchange Online. Локальные версии Exchange и SharePoint не поддерживаются.
 
--   **Настройка Skype для бизнеса Online для современной проверки подлинности**. Дополнительные сведения см. в статье [Включение современной проверки подлинности](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
+- **Настройка Skype для бизнеса Online для современной проверки подлинности**. Дополнительные сведения см. в статье [Включение современной проверки подлинности](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
 
 
 - Azure Active Directory (Azure AD) для создания пользователей. Azure AD выполняет аутентификацию пользователей, когда они открывают приложение и вводят рабочие учетные данные.

@@ -1,61 +1,61 @@
 ---
-title: "Wi-Fi с предварительным общим ключом (PSK)"
-description: "Сведения об использовании настраиваемой конфигурации для создания профиля Wi-Fi с общим ключом."
-keywords: 
+title: Wi-Fi с предварительным общим ключом (PSK)
+description: Сведения об использовании настраиваемой конфигурации для создания профиля Wi-Fi с общим ключом.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 10/25/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e977c7c7-e204-47a6-b851-7ad7673ceaab
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0e2dff26e6dcbe1db6a9cef58af10901178e432b
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: a023b6829b33c3b3bff94021ecd3c90d8b41f30f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-custom-policy-to-create-a-wi-fi-profile-with-a-pre-shared-key"></a>Сведения об использовании настраиваемой политики для создания профиля Wi-Fi с общим ключом
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе содержатся сведения об использовании **настраиваемой конфигурации** Intune для создания профиля Wi-Fi с общим ключом. Здесь также приводится пример создания профиля Wi-Fi на основе EAP.
 
 > [!NOTE]
--   Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
-- Для Android можно использовать [генератор PSK Android](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/) от Джонатона Бирсака (Johnathon Biersack).
--   Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
--  Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Можно также воспользоваться генератором [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/) от Джонатона Бирсака.
+> -   Возможно, вам будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже.
+> - Для Android можно использовать [генератор PSK Android](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/) от Джонатона Бирсака (Johnathon Biersack).
+> -   Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
+> -  Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Можно также воспользоваться генератором [iOS PSK Mobile Config Generator](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/) от Джонатона Бирсака.
 
 
-1.  Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании политики вместо профиля Wi-Fi выберите **Настраиваемая конфигурация** для этой платформы устройства.
+1. Чтобы создать профиль Wi-Fi с общим ключом для Windows или Android или профиль Wi-Fi на основе EAP, при создании политики вместо профиля Wi-Fi выберите **Настраиваемая конфигурация** для этой платформы устройства.
 
-2.  Укажите имя и введите описание.
-3.  Добавление нового параметра OMA URI
+2. Укажите имя и введите описание.
+3. Добавление нового параметра OMA URI
 
-   а.   Введите имя для этого параметра сети Wi-Fi.
+   a.   Введите имя для этого параметра сети Wi-Fi.
 
    b.   Введите описание параметра OMA-URI или оставьте поле пустым.
 
-   в.   **Тип данных**: в качестве значения задайте String(XML).
+   c.   **Тип данных**: в качестве значения задайте String(XML).
 
-   г.   **OMA-URI**:
+   d.   **OMA-URI**:
 
-    - **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
-    - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
+   - **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
+   - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
 
-    > [!NOTE]
-В начале обязательно должна стоять точка.
+   > [!NOTE]
+   > В начале обязательно должна стоять точка.
 
-    SSID — это SSID, для которого создается политика. Например, `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
+   SSID — это SSID, для которого создается политика. Например, `./Vendor/MSFT/WiFi/Profile/Hotspot-1/Settings`
 
-  д. **Поле значения** служит для вставки XML-кода. Вот пример. Каждое значение должно быть адаптировано для параметров сети. Некоторые сведения приведены в разделе комментариев кода.
+   д. **Поле значения** служит для вставки XML-кода. Вот пример. Каждое значение должно быть адаптировано для параметров сети. Некоторые сведения приведены в разделе комментариев кода.
 4. Нажмите кнопку **ОК**, а затем сохраните и разверните политику.
 
     > [!NOTE]
@@ -202,8 +202,8 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
 1. На компьютере, который подключен или недавно был подключен к беспроводной сети, откройте следующую папку: C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\{guid}.
 
     Рекомендуется использовать компьютер, подключенный к небольшому числу беспроводных сетей, так как вам придется просмотреть каждый профиль, чтобы найти нужный.
-3.     Выполните поиск в XML-файлах, чтобы найти нужный файл.
-4.     После нахождения нужного XML-файла скопируйте и вставьте XML-код в поле данных на странице параметров OMA-URI.
+2. Выполните поиск в XML-файлах, чтобы найти нужный файл.
+3. После нахождения нужного XML-файла скопируйте и вставьте XML-код в поле данных на странице параметров OMA-URI.
 
 ## <a name="deploy-the-policy"></a>Развертывание политики
 
@@ -217,5 +217,5 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
 
 При выборе развернутой политики можно просмотреть дополнительные сведения о развертывании в нижней части списка политик.
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Подключения Wi-Fi в Microsoft Intune](wi-fi-connections-in-microsoft-intune.md)

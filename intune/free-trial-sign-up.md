@@ -14,11 +14,11 @@ ms.technology: ''
 ms.assetid: 195931c0-8208-43bd-b0af-b1f8e469a32c
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: 389981fc207371d64064872235fc9babde6b3f6a
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: b68c2d93071d545bf25f7810a6908099988fb902
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Регистрация для использования бесплатной пробной версии Microsoft Intune
 
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/17/2018
 В этой статье рассматривается регистрация для использования пробной версии Intune для работы с порталом Azure.
 
 1. На странице [регистрации в Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20) заполните форму регистрации для работы с пробной подпиской.
-* Если для пробной версии Intune вы хотите использовать имеющуюся рабочую или учебную учетную запись, следуйте [этим инструкциям по входу](/intune/account-sign-up).
+2. Если для пробной версии Intune вы хотите использовать имеющуюся рабочую или учебную учетную запись, следуйте [этим инструкциям по входу](/intune/account-sign-up).
 
 * Если большая часть ваших ИТ-операций и пользователей поддерживают региональные параметры, отличные от ваших, эти параметры можно задать в раскрывающемся списке **Where's your company located?** (Где расположена ваша компания?).
 

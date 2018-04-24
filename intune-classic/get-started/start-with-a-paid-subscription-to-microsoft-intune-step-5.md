@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8e023035dabea653b289b767ff08801b13068a9e
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: f8590fc524e770536a66c604add2ce82d0c28afc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-groups-to-organize-users-and-devices"></a>Создание групп для организации пользователей и устройств
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе администраторы узнают, как создать группы пользователей в Intune.
 
@@ -83,5 +83,5 @@ ms.lasthandoff: 03/22/2018
 
 Созданная группа появится в списке **Группы** раздела **Все пользователи** рабочей области **Группы**. Здесь также можно изменять или удалять группу.
 
->[!div class="step-by-step"]
-/intune/licenses-assign [&larr; **Управление лицензиями Intune**](/intune/licenses-assign)       [**Создание политик и приложений** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  
+> [!div class="step-by-step"]
+> /intune/licenses-assign [&larr; **Управление лицензиями Intune**](/intune/licenses-assign)       [**Создание политик и приложений** &rarr;](./start-with-a-paid-subscription-to-microsoft-intune-step-6.md)  

@@ -1,25 +1,25 @@
 ---
-title: "Вам необходимо установить Lookout for Work на устройстве iOS | Документы Майкрософт"
-description: "Узнайте, как установить приложение Lookout for Work для iOS."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Вам необходимо установить Lookout for Work на устройстве iOS | Документы Майкрософт
+description: Узнайте, как установить приложение Lookout for Work для iOS.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
-ms.date: 09/25/2017
+ms.date: 04/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 7adab655-8317-4512-ba7d-beeaa25bbf6c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: ae05df1478baa8b965cdcd11a47ffc0d694734ab
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: fda95e461fe8412b26289bc601d8282588cd211c
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="install-lookout-for-work-on-your-ios-device"></a>Установка Lookout for Work на устройстве iOS
 
@@ -31,15 +31,15 @@ ms.lasthandoff: 01/25/2018
 
 1.  Если появился приведенный ниже запрос, выберите **Установить**, чтобы разрешить установку Lookout for Work на устройстве.
 
-  ![Нажмите "Установить", чтобы установить Lookout for Work](./media/ios-mtd-install-app-request.png)
+      ![Снимок экрана: запрос на установку приложения с кнопками "Отмена" и "Установить".](/intune-user-help/media/ios-mts-install-app-request-after-1804.png)
 
 2. Если появилось приведенное ниже сообщение, выберите **Параметры**, включите **Службы определения местоположения**, а затем нажмите **Продолжить**.
 
-  ![Выберите "Параметры", а затем "Службы определения местоположения"](./media/ios-lfw-allow-location-services.png)
+      ![Выберите "Параметры", а затем "Службы определения местоположения"](./media/ios-lfw-allow-location-services.png)
 
 3. Просмотрите разрешения, которые требуются приложению Lookout for Work, и нажмите **Продолжить**.
 
-  ![теперь вы подключены к Lookout for Work](./media/ios-lfw-permissions-lookout-needs.png)
+      ![теперь вы подключены к Lookout for Work](./media/ios-lfw-permissions-lookout-needs.png)
 
 4. При появлении запроса на предоставление приложению Lookout for Work разрешения на отправку уведомлений нажмите **Разрешить**.
 

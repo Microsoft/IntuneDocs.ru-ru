@@ -1,27 +1,27 @@
 ---
-title: "Параметры VPN для устройств macOS в Microsoft Intune"
-titlesuffix: 
-description: "Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах macOS."
-keywords: 
+title: Параметры VPN для устройств macOS в Microsoft Intune
+titlesuffix: ''
+description: Узнайте о параметрах Intune, которые можно использовать для настройки VPN-подключений на устройствах macOS.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b7df56b0f15b9fd346dc786ab265d772135795a8
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: a59d17c9497d5f7d0fbc3bcdf5f1e232115f643a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-macos"></a>Настройка параметров VPN для устройств macOS в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах macOS.
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/12/2018
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
     - **Check Point Capsule VPN**;
     - **Cisco AnyConnect**
-    - **SonicWall Mobile Connect**
+    - **SonicWall Mobile Connect**;
     - **F5 Edge Client**
     - **Pulse Secure**
     - **Пользовательская сеть VPN**.
@@ -55,6 +55,6 @@ ms.lasthandoff: 03/12/2018
 
 ## <a name="proxy-settings"></a>Параметры прокси-сервера
 
-- **Скрипт автоматической настройки**. Используйте файл для настройки прокси-сервера. Введите **URL-адрес прокси-сервера** (например, **http://proxy.contoso.com**), который содержит файл конфигурации.
+- **Скрипт автоматической настройки.** Используйте файл для настройки прокси-сервера. Введите **URL-адрес прокси-сервера** (например, **http://proxy.contoso.com**), на котором находится файл конфигурации.
 - **Адрес**. Введите адрес прокси-сервера (в формате IP-адреса).
 - **Номер порта.** Введите номер порта, связанного с прокси-сервером.

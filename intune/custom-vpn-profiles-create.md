@@ -1,23 +1,23 @@
 ---
-title: "Как создать настраиваемые профили VPN с помощью Microsoft Intune"
-titleSuffix: 
-description: "Создание профилей VPN в Intune с помощью настраиваемых конфигураций."
-keywords: 
+title: Как создать настраиваемые профили VPN с помощью Microsoft Intune
+titleSuffix: ''
+description: Создание профилей VPN в Intune с помощью настраиваемых конфигураций.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.openlocfilehash: ec9b959d086051985287a62f7d10fe8d4cbad7e9
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.sourcegitcommit: 28ed8902a11500b195fff839d59b90c16af6e743
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="how-to-create-custom-vpn-profiles-in-microsoft-intune"></a>Как создать настраиваемые профили VPN в Microsoft Intune
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/08/2018
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. На панели **Intune** выберите пункт **Конфигурация устройства**.
-2. На панели **Конфигурации устройства** в разделе **Управление** выберите **Профили**.
+2. На панели **Конфигурация устройства** в разделе **Управление** выберите **Профили**.
 5. На панели профилей выберите **Создать профиль**.
 6. На панели **Создать профиль** введите **имя** и **описание** для профиля VPN.
 7. В раскрывающемся списке **Платформа** выберите платформу устройства, к которой необходимо применить параметры VPN. Сейчас для пользовательских параметров устройства можно выбрать одну из следующих платформ:

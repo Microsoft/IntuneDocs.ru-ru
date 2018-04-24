@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1f53796e08ee962a23ab02929c4451478480e281
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 4c69dec5903f25b9e7f09f6a20fc35068f3329d4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="troubleshoot-device-enrollment-in-intune"></a>Устранение проблем при регистрации устройств в Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе приводятся рекомендации по устранению неполадок с регистрацией устройств. Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
@@ -87,9 +87,9 @@ ms.lasthandoff: 03/22/2018
 8.  Удалите соответствующие устройства, например неиспользуемые или имеющие неверные определения.
 
 > [!NOTE]
-
+> 
 > Можно избежать достижения предельного значения регистрации устройств с помощью учетной записи диспетчера регистрации устройств, как описано в статье [Регистрация корпоративных устройств с помощью диспетчера регистрации устройств в Microsoft Intune](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune).
->
+> 
 > Учетная запись, добавленная в учетную запись диспетчера регистрации устройств, не сможет завершить регистрацию при применении политики условного доступа для этого конкретного имени для входа.
 
 ### <a name="company-portal-temporarily-unavailable"></a>Корпоративный портал временно недоступен
@@ -154,7 +154,7 @@ ms.lasthandoff: 03/22/2018
 **Проблема:** при добавлении второго проверенного домена в AD FS пользователи с суффиксом имени субъекта-пользователя (UPN) этого второго домена могут не иметь возможности входить на порталы или регистрировать устройства.
 
 
-**Решение**. Клиентам Microsoft Office 365, использующим единый вход (SSO) через AD FS 2.0 и имеющим несколько доменов верхнего уровня для UPN-суффиксов пользователей в организации (например, @contoso.com или @fabrikam.com), следует развернуть отдельный экземпляр службы федерации AD FS 2.0 для каждого суффикса. Сейчас существует [свертка для AD FS 2.0](http://support.microsoft.com/kb/2607496), работающая совместно с параметром **SupportMultipleDomain**, чтобы сервер AD FS поддерживал этот сценарий без дополнительных серверов AD FS 2.0. Дополнительные сведения см. в [этом блоге](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/).
+<strong>Решение</strong>. Клиентам Microsoft Office 365, использующим единый вход (SSO) через AD FS 2.0 и имеющим несколько доменов верхнего уровня для UPN-суффиксов пользователей в организации (например, @contoso.com или @fabrikam.com), следует развернуть отдельный экземпляр службы федерации AD FS 2.0 для каждого суффикса. Сейчас существует [свертка для AD FS 2.0](http://support.microsoft.com/kb/2607496), работающая совместно с параметром <strong>SupportMultipleDomain</strong>, чтобы сервер AD FS поддерживал этот сценарий без дополнительных серверов AD FS 2.0. Дополнительные сведения см. в [этом блоге](https://blogs.technet.microsoft.com/abizerh/2013/02/05/supportmultipledomain-switch-when-managing-sso-to-office-365/).
 
 
 ## <a name="android-issues"></a>Проблемы в Android
@@ -195,27 +195,27 @@ ms.lasthandoff: 03/22/2018
 
 1. Запустите приложение Smart Manager на устройстве.
 
-  ![Выберите значок Smart Manager](./media/smart-manager-app-icon.png)
+   ![Выберите значок Smart Manager](./media/smart-manager-app-icon.png)
 
 2. Выберите плитку **Батарея**.
 
-  ![Выберите плитку "Батарея"](./media/smart-manager-battery-tile.png)
+   ![Выберите плитку "Батарея"](./media/smart-manager-battery-tile.png)
 
 3. В разделе **App power saving** (Энергосбережение приложения) или **App optimization** (Оптимизация приложения) выберите **Сведения**.
 
-  ![В разделе App power saving (Энергосбережение приложения) или App optimization (Оптимизация приложения) выберите "Сведения"](./media/smart-manager-app-power-saving-detail.png)
+   ![В разделе App power saving (Энергосбережение приложения) или App optimization (Оптимизация приложения) выберите "Сведения"](./media/smart-manager-app-power-saving-detail.png)
 
 4. В списке приложений выберите **Корпоративный портал**.
 
-  ![В списке приложений выберите "Корпоративный портал"](./media/smart-manager-company-portal.png)
+   ![В списке приложений выберите "Корпоративный портал"](./media/smart-manager-company-portal.png)
 
 5. Установите переключатель **Отключен**.
 
-  ![Установите переключатель "Отключен" в диалоговом окне App optimization (Оптимизация приложения)](./media/smart-manager-app-optimization-turned-off.png)
+   ![Установите переключатель "Отключен" в диалоговом окне App optimization (Оптимизация приложения)](./media/smart-manager-app-optimization-turned-off.png)
 
 6. В разделе **App power saving** (Энергосбережение приложения) или **App optimization** (Оптимизация приложения) убедитесь, что корпоративный портал отключен.
 
-  ![Убедитесь, что корпоративный портал отключен](./media/smart-manager-verify-comp-portal-turned-off.png)
+   ![Убедитесь, что корпоративный портал отключен](./media/smart-manager-verify-comp-portal-turned-off.png)
 
 
 ### <a name="profile-installation-failed"></a>Сбой установки профиля

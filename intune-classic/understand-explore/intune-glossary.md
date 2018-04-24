@@ -13,15 +13,15 @@ ms.technology: ''
 ms.assetid: 86d00901-fac7-4471-aac2-f1d13a4879b6
 ROBOTS: NOINDEX,NOFOLLOW
 ms.custom: intune-classic
-ms.openlocfilehash: b4415b7b4b1cd48accae3f0d0d39caedd9cf6b3c
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 9ddf972795d9ced6aff6dd01da4469d49f11c951
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-glossary"></a>Глоссарий Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="a"></a>A
 
@@ -40,11 +40,13 @@ ms.lasthandoff: 03/22/2018
 |Портал Azure|Новая консоль Intune, которая появится в ближайшее время. [Дополнительные сведения о новом портале](/intune/what-is-intune).|
 
 ## <a name="b"></a>B
+
 |||
 |-|-|
 |BYOD|[Принеси свое устройство](/intune-classic/get-started/choose-how-to-enroll-devices1). Пользователи могут установить приложение корпоративного портала Intune на своем устройстве и зарегистрировать его для доступа к ресурсам организации, таким как электронная почта, корпоративные приложения, корпоративные данные и поддержка.|
 
 ## <a name="c"></a>C
+
 |||
 |-|-|
 |Certificate profile (Профиль сертификата)|Используйте этот тип политики для [безопасного доступа к корпоративным ресурсам](/intune-classic/deploy-use/secure-resource-access-with-certificate-profiles) с помощью сертификатов, когда вы работаете с профилями Wi-Fi, VPN или электронной почты.|
@@ -57,6 +59,7 @@ ms.lasthandoff: 03/22/2018
 |Custom policy (Настраиваемая политика)|[Используйте эти политики](/intune-classic/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies), когда общая политика конфигурации не содержит нужные вам параметры. Возможно, с помощью настраиваемой политики вы сможете создать параметр другими способами, такими как конфигуратор Apple или OMA-URI.|
 
 ## <a name="d"></a>D
+
 |||
 |-|-|
 |Deployment (Развертывание)|Процедура отправки приложения или политики для устройства или пользователя, которыми вы управляете.|
@@ -65,6 +68,7 @@ ms.lasthandoff: 03/22/2018
 |Device group mapping (Сопоставление группы устройств)|Помогает [автоматически добавить устройства в группы](/intune-classic/deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune) на основе категории (например, "Личные" или "Продажи"), которую вы или конечный пользователь назначаете устройству.|
 
 ## <a name="e"></a>E
+
 |||
 |-|-|
 |Email profile (Профиль электронной почты)|Эта политика позволяет настроить [параметры доступа к электронной почте](/intune-classic/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) для отдельных почтовых клиентов на мобильных устройствах, минимизируя объем необходимой настройки со стороны пользователя.|
@@ -73,21 +77,25 @@ ms.lasthandoff: 03/22/2018
 |Enroll (Регистрация)|В Microsoft Intune [регистрация](/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) используется для обеспечения управления устройствами и доступа к ресурсам.|
 
 ## <a name="f"></a>F
+
 |||
 |-|-|
 |FastTrack|[Служба Майкрософт](https://technet.microsoft.com/library/mt228265.aspx) для пользователей Intune со 150 лицензиями в рамках соответствующего плана. Благодаря этой службе специалисты Майкрософт помогут вам приступить к работе с Intune.|
 
 ## <a name="g"></a>G
+
 |||
 |-|-|
 |Groups (Группы)|Группы позволяют [логически объединить пользователей или устройства](/intune-classic/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune). Например, можно создать группу из всех компьютеров под управлением Windows. Затем для этих групп можно развертывать приложения и политики.|
 
 ## <a name="h"></a>H
+
 |||
 |-|-|
 |Hybrid (гибридные)|Конфигурация, в которой можно управлять устройствами, зарегистрированными в Intune, [с помощью консоли System Center Configuration Manager](/intune-classic/get-started/integration-with-cloud-services).|
 
 ## <a name="i"></a>I
+
 |||
 |-|-|
 |Intune administration console (консоль администрирования Intune)|Текущая консоль, используемая для большинства операций управления Intune.|
@@ -96,11 +104,13 @@ ms.lasthandoff: 03/22/2018
 |Inventory (Товары)|Используйте для просмотра [оборудования и установленного программного обеспечения](/intune-classic/deploy-use/understand-your-devices-with-inventory-in-microsoft-intune) на управляемых устройствах.|
 
 ## <a name="k"></a>K
+
 |||
 |-|-|
 |Kiosk mode (Полноэкранный режим)|Этот режим, настроенный в составе [общей политики конфигурации](/intune-classic/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies), позволяет заблокировать устройства. Например, можно настроить устройство розничной торговли для запуска всего одного приложения.|
 
 ## <a name="m"></a>M
+
 |||
 |-|-|
 |Managed Browser|[Приложение для просмотра веб-страниц](/intune-classic/deploy-use/manage-internet-access-using-managed-browser-policies), которое можно развернуть в организации с помощью Microsoft Intune. Политика управляемого браузера настраивает список разрешений или список блокировок, ограничивающий те веб-сайты, которые могут посетить пользователи управляемого браузера.|
@@ -111,18 +121,21 @@ ms.lasthandoff: 03/22/2018
 |Mobile app configuration policy (Политика конфигурации мобильных приложений)|Политика iOS, которая позволяет [предоставить параметры для совместимых приложений iOS](/intune-classic/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune) при их запуске, например название организации или адрес сервера.|
 
 ## <a name="o"></a>O
+
 |||
 |-|-|
 |OMA-DM|Управление устройствами Open Mobile Alliance. Являющийся отраслевым стандартом протокол управления устройствами, используемый многими изготовителями оборудования для реализации функций управления мобильными устройствами и компьютерами.|
 |OMA-URI|Универсальный идентификатор ресурса Open Mobile Alliance. Они определяют отдельные параметры устройств, соответствующие стандарту OMA-DM. Некоторые из них можно использовать в [настраиваемых политиках Intune](/intune-classic/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) при отсутствии подходящих встроенных параметров.|
 
 ## <a name="p"></a>P
+
 |||
 |-|-|
 |Policy (Политика)|[Пакет сведений](/intune-classic/deploy-use/microsoft-intune-policy-reference), передаваемый из Intune на устройство. Например, можно развернуть на устройстве параметры безопасности или сведения о соответствии устройств.|
 |Сброс секретного кода|Функция Intune, позволяющая вынудить пользователя выполнить [сброс секретного кода](/intune-classic/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune) на поддерживаемых устройствах.|
 
 ## <a name="r"></a>R
+
 |||
 |-|-|
 |Remote lock (удаленная блокировка)|Функция Intune, позволяющая [заблокировать поддерживаемые устройства](/intune-classic/deploy-use/use-remote-lock-and-passcode-reset-in-microsoft-intune), включая те, которые вам не принадлежат.|
@@ -131,12 +144,14 @@ ms.lasthandoff: 03/22/2018
 |Requirements (Требования)|[Операция развертывания приложения](/intune-classic/deploy-use/add-apps), позволяющая выбрать требования, которые должны быть выполнены на устройстве перед установкой приложения. Например, можно указать версию ОС IOS, которую необходимо установить перед установкой приложения.|
 
 ## <a name="s"></a>S
+
 |||
 |-|-|
 |Selective wipe (Выборочная очистка)|[Выборочная очистка](/intune-classic/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) удаляет с устройства только данные организации, включая данные управления мобильными приложениями (MAM), где это возможно, параметры и профили электронной почты. При выборочной очистке личные данные пользователя остаются на устройстве.|
 |Подписка|Заключенное вами соглашение, которое обеспечивает доступ к клиенту Intune.|
 
 ## <a name="t"></a>T
+
 |||
 |-|-|
 |TeamViewer|Стороннее приложение, работающее с Intune для предоставления [возможности удаленной помощи](/intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#request-and-provide-remote-assistance-for-windows-pcs) компьютерам с Windows, управляемым с помощью программного клиента Intune.|
@@ -144,12 +159,15 @@ ms.lasthandoff: 03/22/2018
 |Terms and conditions (Условия)|Тип политики, который можно развернуть для пользователей, содержащий сведения, которые пользователи должны [прочесть и принять](/intune-classic/deploy-use/terms-and-condition-policy-settings-in-microsoft-intune), чтобы в дальнейшем использовать корпоративный портал для регистрации и доступа к своей работе.|
 
 ## <a name="v"></a>V
+
 |||
 |-|-|
 |Volume-purchased app (Приложение, приобретенное по программе Volume Purchase Program)|Некоторые магазины приложений позволяют приобретать сразу несколько лицензий, если приложение планируется использовать в организации. Intune помогает управлять приложениями, [приобретенными по такой программе](/intune-classic/deploy-use/manage-volume-purchased-apps-in-microsoft-intune), импортируя данные о лицензиях из магазина приложений, отслеживая число используемых лицензий и следя за тем, чтобы число установленных копий приложения не превышало число приобретенных.|
 |VPN profile (Профиль VPN)|Политика, которая развертывает [параметры VPN](/intune-classic/deploy-use/vpn-connections-in-microsoft-intune) для управляемых устройств, сводя к минимуму объем работ по настройке со стороны конечных пользователей.|
 
 ## <a name="w"></a>Вт
-|||
-|-|-|
-|Wi-Fi profile (Профиль Wi-Fi)|Политика, которая развертывает на устройствах [параметры беспроводной сети](/intune-classic/deploy-use/wi-fi-connections-in-microsoft-intune), чтобы позволить пользователям подключаться к корпоративной сети без настройки каких-либо параметров.
+
+|               |                                                                                                                                                                                                                                 |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wi-Fi profile (Профиль Wi-Fi) | Политика, которая развертывает на устройствах [параметры беспроводной сети](/intune-classic/deploy-use/wi-fi-connections-in-microsoft-intune), чтобы позволить пользователям подключаться к корпоративной сети без настройки каких-либо параметров. |
+

@@ -1,28 +1,28 @@
 ---
-title: "Использование сертификатов PKCS с Microsoft Intune — Azure | Документы Майкрософт"
-description: "Добавьте или создайте сертификаты стандартов шифрования с открытым ключом с помощью Microsoft Intune, в том числе экспортируйте корневой сертификат, настройте шаблон сертификата, загрузите и установите Microsoft Intune Certificate Connector, создайте профиль конфигурации устройства, создайте профиль сертификата PKCS в Azure и ЦС"
-keywords: 
+title: Использование сертификатов PKCS с Microsoft Intune — Azure | Документы Майкрософт
+description: Добавьте или создайте сертификаты стандартов шифрования с открытым ключом с помощью Microsoft Intune, в том числе экспортируйте корневой сертификат, настройте шаблон сертификата, загрузите и установите Microsoft Intune Certificate Connector, создайте профиль конфигурации устройства, создайте профиль сертификата PKCS в Azure и ЦС
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
-ms.assetid: 
-ms.reviewer: 
+ms.technology: ''
+ms.assetid: ''
+ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c0668921f03b24b319c2c37837dbd2cc053370ca
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 0dfcaa2e37fecc4c5a075931489c106b78c17b7e
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Настройка и использование сертификатов PKCS в Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Сертификаты используются для проверки подлинности и защищенного доступа к ресурсам организации, например виртуальной частной сети или сети Wi-Fi. В этой статье показано, как экспортировать сертификат PKCS, а затем добавить его в профиль Intune. 
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 03/08/2018
 
    Пример.
 
-4.  После завершения работы мастера, но перед тем, как закрыть его, щелкните **Запустить пользовательский интерфейс соединителя сертификатов**.
+4. После завершения работы мастера, но перед тем, как закрыть его, щелкните **Запустить пользовательский интерфейс соединителя сертификатов**.
 
    `certutil -ca.cert certnew.cer`
 

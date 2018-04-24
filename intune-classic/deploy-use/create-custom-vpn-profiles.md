@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 6139b656c69b58bdbdd02e296f8a061dd598a1c6
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 512bd38802dbb97a74d3d19d74a7d5086784d327
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="custom-configurations-for-microsoft-intune-vpn-profiles"></a>Настраиваемые конфигурации профилей VPN Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="create-a-custom-configuration"></a>Создание настраиваемой конфигурации
 С помощью политик настраиваемых конфигураций Intune можно создать профили VPN для следующих устройств:
@@ -39,13 +39,13 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-create-a-custom-configuration-policy"></a>Создание политики настраиваемой конфигурации:
 
-   1. В [консоли администрирования Intune](https://manage.microsoft.com) выберите **Политика** > **Добавить политику** > *Развернуть платформу* > **Настраиваемая конфигурация** > **Создать политику**.
-   2. Введите имя политики.
-   3. Для каждого параметра URI, который требуется задать, щелкните **Добавить** и укажите требуемые данные. Пример:
+1. В [консоли администрирования Intune](https://manage.microsoft.com) выберите **Политика** > **Добавить политику** > *Развернуть платформу* > **Настраиваемая конфигурация** > **Создать политику**.
+2. Введите имя политики.
+3. Для каждого параметра URI, который требуется задать, щелкните **Добавить** и укажите требуемые данные. Пример:
 
    ![Диалоговое окно настраиваемой конфигурации профиля VPN](./media/Intune_Add_VPN_URI.png)
 
-   4.  Задав все параметры URI, щелкните **Сохранить политику**, а затем разверните политику.
+4. Задав все параметры URI, щелкните **Сохранить политику**, а затем разверните политику.
 
 После этого [разверните политику](/intune-classic/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies#deploy-a-configuration-policy) в обычном режиме.
 

@@ -15,15 +15,15 @@ ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 87fea551dea1f80ee071fe6b477b84729e000874
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: ece6edee891b147ad2124b987239da6af8e1bc8d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-add-android-store-apps-to-microsoft-intune"></a>Как добавлять в Microsoft Intune приложения из магазина Android
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Перед назначением приложения устройству или группе пользователей необходимо сначала добавить его в Microsoft Intune. Ниже приводятся инструкции по добавлению приложения из магазина Android в Intune на портале Azure.
 
@@ -52,6 +52,6 @@ ms.lasthandoff: 03/08/2018
 
 Созданное приложение отображается в списке приложений, из которого его можно назначить выбранным группам. 
 
-##<a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Назначение приложений группам](apps-deploy.md)

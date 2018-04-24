@@ -1,27 +1,27 @@
 ---
-title: "Параметры ограничений Microsoft Intune для применения к устройствам Windows Phone 8.1"
-titleSuffix: 
-description: "Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Windows Phone 8.1."
-keywords: 
+title: Параметры ограничений Microsoft Intune для применения к устройствам Windows Phone 8.1
+titleSuffix: ''
+description: Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Windows Phone 8.1.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 808c8e9ac1ef944b69ae8e548c62d4c6366820d0
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 1bebb5915a7adeb13fd95b73587bca0171bebd83
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-windows-phone-81-device-restriction-settings"></a>Параметры ограничений для устройств с Windows Phone 8.1 в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows Phone 8.1.
 
@@ -70,7 +70,7 @@ URL-адрес приложения в списке разрешенных и з
 
 Откройте страницу приложения и скопируйте URL-адрес в буфер обмена. После этого его можно использовать как URL-адрес в списке разрешенных приложений или в списке заблокированных приложений.
 
-Пример. Выполните поиск в магазине по запросу "Приложение Skype". Используйте этот URL-адрес: **http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51**.
+Пример. Выполните поиск в магазине по запросу "Приложение Skype". Используется URL-адрес вида **http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51**.
 
 
 

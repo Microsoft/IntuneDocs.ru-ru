@@ -1,29 +1,29 @@
 ---
-title: "Приложения iOS с политиками защиты приложений"
+title: Приложения iOS с политиками защиты приложений
 titlesuffix: Microsoft Intune
-description: "Узнайте, чего следует ожидать от приложения iOS с политиками защиты."
-keywords: 
+description: Узнайте, чего следует ожидать от приложения iOS с политиками защиты.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/07/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 586d9440-3813-4dec-b865-8bd319befde0
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 13833d41603e24e4471f0bb5fdda40d000f29a34
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 2804003a0f1acac56ecaae5e24dcf34b4eb0c256
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>Что происходит при управлении приложением iOS с помощью политик защиты приложений
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Узнайте о работе пользователей с приложениями iOS, содержащими политики защиты приложений. Политики защиты приложений применяются только в том случае, если приложения используются в рабочем контексте. Например, если вы открываете приложение в рабочей учетной записи или открываете файл, хранящийся в папке OneDrive вашей компании.
 ##  <a name="accessing-apps"></a>Доступ к приложениям

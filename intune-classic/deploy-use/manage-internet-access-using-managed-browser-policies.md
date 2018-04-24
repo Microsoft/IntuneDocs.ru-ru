@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 559866fff63b0ad77a43ce337adede5cd8b27302
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 9781af943dbfb782cf367257127021473e35c168
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-internet-access-using-managed-browser-policies-with-microsoft-intune"></a>Управление доступом в Интернет с помощью политик управляемого браузера в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Управляемый браузер — это приложение для просмотра веб-страниц, которое можно развернуть в организации с помощью Microsoft Intune. Политика управляемого браузера настраивает список разрешений или список блокировок, ограничивающий те веб-сайты, которые могут посетить пользователи управляемого браузера.
 
@@ -99,52 +99,52 @@ ms.lasthandoff: 03/22/2018
 ### <a name="url-format-for-allowed-and-blocked-urls"></a>Формат для разрешенных и заблокированных URL-адресов
 Ниже приведены сведения о допустимых форматах и подстановочных знаках, которые можно использовать при указании URL-адресов в списках разрешений и блокировок.
 
--   Вы можете использовать подстановочный знак **&#42;** в соответствии с приведенным ниже списком разрешенных шаблонов.
+- Вы можете использовать подстановочный знак **&#42;** в соответствии с приведенным ниже списком разрешенных шаблонов.
 
--   Убедитесь, что для всех вводимых в список URL-адресов используется префикс **http** или **https** .
+- Убедитесь, что для всех вводимых в список URL-адресов используется префикс **http** или **https** .
 
--   В адресе можно указать номера портов. Если не указать номер порта, будут использоваться следующие значения:
+- В адресе можно указать номера портов. Если не указать номер порта, будут использоваться следующие значения:
 
-    -   Порт 80 для http
+  -   Порт 80 для http
 
-    -   Порт 443 для https
+  -   Порт 443 для https
 
-    Использование подстановочных знаков в номерах портов не поддерживается. Например, варианты вида **http&colon;//www&period;contoso&period;com:*;** и **http&colon;//www&period;contoso&period;com: /*;** не поддерживаются.
+  Использование подстановочных знаков в номерах портов не поддерживается. Например, варианты вида <strong>http&colon;//www&period;contoso&period;com:*;</strong> и <strong>http&colon;//www&period;contoso&period;com: /*;</strong> не поддерживаются.
 
--   В следующей таблице приведены сведения о шаблонах, которые можно использовать при указании URL-адресов.
+- В следующей таблице приведены сведения о шаблонах, которые можно использовать при указании URL-адресов.
 
-|URL-адрес|Подробные сведения|Соответствует|Не соответствует|
-    |-------|---------------|-----------|------------------|
-    |http://www.contoso.com|Соответствует отдельной странице|www.contoso.com|host.contoso.com<br /><br />www.contoso.com/images<br /><br />contoso.com/|
-    |http://contoso.com|Соответствует отдельной странице|contoso.com/|host.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com|
-    |http://www.contoso.com/&#42;|Соответствует всем URL-адресам, которые начинаются с www.contoso.com|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|
-    |http://&#42;.contoso.com/&#42;|Соответствует всем поддоменам в contoso.com|developer.contoso.com/resources<br /><br />news.contoso.com/images<br /><br />news.contoso.com/videos|contoso.host.com|
-    |http://www.contoso.com/images|Соответствует отдельной папке|www.contoso.com/images|www.contoso.com/images/dogs|
-    |http://www.contoso.com:80|Соответствует отдельной странице с использованием номера порта|http://www.contoso.com:80||
-    |https://www.contoso.com|Соответствует отдельной защищенной странице|https://www.contoso.com|http://www.contoso.com|
-    |http://www.contoso.com/images/&#42;|Соответствует отдельной папке и всем вложенным в нее папкам|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|
+|                  URL-адрес                  |                     Подробные сведения                      |                                                Соответствует                                                |                                Не соответствует                                 |
+|---------------------------------------|--------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+|        http://www.contoso.com         |              Соответствует отдельной странице               |                                            www.contoso.com                                            |  host.contoso.com<br /><br />www.contoso.com/images<br /><br />contoso.com/   |
+|          http://contoso.com           |              Соответствует отдельной странице               |                                             contoso.com/                                              | host.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com |
+|    <http://www.contoso.com/&#42>;     | Соответствует всем URL-адресам, которые начинаются с www.contoso.com |      www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows      |              host.contoso.com<br /><br />host.contoso.com/images              |
+|    http://&#42;.contoso.com/&#42;     |     Соответствует всем поддоменам в contoso.com     | developer.contoso.com/resources<br /><br />news.contoso.com/images<br /><br />news.contoso.com/videos |                               contoso.host.com                                |
+|     http://www.contoso.com/images     |             Соответствует отдельной папке              |                                        www.contoso.com/images                                         |                          www.contoso.com/images/dogs                          |
+|       http://www.contoso.com:80       |  Соответствует отдельной странице с использованием номера порта   |                                       http://www.contoso.com:80                                       |                                                                               |
+|        https://www.contoso.com        |          Соответствует отдельной защищенной странице           |                                        https://www.contoso.com                                        |                            http://www.contoso.com                             |
+| <http://www.contoso.com/images/&#42>; |    Соответствует отдельной папке и всем вложенным в нее папкам    |                  www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats                   |                            www.contoso.com/videos                             |
 
--   Ниже приведены примеры входных данных, которые не следует указать:
+- Ниже приведены примеры входных данных, которые не следует указать:
 
-    -   &#42;.com
+  - &#42;.com
 
-    -   &#42;.contoso/&#42;
+  - &#42;.contoso/&#42;
 
-    -   www.contoso.com/&#42;images
+  - www.contoso.com/&#42;images
 
-    -   www.contoso.com/&#42;images&#42;pigs
+  - www.contoso.com/&#42;images&#42;pigs
 
-    -   www.contoso.com/page&#42;
+  - www.contoso.com/page&#42;
 
-    -   IP-адреса
+  - IP-адреса
 
-    -   https://&#42;
+  - https://&#42;
 
-    -   http://&#42;
+  - http://&#42;
 
-    -   http://www.contoso.com:&#42;
+  - http://www.contoso.com:&#42;
 
-    -   http://www.contoso.com: /&#42;
+  - http://www.contoso.com: /&#42;
 
 ### <a name="how-conflicts-between-the-allow-and-block-list-are-resolved"></a>Разрешение конфликтов между списками разрешений и блокировок
 Если на устройстве развернуто несколько политик управляемого браузера и их параметры конфликтуют между собой, производится оценка конфликта как по режимам (разрешение или блокировка), так и по спискам URL-адресов. В случае конфликта применяются следующие правила:

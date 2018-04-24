@@ -1,28 +1,28 @@
 ---
-title: "Использование политик для упрощения управления компьютерами Windows"
-description: "Описание политик управления компьютерами Windows и параметров для Центра Microsoft Intune."
-keywords: 
+title: Использование политик для упрощения управления компьютерами Windows
+description: Описание политик управления компьютерами Windows и параметров для Центра Microsoft Intune.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f0afda7e-f4c3-4bcd-b4bf-4304103cf73e
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: dc32063a952b198e830f061e0d8d3c0598a631d8
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 519d6d3c9bef29bb7990fd8e0df28bb15e5c48e7
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-policies-to-simplify-windows-pc-management"></a>Использование политик для упрощения управления компьютерами Windows
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Для управления настольными системами Windows как компьютерами путем запуска на них программного клиента Intune можно использовать только политики из группы **Управление компьютером** в консоли администрирования Intune. Все другие политики, указанные в консоли администрирования, предназначены только для мобильных устройств. С помощью политик **Управление компьютером** можно настроить параметры в Microsoft Intune Center, управлять обновлениями ПК и настроить брандмауэр Windows для ПК.
 

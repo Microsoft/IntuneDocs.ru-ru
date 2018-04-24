@@ -1,29 +1,29 @@
 ---
-title: "Добавление политик конфигурации приложений для управляемых устройств iOS"
+title: Добавление политик конфигурации приложений для управляемых устройств iOS
 titlesuffix: Microsoft Intune
-description: "Узнайте о том, как предоставлять данные конфигурации при работе с приложением iOS, используя политики конфигурации приложений."
-keywords: 
+description: Узнайте о том, как предоставлять данные конфигурации при работе с приложением iOS, используя политики конфигурации приложений.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/30/2018
+ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bdaec3150062dce5da5566fa9534425e11f3cdec
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 0b71b52ffa58f847fc0efcd2924fd04a7a16a099
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>Добавление политик конфигурации приложений для управляемых устройств iOS
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Используйте политики конфигурации приложений в Microsoft Intune для назначения параметров, когда пользователи запускают приложения iOS. Эти политики не назначаются непосредственно пользователям и устройствам. Они связываются с приложением, которое впоследствии назначается. Параметры политики используются каждый раз, когда приложение проверяет их значения (как правило, при первом запуске).
 
