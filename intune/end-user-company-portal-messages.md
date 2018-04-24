@@ -1,28 +1,28 @@
 ---
-title: "Сообщения корпоративного портала, отображаемые пользователям на устройствах"
+title: Сообщения корпоративного портала, отображаемые пользователям на устройствах
 titlesuffix: Microsoft Intune
-description: "Сведения о различных сообщениях, которые конечные пользователи могут видеть на корпоративном портале."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+description: Сведения о различных сообщениях, которые конечные пользователи могут видеть на корпоративном портале.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 03/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: aanavath
 ms.suite: ems
-ms.openlocfilehash: e78d43cf1cb96575ebc8d8143b7b4fc1103a9bd1
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 3ed729e437fcdbc4352bf5fa8ceada4ddf336708
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>Пояснения к сообщениям в приложении корпоративного портала
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 > [!NOTE]
 > Приведенные ниже сведения относятся только к устройствам с более поздней версией Android, чем 6.0.

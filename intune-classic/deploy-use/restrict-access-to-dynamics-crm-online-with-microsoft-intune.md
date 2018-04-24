@@ -1,29 +1,29 @@
 ---
-title: "Защита Dynamics CRM Online"
-description: "Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа."
-keywords: 
+title: Защита Dynamics CRM Online
+description: Защита и контроль доступа к Dynamics CRM Online с помощью условного доступа.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f1c4522b-5a34-4f5a-89d2-7809c4352af7
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bae29ed7eba164ce19ea5db7d003ab38b4683454
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e2f720c8a6613884397111c2a421fa1cfdc0eb53
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-access-to-dynamics-crm-online-with-intune"></a>Защита доступа к Dynamics CRM Online при помощи Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Доступом к Microsoft Dynamics CRM Online можно управлять с устройств с iOS и Android с помощью условного доступа Microsoft Intune.  Условный доступ Intune включает два компонента:
 * [Политика соответствия устройств](introduction-to-device-compliance-policies-in-microsoft-intune.md), которой устройства должны удовлетворять, чтобы считаться соответствующими.
@@ -73,17 +73,17 @@ ms.lasthandoff: 10/10/2017
 ### <a name="step-3-configure-the-dynamics-crm-policy"></a>Шаг 3. Настройка политики Dynamics CRM
 Далее настройте в политике требование, разрешающее доступ к Dynamics CRM только для управляемых и соответствующих политикам устройств. Эта политика будет храниться в Azure Active Directory.
 
-1.  В консоли администрирования Intune последовательно выберите пункты **Политика > Условный доступ > Политика Dynamics CRM Online**.
+1. В консоли администрирования Intune последовательно выберите пункты **Политика > Условный доступ > Политика Dynamics CRM Online**.
 
-  ![Снимок экрана со страницей политики условного доступа Dynamics CRM Online](../media/mdm-ca-dynamics-crm-policy-configuration.png)
+   ![Снимок экрана со страницей политики условного доступа Dynamics CRM Online](../media/mdm-ca-dynamics-crm-policy-configuration.png)
 
-2.  Выберите политику **Включить условный доступ**.
-3.  В разделе **Доступ приложения**  можно выбрать область применения политики условного доступа:
-  * **iOS**
-  * **Android**
-4.  В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.
-5.  Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
-6.  По завершении нажмите кнопку **Сохранить**.
+2. Выберите политику **Включить условный доступ**.
+3. В разделе **Доступ приложения**  можно выбрать область применения политики условного доступа:
+   * **iOS**
+   * **Android**
+4. В разделе **Целевые группы** нажмите кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, к которым будет применена политика. В качестве целевой аудитории можно выбрать всех пользователей или отдельные группы пользователей.
+5. Дополнительно в разделе **Исключенные группы** можно нажать кнопку **Изменить**, чтобы выбрать группы безопасности Azure Active Directory, которые будут исключены из этой политики.
+6. По завершении нажмите кнопку **Сохранить**.
 
 Настройка условного доступа для Dynamics CRM выполнена. Развертывать политику условного доступа не нужно; она вступает в силу немедленно.
 ##  <a name="monitor-the-compliance-and-conditional-access-policies"></a>Мониторинг соответствия и политик условного доступа
@@ -95,7 +95,7 @@ ms.lasthandoff: 10/10/2017
 * **Устройства, не соответствующие условиям**. Эти устройства заблокированы в Dynamics CRM.
 * **Устройства, соответствующие условиям и зарегистрированные в AAD**. Эти устройства могут получать доступ к Dynamics CRM.
 
-##  <a name="next-steps"></a>Дальнейшие действия
+##  <a name="next-steps"></a>Дальнейшие шаги
 * [Защита доступа к Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
 
 * [Защита доступа к локальной организации Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)

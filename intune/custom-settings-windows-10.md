@@ -13,15 +13,15 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4bb86d0f80a4d337e0ab63ae7f90d6c3541462d9
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: c8e0d56c91b710a86949844d2fd455e4183488f5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-custom-device-settings-for-devices-running-windows-10"></a>Пользовательские параметры Microsoft Intune для устройств под управлением Windows 10
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
  Используйте **настраиваемый** профиль Microsoft Intune для Windows 10 и Windows 10 Mobile, чтобы развернуть параметры OMA-URI (универсальный код ресурса Open Mobile Alliance), с помощью которых можно управлять функциями устройств. В ОС Windows 10 становятся доступными многие параметры поставщика службы конфигурации CSP, например [поставщика службы конфигурации политики](https://technet.microsoft.com/itpro/windows/manage/how-it-pros-can-use-configuration-service-providers).
 Если вам нужен какой-то конкретный параметр, не забывайте, что [профиль ограничения устройств с Windows 10](device-restrictions-windows-10.md) содержит множество параметров, которые встроены в Intune и не требуют указания пользовательских значений.
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 1. Для каждого добавляемого параметра OMA-URI введите указанные ниже сведения. Сведения о параметрах, которые можно использовать, см. в списке ниже.
     - **Имя.** Введите уникальное имя для параметра OMA-URI, чтобы его было проще найти в списке параметров.
     - **Описание** — введите необязательное описание параметра.
-    - **OMA-URI (с учетом регистра)** — задайте OMA-URI, для которого необходимо указать параметр.
+    - **OMA-URI (с учетом регистра)**  — задайте OMA-URI, для которого необходимо указать параметр.
     - **Тип данных** — выберите одно из значений:
         - **Строка**
         - **Строка (XML)**

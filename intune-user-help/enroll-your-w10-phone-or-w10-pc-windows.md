@@ -1,27 +1,27 @@
 ---
-title: "Регистрация устройства с Windows 10 в Intune | Документы Майкрософт"
-description: "Описывается, как зарегистрировать мобильное или настольное устройство с Windows 10 в Intune."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Регистрация устройства с Windows 10 в Intune | Документы Майкрософт
+description: Описывается, как зарегистрировать мобильное или настольное устройство с Windows 10 в Intune.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 36250832-c6fd-4e8d-b681-de735023ebc3
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f3debd0177df0aa0bdf5cb3cea8bf18054407b87
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 22d23751aaa3416fb13c7b08451ea91c3ee308e2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-windows-10-devices-in-intune"></a>Регистрация устройств Windows 10 в Intune
 
@@ -35,13 +35,13 @@ ms.lasthandoff: 01/25/2018
 
 2. Введите фразу "о компьютере" в __строку поиска__, а затем выберите __О компьютере__.
 
- ![параметры поиска для сведений о ПК](media/searching_for_about_your_pc.png)
+   ![параметры поиска для сведений о ПК](media/searching_for_about_your_pc.png)
 
-3.  В области __Параметры__ появится список сведений о версии Windows 10, установленной на ПК. В этом списке найдите пункт __Версия__.
+3. В области __Параметры__ появится список сведений о версии Windows 10, установленной на ПК. В этом списке найдите пункт __Версия__.
 
- ![Сведения о ПК в ОС Windows 10 Desktop](media/settings_about_pc.png)
+   ![Сведения о ПК в ОС Windows 10 Desktop](media/settings_about_pc.png)
 
-4.  Если ваша версия — __1607 или выше__, выполните [следующие действия](enroll-your-w10-device-access-work-or-school.md). Если ваша версия — __1511 или ниже__, продолжать следует [эти шаги](enroll-your-w10-device-your-account.md).
+4. Если ваша версия — __1607 или выше__, выполните [следующие действия](enroll-your-w10-device-access-work-or-school.md). Если ваша версия — __1511 или ниже__, продолжать следует [эти шаги](enroll-your-w10-device-your-account.md).
 
 ## <a name="windows-10-mobile-devices"></a>Устройства Windows 10 Mobile        
 

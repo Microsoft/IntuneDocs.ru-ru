@@ -1,24 +1,24 @@
 ---
-title: "Основные сведения об Intune для образовательных учреждений"
-description: "Сведения об отличии возможностей управления в Intune для образовательных учреждений и полной версии Intune."
-keywords: "что такое Intune"
-author: barlanmsft
-ms.author: barlan
+title: Основные сведения об Intune для образовательных учреждений
+description: Сведения об отличии возможностей управления в Intune для образовательных учреждений и полной версии Intune.
+keywords: что такое Intune
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 12/21/2017
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ca36589b-804d-40b8-b112-9195d8897800
 ms.reviewer: travisj
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f98e9cd82508f4b41d62a61baf06c9add2c3626e
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 30195ee56e99754f5ed385291823adef08d6ce01
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="how-is-intune-for-education-different-from-the-full-device-management-experience-in-intune"></a>Чем возможности Intune для образовательных учреждений отличаются от возможностей полной версии Intune для управления устройствами?
 
@@ -39,6 +39,6 @@ Intune для образовательных учреждений позволя
 * обеспечить соответствие устройств и приложений требованиям к безопасности.
 
 ### <a name="next-steps"></a>Дальнейшие шаги
-* Ознакомьтесь с продуктом, воспользовавшись [90-дневной пробной версией Intune](https://signup.microsoft.com/Signup?OfferId=5eec053c-cc40-4cd5-a06a-ea8d75cf2686&ali=1). Если у вас уже есть доступ, перейдите на сайт (https://intuneeducation.portal.azure.com), чтобы приступить к работе.
+* Ознакомьтесь с продуктом, воспользовавшись [90-дневной пробной версией Intune](https://signup.microsoft.com/Signup?OfferId=5eec053c-cc40-4cd5-a06a-ea8d75cf2686&ali=1). Если у вас уже есть доступ, перейдите на страницу по адресу https://intuneeducation.portal.azure.com), чтобы приступить к работе.
 * Узнайте о том, как быстрее всего [приступить к работе с Intune для образовательных учреждений](/intune-education/what-is-express-configuration).
 * Узнайте о [технических требованиях и возможностях](/intune/supported-devices-browsers) Intune.

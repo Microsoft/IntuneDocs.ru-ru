@@ -1,27 +1,27 @@
 ---
-title: "Вам необходимо идентифицировать устройство iOS при попытке его зарегистрировать | Документы Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Вам необходимо идентифицировать устройство iOS при попытке его зарегистрировать | Документы Майкрософт
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 12/06/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8e40f228-cf04-4077-845f-300fbc3baee6
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0e8877769c110735d5d57069640c2cadb4823384
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 6c4e89524047b99b9c9eb3f0e65fe482a8ae85a2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="you-need-to-identify-your-device-when-youre-trying-to-enroll"></a>Вам необходимо идентифицировать устройство при попытке его зарегистрировать
 

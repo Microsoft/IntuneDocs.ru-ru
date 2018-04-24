@@ -15,17 +15,17 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 971600d59a6afe019f5f3bd51459964c168afa82
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: da4197a41798f4e47ff35d2dfab36c5317f92e21
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-skycure-mobile-threat-defense-in-intune"></a>Включение службы защиты мобильных устройств от угроз Skycure в Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
-Чтобы включить функцию защиты мобильных устройств от угроз Skycure, требуется предварительно настроенный [соединитель Intune в консоли Skycure] (/intune-classic/deploy-use/setup-the-skycure-integration-with-Intune).
+Чтобы включить защиту мобильных устройств от угроз Skycure, требуется ранее настроенный [в консоли Skycure соединитель Intune Connector](/intune-classic/deploy-use/setup-the-skycure-integration-with-Intune).
 
 ## <a name="to-enable-the-skycure-mtd-connection-in-intune"></a>Включение подключения Skycure в Intune
 

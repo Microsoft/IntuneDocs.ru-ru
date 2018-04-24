@@ -1,29 +1,29 @@
 ---
-title: "Защита приложений и данных"
-description: "В этом разделе рассматриваются различные функции и возможности Intune, предназначенные для защиты корпоративных приложений и данных."
-keywords: 
+title: Защита приложений и данных
+description: В этом разделе рассматриваются различные функции и возможности Intune, предназначенные для защиты корпоративных приложений и данных.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 12/19/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5c46e188-87eb-4ce2-b184-24809e8bf783
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 59168615548d3c7da8dc284476227ed0f01ceffe
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 2a05444c757b8e99ca0b897acfcd6238d960aeb2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-apps-and-data-with-microsoft-intune"></a>Защита приложений и данных с помощью Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Intune защищает данные организации посредством нескольких технологических уровней. На уровне удостоверений условный доступ защищает доступ к службам, разрешая его только управляемым и соответствующим устройствам. На уровне клиентских приложений управление мобильными приложениями (MAM) защищает от потери данных, предотвращая перемещение данных в незащищенные приложения или места хранения, а также очищая данные с устройств при их утере или краже. Эти два уровня защиты рекомендуется использовать совместно, чтобы защитить данные без снижения производительности труда мобильных работников.
 

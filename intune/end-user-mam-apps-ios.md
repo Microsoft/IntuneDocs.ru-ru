@@ -1,28 +1,28 @@
 ---
-title: "Приложения iOS с политиками защиты приложений"
-description: "В этой статье описывается, что происходит при управлении приложением iOS с помощью политик защиты приложений."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Приложения iOS с политиками защиты приложений
+description: В этой статье описывается, что происходит при управлении приложением iOS с помощью политик защиты приложений.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 02/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b57e6525-b57c-4cb4-a84c-9f70ba1e8e19
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0a9d17f8066ddd16c06322cf9cc64457daff87f1
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: 955120228289da3bac7cf013955effeee0cd7579
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>Что происходит при управлении приложением iOS с помощью политик защиты приложений
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
  В этой статье описывается работа пользователей с приложениями, к которым применены политики защиты приложений. Политики защиты приложений применяются, только если приложения используются в рабочем контексте, например, когда пользователь получает доступ к приложениям с помощью рабочей учетной записи или обращается к файлам, которые хранятся в корпоративном хранилище OneDrive для бизнеса.
 

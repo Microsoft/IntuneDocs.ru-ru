@@ -1,27 +1,27 @@
 ---
-title: "Параметры электронной почты для устройств iOS в Microsoft Intune"
-titleSuffix: 
-description: "Узнайте, какие параметры Microsoft Intune можно использовать для настройки параметров электронной почты на устройствах iOS."
-keywords: 
+title: Параметры электронной почты для устройств iOS в Microsoft Intune
+titleSuffix: ''
+description: Узнайте, какие параметры Microsoft Intune можно использовать для настройки параметров электронной почты на устройствах iOS.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/2/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1634512c85c156046d0324953463d745be06d649
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: d7b050e94114b0d3c9dcec765f4dd6e7700a801f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="email-profile-settings-in-microsoft-intune-for-devices-running-ios"></a>Параметры профиля электронной почты в Microsoft Intune для устройств iOS 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В этой статье показано, какие параметры профиля электронной почты вы можете настроить для устройств iOS.
 

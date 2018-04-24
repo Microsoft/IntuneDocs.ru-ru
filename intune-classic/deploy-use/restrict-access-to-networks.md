@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e455f291d9bfdb655f6c66cad7bf859a864e756d
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 1893410f4993d6feaa218d251dd7e2561286f5a3
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-cisco-ise-with-microsoft-intune"></a>Использование Cisco ISE с Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Интеграция Intune с Cisco Identity Services Engine (ISE) позволяет создавать политики сети в среде ISE с помощью регистрации устройств и состояния соответствия Intune. Эти политики позволяют гарантировать, что доступ к сети организации будут иметь только устройства, управляемые Intune и соответствующие политикам Intune.
 
@@ -70,13 +70,13 @@ b. Щелкните значок замка &gt; **Дополнительные 
 
 ### <a name="obtain-a-self-signed-cert-from-ise"></a>Получите самозаверяющий сертификат в системе ISE. 
 
-1.  В консоли ISE последовательно выберите **Администрирование** > **Сертификаты** > **Сертификаты системы** > **Создать самозаверяющий сертификат**.  
-2.       Экспортируйте самозаверяющий сертификат.
+1. В консоли ISE последовательно выберите **Администрирование** > **Сертификаты** > **Сертификаты системы** > **Создать самозаверяющий сертификат**.  
+2. Экспортируйте самозаверяющий сертификат.
 3. В текстовом редакторе отредактируйте экспортированный сертификат.
 
- - Удалите строку **-----BEGIN CERTIFICATE-----**
- - Удалите строку **-----END CERTIFICATE-----**
- 
+   - Удалите строку **-----BEGIN CERTIFICATE-----**
+   - Удалите строку **-----END CERTIFICATE-----**
+
 Убедитесь, что весь текст представляет собой одну строку.
 
 
@@ -88,13 +88,13 @@ b. Щелкните значок замка &gt; **Дополнительные 
 5. Сохраните файл, не меняя его названия.
 6. Предоставьте своему приложению разрешения на доступ к API-интерфейсу Microsoft Graph и Microsoft Intune.
 
- a. Для Microsoft Graph выберите следующие параметры.
+   a. Для Microsoft Graph выберите следующие параметры.
     - **Разрешения приложения**: чтение данных каталога.
     - **Делегированные разрешения**:
         - доступ к данным пользователя в любое время.
         - Вход пользователей
 
- b. Для API-интерфейса Microsoft Intune в меню **Разрешения приложения** выберите **Получить состояние устройства и соответствия из Intune**.
+   b. Для API-интерфейса Microsoft Intune в меню **Разрешения приложения** выберите **Получить состояние устройства и соответствия из Intune**.
 
 7. Выберите **Просмотр конечных точек** и скопируйте следующие значения для использования при настройке параметров ISE:
 
@@ -105,23 +105,40 @@ b. Щелкните значок замка &gt; **Дополнительные 
 |Добавьте в ваш код ИД клиента|Идентификатор клиента|
 
 ### <a name="step-4-upload-the-self-signed-certificate-from-ise-into-the-ise-app-you-created-in-azure-ad"></a>Шаг 4. Отправка самозаверяющего сертификата из среды в ISE в приложение ISE, созданное в Azure AD
-1.     Получите отпечаток и значение сертификата в кодировке base64 из CER-файла открытого сертификата X.509. В этом примере используется PowerShell.
-   
-      
-      $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2    $cer.Import("mycer.cer")    $bin = $cer.GetRawCertData()    $base64Value = [System.Convert]::ToBase64String($bin)    $bin = $cer.GetCertHash()    $base64Thumbprint = [System.Convert]::ToBase64String($bin)    $keyid = [System.Guid]::NewGuid().ToString()
- 
-    Сохраните значения $base64Thumbprint, $base64Value и $keyid для использования в следующем шаге.
-2.       Отправьте сертификат с помощью файла манифеста. Войдите на [портал управления Azure](https://manage.windowsazure.com).
-2.      В оснастке Azure AD найдите приложение, которое вы хотите настроить с помощью сертификата X.509.
-3.      Скачайте файл манифеста приложения. 
-5.      Замените пустое свойство KeyCredentials: [] следующим кодом JSON.  Сложный тип KeyCredentials описан в [справочнике по сущностям и сложным типам](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType).
+1. Получите отпечаток и значение сертификата в кодировке base64 из CER-файла открытого сертификата X.509. В этом примере используется PowerShell.
 
- 
-    "keyCredentials": [ { "customKeyIdentifier": "$base64Thumbprint_from_above", "keyId": "$keyid_from_above", "type": "AsymmetricX509Cert", "usage": "Verify", "value": "$base64Value_from_above" }2. 
-     ], 
- 
+
+~~~
+  $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
+  $cer.Import(“mycer.cer”)
+  $bin = $cer.GetRawCertData()
+  $base64Value = [System.Convert]::ToBase64String($bin)
+  $bin = $cer.GetCertHash()
+  $base64Thumbprint = [System.Convert]::ToBase64String($bin)
+  $keyid = [System.Guid]::NewGuid().ToString()
+
+Store the values for $base64Thumbprint, $base64Value and $keyid, to be used in the next step.
+~~~
+2. Отправьте сертификат с помощью файла манифеста. Войдите на [портал управления Azure](https://manage.windowsazure.com).
+3. В оснастке Azure AD найдите приложение, которое вы хотите настроить с помощью сертификата X.509.
+4. Скачайте файл манифеста приложения. 
+5. Замените пустое свойство KeyCredentials: [] следующим кодом JSON.  Сложный тип KeyCredentials описан в [справочнике по сущностям и сложным типам](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType).
+
+
+~~~
+“keyCredentials“: [
+{
+ “customKeyIdentifier“: “$base64Thumbprint_from_above”,
+ “keyId“: “$keyid_from_above“,
+ “type”: “AsymmetricX509Cert”,
+ “usage”: “Verify”,
+ “value”:  “$base64Value_from_above”
+ }2. 
+ ], 
+~~~
+
 Пример.
- 
+
     “keyCredentials“: [
     {
     “customKeyIdentifier“: “ieF43L8nkyw/PEHjWvj+PkWebXk=”,
@@ -131,10 +148,10 @@ b. Щелкните значок замка &gt; **Дополнительные 
     “value”: “MIICWjCCAgSgAwIBA***omitted for brevity***qoD4dmgJqZmXDfFyQ”
     }
     ],
- 
-6.      Сохраните изменения в файле манифеста приложения.
-7.      Отправьте измененный файл манифеста приложения через портал управления Azure.
-8.      (Необязательно) Снова скачайте манифест, чтобы убедиться в наличии сертификата X.509 в приложении.
+
+6. Сохраните изменения в файле манифеста приложения.
+7. Отправьте измененный файл манифеста приложения через портал управления Azure.
+8. (Необязательно) Снова скачайте манифест, чтобы убедиться в наличии сертификата X.509 в приложении.
 
 >[!NOTE]
 >

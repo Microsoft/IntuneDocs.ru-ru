@@ -1,26 +1,26 @@
 ---
-title: "Решение распространенных проблем с устройствами с Android | Документы Майкрософт"
-description: "Узнайте, как решить распространенные проблемы с вашим устройством с Android."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Решение распространенных проблем с устройствами с Android | Документы Майкрософт
+description: Узнайте, как решить распространенные проблемы с вашим устройством с Android.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f720befe-a6f9-4422-aa9b-4d85c9fc94e2
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: e01df691b9900a0f91f9a845e21bffa0d7a914f1
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: eb20e5c4099d51fd5afb0fbb6700fc33da53557a
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="fix-common-issues-with-your-android-device"></a>Решение распространенных проблем с устройствами с Android
 

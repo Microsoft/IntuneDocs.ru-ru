@@ -1,28 +1,28 @@
 ---
-title: "Настройка управления устройствами Windows с помощью Microsoft Intune"
-description: "Включение управления мобильными устройствами (MDM) для устройств Windows с помощью Microsoft Intune"
-keywords: 
+title: Настройка управления устройствами Windows с помощью Microsoft Intune
+description: Включение управления мобильными устройствами (MDM) для устройств Windows с помощью Microsoft Intune
+keywords: ''
 author: NathBarn
 manager: angrobe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9a18c0fe-9f03-4e84-a4d0-b63821bf5d25
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 44559572a048a0ad8e79d6fdac837f0c71a42646
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: fb2d724cc87ffdc506eda8d5ea2330ab9aacd3e9
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-windows-device-management"></a>Настройка управления устройствами Windows
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Этот раздел поможет ИТ-администраторам упростить регистрацию Windows для пользователей организации.  Устройства Windows можно регистрировать без выполнения дополнительных действий, но вы можете упростить регистрацию для пользователей.
 
@@ -35,15 +35,15 @@ ms.lasthandoff: 10/10/2017
 |**Windows 10**|[Автоматическая регистрация](#enable-windows-10-automatic-enrollment) |[Регистрация пользователей](#enable-windows-enrollment-without-automatic-enrollment)|
 |**Более ранние версии Windows**|[Регистрация пользователей](#enable-windows-enrollment-without-automatic-enrollment)|[Регистрация пользователей](#enable-windows-enrollment-without-automatic-enrollment)|
 
-[!INCLUDE[AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
+[!INCLUDE [AAD-enrollment](../includes/win10-automatic-enrollment-aad.md)]
 
 ## <a name="enable-windows-enrollment-without-automatic-enrollment"></a>Включение регистрации Windows без автоматической регистрации
-Вы можете разрешить пользователям регистрировать свои устройства без автоматической регистрации в Azure AD Premium. После назначения лицензий пользователи могут регистрироваться после добавления их рабочей учетной записи на личные устройства или после присоединения их корпоративных устройств к Azure AD. Создание DNS-псевдонима (типа записи CNAME) упрощает регистрацию устройств пользователями. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера Intune.
+Можно разрешить пользователям регистрировать свои устройства без автоматической регистрации в Azure AD Premium. После назначения лицензий пользователи могут регистрироваться после добавления их рабочей учетной записи на личные устройства или после присоединения их корпоративных устройств к Azure AD. Создание DNS-псевдонима (типа записи CNAME) упрощает регистрацию устройств пользователями. Если вы создаете записи ресурсов DNS CNAME, пользователи подключаются к Intune и выполняют регистрацию без ввода имени сервера Intune.
 
 **Шаг 1. Создание записи CNAME** (необязательно)<br>
 Создайте запись ресурсов CNAME DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.
 
-Несмотря на то, что создавать записи CNAME в DNS не обязательно, записи CNAME позволяют упростить регистрацию для пользователей. При отсутствии регистрационной записи CNAME пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.com.
+Несмотря на то, что создавать записи CNAME в DNS не обязательно, записи CNAME позволяют упростить регистрацию для пользователей. Если запись CNAME для регистрации не обнаружена, пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.com.
 
 Если имеется несколько проверенных доменов, создайте запись CNAME для каждого из них. Записи ресурсов CNAME должны содержать следующие сведения:
 
@@ -69,5 +69,5 @@ ms.lasthandoff: 10/10/2017
 
 Дополнительные сведения о задачах пользователей см. в разделе [Ресурсы по пользовательскому интерфейсу Microsoft Intune](/intune/end-user-educate).
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Предварительные требования для регистрации устройств в Microsoft Intune](prerequisites-for-enrollment.md)

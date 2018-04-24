@@ -1,27 +1,27 @@
 ---
-title: "Регистрация устройства macOS в Intune с помощью корпоративного портала | Microsoft Docs"
-description: "Сведения о регистрации устройств macOS в Intune с помощью приложения корпоративного портала."
+title: Регистрация устройства macOS в Intune с помощью корпоративного портала | Microsoft Docs
+description: Сведения о регистрации устройств macOS в Intune с помощью приложения корпоративного портала.
 keywords: Mac OS X, Mac OS, OS X
-author: barlanmsft
-ms.author: barlan
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
-ms.date: 11/06/2017
+ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 3bb659cc-9b57-4d19-8631-2c26749fa71c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4f01a5aa9567ea914da2c36756e8c3f12f55c58d
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: e3990c0670516de907ac048b844152014db5be57
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>Регистрация устройства macOS в Intune с помощью приложения корпоративного портала
 
@@ -30,11 +30,12 @@ ms.lasthandoff: 01/30/2018
 > [!NOTE]
 > Инструкции по регистрации устройств с более старыми версиями macOS можно найти [здесь](enroll-your-device-in-intune-macos-legacy.md).
 
-1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com#HelpDeskDialog).
+1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com).
 
 2. Войдите на корпоративный портал, используя рабочую или учебную учетную запись.
 
-  [!INCLUDE[wit_nextref](includes/end-user-password-guidance.md)]
+   [!INCLUDE [wit_nextref](includes/end-user-password-guidance.md)]
+
 
 3. После входа нажмите кнопку **Меню** в левом верхнем углу страницы и выберите пункт **Мои устройства**.
 
@@ -54,8 +55,8 @@ ms.lasthandoff: 01/30/2018
 
 8. На экран компьютера Mac будет выведено сообщение **"CompanyPortal" — это приложение, загруженное из Интернета. Вы действительно хотите открыть его?** Щелкните **Открыть**.
 
-  > [!NOTE]
-  > Службе Intune нужно предоставить доступ к вашему компьютеру. Это позволит ей убедиться, что устройство является достаточно надежным для доступа к ресурсам организации. Если компьютер отказывается открыть приложение корпоративного портала, попробуйте [отключить привратник](https://support.apple.com/HT202491), а затем откройте приложение.
+   > [!NOTE]
+   > Службе Intune нужно предоставить доступ к вашему компьютеру. Это позволит ей убедиться, что устройство является достаточно надежным для доступа к ресурсам организации. Если компьютер отказывается открыть приложение корпоративного портала, попробуйте [отключить привратник](https://support.apple.com/HT202491), а затем откройте приложение.
 
 9. На первом экране приложения корпоративного портала вам будет предложено выполнить **вход** с той же рабочей учетной записью, которую вы используете для входа на веб-сайт корпоративного портала.
 

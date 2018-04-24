@@ -1,27 +1,27 @@
 ---
-title: "Отправка журналов в службу поддержки вашей компании по USB-кабелю | Документы Майкрософт"
-description: "Отправка данных журналов по USB-кабелю"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Отправка журналов в службу поддержки вашей компании по USB-кабелю | Документы Майкрософт
+description: Отправка данных журналов по USB-кабелю
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c46775c2-9d2a-4a88-89f0-4104a462b898
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9fd4ce3548a16837e3f68c81ae08a1e22541e62b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a12e0103f9eae08003d8cca6a5eb4699ced27a27
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="send-logs-to-your-company-support-using-a-usb-cable"></a>Отправка журналов в службу поддержки вашей компании по USB-кабелю
 
@@ -30,12 +30,12 @@ ms.lasthandoff: 01/25/2018
 > [!Note]
 > Прежде чем начать, убедитесь в том, что у вас есть адрес электронной почты службы поддержки вашей компании. Обычно он указан на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog) или в приложении корпоративного портала.
 
-1.  На экране сообщения об ошибке коснитесь **Отправить сведения**. Когда появится сообщение, в котором запрашивается метод для отправки журналов, выберите сохранение файлов на устройстве.
+1. На экране сообщения об ошибке коснитесь **Отправить сведения**. Когда появится сообщение, в котором запрашивается метод для отправки журналов, выберите сохранение файлов на устройстве.
 
-2.  Подключите устройство к компьютеру с помощью USB-кабеля. Обычно это тот же кабель, который используется для зарядки устройства от розетки.
+2. Подключите устройство к компьютеру с помощью USB-кабеля. Обычно это тот же кабель, который используется для зарядки устройства от розетки.
 
-3.  На компьютере найдите каталог с именем вашего устройства. Перейдите к папке **Android Device\Phone\Android\data\com.microsoft.windowsintune.companyportal\files\**.
+3. На компьютере найдите каталог с именем вашего устройства. В каталоге перейдите к папке <strong>Android Device\Phone\Android\data\com.microsoft.windowsintune.companyportal\files\</strong>.
 
-4.  Выберите файлы и вложите их в сообщение электронной почты. Отправьте это сообщение в службу поддержки вашей компании по электронной почте.
+4. Выберите файлы и вложите их в сообщение электронной почты. Отправьте это сообщение в службу поддержки вашей компании по электронной почте.
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).

@@ -1,27 +1,27 @@
 ---
-title: "На устройстве отсутствует необходимый сертификат | Документация Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: На устройстве отсутствует необходимый сертификат | Документация Майкрософт
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 03/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 9081b1d8-50e8-4bc2-ba37-766421364213
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 7c454584df4f0eb6b3a9dfe10ee7b887bcdee2ca
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: c61a4807e55c3af5038c67c05157b9ad14002347
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="your-device-is-missing-a-required-certificate"></a>Устройство не имеет необходимого сертификата
 

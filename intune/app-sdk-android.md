@@ -14,11 +14,11 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 0eafbe9c57051b62f6ed53a3930705eabf5aebd0
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: e3f8dd2e63702a7eff3b1808628a25df9618da1f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -278,7 +278,6 @@ boolean diagnosticIsFileEncryptionInUse();
 String toString();
 
 }
-
 ```
 
 > [!NOTE]
@@ -399,7 +398,6 @@ public interface MAMNotificationReceiver {
      */
     boolean onReceive(MAMNotification notification);
 }
-
 ```
 
 ### <a name="types-of-notifications"></a>Типы уведомлений
@@ -526,7 +524,6 @@ public interface MAMNotificationReceiver {
 MAMEnrollmentManager mgr = MAMComponents.get(MAMEnrollmentManager.class);
 
 // make use of mgr
-
 ```
 
 Возвращаемый экземпляр `MAMEnrollmentManager` гарантированно не будет иметь нулевое значение. Методы API можно разделить на две категории: **аутентификация** и **регистрация учетной записи**.
@@ -654,7 +651,6 @@ Result getRegisteredAccountStatus(String upn);
 public interface MAMEnrollmentNotification extends MAMUserNotification {
     MAMEnrollmentManager.Result getEnrollmentResult();
 }
-
 ```
 
 Метод `getEnrollmentResult()` возвращает результат запроса на регистрацию.  Так как `MAMEnrollmentNotification` расширяет `MAMUserNotification`, также будет доступно удостоверение пользователя, для которого выполнена попытка регистрации. Приложение должно реализовать интерфейс `MAMNotificationReceiver` для получения этих уведомлений. Дополнительные сведения см. в разделе [Регистрация для получения уведомлений из пакета SDK](#Register-for-notifications-from-the-SDK).
@@ -677,7 +673,7 @@ Intune позволяет использовать все [функции авт
 1. Если приложение **не** использует собственный агент BackupAgent, разрешите полное автоматическое резервное копирование, соответствующее политике Intune, с помощью MAMBackupAgent по умолчанию. После этого можно игнорировать атрибут манифеста `android:fullBackupOnly`, так как он не применим для нашего агента резервного копирования. В манифесте приложения должно быть следующее:
 
     ```xml
-android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
+   android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackupAgent"
     ```
 
 
@@ -828,7 +824,6 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
   public static AppPolicy getPolicyForIdentity(final String identity);
 
   public static boolean getIsIdentityManaged(final String identity);
-
   ```
 
 >[!NOTE]
@@ -924,9 +919,9 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
 
 Метод `onMAMIdentitySwitchRequired` вызывается для всех неявных изменений удостоверения, кроме связанных с возвратом средства привязки из `MAMService.onMAMBind`. Стандартные реализации `onMAMIdentitySwitchRequired` вызываются сразу же:
 
-*  `reportIdentitySwitchResult(FAILURE)`, если причина — значение RESUME_CANCELLED.
+* `reportIdentitySwitchResult(FAILURE)`, если причина — значение RESUME_CANCELLED.
 
-*  `reportIdentitySwitchResult(SUCCESS)` — во всех остальных случаях.
+* `reportIdentitySwitchResult(SUCCESS)` — во всех остальных случаях.
 
   Предполагается, что большинству приложений не требуется блокировать или откладывать переключение удостоверений каким-либо другим образом. Но если это не так, следует принимать во внимание следующие моменты:
 
@@ -956,7 +951,7 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
     protected Object doInBackgroundMAM(final Object[] params) {
         // Do operations.
     }
-    
+
     @Override
     protected void onPreExecuteMAM() {
         // Do setup.
@@ -990,7 +985,7 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
          *             If the file cannot be changed.
          */
         public static void protect(final File file, final String identity) throws IOException;
-        
+
         /**
         * Protect a file obtained from a content provider. This is intended to be used for
         * sdcard (whether internal or removable) files accessed through the Storage Access Framework.
@@ -1032,7 +1027,6 @@ android:backupAgent="com.microsoft.intune.mam.client.app.backup.MAMDefaultBackup
     public interface MAMFileProtectionInfo {
         String getIdentity();
     }
-
   ```
 #### <a name="app-responsibility"></a>Ответственность приложения
 MAM не может автоматически определить связь между читаемыми файлами и отображаемыми данными в `Activity`. Приложения *обязаны* должным образом задать удостоверение пользовательского интерфейса, прежде чем отображать корпоративные данные. Это относится и к данным, прочитанным из файлов. Если файл получен извне приложения (из `ContentProvider` или прочитан из общего доступного для записи расположения), приложение *обязано* попытаться определить удостоверение файла (с использованием `MAMFileProtectionManager.getProtectionInfo`), прежде чем отображать прочитанные из файла сведения. Если `getProtectionInfo` сообщает о ненулевом и непустом удостоверении, удостоверение пользовательского интерфейса *обязано* быть назначено таким же (с использованием `MAMActivity.switchMAMIdentity` или `MAMPolicyManager.setUIPolicyIdentity`). Если замена удостоверения не сработает, данные из файла *не должны* отображаться.
@@ -1157,7 +1151,6 @@ public final class MAMDataProtectionManager {
      */
     public static MAMDataProtectionInfo getProtectionInfo(final byte[] input) throws IOException;
 }
-
 ```
 
 ### <a name="content-providers"></a>Поставщики содержимого
@@ -1339,7 +1332,6 @@ public interface MAMAppConfig {
         name="logo_image"
         resource="@drawable/app_logo"/>
 </styleOverrides>
-
 ```
 
 Необходимо повторно использовать уже существующие в приложении ресурсы. Например, вам нужно определить зеленый цвет в файле colors.xml, сославшись на него здесь. Нельзя использовать шестнадцатеричный код цвета #0000ff. Максимальный размер эмблемы приложения составляет 110 DIP-пикселей. Можно использовать эмблему и меньшего размера. Но применив максимально возможное значение, вы получите более качественное изображение. При превышении лимита в 110 DIP-пикселей изображение будет уменьшено и, возможно, размыто.
@@ -1353,7 +1345,8 @@ public interface MAMAppConfig {
 | Цвет элементов | Граница поля ПИН-кода при выделении <br> Гиперссылки |accent_color | Цвет |
 | Эмблема приложения | Большой значок, отображаемый на экране ПИН-кода в приложении Intune | logo_image | Рисунки |
 
-## <a name="requiring-user-login-prompt-for-an-automatic-app-we-service-enrollment-requiring-intune-app-protection-policies-in-order-to-use-your-sdk-integrated-android-lob-app-and-enabling-adal-sso-optional"></a>Настройка обязательного входа пользователя в систему для автоматической регистрации в службе APP-WE, настройка обязательного применения политик защиты приложений Intune для использования бизнес-приложения для Android, интегрированного с пакетом SDK, и включение единого входа ADAL (необязательно)
+## <a name="working-with-app-we-service-enrollment-sdk-integrated-android-lob-app-and-adal-sso-optional"></a>Регистрация службы APP-WE, использование бизнес-приложения для Android, интегрированного с пакетом SDK, и включение единого входа ADAL (необязательно)
+<!-- Requiring user login prompt for an automatic APP-WE service enrollment, requiring Intune app protection policies in order to use your SDK-integrated Android LOB app, and enabling ADAL SSO (optional) -->
 
 Ниже приводятся указания по настройке обязательного запроса учетных данных пользователя при запуске приложения для автоматической регистрации в службе APP-WE (в этом разделе она называется **регистрацией по умолчанию**) и настройке политик защиты приложений Intune таким образом, чтобы они разрешали использовать бизнес-приложение для Android, интегрированное с пакетом SDK, только пользователям, защищенным Intune. В нем также рассматривается включение единого входа для бизнес-приложения Android, интегрированного с пакетом SDK. Этот сценарий **не** поддерживается для приложений магазина, с которыми могут работать пользователи, не зарегистрированные в Intune.
 
@@ -1362,22 +1355,22 @@ public interface MAMAppConfig {
 
 ### <a name="general-requirements"></a>Общие требования
 * Команда SDK Intune запросит идентификатор вашего приложения. Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Связаться с командой SDK Intune можно по электронной почте: msintuneappsdk@microsoft.com.
-     
+
 ### <a name="working-with-the-intune-sdk"></a>Работа с пакетом SDK Intune
 Эти инструкции относятся ко всем приложениям для Android и Xamarin, которые нуждаются в обязательном применении политик защиты устройств Intune на устройстве конечного пользователя.
 
 1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
-> [!NOTE] 
-> Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
-* Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
+   > [!NOTE] 
+   > Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
+2. Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
 
-2. Включите регистрацию по умолчанию, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```.
-> [!NOTE] 
-> Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager могут возникнуть конфликты.
+3. Включите регистрацию по умолчанию, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```.
+   > [!NOTE] 
+   > Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager могут возникнуть конфликты.
 
-3. Включите требуемую политику MAM, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```.
-> [!NOTE] 
-> В результате пользователю будет необходимо скачать приложение корпоративного портала на устройстве и пройти процедуру регистрации по умолчанию перед использованием.
+4. Включите требуемую политику MAM, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```.
+   > [!NOTE] 
+   > В результате пользователю будет необходимо скачать приложение корпоративного портала на устройстве и пройти процедуру регистрации по умолчанию перед использованием.
 
 ## <a name="limitations"></a>Ограничения
 
@@ -1403,7 +1396,7 @@ public interface MAMAppConfig {
     ```
 
     Во втором случае приложения с несколькими удостоверениями обязательно должны задать нужное удостоверение потока (или передать явное удостоверение в вызов `getPolicy`).
-    
+
 ### <a name="exported-services"></a>Экспортированные службы
 
  Файл AndroidManifest.xml, входящий в состав пакета SDK для приложений Intune, содержит объект **MAMNotificationReceiverService**, который должен быть экспортированной службой, чтобы дать корпоративному порталу возможность отправлять уведомления в управляемое приложение. Служба проверяет вызывающий объект, чтобы убедиться, что корпоративный портал может отправлять уведомления.

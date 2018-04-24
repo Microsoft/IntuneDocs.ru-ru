@@ -1,27 +1,27 @@
 ---
-title: "Регистрация устройства Android в службе управления затратами на телекоммуникации с помощью Intune"
-description: "Узнайте, как зарегистрировать устройство Android в службе управления затратами на телекоммуникации."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Регистрация устройства Android в службе управления затратами на телекоммуникации с помощью Intune
+description: Узнайте, как зарегистрировать устройство Android в службе управления затратами на телекоммуникации.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 04/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 26aa3698-7e4d-453a-8852-ab75e72b6485
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: sumitp
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 68f760c84b1394245494809de094e603e388e59b
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: dced939de37ca9fe7172ac0a8bec3fa391a24ed1
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-your-android-device-in-telecom-expense-management"></a>Регистрация устройства Android в службе управления затратами на телекоммуникации
 
@@ -39,11 +39,11 @@ ms.lasthandoff: 01/25/2018
 
 1. Выберите __Enroll with Microsoft account__ (Регистрация с помощью учетной записи Майкрософт).
 
-  ![Изображение экрана настроек приложения Datalert, на котором предлагается ввести номер телефона и выбрать регистрацию с помощью учетной записи Майкрософт, если у вас есть учетная запись Microsoft Office 365 и подписка Intune.](./media/and-enroll-12a-tem-datalert-enroll-msft-account.png)
+   ![Изображение экрана настроек приложения Datalert, на котором предлагается ввести номер телефона и выбрать регистрацию с помощью учетной записи Майкрософт, если у вас есть учетная запись Microsoft Office 365 и подписка Intune.](./media/and-enroll-12a-tem-datalert-enroll-msft-account.png)
 
 2. Выберите рабочую или учебную учетную запись из доступных учетных записей. Если вашей учетной записи нет в списке, вы можете войти в нее, нажав кнопку **Add account** (Добавить учетную запись).
 
-  ![Снимок экрана. Экран выбора учетной записи, показывающий пример учетной записи и кнопку добавления учетной записи.](./media/and-enroll-12b-tem-datalert-enroll-select-msft-account.png)
+   ![Снимок экрана. Экран выбора учетной записи, показывающий пример учетной записи и кнопку добавления учетной записи.](./media/and-enroll-12b-tem-datalert-enroll-select-msft-account.png)
 
 3. Установка Datalert займет некоторое время. Выберите __Finish__ (Готово), когда установка завершится.
 
@@ -51,15 +51,15 @@ ms.lasthandoff: 01/25/2018
 
 1. Укажите номер телефона устройства.
 
-  ![Снимок экрана с запросом номера телефона приложением Datalert.](./media/and-enroll-13-tem-datalert-phone-number.png)
+   ![Снимок экрана с запросом номера телефона приложением Datalert.](./media/and-enroll-13-tem-datalert-phone-number.png)
 
 2. Затем вы получите SMS-сообщение с кодом проверки. Введите код и коснитесь __ОК__.
 
-  ![Снимок экрана с запросом кода проверки в SMS приложением Datalert.](./media/and-enroll-14-tem-datalert-sms.png)
+   ![Снимок экрана с запросом кода проверки в SMS приложением Datalert.](./media/and-enroll-14-tem-datalert-sms.png)
 
 3. После ввода кода проверки установка Datalert будет завершена. Коснитесь __Готово__. После этого вы сможете отслеживать данные в приложении Datalert.
 
-  ![Снимок экрана приложения Datalert с мониторингом использования данных за сегодня.](./media/and-enroll-15-tem-datalert-monitoring-active.png)
+   ![Снимок экрана приложения Datalert с мониторингом использования данных за сегодня.](./media/and-enroll-15-tem-datalert-monitoring-active.png)
 
 После регистрации сведения об использовании данных начнут появляться в приложении Datalert.
 

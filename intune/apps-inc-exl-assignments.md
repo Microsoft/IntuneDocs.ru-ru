@@ -1,25 +1,25 @@
 ---
-title: "Включение и исключение назначений приложений в Microsoft Intune"
-titlesuffix: 
-description: "Сведения о том, как включать и исключать назначения приложений в Microsoft Intune."
-keywords: 
+title: Включение и исключение назначений приложений в Microsoft Intune
+titlesuffix: ''
+description: Сведения о том, как включать и исключать назначения приложений в Microsoft Intune.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c59f6df5-3317-4dff-8f19-fdeec33faedf
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dbe8669dc2bf448e0738147758d90ba6d2d69b06
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 93fd626d580917a3dd5bb20e7696c09c109dcc0b
+ms.sourcegitcommit: c3ae3c3dc46b62d9191813d25a196874ba4927be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="include-and-exclude-app-assignments-in-microsoft-intune"></a>Включение и исключение назначений приложений в Microsoft Intune
 
@@ -33,6 +33,8 @@ Intune позволяет вам определять, у кого есть до
 >При указании назначения группы для приложения тип **Неприменимо** является нерекомендуемым. Он заменен функциями исключения групп. 
 >
 >В консоли Intune для вашего удобства доступны предварительно созданные группы **Все пользователи** и **Все устройства** со встроенной оптимизацией. Настоятельно рекомендуем использовать эти группы для охвата всех пользователей и всех устройств, а не создавать группы "Все пользователи" и "Все устройства" самостоятельно.  
+>
+>Android для бизнеса (прежнее название — Android for Work) поддерживает включение и исключение групп, но не поддерживает предварительно созданные встроенные группы **Все пользователи** и **Все устройства**.
 
 ## <a name="including-and-excluding-groups-when-assigning-apps"></a>Включение и исключение групп при назначении приложений 
 Чтобы назначить приложение группам, используя включения и исключения, выполните следующие действия:

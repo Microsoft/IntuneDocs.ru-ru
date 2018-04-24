@@ -128,7 +128,7 @@
 ### [Сброс устройства](reset-erase-your-device-cpwebsite.md)
 ### [Шифрование устройства](encrypt-your-device-windows.md)
 ### [Установка или изменение пароля](set-or-change-your-password-windows.md)
-### [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-windows.md)
+### [удалять устройство из Intune](unenroll-your-device-from-intune-windows.md)
 ### [Что происходит при отмене регистрации устройства?](what-happens-if-you-unenroll-your-device-from-intune-windows.md)
 ### [Что происходит при сбросе устройства?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
 ### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-windows.md)

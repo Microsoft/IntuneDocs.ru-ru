@@ -1,35 +1,35 @@
 ---
-title: "Снятие приложений с учета"
-description: "Узнайте, как прекратить использование приложений или удалить их с помощью Intune."
-keywords: 
+title: Снятие приложений с учета
+description: Узнайте, как прекратить использование приложений или удалить их с помощью Intune.
+keywords: ''
 author: mattbriggs
 ms.author: mabrigg
 manager: angrobe
 ms.date: 12/27/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 6fbf0805-1144-4e08-bafd-4f181d932bf2
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 15e90a2fea2ec3b4f020a0e14c40da2cb65aecab
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: a3fadf497e5db147d12ecf1e32343e94222c65e9
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="retire-apps-using-microsoft-intune"></a>Снятие приложений с учета с помощью Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Для снятия приложения с учета можно просто удалить его. При развертывании приложений и управлении ими с помощью Intune процесс удаления приложения одинаков для мобильных устройств и компьютеров на базе Windows. Для успешного выполнения этой процедуры приложение должно поддерживать процесс удаления.
 
 ## <a name="uninstall-an-app"></a>Удаление приложения
 
-1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите **Приложения** &gt; **Приложения**.
+1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com) выберите пункты **Приложения** &gt; **Приложения**.
 
 2.  Выберите приложение, которое необходимо удалить (которое было ранее развернуто), и выберите **Управление развертыванием**.
 
@@ -37,5 +37,5 @@ ms.lasthandoff: 10/10/2017
 
 Когда устройство или компьютер выполнит в следующий раз проверку приложений, данное приложение будет удалено.
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 [Добавление приложений в Microsoft Intune](add-apps.md)

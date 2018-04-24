@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 99a4273a5f3ef2e1696d2fdc1c2a9b9f251b5b87
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 3cae9bc1b76dba3b896957f60ca08cca53423267
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enroll-devices-for-management-in-intune"></a>Регистрация устройств для управления в Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Вы можете зарегистрировать устройства, в том числе компьютеры Windows, для включения управления мобильными устройствами (MDM) с помощью Microsoft Intune. В этом разделе описываются различные способы регистрации мобильных устройств в среде управления Intune. Способ регистрации устройств зависит от типа устройства, от того, кому оно принадлежит, и от требуемого уровня управления. Регистрация собственных устройств пользователей (BYOD) позволяет пользователям регистрировать свои личные телефоны, планшеты или компьютеры. Регистрация корпоративных устройств (COD) позволяет использовать такие сценарии управления, как автоматическая регистрация, общие устройства или предварительно авторизованные требования к регистрации.
 
@@ -124,7 +124,7 @@ ms.lasthandoff: 03/22/2018
 
 Intune может управлять следующими платформами устройств:
 
-[!INCLUDE[mdm-supported-devices](../includes/mdm-supported-devices.md)]
+[!INCLUDE [mdm-supported-devices](../includes/mdm-supported-devices.md)]
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 - [Предварительные условия для регистрации устройств](prerequisites-for-enrollment.md)

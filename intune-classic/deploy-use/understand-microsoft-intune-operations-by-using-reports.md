@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pbala
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 919178b20094cb210b3d0b05c42b9b7d97759637
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b49f9d94e800a068015a357aaf105a92bb5882cc
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="understand-microsoft-intune-operations-by-using-reports"></a>Получение сведений об операциях Microsoft Intune с помощью отчетов
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе представлены сведения о создании отчетов Microsoft Intune, содержащих данные о программном обеспечении, оборудовании и лицензиях на ПО в организации, и управлении ими.
 

@@ -15,11 +15,11 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d2839a11f95614add0691813a9fdf89dba0a2d5d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 1b28f809c924ec2699647a3cc377b3bdde86afe5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 03/08/2018
 4. Щелкните значок с изображением папки и перейдите к VPN-сертификату (CER-файлу), экспортированному из консоли администрирования VPN. Нажмите кнопку **ОК**.
 5. Нажмите кнопку **Создать**.
 
-    ![Создание профиля доверенного сертификата](media\vpn-per-app-create-trusted-cert.png)
+    ![Создание профиля доверенного сертификата](./media/vpn-per-app-create-trusted-cert.png)
 
 ## <a name="create-a-scep-certificate-profile"></a>Создание профиля сертификата SCEP
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/08/2018
 14. Нажмите кнопку **ОК**.
 15. Нажмите кнопку **Создать**.
 
-    ![Создание профиля сертификата SCEP](media\vpn-per-app-create-scep-cert.png)
+    ![Создание профиля сертификата SCEP](./media/vpn-per-app-create-scep-cert.png)
 
 ## <a name="create-a-per-app-vpn-profile"></a>Создание профиля VPN на уровне приложения
 
@@ -123,7 +123,7 @@ ms.lasthandoff: 03/08/2018
 6. Нажмите кнопку **ОК**.
 7. Нажмите кнопку **Создать**.
 
-    ![Создание профиля VPN на уровне приложения](media\vpn-per-app-create-vpn-profile.png)
+    ![Создание профиля VPN на уровне приложения](./media/vpn-per-app-create-vpn-profile.png)
 
 
 ## <a name="associate-an-app-with-the-vpn-profile"></a>Связывание приложения с профилем VPN
@@ -146,7 +146,7 @@ ms.lasthandoff: 03/08/2018
 
 9. Нажмите кнопку **ОК**, а затем **Сохранить**.
 
-    ![Связывание приложения с VPN](media\vpn-per-app-app-to-vpn.png)
+    ![Связывание приложения с VPN](./media/vpn-per-app-app-to-vpn.png)
 
 ## <a name="verify-the-connection-on-the-ios-device"></a>Проверка подключения с устройства iOS
 

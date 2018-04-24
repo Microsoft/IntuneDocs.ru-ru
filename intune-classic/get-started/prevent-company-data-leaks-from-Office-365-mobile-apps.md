@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: pchacon
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b0117ef734a8549593992108105192ce1c4de5b0
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 85233c06d9cbbc697aecabc75ba538612c0fa5fa
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="quick-start-guide-prevent-company-data-leaks-from-office-365-mobile-apps"></a>Краткое руководство по началу работы. Предотвращение утечки корпоративных данных из мобильных приложений Office 365
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Microsoft Intune поможет вам защитить данные своей организации с помощью политик управления мобильными приложениями (MAM), которые позволяют избежать утечки корпоративных данных из мобильных приложений Office 365 и других бизнес-приложений (LOB). Для использования политик Intune MAM от конечных пользователей не требуется регистрировать свои устройства в решении для управления мобильными устройствами (MDM) Intune. Таким образом, если есть пользователи, которые не хотят регистрировать свои мобильные устройства BYOD iOS или Android в решении MDM от корпорации Майкрософт (Intune, Configuration Manager или EAS), или вы хотите защитить корпоративные данные без управления устройствами конечных пользователей, или вы уже используете решение MDM другой компании, то Intune может помочь вам повысить степень защиты своих данных.   
 

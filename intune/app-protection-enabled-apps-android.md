@@ -1,29 +1,29 @@
 ---
-title: "Приложения для Android с политиками защиты приложений"
+title: Приложения для Android с политиками защиты приложений
 titlesuffix: Microsoft Intune
-description: "Узнайте, чего следует ожидать от приложения Android с политиками защиты."
-keywords: 
+description: Узнайте, чего следует ожидать от приложения Android с политиками защиты.
+keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/07/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: a6816285-8e43-4dc8-bca0-e80ec5ef01e6
 ms.reviewer: andcerat
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: af25dc918907e086441a89f222985a75199bbe95
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 450bcd9c807bdfae16e9c2fa1eb813b00444df65
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="what-to-expect-when-your-android-app-is-managed-by-app-protection-policies"></a>Что происходит при управлении приложением Android с помощью политик защиты приложений 
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Узнайте, чего следует ожидать от приложений Android с политиками защиты. Политики защиты приложений применяются только в том случае, если приложения используются в рабочем контексте. Например, если вы открываете приложение в рабочей учетной записи или открываете файл, хранящийся в папке OneDrive вашей компании.
 ##  <a name="accessing-apps"></a>Доступ к приложениям
@@ -75,9 +75,11 @@ Intune поддерживает развертывание политик защ
 * **Документы:** PDF, PPDF
 
 ------------
-|**PFILE**|**Текст**|
-|----|----|
-|Pfile — это формат универсальной программы-оболочки для защищенных файлов. Он инкапсулирует зашифрованное содержимое и лицензии Azure Information Protection. Его можно использовать для защиты файлов любого типа.|Текстовые файлы, в том числе XML, CSV и т. д., можно открыть для просмотра в приложении, даже если они защищены. Типы файлов: txt, ptxt, csv, pcsv, log, plog, xml, pxml.|
+
+|                                                                                 <strong>PFILE</strong>                                                                                 |                                                                      <strong>Текст</strong>                                                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pfile — это формат универсальной программы-оболочки для защищенных файлов. Он инкапсулирует зашифрованное содержимое и лицензии Azure Information Protection. Его можно использовать для защиты файлов любого типа. | Текстовые файлы, в том числе XML, CSV и т. д., можно открыть для просмотра в приложении, даже если они защищены. Типы файлов: txt, ptxt, csv, pcsv, log, plog, xml, pxml. |
+
 ---------------
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что происходит при управлении приложением iOS с помощью политик защиты приложений](app-protection-enabled-apps-ios.md)

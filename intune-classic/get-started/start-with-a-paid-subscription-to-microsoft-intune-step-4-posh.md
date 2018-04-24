@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: jeffgilb
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f6cd6f71b3f78a7b77435d1c7474c1bd672b8b95
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: b6c0349d8e8c3b20d4674706d3cdf52234bab1c2
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-intune-licenses-using-powershell"></a>Управление лицензиями Intune с помощью PowerShell
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 В этом разделе администраторы узнают, как использовать PowerShell для управления пользовательскими лицензиями Intune.
 
@@ -68,5 +68,5 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="next-steps"></a>Дальнейшие шаги
 Поздравляем! Вы завершили шаг 4 *краткого руководства по началу работы с Intune*.
->[!div class="step-by-step"]
-(/intune/custom-domain-name-configure) [&larr; **Синхронизация пользователей с Intune**](/intune/custom-domain-name-configure)     [**Организация пользователей и устройств** &rarr;](.\start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  
+> [!div class="step-by-step"]
+> (/intune/custom-domain-name-configure) [&larr; **Синхронизация пользователей с Intune**](/intune/custom-domain-name-configure)     [**Организация пользователей и устройств** &rarr;](./start-with-a-paid-subscription-to-microsoft-intune-step-5.md)  

@@ -15,15 +15,15 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 896c984cb5831dc84a041d4ad39e4cdf6819f0f8
-ms.sourcegitcommit: 820f950d1fc80b1eb5db1b0cf77f44d92a969951
+ms.openlocfilehash: e2759146634f16e5d92ca8c497aa2856f071a679
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Этот раздел поможет ИТ-администраторам упростить регистрацию Windows для пользователей организации. После [настройки Intune](setup-steps.md) пользователи регистрируют устройства Windows, выполняя [вход](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows) с использованием рабочей или учебной учетной записи.  
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/15/2018
 **Поддержка нескольких пользователей**<br>
 Мы добавили поддержку управления несколькими пользователями с помощью Intune для устройств под управлением Windows 10 Creators Update, присоединенных к домену Azure Active Directory. Когда обычные пользователи входят в систему с помощью учетных данных Azure AD, они получают доступ ко всем приложениям и политикам, назначенным их пользовательским именам. Сейчас пользователи не могут использовать корпоративный портал для таких сценариев самообслуживания, как установка приложений.
 
-[!INCLUDE[AAD-enrollment](./includes/win10-automatic-enrollment-aad.md)]
+[!INCLUDE [AAD-enrollment](./includes/win10-automatic-enrollment-aad.md)]
 
 ## <a name="simplify-windows-enrollment-without-azure-ad-premium"></a>Упрощение регистрации Windows без Azure AD Premium
 Вы можете упростить регистрацию, создав псевдоним сервера доменных имен (DNS-псевдоним; тип записи CNAME), который автоматически перенаправляет запросы регистрации на серверы Intune. Если не создать запись ресурса CNAME DNS, пользователям, пытающимся подключиться к Intune, потребуется ввести имя сервера Intune при регистрации.

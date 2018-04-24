@@ -1,28 +1,28 @@
 ---
-title: "Архив новых возможностей на классическом портале Microsoft Intune"
-description: "Архивные объявления о новых возможностях для Microsoft Intune"
-keywords: 
+title: Архив новых возможностей на классическом портале Microsoft Intune
+description: Архивные объявления о новых возможностях для Microsoft Intune
+keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
 ms.date: 06/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ed2db991-4729-49a7-a1e6-be2ffa0d03d1
 ROBOTS: noindex,nofollow
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: edbb76e0eb4a1157e70a24c47b960ef138a0f876
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 5ba8d7940f9c02a1f01a115e16be331bb4fc2fcd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Новые возможности классического портала Intune: предыдущие месяцы
 
-[!INCLUDE[classic-portal](./includes/classic-portal.md)]
+[!INCLUDE [classic-portal](./includes/classic-portal.md)]
 
 На этой странице перечислены [новые возможности](whats-new.md) и уведомления, которые были ранее представлены на соответствующей странице для классического портала Intune.
 
@@ -359,7 +359,7 @@ __Компонент Xamarin из пакета SDK для приложений I
 
 __Отправка сертификата для подписи Symantec больше не требует подписанный корпоративный портал Windows Phone 8__. Чтобы отправить сертификат для подписи Symantec, подписи больше не требуется подписанное приложение корпоративного портала Windows Phone 8. Сертификат можно отправить без сторонних средств.
 
-###<a name="deprecations"></a>Устаревшие возможности
+### <a name="deprecations"></a>Устаревшие возможности
 
 __Поддержка корпоративного портала Windows Phone 8__. Поддержка корпоративного портала Windows Phone 8 не будет прекращена. Кроме того, в октябре 2016 г. прекращена поддержка платформ Windows Phone 8 и Windows RT. В октябре 2016 г. прекращена поддержка также корпоративного портала Windows 8.
 

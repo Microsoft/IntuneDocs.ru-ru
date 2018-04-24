@@ -1,29 +1,28 @@
 ---
-title: "Запрос и предоставление удаленной помощи для компьютеров под управлением Windows"
-description: "Описание действий конечных пользователей и ИТ-администраторов по запросу и предоставлению удаленной помощи для настольных систем с Windows, управляемых как компьютеры, и по удаленному запуску компьютеров."
-keywords: 
+title: Запрос и предоставление удаленной помощи для компьютеров под управлением Windows
+description: Описание действий конечных пользователей и ИТ-администраторов по запросу и предоставлению удаленной помощи для настольных систем с Windows, управляемых как компьютеры, и по удаленному запуску компьютеров.
+keywords: ''
 author: nathbarn
 ms.author: nathbarn
 manager: angrobe
 ms.date: 12/15/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c2654491-5144-408a-a45a-644eb91ac1bb
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 1bfa7f1dedecd47aeb30a12c5627a137b775d12a
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: 245d18b89be9b9884df6c7ee41436e747c0557fe
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="request-and-provide-remote-assistance-for-windows-pcs"></a>Запрос и предоставление удаленной помощи для компьютеров под управлением Windows
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
-
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune.
 
@@ -60,7 +59,7 @@ ms.lasthandoff: 10/10/2017
 ## <a name="respond-to-a-remote-assistance-request"></a>Ответ на запрос удаленной поддержки
 
 1. Когда пользователь отправляет запрос удаленной поддержки, вы можете увидеть его в рабочей области **Предупреждения** в разделе **Мониторинг** > **Удаленная поддержка**. Пример.
-> ![Снимок экрана запроса удаленной поддержки](./media/team-viewer.png)
+   > ![Снимок экрана запроса удаленной поддержки](./media/team-viewer.png)
 
 <br>Если запрос остается без ответа более 4 часов, он удаляется.
 2. Чтобы принять запрос, нажмите кнопку **Принять запрос и запустить удаленный помощник**.
@@ -84,6 +83,6 @@ ms.lasthandoff: 10/10/2017
 
 4.  В диалоговом окне **Состояние задачи** просмотрите текущие удаленные задачи, состояние задач, имена устройств и сообщения об ошибках.
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также:
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)

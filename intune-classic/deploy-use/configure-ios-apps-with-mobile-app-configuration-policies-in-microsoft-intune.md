@@ -15,15 +15,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e0fa9f66ee0338b21e12a27ef60fb0df22d23030
-ms.sourcegitcommit: df60d03a0ed54964e91879f56c4ef0a7507c17d4
+ms.openlocfilehash: 02e821f24c378c15a474adda901699664a9af68a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune"></a>Настройка приложений iOS с помощью политик конфигурации мобильных приложений в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Используйте политики конфигурации мобильных приложений в Microsoft Intune для предоставления параметров, которые могут быть необходимы, когда пользователи работают с приложением iOS. Например, приложение может потребовать от пользователей указать:
 
@@ -77,14 +77,14 @@ ms.lasthandoff: 03/22/2018
 ## <a name="information-about-the-xml-file-format"></a>Сведения о формате XML-файла
 
 Intune поддерживает следующие типы данных в списке свойств:
-    
+
 - &lt;integer&gt;
 - &lt;real&gt;
 - &lt;string&gt;
 - &lt;array&gt;
 - &lt;dict&gt;
 - &lt;true /&gt; или &lt;false /&gt;
-     
+
 Подробнее о типах данных см. в разделе [Сведения о списках свойств](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html) в библиотеке разработчика iOS.
 
 Кроме того, Intune поддерживает следующие типы токенов в списке свойств:
@@ -97,7 +97,7 @@ Intune поддерживает следующие типы данных в сп
 - \{\{username\}\} — (пример: **Илья Глазков**)
 - \{\{serialnumber\}\} — (пример: **F4KN99ZUG5V2**) for iOS devices
 - \{\{serialnumberlast4digits\}\} — (пример: **G5V2**) для устройств iOS
-    
+
 Символы \{\{ и \}\} используются только для типов токенов и не должны применяться в других целях.
 
 ## <a name="associate-a-mobile-app-configuration-policy-with-an-app"></a>Сопоставление политики конфигурации мобильных приложений с приложением
@@ -139,5 +139,4 @@ Intune поддерживает следующие типы данных в сп
   <key>udidlast4digits</key>
   <string>{{udidlast4digits}}</string>
 </dict>
-
 ```

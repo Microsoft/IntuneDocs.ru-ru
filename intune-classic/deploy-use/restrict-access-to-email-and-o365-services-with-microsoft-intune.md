@@ -1,29 +1,29 @@
 ---
-title: "Защита электронной почты и Office 365"
-description: "В этом разделе описывается, как использовать условный доступ, чтобы разрешать доступ к корпоративной электронной почте и данным, расположенным в SharePoint Online и других службах, только совместимым устройствам."
-keywords: 
+title: Защита электронной почты и Office 365
+description: В этом разделе описывается, как использовать условный доступ, чтобы разрешать доступ к корпоративной электронной почте и данным, расположенным в SharePoint Online и других службах, только совместимым устройствам.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c564d292-b83b-440d-bf08-3f5b299b7a5e
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ab45292734c39d3eaf4a5f0403cbff6e77d9d7e6
-ms.sourcegitcommit: 1a54bdf22786aea1cf1b497d54024470e1024aeb
+ms.openlocfilehash: e121a3aaf4988bd92c36eb79131b2205263fb309
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-access-to-email-office-365-and-other-services-with-microsoft-intune"></a>Защита доступа к электронной почте, Office 365 и другим службам при помощи Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Вы можете защитить доступ к электронной почте организации, службам Office 365, таким как **локальная организация Exchange**, **Exchange Online**, **выделенная среда Exchange Online**, **SharePoint Online**, **Skype для бизнеса Online** и другим службам при помощи условного доступа Enterprise Mobility + Security (EMS). Эта возможность позволяет ограничить доступ к корпоративной электронной почте и службам Office 365 теми устройствами, которые удовлетворяют правилам условного доступа, заданным в консоли администрирования Intune или на классическом портале Azure.
 ## <a name="how-does-conditional-access-work"></a>Как работает условный доступ?
@@ -67,17 +67,17 @@ Microsoft Intune и Azure Active Directory (Azure AD) Premium прекрасно
 В отличие от других политик Intune развертывание политик условного доступа не выполняется. Вместо этого после настройки политики и выбора пользователей, которые должны использовать ее, политика применяется ко всем целевым пользователям. Если на пользователя распространяется действие политики, каждое используемое им устройство должно соответствовать этой политике, чтобы он мог получить доступ к ресурсам.
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 
 2. [Создайте политику соответствия устройства](create-a-device-compliance-policy-in-microsoft-intune.md).
 
-2.  Создайте политику условного доступа из одной из следующих облачных служб или продуктов Майкрософт:
+3. Создайте политику условного доступа из одной из следующих облачных служб или продуктов Майкрософт:
 
-  - [Создание политики условного доступа для Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
-  - [Создание политики условного доступа для локальной организации Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-  - [Создание политики условного доступа для новой выделенной среды Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
-  - [Создание политики условного доступа для прежней выделенной среды Exchange Online](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
-  - [Создание политики условного доступа для SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
-  - [Создание политики условного доступа для Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
-  - [Создание политики условного доступа для Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)
+   - [Создание политики условного доступа для Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
+   - [Создание политики условного доступа для локальной организации Exchange](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+   - [Создание политики условного доступа для новой выделенной среды Exchange Online](restrict-access-to-exchange-online-with-microsoft-intune.md)
+   - [Создание политики условного доступа для прежней выделенной среды Exchange Online](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)
+   - [Создание политики условного доступа для SharePoint Online](restrict-access-to-sharepoint-online-with-microsoft-intune.md)
+   - [Создание политики условного доступа для Skype для бизнеса Online](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)
+   - [Создание политики условного доступа для Dynamics CRM Online](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)

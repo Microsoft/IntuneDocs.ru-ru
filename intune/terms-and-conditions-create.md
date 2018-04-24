@@ -1,29 +1,29 @@
 ---
-title: "Настройка условий в Microsoft Intune"
-titlesuffix: 
-description: "Настройка условий, которые отображаются для пользователей на корпоративном портале в Intune."
-keywords: 
+title: Настройка условий в Microsoft Intune
+titlesuffix: ''
+description: Настройка условий, которые отображаются для пользователей на корпоративном портале в Intune.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 02/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4a3a11a8-9c0c-4334-8c6b-6fea4d0a2efb
 ms.reviewer: amyro
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8fb386948d14fcbd26cffcd1b531b6ae61e9d669
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 550d9c457335f212f0b60c16249e45f22f5baaf5
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="manage-your-companys-terms-and-conditions-for-user-access"></a>Управление условиями компании для доступа пользователей
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Как администратор Intune вы можете потребовать, чтобы пользователи принимали условия компании, прежде чем они получат доступ к корпоративному порталу для регистрации устройств и использования ресурсов компании, например приложений и электронной почты. Настройка отображения условий является необязательной.
 

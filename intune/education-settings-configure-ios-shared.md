@@ -3,8 +3,8 @@ title: Настройка параметров общих устройств Int
 titleSuffix: Microsoft Intune
 description: Сведения о параметрах Intune, с помощью которых можно управлять параметрами приложения "Класс" на устройствах iOS.
 keywords: ''
-author: barlanmsft
-ms.author: barlan
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 02/23/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.assetid: 1381a5ce-c743-40e9-8a10-4c218085bb5f
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4924d01c6f5d423b7c553d11eea065534179fe5f
-ms.sourcegitcommit: 54fc806036f84a8667cf8f74086358bccd30aa7d
+ms.openlocfilehash: 932feb064552e05536821d0e75e27059387bcf56
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>Настройка параметров образования Intune для общих устройств iPad
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Intune поддерживает приложение iOS Класс, которое помогает преподавателям руководить обучением и управлять устройствами учащихся в классе. В дополнение к приложению Класс компания Apple позволяет настроить устройства iPad таким образом, чтобы несколько учащихся могли совместно использовать одно устройство. Этот документ описывает, как сделать это с помощью Intune.
 
@@ -64,7 +64,7 @@ SDS синхронизирует сведения из вашей системы
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. На панели **Intune** выберите пункт **Конфигурация устройства**.
-2. На панели **Конфигурации устройства** в разделе **Управление** выберите **Профили**.
+2. На панели **Конфигурация устройства** в разделе **Управление** выберите **Профили**.
 5. На панели профилей выберите **Создать профиль**.
 6. На панели **Создать профиль** введите **имя** и **описание** профиля образования iOS.
 7. В раскрывающемся списке **Платформа** выберите **iOS**.

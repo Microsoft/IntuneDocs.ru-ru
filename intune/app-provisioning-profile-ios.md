@@ -1,29 +1,29 @@
 ---
-title: "Профили подготовки приложений iOS в Microsoft Intune"
-titlesuffix: 
-description: "Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.\""
-keywords: 
+title: Профили подготовки приложений iOS в Microsoft Intune
+titlesuffix: ''
+description: Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/02/2018
+ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7637dcb3aba4f46a3e97c8de47d974b46af27b47
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: d6394af9affd5087aaf26489be4b49e84568d6e1
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="use-ios-mobile-provisioning-profiles-in-intune-to-prevent-your-apps-from-expiring"></a>Предотвращайте истечения срока действия сертификата мобильного приложения iOS с помощью профиля подготовки в Intune
+# <a name="use-ios-app-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия приложений iOS с помощью профилей подготовки приложений
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="introduction"></a>Введение
 
@@ -36,6 +36,7 @@ ms.lasthandoff: 03/05/2018
 Срок действия сертификата подписи предприятия, который используется для подписи приложений, обычно составляет три года. Однако срок действия профиля подготовки истекает через год. Пока сертификат все еще действителен, Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.
 По истечении срока действия сертификата приложение необходимо заново подписать и добавить новый профиль подготовки с ключом нового сертификата.
 
+Администратор может включать и исключать группы безопасности для назначения конфигурации подготовки приложений iOS. Например, можно назначить конфигурацию подготовки приложений iOS группе "Все пользователи", но исключить группу "Руководители".
 
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>Как создать профиль подготовки для мобильного приложения iOS
 

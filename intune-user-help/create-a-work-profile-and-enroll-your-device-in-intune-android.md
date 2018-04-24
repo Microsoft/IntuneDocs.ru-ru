@@ -1,27 +1,27 @@
 ---
-title: "Регистрация устройства с помощью рабочего профиля | Документы Майкрософт"
-description: "Как защитить устройства с Android при помощи рабочих профилей."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Регистрация устройства с помощью рабочего профиля | Документы Майкрософт
+description: Как защитить устройства с Android при помощи рабочих профилей.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 33ffff16-0280-43bf-87b3-74ddf4439bfa
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ed269de2d08cb23caa7ade4a24ad40e5d0fd8b25
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: a7ab6efccf9fa00119bc2052d16b4ad8fd5b55d8
+ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="create-a-work-profile-and-enroll-your-device-in-intune"></a>Создание профиля работы и регистрация устройства в Intune
 

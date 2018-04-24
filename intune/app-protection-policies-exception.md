@@ -1,29 +1,29 @@
 ---
-title: "Исключения политики передачи данных для приложения"
+title: Исключения политики передачи данных для приложения
 titleSuffix: Microsoft Intune
-description: "Создание исключений для политики управления мобильными приложениями (MAM) в Intune."
-keywords: 
+description: Создание исключений для политики управления мобильными приложениями (MAM) в Intune.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/20/2018
+ms.date: 03/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: f9015e3a-c22c-42eb-90e6-ba48dee3a41d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e1e37e78f7272b0f53f974eccb20c7e02574a9a9
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 1910334093a416933912c9cdeedac85e36d66e92
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-create-exceptions-to-the-intune-mobile-application-management-mam-data-transfer-policy"></a>Как создать исключения для политики управления мобильными приложениями (MAM) в Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Как администратор вы можете создавать исключения для политики управления мобильными приложениями (MAM) в Intune. С помощью исключений можно выбрать, какие неуправляемые приложения могут обмениваться данными с управляемыми приложениями. Отдел ИТ должен доверять неуправляемым приложениям, которые включены в список исключений. 
 
@@ -39,6 +39,10 @@ ms.lasthandoff: 03/17/2018
 
 ## <a name="android-data-transfer-exceptions"></a>Исключения политики передачи данных для Android
 В политиках, предназначенных для Android, можно настроить исключения для передачи данных по имени пакета приложения. Имя пакета приложения, которое вы хотите добавить в исключения, можно найти на странице этого приложения в **Google Play**. Дополнительные сведения об исключениях передачи данных для Android см. в статье [Параметры политик защиты приложений в Android — исключения для передачи данных](app-protection-policy-settings-android.md#data-transfer-exemptions).
+
+
+>[!TIP]
+> Чтобы найти идентификатор пакета приложения, перейдите к приложению в магазине Google Play. Идентификатор пакета содержится в URL-адресе страницы приложения. Например, идентификатор пакета приложения Microsoft Word — **com.microsoft.office.word**.
 
 ### <a name="example"></a>Пример
 Если вы добавите пакет **Webex** в качестве исключения в политику передачи данных MAM, ссылки Webex внутри сообщений в управляемом приложении Outlook будут открываться напрямую в приложении Webex. В других неуправляемых приложениях передача данных будет ограничена.

@@ -1,27 +1,27 @@
 ---
-title: "Обновление устройств Windows 10 с помощью Microsoft Intune — Azure | Документы Майкрософт"
-description: "Создание профиля устройства в Microsoft Intune для обновления устройств Windows 10 до более новой версии. См. также поддерживаемые варианты обновления для Windows 10 Pro, выпуск N, для образовательных учреждений, Cloud, Enterprise, Core, Holographic и Mobile."
-keywords: 
+title: Обновление устройств Windows 10 с помощью Microsoft Intune — Azure | Документы Майкрософт
+description: Создание профиля устройства в Microsoft Intune для обновления устройств Windows 10 до более новой версии. См. также поддерживаемые варианты обновления для Windows 10 Pro, выпуск N, для образовательных учреждений, Cloud, Enterprise, Core, Holographic и Mobile.
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ae8b6528-7979-47d8-abe0-58cea1905270
 ms.reviewer: coryfe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8084f1b2fbd513de596bd97f4ffec995b6f7aac4
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 994ab8e7d955d18b293e4d9e9661e0c44baaaa1f
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="configure-windows-10-edition-upgrade-profile-in-intune"></a>Настройка профиля обновления выпуска Windows 10 в Intune
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Настройте профиль обновления в Intune, чтобы автоматически обновить до другого выпуска устройства, работающие под управлением Windows 10. Также см. поддерживаемые варианты обновления.
 
@@ -122,16 +122,16 @@ The following lists provide the supported upgrade paths for the Windows 10 editi
 
 ## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы**, отфильтруйте по **Intune** и выберите **Microsoft Intune**.
+2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
 3. Выберите **Конфигурация устройства** и нажмите **Профили**, а затем **Создать профиль**.
 4. Введите **имя** и **описание** профиля обновления выпуска.
 5. В раскрывающемся списке **Платформа** выберите **Windows 10 и более поздних версий**.
 6. В раскрывающемся списке **Тип профиля** выберите **Обновление выпуска**.
 7. В свойствах **Обновление выпуска** настройте следующие параметры:
-  - **Выпуск, до которого необходимо обновить**. В раскрывающемся списке выберите версию Windows 10 Desktop, Windows 10 Holographic или Windows 10 Mobile, до которой вы хотите обновить целевые устройства.
-  - **Ключ продукта**. Укажите ключ продукта, полученный от Майкрософт, с помощью которого можно обновить все целевые устройства Windows 10 Desktop. 
+   - **Выпуск, до которого необходимо обновить**. В раскрывающемся списке выберите версию Windows 10 Desktop, Windows 10 Holographic или Windows 10 Mobile, до которой вы хотите обновить целевые устройства.
+   - **Ключ продукта**. Укажите ключ продукта, полученный от Майкрософт, с помощью которого можно обновить все целевые устройства Windows 10 Desktop. 
     После создания политики, содержащей ключ продукта, ключ невозможно обновить. Он скрыт по соображениям безопасности. Чтобы изменить его, необходимо повторно ввести весь ключ.
-  - **Файл лицензии**. Нажмите **Обзор** чтобы выбрать файл лицензии, полученный от Майкрософт. Этот файл лицензии содержит сведения о лицензии для выпуска Windows Holographic или Windows 10 Mobile, до которых обновляются целевые устройства.
+   - **Файл лицензии**. Нажмите **Обзор** чтобы выбрать файл лицензии, полученный от Майкрософт. Этот файл лицензии содержит сведения о лицензии для выпуска Windows Holographic или Windows 10 Mobile, до которых обновляются целевые устройства.
 8. Когда закончите, нажмите **Создать**, чтобы сохранить изменения.
 
 Созданный профиль отобразится в списке профилей.

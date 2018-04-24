@@ -1,28 +1,28 @@
 ---
-title: "Параметры фильтра веб-содержимого Microsoft Intune для устройств iOS"
-titlesuffix: 
-description: "Сведения о параметрах, которые можно использовать для разрешения и блокирования доступа к веб-сайтам с устройств iOS в Microsoft Intune."
-keywords: 
+title: Параметры фильтра веб-содержимого Microsoft Intune для устройств iOS
+titlesuffix: ''
+description: Сведения о параметрах, которые можно использовать для разрешения и блокирования доступа к веб-сайтам с устройств iOS в Microsoft Intune.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a401a3a04d10587606b8ec4862a62e551e7aadf0
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: c5e3dbdc339fd25289e1aed526bc03e4691c3812
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="web-content-filter-settings-for-ios-devices"></a>Параметры фильтра веб-содержимого для устройств iOS
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В этой статье описаны параметры Microsoft Intune, с помощью которых можно управлять доступом к URL-адресам через браузер на устройствах под управлением iOS.
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 03/08/2018
 2. Щелкните **Добавить** после ввода данных для каждого веб-сайта.
 3. По завершении нажмите кнопку **ОК**.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > Следующие URL-адреса Intune разрешает автоматически.
 > - www.microsoft.com
 > - www.microsoft.net

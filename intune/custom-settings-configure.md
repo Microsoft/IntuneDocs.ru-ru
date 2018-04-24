@@ -1,26 +1,26 @@
 ---
-title: "Использование настраиваемых параметров устройств в Microsoft Intune — Azure | Документы Майкрософт"
-description: "Добавьте или создайте профиль, чтобы использовать настраиваемые параметры для устройств Windows, iOS и Android с помощью Microsoft Intune"
-keywords: 
+title: Использование настраиваемых параметров устройств в Microsoft Intune — Azure | Документы Майкрософт
+description: Добавьте или создайте профиль, чтобы использовать настраиваемые параметры для устройств Windows, iOS и Android с помощью Microsoft Intune
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: adecb332c91f17cf92362295b6b0c81445f5acaf
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: ce7c263435f92a041b93dc5d34ffa912c6fa87fb
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-profile-with-custom-settings-in-intune"></a>Создайте профиль с настраиваемыми параметрами в Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В Intune может не быть всех нужных параметров. Или вы захотите использовать параметр, доступный в других профилях устройств. Чтобы добавить эти параметры, создайте профиль устройства и укажите в нем настраиваемые параметры.
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/08/2018
 ## <a name="create-the-profile"></a>Создание профиля
 
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы**, отфильтруйте по **Intune** и выберите **Microsoft Intune**.
+2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
 3. Выберите **Конфигурация устройства** и нажмите **Профили**, а затем **Создать профиль**.
 4. Укажите **имя** и **описание** настраиваемого профиля.
 5. В раскрывающемся списке **Платформа** выберите платформу устройства для применения настраиваемых параметров. Выберите любую из следующих платформ:

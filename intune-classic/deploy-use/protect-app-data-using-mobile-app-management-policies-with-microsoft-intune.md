@@ -1,29 +1,29 @@
 ---
-title: "Защита данных приложения с помощью политик MAM"
-description: "В этом разделе описано использование политик управления мобильными приложениями для защиты данных организации, предотвращения потери данных и отдельного хранения рабочих и персональных данных."
-keywords: 
+title: Защита данных приложения с помощью политик MAM
+description: В этом разделе описано использование политик управления мобильными приложениями для защиты данных организации, предотвращения потери данных и отдельного хранения рабочих и персональных данных.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: angrobe
 ms.date: 11/14/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: ab6cd622-b738-4a63-9c91-56044aaafa6d
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e5f9eb33ca877fba0d59cfd9ddbc23f5eb2cd05c
-ms.sourcegitcommit: 6d69403266dbcb31c879432719798935c94917fa
+ms.openlocfilehash: dcdee874e42aa9511c09fda43a8cc662afaea38a
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="protect-app-data-using-app-protection-policies-with-microsoft-intune"></a>Защита данных приложений с помощью политик защиты приложений в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 ## <a name="how-you-can-protect-app-data"></a>Способы защиты данных приложения
 Ваши сотрудники используют мобильные устройства для как в личных, так и в рабочих целях. Предоставляя сотрудникам возможности для продуктивной работы, вы также хотите предотвратить потерю данных, как намеренную, так и случайную.  Кроме того, вам необходима возможность защиты данных организации, к которым сотрудники обращаются с помощью устройств, которыми вы не управляете.

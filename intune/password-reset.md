@@ -1,22 +1,22 @@
 ---
-title: "Сокращение затрат на службу поддержки"
+title: Сокращение затрат на службу поддержки
 titlesuffix: Microsoft Intune
-description: "Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей"
-keywords: "Сброс паролей SSPR в Azure Active Directory"
+description: Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей
+keywords: Сброс паролей SSPR в Azure Active Directory
 author: vhorne
 ms.author: victorh
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
-ms.openlocfilehash: e2bd79e33080a0cc402d38f45b72ddbe9fd7816b
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: ce9cdfa2f1f9414bd0517ff9fe12a5cca64c63cd
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reduce-help-desk-costs-with-self-service-password-reset"></a>Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей
 

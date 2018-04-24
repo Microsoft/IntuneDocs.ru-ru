@@ -1,27 +1,27 @@
 ---
-title: "Включение Защитника Windows | Документация Майкрософт"
-description: "Сведения о включении Защитника Windows для доступа к ресурсам организации."
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Включение Защитника Windows | Документация Майкрософт
+description: Сведения о включении Защитника Windows для доступа к ресурсам организации.
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d16dd2de-3ed5-474f-a04b-36dcd350162c
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: shburbid
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 09d147b3f952b60bf24f2a1bc8441e5909a93090
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 9190282edb8d356d7d43a634d10991a4b4c19c16
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="turn-on-windows-defender-to-access-company-resources"></a>Включение Защитника Windows для доступа к ресурсам организации
 

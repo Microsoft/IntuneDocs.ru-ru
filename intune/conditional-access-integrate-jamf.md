@@ -1,25 +1,25 @@
 ---
-title: "Обеспечение соответствия требованиям путем интеграции Jamf Pro c Microsoft Intune"
-titlesuffix: 
-description: "Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf."
-keywords: 
+title: Обеспечение соответствия требованиям путем интеграции Jamf Pro c Microsoft Intune
+titlesuffix: ''
+description: Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 01/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4b6dcbcc-4661-4463-9a36-698d673502c6
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f4b040c6aa7001e8ebdd7c05571276428c7ef9bd
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: cdeb3a21af2b4cf020d3e5029eeb5b0bc31db062
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
 
@@ -56,20 +56,20 @@ ms.lasthandoff: 03/08/2018
 6. Нажмите кнопку **Создать приложение**.
 7. Сохраните только что созданный **идентификатор приложения**, а затем выберите **Параметры**, щелкните **Доступ через API** > **Ключи**, чтобы создать ключ приложения. Введите сведения в поле **Описание**, укажите значение в поле **Истекает**, а затем сохраните ключ приложения.
 
-  > [!IMPORTANT]
-  > Ключ приложения отображается только один раз во время этого процесса. Не забудьте сохранить его в удобном расположении.
+   > [!IMPORTANT]
+   > Ключ приложения отображается только один раз во время этого процесса. Не забудьте сохранить его в удобном расположении.
 
 8. Выберите **Параметры**, щелкните **Доступ через API** > **Необходимые разрешения** и удалите все разрешения.
 
-  > [!NOTE]
-  > Добавьте новое требуемое разрешение. Приложение может работать должным образом только с одним таким разрешением.
+   > [!NOTE]
+   > Добавьте новое требуемое разрешение. Приложение может работать должным образом только с одним таким разрешением.
 
-9.  Выберите **API Microsoft Intune** и нажмите кнопку **Выбрать**.
+9. Выберите **API Microsoft Intune** и нажмите кнопку **Выбрать**.
 10. Выберите **Send device attributes to Microsoft Intune** (Отправлять атрибуты устройства в Microsoft Intune) и нажмите кнопку **Выбрать**.
 11. Сохранив требуемые разрешения приложения, нажмите кнопку **Предоставить разрешения**.
 
-  > [!NOTE]
-  > Если срок действия ключа приложения истекает, необходимо создать другой ключ в Microsoft Azure, а затем обновить данные условного доступа в Jamf Pro. Во избежание нарушений в работе службы в Azure можно использовать старый и новый ключ.
+    > [!NOTE]
+    > Если срок действия ключа приложения истекает, необходимо создать другой ключ в Microsoft Azure, а затем обновить данные условного доступа в Jamf Pro. Во избежание нарушений в работе службы в Azure можно использовать старый и новый ключ.
 
 ## <a name="enable-intune-to-integrate-with-jamf-pro"></a>Включение интеграции Intune с Jamf Pro
 

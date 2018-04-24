@@ -1,29 +1,29 @@
 ---
-title: "Справочник по политике конфигурации"
-description: "Используйте сведения в этом разделе для определения политики Microsoft Intune, необходимой для управления устройствами."
-keywords: 
+title: Справочник по политике конфигурации
+description: Используйте сведения в этом разделе для определения политики Microsoft Intune, необходимой для управления устройствами.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 10/11/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: d27f2739-9791-4aae-a9db-01a4e59ccfe5
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: bf92e34c5bb94fe0cb3c0cc9dabd687a0f2710b9
-ms.sourcegitcommit: 468480b61110ca81f737582ebbefd4efda6fd667
+ms.openlocfilehash: 46bc3408f861bcd249ca5071abf1ee80733af10d
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microsoft-intune-configuration-policy-reference"></a>Справочник по политике конфигурации Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Здесь приведены сведения, которые помогут вам определить политику конфигурации Microsoft Intune, необходимую для управления устройствами.
 
@@ -102,12 +102,13 @@ ms.lasthandoff: 01/30/2018
 
 ## <a name="common-mobile-device-settings"></a>Общие параметры мобильных устройств
 
-|Имя политики|Обеспечиваемые возможности|
-|---------------|------------------------|
-|**Политика Exchange ActiveSync**|Настройка параметров безопасности и функциональных параметров мобильных устройств под управлением Exchange ActiveSync.<br /><br />Дополнительные сведения см. в статье [Параметры политики Exchange ActiveSync в Microsoft Intune](exchange-activesync-policy-settings-in-microsoft-intune.md).|
-|**Политика безопасности мобильных устройств**|<ul><li>Настраивает параметры для мобильных устройств всех платформ, в том числе следующие.<br /><br /><ul><li>Безопасность</li><li>Encryption</li><li>система</li><li>Электронная почта</li><li>Приложения</li></ul></li></ul>
+|                  Имя политики                   |                                                                                                                       Обеспечиваемые возможности                                                                                                                       |
+|------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <strong>Политика Exchange ActiveSync</strong>   | Настройка параметров безопасности и функциональных параметров мобильных устройств под управлением Exchange ActiveSync.<br /><br />Дополнительные сведения см. в статье [Параметры политики Exchange ActiveSync в Microsoft Intune](exchange-activesync-policy-settings-in-microsoft-intune.md). |
+| <strong>Политика безопасности мобильных устройств</strong> |                                  <ul><li>Настраивает параметры для мобильных устройств всех платформ, в том числе следующие.<br /><br /><ul><li>Безопасность</li><li>Encryption</li><li>система</li><li>Электронная почта</li><li>Приложения</li></ul></li></ul>                                  |
+
 > [!IMPORTANT]
-Теперь Microsoft Intune позволяет разделять **политики конфигурации** для каждой платформы устройств, и эти политики содержат самые актуальные настройки, которые можно использовать. Можно продолжать использовать политику безопасности мобильных устройств, и любые существующие развертывания по-прежнему будут работать, но необходимо как можно быстрее запланировать переход на новые политики конфигурации.<br />Дополнительные сведения см. в статье [Параметры политики безопасности мобильных устройств в Microsoft Intune](mobile-device-security-policy-settings-in-microsoft-intune.md).
+> Теперь Microsoft Intune позволяет разделять **политики конфигурации** для каждой платформы устройств, и эти политики содержат самые актуальные настройки, которые можно использовать. Можно продолжать использовать политику безопасности мобильных устройств, и любые существующие развертывания по-прежнему будут работать, но необходимо как можно быстрее запланировать переход на новые политики конфигурации.<br />Дополнительные сведения см. в статье [Параметры политики безопасности мобильных устройств в Microsoft Intune](mobile-device-security-policy-settings-in-microsoft-intune.md).
 
 ## <a name="policies-for-windows-pcs-managed-by-the-intune-software-client"></a>Политики для компьютеров Windows под управлением клиентского программного обеспечения Intune
 

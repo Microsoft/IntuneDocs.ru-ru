@@ -1,25 +1,25 @@
 ---
-title: "Перенос условного доступа на портал Azure"
+title: Перенос условного доступа на портал Azure
 titlesuffix: Microsoft Intune
-description: "Переназначьте политики условного доступа, созданные на классическом портале Intune, на портал Azure."
-keywords: 
+description: Переназначьте политики условного доступа, созданные на классическом портале Intune, на портал Azure.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 06/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 80c8c994486dd340c9037817854eb35b32ab3a9e
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: d295ade29522a5593993b5541311eadd9e4c9528
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 
@@ -183,8 +183,8 @@ ms.lasthandoff: 03/08/2018
 
 Переназначив политики условного доступа на портале Azure, следует постепенно отключить политики условного доступа, созданные ранее на классическом портале Intune. Кроме того, может потребоваться использовать ту же группу безопасности, чтобы применить политики условного доступа, созданные на портале Azure.
 
-> [!NOTE] 
-    > Перед отключением политик условного доступа на классическом портале Intune ознакомьтесь с разделом [Подготовка к работе](#before-you-begin) в начале этой статьи.
+> [!NOTE]
+> Перед отключением политик условного доступа на классическом портале Intune ознакомьтесь с разделом [Подготовка к работе](#before-you-begin) в начале этой статьи.
 
 ### <a name="to-disable-the-conditional-access-policies"></a>Отключение политик условного доступа
 

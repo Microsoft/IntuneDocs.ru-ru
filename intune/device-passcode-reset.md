@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/06/2018
+ms.date: 03/29/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,30 +13,30 @@ ms.technology: ''
 ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4cca5922f036711093469e71489e267af53f05a9
-ms.sourcegitcommit: e6319ff186d969da34bd19c9730ba003d6cce353
+ms.openlocfilehash: 19b30315fa26dd53b5e383bc9e4bef5c65b89962
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Сброс или удаление секретного кода устройства с помощью Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Чтобы создать секретный код устройства, используйте действие **Удалить секретный код**.
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
-- Windows Phone 8.1 (без присоединения к Azure Active Directory), включая выпуски до Windows 10 Creators Update
-- Windows 10 Creators Update и более поздние версии
-- iOS
-- Android до версии Android 7
+- Устройства с Android 7.0 или более поздней версией, зарегистрированные с помощью рабочего профиля
+- Устройства с Android 6.0 или более ранней версией
+- iOS 
+     
+## <a name="unsupported-platforms"></a>Неподдерживаемые платформы
 
-Эта возможность не поддерживается в следующих системах:
-
-- Windows
+- Устройства с Android 6.0 или более ранней версией, зарегистрированные с помощью рабочего профиля
+- Устройства с Android 7.0 или более поздней версией
 - macOS
-- Android for Work
+- Windows
 
 ## <a name="reset-a-passcode"></a>Сброс секретного кода
 
@@ -44,6 +44,14 @@ ms.lasthandoff: 03/20/2018
 2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
 3. Выберите **Устройства**, а затем — **Все устройства**.
 4. Выберите нужное устройство в списке управляемых устройств и щелкните **Дополнительно**. Затем выберите удаленное действие **Удалить секретный код**.
+
+## <a name="resetting-android-for-work-passcodes"></a>Сброс секретных кодов Android for Work
+
+Конечные пользователи поддерживаемых устройств Android for Work получают новый пароль для разблокировки устройства или запрос защиты управляемого профиля. Конечные пользователи устройств с Android 7.0 или более поздней версией с рабочими профилями получают уведомления об активации токена сброса секретного кода сразу после завершения регистрации. Уведомление отображается в том случае, если требуется и задан пароль рабочего профиля. После ввода секретного кода уведомление закрывается.
+
+## <a name="resetting-ios-passcodes"></a>Сброс секретных кодов iOS
+
+Секретные коды удаляются с устройств iOS. Если задана политика соответствия требованиям для секретного кода, устройство предложит пользователю указать новый секретный код в разделе параметров. 
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

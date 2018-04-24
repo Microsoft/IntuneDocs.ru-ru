@@ -14,15 +14,15 @@ ms.technology: ''
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 9582b53c4f992b5f788f10a262bb802e80580144
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 9ff0d6f662fca4cb223496d342de5d6378c05ceb
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users-at-your-company"></a>Использование портала диагностики для оказания помощи пользователям в вашей компании
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Портал диагностики позволяет операторам службы технической поддержки и администраторам Intune просматривать информацию о пользователях для обработки запросов в службу поддержки. Организации, содержащие в штате **операторов службы технической поддержки**, могут назначить такого оператора группе пользователей. Участники роли операторов службы технической поддержки могут использовать панель **Устранение неполадок**.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/08/2018
 5. Выберите пользователя, введя его имя или адрес электронной почты. Щелкните **Выбрать**. Сведения об устранении неполадок для пользователя приводятся на панели "Устранение неполадок". Эти сведения поясняются в представленных ниже таблицах.
 
 > [!Note]  
-> Чтобы получить доступ к панели **Устранение неполадок**, перейдите в браузере по адресу [https://aka.ms/intunetroubleshooting](https://aka.ms/intunetroubleshooting).
+> Чтобы получить доступ к панели **Устранение неполадок**, перейдите в браузере по адресу: [https://aka.ms/intunetroubleshooting](https://aka.ms/intunetroubleshooting).
 
 ## <a name="areas-of-troubleshooting-dashboard"></a>Области панели мониторинга для устранения неполадок
 

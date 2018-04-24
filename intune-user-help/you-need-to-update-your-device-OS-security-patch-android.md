@@ -1,25 +1,25 @@
 ---
-title: "Необходимо обновить устройство Android | Документация Майкрософт"
-description: 
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Необходимо обновить устройство Android | Документация Майкрософт
+description: ''
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 01/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: b3e5994c-d215-4c72-8915-349bd0b2504d
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 3851095689f194a2133aaa1b0ac8712098662226
-ms.sourcegitcommit: 93622d740cbd12043eedc25a9699cc4256e23e7e
+ms.openlocfilehash: f2622a173b33fd28c55a9a63321a9f2faa16a5d7
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="you-need-to-update-your-android-devices-operating-system"></a>Необходимо обновить операционную систему на устройстве Android
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/01/2018
 
 Если вы используете устройство Samsung, выберите **Settings** > **About phone** (Настройки > О телефоне), а затем поищите на экране слово "Knox". Если вы видите это слово, следуйте приведенным ниже инструкциям по работе с устройством Samsung Knox.
 
-[!INCLUDE[wit_nextref](includes/end-user-os-update-guidance.md)]
+[!INCLUDE [wit_nextref](includes/end-user-os-update-guidance.md)]
 
 ## <a name="for-most-android-devices-non-samsung-knox"></a>Для большинства устройств Android (не с Samsung KNOX)
 

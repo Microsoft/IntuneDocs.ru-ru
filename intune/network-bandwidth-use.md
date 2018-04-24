@@ -1,29 +1,29 @@
 ---
-title: "Требования к сети и сведения о пропускной способности для Microsoft Intune"
-titlesuffix: 
-description: "Требования к конфигурации сети и сведения о ее пропускной способности для Intune."
-keywords: 
+title: Требования к сети и сведения о пропускной способности для Microsoft Intune
+titlesuffix: ''
+description: Требования к конфигурации сети и сведения о ее пропускной способности для Intune.
+keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 01/24/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0f737d48-24bc-44cd-aadd-f0a1d59f6893
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b21c4421914294e84bae637e489065c5e4410839
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: c161d1ca120d5a0210cffca01e781f1ae9206fe4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="intune-network-configuration-requirements-and-bandwidth"></a>Требования к конфигурации сети Intune и ее пропускная способность
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Это руководство поможет понять администраторам Intune требования к сети для службы Intune. Эти сведения содержат требования к пропускной способности, IP-адрес и параметры порта, необходимые для настройки прокси-сервера.
 
@@ -58,11 +58,13 @@ ms.lasthandoff: 03/05/2018
 
 Ниже приведены типичные параметры для использования при настройке прокси-сервера, кэширующего содержимое для клиентов Intune.
 
-|Параметр|Рекомендованное значение|Подробные сведения|
-|-----------|---------------------|-----------|
-|Размер кэша|От 5 до 30 ГБ|Значение зависит от числа клиентских компьютеров в сети и используемых конфигураций. Чтобы предотвратить слишком быстрое удаление файлов, скорректируйте размер кэша в соответствии с вашей средой.|
-|Размер отдельного файла кэша|950 МБ|Этот параметр может быть доступен не на всех прокси-серверах кэширования.|
-|Типы объектов, подлежащих кэшированию|HTTP<br /><br />HTTPS<br /><br />BITS|Пакеты Intune представляют собой CAB-файлы, извлеченные при скачивании фоновой интеллектуальной службы передачи (BITS) по HTTP.|
+
+|          Параметр           |           Рекомендованное значение           |                                                                                                  Подробные сведения                                                                                                  |
+|----------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|         Размер кэша         |             От 5 до 30 ГБ             | Значение зависит от числа клиентских компьютеров в сети и используемых конфигураций. Чтобы предотвратить слишком быстрое удаление файлов, скорректируйте размер кэша в соответствии с вашей средой. |
+| Размер отдельного файла кэша |                950 МБ                 |                                                                     Этот параметр может быть доступен не на всех прокси-серверах кэширования.                                                                     |
+|   Типы объектов, подлежащих кэшированию    | HTTP<br /><br />HTTPS<br /><br />BITS |                                               Пакеты Intune представляют собой CAB-файлы, извлеченные при скачивании фоновой интеллектуальной службы передачи (BITS) по HTTP.                                               |
+
 Дополнительные сведения об использовании прокси-сервера для кэширования содержимого см. в документации по вашему решению прокси-сервера.
 
 ### <a name="use-background-intelligent-transfer-service-on-computers"></a>Использование фоновой интеллектуальной службы передачи данных (BITS) на компьютерах
@@ -159,14 +161,16 @@ Intune не использует локальную инфраструктуру
 |fef.msuc05.manage.microsoft.com|52.230.16.180|
 
 ### <a name="apple-device-network-information"></a>Сведений о сети на устройстве Apple
-| Имя узла  | URL-адрес (IP-адрес и подсеть) | Протокол | Port | Устройство |
-| --- | --- | --- | --- | --- |
-|  Административная консоль  | gateway.push.apple.com (17.0.0.0/8) | TCP | 2195 | Apple iOS и macOS |
-| Административная консоль  | feedback.push.apple.com(17.0.0.0/8) | TCP | 2196 | Apple iOS и macOS |
-| Административная консоль  | Apple iTunesitunes.apple.com, \*.mzstatic.com, \*.phobos.apple.com, \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple iOS и macOS  |
-| PI Server  | gateway.push.apple.com(17.0.0.0/8) feedback.push.apple.com(17.0.0.0/8) | TCP | 2195, 2196 | Для облачной системы обмена сообщениями Apple iOS и macOS. |
-| Службы устройств  | gateway.push.apple.com | TCP | 2195 | Apple  |
-| Службы устройств  | feedback.push.apple.com | TCP | 2196 | Apple  |
-| Службы устройств  | Apple iTunesitunes.apple.com \*.mzstatic.com\*.phobos.apple.com \*.phobos.apple.com.edgesuite.net | HTTP | 80 | Apple  |
-| Устройства (Интернет и Wi-Fi) | #-courier.push.apple.com(17.0.0.0/8) | TCP | 5223 и 443 | Только Apple. &#39;#&#39; — это случайное число от 0 до 200. |
-| Устройства (Интернет и Wi-Fi) | phobos.apple.comocsp.apple.comax.itunes.apple.com | HTTP/HTTPS | 80 или 443 | Только Apple |
+
+|         Имя узла         |                                        URL-адрес (IP-адрес и подсеть)                                        |  Протокол  |     Port     |                          Устройство                           |
+|--------------------------|-------------------------------------------------------------------------------------------------------|------------|--------------|-----------------------------------------------------------|
+|      Административная консоль       |                                  gateway.push.apple.com (17.0.0.0/8)                                  |    TCP     |     2195     |                    Apple iOS и macOS                    |
+|      Административная консоль       |                                  feedback.push.apple.com(17.0.0.0/8)                                  |    TCP     |     2196     |                    Apple iOS и macOS                    |
+|      Административная консоль       | Apple iTunesitunes.apple.com, \*.mzstatic.com, \*.phobos.apple.com, \*.phobos.apple.com.edgesuite.net |    HTTP    |      80      |                    Apple iOS и macOS                    |
+|        PI Server         |                gateway.push.apple.com(17.0.0.0/8) feedback.push.apple.com(17.0.0.0/8)                 |    TCP     |  2195, 2196  |         Для облачной системы обмена сообщениями Apple iOS и macOS.          |
+|     Службы устройств      |                                        gateway.push.apple.com                                         |    TCP     |     2195     |                           Apple                           |
+|     Службы устройств      |                                        feedback.push.apple.com                                        |    TCP     |     2196     |                           Apple                           |
+|     Службы устройств      |   Apple iTunesitunes.apple.com \*.mzstatic.com\*.phobos.apple.com \*.phobos.apple.com.edgesuite.net   |    HTTP    |      80      |                           Apple                           |
+| Устройства (Интернет и Wi-Fi) |                                 #-courier.push.apple.com(17.0.0.0/8)                                  |    TCP     | 5223 и 443 | Только Apple. &#39;#&#39; — это случайное число от 0 до 200. |
+| Устройства (Интернет и Wi-Fi) |                           phobos.apple.comocsp.apple.comax.itunes.apple.com                           | HTTP/HTTPS |  80 или 443   |                        Только Apple                         |
+

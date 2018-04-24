@@ -5,12 +5,12 @@
   - Mac OS X 10.9 и более поздние версии
 
 ### <a name="windows"></a>Windows
-  - Компьютеры под управлением Windows 10 (Домашняя, Профессиональная, Корпоративная версии и версия для образовательных учреждений)
-  - Windows 10 Mobile
-  - Устройства под управлением Windows 10 IoT Enterprise (x86, x64)
-  - Устройства под управлением Windows 10 IoT Mobile Enterprise
-  - Windows Holographic и Windows Holographic Enterprise
-  - Windows Phone 8.1, Windows 8.1 RT, компьютеры под управлением Windows 8.1 (режим поддержки)
+- Компьютеры под управлением Windows 10 (Домашняя, Профессиональная, Корпоративная версии и версия для образовательных учреждений)
+- Windows 10 Mobile
+- Устройства под управлением Windows 10 IoT Enterprise (x86, x64)
+- Устройства под управлением Windows 10 IoT Mobile Enterprise
+- Windows Holographic и Windows Holographic Enterprise
+- Windows Phone 8.1, Windows 8.1 RT, компьютеры под управлением Windows 8.1 (режим поддержки)
 
   Клиенты с Enterprise Management + Security (EMS) могут также [использовать Azure Active Directory (AAD) для регистрации устройств с Windows 10](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#azure-active-directory-enrollment).
 

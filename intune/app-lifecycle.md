@@ -1,28 +1,28 @@
 ---
-title: "Общие сведения о жизненном цикле приложений в Microsoft Intune"
-description: "Узнайте о жизненном цикле управляемых приложений в Microsoft Intune. Жизненный цикл приложения включает в себя добавление, развертывание, настройку, защиту и снятия с учета."
-keywords: 
+title: Общие сведения о жизненном цикле приложений в Microsoft Intune
+description: Узнайте о жизненном цикле управляемых приложений в Microsoft Intune. Жизненный цикл приложения включает в себя добавление, развертывание, настройку, защиту и снятия с учета.
+keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 03/02/2018
 ms.topic: get-started-article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 60347012-bc3f-4b9a-a4f4-6d3c5021a6e6
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: apps
-ms.openlocfilehash: 732323d1d882a256128ae731cab68656126583b2
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 853873480beb5e95a195e04e251cea9975ce03b4
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="overview-of-the-app-lifecycle-in-microsoft-intune"></a>Общие сведения о жизненном цикле приложений в Microsoft Intune
 
-[!INCLUDE[both-portals](./includes/note-for-both-portals.md)]
+[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
 
 Жизненный цикл приложений в Microsoft Intune начинается с добавления приложений. Затем они проходят дополнительные этапы вплоть до своего удаления. Изучив эти этапы, вы узнаете все необходимое для начала работы с управлением приложениями в Intune.
 

@@ -1,50 +1,50 @@
 ---
-title: "Профили сертификатов для доступа к ресурсам"
-description: "Защита доступа к VPN, Wi-Fi и электронной почте с помощью сертификата, устанавливаемого на каждом устройстве пользователя."
-keywords: 
+title: Профили сертификатов для доступа к ресурсам
+description: Защита доступа к VPN, Wi-Fi и электронной почте с помощью сертификата, устанавливаемого на каждом устройстве пользователя.
+keywords: ''
 author: vhorne
 ms.author: victorh
 manager: angrobe
 ms.date: 02/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 8cbb8499-611d-4217-a7b4-e9b864785dd0
 ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 76083268d3c7ed43cea0bc0d9751ae9c37c7227b
-ms.sourcegitcommit: 3b397b1dcb780e2f82a3d8fba693773f1a9fcde1
+ms.openlocfilehash: ccfd69579832c553dc1416c21ca93b85cd93cd78
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="secure-resource-access-with-certificate-profiles-in-microsoft-intune"></a>Защита доступа к ресурсам с помощью профилей сертификатов в Microsoft Intune
 
-[!INCLUDE[classic-portal](../includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 При предоставлении пользователям доступа к корпоративным ресурсам через профили VPN, Wi-Fi или электронной почты можно обеспечить безопасность доступа, установив сертификат на каждом устройстве. Это работает следующим образом.
 
 1. Настройте подходящую инфраструктуру сертификатов, как описано в статьях [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) и [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md).
 
 2. Установите корневой сертификат (или промежуточный сертификат центра сертификации (ЦС)) на каждом устройстве, чтобы оно распознавало подлинность вашего ЦС. Для этого создайте и разверните **профиль доверенного сертификата**. При его развертывании устройства, которыми вы управляете с помощью Intune, запрашивают и получают корневой сертификат. Необходимо создать отдельный профиль для каждой платформы. **Профиль доверенного сертификата** доступен для следующих платформ:
- -  Устройства iOS 8.0 и более поздней версии
- -  Mac OS X 10.9 и более поздние версии
- -  Android 4.0 и более поздней версии
- -  Android for Work
- -  Windows 8.1 и более поздние версии
- -  Windows Phone 8.1 и более поздней версии
+   -  Устройства iOS 8.0 и более поздней версии
+   -  Mac OS X 10.9 и более поздние версии
+   -  Android 4.0 и более поздней версии
+   -  Android for Work
+   -  Windows 8.1 и более поздние версии
+   -  Windows Phone 8.1 и более поздней версии
 
 3. Создайте профили сертификатов, чтобы устройства запрашивали сертификат, используемый для проверки подлинности доступа к VPN, Wi-Fi и электронной почте, как описано в статье [Настройка профилей сертификатов Intune](configure-intune-certificate-profiles.md). Можно создать и развернуть **профиль сертификата PKCS 12 (PFX)** *или* **профиль сертификата SCEP** для устройств на следующих платформах:
 
-  -  Устройства iOS 8.0 и более поздней версии
-  -  Android 4.0 и более поздней версии
-  -  Android for Work
-  -  Windows 10 (Desktop и Mobile) и более поздних версий
+   -  Устройства iOS 8.0 и более поздней версии
+   -  Android 4.0 и более поздней версии
+   -  Android for Work
+   -  Windows 10 (Desktop и Mobile) и более поздних версий
 
-  Используйте **профиль сертификата SCEP** для устройств на следующих платформах:
+   Используйте **профиль сертификата SCEP** для устройств на следующих платформах:
     -   Mac OS X 10.9 и более поздние версии
     -   Windows Phone 8.1
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 12/12/2017
 >-  Если вы планируете использовать профили SCEP или PFX, необходимо скачать и настроить соединитель сертификатов Microsoft Intune.
 >-  Сведения о настройке всех необходимых служб описаны в статьях [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md) и [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md).
 
-### <a name="next-steps"></a>Дальнейшие действия
+### <a name="next-steps"></a>Дальнейшие шаги
 - [Настройка инфраструктуры сертификатов для SCEP](configure-certificate-infrastructure-for-scep.md)
 - [Настройка инфраструктуры сертификатов для PFX](configure-certificate-infrastructure-for-pfx.md)
 - [Настройка профилей сертификатов Intune](configure-intune-certificate-profiles.md)

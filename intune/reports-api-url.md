@@ -15,17 +15,17 @@ ms.assetid: A7A174EC-109D-4BB8-B460-F53AA2D033E6
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b09622db88288ccc5b4866cb71ba902d969c0487
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 2b25140cb5c3c8c70ff42186352362c57dcf6ee7
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Конечная точка API для хранилища данных Intune
 
 Вы можете использовать API хранилища данных Intune с помощью учетной записи, используя определенные меры управления доступом на основе ролей и учетные данные Azure AD. Позднее вы авторизуете свой клиент REST с помощью Azure AD, используя OAuth 2.0. Наконец, вы сформируете значимый URL-адрес для вызова ресурса хранилища данных.
 
-[!INCLUDE[reports-credential-reqs](./includes/reports-credential-reqs.md)]
+[!INCLUDE [reports-credential-reqs](./includes/reports-credential-reqs.md)]
 
 ## <a name="authorization"></a>Авторизация
 
@@ -38,7 +38,7 @@ Azure Active Directory (Azure AD) использует OAuth 2.0, чтобы п�
 Конечные точки API для хранилища данных считывают сущности для каждого набора. API поддерживает команду **GET** HTTP и подмножество параметров запроса.
 
 URL-адрес для Intune использует следующий формат:  
-https://fef.{***location***}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{***entity-collection***}?api-version={***api-version***}
+https://fef.{<strong><em>местоположение</em></strong>}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{<strong><em>коллекция_сущностей</em></strong>}?api-version={<strong><em>версия_api</em></strong>}
 
 URL-адрес содержит следующие элементы:
 

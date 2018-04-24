@@ -1,27 +1,26 @@
 ---
-title: "Настройка параметров ограничений устройств в Microsoft Intune"
-titleSuffix: 
-description: "Сведения о настройке параметров и функций на управляемых устройствах с помощью Microsoft Intune."
-keywords: 
-author: vhorne
-ms.author: victorh
+title: Настройка параметров ограничений устройств в Microsoft Intune в Azure | Документы Майкрософт
+description: Вы можете добавить профиль устройства для ограничения возможностей на устройствах Android, macOS, iOS, Windows Phone и Windows 10 в Microsoft Intune.
+keywords: ''
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
-ms.date: 3/1/2018
+ms.date: 3/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 62c12cde5ca128a26b10e0e4516e0bbf7e0f0bbb
-ms.sourcegitcommit: aafed032492c1b5861d7097a335f9bbb29ce3221
+ms.openlocfilehash: 13f93f9fcf813c2e86809d2cc20991d2fd635187
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="how-to-configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений для устройств iOS в Microsoft Intune
+# <a name="configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений устройств в Microsoft Intune
 
-[!INCLUDE[azure_portal](./includes/azure_portal.md)]
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Ограничения устройств позволяют управлять параметрами и функциями для различных категорий, таких как:
 - Безопасность
@@ -36,11 +35,9 @@ ms.lasthandoff: 03/02/2018
 ## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
 
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. На странице **Intune** выберите пункт **Конфигурация устройства**.
-2. На странице **Конфигурации устройства** в разделе **Управление** выберите **Профили**.
-3. На странице **Профили** нажмите **Создать профиль**.
-4. На странице **Создать профиль** введите **имя** и **описание** для профиля ограничения устройства.
+2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+3. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
+4. Введите значения в поля **Имя** и **Описание** для профиля ограничения устройства.
 5. В раскрывающемся списке **Платформа** выберите платформу устройства, к которой необходимо применить настроенные параметры. Сейчас для параметров ограничения устройства можно выбрать одну из следующих платформ:
     - **Android**
     - **iOS**

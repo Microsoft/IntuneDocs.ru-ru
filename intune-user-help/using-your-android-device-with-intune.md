@@ -1,27 +1,27 @@
 ---
-title: "Использование устройства Android в Intune | Документы Майкрософт"
-description: "Список ссылок на задачи, которые можно выполнять на мобильном устройстве Android, зарегистрированном в Intune"
-keywords: 
-author: barlanmsft
-ms.author: barlan
+title: Использование устройства Android в Intune | Документы Майкрософт
+description: Список ссылок на задачи, которые можно выполнять на мобильном устройстве Android, зарегистрированном в Intune
+keywords: ''
+author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 465763db-b68d-4392-a5a4-732b5b875c2b
 searchScope:
 - User help
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 09992912c439e639f7410ea93a95f0c52ed9a22d
-ms.sourcegitcommit: a41ad9988a8c14e6b15123a9ea9bc29ac437a4ce
+ms.openlocfilehash: 347757a333bcfd8e649cb621f0a95c83f24cdc88
+ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-your-android-device-with-intune"></a>Использование устройства Android с Intune
 
@@ -44,11 +44,11 @@ ms.lasthandoff: 01/25/2018
 - [Задание ПИН-кода или пароля](set-your-pin-or-password-android.md)
 - [Установка виртуальной частной сети (VPN) компании](install-your-companys-virtual-private-network-VPN-android.md)
 - [Установка интервала времени до блокировки устройства](set-the-amount-of-time-before-your-device-is-locked-android.md)
-<!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-android.md)-->
+  <!--- [Reset (erase) your lost or stolen device](reset-erase-your-lost-or-stolen-device-android.md)-->
 - [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-device-cpwebsite.md)
 - [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-android.md)
 - [Отмена регистрации устройства в Intune](unenroll-your-device-from-intune-android.md)
 - [Отмена регистрации устройства при отказе от условий использования](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
 - [Что происходит при отмене регистрации устройства в Intune?](what-happens-if-you-unenroll-your-device-from-intune-android.md)
 - [Что происходит при сбросе вашего устройства Android с помощью приложения корпоративного портала?](what-happens-if-you-reset-your-device-using-the-company-portal-android.md)
-<!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
+  <!--- - [What is the Rights Management sharing app?](what-is-the-rms-sharing-app-android.md) --->
