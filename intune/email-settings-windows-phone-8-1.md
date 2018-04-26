@@ -3,8 +3,8 @@ title: Параметры электронной почты для устрой�
 titleSuffix: ''
 description: Узнайте о параметрах Intune, которые можно использовать для настройки подключений электронной почты на устройствах Windows Phone 8.1.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a8d0ce028fbfa214240ce7973a2a0699a8c88a6a
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 4c10ba57930a7aa22fdc2b56f6450437eb613cd9
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="email-profile-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Параметры профиля электронной почты в Microsoft Intune для устройств Windows Phone 8.1
 

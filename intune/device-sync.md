@@ -2,8 +2,8 @@
 title: Синхронизация устройств с помощью Microsoft Intune в Azure | Документация Майкрософт
 description: Синхронизируйте устройства, зарегистрированные или управляемые с помощью Microsoft Intune, для получения последних политик и действий. В статье описано, как выполнить синхронизацию с помощью портала Azure, а также перечислены коды ошибок с возможностью повторных попыток.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1c098c3d7f71a45830f45877f5ce794d9e112b5e
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: fb609f0d99378e2e30b3c3a4f769781448aea1b5
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>Синхронизация устройств с Intune для получения последних политик и действий
 

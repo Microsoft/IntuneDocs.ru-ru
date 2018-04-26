@@ -2,8 +2,8 @@
 title: Что такое Microsoft Intune?
 description: Узнайте о том, что Intune является компонентом управления мобильными устройствами (MDM) и мобильными приложениями (MAM) решения Enterprise Mobility + Security и помогает защитить данные организации.
 keywords: что такое Intune
-author: Erikre
-ms.author: erikre
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: get-started-article
@@ -14,11 +14,11 @@ ms.assetid: 3b4e778d-ac13-4c23-974f-5122f74626bc
 ms.reviewer: pmay
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: 25bb5ec1610eb3d3cac02244a43ead6e63d441e5
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 23d669bfd535fb08bb52d194a1852aa774b5a186
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-is-intune"></a>Что такое Intune?
 

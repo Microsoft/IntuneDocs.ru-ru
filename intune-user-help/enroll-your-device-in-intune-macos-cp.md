@@ -17,18 +17,16 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: e3990c0670516de907ac048b844152014db5be57
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 3dac9446d7a1097f5be4d0851cd78e8cbb86cc4e
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>Регистрация устройства macOS в Intune с помощью приложения корпоративного портала
 
 Благодаря доступу к приложениям, данным и ресурсам организации пользователям будет проще выполнять свою работу. Ваша организация использует Intune для [управления доступом к этим ресурсам](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-macos.md), для чего необходимо скачать приложение корпоративного портала для macOS. Эти инструкции применимы для устройств macOS на базе на OS X El Capitan 10.11+.
 
-> [!NOTE]
-> Инструкции по регистрации устройств с более старыми версиями macOS можно найти [здесь](enroll-your-device-in-intune-macos-legacy.md).
 
 1. На панели __Dock__ найдите браузер __Safari__ и откройте новое окно, а затем перейдите на [корпоративный портал](https://portal.manage.microsoft.com).
 

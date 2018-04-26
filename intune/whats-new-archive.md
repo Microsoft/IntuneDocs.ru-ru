@@ -3,8 +3,8 @@ title: Новые возможности в Microsoft Intune в Azure за пр�
 titlesuffix: ''
 description: Обзор предыдущих объявлений на странице новых возможностей в Intune
 keywords: ''
-author: brenduns
-ms.author: brenduns
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 10/19/2017
 ms.topic: article
@@ -16,11 +16,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d87cf0a56a6b114a210242691d0441882c186964
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 5f6e44c083e08e4b4d34e6f8f60365e0511fa148
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-microsoft-intune---previous-months"></a>Новые возможности в Microsoft Intune — предыдущие месяцы
 

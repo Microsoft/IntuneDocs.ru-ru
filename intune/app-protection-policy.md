@@ -3,8 +3,8 @@ title: Что такое политики защиты приложений
 titleSuffix: Microsoft Intune
 description: Узнайте, как политики защиты приложений Microsoft Intune позволяют защитить данные компании и предотвратить их потерю.
 keywords: ''
-author: erikre
-ms.author: erikre
+author: msmimart
+ms.author: mimart
 manager: dougeby
 ms.date: 01/19/2018
 ms.topic: get-started-article
@@ -15,11 +15,11 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c4483baa68267b7a7218a4e78fe5275d1ea8d330
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: f59bd4e0f795b73d830e41d47262c10c24d9398b
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 

@@ -3,8 +3,8 @@ title: Параметры Wi-Fi в Microsoft Intune для устройств п
 titleSuffix: ''
 description: Сведения о параметрах Intune, которые можно использовать для настройки подключений Wi-Fi на устройствах macOS.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6f0feb00949375cf65428d061af81813cfcd5249
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 81bd3cb54a1490732083b52a1fe242146183eebc
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="wi-fi-settings-for-macos-devices-in-microsoft-intune"></a>Параметры Wi-Fi для устройств macOS в Microsoft Intune
 

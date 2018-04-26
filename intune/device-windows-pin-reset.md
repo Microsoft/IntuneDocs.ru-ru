@@ -1,23 +1,23 @@
 ---
-title: "Сброс секретного кода на устройствах Windows с помощью Microsoft Intune — Azure | Документы Майкрософт"
-description: "Чтобы сбросить секретный код на устройствах Windows, установите службу сброса ПИН-кода Майкрософт и клиент сброса ПИН-кода Майкрософт, создайте политику устройств с помощью идентификатора каталога Active Directory Azure, а затем сбросьте секретный код на портале Azure с помощью Microsoft Intune."
-keywords: 
-author: MandiOhlinger
-ms.author: mandia
+title: Сброс секретного кода на устройствах Windows с помощью Microsoft Intune — Azure | Документы Майкрософт
+description: Чтобы сбросить секретный код на устройствах Windows, установите службу сброса ПИН-кода Майкрософт и клиент сброса ПИН-кода Майкрософт, создайте политику устройств с помощью идентификатора каталога Active Directory Azure, а затем сбросьте секретный код на портале Azure с помощью Microsoft Intune.
+keywords: ''
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 03/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5027d012-d6c2-4971-a9ac-217f91d67d87
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 14a5654e72352b9dc8ebd51e6c926ea963e7432d
-ms.sourcegitcommit: 9cf05d3cb8099e4a238dae9b561920801ad5cdc6
+ms.openlocfilehash: d3ceaaa1cce79483c446342b12d9918bb6beac42
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="reset-the-passcode-on-windows-devices-using-intune"></a>Сброс секретного кода на устройствах Windows с помощью Intune
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 03/09/2018
 ## <a name="reset-the-passcode"></a>Сброс секретного кода
 
 1. Войдите на [портал Azure](https://portal.azure.com). 
-2. Выберите **Все службы**, отфильтруйте по **Intune** и выберите **Microsoft Intune**.
+2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
 3. Нажмите **Устройства** и выберите **Все устройства**.
 4. Выберите устройство, для которого необходимо сбросить секретный код. В свойствах устройства выберите **Новый секретный код**.
 5. Нажмите кнопку **Да** для подтверждения. Формируется секретный код, который отображается на портале в течение следующих семи дней.

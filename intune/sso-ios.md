@@ -3,8 +3,8 @@ title: Настройка единого входа на устройствах 
 titlesuffix: ''
 description: Узнайте, как настроить единый вход на устройствах с iOS в Microsoft Intune.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/2/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b9afd14fd3ba4e464f0bf09c228290ef2f19eac3
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: c1aaffb2da1f4ec081b59ff6ca1922d983008f77
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-microsoft-intune-for-ios-device-single-sign-on"></a>Настройка единого входа на устройствах с iOS в Microsoft Intune
 

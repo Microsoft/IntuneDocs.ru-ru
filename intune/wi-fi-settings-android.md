@@ -3,8 +3,8 @@ title: Настройка параметров Wi-Fi для устройств A
 titleSuffix: ''
 description: Сведения о настройке параметров конфигурации Wi-Fi в Intune для устройств Android и Android for Work.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/5/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c110121ceb3d7ff871078c39f73b17606e2e7f13
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: ee82da997a794bb2f65929a6fd9e0de0cc776a6e
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-wi-fi-settings-in-microsoft-intune-for-devices-running-android-and-android-for-work"></a>Параметры Wi-Fi в Microsoft Intune для устройств Android и Android for Work  
 

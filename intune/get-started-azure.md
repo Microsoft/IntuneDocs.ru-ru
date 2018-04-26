@@ -3,8 +3,8 @@ title: Начало работы с Microsoft Intune на портале Azure
 titlesuffix: ''
 description: Сведения о создании, совместном использовании и просмотре панелей мониторинга в Microsoft Intune на портале Azure.
 keywords: ''
-author: Erikre
-ms.author: erikre
+author: dougeby
+ms.author: dougeby
 manager: dougeby
 ms.date: 02/26/2018
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 917c0eed-96d0-49d8-8db8-a6ba13ad0e1f
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f2d0a77c9e9e36db53c23031fd9f06f508fef15d
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 859194b364a64854922993d2d798f318b260fc80
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="getting-started-with-microsoft-intune-in-the-azure-portal"></a>Начало работы с Microsoft Intune на портале Azure
 

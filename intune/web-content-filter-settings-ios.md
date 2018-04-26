@@ -3,8 +3,8 @@ title: Параметры фильтра веб-содержимого Microsoft
 titlesuffix: ''
 description: Сведения о параметрах, которые можно использовать для разрешения и блокирования доступа к веб-сайтам с устройств iOS в Microsoft Intune.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 03/05/2018
 ms.topic: article
@@ -14,11 +14,11 @@ ms.technology: ''
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c5e3dbdc339fd25289e1aed526bc03e4691c3812
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 9ea7a9219c69326dcefc71a35339ebb10a3c5ed1
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="web-content-filter-settings-for-ios-devices"></a>Параметры фильтра веб-содержимого для устройств iOS
 
