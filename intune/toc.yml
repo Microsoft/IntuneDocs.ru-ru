@@ -407,8 +407,6 @@
           href: edition-upgrade-configure-windows-10.md
         - name: Настройка параметров Windows 10 для образовательных учреждений
           href: education-settings-configure.md
-        - name: Настройка параметров iOS для образовательных учреждений
-          href: education-settings-configure-ios.md
         - name: Настройка общих устройств iOS для образовательных учреждений
           href: education-settings-configure-ios-shared.md
         - name: Настройка политик обновления iOS
@@ -511,6 +509,8 @@
                   href: mtd-device-compliance-policy-create.md
                 - name: Включение MTD в Intune
                   href: mtd-connector-enable.md
+        - name: Advanced Threat Protection
+          href: advanced-threat-protection.md
         - name: Управление доступом к сети
           href: network-access-control-integrate.md
         - name: Настройка Windows Hello
@@ -596,6 +596,10 @@
           href: data-intune-sends-to-apple.md
         - name: 'Данные, отправляемые Intune в Google'
           href: data-intune-sends-to-google.md
+        - name: 'Данные, которые Apple отправляет в Intune'
+          href: data-apple-sends-to-intune.md
+        - name: 'Данные, которые Google отправляет в Intune'
+          href: data-google-sends-to-intune.md
     - name: Мониторинг и устранение неполадок
       items:
         - name: Помощь пользователям в устранении проблем
@@ -694,6 +698,8 @@
               href: reports-ref-user-device.md
             - name: Справочник по сущности пользователя
               href: reports-ref-user.md
+        - name: Перенос учетной записи хранилища данных Intune
+          href: data-warehouse-account-move.md
     - name: Доступ к API Intune в Microsoft Graph с использованием Azure AD
       href: intune-graph-apis.md
       items:
