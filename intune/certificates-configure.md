@@ -14,11 +14,11 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 867a846b43edb3392db2be11e7ea544fa9317b6c
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 89f8ddc105787bc7ff4f7cfc1e226d28589ecbbf
+ms.sourcegitcommit: 9536300a6211bac4bdc733593a40c1ae47611de3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="configure-a-certificate-profile-for-your-devices-in-microsoft-intune"></a>Настройка профиля сертификата для устройств в Microsoft Intune
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 04/16/2018
 2. Установите корневой сертификат (или промежуточный сертификат центра сертификации (ЦС)) на каждом устройстве, чтобы оно распознавало подлинность вашего ЦС. Для этого создайте и назначьте **профиль доверенного сертификата**. При его назначении устройства, которыми вы управляете с помощью Intune, запрашивают и получают корневой сертификат. Необходимо создать отдельный профиль для каждой платформы. Профили доверенного сертификата доступны для следующих платформ:
 
     - Устройства iOS 8.0 и более поздней версии
-    - устройства macOS 10.9 и более поздней версии;
+    - macOS 10.11 и более поздние версии
     - Android 4.0 и более поздней версии
     - Android for Work
     - Windows 8.1 и более поздние версии
