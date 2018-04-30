@@ -3,8 +3,8 @@ title: Параметры VPN для устройств Windows Phone 8.1 в Mi
 titleSuffix: ''
 description: Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Windows Phone 8.1.
 keywords: ''
-author: vhorne
-ms.author: victorh
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 458586a2d507e913eb702c0ee2e3c0531350f1b4
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 3572022b491439d2cf624b2ed3f1d53ffaf54d7d
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Настройка параметров VPN для устройств Windows Phone 8.1 в Microsoft Intune
 
