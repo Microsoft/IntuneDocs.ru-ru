@@ -15,11 +15,11 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 67e2630fc2a7ccd75ac86c797e36c389757d908a
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 46857dcf24befb0cf552769d48b99020c36e3e5b
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -27,13 +27,13 @@ ms.lasthandoff: 04/26/2018
 
 VPN на уровне приложений в настоящее время доступен для следующих поставщиков: 
 
- - Pulse Connect Secure;
  - VPN удаленного доступа к контрольной точке;
  - F5
+ - Pulse Connect Secure;
  - SonicWall
 
 
-## <a name="prerequisites-for-the-per-app-vpn"></a>Необходимые условия для VPN на уровне приложения
+## <a name="prerequisites-for-per-app-vpn"></a>Необходимые условия для использования VPN на уровне приложения
 
 Чтобы доказать свою подлинность, VPN-сервер предоставляет сертификат, который должен быть принят устройством без запроса. Для автоматического утверждения сертификата следует создать профиль доверенного сертификата, который содержит корневой сертификат VPN-сервера, выданный центром сертификации (ЦС). 
 
