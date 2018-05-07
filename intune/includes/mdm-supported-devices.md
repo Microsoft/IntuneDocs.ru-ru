@@ -2,7 +2,7 @@
 
 ### <a name="apple"></a>Apple
 - Apple iOS 9.0 и более поздней версии
-- Mac OS X 10.9 и более поздние версии
+- Mac OS X 10.11 (и более поздней версии).
 
 ### <a name="google"></a>Google
 - Android 4.4 и более поздние версии (включая Samsung Knox Standard 4.4 и более поздние версии)
@@ -14,6 +14,7 @@
 
 ### <a name="microsoft"></a>Microsoft
 
+- Surface Hub.
 - Windows 10 (Домашняя, S, Pro, Корпоративная и версия для образовательных учреждений).
 - Windows 10 Mobile
 - Windows 10 IoT Корпоративная (32- и 64-разрядные версии)

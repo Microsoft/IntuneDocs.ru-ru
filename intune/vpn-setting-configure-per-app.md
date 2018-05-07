@@ -3,8 +3,8 @@ title: Настройка VPN на уровне приложения на уст
 titleSuffix: ''
 description: Укажите, каким управляемым приложениям разрешено использовать виртуальную частную сеть (VPN) на устройствах iOS, управляемых Intune.
 keywords: ''
-author: Erikre
-ms.author: erikre
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 03/02/2018
 ms.topic: article
@@ -15,15 +15,23 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 1b28f809c924ec2699647a3cc377b3bdde86afe5
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 67e2630fc2a7ccd75ac86c797e36c389757d908a
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
 Укажите, каким управляемым приложениям разрешено использовать виртуальную частную сеть (VPN) на устройствах iOS, управляемых Intune. После настройки VPN на уровне приложений в Intune конечный пользователь сможет автоматически подключаться через VPN для доступа к корпоративным документам.
+
+VPN на уровне приложений в настоящее время доступен для следующих поставщиков: 
+
+ - Pulse Connect Secure;
+ - VPN удаленного доступа к контрольной точке;
+ - F5
+ - SonicWall
+
 
 ## <a name="prerequisites-for-the-per-app-vpn"></a>Необходимые условия для VPN на уровне приложения
 
@@ -37,7 +45,7 @@ ms.lasthandoff: 04/16/2018
 4. Добавьте имя центра сертификации, выдавшего сертификат для проверки подлинности на VPN-сервере.
     Если центр сертификации, представленный устройством совпадает с одним из центров сертификации в списке доверенных ЦС на VPN-сервере, VPN-сервер успешно проверяет подлинность устройства.
 
-## <a name="create-a--group-for-your-vpn-users"></a>Создание группы для пользователей VPN
+## <a name="create-a-group-for-your-vpn-users"></a>Создание группы для пользователей VPN
 
 Создайте или выберите существующую группу в Azure Active Directory (Azure AD), которая будет содержать члены, имеющие доступ к VPN на уровне приложения.
 

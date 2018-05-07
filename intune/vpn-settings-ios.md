@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 3/27/2018
+ms.date: 4/17/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3ce970f942d8ea20eb9ea593c23160757122926e
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 374c3937d04fd546c17d6f147609f448875dddba
+ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-ios"></a>Настройка параметров VPN для устройств iOS в Microsoft Intune
 
@@ -36,12 +36,17 @@ ms.lasthandoff: 04/16/2018
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
   - **Check Point Capsule VPN**;
   - **Cisco AnyConnect**
+  - **Cisco AnyConnect прежней версии**;
   - **SonicWall Mobile Connect**;
   - **F5 Edge Client**
   - **Pulse Secure**
   - **Cisco (IPSec)**;
   - **Citrix**;
   - **Пользовательская сеть VPN**.
+
+    > [!NOTE]
+    > - Профили **VPN прежней версии Cisco AnyConnect** предназначены для приложения [Cisco AnyConnect](https://itunes.apple.com/app/cisco-legacy-anyconnect/id392790924) версии 4.0.5x и более ранних.
+    > - Профили **VPN Cisco AnyConnect** предназначены для приложения [Cisco AnyConnect](https://itunes.apple.com/app/cisco-anyconnect/id1135064690) версии 4.0.7x и более поздних.
 
 - **Разделить туннелирование**. Выберите **Включить** или **Отключить** этот параметр, позволяющий устройствам выбрать нужное подключение в зависимости от трафика. Например, пользователь в отеле использует VPN-подключение для доступа к рабочим файлам, а стандартную сеть отеля — для обычного просмотра веб-страниц.
 
@@ -75,3 +80,6 @@ ms.lasthandoff: 04/16/2018
 - **Скрипт автоматической настройки.** Используйте файл для настройки прокси-сервера. Введите **URL-адрес прокси-сервера** (например, **http://proxy.contoso.com**), на котором находится файл конфигурации.
 - **Адрес**. Введите IP-адрес полного доменного имени узла прокси-сервера.
 - **Номер порта**. Введите номер порта, связанного с прокси-сервером.
+
+## <a name="next-step"></a>Дальнейшие действия
+[Создание профилей VPN в Intune](vpn-settings-configure.md)

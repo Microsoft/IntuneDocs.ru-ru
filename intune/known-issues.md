@@ -5,7 +5,7 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 03/27/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d0a8a189e708ed140c3cda987a20cebb562fdb34
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 388c9f69b6cbee1353b0e21121a47576b58b3ba6
+ms.sourcegitcommit: 407191a92ef356a3d196b6f9959b9b033190ca2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Известные проблемы в Microsoft Intune
 
@@ -63,9 +63,11 @@ ms.lasthandoff: 04/16/2018
 Для устройств, не зарегистрированных в Intune, можно указать только основной домен в поле **Корпоративный идентификатор** в параметрах политики Windows Information Protection.
 При добавлении дополнительных доменов с помощью команды **Дополнительные параметры** > **Периметр сети** > **Добавить защищенный домен** сохранить политику нельзя. В ближайшее время будет уточнено сообщение об ошибке, которое отображается в этом случае.
 
-### <a name="cisco-anyconnect-vpn-client-support"></a>Поддержка клиента VPN Cisco AnyConnect
-Сейчас последний выпуск клиента VPN Cisco AnyConnect (4.0.07072) несовместим с Intune. Последующее обновление Intune обеспечит совместимость с этой версией клиента VPN. До тех пор мы рекомендуем не обновлять клиент VPN Cisco AnyConnect и продолжить работу с имеющейся версией.
+### <a name="cisco-anyconnect-and-cisco-legacy-anyconnect-vpn-client-support---ios"></a>Поддержка VPN-клиента актуальной и прежней версий приложения Cisco AnyConnect на iOS
 
+На устройствах iOS интеграция управления доступом к сети не работает с новым клиентом Cisco AnyConnect. Мы сотрудничаем с Cisco, чтобы обеспечить интеграцию управления доступом к сети.
+
+В статье [Настройка параметров VPN для устройств iOS в Microsoft Intune](vpn-settings-ios.md) содержатся дополнительные сведения о клиентах актуальной и прежней версий Cisco AnyConnect.
 
 ### <a name="using-the-numeric-password-type-with-macos-sierra-devices"></a>Использование числовых паролей с устройствами macOS Sierra
 

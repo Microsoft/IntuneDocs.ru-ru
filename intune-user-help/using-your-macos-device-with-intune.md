@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/07/2017
+ms.date: 4/20/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,11 +17,11 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: bbb51300867f273da033b38d05d857034012a24e
-ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
+ms.openlocfilehash: 02ccde8299e4ad5d6aacb2abd120c094f752c5e6
+ms.sourcegitcommit: 9536300a6211bac4bdc733593a40c1ae47611de3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="using-your-macos-device-with-intune"></a>Использование устройства macOS в Intune
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 04/04/2018
 
 ## <a name="supported-versions"></a>Поддерживаемые версии
 
-Сейчас Intune поддерживает macOS 10.9 Mavericks и более поздние версии.
+Intune в настоящее время поддерживает OS X El Capitan версии 10.11 и более поздних для устройств macOS.
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Регистрация в Intune и установка корпоративного портала
 

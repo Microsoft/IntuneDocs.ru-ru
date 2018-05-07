@@ -14,11 +14,11 @@ ms.assetid: 068a73bb-e6b3-44a6-8f6e-4cf7d455bbf3
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: c760f9c76e54c0b5f9eb037414870ab1c8943803
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: e2e341e8b8befa43106673607bd5c5264dd18db0
+ms.sourcegitcommit: 2162ed46d939b4a9b85fa4e7e9943f2fb5948f1e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="compare-managing-windows-pcs-as-computers-or-mobile-devices"></a>Сравнение возможностей для управления ПК Windows как компьютерами или мобильными устройствами
 
@@ -37,9 +37,9 @@ ms.lasthandoff: 04/16/2018
 |**Управление обновлением программного обеспечения**| Обновления Windows и обновления приложений Майкрософт<br>[Обновление программного обеспечения на компьютерах с Windows](https://docs.microsoft.com/intune/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)|Использование Магазина Майкрософт для бизнеса для получения обновлений приложений Windows 10 и Майкрософт<br> [Настройка параметров Центра обновления Windows для бизнеса](https://docs.microsoft.com/intune-azure/configure-devices/how-to-configure-windows-update-for-business) |
 |**Управление лицензиями на программное обеспечение**|Доступно <br>[Управление лицензионными соглашениями для программного обеспечения компьютеров Windows](https://docs.microsoft.com/intune/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune)|Магазин Майкрософт для бизнеса (только приложения с расширением appx)<br>[Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса](https://docs.microsoft.com/intune-azure/manage-apps/wsfb-apps)|
 |**Инвентаризация**|Доступно <br>[Просмотр данных инвентаризации оборудования и программного обеспечения для компьютеров под управлением Windows](https://docs.microsoft.com/intune/deploy-use/view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune)|Доступно <br>[Отслеживание сведений о приложении](https://docs.microsoft.com/intune/apps-monitor)<br>[Что такое управление устройствами](https://docs.microsoft.com/intune/device-management)|
-|**Политика брандмауэра Windows**|Доступно <br>[Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune) |Недоступно|
+|**Политика брандмауэра Windows**|Доступно <br>[Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune) |Доступно <br>[Брандмауэр Защитника Windows](https://docs.microsoft.com/en-us/intune/endpoint-protection-windows-10#windows-defender-firewall)|
 |**Защита от вредоносных программ**|Endpoint Protection<br>[Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection](https://docs.microsoft.com/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)|Защитник Windows<br>[Параметры Защитника Windows](https://docs.microsoft.com/intune-azure/configure-devices/custom-for-windows-10#windows-defender-settings)|
-|**Удаленная поддержка** |TeamViewer<br>[Запрос и предоставление удаленной помощи для компьютеров под управлением Windows](https://docs.microsoft.com/intune/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune)|Недоступно |
+|**Удаленная поддержка** |TeamViewer<br>[Запрос и предоставление удаленной помощи для компьютеров под управлением Windows](https://docs.microsoft.com/intune/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune)|TeamViewer<br> [Использование TeamViewer для удаленного администрирования устройств Intune](https://docs.microsoft.com/en-us/intune/device-profile-android-teamviewer) |
 |**Развертывание приложений** | Недоступно для Магазина Майкрософт для бизнеса,<br>только файлы с расширением exe, appx и пакеты msi с несколькими файлами<br>[Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune](https://docs.microsoft.com/intune/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune)|Доступно для приложений Магазина Майкрософт и бизнес-приложений<br>[Добавление приложений Магазина Windows](https://docs.microsoft.com/intune/store-apps-windows)<br>[Добавление бизнес-приложений Windows](https://docs.microsoft.com/intune/lob-apps-windows)|
 |**Защита приложений**|Недоступно|Доступно <br>[Что такое политики защиты приложений?](https://docs.microsoft.com/intune-azure/manage-apps/what-is-app-protection-policy)|
 |**Аттестация работоспособности**|Недоступно|Доступно|

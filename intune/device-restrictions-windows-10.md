@@ -12,11 +12,11 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 83027a95edca04f4461cecab341deb3ec10680fb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 611ec516b87f42b41a80de605d0d511ed2c58309
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="device-restriction-for-windows-10-and-newer-settings-in-intune"></a>Параметры ограничений устройств Windows 10 (и более поздних версий) в Intune
 В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 10.
@@ -370,6 +370,11 @@ ms.lasthandoff: 04/16/2018
 - **URI ресурса службы печати** — URI ресурса OAuth для службы печати, настроенный на портале Azure.
 - **Максимум принтеров для запроса (только для мобильных устройств)** — максимальное число принтеров, которое можно запросить с конечной точки обнаружения.
 - **URI ресурса службы обнаружения принтера** — URI ресурса OAuth для службы обнаружения принтера, настроенный на портале Azure.
+
+## <a name="local-printer"></a>Локальный принтер
+- **Принтеры** — список локальных принтеров, которые были добавлены.
+- **Принтер по умолчанию** — задайте принтер по умолчанию.
+- **User access to add new printers** (Предоставление пользователям доступа для добавления новых принтеров) — разрешить или блокировать использование локальных принтеров.
 
 ## <a name="reporting-and-telemetry"></a>Отчетность и телеметрия
 

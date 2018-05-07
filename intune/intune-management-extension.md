@@ -3,8 +3,8 @@ title: Управление скриптами PowerShell в Microsoft Intune д
 titlesuffix: ''
 description: Сведения об отправке скриптов PowerShell в Microsoft Intune для выполнения на устройствах Windows 10.
 keywords: ''
-ms.author: dougeby
-author: dougeby
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 02/27/2018
 ms.topic: article
@@ -15,11 +15,11 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c501292126200baa88e06e30b6226e5c5021b8ec
-ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
+ms.openlocfilehash: 3de7af01ffa64293e420913258919eff118b4abc
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Управление сценариями PowerShell в Intune для устройств Windows 10
 Расширение управления Intune позволяет отправлять сценарии PowerShell в Intune для выполнения на устройствах Windows 10. Расширение управления дополняет возможности управления мобильными устройствами (MDM) Windows 10 и упрощает переход на современные принципы управления.
@@ -33,8 +33,8 @@ ms.lasthandoff: 03/17/2018
 
 ## <a name="prerequisites"></a>Предварительные условия
 Для расширения управления Intune требуется выполнить следующие условия:
-- устройства должны быть присоединены к Azure AD;
-- устройства должны работать под управлением Windows 10 версии 1607 или более поздней.
+- Устройства должны быть присоединены к Azure AD. Это не относится к устройствам, присоединенным к гибридному экземпляру AD.
+- Устройства должны работать под управлением Windows 10 версии 1607 или более поздней.
 
 ## <a name="create-a-powershell-script-policy"></a>Создание политики сценария PowerShell 
 1. Войдите на [портал Azure](https://portal.azure.com).
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/17/2018
 4. На панели **Конфигурация устройства** выберите **Управление** > **Сценарии PowerShell**.
 5. На панели **Сценарии PowerShell** выберите **Добавить**.
 6. На панели **Добавление сценария PowerShell** заполните поля **Имя** и **Описание** для сценария PowerShell.
-7. В поле **Расположение сценария** укажите сценарий PowerShell. Размер сценария не должен превышать 10 КБ (ASCII) или 5 КБ (Юникод).
+7. В поле **Расположение сценария** укажите сценарий PowerShell. Размер скрипта не должен превышать 200 КБ.
 8. Щелкните **Настроить** и решите, следует ли выполнять сценарий с учетными данными пользователя на устройстве (**Да**) или в контексте системы (**нет**). По умолчанию сценарий выполняется в контексте системы. Выберите **Да**, если сценарий не требуется запускать в контексте системы. 
   ![Панель добавления сценария PowerShell](./media/mgmt-extension-add-script.png)
 9. Выберите, должен ли сценарий быть подписан доверенным издателем (**Да**). По умолчанию требование к подписыванию сценария отсутствует. 

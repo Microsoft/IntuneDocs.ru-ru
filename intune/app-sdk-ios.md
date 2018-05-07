@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 01/10/2018
+ms.date: 04/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,11 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 74c709790295a971ff9efe7c2cc348d13d471d5a
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 486ff2d22cb201abc926efc96a83455be98e7536
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -458,6 +458,73 @@ WebViewHandledURLSchemes | Массив строк | Указывает схем
 
 > [!NOTE]
 > Если приложение будет размещено в магазине приложений, параметр `MAMPolicyRequired` должен быть установлен равным "NO" в соответствии со стандартами магазина приложений.
+
+## <a name="sharing-data-via-uiactivityviewcontroller"></a>Предоставление общего доступа к данным через UIActivityViewController 
+Начиная с версии 8.0.2, пакет SDK для приложений Intune будет иметь возможность фильтровать действия UIActivityViewController, чтобы расположения общего доступа, которые не относятся к Intune, не были доступны для выбора. Этим поведением будет управлять политика передачи данных приложения и предстоящая функция приложения. Предстоящая функция будет включена после того, как в большинство собственных приложений Майкрософт (например, Word, Excel, Powerpoint) будут внесены необходимые изменения для поддержки общего доступа к данным через UIActivityViewController. 
+ 
+### <a name="copy-to-actions"></a>Действия "Копировать в" 
+При предоставлении общего доступа к документам через UIActivityViewController и UIDocumentInteractionController в iOS отображаются действия "Копировать в" для каждого приложения, поддерживающего открытие такого документа. Приложения объявляют типы документов, которые они поддерживают, с помощью параметра CFBundleDocumentTypes в файле Info.plist. Этот тип предоставления общего доступа не будет доступен, если политика запрещает общий доступ к неуправляемым приложениям. В качестве обходного решения приложениям необходимо добавить не связанное с интерфейсом расширение действия в свое приложение и связать его с пакетом SDK для приложений Intune в iOS. Расширение действия выступает в качестве заглушки. Пакет SDK реализует все возможности совместного использования файлов. Выполните приведенные выше шаги по интеграции пакета SDK, а также следующие действия и требования: 
+ 
+1. Приложение должно иметь по крайней мере один schemeURL, определенный в параметре CFBundleURLTypes файла Info.plist. 
+2. Приложение и расширение действия должны совместно использовать хотя бы одну группу приложений, которая должна быть указана в массиве AppGroupIdentifiers в словаре IntuneMAMSettings для приложения и расширения. 
+3. Назовите расширение действия "Открыть в", после чего следует имя приложения. При необходимости локализуйте файл Info.plist. 
+4. Разработайте значок шаблона для расширения, как [описано в документации по разработке Apple](https://developer.apple.com/ios/human-interface-guidelines/extensions/sharing-and-actions/). Кроме того, средство IntuneMAMConfigurator можно использовать для создания этих изображений из каталога .app приложения. Выполните "IntuneMAMConfigurator -generateOpenInIcons /path/to/app.app -o /path/to/output/directory". 
+5. В разделе IntuneMAMSettings в файле Info.plist расширения добавьте логический параметр под названием OpenInActionExtension со значением YES. 
+6. Настройте NSExtensionActivationRule для поддержки одного файла и всех типов CFBundleDocumentTypes приложения с префиксом "com.microsoft.intune.mam". Например, если приложение поддерживает public.text и public.image, правило активации будет таким: 
+
+```
+SUBQUERY ( 
+    extensionItems, 
+    $extensionItem, 
+    SUBQUERY ( 
+        $extensionItem.attachments, 
+        $attachment, 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.text” || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.image”).@count == 1 
+).@count == 1 
+```
+
+### <a name="update-existing-share-and-action-extensions"></a>Обновление имеющихся расширений действия и предоставления общего доступа 
+Если приложение уже содержит расширения действия и предоставления общего доступа, тогда правило NSExtensionActivationRule будет изменено, чтобы разрешать типы Intune. Для каждого типа, поддерживаемого расширением, используется дополнительный тип с префиксом "com.microsoft.intune.mam". Например, если имеющееся правило активации:  
+
+```
+SUBQUERY ( 
+    extensionItems, 
+    $extensionItem, 
+    SUBQUERY ( 
+        $extensionItem.attachments, 
+        $attachment, 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" 
+    ).@count > 0 
+).@count > 0 
+ ```
+
+Его следует изменить на: 
+
+```
+SUBQUERY ( 
+    extensionItems, 
+    $extensionItem, 
+    SUBQUERY ( 
+        $extensionItem.attachments, 
+        $attachment, 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.url" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.plain-text" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.image" || 
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.data 
+    ).@count > 0 
+).@count > 0 
+ ```
+
+>[!Note] Средство IntuneMAMConfigurator можно использовать для добавления типов Intune в средство активации. Если имеющееся правило активации использует предварительно определенные строковые константы (например, NSExtensionActivationSupportsFileWithMaxCount, NSExtensionActivationSupportsText и т. д.), тогда синтаксис предиката может стать довольно сложным. Средство IntuneMAMConfigurator также можно использовать для преобразования правила активации из строковых констант в строку предиката при добавлении типов Intune. IntuneMAMConfigurator можно найти в репозитории GitHub. 
+
 
 ## <a name="enabling-mam-targeted-configuration-for-your-ios-applications"></a>Включение целевых конфигураций MAM для приложений iOS
 Ориентированная на MAM конфигурация позволяет приложению получать данные конфигурации с помощью пакета SDK для приложений Intune. Формат и варианты этих данных должны быть определены и переданы клиентам Intune владельцем или разработчиком приложения. Администраторы Intune могут нацеливать и развертывать данные конфигурации в Intune на портале Azure. В пакете SDK для приложений Intune для iOS версии 7.0.1 приложениям, которые входят в целевую конфигурацию MAM, можно предоставлять данные об этой конфигурации через службу MAM. Данные конфигурации приложения передаются через службу MAM непосредственно в приложения, а не по каналу MDM. Пакет SDK для приложений Intune предоставляет класс для доступа к данным, полученным из этих консолей. Примите во внимание следующие предварительные требования. <br>

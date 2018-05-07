@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 04/03/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b6ca8108924c6c062da0d0ef56ab5b68635dd9ca
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: b003fde011fd3a727c7c7a163fedb1dae6779425
+ms.sourcegitcommit: 407191a92ef356a3d196b6f9959b9b033190ca2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="the-early-edition-for-microsoft-intune---april-2018"></a>Ранний выпуск Microsoft Intune, апрель 2018 г.
 
@@ -39,6 +39,16 @@ ms.lasthandoff: 04/16/2018
 ## <a name="intune-in-the-azure-portal"></a>Intune на портале Azure
 
 <!-- 1804 start -->
+
+### <a name="show-caller-id-in-personal-profile---android-for-work---1098984---"></a>Отображение ИД звонящего в личном профиле в программе Android for Work <!--1098984 -->
+При использовании личного профиля на устройстве пользователи могут не видеть сведения об ИД звонящего, который является рабочим контактом. 
+
+В этом обновлении в разделе **Android for Work** > **Ограничения устройства** > **Параметры рабочего профиля** появился новый параметр:
+- Display work contact caller-id in personal profile (Отображать ИД звонящего, который является рабочим контактом, в личном профиле).
+
+Если этот параметр включен (не настроен), сведения о звонящем, который является рабочим контактом, отображаются в личном профиле. Если этот параметр заблокирован, номер звонящего, который является рабочим контактом, не отображается в личном профиле. 
+
+Область применения: устройства с рабочим профилем Android с ОС Android версии 6.0 или более поздней.
 
 ### <a name="new-windows-defender-credential-guard-settings-added-to-endpoint-protection-settings---1102252-----from-1802--"></a>Добавлены новые параметры Credential Guard в Защитнике Windows в раздел параметров Endpoint Protection <!--1102252 --><!--from 1802-->
 
@@ -112,6 +122,9 @@ Intune будет поддерживать возможность определ
 
 ### <a name="play-sounds-on-ios-when-in-lost-mode----1629303---"></a>Воспроизведение звуков на устройстве в iOS в режиме пропажи <!-- 1629303 -->
 Когда защищенные устройства iOS под управлением MDM находятся в [режиме пропажи](device-lost-mode.md), можно включить воспроизведение звука (**Устройства** > **Все устройства** > выберите устройство iOS > **Обзор** > **Дополнительно**). Звук будет воспроизводиться до вывода устройства из режима пропажи или отключения звукового сигнала на устройстве. Применяется к устройствам iOS 9.3 и более поздних версий.
+
+### <a name="intune-will-reinstall-required-apps-that-are-uninstalled-by-users----1947010---"></a>Intune переустанавливает требуемые приложения, которые удалили пользователи <!-- 1947010 -->
+Если пользователь удалит требуемое приложение, Intune автоматически переустановит его в течение 24 часов, не ожидая истечения 7-дневного цикла повторной оценки.
 
 ### <a name="use-a-custom-subject-name-on-scep-certificate----2064190---"></a>Использование пользовательского имени субъекта в сертификате SCEP <!-- 2064190 -->
 Вы сможете использовать общее имя **OnPremisesSamAccountName** в пользовательском субъекте в профиле сертификата SCEP. Например, можно использовать `CN={OnPremisesSamAccountName})`.

@@ -14,11 +14,11 @@ ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0dfcaa2e37fecc4c5a075931489c106b78c17b7e
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 61a190be2b4685030438988dab0d0134a8fa9f9b
+ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Настройка и использование сертификатов PKCS в Intune
 
@@ -82,7 +82,7 @@ ms.lasthandoff: 04/16/2018
 9. На вкладке **Расширения** подтвердите, что шифрованная файловая система, защита электронной почты и проверка подлинности клиента отображаются в разделе **Политики приложений**.
     
       > [!IMPORTANT]
-      > Для шаблонов сертификатов iOS и macOS на вкладке **Расширения** обновите параметр **Использование ключей** и снимите флажок **Подпись подтверждает подлинность**.
+      > Для шаблонов сертификатов iOS на вкладке **Расширения** обновите параметр **Использование ключей** и снимите флажок **Signature is proof of origin** (Подпись подтверждает подлинность).
 
 10. На вкладке **Безопасность** добавьте учетную запись компьютера для сервера, на котором устанавливается Microsoft Intune Certificate Connector.
     * Назначьте для этой учетной записи разрешения на **чтение** и **регистрацию**.
