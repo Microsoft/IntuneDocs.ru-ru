@@ -149,6 +149,6 @@
 #### [Мне нужно включить контроль учетных записей](you-need-to-enable-uac-windows.md)
 #### [Мне нужно обновить Windows](you-need-to-update-os-build-version-windows.md)
 #### [Мне нужно включить Защитник Windows](turn-on-defender-windows.md)
-
+## [Удаленная блокировка устройства из приложения корпоративного портала для Windows](remote-lock-your-device-cp-app.md) 
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 ### [Удаленная блокировка устройства](remote-lock-your-device-cpwebsite.md)
