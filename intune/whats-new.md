@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 04/27/2018
+ms.date: 05/02/2018
 ms.topic: get-started-article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: dougeby
 ms.suite: ems
 /ms.custom: intune-azure
-ms.openlocfilehash: 68997e16269f7f7a9265fc96d04de2c39c9fefeb
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 9004441a41c5e7458447b5c5f7e1d91e630bd412
+ms.sourcegitcommit: 2b5d88c434bda7f1cdc32d1ccacc6b341a9a399b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -149,9 +149,6 @@ Intune поддерживает возможность проверять соо
 Чтобы увидеть новый интерфейс, войдите в Intune и выберите **Устройства** > **Все устройства** > имя устройства > **Удалить**.
 
 Если вам по-прежнему требуется подтверждение удаления или снятия с учета, можно использовать стандартные действия из жизненного цикла устройства с выводом параметров **Удалить данные компании** и **Сбросить параметры до заводских настроек** перед нажатием кнопки **Удалить**. 
-
-#### <a name="autopilot-profiles-moving-to-group-targeting----1877935---"></a>Назначение профилей AutoPilot группам <!-- 1877935 -->
-Профили развертывания AutoPilot можно назначать группам Azure AD, содержащим устройства AutoPilot.
 
 #### <a name="play-sounds-on-ios-when-in-lost-mode----1947769---"></a>Воспроизведение звуков на устройстве в iOS в режиме пропажи <!-- 1947769 -->
 Когда наблюдаемые устройства iOS под управлением MDM находятся в [Режиме пропажи](device-lost-mode.md), вы можете включить [воспроизведение звука](device-locate.md#activate-lost-mode-sound-alert-on-an-ios-device) (**Устройства** > **Все устройства** > выбрать устройство iOS > **Обзор** > **Дополнительно**). Звук будет воспроизводиться, пока устройство не будет выведено из Режима пропажи или пока пользователь не отключит звук на устройстве. Применяется к устройствам iOS 9.3 и более поздних версий.
