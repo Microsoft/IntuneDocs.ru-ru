@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 3e544286-12ad-4a3a-86f8-d2cf16940b1f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: da8bb19db8c2da2d5854c3f991ccce4d124d594c
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 735b3323527487e231d190ffd45e9083c4f524a2
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="locate-lost-or-stolen-ios-devices-with-intune"></a>Поиск потерянных или украденных устройств iOS с помощью Intune
 
@@ -46,6 +46,15 @@ ms.lasthandoff: 04/26/2018
 
 >[!NOTE]
 >Для соблюдения конфиденциальности возможность увеличения масштаба карты ограничена.
+
+## <a name="activate-lost-mode-sound-alert-on-an-ios-device"></a>Активация звукового оповещения режима пропажи на устройствах iOS
+
+Если вы потеряли устройство iOS 9.3 или более поздней версии, вы можете удаленно активировать воспроизведение сигнала оповещения, который поможет вам найти это устройство. Устройство использоваться в [режиме пропажи](device-lost-mode.md).
+
+В [Intune на портале Azure](https://aka.ms/intuneportal), выберите **Устройства** > **Все устройства** > устройство iOS > **Обзор** > **Дополнительно** > **Воспроизвести звук режима пропажи (только контроль)**.
+
+Звук будет воспроизводиться, пока пользователь не отключит звук на устройстве или на устройстве не будет отключен режим пропажи.
+
 
 ## <a name="security-and-privacy-information-for-lost-mode-and-locate-device-actions"></a>Сведения о безопасности и конфиденциальности для режима пропажи и действия "Найти устройство"
 - Сведения о расположении устройства будут отправляться в Intune только в том случае, когда это действие включено.

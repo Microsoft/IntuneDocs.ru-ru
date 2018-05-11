@@ -15,20 +15,27 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8da396e41844c854cd18a9384fe97ac0bee59355
-ms.sourcegitcommit: b727b6bd6f138c5def7ac7bf1658068db30a0ec3
+ms.openlocfilehash: da85b0087709a719cafaaf893c3188a3bf3148d8
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для пользовательских приложений Intune
 Ознакомьтесь с изменениями, внесенными в пользовательский интерфейс для приложений в этом выпуске Microsoft Intune. Благодаря этим изменениям взаимодействовать с пользователями станет проще, и вы сможете добавить актуальную информацию в собственную документацию по своему развертыванию. Вы также поймете, как эффективнее решать проблемы, когда пользователи обращаются в службу поддержки по вопросам работы на корпоративном портале.
 
 <!---End-user messaging for accounts 1573558, 1712; changes to be made for other platforms for 1801 Users of the Company Portal website, will be blocked from taking actions that require write access to your tenant. They will see appropriate error messaging explaining that their account is under maintenance. Similar changes are coming to the Company Portal apps for Android, iOS, macOS, and Windows soon. ![Error message that occurs during account move](./media/account-move-rom-iwp-user-1712.png)--->
 
+## <a name="week-of-april-23-2018"></a>Неделя, начиная с 23 апреля 2018 г.
+#### <a name="updated-navigation-view-in-the-company-portal-app-for-windows-10----1195010---"></a>Обновления представления навигации в приложении "Корпоративный портал" для Windows 10 <!-- 1195010 -->
+В приложение корпоративного портала Intune для Windows 10 добавлено [представление навигации Fluent Design System](https://docs.microsoft.com/en-us/windows/uwp/design/basics/navigation-basics). В окне приложения сбоку находится статический вертикальный список всех страниц верхнего уровня. Щелкайте любую ссылку для быстрого просмотра страниц и переключения между ними. Это первое из серии обновлений, направленных на то, чтобы сделать решение Intune более адаптивным, удобным и эффективным. 
+
+![Снимок экрана с панелью мониторинга приложения "Корпоративный портал": представление навигации Fluent Design](./media/1804_WindowsCP_Fluent_01.png)
+
+
 ## <a name="week-of-april-2-2018"></a>Неделя, начиная с 2 апреля 2018 г.
 
-#### <a name="user-experience-update-for-the-company-portal-app-for-ios---1412866---"></a>Обновление пользовательского интерфейса в приложении корпоративного портала для iOS <!--1412866 -->
+#### <a name="user-experience-update-for-the-company-portal-app-for-ios----1412866---"></a>Обновление пользовательского интерфейса в приложении корпоративного портала для iOS <!-- 1412866 -->
 Мы выпустили существенное обновление пользовательского интерфейса в приложении корпоративного портала для iOS. Обновление включает полностью переработанный и осовремененный интерфейс. Мы сохранили все функциональные возможности приложения, повысив удобство его использования и расширив специальные возможности.  
 
 Другие возможности.

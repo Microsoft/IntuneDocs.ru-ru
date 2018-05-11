@@ -6,25 +6,38 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/26/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: a2dc5594-a373-48dc-ba3d-27aff0c3f944
-ms.openlocfilehash: 4522be0b636a72844fa6177fbb35d3350cfbd00e
-ms.sourcegitcommit: 8a235b7af6ec3932c29a76d0b1aa481d983054bc
+ms.openlocfilehash: 934b80d1c174c25d37e30695f46afc88c8d8bfc3
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="enroll-windows-devices-by-using-the-windows-autopilot-deployment-program"></a>Регистрация устройств с помощью программы Windows AutoPilot Deployment
 Программа Windows AutoPilot Deployment упрощает подготовку устройств. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе AutoPilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. При использовании Intune для управления устройствами AutoPilot вы можете управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows AutoPilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
 
 ## <a name="prerequisites"></a>Предварительные условия
-- [Устройства должны быть зарегистрированы в вашей организации.](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot#device-registration-and-oobe-customization)
 - [Должна быть включена автоматическая регистрация Windows.](https://docs.microsoft.com/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#enable-windows-10-automatic-enrollment)
 - [Требуется подписка Azure Active Directory Premium.](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) <!--&#40;[trial subscription](http://go.microsoft.com/fwlink/?LinkID=816845)&#41;-->
+
+## <a name="add-devices"></a>Добавление устройств
+
+Чтобы добавить устройства Windows AutoPilot, импортируйте CSV-файл с соответствующей информацией.
+
+1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Устройства** > **Импорт**.
+
+    ![Снимок экрана: устройства Windows AutoPilot](media/enrollment-autopilot/autopilot-import-device.png)
+
+2. В разделе **Добавление устройств Windows AutoPilot** перейдите к CSV-файлу с серийными номерами, кодами продуктов Windows и хэш-кодами оборудования добавляемых устройств.
+
+    ![Снимок экрана: добавление устройств Windows AutoPilot](media/enrollment-autopilot/autopilot-import-device2.png)
+
+3. Выберите **Импорт**, чтобы начать импорт сведений об устройстве. Это может занять несколько минут.
 
 ## <a name="synchronize-devices"></a>Синхронизация устройств
 Синхронизируйте зарегистрированные устройства с Intune, чтобы их можно было настроить.
@@ -108,6 +121,16 @@ ms.lasthandoff: 03/12/2018
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. В колонке **Intune** выберите **Регистрация устройств**.
 4. Выберите **Обзор**, чтобы просмотреть это оповещение. Щелкните оповещение, чтобы просмотреть список устройств AutoPilot.  
+
+## <a name="delete-autopilot-devices"></a>Удаление устройств AutoPilot
+
+Вы можете удалить незарегистрированные устройства Windows AutoPilot. Отмените регистрацию устройств и затем удалите их.
+
+1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Устройства**.
+
+2. В разделе **Устройства Windows AutoPilot** выберите удаляемые устройства и щелкните **Удалить**.
+
+3. Подтвердите удаление, щелкнув **Да**. Этот процесс может занять несколько минут.
 
 
 ## <a name="next-steps"></a>Дальнейшие шаги

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/26/2018
+ms.date: 04/23/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dabf8d67b4d0bd7252f306d6b21949cf501eca8d
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 834eb66e21820880f644c33d7e5d6aedad6bd502
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Настройка и использование сертификатов SCEP в Intune
 
@@ -40,13 +40,11 @@ NDES-сервер должен быть присоединен к домену, 
   -  позволяет устройствам получать сертификаты, используя подключение к Интернету;
   -  является рекомендацией по безопасности, если устройства подключаются к Интернету для получения или возобновления действия сертификатов.
 
-> [!NOTE]
-> - На сервере, где размещается WAP, [необходимо установить обновление](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) , обеспечивающее поддержку длинных URL-адресов, которые используются службой регистрации сертификатов для сетевых устройств. Это обновление включено в [накопительный пакет обновления за декабрь 2014 г.](http://support.microsoft.com/kb/3013769), или его можно получить отдельно из [KB3011135](http://support.microsoft.com/kb/3011135).
-> - Сервер WAP должен иметь SSL-сертификат, совпадающий с именем, опубликованным для внешних клиентов, и доверять SSL-сертификату, который используется на сервере NDES. Эти сертификаты позволяют WAP-серверу разорвать SSL-соединение клиентов и создать новое SSL-соединение с сервером NDES.
-> 
->   Сведения о сертификатах для WAP см. в разделе о [планировании сертификатов](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn383650(v=ws.11)#plan-certificates).
-> 
->   Общие сведения о WAP-серверах см. в разделе о [работе с прокси-службой веб-приложения](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn584113(v=ws.11)).
+#### <a name="additional"></a>Дополнительно
+- На сервере, где размещается WAP, [необходимо установить обновление](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx) , обеспечивающее поддержку длинных URL-адресов, которые используются службой регистрации сертификатов для сетевых устройств. Это обновление включено в [накопительный пакет обновления за декабрь 2014 г.](http://support.microsoft.com/kb/3013769), или его можно получить отдельно из [KB3011135](http://support.microsoft.com/kb/3011135).
+- Сервер WAP должен иметь SSL-сертификат, совпадающий с именем, опубликованным для внешних клиентов, и доверять SSL-сертификату, который используется на сервере NDES. Эти сертификаты позволяют WAP-серверу разорвать SSL-соединение клиентов и создать новое SSL-соединение с сервером NDES.
+
+См. дополнительные сведения о [планировании сертификатов для WAP](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn383650(v=ws.11)#plan-certificates) и [серверах WAP](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn584113(v=ws.11)).
 
 ### <a name="network-requirements"></a>Требования к сети
 
@@ -369,13 +367,13 @@ NDES-сервер должен быть присоединен к домену, 
        - **CN={{IMEINumber}}**. Уникальный номер международного идентификатора мобильного оборудования (IMEI), используемый для идентификации мобильного телефона.
        - **CN={{OnPrem_Distinguished_Name}}**. Последовательность относительных различающихся имен, разделенных запятыми, например `CN=Jane Doe,OU=UserAccounts,DC=corp,DC=contoso,DC=com`.
 
-       > [!TIP]
-       > Чтобы использовать переменную `{{OnPrem_Distinguished_Name}}`, необходимо синхронизировать атрибут пользователя `onpremisesdistingishedname` с Azure Active Directory с помощью [Azure Active Directory (AD) Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
+          Чтобы использовать переменную `{{OnPrem_Distinguished_Name}}`, необходимо синхронизировать атрибут пользователя `onpremisesdistingishedname` с Azure AD с помощью [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
+
+       - **CN={{onPremisesSamAccountName}}**. Администраторы могут синхронизировать атрибут samAccountName из Active Directory в Azure AD с помощью Azure AD Connect в атрибут с именем `onPremisesSamAccountName`. Intune может заменить эту переменную как часть запроса на выдачу сертификата в субъекте сертификата SCEP.  Атрибут samAccountName — это имя пользователя для входа, используемое для поддержки клиентов и серверов предыдущей версии Windows (до Windows 2000). Формат имени пользователя для входа: `DomainName\testUser` или только `testUser`.
+
+          Чтобы использовать переменную `{{onPremisesSamAccountName}}`, необходимо синхронизировать атрибут пользователя `onPremisesSamAccountName` с Azure AD с помощью [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 
        Используя сочетание одной или нескольких этих переменных и статических строк, можно создать пользовательский формат имени субъекта, например: **CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US**. <br/> В этом примере создан формат имени субъекта, который, кроме переменных CN и E, использует строки для определения подразделения, организации, расположения, штата и страны. Эта функция и поддерживаемые ею строки отписываются в статье [Функция CertStrToName](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx).
-
-
-
 
 - **Альтернативное имя субъекта**. Укажите способ, с помощью которого Intune автоматически создает значения для альтернативного имени субъекта в запросе на сертификат. Например, если вы выбираете тип сертификата пользователя, в альтернативное имя субъекта можно включить имя субъекта-пользователя. Если сертификат клиента используется для проверки подлинности сервера политики сети, в качестве альтернативного имени субъекта необходимо задать имя участника-пользователя.
 - **Использование ключа**. Введите параметры использования ключа для сертификата. Доступны следующие параметры:

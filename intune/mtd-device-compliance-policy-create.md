@@ -15,11 +15,11 @@ ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b719bb1841cfc1aa98808b9c09db43d9c654d63f
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 1152473206826aa2e3f63c7196a3d0538101a948
+ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Создание политики соответствия для устройств Mobile Threat Defense (MTD) в Intune
 
@@ -36,7 +36,7 @@ Intune с MTD помогает обнаруживать угрозы и оцен
 
 -   настройка интеграции MTD и Intune;
 
-## <a name="to-create-a-mtd-device-compliance-policy"></a>создание политики соответствия устройств MTD.
+## <a name="to-create-an-mtd-device-compliance-policy"></a>Создание политики соответствия устройств MTD
 
 1.  Перейдите на [портал Azure](https://portal.azure.com/) и войдите в систему с помощью своих учетных данных Intune.
 
@@ -65,7 +65,7 @@ Intune с MTD помогает обнаруживать угрозы и оцен
 > [!IMPORTANT]
 > При создании политик условного доступа для Office 365 и других служб такая оценка соответствия устройства принимается во внимание, и доступ несоответствующих устройств к ресурсам организации блокируется до устранения угрозы на устройстве.
 
-## <a name="to-assign-a-mtd-device-compliance-policy"></a>Назначение политики соответствия устройств MTD
+## <a name="to-assign-an-mtd-device-compliance-policy"></a>Назначение политики соответствия устройств MTD
 
 Чтобы назначить пользователям политику соответствия устройств, выберите ранее настроенную политику. Существующие политики можно найти на панели **Соответствие устройства — Политики**.
 
