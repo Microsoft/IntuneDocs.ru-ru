@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/27/2018
+ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,11 +15,11 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e15e1678fa93269eb650f8a5684091b430ebf1cd
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 8f903e9dfe5fb30f45806aac5694171814492f2e
+ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 
@@ -62,6 +62,19 @@ ms.lasthandoff: 04/16/2018
 - **Windows** — (необязательно) включить [автоматическую регистрацию](windows-enroll.md) или [массовую регистрацию](windows-bulk-enroll.md);
 - **macOS** — (обязательно) [Получение сертификата MDM Push Certificate](apple-mdm-push-certificate-get.md).
 
+### <a name="workflow-of-intune-administration-ui"></a>Рабочий процесс для пользовательского интерфейса администрирования Intune
+Если управление устройствами Android или Apple включено, Intune отправляет сведения об устройстве и пользователе для интеграции со службами этих сторонних производителей и управления их устройствами.
+
+Сценарии, которые добавляют согласие на обмен данными, включаются в следующих случаях:
+- Вы включаете Android for Work.
+- Вы включаете и загружаете сертификаты Apple MDM Push Certificate.
+- Вы включаете любую службу Apple, например Программу регистрации устройств, School Manager или Volume Purchasing Program.
+
+В каждом случае согласие будет связано исключительно с выполнением службы управления мобильными устройствами, например подтверждение того, что ИТ-администратор разрешил регистрацию устройств Google или Apple. Документы о том, какие сведения передаются при запуске новых рабочих процессов, доступны в следующих статьях:
+- [Данные, отправляемые Intune в Google](https://aka.ms/Data-intune-sends-to-google)
+- [Данные, отправляемые Intune в Apple](https://aka.ms/data-intune-sends-to-apple)
+
+Дополнительные сведения о соответствии GDPR корпорации Майкрософт см. в разделе [Центр управления безопасностью — оценка соответствия GDPR](https://aka.ms/trust_center_info).
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>Очистка мобильного устройства после окончания срока действия сертификата MDM
 

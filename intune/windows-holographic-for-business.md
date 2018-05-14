@@ -5,18 +5,18 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 4/5/2018
+ms.date: 5/1/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 45d8f5051d9663273c6515717b7930145ff8a964
-ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
+ms.openlocfilehash: 18f86580fc4c80fade7aeaa9678e9d8edac9a53e
+ms.sourcegitcommit: b57be56524ddb5026fab94f7638dc516ed118325
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="customize-devices-running-windows-holographic-with-intune"></a>Настройка устройств с Windows Holographic с помощью Intune
 
@@ -25,6 +25,16 @@ Microsoft Intune поддерживает устройства с Windows Holo
 Для управления устройствами с Windows Holographic с помощью Microsoft Intune необходимо создать профиль обновления выпуска. Этот профиль позволяет обновлять устройства с Windows Holographic до Windows Holographic for Business. Для получения нужной лицензии на обновление Microsoft HoloLens вы можете приобрести пакет Commercial Suite. Дополнительные сведения: [Обновление устройств с Windows Holographic до Windows Holographic for Business](holographic-upgrade.md).
 
 Для настройки устройств с Windows Holographic for Business и управления ими можно использовать задачи, приведенные в этой статье. Например, можно управлять обновлениями программного обеспечения, настраивать параметры VPN и многое другое.
+
+## <a name="azure-active-directory"></a>Azure Active Directory
+
+Azure Active Directory (AD) отлично подходит для настройки устройств с Windows Holographic for Business и управления ими. Intune и Azure AD дают следующие возможности: 
+
+- **[Настройка устройств, присоединенных к Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-setup)**: в Azure Active Directory (AD) можно добавить принадлежащие организации устройства на базе Windows 10, включая устройства с Windows Holographic for Business. Эта функция позволяет Azure AD управлять устройством. С ее помощью вы можете добиться того, чтобы пользователи обращались к ресурсам организации с устройств, отвечающих стандартам по безопасности и соответствию требованиям.
+
+  Дополнительные сведения см. в разделе [Общие сведения об управлении устройствами в Azure AD](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
+
+- **[Массовая регистрация для устройств Windows](windows-bulk-enroll.md)**: вы можете присоединить много новых устройств Windows к Azure Active Directory (AD) и Intune. Эта функция вызывается массовой регистрацией и использует пакеты подготовки. Эти пакеты присоединяют устройства с Windows Holographic for Business к клиенту Azure AD и регистрируют их в Intune.
 
 ## <a name="company-portal"></a>Company Portal (Портал компании)
 **[Настройка приложения корпоративного портала](company-portal-app.md)**
@@ -56,6 +66,18 @@ Microsoft Intune может развертывать универсальные 
 > [!NOTE]
 > Устройства HoloLens под управлением Windows 10 Holographic for Business 1607 не поддерживают лицензированные веб-приложения из Microsoft Store для бизнеса. Дополнительные сведения см. в статье [Установка приложений на устройство HoloLens](https://docs.microsoft.com/en-us/hololens/hololens-install-apps).
 
+## <a name="device-actions"></a>Действия устройства
+Intune имеет несколько встроенных действий, позволяющих ИТ-администраторам выполнять разные задачи как локально на устройстве, так и удаленно с помощью Intune на портале Azure. Кроме того, пользователи могут запускать удаленную команду с корпоративного портала Intune для личных устройств, зарегистрированных в Intune.
+
+Для устройств с Windows Holographic for Business можно использовать следующие действия: 
+
+- **[Сброс параметров](devices-wipe.md#factory-reset)**: действие **Сброс параметров** удаляет устройство из Intune и восстанавливает на нем заводские параметры. Используйте это действие перед передачей устройства новому пользователю, а также при утере или краже.
+
+- **[Удаление организационных данных](devices-wipe.md#remove-company-data)**: действие **Удаление организационных данных** удаляет устройство из Intune, а также данные управляемого приложения, параметры и профили электронной почты, назначенные системой Intune. Персональные данные пользователя остаются на устройстве.
+
+- **[Синхронизация устройств для получения актуальных политик и действий](device-sync.md)**: действие **Синхронизация** заставляет устройство немедленно выполнить возврат в Intune. При возврате устройство сразу же получает все ожидающие действия или политики, которые были ему назначены. Эта функция позволяет проверять назначенные политики и устранять возникшие неполадки, не дожидаясь следующего запланированного возврата.
+
+Статья **[Что такое управление устройствами с помощью Microsoft Intune?](device-management.md)** является хорошим источником сведений об управлении устройствами с помощью портала Azure. 
 
 ## <a name="device-categories-and-groups"></a>Категории и группы устройств
 **[Разделение устройств на группы](device-group-mapping.md)**

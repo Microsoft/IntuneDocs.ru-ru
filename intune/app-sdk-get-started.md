@@ -14,11 +14,11 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e4437e3dbf7e942f084a0c441af7946b53c6d54d
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: f0fcd4b04541593f41abb35be6558be2375a0131
+ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -67,10 +67,9 @@ ms.lasthandoff: 04/16/2018
 * [Пакет SDK приложений Intune для iOS](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios)
 * [Пакет SDK приложений Intune для Android](https://github.com/msintuneappsdk/ms-intune-app-sdk-android)
 
-Для приложения Xamarin или Cordova используйте следующие варианты пакета SDK:
+Для приложения Xamarin используйте следующий вариант пакета SDK:
 
 * [привязки Xamarin из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin);
-* [подключаемый модуль Cordova из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam).
 
 Мы рекомендуем зарегистрировать учетную запись GitHub, чтобы использовать возможности ветвления и получения по запросу для репозиториев. GitHub позволяет разработчикам взаимодействовать с нашей группой разработчиков, заявлять о проблемах и получать быстрые ответы, просматривать заметки о выпуске, а также отправлять отзывы в корпорацию Майкрософт. Вопросы о GitHub пакета SDK для приложений Intune направляйте по адресу msintuneappsdk@microsoft.com.
 
@@ -81,8 +80,6 @@ ms.lasthandoff: 04/16/2018
 * **[Руководство по пакету SDK для приложений Intune для разработчиков под iOS](app-sdk-ios.md)**: в этом документе описано, как включить поддержку в вашем собственном приложении iOS с помощью пакета SDK для приложений Intune.
 
 * **[Руководство по пакету SDK для приложений Intune для разработчиков под Android](app-sdk-android.md)**: в этом документе описано, как включить поддержку в вашем собственном приложении Android с помощью пакета SDK для приложений Intune.
-
-* **[Руководство по подключаемому модулю Cordova из пакета SDK для приложений Intune](app-sdk-cordova.md)**: этот документ поможет вам создавать приложения iOS и Android с помощью Cordova для политик защиты приложений Intune.
 
 * **[Руководство по привязкам Xamarin из пакета SDK для приложений Intune](app-sdk-xamarin.md)**: этот документ поможет вам создавать приложения iOS и Android с помощью Xamarin для политик защиты приложений Intune.
 

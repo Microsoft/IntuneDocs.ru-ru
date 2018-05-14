@@ -15,11 +15,11 @@ ms.assetid: 671e4d76-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 605bfb94d720336da94e62a2629576cf178eea2f
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 7993dcf241ae1f69d11975ee72f2514aedd4743d
+ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Регистрация устройств iOS с помощью Apple Configurator
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 04/16/2018
 > [!NOTE]
 > ### <a name="temporary-user-interface-differences"></a>Временные отличия в пользовательском интерфейсе
 >
->Пользовательские интерфейсы для функций, описанных на этой странице, находятся в процессе обновления. Эти обновления будут развернуты во всех учетных записях до конца апреля.
+>Пользовательские интерфейсы для функций, описанных на этой странице, находятся в процессе обновления. Эти обновления будут развернуты во всех учетных записях до конца первой недели мая.
 >
 >Если страница **регистрации устройств** выглядит как на следующем рисунке, значит пользовательский интерфейс обновлен и вы можете использовать эту страницу справки.
 >

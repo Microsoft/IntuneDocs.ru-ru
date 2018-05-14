@@ -14,11 +14,11 @@ ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 9f9cc117925f59c9fb7c55d0ff10aedf09d26f93
-ms.sourcegitcommit: b727b6bd6f138c5def7ac7bf1658068db30a0ec3
+ms.openlocfilehash: 5c9f81761e7e24393471f44da4cf619f017e9bbd
+ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -74,35 +74,35 @@ ms.lasthandoff: 04/06/2018
        IntuneMAMEnrollmentManager.Instance.LoginAndEnrollAccount([NullAllowed] string identity);
       ```
 
-## <a name="enabling-app-protection-policies-in-your-android-mobile-app"></a>Включение политик защиты приложений в мобильном приложении Android
-Добавьте [пакет Microsoft.Intune.MAM.Xamarin.Android NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.Android) в проект Xamarin.Android.
+## <a name="enabling-intune-app-protection-policies-in-your-android-mobile-app"></a>Включение политик защиты приложений Intune в мобильном приложении Android
 
-При работе с приложениями Xamarin.Android необходимо полностью прочесть [руководство разработчика Android по SDK для приложений Intune](app-sdk-android.md) и выполнить содержащиеся в нем инструкции, включая замену классов, методов и действий их эквивалентами MAM на основе [таблицы](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent), приведенной в руководстве. 
+### <a name="xamarinandroid-integration"></a>Интеграция Xamarin.Android
+
+1. Вы можете добавить последнюю версию [пакета Microsoft.Intune.MAM.Xamarin.Android NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.Android) в проект Xamarin.Android. Это предоставит необходимые ссылки, чтобы включить Intune для вашего приложения.
+
+2. Прочитайте [руководство разработчиков Android по SDK для приложений Intune](app-sdk-android.md) и следуйте ему, уделив особое внимание следующему:
+    1. [Весь раздел о заменах классов и методов](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent). 
+    2. [Раздел MAMApplication](app-sdk-android.md#mamapplication). Убедитесь, что подкласс правильно декорирован атрибутом `[Application]` и переопределяет конструктор `(IntPtr, JniHandleOwnership)`.
+    3. [Раздел об интеграции ADAL](app-sdk-android.md#configure-azure-active-directory-authentication-library-adal), если приложение выполняет проверку подлинности на основе AAD.
+    4. [Раздел о регистрации MAM-WE](app-sdk-android.md#app-protection-policy-without-device-enrollment), если вы планируете получить политику из службы MAM в своем приложении.
 
 > [!NOTE]
-> Если приложение не определяет класс `android.app.Application`, необходимо создать его и убедиться, что выполняется наследование от `MAMApplication`.
-
-> [!NOTE]
-> При попытке найти эквивалентные API в [руководстве разработчика Android по SDK для приложений Intune](app-sdk-android.md) в привязках `Microsoft.Intune.MAM.Xamarin.Android` или при преобразовании фрагментов кода из руководства следует иметь в виду, что генератор привязок Xamarin особым образом изменяет API Android.
-> * Все идентификаторы преобразуются в стиль Pascale (com.microsoft.foo -> Com.Microsoft.Foo).
+> При попытке найти эквивалентные API в [руководстве разработчиков Android по SDK для приложений Intune](app-sdk-android.md) в привязках `Microsoft.Intune.MAM.Xamarin.Android` или при преобразовании фрагментов кода из руководства следует иметь в виду, что генератор привязок Xamarin особым образом изменяет API Android.
+> * Все идентификаторы преобразуются в стиль Pascale (com.foo.bar -> Com.Foo.Bar)
 > * Все операции get и set преобразуются в операции property (например, Foo.getBar() -> Foo.Bar, Foo.setBar("zap") -> Foo.Bar = "zap").
 > * Перед именами всех интерфейсов добавляется символ "I" (FooInterface -> IFooInterface).
 
-Для приложений, использующих Xamarin Forms или другие инфраструктуры пользовательского интерфейса, мы предоставили средство `Microsoft.Intune.MAM.Remapper`. Оно выполняет описанную замену класса. Чтобы его использовать, выполните следующие действия.
+### <a name="xamarinforms-integration"></a>Интеграция Xamarin.Forms
 
-1.  Добавьте [пакет NuGet Microsoft.Intune.MAM.Remapper.Tasks](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) в свой проект.
+**Кроме реализации всех описанных выше действий**, мы предоставили для приложений `Xamarin.Forms` пакет `Microsoft.Intune.MAM.Remapper`. Он осуществляет замену класса, внедряя классы `MAM` в иерархии классов распространенных классов `Xamarin.Forms`, таких как `FormsAppCompatActivity` и `FormsApplicationActivity`, чтобы вы могли и дальше использовать эти классы, осуществляя переопределения для эквивалентных функций MAM, например `OnMAMCreate` и `OnMAMResume`. Чтобы его использовать, выполните следующие действия.
 
-2.  Для файла `remapping-config.json`, который включен в пакет Nuget, задайте действие сборки **RemappingConfigFile**. Имеющийся `remapping-config.json` работает только с Xamarin.Forms. Информацию для других инфраструктур пользовательского интерфейса см. в файле сведений, входящем в состав пакета NuGet Remapper.
+1.  Добавьте [пакет NuGet Microsoft.Intune.MAM.Remapper.Tasks](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) в свой проект. При этом привязки пакета SDK для приложений Xamarin будут добавлены автоматически (если вы еще их не включили).
 
-3.  Добавьте вызов Xamarin.Forms.Forms.Init(Context, Bundle) в функцию OnMAMCreate для MAMApplication, так как при управлении с помощью Intune приложение может быть запущено в фоновом режиме.
-
-4.  Выполните остальные действия из [руководства разработчика Android по SDK для приложений Intune](app-sdk-android.md), применимые к приложению.
+2.  Добавьте вызов `Xamarin.Forms.Forms.Init(Context, Bundle)` в функцию `OnMAMCreate` класса `MAMApplication`, созданного в шаге 2.2 выше. Это необходимо, так как благодаря функции управления Intune ваше приложение запускается в фоновом режиме.
 
 > [!NOTE]
-> Иногда при обновлении пакета Microsoft.Intune.MAM.Remapper.Tasks происходит сброс действия сборки remapping-config.json, что приводит к сбою сборки.
+> Так как эта операция переписывает зависимость, используемую Visual Studio для автоматического завершения IntelliSense, может потребоваться перезапустить Visual Studio после первого запуска модуля повторного сопоставления для получения данных IntelliSense, чтобы изменения были распознаны правильно. 
 
-## <a name="next-steps"></a>Дальнейшие шаги
-
-Вы завершили основные действия настройки приложения для управления с помощью Intune. Теперь можно выполнять процедуры из руководств по интеграции для каждой из перечисленных выше платформ.
+## <a name="support"></a>Support
 
 Если ваша организация является существующим клиентом Intune, обратитесь к представителю службы поддержки Майкрософт, чтобы отправить запрос в службу поддержки Майкрософт и разместить сведения о проблеме на [соответствующей странице GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues), и мы ответим вам сразу же, как только сможем. 
