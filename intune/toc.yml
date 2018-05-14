@@ -173,7 +173,11 @@
             - name: Экран состояния регистрации
               href: windows-enrollment-status.md
         - name: Настройка регистрации устройств Android
-          href: android-enroll.md
+          items:
+            - name: Настройка регистрации устройств Android
+              href: android-enroll.md
+            - name: Регистрация мобильных устройств Samsung Knox
+              href: android-samsung-knox-mobile-enroll.md
         - name: Настройка регистрации iOS
           href: ios-enroll.md
           items:
@@ -462,6 +466,8 @@
           href: conditional-access-intune-common-ways-use.md
         - name: Установка локального соединителя Exchange
           href: exchange-connector-install.md
+        - name: Установка службы соединителя Exchange
+          href: exchange-service-connector-configure.md
         - name: Создание и назначение политики условного доступа
           href: conditional-access-exchange-create.md
         - name: Переназначение политик условного доступа с классического портала Intune
@@ -511,7 +517,7 @@
                   href: mtd-device-compliance-policy-create.md
                 - name: Включение MTD в Intune
                   href: mtd-connector-enable.md
-        - name: Advanced Threat Protection
+        - name: ATP в Защитнике Windows
           href: advanced-threat-protection.md
         - name: Управление доступом к сети
           href: network-access-control-integrate.md
@@ -655,8 +661,6 @@
           href: app-wrapper-prepare-android.md
         - name: Пакет SDK приложений Intune для Android
           href: app-sdk-android.md
-        - name: Подключаемый модуль Cordova из пакета SDK для приложений Intune
-          href: app-sdk-cordova.md
         - name: Компонент Xamarin из пакета SDK для приложений Intune
           href: app-sdk-xamarin.md
     - name: Использование хранилища данных Intune
