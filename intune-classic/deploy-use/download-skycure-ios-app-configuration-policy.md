@@ -30,7 +30,7 @@ ms.lasthandoff: 04/16/2018
 Для выполнения следующих шагов нужно войти в консоль управления Skycure.
 
 > [!TIP] 
-> При использовании Microsoft Internet Explorer 11 или Edge может потребоваться открыть консоль управления Skycure в режиме InPrivate.
+> При использовании Microsoft Internet Explorer 11 или Microsoft Edge может потребоваться открыть консоль управления Skycure в режиме InPrivate.
 
 ## <a name="to-download-the-ios-app-configuration-policy"></a>Скачивание политики конфигурации приложения для iOS
 

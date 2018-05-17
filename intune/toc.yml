@@ -308,6 +308,8 @@
                       href: app-protection-policy-settings-android.md
                     - name: Параметры iOS
                       href: app-protection-policy-settings-ios.md
+                    - name: Исключения политики передачи данных
+                      href: app-protection-policies-exception.md
                 - name: Проверка политик защиты приложений
                   href: app-protection-policies-validate.md
                 - name: Мониторинг состояния пользователя защиты приложений
