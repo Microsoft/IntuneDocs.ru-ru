@@ -168,6 +168,8 @@
               href: windows-enroll.md
             - name: Массовая регистрация
               href: windows-bulk-enroll.md
+            - name: Страница состояния регистрации
+              href: windows-enrollment-status.md
             - name: Программа Windows AutoPilot Deployment
               href: enrollment-autopilot.md
         - name: Настройка регистрации устройств Android

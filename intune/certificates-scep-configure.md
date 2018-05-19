@@ -13,11 +13,11 @@ ms.technology: ''
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 834eb66e21820880f644c33d7e5d6aedad6bd502
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: f67ccf1c2fb3b708916ef4ed4209bd3be07d9a5e
+ms.sourcegitcommit: 6a9830de768dd97a0e95b366fd5d2f93980cee05
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Настройка и использование сертификатов SCEP в Intune
 
@@ -304,6 +304,9 @@ NDES-сервер должен быть присоединен к домену, 
 6. При запросе сертификата клиента для соединителя сертификатов щелкните **Выбрать** и укажите сертификат **проверки подлинности клиента**, установленный на сервере NDES в задаче 3.
 
     После выбора сертификата проверки подлинности клиента вы вернетесь на поверхность **Сертификата клиента для соединителя сертификатов Microsoft Intune** . Хотя выбранный сертификат не отображается, нажмите кнопку **Далее**, чтобы просмотреть свойства этого сертификата. После этого нажмите кнопки **Далее** и **Установить**.
+    
+    > [!IMPORTANT]
+    > Intune Certificate Connector нельзя зарегистрировать на устройстве с включенной конфигурацией усиленной безопасности Internet Explorer. Чтобы использовать Intune Certificate Connector, [отключите конфигурацию усиленной безопасности IE](https://technet.microsoft.com/library/cc775800(v=WS.10).aspx).
 
 7. После завершения работы мастера, но перед тем, как закрыть его, щелкните **Запустить пользовательский интерфейс соединителя сертификатов**.
 

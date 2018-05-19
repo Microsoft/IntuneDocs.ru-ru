@@ -15,11 +15,11 @@ ms.assetid: dbb6a37e-ba47-4b69-922c-d25e66c279f6
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8fec1477cf5f5f7fd6db113c8b87b6eb4068101d
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 5f0dd0d968cde26ed4fcd4a628db5ff98316bee7
+ms.sourcegitcommit: b0ad42fe5b5627e5555b2f9e5bb81bb44dbff078
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Включение соединителя Mobile Threat Defense в Intune
 
@@ -56,6 +56,8 @@ ms.lasthandoff: 04/28/2018
 - **Подключить устройства iOS 8.0+ к [имя параметра MTD] for Work MTD**. При выборе этого параметра устройства с iOS версии 8.0 и более поздней могут отправлять отчеты о рисках безопасности в Intune.
     - **Пометить как несоответствующее при отсутствии данных**. Если Intune не получает данные об устройстве на этой платформе от партнера MTD, устройство считается несоответствующим.
 <br></br>
+- **Включение синхронизации приложений для устройств iOS.** Позволяет партнеру Mobile Threat Defense запрашивать в Intune метаданные приложений iOS. Такие метаданные будут использоваться для анализа угроз.
+
 - **Блокировать неподдерживаемые версии ОС**. Блокировка устройств с операционной системой, версия которой ниже минимальной поддерживаемой.
 
 - **Число дней, через которое партнер считается неотвечающим**. Период отсутствия активности в днях, по истечении которого Intune считает партнера неотвечающим из-за потери соединения. Intune не учитывает состояние соответствия неотвечающих партнеров MTD.

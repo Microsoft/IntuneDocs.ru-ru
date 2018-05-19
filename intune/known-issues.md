@@ -14,11 +14,11 @@ ms.assetid: f33a6645-a57e-4424-a1e9-0ce932ea83c5
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b8ef4688a5d1a98a27a2fcb6fc5b6ce456b5fd25
-ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
+ms.openlocfilehash: f49b5050f4ce182699f0955bed6224309a4d7c7c
+ms.sourcegitcommit: c1631ad8feba6c6fd03698ab20836b2e5d8a78d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="known-issues-in-microsoft-intune"></a>Известные проблемы в Microsoft Intune
 
@@ -61,6 +61,8 @@ ms.lasthandoff: 05/03/2018
 ### <a name="multiple-copies-of-the-same-ios-volume-purchase-program-are-uploaded"></a>Отправляются несколько копий одной программы Volume Purchase Program iOS.
 Не нажимайте кнопку **Отправить** несколько раз для одного токена VPP. Это приведет к отправке дублирующихся токенов VPP и многократной синхронизации приложений для одного токена.
 
+### <a name="some-managed-browser-traffic-not-routed-through-azure-app-proxy----2463492---"></a>Часть трафика Managed Browser не маршрутизируются через прокси-сервер приложения Azure <!-- 2463492 -->
+Есть известная проблема с интеграцией между Managed Browser и прокси-сервером приложения, при которой определенный третичный трафик (например, вызовы JavaScript или AJAX) не маршрутизируются через прокси-сервер приложения Azure. Это известная проблема в текущем выпуске.  
 
 <!-- ## Groups -->
 
