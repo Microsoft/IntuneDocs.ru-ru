@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/23/2018
+ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,17 +15,25 @@ ms.assetid: E85DBB2D-67BB-4E10-82D6-E43046B9C43C
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 8e11585adf570ba9155861f89688c33ac6cecbeb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: dd9fb36bb1b8c5e66d104f530690c5d236ea25e4
+ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Следите за обновлениями хранилища данных Intune.
+
+## <a name="1805"></a>1805
+_Выпущен: май 2018 г._
+
+### <a name="correction-to-device-count-in-devices-collection"></a>Исправление числа устройств в коллекции **Устройства** 
+
+В коллекцию **Устройства** были внесены изменения, которые могут уменьшить общее число устройств, для которых можно применить фильтр по атрибуту `isDeleted`. Уменьшение числа является результатом исправлений и не является ошибкой. Дополнительные сведения о коллекции **Устройства** можно узнать из статьи [Справочник по сущностям устройств](reports-ref-devices.md). 
+
 
 ## <a name="1801"></a>1801
 _Выпущен в январе 2018 г._

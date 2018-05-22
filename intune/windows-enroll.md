@@ -15,11 +15,11 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e2759146634f16e5d92ca8c497aa2856f071a679
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 02cc111f8991a855db4f05360e54598af511f28f
+ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
@@ -31,7 +31,6 @@ ms.lasthandoff: 04/16/2018
 - [включение автоматической регистрации](#enable-windows-10-automatic-enrollment) (требуется Azure AD Premium);
 - [регистрация CNAME](#simplify-windows-enrollment-without-azure-ad-premium);
 - [включение массовой регистрации](windows-bulk-enroll.md) (требуется Azure AD Premium и конструктор конфигураций Windows).
-- [Добавьте настраиваемое сообщение](windows-enrollment-status.md), чтобы приветствовать пользователей, регистрирующих устройства и просматривающих применяемые параметры политики.
 
 Ниже приведены два фактора, которые определяют способ упрощения регистрации устройств Windows.
 

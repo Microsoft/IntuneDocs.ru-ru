@@ -15,11 +15,11 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d973ca86a9adcbe3c7c18b2018c29006ba54ae9e
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 9132000f5fcf43251bcc1e9b903ea03551e0b85e
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>Как создать и назначить политики защиты приложений
 
@@ -127,7 +127,7 @@ ms.lasthandoff: 04/26/2018
 Чтобы создать эти политики, в консоли Intune выберите **Мобильные приложения** > **Защита приложений** и нажмите кнопку **Добавить политику**. Можно также изменить существующую политику защиты приложений. Если политику защиты приложений требуется применять к управляемым и неуправляемым устройствам, задайте параметру **Target to all app types** (Применять ко всем типам приложений) значение **Да**, являющееся значением по умолчанию. Чтобы индивидуально назначить базовое состояние управления, задайте параметру **Target to all app types** (Применять ко всем типам приложений) значение **Нет**. 
 
 > [!NOTE]
-> Конкретные сведения о поддержке iOS для политик защиты приложений на основе состояния управления устройством см. в разделе о [назначении политик защиты MAM на основе состояния управления](whats-new.md#mam-protection-policies-targeted-based-on-management-state----1665993---).
+> Конкретные сведения о поддержке iOS для политик защиты приложений на основе состояния управления устройством см. в разделе о [назначении политик защиты MAM на основе состояния управления](whats-new.md#mam-protection-policies-targeted-based-on-management-state-).
 
 ## <a name="policy-settings"></a>Параметры политики
 Чтобы просмотреть полный список параметров политики для iOS и Android, перейдите по следующим ссылкам:
