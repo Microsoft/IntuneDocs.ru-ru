@@ -35,7 +35,7 @@ ms.lasthandoff: 05/17/2018
 В Intune можно назначить только приложения, которые предоставляются бесплатно в App Store. Если вы хотите назначить платные приложения, мы советуем использовать [программу iOS Volume Purchase Program](vpp-apps-ios.md).
 
 >[!NOTE]
->При работе с Microsoft Intune мы рекомендуем использовать браузер Microsoft Edge или Google Chrome.
+>Рекомендуемые при работе с Microsoft Intune браузеры — Chrome и Microsoft Edge.
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**.  
