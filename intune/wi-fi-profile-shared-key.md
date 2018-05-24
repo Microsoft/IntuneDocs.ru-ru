@@ -14,11 +14,11 @@ ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a3b98dad86b7abe5ce330ae99fdf008137cc2b11
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: eb88bf64db8eaa82a68f56f8c3235030539f1959
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key---intune"></a>Использование пользовательского профиля устройства для создания профиля Wi-Fi с общим ключом в Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -35,6 +35,7 @@ ms.lasthandoff: 04/26/2018
 - Кроме того, для Android можно использовать [генератор PSK Android](http://intunepskgenerator.johnathonb.com/).
 - Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
 - Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Также вы можете воспользоваться генератором [iOS PSK Mobile Config Generator](http://intunepskgenerator.johnathonb.com/).
+- PSK требуется строка из 64 шестнадцатеричных цифр или парольная фраза из 8–63 печатных символов ASCII. Некоторые символы, такие как символ звездочки (*), не поддерживаются.
 
 ## <a name="create-a-custom-profile"></a>Создание настраиваемого профиля
 Можно создать пользовательский профиль Wi-Fi с общим ключом для Windows или Android либо профиль Wi-Fi на основе EAP. Сведения о том, как создать профиль на портале Azure, см. в статье [Создайте профиль с настраиваемыми параметрами в Intune](custom-settings-configure.md). Когда создаете профиль устройства, выберите для платформы устройства тип **Пользовательский**. Не выбирайте профиль Wi-Fi. Выбрав тип "Пользовательский", сделайте следующее: 
@@ -46,12 +47,12 @@ ms.lasthandoff: 04/26/2018
 
    b. (Необязательно.) Введите описание параметра OMA-URI или оставьте поле пустым.
 
-   c. Для **типа данных** задайте значение **Строка**.
+   c. Для параметра **Тип данных** задайте значение **Строка**.
 
    d. **OMA-URI**:
 
-   - **Для Android**: ./Vendor/MSFT/WiFi/Profile/<SSID>/Settings
-   - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml
+   - **Для Android**: ./Vendor/MSFT/WiFi/Profile/SSID/Settings
+   - **Для Windows**: ./Vendor/MSFT/WiFi/Profile/SSID/WlanXml
 
      > [!NOTE]
      > В начале обязательно должна стоять точка.

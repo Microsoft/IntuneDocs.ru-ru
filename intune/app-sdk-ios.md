@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 04/06/2018
+ms.date: 05/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,17 +13,17 @@ ms.technology: ''
 ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: 486ff2d22cb201abc926efc96a83455be98e7536
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.custom: ''
+ms.openlocfilehash: f8f81b4ff3bf5d17832d2f943fffb905eba52b6e
+ms.sourcegitcommit: 49dc405bb26270392ac010d4729ec88dfe1b68e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
 > [!NOTE]
-> Сначала может иметь смысл прочесть статью [Начало работы с пакетом SDK для приложений Intune](app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
+> Рекомендуется прочесть статью [Начало работы с пакетом SDK для приложений Intune](app-sdk-get-started.md), где описана подготовка к интеграции на каждой поддерживаемой платформе.
 
 Пакет SDK для приложений Microsoft Intune для iOS позволяет встроить в ваше собственное приложение для iOS политики защиты приложений, также известные как **политики защиты приложений** или **политики управления мобильными приложениями**. В приложение, которое использует MAM, встроен пакет SDK для приложений Intune. ИТ-администраторы могут развернуть политики защиты приложений в вашем мобильном приложении, когда Intune активно управляет им.
 
@@ -81,8 +81,8 @@ ms.lasthandoff: 04/26/2018
 
 1. **Вариант 1 (рекомендуется)**. Свяжите `IntuneMAM.framework` со своим проектом. Перетащите `IntuneMAM.framework` в список **Embedded Binaries** (Встроенные двоичные файлы) цели проекта.
 
-    > [!NOTE]
-    > При использовании платформы вам необходимо вручную убрать архитектуры симулятора из универсальной платформы перед отправкой приложения в App Store. См. дополнительные сведения [об отправке приложения в App Store](#Submit-your-app-to-the-App-Store).
+   > [!NOTE]
+   > При использовании платформы вам необходимо вручную убрать архитектуры симулятора из универсальной платформы перед отправкой приложения в App Store. См. дополнительные сведения [об отправке приложения в App Store](#Submit-your-app-to-the-App-Store).
 
 2. **Вариант 2**. Выполните связывание с библиотекой `libIntuneMAM.a`. Перетащите библиотеку `libIntuneMAM.a` в список **Linked Frameworks and Libraries** (Связанные платформы и библиотеки) цели проекта.
 
@@ -179,7 +179,7 @@ ms.lasthandoff: 04/26/2018
 
 
 
-### <a name="share-the-adal-token-cache-with-other-apps-signed-with-the-same-provisioning-profile"></a>Как использовать кэш маркера ADAL совместно с другими приложениями, подписанными с помощью одного и того же профиля подготовки?**
+### <a name="share-the-adal-token-cache-with-other-apps-signed-with-the-same-provisioning-profile"></a>Как использовать кэш токена ADAL совместно с другими приложениями, подписанными с помощью одного и того же профиля подготовки?
 
 Если вы хотите обеспечить совместное использование маркеров ADAL приложениями, подписанными с помощью одного и того же профиля подготовки, сделайте следующее:
 
@@ -523,7 +523,8 @@ SUBQUERY (
 ).@count > 0 
  ```
 
->[!Note] Средство IntuneMAMConfigurator можно использовать для добавления типов Intune в средство активации. Если имеющееся правило активации использует предварительно определенные строковые константы (например, NSExtensionActivationSupportsFileWithMaxCount, NSExtensionActivationSupportsText и т. д.), тогда синтаксис предиката может стать довольно сложным. Средство IntuneMAMConfigurator также можно использовать для преобразования правила активации из строковых констант в строку предиката при добавлении типов Intune. IntuneMAMConfigurator можно найти в репозитории GitHub. 
+> [!NOTE]
+> Средство IntuneMAMConfigurator можно использовать для добавления типов Intune в средство активации. Если имеющееся правило активации использует предварительно определенные строковые константы (например, NSExtensionActivationSupportsFileWithMaxCount, NSExtensionActivationSupportsText и т. д.), тогда синтаксис предиката может стать довольно сложным. Средство IntuneMAMConfigurator также можно использовать для преобразования правила активации из строковых констант в строку предиката при добавлении типов Intune. IntuneMAMConfigurator можно найти в репозитории GitHub. 
 
 
 ## <a name="enabling-mam-targeted-configuration-for-your-ios-applications"></a>Включение целевых конфигураций MAM для приложений iOS

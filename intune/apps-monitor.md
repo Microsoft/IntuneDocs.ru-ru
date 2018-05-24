@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/09/2018
+ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,23 +15,26 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0408ce3a4c2d4224780b4b23b0fb1b7d690471fe
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 0cd9db9399eb08c3ed04ff1d8920082aa0c04f06
+ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="monitor-app-information-and-assignments-with-microsoft-intune"></a>Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Служба Intune предоставляет несколько вариантов для отслеживания свойств управляемых приложений и состояния их назначения.
+Служба Intune предоставляет несколько вариантов для отслеживания свойств управляемых приложений и состояния назначения приложений.
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. В меню **Intune** выберите **Мобильные приложения**.
 4. В разделе меню **Управление** выберите **Приложения**.
-5. В списке приложений выберите приложение для отслеживания. Появится панель приложения со сведениями о состоянии устройства и пользователя.
+5. В списке приложений выберите приложение для отслеживания. Отображается панель приложения со сведениями о состоянии устройства и пользователя.
+
+> [!NOTE]
+> Приложения магазина Android Store, развернутые в состоянии **Доступно**, не сообщают свое состояние установки.
 
 ## <a name="app-overview-pane"></a>Панель общих сведений о приложении
 

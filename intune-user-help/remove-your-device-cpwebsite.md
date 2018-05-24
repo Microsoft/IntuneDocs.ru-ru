@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 02/23/2017
+ms.date: 05/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,15 +17,15 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c7cd6380cbb596779a3094b18eef4e91b6161871
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: f22509d780ec4d877e7e780109b34776b269c8b3
+ms.sourcegitcommit: 49dc405bb26270392ac010d4729ec88dfe1b68e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="remove-your-device-from-the-company-portal"></a>удалять устройство с корпоративного портала;
 
-Если вы решили, что устройство больше не должно управляться вашей компанией, его можно удалить на [корпоративном портале](https://portal.manage.microsoft.com#HelpDeskDialog). Корпоративный портал — это веб-страница, на которой можно управлять компьютерами и устройствами, зарегистрированными в вашем отделе ИТ. После удаления устройство перестает отображаться на корпоративном портале, а также может потерять доступ к приложениям, электронной почте и данным организации или учебного учреждения.
+Если вы решили, что устройство больше не должно управляться вашей организацией, его можно удалить на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog). После удаления устройство больше не отображается на корпоративном портале. Кроме того, вы можете потерять доступ к данным, приложениям и электронной почте вашей организации.
 
 Удаление устройства
 

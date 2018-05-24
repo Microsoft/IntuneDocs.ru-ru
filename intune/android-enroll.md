@@ -15,11 +15,11 @@ ms.assetid: f276d98c-b077-452a-8835-41919d674db5
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d74f59f1df0a4a4e1285b58d7ac5b3677d3c5e48
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 3212d1a3d3454542dd9d34409fc788558f2d7eed
+ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 
@@ -58,7 +58,8 @@ ms.lasthandoff: 04/16/2018
 Если это еще не сделано, подготовьтесь к управлению мобильными устройствами, [задав в качестве центра сертификации управления мобильными устройствами](mdm-authority-set.md) службу **Microsoft Intune**.
 2. **Настройка привязки Android for Work**<br>
     
-   a. Войдите в [Intune на портале Azure](https://aka.ms/intuneportal), выберите **Регистрация устройства** > **Регистрация Android** > **Управляемый Google Play**.
+   a. Войдите в [Intune на портале Azure](https://aka.ms/intuneportal), выберите **Регистрация устройства** > **Регистрация Android** > **Управляемый Google Play**.  Если вы используете настраиваемую роль администратора Intune, для доступа нужны разрешения на чтение и изменение организации.
+   
    ![Экран регистрации в Android for Work](./media/android-work-bind.png)
 
    b. Выберите **Даю согласие**, чтобы предоставить корпорации Майкрософт разрешение на [отправку сведений о пользователях и устройствах в Google](data-intune-sends-to-google.md). 
