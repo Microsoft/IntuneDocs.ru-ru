@@ -1,4 +1,4 @@
-﻿---
+---
 title: Устранение неполадок интеграции Lookout
 description: В этом разделе описывается устранение неполадок, которые часто возникают при интеграции с Lookout.
 keywords: ''
@@ -15,11 +15,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: sandera
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 643ac4c96297ffc24d9460546fe183d2a1316654
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 6262fee0051827794c49ebe10361b1a3b280b140
+ms.sourcegitcommit: f21287c66dd5559688f08bd98b6c976a0dea055d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/31/2018
+ms.locfileid: "34470803"
 ---
 # <a name="troubleshoot-lookout-integration-with-intune"></a>Устранение неполадок интеграции Lookout с Intune
 
@@ -36,7 +37,7 @@ Lookout MTP предоставляет доступ к службе только
 
 * Адрес электронной почты: enterprisesupport@lookout.com
 * Войдите в [консоль MTP](http://aad.lookout.com) и перейдите к модулю **Поддержка**.
-* Перейдите по адресу https://enterprise.support.lookout.com/hc/requests и создайте запрос на поддержку.
+* Перейдите по адресу <https://enterprise.support.lookout.com/hc/requests> и создайте запрос на поддержку.
 
 ## <a name="unable-to-sign-in"></a>Не удается выполнить вход
 Если пользователь с правами глобального администратора Azure AD не принял условия первоначальной установки Lookout, отображается следующая ошибка.
@@ -81,7 +82,7 @@ Lookout MTP предоставляет доступ к службе только
 Если новый пользователь входит в группу регистрации Lookout MTP, устройство отображается в списке после его связывания с новым пользователем в Azure AD.
 
 ## <a name="compliance-remediation-workflows"></a>Рабочие процессы устранения проблем совместимости
-- [Вам предложено установить Lookout for Work на устройстве с Android]( http://docs.microsoft.com/intune-user-help/you-are-prompted-to-install-lookout-for-work-android).
+- [Вам предложено установить Lookout for Work на устройстве с Android](http://docs.microsoft.com/intune-user-help/you-are-prompted-to-install-lookout-for-work-android).
 - [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве Android](http://docs.microsoft.com/intune-user-help/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)
 - [Вам требуется устранить угрозу, обнаруженную Lookout for Work на устройстве iOS](https://docs.microsoft.com/intune-user-help/you-need-to-resolve-a-threat-found-by-lookout-for-work-ios)
 
