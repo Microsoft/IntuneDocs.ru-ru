@@ -372,6 +372,8 @@
               href: endpoint-protection-macos.md
             - name: Windows 10
               href: endpoint-protection-windows-10.md
+        - name: Настройка параметров киоска
+          href: kiosk-settings.md
         - name: Настройка параметров электронной почты
           href: email-settings-configure.md
           items:
@@ -411,12 +413,14 @@
               href: wi-fi-settings-macos.md
             - name: Windows 8.1 и Windows 10
               href: wi-fi-settings-import-windows-8-1.md
+        - name: Образование
+          items:
+            - name: Общие устройства iOS
+              href: education-settings-configure-ios-shared.md
+            - name: Windows 10
+              href: education-settings-configure.md
         - name: Настройка параметров обновления выпуска Windows 10
           href: edition-upgrade-configure-windows-10.md
-        - name: Настройка параметров Windows 10 для образовательных учреждений
-          href: education-settings-configure.md
-        - name: Настройка общих устройств iOS для образовательных учреждений
-          href: education-settings-configure-ios-shared.md
         - name: Настройка политик обновления iOS
           href: software-updates-ios.md
         - name: Настройка сертификатов
@@ -455,6 +459,8 @@
           href: compliance-policy-create-mac-os.md
         - name: Создание политики Windows
           href: compliance-policy-create-windows.md
+        - name: Политика на основе расположения
+          href: use-network-locations.md
         - name: Оценка политики
           href: policy-evaluate.md
         - name: Действия при несоответствии

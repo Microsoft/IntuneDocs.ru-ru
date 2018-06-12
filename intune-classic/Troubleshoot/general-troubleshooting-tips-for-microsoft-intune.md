@@ -15,11 +15,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: tscott
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: d5d55f6c3efabdde51b5627d5ddd409c2b282f6c
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: bbcfa2de4b2d6ef7bff481817a289f56e746ee7f
+ms.sourcegitcommit: 2061f7a442efc96c8afd5db764d11531563c7e39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34718035"
 ---
 # <a name="general-troubleshooting-tips-for-microsoft-intune"></a>Общие советы по устранению неполадок в Microsoft Intune
 
@@ -28,7 +29,7 @@ ms.lasthandoff: 04/16/2018
 После развертывания Microsoft Intune могут возникать проблемы с конфигурацией или клиентскими устройствами. Используйте указанные ниже ресурсы, чтобы определить причину проблемы и способы ее решения.
 
 > [!NOTE]
-> Чтобы создать запрос в службу поддержки или просмотреть существующий запрос, [перейдите в центр администрирования Office 365](https://portal.office.com/admin/default.aspx). Дополнительные сведения о вариантах поддержки см. в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
+> Чтобы создать запрос в службу поддержки или просмотреть существующий запрос, [перейдите на страницу справки и поддержки Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview). Дополнительные сведения о вариантах поддержки см. в разделе [Как получить поддержку для Microsoft Intune](how-to-get-support-for-microsoft-intune.md).
 
 ## <a name="define-the-problem"></a>Определение проблемы
 

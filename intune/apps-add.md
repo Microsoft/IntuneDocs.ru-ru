@@ -15,11 +15,12 @@ ms.assetid: a1ded457-0ecf-4f9c-a2d2-857d57f8d30a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8dbfff0fadec567bf0d9bd86d71a26174db40c09
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 75e36456c03cd0a769e9741606a2b70fa7e49c35
+ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34744998"
 ---
 # <a name="add-apps-to-microsoft-intune"></a>Добавление приложений в Microsoft Intune
 
@@ -153,6 +154,9 @@ Intune позволяет изменять функциональные возм
 ## <a name="apps-that-are-added-automatically-by-intune"></a>Приложения, автоматически добавляемые Intune
 
 В прошлом служба Intune содержала ряд встроенных приложений, которые можно было быстро назначать. Мы прислушались к отзывам пользователей Intune и удалили этот список. Встроенные приложения больше не отображаются. Но если вы уже назначали встроенные приложения, они по-прежнему будут отображаться в списке. Вы можете и дальше назначать эти приложения по мере необходимости.
+
+> [!NOTE]
+> Intune будет пытаться установить необходимое приложение, не являющееся бизнес-приложением, отправляя команду установки каждый раз при возврате приложения при условии, что оно не обнаружено и что состояние его установки отлично от *Ожидается установка*.
 
 ## <a name="installing-updating-or-removing-required-apps"></a>Установка, обновление и удаление требуемых приложений
 

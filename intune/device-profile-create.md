@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/01/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,12 @@ ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3d46960e6ea7e2ae9bed6c0016ddc309bd15f572
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 3f62e306574606ffa1eb1e6f242c3cb30b1a9c1b
+ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34744658"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -46,16 +47,19 @@ ms.lasthandoff: 04/16/2018
    - **Тип профиля.** Выберите тип создаваемого профиля. Список зависит от выбранной платформы.
    - **Параметры.** Параметры каждого типа профиля описаны в следующих статьях.
 
-       -  [Параметры возможностей устройства](device-features-configure.md)
-       -  [Параметры ограничений для устройств](device-restrictions-configure.md)
-       -  [Параметры электронной почты](email-settings-configure.md)
-       -  [Параметры VPN](vpn-settings-configure.md)
-       -  [Параметры Wi-Fi](wi-fi-settings-configure.md)
-       -  [Параметры для обновления выпуска Windows 10](edition-upgrade-configure-windows-10.md)
-       -  [Параметры сертификата](certificates-configure.md)
-       -  [Параметры Windows Information Protection](windows-information-protection-configure.md)
-       -  [Параметры образования](education-settings-configure.md)
-       -  [Пользовательские параметры](custom-settings-configure.md)
+       -  [Возможности устройств](device-features-configure.md)
+       -  [Ограничения устройств](device-restrictions-configure.md)
+       -  [Защита конечных точек](endpoint-protection-configure.md)
+       -  [Киоск](kiosk-settings.md)
+       -  [Электронная почта](email-settings-configure.md)
+       -  [VPN](vpn-settings-configure.md)
+       -  [Wi-Fi](wi-fi-settings-configure.md)
+       -  Образование для [Windows 10](education-settings-configure.md) и [iOS](wi-fi-settings-ios.md)
+       -  [Обновление выпуска Windows 10](edition-upgrade-configure-windows-10.md)
+       -  [Политики обновления iOS](software-updates-ios.md)
+       -  [Сертификаты](certificates-configure.md)
+       -  [Windows Information Protection](windows-information-protection-configure.md)
+       -  [Пользовательский](custom-settings-configure.md)
 
      ![Снимок экрана создания профиля](./media/create-device-profile.png)
 
@@ -63,6 +67,5 @@ ms.lasthandoff: 04/16/2018
 
 Созданный профиль отобразится в списке.
 
-
 ## <a name="next-steps"></a>Дальнейшие шаги
-Сведения о назначении профилей устройств см. в статье [Как назначить профили устройств в Microsoft Intune](device-profile-assign.md).
+[Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).

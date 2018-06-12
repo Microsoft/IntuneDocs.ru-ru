@@ -1,23 +1,24 @@
 ---
-title: "Удаленное администрирование устройств в Microsoft Intune —Azure | Документы Майкрософт"
-description: "Просмотрите необходимые роли для использования TeamViewer, рекомендации по установке соединителя TeamViewer и пошаговые инструкции для удаленного администрирования устройств с помощью Microsoft Intune на портале Azure"
-keywords: 
+title: Удаленное администрирование устройств в Microsoft Intune —Azure | Документы Майкрософт
+description: Просмотрите необходимые роли для использования TeamViewer, рекомендации по установке соединителя TeamViewer и пошаговые инструкции для удаленного администрирования устройств с помощью Microsoft Intune на портале Azure
+keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 64f6dd6bf787a6f590655f03ac8f04312836e0b5
-ms.sourcegitcommit: 7e5c4d43cbd757342cb731bf691ef3891b0792b5
+ms.openlocfilehash: 60d9398b80a30adee194470ac4e5c6c1efc0bd4c
+ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34744641"
 ---
 # <a name="use-teamviewer-to-remotely-administer-intune-devices"></a>Используйте TeamViewer для удаленного администрирования устройств Intune
 
@@ -25,7 +26,7 @@ ms.lasthandoff: 03/05/2018
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-- Необходимо поддерживаемое устройство. Устройства Android и Windows, управляемые с помощью Intune, поддерживают удаленное администрирование. TeamViewer может не поддерживать Windows Holographic (HoloLens), Windows Team (Surface Hub) или Windows 10 S. Актуальный список поддерживаемых устройств см. в разделе [TeamViewer](https://www.teamviewer.com).
+- Необходимо поддерживаемое устройство. Устройства Android, Windows, iOS и macOS, управляемые с помощью Intune, поддерживают удаленное администрирование. TeamViewer может не поддерживать Windows Holographic (HoloLens), Windows Team (Surface Hub) или Windows 10 S. Актуальный список поддерживаемых устройств см. в разделе [TeamViewer](https://www.teamviewer.com).
 
 - Администратор Intune на портале Azure должен иметь следующие [роли Intune](role-based-access-control.md):  
 

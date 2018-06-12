@@ -15,11 +15,12 @@ ms.assetid: bfe1a2d3-f611-4dbb-adef-c0dff4d7b810
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 169d0a32fdc86b5cd3f36421e6057cdeae1a078f
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: edd0ec0d717d4303ad2a452c5d60009ac09aa05f
+ms.sourcegitcommit: 2061f7a442efc96c8afd5db764d11531563c7e39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34703321"
 ---
 # <a name="manually-add-the-windows-10-company-portal-app-by-using-microsoft-intune"></a>Добавление приложения "Корпоративный портал" для Windows 10 вручную с помощью Microsoft Intune
 
@@ -73,7 +74,7 @@ ms.lasthandoff: 05/17/2018
 
 Если нужно загрузить неопубликованное приложение и вы назначили корпоративный портал для Windows 8.1 без подписи с помощью сертификата Symantec, для обновления выполните шаги из предыдущего раздела.
 
-Если нужно загрузить неопубликованное приложение и вы подписали и назначили корпоративный портал для Windows 8.1 с помощью сертификата подписывания кода Symantec, выполните приведенные ниже шаги.  
+Если нужно загрузить неопубликованное приложение и вы подписали и назначили приложение "Корпоративный портал" для Windows 8.1 с помощью сертификата подписывания кода Symantec, выполните действия, описываемые в следующем разделе.
 
 ### <a name="how-do-i-upgrade-my-signed-and-sideloaded-windows-phone-81-company-portal-app-or-windows-81-company-portal-app-to-the-windows-10-company-portal-app"></a>Как обновить мое подписанное и загруженное неопубликованное приложение корпоративного портала для Windows Phone 8.1 или приложение корпоративного портала для Windows 8.1 до приложения корпоративного портала для Windows 10?
 Для миграции мы советуем удалить назначенное приложение "Корпоративный портал" для Windows Phone 8.1 или Windows 8.1, выбрав действие назначения **Удалить**. Выбрав этот параметр, вы можете назначить приложение "Корпоративный портал" для Windows 10 обычным способом.  

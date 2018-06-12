@@ -5,18 +5,19 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/5/2018
+ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 792e2ae45e6331b91b1727af113604186c9bb72a
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 233b61018ad521f44ffea96f991f24649e174e3e
+ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34744607"
 ---
 # <a name="create-vpn-profiles-in-intune"></a>Создание профилей VPN в Intune
 
@@ -41,18 +42,19 @@ ms.lasthandoff: 04/16/2018
 
 |Тип подключения|Android<br>Android for Work|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
 |-|-|-|-|-|-|-|
-|Pulse Secure|Да|Да|Да|Да|Да|Да|
-|Cisco (IPSec)|Нет|Да|Нет|Нет|Нет|Нет|
-|Citrix|Да|Да|Нет|Нет|Нет|Да|
-|F5 Edge Client|Да|Да|Да|Да|Да|Да|
-|SonicWall Mobile Connect|Да|Да|Да|Да|Да|Да|
+|Автоматически|Нет|Нет|Нет|Нет|Нет|Да|
 |Check Point Capsule VPN|Да|Да|Да|Да|Да|Да|
 |Cisco AnyConnect|Да|Да|Да|Нет|Нет|Нет|
-|Автоматически|Нет|Нет|Нет|Нет|Нет|Да|
+|SonicWall Mobile Connect|Да|Да|Да|Да|Да|Да|
+|F5 Edge Client|Да|Да|Да|Да|Да|Да|
+|Palo Alto Networks GlobalProtect|Нет|Да|Нет|Нет|Нет|Да|
+|Pulse Secure|Да|Да|Да|Да|Да|Да|
+|Cisco (IPSec)|Нет|Да|Нет|Нет|Нет|Нет|
+|Citrix|Да (только Android)|Да|Нет|Нет|Нет|Да|
 |IKEv2|Нет|Нет|Нет|Нет|Нет|Да|
 |L2TP|Нет|Нет|Нет|Нет|Нет|Да|
 |PPTP|Нет|Нет|Нет|Нет|Нет|Да|
-|Особые настройки|Нет|да|Да|Нет|Нет|Нет|
+|Пользовательская сеть VPN|Нет|да|Да|Нет|Нет|Нет|
 
 > [!IMPORTANT]
 > Перед использованием назначенных устройству профилей VPN необходимо установить приложение VPN, подходящее для профиля. Чтобы назначить приложение с помощью Intune, см. инструкции в статье [Что такое управление приложениями с помощью Microsoft Intune](app-management.md).  
