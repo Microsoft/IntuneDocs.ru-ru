@@ -270,6 +270,8 @@
           items:
             - name: Включение и исключение приложений
               href: apps-inc-exl-assignments.md
+            - name: Развернуть Приложения Windows 10
+              href: apps-windows-10-app-deploy.md
         - name: Мониторинг приложений
           href: apps-monitor.md
         - name: Настройка приложений
@@ -644,6 +646,8 @@
       items:
         - name: Помощь пользователям в устранении проблем
           href: help-desk-operators.md
+        - name: 'Устранение неполадок, связанных с доступом к ресурсам компании'
+          href: troubleshoot-company-resource-access-problems.md
         - name: Журналы аудита для действий Intune
           href: monitor-audit-logs.md
         - name: Просмотрите журналы защиты приложений
@@ -693,7 +697,9 @@
           href: app-wrapper-prepare-android.md
         - name: Пакет SDK приложений Intune для Android
           href: app-sdk-android.md
-        - name: Компонент Xamarin из пакета SDK для приложений Intune
+        - name: Подключаемый модуль Cordova из пакета SDK для приложений Intune
+          href: app-sdk-cordova.md
+        - name: привязки Xamarin из пакета SDK для приложений Intune
           href: app-sdk-xamarin.md
     - name: Использование хранилища данных Intune
       href: reports-nav-create-intune-reports.md

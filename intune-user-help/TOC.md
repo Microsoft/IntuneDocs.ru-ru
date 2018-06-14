@@ -137,6 +137,7 @@
 ### [Синхронизация устройства вручную](sync-your-device-manually-windows.md)
 
 ### [Решение распространенных проблем с Windows](troubleshoot-your-device-windows.md)
+### [Устранение ошибок, связанных с ограничениями точек доступа](resolve-access-point-restrictions.md)
 #### [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md).
 #### [Обновление устройства с Windows](you-need-to-update-your-windows-device.md)
 #### [Отправка журналов из приложения корпоративного портала](send-logs-to-your-it-admin-cp-windows.md)
@@ -158,4 +159,3 @@
 ### [Удаление устройства](remove-your-device-cpwebsite.md)
 ### [Сброс секретного кода](reset-your-passcode-cpwebsite.md)
 ### [Сброс и очистка устройства](reset-erase-your-device-cpwebsite.md)
-### [Синхронизация устройства вручную](sync-your-device-manually-cpwebsite.md)
