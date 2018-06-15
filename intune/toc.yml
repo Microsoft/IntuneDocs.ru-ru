@@ -189,6 +189,10 @@
               href: apple-configurator-enroll-ios.md
         - name: Настройка регистрации устройств macOS
           href: macos-enroll.md
+        - name: Установка программного клиента Intune на компьютерах Windows
+          href: install-the-windows-pc-client-with-microsoft-intune.md
+        - name: Устранение проблем при регистрации устройств
+          href: troubleshoot-device-enrollment-in-intune.md
     - name: Управление устройствами
       href: device-management.md
       items:
@@ -259,6 +263,8 @@
                   href: lob-apps-windows-phone.md
                 - name: Бизнес-приложения Windows
                   href: lob-apps-windows.md
+                - name: Неопубликованные Бизнес-приложения Windows
+                  href: app-sideload-windows.md
                 - name: Бизнес-приложения macOS
                   href: lob-apps-macos.md
             - name: Веб-приложения
@@ -678,8 +684,6 @@
               href: custom-settings-windows-holographic.md
             - name: Android for Work
               href: custom-settings-android-for-work.md
-        - name: Загрузка неопубликованных бизнес-приложений Windows
-          href: app-sideload-windows.md
 - name: Руководство разработчика
   items:
     - name: Защита приложений с помощью пакета SDK для приложений Intune
