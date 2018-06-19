@@ -11,6 +11,8 @@
       items:
         - name: Изменения в группах
           href: groups-get-started.md
+        - name: Устаревший клиент Intune для настольных компьютеров
+          href: intune-legacy-pc-client.md
     - name: Зарегистрируйтесь для получения бесплатной пробной версии
       href: free-trial-sign-up.md
     - name: Новые возможности
@@ -70,6 +72,8 @@
       href: common-scenarios.md
     - name: ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ О MAM
       href: mam-faq.md
+    - name: Вопросы и ответы о политиках и профилях
+      href: manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md
 - name: Планирование развертывания
   items:
     - name: Планирование развертывания DPM
@@ -176,6 +180,8 @@
           items:
             - name: Настройка регистрации устройств Android
               href: android-enroll.md
+            - name: Управление устройствами Android for Work
+              href: android-enterprise-overview.md
             - name: Регистрация мобильных устройств Samsung Knox
               href: android-samsung-knox-mobile-enroll.md
         - name: Настройка регистрации iOS
@@ -196,6 +202,8 @@
     - name: Управление устройствами
       href: device-management.md
       items:
+        - name: Возможности управления устройствами
+          href: device-management-capabilities.md
         - name: Обход блокировки активации
           href: device-activation-lock-bypass.md
         - name: Управление новым запуском Windows
@@ -658,6 +666,14 @@
           href: monitor-audit-logs.md
         - name: Просмотрите журналы защиты приложений
           href: app-protection-policy-settings-log.md
+        - name: 'Устранение неполадок, связанных с профилями электронной почты'
+          href: troubleshoot-email-profiles-in-microsoft-intune.md
+        - name: Устранение неполадок с обновлениями программного обеспечения
+          href: troubleshoot-software-updates-in-microsoft-intune.md
+        - name: Устранение неполадок Endpoint Protection
+          href: troubleshoot-endpoint-protection-in-microsoft-intune.md
+        - name: Устранение неполадок с политиками
+          href: troubleshoot-policies-in-microsoft-intune.md
     - name: Автоматизация и настройка
       items:
         - name: Настройка пользовательских параметров устройства
