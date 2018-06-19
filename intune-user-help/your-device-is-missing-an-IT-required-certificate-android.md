@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31019863"
 ---
 # <a name="your-android-device-is-missing-a-certificate-required-by-your-company-support"></a>На устройстве Android отсутствует сертификат, требуемый службой поддержки вашей компании
 

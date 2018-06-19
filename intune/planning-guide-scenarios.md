@@ -1,16 +1,16 @@
 ---
-title: "Определение вариантов использования"
+title: Определение вариантов использования
 titlesuffix: Microsoft Intune
-description: "Эта статья поможет определить сценарии обычных и второстепенных вариантов использования Intune для внедрения Microsoft Intune с использованием только облачной среды."
-keywords: 
+description: Эта статья поможет определить сценарии обычных и второстепенных вариантов использования Intune для внедрения Microsoft Intune с использованием только облачной среды.
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 4b3c9af9-78da-44d2-8bd2-3f0f8885952d
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
@@ -20,6 +20,7 @@ ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/17/2018
+ms.locfileid: "29961601"
 ---
 # <a name="identify-mobile-device-management-use-case-scenarios"></a>Определение функций управления мобильными устройствами для сценариев вариантов использования
 

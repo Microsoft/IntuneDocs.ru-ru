@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31028084"
 ---
 # <a name="troubleshoot-client-setup-in-microsoft-intune"></a>Устранение неполадок при настройке клиента в Microsoft Intune
 

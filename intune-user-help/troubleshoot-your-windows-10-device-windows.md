@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31018181"
 ---
 # <a name="troubleshoot-your-windows-10-device-enrollment"></a>Устранение проблем при регистрации устройств c Windows 10
 Если вы выполнили инструкции из статьи [Регистрация устройства с ОС Windows 10 Mobile или Windows 10 Desktop в Intune](enroll-your-w10-phone-or-w10-pc-windows.md), но по-прежнему не можете получить доступ к своей рабочей или учебной электронной почте и файлам, попробуйте выполнить следующие действия по устранению неполадок.

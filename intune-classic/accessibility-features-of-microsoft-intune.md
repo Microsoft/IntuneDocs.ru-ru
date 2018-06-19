@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31013064"
 ---
 # <a name="accessibility-features-of-microsoft-intune"></a>Специальные возможности Microsoft Intune
 В дополнение к функциям и средствам специальных возможностей Microsoft Windows в службе Microsoft Intune предусмотрены некоторые функции, которые позволяют сделать ее более удобной для людей с ограниченными возможностями. Например, использование сочетаний клавиш.

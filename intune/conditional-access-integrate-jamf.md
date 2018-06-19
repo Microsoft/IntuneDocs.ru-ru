@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31024733"
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
 

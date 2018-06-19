@@ -18,6 +18,7 @@ ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31834759"
 ---
 # <a name="microsoft-intune-custom-device-settings-for-devices-running-windows-phone-81"></a>Настраиваемые параметры Microsoft Intune для устройств под управлением Windows Phone 8.1
 

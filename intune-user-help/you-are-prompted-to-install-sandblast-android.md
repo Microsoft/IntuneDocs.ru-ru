@@ -20,6 +20,7 @@ ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/03/2018
+ms.locfileid: "32327812"
 ---
 # <a name="you-need-to-install-sandblast-mobile-protect-on-your-android-device"></a>Вам необходимо установить SandBlast Mobile Protect на устройстве с Android
 

@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31029814"
 ---
 # <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>Настройка параметров образования Intune для общих устройств iPad
 

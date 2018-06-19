@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3c4ea8d6809a63042705b5ed4f25ba80f522070e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "34051646"
 ---
 # <a name="assign-licenses-to-users-so-they-can-enroll-devices-in-intune"></a>Назначение пользователям лицензий для регистрации устройств в Intune
 

@@ -20,6 +20,7 @@ ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/04/2018
+ms.locfileid: "30753215"
 ---
 # <a name="resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Устранение угрозы, обнаруженной приложением Mobile Threat Defense
 

@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31013982"
 ---
 # <a name="you-need-to-update-your-android-device-to-install-the-outlook-app"></a>Необходимо обновить устройство Android для установки приложения Outlook
 

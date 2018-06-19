@@ -22,6 +22,7 @@ ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/03/2018
+ms.locfileid: "32327693"
 ---
 # <a name="email-logs-to-your-company-support"></a>Отправка журналов по электронной почте в службу поддержки вашей компании
 

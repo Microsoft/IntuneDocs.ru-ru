@@ -22,6 +22,7 @@ ms.sourcegitcommit: 6a9830de768dd97a0e95b366fd5d2f93980cee05
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2018
+ms.locfileid: "34048025"
 ---
 # <a name="sync-your-windows-device-manually"></a>Синхронизация устройства с Windows вручную.
 

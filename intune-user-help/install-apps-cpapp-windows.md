@@ -22,6 +22,7 @@ ms.sourcegitcommit: d40bfb6af66f2ce7026c0151ace98ec23f1cf76e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2018
+ms.locfileid: "33927327"
 ---
 # <a name="install-apps-on-your-device"></a>Установка приложений на устройство
 Установка на устройства приложений из приложения "Корпоративный портал" для Windows.

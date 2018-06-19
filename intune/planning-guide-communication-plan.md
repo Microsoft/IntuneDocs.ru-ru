@@ -20,6 +20,7 @@ ms.sourcegitcommit: e30fb2375fb79f67e5c1e4ed7b2c21fb9ca80c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/17/2018
+ms.locfileid: "29961567"
 ---
 # <a name="develop-a-rollout-communication-plan"></a>Разработка коммуникационного плана развертывания
 

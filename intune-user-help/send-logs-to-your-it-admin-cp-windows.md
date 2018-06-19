@@ -22,6 +22,7 @@ ms.sourcegitcommit: b0ad42fe5b5627e5555b2f9e5bb81bb44dbff078
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/09/2018
+ms.locfileid: "33915500"
 ---
 # <a name="send-logs-to-your-company-support-from-the-company-portal-app-for-windows-10"></a>Отправка журналов устройств Windows 10 из приложения "Корпоративный портал" в службу поддержки компании
 

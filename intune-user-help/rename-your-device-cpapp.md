@@ -22,6 +22,7 @@ ms.sourcegitcommit: b0ad42fe5b5627e5555b2f9e5bb81bb44dbff078
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/09/2018
+ms.locfileid: "33915834"
 ---
 # <a name="rename-device-from-the-company-portal-app-for-windows"></a>Переименование устройства в приложении "Корпоративный портал" для Windows
 Переименуйте устройство, чтобы его было проще распознать с других устройств. Приложение "Корпоративный портал" для Windows позволяет переименовать подключенные устройства Windows, iOS и Android. 

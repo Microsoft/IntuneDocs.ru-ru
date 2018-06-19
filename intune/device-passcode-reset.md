@@ -18,6 +18,7 @@ ms.sourcegitcommit: 91802e78cd5014d20a828ca25a54a381d452f0f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/16/2018
+ms.locfileid: "34216315"
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Сброс или удаление секретного кода устройства с помощью Intune
 

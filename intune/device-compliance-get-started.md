@@ -18,6 +18,7 @@ ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/16/2018
+ms.locfileid: "34190764"
 ---
 # <a name="get-started-with-device-compliance-policies-in-intune"></a>Начало работы с политиками соответствия устройств в Intune
 

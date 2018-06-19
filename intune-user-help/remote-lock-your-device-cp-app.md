@@ -21,6 +21,7 @@ ms.sourcegitcommit: 2b5d88c434bda7f1cdc32d1ccacc6b341a9a399b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/07/2018
+ms.locfileid: "33676636"
 ---
 # <a name="lock-your-device-from-company-portal-app-for-windows-10"></a>Блокировка устройства из приложения "Корпоративный портал" для Windows 10
 

@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31017586"
 ---
 # <a name="what-happens-if-you-unenroll-your-android-device-from-intune"></a>Что происходит при отмене регистрации устройства Android в Intune?
 

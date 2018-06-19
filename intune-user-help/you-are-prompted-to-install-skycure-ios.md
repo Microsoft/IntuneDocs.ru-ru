@@ -20,6 +20,7 @@ ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/04/2018
+ms.locfileid: "30754031"
 ---
 # <a name="install-symantec-endpoint-protection-mobile-on-your-ios-device"></a>Установка Symantec Endpoint Protection Mobile на устройстве iOS
 

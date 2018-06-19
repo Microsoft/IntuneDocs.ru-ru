@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31020934"
 ---
 # <a name="erase-all-data-from-a-macos-device"></a>Очистка всех данных на устройстве с macOS
 

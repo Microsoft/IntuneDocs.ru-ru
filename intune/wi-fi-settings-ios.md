@@ -18,6 +18,7 @@ ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31831198"
 ---
 # <a name="wi-fi-settings-for-ios-devices-in-microsoft-intune"></a>Параметры Wi-Fi для устройств iOS в Microsoft Intune
 

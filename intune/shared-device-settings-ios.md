@@ -18,6 +18,7 @@ ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31834233"
 ---
 # <a name="shared-device-configuration-settings-to-display-messages-on-the-ios-device-lock-screen"></a>Параметры конфигурации общего устройства для отображения сообщений на экране блокировки устройства iOS
 

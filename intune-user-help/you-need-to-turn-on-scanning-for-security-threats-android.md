@@ -20,6 +20,7 @@ ms.sourcegitcommit: c1631ad8feba6c6fd03698ab20836b2e5d8a78d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/12/2018
+ms.locfileid: "34073824"
 ---
 # <a name="enable-security-threat-scans-on-your-device"></a>Включение проверок на наличие угроз безопасности на устройстве 
 Если вы непреднамеренно установили небезопасное приложение, данные на устройстве могут оказаться под угрозой. Чтобы защитить данные на устройстве, рекомендуем: 

@@ -20,6 +20,7 @@ ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2018
+ms.locfileid: "32046372"
 ---
 # <a name="symantec-endpoint-protection-mobile-connector"></a>Соединитель Symantec Endpoint Protection Mobile
 

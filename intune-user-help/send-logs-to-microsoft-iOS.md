@@ -22,6 +22,7 @@ ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/04/2018
+ms.locfileid: "30754626"
 ---
 # <a name="send-logs-to-the-company-portal-developers-for-ios-devices"></a>Отправка журналов разработчикам корпоративного портала для устройств с iOS
 

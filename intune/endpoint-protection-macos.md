@@ -17,6 +17,7 @@ ms.sourcegitcommit: c3ae3c3dc46b62d9191813d25a196874ba4927be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30254559"
 ---
 # <a name="macos-endpoint-protection-settings-in-intune"></a>Параметры защиты конечных точек macOS в Intune
 

@@ -20,6 +20,7 @@ ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/07/2018
+ms.locfileid: "33840183"
 ---
 # <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Включение регистрации устройств iOS с помощью Apple School Manager
 

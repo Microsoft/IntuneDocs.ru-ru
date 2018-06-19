@@ -20,6 +20,7 @@ ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/08/2018
+ms.locfileid: "29780073"
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 

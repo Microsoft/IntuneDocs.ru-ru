@@ -20,6 +20,7 @@ ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34224857"
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Создание отчета из веб-канала OData с помощью Power BI
 

@@ -12,11 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a4b5e55b404da907d8f17a658483b4802af8226d
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 8e8603ca59b46937b1529e710a8bc83aec5dd4d6
+ms.sourcegitcommit: 4c18352d5b3b30080f7c7257fa63d852b1894850
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/27/2018
+ms.locfileid: "32017963"
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices---intune"></a>Автоматизация уведомлений и действий для несоответствующих устройств — Intune
 
@@ -77,7 +78,10 @@ ms.lasthandoff: 04/16/2018
 1. На [портале Azure](https://portal.azure.com) откройте **Microsoft Intune** и выберите **Соответствие устройств политике**.
 2. Нажмите **Политики**, выберите политику и нажмите **Свойства**. 
 
-   У вас еще нет политики? Создайте политику для [Android](compliance-policy-create-android.md), [iOS](compliance-policy-create-ios.md), [Windows](compliance-policy-create-windows.md) или другой платформы.
+  У вас еще нет политики? Создайте политику для [Android](compliance-policy-create-android.md), [iOS](compliance-policy-create-ios.md), [Windows](compliance-policy-create-windows.md) или другой платформы.
+  
+  > [!NOTE]
+  > Устройства JAMF и те, которые являются целью для групп устройств, в настоящее время не могут получать соответствия действий.
 
 3. Выберите **Действия при несоответствии** и нажмите **Добавить**, чтобы указать параметры действий. Вы можете выбрать ранее созданный шаблон сообщения, добавить дополнительных получателей и изменить период отсрочки. Укажите период в днях (от 0 до 365), а затем примените политики условного доступа. Если указать **0** дней, условный доступ **немедленно** заблокирует доступ к корпоративным ресурсам.
 

@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31021526"
 ---
 # <a name="monitor-app-protection-policies-with-microsoft-intune"></a>Мониторинг политик защиты приложений с помощью Microsoft Intune
 Вы можете отслеживать соответствие политикам защиты приложений, которые вы применили к пользователям. Вы можете находить сведения о пользователях, на которых распространяются политики защиты приложений, состоянии соответствия и любых проблемах, которые могут возникнуть у пользователей.

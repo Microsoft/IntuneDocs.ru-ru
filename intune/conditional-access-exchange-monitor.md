@@ -1,16 +1,16 @@
 ---
-title: "Мониторинг условного доступа Exchange в Microsoft Intune"
-titlesuffix: 
-description: "Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online на портале Azure Intune."
-keywords: 
+title: Мониторинг условного доступа Exchange в Microsoft Intune
+titlesuffix: ''
+description: Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online на портале Azure Intune.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 5712682d-285b-43fd-9978-3dcfd95ec5f9
 ms.suite: ems
 ms.custom: intune-azure
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/08/2018
+ms.locfileid: "29775364"
 ---
 # <a name="monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online-in-intune"></a>Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online в Intune
 

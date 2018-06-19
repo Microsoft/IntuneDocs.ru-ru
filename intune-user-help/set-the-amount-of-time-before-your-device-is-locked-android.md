@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31014186"
 ---
 # <a name="how-to-set-the-amount-of-time-before-your-device-is-locked"></a>Установка интервала времени до блокировки устройства
 
