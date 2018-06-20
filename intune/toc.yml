@@ -672,8 +672,12 @@
           href: troubleshoot-software-updates-in-microsoft-intune.md
         - name: Устранение неполадок Endpoint Protection
           href: troubleshoot-endpoint-protection-in-microsoft-intune.md
-        - name: Устранение неполадок с политиками
+        - name: Политики устранения неполадок
           href: troubleshoot-policies-in-microsoft-intune.md
+        - name: Устранение неполадок условного доступа
+          href: troubleshoot-conditional-access.md
+        - name: Устранение проблем в работе соединителя с Exchange
+          href: troubleshoot-exchange-connector.md
     - name: Автоматизация и настройка
       items:
         - name: Настройка пользовательских параметров устройства
