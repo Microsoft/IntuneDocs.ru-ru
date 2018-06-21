@@ -135,6 +135,7 @@
 ### [Что происходит при сбросе устройства?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
 ### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-windows.md)
 ### [Синхронизация устройства вручную](sync-your-device-manually-windows.md)
+### [Удаленная блокировка устройств при помощи устройства с Windows 10](remote-lock-your-device-cp-app.md) 
 
 ### [Решение распространенных проблем с Windows](troubleshoot-your-device-windows.md)
 ### [Устранение ошибок, связанных с ограничениями точек доступа](resolve-access-point-restrictions.md)
@@ -152,7 +153,7 @@
 #### [Мне нужно включить контроль учетных записей](you-need-to-enable-uac-windows.md)
 #### [Мне нужно обновить Windows](you-need-to-update-os-build-version-windows.md)
 #### [Мне нужно включить Защитник Windows](turn-on-defender-windows.md)
-## [Удаленная блокировка устройства из приложения корпоративного портала для Windows](remote-lock-your-device-cp-app.md) 
+
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 ### [Удаленная блокировка устройства](remote-lock-your-device-cpwebsite.md)
 ### [Переименование устройства](rename-your-device-cpwebsite.md)
