@@ -578,56 +578,40 @@
     - name: Управление обновлениями программного обеспечения
       href: windows-update-for-business-configure.md
     - name: Управление компьютерами с помощью агента программного обеспечения
-      href: /intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune
-      maintainContext: true
+      href: manage-windows-pcs-with-microsoft-intune.md
       items:
         - name: Сравнение функций управления компьютером
-          href: /intune-classic/deploy-use/pc-management-comparison
-          maintainContext: true
+          href: pc-management-comparison.md
         - name: Установка клиента компьютера
-          href: /intune-classic/deploy-use/install-the-windows-pc-client-with-microsoft-intune
-          maintainContext: true
+          href: install-the-windows-pc-client-with-microsoft-intune.md
         - name: Общие задачи управления ПК
-          href: /intune-classic/deploy-use/common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client
-          maintainContext: true
+          href: common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md
           items:
             - name: Политики компьютера
-              href: /intune-classic/deploy-use/use-policies-to-simplify-windows-pc-management
-              maintainContext: true
+              href: use-policies-to-simplify-windows-pc-management.md
             - name: Просмотр данных инвентаризации
-              href: /intune-classic/deploy-use/view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune
-              maintainContext: true
+              href: view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune.md
             - name: Прекращение использования компьютера
-              href: /intune-classic/deploy-use/retire-a-windows-pc-with-microsoft-intune
-              maintainContext: true
+              href: retire-a-windows-pc-with-microsoft-intune.md
             - name: Создание связи между компьютерами и пользователями
-              href: /intune-classic/deploy-use/manage-user-device-linking-for-windows-pcs-with-microsoft-intune
-              maintainContext: true
+              href: manage-user-device-linking-for-windows-pcs-with-microsoft-intune.md
             - name: Удаленная помощь
-              href: /intune-classic/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune
-              maintainContext: true
+              href: request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md
         - name: Политики для защиты компьютеров с ОС Windows
-          href: /intune-classic/deploy-use/policies-to-protect-windows-pcs-in-microsoft-intune
-          maintainContext: true
+          href: policies-to-protect-windows-pcs-in-microsoft-intune.md
           items:
             - name: Обновления программного обеспечения
-              href: /intune-classic/deploy-use/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune
-              maintainContext: true
+              href: keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md
             - name: Брандмауэр Windows
-              href: /intune-classic/deploy-use/help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune
-              maintainContext: true
+              href: help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md
             - name: Endpoint Protection
-              href: /intune-classic/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune
-              maintainContext: true
+              href: help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md
         - name: Добавление приложений для клиентских компьютеров Intune
-          href: /intune-classic/deploy-use/add-apps-for-windows-pcs-in-microsoft-intune
-          maintainContext: true
+          href: add-apps-for-windows-pcs-in-microsoft-intune.md
         - name: Управление лицензионными соглашениями
-          href: /intune-classic/deploy-use/manage-license-agreements-for-windows-pc-software-in-microsoft-intune
-          maintainContext: true
+          href: manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md
         - name: Разрешение конфликтов политик
-          href: /intune-classic/deploy-use/resolve-gpo-and-microsoft-intune-policy-conflicts
-          maintainContext: true
+          href: resolve-gpo-and-microsoft-intune-policy-conflicts.md
     - name: Управление Windows Holographic
       href: windows-holographic-for-business.md
       items:
