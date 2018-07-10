@@ -15,12 +15,12 @@ ms.assetid: d10b2d64-8c72-4e9b-bd06-ab9d9486ba5e
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ecf3791a7b01a9214c95680816a0fae16aade8f2
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: c6ba08a89417222e9741a69cdf899a4889794b67
+ms.sourcegitcommit: 8ea2ff0941219e72477d7ceaab40a0068e53d508
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31835539"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37927001"
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 ## <a name="manage-ios-apps"></a>Управление приложениями iOS
@@ -73,6 +73,7 @@ ms.locfileid: "31835539"
 |Microsoft Intune| IntuneMAMUPN | Строка | {UserPrincipalName}|
 |VMware AirWatch| IntuneMAMUPN | Строка | {UserPrincipalName}|
 |MobileIron | IntuneMAMUPN | Строка | ${userUPN} **или** ${userEmailAddress} |
+|ManageEngine Mobile Device Manager | IntuneMAMUPN | Строка | %upn% |
 
 
 ### <a name="example-2-end-user-experience"></a>Пример 2. Взаимодействие с конечным пользователем

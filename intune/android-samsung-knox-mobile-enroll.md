@@ -43,7 +43,7 @@ ms.locfileid: "36964714"
 ## <a name="prerequisites"></a>Предварительные условия
 
 Чтобы зарегистрировать устройства в Intune с помощью KME, сначала зарегистрируйте компанию на портале Samsung Knox. Для этого сделайте следующее:
-1.  [Убедитесь в доступности KME в вашем регионе.](https://www.samsungknox.com/en/solutions/it-solutions/knox-configure/available-countries) KME предоставляется более чем в 55 странах. Убедитесь, что поддерживается ваша страна развертывания.
+1.  [Убедитесь в доступности KME в вашем регионе.](https://www.samsungknox.com/en/solutions/it-solutions/knox-configure/available-countries) KME предоставляется более чем в 55 странах. Убедитесь, что ваша страна или регион развертывания поддерживаются.
 
 2.  [Поддерживаемые устройства.](https://www.samsungknox.com/en/knox-platform/supported-devices/2.4+) KME предоставляется на всех устройствах Samsung с минимальной версией Knox 2.4.
 
