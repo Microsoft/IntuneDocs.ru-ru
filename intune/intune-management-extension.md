@@ -14,12 +14,12 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2046a928525e974eee5f63d772d46864b21f0267
-ms.sourcegitcommit: 2061f7a442efc96c8afd5db764d11531563c7e39
+ms.openlocfilehash: eb7d8b35cb88223a3fbfa45e0ad8e2f8d2852a96
+ms.sourcegitcommit: ab801d715aa26f6d97f1a0c42a07e55146a14e6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34583678"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35289029"
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Управление сценариями PowerShell в Intune для устройств Windows 10
 Расширение управления Intune позволяет отправлять сценарии PowerShell в Intune для выполнения на устройствах Windows 10. Расширение управления дополняет возможности управления мобильными устройствами (MDM) Windows 10 и упрощает переход на современные принципы управления.
@@ -53,6 +53,10 @@ ms.locfileid: "34583678"
  
 2. Щелкните **Выбрать группы**, чтобы открыть список доступных групп Azure AD. 
 3. Выберите одну или несколько групп пользователей, чьи устройства получат скрипт. Нажмите **Выбрать**, чтобы назначить политику выбранным группам.
+
+> [!NOTE]
+> - Сценарии PowerShell запрещено применять для групп компьютеров.
+> - Сценарии PowerShell выполняются на устройствах только в том случае, если на устройство вошел пользователь Azure Active Directory (AD).
 
 Расширение управления Intune синхронизируется с Intune каждый час. После назначения политики группам Azure AD выполняется скрипт PowerShell, после чего выводятся результаты выполнения. 
  

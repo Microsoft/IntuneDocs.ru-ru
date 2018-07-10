@@ -15,11 +15,12 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 122f0b70392df65076622354722b6d546f4fe7b7
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 3afe1ed48a21c26927b3686ae9a455ed8484e282
+ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34547409"
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 
@@ -162,7 +163,7 @@ Intune обнаруживает обновления для приложений
 Да. Превысить предел подписок на приложение может администратор Intune. Например, администратор приобретает 100 лицензий на приложение XYZ, а затем назначает приложение группе из 500 членов. Первые 100 членов (пользователей или устройств) получат назначенную им лицензию, остальным членам назначить лицензию не удастся.
 
 #### <a name="i-understand-intune-automatically-syncs-app-licenses-each-day-with-apple-is-that-correct"></a>Правда ли, что Intune ежедневно автоматически синхронизирует лицензии приложения с Apple?
-Intune синхронизирует лицензии приложения с Apple каждые 15 часов.
+Intune синхронизирует лицензии приложения с Apple два раза в день.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

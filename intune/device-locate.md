@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/05/2018
+ms.date: 05/21/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: 3e544286-12ad-4a3a-86f8-d2cf16940b1f
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 735b3323527487e231d190ffd45e9083c4f524a2
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: 259cc7653f97cbb9e07ba681e142c62e42c5a124
+ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34444920"
 ---
 # <a name="locate-lost-or-stolen-ios-devices-with-intune"></a>Поиск потерянных или украденных устройств iOS с помощью Intune
 
@@ -45,7 +46,7 @@ ms.lasthandoff: 04/28/2018
     ![Снимок экрана поиска устройства с помощью Intune в Azure](./media/locate-device.png)
 
 >[!NOTE]
->Для соблюдения конфиденциальности возможность увеличения масштаба карты ограничена.
+>Для соблюдения конфиденциальности возможность увеличения масштаба карты ограничена радиусом в 300 метров.
 
 ## <a name="activate-lost-mode-sound-alert-on-an-ios-device"></a>Активация звукового оповещения режима пропажи на устройствах iOS
 
@@ -58,7 +59,7 @@ ms.lasthandoff: 04/28/2018
 
 ## <a name="security-and-privacy-information-for-lost-mode-and-locate-device-actions"></a>Сведения о безопасности и конфиденциальности для режима пропажи и действия "Найти устройство"
 - Сведения о расположении устройства будут отправляться в Intune только в том случае, когда это действие включено.
-- При использовании действия "Найти устройство" координаты широты и долготы устройства отправляются в Intune и отображаются на портале Azure.
+- При использовании действия "Найти устройство" координаты широты и долготы устройства можно получить с помощью API Graph.
 - Данные будут храниться в течение 24 часов, а затем будут удалены. Данные о расположении удалить вручную нельзя.
 - Данные о расположении шифруются как во время хранения, так и во время передачи.
 - В режиме пропажи можно настроить сообщение, которое будет отображаться на экране блокировки. Обязательно добавьте в сообщение сведения о том, как нашедший устройство может вернуть его.

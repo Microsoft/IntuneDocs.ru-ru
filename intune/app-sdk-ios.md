@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 05/18/2018
+ms.date: 06/22/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,11 +14,12 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: f8f81b4ff3bf5d17832d2f943fffb905eba52b6e
-ms.sourcegitcommit: 49dc405bb26270392ac010d4729ec88dfe1b68e4
+ms.openlocfilehash: 2effa1d63be57c938a4e5763090bce8f20f48192
+ms.sourcegitcommit: 81721ad672096298bf281dcbf21e8ce9c44cafaa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37042809"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -84,7 +85,7 @@ ms.lasthandoff: 05/19/2018
    > [!NOTE]
    > При использовании платформы вам необходимо вручную убрать архитектуры симулятора из универсальной платформы перед отправкой приложения в App Store. См. дополнительные сведения [об отправке приложения в App Store](#Submit-your-app-to-the-App-Store).
 
-2. **Вариант 2**. Выполните связывание с библиотекой `libIntuneMAM.a`. Перетащите библиотеку `libIntuneMAM.a` в список **Linked Frameworks and Libraries** (Связанные платформы и библиотеки) цели проекта.
+   **Вариант 2**. Выполните связывание с библиотекой `libIntuneMAM.a`. Перетащите библиотеку `libIntuneMAM.a` в список **Linked Frameworks and Libraries** (Связанные платформы и библиотеки) цели проекта.
 
     ![Пакет SDK для приложений Intune в iOS — связанные платформы и библиотеки](./media/intune-app-sdk-ios-linked-frameworks-and-libraries.png)
 
@@ -99,7 +100,7 @@ ms.lasthandoff: 05/19/2018
 
      ![Пакет SDK для приложений Intune для iOS — копирование ресурсов пакета](./media/intune-app-sdk-ios-copy-bundle-resources.png)
 
-     Добавьте в проект следующие платформы iOS:  
+2. Добавьте в проект следующие платформы iOS:  
     * MessageUI.framework  
     * Security.framework  
     * MobileCoreServices.framework  
@@ -152,6 +153,9 @@ ms.lasthandoff: 05/19/2018
    |- o |  (Необязательно) `<Path to the output plist>` |
 
 Если параметр "-о" не указан, входной файл будет изменен на месте. Средство является идемпотентным, поэтому его нужно перезапускать каждый раз, когда вносятся изменения в файл Info.plist. Кроме того, необходимо загрузить и запустить последнюю версию средства при обновлении пакета SDK Intune, если в последнем выпуске изменены требования к конфигурации Info.plist.
+
+> [!NOTE]
+> Если ваше приложение еще не использует FaceID, убедитесь, что для ключа info.plist `NSFaceIDUsageDescription` настроено сообщение по умолчанию. Это необходимо, чтобы iOS могла сообщить пользователю о том, как приложение собирается использовать FaceID. Настройка политики защиты приложений Intune позволяет использовать FaceID в качестве метода для доступа к приложению, если он настроен ИТ-администратором.
 
 ## <a name="configure-azure-active-directory-authentication-library-adal"></a>Настройка библиотеки проверки подлинности Azure Active Directory (ADAL)
 

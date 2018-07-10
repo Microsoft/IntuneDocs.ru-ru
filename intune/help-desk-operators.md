@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: sumitp
 ms.custom: intune-azure
-ms.openlocfilehash: 5d924e216dd6d0fe13bc4c7718b5368db1d35f8c
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 4150a513e909ccfd44db23eee9b5990d97d8d670
+ms.sourcegitcommit: 91dc50d38be13c65e5d144d237d7c4358089f215
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31833354"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36329881"
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users-at-your-company"></a>Использование портала диагностики для оказания помощи пользователям в вашей компании
 
@@ -234,6 +234,15 @@ ms.locfileid: "31833354"
 | Тип устройства | Название типа устройства.                                                       |
 | Политики    | Принадлежность устройства. Возможные значения: **Корпоративное**, **Личное** или **Неизвестно**. |
 | Последняя синхронизация   | Время последней синхронизации устройства с Intune.                   |
+
+## <a name="collect-available-data-from-mobile-device"></a>Сбор доступных данных с мобильного устройства
+
+Используйте следующие ресурсы для сбора данных с устройств при устранении неполадок устройства пользователя:
+  - [Отправка ошибок регистрации iOS ИТ-администратору](/intune-user-help/send-errors-to-your-it-admin-ios)
+  - [Оказание помощи службе поддержки компании в устранении проблем с устройством с помощью подробного ведения журналов](/intune-user-help/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android)
+  - [Отправка журналов Android в службу поддержки вашей организации по USB-кабелю](/intune-user-help/send-diagnostic-data-logs-to-your-it-administrator-using-a-usb-cable-android)
+  - [Отправка журналов диагностических данных Android ИТ-администратору по электронной почте](/intune-user-help/send-logs-to-your-it-admin-by-email-android)
+  - [Отправка ошибок регистрации Android ИТ-администратору](/intune-user-help/send-enrollment-errors-to-your-it-administrator-android)
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

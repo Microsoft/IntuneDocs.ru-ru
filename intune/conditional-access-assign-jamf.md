@@ -1,25 +1,26 @@
 ---
-title: "Политика соответствия устройств для устройств Jamf"
+title: Политика соответствия устройств для устройств Jamf
 titlesuffix: Microsoft Intune
-description: "Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf."
-keywords: 
+description: Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf.
+keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
 ms.date: 02/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5320f160efde054586b1e37722a67db375511049
-ms.sourcegitcommit: 4db0498342364f8a7c28995b15ce32759e920b99
+ms.openlocfilehash: 990c17dcb7a25e5ea6676326f785d49ac6ca3320
+ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34482341"
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
 
@@ -34,6 +35,9 @@ ms.lasthandoff: 03/08/2018
 
 1. Откройте Microsoft Azure, а затем выберите **Intune** > **Соответствие устройства политике** > **Политики**. Вы можете создать политики для macOS, а также назначить действия (например, отправка сообщений электронной почты с предупреждением), применяемые к не соответствующим политикам пользователям и группам.
 2. Найдите нужные группы и примените к ним политики.
+
+> [!Note]
+> Intune требуется полное шифрование диска для соответствия.
 
 ## <a name="deploy-the-company-portal-app-for-macos-in-jamf-pro"></a>Развертывание приложения корпоративного портала для macOS в Jamf Pro
 

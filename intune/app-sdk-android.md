@@ -14,11 +14,12 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 93ecf7b66be25f0f93456d5419ef1f57b8ca7efe
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: ac85478abed049487c028c58637e7937876d2198
+ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34449876"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -462,7 +463,7 @@ public interface MAMNotificationReceiver {
 
 При необходимости можно указать Authority и NonBrokerRedirectURI.
 
-Группа SDK Intune запросит идентификатор вашего приложения (идентификатор клиента). Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Дополнительные сведения о регистрации приложения в AAD см. [здесь](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications). С группой Intune SDK можно связаться по адресу msintuneappsdk@microsoft.com.
+Группа SDK Intune запросит идентификатор вашего приложения (идентификатор клиента). Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Дополнительные сведения о регистрации приложения в Azure AD см. [здесь](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications). С группой Intune SDK можно связаться по адресу msintuneappsdk@microsoft.com.
 
 Кроме того, ознакомьтесь с требованиями для [условного доступа](#conditional-access) ниже.
 
@@ -472,22 +473,30 @@ public interface MAMNotificationReceiver {
     |--|--|
     | ClientID | Идентификатор ClientID приложения (созданный в Azure AD при регистрации приложения). |
     | SkipBroker | **True** |
+    
+    При необходимости можно указать Authority и NonBrokerRedirectURI.
 
-При необходимости можно указать Authority и NonBrokerRedirectURI.
 
 ### <a name="conditional-access"></a>Условный доступ
-Условный доступ — это [функция](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-conditional-access-developer) Azure Active Directory, которую можно использовать для управления доступом к ресурсам AAD.  [Администраторы Intune могут определить правила условного доступа](https://docs.microsoft.com/en-us/intune/conditional-access), которые разрешают доступ к ресурсам только с устройств или из приложений, управляемых Intune. Чтобы убедиться, что приложение может обратиться к ресурсам, когда это необходимо, нужно выполнить указанные ниже действия. Если приложение не получает токены доступа AAD или обращается к ресурсам, которые невозможно защитить с помощью условного доступа, вы можете пропустить эти шаги.
+
+Условный доступ — это [функция](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) Azure Active Directory, которую можно использовать для управления доступом к ресурсам AAD. [Администраторы Intune могут определить правила условного доступа](https://docs.microsoft.com/intune/conditional-access), которые разрешают доступ к ресурсам только с устройств или из приложений, управляемых Intune. Чтобы убедиться, что приложение может обратиться к ресурсам, когда это необходимо, нужно выполнить указанные ниже действия. Если приложение не получает токены доступа AAD или обращается к ресурсам, которые невозможно защитить с помощью условного доступа, вы можете пропустить эти шаги.
 
 1. Выполните [рекомендации по интеграции ADAL](https://github.com/AzureAD/azure-activedirectory-library-for-android#how-to-use-this-library). 
-   Особое внимание уделите шагу 11 по использованию брокера.
-2. [Регистрация приложения в Azure Active Directory] (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration). 
-   URI перенаправления можно найти в рекомендациях по интеграции ADAL выше.
+   Особое внимание уделите шагу 11 по использованию брокера.
+
+2. [Зарегистрируйте приложение в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-app-registration). URI перенаправления можно найти в рекомендациях по интеграции ADAL выше.
+
 3. Задайте параметры метаданных манифеста, как описано в пункте 2 раздела [Распространенные конфигурации ADAL](#common-adal-configurations) выше.
-4. Проверьте правильность настройки всех компонентов, включив [условный доступ на основе устройств](https://docs.microsoft.com/en-us/intune/conditional-access-intune-common-ways-use) на [портале Azure](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExchangeConnectorMenu/aad/connectorType/2) и убедившись в следующем:
-    - после входа в приложение выдается запрос на установку и регистрацию корпоративного портала;
-    - после регистрации вход в приложение выполняется успешно.
-5. Реализовав интеграцию своего приложения с пакетом SDK для приложений Intune, нужно обратиться по адресу msintuneappsdk@microsoft.com для добавления в список утвержденных приложений для [условного доступа на основе приложений](https://docs.microsoft.com/en-us/intune/conditional-access-intune-common-ways-use#app-based-conditional-access).
-6. После добавления приложения в утвержденный список проверьте работу, [настроив условный доступ на основе приложений](https://docs.microsoft.com/en-us/intune/app-based-conditional-access-intune-create), и убедитесь, что вход в приложение выполняется успешно.
+
+4. Проверьте правильность настройки всех компонентов, включив [условный доступ на основе устройств](https://docs.microsoft.com/intune/conditional-access-intune-common-ways-use) на [портале Azure](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExchangeConnectorMenu/aad/connectorType/2) и убедившись в следующем:
+* после входа в приложение выдается запрос на установку и регистрацию корпоративного портала;
+* после регистрации вход в приложение выполняется успешно.
+
+5. Реализовав интеграцию своего приложения с пакетом SDK для приложений Intune, нужно обратиться по адресу msintuneappsdk@microsoft.com для добавления в список утвержденных приложений для [условного доступа на основе приложений](https://docs.microsoft.com/intune/conditional-access-intune-common-ways-use#app-based-conditional-access).
+
+6. После добавления приложения в утвержденный список проверьте работу, [настроив условный доступ на основе приложений](https://docs.microsoft.com/intune/app-based-conditional-access-intune-create), и убедитесь, что вход в приложение выполняется успешно.
+
+
 ## <a name="app-protection-policy-without-device-enrollment"></a>Политика защиты приложений без регистрации устройства
 
 ### <a name="overview"></a>Обзор
@@ -1371,7 +1380,6 @@ public interface MAMAppConfig {
 
 ### <a name="how-to-customize"></a>Как выполнять настройку
 Чтобы применить изменения стиля к представлениям Intune MAM, необходимо сначала создать XML-файл переопределения стиля. Этот файл необходимо поместить в каталог /res/xml приложения, присвоив ему любое имя. Ниже приведен пример формата, которому должен соответствовать этот файл.
-
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <styleOverrides>
@@ -1401,7 +1409,7 @@ public interface MAMAppConfig {
 | Цвет элементов | Граница поля ПИН-кода при выделении <br> Гиперссылки |accent_color | Цвет |
 | Эмблема приложения | Большой значок, отображаемый на экране ПИН-кода в приложении Intune | logo_image | Рисунки |
 
-## <a name="working-with-app-we-service-enrollment-sdk-integrated-android-lob-app-and-adal-sso-optional"></a>Регистрация службы APP-WE, использование бизнес-приложения для Android, интегрированного с пакетом SDK, и включение единого входа ADAL (необязательно)
+## <a name="default-enrollment-optional"></a>Регистрация по умолчанию (дополнительно)
 <!-- Requiring user login prompt for an automatic APP-WE service enrollment, requiring Intune app protection policies in order to use your SDK-integrated Android LOB app, and enabling ADAL SSO (optional) -->
 
 Ниже приводятся указания по настройке обязательного запроса учетных данных пользователя при запуске приложения для автоматической регистрации в службе APP-WE (в этом разделе она называется **регистрацией по умолчанию**) и настройке политик защиты приложений Intune таким образом, чтобы они разрешали использовать бизнес-приложение для Android, интегрированное с пакетом SDK, только пользователям, защищенным Intune. В нем также рассматривается включение единого входа для бизнес-приложения Android, интегрированного с пакетом SDK. Этот сценарий **не** поддерживается для приложений магазина, с которыми могут работать пользователи, не зарегистрированные в Intune.
@@ -1413,7 +1421,7 @@ public interface MAMAppConfig {
 * Команда SDK Intune запросит идентификатор вашего приложения. Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Связаться с командой SDK Intune можно по электронной почте: msintuneappsdk@microsoft.com.
 
 ### <a name="working-with-the-intune-sdk"></a>Работа с пакетом SDK Intune
-Эти инструкции относятся ко всем приложениям для Android и Xamarin, которые нуждаются в обязательном применении политик защиты устройств Intune на устройстве конечного пользователя.
+Эти инструкции распространяются на всех разработчиков приложений для Android и Xamarin, которые нуждаются в обязательном применении политик защиты приложений Intune на устройстве конечного пользователя.
 
 1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
    > [!NOTE] 

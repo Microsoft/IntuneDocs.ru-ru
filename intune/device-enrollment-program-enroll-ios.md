@@ -15,11 +15,12 @@ ms.assetid: 7ddbf360-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0f6f16bfd148e3c386aaf0ced78381e1eed8ae47
-ms.sourcegitcommit: b0ad42fe5b5627e5555b2f9e5bb81bb44dbff078
+ms.openlocfilehash: 8c0eda06c0c781f0a789034abbf5ef8799a9b45c
+ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34474452"
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 
@@ -206,13 +207,17 @@ ms.lasthandoff: 05/09/2018
 ## <a name="renew-a-dep-token"></a>Продление токена DEP  
 1. Перейдите на сайт deploy.apple.com.  
 2. В разделе **Manage Servers** (Управление серверами) выберите сервер MDM, связанный с файлом токена, который требуется продлить.
-3. Выберите **Generate New Token** (Создать токен).  
+3. Выберите **Generate New Token** (Создать токен).
+
+    ![Снимок экрана с созданием токена.](./media/device-enrollment-program-enroll-ios/generatenewtoken.png)
+
 4. Щелкните **Your Server Token** (Ваш токен сервера).  
-5. В [Intune на портале Azure](https://aka.ms/intuneportal) выберите **Регистрация устройства** > **Регистрация Apple** > **Токены программы регистрации**.  
-6. Выберите токен и щелкните **Продлить токен**.  
-7. Введите идентификатор Apple ID, с помощью которого был создан исходный токен.  
+5. В [Intune на портале Azure](https://aka.ms/intuneportal) выберите **Регистрация устройства** > **Регистрация Apple** > **Токены программы регистрации** и выберите токен.
+    ![Снимок экрана с токенами программы регистрации.](./media/device-enrollment-program-enroll-ios/enrollmentprogramtokens.png)
+
+6. Выберите **Продлить токен** и введите идентификатор Apple ID, с помощью которого был создан исходный токен.  
+    ![Снимок экрана с созданием токена.](./media/device-enrollment-program-enroll-ios/renewtoken.png)
+
 8. Отправьте только что скачанный токен.  
 9. Щелкните **Продлить токен**. Появится подтверждение об обновлении токена.   
-
-
-
+    ![Снимок экрана с подтверждением.](./media/device-enrollment-program-enroll-ios/confirmation.png)

@@ -15,11 +15,12 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 5a823cfb602b4847e702d54e0d8775700b01c8e9
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 08d5e94155586140ac087b9ad9d24bdbd078f59b
+ms.sourcegitcommit: 445fcf9e2a185e5c987334cad398bce71383be03
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34843146"
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
@@ -33,7 +34,8 @@ ms.lasthandoff: 04/16/2018
 ## <a name="create-an-online-support-ticket"></a>Создание запроса в службу поддержки в Интернете
 
 Как ИТ-администратор, вы можете зарегистрировать обращение в службу поддержки на портале Azure, выполнив следующие действия.
-
+>[!NOTE]
+>Чтобы создать запрос в службу поддержки через Интернет, нужно быть администратором службы Intune или глобальным администратором. Дополнительные сведения см. в статье [Назначение ролей администратора](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal).
 1. Войдите на портал Azure (<https://portal.azure.com>), используя свои учетные данные администратора Intune, выберите значок <strong>?</strong> в правом верхнем углу, а затем выберите <strong>Справка и поддержка</strong> для перехода на страницу [справки и поддержки Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
 
     ![Снимок экрана с выделенной ссылкой в виде вопросительного знака на страницу справки и поддержки по порталу Azure](./media/azure-get-support.png)
