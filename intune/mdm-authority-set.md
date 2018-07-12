@@ -15,12 +15,12 @@ ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4c1902e319a862c9ffcda5068753f917bf8f4c3f
-ms.sourcegitcommit: ada99fefe9a612ed753420116f8c801ac4bf0934
+ms.openlocfilehash: 0f4687b3a2b1064fbfe3a9c8aa9da6cc7d336d78
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36232924"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37906045"
 ---
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 
@@ -41,9 +41,11 @@ ms.locfileid: "36232924"
 
 ## <a name="set-mdm-authority-to-intune"></a>Выбор Intune в качестве центра MDM
 
+Если вы еще не установили центр MDM, выполните приведенные ниже действия. Сведения о переключении одного центра MDM на другой см. в разделе о [переключении центра MDM](#prepare-to-change-the-mdm-authority-to-configuration-manager) ниже.
+
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. Щелкните оранжевый баннер, чтобы открыть **центр управления мобильными устройствами**.
+3. Щелкните оранжевый баннер, чтобы открыть **центр управления мобильными устройствами**. Оранжевый баннер отображается только в том случае, если вы еще не установили центр MDM.
 4. В разделе **Центр управления мобильными устройствами**, выберите свой центр MDM в следующем списке.
    - **Центр MDM в Intune**
    - **Центр MDM в Configuration Manager**
@@ -57,7 +59,7 @@ ms.locfileid: "36232924"
 Если управление устройствами Android или Apple включено, Intune отправляет сведения об устройстве и пользователе для интеграции со службами этих сторонних производителей и управления их устройствами.
 
 Сценарии, которые добавляют согласие на обмен данными, включаются в следующих случаях:
-- Вы включаете Android for Work.
+- Вы включаете рабочие профили Android.
 - Вы включаете и загружаете сертификаты Apple MDM Push Certificate.
 - Вы включаете любую службу Apple, например Программу регистрации устройств, School Manager или Volume Purchasing Program.
 

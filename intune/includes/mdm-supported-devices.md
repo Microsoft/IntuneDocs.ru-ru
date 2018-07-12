@@ -10,7 +10,7 @@
   Полный список проверенных устройств Samsung Knox Standard см. в статье [Параметры политики Android и Samsung Knox Standard](/intune/supported-devices-browsers#supported-samsung-knox-standard-devices).
 
 
-- [Требования](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012) для Android for Work.
+- [Требования](https://support.google.com/work/android/answer/6174145?hl=en) Android для бизнеса.
 
 ### <a name="microsoft"></a>Microsoft
 
