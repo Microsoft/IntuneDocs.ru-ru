@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 07/05/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,16 +15,16 @@ ms.assetid: 2372332a-7e3a-4a9c-91a9-86654e0fabe2
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 78158afeb9c12e8056f42066be78c37f962b4462
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: bffd53030c23f38f0548cb5bccf82f6dd5e85779
+ms.sourcegitcommit: 399f34cd169e2e352b49aad1dcb7e88294a4a9f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34223617"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37869510"
 ---
 # <a name="assign-office-365-to-macos-devices-with-microsoft-intune"></a>Назначение Office 365 устройствам macOS с помощью Microsoft Intune
 
-Тип *Приложение из магазина* упрощает назначение приложений Office 365 устройствам macOS. Используя приложение такого типа можно установить Word, Excel, PowerPoint, Outlook, и OneNote. Чтобы обеспечить безопасность и актуальность приложений, эти приложения также поддерживают службу Microsoft AutoUpdater (MAU). Необходимые вам приложения отображаются как единое приложение в списке приложений на консоли Intune.
+Такой тип приложения упрощает назначение приложений Office 365 2016 устройствам macOS. Используя приложение такого типа можно установить Word, Excel, PowerPoint, Outlook, и OneNote. Чтобы обеспечить безопасность и актуальность приложений, эти приложения также поддерживают службу Microsoft AutoUpdater (MAU). Необходимые вам приложения отображаются как единое приложение в списке приложений на консоли Intune.
 
 
 ## <a name="before-you-start"></a>Перед началом работы
@@ -70,7 +70,7 @@ ms.locfileid: "34223617"
 2. На панели **Office 365** выберите **Задания**.
 3. Чтобы добавить группу, использующею набор приложений, выберите **Добавить группу**.  
     Откроется панель **Добавить группу**.
-4. Установите значение параметра **Тип назначения** на **Обязательно**.
+4. Установите значение параметра **Тип назначения** на **Обязательно** или **Доступно**.
 5. Назначьте набор выбранным группам. Дополнительные сведения см. в статье [Назначение приложений группам с помощью Microsoft Intune](apps-deploy.md).
 
     >[!Note]

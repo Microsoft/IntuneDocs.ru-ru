@@ -15,12 +15,12 @@ ms.assetid: b782e382-8deb-48a7-a437-d7c5a17163f1
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: da85b0087709a719cafaaf893c3188a3bf3148d8
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: a7c961be9789309fdea57d1a97073c4292b20149
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2018
-ms.locfileid: "32046287"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37906079"
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для пользовательских приложений Intune
 Ознакомьтесь с изменениями, внесенными в пользовательский интерфейс для приложений в этом выпуске Microsoft Intune. Благодаря этим изменениям взаимодействовать с пользователями станет проще, и вы сможете добавить актуальную информацию в собственную документацию по своему развертыванию. Вы также поймете, как эффективнее решать проблемы, когда пользователи обращаются в службу поддержки по вопросам работы на корпоративном портале.
@@ -86,7 +86,7 @@ ms.locfileid: "32046287"
 
 ## <a name="week-of-november-13-2017"></a>Неделя с 13 ноября 2017 г.
 
-### <a name="improvements-to-device-setup-workflow-in-the-company-portal-for-ios-in-version-290----1417174---"></a>Улучшение рабочего процесса настройки устройств в приложении "Корпоративный портал" для iOS версии 2.9.0 <!---1417174--->
+### <a name="improvements-to-device-setup-workflow-in-the-company-portal-for-ios-in-version-290----1417174---"></a>Улучшение рабочего процесса настройки устройств в приложении "Корпоративный портал" для iOS версии 2.9.0 <!-- 1417174 -->
 
 Мы улучшили рабочий процесс настройки устройств в приложении "Корпоративный портал" для iOS. Описание стало более понятно для пользователей. Мы также объединили экраны там, где это было возможно. Кроме того, теперь текст настройки стал более индивидуальным. В нем отображается имя вашей компании.
 
@@ -145,7 +145,7 @@ ms.locfileid: "32046287"
 |![02](./media/android_cp_enroll_02_before_1710.png)|![02](./media/android_cp_enroll_02_after_1710.png)|
 |![03](./media/android_cp_enroll_03_before_1710.png)|![03](./media/android_cp_enroll_03_after_1710.png)|
 
-На устройствах Android for Work были улучшены дополнительные шаги.
+На устройствах с рабочим профилем Android были улучшены дополнительные шаги.
 
 |До|После|
 |---|---|

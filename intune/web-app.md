@@ -15,12 +15,12 @@ ms.assetid: 5f08752f-0e87-4ad9-a34c-4991b3150775
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0d62341e35bf851bb429b15a582183bec62a9d4a
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: ff55b013d863d1676b9b83ec93e38defe222e2d7
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34223396"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905246"
 ---
 # <a name="add-web-apps-to-microsoft-intune"></a>Добавление веб-приложений в Microsoft Intune
 
@@ -31,7 +31,7 @@ Intune поддерживает множество типов приложени
 Чтобы назначать приложение пользователям и управлять им, добавьте его в Intune. Intune создает ярлык со ссылкой на веб-приложение на начальном экране устройства пользователя.
 
 > [!Note]
-> Веб-приложения не поддерживаются на устройствах Android for Work и macOS.
+> Веб-приложения не поддерживаются на устройствах с рабочим профилем Android и macOS.
 
 ## <a name="add-a-web-app-to-intune"></a>Добавление веб-приложения в Intune
 Чтобы добавить приложение в Intune как ярлык для веб-приложения, сделайте следующее:

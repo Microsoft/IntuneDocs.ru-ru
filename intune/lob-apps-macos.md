@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 07/02/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: ef8008ac-8b85-4bfc-86ac-1f9fcbd3db76
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0304d90384bb2f6a5a78dd14bcf289fc8eb03bd1
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 89f2d06c879343a0f9701a8531c5543b961d792f
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34224370"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37906011"
 ---
 # <a name="how-to-add-macos-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять бизнес-приложения macOS в Microsoft Intune
 
@@ -31,7 +31,9 @@ ms.locfileid: "34224370"
 >[!NOTE]
 >Пользователи устройств macOS могут удалять некоторые встроенные приложения macOS, такие как Акции или Карты, которые вы не сможете восстановить с помощью Intune. Чтобы восстановить эти приложения на устройстве, конечный пользователь должен зайти в App Store и установить их вручную.
 >
->Для отправки бизнес-приложений macOS в Microsoft Intune можно использовать только файлы *.pkg*. 
+>Для отправки бизнес-приложений macOS в Microsoft Intune можно использовать только файлы *.pkg*. Преобразование других форматов, например *DMG* в *PKG*, не поддерживается.
+
+Microsoft Intune позволяет развернуть бизнес-приложение для macOS в качестве **обязательного** или **доступного с регистрацией**. Конечные пользователи могут развертывать приложения как **доступные** с помощью корпоративного портала для macOS или [веб-сайта корпоративного портала](https://portal.manage.microsoft.com).
 
 ## <a name="step-1---pre-process-your-software-setup-file"></a>Шаг 1. Предварительная обработка файла установки программного обеспечения
 

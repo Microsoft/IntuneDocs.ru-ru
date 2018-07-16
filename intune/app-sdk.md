@@ -1,27 +1,20 @@
----
-title: Преимущества пакета SDK для приложений Intune
-titlesuffix: Microsoft Intune
-description: Пакет SDK для приложений Intune доступен как для платформы Android, так и для платформы iOS и предоставляет возможности управления мобильными приложениями с помощью Microsoft Intune.
-keywords: ''
-author: Erikre
-ms.author: erikre
-manager: dougeby
-ms.date: 05/15/2018
-ms.topic: article
-ms.prod: ''
-ms.service: microsoft-intune
-ms.technology: ''
-ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
-ms.reviewer: aanavath
-ms.suite: ems
+--
+# <a name="required-metadata"></a>необходимые метаданные
+
+title: Преимущества пакета SDK для приложений Intune titlesuffix: Описание Microsoft Intune: Пакет SDK для приложений Microsoft Intune доступен как для платформы Android, так и для платформы iOS и предоставляет возможности управления мобильными приложениями с помощью Microsoft Intune.
+ключевые слова: author: Erikre ms.author: erikre manager: dougeby ms.date: 05/15/2018 ms.topic: article ms.prod: ms.service: microsoft-intune ms.technology: ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
+
+# <a name="optional-metadata"></a>необязательные метаданные
+
+#<a name="robots"></a>ROBOTS:
+#<a name="audience"></a>audience:
+#<a name="msdevlang"></a>ms.devlang:
+ms.reviewer: aanavath ms.suite: ems
+#<a name="mstgtpltfrm"></a>ms.tgt_pltfrm:
 ms.custom: intune-classic
-ms.openlocfilehash: 33e1cb6953891fa6d62841d10bc8011768938ee1
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34223583"
+
 ---
+
 # <a name="intune-app-sdk-overview"></a>Обзор пакета SDK для приложений Intune
 Пакет SDK для приложений Intune, доступный для iOS и Android, позволяет приложению использовать политики защиты приложений Intune. Это позволяет уменьшить объем изменений кода, которые необходимо внести разработчику. Вы обнаружите, что большинство функций SDK можно включить без изменения поведения приложения. В целях улучшения взаимодействия с конечными пользователями и администраторами можно воспользоваться API, чтобы настроить поведение приложения для тех функций, которые требуют содействия со стороны приложения.
 
@@ -70,3 +63,8 @@ ms.locfileid: "34223583"
 Многие пользователи с личными устройствами хотят обращаться к корпоративным данным без регистрации своих устройств у поставщика управления мобильными устройствами (MDM). Так как регистрация MDM подразумевает полное управление устройством, пользователи часто сомневаются, стоит ли предоставлять свое личное устройство для управления организации.
 
 Защита приложений без регистрации устройств позволяет службе Microsoft Intune развернуть политику защиты приложений в самом приложении, не полагаясь на канал управления устройствами.
+
+### <a name="on-demand-application-vpn-connections-with-citrix-mvpn"></a>On-demand application VPN connections with Citrix mVPN (VPN-подключения приложений по запросу с использованием Citrix mVPN) 
+Устройствами и приложениями можно управлять с помощью комбинации Citrix XenMobile MDX и Microsoft Intune. Эта комбинация позволяет управлять приложениями с политикой защиты приложений Intune при одновременном использовании технологии mVPN в Citrix. Интеграция с Citrix доступна для пакета SDK для приложений Intune для iOS и Android, а также с помощью средства создания оболочек для приложений Intune для iOS и Android (с флагом -citrix).
+ 
+Дополнительные сведения о Citrix MDX см. в разделе [О наборе инструментов MDX](http://docs.citrix.com/en-us/mdx-toolkit/10/about-mdx-toolkit.html), [Средство создания оболочек для приложений Citrix MDX для iOS](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-ios.html) и [Средство создания оболочек для приложений Citrix MDX для Android](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-android.html).

@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ce7c263435f92a041b93dc5d34ffa912c6fa87fb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: d917d2449e75b89db00d453b72940a93efb03321
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31021886"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905008"
 ---
 # <a name="create-a-profile-with-custom-settings-in-intune"></a>Создайте профиль с настраиваемыми параметрами в Intune
 
@@ -39,7 +39,7 @@ ms.locfileid: "31021886"
 5. В раскрывающемся списке **Платформа** выберите платформу устройства для применения настраиваемых параметров. Выберите любую из следующих платформ:
 
     - **Android**
-    - **Android for Work**
+    - **Android для бизнеса**
     - **iOS**
     - **macOS**
     - **Windows Phone 8.1**
@@ -55,7 +55,7 @@ ms.locfileid: "31021886"
     - [Параметры Windows Phone 8.1](custom-settings-windows-phone-8-1.md)
     - [Параметры Windows 10](custom-settings-windows-10.md)
     - [Параметры Windows Holographic for Business](custom-settings-windows-holographic.md)
-    - [Параметры Android for Work](custom-settings-android-for-work.md)
+    - [Параметры рабочего профиля Android](custom-settings-android-for-work.md)
 
 8. По окончании нажмите **Создать**.
 

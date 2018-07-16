@@ -13,12 +13,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fb4d9fc6f0f0609062c408fd85921c1f86bd7303
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: e2dba6e0d1c50790c8c2c2bf287695ab67fdb972
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31832316"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905339"
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Настройка параметров Wi-Fi в Microsoft Intune
 
@@ -37,7 +37,7 @@ ms.locfileid: "31832316"
 Профили Wi-Fi поддерживают следующие платформы устройств:
 
 - Android 4 и более поздней версии.
-- Android for Work
+- Рабочие профили Android
 - Устройства iOS 8.0 и более поздней версии
 - macOS (Mac OS X 10.11 и более поздней версии).
 
@@ -55,7 +55,7 @@ ms.locfileid: "31832316"
 4. На панели **Создать профиль** введите **имя** и **описание** для профиля Wi-Fi.
 5. В раскрывающемся списке **Платформа** выберите платформу устройства, к которой необходимо применить параметры Wi-Fi. Сейчас для параметров Wi-Fi можно выбрать одну из следующих платформ:
     - **Android**
-    - **Android for Work**
+    - **Android для бизнеса**
     - **iOS**
     - **macOS**
     - **Windows Phone 8.1**
@@ -69,7 +69,7 @@ ms.locfileid: "31832316"
 
    Профиль **Импорт Wi-Fi** (для Windows 8.1 и более поздних версий) позволяет импортировать параметры Wi-Fi в XML-файл, ранее экспортированный с другого устройства.
 1. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
-    - [Параметры Android и Android for Work](wi-fi-settings-android.md)
+    - [Параметры Android и рабочего профиля Android](wi-fi-settings-android.md)
     - [Параметры iOS](wi-fi-settings-ios.md)
     - [Параметры macOS](wi-fi-settings-macos.md)
     - [Параметры Windows 8.1 и более поздних версий](wi-fi-settings-import-windows-8-1.md) (включая Windows Holographic for Business)

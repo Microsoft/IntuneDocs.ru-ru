@@ -15,12 +15,12 @@ ms.assetid: c59f6df5-3317-4dff-8f19-fdeec33faedf
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4a2afba3eafb32a06ff19e2cbbf3b87d27edccf0
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 1ec9a45ca09ddff5aa10cc7283444cf96c8153f6
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34224669"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905416"
 ---
 # <a name="include-and-exclude-app-assignments-in-microsoft-intune"></a>Включение и исключение назначений приложений в Microsoft Intune
 
@@ -37,7 +37,7 @@ ms.locfileid: "34224669"
 >
 > В консоли Intune доступны предварительно созданные группы **Все пользователи** и **Все устройства**. Чтобы вам было удобнее с ними работать, эти группы имеют ряд встроенных оптимизаций. Мы настоятельно рекомендуем использовать для охвата всех пользователей и всех устройств именно эти группы, и не создавать группы "Все пользователи" и "Все устройства" самостоятельно.  
 >
-> Android Enterprise (прежнее название — Android for Work) поддерживает группы включения и исключения. Вы можете использовать встроенные группы **Все пользователи** и **Все устройства** для назначения приложений Android Enterprise. 
+> Android для бизнеса поддерживает включение и исключение групп. Вы можете использовать встроенные группы **Все пользователи** и **Все устройства** для назначения приложений Android для бизнеса. 
 
 
 ## <a name="include-and-exclude-groups-when-assigning-apps"></a>Включение и исключение групп при назначении приложений 

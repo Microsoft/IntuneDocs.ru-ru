@@ -15,12 +15,12 @@ ms.assetid: E61C1618-79D0-41A1-B61F-4123FB6672FC
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8ce8791eaf72f5fda969401c19e72c6cc8b538d6
-ms.sourcegitcommit: b47fad133ef8ef1eb65484463431c6c53f6a638a
+ms.openlocfilehash: b514efa27a2a037f2fa0492ae519e6b8c774e369
+ms.sourcegitcommit: 399f34cd169e2e352b49aad1dcb7e88294a4a9f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35291467"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37869548"
 ---
 # <a name="add-app-configuration-policies-for-managed-apps-without-device-enrollment"></a>Добавление политик конфигурации приложений для управляемых приложений без регистрации устройств
 
@@ -49,7 +49,7 @@ ms.locfileid: "35291467"
 
 Intune может создавать определенные токены и отправлять их в управляемое приложение. Например, если конфигурация приложения использует параметр электронной почты, с помощью токена можно добавить динамическую электронную почту. Введите ожидаемое приложением имя в поле **Имя**, а затем введите `\{\{mail\}\}` в поле **Значение**.
 
-Intune поддерживает следующие типы маркеров в параметрах конфигурации.
+Intune поддерживает следующие типы токенов в параметрах конфигурации. Другие пользовательские пары ключ-значение не поддерживаются.
 
 - \{\{userprincipalname\}\} — например **John@contoso.com**
 - \{\{mail\}\} — например **John@contoso.com**

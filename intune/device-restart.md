@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: c707e0c4-391a-4bad-9dfd-9a7799c48dd5
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b09a4d528a95d682bf12e6610480b1aa1bcbdb83
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 6b68d7eda57d50c3a1cb55979590e8b07d9daf50
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31829331"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37904954"
 ---
 # <a name="remotely-restart-devices-with-intune"></a>Удаленный перезапуск устройств с помощью Intune
 
@@ -31,12 +31,13 @@ ms.locfileid: "31829331"
 
 - Windows — поддерживается в Windows 8.1 и более поздних версиях
 - Windows Phone — поддерживается в Windows Phone 8.1 и более поздних версиях
+- Киоски Android — поддерживается
 - iOS — поддерживается
 
     > [!Note]  
     > Для выполнения этой команды требуются защищенные устройства и право доступа **Блокировка устройства**. Устройство перезапускается немедленно. Устройства iOS, заблокированные с помощью секретного кода, не подключаются повторно к сети Wi-Fi после перезапуска. После перезапуска у устройства может отсутствовать доступ к серверу.
 - macOS — не поддерживается
-- Android — не поддерживается
+- Устройства Android и устройства с рабочим профилем Android — не поддерживается
 
 ## <a name="restart-a-device"></a>Перезапуск устройства
 

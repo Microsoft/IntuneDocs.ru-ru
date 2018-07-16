@@ -15,12 +15,12 @@ ms.assetid: 5d1ac59c-a885-4276-8576-f3cf81c2d268
 ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: f468ff8115fde79bf92825f06c37ff8affabf125
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 938bcd352294a9875aaa3eef717ef3857211961a
+ms.sourcegitcommit: abc3d51923e55e8779a5d84f2fcab60d0a0d8645
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31033380"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37434272"
 ---
 # <a name="supported-operating-systems-and-browsers"></a>Поддерживаемые операционные системы и браузеры
 
@@ -28,7 +28,7 @@ ms.locfileid: "31033380"
 
 Перед настройкой Microsoft Intune просмотрите список поддерживаемых операционных систем и браузеров.
 
-Сведения об установке Intune на устройстве см. в статье [Использование управляемых устройств для выполнения задач](/intune-user-help/company-portal-frequently-asked-questions). Следует также ознакомиться со статьей [Использование пропускной способности сети Intune](network-bandwidth-use.md) ([классический портал](/intune-classic/get-started/network-bandwidth-use)).
+Сведения об установке Intune на устройстве см. в статьях [Использование управляемых устройств для выполнения задач](/intune-user-help/company-portal-frequently-asked-questions) и [Использование пропускной способности сети Intune](network-bandwidth-use.md) ([классический портал](/intune-classic/get-started/network-bandwidth-use)).
 
 ## <a name="intune-supported-operating-systems"></a>Операционные системы, поддерживаемые Intune
 
@@ -38,12 +38,12 @@ ms.locfileid: "31033380"
 
 ### <a name="supported-samsung-knox-standard-devices"></a>Поддерживаемые устройства Samsung Knox Standard
 
-Приложение "Корпоративный портал" пытается выполнить активацию устройства Samsung Knox во время регистрации в MDM, только если это устройство включено в [список поддерживаемых устройств Knox](https://www.samsungknox.com/knox-supported-devices/knox-workspace). Это позволяет избежать ошибок активации Knox, которые делают регистрацию в MDM невозможной. Устройства, которые не поддерживают активацию Samsung Knox, регистрируются как стандартные устройства Android. Некоторые модели устройств Samsung поддерживают Knox, а другие нет. Перед приобретением и развертыванием устройств Samsung следует уточнить их совместимость с решением KNOX у торгового посредника.
+Чтобы избежать ошибок активации Knox, которые препятствуют регистрации в MDM, приложение "Корпоративный портал" пытается выполнить активацию устройства Samsung Knox во время регистрации в MDM, только если это устройство включено в [список поддерживаемых устройств Knox](https://www.samsungknox.com/knox-supported-devices/knox-workspace). Устройства, которые не поддерживают активацию Samsung Knox, регистрируются как стандартные устройства Android. Некоторые модели устройств Samsung поддерживают Knox, а другие нет. Перед приобретением и развертыванием устройств Samsung следует уточнить их совместимость с Knox у торгового посредника.
 
 > [!NOTE]
 > Для регистрации устройств Samsung Knox может потребоваться [предоставить доступ к серверам Samsung](https://support.samsungknox.com/hc/articles/115013833108-Our-corporate-devices-are-behind-a-firewall-How-do-I-enable-Knox-Workspace-devices-to-contact-Samsung-servers). 
 
-Ниже приведен список моделей устройств Samsung, которые не поддерживают Knox и регистрируются приложением "Корпоративный портал" для Android как обычные устройства Android:
+Следующие модели устройств Samsung не поддерживают Knox. Они регистрируются как обычные устройства Android в приложении "Корпоративный портал" для Android:
 
 | **Имя устройства** | **Номера моделей устройства** |
 | --- | --- |
@@ -103,7 +103,7 @@ You can manage [Exchange ActiveSync devices](/intune-classic/deploy-use/mobile-d
 - Microsoft Internet Explorer 11;
 - Safari (последняя версия, только для Mac);
 - Chrome (последняя версия);
-- Mozilla Firefox с поддержкой Silverlight [Дополнительные сведения (версии, предшествующие версии 52)](https://go.microsoft.com/fwlink/?linkid=836872)
+- Firefox (последняя версия).
 
 
 

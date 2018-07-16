@@ -14,12 +14,12 @@ ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 89f8ddc105787bc7ff4f7cfc1e226d28589ecbbf
-ms.sourcegitcommit: 9536300a6211bac4bdc733593a40c1ae47611de3
+ms.openlocfilehash: 9329a57ee7d47cb99a7c87326bb043c0a04c6313
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
-ms.locfileid: "31771811"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905212"
 ---
 # <a name="configure-a-certificate-profile-for-your-devices-in-microsoft-intune"></a>Настройка профиля сертификата для устройств в Microsoft Intune
 
@@ -43,7 +43,7 @@ ms.locfileid: "31771811"
     - Устройства iOS 8.0 и более поздней версии
     - macOS 10.11 и более поздние версии
     - Android 4.0 и более поздней версии
-    - Android for Work
+    - Рабочий профиль Android
     - Windows 8.1 и более поздние версии
     - Windows Phone 8.1 и более поздней версии
     - Windows 10 и более поздней версии
@@ -52,7 +52,7 @@ ms.locfileid: "31771811"
 
    - Устройства iOS 8.0 и более поздней версии
    - Android 4.0 и более поздней версии
-   - Android for Work
+   - Рабочий профиль Android
    - Windows 10 (Desktop и Mobile) и более поздних версий
 
    Профиль сертификата **SCEP** можно использовать только для устройств на следующих платформах:
@@ -95,7 +95,7 @@ ms.locfileid: "31771811"
 5. Из раскрывающегося списка **Платформа** выберите платформу устройств для этого доверенного сертификата. Сейчас для параметров сертификатов можно выбрать одну из следующих платформ.
 
     - **Android**
-    - **Android for Work**
+    - **Android для бизнеса**
     - **iOS**
     - **macOS**
     - **Windows Phone 8.1**

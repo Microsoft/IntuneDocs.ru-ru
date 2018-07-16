@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a1476ad4237b6355d0cb87fcc643bf0234e7f457
-ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
+ms.openlocfilehash: fbe55be15df9755c109ec7e8e8e23db3c27931b0
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34744777"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905535"
 ---
 # <a name="create-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated"></a>Создание политики условного доступа к локальной организации Exchange и устаревшей версии выделенной среды Exchange Online
 
@@ -63,7 +63,7 @@ ms.locfileid: "34744777"
 - Windows Phone 8.1 и более поздней версии
 - Собственное почтовое приложение в iOS
 - Почтовые клиенты EAS, например Gmail на Android 4 или более поздней версии.
-- Почтовые клиенты EAS на **устройствах Android for Work.** На устройствах Android for Work поддерживаются только приложения **Gmail** и **Nine Work** в **профиле работы**. Чтобы условный доступ работал для Android for Work, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work, а также развернуть эти приложения в качестве обязательной установки.
+- Почтовые клиенты EAS на **устройствах с рабочим профилем Android.** На устройствах с рабочим профилем Android поддерживаются только приложения **Gmail** и **Nine Work** в **рабочем профиле**. Чтобы условный доступ работал для рабочих профилей Android, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work, а также развернуть эти приложения в качестве обязательной установки.
 
 > [!NOTE]
 > Приложение Microsoft Outlook в iOS и Android не поддерживается. 

@@ -13,12 +13,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6753e0232548d862b46a273f1be0105ad7f16d63
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 7f52c43f8918589c1b66034ad68908f4d5ddba6d
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31831951"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905127"
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-android"></a>Настройка параметров VPN для устройств Android в Microsoft Intune 
 
@@ -30,7 +30,7 @@ ms.locfileid: "31831951"
 Вы можете настраивать параметры VPN для следующих платформ:
 
 - [Android](#android-vpn-settings)
-- [Android for Work](#android-for-work-vpn-settings)
+- [Устройства с рабочим профилем Android](#android-for-work-vpn-settings)
 
 В зависимости от выбранных параметров не все приведенные в следующем списке значения будут доступны для настройки.
 
@@ -51,7 +51,7 @@ ms.locfileid: "31831951"
 - **Отпечаток** (только Check Point Capsule VPN). Укажите строку (например, "Код отпечатка Contoso"), которая будет использоваться для проверки доверия VPN-серверу. Отпечаток можно отправлять клиенту, чтобы он доверял любому серверу, представившему этот же отпечаток при подключении. Если на устройстве еще нет отпечатка, пользователь получит запрос на доверие VPN-серверу, к которому осуществляется подключение, с отображением отпечатка (пользователь должен вручную проверить отпечаток и подтвердить доверие для подключения).
 - **Введите пары "ключ — значение" для атрибутов Citrix VPN** (только Citrix). Введите пары "ключ — значение", предоставленные Citrix, чтобы настроить свойства VPN-подключения.
 
-## <a name="android-for-work-vpn-settings"></a>Параметры VPN для Android for Work
+## <a name="android-work-profile-device-vpn-settings"></a>Параметры VPN на устройствах с рабочим профилем Android
 
 **Имя подключения.** Введите имя подключения. Конечные пользователи увидят это имя при поиске устройства в списке доступных VPN-подключений.
 - **IP-адрес или полное доменное имя**. Укажите IP-адрес или полное доменное имя VPN-сервера, к которому подключаются устройства. Примеры: **192.168.1.1**, **vpn.contoso.com**.

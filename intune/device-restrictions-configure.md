@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 13f93f9fcf813c2e86809d2cc20991d2fd635187
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 56ddf28bb9e81417b4b91bb18baaba14f07fbdd9
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31024623"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905059"
 ---
 # <a name="configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений устройств в Microsoft Intune
 
@@ -56,7 +56,7 @@ ms.locfileid: "31024623"
     - [Параметры Windows 10](device-restrictions-windows-10.md)
     - [Параметры Windows 10 для совместной работы](device-restrictions-windows-10-teams.md)
     - [Параметры Windows Holographic for Business](device-restrictions-windows-holographic.md)
-    - [Параметры Android for Work](device-restrictions-android-for-work.md)
+    - [Параметры рабочего профиля Android](device-restrictions-android-for-work.md)
 8. По завершении вернитесь на страницу **Создать профиль** и щелкните **Создать**.
 
 Созданный профиль отобразится на странице со списком профилей.

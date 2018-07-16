@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 233b61018ad521f44ffea96f991f24649e174e3e
-ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
+ms.openlocfilehash: 78f50bc49f9d7a1261759ec5fb9a1cd7628c998c
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34744607"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905110"
 ---
 # <a name="create-vpn-profiles-in-intune"></a>Создание профилей VPN в Intune
 
@@ -40,7 +40,7 @@ ms.locfileid: "34744607"
 
 Вы можете создать профили VPN, используя следующие типы подключений.
 
-|Тип подключения|Android<br>Android for Work|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
+|Тип подключения|Android<br>Рабочие профили Android|iOS|macOS|Windows Phone 8.1|Windows 8.1|Windows 10|
 |-|-|-|-|-|-|-|
 |Автоматически|Нет|Нет|Нет|Нет|Нет|Да|
 |Check Point Capsule VPN|Да|Да|Да|Да|Да|Да|
@@ -68,21 +68,21 @@ ms.locfileid: "34744607"
 3. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 4. Укажите **имя** и **описание** для профиля VPN.
 5. В раскрывающемся списке **Платформа** выберите платформу устройства, к которой необходимо применить параметры VPN. Сейчас для параметров VPN устройства можно выбрать одну из следующих платформ:
-  - **Android**
-  - **Android for Work**
-  - **iOS**
-  - **macOS**
-  - **Windows Phone 8.1**
-  - **Windows 8.1 и более поздние версии**
-  - **Windows 10 и более поздних версий**.
+   - **Android**
+   - **Android для бизнеса**
+   - **iOS**
+   - **macOS**
+   - **Windows Phone 8.1**
+   - **Windows 8.1 и более поздние версии**
+   - **Windows 10 и более поздних версий**.
 6. В раскрывающемся списке **Профиль** выберите **VPN**.
 7. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
-  - [Параметры Android и Android for Work](vpn-settings-android.md)
-  - [Параметры iOS](vpn-settings-ios.md)
-  - [Параметры macOS](vpn-settings-macos.md)
-  - [Параметры Windows Phone 8.1](vpn-settings-windows-phone-8-1.md)
-  - [Параметры Windows 8.1](vpn-settings-windows-8-1.md)
-  - [Параметры Windows 10](vpn-settings-windows-10.md) (включая Windows Holographic for Business)
+   - [Параметры Android и рабочего профиля Android](vpn-settings-android.md)
+   - [Параметры iOS](vpn-settings-ios.md)
+   - [Параметры macOS](vpn-settings-macos.md)
+   - [Параметры Windows Phone 8.1](vpn-settings-windows-phone-8-1.md)
+   - [Параметры Windows 8.1](vpn-settings-windows-8-1.md)
+   - [Параметры Windows 10](vpn-settings-windows-10.md) (включая Windows Holographic for Business)
 8. Закончив, нажмите кнопку **Создать**, чтобы создать профиль.
 
 Созданный профиль отобразится в списке профилей. Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройств](device-profile-assign.md).

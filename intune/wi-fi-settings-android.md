@@ -1,42 +1,47 @@
 ---
 title: Настройка параметров Wi-Fi для устройств Android в Microsoft Intune
 titleSuffix: ''
-description: Сведения о настройке параметров конфигурации Wi-Fi в Intune для устройств Android и Android for Work.
+description: Сведения о настройке параметров конфигурации Wi-Fi в Intune для устройств Android.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 3/5/2018
+ms.date: 7/6/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ee82da997a794bb2f65929a6fd9e0de0cc776a6e
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 0157815322488525a4ce7a3d6d2c90cbb8d3ff2a
+ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31831067"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37905671"
 ---
-# <a name="configure-wi-fi-settings-in-microsoft-intune-for-devices-running-android-and-android-for-work"></a>Параметры Wi-Fi в Microsoft Intune для устройств Android и Android for Work  
+# <a name="configure-wi-fi-settings-in-microsoft-intune-for-devices-running-android-android-work-profiles-and-android-kiosk-devices"></a>Параметры Wi-Fi в Microsoft Intune для устройств Android, устройств с рабочими профилями Android и киосков Android
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-В этой статье описаны все параметры Wi-Fi в Microsoft Intune, которые можно настроить для устройств под управлением Android for Work.
+В этой статье описаны все параметры Wi-Fi в Microsoft Intune, которые можно настроить для устройств Android и устройств с рабочим профилем Android.
 
 ## <a name="wi-fi-settings-for-basic-and-enterprise-profiles"></a>Параметры Wi-Fi для простых и корпоративных профилей
 
-Для устройств Android и Android for Work доступны следующие параметры подключений Wi-Fi:
+Для устройств Android и устройств с рабочим профилем Android доступны следующие параметры Wi-Fi:
 
 - **Имя сети**. Введите имя подключения Wi-Fi. Это имя, которое отображается в списке доступных подключений на устройствах пользователей при поиске.
 - **SSID**. Идентификатор беспроводной сети. Это настоящее имя беспроводной сети, к которой будут подключаться устройства. Тем не менее при выборе подключения пользователи видят только имя сети, настроенное вами.
 - **Подключаться автоматически**. Устройство будет автоматически подключаться к сети, когда будет в зоне ее действия.
 - **Скрытая сеть**. Предотвращает отображение этой сети в списке доступных сетей на устройстве.
 
+## <a name="wi-fi-settings-available-for-enterprise-kiosk-profiles"></a>Параметры Wi-Fi, доступные для корпоративных профилей киосков
+- **Тип Wi-Fi**. Параметры типа Wi-Fi доступны только в случае, если вы выбираете **Тип профиля** > **Только владелец устройства** > **Wi-Fi**.
+    - **Открыто (без проверки подлинности)**
+    - **Общий ключ WEP**. Укажите пароль в поле **Общий ключ**.
+    - **Общий ключ WPA**. Укажите пароль в поле **Общий ключ**
 
-## <a name="wi-fi-settings-for-enterprise-profiles-only"></a>Параметры Wi-Fi только для корпоративных профилей
+## <a name="wi-fi-settings-for-android-legacy-and-android-work-profiles-only"></a>Параметры Wi-Fi только для Android прежних версий и рабочих профилей Android
 
 - **Тип EAP**. Выберите тип протокола расширяемой проверки подлинности (EAP), используемый для аутентификации безопасных беспроводных подключений:
     - **EAP-TLS**
