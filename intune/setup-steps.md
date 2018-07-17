@@ -15,11 +15,11 @@ ms.reviewer: dougeby
 ms.suite: ems
 ms.custom: intune-classic
 ms.openlocfilehash: f818c35a008c24a529967b09a37917343433ff7d
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.sourcegitcommit: 2198a39ae48beca5fc74316976bc3fc9db363659
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31023195"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38225465"
 ---
 # <a name="set-up-intune"></a>Настройка Intune
 

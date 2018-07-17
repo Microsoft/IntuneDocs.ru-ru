@@ -13,12 +13,12 @@ ms.technology: ''
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fb81e070542248f585717564f0a609a512389ae2
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 30f2bea4589e31f3012df1bd06e6327b923ec5d1
+ms.sourcegitcommit: 2198a39ae48beca5fc74316976bc3fc9db363659
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905076"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38225448"
 ---
 # <a name="get-started-with-device-compliance-policies-in-intune"></a>Начало работы с политиками соответствия устройств в Intune
 
@@ -88,7 +88,7 @@ Remember that you need to implement conditional access policies in addition to c
 
 Когда устройство регистрируется в Intune, происходит регистрация в Azure AD и в атрибуты устройства в Azure AD добавляется дополнительная информация. Одной из основных характеристик устройства является его состояние соответствия. Оно используется политиками условного доступа для блокировки или разрешения доступа к электронной почте и другим корпоративным ресурсам.
 
-Дополнительные сведения см. в разделе о [процессе регистрации в Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction).
+Дополнительные сведения см. в разделе о [процессе регистрации в Azure AD](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 
 ### <a name="assign-a-resulting-device-configuration-profile-status"></a>Назначение итогового состояния для профиля конфигурации устройства
 
