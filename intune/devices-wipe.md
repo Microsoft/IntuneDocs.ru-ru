@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 326622c324f75e216db69bd850b707e0fc1c0679
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 41d8f70dd72e845663f39e151c393f5edc0ad394
+ms.sourcegitcommit: 391755a4c8a38e3a22744516fd27d75e40438899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37906062"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39028751"
 ---
 # <a name="remove-devices-by-using-factory-reset-removing-company-data-or-manually-unenrolling-the-device"></a>Очистите устройства, используя сброс до заводских настроек, удалив данные организации или вручную отменив регистрацию устройства
 
@@ -175,3 +175,24 @@ ms.locfileid: "37906062"
 5. Выберите пользователя, связанного с устройством, которое требуется удалить.
 6.  Выберите **Устройства**.
 7.  Удалите устройства. Например, можно удалить неиспользуемые или имеющие неверные определения устройства.
+
+## <a name="retire-an-apple-dep-device-from-intune"></a>Снятие устройства Apple DEP с учета в Intune
+
+Если вы хотите полностью удалить устройство Apple DEP из системы управления Intune, сделайте следующее.
+
+1. Войдите в [Intune на портале Azure](https://aka.ms/intuneportal).
+2. Последовательно выберите пункты **Устройства** > **Все устройства** > выберите устройство > **Удалить данные организации**.
+![Снимок экрана в процессе удаления данных организации](./media/devices-wipe/remove-company-data.png)
+3. Последовательно выберите пункты **Регистрация устройств** > **Регистрация Apple** > **Токены программы регистрации** > выберите токен > **Устройства** > установите флажок напротив устройства > **Удалить** > **Да**.
+![Снимок экрана в процессе удаления устройства](./media/devices-wipe/delete-device.png)
+4. На сайте [deploy.apple.com](http://deploy.apple.com) найдите устройство по серийному номеру.
+5. В меню **Назначенные** выберите **Неназначенные**.
+
+6. Нажмите кнопку **Переназначить**.
+
+    ![Снимок экрана в процессе переназначения Apple](./media/devices-wipe/apple-reassign.png)
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+Если вы хотите повторно зарегистрировать удаленное устройство, см. раздел [Параметры регистрации](enrollment-options.md).
+

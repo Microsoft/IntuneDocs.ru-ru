@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/02/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 581d3c9762145a4681b421ededaaf9099e8ceb80
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 1e6ffd31e35637cf722fc2af486be4bd9101c1db
+ms.sourcegitcommit: 413d271b42a6d4396adc2f749e31eed782aaa9da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905892"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "38993757"
 ---
 # <a name="assign-apps-to-groups-with-microsoft-intune"></a>Назначение приложений группам с помощью Microsoft Intune
 
@@ -59,7 +59,7 @@ ms.locfileid: "37905892"
 7. Выберите **Добавить группу**, чтобы открыть область **Добавить группу** для этого приложения.
 8. Выберите **Тип назначения** для конкретного приложения.
    - **Доступно для зарегистрированных устройств.** Пользователи могут устанавливать приложение через приложение или веб-сайт корпоративного портала.
-   - **Available with or without enrollment** (Доступно с регистрацией или без нее). Назначает это приложение группам пользователей, чьи устройства не зарегистрированы в Intune. Приложения из управляемого Google Play и бизнес-приложения macOS не поддерживают этот параметр. 
+   - **Available with or without enrollment** (Доступно с регистрацией или без нее). Назначает это приложение группам пользователей, чьи устройства не зарегистрированы в Intune. Приложения из управляемого Google Play не поддерживают этот параметр. 
    - **Обязательно.** Приложение устанавливается на устройствах в выбранных группах.
    - **Удалить.** Приложение удаляется из устройств в выбранных группах.
 

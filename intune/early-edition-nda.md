@@ -15,12 +15,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 609e142551344a1ce39761280031463c8e34f1f0
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: e97d7639a73fb2d5fd13d4b893ace8eebf597e05
+ms.sourcegitcommit: e01945bff19157fa7acaa4f7975b0f2a8b3a73f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37906028"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37949498"
 ---
 # <a name="the-early-edition-for-microsoft-intune---july-2018"></a>Ранний выпуск Microsoft Intune — июль 2018 г.
 
@@ -40,6 +40,9 @@ ms.locfileid: "37906028"
 ## <a name="intune-in-the-azure-portal"></a>Intune на портале Azure
 
 <!-- 1807 start -->
+
+### <a name="more-sync-opportunities-in-the-company-portal-app-for-windows----2683177---"></a>Дополнительные возможности синхронизации в приложении "Корпоративный портал" для Windows <!-- 2683177 -->
+Приложение "Корпоративный портал" для Windows добавляет действие синхронизации устройств на панель задач Windows и в списки переходов меню "Пуск". Выберите этот пункт в любом из указанных мест, чтобы быстро синхронизировать свои устройства и получить доступ к корпоративным ресурсам.  
 
 ### <a name="reset-device-passcodes-from-company-portal-app-for-windows-10----2101282---"></a>Сброс секретных кодов устройств из приложения "Корпоративный портал" для Windows 10 <!-- 2101282 --> 
 Ваши сотрудники вскоре смогут сбрасывать ПИН-код или секретный код устройства непосредственно из приложения "Корпоративный портал" для Windows 10. Эта функция будет доступна на удаленных и локальных устройствах под управлением Intune, которые поддерживают сброс секретных кодов. В зависимости от типа устройства запрос, сделанный для удаленного устройства, приведет к удалению текущего секретного кода устройства или созданию временного кода. Пользователи, запросившие сброс для локального устройства, будут перенаправлены в приложение "Параметры" устройства.  

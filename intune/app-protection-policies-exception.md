@@ -15,12 +15,12 @@ ms.assetid: f9015e3a-c22c-42eb-90e6-ba48dee3a41d
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b860b68bbf8940a89533159885f471f5337ca0e8
-ms.sourcegitcommit: 91802e78cd5014d20a828ca25a54a381d452f0f8
+ms.openlocfilehash: 34174568570700e0b15d5bce1bb0bf239251b577
+ms.sourcegitcommit: 024cce10a99b12a13f32d3995b69c290743cafb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2018
-ms.locfileid: "34216145"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "39039160"
 ---
 # <a name="how-to-create-exceptions-to-the-intune-mobile-application-management-mam-data-transfer-policy"></a>Как создать исключения для политики управления мобильными приложениями (MAM) в Intune
 
@@ -38,6 +38,9 @@ ms.locfileid: "34216145"
 
 ## <a name="ios-data-transfer-exceptions"></a>Исключения политики передачи данных для iOS
 Для политики, предназначенной для iOS, можно настроить исключения политики передачи данных по протоколу URL-адреса. Чтобы добавить исключение, найдите сведения о поддерживаемых протоколах URL-адреса в документации, предоставленной разработчиком приложения. Дополнительные сведения об исключениях для политики передачи данных в iOS см. в статье [Параметры политик защиты приложений в iOS — исключения для передачи данных](app-protection-policy-settings-ios.md#data-transfer-exemptions).
+
+> [!NOTE]
+> На устройствах Майкрософт невозможно вручную найти URL-протокол, чтобы создавать исключения для сторонних приложений. 
 
 ## <a name="android-data-transfer-exceptions"></a>Исключения политики передачи данных для Android
 В политиках, предназначенных для Android, можно настроить исключения для передачи данных по имени пакета приложения. Имя пакета приложения, которое вы хотите добавить в исключения, можно найти на странице этого приложения в **Google Play**. Дополнительные сведения об исключениях передачи данных для Android см. в статье [Параметры политик защиты приложений в Android — исключения для передачи данных](app-protection-policy-settings-android.md#data-transfer-exemptions).

@@ -2,8 +2,8 @@
 title: Параметры киоска Android в Microsoft Intune — Azure | Документы Майкрософт
 description: Настройка киосков Android для бизнеса.
 keywords: ''
-author: ErikjeMS
-ms.author: erikje
+author: MandiOhlinger
+ms.author: mandia
 manager: dougeby
 ms.date: 7/5/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 28eca6fa3738519602ee5b2a778bc75bde487156
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 15ac6adbcf262fd14edf11107b032aeda106a15b
+ms.sourcegitcommit: 024cce10a99b12a13f32d3995b69c290743cafb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37909105"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "39039341"
 ---
 # <a name="android-enterprise-kiosk-settings-in-intune"></a>Параметры киоска Android для бизнеса в Intune
 
@@ -51,7 +51,7 @@ ms.locfileid: "37909105"
 
 ## <a name="kiosk-settings"></a>Параметры киоска
 
-- **Режим киоска**. Определяет, может ли на устройстве запускаться только одно приложение или несколько приложений. Дополнительные сведения см. в разделе [Параметры киоска для устройств Android](android-kiosk-settings.md).
+- **Режим киоска**. Определяет, может ли на устройстве запускаться только одно приложение или несколько приложений. Дополнительные сведения см. в разделе [Параметры киоска для устройств с Android](android-kiosk-settings.md).
     - **Киоск с одним приложением**. Пользователям доступно только одно приложение.
     - **Киоск с несколькими приложениями**. Пользователям доступен ограниченный набор приложений.
 
