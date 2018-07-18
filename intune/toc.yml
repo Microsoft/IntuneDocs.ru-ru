@@ -663,6 +663,8 @@
           href: help-desk-operators.md
         - name: 'Устранение неполадок, связанных с доступом к ресурсам компании'
           href: troubleshoot-company-resource-access-problems.md
+        - name: Устранение проблем с установкой приложений
+          href: troubleshoot-app-install.md
         - name: Журналы аудита для действий Intune
           href: monitor-audit-logs.md
         - name: Просмотрите журналы защиты приложений
