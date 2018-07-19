@@ -724,8 +724,6 @@
           href: app-wrapper-prepare-android.md
         - name: Пакет SDK приложений Intune для Android
           href: app-sdk-android.md
-        - name: Подключаемый модуль Cordova из пакета SDK для приложений Intune
-          href: app-sdk-cordova.md
         - name: привязки Xamarin из пакета SDK для приложений Intune
           href: app-sdk-xamarin.md
     - name: Использование хранилища данных Intune
