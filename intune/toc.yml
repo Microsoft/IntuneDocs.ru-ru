@@ -521,6 +521,7 @@
         - name: Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
           href: conditional-access-assign-jamf.md
     - name: Защита данных устройства
+      href: device-protect.md
       items:
         - name: Конфиденциальность и персональные данные
           href: privacy-personal-data.md
