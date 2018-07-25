@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fb609f0d99378e2e30b3c3a4f769781448aea1b5
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 30b4cf585edd7153ee01710ce8c572593056454f
+ms.sourcegitcommit: f5998019bbb4769fb50a7ea9bf424199516eb9ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31833371"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39117877"
 ---
 # <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>Синхронизация устройств с Intune для получения последних политик и действий
 
@@ -43,6 +43,7 @@ ms.locfileid: "31833371"
 4. Выберите нужное устройство в списке управляемых устройств, а затем нажмите **...Еще** и выберите **Синхронизировать**.
 5. Нажмите кнопку **Да** для подтверждения.
 
+Чтобы просмотреть статус синхронизации, выберите **Устройства** > **Действия устройства**.
 
 ## <a name="retryable-error-codes"></a>Коды ошибок с возможностью повторной попытки
 
@@ -65,4 +66,5 @@ ms.locfileid: "31833371"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-- Чтобы просмотреть состояние действия синхронизации, выберите **Действия устройства**. 
+Вы можете [узнать сведения](device-inventory.md) об устройстве.
+ 

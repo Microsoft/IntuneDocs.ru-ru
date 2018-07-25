@@ -15,12 +15,12 @@ ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b18a55d7bd37ab32f6b2f64eee00489389ea323d
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 76166fda33414c8ae3096ca12604a5edf07ad974
+ms.sourcegitcommit: a5bd08f2b6a0693fa62683aa2d3699041030269e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905229"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39203226"
 ---
 # <a name="enroll-devices-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств с помощью учетной записи диспетчера регистрации устройств
 
@@ -56,7 +56,7 @@ ms.locfileid: "37905229"
   - Если вы регистрируете устройства iOS при помощи DEM, вы не сможете использовать Apple Configurator, программу регистрации устройств Apple (DEP) или Apple School Manager (ASM) в процессе регистрации (только iOS).
   - Действует ограничение на число устройств с рабочим профилем Android, которые можно зарегистрировать с помощью одной учетной записи DEM (только для Android). На каждую учетную запись DEM можно зарегистрировать не больше десяти устройств с рабочим профилем Android. Это ограничение не распространяется на регистрацию устройств Android прежних версий.
   - Приложения по программе VPP можно устанавливать на устройствах, имеющих лицензии на устройство.
-  - Каждому устройству требуется лицензия на устройство. Дополнительные сведения о [лицензиях на пользователя и на устройство](licenses-assign.md#how-user-and-device-licenses-affect-access-to-services).
+  - Для использования DEM лицензия на устройство Intune не требуется. Дополнительные сведения о [лицензиях на пользователя и на устройство](licenses-assign.md#how-user-and-device-licenses-affect-access-to-services).
 
 
 > [!NOTE]

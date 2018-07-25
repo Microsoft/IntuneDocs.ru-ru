@@ -15,12 +15,12 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: dougeby
 ms.suite: ems
 /ms.custom: intune-azure
-ms.openlocfilehash: f2018b5a1ca2a6981b04951bcf8ecd8819eb47e2
-ms.sourcegitcommit: 024cce10a99b12a13f32d3995b69c290743cafb8
+ms.openlocfilehash: 1d56312fdf0e81406587caf352feafd745bd4353
+ms.sourcegitcommit: 5251a630fb2c7a2e6f86abd84ab887f8eabc1481
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "39039426"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39212075"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -133,7 +133,7 @@ ms.locfileid: "39039426"
 #### <a name="rules-for-removing-devices----1609459---"></a>Правила по удалению устройств <!-- 1609459 -->
 Доступны новые правила, позволяющие автоматически удалять устройства, которые не проверялись в течение заданного количества дней. Чтобы просмотреть новое правило, последовательно выберите пункты **Intune**, **Устройства**, **Правила очистки устройств**.
 
-#### <a name="corporate-owned-single-cosu-use-support-for-android-devices----1630973---"></a>Поддержка корпоративных однофункциональных (COSU) устройств с Android <!-- 1630973 -->
+#### <a name="corporate-owned-single-use-support-for-android-devices----1630973---"></a>Поддержка корпоративных однофункциональных (COSU) устройств Android <!-- 1630973 -->
 
 Теперь Intune поддерживает устройства с Android с высоким уровнем управляемости и ограниченным доступом в стиле киоска. Это позволит администраторам еще более ограничить использование устройства одним приложением или небольшим их набором. Запускать другие приложения или выполнять другие действия на устройстве пользователям будет запрещено. Чтобы настроить киоск с Android, последовательно выберите пункты **Регистрация устройства** > **Регистрация Android** > **Регистрация устройств для киосков и задач**. Дополнительные сведения см. в статье о [настройке регистрации корпоративных устройств с Android для киосков](android-kiosk-enroll.md).
 

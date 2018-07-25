@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a12e0103f9eae08003d8cca6a5eb4699ced27a27
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 2a2c5c60f22aca6a9c989281ef2c5cc9e0c66911
+ms.sourcegitcommit: f5998019bbb4769fb50a7ea9bf424199516eb9ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31015614"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39117860"
 ---
 # <a name="send-logs-to-your-company-support-using-a-usb-cable"></a>Отправка журналов в службу поддержки вашей компании по USB-кабелю
 
@@ -35,7 +35,7 @@ ms.locfileid: "31015614"
 
 2. Подключите устройство к компьютеру с помощью USB-кабеля. Обычно это тот же кабель, который используется для зарядки устройства от розетки.
 
-3. На компьютере найдите каталог с именем вашего устройства. В каталоге перейдите к папке <strong>Android Device\Phone\Android\data\com.microsoft.windowsintune.companyportal\files\</strong>.
+3. На компьютере найдите каталог с именем вашего устройства. В этой папке выберите <strong>Android Device\Phone\Android\data\com.microsoft.windowsintune.companyportal\files\\</strong>.
 
 4. Выберите файлы и вложите их в сообщение электронной почты. Отправьте это сообщение в службу поддержки вашей компании по электронной почте.
 

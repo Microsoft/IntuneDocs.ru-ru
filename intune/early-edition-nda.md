@@ -15,12 +15,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: e97d7639a73fb2d5fd13d4b893ace8eebf597e05
-ms.sourcegitcommit: e01945bff19157fa7acaa4f7975b0f2a8b3a73f0
+ms.openlocfilehash: 3aed8fcefd640e5b7df46fe1ef8cd1c973a68044
+ms.sourcegitcommit: 5251a630fb2c7a2e6f86abd84ab887f8eabc1481
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37949498"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39212143"
 ---
 # <a name="the-early-edition-for-microsoft-intune---july-2018"></a>Ранний выпуск Microsoft Intune — июль 2018 г.
 
@@ -79,8 +79,8 @@ ms.locfileid: "37949498"
 
 Применяется к Windows 10 и более поздним версиям.
 
-###  <a name="windows-line-of-business-lob-apps-file-extension-rename----1884873---"></a>Переименование расширения файла бизнес-приложений Windows <!-- 1884873 -->
-Расширения файлов для бизнес-приложений Windows будут переименованы из *APPX* и *APPXBUNDLE* в *MSIX* и *MSIXBUNDLE*. Чтобы добавить приложение в Microsoft Intune, выберите **Мобильные приложения** > **Приложения** > **Добавить**. Отобразится панель **Добавить приложение**, в которой вы можете выбрать **тип приложения**. Для бизнес-приложений Windows выберите **Бизнес-приложение** в качестве типа приложения, щелкните **Файл пакета приложения**, а затем выберите файл установки с соответствующим расширением.
+###  <a name="windows-line-of-business-lob-apps-file-extensions----1884873---"></a>Расширения файлов бизнес-приложений (LOB) Windows <!-- 1884873 -->
+Расширения файлов для бизнес-приложений Windows теперь включают *.msi*, *.appx*, *.appxbundle*, *.msix* и *.msixbundle*. Чтобы добавить приложение в Microsoft Intune, выберите **Мобильные приложения** > **Приложения** > **Добавить**. Отобразится панель **Добавить приложение**, в которой вы можете выбрать **тип приложения**. Для бизнес-приложений Windows выберите **Бизнес-приложение** в качестве типа приложения, щелкните **Файл пакета приложения**, а затем выберите файл установки с соответствующим расширением.
 
 ### <a name="windows-defender-atp-configuration-package-automatically-added-to-configuration-profile----2144658---"></a>Пакет конфигурации ATP в Защитнике Windows автоматически добавляется в профиль конфигурации <!-- 2144658 -->.
 Сейчас при использовании устройств [Advanced Threat Protection и подключение](advanced-threat-protection.md#onboard-devices-using-a-configuration-profile) в Intune вы скачиваете пакет конфигурации устройств и добавляете его в свой профиль конфигурации. В будущем обновлении Intune автоматически получает пакет из центра безопасности Защитника Windows и добавляет его в ваш профиль.

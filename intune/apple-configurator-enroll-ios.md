@@ -15,12 +15,12 @@ ms.assetid: 671e4d76-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 180988f296894c285b078f6906c4e77b832006f9
-ms.sourcegitcommit: 0f1a5d6e577915d2d748d681840ca04a0a2604dd
+ms.openlocfilehash: 2b3965c651bb6fcc38d61a55208fc8b199223891
+ms.sourcegitcommit: 5251a630fb2c7a2e6f86abd84ab887f8eabc1481
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33840280"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39212126"
 ---
 # <a name="enroll-ios-devices-with-apple-configurator"></a>Регистрация устройств iOS с помощью Apple Configurator
 
@@ -135,7 +135,7 @@ Intune поддерживает регистрацию устройств iOS с
 ### <a name="export-the-profile-as-mobileconfig-to-ios-devices"></a>Экспорт профиля в качестве MOBILECONFIG-файла на устройства iOS
 
 1. В [Intune](https://aka.ms/intuneportal) выберите **Регистрация устройства** > **Регистрация Apple** > **Apple Configurator** > **Профили** > выберите профиль для экспорта > **Экспорт профиля**.
-2. В разделе **Прямая регистрация** выберите **Скачать профиль** и сохраните файл.
+2. В разделе **Прямая регистрация** выберите **Скачать профиль** и сохраните файл. Файл профиля регистрации действует только две недели, после чего его нужно создать заново.
 3. Переместите файл на компьютер Mac с запущенным средством [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12), чтобы отправить его напрямую на устройства iOS как профиль управления.
 4. Подготовьте устройство с помощью Apple Configurator, сделав следующее:
     1. На компьютере Mac откройте Apple Configurator 2.0.
