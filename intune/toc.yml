@@ -396,12 +396,12 @@
               href: endpoint-protection-macos.md
             - name: Windows 10
               href: endpoint-protection-windows-10.md
-        - name: Настройка параметров киоска
-          href: kiosk-settings.md
-        - name: Настройка параметров киоска Android
+        - name: Параметры киоска Android
           href: android-kiosk-settings.md
         - name: Параметры киоска Android для бизнеса
           href: android-enterprise-settings.md
+        - name: "Параметры киоска Windows\_10"
+          href: kiosk-settings.md
         - name: Настройка параметров электронной почты
           href: email-settings-configure.md
           items:
@@ -439,7 +439,9 @@
               href: wi-fi-settings-ios.md
             - name: macOS
               href: wi-fi-settings-macos.md
-            - name: Windows 8.1 и Windows 10
+            - name: Windows 10
+              href: wi-fi-settings-windows.md
+            - name: Windows 8.1
               href: wi-fi-settings-import-windows-8-1.md
         - name: Образование
           items:
@@ -458,6 +460,10 @@
               href: certificates-scep-configure.md
             - name: PKCS
               href: certficates-pfx-configure.md
+            - name: Шифрование электронной почты с помощью S/MIME
+              href: certificates-s-mime-encryption-sign.md
+            - name: Использование сторонних центров сертификации с SCEP
+              href: certificate-authority-add-scep-overview.md
             - name: Веб-служба Symantec PKI Manager
               href: certificates-symantec-configure.md
         - name: Настройка параметров Windows Information Protection
@@ -710,6 +716,8 @@
               href: custom-settings-android-for-work.md
 - name: Руководство разработчика
   items:
+    - name: API для добавления сторонних центров сертификации
+      href: scep-libraries-apis.md
     - name: Защита приложений с помощью пакета SDK для приложений Intune
       href: app-sdk.md
       items:
