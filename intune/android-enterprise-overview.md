@@ -15,12 +15,12 @@ ms.assetid: 2cc3c960-1fdd-47ca-a693-420d47b403de
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9c3184ff01252d2f53b5bfcce286df3424da23c2
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: ecbc15c4888ae42c34c5ff9f488d639fc321853e
+ms.sourcegitcommit: e4832ea81b9a707a6ad0699a18c8b3988413c283
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37909173"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279412"
 ---
 # <a name="manage-android-work-profile-devices-with-intune"></a>Управление устройствами с рабочим профилем Android в Intune
 
@@ -66,7 +66,7 @@ Intune предоставляет шаблоны конфигурации для
 
 Поддержка VPN аналогична профилям Android VPN. Для управления Android для бизнеса доступны те же поставщики VPN и базовая конфигурация, с двумя различиями:
 
--  **VPN для рабочего профиля** — VPN-подключения доступны только приложениям, развернутым в рабочий профиль. Использовать VPN-подключение могут только приложения, управляемые Android для бизнеса. Личные приложения, установленные на устройстве, не могут использовать управляемое VPN-подключение. Дополнительные сведения см. в разделе [Параметры VPN Android для бизнеса](vpn-settings-android.md#android-work-profile-device-vpn-settings).
+-  **VPN для рабочего профиля** — VPN-подключения доступны только приложениям, развернутым в рабочий профиль. Использовать VPN-подключение могут только приложения, управляемые Android для бизнеса. Личные приложения, установленные на устройстве, не могут использовать управляемое VPN-подключение. Дополнительные сведения см. в разделе [Параметры VPN Android для бизнеса](vpn-settings-android.md#android-for-work-vpn-settings).
 
 -  **VPN для отдельных приложений** — VPN для отдельных приложений можно настроить в Intune, если поставщик VPN поддерживает:
     - настройку VPN для отдельного приложения;
