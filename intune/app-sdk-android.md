@@ -5,7 +5,7 @@ keywords: Пакет SDK
 author: Erikre
 manager: dougeby
 ms.author: erikre
-ms.date: 05/16/2018
+ms.date: 07/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: 0100e1b5-5edd-4541-95f1-aec301fb96af
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: ac85478abed049487c028c58637e7937876d2198
-ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
+ms.openlocfilehash: 87333610380ef34e1d832694a30bfe97388bcb62
+ms.sourcegitcommit: e6013abd9669ddd0d6449f5c129d5b8850ea88f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34449876"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "39254405"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -463,7 +463,20 @@ public interface MAMNotificationReceiver {
 
 При необходимости можно указать Authority и NonBrokerRedirectURI.
 
-Группа SDK Intune запросит идентификатор вашего приложения (идентификатор клиента). Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Дополнительные сведения о регистрации приложения в Azure AD см. [здесь](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications). С группой Intune SDK можно связаться по адресу msintuneappsdk@microsoft.com.
+Зарегистрируйте приложение в Azure AD, выполнив следующие действия.
+
+На портале Azure:
+1.  Перейдите к колонке **Azure Active Directory**.
+2.  Перейдите к настройке **регистрации приложения**.
+3.  В разделе **Параметры** под заголовком **Доступ через API** выберите **Требуемое разрешение**. 
+4.  Нажмите кнопку **+ Добавить**.
+5.  Щелкните **Выбор API**. 
+6.  В поле поиска введите **Управление мобильными приложениями (Майкрософт)**.
+7.  Выберите **Управление мобильными приложениями (Майкрософт)** в списке API и щелкните "Выбрать".
+8.  Выберите **чтение и запись данных управления приложениями пользователя**.
+9.  Нажмите кнопку **Готово**.
+
+Дополнительные сведения о регистрации приложения в Azure AD см. [здесь](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications). 
 
 Кроме того, ознакомьтесь с требованиями для [условного доступа](#conditional-access) ниже.
 
@@ -1418,7 +1431,7 @@ public interface MAMAppConfig {
 > Преимущества **регистрации по умолчанию** включают в себя упрощенный способ получения политики из службы APP-WE для приложения на устройстве.
 
 ### <a name="general-requirements"></a>Общие требования
-* Команда SDK Intune запросит идентификатор вашего приложения. Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Связаться с командой SDK Intune можно по электронной почте: msintuneappsdk@microsoft.com.
+* Убедитесь, что ваше приложение зарегистрировано в службе управления мобильными приложениями Intune, следуя инструкциям из статьи о [распространенных конфигурациях ADAL (часть 2)](https://docs.microsoft.com/en-us/intune/app-sdk-android#common-adal-configurations).
 
 ### <a name="working-with-the-intune-sdk"></a>Работа с пакетом SDK Intune
 Эти инструкции распространяются на всех разработчиков приложений для Android и Xamarin, которые нуждаются в обязательном применении политик защиты приложений Intune на устройстве конечного пользователя.

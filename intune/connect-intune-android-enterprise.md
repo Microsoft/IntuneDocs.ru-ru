@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0152d0cb7af418b500c1ac5991f2356bd2e19965
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 1b1f54486ab2c3d98e663cfddded346eb61662ae
+ms.sourcegitcommit: e4832ea81b9a707a6ad0699a18c8b3988413c283
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37909088"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279429"
 ---
 # <a name="connect-your-intune-account-to-your-android-enterprise-account"></a>Подключение учетной записи Intune к учетной записи Android для бизнеса
 
@@ -51,7 +51,7 @@ ms.locfileid: "37909088"
 
 ## <a name="disconnect-your-android-enterprise-administrative-account"></a>Отключение учетной записи администратора Android для бизнеса
 
-Вы можете отключить регистрацию и управление Android для бизнеса. Если вы нажмете **Отключить** в консоли администрирования Intune, все зарегистрированные устройства с рабочим профилем и киоски Android будут удалены из регистрации. При этом также удаляется связь между учетной записью Android для бизнеса и Intune.
+Вы можете отключить регистрацию и управление Android для бизнеса. Для этого необходимо сначала прекратить использование любого зарегистрированного устройства с рабочим профилем Android. Затем, если вы нажмете **Отключить** в консоли администрирования Intune, все зарегистрированные устройства с рабочим профилем и киоски Android будут удалены из регистрации. При этом также удаляется связь между корпоративной учетной записью Android и Intune.
 
 1. Войдите с правами администратора Intune на [портал Azure](https://portal.azure.com) и выберите **Все службы** > **Мониторинг и управление** > **Intune**.
 2. Выберите **Регистрация устройств** > **Регистрация Android** > **Управляемый Google Play** > **Отключить**.

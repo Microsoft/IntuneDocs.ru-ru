@@ -1,34 +1,39 @@
 ---
-title: Импорт параметров Wi-Fi для устройств с Windows 8.1 или более поздней версии
-titleSuffix: Microsoft Intune
-description: Импорт параметров Wi-Fi из Windows в профиль Wi-Fi в Intune.
+title: Импорт параметров Wi-Fi для устройств Windows в Microsoft Intune в Azure | Документы Майкрософт
+description: Экспортируйте параметры Wi-Fi с устройства Windows в формате XML с помощью netsh wlan. Затем импортируйте этот файл в Intune, чтобы создать профиль Wi-Fi для устройств под управлением Windows 8.1, Windows 10 и Windows Holographic for Business.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/02/2018
+ms.date: 07/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 157416738e4607d5022f1c3c7ed8251a8e32fe3e
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 6ce5cdd9509ed3407491714ccfa853613eb43973
+ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31834022"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39321141"
 ---
-# <a name="import-wi-fi-settings-for-windows-81-and-later-devices-in-microsoft-intune"></a>Импорт параметров Wi-Fi на устройства с ОС Windows 8.1 и более поздних версий в Microsoft Intune
+# <a name="import-wi-fi-settings-for-windows-devices-in-intune"></a>Импорт параметров Wi-Fi для устройств Windows в Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-В случае устройств под управлением Windows 8.1, Windows 10 для настольных компьютеров или мобильных устройств и Windows Holographic for Business можно импортировать профиль конфигурации Wi-Fi, который ранее был экспортирован в файл.
+Для устройств под управлением Windows можно импортировать профиль конфигурации Wi-Fi, который ранее был экспортирован в файл. **Для Windows 10 и более поздних версий вы можете [создать профиль Wi-Fi](wi-fi-settings-windows.md) непосредственно в Intune**.
+
+Применяется к:  
+- Windows 8.1 и более поздние версии
+- Windows 10 и более поздней версии
+- Windows 10 Desktop и Mobile
+- Windows Holographic for Business
 
 ## <a name="export-wi-fi-settings-from-a-windows-device"></a>Экспорт параметров Wi-Fi с устройства Windows
 
-В Windows используйте служебную программу **netsh wlan**, чтобы экспортировать существующий профиль Wi-Fi в XML-файл для чтения в Intune. Для использования профиля ключ необходимо экспортировать в виде обычного текста.
+В Windows используйте **netsh wlan**, чтобы экспортировать существующий профиль Wi-Fi в XML-файл для чтения в Intune. Для использования профиля ключ необходимо экспортировать в виде обычного текста.
 
 На компьютере Windows, где уже установлен необходимый профиль Wi-Fi, выполните приведенные ниже действия.
 
