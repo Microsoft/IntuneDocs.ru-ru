@@ -5,19 +5,19 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 5/23/2018
+ms.date: 6/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a4bbc89f66b49fe6a5c4ff8595c5913583288e0f
-ms.sourcegitcommit: d1420a5d2d2c1da40cc4dac165ca9173c22323d3
+ms.openlocfilehash: 42e0798b0c2941d9ea45e75b367b69bc7dab548f
+ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34803845"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39321226"
 ---
 # <a name="device-restriction-for-windows-10-and-newer-settings-in-intune"></a>Параметры ограничений устройств Windows 10 (и более поздних версий) в Intune
 В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 10.
@@ -252,7 +252,7 @@ ms.locfileid: "34803845"
 
 ## <a name="kiosk-preview---obsolete"></a>Киоск (предварительная версия) — устарело
 
-Эти параметры перемещаются и будут удалены в следующем выпуске. Чтобы использовать новые параметры, см. раздел [Параметры киоска в Windows 10 и более поздних версий](kiosk-settings.md).
+Эти параметры доступны только для чтения и не могут быть изменены. Сведения о включении полноэкранного режима см. в разделе [Параметры киоска для Windows 10 и более поздних версий](kiosk-settings.md).
 
 На устройстве киоска обычно выполняется одно приложение или конкретный набор приложений. Пользователи не могут получать доступ к компонентам или функциям на устройстве вне приложения киоска.
 

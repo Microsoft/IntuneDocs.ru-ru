@@ -1,22 +1,23 @@
 ---
 title: Ограничения для устройств с Windows Holographic for Business в Microsoft Intune в Azure | Документы Майкрософт
-description: Сведения о настройке параметров ограничения для устройств с Windows Holographic for Business в Microsoft Intune, включая параметры для геолокации, паролей, установки приложений из Магазина приложений, файлов cookie и всплывающих окон в Microsoft Edge, Защитника Windows, системы поиска, облака и хранилища, подключения по Bluetooth, системного времени, данных об использовании и отмены регистрации в Azure.
+description: Сведения о настройке параметров ограничения для устройств с Windows Holographic for Business в Microsoft Intune, включая параметры для геолокации, паролей, установки приложений из Магазина приложений, файлов cookie и всплывающих окон в Edge, Защитника Windows, системы поиска, облака и хранилища, подключения по Bluetooth, системного времени, данных об использовании и отмены регистрации в Azure.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 5/1/2018
+ms.date: 6/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e8a1abb4229b3e6b4c91cfd49b4f66dbe739ea7d
-ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
+ms.openlocfilehash: 9d7f54ce0e288025a4a7f0f45bf5b10de5323021
+ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39321760"
 ---
 # <a name="device-restriction-settings-for-windows-holographic-for-business-in-intune"></a>Параметры ограничений для устройств с Windows Holographic for Business в Intune
 
@@ -68,7 +69,9 @@ ms.lasthandoff: 05/03/2018
 
 - **Изменение названия устройства.** Запрещает пользователю изменять параметры даты и времени устройства.
 
-## <a name="kiosk"></a>Киоск
+## <a name="kiosk---obsolete"></a>Киоск — устаревший
+
+Эти параметры доступны только для чтения и не могут быть изменены. Сведения о настройке режима киоска см. в разделе [Параметры киоска](kiosk-settings.md#windows-holographic-for-business).
 
 Как правило, на устройстве для киоска работает определенное приложение. Пользователи не могут получить доступ к компонентам или функциям на устройстве вне приложения киоска.
 

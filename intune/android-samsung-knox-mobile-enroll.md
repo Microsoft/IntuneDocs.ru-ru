@@ -15,12 +15,12 @@ ms.assetid: 30df0f9e-6e9e-4d75-a722-3819e33d480d
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d5ac976e07c98fae0941168cc94b5afc5ca09616
-ms.sourcegitcommit: 8be5f29107d882c3ecf3dc0ce718a2423f91ce9a
+ms.openlocfilehash: 0ada3be91c3b2c15e33e51449678212286362dbf
+ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964714"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39321192"
 ---
 # <a name="automatically-enroll-android-devices-by-using-samsungs-knox-mobile-enrollment"></a>Автоматическая регистрация устройств Android с помощью Samsung Knox Mobile Enrollment
 
@@ -32,9 +32,8 @@ ms.locfileid: "36964714"
     1. [Создайте профиль MDM.](#create-mdm-profile)
     2. [Добавьте устройства.](#add-devices)
     3. [Назначьте устройствам профиль MDM.](#assign-an-mdm-profile-to-devices)
-2. На портале Azure [определите устройства как корпоративные](#identify-devices-as-corporate-owned).
-3. На портале Knox [настройте вход для пользователей](#configure-how-end-users-sign-in).
-4. [Распределите устройства](#distribute-devices).
+2. На портале Knox [настройте вход для пользователей](#configure-how-end-users-sign-in).
+3. [Распределите устройства](#distribute-devices).
 
 
 Список идентификаторов устройств (серийные номера и IMEI) автоматически добавляется на портал Knox при приобретении устройств у авторизованных торговых посредников, участвующих в программе развертывания Knox.
@@ -43,7 +42,7 @@ ms.locfileid: "36964714"
 ## <a name="prerequisites"></a>Предварительные условия
 
 Чтобы зарегистрировать устройства в Intune с помощью KME, сначала зарегистрируйте компанию на портале Samsung Knox. Для этого сделайте следующее:
-1.  [Убедитесь в доступности KME в вашем регионе.](https://www.samsungknox.com/en/solutions/it-solutions/knox-configure/available-countries) KME предоставляется более чем в 55 странах. Убедитесь, что ваша страна или регион развертывания поддерживаются.
+1.  [Убедитесь в доступности KME в вашем регионе.](https://www.samsungknox.com/en/solutions/it-solutions/knox-configure/available-countries) KME предоставляется более чем в 55 странах. Убедитесь, что поддерживается ваша страна развертывания.
 
 2.  [Поддерживаемые устройства.](https://www.samsungknox.com/en/knox-platform/supported-devices/2.4+) KME предоставляется на всех устройствах Samsung с минимальной версией Knox 2.4.
 
@@ -78,22 +77,6 @@ ms.locfileid: "36964714"
 
 ## <a name="assign-an-mdm-profile-to-devices"></a>Назначение устройствам профиля MDM
 Перед регистрацией нужно назначить добавленным устройствам профиль MDM на портале Knox. [Сведения о настройке устройств см. в руководстве пользователя по Samsung Knox Enrollment](https://docs.samsungknox.com/KME-Getting-Started/Content/configure-devices.htm).
-
-## <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
-Вы можете определить устройства, зарегистрированные с помощью KME, как корпоративные. Это нужно сделать до регистрации устройств. Так вы сможете выполнять дополнительные задачи управления и собирать дополнительные сведения, включая полный телефонный номер и данные инвентаризации приложений.
-
-Чтобы определить устройства как корпоративные, сделайте следующее:
-
-1. Экспортируйте список устройств с портала Knox в CSV-файл.
-
-2. Добавьте в CSV-файл IMEI или серийный номер, как указано [здесь](https://docs.microsoft.com/en-us/intune/corporate-identifiers-add#identify-corporate-owned-devices-with-imei-or-serial-number).
-
-3. На портале Azure передайте CSV-файл, последовательно выбрав **Регистрация устройства** > **Идентификаторы корпоративных устройств** > **Добавить**.
-
-Теперь указанные регистрируемые устройства будут отмечены как корпоративные.
-
-> [!NOTE]
->Intune автоматически назначает устройствам, зарегистрированным с помощью учетной записи [диспетчера регистрации устройств](https://docs.microsoft.com/en-us/intune/device-enrollment-manager-enroll), статус корпоративных.
 
 ## <a name="configure-how-end-users-sign-in"></a>Настройка входа для пользователей
 

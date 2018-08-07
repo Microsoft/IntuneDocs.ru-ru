@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 06/25/2018
+ms.date: 07/25/2018
 ms.topic: get-started-article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f241c5bece72b44a6bd3c9047b5997bcd8879ec5
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 8bb03becae1f28a3f5490a53576d5183c0b3ffaa
+ms.sourcegitcommit: 0d08daa162212e6cdd8a6ee3ad7ed42c6e6824e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905195"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39335832"
 ---
 # <a name="what-are-microsoft-intune-device-profiles"></a>Что такое профили устройств в Microsoft Intune?
 
@@ -113,6 +113,13 @@ Microsoft Intune включает в себя параметры и функци
 - iOS
 - macOS
 - Windows 8.1 (только импорт)
+
+## <a name="esim-cellular---public-preview"></a>Сотовая связь eSIM (общедоступная предварительная версия)
+
+[Профили сотовой связи eSIM](esim-device-configuration.md) дают возможность настраивать тарифные планы сотовой сети на управляемых устройствах для доступа к Интернету и данным.  После получения кодов активации от оператора мобильной связи можно использовать Intune для импорта этих кодов, а затем назначить их для устройств, поддерживающих eSIM.
+
+Эта функция поддерживает:
+- Windows 10 Fall Creators Update и более поздние версии
 
 ## <a name="education"></a>Образование
 [Параметры образования — Windows 10](education-settings-configure.md) — настройка параметров для [приложения Windows Take a Test](https://education.microsoft.com/gettrained/win10takeatest). После настройки этих параметров никакие другие приложения не смогут работать на устройстве до завершения теста.
