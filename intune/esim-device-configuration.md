@@ -5,19 +5,19 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 7/25/2018
+ms.date: 7/31/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ac3bbb4a32e86d756835d136cd3923676f022a7b
-ms.sourcegitcommit: 0d08daa162212e6cdd8a6ee3ad7ed42c6e6824e4
+ms.openlocfilehash: 45d41f02fdfff7179dbd43f4d2afdac3337f8b7f
+ms.sourcegitcommit: e8aaa0955d13fa6c9d5f35a730ad06509ce88d0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39336083"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39400289"
 ---
 # <a name="configure-esim-cellular-profiles-in-intune---public-preview"></a>Настройка профилей сотовой связи eSIM в Intune (общедоступная предварительная версия)
 
@@ -26,7 +26,7 @@ ms.locfileid: "39336083"
 
 ## <a name="introduction"></a>Введение
 
-eSIM — встроенная SIM-карта, которая позволяет подключаться к Интернету через функцию передачи данных по сотовой сети на устройстве с поддержкой eSIM, таком как [Surface LTE Pro](https://www.microsoft.com/surface/business/surface-pro). Благодаря eSIM не нужно приобретать SIM-карту у оператора мобильной связи и можно быстро переключаться между операторами и тарифными планами.
+eSIM — встроенная SIM-карта, которая позволяет подключаться к Интернету через функцию передачи данных по сотовой сети на устройстве с поддержкой eSIM, таком как [Surface LTE Pro](https://www.microsoft.com/surface/business/surface-pro). С eSIM не нужно получать SIM-карту у своего оператора мобильной связи. Пользователи, путешествующие по всему миру, могут также переключаться между мобильными операторами и тарифными планами и всегда оставаться на связи.
 
 Предположим, у вас есть тарифный план сотовой связи для работы и еще один тарифный план другого мобильного оператора для личного пользования. В командировке вы можете получить доступ к Интернету через операторов мобильной связи с тарифными планами в этом регионе.
 

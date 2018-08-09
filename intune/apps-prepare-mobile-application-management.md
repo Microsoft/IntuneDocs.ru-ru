@@ -4,8 +4,8 @@ description: Сведения этого раздела помогут реши�
 keywords: ''
 author: erikre
 ms.author: erikre
-manager: angrobe
-ms.date: 05/17/2018
+manager: dougeby
+ms.date: 07/30/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 89a8f29e2e31cf59ed237cbfae5c557f60bd8dfa
-ms.sourcegitcommit: 2198a39ae48beca5fc74316976bc3fc9db363659
+ms.openlocfilehash: 351282634d6c6e087456e61e9fd967b70f9cf515
+ms.sourcegitcommit: c109ea6e9b7104630cd767aa27c5f7789286a906
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38225194"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39450796"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -48,8 +48,8 @@ ms.locfileid: "38225194"
 
 |**Инструмент упаковки приложений** | **Xamarin** |**Cordova** |
 |------|----|----|
-|**iOS** |Да|Да|
-|**Android**| Предварительная версия |Да|
+|**iOS** |Нет, используйте [привязки Xamarin из пакета SDK для приложений Intune](app-sdk-xamarin.md).|Да|
+|**Android**|Нет, используйте [привязки Xamarin из пакета SDK для приложений Intune](app-sdk-xamarin.md).|Да|
 
 ## <a name="intune-app-sdk"></a>Пакет SDK для приложений Intune
 Пакет SDK для приложений предназначен главным образом для клиентов, имеющих приложения в Apple App Store или Магазине Google Play и стремящихся управлять ими с помощью Intune. Однако преимуществами интеграции пакета SDK может воспользоваться любое приложение, даже бизнес-приложение.
