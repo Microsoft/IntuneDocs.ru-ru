@@ -98,7 +98,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 ## <a name="windows-defender-smartscreen-settings"></a>Параметры SmartScreen Защитника Windows
 
-Поддерживается в следующих выпусках Windows 10 с установленным Edge:
+Поддерживается в следующих выпусках Windows 10 с установленным Microsoft Edge:
 - Корневая
 - Professional
 - Business

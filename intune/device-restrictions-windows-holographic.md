@@ -1,6 +1,6 @@
 ---
 title: Ограничения для устройств с Windows Holographic for Business в Microsoft Intune в Azure | Документы Майкрософт
-description: Сведения о настройке параметров ограничения для устройств с Windows Holographic for Business в Microsoft Intune, включая параметры для геолокации, паролей, установки приложений из Магазина приложений, файлов cookie и всплывающих окон в Edge, Защитника Windows, системы поиска, облака и хранилища, подключения по Bluetooth, системного времени, данных об использовании и отмены регистрации в Azure.
+description: Сведения о настройке параметров ограничения для устройств с Windows Holographic for Business в Microsoft Intune, включая параметры для геолокации, паролей, установки приложений из Магазина приложений, файлов cookie и всплывающих окон в Microsoft Edge, Защитника Windows, системы поиска, облака и хранилища, подключения по Bluetooth, системного времени, данных об использовании и отмены регистрации в Azure.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
