@@ -15,12 +15,12 @@ ms.assetid: 791ed23f-bd13-4ef0-a3dd-cd2d7332c5cc
 ms.reviewer: dougeby
 ms.suite: ems
 /ms.custom: intune-azure
-ms.openlocfilehash: 2a3c4484eb80fd753d00c851d3e5dc6b5f48347a
-ms.sourcegitcommit: d3375505a5869c0392d2bc0f48b975c10366f586
+ms.openlocfilehash: ff2774b76bceeeeaecec7a4dc74876b11706d574
+ms.sourcegitcommit: 56a8a3c8974f54f0f9ecc1e5b43581502ecc348e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39362064"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39614519"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -57,6 +57,11 @@ Microsoft Intune позволяет развернуть бизнес-прило
 
 #### <a name="edit-your-office-365-pro-plus-app-deployments----2150145---"></a>Изменение развернутых приложений Office 365 профессиональный плюс <!-- 2150145 -->
 Возможности администратора Microsoft Intune по изменению развернутых приложений Office 365 профессиональный плюс расширены. Кроме того, вам больше не нужно удалять развертывания, чтобы изменить какие-либо свойства набора. На портале Azure выберите **Microsoft Intune** > **Мобильные приложения** > **Приложения**. В списке приложений выберите набор Office 365 профессиональный плюс.  
+
+
+#### <a name="updated-intune-app-sdk-for-android-is-now-available----2744271--"></a>Доступен обновленный пакет SDK приложений Intune для Android <!-- 2744271-->
+
+Доступна обновленная версия пакета SDK приложений Intune для Android, поддерживающая выпуск Android P. Если вы как разработчик приложения используете пакет SDK приложений Intune для Android, установите обновленную версию этого пакета SDK, чтобы функции Intune в приложениях Android работали должным образом на устройствах с Android P. В этой версии пакета SDK для приложений Intune предоставлен встроенный подключаемый модуль, который обновляет пакет SDK. Вам не придется повторно создавать существующий интегрированный код. Дополнительные сведения см. в разделе о [пакете SDK Intune для Android](https://github.com/msintuneappsdk/ms-intune-app-sdk-android). Если вы используете устаревшую эмблему для Intune, мы рекомендуем использовать значок портфеля. Сведения о фирменной символике см. в [этом репозитории GitHub](https://github.com/msintuneappsdk/intune-app-partner-badge).
 
 
 ### <a name="device-configuration"></a>Конфигурация устройства
