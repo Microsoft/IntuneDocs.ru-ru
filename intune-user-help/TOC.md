@@ -4,8 +4,6 @@
 
 ## [Какие сведения моей организации можно увидеть с помощью Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 
-## [Сброс устройства](what-happens-if-you-reset-your-device-cpwebsite.md)
-
 ## [Обновление пароля](password-does-not-meet-it-administrator-requirements.md)
 
 ## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)
@@ -105,8 +103,8 @@
 ## [Использование устройства с macOS](using-your-macos-device-with-intune.md)
 ### [Что происходит при регистрации устройства с macOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
 ### [Регистрация устройства macOS](enroll-your-device-in-intune-macos-cp.md)
-### [Отмена регистрации устройства с macOS](unenroll-your-device-from-intune-macos.md)
-
+### [Регистрация устройства macOS, предоставленного организацией](enroll-company-device-macos.md)  
+### [Отмена регистрации устройства с macOS](unenroll-your-device-from-intune-macos.md)  
 ### [Решение распространенных проблем с macOS](troubleshoot-your-device-macos.md)
 #### [Моя версия macOS еще не поддерживается](your-macos-version-isnt-yet-supported.md)
 #### [Обновление устройства с macOS](you-need-to-update-your-macos-device.md)
