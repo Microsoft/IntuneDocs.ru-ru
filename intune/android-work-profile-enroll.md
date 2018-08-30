@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 095985bad8f7e35a953383fcce8296716723b8bc
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: fc1943781dcf95209b575cdb6e36d5065275626f
+ms.sourcegitcommit: 40b1d82df99f09a75a17065cdd0e84d8038f460a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37909071"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "40255083"
 ---
 # <a name="set-up-enrollment-of-android-work-profile-devices"></a>Настройка регистрации устройств с рабочим профилем Android
 
@@ -34,7 +34,7 @@ Intune помогает разделить рабочие и личные дан
 2. Укажите параметры регистрации рабочего профиля Android. Рабочие профили Android [поддерживаются только на некоторых устройствах Android](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012%20style=%22target=new_window%22). Любое устройство, которое поддерживает рабочие профили Android, также поддерживает обычное управление Android. Intune позволяет указать, как следует управлять устройствами, которые поддерживают рабочие профили Android, в разделе [Ограничения регистрации](enrollment-restrictions-set.md).
     - **Блокируется (по умолчанию)**: все устройства Android, включая устройства, поддерживающие рабочие профили Android, регистрируются как обычные устройства Android.
     - **Разрешить**: все устройства, поддерживающие рабочие профили Android, регистрируются в качестве устройств с рабочим профилем Android. Устройство Android, которое не поддерживает рабочие профили Android, регистрируется как обычное устройство Android.
-3. [Расскажите пользователям, как регистрировать устройства](/intune-user-help/enroll-your-device-in-intune-android.md).
+3. [Расскажите пользователям, как регистрировать устройства](/intune-user-help/enroll-your-device-in-intune-android).
 
 
 Если вы хотите зарегистрировать устройства в рабочих профилях Android, но они уже зарегистрированы как обычные устройства Android, нужно сначала отменить их регистрацию, а затем выполнить ее повторно.
