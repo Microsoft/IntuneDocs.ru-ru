@@ -400,6 +400,8 @@ items:
         href: endpoint-protection-macos.md
       - name: Windows 10
         href: endpoint-protection-windows-10.md
+    - name: Настройка защиты идентификации
+      href: identity-protection-configure.md
     - name: Параметры киоска Android
       href: android-kiosk-settings.md
     - name: Параметры киоска Android для бизнеса
@@ -608,6 +610,8 @@ items:
       href: windows-hello.md
   - name: Управление ролями
     href: role-based-access-control.md
+  - name: Теги области
+    href: scope-tags.md
   - name: Управление версиями операционной системы
     href: manage-os-versions.md
   - name: Управление обновлениями программного обеспечения
@@ -798,9 +802,9 @@ items:
       href: troubleshoot-exchange-connector.md
   - name: Глоссарий
     href: intune-glossary.md
-ms.openlocfilehash: 696173c0e1ecc8121637139ce4ada0b497ab7506
-ms.sourcegitcommit: 11cad61c565c474a8d653181675cc1109d562626
+ms.openlocfilehash: a3e314760dbbfec82ce27b3bec12b21ab7ca5952
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241768"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43313587"
