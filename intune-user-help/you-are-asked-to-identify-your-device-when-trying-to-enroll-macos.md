@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ec853bce004c70b1a833218f2ef9f4c14d6bb2b7
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 1cf4b5eb051775a289e727ec6bc03c5af8734b6f
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31032086"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43147254"
 ---
 # <a name="you-need-to-identify-your-device-when-youre-trying-to-enroll"></a>Вам необходимо идентифицировать устройство при попытке его зарегистрировать
 
@@ -32,4 +32,4 @@ ms.locfileid: "31032086"
 2. Нажмите кнопку **Продолжить**.
 3. Введите четыре последних символа серийного номера устройства, чтобы помочь Intune подтвердить его регистрацию. Чтобы найти серийный номер, обратитесь к разделу [Как найти серийный номер на устройстве?](how-do-i-find-the-serial-number-on-my-device-macos.md)
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

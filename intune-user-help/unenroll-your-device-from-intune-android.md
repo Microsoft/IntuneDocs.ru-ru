@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ec3c0a1c8ce4e04f4d23fb01e7c2525d8f2eed5b
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 683b5ec7b07d7c270ea30ac438e7fc839b13d5fc
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31018368"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43150350"
 ---
 # <a name="how-to-remove-your-android-device-from-intune"></a>Удаление устройства Android из Intune
 
@@ -49,4 +49,4 @@ ms.locfileid: "31018368"
 -   Удалите данные приложения, выбрав "Приложения", щелкнув приложение и нажав кнопку "Очистить данные".
 -   Удалите папку \storage\internal storage\Android\data\com.microsoft.windowsintune.companyportal.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

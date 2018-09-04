@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 6004be5fd38efcc3ec6d325a562fc2a23267ee30
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 1c0600dd17b28506e118cdaef0421c8db3b9c86e
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31031725"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43147527"
 ---
 # <a name="enroll-your-windows-phone-81-device-in-intune"></a>Регистрация устройства Windows Phone 8.1 в Intune
 
@@ -86,4 +86,4 @@ ms.locfileid: "31031725"
 
 Если служба поддержки вашей компании настроила установку корпоративного портала во время регистрации, корпоративный портал появится в списке приложений.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

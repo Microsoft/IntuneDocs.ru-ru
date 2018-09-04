@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 9805dfdba67299a5a1cd9433bbc061f8bd96bc9e
-ms.sourcegitcommit: af0cc27b05bf0743f7d0970f5f3822f0aab346af
+ms.openlocfilehash: 8bc441dd07191ec3eb1280330be380ca425f53cc
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2018
-ms.locfileid: "34190525"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43150852"
 ---
 # <a name="submit-errors-to-the-right-people-for-your-managed-macos-device"></a>Отправка сведений об ошибках с управляемого устройства macOS соответствующим специалистам
 
@@ -48,4 +48,4 @@ ms.locfileid: "34190525"
 2.  Щелкните **Справка** > **Отправить диагностический отчет**.  Отправив журналы, вы получите идентификатор инцидента. Скопируйте и сохраните его.
 3.  Обратитесь в службу поддержки Майкрософт с помощью <a href="mailto:IntuneCPiOSfeedback@microsoft.com?subject=My Company Portal App Closed Unexpectedly&body=Paste your incident ID and describe the incident here.">этого шаблона</a>.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

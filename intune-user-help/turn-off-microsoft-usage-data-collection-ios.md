@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 2c806edbf3855bd23a470eefb6c7be1af65d3211
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 4682269cf419fb3be19921e78e2aa7e762f0303d
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31015801"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43146583"
 ---
 # <a name="how-to-turn-off-microsoft-data-collection"></a>Отключение сбора данных корпорацией Майкрософт
 
@@ -30,4 +30,4 @@ ms.locfileid: "31015801"
 
 Чтобы отключить сбор данных об использовании на устройстве iOS, перейдите на страницу **Параметры**, коснитесь **Корпоративный портал**, а затем отключите параметр **Данные об использовании**. Для устройств macOS откройте меню **корпоративного портала** > **Предпочтения**, а затем снимите флажок **разрешить корпорации Майкрософт собирать данные об использовании**.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

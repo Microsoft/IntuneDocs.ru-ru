@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 51ef4e1e89c54587535f3ede7e8f406f54763bc9
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 88caf56a2483690f9130818191b04f412a7ed641
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31015070"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43146843"
 ---
 # <a name="check-compliance-on-your-android-device"></a>Проверка соответствия на устройстве Android
 
@@ -32,4 +32,4 @@ ms.locfileid: "31015070"
 
 2. Коснитесь пункта **Проверить соответствие**.
 
-Если не удается сбросить утерянное или украденное устройство, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+Если не удается сбросить утерянное или украденное устройство, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

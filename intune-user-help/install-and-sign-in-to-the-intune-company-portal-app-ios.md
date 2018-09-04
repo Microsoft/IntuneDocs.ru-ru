@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 071ed6ca2889788c607625478f4f9d3d20e19662
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 984c9212a4aa3221a4de5e02d96f912d800e9490
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31015155"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43146381"
 ---
 # <a name="install-and-sign-in-to-the-company-portal-app"></a>Установка приложения корпоративного портала и вход в него
 
@@ -38,4 +38,4 @@ ms.locfileid: "31015155"
 
     Если вы вошли в приложение корпоративного портала первый раз и ваша организация или учебное заведение используют Intune, вам будет предложено зарегистрировать устройство в Intune. Чтобы зарегистрироваться, выполните действия, описанные в статье [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md). Вы также можете [войти с помощью другого устройства](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#signing-in-from-another-device).
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

@@ -15,12 +15,12 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 6011e46a3176d55f35310292b55f4786d131f269
-ms.sourcegitcommit: 2198a39ae48beca5fc74316976bc3fc9db363659
+ms.openlocfilehash: bb565cdaf200e8bf7d3836fd921b0b5893734955
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38219835"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43150927"
 ---
 # <a name="your-password-does-not-meet-your-company-supports-requirements"></a>Ваш пароль не соответствует требованиям службы поддержки вашей компании
 
@@ -33,7 +33,7 @@ ms.locfileid: "38219835"
 - [Задать или изменить секретный код устройства с Windows](set-or-change-your-password-windows.md)
 
 > [!NOTE]
-> Если вы не можете понять, как сделать пароль, соответствующий требованиям, обратитесь в службу поддержки вашей организации. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+> Если вы не можете понять, как сделать пароль, соответствующий требованиям, обратитесь в службу поддержки вашей организации. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
 
 ## <a name="pin-or-password-issue-descriptions"></a>Описания проблем с ПИН-кодом или паролем
 

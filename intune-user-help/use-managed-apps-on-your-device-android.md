@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ebb79bc3405e9ea0dd38c24b86a4c9020760c895
-ms.sourcegitcommit: 2773f388f50654366197a95a6838306f70fc18b8
+ms.openlocfilehash: 1c57c8bfa9f2727ec201acb506f5a41327fddc75
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
-ms.locfileid: "31442481"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43146659"
 ---
 # <a name="use-managed-apps-on-your-android-device"></a>Использование управляемых приложений на устройстве Android
 
@@ -70,4 +70,4 @@ ms.locfileid: "31442481"
 
 -   Microsoft Word, Excel и PowerPoint
 
-Для получения дополнительных сведений об управляемых приложениях на устройстве обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+Для получения дополнительных сведений об управляемых приложениях на устройстве обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

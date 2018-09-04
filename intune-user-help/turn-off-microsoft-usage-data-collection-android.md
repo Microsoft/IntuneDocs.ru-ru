@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 71d90baeb34f7bb0a60bb4ce4f08d2bddf5edcd2
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: d08dba92060fdf1dd72e34201dd88674d26f42ef
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31015767"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43147290"
 ---
 # <a name="turn-off-microsoft-usage-data-collection"></a>Отключение сбора данных об использовании корпорацией Майкрософт
 
@@ -30,4 +30,4 @@ ms.locfileid: "31015767"
 
 Если вы хотите отключить сбор этих данных на устройстве Android, выберите параметр **Данные об использовании** в приложении корпоративного портала.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

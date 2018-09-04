@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 86a41284b05d73e9cbf3833fa85757ca3cbf7f27
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: b1f303edec625be2b321e95952a5c8d00aa3254c
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31014016"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149973"
 ---
 # <a name="how-to-install-your-companys-virtual-private-network-vpn"></a>Установка виртуальной частной сети (VPN) компании
 
@@ -35,4 +35,4 @@ ms.locfileid: "31014016"
 3.  Коснитесь **Install corporate VPN profile** (Установить профиль VPN предприятия) и следуйте инструкциям на экране. Действия по установке могут несколько отличаться в зависимости поставщика VPN, используемого в вашей компании.
 
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

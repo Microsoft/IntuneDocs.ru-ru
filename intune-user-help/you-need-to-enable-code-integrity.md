@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 6a106220a2a51eeed7850ac967594818981afca4
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 7e63a8578779d6930c2691066cd784a18126b4a2
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31014951"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43150190"
 ---
 # <a name="you-need-to-enable-code-integrity"></a>Необходимо включить целостность кода
 
@@ -35,4 +35,4 @@ ms.locfileid: "31014951"
 
 Или ознакомьтесь с разделом "Чтобы снова включить безопасную загрузку, выполните следующие действия" статьи [Отключение безопасной загрузки](https://msdn.microsoft.com/library/windows/hardware/dn898540(v=vs.85).aspx), чтобы включить безопасную загрузку самостоятельно.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

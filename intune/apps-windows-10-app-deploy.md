@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/24/2018
+ms.date: 08/31/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ms.assetid: abebfb5e-054b-435a-903d-d1c31767bcf2
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0bffb0ab4003cc02ceddcd0199b951113ff1e4fd
-ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
+ms.openlocfilehash: 7508f2c2eca06ceacf203103ab2cad53abc39a65
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39321749"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347438"
 ---
 # <a name="windows-10-app-deployment-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
 В настоящее время Microsoft Intune поддерживает различные типы приложений и сценариев развертывания на устройствах Windows 10. Добавив приложение в Microsoft Intune, вы сможете назначить его пользователям и устройствам. Ниже приведены дополнительные сведения о поддерживаемых сценариях Windows 10. Кроме того, ниже приведены основные сведения, о которых необходимо помнить при развертывании приложений для Windows. 
 
-Бизнес-приложения (LOB) и приложения Microsoft Store для бизнеса поддерживаются на устройствах Windows 10. Расширения файлов для приложений Windows включают **MSI**, **APPX**, **APPXBUNDLE**, **MSIX** и **MSIXBUNDLE**.  
+Бизнес-приложения (LOB) и приложения Microsoft Store для бизнеса поддерживаются на устройствах Windows 10.
 
 > [!Note]
 > Минимальная необходимая версия обновления Windows 10 для развертывания приложений в контексте устройства — версия от [23 мая 2018 г. — KB4100403 (сборка ОС 17134.81)](https://support.microsoft.com/en-us/help/4100403/windows-10-update-kb4100403).

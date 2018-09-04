@@ -15,12 +15,12 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: c4a1ce01cf5d65b0bb0d6230972e5358dbe41854
-ms.sourcegitcommit: c1631ad8feba6c6fd03698ab20836b2e5d8a78d2
+ms.openlocfilehash: 7d67d5cc34dfb701f68763bd6265de009055f815
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2018
-ms.locfileid: "34073799"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43147544"
 ---
 # <a name="you-need-to-update-your-android-devices-operating-system"></a>Необходимо обновить операционную систему на устройстве Android
 
@@ -40,4 +40,4 @@ ms.locfileid: "34073799"
 
 
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

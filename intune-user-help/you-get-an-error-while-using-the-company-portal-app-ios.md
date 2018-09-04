@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a3e0ffd583d1709a9127dc346d0271578820a10e
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 874007e161f4271fc4faed9d939046c17e52ac7b
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31014866"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43147307"
 ---
 # <a name="you-get-an-error-while-using-the-company-portal-app"></a>Возникновение ошибки при использовании приложения корпоративного портала
 
@@ -34,4 +34,4 @@ ms.locfileid: "31014866"
 
 -   Находясь в приложении корпоративного портала, встряхните устройство, а затем нажмите **Электронная почта** при появлении предупреждения диагностики. Если при встряхивании устройства предупреждение не отображается, откройте раздел **Параметры** > **Корпоративный портал** и включите параметр **Жест встряхивания**.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

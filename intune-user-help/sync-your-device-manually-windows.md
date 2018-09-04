@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 04737d1e800094f21a8bdaf42047f8bce7f48e6a
-ms.sourcegitcommit: d3375505a5869c0392d2bc0f48b975c10366f586
+ms.openlocfilehash: 0a8a9de8d09c71fdf49b7565f1dd4a3114ef0c46
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39362030"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43150571"
 ---
 # <a name="sync-your-windows-device-manually"></a>Синхронизация устройства с Windows вручную.
 
@@ -151,4 +151,4 @@ Intune поддерживает синхронизацию вручную из �
 
     ![Выбор значка синхронизации](./media/wp81-3-sync-tap-sync-button.png)
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

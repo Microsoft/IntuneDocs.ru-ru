@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 6c41db425227733ac863a705881468b46089cc7f
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: dd6775967607824403fc7847a1e0ae4ca0659da8
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31013846"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43148118"
 ---
 # <a name="how-to-turn-off-microsoft-data-collection"></a>Отключение сбора данных корпорацией Майкрософт
 
@@ -30,4 +30,4 @@ ms.locfileid: "31013846"
 
 Если вы хотите отключить сбор этих данных на устройстве Windows, выберите параметр **Данные об использовании** в приложении корпоративного портала.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

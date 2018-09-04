@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 390a236cf8eebae209c81b53d629cbd3f83899f8
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 8c1806d8d35dd2a6e16f1041e2c9f844f637a046
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31016770"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149877"
 ---
 # <a name="help-your-company-support-fix-device-issues-with-verbose-logging"></a>Оказание помощи службе поддержки компании в устранении проблем с устройством с помощью подробного ведения журналов
 
@@ -30,4 +30,4 @@ ms.locfileid: "31016770"
 
 Чтобы включить или отключить подробное ведение журналов, выполните вход в приложение корпоративного портала с помощью рабочих или учебных учетных данных, выберите **Параметры** и нажмите кнопку включения/отключения рядом с параметром **Подробное ведение журналов**.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
