@@ -17,15 +17,15 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: ed5acd3e5af2c26a8b13872d4663352886f4bc1f
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 202a7cc118a4eb8a2e15c1b0de32c27450d064db
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31015988"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149435"
 ---
 # <a name="your-macos-devices-operating-system-version-isnt-yet-supported"></a>Версия операционной системы используемого устройства macOS пока не поддерживается
 
 В условиях стремительного развития технологий ваше устройство может опережать по своим возможностям ту среду, которую была в состоянии протестировать служба поддержки вашей компании. Существует вероятность, что при использовании более новой версии macOS вы не сможете работать с некоторыми другими инструментами организации.
 
-Для решения этой проблемы вам потребуется обратиться в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+Для решения этой проблемы вам потребуется обратиться в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

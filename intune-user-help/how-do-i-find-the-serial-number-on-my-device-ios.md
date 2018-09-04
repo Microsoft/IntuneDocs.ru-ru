@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c81600b3a01017d18cd0ac9d17e1e03cca0ca783
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: af19ff602322dc74d16608c2a01620e2dbfaa414
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31014900"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149518"
 ---
 # <a name="how-do-i-find-the-serial-number-on-my-device"></a>Как найти серийный номер на устройстве?
 
@@ -32,4 +32,4 @@ ms.locfileid: "31014900"
 2. Коснитесь элемента __Параметры__ и затем __Общие__.
 3. Выберите __О программе__ и выполните прокрутку до элемента __Серийный номер__.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

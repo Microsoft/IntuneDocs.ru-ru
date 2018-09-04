@@ -18,12 +18,12 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 4c8d6ba4f6f8a9885b0000e0d7c60ba0594504b5
-ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
+ms.openlocfilehash: ffdf1d524dafa280a698ff25b5118394116cd72a
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/04/2018
-ms.locfileid: "30750869"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43148837"
 ---
 # <a name="the-limit-of-devices-you-can-register-has-been-reached"></a>Достигнуто предельное число устройств, которые можно зарегистрировать
 
@@ -33,4 +33,4 @@ ms.locfileid: "30750869"
 2. Удалите одно из устройств с [портала MyApps](https://myapps.microsoft.com) и выберите **Профиль** в правом верхнем углу страницы. 
 3. Обратитесь в службу поддержки вашей организации, чтобы узнать, можно ли увеличить число устройств, доступных вам для регистрации. 
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

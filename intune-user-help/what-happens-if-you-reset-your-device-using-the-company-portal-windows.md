@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: a7f10e178e88f871c297ed8bbac7ccbe9a802d0b
-ms.sourcegitcommit: 7f46e9990797bdfa669ccba2077721f1bc70c07e
+ms.openlocfilehash: e569b69f319cb3cf2868d86db2032b93d9bd8ab8
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/04/2018
-ms.locfileid: "30755494"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149129"
 ---
 # <a name="what-happens-if-you-reset-your-windows-device-using-the-company-portal"></a>Что происходит при сбросе устройства с Windows с помощью корпоративного портала?
 
@@ -34,4 +34,4 @@ ms.locfileid: "30755494"
 |Устройство может получать доступ только к электронной почте компании|**Windows Phone 8.1**<br />Устройство больше не будет отображаться на корпоративном портале, а ваша учетная запись электронной почты организации будет удалена вместе с несохраненной почтой.<br /><br />**Windows 7 или Windows Vista**<br />Сбросить настройки компьютера с ОС Windows 7 или более ранней версии, используемого только для электронной почты, нельзя.<br /><br />**Windows 8.1 и Windows 8**<br />Устройство больше не будет отображаться на корпоративном портале, а ваша учетная запись электронной почты организации будет удалена вместе с несохраненной почтой.|
 |ПК и ноутбуки|**Windows 8.1 и Windows 8**<br />Сбросить настройки компьютера с Windows 8 или Windows 8.1, используемого не только для электронной почты, нельзя.<br /><br />**Windows 7 или Windows Vista**<br />Сбросить настройки компьютера с ОС Windows 7 или более ранней версии нельзя.|
 
-Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

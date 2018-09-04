@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 3f257064aec862c1a7fd7f085769c95c13499cdb
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: ab2642127b635e4830b6cf7f5e8cd820c61904ba
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31016889"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149019"
 ---
 # <a name="you-need-to-enable-encryption"></a>Необходимо включить шифрование
 
@@ -30,4 +30,4 @@ ms.locfileid: "31016889"
 
 Это программа, которая шифрует диск и защищает данные. Выполните [эти инструкции](https://gallery.technet.microsoft.com/How-to-turn-on-BitLocker-34294d3d) по включению BitLocker на устройствах с Windows 10.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

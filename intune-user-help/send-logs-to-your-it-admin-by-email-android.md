@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: f924ece24fe38346c1abab8964270e4abe5abf76
-ms.sourcegitcommit: 4c06fa8e9932575e546ef2e880d96e96a0618673
+ms.openlocfilehash: efe251a9a347a179e56d496d761b0ea7f28ab66f
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32327693"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149606"
 ---
 # <a name="email-logs-to-your-company-support"></a>Отправка журналов по электронной почте в службу поддержки вашей компании
 
@@ -45,4 +45,4 @@ ms.locfileid: "32327693"
 3.  Выберите **Send Email & Upload Logs** (Отправить сообщение по электронной почте и отправить журналы).
 4.  После завершения отправки выберите приложение электронной почты. Откроется сообщение с идентификатором инцидента, указанным в поле "Тема". Введите описание возникшей проблемы.  
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

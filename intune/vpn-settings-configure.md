@@ -5,19 +5,19 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 08/25/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 78f50bc49f9d7a1261759ec5fb9a1cd7628c998c
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 97bddc1a183e3a546e76b346f53f80aba6a81c50
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905110"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43312879"
 ---
 # <a name="create-vpn-profiles-in-intune"></a>Создание профилей VPN в Intune
 
@@ -54,6 +54,7 @@ ms.locfileid: "37905110"
 |IKEv2|Нет|Нет|Нет|Нет|Нет|Да|
 |L2TP|Нет|Нет|Нет|Нет|Нет|Да|
 |PPTP|Нет|Нет|Нет|Нет|Нет|Да|
+|Zscaler|Нет|Да|Нет|Нет|Нет|Нет|
 |Пользовательская сеть VPN|Нет|да|Да|Нет|Нет|Нет|
 
 > [!IMPORTANT]

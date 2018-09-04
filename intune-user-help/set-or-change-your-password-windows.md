@@ -15,12 +15,12 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: fb2f225d47d1589e7bccbafc4a23f3cecec12897
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 2bd36a0327472f24a3a99b7975e736c9fa5385eb
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31018776"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149069"
 ---
 # <a name="make-your-device-safer-with-the-right-password"></a>Повысьте безопасность своего устройства с помощью надежного пароля
 
@@ -46,4 +46,4 @@ ms.locfileid: "31018776"
 3. Введите новый пароль в поле **Новый пароль** и повторно введите его в поле **Подтверждение пароля**.
 4. Выберите **Готово**.
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

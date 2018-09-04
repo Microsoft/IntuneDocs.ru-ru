@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: d2412418-d91a-4767-a3d6-bc88bb29caa2
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9e24f9aca0c06f69c61af6a7fab4f69afe381b6d
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: e2e81bdb3431ac8a2e0fdae6a7f3099512319aee
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31836933"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43313264"
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Что такое управление устройствами с помощью Microsoft Intune
 
@@ -37,7 +37,7 @@ ms.locfileid: "31836933"
    - В разделе **Общие сведения** отображается снимок зарегистрированных устройств, а также показано количество устройств, использующих различные платформ, включая Android, iOS и т. д.
    - В разделе **Все устройства** отображается список зарегистрированных управляемых устройств.
 
-     Функция **Экспорт** позволяет создать CSV-список всех устройств с приращениями по 10 000 (Internet Explorer) или 30 000 (Microsoft Edge, Chrome).
+     Функция **Экспорт** позволяет создать CSV-список всех устройств с приращениями по 10 000 (Internet Explorer) или 30 000 (Edge, Chrome).
 
      Выберите любое устройство, чтобы [просмотреть дополнительные сведения об этом устройстве](device-inventory.md), включая данные об оборудовании, установленные приложения, состояние политики соответствия и многое другое.
 
@@ -55,8 +55,8 @@ ms.locfileid: "31836933"
 
 - [Просмотр данных по инвентаризации устройств](device-inventory.md)
 - Выполнение действий удаленного устройства
-    - [Удаление данных организации](devices-wipe.md#remove-company-data)
-    - [Сброс параметров](devices-wipe.md#factory-reset)
+    - [Прекратить использование](devices-wipe.md#retire)
+    - [Очистка](devices-wipe.md#wipe)
     - [Удаленная блокировка](device-remote-lock.md).
     - [Сбросить секретный код](device-passcode-reset.md)
     - [Обход блокировки активации](device-activation-lock-bypass.md) (только iOS)

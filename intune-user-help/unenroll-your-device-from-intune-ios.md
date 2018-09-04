@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 0a90cace32edb33293ba0b0b89d272465ea32418
-ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
+ms.openlocfilehash: ba0f2675bfd65f60f6f16d6be738cdc1baa3e7e5
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34547494"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43148803"
 ---
 # <a name="remove-your-ios-device-from-intune"></a>Удаление устройства iOS из Intune
 
@@ -74,4 +74,4 @@ ms.locfileid: "34547494"
 -   **Цепочка ключей**. Устройство хранит пароли и другие сведения, используемые для входа в систему, в цепочке ключей. Сведения для входа используются всеми разработанными корпорацией Майкрософт приложениями, установленными на устройстве, включая Microsoft Outlook и Microsoft Authenticator. Как и аналитику Apple, эти данные можно удалить только путем сброса параметров устройства до заводских настроек. При этом с устройства будут удалены все персональные данные. Для этого последовательно выберите **Параметры** > **Общие** > **Сбросить** > **Удалить все содержимое и параметры**.
 
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
