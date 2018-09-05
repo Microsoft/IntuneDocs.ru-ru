@@ -13,12 +13,12 @@ ms.technology: ''
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 99d848fb1efea2ea2d557ab8d4f19881705ec991
-ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
+ms.openlocfilehash: d43e95b2f236dc4c03bb3f63670b2b1400243531
+ms.sourcegitcommit: 0303e3b8c510f56e191e6079e3dcdccfc841f530
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34744675"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40251881"
 ---
 # <a name="enable-windows-defender-atp-with-conditional-access-in-intune"></a>Включение ATP в Защитнике Windows с условным доступом в Intune
 
@@ -44,7 +44,7 @@ ATP в Защитнике Windows может устранять события �
 
 Чтобы использовать ATP с Intune, убедитесь, что у вас настроено и готово к использованию следующее:
 
-- лицензированный клиент для Enterprise Mobility + Security (план E5) или Microsoft 365 корпоративный (план E5);
+- лицензированный клиент для Enterprise Mobility + Security E3 и Windows E5 (или Microsoft 365 корпоративный E5);
 - среда Microsoft Intune с [управляемыми Intune](windows-enroll.md) устройствами Windows 10, которые также присоединены к Azure AD;
 - служба [ATP в Защитнике Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) и доступ к центру безопасности Защитника Windows (портал ATP);
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 08/20/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 4455a3c26296faba8bf01cf43d8555aebc13afc6
-ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
+ms.openlocfilehash: 9db79e9d0dc82cd823663274aa02dbe097db74d4
+ms.sourcegitcommit: 27f365f5e67e83562883e0c1fc9fdfae8fd60ce4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39321481"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "40251913"
 ---
 # <a name="assign-office-365-apps-to-windows-10-devices-with-microsoft-intune"></a>Назначение приложений Office 365 устройствам на базе Windows 10 с помощью Microsoft Intune
 
@@ -29,8 +29,8 @@ ms.locfileid: "39321481"
 
 ## <a name="before-you-start"></a>Перед началом работы
 
->[!IMPORTANT]
->Этот метод установки Microsoft Office поддерживается, только если на устройстве не установлены другие версии этого пакета.
+> [!IMPORTANT]
+> Если на устройстве конечного пользователя есть приложения Office в формате MSI, необходимо безопасно удалить эти приложения с помощью функции **Удалить MSI**. В противном случае установить приложения Office 365 от Intune не удастся.
 
 - На устройствах, где развертываются эти приложения, должна быть установлена Windows 10 Creators Update или более поздние версии.
 - Intune поддерживает для приложений Office добавление только из пакета Office 365.
@@ -91,6 +91,7 @@ ms.locfileid: "39321481"
         - **На месяц (целевые)**
         - **На полгода**
         - **На полгода (целевые)**
+    - **Удалить другие версии Office (MSI) с устройств конечных пользователей**. Эта функция позволяет удалить с компьютеров конечных пользователей все уже существующие версии Office (MSI). Это относится не только к приложениям, выбранным для установки в разделе **Настройка пакета приложений**, так как эта функция удалит с устройства конечного пользователя все приложения Office (MSI).
     - **Automatically accept the app end user license agreement** (Автоматически принимать лицензионное соглашение пользователя). Выберите этот параметр, если пользователям не нужно принимать лицензионное соглашение. Intune примет соглашение автоматически.
     - **Use shared computer activation** (Использовать активацию на общем компьютере). Выберите этот параметр, если на компьютере работают несколько пользователей. Дополнительные сведения см. в разделе [Обзор активации на общем компьютере для Office 365](https://docs.microsoft.com/DeployOffice/overview-of-shared-computer-activation-for-office-365-proplus).
     - **Языки**. Office автоматически устанавливается на всех поддерживаемых языках, которые были выбраны при установке Windows на устройстве пользователя. Выберите этот параметр, если хотите установить дополнительные языки с набором приложений.

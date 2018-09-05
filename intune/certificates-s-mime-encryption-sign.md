@@ -5,21 +5,24 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 07/19/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e0eac3c1d6739ca70e485b0327e3257ba8d32d2b
-ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
+ms.openlocfilehash: 3a31a43cfe45060891c30a7f159123a30b43173d
+ms.sourcegitcommit: 488be75cbee88455b33c68a3ec2acb864d461bf8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39321721"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "41910672"
 ---
 # <a name="smime-email-signing-and-encryption-in-intune"></a>Подписывание и шифрование электронной почты S/MIME в Intune
+
+> [!IMPORTANT]
+> Мы вносим некоторые улучшения в функцию S/MIME, описанную в этой статье. Поэтому функция S/MIME временно удалена из Intune. Когда функция будет выпущена, мы удалим это примечание.
 
 S/MIME обеспечивает дополнительный уровень безопасности для сообщений электронной почты с помощью шифрования и расшифровки. Microsoft Intune может использовать S/MIME для подписывания и шифрования сообщений электронной почты для мобильных устройств под управлением iOS, Windows, Windows Phone, Android и macOS.
 

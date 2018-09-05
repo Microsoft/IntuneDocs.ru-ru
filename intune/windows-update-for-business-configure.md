@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: 216c83d4158fe65b7aeb52f5477362eb57ec4242
-ms.sourcegitcommit: a52e81ab4fe24ae6410d1a1e63b4b073abc416a4
+ms.openlocfilehash: df7e14b485fae0a70b8f0f487229b9e31ace4077
+ms.sourcegitcommit: 40b1d82df99f09a75a17065cdd0e84d8038f460a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34822727"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "40255251"
 ---
 # <a name="manage-software-updates-in-intune"></a>Управление обновлениями программного обеспечения в Intune
 
@@ -115,11 +115,10 @@ ms.locfileid: "34822727"
 3. После этого выберите команду **Выбрать** для завершения процедуры назначения.
 
 ## <a name="update-compliance-reporting"></a>Отчеты о соответствии обновлений
-Просматривать состояние соответствия обновлений можно в Intune или с помощью бесплатного решения в Operations Management Suite (OMS), которое называется Поддержкой обновлений.
+Просматривать состояние соответствия обновлений можно в Intune или с помощью бесплатного решения под названием "Поддержка обновлений".
 
 ### <a name="review-update-compliance-in-intune"></a>Проверка соответствия обновлений в Intune 
-<!-- 1352223 -->
-Просмотрите отчет о политике, чтобы узнать состояние развертывания для настроенных кругов обновления Windows 10.
+<!-- 1352223 --> Просмотрите отчет о политиках, чтобы узнать состояние развертывания для настроенных кругов обновления Windows 10.
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
@@ -137,7 +136,7 @@ ms.locfileid: "34822727"
       - **Состояние пользователя**
 
 ### <a name="review-update-compliance-using-oms"></a>Проверка соответствия обновлений с помощью OMS
-Для отслеживания накопительных обновлений Windows 10 можно использовать бесплатное решение в Operations Management Suite (OMS), которое называется поддержкой обновлений. Дополнительные сведения см. в разделе [Отслеживание обновлений Windows с помощью поддержки обновлений](https://technet.microsoft.com/itpro/windows/manage/update-compliance-monitor). Благодаря этому решению можно развернуть коммерческий идентификатор на любых управляемых Intune устройствах с Windows 10, для которых требуется получать отчеты о соответствии обновлений.
+Для отслеживания выпуска обновлений Windows 10 можно использовать бесплатное решение под названием "Поддержка обновлений". Дополнительные сведения см. в разделе [Отслеживание обновлений Windows с помощью поддержки обновлений](https://technet.microsoft.com/itpro/windows/manage/update-compliance-monitor). Благодаря этому решению можно развернуть коммерческий идентификатор на любых управляемых Intune устройствах с Windows 10, для которых требуется получать отчеты о соответствии обновлений.
 
 В консоли Intune для настройки коммерческого идентификатора можно использовать параметры OMA-URI настраиваемой политики. Дополнительные сведения см. в разделе [Параметры политики Intune для устройств с Windows 10 в Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune).   
 

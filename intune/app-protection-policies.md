@@ -15,12 +15,12 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 606c173c1723d526436b9ae75d9a4085883f071b
-ms.sourcegitcommit: 29eaf27323763a5a200ec64b8679397c4b988f33
+ms.openlocfilehash: 3a66ed41442e89ed40850f5b9cd56cbc004a43d0
+ms.sourcegitcommit: 8b4f5685dc7f41f5e967a8f9d0627707a36dbe93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36305439"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40251938"
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>Как создать и назначить политики защиты приложений
 
@@ -30,11 +30,11 @@ ms.locfileid: "36305439"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-Инструкции для классического портала Intune см. в статье [Создание политик защиты приложений](https://docs.microsoft.com/intune-classic/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune).
-
-Политики защиты приложений могут применяться к приложениям на устройствах, которыми управляет или не управляет Intune. Подробное описание использования политик защиты приложений и сценариев, поддерживаемых политиками защиты приложения Intune, см. в статье о [политиках защиты приложений Microsoft Intune](app-protection-policy.md).
+Политики защиты приложений могут применяться к приложениям на устройствах, которыми управляет или не управляет Intune. Подробное описание использования политик защиты приложений, а также описание поддерживаемых этими политиками сценариев см. в разделе [Что такое политики защиты приложений Microsoft Intune?](app-protection-policy.md).
 
 Список поддерживаемых приложений MAM см. в статье [Список приложений MAM](https://www.microsoft.com/cloud-platform/microsoft-intune-apps).
+
+Сведения о добавлении бизнес-приложений вашей организации в Microsoft Intune и подготовке их к использованию политик защиты приложений см. в разделе [Добавление приложений в Microsoft Intune](apps-add.md).
 
 ##  <a name="create-an-app-protection-policy"></a>Создание политики защиты приложений
 1. В рабочей нагрузке **Мобильные приложения** нажмите **Политики защиты приложений** в разделе **Управление**. Откроется страница сведений **Политики защиты приложений**, в которой можно создавать и изменять политики.

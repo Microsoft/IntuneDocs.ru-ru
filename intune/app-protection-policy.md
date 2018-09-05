@@ -6,7 +6,7 @@ keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
-ms.date: 01/19/2018
+ms.date: 08/16/2018
 ms.topic: get-started-article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f59bd4e0f795b73d830e41d47262c10c24d9398b
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 4e9dbda4c768bf9963a4ec168d6a613dca197995
+ms.sourcegitcommit: c5cba0f4bf01eb9a9492e4e3fb6cd756f0737057
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31834284"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "40251532"
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 
@@ -46,7 +46,7 @@ ms.locfileid: "31834284"
 - **Устройства, не зарегистрированные в каком-либо решении по управлению мобильными устройствами**. Обычно это устройства, которые принадлежат сотрудникам и не управляются и не регистрируются в Intune или других решениях MDM.
 
 > [!IMPORTANT]
-> Можно создавать политики управления мобильными приложениями для мобильных приложений Office, которые подключаются к службам Office 365. Политики защиты приложений не поддерживаются для приложений, подключающихся к локальным службам Exchange и SharePoint.
+> Можно создавать политики управления мобильными приложениями для мобильных приложений Office, которые подключаются к службам Office 365. Вы также можете защитить доступ к локальным почтовым ящикам Exchange, создав политики защиты приложений Intune для Outlook в iOS и Android с гибридной современной проверкой подлинности. Перед использованием этой функции выполните [требования к Outlook для iOS и Android](https://technet.microsoft.com/library/mt846639(v=exchg.160).aspx). Политики защиты приложений не поддерживаются для других приложений, подключающихся к локальным службам Exchange и SharePoint.
 
 **Ниже перечислены важные преимущества использования политик защиты приложений**.
 

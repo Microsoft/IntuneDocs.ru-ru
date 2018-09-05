@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/02/2018
+ms.date: 08/23/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 574880ae1ff7f734edcb02ebc89d7a0270064d4e
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 115486f02a86616fdf2c340fa7e0e2ff6e505afa
+ms.sourcegitcommit: 973a06f4a35b74314fece2bae17dd6885b4211c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905977"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42823075"
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 
@@ -148,6 +148,10 @@ Intune обнаруживает обновления для приложений
 
 <!-- 820870 -->  
 Чтобы отменить лицензию всех приложений VPP для определенного токена VPP, необходимо сначала отменить лицензии на все приложения, связанные с токеном, а затем удалить токен.
+
+## <a name="renewing-app-licenses"></a>Продление лицензий на приложения
+
+Вы можете продлить срок действий токена Apple VPP, скачав новый токен с портала Apple Volume Purchase Program и обновив существующий токен в Intune.
 
 ## <a name="further-information"></a>Дополнительные сведения
 

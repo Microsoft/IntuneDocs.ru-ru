@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 07/19/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,16 +14,17 @@ ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c795acb5ca6590b165b89c3a974038069b1c56ef
-ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
+ms.openlocfilehash: a86b53e34cc4fa24ec683657a646f8545396166e
+ms.sourcegitcommit: 488be75cbee88455b33c68a3ec2acb864d461bf8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39321515"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "41910842"
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Настройка и использование сертификатов PKCS в Intune
 
-[!INCLUDE [azure_portal](./includes/azure_portal.md)]
+> [!IMPORTANT]
+> Мы вносим некоторые улучшения в функцию S/MIME, описанную в этой статье. Поэтому функция S/MIME временно удалена из Intune. Когда функция будет выпущена, мы удалим это примечание.
 
 Сертификаты используются для проверки подлинности и защищенного доступа к ресурсам организации, например виртуальной частной сети или сети Wi-Fi. В этой статье показано, как экспортировать сертификат PKCS, а затем добавить его в профиль Intune.
 

@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 08/13/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 050660b4da609d8e6c0dbf969eb71aa79945262a
-ms.sourcegitcommit: e6013abd9669ddd0d6449f5c129d5b8850ea88f3
+ms.openlocfilehash: daaed6ded0c20551567a63890d324abcbaaf41d7
+ms.sourcegitcommit: 9f99b4a7f20ab4175d6fa5735d9f4fd6a03e0d3a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "39254541"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40251941"
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений iOS для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -172,19 +172,14 @@ ms.locfileid: "39254541"
 
 3. Нажмите кнопку **Принимаю**, чтобы принять лицензионное соглашение, в результате чего пакет будет установлен на компьютере.
 
-4.  Откройте папку **IntuneMAMPackager** и сохраните ее содержимое на своем компьютере Mac OS. Теперь все готово для запуска инструмента упаковки приложений.
-
-> [!NOTE]
-> Упаковщик MAM Intune может устанавливаться отдельно на компьютере с macOS, что может привести к возникновению ошибок вида "Файл не найден" в командах упаковки. Чтобы путь к упаковщику определялся во время упаковки, можно переместить содержимое папки IntuneMAMPackager.
-
 ## <a name="run-the-app-wrapping-tool"></a>Запуск инструмента упаковки для приложений
 
 ### <a name="use-terminal"></a>Использование терминала
 
-Откройте программу терминала Mac OS и перейдите в папку, где сохранены файлы инструмента упаковки приложений. Исполняемый файл называется IntuneMAMPackager и находится в папке IntuneMAMPackager/Contents/MacOS. Выберите способ выполнения команды:
+Откройте приложение Terminal в macOS и выполните следующую команду:
 
 ```
-./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> -p /<path to provisioning profile> -c <SHA1 hash of the certificate> [-b [<output app build string>]] [-v] [-e] [-x /<array of extension provisioning profile paths>]
+/Volumes/IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> -p /<path to provisioning profile> -c <SHA1 hash of the certificate> [-b [<output app build string>]] [-v] [-e] [-x /<array of extension provisioning profile paths>]
 ```
 
 > [!NOTE]
@@ -405,6 +400,29 @@ ms.locfileid: "39254541"
 -   Приложения для iOS, имеющие диалоговое окно отправки файла, позволяют обходить примененные ограничения на вырезание, копирование и вставку. Например, диалоговое окно отправки файла можно использовать для отправки снимка экрана с данными приложения.
 
 -   Просматривая папку документов на своих устройствах из изолированного приложения, вы можете увидеть папку с именем .msftintuneapplauncher. Изменение или удаление этого файла может повлиять на правильность работы ограниченных приложений.
+
+## <a name="intune-app-wrapping-tool-for-ios-with-citrix-mdx-mvpn"></a>Использование инструмента упаковки приложений Intune для iOS с Citrix MDX mVPN
+Эта функция обеспечивает интеграцию инструмента упаковки приложений Citrix MDX для iOS. Интеграция представляет собой просто дополнительный флаг командной строки `-citrix` для общего набора инструментов упаковки приложений Intune.
+
+### <a name="requirements"></a>Requirements (Требования)
+
+Чтобы использовать флаг `-citrix`, также потребуется установить [инструмент упаковки приложений Citrix MDX для iOS](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-ios.html) на том же компьютере с macOS. Скачиваемые файлы находятся в разделе [Скачиваемые файлы Citrix XenMobile](https://www.citrix.com/downloads/xenmobile/) и доступны только клиентам Citrix после входа в систему. Установите инструмент в папку по умолчанию: `/Applications/Citrix/MDXToolkit`. 
+
+> [!NOTE] 
+> Поддержка интеграции Intune и Citrix доступна только для устройств с iOS 10 и более поздними версиями.
+
+### <a name="use-the--citrix-flag"></a>Использование флага `-citrix`
+Просто запустите общую команду упаковки приложения, добавив флаг `-citrix`. С флагом `-citrix` сейчас не указывается никаких аргументов.
+
+**Формат использования**:
+```
+./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> -p /<path to provisioning profile> -c <SHA1 hash of the certificate> [-b [<output app build string>]] [-v] [-e] [-x /<array of extension provisioing profile paths>] [-citrix]
+```
+
+**Пример команды**:
+```
+./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i ~/Desktop/MyApp.ipa -o ~/Desktop/MyApp_Wrapped.ipa -p ~/Desktop/My_Provisioning_Profile_.mobileprovision -c 12A3BC45D67EF8901A2B3CDEF4ABC5D6E7890FAB  -v true -citrix
+```
 
 ## <a name="getting-logs-for-your-wrapped-applications"></a>Получение журналов для упакованных приложений
 Чтобы получить журналы для упакованных приложений при устранении неполадок, сделайте следующее:
