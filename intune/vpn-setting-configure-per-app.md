@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/16/2018
+ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: D9958CBF-34BF-41C2-A86C-28F832F87C94
 ms.reviewer: karanda
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: f4746e2f20926c102717214304711cc9883597b8
-ms.sourcegitcommit: 1e349bcfd562f34866108e566e5b5062717e0112
+ms.openlocfilehash: 7cf005b225dd11ca6b95dbed0a82330544575f92
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2018
-ms.locfileid: "40251825"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347480"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -34,6 +34,7 @@ VPN на уровне приложения сейчас поддерживает
  - Pulse Connect Secure;
  - SonicWall
  - Palo Alto Networks GlobalProtect
+ - Zscaler
 
 ## <a name="prerequisites-for-per-app-vpn"></a>Необходимые условия для использования VPN на уровне приложения
 
@@ -145,7 +146,7 @@ VPN на уровне приложения сейчас поддерживает
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
-3. Выберите **Мобильные приложения**.
+3. Выберите **Клиентские приложения**.
 4. Щелкните **Приложения**.
 5. Выберите приложение из списка приложений.
 6. Щелкните **Назначения**.
@@ -187,6 +188,10 @@ VPN на уровне приложения сейчас поддерживает
     - F5 Access
     - Pulse Secure
     - SonicWall Mobile Connect
+    - Zscaler App
+
+    > [!NOTE]
+    > Если вы используете приложение VPN Pulse Secure, вам доступно туннелирование на уровне приложения или на уровне пакета. Задайте для **ProviderType** значение **app-proxy** при туннелировании на уровне приложения или значение **packet-tunnel** при туннелировании на уровне пакета.
 
 ### <a name="connect-using-the-per-app-vpn"></a>Подключение с использованием VPN на уровне приложения
 

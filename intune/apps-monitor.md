@@ -15,12 +15,12 @@ ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bedd1108ce0c9e173e6e9519a29d3948f1320c3a
-ms.sourcegitcommit: 1a8b34c7854a575bf6ce59f475c7b718fa038d66
+ms.openlocfilehash: a1cf7fbdee6e6dc0cb280c8f9473c48608485737
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40251560"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43329910"
 ---
 # <a name="monitor-app-information-and-assignments-with-microsoft-intune"></a>Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune
 
@@ -30,7 +30,7 @@ ms.locfileid: "40251560"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В меню **Intune** выберите **Мобильные приложения**.
+3. В меню **Intune** выберите **Клиентские приложения**.
 4. В разделе меню **Управление** выберите **Приложения**.
 5. В списке приложений выберите приложение для отслеживания. Отображается панель приложения со сведениями о состоянии устройства и пользователя.
 

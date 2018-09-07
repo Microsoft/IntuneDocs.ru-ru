@@ -15,12 +15,12 @@ ms.assetid: 099101e8-4b22-40ac-ba19-82ba5c71944c
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9ee132a1b1c79e9829e5d28dc33b5cac2e52c8ac
-ms.sourcegitcommit: 27f365f5e67e83562883e0c1fc9fdfae8fd60ce4
+ms.openlocfilehash: 1461089beafd6501d6ebc87ab1a89963fa4aac57
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "40252755"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347779"
 ---
 # <a name="add-an-ios-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения iOS в Microsoft Intune
 
@@ -35,8 +35,8 @@ ms.locfileid: "40252755"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Мобильные приложения**.
-4. В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Приложения**.
+3. На панели **Intune** выберите **Клиентские приложения**.
+4. В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Приложения**.
 5. Над списком приложений щелкните **Добавить**.
 6. В области **Добавить приложение** выберите **Бизнес-приложение**.
 
