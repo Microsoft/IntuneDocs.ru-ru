@@ -15,12 +15,12 @@ ms.assetid: 1feca24f-9212-4d5d-afa9-7c171c5e8525
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 25d4bdc51f2dc12cddbfb30c82baa22aa8c4540b
-ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
+ms.openlocfilehash: d11356c16965e3ba7631275368c9723a2db0ecc9
+ms.sourcegitcommit: 443b4cb3390da47bf1e497b1f0c0137a5ddda7bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43329758"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "43675021"
 ---
 # <a name="manage-internet-access-using-protected-browser-policies-with-microsoft-intune"></a>Управление доступом в Интернет с помощью политик для защищенных браузеров в Microsoft Intune
 
@@ -185,7 +185,7 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
 
 |                                Key                                 |                                                                                                                                                                                                                                                         Значение                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <strong>com.microsoft.intune.mam.managedbrowser.bookmarks</strong> | Значением для этой конфигурации является список закладок. Каждая закладка состоит из заголовка и URL-адреса. Для разделения заголовка и URL-адреса используется символ <strong>&#124;</strong>.<br><br>Пример.<br> "Microsoft Bing|https://www.bing.com`<br><br>To configure multiple bookmarks, separate each pair with the double character, <strong>&#124;&#124;</strong><br><br>Example:<br> `Bing|https://www.bing.com||Contoso|https://www.contoso.com` |
+| <strong>com.microsoft.intune.mam.managedbrowser.bookmarks</strong> | Значением для этой конфигурации является список закладок. Каждая закладка состоит из заголовка и URL-адреса. Для разделения заголовка и URL-адреса используется символ <strong>&#124;</strong>.<br><br>Пример.<br> <code>Microsoft Bing&#124;https://www.bing.com</code><br><br>Чтобы настроить несколько закладок, разделите каждую пару двойным символом — <strong>&#124;&#124;</strong>.<br><br>Пример.<br> <code>Bing&#124;https://www.bing.com&#124;&#124;Contoso&#124;https://www.contoso.com</code> |
 
 ## <a name="how-to-specify-allowed-and-blocked-urls-for-a-protected-browser"></a>Настройка разрешенных и блокируемых URL-адресов для защищенного браузера
 
@@ -193,7 +193,7 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
 
 |Key|Значение|
 |-|-|
-|Выберите один из следующих типов.<br><ul><li>Укажите разрешенные URL-адреса (будут разрешены только указанные вами URL-адреса; другие сайты будут недоступны):<br> **com.microsoft.intune.mam.managedbrowser.AllowListURLs**<br><br></li><li>Укажите заблокированные URL-адреса (все остальные сайты будут доступны):<br>**com.microsoft.intune.mam.managedbrowser.BlockListURLs**.</li></ul>|В качестве значения, соответствующего ключу, указывается список URL-адресов. Введите все URL-адреса, которые требуется разрешить или заблокировать, в виде одного значения, разделяя их символом вертикальной черты **&#124;**.<br><br>Примеры:<br><br>"URL1|URL2|URL3`<br>`http://*.contoso.com/*|https://*.bing.com/*|https://expenses.contoso.com`|
+|Выберите один из следующих типов.<br><ul><li>Укажите разрешенные URL-адреса (будут разрешены только указанные вами URL-адреса; другие сайты будут недоступны):<br> **com.microsoft.intune.mam.managedbrowser.AllowListURLs**<br><br></li><li>Укажите заблокированные URL-адреса (все остальные сайты будут доступны):<br>**com.microsoft.intune.mam.managedbrowser.BlockListURLs**.</li></ul>|В качестве значения, соответствующего ключу, указывается список URL-адресов. Введите все URL-адреса, которые требуется разрешить или заблокировать, в виде одного значения, разделяя их символом вертикальной черты **&#124;**.<br><br>Примеры:<br><br><code>URL1&#124;URL2&#124;URL3</code><br><code>http://*.contoso.com/*&#124;https://*.bing.com/*&#124;https://expenses.contoso.com</code>|
 
 >[!IMPORTANT]
 >Не указывайте оба ключа одновременно. Если для одного пользователя заданы оба ключа, используется разрешающий ключ, который накладывает более строгие ограничения.
