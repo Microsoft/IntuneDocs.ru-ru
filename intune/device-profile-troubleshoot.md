@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8ceebe8b306893f9e6362a1aeb6ec119a650b90b
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: d013ad2aefbfee5eea8f240277b0f84c2c6bf05a
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31026879"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43312955"
 ---
 # <a name="common-issues-and-resolutions-with-device-profiles-in-microsoft-intune"></a>Распространенные проблемы с профилями устройств в Microsoft Intune и возможные решения
 
@@ -117,7 +117,7 @@ Intune не оценивает полезные данные файлов кон
         - Разрешить модем Wi-Fi
         - Разрешить автоматическое подключение к свободным хот-спотам Wi-Fi
         - Разрешить отчеты хот-спотов Wi-Fi
-        - Разрешить восстановление заводских настроек
+        - Разрешить очистку
         - Разрешить Bluetooth
         - Разрешить NFC
         - Разрешить Wi-Fi

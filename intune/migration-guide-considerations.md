@@ -14,20 +14,20 @@ ms.technology: ''
 ms.assetid: f29d2894-e98b-4f2c-b444-a8ccc1b7efdd
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: bd59cf3a4764cc66d0e7d1f47e69c2ff93352387
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+ms.openlocfilehash: 23619048faca4cdf9d64b15b0db7c09cb958a082
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
-ms.locfileid: "29925987"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43314046"
 ---
 # <a name="special-migration-considerations"></a>Особые примечания о миграции
 
 В зависимости от имеющейся среды поставщика MDM к миграции могут применяться особые требования.
 
-## <a name="factory-reset-for-apples-device-enrollment-program-dep"></a>Сброс параметров к заводским настройкам для программы регистрации устройств (DEP) Apple
+## <a name="wipe-for-apples-device-enrollment-program-dep"></a>Очистка для программы регистрации устройств (DEP) Apple
 
-В рамках программы регистрации устройств (DEP) Apple задаются конфигурации устройств, которые пользователь не сможет удалить. Чтобы сохранить расширенные функции управления DEP, устройства нужно переключить в исходное состояние путем сброса параметров к заводским настройкам для регистрации в Intune.
+В рамках программы регистрации устройств (DEP) Apple задаются конфигурации устройств, которые пользователь не сможет удалить. Чтобы сохранить расширенные функции управления DEP, устройства нужно переключить в исходное состояние путем очистки для регистрации в Intune.
 
 Чтобы продолжить использовать программу DEP для управления устройствами в Intune, [настройте регистрацию устройств iOS с помощью программы регистрации устройств](device-enrollment-program-enroll-ios.md).
 

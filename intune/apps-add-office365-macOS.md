@@ -15,12 +15,12 @@ ms.assetid: 2372332a-7e3a-4a9c-91a9-86654e0fabe2
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bffd53030c23f38f0548cb5bccf82f6dd5e85779
-ms.sourcegitcommit: 399f34cd169e2e352b49aad1dcb7e88294a4a9f1
+ms.openlocfilehash: f8b76de6e9b3a584be7ad324391c1c071140488e
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37869510"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43329450"
 ---
 # <a name="assign-office-365-to-macos-devices-with-microsoft-intune"></a>Назначение Office 365 устройствам macOS с помощью Microsoft Intune
 
@@ -40,8 +40,8 @@ ms.locfileid: "37869510"
 Добавление Office 365 из панели **Приложения**.
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Мониторинг и управление** > **Intune**.
-3. На панели **Intune** выберите **Мобильные приложения**.
-4. В области рабочей нагрузки **Мобильные приложения** в разделе **Управление** выберите **Приложения**. 
+3. В области **Intune** выберите **Клиентские приложения**.
+4. В области рабочей нагрузки **Клиентские приложения** перейдите к разделу **Управление** и выберите **Приложения**. 
 5. Нажмите кнопку **Добавить**.
 6. В списке **Тип приложения** в группе **Пакет Office 365** выберите **macOS**.
 7. Чтобы получить информацию о наборах приложений, выберите **Сведения о наборе приложений** и укажите сведения.  

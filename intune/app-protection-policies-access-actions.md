@@ -15,12 +15,12 @@ ms.assetid: f5ca557e-a8e1-4720-b06e-837c4f0bc3ca
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cdd3484f002a3719410d4f801073914e7f58fc4c
-ms.sourcegitcommit: e6013abd9669ddd0d6449f5c129d5b8850ea88f3
+ms.openlocfilehash: a7822e9e5a0e2bc5b054ccc3e93b9aa51bca5b79
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "39254490"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43329416"
 ---
 # <a name="selectively-wipe-data-using-app-protection-policy-access-actions-in-intune"></a>Выборочная очистка данных с помощью действий доступа политики защиты приложений в Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "39254490"
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**.  
     Intune находится в разделе **Мониторинг и управление**.
-3. На панели **Intune** выберите **Мобильные приложения** > **Политики защиты приложений**.
+3. На панели **Intune** выберите **Клиентские приложения** > **Политики защиты приложений**.
 4. Нажмите **Добавить политику** (можно также изменить существующую политику). 
 5. Нажмите **Настроить обязательные параметры**, чтобы открыть список параметров, которые можно настроить для этой политики. 
 6. Прокрутите вниз панель "Параметры" до раздела **Действия доступа** с доступной для редактирования таблицей.

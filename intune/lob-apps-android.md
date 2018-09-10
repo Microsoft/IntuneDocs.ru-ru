@@ -15,12 +15,12 @@ ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: baf7ee4f1178b555a0fe311f0e3977941e1491fe
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: a49811200cd84882fe9f80708edefde7614e5cee
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905042"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347871"
 ---
 # <a name="add-an-android-line-of-business-app-to-microsoft-intune"></a>Добавление в Microsoft Intune бизнес-приложения Android
 
@@ -35,8 +35,8 @@ ms.locfileid: "37905042"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Мобильные приложения**.
-4. В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Приложения**.
+3. В области **Intune** выберите **Клиентские приложения**.
+4. В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Приложения**.
 5. Над списком приложений щелкните **Добавить**.
 6. В области **Добавить приложение** выберите **Бизнес-приложение**.
 

@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 45d41f02fdfff7179dbd43f4d2afdac3337f8b7f
-ms.sourcegitcommit: e8aaa0955d13fa6c9d5f35a730ad06509ce88d0b
+ms.openlocfilehash: 7b03c46a9095c0f300869ebd14d1a81698e294f7
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39400289"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43314029"
 ---
 # <a name="configure-esim-cellular-profiles-in-intune---public-preview"></a>Настройка профилей сотовой связи eSIM в Intune (общедоступная предварительная версия)
 
@@ -179,7 +179,7 @@ eSIM — встроенная SIM-карта, которая позволяет 
 2. Перейдите к группе Azure AD и удалите устройство из группы.
 3. Когда удаленное устройство свяжется с Intune, произойдет оценка измененной политики и удаление профиля eSIM.
 
-Профиль eSIM также удаляется, если пользователь отменяет регистрацию устройства или если на устройстве выполняются удаленные операции [удаления данных компании](devices-wipe.md#remove-company-data) или [сброса устройства](devices-wipe.md#factory-reset).
+Профиль eSIM также удаляется, если пользователь [прекращает использование](devices-wipe.md#retire) или отменяет регистрацию устройства или если на устройстве выполняется [удаленное действие сброса](devices-wipe.md#wipe).
 
 > [!NOTE]
 > Удаление профиля не прекращает выставление счетов автоматически. Обратитесь к оператору мобильной связи, чтобы проверить состояние выставления счетов для вашего устройства.

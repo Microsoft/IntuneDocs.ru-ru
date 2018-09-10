@@ -15,12 +15,12 @@ ms.assetid: 4a95e575-2c63-4bfc-b9c4-f0a132eef618
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e8b3e34e72775061dcc3b40f60e75243972cedd2
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 1ae7723e29d23575314fc632c75af01eb9e59f72
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34223600"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347666"
 ---
 # <a name="add-windows-phone-81-store-apps-to-microsoft-intune"></a>Добавление приложений из Магазина Windows Phone 8.1 в Microsoft Intune
 
@@ -34,8 +34,8 @@ ms.locfileid: "34223600"
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**.  
     Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Мобильные приложения**.
-4. В области рабочей нагрузки **Мобильные приложения** в разделе **Управление** выберите **Приложения**.
+3. В области **Intune** выберите **Клиентские приложения**.
+4. В области рабочей нагрузки **Клиентские приложения** перейдите к разделу **Управление** и выберите **Приложения**.
 5. В области **Приложения** нажмите кнопку **Добавить**.
 6. В области **Добавление приложения** выберите **Тип приложения** — **Windows Phone 8.1** и щелкните **Сведения о приложении**.
 7. В области **Сведения о приложении** добавьте сведения о приложении. В зависимости от выбранного приложения некоторые значения в этой области могут заполняться автоматически:

@@ -15,12 +15,12 @@ ms.assetid: f5617074-2384-4812-b913-dc94f64c0818
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c00904097986d1cf70031f1b17171221da64abc0
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 1b43e7df72e709cfdd929085b1d6718f1afcdf9f
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34224806"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347358"
 ---
 # <a name="how-to-manage-ios-ebooks-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление электронными книгами iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 
@@ -55,8 +55,8 @@ Microsoft Intune позволяет синхронизировать книги,
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. На панели **Intune** выберите **Мобильные приложения**.
-1.  В рабочей нагрузке **Мобильные приложения** выберите **Установка** > **Токены VPP iOS**.
+3. На панели **Intune** выберите **Клиентские приложения**.
+1.  В рабочей нагрузке **Клиентские приложения** выберите **Установка** > **Токены VPP iOS**.
 2.  На панели списка токенов VPP щелкните **Создать**.
 3.  На панели **Создать токен VPP** укажите перечисленные ниже сведения:
     - **VPP token file** (Файл токена VPP). Зарегистрируйтесь в программе Volume Purchase Program для бизнеса или Volume Purchase Program для образовательных учреждений, если вы еще не сделали этого. После этого скачайте токен Apple VPP для своей учетной записи и выберите его.

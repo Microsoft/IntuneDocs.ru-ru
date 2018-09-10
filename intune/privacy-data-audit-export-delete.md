@@ -14,12 +14,12 @@ ms.assetid: 96990be0-eb1e-43a4-a0e4-09c7dbdc2bf4
 ms.reviewer: angerobe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: bea51227798e239bb74154e4d97e3efd6d55f807
-ms.sourcegitcommit: cefa84efd3003fa5a0ef0c2dce6206a6a411a1ec
+ms.openlocfilehash: 8c61040223d964f6ed0eeb85cf08c29bd2880396
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "35232273"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43313604"
 ---
 # <a name="audit-export-or-delete-personal-data-in-intune"></a>Аудит, экспорт и удаление персональных данных в Intune
 
@@ -64,8 +64,8 @@ ms.locfileid: "35232273"
 ### <a name="user-self-removal-from-intune-management"></a>Самостоятельное удаление пользователя из системы управления Intune
 Пользователи могут удалить свое личное устройство [Windows, Android или Apple](https://docs.microsoft.com/en-us/intune-user-help/unenroll-your-device-from-intune-android.md) из системы управления Intune без помощи администратора.   
 
-### <a name="remove-company-data"></a>Удаление данных организации
-Удаление данных компании удаляет подготовленные данные Intune, например приложения компании, данные о приложениях, управляемых Intune, параметры политики и профили электронной почты. При этом действии персональные данные пользователя остаются на устройстве.
+### <a name="retire"></a>Прекратить использование
+Действие **Прекратить использование** удаляет подготовленные данные Intune, например приложения организации, данные о приложениях, управляемых Intune, параметры политики и профили электронной почты. При этом действии персональные данные пользователя остаются на устройстве.
 
 ### <a name="delete-a-tenant-from-microsoft-intune"></a>Удаление клиента из Microsoft Intune
 

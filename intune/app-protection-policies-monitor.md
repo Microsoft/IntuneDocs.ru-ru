@@ -15,12 +15,12 @@ ms.assetid: 9b0afb7d-cd4e-4fc6-83e2-3fc0da461d02
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 282666de444e9da0dd5e406cb45cdf1b9e66c1b2
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: b7dea97ef74489e3caae7433e8ebbe2b9ed39aa3
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31833160"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43330047"
 ---
 # <a name="how-to-monitor-app-protection-policies"></a>Как отслеживать политики защиты приложений
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -42,8 +42,8 @@ ms.locfileid: "31833160"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. На панели **Intune** выберите **Мобильные приложения**.
-4. В рабочей нагрузке **Мобильные приложения** выберите **Мониторинг** > **Состояние защиты приложений**, чтобы просмотреть общие сведения:
+3. На панели **Intune** выберите **Клиентские приложения**.
+4. В рабочей нагрузке **Клиентские приложения** выберите **Мониторинг** > **Состояние защиты приложений**, чтобы просмотреть общие сведения:
 
 ![Плитка "Сводка" на панели "Управление мобильными приложениями в Intune"](./media/app-protection-user-status-summary.png)
 

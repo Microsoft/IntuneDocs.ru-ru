@@ -15,12 +15,12 @@ ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5d3cc718c0bfd0bba68480b4cd4003cd52489a50
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 5ed39a13c8866786ac044d77ca61d91becd5b89f
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34225044"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43329570"
 ---
 # <a name="use-ios-app-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия приложений iOS с помощью профилей подготовки приложений
 
@@ -43,8 +43,8 @@ ms.locfileid: "34225044"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. На панели **Intune** выберите **Мобильные приложения**.
-1.  В рабочей нагрузке **Мобильные приложения** выберите **Управление** > **Профили подготовки приложений iOS**.
+3. На панели **Intune** выберите **Клиентские приложения**.
+1.  В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Профили подготовки приложений iOS**.
 2.  На панели списка профилей выберите **Создать профиль**.
 3. На панели **Создать профиль** настройте следующие значения:
     - **Имя**. Укажите имя профиля подготовки для мобильного устройства.

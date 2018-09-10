@@ -15,12 +15,12 @@ ms.assetid: 07241b6d-86d8-4abb-83a2-3fc5feae5788
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c7a47063631ef3d5195dec2e91523772adb4e34c
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 990226cba088585021db691753c6a3a8063927d3
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34224268"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347259"
 ---
 # <a name="add-microsoft-store-apps-to-microsoft-intune"></a>Добавление приложений Microsoft Store в Microsoft Intune
 
@@ -34,8 +34,8 @@ ms.locfileid: "34224268"
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**.  
     Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Мобильные приложения**.
-4. В области рабочей нагрузки **Мобильные приложения** в разделе **Управление** выберите **Приложения**.
+3. В области **Intune** выберите **Клиентские приложения**.
+4. В области рабочей нагрузки **Клиентские приложения** перейдите к разделу **Управление** и выберите **Приложения**.
 5. В области **Приложения** нажмите кнопку **Добавить**.
 6. В области **Добавление приложения** выберите **Тип приложения** — **Windows** и щелкните **Сведения о приложении**.
 7. В области **Сведения о приложении** добавьте сведения о приложении. В зависимости от выбранного приложения некоторые значения в этой области могут заполняться автоматически:

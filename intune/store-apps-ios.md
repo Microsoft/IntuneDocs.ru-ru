@@ -15,12 +15,12 @@ ms.assetid: c59514d7-1256-4576-9380-e7a0b85a0378
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ac96c66dd6f09a7bd7a1b1c8c37f2f0eda24828c
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 04d7acb5aa0e1a534fb6ad31519c094123aa90bb
+ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34223515"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43347683"
 ---
 # <a name="add-ios-store-apps-to-microsoft-intune"></a>Добавление в Microsoft Intune приложений из магазина iOS
 
@@ -41,8 +41,8 @@ ms.locfileid: "34223515"
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**.  
     Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Мобильные приложения**.
-4. В области рабочей нагрузки **Мобильные приложения** в разделе **Управление** выберите **Приложения**.
+3. В области **Intune** выберите **Клиентские приложения**.
+4. В области рабочей нагрузки **Клиентские приложения** перейдите к разделу **Управление** и выберите **Приложения**.
 5. В области **Приложения** нажмите кнопку **Добавить**.
 6. В разделе **Приложение магазина** выберите в списке **Тип приложения** тип **iOS**.
 7. Щелкните **Поиск в App Store**.

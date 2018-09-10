@@ -15,12 +15,12 @@ ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 65f249f05f389d8f05395cb46677d5f5fa53835e
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 8abaef622fcf633eecde3a2bb2ee261cb7c8fc9e
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905841"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43330268"
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>Добавление политик конфигурации приложений для управляемых устройств iOS
 
@@ -47,7 +47,7 @@ ms.locfileid: "37905841"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. Выберите рабочую нагрузку **Мобильные приложения**.
+3. Выберите рабочую нагрузку **Клиентские приложения**.
 4. В группе **Управление** выберите **Политики конфигурации приложений**, а затем нажмите кнопку **Добавить**.
 5. Задайте следующие значения:
     - **Имя**. Имя профиля, которое отображается на портале Azure.
@@ -133,6 +133,8 @@ Intune проверяет формат XML-файла. Но Intune не пров
   <string>{{serialnumberlast4digits}}</string>
   <key>udidlast4digits</key>
   <string>{{udidlast4digits}}</string>
+  <key>aaddeviceid</key>
+  <string>{{aaddeviceid}}</string>
 </dict>
 ```
 ### <a name="supported-xml-plist-data-types"></a>Поддерживаемые типы данных XML PList
@@ -158,6 +160,7 @@ Intune поддерживает следующие типы данных в сп
 - \{\{username\}\} — например **Илья Глазков**
 - \{\{serialnumber\}\} — например **F4KN99ZUG5V2** (для устройств iOS)
 - \{\{serialnumberlast4digits\}\} — например **G5V2** (для устройств iOS)
+- \{\{aaddeviceid\}\} — например, **ab0dc123-45d6-7e89-aabb-cde0a1234b56**
 
 ## <a name="monitor-ios--app-configuration-status-per-device"></a>Отслеживание состояния конфигурации приложений для iOS на отдельных устройствах 
 После назначения политики конфигурации вы можете отслеживать состояние конфигурации приложений для iOS на каждом управляемом устройстве. В разделе **Microsoft Intune** на портале Azure выберите **Устройства** > **Все устройства**. В списке управляемых устройств выберите определенное устройство, чтобы открыть его колонку. В колонке устройства выберите элемент **Конфигурация приложения**.  

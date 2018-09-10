@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 5/16/2018
+ms.date: 8/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 ms.reviewer: tycast
 ms.custom: intune-azure
-ms.openlocfilehash: 61310f5baa64c43d2e818df6c61a36d232922c1c
-ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
+ms.openlocfilehash: 0b064c6f0eaa67157c5c50ddad3a8fd863295b8b
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34744743"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43312856"
 ---
 # <a name="windows-10-vpn-settings-in-intune"></a>Параметры VPN для Windows 10 в Intune
 
@@ -42,6 +42,8 @@ ms.locfileid: "34744743"
   - **Сервер по умолчанию**. Позволяет использовать данный сервер как сервер по умолчанию, который устройства используют для подключения. Установите только один сервер в качестве сервера по умолчанию.
   - **Импорт**. Укажите файл с разделителями-запятыми, который содержит список серверов в формате: описание, IP-адрес или полное доменное имя, сервер по умолчанию. Щелкните **ОК**, чтобы импортировать эти серверы в список **Серверы**.
   - **Экспорт**. Экспортирует список серверов в файл данных с разделителями-запятыми (CSV-файл)
+
+- **Регистрация IP-адресов во внутренней DNS**: выберите **Включить** для настройки профиля VPN в Windows 10, чтобы динамически регистрировать IP-адреса, назначенные интерфейсу VPN, во внутренней службе DNS, или  **Отключить** для отказа от динамической регистрации IP-адресов.
 
 - **Тип подключения**. Выберите тип VPN-подключения в следующем списке поставщиков:
 

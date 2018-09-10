@@ -15,12 +15,12 @@ ms.assetid: ee3ccbf9-82fc-4fbf-9d3d-8f05e431d090
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: f1b2af2723ddb4c89f7f3d6409ced12f7a16883a
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 7b13cfdcaa29edfc780126f3d1d76f5a9e46360f
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34223668"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43330302"
 ---
 # <a name="move-your-intune-data-warehouse-account-data"></a>Перенос учетной записи хранилища данных Intune 
 
@@ -45,7 +45,7 @@ ms.locfileid: "34223668"
 3. Сохраните отчет локально.
  
 ### <a name="app-protection-reports"></a>Отчет о защите приложений  
-1. На портале Azure перейдите к **Microsoft Intune** -> **Мобильные приложения** -> **Состояние защиты приложений**.
+1. На портале Azure перейдите к разделу **Microsoft Intune** -> **Клиентские приложения** -> **Состояние защиты приложений**.
 2. Щелкните значок скачивания ( ⤓ ), чтобы сохранить каждый отчет.
 
 ### <a name="device-configuration-charts"></a>Диаграммы конфигурации устройства 

@@ -13,12 +13,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: cee92ff36e2a199cd6cb8cf3cd5e0e839bc81584
-ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
+ms.openlocfilehash: 71ed2458e35934de9da297140d49d6d4128b0784
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39321498"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43329824"
 ---
 # <a name="microsoft-intune-ios-device-restriction-settings"></a>Параметры ограничений для устройств iOS в Microsoft Intune
 
@@ -81,7 +81,7 @@ ms.locfileid: "39321498"
 - связывание с Apple Watch. 
 
 > [!NOTE]
-> Компания Apple подтвердила, что некоторые параметры в 2018 г. станут доступны только в защищенном режиме. Мы рекомендуем учесть это при настройке следующих компонентов и функций, не дожидаясь, когда Apple переведет эти параметры в защищенный режим:
+> Компания Apple подтвердила, что некоторые параметры в 2019 г. станут доступны только в защищенном режиме. Мы рекомендуем учесть это при настройке следующих компонентов и функций, не дожидаясь, когда Apple переведет эти параметры в защищенный режим:
 > - Установка приложений конечными пользователями
 > - Удаление приложений
 > - FaceTime
@@ -91,6 +91,7 @@ ms.locfileid: "39321498"
 > - Документы и данные iCloud
 > - Многопользовательские игры
 > - Добавление друзей в игровом центре
+> - Siri
 
 ## <a name="password"></a>Пароль
 -   **Пароль.** Пользователь должен ввести пароль для доступа к устройству.

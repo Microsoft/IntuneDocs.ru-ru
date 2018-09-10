@@ -6,7 +6,7 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 01/01/2018
+ms.date: 08/29/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: bc8c8be9-7f4f-4891-9224-55fc40703f0b
 ms.reviewer: owenyen
 ms.suite: ems
 ms.custom: intune-classic-keep
-ms.openlocfilehash: 041b31373e774c86373762a6365b913de9708b51
-ms.sourcegitcommit: 116be0eaa44fd5518ff34780d39569224ef4746b
+ms.openlocfilehash: df8b6effea08bcb03022511158cde2d4da4ca2e6
+ms.sourcegitcommit: 11cad61c565c474a8d653181675cc1109d562626
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36310510"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241918"
 ---
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
 
@@ -33,6 +33,8 @@ ms.locfileid: "36310510"
 
 Приложения, устанавливаемые на ПК, должны поддерживать автоматическую установку без участия пользователя. В противном случае произойдет сбой установки.
 
+## <a name="additional-security-settings-for-windows-installer"></a>Дополнительные параметры безопасности для установщика Windows
+Можно разрешить пользователям контролировать установки приложений. Если политика включена, процессы установки, которые иначе могли бы быть остановлены из-за нарушения безопасности, смогут продолжать выполнение. Установщик Windows можно настроить так, чтобы при установке любых программ в системе он использовал повышенные разрешения. Кроме того, можно индексировать включенные элементы Windows Information Protection (WIP) и сохранять соответствующие метаданные в незашифрованном расположении. Если политика отключена, элементы, защищенные WIP, не индексируются и не отображаются в результатах в Кортане или проводнике. Эти параметры по умолчанию отключены. 
 
 ## <a name="add-the-app"></a>Добавление приложения
 В этой процедуре используется издатель ПО Intune для настройки свойств приложения и его отправки в облачное хранилище.

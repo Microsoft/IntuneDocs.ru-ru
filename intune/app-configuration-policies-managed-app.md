@@ -15,12 +15,12 @@ ms.assetid: E61C1618-79D0-41A1-B61F-4123FB6672FC
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b514efa27a2a037f2fa0492ae519e6b8c774e369
-ms.sourcegitcommit: 399f34cd169e2e352b49aad1dcb7e88294a4a9f1
+ms.openlocfilehash: cad4e1d6bcb47981dfb40a1146a3f5148724e08a
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37869548"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43330098"
 ---
 # <a name="add-app-configuration-policies-for-managed-apps-without-device-enrollment"></a>Добавление политик конфигурации приложений для управляемых приложений без регистрации устройств
 
@@ -30,7 +30,7 @@ ms.locfileid: "37869548"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. Выберите рабочую нагрузку **Мобильные приложения**.
+3. Выберите рабочую нагрузку **Клиентские приложения**.
 4. В группе **Управление** выберите **Политики конфигурации приложений**, а затем нажмите кнопку **Добавить**.
 5. Задайте следующие значения:
     - **Имя**  

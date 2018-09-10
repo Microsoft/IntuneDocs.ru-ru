@@ -15,12 +15,12 @@ ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 46ef614af39a1dd1b44f4f5ff32f53687ccb060a
-ms.sourcegitcommit: a8b544975156dd45c2bf215b57ac994415b568bc
+ms.openlocfilehash: 96b95fcbfdc970976e24553972c5890f35cfddb2
+ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39164575"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43329484"
 ---
 # <a name="assign-apps-to-groups-with-microsoft-intune"></a>Назначение приложений группам с помощью Microsoft Intune
 
@@ -52,7 +52,7 @@ ms.locfileid: "39164575"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В меню **Intune** выберите **Мобильные приложения**.
+3. В меню **Intune** выберите **Клиентские приложения**.
 4. В разделе меню **Управление** выберите **Приложения**.
 5. На панели **Приложения**, выберите приложение, которое вы намерены назначить.
 6. В разделе меню **Управление** выберите **Назначения**.

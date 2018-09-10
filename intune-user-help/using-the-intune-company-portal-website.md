@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/27/2017
+ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,23 +17,23 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 83dd6265d4d34ea46a7299e3a6bdf8a06baa30c1
-ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
+ms.openlocfilehash: 8275a1f542badaadc5248826c5d1d3a8f24d56c3
+ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34762235"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43149501"
 ---
 # <a name="using-the-intune-company-portal-website"></a>Использование веб-сайта корпоративного портала Intune
-[Веб-сайт корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog) — это веб-страница, на которой можно управлять компьютерами и устройствами, зарегистрированными в Intune.
+Используйте [веб-сайт корпоративного портала](https://portal.manage.microsoft.com), чтобы просматривать, изменять, добавлять и удалять управляемые устройства.
 
-На веб-сайте корпоративного портала можно выполнять следующие действия:
+На веб-сайте корпоративного портала можно выполнить следующие действия:
 
 -   [Переименование устройства](rename-your-device-cpwebsite.md)
 
 -   [Удаление устройства](remove-your-device-cpwebsite.md)
 
--   [Сброс (очистка) устройства](reset-erase-your-device-cpwebsite.md)
+-   [Сброс устройства](reset-erase-your-device-cpwebsite.md)
 
 -   [Сброс секретного кода](reset-your-passcode-cpwebsite.md)
 
@@ -41,8 +41,8 @@ ms.locfileid: "34762235"
 
 -   Поиск контактных данных службы поддержки вашей компании, если они настроены
 
--   Просмотр подробной информации об устройстве, включая его соответствие политикам компании или учебного заведения
+-   Проверка состояния соответствия
 
--   Удаленное управление компьютером (работает только для ПК)
+-   Удаленное управление ПК
 
-По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://portal.manage.microsoft.com#HelpDeskDialog).
+По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

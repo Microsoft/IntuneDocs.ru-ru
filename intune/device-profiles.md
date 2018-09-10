@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 07/25/2018
+ms.date: 08/28/2018
 ms.topic: get-started-article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 8bb03becae1f28a3f5490a53576d5183c0b3ffaa
-ms.sourcegitcommit: 0d08daa162212e6cdd8a6ee3ad7ed42c6e6824e4
+ms.openlocfilehash: da220e1f82c59f3181d64dc01d071867d62df397
+ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39335832"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43313978"
 ---
 # <a name="what-are-microsoft-intune-device-profiles"></a>Что такое профили устройств в Microsoft Intune?
 
@@ -54,6 +54,7 @@ Microsoft Intune включает в себя параметры и функци
 - iOS 
 - macOS
 
+
 ## <a name="device-restrictions"></a>Ограничения устройств
 [Ограничения устройств](device-restrictions-configure.md) позволяют управлять безопасностью, оборудованием, общим доступом к данным и другими параметрами на устройствах. Например, можно создать профиль ограничения устройства, который запрещает доступ к камере пользователям устройств с iOS. 
 
@@ -72,6 +73,13 @@ Microsoft Intune включает в себя параметры и функци
 
 Эта функция поддерживает:
 - Windows 10 и более поздней версии
+
+## <a name="identity-protection"></a>Защита идентификации
+[Защита идентификации](identity-protection-configure.md) управляет возможностью использования Windows Hello для бизнеса на устройствах с Windows 10 и Windows 10 Mobile. Настройте эти параметры, чтобы предоставить Windows Hello для бизнеса для пользователей и устройств, а также указать требования к ПИН-кодам и жестам для устройств.  
+
+Эта функция поддерживает:  
+- Windows 10 и более поздней версии
+- Windows Holographic for Business  
 
 ## <a name="kiosk"></a>Киоск
 
