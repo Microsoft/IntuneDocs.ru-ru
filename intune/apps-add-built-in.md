@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 09/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 0ec8de66-5a0f-4c8d-afbf-c2becc7d6eec
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b9520343f3b631fdc2732690b462c6d8fd010c82
-ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
+ms.openlocfilehash: 908135e93fd3980af9d9e80d9c5cf3b4a8abddc3
+ms.sourcegitcommit: d047a692c798e1fb61ee43a487d6332bce344610
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43329501"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "44058756"
 ---
 # <a name="add-built-in-apps-to-microsoft-intune"></a>Добавление встроенных приложений в Microsoft Intune
 
@@ -36,7 +36,7 @@ ms.locfileid: "43329501"
 Для добавления встроенного приложения в список доступных приложений Microsoft Intune сделайте следующее:
 1. Войдите на портал Azure.
 2. Чтобы активировать область Microsoft Intune, выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
-3. В области **Intune** выберите **Клиентские приложения**.
+3. На панели **Intune** выберите **Клиентские приложения**.
 4. В области **Клиентские приложения** в разделе **Управление** выберите **Приложения**.
 5. Нажмите кнопку **Добавить**.
 6. В области **Добавить приложение** в списке **Тип приложения** выберите **Встроенное приложение**.
