@@ -13,12 +13,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e2dba6e0d1c50790c8c2c2bf287695ab67fdb972
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: df2e2f81008c6dedf5660a8a9eff4bf2cfe2ec6b
+ms.sourcegitcommit: 77540295381a59918eb638ce9c1870209cf8af02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905339"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46505739"
 ---
 # <a name="how-to-configure-wi-fi-settings-in-microsoft-intune"></a>Настройка параметров Wi-Fi в Microsoft Intune
 
@@ -62,8 +62,6 @@ ms.locfileid: "37905339"
     - **Windows 8.1 и более поздние версии**
     - **Windows 10 и более поздних версий**.
 
-   > [!IMPORTANT]
-   > При создании профиля для устройств под управлением Windows 10, включая Windows Holographic for Business, необходимо выбрать платформу **Windows 8.1 и более поздние версии**. Платформа **Windows 10 и более поздние версии** не включает тип профиля Wi-Fi. 
 
 6. Для устройств Apple или Android в раскрывающемся списке **Тип Wi-Fi** выберите **Базовый** или **Корпоративный**. При выборе типа **Базовый** можно указать основные параметры, такие как имя сети и идентификатор SSID. Тип **Корпоративный** позволяет указать дополнительные сведения, например протокол расширенной проверки подлинности (EAP), если он используется в сети Wi-Fi. 
 

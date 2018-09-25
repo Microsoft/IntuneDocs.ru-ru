@@ -15,12 +15,12 @@ ms.assetid: 30df0f9e-6e9e-4d75-a722-3819e33d480d
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6f1fbe688705940d3e8038affb84268fbaf113e3
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: f7565972d37c5df5acb83012bb7cebbdc1fa1cec
+ms.sourcegitcommit: 378474debffbc85010c54e20151d81b59b7a7828
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43313070"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "47028653"
 ---
 # <a name="automatically-enroll-android-devices-by-using-samsungs-knox-mobile-enrollment"></a>Автоматическая регистрация устройств Android с помощью Samsung Knox Mobile Enrollment
 
@@ -84,7 +84,7 @@ ms.locfileid: "43313070"
 
 - **Без связи с именем пользователя.** На портале Knox в разделе **Device details** (Сведения об устройстве) оставьте пустыми поля для **User ID** (Идентификатор пользователя) и **Password** (Пароль) для добавленных устройств. Имя пользователя и пароль вводятся пользователем при регистрации в Intune.
 
-- **Со связью с именем пользователя.** На портале Knox в разделе **Device details** (Сведения об устройстве) укажите **User ID** (Идентификатор пользователя) (например, имя назначенного пользователя или учетную запись для [диспетчера регистрации устройств](https://docs.microsoft.com/en-us/intune/device-enrollment-manager-enroll)) для добавленных устройств. После этого имя пользователя будет вводиться автоматически и при регистрации в Intune пользователю потребуется ввести пароль.
+- **Со связью с именем пользователя.** На портале Knox в разделе **Device details** (Сведения об устройстве) укажите **User ID** (Идентификатор пользователя) (например, имя назначенного пользователя или учетную запись для [диспетчера регистрации устройств](https://docs.microsoft.com/intune/device-enrollment-manager-enroll)) для добавленных устройств. После этого имя пользователя будет вводиться автоматически и при регистрации в Intune пользователю потребуется ввести пароль.
 
 > [!NOTE]
 >
