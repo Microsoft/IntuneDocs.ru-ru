@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 09/13/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: a097b7b2-d01d-454b-954c-da4f3cd0ae86
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a7d7554cad04dcca0d7f56986aef4c4b30193c18
-ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
+ms.openlocfilehash: e86db15fb4c69b57a1dc572d5a7e4f06eee3b760
+ms.sourcegitcommit: bea4a81d262607c6e9dd1e26f5cd1a2faf7d051b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43347613"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "45602118"
 ---
 # <a name="add-a-windows-phone-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения Windows Phone в Microsoft Intune
 
@@ -32,7 +32,7 @@ ms.locfileid: "43347613"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Клиентские приложения**.
+3. На панели **Intune** выберите **Клиентские приложения**.
 4. В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Приложения**.
 5. Над списком приложений щелкните **Добавить**.
 6. В области **Добавить приложение** выберите **Бизнес-приложение**.

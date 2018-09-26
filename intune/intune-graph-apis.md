@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3ca5b09d415466d2ab6ce2f70a53f7fd8444d28f
-ms.sourcegitcommit: dbea918d2c0c335b2251fea18d7341340eafd673
+ms.openlocfilehash: 07c07caa7d64e18aae8b44810a4fdcb2b645b9fa
+ms.sourcegitcommit: 23adbc50191f68c4b66ea845a044da19c659ac84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31835556"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45562941"
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Доступ к интерфейсам API Intune в Microsoft Graph с использованием Azure AD
 
@@ -162,7 +162,7 @@ __Чтение конфигурации Microsoft Intune__ | [DeviceManagementSe
 - Значение параметра **Разрешить доступ**: __Чтение приложений Microsoft Intune__
 
 - Разрешает доступ с правами на чтение к свойствам и сведениям о состоянии следующих сущностей:
-    - Мобильные приложения
+    - Клиентские приложения
     - Категории мобильных приложений
     - Политики защиты приложений
     - Конфигурации приложений
@@ -175,7 +175,7 @@ __Чтение конфигурации Microsoft Intune__ | [DeviceManagementSe
 
 - Также позволяет вносить изменения в следующие сущности:
 
-    - Мобильные приложения
+    - Клиентские приложения
     - Категории мобильных приложений
     - Политики защиты приложений
     - Конфигурации приложений

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2677009921a9c498f988bdc674db6342613a05d6
-ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
+ms.openlocfilehash: 2d90fe324e5a21ae2413fa004f20a9e4f113c38e
+ms.sourcegitcommit: 445a54dc6826a549d770a9953549ae2191d391c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43347735"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727515"
 ---
 # <a name="add-android-store-apps-to-microsoft-intune"></a>Добавление приложения из магазина Android в Microsoft Intune
 
@@ -31,7 +31,7 @@ ms.locfileid: "43347735"
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**.  
     Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Клиентские приложения**.
+3. На панели **Intune** выберите **Клиентские приложения**.
 4. В области рабочей нагрузки **Клиентские приложения** перейдите к разделу **Управление** и выберите **Приложения**.
 5. Нажмите кнопку **Добавить**.
 6. В области **Добавление приложения** выберите пункт **Android** в списке доступных типов **приложений магазина**.
