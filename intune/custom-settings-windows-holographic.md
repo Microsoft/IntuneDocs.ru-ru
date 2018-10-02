@@ -9,15 +9,16 @@ ms.date: 4/26/2018
 ms.article: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.topic: article
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7272e8e088ae2c2ecad1756233281c42a80a279b
-ms.sourcegitcommit: 2061f7a442efc96c8afd5db764d11531563c7e39
+ms.openlocfilehash: b8ba5078d304c0e9d6b10e4efb868642323c901c
+ms.sourcegitcommit: 2795255e89cbe97d0b17383d446cca57c7335016
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32328084"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47403584"
 ---
 # <a name="custom-device-settings-for-devices-running-windows-holographic-for-business-in-intune"></a>Настраиваемые параметры для устройств с Windows Holographic for Business в Intune
 
