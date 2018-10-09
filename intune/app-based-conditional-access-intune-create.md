@@ -2,8 +2,8 @@
 title: Настройка политики условного доступа на основе приложений в Intune
 description: Узнайте, как настроить политику условного доступа на основе приложений в Intune.
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 05/17/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: d1693515-de18-4553-91ef-801976cd3ec7
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c505e881fe06d6f4da217533d0507731ac22a29f
-ms.sourcegitcommit: 698bd1488be3a269bb88c077eb8d99df6e552a9a
+ms.openlocfilehash: 2d6d67454409cf8a8749d28cba6ac76f591da9e3
+ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34285030"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48231293"
 ---
 # <a name="set-up-app-based-conditional-access-policies-with-intune"></a>Настройка политик условного доступа на основе приложений в Intune
 

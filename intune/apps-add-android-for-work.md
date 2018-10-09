@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 06/15/2018
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: faa8918441bd705875fcdc72d3717af001ab2b85
-ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
+ms.openlocfilehash: 0cfb3dab58676b12b0227f381e9fd7c51e956895
+ms.sourcegitcommit: 28262384ec94e43970cc7a33e5d9063972bdf468
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43329876"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799563"
 ---
 # <a name="assign-apps-to-android-work-profile-devices-with-intune"></a>Назначение приложений для устройств с рабочим профилем Android в Intune
 
@@ -63,7 +63,7 @@ Android для бизнеса — это программа для устрой
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Клиентские приложения**.
+3. На панели **Intune** выберите **Клиентские приложения**.
 4. В области рабочей нагрузки **Клиентские приложения** в разделе **Установка** выберите **Управляемый Google Play**.
 5. На панели **Управляемый Google Play** нажмите **Обновить**.  
     На странице обновятся сведения о времени и состоянии последней синхронизации.

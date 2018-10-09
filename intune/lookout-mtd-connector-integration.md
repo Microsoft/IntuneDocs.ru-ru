@@ -3,8 +3,8 @@ title: Настройка интеграции Lookout с Microsoft Intune
 titlesuffix: ''
 description: Здесь приведены сведения об интеграции Intune с Lookout Mobile Threat Defense для управления доступом к корпоративным ресурсам с мобильных устройств.
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 06/21/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b34bde9ef7817310c25b9a699fa4e18d3151d944
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: fe8a55153ccc2b28c23ec2f32a4285d20afaaf6a
+ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31029871"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48232191"
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Настройка интеграции Lookout Mobile Threat Defense с Intune
 
@@ -88,12 +88,12 @@ ms.locfileid: "31029871"
     > [!NOTE] 
     > Если пользователи входят в группу регистрации, любые их распознаваемые и поддерживаемые устройства, поддерживающие Lookout и зарегистрированные в Intune, регистрируются и могут быть активированы в консоли Lookout MTD.
 
-2. В модуле **Система** [консоли Lookout](https://aad.lookout.com) откройте вкладку **Соединители** и выберите **Enrollment Management** (Управление регистрацией), чтобы задать набор пользователей, устройства которых должны быть зарегистрированы в Lookout. Добавьте **Отображаемое имя** группы безопасности Azure AD для регистрации.
+2. В [консоли Lookout](https://aad.lookout.com) в модуле **Система** перейдите на вкладку **Соединители** и выберите параметр **Управление регистрацией**, чтобы определить набор пользователей, устройства которых должны быть зарегистрированы в Lookout. Добавьте **Отображаемое имя** группы безопасности Azure AD для регистрации.
 
     ![снимок экрана: страница регистрации соединителя Intune](./media/lookout-mtp-enrollment.png)
 
     >[!IMPORTANT]
-    > **Отображаемое имя** указывается с учетом регистра, как показано на странице **Свойства** группы безопасности на портале Azure. Как показано на рисунке ниже, **отображаемое имя** группы безопасности задано в "верблюжьем" стиле, а заголовок — строчными буквами. Обеспечьте совпадение регистра **отображаемого имени** для группы безопасности в консоли Lookout.
+    > **Отображаемое имя** указывается с учетом регистра, как показано на странице **Свойства** группы безопасности на портале Azure. Как показано на рисунке ниже, **отображаемое имя** группы безопасности указано в "верблюжьем" стиле, а название — в нижнем регистре. Обеспечьте совпадение регистра **отображаемого имени** для группы безопасности в консоли Lookout.
     >![снимок экрана портала Azure, служба Azure Active Directory, страница свойств](./media/aad-group-display-name.png)
 
     >[!NOTE] 

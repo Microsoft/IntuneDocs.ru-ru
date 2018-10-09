@@ -3,8 +3,8 @@ title: Настройка локального соединителя Exchange �
 titleSuffix: ''
 description: Используйте локальный соединитель Exchange для управления доступом устройств к почтовым ящикам Exchange на основе регистрации в Intune и Exchange Active Sync (EAS).
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 03/08/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: a0376ea1-eb13-4f13-84da-7fd92d8cd63c
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 7de97ac8a9149d2574bbc97df67408f85b243a11
-ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
+ms.openlocfilehash: e12ab106b44d217d7e7b4b1a466fd5b12a9fb528
+ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34744692"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48231837"
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
