@@ -6,19 +6,19 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 3/2/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 010ed8511b042d6f764ba947f616d76521588f42
-ms.sourcegitcommit: 91802e78cd5014d20a828ca25a54a381d452f0f8
+ms.openlocfilehash: bdc7f4f8f796d04f5c709298cd654bc2cdc32d0e
+ms.sourcegitcommit: a30cfdb3d3f97b6d5943db2d842011a6f60115f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2018
-ms.locfileid: "34216264"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "47864614"
 ---
 # <a name="configure-microsoft-intune-for-ios-device-single-sign-on"></a>Настройка единого входа на устройствах с iOS в Microsoft Intune
 
@@ -84,7 +84,7 @@ ms.locfileid: "34216264"
 > [!NOTE]
 > URL-адреса должны иметь правильный формат полных доменных имен. Компания Apple требует следующий формат: `http://<yourURL.domain>`.
 
-Шаблоны сопоставления URL-адресов должны начинаться с префикса `http://` или `https://`. Производится простое сравнение строк, поэтому URL-адрес `http://www.contoso.com/` не совпадает с `http://www.contoso.com:80/`. В iOS 9.0 и более поздних версиях можно использовать один подстановочный знак \*, которому соответствуют любые значения. Например, шаблону `http://*.contoso.com/` соответствует как адрес `http://store.contoso.com/`, так и адрес `http://www.contoso.com`.
+Шаблоны сопоставления URL-адресов должны начинаться с префикса `http://` или `https://`. Производится простое сравнение строк, поэтому URL-адрес `http://www.contoso.com/` не совпадает с `http://www.contoso.com:80/`. В iOS 10.0 и более поздних версиях можно использовать один подстановочный знак \*, которому соответствуют любые значения. Например, шаблону `http://*.contoso.com/` соответствует как адрес `http://store.contoso.com/`, так и адрес `http://www.contoso.com`.
 Шаблонам `http://.com` и `https://.com` соответствуют все URL-адреса, начинающиеся с префикса HTTP и HTTPS соответственно.
 
 ### <a name="apps-that-will-use-single-sign-on"></a>Приложения, для которых будет использоваться единый вход

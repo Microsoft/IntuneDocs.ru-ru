@@ -6,7 +6,7 @@ keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
-ms.date: 02/22/2018
+ms.date: 09/25/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: 59cba4ead614fe0b5deac535efb9bcb303d5810d
-ms.sourcegitcommit: 18f51ae8291b57562921e40fc364a5a60a59b139
+ms.openlocfilehash: ee14a7983451ae37113462e1c8f0aac5785f2f09
+ms.sourcegitcommit: 503d76e0b066d0db77bcc48e5116c861f6a6fb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2018
-ms.locfileid: "44253615"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187875"
 ---
 # <a name="what-are-common-ways-to-use-conditional-access-with-intune"></a>Каковы стандартные способы использования условного доступа с помощью Intune?
 
@@ -45,6 +45,13 @@ ms.locfileid: "44253615"
 -   Дополнительные сведения о [соответствии требованиям устройств Intune](device-compliance.md).
 
 -   Дополнительные сведения о [защите служб электронной почты, Office 365 и других сервисов с использованием условного доступа в Intune](https://docs.microsoft.com/intune-classic/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune).
+
+> [!NOTE]
+> На устройствах с Android при включении доступа на основе устройства для Sharepoint Online пользователь должен включить параметр **Включить доступ в браузере** на зарегистрированном устройстве следующим образом.
+> 1. Запустите **приложение корпоративного портала**.
+> 2. Перейдите на страницу **Настройки** с помощью кнопки с многоточием (…) или аппаратной кнопки меню.
+> 3. Нажмите кнопку **Включить доступ в браузере** . 
+> 4. В браузере Chrome выйдите из Office 365 и перезагрузите Chrome.
 
 ### <a name="conditional-access-for-exchange-on-premises"></a>Условный доступ для локальной организации Exchange
 

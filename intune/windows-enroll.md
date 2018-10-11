@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/12/2018
+ms.date: 09/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,18 +15,18 @@ ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 02cc111f8991a855db4f05360e54598af511f28f
-ms.sourcegitcommit: 34e96e57af6b861ecdfea085acf3c44cff1f3d43
+ms.openlocfilehash: 31c3e7b6d255cd99efee134f0276fd4d15dab6b9
+ms.sourcegitcommit: 2795255e89cbe97d0b17383d446cca57c7335016
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34223498"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47403567"
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Этот раздел поможет ИТ-администраторам упростить регистрацию Windows для пользователей организации. После [настройки Intune](setup-steps.md) пользователи регистрируют устройства Windows, выполняя [вход](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows) с использованием рабочей или учебной учетной записи.  
+Эта статья поможет ИТ-администраторам упростить регистрацию Windows для пользователей организации. После [настройки Intune](setup-steps.md) пользователи регистрируют устройства Windows, выполняя [вход](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows) с использованием рабочей или учебной учетной записи.  
 
 Как администратор Intune вы можете упростить регистрацию одним из следующих способов:
 - [включение автоматической регистрации](#enable-windows-10-automatic-enrollment) (требуется Azure AD Premium);
@@ -45,13 +45,14 @@ ms.locfileid: "34223498"
 
 Организации, способные использовать автоматическую регистрацию, могут также настроить и [массовую регистрацию устройств](windows-bulk-enroll.md) с помощью конструктора конфигураций Windows.
 
-**Поддержка нескольких пользователей**<br>
-Мы добавили поддержку управления несколькими пользователями с помощью Intune для устройств под управлением Windows 10 Creators Update, присоединенных к домену Azure Active Directory. Когда обычные пользователи входят в систему с помощью учетных данных Azure AD, они получают доступ ко всем приложениям и политикам, назначенным их пользовательским именам. Сейчас пользователи не могут использовать корпоративный портал для таких сценариев самообслуживания, как установка приложений.
+## <a name="multi-user-support"></a>Поддержка нескольких пользователей
+
+Intune поддерживает управление несколькими пользователями для устройств с ОС Windows 10 Creators Update, присоединенных к домену Azure Active Directory. Когда обычные пользователи входят в систему с помощью учетных данных Azure AD, они получают доступ ко всем приложениям и политикам, назначенным их пользовательским именам. Сейчас пользователи не могут использовать Корпоративный портал для таких сценариев самообслуживания, как установка приложений.
 
 [!INCLUDE [AAD-enrollment](./includes/win10-automatic-enrollment-aad.md)]
 
 ## <a name="simplify-windows-enrollment-without-azure-ad-premium"></a>Упрощение регистрации Windows без Azure AD Premium
-Вы можете упростить регистрацию, создав псевдоним сервера доменных имен (DNS-псевдоним; тип записи CNAME), который автоматически перенаправляет запросы регистрации на серверы Intune. Если не создать запись ресурса CNAME DNS, пользователям, пытающимся подключиться к Intune, потребуется ввести имя сервера Intune при регистрации.
+Чтобы упростить регистрацию, создайте псевдоним сервера доменных имен (DNS-псевдоним; тип записи CNAME), который перенаправляет запросы на регистрацию на серверы Intune. В противном случае пользователям, пытающимся подключиться к Intune, потребуется ввести имя сервера Intune при регистрации.
 
 **Шаг 1. Создание записи CNAME** (необязательно)<br>
 Создайте запись ресурсов CNAME DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.
@@ -63,7 +64,13 @@ ms.locfileid: "34223498"
 |CNAME|EnterpriseEnrollment.company_domain.com|EnterpriseEnrollment-s.manage.microsoft.com| 1 час|
 |CNAME|EnterpriseRegistration.company_domain.com|EnterpriseRegistration.windows.net|1 час|
 
-При наличии нескольких UPN-суффиксов необходимо создать по одной записи CNAME для каждого имени домена и указать для них EnterpriseEnrollment-s.manage.microsoft.com. Если в качестве электронной почты или UPN пользователи используют name@contoso.com, а также name@us.contoso.com и name@eu.constoso.com, администратору Contoso DNS нужно создать следующие записи CNAME.
+Если в организации используется несколько UPN-суффиксов, необходимо создать по одной записи CNAME для каждого доменного имени и указать для них EnterpriseEnrollment-s.manage.microsoft.com. Например, пользователи в компании Contoso используют следующие форматы электронной почты или UPN.
+
+- name@contoso.com
+- name@us.contoso.com
+- name@eu.constoso.com\
+
+Администратору DNS в Contoso следует создать следующие записи CNAME.
 
 |Type|Имя узла|Указывает на|СРОК ЖИЗНИ|  
 |----------|---------------|---------------|---|
@@ -76,7 +83,8 @@ ms.locfileid: "34223498"
 Распространение изменений записей DNS может занимать до 72 часов. Вы не можете проверить смену DNS в Intune, пока запись DNS не будет распространена.
 
 **Шаг 2. Проверка записи CNAME** (необязательно)<br>
-На портале Azure выберите пункты **Другие службы** > **Мониторинг и управление** > **Intune**. В колонке Intune выберите пункты **Регистрация устройств** > **Регистрация Windows**. Введите URL-адрес веб-сайта организации в поле **Укажите проверенное имя домена** и нажмите кнопку **Проверить автообнаружение**.
+1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства**  >  **Регистрация Windows**  >  **Проверка CNAME**.
+2. В поле **Домен** укажите веб-сайт организации и нажмите кнопку **Проверка**.
 
 ## <a name="tell-users-how-to-enroll-windows-devices"></a>Передайте пользователям инструкции по регистрации устройств Windows
 Сообщите пользователям, как зарегистрировать устройства Windows и что произойдет при управлении ими.

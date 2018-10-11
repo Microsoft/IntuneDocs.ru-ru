@@ -6,7 +6,7 @@ keywords: ''
 author: msmimart
 ms.author: mimart
 manager: dougeby
-ms.date: 06/28/2017
+ms.date: 09/25/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d295ade29522a5593993b5541311eadd9e4c9528
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 4714b0bbe566589d970a5d959f1f361940e5701b
+ms.sourcegitcommit: 503d76e0b066d0db77bcc48e5116c861f6a6fb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31027474"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187841"
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 
@@ -179,6 +179,9 @@ ms.locfileid: "31027474"
 12. В колонке политики условного доступа **Создать** установите переключатель **Включить политику**, а затем нажмите кнопку **Создать**.
 
     ![Сравнение пользовательского интерфейса включения политики условного доступа на порталах Intune и Azure](./media/reassign-ca-17.png)
+
+> [!NOTE]
+> При настройке **платформ устройств** сохранение политики завершится ошибкой "Конфигурация политики не поддерживается". Exchange ActiveSync не может определить платформу, используемую подключающимся устройством. Поэтому настройка определенных платформ устройств не поддерживается при создании политики для устройств Exchange ActiveSync.
 
 ## <a name="disable-conditional-access-policies-in-the-intune-classic-portal"></a>Отключение политик условного доступа на классическом портале Intune
 

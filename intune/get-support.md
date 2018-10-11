@@ -3,10 +3,10 @@ title: Получение поддержки для Microsoft Intune
 titlesuffix: Microsoft Intune
 description: Получите поддержку по платной или пробной версии Microsoft Intune онлайн или по телефону.
 keywords: ''
-author: dougeby
-ms.author: dougeby
+author: brenduns
+ms.author: brenduns
 manager: dougeby
-ms.date: 06/28/2017
+ms.date: 09/25/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 7fc95d17-098e-4da5-8a09-a96476569dd9
 ms.reviewer: cacamp
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 08d5e94155586140ac087b9ad9d24bdbd078f59b
-ms.sourcegitcommit: 445fcf9e2a185e5c987334cad398bce71383be03
+ms.openlocfilehash: c9a413e0aaf13b2dab7b211a568fbd15ce43df3a
+ms.sourcegitcommit: 503d76e0b066d0db77bcc48e5116c861f6a6fb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "34843146"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187790"
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
@@ -30,17 +30,27 @@ ms.locfileid: "34843146"
 
 >[!IMPORTANT]
 > Чтобы получить техническую поддержку для продуктов, используемых с Intune, от сторонних разработчиков (например, SaaSwedo, Cisco или Lookout), сначала попробуйте обратиться к поставщику продукта. Прежде чем обращаться в службу поддержки Intune, проверьте, правильно ли настроен этот сторонний продукт.
+> 
+> Сведения об устранении неполадок, связанных с Microsoft Intune, см. в разделе [Устранение неполадок](help-desk-operators.md) документации Intune.
+
+ИТ-администратор может зарегистрировать обращение в службу поддержки, связанное с Intune, через Интернет на портале Azure, выбрав пункт **Справка и поддержка**. Для создания обращения в службу поддержки вашей учетной записи должна быть назначена одна из следующих [ролей администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal). 
+
+- Администратор Intune 
+- Глобальный администратор 
+- Администратор служб  
+
+
+## <a name="get-context-sensitive-help"></a>Получение контекстной справки 
+Войдя на портал Azure и открыв Intune, вы можете выбрать пункт **Справка и поддержка** в любой колонке Intune, чтобы просмотреть решения распространенных проблем, связанных с данным разделом Intune. 
+
+Если стандартные решения не помогают, вы можете выбрать пункт **запрос в службу поддержки**, чтобы создать запрос в службу поддержки. В результате открывается колонка **Основы** на странице *Справка и поддержка* Azure. Чтобы создать обращение в службу поддержки, перейдите к *шагу 3* следующей процедуры ([Создание запроса в службу поддержки в Интернете](#create-an-online-support-ticket)). 
 
 ## <a name="create-an-online-support-ticket"></a>Создание запроса в службу поддержки в Интернете
 
-Как ИТ-администратор, вы можете зарегистрировать обращение в службу поддержки на портале Azure, выполнив следующие действия.
->[!NOTE]
->Чтобы создать запрос в службу поддержки через Интернет, нужно быть администратором службы Intune или глобальным администратором. Дополнительные сведения см. в статье [Назначение ролей администратора](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal).
-1. Войдите на портал Azure (<https://portal.azure.com>), используя свои учетные данные администратора Intune, выберите значок <strong>?</strong> в правом верхнем углу, а затем выберите <strong>Справка и поддержка</strong> для перехода на страницу [справки и поддержки Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
-
+1. Войдите на портал Azure (<https://portal.azure.com>), используя свои учетные данные администратора Intune, и выберите значок <strong>?</strong> в правом верхнем углу, а затем выберите <strong>Справка и поддержка</strong> для перехода на страницу [справки и поддержки Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
     ![Снимок экрана с выделенной ссылкой в виде вопросительного знака на страницу справки и поддержки по порталу Azure](./media/azure-get-support.png)
 
-2. На странице справки и поддержки Azure выберите **Новый запрос в службу поддержки**.
+2. На странице *Справка и поддержка_+_* Azure выберите **Новый запрос в службу поддержки**.
 
     ![Снимок экрана со страницей справки и поддержки по порталу Azure с выделенной ссылкой "Новый запрос в службу поддержки"](./media/azure-support-ticket-link.png)
 
@@ -72,7 +82,7 @@ ms.locfileid: "34843146"
    - **Время**
    - **Дополнительные данные**
 
-     Нажмите кнопку **Далее**.
+   Нажмите кнопку **Далее**.
 
 5. Укажите **Контактные данные** для этого запроса в службу поддержки. Корпорация Майкрософт использует эти сведения для связи с вами.
 6. Выберите **Создать**, чтобы отправить запрос в службу поддержки.
@@ -80,7 +90,15 @@ ms.locfileid: "34843146"
 >[!IMPORTANT]
 >Если у вас возник вопрос о выставлении счетов или о подписке, вы можете сделать обращение для получения поддержки через [Центр администрирования Office](https://portal.office.com/Support/SupportEntry.aspx).
 
+## <a name="view-support-requests"></a>Просмотр запросов на поддержку
+Запрос в службу поддержки можно просмотреть на портале Azure. Для этого:
+
+1. Войдите в Azure (<https://portal.azure.com>), используя свои учетные данные администратора Intune, и выберите значок <strong>?</strong> в правом верхнем углу, а затем выберите <strong>Справка и поддержка</strong> для перехода на страницу [справки и поддержки Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
+
+2. На странице **Справка и поддержка** можно просмотреть список **недавних запросов в службу поддержки** и выбрать их, чтобы просмотреть дополнительные сведения.
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Контактные телефоны службы поддержки Microsoft Intune](phone-support-contact.md)
 - [Поддержка по вопросам выставления счетов и управления подписками](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 - [Корпоративное лицензирование](http://go.microsoft.com/fwlink/p/?LinkID=282015)
+- [Устранение неполадок, связанных с Intune](help-desk-operators.md)

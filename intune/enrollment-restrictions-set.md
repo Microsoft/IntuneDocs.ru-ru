@@ -15,12 +15,12 @@ ms.assetid: 9691982c-1a03-4ac1-b7c5-73087be8c5f2
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 76c0b96a1759caad4a1052a7233c7dcc8cecfa3b
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: de77ad92eac4aa869aec504f1762ad6f216c74d2
+ms.sourcegitcommit: bea4a81d262607c6e9dd1e26f5cd1a2faf7d051b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43313723"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "45602152"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -83,29 +83,31 @@ ms.locfileid: "43313723"
 8. Выберите **Разрешить** или **Блокировать** в разделе **Личные** для каждой указанной платформы.
 9. Нажмите кнопку **ОК**.
 
-### <a name="android-device-type-restrictions"></a>Ограничения по типу устройства с Android
+### <a name="blocking-personal-android-devices"></a>Блокирование личных устройств с Android
 - Если вы запрещаете регистрацию для личных устройств Android, личные устройства с рабочим профилем Android все равно можно зарегистрировать.
 - По умолчанию параметры устройств с личным профилем Android совпадают с параметрами устройств Android. После изменения параметров рабочего профиля Android эта ситуация будет недопустимой.
 - В случае блокировки регистрации личных устройств с рабочим профилем Android зарегистрировать как рабочий профиль Android можно только корпоративные устройства Android.
 
-### <a name="windows-device-type-restrictions"></a>Ограничения по типу устройства с Windows
-После включения **блокировки** для типа устройств на платформе Windows служба Intune проверяет, чтобы новые запросы на регистрацию в Windows были авторизованы как корпоративная регистрация. Несанкционированные регистрации будут заблокированы.
+### <a name="blocking-personal-windows-devices"></a>Блокирование личных устройств с Windows
+Если вы заблокировали регистрацию личных устройств Windows, служба Intune проверяет, авторизован ли каждый новый запрос на регистрацию устройства Windows как корпоративная регистрация. Несанкционированные регистрации будут заблокированы.
 
 Следующие методы могут считаться авторизованными в качестве корпоративной регистрации Windows:
  - Регистрирующийся пользователь использует [учетную запись диспетчера регистрации устройств]( device-enrollment-manager-enroll.md).
 - Устройство регистрируется с помощью [Windows AutoPilot](enrollment-autopilot.md).
+- Устройство регистрируется с помощью Windows AutoPilot, но для него не задан параметр "Регистрация только в MDM" из параметров Windows.
 - Номер IMEI устройства указан в списке **Регистрация устройств** > **[Идентификаторы корпоративных устройств](corporate-identifiers-add.md)**. (Не поддерживается для Windows Phone 8.1.)
 - Устройство регистрируется с помощью [пакета массовой подготовки](windows-bulk-enroll.md).
 - Устройство регистрируется с помощью [автоматической регистрации из SCCM для совместного управления](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview#how-to-configure-co-management.md).
  
 Следующие регистрации помечаются Intune как корпоративные, однако поскольку они не предоставляют администратору Intune контроль на уровне устройств, они будут заблокированы:
- - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory во время настройки Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-frx.md).
-- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory из приложения "Параметры" Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-setup.md).
+ - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory во время настройки Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-frx.md)\*.
+- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory из приложения "Параметры" Windows ](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-setup.md)*.
  
 Следующие методы регистрации личных устройств также будут заблокированы:
-- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с помощью команды [Добавить рабочую учетную запись из параметров Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-registered-devices-windows10-setup.md).
+- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с помощью команды [Добавить рабочую учетную запись из параметров Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-registered-devices-windows10-setup.md)\*.
 - Использование параметра [Регистрация только в MDM]( https://docs.microsoft.com/windows/client-management/mdm/mdm-enrollment-of-windows-devices#connecting-personally-owned-devices-bring-your-own-device) из параметров Windows.
 
+\* Не блокируются при регистрации с помощью Autopilot.
 
 ## <a name="set-device-limit-restrictions"></a>Установка ограничений по числу устройств
 

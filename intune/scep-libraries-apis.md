@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 07/31/2018
+ms.date: 09/12/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 423bfc02edb9260adadf0a6dc67e6299639c7fbb
-ms.sourcegitcommit: 8f68cd3112a71d1cd386da6ecdae3cb014d570f2
+ms.openlocfilehash: 31c083dcd2087de99830317d892750a42cc5ae6d
+ms.sourcegitcommit: ae62a269778cdbf1d207cd017de522f934b030e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39575055"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44700988"
 ---
 # <a name="use-apis-to-add-third-party-cas-for-scep-to-intune"></a>Использование API для добавления сторонних ЦС для SCEP в Intune
 
@@ -125,6 +125,13 @@ IntuneScepServiceClient(
     - AAD_APP_KEY="Ключ приложения Azure, полученный при подключении"
     - TENANT="Идентификатор клиента, полученный во время подключения"
     - PROVIDER_NAME_AND_VERSION="Сведения для идентификации продукта и его версии"
+    
+Если решению требуется прокси-сервер с проверкой подлинности или без нее, можно добавить следующие свойства.
+
+    - PROXY_HOST = "Узел, на котором размещен прокси-сервер"
+    - PROXY_PORT = "Порт, прослушиваемый прокси-сервером"
+    - PROXY_USER = "Имя пользователя, используемое в случае обычной проверки подлинности на прокси-сервере"
+    - PROXY_PASS="Пароль, используемый в случае обычной проверки подлинности на прокси-сервере"
 
 Создает исключение:
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/23/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,17 +15,19 @@ ms.assetid: 3292671a-5f5a-429e-90f7-b20019787d22
 ms.reviewer: aiwang
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c8c87b5a76a69809e46fe3f4c5d74019546a819d
-ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
+ms.openlocfilehash: b4905e637f7ef709c88371a41ec9275115d571e1
+ms.sourcegitcommit: ddf90877d1ea9da70fd0ef228560f455625e35ba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43330234"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46563251"
 ---
 # <a name="assign-office-365-apps-to-windows-10-devices-with-microsoft-intune"></a>Назначение приложений Office 365 устройствам на базе Windows 10 с помощью Microsoft Intune
 
 Этот тип приложения позволяет легко назначать приложения Office 365 управляемым устройствам под управлением Windows 10. Вы также можете устанавливать приложения клиента Microsoft Project Online для настольных ПК и программу Microsoft Visio Pro для Office 365, если у вас есть соответствующие лицензии. Все необходимые вам приложения отображаются одним элементом в списке приложений на консоли Intune.
 
+> [!NOTE]
+> Для активации приложений Office 365 профессиональный плюс, развернутых посредством Microsoft Intune, необходимо использовать лицензии на Office 365 профессиональный плюс. В настоящее время Intune не поддерживает выпуск Office 365 бизнес.
 
 ## <a name="before-you-start"></a>Перед началом работы
 

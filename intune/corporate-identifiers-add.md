@@ -15,12 +15,12 @@ ms.assetid: 566ed16d-8030-42ee-bac9-5f8252a83012
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6bf9eaef010879835abb7cec57c2fbdce6aa1e0a
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: e46951be5048e0bcf2af5b2d4320744f6d6e47e8
+ms.sourcegitcommit: 3785e506ef5fbc474b3e09e87412d4b673bbdbb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905875"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46541961"
 ---
 # <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
 
@@ -33,7 +33,7 @@ ms.locfileid: "37905875"
 - зарегистрировано с помощью учетной записи [диспетчера регистрации устройств](device-enrollment-manager-enroll.md) (все платформы);
 - зарегистрировано с помощью [программы регистрации устройств](device-enrollment-program-enroll-ios.md) Apple, [Apple School Manager](apple-school-manager-set-up-ios.md) или [Apple Configurator](apple-configurator-enroll-ios.md) (только для устройств iOS);
 - [идентифицировано как корпоративное перед регистрацией](#identify-corporate-owned-devices-with-imei-or-serial-number) с помощью номеров IMEI (все платформы с номерами IMEI) или серийных номеров (iOS и Android);
-- зарегистрировано в Azure Active Directory или Enterprise Mobility + Security как устройство с Windows 10 Корпоративная;
+- присоединено к Azure Active Directory как устройство с Windows 10 Корпоративная;
 - указано как корпоративное в [списке свойств устройства](#change-device-ownership).
 
 После регистрации вы можете [изменить значение параметра владения](#change-device-ownership), выбрав **Личное** или **Корпоративное**.

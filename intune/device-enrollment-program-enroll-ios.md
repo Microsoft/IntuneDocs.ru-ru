@@ -15,12 +15,12 @@ ms.assetid: 7ddbf360-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 27995fb643e4373e2fa6a34c7147c69905f9ccc0
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: 841cfdeea1d33876c1b678a531c88663aea3759e
+ms.sourcegitcommit: 2795255e89cbe97d0b17383d446cca57c7335016
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43312650"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47403601"
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 
@@ -35,7 +35,7 @@ ms.locfileid: "43312650"
 ## <a name="what-is-supervised-mode"></a>Что такое защищенный режим
 В iOS 5 компания Apple представила защищенный режим. Устройством iOS в защищенном режиме можно управлять с помощью дополнительных средств. Этот режим особенно полезен для корпоративных устройств. Intune поддерживает настройку защищенного режима для устройств в рамках Программы регистрации устройств Apple (DEP). 
 
-В iOS 11 прекращена поддержка незащищенных устройств DEP. В iOS 11 и более поздних версий устройства, настроенные с помощью DEP, должны всегда быть защищены. Флаг DEP is_supervised будет игнорироваться в будущем выпуске iOS.
+В iOS 11 прекращена поддержка незащищенных устройств DEP. В iOS 11 и более поздних версий устройства, настроенные с помощью DEP, должны всегда быть защищены. Флаг DEP is_supervised будет игнорироваться в будущем выпуске iOS.
 
 <!--
 **Steps to enable enrollment programs from Apple**
@@ -61,7 +61,7 @@ ms.locfileid: "43312650"
 
 ### <a name="step-1-download-the-intune-public-key-certificate-required-to-create-the-token"></a>Шаг 1. Скачивание сертификата открытого ключа Intune, необходимого для создания токена
 
-1. [В Intune на портале Azure](https://aka.ms/intuneportal) выберите **Регистрация устройства** > **Регистрация Apple** > **Токены программы регистрации** > **Добавить**.
+1. В [Intune на портале Azure](https://aka.ms/intuneportal) выберите **Регистрация устройства**  >  **Регистрация Apple**  >  **Токены программы регистрации**  >  **Добавить**.
 
     ![Получение токена программы регистрации](./media/device-enrollment-program-enroll-ios/image01.png)
 

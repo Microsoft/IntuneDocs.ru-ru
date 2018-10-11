@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 515853864236638bc2732f6539d087bd125e3c56
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: c4b9b99a17e435b1d79d2e10565abbd262c89741
+ms.sourcegitcommit: 503d76e0b066d0db77bcc48e5116c861f6a6fb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43313467"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187824"
 ---
 # <a name="set-up-enrollment-of-android-enterprise-kiosk-devices"></a>Настройка регистрации киосков Android для бизнеса
 
@@ -74,6 +74,7 @@ Intune помогает развертывать приложения и пар�
     - **Место добавления устройств**: enrollmentProfileName
     - В среднем поле выберите **Соответствие**.
     - В последнем поле введите имя профиля регистрации, который был создан ранее.
+    Дополнительные сведения о правилах динамического членства см. в статье [Правила динамического членства в группах для Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership). 
 5. Выберите **Добавить запрос** > **Создать**.
 
 ### <a name="replace-or-remove-tokens"></a>Замена или удаление токенов

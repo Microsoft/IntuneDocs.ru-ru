@@ -1,11 +1,11 @@
 ---
-title: Использование устройства iOS или macOS в Intune | Документы Майкрософт
-description: Список ссылок на задачи, которые можно выполнять на мобильном устройстве iOS или macOS, зарегистрированном в Intune
+title: Использование устройства macOS в Intune | Документы Майкрософт
+description: Ссылки на материалы по устранению неполадок мобильного устройства macOS и управлению им с помощью приложения "Корпоративный портал"
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 4/20/2018
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,20 +17,20 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 02ccde8299e4ad5d6aacb2abd120c094f752c5e6
-ms.sourcegitcommit: 9536300a6211bac4bdc733593a40c1ae47611de3
+ms.openlocfilehash: 887b9355bc68edca314a49743b8d11728ca2361a
+ms.sourcegitcommit: 534efa7c5033098233b2549c2d7fc6cf33330e79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
-ms.locfileid: "31771862"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "47168919"
 ---
-# <a name="using-your-macos-device-with-intune"></a>Использование устройства macOS в Intune
+# <a name="using-your-macos-device-with-intune-company-portal"></a>Использование устройства macOS с Корпоративным порталом Intune
 
-Существует ряд вещей, которые можно сделать в Intune для упрощения работы. Ниже приведен список самых распространенных задач, которые могут потребоваться в вашей организации.
+В этой статье приводятся задачи и сведения, относящиеся к корпоративному порталу для macOS. Используйте их для устранения неполадок устройства macOS и управления им. Щелкните любую ссылку, чтобы просмотреть дополнительные сведения, инструкции и снимки экрана. 
 
 ## <a name="supported-versions"></a>Поддерживаемые версии
 
-Intune в настоящее время поддерживает OS X El Capitan версии 10.11 и более поздних для устройств macOS.
+Корпоративный портал для macOS в настоящее время поддерживает OS X El Capitan версии 10.11 и более поздних для устройств macOS.
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Регистрация в Intune и установка корпоративного портала
 

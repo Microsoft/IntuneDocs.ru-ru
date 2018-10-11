@@ -1,11 +1,11 @@
 ---
 title: Использование устройства Windows в Intune | Документы Майкрософт
-description: Список ссылок на задачи, которые пользователи могут выполнять на устройстве Windows, зарегистрированном в Intune
+description: Ссылки на материалы по устранению неполадок устройств Windows и управлению ими с помощью Корпоративного портала
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/06/2017
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,36 +17,36 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 645e87ef731cf911824ab16673c01e962c91fb70
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: c4018c73c2160a3db5d5c8b8843e803b56f2caa3
+ms.sourcegitcommit: 534efa7c5033098233b2549c2d7fc6cf33330e79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31017263"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "47168970"
 ---
-# <a name="using-your-windows-device-with-intune"></a>Использование устройства Windows в Intune
+# <a name="using-your-windows-device-with-intune-company-portal"></a>Использование устройства Windows с Корпоративным порталом Intune
 
-Существует ряд вещей, которые можно сделать в Intune для упрощения работы. Ниже приведен список самых распространенных задач, которые могут потребоваться в вашей организации.
+В этой статье приводятся задачи и сведения, относящиеся к Корпоративному порталу для Windows. Используйте их для устранения неполадок устройств Windows и управления ими. Щелкните любую ссылку, чтобы просмотреть дополнительные сведения, инструкции и снимки экрана.  
 
 ## <a name="supported-versions"></a>Поддерживаемые версии
 
-Intune сейчас поддерживает следующие версии Windows:
+Корпоративный портал сейчас поддерживает следующие версии Windows.
 
 * Windows 10 (Домашняя, Pro, S, Корпоративная и для образовательных учреждений)
 * Windows Phone 8.1 и более поздней версии
 * Windows 8.1 RT
 * Windows 8.1
 
-Intune также поддерживает некоторые другие версии Windows, например [Windows 10 Holographic](https://www.microsoft.com/hololens). Они не указаны здесь, так как предназначены для специализированных целей.
+Корпоративный портал также поддерживает некоторые другие версии Windows, например [Windows 10 Holographic](https://www.microsoft.com/hololens). Они не указаны в этой статье, так как предназначены для особых целей.
 
-## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Регистрация в Intune и установка корпоративного портала
+## <a name="enrolling-your-device-and-installing-the-company-portal"></a>Регистрация устройства и установка Корпоративного портала
 
 - [Регистрация устройства с Windows в Intune](enroll-your-device-in-intune-windows.md)
 - [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 - [Какие сведения доступны моей организации после регистрации устройства в Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 - [Сброс (очистка) потерянного или украденного устройства](reset-erase-your-device-cpwebsite.md)
 
-## <a name="things-you-can-do-when-your-device-is-enrolled-in-intune"></a>Что вы можете делать, когда ваше устройство зарегистрировано в Intune
+## <a name="things-you-can-do-after-your-device-is-enrolled-in-management"></a>Что вы можете делать, когда ваше устройство зарегистрировано в системе управления
 
 - [Шифрование устройства](encrypt-your-device-windows.md)
 - [Установка или изменение пароля](set-or-change-your-password-windows.md)

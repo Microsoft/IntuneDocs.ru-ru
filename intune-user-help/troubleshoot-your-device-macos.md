@@ -1,11 +1,11 @@
 ---
-title: Решение распространенных проблем с устройствами с iOS | Документы Майкрософт
-description: Узнайте, как решить распространенные проблемы с вашим устройством с iOS.
+title: Решение распространенных проблем с устройствами с macOS | Документы Майкрософт
+description: Решение распространенных проблем с устройствами с macOS в Intune
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 12/06/2017
+ms.date: 09/20/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,19 +17,19 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: eeb9b04a3e8d7a5d1f96e58e3df7310d53817090
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.openlocfilehash: 003bf4046a997e3633105e4dc41c93a82e16ee40
+ms.sourcegitcommit: 77540295381a59918eb638ce9c1870209cf8af02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43146784"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46505722"
 ---
 # <a name="fix-common-issues-with-your-macos-device"></a>Решение распространенных проблем с устройствами с macOS
 
-Иногда на устройствах с macOS могут возникать проблемы, которые можно решить посредством устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
+Устраняйте распространенные проблемы, возникающие во время и после регистрации устройств с macOS. Если возникшая проблема отсутствует в приведенном ниже списке, обратитесь в службу поддержки вашей организации. Его контактные данные доступны на [корпоративном портале](https://go.microsoft.com/fwlink/?linkid=2010980).
 
 - [Моя версия macOS еще не поддерживается](your-macos-version-isnt-yet-supported.md)
-- [Обновление устройства с macOS](you-need-to-update-your-macos-device.md)
-- [Ошибки, которые могут возникать при использовании портала самообслуживания Jamf](device-little-different-jamf.md)
-- [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-macos.md)
-- [Идентификация устройства](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
+- [Мне нужно обновить устройство с macOS](you-need-to-update-your-macos-device.md)
+- [Устройство под управлением Jamf не соответствует требованиям](device-little-different-jamf.md)
+- [Я не могу найти серийный номер](how-do-i-find-the-serial-number-on-my-device-macos.md)
+- [Меня попросили идентифицировать свое устройство](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)

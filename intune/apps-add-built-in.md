@@ -15,12 +15,12 @@ ms.assetid: 0ec8de66-5a0f-4c8d-afbf-c2becc7d6eec
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 908135e93fd3980af9d9e80d9c5cf3b4a8abddc3
-ms.sourcegitcommit: d047a692c798e1fb61ee43a487d6332bce344610
+ms.openlocfilehash: 62a7f2f45ccd98612e56e253945974a8eb193f25
+ms.sourcegitcommit: 23adbc50191f68c4b66ea845a044da19c659ac84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "44058756"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45562720"
 ---
 # <a name="add-built-in-apps-to-microsoft-intune"></a>Добавление встроенных приложений в Microsoft Intune
 
@@ -48,7 +48,7 @@ ms.locfileid: "44058756"
 ## <a name="configure-app-information"></a>Настройка сведений о приложении
 
 Вы можете изменять сведения о встроенном приложении. Эти сведения помогут вам идентифицировать приложение в Intune, а пользователям — найти его на корпоративном портале.
-1. В области **Мобильные приложения — Приложения** выберите встроенное приложение, которое требуется изменить.  
+1. В области **Клиентские приложения — Приложения** выберите встроенное приложение, которое требуется изменить.  
     Отобразится область для встроенного приложения.
 2. В разделе **Управление** выберите **Свойства**.
 3. Чтобы изменить сведения о встроенном приложении, выберите **Настроить**.
