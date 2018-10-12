@@ -1,11 +1,11 @@
 ---
 title: Использование устройства Android в Intune | Документы Майкрософт
-description: Список ссылок на задачи, которые можно выполнять на мобильном устройстве Android, зарегистрированном в Intune
+description: Список ссылок на материалы по устранению неполадок устройств Android, зарегистрированных в Intune, и управлению ими
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/05/2017
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,20 +17,20 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 347757a333bcfd8e649cb621f0a95c83f24cdc88
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+ms.openlocfilehash: 35c76db52db0f037427357eb5f3059a65908ae12
+ms.sourcegitcommit: 534efa7c5033098233b2549c2d7fc6cf33330e79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31018674"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "47168953"
 ---
-# <a name="using-your-android-device-with-intune"></a>Использование устройства Android с Intune
+# <a name="using-your-android-device-with-intune-company-portal"></a>Использование устройства Android с Корпоративным порталом Intune
 
-Существует ряд вещей, которые можно сделать в Intune для упрощения работы. Ниже приведен список самых распространенных задач, которые могут потребоваться в вашей организации.
+В этой статье приводятся задачи и сведения, относящиеся к корпоративному порталу для Android. Используйте их для устранения неполадок устройства Android и управления им. Щелкните любую ссылку, чтобы просмотреть дополнительные сведения, инструкции и снимки экрана. 
 
 ## <a name="supported-versions"></a>Поддерживаемые версии
 
-Сейчас Intune поддерживает Android 4.4 и более поздние версии. Сюда входят Samsung Knox 4.4 и более поздние модели устройств.
+Сейчас Корпоративный портал поддерживает Android 4.4 и более поздние версии. Сюда входят Samsung Knox 4.4 и более поздние модели устройств.
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Регистрация в Intune и установка корпоративного портала
 
