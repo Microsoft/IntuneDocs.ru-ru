@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/15/2018
+ms.date: 09/10/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 5f08752f-0e87-4ad9-a34c-4991b3150775
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: ec483218cb86426b237c40c8831a2f0880847ade
-ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
+ms.openlocfilehash: 7e974a17506be36c725dddfa21329269c8fcebc8
+ms.sourcegitcommit: 572287c3bb0020b6b75e4e2ac27019c20c699159
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43347463"
+ms.lasthandoff: 09/10/2018
+ms.locfileid: "44340275"
 ---
 # <a name="add-web-apps-to-microsoft-intune"></a>Добавление веб-приложений в Microsoft Intune
 
@@ -62,6 +62,8 @@ Intune поддерживает множество типов приложени
 
 > [!Note]
 > Пользователям нужно добавить мини-приложение Intune на начальный экран, чтобы видеть веб-приложения, которые были назначены устройствам Android.
+>
+> Сейчас развертывание веб-приложений Intune на устройствах iOS связано с профилем управления. Веб приложения нельзя удалить вручную. На портале Intune вы можете изменить значение типа развертывания на **Удаление**. После этого веб-приложение можно удалить автоматически. Если вы удалите развертывание, перед тем как изменить намерение для назначения приложений на **Удаление**, веб-приложение будет оставаться на устройстве до отмены регистрации в Intune.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
