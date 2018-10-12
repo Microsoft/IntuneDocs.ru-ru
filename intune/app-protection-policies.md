@@ -3,8 +3,8 @@ title: Создание и развертывание политик защит�
 titleSuffix: Microsoft Intune
 description: Сведения о создании и назначении политик защиты приложений в Microsoft Intune.
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 09/12/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: f31b2964-e932-4cee-95c4-8d5506966c85
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 45c394f3aadde63299b8397974f4547c4968c192
-ms.sourcegitcommit: 534efa7c5033098233b2549c2d7fc6cf33330e79
+ms.openlocfilehash: 368c804fa044dc303b22e2ae9cf8d273d6cd051a
+ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47169038"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48231820"
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>Как создать и назначить политики защиты приложений
 

@@ -3,8 +3,8 @@ title: Краткое руководство. Создание профиля э
 titlesuffix: Microsoft Intune
 description: Узнайте, как с помощью Microsoft Intune создать профиль электронной почты устройства для безопасного подключения устройств iOS к корпоративной электронной почте.
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 09/21/2018
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a0c554315168147249e0842b69e3e6195ed85979
-ms.sourcegitcommit: 27eed5aba5c8bfafb079171081b68f75a6cbffaf
+ms.openlocfilehash: b797951c878dd90cbb7bb716b5108f94f48921c5
+ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46581827"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48231956"
 ---
 # <a name="quickstart-create-an-email-device-profile-for-ios"></a>Краткое руководство. Создание профиля электронной почты для устройств iOS
 
