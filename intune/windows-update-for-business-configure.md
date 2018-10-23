@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.reviewer: coryfe
 ms.suite: ems
-ms.openlocfilehash: df7e14b485fae0a70b8f0f487229b9e31ace4077
-ms.sourcegitcommit: 40b1d82df99f09a75a17065cdd0e84d8038f460a
+ms.openlocfilehash: d709681519f2e68d38958d6ec2082b762e22cf60
+ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40255251"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49425161"
 ---
 # <a name="manage-software-updates-in-intune"></a>Управление обновлениями программного обеспечения в Intune
 
@@ -34,7 +34,7 @@ ms.locfileid: "40255251"
   - Программа предварительной оценки Windows — медленная
   - Выпуск программы предварительной оценки Windows 
       
-  Сведения о доступных каналах обслуживания см. в статье [Обзор модели "Windows как услуга"](https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#servicing-channels).
+  Сведения о доступных каналах обслуживания см. в статье [Обзор модели "Windows как услуга"](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels).
 - **Параметры отсрочки**: настройте параметры отсрочки обновлений для групп устройств. Используйте эти параметры для промежуточного развертывания обновления, которое позволит попутно просматривать ход выполнения.
 - **Приостановка**: отложите установку обновлений в случае обнаружения проблемы на любом этапе накопительного обновления.
 - **Период обслуживания**: укажите интервалы времени, когда можно устанавливать обновления.

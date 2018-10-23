@@ -15,19 +15,16 @@ ms.assetid: 4b6dcbcc-4661-4463-9a36-698d673502c6
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 516e2f935225b7142c75b01967977fe97297c8e2
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: 0b4af0a638d86d32b244c3a34f8039e466394736
+ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48232189"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49424940"
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
 
-|Область применения: Intune на портале Azure |
-|--|
-|Ищете документацию по Intune на классическом портале? [Щелкните здесь](/intune/introduction-intune?toc=/intune-classic/toc.json).|
-| |
+Область применения: Intune на портале Azure
 
 Если сотрудники организации управляют компьютерами Mac пользователей с помощью [Jamf Pro](https://www.jamf.com), соответствие корпоративных устройств можно обеспечить, используя политики соответствия требованиям Microsoft Intune и условного доступа Azure Active Directory.
 

@@ -5,7 +5,7 @@ keywords: sdk, Xamarin, intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/10/2018
+ms.date: 10/17/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,13 +13,13 @@ ms.technology: ''
 ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
 ms.reviewer: aanavath
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: c3ccd2db88df4e5b7a51e0aa2446a99f33256432
-ms.sourcegitcommit: 378474debffbc85010c54e20151d81b59b7a7828
+ms.custom: intune
+ms.openlocfilehash: 68cc4bb576f567787e702ccd88026579b6ed5b12
+ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "47028721"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49425314"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -27,7 +27,7 @@ ms.locfileid: "47028721"
 > Вы можете сначала прочесть статью [Начало работы с пакетом SDK для приложений Intune](app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
 
 ## <a name="overview"></a>Обзор
-[Привязки Xamarin из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) позволяют использовать [политику защиты приложений Intune](/intune-classic/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune) в приложениях iOS и Android, созданных с помощью Xamarin. Привязки разрешают разработчикам легко встраивать в свои приложения на базе Xamarin функции защиты приложений Intune.
+[Привязки Xamarin из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) позволяют использовать [политику защиты приложений Intune](app-protection-policy.md) в приложениях iOS и Android, созданных с помощью Xamarin. Привязки разрешают разработчикам легко встраивать в свои приложения на базе Xamarin функции защиты приложений Intune.
 
 Привязки Xamarin из пакета SDK для приложений Microsoft Intune позволяют встраивать в приложения, разработанные с помощью Xamarin, политики защиты приложений Intune, также известные как политики защиты приложений или политики управления мобильными приложениями. В приложение, которое использует MAM, встроен пакет SDK для приложений Intune. ИТ-администраторы могут развернуть политики защиты приложений в вашем мобильном приложении, когда Intune активно управляет им.
 
@@ -80,14 +80,14 @@ ms.locfileid: "47028721"
 
 ## <a name="enabling-intune-app-protection-policies-in-your-android-mobile-app"></a>Включение политик защиты приложений Intune в мобильном приложении Android
 
-Для приложений Android на базе Xamarin, которые не используют инфраструктуру пользовательского интерфейса, потребуется прочесть [Руководство разработчика Android по SDK для приложений Intune](app-sdk-android.md) и выполнить приведенные там указания. Для приложения Android на основе Xamarin следует заменить класс, методы и действия их эквивалентами MAM, используя [таблицу](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent) из этого руководства. Если приложение не определяет класс `android.app.Application`, необходимо создать его и убедиться, что выполняется наследование от `MAMApplication`.
+Для приложений Android на базе Xamarin, которые не используют инфраструктуру пользовательского интерфейса, потребуется прочесть [Руководство разработчика Android по SDK для приложений Intune](app-sdk-android.md) и выполнить приведенные там указания. Для приложения Android на основе Xamarin следует заменить класс, методы и действия их эквивалентами MAM, используя [таблицу](app-sdk-android.md#class-and-method-replacements) из этого руководства. Если приложение не определяет класс `android.app.Application`, необходимо создать его и убедиться, что выполняется наследование от `MAMApplication`.
 
 ### <a name="xamarinandroid-integration"></a>Интеграция Xamarin.Android
 
 1. Вы можете добавить последнюю версию [пакета Microsoft.Intune.MAM.Xamarin.Android NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.Android) в проект Xamarin.Android. Это предоставит необходимые ссылки, чтобы включить Intune для вашего приложения.
 
 2. Прочитайте [руководство разработчиков Android по SDK для приложений Intune](app-sdk-android.md) и следуйте ему, уделив особое внимание следующему:
-    1. [Весь раздел о заменах классов и методов](app-sdk-android.md#replace-classes-methods-and-activities-with-their-mam-equivalent). 
+    1. [Весь раздел о заменах классов и методов](app-sdk-android.md#class-and-method-replacements). 
     2. [Раздел MAMApplication](app-sdk-android.md#mamapplication). Убедитесь, что подкласс правильно декорирован атрибутом `[Application]` и переопределяет конструктор `(IntPtr, JniHandleOwnership)`.
     3. [Раздел об интеграции ADAL](app-sdk-android.md#configure-azure-active-directory-authentication-library-adal), если приложение выполняет проверку подлинности на основе AAD.
     4. [Раздел о регистрации MAM-WE](app-sdk-android.md#app-protection-policy-without-device-enrollment), если вы планируете получить политику из службы MAM в своем приложении.
