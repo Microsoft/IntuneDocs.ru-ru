@@ -3,10 +3,10 @@ title: Как создать и развернуть политику защит
 titlesuffix: Microsoft Intune
 description: Как создать и развернуть политику защиты приложений Windows Information Protection (WIP) с помощью Microsoft Intune
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
-ms.date: 05/04/2018
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 425dce514d9cf0288a5e84ef5fa89790e6cee8be
-ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
+ms.openlocfilehash: c1d530059d7c5b5f759516e86d4ee3dbf8512aa5
+ms.sourcegitcommit: 28262384ec94e43970cc7a33e5d9063972bdf468
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43347313"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799631"
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
 
@@ -46,19 +46,27 @@ ms.locfileid: "43347313"
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-Прежде чем создавать политику защиты приложений WIP, необходимо настроить поставщик MAM. Узнайте больше о [настройке поставщика MAM при помощи Intune](app-protection-policies-configure-windows-10.md).
+Прежде чем создавать политику защиты приложений WIP, необходимо настроить поставщик MAM. Узнайте больше о [настройке поставщика MAM при помощи Intune](app-protection-policies-configure-windows-10.md).  
+
+> [!IMPORTANT]
+> WIP не поддерживает множественную идентификацию: одновременно может существовать только одно управляемое удостоверение.
 
 Кроме того, вам понадобится следующая лицензия и обновление:
 
 -   лицензия [Azure AD Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium);
 -   [Windows Creators Update](https://blogs.windows.com/windowsexperience/2017/04/11/how-to-get-the-windows-10-creators-update/#o61bC2PdrHslHG5J.97).
 
-> [!IMPORTANT]
-> WIP не поддерживает множественную идентификацию: одновременно может существовать только одно управляемое удостоверение.
+
+
+
 
 ## <a name="to-add-a-wip-app-protection-policy"></a>Как добавить политику защиты приложений WIP
 
 После настройки Intune в вашей организации можно создать политику для конкретного экземпляра WIP.
+
+> [!TIP]  
+> Дополнительные сведения о создании политик WIP для Intune, включая доступные параметры и их настройку, см. в разделе [Создание политики Windows Information Protection (WIP) с помощью MAM на портале Azure для Microsoft Intune](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-mam-intune-azure) в библиотеке документации по безопасности Windows. 
+
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Последовательно выберите **Все службы** > **Intune**.
@@ -123,7 +131,7 @@ ms.locfileid: "43347313"
 ### <a name="what-are-the-protection-modes"></a>Какие режимы защиты существуют?
 
 #### <a name="block"></a>Блокировать
-WIP ищет случаи недопустимого совместного использования данных и прекращает выполнение действия пользователем. К таким случаям относится совместное использование сведений в приложениях, которые не защищены на корпоративном уровне, а также предоставление общего доступа к корпоративным данным другим лицам и устройствам за пределами вашей организации.
+WIP ищет случаи недопустимого совместного использования данных и прекращает выполнение действия пользователем. Действия блокировки могут касаться совместного использования сведений в приложениях, которые не защищены на корпоративном уровне, а также предоставления общего доступа к корпоративным данным другим лицам и устройствам за пределами вашей организации.
 
 #### <a name="allow-overrides"></a>Разрешить переопределения
 WIP ищет случаи ненадлежащего совместного использования данных, предупреждая пользователей о том, что их действия расцениваются как потенциально небезопасные. Однако в этом режиме пользователь может переопределять политику и предоставлять общий доступ к данным, при этом действие записывается в журнал аудита.

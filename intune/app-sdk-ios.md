@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/19/2018
+ms.date: 10/08/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: 77f6391637b8d6f8f2ed47dd84885c11b8b6f476
-ms.sourcegitcommit: 60297a41a91d32f9a162e01f8aafc9b8369b7b3d
+ms.openlocfilehash: b707fcae4af332b13d10e343a84ace801c88c2fd
+ms.sourcegitcommit: ca132d509e3c978d18e50eac89e1a1ed7ddb25c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "46466784"
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "48866428"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -207,7 +207,7 @@ ms.locfileid: "46466784"
 
 ### <a name="if-your-app-does-not-use-adal"></a>Если приложение не использует ADAL
 
-Если приложение не использует ADAL, пакет SDK для приложений Intune предоставит значения по умолчанию для параметров ADAL и будет обрабатывать операции проверки подлинности в Azure AD. Вам не нужно указывать значения для параметров ADAL, перечисленные выше.
+Как указывается выше, пакет SDK для приложений Intune использует [библиотеку проверки подлинности Azure Active Directory](https://github.com/AzureAD/azure-activedirectory-library-for-objc) в рамках своих процедур проверки подлинности и условного запуска. Он также использует ADAL для регистрации удостоверения пользователя в службе MAM для управления без сценариев регистрации устройства. Если **приложение не использует ADAL для реализации собственного механизма проверки подлинности**, пакет SDK для приложений Intune предоставит значения по умолчанию для параметров ADAL и будет обрабатывать операции проверки подлинности в Azure AD. Вам не нужно указывать значения для параметров ADAL, перечисленные выше. Если в вашем приложении используется какой-либо механизм проверки подлинности, он будет отображаться поверх запросов ADAL. 
 
 ## <a name="configure-settings-for-the-intune-app-sdk"></a>Настройка параметров пакета SDK для приложений Intune
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/31/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 5c64b915f240cab2faac84a6a78b213a5fffa0a6
-ms.sourcegitcommit: 2d1e89fa5fa721e79648e41fde147a035e7b047d
+ms.openlocfilehash: d6880d3891891fe27a41d04a118e14ac9d4782b3
+ms.sourcegitcommit: d92caead1d96151fea529c155bdd7b554a2ca5ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43347904"
+ms.lasthandoff: 10/06/2018
+ms.locfileid: "48828182"
 ---
 # <a name="add-a-windows-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения Windows в Microsoft Intune
 
@@ -32,7 +32,7 @@ ms.locfileid: "43347904"
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. В области **Intune** выберите **Клиентские приложения**.
+3. На панели **Intune** выберите **Клиентские приложения**.
 4. В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Приложения**.
 5. Над списком приложений щелкните **Добавить**.
 6. В области **Добавить приложение** выберите **Бизнес-приложение**.
@@ -41,7 +41,11 @@ ms.locfileid: "43347904"
 
 1. В области **Добавить приложение** выберите **Файл пакета приложения**.
 2. В области **Файл пакета приложения** нажмите кнопку обзора. Выберите файл установки Windows с расширением **.msi**, **.appx** или **.appxbundle**.
-3. Завершив настройку, нажмите кнопку **ОК**.
+
+    > [!NOTE]
+    > Расширения файлов для приложений Windows: **MSI**, **APPX**, **APPXBUNDLE**, **MSIX** и **MSIXBUNDLE**.  
+
+1. Завершив настройку, нажмите кнопку **ОК**.
 
 
 ## <a name="step-3-configure-app-information"></a>Шаг 3. Настройка сведений о приложении

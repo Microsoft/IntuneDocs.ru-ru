@@ -6,13 +6,6 @@ items:
     href: what-is-intune.md
   - name: Основные сведения об Intune для образовательных учреждений
     href: introduction-intune-education.md
-  - name: Возможности Intune в Azure
-    href: ui-changes.md
-    items:
-    - name: Изменения в группах
-      href: groups-get-started.md
-    - name: Устаревший клиент Intune для настольных компьютеров
-      href: intune-legacy-pc-client.md
   - name: Зарегистрируйтесь для получения бесплатной пробной версии
     href: free-trial-sign-up.md
   - name: Новые возможности
@@ -20,10 +13,6 @@ items:
     items:
     - name: Новые возможности пользовательского интерфейса приложения
       href: whats-new-app-ui.md
-    - name: Архив сведений о новых возможностях (портал Azure)
-      href: whats-new-archive.md
-    - name: Архив сведений о новых возможностях (классический портал)
-      href: whats-new-archive-classic.md
   - name: Описание службы
     href: microsoft-intune-service-description.md
   - name: Известные проблемы
@@ -34,18 +23,20 @@ items:
 - name: Краткие руководства
   href: get-started-evaluation.md
   items:
-  - name: Навигация по порталу Azure
-    href: get-started-azure.md
+  - name: Бесплатная пробная версия Intune
+    href: free-trial-sign-up.md
   - name: Создание пользователя
-    href: get-started-users.md
+    href: quickstart-create-user.md
   - name: Создание группы
-    href: get-started-groups.md
-  - name: Назначение политик
-    href: get-started-policies.md
-  - name: регистрации устройств;
-    href: get-started-enroll.md
-  - name: Назначение приложений
-    href: get-started-apps.md
+    href: quickstart-create-group.md
+  - name: Создание политики
+    href: quickstart-create-policy.md
+  - name: Настройка автоматической регистрации
+    href: quickstart-setup-auto-enrollment.md
+  - name: создание и назначение настраиваемой роли.
+    href: quickstart-create-custom-role.md
+  - name: Создание профиля электронной почты устройства
+    href: quickstart-email-profile.md
 - name: Руководства по реализации сценария
   items:
   - name: Защита Exchange Online
@@ -60,6 +51,10 @@ items:
     href: byod-technology-decisions.md
 - name: Основные понятия
   items:
+  - name: Что такое управление устройствами?
+    href: what-is-device-management.md
+  - name: Навигация по порталу Azure
+    href: get-started-azure.md
   - name: Высокоуровневая архитектура
     href: high-level-architecture.md
   - name: Жизненные циклы устройств и приложений
@@ -169,6 +164,8 @@ items:
         href: device-group-mapping.md
     - name: Настройка регистрации Windows
       items:
+      - name: Возможности способов регистрации
+        href: enrollment-method-capab.md
       - name: Регистрация Windows
         href: windows-enroll.md
       - name: Массовая регистрация
@@ -273,6 +270,8 @@ items:
           href: apps-add-office365-macos.md
       - name: Сборка приложения (бизнес-приложения)
         items:
+        - name: Управление приложениями Win32
+          href: apps-win32-app-management.md
         - name: Бизнес-приложения Android
           href: lob-apps-android.md
         - name: Бизнес-приложения iOS
@@ -322,6 +321,8 @@ items:
         href: company-portal-app.md
       - name: Настройка Managed Browser
         href: app-configuration-managed-browser.md
+      - name: Настройка Outlook
+        href: app-configuration-policies-outlook.md
     - name: Защита приложений
       items:
       - name: Выборочная очистка приложений
@@ -377,6 +378,8 @@ items:
       items:
       - name: Android
         href: device-restrictions-android.md
+      - name: Android для бизнеса
+        href: device-restrictions-android-for-work.md
       - name: iOS
         href: device-restrictions-ios.md
       - name: macOS
@@ -391,8 +394,6 @@ items:
         href: device-restrictions-windows-10-teams.md
       - name: Windows Holographic for Business
         href: device-restrictions-windows-holographic.md
-      - name: Рабочий профиль Android
-        href: device-restrictions-android-for-work.md
     - name: Настройка Endpoint Protection
       href: endpoint-protection-configure.md
       items:
@@ -491,7 +492,7 @@ items:
     items:
     - name: Создание политики Android
       href: compliance-policy-create-android.md
-    - name: Создание политики рабочего профиля Android
+    - name: Создание политики корпоративного профиля Android
       href: compliance-policy-create-android-for-work.md
     - name: Создание политики для поддержки Google Play Защиты
       href: compliance-policy-create-google-play-protect.md
@@ -703,7 +704,7 @@ items:
         href: custom-settings-windows-10.md
       - name: Windows Holographic for Business
         href: custom-settings-windows-holographic.md
-      - name: Рабочий профиль Android
+      - name: Android для бизнеса
         href: custom-settings-android-for-work.md
 - name: Руководство разработчика
   items:
@@ -780,6 +781,8 @@ items:
       href: https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/intune_graph_overview
 - name: Ресурсы
   items:
+  - name: Руководство по документации Microsoft Intune
+    href: intune-documentation.md
   - name: Устранение неполадок
     items:
     - name: Помощь пользователям в устранении проблем
@@ -804,11 +807,25 @@ items:
       href: troubleshoot-conditional-access.md
     - name: Устранение проблем в работе соединителя с Exchange
       href: troubleshoot-exchange-connector.md
+  - name: Архив
+    items:
+    - name: Новые возможности — архив
+      items:
+      - name: Архив сведений о новых возможностях (портал Azure)
+        href: whats-new-archive.md
+      - name: Архив сведений о новых возможностях (классический портал)
+        href: whats-new-archive-classic.md
+    - name: Классические функции Intune в Azure
+      href: ui-changes.md
+    - name: Классические группы Intune
+      href: groups-get-started.md
+    - name: Устаревший клиент Intune для настольных компьютеров
+      href: intune-legacy-pc-client.md
   - name: Глоссарий
     href: intune-glossary.md
-ms.openlocfilehash: 8926b2cb409f59bab9b4af8398dac146abeec3d2
-ms.sourcegitcommit: 443b4cb3390da47bf1e497b1f0c0137a5ddda7bd
+ms.openlocfilehash: a2820903d6a3609df50290af18843200ef076158
+ms.sourcegitcommit: d92caead1d96151fea529c155bdd7b554a2ca5ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "43821122"
+ms.lasthandoff: 10/06/2018
+ms.locfileid: "48828063"

@@ -3,8 +3,8 @@ title: Политика соответствия устройств для ус�
 titlesuffix: Microsoft Intune
 description: Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf.
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 02/16/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 990c17dcb7a25e5ea6676326f785d49ac6ca3320
-ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
+ms.openlocfilehash: d4c41d3a4cdfada81b91a3dffeffdfe15e8a470f
+ms.sourcegitcommit: 17094728cfd9eb3f77ca39745fdcde9be0a8dda1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34482341"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48812827"
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
 
@@ -73,9 +73,9 @@ ms.locfileid: "34482341"
 
 ## <a name="removing-a-jamf-managed-device-from-intune"></a>Удаление устройства под управлением Jamf из Intune
 
-Удалить устройство под управлением Jamf из Intune невозможно. Необходимо удалить устройство под управлением Jamf из Jamf Pro, после чего оно будет удалено из Intune. 
+Вы можете удалить устройство под управлением Jamf из консоли Intune, выбрав **Удалить** в представлении **Все устройства**. Чтобы выполнить массовое удаление устройств, выберите несколько устройств и нажмите **Удалить**.
 
-Узнайте, как [удалить устройство под управлением Jamf, в документации по Jamf Pro](https://www.jamf.com/jamf-nation/articles/80/unmanaging-computers-while-preserving-their-inventory-information). Чтобы получить дополнительную помощь, можно также отправить запрос в [службу поддержки Jamf](https://www.jamf.com/support/). 
+Сведения об [удалении устройства под управлением Jamf см. в документации Jamf Pro](https://www.jamf.com/jamf-nation/articles/80/unmanaging-computers-while-preserving-their-inventory-information). Чтобы получить дополнительную помощь, можно также отправить запрос в [службу поддержки Jamf](https://www.jamf.com/support/). 
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
