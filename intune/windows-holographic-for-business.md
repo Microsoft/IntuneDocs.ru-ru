@@ -1,31 +1,31 @@
 ---
-title: Управление устройствами Windows Holographic с помощью Microsoft Intune в Azure | Документы Майкрософт
-description: С помощью Microsoft Intune можно выполнять различные задачи на устройствах с Windows Holographic for Business, включая настройку корпоративного портала, создание политики соответствия, настройку параметров OMA-URI, развертывание приложений, разделение устройств на группы, создание профилей, ограничение устройств, включение обновлений программного обеспечения, задание условий, настройку параметров сетей Wi-Fi и VPN и использование Hello для бизнеса.
+title: Использование устройств Windows Holographic с помощью Microsoft Intune в Azure | Документация Майкрософт
+description: С помощью Microsoft Intune можно управлять устройствами с Windows Holographic for Business и HoloLens и выполнять на них различные задачи, включая настройку корпоративного портала, создание политики соответствия, настройку параметров OMA-URI, развертывание приложений, разделение устройств на группы, создание профилей, ограничение устройств, включение обновлений программного обеспечения, задание условий, настройку параметров сетей Wi-Fi и VPN и использование Hello для бизнеса.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 6/11/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 825ceb1eee8f6fdd38f8a203324ce3cad7291918
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: 81a11ce35cbf0f256f59bf26d317933977750d6e
+ms.sourcegitcommit: b33ff64514abdc5e939ff59ea722b3704cd56c78
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43317903"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "49065770"
 ---
-# <a name="customize-devices-running-windows-holographic-with-intune"></a>Настройка устройств с Windows Holographic с помощью Intune
+# <a name="manage-and-use-windows-holographic-and-hololens-devices-with-intune"></a>Использование устройств Windows Holographic и HoloLens и управление ими в Intune
 
-Microsoft Intune поддерживает устройства с Windows Holographic for Business, такие как [Microsoft HoloLens](https://docs.microsoft.com/en-us/hololens/).
+Microsoft Intune содержит множество функций для управления устройствами под управлением Windows Holographic for Business, например [Microsoft HoloLens](https://docs.microsoft.com/hololens/). С помощью Intune вы можете гарантировать, что все устройства соответствуют действующим в организации требованиям, а также добавить для них профиль VPN или Wi-Fi. Еще одна ключевая возможность — использование устройства в качестве киоска для запуска определенного приложения или набора приложений.
 
-Для управления устройствами с Windows Holographic с помощью Microsoft Intune необходимо создать профиль обновления выпуска. Этот профиль позволяет обновлять устройства с Windows Holographic до Windows Holographic for Business. Для получения нужной лицензии на обновление Microsoft HoloLens вы можете приобрести пакет Commercial Suite. Дополнительные сведения: [Обновление устройств с Windows Holographic до Windows Holographic for Business](holographic-upgrade.md).
+Представленные в этой статье задачи помогут упростить администрирование, настройку и защиту устройств под управлением Windows Holographic for Business, в том числе обновление программного обеспечения и использование Windows Hello для бизнеса.
 
-Для настройки устройств с Windows Holographic for Business и управления ими можно использовать задачи, приведенные в этой статье. Например, можно управлять обновлениями программного обеспечения, настраивать параметры VPN и многое другое.
+Чтобы использовать в Intune устройства под управлением Windows Holographic, создайте профиль "Обновление выпуска". Этот профиль позволяет обновлять устройства с Windows Holographic до Windows Holographic for Business. Для получения нужной лицензии на обновление Microsoft HoloLens вы можете приобрести пакет Commercial Suite. Дополнительные сведения: [Обновление устройств с Windows Holographic до Windows Holographic for Business](holographic-upgrade.md).
 
 ## <a name="azure-active-directory"></a>Azure Active Directory
 

@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/13/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: daaed6ded0c20551567a63890d324abcbaaf41d7
-ms.sourcegitcommit: 9f99b4a7f20ab4175d6fa5735d9f4fd6a03e0d3a
+ms.openlocfilehash: 652157f41f0fbefa14e9f22fea01c918cb7704a1
+ms.sourcegitcommit: ae27c04a68ee893a5a6be4c56fe143263749a0d7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40251941"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "49169504"
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений iOS для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -39,13 +39,13 @@ ms.locfileid: "40251941"
 
 * Скачайте [инструмент упаковки приложений Microsoft Intune для iOS](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios) из GitHub.
 
-* Используйте компьютер под управлением Mac OS X 10.8.5 или более поздней версии с установленным набором инструментов XCode версии 5 или более поздней.
+* Используйте компьютер под управлением OS X 10.8.5 или более поздней версии с установленным набором инструментов Xcode версии 9 или более поздней.
 
 * Входное приложение iOS должно быть разработано и подписано специалистами вашей компании или независимым поставщиком программного обеспечения (ISV).
 
   * Файл входного приложения должен иметь расширение **IPA** или **APP**.
 
-  * Входное приложение должно быть скомпилировано для iOS 8.0 или более поздней версии.
+  * Входное приложение должно быть скомпилировано для iOS 10 или более поздней версии.
 
   * Входное приложение не может быть зашифровано.
 

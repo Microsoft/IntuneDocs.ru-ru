@@ -13,12 +13,12 @@ ms.technology: ''
 ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3da8a3f13e592483513daf81bc5ff1ad8af0f7e6
-ms.sourcegitcommit: 0a2e737c5520c1a1dec5d732e5df52b5614b27e1
+ms.openlocfilehash: 151a445bf7c5c17f8ff1b5ee403df8744f2d8ba6
+ms.sourcegitcommit: ab08dd841f16ae11f958c43b6262a9f6a0cabdd4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39268912"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49102061"
 ---
 # <a name="get-started-with-device-compliance-policies-in-intune"></a>Начало работы с политиками соответствия устройств в Intune
 
@@ -153,7 +153,7 @@ Remember that you need to implement conditional access policies in addition to c
 ## <a name="ways-to-deploy-device-compliance-policies"></a>Способы развертывания политик соответствия устройств
 Политику соответствия можно развернуть для пользователей в группах пользователей или для устройств в группах устройств. При развертывании политики соответствия для пользователя все его устройства проверяются на соответствие.
 
-**Параметры политики соответствия** (портал Azure > Соответствие устройства политике) включают в себя:
+Заданные по умолчанию **параметры политики соответствия требованиям** (портал Azure > "Соответствие устройства политике") включают в себя:
 
 - **Mark devices with no compliance policy assigned as** (Помечать устройства, которым не назначена политика соответствия, как): это свойство имеет два значения:
 
