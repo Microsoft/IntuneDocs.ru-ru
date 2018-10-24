@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 81a11ce35cbf0f256f59bf26d317933977750d6e
-ms.sourcegitcommit: b33ff64514abdc5e939ff59ea722b3704cd56c78
+ms.openlocfilehash: 87ae986e1f7a2b00c1a29208a163ee449e114f17
+ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "49065770"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49425297"
 ---
 # <a name="manage-and-use-windows-holographic-and-hololens-devices-with-intune"></a>Использование устройств Windows Holographic и HoloLens и управление ими в Intune
 
@@ -73,7 +73,7 @@ Microsoft Intune может развертывать универсальные 
 - Сведения о разработке приложений для Microsoft HoloLens см. на странице [о приложениях смешанной реальности для Microsoft HoloLens](https://www.microsoft.com/hololens/apps). 
 
 > [!NOTE]
-> Устройства HoloLens под управлением Windows 10 Holographic for Business 1607 не поддерживают лицензированные веб-приложения из Microsoft Store для бизнеса. Дополнительные сведения см. в статье [Установка приложений на устройство HoloLens](https://docs.microsoft.com/en-us/hololens/hololens-install-apps).
+> Устройства HoloLens под управлением Windows 10 Holographic for Business 1607 не поддерживают лицензированные веб-приложения из Microsoft Store для бизнеса. Дополнительные сведения см. в статье [Установка приложений на устройство HoloLens](https://docs.microsoft.com/hololens/hololens-install-apps).
 
 ## <a name="device-actions"></a>Действия устройства
 Intune имеет несколько встроенных действий, позволяющих ИТ-администраторам выполнять разные задачи как локально на устройстве, так и удаленно с помощью Intune на портале Azure. Кроме того, пользователи могут запускать удаленную команду с корпоративного портала Intune для личных устройств, зарегистрированных в Intune.
