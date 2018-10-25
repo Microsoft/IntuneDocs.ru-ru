@@ -627,41 +627,6 @@ items:
     href: manage-os-versions.md
   - name: Управление обновлениями программного обеспечения
     href: windows-update-for-business-configure.md
-  - name: Управление компьютерами с помощью агента программного обеспечения
-    href: manage-windows-pcs-with-microsoft-intune.md
-    items:
-    - name: Сравнение функций управления компьютером
-      href: pc-management-comparison.md
-    - name: Установка клиента компьютера
-      href: install-the-windows-pc-client-with-microsoft-intune.md
-    - name: Общие задачи управления ПК
-      href: common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md
-      items:
-      - name: Политики компьютера
-        href: use-policies-to-simplify-windows-pc-management.md
-      - name: Просмотр данных инвентаризации
-        href: view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune.md
-      - name: Прекращение использования компьютера
-        href: retire-a-windows-pc-with-microsoft-intune.md
-      - name: Создание связи между компьютерами и пользователями
-        href: manage-user-device-linking-for-windows-pcs-with-microsoft-intune.md
-      - name: Удаленная помощь
-        href: request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md
-    - name: Политики для защиты компьютеров с ОС Windows
-      href: policies-to-protect-windows-pcs-in-microsoft-intune.md
-      items:
-      - name: Обновления программного обеспечения
-        href: keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md
-      - name: Брандмауэр Windows
-        href: help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md
-      - name: Endpoint Protection
-        href: help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md
-    - name: Добавление приложений для клиентских компьютеров Intune
-      href: add-apps-for-windows-pcs-in-microsoft-intune.md
-    - name: Управление лицензионными соглашениями
-      href: manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md
-    - name: Разрешение конфликтов политик
-      href: resolve-gpo-and-microsoft-intune-policy-conflicts.md
   - name: Управление Windows Holographic
     href: windows-holographic-for-business.md
     items:
@@ -704,18 +669,18 @@ items:
           href: android-pulse-secure-per-app-vpn.md
         - name: Разрешение и блокировка приложений для Samsung KNOX Standard
           href: samsung-knox-apps-allow-block.md
+      - name: Android для бизнеса
+        href: custom-settings-android-for-work.md
       - name: iOS
         href: custom-settings-ios.md
       - name: macOS
         href: custom-settings-macos.md
-      - name: Windows Phone 8.1
-        href: custom-settings-windows-phone-8-1.md
       - name: Windows 10
         href: custom-settings-windows-10.md
       - name: Windows Holographic for Business
         href: custom-settings-windows-holographic.md
-      - name: Android для бизнеса
-        href: custom-settings-android-for-work.md
+      - name: Windows Phone 8.1
+        href: custom-settings-windows-phone-8-1.md
 - name: Руководство разработчика
   items:
   - name: API для добавления сторонних центров сертификации
@@ -831,11 +796,46 @@ items:
       href: groups-get-started.md
     - name: Устаревший клиент Intune для настольных компьютеров
       href: intune-legacy-pc-client.md
+    - name: Управление компьютерами с помощью агента программного обеспечения
+      href: manage-windows-pcs-with-microsoft-intune.md
+      items:
+      - name: Сравнение функций управления компьютером
+        href: pc-management-comparison.md
+      - name: Установка клиента компьютера
+        href: install-the-windows-pc-client-with-microsoft-intune.md
+      - name: Общие задачи управления ПК
+        href: common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md
+        items:
+        - name: Политики компьютера
+          href: use-policies-to-simplify-windows-pc-management.md
+        - name: Просмотр данных инвентаризации
+          href: view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune.md
+        - name: Прекращение использования компьютера
+          href: retire-a-windows-pc-with-microsoft-intune.md
+        - name: Создание связи между компьютерами и пользователями
+          href: manage-user-device-linking-for-windows-pcs-with-microsoft-intune.md
+        - name: Удаленная помощь
+          href: request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md
+      - name: Политики для защиты компьютеров с ОС Windows
+        href: policies-to-protect-windows-pcs-in-microsoft-intune.md
+        items:
+        - name: Обновления программного обеспечения
+          href: keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md
+        - name: Брандмауэр Windows
+          href: help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md
+        - name: Endpoint Protection
+          href: help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md
+      - name: Добавление приложений для клиентских компьютеров Intune
+        href: add-apps-for-windows-pcs-in-microsoft-intune.md
+      - name: Управление лицензионными соглашениями
+        href: manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md
+      - name: Разрешение конфликтов политик
+        href: resolve-gpo-and-microsoft-intune-policy-conflicts.md
   - name: Глоссарий
     href: intune-glossary.md
-ms.openlocfilehash: ad9fe7c9c344cbbd244515cb9c2025b46e74eddd
-ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
+ms.openlocfilehash: 809323f7e55e5c1fc010528744e4d0c57273f622
+ms.sourcegitcommit: c969b596ec0fec227484c50f210ba4e159e2e533
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49643082"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49983233"
