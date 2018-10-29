@@ -15,12 +15,12 @@ ms.assetid: 4D04D3D9-4B6C-41CD-AAF8-466AF8FA6032
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 3ba8caa74b673127a17a431d5b821d52f9767c49
-ms.sourcegitcommit: 445a54dc6826a549d770a9953549ae2191d391c2
+ms.openlocfilehash: 5680e0c53a9decfa5b172e08c04fbfe4025f2d7c
+ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727464"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642891"
 ---
 # <a name="data-warehouse-data-model"></a>Модель данных для хранилища данных
 
@@ -61,6 +61,6 @@ ms.locfileid: "45727464"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
- - Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в [этой статье](reports-ref-user-timeline.md).
- - Дополнительные сведения о работе с хранилищами данных см. в статье [Create First Data WareHouse](https://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse) (Создание первого хранилища данных).
+ - Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в статье [Представление времени существования пользователя в хранилище данных Microsoft Intune](reports-ref-user-timeline.md).
+ - Дополнительные сведения о работе с хранилищами данных см. [здесь](https://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse).
  - Дополнительные сведения о работе с Power BI и хранилищем данных см. в статье [Создание отчета Power BI путем импорта набора данных](https://powerbi.microsoft.com/documentation/powerbi-service-create-a-new-report/). 

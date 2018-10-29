@@ -5,19 +5,19 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 8/30/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0af5fb071c6abb01a2819a5d9c73f4e01bf7cb7a
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: 3c103049d22c9834ecb01065686e8678144c9cae
+ms.sourcegitcommit: 8a22afcc8c7479c437c8c66da9cb2117890f0ab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43312838"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49410369"
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Мониторинг политик соответствия устройств Intune
 
@@ -140,6 +140,9 @@ ms.locfileid: "43312838"
 ![Просмотр списка всех параметров разных политик](./media/compliance-policy-monitor/idc-10.png)
 
 При выборе определенного параметра вы увидите **состояние соответствия**, **псевдоним электронной почты пользователя**, **модель устройства** и **расположение** для каждого устройства, которому назначен этот параметр.
+
+> [!NOTE]
+> На устройствах Windows 10, присоединенных к Azure AD, системная учетная запись может отображаться как несоответствующий пользователь. Так и должно быть. Это не влияет на общее соответствие устройства. 
 
 ## <a name="view-status-of-device-policies"></a>Просмотр состояния политик устройств
 

@@ -5,19 +5,19 @@ keywords: ''
 author: erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/06/2018
+ms.date: 10/17/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 ms.custom: intune-classic
-ms.openlocfilehash: 1c0c197536cb6d6b452ff5e3607ad1af2d5a4ca8
-ms.sourcegitcommit: d047a692c798e1fb61ee43a487d6332bce344610
+ms.openlocfilehash: 0c1daa93ff38d1f76ab8c203bf2d989318ecdf62
+ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "44058903"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49425229"
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Подписывание бизнес-приложений для развертывания на устройствах Windows с помощью Intune
 
@@ -77,7 +77,7 @@ ms.locfileid: "44058903"
 
     -   WinPhoneCompanyPortal.ps1 — скрипт PowerShell, который можно использовать для подписи файла для приложения портала компании, чтобы его можно было развернуть на устройствах Windows Phone 8.1.
 
-    Кроме того, корпоративный портал Windows Phone 8.1 (автономный лицензированный пакет) или корпоративный портал Windows 10 можно скачать из [Магазина Майкрософт для бизнеса](http://businessstore.microsoft.com/). Приложение корпоративного портала необходимо получить с помощью автономной лицензии и соответствующего пакета, скачанного для использования в режиме "вне сети". Списки платформ Windows 8 и Windows Phone 8 в выделенной области относятся к соответствующим аналогам 8.1. Дополнительные сведения о выполнении этой задачи в Intune см. в статье [Управление приложениями, которые вы приобрели в Магазине Майкрософт для бизнеса](/intune-classic/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune).
+    Кроме того, корпоративный портал Windows Phone 8.1 (автономный лицензированный пакет) или корпоративный портал Windows 10 можно скачать из [Магазина Майкрософт для бизнеса](http://businessstore.microsoft.com/). Приложение корпоративного портала необходимо получить с помощью автономной лицензии и соответствующего пакета, скачанного для использования в режиме "вне сети". Списки платформ Windows 8 и Windows Phone 8 в выделенной области относятся к соответствующим аналогам 8.1. Дополнительные сведения о выполнении этой задачи в Intune см. в статье [Управление приложениями, которые вы приобрели в Магазине Майкрософт для бизнеса](windows-store-for-business.md).
 
 2.  **Скачивание пакета SDK для Windows Phone** Скачайте пакет SDK для Windows Phone версии 8.0] (http://go.microsoft.com/fwlink/?LinkId=615570)) и установите его на компьютере. Этот пакет SDK необходим для создания токена регистрации приложения.
 
@@ -119,7 +119,7 @@ ms.locfileid: "44058903"
 
     -   `-EnterpriseId` — идентификатор организации. Необходимо указать либо этот аргумент, либо AetxPath. Если этот аргумент не задан, идентификатор организации считывается из AETX-файла. Например, 1000000001.
 
-6.  Разверните приложение портала компании Windows Phone 8.1 (SSP.appx). См. инструкции в разделе [Как добавить бизнес-приложения Windows Phone в Microsoft Intune](lob-apps-windows-phone.md) ([классический портал](/intune-classic/deploy-use/deploy-apps-in-microsoft-intune)).
+6.  Разверните приложение портала компании Windows Phone 8.1 (SSP.appx). Инструкции см. в статье [Добавление бизнес-приложения Windows Phone в Microsoft Intune](lob-apps-windows-phone.md).
 
 ## <a name="how-to-renew-the-symantec-enterprise-code-signing-certificate"></a>Инструкции по обновлению корпоративного сертификата Symantec для подписи кода
 

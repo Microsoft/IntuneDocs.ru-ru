@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 05/01/2018
+ms.date: 10/22/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,19 +15,20 @@ ms.assetid: ''
 ms.reviewer: muhosabe
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: a6be3694a18cd0df09b52b535a0fcd2050bf7a98
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: 46d28ba8d9d8c6ec2adf2b41adbb9e7336676811
+ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48231250"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642998"
 ---
 # <a name="configure-the-exchange-service-connector-for-intune-and-exchange-online"></a>Настройка соединителя службы Exchange для Intune и Exchange Online
-
 В этой статье объясняется, как подключить службу Microsoft Intune к Exchange Online или к новой выделенной службе Exchange Online. Чтобы определить, используется ли в вашей выделенной среде Exchange Online **новая** или **устаревшая** версия, обратитесь к своему менеджеру по работе с клиентами.
 
+Используя **соединитель служб**, вы можете управлять устройствами Exchange ActiveSync (EAS) и управляемыми устройствами Intune с одной консоли администрирования.  Соединитель не требуется для настройки условного доступа к Exchange Online.
+
 ## <a name="service-to-service-connector-requirements"></a>Требования к Service to Service Connector
-**Service To Service Connector** поддерживает только Exchange Online и выделенную службу Exchange Online. Требования к локальной инфраструктуре отсутствуют.
+**Service To Service Connector** поддерживает только Exchange Online и выделенную службу Exchange Online. Требования к локальной инфраструктуре отсутствуют. 
 
 
 |              Требование               |                                                                                                            Дополнительные сведения                                                                                                            |
@@ -68,5 +69,4 @@ Service To Service Connector автоматически настроится и 
 
 Также можно проверить **состояние подключения**, время и дату последней успешной попытки синхронизации.
 
-## <a name="next-steps"></a>Дальнейшие шаги
-[Мониторинг условного доступа Exchange в Microsoft Intune](conditional-access-exchange-monitor.md)
+ 

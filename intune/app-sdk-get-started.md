@@ -13,13 +13,13 @@ ms.technology: ''
 ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
-ms.custom: intune-classic
-ms.openlocfilehash: 8e22c0caf7b99bcb7a81259829369b7671056abe
-ms.sourcegitcommit: d047a692c798e1fb61ee43a487d6332bce344610
+ms.custom: intune
+ms.openlocfilehash: 5cb90b7f1dc72a67f48ba40db8a6ab4ffe598243
+ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "44058954"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49425042"
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -161,9 +161,9 @@ Intune|iOS|Android|Описание|
 
     * Если вы разрабатываете бизнес-приложение, которое не будет публиковаться в магазине, ваша организация должна иметь доступ к Microsoft Intune. Кроме того, вы можете зарегистрироваться для доступа к бесплатной пробной версии [Microsoft Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) на один месяц.
 
-* **Политики защиты приложений Intune**: чтобы проверить свое приложение на поддержку всех политик защиты приложений Intune, вам нужно знать ожидаемое поведение для каждого параметра политики. См. описание в разделах [Политики защиты приложений iOS](/intune-classic/deploy-use/ios-mam-policy-settings) и [Политики защиты приложений Android](/intune-classic/deploy-use/android-mam-policy-settings).
+* **Политики защиты приложений Intune**. Чтобы проверить свое приложение на предмет поддержки всех политик защиты приложений Intune, нужно знать ожидаемое поведение для каждого параметра политики. См. описание в разделах [Политики защиты приложений iOS](app-protection-policy-settings-ios.md) и [Политики защиты приложений Android](app-protection-policy-settings-android.md).
 
-* **Устранение неполадок**: если вы столкнетесь с проблемами при ручном тестировании взаимодействия с пользователем в своем приложении, см. статью [Устранение неполадок MAM](/intune-classic/troubleshoot/troubleshoot-mam). В этой статье описаны распространенные проблемы, диалоговые окна и сообщения об ошибках, которые могут возникать в управляемых приложениях Intune. 
+* **Устранение неполадок**. Если во время ручного тестирования установки приложения возникают неполадки, см. статью [Устранение проблем с установкой приложений](troubleshoot-app-install.md). 
 
 ### <a name="badge-your-app-optional"></a>Эмблема приложения (необязательно)
 

@@ -15,12 +15,12 @@ ms.assetid: C29A6EEA-72B7-427E-9601-E05B408F3BB0
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b6161540b4b05ebab35942a1657adc30bce6afdb
-ms.sourcegitcommit: 445a54dc6826a549d770a9953549ae2191d391c2
+ms.openlocfilehash: 1ce1d429b830ac6f494346697bd7e44ac250d9b6
+ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727481"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642964"
 ---
 # <a name="reference-for-user-entity"></a>Справочник по сущности пользователя
 
@@ -48,4 +48,4 @@ ms.locfileid: "45727481"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
  - С помощью коллекции сущностей **текущего пользователя** можно ограничить данные до активных сейчас пользователей. Дополнительные сведения см. в [справочнике по сущности текущего пользователя](reports-ref-current-user.md).
- - Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в [этой статье](reports-ref-user-timeline.md).
+ - Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в статье [Представление времени существования пользователя в хранилище данных Microsoft Intune](reports-ref-user-timeline.md).

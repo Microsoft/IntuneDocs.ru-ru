@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 11ccace4ca8e43e09b8aebeb92530629cf50a472
-ms.sourcegitcommit: bea4a81d262607c6e9dd1e26f5cd1a2faf7d051b
+ms.openlocfilehash: e38e6f615220135e9c4c9c786ab260f5921890ea
+ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45602322"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642915"
 ---
 # <a name="add-a-device-compliance-policy-for-windows-devices-in-intune"></a>Добавление политики соответствия требованиям для устройств Windows в Intune
 
@@ -119,8 +119,6 @@ ms.locfileid: "45602322"
 
 Дополнительные сведения о работе службы HAS см. в статье [Аттестация работоспособности устройства CSP](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp).
 
-Чтобы настроить ATP (Advanced Threat Protection) в Защитнике Windows в качестве службы защиты от угроз, см. раздел [Включение ATP в Защитнике Windows с условным доступом](advanced-threat-protection.md).
-
 ### <a name="device-properties"></a>Свойства устройства
 
 - **Минимальная версия ОС**. Введите минимальную допустимую версию в формате **основной_номер.дополнительный_номер.сборка.номер_накопительного_обновления**. Чтобы получить правильное значение, откройте командную строку и введите команду `ver`. Команда `ver` возвращает номер версии в следующем формате:
@@ -183,6 +181,8 @@ ms.locfileid: "45602322"
   - **Низкий**. Если обнаруженные на устройстве угрозы имеют низкий уровень, считается, что устройство соответствует требованиям. Любая угроза с уровнем выше низкого переводит устройство в состояние несоответствия.
   - **Средний**. Если имеющиеся на устройстве угрозы имеют низкий или средний уровень, считается, что устройство соответствует требованиям. Если на устройстве найдены угрозы с высоким уровнем, оно признается не соответствующим требованиям.
   - **Высокий**. Этот уровень является наименее безопасным и включает все уровни угрозы. Он может быть полезным при использовании решения только для формирования отчетов.
+  
+  Чтобы настроить ATP (Advanced Threat Protection) в Защитнике Windows в качестве службы защиты от угроз, см. раздел [Включение ATP в Защитнике Windows с условным доступом](advanced-threat-protection.md).
 
 ## <a name="windows-holographic-for-business"></a>Windows Holographic for Business
 

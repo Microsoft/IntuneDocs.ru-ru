@@ -12,17 +12,20 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 6aa2ade550a01a9e4758024213a67e6a7ddd8f03
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: 3a3fd4c57edba6f4d9abfdd4188c94627543cb43
+ms.sourcegitcommit: ba0699cc351954960b222223c60c4ecd50edc829
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43313859"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49652161"
 ---
 # <a name="device-restriction-for-windows-10-and-newer-settings-in-intune"></a>Параметры ограничений устройств Windows 10 (и более поздних версий) в Intune
 В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 10.
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
+
+> [!Note]
+> Доступность тех или иных параметров зависит от выпуска Windows.
 
 ## <a name="general"></a>Общие
 - **Захват экрана (только для мобильных устройств).** Позволяет пользователю сохранять содержимое экрана устройства в виде изображения.
@@ -400,3 +403,6 @@ ms.locfileid: "43313859"
 - **Синхронизация сообщений (только для мобильных устройств)** — отключите универсальную службу, а также резервное копирование и восстановление текстовых сообщений.
 - **MMS-сообщения (только для мобильных устройств)** — отключите возможность отправки и получения MMS-сообщений на устройстве.
 - **RCS (только для мобильных устройств)** — отключите функции приема и отправки через протокол Rich Communication Services (RCS).
+
+## <a name="more-information"></a>Дополнительные сведения
+Дополнительные технические сведения о каждом параметре и поддерживаемых выпусках Windows см. в [этой статье](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider).
