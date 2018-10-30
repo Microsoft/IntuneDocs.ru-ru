@@ -14,12 +14,12 @@ ms.assetid: 38ebd3f5-cfcc-4204-8a75-6e2f162cd7c1
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune
-ms.openlocfilehash: 5cb90b7f1dc72a67f48ba40db8a6ab4ffe598243
-ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
+ms.openlocfilehash: f807bd479ddbbc4ca6e83072c352bb8bd60cf5a9
+ms.sourcegitcommit: 3d44c06045fa986fc9b9eb43b667caf8928dbaf0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49425042"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50225426"
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -140,7 +140,7 @@ Intune|iOS|Android|Описание|
 
 - **CFBundleShortVersionString**  
     Указывает номер версии выпуска пакета. Этот номер обозначает выпущенную версию приложения. Номер используется конечными пользователями для ссылки на приложение.
-  - **CFBundleVersion**  
+- **CFBundleVersion**  
     Версия сборки пакета, которая определяет итерацию пакета. Номер может обозначать выпуск или невыпущенный пакет. Номер используется для обнаружения приложения.
 
 #### <a name="android"></a>Android
@@ -161,7 +161,7 @@ Intune|iOS|Android|Описание|
 
     * Если вы разрабатываете бизнес-приложение, которое не будет публиковаться в магазине, ваша организация должна иметь доступ к Microsoft Intune. Кроме того, вы можете зарегистрироваться для доступа к бесплатной пробной версии [Microsoft Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) на один месяц.
 
-* **Политики защиты приложений Intune**. Чтобы проверить свое приложение на предмет поддержки всех политик защиты приложений Intune, нужно знать ожидаемое поведение для каждого параметра политики. См. описание в разделах [Политики защиты приложений iOS](app-protection-policy-settings-ios.md) и [Политики защиты приложений Android](app-protection-policy-settings-android.md).
+* **Политики защиты приложений Intune**: чтобы проверить свое приложение на поддержку всех политик защиты приложений Intune, вам нужно знать ожидаемое поведение для каждого параметра политики. См. описание в разделах [Политики защиты приложений iOS](app-protection-policy-settings-ios.md) и [Политики защиты приложений Android](app-protection-policy-settings-android.md).
 
 * **Устранение неполадок**. Если во время ручного тестирования установки приложения возникают неполадки, см. статью [Устранение проблем с установкой приложений](troubleshoot-app-install.md). 
 
