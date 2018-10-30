@@ -79,7 +79,7 @@ Intune позволяет управлять несколькими устрой
 - [Управление устройствами](https://docs.microsoft.com/intune/device-management)
 - [Управление приложениями](https://docs.microsoft.com/intune/app-management)  
 - [Электронные книги по iOS](https://docs.microsoft.com/intune/vpp-ebooks-ios)  
-- [Установка локального коннектора Exchange](https://docs.microsoft.com/intune/exchange-connector-install)  
+- [Установка локального соединителя Exchange](https://docs.microsoft.com/intune/exchange-connector-install)  
 - [Управление ролями](https://docs.microsoft.com/intune/role-based-access-control)  
 - Управление обновлениями программного обеспечения
   - [Управление обновлениями Windows 10](https://docs.microsoft.com/intune/windows-update-for-business-configure)  

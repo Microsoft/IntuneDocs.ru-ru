@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d6a633b73856b5f9f50ffe0b9993713b888b969b
-ms.sourcegitcommit: d92caead1d96151fea529c155bdd7b554a2ca5ac
+ms.openlocfilehash: 2a521eadea2bcf118b4b0c643802fd8478f7ace2
+ms.sourcegitcommit: ba0699cc351954960b222223c60c4ecd50edc829
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2018
-ms.locfileid: "48828148"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49652110"
 ---
 # <a name="work-device-restriction-settings-in-intune"></a>Параметры ограничений для рабочих устройств в Intune
 
@@ -124,6 +124,7 @@ ms.locfileid: "48828148"
     > [!IMPORTANT]
     >  - На устройстве должен быть установлен выбранный клиент VPN, и он должен поддерживать VPN для каждого приложения в рабочих профилях. В противном случае возникает ошибка. 
     >  - Вам необходимо одобрить приложение клиента VPN в **управляемом магазине Google Play**, синхронизировать это приложение в Intune и развернуть его на устройстве. После всех этих действий приложение будет установлено в рабочем профиле пользователя.
+    >  - В приложении F5 Access для Android 3.0.3 существуют известные проблемы при использовании VPN на уровне отдельных приложений. Дополнительные сведения см. в [заметках о выпуске F5 Access для Android 3.0.3](https://support.f5.com/kb/en-us/products/big-ip_apm/releasenotes/related/relnote-f5access-android-3-0-3.html#relnotes_known_issues_f5_access_android).
 
 - **Режим блокировки**. Выберите **Включить**, чтобы весь сетевой трафик шел только через туннель VPN. Если подключение к VPN не установлено, устройство не будет иметь доступа к сети.
 

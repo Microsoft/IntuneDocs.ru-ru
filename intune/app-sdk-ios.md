@@ -14,12 +14,12 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: b707fcae4af332b13d10e343a84ace801c88c2fd
-ms.sourcegitcommit: ca132d509e3c978d18e50eac89e1a1ed7ddb25c1
+ms.openlocfilehash: 4b7a759b574b44a07499597e89627f70b99e5496
+ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "48866428"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49643099"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -144,7 +144,9 @@ ms.locfileid: "48866428"
 
 5. Включите в массив `LSApplicationQueriesSchemes` в файле Info.plist приложения каждый из протоколов, которые приложение передает в `UIApplication canOpenURL`. Не забудьте сохранить изменения перед переходом к следующему шагу.
 
-6. Используйте средство IntuneMAMConfigurator, включенное в [репозиторий SDK](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios), для завершения настройки приложения в файле Info.plist. Средство имеет 3 параметра:
+6. Если ваше приложение еще не использует FaceID, убедитесь, что для [ключа NSFaceIDUsageDescription Info.plist](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW75) настроено сообщение по умолчанию. Это необходимо, чтобы iOS могла сообщить пользователю о том, как приложение собирается использовать FaceID. Настройка политики защиты приложений Intune позволяет использовать FaceID в качестве метода для доступа к приложению, если он настроен ИТ-администратором.
+
+7. Используйте средство IntuneMAMConfigurator, включенное в [репозиторий SDK](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios), для завершения настройки приложения в файле Info.plist. У средства есть три параметра:
 
    |Свойство|Способ использования|
    |---------------|--------------------------------|
@@ -153,9 +155,6 @@ ms.locfileid: "48866428"
    |- o |  (Необязательно) `<Path to the output plist>` |
 
 Если параметр "-о" не указан, входной файл будет изменен на месте. Средство является идемпотентным, поэтому его нужно перезапускать каждый раз, когда вносятся изменения в файл Info.plist. Кроме того, необходимо загрузить и запустить последнюю версию средства при обновлении пакета SDK Intune, если в последнем выпуске изменены требования к конфигурации Info.plist.
-
-> [!NOTE]
-> Если ваше приложение еще не использует FaceID, убедитесь, что для ключа info.plist `NSFaceIDUsageDescription` настроено сообщение по умолчанию. Это необходимо, чтобы iOS могла сообщить пользователю о том, как приложение собирается использовать FaceID. Настройка политики защиты приложений Intune позволяет использовать FaceID в качестве метода для доступа к приложению, если он настроен ИТ-администратором.
 
 ## <a name="configure-azure-active-directory-authentication-library-adal"></a>Настройка библиотеки проверки подлинности Azure Active Directory (ADAL)
 
@@ -173,7 +172,7 @@ ms.locfileid: "48866428"
 
 1. Скачайте [библиотеку проверки подлинности Azure Active Directory (ADAL) для Objective-C](https://github.com/AzureAD/azure-activedirectory-library-for-objc) из GitHub, а затем выполните [инструкции](https://github.com/AzureAD/azure-activedirectory-library-for-objc#download) по скачиванию ADAL с помощью подмодулей Git или CocoaPods.
 
-2. Добавьте платформу ADAL (вариант 1) или статическую библиотеку (вариант 2) в проект.
+2. Добавьте в проект платформу ADAL (вариант 1) или статическую библиотеку (вариант 2).
 
 3. Если для приложения не определено ни одной группы доступа к цепочке ключей, добавьте идентификатор пакета приложения в качестве первой группы.
 

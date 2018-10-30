@@ -15,12 +15,12 @@ ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e7e740d03453a437572f8f960ed21927f4fcbace
-ms.sourcegitcommit: ab08dd841f16ae11f958c43b6262a9f6a0cabdd4
+ms.openlocfilehash: f41c228e7b5dd4084e7ebb2fab1148913b76880f
+ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49102044"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642957"
 ---
 # <a name="add-app-configuration-policies-for-managed-android-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android
 
@@ -31,7 +31,7 @@ ms.locfileid: "49102044"
 > [!Note]  
 > Конфигурацию приложений поддерживают не все приложения. Информацию о поддержке политик конфигурации приложений можно получить у разработчика приложения.<p></p>
 > Администраторы Microsoft Intune могут контролировать добавление учетных записей в приложения Microsoft Office на управляемых устройствах. Вы можете ограничивать доступ только для учетных записей разрешенных организаций и блокировать личные учетные записи на зарегистрированных устройствах. Вспомогательные приложения обработают конфигурацию приложения, а затем удалят и заблокируют неутвержденные учетные записи.<p></p>
-> Для Microsoft Word, Microsoft Excel и Microsoft PowerPoint необходимо использовать Android 16.0.9327.1000 и более поздней версии.
+> Для Microsoft Word, Microsoft Excel и Microsoft PowerPoint необходимо использовать приложение начиная с версии 16.0.9327.1000.
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
