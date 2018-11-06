@@ -14,12 +14,12 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: eb7d8b35cb88223a3fbfa45e0ad8e2f8d2852a96
-ms.sourcegitcommit: ab801d715aa26f6d97f1a0c42a07e55146a14e6f
+ms.openlocfilehash: af80dd180e8fdbaeb633bdffaad90ccdf02d5380
+ms.sourcegitcommit: 604b29c480b24270b5debc3e5f3141c8149ee6ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35289029"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49959576"
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Управление сценариями PowerShell в Intune для устройств Windows 10
 Расширение управления Intune позволяет отправлять сценарии PowerShell в Intune для выполнения на устройствах Windows 10. Расширение управления дополняет возможности управления мобильными устройствами (MDM) Windows 10 и упрощает переход на современные принципы управления.
@@ -33,7 +33,7 @@ ms.locfileid: "35289029"
 
 ## <a name="prerequisites"></a>Предварительные условия
 Для расширения управления Intune требуется выполнить следующие условия:
-- Устройства должны быть присоединены к Azure AD. Это не относится к устройствам, присоединенным к гибридному экземпляру AD.
+- Устройства должны быть присоединены к Azure AD. Расширение управления Intune поддерживает совместно управляемые зарегистрированные устройства Windows, а также устройства, присоединенные к Azure Active Directory или гибридному домену.
 - Устройства должны работать под управлением Windows 10 версии 1607 или более поздней.
 - Автоматическая регистрация в системе MDM должна быть [включена в Azure AD](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment), и устройства должны автоматически регистрироваться в Intune.
 

@@ -1,62 +1,56 @@
 ---
 title: Использование настраиваемых параметров устройств в Microsoft Intune — Azure | Документы Майкрософт
-description: Добавьте или создайте профиль, чтобы использовать настраиваемые параметры для устройств Windows, iOS и Android с помощью Microsoft Intune
+description: Добавьте или создайте профиль, чтобы использовать настраиваемые параметры для устройств Windows Phone, Windows 8.1, Windows 10 и более поздних версий, Android, Anndroid Enterprise, macOS и iOS с помощью Microsoft Intune
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/06/2018
+ms.date: 10/23/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d917d2449e75b89db00d453b72940a93efb03321
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 3106f71b59019a1cf71680c51be6dfcb4ce10b0d
+ms.sourcegitcommit: c969b596ec0fec227484c50f210ba4e159e2e533
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905008"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49983080"
 ---
 # <a name="create-a-profile-with-custom-settings-in-intune"></a>Создайте профиль с настраиваемыми параметрами в Intune
 
-[!INCLUDE [azure_portal](./includes/azure_portal.md)]
+## <a name="what-are-custom-profiles"></a>Что такое настраиваемые профили
 
-В Intune может не быть всех нужных параметров. Или вы захотите использовать параметр, доступный в других профилях устройств. Чтобы добавить эти параметры, создайте профиль устройства и укажите в нем настраиваемые параметры.
+Microsoft Intune включает множество встроенных параметров для управления различными функциями на устройстве. Также можно создавать настраиваемые профили. Они очень удобны, когда нужно использовать параметры и функции устройств, которые не встроены в Intune. Эти профили включают в себя функции и параметры, которыми вы можете управлять на устройствах в своей организации. Например, можно создать настраиваемый профиль, который задает одну и ту же функцию для каждого устройства iOS.
 
-В этой статье перечислены основные шаги для создания профиля с настраиваемыми параметрами. Она также содержит ссылки на более подробную информацию о создании настраиваемых параметров на разных платформах.
+Дополнительные сведения о профилях конфигурации см. в разделе [Что такое профили устройств в Microsoft Intune?](device-profiles.md). 
 
-## <a name="custom-settings-on-different-platforms"></a>Настраиваемые параметры для разных платформ
-Пользовательские параметры настраиваются по-разному для каждой платформы. Например, для управления функциями на устройствах Android и Windows можно указать значения универсального кода ресурсов Open Mobile Alliance (OMA-URI). На устройства Apple можно импортировать файл, созданный с помощью [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12).
+Эта статья содержит ссылки для создания настраиваемых профилей для Android, Android Enterprise, iOS, macOS и Windows.
 
-## <a name="create-the-profile"></a>Создание профиля
+## <a name="available-platforms"></a>Доступные платформы
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
-3. Выберите **Конфигурация устройства** и нажмите **Профили**, а затем **Создать профиль**.
-4. Укажите **имя** и **описание** настраиваемого профиля.
-5. В раскрывающемся списке **Платформа** выберите платформу устройства для применения настраиваемых параметров. Выберите любую из следующих платформ:
+Пользовательские параметры настраиваются по-разному для каждой платформы. Например, для управления функциями на устройствах Android и Windows можно указать значения универсального кода ресурсов Open Mobile Alliance (OMA-URI). На устройства Apple можно импортировать файл, созданный с помощью [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12) или [Apple Profile Manager](https://support.apple.com/profile-manager).
 
-    - **Android**
-    - **Android для бизнеса**
-    - **iOS**
-    - **macOS**
-    - **Windows Phone 8.1**
-    - **Windows 8.1 и более поздние версии**
-    - **Windows 10 и более поздних версий**.
+Настраиваемые профили создаются аналогично встроенным профилям и доступны на следующих платформах.
 
-6. В раскрывающемся списке **Профиль** выберите **Пользовательский**.
-7. Доступные для настройки параметры различаются в зависимости от выбранной платформы. В следующих статьях приводятся дополнительные сведения о настраиваемых параметрах для каждой платформы:
+- [Android](custom-settings-android.md)
+- [Android Enterprise](custom-settings-android-for-work.md)
+- [iOS](custom-settings-ios.md)
+- [macOS](custom-settings-macos.md)
+- [Windows 10](custom-settings-windows-10.md)
+- [Windows Holographic for Business](custom-settings-windows-holographic.md)
+- [Windows Phone 8.1](custom-settings-windows-phone-8-1.md)
 
-    - [Параметры Android](custom-settings-android.md)
-    - [Параметры iOS](custom-settings-ios.md)
-    - [Параметры macOS](custom-settings-macos.md)
-    - [Параметры Windows Phone 8.1](custom-settings-windows-phone-8-1.md)
-    - [Параметры Windows 10](custom-settings-windows-10.md)
-    - [Параметры Windows Holographic for Business](custom-settings-windows-holographic.md)
-    - [Параметры рабочего профиля Android](custom-settings-android-for-work.md)
+## <a name="next-steps"></a>Дальнейшие шаги
 
-8. По окончании нажмите **Создать**.
+Выберите платформу и приступайте к работе.
 
-Созданный профиль отобразится в списке профилей. Сведения о том, как назначить этот профиль группам, см. в статье [Назначение профилей устройств](device-profile-assign.md).
+- [Android](custom-settings-android.md)
+- [Android Enterprise](custom-settings-android-for-work.md)
+- [iOS](custom-settings-ios.md)
+- [macOS](custom-settings-macos.md)
+- [Windows 10](custom-settings-windows-10.md)
+- [Windows Holographic for Business](custom-settings-windows-holographic.md)
+- [Windows Phone 8.1](custom-settings-windows-phone-8-1.md)

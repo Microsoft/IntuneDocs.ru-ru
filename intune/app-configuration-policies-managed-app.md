@@ -15,12 +15,12 @@ ms.assetid: E61C1618-79D0-41A1-B61F-4123FB6672FC
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: c94357d90f89e77be03df0db9ba9e2d89836623b
-ms.sourcegitcommit: 28262384ec94e43970cc7a33e5d9063972bdf468
+ms.openlocfilehash: 57de118c2e13182a0d26aa36d1dc5b1f7ea9c4e9
+ms.sourcegitcommit: 46f6f3d4e1c7c0a5a716503f759ea5cf03c1a02b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799529"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50136970"
 ---
 # <a name="add-app-configuration-policies-for-managed-apps-without-device-enrollment"></a>Добавление политик конфигурации приложений для управляемых приложений без регистрации устройств
 
@@ -39,7 +39,7 @@ ms.locfileid: "48799529"
       Описание профиля, которое будет отображаться на портале Azure.
     - **Тип регистрации устройства**  
       Выберите **Управление приложениями**.
-6. Щелкните **Связанные приложения**, чтобы выбрать приложение, которое нужно настроить. Для выбора используйте список приложений, которые были утверждены и синхронизированы в Intune.
+6. Щелкните  **Связанное приложение** , чтобы выбрать приложение, которое нужно настроить. Для выбора используйте список приложений, которые были утверждены и синхронизированы в Intune.
 7. Для каждого параметра конфигурации, поддерживаемого приложением, укажите **Имя** и **Значение** и нажмите кнопку с многоточием (**...**).  
     Чтобы удалить конфигурацию, нажмите кнопку с многоточием (**...**) и выберите **Удалить**.  
     
@@ -51,13 +51,13 @@ Intune может создавать определенные токены и о
 
 Intune поддерживает следующие типы токенов в параметрах конфигурации. Другие пользовательские пары ключ-значение не поддерживаются.
 
-- \{\{userprincipalname\}\} — например **John@contoso.com**
-- \{\{mail\}\} — например **John@contoso.com**
-- \{\{partialupn\}\} — например **John**
-- \{\{accountid\}\} — например **fc0dc142-71d8-4b12-bbea-bae2a8514c81**
-- \{\{userid\}\} — например **3ec2c00f-b125-4519-acf0-302ac3761822**
-- \{\{username\}\} — например **Илья Глазков**
-- \{\{PrimarySMTPAddress\}\} — например **testuser@ad.domain.com** 
+- \{\{userprincipalname\}\}, например John@contoso.com
+- \{\{mail\}\}, например John@contoso.com
+- \{\{partialupn\}\}, например Илья
+- \{\{accountid\}\}, например fc0dc142-71d8-4b12-bbea-bae2a8514c81
+- \{\{userid\}\}, например 3ec2c00f-b125-4519-acf0-302ac3761822
+- \{\{username\}\}, например Илья Глазков
+- \{\{PrimarySMTPAddress\}\}, например testuser@ad.domain.com
 
 
 > [!Note]  

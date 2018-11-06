@@ -1,11 +1,11 @@
 ---
 title: Настраиваемые параметры устройств для Windows Holographic for Business в Microsoft Intune в Azure | Документы Майкрософт
-description: Создайте настраиваемый профиль для использования параметров OMA-URI для устройств под управлением Windows Holographic for Business в Microsoft Intune. Можно задать параметры AllowFastReconnect, AllowVPN, AllowUpdateService, UpdateServiceURL, RequireUpdatesApproval, ApprovedUpdates и ApplicationLaunchRestrictions политики поставщика CSP.
+description: Добавьте или создайте настраиваемый профиль для использования параметров OMA-URI для устройств под управлением Windows Holographic for Business в Microsoft Intune, включая Microsoft Hololens. Можно задать параметры AllowFastReconnect, AllowVPN, AllowUpdateService, UpdateServiceURL, RequireUpdatesApproval, ApprovedUpdates и ApplicationLaunchRestrictions политики поставщика CSP.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 4/26/2018
+ms.date: 10/24/2018
 ms.article: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,39 +13,57 @@ ms.topic: article
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b8ba5078d304c0e9d6b10e4efb868642323c901c
-ms.sourcegitcommit: 2795255e89cbe97d0b17383d446cca57c7335016
+ms.openlocfilehash: 863ef32d05fed601eaf38f749aa30e1c4b657cc9
+ms.sourcegitcommit: c969b596ec0fec227484c50f210ba4e159e2e533
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47403584"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49983165"
 ---
-# <a name="custom-device-settings-for-devices-running-windows-holographic-for-business-in-intune"></a>Настраиваемые параметры для устройств с Windows Holographic for Business в Intune
+# <a name="use-custom-settings-for-windows-holographic-for-business-devices-in-intune"></a>Использование настраиваемых параметров для устройств Windows Holographic for Business в Intune
 
-[!INCLUDE [azure_portal](./includes/azure_portal.md)]
+Microsoft Intune позволяет добавить или создать настраиваемые параметры для ваших устройств Windows Holographic for Business с помощью настраиваемых профилей. Настраиваемые профили являются компонентом Intune. Они предназначены для добавления параметров и функций устройств, которые не встроены в Intune.
 
- **Пользовательский** профиль Microsoft Intune для Windows Holographic for Business позволяет развертывать параметры универсального кода ресурса Open Mobile Alliance (OMA-URI) для управления функциями устройств. Windows Holographic for Business открывает доступ ко множеству параметров поставщиков служб конфигурации (CSP). Обзор CSP см. в разделе [Введение в поставщики служб конфигурации (CSP) для ИТ-специалистов](https://technet.microsoft.com/itpro/windows/manage/how-it-pros-can-use-configuration-service-providers). Также см. [Поставщики служб конфигурации, поддерживаемые в Windows Holographic](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens).
+В настраиваемых профилях Windows Holographic for Business используются параметры OMA-URI для настройки различных функций. Эти параметры обычно используются производителями мобильного устройства для управления функциями на устройстве.
 
-Если вам нужен какой-то конкретный параметр, не забывайте, что [профиль ограничения устройств с Windows Holographic for Business](device-restrictions-windows-holographic.md) содержит множество встроенных параметров и не требует указывать ваши собственные значения.
+Windows Holographic for Business открывает доступ ко множеству параметров поставщиков служб конфигурации (CSP). Обзор CSP см. в разделе [Введение в поставщики служб конфигурации (CSP) для ИТ-специалистов](https://technet.microsoft.com/itpro/windows/manage/how-it-pros-can-use-configuration-service-providers). Также см. [Поставщики служб конфигурации, поддерживаемые в Windows Holographic](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens).
 
-## <a name="create-the-custom-oma-uri-profile"></a>Создание настраиваемого профиля OMA-URI
+Если вам нужен какой-то конкретный параметр, не забывайте, что [профиль ограничения устройств Windows Holographic for Business](device-restrictions-windows-holographic.md) содержит множество встроенных параметров. Поэтому вам может не потребоваться указывать настраиваемые значения.
 
-1. Для начала выполните инструкции из статьи о [настройке пользовательских параметров устройств в Microsoft Intune](custom-settings-configure.md).
-2. В колонке **Создать профиль** выберите **Параметры**, чтобы добавить один или несколько параметров OMA URI.
-3. В колонке **Настраиваемые параметры OMA URI** выберите **Добавить**, чтобы добавить новое значение. Можно также щелкнуть **Экспорт**, чтобы создать список всех настроенных значений в файле с разделителями-запятыми (CSV).
-4. Для каждого добавляемого параметра OMA-URI укажите следующее:
-  - **Имя параметра** — введите уникальное название параметра OMA-URI, чтобы его было проще найти в списке параметров.
-  - **Описание параметра** — введите необязательное описание параметра.
-  - **Тип данных** — выберите одно из значений:
-    - **Строка**
-    - **Строка (XML)**
-    - **Дата и время**
-    - **Целое число**
-    - **Число с плавающей запятой**
-    - **Логическое значение**
-  - **OMA-URI (с учетом регистра)** — укажите OMA-URI, для которого необходимо указать параметр.
-  - **Значение** — укажите значение, которое нужно сопоставить с указанным OMA-URI.
-5. По завершении вернитесь в колонку **Создать профиль** и щелкните **Создать**. Созданный профиль отобразится в списке профилей.
+Эта статья описывает создание настраиваемого профиля для устройств Windows Holographic for Business. Она также содержит список рекомендуемых параметров OMA-URI.
+
+## <a name="create-the-profile"></a>Создание профиля
+
+1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
+3. Введите следующие параметры:
+
+    - **Имя**: введите имя профиля, например `hololens custom profile`.
+    - **Описание.** Введите описание профиля.
+    - **Платформа**: выберите **Windows 10 и более поздняя версия**.
+    - **Тип профиля**: выберите **Настраиваемый**.
+
+4. В разделе **Настраиваемые параметры OMA-URI** выберите **Добавить**. Введите следующие параметры:
+
+    - **Имя**. Введите уникальное имя для параметра OMA-URI, чтобы его было проще найти в списке параметров.
+    - **Описание**: введите описание с общими сведениями о параметре и другой важной информацией.
+    - **OMA-URI** (с учетом регистра): введите OMA-URI, для которого нужно указать параметр.
+    - **Тип данных**: выберите тип данных для этого параметра OMA-URI. Доступны следующие параметры:
+
+        - Строка
+        - Строка (XML-файл)
+        - Дата и время
+        - Целое число
+        - Число с плавающей запятой
+        - Логическое значение
+        - Base64 (файл)
+
+    - **Значение**: введите значение данных, которое нужно сопоставить с указанным OMA-URI. Значение зависит от выбранного типа данных. Например, если вы выбрали **Дата и время**, выберите значение из управляющего элемента выбора даты.
+
+    После добавления нескольких параметров можно выбрать **Экспорт**. Элемент **Экспорт** создает список всех добавленных значений в файле с разделителями-запятыми (CSV).
+
+5. Нажмите кнопку **OK**, чтобы сохранить изменения. Продолжайте добавлять дополнительные параметры по необходимости.
+6. По завершении нажмите кнопку **ОК**  >  **Создать** для создания профиля Intune. По завершении профиль отображается в списке **Конфигурация устройства — профили**.
 
 ## <a name="recommended-custom-settings"></a>Рекомендованные пользовательские параметры
 
@@ -145,6 +163,12 @@ ms.locfileid: "47403584"
 
 ## <a name="find-the-policies-you-can-configure"></a>Поиск настраиваемых политик
 
-Полный список поставщиков служб конфигурации (CSP), поддерживаемых Windows Holographic, приведен в разделе [Поставщики служб конфигурации, поддерживаемые в Windows Holographic](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens). Некоторые параметры не совместимы с некоторыми версиями Windows Holographic. Таблица в статье Windows содержит сведения о том, какие версии поддерживаются для каждого поставщика служб конфигурации (CSP).
+Полный список поставщиков служб конфигурации (CSP), поддерживаемых Windows Holographic, приведен в разделе [Поставщики служб конфигурации, поддерживаемые в Windows Holographic](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens). Некоторые параметры не совместимы с некоторыми версиями Windows Holographic. В таблице в [CSP, поддерживаемые в Windows Holographic](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens) перечислены поддерживаемые версии для каждого поставщика служб конфигурации.
 
-Кроме того, Intune поддерживает не все параметры, перечисленные в этой статье. Чтобы узнать, поддерживает ли Intune необходимый параметр, откройте соответствующую статью для этого параметра. На странице каждого параметра отображаются сведения о поддерживаемых операциях. Для работы с Intune параметр должен поддерживать операции **добавления** или **замены**.
+Кроме того, Intune поддерживает не все параметры, указанные в [этой таблице](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens). Чтобы узнать, поддерживает ли Intune необходимый параметр, откройте соответствующую статью для этого параметра. На странице каждого параметра отображаются сведения о поддерживаемой операции. Для работы с Intune параметр должен поддерживать операции **добавления** или **замены**.
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+Профиль создан, но он пока ничего не делает. Далее вам нужно [назначить профиль](device-profile-assign.md).
+
+Ознакомьтесь с созданием настраиваемого профиля на [устройствах Windows 10](custom-settings-windows-10.md).

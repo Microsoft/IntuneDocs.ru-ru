@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/03/2018
+ms.date: 10/24/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.reviewer: cacampbell
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: 72585982cd27962981f581a99f0ea361642df0ee
-ms.sourcegitcommit: ba0699cc351954960b222223c60c4ecd50edc829
+ms.openlocfilehash: a13d9b6ee37dc42e90d7c99538c9fd2e5e0d1b7b
+ms.sourcegitcommit: 7c80833b74a7203edc23c550d0d0b63229cda452
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49652144"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50001598"
 ---
 # <a name="the-early-edition-for-microsoft-intune---october-2018"></a>Ранний выпуск Microsoft Intune, октябрь 2018 г.
 
@@ -118,8 +118,9 @@ Intune будет поддерживать группировку устройс
 ### <a name="apple-vpp-token-used-by-another-mdm----1488946---"></a>Использование токена Apple VPP другой системой MDM <!-- 1488946 -->
 Intune обнаружит и отобразит соответствующую информацию, если токен программы корпоративных покупок Apple (VPP) одновременно используется и Intune, и другой системой MDM.
 
-### <a name="ios-version-number-and-build-number-are-shown----1892471---"></a>Отображаются номер версии iOS и номер сборки <!-- 1892471 -->
-В разделе **Соответствие устройства политике** > **Соответствие устройства политике** отображается версия операционной системы iOS. В будущем обновлении также будет отображаться номер сборки.
+### <a name="ios-and-macos-version-numbers-and-build-numbers-are-shown----1892471---"></a>Отображаются номера версии и номера сборки iOS и macOS <!-- 1892471 -->.
+В разделе **Соответствие устройства политике**  >  **Соответствие устройства политике** отображается версия операционной системы iOS и macOS. В будущем обновлении для обеих платформ также будет отображаться номер сборки.
+
 При выпуске обновлений безопасности Apple, как правило, оставляет номер версии прежним, но меняет номер сборки. Глядя на номер сборки, можно легко проверить, установлено ли обновление для защиты от уязвимостей.
 
 ### <a name="retired-devices-in-the-device-compliance-dashboard----1981119---"></a>Неиспользуемые устройства на информационной панели о соответствии устройств политике <!-- 1981119 -->
