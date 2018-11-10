@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 59e2ab4635c8488b99781ac123aacd0854967dc8
-ms.sourcegitcommit: c3ac9e5f6240223cb5dfed8b44c7425066d6ea86
+ms.openlocfilehash: b3de4d79e6121505718a75ffe64102bb1bc18347
+ms.sourcegitcommit: 244456907e3ab4a4389d32d06060606a9591cfba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "49380037"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50751649"
 ---
 # <a name="kiosk-settings-for-windows-10-and-later-in-intune"></a>Параметры киоска для Windows 10 и более поздних версий в Intune
 
@@ -105,7 +105,7 @@ Intune поддерживает один профиль киоска на каж
 
     - **Имя приложения.** Обязательный параметр. Введите имя приложения.
     - **Локальный путь.** Обязательный параметр. Введите путь к исполняемому файлу, например `C:\Program Files (x86)\Microsoft VS Code\Code.exe` или `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`.
-    - **Идентификатор пользовательской модели приложения (AUMID).** Необязательный параметр. Введите идентификатор пользовательской модели приложения (AUMID) для приложения Win32. Этот параметр определяет начальный макет плитки на рабочем столе. Чтобы получить этот идентификатор, выполните инструкции из статьи [Find the Application User Model ID of an installed app](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app) (Поиск идентификатора модели пользователя для установленного приложения).
+    - **Идентификатор пользовательской модели приложения (AUMID)**. Введите идентификатор пользовательской модели приложения (AUMID) для приложения Win32. Этот параметр определяет начальный макет плитки на рабочем столе. Чтобы получить этот идентификатор, выполните инструкции из статьи [Find the Application User Model ID of an installed app](https://docs.microsoft.com/powershell/module/startlayout/get-startapps?view=win10-ps) (Поиск идентификатора модели пользователя для установленного приложения).
     - **Размер плитки.** Обязательный параметр. Выберите размер плитки для приложения: маленькая, средняя, широкая или большая.
   
   - **Добавить по AUMID.** Этот вариант позволяет добавить стандартные приложения Windows, например Блокнот или Калькулятор. Укажите следующие свойства. 

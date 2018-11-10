@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: fae8faf54c7b41bb547912853285cf09ec9c46d5
-ms.sourcegitcommit: d92caead1d96151fea529c155bdd7b554a2ca5ac
+ms.openlocfilehash: 953b468337d3317027344573d147b65d765e3db3
+ms.sourcegitcommit: 5c2a70180cb69049c73c9e55d36a51e9d6619049
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2018
-ms.locfileid: "48828114"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50236447"
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices---intune"></a>Автоматизация уведомлений и действий для несоответствующих устройств — Intune
 
@@ -60,7 +60,7 @@ ms.locfileid: "48828114"
 
 1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
 2. Выберите **Соответствие устройства** > **Уведомления**.
-3. Выберите **Создать уведомление**. Введите следующую информацию:
+3. Выберите **Создать уведомление**. Введите следующие сведения.
 
    - **Имя**
    - **Тема**
@@ -71,7 +71,7 @@ ms.locfileid: "48828114"
 
    ![Пример уведомления о соответствии требованиям в Intune](./media/actionsfornoncompliance-1.PNG)
 
-4. Добавив информацию, нажмите кнопку **Создать**. Шаблон сообщений уведомления доступен для использования.
+4. Добавив информацию, нажмите кнопку **Создать**. Шаблон сообщений уведомления доступен для использования. Логотип, который вы загружаете как часть фирменной символики корпоративного портала, будет использоваться для шаблонов сообщений электронной почты. Дополнительные сведения о фирменной символике корпоративного портала см. в разделе [Настройка фирменной символики организации](company-portal-app.md#company-identity-branding-customization).  
 
 > [!NOTE]
 > Можно также изменить ранее созданный шаблон уведомлений.

@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 3a3fd4c57edba6f4d9abfdd4188c94627543cb43
-ms.sourcegitcommit: ba0699cc351954960b222223c60c4ecd50edc829
+ms.openlocfilehash: a95f68f0a9794047b8adb7f9ab729bb4905f2379
+ms.sourcegitcommit: cac71802b2782700f0d52ea114089d73620cd1ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49652161"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "50679395"
 ---
 # <a name="device-restriction-for-windows-10-and-newer-settings-in-intune"></a>Параметры ограничений устройств Windows 10 (и более поздних версий) в Intune
 В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 10.
@@ -405,4 +405,4 @@ ms.locfileid: "49652161"
 - **RCS (только для мобильных устройств)** — отключите функции приема и отправки через протокол Rich Communication Services (RCS).
 
 ## <a name="more-information"></a>Дополнительные сведения
-Дополнительные технические сведения о каждом параметре и поддерживаемых выпусках Windows см. в [этой статье](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider).
+Дополнительные технические сведения о каждом параметре и поддерживаемых выпусках Windows см. в статье [Ссылка на политику CSP Windows 10](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider)

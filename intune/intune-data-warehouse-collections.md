@@ -15,12 +15,12 @@ ms.assetid: 29f09230-dc56-43db-b599-d961967bda49
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune
-ms.openlocfilehash: 4df55309587ac079cfeaec299d70635b090e300b
-ms.sourcegitcommit: 443b4cb3390da47bf1e497b1f0c0137a5ddda7bd
+ms.openlocfilehash: e54b35d677d34067bfbd0ad6aad86e3dfe17fb90
+ms.sourcegitcommit: 222881461a81a93b3843c2ac86a7c24a180158d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "43821637"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50971488"
 ---
 #  <a name="intune-data-warehouse-collections"></a>Коллекции хранилища данных Intune
 
@@ -408,7 +408,7 @@ ms.locfileid: "43821637"
 | AppKey             | Ключ мобильного приложения, используемый для идентификации экземпляра AppRevision.                                                          |
 | DeviceTypeKey      | Ключ типа устройства, сопоставленный с мобильным приложением.                                                              |
 | AppInstallStateKey | Ключ состояния установки приложения, используемый для идентификации экземпляра MobileAppInstallState.                                         |
-| ErrorCode          | Код ошибки, возвращаемый установщиком приложения, мобильной платформой или службой, которые относятся к установке приложения. |
+| КодОшибки          | Код ошибки, возвращаемый установщиком приложения, мобильной платформой или службой, которые относятся к установке приложения. |
 | Счетчик              | Общее количество.                                                                                                                  |
 
 ## <a name="ownertypes"></a>ownerTypes
@@ -499,7 +499,7 @@ ms.locfileid: "43821637"
 |    description    |    Описание этих условий.     |         |
 |    заголовок    |    Заголовок для этих условий.     |    Корпоративная политика для управления устройствами        |
 |    summaryOfTerms    |    Сводка условий, предоставленная пользователю.     |    Я принимаю условия.    |
-|    termsAndConditionsBodyText    |    Текст этих условий.       |    * Шифрование устройства * Принудительная установка ПИН-кода из 6 цифр    |
+|    termsAndConditionsBodyText    |    Текст этих условий.       |    *Шифрование устройства* Принудительная установка ПИН-кода из 6 цифр    |
 |    isDeleted    |    Указывается значение true или false для обозначения удаления.     |    False    |
 |    startDateInclusiveUTC    |    Дата вступления в силу этих условий.     |    23/8/2018 4:01:34    |
 |    endDateEclusiveUTC    |    Дата окончания действия этих условий.     |    31/12/9999 12:00:00    |

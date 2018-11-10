@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/19/2018
+ms.date: 11/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 0d1fe40b1cb5a496b3111b2630718a3dd17486ab
-ms.sourcegitcommit: 63b74a60aafa8d2d6af0594448ae0471fbd79194
+ms.openlocfilehash: c30d20592a95f7894bb040f9e8fe5a2e3ddd0166
+ms.sourcegitcommit: 1134ecd733356277b40eb1c7f2b318b36d387e00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46494019"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "50915756"
 ---
 # <a name="how-to-manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune
 
@@ -89,4 +89,15 @@ ms.locfileid: "46494019"
 * Сократите область текущего назначения, чтобы охватить только то число пользователей, на которое хватает лицензий.
 * Приобретите дополнительные копии приложения из Магазина Майкрософт для бизнеса.
 
+## <a name="remove-apps"></a>Удаление приложений
 
+Чтобы удалить приложение, которое синхронизируется из Microsoft Store для бизнеса, вам потребуется войти в Microsoft Store для бизнеса и вернуть его.
+
+![Снимок экрана: удаление приложения](./media/microsoft-store-for-business-01.png)
+
+> [!NOTE]
+> Если скрыть приложение из частного магазина, Intune все равно будет синхронизировать его. Необходимо вернуть приложение.
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+- [Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune](vpp-apps.md)

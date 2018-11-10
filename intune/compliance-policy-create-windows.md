@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: e38e6f615220135e9c4c9c786ab260f5921890ea
-ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
+ms.openlocfilehash: 359f423e7b1bd098136670db1d43b2ddec6031a3
+ms.sourcegitcommit: cac71802b2782700f0d52ea114089d73620cd1ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49642915"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "50679327"
 ---
 # <a name="add-a-device-compliance-policy-for-windows-devices-in-intune"></a>Добавление политики соответствия требованиям для устройств Windows в Intune
 
@@ -168,6 +168,9 @@ ms.locfileid: "49642915"
 #### <a name="encryption"></a>Encryption
 
 - **Encryption of data storage on a device** (Шифрование хранилища данных на устройстве). Выберите **Требовать** для шифрования хранилища данных на устройствах.
+
+  > [!NOTE]
+  > Параметр **Шифрование хранилища данных на устройстве** обычно проверяет наличие шифрования на устройстве. Для более надежного шифрования можно указать параметр **Требовать BitLocker**, который использует подтверждение работоспособности устройства Windows, чтобы проверить состояние Bitlocker на уровне доверенного платформенного модуля.
 
 #### <a name="device-security"></a>Безопасность устройств
 

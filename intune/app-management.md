@@ -15,12 +15,12 @@ ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
 ms.suite: ems
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: 99d217c2d1960a1ca163bf697bfbd28e5406b58f
-ms.sourcegitcommit: f69f2663ebdd9c1def68423e8eadf30f86575f7e
+ms.openlocfilehash: 25236453f0440978eda34e3a1a8b1b93daf4c6e1
+ms.sourcegitcommit: 814d1d473de2de2e735efab826b1091de2b093f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "49075852"
+ms.lasthandoff: 11/05/2018
+ms.locfileid: "51025174"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -94,7 +94,7 @@ Intune предлагает широкий набор возможностей, 
 - **Лицензии приложений**. В этом разделе можно просматривать, назначать и отслеживать приложения, приобретенные по программе Volume Purchase Program в магазине приложений. Дополнительные сведения см. на странице
     - [Управление приложениями iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune](vpp-apps-ios.md).
     - [Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune](windows-store-for-business.md).
-- **Обнаруженные приложения**. Здесь отображаются все приложения, назначенные Intune и установленные на устройстве. Дополнительные сведения см. в разделе [Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune](apps-monitor.md#device-and-user-status-graphs).
+- **Обнаруженные приложения**. Здесь отображаются приложения, назначенные Intune или установленные на устройстве. Дополнительные сведения см. в разделе [Просмотр сведений об устройствах в Microsoft Intune](device-inventory.md).
 - **Состояние установки приложения**. Здесь отображается состояние созданного назначения приложения. Дополнительные сведения см. в разделе [Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune](apps-monitor.md#device-and-user-status-graphs).
 - **Состояние защиты приложения**. Здесь отображается состояние политики защиты приложения для выбранного пользователя.
 - **Журналы аудита**. Здесь отображаются действия, связанные с приложением Intune, которые выполняют все ИТ-администраторы.

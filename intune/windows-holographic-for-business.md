@@ -5,19 +5,19 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/10/2018
+ms.date: 10/19/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 87ae986e1f7a2b00c1a29208a163ee449e114f17
-ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
+ms.openlocfilehash: 03d52c53b6e3152a5a262ca8bd6d158d5980b2c8
+ms.sourcegitcommit: 5c2a70180cb69049c73c9e55d36a51e9d6619049
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49425297"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50236396"
 ---
 # <a name="manage-and-use-windows-holographic-and-hololens-devices-with-intune"></a>Использование устройств Windows Holographic и HoloLens и управление ими в Intune
 
@@ -68,6 +68,10 @@ Azure Active Directory (AD) отлично подходит для настро�
 
 Microsoft Intune может развертывать универсальные приложения для Windows на устройствах Microsoft HoloLens под управлением Windows Holographic for Business. Вы можете напрямую отправить пакеты приложений на портале Intune Azure или развернуть их из Microsoft Store для бизнеса. Дополнительные сведения о связанных областях см. в следующих статьях:
 - Сведения о развертывании бизнес-приложений с помощью портала Intune Azure см. в статье [Как добавить бизнес-приложения Windows в Microsoft Intune](lob-apps-windows.md).
+
+    > [!NOTE]
+    > Максимальный размер пакета в Intune — 8 ГБ. Этот размер пакета доступен только для бизнес-приложений, отправленных в Intune.
+
 - Сведения о развертывании приложений из Microsoft Store для бизнеса см. в статье [Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune](windows-store-for-business.md). 
 - Сведения об управлении приложениями с помощью Microsoft Intune см. в статье [Что такое управление приложениями с помощью Microsoft Intune](app-management.md).
 - Сведения о разработке приложений для Microsoft HoloLens см. на странице [о приложениях смешанной реальности для Microsoft HoloLens](https://www.microsoft.com/hololens/apps). 

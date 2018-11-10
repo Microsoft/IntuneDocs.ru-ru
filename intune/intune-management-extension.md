@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/30/2018
+ms.date: 10/23/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: 768b6f08-3eff-4551-b139-095b3cfd1f89
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: af80dd180e8fdbaeb633bdffaad90ccdf02d5380
-ms.sourcegitcommit: 604b29c480b24270b5debc3e5f3141c8149ee6ed
+ms.openlocfilehash: ad8e874dda47b7c6deeb614b0f893f7c922241ce
+ms.sourcegitcommit: 5c2a70180cb69049c73c9e55d36a51e9d6619049
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "49959576"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50236345"
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Управление сценариями PowerShell в Intune для устройств Windows 10
 Расширение управления Intune позволяет отправлять сценарии PowerShell в Intune для выполнения на устройствах Windows 10. Расширение управления дополняет возможности управления мобильными устройствами (MDM) Windows 10 и упрощает переход на современные принципы управления.
@@ -56,7 +56,8 @@ ms.locfileid: "49959576"
 
 > [!NOTE]
 > - Сценарии PowerShell запрещено применять для групп компьютеров.
-> - Сценарии PowerShell выполняются на устройствах только в том случае, если на устройство вошел пользователь Azure Active Directory (AD).
+> - Конечным пользователям не требуется выполнять вход на устройство для выполнения сценариев PowerShell. 
+> - Сценарии PowerShell в Intune могут быть нацелены на группы безопасности устройств AAD.
 
 Расширение управления Intune синхронизируется с Intune каждый час. После назначения политики группам Azure AD выполняется скрипт PowerShell, после чего выводятся результаты выполнения. 
  
