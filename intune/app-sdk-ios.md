@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/08/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: 8e280d23-2a25-4a84-9bcb-210b30c63c0b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: ''
-ms.openlocfilehash: 4b7a759b574b44a07499597e89627f70b99e5496
-ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
+ms.openlocfilehash: c9920e914a80ec3bb02f5066e6d6e34b2236c860
+ms.sourcegitcommit: 5d5448f6c365aeb01d6f2488bf122024b9616bec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49643099"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51212501"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -34,7 +34,7 @@ ms.locfileid: "49643099"
 
 * Ваше приложение должно быть предназначено для iOS 10 или более поздней версии.
 
-* См. статью [Условия лицензии пакета SDK для приложений Intune для iOS](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/blob/master/Microsoft%20License%20Terms%20Intune%20App%20SDK%20for%20iOS%20.pdf). Распечатайте и сохраните копию условий лицензии для своих записей. Скачивая и используя пакет SDK для приложений Intune в iOS, вы соглашаетесь с этими условиями лицензии.  Если вы не согласны, не используйте это программное обеспечение.
+* См. статью [Условия лицензии пакета SDK для приложений Intune для iOS](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/blob/master/Microsoft%20License%20Terms%20Intune%20App%20SDK%20for%20iOS.pdf). Распечатайте и сохраните копию условий лицензии для своих записей. Скачивая и используя пакет SDK для приложений Intune в iOS, вы соглашаетесь с этими условиями лицензии.  Если вы не согласны, не используйте это программное обеспечение.
 
 * Скачайте файлы для пакета SDK для приложений Intune в iOS на сайте [GitHub](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios).
 
