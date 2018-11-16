@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 09/20/2018
+ms.date: 11/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 003bf4046a997e3633105e4dc41c93a82e16ee40
-ms.sourcegitcommit: 77540295381a59918eb638ce9c1870209cf8af02
+ms.openlocfilehash: 17b99c4a089fc426ecfeea803737fa8704f3b0a6
+ms.sourcegitcommit: 5d5448f6c365aeb01d6f2488bf122024b9616bec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46505722"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51212314"
 ---
 # <a name="fix-common-issues-with-your-macos-device"></a>Решение распространенных проблем с устройствами с macOS
 
@@ -33,3 +33,6 @@ ms.locfileid: "46505722"
 - [Устройство под управлением Jamf не соответствует требованиям](device-little-different-jamf.md)
 - [Я не могу найти серийный номер](how-do-i-find-the-serial-number-on-my-device-macos.md)
 - [Меня попросили идентифицировать свое устройство](you-are-asked-to-identify-your-device-when-trying-to-enroll-macos.md)
+- [Возникла ошибка при регистрации виртуальной машины macOS](unable-to-get-macOS-device-managed.md)  
+- [Выводится сообщение о том, что серийный номер моего устройства macOS запрещен](unable-to-get-macOS-device-managed.md)  
+- [Возможно, мое устройство уже назначено другому пользователю](unable-to-get-macOS-device-managed.md)  

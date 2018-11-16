@@ -13,12 +13,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d4287322fd494c97cf24feb8cc16435a4405f2af
-ms.sourcegitcommit: 7a649a5995600fb91817643e20a5565caedbb8f2
+ms.openlocfilehash: a823ea2f04d8e3a8f1ca5a2f1364060840686501
+ms.sourcegitcommit: 2e6851a5c1f934dcdb3f854d8462a4d23cc0453b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50150113"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "51561947"
 ---
 # <a name="remove-scep-and-pkcs-certificates-in-microsoft-intune"></a>Удаление сертификатов SCEP и PKCS в Microsoft Intune
 
@@ -131,7 +131,7 @@ ms.locfileid: "50150113"
   - Администратор удаляет пользователя или группу из Azure AD.
   - Администратор изменяет или обновляет профиль PKCS.
 
-## <a name="android--android-enterprise-devices"></a>Устройства Android и Android Enterprise
+## <a name="android-knox-devices"></a>Устройства Android KNOX
 
 #### <a name="scep-certificates"></a>Сертификаты SCEP
 
@@ -177,6 +177,10 @@ ms.locfileid: "50150113"
   - Администратор изменяет или обновляет профиль PKCS.
   - Профиль конфигурации удаляется из назначения группы.
   - Политика соответствия удаляется из назначения группы. 
+  
+  
+> [!NOTE]
+> Устройства Android for Work не проверяются в рамках указанных выше сценариев. Устройства Android прежних версий (не Samsung, не с рабочими профилями) не поддерживают удаление сертификата. 
 
 ## <a name="macos-certificates"></a>Сертификаты macOS
 

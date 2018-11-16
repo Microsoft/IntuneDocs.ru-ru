@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 9d7f54ce0e288025a4a7f0f45bf5b10de5323021
-ms.sourcegitcommit: e8e8164586508f94704a09c2e27950fe6ff184c3
+ms.openlocfilehash: f79985c9854af462fa9a456304a3184128283b9c
+ms.sourcegitcommit: d8edd1c3d24123762dd6d14776836df4ff2a31dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39321760"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51576806"
 ---
 # <a name="device-restriction-settings-for-windows-holographic-for-business-in-intune"></a>Параметры ограничений для устройств с Windows Holographic for Business в Intune
 
@@ -41,17 +41,17 @@ ms.locfileid: "39321760"
 -   **Установка доверенного приложения.** Позволяет загружать неопубликованные приложения, подписанные доверенным сертификатом.
 -   **Разблокировка для разработчиков.** Разрешает параметры разработчика Windows, например изменение пользователем неопубликованных приложений.
 
-## <a name="edge-browser"></a>Браузер Microsoft Edge
+## <a name="microsoft-edge-browser"></a>Браузер Microsoft Edge
 
 -   **Файлы cookie.** Позволяет браузеру сохранять интернет-файлы cookie на устройстве.
 -   **Всплывающие окна**. Блокирует всплывающие окна в браузере (только для Windows 10 Desktop).
 -   **Варианты поиска.** Позволяет поисковой системе предлагать сайты при вводе фраз для поиска.
--   **Диспетчер паролей.** Включает или отключает функцию диспетчера паролей Microsoft Edge.
-- **Отправить заголовки do-not-track.** Настраивает в браузере Microsoft Edge отправку заголовков do-not-track на посещаемые веб-сайты.
+-   **Диспетчер паролей**. Включает или отключает функцию диспетчера паролей Microsoft Edge.
+- **Отправить заголовки do-not-track**. Настраивает в браузере Microsoft Edge отправку заголовков do-not-track на посещаемые веб-сайты.
 
 ## <a name="windows-defender-smart-screen"></a>SmartScreen Защитника Windows
 
-- **SmartScreen для Microsoft Edge** — включите Edge SmartScreen для доступа к сайту и файлам загрузки.
+- **SmartScreen для Microsoft Edge**. Включите Microsoft Edge SmartScreen для доступа к сайту и файлам загрузки.
 
 ## <a name="search"></a>Система поиска
 - **Поиск местоположения**. Укажите, можно ли в поиске использовать сведения о местоположении. Данные

@@ -7,12 +7,12 @@ ms.service: microsoft-intune
 ms.topic: quickstart
 ms.date: 09/21/2018
 ms.author: erikje
-ms.openlocfilehash: 33c0d4f3ee3b29be47540c92425f76a3f1dcc044
-ms.sourcegitcommit: 9d08545727543b434dd270371fa50233470f2bce
+ms.openlocfilehash: 5c83af252b1c728b9e3d4015cdc8bb4fd3668ad1
+ms.sourcegitcommit: 2e6851a5c1f934dcdb3f854d8462a4d23cc0453b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "50410775"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "51561930"
 ---
 # <a name="quickstart-create-and-assign-a-custom-role"></a>Краткое руководство. Создание и назначение пользовательской роли
 
@@ -64,7 +64,9 @@ ms.locfileid: "50410775"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-В этом кратком руководстве вы создали пользовательскую роль для выполнения операций безопасности и назначили ее группе. Дополнительные сведения о проблемах безопасности см. в следующей статье.
+В этом кратком руководстве вы создали пользовательскую роль для выполнения операций безопасности и назначили ее группе. Дополнительные сведения о ролях в Intune см. в статье [Управление доступом на основе ролей (RBAC) с помощью Microsoft Intune](role-based-access-control.md).
+
+Чтобы выполнить эту серию кратких руководств по Intune, переходите к следующему руководству.
 
 > [!div class="nextstepaction"]
-> [Начало работы с политиками соответствия устройств в Intune](device-compliance-get-started.md)
+> [Краткое руководство. Создание профиля электронной почты устройства для iOS](quickstart-email-profile.md)

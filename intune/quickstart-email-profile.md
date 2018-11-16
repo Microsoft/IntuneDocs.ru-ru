@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 09/21/2018
+ms.date: 10/29/2018
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: b797951c878dd90cbb7bb716b5108f94f48921c5
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: 21dda51d2ddde74f07fcc173c5a4dd2a13c9c8b8
+ms.sourcegitcommit: 5e5004a31207e75e54504d74548735c048676a03
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48231956"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51225753"
 ---
 # <a name="quickstart-create-an-email-device-profile-for-ios"></a>Краткое руководство. Создание профиля электронной почты для устройств iOS
 
@@ -69,7 +69,7 @@ ms.locfileid: "48231956"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-В этом кратком руководстве вы создали профиль электронной почты для устройств iOS. Теперь его можно использовать для определения соответствия устройства iOS, создав политику соответствия, которая помечает как несовместимые все устройства iOS, которые не соответствуют профилю. Для обеспечения дополнительной защиты можно создать политику условного доступа, запрещающую несовместимым устройствам iOS доступ к электронной почте.
+В этом кратком руководстве вы создали профиль электронной почты для устройств iOS. Теперь его можно использовать для определения соответствия устройства iOS, создав политику соответствия, которая помечает как несовместимые все устройства iOS, которые не соответствуют профилю. Для обеспечения дополнительной защиты можно создать политику условного доступа, запрещающую несовместимым устройствам iOS доступ к электронной почте. Дополнительные сведения о политиках соответствия устройств см. в разделе [Начало работы с политиками соответствия устройств в Intune](device-compliance-get-started.md).
 
 > [!div class="nextstepaction"]
-> [Начало работы с политиками соответствия устройств в Intune](device-compliance-get-started.md)
+> [Руководство. Защита электронной почты Exchange Online на управляемых устройствах](tutorial-protect-email-on-enrolled-devices.md)

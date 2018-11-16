@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/21/2018
+ms.date: 11/09/2018
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.assetid: 723f4b4e-3090-4811-84ff-6af652abea5a
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: 2b52265bb9b3df800c0e13450a2154e46098a933
-ms.sourcegitcommit: 9d08545727543b434dd270371fa50233470f2bce
+ms.openlocfilehash: e85a88b984aaa05423a35f222de9c56d7366d15a
+ms.sourcegitcommit: 4c4e87cb0d8906085fcb7cdd170bd6b0cfeb23ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "50410826"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51511015"
 ---
 # <a name="quickstart-create-a-group-to-manage-users"></a>Краткое руководство. Создание группы для управления пользователями
 
@@ -57,7 +57,9 @@ ms.locfileid: "50410826"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-В этом кратком руководстве вы с помощью Intune создали группу на основе существующих пользователей.
+В этом кратком руководстве вы с помощью Intune создали группу на основе существующих пользователей. Дополнительные сведения о добавлении групп в Intune см. в разделе [Добавление групп для организации пользователей и устройств](groups-add.md).
+
+Чтобы выполнить эту серию кратких руководств по Intune, переходите к следующему руководству.
 
 > [!div class="nextstepaction"]
-> [Создание политики соответствия устройства](quickstart-create-policy.md)
+> [Краткое руководство. Настройка автоматической регистрации устройств Windows 10](quickstart-setup-auto-enrollment.md)
