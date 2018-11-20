@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/04/2018
+ms.date: 11/19/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.assetid: e9c349c8-51ae-4d73-b74a-6173728a520b
 ms.reviewer: aanavath
 ms.suite: ems
 ms.custom: intune-classic
-ms.openlocfilehash: b4b10d3dfa83e3fcfda6ba34bebc1257b19d83ac
-ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
+ms.openlocfilehash: 32ce1a71911c7a902f2790fef584ab1c3b86a293
+ms.sourcegitcommit: 6ff5df63a2fff291d7ac5fed9c51417fe808650d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49642993"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52167456"
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -128,7 +128,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 ## <a name="reusing-signing-certificates-and-wrapping-apps"></a>Повторное использование сертификатов для подписи и упаковка приложений
 Для установки любого приложения на устройства с ОС Android у него должен иметься допустимый сертификат в качестве подписи.
 
-Упакованные приложения можно подписать с помощью имеющихся у вас средств для подписи либо в процессе упаковки, либо *после* нее (любые сведения о подписи в приложении перед упаковкой удаляются). По возможности используйте при упаковке сведения о подписи, которые уже использовались в процессе сборки. В некоторых организациях для этого может потребоваться привлечь владельцев данных хранилища ключей (например, группы по сборкам приложений). 
+Упакованные приложения можно подписать с помощью имеющихся у вас средств для подписи либо в процессе упаковки, либо *после* нее (любые сведения о подписи в приложении перед упаковкой удаляются). По возможности используйте при упаковке сведения о подписи, которые уже использовались в процессе сборки. В некоторых организациях для этого может потребоваться привлечь владельцев данных хранилища ключей (например, группы по сборкам приложений). 
 
 Если использовать предыдущий сертификат для подписи невозможно или приложение раньше не развертывалось, вы можете создать для подписи новый сертификат согласно указаниям в [руководстве разработчика Android](https://developer.android.com/studio/publish/app-signing.html#signing-manually).
 

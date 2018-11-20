@@ -15,12 +15,12 @@ ms.assetid: 9691982c-1a03-4ac1-b7c5-73087be8c5f2
 ms.reviewer: dagerrit
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: de77ad92eac4aa869aec504f1762ad6f216c74d2
-ms.sourcegitcommit: bea4a81d262607c6e9dd1e26f5cd1a2faf7d051b
+ms.openlocfilehash: 97543ec74225ef86208000bccb2a8ad7852dd9c1
+ms.sourcegitcommit: b96568a77d3cb6f602e7577446996fe7dde169bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45602152"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51610062"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -66,7 +66,7 @@ ms.locfileid: "45602152"
 
 ## <a name="set-device-type-restrictions"></a>Установка ограничений по типу устройства
 
-Чтобы изменить параметры для ограничения по типу устройства, выполните следующие действия. Эти ограничения не влияют на устройства, которые уже были зарегистрированы. Устройства, зарегистрированные с помощью [агента Intune для ПК](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune.md), не могут быть заблокированы с помощью этой функции.
+Чтобы изменить параметры для ограничения по типу устройства, выполните следующие действия. Эти ограничения не влияют на устройства, которые уже были зарегистрированы. Устройства, зарегистрированные с помощью [агента Intune для ПК](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune), не могут быть заблокированы с помощью этой функции.
 
 1. Войдите на портал Azure.
 2. Выберите **Больше служб**, выполните поиск по **Intune**, а затем выберите **Intune**.
@@ -100,11 +100,11 @@ ms.locfileid: "45602152"
 - Устройство регистрируется с помощью [автоматической регистрации из SCCM для совместного управления](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview#how-to-configure-co-management.md).
  
 Следующие регистрации помечаются Intune как корпоративные, однако поскольку они не предоставляют администратору Intune контроль на уровне устройств, они будут заблокированы:
- - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory во время настройки Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-frx.md)\*.
-- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory из приложения "Параметры" Windows ](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-setup.md)*.
+ - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory во время настройки Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-frx)\*.
+- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory из приложения "Параметры" Windows ](https://docs.microsoft.com/azure/active-directory/user-help/user-help-register-device-on-network)*.
  
 Следующие методы регистрации личных устройств также будут заблокированы:
-- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с помощью команды [Добавить рабочую учетную запись из параметров Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-registered-devices-windows10-setup.md)\*.
+- [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с помощью команды [Добавить рабочую учетную запись из параметров Windows](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network)\*.
 - Использование параметра [Регистрация только в MDM]( https://docs.microsoft.com/windows/client-management/mdm/mdm-enrollment-of-windows-devices#connecting-personally-owned-devices-bring-your-own-device) из параметров Windows.
 
 \* Не блокируются при регистрации с помощью Autopilot.

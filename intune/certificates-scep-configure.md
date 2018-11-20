@@ -13,12 +13,12 @@ ms.technology: ''
 ms.reviewer: kmyrup
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: dfe8d8d7c7a534dd4a21104b0c7076c039d9f504
-ms.sourcegitcommit: 5d5448f6c365aeb01d6f2488bf122024b9616bec
+ms.openlocfilehash: b0ee2b2ad8d25d1040577a7f8abff4377704d2d5
+ms.sourcegitcommit: 6ff5df63a2fff291d7ac5fed9c51417fe808650d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51212535"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52167541"
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Настройка и использование сертификатов SCEP в Intune
 
@@ -365,6 +365,7 @@ ms.locfileid: "51212535"
      - iOS
      - Windows 8.1 и более поздние версии
      - Windows 10 и более поздней версии
+     - Android для бизнеса
 
    - **Формат имени субъекта**. Выберите способ, с помощью которого Intune автоматически создает имя субъекта в запросе на сертификат. При выборе типа сертификата **Пользовательский** или **Устройство** параметры изменяются. 
 
