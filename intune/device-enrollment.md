@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: a9761c57b15700e147bc092b7577fe1b32c78c18
-ms.sourcegitcommit: 18f51ae8291b57562921e40fc364a5a60a59b139
+ms.openlocfilehash: c46a90d36ba8b50703e62fc663b1d090ac1bcfc7
+ms.sourcegitcommit: b96568a77d3cb6f602e7577446996fe7dde169bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2018
-ms.locfileid: "44254162"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51610130"
 ---
 # <a name="what-is-device-enrollment"></a>Что такое регистрация устройств?
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -42,7 +42,6 @@ Intune позволяет управлять устройствами и при�
 |**[Прямое подключение USB](#usb-direct)**| Нет |    Нет  | Нет|[Дополнительные сведения](./apple-configurator-direct-enroll-ios.md)|
 
 ## <a name="macos-enrollment-methods"></a>Методы регистрации в macOS
-
 | **Метод** |  **Требуется сброс** |  **Сопоставление пользователей** | **Заблокировано** | **Сведения**|
 |:---:|:---:|:---:|:---:|:---:|
 |**[BYOD](#bring-your-own-device)** | Нет| Да | Нет | [Дополнительные сведения](./macos-enroll.md)|
@@ -56,7 +55,11 @@ Intune позволяет управлять устройствами и при�
 |**[BYOD](#bring-your-own-device)** | Нет |  Да |   Нет | [Дополнительные сведения](windows-enroll.md)|
 |**[DEM](#device-enrollment-manager)**| Нет |Нет |Нет  |[Дополнительные сведения](device-enrollment-manager-enroll.md)|
 |**Автоматическая регистрация** | Нет |Да |Нет | [Дополнительные сведения](./windows-enroll.md#enable-windows-10-automatic-enrollment)|
+|**Autopilot** |Да |Да |Нет | [Дополнительные сведения](enrollment-autopilot.md)
 |**Массовая регистрация** |Нет |Нет |Нет | [Дополнительные сведения](./windows-bulk-enroll.md) |
+|**Совместное управление** |Нет |Да |Нет | [Дополнительные сведения](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview)
+|**GPO** |Нет |Да |Нет | [Дополнительные сведения](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)
+
 
 ## <a name="android-enrollment-methods"></a>Методы регистрации в Android
 

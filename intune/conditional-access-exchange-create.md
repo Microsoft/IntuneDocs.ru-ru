@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 ms.custom: intune-azure
-ms.openlocfilehash: d44b7483d65eeb7b2a39783fb113c444184db4f3
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: b1e07bd67d4bf8b776500be01571deddb1e5e58f
+ms.sourcegitcommit: 630dfe1413c1819f35aa941ffc888a7084771a55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48232228"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51709144"
 ---
 # <a name="create-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated"></a>Создание политики условного доступа к локальной организации Exchange и устаревшей версии выделенной среды Exchange Online
 
@@ -66,7 +66,7 @@ ms.locfileid: "48232228"
 - Почтовые клиенты EAS на **устройствах с рабочим профилем Android**. На устройствах с рабочим профилем Android поддерживаются только приложения **Gmail** и **Nine Work for Android Enterprise** в **рабочем профиле**. Чтобы условный доступ работал для рабочих профилей Android, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work for Android Enterprise, а также развернуть эти приложения в качестве обязательной установки.
 
 > [!NOTE]
-> Приложение Microsoft Outlook в iOS и Android не поддерживается. 
+> Microsoft Outlook для Android и iOS не поддерживается при использовании локального соединителя Exchange. Если вы хотите использовать политики условного доступа Azure Active Directory и политики Защиты приложений Intune в Outlook для iOS и Android для локальных почтовых ящиков, см. руководство по [использованию гибридной современной проверки подлинности в Outlook для iOS и Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth). 
 
 ### <a name="support-for-pcs"></a>Поддержка для ПК
 
@@ -77,11 +77,11 @@ ms.locfileid: "48232228"
 
 1. Перейдите на [портал Azure](https://portal.azure.com/) и войдите в систему с помощью своих учетных данных Intune.
 
-1. После успешного входа отобразится **панель мониторинга Azure**.
+1. Вы увидите **панель мониторинга Azure**.
 
-1. Выберите **Все службы** в меню слева и введите **Intune** в текстовое поле фильтра.
+1. Выберите  **Все службы**  в меню слева и введите  **Intune**  в текстовое поле фильтра.
 
-1. Выберите **Intune**, и тогда отобразится **панель мониторинга Intune**.
+1. Выберите  **Intune**. Отобразится **панель мониторинга Intune**.
 
 1. Выберите **Локальный доступ**. На панели **Локальный доступ** отображается состояние политики условного доступа и устройств, к которым она применена.
 
