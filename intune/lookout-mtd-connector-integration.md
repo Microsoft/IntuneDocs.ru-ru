@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 5b0d7644-3183-45ba-a165-0d82d70cb71e
 ms.reviewer: heenamac
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: fe8a55153ccc2b28c23ec2f32a4285d20afaaf6a
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: f0ff43e5a25a2f2d7d97564e638d01b014ab81cb
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48232191"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52181077"
 ---
 # <a name="set-up-your-lookout-mobile-threat-defense-integration-with-intune"></a>Настройка интеграции Lookout Mobile Threat Defense с Intune
 
@@ -50,11 +51,11 @@ ms.locfileid: "48232191"
 
 В следующем разделе приводятся шаги по сбору данных, которые необходимо предоставить службе поддержки Lookout.
 
-1. Войдите на [портал Azure AD](https://portal.azure.com) и выберите свою подписку. 
+1. Войдите на [портал Azure AD](https://portal.azure.com) и выберите свою подписку. 
 
-2. При выборе имени подписки итоговый URL-адрес содержит идентификатор подписки.  Если вам не удается найти идентификатор подписки, обратитесь к соответствующим рекомендациям в [этой статье службы поддержки Майкрософт](https://support.office.com/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b).
+2. При выборе имени подписки итоговый URL-адрес содержит идентификатор подписки.  Если вам не удается найти идентификатор подписки, обратитесь к соответствующим рекомендациям в [этой статье службы поддержки Майкрософт](https://support.office.com/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
-3. Найдите свой идентификатор группы Azure AD. Консоль Lookout поддерживает два уровня доступа.  
+3. Найдите свой идентификатор группы Azure AD. Консоль Lookout поддерживает два уровня доступа.  
    * **Полный доступ.** Администратор Azure AD может создать две группы пользователей — с полным и ограниченным доступом (вторая необязательна).  Только пользователи из этих групп смогут войти в **консоль Lookout**.
    * **Ограниченный доступ.** У пользователей в этой группе не будет доступа к ряду модулей консоли Lookout, связанных с настройкой и регистрацией. Они будут иметь доступ только для чтения к модулю консоли **Политика безопасности**.  
 

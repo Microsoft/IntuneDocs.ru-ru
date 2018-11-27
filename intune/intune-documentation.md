@@ -13,15 +13,16 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 12d5d1f5-8452-4270-9975-f3a98e0eb746
 ms.suite: ems
+search.appverid: MET150
 ms.custom: get-started
-ms.openlocfilehash: 5bd37dbe6a24916bf3637999bd914c2e231c086e
-ms.sourcegitcommit: cd73ef164e0df79429b97c3090adbba49592c150
+ms.openlocfilehash: 9e16ec96e29ba10df6c0847de5051c2108e7af13
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "46448718"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52179156"
 ---
-# <a name="microsoft-intune-documentation-guide"></a>Руководство по документации по Microsoft Intune
+# <a name="microsoft-intune-documentation-guide"></a>Руководство по документации Microsoft Intune
 
 Эта статья, так же как и весь набор документации по Microsoft Intune, постоянно обновляется. Если у вас есть дополнительные предложения, оставьте свои отзывы в конце этого раздела. Мы будем рады узнать ваше мнение.
 

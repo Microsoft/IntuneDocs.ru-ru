@@ -14,12 +14,13 @@ ms.technology: ''
 ms.assetid: 58591442-6606-4f39-a06b-f17a1f25af25
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: f7bf390bd581e3edee1c94f446e89b16163cadee
-ms.sourcegitcommit: 5eba4bad151be32346aedc7cbb0333d71934f8cf
+search.appverid: MET150
+ms.openlocfilehash: 1e21fef5102b22dfe698a9adb73736508452acfe
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31021522"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52186381"
 ---
 # <a name="phase-1-prepare-microsoft-intune-for-mobile-device-management-mdm"></a>Этап 1. Подготовка Microsoft Intune к управлению мобильными устройствами (MDM)
 

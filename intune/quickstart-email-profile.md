@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 21dda51d2ddde74f07fcc173c5a4dd2a13c9c8b8
-ms.sourcegitcommit: 5e5004a31207e75e54504d74548735c048676a03
+ms.openlocfilehash: 3da4208b3036b0252e2e5bd26d8361d04642183a
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51225753"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52189713"
 ---
 # <a name="quickstart-create-an-email-device-profile-for-ios"></a>Краткое руководство. Создание профиля электронной почты для устройств iOS
 

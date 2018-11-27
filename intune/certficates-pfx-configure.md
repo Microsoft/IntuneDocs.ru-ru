@@ -13,13 +13,14 @@ ms.technology: ''
 ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 573cdf8746b9eaf593a33cd943b69a2dd83030ae
-ms.sourcegitcommit: 2e88ec7a412a2db35034d30a70d20a5014ddddee
+ms.openlocfilehash: 70d1594220b3315db2c7d7eeb01a915aaf2ec995
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "49391609"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52186739"
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Настройка и использование сертификатов PKCS в Intune
 
@@ -117,7 +118,7 @@ ms.locfileid: "49391609"
 ### <a name="microsoft-intune-certificate-connector"></a>Соединитель сертификатов Microsoft Intune
 
 > [!IMPORTANT] 
-> Соединитель Microsoft Intune Certificate Connector **необходимо** установить на отдельный сервер Windows. Его нельзя установить на компьютер с выдающим центром сертификации (ЦС).
+> Microsoft Intune Certificate Connector **необходимо** установить на отдельный сервер Windows. Этот соединитель нельзя установить на компьютер с выдающим центром сертификации (ЦС).
 
 1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
 2. Выберите **Конфигурация устройства** > **Центр сертификации** > **Добавить**.

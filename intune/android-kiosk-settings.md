@@ -11,13 +11,14 @@ ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 0b2a31a90dc0d88386a829756116edebd28990f9
-ms.sourcegitcommit: bea4a81d262607c6e9dd1e26f5cd1a2faf7d051b
+ms.openlocfilehash: 5cd16a351beefd851d51175717abd4400382c216
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45602186"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52185242"
 ---
 # <a name="kiosk-settings-for-android-devices-in-intune"></a>Параметры киосков Android в Intune
 
@@ -47,7 +48,7 @@ ms.locfileid: "45602186"
 
 Чтобы установить в киоске Android несколько приложений, выполните следующие действия:
 
-1. [Импортируйте и разверните приложение управляемого начального экрана из управляемого Google Play](#import-and -deploy-the-managed-home-screen-app)
+1. [Импортируйте и разверните приложение управляемого начального экрана из управляемого Google Play](#import-and-deploy-the-managed-home-screen-app)
 2. [Добавьте и назначьте приложения, которые могут использоваться в режиме киоска](#add-and-assign-apps-that-can-be-used-in-kiosk-mode)
 3. [Добавьте веб-ссылки, которые можно использовать в режиме киоска](#add-web-links-that-can-be-used-in-kiosk-mode) (необязательно)
 

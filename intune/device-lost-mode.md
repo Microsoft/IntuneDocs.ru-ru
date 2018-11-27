@@ -12,13 +12,14 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 126a7489-fe3e-43fd-a681-defb2fe0bb66
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 7d2596cdf2cf61246a8a070c42d63adfbec483fd
-ms.sourcegitcommit: 401cedcd7acc6cb3a6f18d4679bdadb0e0cdf443
+ms.openlocfilehash: b708ed69817ca85dc6648242ceafbdfa25b91fc9
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2018
-ms.locfileid: "32046202"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52180703"
 ---
 # <a name="enable-lost-mode-on-ios-devices-with-intune"></a>Включение режима пропажи на устройствах iOS с помощью Intune
 

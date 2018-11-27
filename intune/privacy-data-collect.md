@@ -13,13 +13,14 @@ ms.technology: ''
 ms.assetid: d1171740-936d-46a5-af37-f418bd6fa63e
 ms.reviewer: angerobe
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 4f02e7fc4dd414fc12135772bb3d3981e0fa49b7
-ms.sourcegitcommit: 07528df71460589522a2e1b3e5f9ed63eb773eea
+ms.openlocfilehash: 73cd8b4f0cf5bdfa02a301d476df31a01fc9691f
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34474774"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52186126"
 ---
 # <a name="data-collection-in-intune"></a>Сбор данных в Intune
 

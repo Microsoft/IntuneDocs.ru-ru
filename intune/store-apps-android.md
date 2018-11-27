@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 4433000a-23e9-4cad-a818-48c28eedc1f5
 ms.reviewer: mghadial
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 2d90fe324e5a21ae2413fa004f20a9e4f113c38e
-ms.sourcegitcommit: 445a54dc6826a549d770a9953549ae2191d391c2
+ms.openlocfilehash: 5f191a8e03710d97842ad31083fe3c07008afb56
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727515"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52190189"
 ---
 # <a name="add-android-store-apps-to-microsoft-intune"></a>Добавление приложения из магазина Android в Microsoft Intune
 

@@ -13,13 +13,14 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.reviewer: heenamac
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 5bb668c3c9dd1325a34a71c7a61b2efab8e52feb
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: e1505c48d8605f2ac53b0d93ca933137fac981e3
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48231145"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52179224"
 ---
 # <a name="how-to-configure-windows-information-protection-in-microsoft-intune"></a>Настройка Windows Information Protection в Microsoft Intune
 

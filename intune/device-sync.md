@@ -12,20 +12,21 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 30b4cf585edd7153ee01710ce8c572593056454f
-ms.sourcegitcommit: f5998019bbb4769fb50a7ea9bf424199516eb9ee
+ms.openlocfilehash: c408c19a630daff9ca1b238afcef9bb9193f5c98
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39117877"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52179515"
 ---
 # <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>Синхронизация устройств с Intune для получения последних политик и действий
 
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Действие устройства **Синхронизация** заставляет выбранное устройство немедленно выполнить возврат в Intune. При возврате устройство сразу же получает все ожидающие действия или политики, которые были ему назначены. Эта функция позволяет сразу проверять назначенные политики и устранять возникшие с неполадки, не дожидаясь следующего запланированного возврата.
+Действие устройства **Синхронизация** заставляет выбранное устройство немедленно выполнить возврат в Intune. При возврате устройство сразу же получает все ожидающие действия или политики, которые были ему назначены. Эта функция позволяет сразу проверять назначенные политики и устранять возникшие с неполадки, не дожидаясь следующего запланированного возврата.
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 

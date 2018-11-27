@@ -12,13 +12,14 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 3b67f285-229d-4a0f-ae34-0402a20b4518
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: ae114b9aec2794556a8162604a533c24c11bafba
-ms.sourcegitcommit: 98b444468df3fb2a6e8977ce5eb9d238610d4398
+ms.openlocfilehash: 68ffaf8788a392fcf592b426fc04da1351685e05
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37905144"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52189339"
 ---
 # <a name="remotely-lock-devices-with-intune"></a>Удаленная блокировка устройств с помощью Intune
 
@@ -31,7 +32,7 @@ ms.locfileid: "37905144"
 **Удаленная блокировка** поддерживается на указанных ниже платформах.
 
 - Android
-- Киоски с Android для бизнеса
+- Корпоративные устройства с Android для киосков
 - Устройства с рабочим профилем Android для бизнеса
 - iOS
 - macOS

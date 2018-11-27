@@ -12,13 +12,14 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: ''
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 000505df3c0898ed0939244dfe1b075c64097611
-ms.sourcegitcommit: e814cfbbefe818be3254ef6f859a7bf5f5b99123
+ms.openlocfilehash: 080205e601b857d4765eb6b97eeeeeb8f4e6fc1b
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43329433"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52187163"
 ---
 # <a name="use-scope-tags-to-filter-policies"></a>Используйте теги области для фильтрации политик
 

@@ -13,13 +13,14 @@ ms.technology: ''
 ms.assetid: ''
 ms.reviewer: ayesham
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 988407d6d736b669854ef8420b71a092765162b7
-ms.sourcegitcommit: 445fcf9e2a185e5c987334cad398bce71383be03
+ms.openlocfilehash: 619976887a7c523933a9e74233779d188baa2cc1
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "34843129"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52183678"
 ---
 # <a name="use-locations-network-fence-in-intune"></a>Использование расположений (границы сети) в Intune
 

@@ -11,13 +11,14 @@ ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 359f423e7b1bd098136670db1d43b2ddec6031a3
-ms.sourcegitcommit: cac71802b2782700f0d52ea114089d73620cd1ed
+ms.openlocfilehash: e0772f4e577f6660926f6827a7fda8e51bcdd280
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "50679327"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52182964"
 ---
 # <a name="add-a-device-compliance-policy-for-windows-devices-in-intune"></a>Добавление политики соответствия требованиям для устройств Windows в Intune
 

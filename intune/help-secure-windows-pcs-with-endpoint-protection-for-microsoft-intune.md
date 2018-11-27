@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 002241bf-6cd0-4c75-a4f0-891ac7e6721a
 ms.reviewer: damionw
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-classic-keep
-ms.openlocfilehash: dd0ce8cd25739113349663de989546dfa9d73d36
-ms.sourcegitcommit: 116be0eaa44fd5518ff34780d39569224ef4746b
+ms.openlocfilehash: 05cc1971f107c7bc3da371de0a916149c879aae0
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36310646"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52187129"
 ---
 # <a name="help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune"></a>Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection для Microsoft Intune
 

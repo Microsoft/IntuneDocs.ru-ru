@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 29f09230-dc56-43db-b599-d961967bda49
 ms.reviewer: aanavath
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune
-ms.openlocfilehash: 89be4d6940910df4166ec9a485b78e066f94b755
-ms.sourcegitcommit: 6ff5df63a2fff291d7ac5fed9c51417fe808650d
+ms.openlocfilehash: d290fadf92ee112a1f663c6894861b393b81f74d
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/20/2018
-ms.locfileid: "52167575"
+ms.locfileid: "52190325"
 ---
 #  <a name="intune-data-warehouse-collections"></a>Коллекции хранилища данных Intune
 

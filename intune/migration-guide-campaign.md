@@ -14,12 +14,13 @@ ms.technology: ''
 ms.assetid: f781b029-50f2-46ee-8ff7-03b4a6719e80
 ms.reviewer: dagerrit
 ms.suite: ems
-ms.openlocfilehash: 0cea6d9f1ad4f962fcb2fbca910a737f6330bf30
-ms.sourcegitcommit: 21db583d6a9d3c15a8a8ee5579309dff1cfe1f8b
+search.appverid: MET150
+ms.openlocfilehash: df26b0c752b14851876fd9ec42f0a2d2bfe76d91
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
-ms.locfileid: "29926326"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52183626"
 ---
 # <a name="phase-2-migration-campaign"></a>Этап 2. Кампания по миграции
 

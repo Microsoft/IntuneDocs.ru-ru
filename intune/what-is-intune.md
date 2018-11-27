@@ -13,13 +13,14 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 4a085264-232a-4af0-97f1-747496c44517
 ms.suite: ems
+search.appverid: MET150
 ms.custom: get-started
-ms.openlocfilehash: 09c4f2b067d27da9761d33559a3d3fbdc6ac2d90
-ms.sourcegitcommit: cd73ef164e0df79429b97c3090adbba49592c150
+ms.openlocfilehash: 82909141b90854bb5ee7e59795e6c484d4b32649
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "46448677"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52187656"
 ---
 # <a name="introduction-to-microsoft-intune-in-the-azure-portal"></a>Краткое описание Microsoft Intune на портале Azure
 

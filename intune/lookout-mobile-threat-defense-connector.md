@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 3a730a5d-2a90-42b0-aa28-aadfc7a18788
 ms.reviewer: heenamac
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: a10c392f91c3c2992f1eebf8e71814520fbb4aa0
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: d7a545fe08acc9ab88086fa92be934c860ae4716
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48231939"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52179547"
 ---
 # <a name="lookout-mobile-threat-defense-connector-with-intune"></a>Соединитель службы защиты мобильных устройств от угроз Lookout с помощью Intune
 

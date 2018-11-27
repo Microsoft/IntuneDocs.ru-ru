@@ -13,13 +13,14 @@ ms.technology: ''
 ms.assetid: 4724d6e5-05e5-496c-9af3-b74f083141f8
 ms.reviewer: chrisbal
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: a622264ed7cc091849bacbd02f8ae7bdb33603fe
-ms.sourcegitcommit: c969b596ec0fec227484c50f210ba4e159e2e533
+ms.openlocfilehash: 73075ed06e98ca987e87a7cfda70c546127bf881
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "49983148"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52179598"
 ---
 # <a name="use-custom-settings-for-android-enterprise-devices-in-microsoft-intune"></a>Использование настраиваемых параметров для устройств Android Enterprise в Microsoft Intune
 

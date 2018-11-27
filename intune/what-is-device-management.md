@@ -10,14 +10,17 @@ audience: ITPro
 ms.prod: microsoft-365-enterprise
 ms.service: ''
 ms.technology: ''
-ms.custom: microsoft-intune
+ms.custom: intune
 ms.assetid: 0649d310-43a7-4b01-85d2-da255d03e1da
-ms.openlocfilehash: 153f49ce0799ed181c9cb904c7c8ed88509805cc
-ms.sourcegitcommit: 27eed5aba5c8bfafb079171081b68f75a6cbffaf
+ms.reviewer: angerobe
+ms.suite: ems
+search.appverid: MET150
+ms.openlocfilehash: 83ac68e1f6efa9e5b0c1ee0e031d36989b634edd
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46581839"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52185225"
 ---
 # <a name="what-is-device-management"></a>Что такое управление устройствами? 
 

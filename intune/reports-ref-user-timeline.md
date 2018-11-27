@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 363D148E-688F-4830-B6DE-AB4FE3648817
 ms.reviewer: aanavath
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 222636c271140edb528da3ebfbbf7dbe9e44b727
-ms.sourcegitcommit: 445a54dc6826a549d770a9953549ae2191d391c2
+ms.openlocfilehash: 4493ea8442642c09ee7a94b9b73fe0412c015649
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727546"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52189917"
 ---
 # <a name="user-lifetime-representation-in-the-microsoft-intune-data-warehouse"></a>Представление времени существования пользователя в хранилище данных Microsoft Intune
 

@@ -13,13 +13,14 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: a0b8e55e-c3d8-4599-be25-dc10c1027b62
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: db63d79a81de03a459a910a23fb9f999f33f0251
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: d7c47e7e82928ea40d0b39dfbb17472441eac4f5
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48231677"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52187673"
 ---
 # <a name="what-are-common-ways-to-use-conditional-access-with-intune"></a>Каковы стандартные способы использования условного доступа с помощью Intune?
 

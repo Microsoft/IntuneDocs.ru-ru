@@ -14,19 +14,20 @@ ms.assetid: e31df2d2-bb1b-491b-9a71-04e0b18829c1
 ROBOTS: ''
 ms.reviewer: tscott
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 1d8794345f22b2c19cf89eca2d3603fe8ac68161
-ms.sourcegitcommit: 24d9ae0396ca410f72cc061a3c4c402835ef32a1
+ms.openlocfilehash: f828394c48b5b7d55d9180da875d9cb3062f23c6
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49643065"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52181689"
 ---
 # <a name="troubleshoot-endpoint-protection-in-intune"></a>Устранение неполадок с Endpoint Protection в Intune
 
 В статье описано, как решать проблемы, возникающие при использовании Endpoint Protection. Вы также можете [просмотреть журналы событий и коды ошибок, чтобы устранить неполадки с антивирусной программой "Защитник Windows"](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus).
 
-Если эта информация не поможет решить проблему, обратитесь [в службу поддержки Microsoft Intune](get-support.md).
+Если эта информация не поможет решить проблему, обратитесь в [службу поддержки Microsoft Intune](get-support.md).
 
 ### <a name="error-messages"></a>Сообщения об ошибках
 В этом разделе описаны возможные причины возникновения и способы устранения следующих ошибок и предупреждений.
