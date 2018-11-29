@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 975d8d84-792a-41ad-925a-4a7f1ae4dcaf
 ms.reviewer: heenamac
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 6deed5de94b72ec3dfb5e8336cc2a58678b4748f
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: aad6687a110642f3b21dc0cff3a791f4714c7949
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48231480"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52187469"
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 
@@ -58,7 +59,7 @@ ms.locfileid: "48231480"
 
 ### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
 
-Обнаружение угроз типа **злоумышленник в середине** и защита доступа к сетям Wi-Fi на основе рисков для устройств.
+Обнаружение угроз типа  **злоумышленник в середине**  и защита доступа к сетям Wi-Fi на основе рисков для устройств.
 
 **Блокировка доступа к сети через Wi-Fi:**
 
@@ -70,7 +71,7 @@ ms.locfileid: "48231480"
 
 ### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
-Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
+Обнаружение угроз типа  **злоумышленник в середине**  и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 
 **Блокирование SharePoint Online при обнаружении сетевых угроз:**
 
@@ -94,7 +95,7 @@ ms.locfileid: "48231480"
 
 -   Подписка на службу Mobile Threat Defense Zimperium
 
-    -   Дополнительные сведения см. на [веб-сайте Zimperium](https://www.zimperium.com/zips-mobile-ips).
+    -   Дополнительные сведения см. на  [веб-сайте Zimperium](https://www.zimperium.com/zips-mobile-ips) .
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

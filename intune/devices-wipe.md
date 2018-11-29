@@ -12,13 +12,14 @@ ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 4fdb787e-084f-4507-9c63-c96b13bfcdf9
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: dfefb17a2d8b9b4041846b879297f388156fee54
-ms.sourcegitcommit: 4d314df59747800169090b3a870ffbacfab1f5ed
+ms.openlocfilehash: 28c8863e8739563a6b6c9152a46abb6bf50f2db5
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43312823"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52189203"
 ---
 # <a name="remove-devices-by-using-wipe-retire-or-manually-unenrolling-the-device"></a>Удаление устройств с помощью очистки, прекращения использования или ручной отмены регистрации устройства
 
@@ -130,7 +131,7 @@ ms.locfileid: "43312823"
 
 ### <a name="windows"></a>Windows
 
-|Тип данных|Windows 8.1 (MDM) и Windows RT 8.1|Windows RT|Windows Phone 8.1 и Windows Phone 8|Windows 10|
+|Тип данных|Windows 8.1 (MDM) и Windows RT 8.1|Windows RT|Windows Phone 8.1 и Windows Phone 8|Windows 10|
 |-------------|----------------------------------------------------------------|--------------|-----------------------------------------|--------|
 |Приложения организации и связанные с ними данные, установленные Intune|Отменяются ключи для файлов, защищенных с помощью EFS. Пользователь не может открывать файлы.|Приложения компании не удаляются.|Удаляются приложения, изначально установленные с помощью корпоративного портала. Удаляются данные приложений компании.|Удаляются приложения. Удаляются ключи для загрузки неопубликованных приложений.<br>Для Windows 10 версии 1703 (Creator Update) и более поздних версий приложения Office 365 профессиональный плюс не удаляются.|
 |"Настройки"|Настройки, заданные политикой Intune, больше не действуют. Пользователи могут изменять параметры.|Настройки, заданные политикой Intune, больше не действуют. Пользователи могут изменять параметры.|Настройки, заданные политикой Intune, больше не действуют. Пользователи могут изменять параметры.|Настройки, заданные политикой Intune, больше не действуют. Пользователи могут изменять параметры.|

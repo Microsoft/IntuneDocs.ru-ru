@@ -5,20 +5,21 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/01/2018
+ms.date: 06/12/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 60d9398b80a30adee194470ac4e5c6c1efc0bd4c
-ms.sourcegitcommit: 97b9f966f23895495b4c8a685f1397b78cc01d57
+ms.openlocfilehash: 7cb7c23e673c9e0c074f45991333fde9bfc8e930
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34744641"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52186194"
 ---
 # <a name="use-teamviewer-to-remotely-administer-intune-devices"></a>Используйте TeamViewer для удаленного администрирования устройств Intune
 
@@ -58,7 +59,10 @@ ms.locfileid: "34744641"
 
 ![Удаленное администрирование устройства Android с помощью TeamViewer — пример](./media/android-teamviewer.png)
 
-Когда вы запускаете удаленный сеанс, конечный пользователь видит флажок уведомления на значке приложения корпоративного портала на своем устройстве. При открытии приложения отображается уведомление. При необходимости пользователь может принять запрос удаленной помощи.
+Когда вы запускаете удаленный сеанс, пользователь видит флажок уведомления на значке приложения "Корпоративный портал" на своем устройстве. Также уведомление отображается при открытии приложения. При необходимости пользователь может принять запрос удаленной помощи.
+
+> [!NOTE]
+> Устройства с ОС Windows, которые регистрируются без участия пользователей, например с помощью DEM и WCD, не отображают уведомление TeamViewer в приложении "Корпоративный портал". В этих случаях рекомендуется создать сеанс на портале TeamViewer.
 
 В TeamViewer можно выполнить ряд действий на устройстве, включая возможность управления устройством. Подробные сведения о доступных возможностях см. в [Руководстве по TeamViewer](https://www.teamviewer.com/support/documents/).
 

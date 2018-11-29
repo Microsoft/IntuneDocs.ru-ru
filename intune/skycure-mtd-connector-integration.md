@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 359448d9-2384-42ac-a21c-a25148c20a7b
 ms.reviewer: heenamac
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 00ae29b831bebb770b70c38b5e76d7f19bab10ee
-ms.sourcegitcommit: fffa64f28278573dc83a846b647315def2108781
+ms.openlocfilehash: accd8dea2b997a6eb1cfec22a6e822e984ef710d
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48231403"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52180159"
 ---
 # <a name="set-up-symantec-endpoint-protection-mobile-integration-with-intune"></a>Настройка интеграции Symantec Endpoint Protection Mobile с Intune
 
@@ -83,7 +84,7 @@ SEP Mobile поддерживает два режима интеграции с 
 
 Необходимо добавить группу безопасности Azure AD со всеми устройствами, на которых работает SEP Mobile.
 
--  Введите и выберите все группы безопасности, в которые входят устройства под управлением SEP Mobile, а затем сохраните изменения.
+-  Введите и выберите все группы безопасности, в которые входят устройства под управлением SEP Mobile, а затем сохраните изменения.
 
     ![Изображение с группами пользователей для приложений SEP Mobile](./media/symantec-portal-basic-groups.png)   
 

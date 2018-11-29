@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: f7b875d370880f28fa6a611bd5f66fb54b02955d
-ms.sourcegitcommit: b96568a77d3cb6f602e7577446996fe7dde169bd
+ms.openlocfilehash: a9afde942f2784cb2fb42b13d11a127e3c9811a1
+ms.sourcegitcommit: 3903f20cb5686532ccd8c36aa43c5150cee7cca2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51610113"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52267260"
 ---
 # <a name="assign-apps-to-groups-with-microsoft-intune"></a>Назначение приложений группам с помощью Microsoft Intune
 
@@ -65,6 +66,8 @@ ms.locfileid: "51610113"
 
      > [!NOTE]
      > **Только для приложений iOS**. Если вы создали профиль VPN iOS, который содержит настройки VPN на уровне приложения, такой профиль можно выбрать в списке **VPN**. VPN-подключение открывается при запуске приложения. Дополнительные сведения см. в разделе [Параметры VPN для устройств iOS](vpn-settings-ios.md).
+     >
+     > **Только для приложений Android**: если вы развернете приложение Android как **доступное с развертыванием или без него**, состояние отчетности будет доступно только на зарегистрированных устройствах.
 
 9. Чтобы выбрать группы пользователей, которых затронет это назначение приложения, щелкните **Включенные группы**.
 10. Выберите одну или несколько групп для включения и щелкните **Выбрать**.

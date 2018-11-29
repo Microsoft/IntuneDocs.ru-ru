@@ -14,13 +14,14 @@ ms.technology: ''
 ms.assetid: 9549c072-ac3d-4d14-a931-a2eda8846217
 ms.reviewer: owenyen
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-classic-keep
-ms.openlocfilehash: a38ff69b878880ffa16e327eace0afe64d336f43
-ms.sourcegitcommit: 116be0eaa44fd5518ff34780d39569224ef4746b
+ms.openlocfilehash: db9cdf539f0cf80fb4640ba41929c67e643956c4
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36310578"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52181128"
 ---
 # <a name="help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune"></a>Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune.
 
@@ -38,7 +39,7 @@ Microsoft Intune позволяет защитить компьютеры Window
 > [!NOTE]
 > Если политика Microsoft Intune и групповая политика настроены для управления одним и тем же параметром на одном и том же компьютере, настройки групповой политики переопределяют настройки политики Microsoft Intune. Сведения о предотвращении конфликтов между политиками Intune и групповой политикой см. в статье [Разрешение конфликтов GPO и политик Microsoft Intune](resolve-gpo-and-microsoft-intune-policy-conflicts.md).
 >
-> Если вы хотите развернуть параметры брандмауэра Windows на компьютерах под управлением Windows Vista, необходимо сначала установить [исправление KB971800](http://support2.microsoft.com/kb/971800) на этих компьютерах.
+> Если вы хотите развернуть параметры брандмауэра Windows на компьютерах под управлением Windows Vista, на этих компьютерах необходимо сначала установить [исправление KB971800](http://support2.microsoft.com/kb/971800).
 
 > [!IMPORTANT]
 > Для управления брандмауэром Windows с помощью Intune необходимо убедиться в том, что на управляемых компьютерах включены две следующие службы:
@@ -79,7 +80,7 @@ Microsoft Intune позволяет защитить компьютеры Window
 Значением по умолчанию для каждого из этих параметров является **Да** — наиболее безопасное значение.
 
 > [!IMPORTANT]
-> Если в среде есть управляемые компьютеры, на которых установлена ОС Windows Vista без пакетов обновления, необходимо установить обновление, описанное в [статье 971800](http://go.microsoft.com/fwlink/?LinkId=188405) базы знаний Майкрософт, или отключить в политиках, развернутых на этих компьютерах, параметр **Блокировать все входящие подключения** .
+> Если в среде есть управляемые компьютеры, на которых установлена ОС Windows Vista без пакетов обновления, необходимо установить обновление, описанное в [статье 971800](http://go.microsoft.com/fwlink/?LinkId=188405) базы знаний Майкрософт, или отключить в политиках, развернутых на этих компьютерах, параметр **Блокировать все входящие подключения**.
 
 ### <a name="notify-the-user-when-windows-firewall-blocks-a-new-program"></a>Уведомлять пользователя, когда брандмауэр Windows блокирует новую программу
 

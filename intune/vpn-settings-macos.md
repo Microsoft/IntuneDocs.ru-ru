@@ -12,13 +12,14 @@ ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: e4330d8e8095df49b14ab60c4b08aae44d134452
-ms.sourcegitcommit: cac71802b2782700f0d52ea114089d73620cd1ed
+ms.openlocfilehash: ffb7ecc9bfd183c6fa7a863a5b1440ee7d25b0f3
+ms.sourcegitcommit: 0dbce0415e53fe963dc7f927ac4b0c06411f199c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "50679225"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52281077"
 ---
 # <a name="configure-vpn-settings-in-microsoft-intune-for-devices-running-macos"></a>Настройка параметров VPN для устройств macOS в Microsoft Intune
 
@@ -56,6 +57,6 @@ ms.locfileid: "50679225"
 
 ## <a name="proxy-settings"></a>Параметры прокси-сервера
 
-- **Скрипт автоматической настройки.** Используйте файл для настройки прокси-сервера. Введите **URL-адрес прокси-сервера** (например, `** http://proxy.contoso.com**`), на котором находится файл конфигурации.
+- **Скрипт автоматической настройки.** Используйте файл для настройки прокси-сервера. Введите **URL-адрес прокси-сервера**, содержащий файл конфигурации. Например, введите `http://proxy.contoso.com`.
 - **Адрес**. Введите адрес прокси-сервера (в формате IP-адреса).
 - **Номер порта.** Введите номер порта, связанного с прокси-сервером.

@@ -12,13 +12,14 @@ ms.technology: ''
 ms.assetid: ''
 ms.reviewer: owenyen
 ms.suite: ems
+search.appverid: MET150
 ms.custom: intune
-ms.openlocfilehash: 322a60101132d5ef435752079bb5c52a7a4b3a78
-ms.sourcegitcommit: cff65435df070940da390609d6376af6ccdf0140
+ms.openlocfilehash: 9059ddb164dfa57ed76b57141aad89dbb716a09f
+ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49425025"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52179093"
 ---
 # <a name="install-the-intune-software-client-on-windows-pcs"></a>Установка программного клиента Intune на компьютерах Windows
 
@@ -119,7 +120,7 @@ ms.locfileid: "49425025"
 
 Если пользователям назначена лицензия Intune и в качестве центра MDM организации задана служба Intune.
 
-- Пользователям компьютеров с ОС Windows 7 и Windows 8 предлагается ТОЛЬКО вариант регистрации в Intune путем скачивания и установки на компьютерах клиентского ПО, уникального для организации.
+- Пользователям компьютеров с ОС Windows 7 и Windows 8 предлагается ТОЛЬКО вариант регистрации в Intune путем скачивания и установки на компьютерах клиентского ПО, уникального для организации.
 
 - Пользователям компьютеров с Windows 10 и Windows 8.1 предлагаются два вариант регистрации.
 
@@ -256,7 +257,7 @@ ms.locfileid: "49425025"
 
 В процессе отмены регистрации папка OnlineManagement не удаляется. Подождите 30 минут после удаления и выполните указанную ниже команду. Если выполнить эту команду слишком рано, процесс удаления может еще находиться в неизвестном состоянии. Чтобы удалить папку, запустите командную строку с повышенными привилегиями и выполните следующую команду:
 
-    "rd /s /q %ProgramFiles%\Microsoft\OnlineManagement".
+    "rd /s /q %ProgramFiles%\Microsoft\OnlineManagement".
 
 ### <a name="next-steps"></a>Дальнейшие шаги
 [Управление устройствами с помощью Microsoft Intune](device-management.md)
