@@ -16,12 +16,12 @@ ms.reviewer: chrisgre
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 019f09444f96d8bb3bca046ef5be20af373a3bff
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 0dc87c20b0da6fcfcc4e3ab304c61c5b264aaf38
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52183713"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112567"
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
@@ -45,7 +45,7 @@ ms.locfileid: "52183713"
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |         Операционные системы          |                                                               Intune поддерживает локальный соединитель Exchange на компьютере с любым 64-разрядным выпуском Windows Server 2008 с пакетом обновления 2 (SP2), Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 или Windows Server 2016.<br /><br />Соединитель не поддерживается ни в какой установке Server Core.                                                                |
 |         Microsoft Exchange         |                                                                           Локальный соединитель требует использования Microsoft Exchange 2010 с пакетом обновления 3 (SP3) или более поздней версии либо выделенной среды Exchange Online прежних версий. Чтобы определить, используется ли в вашей выделенной среде Exchange Online <strong>новая</strong> или <strong>устаревшая</strong> конфигурация, обратитесь к своему менеджеру по работе с клиентами.                                                                           |
-| Центр управления мобильными устройствами |                                                                                                                              [Установите Intune в качестве центра управления мобильными устройствами](https://docs.microsoft.com/intune-classic/deploy-use/prerequisites-for-enrollment#step-2-mdm-authority-set).                                                                                                                               |
+| Центр управления мобильными устройствами |                                                                                                                              [Установите Intune в качестве центра управления мобильными устройствами](mdm-authority-set.md).                                                                                                                               |
 |              Оборудование              |                                                                                                                                                     Компьютер, на котором устанавливается соединитель, должен иметь ЦП с частотой 1,6 ГГц, 2 ГБ ОЗУ и 10 ГБ свободного дискового пространства.                                                                                                                                                      |
 |  Синхронизация Active Directory  |                                                                                      Прежде чем использовать любой соединитель для подключения Intune к Exchange Server, необходимо [настроить синхронизацию Active Directory](users-add.md), чтобы локальные пользователи и группы безопасности синхронизировались с имеющимся экземпляром Azure Active Directory.                                                                                      |
 |        Дополнительное программное обеспечение         |                                                                                                                                           На компьютере, на котором размещен соединитель, необходимо выполнить полную установку платформы Microsoft .NET Framework 4.5 и Windows PowerShell 2.0.                                                                                                                                           |

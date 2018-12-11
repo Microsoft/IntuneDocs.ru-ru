@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/19/2018
+ms.date: 12/04/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: apps; get-started
-ms.openlocfilehash: a23f5fb9e05cf9a7fe46456b642aef76b6a79b70
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 048b8472be00c544611fe2ea8763b16019cebc0b
+ms.sourcegitcommit: 580eb4920d18ce09c9431d9d0dfee9d195459c0e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52183117"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52887055"
 ---
 # <a name="overview-of-the-app-lifecycle-in-microsoft-intune"></a>Общие сведения о жизненном цикле приложений в Microsoft Intune
 
@@ -54,6 +54,6 @@ Intune предоставляет множество способов защит
 
 В конечном счете, скорее всего, развернутые приложения устареют и их потребуется удалить. Intune упрощает [снятие приложений с учета](device-management.md).
 
-## <a name="next-steps"></a>Дальнейшие действия:
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Дополнительные сведения об [управлении приложениями в Microsoft Intune](app-management.md)

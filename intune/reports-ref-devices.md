@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 2782190f043a6d0c2d1af52d5a77fd3ce53b739f
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 69c8b4a5b786768d315bfe6ec707b8c4b915c93a
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181457"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112941"
 ---
 # <a name="reference-for-devices-entities"></a>Справочник по сущностям устройств
 
@@ -316,7 +316,7 @@ ms.locfileid: "52181457"
 
 ## <a name="mdmdeviceinventoryhistories"></a>MdmDeviceInventoryHistories
 
-Сущность **MdmDeviceInventoryHistories** содержит ежедневные моментальные снимки данных инвентаризации для устройств, управляемых с помощью MDM, за последние 90 дней. Столбец DateKey указывает день для строки. Возможно, некоторые свойства невозможно применить или заполнить для всех устройств, поэтому обратитесь к этой странице для получения дополнительных сведений. Дополнительные сведения см. в статье [Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune](https://docs.microsoft.com/Intune-classic/deploy-use/understand-your-devices-with-inventory-in-microsoft-Intune).
+Сущность **MdmDeviceInventoryHistories** содержит ежедневные моментальные снимки данных инвентаризации для устройств, управляемых с помощью MDM, за последние 90 дней. Столбец DateKey указывает день для строки. Возможно, некоторые свойства невозможно применить или заполнить для всех устройств, поэтому обратитесь к этой странице для получения дополнительных сведений. Дополнительные сведения см. в статье [Получение сведений об устройствах с помощью инвентаризации в Microsoft Intune](device-inventory.md).
 
 | Свойство  | Описание |
 |---------|------------|
