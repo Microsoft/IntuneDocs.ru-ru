@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/05/2018
+ms.date: 11/28/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: karanda
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 59736ad188cf88c994ff93b4a505731afad8f550
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: a7250471e698d32a305755147943311d2150f0b2
+ms.sourcegitcommit: a27a9c4cae47be50807aa3c890f0d5c0c023f04a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186330"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "52618192"
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key---intune"></a>Использование пользовательского профиля устройства для создания профиля Wi-Fi с общим ключом в Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -34,9 +34,8 @@ ms.locfileid: "52186330"
 ## <a name="before-you-begin"></a>Подготовка к работе
 
 - Возможно, будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже в этой статье.
-- Кроме того, для Android можно использовать [генератор PSK Android](http://intunepskgenerator.johnathonb.com/).
 - Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
-- Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac. Также вы можете воспользоваться генератором [iOS PSK Mobile Config Generator](http://intunepskgenerator.johnathonb.com/).
+- Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac.
 - PSK требуется строка из 64 шестнадцатеричных цифр или парольная фраза из 8–63 печатных символов ASCII. Некоторые символы, такие как символ звездочки (*), не поддерживаются.
 
 ## <a name="create-a-custom-profile"></a>Создание настраиваемого профиля
