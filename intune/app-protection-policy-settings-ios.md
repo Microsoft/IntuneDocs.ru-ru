@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/07/2018
+ms.date: 11/28/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: andcerat
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 79df4e20a1dcd4a5cbc30ab0c887d53bf205ebbf
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 5ff7876ef5c04eb59d1e89ac03b640d4f443cca6
+ms.sourcegitcommit: ecd6aebe50b1440a282dfdda771e37fbb8750d42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184749"
+ms.lasthandoff: 12/01/2018
+ms.locfileid: "52728962"
 ---
 #  <a name="ios-app-protection-policy-settings"></a>Параметры политик для защиты приложений в iOS
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "52184749"
 
 Существует три категории параметров политики: *перемещение данных*, *требования доступа* и *условный запуск*. В этой статье термин ***управляемые политикой приложения*** означает приложения, которые настроены с помощью политик защиты приложений.
 
-##  <a name="data-relocation-settings"></a>Параметры перемещения данных
+##  <a name="data-protection-settings"></a>Параметры защиты данных
 
 | Параметр | Использование |  
 |------|------| 
@@ -47,7 +47,7 @@ ms.locfileid: "52184749"
 
 
 > [!NOTE]
-> Ни один из параметров перемещения данных не управляет функцией "Открыть с помощью" Apple на устройствах iOS. Для использования функции "Открыть с помощью" Apple см. раздел [Управление передачей данных между приложениями iOS в Microsoft Intune](data-transfer-between-apps-manage-ios.md).
+> Ни один из параметров защиты данных не управляет функцией открытия в режиме управления Apple на устройствах iOS. Для использования функции "Открыть с помощью" Apple см. раздел [Управление передачей данных между приложениями iOS в Microsoft Intune](data-transfer-between-apps-manage-ios.md).
 
 ## <a name="data-transfer-exemptions"></a>Исключения передачи данных
 

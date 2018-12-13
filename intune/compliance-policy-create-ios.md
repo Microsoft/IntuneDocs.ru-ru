@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/16/2018
+ms.date: 11/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 56427f5b6d72d952ce9c388b4d5289d3075b7df0
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 35091139e3afaabac4fad0b22fc6096cf7ada7c3
+ms.sourcegitcommit: ecd6aebe50b1440a282dfdda771e37fbb8750d42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52182281"
+ms.lasthandoff: 12/01/2018
+ms.locfileid: "52728877"
 ---
 # <a name="add-a-device-compliance-policy-for-ios-devices-in-intune"></a>Добавление политики соответствия устройств iOS в Intune
 
@@ -54,7 +54,8 @@ ms.locfileid: "52182281"
 ## <a name="create-a-device-compliance-policy"></a>Создание политики соответствия устройства
 
 [!INCLUDE [new-device-compliance-policy](./includes/new-device-compliance-policy.md)]
-5. В качестве **платформы** выберите **iOS**. Выберите **Настройка параметров** и укажите данные в полях **Адрес электронной почты**, **Работоспособность устройства**, **Свойства устройства** и **Безопасность системы**. По окончании нажмите кнопки **ОК** и **Создать**.
+4. В качестве **платформы** выберите **iOS**. 
+5. Выберите **Настройка параметров** и укажите данные в полях **Электронная почта**, **Работоспособность устройства**, **Свойства устройства** и **Безопасность системы**, как описано ранее в этой статье. По окончании нажмите кнопки **ОК** и **Создать**.
 
 <!--- 4. Choose **Actions for noncompliance** to say what actions should happen when a device is determined as noncompliant with this policy.
 5. In the **Actions for noncompliance** pane, choose **Add** to create a new action.  The action parameters pane allows you to specify the action, email recipients that should receive the notification in addition to the user of the device, and the content of the notification that you want to send.
@@ -88,6 +89,8 @@ ms.locfileid: "52182281"
 
 - **Минимальная версия ОС**: если устройство не соответствует требованию к минимальной версии ОС, оно будет отмечено как не соответствующее требованиям. Приводится ссылка на сведения о том, как выполнить обновление. По желанию пользователь может обновить свои устройства. После этого он сможет получить доступ к ресурсам компании.
 - **Максимальная версия ОС**: если устройство использует версию ОС, более позднюю по сравнению с указанной в правиле, доступ к ресурсам компании блокируется. А пользователя просят связаться с ИТ-администратором. До изменения правила для разрешения конкретной версии ОС это устройство невозможно будет использовать для доступа к ресурсам компании.
+- **Минимальная версия сборки ОС**. Когда Apple публикует обновления для системы безопасности, обычно обновляется номер сборки, а не версия операционной системы. Используйте этот параметр, чтобы указать минимальный допустимый номер сборки на устройстве. Эту проверку соответствия можно выполнять на устройствах под управлением iOS 8.0 и более поздних версий. 
+- **Максимальная версия сборки ОС**. Когда Apple публикует обновления для системы безопасности, обычно обновляется номер сборки, а не версия операционной системы. Используйте этот параметр, чтобы указать максимальный допустимый номер сборки на устройстве. Эту проверку соответствия можно выполнять на устройствах под управлением iOS 8.0 и более поздних версий.
 
 ## <a name="system-security"></a>Безопасность системы
 

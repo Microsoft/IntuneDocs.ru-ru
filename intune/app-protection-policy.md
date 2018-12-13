@@ -16,12 +16,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: d974e6db3543ef3ba0b11cf67989260e429dde4c
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 785f4d1d81858fe5d4ebe4feab72880b408d8cd3
+ms.sourcegitcommit: 0499d16db961aaed4bd134ee924e40c5861121c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52179173"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52389875"
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 
@@ -66,9 +66,9 @@ ms.locfileid: "52179173"
 
 
 ### <a name="supported-platforms-for-app-protection-policies"></a>Поддерживаемые платформы для политик защиты приложений
-Поддержка платформы политик защиты приложений Intune согласуется с поддержкой платформы мобильных приложений Office. Дополнительные сведения см. в разделе о **мобильных приложениях** на странице [системных требований Office](https://products.office.com/office-system-requirements#coreui-contentrichblock-9r05pwg).
+Поддержка платформы политик защиты приложений Intune согласуется с поддержкой платформы мобильных приложений Office для устройств Android и iOS. Дополнительные сведения см. в разделе о **мобильных приложениях** на странице [системных требований Office](https://products.office.com/office-system-requirements#coreui-contentrichblock-9r05pwg).
 
-Устройства с Windows сейчас не поддерживаются. Однако при регистрации устройств Windows 10 в Intune вы можете использовать компонент Windows Information Protection, который обеспечивает аналогичные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
+Устройства с Windows сейчас не поддерживаются. Но вы можете использовать службу Windows Information Protection, которая обеспечивает аналогичные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 
 
 ## <a name="how-app-protection-policies-protect-app-data"></a>Защита данных приложений с помощью политик защиты приложений
@@ -146,7 +146,9 @@ ms.locfileid: "52179173"
 
 Приложения, поддерживающие множественную идентификацию, позволяют использовать разные учетные записи (рабочую и личную) для доступа к одним и тем же приложениям. При этом политики защиты приложений применяются к приложениям только в рабочем контексте.
 
-Давайте рассмотрим пример, в котором пользователь запускает приложение OneDrive с рабочей учетной записью. В рабочем контексте он не может перемещать файлы в личное хранилище. Позднее, когда этот пользователь откроет OneDrive с личной учетной записью, он может копировать и перемещать данные из своего личного хранилища OneDrive без ограничений.
+В качестве примера рассмотрим пользователя, который начинает новый документ в Word. Это считается личным контекстом, поэтому политики Защиты приложений Intune не применяются. Когда документ сохраняется в корпоративной учетной записи OneDrive, это считается корпоративным контекстом, следовательно, политики Защиты приложений Intune будут применяться.
+
+Пример рабочего контекста — когда пользователь запускает приложение OneDrive с использованием рабочей учетной записи. В рабочем контексте он не может перемещать файлы в личное хранилище. Позднее, когда этот пользователь откроет OneDrive с личной учетной записью, он может копировать и перемещать данные из своего личного хранилища OneDrive без ограничений.
 
 - Ознакомьтесь с дополнительными сведениями о приложениях, поддерживающих [MAM и множественную идентификацию](https://www.microsoft.com/cloud-platform/microsoft-intune-apps) в Intune.
 

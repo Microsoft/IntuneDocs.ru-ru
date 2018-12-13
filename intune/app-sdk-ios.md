@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
-ms.openlocfilehash: db9f0ca860186222491906aa35baf1e92d14e548
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 0fc0e5bdb261b3cfbc2e5507e1206354d8cc4051
+ms.sourcegitcommit: a0e965b3a568d1435270012ab89e5857e72cd434
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181349"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52630057"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -199,8 +199,9 @@ ms.locfileid: "52181349"
 
 3. В словаре **IntuneMAMSettings** с именем ключа `ADALRedirectUri` также укажите URI перенаправления, который будет использоваться для вызовов ADAL. Или можно указать `ADALRedirectScheme`, если URI перенаправления приложения имеет формат `scheme://bundle_id`.
 
-
 Кроме того, приложения могут переопределять эти настройки Azure AD во время выполнения. Для этого нужно определить свойства `aadAuthorityUriOverride`, `aadClientIdOverride` и `aadRedirectUriOverride` для экземпляра `IntuneMAMPolicyManager`.
+
+4. Убедитесь, что вы предоставили приложению iOS права доступа к службе политики защиты приложений (APP). Инструкции см. в [Приступая к работе с руководством по пакету SDK для Intune](https://docs.microsoft.com/intune/app-sdk-get-started#next-steps-after-integration) в разделе «предоставить вашему приложению доступ к Intune защиты службы приложений (необязательно).  
 
 > [!NOTE]
 > Подход с файлом Info.plist рекомендуется использовать для всех параметров, которые являются статическими, но которые не обязательно определять во время выполнения. Значения, присвоенные свойствам `IntuneMAMPolicyManager`, имеют приоритет над любыми соответствующими значениями, установленными в файле Info.plist, и сохраняются даже после перезапуска приложения. Пакет SDK будет продолжать их использовать для возвратов политики до отмены регистрации либо очистки или изменения значений.

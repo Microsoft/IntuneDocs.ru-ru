@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/23/2018
+ms.date: 11/28/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 29a3f6c6e320f970ef7b2b086b8d25ab82453199
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 2c4fb7000d808d860494d2af572c821b42fa6d5c
+ms.sourcegitcommit: 77a1047f5d93c1924e5c9ea243454532881be031
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52179411"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52579189"
 ---
 # <a name="manage-powershell-scripts-in-intune-for-windows-10-devices"></a>Управление сценариями PowerShell в Intune для устройств Windows 10
 Расширение управления Intune позволяет отправлять сценарии PowerShell в Intune для выполнения на устройствах Windows 10. Расширение управления дополняет возможности управления мобильными устройствами (MDM) Windows 10 и упрощает переход на современные принципы управления.
@@ -67,6 +67,12 @@ ms.locfileid: "52179411"
 В области **Скрипты PowerShell** выберите скрипт для отслеживания, а затем **Монитор** и один из следующих отчетов:
    - **Состояние устройства**
    - **Состояние пользователя**
+
+## <a name="troubleshoot-powershell-scripts"></a>Устранение неполадок со скриптами PowerShell
+
+Журналы агентов на клиентском компьютере обычно находятся в папке `\ProgramData\Microsoft\IntuneManagementExtension\Logs`. Для просмотра этих файлов журналов можно использовать [CMTrace.exe](https://docs.microsoft.com/sccm/core/support/tools). 
+
+![Снимок экрана. Журналы агентов](./media/apps-win32-app-10.png)  
 
 ## <a name="delete-a-powershell-script"></a>Удаление скрипта PowerShell
 В области **Скрипты PowerShell** щелкните скрипт правой кнопкой мыши и выберите пункт **Удалить**.

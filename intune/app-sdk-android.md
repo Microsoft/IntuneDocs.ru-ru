@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 12c48a00e4b755409b698d5f2ee6182403802f23
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: c556bab6deadc0db0ea625ee3c26bba636ea497d
+ms.sourcegitcommit: b93db06ba435555f5b126f97890931484372fcfb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52190410"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829187"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -639,21 +639,9 @@ public interface MAMNotificationReceiver {
 
 При необходимости можно указать Authority и NonBrokerRedirectURI.
 
-Зарегистрируйте приложение в Azure AD, выполнив следующие действия.
-
-На портале Azure:
-1.  Перейдите к колонке **Azure Active Directory**.
-2.  Перейдите к настройке **регистрации приложения**.
-3.  В разделе **Параметры** под заголовком **Доступ через API** выберите **Требуемое разрешение**. 
-4.  Нажмите кнопку **+ Добавить**.
-5.  Щелкните **Выбор API**. 
-6.  В поле поиска введите **Управление мобильными приложениями Майкрософт**.
-7.  Выберите **Управление мобильными приложениями (Майкрософт)** в списке API и щелкните "Выбрать".
-8.  Выберите **чтение и запись данных управления приложениями пользователя**.
-9.  Нажмите кнопку **Готово**.
-10. Нажмите **Предоставить разрешения**, а затем **Да**. 
-
-Дополнительные сведения о регистрации приложения в Azure AD см. [здесь](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications). 
+Зарегистрируйте приложение в Azure AD, выполнив следующие действия:
+* Дополнительные сведения о регистрации приложения в Azure AD см. [здесь](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications). 
+* Убедитесь, что вы предоставили приложению Android права доступа к службе политики защиты приложений (APP). Инструкции см. в [Приступая к работе с руководством по пакету SDK для Intune](https://docs.microsoft.com/intune/app-sdk-get-started#next-steps-after-integration) в разделе «предоставить вашему приложению доступ к Intune защиты службы приложений (необязательно). 
 
 Кроме того, ознакомьтесь с требованиями для [условного доступа](#conditional-access) ниже.
 
