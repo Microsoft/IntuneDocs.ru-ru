@@ -1,11 +1,12 @@
 ---
-title: Использование API для подключения сторонних ЦС в Microsoft Intune — Azure | Документы Майкрософт
+title: API для встроенных сторонних центров сертификации
+titlesuffix: Microsoft Intune
 description: Добавьте или интегрируйте решение GitHub SCEP для сторонних центров сертификации (ЦС) для выдачи сертификатов SCEP для устройств в Microsoft Intune. Это решение включает API Java и C#, которые выполняют проверку, отправляют уведомления об успехе и неудаче в Intune и используют фабрику сокетов SSL при взаимодействии с Intune. Кроме того, мы рекомендуем ознакомиться с обзором процедуры по тестированию конфигурации ЦС SCEP.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/12/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,13 +14,13 @@ ms.technology: ''
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: 054342994a75965b3e1bcb13884af07131ab0122
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 4109c437ae5a096c78c19aef489218cf7286eb01
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181927"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032339"
 ---
 # <a name="use-apis-to-add-third-party-cas-for-scep-to-intune"></a>Использование API для добавления сторонних ЦС для SCEP в Intune
 

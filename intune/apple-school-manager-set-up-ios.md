@@ -1,12 +1,12 @@
 ---
-title: Настройка регистрации программы Apple School Manager для устройств iOS
+title: Регистрация в программе Apple School Manager для устройств iOS
 titleSuffix: Microsoft Intune
 description: Сведения о настройке регистрации в программе Apple School Manager для корпоративных устройств iOS с помощью Intune.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 05/04/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,19 +15,19 @@ ms.assetid: 4c35a23e-0c61-11e8-ba89-0ed5f89f718b
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: ecd669f534fac9d359b542cbf1f2e6b543ed34f2
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: fdda0edd8c7bf67dbfce9d428f1b3ce0266b3726
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52190342"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032424"
 ---
-# <a name="enable-ios-device-enrollment-with-apple-school-manager"></a>Включение регистрации устройств iOS с помощью Apple School Manager
+# <a name="set-up-ios-device-enrollment-with-apple-school-manager"></a>Настройка регистрации устройств iOS через Apple School Manager
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-В этой статье описано, как зарегистрировать устройства iOS, приобретенные по программе [Apple School Manager](https://school.apple.com/). С помощью Intune с Apple School Manager можно зарегистрировать большое количество устройств iOS даже без обращения к ним. Когда учащийся или преподаватель включает устройство, запускается помощник по установке с предварительно настроенными параметрами и устройство регистрируется для управления.
+В этой статье объясняется, как в Intune настроить профиль регистрации для устройств iOS, приобретенных по программе [Apple School Manager](https://school.apple.com/). С помощью Intune с Apple School Manager можно зарегистрировать большое количество устройств iOS даже без обращения к ним. Когда учащийся или преподаватель включает устройство, запускается помощник по установке с предварительно настроенными параметрами и устройство регистрируется для управления.
 
 Для включения регистрации Apple School Manager используются порталы Intune и Apple School Manager. Необходим список идентификаторов или номер заказа на покупку, чтобы вы могли назначить их Intune для управления. Вы создаете профили регистрации DEP, содержащие параметры, применяемые к устройствам во время регистрации.
 
@@ -108,8 +108,8 @@ ms.locfileid: "52190342"
 
     Пользователи получают уведомления о защите устройств двумя способами:
 
-   - На экране блокировки отображается уведомление следующего содержания: "Это устройство iPhone находится под управлением Contoso".
-   - Если выбрать **Параметры** > **Общие** > **О программе**, на экране появится сообщение "Это устройство iPhone защищено". Contoso может отслеживать ваш интернет-трафик и обнаруживать устройство"
+   - На экране блокировки отображается уведомление следующего содержания: "This iPhone is managed by Contoso" (Этим устройством iPhone управляет Contoso.)
+   - Если выбрать **Параметры** > **Общие** > **О программе**, на экране появится сообщение: "Это устройство iPhone защищено. Contoso может отслеживать ваш интернет-трафик и обнаруживать устройство"
 
      > [!NOTE]
      > Для устройств, зарегистрированных без защиты, можно вернуть защищенный режим только с помощью конфигуратора Apple. Для этого требуется подключить устройство iOS к компьютеру Mac, используя USB-кабель. Дополнительные сведения см. в [документации по Apple Configurator](http://help.apple.com/configurator/mac/2.3).
@@ -124,7 +124,7 @@ ms.locfileid: "52190342"
 
 11. Нажмите кнопку **ОК**.
 
-12. Выберите **Параметры помощника по настройке**, чтобы настроить следующие параметры профиля: ![Настройка помощника по настройке](./media/device-enrollment-program-enroll-ios/setupassistantcustom.png)
+12. Выберите **Параметры помощника по настройке**, чтобы настроить следующие параметры профиля. ![Конфигурация помощника по настройке](./media/device-enrollment-program-enroll-ios/setupassistantcustom.png)
 
 
     |                 Параметр                  |                                                                                               Описание                                                                                               |

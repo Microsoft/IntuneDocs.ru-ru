@@ -1,11 +1,11 @@
 ---
-title: Настраиваемые параметры устройств для Windows Holographic for Business в Microsoft Intune в Azure | Документы Майкрософт
+title: Пользовательские параметры Microsoft Intune для устройств с Windows Holographic for Business
 description: Добавьте или создайте настраиваемый профиль для использования параметров OMA-URI для устройств под управлением Windows Holographic for Business в Microsoft Intune, включая Microsoft Hololens. Можно задать параметры AllowFastReconnect, AllowVPN, AllowUpdateService, UpdateServiceURL, RequireUpdatesApproval, ApprovedUpdates и ApplicationLaunchRestrictions политики поставщика CSP.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/24/2018
+ms.date: 12/06/2018
 ms.article: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,13 +13,13 @@ ms.topic: article
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: b66adc535d51fdaf2e3fc7a4bb1b11d34433db98
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 2c4e6041f00ad55b18f8b20996da8002f5ce0247
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52185582"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032203"
 ---
 # <a name="use-custom-settings-for-windows-holographic-for-business-devices-in-intune"></a>Использование настраиваемых параметров для устройств Windows Holographic for Business в Intune
 
@@ -39,16 +39,16 @@ Windows Holographic for Business открывает доступ ко множ
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 3. Введите следующие параметры:
 
-    - **Имя**: введите имя профиля, например `hololens custom profile`.
-    - **Описание.** Введите описание профиля.
-    - **Платформа**: выберите **Windows 10 и более поздняя версия**.
+    - **Имя**: ведите имя профиля, например `hololens custom profile`.
+    - **Описание**: введите описание профиля.
+    - **Платформа**: выберите **Windows 10 и более поздних версий**.
     - **Тип профиля**: выберите **Настраиваемый**.
 
 4. В разделе **Настраиваемые параметры OMA-URI** выберите **Добавить**. Введите следующие параметры:
 
-    - **Имя**. Введите уникальное имя для параметра OMA-URI, чтобы его было проще найти в списке параметров.
+    - **Имя**: Введите уникальное имя для параметра OMA-URI, чтобы его было проще найти в списке параметров.
     - **Описание**: введите описание с общими сведениями о параметре и другой важной информацией.
-    - **OMA-URI** (с учетом регистра): введите OMA-URI, для которого нужно указать параметр.
+    - **OMA-URI** (с учетом регистра): введите код OMA-URI, для которого нужно указать параметр.
     - **Тип данных**: выберите тип данных для этого параметра OMA-URI. Доступны следующие параметры:
 
         - Строка

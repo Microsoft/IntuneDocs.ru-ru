@@ -1,12 +1,12 @@
 ---
-title: Policy (Политика)
+title: Справочник по сущностям категории "Политика"
 titlesuffix: Microsoft Intune
 description: Справочник по категории "Политика" коллекций сущностей в API хранилища данных Intune.
 keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/04/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.technology: ''
 ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-classic
-ms.openlocfilehash: 046dbe79dbaaee7de97fc83b80c40d5bf902c931
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 9fb05991b3e289d4a24cc2f3a5b2c398c12b1a15
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52183508"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032441"
 ---
 # <a name="reference-for-policy-entities"></a>Справочник по сущностям политики
 

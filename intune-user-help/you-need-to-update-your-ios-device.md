@@ -1,11 +1,12 @@
 ---
 title: Необходимо обновить устройство iOS | Документы Майкрософт
-description: ''
+titlesuffix: Microsoft Intune
+description: На вашем устройстве с ОС iOS не установлена требуемая минимальная версия операционной системы.
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 03/16/2017
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,13 +17,13 @@ searchScope:
 ROBOTS: ''
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.custom: intune-enduser
-ms.openlocfilehash: 24064cb3cf02f0ac5c0ef94107d047435dec3ba0
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.custom: intune-enduser; seodec18
+ms.openlocfilehash: 685f3a95e525f64ead427c7d2b32a62c7f85b59e
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43146928"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53031923"
 ---
 # <a name="your-ios-device-doesnt-have-the-required-minimum-operating-system-version"></a>На вашем устройстве с ОС iOS не установлена требуемая минимальная версия операционной системы.
 

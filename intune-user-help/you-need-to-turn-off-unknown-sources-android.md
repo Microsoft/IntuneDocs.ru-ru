@@ -1,11 +1,12 @@
 ---
 title: Вам необходимо отключить неизвестные источники | Документы Майкрософт
-description: ''
+titlesuffix: Microsoft Intune
+description: Необходимо отключить установку из неизвестных источников.
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/11/2017
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,13 +15,13 @@ ms.assetid: c7a10998-9aa6-4bc0-8405-27a30c61bca7
 searchScope:
 - User help
 ROBOTS: ''
-ms.custom: intune-enduser
-ms.openlocfilehash: 74fccc0e34f0aa4466359fef5ef0ef91326c5829
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.custom: intune-enduser; seodec18
+ms.openlocfilehash: 57153134296c8f0d1bddc6fbda802fd7f2fd91fe
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43150367"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53031948"
 ---
 # <a name="you-need-to-turn-off-unknown-sources"></a>Вам необходимо отключить неизвестные источники
 

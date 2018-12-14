@@ -1,11 +1,12 @@
 ---
-title: Добро пожаловать в Ignite
+title: Добро пожаловать в Ignite 2018
+titlesuffix: Microsoft Intune
 description: ''
 keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: angrobe
-ms.date: 10/08/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,19 +15,19 @@ ms.reviewer: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: ec5127adcb12bc1196604d27ae2ac6501de03d08
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 5735a2059690655a76425b049eff9e26f5ab8179
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187114"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032577"
 ---
-# <a name="microsoft-intune-documentation-40ignite-special-edition41"></a>Документация по Microsoft Intune (специальный выпуск Ignite)
+# <a name="microsoft-intune-documentation-40ignite-2018-special-edition41"></a>Документация по Microsoft Intune 2018 (специальный выпуск Ignite)
 Добро пожаловать в Microsoft Ignite 2018! Мы рады приветствовать вас. Ознакомьтесь с некоторыми ресурсами по Intune, которые мы предлагаем вашему вниманию.
 
-## <a name="try-our-hands-on-labs-at-ignite"></a>Выполняйте практические занятия на Ignite!
-- **HOL3004**. Защита корпоративных данных на мобильных устройствах с Microsoft 365 и Microsoft Intune, включая условный доступ и Windows Defender Advanced Threat Protection (ATP).
+## <a name="try-our-hands-on-labs-at-ignite-2018"></a>Выполняйте практические занятия на Ignite 2018!
+- **HOL3004**. Защита корпоративных данных на мобильных устройствах с Microsoft 365 и Microsoft Intune, включая условный доступ и Advanced Threat Protection (ATP) в Защитнике Windows.
 - **WRK3007**. Начало работы с совместным управлением с помощью System Center Configuration Manager и Intune.
 
 ## <a name="quickstarts"></a>Краткие руководства
@@ -34,10 +35,14 @@ ms.locfileid: "52187114"
 
 - [Бесплатная пробная версия Intune](free-trial-sign-up.md). Создание бесплатной подписки для работы с Intune в тестовой среде.    
 - [Создание пользователя](quickstart-create-user.md). Создание пользователя и назначение ему лицензии.
-- [Создание группы](quickstart-create-group.md). Использование Intune для создания группы на основе существующих пользователей.
-- [Назначение политик](get-started-policies.md). Создание политики соответствия для устройства Windows 10 и назначение политики группе устройств.
+- [Создание группы](quickstart-create-group.md). Использование Intune для создания группы на основе имеющихся пользователей.
 - [Настройка автоматической регистрации](quickstart-setup-auto-enrollment.md). Настройка Microsoft Intune для автоматической регистрации устройств при входе конкретных пользователей на устройства Windows 10.
-- [Создание и назначение пользовательской роли](quickstart-create-custom-role.md). Создание пользовательской роли с определенными разрешениями для отдела безопасности. 
+- [Регистрация устройства с ОС Windows 10](quickstart-enroll-windows-device.md). Используя роль пользователя Intune, вы зарегистрируете свое устройство Windows 10 в Microsoft Intune, а затем вернетесь в Intune для подтверждения зарегистрированного устройства.
+- [Создание политики соответствия устройств](quickstart-set-password-length-android.md). Создание политики соответствия устройства для настройки требования к пользователям указывать пароль определенной длины для доступа к данным на устройствах Android.
+- [Отправка уведомлений на несоответствующие устройства](quickstart-send-notification.md). Создание сообщения уведомления. Добавление и назначение политики несоответствия.
+- [Добавление и назначение клиентского приложения](quickstart-add-assign-app.md). Добавление и назначение клиентского приложения сотрудникам вашей компании.
+- [Создание и назначение политики защиты приложения](quickstart-create-assign-app-policy.md). Создание и назначение политики защиты приложения для клиентского приложения на устройстве конечного пользователя. 
+- [Создание и назначение пользовательской роли](quickstart-create-custom-role.md). Создание и назначение пользовательской роли с определенными разрешениями для отдела безопасности. 
 - [Создание профиля электронной почты для устройств iOS](quickstart-email-profile.md). Создание профиля электронной почты для устройств iOS.
 
 ## <a name="learn"></a>Изучить
@@ -46,7 +51,7 @@ ms.locfileid: "52187114"
 
 ## <a name="contribute-to-docs"></a>Участие в разработке документации
 - [Как стать участником по разработке документации по Intune](https://github.com/MicrosoftDocs/IntuneDocs/blob/master/README.md)  
-- [Лучшие участники по разработке документации по Intune в этом месяце](https://github.com/MicrosoftDocs/IntuneDocs/graphs/contributors?from=2018-09-01&to=2018-11-30&type=c)  
+- [Лучшие участники по разработке документации по Intune](https://github.com/MicrosoftDocs/IntuneDocs/graphs/contributors?from=2018-10-01&to=2019-12-31&type=c)  
 
 ## <a name="start-using-intune"></a>Начало работы с Intune
 - [Лицензии, включающие в себя Intune](licenses.md)

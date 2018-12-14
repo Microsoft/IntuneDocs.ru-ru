@@ -14,19 +14,19 @@ ms.technology: ''
 ms.assetid: 7b668c37-40b9-4c69-8334-5d8344e78c24
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: 159079686507815ad4cf1738ca4157467352f681
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 0abc42de95f90b3690e91908f92bb53d11a802d8
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189526"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53031769"
 ---
-# <a name="categorize-devices-into-groups-for-easier-management"></a>Разделение устройств на группы для упрощенного управления
+# <a name="categorize-devices-into-groups"></a>Разделение устройств на группы
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Используйте категории устройств Microsoft Intune для автоматического добавления устройств в группы с учетом заданных категорий. Такими устройствами проще управлять.
+Чтобы упростить управление устройствами, используйте категории устройств Microsoft Intune для автоматического добавления устройств в группы с учетом заданных категорий.
 
 Для категорий устройств порядок действий будет следующим.
 1. Создание категорий, которые пользователи могут выбирать при регистрации устройства.
@@ -42,7 +42,7 @@ ms.locfileid: "52189526"
 
 ## <a name="how-to-configure-device-categories"></a>Настройка категорий устройств
 
-### <a name="step-1-create-device-categories-on-the-intune-blade-of-the-azure-portal"></a>Шаг 1. Создание категорий устройств в колонке Intune на портале Azure
+### <a name="step-1-create-device-categories-on-the-intune-blade-of-the-azure-portal"></a>Шаг 1. Создание категорий устройств в колонке Intune на портале Azure
 1. В [Intune на портале Azure](https://aka.ms/intuneportal) выберите **Регистрация устройства**.
 2. В колонке **Регистрация устройств** выберите **Категории устройств**.
 3. Чтобы добавить новую категорию, на странице **Категории устройств** выберите **Создать**.

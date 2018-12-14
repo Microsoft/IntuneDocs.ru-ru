@@ -16,12 +16,12 @@ ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 0eb3ccf85c8851f16dcfe303603f65517fcf7312
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 6f0138da6e9ea427ad07ad3b41dd22b7319bb044
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52183763"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112584"
 ---
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 
@@ -41,7 +41,7 @@ ms.locfileid: "52183763"
 - **Управление мобильными устройствами для Office 365** — интеграция Office 365 с облачным решением Intune. Вы настраиваете Intune из центра администрирования Office 365. Конфигурация включает набор возможностей, доступных в автономной среде Intune. Задайте центр MDM в центре администрирования Office 365.
 
 > [!IMPORTANT]
-> В Configuration Manager версии 1610 или более поздней и Microsoft Intune версии 1705 вы сможете изменять центр MDM без обращения в службу поддержки Майкрософт и без отмены регистрации и повторной регистрации существующих управляемых устройств. Дополнительные сведения см. в разделе [Что делать, если центр управления мобильными устройствами выбран неправильно](/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting).
+> В Configuration Manager версии 1610 или более поздней и Microsoft Intune версии 1705 вы сможете изменять центр MDM без обращения в службу поддержки Майкрософт и без отмены регистрации и повторной регистрации существующих управляемых устройств. Дополнительные сведения см. в разделе [Подготовка к переключению Центра MDM на службу Configuration Manager](mdm-authority-set.md#prepare-to-change-the-mdm-authority-to-configuration-manager).
 
 ## <a name="set-mdm-authority-to-intune"></a>Выбор Intune в качестве центра MDM
 
@@ -90,8 +90,8 @@ ms.locfileid: "52183763"
     > [!NOTE]    
     > Для Центра MDM можно также указать, что он **управляется Intune и Office 365**. В таком случае при переключении Центра MDM на **Configuration Manager** (гибридная среда) устройства MDM, управляемые Office 365, станут неуправляемыми. Корпорация Майкрософт рекомендует перед переключением Центра MDM предоставить таким пользователям лицензии Intune или Enterprise Mobility Suite.   
 
-- В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) удалите роль диспетчера регистрации устройств. См. инструкции по [удалению диспетчера регистрации устройств из Intune](/intune-classic/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune#delete-a-device-enrollment-manager-from-intune).
-- Отключите все настроенные сопоставления групп устройств. См. инструкции по [классификации устройств с помощью сопоставления групп устройств в Microsoft Intune](/intune-classic/deploy-use/categorize-devices-with-device-group-mapping-in-microsoft-intune).
+- В [консоли администрирования Microsoft Intune](http://manage.microsoft.com) удалите роль диспетчера регистрации устройств. См. инструкции по [удалению диспетчера регистрации устройств из Intune](device-enrollment-manager-enroll.md#remove-device-enrollment-manager-permissions).
+- Отключите все настроенные сопоставления групп устройств. См. инструкции по [классификации устройств с помощью сопоставления групп устройств в Microsoft Intune](device-group-mapping.md).
 - Переключение Центра MDM не должно оказывать заметное влияние на пользователей. Но в любом случае стоит сообщить пользователям об этой процедуре, чтобы после ее завершения они включили свои устройства и подключились к службе. Эта предосторожность гарантирует, что максимально возможное число устройств будет подключено к новому центру MDM и максимально быстро зарегистрировано в службе.
 - Если до переключения центра MDM вы использовали Intune (автономный клиент) для управления устройствами iOS, вам нужно обновить и использовать для этого клиента в Configuration Manager (гибридная среда) тот же сертификат службы push-уведомлений Apple (APNs), который ранее использовался в Intune.    
 

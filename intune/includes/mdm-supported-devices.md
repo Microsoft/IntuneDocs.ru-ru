@@ -2,7 +2,7 @@
 
 ### <a name="apple"></a>Apple
 - Apple iOS 10.0 и более поздней версии
-- Mac OS X 10.11 и более поздних версий (в декабре 2018 года поддерживаемой версией станет 10.12)
+- Mac OS X 10.12 и более поздней версии
 
 ### <a name="google"></a>Google
 - Android 4.4 и более поздние версии (включая Samsung Knox Standard 4.4 и более поздние версии)
@@ -26,8 +26,8 @@
 - Windows Phone 8.1, Windows 8.1 RT, компьютеры под управлением Windows 8.1 (режим поддержки)
 
 > [!NOTE]
-> Intune нельзя использовать для управления операционными системами Windows Server.
+> Intune нельзя использовать для управления операционными системами Windows Server. Windows 10 Домашняя не поддерживает все возможности Intune.
 
-Клиенты с Enterprise Management + Security (EMS) могут также [использовать Azure Active Directory (Azure AD) для регистрации устройств с Windows 10](/intune-classic/deploy-use/set-up-windows-device-management-with-microsoft-intune#azure-active-directory-enrollment).
+Клиенты с Enterprise Management + Security (EMS) могут также [использовать Azure Active Directory (Azure AD) для регистрации устройств с Windows 10](/intune/windows-enroll.md).
 
 

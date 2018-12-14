@@ -1,7 +1,7 @@
 ---
-title: Получение сертификата Apple MDM Push Certificate
-titlesuffix: Microsoft Intune
-description: Инструкции по получению сертификата Apple MDM Push Certificate для управления устройствами iOS с помощью Intune.
+title: Получение сертификата Apple MDM Push Сertificate для Intune
+titlesuffix: ''
+description: Получение сертификата Apple MDM Push Certificate для управления устройствами iOS с помощью Intune.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
@@ -15,19 +15,19 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: 927da6f2e7584cb3b43bede77cfbc19ec91b568a
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 053e3f42553268aaeff0502e2cfe05b33b18618b
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189475"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032169"
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Получение сертификата MDM Push Certificate
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Intune позволяет управлять мобильными устройствами iPad, iPhone и Mac, а также предоставляет пользователям доступ к электронной почте и приложениям организации. Для управления устройствами с iOS и macOS с помощью Intune требуется сертификат Apple MDM Push Certificate. После добавления сертификата в Intune пользователи смогут регистрировать свои устройства с помощью:
+Для управления устройствами с iOS и macOS с помощью Intune требуется сертификат Apple MDM Push Certificate. После добавления сертификата в Intune пользователи смогут регистрировать свои устройства с помощью:
 
 - приложения корпоративного портала;
 

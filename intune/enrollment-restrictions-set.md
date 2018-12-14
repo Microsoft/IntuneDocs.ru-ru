@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: d9a7ad5d77f0c085fc1e91b6991657e6b848b3f3
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: e6f816ae0eb025addfaa0c5f7ec7d16005f6b040
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187843"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112958"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -67,7 +67,7 @@ ms.locfileid: "52187843"
 
 ## <a name="set-device-type-restrictions"></a>Установка ограничений по типу устройства
 
-Чтобы изменить параметры для ограничения по типу устройства, выполните следующие действия. Эти ограничения не влияют на устройства, которые уже были зарегистрированы. Устройства, зарегистрированные с помощью [агента Intune для ПК](/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune), не могут быть заблокированы с помощью этой функции.
+Чтобы изменить параметры для ограничения по типу устройства, выполните следующие действия. Эти ограничения не влияют на устройства, которые уже были зарегистрированы. Устройства, зарегистрированные с помощью [агента Intune для ПК](manage-windows-pcs-with-microsoft-intune.md), не могут быть заблокированы с помощью этой функции.
 
 1. Войдите на портал Azure.
 2. Выберите **Больше служб**, выполните поиск по **Intune**, а затем выберите **Intune**.
@@ -123,7 +123,7 @@ ms.locfileid: "52187843"
 6. Нажмите кнопку **Сохранить**.
 
 
-Пользователи увидят уведомление о том, что достигнуто ограничение на количество развернутых устройств. Например, в iOS оно будет выглядеть так:
+Во время регистрации BYOD пользователи увидят уведомление о том, что достигнуто ограничение на количество развернутых устройств. Например, в iOS оно будет выглядеть так:
 
 ![Уведомление о достижении ограничения на количество устройств iOS](./media/enrollment-restrictions-ios-set-limit-notification.png)
 

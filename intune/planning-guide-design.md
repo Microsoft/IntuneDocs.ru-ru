@@ -1,5 +1,5 @@
 ---
-title: Создание структуры проектирования
+title: Проектирование собственной архитектуры Microsoft Intune
 titlesuffix: Microsoft Intune
 description: Эта статья поможет вам создать структуру для проектирования и внедрения Microsoft Intune с использованием только облачной среды.
 keywords: ''
@@ -15,13 +15,13 @@ ms.assetid: a8e38e29-f5e3-4a71-a170-d3b1a06e37c6
 ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 search.appverid: MET150
-ms.custom: ''
-ms.openlocfilehash: 1d8ccd4e432623cf7d0ce4ce66651a95e13b8473
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: f0159b4d33112e507556ceb53505eedc57ec05f7
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186500"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112992"
 ---
 # <a name="create-a-design"></a>Создание структуры проектирования
 
@@ -211,7 +211,7 @@ Intune предлагает два варианта развертывания: 
 
 Intune поддерживает как корпоративные, так и личные устройства. Устройство считается корпоративным, если оно зарегистрировано с помощью диспетчера или программы регистрации устройств. Например, устройство может быть зарегистрировано через программу регистрации устройств Apple (DEP), помечено как корпоративное и помещено в группу устройств, которая получает целевые корпоративные политики и приложения.
 
-Дополнительные сведения о корпоративном и BYOD-варианте использования см. в [Разделе 3. Определение требований для сценариев вариантов использования](planning-guide-requirements.md).
+Дополнительные сведения о корпоративном и BYOD-варианте использования см. в [Разделе 3. Определение требований для сценариев вариантов использования](planning-guide-requirements.md).
 
 ### <a name="bulk-enrollment"></a>Массовая регистрация
 
@@ -402,7 +402,7 @@ Intune поддерживает несколько способов достав
 
 Для веб-доступа определите, какие платформы и группы пользователей будут целевыми для политик условного доступа. Кроме того, решите, требуется ли установить или настроить соединитель Service To Service Connector Intune для Exchange Online или локальной организации Exchange. Дополнительные сведения об установке и настройке соединителей Service To Service Connector Intune: <!---these links are correct--->
 
--   [Exchange Online](/intune-classic/deploy-use/intune-service-to-service-exchange-connector)
+-   [Exchange Online](exchange-service-connector-configure.md)
 
 -   [Локальная среда Exchange](exchange-connector-install.md)
 

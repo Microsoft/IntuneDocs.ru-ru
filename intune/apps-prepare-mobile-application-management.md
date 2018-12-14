@@ -1,11 +1,11 @@
 ---
-title: Выбор подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune
+title: Подготовка приложений для управления мобильными приложениями с помощью Microsoft Intune
 description: Сведения этого раздела помогут решить, когда следует применить инструмент упаковки приложений и пакет SDK, чтобы ваши пользовательские бизнес-приложения могли использовать политики управления мобильными приложениями.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-classic
-ms.openlocfilehash: 8841354b268f70634a61040fb06ed857120e9cfc
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 84b36f6cae9dd16bde6bd380407a78aeb2478010
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181978"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112431"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -35,7 +35,7 @@ ms.locfileid: "52181978"
 
 Инструмент упаковки приложений **не** поддерживает Apple App Store или Магазин Google Play. Кроме того, он не поддерживает отдельные функции, требующие интеграции во время разработки (см. следующую таблицу сравнения функций).
 
-Дополнительные сведения об инструменте упаковки приложений для политик защиты приложений на устройствах, не зарегистрированных в Intune, см. в разделе [Защита бизнес-приложений и данных на незарегистрированных устройствах](/intune-classic/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune).
+Дополнительные сведения об инструменте упаковки приложений для политик защиты приложений на устройствах, не зарегистрированных в Intune, см. в разделе [Защита бизнес-приложений и данных на незарегистрированных устройствах](apps-add.md).
 
 ### <a name="reasons-to-use-the-app-wrapping-tool"></a>Причины для использования инструмента упаковки приложений
 * В приложении отсутствуют встроенные функции защиты данных.
@@ -98,7 +98,7 @@ ms.locfileid: "52181978"
 |Block screen capture (Android only) (Блокировать снимки экрана, только Android)|X|X|
 |Поддержка MAM без регистрации устройства|X|X|
 |Полная очистка|X|X|
-|выборочная очистка; <br></br>**Примечание.** При удалении профиля управления для iOS удаляется и приложение.|X||
+|выборочная очистка; <br></br>**Примечание.** При удалении профиля управления для iOS приложение также удаляется.|X||
 |Запретить "Сохранить как"|X||
 |Целевая конфигурация приложения|X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||
@@ -117,4 +117,4 @@ ms.locfileid: "52181978"
 
   - [Инструмент упаковки приложений Android](app-wrapper-prepare-android.md)</br>
   - [Инструмент упаковки приложений iOS](app-wrapper-prepare-ios.md)</br>
-  - [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](/intune-classic/deploy-use/use-the-sdk-to-enable-apps-for-mobile-application-management)
+  - [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](app-sdk.md)

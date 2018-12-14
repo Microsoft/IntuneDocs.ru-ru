@@ -1,12 +1,12 @@
 ---
-title: Выборочная очистка данных с помощью действий доступа политики защиты приложений
+title: Очистка данных с помощью действий доступа политики защиты приложений
 titleSuffix: Microsoft Intune
 description: Узнайте, как выборочно очищать данные с помощью действий доступа политики защиты приложений в Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/3/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,13 +15,13 @@ ms.assetid: f5ca557e-a8e1-4720-b06e-837c4f0bc3ca
 ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: f8173b409eb82a3bb98ef0a30570e489fac1fc49
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: seodec18
+ms.openlocfilehash: 5a28cdcf4d19aec62cd05808f4fb3cda68e083ea
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189705"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032067"
 ---
 # <a name="selectively-wipe-data-using-app-protection-policy-access-actions-in-intune"></a>Выборочная очистка данных с помощью действий доступа политики защиты приложений в Intune
 
@@ -84,7 +84,7 @@ ms.locfileid: "52189705"
 -  Производитель устройства
 
 Чтобы использовать параметр **Производители устройств**, введите список производителей Android через точку с запятой. Производитель устройства Android указан в его параметрах.<br>
-Пример входных данных: *производитель A;производитель B* 
+Пример входных данных: *Manufacturer A;Manufacturer B* 
 
 >[!NOTE]
 > Вот несколько производителей, данные о которых передаются с устройств с помощью Intune и которые могут быть использованы в качестве входных данных: Asus;Blackberry;Bq;Gionee;Google;Hmd global;Htc;Huawei;Infinix;Kyocera;Lemobile;Lenovo;Lge;Motorola;Oneplus;Oppo;Samsung;Sharp;Sony;Tecno;Vivo;Vodafone;Xiaomi;Zte;Zuk.

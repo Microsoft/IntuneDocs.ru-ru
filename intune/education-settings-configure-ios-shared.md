@@ -6,7 +6,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 02/23/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,16 +16,19 @@ ms.reviewer: heenamac
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 9a15c84ded066a26254737f75293b0d743fe5eab
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 24fb627d0fcf0fe3b24a8242d8ac22ccf6f3ff91
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181230"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032383"
 ---
-# <a name="how-to-configure-intune-education-settings-for-shared-ipad-devices"></a>Настройка параметров образования Intune для общих устройств iPad
+# <a name="configure-intune-education-settings-for-shared-ipad-devices"></a>Настройка параметров образования Intune для совместно используемых устройств iPad
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
+
+> [!NOTE]
+> Параметры Intune для приложения "Класс" устарели в Intune. Эта статья применима только для пользователей с профилями образования в Intune.
 
 Intune поддерживает приложение iOS Класс, которое помогает преподавателям руководить обучением и управлять устройствами учащихся в классе. В дополнение к приложению Класс компания Apple позволяет настроить устройства iPad таким образом, чтобы несколько учащихся могли совместно использовать одно устройство. Этот документ описывает, как сделать это с помощью Intune.
 

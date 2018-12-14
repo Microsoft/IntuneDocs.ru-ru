@@ -16,12 +16,12 @@ ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: efb850e0f08c94cfee7948f50411220216eb8418
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 9562eb2c8fae49628ac042f28f172fb9f8fd5106
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52188081"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112550"
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
@@ -55,7 +55,7 @@ Intune поддерживает управление несколькими по
 ## <a name="simplify-windows-enrollment-without-azure-ad-premium"></a>Упрощение регистрации Windows без Azure AD Premium
 Чтобы упростить регистрацию, создайте псевдоним сервера доменных имен (DNS-псевдоним; тип записи CNAME), который перенаправляет запросы на регистрацию на серверы Intune. В противном случае пользователям, пытающимся подключиться к Intune, потребуется ввести имя сервера Intune при регистрации.
 
-**Шаг 1. Создание записи CNAME** (необязательно)<br>
+**Шаг 1. Создание записи CNAME** (необязательно)<br>
 Создайте запись ресурсов CNAME DNS для домена вашей организации. Например, если компания имеет веб-сайт contoso.com, необходимо создать запись CNAME в DNS, перенаправляющую EnterpriseEnrollment.contoso.com на enterpriseenrollment-s.manage.microsoft.com.
 
 Несмотря на то, что создавать записи CNAME в DNS не обязательно, записи CNAME позволяют упростить регистрацию для пользователей. Если запись CNAME для регистрации не обнаружена, пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.com.
@@ -83,7 +83,7 @@ Intune поддерживает управление несколькими по
 
 Распространение изменений записей DNS может занимать до 72 часов. Вы не можете проверить смену DNS в Intune, пока запись DNS не будет распространена.
 
-**Шаг 2. Проверка записи CNAME** (необязательно)<br>
+**Шаг 2. Проверка записи CNAME** (необязательно)<br>
 1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства**  >  **Регистрация Windows**  >  **Проверка CNAME**.
 2. В поле **Домен** укажите веб-сайт организации и нажмите кнопку **Проверка**.
 
@@ -102,4 +102,4 @@ Intune поддерживает управление несколькими по
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-- [Рекомендации по управлению устройствами Windows с помощью Intune в Azure](/intune-classic/deploy-use/intune-on-azure).
+- [Рекомендации по управлению устройствами Windows с помощью Intune в Azure](intune-legacy-pc-client.md).

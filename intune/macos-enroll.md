@@ -16,12 +16,12 @@ ms.reviewer: chrisbal
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 85a05f4816692d3bccfe695c7e69f54d007f3b59
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 7a54a72afb6052ed11566c2d2ada596ebde2159b
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187010"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112414"
 ---
 # <a name="set-up-enrollment-for-macos-devices-in-intune"></a>Настройка регистрации устройств macOS в Intune
 
@@ -37,7 +37,7 @@ Intune позволяет управлять устройствами с macOS,
 
 - [настройте домены](custom-domain-name-configure.md);
 - [настройте центр MDM](mdm-authority-set.md);
-- [Создание групп](https://docs.microsoft.com/intune-classic/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-5)
+- [Создание групп](groups-add.md)
 - [настройте корпоративный портал](company-portal-app.md);
 - назначьте пользовательские лицензии на [портале Office 365](http://go.microsoft.com/fwlink/p/?LinkId=698854);
 - [получите сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md).
@@ -47,7 +47,7 @@ Intune позволяет управлять устройствами с macOS,
 Вы можете разрешить пользователям регистрировать личные устройства для управления в Intune. Такая политика называется "принеси свое устройство" или BYOD. После выполнения необходимых требований и назначения пользовательских лицензий ваши пользователи могут зарегистрировать свои устройства:
 - перейдя на [веб-сайт Корпоративного портала](https://portal.manage.microsoft.com) или
 - скачав приложение "Корпоративный портал".
-Вы также можете отправить им ссылку инструкции по регистрации в Интернете: [Регистрация устройства Mac OS в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos).
+Вы также можете отправить им ссылку на инструкции по регистрации с подключением к Интернету: [Регистрация устройства macOS в Intune с помощью приложения корпоративного портала](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos).
 
 Дополнительные сведения о других задачах для пользователей см. в статьях:
 
@@ -56,8 +56,8 @@ Intune позволяет управлять устройствами с macOS,
 
 ## <a name="company-owned-macos-devices"></a>Корпоративные устройства с macOS
 Для организаций, приобретающих устройства для своих пользователей, Intune поддерживает следующие методы регистрации корпоративных устройств с macOS:
-- [Программа регистрации устройств Apple (DEP)](device-enrollment-program-enroll-macos.md). Организации могут приобретать устройства с macOS через программу регистрации устройств Apple. Эта программа позволяет развертывать в удаленном режиме профиль регистрации для управления устройствами.
-- [Диспетчер регистрации устройств (DEM)](device-enrollment-manager-enroll.md). Учетная запись диспетчера регистрации устройств позволяет зарегистрировать до 1000 устройств.
+- [Программа регистрации устройств Apple (DEP)](device-enrollment-program-enroll-macos.md). Организации могут приобретать устройства с macOS через программу регистрации устройств Apple. Эта программа позволяет развертывать в удаленном режиме профиль регистрации для управления устройствами.
+- [Диспетчер регистрации устройств (DEM)](device-enrollment-manager-enroll.md). Учетная запись диспетчера регистрации устройств позволяет зарегистрировать до 1000 устройств.
 
 ## <a name="block-macos-enrollment"></a>Блокировка регистрации macOS
 По умолчанию Intune разрешает регистрацию устройств с macOS. Сведения о том, как запретить регистрацию устройств macOS, см. в разделе [Установка ограничений по типу устройства](enrollment-restrictions-set.md).

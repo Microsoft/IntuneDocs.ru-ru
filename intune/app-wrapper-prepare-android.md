@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 74ef09c8979e6867d49c119668ad329570cee424
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 42b554f025f80546a0a2dd93de92549f2f037b3f
+ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189832"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112887"
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -28,7 +28,7 @@ ms.locfileid: "52189832"
 
 Инструмент упаковки для приложений Microsoft Intune для Android используется для изменения поведения внутрикорпоративных приложений Android за счет ограничения возможностей приложения без изменения кода самого приложения.
 
-Этот инструмент представляет собой программу командной строки Windows, которая выполняется в PowerShell и создает "оболочку" вокруг приложения Android. После упаковки приложения его функциональность можно изменить, настроив [политики управления мобильными приложениями](/intune-classic/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) в Intune.
+Этот инструмент представляет собой программу командной строки Windows, которая выполняется в PowerShell и создает "оболочку" вокруг приложения Android. После упаковки приложения его функциональность можно изменить, настроив [политики управления мобильными приложениями](app-protection-policies.md) в Intune.
 
 
 Перед запуском инструмента просмотрите раздел [Вопросы безопасности при запуске инструмента упаковки для приложений](#security-considerations-for-running-the-app-wrapping-tool). Чтобы скачать этот инструмент, посетите раздел [Microsoft Intune App Wrapping Tool for Android](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android) (Инструмент упаковки для приложений Microsoft Intune для Android) на GitHub.
@@ -63,7 +63,7 @@ ms.locfileid: "52189832"
 
 2.  Примите условия лицензионного соглашения, а затем завершите установку.
 
-Запомните папку, в которую был установлен инструмент. По умолчанию используется расположение C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool.
+Запомните папку, в которую был установлен инструмент. Расположение по умолчанию: C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool.
 
 ## <a name="run-the-app-wrapping-tool"></a>Запуск инструмента упаковки для приложений
 

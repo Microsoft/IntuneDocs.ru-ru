@@ -1,11 +1,12 @@
 ---
 title: Необходимо включить шифрование | Документы Майкрософт
-description: ''
+titlesuffix: Microsoft Intune
+description: Необходимо включить шифрование на устройстве
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/31/2017
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,13 +17,13 @@ searchScope:
 ROBOTS: ''
 ms.reviewer: chrisgre
 ms.suite: ems
-ms.custom: intune-enduser
-ms.openlocfilehash: ab2642127b635e4830b6cf7f5e8cd820c61904ba
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.custom: intune-enduser; seodec18
+ms.openlocfilehash: 25bb6f24dbb13a5b94bfb503507661bf4f524cd2
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43149019"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53031965"
 ---
 # <a name="you-need-to-enable-encryption"></a>Необходимо включить шифрование
 
