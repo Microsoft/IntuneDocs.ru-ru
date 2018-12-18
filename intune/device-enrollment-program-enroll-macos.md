@@ -1,12 +1,12 @@
 ---
 title: Регистрация устройств с macOS с помощью Программы регистрации устройств или Apple School Manager
-titleSuffix: Microsoft Intune
+titleSuffix: ''
 description: Сведения о том, как регистрировать корпоративные устройства с macOS с помощью Программы регистрации устройств.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/29/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,19 +15,19 @@ ms.assetid: ''
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: 12a59165cd9ebe43826f8ec63ed5b045e5f3e991
-ms.sourcegitcommit: ecd6aebe50b1440a282dfdda771e37fbb8750d42
+ms.custom: seodec18
+ms.openlocfilehash: 2bd9b244947f5f0b8fcb832682951c7a241f96a4
+ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2018
-ms.locfileid: "52728758"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53032356"
 ---
 # <a name="automatically-enroll-macos-devices-with-the-device-enrollment-program-or-apple-school-manager"></a>Автоматическая регистрация устройств с macOS с помощью Программы регистрации устройств или Apple School Manager
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-В этой статье объясняется, как настроить регистрацию устройств с macOS, приобретенных в рамках [Программы регистрации устройств (DEP)](https://deploy.apple.com) или программы [Apple School Manager](https://school.apple.com/) компании Apple. С помощью любой из этих программ вы можете настроить регистрацию для большого числа устройств, причем работать отдельно с каждым устройством не требуется. Устройства с macOS можно сразу же отправлять пользователям. Когда пользователь включает устройство, запускается помощник по установке с предварительно настроенными параметрами, и устройство регистрируется для управления в Intune.
+Вы можете настроить регистрацию Intune для устройств macOS, приобретенных по [Программе регистрации устройств (DEP)](https://deploy.apple.com) (Apple) или программе [Apple School Manager](https://school.apple.com/). С помощью любой из этих программ вы можете настроить регистрацию для большого числа устройств, причем работать отдельно с каждым устройством не требуется. Устройства с macOS можно сразу же отправлять пользователям. Когда пользователь включает устройство, запускается помощник по установке с предварительно настроенными параметрами, и устройство регистрируется для управления в Intune.
 
 Чтобы настроить регистрацию, используйте порталы DEP Apple и Intune. Вы создаете профили регистрации, содержащие параметры, которые применяются к устройствам во время регистрации.
 
@@ -123,7 +123,7 @@ ms.locfileid: "52728758"
  
 7. Нажмите кнопку **ОК**.
 
-8. Выберите **Параметры помощника по настройке**, чтобы настроить следующие параметры профиля: ![Настройка помощника по настройке](./media/device-enrollment-program-enroll-macos/setupassistantcustom-macos.png)
+8. Выберите **Параметры помощника по настройке**, чтобы настроить следующие параметры профиля.  ![Конфигурация помощника по настройке](./media/device-enrollment-program-enroll-macos/setupassistantcustom-macos.png).
 
     | Параметры отдела | Описание |
     |---|---|
