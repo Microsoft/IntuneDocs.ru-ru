@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
-ms.openlocfilehash: 470bafba548c38870e57a545c4514459dde219b4
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 76f155d84a3f447cf067970c614d2bd7fd4f1798
+ms.sourcegitcommit: a0db74934433226e28ffdf5d92930dafd2feceae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189398"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53305902"
 ---
 # <a name="move-your-intune-data-warehouse-account-data"></a>Перенос учетной записи хранилища данных Intune 
 
@@ -81,4 +81,4 @@ ms.locfileid: "52189398"
 ## <a name="next-steps"></a>Дальнейшие шаги
 
  - Следите за [еженедельными новостями об улучшениях в Intune](whats-new.md). Кроме того, здесь можно узнать о предстоящих изменениях и получить важные уведомления относительно службы, а также сведения о прошлых выпусках.
- - Прочтите [блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882).
+ - Прочтите [блог Microsoft Intune](https://go.microsoft.com/fwlink/?LinkID=273882).

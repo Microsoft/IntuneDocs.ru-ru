@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/19/2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: a4d40915cce17846ca2aaab29bb597c6580e8920
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 30155227f68f5b98eb1808cfc255b368f134ce91
+ms.sourcegitcommit: a0db74934433226e28ffdf5d92930dafd2feceae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180669"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53305919"
 ---
 # <a name="how-to-manage-ios-ebooks-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление электронными книгами iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 
@@ -35,7 +35,7 @@ Microsoft Intune позволяет синхронизировать книги,
 Процедуры управления книгами схожи с теми, которые применяются для [управления приложениями VPP](vpp-apps-ios.md).
 
 ## <a name="manage-volume-purchased-books-for-ios-devices"></a>Управление книгами для устройств iOS, приобретенными по корпоративной программе
-Единовременная покупка нескольких лицензий на книги для iOS осуществляется по программе [Apple Volume Purchase Program для бизнеса](http://www.apple.com/business/vpp/) или [Apple Volume Purchase Program для образовательных учреждений](http://volume.itunes.apple.com/us/store). Для этого необходимо создать учетную запись Apple VPP на веб-сайте Apple и передать токен Apple VPP в Intune.  После этого вы сможете синхронизировать данные корпоративной закупки с Intune и отслеживать использование приобретенных таким образом книг.
+Единовременная покупка нескольких лицензий на книги для iOS осуществляется по программе [Apple Volume Purchase Program для бизнеса](https://www.apple.com/business/vpp/) или [Apple Volume Purchase Program для образовательных учреждений](https://volume.itunes.apple.com/us/store). Для этого необходимо создать учетную запись Apple VPP на веб-сайте Apple и передать токен Apple VPP в Intune.  После этого вы сможете синхронизировать данные корпоративной закупки с Intune и отслеживать использование приобретенных таким образом книг.
 
 ## <a name="before-you-start"></a>Перед началом работы
 Для начала вам нужно получить токен Apple VPP и отправить его в учетную запись Intune. Дополнительно

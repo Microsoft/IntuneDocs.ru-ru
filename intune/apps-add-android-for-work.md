@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/04/2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: chrisbal
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: c7d5d29df0f91a4cff1060cd10a5d2355e196e39
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 5495addba30e8a958d2a49f2c04ee5af70d62712
+ms.sourcegitcommit: a0db74934433226e28ffdf5d92930dafd2feceae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180148"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53305936"
 ---
 # <a name="assign-apps-to-android-work-profile-devices-with-intune"></a>Назначение приложений для устройств с рабочим профилем Android в Intune
 
@@ -56,7 +56,7 @@ Android для бизнеса — это программа для устрой
 
     ![Параметры для обработки новых запросов на разрешения для приложения](media/approve-app-settings.png)
 
-    Приложение утверждается и отображается в консоли ИТ-администратора. Затем можно [синхронизировать приложение рабочего профиля Android с Intune](apps-add-android-for-work.md#sync-an-android-for-work-app-with-intune). 
+    Приложение утверждается и отображается в консоли ИТ-администратора. Затем можно [синхронизировать приложение рабочего профиля Android с Intune](apps-add-android-for-work.md#sync-a-managed-google-play-app-with-intune). 
 
 ## <a name="sync-a-managed-google-play-app-with-intune"></a>Синхронизация приложения из управляемого Google Play Маркета с Intune
 
@@ -84,7 +84,7 @@ Android для бизнеса — это программа для устрой
 
 Время от времени заходите в управляемую консоль Google Play, чтобы проверить, не появились ли новые разрешения. Вы можете настроить Google Play для отправки вам или другим пользователям сообщений электронной почты в тот момент, когда для утвержденного приложения потребуются новые разрешения. Если после назначения приложение не устанавливается на устройствах, проверьте наличие новых разрешений, выполнив следующие действия:
 
-1. Перейдите к [Google Play](http://play.google.com/work).
+1. Перейдите к [Google Play](https://play.google.com/work).
 2. Войдите с помощью учетной записи Google, использованной для публикации и утверждения приложений.
 3. Выберите вкладку **Обновления** и проверьте, требуется ли приложениям обновление.  
     Для всех указанных приложений требуются новые разрешения. Вы можете назначать эти приложения только после применения новых разрешений.

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/19/2018
+ms.date: 12/20/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 44c71abc4897f05a75910151872fc58aca5eb918
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 7bcc04ae2ef5e577dbf2482a40fb46c0fc63a5a7
+ms.sourcegitcommit: 279f923b1802445e501324a262d14e8bfdddabde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187401"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53737871"
 ---
 # <a name="manage-volume-purchased-apps-and-books-with-microsoft-intune"></a>Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune
 
