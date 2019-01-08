@@ -1,5 +1,6 @@
 ---
 title: Настройка политики условного доступа на основе приложений в Intune
+titlesuffix: Microsoft Intune
 description: Узнайте, как настроить политику условного доступа на основе приложений в Intune.
 keywords: ''
 author: brenduns
@@ -15,12 +16,12 @@ ms.reviewer: chrisgre
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 32044422943282d9cf813192405a335ee756e44e
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 079671064c09c22d151ea71f8b3fb385652aef0f
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52177938"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53816928"
 ---
 # <a name="set-up-app-based-conditional-access-policies-with-intune"></a>Настройка политик условного доступа на основе приложений в Intune
 
@@ -54,7 +55,7 @@ ms.locfileid: "52177938"
 ## <a name="next-steps"></a>Дальнейшие шаги
 [Блокировка приложений, не поддерживающих современные средства проверки подлинности](app-modern-authentication-block.md)
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [Защита данных приложения с помощью политик защиты приложений](app-protection-policies.md)
 [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access)
