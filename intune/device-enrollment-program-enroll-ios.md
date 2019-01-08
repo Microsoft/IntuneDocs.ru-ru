@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 9f27d8b2334ff38146949c28898040da6a714e0a
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.openlocfilehash: 1af474063ec7b6ccac2a36afbec421767f79444a
+ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032492"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53642852"
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 

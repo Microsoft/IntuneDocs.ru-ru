@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/19/2018
+ms.date: 12/12/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 42b554f025f80546a0a2dd93de92549f2f037b3f
-ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
+ms.openlocfilehash: e9d3b82fb544b1c73671438440b108573343795a
+ms.sourcegitcommit: 874d9a00cc4666920069d54f99c6c2e687fa34a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53112887"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53324911"
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -45,7 +45,7 @@ ms.locfileid: "53112887"
 
 -   Приложение должно быть разработано внутри вашей компании или по ее заказу. Этот инструмент невозможно использовать для приложений, скачанных из магазина Google Play.
 
--   Чтобы запустить инструмент, необходимо установить последнюю версию [среды выполнения Java](http://java.com/download/) и убедиться, что для переменной пути Java в переменных среды Windows задано значение C:\ProgramData\Oracle\Java\javapath. Дополнительные сведения см. в [документации по Java](http://java.com/download/help/).
+-   Чтобы запустить инструмент, необходимо установить последнюю версию [среды выполнения Java](https://java.com/download/) и убедиться, что для переменной пути Java в переменных среды Windows задано значение C:\ProgramData\Oracle\Java\javapath. Дополнительные сведения см. в [документации по Java](https://java.com/download/help/).
 
     > [!NOTE]
     > В некоторых случаях 32-разрядная версия Java может привести к проблемам с памятью. Рекомендуется установить 64-разрядную версию.
@@ -71,12 +71,12 @@ ms.locfileid: "53112887"
 
 2. Из папки, куда был установлен инструмент, импортируйте модуль PowerShell инструмента упаковки для приложений:
 
-   ```
+   ```PowerShell
    Import-Module .\IntuneAppWrappingTool.psm1
    ```
 
 3. Запустите инструмент с помощью команды **invoke-AppWrappingTool** со следующим синтаксисом.
-   ```
+   ```PowerShell
    Invoke-AppWrappingTool [-InputPath] <String> [-OutputPath] <String> -KeyStorePath <String> -KeyStorePassword <SecureString>
    -KeyAlias <String> -KeyPassword <SecureString> [-SigAlg <String>] [<CommonParameters>]
    ```
@@ -99,18 +99,18 @@ ms.locfileid: "53112887"
 
 - Чтобы просмотреть подробные сведения об использовании инструмента, введите следующую команду.
 
-    ```
+    ```PowerShell
     Help Invoke-AppWrappingTool
     ```
 
 **Пример:**
 
 Импорт модуля PowerShell.
-```
+```PowerShell
 Import-Module "C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool\IntuneAppWrappingTool.psm1"
 ```
 Запустите инструмент упаковки для приложений в собственном приложении HelloWorld.apk.
-```
+```PowerShell
 invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped\HelloWorld_wrapped.apk -KeyStorePath "C:\Program Files (x86)\Java\jre1.8.0_91\bin\mykeystorefile" -keyAlias mykeyalias -SigAlg SHA1withRSA -Verbose
 ```
 
@@ -142,7 +142,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 -   Импортируйте выходное приложение в Intune на том же компьютере, где запущено средство. Дополнительные сведения о Java Keytool см. [здесь](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html).
 
--   Если выходное приложение и инструмент расположены по UNC-пути и вы не используете инструмент и входные файлы на одном и том же компьютере, настройте среду на безопасную работу с помощью [протокола IPsec](http://wikipedia.org/wiki/IPsec) или [подписывания SMB](https://support.microsoft.com/kb/887429).
+-   Если выходное приложение и инструмент расположены по UNC-пути и вы не используете инструмент и входные файлы на одном и том же компьютере, настройте среду на безопасную работу с помощью [протокола IPsec](https://wikipedia.org/wiki/IPsec) или [подписывания SMB](https://support.microsoft.com/kb/887429).
 
 -   Убедитесь, что приложение получено из надежного источника.
 
@@ -167,11 +167,17 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 > Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
 > * Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
 
-2. Включите регистрацию по умолчанию, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```.
+2. Включите регистрацию по умолчанию, добавив в манифест следующее значение:
+   ```xml
+   <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />
+   ```
    > [!NOTE] 
    > Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager могут возникнуть конфликты.
 
-3. Включите требуемую политику MAM, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```.
+3. Включите требуемую политику MAM, добавив в манифест следующее значение:
+   ```xml
+   <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
+   ```
    > [!NOTE] 
    > В результате пользователю будет необходимо скачать приложение корпоративного портала на устройстве и пройти процедуру регистрации по умолчанию перед использованием.
 

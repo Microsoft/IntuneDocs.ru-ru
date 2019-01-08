@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/01/2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: ilwu
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 829b9587849208c40d5e4c0f58169b4f6dfd4153
-ms.sourcegitcommit: a0e965b3a568d1435270012ab89e5857e72cd434
+ms.openlocfilehash: 65f3598282bd46d422f8748d2653dbf8e18cf9b7
+ms.sourcegitcommit: 874d9a00cc4666920069d54f99c6c2e687fa34a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52630023"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53324979"
 ---
 # <a name="manage-internet-access-using-a-microsoft-intune-policy-protected-browser"></a>Управление доступом в Интернет с помощью браузера, защищенного политикой Microsoft Intune
 
@@ -150,7 +150,7 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
 ### <a name="before-you-start"></a>Перед началом работы
 
 - Настройте внутренние приложения через прокси приложения Azure AD.
-    - Чтобы настроить прокси приложения и опубликовать приложения, см. [документацию по установке](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#how-to-get-started). 
+    - Чтобы настроить прокси приложения и опубликовать приложения, см. [документацию по установке](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#get-started). 
 - Версия используемого приложения Managed Browser должна быть 1.2.0 или выше.
 - Пользователям приложения Managed Browser или Microsoft Edge должна быть назначена [политика защиты приложений Intune]( app-protection-policy.md).
 
@@ -158,17 +158,17 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
     > Прежде чем новые данные перенаправления прокси приложения вступят в силу для Managed Browser или Microsoft Edge, может пройти до 24 часов.
 
 
-#### <a name="step-1-enable-automatic-redirection-to-a-protected-browser-from-outlook"></a>Шаг 1. Включение автоматического перенаправления в защищенный браузер из Outlook
+#### <a name="step-1-enable-automatic-redirection-to-a-protected-browser-from-outlook"></a>Шаг 1. Включение автоматического перенаправления в защищенный браузер из Outlook
 Для Outlook должна быть настроена политика защиты приложений с включенным параметром **Ограничить веб-контент, отображаемый в Managed Browser**.
 
-#### <a name="step-2-assign-an-app-configuration-policy-assigned-for-the-protected-browser"></a>Шаг 2. Назначение политики конфигурации приложений для защищенного браузера.
+#### <a name="step-2-assign-an-app-configuration-policy-assigned-for-the-protected-browser"></a>Шаг 2. Назначение политики конфигурации приложений для защищенного браузера
 Эта процедура позволяет настроить перенаправление прокси приложения для приложения Managed Browser или Microsoft Edge. При создании конфигурации приложения Microsoft Edge или Managed Browser укажите следующие пары ключей и значений:
 
 | Key                                                             | Значение    |
 |-----------------------------------------------------------------|----------|
 | **com.microsoft.intune.mam.managedbrowser.AppProxyRedirection** | **true** |
 
-Дополнительные сведения о совместном использовании Managed Browser, Microsoft Edge и Azure AD Application Proxy для быстрого (и защищенного) доступа к локальным веб-приложениям см. в следующей записи блога Enterprise Mobility + Security: [Better together: Intune and Azure Active Directory team up to improve user access](https://cloudblogs.microsoft.com/enterprisemobility/2017/07/06/better-together-intune-and-azure-active-directory-team-up-to-improve-user-access) (Вместе эффективнее: сочетание Intune и Azure Active Directory для улучшения пользовательского доступа).
+Дополнительные сведения о совместном использовании Managed Browser, Microsoft Edge и Azure AD Application Proxy для быстрого (и защищенного) доступа к локальным веб-приложениям см. в следующей записи блога Enterprise Mobility + Security: [Better together: Intune and Azure Active Directory team up to improve user access](https://cloudblogs.microsoft.com/enterprisemobility/2017/07/06/better-together-intune-and-azure-active-directory-team-up-to-improve-user-access) (Вместе эффективнее: сочетание Intune и Azure Active Directory для улучшения пользовательского доступа).
 
 > [!NOTE]
 > Microsoft Edge использует те же пары ключей и значений, что и Managed Browser. 
@@ -261,6 +261,19 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
   - `http://www.contoso.com:*`
 
   - `http://www.contoso.com: /*`
+## <a name="opening-links-within-the-intune-managed-browser-vs-microsoft-edge"></a>Открытие ссылок в Intune Managed Browser в сравнении с Microsoft Edge 
+
+И Intune Managed Browser, и Microsoft Edge теперь считаются защищенными браузерами, управляемыми политиками. В настоящее время в соответствии с существующими политиками защиты приложений веб-ссылки в управляемых приложениях Intune открываются в конкретном браузере в зависимости от сценария и платформы. 
+
+На Android: 
+* Используется Managed Browser при наличии на устройстве обоих браузеров, если только для параметра конфигурации приложения com.microsoft.intune.useEdge не задано значение true для всех управляемых приложений Intune, которым требуется браузер, управляемый политикой.  
+* Используется Microsoft Edge, если на устройстве установлен только этот браузер и на него нацелена политика.
+* Используется Managed Browser, если на устройстве установлен только этот браузер и на него нацелена политика. 
+
+На iOS для приложений с внедренным пакетом SDK Intune для iOS версии 9.0.9+: 
+* Используется Managed Browser при наличии на устройстве обоих браузеров, если только для параметра конфигурации приложения com.microsoft.intune.useEdge не задано значение true для всех управляемых приложений Intune, которым требуется браузер, управляемый политикой, **или** Microsoft Edge, если этот браузер установлен и получил политику. 
+* Используется Microsoft Edge, если на устройстве установлен только этот браузер, он получил политику и она на него нацелена. 
+* Используется Managed Browser, если на устройстве установлен только этот браузер, он получил политику и она на него нацелена.
 
 ## <a name="how-to-access-to-managed-app-logs-using-the-managed-browser-on-ios"></a>Доступ к журналам управляемых приложений с помощью Managed Browser в iOS
 

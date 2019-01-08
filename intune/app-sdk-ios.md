@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/05/2018
+ms.date: 12/13/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
-ms.openlocfilehash: 0fc0e5bdb261b3cfbc2e5507e1206354d8cc4051
-ms.sourcegitcommit: a0e965b3a568d1435270012ab89e5857e72cd434
+ms.openlocfilehash: d484c227b33cc364d98ec4843894f447ae2ea8ab
+ms.sourcegitcommit: 02f75d241b3cbb125cb235d16d447f8855b1806d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52630057"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53657837"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -45,13 +45,13 @@ ms.locfileid: "52630057"
 
 В этом руководстве рассматривается использование следующих компонентов пакета SDK для приложений Intune в iOS:
 
-* **libIntuneMAM.a**: статическая библиотека пакета SDK для приложений Intune. Если приложение не использует расширения, свяжите эту библиотеку с проектом, чтобы включить приложение в систему управления клиентскими приложениями Intune.
+* **libIntuneMAM.a**. Статическая библиотека пакета SDK для приложений Intune. Если приложение не использует расширения, свяжите эту библиотеку с проектом, чтобы включить приложение в систему управления клиентскими приложениями Intune.
 
-* **IntuneMAM.framework**: платформа пакета SDK для приложений Intune. Свяжите эту платформу с проектом, чтобы включить приложение в систему управления клиентскими приложениями Intune. Если приложение использует расширения, применяйте платформу вместо статической библиотеки, чтобы проект не создавал несколько копий статической библиотеки.
+* **IntuneMAM.framework**. Платформа пакета SDK для приложений Intune. Свяжите эту платформу с проектом, чтобы включить приложение в систему управления клиентскими приложениями Intune. Если приложение использует расширения, применяйте платформу вместо статической библиотеки, чтобы проект не создавал несколько копий статической библиотеки.
 
-* **IntuneMAMResources.bundle**: пакет ресурсов, на которых основан пакет SDK.
+* **IntuneMAMResources.bundle**. Набор ресурсов, на которых основан пакет SDK.
 
-* **Заголовки**: предоставляет API пакета SDK для приложений Intune. При использовании API необходимо включить файл заголовков, содержащий этот API. Следующие файлы заголовков включают API, типы данных и протоколы, предоставляемые разработчиком в SDK-пакете Intune для приложений.
+* **Заголовки**. Предоставляют API пакета SDK для приложений Intune. При использовании API необходимо включить файл заголовков, содержащий этот API. Следующие файлы заголовков включают API, типы данных и протоколы, предоставляемые разработчиком в SDK-пакете Intune для приложений.
 
     * IntuneMAMAppConfig.h
     * IntuneMAMAppConfigManager.h
@@ -79,9 +79,9 @@ ms.locfileid: "52630057"
 
 ## <a name="build-the-sdk-into-your-mobile-app"></a>Интеграция пакета SDK с мобильным приложением
 
-Чтобы использовать пакет SDK для приложений Intune, сделайте следующее.
+Чтобы использовать пакет SDK для приложений Intune, сделайте следующее:
 
-1. **Вариант 1 (рекомендуется)**. Свяжите `IntuneMAM.framework` со своим проектом. Перетащите `IntuneMAM.framework` в список **Embedded Binaries** (Встроенные двоичные файлы) цели проекта.
+1. **Вариант 1 (рекомендуемый)**. Выполните связывание `IntuneMAM.framework` с проектом. Перетащите `IntuneMAM.framework` в список **Embedded Binaries** (Встроенные двоичные файлы) цели проекта.
 
    > [!NOTE]
    > При использовании платформы вам необходимо вручную убрать архитектуры симулятора из универсальной платформы перед отправкой приложения в App Store. См. дополнительные сведения [об отправке приложения в App Store](#Submit-your-app-to-the-App-Store).
@@ -127,21 +127,21 @@ ms.locfileid: "52630057"
 
 4. Чтобы создать отдельную группу доступа, в которой будут храниться данные пакета SDK для приложений Intune, после включения совместного использования цепочки ключей сделайте следующее. Группу доступа к цепочке ключей можно создать с помощью пользовательского интерфейса или с помощью файла прав. При использовании пользовательского интерфейса для создания группы доступа к цепочке ключей обязательно выполните следующие действия:
 
-   1. Если для мобильного приложения не определено ни одной группы доступа к цепочке ключей, добавьте идентификатор пакета приложения в качестве **первой** группы.
-
-   2. Добавьте группу общей цепочки ключей `com.microsoft.intune.mam` к существующим группам доступа. Пакет SDK для приложений Intune использует эту группу доступа для хранения данных.
-
-   3. Добавьте `com.microsoft.adalcache` в свои существующие группы доступа.
-
-       ![Пакет SDK для приложений Intune в iOS — совместное использование цепочки ключей](./media/intune-app-sdk-ios-keychain-sharing.png)
-
-   4. Если вы изменяете файл прав непосредственно (не с помощью пользовательского интерфейса Xcode, показанного выше) для создания группы доступа к цепочке ключей, добавьте `$(AppIdentifierPrefix)` в начало групп доступа к цепочке ключей (Xcode обрабатывает это значение автоматически). Пример.
-
-           * `$(AppIdentifierPrefix)com.microsoft.intune.mam`
-           * `$(AppIdentifierPrefix)com.microsoft.adalcache`
-
-      > [!NOTE]
-      > Файл прав — это XML-файл, который является уникальным в рамках вашего мобильного приложения. Он используется для задания специальных разрешений и возможностей в вашем приложении для iOS. Если файла прав нет, включите общий доступ к цепочке ключей (шаг 3), чтобы это файл был создан в Xcode для вашего приложения. Убедитесь, что идентификатор пакета является первой записью в списке.
+    1. Если для мобильного приложения не определено ни одной группы доступа к цепочке ключей, добавьте идентификатор пакета приложения в качестве **первой** группы.
+    
+    2. Добавьте группу общей цепочки ключей `com.microsoft.intune.mam` к существующим группам доступа. Пакет SDK для приложений Intune использует эту группу доступа для хранения данных.
+    
+    3. Добавьте `com.microsoft.adalcache` в свои существующие группы доступа.
+    
+        ![Пакет SDK для приложений Intune в iOS — совместное использование цепочки ключей](./media/intune-app-sdk-ios-keychain-sharing.png)
+    
+    4. Если вы изменяете файл прав непосредственно (не с помощью пользовательского интерфейса Xcode, показанного выше) для создания группы доступа к цепочке ключей, добавьте `$(AppIdentifierPrefix)` в начало групп доступа к цепочке ключей (Xcode обрабатывает это значение автоматически). Пример.
+    
+        - `$(AppIdentifierPrefix)com.microsoft.intune.mam`
+        - `$(AppIdentifierPrefix)com.microsoft.adalcache`
+    
+        > [!NOTE]
+        > Файл прав — это XML-файл, который является уникальным в рамках вашего мобильного приложения. Он используется для задания специальных разрешений и возможностей в вашем приложении для iOS. Если файла прав нет, включите общий доступ к цепочке ключей (шаг 3), чтобы это файл был создан в Xcode для вашего приложения. Убедитесь, что идентификатор пакета является первой записью в списке.
 
 5. Включите в массив `LSApplicationQueriesSchemes` в файле Info.plist приложения каждый из протоколов, которые приложение передает в `UIApplication canOpenURL`. Не забудьте сохранить изменения перед переходом к следующему шагу.
 
@@ -432,7 +432,7 @@ MAMPolicyRequired| Логическое значение| Указывает, б
 
 Класс | Описание
 ----- | -----------
-IntuneMAMPolicyManager.h | Класс IntuneMAMPolicyManager предоставляет политику приложений Intune, которая была развернута для приложения. В частности, он предоставляет интерфейсы API, которые удобны для [Включения множественного удостоверения](#-enable-multi-identity-optional). |
+IntuneMAMPolicyManager.h | Класс IntuneMAMPolicyManager предоставляет политику приложений Intune, которая была развернута для приложения. В частности, он предоставляет интерфейсы API, которые удобны для [Включения множественного удостоверения](app-sdk-ios.md#enable-multi-identity-optional). |
 IntuneMAMPolicy.h | Класс IntuneMAMPolicy предоставляет некоторые параметры политики MAM, которые применяются к приложению. Эти параметры политики доступны для настройки пользовательского интерфейса приложения. Большинство параметров политики применяется пакетом SDK, а не приложением. Единственный параметр, который нужно реализовать в приложении, — элемент управления "Сохранить как". Этот класс предоставляет некоторые интерфейсы API, необходимые для реализации элемента управления "Сохранить как". |
 IntuneMAMFileProtectionManager.h | Класс IntuneMAMFileProtectionManager предоставляет интерфейсы API, которые приложение может использовать для защиты файлов и каталогов явным образом на основе предоставленного удостоверения. Для удостоверения можно применить или отменить управление Intune, а пакет SDK применит соответствующую политику MAM. Использование этого класса не является обязательным. |
 IntuneMAMDataProtectionManager.h | Класс IntuneMAMDataProtectionManager предоставляет API, которые приложение может использовать для защиты буферов данных, учитывая указанное удостоверение. Для удостоверения можно применить или отменить управление Intune, а пакет SDK применит соответствующее шифрование. |
@@ -484,7 +484,7 @@ API `isSaveToAllowedForLocation` предоставляет константы, 
 
 6. Настройте `NSExtensionActivationRule` для поддержки одного файла и всех типов из `CFBundleDocumentTypes` приложения с префиксом `com.microsoft.intune.mam`. Например, если приложение поддерживает public.text и public.image, правило активации будет таким:
 
-    ```
+    ```objc
     SUBQUERY (
         extensionItems,
         $extensionItem,
@@ -500,41 +500,41 @@ API `isSaveToAllowedForLocation` предоставляет константы, 
 
 Если приложение уже содержит расширения действия или предоставления общего доступа, тогда правило `NSExtensionActivationRule` будет изменено, чтобы разрешать типы Intune. Для каждого типа, поддерживаемого расширением, добавьте дополнительный тип с префиксом `com.microsoft.intune.mam`. Например, если имеющееся правило активации:  
 
-    ```
+```objc
+SUBQUERY (
+    extensionItems,
+    $extensionItem,
     SUBQUERY (
-        extensionItems,
-        $extensionItem,
-        SUBQUERY (
-            $extensionItem.attachments,
-            $attachment,
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data"
-        ).@count > 0
+        $extensionItem.attachments,
+        $attachment,
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data"
     ).@count > 0
-    ```
+).@count > 0
+```
 
 Его следует изменить на:
 
-    ```
+```objc
+SUBQUERY (
+    extensionItems,
+    $extensionItem,
     SUBQUERY (
-        extensionItems,
-        $extensionItem,
-        SUBQUERY (
-            $extensionItem.attachments,
-            $attachment,
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.url" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.plain-text" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.image" ||
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.data
-        ).@count > 0
+        $extensionItem.attachments,
+        $attachment,
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.url" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.plain-text" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.image" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.intune.mam.public.data
     ).@count > 0
-    ```
+).@count > 0
+```
 
 > [!NOTE]
 > Средство IntuneMAMConfigurator можно использовать для добавления типов Intune в средство активации. Если имеющееся правило активации использует предварительно определенные строковые константы (например, NSExtensionActivationSupportsFileWithMaxCount, NSExtensionActivationSupportsText и т. д.), тогда синтаксис предиката может стать довольно сложным. Средство IntuneMAMConfigurator также можно использовать для преобразования правила активации из строковых констант в строку предиката при добавлении типов Intune.
@@ -543,11 +543,11 @@ API `isSaveToAllowedForLocation` предоставляет константы, 
 
 Старый пользовательский интерфейс:
 
-![Старый интерфейс предоставления доступа](./media/sharing-UI-old.png)
+![Совместное использование данных — старый пользовательский интерфейс общего доступа iOS](./media/sharing-UI-old.png)
 
 Новый пользовательский интерфейс:
 
-![Новый интерфейс предоставления доступа](./media/sharing-UI-new.png)
+![Совместное использование данных — новый пользовательский интерфейс общего доступа iOS](./media/sharing-UI-new.png)
 
 ## <a name="enable-targeted-configuration-appmam-app-config-for-your-ios-applications"></a>Включение целевой конфигурации (конфигурация приложения APP/MAM) для приложений iOS
 
@@ -590,7 +590,7 @@ API `isSaveToAllowedForLocation` предоставляет константы, 
 
 ### <a name="identity-overview"></a>Общие сведения об удостоверениях
 
-Удостоверение — это просто имя пользователя учетной записи (например, user@contoso.com). Разработчики могут задать удостоверение приложения на следующих уровнях.
+Удостоверение — это просто имя пользователя учетной записи (например, user@contoso.com). Разработчики могут задать удостоверение приложения на следующих уровнях:
 
 * **Удостоверение процесса**: задает удостоверение всего процесса и используется в основном для приложений с одним удостоверением. Это удостоверение затрагивает все задачи, файлы и элементы пользовательского интерфейса.
 
@@ -602,7 +602,7 @@ API `isSaveToAllowedForLocation` предоставляет константы, 
 
 В любой момент времени каждый поток имеет действующее удостоверение для задач, связанных с пользовательским интерфейсом, и задач файлов. Это удостоверение используется для определения применяемых политик (если таковые имеются). Если в качестве удостоверения задано значение "no identity" (без удостоверения) либо пользователь не является управляемым, никакие политики не применяются. На рисунках ниже показано, как определяются действующие удостоверения.
 
-  ![Пакет SDK для приложений Intune в iOS — связанные платформы и библиотеки](./media/ios-thread-identities.png)
+  ![Пакет SDK iOS для приложений Intune. процесс определения удостоверений](./media/ios-thread-identities.png)
 
 ### <a name="thread-queues"></a>Очереди потоков
 

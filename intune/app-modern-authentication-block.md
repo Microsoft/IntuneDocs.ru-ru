@@ -1,12 +1,12 @@
 ---
 title: Блокировка приложений, не поддерживающих современные средства проверки подлинности, в Intune
 titleSuffix: Microsoft Intune
-description: Узнайте о блокировке приложений, не поддерживающих современные средства проверки подлинности (ADAL).
+description: Узнайте о блокировке приложений, не поддерживающих современные средства проверки подлинности (ADAL), с помощью Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/19/2018
+ms.date: 12/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: chrisgre
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 0b74559eb0914d87daabaaad52902547ae7c08ac
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: dc9318d46892eab21e81c7eb2992f3476720abd1
+ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52182046"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53642461"
 ---
 # <a name="block-apps-that-do-not-use-modern-authentication-adal"></a>Блокировка приложений, не поддерживающих современные средства проверки подлинности (ADAL)
 
@@ -29,14 +29,17 @@ ms.locfileid: "52182046"
 
 Для условного доступа на основе приложений, предоставляемого с учетом политик защиты приложений, необходимы приложения, использующие [современные средства проверки подлинности](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a) и представляющие собой реализацию протокола OAuth2. Последние версии большинства мобильных и классических приложений Office используют современные средства проверки подлинности. Но есть и сторонние приложения и более старые приложения Office, которые применяют другие средства, такие как обычная проверка подлинности или проверка подлинности на основе форм.
 
-Чтобы заблокировать доступ к этим приложениям, выполните следующие действия:
+## <a name="block-apps"></a>Блокировка приложений
 
-* Настройте правила утверждений ADFS для блокирования несовременных протоколов проверки подлинности. Подробные инструкции представлены в сценарии 3 — [полная блокировка доступа к Office 365 за исключением браузерных приложений](https://technet.microsoft.com/library/dn592182.aspx).
-* Для **Exchange и SharePoint Online** используйте условный доступ Azure Active Directory. Для SharePoint Online используйте командлет Set-SPOTenant. Подробные указания: [Как настроить SharePoint Online и Exchange Online для условного доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-no-modern-authentication#legacy-authentication-protocols).
+Чтобы заблокировать доступ к приложениям, которые не используют современную проверку подлинности, мы рекомендуем использовать следующие методы:
+
+- Настройте правила утверждений ADFS для блокирования несовременных протоколов проверки подлинности. Подробные инструкции представлены в сценарии 3 — [полная блокировка доступа к Office 365 за исключением браузерных приложений](https://technet.microsoft.com/library/dn592182.aspx).
+- Для **Exchange и SharePoint Online** используйте условный доступ Azure Active Directory. Для SharePoint Online используйте командлет Set-SPOTenant. Подробные указания: [Как настроить SharePoint Online и Exchange Online для условного доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-no-modern-authentication#legacy-authentication-protocols).
 
 
 >[!IMPORTANT]
 >ЦС на основе приложений нельзя использовать с проверкой подлинности на основе сертификатов Azure Active Directory (Azure AD). В текущий момент времени может быть задан только один из этих методов.
 
-### <a name="see-also"></a>См. также:
-[Настройка условного доступа на основе приложений с помощью Intune](app-based-conditional-access-intune.md)
+## <a name="next-steps"></a>Дальнейшие шаги
+
+- [Настройка условного доступа на основе приложений с помощью Intune](app-based-conditional-access-intune.md)

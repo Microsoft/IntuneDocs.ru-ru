@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/06/2018
+ms.date: 12/20/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 5a28cdcf4d19aec62cd05808f4fb3cda68e083ea
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.openlocfilehash: 3f53ce0b2afd214dec98082c23f7187b4e69317b
+ms.sourcegitcommit: f114eeba1909c7d4e157003b1a9e2232dd1c99e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032067"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53734244"
 ---
 # <a name="selectively-wipe-data-using-app-protection-policy-access-actions-in-intune"></a>Выборочная очистка данных с помощью действий доступа политики защиты приложений в Intune
 
@@ -110,7 +110,7 @@ ms.locfileid: "53032067"
 
 В некоторых случаях, например для параметра **Мин. версия ОС**, вы можете указать все действия в зависимости от номера версии. 
 
-![Снимок экрана с действиями доступа для защиты приложений Intune — минимальная версия ОС](./media/apps-selective-wipe-access-actions05.png)
+![Снимок экрана с действиями доступа для защиты приложений — минимальная версия ОС](./media/apps-selective-wipe-access-actions05.png)
 
 Когда вы настроите параметр, строка будет отображаться в режиме только для чтения и будет доступна для изменения в любое время. Кроме того, появится строка с раскрывающимся списком в столбце **Параметр**. Параметры, которые уже были настроены и не допускают несколько действий, не будут доступны для выбора в раскрывающемся списке.
 

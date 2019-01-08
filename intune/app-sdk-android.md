@@ -5,7 +5,7 @@ keywords: Пакет SDK
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/09/2018
+ms.date: 12/13/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: c073040275f63b4623ea28a25ad0940dea563b75
-ms.sourcegitcommit: 67666682935c44ff6ad003c0da220a79cc42c9c3
+ms.openlocfilehash: d5d29db61191306e60b0c3ac756620e836b56dd6
+ms.sourcegitcommit: 121e550bf686f38cba1a02fa37f7039358b4a446
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53168034"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53378289"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -86,7 +86,7 @@ ms.locfileid: "53168034"
 ### <a name="gradle-build-plugin"></a>Подключаемый модуль сборки Gradle
 Если сборка приложения выполняется без Gradle, перейдите к разделу [Интеграция с помощью средства командной строки](#command-line-build-tool). 
 
-Подключаемый модуль пакета SDK для приложений распространяется в составе пакета SDK в виде **GradlePlugin/com.microsoft.intune.mam.build.jar**. Чтобы Gradle мог найти подключаемый модуль, его необходимо добавить в путь к классу buildscript. Подключаемый модуль зависит от [Javassist](http://jboss-javassist.github.io/javassist/), который также необходимо добавить. Чтобы добавить их в путь к классу, добавьте следующее в корневой каталог `build.gradle`
+Подключаемый модуль пакета SDK для приложений распространяется в составе пакета SDK в виде **GradlePlugin/com.microsoft.intune.mam.build.jar**. Чтобы Gradle мог найти подключаемый модуль, его необходимо добавить в путь к классу buildscript. Подключаемый модуль зависит от [Javassist](https://jboss-javassist.github.io/javassist/), который также необходимо добавить. Чтобы добавить их в путь к классу, добавьте следующее в корневой каталог `build.gradle`
 
 ```groovy
 buildscript {
@@ -170,7 +170,7 @@ intunemam {
 
 #### <a name="dependencies"></a>Зависимости
 
-Подключаемый модуль Gradle имеет зависимость от [Javassist](http://jboss-javassist.github.io/javassist/), которая должна быть доступна для разрешения зависимостей Gradle (как описано выше). Javassist используется исключительно во время сборки при работе подключаемого модуля. Код Javassist в приложение не добавляется.
+Подключаемый модуль Gradle имеет зависимость от [Javassist](https://jboss-javassist.github.io/javassist/), которая должна быть доступна для разрешения зависимостей Gradle (как описано выше). Javassist используется исключительно во время сборки при работе подключаемого модуля. Код Javassist в приложение не добавляется.
 
 > [!NOTE]
 > Необходимо использовать подключаемый модуль Android Gradle версии 3.0 или более поздней и Gradle версии 4.1 или более поздней.
@@ -338,7 +338,7 @@ intunemam {
 
 Чтобы получить максимальную пользу из регистрируемых данных, ведение журнала нужно инициализировать как можно раньше. Как правило, `Application.onMAMCreate()` — это наилучший вариант для инициализации ведения журнала.
 
-Для получения журналов MAM в приложении, создайте [обработчик Java](http://docs.oracle.com/javase/7/docs/api/java/util/logging/Handler.html) и добавьте его в `MAMLogHandlerWrapper`. Это будет вызывать `publish()` в обработчике приложения для каждого сообщения журнала.
+Для получения журналов MAM в приложении, создайте [обработчик Java](https://docs.oracle.com/javase/7/docs/api/java/util/logging/Handler.html) и добавьте его в `MAMLogHandlerWrapper`. Это будет вызывать `publish()` в обработчике приложения для каждого сообщения журнала.
 
 ```java
 /**
@@ -499,12 +499,12 @@ MAMPolicyManager.getPolicy(currentActivity).getIsSaveToLocationAllowed(
 SaveLocation service, String username);
 ```
 
-Где `service` может иметь одно из следующих значений SaveLocations:
+Параметру `service` нужно задать одно из следующих значений `SaveLocation`:
 
 
-    * SaveLocation.ONEDRIVE_FOR_BUSINESS
-    * SaveLocation.LOCAL
-    * SaveLocation.SHAREPOINT
+- `SaveLocation.ONEDRIVE_FOR_BUSINESS`
+- `SaveLocation.LOCAL`
+- `SaveLocation.SHAREPOINT`
 
 Предыдущий метод, с помощью которого можно определить, разрешает ли пользовательская политика сохранять данные в разных расположениях, представлен `getIsSaveToPersonalAllowed()` в рамках того же класса **AppPolicy**. Эта функция сейчас является **устаревшей** и не должна больше использоваться; следующий вызов эквивалентен `getIsSaveToPersonalAllowed()`:
 
@@ -798,7 +798,7 @@ Result getRegisteredAccountStatus(String upn);
 
 Приложения, [поддерживающие национальные облака](https://www.microsoft.com/en-us/trustcenter/cloudservices/nationalcloud), **должны** предоставлять `authority` для `registerAccountForMAM()`.  Для этого можно предоставить `instance_aware=true` в acquireToken extraQueryParameters ADAL [1.14.0+](https://github.com/AzureAD/azure-activedirectory-library-for-android/releases/tag/v1.14.0), а затем вызвать `getAuthority()` для AuthenticationCallback AuthenticationResult.
 
-```
+```java
 mAuthContext.acquireToken(this, RESOURCE_ID, CLIENT_ID, REDIRECT_URI, PromptBehavior.FORCE_PROMPT, "instance_aware=true",
         new AuthenticationCallback<AuthenticationResult>() {
             @Override
@@ -817,7 +817,8 @@ mAuthContext.acquireToken(this, RESOURCE_ID, CLIENT_ID, REDIRECT_URI, PromptBeha
 > [!NOTE]
 > Не задавайте центр метаданных AndroidManifest.xml.
 <br/>
-```
+
+```xml
 <meta-data
     android:name="com.microsoft.intune.mam.aad.Authority"
     android:value="https://AAD authority/" />
@@ -892,7 +893,7 @@ public interface MAMEnrollmentNotification extends MAMUserNotification {
 
 ## <a name="protecting-backup-data"></a>Защита данных резервной копии
 
-Начиная с Android Marshmallow (API 23), система Android предоставляет два способа резервного копирования данных приложением. Каждый вариант доступен в приложении и требует разных действий для правильного обеспечения защиты данных Intune. Действия, необходимые для защиты данных, указаны в приведенной ниже таблице.  Дополнительные сведения о способах резервного копирования см. в [справочнике по API Android](http://developer.android.com/guide/topics/data/backup.html).
+Начиная с Android Marshmallow (API 23), система Android предоставляет два способа резервного копирования данных приложением. Каждый вариант доступен в приложении и требует разных действий для правильного обеспечения защиты данных Intune. Действия, необходимые для защиты данных, указаны в приведенной ниже таблице.  Дополнительные сведения о способах резервного копирования см. в [справочнике по API Android](https://developer.android.com/guide/topics/data/backup.html).
 
 ### <a name="auto-backup-for-apps"></a>Автоматическое резервное копирование для приложений
 
@@ -1413,7 +1414,7 @@ public final class MAMDataProtectionManager {
 Вы можете настроить в консоли Intune пары «ключ-значение» для конкретных приложений. Intune никак не интерпретирует эти пары, они просто передаются в приложение. Приложения, которым нужно получить такую конфигурацию, могут использовать для этого классы `MAMAppConfigManager` и `MAMAppConfig`. Если на одно приложение нацелены несколько политик, возможно, для одного ключа доступно несколько конфликтующих значений.
 
 ### <a name="example"></a>Пример
-```
+```java
 MAMAppConfigManager configManager = MAMComponents.get(MAMAppConfigManager.class);
 String identity = "user@contoso.com"
 MAMAppConfig appConfig = configManager.getAppConfig(identity);
@@ -1434,7 +1435,7 @@ LOGGER.info("Found value " + valueToUse);
 
 ### <a name="mamappconfig-reference"></a>Ссылка MAMAppConfig
 
-```
+```java
 public interface MAMAppConfig {
     /**
      * Conflict resolution types for Boolean values.
@@ -1609,20 +1610,27 @@ public interface MAMAppConfig {
    > Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
 2. Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
 
-3. Включите регистрацию по умолчанию, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />```.
+3. Включите регистрацию по умолчанию, добавив в манифест следующее значение:
+   ```xml
+   <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />
+   ```
    > [!NOTE] 
    > Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager могут возникнуть конфликты.
 
-4. Включите требуемую политику MAM, добавив в манифест следующее значение: ```xml <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />```.
+4. Включите требуемую политику MAM, добавив в манифест следующее значение:
+   ```xml
+   <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
+   ```
    > [!NOTE] 
    > В результате пользователю будет необходимо скачать приложение корпоративного портала на устройстве и пройти процедуру регистрации по умолчанию перед использованием.
    >
    > Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager будут возникать конфликты.
 
 3. Включите требуемую политику MAM, добавив в манифест следующее значение:
-```xml
-<meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
-```
+
+   ```xml
+   <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
+   ```
 
 > [!NOTE] 
 > В результате пользователю будет необходимо скачать приложение корпоративного портала на устройстве и пройти процедуру регистрации по умолчанию перед использованием.

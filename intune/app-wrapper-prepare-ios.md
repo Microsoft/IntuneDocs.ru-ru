@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/10/2018
+ms.date: 12/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 26bf759722b5cb92bda28b0e60c9365a7edc7710
-ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
+ms.openlocfilehash: 94e4f955a57f5a505bfbbdc84ae236bbfb85fe8b
+ms.sourcegitcommit: 279f923b1802445e501324a262d14e8bfdddabde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53112886"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53738058"
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений iOS для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -100,7 +100,7 @@ ms.locfileid: "53112886"
 
 4. Щелкните **Certificates, IDs & Profiles** (Сертификаты, идентификаторы и профили).
 
-   ![Портал разработчиков Apple](./media/iOS-signing-cert-1.png)
+   ![Портал разработчиков Apple — сертификаты, идентификаторы и профили](./media/iOS-signing-cert-1.png)
 
 5. Нажмите кнопку !["плюс" на портале разработчиков Apple](./media/iOS-signing-cert-2.png) в верхнем правом углу, чтобы добавить сертификат iOS.
 
@@ -125,7 +125,7 @@ ms.locfileid: "53112886"
 
 11. Следуйте указанным выше инструкциям на сайте разработчиков Apple для создания CSR-файла. Сохраните этот файл на компьютере macOS.
 
-    ![Запрос сертификата из ЦС в Keychain Access](./media/iOS-signing-cert-6.png)
+    ![Ввод данных для сертификата, который запрашивается](./media/iOS-signing-cert-6.png)
 
 12. Вернитесь на сайт разработчиков Apple. Нажмите кнопку **Continue**(Продолжить). Отправьте CSR-файл.
 
@@ -141,7 +141,7 @@ ms.locfileid: "53112886"
 
 16. Появляется информационное сообщение. Прокрутите его вниз и найдите метку **Fingerprints** (Отпечатки пальцев). Скопируйте строку **SHA1** (размыта) для использования в качестве аргумента параметра "-c" для инструмента упаковки приложений.
 
-    ![Добавление сертификата цепочке ключей](./media/iOS-signing-cert-9.png)
+    ![Сведения об iPhone — строка отпечатков пальцев SHA1](./media/iOS-signing-cert-9.png)
 
 
 
@@ -179,7 +179,7 @@ ms.locfileid: "53112886"
 
 Откройте приложение Terminal в macOS и выполните следующую команду:
 
-```
+```bash
 /Volumes/IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> -p /<path to provisioning profile> -c <SHA1 hash of the certificate> [-b [<output app build string>]] [-v] [-e] [-x /<array of extension provisioning profile paths>]
 ```
 
@@ -188,7 +188,7 @@ ms.locfileid: "53112886"
 
 **Пример:** Следующий пример команды запускает инструмент упаковки приложений для приложения MyApp.ipa. Для подписи упакованного приложения указывается профиль подготовки и хэш SHA-1 сертификата для подписи. Выходное приложение (MyApp_Wrapped.ipa) создается и хранится в папке вашего рабочего стола.
 
-```
+```bash
 ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i ~/Desktop/MyApp.ipa -o ~/Desktop/MyApp_Wrapped.ipa -p ~/Desktop/My_Provisioning_Profile_.mobileprovision -c "12 A3 BC 45 D6 7E F8 90 1A 2B 3C DE F4 AB C5 D6 E7 89 0F AB"  -v true
 ```
 
@@ -289,7 +289,7 @@ ms.locfileid: "53112886"
 
 3.  Отфильтровать сохраненные журналы для вывода ограничений по приложениям, задав в консоли следующий сценарий:
 
-    ```
+    ```bash
     grep “IntuneAppRestrictions” <text file containing console output> > <required filtered log file name>
     ```
     Отфильтрованные журналы можно отправить в корпорацию Майкрософт.
@@ -368,20 +368,20 @@ ms.locfileid: "53112886"
 
 3.  Используйте средство разработки для проверки прав в пакете APP, где `YourApp.app` — это реальное имя вашего пакета APP.
 
-    ```
+    ```bash
     $ codesign -d --entitlements :- "Payload/YourApp.app"
     ```
 
 4.  Используйте средство обеспечения безопасности для проверки прав внедренного подготовительного профиля приложения, где `YourApp.app` — это реальное имя вашего пакета APP.
 
-    ```
+    ```bash
     $ security -D -i "Payload/YourApp.app/embedded.mobileprovision"
     ```
 
 ### <a name="remove-entitlements-from-an-app-by-using-the-e-parameter"></a>Удаление прав из приложения с помощью параметра —e
 Эта команда удаляет все возможности, включенные в приложении, которые не находятся в файле прав. Удаление возможностей, которые используются приложением, может нарушить работу приложения. Примером ситуации, в которой можно удалить отсутствующие возможности, является наличие приобретенного у поставщика приложения, содержащего все возможности по умолчанию.
 
-```
+```bash
 ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager –i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> –p /<path to provisioning profile> –c <SHA1 hash of the certificate> -e
 ```
 
@@ -416,12 +416,12 @@ ms.locfileid: "53112886"
 Просто запустите общую команду упаковки приложения, добавив флаг `-citrix`. С флагом `-citrix` сейчас не указывается никаких аргументов.
 
 **Формат использования**:
-```
+```bash
 ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i /<path of input app>/<app filename> -o /<path to output folder>/<app filename> -p /<path to provisioning profile> -c <SHA1 hash of the certificate> [-b [<output app build string>]] [-v] [-e] [-x /<array of extension provisioing profile paths>] [-citrix]
 ```
 
 **Пример команды**:
-```
+```bash
 ./IntuneMAMPackager/Contents/MacOS/IntuneMAMPackager -i ~/Desktop/MyApp.ipa -o ~/Desktop/MyApp_Wrapped.ipa -p ~/Desktop/My_Provisioning_Profile_.mobileprovision -c 12A3BC45D67EF8901A2B3CDEF4ABC5D6E7890FAB  -v true -citrix
 ```
 

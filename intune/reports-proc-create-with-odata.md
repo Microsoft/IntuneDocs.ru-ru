@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/13/2018
+ms.date: 12/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 931aa360b82efcf4ef643fb40bc4982c05e589ee
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 9c93554fd6750459aacc154165e7a58e160534fb
+ms.sourcegitcommit: 1c9ef5cfac2fc024528d2cfc9d590fa68dd58080
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52182998"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "53429718"
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Создание отчета из веб-канала OData с помощью Power BI
 
@@ -45,7 +45,7 @@ ms.locfileid: "52182998"
 
 ## <a name="install-power-bi-desktop"></a>Установка Power BI Desktop
 
-Установите последнюю версию Power BI Desktop. Ее можно скачать с сайта: [PowerBI.microsoft.com](https://powerbi.microsoft.com/desktop).
+Установите последнюю версию Power BI Desktop. Ее можно скачать на веб-сайте [PowerBI.microsoft.com](https://powerbi.microsoft.com/desktop).
 
 ## <a name="connect-to-the-odata-feed-for-the-intune-data-warehouse-for-your-tenant"></a>Подключение к веб-каналу OData для хранилища данных Intune вашего клиента
 
@@ -106,7 +106,7 @@ ms.locfileid: "52182998"
 Вы можете добавить к диаграмме "дерево" фильтр, который позволяет получать ответы на дополнительные вопросы.
 
 
-1. Чтобы добавить фильтр, щелкните холст отчетов, а затем на панели **Визуализации** щелкните **значок среза** (![диаграмма "дерево" с данными](media/reports-create-slicer.png)).
+1. Чтобы добавить фильтр, щелкните холст отчетов, а затем на панели **Визуализации** щелкните **значок среза** (![Диаграмма "дерево" с моделью данных и поддерживаемыми связями](media/reports-create-slicer.png)).
 2. Найдите таблицу **ownerTypes** и перетащите поле данных **ownerTypeName** в раздел **Фильтры** на панели **Визуализации**.  
 
    В таблице devices есть поле данных **OwnerTypeKey** с кодом, указывающим, является ли устройство корпоративным или личным. Так как в фильтре должны отображаться понятные имена, найдите таблицу **ownerTypes** и перетащите поле **ownerTypeName**. Этот пример показывает, как модель данных поддерживает связи между таблицами.

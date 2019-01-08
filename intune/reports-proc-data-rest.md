@@ -1,12 +1,12 @@
 ---
 title: Получение данных из API хранилища данных через клиент REST
 titlesuffix: Microsoft Intune
-description: Получение данных из хранилища данных Intune с помощью RESTful API
+description: В этой статье описывается, как извлекать данные из хранилища данных Microsoft Intune с помощью RESTful API.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/13/2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: bcd4d9177bcefc1e026bc55831e589a5bcb57105
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 893e20652af68ec7f33c733376252a937f9584dc
+ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52185999"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53642886"
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 

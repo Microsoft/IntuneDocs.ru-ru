@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 457b5b97bd13caddb5c60836940dd491eac752f8
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: bff4e2b3afe684fe12243fa0f410728eb16eeaba
+ms.sourcegitcommit: 874d9a00cc4666920069d54f99c6c2e687fa34a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181893"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53325183"
 ---
 # <a name="monitor-app-information-and-assignments-with-microsoft-intune"></a>Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune
 
@@ -36,7 +36,7 @@ ms.locfileid: "52181893"
 5. В списке приложений выберите приложение для отслеживания. Отображается панель приложения со сведениями о состоянии устройства и пользователя.
 
 > [!NOTE]
-> Приложения магазина Android Store, развернутые в состоянии **Доступно**, не сообщают свое состояние установки.
+> Приложения Android Store, развернутые с состоянием **Доступно** и бизнес-приложения Android, развернутые с состоянием **Доступно с регистрацией или без регистрации**, не сообщают о состоянии установки.
 
 ## <a name="app-overview-pane"></a>Панель общих сведений о приложении
 

@@ -1,12 +1,12 @@
 ---
 title: Добавление приложения корпоративного портала для Windows 10 вручную
 titleSuffix: Microsoft Intune
-description: Сведения о добавлении приложения корпоративного портала для Windows 10 вручную.
+description: Узнайте, как ваши сотрудники могут вручную добавить приложение корпоративного портала Windows 10 на ПК из Microsoft Store.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/14/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 7808d9c189f429e15cdf916d18412ba951c7e696
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 755e836c5954b9cbbf3c7729755aaa25062710d8
+ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52190274"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53642597"
 ---
 # <a name="manually-add-the-windows-10-company-portal-app-by-using-microsoft-intune"></a>Добавление приложения "Корпоративный портал" для Windows 10 вручную с помощью Microsoft Intune
 
@@ -51,7 +51,7 @@ ms.locfileid: "52190274"
 
 7. Скачайте все пакеты в группе "Необходимые платформы", выбрав **Скачать**.  
     Это нужно сделать для архитектур x86, x64 и ARM — всего 12 пакетов.
-8. Перед отправкой приложения "Корпоративный портал" в Intune создайте папку (например, C:\Company Portal) с пакетами и структурируйте их следующим образом:
+8. Перед добавлением приложения "Корпоративный портал" в Intune создайте папку (например, C:\Company Portal) с пакетами и структурируйте их следующим образом:
    - Поместите пакет корпоративного портала в папку C:\Company Portal. Создайте в этой папке подпапку *Dependencies* (Зависимости).  
 
      ![Сохраненная папка "Dependencies" с APPXBUN-файлом](./media/Win10CP-Dependencies-save.png)

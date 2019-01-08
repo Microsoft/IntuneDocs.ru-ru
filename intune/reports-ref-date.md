@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/14/2018
+ms.date: 12/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,18 +16,18 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 55d624f63c8563cc3dde561b98cd0894d5a9b65d
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 521f33b0c4cfa0f1f4ba534acc2f3fec9a53f151
+ms.sourcegitcommit: 1c9ef5cfac2fc024528d2cfc9d590fa68dd58080
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189169"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "53429633"
 ---
 # <a name="reference-for-date-entity"></a>Справочник по сущности даты
 
 Категория **Дата** содержит сущность **Date**, используемую для определения ссылок на дату в модели данных.
 
-**Дата**
+## <a name="date"></a>Дата
 
 Сущность **Date** представляет даты, на которые ссылаются разные сущности хранилища данных.
 
@@ -53,3 +53,6 @@ ms.locfileid: "52189169"
 | CalendarQuarter |                    Календарный квартал                    |          3           |
 |  CalendarYear   |                     Календарный год                      |         2016         |
 
+## <a name="next-steps"></a>Дальнейшие шаги
+
+- Дополнительные сведения см. в статье [Использование хранилища данных Intune](reports-nav-create-intune-reports.md).

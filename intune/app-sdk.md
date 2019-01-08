@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/17/2018
+ms.date: 12/14/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,14 +16,14 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 02f276c5ddcd77b2800eb7b83a269b47a0ba5233
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 5180682489e693e49e8142d7912302bc8ea2f7a8
+ms.sourcegitcommit: 1c9ef5cfac2fc024528d2cfc9d590fa68dd58080
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180686"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "53429701"
 ---
-# <a name="intune-app-sdk-overview"></a>Обзор пакета SDK для приложений Intune
+# <a name="microsoft-intune-app-sdk-overview"></a>Общие сведения о пакете SDK для приложений Microsoft Intune
 Пакет SDK для приложений Intune, доступный для iOS и Android, позволяет приложению использовать политики защиты приложений Intune. Это позволяет уменьшить объем изменений кода, которые необходимо внести разработчику. Вы обнаружите, что большинство функций SDK можно включить без изменения поведения приложения. В целях улучшения взаимодействия с конечными пользователями и администраторами можно воспользоваться API, чтобы настроить поведение приложения для тех функций, которые требуют содействия со стороны приложения.
 
 Если вы разрешили использовать политики защиты приложений для своего приложения, ИТ-администраторы могут развернуть такие политики для защиты корпоративных данных в нем.
@@ -75,4 +75,8 @@ ms.locfileid: "52180686"
 ### <a name="on-demand-application-vpn-connections-with-citrix-mvpn"></a>On-demand application VPN connections with Citrix mVPN (VPN-подключения приложений по запросу с использованием Citrix mVPN) 
 Устройствами и приложениями можно управлять с помощью комбинации Citrix XenMobile MDX и Microsoft Intune. Эта комбинация позволяет управлять приложениями с политикой защиты приложений Intune при одновременном использовании технологии mVPN в Citrix. Интеграция с Citrix доступна для пакета SDK для приложений Intune для iOS и Android, а также с помощью средства создания оболочек для приложений Intune для iOS и Android (с флагом -citrix).
  
-Дополнительные сведения о Citrix MDX см. в разделе [О наборе инструментов MDX](http://docs.citrix.com/en-us/mdx-toolkit/10/about-mdx-toolkit.html), [Средство создания оболочек для приложений Citrix MDX для iOS](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-ios.html) и [Средство создания оболочек для приложений Citrix MDX для Android](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-android.html).
+Дополнительные сведения о Citrix MDX см. в разделе [О наборе инструментов MDX](https://docs.citrix.com/en-us/mdx-toolkit/10/about-mdx-toolkit.html), [Средство создания оболочек для приложений Citrix MDX для iOS](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-ios.html) и [Средство создания оболочек для приложений Citrix MDX для Android](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-android.html).
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+- Дополнительные сведения см. в статье [Что такое политики защиты приложений?](app-protection-policy.md)

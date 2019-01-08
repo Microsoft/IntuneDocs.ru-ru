@@ -1,7 +1,7 @@
 ---
 title: Журнал изменений хранилища данных Intune
 titlesuffix: Microsoft Intune
-description: Список изменений в API-интерфейсе хранилища данных Intune.
+description: В этой статье представлен список изменений для API хранилища данных Microsoft Intune.
 keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: dfdbaffeb8872e8b121d138ee0aca0315279e718
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 0f39b0cb758c8c62da2e76ef8eaff07264ff3f3a
+ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189951"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53642767"
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
@@ -95,4 +95,4 @@ _Выпущено: октябрь 2017 г._
 
 ## <a name="next-steps"></a>Дальнейшие шаги
  - Следите за [еженедельными новостями об улучшениях в Intune](whats-new.md). Кроме того, здесь можно узнать о предстоящих изменениях и получить важные уведомления относительно службы, а также сведения о прошлых выпусках.
- - Прочтите [блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882).
+ - Прочтите [блог Microsoft Intune](https://go.microsoft.com/fwlink/?LinkID=273882).

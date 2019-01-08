@@ -16,18 +16,18 @@ ms.reviewer: chrisbal
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 637fe2d2c764cf78e67e728bfa77567cf12e88ce
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.openlocfilehash: 76a16df06c085eb3b40a3a48d4398a46233a09b8
+ms.sourcegitcommit: 9a1924ba2372904eb4a8a1894973e6f2be84129d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53031999"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "53626090"
 ---
 # <a name="set-up-intune-enrollment-of-android-enterprise-kiosk-devices"></a>Настройка профиля регистрации киосков Android для бизнеса в Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Android поддерживает устройства-киоски за счет собственного набора решений для корпоративных однофункциональных устройств ("Corporate-Owned, Single-Use", COSU). Такие устройства используются для одной цели, например для цифровой подписи, печати билетов, управления запасами и т. д. Администраторы ограничивают работу устройства, разрешая использовать ограниченный набор приложений и веб-ссылок. Пользователи не могут добавлять другие приложения или выполнять другие операции на устройстве.
+Android поддерживает устройства-киоски за счет собственного набора решений [Dedicated Devices](https://developers.google.com/android/work/overview#company-owned-devices-for-dedicated-use). Такие устройства используются для одной цели, например для цифровой подписи, печати билетов, управления запасами и т. д. Администраторы ограничивают работу устройства, разрешая использовать ограниченный набор приложений и веб-ссылок. Пользователи не могут добавлять другие приложения или выполнять другие операции на устройстве.
 
 Intune помогает развертывать приложения и параметры в киосках Android. Дополнительные сведения об Android для бизнеса см. в разделе [Требования Android для бизнеса](https://support.google.com/work/android/answer/6174145?hl=en&ref_topic=6151012).
 

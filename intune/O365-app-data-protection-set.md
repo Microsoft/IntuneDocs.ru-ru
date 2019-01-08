@@ -1,7 +1,7 @@
 ---
 title: Управление данными приложений Office 365 в Microsoft Intune
 titlesuffix: ''
-description: Сведения об управлении данными приложений Office 365 в Microsoft Intune.
+description: Сведения об управлении данными приложений Office 365 и защите таких приложений в Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
@@ -17,12 +17,12 @@ ms.reviewer: ayesham
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: a3eed03deb3f619f75502e8a9d1d66fefc38a081
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 05af4625c06975e4eb7b2566ce676c4610500bdf
+ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180077"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53642479"
 ---
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps-in-microsoft-intune"></a>Описывается действие базовой защиты управляемых приложениях Office 365 в Microsoft Intune.
 

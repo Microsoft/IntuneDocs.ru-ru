@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/19/2018
+ms.date: 12/20/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: b4a45ac5a73d199ec883e3dda95a97a8f3c09d9a
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: fee473cd6cb6fa7e8a092ebd70192f2b7f8a8b84
+ms.sourcegitcommit: 279f923b1802445e501324a262d14e8bfdddabde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181522"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53737939"
 ---
 # <a name="include-and-exclude-app-assignments-in-microsoft-intune"></a>Включение и исключение назначений приложений в Microsoft Intune
 
@@ -50,7 +50,7 @@ ms.locfileid: "52181522"
 5. Выберите приложение, которое хотите назначить. Панель мониторинга отобразит сведения об этом приложении. 
 6. В разделе меню **Управление** выберите **Назначения**. 
 
-    ![Назначение приложений Intune](./media/apps-inc-exl-01.png)
+    ![Включение приложений в группы при назначении приложений группам](./media/apps-inc-exl-01.png)
 7. Выберите **Добавить группу**, чтобы добавить группу пользователей, которым назначено приложение. 
 8. На панели **Добавить группу** выберите **Тип назначения** из списка доступных типов.
 9. Выберите тип назначения **Доступно с регистрацией или без регистрации**.
