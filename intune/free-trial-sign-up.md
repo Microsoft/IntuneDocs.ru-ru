@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/20/2018
+ms.date: 01/06/2019
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,14 +16,14 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 2257253d023c97d14418b3566c0c493a3cd8f615
-ms.sourcegitcommit: 279f923b1802445e501324a262d14e8bfdddabde
+ms.openlocfilehash: 59e9af2449f384fce22acaef9a696f2944eabaa1
+ms.sourcegitcommit: bf1549eb59adc31ead8601e40253a7024b22853c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53737922"
+ms.lasthandoff: 01/07/2019
+ms.locfileid: "54067437"
 ---
-# <a name="quickstart-try-microsoft-intune-for-free"></a>Краткое руководство. Бесплатная пробная версия Microsoft Intune 
+# <a name="quickstart-try-microsoft-intune-for-free"></a>Быстрый запуск: Бесплатная пробная версия Microsoft Intune 
 
 Microsoft Intune помогает вам защищать корпоративные данные ваших сотрудников, управляя устройствами и приложениями. В этом кратком руководстве вы создадите бесплатную подписку, чтобы опробовать Intune в тестовой среде.
 
@@ -50,7 +50,7 @@ Intune предоставляет надежную облачную службу
 
 2. Создайте учетную запись, указав название организации, за которым следует **.onmicrosoft.com**. 
 
-    ![Снимок экрана: ввод новых учетных данных для пробной учетной записи Microsoft Intune](./media/account-sign-up-site-user-id.png)
+    ![Снимок экрана: ввод новых учетных данных для пробной учетной записи Intune](./media/account-sign-up-site-user-id.png)
 
     Если ваша организация имеет личный домен, который вы хотите использовать вместо **.onmicrosoft.com**, это изменение можно внести на портале администрирования Office 365, как описано далее в этой статье.
 

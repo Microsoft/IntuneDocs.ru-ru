@@ -1,5 +1,5 @@
 ---
-title: Параметры политик для защиты приложений в Android
+title: Параметры политики защиты приложений Android | Microsoft Intune
 titlesuffix: Microsoft Intune
 description: В этой статье описываются параметры политик защиты приложений на устройствах Android.
 keywords: ''
@@ -16,12 +16,12 @@ ms.reviewer: andcerat
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 99c72eeb587c7718b076183170436b29dd7dccac
-ms.sourcegitcommit: 02f75d241b3cbb125cb235d16d447f8855b1806d
+ms.openlocfilehash: 8505560527a8ea1b5d75eef5f7c3423d6a2d6a7d
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53657803"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817404"
 ---
 # <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Параметры политики защиты приложений Android в Microsoft Intune
 В этой статье описываются параметры политики защиты приложений на устройствах Android. Описываемые параметры политик можно [настроить](app-protection-policies.md) для политики защиты приложений на портале Azure в колонке **Параметры**.
