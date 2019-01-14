@@ -1,5 +1,5 @@
 ---
-title: Создание политики условного доступа для Exchange
+title: Создание политики условного доступа для Exchange | Microsoft Intune
 titlesuffix: Microsoft Intune
 description: Настройка условного доступа к локальной организации Exchange и устаревшей версии выделенной среды Exchange Online в Intune.
 keywords: ''
@@ -15,12 +15,12 @@ ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 0a539000153ad45b5256e4e63086fa72fee44947
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: ed996ec17ab0c8144286eeed0a87f07b35da2969
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186109"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817064"
 ---
 # <a name="create-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated"></a>Создание политики условного доступа к локальной организации Exchange и устаревшей версии выделенной среды Exchange Online
 
@@ -125,6 +125,6 @@ ms.locfileid: "52186109"
 
 2. На панели **Политики** выберите пункт **Создать политику**, чтобы создать новую политику условного доступа в Azure AD.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access)

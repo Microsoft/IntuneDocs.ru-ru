@@ -15,12 +15,12 @@ ms.reviewer: davidra
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: c6ab669b1f9331d0bd0a70ca5f86ac7f3f190fb6
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: bda8512bd28351c384bfe53b46db62e5a86fe9bd
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180397"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817285"
 ---
 # <a name="network-access-control-nac-integration-with-intune"></a>Интеграция управления доступом к сети (NAC) с Intune
 
@@ -48,7 +48,7 @@ NAC использует условный доступ для принятия �
 
 Ниже описаны особенности интеграции NAC с Intune. В шагах 1–3 объясняется процесс подключения. Типичная работа после интеграции решения NAC с Intune описана в шагах 4–9.
 
-![Работа NAC с Intune](./media/ca-intune-common-ways-2.png)
+![Схематическое изображение принципов работы NAC с Intune](./media/ca-intune-common-ways-2.png)
 
 1. Зарегистрируйте партнерское решение NAC в Azure Active Directory (AAD) и предоставьте делегированные разрешения API Intune NAC.
 2. Настройте партнерское решения NAC с помощью соответствующих параметров, включая URL-адрес обнаружения Intune.

@@ -1,6 +1,5 @@
 ---
-title: Соединитель Lookout MTD в Microsoft Intune
-titlesuffix: ''
+title: Соединитель Lookout MTD в Microsoft Intune | Microsoft Intune
 description: Сведения об интеграции Intune с Lookout Mobile Threat Defense (MTD) для управления доступом к корпоративным ресурсам с мобильных устройств.
 keywords: ''
 author: brenduns
@@ -16,12 +15,12 @@ ms.reviewer: heenamac
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: d7a545fe08acc9ab88086fa92be934c860ae4716
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: bd61b10ee60e1f9413c22d0d618bc5c270dc76a6
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52179547"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817081"
 ---
 # <a name="lookout-mobile-threat-defense-connector-with-intune"></a>Соединитель службы защиты мобильных устройств от угроз Lookout с помощью Intune
 
@@ -63,34 +62,34 @@ ms.locfileid: "52179547"
 
 **Блокировка при обнаружении вредоносных программ:**
 
-![схема блокирования доступа политикой условного доступа в случае, если устройство определяется как несоответствующее из-за наличия на нем вредоносных программ](./media/malicious-apps-blocked.png)
+![Схематическое изображение блокирования доступа политикой из-за вредоносных приложений](./media/malicious-apps-blocked.png)
 
 **Доступ восстановлен после исправления:**
 
-![схема, демонстрирующая предоставление доступа политикой условного доступа, когда устройство определяется как соответствующее после устранения угрозы](./media/malicious-apps-unblocked.png)
+![Схематическое изображение предоставления доступа к устройствам после устранения угрозы](./media/malicious-apps-unblocked.png)
 
 ### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
 Обнаружение угроз для вашей сети, таких как атаки "злоумышленник в середине", и защита доступа к сети Wi-Fi на основе рисков, связанных с устройствами.
 
 **Блокировка доступа к сети через Wi-Fi:**
 
-![схема блокирования доступа через Wi-Fi политикой условного доступа в соответствии с угрозами для сети](./media/network-wifi-blocked.png)
+![Изображение блокирования доступа к Wi-Fi из-за угроз для сети](./media/network-wifi-blocked.png)
 
 **Доступ восстановлен после исправления:**
 
-![схема, демонстрирующая предоставление доступа политикой условного доступа после устранения угрозы](./media/network-wifi-unblocked.png)
+![Схематическое изображение предоставления доступа политикой условного доступа после устранения угрозы](./media/network-wifi-unblocked.png)
 ### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаружение угроз для вашей сети, таких как атаки "злоумышленник в середине", и блокирование синхронизации корпоративных файлов на основании риска для устройства.
 
 **Блокирование SharePoint Online при обнаружении сетевых угроз:**
 
-![схема, демонстрирующая блокирование доступа устройства к SharePoint Online политикой условного доступа из-за обнаруженной угрозы](./media/network-spo-blocked.png)
+![Схематическое изображение блокирования доступа к SharePoint Online](./media/network-spo-blocked.png)
 
 
 **Доступ восстановлен после исправления:**
 
-![схема, демонстрирующая предоставление доступа политикой условного доступа после устранения сетевой угрозы](./media/network-spo-unblocked.png)
+![Схематическое изображение предоставления доступа после устранения сетевой угрозы](./media/network-spo-unblocked.png)
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 Ниже приведены основные шаги, которые необходимо выполнить для реализации этого решения.

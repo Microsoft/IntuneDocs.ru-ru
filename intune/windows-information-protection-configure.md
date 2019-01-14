@@ -1,12 +1,11 @@
 ---
-title: Параметры Windows Information Protection в Microsoft Intune
-titleSuffix: ''
+title: Параметры Windows Information Protection в Microsoft Intune | Microsoft Intune
 description: Сведения о параметрах Microsoft Intune, с помощью которых можно управлять функцией Windows Information Protection.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 1/18/2018
+ms.date: 01/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +14,12 @@ ms.reviewer: heenamac
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: e1505c48d8605f2ac53b0d93ca933137fac981e3
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 2d1d5468779bf300ad4f2713c363d4ca723b80da
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52179224"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817013"
 ---
 # <a name="how-to-configure-windows-information-protection-in-microsoft-intune"></a>Настройка Windows Information Protection в Microsoft Intune
 
@@ -35,7 +34,7 @@ ms.locfileid: "52179224"
 >[!NOTE]
 > Чтобы использовать приложение корпоративного портала Windows 10 с Windows Information Protection, необходимо добавить приложение корпоративного портала в режиме **исключения** Windows Information Protection. 
 
-### <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие шаги
 Дополнительные сведения см. на странице
 -  [Защита корпоративных данных с помощью Windows Information Protection](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip)
 - [Создание политики Windows Information Protection (WIP) с помощью Microsoft Intune](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/create-wip-policy-using-intune)

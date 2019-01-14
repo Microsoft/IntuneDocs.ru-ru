@@ -1,6 +1,5 @@
 ---
-title: Управление передачей данных между приложениями iOS
-titlesuffix: Microsoft Intune
+title: Управление передачей данных между приложениями iOS | Microsoft Intune
 description: Как использовать политики управления мобильными приложениями в Microsoft Intune для управления передачей данных между приложениями.
 keywords: ''
 author: brenduns
@@ -16,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: e252822569723be6cfe18e488f79a7605f21193c
-ms.sourcegitcommit: ecd6aebe50b1440a282dfdda771e37fbb8750d42
+ms.openlocfilehash: bbd0272b37b56f9f9e66cdf00ddc89a827f3c875
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2018
-ms.locfileid: "52728673"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53816979"
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 
@@ -59,7 +58,7 @@ ms.locfileid: "52728673"
 4.  Разверните политику **управления** на зарегистрированных устройствах с помощью Intune или стороннего поставщика MDM.
 
 
-### <a name="example-1-admin-experience-in-intune-or-third-party-mdm-console"></a>Пример 1. Возможности администрирования в консоли Intune или стороннего решения MDM
+### <a name="example-1-admin-experience-in-intune-or-third-party-mdm-console"></a>Пример 1: Возможности администрирования в консоли Intune или стороннего решения MDM
 
 1. Перейдите в консоль администрирования Intune или стороннего поставщика MDM. Перейдите в раздел консоли, в котором развертываются параметры настройки приложений на зарегистрированных устройствах с iOS.
 
@@ -77,7 +76,7 @@ ms.locfileid: "52728673"
    |ManageEngine Mobile Device Manager | IntuneMAMUPN | Строка | %upn% |
 
 
-### <a name="example-2-end-user-experience"></a>Пример 2. Взаимодействие с конечным пользователем
+### <a name="example-2-end-user-experience"></a>Пример 2: Взаимодействие с конечным пользователем
 
 1.  Пользователь устанавливает приложение Microsoft Word на устройстве.
 
@@ -103,5 +102,5 @@ ms.locfileid: "52728673"
 Сначала [создайте политику защиты приложений и назначьте ее](app-protection-policies.md) приложению iOS. Дополнительные сведения о тестировании политики защиты приложений см. в разделе [Проверка политик защиты приложений](app-protection-policies-validate.md).
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 [What is Intune app protection policy?](app-protection-policy.md)(Что такое политика защиты приложений в Intune)

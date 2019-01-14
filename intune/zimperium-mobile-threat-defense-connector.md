@@ -16,18 +16,18 @@ ms.reviewer: heenamac
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: aad6687a110642f3b21dc0cff3a791f4714c7949
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: b94b4228f05abd2e7c815797f2f187efb8b303e4
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187469"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817251"
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 
 Вы можете управлять доступом к корпоративным ресурсам с мобильных устройств посредством условного доступа на основании оценки рисков, проведенной Zimperium, — решением для защиты от угроз на мобильных устройствах, интегрированным с Microsoft Intune. Оценка рисков основана на данных телеметрии, собранных с устройств, на которых выполняется приложение Zimperium.
 
-Вы можете настроить политики условного доступа на основе оценки рисков Zimperium, которая реализуется с помощью политик соответствия устройств Intune. Эти политики также можно использовать для разрешения или запрета доступа несоответствующих устройств к ресурсам организации на основании обнаруженных угроз.
+Вы можете настроить политики условного доступа на основе оценки рисков, выполненной Zimperium с применением политик соответствия устройств требованиям Intune. Политика оценки рисков может разрешать или блокировать доступ не соответствующих требованиям устройств к корпоративным ресурсам в зависимости от обнаруженных угроз.
 
 ## <a name="how-do-intune-and-zimperium-help-protect-your-company-resources"></a>Как Intune и Zimperium помогают защитить ресурсы вашей организации?
 
@@ -51,11 +51,11 @@ ms.locfileid: "52187469"
 
 **Блокировка при обнаружении вредоносных программ:**
 
-![Обнаружены вредоносные приложения](./media/Maliciousapps_blocked_Zimperium.png)
+![Схематическое изображение обнаруженных вредоносных приложений](./media/Maliciousapps_blocked_Zimperium.png)
 
 **Доступ восстановлен после исправления:**
 
-![Обнаружены вредоносные приложения, доступ предоставлен](./media/maliciousapps_unblocked_Zimperium.png)
+![Схематическое изображение предоставления доступа после устранения угрозы](./media/maliciousapps_unblocked_Zimperium.png)
 
 ### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
 
@@ -95,7 +95,7 @@ ms.locfileid: "52187469"
 
 -   Подписка на службу Mobile Threat Defense Zimperium
 
-    -   Дополнительные сведения см. на  [веб-сайте Zimperium](https://www.zimperium.com/zips-mobile-ips) .
+    -   Дополнительные сведения см. на  [веб-сайте Zimperium](https://www.zimperium.com/zips-mobile-ips).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

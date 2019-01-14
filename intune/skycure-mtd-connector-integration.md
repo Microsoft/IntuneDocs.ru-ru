@@ -1,6 +1,5 @@
 ---
-title: Настройка интеграции Symantec и Microsoft Intune
-titlesuffix: ''
+title: Настройка интеграции Symantec и Microsoft Intune | Microsoft Intune
 description: Как настроить решение Symantec Endpoint Protection Mobile в Microsoft Intune для управления доступом к корпоративным ресурсам с мобильных устройств.
 keywords: ''
 author: brenduns
@@ -16,12 +15,12 @@ ms.reviewer: heenamac
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: accd8dea2b997a6eb1cfec22a6e822e984ef710d
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 4b519c30f432a6d8584c2bd5bca94ead95a862b1
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180159"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817353"
 ---
 # <a name="set-up-symantec-endpoint-protection-mobile-integration-with-intune"></a>Настройка интеграции Symantec Endpoint Protection Mobile с Intune
 
@@ -45,15 +44,15 @@ SEP Mobile поддерживает два режима интеграции с 
 <br>
     -   Если в панели управления Symantec Endpoint Protection Mobile не выбраны параметры **Сообщать о работоспособности и рисках устройств в Intune** и **Также передавать инциденты безопасности в Intune**, интеграция используется в режиме "только для чтения", не позволяя изменять состояние (соответствие) для устройств в Intune.
 <br></br>
--   **Полная интеграция**: разрешает SEP Mobile сообщать в Intune об устройствах с рисками и об инцидентах безопасности, то есть создает двунаправленное взаимодействие между облачными службами.
+-   **Полная интеграция**: разрешает SEP Mobile сообщать в Intune об устройствах с рисками и инцидентах безопасности, то есть создает двунаправленное взаимодействие между облачными службами.
 
 ### <a name="how-are-the-sep-mobile-apps-used-with-azure-ad-and-intune"></a>Как используются приложения SEP Mobile совместно с Azure AD и Intune?
 
--   **Приложение для iOS**: позволяет конечным пользователям входить в Azure AD с помощью приложения для iOS.
+-   **Приложение для iOS**: позволяет конечным пользователям входить в Azure AD с помощью приложения для iOS.
 
--   **Приложение для Android**: позволяет конечным пользователям входить в Azure AD с помощью приложения Android.
+-   **Приложение для Android**: позволяет конечным пользователям входить в Azure AD с помощью приложения Android.
 
--   **Приложение управления**: это мультитенантное приложение SEP Mobile для Azure AD, которое обеспечивает для Intune обмен данными типа "служба — служба".
+-   **Приложение управления**: это мультитенантное приложение SEP Mobile для Azure AD, которое обеспечивает для Intune обмен данными типа "служба — служба".
 
 ## <a name="to-set-up-the-read-only-integration-between-intune-and-sep-mobile"></a>Настройка интеграции только для чтения между Intune и SEP Mobile
 
@@ -68,7 +67,7 @@ SEP Mobile поддерживает два режима интеграции с 
 
 4.  Рядом с элементом **Приложение iOS** выберите действие **Добавить в Active Directory**.
 
-    ![Изображение приложения iOS в консоли управления Symantec Endpoint Protection Mobile](./media/symantec-portal-basic-add.png)
+    ![Изображение консоли управления Symantec Endpoint Protection Mobile](./media/symantec-portal-basic-add.png)
 
 5.  На открывшейся странице входа введите учетные данные Intune и щелкните **Принять**.
 
@@ -90,7 +89,7 @@ SEP Mobile поддерживает два режима интеграции с 
 
 SEP Mobile синхронизирует устройства, на которых работает служба Mobile Threat Defense в пределах групп безопасности Azure AD.
 
-![Изображение с подтверждением завершения настройки групп безопасности в консоли управления SEP Mobile](./media/symantec-portal-basic-status.png)
+![Изображение настройки групп безопасности в консоли управления SEP Mobile](./media/symantec-portal-basic-status.png)
 
 ## <a name="to-set-up-the-full-integration-between-intune-and-sep-mobile"></a>Настройка полной интеграции между Intune и SEP Mobile
 

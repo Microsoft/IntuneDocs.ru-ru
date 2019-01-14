@@ -1,12 +1,11 @@
 ---
-title: Соединитель Intune с Exchange для Exchange Online
-titleSuffix: ''
+title: Соединитель Intune с Exchange для Exchange Online | Microsoft Intune
 description: Подключения Intune к службе Office 365 Exchange для обеспечения поддержки управления мобильными устройствами с помощью Exchange ActiveSync.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/22/2018
+ms.date: 01/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +15,12 @@ ms.reviewer: muhosabe
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 318bde24e42bfdf9bbcf15d83f42405fc06f7901
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 9845ed1b809b611975c07c6c8335acd237d845c0
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184222"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53816707"
 ---
 # <a name="configure-the-exchange-service-connector-for-intune-and-exchange-online"></a>Настройка соединителя службы Exchange для Intune и Exchange Online
 В этой статье объясняется, как подключить службу Microsoft Intune к Exchange Online или к новой выделенной службе Exchange Online. Чтобы определить, используется ли в вашей выделенной среде Exchange Online **новая** или **устаревшая** версия, обратитесь к своему менеджеру по работе с клиентами.
@@ -52,7 +51,7 @@ ms.locfileid: "52184222"
 
 ## <a name="set-up-the-service-to-service-connector"></a>Настройка службы для соединителя службы
 
-1. Войдите на [портал Azure](http://portal.azure.com) с учетной записью, которая обладает правами администратора Exchange, разрешениями для командлетов, [приведенными выше](#exchange-cmdlet-requirements), действительной лицензией Intune и ролью глобального администратора. Для настройки подключения Microsoft Intune использует адрес электронной почты пользователя, вошедшего в систему.
+1. Войдите на [портал Azure](https://portal.azure.com) с учетной записью, которая обладает правами администратора Exchange, разрешениями для командлетов, [приведенными выше](#exchange-cmdlet-requirements), действительной лицензией Intune и ролью глобального администратора. Для настройки подключения Microsoft Intune использует адрес электронной почты пользователя, вошедшего в систему.
 
 2. Выберите **Все службы** в меню слева и введите **Intune** в текстовое поле фильтра.
 

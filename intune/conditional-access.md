@@ -1,6 +1,5 @@
 ---
-title: Условный доступ с помощью Microsoft Intune
-titlesuffix: ''
+title: Условный доступ с помощью Microsoft Intune | Microsoft Intune
 description: Узнайте, как определить условия, которым должны отвечать пользователи, устройства и приложения для доступа к корпоративным ресурсам в Microsoft Intune.
 keywords: ''
 author: brenduns
@@ -15,12 +14,12 @@ ms.assetid: a1973f38-ea55-43eb-a151-505fb34a8afb
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: 1e9e8db76978f9547d10fd4709d74ea809f2c281
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: f25fe74c9506d2179c683156821ef9afb218128a
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184851"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53816571"
 ---
 # <a name="whats-conditional-access"></a>Что такое условный доступ?
 

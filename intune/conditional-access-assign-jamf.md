@@ -1,12 +1,12 @@
 ---
-title: Политика соответствия устройств для устройств Jamf
+title: Политика соответствия устройств для устройств Jamf | Microsoft Intune
 titlesuffix: Microsoft Intune
 description: Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/16/2018
+ms.date: 01/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,16 +16,16 @@ ms.reviewer: elocholi
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 6fa89e96b05e5344dec32fb452be8ebeaa58bc12
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: d7d054b11a4abc969ad411169d0222be37fd6711
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52182029"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817234"
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
 
-Область применения: Intune на портале Azure
+Применяется к: Intune на портале Azure
 
 Политики условного доступа Azure Active Directory и Microsoft Intune позволяют обеспечить соответствие устройств пользователей требованиям организации. Эти политики можно применять к компьютерам Mac [под управлением Jamf Pro](conditional-access-integrate-jamf.md). Для этого необходим доступ к консоли Intune и Jamf Pro.
 
@@ -57,7 +57,7 @@ ms.locfileid: "52182029"
 ## <a name="create-a-policy-in-jamf-pro-to-have-users-register-their-devices-with-azure-active-directory"></a>Создание политики в Jamf Pro для регистрации устройств пользователей в Azure Active Directory
 
 > [!NOTE]
-> Перед выполнением дальнейших действий следует [развернуть приложение "Корпоративный портал"](conditional-access-assign-jamf.md#require-the-company-portal-app-for-macos) для macOS.  
+> Перед выполнением дальнейших действий следует [развернуть приложение "Корпоративный портал"](conditional-access-assign-jamf.md#deploy-the-company-portal-app-for-macos-in-jamf-pro) для macOS.  
 
 Чтобы зарегистрировать устройство в Azure AD как управляемое Jamf Pro, пользователи должны запустить приложение "Корпоративный портал" через портал самообслуживания Jamf. Для этого конечным пользователям потребуется выполнить действие. Рекомендуется [обратиться к пользователям](end-user-educate.md) по электронной почте, через уведомления Jamf Pro или с помощью других методов, чтобы проинформировать их о необходимости нажатия кнопки на портале самообслуживания Jamf.
 

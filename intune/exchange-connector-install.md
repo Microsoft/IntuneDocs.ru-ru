@@ -1,12 +1,11 @@
 ---
-title: Настройка локального соединителя Exchange в Microsoft Intune
-titleSuffix: ''
+title: Настройка локального соединителя Exchange в Microsoft Intune | Microsoft Intune
 description: Используйте локальный соединитель Exchange для управления доступом устройств к почтовым ящикам Exchange на основе регистрации в Intune и Exchange Active Sync (EAS).
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 03/08/2018
+ms.date: 01/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +15,12 @@ ms.reviewer: chrisgre
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 0dc87c20b0da6fcfcc4e3ab304c61c5b264aaf38
-ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
+ms.openlocfilehash: 28886382da00f5c07129f4e69e0bbadf97634420
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53112567"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817268"
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
@@ -71,7 +70,7 @@ ms.locfileid: "53112567"
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>Скачивание пакета установки программного обеспечения локального соединителя Exchange
 
-1. В поддерживаемой локальным соединителем Exchange операционной системе Windows Server войдите на [портал Azure](http://portal.azure.com), используя учетную запись с правами администратора локальной среды Exchange Server и лицензией на использование Exchange Server.
+1. В поддерживаемой локальным соединителем Exchange операционной системе Windows Server войдите на [портал Azure](https://portal.azure.com), используя учетную запись с правами администратора локальной среды Exchange Server и лицензией на использование Exchange Server.
 
 2. Выберите **Все службы** в меню слева и введите **Intune** в текстовое поле фильтра.
 

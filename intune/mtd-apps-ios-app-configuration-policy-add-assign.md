@@ -1,12 +1,11 @@
 ---
-title: Добавление и назначение приложений MTD в Microsoft Intune
-titleSuffix: ''
+title: Добавление и назначение приложений MTD в Microsoft Intune | Microsoft Intune
 description: Добавление приложений Mobile Threat Defense (MTD), Microsoft Authenticator и политики конфигурации для iOS в Microsoft Intune на портале Azure.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 07/25/2018
+ms.date: 01/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,19 +15,19 @@ ms.reviewer: heenamac
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: afc5028e4ed57757832844637298caf1656d610c
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: d08a7332ba96f552b488ad3f5d00004d0445d7ec
+ms.sourcegitcommit: 6058c611d5a54076121af1d327a43ad861a43f8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181179"
+ms.lasthandoff: 01/03/2019
+ms.locfileid: "53996003"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune
 
 > [!NOTE] 
 > Этот раздел относится ко всем партнерам по Mobile Threat Defense.
 
-Вы можете использовать Intune для добавления и развертывания приложений MTD, чтобы конечные пользователи могли получать уведомления при определении угроз в их мобильных устройствах и рекомендации по их устранению.
+Вы можете использовать Intune для добавления и развертывания приложений Mobile Threat Defense (MTD), чтобы конечные пользователи могли получать уведомления при определении угроз в их мобильных устройствах и рекомендации по их устранению.
 
 
 ## <a name="before-you-begin"></a>Подготовка к работе
@@ -38,7 +37,6 @@ ms.locfileid: "52181179"
   -   [Добавление приложения в Intune](apps-add.md).
   -   [Добавление политики конфигурации приложения для iOS в Intune](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune).
   -   [Назначение приложения в Intune](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune)
-  -   [Добавление политики конфигурации приложений для iOS](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune)
 
 > [!TIP]
 > Корпоративный портал Intune работает на устройствах Android в качестве посредника, чтобы можно было проверять удостоверения пользователей в Azure AD.
@@ -145,11 +143,11 @@ ms.locfileid: "52181179"
 
 ### <a name="lookout-for-work-app-configuration-policy"></a>Политика конфигурации приложений Lookout for Work
 
-- Создайте политику конфигурации приложений iOS, как описано в разделе [об использовании политики конфигурации приложений iOS](app-configuration-policies-use-ios.md).
+- Создайте политику конфигурации приложений iOS, как описано в статье об [использовании политики конфигурации приложений iOS](app-configuration-policies-use-ios.md).
 
 ### <a name="sep-mobile-app-configuration-policy"></a>Политика конфигурации приложений SEP Mobile
 
--   Используйте ту же учетную запись Azure AD, которая ранее была настроена в [консоли управления Symantec Endpoint Protection](https://aad.skycure.com), и которая применялась для входа на классический портал Intune.
+-   Используйте ту же учетную запись Azure AD, которая ранее была настроена в [консоли управления Symantec Endpoint Protection](https://aad.skycure.com) и которая применялась для входа на классический портал Intune.
 
 -   Нужно **скачать** файл политики конфигурации приложения для iOS. 
     -   Откройте [консоль управления Symantec Endpoint Protection](https://aad.skycure.com) и войдите с учетными данными администратора.

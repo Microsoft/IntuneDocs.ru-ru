@@ -1,5 +1,5 @@
 ---
-title: Просмотр журналов политики защиты приложений
+title: Просмотр журналов политики защиты приложений | Microsoft Intune
 titlesuffix: Microsoft Intune
 description: Дополнительные сведения о параметрах, которые можно просмотреть в журналах защиты приложений.
 keywords: ''
@@ -16,12 +16,12 @@ ms.reviewer: andcerat
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: eedbc17147c6f9e2988d954308f2332de10d00ab
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 3e7b6ec1063b4337f44de0a4502bcbf7c2a45edf
+ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189849"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53817217"
 ---
 # <a name="review-client-app-protection-logs"></a>Просмотр журналов защиты клиентских приложений
 
