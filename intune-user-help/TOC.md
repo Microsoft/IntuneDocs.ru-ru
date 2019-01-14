@@ -130,6 +130,7 @@
 ### [Что происходит при сбросе устройства?](what-happens-if-you-reset-your-device-using-the-company-portal-windows.md)
 ### [Отключение сбора данных об использовании корпорацией Майкрософт](turn-off-microsoft-usage-data-collection-windows.md)
 ### [Синхронизация устройства вручную](sync-your-device-manually-windows.md)
+### [Справка и поддержка](help-support-windows-cpapp.md)
 
 ### [Устранение распространенных неполадок для Windows](troubleshoot-your-device-windows.md)
 #### [Устранение ошибок, связанных с ограничениями точек доступа](resolve-access-point-restrictions.md)
