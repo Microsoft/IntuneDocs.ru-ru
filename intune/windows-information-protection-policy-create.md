@@ -2,8 +2,8 @@
 title: Создание и развертывание политики защиты приложений Windows Information Protection (WIP) | Microsoft Intune
 description: Как создать и развернуть политику защиты приложений Windows Information Protection (WIP) с помощью Microsoft Intune
 keywords: ''
-author: brenduns
-ms.author: brenduns
+author: Erikre
+ms.author: erikre
 manager: dougeby
 ms.date: 10/04/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 57d0aaebd0ed07a78b32eec64a6dc2817bf5e7f5
-ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
+ms.openlocfilehash: 9f91f5b9779c3067a3120864eaf265346efd8a02
+ms.sourcegitcommit: e9ba1280b95565a5c5674b825881655d0303e688
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53817319"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54297440"
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
 

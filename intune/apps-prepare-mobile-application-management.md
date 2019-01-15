@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 84b36f6cae9dd16bde6bd380407a78aeb2478010
-ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
+ms.openlocfilehash: 742b4892c4dbe9ee2dfa2bb03eebb2667803c6bf
+ms.sourcegitcommit: 513c59a23ca5dfa80a3ba6fc84068503a4158757
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53112431"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54210760"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -98,7 +98,7 @@ ms.locfileid: "53112431"
 |Block screen capture (Android only) (Блокировать снимки экрана, только Android)|X|X|
 |Поддержка MAM без регистрации устройства|X|X|
 |Полная очистка|X|X|
-|выборочная очистка; <br></br>**Примечание.** При удалении профиля управления для iOS приложение также удаляется.|X||
+|выборочная очистка; <br><br>**Примечание.** При удалении профиля управления для iOS приложение также удаляется.|X||
 |Запретить "Сохранить как"|X||
 |Целевая конфигурация приложения|X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||
@@ -115,6 +115,6 @@ ms.locfileid: "53112431"
 
 Дополнительные сведения о политиках защиты приложений и Intune см. в следующих разделах.
 
-  - [Инструмент упаковки приложений Android](app-wrapper-prepare-android.md)</br>
-  - [Инструмент упаковки приложений iOS](app-wrapper-prepare-ios.md)</br>
+  - [Инструмент упаковки приложений Android](app-wrapper-prepare-android.md)<br>
+  - [Инструмент упаковки приложений iOS](app-wrapper-prepare-ios.md)<br>
   - [Подготовка приложений для управления мобильными приложениями с помощью пакета SDK](app-sdk.md)
