@@ -15,12 +15,12 @@ ms.reviewer: chrisgre
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 28886382da00f5c07129f4e69e0bbadf97634420
-ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
+ms.openlocfilehash: 3e66dd3d77cc36a6d311afea82e0f2087b469495
+ms.sourcegitcommit: 8c1590db761cc411369cae26677f909d3a8ca297
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53817268"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54239597"
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune-azure"></a>Настройка локального соединителя Exchange для Intune в Microsoft Intune Azure
 
@@ -116,15 +116,15 @@ ms.locfileid: "53817268"
 
        4. Нажмите кнопку **ОК**.
 
-   5. В поля **Пользователь (домен или пользователь)** и **Пароль** введите учетные данные, необходимые для подключения к серверу Exchange.
+4. В поля **Пользователь (домен или пользователь)** и **Пароль** введите учетные данные, необходимые для подключения к серверу Exchange.
 
-   6.  Введите учетные данные, необходимые для отправки уведомлений на почтовый ящик пользователя Exchange Server. Этот пользователь может быть предназначен только для уведомлений. Пользователю для уведомлений нужен почтовый ящик Exchange, чтобы рассылать уведомления по электронной почте. Эти уведомления можно настроить с помощью политик условного доступа в Intune.  
+5. Введите учетные данные, необходимые для отправки уведомлений на почтовый ящик пользователя Exchange Server. Этот пользователь может быть предназначен только для уведомлений. Пользователю для уведомлений нужен почтовый ящик Exchange, чтобы рассылать уведомления по электронной почте. Эти уведомления можно настроить с помощью политик условного доступа в Intune.  
 
-       Убедитесь, что служба автоматического обнаружения и веб-службы Exchange настроены на сервере клиентского доступа Exchange. Дополнительные сведения см. в разделе [Сервер клиентского доступа](https://technet.microsoft.com/library/dd298114.aspx).
+       Ensure that the Autodiscover service and Exchange Web Services are configured on the Exchange Client Access Server. For more information, see [Client Access server](https://technet.microsoft.com/library/dd298114.aspx).
 
-   7.  В поле **Пароль** укажите пароль учетной записи для доступа Intune к серверу Exchange Server.
+6. В поле **Пароль** укажите пароль учетной записи для доступа Intune к серверу Exchange Server.
 
-   8. Выберите **Подключить**.
+7. Выберите **Подключить**.
 
    > [!NOTE]
    > Настройка соединения может занять несколько минут.
@@ -157,9 +157,9 @@ Intune поддерживает несколько локальных соеди
 
 Также можно проверить время и дату последней успешной попытки синхронизации.
 
-### <a name="system-center-operations-manager-scom-management-pack"></a>Пакет управления System Center Operations Manager (SCOM)
+### <a name="system-center-operations-manager-management-pack"></a>Пакет управления System Center Operations Manager.
 
-Начиная с выпуска Intune 1710, вы можете использовать [пакет управления SCOM для соединителя Exchange и Intune](https://www.microsoft.com/download/details.aspx?id=55990&751be11f-ede8-5a0c-058c-2ee190a24fa6=True&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True). Он предоставляет дополнительные способы мониторинга соединителя Exchange для устранения неполадок.
+Начиная с выпуска Intune 1710 вы можете использовать [пакет управления Operations Manager для соединителя Exchange и Intune](https://www.microsoft.com/download/details.aspx?id=55990&751be11f-ede8-5a0c-058c-2ee190a24fa6=True&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True). Он предоставляет дополнительные способы мониторинга соединителя Exchange для устранения неполадок.
 
 ## <a name="manually-force-a-quick-sync-or-full-sync"></a>Принудительная быстрая или полная синхронизация вручную
 Локальный соединитель Exchange автоматически регулярно синхронизирует записи устройств в EAS и Intune. Если состояние соответствия устройства требованиям меняется, процесс автоматической синхронизации регулярно обновляет записи, запрещая или разрешая доступ устройству.

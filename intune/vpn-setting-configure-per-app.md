@@ -15,12 +15,12 @@ ms.reviewer: karanda
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: f4cdd3c215fbd9eab4204eca0639d5d38fe4c97a
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 12131fe0b78814850cfadee15533620dd5813f6c
+ms.sourcegitcommit: e9ba1280b95565a5c5674b825881655d0303e688
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180737"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54297406"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-in-intune-for-ios-devices"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -33,9 +33,9 @@ VPN на уровне приложения сейчас поддерживает
  - Citrix
  - F5
  - Pulse Connect Secure;
+ - Palo Alto Networks
  - SonicWall
- - Palo Alto Networks GlobalProtect
- - Zscaler
+ - Zscaler Private Access
 
 ## <a name="prerequisites-for-per-app-vpn"></a>Необходимые условия для использования VPN на уровне приложения
 
@@ -186,10 +186,12 @@ VPN на уровне приложения сейчас поддерживает
     - Check Point Capsule Connect
     - Cisco AnyConnect
     - Citrix VPN
+    - Citrix SSO
     - F5 Access
+    - Palo Alto Networks GlobalProtect
     - Pulse Secure
     - SonicWall Mobile Connect
-    - Zscaler App
+    - Zscaler
 
     > [!NOTE]
     > Если вы используете приложение VPN Pulse Secure, вам доступно туннелирование на уровне приложения или на уровне пакета. Задайте для **ProviderType** значение **app-proxy** при туннелировании на уровне приложения или значение **packet-tunnel** при туннелировании на уровне пакета.

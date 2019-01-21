@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/09/2018
+ms.date: 01/11/2019
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: d6c51a2823e95526b76e5e71e35420d1744b70f6
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 6f7d7ccb4c94300d00f02dcace5c3a089cd9f2a2
+ms.sourcegitcommit: d54a12a836503f7e8b90346f16b7ad2d83b710dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52178392"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54270577"
 ---
 # <a name="quickstart-create-a-group-to-manage-users"></a>Краткое руководство. Создание группы для управления пользователями
 
@@ -38,7 +38,7 @@ ms.locfileid: "52178392"
 
 ## <a name="sign-in-to-intune"></a>Вход в Intune
 
-Войдите в [Intune](https://aka.ms/intuneportal) в качестве [глобального администратора или администратора службы Intune](users-add.md#types-of-administrators). Если вы создали подписку на пробную версию Intune, учетная запись, с помощью которой вы создали подписку, является глобальным администратором.
+Войдите на портал [Intune](https://aka.ms/intuneportal) в качестве [глобального администратора или администратора службы Intune](users-add.md#types-of-administrators). Если вы создали подписку на пробную версию Intune, учетная запись, с помощью которой вы создали подписку, является глобальным администратором.
 
 ## <a name="create-a-group"></a>Создание группы
 
@@ -63,4 +63,4 @@ ms.locfileid: "52178392"
 Чтобы выполнить эту серию кратких руководств по Intune, переходите к следующему руководству.
 
 > [!div class="nextstepaction"]
-> [Краткое руководство. Настройка автоматической регистрации устройств Windows 10](quickstart-setup-auto-enrollment.md)
+> [Краткое руководство. Настройка автоматической регистрации устройств с Windows 10](quickstart-setup-auto-enrollment.md)

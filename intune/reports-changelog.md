@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/09/2018
+ms.date: 01/11/2010
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,18 +16,25 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 0f39b0cb758c8c62da2e76ef8eaff07264ff3f3a
-ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
+ms.openlocfilehash: 3fce49decb7574d32d1923a77bb2cca28384ce11
+ms.sourcegitcommit: e9ba1280b95565a5c5674b825881655d0303e688
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53642767"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54297236"
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Следите за обновлениями хранилища данных Intune.
+
+## <a name="1812"></a>1812 
+_Выпуск в декабре 2018 г._
+
+### <a name="enrollment-activities-collection-released-to-v10"></a>Выпущена версия 1.0 коллекции действий по регистрации 
+
+Коллекция действий по регистрации теперь доступна в версии 1.0. Эту коллекцию можно использовать для понимания объема ошибок регистрации и тенденций в вашей среде. Дополнительные сведения см. в разделах [enrollmentActivities](intune-data-warehouse-collections.md#enrollmentactivities), [enrollmentEventStatuses](intune-data-warehouse-collections.md#enrollmenteventstatuses), [enrollmentFailureCategories](intune-data-warehouse-collections.md#enrollmentfailurecategories) и [ enrollmentFailureReasons](intune-data-warehouse-collections.md#enrollmentfailurereasons).
 
 ## <a name="1808"></a>1808
 _Выпущено в августе 2018 г._
@@ -36,9 +43,9 @@ _Выпущено в августе 2018 г._
 
 Теперь вы можете использовать версию 1.0 хранилища данных Intune, задав параметр запроса `api-version=v1.0`. Обновления коллекций в хранилище данных носят аддитивный характер и не нарушают существующие сценарии.
 
-### <a name="enrollment-failure-collection-released-to-beta"></a>Выпущена бета-версия коллекции Enrollment Failure
+### <a name="enrollment-activities-collection-released-to-beta"></a>Выпущена бета-версия коллекции действий по регистрации
 
-Выпущена бета-версия новой коллекции `Enrollment Failure`. С помощью этой коллекции можно отслеживать обработку своей регистрации, просмотрев наиболее распространенные сбои. 
+Выпущена бета-версия новой коллекции `Enrollment Activities`. С помощью этой коллекции можно отслеживать обработку своей регистрации, просмотрев наиболее распространенные сбои. 
 
 
 ## <a name="1805"></a>1805

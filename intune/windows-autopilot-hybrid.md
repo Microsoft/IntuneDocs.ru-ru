@@ -16,18 +16,15 @@ ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 9de47f996706255c072926524860cfcc833e8b8b
-ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
+ms.openlocfilehash: f6a78c6612f98903fcbaa9d33b8037c5ea4a3960
+ms.sourcegitcommit: 2ff19c09a43c63556d082966727674120b516d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53642563"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54149667"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-using-intune-and-windows-autopilot-preview"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot (предварительная версия)
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory. Для этого выполните действия, описанные ниже.
-
-> [!NOTE]
-> Эта функция станет доступна для пользователей через несколько дней. Вы, возможно, не сможете выполнить эту процедуру, пока функция не будет развернута в вашей учетной записи.
 
 ## <a name="prerequisites"></a>Предварительные условия
 
@@ -204,7 +201,7 @@ ms.locfileid: "53642563"
    - **Описание** Введите описание профиля.
    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
    - **Тип профиля**. Выберите **Присоединение к домену (предварительная версия)**.
-3. Выберите **Параметры** и укажите **Префикс имени компьютера**, **Доменное имя** и **Подразделение** в формате DN (необязательно). 
+3. Выберите **Параметры** и укажите **Префикс имени компьютера**, **Доменное имя** и (необязательно) **Подразделение** в [формате DN](https://docs.microsoft.com/windows/desktop/ad/object-names-and-identities#distinguished-name). 
 4. Нажмите кнопки **ОК**  >  **Создать**. Созданный профиль отобразится в списке.
 5. Чтобы назначить профиль, следуйте инструкциям в разделе [Назначение профиля устройства](device-profile-assign.md#assign-a-device-profile). 
 

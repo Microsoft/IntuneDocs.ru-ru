@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 08/28/2018
+ms.date: 12/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,27 +15,28 @@ ms.reviewer: heenamac
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 6bc6f5d2f32ff060eb2eec568b0048628ad0e09c
-ms.sourcegitcommit: 349ab913932547b4a7491181f0aff092f109b87b
+ms.openlocfilehash: cb6e3f0a9f62348d55b5dc2284c1007ea7faf088
+ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "52303861"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "54203218"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 ## <a name="create-the-profile"></a>Создание профиля
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы** и найдите **Microsoft Intune**.
 
-2. В **Microsoft Intune** выберите **Конфигурация устройства** и нажмите **Профили**. Затем нажмите **Создать профиль**.
+1. На [портале Azure](https://portal.azure.com) выберите **Все службы** > отфильтруйте список по **Intune** > выберите **Intune**.
+
+2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 
 3. Укажите следующие свойства.
 
-   - **Имя.** Введите описательное имя для нового профиля.
-   - **Описание.** Введите описание профиля. (Этот шаг является необязательным, но рекомендуемым.)
-   - **Платформа.** Выберите тип платформы:  
+   - **Имя**. Введите описательное имя для нового профиля.
+   - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
+   - **Платформа**. Выберите тип платформы:  
 
        - **Android**
        - **Android для бизнеса**
@@ -45,8 +46,8 @@ ms.locfileid: "52303861"
        - **Windows 8.1 и более поздние версии**
        - **Windows 10 и более поздних версий**.
 
-   - **Тип профиля.** Выберите тип создаваемого профиля. Список зависит от выбранной платформы.
-   - **Параметры.** Параметры каждого типа профиля описаны в следующих статьях.
+   - **Тип профиля**. Выберите тип создаваемого профиля. Список зависит от выбранной платформы.
+   - **Параметры**: Параметры каждого типа профиля описаны в следующих статьях:
 
        -  [Возможности устройств](device-features-configure.md)
        -  [Ограничения устройств](device-restrictions-configure.md)

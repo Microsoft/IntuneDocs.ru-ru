@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 755e836c5954b9cbbf3c7729755aaa25062710d8
-ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
+ms.openlocfilehash: ec170727b8846caae3e96cc19be8d1e274c17427
+ms.sourcegitcommit: 513c59a23ca5dfa80a3ba6fc84068503a4158757
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53642597"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54210743"
 ---
 # <a name="manually-add-the-windows-10-company-portal-app-by-using-microsoft-intune"></a>Добавление приложения "Корпоративный портал" для Windows 10 вручную с помощью Microsoft Intune
 
@@ -47,7 +47,7 @@ ms.locfileid: "53642597"
 5. Выберите **Все устройства Windows 10** в разделе **Платформа** и настройте параметры **Минимальная версия**, **Архитектура** и **Download app metadata** (Скачать метаданные приложения). 
 6. Выберите **Скачать**, чтобы сохранить файл на локальный компьютер.
 
-    ![Пакет с платформой "Все устройства Windows 10" и архитектурой X86, выбранный для скачивания](./media/Win10CP-all-devices.png)
+    ![Выбраны устройства с Windows 10, где архитектура — X86](./media/Win10CP-all-devices.png)
 
 7. Скачайте все пакеты в группе "Необходимые платформы", выбрав **Скачать**.  
     Это нужно сделать для архитектур x86, x64 и ARM — всего 12 пакетов.

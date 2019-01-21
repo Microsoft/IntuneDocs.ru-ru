@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 3599146aaebc2e3788fa96e8e04657ce4db41c4f
-ms.sourcegitcommit: bf1549eb59adc31ead8601e40253a7024b22853c
+ms.openlocfilehash: cc7e61d7b5dd0d7ff16836602b8d959683a971e7
+ms.sourcegitcommit: 513c59a23ca5dfa80a3ba6fc84068503a4158757
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2019
-ms.locfileid: "54067454"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54210726"
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Создание отчета из веб-канала OData с помощью Power BI
 
@@ -89,7 +89,7 @@ ms.locfileid: "54067454"
 
 На диаграмме "дерево" данные упорядочены иерархически в виде полей в полях. Каждая ветвь иерархии представляет собой поле, которое содержит поля меньшего размера, представляющие подветви. С помощью Power BI Desktop можно создать дерево данных Intune.
 
-![Визуализации > Диаграмма дерева](media/reports-create-03-treemap.png)
+![Визуализация диаграммы дерева в Power BI](media/reports-create-03-treemap.png)
 
 1. Выберите тип диаграммы. Выберите **Диаграмма дерева**.
 2. В модели данных найдите таблицу **devices**.

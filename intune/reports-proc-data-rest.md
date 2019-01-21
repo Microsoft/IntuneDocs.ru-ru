@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/11/2018
+ms.date: 01/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 893e20652af68ec7f33c733376252a937f9584dc
-ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
+ms.openlocfilehash: f587fdf7c1690dbb0a31388a9c70b780179e541e
+ms.sourcegitcommit: 513c59a23ca5dfa80a3ba6fc84068503a4158757
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53642886"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54210879"
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 
@@ -47,7 +47,7 @@ ms.locfileid: "53642886"
     3.  В поле **URL-адрес входа** введите URL-адрес. URL-адрес входа будет зависеть от конкретного сценария, но если вы планируете использовать Postman, введите `https://www.getpostman.com/oauth2/callback`. На этапе проверки подлинности в Azure AD вы будете использовать обратный вызов клиента.
 4.  Выберите **Создать**.
 
-     ![API хранилища данных Intune](./media/reports-get_rest_data_client_overview.png)
+     ![Клиентское приложение хранилища данных Intune](./media/reports-get_rest_data_client_overview.png)
 
 5. Запомните значение в поле **Идентификатор приложения**. Оно потребуется в следующем разделе.
 
@@ -134,7 +134,7 @@ ms.locfileid: "53642886"
 
 12. Выберите **Request Token** (Запросить токен).
 
-    ![Сведения для токена](./media/reports-postman_getnewtoken.png)
+    ![Сведения для токена доступа](./media/reports-postman_getnewtoken.png)
 
 13. Введите свои учетные данные на странице авторизации Active AD. Теперь список токенов в Postman содержит токен с именем `Bearer`.
 14. Выберите элемент **Use Token** (Использовать токен). Список заголовков содержит новое значение ключа авторизации и значение `Bearer <your-authorization-token>`.
@@ -144,7 +144,7 @@ ms.locfileid: "53642886"
 1.  Выберите **Отправить**.
 2.  Возвращаемые данные отобразятся в тексте ответа Postman.
 
-    ![Postman 200 OK](./media/reports-postman_200OK.png)
+    ![Состояние клиента postman равно 200 OK](./media/reports-postman_200OK.png)
 
 ## <a name="create-a-rest-client-c-to-get-data-from-the-intune-data-warehouse"></a>Создание клиента REST (C#) для получение данных из хранилища данных Intune
 
@@ -161,7 +161,7 @@ ms.locfileid: "53642886"
 6. Нажмите кнопку **Принимаю**, чтобы принять условия лицензии для пакета NuGet.
 7. Откройте `Program.cs` в обозревателе решений.
 
-    ![Проект в Visual Studio](./media/reports-get_rest_data_in.png)
+    ![Progam.cs и обозреватель решений в Visual Studio](./media/reports-get_rest_data_in.png)
 
 8. Замените код в Program.cs на следующий код:  
    ```csharp

@@ -1,35 +1,40 @@
 ---
-title: Подписывание и шифрование электронной почты S/MIME в Azure | Документы Майкрософт
-description: Используйте или включите S/MIME для подписывания и шифрования сообщений электронной почты в Microsoft Intune
+title: Подписывание и шифрование электронной почты с помощью S/MIME — Microsoft Intune — Azure | Документация Майкрософт
+description: Узнайте, как цифровые сертификаты электронной почты в Microsoft Intune используются для подписывания и шифрования сообщений электронной почты на устройствах. Эти сертификаты называются S/MIME и настраиваются с помощью профилей конфигурации устройств. Сертификаты подписывания и шифрования используют PKCS или закрытые сертификаты и соединитель для импорта сертификатов.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 08/21/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
-ms.openlocfilehash: eaa85870b289bb3b65ce997d8610324f43d69452
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.custom: intune-azure; seodec18
+ms.openlocfilehash: 0339be98bf045d280912bf88e88b5ba544b0a1f4
+ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52185650"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "54203133"
 ---
-# <a name="smime-email-signing-and-encryption-in-intune"></a>Подписывание и шифрование электронной почты S/MIME в Intune
+# <a name="smime-overview-to-sign-and-encrypt-email-in-intune"></a>Общие сведения об S/MIME для подписывания и шифрования электронной почты в Intune
 
-> [!IMPORTANT]
-> Мы вносим некоторые улучшения в функцию S/MIME, описанную в этой статье. Поэтому функция S/MIME временно удалена из Intune. Когда функция будет выпущена, мы удалим это примечание.
+Сертификаты электронной почты, также известные как сертификаты S/MIME, призваны обеспечивать дополнительную безопасность ваших сообщений электронной почты с помощью шифрования и расшифровки. Microsoft Intune может использовать сертификаты S/MIME для подписывания и шифрования сообщений электронной почты для мобильных устройств под управлением следующих платформ:
 
-S/MIME обеспечивает дополнительный уровень безопасности для сообщений электронной почты с помощью шифрования и расшифровки. Microsoft Intune может использовать S/MIME для подписывания и шифрования сообщений электронной почты для мобильных устройств под управлением iOS, Windows, Windows Phone, Android и macOS.
+- Android
+- iOS
+- macOS
+- Windows 10 и более поздней версии
+- Windows Phone
 
 На устройствах iOS можно создать профиль электронной почты под управлением Intune, который использует S/MIME и сертификаты для подписывания и шифрования входящих и исходящих сообщений электронной почты. Для других платформ S/MIME может поддерживаться или не поддерживаться. Если S/MIME поддерживается, можно установить сертификаты, использующие подписывание и шифрование S/MIME. Затем пользователь может включить S/MIME в своем приложении электронной почты.
 
-Дополнительные сведения о подписывании и шифровании электронной почты S/MIME см. в разделе [S/MIME для подписывания и шифрования сообщений](https://docs.microsoft.com/Exchange/policy-and-compliance/smime).
+Дополнительные сведения о подписывании и шифровании электронной почты S/MIME с Exchange см. в разделе [S/MIME для подписывания и шифрования сообщений](https://docs.microsoft.com/Exchange/policy-and-compliance/smime).
+
+В этой статье описывается использование сертификатов S/MIME для подписывания и шифрования сообщений электронной почты на устройствах.
 
 ## <a name="signing-certificates"></a>Сертификаты для подписи
 
@@ -71,3 +76,10 @@ S/MIME обеспечивает дополнительный уровень бе
 ## <a name="smime-email-profiles"></a>Профили электронной почты S/MIME
 
 После создания профилей сертификатов подписывания и шифрования S/MIME вы можете [включить S/MIME для собственной почты iOS](email-settings-ios.md).
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+- [Использование сертификатов SCEP](certificates-scep-configure.md)
+- [Использование сертификатов PKCS](certficates-pfx-configure.md)
+- [Использование партнерского ЦС](certificate-authority-add-scep-overview.md)
+- [Выпуск сертификатов PKCS из веб-службы диспетчера PKI Symantec](certificates-symantec-configure.md)

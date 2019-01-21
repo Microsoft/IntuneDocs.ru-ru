@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/06/2018
+ms.date: 12/18/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
-ms.openlocfilehash: 062adf12f743fdbbe42c1f29e91f2a16414ca457
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.openlocfilehash: 721d3a26e25c14a2e4ccd20b179ae7d4611d3186
+ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032271"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "54203388"
 ---
 # <a name="manage-and-use-different-device-management-features-on-windows-holographic-and-hololens-devices-with-intune"></a>Администрирование и использование различных возможностей управления устройствами Windows Holographic и HoloLens с помощью Intune
 
@@ -123,6 +123,11 @@ C помощью OMA-URI в профилях настраиваются неко
 #### <a name="configure-wi-fiwi-fi-settings-configuremd"></a>[Настройка Wi-Fi](wi-fi-settings-configure.md)
 
 В Intune можно также создать профиль Wi-Fi для назначения параметров беспроводной сети устройствам Windows Holographic for Business. При назначении профиля Wi-Fi конечные пользователи получают доступ к корпоративной сети без настройки сети. Например, можно создать сеть Wi-Fi, предназначенную только для устройств с Windows Holographic for Business.
+
+## <a name="shared-multi-user-devices"></a>Общие устройства для множества пользователей
+[Общие устройства](shared-user-device-settings-windows-holographic.md)
+
+Устройства с Windows Holographic for Business, такие как Microsoft HoloLens, поддерживают несколько пользователей. Intune содержит параметры для управления различными функциями на этих общих устройствах, такие как управление питанием, с помощью локального хранилища и управления учетными записями. Профили конфигурации могут также применяться к устройствам с разными операционными системами. Например, в одной и той же группе устройств могут быть устройства под управлением RS2 и RS3.
 
 ## <a name="software-updates"></a>Обновления программного обеспечения
 **[Управление обновлениями программного обеспечения](windows-update-for-business-configure.md)**
