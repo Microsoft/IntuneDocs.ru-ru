@@ -16,12 +16,12 @@ ms.reviewer: owenyen
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
-ms.openlocfilehash: 81f84c2e645a9a6a20ff901239117b562a26b0aa
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 9d6c894e30b050ec6e824e1e77d0c476d4dc15bc
+ms.sourcegitcommit: 2ff19c09a43c63556d082966727674120b516d10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186653"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54149633"
 ---
 # <a name="manage-user-device-linking-for-windows-pcs"></a>Управление связыванием пользователей и устройств с компьютерами под управлением Windows
 
@@ -43,13 +43,13 @@ ms.locfileid: "52186653"
 
    - Чтобы оставить компьютер связанным с его текущим пользователем (если таковой существует), нажмите кнопку **Отмена**.
 
-   - Чтобы удалить связь с текущим пользователем (при его наличии), выберите <strong>Удалить связь**&gt; **OК</strong>.
+   - Чтобы удалить связь с текущим пользователем (при его наличии), выберите команды <strong>Удалить связь**&gt;** OК</strong>.
 
    - Чтобы связать компьютер с новым пользователем, в списке **Все пользователи** выберите пользователя. Убедитесь в том, что указаны правильные данные пользователя, и нажмите кнопку **ОК**.
 
 > [!TIP]
 > Если вы хотите ограничить возможность пользователей связываться с компьютерами, включите параметр **Ограничить возможность пользователей связываться с компьютерами** в политике **Параметры агента Microsoft Intune**.
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)
