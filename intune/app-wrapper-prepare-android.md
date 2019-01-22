@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: e9d3b82fb544b1c73671438440b108573343795a
-ms.sourcegitcommit: 874d9a00cc4666920069d54f99c6c2e687fa34a6
+ms.openlocfilehash: e7b60ecbf2a9a110b68807f8d1dce4db21f8f61d
+ms.sourcegitcommit: 912aee714432c4a1e8efeee253ca2be4f972adaa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53324911"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54316922"
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -148,40 +148,7 @@ invoke-AppWrappingTool -InputPath .\app\HelloWorld.apk -OutputPath .\app_wrapped
 
 -   Обеспечьте безопасность выходного каталога, содержащего упакованное приложение. Рассмотрите возможность использования каталога уровня пользователя в качестве выходного каталога.
 
-## <a name="requiring-user-login-prompt-for-an-automatic-app-we-service-enrollment-requiring-intune-app-protection-policies-in-order-to-use-your-wrapped-android-lob-app-and-enabling-adal-sso-optional"></a>Настройка обязательного входа пользователя в систему для автоматической регистрации в службе APP-WE, настройка обязательного применения политик защиты приложений Intune для использования упакованного бизнес-приложения Android и включение единого входа ADAL (необязательно)
-
-Ниже приводятся указания по настройке обязательного запроса учетных данных пользователя при запуске приложения для автоматической регистрации в службе APP-WE (в этом разделе она называется **регистрацией по умолчанию**) и настройке политик защиты приложений Intune таким образом, чтобы они разрешали использование упакованного бизнес-приложения Android только пользователям, защищенным Intune. В нем также рассматривается включение единого входа для упакованного бизнес-приложения Android. 
-
-> [!NOTE] 
-> Преимущества **регистрации по умолчанию** включают в себя упрощенный способ получения политики из службы APP-WE для приложения на устройстве.
-
-### <a name="general-requirements"></a>Общие требования
-* Команда SDK Intune запросит идентификатор вашего приложения. Узнать его можно на [портале Azure](https://portal.azure.com/) на странице **Все приложения** в столбце **ИД приложения**. Связаться с командой SDK Intune можно по электронной почте: msintuneappsdk@microsoft.com.
-     
-### <a name="working-with-the-intune-sdk"></a>Работа с пакетом SDK Intune
-Эти инструкции относятся ко всем приложениям для Android и Xamarin, которые нуждаются в обязательном применении политик защиты устройств Intune на устройстве конечного пользователя.
-
-1. Настройте ADAL, выполнив инструкции в [руководство по пакету SDK Intune для Android](https://docs.microsoft.com/intune/app-sdk-android#configure-azure-active-directory-authentication-library-adal).
-
-> [!NOTE]
-> Под идентификатором клиента, привязанным к приложению, понимается идентификатор приложения на портале Azure. 
-> * Чтобы включить единый вход, обратитесь к подразделу 2 в разделе "Распространенные конфигурации ADAL".
-
-2. Включите регистрацию по умолчанию, добавив в манифест следующее значение:
-   ```xml
-   <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />
-   ```
-   > [!NOTE] 
-   > Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager могут возникнуть конфликты.
-
-3. Включите требуемую политику MAM, добавив в манифест следующее значение:
-   ```xml
-   <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
-   ```
-   > [!NOTE] 
-   > В результате пользователю будет необходимо скачать приложение корпоративного портала на устройстве и пройти процедуру регистрации по умолчанию перед использованием.
-
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 - [Выбор способа подготовки приложений для управления мобильными приложениями с помощью Microsoft Intune](apps-prepare-mobile-application-management.md)
 
 - [Руководство по пакету SDK для приложений Intune для разработчиков под Android](app-sdk-android.md)
