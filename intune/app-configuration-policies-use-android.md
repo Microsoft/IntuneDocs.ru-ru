@@ -16,12 +16,12 @@ ms.reviewer: chrisbal
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 4b76625276a34c027ae8c74f1c6a3977c4a7e8bd
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: db6aed3d87b8a8df55c5c95e52eb3dd9ccc690a7
+ms.sourcegitcommit: 911923e9fe0eed52b1c93e400f776956835e582f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52179955"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54386970"
 ---
 # <a name="add-app-configuration-policies-for-managed-android-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android
 
@@ -62,13 +62,17 @@ ms.locfileid: "52179955"
 ### <a name="supported-variables-for-configuration-values"></a>Поддерживаемые переменные для значений конфигурации
 
 Если в качестве типа значения вы останавливаетесь на переменной, можно выбрать следующие параметры.
-- Имя субъекта-пользователя, например **John@contoso.com**
-- Электронная почта, например **John@contoso.com**
-- Частичное имя субъекта-пользователя, например **John**
-- Идентификатор учетной записи, например **fc0dc142-71d8-4b12-bbea-bae2a8514c81**
-- Идентификатор устройства, например **b9841cd9-9843-405f-be28-b2265c59ef97**
-- Идентификатор пользователя, например **3ec2c00f-b125-4519-acf0-302ac3761822**
-- Имя пользователя, например **John Doe**
+
+| Параметр | Пример |
+|----|----|
+| Mail | john@contoso.com |
+| Имя субъекта-пользователя | john@contoso.com |
+| Частичное имя участника-пользователя | john |
+| Домен | contoso.com |
+| Имя пользователя | John Doe |
+| Идентификатор учетной записи | fc0dc142-71d8-4b12-bbea-bae2a8514c81 |
+| ИД пользователя | 3ec2c00f-b125-4519-acf0-302ac3761822 |
+| Идентификатор устройства | b9841cd9-9843-405f-be28-b2265c59ef97 |
 
 ### <a name="allow-only-configured-organization-accounts-in-multi-identity-apps"></a>Разрешение использовать только настроенные учетные записи организации в приложениях с несколькими удостоверениями 
 

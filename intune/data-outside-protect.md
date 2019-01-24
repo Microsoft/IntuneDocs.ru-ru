@@ -16,12 +16,12 @@ ms.reviewer: pchacon
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: d8ae737ee11f176c036382fbe77122ecebb722d2
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: a6048ebd793b1325e3a3320e388135bc63cda2cf
+ms.sourcegitcommit: 1f544172299f0990e1e13cebf3830b8c0511d6ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52190019"
+ms.lasthandoff: 01/21/2019
+ms.locfileid: "54418165"
 ---
 # <a name="prevent-unauthorized-access-to-company-data-using-microsoft-intune"></a>Предотвращение несанкционированного доступа к корпоративным данным с помощью Microsoft Intune
 
@@ -48,5 +48,5 @@ ms.locfileid: "52190019"
 
 В рамках следующей процедуры вы узнаете о других способах повышения безопасности данных компании, включая: 
 
-* Узнайте, как использовать [Azure Information Protection на устройствах iOS и Android](https://docs.microsoft.com/information-protection/rms-client/mobile-app-faq.
+* Узнайте, как использовать [Azure Information Protection на устройствах c iOS и Android](https://docs.microsoft.com/information-protection/rms-client/mobile-app-faq).
 * Если вы используете устройства Mac и Windows Phone, прочитайте о [приложении для управления доступом Microsoft Rights Management](https://technet.microsoft.com/dn451248).

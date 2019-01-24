@@ -14,12 +14,12 @@ ms.assetid: 47181d19-4049-4c7a-a8de-422206c4027e
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 8b5f86a8f0d9beaef9e55d2281e3500e0c298a16
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 2992dbfef4c51b8550e748bde453c85070b6910b
+ms.sourcegitcommit: 1f544172299f0990e1e13cebf3830b8c0511d6ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52182404"
+ms.lasthandoff: 01/21/2019
+ms.locfileid: "54418182"
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Сброс или удаление секретного кода устройства с помощью Intune
 
@@ -55,7 +55,8 @@ ms.locfileid: "52182404"
 
 ## <a name="reset-a-passcode"></a>Сброс секретного кода
 
-1. Войдите на [портал Azure](https://portal.azure.com).
+
+1. Войдите на [портал Azure](https://portal.azure.com) с любой из следующих ролей: глобальный администратор Azure Active Directory, администратор службы Intune в Azure Active Directory, оператор справочной службы или администратор ролей. Полный список ролей и разрешений см. в разделе [Таблица RBAC Intune](https://gallery.technet.microsoft.com/Intune-RBAC-table-2e3c9a1a).
 2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
 3. Выберите **Устройства**, а затем — **Все устройства**.
 4. Выберите нужное устройство в списке управляемых устройств и щелкните **Дополнительно**. Затем выберите удаленное действие **Удалить секретный код**.

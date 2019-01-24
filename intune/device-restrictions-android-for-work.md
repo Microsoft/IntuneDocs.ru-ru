@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
-ms.openlocfilehash: 671c713be805038c7c2f2608dbadd9d8afdce344
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.openlocfilehash: 62c44768f17ecc82dc748eb4dfda74da421ee3b5
+ms.sourcegitcommit: 911923e9fe0eed52b1c93e400f776956835e582f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54203609"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54387015"
 ---
 # <a name="android-enterprise-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Android Enterprise, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -87,7 +87,7 @@ ms.locfileid: "54203609"
 
 ### <a name="kiosk-settings"></a>Параметры киоска
 
-Устройство можно настроить на запуск одного или нескольких приложений. Когда устройство находится в режиме киоска, доступны только добавляемые вами приложения.
+Устройство можно настроить на запуск одного или нескольких приложений. Когда устройство находится в режиме киоска, доступны только добавляемые вами приложения. Эти параметры применяются к выделенным устройствам с Android, но не к полностью управляемым выделенным устройствам с Android.
 
 **Режим киоска**. Укажите, сколько приложений должно выполняться на устройстве, — одно или несколько.
 

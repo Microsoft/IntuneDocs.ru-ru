@@ -16,12 +16,12 @@ ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: f6a78c6612f98903fcbaa9d33b8037c5ea4a3960
-ms.sourcegitcommit: 2ff19c09a43c63556d082966727674120b516d10
+ms.openlocfilehash: f81875afffa461e036bc319febc9a6141967c440
+ms.sourcegitcommit: 8e3a20b2ad59d3a6789ee81b9cbe6d2c711da11d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54149667"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380467"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-using-intune-and-windows-autopilot-preview"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot (предварительная версия)
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory. Для этого выполните действия, описанные ниже.
@@ -116,6 +116,9 @@ ms.locfileid: "54149667"
 6. Выберите **Вход**.
 7. Войдите как глобальный администратор или администратор Intune.
 8. Откройте раздел **Регистрация устройств** > **Регистрация Windows** > **Соединитель Intune для Active Directory (предварительная версия)** и убедитесь, что указано состояние подключения **Активно**.
+
+ > [!NOTE]
+ > После того как вы **войдете** на соединитель, его отображение в [Intune](https://aka.ms/intuneportal) может занять несколько минут. Имейте в виду, что соединитель будет показываться, только если он может успешно взаимодействовать со службой Intune.
 
 ### <a name="configure-web-proxy-settings"></a>Настройка параметров веб-прокси
 

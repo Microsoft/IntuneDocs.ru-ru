@@ -15,12 +15,12 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
-ms.openlocfilehash: a698d7a57c59a27dbd39036b1e2607e80570029f
-ms.sourcegitcommit: 513c59a23ca5dfa80a3ba6fc84068503a4158757
+ms.openlocfilehash: 65a461928c377dd4a674f8f3f2eeeef148ab56b2
+ms.sourcegitcommit: 912aee714432c4a1e8efeee253ca2be4f972adaa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54210777"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54316905"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -113,12 +113,10 @@ ms.locfileid: "54210777"
 
 1.  Добавьте [пакет NuGet Microsoft.Intune.MAM.Remapper.Tasks](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) в свой проект. При этом привязки пакета SDK для приложений Xamarin будут добавлены автоматически (если вы еще их не включили).
 
-2.  Добавьте вызов `Xamarin.Forms.Forms.Init(Context, Bundle)` в функцию `OnMAMCreate` класса `MAMApplication`, созданного в шаге 2.2 выше. Это необходимо, так как благодаря функции управления Intune ваше приложение запускается в фоновом режиме.
+2.  Добавьте вызов `Xamarin.Forms.Forms.Init(Context, Bundle)` в функцию `OnMAMActivity` класса `MAMApplication`, созданного в шаге 2.2 выше. Это необходимо, так как благодаря функции управления Intune ваше приложение запускается в фоновом режиме.
 
 > [!NOTE]
 > Так как эта операция переписывает зависимость, используемую Visual Studio для автоматического завершения IntelliSense, может потребоваться перезапустить Visual Studio после первого запуска модуля повторного сопоставления для получения данных IntelliSense, чтобы изменения были распознаны правильно. 
-
-Вы завершили основные этапы встраивания компонента в приложение. Теперь можно выполнить действия, включенные в пример приложения Android Xamarin. Мы предоставили два примера: один для Xamarin.Forms, а другой — для Android.
 
 ## <a name="requiring-intune-app-protection-policies-in-order-to-use-your-xamarin-based-android-lob-app-optional"></a>Требование по применению политик для защиты приложений Intune при использовании бизнес-приложений Android на базе Xamarin (необязательно) 
 
@@ -144,8 +142,14 @@ ms.locfileid: "54210777"
 Эти инструкции относятся ко всем приложениям для .NET и Xamarin, которые нуждаются в обязательном применении политик защиты приложений Intune на устройстве конечного пользователя.
 
 1. Выполните все действия, описанные в документации по ADAL в разделе о [проверки подлинности для Android через брокер](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/tree/dev/adal#brokered-authentication-for-android).
-> [!NOTE] 
-> Ожидается, что в следующей выпускаемой версии .NET ADAL (3.17.4) будет представлено исправление, необходимое для использования этой возможности.
+
+## <a name="potential-compilation-errors"></a>Потенциальные ошибки компиляции
+Ниже перечислены некоторые ошибки компиляции, возникающие наиболее часто при разработке приложения на основе Xamarin.
+
+* [Ошибка компилятора CS0239](https://docs.microsoft.com/en-us/dotnet/csharp/misc/cs0239). Эта ошибка обычно возникает в этой форме ``'MainActivity.OnCreate(Bundle)': cannot override inherited member 'MAMAppCompatActivityBase.OnCreate(Bundle)' because it is sealed``.
+Когда remapper изменяет наследование классов Xamarin, некоторые функции станут `sealed` и для переопределения вместо этого добавляется новый вариант MAM. Просто переименуйте свои переопределения, как описано [здесь](https://docs.microsoft.com/en-us/intune/app-sdk-android#renamed-methods). Так, `MainActivity.OnCreate()` будет переименован в `MainActivity.OnMAMCreate()`
+
+* [Ошибка компилятора CS0507](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0507). Эта ошибка обычно возникает в этой форме ``'MyActivity.OnRequestPermissionsResult()' cannot change access modifiers when overriding 'public' inherited member ...``. По мере изменения порядка наследования некоторых классов Xamarin средством remapper некоторые функции-члены будут изменены на `public`. Если переопределить какую-либо из этих функций, может также потребоваться изменить эти переопределения на `public`.
 
 ## <a name="support"></a>Support
 Если ваша организация является существующим клиентом Intune, обратитесь к представителю службы поддержки Майкрософт, чтобы отправить запрос в службу поддержки Майкрософт и разместить сведения о проблеме на [соответствующей странице GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues), и мы ответим вам сразу же, как только сможем. 
