@@ -389,6 +389,11 @@ items:
             href: mtd-connector-enable.md
       - name: ATP в Защитнике Windows
         href: advanced-threat-protection.md
+      - name: Базовые конфигурации безопасности
+        href: security-baselines.md
+        items:
+        - name: Мониторинг базовых показателей
+          href: security-baselines-monitor.md
       - name: Защита конечных точек
         href: endpoint-protection-configure.md
     - name: Управление доступом к сети
@@ -442,7 +447,7 @@ items:
           items:
           - name: Ручное добавление приложения "Корпоративный портал"
             href: store-apps-company-portal-app.md
-        - name: Приложения рабочего профиля Android
+        - name: Управляемые приложения Google Play
           href: apps-add-android-for-work.md
         - name: Приложения Office 365 для Windows 10
           href: apps-add-office365.md
@@ -569,6 +574,8 @@ items:
         href: troubleshoot-app-install.md
       - name: Журналы аудита для действий Intune
         href: monitor-audit-logs.md
+      - name: Просмотр журналов с помощью Azure Monitor
+        href: review-logs-using-azure-monitor.md
       - name: Просмотрите журналы защиты приложений
         href: app-protection-policy-settings-log.md
       - name: Устранение неполадок, связанных с профилями электронной почты
@@ -938,9 +945,9 @@ items:
       href: data-outside-protect.md
     - name: Предотвращение утечки данных на неуправляемых устройствах
       href: data-leak-prevention.md
-ms.openlocfilehash: 79bff18a23b6613fbc1e2522b6fd7c6c414ffef5
-ms.sourcegitcommit: a30d4b699df4bff17ef39d6c93b2a5c5432db5ae
+ms.openlocfilehash: 70240d3c6969ffe86d3b32b14b50b390020b10b0
+ms.sourcegitcommit: 06f62ae989da6c60bac4a52ccd41b429f7367d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899133"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55072496"
