@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
-ms.openlocfilehash: 721d3a26e25c14a2e4ccd20b179ae7d4611d3186
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.openlocfilehash: df91908f3d3be7be23e3cecfa83e2d92b656b91e
+ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54203388"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54831604"
 ---
 # <a name="manage-and-use-different-device-management-features-on-windows-holographic-and-hololens-devices-with-intune"></a>Администрирование и использование различных возможностей управления устройствами Windows Holographic и HoloLens с помощью Intune
 
@@ -108,7 +108,7 @@ C помощью OMA-URI в профилях настраиваются неко
 
 Чтобы настроить параметры OMA-URI (Open Mobile Alliance Uniform Resource Identifier), создайте пользовательский профиль в Intune. Используйте параметры OMA-URI для управления различными функциями на устройствах Windows Holographic for Business, такими как включение VPN и проверка наличия обновлений в Центре обновления Майкрософт.
 
-#### <a name="configure-kiosk-modekiosk-settingsmdwindows-holographic-for-business"></a>[Настройка режима киоска](kiosk-settings.md#windows-holographic-for-business)
+#### <a name="configure-kiosk-modekiosk-settings-holographicmd"></a>[Настройка режима киоска](kiosk-settings-holographic.md)
 
 Используя функции общего или гостевого компьютера, доступные в Intune, можно настроить в Windows Holographic for Business запуск от имени в режиме терминала устройства (киоска). Такие устройства позволяют запускать одно приложение (полноэкранный режим одного приложения) или несколько приложений (режим киоска с несколькими приложениями).
 

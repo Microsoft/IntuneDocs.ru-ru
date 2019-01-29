@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/06/2018
+ms.date: 01/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: cdac4623c6c5c9e7258897e1536856e6b24492ea
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.openlocfilehash: 8479e69d661b163778a4d0b4eb1f68e729436f4e
+ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032016"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54831502"
 ---
 # <a name="windows-holographic-for-business-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Windows Holographic for Business, разрешающие или ограничивающие функции с помощью Intune
 
@@ -28,7 +28,7 @@ ms.locfileid: "53032016"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-[Создайте профиль конфигурации устройства](device-restrictions-configure.md).
+[Создайте профиль конфигурации устройства](device-restrictions-configure.md#create-the-profile).
 
 ## <a name="general"></a>Общие
 
@@ -79,7 +79,7 @@ ms.locfileid: "53032016"
 
 ## <a name="kiosk---obsolete"></a>Киоск — устаревший
 
-Эти параметры доступны только для чтения и не могут быть изменены. Сведения о настройке режима киоска см. в разделе [Параметры киоска](kiosk-settings.md#windows-holographic-for-business).
+Эти параметры доступны только для чтения и не могут быть изменены. Сведения о настройке режима киоска см. в разделе [Параметры киоска](kiosk-settings-holographic.md).
 
 Как правило, на устройстве для киоска работает определенное приложение. Пользователи не могут получить доступ к компонентам или функциям на устройстве вне приложения киоска.
 
@@ -104,3 +104,7 @@ ms.locfileid: "53032016"
 ## <a name="reporting-and-telemetry"></a>Отчетность и телеметрия
 
 - **Публикация данных об использовании**. Выберите уровень отправки данных диагностики.
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+[Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).

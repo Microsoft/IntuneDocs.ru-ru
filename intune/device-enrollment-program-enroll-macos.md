@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 2bd9b244947f5f0b8fcb832682951c7a241f96a4
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.openlocfilehash: 91d85182ccb51968915511d6d1941a350e3a9695
+ms.sourcegitcommit: 06f62ae989da6c60bac4a52ccd41b429f7367d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032356"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55068294"
 ---
 # <a name="automatically-enroll-macos-devices-with-the-device-enrollment-program-or-apple-school-manager"></a>Автоматическая регистрация устройств с macOS с помощью Программы регистрации устройств или Apple School Manager
 
@@ -150,7 +150,7 @@ ms.locfileid: "53032356"
     | <strong>FileVault</strong> | Предоставлять пользователю возможность настройки шифрования FileVault. |
     | <strong>Диагностика iCloud</strong> | Предоставлять пользователю возможность отправлять диагностические данные iCloud в Apple. |
     | <strong>Регистрация</strong>| Требовать от пользователя зарегистрировать устройство. |
-
+    
    
 
 10. Нажмите кнопку **ОК**.

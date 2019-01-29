@@ -15,12 +15,12 @@ ms.assetid: 6f67fcd2-5682-4f9c-8d74-d4ab69dc978c
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: 73caf328bd25cb31bacea6b964c1db7601f3aec6
-ms.sourcegitcommit: baacdb2c5ee69d0055acad2d64f2bf1a3fc5e02d
+ms.openlocfilehash: a94722c4f4a1d199e32f6ba0c56ca4bdb2b3b09b
+ms.sourcegitcommit: 6f2f2fa70f4e47fa5ad2f3c536ba7116e1bd1d05
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53570814"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55199461"
 ---
 # <a name="what-is-device-enrollment"></a>Что такое регистрация устройств?
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -106,9 +106,6 @@ Intune позволяет управлять устройствами и при�
 
 - [Выбор способа регистрации устройств iOS](enrollment-method-choose-ios.md).
 - [Enroll iOS devices with Apple Configurator and direct enrollment](apple-configurator-direct-enroll-ios.md) (Регистрация устройств iOS с использованием Apple Configurator и прямой регистрации).
-
-## <a name="mobile-device-management-with-exchange-activesync-and-intune"></a>Управление мобильными устройствами с помощью Exchange ActiveSync и Intune
-Мобильные устройства, которые не зарегистрированы, но подключены к Exchange ActiveSync, могут управляться службой Intune с помощью политики управления мобильными устройствами Exchange ActiveSync. Intune использует соединитель Exchange для взаимодействия с локальной или размещенной в облаке службой Exchange ActiveSync. Дополнительные сведения ожидаются в ближайшее время.
 
 ## <a name="mobile-device-cleanup-after-mdm-certificate-expiration"></a>Очистка мобильного устройства после окончания срока действия сертификата MDM
 
