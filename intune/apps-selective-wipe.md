@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/10/2019
+ms.date: 01/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: cd6ac0b1fdb64897a831c0111f7e0a611c85bede
-ms.sourcegitcommit: 513c59a23ca5dfa80a3ba6fc84068503a4158757
+ms.openlocfilehash: 51d1c477f490cb23c35ef54a0a5099ee4b4b035b
+ms.sourcegitcommit: 06f62ae989da6c60bac4a52ccd41b429f7367d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54210709"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55068260"
 ---
 # <a name="how-to-wipe-only-corporate-data-from-intune-managed-apps"></a>Очистка только корпоративных данных в приложениях, управляемых с помощью Intune
 
@@ -36,6 +36,9 @@ ms.locfileid: "54210709"
 
 >[!IMPORTANT]
 > Контакты, синхронизированные напрямую из приложения в собственную адресную книгу, удаляются. Контакты, синхронизированные из собственной адресной книги в другой внешний источник, нельзя очистить. Сейчас это касается только приложения Microsoft Outlook.
+
+## <a name="deployed-wip-policies-without-user-enrollment"></a>Использование развернутых политик WIP без регистрации пользователей
+Политики Windows Information Protection (WIP) можно развертывать без необходимости регистрировать пользовательские устройства Windows 10. Такая конфигурация позволяет компаниям защищать корпоративные документы на основе конфигурации WIP, при этом пользователь может управлять собственными устройствами Windows. Администратор Intune может выполнять выборочную очистку данных в документах, защищенных с помощью политики WIP. После выбора пользователя и устройства и отправки запроса на очистку все данные, которые были защищены с помощью политики WIP, станут непригодными для использования. В Intune на портале Azure выберите **Клиентское приложение** > **Выборочная очистка приложений**. Дополнительные сведения см. в статье [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](windows-information-protection-policy-create.md).
 
 ## <a name="create-a-wipe-request"></a>Создание запроса на очистку
 

@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 11b241a14ed70a2e999fa505449cd12cdd1e025e
-ms.sourcegitcommit: ecd6aebe50b1440a282dfdda771e37fbb8750d42
+ms.openlocfilehash: 7ab60e64927db5537a106c1257a5624670771f86
+ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2018
-ms.locfileid: "52728792"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54831417"
 ---
 # <a name="configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений устройств в Microsoft Intune
 
@@ -32,7 +32,7 @@ ms.locfileid: "52728792"
 
 Ознакомьтесь с основами профиля ограничения устройств, а затем прочитайте статьи об особенностях каждой платформы.
 
-## <a name="create-a-device-profile-containing-device-restriction-settings"></a>Создание профиля устройства с параметрами ограничения для устройства
+## <a name="create-the-profile"></a>Создание профиля
 
 1. На [портале Azure](https://portal.azure.com) выберите **Все службы** > отфильтруйте список по **Intune** > выберите **Intune**.
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
@@ -48,7 +48,7 @@ ms.locfileid: "52728792"
     - **Windows 10 и более поздних версий**.
 
 5. В раскрывающемся списке **Профиль** выберите **Ограничения устройства**. Если вы хотите создать профиль ограничений для устройств Windows 10 для совместной работы, например Surface Hub, выберите **Ограничения для устройств (Windows 10 для совместной работы)**.
-6. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Выберите параметры, связанные с платформой:
+6. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Выберите платформу для настройки дополнительных параметров:
 
     - [Параметры Android](device-restrictions-android.md)
     - [Параметры Android для бизнеса](device-restrictions-android-for-work.md)
@@ -60,13 +60,13 @@ ms.locfileid: "52728792"
     - [Параметры Windows 10 для совместной работы](device-restrictions-windows-10-teams.md)
     - [Параметры Windows Holographic for Business](device-restrictions-windows-holographic.md)
 
-7. По завершении вернитесь к панели **Создать профиль** и выберите **Создать**.
+7. По завершении нажмите **ОК** > **Создать**, чтобы сохранить изменения.
 
-Созданный профиль отобразится на странице со списком профилей. 
+Созданный профиль отобразится в списке профилей.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
-Созданный профиль готов к назначению. См. дополнительные сведения о [назначении профилей устройств](device-profile-assign.md). 
+Созданный профиль готов к назначению. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
 <!--  Removing image as part of design review; retaining source until we known the disposition.
 

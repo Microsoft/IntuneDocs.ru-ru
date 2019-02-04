@@ -16,12 +16,12 @@ ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: f81875afffa461e036bc319febc9a6141967c440
-ms.sourcegitcommit: 8e3a20b2ad59d3a6789ee81b9cbe6d2c711da11d
+ms.openlocfilehash: 171e994be67a24e351b242967c8af934272da356
+ms.sourcegitcommit: 17f58d35a6bdff3e179662f3731fc74d39144470
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54380467"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "55105176"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-using-intune-and-windows-autopilot-preview"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot (предварительная версия)
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory. Для этого выполните действия, описанные ниже.
@@ -106,7 +106,7 @@ ms.locfileid: "54380467"
 
 ## <a name="install-the-intune-connector"></a>Установка соединителя Intune
 
-Соединитель Intune для Active Directory должен быть установлен на компьютере под управлением Windows Server 2016, который имеет доступ к Интернету и Active Directory. Для повышения масштабируемости и доступности или поддержки нескольких доменов Active Directory можно установить несколько соединителей в среде. Мы рекомендуем установить соединитель на сервере, на котором не выполняются другие соединители Intune.
+Соединитель Intune для Active Directory должен быть установлен на компьютере под управлением Windows Server 2016 (или более поздних версий), который имеет доступ к Интернету и Active Directory. Для повышения масштабируемости и доступности или поддержки нескольких доменов Active Directory можно установить несколько соединителей в среде. Мы рекомендуем установить соединитель на сервере, на котором не выполняются другие соединители Intune.
 
 1. Убедитесь, что языковой пакет установлен и настроен, как описано в списке [требований к языкам соединителя Intune (предварительная версия)](https://docs.microsoft.com/windows/deployment/windows-autopilot/intune-connector).
 2. В [Intune](https://aka.ms/intuneportal) выберите **Регистрация устройств** > **Регистрация Windows** > **Соединитель Intune для Active Directory (предварительная версия)** > **Добавить соединитель**. 
@@ -114,7 +114,7 @@ ms.locfileid: "54380467"
 4. Откройте загруженный файл установки соединителя, чтобы установить соединитель (ODJConnectorBootstrapper.exe).
 5. В конце установки выберите **Настройка**.
 6. Выберите **Вход**.
-7. Войдите как глобальный администратор или администратор Intune.
+7. Войдите как глобальный администратор или администратор Intune. Учетной записи пользователя должна быть назначена лицензия Intune.
 8. Откройте раздел **Регистрация устройств** > **Регистрация Windows** > **Соединитель Intune для Active Directory (предварительная версия)** и убедитесь, что указано состояние подключения **Активно**.
 
  > [!NOTE]

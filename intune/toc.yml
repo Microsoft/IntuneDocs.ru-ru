@@ -231,19 +231,19 @@ items:
       href: troubleshoot-device-enrollment-in-intune.md
   - name: Задание соответствия устройства требованиям
     items:
-    - name: Общие сведения о соответствии устройств
+    - name: Общие сведения о соответствии
       href: device-compliance-get-started.md
-    - name: Создание политики Android
+    - name: Соответствие для Android
       href: compliance-policy-create-android.md
-    - name: Создание политики корпоративного профиля Android
+    - name: Соответствие Android для бизнеса
       href: compliance-policy-create-android-for-work.md
-    - name: Создание политики для поддержки Google Play Защиты
+    - name: Включение Google Play Protect
       href: compliance-policy-create-google-play-protect.md
-    - name: Создание политики iOS
+    - name: Соответствие для iOS
       href: compliance-policy-create-ios.md
-    - name: Создание политики Windows
+    - name: Соответствие для Windows
       href: compliance-policy-create-windows.md
-    - name: Политика на основе расположения
+    - name: Соответствие по расположению
       href: use-network-locations.md
     - name: Оценка политики
       href: policy-evaluate.md
@@ -251,39 +251,39 @@ items:
       href: actions-for-noncompliance.md
     - name: Мониторинг устройств на соответствие требованиям
       href: compliance-policy-monitor.md
-  - name: Настройка устройств
+  - name: Настройка параметров устройств
     items:
-    - name: Настройка устройств с помощью профилей
+    - name: Обзор конфигурации устройств
       href: device-profiles.md
     - name: Профили устройств
       href: device-profile-create.md
     - name: Административные шаблоны
       href: administrative-templates-windows.md
-    - name: Возможности устройств (iOS и macOS)
+    - name: Возможности устройств
       href: device-features-configure.md
-    - name: Ограничения устройств
+    - name: Ограничение параметров и возможностей устройств
       href: device-restrictions-configure.md
-    - name: Оптимизация доставки
+    - name: Доставка обновлений
       href: delivery-optimization-windows.md
-    - name: Обновление выпуска и переключение режима
+    - name: Обновление выпусков и S-режим
       href: edition-upgrade-configure-windows-10.md
-    - name: Параметры электронной почты
+    - name: Настройка электронной почты
       href: email-settings-configure.md
-    - name: Параметры киоска
+    - name: Режим киоска
       href: kiosk-settings.md
-    - name: Параметры VPN
+    - name: Добавление VPN
       href: vpn-settings-configure.md
       items:
       - name: VPN на уровне приложения в Android
         href: android-pulse-secure-per-app-vpn.md
       - name: VPN на уровне приложения в iOS
         href: vpn-setting-configure-per-app.md
-    - name: Параметры Wi-Fi
+    - name: Добавление беспроводной сети Wi-Fi
       href: wi-fi-settings-configure.md
       items:
       - name: Wi-Fi с общим ключом
         href: wi-fi-profile-shared-key.md
-    - name: Параметры образования
+    - name: Приложение "Тестирование" для образования
       href: education-settings-configure.md
     - name: Общие устройства для множества пользователей
       href: shared-user-device-settings.md
@@ -295,7 +295,7 @@ items:
       href: device-profile-assign.md
     - name: Мониторинг профилей
       href: device-profile-monitor.md
-    - name: Устранение неполадок с профилями
+    - name: Частые вопросы и ответы
       href: device-profile-troubleshoot.md
   - name: Защита данных устройства
     items:
@@ -854,6 +854,8 @@ items:
       items:
       - name: Справочник по API Intune
         href: https://developer.microsoft.com/graph/docs/api-reference/beta/resources/intune_graph_overview
+    - name: API Graph, используемые в конфигурации устройств
+      href: graph-apis-used-by-intune-device-configuration-windows.md
 - name: Ресурсы
   items:
   - name: Руководство по документации Microsoft Intune
@@ -949,9 +951,9 @@ items:
       href: data-outside-protect.md
     - name: Предотвращение утечки данных на неуправляемых устройствах
       href: data-leak-prevention.md
-ms.openlocfilehash: 9ba87d149285aea0e39e790f7e620bba52bb47bd
-ms.sourcegitcommit: 36e41b5164a72bf54c80a9f5ad054f77b0e8c07e
+ms.openlocfilehash: 456d3f4205ca9e24c4358c97a3a2f6a33d1a421f
+ms.sourcegitcommit: 4a1ac07efd66b45c1435649bcd7215adbd84898f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55504550"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "55645195"

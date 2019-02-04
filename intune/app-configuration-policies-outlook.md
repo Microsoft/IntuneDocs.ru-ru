@@ -6,7 +6,7 @@ author: Erikre
 ms.author: erikre
 ms.reviewer: smithre4
 manager: dougeby
-ms.date: 10/04/2018
+ms.date: 01/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 691029cc7b9fd8880c5440a84b95bbf2462920d6
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: 433d15d91bc32ef409c9a89c4d71cacb7478e74d
+ms.sourcegitcommit: 06f62ae989da6c60bac4a52ccd41b429f7367d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180329"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55068311"
 ---
 # <a name="microsoft-outlook-configuration-settings"></a>Параметры конфигурации Microsoft Outlook 
 
@@ -29,18 +29,9 @@ ms.locfileid: "52180329"
 
 ## <a name="configuration-settings"></a>Параметры конфигурации
 
-При добавлении политики конфигурации в Intune можно задать определенные параметры для настройки Microsoft Outlook. В панели **Параметры конфигурации** области можно задать конфигурацию учетной записи электронной почты.
+При добавлении политики конфигурации в Intune можно задать определенные параметры для настройки Microsoft Outlook в iOS и Android. В области "Параметры конфигурации" можно задать конфигурацию учетной записи электронной почты и настроить параметры с учетом приложения. Кроме того, можно настроить эти параметры и (или) использовать пары "имя — значение".
 
-### <a name="basic-authentication-email-account-settings"></a>Настройки учетной записи электронной почты для базовой проверки подлинности
-В Outlook для iOS и Android администраторам Exchange предоставляется возможность передавать конфигурации учетных записей методом "push" локальным пользователям, использующим базовую проверку подлинности с протоколом ActiveSync. Дополнительные сведения см. в статье [Account setup in Outlook for iOS and Android using Basic authentication](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/account-setup) (Настройка учетной записи в Outlook для iOS и Android с использованием обычной проверки подлинности). Чтобы включить настройку учетной записи, настройте следующие параметры:
-
-- **Сервер электронной почты**. Введите имя узла локального сервера Exchange (например, mail.contoso.com).
-- **Имя учетной записи электронной почты**. Введите отображаемое имя для учетной записи электронной почты. Это имя пользователи видят на своих устройствах.
-- **Атрибут имени пользователя из AAD**. Это имя является атрибутом, который Intune получает из Azure Active Directory (Azure AAD). Intune динамически формирует имя пользователя, которое используется для этого профиля. Доступные варианты:
-  - **Имя участника-пользователя**. Получает имя, например `user1` или `user1@contoso.com`
-  - **Основной SMTP-адрес**. Получает имя в формате адреса электронной почты, например `user1@contoso.com`
-- **Атрибут адреса электронной почты из AAD**. Выберите, как создается адрес электронной почты для пользователя. Выберите **Имя участника-пользователя** (`user1@contoso.com` или `user1`) для использования полного имени участника в качестве адреса электронной почты или **Первичный SMTP-адрес** (`user1@contoso.com`), чтобы использовать первичный SMTP-адрес для входа в Exchange. Рекомендуется выбрать **Основной SMTP-адрес**.
-- **Домен учетной записи**. Необязательный домен учетной записи.
+См. дополнительные сведения о настройке учетной записи Outlook и инструкции для устройств iOS и Android в Microsoft Intune см. в руководстве по [развертыванию параметров конфигурации Outlook для iOS и Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-configuration-with-microsoft-intune).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 [Настройка параметров электронной почты в Intune](email-settings-configure.md)

@@ -16,12 +16,12 @@ ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: eb369d8e89ff41e75d5bd669819afbe98b6d1ba7
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.openlocfilehash: be348840df2e1d7864b0c1c57efbb7abcb698392
+ms.sourcegitcommit: 6f2f2fa70f4e47fa5ad2f3c536ba7116e1bd1d05
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53031846"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55199393"
 ---
 # <a name="enroll-devices-in-intune-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств в Intune с помощью учетной записи диспетчера регистрации устройств
 
@@ -36,6 +36,7 @@ ms.locfileid: "53031846"
   - Учетные записи DEM не могут использовать приложения, доступные в рамках программы Apple Volume Purchase Program (VPP) с пользовательскими лицензиями Apple VPP, так как требования Apple ID к управлению приложениями допускают только устройства с одним владельцем.
   - Приложения по программе VPP можно устанавливать на устройствах, имеющих лицензии на устройство Apple VPP.
   - Устройства заблокированы для условного доступа, за исключением Windows 10 версии 1803 и выше
+  - Для каждого устройства, зарегистрированного с учетной записью DEM, требуется лицензия устройства Intune.
 
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств

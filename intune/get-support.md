@@ -15,12 +15,12 @@ ms.reviewer: cacamp
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 11bcf3742270a3f32919b133efdc2ab3f0c4d2d1
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.openlocfilehash: 87d25fa76b3d2716099178ca428c8032fd99886c
+ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54203354"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54831638"
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
@@ -42,7 +42,7 @@ ms.locfileid: "54203354"
 
 ## <a name="help-and-support-experience"></a>Интерфейс справки и поддержки
 > [!TIP]   
-> В январе 2019 г. новый интерфейс справки и поддержки станет доступен для всех клиентов. Если клиент еще не содержит этот новый интерфейс, можно найти сведения для предыдущих версий в статье о [работе с интерфейсом справки и поддержки Azure](#azure-help-+-support-experience).  
+> Новый интерфейс справки и поддержки доступен для всех клиентов. Если вы не видите этот новый интерфейс в клиенте, очистите кэш браузера и перезагрузите страницу.
 
 Справка и поддержка для Intune доступна с [портала управления устройствами Microsoft 365](http://devicemanagement.microsoft.com) и из всех колонок (или страниц) в Intune на портале Azure. 
 

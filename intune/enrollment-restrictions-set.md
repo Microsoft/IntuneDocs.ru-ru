@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: a8ebe8f8cd84ef5eb38bf7e17f413bcc6a0791cd
-ms.sourcegitcommit: c84e1845b854704c4b048832e365dd381c7f3754
+ms.openlocfilehash: bd282a6b23f33b11cbd046cac4f791d6d675e365
+ms.sourcegitcommit: 9739a9aab032ebb2c4b52ccfb454a9e0f78b2ee4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54122554"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54751218"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -100,7 +100,7 @@ ms.locfileid: "54122554"
 - Устройство регистрируется с помощью Windows AutoPilot, но для него не задан параметр "Регистрация только в MDM" из параметров Windows.
 - Номер IMEI устройства указан в списке **Регистрация устройств** > **[Идентификаторы корпоративных устройств](corporate-identifiers-add.md)**. (Не поддерживается для Windows Phone 8.1.)
 - Устройство регистрируется с помощью [пакета массовой подготовки](windows-bulk-enroll.md).
-- Устройство регистрируется с помощью [автоматической регистрации из SCCM для совместного управления](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview#how-to-configure-co-management.md).
+- Устройство регистрируется с помощью GPO или [автоматической регистрации из SCCM для совместного управления](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview#how-to-configure-co-management.md).
  
 Следующие регистрации помечаются Intune как корпоративные, однако поскольку они не предоставляют администратору Intune контроль на уровне устройств, они будут заблокированы:
  - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory во время настройки Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-frx)\*.

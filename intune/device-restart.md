@@ -14,12 +14,12 @@ ms.assetid: c707e0c4-391a-4bad-9dfd-9a7799c48dd5
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: aa16e180b016ec142ecca5644b7f93fb088d15f5
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.openlocfilehash: f814abc4d47517c17e24a188c7efb5da771bc328
+ms.sourcegitcommit: 06f62ae989da6c60bac4a52ccd41b429f7367d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184309"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55068277"
 ---
 # <a name="remotely-restart-devices-with-intune"></a>Удаленный перезапуск устройств с помощью Intune
 
@@ -32,7 +32,7 @@ ms.locfileid: "52184309"
 
 - Windows — поддерживается в Windows 8.1 и более поздних версиях
 - Windows Phone — поддерживается в Windows Phone 8.1 и более поздних версиях
-- Киоски Android — поддерживается
+- Киоски Android — поддерживается в Android 7.0 и более поздних версиях
 - iOS — поддерживается
 
     > [!Note]  
