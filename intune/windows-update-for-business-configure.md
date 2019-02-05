@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 01/15/2019
+ms.date: 02/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.reviewer: coryfe
 ms.suite: ems
 search.appverid: MET150
-ms.openlocfilehash: d0fcb021545d96fe8f5bfdf742dd4d181c91fb1a
-ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
+ms.openlocfilehash: 184f70aefbdc90c301ef2f97c5a3abb5ac49a4a8
+ms.sourcegitcommit: 12f8b7f0bca1baa2c1f68dd6af4f16a4814daa11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54831570"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "55737491"
 ---
 # <a name="manage-software-updates-in-intune"></a>Управление обновлениями программного обеспечения в Intune
 
@@ -167,7 +167,7 @@ ms.locfileid: "54831570"
 > После подачи команды приостановки устройства получат эту команду при следующей регистрации в службе. Не исключено, что перед регистрацией они могут установить запланированное обновление.
 > Кроме того, если в момент подачи команды приостановки целевое устройство выключено, то при включении оно может скачать и установить запланированное обновление до регистрации в Intune.
 
-### <a name="uninstall-the-latest-from-windows-10-software-updates"></a>Удаление последних обновлений ПО Windows 10 
+## <a name="uninstall-the-latest-from-windows-10-software-updates"></a>Удаление последних обновлений ПО Windows 10 
 При возникновении критической ошибки на компьютерах с Windows 10 вы можете удалить (откатить) последнее обновление компонентов или исправление. Удаление обновления компонентов или исправления доступно только для канала обслуживания устройства. В результате обновления политика восстанавливает предыдущее обновление на компьютерах с Windows 10. Для обновлений компонентов можно ограничить время, в течение которого можно удалить последнюю версию, периодом от 2 до 60 дней. Задание параметров для удаления обновления программного обеспечения:
 
 1. В Intune выберите **Обновления программного обеспечения**.

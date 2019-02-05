@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/09/2019
+ms.date: 01/29/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
-ms.openlocfilehash: bc28bca31c43140a7bca528655825bab60c53be1
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.openlocfilehash: cf2bfbc992d4577e345b73f07ec465990feac317
+ms.sourcegitcommit: 0142020a7cd75348c6367facf072ed94238e667f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54203524"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55229990"
 ---
 # <a name="apply-features-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров функций на устройствах с помощью профилей устройств в Microsoft Intune
 
@@ -123,7 +123,7 @@ Microsoft Intune включает параметры и функции, кото
 - Android для бизнеса
 - iOS
 - macOS
-- Windows 10
+- Windows 10 и более поздней версии
 - Windows 10 для совместной работы
 
 ## <a name="delivery-optimization"></a>Оптимизация доставки
@@ -174,7 +174,7 @@ Microsoft Intune включает параметры и функции, кото
 - Android
 - iOS
 - Windows Phone 8.1
-- Windows 10
+- Windows 10 и более поздней версии
 
 ## <a name="vpn"></a>VPN
 
@@ -189,7 +189,7 @@ Microsoft Intune включает параметры и функции, кото
 - macOS
 - Windows Phone 8.1
 - Windows 8.1
-- Windows 10
+- Windows 10 и более поздней версии
 
 ## <a name="wi-fi"></a>Wi-Fi
 
@@ -201,6 +201,7 @@ Microsoft Intune включает параметры и функции, кото
 - iOS
 - macOS
 - Windows 8.1 (только импорт)
+- Windows 10 и более поздней версии
 
 ## <a name="esim-cellular---public-preview"></a>Сотовая связь eSIM (общедоступная предварительная версия)
 
@@ -241,7 +242,7 @@ Microsoft Intune включает параметры и функции, кото
 - iOS
 - Windows Phone 8.1
 - Windows 8.1
-- Windows 10
+- Windows 10 и более поздней версии
 
 ## <a name="windows-information-protection-profile"></a>Профиль Windows Information Protection
 
