@@ -699,6 +699,10 @@ items:
           href: wi-fi-settings-macos.md
         - name: Особые настройки
           href: custom-settings-macos.md
+    - name: Базовые конфигурации безопасности
+      items:
+      - name: Базовые конфигурации безопасности Windows
+        href: security-baseline-settings-windows.md
     - name: Windows 10 и более поздней версии
       items:
       - name: Параметры политики соответствия
@@ -951,9 +955,9 @@ items:
       href: data-outside-protect.md
     - name: Предотвращение утечки данных на неуправляемых устройствах
       href: data-leak-prevention.md
-ms.openlocfilehash: 456d3f4205ca9e24c4358c97a3a2f6a33d1a421f
-ms.sourcegitcommit: 4a1ac07efd66b45c1435649bcd7215adbd84898f
+ms.openlocfilehash: cb54a7f48a96684c98ed73584adf4acc57a19f56
+ms.sourcegitcommit: dde9e1e1d15c412751a186410c2a04974ff1b102
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "55645195"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "55690790"

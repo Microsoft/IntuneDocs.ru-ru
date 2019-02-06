@@ -98,8 +98,8 @@
 ##### [Использование SandBlast Mobile Protect](you-need-to-resolve-a-threat-found-by-checkpoint-ios.md)
 ##### [Использование Zimperium zIPS](you-need-to-resolve-a-threat-found-by-zips-ios.md)
 
-## [Использование устройства с macOS](using-your-macos-device-with-intune.md)
-### [Что происходит при регистрации устройства с macOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
+## Использование вашего устройства macOS
+### [Что происходит при регистрации устройства macOS?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
 ### [Регистрация устройства macOS](enroll-your-device-in-intune-macos-cp.md)
 ### [Регистрация устройства macOS, предоставленного организацией](enroll-company-device-macos.md)  
 ### [Отмена регистрации устройства с macOS](unenroll-your-device-from-intune-macos.md)  
