@@ -154,7 +154,7 @@ ms.locfileid: "54297287"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-[How to create and assign app protection policies](app-protection-policies.md) (Как создавать и назначать политики защиты приложений с помощью Microsoft Intune)
+[Как создавать и назначать политики защиты приложений с помощью Microsoft Intune](app-protection-policies.md)
 
 ## <a name="see-also"></a>См. также
 Сторонние приложения, например мобильное приложение Salesforce, работают с Intune особым образом для защиты корпоративных данных. Дополнительные сведения о том, как приложения Salesforce работает с Intune (включая описание параметров конфигурации приложений MDM) см. в статье [Salesforce App and Microsoft Intune](https://gallery.technet.microsoft.com/Salesforce-App-and-Intune-c47d44ee/file/188000/1/Salesforce%20App%20and%20Intune%20for%20external.pdf) (Приложение Salesforce и Microsoft Intune).
