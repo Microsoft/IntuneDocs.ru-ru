@@ -15,12 +15,13 @@ ms.reviewer: pmay
 ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
-ms.openlocfilehash: ed87f9d2554972a0affd9c93eca1804c460e6144
-ms.sourcegitcommit: d3b1e3fffd3e0229292768c7ef634be71e4736ae
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 021c2e1e86219310eb34c4bba54d903246dbf28e
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52860985"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55835034"
 ---
 # <a name="what-is-microsoft-intune"></a>Что такое Microsoft Intune?
 

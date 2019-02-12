@@ -15,12 +15,13 @@ ms.reviewer: muhosabe
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: aab8208865fb072170a670d1da25e7f02448c38f
-ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 1d29399b4aaecbee06118e2331c1f0911d7c8caa
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53642869"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55842479"
 ---
 # <a name="add-a-device-compliance-policy-for-android-enterprise-devices-in-intune"></a>Создание политики соответствия требованиям для устройств Android для бизнеса в Intune
 

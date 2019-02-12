@@ -16,14 +16,15 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 83371d14215eb9ed2298796279d232ffbc7d129f
-ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 7fbe3371d86d02247922c87680605c9ea3a1f4df
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53817047"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55845845"
 ---
-# <a name="quickstart-create-an-email-device-profile-for-ios"></a>Быстрый запуск: Создание профиля электронной почты устройства для iOS
+# <a name="quickstart-create-an-email-device-profile-for-ios"></a>Краткое руководство. Создание профиля электронной почты устройства для iOS
 
 В этом кратком руководстве вы создадите профиль электронной почты для устройств iOS. Этот профиль задает параметры, которые требуются для встроенного почтового приложения на устройстве iOS для подключения к корпоративной электронной почте. Профили электронной почты устройств позволяют стандартизировать параметры на всех устройствах, а также предоставляют пользователям доступ к электронной почте компании с личных устройств без дополнительных настроек с их стороны. Для дополнительной защиты электронной почты можно использовать профиль, чтобы определять соответствующие устройства и настраивать условный доступ, разрешающий им обращаться к электронной почте. Дополнительные сведения о профилях электронной почты см. в статье [Настройка параметров электронной почты в Microsoft Intune](email-settings-configure.md).
 

@@ -16,12 +16,13 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; seodec18
-ms.openlocfilehash: a6329a44f1ccfa55025ad558fe2f277a41293538
-ms.sourcegitcommit: 0f19bc5c76b7c0835bfd180459f2bbd128eec1c2
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: b9fdd1891f8a0e893d61ac3a0b40dac5a01f602c
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53266908"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55851344"
 ---
 # <a name="reference-for-current-user-entity"></a>Справочник по сущности текущего пользователя
 
@@ -37,7 +38,7 @@ ms.locfileid: "53266908"
 | UserKey |Уникальный идентификатор пользователя в хранилище данных — суррогатный ключ. |123 |
 | UserId |Уникальный идентификатор пользователя — аналогичен UserKey, но является естественным ключом. |b66bc706-ffff-7437-0340-032819502773 |
 | UserEmail |Адрес электронной почты пользователя. |John@constoso.com |
-| имя участника-пользователя | Имя участника-пользователя (UPN). | John@constoso.com |
+| Имя участника-пользователя | Имя участника-пользователя (UPN). | John@constoso.com |
 | DisplayName |Отображаемое имя пользователя. |Виталий |
 | IntuneLicensed |Указывает, имеет ли этот пользователь лицензию Intune. |Истина/ложь |
 | StartDateInclusiveUTC |Дата и время (в формате UTC) создания этого пользователя в хранилище данных. |23/11/2016 12:00:00 |

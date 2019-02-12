@@ -15,12 +15,13 @@ ms.assetid: 127dafcb-3f30-4745-a561-f62c9f095907
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: ed996ec17ab0c8144286eeed0a87f07b35da2969
-ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 8b4f35dba38dd1b69f770a3a10689ce87eaf3a27
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53817064"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55840405"
 ---
 # <a name="create-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated"></a>Создание политики условного доступа к локальной организации Exchange и устаревшей версии выделенной среды Exchange Online
 
@@ -80,9 +81,9 @@ ms.locfileid: "53817064"
 
 1. Вы увидите **панель мониторинга Azure**.
 
-1. Выберите  **Все службы**  в меню слева и введите  **Intune**  в текстовое поле фильтра.
+1. Выберите **Все службы** в меню слева и введите **Intune** в текстовое поле фильтра.
 
-1. Выберите  **Intune**. Отобразится **панель мониторинга Intune**.
+1. Выберите **Intune**, и тогда отобразится **панель мониторинга Intune**.
 
 1. Выберите **Локальный доступ**. На панели **Локальный доступ** отображается состояние политики условного доступа и устройств, к которым она применена.
 

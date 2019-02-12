@@ -13,12 +13,13 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: cd605542a0711e27f87d68af51662fd318f3250e
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: b2d0bde56c6622648d47fe47458bdac62d7843ca
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184885"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55838467"
 ---
 # <a name="create-vpn-profiles-in-intune"></a>Создание профилей VPN в Intune
 
@@ -56,7 +57,7 @@ ms.locfileid: "52184885"
 |L2TP|Нет|Нет|Нет|Нет|Нет|Да|
 |PPTP|Нет|Нет|Нет|Нет|Нет|Да|
 |Zscaler|Нет|Да|Нет|Нет|Нет|Нет|
-|Пользовательская сеть VPN|Нет|да|Да|Нет|Нет|Нет|
+|Пользовательская сеть VPN|Нет|Да|Да|Нет|Нет|Нет|
 
 > [!IMPORTANT]
 > Перед использованием назначенных устройству профилей VPN необходимо установить приложение VPN, подходящее для профиля. Чтобы назначить приложение с помощью Intune, см. инструкции в статье [Что такое управление приложениями с помощью Microsoft Intune](app-management.md).  

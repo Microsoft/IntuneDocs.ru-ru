@@ -15,12 +15,13 @@ ms.reviewer: erikre
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 1e2b97970a7ab440a032eb29f5307e4dbeddc3bc
-ms.sourcegitcommit: a0db74934433226e28ffdf5d92930dafd2feceae
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 6844fc94755805e95b56d3d457ada6ce54807874
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53306021"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55846457"
 ---
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>Часто задаваемые вопросы об управлении мобильными приложениями (MAM) и защите приложений
 
@@ -192,7 +193,7 @@ Intune может очищать данные приложений тремя с
 - Если лицензия Intune не назначена, обращение происходит каждые 24 часа.
 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 - [План внедрения Intune](planning-guide-onboarding.md)
 - [Тестирование и проверка Intune](planning-guide-test-validation.md)
 - [Параметры политики управления мобильными приложениями Android в Microsoft Intune](app-protection-policy-settings-android.md)

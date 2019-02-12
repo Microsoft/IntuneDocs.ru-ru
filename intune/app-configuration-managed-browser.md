@@ -16,12 +16,13 @@ ms.reviewer: ilwu
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 65f3598282bd46d422f8748d2653dbf8e18cf9b7
-ms.sourcegitcommit: 874d9a00cc4666920069d54f99c6c2e687fa34a6
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 64cd4aa629e980bf69557d6cd2c40f8bee7bd3c6
+ms.sourcegitcommit: c0b954c82cd732b5328f92b618947bf425bf0a91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53324979"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086222"
 ---
 # <a name="manage-internet-access-using-a-microsoft-intune-policy-protected-browser"></a>Управление доступом в Интернет с помощью браузера, защищенного политикой Microsoft Intune
 
@@ -150,9 +151,9 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
 ### <a name="before-you-start"></a>Перед началом работы
 
 - Настройте внутренние приложения через прокси приложения Azure AD.
-    - Чтобы настроить прокси приложения и опубликовать приложения, см. [документацию по установке](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started#get-started). 
+    - Чтобы настроить прокси приложения и опубликовать приложения, см. [документацию по установке](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy). 
 - Версия используемого приложения Managed Browser должна быть 1.2.0 или выше.
-- Пользователям приложения Managed Browser или Microsoft Edge должна быть назначена [политика защиты приложений Intune]( app-protection-policy.md).
+- Пользователям приложения Managed Browser или Microsoft Edge должна быть назначена [политика защиты приложений Intune](app-protection-policy.md).
 
     > [!NOTE]
     > Прежде чем новые данные перенаправления прокси приложения вступят в силу для Managed Browser или Microsoft Edge, может пройти до 24 часов.

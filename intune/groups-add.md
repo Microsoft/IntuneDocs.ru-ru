@@ -16,12 +16,13 @@ ms.reviewer: amyros
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 7a6fffaa0ae35675538d04b91980799d7d8aa80d
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 1dd61edf02e8d5344494129715325250fbfdd7bc
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181298"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55834421"
 ---
 # <a name="add-groups-to-organize-users-and-devices"></a>Добавление групп для организации пользователей и устройств
 Intune использует группы Azure Active Directory (AD) для управления устройствами и пользователями. Как администратор Intune вы можете настраивать группы так, как это нужно для вашей организации. Создавайте группы, чтобы упорядочить пользователей или устройства по географическому расположению, отделу или характеристикам оборудования. Используйте группы для управления задачами в требуемом масштабе. Например, вы можете настроить политики для многих пользователей или развернуть приложения для набора устройств.
@@ -63,6 +64,6 @@ Intune использует группы Azure Active Directory (AD) для уп
 
 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 - [Управление доступом к ресурсам с помощью групп Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-manage-groups)
 - [Классические группы Intune на портале Azure](groups-get-started.md)

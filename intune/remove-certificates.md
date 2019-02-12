@@ -14,12 +14,13 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: f653cd8c7eb0181581d9c21b7f9bc35a008c6df6
-ms.sourcegitcommit: c84e1845b854704c4b048832e365dd381c7f3754
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 82d0bf8abdaf572e28cfcf1547f6fadca7d1e6b0
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54122557"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55834795"
 ---
 # <a name="remove-scep-and-pkcs-certificates-in-microsoft-intune"></a>Удаление сертификатов SCEP и PKCS в Microsoft Intune
 

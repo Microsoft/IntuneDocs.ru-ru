@@ -15,12 +15,13 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: ae001eb4d85a35b587eee4fa04df5f1987b247f7
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 9b008130ec089b99ab64fe0dbbef7ae89b753817
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43149813"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55844196"
 ---
 # <a name="resolve-a-threat-found-by-symantec-endpoint-protection-mobile"></a>Устранение угрозы, обнаруженной Symantec Endpoint Protection Mobile
 

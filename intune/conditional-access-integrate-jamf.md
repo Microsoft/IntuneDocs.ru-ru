@@ -15,12 +15,13 @@ ms.reviewer: elocholi
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 971dc851714045a8a3b60dfe8ff6c6acc4419294
-ms.sourcegitcommit: 7c41f42d6e398ed46aa602ec8aaa4f39aaf92772
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: aa2fe73c0dab855f43daf71e9564f17490fa6366
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54325021"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55847001"
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
 

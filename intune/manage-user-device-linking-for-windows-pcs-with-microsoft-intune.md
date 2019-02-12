@@ -16,12 +16,13 @@ ms.reviewer: owenyen
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
-ms.openlocfilehash: 9d6c894e30b050ec6e824e1e77d0c476d4dc15bc
-ms.sourcegitcommit: 2ff19c09a43c63556d082966727674120b516d10
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 4e74183236063b1f77084a5ae9384f07a618e237
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54149633"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55842139"
 ---
 # <a name="manage-user-device-linking-for-windows-pcs"></a>Управление связыванием пользователей и устройств с компьютерами под управлением Windows
 

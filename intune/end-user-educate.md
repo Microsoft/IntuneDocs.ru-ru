@@ -15,12 +15,13 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
-ms.openlocfilehash: c89a12b0c75f59b2a781ad77c88fe49c513c11a5
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 6789064c0fd12a3d5ed381af0caf1c3906a7fd02
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52182216"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55850817"
 ---
 # <a name="how-to-educate-your-end-users-about-microsoft-intune"></a>Инструкции по использованию Microsoft Intune для конечных пользователей
 

@@ -15,12 +15,13 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 4109c437ae5a096c78c19aef489218cf7286eb01
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: c7178ae7231586e781766adb1fea45b375a76920
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032339"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55842054"
 ---
 # <a name="use-apis-to-add-third-party-cas-for-scep-to-intune"></a>Использование API для добавления сторонних ЦС для SCEP в Intune
 
@@ -298,7 +299,7 @@ void SetSslSocketFactory(
 12. Убедитесь, что свойства установленных сертификатов соответствуют свойствам, заданным в профиле SCEP.
 13. Убедитесь, что выданные сертификаты правильно указаны в консоли Intune.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 - [Обзор добавления сторонних ЦС](certificate-authority-add-scep-overview.md)
 - [Настройка Intune](setup-steps.md)

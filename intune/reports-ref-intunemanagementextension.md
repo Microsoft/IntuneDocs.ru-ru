@@ -16,12 +16,13 @@ ms.reviewer: dariusz
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 48e08b93468fb177fd3a724e5bcc6758cf262e99
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 0df0d97b41933f316db788fd0af09ba75196549b
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52189374"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55836879"
 ---
 # <a name="reference-for-intune-management-extension"></a>Справочник по расширению управления Intune
 
@@ -46,7 +47,7 @@ ms.locfileid: "52189374"
 | Свойство  | Описание | Пример |
 |---------|------------|--------|
 | ExtensionStateKey |Уникальный идентификатор для состояния работоспособности. | 2 |
-| ExtensionState |Состояние работоспособности IntuneManagementExtension. | Healthy |
+| ExtensionState |Состояние работоспособности IntuneManagementExtension. | Работоспособно |
 
 ## <a name="intunemanagementextension"></a>IntuneManagementExtension
 
