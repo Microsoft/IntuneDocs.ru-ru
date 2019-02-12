@@ -13,12 +13,13 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 4336be8d24ac4a81ec6fca09f22d594000bbd9a5
-ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 5611fb75ebf8106e70c1735458ee8b33fec16f7d
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54831399"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55838399"
 ---
 # <a name="android-device-settings-to-configure-email-authentication-and-synchronization-in-intune"></a>Настройка параметров устройств для настройки электронной почты, проверки подлинности и синхронизации в Intune
 
@@ -51,7 +52,7 @@ ms.locfileid: "54831399"
       - **Имя личного домена для использования.** Введите значение, которое Intune использует в качестве доменного имени, например `contoso.com` или `contoso`.
 
 - **Атрибут адреса электронной почты из AAD.** Это имя является атрибутом, который Intune получает из AAD. Intune динамически создает имя пользователя, которое используется для этого профиля. Доступны следующие параметры:
-  - **Имя участника-пользователя.**  В качестве адреса электронной почты используется полное имя субъекта (`user1@contoso.com` или `user1`).
+  - **Имя участника-пользователя**.  В качестве адреса электронной почты используется полное имя субъекта (`user1@contoso.com` или `user1`).
   - **Основной SMTP-адрес**. Для входа в Exchange используется основной SMTP-адрес (`user1@contoso.com`).
 
 - **Метод проверки подлинности.** Выберите **Имя пользователя и пароль** или **Сертификаты** в качестве метода аутентификации, используемого профилем электронной почты.

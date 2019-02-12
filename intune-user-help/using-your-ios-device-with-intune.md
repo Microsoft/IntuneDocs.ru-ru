@@ -17,12 +17,13 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 99570a30130d35a651701749628cd918acf858e0
-ms.sourcegitcommit: a30cfdb3d3f97b6d5943db2d842011a6f60115f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: f9c25166ed9b004cc4e43e777008e33e88983912
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "47864564"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55843499"
 ---
 # <a name="using-your-ios-device-with-intune-company-portal"></a>Использование устройства iOS с Корпоративным порталом Intune
 В этой статье приводятся задачи и сведения, относящиеся к корпоративному порталу для iOS. Используйте их для устранения неполадок устройства iOS и управления им. Щелкните любую ссылку, чтобы просмотреть дополнительные сведения, инструкции и снимки экрана.
