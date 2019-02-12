@@ -16,12 +16,13 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 5735a2059690655a76425b049eff9e26f5ab8179
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: b68ca31b03bb3274d48b185335f956e38e140ae8
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032577"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55848565"
 ---
 # <a name="microsoft-intune-documentation-40ignite-2018-special-edition41"></a>Документация по Microsoft Intune 2018 (специальный выпуск Ignite)
 Добро пожаловать в Microsoft Ignite 2018! Мы рады приветствовать вас. Ознакомьтесь с некоторыми ресурсами по Intune, которые мы предлагаем вашему вниманию.

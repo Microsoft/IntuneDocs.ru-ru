@@ -14,12 +14,13 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 2c4e6041f00ad55b18f8b20996da8002f5ce0247
-ms.sourcegitcommit: fff179f59bd542677cbd4bf3bacc24bb880e2cb6
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: ce08d8c199b6fc680f314141b920ca798137139c
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53032203"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55843567"
 ---
 # <a name="use-custom-settings-for-windows-holographic-for-business-devices-in-intune"></a>Использование настраиваемых параметров для устройств Windows Holographic for Business в Intune
 
@@ -40,14 +41,14 @@ Windows Holographic for Business открывает доступ ко множ
 3. Введите следующие параметры:
 
     - **Имя**: ведите имя профиля, например `hololens custom profile`.
-    - **Описание**: введите описание профиля.
-    - **Платформа**: выберите **Windows 10 и более поздних версий**.
+    - **Описание** Введите описание профиля.
+    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
     - **Тип профиля**: выберите **Настраиваемый**.
 
 4. В разделе **Настраиваемые параметры OMA-URI** выберите **Добавить**. Введите следующие параметры:
 
     - **Имя**: Введите уникальное имя для параметра OMA-URI, чтобы его было проще найти в списке параметров.
-    - **Описание**: введите описание с общими сведениями о параметре и другой важной информацией.
+    - **Описание** введите описание с общими сведениями о параметре и другой важной информацией.
     - **OMA-URI** (с учетом регистра): введите код OMA-URI, для которого нужно указать параметр.
     - **Тип данных**: выберите тип данных для этого параметра OMA-URI. Доступны следующие параметры:
 

@@ -16,12 +16,13 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 58a78cee51a411c940d4510cd8498994c14129f0
-ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: caf4401a2274a74050ec0eb404363cfc15b23e76
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53642750"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55851446"
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Конечная точка API для хранилища данных Intune
 
@@ -76,11 +77,11 @@ URL-адрес содержит следующие элементы:
 
 |                             Filter                             |           Оптимизация производительности           |                                          Описание                                          |
 |:--------------------------------------------------------------:|:--------------------------------------------:|:---------------------------------------------------------------------------------------------:|
-|    `maxhistorydays=7`                                            |    Полная проверка                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180221.                                     |
-|    `$filter=DateKey eq 20180214`                                 |    Полная проверка                                      |    Возврат данных с `DateKey`, равным 20180214.                                                    |
-|    `$filter=DateKey ge 20180214 and DateKey lt 20180221`         |    Полная проверка                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180220.                                     |
+|    `maxhistorydays=7`                                            |    Полная архивация                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180221.                                     |
+|    `$filter=DateKey eq 20180214`                                 |    Полная архивация                                      |    Возврат данных с `DateKey`, равным 20180214.                                                    |
+|    `$filter=DateKey ge 20180214 and DateKey lt 20180221`         |    Полная архивация                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180220.                                     |
 |    `maxhistorydays=7&$filter=Id gt 1`                            |    Частичная, Id gt 1 не оптимизируется    |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180221 при значении Id больше 1.             |
-|    `maxhistorydays=7&$filter=DateKey eq 20180214`                |    Полная проверка                                      |    Возврат данных с `DateKey`, равным 20180214. `maxhistorydays` игнорируется.                            |
+|    `maxhistorydays=7&$filter=DateKey eq 20180214`                |    Полная архивация                                      |    Возврат данных с `DateKey`, равным 20180214. `maxhistorydays` игнорируется.                            |
 |    `$filter=DateKey eq 20180214 and Id gt 1`                     |    Нет                                      |    Не обрабатывается как фильтр диапазона `DateKey`, следовательно, производительность не повышается.                              |
 |    `$filter=DateKey ne 20180214`                                 |    Нет                                      |    Не обрабатывается как фильтр диапазона `DateKey`, следовательно, производительность не повышается.                              |
 |    `maxhistorydays=7&$filter=DateKey eq 20180214 and Id gt 1`    |    Нет                                      |    Не обрабатывается как фильтр диапазона `DateKey`, следовательно, производительность не повышается. `maxhistorydays` игнорируется.    |

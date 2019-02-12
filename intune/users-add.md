@@ -16,12 +16,13 @@ ms.reviewer: dougeby
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
-ms.openlocfilehash: 76721710f266ff5f25dca763d7b6cca561050610
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 01f1102c71aa182a63e395c3ee3be21a134ff0b3
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184579"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55846321"
 ---
 # <a name="add-users-and-grant-administrative-permission-to-intune"></a>Добавление пользователей и предоставление административных разрешений для Intune
 

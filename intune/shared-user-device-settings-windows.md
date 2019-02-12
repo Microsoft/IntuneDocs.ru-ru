@@ -15,12 +15,13 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
-ms.openlocfilehash: fb51ba835491da284ddd304bc038d16862c6dfc1
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 707bb84df55fa202e3dc5241e3d7212039b17b3b
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54205107"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55841748"
 ---
 # <a name="windows-10-and-later-settings-to-manage-shared-devices-using-intune"></a>Параметры Windows 10 (и более поздних версий) для управления общими устройствами с помощью Intune
 

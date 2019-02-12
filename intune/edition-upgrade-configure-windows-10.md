@@ -15,12 +15,13 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 3eea1d1f100515b29dfda3b2297005f61e05ea23
-ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: b1539a1c373126df13ed3e951bb0d4ecae728fd3
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54831621"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55851497"
 ---
 # <a name="upgrade-windows-10-editions-or-enable-s-mode-on-devices-using-microsoft-intune"></a>Обновление устройств Windows 10 или использование S-режима на них с помощью Microsoft Intune
 

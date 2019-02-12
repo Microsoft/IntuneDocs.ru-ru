@@ -16,12 +16,13 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c56a9adca39728a04ac7847ddf7bceccdb9dccfb
-ms.sourcegitcommit: 2d30ec70b85f49a7563adcab864c1be5a63b9947
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: ada708c3ea6f9e8d835b667ac8162037c1de05f9
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "48863071"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55836495"
 ---
 # <a name="lock-your-device-from-the-company-portal-app-for-windows-10"></a>Блокировка устройства из приложения "Корпоративный портал" для Windows 10
 

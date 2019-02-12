@@ -16,12 +16,13 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: ce4689aaecd40d7d44f0064b1e951823fa0bb2c2
-ms.sourcegitcommit: 279f923b1802445e501324a262d14e8bfdddabde
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: b45f8d5b548bd88715381f25ba0b5c3e9155b344
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53738007"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55841799"
 ---
 # <a name="microsoft-intune-data-warehouse-data-model"></a>Модель данных для хранилища данных Microsoft Intune
 

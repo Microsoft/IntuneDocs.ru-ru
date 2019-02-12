@@ -15,12 +15,13 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 0a7f961036eab3b1bf72cc68a44e62f07bdbff6e
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 346e6219c10cc8b90d3bf83170adffa677c6c484
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43147907"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55849012"
 ---
 # <a name="set-or-change-your-passcode"></a>Установка или изменение секретного кода
 

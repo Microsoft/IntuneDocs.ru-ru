@@ -14,12 +14,13 @@ ms.reviewer: joglocke
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 806df8077045a4ad81cb7e221bd053059461a2fd
-ms.sourcegitcommit: 6f2f2fa70f4e47fa5ad2f3c536ba7116e1bd1d05
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: a2a3a9838043d4e9b69c6369da87a6f54087f76c
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55199410"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55850008"
 ---
 # <a name="get-started-with-device-compliance-policies-in-intune"></a>Начало работы с политиками соответствия устройств в Intune
 

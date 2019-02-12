@@ -17,12 +17,13 @@ ROBOTS: ''
 ms.reviewer: maxles
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: c3f1c28fb94823dd3370080c62c0d6f3d0da521e
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 35d77c9aa739096f36f4dbf4b75a4186e55a3381
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54203269"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55835069"
 ---
 # <a name="use-managed-apps-on-your-ios-device"></a>Использование управляемых приложений на устройстве iOS
 

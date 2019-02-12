@@ -15,14 +15,15 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
-ms.openlocfilehash: 5876b0df6787640e465952cb1cca17f4f3105762
-ms.sourcegitcommit: 88f760abcea7348a0c6d00b533b54a6ff68d3985
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: c04dc3169fbf6a60d0c4d7db8358092909e90240
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52977343"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55841827"
 ---
-# <a name="quickstart-enroll-your-windows-10-device"></a>Быстрый запуск: Регистрация устройства с ОС Windows 10
+# <a name="quickstart-enroll-your-windows-10-device"></a>Краткое руководство. Регистрация устройства с ОС Windows 10
 
 В этом кратком руководстве вы возьмете на себя роль пользователя Intune и зарегистрируете устройство Windows 10 в Microsoft Intune. Затем вы вернетесь в Intune и подтвердите зарегистрированное устройство.
 

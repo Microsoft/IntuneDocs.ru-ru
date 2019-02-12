@@ -17,12 +17,13 @@ ROBOTS: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: d5b07262dad3eaab76dd4854b82f0e45b3921b26
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 3ba4ca5ccc9083f2132a8b8893c3bc2070ed3c50
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54203507"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55841340"
 ---
 # <a name="use-managed-apps-on-your-android-device"></a>Использование управляемых приложений на устройстве Android
 Управляемые приложения настраиваются в соответствии с требованиями к безопасности, предъявляемыми вашей организацией, а также для защиты рабочих и учебных данных. Эти приложения предоставляются вам автоматически для установки или использования на устройстве. 

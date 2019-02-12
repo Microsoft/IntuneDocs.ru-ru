@@ -17,12 +17,13 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 50fc19410b280e984c8dc3abe620baad7c3267de
-ms.sourcegitcommit: 604b29c480b24270b5debc3e5f3141c8149ee6ed
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: e7db319586b9375b8c88f177197e2fdf15378ab4
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "49959542"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55847307"
 ---
 # <a name="set-up-ios-device-access-to-your-company-resources"></a>Настройка доступа устройства iOS к ресурсам организации
 

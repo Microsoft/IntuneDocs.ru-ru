@@ -16,12 +16,13 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 52201b68e946ec59b7c70ea5ff735c26728e27ce
-ms.sourcegitcommit: 1c9ef5cfac2fc024528d2cfc9d590fa68dd58080
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 61ec5fbe3504f972085af49e6860f4258cfc9484
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "53429735"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55835271"
 ---
 # <a name="reference-for-user-entity"></a>Справочник по сущности User
 
@@ -38,7 +39,7 @@ ms.locfileid: "53429735"
 | UserKey |Уникальный идентификатор пользователя в хранилище данных — суррогатный ключ. |123 |
 | UserId |Уникальный идентификатор пользователя — аналогичен UserKey, но является естественным ключом. |b66bc706-ffff-7437-0340-032819502773 |
 | UserEmail |Адрес электронной почты пользователя. |John@constoso.com |
-| имя участника-пользователя | Имя участника-пользователя (UPN). | John@constoso.com |
+| Имя участника-пользователя | Имя участника-пользователя (UPN). | John@constoso.com |
 | DisplayName |Отображаемое имя пользователя. |Виталий |
 | IntuneLicensed |Указывает, имеет ли этот пользователь лицензию Intune. |Истина/ложь |
 | IsDeleted | Указывает, истек ли срок действия всех лицензий пользователя и был ли он удален из Intune. При наличии одной записи этот флаг не изменяется. Вместо этого, если пользователь имеет новое состояние, создается другая запись. |Истина/ложь |

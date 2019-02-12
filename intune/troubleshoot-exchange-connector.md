@@ -15,12 +15,13 @@ ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: fecdda5467c83ab12ca921e86259884171e07819
-ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 86c8c7ac68b58191b054351e7adccbd69fafc93c
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53816554"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55843658"
 ---
 # <a name="troubleshoot-the-intune-on-premises-exchange-connector"></a>Устранение неполадок в работе соединителя Intune с локальной организацией Exchange
 

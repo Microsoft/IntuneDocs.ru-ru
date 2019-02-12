@@ -14,12 +14,13 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: be0d80828327550e248d1ed5417b373c273a7a56
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 7f3332b4ec3db4830a3759303acf91e82fc9c131
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184868"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55846542"
 ---
 # <a name="microsoft-intune-windows-10-team-device-restriction-settings"></a>Параметры ограничений для устройств с Windows 10 для совместной работы в Microsoft Intune
 

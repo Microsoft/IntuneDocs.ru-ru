@@ -15,12 +15,13 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: 40d4b2d316320f23b29f1a7a67c529a158a0f7d6
-ms.sourcegitcommit: d92caead1d96151fea529c155bdd7b554a2ca5ac
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 7a3c100b283b5220f065facdf96e25fa32bab7e5
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2018
-ms.locfileid: "48827842"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55837329"
 ---
 # <a name="resolve-a-threat-found-by-a-mobile-threat-defense-app"></a>Устранение угрозы, обнаруженной приложением Mobile Threat Defense
 

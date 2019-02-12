@@ -15,12 +15,13 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: b8694596851c231c4c7d1a8a5edd448a7506f829
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 52adb8b21189e4c0cf39f1b18f95b7ba68ff97f4
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186313"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55833741"
 ---
 # <a name="how-your-ios-users-get-their-apps"></a>Получение приложений пользователями iOS
 
@@ -51,7 +52,7 @@ ms.locfileid: "52186313"
 
 Дополнительные сведения о том, как добавлять приложения, см. в статье [Добавление веб-приложения в Microsoft Intune](apps-add.md).
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 [Получение приложений пользователями Android](end-user-apps-android.md)
 
 [Получение приложений пользователями Windows](end-user-apps-windows.md)

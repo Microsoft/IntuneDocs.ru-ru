@@ -16,12 +16,13 @@ ms.reviewer: derriw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: fd71af5d52f81d05ce424212e029f01c59a33a8d
-ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: eec21dd7a78f643776768579474a373edae2e9b4
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54831587"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55842836"
 ---
 # <a name="how-to-configure-intune-settings-for-the-ios-classroom-app"></a>Как настроить параметры Intune для приложения iOS Класс
 

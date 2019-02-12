@@ -17,12 +17,13 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: 92cd7969dafb133cf044e2bf5fd2c6d0f829f6ff
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 5c28d5b122bda537d4707bc0fdc2bfc74bcb823a
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43150384"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55847290"
 ---
 # <a name="what-happens-if-you-unenroll-your-windows-device-from-intune"></a>Что происходит при отмене регистрации устройства с Windows в Intune?
 

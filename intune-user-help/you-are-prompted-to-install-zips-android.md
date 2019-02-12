@@ -15,12 +15,13 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.openlocfilehash: be4b91eaaa2187678fb4325a93dc561df08225b7
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 7ee68b4f330077ce0892baa5e8d82f6c9c4e8ffe
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43150401"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55833401"
 ---
 # <a name="install-zimperium-zips-on-your-android-device"></a>Установка Zimperium zIPS на устройстве Android
 

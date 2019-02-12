@@ -15,12 +15,13 @@ ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 1fa409619d5c0fc0c0fc32573f9a7346350191e8
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 789477f8f29ea46ab8dd45944fee7d766d63940f
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52188727"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55849558"
 ---
 # <a name="how-your-windows-users-get-their-apps"></a>Получение приложений пользователями Windows
 
@@ -36,6 +37,6 @@ ms.locfileid: "52188727"
 
 **Неуправляемые приложения** не могут управляться политиками и не были упакованы средствами Intune либо не включают SDK для приложений Intune. Политики защиты приложений нельзя применить к этим приложениям.
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 [Получение приложений пользователями Android](end-user-apps-android.md)
 [Получение приложений пользователями iOS](end-user-apps-android.md)

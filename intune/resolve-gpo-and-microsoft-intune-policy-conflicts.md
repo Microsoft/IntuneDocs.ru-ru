@@ -16,12 +16,13 @@ ms.reviewer: owenyen
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
-ms.openlocfilehash: 2aee866d06a31c0fe188dd8fb313609043f0092f
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: c36585b8482cc679de6b86f933abed4411c2dc4a
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52190088"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55837362"
 ---
 # <a name="resolve-group-policy-objects-gpo-and-microsoft-intune-policy-conflicts"></a>Разрешение конфликтов объектов групповой политики (GPO) и политик Microsoft Intune
 
@@ -119,5 +120,5 @@ For more information about how to apply WMI filters in Group Policy, see the blo
 
 Новая группа безопасности должна поддерживаться на основе соглашения о регистрации изменений в службе Intune.
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 [Управление ПК под управлением Windows с помощью Microsoft Intune](manage-windows-pcs-with-microsoft-intune.md)

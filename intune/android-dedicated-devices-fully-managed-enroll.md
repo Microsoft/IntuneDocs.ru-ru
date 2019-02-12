@@ -16,12 +16,13 @@ ms.reviewer: chrisbal
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: 0eb12470c20efd8d455f8bb165455ae4266da956
-ms.sourcegitcommit: 2a1720184cec577684a64af85d0d731693d11d81
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 2a83676f67866bc81ea81f7bb721dec5825a95c9
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "55146899"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55843448"
 ---
 # <a name="enroll-your-android-dedicated-devices-or-fully-managed-devices-preview"></a>Регистрация выделенных или полностью управляемых устройств с Android (предварительная версия)
 

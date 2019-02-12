@@ -16,12 +16,13 @@ searchScope:
 ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
-ms.openlocfilehash: de0afc8babe692663af9528da313cb31a9d3ff57
-ms.sourcegitcommit: 490365fb8b5405f323b4358fb1ec9dfdd9ff2d58
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: f4e93ee146a6d218908bd60ffdb86bc724aed5d0
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43148455"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55840677"
 ---
 # <a name="fix-common-issues-with-your-android-device"></a>Решение распространенных проблем с устройствами с Android
 

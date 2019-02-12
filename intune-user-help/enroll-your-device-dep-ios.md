@@ -17,12 +17,13 @@ ROBOTS: ''
 ms.reviewer: japoehlm
 ms.suite: ems
 ms.custom: intune-enduser
-ms.openlocfilehash: b93f02011b0900b1a64ae6cb10a84a52cd40187a
-ms.sourcegitcommit: 11cad61c565c474a8d653181675cc1109d562626
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: c592b558ace0a2a39059de9f64531f1e078c539d
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241802"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55847766"
 ---
 # <a name="enroll-your-organization-provided-ios-device-in-management"></a>Регистрация корпоративных устройств с iOS в службе управления
 

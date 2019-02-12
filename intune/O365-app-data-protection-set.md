@@ -17,12 +17,13 @@ ms.reviewer: ayesham
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 807bc306848a731e63f7f854a9d4b451264e21a8
-ms.sourcegitcommit: 513c59a23ca5dfa80a3ba6fc84068503a4158757
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: dcef765d6928ea71fd1dc98374aeace0d3a962a2
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54210811"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55847653"
 ---
 # <a name="how-your-users-will-experience-basic-protection-on-managed-office-365-apps-in-microsoft-intune"></a>Описывается действие базовой защиты управляемых приложениях Office 365 в Microsoft Intune.
 
