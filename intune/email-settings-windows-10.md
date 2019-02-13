@@ -13,12 +13,13 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: bf9581fe81aea3d2671da0adb2d37bbc203875c8
-ms.sourcegitcommit: 4bd992da609b8bcc85edc2d64fe8128546aa4617
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: a631ff93ed135ebbf389059c08f52b3df90e4295
+ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55303537"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55838943"
 ---
 # <a name="email-profile-settings-for-devices-running-windows-10---intune"></a>Параметры профиля электронной почты для устройств с ОС Windows 10 в Intune
 

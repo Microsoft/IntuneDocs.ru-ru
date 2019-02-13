@@ -425,6 +425,8 @@ items:
       items:
       - name: Параметры Центра обновления Windows для бизнеса
         href: windows-update-for-business-configure.md
+      - name: Отчеты о соответствии для Центра обновления Windows
+        href: windows-update-compliance-reports.md
       - name: Политики обновления iOS
         href: software-updates-ios.md
   - name: Управление приложениями
@@ -737,6 +739,8 @@ items:
           href: shared-user-device-settings-windows.md
         - name: Особые настройки
           href: custom-settings-windows-10.md
+      - name: Параметры Центра обновления Windows
+        href: windows-update-settings.md
     - name: Windows Holographic for Business
       items:
       - name: Ограничения устройств
@@ -953,9 +957,9 @@ items:
       href: data-outside-protect.md
     - name: Предотвращение утечки данных на неуправляемых устройствах
       href: data-leak-prevention.md
-ms.openlocfilehash: 1c293290d9d2e2dc2ba44278f77edf9976cb2a7c
-ms.sourcegitcommit: 01d6832978cb7ca23049000950696b300a87abd4
+ms.openlocfilehash: ace0bec62318d846cdcc37330abb63b2a89fef14
+ms.sourcegitcommit: e262b0ad8df610e25eb9421b9ebc2673bcf1020e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761013"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "55986915"
