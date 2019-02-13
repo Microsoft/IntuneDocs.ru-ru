@@ -2,8 +2,8 @@
 title: Использование частных и общедоступных ключей сертификатов в Microsoft Intune — Azure | Документация Майкрософт
 description: Добавьте или создайте сертификаты стандартов шифрования с открытым ключом (PKCS) с помощью Microsoft Intune, в том числе экспортируйте корневой сертификат, настройте шаблон сертификата, скачайте и установите Microsoft Intune Certificate Connector (NDES), создайте профиль конфигурации устройства, а также профиль сертификата PKCS в Azure и ЦС.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 12/10/2018
 ms.topic: article
@@ -11,16 +11,16 @@ ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: ''
-ms.reviewer: ''
+ms.reviewer: lacranda
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
-ms.openlocfilehash: 6a617f56e688d8dd6e9bca8e964e075865f05be1
-ms.sourcegitcommit: 4a7421470569ce4efe848633bd36d5946f44fc8d
+ms.openlocfilehash: f825e66a4668a007dc364e4c42b18ca7c2736016
+ms.sourcegitcommit: 4bd992da609b8bcc85edc2d64fe8128546aa4617
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54203626"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55303498"
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Настройка и использование сертификатов PKCS в Intune
 
@@ -136,6 +136,7 @@ ms.locfileid: "54203626"
 6. На вкладке **Дополнительно** рекомендуем установить флажок **Использовать учетную запись SYSTEM этого компьютера (по умолчанию)**.
 7. **Применить** > **Закрыть**.
 8. Вернитесь на портал Azure (**Intune** > **Конфигурация устройства** > **ЦС**). Через несколько секунд появится зеленый флажок, и **Состояние подключения** сменится на **Активно**. Сервер соединителя теперь может взаимодействовать с Intune.
+9. Если в сетевой среде есть веб-прокси, то, чтобы обеспечить работу соединителя, может потребоваться произвести дополнительную настройку. Дополнительные сведения см. в статье [Работа с имеющимися локальными прокси-серверами](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-connectors-with-proxy-servers) в документации Azure Active Directory.
 
 > [!NOTE]
 > Поддержка TLS 1.2 входит в состав соединителя сертификатов Microsoft Intune. Если сервер с установленным соединителем сертификатов Microsoft Intune поддерживает TLS 1.2, то используется TLS 1.2. Если сервер не поддерживает TLS 1.2, то используется TLS 1.1. Сейчас TLS 1.1 используется для проверки подлинности между устройствами и сервером.

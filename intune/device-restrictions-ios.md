@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/13/2018
+ms.date: 01/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune; seodec18
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 80eb088063522ba3acb293776064fd98846b9a3e
-ms.sourcegitcommit: 8e3a20b2ad59d3a6789ee81b9cbe6d2c711da11d
+ms.openlocfilehash: 94e09f413ea0e6b3811c7c19a93d188ac15ee04c
+ms.sourcegitcommit: 0142020a7cd75348c6367facf072ed94238e667f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54380505"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55230092"
 ---
 # <a name="ios-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с iOS, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -322,12 +322,16 @@ ms.locfileid: "54380505"
 | com.apple.compass           | "Компас"      | Apple     |
 | com.apple.MobileAddressBook | "Контакты"     | Apple     |
 | com.apple.facetime          | FaceTime     | Apple     |
+| com.apple.DocumentsApp      | Файлы        | Apple     |
 | com.apple.mobileme.fmf1     | "Найти друзей" | Apple     |
 | com.apple.mobileme.fmip1    | "Найти iPhone"  | Apple     |
 | com.apple.gamecenter        | Game Center  | Apple     |
 | com.apple.mobilegarageband  | GarageBand   | Apple     |
 | com.apple.Health            | "Здоровье"       | Apple     |
+| com.apple.Home              | Корневая         | Apple     |
 | com.apple.iBooks            | iBooks       | Apple     |
+| com.apple.iMovie            | iMovie       | Apple     |
+| com.apple.itunesconnect.mobile | iTunes Connect | Apple |
 | com.apple.MobileStore       | Магазин iTunes | Apple     |
 | com.apple.itunesu           | iTunes U     | Apple     |
 | com.apple.Keynote           | Keynote      | Apple     |
@@ -345,8 +349,10 @@ ms.locfileid: "54380505"
 | com.apple.reminders         | "Напоминания"    | Apple     |
 | com.apple.Mobilesafari      | Safari       | Apple     |
 | com.apple.Preferences       | "Настройки"     | Apple     |
+| com.apple.SiriViewService   | Siri         | Apple     |
 | com.apple.stocks            | "Акции"       | Apple     |
 | com.apple.tips              | "Советы"         | Apple     |
+| com.apple.TV                | TV           | Apple     |
 | com.apple.videos            | Видео       | Apple     |
 | com.apple.VoiceMemos        | VoiceMemos   | Apple     |
 | com.apple.Passbook          | Wallet       | Apple     |

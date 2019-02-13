@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
-ms.openlocfilehash: 61cb1a3c9de10020381d62a2a7795d5ff728db22
-ms.sourcegitcommit: 6f2f2fa70f4e47fa5ad2f3c536ba7116e1bd1d05
+ms.openlocfilehash: 31cfa617e0ca5d8d0848d1ecb781fda701589ccd
+ms.sourcegitcommit: 0142020a7cd75348c6367facf072ed94238e667f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/29/2019
-ms.locfileid: "55199427"
+ms.locfileid: "55229956"
 ---
 # <a name="windows-10-and-later-device-settings-to-run-as-a-kiosk-in-intune"></a>Настройка параметров устройства Windows 10 (и более поздних версий) для запуска в качестве киоска в Intune
 
@@ -101,7 +101,7 @@ ms.locfileid: "55199427"
 
     - **Имя приложения**. Обязательный параметр. Введите имя приложения.
     - **Локальный путь**. Обязательный параметр. Введите путь к исполняемому файлу, например `C:\Program Files (x86)\Microsoft VS Code\Code.exe` или `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`.
-    - **Идентификатор модели пользователя приложения (AUMID)**. Введите идентификатор пользовательской модели приложения (AUMID) для приложения Win32. Этот параметр определяет начальный макет плитки на рабочем столе. Чтобы получить этот идентификатор, выполните инструкции из статьи [Find the Application User Model ID of an installed app](https://docs.microsoft.com/powershell/module/startlayout/get-startapps?view=win10-ps) (Поиск идентификатора модели пользователя для установленного приложения).
+    - **Идентификатор модели пользователя приложения (AUMID)**. Введите идентификатор пользовательской модели приложения (AUMID) для приложения Win32. Этот параметр определяет начальный макет плитки на рабочем столе. Сведения о получении этого идентификатора см. в описании командлета [Get-StartApps](https://docs.microsoft.com/powershell/module/startlayout/get-startapps?view=win10-ps).
     - **Размер плитки**. Обязательный параметр. Выберите размер плитки для приложения: маленькая, средняя, широкая или большая.
   
   - **Добавить по AUMID**. Этот вариант позволяет добавить стандартные приложения Windows, например Блокнот или Калькулятор. Укажите следующие свойства. 

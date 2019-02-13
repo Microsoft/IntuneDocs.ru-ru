@@ -15,12 +15,12 @@ ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
-ms.openlocfilehash: 8c4e5e18c0b995ad84340cdbc07a8a11b09e4f3a
-ms.sourcegitcommit: 5058dbfb0e224207dd4e7ca49712c6ad3434c83c
+ms.openlocfilehash: 811bf4ba6ed611dab0e42625a8aa3dc2b18e007c
+ms.sourcegitcommit: e0d55bdda1a818ffe4cfc0ef0592833e22f65a89
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53112788"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55290712"
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>Пояснения к сообщениям в приложении корпоративного портала
 
@@ -108,7 +108,7 @@ ms.locfileid: "53112788"
 
 ### <a name="what-it-means"></a>Что это означает
 
-Добавьте приложение корпоративного портала в список **Разрешенные приложения** или **Исключенные приложения** в политике защиты приложений Windows Information Protection (WIP). Дополнительные сведения см. в статье [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](windows-information-protection-policy-create.md).
+Добавьте приложение "Корпоративный портал" в список **Разрешенные приложения** или **Исключенные приложения** в политике защиты приложений Windows Information Protection (WIP). Дополнительные сведения см. в статье [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](windows-information-protection-policy-create.md).
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 [What to tell your end users about using Intune](end-user-educate.md) (Что нужно сообщить конечным пользователям об использовании Intune)

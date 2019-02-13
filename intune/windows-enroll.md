@@ -16,12 +16,12 @@ ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 3c100ef3e598bf377f0464bfba161d4ad689ba98
-ms.sourcegitcommit: 9a1924ba2372904eb4a8a1894973e6f2be84129d
+ms.openlocfilehash: bab1656ec141b26cc3e9cb4195da7c1c24e401a1
+ms.sourcegitcommit: 0142020a7cd75348c6367facf072ed94238e667f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "53626049"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55230177"
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
@@ -82,6 +82,12 @@ Intune поддерживает управление несколькими по
 `EnterpriseEnrollment-s.manage.microsoft.com` — поддерживает перенаправление в службу Intune с распознаванием домена по имени домена электронной почты.
 
 Распространение изменений записей DNS может занимать до 72 часов. Вы не можете проверить смену DNS в Intune, пока запись DNS не будет распространена.
+
+## <a name="additional-endpoints-are-supported-but-not-recommended"></a>Дополнительные конечные точки поддерживаются, но использовать их не рекомендуется
+EnterpriseEnrollment-s.manage.microsoft.com — предпочтительное полное доменное имя для регистрации, но есть еще две конечные точки, которые использовались клиентами в прошлом и по-прежнему поддерживаются. Как EnterpriseEnrollment.manage.microsoft.com (без "-s"), так и manage.microsoft.com могут быть назначениями для сервера автоматического обнаружения, однако пользователю необходимо нажать кнопку "ОК" в подтверждении. Если вы используете конечную точку EnterpriseEnrollment-s.manage.microsoft.com, пользователю не нужно подтверждать действие, поэтому это рекомендуемый вариант.
+
+## <a name="alternate-methods-of-redirection-are-not-supported"></a>Другие методы перенаправления не поддерживаются
+Никакие другие методы, кроме настройки CNAME, не поддерживаются. Например, не поддерживается использование прокси-сервера для перенаправления с enterpriseenrollment.contoso.com/EnrollmentServer/Discovery.svc на enterpriseenrollment-s.manage.microsoft.com/EnrollmentServer/Discovery.svc или manage.microsoft.com/EnrollmentServer/Discovery.svc.
 
 **Шаг 2. Проверка записи CNAME** (необязательно)<br>
 1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства**  >  **Регистрация Windows**  >  **Проверка CNAME**.

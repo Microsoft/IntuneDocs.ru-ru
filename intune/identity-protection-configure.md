@@ -2,10 +2,10 @@
 title: Использование ПИН-кода для входа на устройства Windows 10 с помощью Microsoft Intune в Azure | Документация Майкрософт
 description: Используйте Windows Hello для бизнеса, чтобы пользователи могли входить на устройства с помощью ПИН-кода, отпечатка пальца и т. д. С помощью этих параметров создайте профиль конфигурации защиты личных данных на устройствах Intune для Windows 10 и назначьте профиль группам пользователей и группам устройств.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: brenduns
+ms.author: brenduns
 manager: dougeby
-ms.date: 01/22/2019
+ms.date: 01/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 843806681fcee4ddec175207c2c49d6db95e0f0d
-ms.sourcegitcommit: e08a26558174be3ea8f3d20646e577f1493ea21a
+ms.openlocfilehash: c6ca040c91437a35d12626f54b8385311d6631eb
+ms.sourcegitcommit: e0d55bdda1a818ffe4cfc0ef0592833e22f65a89
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54831394"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55290661"
 ---
 # <a name="use-windows-hello-for-business-on-windows-10-devices-with-microsoft-intune"></a>Использование Windows Hello для бизнеса на устройствах Windows 10 с Microsoft Intune
 
@@ -60,7 +60,7 @@ Intune использует "профили конфигурации" для с�
 
 4. По завершении нажмите **ОК** > **Создать**, чтобы сохранить изменения.
 
-Созданный профиль отобразится в списке профилей. Теперь нам нужно [назначить](device-profile-assign.md) этот профиль группам.
+Созданный профиль отобразится в списке профилей. Затем [назначьте](device-profile-assign.md) этот профиль требуемым группам пользователей и устройств.
 
 <!--  Removing image as part of design review; retaining source until we known the disposition.
 

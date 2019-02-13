@@ -2,10 +2,10 @@
 title: Использование ATP в Защитнике Windows в Microsoft Intune в Azure | Документация Майкрософт
 description: Узнайте, как включить Advanced Threat Protection (ATP) в Защитнике Windows в сквозном сценарии, включая настройку ATP в Intune и в Центре безопасности Защитника Windows (портал ATP), подключение устройств с использованием профиля конфигурации ATP, создание политики соответствия требованиям для устройств Intune, создание политики условного доступа Azure AD и мониторинг соответствия устройства требованиям.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: brenduns
+ms.author: brenduns
 manager: dougeby
-ms.date: 10/11/2018
+ms.date: 1/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -14,14 +14,14 @@ ms.reviewer: joglocke
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 1b8d08e60b9cd656eb9467fd5289b9dfc428d183
-ms.sourcegitcommit: 67666682935c44ff6ad003c0da220a79cc42c9c3
+ms.openlocfilehash: 25328bc119b91d7c9c3bb678962b90123a0d1faa
+ms.sourcegitcommit: e0d55bdda1a818ffe4cfc0ef0592833e22f65a89
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53168000"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55290695"
 ---
-# <a name="enable-windows-defender-atp-with-conditional-access-in-intune"></a>Включение ATP в Защитнике Windows с условным доступом в Intune
+# <a name="enforce-compliance-for-windows-defender-atp-with-conditional-access-in-intune"></a>Обеспечение соответствия требованиям для ATP в Защитнике Windows с помощью условного доступа в Intune
 
 ATP в Защитнике Windows и Microsoft Intune совместно позволяют предотвратить бреши в системе безопасности и ограничить влияние брешей на организацию.
 
