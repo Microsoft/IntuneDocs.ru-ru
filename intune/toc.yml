@@ -229,6 +229,45 @@ items:
       href: enrollment-report-company-portal-abandon.md
     - name: Устранение проблем при регистрации устройств
       href: troubleshoot-device-enrollment-in-intune.md
+  - name: Управление устройствами
+    href: device-management.md
+    items:
+    - name: Возможности управления устройствами
+      href: device-management-capabilities.md
+    - name: Обход блокировки активации
+      href: device-activation-lock-bypass.md
+    - name: Управление новым запуском Windows
+      href: device-fresh-start.md
+    - name: Поиск потерянного устройства iOS
+      href: device-locate.md
+    - name: Включение режима пропажи в iOS
+      href: device-lost-mode.md
+    - name: Включение защищенного режима iOS
+      href: device-supervised-mode.md
+    - name: Блокировка устройства
+      href: device-remote-lock.md
+    - name: Сбросить секретный код
+      href: device-passcode-reset.md
+    - name: Перезапуск устройства
+      href: device-restart.md
+    - name: Выход текущего пользователя
+      href: device-logout-user.md
+    - name: Удаление пользователя
+      href: device-remove-user.md
+    - name: стирание данных с устройства;
+      href: device-erase.md
+    - name: Удаленное управление мобильными устройствами
+      href: device-profile-android-teamviewer.md
+    - name: Сброс PIN-кода в Windows 10
+      href: device-windows-pin-reset.md
+    - name: Установка службы соединителя Exchange
+      href: exchange-service-connector-configure.md
+    - name: Синхронизация устройств
+      href: device-sync.md
+    - name: Проверка данных по инвентаризации устройств
+      href: device-inventory.md
+    - name: Удаление устройств
+      href: devices-wipe.md
   - name: Задание соответствия устройства требованиям
     items:
     - name: Общие сведения о соответствии
@@ -959,9 +998,9 @@ items:
       href: data-outside-protect.md
     - name: Предотвращение утечки данных на неуправляемых устройствах
       href: data-leak-prevention.md
-ms.openlocfilehash: 3b178658fad3e94d09dcd5979e155b8097753ffd
-ms.sourcegitcommit: 5708ec1d7ae50494be44ed5064f150b636188c84
+ms.openlocfilehash: 365777adf57d1f36577e2e6f20cce6b193a829f8
+ms.sourcegitcommit: 8e503c1b350f7b29a045b7daf3eece64be4ca3c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56240050"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56302206"
