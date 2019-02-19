@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1ea7ee32794a120c12b0720be5fa11f3b97536ab
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: ac9c8ca0b04cbb6f7cf570134a6f4bdce7bf57ed
+ms.sourcegitcommit: 93de3423d2d8f0019e676a63784edeb3daf47cb7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55848816"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325458"
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -41,7 +41,7 @@ ms.locfileid: "55848816"
 
 До завершения регистрации и ее подтверждения группой разработчиков Microsoft Intune администраторы Intune не смогут применить политику защиты приложений к прямой ссылке на приложение. Майкрософт также добавит приложение на [страницу партнеров Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune-apps). На этой странице будет отображаться значок приложения, указывающий, что оно поддерживает политики защиты приложений.
 
-Чтобы начать процесс регистрации и если вы еще не работаете с представителем Майкрософт, заполните [анкету для партнеров Microsoft Intune App](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR6oOVGFZ3pxJmwSN1N_eXwJUQUc5Mkw2UVU0VzI5WkhQOEYyMENWNDBWRS4u).
+Чтобы начать процесс регистрации и если вы еще не работаете с представителем Майкрософт, заполните [анкету для партнеров Microsoft Intune App](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR80SNPjnVA1KsGiZ89UxSdVUMEpZNUFEUzdENENOVEdRMjM5UEpWWjJFVi4u).
 
 Чтобы связаться с вами и продолжить процедуру регистрации, мы используем адреса электронной почты, указанные в ответах на вопросы анкеты. Кроме того, мы используем ваш адрес электронной почты, указанный при регистрации, чтобы связаться с вами по любым возникающим вопросам.
 

@@ -15,16 +15,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 951db22026725c2ec2e9c2be340bcccd44b2528b
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 383370aaaca10cb44b614be6e250218106406cb4
+ms.sourcegitcommit: e0374b3ced83c8876a4f78b326869c10588a55e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55848106"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56307759"
 ---
 # <a name="monitor-conditional-access-compliance-for-on-premises-exchange-and-exchange-online-in-intune"></a>Мониторинг соответствия условного доступа требованиям для локальной службы Exchange и Exchange Online в Intune
 
-Начиная с выпуска Intune 1704 администраторы могут просматривать сведения отчетов, связанные с записями устройств Exchange ActiveSync, которые синхронизируются с Intune либо через локальный соединитель с Exchange, либо через Service To Service Connector (соединитель с Exchange Online). В отчетах о соответствии условного доступа требованиям представлены сводные сведения об устройствах с разными состояниями синхронизации:
+Начиная с выпуска Intune 1704 администраторы могут просматривать сведения отчетов, связанные с записями устройства Exchange ActiveSync, которые синхронизируются с Intune либо через локальный соединитель Exchange, либо через Service To Service Connector (соединитель Exchange Online). В отчетах о соответствии условного доступа требованиям представлены сводные сведения об устройствах с разными с состояниями синхронизации:
 
 -   **Разрешить**
 
@@ -36,11 +36,11 @@ ms.locfileid: "55848106"
 
 1.  Перейдите на [портал Azure](https://portal.azure.com/) и войдите в систему с помощью своих учетных данных Intune.
 
-2.  Вы увидите **панель мониторинга Azure**.
+2.  После успешного входа отобразится **панель мониторинга Azure**.
 
-3.  Выберите  **Все службы**  в меню слева и введите  **Intune**  в текстовое поле фильтра.
+3.  Выберите **Все службы** в меню слева и введите **Intune** в текстовое поле фильтра.
 
-4.  Выберите  **Intune**. Отобразится **панель мониторинга Intune**.
+4.  Выберите **Intune**, и тогда отобразится **панель мониторинга Intune**.
 
 5.  Щелкните **Условный доступ**, а затем выберите **Обзор**.
 
