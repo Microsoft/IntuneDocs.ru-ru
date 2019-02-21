@@ -17,14 +17,15 @@ ms.reviewer: cacampbell
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
-ms.openlocfilehash: d50925d9f5422e1bfea01869233c63d6a2889109
-ms.sourcegitcommit: 12f8b7f0bca1baa2c1f68dd6af4f16a4814daa11
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 19994745a232a362d6bba0f09ed3934e492a17ed
+ms.sourcegitcommit: 2f431f122ce3ee6b5d0cdb04a0b748d00f83e295
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "55737508"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56265678"
 ---
-# <a name="the-early-edition-for-microsoft-intune---january-2019"></a>Ранний выпуск Microsoft Intune, январь 2019 г.
+# <a name="the-early-edition-for-microsoft-intune---february-2019"></a>Ранний выпуск Microsoft Intune, февраль 2019 г.
 
 > [!Note]
 > Уведомление о неразглашении информации. Следующие изменения находятся в разработке для Intune. Эти сведения предоставляются в рамках соглашения о неразглашении на ограниченной основе. Не публикуйте эти сведения в социальных сетях или на общедоступных веб-сайтах, таких как Twitter, UserVoice, Reddit и т. д. 

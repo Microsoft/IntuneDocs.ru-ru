@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 74445c678455dc881f79fed20ed68be6f090fe78
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 10b2ef5844c2d8889fd1d5c377fcefb8330be9e2
+ms.sourcegitcommit: 93de3423d2d8f0019e676a63784edeb3daf47cb7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55834778"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325441"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -87,7 +87,6 @@ ms.locfileid: "55834778"
 |Разрешить приложению получать данные из других приложений|X|X|
 |Ограничить вырезание, копирование и вставку данных между приложениями|X|X|
 |Требовать простой PIN-код для доступа|X|X|
-|Замена встроенного ПИН-кода приложения на ПИН-код Intune|X||
 |Specify the number of attempts before PIN reset (Указать число попыток до сброса ПИН-кода)|X|X|
 |Разрешить вход с использованием отпечатков пальцев вместо ПИН-кода|X|X|
 |Включить распознавание лиц вместо ПИН-кода (только iOS)|X|X|
@@ -98,8 +97,8 @@ ms.locfileid: "55834778"
 |Specify the offline grace period (Указать льготный период автономности)|X|X|
 |Block screen capture (Android only) (Блокировать снимки экрана, только Android)|X|X|
 |Поддержка MAM без регистрации устройства|X|X|
-|Полная очистка|X|X|
-|выборочная очистка; <br><br>**Примечание.** При удалении профиля управления для iOS приложение также удаляется.|X||
+|Полная очистка данных приложения|X|X|
+|Выборочная очистка рабочих и учебных данных в сценариях с несколькими удостоверениями <br><br>**Примечание.** При удалении профиля управления для iOS приложение также удаляется.|X||
 |Запретить "Сохранить как"|X||
 |Целевая конфигурация приложения|X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||
