@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c777beb294482a179d4b99fc71db031367698d0d
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: dd6ba4c9c93bf41d0407f5fa0feead440d858507
+ms.sourcegitcommit: e5f501b396cb8743a8a9dea33381a16caadc51a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55835798"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "56742131"
 ---
 # <a name="windows-10-and-windows-holographic-for-business-device-settings-to-run-as-a-dedicated-kiosk-using-intune"></a>Настройка параметров устройств Windows 10 и Windows Holographic for Business для запуска в качестве выделенного киоска с помощью Intune
 
@@ -69,6 +69,6 @@ Intune использует "профили конфигурации" для с�
 
 Можно создать профили киосков для устройств под управлением следующих платформ:
 - [Android](device-restrictions-android.md#kiosk)
-- [Android Enterprise](device-restrictions-android-for-work.md#kiosk-settings)
+- [Android Enterprise](device-restrictions-android-for-work.md#dedicated-device-settings)
 - [Windows 10 и более поздних версий](kiosk-settings-windows.md).
 - [Windows Holographic for Business](kiosk-settings-holographic.md)
