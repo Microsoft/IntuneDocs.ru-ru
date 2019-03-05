@@ -6,7 +6,7 @@ author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 01/29/2019
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a631ff93ed135ebbf389059c08f52b3df90e4295
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: f9601e8b83a22bb57398afefadd16f3a0e944413
+ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55838943"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57238563"
 ---
 # <a name="email-profile-settings-for-devices-running-windows-10---intune"></a>Параметры профиля электронной почты для устройств с ОС Windows 10 в Intune
 

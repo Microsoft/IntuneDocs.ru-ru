@@ -18,12 +18,12 @@ ms.reviewer: japoehlm
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: acbfafcc26aa924a5a9d0a7712bb56119099af43
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: f84eddaf9fac6dd678c7046664bf1feb9ea8cfc1
+ms.sourcegitcommit: da9ee02de327f202b00be44c79bf7abd35b9929b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55848225"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57335247"
 ---
 # <a name="enroll-your-organization-provided-macos-device-in-management"></a>Регистрация корпоративных устройств macOS в службе управления
 
@@ -64,7 +64,7 @@ ms.locfileid: "55848225"
     * Настроить Mac.  
 ## <a name="get-the-company-portal-app"></a>Получение приложения корпоративного портала      
 Скачайте приложение корпоративного портала Intune для macOS на свое устройство. Это приложение позволяет отслеживать, синхронизировать, добавлять и удалять устройства из службы управления, а также устанавливать приложения. Эти действия также предназначены для регистрации устройства на корпоративном портале.  
-1. На устройстве macOS перейдите по адресу http://portal.manage.microsoft.com/EnrollmentRedirect.aspx.
+1. На устройстве macOS перейдите по адресу https://portal.manage.microsoft.com/EnrollmentRedirect.aspx.
 2. Войдите на корпоративный портал, используя рабочую или учебную учетную запись. 
 3. Нажмите кнопку **Get the App** (Получить приложение), чтобы скачать установщик корпоративного портала для macOS.
 4. При появлении запроса откройте PKG-файл и выполните действия по установке.

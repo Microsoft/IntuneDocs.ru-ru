@@ -7,7 +7,7 @@ author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 01/03/2019
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1100be1b4df5bdd6c794cf6527a9ff9ad42fecd5
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 2d5c9118714288119bd2307ddcfbfeb2ecf1d88a
+ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55849029"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57232064"
 ---
 # <a name="app-configuration-policies-for-microsoft-intune"></a>Политики конфигурации приложений для Microsoft Intune
 

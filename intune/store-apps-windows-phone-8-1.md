@@ -7,7 +7,7 @@ author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/19/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f5d043d0f7d17825ebf8ce7d991372dc0587da15
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: dfd2a88422e13993090a896c9607ec9aba80e8e4
+ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55845624"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57230001"
 ---
 # <a name="add-windows-phone-81-store-apps-to-microsoft-intune"></a>Добавление приложений из Магазина Windows Phone 8.1 в Microsoft Intune
 

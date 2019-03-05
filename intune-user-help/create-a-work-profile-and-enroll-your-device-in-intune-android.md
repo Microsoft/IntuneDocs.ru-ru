@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 683156b968c743c4c82b472c6e566d5762c22c1a
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: eab28cdd4515561ad34a433773e351150a87f626
+ms.sourcegitcommit: da9ee02de327f202b00be44c79bf7abd35b9929b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55844672"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57334958"
 ---
 # <a name="create-a-work-profile-and-enroll-your-device-in-intune"></a>Создание профиля работы и регистрация устройства в Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "55844672"
 
 Создание профиля работы:
 
-1.  На экране **приветствия** корпоративного портала Android выберите **Войти**, а затем выполните вход с использованием рабочей или учебной учетной записи. Если вы еще не установили бесплатное приложение, загрузите и установите его из [Google Play](http://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
+1.  На экране **приветствия** корпоративного портала Android выберите **Войти**, а затем выполните вход с использованием рабочей или учебной учетной записи. Если вы еще не установили бесплатное приложение, загрузите и установите его из [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
 
     ![Экран приветствия приложения корпоративного портала Android](./media/and-enroll-0-welcome-screen.png)
 

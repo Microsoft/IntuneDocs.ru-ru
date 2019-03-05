@@ -7,7 +7,7 @@ author: dougeby
 ms.author: dougeby
 manager: angrobe
 ms.date: 12/06/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b68ca31b03bb3274d48b185335f956e38e140ae8
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: dd1651fa7228dc211636a80d0b27340d13bc13db
+ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55848565"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57233871"
 ---
 # <a name="microsoft-intune-documentation-40ignite-2018-special-edition41"></a>Документация по Microsoft Intune 2018 (специальный выпуск Ignite)
 Добро пожаловать в Microsoft Ignite 2018! Мы рады приветствовать вас. Ознакомьтесь с некоторыми ресурсами по Intune, которые мы предлагаем вашему вниманию.

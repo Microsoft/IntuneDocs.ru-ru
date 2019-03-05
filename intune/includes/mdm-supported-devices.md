@@ -28,6 +28,6 @@
 > [!NOTE]
 > Intune нельзя использовать для управления операционными системами Windows Server. Windows 10 Домашняя не поддерживает все возможности Intune.
 
-Клиенты с Enterprise Management + Security (EMS) могут также [использовать Azure Active Directory (Azure AD) для регистрации устройств с Windows 10](/intune/windows-enroll.md).
+Клиенты с Enterprise Management + Security (EMS) могут также [использовать Azure Active Directory (Azure AD) для регистрации устройств с Windows 10](/intune/windows-enroll).
 
 

@@ -5,8 +5,8 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/16/2019
-ms.topic: article
+ms.date: 03/04/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.reviewer: aiwang
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 98c3425c58b6039c8a1c3b5750f9473c74a78634
-ms.sourcegitcommit: 93de3423d2d8f0019e676a63784edeb3daf47cb7
+ms.openlocfilehash: 28e7109a82a5c083b4be26bc823bb0e06d97a7ca
+ms.sourcegitcommit: da9ee02de327f202b00be44c79bf7abd35b9929b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325475"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57334992"
 ---
 # <a name="windows-update-settings-for-intune"></a>Параметры Центра обновления Windows для Intune  
 
@@ -236,6 +236,6 @@ ms.locfileid: "56325475"
 
 Оптимизация доставки больше не настраивается в составе кольца обновления Windows 10 в группе обновлений программного обеспечения. Оптимизация доставки теперь устанавливается при настройке устройства. При этом предыдущие конфигурации остаются доступными в консоли. Можно удалить их, указав, что они *Не настроены*, но они в противном случае не могут быть изменены. 
 
-Чтобы избежать конфликтов между новыми и старыми политиками, см. раздел [Переместить из существующих кругов обновления для оптимизации доставки](https://docs.microsoft.com/en-us/intune/delivery-optimization-windows#move-from-existing-update-rings-to-delivery-optimization) и переместите параметры в профиль оптимизации доставки.
+Чтобы избежать конфликтов между новыми и старыми политиками, см. раздел [Переместить из существующих кругов обновления для оптимизации доставки](delivery-optimization-windows.md#move-existing-update-rings-to-delivery-optimization) и переместите параметры в профиль оптимизации доставки.
 
 

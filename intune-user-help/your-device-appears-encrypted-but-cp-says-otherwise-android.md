@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: af53739574a5ae7087b59d72bacd866e132a19ac
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 9444a124b9b8a47633f544205940dadb3df0fd8f
+ms.sourcegitcommit: da9ee02de327f202b00be44c79bf7abd35b9929b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55843227"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57335009"
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Похоже, для устройства Android включено шифрование, но корпоративный портал считает иначе.
 
@@ -66,13 +66,13 @@ ms.locfileid: "55843227"
 Если вы используете одно из следующих устройств, для решения этой проблемы рекомендуется выполнить обновление до последней версии Android. Для установки обновлений на этих устройствах выберите **Settings** > **Update** (Параметры > Обновление). 
 
 - [Huawei Honor 8](https://consumer.huawei.com/us/support/phones/honor-8/)
-- [Huawei P9](http://consumer.huawei.com/en/phones/p9/)
+- [Huawei P9](https://consumer.huawei.com/en/phones/p9/)
 
 ### <a name="known-devices-that-currently-cannot-be-updated-to-fix-this-issue"></a>Известные устройства, обновление которых не поможет решить эту проблему
 
 Нам не удалось решить эту проблему для перечисленных ниже устройств. Для получения доступа к ресурсам компании вам может потребоваться другое устройство. 
 
 - [Huawei Mate 8](https://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
-- [Устройства OPPO](http://www.oppo.com/en/smartphones)
+- [Устройства OPPO](https://www.oppo.com/en/smartphones)
 - [Устройства Vivo](https://www.vivo.co.in)
 - [Смартфоны Xiaomi Mi](https://xiaomi-mi.com/mi-smartphones/)
