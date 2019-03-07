@@ -1,14 +1,24 @@
+items:
 - name: Управление устройствами
   tocHref: /intune/
   topicHref: /intune/index
   items:
-    - name: Intune
-      tocHref: /enterprise-mobility-security/intune/index
-      topicHref: /device-mgmt/index
+  - name: Intune
+    tocHref: /enterprise-mobility-security/intune/index
+    topicHref: /device-mgmt/index
+  - name: Справка для пользователей Intune
+    tocHref: /intune-user-help/
+    topicHref: /intune-user-help/index
 - name: Управление устройствами
   tocHref: /azure/
   topicHref: /azure/index
   items:
-    - name: Azure Active Directory
-      tocHref: /azure/active-directory/
-      topicHref: /azure/active-directory/
+  - name: Azure Active Directory
+    tocHref: /azure/active-directory/
+    topicHref: /azure/active-directory/
+ms.openlocfilehash: 2a63867fb48b2e51dc45d4787210b870496183ad
+ms.sourcegitcommit: a624abbfc3c80c5fba6c47a19cf1a6923c5fd438
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57528196"
