@@ -3,25 +3,26 @@ title: Руководство. Защита электронной почты Ex
 titlesuffix: Microsoft Intune
 description: Сведения о том, как защитить Office 365 Exchange Online с помощью политик защиты приложений Intune и условного доступа Azure AD.
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 12/11/2018
 ms.topic: tutorial
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8339f91468abca548b3923df4d4380aabb88c5a8
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 4692e19d657e19efe18a91273ce585eb59c6cb65
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55848718"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57528281"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-unmanaged-devices"></a>Руководство. Защита электронной почты Exchange Online на неуправляемых устройствах
 
