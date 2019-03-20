@@ -18,11 +18,11 @@ ms.reviewer: robstack
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 44aad280f0b8714adbb3c8a1e109b68a5af46d4d
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
-ms.translationtype: HT
+ms.openlocfilehash: b7b67f1484ed74bd538cad53f02babd542b77fff
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
+ms.lasthandoff: 03/14/2019
 ms.locfileid: "55838841"
 ---
 # <a name="use-managed-devices-to-access-work-or-school-resources"></a>Использование управляемых устройств для доступа к рабочим или учебным ресурсам
@@ -58,7 +58,7 @@ Microsoft Intune — это программное обеспечение, ко�
 - [Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство Android в Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
 - [Установка приложения "Корпоративный портал" для iOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-ios.md)
 - [Установка приложения "Корпоративный портал" для macOS](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-macos.md)
-- [What information can my company see when I enroll my device in Intune?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md) (Какие сведения могут видеть сотрудники компании при регистрации моего устройства в Intune?)
+- [What information can my company see when I enroll my device in Intune?](about-cp-app-for-windows-10.md) (Какие сведения могут видеть сотрудники компании при регистрации моего устройства в Intune?)
 
 ## <a name="what-kind-of-computers-or-devices-can-you-add-to-the-company-portal"></a>Какие компьютеры или устройства можно добавлять на корпоративный портал?
 -   Устройства Apple на основе iOS (например, iPhone и iPad) и macOS (например, MacBook и iMac)

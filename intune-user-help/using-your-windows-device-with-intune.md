@@ -18,11 +18,11 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9bdb3e5c79b348b323df129c2dec4c02af596215
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
-ms.translationtype: HT
+ms.openlocfilehash: 85856e77fc8ebbd4054ef819a9110e0fa258ced3
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
+ms.lasthandoff: 03/14/2019
 ms.locfileid: "55844553"
 ---
 # <a name="using-your-windows-device-with-intune-company-portal"></a>Использование устройства Windows с Корпоративным порталом Intune
@@ -46,7 +46,7 @@ ms.locfileid: "55844553"
 Корпоративный портал также поддерживает некоторые другие версии Windows, например [Windows 10 Holographic](https://www.microsoft.com/hololens). Тем не менее они не указаны в этой статье, так как предназначены для особых целей.
 
 ## <a name="set-up-your-device-in-the-company-portal"></a>Настройка устройства на корпоративном портале
-- [Настройка управления устройств с Windows на корпоративном портале](enroll-your-device-in-intune-windows.md)
+- [Настройка управления устройств с Windows на корпоративном портале](windows-enrollment-company-portal.md)  
 - [Что значит настроить *управление* устройством?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows.md)
 - [Какие сведения может просматривать компания на моем устройстве?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 - [Шифрование устройства](encrypt-your-device-windows.md)

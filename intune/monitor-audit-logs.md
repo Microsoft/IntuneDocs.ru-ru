@@ -6,19 +6,20 @@ ms.author: dougeby
 author: dougeby
 manager: dougeby
 ms.date: 02/27/2018
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 6ee841cc-5694-4ba1-8f66-1d58edec30a4
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f44d25f75ccc68912bea7b108ca56afe6aecb528
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
-ms.translationtype: HT
+ms.openlocfilehash: 98540af0f0b7d259973d1a7e873c68fc64f488d1
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57239056"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57460688"
 ---
 # <a name="audit-logs-for-intune-activities"></a>Журналы аудита для действий Intune
 В журналы аудита записываются действия, которые генерируют изменения в Microsoft Intune. Действия создания, обновления (редактирования), удаления и назначения или удаленные задачи создают события аудита, которые вы можете просматривать. Можно просмотреть журналы аудита для большинства рабочих нагрузок Intune. Аудит включен по умолчанию для всех клиентов. Его нельзя отключить. События аудита записываются с даты выпуска компонента в декабре 2017 года. Предыдущие события недоступны.

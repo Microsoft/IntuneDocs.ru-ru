@@ -7,21 +7,23 @@ author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 01/01/2018
-ms.topic: article
+ms.topic: archived
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 48e9c41a-d2de-424e-9610-cfd1ad514210
 ms.reviewer: owenyen
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
-ms.openlocfilehash: 7c6bdbde87f6438696b5a262ba1890532dcfccdd
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
-ms.translationtype: HT
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 381802de52f63cd4d7c836dbabe25167c0370ee5
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52180872"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57460680"
 ---
 # <a name="keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune"></a>Обновление программного обеспечения на компьютерах с Windows с помощью Microsoft Intune
 
@@ -256,5 +258,5 @@ Microsoft Intune помогает защитить управляемые ком
 6.  Напоминания об обновлении будут отображаться в области сведений в нижней части страницы **Все обновления** .
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)
