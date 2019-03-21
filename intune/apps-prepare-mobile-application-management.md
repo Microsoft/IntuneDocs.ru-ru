@@ -6,9 +6,10 @@ author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/06/2018
-ms.topic: conceptual
+ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 29e22121-8268-48b5-a671-f940a6be1d24
 ms.reviewer: aanavath
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: af7963bcfb16a619fa6cddd8285def30e4ef51dd
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
-ms.translationtype: HT
+ms.openlocfilehash: 4e1e3e510cf1ef7e13e653f7793433045b0610ef
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57230723"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57565480"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -98,7 +99,7 @@ ms.locfileid: "57230723"
 |Block screen capture (Android only) (Блокировать снимки экрана, только Android)|X|X|
 |Поддержка MAM без регистрации устройства|X|X|
 |Полная очистка данных приложения|X|X|
-|Выборочная очистка рабочих и учебных данных в сценариях с несколькими удостоверениями <br><br>**Примечание.** При удалении профиля управления для iOS приложение также удаляется.|X||
+|Выборочная очистка рабочих и учебных данных в сценариях с несколькими удостоверениями <br><br>**Примечание.** При удалении профиля управления для iOS удаляется и приложение.|X||
 |Запретить "Сохранить как"|X||
 |Целевая конфигурация приложения|X||
 |Support for Multi-Identity (Поддержка множественного удостоверения)|X||

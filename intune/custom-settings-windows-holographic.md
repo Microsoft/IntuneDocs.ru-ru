@@ -9,18 +9,19 @@ ms.date: 12/06/2018
 ms.article: article
 ms.prod: ''
 ms.service: microsoft-intune
-ms.topic: conceptual
+ms.localizationpriority: medium
+ms.topic: reference
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5c6ec55db072cd02fae2b4eef659f601b63bb850
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
-ms.translationtype: HT
+ms.openlocfilehash: ee2084cd7b5ba2d51311b675c3f31c41cc83fc4f
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57231695"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57566171"
 ---
 # <a name="use-custom-settings-for-windows-holographic-for-business-devices-in-intune"></a>Использование настраиваемых параметров для устройств Windows Holographic for Business в Intune
 
@@ -40,16 +41,16 @@ Windows Holographic for Business открывает доступ ко множ
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 3. Введите следующие параметры:
 
-    - **Имя**: ведите имя профиля, например `hololens custom profile`.
-    - **Описание** Введите описание профиля.
-    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
+    - **Имя**: введите имя профиля, например `hololens custom profile`.
+    - **Описание.** Введите описание профиля.
+    - **Платформа**: выберите **Windows 10 и более поздняя версия**.
     - **Тип профиля**: выберите **Настраиваемый**.
 
 4. В разделе **Настраиваемые параметры OMA-URI** выберите **Добавить**. Введите следующие параметры:
 
-    - **Имя**: Введите уникальное имя для параметра OMA-URI, чтобы его было проще найти в списке параметров.
-    - **Описание** введите описание с общими сведениями о параметре и другой важной информацией.
-    - **OMA-URI** (с учетом регистра): введите код OMA-URI, для которого нужно указать параметр.
+    - **Имя**. Введите уникальное имя для параметра OMA-URI, чтобы его было проще найти в списке параметров.
+    - **Описание**: введите описание с общими сведениями о параметре и другой важной информацией.
+    - **OMA-URI** (с учетом регистра): введите OMA-URI, для которого нужно указать параметр.
     - **Тип данных**: выберите тип данных для этого параметра OMA-URI. Доступны следующие параметры:
 
         - Строка

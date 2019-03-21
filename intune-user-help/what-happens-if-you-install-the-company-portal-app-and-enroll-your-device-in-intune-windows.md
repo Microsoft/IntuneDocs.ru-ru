@@ -18,16 +18,16 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8cace30f5120bb5c02d3569d9668d336a00f69ff
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
-ms.translationtype: HT
+ms.openlocfilehash: 85ccfb526ada4d6851fb32b077d07d3538f90361
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
+ms.lasthandoff: 03/14/2019
 ms.locfileid: "55846848"
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-windows-device-in-intune"></a>Что произойдет, если установить приложение корпоративного портала и зарегистрировать устройство с Windows в Intune?
 
-Когда вы устанавливаете приложение "Корпоративный портал", а затем используете его для регистрации устройства с Windows или Windows Phone, вы предоставляете службе поддержки вашей компании возможность управлять этим устройством. Это позволяет защитить данные предприятия или учебного заведения. В этом разделе описывается, что происходит с устройствами с операционными системами, предшествующими Windows 10. Сведения для устройств с Windows 10 см. в [связанном разделе](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-windows10.md).
+Когда вы устанавливаете приложение "Корпоративный портал", а затем используете его для регистрации устройства с Windows или Windows Phone, вы предоставляете службе поддержки вашей компании возможность управлять этим устройством. Это позволяет защитить данные предприятия или учебного заведения. В этом разделе описывается, что происходит с устройствами с операционными системами, предшествующими Windows 10. Сведения для устройств с Windows 10 см. в [связанном разделе](about-cp-app-for-windows-10.md).  
 
 ## <a name="what-happens-to-all-windows-devices-after-enrollment"></a>Что происходит со всеми устройствами с Windows после регистрации?
 Регистрация устройства с Windows или Windows Phone в Intune позволяет:
