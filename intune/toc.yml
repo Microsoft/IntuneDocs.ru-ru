@@ -12,6 +12,8 @@ items:
     items:
     - name: Новые возможности пользовательского интерфейса приложения
       href: whats-new-app-ui.md
+    - name: Возможности, находящиеся в разработке
+      href: in-development.md
   expanded: true
 - name: Краткие руководства
   items:
@@ -75,8 +77,6 @@ items:
     href: windows-information-protection-configure.md
   - name: ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ О MAM
     href: mam-faq.md
-  - name: Вопросы и ответы о политиках и профилях
-    href: manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md
 - name: Практические руководства
   items:
   - name: Планирование развертывания
@@ -225,9 +225,7 @@ items:
       items:
       - name: Программа регистрации устройств (DEP) или Apple School Manager
         href: device-enrollment-program-enroll-macos.md
-    - name: Установка программного клиента Intune на компьютерах Windows
-      href: install-the-windows-pc-client-with-microsoft-intune.md
-    - name: Отчет о прерывании
+    - name: Отчет о неполной регистрации
       href: enrollment-report-company-portal-abandon.md
     - name: Устранение проблем при регистрации устройств
       href: troubleshoot-device-enrollment-in-intune.md
@@ -254,11 +252,11 @@ items:
       href: device-rename.md
     - name: Перезапуск устройства
       href: device-restart.md
-    - name: Выход текущего пользователя
+    - name: Принудительный выход текущего пользователя
       href: device-logout-user.md
     - name: Удаление пользователя
       href: device-remove-user.md
-    - name: стирание данных с устройства;
+    - name: Очистка устройства с macOS
       href: device-erase.md
     - name: Удаленное управление мобильными устройствами
       href: device-profile-android-teamviewer.md
@@ -307,6 +305,7 @@ items:
     - name: Ограничение параметров и возможностей устройств
       href: device-restrictions-configure.md
     - name: Доставка обновлений
+      displayName: delivery optimization; updates
       href: delivery-optimization-windows.md
     - name: Обновление выпусков и S-режим
       href: edition-upgrade-configure-windows-10.md
@@ -363,7 +362,7 @@ items:
         - name: Данные, отправляемые Intune в Google
           href: data-intune-sends-to-google.md
         - name: Сведения, передаваемые с Jamf Pro в Intune
-          href: conditional-access-integrate-jamf.md
+          href: data-jamf-sends-to-intune.md
       - name: Просмотр и изменение персональных данных
         href: privacy-data-view-correct.md
       - name: Аудит, экспорт, удаление
@@ -376,6 +375,7 @@ items:
       - name: Установка локального соединителя Exchange
         href: exchange-connector-install.md
       - name: Создание и назначение политики условного доступа
+        href: conditional-access-exchange-create.md
       - name: Политика условного доступа на основе информации об устройстве
         href: create-conditional-access-intune.md
       - name: Переназначение политик условного доступа с классического портала Intune
@@ -448,6 +448,8 @@ items:
       href: network-access-control-integrate.md
     - name: Windows Hello
       href: windows-hello.md
+    - name: Мониторинг шифрования устройств
+      href: encryption-monitor.md
     - name: Сертификаты
       href: certificates-configure.md
       items:
@@ -532,6 +534,8 @@ items:
         href: apps-inc-exl-assignments.md
       - name: Развернуть Приложения Windows 10
         href: apps-windows-10-app-deploy.md
+      - name: Развертывание приложений в средах государственных организаций
+        href: apps-deploy-gcc-dod.md
     - name: Мониторинг приложений
       href: apps-monitor.md
     - name: Настройка приложений
@@ -616,6 +620,8 @@ items:
       href: data-google-sends-to-intune.md
   - name: Справка и поддержка
     items:
+    - name: Состояние клиента
+      href: tenant-status.md
     - name: Устранение неполадок
       items:
       - name: Помощь пользователям в устранении проблем
@@ -624,6 +630,8 @@ items:
         href: troubleshoot-company-resource-access-problems.md
       - name: Устранение проблем с установкой приложений
         href: troubleshoot-app-install.md
+      - name: Устранение неполадок управления мобильными приложениями
+        href: troubleshoot-mam.md
       - name: Журналы аудита для действий Intune
         href: monitor-audit-logs.md
       - name: Просмотр журналов с помощью Azure Monitor
@@ -636,14 +644,12 @@ items:
         href: troubleshoot-software-updates-in-microsoft-intune.md
       - name: Устранение неполадок Endpoint Protection
         href: troubleshoot-endpoint-protection-in-microsoft-intune.md
-      - name: Политики устранения неполадок
+      - name: Устранение неполадок с политиками и профилями
         href: troubleshoot-policies-in-microsoft-intune.md
       - name: Устранение неполадок условного доступа
         href: troubleshoot-conditional-access.md
       - name: Устранение проблем в работе соединителя с Exchange
         href: troubleshoot-exchange-connector.md
-    - name: Известные проблемы
-      href: known-issues.md
     - name: Получение поддержки
       href: get-support.md
 - name: Справочник
@@ -660,14 +666,6 @@ items:
           href: device-restrictions-android.md
         - name: Электронная почта
           href: email-settings-android.md
-        - name: Надежный сертификат
-          href: certficates-pfx-configure.md#create-a-trusted-certificate-profile
-        - name: Сертификат SCEP
-          href: certificates-scep-configure.md#create-a-scep-certificate-profile
-        - name: Импортированный сертификат PKCS
-          href: certficates-pfx-configure.md#create-a-pkcs-imported-certificate-profile
-        - name: Сертификат PKCS
-          href: certficates-pfx-configure.md#create-a-pkcs-certificate-profile
         - name: VPN
           href: vpn-settings-android.md#android-vpn-settings
         - name: Wi-Fi
@@ -687,16 +685,8 @@ items:
           href: device-restrictions-android-for-work.md
         - name: Электронная почта
           href: email-settings-android-enterprise.md
-        - name: Надежный сертификат
-          href: certficates-pfx-configure.md#create-a-trusted-certificate-profile
-        - name: Сертификат SCEP
-          href: certificates-scep-configure.md#create-a-scep-certificate-profile
-        - name: Импортированный сертификат PKCS
-          href: certficates-pfx-configure.md#create-a-pkcs-imported-certificate-profile
-        - name: Сертификат PKCS
-          href: certficates-pfx-configure.md#create-a-pkcs-certificate-profile
         - name: VPN
-          href: vpn-settings-android.md#android-for-work-vpn-settings
+          href: vpn-settings-android.md#android-enterprise-vpn-settings
         - name: Wi-Fi
           href: wi-fi-settings-android-enterprise.md
         - name: Особые настройки
@@ -713,12 +703,6 @@ items:
           href: device-restrictions-ios.md
         - name: Электронная почта
           href: email-settings-ios.md
-        - name: Надежный сертификат
-          href: certficates-pfx-configure.md#create-a-trusted-certificate-profile
-        - name: Сертификат SCEP
-          href: certificates-scep-configure.md#create-a-scep-certificate-profile
-        - name: Сертификат PKCS
-          href: certficates-pfx-configure.md#create-a-pkcs-certificate-profile
         - name: VPN
           href: vpn-settings-ios.md
         - name: Wi-Fi
@@ -737,26 +721,20 @@ items:
           href: device-restrictions-macos.md
         - name: Защита конечных точек
           href: endpoint-protection-macos.md
-        - name: Надежный сертификат
-          href: certficates-pfx-configure.md#create-a-trusted-certificate-profile
-        - name: Сертификат SCEP
-          href: certificates-scep-configure.md#create-a-scep-certificate-profile
         - name: VPN
           href: vpn-settings-macos.md
         - name: Wi-Fi
           href: wi-fi-settings-macos.md
         - name: Особые настройки
           href: custom-settings-macos.md
-    - name: Базовые конфигурации безопасности
-      items:
-      - name: Базовые конфигурации безопасности Windows
-        href: security-baseline-settings-windows.md
     - name: Windows 10 и более поздней версии
       items:
       - name: Параметры политики соответствия
         href: compliance-policy-create-windows.md#windows-10-and-later-policy-settings
       - name: Параметры профиля конфигурации
         items:
+        - name: Параметры оптимизации доставки
+          href: delivery-optimization-settings.md
         - name: Ограничения устройств
           href: device-restrictions-windows-10.md
         - name: Ограничения устройств (Windows 10 для совместной работы)
@@ -771,12 +749,6 @@ items:
           href: identity-protection-windows-settings.md
         - name: Киоск
           href: kiosk-settings-windows.md
-        - name: Надежный сертификат
-          href: certficates-pfx-configure.md#create-a-trusted-certificate-profile
-        - name: Сертификат SCEP
-          href: certificates-scep-configure.md#create-a-scep-certificate-profile
-        - name: Сертификат PKCS
-          href: certficates-pfx-configure.md#create-a-pkcs-certificate-profile
         - name: VPN
           href: vpn-settings-windows-10.md
         - name: Wi-Fi
@@ -787,6 +759,8 @@ items:
           href: shared-user-device-settings-windows.md
         - name: Особые настройки
           href: custom-settings-windows-10.md
+      - name: Параметры базовых показателей безопасности
+        href: security-baseline-settings-windows.md
       - name: Параметры Центра обновления Windows
         href: windows-update-settings.md
     - name: Windows Holographic for Business
@@ -809,10 +783,6 @@ items:
         items:
         - name: Ограничения устройств
           href: device-restrictions-windows-8-1.md
-        - name: Надежный сертификат
-          href: certficates-pfx-configure.md#create-a-trusted-certificate-profile
-        - name: Сертификат SCEP
-          href: certificates-scep-configure.md#create-a-scep-certificate-profile
         - name: VPN
           href: vpn-settings-windows-8-1.md
         - name: Импорт Wi-Fi
@@ -827,10 +797,6 @@ items:
           href: device-restrictions-windows-phone-8-1.md
         - name: Электронная почта
           href: email-settings-windows-phone-8-1.md
-        - name: Надежный сертификат
-          href: certficates-pfx-configure.md#create-a-trusted-certificate-profile
-        - name: Сертификат SCEP
-          href: certificates-scep-configure.md#create-a-scep-certificate-profile
         - name: VPN
           href: vpn-settings-windows-phone-8-1.md
         - name: Особые настройки
@@ -854,7 +820,10 @@ items:
         href: app-wrapper-prepare-android.md
       - name: Пакет SDK приложений Intune для Android
         href: app-sdk-android.md
-      - name: привязки Xamarin из пакета SDK для приложений Intune
+        items:
+        - name: Руководство по тестированию пакета SDK приложений Intune для Android
+          href: app-sdk-android-testing-guide.md
+      - name: Привязки Xamarin из пакета SDK для приложений Intune
         href: app-sdk-xamarin.md
     - name: Использование хранилища данных Intune
       href: reports-nav-create-intune-reports.md
@@ -912,34 +881,6 @@ items:
       href: graph-apis-used-by-intune-device-configuration-windows.md
 - name: Ресурсы
   items:
-  - name: Руководство по документации Microsoft Intune
-    href: intune-documentation.md
-  - name: Устранение неполадок
-    items:
-    - name: Помощь пользователям в устранении проблем
-      href: help-desk-operators.md
-    - name: Устранение неполадок, связанных с доступом к ресурсам компании
-      href: troubleshoot-company-resource-access-problems.md
-    - name: Устранение проблем с установкой приложений
-      href: troubleshoot-app-install.md
-    - name: Устранение неполадок управления мобильными приложениями
-      href: troubleshoot-mam.md
-    - name: Журналы аудита для действий Intune
-      href: monitor-audit-logs.md
-    - name: Просмотрите журналы защиты приложений
-      href: app-protection-policy-settings-log.md
-    - name: Устранение неполадок, связанных с профилями электронной почты
-      href: troubleshoot-email-profiles-in-microsoft-intune.md
-    - name: Устранение неполадок с обновлениями программного обеспечения
-      href: troubleshoot-software-updates-in-microsoft-intune.md
-    - name: Устранение неполадок Endpoint Protection
-      href: troubleshoot-endpoint-protection-in-microsoft-intune.md
-    - name: Политики устранения неполадок
-      href: troubleshoot-policies-in-microsoft-intune.md
-    - name: Устранение неполадок условного доступа
-      href: troubleshoot-conditional-access.md
-    - name: Устранение проблем в работе соединителя с Exchange
-      href: troubleshoot-exchange-connector.md
   - name: Архив
     items:
     - name: Новые возможности — архив
@@ -1005,9 +946,9 @@ items:
       href: data-outside-protect.md
     - name: Предотвращение утечки данных на неуправляемых устройствах
       href: data-leak-prevention.md
-ms.openlocfilehash: 680ae510d7f3387b53ad6ae50c8e4d8ba194f8b9
-ms.sourcegitcommit: e5f501b396cb8743a8a9dea33381a16caadc51a9
+ms.openlocfilehash: 2a7f7b7a1d1c56cf316362ef8dc2693343e64955
+ms.sourcegitcommit: 768430b5296573c6e007ae4e13d57aeda4be4b7e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56742828"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306865"
