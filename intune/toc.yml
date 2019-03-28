@@ -389,8 +389,6 @@ items:
         href: app-based-conditional-access-intune-create.md
       - name: ADAL и Intune
         href: app-modern-authentication-block.md
-      - name: Мониторинг соответствия условного доступа
-        href: conditional-access-exchange-monitor.md
       - name: Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
         href: conditional-access-integrate-jamf.md
       - name: Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
@@ -947,9 +945,9 @@ items:
       href: data-outside-protect.md
     - name: Предотвращение утечки данных на неуправляемых устройствах
       href: data-leak-prevention.md
-ms.openlocfilehash: f342d2ce12fb45db49cf06263807ed4a155fba55
-ms.sourcegitcommit: 1069b3b1ed593c94af725300aafd52610c7d8f04
+ms.openlocfilehash: d273d9c300f49a2d78f8b9ed62031497b06a0060
+ms.sourcegitcommit: d38ca1bf44e17211097aea481e00b6c1e87effae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58394686"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58514428"
