@@ -10,18 +10,20 @@ ms.date: 11/09/2018
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: dab6f5c8-1ebb-42c4-a7a7-7af001f94e15
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 6d0a7485aa25dee74bf54192fa931d081be81cd8
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 40f321b02565f696554e2380d488c41a3b1f24eb
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52184520"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57391888"
 ---
 # <a name="quickstart-add-and-assign-a-client-app"></a>Краткое руководство. Добавление и назначение клиентского приложения
 
@@ -90,7 +92,7 @@ ms.locfileid: "52184520"
 4. Щелкните приложение, добавленное с помощью Intune. В этом кратком руководстве вы добавили приложение из **набора приложений Microsoft Office 365**.
 
     > [!NOTE]
-    > Если вам не удалось назначить приложение пользователю Intune, вы увидите следующее сообщение: *Your IT administrator did not make any apps available to you* (ИТ-администратор не предоставил вам доступ к приложениям).
+    > Если вам не удалось назначить приложения пользователю Intune, вы увидите следующее сообщение: *ИТ-администратор не предоставил вам никаких приложений.*
 
 5. Нажмите кнопку **Установить**.
 

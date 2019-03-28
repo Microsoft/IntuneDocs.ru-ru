@@ -3,27 +3,29 @@ title: Руководство. Защита электронной почты Ex
 titlesuffix: Microsoft Intune
 description: Узнайте, как защитить Exchange Online с помощью политик соответствия Intune для iOS и условного доступа Azure AD, в которых указано использовать управляемые устройства и приложение Outlook.
 keywords: ''
-author: msmimart
-ms.author: mimart
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 09/19/2018
-ms.topic: quickstart
+ms.topic: tutorial
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 2c23ad2c63fad8c74666e3c1ae9acc543e48f8e8
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 6c76a22fec1342481a67029147c757347a06447c
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181876"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57528213"
 ---
-# <a name="tutorial-protect-exchange-online-email-on-managed-devices"></a>Руководство. Защита электронной почты Exchange Online на управляемых устройствах
+# <a name="tutorial-protect-exchange-online-email-on-managed-devices"></a>Руководство. Защита электронной почты Exchange Online на управляемых устройствах
 Узнайте, как политики соответствия требованиям для устройств с условным доступом позволяют предоставить устройствам iOS доступ к электронной почте Exchange Online, только если устройства управляются Intune и используют утвержденное приложение электронной почты. 
 
 Из этого руководства вы узнаете, как выполнять следующие задачи: 
@@ -37,7 +39,7 @@ ms.locfileid: "52181876"
   - Для работы с этим руководством вам потребуется тестовый клиент со следующими подписками:
     - Azure Active Directory Premium ([бесплатная пробная версия](https://azure.microsoft.com/free/?WT.mc_id=A261C142F));
     - Office 365 бизнес, которая включает Exchange ([бесплатная пробная версия](https://go.microsoft.com/fwlink/p/?LinkID=510938)).
-  - Прежде чем начать работу, создайте тестовый профиль для устройств iOS, выполнив инструкции из [краткого руководства по созданию профиля электронной почты устройства для iOS](quickstart-email-profile.md).
+  - Прежде чем начать работу, создайте тестовый профиль для устройств iOS, выполнив инструкции отсюда: [Краткое руководство. Создание профиля электронной почты устройства для iOS](quickstart-email-profile.md).
 
 ## <a name="sign-in-to-intune"></a>Вход в Intune
 

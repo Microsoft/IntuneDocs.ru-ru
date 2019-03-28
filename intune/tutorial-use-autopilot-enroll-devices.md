@@ -10,6 +10,7 @@ ms.date: 10/19/2018
 ms.topic: tutorial
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
 Customer intent: As an Intune admin, I want to set up Windows Autopilot so that users can enroll in Intune.
@@ -17,14 +18,15 @@ ms.reviewer: angerobe
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
-ms.openlocfilehash: 087f890f84c9bc0ff0c46f129ef84b8a268c738e
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 36aa9ad733e2ae5e0f4a292b073fbebd5f5f5f8f
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187741"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57395985"
 ---
-# <a name="tutorial-use-autopilot-to-enroll-windows-devices-in-intune"></a>Руководство по использованию Autopilot для регистрации устройств Windows в Intune
+# <a name="tutorial-use-autopilot-to-enroll-windows-devices-in-intune"></a>Руководство. Использование Autopilot для регистрации устройств Windows в Intune
 Windows Autopilot упрощает регистрацию устройств. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять пользователям новые устройства без необходимости создавать, обслуживать и распространять образы операционной системы. 
 
 Из этого руководства вы узнаете, как выполнять следующие задачи:
@@ -42,7 +44,7 @@ Windows Autopilot упрощает регистрацию устройств. Б
 
 ## <a name="prerequisites"></a>Предварительные условия
 - [Настроенная автоматическая регистрация Windows](quickstart-setup-auto-enrollment.md).
-- [Требуется подписка Azure Active Directory Premium.](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) <!--&#40;[trial subscription](http://go.microsoft.com/fwlink/?LinkID=816845)&#41;-->
+- [Подписка Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) <!--&#40;[trial subscription](http://go.microsoft.com/fwlink/?LinkID=816845)&#41;-->
 
 
 ## <a name="add-devices"></a>Добавление устройств
@@ -93,9 +95,9 @@ Windows Autopilot упрощает регистрацию устройств. Б
 4. Для параметра **Режим развертывания** выберите **Под управлением пользователя**. Устройства с таким профилем связываются с пользователем, регистрирующим устройство. Для регистрации устройства нужны учетные данные пользователя.
 5. В поле **Тип присоединения к Azure AD** выберите **Присоединено к Azure AD**.
 6. Выберите **Готовый интерфейс (OOBE)**, настройте перечисленные ниже параметры и сохраните настройки по умолчанию для всех остальных, после чего нажмите **Сохранить**.
-    - **Лицензионное соглашение (EULA)**: **Скрыть**.
-    - **Параметры конфиденциальности**: **Отобразить**.
-    - **Тип учетной записи пользователя**: **Стандартный**.
+    - **Лицензионное соглашение (EULA)**: **Скрыть**
+    - **Параметры конфиденциальности**: **Показать**
+    - **Тип учетной записи пользователя**: **Стандартный**
 
 6. Нажмите **Создать** для создания профиля. Теперь профиль развертывания Autopilot можно назначать устройствам.
 

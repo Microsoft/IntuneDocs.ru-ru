@@ -10,20 +10,22 @@ ms.date: 11/09/2018
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 81b4fa08-5333-4c54-9f49-8db5f6984ed2
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 87fb7091079086e5c455376cb5c4ae8e10f28ec1
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 62ae0c7b9a00c3e07bb49261ca1a20bd5ef5db15
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52179261"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57397286"
 ---
-# <a name="quickstart-create-a-password-compliance-policy-for-android-devices"></a>Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
+# <a name="quickstart-create-a-password-compliance-policy-for-android-devices"></a>Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
 
 В этом кратком руководстве описано, как с помощью Microsoft Intune настроить для сотрудников, использующих устройства Android, требование указывать пароль определенной длины для доступа к данным на устройствах Android. 
 
