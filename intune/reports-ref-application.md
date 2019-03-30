@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/06/2018
+ms.date: 03/19/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 39052860cefc562700608beda7f42c4146ccdf34
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: d47d7a52a212733955d441b463ef66d89f8d9143
+ms.sourcegitcommit: 93286c22426dcb59191a99e3cf2af4ff6ff16522
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566035"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58358193"
 ---
 # <a name="reference-for-application-entities"></a>Справочник по сущностям приложения
 
@@ -128,17 +128,5 @@ ms.locfileid: "57566035"
 | AppInstallState | Значение перечисления состояния установки приложения. |
 | AppInstallStateName | Имя состояния для установки приложения. |
 
-## <a name="mobileappdeviceuserinstallstatus"></a>MobileAppDeviceUserInstallStatus
 
-Сущность **MobileAppDeviceUserInstallStatus** представляет состояние установки мобильного приложения для заданного устройства или пользователя.
-
-
-|      Свойство      |                                                         Описание                                                         |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------|
-|      DateKey       |                                  Ключ даты, когда было записано состояние установки приложения.                                  |
-|       AppKey       |                             Ключ мобильного приложения, используемый для идентификации экземпляра AppRevision.                              |
-|     DeviceKey      |                              Ключ целевого устройства, используемый для идентификации экземпляра устройства.                               |
-|      UserKey       |                                Ключ целевого пользователя, используемый для идентификации экземпляра пользователя.                                 |
-| AppInstallStateKey |                     Ключ состояния установки приложения, используемый для идентификации экземпляра MobileAppInstallState.                     |
-|     КодОшибки      | Код ошибки, возвращаемый установщиком приложения, мобильной платформой или службой, которые относятся к установке приложения. |
 

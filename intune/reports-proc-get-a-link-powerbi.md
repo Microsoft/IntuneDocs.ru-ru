@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/20/2018
+ms.date: 03/28/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a3342eec0ea9797f4ce21b53e589ff4f427d03bb
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 5b93bb9911fa93998e443a797d085a568280c278
+ms.sourcegitcommit: e23e78a563928ed2b2cbc588f2aa65678f7bb409
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57564811"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58618507"
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Подключение к хранилищу данных с помощью Power BI
 
@@ -57,7 +57,7 @@ ms.locfileid: "57564811"
 > Каждый файл Power BI (PBIX) может отличаться в зависимости от расположения клиента. При управлении несколькими клиентами Intune необходимо использовать файл, скачанный с портала Azure, во время нахождения в этом клиенте.  
 
 1.  Войдите на портал Azure и выберите **Мониторинг и управление** > **Intune**. Вы также можете выполнить поиск в ресурсах по слову **Intune**.  
-2.  Откройте колонку **API хранилища данных Microsoft Intune (предварительная версия)**.
+2.  Откройте **Настройка хранилища данных Intune** колонке.
 3.  Выберите **Скачать файл Power BI**. Файл с расширением (PBIX) скачивается в указанное вами расположение.
 4.  Откройте файл в Power BI. Компонент *отчетов хранилища данных Intune* загрузится, но получение данных клиента может занять несколько секунд.
 5.  Нажмите кнопку **Обновить**, чтобы загрузить данные клиента и просмотреть отчеты.
@@ -68,7 +68,7 @@ ms.locfileid: "57564811"
 После того, как клиент прошел проверку подлинности в Azure AD, URL-адрес OData подключается к конечной точке RESTful в API хранилища данных, который предоставляет вашему клиенту отчетов модель данных. Следуйте этим инструкциям, чтобы использовать Power BI Desktop для подключения и создания собственных отчетов. Вы не ограничены Power BI Desktop и можете использовать любой аналитический инструмент с URL-адресом OData при условии, что клиент поддерживает проверку подлинности OAUTH2.0 и стандарт OData версии 4.0.
 
 1.  Войдите на портал Azure и выберите **Мониторинг и управление** > **Intune**. Вы также можете выполнить поиск в ресурсах по слову **Intune**.  
-2.  Откройте колонку **API хранилища данных Microsoft Intune (предварительная версия)**.
+2.  Откройте **Настройка хранилища данных Intune** колонке.
 3. Получите пользовательский URL-адрес канала из колонки отчетности, например `https://fef.{yourinfo}.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`.
 4. Откройте **Power BI Desktop**.
 5. Выберите **Домашняя** > **Получить данные**. Выберите **Канал OData**.

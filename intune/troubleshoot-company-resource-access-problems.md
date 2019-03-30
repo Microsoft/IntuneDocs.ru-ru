@@ -1,11 +1,11 @@
 ---
-title: Устранение неполадок, связанных с доступом к ресурсам компании | Документы Майкрософт
-description: Используйте коды ошибок и состояний Microsoft Intune при устранении проблем с доступом к ресурсу.
+title: Коды ошибок и состояний в Microsoft Intune — Azure | Документация Майкрософт
+description: При использовании MDM управляемых устройств, получении доступа к ресурсам компании, ошибки на устройствах iOS и ошибок ответов OMA в Microsoft Intune, см. Список ошибок, код состояния, описания и способы их устранения.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 06/08/2018
+ms.date: 03/20/2019
 ms.topic: troubleshooting
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,18 +17,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ebb311eab93abd66f6a23e58737573622b68f3e8
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 2e4d2b940a0079794c5b17e8d1c1900f630d14cd
+ms.sourcegitcommit: 464cf677e3746eaba46836dedfb94572a75032f9
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57461504"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58330484"
 ---
-# <a name="troubleshoot-company-resource-access-problems-with-microsoft-intune"></a>Устранение неполадок, связанных с доступом к ресурсам компании, с использованием Microsoft Intune
+# <a name="common-error-codes-and-descriptions-in-microsoft-intune"></a>Коды распространенных ошибок и описания в Microsoft Intune
 
-Используйте приведенные в этой статье коды ошибок и состояний для устранения неполадок, возникающих, когда действие Microsoft Intune возвращает код ошибки.
+В этой статье перечислены распространенные ошибки, коды состояния, описания и возможные решения, при доступе к ресурсам организации. Эти сведения можно используйте для устранения проблем доступа, при использовании Microsoft Intune.
 
-Если эти сведения не позволяют решить проблему, см. дополнительные справочные материалы в статье [Получение поддержки для Microsoft Intune](get-support.md).
+Если требуется поддержка справки, см. в разделе [получение поддержки для Microsoft Intune](get-support.md).
 
 ## <a name="status-codes-for-mdm-managed-windows-devices"></a>Коды состояния для устройств Windows, управляемых с помощью функции MDM
 
@@ -385,5 +385,6 @@ ms.locfileid: "57461504"
 |-2016345912|0x87D100C8|команда SyncML успешно выполнена.|
 |-2016346011|0x87D10065|указанная команда SyncML выполняется, но ее выполнение еще не завершено.|
 
-### <a name="next-steps"></a>Дальнейшие шаги
-Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](get-support.md).
+## <a name="next-steps"></a>Дальнейшие шаги
+
+Обратитесь в службу поддержки Майкрософт, чтобы [получение поддержки для Microsoft Intune](get-support.md).

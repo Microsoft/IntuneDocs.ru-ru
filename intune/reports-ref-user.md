@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/14/2018
+ms.date: 03/20/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ccd9a14c29db5039ce0173d0c09fd3d2851755f3
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 4ab0674304f1e74c8bf2ad1aeecd419575484e5f
+ms.sourcegitcommit: 93286c22426dcb59191a99e3cf2af4ff6ff16522
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566256"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58358176"
 ---
 # <a name="reference-for-user-entity"></a>Справочник по сущности User
 
@@ -40,13 +40,10 @@ ms.locfileid: "57566256"
 | UserKey |Уникальный идентификатор пользователя в хранилище данных — суррогатный ключ. |123 |
 | UserId |Уникальный идентификатор пользователя — аналогичен UserKey, но является естественным ключом. |b66bc706-ffff-7437-0340-032819502773 |
 | UserEmail |Адрес электронной почты пользователя. |John@constoso.com |
-| Имя участника-пользователя | Имя участника-пользователя (UPN). | John@constoso.com |
+| userPrincipalName | Имя участника-пользователя (UPN). | John@constoso.com |
 | DisplayName |Отображаемое имя пользователя. |Виталий |
 | IntuneLicensed |Указывает, имеет ли этот пользователь лицензию Intune. |Истина/ложь |
 | IsDeleted | Указывает, истек ли срок действия всех лицензий пользователя и был ли он удален из Intune. При наличии одной записи этот флаг не изменяется. Вместо этого, если пользователь имеет новое состояние, создается другая запись. |Истина/ложь |
-| StartDateInclusiveUTC |Если свойство IsDeleted имеет значение FALSE, возвращается дата и время (в формате UTC) появления пользователя в Intune и назначения ему лицензии. Если свойство IsDeleted имеет значение TRUE, возвращается дата и время (в формате UTC) истечения срока действия лицензий пользователя и его удаления из Intune. |23/11/2016 12:00:00 |
-| EndDateExclusiveUTC |Если свойство IsDeleted имеет значение FALSE, возвращается дата и время (в формате UTC) истечения срока действия лицензии пользователя и его удаления из Intune. Срок действия лицензии иногда истекает в течение предыдущего дня. Если свойство IsDeleted имеет значение TRUE, возвращается дата и время (в формате UTC) возобновления лицензии и повторного создания пользователя в Intune.  |23/11/2016 12:00:00 |
-| IsCurrent |Указывает, представляет ли эта запись актуальное состояние пользователя. Один пользователь может иметь несколько записей, но только одна из них представляет текущее состояние.  |Истина/ложь |
 | RowLastModifiedDateTimeUTC |Дата и время (в формате UTC) последнего изменения записи в хранилище данных.  |23/11/2016 12:00:00 |
 
 ## <a name="next-steps"></a>Дальнейшие шаги

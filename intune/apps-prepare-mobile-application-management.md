@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/06/2018
+ms.date: 03/19/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4e1e3e510cf1ef7e13e653f7793433045b0610ef
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: f3addd79b20c685c5643a2b99fb7120e958cdecb
+ms.sourcegitcommit: 1069b3b1ed593c94af725300aafd52610c7d8f04
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565480"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58394887"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -87,6 +87,7 @@ ms.locfileid: "57565480"
 |Разрешить приложению передавать данные в другие приложения|X|X|
 |Разрешить приложению получать данные из других приложений|X|X|
 |Ограничить вырезание, копирование и вставку данных между приложениями|X|X|
+|Укажите количество символов, которые могут быть вырезанных или скопированных в управляемом приложении|X|X|
 |Требовать простой PIN-код для доступа|X|X|
 |Specify the number of attempts before PIN reset (Указать число попыток до сброса ПИН-кода)|X|X|
 |Разрешить вход с использованием отпечатков пальцев вместо ПИН-кода|X|X|
