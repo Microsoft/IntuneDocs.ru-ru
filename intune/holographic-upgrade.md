@@ -7,20 +7,21 @@ author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 01/22/2019
-ms.topic: conceptual
+ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2176eda7ce54906c6af5b34cc3db49e21ecda274
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
-ms.translationtype: HT
+ms.openlocfilehash: 1c6a2f4fc3e3cae171cea96520d075a659d4d1ca
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57231967"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57566341"
 ---
 # <a name="upgrade-devices-running-windows-holographic-to-windows-holographic-for-business"></a>Обновление устройств с Windows Holographic до Windows Holographic for Business
 
@@ -36,8 +37,8 @@ Microsoft Intune включает множество параметров для
 
 ## <a name="edition-upgrade"></a>Обновление выпусков
 
-- **Выпуск, до которого необходимо обновить**: выберите **Windows 10 Holographic для бизнеса**.
-- **Файл лицензии**: перейдите и выберите полученный вами файл лицензии XML.
+- **Выпуск для обновления до**: выберите **Windows 10 Holographic для бизнеса**.
+- **Файл лицензии**: укажите расположение полученного вами XML-файла лицензии.
 
   ![Введите имя файла XML, которое включает информацию о Holographic for Business.](media/Holographic-edition-upgrade.png)
  

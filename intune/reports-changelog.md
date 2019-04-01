@@ -6,10 +6,11 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/11/2010
-ms.topic: article
+ms.date: 02/22/2019
+ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: E85DBB2D-67BB-4E10-82D6-E43046B9C43C
 ms.reviewer: aanavath
@@ -17,18 +18,33 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f8e10549e05f814975337831e3eb9821d87a3f43
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 20c9c1bf5eea12407cba2e00288a039b74fcaca7
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55834013"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57565644"
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Следите за обновлениями хранилища данных Intune.
+
+## <a name="1902"></a>1902 
+_Выпущено в феврале 2019 г._
+
+### <a name="power-bi-compliance-app"></a>Соответствие приложения Power BI 
+
+Доступ к хранилищу данных Intune в Power BI Online стал возможен благодаря [соответствия Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) приложения. С этим приложением Power BI теперь можно получить доступ к и совместно использовать предварительно созданные отчеты без настроек и не выходя из веб-браузере. 
+
+> [!NOTE]
+> Существует два дополнительных фильтров, которые можно применить к приложению соответствия Intune.
+
+#### <a name="add-additional-filters-to-the-intune-compliance-app"></a>Добавить дополнительные фильтры для него соответствия Intune
+1. Откройте [соответствия Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) приложения в вашей веб-браузеров.
+2. Нажмите кнопку **несоответствующие устройства** и выберите **несоответствующие** в **complianceStatus** фильтра. 
+3. Щелкните **устройств Неизвестная** и выберите **еще не доступна** в **complianceStatus** фильтра. 
 
 ## <a name="1812"></a>1812 
 _Выпуск в декабре 2018 г._
@@ -60,7 +76,7 @@ _Выпущен: май 2018 г._
 ## <a name="1801"></a>1801
 _Выпущен в январе 2018 г._
 
-### <a name="intune-data-warehouse-application-only-authentication----1867540---"></a>Аутентификация в хранилище данных Intune, предназначенная только для приложений <!-- 1867540 -->
+### <a name="intune-data-warehouse-application-only-authentication----1867540---"></a>Аутентификация в хранилище данных, предназначенная только для приложений <!-- 1867540 -->
 
 Вы можете настроить приложение с помощью Azure Active Directory (Azure AD) и выполнить аутентификацию в хранилище данных Intune. Дополнительные сведения см. в статье [Аутентификация в хранилище данных, предназначенная только для приложений](data-warehouse-app-only-auth.md).
 

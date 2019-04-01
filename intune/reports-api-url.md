@@ -6,10 +6,11 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/09/2018
+ms.date: 02/25/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: A7A174EC-109D-4BB8-B460-F53AA2D033E6
 ms.reviewer: aanavath
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: caf4401a2274a74050ec0eb404363cfc15b23e76
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
-ms.translationtype: HT
+ms.openlocfilehash: e0e56c2dd4e26c68a82d5cb9d902e4480e1b98c8
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55851446"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57396493"
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Конечная точка API для хранилища данных Intune
 
@@ -57,11 +58,13 @@ URL-адрес содержит следующие элементы:
 
 ## <a name="api-version-information"></a>Сведения о версии API
 
-Текущая версия API: `beta`. 
+Теперь вы можете использовать версию 1.0 хранилища данных Intune, задав параметр запроса `api-version=v1.0`. Обновления коллекций в хранилище данных носят аддитивный характер и не нарушают существующие сценарии.
+
+Вы можете самостоятельно оценить новые функциональные возможности хранилища данных с помощью бета-версии. Для ее использования URL-адрес должен содержать параметр запроса `api-version=beta`. Бета-версия позволяет воспользоваться функциями до того, как они станут общедоступными в виде поддерживаемой службы. По мере добавления новых возможностей в Intune поведение и контракты данных в бета-версии могут изменяться. Любые средства ведения отчетов или пользовательский код, зависящие от бета-версии, с выходом обновлений могут начать работать неправильно.
 
 ## <a name="odata-query-options"></a>Параметры запроса OData
 
-Текущая версия поддерживает следующие параметры запроса OData: `$filter, $orderby, $select, $skip,` и `$top`.
+Текущая версия поддерживает следующие параметры запроса OData: `$filter`, `$select`, `$skip,` и `$top`. В `$filter`, только `DateKey` или `RowLastModifiedDateTimeUTC` может поддерживаться, если столбцы применимы, и другие свойства приведет к запуску недопустимый запрос.
 
 ## <a name="datekey-range-filters"></a>Фильтры диапазона DateKey
 
@@ -73,15 +76,12 @@ URL-адрес содержит следующие элементы:
 ## <a name="filter-examples"></a>Примеры фильтров
 
 > [!NOTE]
-> В примерах фильтра подразумевается, что сегодняшняя дата — 21.02.2018.
+> В примерах фильтра подразумевается, что сегодняшняя дата — 21.02.2019.
 
 |                             Filter                             |           Оптимизация производительности           |                                          Описание                                          |
 |:--------------------------------------------------------------:|:--------------------------------------------:|:---------------------------------------------------------------------------------------------:|
 |    `maxhistorydays=7`                                            |    Полная архивация                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180221.                                     |
 |    `$filter=DateKey eq 20180214`                                 |    Полная архивация                                      |    Возврат данных с `DateKey`, равным 20180214.                                                    |
 |    `$filter=DateKey ge 20180214 and DateKey lt 20180221`         |    Полная архивация                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180220.                                     |
-|    `maxhistorydays=7&$filter=Id gt 1`                            |    Частичная, Id gt 1 не оптимизируется    |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180221 при значении Id больше 1.             |
 |    `maxhistorydays=7&$filter=DateKey eq 20180214`                |    Полная архивация                                      |    Возврат данных с `DateKey`, равным 20180214. `maxhistorydays` игнорируется.                            |
-|    `$filter=DateKey eq 20180214 and Id gt 1`                     |    Нет                                      |    Не обрабатывается как фильтр диапазона `DateKey`, следовательно, производительность не повышается.                              |
-|    `$filter=DateKey ne 20180214`                                 |    Нет                                      |    Не обрабатывается как фильтр диапазона `DateKey`, следовательно, производительность не повышается.                              |
-|    `maxhistorydays=7&$filter=DateKey eq 20180214 and Id gt 1`    |    Нет                                      |    Не обрабатывается как фильтр диапазона `DateKey`, следовательно, производительность не повышается. `maxhistorydays` игнорируется.    |
+|    `$filter=RowLastModifiedDateTimeUTC ge 2018-02-21T23:18:51.3277273Z`                                |    Полная архивация                                       |    Возвращать данные с `RowLastModifiedDateTimeUTC` больше или равно `2018-02-21T23:18:51.3277273Z`                             |

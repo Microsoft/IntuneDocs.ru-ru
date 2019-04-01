@@ -6,21 +6,22 @@ author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 12/05/2018
-ms.topic: conceptual
+ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e0707226412d314ac1d44ba339b4c9151b394919
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
-ms.translationtype: HT
+ms.openlocfilehash: 4973dc5038ecfe9a8e909df1a1db3feceb30979b
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57233905"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57565338"
 ---
 # <a name="macos-device-feature-settings-in-intune"></a>Настройка параметров для функций устройств macOS в Intune
 
@@ -34,7 +35,7 @@ Intune содержит некоторые встроенные параметр
 
 1. В меню **Параметры** выберите **AirPrint**. Введите следующие свойства сервера AirPrint:
 
-    - **IP-адрес**: Введите IPv4- или IPv6-адрес принтера. Если для обозначения принтеров используются имена узлов, IP-адрес можно получить, проверив связь с принтером с помощью приложения "Терминал". Дополнительные сведения см. в этой статье в разделе [Получение IP-адреса и пути](#get-the-ip-address-and-path).
+    - **IP-адрес**. Введите IPv4- или IPv6-адрес принтера. Если для обозначения принтеров используются имена узлов, IP-адрес можно получить, проверив связь с принтером с помощью приложения "Терминал". Дополнительные сведения см. в этой статье в разделе [Получение IP-адреса и пути](#get-the-ip-address-and-path).
     - **Путь**. Введите путь для принтера. Как правило, для принтеров в сети путь будет таким: `ipp/print`. Дополнительные сведения см. в этой статье в разделе [Получение IP-адреса и пути](#get-the-ip-address-and-path).
     - **Порт**. Укажите порт прослушивания для целевого объекта AirPrint. Если это свойство не указано, AirPrint будет использовать порт по умолчанию. Доступно в iOS 11.0 и более поздних версий.
     - **TLS**. Выберите **Включить**, чтобы защитить подключения AirPrint с помощью TLS. Доступно в iOS 11.0 и более поздних версий.

@@ -7,20 +7,22 @@ author: dougeby
 manager: dougeby
 ms.author: dougeby
 ms.date: 03/08/2018
-ms.topic: article
+ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 79A67342-C06D-4D20-A447-678A6CB8D70A
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 5129484a3cfea873be4009849b5989f9c2acd888
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
-ms.translationtype: HT
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 8625eddaa3c6223767c7c93022275b028b4a145b
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187456"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57566562"
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Доступ к интерфейсам API Intune в Microsoft Graph с использованием Azure AD
 
@@ -146,13 +148,13 @@ __Выполнение удаленных действий, затрагиваю
 __Чтение и запись устройств Microsoft Intune__ | [DeviceManagementManagedDevices.ReadWrite.All](#mgd-rw)
 __Чтение устройств Microsoft Intune__ | [DeviceManagementManagedDevices.Read.All](#mgd-ro)
 __Чтение и запись параметров управления доступом на основе ролей Microsoft Intune__ | [DeviceManagementRBAC.ReadWrite.All](#rac-rw)
-__Чтение параметров управления доступом на основе ролей Microsoft Intune__ | [DeviceManagementRBAC.Read.All](#rac=ro)
+__Чтение параметров управления доступом на основе ролей Microsoft Intune__ | DeviceManagementRBAC.Read.All
 __Чтение и запись приложений Microsoft Intune__ | [DeviceManagementApps.ReadWrite.All](#app-rw)
 __Чтение приложений Microsoft Intune__ | [DeviceManagementApps.Read.All](#app-ro)
-__Чтение и запись конфигурации и политик устройств Microsoft Intune__ | [DeviceManagementConfiguration.ReadWrite.All](#cfg-rw)
+__Чтение и запись конфигурации и политик устройств Microsoft Intune__ | DeviceManagementConfiguration.ReadWrite.All
 __Чтение конфигурации и политик устройств Microsoft Intune__ | [DeviceManagementConfiguration.Read.All](#cfg-ro)
 __Чтение и запись конфигурации Microsoft Intune__ | [DeviceManagementServiceConfig.ReadWrite.All](#svc-rw)
-__Чтение конфигурации Microsoft Intune__ | [DeviceManagementServiceConfig.Read.All](#svc-ra)
+__Чтение конфигурации Microsoft Intune__ | DeviceManagementServiceConfig.Read.All
 
 Эта таблица содержит параметры, отображаемые на портале Azure. В следующих разделах области описываются в алфавитном порядке.
 
@@ -588,7 +590,7 @@ catch {
 
 Кроме того:
 
-- С помощью портала https://portal.office.com назначьте лицензию Intune учетной записи пользователя.
+- С помощью портала https://admin.microsoft.com назначьте лицензию Intune учетной записи пользователя.
 
 - Обновите код приложения таким образом, чтобы реализовать проверку подлинности в домене клиента Azure AD соответствующего клиента, а не в вашем собственном.
 

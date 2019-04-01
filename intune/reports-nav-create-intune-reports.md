@@ -7,9 +7,10 @@ author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/14/2018
-ms.topic: conceptual
+ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 57019B11-DF9B-4D8A-95FE-254C75398DDE
 ms.reviewer: aanavath
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1ac6591256e1bb45c0e2ac9c1d6fe9ac213b106a
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
-ms.translationtype: HT
+ms.openlocfilehash: c3112683d44b7c4d4a3e9d1bccc6fb8c06450600
+ms.sourcegitcommit: fdc6261f4ed695986e06d18353c10660a4735362
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57234041"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "58069123"
 ---
 # <a name="use-the-microsoft-intune-data-warehouse"></a>Использование хранилища данных Microsoft Intune
 
@@ -42,7 +43,7 @@ ms.locfileid: "57234041"
   -  модели данных, использующей стандарт OData.
 
 > [!Note]
-> Если вы используете гибридное управление мобильными устройствами (MDM) с помощью System Center Configuration Manager и Microsoft Intune, можно извлекать данные из SCCM. Хранилище данных Intune содержит только данные Intune. Для создания пользовательских отчетов можно использовать панель мониторинга SCCM Power BI. Дополнительные сведения см. в статьях [Announcing the Power BI solution template for System Center Configuration Manager]( https://powerbi.microsoft.com/blog/sccm-solution-template) (Представление шаблона решения Power BI для System Center Configuration Manager) и [Power BI content for Dynamics 365](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page) (Содержимое Power BI для Dynamics 365).
+> Если вы используете совместное управление мобильными устройствами (MDM) с помощью System Center Configuration Manager и Microsoft Intune, можно извлекать данные из Configuration Manager. Хранилище данных Intune содержит только данные Intune. Панель мониторинга Power BI Configuration Manager можно использовать для создания пользовательских отчетов. Дополнительные сведения см. в статьях [Announcing the Power BI solution template for System Center Configuration Manager]( https://powerbi.microsoft.com/blog/sccm-solution-template) (Представление шаблона решения Power BI для System Center Configuration Manager) и [Power BI content for Dynamics 365](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page) (Содержимое Power BI для Dynamics 365).
 
 > [!Important]  
 > Теперь вы можете использовать версию 1.0 хранилища данных Intune, задав параметр запроса `api-version=v1.0`. Обновления коллекций в хранилище данных носят аддитивный характер и не нарушают существующие сценарии.<br><br>

@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9444a124b9b8a47633f544205940dadb3df0fd8f
-ms.sourcegitcommit: da9ee02de327f202b00be44c79bf7abd35b9929b
-ms.translationtype: HT
+ms.openlocfilehash: 55935b2f69f9573d8df5ea5ca32fb4587c652b26
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57335009"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57389469"
 ---
 # <a name="your-android-device-seems-to-be-encrypted-but-company-portal-says-otherwise"></a>Похоже, для устройства Android включено шифрование, но корпоративный портал считает иначе.
 
@@ -63,16 +63,15 @@ ms.locfileid: "57335009"
 
 ### <a name="known-devices-that-can-be-updated-to-fix-this-issue"></a>Известные устройства, обновление которых поможет решить эту проблему
 
-Если вы используете одно из следующих устройств, для решения этой проблемы рекомендуется выполнить обновление до последней версии Android. Для установки обновлений на этих устройствах выберите **Settings** > **Update** (Параметры > Обновление). 
+Если устройство еще не обновлен до самой последней версии Android, перейдите на устройство **параметры** приложении и выберите **обновления**. Эти устройства могут отображаться как несоответствующие, пока вы не обновите:  
 
-- [Huawei Honor 8](https://consumer.huawei.com/us/support/phones/honor-8/)
-- [Huawei P9](https://consumer.huawei.com/en/phones/p9/)
+- Huawei Honor 8
+- Huawei P9
 
 ### <a name="known-devices-that-currently-cannot-be-updated-to-fix-this-issue"></a>Известные устройства, обновление которых не поможет решить эту проблему
+Следующие устройства всегда будет отображаться как зашифрованные и не может использоваться для доступа к ресурсам компании. Для доступа к ресурсам компании, необходимо использовать другое устройство.  
 
-Нам не удалось решить эту проблему для перечисленных ниже устройств. Для получения доступа к ресурсам компании вам может потребоваться другое устройство. 
-
-- [Huawei Mate 8](https://consumer.huawei.com/en/mobile-phones/mate8/index.htm)
-- [Устройства OPPO](https://www.oppo.com/en/smartphones)
-- [Устройства Vivo](https://www.vivo.co.in)
-- [Смартфоны Xiaomi Mi](https://xiaomi-mi.com/mi-smartphones/)
+- Huawei Mate 8
+- Устройства OPPO
+- Устройства Vivo
+- Смартфоны Xiaomi Mi

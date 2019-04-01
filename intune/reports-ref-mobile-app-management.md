@@ -6,10 +6,11 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/20/2018
-ms.topic: conceptual
+ms.date: 03/05/2019
+ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 084F11AD-F7BA-45A4-8424-45E6E4564930
 ms.reviewer: aanavath
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a21194b218cc7df230bf1ef1969b8d4483940d75
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 7ea3e2c87055e4f111c8f12c47c468dff2c4e587
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57238767"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57565695"
 ---
 # <a name="reference-for-mobile-app-management-mam-entities"></a>Справочник по сущностям управления мобильными приложениями (MAM)
 
@@ -83,12 +84,12 @@ ms.locfileid: "57238767"
 | Свойство | Описание | Пример |
 |---------|------------|--------|
 | DateKey |Ключ даты, когда в хранилище данных была записана отметка приложения MAM. | 20160703 |
-| ApplicationInstanceKey |Ключ экземпляра приложения, связанный с этой отметкой приложения MAM. |2/5/1900 12:00:00 |
-| UserKey |Ключ пользователя, связанный с этой отметкой приложения MAM. |12/1/1900 12:00:00 |
-| ApplicationKey |Ключ отметившегося приложения MAM. |10/1/1900 12:00:00 |
-| DeviceHealthKey |Ключ DeviceHealth, связанный с этой отметкой приложения MAM. |2/1/1900 12:00:00 |
-| PlatformKey |Представляет платформу устройства, связанного с этой отметкой приложения MAM. |1/1/1900 12:00:00 |
-| EffectiveAppliedPolicyKey |Представляет эффективную действующую политику, связанную с этим отметившимся приложением MAM. Эффективная действующая политика получается путем объединения всех политик, которые относятся к конкретному приложению и пользователю. |2/5/1900 12:00:00 |
+| ApplicationInstanceKey |Ключ экземпляра приложения, связанный с этой отметкой приложения MAM. | 123 |
+| UserKey |Ключ пользователя, связанный с этой отметкой приложения MAM. | 4323 |
+| ApplicationKey |Ключ отметившегося приложения MAM. |234 |
+| DeviceHealthKey |Ключ DeviceHealth, связанный с этой отметкой приложения MAM. | 321 |
+| PlatformKey |Представляет платформу устройства, связанного с этой отметкой приложения MAM. |123 |
+| EffectiveAppliedPolicyKey |Представляет эффективную действующую политику, связанную с этим отметившимся приложением MAM. Эффективная действующая политика получается путем объединения всех политик, которые относятся к конкретному приложению и пользователю. | 322 |
 | LastCheckInDate |Дата и время последней отметки этого приложения MAM. Может иметь значение NULL. |23/11/2016 12:00:00 |
 
 ## <a name="mamdevicehealth"></a>MamDeviceHealth
@@ -97,8 +98,8 @@ ms.locfileid: "57238767"
 
 | Свойство | Описание | Пример |
 |---------|------------|--------|
-| DeviceHealthKey |Уникальный идентификатор для устройства и его работоспособности в хранилище данных — суррогатный ключ. |1/1/1900 12:00:00 |
-| DeviceHealth |Уникальный идентификатор для устройства и его работоспособности — аналогичен DeviceHealthKey, но является естественным ключом. |1/1/1900 12:00:00 |
+| DeviceHealthKey |Уникальный идентификатор для устройства и его работоспособности в хранилище данных — суррогатный ключ. |123 |
+| DeviceHealth |Уникальный идентификатор для устройства и его работоспособности — аналогичен DeviceHealthKey, но является естественным ключом. |b66bc706-ffff-7777-0340-032819502773 |
 | DeviceHealthName |Представляет состояние устройства. <br>Not available — информация об этом устройстве отсутствует. <br>Healthy — устройство не подвергалось взлому ОС. <br>Unhealthy — устройство подвергалось взлому ОС. |Not Available Healthy Unhealthy |
 | RowLastModifiedDateTimeUtc |Дата и время (в формате UTC) последнего изменения работоспособности этого устройства MAM в хранилище данных. |23/11/2016 12:00:00 |
 

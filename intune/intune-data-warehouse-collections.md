@@ -10,18 +10,20 @@ ms.date: 01/11/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 29f09230-dc56-43db-b599-d961967bda49
 ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
-ms.openlocfilehash: 2eae4ea2bfabe1b41af88ae34b81fbf12ef5f9d9
-ms.sourcegitcommit: e9ba1280b95565a5c5674b825881655d0303e688
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 2cdf7ea715a13809c860e77412914e3fd2b45a28
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54297508"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57400489"
 ---
 #  <a name="intune-data-warehouse-collections"></a>Коллекции хранилища данных Intune
 
@@ -505,7 +507,10 @@ ms.locfileid: "54297508"
 |:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------:|
 | ownerTypeID   | Уникальный идентификатор для типа владельца.                                                                                                                                               |                            |
 | ownerTypeKey  | Уникальный идентификатор типа владельца в хранилище данных — суррогатный ключ.                                                                                                       |                            |
-| ownerTypeName | Представляет тип владельца устройств:  Компания — устройство принадлежит организации.  Personal — устройство является личным (BYOD).   Unknown — информация об этом устройстве отсутствует. | Company Personal Unknown |
+| ownerTypeName | Представляет тип владельца устройств: Corporate — устройство принадлежит предприятию.  Personal — устройство является личным (BYOD).   Unknown — информация об этом устройстве отсутствует. | Корпоративные личных неизвестно |
+
+> [!Note]  
+> Для `ownerTypeName` фильтра в Azure AD, при создании динамических групп для устройств, необходимо задать значение `deviceOwnership` как `Company`. Дополнительные сведения см. в разделе [правила для устройств](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices). 
 
 ## <a name="policies"></a>политики
 Сущность **Policy** перечисляет профили конфигурации устройств, профили конфигурации приложений и политики соответствия требованиям. Вы можете назначить политики группе в вашей организации с помощью управления мобильными устройствами (MDM).
