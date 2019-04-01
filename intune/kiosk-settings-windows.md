@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/13/2019
+ms.date: 03/11/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 78b47decc297c58feadb7cd507a3ff09070d46d4
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
-ms.translationtype: HT
+ms.openlocfilehash: 55a0cb45cd3e3a8e367b0bff7bd8e856b02af953
+ms.sourcegitcommit: aab39bf86707ccaef45fd6527fff4f1c89336710
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565746"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58429697"
 ---
 # <a name="windows-10-and-later-device-settings-to-run-as-a-kiosk-in-intune"></a>Настройка параметров устройства Windows 10 (и более поздних версий) для запуска в качестве киоска в Intune
 
@@ -176,6 +176,7 @@ ms.locfileid: "57565746"
 
       Нажмите кнопку **OK**, чтобы сохранить изменения.
 
+    - **Запускать**: необязательно. Выберите приложение запускать, когда пользователь выполняет вход. Только одно приложение может быть AutoLaunched.
     - **Размер плитки.** Обязательный параметр. Выберите размер плитки для приложения: маленькая, средняя, широкая или большая.
 
   > [!TIP]
@@ -184,6 +185,8 @@ ms.locfileid: "57565746"
 - **Использовать альтернативный макет начального экрана.** Выберите **Да**, чтобы указать XML-файл с описанием отображения приложений в меню "Пуск", включая их очередность. Используйте этот параметр, если вам нужны определенные настройки меню "Пуск". [Customize and export Start layout](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout) (Настроить и экспортировать макет меню "Пуск") — предоставляет некоторые рекомендации и образец XML-файла.
 
 - **Панель задач Windows**. С помощью этого параметра можно **показать** или **скрыть** панель задач. По умолчанию панель задач не отображается. Отображаются значки, такие как значок Wi-Fi, при этом пользователи не могут изменять параметры.
+
+- **Разрешить доступ к папке загрузок**: выберите **Да** чтобы пользователи могли получить доступ к папке «загрузки» в обозревателе Windows. По умолчанию доступ к папке «загрузки» отключен. Эта функция обычно используется для конечных пользователей для доступа к элементам, которые загружены из браузера.
 
 Нажмите кнопку **OK**, чтобы сохранить изменения.
 
