@@ -1,11 +1,11 @@
 ---
-title: Отмена регистрации устройства с macOS в Intune | Документы Майкрософт
-description: Сведения об отмене регистрации устройства с macOS в Intune
+title: Отмена регистрации устройства macOS с помощью Корпоративного портала Intune | Microsoft Docs
+description: Сведения об отмене регистрации устройства macOS с помощью Корпоративного портала
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/12/2018
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,22 +18,24 @@ ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b3518707aa90c3866fbf8b24936db6d781712bdb
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 19cb76df318abe84670c1a7d703e85e3b7e7539a
+ms.sourcegitcommit: 464cf677e3746eaba46836dedfb94572a75032f9
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55839997"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58330404"
 ---
-# <a name="unenroll-your-macos-device-from-intune"></a>Отмена регистрации устройства с macOS в Intune
+# <a name="unenroll-your-macos-device-from-company-portal"></a>Отмена регистрации устройства с корпоративного портала macOS
 
-Устройство macOS, для которого была отменена регистрация в Intune, больше не сможет получать доступ к ресурсам организации.
+Устройство macOS с отмененной регистрацией в Intune больше не сможет получать доступ к ресурсам организации.
 
 Чтобы отменить регистрацию устройства с macOS в системе управления, выполните указанные ниже действия.
 
-1.  В приложении корпоративного портала откройте раздел **Мои устройства** и выберите устройство, регистрацию которого вы хотите отменить.
+1.  Войдите в Корпоративный портал для macOS.
+2.  Щелкните **Устройства** и выберите устройство, регистрацию которого вы хотите отменить.
 
-2.  Выберите **Удалить** > **Удалить**.
+3.  Щелкните значок меню с многоточием > **удалить**.
+4.  Появится сообщение с подтверждением. Выберите **удалить** отменить регистрацию устройства. 
 
 При отмене регистрации устройства в Intune происходит следующее:
 
