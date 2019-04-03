@@ -1,12 +1,12 @@
 ---
 title: Краткое руководство. Создание профиля электронной почты для устройств iOS
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Узнайте, как с помощью Microsoft Intune создать профиль электронной почты устройства для безопасного подключения устройств iOS к корпоративной электронной почте.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/29/2018
+ms.date: 03/26/2019
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c0c96ffdabca3a29b2e0ac5d0a26d5e23b0dabda
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: b252c9d3d719847c8c0911b6cbce06c83bb4bf0e
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57390458"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58799288"
 ---
 # <a name="quickstart-create-an-email-device-profile-for-ios"></a>Краткое руководство. Создание профиля электронной почты устройства для iOS
 
@@ -33,7 +33,7 @@ ms.locfileid: "57390458"
 
 ## <a name="sign-in-to-intune"></a>Вход в Intune
 
-Войдите в [Intune](https://aka.ms/intuneportal) в качестве глобального администратора или администратора службы Intune. Чтобы найти Intune, на портале Azure выберите **Все службы**  >  **Intune**.
+Войдите в [Intune](https://aka.ms/intuneportal) в качестве глобального администратора или администратора службы Intune. Если вы создали подписку на пробную версию Intune, учетная запись, с помощью которой вы создали подписку, является глобальным администратором.
 
 ## <a name="create-an-ios-email-profile"></a>Создание профиля электронной почты для iOS
 1. В Intune выберите **Конфигурация устройства**, а затем — **Профили**.
