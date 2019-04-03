@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/04/2019
+ms.date: 03/20/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e6e82e24f051e64d07487d915ac6fd0848727ecf
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
-ms.translationtype: HT
+ms.openlocfilehash: acf14ea6f1b667cb631a424223a40e44a8338edd
+ms.sourcegitcommit: 768430b5296573c6e007ae4e13d57aeda4be4b7e
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566817"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306848"
 ---
 # <a name="add-a-device-compliance-policy-for-windows-devices-in-intune"></a>Добавление политики соответствия требованиям для устройств Windows в Intune
 
@@ -125,7 +125,10 @@ ms.locfileid: "57566817"
 
 - **Требовать целостность кода**. Целостность кода представляет собой функцию, которая проверяет целостность драйвера или системного файла при каждой его загрузке в память. Целостность кода обнаруживает загрузку неподписанного драйвера или системного файла в ядро. Она также обнаруживает изменение системного файла вредоносным программным обеспечением, которое выполняется под учетной записью пользователя с правами администратора.
 
-Дополнительные сведения о работе службы HAS см. в статье [Аттестация работоспособности устройства CSP](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp).
+Дополнительные ресурсы:
+
+- Подробные сведения о работе службы HAS см. в статье [Device HealthAttestation CSP](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp) (Поставщик служб конфигурации DHA).
+- [Поддержки Совет: С помощью параметры аттестации работоспособности устройства как часть политике соответствия требованиям Intune ](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Using-Device-Health-Attestation-Settings-as-Part-of/ba-p/282643)
 
 ### <a name="device-properties"></a>Свойства устройства
 

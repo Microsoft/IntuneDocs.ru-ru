@@ -2,8 +2,8 @@
 title: Параметры защиты для устройств с Windows 10 в Microsoft Intune — Azure | Документация Майкрософт
 description: На устройствах Windows 10 используйте или настройте параметры защиты конечных точек для включения компонентов Защитника Windows, Application Guard, брандмауэра, SmartScreen, шифрования и BitLocker, Exploit Guard, управления приложениями, Центра обеспечения безопасности и безопасности на локальных устройствах в Microsoft Intune.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 03/04/2019
 ms.topic: reference
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fbbdbbb92c033a99f1c439271c745c1abfbcd562
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
-ms.translationtype: HT
+ms.openlocfilehash: 4c2df888e146a7f240530e5cbc6628dbce34cb61
+ms.sourcegitcommit: b0b1030017e741d92c508130447a8242d9ad7a51
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566698"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58343003"
 ---
 # <a name="windows-10-and-later-settings-to-protect-devices-using-intune"></a>Параметры Windows 10 (и более поздних версий) для защиты устройств с помощью Intune
 
@@ -87,8 +87,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 Эти параметры применяются к сетям определенных типов, включая следующие: **Доменная (рабочая) сеть**, **Частная сеть (с обнаружением)** и **Общедоступная сеть (без обнаружения)**.
 
-#### <a name="general-settings"></a>Общие параметры
-
+#### <a name="general-settings"></a>Общие параметры  
 - **Брандмауэр Защитника Windows** — выберите значение **Включить**, чтобы включить брандмауэр и режим повышенной безопасности. Когда выбрано значение **Не настроено** (по умолчанию), разрешен весь сетевой трафик, независимо от других параметров политики.
 - **Скрытый режим** — выберите значение **Блокировать**, чтобы запретить работу брандмауэра в скрытом режиме. Блокировка скрытого режима позволяет также блокировать **исключение пакетов, защищенных IPsec**. Когда выбрано значение **Не настроено** (по умолчанию), брандмауэр работает в скрытом режиме, который помогает предотвратить ответы на запросы проверки.
 - **Экранировано** — значение **Блокировать** отключает эту функцию. Значение **Не настроено** (по умолчанию) включает этот параметр. Если этот параметр и брандмауэр Защитника Windows включены, то весь входящий трафик блокируется независимо от других параметров политики.
@@ -295,7 +294,7 @@ Application Guard в Защитнике Windows изолирует среду в
 > [!IMPORTANT]
 > Чтобы разрешить правильной установки и выполнения приложений бизнес-ПРИЛОЖЕНИЙ Win32, параметры защиты от вредоносных программ следует исключить из процесса следующие каталоги:<p>
 > **В X64 клиентских компьютеров**:<br>
-> *Extension\Content C:\Program файлы (x86) \Microsoft Intune для управления ПК*<br>
+> *C:\Program Files (x86)\Microsoft Intune Management Extension\Content*<br>
 > *C:\windows\IMECache*
 >  
 > **На X86 клиентских компьютеров**:<br>

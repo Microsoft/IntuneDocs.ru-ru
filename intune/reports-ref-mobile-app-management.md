@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/05/2019
+ms.date: 03/19/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7ea3e2c87055e4f111c8f12c47c468dff2c4e587
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 524a4f39ba6a319f42ca23c7d85e84ffd86fce0d
+ms.sourcegitcommit: 93286c22426dcb59191a99e3cf2af4ff6ff16522
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565695"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58358222"
 ---
 # <a name="reference-for-mobile-app-management-mam-entities"></a>Справочник по сущностям управления мобильными приложениями (MAM)
 
@@ -43,9 +43,6 @@ ms.locfileid: "57565695"
 
 | Свойство | Описание | Пример |
 |---------|------------|--------|
-| ApplicationKey |Уникальный идентификатор приложения MAM в хранилище данных. |123 |
-| ApplicationName |Имя приложения MAM. |"Word" |
-| ApplicationId |Идентификатор приложения MAM. |b66bc706-ffff-7437-0340-032819502773 |
 | IsDeleted |Указывает, обновлена ли запись приложения MAM. <br>True — приложение MAM имеет новую запись с обновленными полями в этой таблице. <br>False — последняя запись для этого приложения MAM. |Истина/ложь |
 | StartDateInclusiveUTC |Дата и время (в формате UTC) создания этого приложения MAM в хранилище данных. |23/11/2016 12:00:00 |
 | DeletedDateUTC |Дата и время (в формате UTC), когда значение IsDeleted изменилось на True. |23/11/2016 12:00:00 |
@@ -61,14 +58,11 @@ ms.locfileid: "57565695"
 |   ApplicationInstanceKey   |                                                               Уникальный идентификатор для экземпляра приложения MAM в хранилище данных — суррогатный ключ.                                                                |                 123                  |
 |           UserId           |                                                                              Идентификатор пользователя, установившего это приложение MAM.                                                                              | b66bc706-ffff-7437-0340-032819502773 |
 |   ApplicationInstanceId    |                                              Уникальный идентификатор экземпляра приложения MAM — аналогичен ApplicationInstanceKey, но является естественным ключом.                                              | b66bc706-ffff-7437-0340-032819502773 |
-|       ApplicationId        |                                                                                        Идентификатор этого приложения MAM                                                                                         |  com.microsoft.groupies-daily.<IOS>  |
 |     ApplicationVersion     |                                                                                     Версия этого приложения MAM.                                                                                      |                  2                   |
 |        CreatedDate         |                                                                 Дата создания записи для этого экземпляра приложения MAM. Может иметь значение NULL.                                                                 |        23/11/2016 12:00:00        |
 |          Платформа          |                                                                          Платформа устройства, на котором установлено это приложение MAM.                                                                           |                  2                   |
 |      PlatformVersion       |                                                                      Версия платформы устройства, на котором установлено это приложение MAM.                                                                       |                 2.2                  |
 |         SdkVersion         |                                                                            Версия пакета SDK для MAM, с помощью которого было упаковано это приложение MAM.                                                                            |                 3.2                  |
-|          DeviceId          |                                                                          Идентификатор устройства, на котором установлено это приложение MAM.                                                                          | b66bc706-ffff-7437-0340-032819502773 |
-|         DeviceName         |                                                                         Имя устройства, на котором установлено это приложение MAM.                                                                         |              "MyDevice"              |
 |         IsDeleted          | Указывает, обновлена ли запись этого экземпляра приложения MAM. <br>True — этот экземпляр приложения MAM имеет новую запись с обновленными полями в этой таблице. <br>False — последняя запись для этого экземпляра приложения MAM. |              Истина/ложь              |
 |   StartDateInclusiveUtc    |                                                              Дата и время (в формате UTC) создания этого экземпляра приложения MAM в хранилище данных.                                                               |        23/11/2016 12:00:00        |
 |       DeletedDateUtc       |                                                                             Дата и время (в формате UTC), когда значение IsDeleted изменилось на True.                                                                              |        23/11/2016 12:00:00        |
@@ -86,7 +80,6 @@ ms.locfileid: "57565695"
 | DateKey |Ключ даты, когда в хранилище данных была записана отметка приложения MAM. | 20160703 |
 | ApplicationInstanceKey |Ключ экземпляра приложения, связанный с этой отметкой приложения MAM. | 123 |
 | UserKey |Ключ пользователя, связанный с этой отметкой приложения MAM. | 4323 |
-| ApplicationKey |Ключ отметившегося приложения MAM. |234 |
 | DeviceHealthKey |Ключ DeviceHealth, связанный с этой отметкой приложения MAM. | 321 |
 | PlatformKey |Представляет платформу устройства, связанного с этой отметкой приложения MAM. |123 |
 | EffectiveAppliedPolicyKey |Представляет эффективную действующую политику, связанную с этим отметившимся приложением MAM. Эффективная действующая политика получается путем объединения всех политик, которые относятся к конкретному приложению и пользователю. | 322 |

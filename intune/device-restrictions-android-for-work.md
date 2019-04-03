@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4610f99d9190ddad01ab604195e086e407e7161a
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
-ms.translationtype: HT
+ms.openlocfilehash: 493a5be89e747c2de1eca3a63907b79228fcdfa2
+ms.sourcegitcommit: aab39bf86707ccaef45fd6527fff4f1c89336710
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566324"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58429760"
 ---
 # <a name="android-enterprise-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Android Enterprise, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -108,7 +108,7 @@ ms.locfileid: "57566324"
   >   - [добавлено в качестве клиентского приложения](apps-add-android-for-work.md) в Intune;
   >   - [Назначено группе устройств](apps-deploy.md), созданной для ваших выделенных устройств.
   > 
-  > Приложение **управляемого начального экрана** не обязательно должно быть включено в профиль конфигурации, но оно должно быть добавлено в качестве клиентского приложения. Если приложение **управляемого начального экрана** добавлено в качестве клиентского приложения, другие приложения, добавляемые в профиль конфигурации, будут отображаться в виде значков в приложении **управляемого начального экрана**. 
+  > Приложение **управляемого начального экрана** не обязательно должно быть включено в профиль конфигурации, но оно должно быть добавлено в качестве клиентского приложения. Если приложение **Managed Home Screen** добавлено в качестве клиентского приложения, другие приложения, добавляемые в профиль конфигурации, будут отображаться в виде значков в приложении **Managed Home Screen**. 
 
   - Щелкните **Добавить** и выберите приложения из списка.
 

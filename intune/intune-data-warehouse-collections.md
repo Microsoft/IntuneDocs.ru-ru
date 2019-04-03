@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/11/2019
+ms.date: 03/20/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2cdf7ea715a13809c860e77412914e3fd2b45a28
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 5f2a9f2512f4f6fb12a65d0e7c4982fd351f1770
+ms.sourcegitcommit: 93286c22426dcb59191a99e3cf2af4ff6ff16522
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57400489"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58358323"
 ---
 #  <a name="intune-data-warehouse-collections"></a>Коллекции хранилища данных Intune
 
@@ -281,7 +281,7 @@ ms.locfileid: "57400489"
 | 12           | ISocConsumer      | Бытовое устройство iSoc                                |
 | 13           | UNIX              | Устройство с UNIX                                         |
 | 14           | MacMDM            | Устройство Mac OS X, управляемое с помощью встроенного агента MDM |
-| 15           | HoloLens          | Устройство HoloLens                                    |
+| 15           | HoloLens          | Устройство HoloLens                                       |
 | 16           | SurfaceHub        | Устройство Surface Hub                                  |
 | 17           | AndroidForWork    | Устройство Android, управляемое с помощью владельца профиля Android  |
 | 18           | AndroidEnterprise | Корпоративные устройства Android.                          |
@@ -368,8 +368,8 @@ ms.locfileid: "57400489"
 | BadRequest                      | Клиент отправил запрос, который не является понятным или не поддерживается службой.                                        |
 | FeatureNotSupported             | Компоненты, используемые в этой регистрации, не поддерживаются для этой учетной записи.                                        |
 | EnrollmentRestrictionsEnforced  | Ограничения регистрации, настроенные администратором, блокируют эту попытку регистрации.                                          |
-| ClientDisconnected              | Истекло время ожидания клиента, или попытка регистрации прервана конечным пользователем.                                                        |
-| UserAbandonment                 | Регистрация отменена конечным пользователем. (Конечный пользователь начал подключение, но ему не удалось завершить ее вовремя.)  |
+| ClientDisconnected              | Истекло время ожидания клиента, или попытка регистрации прервана пользователем.                                                        |
+| UserAbandonment                 | Регистрация отменена пользователем. (Конечный пользователь запустил подключение, но ему не удалось завершить операцию вовремя.)  |
 
 ## <a name="enrollmentfailurereasons"></a>enrollmentFailureReasons  
 Сущность **EnrollmentFailureReason** показывает дополнительные причины сбоя регистрации устройства в некой категории сбоя.  
@@ -398,7 +398,7 @@ ms.locfileid: "57400489"
 | EnrollmentCriteriaNotMet         | Не удалось зарегистрировать устройство из-за настроенного правила ограничения регистрации.                                                                                                                          |
 | BulkDeviceNotPreregistered       | Не найден идентификатор IMEI или серийный номер этого устройства.  Без этого идентификатора устройства распознаются как личные: они сейчас заблокированы.  |
 | FeatureNotSupported              | Пользователь пытался получить доступ к функции, которая пока выпущена не для всех клиентов или не совместима с вашей конфигурацией Intune.                                                            |
-| UserAbandonment                  | Регистрация отменена конечным пользователем. (Конечный пользователь начал подключение, но ему не удалось завершить ее вовремя.)                                                                                           |
+| UserAbandonment                  | Регистрация отменена пользователем. (Конечный пользователь запустил подключение, но ему не удалось завершить операцию вовремя.)                                                                                           |
 | APNSCertificateExpired           | Устройствами Apple нельзя управлять с истекшим сроком действия push-сертификата Apple MDM.                                                                                                                            |
 
 ## <a name="intunemanagementextensions"></a>intuneManagementExtensions
@@ -448,7 +448,7 @@ ms.locfileid: "57400489"
 | 5                     | EasIntuneClient                   | Устройством управляют Exchange Active Sync и агент Intune для компьютера. |
 | 8                     | ConfigManagerClient               | Устройством управляет агент System Center Configuration Manager.     |
 | 10                    | ConfigurationManagerClientMdm     | Устройством управляют Configuration Manager и MDM.                    |
-| 11                    | ConfigurationManagerCLientMdmEas  | Устройством управляют Configuration Manager, MDM и Exchange Active Sync.               |
+| 11                    | ConfigurationManagerCLientMdmEas  | Устройство управляется Configuration Manager, управления мобильными Устройствами и Exchange Active Sync.               |
 | 16                    | Неизвестно                           | Неизвестный тип агента управления.                                              |
 | 32                    | Jamf                              | Атрибуты устройства получены из Jamf.                               |
 | 64                    | GoogleCloudDevicePolicyController |  Устройством управляет CloudDPC от Google.                                 |
@@ -617,7 +617,7 @@ ms.locfileid: "57400489"
 | UserKey                    | Уникальный идентификатор пользователя в хранилище данных — суррогатный ключ.                                                                                                                                                         | 123                                  |
 | UserId                     | Уникальный идентификатор пользователя — аналогичен UserKey, но является естественным ключом.                                                                                                                                                    | b66bc706-ffff-7437-0340-032819502773 |
 | UserEmail                  | Адрес электронной почты пользователя.                                                                                                                                                                                                     | John@constoso.com                    |
-| Имя участника-пользователя                        | Имя участника-пользователя (UPN).                                                                                                                                                                                               | John@constoso.com                    |
+| userPrincipalName                        | Имя участника-пользователя (UPN).                                                                                                                                                                                               | John@constoso.com                    |
 | DisplayName                | Отображаемое имя пользователя.                                                                                                                                                                                                      | Виталий                                 |
 | IntuneLicensed             | Указывает, имеет ли этот пользователь лицензию Intune.                                                                                                                                                                              | Истина/ложь                           |
 | IsDeleted                  | Указывает, истек ли срок действия всех лицензий пользователя и был ли он удален из Intune. При наличии одной записи этот флаг не изменяется. Вместо этого, если для пользователя указано новое состояние, создается другая запись. | Истина/ложь                           |

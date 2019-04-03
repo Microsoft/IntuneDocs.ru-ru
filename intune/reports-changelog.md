@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/22/2019
+ms.date: 03/21/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,18 +18,24 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 20c9c1bf5eea12407cba2e00288a039b74fcaca7
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: d7d69c602471e8508744f2a00008294cbd335204
+ms.sourcegitcommit: 93286c22426dcb59191a99e3cf2af4ff6ff16522
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565644"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58358264"
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Следите за обновлениями хранилища данных Intune.
+
+## <a name="1903"></a>1903
+_Выпуск от марта 2019 г._
+
+### <a name="v10-changes-reflecting-back-to-beta"></a>V1.0 изменения, отражающие обратно в бета-версии
+Когда версия 1.0 впервые появилась в 1808, различаются в некоторые значительные способами — от бета-версию API. В 1903 эти изменения будут отражены в бета-версии API. Если у вас есть важные отчеты, использующие бета-версии API, настоятельно рекомендуется переключения этих отчетов версии 1.0, чтобы избежать коренных изменений. Обратитесь к [сведения о версии API](reports-api-url.md) Дополнительные сведения о версиях API хранилища данных и обеспечения обратной совместимости. 
 
 ## <a name="1902"></a>1902 
 _Выпущено в феврале 2019 г._
@@ -42,9 +48,9 @@ _Выпущено в феврале 2019 г._
 > Существует два дополнительных фильтров, которые можно применить к приложению соответствия Intune.
 
 #### <a name="add-additional-filters-to-the-intune-compliance-app"></a>Добавить дополнительные фильтры для него соответствия Intune
-1. Откройте [соответствия Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) приложения в вашей веб-браузеров.
+1. Откройте [соответствия Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) приложения в вашей веб-браузерах.
 2. Нажмите кнопку **несоответствующие устройства** и выберите **несоответствующие** в **complianceStatus** фильтра. 
-3. Щелкните **устройств Неизвестная** и выберите **еще не доступна** в **complianceStatus** фильтра. 
+3. Щелкните **неизвестных устройств** и выберите **еще не доступна** в **complianceStatus** фильтра. 
 
 ## <a name="1812"></a>1812 
 _Выпуск в декабре 2018 г._
@@ -93,7 +99,7 @@ _Выпущен в январе 2018 г._
 
 ### <a name="new-entities-in-the-in-data-warehouse-data-model----2077804---"></a>Новые сущности в модели данных для хранилища данных <!-- 2077804 -->
 
- - Была добавлена сущность [**MobileAppDeviceuserInstallStatus**](reports-ref-application.md#mobileappdeviceuserinstallstatus). Сущность **MobileAppDeviceUserInstallStatus** представляет состояние установки мобильного приложения для заданного устройства или пользователя.
+ - Была добавлена сущность [**MobileAppDeviceuserInstallStatus**](reports-ref-application.md). Сущность **MobileAppDeviceUserInstallStatus** представляет состояние установки мобильного приложения для заданного устройства или пользователя.
  - Была добавлена сущность [**MobileAppInstallState**](reports-ref-application.md#mobileappinstallstate). Сущность **MobileAppInstallState** представляет состояние установки для мобильного приложения после его назначения группе, в состав которой входят устройства, пользователи или обе категории. 
 
 ## <a name="1710"></a>1710
