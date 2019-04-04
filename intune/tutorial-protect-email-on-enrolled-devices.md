@@ -1,12 +1,12 @@
 ---
 title: Руководство. Защита электронной почты Exchange Online на устройствах под управлением Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Узнайте, как защитить Exchange Online с помощью политик соответствия Intune для iOS и условного доступа Azure AD, в которых указано использовать управляемые устройства и приложение Outlook.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 09/19/2018
+ms.date: 03/26/2019
 ms.topic: tutorial
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6c76a22fec1342481a67029147c757347a06447c
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: f4a8e873c48ceb59bfb8ac98fec9a29fa51d6cd3
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57528213"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58799774"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-managed-devices"></a>Руководство. Защита электронной почты Exchange Online на управляемых устройствах
 Узнайте, как политики соответствия требованиям для устройств с условным доступом позволяют предоставить устройствам iOS доступ к электронной почте Exchange Online, только если устройства управляются Intune и используют утвержденное приложение электронной почты. 
@@ -43,7 +43,7 @@ ms.locfileid: "57528213"
 
 ## <a name="sign-in-to-intune"></a>Вход в Intune
 
-Войдите в [Intune](https://aka.ms/intuneportal) в качестве глобального администратора или администратора службы Intune. Чтобы найти Intune, на портале Azure выберите **Все службы**  >  **Intune**.
+Войдите в [Intune](https://aka.ms/intuneportal) в качестве глобального администратора или администратора службы Intune. Если вы создали подписку на пробную версию Intune, учетная запись, с помощью которой вы создали подписку, является глобальным администратором.
 
 ## <a name="create-the-ios-device-compliance-policy"></a>Создание политики соответствия требованиям для устройств iOS
 Настройте политику соответствия требованиям Intune, в которой можно задать обязательные условия соответствия для устройств. Для этого руководства мы создадим политику соответствия требованиям для устройств iOS. Политики соответствия требованиям зависят от используемой платформы. Поэтому для каждой платформы устройств, которые вы хотите оценить, нужна отдельная политика соответствия требованиям.
@@ -93,7 +93,7 @@ ms.locfileid: "57528213"
 5.  В разделе **Назначения** выберите **Условия** > **Платформы устройств**.
      
     1. В разделе **Настройка** выберите **Да**.
-    2. На вкладке **Включить** выберите **Все платформы (в том числе и неподдерживаемые)**, а затем щелкните **Готово**. 
+    2. На вкладке **Включить** выберите **Любое устройство** и **Готово**. 
     3. Еще раз щелкните **Готово**.
    
     ![Выбор приложения Office 365 Exchange Online](media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-cloud-device-platforms.png)

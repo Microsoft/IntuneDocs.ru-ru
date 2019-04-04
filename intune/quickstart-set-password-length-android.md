@@ -1,12 +1,12 @@
 ---
 title: Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этом кратком руководстве описано, как с помощью Microsoft Intune настроить длину пароля, требуемую для всех устройств Android.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/09/2018
+ms.date: 03/26/2019
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 62ae0c7b9a00c3e07bb49261ca1a20bd5ef5db15
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: f4a16272f32b8546e7e9bb12a22f16235ab49aed
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57397286"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58799664"
 ---
 # <a name="quickstart-create-a-password-compliance-policy-for-android-devices"></a>Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
 
@@ -49,7 +49,8 @@ ms.locfileid: "57397286"
 3. В качестве **платформы** выберите **Android**. 
 4. Выберите **Параметры** > **Безопасность системы**, чтобы отобразить колонку **Безопасность системы** для Android.
 5. Для параметра **Требовать пароль для разблокировки мобильных устройств** установите флажок **Требовать**.
-6. В поле **Минимальная длина пароля** введите значение **6**. 
+6. Выберите **По крайней мере цифры** рядом с полем **Требуемый тип пароля**.
+7. В поле **Минимальная длина пароля** введите значение **6**. 
 
     ![Снимок экрана создания группы в Microsoft Intune](media/quickstart-set-password-length-android/quickstart-set-password-length-android-01.png)
 

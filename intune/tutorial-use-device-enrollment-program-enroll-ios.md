@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 1/30/2019
+ms.date: 03/29/2019
 ms.topic: tutorial
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: ''
 Customer intent: As an Intune admin, I want to set up the Device Enrollment Program so that users can automatically enroll in Intune.
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 88fe825b75e7717740e5a5ca4af4c52e9bb21768
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: f9cd0eec492f5131e4015aa64eccb4c081c663ee
+ms.sourcegitcommit: 8e6f4acb592dbe5de63aa7642ee9487288740714
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57400404"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58646477"
 ---
 # <a name="tutorial-use-the-device-enrollment-program-to-enroll-ios-devices-in-intune"></a>Руководство. Регистрация устройств iOS в Intune с помощью программы регистрации устройств
 Программа регистрации устройств Apple (DEP) упрощает регистрацию устройств. При использовании Microsoft Intune и DEP устройства регистрируются автоматически при первом их включении. Это позволяет сразу предоставлять устройства группам пользователей вместо того, чтобы настраивать их по отдельности. 
@@ -61,7 +61,7 @@ ms.locfileid: "57400404"
 
 5. В поле **MDM Server Name** (Имя сервера MDM) введите *TestMDMServer* и нажмите кнопку **Далее**. Имя сервера используется в качестве справочной информации для идентификации сервера управления мобильными устройствами (MDM). Это не имя или URL-адрес сервера Microsoft Intune.
 
-6. Открывается диалоговое окно **Добавить &lt;имя_сервера&gt;** с сообщением **Upload Your Public Key** (Отправьте свой открытый ключ). Щелкните **Выбрать файл...** для отправки PEM-файла. Затем нажмите кнопку **Далее**.
+6. Открывается диалоговое окно **Добавить &lt;имя_сервера&gt;** с сообщением **Upload Your Public Key** (Отправьте свой открытый ключ). Выберите **Выбрать файл**. для отправки PEM-файла. Затем нажмите кнопку **Далее**.
 
 6. Перейдите в раздел **Deployment Programs** > **Device Enrollment Program** > **Manage Devices** (Программы развертывания > Программа регистрации устройств > Управление устройствами).
 7. В разделе **Choose Devices By** (Выбор устройств) выберите **Serial Number** (Серийный номер). <!--ask Tiffany about this-->

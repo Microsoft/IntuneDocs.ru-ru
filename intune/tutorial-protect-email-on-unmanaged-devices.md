@@ -1,12 +1,12 @@
 ---
 title: Руководство. Защита электронной почты Exchange Online на неуправляемых устройствах
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения о том, как защитить Office 365 Exchange Online с помощью политик защиты приложений Intune и условного доступа Azure AD.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 12/11/2018
+ms.date: 03/26/2019
 ms.topic: tutorial
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,12 +17,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4692e19d657e19efe18a91273ce585eb59c6cb65
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: e6224a0dae7c0aa3d80d4e64331a668953220f65
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57528281"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798790"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-unmanaged-devices"></a>Руководство. Защита электронной почты Exchange Online на неуправляемых устройствах
 
@@ -91,8 +91,8 @@ ms.locfileid: "57528281"
 5.  В разделе **Назначения** выберите **Условия** > **Платформы устройств**.
      
     1. В разделе **Настройка** выберите **Да**.
-    2. На вкладке **Включить** выберите **All platforms (including unsupported)** (Все платформы (в том числе и неподдерживаемые)). 
-    3. Нажмите кнопку **Готово**.
+    2. На вкладке **Включить** выберите **Любое устройство**.
+    1. Нажмите кнопку **Готово**.
    
 6.  На панели **Условия** выберите **Клиентские приложения**.
      
@@ -136,7 +136,7 @@ ms.locfileid: "57528281"
 5.  В разделе **Назначения** выберите **Условия** > **Платформы устройств**.
      
     1. В разделе **Настройка** выберите **Да**.
-    2. На вкладке **Включить** выберите **Все платформы (в том числе и неподдерживаемые)**, а затем щелкните **Готово**. 
+    2. На вкладке **Включить** выберите **Любое устройство** и **Готово**. 
     3. Еще раз щелкните **Готово**.
 
 6.  На панели **Условия** выберите **Клиентские приложения**.
