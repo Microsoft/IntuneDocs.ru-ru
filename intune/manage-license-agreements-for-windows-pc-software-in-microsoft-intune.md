@@ -1,6 +1,6 @@
 ---
 title: Управление лицензионными соглашениями программного обеспечения для компьютеров под управлением программного клиента Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Используйте Intune, чтобы управлять лицензионными соглашениями для программного обеспечения, приобретенного в рамках соглашений с Майкрософт о корпоративном лицензировании, а также для программного обеспечения, приобретенного другими способами.
 keywords: ''
 author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1d79cf2e8d61de1737d3a47533fbf25976c32d7a
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 92262a9d1f07b8756ced8788feee586ffa30088a
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57461215"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798807"
 ---
 # <a name="manage-license-agreements-for-windows-pc-software-in-microsoft-intune"></a>Управление лицензионными соглашениями для программного обеспечения компьютеров Windows в Microsoft Intune
 

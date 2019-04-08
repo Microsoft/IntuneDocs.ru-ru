@@ -1,12 +1,12 @@
 ---
 title: Получение данных из API хранилища данных через клиент REST
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этой статье описывается, как извлекать данные из хранилища данных Microsoft Intune с помощью RESTful API.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/10/2019
+ms.date: 04/02/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0e57d197cadf2ba6586aa39fdc5dbb9cddba554c
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 5aa85ee044eae5fba9dcb7c380a29dda727c6492
+ms.sourcegitcommit: 79baf89e4a7a7b1cecb8ccf5cb976736ae6a7286
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566579"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58871456"
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 
@@ -98,11 +98,11 @@ ms.locfileid: "57566579"
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
 3. Выберите элемент **Настройка хранилища данных Intune** в области **Другие задачи**.
-4. Скопируйте пользовательский URL-адрес канала из области **Использовать сторонние службы отчетов**. Он должен выглядеть примерно так: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta`.
+4. Скопируйте пользовательский URL-адрес канала из области **Использовать сторонние службы отчетов**. Он должен выглядеть примерно так: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=v1.0`.
 
 Конечная точка имеет следующий формат: `https://fef.{yourtenant}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{entity}?api-version={verson-number}`.
 
-Например, сущность **dates** выглядит следующим образом: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`.
+Например, сущность **dates** выглядит следующим образом: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=v1.0`.
 
 Дополнительные сведения см. в разделе [Конечная точка API для хранилища данных Intune](reports-api-url.md).
 
@@ -116,7 +116,7 @@ ms.locfileid: "57566579"
 2.  Откройте Postman. Выберите операцию HTTP **GET**.
 3.  Вставьте URL-адрес конечной точки в адрес. Он должен выглядеть примерно так:  
 
-    `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=beta`
+    `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService/dates?api-version=v1.0`
 4.  Откройте вкладку **Авторизация** и в списке **Тип** выберите **OAuth 2.0**.
 5.  Выберите элемент **Get New Access Token** (Получить новый маркер доступа).
 6.  Убедитесь, что вы уже добавили URL-адрес обратного вызова в приложение в Azure. URL-адрес обратного вызова — `https://www.getpostman.com/oauth2/callback`.
@@ -197,7 +197,7 @@ ms.locfileid: "57566579"
    var emailAddress = "intuneadmin@yourcompany.com";
    var password = "password_of(intuneadmin@yourcompany.com)";
    var applicationId = "<Application ID>";
-   var warehouseUrl = "https://fef.{yourinfo}.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta";
+   var warehouseUrl = "https://fef.{yourinfo}.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=v1.0";
    var collectionName = "dates";
 
    var adalContext = new AuthenticationContext("https://login.windows.net/common/oauth2/token");

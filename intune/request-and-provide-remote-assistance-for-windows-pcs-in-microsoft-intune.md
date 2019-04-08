@@ -1,6 +1,6 @@
 ---
 title: Запрос и предоставление удаленной помощи для компьютеров под управлением Windows
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Описание действий конечных пользователей и ИТ-администраторов по запросу и предоставлению удаленной помощи для настольных систем с Windows, управляемых как компьютеры, и по удаленному запуску компьютеров.
 keywords: ''
 author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0b57bae0c0e7a734071be79318286714a97d0fbf
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: b7004d72328d606f6adc5cd84e79ce4830409059
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460603"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798543"
 ---
 # <a name="request-and-provide-remote-assistance-for-windows-pcs"></a>Запрос и предоставление удаленной помощи для компьютеров под управлением Windows
 

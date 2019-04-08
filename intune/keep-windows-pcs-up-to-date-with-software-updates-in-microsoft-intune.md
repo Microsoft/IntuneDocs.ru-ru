@@ -1,6 +1,6 @@
 ---
 title: Обновления программного обеспечения на компьютерах Windows
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Intune помогает поддерживать актуальное состояние управляемых компьютеров благодаря быстрой установке последних исправлений и обновлений программного обеспечения.
 keywords: ''
 author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 381802de52f63cd4d7c836dbabe25167c0370ee5
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 68f8b814084328fdc5aed954cb71b9ce8dcedc63
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460680"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798957"
 ---
 # <a name="keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune"></a>Обновление программного обеспечения на компьютерах с Windows с помощью Microsoft Intune
 

@@ -1,6 +1,6 @@
 ---
 title: Просмотр данных инвентаризации оборудования и программного обеспечения для компьютеров под управлением Windows
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения о просмотре данных инвентаризации оборудования и программного обеспечения для настольных систем Windows с программным клиентом Intune.
 keywords: ''
 author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d45cff8fced4683ca2850a06506a7ff154611d2b
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 1de4783d9d6e151f616406cc6a2f80406f58e408
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460008"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798574"
 ---
 # <a name="view-hardware-and-software-inventory-for-windows-pcs"></a>Просмотр данных инвентаризации оборудования и программного обеспечения для компьютеров под управлением Windows
 

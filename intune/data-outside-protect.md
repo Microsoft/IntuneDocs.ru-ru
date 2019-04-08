@@ -1,6 +1,6 @@
 ---
 title: Предотвращение несанкционированного доступа к корпоративным данным
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Вы можете предотвратить несанкционированный доступ к данным компании при их совместном использовании за пределами корпоративной сети с помощью Microsoft Intune.
 keywords: Office 365 Azure Information Protection защита данных за пределами сети данные компании
 ms.author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8ffe9fcf4f16041eed698d94bb16f9ed2fd94341
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 0882fb19d3ce74c837b83973ec07f391bc2875fa
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460467"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58799445"
 ---
 # <a name="prevent-unauthorized-access-to-company-data-using-microsoft-intune"></a>Предотвращение несанкционированного доступа к корпоративным данным с помощью Microsoft Intune
 

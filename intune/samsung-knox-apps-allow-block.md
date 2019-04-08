@@ -1,6 +1,6 @@
 ---
 title: Политика разрешения и блокировки приложений для Samsung Knox в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Создание настраиваемых профилей для включения и блокировки приложений для устройств Samsung Knox Standard.
 keywords: ''
 author: MandiOhlinger
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ad68fb3c0f692e837ae3a8cff01de8c77d3bb907
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 4efa2a813dda16805effe55ff3d1b967ef5d6c88
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565882"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798233"
 ---
 # <a name="use-custom-policies-in-microsoft-intune-to-allow-and-block-apps-for-samsung-knox-standard-devices"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung Knox Standard в Microsoft Intune 
 

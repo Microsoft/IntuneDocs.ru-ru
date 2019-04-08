@@ -1,6 +1,6 @@
 ---
 title: Использование политик для упрощения управления компьютерами Windows
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Описание политик управления компьютерами Windows и параметров для Центра Microsoft Intune.
 keywords: ''
 author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c49b6639f898b1328cefcbc9bb9af9208aeda63b
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: a7eaea14817c022f8efc5c1380c569fc5afbafa1
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460807"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58797809"
 ---
 # <a name="use-policies-to-simplify-windows-pc-management"></a>Использование политик для упрощения управления компьютерами Windows
 

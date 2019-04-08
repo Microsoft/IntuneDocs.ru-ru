@@ -1,6 +1,6 @@
 ---
 title: Портал службы технической поддержки по устранению неполадок
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Персонал службы технической поддержки использует портал диагностики для устранения технических проблем пользователей.
 keywords: ''
 author: dougeby
@@ -17,12 +17,12 @@ ms.reviewer: sumitp
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 135e93bf3cfb93b5299dfd005a3ca70bbba84d77
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: df5b20be667159689aaaee9a790c0a4c5b5864fd
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57787140"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798404"
 ---
 # <a name="use-the-troubleshooting-portal-to-help-users-at-your-company"></a>Использование портала диагностики для оказания помощи пользователям в вашей компании
 
