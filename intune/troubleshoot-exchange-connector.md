@@ -1,5 +1,6 @@
 ---
-title: Устранение неполадок в работе соединителей с Exchange | Microsoft Intune
+title: Устранение проблем в работе соединителя с Exchange
+titleSuffix: Microsoft Intune
 description: Устранение неполадок, связанных с работой соединителя Intune с локальной организацией Exchange.
 keywords: ''
 author: brenduns
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d2cbe4e213854c4dbf5cc29b8a05aec7fb0d46b3
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 15108167b9f2495fb5c8d8257083606b439b0430
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460654"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59292323"
 ---
 # <a name="troubleshoot-the-intune-on-premises-exchange-connector"></a>Устранение неполадок в работе соединителя Intune с локальной организацией Exchange
 
