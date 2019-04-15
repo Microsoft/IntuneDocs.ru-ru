@@ -1,5 +1,6 @@
 ---
-title: Управление версиями операционной системы с помощью Microsoft Intune | Microsoft Intune
+title: Управление версиями операционной системы с помощью Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Узнайте, как управлять версиями операционной системы на разных платформах с помощью Microsoft Intune.
 keywords: ''
 author: brenduns
@@ -9,16 +10,17 @@ ms.date: 01/02/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 361ef17b-1ee0-4879-b7b1-d678b0787f5a
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2e86558006b91159271c5267288c5103c4c3b465
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: d6afd4b0bb45db580f3be47680675bd268681a11
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57229833"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569367"
 ---
 # <a name="manage-operating-system-versions-with-intune"></a>Управление версиями операционной системы с помощью Intune
 Для современных платформ мобильных устройств и настольных компьютеров исправления, важные обновления и новые версии выпускаются с высокой частотой. Вы можете полностью управлять обновлениями и исправлениями в Windows, но другие платформы, такие как iOS и Android, требуют участия конечных пользователей в этом процессе.  В Microsoft Intune есть возможности, которые позволяют структурировать управление версиями операционных систем на разных платформах.

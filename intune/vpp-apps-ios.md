@@ -1,15 +1,16 @@
 ---
 title: Управление приложениями iOS, приобретенными по программе Volume Purchase Program в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Вы узнаете, как синхронизировать в Microsoft Intune приложения, приобретенные по программе Volume Purchase Program в магазине iOS, а затем управлять ими и отслеживать их использование.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/11/2018
+ms.date: 04/09/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 51d45ce2-d81b-4584-8bc4-568c8c62653d
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 606fe0dfe7160d6fe61366db98b7f22a45216bd0
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: dca219f1593265e0bf6447c054969548d5d79351
+ms.sourcegitcommit: 617bd653c34c1e6a4e2ad61811c5912f8dab775c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57229842"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59570641"
 ---
 # <a name="how-to-manage-ios-apps-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 
@@ -124,11 +125,11 @@ Microsoft Intune позволяет управлять несколькими к
 
 | # | Сценарий                                | Приглашение в программу Apple VPP                              | Запрос на установку приложения | Запрос идентификатора Apple ID |
 |---|--------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------|-----------------------------------|
-| 1 | BYOD — лицензируется пользователем                             | Y                                                                                               | Y                                           | Y                                 |
-| 2 | Корпоративное — лицензируется пользователем (не контролируемое устройство)     | Y                                                                                               | Y                                           | Y                                 |
-| 3 | Корпоративное — лицензируется пользователем (контролируемое устройство)         | Y                                                                                               | N                                           | Y                                 |
-| 4 | BYOD — лицензируется устройством                           | N                                                                                               | Y                                           | N                                 |
-| 5 | Корпоративное — лицензируется устройством (не контролируемое устройство)                           | N                                                                                               | Y                                           | N                                 |
+| 1 | BYOD — лицензируется пользователем                             | Да                                                                                               | Да                                           | Да                                 |
+| 2 | Корпоративное — лицензируется пользователем (не контролируемое устройство)     | Да                                                                                               | Да                                           | Да                                 |
+| 3 | Корпоративное — лицензируется пользователем (контролируемое устройство)         | Да                                                                                               | N                                           | Да                                 |
+| 4 | BYOD — лицензируется устройством                           | N                                                                                               | Да                                           | N                                 |
+| 5 | Корпоративное — лицензируется устройством (не контролируемое устройство)                           | N                                                                                               | Да                                           | N                                 |
 | 6 | Корпоративное — лицензируется устройством (контролируемое устройство)                           | N                                                                                               | N                                           | N                                 |
 | 7 | Режим киоска (контролируемое устройство) — лицензируется устройством | N                                                                                               | N                                           | N                                 |
 | 8 | Режим киоска (контролируемое устройство) — лицензируется устройством   | --- | ---                                          | ---                                |

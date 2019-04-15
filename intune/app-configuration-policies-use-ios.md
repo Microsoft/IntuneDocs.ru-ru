@@ -1,6 +1,6 @@
 ---
 title: Добавление политик конфигурации приложений для управляемых устройств iOS
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Узнайте о том, как предоставлять данные конфигурации при работе с приложением iOS, используя политики конфигурации приложений.
 keywords: ''
 author: Erikre
@@ -10,6 +10,7 @@ ms.date: 12/12/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c9163693-d748-46e0-842a-d9ba113ae5a8
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9f890fcf45905c759c5946ea1fbaf834f7b96958
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 9273d547d72fd6cf10d2addc5efff2eba8e18205
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57230641"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59568366"
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>Добавление политик конфигурации приложений для управляемых устройств iOS
 

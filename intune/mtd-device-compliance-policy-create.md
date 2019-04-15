@@ -1,5 +1,6 @@
 ---
-title: Создание политики соответствия устройств MTD с помощью Microsoft Intune | Microsoft Intune
+title: Создание политики соответствия устройств MTD с помощью Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Создайте политику соответствия устройств Intune, которая использует уровня угроз MTD партнера для определения доступна мобильного устройства к корпоративным ресурсам.
 keywords: ''
 author: brenduns
@@ -9,6 +10,7 @@ ms.date: 01/02/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 5d12254f-ffab-4792-b19c-ab37f5e02f35
 ms.reviewer: heenamac
@@ -16,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 876d9afb21d4f1fc00eebc21226eed189597fd17
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: fe3561bd664842e79f50f738307ce6a026464565
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57237543"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569614"
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Создание политики соответствия для устройств Mobile Threat Defense (MTD) в Intune
 

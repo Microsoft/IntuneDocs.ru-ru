@@ -1,6 +1,6 @@
 ---
 title: Обход блокировки активации iOS с помощью Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения о том, как использовать Intune, чтобы обойти блокировку активации iOS для доступа к заблокированным устройствам.
 keywords: ''
 author: ErikjeMS
@@ -10,18 +10,19 @@ ms.date: 02/22/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 9ca3b0ba-e41c-45fb-af28-119dff47c59f
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7d44636baaa6b4be71ac6a80369286065e586293
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 406a08788663603340ab4af78217a07e68e66604
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57237492"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59568600"
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Обход блокировки активации на защищенных устройствах iOS с помощью Intune
 

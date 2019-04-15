@@ -1,6 +1,6 @@
 ---
 title: Настройка регистрации для устройств Windows с помощью Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Настройка регистрации для устройств Windows.
 keywords: ''
 author: ErikjeMS
@@ -10,6 +10,7 @@ ms.date: 09/27/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: f94dbc2e-a855-487e-af6e-8d08fabe6c3d
 ms.reviewer: damionw
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d2192b6d653bfb51503b006a5045d454c202618f
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: d7dd4ab5f7cecfa8a765b6dfa038b73015a0c768
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57234117"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59567300"
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
@@ -42,8 +43,8 @@ ms.locfileid: "57234117"
 
 ||**Azure AD Premium**|**AD других версий**|
 |----------|---------------|---------------|  
-|**Windows 10**|[Автоматическая регистрация](#enable-windows-10-automatic-enrollment) |[Регистрация пользователей](#enable-windows-enrollment-without-azure-ad-premium)|
-|**Более ранние версии Windows**|[Регистрация пользователей](#enable-windows-enrollment-without-azure-ad-premium)|[Регистрация пользователей](#enable-windows-enrollment-without-azure-ad-premium)|
+|**Windows 10**|[Автоматическая регистрация](#enable-windows-10-automatic-enrollment) |Регистрация пользователей|
+|**Более ранние версии Windows**|Регистрация пользователей|Регистрация пользователей|
 
 Организации, способные использовать автоматическую регистрацию, могут также настроить и [массовую регистрацию устройств](windows-bulk-enroll.md) с помощью конструктора конфигураций Windows.
 

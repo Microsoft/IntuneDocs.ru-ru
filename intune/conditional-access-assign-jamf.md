@@ -1,6 +1,6 @@
 ---
-title: Политика соответствия устройств для устройств Jamf | Microsoft Intune
-titlesuffix: Microsoft Intune
+title: Политика соответствия устройств для устройств Jamf
+titleSuffix: Microsoft Intune
 description: Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf.
 keywords: ''
 author: brenduns
@@ -10,6 +10,7 @@ ms.date: 01/02/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
 ms.reviewer: elocholi
@@ -17,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5416f90a7acb0f2030481d744e114db6513c5366
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: a2fc212d370e6835428e7b0ae837e3882a38e37e
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57231440"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569523"
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
 
-Применяется к: Intune на портале Azure
+Область применения: Intune на портале Azure
 
 Политики условного доступа Azure Active Directory и Microsoft Intune позволяют обеспечить соответствие устройств пользователей требованиям организации. Эти политики можно применять к компьютерам Mac [под управлением Jamf Pro](conditional-access-integrate-jamf.md). Для этого необходим доступ к консоли Intune и Jamf Pro.
 

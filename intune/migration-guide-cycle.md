@@ -1,6 +1,6 @@
 ---
 title: Как выполняется типичный цикл миграции Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этой статье объясняется, как выполняется цикл миграции Microsoft Intune, и приводятся примеры выполнения циклов миграции.
 keywords: ''
 author: dougeby
@@ -10,18 +10,19 @@ ms.date: 01/02/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 3688b724-9521-4210-bf4d-bcf47d8d4ca0
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b65e87cbb0658ffe54d1e3c5cbd20de9675ab2ff
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 3919ae461fbbd5c5c69c1fbe4983cc8468f576c6
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57229451"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59567586"
 ---
 # <a name="typical-migration-cycle"></a>Типичный цикл миграции
 

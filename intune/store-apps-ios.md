@@ -1,6 +1,6 @@
 ---
 title: Добавление в Microsoft Intune приложений из магазина iOS
-titlesuffix: ''
+titleSuffix: ''
 description: Узнайте, как добавлять приложения из магазина iOS в Microsoft Intune. Можно назначить приложения, используя этот метод, если приложения предоставляются бесплатно в магазине приложений.
 keywords: Intune
 author: Erikre
@@ -10,6 +10,7 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c59514d7-1256-4576-9380-e7a0b85a0378
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bc24f049253dc32f0a5dce9c3698acd2c6de4c93
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 454000ccc7ac2d6f531b5ab43bb7652541559992
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57238835"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59568548"
 ---
 # <a name="add-ios-store-apps-to-microsoft-intune"></a>Добавление в Microsoft Intune приложений из магазина iOS
 

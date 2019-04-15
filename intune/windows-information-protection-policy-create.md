@@ -1,5 +1,6 @@
 ---
-title: Создание и развертывание политики защиты приложений Windows Information Protection (WIP) | Microsoft Intune
+title: Как создать и развернуть политику защиты приложений Windows Information Protection (WIP)
+titleSuffix: Microsoft Intune
 description: Как создать и развернуть политику защиты приложений Windows Information Protection (WIP) с помощью Microsoft Intune
 keywords: ''
 author: Erikre
@@ -9,6 +10,7 @@ ms.date: 01/02/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 4e3627bd-a9fd-49bc-b95e-9b7532f0ed55
 ms.reviewer: joglocke
@@ -16,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6494bbff9ca1c9d46c4af03ff90340fcca36ec97
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 1b8257b315bc18b10e7c2c86e931af005e44730c
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57231576"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569770"
 ---
 # <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
 
@@ -125,7 +127,8 @@ ms.locfileid: "57231576"
 
 Обучение WIP — это отчет, который позволяет отслеживать приложения, поддерживающие и не поддерживающие WIP. Неизвестными являются приложения, развертывание которых не выполнялось ИТ-специалистами вашей организации. Вы можете экспортировать эти приложения из отчета и добавить их в свои политики WIP во избежание прерывания работы, прежде чем они принудительно активируют WIP в режиме Block (Блокировать).
 
-<!-- 1631908 --> Помимо сведений о приложениях с поддержкой WIP, вы можете просматривать сводку по устройствам, которые обменивались рабочими данными с веб-сайтами. С учетом этих сведений можно определить, какие веб-сайты должны быть добавлены в политики WIP пользователей и групп. В сводке показано, к каким URL-адресам веб-сайтов осуществляется доступ через приложения с поддержкой WIP.
+<!-- 1631908 -->
+Помимо сведений о приложениях с поддержкой WIP вы можете просматривать сводку по устройствам, которые обменивались рабочими данными с веб-сайтами. С учетом этих сведений можно определить, какие веб-сайты должны быть добавлены в политики WIP пользователей и групп. В сводке показано, к каким URL-адресам веб-сайтов осуществляется доступ через приложения с поддержкой WIP.
 
 При работе с приложениями с поддержкой WIP и без нее рекомендуем для начала использовать параметры **Автоматически** или **Разрешить переопределения** и провести проверку для небольшой группы, чтобы убедиться, что в список защищенных приложений включены только нужные. После этого можно перейти к принудительному применению последней политики — **Block** (Блокировать).
 

@@ -9,6 +9,7 @@ ms.date: 05/21/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
 ms.reviewer: ayesham
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ad1c633261e4d917cb88793efbac2ff4416dd429
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: d2431695f89c9cdf339a0192e27f8140ec042435
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57236693"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57396231"
 ---
 # <a name="use-locations-network-fence-in-intune"></a>Использование расположений (границы сети) в Intune
 
@@ -29,7 +30,7 @@ ms.locfileid: "57236693"
 
 Вы можете создать политику соответствия требованиям на основе сетевых расположений, которая также называется границей сети. Согласно этой политике соответствующими требованиям являются только те устройства, которые подключены к рабочей сети. Эту политику можно использовать вместе с политиками условного доступа, чтобы устройства имели доступ к рабочим ресурсам, *только* когда они подключены к рабочей сети. Когда устройство не подключено к рабочей сети, оно становится не соответствующим требованиям и утрачивает доступ к рабочим ресурсам.
 
-Рассмотрим следующий сценарий:
+Рассмотрим следующий сценарий.
 
 На производственном объекте некоторые сотрудники используют устройства Android. Сотрудник выносит устройство Android за пределы объекта или завода. Чтобы предотвратить несанкционированный доступ, можно сделать следующее:
 

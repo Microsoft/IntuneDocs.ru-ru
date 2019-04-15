@@ -1,15 +1,16 @@
 ---
 title: Что такое управление приложениями с помощью Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Узнайте о возможностях управления клиентскими приложениями в зависимости от платформы для Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/19/2018
+ms.date: 04/03/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 1975a2dc-3a14-4cb9-9afb-e2ba01a1c51b
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0f2c5da7772ff137e44fead66f00fe34004bb1f4
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 34807edabf99a107c259fdfae5e43db18084fb67
+ms.sourcegitcommit: 219bbbfb44eba70ac2b751970d8b4b778cd28416
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55850916"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "59569068"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -44,7 +45,7 @@ Intune предлагает широкий набор возможностей, 
 |-------------------------------------------------------------------------------------|---------|-----|-------|------------|-------------------|
 | Добавление и назначение приложений устройствам и пользователям | Да | Да | Да | Да | Да |
 | Назначение приложений устройствам, не зарегистрированным в Intune | Да | Да | Нет | Нет | Нет |
-| Использование политик конфигурации приложений для управления их работой при запуске | Нет | Да | Нет | Нет | Нет |
+| Использование политик конфигурации приложений для управления их работой при запуске | Да | Да | Нет | Нет | Нет |
 | Использование политик подготовки мобильных приложений для обновления приложений с истекшим сроком действия | Нет | Да | Нет | Нет | Нет |
 | Использование политик защиты приложений для обеспечения безопасности корпоративных данных | Да | Да | Нет | Нет1 | Нет |
 | Удаление только корпоративных данных из установленного приложения (выборочная очистка приложений) | Да | Да | Нет | Да | Да |

@@ -3,24 +3,26 @@ title: Удаление сертификатов SCEP или PKCS в Microsoft I
 titleSuffix: ''
 description: Администраторы могут использовать действие очистки или снятия с учета, чтобы удалить сертификаты из Microsoft Intune. Существует несколько сценариев, в которых сертификаты удаляются автоматически, например отмена регистрации устройства или удаление политики соответствия. Существует несколько сценариев, в которых сертификаты автоматически сохраняются на устройстве, например при утере или удалении лицензии Intune. Ознакомьтесь с различными способами, применяемыми для устройств Android, Android Enterprise, iOS, macOS и Windows.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 01/08/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 977e7006d39ae76516d5b06019e463d1018aaa79
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.reviewer: lacranda
+ms.openlocfilehash: 6a1280ca2a78853ae188ad68620f0b82846a365a
+ms.sourcegitcommit: 9daaeba9a960c50efcc951856234fbfec3635737
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57229264"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59569263"
 ---
 # <a name="remove-scep-and-pkcs-certificates-in-microsoft-intune"></a>Удаление сертификатов SCEP и PKCS в Microsoft Intune
 

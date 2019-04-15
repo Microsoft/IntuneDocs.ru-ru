@@ -1,15 +1,16 @@
 ---
 title: Как добавлять бизнес-приложения macOS в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Узнайте, как добавлять бизнес-приложения macOS в Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/11/2018
+ms.date: 04/09/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ef8008ac-8b85-4bfc-86ac-1f9fcbd3db76
 ms.reviewer: aiwang
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b87d20faccbe2b0ea58c085f9b2c40d8506fc677
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 90684c2994ccd3c90116a90e255ed6b9be1f6a76
+ms.sourcegitcommit: 617bd653c34c1e6a4e2ad61811c5912f8dab775c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57231559"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59570615"
 ---
 # <a name="how-to-add-macos-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять бизнес-приложения macOS в Microsoft Intune
 

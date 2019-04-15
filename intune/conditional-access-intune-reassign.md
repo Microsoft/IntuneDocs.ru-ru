@@ -1,5 +1,6 @@
 ---
-title: Перенос условного доступа на портал Azure | Microsoft Intune
+title: Перенос условного доступа на портал Azure
+titleSuffix: Microsoft Intune
 description: Переназначьте политики условного доступа, созданные на классическом портале Intune, на портал Azure.
 keywords: ''
 author: brenduns
@@ -9,6 +10,7 @@ ms.date: 01/02/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 301159ad-5f7e-4fcc-86c7-f72a71701ff4
 ms.reviewer: chrisgree
@@ -16,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fd4b1595cab5f2dfe97ed243768484650de9afd5
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: fe1c9baac31f8709aad3f88dc42c82b35c201027
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57229808"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569822"
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 

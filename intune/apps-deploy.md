@@ -1,6 +1,6 @@
 ---
 title: Назначение приложений группам в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Сведения о назначении приложений Intune группам пользователей или группам устройств с помощью Microsoft Intune.
 keywords: ''
 author: Erikre
@@ -10,6 +10,7 @@ ms.date: 01/24/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: dc349e22-9e1c-42ba-9e70-fb2ef980ef7a
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4d4352ce24d6adc38040b200e9f9d8be8a502340
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 1db613f93e50caa377297e3873f6817a39714fe7
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57232188"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59568626"
 ---
 # <a name="assign-apps-to-groups-with-microsoft-intune"></a>Назначение приложений группам с помощью Microsoft Intune
 

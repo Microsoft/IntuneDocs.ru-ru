@@ -1,5 +1,6 @@
 ---
-title: Включение соединителя Mobile Threat Defense в Microsoft Intune | Microsoft Intune
+title: Включение соединителя Mobile Threat Defense в Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Включение соединителя между партнером по Mobile Threat Defense (MTD) и Microsoft Intune.
 keywords: ''
 author: brenduns
@@ -9,6 +10,7 @@ ms.date: 02/27/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: dbb6a37e-ba47-4b69-922c-d25e66c279f6
 ms.reviewer: heenamac
@@ -16,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 434db774a5e356306fd91f4fc33ce61526e138fe
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: ab9fef5a577783ebbdd512de6d00ab98483e754c
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57229999"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569627"
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Включение соединителя Mobile Threat Defense в Intune
 
