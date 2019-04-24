@@ -8,10 +8,12 @@
 
 ## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)
 
-## [Использование устройства Android с Intune](using-your-android-device-with-intune.md)
-### [Что происходит при регистрации устройства с Android?](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md)
-### [Регистрация устройства](enroll-your-device-in-Intune-android.md)
-#### [Регистрация устройства с Android for Work](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
+## Использование устройства Android
+### [Зачем регистрировать устройство Android](why-enroll-android-device.md)
+### Регистрация устройства
+#### [Регистрация устройства Android](enroll-device-android-company-portal.md)  
+#### [Регистрация с помощью рабочего профиля Android](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
+#### [Регистрация с помощью приложения Microsoft Intune](enroll-device-android-microsoft-intune-app.md)
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-android.md)
 ### [Шифрование устройства](encrypt-your-device-android.md)
 ### [Задание ПИН-кода или пароля](set-your-pin-or-password-android.md)
@@ -23,16 +25,15 @@
 #### [Отмена регистрации устройства](unenroll-your-device-from-intune-android.md)
 #### [Отмена регистрации устройства при отказе от условий использования](unenroll-your-device-from-intune-if-you-declined-terms-of-use-android.md)
 
-### [Решение распространенных проблем с Android](troubleshoot-your-device-android.md)
+### Решение распространенных проблем с Android
 #### [Проверка соответствия устройств требованиям](check-compliance-on-your-device-android.md)
 #### [Решение распространенных проблем с Samsung Knox](samsung-knox-errors-android.md)
 #### [Обновление устройства для установки Outlook](update-device-outlook-android.md)
 
-#### Использование журналов для устранения проблем
+#### Logging
 ##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
-##### [Отправка журналов по электронной почте](send-logs-to-your-it-admin-by-email-android.md)
+##### [Журналы передачи и электронной почты](send-logs-to-your-it-admin-by-email-android.md)
 ##### [Отправка журналов при помощи USB-кабеля](send-logs-to-your-it-admin-using-cable-android.md)
-##### [Отправка сведений об ошибках регистрации](send-enrollment-errors-to-your-it-admin-android.md)
 ##### [Отправка сведений об ошибках в корпорацию Майкрософт](send-logs-to-microsoft-android.md)
 
 ### Вопросы по операционным системам
