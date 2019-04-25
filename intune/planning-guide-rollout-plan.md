@@ -19,11 +19,11 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: e75900137ce1e590078a8baa5d00dbc617afc937
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "59567573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61512709"
 ---
 # <a name="develop-a-rollout-plan"></a>Разработка плана внедрения
 
