@@ -2,24 +2,26 @@
 title: Удаленное администрирование устройств в Microsoft Intune —Azure | Документы Майкрософт
 description: Просмотрите необходимые роли для использования TeamViewer, рекомендации по установке соединителя TeamViewer и пошаговые инструкции для удаленного администрирования устройств с помощью Microsoft Intune на портале Azure
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
-ms.date: 06/12/2018
-ms.topic: article
+ms.date: 02/05/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 72cdd888-efca-46e6-b2e7-fb9696bb2fba
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 7cb7c23e673c9e0c074f45991333fde9bfc8e930
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: dd2d9f0a0caf87eb75ba3a9cdc123e69425ceb8b
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61509745"
 ---
 # <a name="use-teamviewer-to-remotely-administer-intune-devices"></a>Используйте TeamViewer для удаленного администрирования устройств Intune
 
@@ -34,7 +36,7 @@ ms.locfileid: "52186194"
     - **Обновить удаленную помощь**: позволяет администраторам изменять параметры соединителя TeamViewer
     - **Запросить удаленную помощь**: позволяет администраторам начать новый сеанс удаленной помощи для любого пользователя. Пользователи с этой ролью не ограничиваются ролями Intune в пределах области. Кроме того, группы пользователей или устройств с ролью Intune в пределах области могут также запросить удаленную помощь. 
 
-- Учетная запись [TeamViewer](https://www.teamviewer.com) с учетными данными для входа
+- Учетная запись [TeamViewer](https://www.teamviewer.com) с учетными данными для входа. Только некоторые лицензии TeamViewer поддерживают интеграцию с Intune. Конкретные потребности TeamViewer см. в разделе [Партнер по интеграции TeamViewer: Microsoft Intune](https://www.teamviewer.com/integrations/microsoft-intune/).
 
 Используя TeamViewer, вы можете использовать соединитель TeamViewer для Intune для создания сеансов TeamViewer, чтения данных Active Directory и сохранения токена доступа к учетной записи TeamViewer.
 

@@ -1,5 +1,5 @@
 ---
-title: Настройка политик защиты приложений во время миграции Intune
+title: Настройка политик защиты приложений во время миграции
 titleSuffix: Microsoft Intune
 description: В этой статье описывается настройка политик защиты приложений во время миграции Microsoft Intune.
 keywords: ''
@@ -17,12 +17,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 076750334c8faba6e9a99368d7af682b10de8962
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.openlocfilehash: c516c53c38eb033aa2a9688c40b301bedcc7a034
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "59567365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61508350"
 ---
 # <a name="configure-app-protection-policies-optional"></a>Настройка политик защиты приложений (необязательно)
 

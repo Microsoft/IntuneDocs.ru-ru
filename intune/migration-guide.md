@@ -1,26 +1,28 @@
 ---
 title: Руководство по переходу к управлению мобильными устройствами Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этом руководстве содержатся разные сведения, посвященные переходу от стороннего поставщика MDM к Microsoft Intune.
 keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 01/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: dcfc21f9-1bcd-4371-a46d-f2e18154ec50
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
-ms.openlocfilehash: bde445601b6fe3612a1a3d8bcab4f6996a997228
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: e293140838cd772dea4cdf810623cfe92fa0fe9e
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61512991"
 ---
 # <a name="intune-migration-guide"></a>Руководство по переходу к Intune
 
@@ -46,7 +48,7 @@ ms.locfileid: "52181417"
 
     -   [Особые примечания о миграции](migration-guide-considerations.md)
 
--   [Этап 2: кампании по миграции](migration-guide-campaign.md)
+-   [Этап 2. Кампания по миграции](migration-guide-campaign.md)
 
     -   [Коммуникационный план](migration-guide-communication-plan.md)
 

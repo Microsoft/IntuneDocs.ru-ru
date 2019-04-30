@@ -5,35 +5,33 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/09/2019
-ms.topic: article
+ms.date: 02/27/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 36076aab02f16937066cb3d47d573f7c74dd6277
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 704abe5e03410b52d54c7729e1832e527ae4dfb6
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55833622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61504312"
 ---
-# <a name="windows-10-templates-to-configure-group-policy-settings-in-microsoft-intune"></a>Шаблоны Windows 10, позволяющие настроить параметры групповой политики в Microsoft Intune
+# <a name="use-windows-10-templates-to-configure-group-policy-settings-in-microsoft-intune"></a>Использование шаблонов Windows 10 для настройки параметров групповой политики в Microsoft Intune
 
 При управлении устройствами в вашей организации вам стоит создать группу параметров, которые применяются к различным группам устройств. Например, у вас есть несколько групп устройств. Для GroupA вы хотите назначить определенный набор параметров. Для GroupB вы хотите назначить другой набор параметров. Также можно настроить простое представление параметров.
 
-Можно выполнить этот задачу, используя **административные шаблоны** в Microsoft Intune. Административные шаблоны включают сотни параметров, чтобы управлять функциями в Internet Explorer, приложениях Microsoft Office, удаленным рабочим столом, доступом к OneDrive графическим паролем, ПИН-кодом для входа и многим другим. Эти шаблоны похожи на параметры групповой политики (GPO) в Active Directory (AD) и [подкрепляются параметрами ADMX](https://docs.microsoft.com/windows/client-management/mdm/understanding-admx-backed-policies), использующими XML. Однако шаблоны в Intune — полностью облачные. Они обеспечивают более простую и эффективную возможность настроить параметры и искать нужные параметры.
+Можно выполнить этот задачу, используя **административные шаблоны** в Microsoft Intune. Административные шаблоны включают сотни параметров, чтобы управлять функциями в Internet Explorer, приложениях Microsoft Office, удаленным рабочим столом, доступом к OneDrive графическим паролем, ПИН-кодом для входа и многим другим. Эти шаблоны похожи на параметры групповой политики (GPO) в Active Directory (AD) и [поддерживаются параметрами ADMX](https://docs.microsoft.com/windows/client-management/mdm/understanding-admx-backed-policies) (откроется другая страница документации), использующими XML. Однако шаблоны в Intune — полностью облачные. Они обеспечивают более простую и эффективную возможность настроить параметры и искать нужные параметры.
 
 **Административные шаблоны** встроены в Intune и не требуют настройки, в том числе с помощью OMA-URI. В рамках решения в системе управления мобильными устройствами используйте эти параметры шаблона как единое средство для управления устройствами Windows 10.
 
 В этой статье перечислены действия, позволяющие создать шаблон для устройств Windows 10, а также показано, как фильтровать параметры, доступные в Microsoft Intune. При создании шаблона создается профиль конфигурации устройства. Затем можно назначить или развернуть этот профиль для устройств Windows 10 в вашей организации.
-
-> [!NOTE]
-> Административные шаблоны поддерживаются для автономных устройств. Они в настоящее время не поддерживаются для совместно управляемых устройств в System Center Configuration Manager (SCCM).
 
 ## <a name="create-a-template"></a>Создание шаблона
 
@@ -75,6 +73,8 @@ ms.locfileid: "55833622"
   ![Выберите путь для сортировки по алфавиту](./media/administrative-templates-windows/search-copy-settings.png)
 
   Например, используйте поиск по фразе `microsoft word`. Появятся все параметры, которые можно задать в программе Microsoft Word. Используйте поиск `explorer` для просмотра всех параметров Internet Explorer, которые можно добавить в шаблон.
+
+Эта функция использует [поставщики CSP политики Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#admx-backed-policies) (откроется другая страница документации). Поставщики CSP работают в разных выпусках Windows, таких как Домашняя, Профессиональная, Корпоративная и т. д. Чтобы узнать, работает ли поставщик CSP в определенном выпуске, см. статью о [поставщиках CSP политики Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#admx-backed-policies) (откроется другая страница документации).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

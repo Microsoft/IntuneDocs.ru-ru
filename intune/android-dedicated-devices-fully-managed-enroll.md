@@ -1,15 +1,16 @@
 ---
-title: Регистрация выделенных или полностью управляемых устройств с Android в Intune
-titlesuffix: Microsoft Intune
-description: Сведения о регистрации выделенных или полностью управляемых корпоративных устройств с Android в Intune
+title: Регистрация выделенных или полностью управляемых устройств Android для бизнеса в Intune
+titleSuffix: Microsoft Intune
+description: Сведения о регистрации выделенных или полностью управляемых устройств Android для бизнеса в Intune
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 1/15/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
 ms.reviewer: chrisbal
@@ -17,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2a83676f67866bc81ea81f7bb721dec5825a95c9
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: f56e2987fefcc514911f762c5fd82ca1ebc6779c
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55843448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61503882"
 ---
-# <a name="enroll-your-android-dedicated-devices-or-fully-managed-devices-preview"></a>Регистрация выделенных или полностью управляемых устройств с Android (предварительная версия)
+# <a name="enroll-your-android-enterprise-dedicated-devices-or-fully-managed-devices-preview"></a>Регистрация выделенных или полностью управляемых устройств Android для бизнеса (предварительная версия)
 
-После настройки [выделенных устройств с Android](android-kiosk-enroll.md) или [полностью управляемых устройств](android-fully-managed-enroll.md) в Intune вы можете зарегистрировать устройства. Метод регистрации устройств Android зависит от операционной системы.
+После настройки [выделенных устройств Android для бизнеса](android-kiosk-enroll.md) или [полностью управляемых устройств](android-fully-managed-enroll.md) в Intune вы можете зарегистрировать их. Метод регистрации устройств Android для бизнеса зависит от операционной системы.
 
 | Метод регистрации | Минимальная версия ОС Android для выделенного и полностью управляемого устройства |
 | ----- | ----- |

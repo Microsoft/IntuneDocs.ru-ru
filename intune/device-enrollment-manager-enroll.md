@@ -1,6 +1,6 @@
 ---
 title: Регистрация устройств с помощью учетной записи диспетчера регистрации устройств
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения о регистрации устройств в Intune с помощью учетной записи диспетчера регистрации устройств.
 keywords: ''
 author: ErikjeMS
@@ -10,6 +10,7 @@ ms.date: 02/22/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
 ms.reviewer: damionw
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a12d162b9877bbbc73ecbcc7bb2ed2f1e0095b9e
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 6bb3289bf2136506903d1fefe6c5170580a6fc11
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57228296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61509833"
 ---
 # <a name="enroll-devices-in-intune-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств в Intune с помощью учетной записи диспетчера регистрации устройств
 
@@ -32,12 +33,14 @@ ms.locfileid: "57228296"
 
 Учетные записи DEM и устройства, зарегистрированные с помощью учетной записи DEM, имеют следующие ограничения.
 
+  - Пользователю учетной записи DEM нужно назначить лицензию Intune.
   - Невозможно выполнить очистку на корпоративном портале. Очистка устройства, зарегистрированного с помощью учетной записи пользователя DEM, может осуществляться из Intune на портале Azure.
   - В приложении и на веб-сайте корпоративного портала отображаются только локально подключенные устройства.
   - Учетные записи DEM не могут использовать приложения, доступные в рамках программы Apple Volume Purchase Program (VPP) с пользовательскими лицензиями Apple VPP, так как требования Apple ID к управлению приложениями допускают только устройства с одним владельцем.
   - Приложения по программе VPP можно устанавливать на устройствах, имеющих лицензии на устройство Apple VPP.
   - Устройства заблокированы для условного доступа, за исключением Windows 10 версии 1803 и выше
-  - Для каждого устройства, зарегистрированного с учетной записью DEM, требуется лицензия устройства Intune.
+  - Каждое устройство, зарегистрированное с учетными записями DEM, должно иметь действующую лицензию для управления в Intune. Это может быть лицензия пользователя Intune или лицензия устройства Intune.
+
 
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств

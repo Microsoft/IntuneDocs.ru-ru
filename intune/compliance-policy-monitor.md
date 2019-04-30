@@ -6,19 +6,21 @@ author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 12/19/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: fd401875e1a98690d9673243b28b48347e4c6183
-ms.sourcegitcommit: 4e69a8664c289263490daa4c02bc6b81c33196e5
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 654d5b86a8a2df8eaddc8ea626b55390d2d32920
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53642818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61509076"
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Мониторинг политик соответствия устройств Intune
 
@@ -163,7 +165,7 @@ ms.locfileid: "53642818"
     - Успешно: политика применена.
     - Ошибка: политику не удалось применить. Сообщения обычно отображаются с кодом ошибки, которая указывает на описание. 
     - Конфликт: два параметра применяются для одного устройства, и Intune не может разрешить конфликт. Необходимо обратиться к администратору.
-    - Pending (Ожидание). устройство еще не связалось с Intune для получения политики. 
+    - Ожидание: устройство еще не связалось с Intune для получения политики. 
     - Неприменимо: устройство не может получить политику. Например, политика обновляет параметр для iOS 11.1, а на устройстве используется iOS 10. 
 
 3. Чтобы просмотреть сведения об устройствах, использующих эту политику, выберите одно из состояний. Например, выберите **Успешно**. В следующем окне приводятся конкретные сведения об устройстве, включая имя устройств и состояние развертывания.

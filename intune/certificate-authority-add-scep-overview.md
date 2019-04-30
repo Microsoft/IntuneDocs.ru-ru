@@ -6,20 +6,22 @@ author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 07/26/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: de0df4878d2461d2f7c0a022a7e3d305e58aef7f
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: d042a160d016343c6e8374dff8f74560b9806014
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52187792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61508490"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
 
@@ -69,7 +71,7 @@ ms.locfileid: "52187792"
 
 Убедитесь, что у вас есть необходимые разрешения для регистрации приложения Azure AD. Дополнительные сведения см. в разделе [Необходимые разрешения](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-create-service-principal-portal#required-permissions).
 
-**Шаг 1. Добавление приложения Azure AD**
+**Шаг 1. Создание приложения Azure AD**
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Azure Active Directory** > **Регистрация приложений** > **Регистрация нового приложения**.
@@ -132,7 +134,7 @@ ms.locfileid: "52187792"
 - [Репозиторий GitHub для API SCEP Intune](http://github.com/Microsoft/Intune-Resource-Access/tree/develop/src/CsrValidation)
 - [Руководство по API SCEP Intune для сторонних центров сертификации](scep-libraries-apis.md)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 - [Настройка профилей сертификатов](certificates-scep-configure.md)
 - [Репозиторий GitHub для API SCEP Intune](http://github.com/Microsoft/Intune-Resource-Access/tree/develop/src/CsrValidation)

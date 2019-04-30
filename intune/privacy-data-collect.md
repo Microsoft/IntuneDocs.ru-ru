@@ -6,21 +6,23 @@ author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 05/18/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: d1171740-936d-46a5-af37-f418bd6fa63e
 ms.reviewer: angerobe
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 73cd8b4f0cf5bdfa02a301d476df31a01fc9691f
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: eede87fdca31e8e263d1dea78d766fec59f05f58
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61511308"
 ---
 # <a name="data-collection-in-intune"></a>Сбор данных в Intune
 
@@ -55,7 +57,7 @@ ms.locfileid: "52186126"
     - Номер телефона
 - Данные журнала аудита, включая сведения о следующих действиях:
     - управление
-    - Создать
+    - Создание
     - Обновление (изменение)
     - Удалить
     - Назначение
@@ -79,7 +81,7 @@ ms.locfileid: "52186126"
     - имя приложения;
     - Версия
     - ИД приложения;
-    - size
+    - размер;
     - расположение установки.
     - Данные инвентаризации приложений собираются только в том случае, если устройство помечено администратором как корпоративное или включена функция соответствия приложений.  
 - Сторонние идентификаторы клиента, такие как Apple ID 
@@ -130,7 +132,7 @@ ms.locfileid: "52186126"
     - installedDeviceCount: число устройств, на которых установлено приложение.
     - notApplicableDeviceCount: число устройств, для которых приложение не подходит.
     - notInstalledDeviceCount: число устройств, где приложение не установлено, хотя это можно сделать.
-    - pendingInstallDeviceCount: для которых приложение подходит и ожидается его установка.
+    - pendingInstallDeviceCount: число устройств, для которых приложение подходит и ожидается его установка.
     
 ## <a name="next-steps"></a>Дальнейшие шаги
 

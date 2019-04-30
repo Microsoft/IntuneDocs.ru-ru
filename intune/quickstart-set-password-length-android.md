@@ -1,12 +1,12 @@
 ---
-title: Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
+title: Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
 titleSuffix: Microsoft Intune
 description: В этом кратком руководстве описано, как с помощью Microsoft Intune настроить длину пароля, требуемую для всех устройств Android.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/26/2019
+ms.date: 04/15/2019
 ms.topic: quickstart
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f4a16272f32b8546e7e9bb12a22f16235ab49aed
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.openlocfilehash: e71a9a69cfc474f311bc6acd9e8f24c776a44476
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58799664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61512787"
 ---
 # <a name="quickstart-create-a-password-compliance-policy-for-android-devices"></a>Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
 
@@ -32,7 +32,7 @@ ms.locfileid: "58799664"
 Политика соответствия Intune для устройств указывает правила и параметры, которым должны соответствовать устройства. Политики соответствия можно использовать с условным доступом для разрешения или блокировки доступа к ресурсам организации. Вы также можете получать отчеты об устройствах и принимать меры в случае несоответствия.
 
 > [!IMPORTANT]
-> Помимо параметров пароля следует использовать и другие параметры системы безопасности для защиты сотрудников. См. дополнительные сведения о других [параметрах безопасности системы](compliance-policy-create-android-for-work.md#system-security-settings).
+> Помимо параметров пароля следует использовать и другие параметры системы безопасности для защиты сотрудников. См. дополнительные сведения о других [параметрах безопасности системы](compliance-policy-create-android-for-work.md).
 
 Если у вас нет подписки Intune, [зарегистрируйтесь для получения бесплатной пробной учетной записи](free-trial-sign-up.md).
 

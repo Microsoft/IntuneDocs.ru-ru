@@ -5,21 +5,23 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 01/02/2018
-ms.topic: article
+ms.date: 03/04/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 60cfa440-0723-4ea0-bacf-3c5d26f9a1d3
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
-ms.openlocfilehash: 4cec5c593fd4191a9d73e77b13fd38df81a7fe8b
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: a9f16c563ff0416092abe3812b3505c2f6d92587
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52179751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61512905"
 ---
 # <a name="basic-setup"></a>Базовая настройка
 
@@ -31,11 +33,11 @@ ms.locfileid: "52179751"
 
 Intune требуется Azure Active Directory (AAD) в качестве поставщика групп идентификаторов и пользователей. Дополнительные сведения
 
--  [Требования к удостоверениям](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
+-  [Требования к удостоверениям](https://docs.microsoft.com/azure/active-directory/active-directory-hybrid-identity-design-considerations-overview#design-considerations-overview)
 
--   [Требования к синхронизации каталогов](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
+-   [Требования к синхронизации каталогов](https://docs.microsoft.com/azure/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements)
 
--   [Требования к многофакторной проверке подлинности (MFA)](https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-multifactor-auth-requirements)
+-   [Многофакторная идентификация (MFA)](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
 
 -   [Планирование групп пользователей и устройств](users-add.md)
 
@@ -54,23 +56,23 @@ Intune требуется Azure Active Directory (AAD) в качестве по�
 
 ## <a name="task-list-for-an-intune-setup"></a>Список задач для настройки Intune
 
-### <a name="task-1-intune-subscription"></a>Задача 1. Подписка Intune
+### <a name="task-1-intune-subscription"></a>Задача 1. Подписка Intune
 
 Перед миграцией в Intune потребуется подписка Intune.
 
--   [На этой странице](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) приведены инструкции по следующим операциям:
+-   [На этой странице](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) приведены инструкции по следующим операциям:
 
     -   Создание подписки Intune, связанной с новым клиентом AAD.
 
     -   Связывание подписки Intune при входе в существующий клиент AAD.
 
-### <a name="task-2-assign-intune-user-licenses"></a>Задача 2. Назначение лицензий пользователя Intune
+### <a name="task-2-assign-intune-user-licenses"></a>Задача 2. Назначение лицензий пользователей Intune.
 
 -   Узнайте, как можно [назначить лицензии пользователя Intune](licenses-assign.md).
 
 -   Узнайте, как можно [создать пользователей или синхронизировать пользователя из локальной службы Active Directory (AD)](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) (при создании клиента Azure Active Directory).
 
-### <a name="task-3-set-your-mdm-authority-to-intune"></a>Задача 3. Установка Intune в качестве центра MDM
+### <a name="task-3-set-your-mdm-authority-to-intune"></a>Задача 3. Установка Intune в качестве центра MDM
 
 Intune можно управлять с помощью портала Azure или консоли Configuration Manager Current Branch. Если вам не нужно интегрировать Intune с развертыванием Configuration Manager Current Branch, рекомендуем управлять Intune с [портала Azure](https://portal.azure.com).
 

@@ -1,15 +1,16 @@
 ---
 title: Проектирование собственной архитектуры Microsoft Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Эта статья поможет вам создать структуру для проектирования и внедрения Microsoft Intune с использованием только облачной среды.
 keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 10/01/2018
+ms.date: 3/22/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: a8e38e29-f5e3-4a71-a170-d3b1a06e37c6
 ms.reviewer: jeffbu, cgerth
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 22af3d4de296d90a89bb3d812cab0e55983e786b
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 307895935e1cd6fe2489a4ee8ae03333ce97d55b
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57238988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61512725"
 ---
 # <a name="create-a-design"></a>Создание структуры проектирования
 
@@ -110,6 +111,10 @@ ms.locfileid: "57238988"
 
 Intune предлагает два варианта развертывания: автономный и гибридный. Автономный вариант подразумевает выполнение службы Intune в облаке, гибридный — интеграцию Intune с System Center Configuration Manager. Это руководство предназначено в первую очередь для использования автономного варианта. [Вам нужно решить, какой вариант соответствует потребностям вашего бизнеса](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management).
 
+> [!Important]
+>Подключение новых клиентов гибридного управления мобильными устройствами больше не поддерживается. Дополнительные сведения см. в записи блога о [переходе с гибридного управления мобильными устройствами на Intune в Azure](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Move-from-Hybrid-Mobile-Device-Management-to-Intune-on-Azure/ba-p/280150).
+
+
 ## <a name="intune-tenant-location"></a>Расположение клиента Intune
 
 Если ваша организация открыла представительства по всему миру, при подписке на службу обязательно спланируйте расположение клиента. Соответствующая страна указывается при первом оформлении подписки Intune и соответствует указанным ниже регионам:
@@ -133,7 +138,7 @@ Intune предлагает два варианта развертывания: 
 
 -   Инфраструктура открытых ключей (PKI)
 
-Давайте рассмотрим эти внешние зависимости более подробно.
+Далее мы рассмотрим эти внешние зависимости более подробно.
 
 ### <a name="identity"></a>Удостоверение
 
@@ -399,11 +404,9 @@ Intune поддерживает несколько способов достав
 Вы можете [скачать шаблон приведенной выше таблицы](https://gallery.technet.microsoft.com/Intune-deployment-planning-fae156c2?redir=0) для определения потребностей политики соответствия.
 #### <a name="conditional-access-policies"></a>Политики условного доступа
 
-Функция условного доступа используется, чтобы разрешить доступ к электронной почте и другим ресурсам организации только соответствующим устройствам. Intune взаимодействует с системой Enterprise Mobility + Security (EMS) для управления доступом к ресурсам организации. Вам потребуется решить, нужен ли условный доступ и что именно требуется защитить. Дополнительные сведения об [условном доступе](conditional-access.md).
+Функция условного доступа используется, чтобы разрешить доступ к электронной почте и другим ресурсам организации только соответствующим устройствам. Intune взаимодействует с системой Enterprise Mobility + Security (EMS) для управления доступом к ресурсам организации. Решите, нужен ли вам условный доступ и что именно требуется защитить. Дополнительные сведения об [условном доступе](conditional-access.md).
 
-Для веб-доступа определите, какие платформы и группы пользователей будут целевыми для политик условного доступа. Кроме того, решите, требуется ли установить или настроить соединитель Service To Service Connector Intune для Exchange Online или локальной организации Exchange. Дополнительные сведения об установке и настройке соединителей Service To Service Connector Intune: <!---these links are correct--->
-
--   [Exchange Online](exchange-service-connector-configure.md)
+Для веб-доступа определите, какие платформы и группы пользователей будут целевыми для политик условного доступа. Кроме того, решите, требуется ли установить или настроить соединитель Intune для локальной организации Exchange. 
 
 -   [Локальная среда Exchange](exchange-connector-install.md)
 

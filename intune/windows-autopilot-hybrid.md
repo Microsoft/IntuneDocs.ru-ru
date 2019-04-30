@@ -10,6 +10,7 @@ ms.date: 12/06/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 8518d8fa-a0de-449d-89b6-8a33fad7b3eb
 ms.reviewer: damionw
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e51c13136b5dd79ba9ff395008c6a8cb3e67e9e4
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 1ab718cd087757211ad4e84cbba39808cf9de7d3
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57238189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61515575"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot-preview"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot (предварительная версия)
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
@@ -36,6 +37,7 @@ ms.locfileid: "57238189"
 - Доступ к Интернету.
 - Доступ к Active Directory (VPN-подключение не поддерживается).
 - Пройденный запуск при первом включении компьютера (OOBE).
+- Возможность проверки связи с контроллером домена в домене, к которому необходимо присоединиться.
 
 ## <a name="set-up-windows-10-automatic-enrollment"></a>Настройка автоматической регистрации Windows 10
 
@@ -119,7 +121,7 @@ ms.locfileid: "57238189"
 
 ### <a name="configure-web-proxy-settings"></a>Настройка параметров веб-прокси
 
-Если у вас есть веб-прокси в сетевой среде, обеспечьте правильную работу соединителя Intune для Active Directory. См. статью [Работа с имеющимися локальными прокси-серверами](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-connectors-with-proxy-servers).
+Если у вас есть веб-прокси в сетевой среде, обеспечьте правильную работу соединителя Intune для Active Directory. См. статью [Работа с имеющимися локальными прокси-серверами](autopilot-hybrid-connector-proxy.md).
 
 
 ## <a name="create-a-device-group"></a>Создание группы устройств
@@ -210,6 +212,9 @@ ms.locfileid: "57238189"
 1. Выберите **ОК** > **Создать**.  
     Созданный профиль отобразится в списке.
 1. Чтобы назначить профиль, следуйте инструкциям в разделе [Назначение профиля устройства](device-profile-assign.md#assign-a-device-profile). 
+
+> [!NOTE]
+> Возможности именования Windows Autopilot для гибридного присоединения к Azure AD не поддерживают переменные, такие как %SERIAL%, а поддерживают только префиксы для имени компьютера.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

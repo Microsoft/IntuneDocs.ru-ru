@@ -9,6 +9,7 @@ ms.date: 05/18/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 96990be0-eb1e-43a4-a0e4-09c7dbdc2bf4
 ms.reviewer: angerobe
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 76e0c411afe1fb4e32b26c6ad669cb91b6cd3336
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 5a253894e400e4b63de40d2d8ef56cefef5b2ca0
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57232800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61512821"
 ---
 # <a name="audit-export-or-delete-personal-data-in-intune"></a>Аудит, экспорт и удаление персональных данных в Intune
 
@@ -79,6 +80,9 @@ ms.locfileid: "57232800"
 1. Удалите пользователя из локальной службы Active Directory (AD). Это запретит синхронизацию пользователя с Azure AD, а также обнаружение функциями Configuration Manager. 
 2. Удалите пользователя из консоли Configuration Manager, чтобы удалить его и связанные данные из Configuration Manager. В консоли перейдите в раздел **Активы и соответствие** > **Пользователи**, щелкните правой кнопкой мыши удаляемого пользователя и выберите **Удалить**.
 3. [Удалите пользователя из AAD](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory.md#delete-users-from-azure-ad), при этом пользователь и связанные с ним данные удаляются из Azure Active Directory и Intune. При удалении пользователя из AAD (необратимом) Intune принимает сигнал удаления из AAD и затем автоматически начинает очищать все персональные данные пользователя из службы Intune. Сведения пользователя будут удалены из службы Intune через 30 дней после выполнения действия удаления.
+
+> [!Important]
+>Подключение новых клиентов гибридного управления мобильными устройствами больше не поддерживается. Дополнительные сведения см. в записи блога о [переходе с гибридного управления мобильными устройствами на Intune в Azure](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Move-from-Hybrid-Mobile-Device-Management-to-Intune-on-Azure/ba-p/280150).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

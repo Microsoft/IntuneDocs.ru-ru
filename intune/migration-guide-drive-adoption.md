@@ -1,26 +1,28 @@
 ---
 title: Реализация в системах конечных пользователей за счет условного доступа
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения об использовании условного доступа для регистрации в Microsoft Intune.
 keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 01/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c2d7ce3f-fe97-4044-ad9e-25ac8fa301c9
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
-ms.openlocfilehash: 4fad67bcde44246e7673d6ebe12afcdcf14fc8cd
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 803bcda24b7d6fa1cf923ff28848b8d2b71cf62e
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52183814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61508163"
 ---
 # <a name="drive-end-user-adoption-with-conditional-access-in-microsoft-intune"></a>Реализация в системах конечных пользователей за счет условного доступа в Microsoft Intune
 
@@ -55,11 +57,11 @@ ms.locfileid: "52183814"
 
 ## <a name="task-list-for-conditional-access"></a>Список задач для условного доступа
 
-### <a name="task-1-decide-how-you-are-going-to-implement-conditional-access"></a>Задача 1. Выбор способа реализации условного доступа
+### <a name="task-1-decide-how-you-are-going-to-implement-conditional-access"></a>Задача 1. Выбор способа реализации условного доступа
 
 [Стандартные способы использования условного доступа](conditional-access-intune-common-ways-use.md).
 
-### <a name="task-2-set-up-intune-conditional-access"></a>Задача 2. Настройка условного доступа Intune
+### <a name="task-2-set-up-intune-conditional-access"></a>Задача 2. Настройка условного доступа Intune
 
 Выберите один из следующих вариантов.
 

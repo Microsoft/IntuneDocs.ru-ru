@@ -1,6 +1,6 @@
 ---
 title: Настройка соответствия устройств и приложений во время миграции в Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этой статье представлена процедура настройки политик соответствия устройств и управления приложениями во время миграции в Microsoft Intune.
 keywords: ''
 author: dougeby
@@ -10,6 +10,7 @@ ms.date: 01/02/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 0062d08e-e5b3-4f73-8b64-5ad95adbe945
 ms.reviewer: dagerrit
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9a0557eff752e1fc511716fc7e5de0ebe904172d
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 76c6000c375c3128c0832f3dd6b40fe1ed4cf34b
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57230692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61508224"
 ---
 # <a name="configure-device-compliance-and-app-management-policies-when-migrating-to-microsoft-intune"></a>Настройка политик соответствия устройств и управления приложениями во время миграции в Microsoft Intune
 

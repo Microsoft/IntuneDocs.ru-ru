@@ -1,26 +1,28 @@
 ---
 title: Планирование распространения данных во время миграции
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этой статье описываются план и стратегия распространения данных во время миграции в Microsoft Intune.
 keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 01/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: e6a52506-2d29-41f7-a171-5d684a740dd4
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
-ms.openlocfilehash: e19ce1aa39d6402ccf1de93af493457b0a10d0b8
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 08fcda324d2c3c397deb99924d731ed4d4512651
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52183743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61490162"
 ---
 # <a name="plan-communications"></a>Планирование обмена данными
 
@@ -36,7 +38,7 @@ ms.locfileid: "52183743"
     -   [Скачать шаблон электронного сообщения \#№ 1](https://gallery.technet.microsoft.com/Intune-migration-guide-end-e3209b35)
 <br></br>
 
--   **Электронное сообщение №2.** Скажите, что можно получить доступ к службам в Intune. Скажите пользователям, чтобы они зарегистрировались прямо сейчас. Напомните им о преимуществах и стратегических причинах миграции.<br/><br/>
+-   **Электронное сообщение № 2.** Скажите, что можно получить доступ к службам в Intune. Скажите пользователям, чтобы они зарегистрировались прямо сейчас. Напомните им о преимуществах и стратегических причинах миграции.<br/><br/>
 
 
     -   [Скачать шаблон электронного сообщения \#№ 2](https://gallery.technet.microsoft.com/Intune-migration-guide-end-a9d25eb5)
@@ -57,6 +59,8 @@ ms.locfileid: "52183743"
 -   [Шаблон регистрации конечного пользователя Intune для ИТ-администраторов](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a) — это настраиваемый документ Word, в котором описывается регистрация в Intune устройств iOS, Mac и Android.
 
 -   [Руководства и сообщения электронной почты с инструкциями по FastTrack для EMS](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c) можно персонализировать с помощью логотипа, чтобы ускорить внедрение EMS и Intune в организации.
+
+-   Поделитесь [URL-адресом приложения корпоративного портала](http://go.microsoft.com/fwlink/?LinkID=396941) с пользователями Windows, iOS и Android. Этот URL-адрес перенаправляет в соответствующий список приложений корпоративного портала для устройств Android, iOS и Windows.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
