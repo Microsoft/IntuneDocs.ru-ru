@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/09/2019
+ms.date: 04/01/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 28f8a589f20cb63ad4f9873942e9ad511d729b37
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
-ms.translationtype: MTE75
+ms.openlocfilehash: 535f66c68b066454ce9706b1dd1d7a4fce5c265c
+ms.sourcegitcommit: e63e3debb5f4d9a757f767913e72e39742137b17
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566460"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58788493"
 ---
 # <a name="windows-10-and-later-settings-to-manage-shared-devices-using-intune"></a>Параметры Windows 10 (и более поздних версий) для управления общими устройствами с помощью Intune
 
@@ -60,6 +60,9 @@ ms.locfileid: "57566460"
 - **Политики для учебных заведений**. Выберите **Включено**, чтобы использовать рекомендуемые параметры для устройств, используемых в школах: они являются более жесткими. Выберите **Отключено**, чтобы политики по умолчанию и рекомендуемые для образовательных учреждений политики не использовались. Значение **Не настроено** оставляет этот параметр не управляемым с помощью Intune (по умолчанию) и не передает его в политики для управления на устройстве.
 
   Дополнительные сведения о возможностях политик для образовательных учреждений см. в разделе [рекомендаций по конфигурации Windows 10 для клиентов — образовательных учреждений](https://docs.microsoft.com/education/windows/configure-windows-for-education).
+
+> [!TIP]
+> [Настройка общих или guest ПК](https://docs.microsoft.com/windows/configuration/set-up-shared-or-guest-pc) (открывается другой веб-сайт документация) является превосходным ресурсом в этой функции Windows 10, включая основные понятия и групповые политики, которые могут быть установлены в режиме общего доступа.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

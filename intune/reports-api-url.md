@@ -1,6 +1,6 @@
 ---
 title: Конечная точка API для хранилища данных Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этой справочной статье описывается структура URL-адресов API хранилища данных Microsoft Intune. Также приведены примеры фильтров.
 keywords: Хранилище данных Intune
 author: Erikre
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e0e56c2dd4e26c68a82d5cb9d902e4480e1b98c8
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
-ms.translationtype: MTE75
+ms.openlocfilehash: 50be11f9ada92670c201fc2540499effa5a7edef
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57396493"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798509"
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Конечная точка API для хранилища данных Intune
 
@@ -53,7 +53,7 @@ URL-адрес содержит следующие элементы:
 |-------------------|------------|--------------------------------------------------------------------------------------------------------------------|
 | местоположение | msua06 | Базовый URL-адрес можно узнать, просмотрев колонку API хранилища данных на портале Azure. |
 | entity-collection | dates | Имя коллекции сущностей OData. Дополнительные сведения о коллекциях и сущностях в модели данных см. в разделе [Модели данных](reports-ref-data-model.md). |
-| api-version | beta | Версия API, используемого для доступа. Дополнительные сведения см. в разделе [Версия](#API-version-information). |
+| api-version | beta | Версия API, используемого для доступа. Дополнительные сведения см. в разделе [Версия](reports-api-url.md#api-version-information). |
 | maxhistorydays | 7 | Максимальное число дней хранения журнала для извлечения (необязательно). Этот параметр может быть задан для любой коллекции, но будет действовать только для коллекций, которые содержат `dateKey` как часть свойства ключа. Дополнительную информацию см. в разделе [Фильтры диапазона DateKey](reports-api-url.md#datekey-range-filters). |
 
 ## <a name="api-version-information"></a>Сведения о версии API

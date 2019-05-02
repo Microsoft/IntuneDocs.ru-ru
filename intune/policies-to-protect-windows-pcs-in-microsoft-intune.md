@@ -1,6 +1,6 @@
 ---
 title: Политики для защиты компьютеров с ОС Windows
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения о политиках, которые можно использовать для защиты компьютеров с Windows, когда они управляются с помощью клиентского ПО Intune.
 keywords: ''
 author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 16992d8a80ca42db84cfa071422a779606a99891
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
-ms.translationtype: MTE75
+ms.openlocfilehash: eead854aed4015c6811441b00c633c58ad2fbc7c
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460085"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58798554"
 ---
 # <a name="use-policies-to-help-protect-windows-pcs-that-run-the-intune-client-software"></a>Использование политик для защиты компьютеров Windows, на которых запущено клиентское ПО Intune
 
