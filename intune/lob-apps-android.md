@@ -1,15 +1,15 @@
 ---
 title: Добавление в Microsoft Intune бизнес-приложения Android
-titlesuffix: ''
 description: Узнайте, как добавлять бизнес-приложения Android в Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/11/2018
+ms.date: 04/09/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
 ms.reviewer: mghadial
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a080d655aa4dfda46e0fc6019183e8425942f2c4
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 5be123dc918785c1c60ec08e5815d642a3f13f72
+ms.sourcegitcommit: 8c795b041cd39e3896595f64f53ace48be0ec84c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57238444"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "59587473"
 ---
 # <a name="add-an-android-line-of-business-app-to-microsoft-intune"></a>Добавление в Microsoft Intune бизнес-приложения Android
 
@@ -70,7 +70,7 @@ ms.locfileid: "57238444"
     - **Логотип**. Загрузите значок, который будет связан с приложением. Этот значок будет отображаться с приложением при просмотре пользователями корпоративного портала.
 3. Завершив настройку, нажмите кнопку **ОК**.
 
-## <a name="step-4-finish-up"></a>Шаг 4. Завершение
+## <a name="step-4-finish-up"></a>Шаг 4. Завершение
 
 1. В области **Добавить приложение** проверьте правильность сведений о приложении.
 2. Выберите **Добавить**, чтобы отправить приложение в Intune.
