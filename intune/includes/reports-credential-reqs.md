@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 015e50d24149a6b6242eda86d5f3d62489e9955d
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.translationtype: MTE75
+ms.contentlocale: ru-RU
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61511348"
+---
 <!-- This include is part of the Intune Data Warehouse documentation. -->
 
 ## <a name="azure-ad-and-intune-credential-requirements"></a>Требования к учетным данным Azure AD и Intune

@@ -15,11 +15,11 @@ ms.technology: ''
 ms.assetid:
 - GET ONE FROM guidgenerator.com
 ms.openlocfilehash: d05559a46cfd2bf9e092378e7cff779022e21792
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "20283575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61509651"
 ---
 # <a name="metadata-and-markdown-template"></a>Метаданные и шаблон разметки
 
