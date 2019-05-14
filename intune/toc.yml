@@ -397,36 +397,6 @@
             - name: Mobile Threat Defense
               href: mobile-threat-defense.md
               items:
-                - name: Настройка Lookout
-                  href: lookout-mobile-threat-defense-connector.md
-                  items:
-                    - name: Интеграция Lookout и Intune
-                      href: lookout-mtd-connector-integration.md
-                - name: Настройка Symantec
-                  href: skycure-mobile-threat-defense-connector.md
-                  items:
-                    - name: Интеграция Symantec и Intune
-                      href: skycure-mtd-connector-integration.md
-                - name: Настройка Check Point
-                  href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md
-                  items:
-                    - name: Интеграция Check Point и Intune
-                      href: checkpoint-sandblast-mobile-mtd-connector-integration.md
-                - name: Настройка Zimperium
-                  href: zimperium-mobile-threat-defense-connector.md
-                  items:
-                    - name: Интеграция Zimperium и Intune
-                      href: zimperium-mtd-connector-integration.md
-                - name: Настройка Pradeo
-                  href: pradeo-mobile-threat-defense-connector.md
-                  items:
-                    - name: Интеграция Pradeo и Intune
-                      href: pradeo-mtd-connector-integration.md
-                - name: Настройка Better Mobile
-                  href: better-mobile-threat-defense-connector.md
-                  items:
-                    - name: Интеграция Better Mobile и Intune
-                      href: better-mobile-mtd-connector-integration.md
                 - name: Настройка Intune для MTD
                   items:
                     - name: Добавление приложений MTD
@@ -435,6 +405,43 @@
                       href: mtd-device-compliance-policy-create.md
                     - name: Включение MTD в Intune
                       href: mtd-connector-enable.md
+                - name: Приложения MTD
+                  items:
+                    - name: Настройка Lookout
+                      href: lookout-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Lookout и Intune
+                          href: lookout-mtd-connector-integration.md
+                    - name: Настройка Symantec
+                      href: skycure-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Symantec и Intune
+                          href: skycure-mtd-connector-integration.md
+                    - name: Настройка Check Point
+                      href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Check Point и Intune
+                          href: checkpoint-sandblast-mobile-mtd-connector-integration.md
+                    - name: Настройка Zimperium
+                      href: zimperium-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Zimperium и Intune
+                          href: zimperium-mtd-connector-integration.md
+                    - name: Настройка Pradeo
+                      href: pradeo-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Pradeo и Intune
+                          href: pradeo-mtd-connector-integration.md
+                    - name: Настройка Better Mobile
+                      href: better-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Better Mobile и Intune
+                          href: better-mobile-mtd-connector-integration.md
+                    - name: Настройка Sophos Mobile
+                      href: sophos-mtd-connector.md
+                      items:
+                        - name: Интеграция Sophos Mobile и Intune
+                          href: sophos-mtd-connector-integration.md
             - name: ATP в Защитнике Windows
               href: advanced-threat-protection.md
             - name: Базовые конфигурации безопасности
@@ -709,6 +716,8 @@
                   href: wi-fi-settings-ios.md
                 - name: Особые настройки
                   href: custom-settings-ios.md
+                - name: Идентификаторы пакетов для встроенных приложений
+                  href: bundle-ids-built-in-ios-apps.md
         - name: macOS
           items:
             - name: Параметры политики соответствия
