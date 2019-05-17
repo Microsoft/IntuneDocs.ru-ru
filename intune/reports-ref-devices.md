@@ -167,10 +167,10 @@ ms.locfileid: "59429188"
 |---------|------------|--------|
 | ownerTypeID |Уникальный идентификатор для типа владельца. | |
 | ownerTypeKey |Уникальный идентификатор типа владельца в хранилище данных — суррогатный ключ. | |
-| ownerTypeName |Представляет тип владельца устройств:  <br>Корпоративная — устройство является принадлежит организации. <br>Personal — устройство является личным (BYOD).  <br>Unknown — информация об этом устройстве отсутствует. |Корпоративные личных неизвестно |
+| ownerTypeName |Представляет тип владельца устройств:  <br>Corporate — устройство принадлежит организации. <br>Personal — устройство является личным (BYOD).  <br>Unknown — информация об этом устройстве отсутствует. |Corporate   Personal Unknown |
 
 > [!Note]  
-> Для `ownerTypeName` в Azure AD, при создании динамических групп для устройств, необходимо задать значение фильтра `deviceOwnership` как `Company`. Дополнительные сведения см. в разделе [правила для устройств](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices). 
+> Для `ownerTypeName` в Azure AD при создании динамических групп для устройств необходимо задать значение фильтра `deviceOwnership` как `Company`. Дополнительные сведения см. в статье [Правила для устройств](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices). 
 
 ## <a name="managementstates"></a>ManagementStates
 

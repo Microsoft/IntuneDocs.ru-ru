@@ -91,18 +91,18 @@ ms.locfileid: "59292356"
 ## <a name="enabling-intune-app-protection-policies-in-your-android-mobile-app"></a>Включение политик защиты приложений Intune в мобильном приложении Android
 
 1. Добавьте [пакет Microsoft.Intune.MAM.Xamarin.Android NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.Android) в проект Xamarin.Android.
-    1. Для приложения Xamarin.Forms, добавьте [пакет Microsoft.Intune.MAM.Remapper.Tasks NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) в проект Xamarin.Android. 
-2. Выполните общие шаги, необходимые для [интеграция пакета SDK для приложений Intune](app-sdk-android.md) в мобильное приложение Android для ссылки на дополнительные сведения.
+    1. Для приложения Xamarin.Forms также добавьте [пакет Microsoft.Intune.MAM.Remapper.Tasks NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) в свой проект Xamarin.Android. 
+2. Выполните общие шаги, необходимые для [интеграции пакета SDK для приложений Intune](app-sdk-android.md) в мобильное приложение Android, сверяясь со сведениями в этом документе.
 
 ### <a name="xamarinandroid-integration"></a>Интеграция Xamarin.Android
 
-Полный обзор по интеграции пакета SDK для приложений Intune можно найти в [Microsoft Intune App SDK for руководство разработчика Android по](app-sdk-android.md). Прочтите руководство и интеграция пакета SDK для приложений Intune с приложением Xamarin следующие разделы призваны выделены различия между реализацией, собственное приложение Android, разработанный в Java и разработанные приложения Xamarin в C#. Эти разделы следует рассматривать как дополнительное и не может использоваться в качестве замены для обязательно прочитайте руководство целиком.
+Полный обзор по интеграции пакета SDK для приложений Intune можно найти в [Руководстве разработчика по Microsoft Intune App SDK для Android](app-sdk-android.md). Читая руководство и интегрируя пакет SDK для приложений Intune с приложением Xamarin, используйте следующие разделы, где выделены различия между реализацией собственного приложения Android, разработанного на Java, и приложения Xamarin, разработанного на C#. Эти разделы стоит рассматривать как дополнительные и не следует использовать в качестве замены; обязательно прочитайте руководство целиком.
 
 #### <a name="renamed-methodsapp-sdk-androidmdrenamed-methods"></a>[Переименованные методы](app-sdk-android.md#renamed-methods)
 Часто метод, доступный в классе Android, отмечается как окончательный в замещающем классе MAM. В этом случае замещающий класс MAM предоставляет метод с таким же именем (с суффиксом `MAM`), который должен быть переопределен вместо исходного. Например, при наследовании от `MAMActivity` вместо переопределения `OnCreate()` и вызова `base.OnCreate()` объекту `Activity` необходимо переопределить `OnMAMCreate()` и вызвать `base.OnMAMCreate()`.
 
-#### <a name="mam-applicationapp-sdk-androidmdmamapplication"></a>[Приложения MAM](app-sdk-android.md#mamapplication)
-Необходимо определить приложение `Android.App.Application` класс, наследующий от `MAMApplication`. Убедитесь, что подкласс правильно декорирован атрибутом `[Application]` и переопределяет конструктор `(IntPtr, JniHandleOwnership)`.
+#### <a name="mam-applicationapp-sdk-androidmdmamapplication"></a>[Приложение MAM](app-sdk-android.md#mamapplication)
+Необходимо определить класс `Android.App.Application`, наследующий от `MAMApplication`. Убедитесь, что подкласс правильно декорирован атрибутом `[Application]` и переопределяет конструктор `(IntPtr, JniHandleOwnership)`.
 ```csharp
     [Application]
     class TaskrApp : MAMApplication
@@ -111,7 +111,7 @@ ms.locfileid: "59292356"
         : base(handle, transfer) { }
 ```
 > [!NOTE]
-> Проблема с помощью привязок MAM Xamarin могут привести к сбою при развертывании в режиме отладки. Чтобы избежать этого `Debuggable=false` необходимо добавить атрибут `Application` класс и `android:debuggable="true"` флаг необходимо удалить из манифеста, если он был задан вручную.
+> Проблема с привязками MAM Xamarin может привести к сбою при развертывании в режиме отладки. Чтобы избежать этого, необходимо добавить атрибут `Debuggable=false` в класс `Application`, а флаг `android:debuggable="true"` необходимо удалить из манифеста, если он был задан вручную.
 
 #### <a name="enable-features-that-require-app-participationapp-sdk-androidmdenable-features-that-require-app-participation"></a>[Включение функций, требующих содействия со стороны приложения](app-sdk-android.md#enable-features-that-require-app-participation)
 Пример. Определение необходимости использования ПИН-кода в приложении
@@ -149,12 +149,12 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 
 ### <a name="xamarinforms-integration"></a>Интеграция Xamarin.Forms
 
-Для `Xamarin.Forms` приложений, мы предоставили `Microsoft.Intune.MAM.Remapper` пакета, который автоматически выполнять замену класса MAM, внедряя `MAM` классы в иерархии классов из часто используемых `Xamarin.Forms` классы. 
+Для приложений `Xamarin.Forms` мы предоставили пакет `Microsoft.Intune.MAM.Remapper`, который автоматически выполняет замену класса MAM, внедряя классы `MAM` в иерархию часто используемых классов `Xamarin.Forms`. 
 
 > [!NOTE]
-> Интеграция Xamarin.Forms осуществляется требуется выполнить, кроме того, для интеграции Xamarin.Android, описанные выше.
+> Интеграция Xamarin.Forms осуществляется помимо интеграции Xamarin.Android, описанной выше.
 
-После добавления в проект Remapper необходимо будет выполнить замену эквивалент MAM. Например `FormsAppCompatActivity` и `FormsApplicationActivity` можно продолжать использовать в приложение, предоставленное переопределений для `OnCreate` и `OnResume` заменяются эквивалентами MAM `OnMAMCreate` и `OnMAMResume` соответственно.
+После добавления Remapper в проект необходимо будет выполнить эквивалентную замену MAM. Например, `FormsAppCompatActivity` и `FormsApplicationActivity` можно продолжать использовать в приложении, если переопределения для `OnCreate` и `OnResume` заменяются эквивалентами MAM `OnMAMCreate` и `OnMAMResume` соответственно.
 
 ```csharp
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
@@ -166,13 +166,13 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
             LoadApplication(new App());
         }
 ```
-Если не внести замены могут возникнуть следующие ошибки компиляции, пока не выполните замены:
+Если не сделать замену, могут возникнуть следующие ошибки компиляции:
 * [Ошибка компилятора CS0239](https://docs.microsoft.com/dotnet/csharp/misc/cs0239). Эта ошибка обычно возникает в этой форме ``'MainActivity.OnCreate(Bundle)': cannot override inherited member 'MAMAppCompatActivityBase.OnCreate(Bundle)' because it is sealed``.
 Это ожидаемо; когда remapper изменяет наследование классов Xamarin, некоторые функции станут `sealed` и для переопределения вместо этого добавляется новый вариант MAM.
-* [Ошибка компилятора CS0507](https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0507): Эта ошибка обычно возникает в этой форме ``'MyActivity.OnRequestPermissionsResult()' cannot change access modifiers when overriding 'public' inherited member ...``. По мере изменения порядка наследования некоторых классов Xamarin средством remapper некоторые функции-члены будут изменены на `public`. Если переопределить любой из этих функций, необходимо будет изменить их переопределения модификаторов доступа для тех `public` также.
+* [Ошибка компилятора CS0507](https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0507): данная ошибка обычно возникает в этой форме ``'MyActivity.OnRequestPermissionsResult()' cannot change access modifiers when overriding 'public' inherited member ...``. По мере изменения порядка наследования некоторых классов Xamarin средством remapper некоторые функции-члены будут изменены на `public`. Если переопределить какую-либо из этих функций, может также потребоваться изменить модификаторы доступа переопределений на `public`.
 
 > [!NOTE]
-> Remapper перезаписывает зависимость, которая используется Visual Studio для автоматического завершения IntelliSense. Таким образом может потребоваться перезагрузить и перестройте проект в том случае, если Remapper был добавлен для IntelliSense, чтобы правильно распознать изменения.
+> Remapper перезаписывает зависимость, которая используется Visual Studio для автоматического завершения IntelliSense. Таким образом, может потребоваться перезагрузить и перестроить проект в том случае, если был добавлен Remapper, чтобы технология IntelliSense могла правильно распознать изменения.
 
 ## <a name="support"></a>Support
 Если ваша организация является существующим клиентом Intune, обратитесь к представителю службы поддержки Майкрософт, чтобы отправить запрос в службу поддержки Майкрософт и разместить сведения о проблеме на [соответствующей странице GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues), и мы ответим вам сразу же, как только сможем. 

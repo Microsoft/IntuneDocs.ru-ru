@@ -64,7 +64,7 @@ URL-адрес содержит следующие элементы:
 
 ## <a name="odata-query-options"></a>Параметры запроса OData
 
-Текущая версия поддерживает следующие параметры запроса OData: `$filter`, `$select`, `$skip,` и `$top`. В `$filter`, только `DateKey` или `RowLastModifiedDateTimeUTC` может поддерживаться, если столбцы применимы, и другие свойства приведет к запуску недопустимый запрос.
+Текущая версия поддерживает следующие параметры запроса OData: `$filter`, `$select`, `$skip,` и `$top`. В `$filter` может поддерживаться только `DateKey` или `RowLastModifiedDateTimeUTC`, если столбцы применимы, а другие свойства приведут недопустимому запросу.
 
 ## <a name="datekey-range-filters"></a>Фильтры диапазона DateKey
 
@@ -84,4 +84,4 @@ URL-адрес содержит следующие элементы:
 |    `$filter=DateKey eq 20180214`                                 |    Полная архивация                                      |    Возврат данных с `DateKey`, равным 20180214.                                                    |
 |    `$filter=DateKey ge 20180214 and DateKey lt 20180221`         |    Полная архивация                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180220.                                     |
 |    `maxhistorydays=7&$filter=DateKey eq 20180214`                |    Полная архивация                                      |    Возврат данных с `DateKey`, равным 20180214. `maxhistorydays` игнорируется.                            |
-|    `$filter=RowLastModifiedDateTimeUTC ge 2018-02-21T23:18:51.3277273Z`                                |    Полная архивация                                       |    Возвращать данные с `RowLastModifiedDateTimeUTC` больше или равно `2018-02-21T23:18:51.3277273Z`                             |
+|    `$filter=RowLastModifiedDateTimeUTC ge 2018-02-21T23:18:51.3277273Z`                                |    Полная архивация                                       |    Вернуть данные с `RowLastModifiedDateTimeUTC` не меньше `2018-02-21T23:18:51.3277273Z`.                             |

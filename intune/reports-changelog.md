@@ -1,12 +1,12 @@
 ---
 title: Журнал изменений хранилища данных Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: В этой статье представлен список изменений для API хранилища данных Microsoft Intune.
 keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/21/2019
+ms.date: 04/11/2019
 ms.topic: reference
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d7d69c602471e8508744f2a00008294cbd335204
-ms.sourcegitcommit: 93286c22426dcb59191a99e3cf2af4ff6ff16522
+ms.openlocfilehash: 30f315f58a905e690a43ab3c44aee783bd0ef8c9
+ms.sourcegitcommit: a2cd14c30949cef17bfc6576513e7660a8015669
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58358264"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59571813"
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
@@ -31,26 +31,166 @@ ms.locfileid: "58358264"
 
 Следите за обновлениями хранилища данных Intune.
 
+## <a name="1903-part-2"></a>1903 (часть 2)
+_Дата выпуска: апрель 2019 г._
+
+### <a name="beta-changes"></a>Изменения в бета-версии
+
+Ниже перечислены последние удаленные коллекции и их замена в хранилище данных Intune.
+
+|    Коллекция                          |    Изменение     |    Дополнительные сведения                                                                                                                                                                                                                                                                                                                                                                 |
+|----------------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    mobileAppDeviceUserInstallStatus    |    Удалено    |    Используйте [mobileAppInstallStatusCounts](intune-data-warehouse-collections.md#mobileappinstallstatuscounts).                                                                                                                                                                                                                                                                     |
+|    enrollmentTypes                     |    Удалено    |    Используйте [deviceEnrollmentTypes](intune-data-warehouse-collections.md#deviceenrollmenttypes).                                                                                                                                                                                                                                                                                      |
+|    mdmStatuses                         |    Удалено    |    Используйте [complianceStates](intune-data-warehouse-collections.md#compliancestates).                                                                                                                                                                                                                                                                                               |
+|    workPlaceJoinStateTypes             |    Удалено    |    Используйте свойство `azureAdRegistered` в коллекциях [devices](intune-data-warehouse-collections.md#devices) и [devicePropertyHistories](intune-data-warehouse-collections.md#devicepropertyhistories).                                                                                                                                                                                                             |
+|    clientRegistrationStateTypes        |    Удалено    |    Используйте [deviceRegistrationStates](intune-data-warehouse-collections.md#deviceregistrationstates).                                                                                                                                                                                                                                                                             |
+|    currentUser                         |    Удалено    |    Используйте коллекцию [users](intune-data-warehouse-collections.md#users).                                                                                                                                                                                                                                                                                                      |
+|    mdmDeviceInventoryHistories         |    Удалено    |    Многие свойства были избыточны, или их теперь можно найти в коллекциях [devicePropertyHistories](intune-data-warehouse-collections.md#devicepropertyhistories) или [devices](intune-data-warehouse-collections.md#devices). Любые свойства **mdmDeviceInventoryHistories**, которые еще не были указаны с помощью этих двух коллекций, будут недоступны. Дополнительные сведения см. ниже.    |
+
+В следующей таблице перечислены старые свойства, которые ранее размещались в коллекции **mdmDeviceInventoryHistories** и подверглись изменению или замене. Все свойства, которые были в **mdmDeviceInventoryHistories**, но отсутствуют в списке ниже, будут удалены.
+
+|    Старое свойство                |    Замена или изменение                                                           |
+|--------------------------------|---------------------------------------------------------------------------------|
+|    cellularTechnology          |    cellularTechnology в коллекции devices                                     |
+|    deviceClientId              |    deviceId в коллекции devices                                               |
+|    deviceManufacturer          |    manufacturer в коллекции devices                                           |
+|    deviceModel                 |    model в коллекции devices                                                  |
+|    deviceName                  |    deviceName в коллекции devices                                             |
+|    deviceOsPlatform            |    deviceTypeKey в коллекции devices                                          |
+|    deviceOsVersion             |    osVersion в коллекции devicePropertyHistories                              |
+|    deviceType                  |    deviceTypeKey в коллекции devices, ссылается на коллекцию deviceTypes    |
+|    encryptionState             |    Свойство encryptionState в коллекции devices                           |
+|    exchangeActiveSyncId        |    Свойство easDeviceId в коллекции devices                               |
+|    exchangeDeviceId            |    easDeviceId в коллекции devices                                            |
+|    imei                        |    imei в коллекции devices                                                   |
+|    isSupervised                |    Свойство isSupervised в коллекции devices                              |
+|    jailBroken                  |    jailBroken in devicePropertyHistories collection                             |
+|    meid                        |    Свойство meid в коллекции devices                                      |
+|    oem                         |    manufacturer в коллекции devices                                           |
+|    osName                      |    deviceTypeKey в коллекции devices, ссылается на коллекцию deviceTypes    |
+|    phoneNumber                 |    phoneNumber в коллекции devices                                            |
+|    platformType                |    model в коллекции devices                                                  |
+|    product                     |    deviceTypeKey в коллекции devices                                          |
+|    productVersion              |    osVersion в коллекции devicePropertyHistories                              |
+|    серийный номер                |    serialNumber в коллекции devices                                           |
+|    storageFree                 |    Свойство freeStorageSpaceInBytes в коллекции devices                   |
+|    storageTotal                |    Свойство totalStorageSpaceInBytes в коллекции devices                |
+|    subscriberCarrierNetwork    |    Свойство subscriberCarrier в коллекции devices                         |
+|    wifimac                     |    wiFiMacAddress в коллекции devices                                         |
+
+В следующей таблице перечислены изменения свойств в коллекции [devicePropertyHistories](intune-data-warehouse-collections.md#devicepropertyhistories): 
+
+|    Старое свойство                  |    Замена или изменение                                               |
+|----------------------------------|---------------------------------------------------------------------|
+|    categoryId                    |    deviceCategoryKey, ссылается на коллекцию deviceCategories       |
+|    certExpirationDate            |    Удалено                                                          |
+|    clientRegistrationStateKey    |    deviceRegistrationStateKey                                       |
+|    createdDate                   |    enrolledDateTime в коллекции devices                           |
+|    deviceTypeKey                 |    deviceTypeKey в коллекции devices                              |
+|    easID                         |    easDeviceId в коллекции devices                                |
+|    enrolledByUser                |    userId в коллекции devices                                     |
+|    enrollmentTypeKey             |    deviceEnrollmentTypeKey в коллекции devices                    |
+|    graphDeviceIsCompliant        |    Удалено                                                          |
+|    graphDeviceIsManaged          |    Удалено                                                          |
+|    lastContact                   |    lastSyncDateTime в коллекции devices                           |
+|    lastContactNotification       |    Удалено                                                          |
+|    lastContactWorkplaceJoin      |    Удалено                                                          |
+|    lastExchangeStatusUtc         |    Удалено                                                          |
+|    lastModifiedDateTimeUTC       |    Удалено                                                          |
+|    lastPolicyUpdateUtc           |    Удалено                                                          |
+|    managementAgentKey            |    managementStateKey                                               |
+|    manufacturer                  |    manufacturer в коллекции devices                               |
+|    mdmStatusKey                  |    complianceStateKey, ссылается на коллекцию complianceStates    |
+|    для базы данных модели                         |    model в коллекции devices                                      |
+|    osFamily                      |    operatingSystem в коллекции devices                            |
+|    osRevisionNumber              |    osVersion в коллекции devices                                  |
+|    processorArchitecture         |    Удалено                                                          |
+|    referenceId                   |    azureAdDeviceId в коллекции devices                            |
+|    серийный номер                  |    serialNumber в коллекции devices                               |
+|    workplaceJoinStateKey         |    azureAdRegistered                                                |
+
+В следующей таблице перечислены изменения свойств в коллекции [devices](intune-data-warehouse-collections.md#devices): 
+
+|    Старое свойство                  |    Замена или изменение                                               |
+|----------------------------------|---------------------------------------------------------------------|
+|    categoryId                    |    deviceCategoryKey, ссылается на коллекцию deviceCategories       |
+|    certExpirationDate            |    Удалено                                                          |
+|    clientRegistrationStateKey    |    deviceRegistrationStateKey                                       |
+|    createdDate                   |    enrolledDateTime                                                 |
+|    easId                         |    easDeviceId                                                      |
+|    enrolledByUser                |    userId                                                           |
+|    enrollmentTypeKey             |    deviceEnrollmentTypeKey                                          |
+|    graphDeviceIsCompliant        |    Удалено                                                          |
+|    graphDeviceIsManaged          |    Удалено                                                          |
+|    lastContact                   |    lastSyncDateTime                                                 |
+|    lastContactNotification       |    Удалено                                                          |
+|    lastContactWorkplaceJoin      |    Удалено                                                          |
+|    lastExchangeStatusUtc         |    Удалено                                                          |
+|    lastPolicyUpdateUtc           |    Удалено                                                          |
+|    mdmStatusKey                  |    complianceStateKey, ссылается на коллекцию complianceStates    |
+|    osFamily                      |    operatingSystem                                                  |
+|    processorArchitecture         |    Удалено                                                          |
+|    referenceId                   |    azureAdDeviceId                                                  |
+|    workplaceJoinStateKey         |    azureAdRegistered                                                |
+
+В следующей таблице перечислены изменения свойств в коллекции [enrollmentActivities](intune-data-warehouse-collections.md#enrollmentactivities): 
+
+|    Старое свойство         |    Замена или изменение         |
+|-------------------------|-------------------------------|
+|    enrollmentTypeKey    |    deviceEnrollmentTypeKey    |
+
+В следующей таблице перечислены изменения свойств в коллекции [mamApplications](intune-data-warehouse-collections.md#mamapplications): 
+
+|    Старое свойство       |    Замена или изменение    |
+|-----------------------|--------------------------|
+|    applicationKey     |    mamApplicationKey     |
+|    applicationName    |    mamApplicationName    |
+|    applicationId      |    mamApplicationId      |
+
+В следующей таблице перечислены изменения свойств в коллекции [mamApplicationInstances](intune-data-warehouse-collections.md#mamapplicationinstances): 
+
+|    Старое свойство     |    Замена или изменение    |
+|---------------------|--------------------------|
+|    applicationId    |    mamApplicationId      |
+|    deviceId         |    mamDeviceId           |
+|    deviceType       |    mamDeviceType         |
+|    deviceName       |    mamDeviceName         |
+
+В следующей таблице перечислены изменения свойств в коллекции [mamCheckins](intune-data-warehouse-collections.md#mamcheckins): 
+
+|    Старое свойство      |    Замена или изменение    |
+|----------------------|--------------------------|
+|    applicationKey    |    mamApplicationKey     |
+
+В следующей таблице перечислены изменения свойств в коллекции [users](intune-data-warehouse-collections.md#users): 
+
+|    Старое свойство             |    Замена или изменение    |
+|-----------------------------|--------------------------|
+|    startDateInclusiveUtc    |    Удалено               |
+|    endDateInclusiveUtc      |    Удалено               |
+|    isCurrent                |    Удалено               |
+
 ## <a name="1903"></a>1903
 _Выпуск от марта 2019 г._
 
-### <a name="v10-changes-reflecting-back-to-beta"></a>V1.0 изменения, отражающие обратно в бета-версии
-Когда версия 1.0 впервые появилась в 1808, различаются в некоторые значительные способами — от бета-версию API. В 1903 эти изменения будут отражены в бета-версии API. Если у вас есть важные отчеты, использующие бета-версии API, настоятельно рекомендуется переключения этих отчетов версии 1.0, чтобы избежать коренных изменений. Обратитесь к [сведения о версии API](reports-api-url.md) Дополнительные сведения о версиях API хранилища данных и обеспечения обратной совместимости. 
+### <a name="v10-changes-reflecting-back-to-beta"></a>Привнесение изменений из версии 1.0 обратно в бета-версию
+Когда версия 1.0 впервые появилась в выпуске 1808, она имела несколько значительных отличий от бета-версии API. В выпуске 1903 эти изменения будут привнесены обратно в бета-версии API. Если у вас есть важные отчеты, использующие бета-версию API, мы настоятельно рекомендуем переключить их на версию 1.0 во избежание критических изменений. Обратитесь к [сведениям о версии API](reports-api-url.md), чтобы получить дополнительные сведения о версиях API хранилища данных и обеспечении обратной совместимости. 
 
 ## <a name="1902"></a>1902 
 _Выпущено в феврале 2019 г._
 
-### <a name="power-bi-compliance-app"></a>Соответствие приложения Power BI 
+### <a name="power-bi-compliance-app"></a>Приложение соответствия требованиям Power BI 
 
-Доступ к хранилищу данных Intune в Power BI Online стал возможен благодаря [соответствия Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) приложения. С этим приложением Power BI теперь можно получить доступ к и совместно использовать предварительно созданные отчеты без настроек и не выходя из веб-браузере. 
+Вы можете получить доступ к своему хранилищу данных Intune в Power BI Online с помощью приложения [соответствия требованиям Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance). С помощью этого приложения Power BI теперь можно обращаться к предварительно созданным отчетам и предоставлять их для общего доступа без какой-либо настройки и без выхода из веб-браузера. 
 
 > [!NOTE]
-> Существует два дополнительных фильтров, которые можно применить к приложению соответствия Intune.
+> Существует два дополнительных фильтра, которые можно применить к приложению соответствия Intune.
 
-#### <a name="add-additional-filters-to-the-intune-compliance-app"></a>Добавить дополнительные фильтры для него соответствия Intune
-1. Откройте [соответствия Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) приложения в вашей веб-браузерах.
-2. Нажмите кнопку **несоответствующие устройства** и выберите **несоответствующие** в **complianceStatus** фильтра. 
-3. Щелкните **неизвестных устройств** и выберите **еще не доступна** в **complianceStatus** фильтра. 
+#### <a name="add-additional-filters-to-the-intune-compliance-app"></a>Добавить дополнительные фильтры для приложения соответствия Intune
+1. Откройте приложение [Соответствие Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) в веб-браузере.
+2. Нажмите кнопку **Несоответствующие устройства** и выберите **Несоответствующие** в фильтре **complianceStatus**. 
+3. Нажмите кнопку **Неизвестные устройства** и выберите **Пока недоступен** в фильтре **complianceStatus**. 
 
 ## <a name="1812"></a>1812 
 _Выпуск в декабре 2018 г._
