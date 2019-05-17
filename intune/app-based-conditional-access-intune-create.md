@@ -1,15 +1,15 @@
 ---
 title: Настройка политики условного доступа на основе приложений в Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Узнайте, как настроить политику условного доступа на основе приложений в Intune.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/26/2018
-ms.topic: article
+ms.date: 02/22/2019
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: d1693515-de18-4553-91ef-801976cd3ec7
 ms.reviewer: chrisgre
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b2026a446ffef3bd845affe45a7732ef3ab8ec24
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 1514fe9dfcd09e2b77967b0fed8c36fb7a06634f
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55842923"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59567495"
 ---
 # <a name="set-up-app-based-conditional-access-policies-with-intune"></a>Настройка политик условного доступа на основе приложений в Intune
 
@@ -33,12 +33,11 @@ ms.locfileid: "55842923"
 > [!IMPORTANT]
 > Эта статья описывает, как добавить политику условного доступа на основе приложения. Можно использовать одни и те же действия при добавлении таких приложений, как SharePoint Online, Microsoft Teams и Microsoft Exchange Online, из списка утвержденных приложений.
 
-## <a name="create-app-based-conditional-access-policies-in-azure-ad-workload"></a>Создание политик условного доступа на основе приложений в рабочей нагрузке Azure AD
-
-ИТ-администраторы могут создавать политики условного доступа на основе приложений из рабочей нагрузки Azure AD. При этом вам не придется переключаться между рабочими нагрузками Azure и Intune.
+## <a name="create-app-based-conditional-access-policies"></a>Создание политик условного доступа на основе приложений
+Условный доступ — это технология Azure Active Directory (Azure AD). Узел условного доступа, доступ к которому осуществляется из *Intune*, является тем же узлом, доступ к которому осуществляется из *Azure AD*. Это означает, что для настройки политик нет необходимости переключаться между Intune и Azure AD.
 
 > [!IMPORTANT]
-> У вас должна быть лицензия Azure AD Premium для создания политик условного доступа к Azure AD на портале Intune Azure.
+> У вас должна быть лицензия Azure AD Premium для создания политик условного доступа на портале Intune.
 
 ### <a name="to-create-an-app-based-conditional-access-policy"></a>Создание политики условного доступа на базе приложений
 

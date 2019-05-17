@@ -6,23 +6,24 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/11/2018
+ms.date: 04/08/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 1c086943-84a0-4d99-8295-490a2bc5be4b
 ms.reviewer: joglocke
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure; get-started
+ms.custom: intune-azure, get-started, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dbb6a8f159aebe837fabf671a84dd96223298227
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 45e9f50881ff7da0554a4731712441b5fedb01d8
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55836359"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569419"
 ---
 # <a name="what-are-app-protection-policies"></a>Что такое политики защиты приложений?
 
@@ -50,7 +51,7 @@ ms.locfileid: "55836359"
 > [!IMPORTANT]
 > Можно создавать политики управления мобильными приложениями для мобильных приложений Office, которые подключаются к службам Office 365. Вы также можете защитить доступ к локальным почтовым ящикам Exchange, создав политики защиты приложений Intune для Outlook в iOS и Android с гибридной современной проверкой подлинности. Перед использованием этой функции выполните [требования к Outlook для iOS и Android](https://technet.microsoft.com/library/mt846639(v=exchg.160).aspx). Политики защиты приложений не поддерживаются для других приложений, подключающихся к локальным службам Exchange и SharePoint.
 
-**Ниже перечислены важные преимущества использования политик защиты приложений**.
+**Ниже перечислены важные преимущества использования политик защиты приложений**:
 
 -   Защита данных компании на уровне приложения. Так как для управления мобильными приложениями не требуется управление устройствами, вы можете защитить данные организации как на управляемых, так и на неуправляемых устройствах. Управление основано на удостоверении пользователя, что устраняет необходимость в управлении устройствами.
 
@@ -69,8 +70,8 @@ ms.locfileid: "55836359"
 ### <a name="supported-platforms-for-app-protection-policies"></a>Поддерживаемые платформы для политик защиты приложений
 Поддержка платформы политик защиты приложений Intune согласуется с поддержкой платформы мобильных приложений Office для устройств Android и iOS. Дополнительные сведения см. в разделе о **мобильных приложениях** на странице [системных требований Office](https://products.office.com/office-system-requirements#coreui-contentrichblock-9r05pwg).
 
-Устройства с Windows сейчас не поддерживаются. Но вы можете использовать службу Windows Information Protection, которая обеспечивает аналогичные возможности. Подробные сведения см. в статье [Защита корпоративных данных с помощью Windows Information Protection (WIP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
-
+> [!IMPORTANT]
+> Для получения политики защиты приложений в Android на устройстве необходим Корпоративный портал Intune. Дополнительные сведения см. в разделе [Доступ к приложениям](end-user-mam-apps-android.md#access-apps).
 
 ## <a name="how-app-protection-policies-protect-app-data"></a>Защита данных приложений с помощью политик защиты приложений
 

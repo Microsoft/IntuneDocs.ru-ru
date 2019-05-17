@@ -7,21 +7,23 @@ author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 04/18/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c379c8db-788a-454e-9098-665ea3bc7b56
 ms.reviewer: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: a0678e562ab7b63c99f10c455837cf03ee30da21
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 89d6b21fd5bbc690d533695ead0b5b207ddeb6c0
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52178785"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57392279"
 ---
 # <a name="data-google-sends-to-intune"></a>Данные, которые Google отправляет в Intune
 
@@ -34,9 +36,9 @@ ms.locfileid: "52178785"
 
 | Данные, которые Google отправляет в Intune | Подробные сведения | Назначение | Пример |
 |:---:|:---:|:---:|:---:|
-| Корпоративные данные | Корпоративные идентификаторы клиента в Google. | Связывает информацию о клиенте в Intune и Google. | Пример **корпоративного идентификатора**: LC04eik8a6.<br>**Имя**. Имя администратора, указанное при настройке Android для бизнеса. Пример: Виктор Дегтярев.<br>**Адрес электронной почты администратора**. YourAdmin@gmail.com, который использовался при настройке Android для бизнеса. |
-| Данные приложений | Данные для управляемых приложений Play Store. | Отмечают приложения для пользователей или устройств как доступные или требуемые. | **Имя приложения**, например Contoso Warehouse Inventory Application.<br>**Уникальный идентификатор для представления приложения**, например app:com.Contoso.Warehouse.InventoryTracking. |
-| Учетная запись службы | Уникальная внутренняя учетная запись службы Google для использования с конкретными вызовами клиентов. | Используется для выполнения вызовов в Google от имени клиента (для просмотра приложений, устройств и т. д.). | **Имя**, например InternalAccount@InternalService.com.<br>**Ключи**, например ServiceAccountPassword. |
+| Корпоративные данные | Корпоративные идентификаторы клиента в Google. | Связывает информацию о клиенте в Intune и Google. | Пример **корпоративного идентификатора**: LC04eik8a6.<br>**Имя**. Имя администратора, указанное при настройке Android для бизнеса. Пример. Joe Smith.<br>**Адрес электронной почты администратора**. YourAdmin@gmail.com, который использовался при настройке Android для бизнеса. |
+| Данные приложений | Данные для управляемых приложений Play Store. | Отмечают приложения для пользователей или устройств как доступные или требуемые. | Пример **имени приложения**: Contoso Warehouse Inventory Application.<br>**Уникальный идентификатор для представления приложения**, например app:com.Contoso.Warehouse.InventoryTracking. |
+| Учетная запись службы | Уникальная внутренняя учетная запись службы Google для использования с конкретными вызовами клиентов. | Используется для выполнения вызовов в Google от имени клиента (для просмотра приложений, устройств и т. д.). | **Имя**, например InternalAccount@InternalService.com.<br>Пример **ключей**: ServiceAccountPassword |
 
 
 Чтобы прекратить использование функции корпоративного управления устройствами Android с Microsoft Intune и удалить данные, необходимо отключить эту функцию и удалить учетную запись Google. Сведения об управлении учетными записями см. в учетной записи Google.

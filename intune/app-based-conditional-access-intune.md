@@ -1,27 +1,29 @@
 ---
 title: Условный доступ на основе приложений с помощью Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Узнайте, как работает условный доступ на основе приложений с помощью Intune.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 05/31/2017
-ms.topic: article
+ms.date: 02/11/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
 ms.reviewer: chrisgre
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 30f5b902619c84e6d1d193c252e76475d2e54e82
-ms.sourcegitcommit: bee072b61cf8a1b8ad8d736b5f5aa9bc526e07ec
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: b4c39a1d95a10c96b8f34703f99c4d8414efbbf0
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53816742"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59567378"
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Условный доступ на основе приложений с помощью Intune
 
@@ -73,7 +75,7 @@ ms.locfileid: "53816742"
 
 6. Приложение посредника передает идентификатор клиента приложения в Azure AD в рамках процесса проверки подлинности пользователя для сопоставления со списком утвержденных политик.
 
-7. Azure AD разрешает пользователю пройти проверку подлинности и использовать приложение на основе списка утвержденных политик. Если приложение отсутствует в этом списке, Azure AD запрещает доступ к нему.
+7. Azure AD разрешает пользователю пройти проверку подлинности и использовать приложение на основе списка утвержденных политик. Если приложение отсутствует в списке, Azure AD запрещает доступ к нему.
 
 8. Приложение Outlook обменивается данными с облачной службой Outlook, инициируя взаимодействие с Exchange Online.
 

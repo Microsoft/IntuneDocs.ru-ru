@@ -1,27 +1,29 @@
 ---
 title: Пользовательский профиль VPN на уровне приложения в Android
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения о том, как создать профиль VPN на уровне приложения для устройств Android, находящихся под управлением Microsoft Intune.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 04/05/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
 ms.reviewer: chrisbal
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 48f1227da6260217105120d31301f60b6e06110c
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 38763d5c16d5cba36220c03e9d74b30a465d752b
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52186024"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59568470"
 ---
 # <a name="use-a-microsoft-intune-custom-profile-to-create-a-per-app-vpn-profile-for-android-devices"></a>Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android
 
@@ -36,7 +38,7 @@ ms.locfileid: "52186024"
 > Для этого профиля поддерживаются только типы подключений Pulse Secure и Citrix.
 
 
-## <a name="step-1-create-a-vpn-profile"></a>Шаг 1. Создание профиля VPN
+## <a name="step-1-create-a-vpn-profile"></a>Шаг 1. Создание профиля VPN
 
 
 1. Войдите на [портал Azure](https://portal.azure.com).
@@ -51,7 +53,7 @@ ms.locfileid: "52186024"
 
 Запишите значение параметра **Имя подключения**, которое было указано при создании профиля VPN. Оно потребуется на следующем шаге. Например, **MyAppVpnProfile**.
 
-## <a name="step-2-create-a-custom-configuration-policy"></a>Шаг 2. Создание настраиваемой политики конфигурации
+## <a name="step-2-create-a-custom-configuration-policy"></a>Шаг 2. Создание настраиваемой политики конфигурации
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
@@ -81,6 +83,6 @@ ms.locfileid: "52186024"
 
 
 
-## <a name="step-3-assign-both-policies"></a>Шаг 3. Назначение обеих политик
+## <a name="step-3-assign-both-policies"></a>Шаг 3 Назначение обеих политик
 
 Следуйте указаниям в статье о [назначении профилей устройств](device-profile-assign.md), чтобы присвоить оба профиля соответствующим пользователям или устройствам.

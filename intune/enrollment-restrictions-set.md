@@ -1,15 +1,16 @@
 ---
 title: Установка ограничений регистрации в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Ограничение регистрации по типу платформы и установка ограничения на регистрацию устройств в Intune.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 08/17/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 9691982c-1a03-4ac1-b7c5-73087be8c5f2
 ms.reviewer: dagerrit
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cfbfb26569a85d8cd19b840ab86ec58160a1dec4
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 1080ae8a73223ad16445d0d2233434faa818b04b
+ms.sourcegitcommit: 71314481e644025c005019b478b4cbeaf2390ea9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55839691"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59569120"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -42,10 +43,11 @@ ms.locfileid: "55839691"
   - iOS
   - macOS
   - Windows
-- Версия платформы операционной системы для iOS, Android, рабочего профиля Android и Windows. (Можно использовать только версии Windows 10. Оставьте это поле пустым, если допускается использование Windows 8.1.)
+  - Windows Mobile
+- Версия операционной системы платформы для iOS, Android, рабочего профиля Android, Windows и Windows Mobile. (Можно использовать только версии Windows 10. Оставьте это поле пустым, если допускается использование Windows 8.1.)
   - Минимальная версия.
   - Максимальная версия.
-- Ограничение личных устройств (только iOS, Android, рабочий профиль Android, macOS и Windows).
+- Ограничение личных устройств (только iOS, Android, рабочий профиль Android, macOS, Windows и Windows Mobile).
 
 ## <a name="default-restrictions"></a>Ограничения по умолчанию
 
@@ -98,12 +100,12 @@ ms.locfileid: "55839691"
 Следующие методы могут считаться авторизованными в качестве корпоративной регистрации Windows:
  - Регистрирующийся пользователь использует [учетную запись диспетчера регистрации устройств]( device-enrollment-manager-enroll.md).
 - Устройство регистрируется с помощью [Windows AutoPilot](enrollment-autopilot.md).
-- Устройство регистрируется с помощью Windows AutoPilot, но для него не задан параметр "Регистрация только в MDM" из параметров Windows.
+- Устройство регистрируется с помощью Windows Autopilot, но для него не задан параметр "Регистрация только в MDM" из параметров Windows.
 - Номер IMEI устройства указан в списке **Регистрация устройств** > **[Идентификаторы корпоративных устройств](corporate-identifiers-add.md)**. (Не поддерживается для Windows Phone 8.1.)
 - Устройство регистрируется с помощью [пакета массовой подготовки](windows-bulk-enroll.md).
 - Устройство регистрируется с помощью GPO или [автоматической регистрации из SCCM для совместного управления](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview#how-to-configure-co-management.md).
  
-Следующие регистрации помечаются Intune как корпоративные, однако поскольку они не предоставляют администратору Intune контроль на уровне устройств, они будут заблокированы:
+Следующие регистрации помечены как корпоративные службой Intune. Однако так как они не предоставляют Администратору Intune контроль на уровне устройств, они будут заблокированы.
  - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory во время настройки Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-frx)\*.
 - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory из приложения "Параметры" Windows ](https://docs.microsoft.com/azure/active-directory/user-help/user-help-register-device-on-network)*.
  
@@ -126,9 +128,20 @@ ms.locfileid: "55839691"
 6. Нажмите кнопку **Сохранить**.
 
 
-Во время регистрации BYOD пользователи увидят уведомление о том, что достигнуто ограничение на количество развернутых устройств. Например, в iOS оно будет выглядеть так:
+Во время регистрации BYOD пользователи увидят уведомление о том, что достигнуто ограничение на количество развернутых устройств. Например, на устройстве iOS:
 
 ![Уведомление о достижении ограничения на количество устройств iOS](./media/enrollment-restrictions-ios-set-limit-notification.png)
+
+> [!IMPORTANT]
+> Ограничения на число устройств не применяются для следующих типов регистрации Windows:
+> - совместно управляемые регистрации;
+> - регистрации GPO;
+> - присоединенные регистрации Azure Active Directory;
+> - массово присоединенные регистрации Azure Active Directory;
+> - регистрации Autopilot.
+>
+> Ограничения на число устройств не применяются для этих типов регистрации, так как они считаются общими сценариями устройства.
+> Вы можете установить жесткие ограничения для этих типов регистрации [в Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/devices/device-management-azure-portal#configure-device-settings).
 
 ## <a name="change-enrollment-restriction-priority"></a>Изменение приоритета ограничения регистрации
 

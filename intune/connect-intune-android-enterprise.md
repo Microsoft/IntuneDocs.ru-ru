@@ -1,15 +1,16 @@
 ---
-title: Подключение учетной записи Intune к учетной записи Android для бизнеса
-titlesuffix: Microsoft Intune
-description: Узнайте, как подключить учетную запись Intune к учетной записи Android для бизнеса.
+title: Подключите учетную запись Intune к учетной записи управляемого Google Play.
+titleSuffix: Microsoft Intune
+description: Узнайте, как подключить учетную запись Intune к учетной записи управляемого Google Play.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 6/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
 ms.reviewer: chrisbal
@@ -17,18 +18,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 421d9c56f959fe30d35c0c55ce34017a7a0ba5a6
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 19efd0821deeac0e76c60ee67e6230da554391a0
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55838266"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59567391"
 ---
-# <a name="connect-your-intune-account-to-your-android-enterprise-account"></a>Подключение учетной записи Intune к учетной записи Android для бизнеса
+# <a name="connect-your-intune-account-to-your-managed-google-play-account"></a>Подключение учетной записи Intune к учетной записи управляемого Google Play
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
-Для поддержки устройств с [рабочим профилем Android](android-work-profile-enroll.md), [полностью управляемых устройств](android-fully-managed-enroll.md) и [выделенных устройств с Android](android-kiosk-enroll.md) вам нужно подключить клиентскую учетную запись Intune к учетной записи Android для бизнеса.  
+Для поддержки устройств с [рабочим профилем Android для бизнеса ](android-work-profile-enroll.md), [полностью управляемых устройств с Android](android-fully-managed-enroll.md) и [выделенных устройств с Android для бизнеса](android-kiosk-enroll.md) вам нужно подключить клиентскую учетную запись Intune к учетной записи управляемого Google Play.  
 
 > [!NOTE]
 > Из-за взаимодействия между доменами Google и Майкрософт для выполнения этого шага может потребоваться изменить параметры браузера.  Убедитесь, что адреса "portal.azure.com" и "play.google.com" находятся в одной и той же зоне безопасности в браузере.
@@ -53,7 +54,7 @@ ms.locfileid: "55838266"
 
 ## <a name="disconnect-your-android-enterprise-administrative-account"></a>Отключение учетной записи администратора Android для бизнеса
 
-Вы можете отключить регистрацию и управление Android для бизнеса. Для этого необходимо сначала прекратить использование любого зарегистрированного устройства с рабочим профилем Android. Затем, если вы нажмете **Отключить** в консоли администрирования Intune, все зарегистрированные устройства с рабочим профилем и киоски Android будут удалены из регистрации. При этом также удаляется связь между корпоративной учетной записью Android и Intune.
+Вы можете отключить регистрацию и управление Android для бизнеса. Для этого необходимо сначала прекратить использование любого зарегистрированного устройства с рабочим профилем Android для бизнеса. Затем, если вы щелкните **Отключить** в консоли администрирования Intune, все зарегистрированные устройства с рабочим профилем и выделенные устройства с Android для бизнеса будут удалены из регистрации. При этом также удаляется связь между учетной записью управляемого Google Play и Intune.
 
 1. Войдите с правами администратора Intune на [портал Azure](https://portal.azure.com) и выберите **Все службы** > **Мониторинг и управление** > **Intune**.
 2. Выберите **Регистрация устройств** > **Регистрация Android** > **Управляемый Google Play** > **Отключить**.
@@ -61,4 +62,4 @@ ms.locfileid: "55838266"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-После подключения к учетной записи Android для бизнеса вы можете [настроить устройства с рабочим профилем Android](android-work-profile-enroll.md) и [настроить киоски Android](android-kiosk-enroll.md).
+После подключения к учетной записи управляемого Google Play вы можете [настроить устройства с рабочим профилем Android для бизнеса](android-work-profile-enroll.md) и [выделенные устройства с Android для бизнеса](android-kiosk-enroll.md).

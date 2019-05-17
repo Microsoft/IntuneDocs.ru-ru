@@ -1,15 +1,16 @@
 ---
 title: Добавление бизнес-приложения iOS в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Узнайте, как добавлять бизнес-приложения iOS в Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/10/2018
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 099101e8-4b22-40ac-ba19-82ba5c71944c
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7206a29bea5a53bf13b43a9881c629f27e949dbb
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 1bb213230db5a699be913929cc3b68b90a8f019a
+ms.sourcegitcommit: a2cd14c30949cef17bfc6576513e7660a8015669
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57230012"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59571762"
 ---
 # <a name="add-an-ios-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения iOS в Microsoft Intune
 
@@ -32,6 +33,8 @@ ms.locfileid: "57230012"
 
 >[!NOTE]
 >Пользователи устройств iOS могут удалять некоторые встроенные приложения iOS, такие как "Акции" или "Карты". Восстановить эти приложения на устройствах с помощью Intune нельзя. Чтобы восстановить приложения на устройстве, пользователь должен зайти в App Store и установить их вручную.
+>
+>Бизнес-приложения iOS имеют ограничение максимального размера 4 ГБ для каждого приложения.
 
 ## <a name="step-1-specify-the-software-setup-file"></a>Шаг 1. Выбор файла установки программного обеспечения
 
@@ -67,7 +70,7 @@ ms.locfileid: "57230012"
     - **Логотип**. Загрузите значок, который будет связан с приложением. Этот значок будет отображаться с приложением при просмотре пользователями корпоративного портала.
 3. Завершив настройку, нажмите кнопку **ОК**.
 
-## <a name="step-4-finish-up"></a>Шаг 4. Завершение
+## <a name="step-4-finish-up"></a>Шаг 4. Завершение
 
 1. В области **Добавить приложение** проверьте правильность сведений о приложении.
 2. Выберите **Добавить**, чтобы отправить приложение в Intune.

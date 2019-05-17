@@ -7,21 +7,23 @@ author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 02/28/2018
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: b7bf5802-4b65-4aeb-ac99-8e639dd89c2a
 ms.reviewer: sumitp
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: b3ca1b95a6dcf7bdc30b61469fa747894d20fe73
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 031db83302dfef8b99fc83ab7975e233c3eeb799
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52188098"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57396868"
 ---
 # <a name="set-up-a-telecom-expense-management-service-in-intune"></a>Настройка службы управления затратами на телекоммуникации в Intune
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -56,7 +58,7 @@ Intune позволяет управлять затратами на телек�
 
 Прежде чем начать, убедитесь в том, что у вас есть подписка на Intune и подписка на службу управления затратами на телекоммуникации Datalert.
 
-### <a name="step-1-connect-the-datalert-service-to-microsoft-intune"></a>Шаг 1. Подключение службы Datalert к Microsoft Intune
+### <a name="step-1-connect-the-datalert-service-to-microsoft-intune"></a>Шаг 1. Подключение службы Datalert к Microsoft Intune
 
 1. Войдите в консоль управления Datalert, используя учетные данные администратора.
 
@@ -88,7 +90,7 @@ Intune позволяет управлять затратами на телек�
 
    ![Страница Datalert после успешного подключения](./media/tem-datalert-mdm-profiles.png)
 
-### <a name="step-2-check-that-the-telecom-expense-management-feature-is-active-in-intune"></a>Шаг 2. Проверка включения функции для управления затратами на телекоммуникации в Intune
+### <a name="step-2-check-that-the-telecom-expense-management-feature-is-active-in-intune"></a>Шаг 2. Проверка включения функции для управления затратами на телекоммуникации в Intune
 
 После выполнения описанного выше шага 1 подключение должно быть активировано автоматически, и на портале Azure должно отображаться состояние **Активно**. Ниже описывается, как проверить, имеет ли состояние значение **Активно**.
 
@@ -104,7 +106,7 @@ Intune позволяет управлять затратами на телек�
 
    ![Портал Intune с состоянием подключения к Datalert "Активно"](./media/tem-azure-portal-enable-service.png)
 
-### <a name="step-3-deploy-the-datalert-app-to-corporate-enrolled-devices"></a>Шаг 3. Развертывание приложения Datalert на зарегистрированных корпоративных устройствах
+### <a name="step-3-deploy-the-datalert-app-to-corporate-enrolled-devices"></a>Шаг 3 Развертывание приложения Datalert на зарегистрированных корпоративных устройствах
 
 Чтобы собирать сведения об использовании данных только по корпоративным линиям, необходимо выполнить два действия:
 - создать категории устройств в Intune;

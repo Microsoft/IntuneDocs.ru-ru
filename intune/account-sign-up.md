@@ -9,6 +9,7 @@ ms.date: 01/02/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 0f3ce07a-b718-42a9-bace-f99a8b8abd94
 ms.reviewer: angerobe
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 97a1ab3327f8d76f1623d51fe80289a8f15d7ff1
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 956fe061912e0eb96a18c410e1455252874d6b84
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57235231"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57459957"
 ---
 # <a name="sign-up-or-sign-in-to-microsoft-intune"></a>Регистрация или вход в Microsoft Intune
 
@@ -38,7 +39,7 @@ ms.locfileid: "57235231"
 
 ## <a name="how-to-sign-up-or-sign-in-to-intune"></a>Порядок регистрации или входа в Intune
 
-1. Откройте страницу [Регистрация в Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20).
+1. Откройте страницу [Регистрация в Intune](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20).
 
    ![Снимок экрана веб-страницы для регистрации пробной учетной записи Microsoft Intune](./media/account-sign-up-site.png)
 
@@ -47,4 +48,4 @@ ms.locfileid: "57235231"
 ## <a name="post-sign-up-considerations"></a>Действия после регистрации
 После регистрации новой учетной записи на электронный адрес, указанный в процессе регистрации, отправляется сообщение с информацией об учетной записи. Оно является подтверждением активации подписки.
 
-После завершения процедуры регистрации вы будете направлены в Центр администрирования Office 365, где можно добавить пользователей и назначить им лицензии. Если вы будете использовать только облачные учетные записи с именем домена по умолчанию onmicrosoft.com, то добавить пользователей и назначить лицензии можно уже на этом этапе. Если же вы планируете использовать [имя личного домена организации](custom-domain-name-configure.md) или хотите [синхронизировать учетные записи пользователей](users-add.md#sync-active-directory-and-add-users-to-intune) из локальной службы Active Directory, можно закрыть это окно браузера.
+После регистрации вы будете направлены в Центр администрирования Microsoft 365, где можно добавить пользователей и назначить им лицензии. Если вы будете использовать только облачные учетные записи с именем домена по умолчанию onmicrosoft.com, то добавить пользователей и назначить лицензии можно уже на этом этапе. Если же вы планируете использовать [имя личного домена организации](custom-domain-name-configure.md) или хотите [синхронизировать учетные записи пользователей](users-add.md#sync-active-directory-and-add-users-to-intune) из локальной службы Active Directory, можно закрыть это окно браузера.

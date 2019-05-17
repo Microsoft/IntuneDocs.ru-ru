@@ -1,6 +1,6 @@
 ---
 title: Сообщения корпоративного портала, отображаемые пользователям на устройствах
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Сведения о различных сообщениях, которые конечные пользователи могут видеть на корпоративном портале.
 keywords: ''
 author: lenewsad
@@ -10,18 +10,19 @@ ms.date: 03/09/2017
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 3df993aa-48c5-4799-b68d-c85fe4f7b02c
 ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a2fd42ece4a0df60ebe6f15b67c91bba46f210ff
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 700bded8930385c5576a198dc0364c64066121e5
+ms.sourcegitcommit: 71314481e644025c005019b478b4cbeaf2390ea9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57233171"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59569133"
 ---
 # <a name="help-end-users-understand-company-portal-app-messages"></a>Пояснения к сообщениям в приложении корпоративного портала
 
@@ -110,6 +111,34 @@ ms.locfileid: "57233171"
 ### <a name="what-it-means"></a>Что это означает
 
 Добавьте приложение "Корпоративный портал" в список **Разрешенные приложения** или **Исключенные приложения** в политике защиты приложений Windows Information Protection (WIP). Дополнительные сведения см. в статье [Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune](windows-information-protection-policy-create.md).
+
+## <a name="approve-a-ios-company-app-line-of-business-app-on-your-ios-device"></a>Утверждение корпоративного приложения iOS (бизнес-приложение) на устройстве iOS 
+
+### <a name="where-it-appears"></a>Место отображения
+Приложения iOS, разработанные вашей организацией, которые недоступны в App Store, по умолчанию не являются доверенными для вашего устройства. Когда вы устанавливаете такие приложения с помощью корпоративного портала и запускаете их, появляется следующее сообщение:
+
+![Сообщение приложения iOS Untrusted Enterprise Developer (Ненадежный корпоративный разработчик)](./media/end-user-company-portal-messages/end-user-company-portal-messages-01.png)
+
+### <a name="what-it-means"></a>Что это означает
+Это сообщение означает, что вам нужно изменить настройки устройства iOS, чтобы утвердить и установить приложение, разработанное вашей компанией, на ваше устройство iOS.
+
+При установке таких приложений с помощью корпоративного портала и их запуске сделайте следующее, чтобы утвердить приложение после его скачивания:
+
+1. После запуска установленного корпоративного приложения (бизнес-приложения) вы увидите сообщение о ненадежном корпоративном разработчике. <br>
+   Нажмите кнопку **Отмена**.
+2. Последовательно щелкните **Параметры** > **Общие** > **Управление устройствами**.
+
+   ![Пользовательский интерфейс устройства iOS — управление устройствами](./media/end-user-company-portal-messages/end-user-company-portal-messages-02.png)
+
+3. Выберите **Профиль управления** > **Корпоративное приложение**.
+4. Выберите имя разработчика.
+5. Щелкните **Доверять _имя разработчика_**.
+6. Подтвердите приложение, нажав кнопку **Доверять** во всплывающем сообщении об установке приложения.
+
+   ![Пользовательский интерфейс устройства iOS — сообщение о доверии приложению](./media/end-user-company-portal-messages/end-user-company-portal-messages-03.png)
+
+    Теперь вы сможете запускать и использовать корпоративное приложение.
+
 
 ### <a name="see-also"></a>См. также
 [What to tell your end users about using Intune](end-user-educate.md) (Что нужно сообщить конечным пользователям об использовании Intune)

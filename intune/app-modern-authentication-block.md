@@ -1,15 +1,16 @@
 ---
 title: Блокировка приложений, не поддерживающих современные средства проверки подлинности, в Intune
 titleSuffix: Microsoft Intune
-description: Узнайте о блокировке приложений, не поддерживающих современные средства проверки подлинности (ADAL), с помощью Microsoft Intune.
+description: Дополнительные сведения о приложениях и современных средствах проверки подлинности (ADAL) с использованием Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/14/2018
-ms.topic: article
+ms.date: 04/03/2019
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
+ms.topic: conceptual
 ms.technology: ''
 ms.assetid: 73db3070-d033-40fb-a8f1-58b9d198021e
 ms.reviewer: chrisgre
@@ -17,29 +18,29 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a651f926f8e8cc5beab80a70649c82677e0b2487
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 9ca96f36f8813d80c7ebb07bfb3bd65f8aa0b392
+ms.sourcegitcommit: 71314481e644025c005019b478b4cbeaf2390ea9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55833058"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59569107"
 ---
-# <a name="block-apps-that-do-not-use-modern-authentication-adal"></a>Блокировка приложений, не поддерживающих современные средства проверки подлинности (ADAL)
+# <a name="block-apps-that-dont-use-modern-authentication-adal"></a>Блокировка приложений, не поддерживающих современные средства проверки подлинности (ADAL)
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Для условного доступа на основе приложений, предоставляемого с учетом политик защиты приложений, необходимы приложения, использующие [современные средства проверки подлинности](https://support.office.com/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a) и представляющие собой реализацию протокола OAuth2. Последние версии большинства мобильных и классических приложений Office используют современные средства проверки подлинности. Но есть и сторонние приложения и более старые приложения Office, которые применяют другие средства, такие как обычная проверка подлинности или проверка подлинности на основе форм.
 
-## <a name="block-apps"></a>Блокировка приложений
+## <a name="block-access-to-apps"></a>Блокировка доступа к приложениям
 
-Чтобы заблокировать доступ к приложениям, которые не используют современную проверку подлинности, мы рекомендуем использовать следующие методы:
+Чтобы заблокировать доступ к приложениям, которые не используют современную проверку подлинности, используйте политики защиты приложений Intune для реализации условного доступа. Дополнительные сведения см. в статье [Условный доступ на основе приложений с помощью Intune](app-based-conditional-access-intune.md).
 
-- Настройте правила утверждений ADFS для блокирования несовременных протоколов проверки подлинности. Подробные инструкции представлены в сценарии 3 — [полная блокировка доступа к Office 365 за исключением браузерных приложений](https://technet.microsoft.com/library/dn592182.aspx).
-- Для **Exchange и SharePoint Online** используйте условный доступ Azure Active Directory. Для SharePoint Online используйте командлет Set-SPOTenant. Подробные указания: [Как настроить SharePoint Online и Exchange Online для условного доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-no-modern-authentication#legacy-authentication-protocols).
+## <a name="additional-information"></a>Дополнительные сведения
 
-
->[!IMPORTANT]
->ЦС на основе приложений нельзя использовать с проверкой подлинности на основе сертификатов Azure Active Directory (Azure AD). В текущий момент времени может быть задан только один из этих методов.
+Дополнительные сведения об условном доступе Azure AD см. в следующих статьях и разделах.
+- [Что представляет собой условный доступ в Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+- [Принципы реализации условного доступа на основе приложений](app-based-conditional-access-intune.md#how-app-based-conditional-access-works)
+- [How to: Block legacy authentication to Azure AD with conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/conditional-access-for-exo-and-spo) (Практическое руководство: блокировка устаревших методов проверки подлинности в AAD с помощью условного доступа)
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

@@ -1,6 +1,6 @@
 ---
 title: Массовая регистрация для Windows 10
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Создание пакета массовой регистрации для Microsoft Intune
 keywords: ''
 author: ErikjeMS
@@ -10,18 +10,19 @@ ms.date: 5/21/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
 ms.reviewer: damionw
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7df624f0a3db11b058498c650a9f9c3dd95e8d12
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 064d11f1992d63df9dacbedb8d53e849425e9b1f
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57236812"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59568171"
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 
@@ -29,7 +30,7 @@ ms.locfileid: "57236812"
 
 Как администратор, вы можете присоединить много новых устройств Windows к Azure Active Directory и Intune. Чтобы организовать массовую регистрацию устройств в клиенте Azure AD, создайте пакет подготовки с помощью приложения "Конструктор конфигураций Windows" (WCD). После применения пакета подготовки к корпоративным устройствам эти устройства присоединяются к клиенту Azure AD и регистрируются для управления с помощью Intune. После применения пакета ваши пользователи могут входить в Azure AD.
 
-Пользователи Azure AD — это обычные пользователи таких устройств, которым назначаются политики Intune и необходимые приложения. Сценарии самообслуживания и использования корпоративного портала сейчас не поддерживаются.
+Пользователи Azure AD — это обычные пользователи таких устройств, которым назначаются политики Intune и необходимые приложения. Устройства с Windows, зарегистрированные в Intune с помощью массовой регистрации Windows, могут использовать приложение "Корпоративный портал" для установки доступных приложений. 
 
 ## <a name="prerequisites-for-windows-devices-bulk-enrollment"></a>Предварительные требования для массовой регистрации устройств Windows
 

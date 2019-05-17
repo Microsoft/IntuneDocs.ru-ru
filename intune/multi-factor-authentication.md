@@ -1,27 +1,28 @@
 ---
 title: Настройка обязательной многофакторной проверки подлинности для регистрации устройств в Intune
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Как настроить обязательную многофакторную проверку подлинности в Azure AD для регистрации устройств в Intune.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 01/10/2018
-ms.topic: article
+ms.date: 02/22/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 94280c73-c05c-4e72-b0dd-a7cb997782f9
 ROBOTS: ''
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 71d551ca64f85c3ba6a807fac70e3b0662e1b89a
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: cf5611b3b9292222582d66cae39b4f751279dcec
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55834098"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59568795"
 ---
 # <a name="require-multi-factor-authentication-for-intune-device-enrollments"></a>Настройка обязательной многофакторной проверки подлинности для регистрации устройств в Intune
 
@@ -50,11 +51,10 @@ MFA поддерживается на устройствах под управл
 >Не устанавливайте **правила доступа на основе устройств** для регистрации в Microsoft Intune.
 
 1. Войдите на [портал Microsoft Azure](https://portal.azure.com), используя свои учетные данные.
-2. На портале перейдите в раздел **[Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview)**.
-3. В Azure Active Directory, в разделе **Безопасность**, выберите **[Условный доступ](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies)**.
+2. На портале перейдите к **Intune** и выберите **Условный доступ**. Узел условного доступа, доступ к которому осуществляется из *Intune*, является тем же узлом, доступ к которому осуществляется из *Azure AD*.
 4. Выберите **Создать политику**.
 5. В поле **Новая** введите описательное имя для политики.
-6. В разделе **Назначения** выберите **Пользователи и группы**.
+6. В разделе **Назначения** выберите **Пользователи и группы**. 
 7. В разделе **Пользователи и группы** выберите **Выбрать пользователей или группы** и установите флажок **Пользователи и группы**. Затем выберите пользователей или группы, которые будут получать эту политику, и нажмите кнопку **Готово**.
 8. В разделе **Назначения** выберите **Облачные приложения**.
 9. На вкладке **Включить** раздела **Облачные приложения** выберите **Выбрать приложения**, затем — **Выбрать** > **Регистрация в Microsoft Intune**, после чего нажмите кнопку **Готово**.

@@ -1,15 +1,16 @@
 ---
 title: Добавление политик конфигурации приложений для управляемых устройств Android
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Используйте политики конфигурации приложений в Microsoft Intune для назначения параметров в ситуации, когда пользователи запускают приложение в рабочем профиле Android.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/26/2018
-ms.topic: article
+ms.date: 02/21/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: d0b6f3fe-2bd4-4518-a6fe-b9fd115ed5e0
 ms.reviewer: chrisbal
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 512fc924f71ba9a9fdd46ba8f5f5c087de83c2dd
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: dccbfe597fa4bd461bb71cb86d38ffdfd52d719a
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55840422"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59567430"
 ---
 # <a name="add-app-configuration-policies-for-managed-android-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android
 
@@ -44,13 +45,13 @@ ms.locfileid: "55840422"
 6. В списке **Платформа** выберите **Android**.
 7. Выберите **Связанное приложение**, чтобы указать приложение, для которого будет определена политика конфигурации. Для выбора используйте список приложений в рабочем профиле Android, которые были утверждены и синхронизированы в Intune.
 8. Выберите **Разрешения**. Доступны следующие варианты задания параметров конфигурации:
-    - [Конструктор конфигураций](#Use-the-configuration-designer)
-    - [Редактор JSON](#Enter-the-JSON-editor)
+    - [Конструктор конфигураций](#use-the-configuration-designer)
+    - [Редактор JSON](#enter-the-json-editor)
 9. Нажмите кнопку **ОК**, а затем выберите **Добавить**.
 
 ## <a name="use-the-configuration-designer"></a>Использование конструктора конфигурации
 
-Конструктор конфигурации используется для приложений Android, которые поддерживают конфигурацию. Конфигурация будет применена к устройствам, зарегистрированным в Intune. Конструктор позволяет настраивать конкретные значения конфигурации для параметров, предоставляемых приложением.
+Вы можете использовать конструктор конфигурации для приложений Android, если приложение поддерживает параметры конфигурации. Конфигурация будет применена к устройствам, зарегистрированным в Intune. Конструктор позволяет настраивать конкретные значения конфигурации для параметров, предоставляемых приложением.
 
 Нажмите кнопку **Добавить**, чтобы выбрать список параметров конфигурации, которые нужно указать для приложения.  
 Для каждого ключа и значения в конфигурации задайте следующие параметры.

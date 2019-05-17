@@ -1,6 +1,6 @@
 ---
 title: Настройка имени домена
-titlesuffix: Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Добавление личного доменного имени для подписки Microsoft Intune
 keywords: ''
 author: dougeby
@@ -10,18 +10,20 @@ ms.date: 02/22/2018
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 2382f36f-13d8-4a32-81ad-6cfa604889c3
 ms.reviewer: angerobe
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
-ms.openlocfilehash: a4227399eb5cf1d2cc2e265215eccb2c05d73ac5
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 4d0c3d11eb3a031f34704dcd9ecf16f3312ac818
+ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52181502"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "59567248"
 ---
 # <a name="configure-a-custom-domain-name"></a>Настройка имени домена
 
@@ -42,15 +44,15 @@ ms.locfileid: "52181502"
 
 ## <a name="to-add-and-verify-your-custom-domain"></a>Добавление и проверка пользовательского домена
 
-1. Перейдите на [портал управления Office 365](https://portal.office.com/Admin/Default.aspx) и войдите в учетную запись администратора.
+1. Откройте [Центр администрирования Microsoft 365](https://admin.microsoft.com/) и войдите под учетной записью администратора.
 
 2. В области навигации выберите **Настройка** &gt; **Домены**.
 
 3. Выберите **Добавить домен** и введите имя пользовательского домена. Выберите **Далее**.
-   ![Снимок экрана, демонстрирующий выбор меню "Параметры" > "Домены" в центре администрирования Office 365 и добавление нового имени домена](./media/domain-custom-add.png)
+   ![Снимок экрана, демонстрирующий выбор меню "Параметры > Домены" в Центре администрирования Microsoft 365 и добавление нового доменного имени](./media/domain-custom-add.png)
 4. Откроется диалоговое окно **Проверка домена**, в котором можно указать значения для создания записи TXT у поставщика услуг размещения DNS.
-    - **Пользователи GoDaddy**: портал управления Office 365 перенаправит вас на страницу входа GoDaddy. Запись типа TXT создается автоматически после ввода учетных данных и принятия соглашения о разрешении изменения домена. Можно также [создать запись типа TXT](https://support.office.com/article/Create-DNS-records-at-GoDaddy-for-Office-365-f40a9185-b6d5-4a80-bb31-aa3bb0cab48a).
-    - **Пользователи Register.com**: выполните [пошаговые инструкции](https://support.office.com/article/Create-DNS-records-at-Register-com-for-Office-365-55bd8c38-3316-48ae-a368-4959b2c1684e#BKMK_verify) для создания записи типа TXT.
+    - **Пользователи GoDaddy**. Центр администрирования Microsoft 365 перенаправит вас на страницу входа GoDaddy. Запись типа TXT создается автоматически после ввода учетных данных и принятия соглашения о разрешении изменения домена. Можно также [создать запись типа TXT](https://support.office.com/article/Create-DNS-records-at-GoDaddy-for-Office-365-f40a9185-b6d5-4a80-bb31-aa3bb0cab48a).
+    - **Пользователи Register.com**. Выполните [пошаговые инструкции](https://support.office.com/article/Create-DNS-records-at-Register-com-for-Office-365-55bd8c38-3316-48ae-a368-4959b2c1684e#BKMK_verify) для создания записи типа TXT.
 
 Шаги для добавления и проверки личного домена также можно [выполнить в Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-add-domain/).
 

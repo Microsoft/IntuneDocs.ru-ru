@@ -1,35 +1,36 @@
 ---
-title: Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса
-titlesuffix: Microsoft Intune
-description: Сведения о синхронизации с Intune приложений, приобретенных в магазине Microsoft Store для бизнеса, а также их назначении и отслеживании.
+title: Управление приобретенными или бесплатными приложениями из Microsoft Store для бизнеса
+titleSuffix: Microsoft Intune
+description: Сведения о синхронизации с Intune приобретенных или бесплатных приложений из Microsoft Store для бизнеса.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/22/2019
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 2ed5d3f0-2749-45cd-b6bf-fd8c7c08bc1b
 ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
-ms.custom: intune-azure
+ms.custom: intune-azure, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 75e6cdd97bbc591a76e541874152455c4fe258c0
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 67d99977776657219638980eb6de8a4079384185
+ms.sourcegitcommit: 8c795b041cd39e3896595f64f53ace48be0ec84c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57234942"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "59587507"
 ---
-# <a name="how-to-manage-apps-you-purchased-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса, с помощью Microsoft Intune
+# <a name="how-to-manage-volume-purchased-or-free-apps-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Управление приобретенными или бесплатными приложениями из Microsoft Store для бизнеса с помощью Microsoft Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 [Магазин Майкрософт для бизнеса](https://www.microsoft.com/business-store) позволяет находить и приобретать приложения для вашей организации по отдельности или в рамках корпоративной программы. Подключив хранилище к Microsoft Intune, вы можете управлять приложениями, приобретенными по программе Volume Purchase Program, из портала Azure. Пример.
-* можно синхронизировать список приобретенных приложений с Intune;
+* Вы можете синхронизировать список приобретенных или бесплатных приложений с Intune.
 * синхронизированные приложения отображаются в консоли администрирования Intune и могут быть назначены, как и любые другие приложения;
 * можно отслеживать количество доступных и используемых лицензий в консоли администрирования Intune;
 * Intune блокирует назначения и установку приложений при отсутствии достаточного количества лицензий.
@@ -80,7 +81,7 @@ ms.locfileid: "57234942"
 
 ## <a name="assign-apps"></a>Назначение приложений
 
-Приложения из Магазина назначаются точно так же, как и любые другие приложения Intune. Дополнительные сведения см. в статье о [назначении приложений группам с помощью Microsoft Intune](apps-deploy.md). Обратите внимание, что вы назначаете приложения не на странице **Все приложения**, а на странице **Лицензированные приложения**.
+Приложения из Магазина назначаются точно так же, как и любые другие приложения Intune. Дополнительные сведения см. в статье о [назначении приложений группам с помощью Microsoft Intune](apps-deploy.md). 
 
 Автономные приложения можно ориентировать на группы пользователей, группы устройств или смешанные группы.
 Автономные приложения можно установить на устройстве для конкретного пользователя или всех пользователей. 

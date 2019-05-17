@@ -1,15 +1,16 @@
 ---
 title: Добавление бизнес-приложения Windows в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Узнайте, как добавить бизнес-приложения Windows с помощью Microsoft Intune.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/28/2019
+ms.date: 04/10/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7776c1bddb459347679cb4aea3bc4e14e05e1418
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: ca41e12136911cc0aecb6968a949fb738e2e2d77
+ms.sourcegitcommit: d1116c70bd0f2382d590091e0e66095de3925324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57238784"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59570771"
 ---
 # <a name="add-a-windows-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения Windows в Microsoft Intune
 
@@ -69,7 +70,7 @@ ms.locfileid: "57238784"
     - **Логотип**. Загрузите значок, который будет связан с приложением. Этот значок будет отображаться с приложением при просмотре пользователями корпоративного портала.
 3. Завершив настройку, нажмите кнопку **ОК**.
 
-## <a name="step-4-finish-up"></a>Шаг 4. Завершение
+## <a name="step-4-finish-up"></a>Шаг 4. Завершение
 
 1. В области **Добавить приложение** проверьте правильность указанных сведений о приложении.
 2. Выберите **Добавить**, чтобы отправить приложение в Intune.
@@ -92,4 +93,4 @@ ms.locfileid: "57238784"
 
 - Узнайте больше о способах отслеживания свойств и назначения вашего приложения. Сведения см. в статье [Как отслеживать сведения о приложении и его назначения с помощью Microsoft Intune](apps-monitor.md).
 
-- Узнайте больше о контексте приложения в Intune. Сведения см. в статье [Общие сведения о жизненных циклах устройств и приложений](introduction-device-app-lifecycles.md).
+- Узнайте больше о контексте приложения в Intune. Ознакомьтесь со статьей [Общие сведения о жизненном цикле приложений в Microsoft Intune](app-lifecycle.md).

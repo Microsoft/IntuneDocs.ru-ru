@@ -5,22 +5,23 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/22/2018
-ms.topic: article
+ms.date: 02/28/2019
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 02ad249e-f098-421f-861f-6b2ff733ac7c
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b766f9f92fb5d0e8cedfbebbac7246f48b90a6a2
-ms.sourcegitcommit: 727c3ae7659ad79ea162250d234d7730f840c731
+ms.openlocfilehash: 6f13e00abad5b48dcd7996cf9df1cc5756f250d3
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55846139"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57388113"
 ---
 # <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>Синхронизация устройств с Intune для получения последних политик и действий
 
@@ -46,6 +47,8 @@ ms.locfileid: "55846139"
 5. Нажмите кнопку **Да** для подтверждения.
 
 Чтобы просмотреть статус синхронизации, выберите **Устройства** > **Действия устройства**.
+
+Сведения о частоты возврате политики Intune см. в статье [Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune](device-profiles.md).
 
 ## <a name="retryable-error-codes"></a>Коды ошибок с возможностью повторной попытки
 

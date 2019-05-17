@@ -6,21 +6,23 @@ author: lenewsad
 ms.author: lanewsad
 manager: dougeby
 ms.date: 08/21/2017
-ms.topic: article
+ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: f33d1684-b1b5-44f7-9aac-c6d5186a5d7c
 ms.reviewer: aanavath
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
-ms.openlocfilehash: 5f8263f06fe33537a74a6d1889b02b89ee6a825f
-ms.sourcegitcommit: 51b763e131917fccd255c346286fa515fcee33f0
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: f4169f5625965ebc7d2bbbf9153cb4183fcd22b3
+ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52183406"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57388077"
 ---
 # <a name="how-your-android-users-get-their-apps"></a>Получение приложений пользователями Android
 
@@ -37,8 +39,8 @@ ms.locfileid: "52183406"
 
 Для установки [бизнес-приложений](lob-apps-android.md) конечные пользователи должны разрешать установку из неизвестных источников. Обычно они находятся в двух различных местах:
 
-* **Android 7.1.2 и более ранние версии**: **Параметры** > **Безопасность** > **Неизвестные источники**;
-* **Android 8.0 и более поздние версии**: **Параметры** > **Приложения и уведомления** > **Доступ к специальным приложениям** > **Установка неизвестных приложений** > **Корпоративный портал** > **Разрешить из этого источника**.
+* **Android 7.1.2 и более ранней версии**: **Параметры** > **Безопасность** > **Неизвестные источники**
+* **Android 8.0 и более поздней версии**: **Параметры** > **Приложения и уведомления** > **Доступ к специальным приложениям** > **Установка неизвестных приложений** > **Корпоративный портал** > **Разрешить из этого источника**
 
 В этом случае приложение корпоративного портала выведет сообщение и направит конечного пользователя непосредственно к нужному параметру. 
 
@@ -56,7 +58,7 @@ ms.locfileid: "52183406"
 
 **Неуправляемые приложения** — приложения, которые не могут управляться политиками. Приложения, которые не были упакованы средствами Intune или которые не включают пакет SDK для приложений Intune. Политики приложений невозможно применить к этим приложениям.
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 [Добавление приложений с помощью Microsoft Intune](apps-add.md)
 
 [Получение приложений пользователями iOS](end-user-apps-ios.md)

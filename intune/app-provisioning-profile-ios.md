@@ -1,15 +1,16 @@
 ---
 title: Профили подготовки приложений iOS в Microsoft Intune
-titlesuffix: ''
+titleSuffix: ''
 description: Intune предоставляет средства для упреждающего назначения нового профиля подготовки на устройствах с приложениями, срок действия которых вскоре истекает.
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/19/2018
+ms.date: 04/08/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
+ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
 ms.reviewer: mghadial
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4f02e4416f68fef7531f6d6ffa617273904b752c
-ms.sourcegitcommit: cb93613bef7f6015a4c4095e875cb12dd76f002e
+ms.openlocfilehash: 888c136934deca80877d75879e270807af194a1e
+ms.sourcegitcommit: 364a7dbc7eaa414c7a9c39cf53eb4250e1ad3151
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57233854"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59569562"
 ---
 # <a name="use-ios-app-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия приложений iOS с помощью профилей подготовки приложений
 
@@ -51,7 +52,7 @@ ms.locfileid: "57233854"
 3. На панели **Создать профиль** настройте следующие значения:
     - **Имя**. Укажите имя профиля подготовки для мобильного устройства.
     - **Описание**. Введите описание политики (необязательно).
-    - **Отправить файл профиля**. Выберите **Импортировать**, а затем выберите файл профиля конфигурации мобильного устройства Apple (с расширением `.mobileprovision`), скачанный с веб-сайта для разработчиков Apple.
+    - **Отправить файл профиля**. Выберите значок **Открыть**, а затем выберите файл профиля конфигурации мобильного устройства Apple (с расширением `.mobileprovision`), скачанный с [веб-сайта для разработчиков Apple](https://developer.apple.com/).
 4. По завершении нажмите кнопку **Создать**.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
