@@ -442,11 +442,16 @@
                       items:
                         - name: Интеграция Sophos Mobile и Intune
                           href: sophos-mtd-connector-integration.md
-            - name: ATP в Защитнике Windows
-              href: advanced-threat-protection.md
-            - name: Базовые конфигурации безопасности
-              href: security-baselines.md
+            - name: "Microsoft\_Defender"
               items:
+                - name: "ATP в Microsoft\_Defender"
+                  href: advanced-threat-protection.md
+                - name: Задачи безопасности
+                  href: atp-manage-vulnerabilities.md
+            - name: Базовые конфигурации безопасности
+              items:
+                - name: Базовые конфигурации безопасности
+                  href: security-baselines.md
                 - name: Мониторинг базовых показателей
                   href: security-baselines-monitor.md
             - name: Защита конечных точек
@@ -552,7 +557,7 @@
               href: app-configuration-policies-use-ios.md
             - name: Android управляемые устройства
               href: app-configuration-policies-use-android.md
-            - name: "Приложение Managed\_Home\_Screen для Android\_Enterprise"
+            - name: "Настройка Managed\_Home\_Screen"
               href: app-configuration-managed-home-screen-app.md
             - name: Управляемые приложения
               href: app-configuration-policies-managed-app.md
@@ -770,8 +775,12 @@
                   href: shared-user-device-settings-windows.md
                 - name: Особые настройки
                   href: custom-settings-windows-10.md
-            - name: Параметры базовых показателей безопасности
-              href: security-baseline-settings-windows.md
+            - name: Базовые конфигурации безопасности
+              items:
+                - name: "Параметры базовых показателей безопасности Windows\_10"
+                  href: security-baseline-settings-windows.md
+                - name: "Параметры базовых показателей безопасности ATP в Microsoft\_Defender"
+                  href: security-baseline-settings-defender-atp.md
             - name: Параметры Центра обновления Windows
               href: windows-update-settings.md
         - name: Windows Holographic for Business
