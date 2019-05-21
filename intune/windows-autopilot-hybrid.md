@@ -18,14 +18,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1ab718cd087757211ad4e84cbba39808cf9de7d3
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: be0598d09f10403892fa6a82e109ecc90015ccf9
+ms.sourcegitcommit: 47d8ca144ea4e8b8817e95ac4b8c6bd8591fcc06
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61515575"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65619448"
 ---
-# <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot-preview"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot (предварительная версия)
+# <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
 
 ## <a name="prerequisites"></a>Предварительные условия
@@ -35,7 +35,7 @@ ms.locfileid: "61515575"
 Требования к устройствам:
 - Windows 10 с [обновлением за октябрь 2018 г](https://blogs.windows.com/windowsexperience/2018/10/02/how-to-get-the-windows-10-october-2018-update/).
 - Доступ к Интернету.
-- Доступ к Active Directory (VPN-подключение не поддерживается).
+- Доступ к Active Directory (VPN-подключение пока не поддерживается).
 - Пройденный запуск при первом включении компьютера (OOBE).
 - Возможность проверки связи с контроллером домена в домене, к которому необходимо присоединиться.
 
@@ -211,7 +211,14 @@ ms.locfileid: "61515575"
 1. Выберите **Параметры** и укажите **Префикс имени компьютера**, **Доменное имя** и (необязательно) **Подразделение** в [формате DN](https://docs.microsoft.com/windows/desktop/ad/object-names-and-identities#distinguished-name). 
 1. Выберите **ОК** > **Создать**.  
     Созданный профиль отобразится в списке.
-1. Чтобы назначить профиль, следуйте инструкциям в разделе [Назначение профиля устройства](device-profile-assign.md#assign-a-device-profile). 
+1. Чтобы назначить профиль, следуйте инструкциям в разделе [Назначение профиля устройства](device-profile-assign.md#assign-a-device-profile) и назначьте профиль той же группе, что использовалась на этапе [Создание группы устройств](windows-autopilot-hybrid.md#create-a-device-group)
+   - Развертывание нескольких профилей присоединения к домену
+   
+     a. Создайте динамическую группу, которая включает все устройства Autopilot с заданным профилем развертывания Autopilot, введя (device.enrollmentProfileName -eq "имя профиля Autopilot"). 
+     
+     b. Замените "имя профиля Autopilot" на отображаемое имя профиля, созданного в разделе [Создание и назначение профиля развертывания Autopilot](windows-autopilot-hybrid.md#create-and-assign-an-autopilot-deployment-profile). 
+     
+     c. Создайте несколько профилей развертывания Autopilot и назначьте устройства профилю, указанному в этой динамической группе.
 
 > [!NOTE]
 > Возможности именования Windows Autopilot для гибридного присоединения к Azure AD не поддерживают переменные, такие как %SERIAL%, а поддерживают только префиксы для имени компьютера.

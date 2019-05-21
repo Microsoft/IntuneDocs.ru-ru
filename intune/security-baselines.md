@@ -16,12 +16,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5b2a5e2bbd6d06cc4ec0cf71ee815229b01040a8
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 70638228875f1fb063a2ea22dc424c00f3940a30
+ms.sourcegitcommit: ef4bc7318449129af3dc8c0154e54a264b7bf4e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61490710"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65197630"
 ---
 # <a name="create-a-windows-10-security-baseline-in-intune"></a>Создание базовых показателей безопасности Windows 10 в Intune
 
@@ -61,7 +61,7 @@ ms.locfileid: "61490710"
 ## <a name="create-the-profile"></a>Создание профиля
 
 1. На [портале Azure](https://portal.azure.com/) выберите **Все службы** > отфильтруйте список по **Intune** > выберите **Intune**.
-2. Выберите **Базовые требования безопасности (предварительная версия)**. Список доступных базовых показателей. Поскольку добавлены дополнительные базовые показатели, вы увидите их ниже.
+2. Выберите **Безопасность устройства** > **Базовые конфигурации безопасности (предварительная версия)**. Список доступных базовых показателей. Поскольку добавлены дополнительные базовые показатели, вы увидите их ниже.
 
     ![См. список доступных сейчас базовых показателей безопасности в Intune.](./media/security-baselines/available-baselines.png)
 

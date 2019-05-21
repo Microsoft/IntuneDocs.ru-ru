@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 01/02/2019
+ms.date: 05/09/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a3e9c9c538f9311da4c383b5de24048eb836ab0a
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 108b9fb0eb227e9f046919efc6ef4d04b0903c40
+ms.sourcegitcommit: d259c0986d356135e626a30468971e32f8103f4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61513449"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "65442958"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune
 
@@ -59,6 +59,7 @@ ms.locfileid: "61513449"
   - [Zimperium](#configure-zimperium-apps)
   - [Pradeo](#configure-pradeo-apps)
   - [Better Mobile](#configure-better-mobile-apps)
+  - [Sophos Mobile](#configure-sophos-apps)
 
 ### <a name="configure-lookout-for-work-apps"></a>Настройка приложений Lookout for Work
 
@@ -142,7 +143,18 @@ ms.locfileid: "61513449"
 
     - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Используйте этот [URL-адрес Active Shield в магазине приложений](https://itunes.apple.com/us/app/activeshield/id980234260?mt=8&uo=4) на **шаге 12** в разделе **Настройка сведений о приложении**.
 
+
+### <a name="configure-sophos-apps"></a>Настройка приложений Sophos  
+- **Android**
+
+    - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). Используйте этот [URL-адрес приложения Sophos в магазине](https://play.google.com/store/apps/details?id=com.sophos.smsec) на **шаге 7**.
+
+ - **iOS**
+
+    - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Используйте этот [URL-адрес Active Shield в магазине приложений](https://itunes.apple.com/us/app/sophos-mobile-security/id1086924662?mt=8) на **шаге 12** в разделе **Настройка сведений о приложении**.
+
 ## <a name="configure-your-mtd-apps-with-an-ios-app-configuration-policy"></a>Настройка приложений MTD с политикой конфигурации приложений iOS
+
 
 ### <a name="lookout-for-work-app-configuration-policy"></a>Политика конфигурации приложений Lookout for Work
 
@@ -163,7 +175,7 @@ ms.locfileid: "61513449"
 
     - На **шаге 8** используйте вариант **Введите данные XML**, скопируйте содержимое из файла ***.plist** и вставьте его в текст политики конфигурации.
 
-> [!NOTE]
+> [!NOTE]  
 > Если вам не удастся получить эти файлы, обратитесь в [службу корпоративной поддержки Symantec Endpoint Protection Mobile](https://support.symantec.com/en_US/contact-support.html).
 
 ### <a name="check-point-sandblast-mobile-app-configuration-policy"></a>Политика конфигурации приложений Check Point SandBlast Mobile
@@ -192,6 +204,9 @@ ms.locfileid: "61513449"
 <string>{{udidlast4digits}}</string>
 </dict>
 ```
+### <a name="pradeo-app-configuration-policy"></a>Политика конфигурации приложений Pradeo
+Pradeo не поддерживает политики конфигурации приложений на iOS.  Вместо этого, чтобы получить настроенное приложение, обратитесь в Pradeo для получения пользовательских файлов IPA или APK, настроенных с нужными вам параметрами.
+
 
 ### <a name="better-mobile-app-configuration-policy"></a>Политика конфигурации приложений Better Mobile
 
@@ -208,6 +223,9 @@ ms.locfileid: "61513449"
 <string>{{userprincipalname}}</string>
 </dict>
 ```
+
+### <a name="sophos-mobile-app-configuration-policy"></a>Политика конфигурации приложений Sophos Mobile
+Создайте политику конфигурации приложений iOS, как описано в статье об [использовании политики конфигурации приложений iOS](app-configuration-policies-use-ios.md).
 
 ## <a name="assign-apps-to-groups"></a>Назначение приложений группам
 

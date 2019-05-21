@@ -6,24 +6,24 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/27/2018
+ms.date: 04/30/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: dbb6a37e-ba47-4b69-922c-d25e66c279f6
-ms.reviewer: heenamac
+ms.reviewer: davidra
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ab9fef5a577783ebbdd512de6d00ab98483e754c
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 92216550ee53c220beb3dc325be02c28b5eeb0c5
+ms.sourcegitcommit: dde4b8788e96563edeab63f612347fa222d8ced0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61513365"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "65135209"
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Включение соединителя Mobile Threat Defense в Intune
 
@@ -67,7 +67,7 @@ ms.locfileid: "61513365"
 - **Число дней, через которое партнер считается неотвечающим**. Период отсутствия активности в днях, по истечении которого Intune считает партнера неотвечающим из-за потери соединения. Intune не учитывает состояние соответствия неотвечающих партнеров MTD.
 
 > [!IMPORTANT] 
-> Перед созданием правил для политик соответствия устройств и условного доступа нужно добавить и назначить приложения MTD. Это гарантирует, что приложение MTD будет готово к работе и доступно для установки конечными пользователями, прежде чем они смогут получать доступ к электронной почте или другим корпоративным ресурсам.
+> При возможности рекомендуем перед созданием правил для политик соответствия устройств и условного доступа добавить и назначить приложения MTD. Это помогает гарантировать, что приложение MTD будет готово к работе и доступно для установки конечными пользователями, прежде чем они смогут получать доступ к электронной почте или другим корпоративным ресурсам.
 
 > [!TIP]
 > На панели Mobile Threat Defense вы увидите соответствующие значения в полях **Состояние подключения** и **Последняя синхронизация** для Intune и партнера по MTD.

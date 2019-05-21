@@ -17,12 +17,12 @@ ms.reviewer: shpate
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: a18c579853b162024aaa93d5dad2bfd854d8c0d2
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 52b92483ddafadf460911caaa472825a0bc0a20f
+ms.sourcegitcommit: b4483c8476a209de83102e8993d8074dbb323493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61512939"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65527215"
 ---
 # <a name="monitor-bitlocker-and-device-encryption"></a>Отслеживание BitLocker и шифрование устройства  
 Intune предоставляет централизованное расположение для определения состояния шифрования устройств с Windows 10 и позволяет получить доступ к важной информации для BitLocker с ваших устройств, как это определено в Azure Active Directory (Azure AD).  
