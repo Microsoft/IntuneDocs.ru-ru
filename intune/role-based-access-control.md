@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 98e2229194287ff644e9503fa21c9536cbff4734
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 895b358760775b1021e545b271acb7ced7fa7b1d
+ms.sourcegitcommit: ac3fe7504e58c74495a560a68eae2b784a4f7d46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61507313"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65942086"
 ---
 # <a name="role-based-access-control-rbac-with-microsoft-intune"></a>Управление доступом на основе ролей (RBAC) с помощью Microsoft Intune
 
@@ -42,7 +42,7 @@ ms.locfileid: "61507313"
 -   **Назначения**. Список [назначения ролей]( assign-role.md), определяющий, какие пользователи имеют доступ к каким пользователям или устройствам. Роль может иметь несколько назначений, и пользователь может быть в нескольких назначениях.
 
 ### <a name="built-in-roles"></a>Встроенные роли
-Встроенные роли можно назначить группам без дальнейшей настройки. Невозможно удалить или изменить имя, описание, тип или разрешения встроенной роли. Полный список разрешений для каждой встроенной роли см. в [таблице RBAC Intune]((https://gallery.technet.microsoft.com/Intune-RBAC-table-2e3c9a1a).
+Встроенные роли можно назначить группам без дальнейшей настройки. Невозможно удалить или изменить имя, описание, тип или разрешения встроенной роли. Полный список разрешений для каждой встроенной роли см. в [таблице RBAC Intune](https://gallery.technet.microsoft.com/Intune-RBAC-table-2e3c9a1a).
 
 - **Help Desk Operator** (Оператор службы технической поддержки). Выполняет удаленные задачи для пользователей и устройств, а также может назначать пользователям и устройствам приложения или политики.
 - **Policy and Profile Manager** (Диспетчер политик и профилей). Управляет политикой соответствия требованиям, профилями конфигурации, регистрацией Apple, идентификаторами корпоративных устройств и базовыми показателями безопасности.
