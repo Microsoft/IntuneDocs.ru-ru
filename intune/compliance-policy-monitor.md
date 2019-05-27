@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/19/2018
+ms.date: 05/20/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 654d5b86a8a2df8eaddc8ea626b55390d2d32920
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: b5da0e5f14d3b87827d42d48341fa7080d73c567
+ms.sourcegitcommit: ac3fe7504e58c74495a560a68eae2b784a4f7d46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61509076"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65942052"
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Мониторинг политик соответствия устройств Intune
 
@@ -75,7 +75,9 @@ ms.locfileid: "61509076"
 
   - Устройства, которым не назначены политики соответствия требованиям и на которых нет триггера для проверки на соответствие.
   - Устройства, которые не синхронизировались с момента последнего обновления политики соответствия требованиям.
-  - Устройства, несвязанные с определенным пользователем.
+  - Устройства, не связанные с определенным пользователем, например:
+    - Устройства iOS, приобретенные по Программе регистрации устройств (DEP) Apple, без сходства пользователей.
+    - Киоск Android или выделенные устройства с Android для бизнеса.
   - Устройства, зарегистрированные с помощью учетной записи диспетчера регистрации устройств (DEM).
 
 - **Не соответствует**. Для устройства не удалось применить параметры политики соответствия. Либо же пользователь не соблюдает политики.

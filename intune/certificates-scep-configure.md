@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6f1cdacf4b4d26e9db9b4090805f697927a399c5
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 96a0da69cdb77ae36ce2456186593f5c334c870c
+ms.sourcegitcommit: 4980c094faaca452f8ec8ddded04f47b3229ff38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61510130"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65765415"
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Настройка и использование сертификатов SCEP в Intune
 
@@ -567,4 +567,6 @@ ms.locfileid: "61510130"
 
 - [Используйте сертификаты PKCS](certficates-pfx-configure.md) или [выдайте сертификаты PKCS из веб-службы диспетчера PKI Symantec](certificates-symantec-configure.md)
 - [Добавление стороннего центра сертификации для использования SCEP в Intune](certificate-authority-add-scep-overview.md)
-- Дополнительные сведения см. в руководстве по [устранению неполадок, связанных с развертыванием профиля сертификата SCEP в Microsoft Intune](https://support.microsoft.com/help/4457481/troubleshooting-scep-certificate-profile-deployment-in-intune).
+- Дополнительные сведения можно найти в следующих руководствах:
+  - [Устранение неполадок развертывания профилей сертификатов SCEP в Microsoft Intune.](https://support.microsoft.com/help/4457481)
+  - [Устранение неполадок конфигурации NDES для использования с профилями сертификатов Microsoft Intune.](https://support.microsoft.com/help/4459540)

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eef5524cff3ce29e802ca8078ba2b5e104e89775
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 7ba5ca4dcd8e43d63e98c281cac3487def8a0045
+ms.sourcegitcommit: 4980c094faaca452f8ec8ddded04f47b3229ff38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61490168"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65765320"
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Регистрация устройств с iOS в Intune
 
@@ -85,3 +85,6 @@ Apple School Manager — это программа приобретения и
 
 Если требуется выполнить сопоставление с пользователем, перед регистрацией устройства необходимо выбрать параметр **Сходство пользователей** в профиле регистрации. Чтобы изменить на устройстве статус сходства, следует снять такое устройство с учета и повторно зарегистрировать.
 
+## <a name="see-also"></a>См. также
+
+[Устранение проблем при регистрации устройств iOS в Microsoft Intune.](https://support.microsoft.com/help/4039809)

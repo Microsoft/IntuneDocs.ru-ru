@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bb109f8c837fe8848ad8cb19c930de765ed381d1
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: dffdf67597ccb7a1719b2b769a79a6a5f365198c
+ms.sourcegitcommit: 5fec35341d83b16023a92fc4b2b3e9237fc6c9ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61509523"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65853905"
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 
@@ -80,6 +80,7 @@ ms.locfileid: "61509523"
    |Microsoft Intune| IntuneMAMUPN | Строка | {{UserPrincipalName}}|
    |VMware AirWatch| IntuneMAMUPN | Строка | {UserPrincipalName}|
    |MobileIron | IntuneMAMUPN | Строка | ${userUPN} **или** ${userEmailAddress} |
+   |Управление конечными точками Citrix | IntuneMAMUPN | Строка | ${user.userprincipalname} |
    |ManageEngine Mobile Device Manager | IntuneMAMUPN | Строка | %upn% |
 
 

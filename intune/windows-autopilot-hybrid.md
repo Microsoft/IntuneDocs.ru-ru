@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: be0598d09f10403892fa6a82e109ecc90015ccf9
-ms.sourcegitcommit: 47d8ca144ea4e8b8817e95ac4b8c6bd8591fcc06
+ms.openlocfilehash: 7ac370ffe297cb62af6ed55cfd5c4c41cf8452d3
+ms.sourcegitcommit: dfcf80a91792715404dc021c8684866c8b0a27e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "65619448"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65816292"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
@@ -119,6 +119,9 @@ ms.locfileid: "65619448"
 > [!NOTE]
 > После того как вы войдете в соединитель, он должен появиться в [Intune](https://aka.ms/intuneportal) в течение нескольких минут. Он появится только в том случае, если ему удастся связаться со службой Intune.
 
+### <a name="turn-off-ie-enhanced-security-configuration"></a>Отключение конфигурации усиленной безопасности Internet Explorer
+По умолчанию для Windows Server включена конфигурация усиленной безопасности Internet Explorer. Если вы не можете войти в соединитель Intune для Active Directory, отключите конфигурацию усиленной безопасности IE для администратора. См. статью об [отключении конфигурации усиленной безопасности Internet Explorer](https://blogs.technet.microsoft.com/chenley/2011/03/10/how-to-turn-off-internet-explorer-enhanced-security-configuration).
+
 ### <a name="configure-web-proxy-settings"></a>Настройка параметров веб-прокси
 
 Если у вас есть веб-прокси в сетевой среде, обеспечьте правильную работу соединителя Intune для Active Directory. См. статью [Работа с имеющимися локальными прокси-серверами](autopilot-hybrid-connector-proxy.md).
@@ -194,7 +197,7 @@ ms.locfileid: "65619448"
 
 ## <a name="optional-turn-on-the-enrollment-status-page"></a>Включение страницы состояния регистрации (необязательно)
 
-1. В [Intune](https://aka.ms/intuneportal) выберите **Регистрация устройства** > **Регистрация Windows** > **Страница состояния регистрации (предварительная версия)**.
+1. В [Intune](https://aka.ms/intuneportal) выберите **Регистрация устройства** > **Регистрация Windows** > **Страница состояния регистрации**.
 1. На панели **Страница состояния регистрации** выберите **По умолчанию** > **Параметры**.
 1. В поле **Показать ход установки приложений и профилей** выберите значение **Да**.
 1. При необходимости настройте остальные параметры.

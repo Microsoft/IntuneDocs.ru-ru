@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/26/2019
+ms.date: 05/21/2019
 ms.topic: conceptual
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 21d773b0ab2227f59f1ee0b2091d39b7c9799721
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 31b5697d9673866d378cc526a3735138d6a120b3
+ms.sourcegitcommit: 6de06b475f16893710dc34027096138aa697e482
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61506820"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65992904"
 ---
 # <a name="frequently-asked-questions-about-mam-and-app-protection"></a>Часто задаваемые вопросы об управлении мобильными приложениями (MAM) и защите приложений
 
@@ -51,6 +51,13 @@ Intune MAM поддерживает две конфигурации.
 
 **Каковы примеры политики защиты приложений?**<br></br>
 Дополнительные сведения обо всех параметрах политики защиты приложений см. в статьях [Параметры политики управления мобильными приложениями в Microsoft Intune](app-protection-policy-settings-android.md) и [Параметры политики управления мобильными приложениями iOS](app-protection-policy-settings-ios.md).
+
+**Возможно ли применять политики MDM и MAM к одному пользователю в одно то же время для различных устройств? Например, если пользователь может получить доступ к рабочим ресурсам с собственного компьютера с поддержкой MAM, а также работает, используя устройство под управлением Intune MDM. Есть ли важные замечания по этому поводу?**<br></br>
+Если применить политику MAM для пользователя, не настроив состояние устройства, политика MAM будет применяться на устройстве BYOD и на устройстве под управлением Intune. Кроме того, политику MAM можно применять на основе управляемого состояния. Поэтому при создании политики защиты приложений для параметра Target to all app (Предназначено для всех приложений) необходимо выбрать значение "Нет". Затем выполните одно из следующих действий:
+- Примените менее строгую политику MAM к устройствам под управлением Intune и более строгую политику MAM к устройствам, не зарегистрированным в MDM.
+- Примените политику MAM только к незарегистрированным устройствам.
+
+Дополнительные сведения см. в статье [Как отслеживать политики защиты приложений](app-protection-policies-monitor.md).
 
 ## <a name="apps-you-can-manage-with-app-protection-policies"></a>Приложения, которыми можно управлять с помощью политик защиты приложений
 
