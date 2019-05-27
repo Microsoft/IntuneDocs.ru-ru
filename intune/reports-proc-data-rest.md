@@ -8,7 +8,6 @@ ms.author: erikre
 manager: dougeby
 ms.date: 04/02/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5aa85ee044eae5fba9dcb7c380a29dda727c6492
-ms.sourcegitcommit: 79baf89e4a7a7b1cecb8ccf5cb976736ae6a7286
+ms.openlocfilehash: 894ce1fcf270af0169661359c2ab088bb30fab62
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58871456"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66041161"
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 
@@ -156,7 +155,7 @@ ms.locfileid: "58871456"
 > Следующий пример кода можно найти на сайте [GitHub](https://github.com/Microsoft/Intune-Data-Warehouse/blob/master/Samples/CSharp/Program.cs). Проверьте репозиторий GitHub на наличие последних изменений и обновлений для примера.
 
 1. Откройте **Microsoft Visual Studio**.
-2. Выберите **Файл** > **Создать проект**. Разверните **Visual C#** и выберите **Консольное приложение (.Net Framework)**.
+2. Выберите **Файл** > **Создать проект**. Разверните **Visual C#** и выберите **Консольное приложение (.Net Framework)** .
 3. Назовите проект ` IntuneDataWarehouseSamples`, перейдите к папке, где вы хотите сохранить проект, и нажмите кнопку **ОК**.
 4. Щелкните правой кнопкой мыши имя решения в обозревателе решений, а затем выберите **Управление пакетами NuGet для решения**. Нажмите кнопку **Обзор**, а затем введите `Microsoft.IdentityModel.Clients.ActiveDirectory` в поле поиска.
 5. Выберите пакет, в разделе "Управление пакетами для решения" выберите проект **IntuneDataWarehouseSamples**, а затем нажмите кнопку **Установить**.

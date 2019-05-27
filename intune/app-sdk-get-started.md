@@ -5,9 +5,8 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/24/2019
+ms.date: 04/29/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c6389bc9790fce45604887bc2d73b3d5d8c35c45
-ms.sourcegitcommit: 02803863eba37ecf3d8823a7f1cd7c4f8e3bb42c
-ms.translationtype: HT
+ms.openlocfilehash: 35f4007d03ca66ada5721de1ffe20dd87bfe4527
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59423600"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66043792"
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -164,7 +163,7 @@ Intune|iOS|Android|Описание|
     
     * При тестировании приложения на мобильном устройстве с помощью учетной записи пользователя убедитесь, что вы предоставили этой учетной записи лицензию Intune на веб-сайте центра администрирования Microsoft 365, войдя туда по учетной записи администратора; см. раздел [Назначение лицензии Microsoft Intune](https://docs.microsoft.com/en-ca/intune/licenses-assign).
 
-* **Политики защиты приложений Intune**: чтобы проверить свое приложение на поддержку всех политик защиты приложений Intune, вам нужно знать ожидаемое поведение для каждого параметра политики. См. описание в разделах [Политики защиты приложений iOS](app-protection-policy-settings-ios.md) и [Политики защиты приложений Android](app-protection-policy-settings-android.md).
+* **Политики защиты приложений Intune**: чтобы проверить свое приложение на поддержку всех политик защиты приложений Intune, вам нужно знать ожидаемое поведение для каждого параметра политики. См. описание в разделах [Политики защиты приложений iOS](app-protection-policy-settings-ios.md) и [Политики защиты приложений Android](app-protection-policy-settings-android.md). Если в ваше приложение интегрирован пакет SDK для Intune, но оно еще не указано на портале Azure в качестве целевого, вы можете применить к нему политику, выбрав параметр + More Apps (+ Другие приложения) и указав идентификатор пакета (iOS) или имя пакета (Android) в текстовом поле.
 
 * **Устранение неполадок**. Если во время ручного тестирования установки приложения возникают неполадки, см. статью [Устранение проблем с установкой приложений](troubleshoot-app-install.md). 
 

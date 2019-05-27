@@ -473,8 +473,8 @@
               href: certificates-s-mime-encryption-sign.md
             - name: Использование сторонних центров сертификации с SCEP
               href: certificate-authority-add-scep-overview.md
-            - name: Веб-служба Symantec PKI Manager
-              href: certificates-symantec-configure.md
+            - name: Использование инфраструктуры открытых ключей DigiCert
+              href: certificates-digicert-configure.md
             - name: Удаление сертификатов SCEP и PKCS
               href: remove-certificates.md
         - name: Профили сотовой связи eSIM

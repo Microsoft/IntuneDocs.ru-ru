@@ -8,7 +8,6 @@ ms.author: erikje
 manager: dougeby
 ms.date: 04/29/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
 ms.assetid: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3645d07fe9a703f182e05bc9a7f9fbb93c413ddc
-ms.sourcegitcommit: dfcf80a91792715404dc021c8684866c8b0a27e1
+ms.openlocfilehash: ca66a2fa331fe4dcc30c32d369db32a57ba9999c
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65816241"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66047311"
 ---
 # <a name="in-development-for-microsoft-intune---may-2019"></a>В разработке для Microsoft Intune, май 2019 г.
 

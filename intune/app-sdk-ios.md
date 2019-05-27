@@ -7,7 +7,6 @@ ms.author: erikre
 manager: dougeby
 ms.date: 04/10/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1a834b1f35bdefd91abfc1ec9ca8b44d4eb593cd
-ms.sourcegitcommit: af2512a1342d8037a96a61c8cc2c63e107913733
-ms.translationtype: HT
+ms.openlocfilehash: 51ad3b2db3a45c06c0019b6f57ac4147112807fa
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "59533615"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66049834"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -83,7 +82,7 @@ ms.locfileid: "59533615"
 
 Чтобы использовать пакет SDK для приложений Intune, сделайте следующее.
 
-1. **Вариант 1 (рекомендуется)**. Свяжите `IntuneMAM.framework` со своим проектом. Перетащите `IntuneMAM.framework` в список **Embedded Binaries** (Встроенные двоичные файлы) цели проекта.
+1. **Вариант 1 (рекомендуется)** . Свяжите `IntuneMAM.framework` со своим проектом. Перетащите `IntuneMAM.framework` в список **Embedded Binaries** (Встроенные двоичные файлы) цели проекта.
 
    > [!NOTE]
    > При использовании платформы вам необходимо вручную убрать архитектуры симулятора из универсальной платформы перед отправкой приложения в App Store. См. дополнительные сведения [об отправке приложения в App Store](#submit-your-app-to-the-app-store).

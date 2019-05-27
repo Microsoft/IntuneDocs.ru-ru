@@ -7,7 +7,6 @@ ms.author: mandia
 manager: dougeby
 ms.date: 04/23/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1bcd3a5d0b9f7abc1aa2e0b4d96c30c956b6b4c7
-ms.sourcegitcommit: b0cf661145ccc6e3518db620af199786a623a0d9
+ms.openlocfilehash: b31c7778ea167b98468a0a9ad9e37047c30ce201
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "64764896"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66047182"
 ---
 # <a name="ios-device-settings-to-use-common-ios-features-in-intune"></a>Параметры устройств с iOS для использования распространенных функций iOS в Intune
 

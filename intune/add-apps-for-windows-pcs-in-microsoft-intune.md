@@ -8,7 +8,6 @@ ms.author: dougeby
 manager: dougeby
 ms.date: 08/29/2018
 ms.topic: archived
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e4f6a8c3e460e9806aabadd710ec102aa77d44ab
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.openlocfilehash: 86cbea29233d792006bce68fcd2a36fb1a7ec0a6
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58798899"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66050199"
 ---
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
 
@@ -78,7 +77,7 @@ ms.locfileid: "58798899"
 5. На странице **Правила обнаружения** можно настроить правила для определения того, установлено ли уже на компьютере настраиваемое вами приложение. Или использовать правила обнаружения по умолчанию для автоматической перезаписи всех ранее установленных версий приложения. Этот параметр предназначен для установщика Windows (только EXE-файлы).
 
    Ниже приведены правила, которые вы можете настроить.
-   - **Файл существует**. Укажите путь к файлу, который нужно обнаружить. Вы можете выполнить поиск в разделе **%ProgramFiles%** (поиск выполняется в **Program Files**\&lt;путь&gt; и **Program Files (x86)**\&lt;путь&gt;) на ПК или в **%SystemDrive%** (поиск выполняется с корневого диска ПК, обычно с диска C).
+   - **Файл существует**. Укажите путь к файлу, который нужно обнаружить. Вы можете выполнить поиск в разделе **%ProgramFiles%** (поиск выполняется в **Program Files**\&lt;путь&gt; и **Program Files (x86)** \&lt;путь&gt;) на ПК или в **%SystemDrive%** (поиск выполняется с корневого диска ПК, обычно с диска C).
    - **Код продукта MSI существует**. Нажмите кнопку **Обзор** для выбора файла установщика Windows (MSI), который необходимо обнаружить.
    - <strong>Раздел реестра существует</strong>. Укажите раздел реестра, который начинается с <strong>HKEY_LOCAL_MACHINE\</strong>. Поиск выполняется по обоим путям к реестру в 32- и 64-разрядной версиях. Если указанный раздел существует, правило обнаружения удовлетворяется.
 

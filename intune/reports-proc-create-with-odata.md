@@ -8,7 +8,6 @@ ms.author: erikre
 manager: dougeby
 ms.date: 01/06/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b9cfb464122018c6e77d5ea1395b699bafa81f33
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.openlocfilehash: 45df3e3b217e25c9e61fd51d7f458f33c7c0481d
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58799042"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66045527"
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Создание отчета из веб-канала OData с помощью Power BI
 
@@ -83,7 +82,7 @@ ms.locfileid: "58799042"
 ![Управление связями связанных данных по таблицам](media/reports-create-03-managerelationships.png)
 
 1. Выберите **Управление связями**.
-2. Если приложение Power BI еще не обнаружило связи, нажмите кнопку **Автообнаружение...**.
+2. Если приложение Power BI еще не обнаружило связи, нажмите кнопку **Автообнаружение...** .
 
 Связи отображаются в столбцах "Из таблицы" и "В таблицу". В этом примере поле данных **ownerTypeKey** в таблице **devices** связано с полем данных **ownerTypeKey** в таблице **ownerTypes**. С помощью этой связи можно определить обычное название по коду типа устройства в таблице **devices**.
 

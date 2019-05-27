@@ -18,12 +18,12 @@ ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2c9ea11cd19fee8f491329020753501996b47f40
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: fea76693fe929338b29d110c299277e753134cc6
+ms.sourcegitcommit: d258bcf6716c8a2589d3f8dada819905ee80f233
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55834727"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66196785"
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>Регистрация устройства macOS в Intune с помощью приложения корпоративного портала
 
@@ -31,7 +31,9 @@ ms.locfileid: "55834727"
 
 Организации часто требуют включить управление устройством для доступа к закрытым данным. Когда устройство попадает под управление, организация может принудительно отправлять политики и приложения на устройства с помощью своего поставщика управления мобильными устройствами. Чтобы получить постоянный доступ к рабочей или учебной информации с устройства, необходимо настроить устройство в соответствии с параметрами политики.  
 
-В этой статье описывается, как приложение корпоративного портала Intune для macOS позволяет регистрировать, настраивать и обслуживать устройства в соответствии с требованиями организации.
+В этой статье описывается, как приложение корпоративного портала Intune для macOS позволяет регистрировать, настраивать и обслуживать устройства в соответствии с требованиями организации.  
+</br>
+> [!VIDEO https://www.youtube.com/embed/Pa2pfhwq_yk?rel=0]
 
 ## <a name="what-to-expect-from-the-company-portal-app"></a>Чего ждать от приложения корпоративного портала
 

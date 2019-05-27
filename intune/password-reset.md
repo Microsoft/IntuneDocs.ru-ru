@@ -8,19 +8,18 @@ ms.author: mandia
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: archived
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ce6ed4b57199f87fc014addf74a06e70a285044b
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.openlocfilehash: 063c99c404cca5c1123b5a84c6c376da1c1d15a2
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58798933"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66041514"
 ---
 # <a name="reduce-help-desk-costs-with-self-service-password-reset"></a>Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей
 
