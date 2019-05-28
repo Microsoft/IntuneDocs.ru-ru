@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4840ccac35f37e956c363a1f6103da623ef27782
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: d2eac8c396e63fa2f3a4e8ef2c2b88b883c87433
+ms.sourcegitcommit: b7f3a6d67f7ae2356bbca1934056d28cdfc6e45e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61505783"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65836458"
 ---
 # <a name="android-enterprise-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Android Enterprise, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -327,3 +327,7 @@ ms.locfileid: "61505783"
 [Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
 Вы также можете создавать профили выделенных устройств для устройств с [Android](device-restrictions-android.md#kiosk) и [Windows 10](kiosk-settings.md).
+
+## <a name="see-also"></a>См. также
+
+[Configuring and troubleshooting Android enterprise devices in Microsoft Intune](https://support.microsoft.com/help/4476974) (Настройка устройств Android для бизнеса и устранение неполадок с ними в Microsoft Intune)
