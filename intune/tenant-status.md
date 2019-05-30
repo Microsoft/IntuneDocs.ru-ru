@@ -8,19 +8,18 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 02/23/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0cde1977b0c126f478abae06860110acc2f10444
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 2d3b6aeb7efc60d32891f4b1c69b387a61a2bc25
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61514180"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66040510"
 ---
 # <a name="intune-tenant-status-page"></a>Страница "Состояние клиента" Intune
 Страница "Состояние клиента" — это централизованный узел, где можно посматривать актуальные и важные сведения о клиенте. Здесь отображаются данные о доступности и использовании лицензии, состоянии соединителя и важная информация о службе Intune.  
