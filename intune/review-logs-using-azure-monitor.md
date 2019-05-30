@@ -7,7 +7,6 @@ ms.author: mandia
 manager: dougeby
 ms.date: 03/18/2019
 ms.topic: troubleshooting
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fb33a1207e165323de2e82467c7a0dd5239d9713
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 803d556150d60d0a3d60ec03c029d65f0f935f67
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61507372"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66045293"
 ---
 # <a name="send-log-data-to-storage-event-hubs-or-log-analytics-in-intune-preview"></a>Отправка данных журнала в хранилище, концентраторы событий или Log Analytics в Intune (предварительная версия)
 

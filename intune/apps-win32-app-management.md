@@ -8,7 +8,6 @@ ms.author: erikre
 manager: dougeby
 ms.date: 05/14/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 07922ff771f8dea2e19a94cd965fb7779f20f131
-ms.sourcegitcommit: 5fec35341d83b16023a92fc4b2b3e9237fc6c9ab
+ms.openlocfilehash: 0b3a566fd5c040e1c0007c10b1b57a64788a2323
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65853957"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66043820"
 ---
 # <a name="intune-standalone---win32-app-management"></a>Изолированная среда Intune — управление приложениями Win32
 

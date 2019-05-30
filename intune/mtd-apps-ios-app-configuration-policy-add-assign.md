@@ -8,7 +8,6 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 05/09/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 108b9fb0eb227e9f046919efc6ef4d04b0903c40
-ms.sourcegitcommit: d259c0986d356135e626a30468971e32f8103f4e
+ms.openlocfilehash: 8fccf991f93a1b2804d31418bdb0f84edf681c92
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "65442958"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66041579"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune
 

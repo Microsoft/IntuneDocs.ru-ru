@@ -8,7 +8,6 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 05/16/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cac92aeac895201459e692aae164f51dab10dfb0
-ms.sourcegitcommit: ca0f48982e49e90bc14fac5575077445e027f728
+ms.openlocfilehash: 940ef3e6df95629dad03d6c1d4e60343e4273473
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65712625"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66048846"
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
 

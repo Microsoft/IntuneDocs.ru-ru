@@ -8,7 +8,6 @@ ms.author: erikre
 manager: dougeby
 ms.date: 05/16/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8d28ac5f7964fa7b2ddb5ec9be1878ccdd3dadbd
-ms.sourcegitcommit: 5fec35341d83b16023a92fc4b2b3e9237fc6c9ab
+ms.openlocfilehash: a9a61b89f07bfacf1dc41be1412f79509e1e147d
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65853937"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66049939"
 ---
 # <a name="configure-the-microsoft-managed-home-screen-app-for-android-enterprise"></a>Настройка приложения Microsoft Managed Home Screen для Android для бизнеса
 

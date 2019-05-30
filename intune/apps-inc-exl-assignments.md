@@ -8,7 +8,6 @@ ms.author: erikre
 manager: dougeby
 ms.date: 04/10/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 48ec49b0539711fa50083850ea394a369a3c65b9
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: eb55951390c3fe19651087e16c3185018cfd9dab
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61506787"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66049306"
 ---
 # <a name="include-and-exclude-app-assignments-in-microsoft-intune"></a>Включение и исключение назначений приложений в Microsoft Intune
 

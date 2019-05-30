@@ -7,7 +7,6 @@ ms.author: tanvira
 manager: smantri
 ms.date: 4/16/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,18 +16,18 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ebefba3f912669166e5e077fe15b0b04f4a7b75f
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 5c47a7413d98467fffc26dee098a64cfeac770e4
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61490015"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66043558"
 ---
 # <a name="work-with-existing-on-premises-proxy-servers"></a>Работа с имеющимися локальными прокси-серверами
 
 В этой статье описывается, как настроить соединитель Intune для Active Directory для работы с исходящими прокси-серверами. Она предназначена для клиентов, имеющих в своей сетевой среде прокси-серверы.
 
-Дополнительные сведения о работе соединителей см. в разделе [Сведения о соединителях Azure AD Application Proxy](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-connectors).
+Дополнительные сведения о работе соединителей см. в разделе [Сведения о соединителях Azure AD Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-connectors).
 
 ## <a name="bypass-outbound-proxies"></a>Обход исходящих прокси-серверов
 

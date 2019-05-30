@@ -7,7 +7,6 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 04/08/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 40d8b3d14411827642661b01929d17e83a5198ad
-ms.sourcegitcommit: 4980c094faaca452f8ec8ddded04f47b3229ff38
+ms.openlocfilehash: 37938287cc5ddde6285ec09aa0fffea56f98b3c3
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65765356"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66048945"
 ---
 # <a name="configure-a-certificate-profile-for-your-devices-in-microsoft-intune"></a>Настройка профиля сертификата для устройств в Microsoft Intune
 

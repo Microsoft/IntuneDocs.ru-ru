@@ -8,7 +8,6 @@ ms.author: erikje
 manager: dougeby
 ms.date: 11/09/2018
 ms.topic: troubleshooting
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -19,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 06a8bd8d0a46b7d7eed8efb4cb8b4c2d4e21f77d
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 6175fca13f1883338b7f5858538728132183b8db
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61509287"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66040601"
 ---
 # <a name="troubleshoot-device-enrollment-in-microsoft-intune"></a>Устранение проблем при регистрации устройств в Microsoft Intune
 

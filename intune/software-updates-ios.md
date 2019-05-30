@@ -7,18 +7,17 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 04/04/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: de73aa069765ce75068781674ff24d097346cdba
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: cf07f942feeab0a73c01625f90c04ec3b989c1c2
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61505936"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66044841"
 ---
 # <a name="add-ios-software-update-policies-in-intune"></a>Добавление политик обновления программного обеспечения iOS в Intune
 

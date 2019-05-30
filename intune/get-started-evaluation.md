@@ -8,7 +8,6 @@ ms.author: dougeby
 manager: dougeby
 ms.date: 02/26/2019
 ms.topic: overview
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 313e4ccf0e96536b3e99edb968298e4cc3343aa1
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 0118087d5084830ac7b1761109a2bb542ec37421
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61513997"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66041815"
 ---
 # <a name="what-can-intune-do-for-my-company"></a>В чем преимущества Intune для организации?
 Microsoft Intune — это облачная служба управления корпоративной мобильностью (EMM), которая повышает производительность труда персонала, при этом обеспечивая защиту корпоративных данных.

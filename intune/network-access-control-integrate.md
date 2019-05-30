@@ -7,7 +7,6 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 04/25/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cbef2059f42a209a63e4ba3f1e83aec410237d02
-ms.sourcegitcommit: dde4b8788e96563edeab63f612347fa222d8ced0
+ms.openlocfilehash: e9663691053d8ecd204ad899805153d0bfb25e6f
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "65135135"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66041572"
 ---
 # <a name="network-access-control-nac-integration-with-intune"></a>Интеграция управления доступом к сети (NAC) с Intune
 

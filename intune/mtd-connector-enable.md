@@ -8,7 +8,6 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 04/30/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 92216550ee53c220beb3dc325be02c28b5eeb0c5
-ms.sourcegitcommit: dde4b8788e96563edeab63f612347fa222d8ced0
+ms.openlocfilehash: b7998eb82b27a7e70d5a77374950e544fd603f6d
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "65135209"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66046295"
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Включение соединителя Mobile Threat Defense в Intune
 

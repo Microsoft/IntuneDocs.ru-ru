@@ -7,7 +7,6 @@ ms.author: brenduns
 manager: dougeby
 ms.date: 05/17/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f6f6f319b5c38f290f3cdb6d4a04528f3b227212
-ms.sourcegitcommit: f8bbd9bac2016a77f36461bec260f716e2155b4a
+ms.openlocfilehash: 987e3171c4e5c5ba3f15097837e2c018ddc7a4b6
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65733396"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66049197"
 ---
 # <a name="use-intune-to-remediate-vulnerabilities-identified-by-microsoft-defender-atp"></a>Устранение уязвимостей, определенных ATP в Microsoft Defender, с помощью Intune  
 
