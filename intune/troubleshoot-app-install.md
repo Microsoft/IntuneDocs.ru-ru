@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 47115fcb2662439bff867043c2fb58bc3550dbbb
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: fe7ffa6ff024c719fc24209947b87b07ea2b6791
+ms.sourcegitcommit: 063177c6c365fef3642edd7c455790958469aad9
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66044879"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412689"
 ---
 # <a name="troubleshoot-app-installation-issues"></a>Устранение проблем с установкой приложений
 
@@ -31,8 +31,7 @@ ms.locfileid: "66044879"
 
 Intune предоставляет сведения для устранения неполадок в приложениях, установленных на определенном устройстве пользователя.
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 3. На панели **Intune** выберите **Устранение неполадок**.
 4. Щелкните **Выбрать пользователя**, чтобы выбрать пользователя, для которого необходимо устранить неполадки. Отобразится панель **Выбор пользователей**.
 5. Выберите пользователя, введя его имя или адрес электронной почты. Щелкните **Выбрать** в нижней части панели. Сведения по устранению неполадок для пользователя отображаются в области **Устранение неполадок**. 

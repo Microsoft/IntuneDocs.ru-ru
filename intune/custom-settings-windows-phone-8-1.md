@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cb54f5e4cede6141c87073a7dfb6570cf85e920b
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: a5918dc0574033020689b267418fb6283cd686db
+ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66042898"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66373899"
 ---
 # <a name="use-custom-settings-for-windows-phone-81-devices-in-intune"></a>Использование настраиваемых параметров для устройств с Windows Phone 8.1 в Intune
 
@@ -32,7 +32,7 @@ Microsoft Intune позволяет добавить или создать на�
 
 ## <a name="create-the-profile"></a>Создание профиля
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 3. Введите следующие параметры:
 
