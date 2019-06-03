@@ -1,13 +1,12 @@
 ---
-title: Коды ошибок и состояний в Microsoft Intune — Azure | Документация Майкрософт
-description: При использовании MDM управляемых устройств, получении доступа к ресурсам компании, ошибки на устройствах iOS и ошибок ответов OMA в Microsoft Intune, см. Список ошибок, код состояния, описания и способы их устранения.
+title: Ошибки и коды состояний в Microsoft Intune в Azure | Документация Майкрософт
+description: Список ошибок, кодов состояний, их описания и способы их устранения при использовании управляемых MDM устройств, получении доступа к ресурсам организации, ошибках на устройствах с iOS и ошибках в ответах OMA в Microsoft Intune.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/20/2019
 ms.topic: troubleshooting
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -17,18 +16,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2e4d2b940a0079794c5b17e8d1c1900f630d14cd
-ms.sourcegitcommit: 464cf677e3746eaba46836dedfb94572a75032f9
+ms.openlocfilehash: 36d21c0b80a2737be39bbee2399f6005c43edc43
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58330484"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66040433"
 ---
-# <a name="common-error-codes-and-descriptions-in-microsoft-intune"></a>Коды распространенных ошибок и описания в Microsoft Intune
+# <a name="common-error-codes-and-descriptions-in-microsoft-intune"></a>Коды распространенных ошибок в Microsoft Intune и их описания
 
-В этой статье перечислены распространенные ошибки, коды состояния, описания и возможные решения, при доступе к ресурсам организации. Эти сведения можно используйте для устранения проблем доступа, при использовании Microsoft Intune.
+В этой статье перечислены распространенные ошибки, коды состояний, описания и возможные решения при доступе к ресурсам организации. Эти сведения можно использовать для устранения проблем доступа при использовании Microsoft Intune.
 
-Если требуется поддержка справки, см. в разделе [получение поддержки для Microsoft Intune](get-support.md).
+Если требуется поддержка, см. раздел [Получение поддержки для Microsoft Intune](get-support.md).
 
 ## <a name="status-codes-for-mdm-managed-windows-devices"></a>Коды состояния для устройств Windows, управляемых с помощью функции MDM
 
@@ -94,8 +93,8 @@ ms.locfileid: "58330484"
 
 |Код состояния|Шестнадцатеричный код ошибки|Сообщение об ошибке|
 |---------------|--------------------------|-----------------|
-|-2016299111|0x87D1B799|Внутренняя ошибка|
-|-2016299112|0x87D1B798|Внутренняя ошибка|
+|-2016299111|0x87D1B799|Внутренняя ошибка.|
+|-2016299112|0x87D1B798|Внутренняя ошибка.|
 |-2016300111|0x87D1B3B1|36001:(внутренняя ошибка)|
 |-2016300112|0x87D1B3B0|36000: сотовое соединение уже настроено|
 |-2016301110|0x87D1AFCA|35002:несколько шрифтов в одной полезной нагрузке|
@@ -387,4 +386,4 @@ ms.locfileid: "58330484"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Обратитесь в службу поддержки Майкрософт, чтобы [получение поддержки для Microsoft Intune](get-support.md).
+Обратитесь в службу поддержки Майкрософт, [чтобы получить поддержку для Microsoft Intune](get-support.md).

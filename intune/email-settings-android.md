@@ -7,7 +7,6 @@ ms.author: mandia
 manager: dougeby
 ms.date: 01/15/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 94f907ee8805c5f0559e8751a7cd69bacf1612ee
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 647e1cd6925df27d42186599ad6786e866742b44
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565509"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66042276"
 ---
 # <a name="android-device-settings-to-configure-email-authentication-and-synchronization-in-intune"></a>Настройка параметров устройств для настройки электронной почты, проверки подлинности и синхронизации в Intune
 
@@ -52,9 +51,9 @@ ms.locfileid: "57565509"
       Если вы решили использовать **Пользовательский** атрибут, введите:
       - **Имя личного домена для использования**. Введите значение, которое Intune использует для доменного имени, например `contoso.com` или `contoso`
 
-- **Атрибут адреса электронной почты из AAD**: это имя является атрибутом по электронной почте, получаемый Intune из Azure AD. Intune динамически создает имя пользователя, которое используется для этого профиля. Доступны следующие параметры:
+- **Атрибут адреса электронной почты из AAD**. Это имя является атрибутом адреса, который Intune получает из Azure AD. Intune динамически создает имя пользователя, которое используется для этого профиля. Доступны следующие параметры:
   - **Имя участника-пользователя**. В качестве адреса электронной почты используется полное имя субъекта (`user1@contoso.com` или `user1`).
-  - **Основной SMTP-адрес**: используется основной SMTP-адрес, например `user1@contoso.com`, должны входить Exchange.
+  - **Основной SMTP-адрес**. Для входа в Exchange используется основной SMTP-адрес (например, `user1@contoso.com`).
 
 - **Способ проверки подлинности**. В качестве метода проверки подлинности, используемого профилем электронной почты, выберите **Имя пользователя и пароль** или **Сертификаты**.
   - Выбрав способ **Сертификаты**, укажите созданный ранее профиль клиентского сертификата SCEP или PKCS, который будет использоваться для проверки подлинности подключения к Exchange.

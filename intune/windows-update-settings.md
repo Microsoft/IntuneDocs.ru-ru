@@ -5,9 +5,8 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 03/04/2019
+ms.date: 04/18/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -15,18 +14,18 @@ ms.reviewer: aiwang
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ef626523898a8873bde9851664b4ade85c2b0a23
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: c5a0ee88a24804294346888facef523f89fee816
+ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57566545"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66046652"
 ---
 # <a name="windows-update-settings-for-intune"></a>Параметры Центра обновления Windows для Intune  
 
 Просмотрите параметры обновления Windows 10, [настраиваемые и управляемые](windows-update-for-business-configure.md) с помощью Microsoft Intune.  
 
-При настройке параметров для кругов обновлений Windows 10 в Intune вы настраиваете параметры Центра обновления Windows.  Когда параметр обновления Windows зависит от версии Windows 10, это отмечается в сведениях о параметрах.  
+При настройке параметров для кругов обновлений Windows 10 в Intune вы настраиваете параметры Центра обновления Windows. Если параметр обновления Windows зависит от версии Windows 10, это отмечается в сведениях о параметрах.  
 
 ## <a name="update-settings"></a>Параметры обновления  
 
@@ -35,10 +34,10 @@ ms.locfileid: "57566545"
 ### <a name="servicing-channel"></a>Канал обслуживания  
 
 - **По умолчанию**: Semi-Annual Channel (целевой)  
-- **Windows справочной документации**: [обновления/BranchReadinessLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)  
+- **Справочная документация Windows**: [Обновления/BranchReadinessLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)  
 Задайте канал (ветвь), из которого устройство получает обновления Windows. Различные каналы могут использовать разные интервалы доставки обновлений.  
 
-Например, *Semi-Annual Channel* использует шестимесячный интервал. Это означает, что при использовании данного канала без дополнительных отсрочек из этого набора параметров устройство устанавливает обновление через шесть месяцев после его выпуска.  
+Например, *Semi-Annual Channel* использует шестимесячный интервал. При использовании данного канала без дополнительных отсрочек из этого набора параметров устройство устанавливает обновление через шесть месяцев после его выпуска.  
 
 Поддерживаемые каналы обновления:  
 
@@ -59,21 +58,21 @@ ms.locfileid: "57566545"
 ### <a name="microsoft-product-updates"></a>Обновления продуктов Майкрософт  
 
 - **По умолчанию**: разрешить
-- **Windows справочной документации**: [обновления/AllowMUUpdateService](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice)
+- **Справочная документация Windows**: [Обновления/AllowMUUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice)
 
 *Разрешите* проверку наличия обновлений приложения в Центре обновления Майкрософт.    
 
 ### <a name="windows-drivers"></a>Драйверы Windows  
 
 - **По умолчанию**: разрешить
-- **Windows справочной документации**: [обновления/ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-excludewudriversinqualityupdate)
+- **Справочная документация Windows**: [Обновления/ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-excludewudriversinqualityupdate)
 
 *Разрешите* включение драйверов Центра обновления Windows во время обновления.
 
 ### <a name="quality-update-deferral-period-days"></a>Период отсрочки для исправлений (в днях)  
 
 - **По умолчанию**: 0  
-- **Windows справочной документации**: [обновления/DeferQualityUpdatesPeriodInDays](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays)  
+- **Справочная документация Windows**: [Обновления/DeferQualityUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays)  
 
 Укажите число дней отсрочки исправлений (от 0 до 30). Этот период будет дополнением к любому периоду отсрочки, который является частью выбранного вами канала службы. Период отсрочки начинается с момента, когда устройство получает политику.  
 
@@ -82,20 +81,20 @@ ms.locfileid: "57566545"
 ### <a name="feature-update-deferral-period-days"></a>Период отсрочки для обновлений компонентов (в днях)  
 
 - **По умолчанию**: 0  
-- **Windows справочной документации**: [обновления/PauseFeatureUpdatesPeriodInDays](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays)  
+- **Справочная документация Windows**: [Обновления/PauseFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays)  
 
 Укажите число дней отсрочки для обновлений компонентов. Этот период будет дополнением к любому периоду отсрочки, который является частью выбранного вами канала службы. Период отсрочки начинается с момента, когда устройство получает политику.  
 Поддерживаемый период отсрочки:  
 
-- *Windows версии 1709 или более поздней версии*: от 0 до 365 дней  
-- *Windows версии 1703*: 0 до 180 дней  
+- *Для Windows версии 1709 и более поздних версий*: от 0 до 365 дней  
+- *Для Windows версии 1703*: от 0 до 180 дней  
 
 Как правило, обновления компонентов представляют собой новые возможности Windows.  
 
 ### <a name="set-feature-update-uninstall-period-2--60-days"></a>Установка периода удаления обновления компонентов (2–60 дней)  
 
 - **По умолчанию**: 10  
-- **Windows справочной документации**: [обновления/ConfigureFeatureUpdateUninstallPeriod](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-configurefeatureupdateuninstallperiod)  
+- **Справочная документация Windows**: [Обновления/ConfigureFeatureUpdateUninstallPeriod](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-configurefeatureupdateuninstallperiod)  
 
 Укажите период времени, по истечении которого обновления невозможно будет удалить.  
 
@@ -111,7 +110,7 @@ ms.locfileid: "57566545"
 ### <a name="automatic-update-behavior"></a>Режим автоматического обновления  
 
 - **По умолчанию**: автоматическая установка и перезапуск в запланированное время  
-- **Windows справочной документации**: [обновление или AllowAutoUpdate](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-allowautoupdate)  
+- **Справочная документация Windows**: [Обновления/AllowAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowautoupdate)  
 
 Выберите способ установки автоматических обновлений и при необходимости время перезапуска устройства.  
 
@@ -124,38 +123,38 @@ ms.locfileid: "57566545"
   Этот параметр может автоматически перезагружать устройство после установки обновления. Используйте параметр **Период активности**, чтобы определить период, в течение которого автоматический перезапуск будет заблокирован:  
 
   - **Начало периода активности**: укажите время начала блокировки перезапуска по причине установки обновлений.  
-    **Windows справочной документации**: [обновления/ActiveHoursStart](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-activehoursstart)  
+    **Справочная документация Windows**: [Обновления/ActiveHoursStart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursstart)  
     **По умолчанию**: 08:00  
   
   - **Конец периода активности**: укажите время окончания блокировки перезапуска по причине установки обновлений.  
-    **Windows справочной документации**: [обновления/ActiveHoursEnd](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-activehoursend)  
-    **По умолчанию**: 17: 00  
+    **Справочная документация Windows**: [Обновления/ActiveHoursEnd](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursend)  
+    **По умолчанию**: 17:00  
 
 - **Автоматическая установка и перезапуск во время обслуживания**. Обновления скачиваются автоматически, а затем устанавливаются во время автоматического обслуживания, когда устройство не используется или работает от батареи. Если требуется перезапуск, устройство перезапустится в тот момент, когда оно не используется. (Это значение по умолчанию для неуправляемых устройств.)  
 
   Этот параметр может автоматически перезагружать устройство после установки обновления. Использование параметра **Период активности** не описано в сведениях о параметрах Центра обновления Windows, но Intune использует его для определения периода, в течение которого автоматический перезапуск будет заблокирован:  
 
   - **Начало периода активности**: укажите время начала блокировки перезапуска по причине установки обновлений.  
-    **Windows справочной документации**: [обновления/ActiveHoursStart](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-activehoursstart)  
+    **Справочная документация Windows**: [Обновления/ActiveHoursStart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursstart)  
     **По умолчанию**: 08:00  
 
   - **Конец периода активности**: укажите время окончания блокировки перезапуска по причине установки обновлений.  
-    **Windows справочной документации**: [обновления/ActiveHoursEnd](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-activehoursend)  
-    **По умолчанию**: 17: 00  
+    **Справочная документация Windows**: [Обновления/ActiveHoursEnd](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursend)  
+    **По умолчанию**: 17:00  
 
 - **Автоматическая установка и перезапуск в запланированное время.** Укажите день и время установки. В противном случае установка будет выполняться ежедневно в 03:00 с последующим 15-минутным обратным отсчетом до перезапуска. Если выполнен вход в систему, обратный отсчет может задержаться и может быть выполнен перезапуск.  
   
   Эта опция поддерживает дополнительные параметры.  
-  **Windows справочной документации**: [обновление или AllowAutoUpdate](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-allowautoupdate)  
+  **Справочная документация Windows**: [Обновления/AllowAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowautoupdate)  
 
   - **Частота автоматического поведения**: используйте этот параметр для планирования времени установки обновлений, включая неделю, день и время.  
     **По умолчанию**: каждую неделю
 
-  - **День установки по расписанию**: Укажите, на какой день недели обновлений для установки.  
+  - **День запланированной установки**: укажите день недели для установки обновлений.  
     **По умолчанию**: любой день  
 
-  - **Запланированное время установки**: укажите время суток, когда нужно получать обновления для установки.  
-    **По умолчанию**: 03: 00  
+  - **Время запланированной установки**: укажите время суток, когда вы хотите установить обновления.  
+    **Значение по умолчанию**: 03:00  
 
 - **Автоматическая установка и перезагрузка без управления со стороны пользователя**. Обновления скачиваются автоматически, а затем устанавливаются во время автоматического обслуживания, когда устройство не используется или работает от батареи. Если требуется перезапуск, устройство перезапустится в тот момент, когда оно не используется. Этот параметр устанавливает для панели управления пользователя значение "только для чтения".  
 
@@ -165,78 +164,85 @@ ms.locfileid: "57566545"
 ### <a name="restart-checks"></a>Проверки при перезапуске  
 
 - **По умолчанию**: разрешить  
-- **Windows справочной документации**: [обновления/SetEDURestart](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-setedurestart)  
+- **Справочная документация Windows**: [Обновления/SetEDURestart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setedurestart)  
 
 В зависимости от версии устройства Windows результаты применения этого параметра могут быть различными.  
 
 - Windows версии 1703 и более ранние версии: при перезапуске устройства выполняется ряд проверок, включая проверку активных пользователей, уровней заряда батареи, запущенных игр и т. д. Чтобы пропустить эти проверки при перезагрузке устройства, выберите **Пропустить**.  
-- Windows с версии 1709: на протяжении периода активности для обновлений не запускаются следующие процессы: сканирование, скачивание, установка и перезагрузка. По истечении периода активности процессы обновления запускаются и могут выводить устройство из спящего режима, выполнять сканирование, скачивание, установку и перезагрузку устройств до тех пор, пока не завершатся проверки батареи и питания. Дополнительные сведения см. [в этом разделе](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-setedurestart).  
+- Windows с версии 1709: на протяжении периода активности для обновлений не запускаются следующие процессы: сканирование, скачивание, установка и перезагрузка. По истечении периода активности процессы обновления запускаются и могут выводить устройство из спящего режима, выполнять сканирование, скачивание, установку и перезагрузку устройств до тех пор, пока не завершатся проверки батареи и питания. Дополнительные сведения см. [в этом разделе](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setedurestart).  
 
 ### <a name="block-user-from-pausing-windows-updates"></a>Запретить пользователю приостанавливать обновления Windows  
 
 - **По умолчанию**: разрешить  
-- **Windows справочной документации**: [обновления/SetDisablePauseUXAccess](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess)  
+- **Справочная документация Windows**: [Обновления/SetDisablePauseUXAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess)  
 
-Разрешите или запретите пользователю устройства приостанавливать установку обновления.  
+Разрешите или запретите пользователю устройства приостанавливать установку обновления. 
+
+### <a name="block-user-from-scanning-for-windows-updates"></a>Запретить пользователю проверять наличие обновлений Windows  
+ - **По умолчанию**: разрешить
+ - **Справочная документация Windows**: [Обновления/SetDisableUXWUAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisableuxwuaccess) 
+
+Указывает, следует ли разрешить или запретить пользователю проверку обновлений Windows. Например, если вы настраиваете значение *Блокировать*, функции сканирования, скачивания и установки компонентов из Центра обновления Windows будут недоступны пользователям.  
 
 ### <a name="require-users-approval-to-restart-outside-of-work-hours"></a>Требовать от пользователя утверждения на перезапуск в нерабочее время  
 
-- **По умолчанию**: не настроено  
-- **Windows справочной документации**: [обновления/AutoRestartRequiredNotificationDismissal](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-autorestartrequirednotificationdismissal)
+- **Значение по умолчанию**: не настроено  
+- **Справочная документация Windows**: [Обновления/AutoRestartRequiredNotificationDismissal](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-autorestartrequirednotificationdismissal)
   
 Выберите *Требуется*, чтобы потребовать от пользователя утверждения на перезапуск устройства в нерабочее время.  
    
 ### <a name="remind-user-prior-to-required-auto-restart-with-dismissible-reminder-hours"></a>Отправлять напоминание о необходимости перезапуска через указанное количество часов, которое пользователь может закрыть  
 
-- **По умолчанию**. *Этот параметр не настроен по умолчанию, поэтому пользователям не отправляются напоминания*.  
-- **Windows справочной документации**: [обновления/ScheduleRestartWarning](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-schedulerestartwarning)  
+- **По умолчанию**: *этот параметр не настроен по умолчанию, поэтому пользователям не отправляются напоминания*.  
+- **Справочная документация Windows**: [Обновления/ScheduleRestartWarning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-schedulerestartwarning)  
 
 Укажите интервал времени, в течение которого перед выполнением автоматического перезапуска для пользователя устройства должно отобразиться уведомление об этом перезапуске, которое можно закрыть. Поддерживаются следующие значения времени: **2**, **4**, **8**, **12** или **24**.  
 
 ### <a name="remind-user-prior-to-required-auto-restart-with-permanent-reminder-minutes"></a>Отправлять напоминание о необходимости перезапуска через указанное количество минут, которое пользователь не может закрыть  
 
-- **По умолчанию**. *Этот параметр не настроен по умолчанию, поэтому пользователям не отправляются напоминания*.  
-- **Windows справочной документации**: [обновления/ScheduleImminentRestartWarning](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-scheduleimminentrestartwarning) 
+- **По умолчанию**: *этот параметр не настроен по умолчанию, поэтому пользователям не отправляются напоминания*.  
+- **Справочная документация Windows**: [Обновления/ScheduleImminentRestartWarning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduleimminentrestartwarning) 
 
 Укажите интервал времени, в течение которого перед выполнением автоматического перезапуска для пользователя устройства должно отобразиться предупреждение об этом перезапуске, которое невозможно закрыть. Для количества минут можно указать следующие значения: **15**, **30** или **60**.  
- 
+
+### <a name="windows-update-notification-level"></a>Уровень уведомления об обновлениях Windows  
+- **По умолчанию**: использовать уведомления об обновлениях Windows по умолчанию 
+- **Справочная документация Windows**: [Обновления/UpdateNotificationLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updatenotificationlevel)
+
+Укажите уровень уведомлений об обновлениях Windows, которые будут получать пользователи. Этот параметр не контролирует, как и когда обновления скачиваются и устанавливаются.
+
 ### <a name="allow-user-to-restart-engaged-restart"></a>Разрешить пользователю выполнять перезапуск (запланированный перезапуск)  
 
-- **По умолчанию**: не настроено  
-- **Windows справочной документации**: *неприменимо*  
-- **Версия Windows**: поддерживается для Windows 10 версии 1803 и более поздние версии  
+- **Значение по умолчанию**: не настроено  
+- **Справочная документация Windows**: *неприменимо*  
+- **Версия Windows**: поддерживается для Windows 10 версии 1803 и более поздних.  
 
   > [!NOTE]  
   > В Windows 10 версии 1809 представлены дополнительные параметры запланированного перезапуска, которые позволяют применять отдельные параметры к обновлениям компонентов и исправлениям. Однако параметры, управляемые Intune, не применяются отдельно к различным типам обновлений. Вместо этого Intune применяет одни и те же значения к обновлениям компонентов и исправлениям.  
 
 Если установлено значение **Требуется**, вы разрешаете использовать параметры запланированного перезапуска для обновлений Windows 10. Они привлекают пользователя устройства к действиям, направленным на определение времени перезапуска устройства после установки обновления, которому необходим перезапуск.  
 
-Дополнительные сведения об этом параметре см. в [этой статье](https://docs.microsoft.com/en-us/windows/deployment/update/waas-restart#engaged-restart) документации Windows 10 по развертыванию обновлений.  
+Дополнительные сведения об этом параметре см. в [этой статье](https://docs.microsoft.com/windows/deployment/update/waas-restart#engaged-restart) документации Windows 10 по развертыванию обновлений.  
 
 Следующие параметры используются для управления действиями запланированного перезапуска.  
 
 - **Переход пользователей к запланированному запуску после автоматического перезапуска (в днях)**  
-  - **По умолчанию**: по умолчанию этот параметр не настроен, но поддерживает следующие значения: от **2** до **30**.  
-  - **Windows справочной документации**: [обновления/EngagedRestartTransitionSchedule](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-engagedrestarttransitionschedule)  
+  - **По умолчанию**: по умолчанию этот параметр не настроен, но поддерживает значения от **2** до **30**.  
+  - **Справочная документация Windows**: [Обновления/EngagedRestartTransitionSchedule](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-engagedrestarttransitionschedule)  
   Укажите интервал времени, в течение которого после установки обновления устройство должно перейти в режим запланированного перезапуска. По истечении заданного количества дней пользователи получат запрос на перезапуск устройства.  
 
 - **Отложить напоминание о запланированном перезапуске (в днях)**  
-  - **По умолчанию**: по умолчанию этот параметр не настроен, но поддерживает следующие значения: от **1** до **3**.  
-  - **Windows справочной документации**: [обновления/EngagedRestartSnoozeSchedule](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-engagedrestartsnoozeschedule)  
+  - **По умолчанию**: по умолчанию этот параметр не настроен, но поддерживает значения от **1** до **3**.  
+  - **Справочная документация Windows**: [Обновления/EngagedRestartSnoozeSchedule](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-engagedrestartsnoozeschedule)  
   Укажите интервал времени, в течение которого можно откладывать запрос на перезапуск.  По истечении периода отсрочки снова появится запрос на перезапуск. Пользователь сможет откладывать напоминание, пока не истечет крайний срок установки.  
 
 - **Задать крайний срок ожидания перезапуска (в днях)**  
-  - **По умолчанию**: по умолчанию этот параметр не настроен, но поддерживает следующие значения: от **2** до **30**.  
-  - **Windows справочной документации**: [обновления/EngagedRestartDeadline](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-engagedrestartdeadline)  
-  Укажите максимальное количество дней ожидания после активации режима запланированного перезапуска, прежде чем устройство принудительно выполнит необходимый перезапуск. Перед выполнением этого перезапуска пользователям будет предложено сохранить работу.
+  - **По умолчанию**: по умолчанию этот параметр не настроен, но поддерживает значения от **2** до **30**.  
+  - **Справочная документация Windows**: [Обновления/EngagedRestartDeadline](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-engagedrestartdeadline)  
+  Укажите максимальное количество дней ожидания после активации режима запланированного перезапуска, прежде чем устройство принудительно выполнит необходимый перезапуск. Перед перезапуском пользователям будет предложено сохранить работу.
 
 ### <a name="delivery-optimization-download-mode"></a>Режим скачивания с оптимизацией доставки  
-
-- **По умолчанию**: не применимо
-- **Windows справочной документации**: *неприменимо*
 
 Оптимизация доставки больше не настраивается в составе кольца обновления Windows 10 в группе обновлений программного обеспечения. Оптимизация доставки теперь устанавливается при настройке устройства. При этом предыдущие конфигурации остаются доступными в консоли. Можно удалить их, указав, что они *Не настроены*, но они в противном случае не могут быть изменены. 
 
 Чтобы избежать конфликтов между новыми и старыми политиками, см. раздел [Переместить из существующих кругов обновления для оптимизации доставки](delivery-optimization-windows.md#move-existing-update-rings-to-delivery-optimization) и переместите параметры в профиль оптимизации доставки.
-
-

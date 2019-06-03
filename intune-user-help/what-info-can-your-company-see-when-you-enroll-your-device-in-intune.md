@@ -17,12 +17,12 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 91ea3aab5cd04624bfa036615b8d7710573bcae1
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 7f47d7e238bc810db9057a4a7c86dbfa523b0e7b
+ms.sourcegitcommit: 0f771585d3556c0af14500428d5c4c13c89b9b05
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55846984"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66174216"
 ---
 # <a name="what-information-can-my-organization-see-when-i-enroll-my-device"></a>Какие сведения становятся доступными для моей организации при регистрации устройства?
 
@@ -43,7 +43,7 @@ ms.locfileid: "55846984"
 - Модель устройства, например Google Pixel
 - Изготовитель устройства, например корпорация Майкрософт
 - Название и версия операционной системы, например iOS 12.0.1
-- Названия приложений, например Microsoft Word (на личных устройствах организации доступен только перечень управляемых приложений). На корпоративных устройствах организации доступен перечень всех приложений.
+- Перечень и названия приложений, например Microsoft Word. На личных устройствах для организации доступен только перечень управляемых приложений. На корпоративных устройствах организации доступен перечень всех приложений.
 - Владелец устройства.
 - Имя устройства
 - Серийный номер устройства

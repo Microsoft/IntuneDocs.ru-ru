@@ -1,11 +1,11 @@
 ---
-title: Регистрация устройства с помощью рабочего профиля | Документы Майкрософт
-description: Как защитить устройства с Android при помощи рабочих профилей.
+title: Регистрация устройства с помощью рабочего профиля Android | Документация Майкрософт
+description: Создание рабочего профиля и регистрация устройства
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/05/2017
+ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,20 +18,20 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eab28cdd4515561ad34a433773e351150a87f626
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 6fb5911f8a706f38e3e880c32113d203369ed870
+ms.sourcegitcommit: d258bcf6716c8a2589d3f8dada819905ee80f233
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57334958"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66196938"
 ---
-# <a name="create-a-work-profile-and-enroll-your-device-in-intune"></a>Создание профиля работы и регистрация устройства в Intune
+# <a name="enroll-device-with-android-work-profile"></a>Регистрация устройства с помощью рабочего профиля Android
 
-Регистрация устройства Android обеспечивает доступ к корпоративной электронной почте, приложениям и другим рабочим данным. В процессе регистрации вы настраиваете рабочий профиль, с помощью которого личные данные на устройстве отделяются от рабочих данных.
+Регистрация личного устройства с Android обеспечивает доступ к корпоративной электронной почте, приложениям и другим рабочим данным. Во время регистрации необходимо настроить рабочий профиль Android. Этот профиль отделяет персональные данные на устройстве от рабочих данных. Служба поддержки вашей организации управляет только рабочим профилем, который состоит из рабочих файлов и данных. Служба поддержки не может управлять личными данными на вашем устройстве. Дополнительные сведения см. в разделе, где рассказывается о том, [что происходит при создании рабочего профиля](what-happens-when-you-create-a-work-profile-android.md).  
+</br>
+> [!VIDEO https://www.youtube.com/embed/9Dl8HsGk4tI?rel=0]
 
-Служба поддержки вашей компании может управлять только рабочим профилем, который содержит рабочие данные. Служба поддержки вашей компании не может управлять личными данными на вашем устройстве. Дополнительные сведения см. в разделе, где рассказывается о том, [что происходит при создании рабочего профиля](what-happens-when-you-create-a-work-profile-android.md).
-
-Создание профиля работы:
+## <a name="create-work-profile-and-enroll-device"></a>Создание рабочего профиля и регистрация устройства
 
 1.  На экране **приветствия** корпоративного портала Android выберите **Войти**, а затем выполните вход с использованием рабочей или учебной учетной записи. Если вы еще не установили бесплатное приложение, загрузите и установите его из [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
 
@@ -82,5 +82,7 @@ ms.locfileid: "57334958"
     Теперь можно получать приложения компании из магазина Play Store for Work.
 
     ![Страница приложений Play Store for Work](./media/andr-afw-tap-work-play-store-icon.png)
+
+## <a name="next-steps"></a>Дальнейшие шаги  
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
