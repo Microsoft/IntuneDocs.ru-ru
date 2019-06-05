@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: df4a3dc5c45a909e2c56b1fd741445bc6485e1e8
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: ce08545931d3580ce5ae524b1023d2b734b88f7b
+ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66044468"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66373656"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-for-ios-devices-in-intune"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -65,7 +65,7 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 
 Импортируйте корневой сертификат VPN-сервера, выданный центром сертификации, в созданный в Intune профиль. Профиль доверенного сертификата указывает устройству iOS автоматически доверять центру сертификации, который представляет VPN-сервер.
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы** > отфильтруйте список по **Intune** > выберите **Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 3. Укажите следующие свойства.
     - **Имя**
@@ -173,7 +173,7 @@ To review event logs:
 2. Open the **iPhone Configuration Utility** (IPCU). If you do not have a copy, you can install it from [CompatCenter](http://www.microsoft.com/en-us/windows/compatibility/CompatCenter/ProductDetailsViewer?Name=iPhone%20Configuration%20Utility&vendor=Apple&Locale=1033%2C2057%2C3081%2C4105%2C16393&ModelOrVersion=3&BreadCrumbPath=iphone%20configuration%20utility&LastSearchTerm=iphone%2Bconfiguration%2Butility&Type=Software&tempOsid=Windows%208.1)
 3. Review the logs. -->
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Чтобы просмотреть параметры iOS, см. статью [Параметры VPN для устройств iOS в Microsoft Intune](vpn-settings-ios.md).
 - Дополнительные сведения о параметрах VPN и Intune см. в статье [Настройка параметров VPN в Microsoft Intune](vpn-settings-configure.md).

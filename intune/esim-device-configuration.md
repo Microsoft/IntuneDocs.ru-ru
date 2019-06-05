@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0bb4d94048025f4b0b6c984c4bf0972b432707b6
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 68a0372180cf516f5a0111cd8fdb7cbd9535f075
+ms.sourcegitcommit: a97b6139770719afbd713501f8e50f39636bc202
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041879"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402734"
 ---
 # <a name="configure-esim-cellular-profiles-in-intune---public-preview"></a>Настройка профилей сотовой связи eSIM в Intune (общедоступная предварительная версия)
 
@@ -68,9 +68,8 @@ eSIM — встроенная SIM-карта, которая позволяет 
 - Surface Pro LTE
 - HP Spectre Folio 13
 - Lenovo Yoga C630
-- Samsung Galaxy Book 2
 
-## <a name="step-1-add-cellular-activation-codes"></a>Шаг 1. Добавление кодов активации сотовой связи
+## <a name="step-1-add-cellular-activation-codes"></a>Шаг 1. Добавление кодов активации сотовой связи
 
 Коды активации сотовой связи предоставляются оператором мобильной связи в виде файла с разделителями-запятыми (CSV). Если у вас есть этот файл, добавьте его в Intune, выполнив следующие действия.
 
@@ -104,7 +103,7 @@ eSIM — встроенная SIM-карта, которая позволяет 
 
     ![Имя пула сотовых подписок соответствует имени примера CSV-файла кодов активации](./media/esim-device-configuration/subscription-pool-name-csv-file.png)
 
-## <a name="step-2-create-an-azure-ad-device-group"></a>Шаг 2. Создание группы устройств Azure AD
+## <a name="step-2-create-an-azure-ad-device-group"></a>Шаг 2. Создание группы устройств Azure AD
 
 Создайте группу устройств, которая включает устройства, поддерживающие eSIM. Процедура приведена в разделе [Добавление групп](groups-add.md).
 
@@ -112,7 +111,7 @@ eSIM — встроенная SIM-карта, которая позволяет 
 > - Нацеливание возможно только для устройств, но не для пользователей.
 > - Мы рекомендуем создать статическую группу устройств Azure AD, которая включает устройства eSIM. Использование группы гарантирует нацеливание только на устройства eSIM.
 
-## <a name="step-3-assign-esim-activation-codes-to-devices"></a>Шаг 3 Назначение кодов активации eSIM устройствам
+## <a name="step-3-assign-esim-activation-codes-to-devices"></a>Шаг 3. Назначение кодов активации eSIM устройствам
 
 Назначьте профиль группе Azure AD, включающей ваши устройства eSIM.
 
@@ -197,5 +196,5 @@ eSIM — встроенная SIM-карта, которая позволяет 
   - **Ненадлежащий формат файла** — сведения о правильном формате файла см. в разделе **Шаг 1. Добавление кодов активации сотовой связи** этой статьи.
   - **Сбой активации мобильной связи, обратитесь к оператору мобильной связи** — возможно, код активации не активирован в сети оператора. Также возможны ошибки активации мобильной связи и сбой загрузки профиля.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 [Настройка профилей устройств](device-profiles.md)

@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0a5064a9065dba75f3594f2e6bb6fb36b42be2e2
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: dc1fca439f0edf4a5d4caaad4ff4f9e0bae5972b
+ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66044964"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374050"
 ---
 # <a name="control-access-accounts-and-power-features-on-shared-pc-or-multi-user-devices-using-intune"></a>Управление доступом, учетными записями и питанием на компьютере с общим доступом или несколькими пользователями с помощью Intune
 
@@ -41,12 +41,12 @@ ms.locfileid: "66044964"
 
 ## <a name="create-the-profile"></a>Создание профиля
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы** > отфильтруйте список по **Intune** > выберите **Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 3. Укажите следующие свойства.
 
    - **Имя**. Введите описательное имя для нового профиля.
-   - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
+   - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
    - **Тип профиля**. Выберите **Общие устройства для множества пользователей**.
 
@@ -56,7 +56,7 @@ ms.locfileid: "66044964"
 
 Профиль создан и есть в списке, но он пока ничего не делает. Следует [назначить профиль](device-profile-assign.md) для групп устройств в вашей организации.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Просмотрите все параметры [Windows 10 и более поздних версий](shared-user-device-settings-windows.md) или [Windows Holographic for Business](shared-user-device-settings-windows-holographic.md).
 - [Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).

@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 68fce40c194c831e65fb6631bf079f8703b039af
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 6a80ff2ca7c2265da358f57291032f59d47d22dd
+ms.sourcegitcommit: 063177c6c365fef3642edd7c455790958469aad9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66047951"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412341"
 ---
 # <a name="add-email-settings-to-devices-using-intune"></a>Добавлении параметров электронной почты на устройства с помощью Intune
 
@@ -31,14 +31,14 @@ Microsoft Intune содержит различные параметры элек
 - Android Samsung Knox Standard 4.0 и более поздние версии
 - Android для бизнеса
 - Устройства iOS 8.0 и более поздней версии
-- Windows Phone 8.1 и более поздней версии
+- Windows Phone 8.1 и более поздней версии
 - Windows 10 (Desktop) и Windows 10 Mobile.
 
 В этой статье показано, как создать профиль электронной почты в Microsoft Intune. Также она содержит ссылки на разные платформы, чтобы вы ознакомились с конкретными настройками.
 
 ## <a name="create-a-device-profile"></a>Создание профиля устройства
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 3. Укажите **имя** и **описание** для профиля электронной почты.
 4. Выберите **платформу** из раскрывающегося списка. Доступны следующие параметры:
@@ -94,6 +94,6 @@ Microsoft Intune содержит различные параметры элек
 
 Если вы внесете изменения в профиль электронной почты, который уже назначен, пользователи смогут увидеть сообщение с просьбой утвердить повторную настройку параметров электронной почты.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Профиль создан, но он пока ничего не делает. Далее нужно назначить профиль для устройств, подробнее см. в [этой статье](device-profile-assign.md).

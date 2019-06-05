@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4b3e8d7de7f80017d65e80860d217f1a9bc71fbe
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 72a9156ce9b7b1b43acf9b39d9186a52dd6c3e8d
+ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66050256"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66373710"
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices-in-intune"></a>Автоматизация уведомлений и действий для несоответствующих устройств в Intune
 
@@ -61,7 +61,7 @@ ms.locfileid: "66050256"
 
 Создайте шаблон сообщения уведомления для отправки электронных сообщений пользователям. Если устройство не соответствует требованиям, сведения, введенные в шаблоне, отображаются в сообщении электронной почты, отправляемом пользователем.
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Соответствие устройства** > **Уведомления**.
 3. Выберите **Создать уведомление**. Введите следующие сведения.
 
@@ -107,6 +107,6 @@ ms.locfileid: "66050256"
 
 6. Когда закончите, нажмите **Добавить** > **OK**, чтобы сохранить изменения.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Мониторинг политик](compliance-policy-monitor.md).

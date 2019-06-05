@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9b530d509e87871d30f015cf6bc77410660563da
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: fc97e9884fbcd23c599c917c181e29cdbc3708ee
+ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66043357"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374027"
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Мониторинг политик соответствия устройств Intune
 
@@ -34,7 +34,7 @@ ms.locfileid: "66043357"
 
 Откройте **панель мониторинга соответствия устройств** Intune:
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 
 2. Выберите **Соответствие устройства** > **Обзор**. Открывается **панель мониторинга соответствия устройств**.
 
