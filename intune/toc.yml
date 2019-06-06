@@ -135,6 +135,10 @@
           items:
             - name: Сетевая конфигурация
               href: network-bandwidth-use.md
+            - name: Конечные точки в Intune
+              href: intune-endpoints.md
+            - name: "Конечные точки US\_Government в\_Intune"
+              href: intune-us-government-endpoints.md
         - name: Вход в Intune
           href: account-sign-up.md
         - name: Настройка доменов
