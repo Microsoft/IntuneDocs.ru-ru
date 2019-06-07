@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/20/2019
+ms.date: 05/30/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: ''
@@ -15,16 +15,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 26f43523589da0d59afb3b667eb4ead8357f7a60
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
-ms.translationtype: HT
+ms.openlocfilehash: 7ff5b411f14fef4ad294b0dd8b265680fd67df08
+ms.sourcegitcommit: a97b6139770719afbd713501f8e50f39636bc202
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66049029"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402769"
 ---
 # <a name="bundle-ids-for-built-in-ios-apps-you-can-use-in-intune"></a>Идентификаторы пакетов для встроенных приложений iOS, которые можно использовать в Intune
 
-При настройке возможностей на устройствах iOS можно также добавить встроенные приложения на устройствах iOS. В этой статье перечислены идентификаторы пакета некоторых стандартных встроенных приложений iOS. Чтобы найти идентификаторы наборов других приложений, обратитесь к поставщику программного обеспечения.
+При настройке возможностей на устройствах iOS можно также добавить встроенные приложения на устройствах iOS. В этой статье перечислены идентификаторы пакета некоторых стандартных встроенных приложений iOS. Чтобы найти идентификаторы наборов других приложений, обратитесь к поставщику программного обеспечения. См. список [идентификаторов пакета iOS](https://support.apple.com/guide/mdm/ios-bundle-ids-mdm90f60c1ce/web) от Apple (веб-сайт Apple).
 
 ## <a name="bundle-ids"></a>Идентификаторы пакета
 
@@ -59,6 +59,7 @@ ms.locfileid: "66049029"
 | com.apple.mobilenotes       | "Заметки"        | Apple     |
 | com.apple.Numbers           | Numbers      | Apple     |
 | com.apple.Pages             | Pages        | Apple     |
+| com.apple.mobilephone       | Телефон        | Apple     |
 | com.apple.Photo-Booth       | Photo Booth  | Apple     |
 | com.apple.mobileslideshow   | Фотографии       | Apple     |
 | com.apple.podcasts          | "Подкасты"     | Apple     |

@@ -576,10 +576,12 @@
                   href: windows-store-for-business.md
                 - name: Электронные книги по iOS
                   href: vpp-ebooks-ios.md
-            - name: Настройка приложения корпоративного портала
+            - name: Настройка корпоративного портала
               href: company-portal-app.md
             - name: Настройка Managed Browser
               href: app-configuration-managed-browser.md
+            - name: Настройка Microsoft Edge
+              href: manage-microsoft-edge.md
             - name: Настройка Outlook
               href: app-configuration-policies-outlook.md
         - name: Защита приложений

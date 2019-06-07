@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 45df3e3b217e25c9e61fd51d7f458f33c7c0481d
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 0d2e52ed64bfee2da8eafbc228abe61f109b3c27
+ms.sourcegitcommit: 063177c6c365fef3642edd7c455790958469aad9
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66045527"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412446"
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Создание отчета из веб-канала OData с помощью Power BI
 
@@ -53,14 +53,13 @@ ms.locfileid: "66045527"
 > [!Note]  
 > В Intune требуется разрешение **Отчеты**. Дополнительные сведения см. в разделе [Авторизация](reports-api-url.md).
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. Откройте панель **Хранилище данных Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+3. Откройте панель **Хранилище данных Intune**, щелкнув ссылку на хранилище данных в разделе **Другие задачи** в правой части колонки **Microsoft Intune — Обзор**.
 4. Скопируйте настраиваемый URL-адрес веб-канала. Пример: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta`
-5. Откройте Power BI Desktop.
-6. Выберите **Получить данные** > **Веб-канал OData**.
-7. Вставьте настраиваемый URL-адрес веб-канала в поле URL-адреса в окне **Веб-канал OData**.
-8. Установите переключатель в положение **Основной**.
+1. Откройте Power BI Desktop.
+2. Выберите **Получить данные** > **Веб-канал OData**.
+3. Вставьте настраиваемый URL-адрес веб-канала в поле URL-адреса в окне **Веб-канал OData**.
+4. Установите переключатель в положение **Основной**.
 
     ![Веб-канал OData для хранилища данных Intune на вашем клиенте](media/reports-create-01-odatafeed.png)
 

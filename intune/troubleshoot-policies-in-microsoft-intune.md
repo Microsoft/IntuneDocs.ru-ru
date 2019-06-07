@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/29/2019
+ms.date: 05/29/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a0f8e9e7fec0bea759d408f3ca3d94aa46748bf8
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
-ms.translationtype: HT
+ms.openlocfilehash: 1bed0fda1c19df181dacb36c832a2a4c94e61aff
+ms.sourcegitcommit: a97b6139770719afbd713501f8e50f39636bc202
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66044614"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402664"
 ---
 # <a name="troubleshoot-policies-and-profiles-and-in-intune"></a>Устранение неполадок с политиками и профилями в Intune
 
@@ -32,13 +32,12 @@ ms.locfileid: "66044614"
 
 ## <a name="use-built-in-troubleshooting"></a>Использование встроенных функций устранения неполадок
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы** > отфильтруйте список по **Intune** > выберите **Intune**.
-2. Выберите пункт **Устранение неполадок**.
+1. В [Intune](https://go.microsoft.com/fwlink/?linkid=2090973)выберите **Устранить неполадки**:
 
     ![В Intune перейдите на страницу "Справка и поддержка" и выберите пункт "Устранение неполадок"](./media/help-and-support-troubleshoot.png)
 
-3. Нажмите **Выберите пользователя**, выберите пользователя, у которого возникла проблема, а затем нажмите кнопку **Выбрать**.
-4. Убедитесь в том, что поля **Лицензия Intune** и **Состояние учетной записи** отмечены зелеными галочками.
+2. Нажмите **Выберите пользователя**, выберите пользователя, у которого возникла проблема, а затем нажмите кнопку **Выбрать**.
+3. Убедитесь в том, что поля **Лицензия Intune** и **Состояние учетной записи** отмечены зелеными галочками.
 
     ![В Intune выберите пользователя и убедитесь в том, что поля состояния "Состояние учетной записи" и "Лицензия Intune" отмечены зелеными галочками](./media/account-status-intune-license-show-green.png)
 
@@ -47,7 +46,7 @@ ms.locfileid: "66044614"
     - [Назначение пользователям лицензий для регистрации устройств](licenses-assign.md)
     - [Добавление пользователей в Intune](users-add.md)
 
-5. На панели **Устройства** найдите устройство, с которым связана проблема. Проверьте значения в различных столбцах.
+4. На панели **Устройства** найдите устройство, с которым связана проблема. Проверьте значения в различных столбцах.
 
     - **Управляемое**: чтобы к устройству могли применяться политики соответствия требованиям или политики конфигурации, это свойство должно иметь значение **MDM** или **EAS/MDM**.
 
@@ -98,7 +97,7 @@ ms.locfileid: "66044614"
 
 ## <a name="youre-unsure-if-a-profile-is-correctly-applied"></a>Вы не уверены, правильно ли применен профиль
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы** > отфильтруйте список по **Intune** > выберите **Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Последовательно выберите **Устройства** > **Все устройства**, выберите устройство и нажмите **Конфигурация устройств**. 
 
     Для каждого устройства приведен список профилей. У каждого профиля есть **состояние**. Состояние присваивается после применения к устройству всех назначенных профилей, включая требования и ограничения, связанные с оборудованием и операционной системой. Ниже перечислены возможные состояния.
@@ -164,4 +163,6 @@ ms.locfileid: "66044614"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Если вам все еще нужна помощь, обратитесь в [службу поддержки Microsoft Intune](get-support.md).
+[Распространенные проблемы с профилями электронной почты и возможные решения](troubleshoot-email-profiles-in-microsoft-intune.md)
+
+Получите [поддержку от корпорации Майкрософт](get-support.md) или обратитесь на [форумы сообщества](https://social.technet.microsoft.com/Forums/en-US/home?category=microsoftintune).

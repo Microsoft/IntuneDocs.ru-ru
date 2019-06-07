@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 894ce1fcf270af0169661359c2ab088bb30fab62
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 733ac8eee551a3ddba7a5219827c09357659a06e
+ms.sourcegitcommit: 063177c6c365fef3642edd7c455790958469aad9
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041161"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412720"
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 
@@ -94,9 +94,8 @@ ms.locfileid: "66041161"
 
 Вам также нужна конечная точка. Чтобы получить конечную точку хранилища данных, вам потребуется пользовательский URL-адрес канала. Конечную точку OData можно получить на панели хранилища данных.
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
-3. Выберите элемент **Настройка хранилища данных Intune** в области **Другие задачи**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+3. Откройте панель **Хранилище данных Intune**, щелкнув ссылку на хранилище данных в разделе **Другие задачи** в правой части колонки **Microsoft Intune — Обзор**.
 4. Скопируйте пользовательский URL-адрес канала из области **Использовать сторонние службы отчетов**. Он должен выглядеть примерно так: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=v1.0`.
 
 Конечная точка имеет следующий формат: `https://fef.{yourtenant}.manage.microsoft.com/ReportingService/DataWarehouseFEService/{entity}?api-version={verson-number}`.
