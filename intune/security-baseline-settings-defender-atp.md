@@ -5,7 +5,7 @@ description: Параметры базовых показателей безоп
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 05/17/2019
+ms.date: 05/29/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -16,16 +16,21 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f96393e0d6071b1b56700e954714324b01ffcf25
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
-ms.translationtype: MTE75
+ms.openlocfilehash: c6feae4d7caeeefbf9638e5018ba7b653a260f5c
+ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66040728"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66373499"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
 Просмотрите параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender (ранее Расширенная защита от угроз в Защитнике Windows), которые поддерживаются Microsoft Intune. Значения по умолчанию в этой статье представляют базовую конфигурацию по умолчанию для Intune. Эти значения по умолчанию представляют рекомендуемую конфигурацию для Intune и могут не соответствовать значениям по умолчанию Windows.
+
+  Базовая конфигурация Advanced Threat Protection в Microsoft Defender доступна, если ваша среда соответствует предварительным требованиям для использования [Advanced Threat Protection в Microsoft Defender](advanced-threat-protection.md#prerequisites).
+
+
+
 
 > [!NOTE]  
 > Сейчас доступна **предварительная версия** параметров базовых показателей безопасности WDATP. В период действия предварительной версии список доступных параметров и порядок, в котором они представлены, может не соответствовать указанным на портале. 
