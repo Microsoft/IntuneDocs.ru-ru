@@ -1,6 +1,6 @@
 ---
 title: Создание профиля Wi-Fi для устройств в Microsoft Intune в Azure | Документация Майкрософт
-description: Создание профиля конфигурации Wi-Fi для устройств в Microsoft Intune. Создайте профили для Android, Android для бизнеса, Android для киосков, iOS, macOS, Windows 10 и более поздних версий, а также Windows Holographic for Business. С помощью этих профилей можно создать подключение Wi-Fi для использования сертификатов, выбрать тип EAP, указать метод аутентификации, включить прокси-сервер и многое другое.
+description: Создание профиля конфигурации Wi-Fi для устройств в Microsoft Intune. Создайте профили для Android, Android для бизнеса, Android для киосков, iOS, macOS, Windows 10 и более поздних версий, а также Windows Holographic for Business. С помощью этих профилей можно создать подключение Wi-Fi для использования сертификатов, выбрать тип EAP, указать метод аутентификации, включить прокси-сервер и многое другое.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 73d6aab271e6c065dbdaac2359974457d8fae607
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 7dc28a614514bf9b1a4987976cb057529b75a5fc
+ms.sourcegitcommit: 063177c6c365fef3642edd7c455790958469aad9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66050556"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412006"
 ---
 # <a name="add-and-use-wi-fi-settings-on-your-devices-in-microsoft-intune"></a>Добавление и использование параметров Wi-Fi для устройств в Microsoft Intune
 
@@ -48,7 +48,7 @@ Wi-Fi — это технология беспроводной связи, ко
 
 ## <a name="create-a-device-profile"></a>Создание профиля устройства
 
-1. На [портале Azure](https://portal.azure.com) выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**. 
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
 3. Укажите **имя** и **описание** для профиля Wi-Fi.
 4. В раскрывающемся списке **Платформа** выберите платформу устройства для применения параметров Wi-Fi. Доступны следующие параметры:
@@ -78,6 +78,6 @@ Wi-Fi — это технология беспроводной связи, ко
 
 7. Завершив настройку параметров Wi-Fi, выберите **Создать профиль** > **Создать**, чтобы добавить профиль конфигурации. Созданный профиль отобразится в списке профилей (**Конфигурация устройств** > **Профили**).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Мы создали профиль, но он пока ничего не делает. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
