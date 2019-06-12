@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 490c7312f510651cafc6ade516e5f7dca8131b3a
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: cd323fce7f7bdbf17697c82935a9d2d5f47bb7ee
+ms.sourcegitcommit: 6e07c35145f70b008cf170bae57143248a275b67
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66043954"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66804687"
 ---
 # <a name="selectively-wipe-data-using-app-protection-policy-access-actions-in-intune"></a>Выборочная очистка данных с помощью действий доступа политики защиты приложений в Intune
 
@@ -32,9 +32,7 @@ ms.locfileid: "66043954"
 
 ## <a name="create-an-app-protection-policy-using-access-actions"></a>Создание политики защиты приложений с помощью действий доступа
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы** > **Intune**.  
-    Intune находится в разделе **Мониторинг и управление**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 3. На панели **Intune** выберите **Клиентские приложения** > **Политики защиты приложений**.
 4. Нажмите **Добавить политику** (можно также изменить существующую политику). 
 5. Нажмите **Настроить обязательные параметры**, чтобы открыть список параметров, которые можно настроить для этой политики. 

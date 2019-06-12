@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 37938287cc5ddde6285ec09aa0fffea56f98b3c3
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: e0e0eda1c60e420adcdab9364ecb0da1f52fe4e6
+ms.sourcegitcommit: 337b554f9becc40cdea2f5f47a4a129ac491f64c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66048945"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66713901"
 ---
 # <a name="configure-a-certificate-profile-for-your-devices-in-microsoft-intune"></a>Настройка профиля сертификата для устройств в Microsoft Intune
 
@@ -90,8 +90,7 @@ ms.locfileid: "66048945"
 ## <a name="step-3-create-trusted-certificate-profiles"></a>Шаг 3 Создание профилей доверенных сертификатов
 Перед созданием профиля сертификата SCEP или PKCS необходимо создать профиль доверенного сертификата. Профиль доверенного сертификата и профиль SCEP или PKCS требуются для каждой платформы устройств. Процесс создания доверенных сертификатов одинаков для всех платформ устройств.
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 3. Выберите **Конфигурация устройства** > **Управление** > **Профили** > **Создать профиль**.
 4. Введите **Имя** и **Описание** профиля доверенного сертификата.
 5. Из раскрывающегося списка **Платформа** выберите платформу устройств для этого доверенного сертификата. Доступны следующие параметры:
