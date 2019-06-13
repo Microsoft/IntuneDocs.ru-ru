@@ -270,7 +270,7 @@
         - name: "Очистка устройства с\_macOS"
           href: device-erase.md
         - name: Удаленное управление мобильными устройствами
-          href: device-profile-android-teamviewer.md
+          href: teamviewer-support.md
         - name: Сброс PIN-кода в Windows 10
           href: device-windows-pin-reset.md
         - name: Синхронизация устройств
