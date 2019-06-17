@@ -373,7 +373,7 @@
               href: privacy-data-view-correct.md
             - name: 'Аудит, экспорт, удаление'
               href: privacy-data-audit-export-delete.md
-        - name: Conditional access (Условный доступ)
+        - name: Условный доступ
           href: conditional-access.md
           items:
             - name: Стандартные способы использования условного доступа

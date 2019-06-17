@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6276f38eed4d20e7e81437c2ba3e2c9bc58ae1c1
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 4d838d0cd0d0f92cb344592d18d9e04e18d7e456
+ms.sourcegitcommit: cc5d757018d05fc03ac9ea3d30f563df9bfd61ed
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66047752"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66819741"
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Доступ к интерфейсам API Intune в Microsoft Graph с использованием Azure AD
 
@@ -61,7 +61,7 @@ ms.locfileid: "66047752"
 
 Чтобы зарегистрировать приложение для использования API Microsoft Graph, выполните указанные ниже действия.
 
-1.  Войдите на [портал Azure](https://portal.azure.com) в качестве администратора.
+1.  Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) в качестве администратора.
 
     При необходимости вы можете использовать следующие учетные записи:
     - Учетная запись администратора клиента.
@@ -119,7 +119,7 @@ ms.locfileid: "66047752"
 
 - Предоставьте доступ к вашему приложению пользователям за пределами клиента.  (Как правило, это требуется только для партнеров, поддерживающих несколько клиентов или организаций.)  
 
-    Для этого:
+    Для этого выполните следующие действия.
 
   1. Выберите **Манифест** в колонке приложения. Откроется колонка **Изменение манифеста**.
 

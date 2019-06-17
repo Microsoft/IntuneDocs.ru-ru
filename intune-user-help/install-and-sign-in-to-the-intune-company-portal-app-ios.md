@@ -18,12 +18,12 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e861348e3ba8e3caef92eac04899d48cc790262a
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: bc2173e2972e422ac629331110d3b86b787765da
+ms.sourcegitcommit: a2bad7465422b98eb3c10f03dc5a24fd99cee78d
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55842810"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67040951"
 ---
 # <a name="install-and-sign-in-to-the-company-portal-app"></a>Установка приложения корпоративного портала и вход в него
 
@@ -37,6 +37,6 @@ ms.locfileid: "55842810"
 
 3.  Откройте приложение корпоративного портала, введите рабочий или учебный адрес и пароль и нажмите **Войти**.
 
-    Если вы вошли в приложение корпоративного портала первый раз и ваша организация или учебное заведение используют Intune, вам будет предложено зарегистрировать устройство в Intune. Чтобы зарегистрироваться, выполните действия, описанные в статье [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md). Вы также можете [войти с помощью другого устройства](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#signing-in-from-another-device).
+    Если вы вошли в приложение корпоративного портала первый раз и ваша организация или учебное заведение используют Intune, вам будет предложено зарегистрировать устройство в Intune. Чтобы зарегистрироваться, выполните действия, описанные в статье [Регистрация устройства iOS в Intune](enroll-your-device-in-intune-ios.md). Вы также можете [войти с помощью другого устройства](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#sign-in-from-another-device).
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

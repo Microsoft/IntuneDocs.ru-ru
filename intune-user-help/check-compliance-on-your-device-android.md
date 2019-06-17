@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 03/13/2017
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,19 +18,19 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 812c012bbb69c32d518c9dfa772ed4b37e1260a6
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: f012b1cec67de762bbc245f249125f29d37c6930
+ms.sourcegitcommit: 095fd4c324850aae8ebe32be43fa074361816a4b
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55837991"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66506852"
 ---
 # <a name="check-compliance-on-your-android-device"></a>Проверка соответствия на устройстве Android
 
-Если ваше устройство давно не подключалось к Intune, у вас могут возникнуть трудности с получением доступа к ресурсам вашей организации или учебного заведения. Чтобы восстановить доступ, попробуйте выполнить следующие действия.
+Если ваше устройство давно не подключалось к Intune, у вас могут возникнуть трудности с получением доступа к ресурсам вашей организации или учебного заведения. Выполните указанные ниже действия, чтобы восстановить доступ.  
 
-1. Откройте на устройстве приложение корпоративного портала для Android.
+1. Откройте приложение "Корпоративный портал" для Android на вашем устройстве.  
 
-2. Коснитесь пункта **Проверить соответствие**.
+2. Выберите **Проверить параметры устройства**.  
 
-Если не удается сбросить утерянное или украденное устройство, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
+Если не удается сбросить утерянное или украденное устройство, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).  
