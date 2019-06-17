@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0ed95507d8a7486bc1c1cca2c2a067658239eed8
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 5124796166f27823b7a13b0f3dd239446f778850
+ms.sourcegitcommit: 337b554f9becc40cdea2f5f47a4a129ac491f64c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66043536"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66713861"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
 
@@ -87,7 +87,7 @@ ms.locfileid: "66043536"
    > [!IMPORTANT]  
    > Перед тем как покинуть эту страницу, скопируйте значение для секрета клиента и запишите его для последующего использования в реализации стороннего ЦС. Это значение больше не отображается. Обязательно изучите руководство стороннего ЦС, чтобы получить представление о правильной настройке идентификатора приложения, ключа проверки подлинности и идентификатора клиента.  
 
-6. Запишите **идентификатор клиента**. Идентификатор клиента — это текст имени домена после символа @ в вашей учетной записи. Например, если ваша учетная запись — *admin@name.onmicrosoft.com*, то идентификатор клиента — **name.onmicrosoft.com**.  
+6. Запишите **идентификатор клиента**. Идентификатор клиента — это текст имени домена после символа @ в вашей учетной записи. Например, если ваша учетная запись — *admin@name.onmicrosoft.com* , то идентификатор клиента — **name.onmicrosoft.com**.  
 
 7. В области навигации для приложения перейдите в раздел **Разрешения API** в области **Управление**, а затем выберите **Добавить разрешение**.  
 
@@ -123,6 +123,7 @@ ms.locfileid: "66043536"
 - [GlobalSign](https://downloads.globalsign.com/acton/attachment/2674/f-6903f60b-9111-432d-b283-77823cc65500/1/-/-/-/-/globalsign-aeg-microsoft-intune-integration-guide.pdf)
 - [IDnomic](https://www.idnomic.com/)
 - [Sectigo](https://sectigo.com/products)
+- [DigiCert](https://knowledge.digicert.com/tutorials/microsoft-intune.html)
 
 Если вы являетесь поставщиком стороннего ЦС, заинтересованным в интеграции вашего продукта с Intune, просмотрите руководство по API:
 

@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 72a9156ce9b7b1b43acf9b39d9186a52dd6c3e8d
-ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
+ms.openlocfilehash: b799fd65a08646b46bf7fcce67bf4a09dc0413a6
+ms.sourcegitcommit: cc5d757018d05fc03ac9ea3d30f563df9bfd61ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66373710"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66819912"
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices-in-intune"></a>Автоматизация уведомлений и действий для несоответствующих устройств в Intune
 
@@ -85,7 +85,7 @@ ms.locfileid: "66373710"
 
 Можно также добавить другое действие при создании политики соответствия требованиям или изменении существующей политики. 
 
-1. На [портале Azure](https://portal.azure.com) откройте **Microsoft Intune** > **Соответствие устройства**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) и выберите **Соответствие устройства политике**.
 2. Нажмите **Политики**, выберите политику и нажмите **Свойства**. 
 
     У вас еще нет политики? Создайте политику для [Android](compliance-policy-create-android.md), [iOS](compliance-policy-create-ios.md), [Windows](compliance-policy-create-windows.md) или другой платформы.
@@ -107,6 +107,6 @@ ms.locfileid: "66373710"
 
 6. Когда закончите, нажмите **Добавить** > **OK**, чтобы сохранить изменения.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Мониторинг политик](compliance-policy-monitor.md).
