@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eb7ff33384b86267e007e986737eeea6b8d3203e
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: d922ecde0159603acbfbc3dc0590592592d72645
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66040126"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67046206"
 ---
 # <a name="configure-vpn-settings-on-ios-devices-in-microsoft-intune"></a>Настройка параметров VPN для устройств iOS в Microsoft Intune
 
@@ -35,13 +35,13 @@ Microsoft Intune включает в себя множество парамет�
 - **SonicWall Mobile Connect**;
 - **F5 Access Legacy**: применимо к версии приложения F5 Access 2.1 и более ранним версиям.
 - **F5 Access**: применимо к версии приложения F5 Access 3.0 и более поздним версиям.
-- **Palo Alto Networks GlobalProtect (Legacy)** : применимо к версии приложения Palo Alto Networks GlobalProtect 4.1 и более ранним версиям.
+- **Palo Alto Networks GlobalProtect (Legacy)**: применимо к версии приложения Palo Alto Networks GlobalProtect 4.1 и более ранним версиям.
 - **Palo Alto Networks GlobalProtect**: применимо к версии приложения Palo Alto Networks GlobalProtect 5.0 и более ранним версиям.
 - **Pulse Secure**
-- **Cisco (IPSec)** ;
+- **Cisco (IPSec)**;
 - **Citrix VPN**
 - **Citrix SSO**
-- **Zscaler**: используется для условного доступа или разрешает пользователям обходить экран входа в Zscaler. Необходимо интегрировать Zscaler Private Access (ZPA) с вашей учетной записью Azure Active Directory. Подробные инструкции см. в [документации по Zscaler](https://help.zscaler.com/zpa/configuration-example-microsoft-azure-ad#Azure_UserSSO). 
+- **Zscaler**: используется для условного доступа или разрешает пользователям обходить экран входа в Zscaler. Для этого вам нужно интегрировать Zscaler Private Access (ZPA) с вашей учетной записью Azure Active Directory. Подробные инструкции см. в [документации по Zscaler](https://help.zscaler.com/zpa/configuration-example-microsoft-azure-ad#Azure_UserSSO). 
 - **Пользовательская сеть VPN**.
 
 > [!NOTE]
@@ -111,7 +111,7 @@ Microsoft Intune включает в себя множество парамет�
     - Подключить
     - Оценить подключение
     - Игнорировать
-    - Отключение
+    - Разъединить
 
 ## <a name="proxy-settings"></a>Параметры прокси-сервера
 
@@ -121,5 +121,5 @@ Microsoft Intune включает в себя множество парамет�
 - **Адрес**. Введите IP-адрес полного доменного имени узла прокси-сервера.
 - **Номер порта**. Введите номер порта, связанного с прокси-сервером.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Далее
 [Создание профилей VPN в Intune](vpn-settings-configure.md)  

@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/27/2017
+ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,20 +18,20 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 08eb5c3d2f306fef6f867fbe9f3976cb7a5aea80
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: f2bcae8e48fd9c6558d77aced73d12b15e54b2f7
+ms.sourcegitcommit: a2bad7465422b98eb3c10f03dc5a24fd99cee78d
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55837862"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67040939"
 ---
 # <a name="install-the-company-portal-app-for-android"></a>Установка приложения корпоративного портала для Android
 
-Корпоративный портал — это устанавливаемое на устройстве приложение, которое обеспечивает доступ к приложениям, электронной почте и сети компании или учебного заведения. Кроме того, это приложение обеспечивает защиту рабочих или учебных данных на устройстве, своевременно обновляя корпоративные приложения или активируя блокировку устройства с указанной периодичностью. Приложение корпоративного портала позволяет это сделать, помогая [зарегистрировать устройство в Microsoft Intune](what-happens-if-you-install-the-company-portal-app-and-enroll-your-device-in-intune-android.md).
+Корпоративный портал — это устанавливаемое на устройстве приложение, которое обеспечивает доступ к приложениям, электронной почте и сети компании или учебного заведения. Кроме того, это приложение обеспечивает защиту рабочих или учебных данных на устройстве, своевременно обновляя корпоративные приложения или активируя блокировку устройства с указанной периодичностью. Дополнительные сведения о возможностях корпоративного портала и его часть в системе управления устройствами, см. в разделе [Зачем регистрировать устройство Android](why-enroll-android-device.md).  
 
 1.  Выберите **Главная** > **Магазин Google Play**.
 
-2.  В поле **Поиск** введите текст **корпоративный портал intune**.
+2.  В поле **Поиск** введите **корпоративный портал intune**.  
 
 3.  Нажмите **Корпоративный портал Intune**.
 
@@ -45,6 +45,6 @@ ms.locfileid: "55837862"
 
     ![android-accept-company-portal-terms](./media/and-cpinstall-3-cp-accept.png)
 
-Скачав приложение корпоративного портала, вы можете [зарегистрировать устройство в Intune](enroll-your-device-in-Intune-android.md), чтобы получить полный доступ к рабочим данным. Вы также можете [войти с помощью другого устройства](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#signing-in-from-another-device).
+Скачав приложение Корпоративного портала, вы можете [зарегистрировать устройство в Intune](enroll-device-android-company-portal.md), чтобы получить полный доступ к рабочим данным. Вы также можете [войти с помощью другого устройства](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal#sign-in-from-another-device).  
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

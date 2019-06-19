@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 30c0e5af6d7ff0467383294c071d0ffdb96c5dc1
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 9d3e74244315b7345a632a9ecd2bf631a134e5ab
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041835"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67045024"
 ---
 # <a name="protect-office-365-exchange-online-without-requiring-device-management"></a>Защита Office 365 Exchange Online без необходимости управления устройствами
 
@@ -32,18 +32,18 @@ ms.locfileid: "66041835"
 
 ## <a name="action-plan"></a>План действий
 
-1. [Получите представление об условном доступе](conditional-access.md). 
-2. [Получите представление об условном доступе на основе приложений](app-based-conditional-access-intune.md).
+1. [См. подробнее об условном доступе](conditional-access.md). 
+2. [См. подробнее об условном доступе на основе приложений](app-based-conditional-access-intune.md).
 3. [Настройте политики условного доступа на основе приложений для Exchange Online](app-based-conditional-access-intune-create.md).
 4. [Заблокируйте приложения, которые не поддерживают управление](app-modern-authentication-block.md), в частности, приложения, не использующие библиотеку Azure Active Directory Authentication Library (ADAL).
-5. (Дополнительно) [Настройте политики условного доступа на основе приложений для SharePoint Online](app-based-conditional-access-intune-create.md). Эти политики блокируют доступ к данным компании из приложений, для которых недоступно управление и защита. Политики также ограничивают доступ с помощью SharePoint для мобильных устройств. 
+5. (Дополнительно.) [Настройте политики условного доступа на основе приложений для SharePoint Online](app-based-conditional-access-intune-create.md). Эти политики блокируют доступ к данным компании из приложений, для которых недоступно управление и защита. Политики также ограничивают доступ с помощью SharePoint для мобильных устройств. 
 
 ## <a name="what-to-tell-employees-and-students"></a>Что следует рассказать сотрудникам и учащимся
 
 * Попросите сотрудников и учащихся скачать и установить приложение Microsoft Outlook или Microsoft SharePoint для iOS (в Apple App Store) или Android (в магазине Google Play). 
 * Если предполагается блокировать доступ к приложениям, которые не используют современную проверку подлинности, расскажите сотрудникам и учащимся об этом ограничении. 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Вы использовали условный доступ на основе приложений для повышения безопасности корпоративных данных. В рамках следующей процедуры вы узнаете о других способах повышения безопасности данных компании, включая: 
 

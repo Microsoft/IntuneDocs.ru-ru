@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 09/20/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ searchScope:
 ROBOTS: ''
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7fcee9a5d721eb3c898c65e18c6fd56189739ffa
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 28121178e2a5a3aa7e6d16b0a5936f1cad627c09
+ms.sourcegitcommit: 1ba785f6e51517b63588a292ab5c45b9d9144b72
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55840562"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66840959"
 ---
 # <a name="how-to-update-the-company-portal-app"></a>Обновление приложения корпоративного портала
 
@@ -29,7 +29,7 @@ ms.locfileid: "55840562"
 * выходе новой версии корпоративного портала;
 * прекращении поддержки вашей версии корпоративного портала.
 
-Ниже рассказывается, как обновить приложение или получить его последнюю версию на устройствах с Android, iOS и Windows.    
+Ниже описано, как обновить приложение или получить его последнюю версию на устройствах с Android, iOS, macOS и Windows.    
 
 ## <a name="update-the-company-portal-app-on-your-android-device"></a>Обновление приложения корпоративного портала на устройстве Android  
 
@@ -41,6 +41,16 @@ ms.locfileid: "55840562"
 
 1. Откройте магазин приложений и выполните поиск по слову **Intune**.  
 2. Когда вы найдете приложение, коснитесь пункта **Обновить**.  
+
+## <a name="update-the-company-portal-app-on-your-macos-device"></a>Обновление приложения Корпоративного портала на устройстве macOS
+
+Настройка корпоративного портала для автоматической установки обновлений по мере их появления. 
+
+1. Откройте корпоративный портал и перейдите к **помочь**. 
+2. Щелкните **Проверить обновления**. 
+3. На экране служба автоматического обновления Майкрософт выберите **автоматическую загрузку и установку**. 
+
+Чтобы просмотреть доступные обновления, выберите **проверять наличие обновлений**.  
 
 ## <a name="update-the-company-portal-app-on-your-windows-device"></a>Обновление приложения корпоративного портала на устройстве Windows
 Чтобы автоматически получать обновления по мере их появления, откройте Microsoft Store и перейдите в раздел **Параметры**. Затем установите флажок **Обновления приложений**. Чтобы просмотреть последние обновления и приложения, ожидающие в очереди загрузки, перейдите в раздел **Загрузки и обновления**.  
