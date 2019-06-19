@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9ddd08baa99ebf7d6e7701d8345e42a72f0dbd57
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: db7f008e67c0523a373da24dd0a04f3556d9dd4c
+ms.sourcegitcommit: 119962948045079022aa48f968dde3e961d7cd0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66046569"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67031376"
 ---
 # <a name="integrate-zimperium-with-intune"></a>Интеграция Zimperium с Intune
 
@@ -31,7 +31,7 @@ ms.locfileid: "66046569"
 ## <a name="before-you-begin"></a>Подготовка к работе
 
 > [!NOTE]
-> Следующие шаги выполняются в  [консоли Zimperium MTD](https://sso.zimperium.com/signon/aad/).
+> Следующие шаги выполняются в  [консоли Zimperium MTD](https://www.zimperium.com/platform).
 
 Перед началом интеграции Zimperium с Intune убедитесь в наличии следующей подписки и учетных данных:
 
@@ -66,7 +66,7 @@ ms.locfileid: "66046569"
 
 ## <a name="to-set-up-zimperium-integration"></a>Настройка интеграции Zimperium
 
-1.  Перейдите в [консоль MTD Zimperium](https://sso.zimperium.com/signon/aad/) и выполните вход, используя свои учетные данные. Чтобы выполнить процесс настройки интеграции Zimperium, необходимо войти в систему с помощью учетных данных пользователя Azure Active Directory, имеющего роль глобального администратора. Эта одноразовая операция настройки использует права глобального администратора для предоставления разрешения в вашей организации на взаимодействие приложений Zimperium с Intune. 
+1.  Перейдите в [консоль MTD Zimperium](https://www.zimperium.com/platform) и выполните вход, используя свои учетные данные. Чтобы выполнить процесс настройки интеграции Zimperium, необходимо войти в систему с помощью учетных данных пользователя Azure Active Directory, имеющего роль глобального администратора. Эта одноразовая операция настройки использует права глобального администратора для предоставления разрешения в вашей организации на взаимодействие приложений Zimperium с Intune. 
 
 2.  Выберите в левом меню пункт **Управление**.
 

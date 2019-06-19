@@ -17,18 +17,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d58a10e62e4ff65c0c1589fcf948a6704224bc51
-ms.sourcegitcommit: a97b6139770719afbd713501f8e50f39636bc202
+ms.openlocfilehash: c0a83526a2e9333c0e6a131e59cee29a4a76fffa
+ms.sourcegitcommit: a2bad7465422b98eb3c10f03dc5a24fd99cee78d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66402743"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67041200"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
 
 
-## <a name="prerequisites"></a>Готовность к установке
+## <a name="prerequisites"></a>Предварительные условия
 - [Подписка Intune](licenses.md)
 - [Должна быть включена автоматическая регистрация Windows.](windows-enroll.md#enable-windows-10-automatic-enrollment)
 - [Подписка Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) <!--&#40;[trial subscription](http://go.microsoft.com/fwlink/?LinkID=816845)&#41;-->
@@ -144,7 +144,7 @@ Windows Autopilot упрощает регистрацию устройств в 
 
 Вы можете назначить пользователя конкретному устройству Autopilot. При назначении во время настройки Windows на странице входа с [фирменной символикой](https://docs.microsoft.com/azure/active-directory/fundamentals/customize-branding) предварительно заполняются данные пользователя из Azure Active Directory. Вы также можете задать пользовательское имя приветствия. При этом имя для входа Windows не заполняется предварительно и не изменяется. Таким способом можно назначить только пользователей с лицензией Intune.
 
-Необходимые условия настроенный корпоративный портал Azure Active Directory, система Windows 10, версия 1809 или более поздняя.
+Предварительные требования: настроенный корпоративный портал Azure Active Directory, система Windows 10, версия 1809 или более поздняя.
 
 1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Устройства**, выберите устройство, а затем — пункт **Назначить пользователя**.
 
@@ -184,14 +184,14 @@ Windows Autopilot упрощает регистрацию устройств в 
 - синхронизация назначений профилей, выполненных на другом портале.
 - отображение изменений, внесенных в список устройств на другом портале.
 
-## <a name="windows-autopilot-for-existing-devices"></a>Windows Autopilot для имеющихся устройств
+## <a name="windows-autopilot-for-existing-devices"></a>Windows Autopilot для существующих устройств
 
-Можно сгруппировать устройства Windows, зарегистрированные с помощью [Autopilot для существующих устройств](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/New-Windows-Autopilot-capabilities-and-expanded-partner-support/ba-p/260430) в Configuration Manager, по идентификатору коррелятора. Идентификатор коррелятора — это параметр файла конфигурации Autopilot. Для [атрибута enrollmentProfileNam устройства Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#using-attributes-to-create-rules-for-device-objects) автоматически устанавливается значение"OfflineAutopilotprofile-\<идентификатор коррелятора\>". Это позволяет создавать произвольные динамические группы Azure AD на основе идентификатора коррелятора с помощью атрибута enrollmentprofileName.
+Можно сгруппировать устройства Windows, зарегистрированные с помощью [Autopilot для существующих устройств](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/New-Windows-Autopilot-capabilities-and-expanded-partner-support/ba-p/260430) в Configuration Manager, по идентификатору коррелятора. Идентификатор коррелятора — это параметр файла конфигурации Autopilot. Для [атрибута enrollmentProfileNam устройства Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices) автоматически устанавливается значение"OfflineAutopilotprofile-\<идентификатор коррелятора\>". Это позволяет создавать произвольные динамические группы Azure AD на основе идентификатора коррелятора с помощью атрибута enrollmentprofileName.
 
 >[!WARNING] 
 > Так как идентификатор коррелятора отсутствует в готовом списке Intune, устройство может выдать любой идентификатор коррелятора. Если пользователь создает идентификатор коррелятора, соответствующий имени профиля Autopilot или Apple DEP, устройство будет добавлено в любую динамическую группу устройств в соответствии с атрибутом enrollmentProfileName. Чтобы избежать этого конфликта, соблюдайте такие правила:
 > - Всегда создавайте правила для динамических групп, *полностью* совпадающих со значением enrollmentProfileName.
 > - Никогда не назначайте имя профилю Autopilot или Apple DEP, начиная с "OfflineAutopilotprofile-".
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 После настройки Windows Autopilot для зарегистрированных устройств с ОС Windows 10 узнайте, как управлять этими устройствами. Дополнительные сведения см. в разделе [Что такое управление устройствами с помощью Microsoft Intune](https://docs.microsoft.com/intune/device-management)?

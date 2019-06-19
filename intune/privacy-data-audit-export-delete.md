@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 87bd539199ec4f8b43f0679b251bd550cd837651
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 659fdb9b67b941a27cef5a3680537f3eeb3bbbeb
+ms.sourcegitcommit: 119962948045079022aa48f968dde3e961d7cd0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041313"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67031679"
 ---
 # <a name="audit-export-or-delete-personal-data-in-intune"></a>Аудит, экспорт и удаление персональных данных в Intune
 
@@ -58,13 +58,13 @@ ms.locfileid: "66041313"
 
 ### <a name="delete-a-user-from-intune"></a>Удаление пользователя из Intune
 
-Чтобы удалить персональные данные пользователя из Intune, администратор должен [удалить пользователя из Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory.md#delete-users-from-azure-ad). При удалении пользователя из AAD (необратимом) Intune принимает сигнал удаления из AAD и затем автоматически начинает очищать все персональные данные пользователя из службы Intune. Сведения пользователя будут удалены из службы Intune через 30 дней после выполнения действия удаления.
+Чтобы удалить персональные данные пользователя из Intune, администратор должен [удалить пользователя из Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory#delete-a-user). При удалении пользователя из AAD (необратимом) Intune принимает сигнал удаления из AAD и затем автоматически начинает очищать все персональные данные пользователя из службы Intune. Сведения пользователя будут удалены из службы Intune через 30 дней после выполнения действия удаления.
 
 ### <a name="reset-device-to-factory-settings"></a>Сброс устройства до заводских параметров
 При сбросе до заводских параметров для всех корпоративных и персональных данных и параметров восстанавливаются заводские значения. Это удобно, если требуется передать устройство следующему сотруднику. Пользовательские файлы, установленные приложения и нестандартные параметры удаляются, и эти данные удаляются из службы Intune через 30 дней после выполнения действия удаления.
 
 ### <a name="user-self-removal-from-intune-management"></a>Самостоятельное удаление пользователя из системы управления Intune
-Пользователи могут удалить свое личное устройство [Windows, Android или Apple](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-android.md) из системы управления Intune без помощи администратора.   
+Пользователи могут удалить свое личное устройство [Windows, Android или Apple](https://docs.microsoft.com/intune-user-help/unenroll-your-device-from-intune-android) из системы управления Intune без помощи администратора.   
 
 ### <a name="retire"></a>Прекратить использование
 Действие **Прекратить использование** удаляет подготовленные данные Intune, например приложения организации, данные о приложениях, управляемых Intune, параметры политики и профили электронной почты. При этом действии персональные данные пользователя остаются на устройстве.
@@ -78,7 +78,7 @@ ms.locfileid: "66041313"
 
 1. Удалите пользователя из локальной службы Active Directory (AD). Это запретит синхронизацию пользователя с Azure AD, а также обнаружение функциями Configuration Manager. 
 2. Удалите пользователя из консоли Configuration Manager, чтобы удалить его и связанные данные из Configuration Manager. В консоли перейдите в раздел **Активы и соответствие** > **Пользователи**, щелкните правой кнопкой мыши удаляемого пользователя и выберите **Удалить**.
-3. [Удалите пользователя из AAD](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory.md#delete-users-from-azure-ad), при этом пользователь и связанные с ним данные удаляются из Azure Active Directory и Intune. При удалении пользователя из AAD (необратимом) Intune принимает сигнал удаления из AAD и затем автоматически начинает очищать все персональные данные пользователя из службы Intune. Сведения пользователя будут удалены из службы Intune через 30 дней после выполнения действия удаления.
+3. [Удалите пользователя из AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory#delete-a-user), при этом пользователь и связанные с ним данные удаляются из Azure Active Directory и Intune. При удалении пользователя из AAD (необратимом) Intune принимает сигнал удаления из AAD и затем автоматически начинает очищать все персональные данные пользователя из службы Intune. Сведения пользователя будут удалены из службы Intune через 30 дней после выполнения действия удаления.
 
 > [!Important]
 >Подключение новых клиентов гибридного управления мобильными устройствами больше не поддерживается. Дополнительные сведения см. в записи блога о [переходе с гибридного управления мобильными устройствами на Intune в Azure](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Move-from-Hybrid-Mobile-Device-Management-to-Intune-on-Azure/ba-p/280150).
