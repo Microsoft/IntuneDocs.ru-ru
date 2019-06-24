@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a58095612d6e76d4a1cb633e69260267dcfd9999
-ms.sourcegitcommit: cb76efd3db60a422a65478ebce83d3aea7b5eeed
+ms.openlocfilehash: 837442f93bbac2c5eb19b3c433c91f91aa38a17e
+ms.sourcegitcommit: 43ba5a05b2e1dc1997126d3574884f65cde449c7
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66749910"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67197548"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
@@ -83,7 +83,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: "Да"
 
-## <a name="attach-surface-reduction"></a>Уменьшение уязвимой зоны  
+## <a name="attack-surface-reduction"></a>Уменьшение уязвимой зоны  
 
 - **Office apps launch child process type** (Приложения Office запускают тип дочернего процесса)  
   [Правило сокращения направлений атак](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard#attack-surface-reduction-rules). Когда задано значение *Блокировать*, приложениям Office будет запрещено создавать дочерние процессы. Приложения Office: Word, Excel, PowerPoint, OneNote и Access. Создание дочернего процесса — это типичное поведение вредоносных программ, особенно при атаках на основе макросов, которое заключается в попытке использования приложений Office для запуска или скачивания вредоносных исполняемых файлов.  

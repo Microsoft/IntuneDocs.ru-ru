@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/22/2019
+ms.date: 06/18/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aef2db158e0572c1eec056a1d6e33b4b97aea77a
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 9d6366034af09acdbecdc0cb0e670f6d57766b35
+ms.sourcegitcommit: 43ba5a05b2e1dc1997126d3574884f65cde449c7
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66047020"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67197533"
 ---
 # <a name="windows-holographic-for-business-device-settings-to-run-as-a-kiosk-in-intune"></a>Настройка параметров устройств Windows Holographic for Business для запуска в качестве киоска в Intune
 
@@ -64,7 +64,7 @@ ms.locfileid: "66047020"
 
 - **Приложения.** Добавьте приложения, которые будут выполняться на устройстве киоска. Как вы помните, здесь можно добавить несколько приложений.
 
-  - **Add Store apps** (Добавить приложения Store). Выберите существующее приложение, добавленное ранее через [Клиентские приложения](apps-add.md). Если в списке нет приложений, получите их и [добавьте в Intune](store-apps-windows.md).
+  - **Добавление приложений Store**: выбрать существующее приложение, вы добавили или развернута в Intune как [клиентских приложений](apps-add.md), включая бизнес-приложения. Если у вас нет в списке приложений, Intune поддерживает многие [типы приложений](apps-add.md) , [добавлять в Intune](store-apps-windows.md).
   - **Добавить приложение Win32.** Не поддерживается в Windows Holographic for Business.
   - **Добавить по AUMID.** Этот вариант позволяет добавить стандартные приложения Windows. Укажите следующие свойства. 
 
