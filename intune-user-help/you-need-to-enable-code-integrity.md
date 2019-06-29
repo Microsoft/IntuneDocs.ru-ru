@@ -18,12 +18,12 @@ ms.reviewer: scottduf
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0a10fc54fa3aa535e6dcfd2c06124fdc5b87c6a4
-ms.sourcegitcommit: a2bad7465422b98eb3c10f03dc5a24fd99cee78d
+ms.openlocfilehash: 167d091f212536ed94e3f4ce0c103649e4a2e537
+ms.sourcegitcommit: 9c06d8071b9affeda32e367bfe85d89bc524ed0b
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67041273"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67413826"
 ---
 # <a name="enable-code-integrity"></a>Включение проверки целостности кода
 
@@ -34,7 +34,7 @@ ms.locfileid: "67041273"
 Если вы идентифицировать себя как пользователь с правами устройств и попробуйте выполнить указанные действия самостоятельно, см. в разделе [снова включить безопасную загрузку](https://docs.microsoft.com/windows-hardware/manufacture/desktop/disabling-secure-boot#re-enable-secure-boot).
 
 ## <a name="additional-resources-for-it-administrators"></a>Дополнительные ресурсы для ИТ-администраторов  
-Если вы являетесь администратором Intune и хотите узнать больше о параметрах соответствия требованиям работоспособности устройств Intune, см. в разделе [Добавление политики соответствия устройств для устройств Windows 10 в Intune](https://docs.microsoft.com/intune/compliance-policy-create-windows). Подробный обзор соответствия действий, выполняемых в Intune, см. в разделе [HealthAttestation CSP](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp#a-href-idtake-policy-actionastep-8-take-appropriate-policy-action-based-on-evaluation-results).  
+Если вы являетесь администратором Intune и хотите узнать больше о параметрах соответствия требованиям работоспособности устройств Intune, см. в разделе [Добавление политики соответствия устройств для устройств Windows 10 в Intune](https://docs.microsoft.com/intune/compliance-policy-create-windows). Подробный обзор соответствия действий, выполняемых в Intune, см. в разделе [HealthAttestation CSP](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp#step-8-take-appropriate-policy-action-based-on-evaluation-results).  
 
-## <a name="next-steps"></a>Дальнейшие действия  
+## <a name="next-steps"></a>Дальнейшие шаги  
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

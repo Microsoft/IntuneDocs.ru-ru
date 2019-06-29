@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 86cbea29233d792006bce68fcd2a36fb1a7ec0a6
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 3e24bd79fbceba1834d02af8512e5dd52676d471
+ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66050199"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67403305"
 ---
 # <a name="add-apps-for-windows-pcs-that-run-the-intune-software-client"></a>Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune
 
@@ -103,4 +103,4 @@ ms.locfileid: "66050199"
 
 После создания приложения его необходимо развернуть. Дополнительные сведения см. в статье [Назначение приложений группам с помощью Microsoft Intune](apps-deploy.md).
 
-Советы и рекомендации по развертыванию программного обеспечения на ПК с Windows см. в записи блога [Советы службы поддержки: рекомендации по распространению программного обеспечения Intune на ПК](https://blogs.technet.microsoft.com/intunesupport/2016/06/13/support-tip-best-practices-for-intune-software-distribution-to-pcs/).
+Советы и рекомендации по развертыванию программного обеспечения на ПК с Windows см. в записи блога [Советы службы поддержки: рекомендации по распространению программного обеспечения Intune на ПК](https://support.microsoft.com/en-US/help/2583929).

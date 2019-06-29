@@ -17,16 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b289f9edc1522333f70308a6979b2ea2e71b17c6
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: f3b552c42a7a84ad8099a406bfff2db575785915
+ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66047537"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67403020"
 ---
 # <a name="help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune"></a>Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune.
 
 [!INCLUDE [classic-portal](includes/classic-portal.md)]
+
+> [!NOTE]
+> Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите управлять параметров брандмауэра для компьютеров под управлением Windows, зарегистрированные как мобильные устройства, см. в разделе [добавить параметры endpoint protection в Intune](endpoint-protection-configure.md).
 
 Microsoft Intune позволяет защитить компьютеры Windows, управляемые с помощью клиента Intune, различными способами. Один из этих способов состоит в предоставлении политик, позволяющих настраивать параметры брандмауэра Windows на ПК.
 

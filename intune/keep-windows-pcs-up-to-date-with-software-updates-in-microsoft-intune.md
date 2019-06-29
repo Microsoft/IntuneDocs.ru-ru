@@ -17,16 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 56bbe6d8af43693814a90351acb2f400cff92025
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 3cc84d8215a841b9ff8a70a6b6307d3452696cb0
+ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66046994"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67403006"
 ---
 # <a name="keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune"></a>Обновление программного обеспечения на компьютерах с Windows с помощью Microsoft Intune
 
 [!INCLUDE [classic-portal](includes/classic-portal.md)]
+
+> [!NOTE]
+> Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите управлять обновлениями для компьютеров под управлением Windows зарегистрированным как мобильные устройства, см. в разделе [управление обновлениями программного обеспечения в Intune](windows-update-for-business-configure.md).
 
 Microsoft Intune помогает защитить управляемые компьютеры несколькими способами, включая управление обновлениями ПО для поддержки актуального состояния компьютеров за счет быстрой установки последних обновлений и исправлений программного обеспечения.
 

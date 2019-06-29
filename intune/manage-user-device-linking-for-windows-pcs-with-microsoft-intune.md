@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cad83daa88351749d60d0b1c72935ea47f9a14ce
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: f4dad2d22b742b62ca35bd7fb98c7f7e8241cbb4
+ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66046941"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67402902"
 ---
 # <a name="manage-user-device-linking-for-windows-pcs"></a>Управление связыванием пользователей и устройств с компьютерами под управлением Windows
 
@@ -31,6 +31,8 @@ ms.locfileid: "66046941"
 Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. 
 
 Прежде чем программное обеспечение можно будет развернуть для пользователя, необходимо связать его с компьютером. Пользователя можно связать с несколькими компьютерами, однако каждый компьютер связывается только с одним пользователем. Пользователи автоматически связываются с компьютерами, которые они регистрируют в Intune, используя корпоративный портал.
+
+Дополнительные сведения о основного пользователя устройства, см. в разделе [найти основной пользователь](find-primary-user.md).
 
 Связывание пользователя с компьютером:
 

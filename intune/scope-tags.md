@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 57a14e1e3c4caea570667096fec71cecf2d88ddf
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: ba1d7669e80fd91398f41c57ca2d27ce78a06041
+ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66045192"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67403790"
 ---
 # <a name="use-role-based-access-control-rbac-and-scope-tags-for-distributed-it"></a>Использование управления доступом на основе ролей (RBAC) и тегов области для распределенных ИТ
 
@@ -42,8 +42,10 @@ ms.locfileid: "66045192"
 
     ![Снимок экрана создания тега области.](./media/scope-tags/create-scope-tag.png)
 
-2. Укажите **имя** и **описание**.
-3. Выберите команду **Создать**.
+3. Если требуется, чтобы все устройства в определенных группах, выберите **назначить тег области ко всем устройствам в выбранных группах**.
+    1. В **выбрать группы для включения** выберите группы, содержащие устройства, которые вы хотите назначить этот тег области.
+    2. Щелкните **Выбрать**.
+4. Выберите команду **Создать**.
 
 ## <a name="to-assign-a-scope-tag-to-a-role"></a>Назначение тега области для роли
 
