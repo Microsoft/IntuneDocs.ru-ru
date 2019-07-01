@@ -269,6 +269,8 @@
           href: device-logout-user.md
         - name: Удаление пользователя
           href: device-remove-user.md
+        - name: Поиск основного пользователя
+          href: find-primary-user.md
         - name: "Очистка устройства с\_macOS"
           href: device-erase.md
         - name: Удаленное управление мобильными устройствами
