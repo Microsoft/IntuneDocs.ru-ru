@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/23/2019
+ms.date: 06/27/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b31c7778ea167b98468a0a9ad9e37047c30ce201
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 43b87a90f90130a014817819b87ed5946b1ba15b
+ms.sourcegitcommit: 9c06d8071b9affeda32e367bfe85d89bc524ed0b
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66047182"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67413813"
 ---
 # <a name="ios-device-settings-to-use-common-ios-features-in-intune"></a>Параметры устройств с iOS для использования распространенных функций iOS в Intune
 
@@ -195,7 +195,7 @@ ms.locfileid: "66047182"
   Токены устройств также можно использовать, чтобы добавить сведения об устройстве для этих полей. Например, чтобы отобразить серийный номер, введите `Serial Number: {{serialnumber}}`. На экране блокировки отображается текст вида `Serial Number 123456789ABC`. При вводе переменных не забудьте использовать фигурные скобки `{{ }}`. Раздел [Токены конфигурации приложений](app-configuration-policies-use-ios.md#tokens-used-in-the-property-list) содержит список переменных, которые можно использовать. Можно также использовать `deviceName` или любое другое значение конкретного устройства.
 
   > [!NOTE]
-  > Переменные не проверяются в пользовательском интерфейсе. В результате профили могут сохраняться с неверными входными данными. Например, если ввести `{{Devicename}}` вместо `{{devicename}}`, вместо уникального имени устройства отображается литеральная строка.
+  > Переменные не проверяется в пользовательском Интерфейсе и чувствительны к регистру. В результате профили могут сохраняться с неверными входными данными. Например, если ввести `{{DeviceID}}` вместо `{{deviceid}}`, вместо уникального идентификатора устройства отображается литеральная строка. Не забудьте ввести правильные данные.
 
 Нажмите кнопку **OK**, чтобы сохранить изменения.
 

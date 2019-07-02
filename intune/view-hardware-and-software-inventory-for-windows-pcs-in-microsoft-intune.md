@@ -6,7 +6,7 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 01/01/2018
+ms.date: 06/26/2019
 ms.topic: archived
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -17,18 +17,21 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5e24e72951d473c2e7e49d5ae62b39df18635c16
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 2c1717be830d88ed0a7d1b660b7910c8192c93c5
+ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66040271"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67403548"
 ---
 # <a name="view-hardware-and-software-inventory-for-windows-pcs"></a>Просмотр данных инвентаризации оборудования и программного обеспечения для компьютеров под управлением Windows
 
 [!INCLUDE [classic-portal](includes/classic-portal.md)]
 
-Intune собирает подробные сведения об оборудовании и программном обеспечении настольных систем, управляемых в качестве компьютеров, с помощью программного клиента Intune. Ниже приведены процедуры
+> [!NOTE]
+> Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите просмотреть инвентаризации для компьютеров под управлением Windows, зарегистрированные как мобильные устройства, см. в разделе [Просмотр сведений об устройстве в Intune](device-inventory.md).
+
+Intune собирает подробные сведения об оборудовании и программном обеспечении для настольных систем, управляемых в качестве компьютеров, с помощью программного клиента Intune. Ниже приведены процедуры
 
 -   создания отчета, содержащего данные об аппаратных возможностях управляемых компьютеров;
 
