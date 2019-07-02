@@ -128,6 +128,8 @@
                   href: migration-guide-drive-adoption.md
                 - name: Типичный цикл миграции
                   href: migration-guide-cycle.md
+        - name: Планирование обмена данными
+          href: migration-guide-communication-plan.md
     - name: Настройка Intune
       items:
         - name: Действия по настройке Intune
@@ -307,6 +309,7 @@
           href: device-features-configure.md
         - name: Ограничение параметров и возможностей устройств
           href: device-restrictions-configure.md
+          displayName: Device restrictions
         - name: Доставка обновлений
           href: delivery-optimization-windows.md
           displayName: delivery optimization; updates
@@ -328,6 +331,8 @@
           items:
             - name: Wi-Fi с общим ключом
               href: wi-fi-profile-shared-key.md
+        - name: Расширения в macOS
+          href: kernel-extensions-overview-macos.md
         - name: Приложение "Тестирование" для образования
           href: education-settings-configure.md
         - name: Общие устройства для множества пользователей
@@ -415,41 +420,46 @@
                       href: mtd-connector-enable.md
                 - name: Приложения MTD
                   items:
-                    - name: Настройка Lookout
-                      href: lookout-mobile-threat-defense-connector.md
-                      items:
-                        - name: Интеграция Lookout и Intune
-                          href: lookout-mtd-connector-integration.md
-                    - name: Настройка Symantec
-                      href: skycure-mobile-threat-defense-connector.md
-                      items:
-                        - name: Интеграция Symantec и Intune
-                          href: skycure-mtd-connector-integration.md
-                    - name: Настройка Check Point
-                      href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md
-                      items:
-                        - name: Интеграция Check Point и Intune
-                          href: checkpoint-sandblast-mobile-mtd-connector-integration.md
-                    - name: Настройка Zimperium
-                      href: zimperium-mobile-threat-defense-connector.md
-                      items:
-                        - name: Интеграция Zimperium и Intune
-                          href: zimperium-mtd-connector-integration.md
-                    - name: Настройка Pradeo
-                      href: pradeo-mobile-threat-defense-connector.md
-                      items:
-                        - name: Интеграция Pradeo и Intune
-                          href: pradeo-mtd-connector-integration.md
                     - name: Настройка Better Mobile
                       href: better-mobile-threat-defense-connector.md
                       items:
                         - name: Интеграция Better Mobile и Intune
                           href: better-mobile-mtd-connector-integration.md
+                    - name: Настройка Check Point
+                      href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Check Point и Intune
+                          href: checkpoint-sandblast-mobile-mtd-connector-integration.md
+                    - name: Настройка Lookout
+                      href: lookout-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Lookout и Intune
+                          href: lookout-mtd-connector-integration.md
+                    - name: Настройка Pradeo
+                      href: pradeo-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Pradeo и Intune
+                          href: pradeo-mtd-connector-integration.md
                     - name: Настройка Sophos Mobile
                       href: sophos-mtd-connector.md
                       items:
                         - name: Интеграция Sophos Mobile и Intune
                           href: sophos-mtd-connector-integration.md
+                    - name: Настройка Symantec
+                      href: skycure-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Symantec и Intune
+                          href: skycure-mtd-connector-integration.md
+                    - name: Настройка Wandera
+                      href: wandera-mtd-connector.md
+                      items:
+                        - name: Интеграция Wandera и Intune
+                          href: wandera-mtd-connector-integration.md
+                    - name: Настройка Zimperium
+                      href: zimperium-mobile-threat-defense-connector.md
+                      items:
+                        - name: Интеграция Zimperium и Intune
+                          href: zimperium-mtd-connector-integration.md
             - name: "Microsoft\_Defender"
               items:
                 - name: "ATP в Microsoft\_Defender"
@@ -747,6 +757,8 @@
                   href: vpn-settings-macos.md
                 - name: Wi-Fi
                   href: wi-fi-settings-macos.md
+                - name: Расширения
+                  href: kernel-extensions-settings-macos.md
                 - name: Особые настройки
                   href: custom-settings-macos.md
         - name: Windows 10 и более поздней версии
@@ -784,7 +796,7 @@
             - name: Базовые конфигурации безопасности
               items:
                 - name: "Параметры базовых показателей безопасности Windows\_10"
-                  href: security-baseline-settings-windows.md
+                  href: security-baseline-settings-mdm.md
                 - name: "Параметры базовых показателей безопасности ATP в Microsoft\_Defender"
                   href: security-baseline-settings-defender-atp.md
             - name: Параметры Центра обновления Windows
@@ -972,6 +984,10 @@
               href: troubleshoot-software-updates-in-microsoft-intune.md
             - name: Распространенные ошибки Endpoint Protection
               href: troubleshoot-endpoint-protection-in-microsoft-intune.md
+        - name: Архив базовых конфигураций безопасности
+          items:
+            - name: Заархивированные базовые конфигурации безопасности MDM
+              href: security-baseline-settings-mdm-archive.md
     - name: Руководства по реализации сценария
       items:
         - name: Защита Exchange Online
