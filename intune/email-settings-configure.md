@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6a80ff2ca7c2265da358f57291032f59d47d22dd
-ms.sourcegitcommit: 063177c6c365fef3642edd7c455790958469aad9
+ms.openlocfilehash: b579849d9afdb50470b7a772e003cc616e1f94a0
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412341"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67530049"
 ---
 # <a name="add-email-settings-to-devices-using-intune"></a>Добавлении параметров электронной почты на устройства с помощью Intune
 
@@ -31,7 +31,7 @@ Microsoft Intune содержит различные параметры элек
 - Android Samsung Knox Standard 4.0 и более поздние версии
 - Android для бизнеса
 - Устройства iOS 8.0 и более поздней версии
-- Windows Phone 8.1 и более поздней версии
+- Windows Phone 8.1 и более поздней версии
 - Windows 10 (Desktop) и Windows 10 Mobile.
 
 В этой статье показано, как создать профиль электронной почты в Microsoft Intune. Также она содержит ссылки на разные платформы, чтобы вы ознакомились с конкретными настройками.
@@ -94,6 +94,6 @@ Microsoft Intune содержит различные параметры элек
 
 Если вы внесете изменения в профиль электронной почты, который уже назначен, пользователи смогут увидеть сообщение с просьбой утвердить повторную настройку параметров электронной почты.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Профиль создан, но он пока ничего не делает. Далее нужно назначить профиль для устройств, подробнее см. в [этой статье](device-profile-assign.md).

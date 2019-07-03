@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3d3e36dbeb1fb7c90dfc5cc4c18fb30140c761db
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 9a5f28f01d0c8be6692deaf27391e52619fcdcab
+ms.sourcegitcommit: 84c79ceea27f7411528defc5ee8ba35ae2bf473c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66046502"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67512269"
 ---
 # <a name="configure-device-compliance-and-app-management-policies-when-migrating-to-microsoft-intune"></a>Настройка политик соответствия устройств и управления приложениями во время миграции в Microsoft Intune
 
@@ -59,7 +59,7 @@ ms.locfileid: "66046502"
 
 Вам нужно создать профиль конфигурации устройства, чтобы применить параметры уровня устройства, например отключение камеры, магазин приложений, настройка режима использования одного приложения, начальный экран и т. д. Дополнительные сведения о [профилях устройств](device-profiles.md).
 
-####  <a name="directly-import-ios-configuration-profiles-optional"></a>Прямой импорт профилей конфигурации iOS (необязательно)
+#### <a name="directly-import-ios-configuration-profiles-optional"></a>Прямой импорт профилей конфигурации iOS (необязательно)
 
 -   **Профили Apple Configurator в iOS (iOS 7.1 и более поздних версий).** Если существующее решение MDM использует профили Apple Configurator (файлы .mobileconfig), Intune может импортировать их напрямую как пользовательские политики конфигурации.
 

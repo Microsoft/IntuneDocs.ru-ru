@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eeddbf39093210e640125db3be6ddd6bcad7d59b
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: ec60a618280caf6a5b7ef242c192cc64b5d839de
+ms.sourcegitcommit: 84c79ceea27f7411528defc5ee8ba35ae2bf473c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66045000"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67511912"
 ---
 # <a name="integrate-sophos-mobile-with-intune"></a>Интеграция Sophos Mobile с Intune  
 

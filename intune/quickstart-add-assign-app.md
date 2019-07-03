@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 17db2227303fe3937156ad6afa610dce48bd1992
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 1fa23deb26dbf54f8e3e98ec0b9604859a34a90d
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041352"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67528309"
 ---
 # <a name="quickstart-add-and-assign-a-client-app"></a>Краткое руководство. Добавление и назначение клиентского приложения
 
@@ -69,7 +69,7 @@ ms.locfileid: "66041352"
 
 Это можно сделать, выполнив следующие шаги.
 1. В [Intune](https://aka.ms/intuneportal) выберите **Клиентские приложения** > **Приложения**. 
-2. Выберите приложение, которое хотите назначить группе.   
+2. Выберите приложение, которое хотите назначить группе.
 3. Щелкните **Назначения** > **Добавить группу**. Откроется колонка **Добавление группы**.
 4. В раскрывающемся списке **Тип назначения** выберите **Доступно для зарегистрированных устройств**. 
 5. Щелкните **Включенные группы** > **Выбрать включаемые группы** > **Тест-инженеры Contoso**.
