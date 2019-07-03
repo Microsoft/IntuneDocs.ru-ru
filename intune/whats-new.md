@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 05/31/2019
+ms.date: 06/12/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,19 +17,26 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7c14568a0581220cf5941984645bd0b9044e00c1
-ms.sourcegitcommit: cb76efd3db60a422a65478ebce83d3aea7b5eeed
+ms.openlocfilehash: 756fafc02a6d64b1495a838ab8eee4130ee77361
+ms.sourcegitcommit: a63b9eaa59867ab2b0a6aa415c19d9fff4fda874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66749939"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389337"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 
-Еженедельные новости об улучшениях в Microsoft Intune. Кроме того, здесь можно узнать о [предстоящих изменениях](in-development.md) и получить [важные уведомления](#notices), а также сведения о [прошлых выпусках](whats-new-archive.md). 
+Еженедельные новости об улучшениях в Microsoft Intune. Кроме того, здесь можно получить [важные уведомления](#notices), [прошлые выпуски](whats-new-archive.md), а также сведения о том, [как выпускаются обновления службы Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Microsoft-Intune-Service-Updates/ba-p/358728). 
 
 > [!Note]
+> Выпуск каждого [ежемесячного обновления](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Microsoft-Intune-Service-Updates/ba-p/358728) может занять до трех дней. Они будут выходить в следующем порядке:
+> - День 1: Азиатско-Тихоокеанский регион (APAC).
+> - День 2: Европа, Ближний Восток и Африка (EMEA).
+> - День 3: Северная Америка
+> 
 > Поскольку внедрение некоторых функций может занимать несколько недель, они могут быть недоступны всем клиентам в течение первой недели.
+>
+> Проверьте [страницу о возможностях, находящихся на стадии разработки,](in-development.md) на наличие списка новых возможностей в выпуске.
 
 **RSS-канал**. Получите уведомление об обновлении этой страницы, скопировав и вставив следующий URL-адрес в программу чтения каналов: `https://docs.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%3F+-+Azure%22&locale=en-us`
 
@@ -45,6 +52,29 @@ ms.locfileid: "66749939"
 -->  
 
 <!-- ########################## -->
+
+## <a name="week-of-june-17-2019"></a>Неделя, начиная с 17 июня 2019 г.   
+
+### <a name="app-management"></a>Управление приложениями
+
+#### <a name="new-features-in-microsoft-intune-app"></a>Новые возможности в приложении Microsoft Intune
+Мы добавили новые возможности в приложение Microsoft Intune (предварительная версия) для Android. Теперь на полностью управляемых устройствах Android пользователям доступны следующие возможности:  
+
+* просмотр и контроль устройств, зарегистрированных через Корпоративный портал Intune или приложение Microsoft Intune;    
+* обращение в службу поддержки организации;    
+* отправка отзывов в корпорацию Майкрософт;    
+* просмотр условий, назначенных их организацией.  
+
+## <a name="week-of-june-10-2019"></a>Неделя, начиная с 10 июня 2019 г. 
+
+### <a name="app-management"></a>Управление приложениями  
+
+#### <a name="new-sample-apps-showing-intune-sdk-integration-available-on-github----2653471---"></a>Новые примеры приложений, демонстрирующие интеграцию пакета SDK для Intune, доступны на сайте GitHub <!-- 2653471 -->
+В учетную запись GitHub msintuneappsdk добавлены новые примеры приложений для iOS (Swift), Android, Xamarin.iOS, Xamarin Forms и Xamarin.Android. Эти приложения дополняют нашу имеющуюся документацию и содержат демонстрации того, как интегрировать пакет SDK для приложений Intune в ваши собственные мобильные приложения. Если вы являетесь разработчиком приложения и вам требуются дополнительные инструкции относительно пакета SDK для Intune, ознакомьтесь с приведенными ниже связанными примерами:
+- [Chatr](https://github.com/msintuneappsdk/Chatr-Sample-Intune-iOS-App) — собственное приложение iOS (Swift) для обмена мгновенными сообщениями, в котором для проверки подлинности через брокер используется Библиотека проверки подлинности Azure Active Directory (ADAL).
+- [Taskr](https://github.com/msintuneappsdk/Taskr-Sample-Intune-Android-App) — собственное приложение Android со списком дел, в котором для проверки подлинности через брокер используется ADAL.
+- [Taskr](https://github.com/msintuneappsdk/Taskr-Sample-Intune-Xamarin-Android-Apps) — приложение со списком дел Xamarin.Android, в котором для проверки подлинности через брокер используется ADAL. Этот репозиторий также содержит приложение Xamarin.Forms.
+- [Пример приложения Xamarin.iOS](https://github.com/msintuneappsdk/sample-intune-xamarin-ios) — пример базового приложения Xamarin.iOS.
 
 ## <a name="week-of-may-27-2019"></a>Неделя, начиная с 27 мая 2019 г. 
 
@@ -192,7 +222,7 @@ ms.locfileid: "66749939"
 Компания F5 выпустила обновление для BIG-IP 13, которое включает поддержку управления доступом к сети (NAC) для F5 Access с iOS в Intune. Чтобы использовать эту функцию, сделайте следующее:
 
 - Обновите BIG-IP до версии 13.1.1.5. BIG-IP 14 не поддерживается.
-- Интеграция BIG-IP с Intune для NAC. Шаги в разделе [Обзор: настройка APM для проверки состояния устройства с системами управления конечными точками](https://support.f5.com/kb/products/big-ip_apm/manuals/product/apm-client-configuration-7-1-6/6.html#guid-0bd12e12-8107-40ec-979d-c44779a8cc89).
+- Интеграция BIG-IP с Intune для NAC. Шаги в разделе [Обзор: настройка APM для проверки состояния устройства с системами управления конечными точками](https://techdocs.f5.com/kb/en-us/products/big-ip_apm/manuals/product/apm-client-configuration-7-1-6/6.html).
 - Проверьте параметр профиля VPN **Включить управление сетевым доступом (NAC)** в Intune.
 
 Чтобы просмотреть доступные параметры, перейдите к [параметрам настройки VPN на устройствах с iOS](vpn-settings-ios.md).
@@ -311,7 +341,7 @@ ms.locfileid: "66749939"
 
   Для выделенных устройств устройство может отображаться как **несоответствующее**. Условный доступ недоступен на выделенных устройствах. Не забудьте завершить все задачи или действия, чтобы обеспечить соответствие выделенных устройств назначенным политикам.
 
-- [Условный доступ](conditional-access.md) — политики условного доступа, применяемые к Android, также применяются к полностью управляемым устройствам Android Enterprise. Теперь пользователи могут зарегистрироваться свое полностью управляемое устройство в Azure Active Directory с помощью **приложения Microsoft Intune**. Затем они могут просмотреть и устранить любые проблемы соответствия для доступа к ресурсам организации.
+- [Условный доступ](conditional-access.md) — политики условного доступа, применяемые к Android, также применяются к полностью управляемым устройствам Android Enterprise. Теперь пользователи могут зарегистрироваться свое полностью управляемое устройство в Azure Active Directory с помощью **приложения Microsoft Intune**. Затем они могут просмотреть и устранить любые проблемы соответствия для доступа к ресурсам организации.
 
 - Новое приложение конечного пользователя (приложение Microsoft Intune) — появилось новое приложение конечного пользователя **Microsoft Intune** для полностью управляемых устройств Android. Это новое приложение является простым и современным и предоставляет такие же функциональные возможности, что и приложение "Корпоративный портал", но для полностью управляемых устройств. Дополнительные сведения см. в описании [приложения Microsoft Intune в Google Play](https://play.google.com/store/apps/details?id=com.microsoft.intune).
 
@@ -1109,7 +1139,7 @@ Intune теперь поддерживает Программу регистра
 - Теперь вы можете настроить запрос с предупреждением о перезапусках, которые происходят вне рабочих часов, для включения поддержки сценариев BYOD.
 
 #### <a name="group-windows-autopilot-enrolled-devices-by-correlator-id----2075110---"></a>Группировка устройств Windows, зарегистрированных с помощью Autopilot, по идентификатору коррелятора <!-- 2075110 -->
-Intune поддерживает группировку устройств Windows, зарегистрированных с помощью [Autopilot для существующих устройств](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/New-Windows-Autopilot-capabilities-and-expanded-partner-support/ba-p/260430), в Configuration Manager по идентификатору. Идентификатор коррелятора — это параметр файла конфигурации Autopilot. Intune автоматически установит для [атрибута enrollmentProfileNam устройства Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#using-attributes-to-create-rules-for-device-objects) значение"OfflineAutopilotprofile-<correlator ID>". Это позволит создавать произвольные динамические группы Azure AD на основе идентификатора коррелятора с помощью атрибута enrollmentprofileName для автономных регистраций Autopilot. Дополнительные сведения см. в статье [Файл конфигурации Windows Autopilot для существующих устройств](enrollment-autopilot.md#windows-autopilot-for-existing-devices).
+Intune поддерживает группировку устройств Windows, зарегистрированных с помощью [Autopilot для существующих устройств](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/New-Windows-Autopilot-capabilities-and-expanded-partner-support/ba-p/260430), в Configuration Manager по идентификатору. Идентификатор коррелятора — это параметр файла конфигурации Autopilot. Intune автоматически установит для [атрибута enrollmentProfileNam устройства Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices) значение"OfflineAutopilotprofile-<correlator ID>". Это позволит создавать произвольные динамические группы Azure AD на основе идентификатора коррелятора с помощью атрибута enrollmentprofileName для автономных регистраций Autopilot. Дополнительные сведения см. в статье [Файл конфигурации Windows Autopilot для существующих устройств](enrollment-autopilot.md#windows-autopilot-for-existing-devices).
 
 #### <a name="intune-app-protection-policies----2984657---"></a>Политики защиты приложений Intune <!-- 2984657 -->
 Политики защиты приложений Intune позволяют настроить различные параметры защиты данных для приложений, защищаемых Intune, таких как Microsoft Outlook и Microsoft Word. Мы изменили оформление этих параметров для [iOS](app-protection-policy-settings-ios.md) и [Android](app-protection-policy-settings-android.md), чтобы упростить поиск отдельных параметров. Существует три категории параметров политик.

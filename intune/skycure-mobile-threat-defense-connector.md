@@ -17,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 808b594e4ac47845272be2978da2463727f9807c
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: f04879e88cb85eaacdb75f5645a486e3539cb13a
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66040773"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67044075"
 ---
 # <a name="symantec-endpoint-protection-mobile-connector"></a>Соединитель Symantec Endpoint Protection Mobile
 
-Вы можете управлять доступом к корпоративным ресурсам с мобильных устройств с помощью условного доступа на основе оценки рисков, проведенной Symantec Endpoint Protection Mobile (SEP Mobile) — решением для защиты от угроз на мобильных устройствах, интегрированным с Microsoft Intune. Оценка рисков основана на данных телеметрии, собранных с устройств, на которых работает SEP Mobile, включая следующее:
+Вы можете управлять доступом к корпоративным ресурсам с мобильных устройств с помощью условного доступа на основе оценки рисков, проведенной Symantec Endpoint Protection Mobile (SEP Mobile), — решением для защиты от угроз на мобильных устройствах, интегрированным с Microsoft Intune. Оценка рисков основана на данных телеметрии, собранных с устройств, на которых работает SEP Mobile, включая следующее:
 
 -   Физическая защита
 
@@ -36,7 +36,7 @@ ms.locfileid: "66040773"
 
 -   Защита от уязвимостей
 
-Вы можете настроить оценку рисков SEP Mobile с помощью политик соответствия устройств Intune, а затем применить политики условного доступа для разрешения или запрета доступа несовместимых устройств к ресурсам организации с учетом обнаруженных угроз.
+Вы можете настроить оценку рисков SEP Mobile с помощью политик соответствия устройств Intune, а затем применить политики условного доступа, чтобы разрешить или запретить доступ несовместимых устройств к ресурсам организации с учетом обнаруженных угроз.
 
 ## <a name="how-do-intune-and-sep-mobile-help-protect-your-company-resources"></a>Как Intune и SEP Mobile помогают защитить ресурсы вашей организации?
 

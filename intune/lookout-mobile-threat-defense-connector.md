@@ -6,25 +6,25 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 06/09/2017
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 3a730a5d-2a90-42b0-aa28-aadfc7a18788
-ms.reviewer: heenamac
+ms.reviewer: davera
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: da8ccc65b2091e96d7ef089994c3d34bbaf9b557
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 3566d144abad563ead64c124e128c221e725a25c
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041740"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67045701"
 ---
-# <a name="lookout-mobile-threat-defense-connector-with-intune"></a>Соединитель службы защиты мобильных устройств от угроз Lookout с помощью Intune
+# <a name="lookout-mobile-endpoint-security-connector-with-intune"></a>Соединитель Lookout Mobile Endpoint Security с Intune
 
 Вы можете управлять доступом к корпоративным ресурсам с мобильных устройств на основании оценки рисков, проведенной Lookout, решением для защиты от угроз на мобильных устройствах, интегрированным с Microsoft Intune. Оценка рисков основана на данных телеметрии, собранных с устройств службой Lookout и включающих в себя следующее:
 - Уязвимости операционной системы
@@ -33,28 +33,31 @@ ms.locfileid: "66041740"
 
 Вы можете настроить политики условного доступа на основании оценки рисков, выполненной Lookout посредством политик соответствия Intune. Параметры позволяют разрешить или запретить доступ несовместимых устройств в зависимости от обнаруженных угроз.
 
-## <a name="how-do-intune-and-lookout-mobile-threat-defense-help-protect-company-resources"></a>Как Intune и защита мобильных устройств от угроз Lookout помогают защитить ресурсы организации?
+## <a name="how-do-intune-and-lookout-mobile-endpoint-security-help-protect-company-resources"></a>Как Intune и Lookout Mobile Endpoint Security помогают защитить ресурсы организации?
 Приложение **Lookout for work** устанавливается и выполняется на мобильных устройствах. Оно регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройства и приложений (при наличии) и отправляет их в облачную службу защиты от угроз на устройстве Lookout для вычисления риска в отношении угроз для мобильного устройства. Вы можете изменить классификации уровней риска для угроз в консоли Lookout, исходя из своих потребностей.  
 
 Политика соответствия в Intune содержит правило для службы защиты мобильных устройств от угроз Lookout, основанное на оценке рисков Lookout. При включении этого правила Intune оценивает соответствие устройства заданной политике.
 
 Если устройство определяется как несоответствующее, можно заблокировать его доступ к таким ресурсам, как Exchange Online и SharePoint Online. Пользователи заблокированных устройств получают сведения о том, что нужно сделать, чтобы устранить проблему и восстановить доступ. Соответствующее руководство запускается в приложении Lookout for Work.
 
-## <a name="supported-platforms"></a>Поддерживаемые платформы
+## <a name="supported-platforms"></a>Поддерживаемые платформы  
 При регистрации в Intune для Lookout поддерживаются следующие платформы:
-* **Android 4.1 и более поздней версии**.
-* **iOS 8 и более поздней версии**. Дополнительные сведения о поддержке платформы и языка см. на [веб-сайте Lookout](https://personal.support.lookout.com/hc/articles/114094140253).
+* **Android 4.1 и более поздней версии**.  
+* **iOS 8 и более поздние версии**  
+
+Дополнительные сведения о поддержке платформы и языка см. на [веб-сайте Lookout](https://personal.support.lookout.com/hc/articles/114094140253).  
 
 ## <a name="prerequisites"></a>Предварительные условия
-* Подписка на Microsoft Intune
-* Azure Active Directory
 * Корпоративная подписка на Lookout Mobile Endpoint Security  
+* Подписка на Microsoft Intune
+* Azure Active Directory Premium
+* Enterprise Mobility and Security (EMS) E3 или E5 с лицензиями, назначенными пользователям.  
 
 Дополнительные сведения см. в разделе [Lookout Mobile Endpoint Security](https://www.lookout.com/products/mobile-endpoint-security).
 
 ## <a name="sample-scenarios"></a>Примеры сценариев
 
-Ниже приведены распространенные сценарии при использовании службы защиты мобильных устройств от угроз Lookout с Intune.
+Ниже приведены распространенные сценарии при использовании службы Mobile Endpoint Security с Intune.
 
 ### <a name="control-access-based-on-threats-from-malicious-apps"></a>Управление доступом на основании оценки угроз от вредоносных приложений
 При обнаружении на устройствах вредоносного ПО можно заблокировать следующие возможности до устранения угрозы:
@@ -96,6 +99,6 @@ ms.locfileid: "66041740"
 ## <a name="next-steps"></a>Дальнейшие шаги
 Ниже приведены основные шаги, которые необходимо выполнить для реализации этого решения.
 1.  [Настройка интеграции с Lookout](lookout-mtd-connector-integration.md)
-2.  [Включение службы защиты мобильных устройств от угроз Lookout в Intune](mtd-connector-enable.md)
+2.  [Включение Mobile Endpoint Security в Intune](mtd-connector-enable.md)
 3.  [Добавление и назначение приложения Lookout for Work](mtd-apps-ios-app-configuration-policy-add-assign.md)
 4.  [Настройка политики соответствия устройств Lookout](mtd-device-compliance-policy-create.md)

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1dec78e0b1e323e99b6e70f71db982256aa98d18
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: cdedbfc611d44b4d6acb01e5e05bf3e73ed7fbda
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041226"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67044196"
 ---
 # <a name="quickstart-create-a-password-compliance-policy-for-android-devices"></a>Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 415005ee58367a189986e9d7bd0ef693f14bc5c9
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 2c2c50909b701ee5418ea69d73e67518de1c5bce
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66048369"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67045733"
 ---
 # <a name="enrolled-device-management-capabilities-of-microsoft-intune"></a>Возможности управления зарегистрированными устройствами в Microsoft Intune
 

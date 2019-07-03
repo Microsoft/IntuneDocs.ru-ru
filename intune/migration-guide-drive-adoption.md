@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a37d6dac24049a10b5abaed41a44c0c391b095e6
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 2bedaf279d65ee1ed7f8dda4e8d866fb848bade7
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66050479"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67044585"
 ---
 # <a name="drive-end-user-adoption-with-conditional-access-in-microsoft-intune"></a>Реализация в системах конечных пользователей за счет условного доступа в Microsoft Intune
 
@@ -64,13 +64,13 @@ ms.locfileid: "66050479"
 
 Выберите один из следующих вариантов.
 
--   [Настройка условного доступа в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
+-   [Настройка условного доступа в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal).
 
 -   [Установка локального соединителя Exchange с помощью Intune](exchange-connector-install.md)
 
--   [Настройка политик условного доступа на базе приложений для Exchange Online](app-based-conditional-access-intune-create.md)
+-   [Настройка политик условного доступа на основе приложений для Exchange Online](app-based-conditional-access-intune-create.md).
 
--   [Настройка политик условного доступа на базе приложений для SharePoint Online](app-based-conditional-access-intune-create.md)
+-   [Настройка политик условного доступа на базе приложений для SharePoint Online](app-based-conditional-access-intune-create.md).
 
 -   [Блокировка приложений, не поддерживающих современные средства проверки подлинности (ADAL)](app-modern-authentication-block.md)
 

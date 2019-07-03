@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/28/2019
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f17bdf21db61616f88cef4d257fbcd28d941dae8
-ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
+ms.openlocfilehash: 90b3e858a06a6f3a34de6ec8102e1a6c458369a2
+ms.sourcegitcommit: cd451ac487c7ace18ac9722a28b9facfba41f6d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66373474"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67298421"
 ---
 # <a name="use-powershell-scripts-on-windows-10-devices-in-intune"></a>Использование скриптов PowerShell для устройств Windows 10 в Intune
 
@@ -39,13 +39,13 @@ ms.locfileid: "66373474"
 
 Расширение управления Intune дополняет встроенные возможности Windows 10 MDM. Вы можете создать скрипты PowerShell для выполнения на устройствах Windows 10. Например, создайте скрипт PowerShell для расширенной настройки устройств, отправьте его в Intune, назначьте скрипт группе Azure Active Directory (AD) и запустите его. Вы сможете отслеживать состояние выполнения скрипта от начала до конца.
 
-## <a name="prerequisites"></a>Готовность к установке
+## <a name="prerequisites"></a>Предварительные условия
 
 Для расширения управления Intune требуется выполнить следующие условия. Если они выполняются, расширение управления Intune устанавливается автоматически, когда скрипт PowerShell или приложение Win32 назначаются пользователю или устройству.
 
 - Устройства с ОС Windows 10 версии 1607 или более поздней. Если устройство зарегистрировано с помощью [массовой автоматической регистрации](windows-bulk-enroll.md), на нем должна выполняться Windows 10 версии 1703 или более поздней. Расширение управления Intune не поддерживается в Windows 10 в режиме S, так как режим S блокирует запуск приложений, не приобретенных в магазине. 
   
-- Устройства, присоединенные к службам Azure Active Directory, включая:
+- Устройства, присоединенные к службам Azure Active Directory, включая:  
   
   - устройства с гибридным присоединением к Azure AD — устройства, присоединенные к Azure Active Directory (AD), а также присоединенные к локальной среде Active Directory (AD). Инструкции см. в разделе [Планирование реализации гибридного подключения к Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan).
 
@@ -55,21 +55,28 @@ ms.locfileid: "66373474"
   
   - устройства, зарегистрированные в Intune вручную, то есть когда:
   
-    - пользователь выполняет вход на устройство с помощью учетной записи локального пользователя и вручную присоединяет устройство к Azure AD (и в Azure AD включена автоматическая регистрация в Intune);
+    - [Автоматическая регистрация в Intune](quickstart-setup-auto-enrollment.md) включена в Azure AD. Пользователь выполняет вход в устройство с использованием учетной записи локального пользователя, вручную присоединяет устройство к Azure AD, а затем выполняет вход в устройство, используя свою учетную запись Azure AD.
     
-    Или
+    ИЛИ  
     
     - пользователь выполняет вход на устройство с помощью своей учетной записи Azure AD и регистрирует его в Intune;
 
-  - совместно управляемые устройства, использующие Configuration Manager и Intune. Инструкции см. в разделе [Что такое совместное управление?](https://docs.microsoft.com/sccm/comanage/overview).
+  - совместно управляемые устройства, использующие Configuration Manager и Intune. Убедитесь, что для рабочей нагрузки **Клиентские приложения** выбрано значение **Pilot Intune** (Пилотная версия Intune) или **Intune**. Указания можно найти, перейдя по следующим ссылкам: 
+  
+    - [Что такое совместное управление?](https://docs.microsoft.com/sccm/comanage/overview) 
+    - [Клиентские приложения](https://docs.microsoft.com/sccm/comanage/workloads#client-apps)
+    - [Переключение рабочих нагрузок Configuration Manager на Intune](https://docs.microsoft.com/sccm/comanage/how-to-switch-workloads)
+  
+> [!TIP]
+> Убедитесь, что устройства [присоединены к Azure AD](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network). Устройства, которые только [зарегистрированы](https://docs.microsoft.com/azure/active-directory/user-help/user-help-register-device-on-network) в Azure AD, не получат ваши скрипты.
 
 ## <a name="create-a-script-policy"></a>Создание политики скрипта 
 
 1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Конфигурация устройства** > **Скрипты PowerShell** > **Добавить**.
 3. Укажите следующие свойства.
-    - **Имя** — Введите имя скрипта PowerShell. 
-    - **Описание**. Введите описание скрипта PowerShell. Этот параметр является необязательным, но мы рекомендуем его использовать. 
+    - **Имя**. Введите имя скрипта PowerShell. 
+    - **Описание** Введите описание скрипта PowerShell. Этот параметр является необязательным, но мы рекомендуем его использовать. 
     - **Расположение скрипта**. Укажите расположение скрипта PowerShell. Размер скрипта не должен превышать 200 КБ (ASCII).
 4. Нажмите **Настроить** и укажите следующие свойства.
     - **Запускать сценарий по учетным данным**. Выберите **Да**, чтобы запускать скрипт с помощью учетных данных пользователя на устройстве. Выберите **Нет** (по умолчанию) для запуска скрипта в контексте системы. Многие администраторы выбирают **Да**. Выберите **Нет**, если скрипт требуется запускать в контексте системы.
@@ -87,7 +94,7 @@ ms.locfileid: "66373474"
 5. Выберите **ОК** > **Создать**, чтобы сохранить скрипт.
 
 > [!NOTE]
-> Скрипт PowerShell выполняется при наличии прав администратора (по умолчанию), если для скрипта настроен контекст пользователя, а пользователь устройства имеет права администратора.
+> Если для скриптов задан пользовательский контекст и пользователь имеет права администратора, скрипт PowerShell по умолчанию запускается с правами администратора.
 
 ## <a name="assign-the-policy"></a>Назначение политики
 
@@ -156,6 +163,7 @@ ms.locfileid: "66373474"
     > [!TIP]
     > **Расширение управления Intune Microsoft** — это служба, которая выполняется на устройстве, как и любая другая служба, указанная в приложении "Службы" (services.msc). После перезагрузки устройства эта служба может также перезапуститься и выполнить поиск назначенных скриптов PowerShell в службе Intune. Если для службы **Расширение управления Microsoft Intune** задан запуск вручную, то служба не может перезапуститься после перезагрузки устройства.
 
+- Убедитесь, что устройства [присоединены к Azure AD](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network). Устройства, которые присоединены только к вашему рабочему месту или организации ([зарегистрированы](https://docs.microsoft.com/azure/active-directory/user-help/user-help-register-device-on-network) в Azure AD), не получат скрипты.
 - Клиент расширения управления Intune раз в час проверяет наличие изменений в скриптах или политиках Intune.
 - Убедитесь, что расширение управления Intune скачано в папку `%ProgramFiles(x86)%\Microsoft Intune Management Extension`.
 - Скрипты не выполняются в Surface Hub или в Windows 10 в режиме S.
@@ -177,6 +185,6 @@ ms.locfileid: "66373474"
 
     `psexec -i -s`
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Мониторинг](device-profile-monitor.md) и [устранение неполадок](device-profile-troubleshoot.md) для профилей.

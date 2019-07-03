@@ -17,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a197b057278ff2f32539169feccc91edbd752386
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: dbebcb495298f3e8b17007d1fb00f0362ead4ab8
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66048980"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67530679"
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 
-Начиная с нового портала Azure предложения по условному доступу поддерживают несколько политик на приложение, а также дополнительные настройки. Если вы создали политики условного доступа на классическом портале Intune, вы можете перенести их на портал Azure. 
+Начиная с нового портала Azure, предложения по условному доступу поддерживают несколько политик на приложение, а также дополнительные настройки. Если вы создали политики условного доступа на классическом портале Intune, вы можете перенести их на портал Azure. 
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
@@ -47,7 +47,7 @@ ms.locfileid: "66048980"
             - Постепенно удалите пользователей из групп безопасности, где имеются политики условного доступа, ориентированные на них на классическом портале Intune.
             - Убедившись, что для этих пользователей новая политика работает, вы можете отключить политику на классическом портале Intune. 
 <br /><br />
-- Если имеются параметры политики условного доступа, настроенные для использования Exchange Active Sync (EAS) на классическом портале Intune, см. [инструкции в этом разделе](#reassign-intune-device-based-conditional-access-policies-for-eas-clients), чтобы **переназначить параметры политики условного доступа EAS на портале Azure**.
+- Если имеются параметры политики условного доступа, настроенные для использования Exchange Active Sync (EAS) на классическом портале Intune, см. [инструкции в этом разделе](#reassign-intune-device-based-conditional-access-policies-for-eas-clients), чтобы **переназначить параметры политики условного доступа EAS на портале Azure**.
 
 ### <a name="to-verify-your-device-based-conditional-access-policies-in-the-intune-classic-portal"></a>Проверка политик условного доступа на основе устройств на классическом портале Intune
 
@@ -81,7 +81,7 @@ ms.locfileid: "66048980"
 3. Укажите имя политики.
 
 4. В разделе **Назначения** выберите **Пользователи и группы**, чтобы задать ориентацию для новой политики условного доступа.
-    
+
     ![Изображение, на котором сравнивается пользовательский интерфейс группы пользователей на порталах Intune и Azure](./media/reassign-ca-1.png)
 
     > [!IMPORTANT] 
@@ -138,7 +138,7 @@ ms.locfileid: "66048980"
 
     ![Сравнение пользовательского интерфейса включения политики условного доступа в Intune и Azure](./media/reassign-ca-11.png)
 
-## <a name="reassign-intune-device-based-conditional-access-policies-for-eas-clients"></a>Переназначение политик условного доступа Intune на основе устройств для клиентов EAS
+## <a name="reassign-intune-device-based-conditional-access-policies-for-eas-clients"></a>Переназначение политик условного доступа Intune на основе устройств для клиентов EAS
 
 Если вы настроили параметры Exchange Active Sync в рамках политики Exchange Online на классическом портале Intune, нужно создать вторую политику условного доступа на портале Azure.
 
@@ -206,6 +206,6 @@ ms.locfileid: "66048980"
 
 ## <a name="see-also"></a>См. также
 
-- [Стандартные способы использования условного доступа с помощью Intune](conditional-access-intune-common-ways-use.md)
+- [Каковы стандартные способы использования условного доступа с помощью Intune?](conditional-access-intune-common-ways-use.md)
 - [Условный доступ на основе приложений с помощью Intune](app-based-conditional-access-intune.md)
 - [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)

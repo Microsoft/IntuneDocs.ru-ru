@@ -16,12 +16,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fc1f877f9b457c6abafef7f1e66e8b04bba2c8e0
-ms.sourcegitcommit: 2f32f6d2129bc10cc4a02115732e995edceb37d6
+ms.openlocfilehash: 624cc72ad9539659e1ce2c8b70f6a6698d5e7ba2
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66829099"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67046284"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-unmanaged-devices"></a>Руководство. Защита электронной почты Exchange Online на неуправляемых устройствах
 

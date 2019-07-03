@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 961dcb953584bc16ad3b3613596223af2a3596c7
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 1a50eb6e58c7b866af32387a85026eb87f825b15
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66049934"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67045903"
 ---
 # <a name="microsoft-intune-protected-apps"></a>Защищенные приложения Microsoft Intune  
 

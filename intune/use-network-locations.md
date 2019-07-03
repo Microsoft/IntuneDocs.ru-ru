@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ddc58aed6e7a1efaecd8b7e7cf51a39e43d14e58
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 5491e0d2dfb1aa1989fc202203d9a895823b0b73
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66044330"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67043895"
 ---
 # <a name="use-locations-network-fence-in-intune"></a>Использование расположений (границы сети) в Intune
 

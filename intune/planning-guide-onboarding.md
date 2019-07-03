@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3e21eb6169acf8ae69ace94fd54007eaa4f7f90f
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 5ed13994576f67c7b740a2ea895db9d1a0f42289
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66046755"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67044357"
 ---
 # <a name="implement-your-microsoft-intune-plan"></a>План внедрения Microsoft Intune
 

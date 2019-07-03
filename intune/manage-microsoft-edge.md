@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c1a255391a2cf27a764da6122031fd0c9cbb64cf
-ms.sourcegitcommit: cb76efd3db60a422a65478ebce83d3aea7b5eeed
+ms.openlocfilehash: 1ad8a3298a801b07e021b84bd5eea9c91f01f1a2
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751363"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67044880"
 ---
 # <a name="manage-web-access-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge через Microsoft Intune
 
@@ -66,13 +66,13 @@ ms.locfileid: "66751363"
 4. Щелкните **Требовать утвержденное клиентское приложение**.
 5. В колонке **Предоставление** щелкните **Выбрать**. Эту политику необходимо назначить облачным приложениям, которые должны быть доступны только приложению Intune Managed Browser.
 
-    ![Политика условного доступа — назначение](./media/manage-microsoft-edge/manage-microsoft-edge-01.png)
+    ![Политика условного доступа — назначение](./media/manage-microsoft-edge/manage-microsoft-edge-01.png)
 
 6. В разделе "Назначения" выберите "Условия" > "Клиентские приложения". Появится колонка "Клиентские приложения".
 7. Чтобы применить политику к определенным клиентским приложениям, нажмите "Да" под элементом "Настроить".
 8. Убедитесь в том, что в качестве клиентского приложения выбран "Браузер".
 
-    ![Политика условного доступа — выбор клиентских приложений](./media/manage-microsoft-edge/manage-microsoft-edge-02.png)
+    ![Политика условного доступа — выбор клиентских приложений](./media/manage-microsoft-edge/manage-microsoft-edge-02.png)
 
     > [!NOTE]
     > Чтобы выбрать собственные (не браузерные) приложения, которым разрешен доступ к этим облачным приложениям, можно также выбрать **Мобильные приложения и настольные клиенты**.

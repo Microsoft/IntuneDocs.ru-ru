@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7d66a9ae4d72ef37f39c2017c4351847e8bace46
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 6f59ff42f7707ace92442bf37ddac9679e36448f
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66049899"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67045882"
 ---
 # <a name="manage-android-work-profile-devices-with-intune"></a>Управление устройствами с рабочим профилем Android в Intune
 

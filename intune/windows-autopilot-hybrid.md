@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 030467009e0fed8716a1aa622474188352c0e0b0
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: cb9d1f52ccb147dc9a412f3cb7b601e3b18f214a
+ms.sourcegitcommit: a63b9eaa59867ab2b0a6aa415c19d9fff4fda874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66050356"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389322"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
@@ -32,7 +32,7 @@ ms.locfileid: "66050356"
 Необходимо успешно настроить [гибридные устройства, присоединенные к Azure AD](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan). Обязательно [проверьте регистрацию устройств]( https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#verify-the-registration) с помощью командлета Get-MsolDevice.
 
 Требования к устройствам:
-- Windows 10 с [обновлением за октябрь 2018 г](https://blogs.windows.com/windowsexperience/2018/10/02/how-to-get-the-windows-10-october-2018-update/).
+- ОС Windows 10 версии 1809 или более поздней версии;
 - Доступ к Интернету.
 - Доступ к Active Directory (VPN-подключение пока не поддерживается).
 - Пройденный запуск при первом включении компьютера (OOBE).

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5329e23ee6307f86c7b1fcaead0cb24b8271443c
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 74050f51347f234029a83ce0e3463fe6b11aee1b
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041622"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67044578"
 ---
 # <a name="what-is-mobile-threat-defense-integration-with-intune"></a>Что такое интеграция службы защиты мобильных устройств от угроз с Intune?
 Intune может интегрировать данные из поставщика Mobile Threat Defense в виде источника информации для политик соответствия и правил условного доступа. Эти сведения можно использовать для защиты корпоративных ресурсов, таких как Exchange и SharePoint, путем блокировки доступа со скомпрометированных мобильных устройств.  

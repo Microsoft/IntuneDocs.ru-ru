@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 06/05/2019
+ms.date: 06/19/2019
 ms.topic: article
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c1119a5681033574ec0a114442b122990da872bf
-ms.sourcegitcommit: cb76efd3db60a422a65478ebce83d3aea7b5eeed
+ms.openlocfilehash: 985ca70dba2a5a486947bd2de08e7f8934e90d75
+ms.sourcegitcommit: 2545ffb75b8d9290718d3a67acdcbea2f279090f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66749809"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67263723"
 ---
 # <a name="configure-and-use-pkcs-certificates-with-intune"></a>Настройка и использование сертификатов PKCS в Intune
 
@@ -278,8 +278,6 @@ Microsoft Intune включает встроенные параметры, по�
 
 Профиль создан, но он пока ничего не делает. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
-[Используйте сертификаты SCEP](certificates-scep-configure.md) или [выдайте сертификаты PKCS из веб-службы диспетчера PKI Symantec](certificates-symantec-configure.md).
+[Используйте сертификаты SCEP](certificates-scep-configure.md) или [выдайте сертификаты PKCS из веб-службы диспетчера PKI Digicert](certificates-digicert-configure.md).
 
-[NavigateIntune]: ./media/certificates-pfx-configure-profile-new.png "Перейдите к Intune на портале Azure и создайте профиль для доверенного сертификата"
-[ProfileSettings]: ./media/certificates-pfx-configure-profile-fill.png "Создайте профиль и отправьте доверенный сертификат"
-[ConnectorDownload]: ./media/certificates-download-connector.png "Скачайте соединитель сертификатов на портале Azure"  
+

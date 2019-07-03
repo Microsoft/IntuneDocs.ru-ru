@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: ''
-ms.openlocfilehash: 55e758c8a7eddc1a5500464754448d26680ec772
-ms.sourcegitcommit: cc5d757018d05fc03ac9ea3d30f563df9bfd61ed
+ms.openlocfilehash: eda0d77fc5cdb11fa4bc5b21f48ceb7616ecfb15
+ms.sourcegitcommit: a63b9eaa59867ab2b0a6aa415c19d9fff4fda874
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66819576"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389258"
 ---
 # <a name="intune-enrollment-methods-for-windows-devices"></a>Способы регистрации в Intune для устройств Windows
 
@@ -51,6 +51,7 @@ ms.locfileid: "66819576"
 - [Совместное управление Configuration Manager](https://docs.microsoft.com/sccm/comanage/overview) позволяет администраторам регистрировать в Intune существующие устройства, управляемые Configuration Manager, чтобы получить двойное преимущество от использования Intune и Configuration Manager. 
 - [Диспетчер регистрации устройств](device-enrollment-manager-enroll.md) (DEM) — это специальная учетная запись службы. Учетные записи DEM имеют разрешения, позволяющие авторизованным пользователям зарегистрировать несколько корпоративных устройств и управлять ими. Эти типы устройств хорошо подходят для приложений в сфере розничной торговли или коммунального обслуживания, но являются неприемлемым вариантом для доступа к электронной почте или корпоративным ресурсам. Этот метод препятствует использованию таких возможностей, как условный доступ. 
 - [Массовая регистрация](windows-bulk-enroll.md) позволяет авторизованному пользователю присоединить большое количество новых корпоративных устройств к Azure Active Directory и Intune. Вы создаете пакет подготовки с помощью приложения "Конструктор конфигураций Windows" (WCD). Затем, используя USB-носитель во время запуска при первом включении компьютера Windows или с существующего компьютера Windows, вы устанавливаете пакет подготовки, чтобы автоматически зарегистрировать устройства в Intune. Этот метод препятствует использованию условного доступа. 
+- [Регистрация устройств Windows IoT Базовая](https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/intunedeviceenrollment) выполняется путем подготовки устройства с использованием панели мониторинга Windows IoT Базовая, а затем создания пакета подготовки с помощью конструктора конфигураций Windows. Затем с использованием SD-карты во время начальной загрузки устанавливается пакет подготовки для автоматической регистрации устройств в Intune.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

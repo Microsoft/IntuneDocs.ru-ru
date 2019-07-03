@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b799fd65a08646b46bf7fcce67bf4a09dc0413a6
-ms.sourcegitcommit: cc5d757018d05fc03ac9ea3d30f563df9bfd61ed
+ms.openlocfilehash: bf808a9a7f5a801997f37bd2ecf4c13e3823c332
+ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66819912"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67044801"
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices-in-intune"></a>Автоматизация уведомлений и действий для несоответствующих устройств в Intune
 
@@ -55,7 +55,7 @@ ms.locfileid: "66819912"
   - [macOS](compliance-policy-create-mac-os.md)
   - [Windows](compliance-policy-create-windows.md)
 
-- При использовании политик соответствия устройств для блокировки доступа к корпоративным ресурсам необходимо настроить условный доступ Azure AD. Рекомендации см. в разделе [Условный доступ в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) или [Распространенные способы использования условного доступа с Intune](conditional-access-intune-common-ways-use.md).
+- При использовании политик соответствия устройств для блокировки доступа к корпоративным ресурсам необходимо настроить условный доступ Azure AD. Рекомендации см. в статьях об [условном доступе в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) или [распространенных способах использования условного доступа с Intune](conditional-access-intune-common-ways-use.md).
 
 ## <a name="create-a-notification-message-template"></a>Создание шаблона уведомлений
 
