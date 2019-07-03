@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cb9d1f52ccb147dc9a412f3cb7b601e3b18f214a
-ms.sourcegitcommit: a63b9eaa59867ab2b0a6aa415c19d9fff4fda874
+ms.openlocfilehash: 0bf75aca7035eb2873f84f76d3c9ee0e00df7fb3
+ms.sourcegitcommit: 116ef72b9da4d114782d4b8dd9f57556c9b01511
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389322"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "67494531"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
@@ -163,7 +163,7 @@ ms.locfileid: "67389322"
 
 ### <a name="register-devices-from-an-oem"></a>Регистрация устройств изготовителем
 
-Некоторые изготовители оборудования сами регистрируют устройства. Дополнительные сведения см. на [странице Windows Autopilot](http://aka.ms/WindowsAutopilot).
+Некоторые изготовители оборудования сами регистрируют устройства. Дополнительные сведения см. на [странице Windows Autopilot](https://aka.ms/WindowsAutopilot).
 
 Когда устройства будут *зарегистрированы* в Autopilot и еще не зарегистрированы в Intune, они будут отображаться в трех местах (с серийными номерами в качестве имен):
 - Панель **Устройства Autopilot** в Intune на портале Azure. Последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Устройства**.
