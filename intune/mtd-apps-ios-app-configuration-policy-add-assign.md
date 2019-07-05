@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 06/14/2019
+ms.date: 06/21/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 78d6b8faf5c5c3ef41f3eb5007d550c869491f60
-ms.sourcegitcommit: 268f495de486718b99d9c1b60d4576030cafd17b
+ms.openlocfilehash: c6065fda71688909dd7fcbc6ef1909e3d3ab36b8
+ms.sourcegitcommit: 6bba9f2ef4d1ec699f5713a4da4f960e7317f1cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "67141803"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67407117"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune  
 
@@ -56,6 +56,7 @@ ms.locfileid: "67141803"
 - [Pradeo](#configure-pradeo-apps)
 - [Better Mobile](#configure-better-mobile-apps)
 - [Sophos Mobile](#configure-sophos-apps)
+- [Wandera](#configure-wandera-apps)
 
 ### <a name="configure-lookout-for-work-apps"></a>Настройка приложений Lookout for Work  
 - **Android**  
@@ -129,6 +130,14 @@ ms.locfileid: "67141803"
 - **iOS**
   - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Примените этот [URL-адрес приложения ActiveShield в магазине](https://itunes.apple.com/us/app/sophos-mobile-security/id1086924662?mt=8) на **шаге 11** для параметра **URL-адрес Appstore**.
 
+### <a name="configure-wandera-apps"></a>Настройка приложений Wandera  
+ 
+- **Android**
+  - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). Используйте этот [URL-адрес мобильного решения Wandera в магазине приложений](https://play.google.com/store/apps/details?id=com.wandera.android) на **шаге 7**. В качестве **Минимальной версии операционной системы** выберите **Android 5.0**.
+
+- **iOS**
+  - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](https://docs.microsoft.com/intune/store-apps-ios). Используйте этот [URL-адрес мобильного решения Wandera в магазине приложений](https://itunes.apple.com/app/wandera/id605469330) на **шаге 11** для параметра **URL-адрес Appstore**.
+
 ## <a name="configure-your-mtd-apps-with-an-ios-app-configuration-policy"></a>Настройка приложений MTD с политикой конфигурации приложений iOS  
 
 ### <a name="lookout-for-work-app-configuration-policy"></a>Политика конфигурации приложений Lookout for Work  
@@ -196,6 +205,27 @@ Pradeo не поддерживает политики конфигурации �
 
 ### <a name="sophos-mobile-app-configuration-policy"></a>Политика конфигурации приложений Sophos Mobile  
 Создайте политику конфигурации приложений iOS, как описано в статье об [использовании политики конфигурации приложений iOS](app-configuration-policies-use-ios.md).
+
+### <a name="wandera-app-configuration-policy"></a>Политика конфигурации приложения Wandera  
+Чтобы добавить политику конфигурации приложения Wandera для iOS, см. инструкции по [использованию политик конфигурации приложений Microsoft Intune для iOS](app-configuration-policies-use-ios.md).
+- На **шаге 8** используйте функцию **Введите данные XML**. Войдите на портал Wandera RADAR и перейдите в раздел **Settings (Параметры)**  > **EMM Integration (Интеграция EMM)**  > **App Push (Отправка приложения)** . Выберите **Intune**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации.  
+
+  ```
+  <dict><key>secretKey</key>
+  <string>SeeRADAR</string>
+  <key>apiKey</key>
+  <string> SeeRADAR </string>
+  <key>customerId</key>
+  <string> SeeRADAR </string>
+  <key>email</key>
+  <string>{{mail}}</string>
+  <key>firstName</key>
+  <string>{{username}}</string>
+  <key>lastName</key>
+  <string></string>
+  <key>activationType</key>
+  <string>PROVISION_THEN_AWP</string></dict>  
+  ```
 
 ## <a name="assign-apps-to-groups"></a>Назначение приложений группам  
 - Этот шаг применяется ко всем партнерам MTD. См. инструкции по [назначению приложений группам в Intune](apps-deploy.md).
