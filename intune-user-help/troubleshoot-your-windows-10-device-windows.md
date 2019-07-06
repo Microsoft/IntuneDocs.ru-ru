@@ -18,17 +18,17 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2fe8a765bdb11d0b94dbbb7519360c6e7a01e8ce
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: bbd4f8f0925aac5aada44277c4d21a71b412e0e7
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61501244"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67546679"
 ---
 # <a name="troubleshoot-your-windows-10-device-enrollment"></a>Устранение проблем при регистрации устройств c Windows 10
 Если вы уже зарегистрировали устройство, но по-прежнему не можете получить доступ к рабочей или учебной электронной почте и файлам, попробуйте выполнить эти действия по устранению неполадок.  
 
-1.  Посмотрите на следующие два снимка экрана и выберите тот, который похож на экран вашего устройства. Выполните действия, показанные на выбранном экране.
+1. Посмотрите на следующие два снимка экрана и выберите тот, который похож на экран вашего устройства. Выполните действия, показанные на выбранном экране.
 
     Если вы видите этот экран, следуйте инструкциям из раздела [Устранение неполадок при появлении элемента "Доступ к учетной записи места работы или учебного заведения"](#troubleshooting-steps-to-follow-if-you-see-access-work-or-school).
 

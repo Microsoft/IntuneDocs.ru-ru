@@ -18,12 +18,12 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b39cc879c9e1232335c38e8d95c0861a12662c6a
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 4784bcb706dd8eef395763729e04503682197f78
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57564471"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67545269"
 ---
 # <a name="how-to-protect-your-windows-device-using-encryption"></a>Как защитить устройство с Windows с помощью шифрования
 
@@ -37,8 +37,8 @@ ms.locfileid: "57564471"
 
 Если у вас настольное устройство, выполните следующие действия для шифрования данных на нем.
 
-1.  Найдите и запустите приложение **Управление BitLocker**.
+1. Найдите и запустите приложение **Управление BitLocker**.
 
-2.  Выберите **Включить BitLocker** и следуйте приведенным инструкциям, чтобы зашифровать все диски.
+2. Выберите **Включить BitLocker** и следуйте приведенным инструкциям, чтобы зашифровать все диски.
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

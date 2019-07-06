@@ -16,12 +16,12 @@ searchScope:
 ROBOTS: ''
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1b55d41939b9772227cee0f12da65040edbca0d0
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: a012cb7fe25b70ee260f2b3a2d49a47c3bae06a3
+ms.sourcegitcommit: cb4e71cd48311ea693001979ee59f621237a6e6f
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55843771"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558465"
 ---
 # <a name="you-need-to-install-sandblast-mobile-protect-on-your-android-device"></a>Вам необходимо установить SandBlast Mobile Protect на устройстве с Android
 
@@ -47,9 +47,9 @@ ms.locfileid: "55843771"
 
 8. SandBlast Mobile Protect сразу начнет проверять ваше устройство на наличие угроз безопасности.
 
-9.  Если SandBlast Mobile Protect обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
+9. Если SandBlast Mobile Protect обнаружит на устройстве угрозы безопасности, будут предложены инструкции по устранению проблемы.
 
-10.  Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
+10. Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
 
 11. Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
 

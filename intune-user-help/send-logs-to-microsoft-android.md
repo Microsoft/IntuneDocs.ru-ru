@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 52f6caf8e48cd9781648acf1de0152ec107d5246
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 20bdfcce6574d31c37442a7bad58582aa7ea2fb6
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55850915"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67546138"
 ---
 # <a name="send-logs-to-the-company-portal-developers-for-android-devices"></a>Отправка журналов разработчикам корпоративного портала для устройств Android
 
@@ -34,16 +34,16 @@ ms.locfileid: "55850915"
 
 Чтобы отправить журналы в корпорацию Майкрософт:
 
-1.  Откройте приложение корпоративного портала.
+1. Откройте приложение корпоративного портала.
 
-2.  Выберите **Меню** > **Справка** > **Поддержка по электронной почте**.
+2. Выберите **Меню** > **Справка** > **Поддержка по электронной почте**.
 
     > [!NOTE]
     > **Меню** может быть представлено программной или аппаратной кнопкой в зависимости от используемого устройства Android.
 
-3.  Выберите **Upload Logs Only** (Только отправка журналов).
+3. Выберите **Upload Logs Only** (Только отправка журналов).
 
-4.  По завершении отправки вы получите идентификатор инцидента. Сохраните его для своих записей.
+4. По завершении отправки вы получите идентификатор инцидента. Сохраните его для своих записей.
 
 Чтобы напрямую обратиться к команде разработчиков корпоративного портала для Android, отправьте сообщение по адресу <a href="mailto:wintunedroidfbk@microsoft.com?subject=Send logs to Microsoft&body=Describe the issue you are having.">wintunedroidfbk@microsoft.com</a>. 
 

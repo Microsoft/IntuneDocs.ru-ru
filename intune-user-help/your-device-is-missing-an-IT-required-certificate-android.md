@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e0ef2bc644b537787bd5275e95a4ecc72c899393
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 6bdf97e6a36a49bc6df5a182af7676c357440f3e
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55835883"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67529323"
 ---
 # <a name="your-android-device-is-missing-a-certificate-required-by-your-company-support"></a>На устройстве Android отсутствует сертификат, требуемый службой поддержки вашей компании
 

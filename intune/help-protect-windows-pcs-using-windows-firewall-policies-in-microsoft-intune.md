@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f3b552c42a7a84ad8099a406bfff2db575785915
-ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
+ms.openlocfilehash: eade2a1bc19e4b0c477faf2ad8e262196da8cc30
+ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "67403020"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67572520"
 ---
 # <a name="help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune"></a>Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune.
 
@@ -43,19 +43,19 @@ Microsoft Intune позволяет защитить компьютеры Window
 > [!NOTE]
 > Если политика Microsoft Intune и групповая политика настроены для управления одним и тем же параметром на одном и том же компьютере, настройки групповой политики переопределяют настройки политики Microsoft Intune. Сведения о предотвращении конфликтов между политиками Intune и групповой политикой см. в статье [Разрешение конфликтов GPO и политик Microsoft Intune](resolve-gpo-and-microsoft-intune-policy-conflicts.md).
 >
-> Если вы хотите развернуть параметры брандмауэра Windows на компьютерах под управлением Windows Vista, на этих компьютерах необходимо сначала установить [исправление KB971800](http://support2.microsoft.com/kb/971800).
+> Если вы хотите развернуть параметры брандмауэра Windows на компьютерах под управлением Windows Vista, необходимо сначала установить [исправление KB971800](http://support2.microsoft.com/kb/971800) на этих компьютерах.
 
 > [!IMPORTANT]
 > Для управления брандмауэром Windows с помощью Intune необходимо убедиться в том, что на управляемых компьютерах включены две следующие службы:
 >
-> -   Брандмауэр Windows
-> -   Агент политики IPsec
+> - Брандмауэр Windows
+> - Агент политики IPsec
 
 ## <a name="configure-a-windows-firewall-policy"></a>Настройка политики брандмауэра Windows
 
-1.  В [консоли администрирования Microsoft Intune](https://manage.microsoft.com/) выберите **Политика** &gt; **Добавить политику**.
+1. В [консоли администрирования Microsoft Intune](https://manage.microsoft.com/) выберите **Политика** &gt; **Добавить политику**.
 
-2.  Настройте и разверните политику **Параметры брандмауэра Windows** . Можно использовать рекомендуемые параметры или настроить параметры. Дополнительные сведения о способах создания и развертывания политик см. в статье [Общие задачи управления ПК Windows с клиентом Microsoft Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md).
+2. Настройте и разверните политику **Параметры брандмауэра Windows** . Можно использовать рекомендуемые параметры или настроить параметры. Дополнительные сведения о способах создания и развертывания политик см. в статье [Общие задачи управления ПК Windows с клиентом Microsoft Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md).
 
     В подразделе ниже приведены значения, которые можно настроить в политике, а также стандартные значения, которые будут использоваться, если не настраивать политику.
 
@@ -84,7 +84,7 @@ Microsoft Intune позволяет защитить компьютеры Window
 Значением по умолчанию для каждого из этих параметров является **Да** — наиболее безопасное значение.
 
 > [!IMPORTANT]
-> Если в среде есть управляемые компьютеры, на которых установлена ОС Windows Vista без пакетов обновления, необходимо установить обновление, описанное в [статье 971800](http://go.microsoft.com/fwlink/?LinkId=188405) базы знаний Майкрософт, или отключить в политиках, развернутых на этих компьютерах, параметр **Блокировать все входящие подключения**.
+> Если в среде есть управляемые компьютеры, на которых установлена ОС Windows Vista без пакетов обновления, необходимо установить обновление, описанное в [статье 971800](http://go.microsoft.com/fwlink/?LinkId=188405) базы знаний Майкрософт, или отключить в политиках, развернутых на этих компьютерах, параметр **Блокировать все входящие подключения** .
 
 ### <a name="notify-the-user-when-windows-firewall-blocks-a-new-program"></a>Уведомлять пользователя, когда брандмауэр Windows блокирует новую программу
 

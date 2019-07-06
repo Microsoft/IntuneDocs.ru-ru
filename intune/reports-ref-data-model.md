@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a8756ad134853bdd19155c3d8f50d1f07960e80f
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: f90568b3939d37bb4e7fbeff72d5e357bc57bd6e
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66045377"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67547890"
 ---
 # <a name="microsoft-intune-data-warehouse-data-model"></a>Модель данных для хранилища данных Microsoft Intune
 
@@ -32,22 +32,22 @@ ms.locfileid: "66045377"
 
 Хранилище предоставляет данные в следующих высокоуровневых областях:
 
-  -  Меры защиты, охватывающие приложения и их использование
-  -  Зарегистрированные устройства, свойства и инвентаризация
-  -  Инвентаризация приложений и программного обеспечения
-  -  Политики конфигурации и соответствия для устройств
+  - Меры защиты, охватывающие приложения и их использование
+  - Зарегистрированные устройства, свойства и инвентаризация
+  - Инвентаризация приложений и программного обеспечения
+  - Политики конфигурации и соответствия для устройств
 
 Эти области содержат сущности, важные в вашей среде Intune. Сведения о наборах сущностей см. в следующих статьях:
 
-  -  [Приложения](reports-ref-application.md)
-  -  [Дата](reports-ref-date.md)
-  -  [Устройства](reports-ref-devices.md)
-  -  [Справочник по расширению управления Intune](reports-ref-intunemanagementextension.md)
-  -  [Политика](reports-ref-policy.md)
-  -  [Управление мобильными приложениями (MAM)](reports-ref-mobile-app-management.md)
-  -  [User](reports-ref-user.md)
-  -  [Справочник по сущности текущего пользователя](reports-ref-current-user.md)
-  -  [Сопоставление пользователя и устройства](reports-ref-user-device.md)
+  - [Приложения](reports-ref-application.md)
+  - [Дата](reports-ref-date.md)
+  - [Устройства](reports-ref-devices.md)
+  - [Справочник по расширению управления Intune](reports-ref-intunemanagementextension.md)
+  - [Политика](reports-ref-policy.md)
+  - [Управление мобильными приложениями (MAM)](reports-ref-mobile-app-management.md)
+  - [User](reports-ref-user.md)
+  - [Справочник по сущности текущего пользователя](reports-ref-current-user.md)
+  - [Сопоставление пользователя и устройства](reports-ref-user-device.md)
 
 ## <a name="relationships-star-schema-model"></a>Связи: модель по схеме типа "звезда"
 

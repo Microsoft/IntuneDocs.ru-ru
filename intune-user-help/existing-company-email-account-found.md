@@ -18,12 +18,12 @@ ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a02a7b69245b9b6e7b8f62fdb9be8acb83d42981
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 8326693717ac96a0e9d32617e7d7080d50206ac6
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55834761"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67545417"
 ---
 # <a name="an-existing-company-email-account-was-found"></a>Найдена существующая учетная запись электронной почты компании.
 
@@ -34,7 +34,7 @@ ms.locfileid: "55834761"
 
 Таким образом вы обеспечите соответствие устройства требованиям безопасности вашей организации и защиту для своей электронной почты.
 
-1.  На устройстве перейдите в раздел **Настройки** и найдите подключенные учетные записи. На устройстве, например, с iOS 11+ и более поздних версий, выберите **Password & Accounts** (Пароль и учетные записи).
+1. На устройстве перейдите в раздел **Настройки** и найдите подключенные учетные записи. На устройстве, например, с iOS 11+ и более поздних версий, выберите **Password & Accounts** (Пароль и учетные записи).
  
 2. Выберите и удалите рабочую учетную запись электронной почты.
 

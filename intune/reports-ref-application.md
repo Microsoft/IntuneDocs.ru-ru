@@ -17,22 +17,22 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: deea42bf9ef35d173761fddb16aa43eaa8876269
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: a1ee376bdf2dff6dc59b6c51b20ff87c1ed81d82
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041081"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67549238"
 ---
 # <a name="reference-for-application-entities"></a>Справочник по сущностям приложения
 
 Категория **Приложение** содержит сущности для мобильных устройств, отслеживающие указанную ниже информацию:
 
-  -  Версии приложения
-  -  Источник установки приложения
-  -  Тип разработчиков, создавших приложение
-  -  Типы управляемого программного обеспечения для приложения, например **sidecar** или **desktop**
-  -  Состояние программы Volume Purchase Program (VPP) для приложения
+  - Версии приложения
+  - Источник установки приложения
+  - Тип разработчиков, создавших приложение
+  - Типы управляемого программного обеспечения для приложения, например **sidecar** или **desktop**
+  - Состояние программы Volume Purchase Program (VPP) для приложения
 
 ## <a name="apprevision"></a>AppRevision
 

@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 913e157e8b2f16376eccf8fc93af137792015eb9
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: ef8dbcda214e2c7cd260fe237e4b9cfd0b7ff326
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55848004"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67546270"
 ---
 # <a name="how-to-set-the-amount-of-time-before-your-android-device-locks-its-screen"></a>Установка периода времени до блокировки экрана на устройстве Android
 
@@ -31,18 +31,18 @@ ms.locfileid: "55848004"
 
 ## <a name="native-non-samsung-knox-device"></a>Устройства без Samsung Knox
 
-1.  В меню **Параметры** на устройстве коснитесь **Безопасность** &gt; **Automatically Lock** (Автоматическая блокировка) (на некоторых устройствах этот пункт называется **Lock phone after** (Заблокировать телефон после)).
+1. В меню **Параметры** на устройстве коснитесь **Безопасность** &gt; **Automatically Lock** (Автоматическая блокировка) (на некоторых устройствах этот пункт называется **Lock phone after** (Заблокировать телефон после)).
 
     Если пункт **Автоматическая блокировка** (на некоторых устройствах этот пункт называется **Заблокировать телефон после**) не отображается, убедитесь, что вы указали допустимый пароль в меню **Параметры** &gt; **Экран блокировки** &gt; **Пароль**.
 
-2.  Укажите значение времени ожидания пароля.
+2. Укажите значение времени ожидания пароля.
 
 ## <a name="samsung-knox-device"></a>Устройство Samsung Knox
 
-1.  В меню **Параметры** на устройстве коснитесь **Lock screen and security (Блокировка экрана и безопасность)** &gt; **Lock automatically** (Автоматическая блокировка).
+1. В меню **Параметры** на устройстве коснитесь **Lock screen and security (Блокировка экрана и безопасность)** &gt; **Lock automatically** (Автоматическая блокировка).
 
     Если пункт **Lock automatically Lock** (Автоматическая блокировка) (на некоторых устройствах этот пункт называется **Lock phone after** (Заблокировать телефон после)) не отображается, убедитесь, что вы указали допустимый пароль в меню **Параметры** &gt; **Screen Lock** (Экран блокировки) &gt; **Пароль**.
 
-2.  Укажите значение времени ожидания пароля.
+2. Укажите значение времени ожидания пароля.
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

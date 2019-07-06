@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 97e9042b6c7c1890cd1829f803c05fbab7ae9b44
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: b612a245e0a12384f8f9e7ec4a2c970afc2fd628
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66040207"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67548823"
 ---
 # <a name="use-policies-to-simplify-windows-pc-management"></a>Использование политик для упрощения управления компьютерами Windows
 
@@ -35,13 +35,13 @@ ms.locfileid: "66040207"
 ### <a name="manage-the-microsoft-intune-center"></a>Управление Microsoft Intune Center
 Пользователи видят программный клиент Intune как **Microsoft Intune Center**. Microsoft Intune Center позволяет пользователям:
 
--   получать приложения с корпоративного портала;
+- получать приложения с корпоративного портала;
 
--   проверять наличие обновлений;
+- проверять наличие обновлений;
 
--   управлять программой Microsoft Intune Endpoint Protection;
+- управлять программой Microsoft Intune Endpoint Protection;
 
--  запрашивать удаленную помощь.
+- запрашивать удаленную помощь.
 
 Microsoft Intune Center устанавливается на всех управляемых компьютерах. В политике Intune Center можно настроить следующие параметры, которые будут отображаться для пользователей в Microsoft Intune Center:
 

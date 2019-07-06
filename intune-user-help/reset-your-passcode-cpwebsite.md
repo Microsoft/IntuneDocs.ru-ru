@@ -18,12 +18,12 @@ ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fd05c600553ec23085b03eb560e0e736c9d7a764
-ms.sourcegitcommit: 25e17a1d002ee1faa49bb89648eb59373528539f
+ms.openlocfilehash: f2cd69725ad10c08f7c137f4444cce831160dd88
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58163434"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67546805"
 ---
 # <a name="how-to-reset-your-device-passcode-from-the-company-portal-website"></a>Сброс секретного кода устройства на корпоративном портале
 
@@ -36,7 +36,7 @@ ms.locfileid: "58163434"
 
 ## <a name="reset-your-passcode"></a>Сброс секретного кода
 
-1.  На [веб-сайте корпоративного портала](https://portal.manage.microsoft.com) нажмите кнопку __Меню__ и выберите пункт __Устройства__.  
+1. На [веб-сайте корпоративного портала](https://portal.manage.microsoft.com) нажмите кнопку __Меню__ и выберите пункт __Устройства__.  
 
 2. Выберите устройство, которому требуется сброс секретного кода.  
 
@@ -79,7 +79,7 @@ ms.locfileid: "58163434"
 **iOS**: удаляется существующий секретный код, но временный не создается. Если вы используете сканер отпечатков пальцев Touch ID для разблокировки устройства или покупок, необходимо настроить его еще раз.  
 
 **Windows 10 Mobile**: удаляется существующий секретный код и создается временный, состоящий из букв и цифр. Если настроено распознавание лиц Windows Hello, оно будет по-прежнему работать с устройством.
-    
+
 **Windows Phone 8.1**: удаляется существующий секретный код и создается временный, состоящий из цифр.  
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).  

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f286ec4928ad4bb026c95d10562d9b339b2ca5f3
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: e8ebc708f76ed1f55f512edda75206d3ed5890a0
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67043914"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67530719"
 ---
 # <a name="troubleshoot-conditional-access"></a>Устранение неполадок условного доступа
 
@@ -35,8 +35,8 @@ ms.locfileid: "67043914"
 - Устройство должно быть зарегистрировано и управляться Intune.
 - Пользователь и устройство должны соответствовать политикам соответствия, заданным в Intune.
 - По умолчанию пользователю должна быть назначена политика соответствия устройства. Это зависит от настройки параметра **Помечать устройства без назначенной политики соответствия как** в разделе **Соответствие устройства политике**  >  **Параметры политики соответствия** на портале администрирования Intune.
--   На устройстве должна быть активирована служба Exchange ActiveSync, если пользователь получает почту через встроенный почтовый клиент устройства, а не через Outlook. Это происходит автоматически на устройствах iOS, Windows Phone и Android.
--   Необходимо правильно настроить соединитель Intune Exchange. Дополнительные сведения см. в разделе [Troubleshooting the Exchange Connector in Microsoft Intune](troubleshoot-exchange-connector.md) (Устранение неполадок соединителя Exchange в Microsoft Intune).
+- На устройстве должна быть активирована служба Exchange ActiveSync, если пользователь получает почту через встроенный почтовый клиент устройства, а не через Outlook. Это происходит автоматически на устройствах iOS, Windows Phone и Android.
+- Необходимо правильно настроить соединитель Intune Exchange. Дополнительные сведения см. в разделе [Troubleshooting the Exchange Connector in Microsoft Intune](troubleshoot-exchange-connector.md) (Устранение неполадок соединителя Exchange в Microsoft Intune).
 
 Выполнение этих условий можно проверить для каждого устройства на портале Azure и в отчете об инвентаризации устройств.
 
@@ -78,5 +78,5 @@ ms.locfileid: "67043914"
   - Используйте следующий командлет PowerShell, чтобы получить список всех мобильных устройств для почтового ящика: Get-ActiveSyncDeviceStatistics -mailbox mbx. Если устройства нет в списке, значит, оно не обращается к Exchange.
   - Если устройство есть в списке, то выполните командлет Get-CASmailbox -identity:’upn’ | fl, чтобы получить подробные сведения о его состоянии доступа, и предоставьте эти сведения в службе технической поддержки Майкрософт.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, вы можете [получить поддержку для Microsoft Intune](get-support.md).

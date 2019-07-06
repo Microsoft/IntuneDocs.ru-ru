@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 015e50d24149a6b6242eda86d5f3d62489e9955d
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 76706fb39c3c5a69cba4fbf3f57c0b58d92e4a27
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61511348"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67560017"
 ---
 <!-- This include is part of the Intune Data Warehouse documentation. -->
 
@@ -14,8 +14,8 @@ ms.locfileid: "61511348"
 
 Для доступа к хранилищу данных Intune (включая API) должны выполняться указанные ниже требования.
 
-  -  Пользователь должен иметь разрешения одного из следующих уровней:
-      -  Глобальный администратор Azure AD
-      -  Администратор служб Intune
-      -  Пользователь с доступом к **хранилищу данных Intune** на основе ролей
-      -  Проверка подлинности без учета пользователя с [проверкой подлинности только приложения](../data-warehouse-app-only-auth.md) 
+  - Пользователь должен иметь разрешения одного из следующих уровней:
+      - Глобальный администратор Azure AD
+      - Администратор служб Intune
+      - Пользователь с доступом к **хранилищу данных Intune** на основе ролей
+      - Проверка подлинности без учета пользователя с [проверкой подлинности только приложения](../data-warehouse-app-only-auth.md) 

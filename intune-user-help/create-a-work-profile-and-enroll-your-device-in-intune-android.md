@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6fb5911f8a706f38e3e880c32113d203369ed870
-ms.sourcegitcommit: d258bcf6716c8a2589d3f8dada819905ee80f233
+ms.openlocfilehash: f0a8b0b633f64a2ed6e3e14d5d884df80342067a
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66196938"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67545467"
 ---
 # <a name="enroll-device-with-android-work-profile"></a>Регистрация устройства с помощью рабочего профиля Android
 
@@ -33,7 +33,7 @@ ms.locfileid: "66196938"
 
 ## <a name="create-work-profile-and-enroll-device"></a>Создание рабочего профиля и регистрация устройства
 
-1.  На экране **приветствия** корпоративного портала Android выберите **Войти**, а затем выполните вход с использованием рабочей или учебной учетной записи. Если вы еще не установили бесплатное приложение, загрузите и установите его из [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
+1. На экране **приветствия** корпоративного портала Android выберите **Войти**, а затем выполните вход с использованием рабочей или учебной учетной записи. Если вы еще не установили бесплатное приложение, загрузите и установите его из [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
 
     ![Экран приветствия приложения корпоративного портала Android](./media/and-enroll-0-welcome-screen.png)
 
@@ -41,15 +41,15 @@ ms.locfileid: "66196938"
 
     ![Экран "Настройка доступа к ресурсам организации"](/intune/media/android_cp_enroll_01_1709_new.png)
 
-3.  На экране **Для чего нужен профиль работы** прочитайте о доступных возможностях и нажмите **ПРОДОЛЖИТЬ**.
+3. На экране **Для чего нужен профиль работы** прочитайте о доступных возможностях и нажмите **ПРОДОЛЖИТЬ**.
 
     ![Для чего нужен профиль работы](./media/andr-afw-why-create-a-work-profile.png)
 
-4.  Просмотрите сведения о том, что именно служба поддержки вашей компании может просматривать на вашем устройстве, и нажмите **ПРОДОЛЖИТЬ**.
+4. Просмотрите сведения о том, что именно служба поддержки вашей компании может просматривать на вашем устройстве, и нажмите **ПРОДОЛЖИТЬ**.
 
     ![Что служба поддержки вашей компании может просматривать на вашем устройстве](/intune/media/android_cp_enroll_02_after_1710.png)
 
-5.  На экране **Дальнейшие действия** прочитайте о том, что происходит во время регистрации, а затем нажмите **ЗАРЕГИСТРИРОВАТЬ**.
+5. На экране **Дальнейшие действия** прочитайте о том, что происходит во время регистрации, а затем нажмите **ЗАРЕГИСТРИРОВАТЬ**.
 
     ![Экран "Дальнейшие действия"](/intune/media/android_work_cp_enroll_03_after_1710.png)
 

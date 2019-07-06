@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d3b9f69e745baffd21b55274e173bb75e8581525
-ms.sourcegitcommit: 690e680e854b7d707421c5e06f134e493f4f4194
-ms.translationtype: HT
+ms.openlocfilehash: 8fa5589f62900027b90659b8f570e7caa10b1cd8
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418950"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67549062"
 ---
 # <a name="mdm-security-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности MDM для Intune  
 
@@ -32,7 +32,7 @@ ms.locfileid: "67418950"
 Дополнительные сведения о новых возможностях последней версии этого базового плана из предыдущей версии, см. в разделе [изменения в новый шаблон](#whats-changed-in-the-new-template).  
 
 > [!NOTE]  
-> В июне 2019 базовых показателей безопасности MDM предварительной версии была заменена выпуска *MDM базовой конфигурации системы безопасности для обновления Spring 2019 (19H 1)* шаблона, являющегося generaly доступных (не в предварительной версии). Профили, которые были созданы до появления *MDM базовой конфигурации системы безопасности для обновления Spring 2019 (19 H 1)* базовых показателей не обновляются для отражения параметры и значения, содержащиеся в базовой конфигурации системы безопасности MDM для обновления Spring 2019 ( 19 H 1) версии.  Несмотря на то, что не удается создать новые профили, основанный на шаблоне предварительной версии, можно изменить и продолжить использовать профили, созданные ранее, основанных на шаблоне предварительной версии.   
+> В июне 2019 базовых показателей безопасности MDM предварительной версии была заменена выпуска *MDM базовой конфигурации системы безопасности для обновления Spring 2019 (19H 1)* шаблона, являющегося generaly доступных (не в предварительной версии). Профили, которые были созданы до появления *MDM базовой конфигурации системы безопасности для обновления Spring 2019 (19 H 1)* базовых показателей не обновляются, отражая параметры и значения, содержащиеся в базовой конфигурации системы безопасности MDM для обновления Spring 2019 (19 H 1 ) версии.  Несмотря на то, что не удается создать новые профили, основанный на шаблоне предварительной версии, можно изменить и продолжить использовать профили, созданные ранее, основанных на шаблоне предварительной версии.   
   
 Дополнительные сведения о базовых конфигураций системы безопасности с помощью Intune, см. в разделе [использовать базовые конфигурации безопасности](security-baselines.md).  
 
@@ -57,7 +57,7 @@ ms.locfileid: "67418950"
 
 - **Microsoft accounts optional for Windows Store apps** (Необязательные учетные записи Майкрософт для приложений Магазина Windows )  
   Этот параметр политики позволяет указать, являются ли учетные записи Майкрософт необязательными для приложений Магазина Windows, которым требуется учетная запись для входа. Эта политика затрагивает только те приложения Магазина Windows, которые ее поддерживают. Если включить этот параметр политики, приложения Магазина Windows, которым для входа обычно требуется учетная запись Майкрософт, позволят пользователям выполнить вход с помощью корпоративной учетной записи. Если отключить или не настроить этот параметр политики, пользователям потребуется использовать для входа учетную запись Майкрософт.  
-    [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067104)  
+  [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067104)  
   
   **По умолчанию**: включено  
 
@@ -68,7 +68,7 @@ ms.locfileid: "67418950"
   Этот параметр политики разрешает пользователям изменять параметры установки, которые обычно доступны только для системных администраторов. Если этот параметр включен, некоторые функции безопасности установщика Windows, не обрабатываются. Он позволяет завершить установку, в противном случае могла быть прервана из-за нарушения безопасности. Если отключить или не настраивать этот параметр политики, средства безопасности Windows Installer запретить пользователям изменять параметры установки, обычно зарезервированы для системных администраторов, такие как указания каталога, на котором установлены файлы. Если установщик Windows обнаруживает, что пакет установки разрешает пользователю изменять защищенные параметры, он останавливается и выводит сообщение. Эти функции безопасности активны только при запуске программы установки в привилегированном контексте безопасности в котором он имеет доступ к каталогам, недоступным для пользователя. Этот параметр политики предназначен для сред, менее строгие. Он может использоваться для предотвращения ошибок программы установки, которая препятствует установке программного обеспечения.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067060)  
 
-    **Значение по умолчанию**: "Да"
+  **Значение по умолчанию**: "Да"
 
 - **Установки MSI блока приложения с повышенными привилегиями**  
   С помощью параметра политики установщик Windows можно настроить таким образом, чтобы при установке любых программ в системе он использовал повышенные привилегии.  
@@ -828,7 +828,7 @@ ms.locfileid: "67418950"
   
 - **Internet Explorer trusted zone java permissions**  (Разрешения Java для зоны надежных сайтов Internet Explorer)  
   Этот параметр политики позволяет управлять разрешениями для Java-приложений. Если этот параметр политики включен, можно выбрать параметры в раскрывающемся списке. Другой: управлять параметрами разрешений по отдельности. Низкий уровень безопасности: разрешить приложениям выполнять все операции. Средний уровень безопасности: запускать приложения в песочнице (область памяти, за пределами которой программа не может выполнять вызовы), использовать рабочую зону (безопасную и защищенную область хранения на клиентском компьютере) и управляемый пользователем ввод-вывод файлов. Высокий уровень безопасности: запускать приложения в песочнице. Отключите Java, чтобы запретить запуск всех приложений. Если этот параметр политики отключен, Java-приложения не запускаются. Если этот параметр политики не настроен, включается низкий уровень безопасности.  
-    [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067200)  
+  [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067200)  
   
   **Значение по умолчанию**: "Высокий уровень безопасности"  
   
@@ -1829,7 +1829,7 @@ ms.locfileid: "67418950"
 - *Исправлен* каким-либо образом из как параметры были доступны в предыдущей версии. 
 
 *[Новое]*  [ **Выше блокировки**](#above-lock):
--  **Голосовые активировать приложения из заблокированного экрана**    
+- **Голосовые активировать приложения из заблокированного экрана**    
 
 *[Новое]* [**Управление приложениями**](#application-management): 
 - **Блок пользователю контроль над установок**  
@@ -2602,7 +2602,7 @@ For more information, see [Policy CSP - InternetExplorer](https://docs.microsoft
   **Default**: Disable  
   
 - **Internet Explorer internet zone logon options**  
-  This policy setting allows you to manage settings for sign in options. If you enable this policy setting, you can choose from the following sign in options. Anonymous log on to disable HTTP authentication and use the guest account only for the Common Internet File System (CIFS) protocol. Prompt for user name and password to query users for user IDs and passwords. After a user is queried, these values can be used silently for the remainder of the session. Automatic log on only in Intranet zone to query users for user IDs and passwords in other zones. After a user is queried, these values can be used silently for the rest of the session. Automatic sign in with current user name and password to attempt log on using Windows NT Challenge Response (also known as NTLM authentication). If the server supports Windows NT Challenge Response, the sign in uses the user's network user name and password for log on. If If the server doesn't support Windows NT Challenge Response, the user is queried to provide the user name and password. If you disable this policy setting, sign in is set to Automatic log on only in Intranet zone. If you don't configure this policy setting, sign in is set to Automatic sign in only in Intranet zone.
+  This policy setting allows you to manage settings for sign in options. If you enable this policy setting, you can choose from the following sign in options. Anonymous log on to disable HTTP authentication and use the guest account only for the Common Internet File System (CIFS) protocol. Prompt for user name and password to query users for user IDs and passwords. After a user is queried, these values can be used silently for the remainder of the session. Automatic log on only in Intranet zone to query users for user IDs and passwords in other zones. After a user is queried, these values can be used silently for the rest of the session. Automatic sign in with current user name and password to attempt log on using Windows NT Challenge Response (also known as NTLM authentication). If the server supports Windows NT Challenge Response, the sign in uses the user's network user name and password for log on. If the server doesn't support Windows NT Challenge Response, the user is queried to provide the user name and password. If you disable this policy setting, sign in is set to Automatic log on only in Intranet zone. If you don't configure this policy setting, sign in is set to Automatic sign in only in Intranet zone.
   
   **Default**: Prompt  
   
