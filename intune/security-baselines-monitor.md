@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 04/19/2019
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a87b54dde9afe9803d71f7cbef62f7c55375f51b
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: e3bf59f75d41d50cfd9280251e20964a35a149a8
+ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66040656"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67403578"
 ---
 # <a name="monitor-security-baseline-and-profiles-in-microsoft-intune"></a>Мониторинг базовых показателей безопасности и профилей в Microsoft Intune  
 
@@ -34,7 +34,7 @@ ms.locfileid: "66040656"
 
 Контролируя базовые показатели, вы получаете представление о состоянии безопасности ваших устройств на основе рекомендаций Майкрософт. Эти сведения можно просмотреть на панели обзора базовых показателей безопасности в консоли Intune.  После первого назначения базовых показателей отображение данных занимает до 24 часов. Для последующих изменений необходимо до 6 часов.  
 
-Чтобы просмотреть отслеживаемые данные для базовых показателей и устройств, войдите на [портал Intune](https://go.microsoft.com/fwlink/?linkid=2090973). Затем выберите **Безопасность устройства** > **Базовые требования безопасности (предварительная версия)**, выберите базовый показатель и взгляните на панель **Обзор**.
+Чтобы просмотреть отслеживаемые данные для базовых показателей и устройств, войдите на [портал Intune](https://go.microsoft.com/fwlink/?linkid=2090973). Затем выберите **Безопасность устройства** > **Базовые показатели системы безопасности**, выберите базовый показатель и взгляните на панель **Обзор**.
 
 Отслеживать состояние на панели **Обзор** можно двумя способами.
 - **Представление устройств** — сводка о количестве устройств в каждой категории состояния для базового показателя.  

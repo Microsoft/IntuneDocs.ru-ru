@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 01/08/2019
+ms.date: 06/27/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -16,24 +16,31 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: lacranda
-ms.openlocfilehash: 99f51662894cac04e6ebcd821806b433dbf3117e
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: de2f201e6a7d0181847db5d212625c9eed9ea698
+ms.sourcegitcommit: 9c06d8071b9affeda32e367bfe85d89bc524ed0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041240"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67413769"
 ---
 # <a name="remove-scep-and-pkcs-certificates-in-microsoft-intune"></a>Удаление сертификатов SCEP и PKCS в Microsoft Intune
 
-В Microsoft Intune можно добавить сертификаты SCEP и PKCS на устройствах. Эти сертификаты также могут быть удалены при [очистке](devices-wipe.md#wipe) устройства или [снятии его с учета](devices-wipe.md#retire). 
+В Microsoft Intune для добавления сертификатов на устройства можно использовать профили сертификатов SCEP и PKCS. 
 
-Существует еще несколько сценариев, в которых сертификаты автоматически удаляются или сохраняются на устройстве. В этой статье перечислены некоторые распространенные сценарии, затрагивающие сертификаты PKCS и SCEP.
+Эти сертификаты можно удалить при [очистке](devices-wipe.md#wipe) устройства или [прекращении его использования](devices-wipe.md#retire). Существуют также сценарии, в которых сертификаты автоматически удаляются или сохраняются на устройстве. В этой статье перечислены некоторые распространенные сценарии, затрагивающие сертификаты PKCS и SCEP.
 
 > [!NOTE]
 > Чтобы удалить и отменить сертификаты для пользователя, удаляемого из локального Active Directory (AD) или Azure Active Directory (Azure AD), нужно выполнить следующие действия по порядку.
 >
 > 1. Снятие с учета или очистка устройства пользователя.
 > 2. Удалите пользователя из локальной Active Directory или Azure AD.
+
+## <a name="manually-deleted-certificates"></a>Удаление сертификатов вручную  
+
+Удаление сертификата вручную применяется на разных платформах для различных сертификатов, подготовленных с помощью профилей сертификатов SCEP или PKCS. Например, пользователь может удалить сертификат с устройства, на которое все еще нацелена политика сертификата.  
+
+В таком случае после удаления сертификата при следующей регистрации устройства в Intune оно будет объявлено несовместимым из-за отсутствия ожидаемого сертификата. Затем Intune выдаст новый сертификат, чтобы восстановить соответствие устройства требованиям. Для восстановления сертификата никаких дополнительных действий не требуется.  
+
 
 ## <a name="windows-devices"></a>Устройства Windows
 

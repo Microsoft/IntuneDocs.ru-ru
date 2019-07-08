@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 703fafec3799b1552ec275c7c88b24b42d2259b9
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: ec65325592fbddc29e75b1d84c94e67558faab62
+ms.sourcegitcommit: 116ef72b9da4d114782d4b8dd9f57556c9b01511
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66044012"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "67494060"
 ---
 # <a name="app-configuration-policies-for-microsoft-intune"></a>Политики конфигурации приложений для Microsoft Intune
 
@@ -64,7 +64,7 @@ ms.locfileid: "66044012"
 
 ### <a name="managed-devices"></a>Управляемые устройства
 
- - Узнайте, как использовать конфигурацию приложений на устройствах iOS.  См. стать. [Добавление политик конфигурации приложений для управляемых устройств iOS](app-configuration-policies-use-ios.md).
+ - Узнайте, как использовать конфигурацию приложений на устройствах iOS.  См. статью [Добавление политик конфигурации приложений для управляемых устройств iOS](app-configuration-policies-use-ios.md).
  - Узнайте, как использовать конфигурацию приложений на устройствах Android.  См. статью [Добавление политик конфигурации приложений для управляемых устройств Android](app-configuration-policies-use-android.md).
 
 ### <a name="managed-apps"></a>Управляемые приложения
