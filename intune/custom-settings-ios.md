@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9637cc36d6ee901b5da0ffbe44180cd7dbdaffee
-ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
+ms.openlocfilehash: c4f9f3cabf0826380dfd97b9c0f772f9846912f0
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66373995"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67530267"
 ---
 # <a name="use-custom-settings-for-ios-devices-in-microsoft-intune"></a>Использование настраиваемых параметров для устройств iOS в Microsoft Intune
 
