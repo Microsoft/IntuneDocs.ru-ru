@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4877920821b2471f752f9fdb8941e87576d937ba
-ms.sourcegitcommit: 9c06d8071b9affeda32e367bfe85d89bc524ed0b
+ms.openlocfilehash: 9ec0ab28f2b32cf3c60d6d674cfac5a5b21d094d
+ms.sourcegitcommit: cb4e71cd48311ea693001979ee59f621237a6e6f
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67413859"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558417"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -70,6 +70,7 @@ ms.locfileid: "67413859"
     * IntuneMAMDataProtectionInfo.h
     * IntuneMAMDataProtectionManager.h
     * IntuneMAMDefs.h
+    * IntuneMAMDiagnosticConsole.h
     * IntuneMAMEnrollmentDelegate.h
     * IntuneMAMEnrollmentManager.h
     * IntuneMAMEnrollmentStatus.h
@@ -735,6 +736,10 @@ API пакета SDK для приложений Intune используют т�
 ### <a name="is-there-a-sample-app-that-demonstrates-how-to-integrate-the-sdk"></a>Есть ли пример приложения, в котором показано, как интегрировать пакет SDK?
 
 Да! Мы недавно пересмотрели и обновили наше приложение-пример с открытым исходным кодом [Wagr для iOS](https://github.com/Microsoft/Wagr-Sample-Intune-iOS-App). Wagr теперь поддерживается политикой защиты в пакете SDK для приложений Intune.
+
+### <a name="how-can-i-troubleshoot-my-app"></a>Как устранить Мое приложение?
+
+Пакет SDK Intune для iOS 9.0.3+ поддерживает возможность добавления консоли диагностики в мобильном приложении для тестирования политик и ведение журнала ошибок. `IntuneMAMDiagnosticConsole.h` Определяет `IntuneMAMDiagnosticConsole` интерфейса класса, который может использоваться разработчиками для отображения консоли диагностики Intune. Это позволяет конечным пользователям и разработчикам во время тестирования, сбора и совместного использования журналы Intune помогает диагностировать проблемы, которые могут возникнуть. Этот API является необязательным для интеграторов.
 
 ## <a name="submit-your-app-to-the-app-store"></a>Отправка приложения в App Store
 

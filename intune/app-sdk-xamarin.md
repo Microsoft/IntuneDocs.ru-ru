@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 506bdc73717ed9af11ab8db0e5f459145ab27f83
-ms.sourcegitcommit: 6bba9f2ef4d1ec699f5713a4da4f960e7317f1cd
-ms.translationtype: MTE75
+ms.openlocfilehash: 7081bc04cc0a6de0a0a6e8214ac0a6edea459378
+ms.sourcegitcommit: cb4e71cd48311ea693001979ee59f621237a6e6f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "67407108"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558386"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -61,9 +61,9 @@ ms.locfileid: "67407108"
 
 ## <a name="enabling-intune-app-protection-polices-in-your-ios-mobile-app"></a>Включение политик защиты приложений Intune в мобильном приложении iOS
 1. Добавьте [пакет Microsoft.Intune.MAM.Xamarin.iOS NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.iOS) в проект Xamarin.iOS.
-2.  Выполните общие шаги, необходимые для интеграции пакета SDK для приложений Intune в мобильное приложение iOS. Можно начать с шага 3 инструкций по интеграции из раздела [Интеграция пакета SDK с мобильным приложением](app-sdk-ios.md#build-the-sdk-into-your-mobile-app). Последний шаг в этом разделе IntuneMAMConfigurator можно пропустить, так как это средство включено в пакет Microsoft.Intune.MAM.Xamarin.iOS и будет запущено автоматически во время сборки.
+2. Выполните общие шаги, необходимые для интеграции пакета SDK для приложений Intune в мобильное приложение iOS. Можно начать с шага 3 инструкций по интеграции из раздела [Интеграция пакета SDK с мобильным приложением](app-sdk-ios.md#build-the-sdk-into-your-mobile-app). Последний шаг в этом разделе IntuneMAMConfigurator можно пропустить, так как это средство включено в пакет Microsoft.Intune.MAM.Xamarin.iOS и будет запущено автоматически во время сборки.
     **Важно.** Включение общего доступа к цепочке ключей для приложения в Visual Studio немного отличается от этой процедуры в среде Xcode. Откройте PLIST-файл прав. Убедитесь, что включен параметр "Включить цепочку ключей" и что в этом разделе добавлены соответствующие группы совместного доступа к цепочке ключей. Убедитесь, что PLIST-файл прав указан в поле "Настраиваемые назначения" параметров пакетной подписи iOS проекта для всех соответствующих сочетаний конфигурации и платформы.
-3.  После добавления привязок и правильной настройки приложение сможет использовать API пакета SDK для Intune. Для этого необходимо включить следующее пространство имен:
+3. После добавления привязок и правильной настройки приложение сможет использовать API пакета SDK для Intune. Для этого необходимо включить следующее пространство имен:
 
       ```csharp
       using Microsoft.Intune.MAM;
@@ -88,7 +88,6 @@ ms.locfileid: "67407108"
 > Модуль повторного сопоставления для iOS отсутствует. Интеграция в приложение Xamarin.Forms должна быть такой же, как и для обычного проекта Xamarin.iOS. 
 
 ## <a name="enabling-intune-app-protection-policies-in-your-android-mobile-app"></a>Включение политик защиты приложений Intune в мобильном приложении Android
-
 1. Добавьте [пакет Microsoft.Intune.MAM.Xamarin.Android NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.Android) в проект Xamarin.Android.
     1. Для приложения Xamarin.Forms также добавьте [пакет Microsoft.Intune.MAM.Remapper.Tasks NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Remapper.Tasks) в свой проект Xamarin.Android. 
 2. Выполните общие шаги, необходимые для [интеграции пакета SDK для приложений Intune](app-sdk-android.md) в мобильное приложение Android, сверяясь со сведениями в этом документе.
@@ -136,7 +135,7 @@ public override void OnMAMCreate()
     IMAMNotificationReceiverRegistry registry = MAMComponents.Get<IMAMNotificationReceiverRegistry>();
     foreach (MAMNotificationType notification in MAMNotificationType.Values())
     {
-    registry.RegisterReceiver(new ToastNotificationReceiver(this), notification);
+        registry.RegisterReceiver(new ToastNotificationReceiver(this), notification);
     }
     ...
 ```
@@ -172,6 +171,14 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 
 > [!NOTE]
 > Remapper перезаписывает зависимость, которая используется Visual Studio для автоматического завершения IntelliSense. Таким образом, может потребоваться перезагрузить и перестроить проект в том случае, если был добавлен Remapper, чтобы технология IntelliSense могла правильно распознать изменения.
+
+### <a name="company-portal-app"></a>Приложение корпоративного портала
+Привязки Xamarin из пакета SDK Intune зависят от наличия [корпоративного портала](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) приложения Android на устройстве, чтобы включить политики защиты приложений. Корпоративный портал извлекает политики защиты приложения из службы Intune. При инициализации приложения политики и код загружаются для реализации этой политики на корпоративном портале. Пользователю не нужно войти в систему.
+
+> [!NOTE]
+> Если приложение "Корпоративный портал" отсутствует на устройстве **Android**, управляемое приложение Intune будет работать так же, как обычное приложение, не поддерживающее политики защиты приложений Intune.
+
+Чтобы включить защиту приложений без регистрации устройства, пользователю _**не**_ нужно регистрировать устройство с помощью приложения корпоративного портала.
 
 ## <a name="support"></a>Support
 Если ваша организация является существующим клиентом Intune, обратитесь к представителю службы поддержки Майкрософт, чтобы отправить запрос в службу поддержки Майкрософт и разместить сведения о проблеме на [соответствующей странице GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues), и мы ответим вам сразу же, как только сможем. 

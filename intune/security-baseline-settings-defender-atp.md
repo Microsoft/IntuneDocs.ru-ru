@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 837442f93bbac2c5eb19b3c433c91f91aa38a17e
-ms.sourcegitcommit: 43ba5a05b2e1dc1997126d3574884f65cde449c7
+ms.openlocfilehash: 5bdd2171853a8db944c910ef4d912f7681d17077
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67197548"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67549128"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
@@ -192,7 +192,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 ## <a name="device-control"></a>Управление устройством  
 
 - **Сканировать съемные диски при полной проверке**  
-  [Defender/AllowFullScanRemovableDriveScanning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning). Когда выбрано значение *Да*, Защитник проверяет съемные носители (например, устройства флэш-памяти) на наличие вредоносного и нежелательного программного обеспечения во время полного сканирования. Антивирусная программа Защитника сканирует все файлы на USB-устройствах перед их запуском.
+  [Defender/AllowFullScanRemovableDriveScanning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning). Если выбрано значение *Да*, Защитник проверяет съемные носители (например, устройства флэш-памяти) на наличие вредоносного и нежелательного программного обеспечения во время полного сканирования. Антивирусная программа Защитника сканирует все файлы на USB-устройствах перед их запуском.
 
   Связанные параметры в этом списке: *Defender/AllowFullScanOnMappedNetworkDrives*  
 

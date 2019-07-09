@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/24/2018
+ms.date: 07/01/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -16,20 +16,26 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b5f1b4c0fd0c9d8cfdc443b2af3c6f90a6f32756
-ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
+ms.openlocfilehash: aea4a3d6f8d28e4277435b1d9fc092e68adb9e55
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66373636"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67530316"
 ---
 # <a name="use-custom-settings-for-android-enterprise-devices-in-microsoft-intune"></a>Использование настраиваемых параметров для устройств Android Enterprise в Microsoft Intune
 
-Microsoft Intune позволяет добавить или создать настраиваемые параметры для ваших устройств Android Enterprise с помощью настраиваемого профиля. Настраиваемые профили являются компонентом Intune. Они предназначены для добавления параметров и функций устройств, которые не встроены в Intune.
+Microsoft Intune позволяет добавлять или создавать настраиваемые параметры для ваших устройств Android для бизнеса с рабочим профилем с помощью пользовательского профиля. Настраиваемые профили являются компонентом Intune. Они предназначены для добавления параметров и функций устройств, которые не встроены в Intune.
 
 В настраиваемых профилях Android Enterprise используются параметры OMA-URI для управления различными функциями на устройствах Android Enterprise. Эти параметры обычно используются производителями мобильных устройств для управления такими функциями.
 
-Intune поддерживает ограниченное число настраиваемых профилей Android.
+Intune поддерживает ограниченное число пользовательских профилей Android для бизнеса, включая:
+
+- ./Vendor/MSFT/WiFi/Profile/SSID или параметры: [создания профиля Wi-Fi с общим ключом](wi-fi-profile-shared-key.md) имеет несколько примеров.
+- ./Vendor/MSFT/VPN/Profile/Name/PackageList: [создать профиль VPN на уровне приложения](android-pulse-secure-per-app-vpn.md) имеет несколько примеров.
+- ./Vendor/MSFT/WorkProfile/DisallowCrossProfileCopyPaste: см. в разделе [пример](#example) (в этой статье).
+
+Если требуется задать дополнительные параметры, см. в разделе [OEMConfig для Android Enterprise](android-oem-configuration-overview.md).
 
 Эта статья описывает создание настраиваемого профиля для устройств Android Enterprise. Она также содержит пример настраиваемого профиля, который блокирует функции копирования и вставки.
 
