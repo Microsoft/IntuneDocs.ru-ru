@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 43e1bee27d785269d57fa7a35a8f6f9fd9bbbd8c
-ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
+ms.openlocfilehash: 49a6e8e625a08c9ad039d3106ff5d5c7001c2cab
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67530569"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67547110"
 ---
 # <a name="integrate-check-point-sandblast-mobile-with-intune"></a>Интеграция Check Point SandBlast Mobile с Intune
 
@@ -33,54 +33,54 @@ ms.locfileid: "67530569"
 
 Перед началом интеграции Check Point SandBlast Mobile с Intune убедитесь, что у вас есть следующее:
 
--   Подписка на Microsoft Intune
+- Подписка на Microsoft Intune
 
--   Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
+- Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
 
-    -   Вход и чтение профилей пользователей
+    - Вход и чтение профилей пользователей
 
-    -   Доступ к каталогу от имени вошедшего в систему пользователя
+    - Доступ к каталогу от имени вошедшего в систему пользователя
 
-    -   Чтение данных каталога
+    - Чтение данных каталога
 
-    -   Отправка сведений об устройстве в Intune
+    - Отправка сведений об устройстве в Intune
 
--   Учетные данные администратора для доступа к консоли Check Point SandBlast Mobile MTD.
+- Учетные данные администратора для доступа к консоли Check Point SandBlast Mobile MTD.
 
 ### <a name="check-point-sandblast-app-authorization"></a>Авторизация приложения Check Point SandBlast
 
 Авторизация приложения Check Point SandBlast выполняется следующим образом:
 
--   Вы разрешаете службе Check Point SandBlast Mobile передавать в Intune сведения о состоянии работоспособности устройства.
+- Вы разрешаете службе Check Point SandBlast Mobile передавать в Intune сведения о состоянии работоспособности устройства.
 
--   CheckPoint SandBlast Mobile синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
+- CheckPoint SandBlast Mobile синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
 
--   Вы разрешаете консоли администрирования Check Point SandBlast использовать единый вход (SSO) Azure AD.
+- Вы разрешаете консоли администрирования Check Point SandBlast использовать единый вход (SSO) Azure AD.
 
--   Вы разрешаете приложению Check Point SandBlast Mobile выполнять вход, используя SSO Azure AD.
+- Вы разрешаете приложению Check Point SandBlast Mobile выполнять вход, используя SSO Azure AD.
 
 ## <a name="to-set-up-check-point-sandblast-mobile-integration"></a>Настройка интеграции Check Point SandBlast Mobile
 
-1.  Откройте [Консоль Check Point SandBlast Mobile MTD](https://intune-4.eu1.locsec.net/) и выполните вход под своими учетными данными.
+1. Откройте [Консоль Check Point SandBlast Mobile MTD](https://intune-4.eu1.locsec.net/) и выполните вход под своими учетными данными.
 
-2.  Откройте вкладку **Параметры**.
+2. Откройте вкладку **Параметры**.
 
-3.  Выберите **Управление устройствами**, а затем **Параметры**.
+3. Выберите **Управление устройствами**, а затем **Параметры**.
 
-4.  Выберите **Microsoft Intune** в раскрывающемся списке = **службы MDM**.
+4. Выберите **Microsoft Intune** в раскрывающемся списке = **службы MDM**.
 
-5.  После того, как Microsoft Intune будет выбран в качестве службы MDM, появится всплывающее окно **Конфигурация Microsoft Intune**. В этом окне выберите пункт **Добавить в организацию** для каждой платформы ваших устройств: iOS, Android и Windows, чтобы разрешить Check Point SandBlast Mobile взаимодействовать с Intune и Azure AD.
+5. После того, как Microsoft Intune будет выбран в качестве службы MDM, появится всплывающее окно **Конфигурация Microsoft Intune**. В этом окне выберите пункт **Добавить в организацию** для каждой платформы ваших устройств: iOS, Android и Windows, чтобы разрешить Check Point SandBlast Mobile взаимодействовать с Intune и Azure AD.
 
     ![Изображение конфигурации Check Point MTD в Intune](./media/checkpoint-MTD-1.PNG)
 
     > [!IMPORTANT]
     > Чтобы перейти к следующему шагу, необходимо добавить все платформы устройств.
 
-6.  Нажмите кнопку **Принять**, чтобы разрешить приложению Check Point SandBlast Mobile взаимодействовать с Intune и Azure Active Directory.
+6. Нажмите кнопку **Принять**, чтобы разрешить приложению Check Point SandBlast Mobile взаимодействовать с Intune и Azure Active Directory.
 
-7.  После того, как все платформы устройств будут включены, необходимо указать группу безопасности Azure AD.
+7. После того, как все платформы устройств будут включены, необходимо указать группу безопасности Azure AD.
 
-8.  Выберите пункт **Проверка**, а после успешной проверки группы безопасности Azure AD нажмите кнопку **Сохранить**.
+8. Выберите пункт **Проверка**, а после успешной проверки группы безопасности Azure AD нажмите кнопку **Сохранить**.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

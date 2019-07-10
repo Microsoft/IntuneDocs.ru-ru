@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/11/2019
+ms.date: 07/09/2019
 ms.topic: quickstart
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 325428f99c50ac4d2eede35d4aaadd858cd8b136
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 2ec03471e4ff3940f09fe4a9bef53b86e32bafa8
+ms.sourcegitcommit: 63b55e81122e5c15893302b109ae137c30855b55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66047670"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67713345"
 ---
 # <a name="quickstart-try-microsoft-intune-for-free"></a>Краткое руководство. Бесплатная пробная версия Microsoft Intune 
 
@@ -61,7 +61,7 @@ Intune предоставляет надежную облачную службу
 
 ## <a name="sign-in-to-the-azure-portal"></a>Вход на портал Azure
 
-1. Откройте новое окно браузера и введите в адресной строке **https://portal.azure.com**. 
+1. Откройте новое окно браузера и введите в адресной строке **https://portal.azure.com** . 
 2. Используйте для входа учетные данные, предоставленные при выполнении предыдущих шагов.
 
     ![Изображение страницы входа на портал Azure](./media/azure-portal-signin.png)
@@ -81,7 +81,7 @@ Intune предоставляет надежную облачную службу
 
 Чтобы изменить центр MDM на Intune, выполните указанные ниже действия.
 
-1. Откройте новое окно браузера и введите в адресной строке **https://portal.azure.com**. 
+1. Откройте новое окно браузера и введите в адресной строке **https://portal.azure.com** . 
 2. Выберите **Все службы**  >  **Microsoft Intune**.
 3. Нажмите на баннер, указывающий, что вы не включили управление устройствами. Если вы не видите баннер, нажмите **Регистрация устройств**. Откроется колонка **Выберите центр MDM**, если вы еще не включили управление устройствами.
 

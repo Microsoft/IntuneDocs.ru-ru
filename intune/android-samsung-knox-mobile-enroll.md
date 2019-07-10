@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d07d9466cda86270898d0e54e8d50b358bcb1b84
-ms.sourcegitcommit: 116ef72b9da4d114782d4b8dd9f57556c9b01511
+ms.openlocfilehash: 0c962085ce61f01613bfc04ef0c80699e6f5a3e8
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "67494107"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67547434"
 ---
 # <a name="automatically-enroll-android-devices-by-using-samsungs-knox-mobile-enrollment"></a>Автоматическая регистрация устройств Android с помощью Samsung Knox Mobile Enrollment
 
@@ -44,15 +44,15 @@ ms.locfileid: "67494107"
 ## <a name="prerequisites"></a>Предварительные условия
 
 Чтобы зарегистрировать устройства в Intune с помощью KME, сначала зарегистрируйте компанию на портале Samsung Knox. Для этого сделайте следующее:
-1.  [Убедитесь, что платформа KME доступна в вашем регионе.](https://www.samsungknox.com/en/solutions/it-solutions/knox-configure/available-countries) Платформа KME доступна в более чем 55 странах. Убедитесь, что ваша страна или регион развертывания поддерживаются.
+1. [Убедитесь, что платформа KME доступна в вашем регионе.](https://www.samsungknox.com/en/solutions/it-solutions/knox-configure/available-countries) Платформа KME доступна в более чем 55 странах. Убедитесь, что ваша страна или регион развертывания поддерживаются.
 
-2.  [Поддерживаемые устройства.](https://www.samsungknox.com/en/knox-platform/supported-devices/2.4+) KME доступна на всех устройствах Samsung с минимальной версией Knox 2.4 для регистрации Android и минимальной версией Knox 2.8 для регистрации Android Enterprise.
+2. [Поддерживаемые устройства.](https://www.samsungknox.com/en/knox-platform/supported-devices/2.4+) KME доступна на всех устройствах Samsung с минимальной версией Knox 2.4 для регистрации Android и минимальной версией Knox 2.8 для регистрации Android Enterprise.
 
-3.  [Требования к сети.](https://docs.samsungknox.com/KME-Getting-Started/Content/firewall_exceptions.htm) Убедитесь, что в сети разрешены необходимые правила брандмауэра и доступа к сети.
+3. [Требования к сети.](https://docs.samsungknox.com/KME-Getting-Started/Content/firewall_exceptions.htm) Убедитесь, что в сети разрешены необходимые правила брандмауэра и доступа к сети.
 
-4.  [Зарегистрируйте учетную запись Samsung.](https://www2.samsungknox.com/en/user/register) Учетная запись Samsung необходима для регистрации и включения KME, а также для управления всеми правами Knox Enterprise из одного расположения.
+4. [Зарегистрируйте учетную запись Samsung.](https://www2.samsungknox.com/en/user/register) Учетная запись Samsung необходима для регистрации и включения KME, а также для управления всеми правами Knox Enterprise из одного расположения.
 
-5.  Проверка регистрации. После заполнения вашего профиля и отправки формы Samsung выполняет проверку вашего приложения и либо подтверждает его немедленно, либо помещает его в состояние ожидания проверки для дальнейшей обработки. После утверждения вашей учетной записи можно переходить к дальнейшим действиям.
+5. Проверка регистрации. После заполнения вашего профиля и отправки формы Samsung выполняет проверку вашего приложения и либо подтверждает его немедленно, либо помещает его в состояние ожидания проверки для дальнейшей обработки. После утверждения вашей учетной записи можно переходить к дальнейшим действиям.
 
 ## <a name="create-mdm-profile"></a>Создание профиля MDM
 

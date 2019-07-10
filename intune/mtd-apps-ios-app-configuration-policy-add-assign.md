@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c6065fda71688909dd7fcbc6ef1909e3d3ab36b8
-ms.sourcegitcommit: 6bba9f2ef4d1ec699f5713a4da4f960e7317f1cd
+ms.openlocfilehash: fdc7434616db6c06f56438fb6d8774ae3f2deca9
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "67407117"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67548434"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune  
 
@@ -34,9 +34,9 @@ ms.locfileid: "67407117"
 ## <a name="before-you-begin"></a>Подготовка к работе    
 Описанные ниже действия следует выполнять на [портале Azure](https://portal.azure.com/). Убедитесь, что вы знакомы со следующими процессами.
 
--   [Добавление приложения в Intune](apps-add.md).
--   [Добавление политики конфигурации приложения для iOS в Intune](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune).
--   [Назначение приложения в Intune](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune)
+- [Добавление приложения в Intune](apps-add.md).
+- [Добавление политики конфигурации приложения для iOS в Intune](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune).
+- [Назначение приложения в Intune](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune)
 
 > [!TIP]
 > Корпоративный портал Intune работает на устройствах Android в качестве посредника, чтобы можно было проверять удостоверения пользователей в Azure AD.

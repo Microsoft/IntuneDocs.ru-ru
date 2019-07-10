@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 87e5ac06e93027b577d42b27e7d15b9b18e11020
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: 30e104d82580a5a0b6b01edb0eaade0673b33d83
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67046366"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67548405"
 ---
 # <a name="typical-migration-cycle"></a>Типичный цикл миграции
 
@@ -55,9 +55,9 @@ Intune предлагает несколько способов монитори
 
 Проверяйте количество пользователей, зарегистрировавших устройства, в конце каждого этапа миграции. Это даст вам следующие возможности:
 
--   Оценка эффективности плана распространения сведений.
+- Оценка эффективности плана распространения сведений.
 
--   Оценка того, как повлияло применение политики условного доступа.
+- Оценка того, как повлияло применение политики условного доступа.
 
 
 ## <a name="post-migration"></a>После миграции

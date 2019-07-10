@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2e803eb3d47d44c8c8f3cd1b699b5ca220aeb91f
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: a7072d7d3d24578e0f82ea21eb653906dfa30b4c
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66049110"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67546981"
 ---
 # <a name="integrate-better-mobile-with-intune"></a>Интеграция Better Mobile с Intune
 
@@ -32,31 +32,31 @@ ms.locfileid: "66049110"
 
 Перед началом интеграции Better Mobile с Intune проверьте, что у вас есть следующее.
 
--   Подписка на Microsoft Intune
+- Подписка на Microsoft Intune
 
--   Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
+- Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
 
-    -   Вход и чтение профилей пользователей
+    - Вход и чтение профилей пользователей
 
-    -   Доступ к каталогу от имени вошедшего в систему пользователя
+    - Доступ к каталогу от имени вошедшего в систему пользователя
 
-    -   Чтение данных каталога
+    - Чтение данных каталога
 
-    -   Отправка сведений об устройстве в Intune
+    - Отправка сведений об устройстве в Intune
 
--   Учетные данные администратора для доступа к консоли администрирования Better Mobile.
+- Учетные данные администратора для доступа к консоли администрирования Better Mobile.
 
 ### <a name="better-mobile-app-authorization"></a>Авторизация приложения Better Mobile
 
 Авторизация приложения Better Mobile выполняется следующим образом:
 
--   Вы разрешаете службе Better Mobile передавать в Intune сведения о состоянии работоспособности устройства.
+- Вы разрешаете службе Better Mobile передавать в Intune сведения о состоянии работоспособности устройства.
 
--   Better Mobile синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
+- Better Mobile синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
 
--   Вы разрешаете консоли администрирования Better Mobile использовать единый вход Azure AD.
+- Вы разрешаете консоли администрирования Better Mobile использовать единый вход Azure AD.
 
--   Вы разрешаете приложению Better Mobile использовать единый вход в Azure AD.
+- Вы разрешаете приложению Better Mobile использовать единый вход в Azure AD.
 
 ## <a name="to-set-up-better-mobile-integration"></a>Настройка интеграции Better Mobile
 
@@ -75,4 +75,4 @@ ms.locfileid: "66049110"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
--   [Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune](mtd-apps-ios-app-configuration-policy-add-assign.md)
+- [Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune](mtd-apps-ios-app-configuration-policy-add-assign.md)

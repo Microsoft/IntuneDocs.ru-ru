@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ef0c4f5fd3f8c92d1d78ed37946663a127df440f
-ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
+ms.openlocfilehash: f9438c3c566dc62acfa7567428ebe3a6a6be4777
+ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67530696"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67572565"
 ---
 # <a name="check-point-sandblast-mobile-threat-defense-connector-with-intune"></a>Соединитель Check Point SandBlast Mobile Threat Defense для Intune
 
@@ -45,11 +45,11 @@ closing syntax for comment above is missing. Please insert closing syntax at int
 
 При обнаружении на устройствах вредоносного ПО можно заблокировать до устранения угрозы следующие функции.
 
--   Подключение к корпоративной электронной почте
+- Подключение к корпоративной электронной почте
 
--   Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
+- Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
 
--   Доступ к приложениям организации
+- Доступ к приложениям организации
 
 **Блокировка при обнаружении вредоносных программ:**
 
@@ -61,7 +61,7 @@ closing syntax for comment above is missing. Please insert closing syntax at int
 
 ### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
 
-Обнаружение угроз типа  **злоумышленник в середине**  и защита доступа к сетям Wi-Fi на основе рисков для устройств.
+Обнаружение угроз типа **злоумышленник в середине** и защита доступа к сетям Wi-Fi на основе рисков для устройств.
 
 **Блокировка доступа к сети через Wi-Fi:**
 
@@ -73,7 +73,7 @@ closing syntax for comment above is missing. Please insert closing syntax at int
 
 ### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
-Обнаружение угроз типа  **злоумышленник в середине**  и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
+Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 
 **Блокирование SharePoint Online при обнаружении сетевых угроз:**
 
@@ -85,18 +85,18 @@ closing syntax for comment above is missing. Please insert closing syntax at int
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
--   **Android 4.1 и более поздней версии**.
+- **Android 4.1 и более поздней версии**.
 
--   **iOS 8 и более поздние версии**
+- **iOS 8 и более поздние версии**
 
 ## <a name="pre-requisites"></a>Предварительные условия
 
--   Azure Active Directory Premium
+- Azure Active Directory Premium
 
--   Подписка на Microsoft Intune
+- Подписка на Microsoft Intune
 
--   Подписка на Check Point SandBlast Mobile Threat Defense
-    -   Дополнительные сведения см. на [веб-сайте CheckPoint SandBlast](https://www.checkpoint.com/).
+- Подписка на Check Point SandBlast Mobile Threat Defense
+    - Дополнительные сведения см. на [веб-сайте CheckPoint SandBlast](https://www.checkpoint.com/).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

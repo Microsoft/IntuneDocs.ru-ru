@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: ''
 Customer intent: As an Intune admin, I want to set up the Apple's corporate device enrollment features so that corporate devices can automatically enroll in Intune.
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: faceee883194dbbdcec83f282806035ffc0432d1
-ms.sourcegitcommit: 0f771585d3556c0af14500428d5c4c13c89b9b05
+ms.openlocfilehash: 1fda4268e66703c8bd2132c9af22fed52f1791b1
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66174178"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67548960"
 ---
 # <a name="tutorial-use-apples-corporate-device-enrollment-features-in-apple-business-manager-abm-to-enroll-ios-devices-in-intune"></a>Руководство. Использование функции регистрации корпоративных устройств Apple в Apple Business Manager (ABM) для регистрации устройств с iOS в Intune
 Возможность регистрации устройств в Apple Business Manager упрощает регистрацию устройств. Intune также поддерживает более старый портал программы регистрации устройств (DEP) Apple, но мы рекомендуем начать с нуля с диспетчером Apple. При использовании Microsoft Intune и функции регистрации корпоративных устройств Apple устройства регистрируются безопасно и автоматически при первом их включении. Это позволяет сразу предоставлять устройства группам пользователей вместо того, чтобы настраивать их по отдельности. 
@@ -53,7 +53,7 @@ ms.locfileid: "66174178"
 
 4. Выберите **Create a token for Apple's Device Enrollment Program** (Создать токен с помощью программы регистрации устройств Apple), чтобы открыть портал программ развертывания Apple, и войдите с использованием корпоративного идентификатора Apple ID. Этот идентификатор Apple ID можно использовать для обновления токена DEP.
 
-5.  На [портале программ развертывания](https://deploy.apple.com) Apple выберите значение **Начало работы** в поле **Программа регистрации устройств**. Процесс может слегка отличаться от приведенных ниже шагов для [Apple Business Manager](https://business.apple.com).
+5. На [портале программ развертывания](https://deploy.apple.com) Apple выберите значение **Начало работы** в поле **Программа регистрации устройств**. Процесс может слегка отличаться от приведенных ниже шагов для [Apple Business Manager](https://business.apple.com).
 
 4. На странице **Управление серверами** выберите **Add MDM Server** (Добавить сервер MDM).
 

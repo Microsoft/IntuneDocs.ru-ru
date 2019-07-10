@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 82872ba6-80f8-4cc9-adf4-0ccd8ff26dd2
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1907ebf3d9233ca2324a4759b4f22a4c62e143c2
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: ec3685df5865d22874b68a8bf42539d37fb486d7
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66045804"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67549242"
 ---
 # <a name="integrate-pradeo-with-intune"></a>Интеграция Pradeo с Intune
 
@@ -32,47 +32,47 @@ ms.locfileid: "66045804"
 
 Перед началом интеграции Pradeo с Intune убедитесь в наличии следующего:
 
--   Подписка на Microsoft Intune
+- Подписка на Microsoft Intune
 
--   Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
+- Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
 
-    -   Вход и чтение профилей пользователей
+    - Вход и чтение профилей пользователей
 
-    -   Доступ к каталогу от имени вошедшего в систему пользователя
+    - Доступ к каталогу от имени вошедшего в систему пользователя
 
-    -   Чтение данных каталога
+    - Чтение данных каталога
 
-    -   Отправка сведений об устройстве в Intune
+    - Отправка сведений об устройстве в Intune
 
--   Учетные данные администратора для доступа к консоли Pradeo Security.
+- Учетные данные администратора для доступа к консоли Pradeo Security.
 
 ### <a name="pradeo-app-authorization"></a>Авторизация приложения Pradeo
 
 Авторизация приложения Pradeo выполняется так:
 
--   Вы разрешаете службе Pradeo передавать в Intune сведения о состоянии работоспособности устройства.
+- Вы разрешаете службе Pradeo передавать в Intune сведения о состоянии работоспособности устройства.
 
--   Pradeo синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
+- Pradeo синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
 
--   Вы разрешаете консоли администрирования Pradeo использовать единый вход (SSO) Azure AD.
+- Вы разрешаете консоли администрирования Pradeo использовать единый вход (SSO) Azure AD.
 
--   Вы разрешаете приложению Pradeo выполнять вход в режиме единого входа Azure AD.
+- Вы разрешаете приложению Pradeo выполнять вход в режиме единого входа Azure AD.
 
 ## <a name="to-set-up-pradeo-integration"></a>Настройка интеграции Pradeo
 
-1.  Перейдите в [консоль Pradeo Security](https://www.apps-security.com) и выполните вход, используя свои учетные данные.
+1. Перейдите в [консоль Pradeo Security](https://www.apps-security.com) и выполните вход, используя свои учетные данные.
 
-2.  В меню выберите **Администрирование — Enterprise Mobility Management** (Управление Enterprise Mobility).
+2. В меню выберите **Администрирование — Enterprise Mobility Management** (Управление Enterprise Mobility).
 
-3.  Выберите **логотип Intune**.
+3. Выберите **логотип Intune**.
 
-4.  В разделе **Шаг 1** окна **EMM (Enterprise mobility management) - Intune** (EMM (управление Enterprise Mobility) — Intune) нажмите кнопку **Pradeo Connector** (Соединитель Pradeo). 
+4. В разделе **Шаг 1** окна **EMM (Enterprise mobility management) - Intune** (EMM (управление Enterprise Mobility) — Intune) нажмите кнопку **Pradeo Connector** (Соединитель Pradeo). 
 
     ![Снимок экрана: окно Pradeo EMM в Intune](./media/pradeo_setup.png)
 
 5. В окне подключения Microsoft Intune введите свои учетные данные Intune.
 
-5.  Снова открывается веб-страница Pradeo. В разделе **Шаг 2** нажмите кнопку **Pradeo Device Health** (Работоспособность устройства Pradeo).
+5. Снова открывается веб-страница Pradeo. В разделе **Шаг 2** нажмите кнопку **Pradeo Device Health** (Работоспособность устройства Pradeo).
 
 7. В окне соединителя Intune с Pradeo выберите **Принять**. 
 
@@ -86,4 +86,4 @@ ms.locfileid: "66045804"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
--   [Настройка приложений Pradeo](mtd-apps-ios-app-configuration-policy-add-assign.md)
+- [Настройка приложений Pradeo](mtd-apps-ios-app-configuration-policy-add-assign.md)

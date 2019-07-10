@@ -16,12 +16,12 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a8e8e0f440377f40937145d78d3959318c21e6e5
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: e3ed61f556cadf3ba04f7c33fbede2102c94b18f
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67046317"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67549310"
 ---
 # <a name="additional-resources-for-planning-your-intune-deployment"></a>Дополнительные ресурсы по планированию развертывания Intune
 
@@ -50,12 +50,12 @@ ms.locfileid: "67046317"
 
 Ознакомьтесь с этими ссылками на дополнительные сведения, которые могут оказаться полезными во время планирования, проектирования и внедрения развертывания Intune.
 
--   [Документация по Microsoft Intune](/intune/). Полный комплект документации по Intune.
+- [Документация по Microsoft Intune](/intune/). Полный комплект документации по Intune.
 
--   [Блог по Intune](https://blogs.technet.microsoft.com/enterprisemobility/). Блог, в котором вы найдете полезную информацию о службе Intune в более широком контексте среды Enterprise Mobility.
+- [Блог по Intune](https://blogs.technet.microsoft.com/enterprisemobility/). Блог, в котором вы найдете полезную информацию о службе Intune в более широком контексте среды Enterprise Mobility.
 
--   [Центр управления безопасностью Майкрософт](http://www.microsoft.com/TrustCenter). Сведения о подходе корпорации Майкрософт к обеспечению безопасности, конфиденциальности, соответствия требованиям и прозрачности для всех облачных продуктов и служб Майкрософт.
+- [Центр управления безопасностью Майкрософт](http://www.microsoft.com/TrustCenter). Сведения о подходе корпорации Майкрософт к обеспечению безопасности, конфиденциальности, соответствия требованиям и прозрачности для всех облачных продуктов и служб Майкрософт.
 
--   [Сайт Intune User Voice](http://microsoftintune.uservoice.com/). Хотите предложить собственную функцию или проголосовать за варианты других пользователей? Поделитесь своим мнением об Intune с помощью сайта User Voice. Мы будем рады вашим отзывам.
+- [Сайт Intune User Voice](http://microsoftintune.uservoice.com/). Хотите предложить собственную функцию или проголосовать за варианты других пользователей? Поделитесь своим мнением об Intune с помощью сайта User Voice. Мы будем рады вашим отзывам.
 
--   [Руководство по регистрации](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT). Комплект документации, который можно использовать в готовом виде или с изменениями для разработки собственного коммуникационного плана, позволяющего конечным пользователям ознакомиться с принципами регистрации личных устройств в Intune.
+- [Руководство по регистрации](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT). Комплект документации, который можно использовать в готовом виде или с изменениями для разработки собственного коммуникационного плана, позволяющего конечным пользователям ознакомиться с принципами регистрации личных устройств в Intune.

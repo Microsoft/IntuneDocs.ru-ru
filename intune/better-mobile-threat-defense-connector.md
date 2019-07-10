@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b8134b9db0e478efa69391edeb570b39c91a41c9
-ms.sourcegitcommit: 84c79ceea27f7411528defc5ee8ba35ae2bf473c
+ms.openlocfilehash: 473de0ae24cb3ee2a9f7fbd84ef78e6c25ef6ce6
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67511769"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67547292"
 ---
 # <a name="better-mobile-threat-defense-connector-with-intune"></a>Соединитель Better Mobile Threat Defense в Intune
 
@@ -41,11 +41,11 @@ ms.locfileid: "67511769"
 
 При обнаружении на устройствах вредоносного ПО можно заблокировать следующие действия до устранения угрозы:
 
--   Подключение к корпоративной электронной почте
+- Подключение к корпоративной электронной почте
 
--   Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
+- Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
 
--   Доступ к приложениям организации
+- Доступ к приложениям организации
 
 **Блокировка при обнаружении вредоносных программ:**
 
@@ -81,19 +81,19 @@ ms.locfileid: "67511769"
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
--   **Android 4.1 и более поздней версии**.
+- **Android 4.1 и более поздней версии**.
 
--   **Устройства iOS 8.0 и более поздних версий**
+- **Устройства iOS 8.0 и более поздних версий**
 
 ## <a name="prerequisites"></a>Предварительные условия
 
--   Azure Active Directory Premium
+- Azure Active Directory Premium
 
--   Подписка на Microsoft Intune
+- Подписка на Microsoft Intune
 
--   Подписка на Better Mobile Threat Defense
+- Подписка на Better Mobile Threat Defense
 
-    -   Дополнительные сведения см. на [веб-сайте Better Mobile](https://www.better.mobi/).
+    - Дополнительные сведения см. на [веб-сайте Better Mobile](https://www.better.mobi/).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

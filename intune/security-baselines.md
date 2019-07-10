@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 93e470175829008b72b5b8991188f3c92e38a567
-ms.sourcegitcommit: 690e680e854b7d707421c5e06f134e493f4f4194
+ms.openlocfilehash: 3e4e1040913daef5418f0b4fa1e56f6ef827dd67
+ms.sourcegitcommit: 63b55e81122e5c15893302b109ae137c30855b55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67416841"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67713276"
 ---
 # <a name="use-security-baselines-to-configure-windows-10-devices-in-intune"></a>Использование базовых конфигураций безопасности для настройки устройств Windows 10 в Intune
 
@@ -155,7 +155,7 @@ ms.locfileid: "67416841"
 3. В окне **изменения версии** разверните раскрывающийся список **Select a security baseline to update to** (Выбрать новую базовую конфигурацию безопасности) и выберите версию экземпляра, которую вы планируете использовать.  
 
    ![Выбор версии](./media/security-baselines/select-instance.png)  
- 
+   
 4. Выберите **Review update** (Просмотреть обновление), чтобы скачать CSV-файл со сведениями об отличиях прежней и новой версии. Просмотрите файл, чтобы узнать, какие параметры были добавлены и удалены в обновленном профиле, а также их значения по умолчанию.  
 
    После этого перейдите к следующему шагу.  

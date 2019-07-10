@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dbebcb495298f3e8b17007d1fb00f0362ead4ab8
-ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
+ms.openlocfilehash: 8bcc9aa527ed27ef35db901117ceb8f4c8d10c97
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67530679"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67546879"
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 
@@ -51,13 +51,13 @@ ms.locfileid: "67530679"
 
 ### <a name="to-verify-your-device-based-conditional-access-policies-in-the-intune-classic-portal"></a>Проверка политик условного доступа на основе устройств на классическом портале Intune
 
-1.  Перейдите на [классический портал Intune](https://manage.microsoft.com) и войдите с помощью своих учетных данных.
+1. Перейдите на [классический портал Intune](https://manage.microsoft.com) и войдите с помощью своих учетных данных.
 
-2.  Выберите элемент **Политика** в левом меню.
+2. Выберите элемент **Политика** в левом меню.
 
-3.  Выберите **Условный доступ**, а затем облачную службу Майкрософт (например, Exchange Online или SharePoint Online), для которой вы создали политику условного доступа.
+3. Выберите **Условный доступ**, а затем облачную службу Майкрософт (например, Exchange Online или SharePoint Online), для которой вы создали политику условного доступа.
 
-4.  Запишите параметры условного доступа и используйте эти заметки для создания аналогичных политик условного доступа на портале Azure.
+4. Запишите параметры условного доступа и используйте эти заметки для создания аналогичных политик условного доступа на портале Azure.
 
 ### <a name="app-and-device-based-conditional-access-policies-working-together"></a>Совместное использование политик условного доступа на основе приложений и устройств
 
@@ -194,13 +194,13 @@ ms.locfileid: "67530679"
 
 ### <a name="to-disable-the-conditional-access-policies"></a>Отключение политик условного доступа
 
-1.  Перейдите на [классический портал Intune](https://manage.microsoft.com) и войдите с помощью своих учетных данных.
+1. Перейдите на [классический портал Intune](https://manage.microsoft.com) и войдите с помощью своих учетных данных.
 
-2.  Выберите элемент **Политика** в левом меню.
+2. Выберите элемент **Политика** в левом меню.
 
-3.  Выберите **Условный доступ**, а затем — облачную службу Майкрософт (например, Exchange Online или SharePoint Online), для которой вы создали политику условного доступа.
+3. Выберите **Условный доступ**, а затем — облачную службу Майкрософт (например, Exchange Online или SharePoint Online), для которой вы создали политику условного доступа.
 
-4.  Снимите флажок **Включить политику условного доступа** и нажмите кнопку **Сохранить**.
+4. Снимите флажок **Включить политику условного доступа** и нажмите кнопку **Сохранить**.
 
     ![Изображение отключения политик условного доступа на классическом портале Intune](./media/reassign-ca-18.png)
 

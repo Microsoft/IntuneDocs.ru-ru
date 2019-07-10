@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: cde4d389-1770-4226-85a3-a2f3b3fb92a3
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 980138015cdbe063d6d4b05eb6dd8ab70be4b601
-ms.sourcegitcommit: 84c79ceea27f7411528defc5ee8ba35ae2bf473c
+ms.openlocfilehash: 2f0a4b9a957948c9bda0b0ad2d9829ff9560f217
+ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67512253"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67548487"
 ---
 # <a name="pradeo-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Pradeo с Intune
 
@@ -41,11 +41,11 @@ ms.locfileid: "67512253"
 
 При обнаружении на устройствах вредоносного ПО можно заблокировать следующие действия до устранения угрозы:
 
--   Подключение к корпоративной электронной почте
+- Подключение к корпоративной электронной почте
 
--   Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
+- Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
 
--   Доступ к приложениям организации
+- Доступ к приложениям организации
 
 **Блокировка при обнаружении вредоносных программ:**
 
@@ -81,19 +81,19 @@ ms.locfileid: "67512253"
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
--   **Android 4.0.3 и более поздних версий**
+- **Android 4.0.3 и более поздних версий**
 
--   **iOS 7 и более поздних версий**
+- **iOS 7 и более поздних версий**
 
 ## <a name="prerequisites"></a>Предварительные условия
 
--   Azure Active Directory Premium
+- Azure Active Directory Premium
 
--   Подписка на Microsoft Intune
+- Подписка на Microsoft Intune
 
--   Подписка на службу Pradeo Security для Mobile Threat Defense
+- Подписка на службу Pradeo Security для Mobile Threat Defense
 
-    -   Дополнительные сведения см. на [веб-сайте Pradeo](https://www.pradeo.com/en-US/mobile-threat-protection).
+    - Дополнительные сведения см. на [веб-сайте Pradeo](https://www.pradeo.com/en-US/mobile-threat-protection).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
