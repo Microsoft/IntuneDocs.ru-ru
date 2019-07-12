@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cbd73d22c2e42f0a379ec2a97179f9e3c4dec224
-ms.sourcegitcommit: 84c79ceea27f7411528defc5ee8ba35ae2bf473c
+ms.openlocfilehash: 71e8760bde5f6c53f6e73d8c8dd0f795809726b2
+ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67512104"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67649118"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -47,9 +47,10 @@ Windows Autopilot упрощает регистрацию устройств в 
 
     ![Снимок экрана: устройства Windows Autopilot](media/enrollment-autopilot/autopilot-import-device.png)
 
-2. В разделе **Добавление устройств Windows AutoPilot** укажите CSV-файл со списком устройств, которые необходимо добавить. CSV-файл должен содержать серийные номера, коды продуктов Windows, хэш-коды оборудования и, при необходимости, теги групп, назначенных пользователей и идентификаторы заказов устройств. Список может содержать до 500 строк. Используйте формат заголовка и строки, показанный ниже:
+2. В разделе **Добавление устройств Windows AutoPilot** укажите CSV-файл со списком устройств, которые необходимо добавить. CSV-файл должен содержать серийные номера, идентификаторы продуктов Windows, хэш-коды оборудования и при необходимости теги групп. Список может содержать до 500 строк. Используйте формат заголовка и строки, показанный ниже:
 
-    `Device Serial Number,Windows Product ID,Hardware Hash,Group Tag,Assigned User, Order ID` `<serialNumber>,<ProductID>,<hardwareHash>,<optionalGroupTag>,<optionalAssignedUser>,<optionalOrderID>`
+    `Device Serial Number,Windows Product ID,Hardware Hash,Group Tag`</br>
+    `<serialNumber>,<ProductID>,<hardwareHash>,<optionalGroupTag>`
 
     ![Снимок экрана: добавление устройств Windows Autopilot](media/enrollment-autopilot/autopilot-import-device2.png)
 

@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 12/06/2018
+ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,26 +17,27 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0bf75aca7035eb2873f84f76d3c9ee0e00df7fb3
-ms.sourcegitcommit: 116ef72b9da4d114782d4b8dd9f57556c9b01511
+ms.openlocfilehash: 81e50c3f79ffe9a3b9bc8068d49ba966c35dbbfd
+ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "67494531"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67649087"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-Необходимо успешно настроить [гибридные устройства, присоединенные к Azure AD](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan). Обязательно [проверьте регистрацию устройств]( https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#verify-the-registration) с помощью командлета Get-MsolDevice.
+Необходимо успешно настроить [гибридные устройства, присоединенные к Azure AD](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan). Обязательно [проверьте регистрацию устройств](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#verify-the-registration) с помощью командлета Get-MsolDevice.
 
 Требования к устройствам:
 - ОС Windows 10 версии 1809 или более поздней версии;
-- Доступ к Интернету.
-- Доступ к Active Directory (VPN-подключение пока не поддерживается).
-- Пройденный запуск при первом включении компьютера (OOBE).
+- Доступ к Интернету, который соответствует [требованиям к сетевому подключению, изложенным в документации по Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements).
+- Доступ к контроллеру домена Active Directory, что предполагает подключение к сети организации (В этой сети устройство может разрешать DNS-записи для домена AD и контроллера домена AD и взаимодействовать с контроллером домена для проверки подлинности пользователя. VPN-подключение сейчас не поддерживается.).
 - Возможность проверки связи с контроллером домена в домене, к которому необходимо присоединиться.
+- Если используется прокси-сервер, необходимо включить и настроить протокол WPAD.
+- Пройденный запуск при первом включении компьютера (OOBE).
 
 ## <a name="set-up-windows-10-automatic-enrollment"></a>Настройка автоматической регистрации Windows 10
 
@@ -139,7 +140,7 @@ ms.locfileid: "67494531"
 
 1. Если в качестве типа членства вы выбрали **Динамическое устройство**, то на панели **Группа** выберите **Динамические члены устройства**, а затем в поле **Расширенное правило** введите один из приведенных ниже вариантов кода.
     - Чтобы создать группу со всеми своими устройствами Autopilot, введите `(device.devicePhysicalIDs -any _ -contains "[ZTDId]")`.
-    - Поле "Тег группы" Intune сопоставляется с атрибутом OrderID на устройствах Azure AD. Если вам нужно создать группу со всеми устройствами Autopilot, имеющими определенный тег группы (OrderID), введите  `(device.devicePhysicalIds -any _ -eq "[OrderID]:179887111881")`.
+    - Поле "Тег группы" Intune сопоставляется с атрибутом OrderID на устройствах Azure AD. Если вам нужно создать группу со всеми устройствами Autopilot, имеющими определенный тег группы (OrderID), введите `(device.devicePhysicalIds -any _ -eq "[OrderID]:179887111881")`.
     - Чтобы создать группу со всеми устройствами Autopilot, имеющими определенный ИД заказа на покупку, введите `(device.devicePhysicalIds -any _ -eq "[PurchaseOrderId]:76222342342")`.
     
 1. Нажмите кнопку **Сохранить**.

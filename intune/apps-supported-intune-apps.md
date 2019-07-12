@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/25/2019
+ms.date: 07/08/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1a50eb6e58c7b866af32387a85026eb87f825b15
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: 89babf2eb60b7959c5c25a02b29135668efc32eb
+ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67045903"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67649079"
 ---
 # <a name="microsoft-intune-protected-apps"></a>Защищенные приложения Microsoft Intune  
 
@@ -46,6 +46,7 @@ ms.locfileid: "67045903"
 | **Средство просмотра Microsoft Azure Information Protection**<p><img alt="Microsoft app - Microsoft Azure Information Protection Viewer icon" src="./media/apps-supported-intune-apps/icon-m-azure-information-protection-viewer.png" width="100"> | Организуйте безопасную совместную работу с другими пользователями с помощью средства просмотра AIP. Просматривайте защищенные файлы (сообщения электронной почты, PDF-файлы, изображения, текстовые файлы с защищенными правами), предоставленные вам в совместный доступ. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.egress.switchdroid.intune), [приложение в магазине iOS](https://itunes.apple.com/us/app/rms-sharing/id689516635?mt=8) | 
 | **Microsoft Bookings**<p><img alt="Microsoft app - Microsoft Bookings icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-bookings.png" width="100"> | Microsoft Bookings — это приложение для планирования встреч, которое помогает отслеживать бронирования, сотрудников и клиентов. С ним вы не пропустите встречу и сократите число встреч, несостоявшихся не по вашей вине.<p>Приложение Microsoft Bookings позволяет:<br><ul><li>просматривать календарь и управлять им;</li><li>делать бронирования или на ходу изменять уже сделанные;</li><li>отслеживать доступность сотрудников в режиме реального времени;</li><li>быстро и просто реагировать на запросы клиентов;</li><li>быстро получать указания об очередном месте бронирования;</li><li>администрировать список клиентов.</li></ul> | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.microsoft.exchange.bookings),<br>[приложение в магазине iOS](https://itunes.apple.com/us/app/microsoft-bookings/id1065657468?mt=8) |  
 | **Microsoft Connections**<p><img alt="Microsoft app - Microsoft Connections icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-connections.png" width="100"> | Приложение Microsoft Connections помогает малому бизнесу привлекать и удерживать клиентов, предлагая простые в использовании инструменты маркетинга на основе электронной почты. Вы можете легко создавать профессиональные маркетинговые кампании для электронной рассылки, используя готовые шаблоны для объявлений, информационных бюллетеней и приглашений. | [приложение в магазине iOS](https://itunes.apple.com/us/app/microsoft-connections/id1172261641?mt=8) |  
+| **Кортана от Microsoft**<p><img alt="Microsoft app - Microsoft Cortana icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-cortana.png" width="100"> | Быстро, легко и весело справляться с рабочими и личными делами поможет виртуальный помощник Кортана. Установите помощник на телефон, чтобы контролировать важные задачи на всех своих устройствах, где бы вы не находились. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.microsoft.cortana),<br>[приложение в магазине iOS](https://apps.apple.com/us/app/cortana/id1054501703) 
 | **Microsoft Dynamics CRM**<p><img alt="Microsoft app - Microsoft Dynamics CRM icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-dynamics-crm.png" width="100"> | Взаимодействуйте с клиентами, находясь на работе или в пути, с помощью Microsoft Dynamics CRM. Будьте готовы к каждой встрече. Обновляйте заметки, задачи, контакты, учетные записи, дела и идеи, пока подробности еще свежи в памяти. Находясь в пути, продавцы могут администрировать данные о продажах с учетом соответствующих бизнес-процессов. Приложение обеспечит полную мобильность торговым представителям, снабдив исчерпывающей информацией для сопровождения клиентов. Однажды настроенную в приложении модель можно использовать в других сценариях, что значительно упрощает взаимодействие с пользователем. Доступны версии для iOS и Android. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone),<br>[приложение в магазине iOS](https://itunes.apple.com/app/microsoft-dynamics-crm/id678800460?mt=8) |  
 | **Microsoft Edge**<p><img alt="Microsoft app - Microsoft Edge icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-edge.png" width="100"> | Microsoft Edge обеспечивает возможность непрерывной работы в Интернете для пользователей Windows 10 на всех их устройствах. Содержимое и данные плавно синхронизируются в фоновом режиме, что позволяет пользователям использовать разные устройства для просмотра Интернета, ничего при этом не упуская. Знакомые функции Microsoft Edge, такие как "Центр", позволяют пользователям оптимально систематизировать ресурсы Интернета, избавившись от всего лишнего, что упрощает поиск, просмотр и администрирование содержимого на ходу. Браузер Microsoft Edge позволяет пользователям Windows 10 работать в Интернете в удобном режиме, без перебоев и откуда угодно. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.microsoft.emmx&hl=en_US),<br>[приложение в магазине iOS](https://itunes.apple.com/us/app/microsoft-edge/id1288723196?mt=8) |  
 | **Microsoft Excel**<p><img alt="Microsoft app - Microsoft Excel icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-excel.png" width="100"> | Теперь электронные таблицы Excel отображаются на планшетах и телефонах лучше, чем когда-либо. Будьте уверены, что редактируемые или создаваемые таблицы будут выглядеть на любых компьютерах, планшетах и телефонах именно так, как вам нужно. Воспользуйтесь преимуществами быстрой и простой подготовки к работе, используя привычные инструменты и интуитивно понятные сенсорные средства.<p><p>Это приложение может использоваться для множественной идентификации для iOS и Android. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.microsoft.office.excel),<br>[приложение в магазине iOS](https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8) |  

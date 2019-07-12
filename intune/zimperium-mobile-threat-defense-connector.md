@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c0dc8d7cca42898db92412e2cec41252a9a9a4d4
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: 39c3b606033ca8575e079bef9a627b087a3d3318
+ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67046103"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67572467"
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 
@@ -44,11 +44,11 @@ ms.locfileid: "67046103"
 
 При обнаружении на устройствах вредоносного ПО можно заблокировать до устранения угрозы следующие функции.
 
--   Подключение к корпоративной электронной почте
+- Подключение к корпоративной электронной почте
 
--   Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
+- Синхронизация корпоративных файлов с помощью приложения OneDrive для работы
 
--   Доступ к приложениям организации
+- Доступ к приложениям организации
 
 **Блокировка при обнаружении вредоносных программ:**
 
@@ -60,7 +60,7 @@ ms.locfileid: "67046103"
 
 ### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
 
-Обнаружение угроз типа  **злоумышленник в середине**  и защита доступа к сетям Wi-Fi на основе рисков для устройств.
+Обнаружение угроз типа **злоумышленник в середине** и защита доступа к сетям Wi-Fi на основе рисков для устройств.
 
 **Блокировка доступа к сети через Wi-Fi:**
 
@@ -72,7 +72,7 @@ ms.locfileid: "67046103"
 
 ### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
-Обнаружение угроз типа  **злоумышленник в середине**  и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
+Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 
 **Блокирование SharePoint Online при обнаружении сетевых угроз:**
 
@@ -84,19 +84,19 @@ ms.locfileid: "67046103"
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
--   **Android 4.1 и более поздней версии**.
+- **Android 4.1 и более поздней версии**.
 
--   **iOS 8 и более поздние версии**
+- **iOS 8 и более поздние версии**
 
 ## <a name="prerequisites"></a>Предварительные условия
 
--   Azure Active Directory Premium
+- Azure Active Directory Premium
 
--   Подписка на Microsoft Intune
+- Подписка на Microsoft Intune
 
--   Подписка на службу Mobile Threat Defense Zimperium
+- Подписка на службу Mobile Threat Defense Zimperium
 
-    -   Дополнительные сведения см. на  [веб-сайте Zimperium](https://www.zimperium.com/zips-mobile-ips).
+    - Дополнительные сведения см. на [веб-сайте Zimperium](https://www.zimperium.com/zips-mobile-ips).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

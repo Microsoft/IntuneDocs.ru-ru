@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 05/16/2019
+ms.date: 07/03/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,28 +15,28 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5124796166f27823b7a13b0f3dd239446f778850
-ms.sourcegitcommit: 337b554f9becc40cdea2f5f47a4a129ac491f64c
+ms.openlocfilehash: 0c5ddb32502aa15f6eaf8f5866772ecd32e970d4
+ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66713861"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67648451"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
 
-В Microsoft Intune можно добавить сторонние центры сертификации (ЦС). Такие ЦС могут доставлять сертификаты на мобильные устройства с помощью протокола SCEP. Эта функция может выдавать новые сертификаты и продлять их на устройствах Windows, iOS, Android и macOS.
+Используйте в Intune сторонние центры сертификации (ЦС). Сторонние ЦС могут подготавливать мобильные устройства с новыми или продленными сертификатами, используя службу регистрации сертификатов для сетевых устройств (SCEP), и обеспечивать поддержку устройств Windows, iOS, Android и macOS.
 
 Использование этой функции включает две части: API с открытым исходным кодом и задачи администратора Intune.
 
 **Часть 1. Использование API с открытым исходным кодом**  
-Специалисты Майкрософт разработали API, который интегрируется с Intune для проверки сертификатов, отправки уведомления об успехе или неудаче и использования протокола SSL (в частности фабрики сокетов SSL) для обмена данными с Intune.
+Корпорация Майкрософт разработала API для интеграции с Intune. С его помощью можно проверять сертификаты, отправлять уведомления об успешном или неудачном выполнении операции и использовать протокол SSL (в частности фабрику сокетов SSL) для обмена данными с Intune.
 
-Этот API можно скачать в [общедоступном репозитории GitHub для API SCEP Intune](http://github.com/Microsoft/Intune-Resource-Access/tree/develop/src/CsrValidation) и использовать в своих решениях. Этот API можно использовать со сторонними серверами SCEP, чтобы выполнять собственную проверку запроса защиты в Intune перед доставкой сертификата на устройство.
+Этот API можно скачать в [общедоступном репозитории GitHub для API SCEP Intune](http://github.com/Microsoft/Intune-Resource-Access/tree/develop/src/CsrValidation) и использовать в своих решениях. Этот API можно использовать со сторонними серверами SCEP, чтобы выполнять собственную проверку запроса защиты в Intune перед тем, как SCEP предоставит устройству сертификат.
 
 В статье, посвященной [интеграции с решением по управлению SCEP в Intune](scep-libraries-apis.md), содержатся дополнительные сведения об использовании API, его методах и тестировании созданного решения.
 
 **Часть 2. Создание приложения и профиля**  
-С помощью приложения Azure Active Directory (Azure AD) можно делегировать Intune права на обработку запросов SCEP, поступающих с устройств. Приложение Azure AD включает идентификатор приложения и значения ключа проверки подлинности, которые используются в решении API, создаваемом разработчиком. Затем администраторы могут создавать и развертывать профили сертификатов SCEP с помощью Intune. Можно также просматривать отчеты о состоянии развертывания на устройствах.
+С помощью приложения Azure Active Directory (Azure AD) можно делегировать Intune права на обработку запросов SCEP, поступающих с устройств. Приложение Azure AD включает идентификатор приложения и значения ключа проверки подлинности, которые используются в решении API, создаваемом разработчиком. Затем с помощью Intune администраторы создают и развертывают профили сертификатов SCEP и могут просматривать отчеты о состоянии развертывания на устройствах.
 
 В этой статье приводится обзор этой функции с точки зрения администратора, включая создание приложения Azure AD.
 
@@ -117,13 +117,14 @@ ms.locfileid: "66713861"
 ## <a name="third-party-certification-authority-partners"></a>Сторонние центры сертификации партнеров
 Следующие сторонние центры сертификации поддерживают Intune:
 
-- [Entrust Datacard](http://www.entrustdatacard.com/resource-center/documents/documentation)
+- [Entrust Datacard](https://info.entrustdatacard.com/pki-eval-tool)
 - [EJBCA — версия с открытым исходным кодом в GitHub](https://github.com/agerbergt/intune-ejbca-connector)
 - [EverTrust](https://evertrust.fr/en/products/)
 - [GlobalSign](https://downloads.globalsign.com/acton/attachment/2674/f-6903f60b-9111-432d-b283-77823cc65500/1/-/-/-/-/globalsign-aeg-microsoft-intune-integration-guide.pdf)
 - [IDnomic](https://www.idnomic.com/)
 - [Sectigo](https://sectigo.com/products)
 - [DigiCert](https://knowledge.digicert.com/tutorials/microsoft-intune.html)
+- [SCEPman](https://azuremarketplace.microsoft.com/marketplace/apps/gluckkanja.scepman)
 
 Если вы являетесь поставщиком стороннего ЦС, заинтересованным в интеграции вашего продукта с Intune, просмотрите руководство по API:
 
