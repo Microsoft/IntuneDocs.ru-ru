@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cd185a42d36de6aaf1e6d0ff0b8e34619b02c093
-ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
+ms.openlocfilehash: 513001993d890afba848138e01ff823796ea773d
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67572432"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884441"
 ---
 # <a name="set-up-symantec-endpoint-protection-mobile-integration-with-intune"></a>Настройка интеграции Symantec Endpoint Protection Mobile с Intune
 
@@ -44,7 +44,7 @@ SEP Mobile поддерживает два режима интеграции с 
 
 - **Интеграция только для чтения (базовая настройка)** : выполняется только инвентаризация устройств из Azure Active Directory и их внесение в консоль Symantec Endpoint Protection Mobile.
 <br>
-    - Если в панели управления Symantec Endpoint Protection Mobile не выбраны параметры **Сообщать о работоспособности и рисках устройств в Intune** и **Также передавать инциденты безопасности в Intune**, интеграция используется в режиме "только для чтения", не позволяя изменять состояние (соответствие) для устройств в Intune.
+  - Если в панели управления Symantec Endpoint Protection Mobile не выбраны параметры **Сообщать о работоспособности и рисках устройств в Intune** и **Также передавать инциденты безопасности в Intune**, интеграция используется в режиме "только для чтения", не позволяя изменять состояние (соответствие) для устройств в Intune.
 <br></br>
 - **Полная интеграция**: разрешает SEP Mobile сообщать в Intune об устройствах с рисками и инцидентах безопасности, то есть создает двунаправленное взаимодействие между облачными службами.
 

@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 82872ba6-80f8-4cc9-adf4-0ccd8ff26dd2
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ec3685df5865d22874b68a8bf42539d37fb486d7
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: b51f310d370876058b8f1a1f872dd0b0e41bd42c
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67549242"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884843"
 ---
 # <a name="integrate-pradeo-with-intune"></a>Интеграция Pradeo с Intune
 
@@ -36,13 +36,13 @@ ms.locfileid: "67549242"
 
 - Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
 
-    - Вход и чтение профилей пользователей
+  - Вход и чтение профилей пользователей
 
-    - Доступ к каталогу от имени вошедшего в систему пользователя
+  - Доступ к каталогу от имени вошедшего в систему пользователя
 
-    - Чтение данных каталога
+  - Чтение данных каталога
 
-    - Отправка сведений об устройстве в Intune
+  - Отправка сведений об устройстве в Intune
 
 - Учетные данные администратора для доступа к консоли Pradeo Security.
 

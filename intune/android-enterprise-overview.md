@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1649c6256e4df61b538e2adee87512617b677bb4
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: e6a003e4ab912452f278c838c600f75ddec0c1f5
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67547498"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67885126"
 ---
 # <a name="manage-android-work-profile-devices-with-intune"></a>Управление устройствами с рабочим профилем Android в Intune
 
@@ -71,9 +71,9 @@ Intune предоставляет шаблоны конфигурации для
 - **VPN для рабочего профиля** — VPN-подключения доступны только приложениям, развернутым в рабочий профиль. Использовать VPN-подключение могут только управляемые приложения Android для бизнеса. Личные приложения, установленные на устройстве, не могут использовать управляемое VPN-подключение. Дополнительные сведения см. в разделе о [параметрах VPN Android для бизнеса](vpn-settings-android.md#android-enterprise-vpn-settings).
 
 - **VPN для отдельных приложений** — VPN для отдельных приложений можно настроить в Intune, если поставщик VPN поддерживает:
-    - настройку VPN для отдельного приложения;
-    - возможность настроить VPN для отдельных приложений через профиль конфигурации приложений Android для бизнеса.
-    Дополнительные сведения см. в разделе [Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android](android-pulse-secure-per-app-vpn.md).
+  - настройку VPN для отдельного приложения;
+  - возможность настроить VPN для отдельных приложений через профиль конфигурации приложений Android для бизнеса.
+  Дополнительные сведения см. в разделе [Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android](android-pulse-secure-per-app-vpn.md).
 
 ## <a name="certificate-profiles"></a>Профили сертификатов
 

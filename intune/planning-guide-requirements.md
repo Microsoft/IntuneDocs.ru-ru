@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9cb08757732aa5cad08ed0a4b535fb20c0aa1df0
-ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
+ms.openlocfilehash: 703509c316a22995d26223f6c386de0a2ec66c31
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67528255"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67882716"
 ---
 # <a name="determine-use-case-scenario-requirements"></a>Определение требований для сценариев вариантов использования
 
@@ -50,21 +50,21 @@ ms.locfileid: "67528255"
 Вот несколько дополнительных примеров, которые можно использовать в столбце "Требования":
 
 - **Защищенная электронная почта**
-    - Условный доступ для локальной организации Exchange или Exchange Online
-    - Политики защиты приложений Outlook
+  - Условный доступ для локальной организации Exchange или Exchange Online
+  - Политики защиты приложений Outlook
 
 - **Параметры устройства**
-    - Настройка ПИН-кода с четырьмя или шестью знаками
-    - Ограничение резервного копирования в облако
+  - Настройка ПИН-кода с четырьмя или шестью знаками
+  - Ограничение резервного копирования в облако
 
 - **Профили**
-    - Wi-Fi
-    - VPN
-    - Электронная почта (Windows 10 Mobile)
+  - Wi-Fi
+  - VPN
+  - Электронная почта (Windows 10 Mobile)
 
 - **Приложения**
-    - Office 365 с политиками защиты приложений
-    - Бизнес-решения с политиками защиты приложений
+  - Office 365 с политиками защиты приложений
+  - Бизнес-решения с политиками защиты приложений
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

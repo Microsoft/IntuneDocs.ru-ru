@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ce08545931d3580ce5ae524b1023d2b734b88f7b
-ms.sourcegitcommit: 78ae22b1a7cb221648fc7346db751269d9c898b1
+ms.openlocfilehash: 1dc78f8126e0fa9c65fdbe70cfd909da70391e3e
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66373656"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884519"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-for-ios-devices-in-intune"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -150,16 +150,16 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 
 ### <a name="before-you-attempt-to-connect"></a>Перед подключением
 
- - Все вышеперечисленные политики должны быть развернуты для одной и той же группы. В противном случае функция VPN на уровне приложений работать не будет.
- - Если вы используете приложение VPN Pulse Secure или клиентское приложение VPN, вам доступно туннелирование на уровне приложения или на уровне пакета. Задайте для **ProviderType** значение **app-proxy** при туннелировании на уровне приложения или значение **packet-tunnel** при туннелировании на уровне пакета. Проверьте, используется ли правильное значение, обратившись к документации поставщика VPN.
+- Все вышеперечисленные политики должны быть развернуты для одной и той же группы. В противном случае функция VPN на уровне приложений работать не будет.
+- Если вы используете приложение VPN Pulse Secure или клиентское приложение VPN, вам доступно туннелирование на уровне приложения или на уровне пакета. Задайте для **ProviderType** значение **app-proxy** при туннелировании на уровне приложения или значение **packet-tunnel** при туннелировании на уровне пакета. Проверьте, используется ли правильное значение, обратившись к документации поставщика VPN.
 
 ### <a name="connect-using-the-per-app-vpn"></a>Подключение с использованием VPN на уровне приложения
 
 Проверьте возможность работы без вмешательства, выполнив подключения без выбора VPN или ввода учетных данных. Работа без вмешательства означает, что:
 
- - устройство не требует доверия к VPN-серверу; то есть пользователь не видит диалоговое окно **Динамическое доверие**;
- - вводить учетные данные пользователю не нужно;
- - устройство пользователя подключается к VPN, когда пользователь открывает одно из связанных приложений.
+- устройство не требует доверия к VPN-серверу; то есть пользователь не видит диалоговое окно **Динамическое доверие**;
+- вводить учетные данные пользователю не нужно;
+- устройство пользователя подключается к VPN, когда пользователь открывает одно из связанных приложений.
 
 <!-- ## Troubleshooting the per-app VPN
 
@@ -173,7 +173,7 @@ To review event logs:
 2. Open the **iPhone Configuration Utility** (IPCU). If you do not have a copy, you can install it from [CompatCenter](http://www.microsoft.com/en-us/windows/compatibility/CompatCenter/ProductDetailsViewer?Name=iPhone%20Configuration%20Utility&vendor=Apple&Locale=1033%2C2057%2C3081%2C4105%2C16393&ModelOrVersion=3&BreadCrumbPath=iphone%20configuration%20utility&LastSearchTerm=iphone%2Bconfiguration%2Butility&Type=Software&tempOsid=Windows%208.1)
 3. Review the logs. -->
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Чтобы просмотреть параметры iOS, см. статью [Параметры VPN для устройств iOS в Microsoft Intune](vpn-settings-ios.md).
 - Дополнительные сведения о параметрах VPN и Intune см. в статье [Настройка параметров VPN в Microsoft Intune](vpn-settings-configure.md).

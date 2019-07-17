@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 96c05543884e0d9a00b570fb9ed4be1cdef65ca0
-ms.sourcegitcommit: 1ba785f6e51517b63588a292ab5c45b9d9144b72
+ms.openlocfilehash: 397ca3c03c96adc9bd6b0ca691f835e3e579fba0
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66841132"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67882249"
 ---
 # <a name="use-teamviewer-to-remotely-administer-intune-devices"></a>Используйте TeamViewer для удаленного администрирования устройств Intune
 
@@ -32,8 +32,8 @@ ms.locfileid: "66841132"
 
 - Администратор Intune на портале Azure должен иметь следующие [роли Intune](role-based-access-control.md):  
 
-    - **Обновить удаленную помощь**: позволяет администраторам изменять параметры соединителя TeamViewer
-    - **Запросить удаленную помощь**: позволяет администраторам начать новый сеанс удаленной помощи для любого пользователя. Пользователи с этой ролью не ограничиваются ролями Intune в пределах области. Кроме того, группы пользователей или устройств с ролью Intune в пределах области могут также запросить удаленную помощь. 
+  - **Обновить удаленную помощь**: позволяет администраторам изменять параметры соединителя TeamViewer
+  - **Запросить удаленную помощь**: позволяет администраторам начать новый сеанс удаленной помощи для любого пользователя. Пользователи с этой ролью не ограничиваются ролями Intune в пределах области. Кроме того, группы пользователей или устройств с ролью Intune в пределах области могут также запросить удаленную помощь. 
 
 - Учетная запись [TeamViewer](https://www.teamviewer.com) с учетными данными для входа. Только некоторые лицензии TeamViewer поддерживают интеграцию с Intune. Конкретные потребности TeamViewer см. в разделе [Партнер по интеграции TeamViewer: Microsoft Intune](https://www.teamviewer.com/integrations/microsoft-intune/).
 

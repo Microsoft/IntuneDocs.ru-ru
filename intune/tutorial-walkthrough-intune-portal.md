@@ -17,12 +17,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e3c305cc579fedb9090faaf6c7270fcc546e36eb
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: a0fbddf54939a494087a7da1220f51ec77b45e7b
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67044326"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67882473"
 ---
 # <a name="tutorial-walkthrough-of-microsoft-intune-in-the-azure-portal"></a>Руководство. Пошаговое руководство по использованию Microsoft Intune на портале Azure
 
@@ -38,8 +38,8 @@ ms.locfileid: "67044326"
 ## <a name="prerequisites"></a>Предварительные условия
 Перед настройкой Microsoft Intune изучите следующие требования.
 
-   - [Поддерживаемые операционные системы и браузеры](supported-devices-browsers.md) 
-   - [Требования к конфигурации сети и ее пропускная способность](network-bandwidth-use.md)
+- [Поддерживаемые операционные системы и браузеры](supported-devices-browsers.md) 
+- [Требования к конфигурации сети и ее пропускная способность](network-bandwidth-use.md)
 
 ## <a name="sign-up-for-a-microsoft-intune-free-trial"></a>Регистрация для использования бесплатной пробной версии Microsoft Intune
 

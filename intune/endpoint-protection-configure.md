@@ -15,12 +15,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 mr.reviewer: karthib
-ms.openlocfilehash: 2bebdf712ccf325c6742e6bb326a8fb2768023b7
-ms.sourcegitcommit: 14f4e97de5699394684939e6f681062b5d4c1671
+ms.openlocfilehash: 1a5cd898545bae51395352d5cf1e7b1ee9bd22dd
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67251170"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67883247"
 ---
 # <a name="add-endpoint-protection-settings-in-intune"></a>Добавление параметров защиты конечных точек в Intune
 
@@ -33,8 +33,8 @@ ms.locfileid: "67251170"
 Например, можно создать профиль защиты конечной точки, который разрешает пользователям macOS устанавливать приложения только из Mac App Store. Или включать Windows SmartScreen при выполнении приложений на устройствах Windows 10.
 
 Перед созданием профиля ознакомьтесь со следующими статьями, в которых рассматриваются параметры защиты конечных точек, применяемые Intune для каждой поддерживаемой платформы: 
-   - [Параметры macOS](endpoint-protection-macos.md)
-   - [Параметры Windows 10](endpoint-protection-windows-10.md)
+- [Параметры macOS](endpoint-protection-macos.md)
+- [Параметры Windows 10](endpoint-protection-windows-10.md)
 
 ## <a name="create-a-device-profile-containing-endpoint-protection-settings"></a>Создание профиля устройства с параметрами защиты конечных точек
 

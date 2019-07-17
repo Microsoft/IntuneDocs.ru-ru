@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 473de0ae24cb3ee2a9f7fbd84ef78e6c25ef6ce6
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 55d4e327d99c8987e6fdc0dea0ac046dd0dc167e
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67547292"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67883807"
 ---
 # <a name="better-mobile-threat-defense-connector-with-intune"></a>Соединитель Better Mobile Threat Defense в Intune
 
@@ -93,7 +93,7 @@ ms.locfileid: "67547292"
 
 - Подписка на Better Mobile Threat Defense
 
-    - Дополнительные сведения см. на [веб-сайте Better Mobile](https://www.better.mobi/).
+  - Дополнительные сведения см. на [веб-сайте Better Mobile](https://www.better.mobi/).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

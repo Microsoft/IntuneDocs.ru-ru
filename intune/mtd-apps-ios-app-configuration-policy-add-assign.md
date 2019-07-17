@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fdc7434616db6c06f56438fb6d8774ae3f2deca9
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: d27cd977909bb7aa237441102110a7abc27ad301
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548434"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884994"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune  
 
@@ -90,7 +90,7 @@ ms.locfileid: "67548434"
 
 ### <a name="configure-symantec-endpoint-protection-mobile-apps"></a>Настройка приложений Symantec Endpoint Protection Mobile  
 - **Android**
-   - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). На **шаге 7** примените этот [URL-адрес магазина приложений SEP Mobile](https://play.google.com/store/apps/details?id=com.skycure.skycure).  Для параметра **Минимальная версия операционной системы** выберите значение **Android 4.0 (Ice Cream Sandwich)** .
+  - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). На **шаге 7** примените этот [URL-адрес магазина приложений SEP Mobile](https://play.google.com/store/apps/details?id=com.skycure.skycure).  Для параметра **Минимальная версия операционной системы** выберите значение **Android 4.0 (Ice Cream Sandwich)** .
 
 - **iOS**
   - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Примените этот [URL-адрес приложения SEP Mobile в магазине](https://itunes.apple.com/us/app/skycure/id695620821?mt=8) на **шаге 11** для параметра **URL-адрес Appstore**.
@@ -162,7 +162,7 @@ ms.locfileid: "67548434"
 
 ### <a name="check-point-sandblast-mobile-app-configuration-policy"></a>Политика конфигурации приложений Check Point SandBlast Mobile  
 - Добавьте политику конфигурации приложения Check Point SandBlast Mobile для iOS согласно инструкции по [использованию политик конфигурации приложений для iOS в Microsoft Intune](app-configuration-policies-use-ios.md).
-    - В **шаге 8** используйте функцию **Введите данные XML**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации.
+  - В **шаге 8** используйте функцию **Введите данные XML**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации.
 
 ```
 <dict><key>MDM</key><string>INTUNE</string></dict>

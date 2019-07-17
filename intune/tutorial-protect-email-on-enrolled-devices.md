@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 91c2ab71cb393bdf885c947c8f3cd93a5bb196c3
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: a5a355c82455e135319b7683756eb0ef5c032876
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548046"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67882365"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-managed-devices"></a>Руководство. Защита электронной почты Exchange Online на управляемых устройствах
 Узнайте, как политики соответствия требованиям для устройств с условным доступом позволяют предоставить устройствам iOS доступ к электронной почте Exchange Online, только если устройства управляются Intune и используют утвержденное приложение электронной почты. 
@@ -35,10 +35,10 @@ ms.locfileid: "67548046"
 Если у вас нет подписки Intune, [зарегистрируйтесь для получения бесплатной пробной учетной записи](free-trial-sign-up.md).
 
 ## <a name="prerequisites"></a>Предварительные условия
-  - Для работы с этим руководством вам потребуется тестовый клиент со следующими подписками:
-    - Azure Active Directory Premium ([бесплатная пробная версия](https://azure.microsoft.com/free/?WT.mc_id=A261C142F));
-    - Office 365 бизнес, которая включает Exchange ([бесплатная пробная версия](https://go.microsoft.com/fwlink/p/?LinkID=510938)).
-  - Прежде чем начать работу, создайте тестовый профиль для устройств iOS, выполнив инструкции отсюда: [Краткое руководство. Создание профиля электронной почты устройства для iOS](quickstart-email-profile.md).
+- Для работы с этим руководством вам потребуется тестовый клиент со следующими подписками:
+  - Azure Active Directory Premium ([бесплатная пробная версия](https://azure.microsoft.com/free/?WT.mc_id=A261C142F));
+  - Office 365 бизнес, которая включает Exchange ([бесплатная пробная версия](https://go.microsoft.com/fwlink/p/?LinkID=510938)).
+- Прежде чем начать работу, создайте тестовый профиль для устройств iOS, выполнив инструкции отсюда: [Краткое руководство. Создание профиля электронной почты устройства для iOS](quickstart-email-profile.md).
 
 ## <a name="sign-in-to-intune"></a>Вход в Intune
 

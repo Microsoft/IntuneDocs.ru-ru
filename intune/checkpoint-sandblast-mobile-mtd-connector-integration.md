@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 49a6e8e625a08c9ad039d3106ff5d5c7001c2cab
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: ae9bd6d6f56ec85a993ffcb2f3c1af9897a2a87f
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67547110"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67883658"
 ---
 # <a name="integrate-check-point-sandblast-mobile-with-intune"></a>Интеграция Check Point SandBlast Mobile с Intune
 
@@ -37,13 +37,13 @@ ms.locfileid: "67547110"
 
 - Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
 
-    - Вход и чтение профилей пользователей
+  - Вход и чтение профилей пользователей
 
-    - Доступ к каталогу от имени вошедшего в систему пользователя
+  - Доступ к каталогу от имени вошедшего в систему пользователя
 
-    - Чтение данных каталога
+  - Чтение данных каталога
 
-    - Отправка сведений об устройстве в Intune
+  - Отправка сведений об устройстве в Intune
 
 - Учетные данные администратора для доступа к консоли Check Point SandBlast Mobile MTD.
 

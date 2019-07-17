@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e78c9034058a5f60f01056711465b28deca77d83
-ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
+ms.openlocfilehash: 3eb18c45f81e427f1d14ce77086e0d7684994e82
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67572163"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884166"
 ---
 # <a name="integrate-zimperium-with-intune"></a>Интеграция Zimperium с Intune
 
@@ -39,13 +39,13 @@ ms.locfileid: "67572163"
 
 - Учетные данные глобального администратора Azure Active Directory для предоставления следующих разрешений:
 
-    - Вход и чтение профилей пользователей
+  - Вход и чтение профилей пользователей
 
-    - Доступ к каталогу от имени вошедшего в систему пользователя
+  - Доступ к каталогу от имени вошедшего в систему пользователя
 
-    - Чтение данных каталога
+  - Чтение данных каталога
 
-    - Отправка сведений об устройстве в Intune
+  - Отправка сведений об устройстве в Intune
 
 - Учетные данные администратора для доступа к консоли MTD Zimperium.
 

@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b34143e17245de61026a536cc0b8c5e8a7f80107
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 97a0d9074b8617dec2fb28ed59168e08ada57fba
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67549400"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67882768"
 ---
 # <a name="intune-migration-guide"></a>Руководство по переходу к Intune
 
@@ -37,25 +37,25 @@ ms.locfileid: "67549400"
 
 - [Этап 1. Подготовка Intune к управлению мобильными устройствами](migration-guide-prepare.md)
 
-    - [Оценка требований к переходу к MDM](migration-guide-prepare.md#assess-mdm-requirements)
+  - [Оценка требований к переходу к MDM](migration-guide-prepare.md#assess-mdm-requirements)
 
-    - [Базовая настройка](migration-guide-setup.md)
+  - [Базовая настройка](migration-guide-setup.md)
 
-    - [Настройка политик управления устройствами и приложениями](migration-guide-configure-policies.md)
+  - [Настройка политик управления устройствами и приложениями](migration-guide-configure-policies.md)
 
-    - [Настройка политик защиты приложений](migration-guide-app-protection-policies.md)
+  - [Настройка политик защиты приложений](migration-guide-app-protection-policies.md)
 
-    - [Особые примечания о миграции](migration-guide-considerations.md)
+  - [Особые примечания о миграции](migration-guide-considerations.md)
 
 - [Этап 2. Кампания по миграции](migration-guide-campaign.md)
 
-    - [Коммуникационный план](migration-guide-communication-plan.md)
+  - [Коммуникационный план](migration-guide-communication-plan.md)
 
-    - [Реализация в системах конечных пользователей за счет условного доступа](migration-guide-drive-adoption.md)
+  - [Реализация в системах конечных пользователей за счет условного доступа](migration-guide-drive-adoption.md)
 
-    - [Типичный цикл миграции](migration-guide-cycle.md)
-        - [Мониторинг миграции](migration-guide-cycle.md#monitoring-migration)
-        - [Задачи, выполняемые после переноса](migration-guide-cycle.md#post-migration)
+  - [Типичный цикл миграции](migration-guide-cycle.md)
+    - [Мониторинг миграции](migration-guide-cycle.md#monitoring-migration)
+    - [Задачи, выполняемые после переноса](migration-guide-cycle.md#post-migration)
 
 ## <a name="assumptions"></a>Допущения
 

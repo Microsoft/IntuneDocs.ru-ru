@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: da828b162e008541cb5cb2b5d15092d0fce417c5
-ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
+ms.openlocfilehash: 7663009c7d45171ab6469f7f6e96b4c8f979b744
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67572534"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67883284"
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune"></a>Настройка локального соединителя Exchange в Microsoft Intune
 Сведения в этой статье помогут вам установить и затем отслеживать локальный соединитель Exchange Active Sync для Intune.  Локальный соединитель Exchange для Intune используется с [политиками условного доступа для предоставления или блокировки доступа к локальным почтовым ящикам Exchange](conditional-access-exchange-create.md). 
@@ -58,18 +58,18 @@ Intune поддерживает установку нескольких лока
 Создайте учетную запись пользователя Active Directory, которую будет использовать локальный соединитель Exchange. Она должна иметь разрешение на выполнение следующих обязательных командлетов Windows PowerShell Exchange.
 
 
- - Get-ActiveSyncOrganizationSettings, Set-ActiveSyncOrganizationSettings
- - Get-CasMailbox, Set-CasMailbox
- - Get-ActiveSyncMailboxPolicy, Set-ActiveSyncMailboxPolicy, New-ActiveSyncMailboxPolicy, Remove-ActiveSyncMailboxPolicy
- - Get-ActiveSyncDeviceAccessRule, Set-ActiveSyncDeviceAccessRule, New-ActiveSyncDeviceAccessRule, Remove-ActiveSyncDeviceAccessRule
- - Get-ActiveSyncDeviceStatistics;
- - Get-ActiveSyncDevice;
- - Get-ExchangeServer;
- - Get-ActiveSyncDeviceClass
- - Get-Recipient;
- - Clear-ActiveSyncDevice, Remove-ActiveSyncDevice
- - Set-ADServerSettings.
- - Get-Command
+- Get-ActiveSyncOrganizationSettings, Set-ActiveSyncOrganizationSettings
+- Get-CasMailbox, Set-CasMailbox
+- Get-ActiveSyncMailboxPolicy, Set-ActiveSyncMailboxPolicy, New-ActiveSyncMailboxPolicy, Remove-ActiveSyncMailboxPolicy
+- Get-ActiveSyncDeviceAccessRule, Set-ActiveSyncDeviceAccessRule, New-ActiveSyncDeviceAccessRule, Remove-ActiveSyncDeviceAccessRule
+- Get-ActiveSyncDeviceStatistics;
+- Get-ActiveSyncDevice;
+- Get-ExchangeServer;
+- Get-ActiveSyncDeviceClass
+- Get-Recipient;
+- Clear-ActiveSyncDevice, Remove-ActiveSyncDevice
+- Set-ADServerSettings.
+- Get-Command
 
 ## <a name="download-the-on-premises-exchange-connector-software-installation-package"></a>Скачивание пакета установки программного обеспечения локального соединителя Exchange
 
@@ -184,9 +184,9 @@ Intune поддерживает несколько локальных соеди
 ## <a name="manually-force-a-quick-sync-or-full-sync"></a>Принудительная быстрая или полная синхронизация вручную
 Локальный соединитель Exchange автоматически регулярно синхронизирует записи устройств в EAS и Intune. Если состояние соответствия устройства требованиям меняется, процесс автоматической синхронизации регулярно обновляет записи, запрещая или разрешая доступ устройству.
 
-   - **Быстрая синхронизация** происходит регулярно несколько раз в день. При этом извлекаются сведения об устройствах для пользователей, которым назначены лицензии в Intune или для которых настроен условный доступ в локальной среде Exchange и данные которых изменились с момента последней синхронизации.
+- **Быстрая синхронизация** происходит регулярно несколько раз в день. При этом извлекаются сведения об устройствах для пользователей, которым назначены лицензии в Intune или для которых настроен условный доступ в локальной среде Exchange и данные которых изменились с момента последней синхронизации.
 
-   - **Полная синхронизация** по умолчанию происходит один раз в день. При этом извлекаются сведения об устройствах для всех пользователей, которым назначены лицензии в Intune или для которых настроен условный доступ в локальной среде Exchange. В результате полной синхронизации также извлекаются сведения о сервере Exchange, а конфигурация, настраиваемая службой Intune на портале Azure, обновляется на сервере Exchange. 
+- **Полная синхронизация** по умолчанию происходит один раз в день. При этом извлекаются сведения об устройствах для всех пользователей, которым назначены лицензии в Intune или для которых настроен условный доступ в локальной среде Exchange. В результате полной синхронизации также извлекаются сведения о сервере Exchange, а конфигурация, настраиваемая службой Intune на портале Azure, обновляется на сервере Exchange. 
 
 
 Принудительную синхронизацию соединителя можно запустить с помощью параметра **Быстрая синхронизация** или **Полная синхронизация** на панели мониторинга Intune. Для этого выполните указанные ниже действия.
