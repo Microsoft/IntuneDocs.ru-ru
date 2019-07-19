@@ -12,7 +12,7 @@
 ### [Зачем регистрировать устройство Android](why-enroll-android-device.md)
 ### Регистрация устройства
 #### [Регистрация устройства Android](enroll-device-android-company-portal.md)  
-#### [Регистрация с помощью рабочего профиля Android](create-a-work-profile-and-enroll-your-device-in-intune-android.md)
+#### [Регистрация с помощью рабочего профиля Android](enroll-device-android-work-profile.md)
 #### [Регистрация с помощью приложения Microsoft Intune](enroll-device-android-microsoft-intune-app.md)
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-android.md)
 ### [Шифрование устройства](encrypt-your-device-android.md)
