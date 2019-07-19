@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 05/17/2019
+ms.date: 07/12/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aa6dfef745157ae96736f8405fd5cafc33d4335f
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: b58b27264e2f6955ae4f16843bb3493e5fdc993e
+ms.sourcegitcommit: fe67741c62749fc9114e9191092ed8b786dd4ffa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67045293"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270281"
 ---
 # <a name="use-intune-to-remediate-vulnerabilities-identified-by-microsoft-defender-atp"></a>Устранение уязвимостей, определенных ATP в Microsoft Defender, с помощью Intune  
 
@@ -32,7 +32,7 @@ ms.locfileid: "67045293"
 
 После подключения Intune к Расширенной защите от угроз в Microsoft Defender ATP получает сведения об угрозах и уязвимостях с управляемых устройств.  
 
-В консоли Центра безопасности Защитника Windows ATP администраторы системы безопасности просматривают данные об уязвимостях конечной точки. Затем одним щелчком они создают задачи по обеспечению безопасности, с помощью которых отмечают проблемные устройства для устранения уязвимостей. Задачи по обеспечению безопасности немедленно передаются в консоль Intune, где администраторы Intune могут просматривать их. Задача по обеспечению безопасности определяет тип уязвимости, приоритет, состояние и действия по ее устранению. Администратор Intune может принять или отклонить задачу.  
+В консоли Центра безопасности в Microsoft Defender администраторы, отвечающие за ATP и безопасность, просматривают данные об уязвимостях конечной точки. Затем одним щелчком они создают задачи по обеспечению безопасности, с помощью которых отмечают проблемные устройства для устранения уязвимостей. Задачи по обеспечению безопасности немедленно передаются в консоль Intune, где администраторы Intune могут просматривать их. Задача по обеспечению безопасности определяет тип уязвимости, приоритет, состояние и действия по ее устранению. Администратор Intune может принять или отклонить задачу.  
 
 Если он принимает задачу, то приступает к ее устранению в Intune в соответствии с инструкциями, предоставленными в задаче безопасности.  
 
@@ -67,7 +67,7 @@ ms.locfileid: "67045293"
 **Настройки Intune для ATP**:  
 - Настройте подключение между службами с ATP в Microsoft Defender.  
 - Разверните политику соответствия требованиям с типом профиля **ATP в Microsoft Defender (Windows 10 Desktop)** на устройствах, риск которых будет оценивать ATP.
-  Сведения о настройке Intune для работы с ATP см. в разделе о [принудительном обеспечении соответствия для ATP в Microsoft Defender с помощью условного доступа в Intune](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune).  
+  Сведения о настройке Intune для работы с ATP см. в разделе о [принудительном обеспечении соответствия для ATP в Microsoft Defender с помощью условного доступа в Intune](https://docs.microsoft.com/intune/advanced-threat-protection#enable-microsoft-defender-atp-in-intune).  
 
 ## <a name="work-with-security-tasks"></a>Работа с задачами по обеспечению безопасности  
 

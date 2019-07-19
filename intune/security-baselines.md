@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 06/20/2019
+ms.date: 07/12/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3e4e1040913daef5418f0b4fa1e56f6ef827dd67
-ms.sourcegitcommit: 63b55e81122e5c15893302b109ae137c30855b55
+ms.openlocfilehash: 16586ece687b5d50ea89b28bfd524f50e65ceb46
+ms.sourcegitcommit: 5ce8726278004bbf072149a9c924091bb0654b7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67713276"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "67851485"
 ---
 # <a name="use-security-baselines-to-configure-windows-10-devices-in-intune"></a>Использование базовых конфигураций безопасности для настройки устройств Windows 10 в Intune
 
@@ -70,9 +70,9 @@ ms.locfileid: "67713276"
   - [Базовая конфигурация безопасности MDM, весна 2019 г. (19H1)](security-baseline-settings-mdm.md)
   - [Предварительная версия: базовые показатели безопасности MDM на октябрь 2018 г.](security-baseline-settings-mdm-archive.md)
 
-- **Базовая конфигурация для ATP в Защитнике Windows**  
+- **Базовая конфигурация системы безопасности ATP в Microsoft Defender**  
   *(Чтобы применить эту базовую конфигурацию, ваша среда должна соответствовать предварительным требованиям для использования решения ["Расширенная защита от угроз" в Microsoft Defender](advanced-threat-protection.md#prerequisites).)*
-  - [Предварительная версия: базовые показатели ATP в Защитнике Windows](security-baseline-settings-defender-atp.md)  
+  - [Предварительная версия: Базовая конфигурация системы безопасности ATP в Microsoft Defender](security-baseline-settings-defender-atp.md)  
 
 Вы можете продолжать использовать и изменять профили, созданные на основе шаблона предварительной версии, даже если такой шаблон более недоступен для создания новых профилей. 
 
@@ -200,6 +200,6 @@ ms.locfileid: "67713276"
 ## <a name="next-steps"></a>Дальнейшие шаги
 - Просмотрите параметры в последних доступных версиях базовых конфигураций:  
   - [Базовая конфигурация безопасности MDM](security-baseline-settings-mdm.md)  
-  - [Базовая конфигурация для ATP в Защитнике Windows](security-baseline-settings-defender-atp.md)  
+  - [Базовая конфигурация системы безопасности ATP в Microsoft Defender](security-baseline-settings-defender-atp.md)  
 
 - Дополнительные сведения см. в статье [Monitor the security baseline and profile in Microsoft Intune](security-baselines-monitor.md) (Мониторинг базовых показателей системы безопасности и профиля в Microsoft Intune).

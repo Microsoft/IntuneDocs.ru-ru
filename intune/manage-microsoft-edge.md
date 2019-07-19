@@ -1,5 +1,5 @@
 ---
-title: Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
+title: Управление Microsoft Edge для iOS и Android с помощью Intune
 titleSuffix: ''
 description: Используйте политики защиты приложений Intune с помощью Microsoft Edge, чтобы гарантировать, что вход на корпоративные веб-сайты всегда осуществляется с принятием мер безопасности.
 keywords: ''
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 147547577615c6e74a9c5b3dd8b200ba387bad79
-ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
+ms.openlocfilehash: bc18ba2210719cbebe77cd5b37024be4bb7b0d3e
+ms.sourcegitcommit: a01f0f3070932e3be44a4f545d4de11d715381ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67648468"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68287219"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -157,7 +157,7 @@ ms.locfileid: "67648468"
 ### <a name="before-you-start"></a>Перед началом работы
 
 - Настройте внутренние приложения для использования с Azure AD Application Proxy.
-    - Чтобы настроить прокси приложения и опубликовать приложения, см. [документацию по установке](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+  - Чтобы настроить прокси приложения и опубликовать приложения, см. [документацию по установке](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
 - Для Microsoft Edge нужно назначить [политику защиты приложений Intune](app-protection-policy.md).
 
 > [!NOTE]
@@ -228,34 +228,34 @@ ms.locfileid: "67648468"
 - Вы можете использовать подстановочный знак (\*) в соответствии с правилами в следующем списке разрешенных шаблонов.
 - Подстановочный знак может соответствовать только полной части имени узла (разделяются точками) или полной части пути (разделяются косыми чертами). Например, `http://*contoso.com` **не** поддерживается.
 - В адресе можно указать номера портов. Если не указать номер порта, используются следующие значения.
-    - Порт 80 для http
-    - Порт 443 для https
+  - Порт 80 для http
+  - Порт 443 для https
 - Использование подстановочных знаков в номерах портов **не** поддерживается. Например, `http://www.contoso.com:*` и `http://www.contoso.com:*/` не поддерживаются. 
 
     |    URL-адрес    |    Подробные сведения    |    Соответствует    |    Не соответствует    |
     |-------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
     |    `http://www.contoso.com`    |    Соответствует отдельной странице    |    `www.contoso.com`    |    `host.contoso.com`<br>`www.contoso.com/images`<br>`contoso.com/`    |
     |    `http://contoso.com`    |    Соответствует отдельной странице    |    `contoso.com/`    |    `host.contoso.com`<br>`www.contoso.com/images`<br>`www.contoso.com`    |
-    |    `http://www.contoso.com/&#42;`   |    Соответствует всем URL-адресам, которые начинаются с `www.contoso.com`    |    `www.contoso.com`<br>`www.contoso.com/images`<br>`www.contoso.com/videos/tvshows`    |    `host.contoso.com`<br>`host.contoso.com/images`    |
-    |    `http://*.contoso.com/*`    |    Соответствует всем поддоменам в `contoso.com`    |    `developer.contoso.com/resources`<br>`news.contoso.com/images`<br>`news.contoso.com/videos`    |    `contoso.host.com`    |
-    |    `http://www.contoso.com/images`    |    Соответствует отдельной папке    |    `www.contoso.com/images`    |    `www.contoso.com/images/dogs`    |
+    |    `http://www.contoso.com/*;`   |    Соответствует всем URL-адресам, которые начинаются с `www.contoso.com`    |    `www.contoso.com`<br>`www.contoso.com/images`<br>`www.contoso.com/videos/tvshows`    |    `host.contoso.com`<br>`host.contoso.com/images`    |
+    |    `http://*.contoso.com/*`    |    Соответствует всем поддоменам в `contoso.com`    |    `developer.contoso.com/resources`<br>`news.contoso.com/images`<br>`news.contoso.com/videos`    |    `contoso.host.com`    |    `http://*contoso.com/*`    |    Соответствует всем поддоменам, оканчивающимся на `contoso.com/`    |    `http://news-contoso.com`<br>`http://news-contoso.com.com/daily`    |    `http://news-contoso.host.com`    |
+    `http://www.contoso.com/images`    |    Соответствует отдельной папке    |    `www.contoso.com/images`    |    `www.contoso.com/images/dogs`    |
     |    `http://www.contoso.com:80`    |    Соответствует отдельной странице с использованием номера порта    |    `http://www.contoso.com:80`    |         |
     |    `https://www.contoso.com`    |    Соответствует отдельной защищенной странице    |    `https://www.contoso.com`    |    `http://www.contoso.com`    |
     |    `http://www.contoso.com/images/*`    |    Соответствует отдельной папке и всем вложенным в нее папкам    |    `www.contoso.com/images/dogs`<br>`www.contoso.com/images/cats`    |    `www.contoso.com/videos`    |
   
 - Ниже приведены примеры входных данных, которые нельзя указывать:
-    - `*.com`
-    - `*.contoso/*`
-    - `www.contoso.com/*images`
-    - `www.contoso.com/*images*pigs`
-    - `www.contoso.com/page*`
-    - IP-адреса
-    - `https://*`
-    - `http://*`
-    - `https://*contoso.com`
-    - `http://www.contoso.com:*`
-    - `http://www.contoso.com: /*`
-  
+  - `*.com`
+  - `*.contoso/*`
+  - `www.contoso.com/*images`
+  - `www.contoso.com/*images*pigs`
+  - `www.contoso.com/page*`
+  - IP-адреса
+  - `https://*`
+  - `http://*`
+  - `https://*contoso.com`
+  - `http://www.contoso.com:*`
+  - `http://www.contoso.com: /*`
+
 ## <a name="define-behavior-when-users-try-to-access-a-blocked-site"></a>Определение поведения, когда пользователи пытаются получить доступ к заблокированным сайтам
 
 Модель двух удостоверений, встроенная в Microsoft Edge, расширяет для пользователей возможности, которых не было в Intune Managed Browser. Когда пользователи переходят на заблокированный сайт в Microsoft Edge, им можно предложить открыть ссылку в персональном контексте вместо рабочего. Это позволяет оставаться под защитой и хранить в безопасности корпоративные ресурсы. Например, если пользователь получает ссылку на новостную статью через Outlook, он может открыть ссылку в персональном контексте или в режиме InPrivate. Рабочий контекст не разрешает получать новости с веб-сайтов. По умолчанию эти переходы разрешены.
