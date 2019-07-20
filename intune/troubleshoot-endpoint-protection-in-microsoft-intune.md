@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a4f749ab85d283ed9743d227476f8229dc1cf7c3
-ms.sourcegitcommit: a97b6139770719afbd713501f8e50f39636bc202
+ms.openlocfilehash: 5159ee595a6699eb457b194162d21038d4667063
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66402644"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68353335"
 ---
 # <a name="endpoint-protection-issues-and-possible-solutions-in-microsoft-intune"></a>Устранение неполадок с Endpoint Protection и возможные решения проблем в Microsoft Intune
 
@@ -34,7 +34,7 @@ ms.locfileid: "66402644"
 
 ## <a name="common-intune-errors-and-possible-resolutions"></a>Распространенные ошибки, связанные с использованием Intune, и возможные решения проблем
 
-#### <a name="endpoint-protection-engine-unavailable"></a>Модуль Endpoint Protection недоступен
+### <a name="endpoint-protection-engine-unavailable"></a>Модуль Endpoint Protection недоступен
 
 **Возможная причина**. Модуль Intune Endpoint Protection поврежден или удален.
 
@@ -45,7 +45,7 @@ ms.locfileid: "66402644"
 - Откройте на панели управления раздел "Программы" и выберите **Агент Microsoft Intune Endpoint Protection**. Удалите приложение.
 - При следующей синхронизации обновлений диспетчер обновления Microsoft Online Management обнаружит, что программа отсутствует, и переустановит ее в запланированное время установки.
 
-#### <a name="features-are-disabled"></a>Функции отключены
+### <a name="features-are-disabled"></a>Функции отключены
 
 Может появиться сообщение о том, что некоторые функции отключены. Это сообщение может отображаться, если Intune Endpoint Protection или Защитник Windows отключены администратором с помощью профиля конфигурации. Также эти программы могут быть отключены пользователем на устройстве. Возможные сообщения.
 
@@ -63,19 +63,19 @@ ms.locfileid: "66402644"
 - [Антивирусная программа "Защитник Windows"](device-restrictions-windows-10.md#windows-defender-antivirus)
 - [Включение пользователем защиты в реальном времени для доступа к ресурсам компании](/intune-user-help/turn-on-defender-windows)
 
-#### <a name="malware-definitions-out-of-date"></a>Определения вредоносных программ устарели
+### <a name="malware-definitions-out-of-date"></a>Определения вредоносных программ устарели
 
 Это состояние возникает, если с даты последнего обновления определений вредоносных программ на устройстве прошло более 14 дней. Например, это сообщение может отображаться, если устройство отключено от Интернета или если определения вредоносных программ устарели.
 
 [Возможные решения](device-restrictions-windows-10.md#windows-defender-antivirus). Если определения вредоносных программ устарели, их можно обновить с помощью **антивирусной программы "Защитник Windows"** .
 
-#### <a name="full-scan-overdue-or-quick-scan-overdue"></a>Полная или быстрая проверки просрочены
+### <a name="full-scan-overdue-or-quick-scan-overdue"></a>Полная или быстрая проверки просрочены
 
 Полная или быстрая проверки не выполнялись более 14 дней. Такая ситуация возникает, если устройство перезапускается во время полной проверки.
 
 **Возможные решения**. Если проверка просрочена, можно выполнить однократную проверку или запланировать регулярную полную проверку. См. документацию по [антивирусной программе "Защитник Windows"](device-restrictions-windows-10.md#windows-defender-antivirus).
 
-#### <a name="another-endpoint-protection-application-running"></a>Запущено другое приложение защиты конечных точек
+### <a name="another-endpoint-protection-application-running"></a>Запущено другое приложение защиты конечных точек
 
 Запущено другое приложение Endpoint Protection, и устройство находится в работоспособном состоянии.
 

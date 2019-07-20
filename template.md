@@ -14,12 +14,12 @@ ms.service: ''
 ms.technology: ''
 ms.assetid:
 - GET ONE FROM guidgenerator.com
-ms.openlocfilehash: d05559a46cfd2bf9e092378e7cff779022e21792
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: 0a5e90c6bc6b352f4d7a0fc0ae22c65110563461
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61509651"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354407"
 ---
 # <a name="metadata-and-markdown-template"></a>Метаданные и шаблон разметки
 
@@ -124,13 +124,13 @@ ms.locfileid: "61509651"
 - список
 
 
-##### <a name="unordered-list-with-an-embedded-lists"></a>Списки внутри неупорядоченного списка
+#### <a name="unordered-list-with-an-embedded-lists"></a>Списки внутри неупорядоченного списка
 
 - Это 
 - маркированный 
 - список
-    - Миссис Пикок
-    - Мистер Грин
+  - Миссис Пикок
+  - Мистер Грин
 - содержит  
 - другой
     1. Полковник Муштард

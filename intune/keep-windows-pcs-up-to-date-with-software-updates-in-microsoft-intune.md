@@ -17,19 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 70818e038be915a1b756eb391129e6cdb74fb069
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: a94c327c8595e83ec9808ed41e788c5756d5510a
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548649"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68353878"
 ---
 # <a name="keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune"></a>Обновление программного обеспечения на компьютерах с Windows с помощью Microsoft Intune
 
 [!INCLUDE [classic-portal](includes/classic-portal.md)]
 
 > [!NOTE]
-> Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите управлять обновлениями для компьютеров под управлением Windows зарегистрированным как мобильные устройства, см. в разделе [управление обновлениями программного обеспечения в Intune](windows-update-for-business-configure.md).
+> Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите управлять обновлениями для компьютеров Windows, зарегистрированных как мобильные устройства, см. статью [Управление обновлениями программного обеспечения в Intune](windows-update-for-business-configure.md).
 
 Microsoft Intune помогает защитить управляемые компьютеры несколькими способами, включая управление обновлениями ПО для поддержки актуального состояния компьютеров за счет быстрой установки последних обновлений и исправлений программного обеспечения.
 
@@ -260,5 +260,5 @@ Microsoft Intune помогает защитить управляемые ком
 6. Напоминания об обновлении будут отображаться в области сведений в нижней части страницы **Все обновления** .
 
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)

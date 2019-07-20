@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f4dad2d22b742b62ca35bd7fb98c7f7e8241cbb4
-ms.sourcegitcommit: 256952cac44bc6289156489b6622fdc1a3c9c889
+ms.openlocfilehash: 0eca9dfddbf9ea2c68cf58b1da64d9b046df7e77
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "67402902"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68353635"
 ---
 # <a name="manage-user-device-linking-for-windows-pcs"></a>Управление связыванием пользователей и устройств с компьютерами под управлением Windows
 
@@ -32,7 +32,7 @@ ms.locfileid: "67402902"
 
 Прежде чем программное обеспечение можно будет развернуть для пользователя, необходимо связать его с компьютером. Пользователя можно связать с несколькими компьютерами, однако каждый компьютер связывается только с одним пользователем. Пользователи автоматически связываются с компьютерами, которые они регистрируют в Intune, используя корпоративный портал.
 
-Дополнительные сведения о основного пользователя устройства, см. в разделе [найти основной пользователь](find-primary-user.md).
+Дополнительные сведения о основном пользователе устройства см. в разделе [Поиск основного пользователя](find-primary-user.md).
 
 Связывание пользователя с компьютером:
 
@@ -53,6 +53,6 @@ ms.locfileid: "67402902"
 > [!TIP]
 > Если вы хотите ограничить возможность пользователей связываться с компьютерами, включите параметр **Ограничить возможность пользователей связываться с компьютерами** в политике **Параметры агента Microsoft Intune**.
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)

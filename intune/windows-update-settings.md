@@ -14,12 +14,12 @@ ms.reviewer: aiwang
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c5a0ee88a24804294346888facef523f89fee816
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 9e9baf3593883cf2fa2402a0b4daec638a336366
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66046652"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884192"
 ---
 # <a name="windows-update-settings-for-intune"></a>Параметры Центра обновления Windows для Intune  
 
@@ -179,8 +179,8 @@ ms.locfileid: "66046652"
 Разрешите или запретите пользователю устройства приостанавливать установку обновления. 
 
 ### <a name="block-user-from-scanning-for-windows-updates"></a>Запретить пользователю проверять наличие обновлений Windows  
- - **По умолчанию**: разрешить
- - **Справочная документация Windows**: [Обновления/SetDisableUXWUAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisableuxwuaccess) 
+- **По умолчанию**: разрешить
+- **Справочная документация Windows**: [Обновления/SetDisableUXWUAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisableuxwuaccess) 
 
 Указывает, следует ли разрешить или запретить пользователю проверку обновлений Windows. Например, если вы настраиваете значение *Блокировать*, функции сканирования, скачивания и установки компонентов из Центра обновления Windows будут недоступны пользователям.  
 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f90568b3939d37bb4e7fbeff72d5e357bc57bd6e
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 21f4f55c028c6ff06730e50d9f9862e85d0a9ef1
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67547890"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884759"
 ---
 # <a name="microsoft-intune-data-warehouse-data-model"></a>Модель данных для хранилища данных Microsoft Intune
 
@@ -32,22 +32,22 @@ ms.locfileid: "67547890"
 
 Хранилище предоставляет данные в следующих высокоуровневых областях:
 
-  - Меры защиты, охватывающие приложения и их использование
-  - Зарегистрированные устройства, свойства и инвентаризация
-  - Инвентаризация приложений и программного обеспечения
-  - Политики конфигурации и соответствия для устройств
+- Меры защиты, охватывающие приложения и их использование
+- Зарегистрированные устройства, свойства и инвентаризация
+- Инвентаризация приложений и программного обеспечения
+- Политики конфигурации и соответствия для устройств
 
 Эти области содержат сущности, важные в вашей среде Intune. Сведения о наборах сущностей см. в следующих статьях:
 
-  - [Приложения](reports-ref-application.md)
-  - [Дата](reports-ref-date.md)
-  - [Устройства](reports-ref-devices.md)
-  - [Справочник по расширению управления Intune](reports-ref-intunemanagementextension.md)
-  - [Политика](reports-ref-policy.md)
-  - [Управление мобильными приложениями (MAM)](reports-ref-mobile-app-management.md)
-  - [User](reports-ref-user.md)
-  - [Справочник по сущности текущего пользователя](reports-ref-current-user.md)
-  - [Сопоставление пользователя и устройства](reports-ref-user-device.md)
+- [Приложения](reports-ref-application.md)
+- [Дата](reports-ref-date.md)
+- [Устройства](reports-ref-devices.md)
+- [Справочник по расширению управления Intune](reports-ref-intunemanagementextension.md)
+- [Политика](reports-ref-policy.md)
+- [Управление мобильными приложениями (MAM)](reports-ref-mobile-app-management.md)
+- [User](reports-ref-user.md)
+- [Справочник по сущности текущего пользователя](reports-ref-current-user.md)
+- [Сопоставление пользователя и устройства](reports-ref-user-device.md)
 
 ## <a name="relationships-star-schema-model"></a>Связи: модель по схеме типа "звезда"
 
@@ -63,6 +63,6 @@ ms.locfileid: "67547890"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
- - Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в статье [Представление времени существования пользователя в хранилище данных Microsoft Intune](reports-ref-user-timeline.md).
- - Дополнительные сведения о работе с хранилищами данных см. [здесь](https://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse).
- - Дополнительные сведения о работе с Power BI и хранилищем данных см. в статье [Создание отчета Power BI путем импорта набора данных](https://powerbi.microsoft.com/documentation/powerbi-service-create-a-new-report/). 
+- Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в статье [Представление времени существования пользователя в хранилище данных Microsoft Intune](reports-ref-user-timeline.md).
+- Дополнительные сведения о работе с хранилищами данных см. [здесь](https://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse).
+- Дополнительные сведения о работе с Power BI и хранилищем данных см. в статье [Создание отчета Power BI путем импорта набора данных](https://powerbi.microsoft.com/documentation/powerbi-service-create-a-new-report/). 

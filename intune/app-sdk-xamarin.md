@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b062dd12f7a9b77f30d4d831a829f3d0316cacf6
-ms.sourcegitcommit: 1dc9d4e1d906fab3fc46b291c67545cfa2231660
-ms.translationtype: HT
+ms.openlocfilehash: 7525971f9ab48b92c3274f56cb1046a6fde948a5
+ms.sourcegitcommit: 2614d1b08b8a78cd792aebd2ca9848f391df8550
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67735468"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67794368"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -104,9 +104,10 @@ ms.locfileid: "67735468"
 Полный обзор по интеграции пакета SDK для приложений Intune можно найти в [Руководстве разработчика по Microsoft Intune App SDK для Android](app-sdk-android.md). Читая руководство и интегрируя пакет SDK для приложений Intune с приложением Xamarin, используйте следующие разделы, где выделены различия между реализацией собственного приложения Android, разработанного на Java, и приложения Xamarin, разработанного на C#. Эти разделы стоит рассматривать как дополнительные и не следует использовать в качестве замены; обязательно прочитайте руководство целиком.
 
 #### <a name="remapper"></a>Remapper
-Начиная с выпуска 1.4428.1, `Microsoft.Intune.MAM.Remapper` пакет можно добавить в приложение Xamarin. Android как [средства](app-sdk-android.md#build-tooling) сборки для выполнения замены класса MAM, метода и системных служб. Если включено повторное сопоставление, то при построении приложения будет автоматически выполняться эквивалентное заменяющее подразделов MAM для переименованных методов и приложений MAM.
+Начиная с выпуска 1.4428.1, `Microsoft.Intune.MAM.Remapper` пакет можно добавить в приложение Xamarin. Android как [средства сборки](app-sdk-android.md#build-tooling) для выполнения замены класса MAM, метода и системных служб. Если включено повторное сопоставление, то при построении приложения будет автоматически выполняться эквивалентное заменяющее подразделов MAM для переименованных методов и приложений MAM.
 
 Чтобы исключить класс из унификации MAM путем повторного сопоставления, в файл проектов `.csproj` можно добавить следующее свойство.
+
 ```xml
   <PropertyGroup>
     <ExcludeClasses>Semicolon separated list of relative class paths to exclude from MAM-ification</ExcludeClasses>
@@ -200,7 +201,7 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 > Remapper перезаписывает зависимость, которая используется Visual Studio для автоматического завершения IntelliSense. Таким образом, может потребоваться перезагрузить и перестроить проект в том случае, если был добавлен Remapper, чтобы технология IntelliSense могла правильно распознать изменения.
 
 ### <a name="company-portal-app"></a>Приложение корпоративного портала
-Привязки Xamarin SDK для Intune зависят от наличия [приложения корпоративный портал](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) Android на устройстве для включения политик защиты приложений. Корпоративный портал извлекает политики защиты приложения из службы Intune. При инициализации приложения политики и код загружаются для реализации этой политики на корпоративном портале. Пользователю не нужно выполнять вход.
+Привязки Xamarin SDK для Intune зависят от наличия приложения [Корпоративный портал](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) Android на устройстве для включения политик защиты приложений. Корпоративный портал извлекает политики защиты приложения из службы Intune. При инициализации приложения политики и код загружаются для реализации этой политики на корпоративном портале. Пользователю не нужно выполнять вход.
 
 > [!NOTE]
 > Если приложение "Корпоративный портал" отсутствует на устройстве **Android**, управляемое приложение Intune будет работать так же, как обычное приложение, не поддерживающее политики защиты приложений Intune.

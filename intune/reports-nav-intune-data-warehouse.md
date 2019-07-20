@@ -17,24 +17,24 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c5b903cfa9a6700b8931ccedea0f44a9de0d8011
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 7c832fd423a2486fa7c2252513202d82dc432859
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67549210"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67882579"
 ---
 # <a name="microsoft-intune-data-warehouse-api"></a>API хранилища данных Microsoft Intune
 
 API хранилища данных Intune предоставляет доступ к данным Intune в машиночитаемом формате, чтобы их можно было использовать в удобном вам средстве анализа. Вы можете использовать этот API для создания отчетов, предоставляющих ценные сведения о вашей корпоративной мобильной среде. Этот API использует протокол OData, который применяет стандартные шаблоны для следующих объектов:
 
-  - Заголовки запросов и ответов
-  - Коды состояния
-  - Методы HTTP
-  - Соглашения по URL-адресам
-  - Типы мультимедиа
-  - Форматы полезных данных
-  - Параметры запроса
+- Заголовки запросов и ответов
+- Коды состояния
+- Методы HTTP
+- Соглашения по URL-адресам
+- Типы мультимедиа
+- Форматы полезных данных
+- Параметры запроса
 
 OData (Open Data Protocol) — это стандарт организации Advancement of Structured Information Standards (OASIS), который определяет рекомендации по созданию и использованию API-интерфейсов RESTful. Хранилище данных Intune использует OData версии 4.0.
 
@@ -56,8 +56,8 @@ OData (Open Data Protocol) — это стандарт организации A
 
 Этому API требуется авторизация с помощью Azure AD. Azure AD использует OAuth 2.0. После авторизации вы можете получить данные из API с помощью команды HTTP GET и обращения к предоставленным коллекциям сущностей. Более подробные сведения см. в статье
 
- - [Авторизация](reports-api-url.md)
- - [Структура URL-адресов API](reports-api-url.md)
+- [Авторизация](reports-api-url.md)
+- [Структура URL-адресов API](reports-api-url.md)
 
 ## <a name="intune-data-warehouse-data-model"></a>Модель данных для хранилища данных Intune
 

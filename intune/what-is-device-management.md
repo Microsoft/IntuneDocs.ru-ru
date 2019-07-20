@@ -15,12 +15,12 @@ ms.reviewer: angerobe
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d5614f0657175658c1a8442d650e16c8550c1ac1
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: f476c3129f3f3da4cde98fd0cd9960c223ffd6ae
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67043836"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884274"
 ---
 # <a name="what-is-device-management"></a>Что такое управление устройствами? 
 
@@ -50,7 +50,7 @@ Intune позволяет управлять несколькими устрой
 - Использование личных устройств для доступа к ресурсам организации
 
 ## <a name="integration-with-secure-and-protect-services"></a>Интеграция со службами безопасности и защиты
-Основной задачей любого решения для управления устройствами является обеспечение безопасности и защиты. Для ее реализации Intune отлично интегрируется с другими службами. Например:
+Основной задачей любого решения для управления устройствами является обеспечение безопасности и защиты. Для ее реализации Intune отлично интегрируется с другими службами. Пример.
 
 - **Microsoft 365** является ключевым компонентом для упрощения распространенных ИТ-задач. В центре администрирования Microsoft 365 ведется создание пользователей и управление группами. Вы также получаете доступ к другим службам, таким как Intune, Azure AD и многие другие. 
 
@@ -58,8 +58,8 @@ Intune позволяет управлять несколькими устрой
 
 - **Защитник Windows** предоставляет множество функций безопасности для защиты устройств Windows 10. Используя Intune вместе с Защитником Windows, вы можете: 
 
-    - включить [SmartScreen Защитника Windows](https://docs.microsoft.com/intune/endpoint-protection-windows-10) для поиска подозрительной активности в файлах и приложениях на мобильных устройствах; 
-    - Используйте [Advanced Threat Protection (ATP) в Защитнике Windows](https://docs.microsoft.com/intune/advanced-threat-protection) для предотвращения нарушений безопасности на мобильных устройствах. Также помогите ограничить последствия брешей в системе безопасности путем блокирования пользователей к корпоративным ресурсам.
+  - включить [SmartScreen Защитника Windows](https://docs.microsoft.com/intune/endpoint-protection-windows-10) для поиска подозрительной активности в файлах и приложениях на мобильных устройствах; 
+  - Используйте [Advanced Threat Protection (ATP) в Защитнике Windows](https://docs.microsoft.com/intune/advanced-threat-protection) для предотвращения нарушений безопасности на мобильных устройствах. Также помогите ограничить последствия брешей в системе безопасности путем блокирования пользователей к корпоративным ресурсам.
 
 - **Условный доступ** — это функция Azure Active Directory, которая легко интегрируется с Intune. С помощью [условного доступа](https://docs.microsoft.com/intune/conditional-access) доступ к электронной почте, SharePoint и другим приложениям предоставляется только соответствующим устройствам. 
 
@@ -92,7 +92,7 @@ Intune позволяет управлять несколькими устрой
 - [Azure Active Directory](https://docs.microsoft.com/azure/active-directory)  
 - [Управление пользователями](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory)
 - [Управление группами и членами](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups)
-- [Устранение неполадок](https://docs.microsoft.com/intune/help-desk-operators)
+- [Устранение проблем](https://docs.microsoft.com/intune/help-desk-operators)
 
-## <a name="next-step"></a>Далее
+## <a name="next-step"></a>Дальнейшие действия
 Когда вы будете готовы начать работу с решением MDM и MAM, настроить Intune, зарегистрировать устройства и приступить к созданию политик, см. сведения в статье [Управление мобильными устройствами для Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure).

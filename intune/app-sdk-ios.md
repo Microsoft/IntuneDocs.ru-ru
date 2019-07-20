@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 961470b9f5671dc39864dac45fdcb49862de4da9
-ms.sourcegitcommit: 1dc9d4e1d906fab3fc46b291c67545cfa2231660
+ms.openlocfilehash: 673dd0cb751fcdd2a7036dc2bf52dd731a4b04ff
+ms.sourcegitcommit: 8d12ab22e23552f9addaef4c28b732fb211945a2
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67735559"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68306752"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -162,15 +162,15 @@ ms.locfileid: "67735559"
     
     c. Добавьте `com.microsoft.adalcache` в свои существующие группы доступа.
     
-        ![Intune App SDK iOS: keychain sharing](./media/intune-app-sdk-ios-keychain-sharing.png)
+      ![Пакет SDK для приложений Intune в iOS — совместное использование цепочки ключей](./media/intune-app-sdk-ios-keychain-sharing.png)
     
     d. Если вы изменяете файл прав непосредственно (не с помощью пользовательского интерфейса Xcode, показанного выше) для создания группы доступа к цепочке ключей, добавьте `$(AppIdentifierPrefix)` в начало групп доступа к цепочке ключей (Xcode обрабатывает это значение автоматически). Пример.
     
-        - `$(AppIdentifierPrefix)com.microsoft.intune.mam`
-        - `$(AppIdentifierPrefix)com.microsoft.adalcache`
+      - `$(AppIdentifierPrefix)com.microsoft.intune.mam`
+      - `$(AppIdentifierPrefix)com.microsoft.adalcache`
     
-        > [!NOTE]
-        > An entitlements file is an XML file that is unique to your mobile application. It is used to specify special permissions and capabilities in your iOS app. If your app did not previously have an entitlements file, enabling keychain sharing (step 3) should have caused Xcode to generate one for your app. Ensure the app's bundle ID is the first entry in the list.
+      > [!NOTE]
+      > Файл прав — это XML-файл, который является уникальным в рамках вашего мобильного приложения. Он используется для задания специальных разрешений и возможностей в вашем приложении для iOS. Если файла прав нет, включите общий доступ к цепочке ключей (шаг 3), чтобы это файл был создан в Xcode для вашего приложения. Убедитесь, что идентификатор пакета является первой записью в списке.
 
 6. Включите в массив `LSApplicationQueriesSchemes` в файле Info.plist приложения каждый из протоколов, которые приложение передает в `UIApplication canOpenURL`. Не забудьте сохранить изменения перед переходом к следующему шагу.
 

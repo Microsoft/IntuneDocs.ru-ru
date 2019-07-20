@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 29aa32b02f5ab97707ce76eb10a84a8913a9f702
-ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
+ms.openlocfilehash: d09a996e3e1a47cae33e8a4189b4406a940acfe3
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67572302"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68353274"
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Новые возможности классического портала Intune: предыдущие месяцы
 
@@ -375,5 +375,5 @@ __Отправка сертификата для подписи Symantec бол�
 __Поддержка корпоративного портала Windows Phone 8__. Поддержка корпоративного портала Windows Phone 8 не будет прекращена. Кроме того, в октябре 2016 г. прекращена поддержка платформ Windows Phone 8 и Windows RT. В октябре 2016 г. прекращена поддержка также корпоративного портала Windows 8.
 
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 См. статью [Новые возможности в Microsoft Intune](whats-new.md) для ознакомления с нововведениями.

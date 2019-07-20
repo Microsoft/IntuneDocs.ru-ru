@@ -17,19 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eade2a1bc19e4b0c477faf2ad8e262196da8cc30
-ms.sourcegitcommit: ede86a3cb094c12e3e218b956abb9935bec76902
+ms.openlocfilehash: b79f488fcaa221523b5833aa1cebcf872d5f9b3d
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67572520"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354015"
 ---
 # <a name="help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune"></a>Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune.
 
 [!INCLUDE [classic-portal](includes/classic-portal.md)]
 
 > [!NOTE]
-> Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите управлять параметров брандмауэра для компьютеров под управлением Windows, зарегистрированные как мобильные устройства, см. в разделе [добавить параметры endpoint protection в Intune](endpoint-protection-configure.md).
+> Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите управлять параметрами брандмауэра для компьютеров Windows, зарегистрированных как мобильные устройства, см. раздел [Добавление параметров Endpoint Protection в Intune](endpoint-protection-configure.md).
 
 Microsoft Intune позволяет защитить компьютеры Windows, управляемые с помощью клиента Intune, различными способами. Один из этих способов состоит в предоставлении политик, позволяющих настраивать параметры брандмауэра Windows на ПК.
 
@@ -140,5 +140,5 @@ Microsoft Intune позволяет защитить компьютеры Window
 |**Windows Virtual PC**<br>(Windows 7 или более поздняя версия)|Позволяет виртуальным машинам обмениваться данными с другими компьютерами.|
 |**Беспроводные переносные устройства**|Позволяет переносить файлы мультимедиа с сетевой камеры или устройства мультимедиа на управляемые компьютеры с помощью протокола передачи мультимедиа (MTP). Этот параметр использует сетевые протоколы SSDP и UPnP.|
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)

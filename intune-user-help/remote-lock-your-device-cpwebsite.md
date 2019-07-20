@@ -18,12 +18,12 @@ ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 85435acffbad3117f6adbbafe60e1993b2d18bdb
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: b55368f5c512ff3efd4059d420717321729450ee
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55835783"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67884060"
 ---
 # <a name="remotely-lock-your-device-from-the-company-portal-website"></a>Удаленная блокировка устройства с корпоративного портала
 
@@ -56,9 +56,9 @@ ms.locfileid: "55835783"
 
 Состояние удаленной блокировки отображается в трех местах:
 
-   * Область уведомлений веб-сайта.
-   * Страница **Сведения** устройства.
-   * Плитка с названием устройства под заголовком **Устройства** на странице.  
+* Область уведомлений веб-сайта.
+* Страница **Сведения** устройства.
+* Плитка с названием устройства под заголовком **Устройства** на странице.  
 
 > [!Note]
 > Если вы видите уведомление, что удаленная блокировка не установлена, подождите несколько минут. Затем попытайтесь снова заблокировать устройство. Состояние снова изменится на "Ожидается удаленная блокировка". Если это не помогает, обратитесь за помощью в службу поддержки вашей организации.

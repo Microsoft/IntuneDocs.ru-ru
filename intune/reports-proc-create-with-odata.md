@@ -17,18 +17,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d8d8e1d1bb20f222b202e8c854fc4d1a8ba694fa
-ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
+ms.openlocfilehash: 519ac8529737a870eb4f8ce9a3e06af5b1dcac79
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67648912"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68353651"
 ---
 # <a name="create-a-report-from-the-odata-feed-with-power-bi"></a>Создание отчета из веб-канала OData с помощью Power BI
 
 В этой статье описано, как создать визуализацию в виде дерева с помощью Power BI Desktop, используя интерактивный фильтр. Например, вашему финансовому директору может потребоваться узнать, каковы доли корпоративных и личных устройств в вашей организации. Диаграмма "дерево" позволяет получить информацию об общем количестве устройств разных типов. Вы можете узнать число корпоративных или личных устройств на основе iOS, Android и Windows.
 
-### <a name="overview-of-creating-the-chart"></a>Общие сведения о создании диаграммы
+## <a name="overview-of-creating-the-chart"></a>Общие сведения о создании диаграммы
 
 Чтобы создать эту диаграмму, выполните указанные ниже действия.
 1. Установите приложение Power BI Desktop, если у вас его еще нет.
@@ -120,5 +120,5 @@ ms.locfileid: "67648912"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
- - Дополнительные сведения о [создании связей и управлении ими](https://powerbi.microsoft.com/documentation/powerbi-desktop-create-and-manage-relationships/) в приложении Power BI Desktop см. в документации по Power BI.
- - Изучите [модель хранилища данных Intune](https://docs.microsoft.com/intune/reports-ref-data-model).
+- Дополнительные сведения о [создании связей и управлении ими](https://powerbi.microsoft.com/documentation/powerbi-desktop-create-and-manage-relationships/) в приложении Power BI Desktop см. в документации по Power BI.
+- Изучите [модель хранилища данных Intune](https://docs.microsoft.com/intune/reports-ref-data-model).

@@ -1,16 +1,14 @@
 ---
-ms.openlocfilehash: 472a1e5192b9054c9d89a7d4240750824a3a8b0a
-ms.sourcegitcommit: 143dade9125e7b5173ca2a3a902bcd6f4b14067f
+ms.openlocfilehash: f42baa1ca6e3ac6dca3c95a0eb9e422df2506031
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61499238"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67882005"
 ---
-
-
 ### <a name="apple"></a>Apple
-  - Apple iOS 9.0 и более поздней версии
-  - Mac OS X 10.9 и более поздние версии
+- Apple iOS 9.0 и более поздней версии
+- Mac OS X 10.9 и более поздние версии
 
 ### <a name="windows"></a>Windows
 - Компьютеры под управлением Windows 10 (Домашняя, Профессиональная, Корпоративная версии и версия для образовательных учреждений)

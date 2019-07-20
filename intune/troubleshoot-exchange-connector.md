@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5bdb727b542cd66e0b8fcf4a0822eaf0107600ad
-ms.sourcegitcommit: 1dc9d4e1d906fab3fc46b291c67545cfa2231660
+ms.openlocfilehash: 2718ee7936e82bffc50126eeb57f1b6f732df22d
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67735731"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354468"
 ---
 # <a name="troubleshoot-the-intune-on-premises-exchange-connector"></a>Устранение неполадок в работе соединителя Intune с локальной организацией Exchange
 
@@ -51,5 +51,5 @@ ms.locfileid: "67735731"
 - Чтобы получить список SMTP-адресов для почтового ящика, используйте команду Get-Mailbox -Identity user | select emailaddresses | fl.
 - Чтобы получить подробные сведения о состоянии доступа устройства, используйте команду Get-CASMailbox <upn> | fl.
 
-### <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, вы можете [получить поддержку для Microsoft Intune](get-support.md).

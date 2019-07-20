@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2b6326d30650aa62777ac9ce9c70394904b678f3
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: fefb8feee7f308fca3d3455487aae5f2802d9c5d
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67549162"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68353403"
 ---
 # <a name="retire-a-windows-pc"></a>Снятие компьютера Windows с учета
 
@@ -59,6 +59,6 @@ ms.locfileid: "67549162"
 
     Если не удается удалить клиент Endpoint Protection, прочтите раздел [Устранение неполадок Endpoint Protection](/intune/troubleshoot-endpoint-protection-in-microsoft-intune) для получения дополнительных сведений.
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 
 [Общие задачи управления ПК с Windows с программным клиентом Intune](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: acad6b0fa343bdbcc722929886a8e68a4fa4d8bc
-ms.sourcegitcommit: 63b55e81122e5c15893302b109ae137c30855b55
+ms.openlocfilehash: 7f9ee4d978bcb44f3b13ddcf9aafa4a3210f0f7e
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67713293"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67885071"
 ---
 # <a name="review-client-app-protection-logs"></a>Просмотр журналов защиты клиентских приложений
 
@@ -72,5 +72,5 @@ ms.locfileid: "67713293"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
- - Дополнительные сведения о политиках защиты приложений см. в статье [Что такое политики защиты приложений?](app-protection-policy.md)
- - Intune предоставляет ряд средств для устранения проблем в вашей среде. Дополнительные сведения см. в статье [Использование портала диагностики для оказания помощи пользователям](help-desk-operators.md).
+- Дополнительные сведения о политиках защиты приложений см. в статье [Что такое политики защиты приложений?](app-protection-policy.md)
+- Intune предоставляет ряд средств для устранения проблем в вашей среде. Дополнительные сведения см. в статье [Использование портала диагностики для оказания помощи пользователям](help-desk-operators.md).

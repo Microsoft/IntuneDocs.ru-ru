@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e9b32b7b7bc3bfa7735a7e4437e8238630e56884
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 61e0a7fa4fa63e17a1fa4165042d9e82a2ffacc2
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548779"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354104"
 ---
 # <a name="help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune"></a>Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection для Microsoft Intune
 
@@ -145,8 +145,8 @@ Microsoft Intune позволяет защищать управляемые ко
 
 ### <a name="specify-microsoft-active-protection-service-settings"></a>Указание параметров службы Microsoft Active Protection Service
 Microsoft Active Protection Service — это интернет-сообщество, где можно найти сведения о том, как реагировать на потенциальные угрозы. Кроме того, его участники помогают остановить распространение новых вредоносных программ. Вы можете **присоединиться к Microsoft Active Protection Service**, выбрав **Да** и указав ваш **уровень членства**.
-  - **Базовое** — отправка в Майкрософт основных сведений об обнаруженных вредоносных программах. К этим сведениям относятся источник программы, действия, выполненные пользователем или автоматически выполненные Endpoint Protection, а также данные об успешности этих действий.
-  - **Расширенное** — отправка в Майкрософт сведений о вредоносных программах, программах-шпионах и потенциально нежелательных программах. Эти сведения включают расположение программ, имена файлов, описание способов работы программ и их воздействия на компьютер.
+- **Базовое** — отправка в Майкрософт основных сведений об обнаруженных вредоносных программах. К этим сведениям относятся источник программы, действия, выполненные пользователем или автоматически выполненные Endpoint Protection, а также данные об успешности этих действий.
+- **Расширенное** — отправка в Майкрософт сведений о вредоносных программах, программах-шпионах и потенциально нежелательных программах. Эти сведения включают расположение программ, имена файлов, описание способов работы программ и их воздействия на компьютер.
 
 Вы также можете **получать динамические определения на основе данных, переданных в службу Microsoft Active Protection Service**.
 
@@ -197,5 +197,5 @@ Intune может выполнить полную или быструю пров
 ## <a name="need-more-help"></a>Требуется дополнительная помощь?
 Для получения справки и поддержки см. раздел [Устранение неполадок Endpoint Protection в Microsoft Intune](troubleshoot-endpoint-protection-in-microsoft-intune.md).
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 [Политики для защиты компьютеров с ОС Windows](policies-to-protect-windows-pcs-in-microsoft-intune.md)

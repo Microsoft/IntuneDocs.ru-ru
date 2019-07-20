@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f012b1cec67de762bbc245f249125f29d37c6930
-ms.sourcegitcommit: 095fd4c324850aae8ebe32be43fa074361816a4b
+ms.openlocfilehash: c3287238900725acebefc23eb00246cd04c7a5bb
+ms.sourcegitcommit: fd2499df5123758ecb093b4cdd486e35f713b040
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66506852"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230086"
 ---
 # <a name="check-compliance-on-your-android-device"></a>Проверка соответствия на устройстве Android
 
@@ -31,6 +31,6 @@ ms.locfileid: "66506852"
 
 1. Откройте приложение "Корпоративный портал" для Android на вашем устройстве.  
 
-2. Выберите **Проверить параметры устройства**.  
+2. Выберите **Проверить параметры устройства**.   
 
 Если не удается сбросить утерянное или украденное устройство, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).  

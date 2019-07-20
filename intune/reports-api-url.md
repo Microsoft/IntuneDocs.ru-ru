@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6d2e6c99d9493d935f4a8f87c6525af19796b5f6
-ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
+ms.openlocfilehash: 59e2a681c542da46a2e938c7bf07e7185925aab2
+ms.sourcegitcommit: c3ac858bbadb63d248ed54069e48160d703bbaf2
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67648786"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68313741"
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Конечная точка API для хранилища данных Intune
 
@@ -51,7 +51,7 @@ URL-адрес содержит следующие элементы:
 | Элемент | Пример | Описание |
 |-------------------|------------|--------------------------------------------------------------------------------------------------------------------|
 | местоположение | msua06 | Базовый URL-адрес можно узнать, просмотрев колонку API хранилища данных на портале Azure. |
-| entity-collection | dates | Имя коллекции сущностей OData. Дополнительные сведения о коллекциях и сущностях в модели данных см. в разделе [Модели данных](reports-ref-data-model.md). |
+| entity-collection | devicePropertyHistories | Имя коллекции сущностей OData. Дополнительные сведения о коллекциях и сущностях в модели данных см. в разделе [Модели данных](reports-ref-data-model.md). |
 | api-version | beta | Версия API, используемого для доступа. Дополнительные сведения см. в разделе [Версия](reports-api-url.md#api-version-information). |
 | maxhistorydays | 7 | Максимальное число дней хранения журнала для извлечения (необязательно). Этот параметр может быть задан для любой коллекции, но будет действовать только для коллекций, которые содержат `dateKey` как часть свойства ключа. Дополнительную информацию см. в разделе [Фильтры диапазона DateKey](reports-api-url.md#datekey-range-filters). |
 
