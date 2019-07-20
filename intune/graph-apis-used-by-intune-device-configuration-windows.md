@@ -1,7 +1,7 @@
 ---
-title: Graph API-интерфейсы для настройки устройств в Microsoft Intune — Azure | Документация Майкрософт
+title: API Graph для настройки устройств в Microsoft Intune в Azure | Документация Майкрософт
 titleSuffix: ''
-description: Просмотреть список всех сущностей Graph API с помощью соответствующего поставщика облачных СЛУЖБ Windows и смещение URI на устройствах Windows 10 и более поздних используется при настройке устройства в Microsoft Intune. См. в разделе сопоставления API и CSP для общего ПК, endpoint protection, Windows Defender advanced threat protection в, защиты идентификации, группой специалистов по Windows 10, киоска и Центр обновления Windows для бизнеса.
+description: Просмотрите список всех API Graph сущностей с соответствующим CSP Windows и URL-адресом смещения на устройствах Windows 10 и более поздней версии, используемой при настройке устройств в Microsoft Intune. См. соответствующий API и CSP для общих компьютеров, Endpoint Protection, Windows Defender Advanced Threat Protection, защиты идентификации, групп Windows 10, киосков и Центр обновления Windows для бизнеса.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
@@ -15,2975 +15,2975 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ce35a3fd3b9aa86efb09a903d661affd197f8a2a
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 3732a4539c13ad05ae8c95621246429b7f38987e
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041796"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354422"
 ---
-# <a name="graph-apis-and-matching-windows-10-csps-used-in-intune"></a>API-интерфейсов Graph и сопоставления CSP Windows 10, используемые в Intune
+# <a name="graph-apis-and-matching-windows-10-csps-used-in-intune"></a>API Graph и соответствующие CSP Windows 10, используемые в Intune
 
-Microsoft Intune использует [сущности Graph API](https://docs.microsoft.com/graph/api/resources/intune-graph-overview) (открывается другой сайт документация) для настройки устройств (**Intune** > **конфигурации устройства**) под управлением Windows 10 и более поздние версии. Graph API использует поставщиков служб конфигурации (CSP) для чтения, задать, изменить или удалить параметры конфигурации на устройствах.
+Microsoft Intune использует [сущности API Graph](https://docs.microsoft.com/graph/api/resources/intune-graph-overview) (открывает другой сайт документов) для настройки устройств (**Конфигурация устройства** **Intune** > ) под Windows 10 и более поздних версий. API Graph использует поставщики службы конфигурации (CSP) для чтения, установки, изменения и/или удаления параметров конфигурации на устройствах.
 
-Этот список применяется к:
+Этот список применим к:
 
 - Windows 10 и более поздней версии
 
-В этой статье перечислены сущностей графа и их сопоставления CSP Windows 10 и смещение идентификаторы URI.
+В этой статье перечислены сущности графа и соответствующие поставщики CSP Windows 10 и коды URI смещения.
 
-Эта информация полезна для различных сценариев. Например см. в разделе, используемый службами Intune, см. в разделе параметры, чтобы включить собственные настройки OMA-URI и т. д. 
+Эти сведения полезны в различных сценариях. Например, см. сведения об использовании Intune в разделе Параметры для включения в настраиваемые конфигурации OMA-URI и т. д. 
 
-## <a name="windows-10-csps"></a>Поставщики служб конфигурации Windows 10
+## <a name="windows-10-csps"></a>Поставщики CSP Windows 10
 
-Дополнительные сведения о поставщиков служб конфигурации Windows 10, см. в разделе [справочнике поставщиков служб конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) (открывается другой сайт документация).
+Дополнительные сведения о поставщиках служб конфигурации Windows 10 см. в [справочнике по поставщику службы конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) (открывается другой сайт документации).
 
-## <a name="graph-api-properties-to-csp-mapping"></a>Свойства Graph API для сопоставления CSP
+## <a name="graph-api-properties-to-csp-mapping"></a>API Graph свойств в сопоставление CSP
 
-Ниже показана большая часть сущности Graph API, используемого Microsoft Intune для настройки устройства Windows 10. Он также показывает соответствующего CSP Windows 10 и смещение URI.
+В следующем списке показаны большинство сущностей API Graph, используемых Microsoft Intune для конфигурации устройств Windows 10. Он также показывает соответствующий CSP Windows 10 и URI смещения.
 
-Чтобы просмотреть версии Windows 10, применяются следующие интерфейсы API, используйте Windows 10 [справочнике поставщиков служб конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) (открывается другой сайт документация).
+Чтобы просмотреть версии Windows 10, применимые к следующим API, используйте [ссылку поставщика службы конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) Windows 10 (открывает другой сайт документации).
 
-#### <a name="editionupgradeconfigurationlicense"></a>EditionUpgradeConfiguration.License 
-**CSP**: ./Device/Vendor/MSFT/WindowsLicensing  
-**Смещение URI**: /UpgradeEditionWithLicense
+### <a name="editionupgradeconfigurationlicense"></a>Едитионупградеконфигуратион. License 
+**CSP**:./девице/вендор/мсфт/виндовслиценсинг  
+**URI смещения**:/упградидитионвислиценсе
 
-#### <a name="editionupgradeconfigurationlicensetype"></a>EditionUpgradeConfiguration.LicenseType 
-**CSP**: ./Device/Vendor/MSFT/WindowsLicensing  
-**Смещение URI**: /LicenseKeyType
+### <a name="editionupgradeconfigurationlicensetype"></a>Едитионупградеконфигуратион. LicenseType 
+**CSP**:./девице/вендор/мсфт/виндовслиценсинг  
+**URI смещения**:/лиценсекэйтипе
 
-#### <a name="editionupgradeconfigurationproductkey"></a>EditionUpgradeConfiguration.ProductKey 
-**CSP**: ./Device/Vendor/MSFT/WindowsLicensing  
-**Смещение URI**: /UpgradeEditionWithProductKey
+### <a name="editionupgradeconfigurationproductkey"></a>Едитионупградеконфигуратион. ProductKey 
+**CSP**:./девице/вендор/мсфт/виндовслиценсинг  
+**URI смещения**:/упградидитионвиспродукткэй
 
-#### <a name="editionupgradeconfigurationwindowssmode"></a>EditionUpgradeConfiguration.WindowsSMode 
-**CSP**: ./Device/Vendor/MSFT/WindowsLicensing  
-**Смещение URI**: / SMode/SwitchingPolicy
+### <a name="editionupgradeconfigurationwindowssmode"></a>Едитионупградеконфигуратион. Виндовссмоде 
+**CSP**:./девице/вендор/мсфт/виндовслиценсинг  
+**URI смещения**:/смоде/свитчингполици
 
-#### <a name="sharedpcconfigurationaccountmanagerpolicy"></a>SharedPCConfiguration.AccountManagerPolicy 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /DeletionPolicy, /DiskLevelCaching, /InactiveThreshold, /DiskLevelDeletion
+### <a name="sharedpcconfigurationaccountmanagerpolicy"></a>Шаредпкконфигуратион. Аккаунтманажерполици 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/Делетионполици,/Дисклевелкачинг,/Инактивесрешолд,/дисклевелделетион
 
-#### <a name="sharedpcconfigurationaccountmanagerpolicy-windows-holographic-for-business-edition-targeted-devices"></a>SharedPCConfiguration.AccountManagerPolicy (Windows Holographic for Business edition целевых устройств) 
-**CSP**: ./Vendor/MSFT/AccountManagement  
-**Смещение URI**: /DeletionPolicy, /StorageCapacityStartDeletion, /StorageCapacityStopDeletion, /ProfileInactivityThreshold
+### <a name="sharedpcconfigurationaccountmanagerpolicy-windows-holographic-for-business-edition-targeted-devices"></a>Шаредпкконфигуратион. Аккаунтманажерполици (целевые устройства Windows holographic for Business Edition) 
+**CSP**:./вендор/мсфт/аккаунтманажемент  
+**URI смещения**:/Делетионполици,/СторажекапаЦитистартделетион,/СторажекапаЦитистопделетион,/профилеинактивитисрешолд
 
-#### <a name="sharedpcconfigurationallowedaccounts"></a>SharedPCConfiguration.AllowedAccounts 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /AccountModel
+### <a name="sharedpcconfigurationallowedaccounts"></a>Шаредпкконфигуратион. Алловедаккаунтс 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/аккаунтмодел
 
-#### <a name="sharedpcconfigurationallowlocalstorage"></a>SharedPCConfiguration.AllowLocalStorage 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /RestrictLocalStorage
+### <a name="sharedpcconfigurationallowlocalstorage"></a>Шаредпкконфигуратион. Алловлокалстораже 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/рестриктлокалстораже
 
-#### <a name="sharedpcconfigurationdisableaccountmanager"></a>SharedPCConfiguration.DisableAccountManager 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /EnableAccountManager
+### <a name="sharedpcconfigurationdisableaccountmanager"></a>Шаредпкконфигуратион. Дисаблеаккаунтманажер 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/енаблеаккаунтманажер
 
-#### <a name="sharedpcconfigurationdisableedupolicies"></a>SharedPCConfiguration.DisableEduPolicies 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /SetEduPolicies
+### <a name="sharedpcconfigurationdisableedupolicies"></a>Шаредпкконфигуратион. ДисаблидуполиЦиес 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/сетедуполиЦиес
 
-#### <a name="sharedpcconfigurationdisablepowerpolicies"></a>SharedPCConfiguration.DisablePowerPolicies 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /SetPowerPolicies
+### <a name="sharedpcconfigurationdisablepowerpolicies"></a>Шаредпкконфигуратион. ДисаблеповерполиЦиес 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/сетповерполиЦиес
 
-#### <a name="sharedpcconfigurationdisablesigninonresume"></a>SharedPCConfiguration.DisableSignInOnResume 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /SignInOnResume
+### <a name="sharedpcconfigurationdisablesigninonresume"></a>Шаредпкконфигуратион. Дисаблесигнинонресуме 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/сигнинонресуме
 
-#### <a name="sharedpcconfigurationenabled"></a>SharedPCConfiguration.Enabled 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /EnableSharedPCMode
+### <a name="sharedpcconfigurationenabled"></a>Шаредпкконфигуратион. Enabled 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/енаблешаредпкмоде
 
-#### <a name="sharedpcconfigurationidletimebeforesleepinseconds"></a>SharedPCConfiguration.IdleTimeBeforeSleepInSeconds 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /InactiveThreshold
+### <a name="sharedpcconfigurationidletimebeforesleepinseconds"></a>Шаредпкконфигуратион. Идлетимебефореслипинсекондс 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/инактивесрешолд
 
-#### <a name="sharedpcconfigurationkioskappdisplayname"></a>SharedPCConfiguration.KioskAppDisplayName 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Offset URI**: /KioskModeUserTileDisplayText
+### <a name="sharedpcconfigurationkioskappdisplayname"></a>Шаредпкконфигуратион. Киоскаппдисплайнаме 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/киоскмодеусертиледисплайтекст
 
-#### <a name="sharedpcconfigurationkioskappusermodelid"></a>SharedPCConfiguration.KioskAppUserModelId 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /KioskModeAUMID
+### <a name="sharedpcconfigurationkioskappusermodelid"></a>Шаредпкконфигуратион. Киоскаппусермоделид 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/киоскмодеаумид
 
-#### <a name="sharedpcconfigurationlocalstorage"></a>SharedPCConfiguration.LocalStorage 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /RestrictLocalStorage
+### <a name="sharedpcconfigurationlocalstorage"></a>Шаредпкконфигуратион. LocalStorage 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/рестриктлокалстораже
 
-#### <a name="sharedpcconfigurationmaintenancestarttime"></a>SharedPCConfiguration.MaintenanceStartTime 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /MaintenanceStartTime
+### <a name="sharedpcconfigurationmaintenancestarttime"></a>Шаредпкконфигуратион. Маинтенанцестарттиме 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/маинтенанцестарттиме
 
-#### <a name="sharedpcconfigurationsetaccountmanager"></a>SharedPCConfiguration.SetAccountManager
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /EnableAccountManager
+### <a name="sharedpcconfigurationsetaccountmanager"></a>Шаредпкконфигуратион. Сетаккаунтманажер
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/енаблеаккаунтманажер
 
-#### <a name="sharedpcconfigurationsetedupolicies"></a>SharedPCConfiguration.SetEduPolicies 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /SetEduPolicies
+### <a name="sharedpcconfigurationsetedupolicies"></a>Шаредпкконфигуратион. СетедуполиЦиес 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/сетедуполиЦиес
 
-#### <a name="sharedpcconfigurationsetpowerpolicies"></a>SharedPCConfiguration.SetPowerPolicies 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /SetPowerPolicies
+### <a name="sharedpcconfigurationsetpowerpolicies"></a>Шаредпкконфигуратион. СетповерполиЦиес 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/сетповерполиЦиес
 
-#### <a name="sharedpcconfigurationsigninonresume"></a>SharedPCConfiguration.SignInOnResume 
-**CSP**: ./Vendor/MSFT/SharedPC  
-**Смещение URI**: /SignInOnResume
-
-#### <a name="windows10endpointconfigurationsmartscreenblockoverrideforfiles"></a>Windows10endpointconfiguration.smartScreenBlockOverrideForFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/SmartScreen/PreventOverrideForFilesInShell
-
-#### <a name="windows10endpointprotectionconfigurationapplicationguardallowfilesaveonhost"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardAllowFileSaveOnHost 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/SaveFilesToHost
-
-#### <a name="windows10endpointprotectionconfigurationapplicationguardallowpersistence"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardAllowPersistence 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/AllowPersistence
+### <a name="sharedpcconfigurationsigninonresume"></a>Шаредпкконфигуратион. Сигнинонресуме 
+**CSP**:./вендор/мсфт/шаредпк  
+**URI смещения**:/сигнинонресуме
+
+### <a name="windows10endpointconfigurationsmartscreenblockoverrideforfiles"></a>Windows10endpointconfiguration. Смартскринблокковерридефорфилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/смартскрин/превентоверридефорфилесиншелл
+
+### <a name="windows10endpointprotectionconfigurationapplicationguardallowfilesaveonhost"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардалловфилесавеонхост 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/савефилестохост
+
+### <a name="windows10endpointprotectionconfigurationapplicationguardallowpersistence"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардалловперсистенце 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/алловперсистенце
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttolocalprinters"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardAllowPrintToLocalPrinters 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/PrintingSettings
+### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttolocalprinters"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардалловпринттолокалпринтерс 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/принтингсеттингс
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttonetworkprinters"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardAllowPrintToNetworkPrinters 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/PrintingSettings
+### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttonetworkprinters"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардалловпринттонетворкпринтерс 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/принтингсеттингс
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttopdf"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardAllowPrintToPDF 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/PrintingSettings
+### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttopdf"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардалловпринттопдф 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/принтингсеттингс
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttoxps"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardAllowPrintToXPS 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/PrintingSettings
+### <a name="windows10endpointprotectionconfigurationapplicationguardallowprinttoxps"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардалловпринттокспс 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/принтингсеттингс
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardallowvirtualgpu"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardAllowVirtualGPU 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/AllowVirtualGPU
+### <a name="windows10endpointprotectionconfigurationapplicationguardallowvirtualgpu"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардалловвиртуалгпу 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/алловвиртуалгпу
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardblockclipboardsharing"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardBlockClipboardSharing 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/ClipboardSettings
+### <a name="windows10endpointprotectionconfigurationapplicationguardblockclipboardsharing"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардблоккклипбоардшаринг 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/клипбоардсеттингс
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardblockfiletransfer"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardBlockFileTransfer 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/ClipboardFileType
+### <a name="windows10endpointprotectionconfigurationapplicationguardblockfiletransfer"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардблоккфилетрансфер 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/клипбоардфилетипе
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardblocknonenterprisecontent"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardBlockNonEnterpriseContent 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/BlockNonEnterpriseContent
+### <a name="windows10endpointprotectionconfigurationapplicationguardblocknonenterprisecontent"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардблоккнонентерприсеконтент 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/блоккнонентерприсеконтент
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardenabled"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardEnabled 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / параметры/AllowWindowsDefenderApplicationGuard
+### <a name="windows10endpointprotectionconfigurationapplicationguardenabled"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуарденаблед 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/Сеттингс/алловвиндовсдефендераппликатионгуард
 
-#### <a name="windows10endpointprotectionconfigurationapplicationguardforceauditing"></a>Windows10EndpointProtectionConfiguration.ApplicationGuardForceAuditing 
-**CSP**: ./Device/Vendor/MSFT/WindowsDefenderApplicationGuard  
-**Смещение URI**: / Audit/AuditApplicationGuard
+### <a name="windows10endpointprotectionconfigurationapplicationguardforceauditing"></a>Windows10EndpointProtectionConfiguration. Аппликатионгуардфорцеаудитинг 
+**CSP**:./девице/вендор/мсфт/виндовсдефендераппликатионгуард  
+**URI смещения**:/аудит/аудитаппликатионгуард
 
-#### <a name="windows10endpointprotectionconfigurationbitlockerallowstandarduserencryption"></a>Windows10EndpointProtectionConfiguration.BitLockerAllowStandardUserEncryption 
-**CSP**: ./Device/Vendor/MSFT/BitLocker  
-**Смещение URI**: /AllowStandardUserEncryption
+### <a name="windows10endpointprotectionconfigurationbitlockerallowstandarduserencryption"></a>Windows10EndpointProtectionConfiguration. Битлоккералловстандардусеренкриптион 
+**CSP**:./девице/вендор/мсфт/битлоккер  
+**URI смещения**:/алловстандардусеренкриптион
 
-#### <a name="windows10endpointprotectionconfigurationbitlockerdisablewarningforotherdiskencryption"></a>Windows10EndpointProtectionConfiguration.BitLockerDisableWarningForOtherDiskEncryption 
-**CSP**: ./Device/Vendor/MSFT/BitLocker  
-**Смещение URI**: /AllowWarningForOtherDiskEncryption
+### <a name="windows10endpointprotectionconfigurationbitlockerdisablewarningforotherdiskencryption"></a>Windows10EndpointProtectionConfiguration. Битлоккердисаблеварнингфоросердискенкриптион 
+**CSP**:./девице/вендор/мсфт/битлоккер  
+**URI смещения**:/алловварнингфоросердискенкриптион
 
-#### <a name="windows10endpointprotectionconfigurationbitlockerenablestoragecardencryptiononmobile"></a>Windows10EndpointProtectionConfiguration.BitLockerEnableStorageCardEncryptionOnMobile 
-**CSP**: ./Device/Vendor/MSFT/BitLocker  
-**Смещение URI**: /RequireStorageCardEncryption
+### <a name="windows10endpointprotectionconfigurationbitlockerenablestoragecardencryptiononmobile"></a>Windows10EndpointProtectionConfiguration. Битлоккеренаблесторажекарденкриптиононмобиле 
+**CSP**:./девице/вендор/мсфт/битлоккер  
+**URI смещения**:/рекуиресторажекарденкриптион
 
-#### <a name="windows10endpointprotectionconfigurationbitlockerencryptdevice"></a>Windows10EndpointProtectionConfiguration.BitLockerEncryptDevice 
-**CSP**: ./Device/Vendor/MSFT/BitLocker  
-**Смещение URI**: /RequireDeviceEncryption
+### <a name="windows10endpointprotectionconfigurationbitlockerencryptdevice"></a>Windows10EndpointProtectionConfiguration. Битлоккеренкриптдевице 
+**CSP**:./девице/вендор/мсфт/битлоккер  
+**URI смещения**:/рекуиредевицеенкриптион
 
-#### <a name="windows10endpointprotectionconfigurationbitlockerfixeddrivepolicy"></a>Windows10EndpointProtectionConfiguration.BitLockerFixedDrivePolicy 
-**CSP**: ./Device/Vendor/MSFT/BitLocker  
-**Смещение URI**: /EncryptionMethodByDriveType, /FixedDrivesRequireEncryption, /FixedDrivesRecoveryOptions
+### <a name="windows10endpointprotectionconfigurationbitlockerfixeddrivepolicy"></a>Windows10EndpointProtectionConfiguration. Битлоккерфикседдривеполици 
+**CSP**:./девице/вендор/мсфт/битлоккер  
+**URI смещения**:/Енкриптионмесодбидриветипе,/Фикседдривесрекуиринкриптион,/фикседдривесрековерйоптионс
 
-#### <a name="windows10endpointprotectionconfigurationbitlockerremovabledrivepolicy"></a>Windows10EndpointProtectionConfiguration.BitLockerRemovableDrivePolicy 
-**CSP**: ./Device/Vendor/MSFT/BitLocker  
-**Смещение URI**: /EncryptionMethodByDriveType, /RemovableDrivesRequireEncryption
+### <a name="windows10endpointprotectionconfigurationbitlockerremovabledrivepolicy"></a>Windows10EndpointProtectionConfiguration. Битлоккерремовабледривеполици 
+**CSP**:./девице/вендор/мсфт/битлоккер  
+**URI смещения**:/Енкриптионмесодбидриветипе,/ремовабледривесрекуиринкриптион
 
-#### <a name="windows10endpointprotectionconfigurationbitlockersystemdrivepolicy"></a>Windows10EndpointProtectionConfiguration.BitLockerSystemDrivePolicy 
-**CSP**: ./Device/Vendor/MSFT/BitLocker  
-**Смещение URI**: /EncryptionMethodByDriveType, /SystemDrivesRequireStartupAuthentication, /SystemDrivesMinimumPINLength, /SystemDrivesRecoveryMessage, /SystemDrivesRecoveryOptions
+### <a name="windows10endpointprotectionconfigurationbitlockersystemdrivepolicy"></a>Windows10EndpointProtectionConfiguration. Битлоккерсистемдривеполици 
+**CSP**:./девице/вендор/мсфт/битлоккер  
+**URI смещения**:/Енкриптионмесодбидриветипе,/Системдривесрекуирестартупаусентикатион,/Системдривесминимумпинленгс,/SystemDrivesRecoveryMessage,/SystemDrivesRecoveryOptions
 
-#### <a name="windows10endpointprotectionconfigurationclientconnectionencryptionlevel"></a>windows10endpointprotectionconfiguration.clientConnectionEncryptionLevel 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteDesktopServices/ClientConnectionEncryptionLevel
+### <a name="windows10endpointprotectionconfigurationclientconnectionencryptionlevel"></a>windows10endpointprotectionconfiguration. Клиентконнектионенкриптионлевел 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотедесктопсервицес/клиентконнектионенкриптионлевел
 
-#### <a name="windows10endpointprotectionconfigurationconfiguresmbv1clientdriver"></a>windows10endpointprotectionconfiguration.configureSMBV1ClientDriver 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSecurityGuide/ConfigureSMBV1ClientDriver
+### <a name="windows10endpointprotectionconfigurationconfiguresmbv1clientdriver"></a>windows10endpointprotectionconfiguration.configureSMBV1ClientDriver 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/config/MSSecurityGuide/ConfigureSMBV1ClientDriver
 
-#### <a name="windows10endpointprotectionconfigurationconnectivitydownloadingofprintdriversoverhttp"></a>Windows10EndpointProtectionConfiguration.ConnectivityDownloadingOfPrintDriversOverHttp 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP
+### <a name="windows10endpointprotectionconfigurationconnectivitydownloadingofprintdriversoverhttp"></a>Windows10EndpointProtectionConfiguration. Коннективитидовнлоадингофпринтдриверсоверхттп 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/дисабледовнлоадингофпринтдриверсоверхттп
 
-#### <a name="windows10endpointprotectionconfigurationconnectivityhardeneduncpaths"></a>Windows10EndpointProtectionConfiguration.ConnectivityHardenedUncPaths 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/HardenedUNCPaths
+### <a name="windows10endpointprotectionconfigurationconnectivityhardeneduncpaths"></a>Windows10EndpointProtectionConfiguration. Коннективитихарденедункпасс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/харденедункпасс
 
-#### <a name="windows10endpointprotectionconfigurationconnectivityinternetdownloadforwebpublishingandonlineorderingwizards"></a>Windows10EndpointProtectionConfiguration.ConnectivityInternetDownloadForWebPublishingAndOnlineOrderingWizards 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards
+### <a name="windows10endpointprotectionconfigurationconnectivityinternetdownloadforwebpublishingandonlineorderingwizards"></a>Windows10EndpointProtectionConfiguration. Коннективитинтернетдовнлоадфорвебпублишингандонлинеордерингвизардс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/дисаблеинтернетдовнлоадфорвебпублишингандонлинеордерингвизардс
 
-#### <a name="windows10endpointprotectionconfigurationconnectivityprintingoverhttp"></a>Windows10EndpointProtectionConfiguration.ConnectivityPrintingOverHttp 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/DiablePrintingOverHTTP
+### <a name="windows10endpointprotectionconfigurationconnectivityprintingoverhttp"></a>Windows10EndpointProtectionConfiguration. Коннективитипринтинговерхттп 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/диаблепринтинговерхттп
 
-#### <a name="windows10endpointprotectionconfigurationcredentialsuienumerateadministrators"></a>Windows10EndpointProtectionConfiguration.CredentialsUIEnumerateAdministrators 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/CredentialsUI/EnumerateAdministrators
+### <a name="windows10endpointprotectionconfigurationcredentialsuienumerateadministrators"></a>Windows10EndpointProtectionConfiguration. Кредентиалсуиенумератеадминистраторс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/кредентиалсуи/енумератеадминистраторс
 
-#### <a name="windows10endpointprotectionconfigurationdefenderadditionalguardedfolders"></a>Windows10EndpointProtectionConfiguration.DefenderAdditionalGuardedFolders 
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/Defender/ControlledFolderAccessProtectedFolders
+### <a name="windows10endpointprotectionconfigurationdefenderadditionalguardedfolders"></a>Windows10EndpointProtectionConfiguration. Дефендераддитионалгуардедфолдерс 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/Дефендер/контролледфолдеракцесспротектедфолдерс
 
-#### <a name="windows10endpointprotectionconfigurationdefenderadvancedransomewareprotectiontype"></a>Windows10EndpointProtectionConfiguration.DefenderAdvancedRansomewareProtectionType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderadvancedransomewareprotectiontype"></a>Windows10EndpointProtectionConfiguration. Дефендерадванцедрансомеварепротектионтипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderattacksurfacereductionexcludedpaths"></a>Windows10EndpointProtectionConfiguration.DefenderAttackSurfaceReductionExcludedPaths 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionOnlyExclusions
+### <a name="windows10endpointprotectionconfigurationdefenderattacksurfacereductionexcludedpaths"></a>Windows10EndpointProtectionConfiguration. Дефендераттакксурфацередуктионексклудедпасс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктиононлексклусионс
 
-#### <a name="windows10endpointprotectionconfigurationdefenderemailcontentexecution"></a>Windows10EndpointProtectionConfiguration.DefenderEmailContentExecution 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowEmailScanning
+### <a name="windows10endpointprotectionconfigurationdefenderemailcontentexecution"></a>Windows10EndpointProtectionConfiguration. Дефендеремаилконтентексекутион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловемаилсканнинг
 
-#### <a name="windows10endpointprotectionconfigurationdefenderemailcontentexecutiontype"></a>Windows10EndpointProtectionConfiguration.DefenderEmailContentExecutionType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderemailcontentexecutiontype"></a>Windows10EndpointProtectionConfiguration. Дефендеремаилконтентексекутионтипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdefenderexploitprotectionxml"></a>Windows10EndpointProtectionConfiguration.DefenderExploitProtectionXml 
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/ExploitGuard/ExploitProtectionSettings
+### <a name="windows10endpointprotectionconfigurationdefenderexploitprotectionxml"></a>Windows10EndpointProtectionConfiguration.DefenderExploitProtectionXml 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/експлоитгуард/експлоитпротектионсеттингс
 
-#### <a name="windows10endpointprotectionconfigurationdefenderexploitprotectionxmlfilename"></a>Windows10EndpointProtectionConfiguration.DefenderExploitProtectionXmlFileName 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ExploitGuard/ExploitProtectionSettings
+### <a name="windows10endpointprotectionconfigurationdefenderexploitprotectionxmlfilename"></a>Windows10EndpointProtectionConfiguration.DefenderExploitProtectionXmlFileName 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експлоитгуард/експлоитпротектионсеттингс
 
-#### <a name="windows10endpointprotectionconfigurationdefenderguardedfoldersallowedapppaths"></a>Windows10EndpointProtectionConfiguration.DefenderGuardedFoldersAllowedAppPaths 
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/Defender/ControlledFolderAccessAllowedApplications
+### <a name="windows10endpointprotectionconfigurationdefenderguardedfoldersallowedapppaths"></a>Windows10EndpointProtectionConfiguration. Дефендергуардедфолдерсалловедапппасс 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/Дефендер/контролледфолдеракцессалловедаппликатионс
 
-#### <a name="windows10endpointprotectionconfigurationdefenderguardmyfolderstype"></a>Windows10EndpointProtectionConfiguration.DefenderGuardMyFoldersType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/EnableControlledFolderAccess
+### <a name="windows10endpointprotectionconfigurationdefenderguardmyfolderstype"></a>Windows10EndpointProtectionConfiguration.DefenderGuardMyFoldersType 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/енаблеконтролледфолдеракцесс
 
-#### <a name="windows10endpointprotectionconfigurationdefendernetworkprotectiontype"></a>Windows10EndpointProtectionConfiguration.DefenderNetworkProtectionType 
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/Defender/EnableNetworkProtection
+### <a name="windows10endpointprotectionconfigurationdefendernetworkprotectiontype"></a>Windows10EndpointProtectionConfiguration.DefenderNetworkProtectionType 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/Дефендер/енабленетворкпротектион
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficeappsexecutablecontentcreationorlaunch"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsExecutableContentCreationOrLaunch 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderofficeappsexecutablecontentcreationorlaunch"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsExecutableContentCreationOrLaunch 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficeappsexecutablecontentcreationorlaunchtype"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsExecutableContentCreationOrLaunchType
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderofficeappsexecutablecontentcreationorlaunchtype"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsExecutableContentCreationOrLaunchType
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficeappslaunchchildprocess"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsLaunchChildProcess 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderofficeappslaunchchildprocess"></a>Windows10EndpointProtectionConfiguration. Дефендероффицеаппслаунччилдпроцесс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficeappslaunchchildprocesstype"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsLaunchChildProcessType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderofficeappslaunchchildprocesstype"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsLaunchChildProcessType 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficeappsotherprocessinjection"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsOtherProcessInjection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderofficeappsotherprocessinjection"></a>Windows10EndpointProtectionConfiguration. Дефендероффицеаппсосерпроцессинжектион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficeappsotherprocessinjectiontype"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeAppsOtherProcessInjectionType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType 
+### <a name="windows10endpointprotectionconfigurationdefenderofficeappsotherprocessinjectiontype"></a>Windows10EndpointProtectionConfiguration. Дефендероффицеаппсосерпроцессинжектионтипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе 
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficemacrocodeallowwin32imports"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeMacroCodeAllowWin32Imports 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderofficemacrocodeallowwin32imports"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeMacroCodeAllowWin32Imports 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderofficemacrocodeallowwin32importstype"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeMacroCodeAllowWin32ImportsType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderofficemacrocodeallowwin32importstype"></a>Windows10EndpointProtectionConfiguration.DefenderOfficeMacroCodeAllowWin32ImportsType 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdefenderpreventcredentialstealingtype"></a>Windows10EndpointProtectionConfiguration.DefenderPreventCredentialStealingType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderpreventcredentialstealingtype"></a>Windows10EndpointProtectionConfiguration. Дефендерпревенткредентиалстеалингтипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdefenderprocesscreation"></a>Windows10EndpointProtectionConfiguration.DefenderProcessCreation 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderprocesscreation"></a>Windows10EndpointProtectionConfiguration.DefenderProcessCreation 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderprocesscreationtype"></a>Windows10EndpointProtectionConfiguration.DefenderProcessCreationType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderprocesscreationtype"></a>Windows10EndpointProtectionConfiguration.DefenderProcessCreationType 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderprotectagainstpotentiallyunwantedapplications"></a>Windows10EndpointProtectionConfiguration.DefenderProtectAgainstPotentiallyUnwantedApplications 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSecurityGuide/TurnOnWindowsDefenderProtectionAgainstPotentiallyUnwantedApplications
+### <a name="windows10endpointprotectionconfigurationdefenderprotectagainstpotentiallyunwantedapplications"></a>Windows10EndpointProtectionConfiguration. Дефендерпротектагаинстпотентиаллюнвантедаппликатионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мссекуритигуиде/турнонвиндовсдефендерпротектионагаинстпотентиаллюнвантедаппликатионс
 
-#### <a name="windows10endpointprotectionconfigurationdefenderscriptdownloadedpayloadexecution"></a>Windows10EndpointProtectionConfiguration.DefenderScriptDownloadedPayloadExecution 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderscriptdownloadedpayloadexecution"></a>Windows10EndpointProtectionConfiguration. Дефендерскриптдовнлоадедпайлоадексекутион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderscriptdownloadedpayloadexecutiontype"></a>Windows10EndpointProtectionConfiguration.DefenderScriptDownloadedPayloadExecutionType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderscriptdownloadedpayloadexecutiontype"></a>Windows10EndpointProtectionConfiguration. Дефендерскриптдовнлоадедпайлоадексекутионтипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdefenderscriptobfuscatedmacrocode"></a>Windows10EndpointProtectionConfiguration.DefenderScriptObfuscatedMacroCode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderscriptobfuscatedmacrocode"></a>Windows10EndpointProtectionConfiguration. Дефендерскриптобфускатедмакрокоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderscriptobfuscatedmacrocodetype"></a>Windows10EndpointProtectionConfiguration.DefenderScriptObfuscatedMacroCodeType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderscriptobfuscatedmacrocodetype"></a>Windows10EndpointProtectionConfiguration. Дефендерскриптобфускатедмакрокодетипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterblockexploitprotectionoverride"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterBlockExploitProtectionOverride 
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/WindowsDefenderSecurityCenter/DisallowExploitProtectionOverride
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterblockexploitprotectionoverride"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterBlockExploitProtectionOverride 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/виндовсдефендерсекуритицентер/дисалловексплоитпротектионоверриде
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisableaccountui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableAccountUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/DisableAccountProtectionUI
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisableaccountui"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентердисаблеаккаунтуи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/дисаблеаккаунтпротектионуи
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisableappbrowserui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableAppBrowserUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/DisableAppBrowserUI
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisableappbrowserui"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентердисаблеаппбровсеруи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/дисаблеаппбровсеруи
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablefamilyui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableFamilyUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/DisableFamilyUI
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablefamilyui"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентердисаблефамилюи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/дисаблефамилюи
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablehealthui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableHealthUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/DisableHealthUI
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablehealthui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableHealthUI 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/дисаблехеалсуи
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablenetworkui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableNetworkUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/DisableNetworkUI
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablenetworkui"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентердисабленетворкуи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/дисабленетворкуи
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablesecurebootui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableSecureBootUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/HideSecureBoot
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablesecurebootui"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентердисаблесекуребутуи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/хидесекуребут
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisabletroubleshootingui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableTroubleshootingUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/HideTPMTroubleshooting
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisabletroubleshootingui"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентердисаблетраублешутингуи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/хидетпмтраублешутинг
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablevirusui"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterDisableVirusUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/DisableVirusUI
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterdisablevirusui"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентердисаблевирусуи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/дисаблевирусуи
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterhelpemail"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterHelpEmail 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/Email
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterhelpemail"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterHelpEmail 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/емаил
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterhelpphone"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterHelpPhone 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/Phone
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterhelpphone"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterHelpPhone 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/фоне
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterhelpurl"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterHelpURL 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/URL
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterhelpurl"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterHelpURL 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/УРЛ
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenteritcontactdisplay"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterITContactDisplay 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: / WindowsDefenderSecurityCenter/EnableCustomizedToasts, / WindowsDefenderSecurityCenter/EnableInAppCustomization
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenteritcontactdisplay"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентеритконтактдисплай 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/Виндовсдефендерсекуритицентер/енаблекустомизедтоастс,/виндовсдефендерсекуритицентер/енаблеинаппкустомизатион
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenternotificationsfromapp"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterNotificationsFromApp 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/HideWindowsSecurityNotificationAreaControl
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenternotificationsfromapp"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентернотификатионсфромапп 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/хидевиндовссекуритинотификатионареаконтрол
 
-#### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterorganizationdisplayname"></a>Windows10EndpointProtectionConfiguration.DefenderSecurityCenterOrganizationDisplayName 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsDefenderSecurityCenter/CompanyName
+### <a name="windows10endpointprotectionconfigurationdefendersecuritycenterorganizationdisplayname"></a>Windows10EndpointProtectionConfiguration. Дефендерсекуритицентерорганизатиондисплайнаме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсдефендерсекуритицентер/компанинаме
 
-#### <a name="windows10endpointprotectionconfigurationdefenderuntrustedexecutable"></a>Windows10EndpointProtectionConfiguration.DefenderUntrustedExecutable 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderuntrustedexecutable"></a>Windows10EndpointProtectionConfiguration. Дефендерунтрустедексекутабле 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderuntrustedexecutabletype"></a>Windows10EndpointProtectionConfiguration.DefenderUntrustedExecutableType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderuntrustedexecutabletype"></a>Windows10EndpointProtectionConfiguration. Дефендерунтрустедексекутаблетипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderuntrustedusbprocess"></a>Windows10EndpointProtectionConfiguration.DefenderUntrustedUSBProcess 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules
+### <a name="windows10endpointprotectionconfigurationdefenderuntrustedusbprocess"></a>Windows10EndpointProtectionConfiguration. Дефендерунтрустедусбпроцесс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/аттакксурфацередуктионрулес
 
-#### <a name="windows10endpointprotectionconfigurationdefenderuntrustedusbprocesstype"></a>Windows10EndpointProtectionConfiguration.DefenderUntrustedUSBProcessType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AttackSurfaceReductionRules (CSP/конфигурации требуется свойств графа: windows10endpointprotection/Configuration.defenderOfficeAppsOtherProcessInjectionType, windows10endpointprotection / Configuration.defenderOfficeAppsExecutableContentCreationOrLaunchType, windows10endpointprotection/Configuration.defenderOfficeAppsLaunchChildProcessType, windows10endpointprotection / Configuration.defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration.defenderScriptObfuscatedMacroCodeType, windows10endpointprotection/Configuration.defenderScriptDownloadedPayloadExecutionType , windows10endpointprotection/Configuration.defenderEmailContentExecutionType, windows10endpointprotection/Configuration.defenderPreventCredentialStealingType, windows10endpointprotection / Configuration.defenderUntrustedUSBProcessType
+### <a name="windows10endpointprotectionconfigurationdefenderuntrustedusbprocesstype"></a>Windows10EndpointProtectionConfiguration. Дефендерунтрустедусбпроцесстипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/КОНФИГ/ДЕФЕНДЕР/АТТАККСУРФАЦЕРЕДУКТИОНРУЛЕС (CSP/Configuration, требуются свойства Graph: Windows10endpointprotection/Configuration. дефендероффицеаппсосерпроцессинжектионтипе, windows10endpointprotection/ Configuration. Дефендероффицеаппсексекутаблеконтенткреатионорлаунчтипе, windows10endpointprotection/Configuration. Дефендероффицеаппслаунччилдпроцесстипе, windows10endpointprotection/ Configuration. defenderOfficeMacroCodeAllowWin32ImportsType, windows10endpointprotection/Configuration. Дефендерскриптобфускатедмакрокодетипе, windows10endpointprotection/Configuration. Дефендерскриптдовнлоадедпайлоадексекутионтипе , windows10endpointprotection/Configuration. Дефендеремаилконтентексекутионтипе, windows10endpointprotection/Configuration. Дефендерпревенткредентиалстеалингтипе, windows10endpointprotection/ Configuration. Дефендерунтрустедусбпроцесстипе
 
-#### <a name="windows10endpointprotectionconfigurationdeviceguardenablesecurebootwithdma"></a>Windows10EndpointProtectionConfiguration.DeviceGuardEnableSecureBootWithDMA 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceGuard/RequirePlatformSecurityFeatures
+### <a name="windows10endpointprotectionconfigurationdeviceguardenablesecurebootwithdma"></a>Windows10EndpointProtectionConfiguration. Девицегуарденаблесекуребутвисдма 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицегуард/рекуиреплатформсекуритифеатурес
 
-#### <a name="windows10endpointprotectionconfigurationdeviceguardenablevirtualizationbasedsecurity"></a>Windows10EndpointProtectionConfiguration.DeviceGuardEnableVirtualizationBasedSecurity 
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/DeviceGuard/EnableVirtualizationBasedSecurity
+### <a name="windows10endpointprotectionconfigurationdeviceguardenablevirtualizationbasedsecurity"></a>Windows10EndpointProtectionConfiguration. Девицегуарденаблевиртуализатионбаседсекурити 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/девицегуард/енаблевиртуализатионбаседсекурити
 
-#### <a name="windows10endpointprotectionconfigurationdeviceguardlaunchsystemguard"></a>Windows10EndpointProtectionConfiguration.DeviceGuardLaunchSystemGuard 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceGuard/ConfigureSystemGuardLaunch
+### <a name="windows10endpointprotectionconfigurationdeviceguardlaunchsystemguard"></a>Windows10EndpointProtectionConfiguration. Девицегуардлаунчсистемгуард 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицегуард/конфигуресистемгуардлаунч
 
-#### <a name="windows10endpointprotectionconfigurationdeviceguardlocalsystemauthoritycredentialguardsettings"></a>Windows10EndpointProtectionConfiguration.DeviceGuardLocalSystemAuthorityCredentialGuardSettings 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceGuard/LsaCfgFlags
+### <a name="windows10endpointprotectionconfigurationdeviceguardlocalsystemauthoritycredentialguardsettings"></a>Windows10EndpointProtectionConfiguration. Девицегуардлокалсистемаусоритикредентиалгуардсеттингс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицегуард/лсакфгфлагс
 
-#### <a name="windows10endpointprotectionconfigurationdmaguarddeviceenumerationpolicy"></a>Windows10EndpointProtectionConfiguration.DmaGuardDeviceEnumerationPolicy 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DmaGuard/DeviceEnumerationPolicy
+### <a name="windows10endpointprotectionconfigurationdmaguarddeviceenumerationpolicy"></a>Windows10EndpointProtectionConfiguration. Дмагуарддевицеенумератионполици 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/дмагуард/девицеенумератионполици
 
-#### <a name="windows10endpointprotectionconfigurationeventlogserviceapplicationlogmaximumfilesizeinkb"></a>Windows10EndpointProtectionConfiguration.EventLogServiceApplicationLogMaximumFileSizeInKb 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EventLogService/SpecifyMaximumFileSizeApplicationLog
+### <a name="windows10endpointprotectionconfigurationeventlogserviceapplicationlogmaximumfilesizeinkb"></a>Windows10EndpointProtectionConfiguration. Евентлогсервицеаппликатионлогмаксимумфилесизеинкб 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/евентлогсервице/спеЦифимаксимумфилесизеаппликатионлог
 
-#### <a name="windows10endpointprotectionconfigurationeventlogservicesecuritylogmaximumfilesizeinkb"></a>Windows10EndpointProtectionConfiguration.EventLogServiceSecurityLogMaximumFileSizeInKb 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EventLogService/SpecifyMaximumFileSizeSecurityLog
+### <a name="windows10endpointprotectionconfigurationeventlogservicesecuritylogmaximumfilesizeinkb"></a>Windows10EndpointProtectionConfiguration.EventLogServiceSecurityLogMaximumFileSizeInKb 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/евентлогсервице/спеЦифимаксимумфилесизесекуритилог
 
-#### <a name="windows10endpointprotectionconfigurationeventlogservicesystemlogmaximumfilesizeinkb"></a>Windows10EndpointProtectionConfiguration.EventLogServiceSystemLogMaximumFileSizeInKb 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EventLogService/SpecifyMaximumFileSizeSystemLog
+### <a name="windows10endpointprotectionconfigurationeventlogservicesystemlogmaximumfilesizeinkb"></a>Windows10EndpointProtectionConfiguration. Евентлогсервицесистемлогмаксимумфилесизеинкб 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/евентлогсервице/спеЦифимаксимумфилесизесистемлог
 
-#### <a name="windows10endpointprotectionconfigurationexplorerdataexecutionprevention"></a>Windows10EndpointProtectionConfiguration.ExplorerDataExecutionPrevention 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer
+### <a name="windows10endpointprotectionconfigurationexplorerdataexecutionprevention"></a>Windows10EndpointProtectionConfiguration. Експлорердатаексекутионпревентион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/филиксплорер/турноффдатаексекутионпревентионфорексплорер
 
-#### <a name="windows10endpointprotectionconfigurationexplorerheapterminationoncorruption"></a>Windows10EndpointProtectionConfiguration.ExplorerHeapTerminationOnCorruption 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/FileExplorer/TurnOffHeapTerminationOnCorruption
+### <a name="windows10endpointprotectionconfigurationexplorerheapterminationoncorruption"></a>Windows10EndpointProtectionConfiguration. Експлорерхеаптерминатиононкорруптион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/филиксплорер/турноффхеаптерминатиононкорруптион
 
-#### <a name="windows10endpointprotectionconfigurationfirewallblockstatefulftp"></a>Windows10EndpointProtectionConfiguration.FirewallBlockStatefulFTP 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/DisableStatefulFtp
+### <a name="windows10endpointprotectionconfigurationfirewallblockstatefulftp"></a>Windows10EndpointProtectionConfiguration. Фиреваллблоккстатефулфтп 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/дисаблестатефулфтп
 
-#### <a name="windows10endpointprotectionconfigurationfirewallcertificaterevocationlistcheckmethod"></a>Windows10EndpointProtectionConfiguration.FirewallCertificateRevocationListCheckMethod 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/CRLcheck
+### <a name="windows10endpointprotectionconfigurationfirewallcertificaterevocationlistcheckmethod"></a>Windows10EndpointProtectionConfiguration. Фиреваллцертификатеревокатионлистчеккмесод 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/крлчекк
 
-#### <a name="windows10endpointprotectionconfigurationfirewallidletimeoutforsecurityassociationinseconds"></a>Windows10EndpointProtectionConfiguration.FirewallIdleTimeoutForSecurityAssociationInSeconds 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/SaIdleTime
+### <a name="windows10endpointprotectionconfigurationfirewallidletimeoutforsecurityassociationinseconds"></a>Windows10EndpointProtectionConfiguration. ФиреваллидлетимеаутфорсекуритяссоЦиатионинсекондс 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/саидлетиме
 
-#### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowdhcp"></a>Windows10EndpointProtectionConfiguration.FirewallIPSecExemptionsAllowDHCP 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/IPsecExempt
+### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowdhcp"></a>Windows10EndpointProtectionConfiguration.FirewallIPSecExemptionsAllowDHCP 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/ипсецексемпт
 
-#### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowicmp"></a>Windows10EndpointProtectionConfiguration.FirewallIPSecExemptionsAllowICMP 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/IPsecExempt
+### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowicmp"></a>Windows10EndpointProtectionConfiguration.FirewallIPSecExemptionsAllowICMP 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/ипсецексемпт
 
-#### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowneighbordiscovery"></a>Windows10EndpointProtectionConfiguration.FirewallIPSecExemptionsAllowNeighborDiscovery 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/IPsecExempt
+### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowneighbordiscovery"></a>Windows10EndpointProtectionConfiguration. Фиреваллипсецексемптионсалловнеигхбордисковери 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/ипсецексемпт
 
-#### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowrouterdiscovery"></a>Windows10EndpointProtectionConfiguration.FirewallIPSecExemptionsAllowRouterDiscovery 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/IPsecExempt
+### <a name="windows10endpointprotectionconfigurationfirewallipsecexemptionsallowrouterdiscovery"></a>Windows10EndpointProtectionConfiguration.FirewallIPSecExemptionsAllowRouterDiscovery 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/ипсецексемпт
 
-#### <a name="windows10endpointprotectionconfigurationfirewallmergekeyingmodulesettings"></a>Windows10EndpointProtectionConfiguration.FirewallMergeKeyingModuleSettings 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/OpportunisticallyMatchAuthSetPerKM
+### <a name="windows10endpointprotectionconfigurationfirewallmergekeyingmodulesettings"></a>Windows10EndpointProtectionConfiguration. Фиреваллмержекэйингмодулесеттингс 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/оппортунистикаллиматчауссетперкм
 
-#### <a name="windows10endpointprotectionconfigurationfirewallpacketqueueingmethod"></a>Windows10EndpointProtectionConfiguration.FirewallPacketQueueingMethod 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/EnablePacketQueue
+### <a name="windows10endpointprotectionconfigurationfirewallpacketqueueingmethod"></a>Windows10EndpointProtectionConfiguration. Фиреваллпаккеткуеуеингмесод 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/енаблепаккеткуеуе
 
-#### <a name="windows10endpointprotectionconfigurationfirewallpresharedkeyencodingmethod"></a>Windows10EndpointProtectionConfiguration.FirewallPreSharedKeyEncodingMethod 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/Global/PresharedKeyEncoding
+### <a name="windows10endpointprotectionconfigurationfirewallpresharedkeyencodingmethod"></a>Windows10EndpointProtectionConfiguration. Фиреваллпрешаредкэйенкодингмесод 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/Глобал/прешаредкэйенкодинг
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofiledomain"></a>Windows10EndpointProtectionConfiguration.FirewallProfileDomain 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /EnableFirewall, /DisableStealthMode, / экранированные, /DisableUnicastResponsesToMulticastBroadcast, /DisableInboundNotifications, /AuthAppsAllowUserPrefMerge, /GlobalPortsAllowUserPrefMerge, /AllowLocalPolicyMerge , /DefaultOutboundAction, /DefaultInboundAction, /DisableStealthModeIpsecSecuredPacketExemption, /AllowLocalIpsecPolicyMerge
+### <a name="windows10endpointprotectionconfigurationfirewallprofiledomain"></a>Windows10EndpointProtectionConfiguration. Фиреваллпрофиледомаин 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/Енаблефиревалл,/Дисаблестеалсмоде,/Шиелдед,/Дисаблеуникастреспонсестомултикастброадкаст,/DisableInboundNotifications,/AuthAppsAllowUserPrefMerge,/GlobalPortsAllowUserPrefMerge,/AllowLocalPolicyMerge,/ Дефаултаутбаундактион,/Дефаултинбаундактион,/Дисаблестеалсмодеипсексекуредпаккетексемптион,/AllowLocalIpsecPolicyMerge
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofiledomaininboundconnectionsblocked"></a>windows10endpointprotectionconfiguration.firewallProfileDomain.inboundConnectionsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/DomainProfile/DefaultInboundAction
+### <a name="windows10endpointprotectionconfigurationfirewallprofiledomaininboundconnectionsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофиледомаин. Инбаундконнектионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/домаинпрофиле/дефаултинбаундактион
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofiledomaininboundnotificationsblocked"></a>windows10endpointprotectionconfiguration.firewallProfileDomain.inboundNotificationsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/DomainProfile/DisableInboundNotifications
+### <a name="windows10endpointprotectionconfigurationfirewallprofiledomaininboundnotificationsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофиледомаин. Инбаунднотификатионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/домаинпрофиле/дисаблеинбаунднотификатионс
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofiledomaininboundnotificationsblocked"></a>windows10endpointprotectionconfiguration.firewallProfileDomain.inboundNotificationsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/DomainProfile/EnableFirewall
+### <a name="windows10endpointprotectionconfigurationfirewallprofiledomaininboundnotificationsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофиледомаин. Инбаунднотификатионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/домаинпрофиле/енаблефиревалл
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofiledomainoutboundconnectionsblocked"></a>windows10endpointprotectionconfiguration.firewallProfileDomain.outboundConnectionsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/DomainProfile/DefaultOutboundAction
+### <a name="windows10endpointprotectionconfigurationfirewallprofiledomainoutboundconnectionsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофиледомаин. Аутбаундконнектионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/домаинпрофиле/дефаултаутбаундактион
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofileprivate"></a>Windows10EndpointProtectionConfiguration.FirewallProfilePrivate 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /EnableFirewall, /DisableStealthMode, / экранированные, /DisableUnicastResponsesToMulticastBroadcast, /DisableInboundNotifications, /AuthAppsAllowUserPrefMerge, /GlobalPortsAllowUserPrefMerge, /AllowLocalPolicyMerge , /DefaultOutboundAction, /DefaultInboundAction, /DisableStealthModeIpsecSecuredPacketExemption, /AllowLocalIpsecPolicyMerge
+### <a name="windows10endpointprotectionconfigurationfirewallprofileprivate"></a>Windows10EndpointProtectionConfiguration. Фиреваллпрофилепривате 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/Енаблефиревалл,/Дисаблестеалсмоде,/Шиелдед,/Дисаблеуникастреспонсестомултикастброадкаст,/DisableInboundNotifications,/AuthAppsAllowUserPrefMerge,/GlobalPortsAllowUserPrefMerge,/AllowLocalPolicyMerge,/ Дефаултаутбаундактион,/Дефаултинбаундактион,/Дисаблестеалсмодеипсексекуредпаккетексемптион,/AllowLocalIpsecPolicyMerge
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofileprivatefirewallenabled"></a>windows10endpointprotectionconfiguration.firewallProfilePrivate.firewallEnabled 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PrivateProfile/EnableFirewall
+### <a name="windows10endpointprotectionconfigurationfirewallprofileprivatefirewallenabled"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепривате. Фиревалленаблед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/приватепрофиле/енаблефиревалл
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofileprivateinboundconnectionsblocked"></a>windows10endpointprotectionconfiguration.firewallProfilePrivate.inboundConnectionsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PrivateProfile/DefaultInboundAction
+### <a name="windows10endpointprotectionconfigurationfirewallprofileprivateinboundconnectionsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепривате. Инбаундконнектионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/приватепрофиле/дефаултинбаундактион
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofileprivateinboundnotificationsblocked"></a>windows10endpointprotectionconfiguration.firewallProfilePrivate.inboundNotificationsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PrivateProfile/DisableInboundNotifications
+### <a name="windows10endpointprotectionconfigurationfirewallprofileprivateinboundnotificationsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепривате. Инбаунднотификатионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/приватепрофиле/дисаблеинбаунднотификатионс
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofileprivateoutboundconnectionsblocked"></a>windows10endpointprotectionconfiguration.firewallProfilePrivate.outboundConnectionsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PrivateProfile/DefaultOutboundAction
+### <a name="windows10endpointprotectionconfigurationfirewallprofileprivateoutboundconnectionsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепривате. Аутбаундконнектионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/приватепрофиле/дефаултаутбаундактион
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofilepublic"></a>Windows10EndpointProtectionConfiguration.FirewallProfilePublic 
-**CSP**: ./Vendor/MSFT/Firewall  
-**Смещение URI**: /EnableFirewall, /DisableStealthMode, / экранированные, /DisableUnicastResponsesToMulticastBroadcast, /DisableInboundNotifications, /AuthAppsAllowUserPrefMerge, /GlobalPortsAllowUserPrefMerge, /AllowLocalPolicyMerge , /DefaultOutboundAction, /DefaultInboundAction, /DisableStealthModeIpsecSecuredPacketExemption, /AllowLocalIpsecPolicyMerge
+### <a name="windows10endpointprotectionconfigurationfirewallprofilepublic"></a>Windows10EndpointProtectionConfiguration. Фиреваллпрофилепублик 
+**CSP**:./вендор/мсфт/фиревалл  
+**URI смещения**:/Енаблефиревалл,/Дисаблестеалсмоде,/Шиелдед,/Дисаблеуникастреспонсестомултикастброадкаст,/DisableInboundNotifications,/AuthAppsAllowUserPrefMerge,/GlobalPortsAllowUserPrefMerge,/AllowLocalPolicyMerge,/ Дефаултаутбаундактион,/Дефаултинбаундактион,/Дисаблестеалсмодеипсексекуредпаккетексемптион,/AllowLocalIpsecPolicyMerge
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicconnectionsecurityrulesfromgrouppolicymerged"></a>windows10endpointprotectionconfiguration.firewallProfilePublic.connectionSecurityRulesFromGroupPolicyMerged 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PublicProfile/AllowLocalIpsecPolicyMerge
+### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicconnectionsecurityrulesfromgrouppolicymerged"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепублик. Коннектионсекуритирулесфромграупполицимержед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/публикпрофиле/алловлокалипсекполицимерже
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicfirewallenabled"></a>windows10endpointprotectionconfiguration.firewallProfilePublic.firewallEnabled 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PublicProfile/EnableFirewall
+### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicfirewallenabled"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепублик. Фиревалленаблед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/публикпрофиле/енаблефиревалл
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicinboundconnectionsblocked"></a>windows10endpointprotectionconfiguration.firewallProfilePublic.inboundConnectionsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PublicProfile/DefaultInboundAction
+### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicinboundconnectionsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепублик. Инбаундконнектионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/публикпрофиле/дефаултинбаундактион
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicinboundnotificationsblocked"></a>windows10endpointprotectionconfiguration.firewallProfilePublic.inboundNotificationsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PublicProfile/DisableInboundNotifications
+### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicinboundnotificationsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепублик. Инбаунднотификатионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/публикпрофиле/дисаблеинбаунднотификатионс
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicoutboundconnectionsblocked"></a>windows10endpointprotectionconfiguration.firewallProfilePublic.outboundConnectionsBlocked 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PublicProfile/DefaultOutboundAction
+### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicoutboundconnectionsblocked"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепублик. Аутбаундконнектионсблоккед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/публикпрофиле/дефаултаутбаундактион
 
-#### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicpolicyrulesfromgrouppolicymerged"></a>windows10endpointprotectionconfiguration.firewallProfilePublic.policyRulesFromGroupPolicyMerged 
-**CSP**: ./Device/Vendor/MSFT/Firewall  
-**Смещение URI**: /MdmStore/PublicProfile/AllowLocalPolicyMerge
+### <a name="windows10endpointprotectionconfigurationfirewallprofilepublicpolicyrulesfromgrouppolicymerged"></a>windows10endpointprotectionconfiguration. Фиреваллпрофилепублик. Полицирулесфромграупполицимержед 
+**CSP**:./девице/вендор/мсфт/фиревалл  
+**URI смещения**:/мдмсторе/публикпрофиле/алловлокалполицимерже
 
-#### <a name="windows10endpointprotectionconfigurationlanmanagerauthenticationlevel"></a>Windows10EndpointProtectionConfiguration.LanManagerAuthenticationLevel 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkSecurity\_LANManagerAuthenticationLevel
+### <a name="windows10endpointprotectionconfigurationlanmanagerauthenticationlevel"></a>Windows10EndpointProtectionConfiguration. Ланманажераусентикатионлевел 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворксекурити\_ланманажераусентикатионлевел
 
-#### <a name="windows10endpointprotectionconfigurationlanmanagerworkstationdisableinsecureguestlogons"></a>Windows10EndpointProtectionConfiguration.LanManagerWorkstationDisableInsecureGuestLogons 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LanmanWorkstation/EnableInsecureGuestLogons
+### <a name="windows10endpointprotectionconfigurationlanmanagerworkstationdisableinsecureguestlogons"></a>Windows10EndpointProtectionConfiguration. Ланманажерворкстатиондисаблеинсекурегуестлогонс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ланманворкстатион/енаблеинсекурегуестлогонс
 
-#### <a name="windows10endpointprotectionconfigurationlanmanagerworkstationenableinsecureguestlogons"></a>Windows10EndpointProtectionConfiguration.LanManagerWorkstationEnableInsecureGuestLogons 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LanmanWorkstation/EnableInsecureGuestLogons
+### <a name="windows10endpointprotectionconfigurationlanmanagerworkstationenableinsecureguestlogons"></a>Windows10EndpointProtectionConfiguration. Ланманажерворкстатионенаблеинсекурегуестлогонс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ланманворкстатион/енаблеинсекурегуестлогонс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsadministratoraccountname"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAdministratorAccountName 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_RenameAdministratorAccount
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsadministratoraccountname"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсадминистратораккаунтнаме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_ренамеадминистратораккаунт
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsadministratorelevationpromptbehavior"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAdministratorElevationPromptBehavior
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_BehaviorOfTheElevationPromptForAdministrators
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsadministratorelevationpromptbehavior"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсадминистраторелеватионпромптбехавиор
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_бехавиорофсилеватионпромптфорадминистраторс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowanonymousenumerationofsamaccountsandshares"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowAnonymousEnumerationOfSAMAccountsAndShares 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkAccess\_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowanonymousenumerationofsamaccountsandshares"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсаллованонимаусенумератионофсамаккаунтсандшарес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворкакцесс\_доноталлованонимаусенумератионофсамаккаунтсандшарес
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowpku2uauthenticationrequests"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowPKU2UAuthenticationRequests 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkSecurity\_AllowPKU2UAuthenticationRequests
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowpku2uauthenticationrequests"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowPKU2UAuthenticationRequests 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворксекурити\_AllowPKU2UAuthenticationRequests
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowremotecallstosecurityaccountsmanager"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowRemoteCallsToSecurityAccountsManager 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkAccess\_RestrictClientsAllowedToMakeRemoteCallsToSAM
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowremotecallstosecurityaccountsmanager"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсалловремотекаллстосекуритяккаунтсманажер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворкакцесс\_рестриктклиентсалловедтомакеремотекаллстосам
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowremotecallstosecurityaccountsmanagerhelperbool"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowRemoteCallsToSecurityAccountsManagerHelperBool 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkAccess\_RestrictClientsAllowedToMakeRemoteCallsToSAM
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowremotecallstosecurityaccountsmanagerhelperbool"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсалловремотекаллстосекуритяккаунтсманажерхелпербул 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворкакцесс\_рестриктклиентсалловедтомакеремотекаллстосам
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowsystemtobeshutdownwithouthavingtologon"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowSystemToBeShutDownWithoutHavingToLogOn 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Shutdown\_AllowSystemToBeShutDownWithoutHavingToLogOn
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowsystemtobeshutdownwithouthavingtologon"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсалловсистемтобешутдовнвисаусавингтологон 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/шутдовн\_алловсистемтобешутдовнвисаусавингтологон
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowuiaccessapplicationelevation"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowUIAccessApplicationElevation 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_AllowUIAccessApplicationsToPromptForElevation
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowuiaccessapplicationelevation"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсалловуиакцессаппликатионелеватион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_алловуиакцессаппликатионстопромптфорелеватион
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowuiaccessapplicationsforsecurelocations"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowUIAccessApplicationsForSecureLocations 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowuiaccessapplicationsforsecurelocations"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсалловуиакцессаппликатионсфорсекурелокатионс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_онлелеватеуиакцессаппликатионссатареинсталлединсекурелокатионс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowundockwithouthavingtologon"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsAllowUndockWithoutHavingToLogon 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Devices\_AllowUndockWithoutHavingToLogon
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsallowundockwithouthavingtologon"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсалловундокквисаусавингтологон 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/девицес\_алловундокквисаусавингтологон
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockmicrosoftaccounts"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsBlockMicrosoftAccounts 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_BlockMicrosoftAccounts
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockmicrosoftaccounts"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсблоккмикрософтаккаунтс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_блоккмикрософтаккаунтс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockremotelogonwithblankpassword"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsBlockRemoteLogonWithBlankPassword 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockremotelogonwithblankpassword"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсблоккремотелогонвисбланкпассворд 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_лимитлокалаккаунтусеофбланкпассвордстоконсолелогононли
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockremoteopticaldriveaccess"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsBlockRemoteOpticalDriveAccess 
-**CSP**: ./Vendor/MSFT/Policy  
-**Offset URI**: /Config/LocalPoliciesSecurityOptions/Devices\_RestrictCDROMAccessToLocallyLoggedOnUserOnly
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockremoteopticaldriveaccess"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсблоккремотеоптикалдривеакцесс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/девицес\_рестрикткдромакцесстолокаллилогжедонусеронли
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockusersinstallingprinterdrivers"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsBlockUsersInstallingPrinterDrivers 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Devices\_PreventUsersFromInstallingPrinterDriversWhenConnectingToSharedPrinters
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsblockusersinstallingprinterdrivers"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсблоккусерсинсталлингпринтердриверс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/девицес\_превентусерсфроминсталлингпринтердриверсвхенконнектингтошаредпринтерс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsclearvirtualmemorypagefile"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsClearVirtualMemoryPageFile 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Shutdown\_ClearVirtualMemoryPageFile
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsclearvirtualmemorypagefile"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсклеарвиртуалмеморипажефиле 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/шутдовн\_клеарвиртуалмеморипажефиле
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsclientdigitallysigncommunicationsalways"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsClientDigitallySignCommunicationsAlways 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient\_DigitallySignCommunicationsAlways
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsclientdigitallysigncommunicationsalways"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsClientDigitallySignCommunicationsAlways 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/микрософтнетворкклиент\_дигиталлисигнкоммуникатионсалвайс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsclientsendunencryptedpasswordtothirdpartysmbservers"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsClientSendUnencryptedPasswordToThirdPartySMBServers 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient\_SendUnencryptedPasswordToThirdPartySMBServers
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsclientsendunencryptedpasswordtothirdpartysmbservers"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсклиентсендуненкриптедпассвордтосирдпартисмбсерверс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/микрософтнетворкклиент\_сендуненкриптедпассвордтосирдпартисмбсерверс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdetectapplicationinstallationsandpromptforelevation"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDetectApplicationInstallationsAndPromptForElevation 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_DetectApplicationInstallationsAndPromptForElevation
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdetectapplicationinstallationsandpromptforelevation"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсдетектаппликатионинсталлатионсандпромптфорелеватион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_детектаппликатионинсталлатионсандпромптфорелеватион
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableadministratoraccount"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDisableAdministratorAccount 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_EnableAdministratorAccountStatus
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableadministratoraccount"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсдисаблеадминистратораккаунт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_енаблеадминистратораккаунтстатус
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableclientdigitallysigncommunicationsifserveragrees"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDisableClientDigitallySignCommunicationsIfServerAgrees 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient\_DigitallySignCommunicationsIfServerAgrees
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableclientdigitallysigncommunicationsifserveragrees"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDisableClientDigitallySignCommunicationsIfServerAgrees 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/микрософтнетворкклиент\_дигиталлисигнкоммуникатионсифсерверагрис
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableguestaccount"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDisableGuestAccount 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_EnableGuestAccountStatus
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableguestaccount"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсдисаблегуестаккаунт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_енаблегуестаккаунтстатус
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableserverdigitallysigncommunicationsalways"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDisableServerDigitallySignCommunicationsAlways 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer\_DigitallySignCommunicationsAlways
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableserverdigitallysigncommunicationsalways"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсдисаблесервердигиталлисигнкоммуникатионсалвайс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/микрософтнетворксервер\_дигиталлисигнкоммуникатионсалвайс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableserverdigitallysigncommunicationsifclientagrees"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDisableServerDigitallySignCommunicationsIfClientAgrees 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer\_DigitallySignCommunicationsIfClientAgrees
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdisableserverdigitallysigncommunicationsifclientagrees"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсдисаблесервердигиталлисигнкоммуникатионсифклиентагрис 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/микрософтнетворксервер\_дигиталлисигнкоммуникатионсифклиентагрис
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdonotallowanonymousenumerationofsamaccounts"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDoNotAllowAnonymousEnumerationOfSAMAccounts 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkAccess\_DoNotAllowAnonymousEnumerationOfSAMAccounts
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdonotallowanonymousenumerationofsamaccounts"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсдоноталлованонимаусенумератионофсамаккаунтс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворкакцесс\_доноталлованонимаусенумератионофсамаккаунтс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdonotrequirectrlaltdel"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDoNotRequireCtrlAltDel 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_DoNotRequireCTRLALTDEL
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdonotrequirectrlaltdel"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDoNotRequireCtrlAltDel 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_донотрекуиректрлалтдел
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdonotstorelanmanagerhashvalueonnextpasswordchange"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsDoNotStoreLANManagerHashValueOnNextPasswordChange 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkSecurity\_DoNotStoreLANManagerHashValueOnNextPasswordChange
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsdonotstorelanmanagerhashvalueonnextpasswordchange"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсдонотстореланманажерхашвалуеоннекстпассвордчанже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворксекурити\_донотстореланманажерхашвалуеоннекстпассвордчанже
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsenableadministratoraccount"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsEnableAdministratorAccount 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_EnableAdministratorAccountStatus
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsenableadministratoraccount"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсенаблеадминистратораккаунт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_енаблеадминистратораккаунтстатус
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsenableguestaccount"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsEnableGuestAccount 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_EnableGuestAccountStatus
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsenableguestaccount"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсенаблегуестаккаунт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_енаблегуестаккаунтстатус
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsformatandejectofremovablemediaalloweduser"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsFormatAndEjectOfRemovableMediaAllowedUser 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Devices\_AllowedToFormatAndEjectRemovableMedia
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsformatandejectofremovablemediaalloweduser"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсформатандежектофремоваблемедиаалловедусер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/девицес\_алловедтоформатандежектремоваблемедиа
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsguestaccountname"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsGuestAccountName 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/Accounts\_RenameGuestAccount
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsguestaccountname"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsGuestAccountName 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/аккаунтс\_ренамегуестаккаунт
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionshidelastsignedinuser"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsHideLastSignedInUser 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_DoNotDisplayLastSignedIn
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionshidelastsignedinuser"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsHideLastSignedInUser 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_донотдисплайластсигнедин
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionshideusernameatsignin"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsHideUsernameAtSignIn 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_DoNotDisplayUsernameAtSignIn
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionshideusernameatsignin"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsHideUsernameAtSignIn 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_донотдисплайусернамеатсигнин
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsinformationdisplayedonlockscreen"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsInformationDisplayedOnLockScreen 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_DisplayUserInformationWhenTheSessionIsLocked
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsinformationdisplayedonlockscreen"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсинформатиондисплайедонлоккскрин 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_дисплайусеринформатионвхенсесессионислоккед
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsinformationshownonlockscreen"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsInformationShownOnLockScreen 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_DisplayUserInformationWhenTheSessionIsLocked
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsinformationshownonlockscreen"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсинформатионшовнонлоккскрин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_дисплайусеринформатионвхенсесессионислоккед
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionslogonmessagetext"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsLogOnMessageText 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_MessageTextForUsersAttemptingToLogOn
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionslogonmessagetext"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsLogOnMessageText 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_мессажетекстфорусерсаттемптингтологон
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionslogonmessagetitle"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsLogOnMessageTitle 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_MessageTitleForUsersAttemptingToLogOn
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionslogonmessagetitle"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsLogOnMessageTitle 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_мессажетитлефорусерсаттемптингтологон
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsmachineinactivitylimit"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsMachineInactivityLimit 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_MachineInactivityLimit
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsmachineinactivitylimit"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsMachineInactivityLimit 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_мачинеинактивитилимит
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsmachineinactivitylimitinminutes"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsMachineInactivityLimitInMinutes 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_MachineInactivityLimit
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsmachineinactivitylimitinminutes"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsMachineInactivityLimitInMinutes 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_мачинеинактивитилимит
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsminimumsessionsecurityforntlmsspbasedclients"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkSecurity\_MinimumSessionSecurityForNTLMSSPBasedClients
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsminimumsessionsecurityforntlmsspbasedclients"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворксекурити\_минимумсессионсекуритифорнтлмсспбаседклиентс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsminimumsessionsecurityforntlmsspbasedservers"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsMinimumSessionSecurityForNtlmSspBasedServers 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkSecurity\_MinimumSessionSecurityForNTLMSSPBasedServers
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsminimumsessionsecurityforntlmsspbasedservers"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсминимумсессионсекуритифорнтлмсспбаседсерверс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворксекурити\_минимумсессионсекуритифорнтлмсспбаседсерверс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsonlyelevatesignedexecutables"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsOnlyElevateSignedExecutables 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_OnlyElevateExecutableFilesThatAreSignedAndValidated
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsonlyelevatesignedexecutables"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсонлелеватесигнедексекутаблес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_онлелеватиксекутаблефилессатаресигнедандвалидатед
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsrestrictanonymousaccesstonamedpipesandshares"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsRestrictAnonymousAccessToNamedPipesAndShares 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/NetworkAccess\_RestrictAnonymousAccessToNamedPipesAndShares
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsrestrictanonymousaccesstonamedpipesandshares"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсрестриктанонимаусакцесстонамедпипесандшарес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/нетворкакцесс\_рестриктанонимаусакцесстонамедпипесандшарес
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionssmartcardremovalbehavior"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsSmartCardRemovalBehavior 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/InteractiveLogon\_SmartCardRemovalBehavior
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionssmartcardremovalbehavior"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионссмарткардремовалбехавиор 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/интерактивелогон\_смарткардремовалбехавиор
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsstandarduserelevationpromptbehavior"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsStandardUserElevationPromptBehavior 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_BehaviorOfTheElevationPromptForStandardUsers
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsstandarduserelevationpromptbehavior"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсстандардусерелеватионпромптбехавиор 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_бехавиорофсилеватионпромптфорстандардусерс
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsswitchtosecuredesktopwhenpromptingforelevation"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsSwitchToSecureDesktopWhenPromptingForElevation 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_SwitchToTheSecureDesktopWhenPromptingForElevation
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsswitchtosecuredesktopwhenpromptingforelevation"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионссвитчтосекуредесктопвхенпромптингфорелеватион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_свитчтосесекуредесктопвхенпромптингфорелеватион
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsuseadminapprovalmode"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsUseAdminApprovalMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_UseAdminApprovalMode
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsuseadminapprovalmode"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsUseAdminApprovalMode 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_усеадминаппровалмоде
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsuseadminapprovalmodeforadministrators"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsUseAdminApprovalModeForAdministrators 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_RunAllAdministratorsInAdminApprovalMode
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsuseadminapprovalmodeforadministrators"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсусеадминаппровалмодефорадминистраторс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_руналладминистраторсинадминаппровалмоде
 
-#### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsvirtualizefileandregistrywritefailurestoperuserlocations"></a>Windows10EndpointProtectionConfiguration.LocalSecurityOptionsVirtualizeFileAndRegistryWriteFailuresToPerUserLocations 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/LocalPoliciesSecurityOptions/UserAccountControl\_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations
+### <a name="windows10endpointprotectionconfigurationlocalsecurityoptionsvirtualizefileandregistrywritefailurestoperuserlocations"></a>Windows10EndpointProtectionConfiguration. Локалсекуритйоптионсвиртуализефилеандрегистривритефаилурестоперусерлокатионс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/локалполиЦиессекуритйоптионс/усераккаунтконтрол\_виртуализефилеандрегистривритефаилурестоперусерлокатионс
 
-#### <a name="windows10endpointprotectionconfigurationnetworkicmpredirectsoverrideospfgeneratedroutes"></a>Windows10EndpointProtectionConfiguration.NetworkIcmpRedirectsOverrideOspfGeneratedRoutes 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes
+### <a name="windows10endpointprotectionconfigurationnetworkicmpredirectsoverrideospfgeneratedroutes"></a>Windows10EndpointProtectionConfiguration.NetworkIcmpRedirectsOverrideOspfGeneratedRoutes 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мсслегаци/алловикмпредиректстуверридеоспфженератедраутес
 
-#### <a name="windows10endpointprotectionconfigurationnetworkignorenetbiosnamereleaserequestsexceptfromwinsservers"></a>Windows10EndpointProtectionConfiguration.NetworkIgnoreNetBiosNameReleaseRequestsExceptFromWinsServers 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers
+### <a name="windows10endpointprotectionconfigurationnetworkignorenetbiosnamereleaserequestsexceptfromwinsservers"></a>Windows10EndpointProtectionConfiguration.NetworkIgnoreNetBiosNameReleaseRequestsExceptFromWinsServers 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мсслегаци/алловсекомпутертоигноренетбиоснамерелеасерекуестсексцептфромвинссерверс
 
-#### <a name="windows10endpointprotectionconfigurationnetworkipsourceroutingprotectionlevel"></a>Windows10EndpointProtectionConfiguration.NetworkIpSourceRoutingProtectionLevel 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSLegacy/IPSourceRoutingProtectionLevel
+### <a name="windows10endpointprotectionconfigurationnetworkipsourceroutingprotectionlevel"></a>Windows10EndpointProtectionConfiguration. Нетворкипсаурцераутингпротектионлевел 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мсслегаци/ипсаурцераутингпротектионлевел
 
-#### <a name="windows10endpointprotectionconfigurationnetworkipv6sourceroutingprotectionlevel"></a>Windows10EndpointProtectionConfiguration.NetworkIpV6SourceRoutingProtectionLevel 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSLegacy/IPv6SourceRoutingProtectionLevel
+### <a name="windows10endpointprotectionconfigurationnetworkipv6sourceroutingprotectionlevel"></a>Windows10EndpointProtectionConfiguration.NetworkIpV6SourceRoutingProtectionLevel 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/config/MSSLegacy/IPv6SourceRoutingProtectionLevel
 
-#### <a name="windows10endpointprotectionconfigurationpasswordpinlogon"></a>Windows10EndpointProtectionConfiguration.PasswordPinLogOn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/CredentialProviders/AllowPINLogon
+### <a name="windows10endpointprotectionconfigurationpasswordpinlogon"></a>Windows10EndpointProtectionConfiguration. Пассвордпинлогон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/кредентиалпровидерс/алловпинлогон
 
-#### <a name="windows10endpointprotectionconfigurationpowershellshellscriptblocklogging"></a>Windows10EndpointProtectionConfiguration.PowerShellShellScriptBlockLogging 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging
+### <a name="windows10endpointprotectionconfigurationpowershellshellscriptblocklogging"></a>Windows10EndpointProtectionConfiguration. Повершеллшеллскриптблокклоггинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсповершелл/турнонповершеллскриптблокклоггинг
 
-#### <a name="windows10endpointprotectionconfigurationremoteassistancesolicitedsetting"></a>Windows10EndpointProtectionConfiguration.RemoteAssistanceSolicitedSetting 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/HardenedUNCPaths
+### <a name="windows10endpointprotectionconfigurationremoteassistancesolicitedsetting"></a>Windows10EndpointProtectionConfiguration. РемотеассистанцесолиЦитедсеттинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/харденедункпасс
 
-#### <a name="windows10endpointprotectionconfigurationremotedesktopservicesclientconnectionencryptionlevel"></a>Windows10EndpointProtectionConfiguration.RemoteDesktopServicesClientConnectionEncryptionLevel 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteDesktopServices/ClientConnectionEncryptionLevel
+### <a name="windows10endpointprotectionconfigurationremotedesktopservicesclientconnectionencryptionlevel"></a>Windows10EndpointProtectionConfiguration. Ремотедесктопсервицесклиентконнектионенкриптионлевел 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотедесктопсервицес/клиентконнектионенкриптионлевел
 
-#### <a name="windows10endpointprotectionconfigurationremotedesktopservicesdriveredirection"></a>Windows10EndpointProtectionConfiguration.RemoteDesktopServicesDriveRedirection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteDesktopServices/DoNotAllowDriveRedirection
+### <a name="windows10endpointprotectionconfigurationremotedesktopservicesdriveredirection"></a>Windows10EndpointProtectionConfiguration. Ремотедесктопсервицесдривередиректион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотедесктопсервицес/доноталловдривередиректион
 
-#### <a name="windows10endpointprotectionconfigurationremotedesktopservicespasswordsaving"></a>Windows10EndpointProtectionConfiguration.RemoteDesktopServicesPasswordSaving 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteDesktopServices/DoNotAllowPasswordSaving
+### <a name="windows10endpointprotectionconfigurationremotedesktopservicespasswordsaving"></a>Windows10EndpointProtectionConfiguration. Ремотедесктопсервицеспассвордсавинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотедесктопсервицес/доноталловпассвордсавинг
 
-#### <a name="windows10endpointprotectionconfigurationremotedesktopservicespromptforpassworduponconnection"></a>Windows10EndpointProtectionConfiguration.RemoteDesktopServicesPromptForPasswordUponConnection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteDesktopServices/PromptForPasswordUponConnection
+### <a name="windows10endpointprotectionconfigurationremotedesktopservicespromptforpassworduponconnection"></a>Windows10EndpointProtectionConfiguration. Ремотедесктопсервицеспромптфорпассвордупонконнектион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотедесктопсервицес/промптфорпассвордупонконнектион
 
-#### <a name="windows10endpointprotectionconfigurationremotedesktopservicessecurerpccommunication"></a>Windows10EndpointProtectionConfiguration.RemoteDesktopServicesSecureRpcCommunication 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteDesktopServices/RequireSecureRPCCommunication
+### <a name="windows10endpointprotectionconfigurationremotedesktopservicessecurerpccommunication"></a>Windows10EndpointProtectionConfiguration. Ремотедесктопсервицессекурерпккоммуникатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотедесктопсервицес/рекуиресекурерпккоммуникатион
 
-#### <a name="windows10endpointprotectionconfigurationremotehostdelegationofnonexportablecredentials"></a>Windows10EndpointProtectionConfiguration.RemoteHostDelegationOfNonExportableCredentials 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials
+### <a name="windows10endpointprotectionconfigurationremotehostdelegationofnonexportablecredentials"></a>Windows10EndpointProtectionConfiguration. Ремотехостделегатионофнонекспортаблекредентиалс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/кредентиалсделегатион/ремотехосталловсделегатионофнонекспортаблекредентиалс
 
-#### <a name="windows10endpointprotectionconfigurationremotemanagementclientbasicauthentication"></a>Windows10EndpointProtectionConfiguration.RemoteManagementClientBasicAuthentication 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteManagement/AllowBasicAuthentication\_клиента
+### <a name="windows10endpointprotectionconfigurationremotemanagementclientbasicauthentication"></a>Windows10EndpointProtectionConfiguration. Ремотеманажементклиентбасикаусентикатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**: клиент\_/конфиг/ремотеманажемент/алловбасикаусентикатион
 
-#### <a name="windows10endpointprotectionconfigurationremotemanagementclientdigestauthentication"></a>Windows10EndpointProtectionConfiguration.RemoteManagementClientDigestAuthentication 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteManagement/DisallowDigestAuthentication
+### <a name="windows10endpointprotectionconfigurationremotemanagementclientdigestauthentication"></a>Windows10EndpointProtectionConfiguration. Ремотеманажементклиентдижестаусентикатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотеманажемент/дисалловдижестаусентикатион
 
-#### <a name="windows10endpointprotectionconfigurationremotemanagementclientunencryptedtraffic"></a>Windows10EndpointProtectionConfiguration.RemoteManagementClientUnencryptedTraffic 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteManagement/AllowUnencryptedTraffic\_клиента
+### <a name="windows10endpointprotectionconfigurationremotemanagementclientunencryptedtraffic"></a>Windows10EndpointProtectionConfiguration. Ремотеманажементклиентуненкриптедтраффик 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**: клиент\_/конфиг/ремотеманажемент/алловуненкриптедтраффик
 
-#### <a name="windows10endpointprotectionconfigurationremotemanagementservicebasicauthentication"></a>Windows10EndpointProtectionConfiguration.RemoteManagementServiceBasicAuthentication 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteManagement/AllowBasicAuthentication\_службы
+### <a name="windows10endpointprotectionconfigurationremotemanagementservicebasicauthentication"></a>Windows10EndpointProtectionConfiguration. Ремотеманажементсервицебасикаусентикатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**: служба\_/конфиг/ремотеманажемент/алловбасикаусентикатион
 
-#### <a name="windows10endpointprotectionconfigurationremotemanagementservicestoringrunascredentials"></a>Windows10EndpointProtectionConfiguration.RemoteManagementServiceStoringRunAsCredentials 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteManagement/DisallowStoringOfRunAsCredentials
+### <a name="windows10endpointprotectionconfigurationremotemanagementservicestoringrunascredentials"></a>Windows10EndpointProtectionConfiguration. Ремотеманажементсервицесторингрунаскредентиалс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотеманажемент/дисалловсторингофрунаскредентиалс
 
-#### <a name="windows10endpointprotectionconfigurationremotemanagementserviceunencryptedtraffic"></a>Windows10EndpointProtectionConfiguration.RemoteManagementServiceUnencryptedTraffic 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteManagement/AllowUnencryptedTraffic\_службы
+### <a name="windows10endpointprotectionconfigurationremotemanagementserviceunencryptedtraffic"></a>Windows10EndpointProtectionConfiguration. Ремотеманажементсервицеуненкриптедтраффик 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**: служба\_/конфиг/ремотеманажемент/алловуненкриптедтраффик
 
-#### <a name="windows10endpointprotectionconfigurationrpcunauthenticatedclientoptions"></a>Windows10EndpointProtectionConfiguration.RpcUnauthenticatedClientOptions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients
+### <a name="windows10endpointprotectionconfigurationrpcunauthenticatedclientoptions"></a>Windows10EndpointProtectionConfiguration. Рпкунаусентикатедклиентоптионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотепроцедурекалл/рестриктунаусентикатедрпкклиентс
 
-#### <a name="windows10endpointprotectionconfigurationsecurityguideapplyuacrestrictionstolocalaccountsonnetworklogon"></a>Windows10EndpointProtectionConfiguration.SecurityGuideApplyUacRestrictionsToLocalAccountsOnNetworkLogon 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon
+### <a name="windows10endpointprotectionconfigurationsecurityguideapplyuacrestrictionstolocalaccountsonnetworklogon"></a>Windows10EndpointProtectionConfiguration. Секуритигуидеапплюакрестриктионстолокалаккаунтсоннетворклогон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мссекуритигуиде/апплюакрестриктионстолокалаккаунтсоннетворклогон
 
-#### <a name="windows10endpointprotectionconfigurationsecurityguidesmbv1clientdriverstartconfiguration"></a>Windows10EndpointProtectionConfiguration.SecurityGuideSmbV1ClientDriverStartConfiguration 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSecurityGuide/ConfigureSMBV1ClientDriver
+### <a name="windows10endpointprotectionconfigurationsecurityguidesmbv1clientdriverstartconfiguration"></a>Windows10EndpointProtectionConfiguration.SecurityGuideSmbV1ClientDriverStartConfiguration 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/config/MSSecurityGuide/ConfigureSMBV1ClientDriver
 
-#### <a name="windows10endpointprotectionconfigurationsecurityguidesmbv1server"></a>Windows10EndpointProtectionConfiguration.SecurityGuideSmbV1Server 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSecurityGuide/ConfigureSMBV1Server
+### <a name="windows10endpointprotectionconfigurationsecurityguidesmbv1server"></a>Windows10EndpointProtectionConfiguration.SecurityGuideSmbV1Server 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/config/MSSecurityGuide/ConfigureSMBV1Server
 
-#### <a name="windows10endpointprotectionconfigurationsecurityguidestructuredexceptionhandlingoverwriteprotection"></a>Windows10EndpointProtectionConfiguration.SecurityGuideStructuredExceptionHandlingOverwriteProtection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection
+### <a name="windows10endpointprotectionconfigurationsecurityguidestructuredexceptionhandlingoverwriteprotection"></a>Windows10EndpointProtectionConfiguration. Секуритигуидеструктуредексцептионхандлинговервритепротектион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мссекуритигуиде/енаблеструктуредексцептионхандлинговервритепротектион
 
-#### <a name="windows10endpointprotectionconfigurationsecurityguidewdigestauthentication"></a>Windows10EndpointProtectionConfiguration.SecurityGuideWDigestAuthentication 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/MSSecurityGuide/WDigestAuthentication
+### <a name="windows10endpointprotectionconfigurationsecurityguidewdigestauthentication"></a>Windows10EndpointProtectionConfiguration. Секуритигуидевдижестаусентикатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мссекуритигуиде/вдижестаусентикатион
 
-#### <a name="windows10endpointprotectionconfigurationsmartscreenblockoverrideforfiles"></a>Windows10EndpointProtectionConfiguration.SmartScreenBlockOverrideForFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/DeviceGuard/RequirePlatformSecurityFeatures
+### <a name="windows10endpointprotectionconfigurationsmartscreenblockoverrideforfiles"></a>Windows10EndpointProtectionConfiguration. Смартскринблокковерридефорфилес 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/девицегуард/рекуиреплатформсекуритифеатурес
 
-#### <a name="windows10endpointprotectionconfigurationsmartscreenenableinshell"></a>Windows10EndpointProtectionConfiguration.SmartScreenEnableInShell 
-**CSP**: ./Device/Vendor/MSFT/Policy **Offset URI**: /Config/SmartScreen/EnableSmartScreenInShell
+### <a name="windows10endpointprotectionconfigurationsmartscreenenableinshell"></a>Windows10EndpointProtectionConfiguration. Смартскриненаблеиншелл 
+**Поставщик CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **смещения URI**:/конфиг/смартскрин/енаблесмартскрининшелл
 
-#### <a name="windows10endpointprotectionconfigurationsolicitedremoteassistance"></a>windows10endpointprotectionconfiguration.solicitedRemoteAssistance 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/RemoteAssistance/SolicitedRemoteAssistance
+### <a name="windows10endpointprotectionconfigurationsolicitedremoteassistance"></a>windows10endpointprotectionconfiguration. СолиЦитедремотеассистанце 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ремотеассистанце/солиЦитедремотеассистанце
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsaccesscredentialmanagerastrustedcaller"></a>Windows10EndpointProtectionConfiguration.UserRightsAccessCredentialManagerAsTrustedCaller 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/AccessCredentialManagerAsTrustedCaller
+### <a name="windows10endpointprotectionconfigurationuserrightsaccesscredentialmanagerastrustedcaller"></a>Windows10EndpointProtectionConfiguration. Усерригхтсакцесскредентиалманажераструстедкаллер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/акцесскредентиалманажераструстедкаллер
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsaccessfromnetwork"></a>windows10EndpointProtectionConfiguration.UserRightsAccessFromNetwork 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/AccessFromNetwork
+### <a name="windows10endpointprotectionconfigurationuserrightsaccessfromnetwork"></a>windows10EndpointProtectionConfiguration. Усерригхтсакцессфромнетворк 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/акцессфромнетворк
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsactaspartoftheoperatingsystem"></a>Windows10EndpointProtectionConfiguration.userRightsActAsPartOfTheOperatingSystem 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ActAsPartOfTheOperatingSystem
+### <a name="windows10endpointprotectionconfigurationuserrightsactaspartoftheoperatingsystem"></a>Windows10EndpointProtectionConfiguration. Усерригхтсактаспартофсеоператингсистем 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/актаспартофсеоператингсистем
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsallowaccessfromnetwork"></a>Windows10EndpointProtectionConfiguration.UserRightsAllowAccessFromNetwork 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/AccessFromNetwork
+### <a name="windows10endpointprotectionconfigurationuserrightsallowaccessfromnetwork"></a>Windows10EndpointProtectionConfiguration. Усерригхтсалловакцессфромнетворк 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/акцессфромнетворк
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsbackupdata"></a>Windows10EndpointProtectionConfiguration.UserRightsBackupData 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/BackupFilesAndDirectories
+### <a name="windows10endpointprotectionconfigurationuserrightsbackupdata"></a>Windows10EndpointProtectionConfiguration. Усерригхтсбаккупдата 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/баккупфилесанддиректориес
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsblockaccessfromnetwork"></a>Windows10EndpointProtectionConfiguration.UserRightsBlockAccessFromNetwork 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/DenyAccessFromNetwork
+### <a name="windows10endpointprotectionconfigurationuserrightsblockaccessfromnetwork"></a>Windows10EndpointProtectionConfiguration. Усерригхтсблоккакцессфромнетворк 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/денякцессфромнетворк
 
-#### <a name="windows10endpointprotectionconfigurationuserrightschangesystemtime"></a>Windows10EndpointProtectionConfiguration.UserRightsChangeSystemTime 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ChangeSystemTime
+### <a name="windows10endpointprotectionconfigurationuserrightschangesystemtime"></a>Windows10EndpointProtectionConfiguration. Усерригхтсчанжесистемтиме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/чанжесистемтиме
 
-#### <a name="windows10endpointprotectionconfigurationuserrightscreateglobalobjects"></a>Windows10EndpointProtectionConfiguration.UserRightsCreateGlobalObjects 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/CreateGlobalObjects
+### <a name="windows10endpointprotectionconfigurationuserrightscreateglobalobjects"></a>Windows10EndpointProtectionConfiguration. Усерригхтскреатеглобалобжектс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/креатеглобалобжектс
 
-#### <a name="windows10endpointprotectionconfigurationuserrightscreatepagefile"></a>Windows10EndpointProtectionConfiguration.UserRightsCreatePageFile 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/CreatePageFile
+### <a name="windows10endpointprotectionconfigurationuserrightscreatepagefile"></a>Windows10EndpointProtectionConfiguration. Усерригхтскреатепажефиле 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/креатепажефиле
 
-#### <a name="windows10endpointprotectionconfigurationuserrightscreatepermanentsharedobjects"></a>Windows10EndpointProtectionConfiguration.UserRightsCreatePermanentSharedObjects 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/CreatePermanentSharedObjects
+### <a name="windows10endpointprotectionconfigurationuserrightscreatepermanentsharedobjects"></a>Windows10EndpointProtectionConfiguration. Усерригхтскреатеперманентшаредобжектс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/креатеперманентшаредобжектс
 
-#### <a name="windows10endpointprotectionconfigurationuserrightscreatesymboliclinks"></a>Windows10EndpointProtectionConfiguration.UserRightsCreateSymbolicLinks 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/CreateSymbolicLinks
+### <a name="windows10endpointprotectionconfigurationuserrightscreatesymboliclinks"></a>Windows10EndpointProtectionConfiguration. Усерригхтскреатесимболиклинкс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/креатесимболиклинкс
 
-#### <a name="windows10endpointprotectionconfigurationuserrightscreatetoken"></a>Windows10EndpointProtectionConfiguration.UserRightsCreateToken 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/CreateToken
+### <a name="windows10endpointprotectionconfigurationuserrightscreatetoken"></a>Windows10EndpointProtectionConfiguration. Усерригхтскреатетокен 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/креатетокен
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsdebugprograms"></a>Windows10EndpointProtectionConfiguration.UserRightsDebugPrograms 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/DebugPrograms
+### <a name="windows10endpointprotectionconfigurationuserrightsdebugprograms"></a>Windows10EndpointProtectionConfiguration. Усерригхтсдебугпрограмс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/дебугпрограмс
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsdelegation"></a>Windows10EndpointProtectionConfiguration.UserRightsDelegation 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/EnableDelegation
+### <a name="windows10endpointprotectionconfigurationuserrightsdelegation"></a>Windows10EndpointProtectionConfiguration. Усерригхтсделегатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/енабледелегатион
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsdenyaccessfromnetwork"></a>windows10EndpointProtectionConfiguration.UserRightsDenyAccessFromNetwork 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/DenyAccessFromNetwork
+### <a name="windows10endpointprotectionconfigurationuserrightsdenyaccessfromnetwork"></a>windows10EndpointProtectionConfiguration. Усерригхтсденякцессфромнетворк 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/денякцессфромнетворк
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsgeneratesecurityaudits"></a>Windows10EndpointProtectionConfiguration.UserRightsGenerateSecurityAudits 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/GenerateSecurityAudits
+### <a name="windows10endpointprotectionconfigurationuserrightsgeneratesecurityaudits"></a>Windows10EndpointProtectionConfiguration. Усерригхтсженератесекуритяудитс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/женератесекуритяудитс
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsimpersonateclient"></a>Windows10EndpointProtectionConfiguration.UserRightsImpersonateClient 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ImpersonateClient
+### <a name="windows10endpointprotectionconfigurationuserrightsimpersonateclient"></a>Windows10EndpointProtectionConfiguration. Усерригхтсимперсонатеклиент 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/имперсонатеклиент
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsincreaseschedulingpriority"></a>Windows10EndpointProtectionConfiguration.UserRightsIncreaseSchedulingPriority 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/IncreaseSchedulingPriority
+### <a name="windows10endpointprotectionconfigurationuserrightsincreaseschedulingpriority"></a>Windows10EndpointProtectionConfiguration. Усерригхтсинкреасесчедулингприорити 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/инкреасесчедулингприорити
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsloadunloaddrivers"></a>Windows10EndpointProtectionConfiguration.UserRightsLoadUnloadDrivers 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/LoadUnloadDeviceDrivers
+### <a name="windows10endpointprotectionconfigurationuserrightsloadunloaddrivers"></a>Windows10EndpointProtectionConfiguration. Усерригхтслоадунлоаддриверс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/лоадунлоаддевицедриверс
 
-#### <a name="windows10endpointprotectionconfigurationuserrightslocallogon"></a>Windows10EndpointProtectionConfiguration.UserRightsLocalLogOn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/AllowLocalLogOn
+### <a name="windows10endpointprotectionconfigurationuserrightslocallogon"></a>Windows10EndpointProtectionConfiguration. Усерригхтслокаллогон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/алловлокаллогон
 
-#### <a name="windows10endpointprotectionconfigurationuserrightslockmemory"></a>Windows10EndpointProtectionConfiguration.UserRightsLockMemory 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/LockMemory
+### <a name="windows10endpointprotectionconfigurationuserrightslockmemory"></a>Windows10EndpointProtectionConfiguration. Усерригхтслоккмемори 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/локкмемори
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsmanageauditingandsecuritylogs"></a>Windows10EndpointProtectionConfiguration.UserRightsManageAuditingAndSecurityLogs 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ManageAuditingAndSecurityLog
+### <a name="windows10endpointprotectionconfigurationuserrightsmanageauditingandsecuritylogs"></a>Windows10EndpointProtectionConfiguration. Усерригхтсманажеаудитингандсекуритилогс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/манажеаудитингандсекуритилог
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsmanagevolumes"></a>Windows10EndpointProtectionConfiguration.UserRightsManageVolumes 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ManageVolume
+### <a name="windows10endpointprotectionconfigurationuserrightsmanagevolumes"></a>Windows10EndpointProtectionConfiguration. Усерригхтсманажеволумес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/манажеволуме
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsmodifyfirmwareenvironment"></a>Windows10EndpointProtectionConfiguration.UserRightsModifyFirmwareEnvironment 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ModifyFirmwareEnvironment
+### <a name="windows10endpointprotectionconfigurationuserrightsmodifyfirmwareenvironment"></a>Windows10EndpointProtectionConfiguration. Усерригхтсмодифифирмваринвиронмент 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/модифифирмваринвиронмент
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsmodifyobjectlabels"></a>Windows10EndpointProtectionConfiguration.UserRightsModifyObjectLabels 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ModifyObjectLabel
+### <a name="windows10endpointprotectionconfigurationuserrightsmodifyobjectlabels"></a>Windows10EndpointProtectionConfiguration. Усерригхтсмодифйобжектлабелс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/модифйобжектлабел
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsprofilesingleprocess"></a>Windows10EndpointProtectionConfiguration.UserRightsProfileSingleProcess 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/ProfileSingleProcess
+### <a name="windows10endpointprotectionconfigurationuserrightsprofilesingleprocess"></a>Windows10EndpointProtectionConfiguration. Усерригхтспрофилесинглепроцесс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/профилесинглепроцесс
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsregisterprocessasservice"></a>Windows10EndpointProtectionConfiguration.UserRightsRegisterProcessAsService 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/DenyLocalLogOn
+### <a name="windows10endpointprotectionconfigurationuserrightsregisterprocessasservice"></a>Windows10EndpointProtectionConfiguration. Усерригхтсрегистерпроцессассервице 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/денилокаллогон
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsremotedesktopserviceslogon"></a>Windows10EndpointProtectionConfiguration.UserRightsRemoteDesktopServicesLogOn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/DenyRemoteDesktopServicesLogOn
+### <a name="windows10endpointprotectionconfigurationuserrightsremotedesktopserviceslogon"></a>Windows10EndpointProtectionConfiguration. Усерригхтсремотедесктопсервицеслогон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/дениремотедесктопсервицеслогон
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsremoteshutdown"></a>Windows10EndpointProtectionConfiguration.UserRightsRemoteShutdown 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/RemoteShutdown
+### <a name="windows10endpointprotectionconfigurationuserrightsremoteshutdown"></a>Windows10EndpointProtectionConfiguration. Усерригхтсремотешутдовн 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/ремотешутдовн
 
-#### <a name="windows10endpointprotectionconfigurationuserrightsrestoredata"></a>Windows10EndpointProtectionConfiguration.UserRightsRestoreData 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/RestoreFilesAndDirectories
+### <a name="windows10endpointprotectionconfigurationuserrightsrestoredata"></a>Windows10EndpointProtectionConfiguration. Усерригхтсресторедата 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/ресторефилесанддиректориес
 
-#### <a name="windows10endpointprotectionconfigurationuserrightstakeownership"></a>Windows10EndpointProtectionConfiguration.UserRightsTakeOwnership 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/UserRights/TakeOwnership
+### <a name="windows10endpointprotectionconfigurationuserrightstakeownership"></a>Windows10EndpointProtectionConfiguration. Усерригхтстакеовнершип 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/усерригхтс/такеовнершип
 
-#### <a name="windows10endpointprotectionconfigurationwindowsconnectionmanagerconnectiontonondomainnetworks"></a>Windows10EndpointProtectionConfiguration.WindowsConnectionManagerConnectionToNonDomainNetworks 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork
+### <a name="windows10endpointprotectionconfigurationwindowsconnectionmanagerconnectiontonondomainnetworks"></a>Windows10EndpointProtectionConfiguration. Виндовсконнектионманажерконнектионтонондомаиннетворкс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсконнектионманажер/прохитконнектионтонондомаиннетворксвхенконнектедтодомаинаусентикатеднетворк
 
-#### <a name="windows10endpointprotectionconfigurationwindowslogonsigninlastinteractiveuseraftersysteminitiatedrestart"></a>Windows10EndpointProtectionConfiguration.WindowsLogOnSignInLastInteractiveUserAfterSystemInitiatedRestart 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsLogon/SignInLastInteractiveUserAutomaticallyAfterASystemInitiatedRestart
+### <a name="windows10endpointprotectionconfigurationwindowslogonsigninlastinteractiveuseraftersysteminitiatedrestart"></a>Windows10EndpointProtectionConfiguration. Виндовслогонсигнинластинтерактивеусерафтерсистеминитиатедрестарт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовслогон/сигнинластинтерактивеусераутоматикалляфтерасистеминитиатедрестарт
 
-#### <a name="windows10endpointprotectionconfigurationxboxservicesaccessorymanagementservicestartupmode"></a>Windows10EndpointProtectionConfiguration.XboxServicesAccessoryManagementServiceStartupMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/SystemServices/ConfigureXboxAccessoryManagementServiceStartupMode
+### <a name="windows10endpointprotectionconfigurationxboxservicesaccessorymanagementservicestartupmode"></a>Windows10EndpointProtectionConfiguration. Ксбокссервицесакцессориманажементсервицестартупмоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/системсервицес/конфигурексбоксакцессориманажементсервицестартупмоде
 
-#### <a name="windows10endpointprotectionconfigurationxboxservicesenablexboxgamesavetask"></a>Windows10EndpointProtectionConfiguration.XboxServicesEnableXboxGameSaveTask 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/TaskScheduler/EnableXboxGameSaveTask
+### <a name="windows10endpointprotectionconfigurationxboxservicesenablexboxgamesavetask"></a>Windows10EndpointProtectionConfiguration. Ксбокссервицесенаблексбоксгамесаветаск 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/тасксчедулер/енаблексбоксгамесаветаск
 
-#### <a name="windows10endpointprotectionconfigurationxboxservicesliveauthmanagerservicestartupmode"></a>Windows10EndpointProtectionConfiguration.XboxServicesLiveAuthManagerServiceStartupMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/SystemServices/ConfigureXboxLiveAuthManagerServiceStartupMode
+### <a name="windows10endpointprotectionconfigurationxboxservicesliveauthmanagerservicestartupmode"></a>Windows10EndpointProtectionConfiguration. Ксбокссервицесливеаусманажерсервицестартупмоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/системсервицес/конфигурексбоксливеаусманажерсервицестартупмоде
 
-#### <a name="windows10endpointprotectionconfigurationxboxserviceslivegamesaveservicestartupmode"></a>Windows10EndpointProtectionConfiguration.XboxServicesLiveGameSaveServiceStartupMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/SystemServices/XboxServicesLiveGameSaveServiceStartupMode
+### <a name="windows10endpointprotectionconfigurationxboxserviceslivegamesaveservicestartupmode"></a>Windows10EndpointProtectionConfiguration. Ксбокссервицесливегамесавесервицестартупмоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/системсервицес/ксбокссервицесливегамесавесервицестартупмоде
 
-#### <a name="windows10endpointprotectionconfigurationxboxserviceslivenetworkingservicestartupmode"></a>Windows10EndpointProtectionConfiguration.XboxServicesLiveNetworkingServiceStartupMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/SystemServices/ConfigureXboxLiveNetworkingServiceStartupMode
+### <a name="windows10endpointprotectionconfigurationxboxserviceslivenetworkingservicestartupmode"></a>Windows10EndpointProtectionConfiguration. Ксбокссервицесливенетворкингсервицестартупмоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/системсервицес/конфигурексбоксливенетворкингсервицестартупмоде
 
-#### <a name="windows10enterprisemodernappmanagementconfigurationuninstallbuiltinapps"></a>Windows10EnterpriseModernAppManagementConfiguration.UninstallBuiltInApps
-**CSP**: Только для вызова API Graph н/д **смещение URI**: Только для вызова API Graph н/д
+### <a name="windows10enterprisemodernappmanagementconfigurationuninstallbuiltinapps"></a>Windows10EnterpriseModernAppManagementConfiguration. Унинсталлбуилтинаппс
+**CSP**: Н/д API Graph **URI смещения**только для вызова: Н/д API Graph только вызов
 
-#### <a name="windows10generalconfigurationaccountsblockaddingnonmicrosoftaccountemail"></a>Windows10GeneralConfiguration.AccountsBlockAddingNonMicrosoftAccountEmail 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Accounts/AllowAddingNonMicrosoftAccountsManually
+### <a name="windows10generalconfigurationaccountsblockaddingnonmicrosoftaccountemail"></a>Windows10GeneralConfiguration. Аккаунтсблоккаддингнонмикрософтаккаунтемаил 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аккаунтс/алловаддингнонмикрософтаккаунтсмануалли
 
-#### <a name="windows10generalconfigurationantitheftmodeblocked"></a>Windows10GeneralConfiguration.AntiTheftModeBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Security/AntiTheftMode
+### <a name="windows10generalconfigurationantitheftmodeblocked"></a>Windows10GeneralConfiguration. Антисефтмодеблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/секурити/антисефтмоде
 
-#### <a name="windows10generalconfigurationappmanagementmsiallowusercontroloverinstall"></a>Windows10GeneralConfiguration.AppManagementMSIAllowUserControlOverInstall 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/MSIAllowUserControlOverInstall
+### <a name="windows10generalconfigurationappmanagementmsiallowusercontroloverinstall"></a>Windows10GeneralConfiguration. Аппманажементмсиалловусерконтроловеринсталл 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/мсиалловусерконтроловеринсталл
 
-#### <a name="windows10generalconfigurationappmanagementmsialwaysinstallwithelevatedprivileges"></a>Windows10GeneralConfiguration.AppManagementMSIAlwaysInstallWithElevatedPrivileges 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges
+### <a name="windows10generalconfigurationappmanagementmsialwaysinstallwithelevatedprivileges"></a>Windows10GeneralConfiguration. Аппманажементмсиалвайсинсталлвиселеватедпривилежес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/мсиалвайсинсталлвиселеватедпривилежес
 
-#### <a name="windows10generalconfigurationappsallowtrustedappssideloading"></a>Windows10GeneralConfiguration.AppsAllowTrustedAppsSideloading 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/AllowAllTrustedApps
+### <a name="windows10generalconfigurationappsallowtrustedappssideloading"></a>Windows10GeneralConfiguration. Аппсалловтрустедаппссиделоадинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/алловаллтрустедаппс
 
-#### <a name="windows10generalconfigurationappsblockwindowsstoreoriginatedapps"></a>Windows10GeneralConfiguration.AppsBlockWindowsStoreOriginatedApps 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/DisableStoreOriginatedApps
+### <a name="windows10generalconfigurationappsblockwindowsstoreoriginatedapps"></a>Windows10GeneralConfiguration.AppsBlockWindowsStoreOriginatedApps 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/дисаблестореоригинатедаппс
 
-#### <a name="windows10generalconfigurationappsmicrosoftaccountsoptional"></a>Windows10GeneralConfiguration.AppsMicrosoftAccountsOptional 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/AppRuntime/AllowMicrosoftAccountsToBeOptional
+### <a name="windows10generalconfigurationappsmicrosoftaccountsoptional"></a>Windows10GeneralConfiguration. Аппсмикрософтаккаунтсоптионал 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппрунтиме/алловмикрософтаккаунтстобеоптионал
 
-#### <a name="windows10generalconfigurationassignedaccessmultimodeprofiles"></a>Windows10GeneralConfiguration.AssignedAccessMultiModeProfiles 
-**CSP**: ./Device/Vendor/MSFT/AssignedAccess  
-**Смещение URI**: /Configuration
+### <a name="windows10generalconfigurationassignedaccessmultimodeprofiles"></a>Windows10GeneralConfiguration. Ассигнедакцессмултимодепрофилес 
+**CSP**:./девице/вендор/мсфт/ассигнедакцесс  
+**URI смещения**:/Настройка
 
-#### <a name="windows10generalconfigurationassignedaccesssinglemodeappusermodelid"></a>Windows10GeneralConfiguration.AssignedAccessSingleModeAppUserModelId 
-**CSP**: ./Device/Vendor/MSFT/AssignedAccess  
-**Смещение URI**: /Configuration
+### <a name="windows10generalconfigurationassignedaccesssinglemodeappusermodelid"></a>Windows10GeneralConfiguration. Ассигнедакцесссинглемодеаппусермоделид 
+**CSP**:./девице/вендор/мсфт/ассигнедакцесс  
+**URI смещения**:/Настройка
 
-#### <a name="windows10generalconfigurationassignedaccesssinglemodeusername"></a>Windows10GeneralConfiguration.AssignedAccessSingleModeUserName 
-**CSP**: ./Device/Vendor/MSFT/AssignedAccess  
-**Смещение URI**: /Configuration
+### <a name="windows10generalconfigurationassignedaccesssinglemodeusername"></a>Windows10GeneralConfiguration. Ассигнедакцесссинглемодеусернаме 
+**CSP**:./девице/вендор/мсфт/ассигнедакцесс  
+**URI смещения**:/Настройка
 
-#### <a name="windows10generalconfigurationauthenticationallowfidodevice"></a>Windows10GeneralConfiguration.AuthenticationAllowFIDODevice 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Authentication/AllowFidoDeviceSignon
+### <a name="windows10generalconfigurationauthenticationallowfidodevice"></a>Windows10GeneralConfiguration. Аусентикатионалловфидодевице 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аусентикатион/алловфидодевицесигнон
 
-#### <a name="windows10generalconfigurationauthenticationallowsecondarydevice"></a>Windows10GeneralConfiguration.AuthenticationAllowSecondaryDevice 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Authentication/AllowSecondaryAuthenticationDevice
+### <a name="windows10generalconfigurationauthenticationallowsecondarydevice"></a>Windows10GeneralConfiguration. Аусентикатионалловсекондаридевице 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аусентикатион/алловсекондаряусентикатиондевице
 
-#### <a name="windows10generalconfigurationauthenticationpreferredazureadtenantdomainname"></a>Windows10GeneralConfiguration.AuthenticationPreferredAzureADTenantDomainName 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Authentication/PreferredAadTenantDomainName
+### <a name="windows10generalconfigurationauthenticationpreferredazureadtenantdomainname"></a>Windows10GeneralConfiguration. Аусентикатионпреферредазуреадтенантдомаиннаме 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аусентикатион/преферредаадтенантдомаиннаме
 
-#### <a name="windows10generalconfigurationauthenticationwebsignin"></a>Windows10GeneralConfiguration.AuthenticationWebSignIn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Authentication/EnableWebSignIn
+### <a name="windows10generalconfigurationauthenticationwebsignin"></a>Windows10GeneralConfiguration. Аусентикатионвебсигнин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аусентикатион/енаблевебсигнин
 
-#### <a name="windows10generalconfigurationautoplaydefaultautorunbehavior"></a>Windows10GeneralConfiguration.AutoPlayDefaultAutoRunBehavior 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Autoplay/SetDefaultAutoRunBehavior
+### <a name="windows10generalconfigurationautoplaydefaultautorunbehavior"></a>Windows10GeneralConfiguration. Аутоплайдефаултауторунбехавиор 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аутоплай/сетдефаултауторунбехавиор
 
-#### <a name="windows10generalconfigurationautoplayfornonvolumedevices"></a>Windows10GeneralConfiguration.AutoPlayForNonVolumeDevices 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Autoplay/DisallowAutoplayForNonVolumeDevices
+### <a name="windows10generalconfigurationautoplayfornonvolumedevices"></a>Windows10GeneralConfiguration. Аутоплайфорнонволумедевицес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аутоплай/дисалловаутоплайфорнонволумедевицес
 
-#### <a name="windows10generalconfigurationautoplaymode"></a>Windows10GeneralConfiguration.AutoPlayMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Autoplay/TurnOffAutoPlay
+### <a name="windows10generalconfigurationautoplaymode"></a>Windows10GeneralConfiguration. Аутоплаймоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аутоплай/турноффаутоплай
 
-#### <a name="windows10generalconfigurationbluetoothallowedservices"></a>Windows10GeneralConfiguration.BluetoothAllowedServices 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Bluetooth/ServicesAllowedList
+### <a name="windows10generalconfigurationbluetoothallowedservices"></a>Windows10GeneralConfiguration. Блуетусалловедсервицес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/блуетус/сервицесалловедлист
 
-#### <a name="windows10generalconfigurationbluetoothblockadvertising"></a>Windows10GeneralConfiguration.BluetoothBlockAdvertising 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Bluetooth/AllowAdvertising
+### <a name="windows10generalconfigurationbluetoothblockadvertising"></a>Windows10GeneralConfiguration. Блуетусблоккадвертисинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/блуетус/алловадвертисинг
 
-#### <a name="windows10generalconfigurationbluetoothblockdiscoverablemode"></a>Windows10GeneralConfiguration.BluetoothBlockDiscoverableMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Bluetooth/AllowDiscoverableMode
+### <a name="windows10generalconfigurationbluetoothblockdiscoverablemode"></a>Windows10GeneralConfiguration.BluetoothBlockDiscoverableMode 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/блуетус/алловдисковераблемоде
 
-#### <a name="windows10generalconfigurationbluetoothblocked"></a>Windows10GeneralConfiguration.BluetoothBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowBluetooth
+### <a name="windows10generalconfigurationbluetoothblocked"></a>Windows10GeneralConfiguration. Блуетусблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловблуетус
 
-#### <a name="windows10generalconfigurationbluetoothblockprepairing"></a>Windows10GeneralConfiguration.BluetoothBlockPrePairing 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Bluetooth/AllowPrepairing
+### <a name="windows10generalconfigurationbluetoothblockprepairing"></a>Windows10GeneralConfiguration. Блуетусблоккпрепаиринг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/блуетус/алловпрепаиринг
 
-#### <a name="windows10generalconfigurationbluetoothblockpromptedproximalconnections"></a>Windows10GeneralConfiguration.BluetoothBlockPromptedProximalConnections 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Bluetooth/AllowPromptedProximalConnections
+### <a name="windows10generalconfigurationbluetoothblockpromptedproximalconnections"></a>Windows10GeneralConfiguration. Блуетусблоккпромптедпроксималконнектионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/блуетус/алловпромптедпроксималконнектионс
 
-#### <a name="windows10generalconfigurationbluetoothdevicename"></a>Windows10GeneralConfiguration.BluetoothDeviceName 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Bluetooth/LocalDeviceName
+### <a name="windows10generalconfigurationbluetoothdevicename"></a>Windows10GeneralConfiguration.BluetoothDeviceName 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/блуетус/локалдевиценаме
 
-#### <a name="windows10generalconfigurationbootstartdriverinitialization"></a>windows10generalconfiguration.bootStartDriverInitialization 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/BootStartDriverInitialization
+### <a name="windows10generalconfigurationbootstartdriverinitialization"></a>windows10generalconfiguration. Бутстартдриверинитиализатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/бутстартдриверинитиализатион
 
-#### <a name="windows10generalconfigurationcamerablocked"></a>Windows10GeneralConfiguration.CameraBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Camera/AllowCamera
+### <a name="windows10generalconfigurationcamerablocked"></a>Windows10GeneralConfiguration. Камераблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Камера/алловкамера
 
-#### <a name="windows10generalconfigurationcellularblockdatawhenroaming"></a>Windows10GeneralConfiguration.CellularBlockDataWhenRoaming 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowCellularDataRoaming
+### <a name="windows10generalconfigurationcellularblockdatawhenroaming"></a>Windows10GeneralConfiguration. Целлуларблоккдатавхенроаминг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловцеллулардатароаминг
 
-#### <a name="windows10generalconfigurationcellularblockvpn"></a>Windows10GeneralConfiguration.CellularBlockVpn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowVPNOverCellular
+### <a name="windows10generalconfigurationcellularblockvpn"></a>Windows10GeneralConfiguration. Целлуларблокквпн 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловвпноверцеллулар
 
-#### <a name="windows10generalconfigurationcellularblockvpnwhenroaming"></a>Windows10GeneralConfiguration.CellularBlockVpnWhenRoaming 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowVPNRoamingOverCellular
+### <a name="windows10generalconfigurationcellularblockvpnwhenroaming"></a>Windows10GeneralConfiguration. Целлуларблокквпнвхенроаминг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловвпнроаминговерцеллулар
 
-#### <a name="windows10generalconfigurationcellulardata"></a>Windows10GeneralConfiguration.CellularData 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowCellularData
+### <a name="windows10generalconfigurationcellulardata"></a>Windows10GeneralConfiguration. Целлулардата 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловцеллулардата
 
-#### <a name="windows10generalconfigurationcertificatesblockmanualrootcertificateinstallation"></a>Windows10GeneralConfiguration.CertificatesBlockManualRootCertificateInstallation 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Security/AllowManualRootCertificateInstallation
+### <a name="windows10generalconfigurationcertificatesblockmanualrootcertificateinstallation"></a>Windows10GeneralConfiguration. Цертификатесблоккмануалрутцертификатеинсталлатион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/секурити/алловмануалрутцертификатеинсталлатион
 
-#### <a name="windows10generalconfigurationconnecteddevicesserviceblocked"></a>Windows10GeneralConfiguration.ConnectedDevicesServiceBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowConnectedDevices
+### <a name="windows10generalconfigurationconnecteddevicesserviceblocked"></a>Windows10GeneralConfiguration. Коннектеддевицессервицеблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловконнектеддевицес
 
-#### <a name="windows10generalconfigurationcopypasteblocked"></a>Windows10GeneralConfiguration.CopyPasteBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowCopyPaste
+### <a name="windows10generalconfigurationcopypasteblocked"></a>Windows10GeneralConfiguration. Копипастеблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловкопипасте
 
-#### <a name="windows10generalconfigurationcortanablocked"></a>Windows10GeneralConfiguration.CortanaBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/AboveLock/AllowCortanaAboveLock
+### <a name="windows10generalconfigurationcortanablocked"></a>Windows10GeneralConfiguration. Кортанаблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/абовелокк/алловкортанаабовелокк
 
-#### <a name="windows10generalconfigurationcryptographyallowfipsalgorithmpolicy"></a>Windows10GeneralConfiguration.CryptographyAllowFipsAlgorithmPolicy 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Cryptography/AllowFipsAlgorithmPolicy
+### <a name="windows10generalconfigurationcryptographyallowfipsalgorithmpolicy"></a>Windows10GeneralConfiguration.CryptographyAllowFipsAlgorithmPolicy 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/криптографи/алловфипсалгорисмполици
 
-#### <a name="windows10generalconfigurationdataprotectionblockdirectmemoryaccess"></a>Windows10GeneralConfiguration.DataProtectionBlockDirectMemoryAccess 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DataProtection/AllowDirectMemoryAccess
+### <a name="windows10generalconfigurationdataprotectionblockdirectmemoryaccess"></a>Windows10GeneralConfiguration. Датапротектионблоккдиректмеморякцесс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/датапротектион/алловдиректмеморякцесс
 
-#### <a name="windows10generalconfigurationdefenderblockenduseraccess"></a>Windows10GeneralConfiguration.DefenderBlockEndUserAccess 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowUserUIAccess
+### <a name="windows10generalconfigurationdefenderblockenduseraccess"></a>Windows10GeneralConfiguration. Дефендерблоккендусеракцесс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловусеруиакцесс
 
-#### <a name="windows10generalconfigurationdefenderblockonaccessprotection"></a>Windows10GeneralConfiguration.DefenderBlockOnAccessProtection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowOnAccessProtection
+### <a name="windows10generalconfigurationdefenderblockonaccessprotection"></a>Windows10GeneralConfiguration. Дефендерблокконакцесспротектион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловонакцесспротектион
 
-#### <a name="windows10generalconfigurationdefendercloudblocklevel"></a>Windows10GeneralConfiguration.DefenderCloudBlockLevel 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/CloudBlockLevel
+### <a name="windows10generalconfigurationdefendercloudblocklevel"></a>Windows10GeneralConfiguration. Дефендерклаудблокклевел 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/клаудблокклевел
 
-#### <a name="windows10generalconfigurationdefendercloudextendedtimeout"></a>Windows10GeneralConfiguration.DefenderCloudExtendedTimeout 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/CloudExtendedTimeout
+### <a name="windows10generalconfigurationdefendercloudextendedtimeout"></a>Windows10GeneralConfiguration. Дефендерклаудекстендедтимеаут 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/клаудекстендедтимеаут
 
-#### <a name="windows10generalconfigurationdefendercloudextendedtimeoutinseconds"></a>Windows10GeneralConfiguration.DefenderCloudExtendedTimeoutInSeconds 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/CloudExtendedTimeout
+### <a name="windows10generalconfigurationdefendercloudextendedtimeoutinseconds"></a>Windows10GeneralConfiguration. Дефендерклаудекстендедтимеаутинсекондс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/клаудекстендедтимеаут
 
-#### <a name="windows10generalconfigurationdefenderdaysbeforedeletingquarantinedmalware"></a>Windows10GeneralConfiguration.DefenderDaysBeforeDeletingQuarantinedMalware 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/DaysToRetainCleanedMalware
+### <a name="windows10generalconfigurationdefenderdaysbeforedeletingquarantinedmalware"></a>Windows10GeneralConfiguration. Дефендердайсбефоределетингкуарантинедмалваре 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/дайсторетаинклеанедмалваре
 
-#### <a name="windows10generalconfigurationdefenderdetectedmalwareactions"></a>Windows10GeneralConfiguration.DefenderDetectedMalwareActions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ThreatSeverityDefaultAction
+### <a name="windows10generalconfigurationdefenderdetectedmalwareactions"></a>Windows10GeneralConfiguration. Дефендердетектедмалвареактионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/среатсеверитидефаултактион
 
-#### <a name="windows10generalconfigurationdefenderfileextensionstoexclude"></a>Windows10GeneralConfiguration.DefenderFileExtensionsToExclude 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ExcludedExtensions
+### <a name="windows10generalconfigurationdefenderfileextensionstoexclude"></a>Windows10GeneralConfiguration. Дефендерфиликстенсионстоексклуде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/ексклудедекстенсионс
 
-#### <a name="windows10generalconfigurationdefenderfilesandfolderstoexclude"></a>Windows10GeneralConfiguration.DefenderFilesAndFoldersToExclude 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ExcludedPaths
+### <a name="windows10generalconfigurationdefenderfilesandfolderstoexclude"></a>Windows10GeneralConfiguration. Дефендерфилесандфолдерстоексклуде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/ексклудедпасс
 
-#### <a name="windows10generalconfigurationdefendermonitorfileactivity"></a>Windows10GeneralConfiguration.DefenderMonitorFileActivity 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowRealtimeMonitoring
+### <a name="windows10generalconfigurationdefendermonitorfileactivity"></a>Windows10GeneralConfiguration. Дефендермониторфилеактивити 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловреалтимемониторинг
 
-#### <a name="windows10generalconfigurationdefenderpotentiallyunwantedappaction"></a>Windows10GeneralConfiguration.DefenderPotentiallyUnwantedAppAction 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/PUAProtection
+### <a name="windows10generalconfigurationdefenderpotentiallyunwantedappaction"></a>Windows10GeneralConfiguration. Дефендерпотентиаллюнвантедаппактион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/пуапротектион
 
-#### <a name="windows10generalconfigurationdefenderpotentiallyunwantedappactionsetting"></a>Windows10GeneralConfiguration.DefenderPotentiallyUnwantedAppActionSetting 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/PUAProtection
+### <a name="windows10generalconfigurationdefenderpotentiallyunwantedappactionsetting"></a>Windows10GeneralConfiguration. Дефендерпотентиаллюнвантедаппактионсеттинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/пуапротектион
 
-#### <a name="windows10generalconfigurationdefenderprocessestoexclude"></a>Windows10GeneralConfiguration.DefenderProcessesToExclude 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ExcludedProcesses
+### <a name="windows10generalconfigurationdefenderprocessestoexclude"></a>Windows10GeneralConfiguration. Дефендерпроцессестоексклуде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/ексклудедпроцессес
 
-#### <a name="windows10generalconfigurationdefenderpromptforsamplesubmission"></a>Windows10GeneralConfiguration.DefenderPromptForSampleSubmission 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/SubmitSamplesConsent
+### <a name="windows10generalconfigurationdefenderpromptforsamplesubmission"></a>Windows10GeneralConfiguration. Дефендерпромптфорсамплесубмиссион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/субмитсамплесконсент
 
-#### <a name="windows10generalconfigurationdefenderrequirebehaviormonitoring"></a>Windows10GeneralConfiguration.DefenderRequireBehaviorMonitoring 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowBehaviorMonitoring
+### <a name="windows10generalconfigurationdefenderrequirebehaviormonitoring"></a>Windows10GeneralConfiguration. Дефендеррекуиребехавиормониторинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловбехавиормониторинг
 
-#### <a name="windows10generalconfigurationdefenderrequirecloudprotection"></a>Windows10GeneralConfiguration.DefenderRequireCloudProtection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowCloudProtection
+### <a name="windows10generalconfigurationdefenderrequirecloudprotection"></a>Windows10GeneralConfiguration. Дефендеррекуиреклаудпротектион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловклаудпротектион
 
-#### <a name="windows10generalconfigurationdefenderrequirenetworkinspectionsystem"></a>Windows10GeneralConfiguration.DefenderRequireNetworkInspectionSystem 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowIntrusionPreventionSystem
+### <a name="windows10generalconfigurationdefenderrequirenetworkinspectionsystem"></a>Windows10GeneralConfiguration. Дефендеррекуиренетворкинспектионсистем 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловинтрусионпревентионсистем
 
-#### <a name="windows10generalconfigurationdefenderrequirerealtimemonitoring"></a>Windows10GeneralConfiguration.DefenderRequireRealTimeMonitoring 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowRealtimeMonitoring
+### <a name="windows10generalconfigurationdefenderrequirerealtimemonitoring"></a>Windows10GeneralConfiguration. Дефендеррекуиререалтимемониторинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловреалтимемониторинг
 
-#### <a name="windows10generalconfigurationdefenderscanarchivefiles"></a>Windows10GeneralConfiguration.DefenderScanArchiveFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowArchiveScanning
+### <a name="windows10generalconfigurationdefenderscanarchivefiles"></a>Windows10GeneralConfiguration. Дефендерсканарчивефилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловарчивесканнинг
 
-#### <a name="windows10generalconfigurationdefenderscandownloads"></a>Windows10GeneralConfiguration.DefenderScanDownloads 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowIOAVProtection
+### <a name="windows10generalconfigurationdefenderscandownloads"></a>Windows10GeneralConfiguration. Дефендерскандовнлоадс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловиоавпротектион
 
-#### <a name="windows10generalconfigurationdefenderscanincomingmail"></a>Windows10GeneralConfiguration.DefenderScanIncomingMail 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowScanningNetworkFiles
+### <a name="windows10generalconfigurationdefenderscanincomingmail"></a>Windows10GeneralConfiguration. Дефендерсканинкомингмаил 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловсканнингнетворкфилес
 
-#### <a name="windows10generalconfigurationdefenderscanmappednetworkdrivesduringfullscan"></a>Windows10GeneralConfiguration.DefenderScanMappedNetworkDrivesDuringFullScan 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowFullScanOnMappedNetworkDrives
+### <a name="windows10generalconfigurationdefenderscanmappednetworkdrivesduringfullscan"></a>Windows10GeneralConfiguration. Дефендерсканмаппеднетворкдривесдурингфуллскан 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловфуллсканонмаппеднетворкдривес
 
-#### <a name="windows10generalconfigurationdefenderscanmaxcpu"></a>Windows10GeneralConfiguration.DefenderScanMaxCpu 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AvgCPULoadFactor
+### <a name="windows10generalconfigurationdefenderscanmaxcpu"></a>Windows10GeneralConfiguration. Дефендерсканмакскпу 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/авгкпулоадфактор
 
-#### <a name="windows10generalconfigurationdefenderscannetworkfiles"></a>Windows10GeneralConfiguration.DefenderScanNetworkFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowScanningNetworkFiles
+### <a name="windows10generalconfigurationdefenderscannetworkfiles"></a>Windows10GeneralConfiguration. Дефендерсканнетворкфилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловсканнингнетворкфилес
 
-#### <a name="windows10generalconfigurationdefenderscanremovabledrivesduringfullscan"></a>Windows10GeneralConfiguration.DefenderScanRemovableDrivesDuringFullScan 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowFullScanRemovableDriveScanning
+### <a name="windows10generalconfigurationdefenderscanremovabledrivesduringfullscan"></a>Windows10GeneralConfiguration. Дефендерсканремовабледривесдурингфуллскан 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловфуллсканремовабледривесканнинг
 
-#### <a name="windows10generalconfigurationdefenderscanscriptsloadedininternetexplorer"></a>Windows10GeneralConfiguration.DefenderScanScriptsLoadedInInternetExplorer 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/AllowScriptScanning
+### <a name="windows10generalconfigurationdefenderscanscriptsloadedininternetexplorer"></a>Windows10GeneralConfiguration. Дефендерсканскриптслоадедининтернетексплорер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/алловскриптсканнинг
 
-#### <a name="windows10generalconfigurationdefenderscantype"></a>Windows10GeneralConfiguration.DefenderScanType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ScanParameter
+### <a name="windows10generalconfigurationdefenderscantype"></a>Windows10GeneralConfiguration. Дефендерскантипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/сканпараметер
 
-#### <a name="windows10generalconfigurationdefenderscheduledquickscantime"></a>Windows10GeneralConfiguration.DefenderScheduledQuickScanTime 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ScheduleQuickScanTime
+### <a name="windows10generalconfigurationdefenderscheduledquickscantime"></a>Windows10GeneralConfiguration. Дефендерсчедуледкуиккскантиме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/счедулекуиккскантиме
 
-#### <a name="windows10generalconfigurationdefenderscheduledscantime"></a>Windows10GeneralConfiguration.DefenderScheduledScanTime 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ScheduleScanTime
+### <a name="windows10generalconfigurationdefenderscheduledscantime"></a>Windows10GeneralConfiguration. Дефендерсчедуледскантиме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/счедулескантиме
 
-#### <a name="windows10generalconfigurationdefenderschedulescanday"></a>Windows10GeneralConfiguration.DefenderScheduleScanDay 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ScheduleScanDay
+### <a name="windows10generalconfigurationdefenderschedulescanday"></a>Windows10GeneralConfiguration. Дефендерсчедулескандай 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/счедулескандай
 
-#### <a name="windows10generalconfigurationdefendersignatureupdateintervalinhours"></a>Windows10GeneralConfiguration.DefenderSignatureUpdateIntervalInHours 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/SignatureUpdateInterval
+### <a name="windows10generalconfigurationdefendersignatureupdateintervalinhours"></a>Windows10GeneralConfiguration. Дефендерсигнатуреупдатеинтервалинхаурс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/сигнатуреупдатеинтервал
 
-#### <a name="windows10generalconfigurationdefendersubmitsamplesconsenttype"></a>Windows10GeneralConfiguration.DefenderSubmitSamplesConsentType 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/SubmitSamplesConsent
+### <a name="windows10generalconfigurationdefendersubmitsamplesconsenttype"></a>Windows10GeneralConfiguration. Дефендерсубмитсамплесконсенттипе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/субмитсамплесконсент
 
-#### <a name="windows10generalconfigurationdefendersystemscanschedule"></a>Windows10GeneralConfiguration.DefenderSystemScanSchedule 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Defender/ScheduleScanDay
+### <a name="windows10generalconfigurationdefendersystemscanschedule"></a>Windows10GeneralConfiguration. Дефендерсистемскансчедуле 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Дефендер/счедулескандай
 
-#### <a name="windows10generalconfigurationdeveloperunlocksetting"></a>Windows10GeneralConfiguration.DeveloperUnlockSetting 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/AllowDeveloperUnlock
+### <a name="windows10generalconfigurationdeveloperunlocksetting"></a>Windows10GeneralConfiguration. Девелоперунлокксеттинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/алловдевелоперунлокк
 
-#### <a name="windows10generalconfigurationdevicemanagementblockfactoryresetonmobile"></a>Windows10GeneralConfiguration.DeviceManagementBlockFactoryResetOnMobile 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/AllowUserToResetPhone
+### <a name="windows10generalconfigurationdevicemanagementblockfactoryresetonmobile"></a>Windows10GeneralConfiguration. Девицеманажементблоккфакториресетонмобиле 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/алловусерторесетфоне
 
-#### <a name="windows10generalconfigurationdevicemanagementblockmanualunenroll"></a>Windows10GeneralConfiguration.DeviceManagementBlockManualUnenroll 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowManualMDMUnenrollment
+### <a name="windows10generalconfigurationdevicemanagementblockmanualunenroll"></a>Windows10GeneralConfiguration. Девицеманажементблоккмануалуненролл 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловмануалмдмуненроллмент
 
-#### <a name="windows10generalconfigurationdiagnosticsdatasubmissionmode"></a>Windows10GeneralConfiguration.DiagnosticsDataSubmissionMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/AllowTelemetry
+### <a name="windows10generalconfigurationdiagnosticsdatasubmissionmode"></a>Windows10GeneralConfiguration. Диагностиксдатасубмиссионмоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/алловтелеметри
 
-#### <a name="windows10generalconfigurationdisplayapplistwithgdidpiscalingturnedoff"></a>Windows10GeneralConfiguration.DisplayAppListWithGdiDPIScalingTurnedOff 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Display/TurnOffGdiDPIScalingForApps
+### <a name="windows10generalconfigurationdisplayapplistwithgdidpiscalingturnedoff"></a>Windows10GeneralConfiguration. Дисплайапплиствисгдидпискалингтурнедофф 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/дисплай/турноффгдидпискалингфораппс
 
-#### <a name="windows10generalconfigurationdisplayapplistwithgdidpiscalingturnedon"></a>Windows10GeneralConfiguration.DisplayAppListWithGdiDPIScalingTurnedOn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Display/TurnOnGdiDPIScalingForApps
+### <a name="windows10generalconfigurationdisplayapplistwithgdidpiscalingturnedon"></a>Windows10GeneralConfiguration. Дисплайапплиствисгдидпискалингтурнедон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/дисплай/турнонгдидпискалингфораппс
 
-#### <a name="windows10generalconfigurationedgeallowstartpagesmodification"></a>Windows10GeneralConfiguration.EdgeAllowStartPagesModification 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/HomePages
+### <a name="windows10generalconfigurationedgeallowstartpagesmodification"></a>Windows10GeneralConfiguration. Еджеалловстартпажесмодификатион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/хомепажес
 
-#### <a name="windows10generalconfigurationedgeblockaccesstoaboutflags"></a>Windows10GeneralConfiguration.EdgeBlockAccessToAboutFlags 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/PreventAccessToAboutFlagsInMicrosoftEdge
+### <a name="windows10generalconfigurationedgeblockaccesstoaboutflags"></a>Windows10GeneralConfiguration. Еджеблоккакцесстоабаутфлагс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/превентакцесстоабаутфлагсинмикрософтедже
 
-#### <a name="windows10generalconfigurationedgeblockaddressbardropdown"></a>Windows10GeneralConfiguration.EdgeBlockAddressBarDropdown 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowAddressBarDropdown
+### <a name="windows10generalconfigurationedgeblockaddressbardropdown"></a>Windows10GeneralConfiguration. Еджеблоккаддрессбардропдовн 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловаддрессбардропдовн
 
-#### <a name="windows10generalconfigurationedgeblockautofill"></a>Windows10GeneralConfiguration.EdgeBlockAutofill 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowAutofill
+### <a name="windows10generalconfigurationedgeblockautofill"></a>Windows10GeneralConfiguration. Еджеблоккаутофилл 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловаутофилл
 
-#### <a name="windows10generalconfigurationedgeblockcompatibilitylist"></a>Windows10GeneralConfiguration.EdgeBlockCompatibilityList 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowMicrosoftCompatibilityList
+### <a name="windows10generalconfigurationedgeblockcompatibilitylist"></a>Windows10GeneralConfiguration. Еджеблокккомпатибилитилист 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловмикрософткомпатибилитилист
 
-#### <a name="windows10generalconfigurationedgeblockdevelopertools"></a>Windows10GeneralConfiguration.EdgeBlockDeveloperTools 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowDeveloperTools
+### <a name="windows10generalconfigurationedgeblockdevelopertools"></a>Windows10GeneralConfiguration. Еджеблоккдевелопертулс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловдевелопертулс
 
-#### <a name="windows10generalconfigurationedgeblocked"></a>Windows10GeneralConfiguration.EdgeBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowBrowser
+### <a name="windows10generalconfigurationedgeblocked"></a>Windows10GeneralConfiguration. Еджеблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловбровсер
 
-#### <a name="windows10generalconfigurationedgeblockeditfavorites"></a>Windows10GeneralConfiguration.EdgeBlockEditFavorites 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/LockdownFavorites
+### <a name="windows10generalconfigurationedgeblockeditfavorites"></a>Windows10GeneralConfiguration. Еджеблоккедитфаворитес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/локкдовнфаворитес
 
-#### <a name="windows10generalconfigurationedgeblockextensions"></a>Windows10GeneralConfiguration.EdgeBlockExtensions 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowExtensions
+### <a name="windows10generalconfigurationedgeblockextensions"></a>Windows10GeneralConfiguration. Еджеблоккекстенсионс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловекстенсионс
 
-#### <a name="windows10generalconfigurationedgeblockfullscreenmode"></a>Windows10GeneralConfiguration.EdgeBlockFullScreenMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowFullScreenMode
+### <a name="windows10generalconfigurationedgeblockfullscreenmode"></a>Windows10GeneralConfiguration. Еджеблоккфуллскринмоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловфуллскринмоде
 
-#### <a name="windows10generalconfigurationedgeblockinprivatebrowsing"></a>Windows10GeneralConfiguration.EdgeBlockInPrivateBrowsing 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowInPrivate
+### <a name="windows10generalconfigurationedgeblockinprivatebrowsing"></a>Windows10GeneralConfiguration. Еджеблоккинприватебровсинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловинпривате
 
-#### <a name="windows10generalconfigurationedgeblocklivetiledatacollection"></a>Windows10GeneralConfiguration.EdgeBlockLiveTileDataCollection 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/PreventLiveTileDataCollection
+### <a name="windows10generalconfigurationedgeblocklivetiledatacollection"></a>Windows10GeneralConfiguration. Еджеблоккливетиледатаколлектион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/превентливетиледатаколлектион
 
-#### <a name="windows10generalconfigurationedgeblockpasswordmanager"></a>Windows10GeneralConfiguration.EdgeBlockPasswordManager 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowPasswordManager
+### <a name="windows10generalconfigurationedgeblockpasswordmanager"></a>Windows10GeneralConfiguration. Еджеблоккпассвордманажер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловпассвордманажер
 
-#### <a name="windows10generalconfigurationedgeblockpopups"></a>Windows10GeneralConfiguration.EdgeBlockPopups 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowPopups
+### <a name="windows10generalconfigurationedgeblockpopups"></a>Windows10GeneralConfiguration. Еджеблоккпопупс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловпопупс
 
-#### <a name="windows10generalconfigurationedgeblockprelaunch"></a>Windows10GeneralConfiguration.EdgeBlockPrelaunch 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowPrelaunch
+### <a name="windows10generalconfigurationedgeblockprelaunch"></a>Windows10GeneralConfiguration. Еджеблоккпрелаунч 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловпрелаунч
 
-#### <a name="windows10generalconfigurationedgeblockprinting"></a>Windows10GeneralConfiguration.EdgeBlockPrinting 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowPrinting
+### <a name="windows10generalconfigurationedgeblockprinting"></a>Windows10GeneralConfiguration. Еджеблоккпринтинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловпринтинг
 
-#### <a name="windows10generalconfigurationedgeblocksavinghistory"></a>Windows10GeneralConfiguration.EdgeBlockSavingHistory 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowSavingHistory
+### <a name="windows10generalconfigurationedgeblocksavinghistory"></a>Windows10GeneralConfiguration. Еджеблокксавингхистори 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловсавингхистори
 
-#### <a name="windows10generalconfigurationedgeblocksearchsuggestions"></a>Windows10GeneralConfiguration.EdgeBlockSearchSuggestions 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowSearchSuggestionsinAddressBar
+### <a name="windows10generalconfigurationedgeblocksearchsuggestions"></a>Windows10GeneralConfiguration. Еджеблокксеарчсугжестионс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловсеарчсугжестионсинаддрессбар
 
-#### <a name="windows10generalconfigurationedgeblocksendingdonottrackheader"></a>Windows10GeneralConfiguration.EdgeBlockSendingDoNotTrackHeader 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowDoNotTrack
+### <a name="windows10generalconfigurationedgeblocksendingdonottrackheader"></a>Windows10GeneralConfiguration. Еджеблокксендингдоноттраккхеадер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловдоноттракк
 
-#### <a name="windows10generalconfigurationedgeblocksendingintranettraffictointernetexplorer"></a>Windows10GeneralConfiguration.EdgeBlockSendingIntranetTrafficToInternetExplorer 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/SendIntranetTraffictoInternetExplorer
+### <a name="windows10generalconfigurationedgeblocksendingintranettraffictointernetexplorer"></a>Windows10GeneralConfiguration. Еджеблокксендингинтранеттраффиктоинтернетексплорер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/сендинтранеттраффиктоинтернетексплорер
 
-#### <a name="windows10generalconfigurationedgeblocksideloadingextensions"></a>Windows10GeneralConfiguration.EdgeBlockSideloadingExtensions 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowSideloadingOfExtensions
+### <a name="windows10generalconfigurationedgeblocksideloadingextensions"></a>Windows10GeneralConfiguration. Еджеблокксиделоадинжекстенсионс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловсиделоадингофекстенсионс
 
-#### <a name="windows10generalconfigurationedgeblocktabpreloading"></a>Windows10GeneralConfiguration.EdgeBlockTabPreloading 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowTabPreloading
+### <a name="windows10generalconfigurationedgeblocktabpreloading"></a>Windows10GeneralConfiguration. Еджеблокктабпрелоадинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловтабпрелоадинг
 
-#### <a name="windows10generalconfigurationedgeblockwebcontentonnewtabpage"></a>Windows10GeneralConfiguration.EdgeBlockWebContentOnNewTabPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowWebContentOnNewTabPage
+### <a name="windows10generalconfigurationedgeblockwebcontentonnewtabpage"></a>Windows10GeneralConfiguration. Еджеблокквебконтентонневтабпаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловвебконтентонневтабпаже
 
-#### <a name="windows10generalconfigurationedgeclearbrowsingdataonexit"></a>Windows10GeneralConfiguration.EdgeClearBrowsingDataOnExit 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ClearBrowsingDataOnExit
+### <a name="windows10generalconfigurationedgeclearbrowsingdataonexit"></a>Windows10GeneralConfiguration. Еджеклеарбровсингдатаонексит 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/клеарбровсингдатаонексит
 
-#### <a name="windows10generalconfigurationedgecookiepolicy"></a>Windows10GeneralConfiguration.EdgeCookiePolicy 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowCookies
+### <a name="windows10generalconfigurationedgecookiepolicy"></a>Windows10GeneralConfiguration. Еджекукиеполици 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловкукиес
 
-#### <a name="windows10generalconfigurationedgedisablefirstrunpage"></a>Windows10GeneralConfiguration.EdgeDisableFirstRunPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/PreventFirstRunPage
+### <a name="windows10generalconfigurationedgedisablefirstrunpage"></a>Windows10GeneralConfiguration. Еджедисаблефирструнпаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/превентфирструнпаже
 
-#### <a name="windows10generalconfigurationedgeenterprisemodesitelistlocation"></a>Windows10GeneralConfiguration.EdgeEnterpriseModeSiteListLocation 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/EnterpriseSiteListServiceUrl
+### <a name="windows10generalconfigurationedgeenterprisemodesitelistlocation"></a>Windows10GeneralConfiguration. Еджеентерприсемодесителистлокатион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/ентерприсесителистсервицеурл
 
-#### <a name="windows10generalconfigurationedgefavoritesbarvisibility"></a>Windows10GeneralConfiguration.EdgeFavoritesBarVisibility 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ConfigureFavoritesBar
+### <a name="windows10generalconfigurationedgefavoritesbarvisibility"></a>Windows10GeneralConfiguration. Еджефаворитесбарвисибилити 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/конфигурефаворитесбар
 
-#### <a name="windows10generalconfigurationedgefavoriteslistlocation"></a>Windows10GeneralConfiguration.EdgeFavoritesListLocation 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ProvisionFavorites
+### <a name="windows10generalconfigurationedgefavoriteslistlocation"></a>Windows10GeneralConfiguration. Еджефаворитеслистлокатион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/провисионфаворитес
 
-#### <a name="windows10generalconfigurationedgefirstrunurl"></a>Windows10GeneralConfiguration.EdgeFirstRunUrl 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/FirstRunURL
+### <a name="windows10generalconfigurationedgefirstrunurl"></a>Windows10GeneralConfiguration. Еджефирструнурл 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/фирструнурл
 
-#### <a name="windows10generalconfigurationedgehomebuttonconfiguration"></a>Windows10GeneralConfiguration.EdgeHomeButtonConfiguration 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/SetHomeButtonURL
+### <a name="windows10generalconfigurationedgehomebuttonconfiguration"></a>Windows10GeneralConfiguration. Еджехомебуттонконфигуратион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/сесомебуттонурл
 
-#### <a name="windows10generalconfigurationedgehomebuttonconfigurationenabled"></a>Windows10GeneralConfiguration.EdgeHomeButtonConfigurationEnabled 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ConfigureHomeButton
+### <a name="windows10generalconfigurationedgehomebuttonconfigurationenabled"></a>Windows10GeneralConfiguration. Еджехомебуттонконфигуратионенаблед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/конфигурехомебуттон
 
-#### <a name="windows10generalconfigurationedgehomepageurls"></a>Windows10GeneralConfiguration.EdgeHomepageUrls 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/SetHomeButtonURL
+### <a name="windows10generalconfigurationedgehomepageurls"></a>Windows10GeneralConfiguration. Еджехомепажеурлс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/сесомебуттонурл
 
-#### <a name="windows10generalconfigurationedgenewtabpageurl"></a>Windows10GeneralConfiguration.EdgeNewTabPageURL 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/SetNewTabPageURL
+### <a name="windows10generalconfigurationedgenewtabpageurl"></a>Windows10GeneralConfiguration. Едженевтабпажеурл 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/сетневтабпажеурл
 
-#### <a name="windows10generalconfigurationedgeopenswith"></a>Windows10GeneralConfiguration.EdgeOpensWith 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ConfigureOpenMicrosoftEdgeWith
+### <a name="windows10generalconfigurationedgeopenswith"></a>Windows10GeneralConfiguration. Еджеопенсвис 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/конфигуреопенмикрософтеджевис
 
-#### <a name="windows10generalconfigurationedgepreventcertificateerroroverride"></a>Windows10GeneralConfiguration.EdgePreventCertificateErrorOverride 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/PreventCertErrorOverrides
+### <a name="windows10generalconfigurationedgepreventcertificateerroroverride"></a>Windows10GeneralConfiguration. Еджепревентцертификатирророверриде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/превентцертерророверридес
 
-#### <a name="windows10generalconfigurationedgerequiresmartscreen"></a>Windows10GeneralConfiguration.EdgeRequireSmartScreen 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/AllowSmartScreen
+### <a name="windows10generalconfigurationedgerequiresmartscreen"></a>Windows10GeneralConfiguration. Еджерекуиресмартскрин 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/алловсмартскрин
 
-#### <a name="windows10generalconfigurationedgesearchengine"></a>Windows10GeneralConfiguration.EdgeSearchEngine 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/SetDefaultSearchEngine
+### <a name="windows10generalconfigurationedgesearchengine"></a>Windows10GeneralConfiguration. Еджесеарченгине 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/сетдефаултсеарченгине
 
-#### <a name="windows10generalconfigurationedgesendintranettraffictointernetexplorer"></a>Windows10GeneralConfiguration.EdgeSendIntranetTrafficToInternetExplorer 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/SendIntranetTraffictoInternetExplorer
+### <a name="windows10generalconfigurationedgesendintranettraffictointernetexplorer"></a>Windows10GeneralConfiguration. Еджесендинтранеттраффиктоинтернетексплорер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/сендинтранеттраффиктоинтернетексплорер
 
-#### <a name="windows10generalconfigurationedgeshowmessagewhenopeninginternetexplorersites"></a>Windows10GeneralConfiguration.EdgeShowMessageWhenOpeningInternetExplorerSites 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ShowMessageWhenOpeningSitesInInternetExplorer
+### <a name="windows10generalconfigurationedgeshowmessagewhenopeninginternetexplorersites"></a>Windows10GeneralConfiguration. Еджешовмессажевхенопенингинтернетексплорерситес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/шовмессажевхенопенингситесининтернетексплорер
 
-#### <a name="windows10generalconfigurationedgesyncfavoriteswithinternetexplorer"></a>Windows10GeneralConfiguration.EdgeSyncFavoritesWithInternetExplorer 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/SyncFavoritesBetweenIEAndMicrosoftEdge
+### <a name="windows10generalconfigurationedgesyncfavoriteswithinternetexplorer"></a>Windows10GeneralConfiguration. Еджесинкфаворитесвисинтернетексплорер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/синкфаворитесбетвиниеандмикрософтедже
 
-#### <a name="windows10generalconfigurationedgetelemetryformicrosoft365analytics"></a>Windows10GeneralConfiguration.EdgeTelemetryForMicrosoft365Analytics 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ConfigureTelemetryForMicrosoft365Analytics
+### <a name="windows10generalconfigurationedgetelemetryformicrosoft365analytics"></a>Windows10GeneralConfiguration.EdgeTelemetryForMicrosoft365Analytics 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/config/Browser/ConfigureTelemetryForMicrosoft365Analytics
 
-#### <a name="windows10generalconfigurationenableautomaticredeployment"></a>Windows10GeneralConfiguration.EnableAutomaticRedeployment 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/CredentialProviders/DisableAutomaticReDeploymentCredentials
+### <a name="windows10generalconfigurationenableautomaticredeployment"></a>Windows10GeneralConfiguration. Енаблеаутоматикредеплоймент 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/кредентиалпровидерс/дисаблеаутоматикредеплойменткредентиалс
 
-#### <a name="windows10generalconfigurationenterprisecloudprintdiscoveryendpoint"></a>Windows10GeneralConfiguration.EnterpriseCloudPrintDiscoveryEndPoint 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EnterpriseCloudPrint/CloudPrinterDiscoveryEndPoint
+### <a name="windows10generalconfigurationenterprisecloudprintdiscoveryendpoint"></a>Windows10GeneralConfiguration. Ентерприсеклаудпринтдисковерендпоинт 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ентерприсеклаудпринт/клаудпринтердисковерендпоинт
 
-#### <a name="windows10generalconfigurationenterprisecloudprintdiscoverymaxlimit"></a>Windows10GeneralConfiguration.EnterpriseCloudPrintDiscoveryMaxLimit 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EnterpriseCloudPrint/DiscoveryMaxPrinterLimit
+### <a name="windows10generalconfigurationenterprisecloudprintdiscoverymaxlimit"></a>Windows10GeneralConfiguration. Ентерприсеклаудпринтдисковеримакслимит 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ентерприсеклаудпринт/дисковеримакспринтерлимит
 
-#### <a name="windows10generalconfigurationenterprisecloudprintmopriadiscoveryresourceidentifier"></a>Windows10GeneralConfiguration.EnterpriseCloudPrintMopriaDiscoveryResourceIdentifier 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EnterpriseCloudPrint/MopriaDiscoveryResourceId
+### <a name="windows10generalconfigurationenterprisecloudprintmopriadiscoveryresourceidentifier"></a>Windows10GeneralConfiguration. Ентерприсеклаудпринтмоприадисковериресаурцеидентифиер 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ентерприсеклаудпринт/моприадисковериресаурцеид
 
-#### <a name="windows10generalconfigurationenterprisecloudprintoauthauthority"></a>Windows10GeneralConfiguration.EnterpriseCloudPrintOAuthAuthority 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EnterpriseCloudPrint/CloudPrintOAuthAuthority
+### <a name="windows10generalconfigurationenterprisecloudprintoauthauthority"></a>Windows10GeneralConfiguration. Ентерприсеклаудпринтоаусаусорити 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ентерприсеклаудпринт/клаудпринтоаусаусорити
 
-#### <a name="windows10generalconfigurationenterprisecloudprintoauthclientidentifier"></a>Windows10GeneralConfiguration.EnterpriseCloudPrintOAuthClientIdentifier 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EnterpriseCloudPrint/CloudPrintOAuthAuthority
+### <a name="windows10generalconfigurationenterprisecloudprintoauthclientidentifier"></a>Windows10GeneralConfiguration. Ентерприсеклаудпринтоаусклиентидентифиер 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ентерприсеклаудпринт/клаудпринтоаусаусорити
 
-#### <a name="windows10generalconfigurationenterprisecloudprintresourceidentifier"></a>Windows10GeneralConfiguration.EnterpriseCloudPrintResourceIdentifier 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/EnterpriseCloudPrint/CloudPrintResourceId
+### <a name="windows10generalconfigurationenterprisecloudprintresourceidentifier"></a>Windows10GeneralConfiguration. Ентерприсеклаудпринтресаурцеидентифиер 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ентерприсеклаудпринт/клаудпринтресаурцеид
 
-#### <a name="windows10generalconfigurationexperienceblockconsumerspecificfeatures"></a>Windows10GeneralConfiguration.ExperienceBlockConsumerSpecificFeatures 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowWindowsConsumerFeatures
+### <a name="windows10generalconfigurationexperienceblockconsumerspecificfeatures"></a>Windows10GeneralConfiguration. ЕкспериенцеблоккконсумерспеЦификфеатурес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвиндовсконсумерфеатурес
 
-#### <a name="windows10generalconfigurationexperienceblockdevicediscovery"></a>Windows10GeneralConfiguration.ExperienceBlockDeviceDiscovery 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowDeviceDiscovery
+### <a name="windows10generalconfigurationexperienceblockdevicediscovery"></a>Windows10GeneralConfiguration. Експериенцеблоккдевицедисковери 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловдевицедисковери
 
-#### <a name="windows10generalconfigurationexperienceblockerrordialogwhennosim"></a>Windows10GeneralConfiguration.ExperienceBlockErrorDialogWhenNoSIM 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowSIMErrorDialogPromptWhenNoSIM
+### <a name="windows10generalconfigurationexperienceblockerrordialogwhennosim"></a>Windows10GeneralConfiguration. Експериенцеблоккеррордиалогвхенносим 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловсимеррордиалогпромптвхенносим
 
-#### <a name="windows10generalconfigurationexperienceblocktaskswitcher"></a>Windows10GeneralConfiguration.ExperienceBlockTaskSwitcher 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowTaskSwitcher
+### <a name="windows10generalconfigurationexperienceblocktaskswitcher"></a>Windows10GeneralConfiguration. Експериенцеблокктасксвитчер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловтасксвитчер
 
-#### <a name="windows10generalconfigurationexperienceblockwindowsspotlight"></a>Windows10GeneralConfiguration.ExperienceBlockWindowsSpotlight 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowWindowsSpotlight
+### <a name="windows10generalconfigurationexperienceblockwindowsspotlight"></a>Windows10GeneralConfiguration. Експериенцеблокквиндовсспотлигхт 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвиндовсспотлигхт
 
-#### <a name="windows10generalconfigurationexperiencedonotsyncbrowsersettings"></a>Windows10GeneralConfiguration.ExperienceDoNotSyncBrowserSettings 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/DoNotSyncBrowserSettings
+### <a name="windows10generalconfigurationexperiencedonotsyncbrowsersettings"></a>Windows10GeneralConfiguration. Експериенцедонотсинкбровсерсеттингс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/донотсинкбровсерсеттингс
 
-#### <a name="windows10generalconfigurationgamedvrblocked"></a>Windows10GeneralConfiguration.GameDvrBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/AllowGameDVR
+### <a name="windows10generalconfigurationgamedvrblocked"></a>Windows10GeneralConfiguration. Гамедврблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/алловгамедвр
 
-#### <a name="windows10generalconfigurationhardwaredeviceinstallationbydeviceidentifiers"></a>Windows10GeneralConfiguration.HardwareDeviceInstallationByDeviceIdentifiers 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceInstallation/PreventInstallationOfMatchingDeviceIDs
+### <a name="windows10generalconfigurationhardwaredeviceinstallationbydeviceidentifiers"></a>Windows10GeneralConfiguration. Хардваредевицеинсталлатионбидевицеидентифиерс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицеинсталлатион/превентинсталлатионофматчингдевицеидс
 
-#### <a name="windows10generalconfigurationhardwaredeviceinstallationbysetupclasses"></a>Windows10GeneralConfiguration.HardwareDeviceInstallationBySetupClasses 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceInstallation/PreventInstallationOfMatchingDeviceSetupClasses
+### <a name="windows10generalconfigurationhardwaredeviceinstallationbysetupclasses"></a>Windows10GeneralConfiguration. Хардваредевицеинсталлатионбисетупклассес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицеинсталлатион/превентинсталлатионофматчингдевицесетупклассес
 
-#### <a name="windows10generalconfigurationinkworkspaceaccess"></a>Windows10GeneralConfiguration.InkWorkspaceAccess 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsInkWorkspace/AllowWindowsInkWorkspace
+### <a name="windows10generalconfigurationinkworkspaceaccess"></a>Windows10GeneralConfiguration. Инкворкспацеакцесс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсинкворкспаце/алловвиндовсинкворкспаце
 
-#### <a name="windows10generalconfigurationinkworkspaceaccessstate"></a>Windows10GeneralConfiguration.InkWorkspaceAccessState 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsInkWorkspace/AllowWindowsInkWorkspace
+### <a name="windows10generalconfigurationinkworkspaceaccessstate"></a>Windows10GeneralConfiguration. Инкворкспацеакцессстате 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсинкворкспаце/алловвиндовсинкворкспаце
 
-#### <a name="windows10generalconfigurationinkworkspaceblocksuggestedapps"></a>Windows10GeneralConfiguration.InkWorkspaceBlockSuggestedApps 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsInkWorkspace/AllowSuggestedAppsInWindowsInkWorkspace
+### <a name="windows10generalconfigurationinkworkspaceblocksuggestedapps"></a>Windows10GeneralConfiguration. Инкворкспацеблокксугжестедаппс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовсинкворкспаце/алловсугжестедаппсинвиндовсинкворкспаце
 
-#### <a name="windows10generalconfigurationinternetexploreractivexcontrolsinprotectedmode"></a>Windows10GeneralConfiguration.InternetExplorerActiveXControlsInProtectedMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DoNotAllowActiveXControlsInProtectedMode
+### <a name="windows10generalconfigurationinternetexploreractivexcontrolsinprotectedmode"></a>Windows10GeneralConfiguration.InternetExplorerActiveXControlsInProtectedMode 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/доноталловактивексконтролсинпротектедмоде
 
-#### <a name="windows10generalconfigurationinternetexplorerautocomplete"></a>Windows10GeneralConfiguration.InternetExplorerAutoComplete 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/AllowAutoComplete
+### <a name="windows10generalconfigurationinternetexplorerautocomplete"></a>Windows10GeneralConfiguration. Интернетексплорераутокомплете 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/алловаутокомплете
 
-#### <a name="windows10generalconfigurationinternetexplorerblockoutdatedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerBlockOutdatedActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DoNotBlockOutdatedActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerblockoutdatedactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплорерблоккаутдатедактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/донотблоккаутдатедактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerbypasssmartscreenwarnings"></a>Windows10GeneralConfiguration.InternetExplorerBypassSmartScreenWarnings 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableBypassOfSmartScreenWarnings
+### <a name="windows10generalconfigurationinternetexplorerbypasssmartscreenwarnings"></a>Windows10GeneralConfiguration. Интернетексплорербипасссмартскринварнингс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблебипассофсмартскринварнингс
 
-#### <a name="windows10generalconfigurationinternetexplorerbypasssmartscreenwarningsaboutuncommonfiles"></a>Windows10GeneralConfiguration.InternetExplorerBypassSmartScreenWarningsAboutUncommonFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableBypassOfSmartScreenWarningsAboutUncommonFiles
+### <a name="windows10generalconfigurationinternetexplorerbypasssmartscreenwarningsaboutuncommonfiles"></a>Windows10GeneralConfiguration. Интернетексплорербипасссмартскринварнингсабаутункоммонфилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблебипассофсмартскринварнингсабаутункоммонфилес
 
-#### <a name="windows10generalconfigurationinternetexplorercertificateaddressmismatchwarning"></a>Windows10GeneralConfiguration.InternetExplorerCertificateAddressMismatchWarning 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/AllowCertificateAddressMismatchWarning
+### <a name="windows10generalconfigurationinternetexplorercertificateaddressmismatchwarning"></a>Windows10GeneralConfiguration. Интернетексплорерцертификатеаддрессмисматчварнинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/алловцертификатеаддрессмисматчварнинг
 
-#### <a name="windows10generalconfigurationinternetexplorercheckservercertificaterevocation"></a>Windows10GeneralConfiguration.InternetExplorerCheckServerCertificateRevocation 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/CheckServerCertificateRevocation
+### <a name="windows10generalconfigurationinternetexplorercheckservercertificaterevocation"></a>Windows10GeneralConfiguration. Интернетексплорерчекксерверцертификатеревокатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/чекксерверцертификатеревокатион
 
-#### <a name="windows10generalconfigurationinternetexplorerchecksignaturesondownloadedprograms"></a>Windows10GeneralConfiguration.InternetExplorerCheckSignaturesOnDownloadedPrograms 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/CheckSignaturesOnDownloadedPrograms
+### <a name="windows10generalconfigurationinternetexplorerchecksignaturesondownloadedprograms"></a>Windows10GeneralConfiguration. Интернетексплорерчекксигнатуресондовнлоадедпрограмс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/чекксигнатуресондовнлоадедпрограмс
 
-#### <a name="windows10generalconfigurationinternetexplorercrashdetection"></a>Windows10GeneralConfiguration.InternetExplorerCrashDetection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableCrashDetection
+### <a name="windows10generalconfigurationinternetexplorercrashdetection"></a>Windows10GeneralConfiguration. Интернетексплореркрашдетектион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблекрашдетектион
 
-#### <a name="windows10generalconfigurationinternetexplorerdisableprocessesinenhancedprotectedmode"></a>Windows10GeneralConfiguration.InternetExplorerDisableProcessesInEnhancedProtectedMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableProcessesInEnhancedProtectedMode
+### <a name="windows10generalconfigurationinternetexplorerdisableprocessesinenhancedprotectedmode"></a>Windows10GeneralConfiguration.InternetExplorerDisableProcessesInEnhancedProtectedMode 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблепроцессесиненханцедпротектедмоде
 
-#### <a name="windows10generalconfigurationinternetexplorerdownloadenclosures"></a>Windows10GeneralConfiguration.InternetExplorerDownloadEnclosures 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableEnclosureDownloading
+### <a name="windows10generalconfigurationinternetexplorerdownloadenclosures"></a>Windows10GeneralConfiguration. Интернетексплорердовнлоаденклосурес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблинклосуредовнлоадинг
 
-#### <a name="windows10generalconfigurationinternetexplorerencryptionsupport"></a>Windows10GeneralConfiguration.InternetExplorerEncryptionSupport 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableEncryptionSupport
+### <a name="windows10generalconfigurationinternetexplorerencryptionsupport"></a>Windows10GeneralConfiguration. Интернетексплореренкриптионсуппорт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблинкриптионсуппорт
 
-#### <a name="windows10generalconfigurationinternetexplorerenhancedprotectedmode"></a>Windows10GeneralConfiguration.InternetExplorerEnhancedProtectedMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/AllowEnhancedProtectedMode
+### <a name="windows10generalconfigurationinternetexplorerenhancedprotectedmode"></a>Windows10GeneralConfiguration. Интернетексплореренханцедпротектедмоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/алловенханцедпротектедмоде
 
-#### <a name="windows10generalconfigurationinternetexplorerfallbacktossl3"></a>Windows10GeneralConfiguration.InternetExplorerFallbackToSsl3 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/AllowFallbackToSSL3
+### <a name="windows10generalconfigurationinternetexplorerfallbacktossl3"></a>Windows10GeneralConfiguration.InternetExplorerFallbackToSsl3 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/config/InternetExplorer/AllowFallbackToSSL3
 
-#### <a name="windows10generalconfigurationinternetexplorerignorecertificateerrors"></a>Windows10GeneralConfiguration.InternetExplorerIgnoreCertificateErrors 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableIgnoringCertificateErrors
+### <a name="windows10generalconfigurationinternetexplorerignorecertificateerrors"></a>Windows10GeneralConfiguration. Интернетексплореригнорецертификатиррорс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблеигнорингцертификатиррорс
 
-#### <a name="windows10generalconfigurationinternetexplorerincludeallnetworkpaths"></a>Windows10GeneralConfiguration.InternetExplorerIncludeAllNetworkPaths 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/IncludeAllNetworkPaths
+### <a name="windows10generalconfigurationinternetexplorerincludeallnetworkpaths"></a>Windows10GeneralConfiguration. Интернетексплореринклудеаллнетворкпасс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/инклудеаллнетворкпасс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneaccesstodatasources"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneAccessToDataSources 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowAccessToDataSources
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneaccesstodatasources"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонеакцесстодатасаурцес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловакцесстодатасаурцес
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneallowonlyapproveddomainstouseactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneAllowOnlyApprovedDomainsToUseActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneallowonlyapproveddomainstouseactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneAllowOnlyApprovedDomainsToUseActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловонляппроведдомаинстаусеактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneallowonlyapproveddomainstousetdcactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneAllowOnlyApprovedDomainsToUseTdcActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneallowonlyapproveddomainstousetdcactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneAllowOnlyApprovedDomainsToUseTdcActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловонляппроведдомаинстаусетдкактивексконтрол
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneallowvbscripttorun"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneAllowVBScriptToRun 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneallowvbscripttorun"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонеалловвбскриптторун 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловвбскриптторунининтернетексплорер
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneautomaticpromptforfiledownloads"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneAutomaticPromptForFileDownloads 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneautomaticpromptforfiledownloads"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонеаутоматикпромптфорфиледовнлоадс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловаутоматикпромптингфорфиледовнлоадс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonecopyandpasteviascript"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneCopyAndPasteViaScript 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript
+### <a name="windows10generalconfigurationinternetexplorerinternetzonecopyandpasteviascript"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонекопяндпастевиаскрипт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловкопипастевиаскрипт
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonecrosssitescriptingfilter"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneCrossSiteScriptingFilter 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneEnableCrossSiteScriptingFilter
+### <a name="windows10generalconfigurationinternetexplorerinternetzonecrosssitescriptingfilter"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонекроссситескриптингфилтер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонинаблекроссситескриптингфилтер
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDoNotRunAntimalwareAgainstActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneDoNotRunAntimalwareAgainstActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerinternetzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDoNotRunAntimalwareAgainstActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонедонотрунантималвареагаинстактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonedotnetframeworkreliantcomponents"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDotNetFrameworkReliantComponents 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowNETFrameworkReliantComponents
+### <a name="windows10generalconfigurationinternetexplorerinternetzonedotnetframeworkreliantcomponents"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонедотнетфрамеворкрелианткомпонентс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловнетфрамеворкрелианткомпонентс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonedownloadsignedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDownloadSignedActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneDownloadSignedActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerinternetzonedownloadsignedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDownloadSignedActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонедовнлоадсигнедактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonedownloadunsignedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDownloadUnsignedActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneDownloadUnsignedActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerinternetzonedownloadunsignedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDownloadUnsignedActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонедовнлоадунсигнедактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonedraganddroporcopyandpastefiles"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDragAndDropOrCopyAndPasteFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowDragAndDropCopyAndPasteFiles
+### <a name="windows10generalconfigurationinternetexplorerinternetzonedraganddroporcopyandpastefiles"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонедраганддропоркопяндпастефилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловдраганддропкопяндпастефилес
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonedragcontentfromdifferentdomainsacrosswindows"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDragContentFromDifferentDomainsAcrossWindows 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows
+### <a name="windows10generalconfigurationinternetexplorerinternetzonedragcontentfromdifferentdomainsacrosswindows"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонедрагконтентфромдифферентдомаинсакроссвиндовс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонинабледраггингофконтентфромдифферентдомаинсакроссвиндовс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonedragcontentfromdifferentdomainswithinwindows"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneDragContentFromDifferentDomainsWithinWindows 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows
+### <a name="windows10generalconfigurationinternetexplorerinternetzonedragcontentfromdifferentdomainswithinwindows"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонедрагконтентфромдифферентдомаинсвисинвиндовс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонинабледраггингофконтентфромдифферентдомаинсвисинвиндовс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneincludelocalpathwhenuploadingfilestoserver"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneIncludeLocalPathWhenUploadingFilesToServer 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneIncludeLocalPathWhenUploadingFilesToServer
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneincludelocalpathwhenuploadingfilestoserver"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонеинклуделокалпасвхенуплоадингфилестосервер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеинклуделокалпасвхенуплоадингфилестосервер
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneInitializeAndScriptActiveXControlsNotMarkedAsSafe 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneInitializeAndScriptActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонеинитиализеандскриптактивексконтролснотмаркедассафе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеинитиализеандскриптактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerinternetzonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонежавапермиссионс
 
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonelaunchapplicationsandfilesinaniframe"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneLaunchApplicationsAndFilesInAnIFrame 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneLaunchingApplicationsAndFilesInIFRAME
+### <a name="windows10generalconfigurationinternetexplorerinternetzonelaunchapplicationsandfilesinaniframe"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонелаунчаппликатионсандфилесинанифраме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонелаунчингаппликатионсандфилесинифраме
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonelessprivilegedsites"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneLessPrivilegedSites 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowLessPrivilegedSites
+### <a name="windows10generalconfigurationinternetexplorerinternetzonelessprivilegedsites"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонелесспривилежедситес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловлесспривилежедситес
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneloadingofxamlfiles"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneLoadingOfXamlFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowLoadingOfXAMLFiles
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneloadingofxamlfiles"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneLoadingOfXamlFiles 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловлоадингофксамлфилес
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonelogonoptions"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneLogonOptions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneLogonOptions
+### <a name="windows10generalconfigurationinternetexplorerinternetzonelogonoptions"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneLogonOptions 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонелогоноптионс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonenavigatewindowsandframesacrossdifferentdomains"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneNavigateWindowsAndFramesAcrossDifferentDomains 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneNavigateWindowsAndFrames
+### <a name="windows10generalconfigurationinternetexplorerinternetzonenavigatewindowsandframesacrossdifferentdomains"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзоненавигатевиндовсандфрамесакроссдифферентдомаинс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзоненавигатевиндовсандфрамес
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonepopupblocker"></a>Windows10GeneralConfiguration.InternetExplorerInternetZonePopupBlocker 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneUsePopupBlocker
+### <a name="windows10generalconfigurationinternetexplorerinternetzonepopupblocker"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонепопупблоккер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеусепопупблоккер
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneprotectedmode"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneProtectedMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneEnableProtectedMode
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneprotectedmode"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонепротектедмоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонинаблепротектедмоде
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonerundotnetframeworkreliantcomponentssignedwithauthenticode"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneRunDotNetFrameworkReliantComponentsSignedWithAuthenticode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode
+### <a name="windows10generalconfigurationinternetexplorerinternetzonerundotnetframeworkreliantcomponentssignedwithauthenticode"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонерундотнетфрамеворкрелианткомпонентссигнедвисаусентикоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеруннетфрамеворкрелианткомпонентссигнедвисаусентикоде
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonescriptingofwebbrowsercontrols"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneScriptingOfWebBrowserControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls
+### <a name="windows10generalconfigurationinternetexplorerinternetzonescriptingofwebbrowsercontrols"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонескриптингофвеббровсерконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловскриптингофинтернетексплорервеббровсерконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonescriptinitiatedwindows"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneScriptInitiatedWindows 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowScriptInitiatedWindows
+### <a name="windows10generalconfigurationinternetexplorerinternetzonescriptinitiatedwindows"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонескриптинитиатедвиндовс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловскриптинитиатедвиндовс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonescriptlets"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneScriptlets 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowScriptlets
+### <a name="windows10generalconfigurationinternetexplorerinternetzonescriptlets"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонескриптлетс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловскриптлетс
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonesecuritywarningforpotentiallyunsafefiles"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneSecurityWarningForPotentiallyUnsafeFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles
+### <a name="windows10generalconfigurationinternetexplorerinternetzonesecuritywarningforpotentiallyunsafefiles"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонесекуритиварнингфорпотентиаллюнсафефилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонешовсекуритиварнингфорпотентиаллюнсафефилес
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzonesmartscreen"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneSmartScreen 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowSmartScreenIE
+### <a name="windows10generalconfigurationinternetexplorerinternetzonesmartscreen"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонесмартскрин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловсмартскриние
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneupdatestostatusbarviascript"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneUpdatesToStatusBarViaScript 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneupdatestostatusbarviascript"></a>Windows10GeneralConfiguration. Интернетексплореринтернетзонеупдатестостатусбарвиаскрипт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловупдатестостатусбарвиаскрипт
 
-#### <a name="windows10generalconfigurationinternetexplorerinternetzoneuserdatapersistence"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneUserDataPersistence 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/InternetZoneAllowUserDataPersistence
+### <a name="windows10generalconfigurationinternetexplorerinternetzoneuserdatapersistence"></a>Windows10GeneralConfiguration.InternetExplorerInternetZoneUserDataPersistence 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интернетзонеалловусердатаперсистенце
 
-#### <a name="windows10generalconfigurationinternetexplorerintranetzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerIntranetZoneDoNotRunAntimalwareAgainstActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/IntranetZoneDoNotRunAntimalwareAgainstActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerintranetzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплореринтранетзонедонотрунантималвареагаинстактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интранетзонедонотрунантималвареагаинстактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerintranetzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration.InternetExplorerIntranetZoneInitializeAndScriptActiveXControlsNotMarkedAsSafe 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/IntranetZoneInitializeAndScriptActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerintranetzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration. Интернетексплореринтранетзонеинитиализеандскриптактивексконтролснотмаркедассафе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интранетзонеинитиализеандскриптактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerintranetzonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerIntranetZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/IntranetZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerintranetzonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплореринтранетзонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/интранетзонежавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexplorerlocalmachinezonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerLocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerlocalmachinezonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплорерлокалмачинезонедонотрунантималвареагаинстактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локалмачинезонедонотрунантималвареагаинстактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerlocalmachinezonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerLocalMachineZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LocalMachineZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerlocalmachinezonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплорерлокалмачинезонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локалмачинезонежавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexplorerlockeddowninternetzonesmartscreen"></a>Windows10GeneralConfiguration.InternetExplorerLockedDownInternetZoneSmartScreen 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LockedDownInternetZoneAllowSmartScreenIE
+### <a name="windows10generalconfigurationinternetexplorerlockeddowninternetzonesmartscreen"></a>Windows10GeneralConfiguration. Интернетексплорерлоккеддовнинтернетзонесмартскрин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локкеддовнинтернетзонеалловсмартскриние
 
-#### <a name="windows10generalconfigurationinternetexplorerlockeddownintranetzonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerLockedDownIntranetZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LockedDownIntranetJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerlockeddownintranetzonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплорерлоккеддовнинтранетзонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локкеддовнинтранетжавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexplorerlockeddownlocalmachinezonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerLockedDownLocalMachineZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LockedDownLocalMachineZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerlockeddownlocalmachinezonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплорерлоккеддовнлокалмачинезонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локкеддовнлокалмачинезонежавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexplorerlockeddownrestrictedzonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerLockedDownRestrictedZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LockedDownRestrictedSitesZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerlockeddownrestrictedzonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплорерлоккеддовнрестриктедзонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локкеддовнрестриктедситесзонежавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexplorerlockeddownrestrictedzonesmartscreen"></a>Windows10GeneralConfiguration.InternetExplorerLockedDownRestrictedZoneSmartScreen 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LockedDownRestrictedSitesZoneAllowSmartScreenIE
+### <a name="windows10generalconfigurationinternetexplorerlockeddownrestrictedzonesmartscreen"></a>Windows10GeneralConfiguration. Интернетексплорерлоккеддовнрестриктедзонесмартскрин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локкеддовнрестриктедситесзонеалловсмартскриние
 
-#### <a name="windows10generalconfigurationinternetexplorerlockeddowntrustedzonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerLockedDownTrustedZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/LockedDownTrustedSitesZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerlockeddowntrustedzonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплорерлоккеддовнтрустедзонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/локкеддовнтрустедситесзонежавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexplorerpreventmanagingsmartscreenfilter"></a>Windows10GeneralConfiguration.InternetExplorerPreventManagingSmartScreenFilter 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/PreventManagingSmartScreenFilter
+### <a name="windows10generalconfigurationinternetexplorerpreventmanagingsmartscreenfilter"></a>Windows10GeneralConfiguration. Интернетексплорерпревентманагингсмартскринфилтер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/превентманагингсмартскринфилтер
 
-#### <a name="windows10generalconfigurationinternetexplorerpreventperuserinstallationofactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerPreventPerUserInstallationOfActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/PreventPerUserInstallationOfActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerpreventperuserinstallationofactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerPreventPerUserInstallationOfActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/превентперусеринсталлатионофактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesconsistentmimehandling"></a>Windows10GeneralConfiguration.InternetExplorerProcessesConsistentMimeHandling 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesconsistentmimehandling"></a>Windows10GeneralConfiguration. Интернетексплорерпроцессесконсистентмимехандлинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/консистентмимехандлингинтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesmimesniffingsafetyfeature"></a>Windows10GeneralConfiguration.InternetExplorerProcessesMimeSniffingSafetyFeature 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/MimeSniffingSafetyFeatureInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesmimesniffingsafetyfeature"></a>Windows10GeneralConfiguration.InternetExplorerProcessesMimeSniffingSafetyFeature 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/мимесниффингсафетифеатуреинтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesmkprotocolsecurityrestriction"></a>Windows10GeneralConfiguration.InternetExplorerProcessesMKProtocolSecurityRestriction 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/MKProtocolSecurityRestrictionInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesmkprotocolsecurityrestriction"></a>Windows10GeneralConfiguration. Интернетексплорерпроцессесмкпротоколсекуритирестриктион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/мкпротоколсекуритирестриктионинтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesnotificationbar"></a>Windows10GeneralConfiguration.InternetExplorerProcessesNotificationBar 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/NotificationBarInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesnotificationbar"></a>Windows10GeneralConfiguration. Интернетексплорерпроцессеснотификатионбар 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/нотификатионбаринтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesprotectionfromzoneelevation"></a>Windows10GeneralConfiguration.InternetExplorerProcessesProtectionFromZoneElevation 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesprotectionfromzoneelevation"></a>Windows10GeneralConfiguration. Интернетексплорерпроцессеспротектионфромзонилеватион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/протектионфромзонилеватионинтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesrestrictactivexinstall"></a>Windows10GeneralConfiguration.InternetExplorerProcessesRestrictActiveXInstall 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesrestrictactivexinstall"></a>Windows10GeneralConfiguration. Интернетексплорерпроцессесрестриктактивексинсталл 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктактивексинсталлинтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesrestrictfiledownload"></a>Windows10GeneralConfiguration.InternetExplorerProcessesRestrictFileDownload 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesrestrictfiledownload"></a>Windows10GeneralConfiguration. Интернетексплорерпроцессесрестриктфиледовнлоад 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктфиледовнлоадинтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerprocessesscriptedwindowsecurityrestrictions"></a>Windows10GeneralConfiguration.InternetExplorerProcessesScriptedWindowSecurityRestrictions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses
+### <a name="windows10generalconfigurationinternetexplorerprocessesscriptedwindowsecurityrestrictions"></a>Windows10GeneralConfiguration. Интернетексплорерпроцессесскриптедвиндовсекуритирестриктионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/скриптедвиндовсекуритирестриктионсинтернетексплорерпроцессес
 
-#### <a name="windows10generalconfigurationinternetexplorerremoverunthistimebuttonforoutdatedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRemoveRunThisTimeButtonForOutdatedActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RemoveRunThisTimeButtonForOutdatedActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerremoverunthistimebuttonforoutdatedactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплорерремоверунсистимебуттонфораутдатедактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/ремоверунсистимебуттонфораутдатедактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneaccesstodatasources"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneAccessToDataSources 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneaccesstodatasources"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеакцесстодатасаурцес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловакцесстодатасаурцес
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneactivescripting"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneActiveScripting 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowActiveScripting
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneactivescripting"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеактивескриптинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловактивескриптинг
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneallowonlyapproveddomainstouseactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneAllowOnlyApprovedDomainsToUseActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneallowonlyapproveddomainstouseactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеалловонляппроведдомаинстаусеактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловонляппроведдомаинстаусеактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneallowonlyapproveddomainstousetdcactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneAllowOnlyApprovedDomainsToUseTdcActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneallowonlyapproveddomainstousetdcactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneAllowOnlyApprovedDomainsToUseTdcActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловонляппроведдомаинстаусетдкактивексконтрол
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneallowvbscripttorun"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneAllowVBScriptToRun 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneallowvbscripttorun"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеалловвбскриптторун 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловвбскриптторунининтернетексплорер
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneautomaticpromptforfiledownloads"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneAutomaticPromptForFileDownloads 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneautomaticpromptforfiledownloads"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеаутоматикпромптфорфиледовнлоадс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловаутоматикпромптингфорфиледовнлоадс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonebinaryandscriptbehaviors"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneBinaryAndScriptBehaviors 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowBinaryAndScriptBehaviors
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonebinaryandscriptbehaviors"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонебинаряндскриптбехавиорс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловбинаряндскриптбехавиорс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonecopyandpasteviascript"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneCopyAndPasteViaScript 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonecopyandpasteviascript"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонекопяндпастевиаскрипт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловкопипастевиаскрипт
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonecrosssitescriptingfilter"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneCrossSiteScriptingFilter 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonecrosssitescriptingfilter"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонекроссситескриптингфилтер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонинаблекроссситескриптингфилтер
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDoNotRunAntimalwareAgainstActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонедонотрунантималвареагаинстактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонедонотрунантималвареагаинстактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedotnetframeworkreliantcomponents"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDotNetFrameworkReliantComponents 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowNETFrameworkReliantComponents
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedotnetframeworkreliantcomponents"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонедотнетфрамеворкрелианткомпонентс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловнетфрамеворкрелианткомпонентс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedownloadsignedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDownloadSignedActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneDownloadSignedActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedownloadsignedactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонедовнлоадсигнедактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонедовнлоадсигнедактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedownloadunsignedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDownloadUnsignedActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneDownloadUnsignedActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedownloadunsignedactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDownloadUnsignedActiveXControls 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонедовнлоадунсигнедактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedraganddroporcopyandpastefiles"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDragAndDropOrCopyAndPasteFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedraganddroporcopyandpastefiles"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонедраганддропоркопяндпастефилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловдраганддропкопяндпастефилес
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedragcontentfromdifferentdomainsacrosswindows"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDragContentFromDifferentDomainsAcrossWindows 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedragcontentfromdifferentdomainsacrosswindows"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонедрагконтентфромдифферентдомаинсакроссвиндовс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонинабледраггингофконтентфромдифферентдомаинсакроссвиндовс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedragcontentfromdifferentdomainswithinwindows"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneDragContentFromDifferentDomainsWithinWindows 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonedragcontentfromdifferentdomainswithinwindows"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонедрагконтентфромдифферентдомаинсвисинвиндовс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонинабледраггингофконтентфромдифферентдомаинсвисинвиндовс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonefiledownloads"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneFileDownloads 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowFileDownloads
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonefiledownloads"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонефиледовнлоадс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловфиледовнлоадс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneincludelocalpathwhenuploadingfilestoserver"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneIncludeLocalPathWhenUploadingFilesToServer 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneincludelocalpathwhenuploadingfilestoserver"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеинклуделокалпасвхенуплоадингфилестосервер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеинклуделокалпасвхенуплоадингфилестосервер
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneInitializeAndScriptActiveXControlsNotMarkedAsSafe 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneInitializeAndScriptActiveXControls
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеинитиализеандскриптактивексконтролснотмаркедассафе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеинитиализеандскриптактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонежавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonelaunchapplicationsandfilesinaniframe"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneLaunchApplicationsAndFilesInAnIFrame 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonelaunchapplicationsandfilesinaniframe"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонелаунчаппликатионсандфилесинанифраме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонелаунчингаппликатионсандфилесинифраме
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonelessprivilegedsites"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneLessPrivilegedSites 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowLessPrivilegedSites
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonelessprivilegedsites"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонелесспривилежедситес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловлесспривилежедситес
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneloadingofxamlfiles"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneLoadingOfXamlFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowLoadingOfXAMLFiles
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneloadingofxamlfiles"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонелоадингофксамлфилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловлоадингофксамлфилес
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonelogonoptions"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneLogonOptions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneLogonOptions
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonelogonoptions"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонелогоноптионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонелогоноптионс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonemetarefresh"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneMetaRefresh 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowMETAREFRESH
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonemetarefresh"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеметарефреш 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловметарефреш
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonenavigatewindowsandframesacrossdifferentdomains"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneNavigateWindowsAndFramesAcrossDifferentDomains 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneNavigateWindowsAndFrames
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonenavigatewindowsandframesacrossdifferentdomains"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзоненавигатевиндовсандфрамесакроссдифферентдомаинс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзоненавигатевиндовсандфрамес
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonepopupblocker"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZonePopupBlocker 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneUsePopupBlocker
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonepopupblocker"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонепопупблоккер 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеусепопупблоккер
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneprotectedmode"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneProtectedMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneTurnOnProtectedMode
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneprotectedmode"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонепротектедмоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонетурнонпротектедмоде
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonerunactivexcontrolsandplugins"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneRunActiveXControlsAndPlugins 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneRunActiveXControlsAndPlugins
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonerunactivexcontrolsandplugins"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонерунактивексконтролсандплугинс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонерунактивексконтролсандплугинс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonerundotnetframeworkreliantcomponentssignedwithauthenticode"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneRunDotNetFrameworkReliantComponentsSignedWithAuthenticode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonerundotnetframeworkreliantcomponentssignedwithauthenticode"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонерундотнетфрамеворкрелианткомпонентссигнедвисаусентикоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеруннетфрамеворкрелианткомпонентссигнедвисаусентикоде
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptactivexcontrolsmarkedsafeforscripting"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneScriptActiveXControlsMarkedSafeForScripting 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptactivexcontrolsmarkedsafeforscripting"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонескриптактивексконтролсмаркедсафефорскриптинг 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонескриптактивексконтролсмаркедсафефорскриптинг
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptingofjavaapplets"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneScriptingOfJavaApplets 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneScriptingOfJavaApplets
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptingofjavaapplets"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонескриптингофжаваапплетс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонескриптингофжаваапплетс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptingofwebbrowsercontrols"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneScriptingOfWebBrowserControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptingofwebbrowsercontrols"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонескриптингофвеббровсерконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловскриптингофинтернетексплорервеббровсерконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptinitiatedwindows"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneScriptInitiatedWindows 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowScriptInitiatedWindows
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptinitiatedwindows"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонескриптинитиатедвиндовс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловскриптинитиатедвиндовс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptlets"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneScriptlets 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonescriptlets"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонескриптлетс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловскриптлетс
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonesecuritywarningforpotentiallyunsafefiles"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneSecurityWarningForPotentiallyUnsafeFiles 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonesecuritywarningforpotentiallyunsafefiles"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонесекуритиварнингфорпотентиаллюнсафефилес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонешовсекуритиварнингфорпотентиаллюнсафефилес
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzonesmartscreen"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneSmartScreen 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowSmartScreenIE
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzonesmartscreen"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонесмартскрин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловсмартскриние
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneupdatestostatusbarviascript"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneUpdatesToStatusBarViaScript 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneupdatestostatusbarviascript"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеупдатестостатусбарвиаскрипт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловупдатестостатусбарвиаскрипт
 
-#### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneuserdatapersistence"></a>Windows10GeneralConfiguration.InternetExplorerRestrictedZoneUserDataPersistence 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/RestrictedSitesZoneAllowUserDataPersistence
+### <a name="windows10generalconfigurationinternetexplorerrestrictedzoneuserdatapersistence"></a>Windows10GeneralConfiguration. Интернетексплореррестриктедзонеусердатаперсистенце 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/рестриктедситесзонеалловусердатаперсистенце
 
-#### <a name="windows10generalconfigurationinternetexplorersecuritysettingscheck"></a>Windows10GeneralConfiguration.InternetExplorerSecuritySettingsCheck 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DisableSecuritySettingsCheck
+### <a name="windows10generalconfigurationinternetexplorersecuritysettingscheck"></a>Windows10GeneralConfiguration. Интернетексплорерсекуритисеттингсчекк 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/дисаблесекуритисеттингсчекк
 
-#### <a name="windows10generalconfigurationinternetexplorersecurityzonesuseonlymachinesettings"></a>Windows10GeneralConfiguration.InternetExplorerSecurityZonesUseOnlyMachineSettings 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/SecurityZonesUseOnlyMachineSettings
+### <a name="windows10generalconfigurationinternetexplorersecurityzonesuseonlymachinesettings"></a>Windows10GeneralConfiguration. Интернетексплорерсекуритизонесусеонлимачинесеттингс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/секуритизонесусеонлимачинесеттингс
 
-#### <a name="windows10generalconfigurationinternetexplorersoftwarewhensignatureisinvalid"></a>Windows10GeneralConfiguration.InternetExplorerSoftwareWhenSignatureIsInvalid 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/AllowSoftwareWhenSignatureIsInvalid
+### <a name="windows10generalconfigurationinternetexplorersoftwarewhensignatureisinvalid"></a>Windows10GeneralConfiguration. Интернетексплорерсофтваревхенсигнатуреисинвалид 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/алловсофтваревхенсигнатуреисинвалид
 
-#### <a name="windows10generalconfigurationinternetexplorertrustedzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration.InternetExplorerTrustedZoneDoNotRunAntimalwareAgainstActiveXControls 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls
+### <a name="windows10generalconfigurationinternetexplorertrustedzonedonotrunantimalwareagainstactivexcontrols"></a>Windows10GeneralConfiguration. Интернетексплорертрустедзонедонотрунантималвареагаинстактивексконтролс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/трустедситесзонедонотрунантималвареагаинстактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorertrustedzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration.InternetExplorerTrustedZoneInitializeAndScriptActiveXControlsNotMarkedAsSafe 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/TrustedSitesZoneInitializeAndScriptActiveXControls
+### <a name="windows10generalconfigurationinternetexplorertrustedzoneinitializeandscriptactivexcontrolsnotmarkedassafe"></a>Windows10GeneralConfiguration. Интернетексплорертрустедзонеинитиализеандскриптактивексконтролснотмаркедассафе 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/трустедситесзонеинитиализеандскриптактивексконтролс
 
-#### <a name="windows10generalconfigurationinternetexplorertrustedzonejavapermissions"></a>Windows10GeneralConfiguration.InternetExplorerTrustedZoneJavaPermissions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/TrustedSitesZoneJavaPermissions
+### <a name="windows10generalconfigurationinternetexplorertrustedzonejavapermissions"></a>Windows10GeneralConfiguration. Интернетексплорертрустедзонежавапермиссионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/трустедситесзонежавапермиссионс
 
-#### <a name="windows10generalconfigurationinternetexploreruseactivexinstallerservice"></a>Windows10GeneralConfiguration.InternetExplorerUseActiveXInstallerService 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/SpecifyUseOfActiveXInstallerService
+### <a name="windows10generalconfigurationinternetexploreruseactivexinstallerservice"></a>Windows10GeneralConfiguration. Интернетексплорерусеактивексинсталлерсервице 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/спеЦифюсеофактивексинсталлерсервице
 
-#### <a name="windows10generalconfigurationinternetexplorerusersaddingsites"></a>Windows10GeneralConfiguration.InternetExplorerUsersAddingSites 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DoNotAllowUsersToAddSites
+### <a name="windows10generalconfigurationinternetexplorerusersaddingsites"></a>Windows10GeneralConfiguration. Интернетексплорерусерсаддингситес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/доноталловусерстоаддситес
 
-#### <a name="windows10generalconfigurationinternetexploreruserschangingpolicies"></a>Windows10GeneralConfiguration.InternetExplorerUsersChangingPolicies 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/InternetExplorer/DoNotAllowUsersToChangePolicies
+### <a name="windows10generalconfigurationinternetexploreruserschangingpolicies"></a>Windows10GeneralConfiguration. ИнтернетексплорерусерсчангингполиЦиес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/интернетексплорер/доноталловусерсточанжеполиЦиес
 
-#### <a name="windows10generalconfigurationinternetsharingblocked"></a>Windows10GeneralConfiguration.InternetSharingBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WiFi/AllowInternetSharing
+### <a name="windows10generalconfigurationinternetsharingblocked"></a>Windows10GeneralConfiguration. Интернетшарингблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ВИФИ/алловинтернетшаринг
 
-#### <a name="windows10generalconfigurationlocationservicesblocked"></a>Windows10GeneralConfiguration.LocationServicesBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/AllowLocation
+### <a name="windows10generalconfigurationlocationservicesblocked"></a>Windows10GeneralConfiguration. Локатионсервицесблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/алловлокатион
 
-#### <a name="windows10generalconfigurationlockscreenallowtimeoutconfiguration"></a>Windows10GeneralConfiguration.LockScreenAllowTimeoutConfiguration 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/AllowScreenTimeoutWhileLockedUser/Config
+### <a name="windows10generalconfigurationlockscreenallowtimeoutconfiguration"></a>Windows10GeneralConfiguration. Локкскриналловтимеаутконфигуратион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/алловскринтимеаутвхилелоккедусер/конфиг
 
-#### <a name="windows10generalconfigurationlockscreenblockactioncenternotifications"></a>Windows10GeneralConfiguration.LockScreenBlockActionCenterNotifications 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/AboveLock/AllowActionCenterNotifications
+### <a name="windows10generalconfigurationlockscreenblockactioncenternotifications"></a>Windows10GeneralConfiguration. Локкскринблоккактионцентернотификатионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/абовелокк/алловактионцентернотификатионс
 
-#### <a name="windows10generalconfigurationlockscreenblockcortana"></a>Windows10GeneralConfiguration.LockScreenBlockCortana 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/AboveLock/AllowCortanaAboveLock
+### <a name="windows10generalconfigurationlockscreenblockcortana"></a>Windows10GeneralConfiguration. Локкскринблокккортана 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/абовелокк/алловкортанаабовелокк
 
-#### <a name="windows10generalconfigurationlockscreenblocktoastnotifications"></a>Windows10GeneralConfiguration.LockScreenBlockToastNotifications 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/AboveLock/AllowToasts
+### <a name="windows10generalconfigurationlockscreenblocktoastnotifications"></a>Windows10GeneralConfiguration. Локкскринблокктоастнотификатионс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/абовелокк/алловтоастс
 
-#### <a name="windows10generalconfigurationlockscreencamera"></a>Windows10GeneralConfiguration.LockScreenCamera 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/PreventEnablingLockScreenCamera
+### <a name="windows10generalconfigurationlockscreencamera"></a>Windows10GeneralConfiguration. Локкскринкамера 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/превентенаблинглоккскринкамера
 
-#### <a name="windows10generalconfigurationlockscreenhidenetworkselectionui"></a>Windows10GeneralConfiguration.LockScreenHideNetworkSelectionUI 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsLogon/DontDisplayNetworkSelectionUI
+### <a name="windows10generalconfigurationlockscreenhidenetworkselectionui"></a>Windows10GeneralConfiguration. Локкскринхиденетворкселектионуи 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовслогон/донтдисплайнетворкселектионуи
 
-#### <a name="windows10generalconfigurationlockscreenslideshow"></a>Windows10GeneralConfiguration.LockScreenSlideShow 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/PreventLockScreenSlideShow
+### <a name="windows10generalconfigurationlockscreenslideshow"></a>Windows10GeneralConfiguration. Локкскринслидешов 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/превентлоккскринслидешов
 
-#### <a name="windows10generalconfigurationlockscreentimeoutinseconds"></a>Windows10GeneralConfiguration.LockScreenTimeoutInSeconds 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/ScreenTimeoutWhileLocked
+### <a name="windows10generalconfigurationlockscreentimeoutinseconds"></a>Windows10GeneralConfiguration. Локкскринтимеаутинсекондс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/скринтимеаутвхилелоккед
 
-#### <a name="windows10generalconfigurationlogonblockfastuserswitching"></a>Windows10GeneralConfiguration.LogonBlockFastUserSwitching 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsLogon/HideFastUserSwitching
+### <a name="windows10generalconfigurationlogonblockfastuserswitching"></a>Windows10GeneralConfiguration. Логонблоккфастусерсвитчинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовслогон/хидефастусерсвитчинг
 
-#### <a name="windows10generalconfigurationmessagingblockmms"></a>Windows10GeneralConfiguration.MessagingBlockMMS 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Messaging/AllowMMS
+### <a name="windows10generalconfigurationmessagingblockmms"></a>Windows10GeneralConfiguration. Мессагингблоккммс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мессагинг/алловммс
 
-#### <a name="windows10generalconfigurationmessagingblockrichcommunicationservices"></a>Windows10GeneralConfiguration.MessagingBlockRichCommunicationServices 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Messaging/AllowRCS
+### <a name="windows10generalconfigurationmessagingblockrichcommunicationservices"></a>Windows10GeneralConfiguration. Мессагингблоккричкоммуникатионсервицес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мессагинг/алловркс
 
-#### <a name="windows10generalconfigurationmessagingblocksync"></a>Windows10GeneralConfiguration.MessagingBlockSync 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Messaging/AllowMessageSync
+### <a name="windows10generalconfigurationmessagingblocksync"></a>Windows10GeneralConfiguration. Мессагингблокксинк 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/мессагинг/алловмессажесинк
 
-#### <a name="windows10generalconfigurationmicrosoftaccountblocked"></a>Windows10GeneralConfiguration.MicrosoftAccountBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Accounts/AllowMicrosoftAccountConnection
+### <a name="windows10generalconfigurationmicrosoftaccountblocked"></a>Windows10GeneralConfiguration. Микрософтаккаунтблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аккаунтс/алловмикрософтаккаунтконнектион
 
-#### <a name="windows10generalconfigurationmicrosoftaccountblocksettingssync"></a>Windows10GeneralConfiguration.MicrosoftAccountBlockSettingsSync 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowSyncMySettings
+### <a name="windows10generalconfigurationmicrosoftaccountblocksettingssync"></a>Windows10GeneralConfiguration. Микрософтаккаунтблокксеттингссинк 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловсинкмисеттингс
 
-#### <a name="windows10generalconfigurationmicrosoftaccountsigninassistantsettings"></a>Windows10GeneralConfiguration.MicrosoftAccountSignInAssistantSettings 
-**CSP**: ./Device/Vendor/MSFT/Accounts  
-**Смещение URI**: /AllowMicrosoftAccountSignInAssistant
+### <a name="windows10generalconfigurationmicrosoftaccountsigninassistantsettings"></a>Windows10GeneralConfiguration. Микрософтаккаунтсигнинассистантсеттингс 
+**CSP**:./девице/вендор/мсфт/аккаунтс  
+**URI смещения**:/алловмикрософтаккаунтсигнинассистант
 
-#### <a name="windows10generalconfigurationnetworkproxyapplysettingsdevicewide"></a>Windows10GeneralConfiguration.NetworkProxyApplySettingsDeviceWide 
-**CSP**: ./Device/Vendor/MSFT/NetworkProxy  
-**Смещение URI**: /ProxySettingsPerUser
+### <a name="windows10generalconfigurationnetworkproxyapplysettingsdevicewide"></a>Windows10GeneralConfiguration. Нетворкпроксяпплисеттингсдевицевиде 
+**CSP**:./девице/вендор/мсфт/нетворкпрокси  
+**URI смещения**:/проксисеттингсперусер
 
-#### <a name="windows10generalconfigurationnetworkproxyautomaticconfigurationurl"></a>Windows10GeneralConfiguration.NetworkProxyAutomaticConfigurationUrl 
-**CSP**: ./Device/Vendor/MSFT/NetworkProxy  
-**Смещение URI**: /SetupScriptUrl
+### <a name="windows10generalconfigurationnetworkproxyautomaticconfigurationurl"></a>Windows10GeneralConfiguration. Нетворкпроксяутоматикконфигуратионурл 
+**CSP**:./девице/вендор/мсфт/нетворкпрокси  
+**URI смещения**:/сетупскриптурл
 
-#### <a name="windows10generalconfigurationnetworkproxydisableautodetect"></a>Windows10GeneralConfiguration.NetworkProxyDisableAutoDetect 
-**CSP**: ./Device/Vendor/MSFT/NetworkProxy  
-**Смещение URI**: /AutoDetect
+### <a name="windows10generalconfigurationnetworkproxydisableautodetect"></a>Windows10GeneralConfiguration. Нетворкпроксидисаблеаутодетект 
+**CSP**:./девице/вендор/мсфт/нетворкпрокси  
+**URI смещения**:/аутодетект
 
-#### <a name="windows10generalconfigurationnetworkproxyserver"></a>Windows10GeneralConfiguration.NetworkProxyServer 
-**CSP**: ./Vendor/MSFT/NetworkProxy  
-**Смещение URI**: / ProxyAddress, /Exceptions и /UseProxyForLocalAddresses
+### <a name="windows10generalconfigurationnetworkproxyserver"></a>Windows10GeneralConfiguration. Нетворкпроксисервер 
+**CSP**:./вендор/мсфт/нетворкпрокси  
+**URI смещения**:/proxyAddress,/Ексцептионс и/усепроксифорлокаладдрессес
 
-#### <a name="windows10generalconfigurationnfcblocked"></a>Windows10GeneralConfiguration.NfcBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowNFC
+### <a name="windows10generalconfigurationnfcblocked"></a>Windows10GeneralConfiguration. Нфкблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловнфк
 
-#### <a name="windows10generalconfigurationonedrivedisablefilesync"></a>Windows10GeneralConfiguration.OneDriveDisableFileSync 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/DisableOneDriveFileSync
+### <a name="windows10generalconfigurationonedrivedisablefilesync"></a>Windows10GeneralConfiguration. Онедриведисаблефилесинк 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/дисаблеонедривефилесинк
 
-#### <a name="windows10generalconfigurationpasswordblocksimple"></a>Windows10GeneralConfiguration.PasswordBlockSimple 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/AllowSimpleDevicePassword
+### <a name="windows10generalconfigurationpasswordblocksimple"></a>Windows10GeneralConfiguration. Пассвордблокксимпле 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/алловсимпледевицепассворд
 
-#### <a name="windows10generalconfigurationpasswordexpirationdays"></a>Windows10GeneralConfiguration.PasswordExpirationDays 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/DevicePasswordExpiration
+### <a name="windows10generalconfigurationpasswordexpirationdays"></a>Windows10GeneralConfiguration. Пассвордекспиратиондайс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/девицепассвордекспиратион
 
-#### <a name="windows10generalconfigurationpasswordminimumageindays"></a>Windows10GeneralConfiguration.PasswordMinimumAgeInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/MinimumPasswordAge
+### <a name="windows10generalconfigurationpasswordminimumageindays"></a>Windows10GeneralConfiguration. Пассвордминимумажеиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/минимумпассвордаже
 
-#### <a name="windows10generalconfigurationpasswordminimumcharactersetcount"></a>Windows10GeneralConfiguration.PasswordMinimumCharacterSetCount 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/MinDevicePasswordComplexCharacters
+### <a name="windows10generalconfigurationpasswordminimumcharactersetcount"></a>Windows10GeneralConfiguration. Пассвордминимумчарактерсеткаунт 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/миндевицепассвордкомплексчарактерс
 
-#### <a name="windows10generalconfigurationpasswordminimumlength"></a>Windows10GeneralConfiguration.PasswordMinimumLength 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/MinDevicePasswordLength
+### <a name="windows10generalconfigurationpasswordminimumlength"></a>Windows10GeneralConfiguration. Пассвордминимумленгс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/миндевицепассвордленгс
 
-#### <a name="windows10generalconfigurationpasswordminutesofinactivitybeforescreentimeout"></a>Windows10GeneralConfiguration.PasswordMinutesOfInactivityBeforeScreenTimeout 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/MaxInactivityTimeDeviceLock
+### <a name="windows10generalconfigurationpasswordminutesofinactivitybeforescreentimeout"></a>Windows10GeneralConfiguration. Пассвордминутесофинактивитибефорескринтимеаут 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/максинактивититимедевицелокк
 
-#### <a name="windows10generalconfigurationpasswordpreviouspasswordblockcount"></a>Windows10GeneralConfiguration.PasswordPreviousPasswordBlockCount 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/DevicePasswordHistory
+### <a name="windows10generalconfigurationpasswordpreviouspasswordblockcount"></a>Windows10GeneralConfiguration. Пассвордпревиауспассвордблокккаунт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/девицепассвордхистори
 
-#### <a name="windows10generalconfigurationpasswordrequired"></a>Windows10GeneralConfiguration.PasswordRequired 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/DevicePasswordEnabled
+### <a name="windows10generalconfigurationpasswordrequired"></a>Windows10GeneralConfiguration. Пассвордрекуиред 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/девицепассворденаблед
 
-#### <a name="windows10generalconfigurationpasswordrequiredtype"></a>Windows10GeneralConfiguration.PasswordRequiredType 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/AlphanumericDevicePasswordRequired
+### <a name="windows10generalconfigurationpasswordrequiredtype"></a>Windows10GeneralConfiguration. Пассвордрекуиредтипе 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/алфанумерикдевицепассвордрекуиред
 
-#### <a name="windows10generalconfigurationpasswordrequirewhenresumefromidlestate"></a>Windows10GeneralConfiguration.PasswordRequireWhenResumeFromIdleState 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/AllowIdleReturnWithoutPassword
+### <a name="windows10generalconfigurationpasswordrequirewhenresumefromidlestate"></a>Windows10GeneralConfiguration. Пассвордрекуиревхенресумефромидлестате 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/алловидлеретурнвисаутпассворд
 
-#### <a name="windows10generalconfigurationpasswordsigninfailurecountbeforefactoryreset"></a>Windows10GeneralConfiguration.PasswordSignInFailureCountBeforeFactoryReset 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceLock/MaxDevicePasswordFailedAttempts
+### <a name="windows10generalconfigurationpasswordsigninfailurecountbeforefactoryreset"></a>Windows10GeneralConfiguration.PasswordSignInFailureCountBeforeFactoryReset 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицелокк/максдевицепассвордфаиледаттемптс
 
-#### <a name="windows10generalconfigurationpersonalizationdesktopimageurl"></a>Windows10GeneralConfiguration.PersonalizationDesktopImageUrl 
-**CSP**: ./Device/Vendor/MSFT/Personalization  
-**Смещение URI**: /DesktopImageUrl
+### <a name="windows10generalconfigurationpersonalizationdesktopimageurl"></a>Windows10GeneralConfiguration. Персонализатиондесктопимажеурл 
+**CSP**:./девице/вендор/мсфт/персонализатион  
+**URI смещения**:/десктопимажеурл
 
-#### <a name="windows10generalconfigurationpersonalizationlockscreenimageurl"></a>Windows10GeneralConfiguration.PersonalizationLockScreenImageUrl 
-**CSP**: ./Device/Vendor/MSFT/Personalization  
-**Смещение URI**: /LockScreenImageUrl
+### <a name="windows10generalconfigurationpersonalizationlockscreenimageurl"></a>Windows10GeneralConfiguration. Персонализатионлоккскринимажеурл 
+**CSP**:./девице/вендор/мсфт/персонализатион  
+**URI смещения**:/локкскринимажеурл
 
-#### <a name="windows10generalconfigurationpowerrequirepasswordonwakewhileonbattery"></a>Windows10GeneralConfiguration.PowerRequirePasswordOnWakeWhileOnBattery 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Power/RequirePasswordWhenComputerWakesOnBattery
+### <a name="windows10generalconfigurationpowerrequirepasswordonwakewhileonbattery"></a>Windows10GeneralConfiguration. Поверрекуирепассвордонвакевхилеонбаттери 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/повер/рекуирепассвордвхенкомпутервакесонбаттери
 
-#### <a name="windows10generalconfigurationpowerrequirepasswordonwakewhilepluggedin"></a>Windows10GeneralConfiguration.PowerRequirePasswordOnWakeWhilePluggedIn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Power/RequirePasswordWhenComputerWakesPluggedIn
+### <a name="windows10generalconfigurationpowerrequirepasswordonwakewhilepluggedin"></a>Windows10GeneralConfiguration. Поверрекуирепассвордонвакевхилеплугжедин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/повер/рекуирепассвордвхенкомпутервакесплугжедин
 
-#### <a name="windows10generalconfigurationpowerstandbystateswhensleepingwhileonbattery"></a>Windows10GeneralConfiguration.PowerStandbyStatesWhenSleepingWhileOnBattery 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Power/AllowStandbyStatesWhenSleepingOnBattery
+### <a name="windows10generalconfigurationpowerstandbystateswhensleepingwhileonbattery"></a>Windows10GeneralConfiguration. Поверстандбистатесвхенслипингвхилеонбаттери 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/повер/алловстандбистатесвхенслипингонбаттери
 
-#### <a name="windows10generalconfigurationpowerstandbystateswhensleepingwhilepluggedin"></a>Windows10GeneralConfiguration.PowerStandbyStatesWhenSleepingWhilePluggedIn 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Power/AllowStandbyWhenSleepingPluggedIn
+### <a name="windows10generalconfigurationpowerstandbystateswhensleepingwhilepluggedin"></a>Windows10GeneralConfiguration. Поверстандбистатесвхенслипингвхилеплугжедин 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/повер/алловстандбивхенслипингплугжедин
 
-#### <a name="windows10generalconfigurationpreventinstallationofmatchingdeviceids"></a>windows10generalconfiguration.preventInstallationOfMatchingDeviceIDs 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceInstallation/PreventInstallationOfMatchingDeviceIDs
+### <a name="windows10generalconfigurationpreventinstallationofmatchingdeviceids"></a>windows10generalconfiguration. Превентинсталлатионофматчингдевицеидс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицеинсталлатион/превентинсталлатионофматчингдевицеидс
 
-#### <a name="windows10generalconfigurationpreventinstallationofmatchingdevicesetupclasses"></a>windows10generalconfiguration.preventInstallationOfMatchingDeviceSetupClasses 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeviceInstallation/PreventInstallationOfMatchingDeviceSetupClasses
+### <a name="windows10generalconfigurationpreventinstallationofmatchingdevicesetupclasses"></a>windows10generalconfiguration. Превентинсталлатионофматчингдевицесетупклассес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/девицеинсталлатион/превентинсталлатионофматчингдевицесетупклассес
 
-#### <a name="windows10generalconfigurationprinterblockaddition"></a>Windows10GeneralConfiguration.PrinterBlockAddition 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Education/PreventAddingNewPrinters
+### <a name="windows10generalconfigurationprinterblockaddition"></a>Windows10GeneralConfiguration. Принтерблоккаддитион 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/едукатион/превентаддингневпринтерс
 
-#### <a name="windows10generalconfigurationprinterdefaultname"></a>Windows10GeneralConfiguration.PrinterDefaultName 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Education/DefaultPrinterName
+### <a name="windows10generalconfigurationprinterdefaultname"></a>Windows10GeneralConfiguration. Принтердефаултнаме 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/едукатион/дефаултпринтернаме
 
-#### <a name="windows10generalconfigurationprinternames"></a>Windows10GeneralConfiguration.PrinterNames 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Education/PrinterNames
+### <a name="windows10generalconfigurationprinternames"></a>Windows10GeneralConfiguration. Принтернамес 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/едукатион/принтернамес
 
-#### <a name="windows10generalconfigurationprivacyadvertisingid"></a>Windows10GeneralConfiguration.PrivacyAdvertisingId 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Privacy/DisableAdvertisingID
+### <a name="windows10generalconfigurationprivacyadvertisingid"></a>Windows10GeneralConfiguration. Привациадвертисингид 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/приваци/дисаблеадвертисингид
 
-#### <a name="windows10generalconfigurationprivacyautoacceptpairingandconsentprompts"></a>Windows10GeneralConfiguration.PrivacyAutoAcceptPairingAndConsentPrompts 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Privacy/AllowAutoAcceptPairingAndPrivacyConsentPrompts
+### <a name="windows10generalconfigurationprivacyautoacceptpairingandconsentprompts"></a>Windows10GeneralConfiguration. Привациаутоакцептпаирингандконсентпромптс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/приваци/алловаутоакцептпаирингандпривациконсентпромптс
 
-#### <a name="windows10generalconfigurationprivacyblockactivityfeed"></a>Windows10GeneralConfiguration.PrivacyBlockActivityFeed 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Privacy/EnableActivityFeed
+### <a name="windows10generalconfigurationprivacyblockactivityfeed"></a>Windows10GeneralConfiguration. Привациблоккактивитифид 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/приваци/енаблеактивитифид
 
-#### <a name="windows10generalconfigurationprivacyblockinputpersonalization"></a>Windows10GeneralConfiguration.PrivacyBlockInputPersonalization 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Privacy/AllowInputPersonalization
+### <a name="windows10generalconfigurationprivacyblockinputpersonalization"></a>Windows10GeneralConfiguration. Привациблоккинпутперсонализатион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/приваци/алловинпутперсонализатион
 
-#### <a name="windows10generalconfigurationprivacyblockpublishuseractivities"></a>Windows10GeneralConfiguration.PrivacyBlockPublishUserActivities 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Privacy/PublishUserActivities
+### <a name="windows10generalconfigurationprivacyblockpublishuseractivities"></a>Windows10GeneralConfiguration. Привациблоккпублишусерактивитиес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/приваци/публишусерактивитиес
 
-#### <a name="windows10generalconfigurationsafesearchfilter"></a>Windows10GeneralConfiguration.SafeSearchFilter 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/SafeSearchPermissions
+### <a name="windows10generalconfigurationsafesearchfilter"></a>Windows10GeneralConfiguration. Сафесеарчфилтер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/сафесеарчпермиссионс
 
-#### <a name="windows10generalconfigurationscreencaptureblocked"></a>Windows10GeneralConfiguration.ScreenCaptureBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowScreenCapture
+### <a name="windows10generalconfigurationscreencaptureblocked"></a>Windows10GeneralConfiguration. Скринкаптуреблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловскринкаптуре
 
-#### <a name="windows10generalconfigurationsearchblockdiacritics"></a>Windows10GeneralConfiguration.SearchBlockDiacritics 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/AllowUsingDiacritics
+### <a name="windows10generalconfigurationsearchblockdiacritics"></a>Windows10GeneralConfiguration. Сеарчблоккдиакритикс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/алловусингдиакритикс
 
-#### <a name="windows10generalconfigurationsearchblockwebresults"></a>Windows10GeneralConfiguration.SearchBlockWebResults 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/DoNotUseWebResults
+### <a name="windows10generalconfigurationsearchblockwebresults"></a>Windows10GeneralConfiguration. Сеарчблокквебресултс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/донотусевебресултс
 
-#### <a name="windows10generalconfigurationsearchdisableautolanguagedetection"></a>Windows10GeneralConfiguration.SearchDisableAutoLanguageDetection 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/AlwaysUseAutoLangDetection
+### <a name="windows10generalconfigurationsearchdisableautolanguagedetection"></a>Windows10GeneralConfiguration. Сеарчдисаблеаутолангуажедетектион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/алвайсусеаутолангдетектион
 
-#### <a name="windows10generalconfigurationsearchdisableindexerbackoff"></a>Windows10GeneralConfiguration.SearchDisableIndexerBackoff 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/DisableBackoff
+### <a name="windows10generalconfigurationsearchdisableindexerbackoff"></a>Windows10GeneralConfiguration. Сеарчдисаблеиндексербаккофф 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/дисаблебаккофф
 
-#### <a name="windows10generalconfigurationsearchdisableindexingencrypteditems"></a>Windows10GeneralConfiguration.SearchDisableIndexingEncryptedItems 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/AllowIndexingEncryptedStoresOrItems
+### <a name="windows10generalconfigurationsearchdisableindexingencrypteditems"></a>Windows10GeneralConfiguration. Сеарчдисаблеиндексинженкриптедитемс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/алловиндексинженкриптедсторесоритемс
 
-#### <a name="windows10generalconfigurationsearchdisableindexingremovabledrive"></a>Windows10GeneralConfiguration.SearchDisableIndexingRemovableDrive 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/DisableRemovableDriveIndexing
+### <a name="windows10generalconfigurationsearchdisableindexingremovabledrive"></a>Windows10GeneralConfiguration. Сеарчдисаблеиндексингремовабледриве 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/дисаблеремовабледривеиндексинг
 
-#### <a name="windows10generalconfigurationsearchdisablelocation"></a>Windows10GeneralConfiguration.SearchDisableLocation 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/AllowSearchToUseLocation
+### <a name="windows10generalconfigurationsearchdisablelocation"></a>Windows10GeneralConfiguration. Сеарчдисаблелокатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/алловсеарчтауселокатион
 
-#### <a name="windows10generalconfigurationsearchdisableuselocation"></a>Windows10GeneralConfiguration.SearchDisableUseLocation 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/AllowSearchToUseLocation
+### <a name="windows10generalconfigurationsearchdisableuselocation"></a>Windows10GeneralConfiguration. Сеарчдисаблеуселокатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/алловсеарчтауселокатион
 
-#### <a name="windows10generalconfigurationsearchenableautomaticindexsizemanangement"></a>Windows10GeneralConfiguration.SearchEnableAutomaticIndexSizeManangement 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/PreventIndexingLowDiskSpaceMB
+### <a name="windows10generalconfigurationsearchenableautomaticindexsizemanangement"></a>Windows10GeneralConfiguration. СеарченаблеаутоматиЦиндекссиземананжемент 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/превентиндексингловдискспацемб
 
-#### <a name="windows10generalconfigurationsearchenableremotequeries"></a>Windows10GeneralConfiguration.SearchEnableRemoteQueries 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Search/PreventRemoteQueries
+### <a name="windows10generalconfigurationsearchenableremotequeries"></a>Windows10GeneralConfiguration. Сеарченаблеремотекуериес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/СЕАРЧ/превентремотекуериес
 
-#### <a name="windows10generalconfigurationsecurityblockazureadjoineddevicesautoencryption"></a>Windows10GeneralConfiguration.SecurityBlockAzureADJoinedDevicesAutoEncryption 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Security/PreventAutomaticDeviceEncryptionForAzureADJoinedDevices
+### <a name="windows10generalconfigurationsecurityblockazureadjoineddevicesautoencryption"></a>Windows10GeneralConfiguration. Секуритиблокказуреаджоинеддевицесаутоенкриптион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/секурити/превентаутоматикдевицеенкриптионфоразуреаджоинеддевицес
 
-#### <a name="windows10generalconfigurationsettingsblockaccountspage"></a>Windows10GeneralConfiguration.SettingsBlockAccountsPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockaccountspage"></a>Windows10GeneralConfiguration. Сеттингсблоккаккаунтспаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockaddprovisioningpackage"></a>Windows10GeneralConfiguration.SettingsBlockAddProvisioningPackage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Security/AllowAddProvisioningPackage
+### <a name="windows10generalconfigurationsettingsblockaddprovisioningpackage"></a>Windows10GeneralConfiguration. Сеттингсблоккаддпровисионингпаккаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/секурити/алловаддпровисионингпаккаже
 
-#### <a name="windows10generalconfigurationsettingsblockappspage"></a>Windows10GeneralConfiguration.SettingsBlockAppsPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockappspage"></a>Windows10GeneralConfiguration. Сеттингсблоккаппспаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockchangelanguage"></a>Windows10GeneralConfiguration.SettingsBlockChangeLanguage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/AllowLanguage
+### <a name="windows10generalconfigurationsettingsblockchangelanguage"></a>Windows10GeneralConfiguration. Сеттингсблоккчанжелангуаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/алловлангуаже
 
-#### <a name="windows10generalconfigurationsettingsblockchangepowersleep"></a>Windows10GeneralConfiguration.SettingsBlockChangePowerSleep 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/AllowPowerSleep
+### <a name="windows10generalconfigurationsettingsblockchangepowersleep"></a>Windows10GeneralConfiguration. Сеттингсблоккчанжеповерслип 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/алловповерслип
 
-#### <a name="windows10generalconfigurationsettingsblockchangeregion"></a>Windows10GeneralConfiguration.SettingsBlockChangeRegion 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/AllowRegion
+### <a name="windows10generalconfigurationsettingsblockchangeregion"></a>Windows10GeneralConfiguration. Сеттингсблоккчанжерегион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/алловрегион
 
-#### <a name="windows10generalconfigurationsettingsblockchangesystemtime"></a>Windows10GeneralConfiguration.SettingsBlockChangeSystemTime 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/AllowDateTime
+### <a name="windows10generalconfigurationsettingsblockchangesystemtime"></a>Windows10GeneralConfiguration. Сеттингсблоккчанжесистемтиме 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/алловдатетиме
 
-#### <a name="windows10generalconfigurationsettingsblockdevicespage"></a>Windows10GeneralConfiguration.SettingsBlockDevicesPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockdevicespage"></a>Windows10GeneralConfiguration. Сеттингсблоккдевицеспаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockeaseofaccesspage"></a>Windows10GeneralConfiguration.SettingsBlockEaseOfAccessPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockeaseofaccesspage"></a>Windows10GeneralConfiguration. Сеттингсблоккеасеофакцесспаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockeditdevicename"></a>Windows10GeneralConfiguration.SettingsBlockEditDeviceName 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/AllowEditDeviceName
+### <a name="windows10generalconfigurationsettingsblockeditdevicename"></a>Windows10GeneralConfiguration. Сеттингсблоккедитдевиценаме 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/алловедитдевиценаме
 
-#### <a name="windows10generalconfigurationsettingsblockgamingpage"></a>Windows10GeneralConfiguration.SettingsBlockGamingPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockgamingpage"></a>Windows10GeneralConfiguration. Сеттингсблоккгамингпаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblocknetworkinternetpage"></a>Windows10GeneralConfiguration.SettingsBlockNetworkInternetPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblocknetworkinternetpage"></a>Windows10GeneralConfiguration. Сеттингсблоккнетворкинтернетпаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockpersonalizationpage"></a>Windows10GeneralConfiguration.SettingsBlockPersonalizationPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockpersonalizationpage"></a>Windows10GeneralConfiguration. Сеттингсблоккперсонализатионпаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockprivacypage"></a>Windows10GeneralConfiguration.SettingsBlockPrivacyPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockprivacypage"></a>Windows10GeneralConfiguration. Сеттингсблоккприваципаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockremoveprovisioningpackage"></a>Windows10GeneralConfiguration.SettingsBlockRemoveProvisioningPackage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Security/AllowRemoveProvisioningPackage
+### <a name="windows10generalconfigurationsettingsblockremoveprovisioningpackage"></a>Windows10GeneralConfiguration. Сеттингсблоккремовепровисионингпаккаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/секурити/алловремовепровисионингпаккаже
 
-#### <a name="windows10generalconfigurationsettingsblocksystempage"></a>Windows10GeneralConfiguration.SettingsBlockSystemPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblocksystempage"></a>Windows10GeneralConfiguration. Сеттингсблокксистемпаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblocktimelanguagepage"></a>Windows10GeneralConfiguration.SettingsBlockTimeLanguagePage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblocktimelanguagepage"></a>Windows10GeneralConfiguration. Сеттингсблокктимелангуажепаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationsettingsblockupdatesecuritypage"></a>Windows10GeneralConfiguration.SettingsBlockUpdateSecurityPage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Settings/PageVisibilityList
+### <a name="windows10generalconfigurationsettingsblockupdatesecuritypage"></a>Windows10GeneralConfiguration. Сеттингсблоккупдатесекуритипаже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Сеттингс/пажевисибилитилист
 
-#### <a name="windows10generalconfigurationshareduserappdataallowed"></a>Windows10GeneralConfiguration.SharedUserAppDataAllowed 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/AllowSharedUserAppData
+### <a name="windows10generalconfigurationshareduserappdataallowed"></a>Windows10GeneralConfiguration. Шаредусераппдатаалловед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/алловшаредусераппдата
 
-#### <a name="windows10generalconfigurationsmartscreenblockpromptoverride"></a>Windows10GeneralConfiguration.SmartScreenBlockPromptOverride 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/PreventSmartScreenPromptOverride
+### <a name="windows10generalconfigurationsmartscreenblockpromptoverride"></a>Windows10GeneralConfiguration. Смартскринблоккпромптоверриде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/превентсмартскринпромптоверриде
 
-#### <a name="windows10generalconfigurationsmartscreenblockpromptoverrideforfiles"></a>Windows10GeneralConfiguration.SmartScreenBlockPromptOverrideForFiles 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/PreventSmartScreenPromptOverrideForFiles
+### <a name="windows10generalconfigurationsmartscreenblockpromptoverrideforfiles"></a>Windows10GeneralConfiguration. Смартскринблоккпромптоверридефорфилес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/превентсмартскринпромптоверридефорфилес
 
-#### <a name="windows10generalconfigurationsmartscreenenableappinstallcontrol"></a>Windows10GeneralConfiguration.SmartScreenEnableAppInstallControl 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/SmartScreen/EnableAppInstallControl
+### <a name="windows10generalconfigurationsmartscreenenableappinstallcontrol"></a>Windows10GeneralConfiguration. Смартскриненаблеаппинсталлконтрол 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/смартскрин/енаблеаппинсталлконтрол
 
-#### <a name="windows10generalconfigurationstartblockunpinningappsfromtaskbar"></a>Windows10GeneralConfiguration.StartBlockUnpinningAppsFromTaskbar 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/NoPinningToTaskbar
+### <a name="windows10generalconfigurationstartblockunpinningappsfromtaskbar"></a>Windows10GeneralConfiguration. Стартблоккунпиннингаппсфромтаскбар 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/нопиннингтотаскбар
 
-#### <a name="windows10generalconfigurationstartmenuapplistvisibility"></a>Windows10GeneralConfiguration.StartMenuAppListVisibility 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideAppList
+### <a name="windows10generalconfigurationstartmenuapplistvisibility"></a>Windows10GeneralConfiguration. Стартменуапплиствисибилити 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидеапплист
 
-#### <a name="windows10generalconfigurationstartmenuhidechangeaccountsettings"></a>Windows10GeneralConfiguration.StartMenuHideChangeAccountSettings 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideChangeAccountSettings
+### <a name="windows10generalconfigurationstartmenuhidechangeaccountsettings"></a>Windows10GeneralConfiguration. Стартменухидечанжеаккаунтсеттингс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидечанжеаккаунтсеттингс
 
-#### <a name="windows10generalconfigurationstartmenuhidefrequentlyusedapps"></a>Windows10GeneralConfiguration.StartMenuHideFrequentlyUsedApps 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideFrequentlyUsedApps
+### <a name="windows10generalconfigurationstartmenuhidefrequentlyusedapps"></a>Windows10GeneralConfiguration. Стартменухидефрекуентлюседаппс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидефрекуентлюседаппс
 
-#### <a name="windows10generalconfigurationstartmenuhidehibernate"></a>Windows10GeneralConfiguration.StartMenuHideHibernate 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideHibernate
+### <a name="windows10generalconfigurationstartmenuhidehibernate"></a>Windows10GeneralConfiguration. Стартменухидехибернате 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидехибернате
 
-#### <a name="windows10generalconfigurationstartmenuhidelock"></a>Windows10GeneralConfiguration.StartMenuHideLock 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideLock
+### <a name="windows10generalconfigurationstartmenuhidelock"></a>Windows10GeneralConfiguration. Стартменухиделокк 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хиделокк
 
-#### <a name="windows10generalconfigurationstartmenuhidepowerbutton"></a>Windows10GeneralConfiguration.StartMenuHidePowerButton 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HidePowerButton
+### <a name="windows10generalconfigurationstartmenuhidepowerbutton"></a>Windows10GeneralConfiguration. Стартменухидеповербуттон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидеповербуттон
 
-#### <a name="windows10generalconfigurationstartmenuhiderecentjumplists"></a>Windows10GeneralConfiguration.StartMenuHideRecentJumpLists 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideRecentJumplists
+### <a name="windows10generalconfigurationstartmenuhiderecentjumplists"></a>Windows10GeneralConfiguration. Стартменухидерецентжумплистс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидерецентжумплистс
 
-#### <a name="windows10generalconfigurationstartmenuhiderecentlyaddedapps"></a>Windows10GeneralConfiguration.StartMenuHideRecentlyAddedApps 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideRecentlyAddedApps
+### <a name="windows10generalconfigurationstartmenuhiderecentlyaddedapps"></a>Windows10GeneralConfiguration. Стартменухидерецентляддедаппс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидерецентляддедаппс
 
-#### <a name="windows10generalconfigurationstartmenuhiderestartoptions"></a>Windows10GeneralConfiguration.StartMenuHideRestartOptions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideRestart
+### <a name="windows10generalconfigurationstartmenuhiderestartoptions"></a>Windows10GeneralConfiguration. Стартменухидерестартоптионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидерестарт
 
-#### <a name="windows10generalconfigurationstartmenuhideshutdown"></a>Windows10GeneralConfiguration.StartMenuHideShutDown 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideShutDown
+### <a name="windows10generalconfigurationstartmenuhideshutdown"></a>Windows10GeneralConfiguration. Стартменухидешутдовн 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидешутдовн
 
-#### <a name="windows10generalconfigurationstartmenuhidesignout"></a>Windows10GeneralConfiguration.StartMenuHideSignOut 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideSignOut
+### <a name="windows10generalconfigurationstartmenuhidesignout"></a>Windows10GeneralConfiguration. Стартменухидесигнаут 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидесигнаут
 
-#### <a name="windows10generalconfigurationstartmenuhidesleep"></a>Windows10GeneralConfiguration.StartMenuHideSleep 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideSleep
+### <a name="windows10generalconfigurationstartmenuhidesleep"></a>Windows10GeneralConfiguration. Стартменухидеслип 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидеслип
 
-#### <a name="windows10generalconfigurationstartmenuhideswitchaccount"></a>Windows10GeneralConfiguration.StartMenuHideSwitchAccount 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideSwitchAccount
+### <a name="windows10generalconfigurationstartmenuhideswitchaccount"></a>Windows10GeneralConfiguration. Стартменухидесвитчаккаунт 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидесвитчаккаунт
 
-#### <a name="windows10generalconfigurationstartmenuhideusertile"></a>Windows10GeneralConfiguration.StartMenuHideUserTile 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/HideUserTile
+### <a name="windows10generalconfigurationstartmenuhideusertile"></a>Windows10GeneralConfiguration. Стартменухидеусертиле 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/хидеусертиле
 
-#### <a name="windows10generalconfigurationstartmenulayoutedgeassetsxml"></a>Windows10GeneralConfiguration.StartMenuLayoutEdgeAssetsXml 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/ImportEdgeAssets
+### <a name="windows10generalconfigurationstartmenulayoutedgeassetsxml"></a>Windows10GeneralConfiguration. Стартменулайаутеджеассетсксмл 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/импортеджеассетс
 
-#### <a name="windows10generalconfigurationstartmenulayoutxml"></a>Windows10GeneralConfiguration.StartMenuLayoutXml 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/StartLayout
+### <a name="windows10generalconfigurationstartmenulayoutxml"></a>Windows10GeneralConfiguration. Стартменулайаутксмл 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/стартлайаут
 
-#### <a name="windows10generalconfigurationstartmenumode"></a>Windows10GeneralConfiguration.StartMenuMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/ForceStartSize
+### <a name="windows10generalconfigurationstartmenumode"></a>Windows10GeneralConfiguration. Стартменумоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/форцестартсизе
 
-#### <a name="windows10generalconfigurationstartmenupinnedfolderdocuments"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderDocuments 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderDocuments
+### <a name="windows10generalconfigurationstartmenupinnedfolderdocuments"></a>Windows10GeneralConfiguration. Стартменупиннедфолдердокументс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдердокументс
 
-#### <a name="windows10generalconfigurationstartmenupinnedfolderdownloads"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderDownloads 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderDownloads
+### <a name="windows10generalconfigurationstartmenupinnedfolderdownloads"></a>Windows10GeneralConfiguration. Стартменупиннедфолдердовнлоадс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдердовнлоадс
 
-#### <a name="windows10generalconfigurationstartmenupinnedfolderfileexplorer"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderFileExplorer 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderFileExplorer
+### <a name="windows10generalconfigurationstartmenupinnedfolderfileexplorer"></a>Windows10GeneralConfiguration. Стартменупиннедфолдерфиликсплорер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдерфиликсплорер
 
-#### <a name="windows10generalconfigurationstartmenupinnedfolderhomegroup"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderHomeGroup 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderHomeGroup
+### <a name="windows10generalconfigurationstartmenupinnedfolderhomegroup"></a>Windows10GeneralConfiguration. Стартменупиннедфолдерхомеграуп 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдерхомеграуп
 
-#### <a name="windows10generalconfigurationstartmenupinnedfoldermusic"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderMusic 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderMusic
+### <a name="windows10generalconfigurationstartmenupinnedfoldermusic"></a>Windows10GeneralConfiguration. Стартменупиннедфолдермусик 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдермусик
 
-#### <a name="windows10generalconfigurationstartmenupinnedfoldernetwork"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderNetwork 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderNetwork
+### <a name="windows10generalconfigurationstartmenupinnedfoldernetwork"></a>Windows10GeneralConfiguration. Стартменупиннедфолдернетворк 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдернетворк
 
-#### <a name="windows10generalconfigurationstartmenupinnedfolderpersonalfolder"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderPersonalFolder 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderPersonalFolder
+### <a name="windows10generalconfigurationstartmenupinnedfolderpersonalfolder"></a>Windows10GeneralConfiguration. Стартменупиннедфолдерперсоналфолдер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдерперсоналфолдер
 
-#### <a name="windows10generalconfigurationstartmenupinnedfolderpictures"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderPictures 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderPictures
+### <a name="windows10generalconfigurationstartmenupinnedfolderpictures"></a>Windows10GeneralConfiguration. Стартменупиннедфолдерпиктурес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдерпиктурес
 
-#### <a name="windows10generalconfigurationstartmenupinnedfoldersettings"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderSettings 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderSettings
+### <a name="windows10generalconfigurationstartmenupinnedfoldersettings"></a>Windows10GeneralConfiguration. Стартменупиннедфолдерсеттингс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдерсеттингс
 
-#### <a name="windows10generalconfigurationstartmenupinnedfoldervideos"></a>Windows10GeneralConfiguration.StartMenuPinnedFolderVideos 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Start/AllowPinnedFolderVideos
+### <a name="windows10generalconfigurationstartmenupinnedfoldervideos"></a>Windows10GeneralConfiguration. Стартменупиннедфолдервидеос 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/старт/алловпиннедфолдервидеос
 
-#### <a name="windows10generalconfigurationstorageblockremovablestorage"></a>Windows10GeneralConfiguration.StorageBlockRemovableStorage 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/AllowStorageCard
+### <a name="windows10generalconfigurationstorageblockremovablestorage"></a>Windows10GeneralConfiguration. Сторажеблоккремоваблестораже 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/алловсторажекард
 
-#### <a name="windows10generalconfigurationstoragerequiremobiledeviceencryption"></a>Windows10GeneralConfiguration.StorageRequireMobileDeviceEncryption 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Security/RequireDeviceEncryption
+### <a name="windows10generalconfigurationstoragerequiremobiledeviceencryption"></a>Windows10GeneralConfiguration. Сторажерекуиремобиледевицеенкриптион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/секурити/рекуиредевицеенкриптион
 
-#### <a name="windows10generalconfigurationstoragerestrictappdatatosystemvolume"></a>Windows10GeneralConfiguration.StorageRestrictAppDataToSystemVolume 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/RestrictAppDataToSystemVolume
+### <a name="windows10generalconfigurationstoragerestrictappdatatosystemvolume"></a>Windows10GeneralConfiguration. Сторажерестриктаппдататосистемволуме 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/рестриктаппдататосистемволуме
 
-#### <a name="windows10generalconfigurationstoragerestrictappinstalltosystemvolume"></a>Windows10GeneralConfiguration.StorageRestrictAppInstallToSystemVolume 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/RestrictAppToSystemVolume
+### <a name="windows10generalconfigurationstoragerestrictappinstalltosystemvolume"></a>Windows10GeneralConfiguration. Сторажерестриктаппинсталлтосистемволуме 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/рестриктапптосистемволуме
 
-#### <a name="windows10generalconfigurationsystembootstartdriverinitialization"></a>Windows10GeneralConfiguration.SystemBootStartDriverInitialization 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/BootStartDriverInitialization
+### <a name="windows10generalconfigurationsystembootstartdriverinitialization"></a>Windows10GeneralConfiguration. Систембутстартдриверинитиализатион 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/бутстартдриверинитиализатион
 
-#### <a name="windows10generalconfigurationsystemtelemetryproxyserver"></a>Windows10GeneralConfiguration.SystemTelemetryProxyServer 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/System/TelemetryProxy
+### <a name="windows10generalconfigurationsystemtelemetryproxyserver"></a>Windows10GeneralConfiguration. Системтелеметрипроксисервер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/систем/телеметрипрокси
 
-#### <a name="windows10generalconfigurationtaskmanagerblockendtask"></a>Windows10GeneralConfiguration.TaskManagerBlockEndTask 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/TaskManager/AllowEndTask
+### <a name="windows10generalconfigurationtaskmanagerblockendtask"></a>Windows10GeneralConfiguration. Таскманажерблоккендтаск 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/таскманажер/алловендтаск
 
-#### <a name="windows10generalconfigurationtenantlockdownrequirenetworkduringoutofboxexperience"></a>Windows10GeneralConfiguration.TenantLockdownRequireNetworkDuringOutOfBoxExperience 
-**CSP**: ./Vendor/MSFT/TenantLockdown  
-**Смещение URI**: /RequireNetworkInOOBE
+### <a name="windows10generalconfigurationtenantlockdownrequirenetworkduringoutofboxexperience"></a>Windows10GeneralConfiguration. Тенантлоккдовнрекуиренетворкдурингаутофбоксекспериенце 
+**CSP**:./вендор/мсфт/тенантлоккдовн  
+**URI смещения**:/рекуиренетворкинубе
 
-#### <a name="windows10generalconfigurationusbblocked"></a>Windows10GeneralConfiguration.UsbBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Connectivity/AllowUSBConnection
+### <a name="windows10generalconfigurationusbblocked"></a>Windows10GeneralConfiguration. Усбблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Коннективити/алловусбконнектион
 
-#### <a name="windows10generalconfigurationvoicerecordingblocked"></a>Windows10GeneralConfiguration.VoiceRecordingBlocked 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowVoiceRecording
+### <a name="windows10generalconfigurationvoicerecordingblocked"></a>Windows10GeneralConfiguration. Воицерекордингблоккед 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвоицерекординг
 
-#### <a name="windows10generalconfigurationwebrtcblocklocalhostipaddress"></a>Windows10GeneralConfiguration.WebRtcBlockLocalhostIpAddress 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/PreventUsingLocalHostIPAddressForWebRTC
+### <a name="windows10generalconfigurationwebrtcblocklocalhostipaddress"></a>Windows10GeneralConfiguration. Вебрткблокклокалхостипаддресс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/превентусинглокалхостипаддрессфорвебртк
 
-#### <a name="windows10generalconfigurationwifiblockautomaticconnecthotspots"></a>Windows10GeneralConfiguration.WiFiBlockAutomaticConnectHotspots 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WiFi/AllowAutoConnectToWiFiSenseHotspots
+### <a name="windows10generalconfigurationwifiblockautomaticconnecthotspots"></a>Windows10GeneralConfiguration. Вифиблоккаутоматикконнексотспотс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ВИФИ/алловаутоконнекттовифисенсехотспотс
 
-#### <a name="windows10generalconfigurationwifiblocked"></a>Windows10GeneralConfiguration.WiFiBlocked 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Wifi/AllowWiFi
+### <a name="windows10generalconfigurationwifiblocked"></a>Windows10GeneralConfiguration. Вифиблоккед 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ВИФИ/алловвифи
 
-#### <a name="windows10generalconfigurationwifiblockmanualconfiguration"></a>Windows10GeneralConfiguration.WiFiBlockManualConfiguration 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WiFi/AllowManualWiFi/Configuration
+### <a name="windows10generalconfigurationwifiblockmanualconfiguration"></a>Windows10GeneralConfiguration. Вифиблоккмануалконфигуратион 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ВИФИ/алловмануалвифи/конфигуратион
 
-#### <a name="windows10generalconfigurationwifiscaninterval"></a>Windows10GeneralConfiguration.WiFiScanInterval 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WiFi/WLANScanMode
+### <a name="windows10generalconfigurationwifiscaninterval"></a>Windows10GeneralConfiguration. Вифисканинтервал 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/ВИФИ/влансканмоде
 
-#### <a name="windows10generalconfigurationwindowslogonlocalusersondomainjoinedcomputers"></a>Windows10GeneralConfiguration.WindowsLogOnLocalUsersOnDomainJoinedComputers 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WindowsLogon/EnumerateLocalUsersOnDomainJoinedComputers
+### <a name="windows10generalconfigurationwindowslogonlocalusersondomainjoinedcomputers"></a>Windows10GeneralConfiguration. Виндовслогонлокалусерсондомаинжоинедкомпутерс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/виндовслогон/енумерателокалусерсондомаинжоинедкомпутерс
 
-#### <a name="windows10generalconfigurationwindowsspotlightblockconsumerspecificfeatures"></a>Windows10GeneralConfiguration.WindowsSpotlightBlockConsumerSpecificFeatures 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowWindowsConsumerFeatures
+### <a name="windows10generalconfigurationwindowsspotlightblockconsumerspecificfeatures"></a>Windows10GeneralConfiguration. ВиндовсспотлигхтблоккконсумерспеЦификфеатурес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвиндовсконсумерфеатурес
 
-#### <a name="windows10generalconfigurationwindowsspotlightblocked"></a>Windows10GeneralConfiguration.WindowsSpotlightBlocked 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowWindowsSpotlight
+### <a name="windows10generalconfigurationwindowsspotlightblocked"></a>Windows10GeneralConfiguration. Виндовсспотлигхтблоккед 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвиндовсспотлигхт
 
-#### <a name="windows10generalconfigurationwindowsspotlightblockonactioncenter"></a>Windows10GeneralConfiguration.WindowsSpotlightBlockOnActionCenter 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowWindowsSpotlightOnActionCenter
+### <a name="windows10generalconfigurationwindowsspotlightblockonactioncenter"></a>Windows10GeneralConfiguration. Виндовсспотлигхтблокконактионцентер 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвиндовсспотлигхтонактионцентер
 
-#### <a name="windows10generalconfigurationwindowsspotlightblocktailoredexperiences"></a>Windows10GeneralConfiguration.WindowsSpotlightBlockTailoredExperiences 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowTailoredExperiencesWithDiagnosticData
+### <a name="windows10generalconfigurationwindowsspotlightblocktailoredexperiences"></a>Windows10GeneralConfiguration. Виндовсспотлигхтблокктаилоредекспериенцес 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловтаилоредекспериенцесвисдиагностикдата
 
-#### <a name="windows10generalconfigurationwindowsspotlightblockthirdpartynotifications"></a>Windows10GeneralConfiguration.WindowsSpotlightBlockThirdPartyNotifications 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight
+### <a name="windows10generalconfigurationwindowsspotlightblockthirdpartynotifications"></a>Windows10GeneralConfiguration.WindowsSpotlightBlockThirdPartyNotifications 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловсирдпартисугжестионсинвиндовсспотлигхт
 
-#### <a name="windows10generalconfigurationwindowsspotlightblockwelcomeexperience"></a>Windows10GeneralConfiguration.WindowsSpotlightBlockWelcomeExperience 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowWindowsSpotlightWindowsWelcomeExperience
+### <a name="windows10generalconfigurationwindowsspotlightblockwelcomeexperience"></a>Windows10GeneralConfiguration. Виндовсспотлигхтблокквелкомикспериенце 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвиндовсспотлигхтвиндовсвелкомикспериенце
 
-#### <a name="windows10generalconfigurationwindowsspotlightblockwindowstips"></a>Windows10GeneralConfiguration.WindowsSpotlightBlockWindowsTips 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/AllowWindowsTips
+### <a name="windows10generalconfigurationwindowsspotlightblockwindowstips"></a>Windows10GeneralConfiguration. Виндовсспотлигхтблокквиндовстипс 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/алловвиндовстипс
 
-#### <a name="windows10generalconfigurationwindowsspotlightconfigureonlockscreen"></a>Windows10GeneralConfiguration.WindowsSpotlightConfigureOnLockScreen 
-**CSP**: ./User/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Experience/ConfigureWindowsSpotlightOnLockScreen
+### <a name="windows10generalconfigurationwindowsspotlightconfigureonlockscreen"></a>Windows10GeneralConfiguration. Виндовсспотлигхтконфигуреонлоккскрин 
+**CSP**:./Усер/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/експериенце/конфигуревиндовсспотлигхтонлоккскрин
 
-#### <a name="windows10generalconfigurationwindowsstoreblockautoupdate"></a>Windows10GeneralConfiguration.WindowsStoreBlockAutoUpdate 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/AllowAppStoreAutoUpdate
+### <a name="windows10generalconfigurationwindowsstoreblockautoupdate"></a>Windows10GeneralConfiguration. Виндовсстореблоккаутаупдате 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/алловаппстореаутаупдате
 
-#### <a name="windows10generalconfigurationwindowsstoreblocked"></a>Windows10GeneralConfiguration.WindowsStoreBlocked 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/AllowStore
+### <a name="windows10generalconfigurationwindowsstoreblocked"></a>Windows10GeneralConfiguration. Виндовсстореблоккед 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/алловсторе
 
-#### <a name="windows10generalconfigurationwindowsstoreenableprivatestoreonly"></a>Windows10GeneralConfiguration.WindowsStoreEnablePrivateStoreOnly 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ApplicationManagement/RequirePrivateStoreOnly
+### <a name="windows10generalconfigurationwindowsstoreenableprivatestoreonly"></a>Windows10GeneralConfiguration. Виндовссторинаблеприватестореонли 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/аппликатионманажемент/рекуиреприватестореонли
 
-#### <a name="windows10generalconfigurationwirelessdisplayblockprojectiontothisdevice"></a>Windows10GeneralConfiguration.WirelessDisplayBlockProjectionToThisDevice 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WirelessDisplay/AllowProjectionToPC
+### <a name="windows10generalconfigurationwirelessdisplayblockprojectiontothisdevice"></a>Windows10GeneralConfiguration. Вирелессдисплайблоккпрожектионтосисдевице 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/вирелессдисплай/алловпрожектионтопк
 
-#### <a name="windows10generalconfigurationwirelessdisplayblockuserinputfromreceiver"></a>Windows10GeneralConfiguration.WirelessDisplayBlockUserInputFromReceiver 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WirelessDisplay/AllowUserInputFromWirelessDisplayReceiver
+### <a name="windows10generalconfigurationwirelessdisplayblockuserinputfromreceiver"></a>Windows10GeneralConfiguration. Вирелессдисплайблоккусеринпутфромрецеивер 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/вирелессдисплай/алловусеринпутфромвирелессдисплайрецеивер
 
-#### <a name="windows10generalconfigurationwirelessdisplayrequirepinforpairing"></a>Windows10GeneralConfiguration.WirelessDisplayRequirePinForPairing 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/WirelessDisplay/RequirePINForPairing
+### <a name="windows10generalconfigurationwirelessdisplayrequirepinforpairing"></a>Windows10GeneralConfiguration. Вирелессдисплайрекуирепинфорпаиринг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/вирелессдисплай/рекуирепинфорпаиринг
 
-#### <a name="windows10networkboundaryconfigurationwindowsnetworkisolationpolicy"></a>Windows10NetworkBoundaryConfiguration.WindowsNetworkIsolationPolicy 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/NetworkIsolation/EnterpriseCloudResources, /Config/NetworkIsolation/EnterpriseIPRange, /Config/NetworkIsolation/EnterpriseIPRangesAreAuthoritative, / config/NetworkIsolation / EnterpriseInternalProxyServers, /Config/NetworkIsolation/EnterpriseNetworkDomainNames, /Config/NetworkIsolation/EnterpriseProxyServers, /Config/NetworkIsolation/EnterpriseProxyServersAreAuthoritative, / config/NetworkIsolation / NeutralResources
+### <a name="windows10networkboundaryconfigurationwindowsnetworkisolationpolicy"></a>Windows10NetworkBoundaryConfiguration. Виндовснетворкисолатионполици 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/нетворкисолатион/ентерприсеклаудресаурцес,/конфиг/нетворкисолатион/ентерприсеипранже,/config/NetworkIsolation/EnterpriseIPRangesAreAuthoritative,/config/NetworkIsolation/ Ентерприсеинтерналпроксисерверс,/конфиг/нетворкисолатион/ентерприсенетворкдомаиннамес,/Config/NetworkIsolation/EnterpriseProxyServers,/Config/NetworkIsolation/EnterpriseProxyServersAreAuthoritative,/Config/NetworkIsolation/ неутралресаурцес
 
-#### <a name="windows10policyoverrideconfigurationprefermdmovergrouppolicy"></a>Windows10PolicyOverrideConfiguration.PreferMdmOverGroupPolicy 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/ControlPolicyConflict/MDMWinsOverGP
+### <a name="windows10policyoverrideconfigurationprefermdmovergrouppolicy"></a>Windows10PolicyOverrideConfiguration. Префермдмоверграупполици 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/контролполициконфликт/мдмвинсовергп
 
-#### <a name="windows10secureassessmentconfigurationallowprinting"></a>Windows10SecureAssessmentConfiguration.AllowPrinting 
-**CSP**: ./Vendor/MSFT/SecureAssessment  
-**Смещение URI**: /RequirePrinting
+### <a name="windows10secureassessmentconfigurationallowprinting"></a>Windows10SecureAssessmentConfiguration. Алловпринтинг 
+**CSP**:./вендор/мсфт/секуреассессмент  
+**URI смещения**:/рекуирепринтинг
 
-#### <a name="windows10secureassessmentconfigurationallowscreencapture"></a>Windows10SecureAssessmentConfiguration.AllowScreenCapture 
-**CSP**: ./Vendor/MSFT/SecureAssessment  
-**Смещение URI**: /AllowScreenMonitoring
+### <a name="windows10secureassessmentconfigurationallowscreencapture"></a>Windows10SecureAssessmentConfiguration. Алловскринкаптуре 
+**CSP**:./вендор/мсфт/секуреассессмент  
+**URI смещения**:/алловскринмониторинг
 
-#### <a name="windows10secureassessmentconfigurationallowtextsuggestion"></a>Windows10SecureAssessmentConfiguration.AllowTextSuggestion 
-**CSP**: ./Vendor/MSFT/SecureAssessment  
-**Смещение URI**: /AllowTextSuggestions
+### <a name="windows10secureassessmentconfigurationallowtextsuggestion"></a>Windows10SecureAssessmentConfiguration.AllowTextSuggestion 
+**CSP**:./вендор/мсфт/секуреассессмент  
+**URI смещения**:/алловтекстсугжестионс
 
-#### <a name="windows10secureassessmentconfigurationconfigurationaccount"></a>Windows10SecureAssessmentConfiguration.ConfigurationAccount 
-**CSP**: ./Vendor/MSFT/SecureAssessment  
-**Смещение URI**: /TesterAccount
+### <a name="windows10secureassessmentconfigurationconfigurationaccount"></a>Windows10SecureAssessmentConfiguration. Конфигуратионаккаунт 
+**CSP**:./вендор/мсфт/секуреассессмент  
+**URI смещения**:/тестераккаунт
 
-#### <a name="windows10secureassessmentconfigurationconfigurationaccounttype"></a>Windows10SecureAssessmentConfiguration.ConfigurationAccountType 
-**CSP**: ./Vendor/MSFT/SecureAssessment  
-**Смещение URI**: /TesterAccount
+### <a name="windows10secureassessmentconfigurationconfigurationaccounttype"></a>Windows10SecureAssessmentConfiguration. Конфигуратионаккаунттипе 
+**CSP**:./вендор/мсфт/секуреассессмент  
+**URI смещения**:/тестераккаунт
 
-#### <a name="windows10secureassessmentconfigurationlaunchuri"></a>Windows10SecureAssessmentConfiguration.LaunchUri 
-**CSP**: ./Vendor/MSFT/SecureAssessment  
-**Смещение URI**: /LaunchURI
+### <a name="windows10secureassessmentconfigurationlaunchuri"></a>Windows10SecureAssessmentConfiguration. Лаунчури 
+**CSP**:./вендор/мсфт/секуреассессмент  
+**URI смещения**:/лаунчури
 
-#### <a name="windows10teamgeneralconfigurationazureoperationalinsightsblocktelemetry"></a>Windows10TeamGeneralConfiguration.AzureOperationalInsightsBlockTelemetry 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / MOMAgent/WorkspaceID и WorkspaceKey/MOMAgent /
+### <a name="windows10teamgeneralconfigurationazureoperationalinsightsblocktelemetry"></a>Windows10TeamGeneralConfiguration. Азуреоператионалинсигхтсблокктелеметри 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/Момажент/воркспацеид и/момажент/воркспацекэй
 
-#### <a name="windows10teamgeneralconfigurationazureoperationalinsightsworkspaceid"></a>Windows10TeamGeneralConfiguration.AzureOperationalInsightsWorkspaceId 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / MOMAgent/WorkspaceID
+### <a name="windows10teamgeneralconfigurationazureoperationalinsightsworkspaceid"></a>Windows10TeamGeneralConfiguration. Азуреоператионалинсигхтсворкспацеид 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/момажент/воркспацеид
 
-#### <a name="windows10teamgeneralconfigurationazureoperationalinsightsworkspacekey"></a>Windows10TeamGeneralConfiguration.AzureOperationalInsightsWorkspaceKey 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / MOMAgent/WorkspaceKey
+### <a name="windows10teamgeneralconfigurationazureoperationalinsightsworkspacekey"></a>Windows10TeamGeneralConfiguration. Азуреоператионалинсигхтсворкспацекэй 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/момажент/воркспацекэй
 
-#### <a name="windows10teamgeneralconfigurationconnectappblockautolaunch"></a>Windows10TeamGeneralConfiguration.ConnectAppBlockAutoLaunch 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /InBoxApps/Connect/AutoLaunch
+### <a name="windows10teamgeneralconfigurationconnectappblockautolaunch"></a>Windows10TeamGeneralConfiguration. Коннектаппблоккаутолаунч 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/инбоксаппс/Коннект/аутолаунч
 
-#### <a name="windows10teamgeneralconfigurationdeviceaccountblockexchangeservices"></a>Windows10TeamGeneralConfiguration.DeviceAccountBlockExchangeServices 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / DeviceAccount/электронная почта
+### <a name="windows10teamgeneralconfigurationdeviceaccountblockexchangeservices"></a>Windows10TeamGeneralConfiguration. Девицеаккаунтблоккексчанжесервицес 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/девицеаккаунт/емаил
 
-#### <a name="windows10teamgeneralconfigurationdeviceaccountemailaddress"></a>Windows10TeamGeneralConfiguration.DeviceAccountEmailAddress 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / DeviceAccount/электронная почта
+### <a name="windows10teamgeneralconfigurationdeviceaccountemailaddress"></a>Windows10TeamGeneralConfiguration. Девицеаккаунтемаиладдресс 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/девицеаккаунт/емаил
 
-#### <a name="windows10teamgeneralconfigurationdeviceaccountexchangeserveraddress"></a>Windows10TeamGeneralConfiguration.DeviceAccountExchangeServerAddress 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / DeviceAccount/ExchangeServer
+### <a name="windows10teamgeneralconfigurationdeviceaccountexchangeserveraddress"></a>Windows10TeamGeneralConfiguration. Девицеаккаунтексчанжесервераддресс 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/девицеаккаунт/ексчанжесервер
 
-#### <a name="windows10teamgeneralconfigurationdeviceaccountrequirepasswordrotation"></a>Windows10TeamGeneralConfiguration.DeviceAccountRequirePasswordRotation 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / DeviceAccount/PasswordRotationEnabled
+### <a name="windows10teamgeneralconfigurationdeviceaccountrequirepasswordrotation"></a>Windows10TeamGeneralConfiguration. Девицеаккаунтрекуирепассвордротатион 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/девицеаккаунт/пассвордротатионенаблед
 
-#### <a name="windows10teamgeneralconfigurationdeviceaccountsessioninitiationprotocoladdress"></a>Windows10TeamGeneralConfiguration.DeviceAccountSessionInitiationProtocolAddress 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / DeviceAccount/SipAddress
+### <a name="windows10teamgeneralconfigurationdeviceaccountsessioninitiationprotocoladdress"></a>Windows10TeamGeneralConfiguration. Девицеаккаунтсессионинитиатионпротоколаддресс 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/девицеаккаунт/сипаддресс
 
-#### <a name="windows10teamgeneralconfigurationmaintenancewindowblocked"></a>Windows10TeamGeneralConfiguration.MaintenanceWindowBlocked 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /MaintenanceHoursSimple/Hours/Duration и /MaintenanceHoursSimple/Hours/StartTime
+### <a name="windows10teamgeneralconfigurationmaintenancewindowblocked"></a>Windows10TeamGeneralConfiguration. Маинтенанцевиндовблоккед 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/Маинтенанцехаурссимпле/хаурс/дуратион и/маинтенанцехаурссимпле/хаурс/старттиме
 
-#### <a name="windows10teamgeneralconfigurationmaintenancewindowdurationinhours"></a>Windows10TeamGeneralConfiguration.MaintenanceWindowDurationInHours 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /MaintenanceHoursSimple/Hours/Duration
+### <a name="windows10teamgeneralconfigurationmaintenancewindowdurationinhours"></a>Windows10TeamGeneralConfiguration. Маинтенанцевиндовдуратионинхаурс 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/маинтенанцехаурссимпле/хаурс/дуратион
 
-#### <a name="windows10teamgeneralconfigurationmaintenancewindowstarttime"></a>Windows10TeamGeneralConfiguration.MaintenanceWindowStartTime 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /MaintenanceHoursSimple/Hours/StartTime
+### <a name="windows10teamgeneralconfigurationmaintenancewindowstarttime"></a>Windows10TeamGeneralConfiguration. Маинтенанцевиндовстарттиме 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/маинтенанцехаурссимпле/хаурс/старттиме
 
-#### <a name="windows10teamgeneralconfigurationmiracastblocked"></a>Windows10TeamGeneralConfiguration.MiracastBlocked 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /InBoxApps/WirelessProjection/Enabled
+### <a name="windows10teamgeneralconfigurationmiracastblocked"></a>Windows10TeamGeneralConfiguration. Миракастблоккед 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/инбоксаппс/вирелесспрожектион/енаблед
 
-#### <a name="windows10teamgeneralconfigurationmiracastchannel"></a>Windows10TeamGeneralConfiguration.MiracastChannel 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: InBoxApps/WirelessProjection/канала
+### <a name="windows10teamgeneralconfigurationmiracastchannel"></a>Windows10TeamGeneralConfiguration. Миракастчаннел 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/инбоксаппс/вирелесспрожектион/Чаннел
 
-#### <a name="windows10teamgeneralconfigurationmiracastrequirepin"></a>Windows10TeamGeneralConfiguration.MiracastRequirePin 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /InBoxApps/WirelessProjection/PINRequired
+### <a name="windows10teamgeneralconfigurationmiracastrequirepin"></a>Windows10TeamGeneralConfiguration. Миракастрекуирепин 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/инбоксаппс/вирелесспрожектион/пинрекуиред
 
-#### <a name="windows10teamgeneralconfigurationsettingsblockmymeetingsandfiles"></a>Windows10TeamGeneralConfiguration.SettingsBlockMyMeetingsAndFiles 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / свойства/DoNotShowMyMeetingsAndFiles
+### <a name="windows10teamgeneralconfigurationsettingsblockmymeetingsandfiles"></a>Windows10TeamGeneralConfiguration. Сеттингсблоккмимитингсандфилес 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/пропертиес/донотшовмимитингсандфилес
 
-#### <a name="windows10teamgeneralconfigurationsettingsblocksessionresume"></a>Windows10TeamGeneralConfiguration.SettingsBlockSessionResume 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / свойства/AllowSessionResume
+### <a name="windows10teamgeneralconfigurationsettingsblocksessionresume"></a>Windows10TeamGeneralConfiguration. Сеттингсблокксессионресуме 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/пропертиес/алловсессионресуме
 
-#### <a name="windows10teamgeneralconfigurationsettingsblocksigninsuggestions"></a>Windows10TeamGeneralConfiguration.SettingsBlockSigninSuggestions 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / свойства/DisableSigninSuggestions
+### <a name="windows10teamgeneralconfigurationsettingsblocksigninsuggestions"></a>Windows10TeamGeneralConfiguration. Сеттингсблокксигнинсугжестионс 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/пропертиес/дисаблесигнинсугжестионс
 
-#### <a name="windows10teamgeneralconfigurationsettingsdefaultvolume"></a>Windows10TeamGeneralConfiguration.SettingsDefaultVolume 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / свойства/DefaultVolume
+### <a name="windows10teamgeneralconfigurationsettingsdefaultvolume"></a>Windows10TeamGeneralConfiguration. Сеттингсдефаултволуме 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/пропертиес/дефаултволуме
 
-#### <a name="windows10teamgeneralconfigurationsettingsscreentimeoutinminutes"></a>Windows10TeamGeneralConfiguration.SettingsScreenTimeoutInMinutes 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / свойства/ScreenTimeout
+### <a name="windows10teamgeneralconfigurationsettingsscreentimeoutinminutes"></a>Windows10TeamGeneralConfiguration. Сеттингсскринтимеаутинминутес 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/пропертиес/скринтимеаут
 
-#### <a name="windows10teamgeneralconfigurationsettingssessiontimeoutinminutes"></a>Windows10TeamGeneralConfiguration.SettingsSessionTimeoutInMinutes 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / свойства/SessionTimeout
+### <a name="windows10teamgeneralconfigurationsettingssessiontimeoutinminutes"></a>Windows10TeamGeneralConfiguration. Сеттингссессионтимеаутинминутес 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/пропертиес/сессионтимеаут
 
-#### <a name="windows10teamgeneralconfigurationsettingssleeptimeoutinminutes"></a>Windows10TeamGeneralConfiguration.SettingsSleepTimeoutInMinutes 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: / свойства/SleepTimeout
+### <a name="windows10teamgeneralconfigurationsettingssleeptimeoutinminutes"></a>Windows10TeamGeneralConfiguration. Сеттингсслиптимеаутинминутес 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/пропертиес/слиптимеаут
 
-#### <a name="windows10teamgeneralconfigurationwelcomescreenbackgroundimageurl"></a>Windows10TeamGeneralConfiguration.WelcomeScreenBackgroundImageUrl 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /InBoxApps/Welcome/CurrentBackgroundPath
+### <a name="windows10teamgeneralconfigurationwelcomescreenbackgroundimageurl"></a>Windows10TeamGeneralConfiguration. Велкомескринбаккграундимажеурл 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/инбоксаппс/велкоме/куррентбаккграундпас
 
-#### <a name="windows10teamgeneralconfigurationwelcomescreenblockautomaticwakeup"></a>Windows10TeamGeneralConfiguration.WelcomeScreenBlockAutomaticWakeUp 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /InBoxApps/Welcome/AutoWakeScreen
+### <a name="windows10teamgeneralconfigurationwelcomescreenblockautomaticwakeup"></a>Windows10TeamGeneralConfiguration. Велкомескринблоккаутоматиквакеуп 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/инбоксаппс/велкоме/аутовакескрин
 
-#### <a name="windows10teamgeneralconfigurationwelcomescreenmeetinginformation"></a>Windows10TeamGeneralConfiguration.WelcomeScreenMeetingInformation 
-**CSP**: ./Vendor/MSFT/SurfaceHub  
-**Смещение URI**: /InBoxApps/Welcome/MeetingInfoOption
+### <a name="windows10teamgeneralconfigurationwelcomescreenmeetinginformation"></a>Windows10TeamGeneralConfiguration. Велкомескринмитингинформатион 
+**CSP**:./вендор/мсфт/сурфацехуб  
+**URI смещения**:/инбоксаппс/велкоме/митингинфуптион
 
-#### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectionoffboardingblob"></a>WindowsDefenderAdvancedThreatProtectionConfiguration.AdvancedThreatProtectionOffboardingBlob 
-**CSP**: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection  
-**Смещение URI**: /Offboarding 
+### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectionoffboardingblob"></a>Виндовсдефендерадванцедсреатпротектионконфигуратион. Адванцедсреатпротектионоффбоардингблоб 
+**CSP**:./девице/вендор/мсфт/виндовсадванцедсреатпротектион  
+**URI смещения**:/оффбоардинг 
 
-#### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectionoffboardingfilename"></a>WindowsDefenderAdvancedThreatProtectionConfiguration.AdvancedThreatProtectionOffboardingFilename
-**CSP**: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection  
-**Смещение URI**: /Offboarding 
+### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectionoffboardingfilename"></a>Виндовсдефендерадванцедсреатпротектионконфигуратион. Адванцедсреатпротектионоффбоардингфиленаме
+**CSP**:./девице/вендор/мсфт/виндовсадванцедсреатпротектион  
+**URI смещения**:/оффбоардинг 
 
-#### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectiononboardingblob"></a>WindowsDefenderAdvancedThreatProtectionConfiguration.AdvancedThreatProtectionOnboardingBlob 
-**CSP**: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection  
-**Смещение URI**: /Onboarding 
+### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectiononboardingblob"></a>Виндовсдефендерадванцедсреатпротектионконфигуратион. Адванцедсреатпротектиононбоардингблоб 
+**CSP**:./девице/вендор/мсфт/виндовсадванцедсреатпротектион  
+**URI смещения**:/онбоардинг 
 
-#### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectiononboardingfilename"></a>WindowsDefenderAdvancedThreatProtectionConfiguration.AdvancedThreatProtectionOnboardingFilename 
-**CSP**: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection  
-**Смещение URI**: /Onboarding 
+### <a name="windowsdefenderadvancedthreatprotectionconfigurationadvancedthreatprotectiononboardingfilename"></a>Виндовсдефендерадванцедсреатпротектионконфигуратион. Адванцедсреатпротектиононбоардингфиленаме 
+**CSP**:./девице/вендор/мсфт/виндовсадванцедсреатпротектион  
+**URI смещения**:/онбоардинг 
 
-#### <a name="windowsdefenderadvancedthreatprotectionconfigurationallowsamplesharing"></a>WindowsDefenderAdvancedThreatProtectionConfiguration.AllowSampleSharing 
-**CSP**: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection  
-**Смещение URI**: / Configuration/SampleSharing
+### <a name="windowsdefenderadvancedthreatprotectionconfigurationallowsamplesharing"></a>Виндовсдефендерадванцедсреатпротектионконфигуратион. Алловсамплешаринг 
+**CSP**:./девице/вендор/мсфт/виндовсадванцедсреатпротектион  
+**URI смещения**:/конфигуратион/самплешаринг
 
-#### <a name="windowsdefenderadvancedthreatprotectionconfigurationenableexpeditedtelemetryreporting"></a>WindowsDefenderAdvancedThreatProtectionConfiguration.EnableExpeditedTelemetryReporting 
-**CSP**: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection  
-**Смещение URI**: / Configuration/TelemetryReportingFrequency
+### <a name="windowsdefenderadvancedthreatprotectionconfigurationenableexpeditedtelemetryreporting"></a>Виндовсдефендерадванцедсреатпротектионконфигуратион. Енабликспедитедтелеметрирепортинг 
+**CSP**:./девице/вендор/мсфт/виндовсадванцедсреатпротектион  
+**URI смещения**:/конфигуратион/телеметрирепортингфрекуенци
 
-#### <a name="windowsdeliveryoptimizationconfigurationdeliveryoptimizationmode"></a>WindowsDeliveryOptimizationConfiguration.DeliveryOptimizationMode 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeliveryOptimization/DODownloadMode
+### <a name="windowsdeliveryoptimizationconfigurationdeliveryoptimizationmode"></a>Виндовсделиверйоптимизатионконфигуратион. Деливерйоптимизатионмоде 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/деливерйоптимизатион/додовнлоадмоде
 
-#### <a name="windowsidentityprotectionconfigurationenhancedantispoofingforfacialfeaturesenabled"></a>WindowsIdentityProtectionConfiguration.EnhancedAntiSpoofingForFacialFeaturesEnabled 
-**CSP**: ./Device/Vendor/MSFT/PassportForWork  
-**Смещение URI**: / биометрия/FacialFeaturesUseEnhancedAntiSpoofing
+### <a name="windowsidentityprotectionconfigurationenhancedantispoofingforfacialfeaturesenabled"></a>Виндовсидентитипротектионконфигуратион. ЕнханцедантиспуфингфорфаЦиалфеатуресенаблед 
+**CSP**:./девице/вендор/мсфт/пасспортфорворк  
+**URI смещения**:/Биометрикс/фаЦиалфеатуресусинханцедантиспуфинг
 
-#### <a name="windowsidentityprotectionconfigurationpinexpirationindays"></a>WindowsIdentityProtectionConfiguration.PinExpirationInDays 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / политики/PINComplexity/окончания срока действия
+### <a name="windowsidentityprotectionconfigurationpinexpirationindays"></a>Виндовсидентитипротектионконфигуратион. Пинекспиратиониндайс 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/пинкомплексити/експиратион
 
-#### <a name="windowsidentityprotectionconfigurationpinlowercasecharactersusage"></a>WindowsIdentityProtectionConfiguration.PinLowercaseCharactersUsage 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / политики/PINComplexity/LowercaseLetters
+### <a name="windowsidentityprotectionconfigurationpinlowercasecharactersusage"></a>Виндовсидентитипротектионконфигуратион. Пинловеркасечарактерсусаже 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/пинкомплексити/ловеркаселеттерс
 
-#### <a name="windowsidentityprotectionconfigurationpinmaximumlength"></a>WindowsIdentityProtectionConfiguration.PinMaximumLength 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / политики/PINComplexity/MaximumPINLength
+### <a name="windowsidentityprotectionconfigurationpinmaximumlength"></a>Виндовсидентитипротектионконфигуратион. Пинмаксимумленгс 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/пинкомплексити/максимумпинленгс
 
-#### <a name="windowsidentityprotectionconfigurationpinminimumlength"></a>WindowsIdentityProtectionConfiguration.PinMinimumLength 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / политики/PINComplexity/MinimumPINLength
+### <a name="windowsidentityprotectionconfigurationpinminimumlength"></a>Виндовсидентитипротектионконфигуратион. Пинминимумленгс 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/пинкомплексити/минимумпинленгс
 
-#### <a name="windowsidentityprotectionconfigurationpinpreviousblockcount"></a>WindowsIdentityProtectionConfiguration.PinPreviousBlockCount 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / политики/PINComplexity/журнала
+### <a name="windowsidentityprotectionconfigurationpinpreviousblockcount"></a>Виндовсидентитипротектионконфигуратион. Пинпревиаусблокккаунт 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/пинкомплексити/Хистори
 
-#### <a name="windowsidentityprotectionconfigurationpinrecoveryenabled"></a>WindowsIdentityProtectionConfiguration.PinRecoveryEnabled 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / Policies/EnablePinRecovery
+### <a name="windowsidentityprotectionconfigurationpinrecoveryenabled"></a>Виндовсидентитипротектионконфигуратион. Пинрековеренаблед 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/енаблепинрековери
 
-#### <a name="windowsidentityprotectionconfigurationpinspecialcharactersusage"></a>WindowsIdentityProtectionConfiguration.PinSpecialCharactersUsage 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / политики/PINComplexity/SpecialCharacters
+### <a name="windowsidentityprotectionconfigurationpinspecialcharactersusage"></a>Виндовсидентитипротектионконфигуратион. ПинспеЦиалчарактерсусаже 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/пинкомплексити/спеЦиалчарактерс
 
-#### <a name="windowsidentityprotectionconfigurationpinuppercasecharactersusage"></a>WindowsIdentityProtectionConfiguration.PinUppercaseCharactersUsage
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / политики/PINComplexity/UppercaseLetters
+### <a name="windowsidentityprotectionconfigurationpinuppercasecharactersusage"></a>Виндовсидентитипротектионконфигуратион. Пинупперкасечарактерсусаже
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/пинкомплексити/упперкаселеттерс
 
-#### <a name="windowsidentityprotectionconfigurationsecuritydevicerequired"></a>WindowsIdentityProtectionConfiguration.SecurityDeviceRequired 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / Policies/RequireSecurityDevice
+### <a name="windowsidentityprotectionconfigurationsecuritydevicerequired"></a>Виндовсидентитипротектионконфигуратион. Секуритидевицерекуиред 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/рекуиресекуритидевице
 
-#### <a name="windowsidentityprotectionconfigurationunlockwithbiometricsenabled"></a>WindowsIdentityProtectionConfiguration.UnlockWithBiometricsEnabled 
-**CSP**: ./Device/Vendor/MSFT/PassportForWork  
-**Смещение URI**: / биометрия/UseBiometrics
+### <a name="windowsidentityprotectionconfigurationunlockwithbiometricsenabled"></a>WindowsIdentityProtectionConfiguration.UnlockWithBiometricsEnabled 
+**CSP**:./девице/вендор/мсфт/пасспортфорворк  
+**URI смещения**:/Биометрикс/усебиометрикс
 
-#### <a name="windowsidentityprotectionconfigurationusecertificatesforonpremisesauthenabled"></a>WindowsIdentityProtectionConfiguration.UseCertificatesForOnPremisesAuthEnabled 
-**CSP**: ./Device/Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / Policies/UseCertificateForOnPremAuth
+### <a name="windowsidentityprotectionconfigurationusecertificatesforonpremisesauthenabled"></a>Виндовсидентитипротектионконфигуратион. Усецертификатесфоронпремисесаусенаблед 
+**CSP**:./девице/вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/усецертификатефоронпремаус
 
-#### <a name="windowsidentityprotectionconfigurationwindowshelloforbusinessblocked"></a>WindowsIdentityProtectionConfiguration.WindowsHelloForBusinessBlocked 
-**CSP**: ./Vendor/MSFT/PassportForWork  
-**Смещение URI**: / {AADTenantId} / Policies/UsePassportForWork
+### <a name="windowsidentityprotectionconfigurationwindowshelloforbusinessblocked"></a>Виндовсидентитипротектионконфигуратион. Виндовшеллофорбусинессблоккед 
+**CSP**:./вендор/мсфт/пасспортфорворк  
+**URI смещения**:/{аадтенантид}/полиЦиес/усепасспортфорворк
 
-#### <a name="windowskioskconfigurationedgekioskenablepublicbrowsing"></a>WindowsKioskConfiguration.EdgeKioskEnablePublicBrowsing 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ConfigureKioskMode
+### <a name="windowskioskconfigurationedgekioskenablepublicbrowsing"></a>Виндовскиоскконфигуратион. Еджекиоскенаблепубликбровсинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/конфигурекиоскмоде
 
-#### <a name="windowskioskconfigurationedgekioskresetafteridletimeinminutes"></a>WindowsKioskConfiguration.EdgeKioskResetAfterIdleTimeInMinutes 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Browser/ConfigureKioskResetAfterIdleTimeout
+### <a name="windowskioskconfigurationedgekioskresetafteridletimeinminutes"></a>Виндовскиоскконфигуратион. Еджекиоскресетафтеридлетимеинминутес 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/Бровсер/конфигурекиоскресетафтеридлетимеаут
 
-#### <a name="windowskioskconfigurationkioskbrowserblockedurlexceptions"></a>WindowsKioskConfiguration.KioskBrowserBlockedUrlExceptions 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/KioskBrowser/BlockedUrlExceptions
+### <a name="windowskioskconfigurationkioskbrowserblockedurlexceptions"></a>Виндовскиоскконфигуратион. Киоскбровсерблоккедурлексцептионс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/киоскбровсер/блоккедурлексцептионс
 
-#### <a name="windowskioskconfigurationkioskbrowserblockedurls"></a>WindowsKioskConfiguration.KioskBrowserBlockedURLs 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/KioskBrowser/BlockedUrls
+### <a name="windowskioskconfigurationkioskbrowserblockedurls"></a>Виндовскиоскконфигуратион. Киоскбровсерблоккедурлс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/киоскбровсер/блоккедурлс
 
-#### <a name="windowskioskconfigurationkioskbrowserdefaulturl"></a>WindowsKioskConfiguration.KioskBrowserDefaultUrl 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/KioskBrowser/DefaultUrl
+### <a name="windowskioskconfigurationkioskbrowserdefaulturl"></a>Виндовскиоскконфигуратион. Киоскбровсердефаултурл 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/киоскбровсер/дефаултурл
 
-#### <a name="windowskioskconfigurationkioskbrowserenableendsessionbutton"></a>WindowsKioskConfiguration.KioskBrowserEnableEndSessionButton 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/KioskBrowser/EnableEndSessionButton
+### <a name="windowskioskconfigurationkioskbrowserenableendsessionbutton"></a>Виндовскиоскконфигуратион. Киоскбровсеренаблиндсессионбуттон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/киоскбровсер/енаблиндсессионбуттон
 
-#### <a name="windowskioskconfigurationkioskbrowserenablehomebutton"></a>WindowsKioskConfiguration.KioskBrowserEnableHomeButton 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/KioskBrowser/EnableHomeButton
+### <a name="windowskioskconfigurationkioskbrowserenablehomebutton"></a>Виндовскиоскконфигуратион. Киоскбровсеренаблехомебуттон 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/киоскбровсер/енаблехомебуттон
 
-#### <a name="windowskioskconfigurationkioskbrowserenablenavigationbuttons"></a>WindowsKioskConfiguration.KioskBrowserEnableNavigationButtons 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/KioskBrowser/EnableNavigationButtons
+### <a name="windowskioskconfigurationkioskbrowserenablenavigationbuttons"></a>Виндовскиоскконфигуратион. Киоскбровсеренабленавигатионбуттонс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/киоскбровсер/енабленавигатионбуттонс
 
-#### <a name="windowskioskconfigurationkioskbrowserrestartonidletimeinminutes"></a>WindowsKioskConfiguration.KioskBrowserRestartOnIdleTimeInMinutes 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/KioskBrowser/KioskBrowserRestartOnIdleTimeInMinutes
+### <a name="windowskioskconfigurationkioskbrowserrestartonidletimeinminutes"></a>Виндовскиоскконфигуратион. Киоскбровсеррестартонидлетимеинминутес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/киоскбровсер/киоскбровсеррестартонидлетимеинминутес
 
-#### <a name="windowsupdateforbusinessconfigurationautomaticupdatemode"></a>WindowsUpdateForBusinessConfiguration.AutomaticUpdateMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/AllowAutoUpdate
+### <a name="windowsupdateforbusinessconfigurationautomaticupdatemode"></a>Виндовсупдатефорбусинессконфигуратион. Аутоматикупдатемоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/алловаутаупдате
 
-#### <a name="windowsupdateforbusinessconfigurationautorestartnotificationdismissal"></a>WindowsUpdateForBusinessConfiguration.AutoRestartNotificationDismissal 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/AutoRestartRequiredNotificationDismissal
+### <a name="windowsupdateforbusinessconfigurationautorestartnotificationdismissal"></a>Виндовсупдатефорбусинессконфигуратион. Ауторестартнотификатиондисмиссал 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/ауторестартрекуиреднотификатиондисмиссал
 
-#### <a name="windowsupdateforbusinessconfigurationbusinessreadyupdatesonly"></a>WindowsUpdateForBusinessConfiguration.BusinessReadyUpdatesOnly 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/BranchReadinessLevel
+### <a name="windowsupdateforbusinessconfigurationbusinessreadyupdatesonly"></a>Виндовсупдатефорбусинессконфигуратион. Бусинессреадюпдатесонли 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/бранчреадинесслевел
 
-#### <a name="windowsupdateforbusinessconfigurationdeliveryoptimizationmode"></a>WindowsUpdateForBusinessConfiguration.DeliveryOptimizationMode 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/DeliveryOptimization/DODownloadMode
+### <a name="windowsupdateforbusinessconfigurationdeliveryoptimizationmode"></a>Виндовсупдатефорбусинессконфигуратион. Деливерйоптимизатионмоде 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/деливерйоптимизатион/додовнлоадмоде
 
-#### <a name="windowsupdateforbusinessconfigurationdriversexcluded"></a>WindowsUpdateForBusinessConfiguration.DriversExcluded 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/ExcludeWUDriversInQualityUpdate
+### <a name="windowsupdateforbusinessconfigurationdriversexcluded"></a>Виндовсупдатефорбусинессконфигуратион. Дриверсексклудед 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/ексклудевудриверсинкуалитюпдате
 
-#### <a name="windowsupdateforbusinessconfigurationengagedrestartdeadlineforfeatureupdatesindays"></a>WindowsUpdateForBusinessConfiguration.EngagedRestartDeadlineForFeatureUpdatesInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/EngagedRestartDeadlineForFeatureUpdates
+### <a name="windowsupdateforbusinessconfigurationengagedrestartdeadlineforfeatureupdatesindays"></a>Виндовсупдатефорбусинессконфигуратион. Енгажедрестартдеадлинефорфеатуреупдатесиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/енгажедрестартдеадлинефорфеатуреупдатес
 
-#### <a name="windowsupdateforbusinessconfigurationengagedrestartdeadlineindays"></a>WindowsUpdateForBusinessConfiguration.EngagedRestartDeadlineInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/EngagedRestartDeadline
+### <a name="windowsupdateforbusinessconfigurationengagedrestartdeadlineindays"></a>Виндовсупдатефорбусинессконфигуратион. Енгажедрестартдеадлинеиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/енгажедрестартдеадлине
 
-#### <a name="windowsupdateforbusinessconfigurationengagedrestartsnoozescheduleforfeatureupdatesindays"></a>WindowsUpdateForBusinessConfiguration.EngagedRestartSnoozeScheduleForFeatureUpdatesInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/EngagedRestartSnoozeScheduleForFeatureUpdates
+### <a name="windowsupdateforbusinessconfigurationengagedrestartsnoozescheduleforfeatureupdatesindays"></a>Виндовсупдатефорбусинессконфигуратион. Енгажедрестартснузесчедулефорфеатуреупдатесиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/енгажедрестартснузесчедулефорфеатуреупдатес
 
-#### <a name="windowsupdateforbusinessconfigurationengagedrestartsnoozescheduleindays"></a>WindowsUpdateForBusinessConfiguration.EngagedRestartSnoozeScheduleInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/EngagedRestartSnoozeSchedule
+### <a name="windowsupdateforbusinessconfigurationengagedrestartsnoozescheduleindays"></a>Виндовсупдатефорбусинессконфигуратион. Енгажедрестартснузесчедулеиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/енгажедрестартснузесчедуле
 
-#### <a name="windowsupdateforbusinessconfigurationengagedrestarttransitionscheduleforfeatureupdatesindays"></a>WindowsUpdateForBusinessConfiguration.EngagedRestartTransitionScheduleForFeatureUpdatesInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/EngagedRestartTransitionScheduleForFeatureUpdates
+### <a name="windowsupdateforbusinessconfigurationengagedrestarttransitionscheduleforfeatureupdatesindays"></a>Виндовсупдатефорбусинессконфигуратион. Енгажедрестарттранситионсчедулефорфеатуреупдатесиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/енгажедрестарттранситионсчедулефорфеатуреупдатес
 
-#### <a name="windowsupdateforbusinessconfigurationengagedrestarttransitionscheduleindays"></a>WindowsUpdateForBusinessConfiguration.EngagedRestartTransitionScheduleInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/EngagedRestartTransitionSchedule
+### <a name="windowsupdateforbusinessconfigurationengagedrestarttransitionscheduleindays"></a>Виндовсупдатефорбусинессконфигуратион. Енгажедрестарттранситионсчедулеиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/енгажедрестарттранситионсчедуле
 
-#### <a name="windowsupdateforbusinessconfigurationfeatureupdatesdeferralperiodindays"></a>WindowsUpdateForBusinessConfiguration.FeatureUpdatesDeferralPeriodInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/DeferFeatureUpdatesPeriodInDays
+### <a name="windowsupdateforbusinessconfigurationfeatureupdatesdeferralperiodindays"></a>Виндовсупдатефорбусинессконфигуратион. Феатуреупдатесдеферралпериодиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/деферфеатуреупдатеспериодиндайс
 
-#### <a name="windowsupdateforbusinessconfigurationfeatureupdatespaused"></a>WindowsUpdateForBusinessConfiguration.FeatureUpdatesPaused 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/PauseFeatureUpdates
+### <a name="windowsupdateforbusinessconfigurationfeatureupdatespaused"></a>Виндовсупдатефорбусинессконфигуратион. Феатуреупдатеспаусед 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/паусефеатуреупдатес
 
-#### <a name="windowsupdateforbusinessconfigurationfeatureupdatespausestartdatetime"></a>WindowsUpdateForBusinessConfiguration.FeatureUpdatesPauseStartDateTime 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/PauseFeatureUpdatesStartTime
+### <a name="windowsupdateforbusinessconfigurationfeatureupdatespausestartdatetime"></a>Виндовсупдатефорбусинессконфигуратион. Феатуреупдатеспаусестартдатетиме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/паусефеатуреупдатесстарттиме
 
-#### <a name="windowsupdateforbusinessconfigurationfeatureupdatesrollbackstartdatetime"></a>WindowsUpdateForBusinessConfiguration.FeatureUpdatesRollbackStartDateTime
-**CSP**: Н/д - Graph API только **смещение URI**: Н/д - только Graph API
+### <a name="windowsupdateforbusinessconfigurationfeatureupdatesrollbackstartdatetime"></a>Виндовсупдатефорбусинессконфигуратион. Феатуреупдатесроллбаккстартдатетиме
+**CSP**: Н/д API Graph только **URI смещения**: Н/д-API Graph только
 
-#### <a name="windowsupdateforbusinessconfigurationfeatureupdateswillberolledback"></a>WindowsUpdateForBusinessConfiguration.FeatureUpdatesWillBeRolledBack 
-**CSP**: Н/д - Graph API только **смещение URI**: Н/д - только Graph API
+### <a name="windowsupdateforbusinessconfigurationfeatureupdateswillberolledback"></a>Виндовсупдатефорбусинессконфигуратион. Феатуреупдатесвиллберолледбакк 
+**CSP**: Н/д API Graph только **URI смещения**: Н/д-API Graph только
 
-#### <a name="windowsupdateforbusinessconfigurationfeatureupdatesrollbackwindowindays"></a>WindowsUpdateForBusinessConfiguration.FeatureUpdatesRollbackWindowInDays
-**CSP**: Н/д - Graph API только **смещение URI**: Н/д - только Graph API
+### <a name="windowsupdateforbusinessconfigurationfeatureupdatesrollbackwindowindays"></a>Виндовсупдатефорбусинессконфигуратион. Феатуреупдатесроллбакквиндовиндайс
+**CSP**: Н/д API Graph только **URI смещения**: Н/д-API Graph только
 
-#### <a name="windowsupdateforbusinessconfigurationinstallationschedule"></a>WindowsUpdateForBusinessConfiguration.InstallationSchedule
-**CSP**: ./Device/Vendor/MSFT/Policy **смещение URI**: /Config/Update/ActiveHoursStart, /Config/Update/ActiveHoursEnd, /Config/Update/ScheduledInstallDay, /Config/Update/ScheduledInstallTime
+### <a name="windowsupdateforbusinessconfigurationinstallationschedule"></a>Виндовсупдатефорбусинессконфигуратион. Инсталлатионсчедуле
+**CSP**:./ДЕВИЦЕ/ВЕНДОР/МСФТ/ПОЛИЦИ **offset URI**:/конфиг/упдате/активехаурсстарт,/конфиг/упдате/активехаурсенд,/config/Update/ScheduledInstallDay,/config/Update/ScheduledInstallTime
 
-#### <a name="windowsupdateforbusinessconfigurationmicrosoftupdateserviceallowed"></a>WindowsUpdateForBusinessConfiguration.MicrosoftUpdateServiceAllowed 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/AllowMUUpdateService
+### <a name="windowsupdateforbusinessconfigurationmicrosoftupdateserviceallowed"></a>Виндовсупдатефорбусинессконфигуратион. Микрософтупдатесервицеалловед 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/алловмуупдатесервице
 
-#### <a name="windowsupdateforbusinessconfigurationpreviewbuildsetting"></a>WindowsUpdateForBusinessConfiguration.PreviewBuildSetting 
-**CSP**: ./Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/ManagePreviewBuilds
+### <a name="windowsupdateforbusinessconfigurationpreviewbuildsetting"></a>Виндовсупдатефорбусинессконфигуратион. Превиевбуилдсеттинг 
+**CSP**:./вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/манажепревиевбуилдс
 
-#### <a name="windowsupdateforbusinessconfigurationqualityupdatesdeferralperiodindays"></a>WindowsUpdateForBusinessConfiguration.QualityUpdatesDeferralPeriodInDays 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/DeferQualityUpdatesPeriodInDays
+### <a name="windowsupdateforbusinessconfigurationqualityupdatesdeferralperiodindays"></a>Виндовсупдатефорбусинессконфигуратион. Куалитюпдатесдеферралпериодиндайс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/деферкуалитюпдатеспериодиндайс
 
-#### <a name="windowsupdateforbusinessconfigurationqualityupdatespaused"></a>WindowsUpdateForBusinessConfiguration.QualityUpdatesPaused 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/PauseQualityUpdates
+### <a name="windowsupdateforbusinessconfigurationqualityupdatespaused"></a>Виндовсупдатефорбусинессконфигуратион. Куалитюпдатеспаусед 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/паусекуалитюпдатес
 
-#### <a name="windowsupdateforbusinessconfigurationqualityupdatespausestartdatetime"></a>WindowsUpdateForBusinessConfiguration.QualityUpdatesPauseStartDateTime 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/PauseQualityUpdatesStartTime
+### <a name="windowsupdateforbusinessconfigurationqualityupdatespausestartdatetime"></a>Виндовсупдатефорбусинессконфигуратион. Куалитюпдатеспаусестартдатетиме 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/паусекуалитюпдатесстарттиме
 
-#### <a name="windowsupdateforbusinessconfigurationqualityupdatesrollbackstartdatetime"></a>WindowsUpdateForBusinessConfiguration.QualityUpdatesRollbackStartDateTime
-**CSP**: Н/д - Graph API только **смещение URI**: Н/д - только Graph API
+### <a name="windowsupdateforbusinessconfigurationqualityupdatesrollbackstartdatetime"></a>Виндовсупдатефорбусинессконфигуратион. Куалитюпдатесроллбаккстартдатетиме
+**CSP**: Н/д API Graph только **URI смещения**: Н/д-API Graph только
 
-#### <a name="windowsupdateforbusinessconfigurationqualityupdateswillberolledback"></a>WindowsUpdateForBusinessConfiguration.QualityUpdatesWillBeRolledBack 
-**CSP**: Н/д - Graph API только **смещение URI**: Н/д - только Graph API
+### <a name="windowsupdateforbusinessconfigurationqualityupdateswillberolledback"></a>Виндовсупдатефорбусинессконфигуратион. Куалитюпдатесвиллберолледбакк 
+**CSP**: Н/д API Graph только **URI смещения**: Н/д-API Graph только
 
-#### <a name="windowsupdateforbusinessconfigurationscheduleimminentrestartwarninginminutes"></a>WindowsUpdateForBusinessConfiguration.ScheduleImminentRestartWarningInMinutes 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/ScheduleImminentRestartWarning
+### <a name="windowsupdateforbusinessconfigurationscheduleimminentrestartwarninginminutes"></a>Виндовсупдатефорбусинессконфигуратион. Счедулеимминентрестартварнингинминутес 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/счедулеимминентрестартварнинг
 
-#### <a name="windowsupdateforbusinessconfigurationschedulerestartwarninginhours"></a>WindowsUpdateForBusinessConfiguration.ScheduleRestartWarningInHours 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/ScheduleRestartWarning
+### <a name="windowsupdateforbusinessconfigurationschedulerestartwarninginhours"></a>Виндовсупдатефорбусинессконфигуратион. Счедулерестартварнингинхаурс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/счедулерестартварнинг
 
-#### <a name="windowsupdateforbusinessconfigurationskipchecksbeforerestart"></a>WindowsUpdateForBusinessConfiguration.SkipChecksBeforeRestart 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/SetEDURestart
+### <a name="windowsupdateforbusinessconfigurationskipchecksbeforerestart"></a>Виндовсупдатефорбусинессконфигуратион. Скипчекксбефоререстарт 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/сетедурестарт
 
-#### <a name="windowsupdateforbusinessconfigurationupdateweeks"></a>WindowsUpdateForBusinessConfiguration.UpdateWeeks 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/ScheduledInstallEveryWeek, /Config/Update/ScheduledInstallFirstWeek, /Config/Update/ScheduledInstallFourthWeek, /Config/Update/ScheduledInstallSecondWeek, / config/обновления / ScheduledInstallThirdWeek
+### <a name="windowsupdateforbusinessconfigurationupdateweeks"></a>Виндовсупдатефорбусинессконфигуратион. Упдатевикс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/счедулединсталлеверивик,/конфиг/упдате/счедулединсталлфирствик,/config/Update/ScheduledInstallFourthWeek,/config/Update/ScheduledInstallSecondWeek,/config/Update/ScheduledInstallThirdWeek
 
-#### <a name="windowsupdateforbusinessconfigurationuserpauseaccess"></a>WindowsUpdateForBusinessConfiguration.UserPauseAccess 
-**CSP**: ./Device/Vendor/MSFT/Policy  
-**Смещение URI**: /Config/Update/SetDisablePauseUXAccess
+### <a name="windowsupdateforbusinessconfigurationuserpauseaccess"></a>Виндовсупдатефорбусинессконфигуратион. Усерпаусеакцесс 
+**CSP**:./девице/вендор/мсфт/Полици  
+**URI смещения**:/конфиг/упдате/сетдисаблепаусеуксакцесс
 
 
 ## <a name="next-steps"></a>Следующие шаги
 
-- [Общие сведения о конфигурации устройств](device-profiles.md)
-- [Справочник по поставщику службы конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) (открывается другой сайт документация)
+- [Общие сведения о конфигурации устройства](device-profiles.md)
+- [Справочник по поставщику услуг конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) (открывает другой сайт документов)
