@@ -382,6 +382,8 @@
               href: privacy-data-view-correct.md
             - name: 'Аудит, экспорт, удаление'
               href: privacy-data-audit-export-delete.md
+        - name: Шифрование устройств
+          href: encrypt-devices.md
         - name: Условный доступ
           href: conditional-access.md
           items:
