@@ -17,27 +17,27 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d7401b5da7629addf03498afd44033a59839d39e
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: c8d24716f65d5ff8afba5fc0a89cfef082712429
+ms.sourcegitcommit: c3ac858bbadb63d248ed54069e48160d703bbaf2
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66045322"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68313674"
 ---
 # <a name="reference-for-user-device-association-entity"></a>Справочник по сущности сопоставления пользователя и устройства
 
-Сущность **UserDeviceAssociation** содержит сопоставления пользователей и устройств в вашей организации.
+Сущность **userDeviceAssociation** содержит сопоставления пользователей и устройств в вашей организации.
 
-## <a name="userdeviceassociation"></a>UserDeviceAssociation
+## <a name="userdeviceassociations"></a>userDeviceAssociations
 
 
 |        Название        |                                           Описание                                            |        Пример         |
 |--------------------|--------------------------------------------------------------------------------------------------|------------------------|
-|      UserKey       |              Уникальный идентификатор пользователя в хранилище данных. (Суррогатный ключ).               |          123           |
-|     DeviceKey      |                      Уникальный идентификатор устройства в хранилище данных.                      |          123           |
-| CreatedDateTimeUTC |           Дата и время создания сопоставления пользователя и устройства. Используется формат UTC.           | 23/11/2016 12:00:00 |
-|     IsDeleted      | Указывает, что пользователь отменил регистрацию этого устройства и что сопоставление больше не действительно. |       Истина/ложь       |
-|  EndedDateTimeUTC  |              Дата и время (в формате UTC), когда значение IsDeleted изменилось на <strong>True</strong>.               | 23/06/2017 12:00:00 |
+|      userKey       |              Уникальный идентификатор пользователя в хранилище данных. (Суррогатный ключ).               |          123           |
+|     deviceKey      |                      Уникальный идентификатор устройства в хранилище данных.                      |          123           |
+| createdDateTimeUTC |           Дата и время создания сопоставления пользователя и устройства. Используется формат UTC.           | 23/11/2016 12:00:00 |
+|     isDeleted      | Указывает, что пользователь отменил регистрацию этого устройства и что сопоставление больше не действительно. |       Истина/ложь       |
+|  endedDateTimeUTC  |              Дата и время (в формате UTC), когда значение IsDeleted изменилось на <strong>True</strong>.               | 23/06/2017 12:00:00 |
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

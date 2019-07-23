@@ -17,49 +17,49 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 934742108effda0a88f4bcc42e06daa12c55288c
-ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
+ms.openlocfilehash: 70802626c79f11748e81c39afdd8bc8c5d0622b3
+ms.sourcegitcommit: c3ac858bbadb63d248ed54069e48160d703bbaf2
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67648840"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68313774"
 ---
-# <a name="reference-for-intune-management-extension"></a>Справочник по расширению управления Intune
+# <a name="reference-for-intune-management-extensions"></a>Справочник по расширениям для управления Intune
 
-Категория **IntuneManagementExtension** содержит сущности для мобильных устройств, отслеживающие указанную ниже информацию:
+Категория **intuneManagementExtensions** содержит сущности для мобильных устройств, отслеживающие такую информацию:
 
-  - Версии IntuneManagementExtension
-  - Состояние установки IntuneManagementExtension
+- Версии IntuneManagementExtension
+- Состояние установки IntuneManagementExtension
 
-## <a name="intunemanagementextensionversion"></a>IntuneManagementExtensionVersion
+## <a name="intunemanagementextensionversions"></a>intuneManagementExtensionVersions
 
-Сущность **IntuneManagementExtensionVersion** перечисляет все версии, используемые IntuneManagementExtension.
-
-| Свойство  | Описание | Пример |
-|---------|------------|--------|
-| ExtensionVersionKey |Уникальный идентификатор для версии IntuneManagementExtension. | 1 |
-| ExtensionVersion |Номер версии из 4 цифр. |1.0.2.0 |
-
-## <a name="intunemanagementextensionhealthstate"></a>IntuneManagementExtensionHealthState
-
-**IntuneManagementExtensionHealthState** перечисляет все возможные состояния работоспособности IntuneManagementExtension.
+Сущность **intuneManagementExtensionVersion** выводит список всех версий, используемых intuneManagementExtensions.
 
 | Свойство  | Описание | Пример |
 |---------|------------|--------|
-| ExtensionStateKey |Уникальный идентификатор для состояния работоспособности. | 2 |
-| ExtensionState |Состояние работоспособности IntuneManagementExtension. | Работоспособно |
+| extensionVersionKey |Уникальный идентификатор для версии IntuneManagementExtensions. | 1 |
+| extensionVersion |Номер версии из 4 цифр. |1.0.2.0 |
 
-## <a name="intunemanagementextension"></a>IntuneManagementExtension
+## <a name="intunemanagementextensionhealthstates"></a>intuneManagementExtensionHealthStates
 
-**IntuneManagementExtension** ежедневно перечисляет работоспособность IntuneManagementExtension на каждом устройстве Windows 10.
+**intuneManagementExtensionHealthState** выводит список всех возможных состояний работоспособности intuneManagementExtensions.
+
+| Свойство  | Описание | Пример |
+|---------|------------|--------|
+| extensionStateKey |Уникальный идентификатор для состояния работоспособности. | 2 |
+| extensionState |Состояние работоспособности IntuneManagementExtension. | Работоспособно |
+
+## <a name="intunemanagementextensions"></a>intuneManagementExtensions
+
+**intuneManagementExtension** ежедневно выводит данные о работоспособности IntuneManagementExtensions на каждом устройстве с Windows 10.
 Эти данные хранятся в течение 60 дней. 
 
 
 |      Свойство       |                         Описание                         | Пример |
 |---------------------|-------------------------------------------------------------|---------|
-|       DateKey       |               Уникальный идентификатор даты.                |   123   |
-|      TenantKey      |              Уникальный идентификатор клиента.               |   456   |
-|      DeviceKey      |              Уникальный идентификатор устройства.               |   789   |
-| ExtensionVersionKey | Уникальный идентификатор для версии IntuneManagementExtension. |    1    |
-|  ExtensionStateKey  |             Уникальный идентификатор для состояния работоспособности.              |    2    |
+|       dateKey       |               Уникальный идентификатор даты.                |   123   |
+|      tenantKey      |              Уникальный идентификатор клиента.               |   456   |
+|      deviceKey      |              Уникальный идентификатор устройства.               |   789   |
+| extensionVersionKey | Уникальный идентификатор для версии intuneManagementExtension. |    1    |
+|  extensionStateKey  |             Уникальный идентификатор для состояния работоспособности.              |    2    |
 

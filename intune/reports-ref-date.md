@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 04/10/2019
+ms.date: 07/09/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -17,25 +17,25 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0baf74515af22fb04f773da0d26b94a7eec5f572
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 16cb03788f8a3dd261a1e6d9dbc3efe4b50f4f73
+ms.sourcegitcommit: c3ac858bbadb63d248ed54069e48160d703bbaf2
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041025"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68313820"
 ---
-# <a name="reference-for-date-entity"></a>Справочник по сущности даты
+# <a name="reference-for-dates-entity"></a>Ссылка на сущность dates
 
-Категория **Дата** содержит сущность **Date**, используемую для определения ссылок на дату в модели данных.
+Категория **dates** содержит сущность **date**, используемую для определения ссылок на дату в модели данных.
 
-## <a name="date"></a>Дата
+## <a name="dates"></a>dates
 
-Сущность **Date** представляет даты, на которые ссылаются разные сущности хранилища данных.
+Сущность **date** представляет даты, на которые ссылаются разные сущности хранилища данных.
 
 
 |    Свойство     |                      Описание                       |       Пример        |
 |-----------------|--------------------------------------------------------|----------------------|
-|     DateKey     | Уникальный идентификатор для этой даты в хранилище данных. |       20160703       |
+|     dateKey     | Уникальный идентификатор для этой даты в хранилище данных. |       20160703       |
 |    FullDate     |    Эта дата представлена в полном формате дата/время.     | 3/7/2016 12:00:00 |
 |    DayOfWeek    |                      День недели                       |          1           |
 |   DayOfMonth    |                      День месяца                      |          3           |
@@ -44,7 +44,7 @@ ms.locfileid: "66041025"
 |   MonthOfYear   |                   Месяц года                    |          7           |
 | CalendarQuarter |                    Календарный квартал                    |          3           |
 |  CalendarYear   |                     Календарный год                      |         2016         |
-|     DateKey     | Уникальный идентификатор для этой даты в хранилище данных. |       20160703       |
+|     dateKey     | Уникальный идентификатор для этой даты в хранилище данных. |       20160703       |
 |    FullDate     |    Эта дата представлена в полном формате дата/время.     | 3/7/2016 12:00:00 |
 |    DayOfWeek    |                      День недели                       |          1           |
 |   DayOfMonth    |                      День месяца                      |          3           |
