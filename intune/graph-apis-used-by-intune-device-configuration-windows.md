@@ -1,7 +1,7 @@
 ---
 title: API Graph для настройки устройств в Microsoft Intune в Azure | Документация Майкрософт
 titleSuffix: ''
-description: Просмотрите список всех API Graph сущностей с соответствующим CSP Windows и URL-адресом смещения на устройствах Windows 10 и более поздней версии, используемой при настройке устройств в Microsoft Intune. См. соответствующий API и CSP для общих компьютеров, Endpoint Protection, Windows Defender Advanced Threat Protection, защиты идентификации, групп Windows 10, киосков и Центр обновления Windows для бизнеса.
+description: Просмотрите список всех API Graph сущностей с соответствующим CSP Windows и URL-адресом смещения на устройствах Windows 10 и более поздней версии, используемой при настройке устройств в Microsoft Intune. См. соответствующий API и CSP для общих компьютеров, Endpoint Protection, Microsoft защитника Advanced Threat Protection, защиты идентификации, групп Windows 10, киосков и Центр обновления Windows для бизнеса.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3732a4539c13ad05ae8c95621246429b7f38987e
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
+ms.openlocfilehash: 9db6be9c61455056f7ad32a9dba3fa6be9f6f5c3
+ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68354422"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68427267"
 ---
 # <a name="graph-apis-and-matching-windows-10-csps-used-in-intune"></a>API Graph и соответствующие CSP Windows 10, используемые в Intune
 
