@@ -171,6 +171,7 @@
       items:
         - name: Что такое регистрация устройств?
           href: device-enrollment.md
+          displayName: COD; BYOD; DEM; DEP; USB-SA; USB-Direct; co-management; GPO
         - name: Возможности управления устройствами
           href: device-management-capabilities.md
         - name: Варианты регистрации
@@ -184,6 +185,7 @@
               href: apple-mdm-push-certificate-get.md
             - name: Корпоративные идентификаторы
               href: corporate-identifiers-add.md
+              displayName: COD
             - name: многофакторную идентификацию;
               href: multi-factor-authentication.md
             - name: Device enrollment manager (Диспетчер регистрации устройств)
@@ -273,6 +275,8 @@
           href: device-remove-user.md
         - name: Поиск основного пользователя
           href: find-primary-user.md
+        - name: Отправка уведомлений
+          href: custom-notifications.md
         - name: "Очистка устройства с\_macOS"
           href: device-erase.md
         - name: Удаленное управление мобильными устройствами
@@ -559,20 +563,27 @@
               href: apps-add-built-in.md
             - name: Сценарии PowerShell
               href: intune-management-extension.md
-        - name: Развертывание приложений
-          href: apps-deploy.md
+        - name: Назначение приложений
           items:
+            - name: Назначение приложений группам
+              href: apps-deploy.md
+              displayName: app assignment; assignment
             - name: Включение и исключение приложений
               href: apps-inc-exl-assignments.md
+              displayName: app assignment
             - name: Развернуть Приложения Windows 10
               href: apps-windows-10-app-deploy.md
             - name: Развертывание приложений в средах государственных организаций
               href: apps-deploy-gcc-dod.md
         - name: Мониторинг приложений
           href: apps-monitor.md
+        - name: Обнаруженные приложения
+          href: app-discovered-apps.md
         - name: Настройка приложений
-          href: app-configuration-policies-overview.md
           items:
+            - name: Политики конфигурации приложений
+              href: app-configuration-policies-overview.md
+              displayName: App configuration policy; configuration policy
             - name: iOS управляемые устройства
               href: app-configuration-policies-use-ios.md
             - name: Android управляемые устройства
