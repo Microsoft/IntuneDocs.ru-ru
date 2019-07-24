@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 03b3b38819ea6bd0a34eff5b7eb8decfc2b9eb49
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 9b995841152ee7290e41eed7988ff2b52b6bc66c
+ms.sourcegitcommit: c3a4fefbac8ff7badc42b1711b7ed2da81d1ad67
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548089"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68375234"
 ---
 # <a name="troubleshoot-device-enrollment-in-microsoft-intune"></a>Устранение проблем при регистрации устройств в Microsoft Intune
 
@@ -69,7 +69,7 @@ ms.locfileid: "67548089"
 
 3. Если число зарегистрированных устройств пользователя равно предельному числу устройств, регистрация других устройств запрещена, пока:
     - [существующие устройства не будут удалены](devices-wipe.md);
-    - вы не увеличите предельное число устройств, [задав ограничения количества устройств](enrollment-restrictions-set.md#set-device-limit-restrictions).
+    - вы не увеличите предельное число устройств, [задав ограничения количества устройств](enrollment-restrictions-set.md).
 
 Чтобы избежать превышения числа устройств, удалите устаревшие записи об устройствах.
 
@@ -499,5 +499,5 @@ ms.locfileid: "67548089"
 
 
 
-### <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, обратитесь в службу поддержки Майкрософт, как описано в статье [Получение поддержки для Microsoft Intune](get-support.md).

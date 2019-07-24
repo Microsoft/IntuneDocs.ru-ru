@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1dc78f8126e0fa9c65fdbe70cfd909da70391e3e
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: b3c2b5bc0091544136848bf92fc6cef7524ffa54
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67884519"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354509"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-for-ios-devices-in-intune"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -48,7 +48,7 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 
 Чтобы доказать свою подлинность, VPN-сервер предоставляет сертификат, который должен быть принят устройством без запроса. Для автоматического утверждения сертификата следует создать профиль доверенного сертификата, который содержит корневой сертификат VPN-сервера, выданный центром сертификации (ЦС). 
 
-#### <a name="export-the-certificate-and-add-the-ca"></a>Экспорт сертификата и добавление центра сертификации
+### <a name="export-the-certificate-and-add-the-ca"></a>Экспорт сертификата и добавление центра сертификации
 
 1. Откройте консоль администрирования на VPN-сервере.
 2. Убедитесь в том, что VPN-сервер использует проверку подлинности на основе сертификатов. 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 91633aee190b5fb5bda9495f66d4503042aa6a80
-ms.sourcegitcommit: 63b55e81122e5c15893302b109ae137c30855b55
+ms.openlocfilehash: 9a1e370b65d8bfd7e61562347323bf1455dfe55b
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67713325"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354295"
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 
@@ -109,5 +109,5 @@ ms.locfileid: "67713325"
 Сначала [создайте политику защиты приложений и назначьте ее](app-protection-policies.md) приложению iOS. Дополнительные сведения о тестировании политики защиты приложений см. в разделе [Проверка политик защиты приложений](app-protection-policies-validate.md).
 
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 [What is Intune app protection policy?](app-protection-policy.md)(Что такое политика защиты приложений в Intune)

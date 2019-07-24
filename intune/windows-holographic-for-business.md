@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1c1400b3786965ab962de01207f24b53aa3a47b1
-ms.sourcegitcommit: 4b83697de8add3b90675c576202ef2ecb49d80b2
+ms.openlocfilehash: 2f3c36e0fac3784828c6a4c0bbf077dea83da369
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67045986"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68354458"
 ---
 # <a name="manage-and-use-different-device-management-features-on-windows-holographic-and-hololens-devices-with-intune"></a>Администрирование и использование различных возможностей управления устройствами Windows Holographic и HoloLens с помощью Intune
 
@@ -105,23 +105,23 @@ Intune содержит параметры и функции, которые м�
 
 C помощью OMA-URI в профилях настраиваются некоторые параметры, создаются ограничения устройств и настраиваются параметры виртуальной частной сети (VPN) и Wi-Fi.
 
-#### <a name="custom-device-settingscustom-settings-windows-holographicmd"></a>[Настраиваемые параметры устройств](custom-settings-windows-holographic.md)
+### <a name="custom-device-settingscustom-settings-windows-holographicmd"></a>[Настраиваемые параметры устройств](custom-settings-windows-holographic.md)
 
 Чтобы настроить параметры OMA-URI (Open Mobile Alliance Uniform Resource Identifier), создайте пользовательский профиль в Intune. Используйте параметры OMA-URI для управления различными функциями на устройствах Windows Holographic for Business, такими как включение VPN и проверка наличия обновлений в Центре обновления Майкрософт.
 
-#### <a name="configure-kiosk-modekiosk-settings-holographicmd"></a>[Настройка режима киоска](kiosk-settings-holographic.md)
+### <a name="configure-kiosk-modekiosk-settings-holographicmd"></a>[Настройка режима киоска](kiosk-settings-holographic.md)
 
 Используя функции общего или гостевого компьютера, доступные в Intune, можно настроить в Windows Holographic for Business запуск от имени в режиме терминала устройства (киоска). Такие устройства позволяют запускать одно приложение (полноэкранный режим одного приложения) или несколько приложений (режим киоска с несколькими приложениями).
 
-#### <a name="device-restrictionsdevice-restrictions-windows-holographicmd"></a>[Ограничения устройств](device-restrictions-windows-holographic.md)
+### <a name="device-restrictionsdevice-restrictions-windows-holographicmd"></a>[Ограничения устройств](device-restrictions-windows-holographic.md)
 
 Ограничения устройств позволяют управлять различными параметрами и функциями на устройствах, включая требование пароля, установку приложений из [Microsoft Store](https://www.microsoft.com/store/apps/windows?icid=CNavAppsWindowsApps), включение Bluetooth и многое другое. Эти ограничения создаются в профиле Intune. Профиль можно применить к нескольким устройствам с Windows Holographic for Business.
 
-#### <a name="configure-vpnvpn-settings-configuremd"></a>[Настройка VPN](vpn-settings-configure.md)
+### <a name="configure-vpnvpn-settings-configuremd"></a>[Настройка VPN](vpn-settings-configure.md)
 
 Виртуальная частная сеть (VPN) предоставляет пользователям безопасный удаленный доступ к сети компании. В Intune можно создать профиль VPN с конкретными параметрами для устройств с Windows Holographic for Business. Например, можно создать профиль VPN, чтобы все устройства с Windows Holographic for Business использовали Citrix VPN в качестве типа соединения.
 
-#### <a name="configure-wi-fiwi-fi-settings-configuremd"></a>[Настройка Wi-Fi](wi-fi-settings-configure.md)
+### <a name="configure-wi-fiwi-fi-settings-configuremd"></a>[Настройка Wi-Fi](wi-fi-settings-configure.md)
 
 В Intune можно также создать профиль Wi-Fi для назначения параметров беспроводной сети устройствам Windows Holographic for Business. При назначении профиля Wi-Fi конечные пользователи получают доступ к корпоративной сети без настройки сети. Например, можно создать сеть Wi-Fi, предназначенную только для устройств с Windows Holographic for Business.
 

@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: 361ef17b-1ee0-4879-b7b1-d678b0787f5a
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bc785e7f714320d410d20e254125858f44131677
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: a6425c1346255caf70e73feef2aec1097625f921
+ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548756"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68427099"
 ---
 # <a name="manage-operating-system-versions-with-intune"></a>Управление версиями операционной системы с помощью Intune
 Для современных платформ мобильных устройств и настольных компьютеров исправления, важные обновления и новые версии выпускаются с высокой частотой. Вы можете полностью управлять обновлениями и исправлениями в Windows, но другие платформы, такие как iOS и Android, требуют участия конечных пользователей в этом процессе.  В Microsoft Intune есть возможности, которые позволяют структурировать управление версиями операционных систем на разных платформах.
@@ -40,7 +40,7 @@ Intune помогает решать следующие распростране
 1. Укажите минимальную версию операционной системы, чтобы пользователи в организации использовали только поддерживаемые платформы. 
 2. Не указывайте максимальную версию операционной системы или задайте в ее качестве последнюю проверенную в организации версию, чтобы оставить время на внутреннее тестирование новых выпусков операционных систем.
 
-Подробные сведения см. в разделе [Установка ограничений по типу устройства](https://docs.microsoft.com/intune/enrollment-restrictions-set#set-device-type-restrictions).
+Подробные сведения см. в разделе [Установка ограничений по типу устройства](https://docs.microsoft.com/intune/enrollment-restrictions-set#create-a-device-type-restriction).
  
 ## <a name="operating-system-version-reporting-and-compliance-with-intune-mdm-device-compliance-policies"></a>Отчеты о версиях операционных систем и обеспечение соответствий версий с помощью политик соответствия устройств требованиям Intune MDM
 Политики соответствия устройств требованиям Intune MDM позволяют решать следующие задачи: 
@@ -86,6 +86,6 @@ Intune помогает решать следующие распростране
 ## <a name="next-steps"></a>Дальнейшие шаги
 Сведения об управлении версиями операционных систем в организации см. в следующих статьях: 
 
-- [Установка ограничений по типу устройства](https://docs.microsoft.com/intune/enrollment-restrictions-set#set-device-type-restrictions)
+- [Установка ограничений по типу устройства](https://docs.microsoft.com/intune/enrollment-restrictions-set#create-a-device-type-restriction)
 - [Начало работы с политиками соответствия устройств Intune](https://docs.microsoft.com/intune/device-compliance-get-started)
 - [Как создать и назначить политики защиты приложений](https://docs.microsoft.com/intune/app-protection-policies)
