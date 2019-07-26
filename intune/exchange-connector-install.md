@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7663009c7d45171ab6469f7f6e96b4c8f979b744
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: f55ecd98e047dbf77e6e8eb58284577078e21a61
+ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67883284"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68427319"
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune"></a>Настройка локального соединителя Exchange в Microsoft Intune
 Сведения в этой статье помогут вам установить и затем отслеживать локальный соединитель Exchange Active Sync для Intune.  Локальный соединитель Exchange для Intune используется с [политиками условного доступа для предоставления или блокировки доступа к локальным почтовым ящикам Exchange](conditional-access-exchange-create.md). 
@@ -152,8 +152,22 @@ Intune поддерживает несколько локальных соеди
 Для выполнения отработки отказа соединитель обнаружит дополнительные серверы CAS для этой организации Exchange после того, как создаст подключение к Exchange с помощью указанного CAS. Благодаря осведомленности о дополнительных серверах CAS соединитель может переключиться на другой CAS (при его доступности) и использовать его, пока не станет доступным основной CAS. Обнаружение дополнительных CAS включено по умолчанию. Отработку отказа можно отключить с помощью приведенной ниже процедуры.  
 1. На сервере, где установлен соединитель Exchange, перейдите в папку %*ProgramData*%\Microsoft\Windows Intune Exchange Connector. 
 2. В текстовом редакторе откройте файл **OnPremisesExchangeConnectorServiceConfiguration.xml**.
-3. Чтобы отключить эту функцию, измените &lt;IsCasFailoverEnabled&gt;**true**&lt;/IsCasFailoverEnabled&gt; на &lt;IsCasFailoverEnabled&gt;**false**&lt;/IsCasFailoverEnabled&gt;.    
+3. Чтобы отключить эту функцию, измените &lt;IsCasFailoverEnabled&gt;**true**&lt;/IsCasFailoverEnabled&gt; на &lt;IsCasFailoverEnabled&gt;**false**&lt;/IsCasFailoverEnabled&gt;.  
  
+## <a name="optional-performance-tuning-for-the-exchange-connector"></a>Дополнительная настройка производительности для соединителя Exchange  
+
+При поддержке 5000 устройств и более с помощью Exchange ActiveSync можно настроить дополнительный параметр, чтобы повысить производительность соединителя. Повышение производительности достигается благодаря тому, что Exchange может использовать несколько экземпляров пространства выполнения команд PowerShell. 
+
+Перед внесением этого изменения убедитесь, что учетная запись, используемая для запуска соединителя Exchange, не используется для других целей управления Exchange. Это обусловлено тем, что Exchange имеет ограничение в 18 пространств выполнения на одну учетную запись, большинство из которых будет использоваться соединителем. 
+
+Это изменение производительности не подходит для соединителей, работающих на более старом или более слабом оборудовании.  
+
+1. На сервере, где установлен соединитель, откройте каталог установки соединителей.  По умолчанию это *C:\ProgramData\Microsoft\Windows Intune Exchange Connector*. 
+2. Откройте для редактирования файл *OnPremisesExchangeConnectorServiceConfiguration.xml*.
+3. Задайте для параметра **EnableParallelCommandSupport** значение **true**:  
+     
+   \<EnableParallelCommandSupport>true\</EnableParallelCommandSupport>
+4. Сохраните файл, а затем перезапустите службу Microsoft Intune Exchange Connector.
 
 ## <a name="reinstall-the-on-premises-exchange-connector"></a>Переустановка локального соединителя Exchange
 Может потребоваться переустановить соединитель Exchange. Так как для подключения к каждой организации Exchange поддерживается один соединитель, то второй устанавливаемый для организации соединитель заменит исходный.

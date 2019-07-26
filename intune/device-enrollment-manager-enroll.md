@@ -17,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f2548e0ff3d4406f64d2091001c38056fe585896
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: bd870a788ff5cac7e0aff47c5b8175c0bdfacff2
+ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67883536"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68427296"
 ---
 # <a name="enroll-devices-in-intune-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств в Intune с помощью учетной записи диспетчера регистрации устройств
 
-Вы можете зарегистрировать до 1000 мобильных устройств в одной учетной записи Azure Active Directory с помощью учетной записи диспетчера регистрации устройств. DEM — это разрешение Intune, которое можно применить к учетной записи пользователя в AAD, чтобы разрешить пользователям регистрировать до 1000 устройств. Учетную запись DEM удобно использовать, если устройства регистрируются и подготавливаются до передачи пользователям.
+Вы можете зарегистрировать до 1000 мобильных устройств в одной учетной записи Azure Active Directory с помощью учетной записи диспетчера регистрации устройств. DEM — это разрешение Intune, которое можно применить к учетной записи пользователя в AAD, чтобы разрешить пользователям регистрировать до 1000 устройств. Учетную запись DEM удобно использовать, если устройства регистрируются и подготавливаются до передачи пользователям. В Microsoft Intune действует встроенное ограничение в 25 учетных записей диспетчера регистрации устройств (DEM).
 
 ## <a name="limitations-of-devices-that-are-enrolled-with-a-dem-account"></a>Ограничения, распространяющиеся на устройства, зарегистрированные при помощи учетной записи DEM
 

@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 04/30/2019
+ms.date: 07/22/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,19 +17,30 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a2084ad1ec0deefd24c0d61f69d99ee11149af96
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: 4dd77be45c21db53dd82322049d377ced247c4c7
+ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67882737"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68427343"
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Включение соединителя Mobile Threat Defense в Intune
 
 > [!NOTE] 
 > Этот раздел относится ко всем партнерам по Mobile Threat Defense.
 
-Во время установки Mobile Threat Defense (MTD) вы настроили политику классификации угроз на консоли партнера по MTD и создали политику соответствия устройств требованиям в Intune. Если вы уже настроили соединитель Intune на консоли партнера по MTD, можете включить соединение с MTD в Intune.
+Во время установки Mobile Threat Defense (MTD) вы настроили политику классификации угроз на консоли партнера по MTD и создали политику соответствия устройств требованиям в Intune. Если вы уже настроили соединитель Intune на консоли партнера по MTD, можете включить соединение с MTD для партнерских приложений MTD.
+
+При интеграции нового приложения с защитой мобильных устройств от угроз Intune и включении подключения Intune создает классическую политику условного доступа в Azure Active Directory. Каждое приложение MTD, которое вы интегрируете, например [ATP в Защитнике](advanced-threat-protection.md) или приложения наших [партнеров MTD](mobile-threat-defense.md#mobile-threat-defense-partners), создает новую классическую политику условного доступа.  Эти политики можно игнорировать, но нельзя изменять, удалять или отключать.
+
+Классические политики условного доступа для приложений MTD: 
+
+- используются Intune MTD для обязательной регистрации устройств в Azure AD, чтобы они имели идентификатор устройства. Этот идентификатор необходим для того, чтобы устройства могли успешно сообщить свое состояние в Intune;  
+- отличаются от политик условного доступа, которые могут быть созданы для помощи в управлении MTD;
+- по умолчанию не взаимодействуют с другими политиками условного доступа, используемыми для оценки.  
+
+Чтобы просмотреть классические политики условного доступа в [Azure](https://portal.azure.com/#home), перейдите в раздел **Azure Active Directory** > **Условный доступ** > **Классические политики**.
+
 
 ## <a name="to-enable-the-mtd-connector"></a>Включение соединителя MTD
 

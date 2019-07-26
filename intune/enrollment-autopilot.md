@@ -17,15 +17,17 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 71e8760bde5f6c53f6e73d8c8dd0f795809726b2
-ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
+ms.openlocfilehash: aa4a0ff4c651e20a9f772551f1664bd8bf2d879f
+ms.sourcegitcommit: 8023ba7d42e61bd37305c69f52a649cf83bf72e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67649118"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68387329"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
+
+Существует четыре типа развертывания Autopilot: [Режим саморазвертывания](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/self-deploying) (для киосков, цифровых вывесок и общих устройств), [White Glove](https://docs.microsoft.com/windows/deployment/windows-autopilot/white-glove) (позволяет партнерам или ИТ-специалистам создавать полностью настроенный ПК под управлением Windows 10, заранее подготовленный к работе) и [Autopilot для существующих устройств](https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices) (позволяет легко развернуть последнюю версию Windows 10 на существующих устройствах), а также [Пользовательский режим](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/user-driven) (для обычных пользователей). 
 
 
 ## <a name="prerequisites"></a>Предварительные условия
