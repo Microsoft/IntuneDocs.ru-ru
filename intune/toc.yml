@@ -5,6 +5,7 @@
   items:
     - name: Что такое Intune?
       href: what-is-intune.md
+      displayName: ems; emm; azure ad; active directory; ad
     - name: В чем преимущества Intune для организации?
       href: get-started-evaluation.md
     - name: Новые возможности
@@ -18,6 +19,7 @@
   items:
     - name: Бесплатная пробная версия Intune
       href: free-trial-sign-up.md
+      displayName: 'tenant; trial; get started, start; help'
     - name: Создание пользователя
       href: quickstart-create-user.md
     - name: Создание группы
@@ -56,6 +58,7 @@
   items:
     - name: Что такое управление устройствами?
       href: what-is-device-management.md
+      displayName: teamviewer
     - name: Основные сведения об Intune для образовательных учреждений
       href: introduction-intune-education.md
     - name: Высокоуровневая архитектура
@@ -70,6 +73,7 @@
       href: byod-technology-decisions.md
     - name: Политики защиты приложений и рабочие профили (Android)
       href: android-deployment-scenarios-app-protection-work-profiles.md
+      displayName: app-we; without; without enrollment
     - name: Управление версиями операционной системы
       href: manage-os-versions.md
     - name: Управление Windows Holographic
@@ -134,6 +138,7 @@
       items:
         - name: Действия по настройке Intune
           href: setup-steps.md
+          displayName: fasttrack
         - name: Поддерживаемые конфигурации
           href: supported-devices-browsers.md
           items:
@@ -188,6 +193,7 @@
               displayName: COD
             - name: многофакторную идентификацию;
               href: multi-factor-authentication.md
+              displayName: mfa; multifactor
             - name: Device enrollment manager (Диспетчер регистрации устройств)
               href: device-enrollment-manager-enroll.md
             - name: Сопоставление устройств с группами
@@ -214,20 +220,24 @@
           items:
             - name: Настройка регистрации устройств Android
               href: android-enroll.md
+              displayName: wpj
             - name: Подключение Intune к Android для бизнеса
               href: connect-intune-android-enterprise.md
             - name: Регистрация рабочих профилей Android для бизнеса
               href: android-work-profile-enroll.md
             - name: Регистрация выделенных устройств Android для бизнеса
               href: android-kiosk-enroll.md
+              displayName: gms
             - name: Регистрация полностью управляемых устройств Android для бизнеса
               href: android-fully-managed-enroll.md
+              displayName: gms
             - name: Регистрация выделенных или полностью управляемых устройств Android для бизнеса
               href: android-dedicated-devices-fully-managed-enroll.md
             - name: Управление устройствами с рабочим профилем Android для бизнеса
               href: android-enterprise-overview.md
             - name: Регистрация мобильных устройств Samsung Knox
               href: android-samsung-knox-mobile-enroll.md
+              displayName: kda; kme
         - name: Настройка регистрации iOS
           href: ios-enroll.md
           items:
@@ -246,9 +256,11 @@
           href: enrollment-report-company-portal-abandon.md
         - name: Устранение проблем при регистрации устройств
           href: troubleshoot-device-enrollment-in-intune.md
+          displayName: sso
     - name: Управление устройствами
-      href: device-management.md
       items:
+        - name: Общие сведения об управлении устройствами
+          href: device-management.md
         - name: Возможности управления устройствами
           href: device-management-capabilities.md
         - name: Обход блокировки активации
@@ -332,6 +344,7 @@
               href: vpn-setting-configure-per-app.md
         - name: "Добавление беспроводной сети\_Wi-Fi"
           href: wi-fi-settings-configure.md
+          displayName: wifi
           items:
             - name: Wi-Fi с общим ключом
               href: wi-fi-profile-shared-key.md
@@ -343,6 +356,7 @@
           href: shared-user-device-settings.md
         - name: Расширения Mobility на устройствах Zebra
           href: android-zebra-mx-overview.md
+          displayName: mx
           items:
             - name: Журналы StageNow и распространенные проблемы
               href: android-zebra-mx-logs-troubleshoot.md
@@ -362,6 +376,7 @@
       items:
         - name: Общие сведения о защите устройства
           href: device-protect.md
+          displayName: compliant; noncompliant; mfa
         - name: Конфиденциальность и персональные данные
           href: privacy-personal-data.md
           items:
@@ -389,8 +404,10 @@
         - name: Шифрование устройств
           href: encrypt-devices.md
         - name: Условный доступ
-          href: conditional-access.md
           items:
+            - name: Общие сведения об условном доступе
+              href: conditional-access.md
+              displayName: ca
             - name: Стандартные способы использования условного доступа
               href: conditional-access-intune-common-ways-use.md
             - name: Установка локального соединителя Exchange
@@ -431,6 +448,7 @@
                       items:
                         - name: Интеграция Better Mobile и Intune
                           href: better-mobile-mtd-connector-integration.md
+                          displayName: sso
                     - name: Настройка Check Point
                       href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md
                       items:
@@ -491,14 +509,18 @@
           items:
             - name: SCEP
               href: certificates-scep-configure.md
+              displayName: ksp
             - name: PKCS
               href: certficates-pfx-configure.md
+              displayName: ksp
             - name: Шифрование электронной почты с помощью S/MIME
               href: certificates-s-mime-encryption-sign.md
             - name: Использование сторонних центров сертификации с SCEP
               href: certificate-authority-add-scep-overview.md
+              displayName: csr
             - name: Использование инфраструктуры открытых ключей DigiCert
               href: certificates-digicert-configure.md
+              displayName: ca; pkcs; pki; ra; registration authority
             - name: Удаление сертификатов SCEP и PKCS
               href: remove-certificates.md
         - name: Профили сотовой связи eSIM
@@ -519,6 +541,7 @@
           href: app-management.md
         - name: Добавление приложений
           href: apps-add.md
+          displayName: apk; ipa; msi; appx; appxbundle; msix; msixbundle; app
           items:
             - name: Защищенные приложения Intune
               href: apps-supported-intune-apps.md
@@ -559,6 +582,7 @@
                   href: lob-apps-macos.md
             - name: Веб-приложения
               href: web-app.md
+              displayName: web; web link; weblink; web-link
             - name: Встроенные приложения
               href: apps-add-built-in.md
             - name: Сценарии PowerShell
@@ -594,9 +618,11 @@
               href: app-configuration-policies-managed-app.md
             - name: Использование профилей подготовки приложений iOS
               href: app-provisioning-profile-ios.md
-            - name: 'Работа с приложениями и книгами, приобретенными по корпоративной программе'
-              href: vpp-apps.md
+            - name: 'Приложения и книги, приобретенные по корпоративной программе'
               items:
+                - name: Управление приложениями и книгами VPP
+                  href: vpp-apps.md
+                  displayName: vpp; volume purchased
                 - name: Приложения VPP iOS
                   href: vpp-apps-ios.md
                 - name: Приложения из Магазина Майкрософт для бизнеса
@@ -616,11 +642,15 @@
             - name: Выборочная очистка приложений
               href: apps-selective-wipe.md
             - name: Использование политик защиты приложений
-              href: app-protection-policy.md
               items:
+                - name: Общие сведения о политиках защиты приложений
+                  href: app-protection-policy.md
+                  displayName: app; protection; policy
                 - name: Создание политик защиты приложений
-                  href: app-protection-policies.md
                   items:
+                    - name: Общие параметры
+                      href: app-protection-policies.md
+                      displayName: dlp; data loss prevention
                     - name: Параметры Android
                       href: app-protection-policy-settings-android.md
                     - name: Параметры iOS
@@ -671,6 +701,10 @@
           href: tenant-status.md
         - name: Устранение неполадок
           items:
+            - name: Устранение проблем при регистрации
+              items:
+                - name: Устранение проблем при регистрации устройств iOS
+                  href: troubleshoot-ios-enrollment-errors.md
             - name: Помощь пользователям в устранении проблем
               href: help-desk-operators.md
             - name: 'Устранение неполадок, связанных с доступом к ресурсам компании'
@@ -877,6 +911,7 @@
               href: app-sdk-ios.md
             - name: Инструмент упаковки приложений для Android
               href: app-wrapper-prepare-android.md
+              displayName: dex
             - name: Пакет SDK приложений Intune для Android
               href: app-sdk-android.md
               items:
