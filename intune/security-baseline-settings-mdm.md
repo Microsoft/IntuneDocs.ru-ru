@@ -5,7 +5,7 @@ description: Основные настройки безопасности Intune
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 06/20/2019
+ms.date: 07/25/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7f70d54404dc20d6d6aabd5974dff9c5102b759f
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: 2ff902530b6f7001e23300b01f6576f0a7fc2637
+ms.sourcegitcommit: 1d4aec7b79c70d35ec3fc29df6ff9c6a1403412e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67882297"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68491908"
 ---
 # <a name="mdm-security-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности MDM для Intune  
 
@@ -1773,7 +1773,12 @@ ms.locfileid: "67882297"
   **Значение по умолчанию**: "Да"
 
 - **Configure Windows Hello for Business**  (Настроить Windows Hello для бизнеса)  
-  Windows Hello для бизнеса — это альтернативный метод входа в Windows путем замены паролей, смарт-карт и виртуальных смарт-карт. Если вы включили или не настроили этот параметр политики, устройство подготавливает Windows Hello для бизнеса. Если вы отключили этот параметр политики, устройство не подготавливает Windows Hello для бизнеса для пользователей.
+    Windows Hello для бизнеса — это альтернативный метод входа в Windows путем замены паролей, смарт-карт и виртуальных смарт-карт.  
+
+  - Если задано значение *Да*, то эта политика включена, и устройство подготавливает Windows Hello для бизнеса.  
+  - Если задано значение *не настроено*, то базовый план не влияет на параметры политики устройства. Это означает, что если на устройстве отключена система Windows Hello для бизнеса, она остается отключенной. Если он включен, он остается включенным. 
+
+  Вы не можете отключить Windows Hello для бизнеса через этот базовый план. Вы можете отключить Windows Hello для бизнеса при настройке [регистрации Windows](windows-hello.md)или в рамках профиля конфигурации устройства для [защиты идентификации](identity-protection-configure.md).  
 
   **Значение по умолчанию**: "Да"
 
