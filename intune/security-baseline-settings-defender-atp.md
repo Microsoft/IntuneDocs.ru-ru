@@ -5,7 +5,7 @@ description: Параметры базовых показателей безоп
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 05/29/2019
+ms.date: 07/25/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 40d2b1f58c2892eea6d3f454a3f993b30b9a5c4a
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
-ms.translationtype: HT
+ms.openlocfilehash: eee3d4187dd513cd3945e86aff478fe96b341660
+ms.sourcegitcommit: 1d4aec7b79c70d35ec3fc29df6ff9c6a1403412e
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68354430"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68491914"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
@@ -29,7 +29,7 @@ ms.locfileid: "68354430"
 
 Базовая конфигурация Advanced Threat Protection в Microsoft Defender доступна, если ваша среда соответствует предварительным требованиям для использования [Advanced Threat Protection в Microsoft Defender](advanced-threat-protection.md#prerequisites). 
 
-Этот базовый план оптимизирован для физических устройств и сейчас не рекомендуется для использования на виртуальных машинах или конечных точках VDI. Некоторые базовые параметры могут влиять на удаленные интерактивные сеансы в виртуализованных средах. Дополнительные сведения см. в [статье повышение уровня соответствия требованиям базового уровня безопасности Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline) в документации по Windows.
+Этот базовый план оптимизирован для физических устройств и сейчас не рекомендуется для использования на виртуальных машинах или конечных точках VDI. Некоторые базовые параметры могут влиять на удаленные интерактивные сеансы в виртуализованных средах. Дополнительные сведения см. в статье [Повышение уровня соответствия требованиям базового уровня безопасности ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline) в документации по Windows.
 
 
 > [!NOTE]  
@@ -292,7 +292,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: "Режим аудита"
 
-## <a name="web-network-protection"></a>Защита веб-сети  
+## <a name="web--network-protection"></a>Защита сети и веб-ресурсов  
 
 - **Network protection type** (Тип защиты сети)  
   [Defender/EnableNetworkProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection). Эта политика позволяет включать или отключать защиту сети в Exploit Guard в Защитнике Windows. Функция защиты сети входит в состав Exploit Guard в Защитнике Windows и защищает сотрудников, использующих любое приложение, от фишинговых сообщений, сайтов с эксплойтами и вредоносного содержимого в Интернете. Кроме того, она не позволяет сторонним браузерам подключаться к опасным сайтам.  
@@ -600,6 +600,13 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
 - **Configure Windows Hello for Business** (Настройка Windows Hello для бизнеса) — *TenantId/Policies/UsePassportForWork*    
   Windows Hello для бизнеса — это альтернативный метод входа в Windows путем замены паролей, смарт-карт и виртуальных смарт-карт.  
+
+  - Если задано значение *Да*, то эта политика включена, и устройство подготавливает Windows Hello для бизнеса.  
+  - Если задано значение *не настроено*, то базовый план не влияет на параметры политики устройства. Это означает, что если на устройстве отключена система Windows Hello для бизнеса, она остается отключенной. Если он включен, он остается включенным. 
+
+  Вы не можете отключить Windows Hello для бизнеса через этот базовый план. Вы можете отключить Windows Hello для бизнеса при настройке [регистрации Windows](windows-hello.md)или в рамках профиля конфигурации устройства для [защиты идентификации](identity-protection-configure.md).  
+
+Windows Hello для бизнеса — это альтернативный метод входа в Windows путем замены паролей, смарт-карт и виртуальных смарт-карт.  
 
   Если вы включили или не настроили этот параметр политики, устройство выполняет подготовку Windows Hello для бизнеса. Если вы отключили этот параметр политики, устройство не выполняет подготовку Windows Hello для бизнеса для пользователей.
 
