@@ -4,7 +4,7 @@ description: В состав Microsoft 365 корпоративный входи
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 06/12/2019
+ms.date: 07/22/2019
 ms.topic: conceptual
 audience: ITPro
 ms.service: microsoft-intune
@@ -15,12 +15,12 @@ ms.reviewer: angerobe
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f476c3129f3f3da4cde98fd0cd9960c223ffd6ae
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: 5be25e9ab88f4dd44399d6ddc37cfc25955475ba
+ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67884274"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68427312"
 ---
 # <a name="what-is-device-management"></a>Что такое управление устройствами? 
 
@@ -59,7 +59,7 @@ Intune позволяет управлять несколькими устрой
 - **Защитник Windows** предоставляет множество функций безопасности для защиты устройств Windows 10. Используя Intune вместе с Защитником Windows, вы можете: 
 
   - включить [SmartScreen Защитника Windows](https://docs.microsoft.com/intune/endpoint-protection-windows-10) для поиска подозрительной активности в файлах и приложениях на мобильных устройствах; 
-  - Используйте [Advanced Threat Protection (ATP) в Защитнике Windows](https://docs.microsoft.com/intune/advanced-threat-protection) для предотвращения нарушений безопасности на мобильных устройствах. Также помогите ограничить последствия брешей в системе безопасности путем блокирования пользователей к корпоративным ресурсам.
+  - Используйте [Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/intune/advanced-threat-protection) для предотвращения нарушений безопасности на мобильных устройствах. Также помогите ограничить последствия брешей в системе безопасности путем блокирования пользователей к корпоративным ресурсам.
 
 - **Условный доступ** — это функция Azure Active Directory, которая легко интегрируется с Intune. С помощью [условного доступа](https://docs.microsoft.com/intune/conditional-access) доступ к электронной почте, SharePoint и другим приложениям предоставляется только соответствующим устройствам. 
 
@@ -73,11 +73,11 @@ Intune позволяет управлять несколькими устрой
 
 При настройке Intune для управления устройствами можно выбрать только портал Azure или комбинацию Intune и Microsoft 365. [Перенос управления мобильными устройствами в Intune на портале Azure](https://www.microsoft.com/itshowcase/Article/Content/1042/Migrating-mobile-device-management-to-Intune-in-the-Azure-portal) — это пример использования ИТ в Майкрософт. Мы рассмотрим, как ИТ-отдел Майкрософт использовал современный подход к управлению устройствами, и узнаем про сделанные выводы.
 
-## <a name="simplify-it-tasks-using-the-device-management-dashboard"></a>Упрощение ИТ-задач с помощью панели мониторинга управления устройствами
+## <a name="simplify-it-tasks-using-the-device-management-admin-center"></a>Упрощение ИТ-задач с помощью центра администрирования "Управление устройствами"
 
-[Панель мониторинга управления устройствами](https://devicemanagement.portal.azure.com/) — это централизованное средство для выполнения задач для мобильных устройств и управления ими. На этой панели мониторинга находятся службы, используемые для управления устройствами, включая Intune и Azure Active Directory, а также для управления клиентскими приложениями. 
+[Центр администрирования "Управление устройствами"](https://devicemanagement.portal.azure.com/) — это централизованное средство для выполнения и администрирования задач для мобильных устройств. В этой рабочей области находятся службы, используемые для управления устройствами, включая Intune и Azure Active Directory, а также для управления клиентскими приложениями. 
 
-На панели мониторинга "Управление устройствами" можно выполнять следующие задачи.
+В центре администрирования управления устройствами можно:
 
 - [Регистрация устройств](https://docs.microsoft.com/intune/device-enrollment)
 - [Задание соответствия устройства требованиям](https://docs.microsoft.com/intune/device-compliance-get-started)

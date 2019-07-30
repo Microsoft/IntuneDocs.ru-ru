@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2718ee7936e82bffc50126eeb57f1b6f732df22d
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
+ms.openlocfilehash: ea3ae66a32353b4aa6c782b13e6a587ee1f4464e
+ms.sourcegitcommit: 1d4aec7b79c70d35ec3fc29df6ff9c6a1403412e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68354468"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68491820"
 ---
 # <a name="troubleshoot-the-intune-on-premises-exchange-connector"></a>Устранение неполадок в работе соединителя Intune с локальной организацией Exchange
 
@@ -47,9 +47,9 @@ ms.locfileid: "68354468"
 
 
 ## <a name="using-powershell-to-get-more-data-on-exchange-connector-issues"></a>Использование Powershell для получения дополнительных сведений о неполадках в работе соединителя с Exchange
-- Чтобы получить список всех мобильных устройств для почтового ящика, используйте команду Get-ActiveSyncDeviceStatistics -mailbox mbx.
-- Чтобы получить список SMTP-адресов для почтового ящика, используйте команду Get-Mailbox -Identity user | select emailaddresses | fl.
-- Чтобы получить подробные сведения о состоянии доступа устройства, используйте команду Get-CASMailbox <upn> | fl.
+- Чтобы получить список всех мобильных устройств для почтового ящика, используйте`Get-ActiveSyncDeviceStatistics -mailbox mbx`
+- Чтобы получить список SMTP-адресов для почтового ящика, используйте`Get-Mailbox -Identity user | select emailaddresses | fl`
+- Чтобы получить подробные сведения о состоянии доступа устройства, используйте команду `Get-CASMailbox <upn> | fl`.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, вы можете [получить поддержку для Microsoft Intune](get-support.md).
