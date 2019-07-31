@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/25/2019
+ms.date: 07/24/2019
 ms.topic: quickstart
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1fa23deb26dbf54f8e3e98ec0b9604859a34a90d
-ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
+ms.openlocfilehash: cd310cea29a3dac7a178d88c0f29d1a4e36ad37d
+ms.sourcegitcommit: d2ac912b834c4840de9cc92ba1815b6ecfbfb52b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67528309"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68482812"
 ---
 # <a name="quickstart-add-and-assign-a-client-app"></a>Краткое руководство. Добавление и назначение клиентского приложения
 
@@ -43,7 +43,6 @@ ms.locfileid: "67528309"
 Приложение можно включить в систему управления Intune для управления его аспектами. 
 
 Это можно сделать, выполнив следующие шаги.
-
 1. В [Intune](https://aka.ms/intuneportal) выберите **Клиентские приложения** > **Приложения** > **Добавить**. 
 2. В разделе **Пакет Office 365** раскрывающегося списка **Тип приложения** выберите **Windows 10**.
 3. Выберите **Настроить набор приложений**, чтобы выбрать приложения Office для назначения пользователям Intune.
@@ -56,9 +55,9 @@ ms.locfileid: "67528309"
 
     ![Снимок экрана: добавление сведений о приложении](media/quickstart-add-assign-app/quickstart-add-assign-app-01.png)
 
-8. Выберите **Параметры набора приложений**.
-9. В раскрывающемся списке **Канал обновления** выберите **Ежемесячно**.
-10. Нажмите кнопку **ОК** > **Добавить**.
+10. Выберите **Параметры набора приложений**.
+11. В раскрывающемся списке **Канал обновления** выберите **Ежемесячно**.
+12. Нажмите кнопку **ОК** > **Добавить**.
 
 ## <a name="assign-the-app-to-a-group"></a>Назначение приложения группе
 

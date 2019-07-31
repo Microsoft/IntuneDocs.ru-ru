@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d27cd977909bb7aa237441102110a7abc27ad301
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: fef4b6969680101e2e4f045bc83a8974536eaf2a
+ms.sourcegitcommit: c715c93bb242f4fe44bbdf2fd585909854ed72b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67884994"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68660967"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune  
 
@@ -164,26 +164,23 @@ ms.locfileid: "67884994"
 - Добавьте политику конфигурации приложения Check Point SandBlast Mobile для iOS согласно инструкции по [использованию политик конфигурации приложений для iOS в Microsoft Intune](app-configuration-policies-use-ios.md).
   - В **шаге 8** используйте функцию **Введите данные XML**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации.
 
-```
-<dict><key>MDM</key><string>INTUNE</string></dict>
-```
+        <dict><key>MDM</key><string>INTUNE</string></dict>
+
 
 ### <a name="zimperium-app-configuration-policy"></a>Политика конфигурации приложений Zimperium  
 - См. инструкции по [использованию политик конфигурации приложений Microsoft Intune для iOS](app-configuration-policies-use-ios.md), чтобы добавить политику конфигурации приложений Zimperium для iOS.
   - В **шаге 8** используйте функцию **Введите данные XML**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации.
-
-```
-<dict>
-<key>provider</key><string>Intune</string>
-<key>userprincipalname</key><string>{{userprincipalname}}</string>
-<key>deviceid</key>
-<string>{{deviceid}}</string>
-<key>serialnumber</key>
-<string>{{serialnumber}}</string>
-<key>udidlast4digits</key>
-<string>{{udidlast4digits}}</string>
-</dict>
-```
+ 
+        <dict>
+        <key>provider</key><string>Intune</string>
+        <key>userprincipalname</key><string>{{userprincipalname}}</string>
+        <key>deviceid</key>
+        <string>{{deviceid}}</string>
+        <key>serialnumber</key>
+        <string>{{serialnumber}}</string>
+        <key>udidlast4digits</key>
+        <string>{{udidlast4digits}}</string>
+        </dict>
 
 ### <a name="pradeo-app-configuration-policy"></a>Политика конфигурации приложений Pradeo  
 Pradeo не поддерживает политики конфигурации приложений на iOS.  Вместо этого, чтобы получить настроенное приложение, обратитесь в Pradeo для получения пользовательских файлов IPA или APK, настроенных с нужными вам параметрами.
@@ -192,16 +189,15 @@ Pradeo не поддерживает политики конфигурации �
 - Инструкции по [использованию политик конфигурации приложений Microsoft Intune для iOS](app-configuration-policies-use-ios.md) помогут вам добавить политику конфигурации приложений Better Mobile для iOS.
   - В **шаге 8** используйте функцию **Введите данные XML**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации. Замените URL-адрес `https://client.bmobi.net` на подходящий URL-адрес консоли.
 
-```
-<dict>
-<key>better_server_url</key>
-<string>https://client.bmobi.net</string>
-<key>better_udid</key>
-<string>{{aaddeviceid}}</string>
-<key>better_user</key>
-<string>{{userprincipalname}}</string>
-</dict>
-```
+        <dict>
+        <key>better_server_url</key>
+        <string>https://client.bmobi.net</string>
+        <key>better_udid</key>
+        <string>{{aaddeviceid}}</string>
+        <key>better_user</key>
+        <string>{{userprincipalname}}</string>
+        </dict>
+
 
 ### <a name="sophos-mobile-app-configuration-policy"></a>Политика конфигурации приложений Sophos Mobile  
 Создайте политику конфигурации приложений iOS, как описано в статье об [использовании политики конфигурации приложений iOS](app-configuration-policies-use-ios.md).
@@ -210,22 +206,20 @@ Pradeo не поддерживает политики конфигурации �
 Чтобы добавить политику конфигурации приложения Wandera для iOS, см. инструкции по [использованию политик конфигурации приложений Microsoft Intune для iOS](app-configuration-policies-use-ios.md).
 - На **шаге 8** используйте функцию **Введите данные XML**. Войдите на портал Wandera RADAR и перейдите в раздел **Settings (Параметры)**  > **EMM Integration (Интеграция EMM)**  > **App Push (Отправка приложения)** . Выберите **Intune**, скопируйте содержимое ниже и вставьте его в текст политики конфигурации.  
 
-  ```
-  <dict><key>secretKey</key>
-  <string>SeeRADAR</string>
-  <key>apiKey</key>
-  <string> SeeRADAR </string>
-  <key>customerId</key>
-  <string> SeeRADAR </string>
-  <key>email</key>
-  <string>{{mail}}</string>
-  <key>firstName</key>
-  <string>{{username}}</string>
-  <key>lastName</key>
-  <string></string>
-  <key>activationType</key>
-  <string>PROVISION_THEN_AWP</string></dict>  
-  ```
+      <dict><key>secretKey</key>
+       <string>SeeRADAR</string>
+       <key>apiKey</key>
+       <string> SeeRADAR </string>
+       <key>customerId</key>
+       <string> SeeRADAR </string>
+       <key>email</key>
+       <string>{{mail}}</string>
+       <key>firstName</key>
+       <string>{{username}}</string>
+       <key>lastName</key>
+       <string></string>
+       <key>activationType</key>
+       <string>PROVISION_THEN_AWP</string></dict>  
 
 ## <a name="assign-apps-to-groups"></a>Назначение приложений группам  
 - Этот шаг применяется ко всем партнерам MTD. См. инструкции по [назначению приложений группам в Intune](apps-deploy.md).

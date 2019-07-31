@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/5/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aa4a0ff4c651e20a9f772551f1664bd8bf2d879f
-ms.sourcegitcommit: 8023ba7d42e61bd37305c69f52a649cf83bf72e2
+ms.openlocfilehash: a9ac1830bcc407431cf0a5df8e8c11baa0c27c9c
+ms.sourcegitcommit: 3baa9965095bb874d9b8c7a3cbb4aa925ed52cae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68387329"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68625104"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -39,7 +39,7 @@ Windows Autopilot упрощает регистрацию устройств в 
 
 Дополнительные сведения см. в статье о командлетах PowerShell.
 
-- [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/1.3/Content/Get-WindowsAutoPilotInfo.ps1)
+- [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo)
 
 ## <a name="add-devices"></a>Добавление устройств
 

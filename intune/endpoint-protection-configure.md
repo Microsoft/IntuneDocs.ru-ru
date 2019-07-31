@@ -15,12 +15,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 mr.reviewer: karthib
-ms.openlocfilehash: d0e3e67cd227c5ce8ac2cb42f79bdea1da8e2d75
-ms.sourcegitcommit: c3a4fefbac8ff7badc42b1711b7ed2da81d1ad67
+ms.openlocfilehash: 13e8c7fd0c822a2bdfbf7c183ea6752f99cf7991
+ms.sourcegitcommit: d2ac912b834c4840de9cc92ba1815b6ecfbfb52b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68375122"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68482776"
 ---
 # <a name="add-endpoint-protection-settings-in-intune"></a>Добавление параметров защиты конечных точек в Intune  
 
@@ -63,7 +63,7 @@ ms.locfileid: "68375122"
 - Если для какого-то профиля не удается применить одно правило, все правила в этом профиле будут считаться неудачными и ни одно из правил не будет применено к устройству.  
 - Если правило не удается применить, все правила в профиле будут отображаться как неудачные. Intune не может выяснить, какое именно правило оказалось неудачным.  
 
-Правила брандмауэра, которыми может управлять Intune, подробно описаны в [поставщике службы конфигурации брандмауэра]( https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) Windows (CSP). Чтобы просмотреть список настраиваемых параметров брандмауэра для устройств с Windows 10, поддерживаемых Intune, см. раздел [Настраиваемые правила брандмауэра](endpoint-protection-windows-10.md#custom-firewall-rules).  
+Правила брандмауэра, которыми может управлять Intune, подробно описаны в [поставщике службы конфигурации брандмауэра]( https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) Windows (CSP). Чтобы просмотреть список настраиваемых параметров брандмауэра для устройств с Windows 10, поддерживаемых Intune, см. раздел [Настраиваемые правила брандмауэра](endpoint-protection-windows-10.md#firewall-rules).  
 
 ### <a name="to-add-custom-firewall-rules-to-an-endpoint-protection-profile"></a>Добавление настраиваемых правил брандмауэра в профиль защиты конечной точки  
 
@@ -73,7 +73,7 @@ ms.locfileid: "68375122"
 
 3. Выберите **брандмауэр Защитника Windows**, чтобы открыть страницу настройки, а затем в разделе *Правила брандмауэра* нажмите кнопку **Добавить**, чтобы открыть страницу **создания правила**.  
 
-4. Укажите параметры правила брандмауэра и нажмите кнопку **ОК**, чтобы сохранить его. Сведения о доступных параметрах настраиваемых правил брандмауэра см. в разделе документации [Настраиваемые правила брандмауэра](endpoint-protection-windows-10.md#custom-firewall-rules).  
+4. Укажите параметры правила брандмауэра и нажмите кнопку **ОК**, чтобы сохранить его. Сведения о доступных параметрах настраиваемых правил брандмауэра см. в разделе документации [Настраиваемые правила брандмауэра](endpoint-protection-windows-10.md#firewall-rules).  
 
 5. После сохранения правило появится на странице *брандмауэра Защитника Windows* в списке правил.  
 
