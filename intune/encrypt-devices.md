@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.reviewer: annovich
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 57b459efa5b423f1c73a0d6b7b9172f71f4c86d3
-ms.sourcegitcommit: c3a4fefbac8ff7badc42b1711b7ed2da81d1ad67
+ms.openlocfilehash: 3f37b9b0bc16572cc86cbf79be616c7f395aa784
+ms.sourcegitcommit: 2bce5e43956b6a5244a518caa618f97f93b4f727
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68375171"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68467469"
 ---
 # <a name="use-device-encryption-with-intune"></a>Использование шифрования устройств в Intune  
 
@@ -66,10 +66,7 @@ FileVault — это программа шифрования всего диск
 
    Пример. Чтобы получить потерянный или недавно измененный ключ восстановления, войдите на веб-сайт корпоративного портала Intune с любого устройства. На портале перейдите на вкладку *Устройства* и выберите устройство с включенным FileVault, а затем выберите команду *Получить ключ восстановления*. Отобразится текущий ключ восстановления.  
 
-6. Настройте остальные параметры в соответствии с потребностями бизнеса, а затем нажмите кнопку **ОК**.  
-
-   > [!NOTE]
-   > Поддержка FileVault ограничена до окончания развертывания июльского выпуска в течение нескольких дней. До завершения развертывания, если вы настроили FileVault, необходимо задать параметр *Отложить использование FileVault, пока не будет выполнен выход* как **Включено**.  
+6. Настройте остальные [параметры FileVault](endpoint-protection-macos.md#filevault) в соответствии с бизнес-потребностями, а затем нажмите кнопку **ОК**.  
 
 7. Завершите настройку дополнительных параметров, а затем сохраните профиль.  
 

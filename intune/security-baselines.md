@@ -1,6 +1,6 @@
 ---
 title: Использование базовых показателей безопасности в Microsoft Intune в Azure | Документация Майкрософт
-description: Добавьте или настройте рекомендуемые параметры безопасности Windows, чтобы обеспечить защиту пользователей и данных на устройствах с помощью Microsoft Intune — службы управления мобильными устройствами. Включите BitLocker, настройте Расширенную защиту от угроз в Microsoft Defender, управляйте Internet Explorer, используйте Smart Screen, устанавливайте локальные политики безопасности, запрашивайте пароль, блокируйте загрузки через Интернет и многое другое.
+description: Примените рекомендуемые параметры безопасности Windows, чтобы обеспечить защиту пользователей и данных на устройствах с помощью Microsoft Intune — службы управления мобильными устройствами. Включите шифрование, настройте Расширенную защиту от угроз в Microsoft Defender, администрируйте Internet Explorer, устанавливайте локальные политики безопасности, запрашивайте пароль, блокируйте загрузки через Интернет и многое другое.
 keywords: ''
 author: brenduns
 ms.author: brenduns
@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bbab505d668f0e348b3b4d34fb2c39ac683f340b
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
+ms.openlocfilehash: 252a42b9c8ef6612301bc913e187295be47d27bb
+ms.sourcegitcommit: 99b74d7849fbfc8f5cf99cba33e858eeb9f537aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68353596"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68671022"
 ---
 # <a name="use-security-baselines-to-configure-windows-10-devices-in-intune"></a>Использование базовых конфигураций безопасности для настройки устройств Windows 10 в Intune
 

@@ -1,5 +1,6 @@
 ---
-title: Использование отчетов о поддержке обновлений для обновлений Windows в Microsoft Intune | Документация Майкрософт
+title: Использование отчетов Поддержки обновлений для обновлений Windows в Microsoft Intune
+titleSuffix: Microsoft Intune
 description: Используйте поддержку обновлений OMS для просмотра данных отчета об обновлениях Windows, развернутых с помощью Intune.
 keywords: ''
 author: brenduns
@@ -14,12 +15,12 @@ ms.reviewer: aiwang
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a2b236d01cb5ffcf5a26e71ac0a9b65bb586dcb1
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 09f3cafc16d8a08885731aa244a089367c6c0933
+ms.sourcegitcommit: c715c93bb242f4fe44bbdf2fd585909854ed72b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66039668"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68660397"
 ---
 # <a name="intune-compliance-reports-for-updates"></a>Отчет о соответствии Intune для обновлений
 Когда вы используете Intune для развертывания обновления Windows на устройствах Windows 10, просматривайте сведения о поддержке обновлений с помощью Intune или бесплатного решения *Поддержка обновлений*, которое входит в Microsoft Operations Management Suite (OMS).

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/22/2019
+ms.date: 07/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1827375dc1905b5c881f743777a73340f0215e0c
-ms.sourcegitcommit: 8023ba7d42e61bd37305c69f52a649cf83bf72e2
+ms.openlocfilehash: 53555a01899cfec15c319e790620b2bfeaa302bc
+ms.sourcegitcommit: 948ff8f56639e6dc7091134a0efd8d44efca63f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68388517"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590906"
 ---
 # <a name="intune-discovered-apps"></a>Обнаруженные Intune приложения
 
@@ -37,6 +37,15 @@ ms.locfileid: "68388517"
 
 >[!NOTE]
 >Список обнаруженных приложений можно экспортировать в CSV-файл, выбрав **Экспорт** в колонке **Обнаруженные приложения**.
+>
+>Обнаруженные приложения Win32 сейчас не учитываются. Данные этого типа можно просматривать только на уровне отдельного устройства.
+
+Intune также предоставляет список обнаруженных приложений для отдельного устройства в клиенте. 
+
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+2. На панели Intune выберите **Устройства** > **Все устройства**.
+3. Выберите устройство.
+4. Чтобы просмотреть обнаруженные приложения для этого устройства, выберите **Обнаруженные приложения** в разделе **Мониторинг**. 
 
 ## <a name="details-of-discovered-apps"></a>Сведения об обнаруженных приложениях
 

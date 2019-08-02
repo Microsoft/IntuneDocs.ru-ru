@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b836e754b8c08397fccb0c74b40ba9fe0675076e
-ms.sourcegitcommit: 97a46f0f6a27eda0592ff6518fac46bc2447b622
+ms.openlocfilehash: 1dd836d8bbc4d6f32081c74fb6f9edc42aff2cac
+ms.sourcegitcommit: d2ac912b834c4840de9cc92ba1815b6ecfbfb52b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68411602"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68482961"
 ---
 # <a name="network-endpoints-for-microsoft-intune"></a>Конечные точки сети для Microsoft Intune  
 
@@ -146,7 +146,7 @@ ms.locfileid: "68411602"
 
 ## <a name="microsoft-intune-certificate-connector"></a>Соединитель сертификатов Microsoft Intune  
 
-Сервер, на котором размещается соединитель сертификатов Microsoft Intune, должен иметь доступ через **TCP**-порт **443** к общедоступным IP-адресам, перечисленным в следующей таблице.  
+Сервер, на котором размещается соединитель сертификатов Microsoft Intune, должен иметь доступ через **TCP**-порт **443** к общедоступным IP-адресам, перечисленным в следующей таблице. См. подробнее о настройке и использовании сертификатов [PKCS](certficates-pfx-configure.md) и [SCEP](certificates-scep-configure.md) в Intune.
 
 |Domains                             |IP-адрес       |
 |---------------|--------------------------------------|

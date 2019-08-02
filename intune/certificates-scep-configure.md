@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b073047455cd21dc3ffe5efcb52f51584db5ff30
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
+ms.openlocfilehash: b6db255cc4c4bb8466d36e25deaf36e5c3480106
+ms.sourcegitcommit: 2bce5e43956b6a5244a518caa618f97f93b4f727
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68353780"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68467497"
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Настройка и использование сертификатов SCEP в Intune
 
@@ -373,7 +373,14 @@ ms.locfileid: "68353780"
      - Windows 10 и более поздней версии
 
 
-   - **Формат имени субъекта**. Выберите способ, с помощью которого Intune автоматически создает имя субъекта в запросе на сертификат. При выборе типа сертификата **Пользовательский** или **Устройство** параметры изменяются. 
+   - **Формат имени субъекта**. Выберите способ, с помощью которого Intune автоматически создает имя субъекта в запросе на сертификат. При выборе типа сертификата **Пользовательский** или **Устройство** параметры изменяются.  
+
+     > [!NOTE]  
+     > Существует [известная ошибка](#avoid-certificate-signing-requests-with-escaped-special-characters), связанная с использованием SCEP для получения сертификатов, когда имя субъекта в итоговом запросе на подпись сертификата (CSR) включает один из следующих экранируемых символов, перед которыми используется символ обратной косой черты (\\):
+     > - \+
+     > - ;
+     > - ,
+     > - =
 
         **Тип пользовательского сертификата**  
 
@@ -495,6 +502,42 @@ ms.locfileid: "68353780"
      - Нажмите кнопки **ОК** и **Создать**, чтобы создать профиль.
 
 Созданный профиль отобразится на панели со списком профилей.
+
+### <a name="avoid-certificate-signing-requests-with-escaped-special-characters"></a>Избегайте использования запросов на подпись сертификата со специальными экранируемыми символами
+Существует известная ошибка, связанная с запросами на сертификат SCEP, когда имя субъекта содержит один или несколько экранируемых символов. Использование такого имени субъекта приведет к тому, что CSR распознает это имя как неправильное, что, в свою очередь, приведет к сбою проверки запросов SCEP в Intune и отсутствию сертификата.  
+
+Специальные символы:
+- \+
+- ,
+- ;
+- =
+
+Если имя субъекта содержит один из этих символов, вы можете выполнить одно из следующих действий:  
+- заключить значение имени субъекта, содержащее специальный символ, в кавычки;  
+- удалить специальный символ из значения имени субъекта.  
+
+**Например**, у вас есть имя субъекта, которое отображается как *Test user (TestCompany, LLC)* .  CSR с именем субъекта, которое содержит *запятую* между *TestCompany* и LLC, представляет собой проблему.  Проблему можно решить, заключив в кавычки все имя субъекта или удалив запятую между *TestCompany* и *LLC*:
+- **Добавление кавычек**: *CN=* "Test User (TestCompany, LLC)",OU=UserAccounts,DC=corp,DC=contoso,DC=com*
+- **Удаление запятой**: *CN=Test User (TestCompany LLC),OU=UserAccounts,DC=corp,DC=contoso,DC=com*
+
+ При этом попытки экранировать запятую с помощью символа обратной косой черты будут приводить к ошибке в журналах CRP:  
+- **Экранированная запятая**: *CN=Test User (TestCompany\\, LLC),OU=UserAccounts,DC=corp,DC=contoso,DC=com*
+
+Эта ошибка похожа на следующую ошибку: 
+
+```
+Subject Name in CSR CN="Test User (TESTCOMPANY\, LLC),OU=UserAccounts,DC=corp,DC=contoso,DC=com" and challenge CN=Test User (TESTCOMPANY\, LLC),OU=UserAccounts,DC=corp,DC=contoso,DC=com do not match  
+
+  Exception: System.ArgumentException: Subject Name in CSR and challenge do not match
+
+   at Microsoft.ConfigurationManager.CertRegPoint.ChallengeValidation.ValidationPhase3(PKCSDecodedObject pkcsObj, CertEnrollChallenge challenge, String templateName, Int32 skipSANCheck)
+
+Exception:    at Microsoft.ConfigurationManager.CertRegPoint.ChallengeValidation.ValidationPhase3(PKCSDecodedObject pkcsObj, CertEnrollChallenge challenge, String templateName, Int32 skipSANCheck)
+
+   at Microsoft.ConfigurationManager.CertRegPoint.Controllers.CertificateController.VerifyRequest(VerifyChallengeParams value
+```
+
+
 
 ## <a name="assign-the-certificate-profile"></a>Назначение профиля сертификата
 

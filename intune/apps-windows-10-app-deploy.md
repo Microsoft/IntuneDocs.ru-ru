@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/08/2019
+ms.date: 07/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 804c6485252883672de13bf13729b28a4d7d2f94
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: d76e170627d7e08cc3da6fe4a48eb14ee839de98
+ms.sourcegitcommit: 948ff8f56639e6dc7091134a0efd8d44efca63f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67883836"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590923"
 ---
 # <a name="windows-10-app-deployment-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
@@ -41,7 +41,7 @@ ms.locfileid: "67883836"
 
 ## <a name="microsoft-store-for-business-apps"></a>Приложения из Магазина Майкрософт для бизнеса
 
-Приложения Microsoft Store для бизнеса — это современные приложения, которые вы приобретаете на административном портале Microsoft Store и затем синхронизируете с Microsoft Intune для управления. Приложения могут быть **лицензированы через сеть** или **автономно**. Обновлениями приложений из Microsoft Store для бизнеса управляет непосредственно Microsoft Store без каких-либо дополнительных действий со стороны администратора. Администратор может также запретить обновления для конкретных приложений с помощью пользовательского универсального кода ресурса (URI). Дополнительные сведения см. в разделе [Управление корпоративными приложениями. Предотвращение автоматических обновлений](https://docs.microsoft.com/windows/client-management/mdm/enterprise-app-management#prevent-app-from-automatic-updates). На устройстве конечного пользователя также можно отключить обновления для всех приложений Microsoft Store для бизнеса. 
+Приложения Microsoft Store для бизнеса — это современные приложения, которые вы приобретаете на административном портале Microsoft Store и затем синхронизируете с Microsoft Intune для управления. Приложения могут быть **лицензированы через сеть** или **автономно**. Обновлениями приложений из Microsoft Store для бизнеса управляет непосредственно Microsoft Store. Администратору не нужно ничего при этом делать. Вы также можете запретить обновления для конкретных приложений, используя пользовательский универсальный код ресурса (URI). Дополнительные сведения см. в разделе [Управление корпоративными приложениями. Предотвращение автоматических обновлений](https://docs.microsoft.com/windows/client-management/mdm/enterprise-app-management#prevent-app-from-automatic-updates). На устройстве конечного пользователя также можно отключить обновления для всех приложений Microsoft Store для бизнеса. 
 
 ## <a name="installing-apps-on-windows-10-devices"></a>Установка приложений на устройствах Windows 10
 В зависимости от типа приложение может быть установлено на устройстве Windows 10 одним из двух способов.
