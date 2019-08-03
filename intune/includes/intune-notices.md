@@ -7,12 +7,12 @@ ms.topic: include
 ms.date: 03/28/2019
 ms.author: erikje
 ms.custom: include file
-ms.openlocfilehash: 4423e731bc1538cd2454de32f0d50f2d08eedc69
-ms.sourcegitcommit: 99b74d7849fbfc8f5cf99cba33e858eeb9f537aa
+ms.openlocfilehash: 0721c62d44234a44881cdc562376c9bb62412187
+ms.sourcegitcommit: 73fbecf7cee4fdfc37d3c30ea2007d2a9a6d2d12
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "68670931"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68775916"
 ---
 Эти уведомления предоставляют важные сведения, которые помогут вам подготовиться к будущим изменениям в Intune. 
 
@@ -36,6 +36,10 @@ ms.locfileid: "68670931"
 Чтобы избежать проблем с ограниченной поддержкой этой функции, начиная с лета 2020 г., рекомендуется сделать следующее:
 - не включайте на новых устройствах функцию администратора устройства;
 - если ожидается, что устройство получит обновление до версии Android 10, замените функцию администратора устройства на функцию управления Android для бизнеса и (или) используйте политики защиты приложений.
+
+#### <a name="additional-information"></a>Дополнительные сведения
+- [Руководство Google по переходу от функции администратора устройства на функцию Android для бизнеса](http://static.googleusercontent.com/media/android.com/en/enterprise/static/2016/pdfs/enterprise/Android-Enterprise-Migration-Bluebook_2019.pdf)
+- [Документация Google по прекращению поддержки API администратора устройства](https://developers.google.com/android/work/device-admin-deprecation)
 
 ### <a name="update-your-android-company-portal-app-to-the-latest-version---4536963--"></a>Обновление приложения корпоративного портала для Android до последней версии <!--4536963-->
 Intune регулярно выпускает обновления для приложения корпоративного портала для Android. В ноябре 2018 г. мы выпустили обновление с реализованными внутренними функциями для подготовки к изменению Google — переходу с существующей платформы уведомлений на платформу Google Firebase Cloud Messaging (FCM). Когда Google прекратит поддержку существующей платформы уведомлений и перейдет на FCM, пользователям нужно будет обновить свое приложение корпоративного портала минимум до выпуска за ноябрь 2018 г., чтобы и дальше иметь доступ к Google Play Маркету.
