@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 04/10/2019
+ms.date: 07/29/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 673dd0cb751fcdd2a7036dc2bf52dd731a4b04ff
-ms.sourcegitcommit: 8d12ab22e23552f9addaef4c28b732fb211945a2
+ms.openlocfilehash: e8f5f67661dbf33f2b0d6b44e32302a874c3f4de
+ms.sourcegitcommit: 3baa9965095bb874d9b8c7a3cbb4aa925ed52cae
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68306752"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68625092"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -65,22 +65,22 @@ ms.locfileid: "68306752"
 
 Следующие файлы заголовков включают API, типы данных и протоколы, предоставляемые разработчиком в SDK-пакете Intune для приложений.
 
-    * IntuneMAMAppConfig.h
-    * IntuneMAMAppConfigManager.h
-    * IntuneMAMDataProtectionInfo.h
-    * IntuneMAMDataProtectionManager.h
-    * IntuneMAMDefs.h
-    * IntuneMAMDiagnosticConsole.h
-    * IntuneMAMEnrollmentDelegate.h
-    * IntuneMAMEnrollmentManager.h
-    * IntuneMAMEnrollmentStatus.h
-    * IntuneMAMFileProtectionInfo.h
-    * IntuneMAMFileProtectionManager.h
-    * IntuneMAMLogger.h
-    * IntuneMAMPolicy.h
-    * IntuneMAMPolicyDelegate.h
-    * IntuneMAMPolicyManager.h
-    * IntuneMAMVersionInfo.h
+-  IntuneMAMAppConfig.h
+-  IntuneMAMAppConfigManager.h
+-  IntuneMAMDataProtectionInfo.h
+-  IntuneMAMDataProtectionManager.h
+-  IntuneMAMDefs.h
+-  IntuneMAMDiagnosticConsole.h
+-  IntuneMAMEnrollmentDelegate.h
+-  IntuneMAMEnrollmentManager.h
+-  IntuneMAMEnrollmentStatus.h
+-  IntuneMAMFileProtectionInfo.h
+-  IntuneMAMFileProtectionManager.h
+-  IntuneMAMLogger.h
+-  IntuneMAMPolicy.h
+-  IntuneMAMPolicyDelegate.h
+-  IntuneMAMPolicyManager.h
+-  IntuneMAMVersionInfo.h
 
 Чтобы получить доступ ко всем указанным выше файлам заголовков, разработчикам достаточно просто импортировать IntuneMAM.h
 
@@ -130,17 +130,17 @@ ms.locfileid: "68306752"
     > * Предоставление доступа к API пакета SDK Intune в SWIFT с помощью инструкции import модуля (например, Import Интунемамсвифт) в настоящее время не поддерживается. Рекомендуемым подходом является использование коннектора с мостом "цель-C".
     
 3. Добавьте в проект следующие платформы iOS:  
-    * MessageUI.framework  
-    * Security.framework  
-    * MobileCoreServices.framework  
-    * SystemConfiguration.framework  
-    * libsqlite3.tbd;  
-    * libc++.tbd;  
-    * ImageIO.framework  
-    * LocalAuthentication.framework  
-    * AudioToolbox.framework  
-    * QuartzCore.framework  
-    * WebKit.framework
+-  MessageUI.framework  
+-  Security.framework  
+-  MobileCoreServices.framework  
+-  SystemConfiguration.framework  
+-  libsqlite3.tbd;  
+-  libc++.tbd;  
+-  ImageIO.framework  
+-  LocalAuthentication.framework  
+-  AudioToolbox.framework  
+-  QuartzCore.framework  
+-  WebKit.framework
 
 4. Включите совместное использование цепочки ключей (если оно еще не включено), щелкнув **Capabilities** (Возможности) в каждой цели проекта и включив параметр **Keychain Sharing** (Совместное использование цепочки ключей). Совместное использование цепочки ключей требуется для перехода к следующему шагу.
 

@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 921934eead9ff3a1074203dad55ee60f3fe77947
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: c626bb50868e6b966eb7c8867f4c4ff7178eadcf
+ms.sourcegitcommit: 73fbecf7cee4fdfc37d3c30ea2007d2a9a6d2d12
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66047274"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68756527"
 ---
 # <a name="intune-on-azure-console-and-legacy-intune-pc-client"></a>Intune в консоли Azure и устаревшем клиенте компьютера Intune
 
@@ -45,7 +45,7 @@ ms.locfileid: "66047274"
 1. Выберите представление.
 2. В поле **Фильтры** введите имя группы, для которой необходимо выполнить фильтрацию, и нажмите клавишу ВВОД. В этой группе выполнится фильтрация списка представлений для устройств.
 
-   ![](media/intune-legacy-pc-client/image01.png)
+   ![Список фильтров входные данные со списком "нет выбранных"](media/intune-legacy-pc-client/image01.png)
 
 
 ## <a name="continue-to-manage-windows-7-by-using-intune-pc-client"></a>Управление устройствами с Windows 7 с помощью клиента компьютера Intune
@@ -61,7 +61,7 @@ ms.locfileid: "66047274"
 Чтобы перейти от управления устройствами с Windows 10 с помощью клиента Intune к управлению с помощью MDM, сделайте следующее:
 
 1. В консоли Silverlight выполните **выборочную очистку** для отмены регистрации устройства в клиенте компьютера.
-  ![](media/intune-legacy-pc-client/image02.png)
+  ![Всплывающее окно предупреждения с выбранным переключателем "Выборочная очистка устройства"](media/intune-legacy-pc-client/image02.png)
 2. Повторно зарегистрируйте устройство с помощью [MDM (или путем присоединения к Azure Active Directory)](https://docs.microsoft.com/intune/windows-enroll). 
 
 ## <a name="next-steps"></a>Дальнейшие шаги

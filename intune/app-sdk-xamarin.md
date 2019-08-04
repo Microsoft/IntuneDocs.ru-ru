@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7525971f9ab48b92c3274f56cb1046a6fde948a5
-ms.sourcegitcommit: 2614d1b08b8a78cd792aebd2ca9848f391df8550
+ms.openlocfilehash: a8d1ad3648348783306fb0bc1e61defc4197a9d9
+ms.sourcegitcommit: 864fdf995c2b41f104a98a7e2665088c2864774f
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67794368"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68680050"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -114,6 +114,9 @@ ms.locfileid: "67794368"
   </PropertyGroup>
 ```
 
+> [!NOTE]
+> В настоящее время проблема с преобразовательом предотвращает отладку в приложениях Xamarin. Android. Для отладки приложения рекомендуется использовать интеграцию вручную, пока эта проблема не будет устранена.
+
 #### <a name="renamed-methodsapp-sdk-androidmdrenamed-methods"></a>[Переименованные методы](app-sdk-android.md#renamed-methods)
 Часто метод, доступный в классе Android, отмечается как окончательный в замещающем классе MAM. В этом случае замещающий класс MAM предоставляет метод с таким же именем (с суффиксом `MAM`), который должен быть переопределен вместо исходного. Например, при наследовании от `MAMActivity` вместо переопределения `OnCreate()` и вызова `base.OnCreate()` объекту `Activity` необходимо переопределить `OnMAMCreate()` и вызвать `base.OnMAMCreate()`.
 
@@ -177,7 +180,7 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 Для приложений `Xamarin.Forms` пакет `Microsoft.Intune.MAM.Remapper` автоматически выполняет замену класса MAM, внедряя классы `MAM` в иерархию часто используемых классов `Xamarin.Forms`. 
 
 > [!NOTE]
-> Интеграция Xamarin.Forms осуществляется помимо интеграции Xamarin.Android, описанной выше.
+> Интеграция Xamarin.Forms осуществляется помимо интеграции Xamarin.Android, описанной выше. Для приложений Xamarin. Forms средство сопоставления ведет себя по-разному, поэтому необходимо выполнить ручные замены MAM.
 
 После добавления Remapper в проект необходимо будет выполнить эквивалентную замену MAM. Например, `FormsAppCompatActivity` и `FormsApplicationActivity` можно продолжать использовать в приложении, если переопределения для `OnCreate` и `OnResume` заменяются эквивалентами MAM `OnMAMCreate` и `OnMAMResume` соответственно.
 
@@ -199,6 +202,9 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 
 > [!NOTE]
 > Remapper перезаписывает зависимость, которая используется Visual Studio для автоматического завершения IntelliSense. Таким образом, может потребоваться перезагрузить и перестроить проект в том случае, если был добавлен Remapper, чтобы технология IntelliSense могла правильно распознать изменения.
+
+#### <a name="troubleshooting"></a>Диагностика
+* При возникновении пустого, белого экрана в приложении при запуске может потребоваться принудительно выполнить вызовы навигации в основном потоке.
 
 ### <a name="company-portal-app"></a>Приложение корпоративного портала
 Привязки Xamarin SDK для Intune зависят от наличия приложения [Корпоративный портал](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) Android на устройстве для включения политик защиты приложений. Корпоративный портал извлекает политики защиты приложения из службы Intune. При инициализации приложения политики и код загружаются для реализации этой политики на корпоративном портале. Пользователю не нужно выполнять вход.
