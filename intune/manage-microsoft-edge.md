@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bc18ba2210719cbebe77cd5b37024be4bb7b0d3e
-ms.sourcegitcommit: a01f0f3070932e3be44a4f545d4de11d715381ea
+ms.openlocfilehash: 7636e1914e23e7009a25f45f330fe85af2a03536
+ms.sourcegitcommit: 293dfbea2b4756bb9b7df1705a2b5f752dfaa807
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68287219"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "68701014"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -76,9 +76,6 @@ ms.locfileid: "68287219"
 
 9. В разделе **Назначения** щелкните **Пользователи и группы** и выберите пользователей или группы, которым нужно назначить политику.
 
-    > [!NOTE]
-    > Чтобы получить политики App Configuration, к пользователям также должна применяться политика Защиты приложений Intune. Дополнительные сведения о создании политик Защиты приложений Intune см. в статье [Что такое политики защиты приложений?](app-protection-policy.md)
-
 10. В разделе **Назначения** выберите **Облачные приложения**, а затем облачные приложения, защищаемые этой политикой.
 
 Когда политика будет настроена, пользователям нужно будет использовать Microsoft Edge для доступа к подключенным к Azure AD веб-приложениям, защищенным с ее помощью. Если пользователь попытается использовать неуправляемый браузер, он увидит сообщение о том, что следует применять Microsoft Edge.
@@ -96,8 +93,6 @@ ms.locfileid: "68287219"
 > При регистрации устройства сведения о нем добавляются в службу Azure Active Directory. Полная регистрация устройства не требуется, и ИТ-отдел не получает дополнительных прав на его использование.
 
 ## <a name="create-a-protected-browser-app-configuration"></a>Создание конфигурации приложения для защищенного браузера
-
-Чтобы применить конфигурации приложений, на устройстве должен быть защищенный браузер пользователя или другое приложение с назначенной [политикой защиты приложений Intune](app-protection-policy.md).
 
 Чтобы создать конфигурацию приложения для Microsoft Edge, сделайте следующее:
 

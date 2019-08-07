@@ -17,16 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 86f2f47322e668815d1ff37ce6c2de1e4d6cdc16
-ms.sourcegitcommit: 99b74d7849fbfc8f5cf99cba33e858eeb9f537aa
+ms.openlocfilehash: ce9a92a9fffad13c6723504735b1b1cb9442f61f
+ms.sourcegitcommit: 864fdf995c2b41f104a98a7e2665088c2864774f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/31/2019
-ms.locfileid: "68670901"
+ms.locfileid: "68680014"
 ---
 # <a name="data-jamf-pro-sends-to-intune"></a>Данные, которые Jamf Pro отправляет в Intune
 
-При использовании [Jamf Pro](https://www.jamf.com) для управления компьютерами Mac конечных пользователей с помощью Intune Jamf Pro собирает данные инвентаризации управляемых устройств macOS. а затем отправляет в Intune следующие сведения:
+При использовании [Jamf Pro](https://www.jamf.com) для управления компьютерами Mac конечных пользователей с помощью Intune Jamf Pro собирает данные инвентаризации управляемых устройств macOS. 
+
+## <a name="data"></a>Миграция  
+а затем отправляет в Intune следующие сведения:  
 
 * Идентификатор Azure AD устройства.
 * Состояние инвентаризации JAMF (состояние инвентаризации компьютера, зарегистрированное Jamf Pro за последние 24 часа).
@@ -69,8 +72,8 @@ ms.locfileid: "68670901"
 * UDID.
 * Электронная почта пользователя.
 
-
 Вы можете удалить устройство под управлением Jamf из консоли Intune, выбрав **Удалить** в представлении **Все устройства**. Чтобы выполнить массовое удаление устройств, выберите несколько устройств и нажмите **Удалить**.
 
+## <a name="next-steps"></a>Дальнейшие шаги
 Сведения об [удалении устройства под управлением Jamf см. в документации Jamf Pro](https://www.jamf.com/jamf-nation/articles/80/unmanaging-computers-while-preserving-their-inventory-information). Чтобы получить дополнительную помощь, можно также отправить запрос в [службу поддержки Jamf](https://www.jamf.com/support/). 
 

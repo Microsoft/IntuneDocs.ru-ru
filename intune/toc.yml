@@ -703,18 +703,20 @@
           href: tenant-status.md
         - name: Устранение неполадок
           items:
+            - name: Помощь пользователям в устранении проблем
+              href: help-desk-operators.md
             - name: Устранение проблем при регистрации
               items:
                 - name: Устранение проблем при регистрации устройств iOS
                   href: troubleshoot-ios-enrollment-errors.md
                 - name: Устранение неполадок при регистрации устройств Windows
                   href: troubleshoot-windows-enrollment-errors.md
-            - name: Помощь пользователям в устранении проблем
-              href: help-desk-operators.md
             - name: 'Устранение неполадок, связанных с доступом к ресурсам компании'
               href: troubleshoot-company-resource-access-problems.md
             - name: Устранение проблем с установкой приложений
               href: troubleshoot-app-install.md
+            - name: 'Устранение неполадок, связанных с действиями устройств'
+              href: troubleshoot-device-actions.md
             - name: Устранение неполадок управления мобильными приложениями
               href: troubleshoot-mam.md
             - name: Журналы аудита для действий Intune

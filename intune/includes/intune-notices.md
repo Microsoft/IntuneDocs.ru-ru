@@ -11,7 +11,7 @@ ms.openlocfilehash: 0721c62d44234a44881cdc562376c9bb62412187
 ms.sourcegitcommit: 73fbecf7cee4fdfc37d3c30ea2007d2a9a6d2d12
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2019
+ms.lasthandoff: 08/05/2019
 ms.locfileid: "68775916"
 ---
 Эти уведомления предоставляют важные сведения, которые помогут вам подготовиться к будущим изменениям в Intune. 

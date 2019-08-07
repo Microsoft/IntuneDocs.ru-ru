@@ -1,11 +1,12 @@
 ---
-title: Параметры оптимизации доставки в Windows 10 для Intune | Документация Майкрософт
+title: Параметры оптимизации доставки Windows 10 для Intune
+titleSuffix: Microsoft Intune
 description: Параметры оптимизации доставки для устройств Windows 10, которые можно развернуть с помощью Intune.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 03/09/2019
+ms.date: 08/01/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -14,12 +15,12 @@ ms.reviewer: kerimh
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ab4871da52f5df0aec0a698f31daa5608a57c1c3
-ms.sourcegitcommit: 116ef72b9da4d114782d4b8dd9f57556c9b01511
+ms.openlocfilehash: 11361b65735a7ed7e724a77349e3624e0e35ecaf
+ms.sourcegitcommit: 73fbecf7cee4fdfc37d3c30ea2007d2a9a6d2d12
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "67493907"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68756563"
 ---
 # <a name="delivery-optimization-settings-for-intune"></a>Параметры оптимизации доставки для Intune
 
@@ -66,6 +67,15 @@ ms.locfileid: "67493907"
 | [Максимальный возраст кэша (в днях)](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference#max-cache-age)    | 1511         | Укажите, как долго после успешного скачивания каждый файл хранится в кэше оптимизации доставки на устройстве.   <br><br>С помощью Intune можно указать возраст кэша в днях. Число дней, которое можно определить, преобразуется в соответствующее число секунд, потому что именно так Windows определяет этот параметр. Например, настроив в Intune 3 дня, вы зададите на устройстве 259 200 секунд (3 дня).  <br><br>**По умолчанию**: *значение не настроено*     <br><br>**Рекомендуется**: 7   <br><br>CSP политики: [DOMaxCacheAge](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxcacheage)  <br><br>          |
 | Тип максимального размера кэша  | *См. подробности*    | Выберите способ управления объемом дискового пространства на устройстве, которое используется для оптимизации доставки. Если значение не задано, размер кэша по умолчанию составит 20 % свободного места.  <br><ul><li>**Не настроено** (по умолчанию)</li><br><li>**Абсолютный** — укажите [Абсолютный максимальный размер кэша (в ГБ)](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference#absolute-max-cache-size) для настройки максимального объема места на диске, которое устройство может использовать для оптимизации доставки. Если задано значение 0 (ноль), размер кэша не ограничен; при этом оптимизация доставки будет очищать кэш, когда на устройстве недостаточно места на диске. <br><br>Требуется Windows 1607<br><br> CSP политики: [DOAbsoluteMaxCacheSize](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-doabsolutemaxcachesize) </li><br><li>**Процент** — укажите [Максимальный размер кэша (в %)](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference#max-cache-size) для настройки максимального объема места на диске, которое устройство может использовать для оптимизации доставки. Это процент свободного дискового пространства; оптимизация доставки постоянно оценивает объем свободного места на диске и очищает кэш, чтобы удерживать максимальный размер кэша в соответствии с заданным значением. <br><br>Требуется Windows 1511<br><br>CSP политики: [DOMaxCacheSize](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxcachesize)  |
 | [Кэширование членов одноранговой группы VPN](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference#enable-peer-caching-while-the-device-connects-via-vpn)  | 1709  | Выберите **Включено**, чтобы настроить устройство для участия в одноранговом кэшировании при подключении по VPN к доменной сети. Участвующие устройства могут обмениваться данными с другими сетевыми устройствами домена по VPN или в корпоративной доменной сети.  <br><br>**Значение по умолчанию**: не настроено  <br><br>CSP политики: [DOAllowVPNPeerCaching](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxcacheage)    |
+
+## <a name="local-server-caching"></a>Кэширование локального сервера  
+
+|Параметр  |Версия Windows  |Подробные сведения  |
+|---------|-----------------|---------|
+|Имена узлов сервера кэша | 1809  |Укажите IP-адрес или полное доменное имя серверов сетевого кэша, которые будут использоваться устройствами для оптимизации доставки, а затем нажмите кнопку **Добавить** , чтобы добавить эту запись в список.  <br><br>**Значение по умолчанию**: не настроено  <br><br>CSP политики: [докачехост](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)  |
+|[Резерв времени задержки сервера кэша загрузки (в секундах)](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference#delay-foreground-download-cache-server-fallback-in-secs) | 1903    |Укажите время в секундах (0-2592000), которое будет откладывать откат с сервера кэша на источник HTTP для для скачивания содержимого переднего плана. Если политика задерживает загрузку с переднего плана по протоколу HTTP, она будет применяться первой (чтобы разрешить загрузку с одноранговых узлов первыми). (0–2592000)    <br><br>**По умолчанию**: 0  <br><br>[ДОДЕЛАЙКАЧЕСЕРВЕРФАЛЛБАККФОРЕГРАУНД](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackforeground) CSP политики  |
+|[Задержка отката сервера кэша фоновой загрузки (в секундах)](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference#delay-background-download-cache-server-fallback-in-secs) | 1903    |Укажите время в секундах (0-2592000), которое будет откладывать откат с сервера кэша на источник HTTP для скачивания фонового содержимого. Когда заданная настройка задерживается *в фоновом режиме загрузки HTTP (в секундах)* , этот параметр применяется первой, чтобы разрешить скачивание с одноранговых узлов. (0–2592000)   <br><br>**По умолчанию**: 0 <br><br>CSP политики: [доделайкачесерверфаллбаккбаккграунд](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackbackground)  |
+
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
