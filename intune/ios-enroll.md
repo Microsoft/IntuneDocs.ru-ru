@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ca51fc38a7469d865640840647280375eaa74bbe
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: 2254c1e83764e9b29ab6fb99c016edef75aad43e
+ms.sourcegitcommit: bc3450fc7f19006b500edf5b395c01559b483ea4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67883034"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68738278"
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Регистрация устройств с iOS в Intune
 
@@ -32,8 +32,10 @@ Intune позволяет осуществлять управление моби
 
 ## <a name="prerequisites-for-ios-enrollment"></a>Что необходимо для регистрации устройств с iOS
 Для активации iOS-устройств сначала необходимо следующее.
+- [Убедитесь, что ваше устройство соответствует условиям для регистрации устройств Apple](https://support.apple.com/en-us/HT204142#eligibility).
 - [Настройка Intune](setup-steps.md). Выполните необходимые этапы по настройке вашей инфраструктуры Intune. В частности, для регистрации устройств нужно [настроить центр MDM](mdm-authority-set.md).
 - [Получение сертификата Apple MDM Push Certificate](apple-mdm-push-certificate-get.md). Apple требует сертификат для управления устройствами с iOS и macOS.
+
 
 ## <a name="user-owned-ios-devices-byod"></a>Пользовательские устройства iOS (BYOD)
 

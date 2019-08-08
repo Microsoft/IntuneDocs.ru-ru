@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b6db255cc4c4bb8466d36e25deaf36e5c3480106
-ms.sourcegitcommit: 2bce5e43956b6a5244a518caa618f97f93b4f727
+ms.openlocfilehash: 47c2e509c9eb032dae67dbb5a44839f88fa5de4b
+ms.sourcegitcommit: e6edfbfd63dd7c2500ce1123205aa2af9a7e8e2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68467497"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68783073"
 ---
 # <a name="configure-and-use-scep-certificates-with-intune"></a>Настройка и использование сертификатов SCEP в Intune
 
@@ -410,7 +410,7 @@ ms.locfileid: "68467497"
 
             **CN={{UserName}},E={{EmailAddress}},OU=Mobile,O=Finance Group,L=Redmond,ST=Washington,C=US**
 
-            В этом примере создан формат имени субъекта, который, кроме переменных CN и E, использует строки для определения подразделения, организации, расположения, штата и страны. Эта функция и поддерживаемые ею строки отписываются в статье [Функция CertStrToName](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx).
+            В этом примере создан формат имени субъекта, который, кроме переменных CN и E, использует строки для определения подразделения, организации, расположения, штата и страны или региона. Эта функция и поддерживаемые ею строки отписываются в статье [Функция CertStrToName](https://msdn.microsoft.com/library/windows/desktop/aa377160.aspx).
 
         **Тип сертификата устройства**  
 

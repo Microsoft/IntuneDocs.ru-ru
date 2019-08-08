@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 252a42b9c8ef6612301bc913e187295be47d27bb
-ms.sourcegitcommit: 99b74d7849fbfc8f5cf99cba33e858eeb9f537aa
+ms.openlocfilehash: c378fd3b208396f9d2f83b7bd56f50dbf7a7e3f7
+ms.sourcegitcommit: 864fdf995c2b41f104a98a7e2665088c2864774f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/31/2019
-ms.locfileid: "68671022"
+ms.locfileid: "68679970"
 ---
 # <a name="use-security-baselines-to-configure-windows-10-devices-in-intune"></a>Использование базовых конфигураций безопасности для настройки устройств Windows 10 в Intune
 
@@ -67,7 +67,7 @@ ms.locfileid: "68671022"
 В Intune доступны следующие экземпляры базовых конфигураций безопасности. Перейдя по ссылкам, можно ознакомится с параметрами последних экземпляров каждой базовой конфигурации. 
 
 - **Базовая конфигурация безопасности MDM**
-  - [Базовая конфигурация безопасности MDM, весна 2019 г. (19H1)](security-baseline-settings-mdm.md)
+  - [Базовые показатели безопасности MDM на май 2019 г.](security-baseline-settings-mdm.md)
   - [Предварительная версия: базовые показатели безопасности MDM на октябрь 2018 г.](security-baseline-settings-mdm-archive.md)
 
 - **Базовая конфигурация системы безопасности ATP в Microsoft Defender**  

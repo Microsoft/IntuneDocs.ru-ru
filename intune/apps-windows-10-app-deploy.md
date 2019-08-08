@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d76e170627d7e08cc3da6fe4a48eb14ee839de98
-ms.sourcegitcommit: 948ff8f56639e6dc7091134a0efd8d44efca63f2
+ms.openlocfilehash: 4e46eae92dfa145f1fc2b38379285dbb45b24590
+ms.sourcegitcommit: 864fdf995c2b41f104a98a7e2665088c2864774f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590923"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68680074"
 ---
 # <a name="windows-10-app-deployment-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
@@ -34,6 +34,8 @@ ms.locfileid: "68590923"
 > Ниже указаны минимальные обновления Windows 10, необходимые для развертывания современных приложений:
 > - Для Windows 10 версии 1803: [23 мая 2018 г. — KB4100403 (сборка ОС 17134.81)](https://support.microsoft.com/help/4100403/windows-10-update-kb4100403).
 > - Для Windows 10 версии 1709: [21 июня 2018 г. — KB4284822 (сборка ОС 16299.522)](https://support.microsoft.com/help/4284822).
+>
+> Только в Windows 10 версии 1803 и более поздних версий поддерживается установка приложений при отсутствии основного связанного пользователя.
 
 ## <a name="windows-10-line-of-business-apps"></a>Бизнес-приложения Windows 10
 

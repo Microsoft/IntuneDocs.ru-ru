@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f576edb5dd0bd4baa960adb3519fa379397fb94c
-ms.sourcegitcommit: cd03ea890f563b48339a8c8bb50386b8852ba894
+ms.openlocfilehash: 128856cf4e81f1ac9fbc93cef1160662e2b5cef0
+ms.sourcegitcommit: 293dfbea2b4756bb9b7df1705a2b5f752dfaa807
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68329024"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "68700966"
 ---
 # <a name="android-app-protection-policy-settings-in-microsoft-intune"></a>Параметры политики защиты приложений Android в Microsoft Intune
 В этой статье описываются параметры политики защиты приложений на устройствах Android. Описываемые параметры политик можно [настроить](app-protection-policies.md) для политики защиты приложений на портале Azure в колонке **Параметры**.
@@ -93,6 +93,7 @@ ms.locfileid: "68329024"
   | com.skype.raider | Skype | В Skype всегда разрешены только определенные действия, которые приводят к телефонному звонку. |
   | com.android.providers.media | Поставщик содержимого мультимедиа Android | Поставщик содержимого мультимедиа разрешен только при выборе мелодии звонка. |
   | com.google.android.gms; com.google.android.gsf | Пакеты сервисов Google Play | Эти пакеты разрешены для действий Google Cloud Messaging, например push-уведомлений. |
+  | com.google.android.apps.maps | Google Карты | Для навигации можно использовать адреса. |
 
 Дополнительные сведения см. в разделе [Исключения политики передачи данных для приложений](app-protection-policies-exception.md).
 

@@ -5,9 +5,8 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 12/06/2018
+ms.date: 08/05/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,35 +16,40 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6ec97819e49bdb1564b8dd75b23302608492e183
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 38b381fca17dec66303958ee04c018967ae0d999
+ms.sourcegitcommit: a6775522df49d17a4125ccb31be395f2343bdae8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57397350"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68833531"
 ---
-# <a name="licenses-that-include-intune"></a>Лицензии, включающие в себя Intune
+# <a name="microsoft-intune-licensing"></a>Лицензирование Microsoft Intune
+Служба Microsoft Intune доступна для клиентов с различными потребностями и организаций любых размеров. Она предоставляет простое управление для учебных учреждений и малых предприятий, а также предлагает более расширенные функциональные возможности, необходимые корпоративным клиентам. Большинство лицензий, включающих Microsoft Intune, также предоставляют права на использование System Center Configuration Manager при наличии активной подписки. 
 
-[!INCLUDE [both-portals](./includes/note-for-both-portals.md)]
+## <a name="microsoft-intune"></a>Microsoft Intune
+Intune включена в следующие лицензии:
 
-В приведенной ниже таблице показано, какие версии Intune доступны в каждой из лицензий.
+- Microsoft 365 E5
+- Microsoft 365 E3
+- Enterprise Mobility + Security (план E5)
+- Enterprise Mobility + Security (план E3)
+- Microsoft 365 для бизнеса
+- Microsoft 365 F1
 
-| Лицензия | Включенная версия Intune | Сравнение цен и функций |
-|-----------------------------------------------------------------------|-------------------------------------------------------------|---|
-| Intune | Intune | [Дополнительные сведения](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-pricing) |
-| Enterprise Mobility + Security (план E3) | Intune | [Дополнительные сведения](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-pricing) |
-| Enterprise Mobility + Security (план E5) | Intune | [Дополнительные сведения](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-pricing) |
-| Microsoft 365 для образовательных учреждений A1 | Intune для Образование | [Дополнительные сведения](https://www.microsoft.com/en-us/education/buy-license/microsoft365/default.aspx#) |
-| Microsoft 365 для образовательных учреждений A3 | Intune для Образование | [Дополнительные сведения](https://www.microsoft.com/en-us/education/buy-license/microsoft365/default.aspx#) |
-| Microsoft 365 для образовательных учреждений A5 | Intune для Образование | [Дополнительные сведения](https://www.microsoft.com/en-us/education/buy-license/microsoft365/default.aspx#) |
-| Microsoft 365 E3 | Intune | [Дополнительные сведения](https://www.microsoft.com/en-US/microsoft-365/enterprise) |
-| Microsoft 365 E5 | Intune | [Дополнительные сведения](https://www.microsoft.com/en-US/microsoft-365/enterprise) |
-| Microsoft 365 F1 | Intune | [Дополнительные сведения](https://www.microsoft.com/en-us/microsoft-365/enterprise/firstline) |
-| Microsoft 365 для бизнеса | Intune | [Дополнительные сведения](https://www.microsoft.com/en-us/microsoft-365/business) |
 
-Служба Intune недоступна с лицензиями, отсутствующими в этом списке.
 
-Если пользователь прямо или косвенно пользуется какими-либо возможностями, предоставляемыми по лицензии, требуется надлежащая лицензия.
+## <a name="microsoft-intune-for-education"></a>Microsoft Intune для образовательных учреждений.
+Intune для образовательных учреждений включена в следующие лицензии:
 
-Чтобы назначить лицензию пользователю, см. статью [Назначение лицензий Intune учетным записям пользователей](licenses-assign.md).
+- Microsoft 365 для образовательных учреждений A5
+- Microsoft 365 для образовательных учреждений A3
 
+## <a name="additional-information"></a>Дополнительные сведения
+- Подписка на Microsoft Intune для пользователей и устройств доступна как отдельная версия в дополнение к пакетам, перечисленным выше.
+- Подписка Microsoft Intune только для устройств доступна для сценариев с устройствами типа "киоск", где не используются функции сопоставления пользователей.
+- Соответствующая лицензия Microsoft Intune требуется, если пользователь или устройство получают прямую или косвенную выгоду от службы Microsoft Intune, включая доступ к службе Microsoft Intune с помощью [API корпорации Майкрософт](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
+- Служба Intune недоступна с лицензиями, отсутствующими в вышеуказанных таблицах.
+
+Посетите [страницу лицензирования Майкрософт](https://www.microsoft.com/licensing/default), чтобы узнать о выпусках продукта, обновлениях лицензирования продукта, планах корпоративного лицензирования и другие сведения, связанные с конкретными вариантами использования.  
+
+Дополнительные сведения о том, как лицензии пользователей и устройств влияют на доступ к службам, а также о том, как назначить лицензию пользователю, см. в статье [Назначение пользователям лицензий для регистрации устройств в Intune](licenses-assign.md).
