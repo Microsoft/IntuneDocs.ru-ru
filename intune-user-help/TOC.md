@@ -39,8 +39,8 @@
 ### Вопросы по операционным системам
 #### [Обновление устройства](you-need-to-update-your-android-device.md)
 #### [Неподдерживаемая версия](your-android-version-isnt-yet-supported.md)
-#### [Устройство является рутированным, и подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
-#### [Отсутствие необходимого сертификата](your-device-is-missing-a-required-certificate-landing-android.md)
+#### [Устройство имеет корневой доступ, и его подключение невозможно](your-device-is-rooted-and-you-cant-connect-android.md)
+#### [Отсутствие необходимого сертификата](your-device-is-missing-an-IT-required-certificate-android.md)
 #### [Отключение неизвестных источников](you-need-to-turn-off-unknown-sources-android.md)
 #### [Отключение USB-отладки](you-need-to-turn-off-usb-debugging-android.md)
 #### [Включение проверки на наличие угроз безопасности](you-need-to-turn-on-scanning-for-security-threats-android.md)
