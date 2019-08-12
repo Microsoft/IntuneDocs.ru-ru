@@ -13,17 +13,17 @@ ms.technology: ''
 ms.assetid: df973b18-9166-417d-8aa3-49edd2bda256
 searchScope:
 - User help
-ROBOTS: ''
+ROBOTS: NOINDEX, NOFOLLOW
 ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 119e3399067297764abb8a14d2f5861cba33e408
-ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
+ms.openlocfilehash: a91a6c934ba3b1a32ea2ef10da0256019fc25392
+ms.sourcegitcommit: 549352bdea93cc2809e3e0010bfcc10bd44dc728
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67529300"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68862114"
 ---
 # <a name="your-android-device-is-missing-a-certificate-that-usually-comes-installed-on-your-phone"></a>На устройстве Android отсутствует сертификат (обычно он предустановлен на телефоне)
 
@@ -33,7 +33,7 @@ ms.locfileid: "67529300"
 
 Чтобы решить эту проблему, можно скачать требуемый сертификат на [странице сертификатов Digicert](https://www.digicert.com/digicert-root-certificates.htm).
 
-1. Найдите и скачайте сертификат __Baltimore CyberTrust Root__. Его также можно скачать [отсюда](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt).
+1. Найдите и скачайте сертификат __Baltimore CyberTrust Root__ . Его также можно скачать [отсюда](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt).
 
 2. С помощью перетаскивания сверху вниз отобразите список последних уведомлений, а затем выберите файл **BaltimoreCyberTrustRoot.crt**.
 
