@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4f2015bb6997861d8856c7fe89662c21be105f5b
-ms.sourcegitcommit: d2ac912b834c4840de9cc92ba1815b6ecfbfb52b
-ms.translationtype: MTE75
+ms.openlocfilehash: edc193c80960872cc3a0e25438432195de3a7c34
+ms.sourcegitcommit: e6edfbfd63dd7c2500ce1123205aa2af9a7e8e2e
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "68482947"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68783215"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -636,7 +636,7 @@ public interface MAMNotificationReceiver {
 > [!NOTE]
 > Одновременно регистрировать приложение для получения уведомлений `WIPE_USER_DATA` и `WIPE_USER_AUXILIARY_DATA` нельзя.
 
-### <a name="managementremoved"></a>MANAGEMENT_REMOVED
+### <a name="management_removed"></a>MANAGEMENT_REMOVED
 
 Уведомление `MANAGEMENT_REMOVED` указывает, что пользователь, который ранее находился под управлением политики, больше не будет регулироваться с помощью политики Intune MAM. Это не требует очистки пользовательских данных или выхода пользователя (если очистка нужна, будет отправлено уведомление `WIPE_USER_DATA`). Во многих приложениях может не требоваться обработка этого уведомления; тем не менее приложения, которые используют `MAMDataProtectionManager`, должны [особо учитывать это уведомление](#data-protection).
 
@@ -1370,7 +1370,7 @@ Intune позволяет использовать все [функции авт
 
   * Если переключение удостоверения заблокировано, результат аналогичен случаю, когда параметры общего доступа `Receive` запрещают входящие данные.
 
-  * Если служба работает в основном потоке, `reportIdentitySwitchResult` **необходимо** вызывать асинхронно, иначе пользовательский интерфейс может зависнуть.
+  * Если служба работает в основном потоке, `reportIdentitySwitchResult` **необходимо** вызывать асинхронно, иначе пользовательский интерфейс может перестать отвечать на запросы.
 
   * Для создания **`Activity`** параметр `onMAMIdentitySwitchRequired` будет вызываться до вызова метода `onMAMCreate`. Если приложение должно отображать интерфейс пользователя, чтобы определить, необходимо ли разрешить переключение удостоверения, интерфейс необходимо отображать, используя *другое* действие.
 
