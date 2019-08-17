@@ -5,7 +5,7 @@ keywords: Пакет SDK
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/24/2019
+ms.date: 08/12/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: edc193c80960872cc3a0e25438432195de3a7c34
-ms.sourcegitcommit: e6edfbfd63dd7c2500ce1123205aa2af9a7e8e2e
-ms.translationtype: HT
+ms.openlocfilehash: 527d71f0e48627498b05af8ee497579c648d3156
+ms.sourcegitcommit: ec22a186a9cfa489a8490698e387624e480892d8
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "68783215"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68960553"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -1726,7 +1726,7 @@ LOGGER.info("Found value " + valueToUse);
 
 1. Если приложение интегрируется с ADAL или необходимо включить единый вход, [настройте ADAL](#configure-azure-active-directory-authentication-library-adal), используя следующие [распространенные конфигурации ADAL](#common-adal-configurations) #2. В противном случае этот шаг можно пропустить.
    
-2. Включите регистрацию по умолчанию, добавив в манифест следующее значение:
+2. Включите регистрацию по умолчанию, добавив следующее значение в манифест `<application>` в тег:
 
    ```xml 
    <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />
@@ -1735,7 +1735,7 @@ LOGGER.info("Found value " + valueToUse);
    > [!NOTE] 
    > Это должна быть единственная интеграция со службой MAM-WE в приложении. При наличии других вызовов интерфейсов API MAMEnrollmentManager будут возникать конфликты.
 
-3. Включите требуемую политику MAM, добавив в манифест следующее значение:
+3. Включите политику MAM, добавив следующее значение в манифест в `<application>` теге:
 
    ```xml 
    <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
