@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/23/2019
+ms.date: 08/05/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1826498b3bfa2191900d7574f79051af8f758558
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 63f2832dd321425efe8092f1bb12dd0d479ef71b
+ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66041698"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69549933"
 ---
 # <a name="macos-device-feature-settings-in-intune"></a>Настройка параметров для функций устройств macOS в Intune
 
@@ -65,6 +65,19 @@ Intune включает в себя некоторые встроенные па
    Запишите IP-адрес. Например, приложение может вернуть такой адрес: `PING myprinter.local (10.50.25.21)`.
 
 4. Используйте значения IP-адреса и пути к ресурсу. В этом примере IP-адрес — `10.50.25.21`, а путь к ресурсу — `/ipp/port1`.
+
+## <a name="login-items"></a>Элементы входа
+
+- **Файлы, папки и пользовательские приложения**: **добавьте** путь к файлу, папке, настраиваемому приложению или системному приложению, которое требуется открыть при входе пользователя на устройство. Системные приложения или приложения, созданные или настроенные для вашей организации, обычно находятся `Applications` в папке с путем, `/Applications/AppName.app`аналогичным. 
+
+  Можно добавить множество файлов, папок и приложений. Например, введите:  
+  
+  - `/Applications/Calculator.app`
+  - `/Applications`
+  - `/Applications/Microsoft Office/root/Office16/winword.exe`
+  - `/Users/UserName/music/itunes.app`
+  
+  При добавлении любого приложения, папки или файла обязательно введите правильный путь. Не все элементы находятся в `Applications` папке. Если пользователь перемещает элемент из одного расположения в другое, путь изменяется. Этот перемещенный элемент не будет открываться при входе пользователя в систему.
 
 ## <a name="login-window"></a>Окно входа в систему
 
