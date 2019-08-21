@@ -665,6 +665,8 @@
                   href: app-protection-policies-validate.md
                 - name: Реализация политик защиты приложений
                   href: app-protection-policy-delivery.md
+                - name: Защита расширений приложений
+                  href: app-protection-policy-extensions.md
                 - name: Мониторинг состояния пользователя защиты приложений
                   href: app-protection-policies-monitor.md
                 - name: Подготовка к использованию политик защиты приложений WIP
