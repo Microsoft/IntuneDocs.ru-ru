@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7c75930f3eee35146afbc5714135ececbe7c9643
-ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
+ms.openlocfilehash: 5b3fd474e938e2e85a0a08951a9e3f154d980411
+ms.sourcegitcommit: b64869b4be357c0741ec01b1a2f0bae13efce937
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69550179"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69998944"
 ---
 # <a name="windows-10-and-newer-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с Windows 10 (и более новых версий), которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -66,13 +66,6 @@ ms.locfileid: "69550179"
   - **Предпочитать хранилище**: предупреждает пользователей при установке приложений из других мест, кроме Microsoft Store.
 
   [SmartScreen и Енаблеаппинсталлконтрол CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-smartscreen#smartscreen-enableappinstallcontrol)
-
-- **Принудительная перезагрузка приложений в случае сбоя обновления**. Используемое приложение может не обновиться. Используйте этот параметр для принудительного перезапуска приложения. **Не настроено** (по умолчанию) — принудительный перезапуск приложений не происходит. **Требовать** — администраторы могут принудительно выполнять перезагрузку в определенные дату и время или по повторяющемуся расписанию. Если задано значение **Требовать**, также укажите следующее:
-
-  - **Дата и время начала** — выберите дату и время перезапуска приложений.
-  - **Повторение** — выберите ежедневный, еженедельный или ежемесячный график перезапуска.
-
-  [ApplicationManagement/ScheduleForceRestartForUpdateFailures CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-scheduleforcerestartforupdatefailures)
 
 - **Пользовательское управление установками** — если задано значение **Не настроено** (по умолчанию), установщик Windows запрещает пользователям изменять параметры установки, которые обычно зарезервированы для системных администраторов, такие как указание каталога для установки файлов. **Блокировать** — пользователи могут изменять эти параметры установки, и некоторые функции системы безопасности установщика Windows будут игнорироваться.
 
