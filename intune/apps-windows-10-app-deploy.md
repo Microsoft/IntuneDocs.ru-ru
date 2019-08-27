@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/26/2019
+ms.date: 07/29/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4e46eae92dfa145f1fc2b38379285dbb45b24590
-ms.sourcegitcommit: 864fdf995c2b41f104a98a7e2665088c2864774f
+ms.openlocfilehash: c853608f46bb01263ddd08193f729cdfb018fed9
+ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "68680074"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69550065"
 ---
 # <a name="windows-10-app-deployment-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
@@ -44,6 +44,13 @@ ms.locfileid: "68680074"
 ## <a name="microsoft-store-for-business-apps"></a>Приложения из Магазина Майкрософт для бизнеса
 
 Приложения Microsoft Store для бизнеса — это современные приложения, которые вы приобретаете на административном портале Microsoft Store и затем синхронизируете с Microsoft Intune для управления. Приложения могут быть **лицензированы через сеть** или **автономно**. Обновлениями приложений из Microsoft Store для бизнеса управляет непосредственно Microsoft Store. Администратору не нужно ничего при этом делать. Вы также можете запретить обновления для конкретных приложений, используя пользовательский универсальный код ресурса (URI). Дополнительные сведения см. в разделе [Управление корпоративными приложениями. Предотвращение автоматических обновлений](https://docs.microsoft.com/windows/client-management/mdm/enterprise-app-management#prevent-app-from-automatic-updates). На устройстве конечного пользователя также можно отключить обновления для всех приложений Microsoft Store для бизнеса. 
+
+### <a name="categorize-microsoft-store-for-business-apps"></a>Классификация Microsoft Store для бизнес-приложений 
+Чтобы классифицировать приложения Магазина Майкрософт для бизнеса, выполните следующие действия: 
+
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+2. Выберите **Клиентские приложения** > **Приложения** > выберите приложение Магазина Майкрософт для бизнеса >**Сведения о приложении** > **Категория**. 
+3. Выберите категорию в раскрывающемся меню.
 
 ## <a name="installing-apps-on-windows-10-devices"></a>Установка приложений на устройствах Windows 10
 В зависимости от типа приложение может быть установлено на устройстве Windows 10 одним из двух способов.

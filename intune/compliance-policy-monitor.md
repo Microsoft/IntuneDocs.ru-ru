@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/20/2019
+ms.date: 08/20/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7ce117f21c1ad78c2c977466398ce6d30989cc6a
-ms.sourcegitcommit: a2bad7465422b98eb3c10f03dc5a24fd99cee78d
+ms.openlocfilehash: 9f8560262d8c501af4127876eaafed293fbc4041
+ms.sourcegitcommit: b1ddc7f4a3d520b7d6755c7a423a46d1e2548592
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67041293"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69651213"
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Мониторинг политик соответствия устройств Intune
 
@@ -152,7 +152,9 @@ ms.locfileid: "67041293"
 При выборе определенного параметра вы увидите **состояние соответствия**, **псевдоним электронной почты пользователя**, **модель устройства** и **расположение** для каждого устройства, которому назначен этот параметр.
 
 > [!NOTE]
-> На устройствах Windows 10, присоединенных к Azure AD, системная учетная запись может отображаться как несоответствующий пользователь. Так и должно быть. Это не влияет на общее соответствие устройства. 
+> Политика может быть назначена устройству и пользователю на этом устройстве. В некоторых сценариях устройство может синхронизироваться, прежде чем пользователь войдет в систему, например при перезагрузке устройства. Политика соответствия может оценить этого пользователя и отобразить устройство как несоответствующее требованиям. При таком поведении системная учетная запись также может отображаться как несоответствующий пользователь.
+>
+> Это известная проблема с многопользовательскими устройствами с Windows 10. Любые изменения или обновления этого поведения объявляются в разделе [функций в разработке](in-development.md) и (или) [новых возможностей](whats-new.md).
 
 ## <a name="view-status-of-device-policies"></a>Просмотр состояния политик устройств
 

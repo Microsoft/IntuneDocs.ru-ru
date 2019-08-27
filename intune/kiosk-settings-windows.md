@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6fb1111a7f660e8c59f45fb1893364dcadd34dca
-ms.sourcegitcommit: 6a8de7bb4870ea19aa08db1f188ea7b5e8a387dd
+ms.openlocfilehash: e8300e9a4faf29ada79fad2a11e2470b965b53d1
+ms.sourcegitcommit: b64869b4be357c0741ec01b1a2f0bae13efce937
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69487748"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69998892"
 ---
 # <a name="windows-10-and-later-device-settings-to-run-as-a-kiosk-in-intune"></a>Настройка параметров устройства Windows 10 (и более поздних версий) для запуска в качестве киоска в Intune
 
@@ -97,6 +97,17 @@ ms.locfileid: "69487748"
   - **Добавить приложение магазина**: щелкните **Добавить приложение магазина** и выберите приложение в списке.
 
     В списке нет ни одного приложения? Добавьте нужные, используя инструкции из статьи о [клиентских приложениях](apps-add.md).
+    
+ - **Укажите период обслуживания для перезапусков приложения**: по умолчанию — "не настроено", выберите "требовать" для проверки приложений, требующих перезагрузки для завершения установки.
+ 
+     При использовании браузера киоска или другого Microsoft Store для бизнес-приложения решите, как часто следует проверять наличие обновлений приложений, требующих перезагрузки, чтобы завершить установку приложения. Если этот параметр не настроен, Microsoft Store для бизнес-приложений будет перезапущено в незапланированное время 3 дня после установки обновления приложения.
+     
+     - **Время начала периода обслуживания**: выберите дату и время суток, чтобы начать проверку клиентов на наличие обновлений приложений, требующих перезагрузки. Время начала по умолчанию — полночь, или ноль минут.
+     
+     - **Период обслуживания**"повторение": по умолчанию — ежедневно.
+         Укажите, как часто будут выполняться периоды обслуживания для обновлений приложений. Рекомендуется ежедневно, чтобы избежать незапланированных перезапусков приложений.
+
+  [ApplicationManagement/ScheduleForceRestartForUpdateFailures CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-scheduleforcerestartforupdatefailures)
 
 ## <a name="multi-app-kiosks"></a>Киоски с несколькими приложениями
 

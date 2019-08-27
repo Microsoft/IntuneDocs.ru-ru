@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 04/08/2019
+ms.date: 08/15/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 00712b891790fbf437e9fed024f7610f37fee129
-ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
+ms.openlocfilehash: eff9f965649587a929e45d0f9d59305194ffe68b
+ms.sourcegitcommit: b1ddc7f4a3d520b7d6755c7a423a46d1e2548592
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67648710"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69651148"
 ---
 # <a name="assign-office-365-apps-to-windows-10-devices-with-microsoft-intune"></a>Назначение приложений Office 365 устройствам на базе Windows 10 с помощью Microsoft Intune
 
@@ -39,7 +39,7 @@ ms.locfileid: "67648710"
 - На устройствах, где развертываются эти приложения, должна быть установлена Windows 10 Creators Update или более поздние версии.
 - Intune поддерживает для приложений Office добавление только из пакета Office 365.
 - Если во время установки набора приложений Intune открыты любые приложения Office, установка завершится сбоем, а пользователи могут потерять данные из несохраненных файлов.
-- Этот метод установки не поддерживается на устройствах с Windows 10, Windows Home, Windows Team, Windows Holographic или Windows Holographic for Business.
+- Этот метод установки не поддерживается на устройствах Windows Home, Windows Team, Windows Holographic или Windows Holographic for Business.
 - Intune не поддерживает установку классических приложений Office 365 из Microsoft Store (известных как приложения Office Centennial) на устройствах, где приложения Office 365 уже развернуты с помощью Intune. Установка этой конфигурации может привести к потере или повреждению данных.
 - Несколько обязательных или доступных назначений приложений не суммируются. Более позднее назначение приложения приведет к перезаписи имеющихся назначений. Например, если первый набор приложений Office включает Word, а последующий — нет, программа Word будет удалена. Это условие не относится к приложениям Visio и Project.
 - Развертывание нескольких экземпляров Office 365 сейчас не поддерживается. Только одно развертывание будет доставлено на устройство.

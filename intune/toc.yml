@@ -541,7 +541,7 @@
       items:
         - name: Что такое управление приложениями с помощью Intune?
           href: app-management.md
-        - name: Добавление приложений
+        - name: Общие сведения о добавлении приложений
           href: apps-add.md
           displayName: apk; ipa; msi; appx; appxbundle; msix; msixbundle; app
           items:

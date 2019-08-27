@@ -17,17 +17,17 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7e0be106b47d933c4407a02369edff3645682b1c
-ms.sourcegitcommit: 293dfbea2b4756bb9b7df1705a2b5f752dfaa807
+ms.openlocfilehash: 6df8922f9f7252c493b4a2119814c0001245fa8b
+ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "68701001"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69550003"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
 
-Существует четыре типа развертывания Autopilot: [Режим саморазвертывания](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/self-deploying) (для киосков, цифровых вывесок и общих устройств), [White Glove](https://docs.microsoft.com/windows/deployment/windows-autopilot/white-glove) (позволяет партнерам или ИТ-специалистам создавать полностью настроенный ПК под управлением Windows 10, заранее подготовленный к работе) и [Autopilot для существующих устройств](https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices) (позволяет легко развернуть последнюю версию Windows 10 на существующих устройствах), а также [Пользовательский режим](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/user-driven) (для обычных пользователей). 
+Существует четыре типа развертывания Autopilot: [Режим саморазвертывания](https://docs.microsoft.com/windows/deployment/windows-autopilot/self-deploying) (для киосков, цифровых вывесок и общих устройств), [White Glove](https://docs.microsoft.com/windows/deployment/windows-autopilot/white-glove) (позволяет партнерам или ИТ-специалистам создавать полностью настроенный ПК под управлением Windows 10, заранее подготовленный к работе) и [Autopilot для существующих устройств](https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices) (позволяет легко развернуть последнюю версию Windows 10 на существующих устройствах), а также [Пользовательский режим](https://docs.microsoft.com/windows/deployment/windows-autopilot/user-driven) (для обычных пользователей). 
 
 
 ## <a name="prerequisites"></a>Предварительные условия
@@ -49,10 +49,10 @@ Windows Autopilot упрощает регистрацию устройств в 
 
     ![Снимок экрана: устройства Windows Autopilot](media/enrollment-autopilot/autopilot-import-device.png)
 
-2. В разделе **Добавление устройств Windows AutoPilot** укажите CSV-файл со списком устройств, которые необходимо добавить. CSV-файл должен содержать серийные номера, идентификаторы продуктов Windows, хэш-коды оборудования и при необходимости теги групп. Список может содержать до 500 строк. Используйте формат заголовка и строки, показанный ниже:
+2. В разделе **Добавление устройств Windows AutoPilot** укажите CSV-файл со списком устройств, которые необходимо добавить. В CSV-файле должны быть перечислены серийные номера, идентификаторы продуктов Windows, хэш-коды оборудования, необязательные теги группы и необязательный назначенный пользователь. Список может содержать до 500 строк. Используйте формат заголовка и строки, показанный ниже:
 
-    `Device Serial Number,Windows Product ID,Hardware Hash,Group Tag`</br>
-    `<serialNumber>,<ProductID>,<hardwareHash>,<optionalGroupTag>`
+    `Device Serial Number,Windows Product ID,Hardware Hash,Group Tag,Assigned User`</br>
+    `<serialNumber>,<ProductID>,<hardwareHash>,<optionalGroupTag>,<optionalAssignedUser>`
 
     ![Снимок экрана: добавление устройств Windows Autopilot](media/enrollment-autopilot/autopilot-import-device2.png)
 

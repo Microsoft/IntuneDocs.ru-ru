@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 06/05/2019
+ms.date: 08/19/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7636e1914e23e7009a25f45f330fe85af2a03536
-ms.sourcegitcommit: 293dfbea2b4756bb9b7df1705a2b5f752dfaa807
+ms.openlocfilehash: 8ec1af80d52a8331c2bef136cd0947b81beaa3ea
+ms.sourcegitcommit: b1ddc7f4a3d520b7d6755c7a423a46d1e2548592
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "68701014"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69651170"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -181,7 +181,22 @@ ms.locfileid: "68701014"
 |    Key    |    Значение    |
 |-------------------------------------------------------------------|-------------|
 |    com.microsoft.intune.mam.managedbrowser.homepage   |    Укажите допустимый URL-адрес. Неправильные URL-адреса блокируются из соображений безопасности.<br>**Пример:**  <`https://www.bing.com`>
-    |
+
+## <a name="configure-your-organizations-logo-and-brand-color-for-new-tab-pages-in-microsoft-edge"></a>Настройка логотипа и цвета торговой марки организации для новых вкладок в Microsoft Edge
+
+Эти параметры позволяют настроить страницу новой вкладки в Microsoft Edge так, чтобы в качестве фона страницы отображался логотип и цвет торговой марки организации.
+
+Чтобы отправить логотип и цвет торговой марки организации, сначала выполните следующие действия.
+- На портале Azure перейдите к разделу "Intune-> Клиентские приложения -> Фирменная символика корпоративного портала -> Фирменная символика компании".
+- Чтобы задать логотип торговой марки, в разделе "Отображение" выберите "Только логотип компании". Рекомендуется использовать прозрачные фоновые логотипы. 
+- Чтобы задать цвет фона торговой марки, в разделе "Отображение" выберите "Цвет темы". Microsoft Edge применяет светлый оттенок цвета на странице новой вкладки, что гарантирует лучшую читабельность страницы. 
+
+Затем используйте следующие пары "ключ — значение", чтобы получить фирменную символику организации в Microsoft Edge:
+
+|    Key    |    Значение    |
+|--------------------------------------------------------------------|------------|
+|    com.microsoft.intune.mam.managedbrowser.NewTabPage.BrandLogo    |    True    |
+|    com.microsoft.intune.mam.managedbrowser.NewTabPage.BrandColor    |    True    |
 
 ## <a name="configure-managed-bookmarks-for-microsoft-edge"></a>Настройка управляемых закладок для Microsoft Edge
 
@@ -232,7 +247,8 @@ ms.locfileid: "68701014"
     |    `http://www.contoso.com`    |    Соответствует отдельной странице    |    `www.contoso.com`    |    `host.contoso.com`<br>`www.contoso.com/images`<br>`contoso.com/`    |
     |    `http://contoso.com`    |    Соответствует отдельной странице    |    `contoso.com/`    |    `host.contoso.com`<br>`www.contoso.com/images`<br>`www.contoso.com`    |
     |    `http://www.contoso.com/*;`   |    Соответствует всем URL-адресам, которые начинаются с `www.contoso.com`    |    `www.contoso.com`<br>`www.contoso.com/images`<br>`www.contoso.com/videos/tvshows`    |    `host.contoso.com`<br>`host.contoso.com/images`    |
-    |    `http://*.contoso.com/*`    |    Соответствует всем поддоменам в `contoso.com`    |    `developer.contoso.com/resources`<br>`news.contoso.com/images`<br>`news.contoso.com/videos`    |    `contoso.host.com`    |    `http://*contoso.com/*`    |    Соответствует всем поддоменам, оканчивающимся на `contoso.com/`    |    `http://news-contoso.com`<br>`http://news-contoso.com.com/daily`    |    `http://news-contoso.host.com`    |
+    |    `http://*.contoso.com/*`    |    Соответствует всем поддоменам в `contoso.com`    |    `developer.contoso.com/resources`<br>`news.contoso.com/images`<br>`news.contoso.com/videos`    |    `contoso.host.com`
+    |    `http://*contoso.com/*`    |    Соответствует всем поддоменам, оканчивающимся на `contoso.com/`    |    `http://news-contoso.com`<br>`http://news-contoso.com.com/daily`    |    `http://news-contoso.host.com`    |
     `http://www.contoso.com/images`    |    Соответствует отдельной папке    |    `www.contoso.com/images`    |    `www.contoso.com/images/dogs`    |
     |    `http://www.contoso.com:80`    |    Соответствует отдельной странице с использованием номера порта    |    `http://www.contoso.com:80`    |         |
     |    `https://www.contoso.com`    |    Соответствует отдельной защищенной странице    |    `https://www.contoso.com`    |    `http://www.contoso.com`    |

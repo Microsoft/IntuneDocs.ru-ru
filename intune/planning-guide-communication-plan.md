@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7e69236f7babc974bca0db32245de2323627e494
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: cba8b59931bd60db0d9169af5016f01118c64cf0
+ms.sourcegitcommit: b30a2ba2b67aa2fc3421f0b2f6c5f361a0de612a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548346"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69022828"
 ---
 # <a name="develop-a-rollout-communication-plan"></a>Разработка коммуникационного плана развертывания
 
@@ -50,7 +50,7 @@ ms.locfileid: "67548346"
 
 **Волна после регистрации**<br/> Рассылка для групп и пользователей организации, зарегистрированных в Intune Она предоставляет дополнительные ресурсы, которые могут оказаться полезными, и позволяет узнать впечатления пользователей во время и после регистрации.
 
-Вам может пригодиться это [руководство по регистрации конечных пользователей](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT). Вы можете использовать его в исходном виде или скорректировать в соответствии с потребностями организации.
+Этот [пакет средств внедрения Intune](https://aka.ms/IntuneAdoptionKit) может оказаться полезным. Вы можете использовать его в исходном виде или скорректировать в соответствии с потребностями организации.
 
 ## <a name="communication-delivery-methods"></a>Методы подачи материала
 
