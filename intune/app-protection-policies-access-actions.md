@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 05/20/2019
+ms.date: 08/27/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 65115f6520122cd4b3429411db67052481984617
-ms.sourcegitcommit: cb4e71cd48311ea693001979ee59f621237a6e6f
+ms.openlocfilehash: 8cf55084951c3a423b79e4588f8814b5e73ce8e8
+ms.sourcegitcommit: 6c74ff568267d85fd1d44fda75e3e24ead87cb2b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558451"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70063017"
 ---
 # <a name="selectively-wipe-data-using-app-protection-policy-conditional-launch-actions-in-intune"></a>Выборочная очистка данных с помощью действий условного запуска политики защиты приложений в Intune
 
