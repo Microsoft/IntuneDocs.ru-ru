@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6df8922f9f7252c493b4a2119814c0001245fa8b
-ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
+ms.openlocfilehash: 0316138451c6105f22c196d17c1f2ec3b1f2e375
+ms.sourcegitcommit: 6c74ff568267d85fd1d44fda75e3e24ead87cb2b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69550003"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70062934"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -55,6 +55,9 @@ Windows Autopilot упрощает регистрацию устройств в 
     `<serialNumber>,<ProductID>,<hardwareHash>,<optionalGroupTag>,<optionalAssignedUser>`
 
     ![Снимок экрана: добавление устройств Windows Autopilot](media/enrollment-autopilot/autopilot-import-device2.png)
+
+    >[!IMPORTANT]
+    > При назначении пользователя путем отправки CSV-файла убедитесь, что назначены допустимые имена участников-пользователей. При назначении недопустимого имени участника-пользователя (неправильного имени пользователя) устройство может быть недоступно, пока не будет удалено недопустимое назначение. При отправке CSV-файла единственной проверкой, выполняемой в столбце **Назначенный пользователь**, является проверка допустимости доменного имени. Мы не можем проверить каждое имя участника-пользователя, чтобы убедиться, что вы назначаете существующего или правильного пользователя.
 
 3. Выберите **Импорт**, чтобы начать импорт сведений об устройстве. Импорт может занять несколько минут.
 

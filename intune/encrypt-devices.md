@@ -16,12 +16,12 @@ ms.reviewer: annovich
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: b7c76439b734837b5a4dd7e5fdbba5d21d0681d7
-ms.sourcegitcommit: ec22a186a9cfa489a8490698e387624e480892d8
+ms.openlocfilehash: 5e97e23322150c7a030a3657b6476090d719a448
+ms.sourcegitcommit: a6385b8370c20a44d0869f7920d6b2866edaa5e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68960425"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70027398"
 ---
 # <a name="use-device-encryption-with-intune"></a>Использование шифрования устройств в Intune  
 
@@ -80,6 +80,8 @@ FileVault — это программа шифрования всего диск
 ### <a name="manage-filevault"></a>Управление FileVault  
 
 После того как Intune зашифрует устройство под управлением macOS с помощью FileVault, вы можете просматривать ключи восстановления FileVault и управлять ими при просмотре [отчета о шифровании](encryption-monitor.md) Intune.  
+
+После того как Intune зашифрует устройство macOS с помощью FileVault, вы можете просмотреть личный ключ восстановления этого устройства с корпоративного веб-портала на любом устройстве. На корпоративном веб-портале выберите зашифрованное устройство macOS, а затем выберите "Получить ключ восстановления" в качестве действия удаленного устройства. 
 
 ## <a name="bitlocker-encryption-for-windows-10"></a>Шифрование BitLocker для Windows 10  
 

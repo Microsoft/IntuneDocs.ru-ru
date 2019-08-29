@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/16/2019
+ms.date: 08/20/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2825286c652a7229c32435a24ca816f21b8f2ff4
-ms.sourcegitcommit: db68056e2db17dfdeaa216c684302567742e6416
+ms.openlocfilehash: 63ab31845ba4d084c81ff33970703ec630d67daa
+ms.sourcegitcommit: c8cb314256c4896e838918f015ffaefb8f00ace5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68993740"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70002025"
 ---
 # <a name="microsoft-intune-protected-apps"></a>Защищенные приложения Microsoft Intune  
 
-Для управляемых приложений Intune доступен широкий набор политик защиты мобильных приложений. Управляемые приложения позволяют:
+Эта статья содержит список поддерживаемых партнерских приложений и приложений Майкрософт, которые обычно используются с Microsoft Intune. Для приложений, защищенных с помощью Intune, доступен широкий набор политик защиты мобильных приложений. Эти приложения позволяют:
 - ограничивать функции копирования, вставки и настраиваемого сохранения;
 - настраивать открытие гиперссылок в защищенном браузере Майкрософт;
 - включать множественную идентификацию и условный доступ на уровне приложения;
@@ -77,7 +77,7 @@ ms.locfileid: "68993740"
 | Имя приложения | Описание приложения | Ссылка на приложение в магазине для поддерживаемой платформы | 
 |-------------------------------------------------|-------------------------|---------------------------------------------|
 | **Acronis Access**<p><img alt="Partner app - Acronis Access icon" src="./media/apps-supported-intune-apps/icon-p-acronis-access.png" width="100"> | Приложение обеспечивает безопасный доступ к рабочим файлам из любого места и с любого устройства. Позволяет легко обмениваться документами с коллегами, клиентами и поставщиками, обеспечивая безопасность и конфиденциальность данных и доступ к ним только для сотрудников. Приложение невероятно удобно в использовании, а его возможности по управлению данными, обеспечению их безопасности и конфиденциальности исключительны. | [приложение в магазине iOS](https://itunes.apple.com/us/app/acronis-access/id429704844?mt=8) |                       
-| **Adobe Acrobat Reader для Microsoft Intune**<p><img alt="Partner app - Adobe Acrobat Reader for Microsoft Intune icon" src="./media/apps-supported-intune-apps/icon-p-adobe-acrobat-reader.png" width="100"> | Adobe Acrobat Reader для Intune позволяет открывать и просматривать PDF-файлы, а также работать с ними в управляемой среде Microsoft Intune. Доступны версии для iOS и Android. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.adobe.reader.intune),<br>[приложение в магазине iOS](https://geo.itunes.apple.com/us/app/adobe-acrobat-reader-for-microsoft/id1051980424?mt=8) |                      
+| **Adobe Acrobat Reader**<p><img alt="Partner app - Adobe Acrobat Reader icon" src="./media/apps-supported-intune-apps/icon-p-adobe-acrobat-reader.png" width="100"> | Adobe Acrobat Reader позволяет открывать и просматривать PDF-файлы, а также работать с ними в управляемой среде Microsoft Intune. Доступны версии для iOS и Android. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.adobe.reader),<br>[приложение в магазине iOS](https://apps.apple.com/app/adobe-acrobat-reader-for-pdf/id469337564) |                      
 | **Blackberry Enterprise BRIDGE**<p><img alt="Partner app - Blackberry Enterprise BRIDGE icon" src="./media/apps-supported-intune-apps/icon-p-blackberry-enterprise-bridge.png" width="100"> | Приложение позволяет безопасно просматривать, изменять и сохранять документы с помощью таких приложений Майкрософт, управляемых Intune, как Microsoft Word, Microsoft PowerPoint и Microsoft Excel, из BlackBerry Dynamics. Документы можно использовать совместно с помощью электронной почты и обеспечивать шифрование данных в ходе обмена документами между BlackBerry Dynamics и мобильными приложениями, управляемыми Intune. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.blackberry.intune.bridge),<br>[приложение в магазине iOS](https://itunes.apple.com/us/app/blackberry-enterprise-bridge/id1305494864?mt=8) |
 | **Box для EMM**<p><img alt="Partner app - Box for EMM icon" src="./media/apps-supported-intune-apps/icon-p-box-for-emm.png" width="100"> | Сделайте возможной коммуникацию между сотрудниками и их совместную работу, централизованно управляя безопасностью, политикой и подготовкой любых мобильных устройств, с помощью приложения Box для EMM. | [приложение в магазине iOS](https://itunes.apple.com/us/app/box-for-emm/id882085676?mt=8) |
 | **CellTrust SL2™ для Microsoft Intune**<p><img alt="Partner app - CellTrust SL2 for Microsoft Intune icon" src="./media/apps-supported-intune-apps/icon-p-celltrust-sl2.png" width="100"> | CellTrust SL2™ для Microsoft Intune — это приложение корпоративного уровня, которое позволяет пользователям назначать защищенный мобильный бизнес-номер (МБН) на собственных устройствах, чтобы держать личные и деловые коммуникации отдельно на одном устройстве. Это прозрачное решение защищает SMS-сообщения и деловые звонки на устройстве без использования личного номера. Эта возможность очень важна для предприятий, которым требуется более высокий уровень безопасности для бизнес-коммуникаций, а также архивирования в целях обнаружения электронных данных и соответствия требованиям. <br> Microsoft Intune — это облачная служба управления корпоративными мобильными устройствами (Enterprise Mobility Management, EMM), которая обеспечивает эффективную работу вашего персонала и защищает корпоративные данные. <br> CellTrust SL2™ для Microsoft Intune предоставляет мощную платформу корпоративной мобильности, позволяющую сотрудникам работать в дороге — с простым доступом к защищенным бизнес-приложениям, а также голосовым и текстовым сообщениям. Приложение было разработано с помощью пакетов SDK для Microsoft Intune и настраиваемых функций, позволяющих организациям адаптировать ее в соответствии с потребностями отрасли и ИТ. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.celltrust.sl2_intune),<br>[приложение в магазине iOS](https://itunes.apple.com/us/app/celltrust-sl2-for-intune/id1442087513?mt=8) |
