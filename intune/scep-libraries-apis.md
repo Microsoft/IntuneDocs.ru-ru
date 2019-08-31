@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a7baa95d6719dfa3161ae6644bbc9351d3f3d9f0
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: b6daa574b983b4a03346e521c61f267e13c7de1a
+ms.sourcegitcommit: cf40f641af4746a1e34edd980dc6ec96fd040126
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67882380"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70122356"
 ---
 # <a name="use-apis-to-add-third-party-cas-for-scep-to-intune"></a>Использование API для добавления сторонних ЦС для SCEP в Intune
 
@@ -304,4 +304,4 @@ void SetSslSocketFactory(
 - [Обзор добавления сторонних ЦС](certificate-authority-add-scep-overview.md)
 - [Настройка Intune](setup-steps.md)
 - [Регистрация устройств](device-enrollment.md)
-- [Настройка профилей сертификатов SCEP](certificates-scep-configure.md#create-a-scep-certificate-profile) (настройка соединителя или сервера Microsoft NDES не используется для этого сценария)
+- [Настройка профилей сертификатов SCEP](certificates-profile-scep.md) (настройка соединителя или сервера Microsoft NDES не используется для этого сценария)
