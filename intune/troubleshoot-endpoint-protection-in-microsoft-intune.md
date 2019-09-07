@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/29/2019
+ms.date: 08/26/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5159ee595a6699eb457b194162d21038d4667063
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
+ms.openlocfilehash: c76466acb375fe49afefc542606350733970f416
+ms.sourcegitcommit: 18be0ccc6e51073af32c44abeba421d69a5ae21a
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68353335"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302335"
 ---
 # <a name="endpoint-protection-issues-and-possible-solutions-in-microsoft-intune"></a>Устранение неполадок с Endpoint Protection и возможные решения проблем в Microsoft Intune
 
@@ -60,20 +60,20 @@ ms.locfileid: "68353335"
 **Возможные решения**. Включите эти функции. См. подробнее:
 
 - [Добавление параметров Endpoint Protection](endpoint-protection-configure.md)
-- [Антивирусная программа "Защитник Windows"](device-restrictions-windows-10.md#windows-defender-antivirus)
+- [Антивирусная программа "Защитник Windows"](device-restrictions-windows-10.md#microsoft-defender-antivirus)
 - [Включение пользователем защиты в реальном времени для доступа к ресурсам компании](/intune-user-help/turn-on-defender-windows)
 
 ### <a name="malware-definitions-out-of-date"></a>Определения вредоносных программ устарели
 
 Это состояние возникает, если с даты последнего обновления определений вредоносных программ на устройстве прошло более 14 дней. Например, это сообщение может отображаться, если устройство отключено от Интернета или если определения вредоносных программ устарели.
 
-[Возможные решения](device-restrictions-windows-10.md#windows-defender-antivirus). Если определения вредоносных программ устарели, их можно обновить с помощью **антивирусной программы "Защитник Windows"** .
+[Возможные решения](device-restrictions-windows-10.md#microsoft-defender-antivirus). Если определения вредоносных программ устарели, их можно обновить с помощью **антивирусной программы "Защитник Windows"** .
 
 ### <a name="full-scan-overdue-or-quick-scan-overdue"></a>Полная или быстрая проверки просрочены
 
 Полная или быстрая проверки не выполнялись более 14 дней. Такая ситуация возникает, если устройство перезапускается во время полной проверки.
 
-**Возможные решения**. Если проверка просрочена, можно выполнить однократную проверку или запланировать регулярную полную проверку. См. документацию по [антивирусной программе "Защитник Windows"](device-restrictions-windows-10.md#windows-defender-antivirus).
+**Возможные решения**. Если проверка просрочена, можно выполнить однократную проверку или запланировать регулярную полную проверку. См. документацию по [антивирусной программе "Защитник Windows"](device-restrictions-windows-10.md#microsoft-defender-antivirus).
 
 ### <a name="another-endpoint-protection-application-running"></a>Запущено другое приложение защиты конечных точек
 
