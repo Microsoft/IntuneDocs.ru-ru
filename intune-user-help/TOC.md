@@ -4,7 +4,7 @@
 
 ## [Какие сведения моей организации можно увидеть с помощью Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 
-## [Обновление пароля](password-does-not-meet-it-administrator-requirements.md)
+## [Требования к паролю устройства](password-does-not-meet-it-administrator-requirements.md)
 
 ## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)
 
