@@ -158,6 +158,7 @@
 
 ## [Использование веб-сайта корпоративного портала Intune](using-the-intune-company-portal-website.md)
 ### [Управление приложениями](manage-apps-cpweb.md)  
+### [Получить ключ восстановления](get-recovery-key-cpweb.md)
 ### [Удаленная блокировка устройства](remote-lock-your-device-cpwebsite.md)  
 ### [Переименование устройства](rename-your-device-cpwebsite.md)  
 ### [Удаление устройства](remove-your-device-cpwebsite.md)  
