@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b3c2b5bc0091544136848bf92fc6cef7524ffa54
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
+ms.openlocfilehash: 4893f3484c497ed72352b2bbb229003c2d639107
+ms.sourcegitcommit: cf40f641af4746a1e34edd980dc6ec96fd040126
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68354509"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70122286"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-for-ios-devices-in-intune"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -83,7 +83,7 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 
 Сведения о настройке и назначении сертификата проверки подлинности клиента см. в одной из следующих статей:
 
-- [Настройка инфраструктуры сертификатов для SCEP в Microsoft Intune](certificates-scep-configure.md)
+- [Настройка инфраструктуры для поддержки SCEP с помощью Intune](certificates-scep-configure.md)
 - [Настройка инфраструктуры сертификатов Microsoft Intune для PKCS](certficates-pfx-configure.md)
 
 Обязательно настройте сертификат для проверки подлинности клиента. Это можно сделать непосредственно в профиле сертификата SCEP (список **Расширенное назначение ключа** > **Проверка подлинности клиента**). В случае с сертификатами PKCS проверка подлинности клиента настраивается в шаблоне сертификата в центре сертификации (ЦС).
@@ -107,7 +107,7 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
     - **Сертификат проверки подлинности**. Выберите существующий сертификат SCEP или PKCS и нажмите кнопку **ОК**.      
     - **Раздельное туннелирование**. Выберите пункт **Отключить**, чтобы весь трафик шел только через туннель VPN, когда подключение VPN активно. 
 
-      ![В профиле VPN на уровне приложения укажите подключение, IP-адрес или полное доменное имя, метод проверки подлинности и раздельную настройку в Microsoft Intune](./media/vpn-per-app-create-vpn-profile.png)
+      ![В профиле VPN на уровне приложения укажите подключение, IP-адрес или полное доменное имя, метод проверки подлинности и раздельное туннелирование в Microsoft Intune](./media/vpn-per-app-create-vpn-profile.png)
 
     Дополнительные сведения о других параметрах VPN для iOS см. [здесь](vpn-settings-ios.md).
 

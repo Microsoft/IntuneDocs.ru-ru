@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0c5ddb32502aa15f6eaf8f5866772ecd32e970d4
-ms.sourcegitcommit: 1b7ee2164ac9490df4efa83c5479344622c181b5
+ms.openlocfilehash: faff917dfafaaedb988cbbfb8174547f0b0ccf3b
+ms.sourcegitcommit: cf40f641af4746a1e34edd980dc6ec96fd040126
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67648451"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70122268"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
 
@@ -42,7 +42,7 @@ ms.locfileid: "67648451"
 
 ## <a name="overview"></a>Обзор
 
-Ниже приведены общие сведения о процедуре выдачи сертификатов SCEP в Intune.
+Ниже приведены общие сведения об использовании SCEP для сертификатов в Intune.
 
 1. В Intune администратор создает профиль сертификата SCEP, а затем назначает этот профиль пользователям или устройствам.
 2. Устройство регистрируется в Intune.
@@ -87,7 +87,7 @@ ms.locfileid: "67648451"
    > [!IMPORTANT]  
    > Перед тем как покинуть эту страницу, скопируйте значение для секрета клиента и запишите его для последующего использования в реализации стороннего ЦС. Это значение больше не отображается. Обязательно изучите руководство стороннего ЦС, чтобы получить представление о правильной настройке идентификатора приложения, ключа проверки подлинности и идентификатора клиента.  
 
-6. Запишите **идентификатор клиента**. Идентификатор клиента — это текст имени домена после символа @ в вашей учетной записи. Например, если ваша учетная запись — *admin@name.onmicrosoft.com* , то идентификатор клиента — **name.onmicrosoft.com**.  
+6. Запишите **идентификатор клиента**. Идентификатор клиента — это текст имени домена после символа @ в вашей учетной записи. Например, если ваша учетная запись — *admin@name.onmicrosoft.com*, то идентификатор клиента — **name.onmicrosoft.com**.  
 
 7. В области навигации для приложения перейдите в раздел **Разрешения API** в области **Управление**, а затем выберите **Добавить разрешение**.  
 
@@ -106,9 +106,9 @@ ms.locfileid: "67648451"
 ### <a name="configure-and-deploy-a-scep-certificate-profile"></a>Настройка и развертывание профиля сертификата SCEP
 Как администратор создайте профиль сертификата SCEP, предназначенный для пользователей или устройств. Затем назначьте профиль.
 
-- [Создание профиля сертификата SCEP](certificates-scep-configure.md#create-a-scep-certificate-profile)
+- [Создание профиля сертификата SCEP](certificates-profile-scep.md#create-a-scep-certificate-profile)
 
-- [Назначение профиля сертификата](certificates-scep-configure.md#assign-the-certificate-profile)
+- [Назначение профиля сертификата](certificates-profile-scep.md#assign-the-certificate-profile)
 
 ## <a name="removing-certificates"></a>Удаление сертификатов
 

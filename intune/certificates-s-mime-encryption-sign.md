@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5dba3866df9ce5c779deb18cf13852b3d8af1b8d
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 755073af455c1ee63fa52f435a397734d2897b47
+ms.sourcegitcommit: cf40f641af4746a1e34edd980dc6ec96fd040126
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66048898"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70122227"
 ---
 # <a name="smime-overview-to-sign-and-encrypt-email-in-intune"></a>Общие сведения об S/MIME для подписывания и шифрования электронной почты в Intune
 
@@ -80,7 +80,7 @@ ms.locfileid: "66048898"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-- [Использование сертификатов SCEP](certificates-scep-configure.md)
+- [Использование SCEP для сертификатов](certificates-scep-configure.md)
 - [Использование сертификатов PKCS](certficates-pfx-configure.md)
 - [Использование партнерского ЦС](certificate-authority-add-scep-overview.md)
 - [Выпуск сертификатов PKCS из веб-службы диспетчера PKI Symantec](certificates-symantec-configure.md)
