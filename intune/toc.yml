@@ -857,8 +857,8 @@
                   href: custom-settings-windows-10.md
             - name: Базовые конфигурации безопасности
               items:
-                - name: "Параметры базовых показателей безопасности Windows\_10"
-                  href: security-baseline-settings-mdm.md
+                - name: "Параметры базовых показателей Windows\_10 MDM"
+                  href: security-baseline-settings-mdm-all.md
                 - name: "Параметры базовых показателей безопасности ATP в Microsoft\_Defender"
                   href: security-baseline-settings-defender-atp.md
             - name: Параметры Центра обновления Windows
@@ -1047,10 +1047,6 @@
               href: troubleshoot-software-updates-in-microsoft-intune.md
             - name: Распространенные ошибки Endpoint Protection
               href: troubleshoot-endpoint-protection-in-microsoft-intune.md
-        - name: Архив базовых конфигураций безопасности
-          items:
-            - name: Заархивированные базовые конфигурации безопасности MDM
-              href: security-baseline-settings-mdm-archive.md
     - name: Руководства по реализации сценария
       items:
         - name: Защита Exchange Online
