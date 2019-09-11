@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 08/27/2019
+ms.date: 09/09/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,12 +15,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b7c4cf67c93277ef4b54cdd72a6e06f64dd442e4
-ms.sourcegitcommit: 6c74ff568267d85fd1d44fda75e3e24ead87cb2b
+ms.openlocfilehash: 6b1b489bbc62e4f47847ad599debcecfc27e1918
+ms.sourcegitcommit: 393953dd2a15aff68b246d3633b47566dd43f7cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "70063039"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70815461"
 ---
 # <a name="use-security-baselines-to-configure-windows-10-devices-in-intune"></a>Использование базовых конфигураций безопасности для настройки устройств Windows 10 в Intune
 
@@ -74,8 +74,8 @@ ms.locfileid: "70063039"
 В Intune доступны следующие экземпляры базовых конфигураций безопасности. Перейдя по ссылкам, можно ознакомится с параметрами последних экземпляров каждой базовой конфигурации. 
 
 - **Базовая конфигурация безопасности MDM**
-  - [Базовые показатели безопасности MDM на май 2019 г.](security-baseline-settings-mdm.md)
-  - [Предварительная версия: базовые показатели безопасности MDM на октябрь 2018 г.](security-baseline-settings-mdm-archive.md)
+  - [Базовые показатели безопасности MDM на май 2019 г.](https://docs.microsoft.com/intune/security-baseline-settings-mdm-all?pivots=mdm-may-2019)
+  - [Предварительная версия: базовые показатели безопасности MDM на октябрь 2018 г.](https://docs.microsoft.com/intune/security-baseline-settings-mdm-all?pivots=mdm-preview)
 
 - **Базовая конфигурация системы безопасности ATP в Microsoft Defender**  
   *(Чтобы применить эту базовую конфигурацию, ваша среда должна соответствовать предварительным требованиям для использования решения ["Расширенная защита от угроз" в Microsoft Defender](advanced-threat-protection.md#prerequisites).)*
@@ -215,7 +215,7 @@ ms.locfileid: "70063039"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 - Просмотрите параметры в последних доступных версиях базовых конфигураций:  
-  - [Базовая конфигурация безопасности MDM](security-baseline-settings-mdm.md)  
+  - [Базовая конфигурация безопасности MDM](security-baseline-settings-mdm-all.md)  
   - [Базовая конфигурация системы безопасности ATP в Microsoft Defender](security-baseline-settings-defender-atp.md)  
 
 - Проверка состояния и мониторинг [базовых показателей и профиля](security-baselines-monitor.md)
