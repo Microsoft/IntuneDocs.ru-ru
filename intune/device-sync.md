@@ -1,13 +1,12 @@
 ---
-title: Синхронизация устройств с помощью Microsoft Intune в Azure | Документация Майкрософт
+title: Синхронизация устройств с помощью Microsoft Intune в Azure | Документация Майкрософт
 description: Синхронизируйте устройства, зарегистрированные или управляемые с помощью Microsoft Intune, для получения последних политик и действий. В статье описано, как выполнить синхронизацию с помощью портала Azure, а также перечислены коды ошибок с возможностью повторных попыток.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/28/2019
+ms.date: 06/21/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -16,19 +15,17 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6f13e00abad5b48dcd7996cf9df1cc5756f250d3
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 30910de4ae17aa3fde573155bde4643e2c3d67f7
+ms.sourcegitcommit: 1925eba3fb0b30592f07a924119e20b661588d12
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57388113"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70808626"
 ---
 # <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>Синхронизация устройств с Intune для получения последних политик и действий
 
 
-[!INCLUDE [azure_portal](./includes/azure_portal.md)]
-
-Действие устройства **Синхронизация** заставляет выбранное устройство немедленно выполнить возврат в Intune. При возврате устройство сразу же получает все ожидающие действия или политики, которые были ему назначены. Эта функция позволяет сразу проверять назначенные политики и устранять возникшие с неполадки, не дожидаясь следующего запланированного возврата.
+Действие устройства **Синхронизация** заставляет выбранное устройство немедленно выполнить возврат в Intune. При возврате устройство сразу же получает все ожидающие действия или политики, которые были ему назначены. Эта функция позволяет сразу проверять назначенные политики и устранять возникшие с неполадки, не дожидаясь следующего запланированного возврата.
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
@@ -40,15 +37,14 @@ ms.locfileid: "57388113"
 
 ## <a name="sync-a-device"></a>Синхронизация устройства
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**. 
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973). 
 3. В **Intune** выберите **Устройства** > **Все устройства**.
-4. Выберите нужное устройство в списке управляемых устройств, а затем нажмите **...Еще** и выберите **Синхронизировать**.
+4. Выберите нужное устройство в списке управляемых устройств, чтобы открыть панель *общих сведений*, и выберите **Синхронизировать**.
 5. Нажмите кнопку **Да** для подтверждения.
 
 Чтобы просмотреть статус синхронизации, выберите **Устройства** > **Действия устройства**.
 
-Сведения о частоты возврате политики Intune см. в статье [Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune](device-profiles.md).
+Сведения о частоты возврате политики Intune см. в статье [Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune](device-profile-troubleshoot.md#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
 ## <a name="retryable-error-codes"></a>Коды ошибок с возможностью повторной попытки
 

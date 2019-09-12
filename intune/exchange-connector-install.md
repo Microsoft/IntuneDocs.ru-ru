@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5cf6299f46ed8db4fdca02947ce15a920816d110
-ms.sourcegitcommit: c715c93bb242f4fe44bbdf2fd585909854ed72b6
+ms.openlocfilehash: 3bc5f8a3f0094c363a705b37b904435ef9e91781
+ms.sourcegitcommit: 47b06bf2d32e2f84c382dec3366d6f4a31d98012
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68660939"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70864475"
 ---
 # <a name="set-up-the-intune-on-premises-exchange-connector-in-microsoft-intune"></a>Настройка локального соединителя Exchange в Microsoft Intune
 Сведения в этой статье помогут вам установить и затем отслеживать локальный соединитель Exchange Active Sync для Intune.  Локальный соединитель Exchange для Intune используется с [политиками условного доступа для предоставления или блокировки доступа к локальным почтовым ящикам Exchange](conditional-access-exchange-create.md). 
@@ -124,6 +124,9 @@ Intune поддерживает установку нескольких лока
    Убедитесь, что служба автоматического обнаружения и веб-службы Exchange настроены на сервере клиентского доступа Exchange. Дополнительные сведения см. в разделе [Сервер клиентского доступа](https://technet.microsoft.com/library/dd298114.aspx).
 
 6. В поле **Пароль** укажите пароль учетной записи для доступа Intune к серверу Exchange Server.
+
+   > [!NOTE]
+   > Для успешного подключения у учетной записи, используемой для входа в клиент, должны быть как минимум права администратора служб Intune. Без этого подключение завершится сбоем с такой ошибкой: "Удаленный сервер возвратил ошибку: 400 — ошибочный запрос".
 
 7. Выберите **Подключить**.
 

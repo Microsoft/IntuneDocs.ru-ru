@@ -5,22 +5,22 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 07/26/2019
+ms.date: 09/06/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
-ms.reviewer: joglocke
+ms.reviewer: shpate
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b148abfaeffaf02178e34c3e9abfe86f70fb529c
-ms.sourcegitcommit: ec22a186a9cfa489a8490698e387624e480892d8
+ms.openlocfilehash: 0d9fe180e81c9e661954dd0986f05ac3b5e749ed
+ms.sourcegitcommit: e477e399cba673a2a9e1fa342e8303ed993801eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68960651"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70739189"
 ---
 # <a name="enforce-compliance-for-microsoft-defender-atp-with-conditional-access-in-intune"></a>Обеспечение соответствия требованиям ATP в Microsoft Defender с помощью условного доступа в Intune  
 
@@ -101,6 +101,7 @@ ATP в Microsoft Defender может устранять нарушения в �
 
 Подключить устройство с использованием пакета конфигурации нужно только один раз. Устройства также можно подключить с помощью [групповой политики или System Center Configuration Manager (SCCM)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
+
 ### <a name="create-the-device-configuration-profile"></a>Создание профиля конфигурации устройства
 
 1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
@@ -122,6 +123,7 @@ ATP в Microsoft Defender может устранять нарушения в �
 
 7. Нажмите кнопки **ОК** и **Создать**, чтобы сохранить изменения. После чего будет создан профиль.
 8. [Назначьте профиль конфигурации устройства](device-profile-assign.md) устройствам, для которых оценка будет осуществляться с использованием ATP в Microsoft Defender.  
+
 
 ## <a name="create-and-assign-the-compliance-policy"></a>Создание и назначение политики соответствия требованиям  
 
@@ -179,6 +181,9 @@ ATP в Microsoft Defender может устранять нарушения в �
 1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Соответствие устройства** > **Соответствие политике**.
 3. Найдите в списке политику ATP в Microsoft Defender, чтобы выяснить, какие устройства ей соответствуют, а какие — нет.
+
+## <a name="view-onboarding-status"></a>Просмотр состояния подключения
+Чтобы просмотреть состояние подключения всех устройств Windows 10, управляемых Intune, выберите **Соответствие устройства политикам** > **ATP в Microsoft Defender**. На этой странице можно также инициировать создание профиля конфигурации устройства для подключения дополнительных устройств к ATP в Microsoft Defender.
 
 ## <a name="next-steps"></a>Дальнейшие шаги  
 
