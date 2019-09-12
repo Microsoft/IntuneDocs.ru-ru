@@ -546,10 +546,11 @@
         - name: Что такое управление приложениями с помощью Intune?
           href: app-management.md
           displayName: mam-we
-        - name: Общие сведения о добавлении приложений
-          href: apps-add.md
-          displayName: apk; ipa; msi; appx; appxbundle; msix; msixbundle; app
+        - name: Добавление приложений
           items:
+            - name: Общие сведения о добавлении приложений
+              href: apps-add.md
+              displayName: apk; ipa; msi; appx; appxbundle; msix; msixbundle; app
             - name: Защищенные приложения Intune
               href: apps-supported-intune-apps.md
             - name: Приложения Магазина
@@ -561,9 +562,10 @@
                 - name: "Приложения из Магазина Windows Phone\_8.1"
                   href: store-apps-windows-phone-8-1.md
                 - name: Приложения из Microsoft Store
-                  href: store-apps-windows.md
                   items:
-                    - name: Ручное добавление приложения "Корпоративный портал"
+                    - name: Приложения Windows
+                      href: store-apps-windows.md
+                    - name: Приложение корпоративного портала
                       href: store-apps-company-portal-app.md
                 - name: Управляемые приложения Google Play
                   href: apps-add-android-for-work.md
@@ -571,10 +573,13 @@
                   href: apps-add-office365.md
                 - name: "Приложения Office\_365 для macOS"
                   href: apps-add-office365-macos.md
+            - name: Веб-приложения
+              href: web-app.md
+              displayName: web; web link; weblink; web-link
+            - name: Встроенные приложения
+              href: apps-add-built-in.md
             - name: Сборка приложения (бизнес-приложения)
               items:
-                - name: Управление приложениями Win32
-                  href: apps-win32-app-management.md
                 - name: Бизнес-приложения Android
                   href: lob-apps-android.md
                 - name: Бизнес-приложения iOS
@@ -587,11 +592,8 @@
                   href: app-sideload-windows.md
                 - name: Бизнес-приложения macOS
                   href: lob-apps-macos.md
-            - name: Веб-приложения
-              href: web-app.md
-              displayName: web; web link; weblink; web-link
-            - name: Встроенные приложения
-              href: apps-add-built-in.md
+            - name: Управление приложениями Win32
+              href: apps-win32-app-management.md
             - name: Сценарии PowerShell
               href: intune-management-extension.md
         - name: Назначение приложений
@@ -849,7 +851,7 @@
                   href: vpn-settings-windows-10.md
                 - name: Wi-Fi
                   href: wi-fi-settings-windows.md
-                - name: Образование
+                - name: Оценка безопасности
                   href: education-settings-windows.md
                 - name: Общие устройства для множества пользователей
                   href: shared-user-device-settings-windows.md
