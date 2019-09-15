@@ -11,17 +11,18 @@ ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: ''
+ROBOTS: NOINDEX
 ms.reviewer: shpate
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7e8aeb3428aeece2de9b94c0ebf7796ce73a0267
-ms.sourcegitcommit: 6f84e880411a202c5500eb460779b7ef63a7f430
+ms.openlocfilehash: 6df943fdc0105b0f32401b79434045811f065bef
+ms.sourcegitcommit: 47b06bf2d32e2f84c382dec3366d6f4a31d98012
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68978529"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70864535"
 ---
 <!-- This article contains the exact baseline details for baseline versions that were previously published in security-baseline-settings-mdm.md.  -->
 
@@ -33,12 +34,12 @@ ms.locfileid: "68978529"
 
 Если базовая версия больше не поддерживается для использования, она будет удалена из этой статьи.
 
-- Просмотр параметров, доступных в [текущем базовом плане безопасности MDM](security-baseline-settings-mdm.md) 
+- Просмотрите параметры, доступные в [текущем базовом плане безопасности MDM](https://docs.microsoft.com/intune/security-baseline-settings-mdm-all?pivots=mdm-may-2019). 
 - Ознакомьтесь с [базовыми показателями безопасности](security-baselines.md)и обновлением базовой версии в профилях базовых показателей безопасности.
 
 ## <a name="preview-mdm-security-baseline-for-october-2018"></a>Предварительная версия. Базовые показатели безопасности MDM на октябрь 2018 г.  
 
-*Этот базовый план заменяется [базовыми показателями безопасности MDM для 2019 мая](security-baseline-settings-mdm.md) .*
+*Этот базовый план заменяется [базовыми показателями безопасности MDM для 2019 мая](https://docs.microsoft.com/intune/security-baseline-settings-mdm-all?pivots=mdm-may-2019) .*
 
 ### <a name="above-lock"></a>Экран блокировки  
 
@@ -1440,5 +1441,5 @@ ms.locfileid: "68978529"
  
 ## <a name="next-steps"></a>Дальнейшие шаги  
 
-[Просмотр текущей базовой версии](security-baseline-settings-mdm.md)  
+[Просмотр текущей базовой версии](https://docs.microsoft.com/intune/security-baseline-settings-mdm-all?pivots=mdm-may-2019)  
 [Обновление профилей для использования новой базовой версии](security-baselines.md#change-the-baseline-version-for-a-profile)
