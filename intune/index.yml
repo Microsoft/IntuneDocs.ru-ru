@@ -9,12 +9,12 @@ metadata:
   ms.author: dougeby
   manager: mtillman
   ms.date: 08/30/2019
-  ms.openlocfilehash: 4d33b03ecf4a83b4fb962dc3672cb4ca45bfeedb
-  ms.sourcegitcommit: ffbd1542d33810ab97a0be8faf26f8061328c228
+  ms.openlocfilehash: c671531c878863dc56d00cc0c8cdeb5768517c43
+  ms.sourcegitcommit: c9725ddae6c0f82a491de27c87f240254d32716b
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/31/2019
-  ms.locfileid: "70206446"
+  ms.lasthandoff: 09/13/2019
+  ms.locfileid: "70986394"
 highlightedContent:
   items:
   - title: Что такое Intune?
@@ -140,9 +140,20 @@ conceptualContent:
     - url: app-configuration-policies-overview.md
       itemType: overview
       text: Политики конфигурации приложений
+  - title: Политики защиты приложений
+    links:
     - url: app-protection-policy.md
       itemType: concept
-      text: Политики защиты приложений
+      text: Общие сведения о политиках защиты приложений
+    - url: app-protection-policies.md
+      itemType: overview
+      text: Создание политик защиты приложений
+    - url: app-protection-policies-validate.md
+      itemType: how-to-guide
+      text: Проверка политик защиты приложений
+    - url: app-protection-policies-monitor.md
+      itemType: how-to-guide
+      text: Отслеживание политик защиты приложений
   - title: Справка и поддержка
     links:
     - url: get-support.md
