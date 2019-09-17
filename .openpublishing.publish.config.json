@@ -8,7 +8,7 @@
       "locale": "ru-ru",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "ZonePivotGroups": "Toc",
         "Conceptual": "Content",
@@ -86,7 +86,8 @@
     }
   ],
   "notification_subscribers": [
-    ""
+    "CnE_Content_Brno@moravia.com",
+    "CnE_UE_Bugfixing_ENG@moravia.com"
   ],
   "branches_to_filter": [
     "master-oldev",
@@ -129,7 +130,7 @@
       "Publish",
       "Pdf"
     ],
-    "master": [
+    "live-sxs": [
       "Publish",
       "Pdf"
     ]
