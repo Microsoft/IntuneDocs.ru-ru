@@ -1,6 +1,6 @@
 # Справка по Intune
 
-## [Использование управляемых устройств для выполнения задач](use-managed-devices-to-get-work-done.md)
+## [Что такое регистрация устройств?](use-managed-devices-to-get-work-done.md)
 
 ## [Какие сведения моей организации можно увидеть с помощью Intune?](what-info-can-your-company-see-when-you-enroll-your-device-in-intune.md)
 
