@@ -16,12 +16,12 @@ ms.reviewer: shpate
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: c64ea07cb87bc980d01864468d788229bfc58a5f
-ms.sourcegitcommit: a6385b8370c20a44d0869f7920d6b2866edaa5e2
+ms.openlocfilehash: 469bdc54385f943fd0c42ccfd921293970b03b64
+ms.sourcegitcommit: 05139901411d14a85c2340c0ebae02d2c178a851
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70027391"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70905042"
 ---
 # <a name="monitor-device-encryption-with-intune"></a>Мониторинг шифрования устройств в Intune   
 
@@ -201,8 +201,7 @@ Intune поддерживает несколько вариантов смены
   1. Войдите на веб-сайт *корпоративного портала Intune* с любого устройства.  
   2. На портале перейдите на вкладку **Устройства** и выберите устройство с macOS, зашифрованное с помощью FileVault.  
   3. Выберите команду **Получить ключ восстановления**. Отобразится текущий ключ восстановления.  
-  
-     На iPhone необходимо выбрать *многоточие*, прежде чем появится команда *Получить ключ восстановления*.  
+ 
 
 ## <a name="bitlocker-recovery-keys"></a>Ключи восстановления BitLocker  
 

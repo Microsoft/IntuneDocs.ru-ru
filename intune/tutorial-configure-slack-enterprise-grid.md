@@ -17,12 +17,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 97bc1658dcd432bdd5e31c7100022959e96c3039
-ms.sourcegitcommit: a25cd79a33feb536d9b2fc11aa7d3e3972f1ca5a
+ms.openlocfilehash: 83b10bdfacbcf76b9f75b90d99e094b6854d525e
+ms.sourcegitcommit: 27e63a96d15bc4062af68c2764905631bd928e7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70842076"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71061663"
 ---
 # <a name="tutorial-configure-slack-to-use-intune-for-emm-and-app-configuration"></a>Руководство. Настройка Slack для использования Intune для EMM и настройки приложения
 
@@ -77,7 +77,6 @@ Slack — это приложение для совместной работы,
 5. Выберите **Связанное приложение**.
 6. В строке поиска введите "Slack для EMM" и выберите приложение.
 7. Нажмите кнопку **ОК**, а затем щелкните **Параметры конфигурации**. 
-    - Дополнительные сведения о ключах конфигурации и их значениях см. в документации на вкладке Technical (Технические сведения) на [веб-странице конфигурации приложений Slack](https://www.appconfig.org/company/slack/).
 8. Нажмите кнопку **ОК**, а затем щелкните **Добавить**.
 9. В строке поиска введите "Тестирование политики приложения Slack" и выберите только что добавленную политику.
 10. В разделе "Управление" выберите **Назначения**.

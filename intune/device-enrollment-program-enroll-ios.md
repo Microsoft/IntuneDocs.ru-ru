@@ -12,17 +12,17 @@ ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 7ddbf360-0c61-11e8-ba89-0ed5f89f718b
-ms.reviewer: dagerrit
+ms.reviewer: tisilver
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: df090e0e942291d5430b101db378aca296466bf9
-ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
+ms.openlocfilehash: cd4a195af0b3be5038a34b44606abcddf02c5a1e
+ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69549983"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71071557"
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 

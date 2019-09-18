@@ -12,17 +12,17 @@ ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: f0a2b858-a824-4598-ab81-bdd8e62ac3b3
-ms.reviewer: amyros
+ms.reviewer: altsou
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 60f2368fc8c6d4f8e2713a8386ccdd7e5958ac6b
-ms.sourcegitcommit: 063177c6c365fef3642edd7c455790958469aad9
+ms.openlocfilehash: bab0a33eee5f4d4856fb9d01d822236d1927a4e3
+ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412614"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71071728"
 ---
 # <a name="add-groups-to-organize-users-and-devices"></a>Добавление групп для организации пользователей и устройств
 Intune использует группы Azure Active Directory (AD) для управления устройствами и пользователями. Как администратор Intune вы можете настраивать группы так, как это нужно для вашей организации. Создавайте группы, чтобы упорядочить пользователей или устройства по географическому расположению, отделу или характеристикам оборудования. Используйте группы для управления задачами в требуемом масштабе. Например, вы можете настроить политики для многих пользователей или развернуть приложения для набора устройств.
@@ -39,7 +39,7 @@ Intune использует группы Azure Active Directory (AD) для уп
    ![Снимок экрана: портал Azure с выбранным элементом "Создать группу"](./media/groups-add-new.png)
 4. В качестве **типа группы** выберите один из следующих вариантов.
     - **Безопасность**. Группы безопасности хорошо подходят для заполнения групп пользователей. Так как группы безопасности определяют, кто именно имеет доступ к определенным ресурсам, эти сведения можно легко преобразовать в группы пользователей Intune. Все группы безопасности, синхронизируемые из Active Directory c Azure Active Directory или созданные непосредственно в Azure Active Directory с помощью Центра администрирования Microsoft 365 или портала Azure, доступны для создания групп пользователей в Intune.
-    - **Office 365.**
+    - **Office 365**
 
 5. Введите **имя** и **описание** новой группы. Эти свойства отображаются только на портале управления и не видны пользователям.
 

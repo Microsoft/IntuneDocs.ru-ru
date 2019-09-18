@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4d9554893a8317b014007bd7089ed62f222975c8
-ms.sourcegitcommit: 7269abaefb2857bc8b343896bb2138bdb01bf8dc
+ms.openlocfilehash: 76e6ba8cb1ed6804bfb50f69a00817a50fe1912e
+ms.sourcegitcommit: 3db8af810b95c3a6ed3f8cc00f6ce79076ebb9db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70214299"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71012438"
 ---
 # <a name="use-certificates-for-authentication-in-microsoft-intune"></a>Использование сертификатов для проверки подлинности в Microsoft Intune  
 
@@ -98,5 +98,5 @@ Intune поддерживает следующие типы сертификат
 После создания и назначения профиля доверенного сертификата создайте и назначьте профили сертификатов SCEP, PKCS или импортированных сертификатов PKCS для каждой платформы, которую хотите использовать. Дополнительные сведения см. в следующих статьях:  
 - [Настройка инфраструктуры для поддержки сертификатов SCEP с помощью Intune](certificates-scep-configure.md)  
 - [Настройка инфраструктуры сертификатов Microsoft Intune для PKCS](certficates-pfx-configure.md)  
-- [Создание профиля импортированного сертификата PKCS](certficates-pfx-configure.md#create-a-pkcs-imported-certificate-profile)  
+- [Создание профиля импортированного сертификата PKCS](certificates-imported-pfx-configure.md#create-a-pkcs-imported-certificate-profile)  
 

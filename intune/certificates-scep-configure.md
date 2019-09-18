@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 76cd6084815a9f63e653a63d36ba8265a7a0fbd6
-ms.sourcegitcommit: cf40f641af4746a1e34edd980dc6ec96fd040126
+ms.openlocfilehash: 909dba16e04b11989caa79112c5a89fbb7c52114
+ms.sourcegitcommit: 27e63a96d15bc4062af68c2764905631bd928e7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "70122466"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71061400"
 ---
 # <a name="configure-infrastructure-to-support-scep-with-intune"></a>Настройка инфраструктуры для поддержки SCEP с помощью Intune  
   
@@ -355,7 +355,7 @@ Intune поддерживает использование протокола SC
 8. Откройте командную строку, введите **services.msc**, а затем нажмите клавишу **Ввод**. Щелкните правой кнопкой мыши **Служба соединителя Intune** > **Перезапустить**.
 
 
-Чтобы убедиться, что служба работает, откройте браузер и введите следующий URL-адрес. Он должен вернуть ошибку **403**: `http://<FQDN_of_your_NDES_server>/certsrv/mscep/mscep.dll`  
+Чтобы убедиться, что служба работает, откройте браузер и введите следующий URL-адрес. Он должен вернуть ошибку **403**: `https://<FQDN_of_your_NDES_server>/certsrv/mscep/mscep.dll`  
 
 > [!NOTE]  
 > Intune Certificate Connector поддерживает TLS 1.2. Если сервер, на котором размещен соединитель, поддерживает TLS 1.2, то используется TLS 1.2. Если сервер не поддерживает TLS 1.2, то используется TLS 1.1. Сейчас TLS 1.1 используется для проверки подлинности между устройствами и сервером.
