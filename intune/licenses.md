@@ -11,17 +11,17 @@ ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 4a94440c-11cb-11e8-b642-0ed5f89f718b
-ms.reviewer: amyro
+ms.reviewer: chmaguir
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 38b381fca17dec66303958ee04c018967ae0d999
-ms.sourcegitcommit: a6775522df49d17a4125ccb31be395f2343bdae8
+ms.openlocfilehash: def679ec8e530ce94aae6f8884f9ad94bf2cf58d
+ms.sourcegitcommit: d2989b9992d10d133573d9bc31479659fb7e242c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68833531"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71079805"
 ---
 # <a name="microsoft-intune-licensing"></a>Лицензирование Microsoft Intune
 Служба Microsoft Intune доступна для клиентов с различными потребностями и организаций любых размеров. Она предоставляет простое управление для учебных учреждений и малых предприятий, а также предлагает более расширенные функциональные возможности, необходимые корпоративным клиентам. Большинство лицензий, включающих Microsoft Intune, также предоставляют права на использование System Center Configuration Manager при наличии активной подписки. 

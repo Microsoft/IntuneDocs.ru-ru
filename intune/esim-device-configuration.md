@@ -14,19 +14,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e4a171255c545e2f2c55adf4695476107d06aefe
-ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
+ms.openlocfilehash: 863d8d03836573a7425f2958e52a1e0331b34a10
+ms.sourcegitcommit: d2989b9992d10d133573d9bc31479659fb7e242c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68354390"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71080074"
 ---
 # <a name="configure-esim-cellular-profiles-in-intune---public-preview"></a>Настройка профилей сотовой связи eSIM в Intune (общедоступная предварительная версия)
-
-> [!NOTE]
-> Нам интересно ваше мнение. Отправьте вопросы или начните обсуждение по электронной почте (`eSIMonIntune@microsoft.com`).
-
-## <a name="introduction"></a>Введение
 
 eSIM — встроенная SIM-карта, которая позволяет подключаться к Интернету через функцию передачи данных по сотовой сети на устройстве с поддержкой eSIM, таком как [Surface LTE Pro](https://www.microsoft.com/surface/business/surface-pro). С eSIM не нужно получать SIM-карту у своего оператора мобильной связи. Пользователи, путешествующие по всему миру, могут также переключаться между мобильными операторами и тарифными планами и всегда оставаться на связи.
 
