@@ -12,17 +12,17 @@ ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 439c33a6-e80c-4da9-ba09-a51fc36f62ad
-ms.reviewer: dagerrit
+ms.reviewer: tisilver
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2254c1e83764e9b29ab6fb99c016edef75aad43e
-ms.sourcegitcommit: bc3450fc7f19006b500edf5b395c01559b483ea4
+ms.openlocfilehash: 3f7018b791d5ab22ebcf6bbc45ac01963d2c5d42
+ms.sourcegitcommit: d2989b9992d10d133573d9bc31479659fb7e242c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68738278"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71079943"
 ---
 # <a name="enroll-ios-devices-in-intune"></a>Регистрация устройств с iOS в Intune
 
@@ -39,7 +39,7 @@ Intune позволяет осуществлять управление моби
 
 ## <a name="user-owned-ios-devices-byod"></a>Пользовательские устройства iOS (BYOD)
 
-Можно разрешить пользователям регистрировать личные устройства в системе управления Intune. Такая политика называется "принеси свое устройство" или BYOD. После выполнения необходимых условий и назначения пользовательских лицензий пользователи могут загрузить приложение корпоративного портала Intune из App Store и выполнить инструкции по регистрации в приложении.
+Можно разрешить пользователям регистрировать личные устройства в системе управления Intune. Такая политика называется "принеси свое устройство" или BYOD. После выполнения необходимых условий и назначения пользовательских лицензий пользователи могут загрузить приложение корпоративного портала Intune из App Store и выполнить инструкции по регистрации в приложении. Вы можете [настроить заявление о конфиденциальности](company-portal-app.md#privacy-statement-customization) Корпоративного портала на устройствах iOS.
 
 ## <a name="company-owned-ios-devices"></a>Корпоративные устройства iOS
 Для организаций, которые сами приобретают устройства для своих пользователей, Intune поддерживает следующие методы регистрации корпоративных устройств iOS:

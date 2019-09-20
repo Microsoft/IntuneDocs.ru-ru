@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 06/27/2019
+ms.date: 09/16/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 230f226cba70a7fc61efd236cc0fde0ca6b7fa68
-ms.sourcegitcommit: c3a4fefbac8ff7badc42b1711b7ed2da81d1ad67
+ms.openlocfilehash: cbf2031a316b1f7c2e22d165363cca12cfd70291
+ms.sourcegitcommit: 27e63a96d15bc4062af68c2764905631bd928e7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68374927"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71061574"
 ---
 # <a name="use-powershell-scripts-on-windows-10-devices-in-intune"></a>Использование скриптов PowerShell для устройств Windows 10 в Intune
 
@@ -181,7 +181,7 @@ ms.locfileid: "68374927"
 - Проверьте журналы на наличие ошибок. См. раздел [Журналы расширения управления Intune](#intune-management-extension-logs) (в этой статье).
 - Чтобы исключить проблемы с разрешениями, задайте `Run this script using the logged on credentials` в свойствах скрипта PowerShell. Также убедитесь, что выполнивший вход пользователь имеет нужные разрешения на выполнение скрипта.
 
-- Чтобы определить проблемы со скриптами, сделайте следующее.
+- Чтобы определить проблемы со скриптами, сделайте следующее:
 
   - Проверьте конфигурацию выполнения PowerShell на устройствах. Инструкции см. в разделе [Политика выполнения PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
   - Запустите пример скрипта с помощью расширения управления Intune. Например, создайте каталог `C:\Scripts` и предоставьте всем полный доступ к нему. Выполните следующий сценарий:
@@ -194,7 +194,31 @@ ms.locfileid: "68374927"
 
   - Чтобы проверить выполнение скриптов без Intune, запустите их в локальной системной учетной записи с помощью [средства psexec](https://docs.microsoft.com/sysinternals/downloads/psexec):
 
-    `psexec -i -s`
+    `psexec -i -s`  
+    
+  - Если сообщается о выполнении скрипта, но скрипт не был выполнен, возможно, антивирусная служба изолирует AgentExecutor. Следующий скрипт всегда сообщает об ошибке в Intune. В качестве теста можно использовать следующий скрипт:
+  
+    ```powershell
+    Write-Error -Message "Forced Fail" -Category OperationStopped
+    mkdir "c:\temp" 
+    echo "Forced Fail" | out-file c:\temp\Fail.txt
+    ```
+
+    Если сообщается о выполнении скрипта, проверьте `AgentExecutor.log`, чтобы подтвердить ошибку. При выполнении скрипта длина должна составлять > 2.
+
+  - Для записи файлов .error и .output следующий фрагмент кода выполняет скрипт с помощью AgentExecutor для PSx86 (`C:\Windows\SysWOW64\WindowsPowerShell\v1.0`). При этом журналы сохраняются для проверки. Помните, что расширение управления Intune очищает журналы после выполнения скрипта:
+  
+    ```powershell
+    $scriptPath = read-host "Enter the path to the script file to execute"
+    $logFolder = read-host "Enter the path to a folder to output the logs to"
+    $outputPath = $logFolder+"\output.output"
+    $errorPath =  $logFolder+"\error.error"
+    $timeoutPath =  $logFolder+"\timeout.timeout"
+    $timeoutVal = 60000 
+    $PSFolder = "C:\Windows\SysWOW64\WindowsPowerShell\v1.0"
+    $AgentExec = "C:\Program Files (x86)\Microsoft Intune Management Extension\agentexecutor.exe"
+    &$AgentExec -powershell  $scriptPath $outputPath $errorPath $timeoutPath $timeoutVal $PSFolder 0 0
+    ```
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

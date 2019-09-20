@@ -12,17 +12,17 @@ ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 7196b33e-d303-4415-ad0b-2ecdb14230fd
-ms.reviewer: damionw
+ms.reviewer: tisilver
 ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bd870a788ff5cac7e0aff47c5b8175c0bdfacff2
-ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
+ms.openlocfilehash: cbfe0e30794ddfe5b2f089d50456f9cbdd031e6d
+ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68427296"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71071386"
 ---
 # <a name="enroll-devices-in-intune-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств в Intune с помощью учетной записи диспетчера регистрации устройств
 
@@ -39,7 +39,7 @@ ms.locfileid: "68427296"
 - Приложения по программе VPP можно устанавливать на устройствах, имеющих лицензии на устройство Apple VPP.
 - Устройства заблокированы для условного доступа, за исключением Windows 10 версии 1803 и выше
 - Каждое устройство, зарегистрированное с учетными записями DEM, должно иметь действующую лицензию для управления в Intune. Это может быть лицензия пользователя Intune или лицензия устройства Intune.
-
+- Если вы [регистрируете устройства с рабочим профилем Android для бизнеса](android-work-profile-enroll.md) с использованием учетной записи диспетчера регистрации устройств, на одну такую запись можно зарегистрировать не более 10 устройств.
 
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств
