@@ -1,7 +1,7 @@
 ---
 title: Руководство по тестированию для разработчиков по пакету SDK для приложений Intune для Android
 description: Руководство по тестированию Microsoft Intune App SDK для Android поможет вам протестировать приложение Android под управлением Intune.
-keywords: Пакет SDK
+keywords: SDK
 author: Erikre
 ms.author: erikre
 manager: dougeby
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aa6b07c77b0d92ceb7bdc960d8c2fd754c277499
-ms.sourcegitcommit: 63b55e81122e5c15893302b109ae137c30855b55
+ms.openlocfilehash: 91b7fc7414c3a6d6517cd4b704cb5e99ddcf96d0
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67713232"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167186"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developers-testing-guide"></a>Руководство по тестированию для разработчиков по пакету SDK для приложений Intune для Android
 
@@ -30,20 +30,20 @@ ms.locfileid: "67713232"
 ## <a name="prerequisite-test-accounts"></a>Требуемые учетные записи для тестирования
 Можно создать новые учетные записи без предварительно созданных данных. Создание новой учетной записи
 1. Перейдите на сайт [Microsoft Demos](https://demos.microsoft.com/environments/create/tenant). 
-2. [Настройте Intune](https://docs.microsoft.com/intune/setup-steps), включив управление мобильными устройствами (MDM).
-3. Проведите [создание пользователей](https://docs.microsoft.com/intune/users-add).
-4. [Создание групп](https://docs.microsoft.com/intune/groups-add).
-5. [Назначьте лицензии](https://docs.microsoft.com/intune/licenses-assign) соответствующим образом для тестирования.
+2. [Настройте Intune](setup-steps.md), включив управление мобильными устройствами (MDM).
+3. Проведите [создание пользователей](users-add.md).
+4. [Создание групп](groups-add.md).
+5. [Назначьте лицензии](licenses-assign.md) соответствующим образом для тестирования.
 
 
 ## <a name="azure-portal-policy-configuration"></a>Настройка портала политик Azure
-На [портале Azure во вкладке Intune](https://docs.microsoft.com/intune/app-protection-policies) [создайте и назначьте политики защиты приложений](https://portal.azure.com/?feature.customportal=false#blade/Microsoft_Intune_Apps/MainMenu/14/selectedMenuItem/Overview). Вашу [политику конфигурации приложений](https://docs.microsoft.com/intune/app-configuration-policies-overview) можно также создать и назначить в колонке Intune.
+На [портале Azure во вкладке Intune](app-protection-policies.md) [создайте и назначьте политики защиты приложений](https://portal.azure.com/?feature.customportal=false#blade/Microsoft_Intune_Apps/MainMenu/14/selectedMenuItem/Overview). Вашу [политику конфигурации приложений](app-configuration-policies-overview.md) можно также создать и назначить в колонке Intune.
 
 > [!NOTE]
 > Если ваше приложение отсутствует на портале Azure, вы можете выбрать его как целевое для политики, выбрав параметр **Дополнительные приложения** и указав имя пакета в текстовом поле.
 
 > [!IMPORTANT]
-> Для применения политики конфигурации приложений на регистрирующего пользователя должна также распространяться [политика защиты приложений Intune](https://docs.microsoft.com/intune/app-protection-policy).
+> Для применения политики конфигурации приложений на регистрирующего пользователя должна также распространяться [политика защиты приложений Intune](app-protection-policy.md).
 
 ## <a name="test-cases"></a>Тестовые случаи
 
@@ -103,7 +103,7 @@ ms.locfileid: "67713232"
 ### <a name="unenrollment"></a>Отмена регистрации
 Вы можете выполнить удаленную очистку управляемых приложений от корпоративной электронной почты и документов, при которой личные данные расшифровываются в том случае, если устройство больше не управляется, следующим образом:
 
-1. На портале Azure [запустите очистку](https://docs.microsoft.com/intune/apps-selective-wipe).
+1. На портале Azure [запустите очистку](apps-selective-wipe.md).
 2. Если приложение не регистрирует обработчики очистки, убедитесь в следующем:
     - Происходит полная очистка приложения.
 3. Если ваше приложение зарегистрировано для `WIPE_USER_DATA` или `WIPE_USER_AUXILARY_DATA`, убедитесь в следующем:
@@ -123,8 +123,8 @@ ms.locfileid: "67713232"
 ### <a name="app-configuration-optional"></a>Конфигурация приложений (необязательно)
 Поведение управляемых приложений можно настроить следующим образом:
 
-1. Если приложение использует какие-либо параметры конфигурации приложений, следует проверить, что приложение правильно обрабатывает все значения, которые вы (администратор) могли задать. [Политики конфигурации приложений](https://docs.microsoft.com/intune/app-configuration-policies-overview) можно создать и назначить с помощью Intune.
+1. Если приложение использует какие-либо параметры конфигурации приложений, следует проверить, что приложение правильно обрабатывает все значения, которые вы (администратор) могли задать. [Политики конфигурации приложений](app-configuration-policies-overview.md) можно создать и назначить с помощью Intune.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Добавление бизнес-приложения Android в Microsoft Intune](lob-apps-android.md)

@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c626bb50868e6b966eb7c8867f4c4ff7178eadcf
-ms.sourcegitcommit: 73fbecf7cee4fdfc37d3c30ea2007d2a9a6d2d12
+ms.openlocfilehash: f3891ce150ea740baa3ba18591139c66d78d9d00
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68756527"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71166366"
 ---
 # <a name="intune-on-azure-console-and-legacy-intune-pc-client"></a>Intune в консоли Azure и устаревшем клиенте компьютера Intune
 
@@ -31,7 +31,7 @@ ms.locfileid: "68756527"
 
 ## <a name="manage-windows-10-devices-by-using-mdm"></a>Управление устройствами с Windows 10 с помощью MDM
 
-Мы рекомендуем использовать [управление мобильными устройствами (MDM) для управления устройствами с Windows 10](https://docs.microsoft.com/intune/device-restrictions-windows-10) вместо устаревшего клиента компьютера Intune. Возможность управлять устройствами с Windows 10 с помощью MDM доступна в Intune на портале Azure. При таком управлении предоставляется множество новых возможностей управления и обеспечения безопасности, которые недоступны в устаревшем клиенте компьютера Intune.
+Мы рекомендуем использовать [управление мобильными устройствами (MDM) для управления устройствами с Windows 10](device-restrictions-windows-10.md) вместо устаревшего клиента компьютера Intune. Возможность управлять устройствами с Windows 10 с помощью MDM доступна в Intune на портале Azure. При таком управлении предоставляется множество новых возможностей управления и обеспечения безопасности, которые недоступны в устаревшем клиенте компьютера Intune.
 
 ## <a name="legacy-pc-client-features-are-only-available-in-the-silverlight-console"></a>Устаревшие функции клиента компьютера доступны только в консоли Silverlight
 
@@ -54,7 +54,7 @@ ms.locfileid: "68756527"
 
 ## <a name="mdm-capabilities"></a>Возможности управления мобильными устройствами
 
-Подробное сравнение возможностей клиента компьютера и MDM см. в статье [Сравнение возможностей для управления ПК Windows как компьютерами или мобильными устройствами](pc-management-comparison.md). Для зарегистрированных с помощью MDM устройств с Windows 10 продолжают появляться новые возможности, включая параметры оценки для приложений Win 32. Ознакомьтесь со статьей [Новые возможности Microsoft Intune](https://docs.microsoft.com/intune/whats-new), чтобы узнать о последних изменениях в службе.
+Подробное сравнение возможностей клиента компьютера и MDM см. в статье [Сравнение возможностей для управления ПК Windows как компьютерами или мобильными устройствами](pc-management-comparison.md). Для зарегистрированных с помощью MDM устройств с Windows 10 продолжают появляться новые возможности, включая параметры оценки для приложений Win 32. Ознакомьтесь со статьей [Новые возможности Microsoft Intune](whats-new.md), чтобы узнать о последних изменениях в службе.
 
 ## <a name="switch-from-pc-client-to-mdm"></a>Переход от клиента компьютера к управлению мобильными устройствами
 
@@ -62,9 +62,7 @@ ms.locfileid: "68756527"
 
 1. В консоли Silverlight выполните **выборочную очистку** для отмены регистрации устройства в клиенте компьютера.
   ![Всплывающее окно предупреждения с выбранным переключателем "Выборочная очистка устройства"](media/intune-legacy-pc-client/image02.png)
-2. Повторно зарегистрируйте устройство с помощью [MDM (или путем присоединения к Azure Active Directory)](https://docs.microsoft.com/intune/windows-enroll). 
+2. Повторно зарегистрируйте устройство с помощью [MDM (или путем присоединения к Azure Active Directory)](windows-enroll.md).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-[Регистрация устройств с Windows](https://docs.microsoft.com/intune/windows-enroll)
-
- 
+[Регистрация устройств с Windows](windows-enroll.md)

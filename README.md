@@ -1,15 +1,15 @@
 ---
-ms.openlocfilehash: 1c716f48a46e4fd2dc24d203426c364dd4cd88c0
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 8d76ff182ea4402b6a4cd3242b15288d8bea16b9
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67545238"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71166466"
 ---
-## <a name="microsoft-open-source-code-of-conduct"></a>Правила поведения при использовании открытого кода Майкрософт
+## <a name="microsoft-open-source-code-of-conduct"></a>Microsoft Open Source. Правила поведения
 
-В этом проекте применяются [правила поведения при использовании открытого кода Майкрософт](https://opensource.microsoft.com/codeofconduct/).
-См. дополнительные сведения на странице с [вопросами и ответами по правилам поведения](https://opensource.microsoft.com/codeofconduct/faq/) или отправьте свои дополнительные вопросы и комментарии по адресу [opencode@microsoft.com](mailto:opencode@microsoft.com).
+В этом проекте применяются [правила поведения для Microsoft Open Source](https://opensource.microsoft.com/codeofconduct/).
+Дополнительные сведения см. в разделе [часто задаваемых вопросов о правилах поведения](https://opensource.microsoft.com/codeofconduct/faq/) или обратитесь к [opencode@microsoft.com](mailto:opencode@microsoft.com) с любыми дополнительными вопросами или комментариями.
 
 # <a name="docsmicrosoftcom-github-repository"></a>docs.microsoft.com в репозитории Github
 
@@ -23,7 +23,7 @@ ms.locfileid: "67545238"
 * **Используйте браузер**: возможны два варианта. 
 
     **Вариант 1. Изменение непосредственно с сайта docs.microsoft.com**  
-    1. Перейдите к разделу, например [https://docs.microsoft.com/intune/troubleshoot-policies-in-microsoft-intune](https://docs.microsoft.com/intune/troubleshoot-policies-in-microsoft-intune). 
+    1. Перейдите к разделу, например [https://docs.microsoft.com/intune/troubleshoot-policies-in-microsoft-intune](troubleshoot-policies-in-microsoft-intune.md). 
     2. Выберите **Изменить** (вверху справа). Отображается файл Markdown в репозитории GitHub.
     3. Выберите значок карандаша. При наведении указателя мыши на значок карандаша вы увидите подсказку **Изменить файл**. 
     4. Внесите необходимые изменения и **зафиксируйте** их. 

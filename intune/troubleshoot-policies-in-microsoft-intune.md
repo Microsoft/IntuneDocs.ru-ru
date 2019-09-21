@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9314617640d0bfd7f3a7b0cd0ba572e99ede53f9
-ms.sourcegitcommit: cd451ac487c7ace18ac9722a28b9facfba41f6d3
+ms.openlocfilehash: 68ffdcccdd3588ac5127e6c54426acfdcad17d34
+ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67298400"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71071710"
 ---
 # <a name="troubleshoot-policies-and-profiles-and-in-intune"></a>Устранение неполадок с политиками и профилями в Intune
 
@@ -31,7 +31,7 @@ ms.locfileid: "67298400"
 В этой статье перечислены некоторые стандартные способы устранения неполадок и описаны возможные проблемы.
 
 ## <a name="check-tenant-status"></a>Проверка состояния клиента
-Проверьте [состояния клиента](tenant-status.md) и убедитесь, что подписка активный. Также можно просмотреть подробные сведения о активные инциденты и рекомендации, которые могут повлиять на развертывание политики или профиля.
+Проверьте [состояние клиента](tenant-status.md) и убедитесь, что Подписка активна. Вы также можете просмотреть сведения об активных инцидентах и Advisor, которые могут повлиять на развертывание политики или профиля.
 
 ## <a name="use-built-in-troubleshooting"></a>Использование встроенных функций устранения неполадок
 
@@ -118,10 +118,10 @@ ms.locfileid: "67298400"
 
 ## <a name="policy-troubleshooting-resources"></a>Ресурсы по устранению неполадок с политикой
 
-- [Устранение неполадок iOS или Android политики не применяется к устройствам](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-tip-Troubleshooting-iOS-or-Android-policies-not-applying/ba-p/280154) (открывается другой сайт Microsoft)
-- [Диагностика сбоев политик Windows 10 Intune](http://configmgrdogsarchive.com/2018/08/09/troubleshooting-windows-10-intune-policy-failures/) (открывается блога)
-- [Устранение неполадок настроек CSP для Windows 10](https://support.microsoft.com/en-us/help/4055338/troubleshoot-csp-setting-windows-10-computer-intune) (открывается другой сайт Microsoft)
-- [Vs групповой политики Windows 10 Intune MDM политики](https://blogs.technet.microsoft.com/cbernier/2018/04/02/windows-10-group-policy-vs-intune-mdm-policy-who-wins/) (открывается другой сайт Microsoft)
+- [Устранение неполадок с политиками iOS и Android, которые не применяются к устройствам](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-tip-Troubleshooting-iOS-or-Android-policies-not-applying/ba-p/280154) (открывает другой веб-сайт Майкрософт)
+- [Устранение ошибок политики Intune Windows 10](https://blogs.technet.microsoft.com/configmgrdogs/2018/08/09/troubleshooting-windows-10-intune-policy-failures/) (открывает блог)
+- [Устранение неполадок настраиваемых параметров CSP для Windows 10](https://support.microsoft.com/en-us/help/4055338/troubleshoot-csp-setting-windows-10-computer-intune) (открывает другой веб-сайт Майкрософт)
+- [Политика MDM для Windows 10 групповая политика VS Intune](https://blogs.technet.microsoft.com/cbernier/2018/04/02/windows-10-group-policy-vs-intune-mdm-policy-who-wins/) (открывает другой веб-сайт Майкрософт)
 
 ## <a name="alert-saving-of-access-rules-to-exchange-has-failed"></a>Предупреждение: не удалось сохранить правила доступа к Exchange
 
@@ -135,7 +135,7 @@ ms.locfileid: "67298400"
 
 Устройства Windows Phone не поддерживают последующее снижение уровня безопасности для политик, настроенных с помощью MDM или EAS. Например, вы задали значение 8 для параметра **минимального числа символов в пароле**, а затем хотите уменьшить его до 4. К устройству уже применяется более строгая политика.
 
-Устройства Windows 10 не разрешается удалять политики безопасности, когда вы отключите политику (остановить развертывание). Может потребоваться оставить назначения политики, а затем измените параметры безопасности значения по умолчанию.
+Устройства Windows 10 могут не удалять политики безопасности при отмене назначения политики (прерывать развертывание). Может потребоваться оставить политику назначенной, а затем снова изменить параметры безопасности на значения по умолчанию.
 
 Если вы хотите изменить политику на менее безопасную, то в зависимости от платформы устройства может потребоваться выполнить сброс политик безопасности.
 
@@ -174,7 +174,7 @@ ms.locfileid: "67298400"
 Чтобы устранить эту проблему, установите время локальной системы как можно ближе ко времени в Интернете или времени, установленному в контроллерах домена в сети.
 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Распространенные проблемы с профилями электронной почты и возможные решения](troubleshoot-email-profiles-in-microsoft-intune.md)
 

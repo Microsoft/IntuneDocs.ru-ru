@@ -18,12 +18,12 @@ ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ee17e963964b6d2e4aa9d3e05c7a562f3c61bbf5
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 9047dd9bbc55162eae4693d3035cb05ff4becb91
+ms.sourcegitcommit: 8934b1abec96e18cee15a77107d37551766f7666
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67545731"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71099845"
 ---
 # <a name="enroll-your-macos-device-in-intune-with-the-company-portal-app"></a>Регистрация устройства macOS в Intune с помощью приложения корпоративного портала
 
@@ -46,7 +46,7 @@ ms.locfileid: "67545731"
 Дополнительные сведения о регистрации см. в разделе [Что произойдет, если установить приложение "Корпоративный портал" и зарегистрировать устройство?](what-happens-if-you-install-the-Company-Portal-app-and-enroll-your-device-in-intune-macos.md).  
 
 ## <a name="get-your-device-managed"></a>Включение управления устройством  
-Следуйте инструкциям ниже для регистрации устройств с macOS под управлением OS X El Capitan 10.11 и более поздних версий.   
+Выполните следующие действия, чтобы зарегистрировать устройства macOS с macOS 10,12 и более поздней версии.   
 
 
 1. Чтобы получить доступ к веб-сайту корпоративного портала, откройте новое окно в __Safari__ и перейдите к https://portal.manage.microsoft.com.  
@@ -76,7 +76,7 @@ ms.locfileid: "67545731"
 
 7. По завершении установки перейдите к **Launchpad** и откройте **Корпоративный портал**.  
 
-8. Устройство с macOS предложит подтвердить, что вы хотите открыть приложение корпоративного портала. Щелкните **Открыть**.  
+8. Устройство с macOS предложит подтвердить, что вы хотите открыть приложение корпоративного портала. Нажмите кнопку **Открыть**.  
 
    > [!TIP]
    > Службе Intune нужно предоставить доступ к вашему компьютеру. Это позволит ей убедиться, что устройство является достаточно надежным для доступа к ресурсам организации. Если компьютер отказывается открыть приложение корпоративного портала, попробуйте [отключить Gatekeeper](https://support.apple.com/HT202491). Затем откройте приложение.

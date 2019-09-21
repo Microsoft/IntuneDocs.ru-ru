@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 08/02/2019
+ms.date: 09/19/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 97674627ac1894aa7fcf3f6a6550677b89e1a150
-ms.sourcegitcommit: 3f0cc80c5dbb4d04519c5aa98eae8426dad8cb30
+ms.openlocfilehash: 80b904893f118bac1f4d0d79da0cd10498b9f2ed
+ms.sourcegitcommit: c19584b36448bbd4c8638d7cab552fe9b3eb3408
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70158021"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71162869"
 ---
 # <a name="macos-endpoint-protection-settings-in-intune"></a>Параметры защиты конечных точек macOS в Intune  
 
@@ -105,13 +105,6 @@ ms.locfileid: "70158021"
     - **Отключить** — отключить запрос при выходе.
 
     **Значение по умолчанию**: не настроено  
-
-     > [!IMPORTANT]  
-     > Существует известная проблема, когда для параметра **Отключить запрос при выходе** задано значение *Выключено*. Если установлено значение *Выключено*, параметру **Количество разрешенных раз обхода** нужно задать числовое значение, а не значение *Не задано*. Если установить значение *Не задано*, произойдет сбой профиля на устройстве. В таком случае устройство сообщит, что **Сводка по состоянию профиля** имеет значение **Ошибка** без дополнительных сведений.
-     > 
-     > Если параметр **Отключить запрос при выходе** имеет значение *Не задано*, то параметру **Количество разрешенных раз обхода** можно задать числовое значение или значение *Не задано*.  
-     > 
-     > Эта проблема будет устранена в будущем обновлении. 
 
   - **Количество попыток обхода**  
   Укажите, сколько раз пользователь может пропускать запросы на включение FileVault перед тем, как FileVault требуется для входа в систему.  

@@ -1,7 +1,7 @@
 ---
 title: Руководство по пакету SDK для приложений Intune для разработчиков под Android
 description: Пакет SDK для приложений Microsoft Intune для Android позволяет встроить в ваше приложение Android функции управления мобильными приложениями (MAM).
-keywords: Пакет SDK
+keywords: SDK
 author: Erikre
 ms.author: erikre
 manager: dougeby
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 527d71f0e48627498b05af8ee497579c648d3156
-ms.sourcegitcommit: ec22a186a9cfa489a8490698e387624e480892d8
+ms.openlocfilehash: 8d6f0182fed362cba1e4c383ac6b4e083b6baa8e
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68960553"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167160"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -45,7 +45,7 @@ ms.locfileid: "68960553"
 * **CHANGELOG.txt**: содержит запись изменений, внесенных в каждую версию пакета SDK.
 * **THIRDPARTYNOTICES.TXT**: примечание об атрибуции, где указан сторонний код и (или) код OSS, который будет скомпилирован в ваше приложение.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 ### <a name="android-versions"></a>Версии Android
 Пакет SDK поддерживает API Android от версии 19 (Android 4.4+) до версии 28 (Android 9.0).
@@ -173,7 +173,7 @@ intunemam {
 | Вы включаете библиотеку, например React Native, которая содержит классы, производные от `Activity`, `Application` и `Fragment`, но используете только статические вспомогательные классы или служебные классы. | Нет |
 | Вы включаете библиотеку, которая содержит классы представления, производные от `TextView`, и используете или далее наследуете эти классы в приложении. | Да |
 
-#### <a name="reporting"></a>Отчеты
+#### <a name="reporting"></a>Формирование отчетов
 Подключаемый модуль сборки может создать HTML-отчет об изменениях, которые он создает. Чтобы запросить создание этого отчета, укажите `report = true` в блоке конфигурации `intunemam`. Если отчет создан, он будет записываться в `outputs/logs` в каталоге сборки.
 
 ```groovy
@@ -699,7 +699,7 @@ public interface MAMNotificationReceiver {
 
 #### <a name="2-app-integrates-adal"></a>2. Приложение интегрируется с ADAL
 
-|Обязательный параметр ADAL| Значение |
+|Обязательный параметр ADAL| Применение |
 |--|--|
 | ClientID | Идентификатор ClientID приложения (созданный в Azure AD при регистрации приложения). |
 
@@ -707,14 +707,14 @@ public interface MAMNotificationReceiver {
 
 Необходимо зарегистрировать приложение в Azure AD и предоставить вашему приложению доступ к службе политики защиты приложений.
 * Дополнительные сведения о регистрации приложения в Azure AD см. [здесь](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications).
-* Убедитесь, что вы предоставили приложению Android права доступа к службе политики защиты приложений (APP). Инструкции см. в [Приступая к работе с руководством по пакету SDK для Intune](https://docs.microsoft.com/intune/app-sdk-get-started#next-steps-after-integration) в разделе «предоставить вашему приложению доступ к Intune защиты службы приложений (необязательно). 
+* Убедитесь, что вы предоставили приложению Android права доступа к службе политики защиты приложений (APP). Инструкции см. в [Приступая к работе с руководством по пакету SDK для Intune](app-sdk-get-started.md#next-steps-after-integration) в разделе «предоставить вашему приложению доступ к Intune защиты службы приложений (необязательно). 
 
 Кроме того, ознакомьтесь с требованиями для [условного доступа](#conditional-access) ниже.
 
 
 #### <a name="3-app-integrates-adal-but-does-not-support-brokered-authenticationdevice-wide-sso"></a>3. Приложение включает ADAL, но не поддерживает аутентификацию и единый вход с помощью брокера на уровне устройства.
 
-|Обязательный параметр ADAL| Значение |
+|Обязательный параметр ADAL| Применение |
 |--|--|
 | ClientID | Идентификатор ClientID приложения (созданный в Azure AD при регистрации приложения). |
 | SkipBroker | **True** |
@@ -723,18 +723,18 @@ public interface MAMNotificationReceiver {
 
 ### <a name="conditional-access"></a>Условный доступ
 
-Условный доступ — это [функция](https://docs.microsoft.com/azure/active-directory/develop/active-directory-conditional-access-developer) Azure Active Directory, которую можно использовать для управления доступом к ресурсам AAD. [Администраторы Intune могут определить правила условного доступа](https://docs.microsoft.com/intune/conditional-access), которые разрешают доступ к ресурсам только с устройств или из приложений, управляемых Intune. Чтобы убедиться, что приложение может обратиться к ресурсам, когда это необходимо, нужно выполнить указанные ниже действия. Если приложение не получает токены доступа AAD или обращается к ресурсам, которые невозможно защитить с помощью условного доступа, вы можете пропустить эти шаги.
+Условный доступ — это [функция](https://docs.microsoft.com/azure/active-directory/develop/active-directory-conditional-access-developer) Azure Active Directory, которую можно использовать для управления доступом к ресурсам AAD. [Администраторы Intune могут определить правила условного доступа](conditional-access.md), которые разрешают доступ к ресурсам только с устройств или из приложений, управляемых Intune. Чтобы убедиться, что приложение может обратиться к ресурсам, когда это необходимо, нужно выполнить указанные ниже действия. Если приложение не получает токены доступа AAD или обращается к ресурсам, которые невозможно защитить с помощью условного доступа, вы можете пропустить эти шаги.
 
 1. Выполните [рекомендации по интеграции ADAL](https://github.com/AzureAD/azure-activedirectory-library-for-android#how-to-use-this-library). 
    Особое внимание уделите шагу 11 по использованию брокера.
 2. [Регистрация приложения в Azure Active Directory] (https://docs.microsoft.com/azure/active-directory/active-directory-app-registration). 
    URI перенаправления можно найти в рекомендациях по интеграции ADAL выше.
 3. Задайте параметры метаданных манифеста, как описано в пункте 2 раздела [Распространенные конфигурации ADAL](#common-adal-configurations) выше.
-4. Проверьте правильность настройки всех компонентов, включив [условный доступ на основе устройств](https://docs.microsoft.com/intune/conditional-access-intune-common-ways-use) на [портале Azure](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExchangeConnectorMenu/aad/connectorType/2) и убедившись в следующем:
+4. Проверьте правильность настройки всех компонентов, включив [условный доступ на основе устройств](conditional-access-intune-common-ways-use.md) на [портале Azure](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExchangeConnectorMenu/aad/connectorType/2) и убедившись в следующем:
     - после входа в приложение выдается запрос на установку и регистрацию корпоративного портала;
     - после регистрации вход в приложение выполняется успешно.
-5. Реализовав интеграцию своего приложения с пакетом SDK для приложений Intune, нужно обратиться по адресу msintuneappsdk@microsoft.com для включения в список утвержденных приложений для [условного доступа на основе приложений](https://docs.microsoft.com/intune/conditional-access-intune-common-ways-use#app-based-conditional-access).
-6. После добавления приложения в утвержденный список проверьте работу, [настроив условный доступ на основе приложений](https://docs.microsoft.com/intune/app-based-conditional-access-intune-create), и убедитесь, что вход в приложение выполняется успешно.
+5. Реализовав интеграцию своего приложения с пакетом SDK для приложений Intune, нужно обратиться по адресу msintuneappsdk@microsoft.com для включения в список утвержденных приложений для [условного доступа на основе приложений](conditional-access-intune-common-ways-use.md#app-based-conditional-access).
+6. После добавления приложения в утвержденный список проверьте работу, [настроив условный доступ на основе приложений](app-based-conditional-access-intune-create.md), и убедитесь, что вход в приложение выполняется успешно.
 
 ## <a name="app-protection-policy-without-device-enrollment"></a>Политика защиты приложений без регистрации устройства
 
@@ -919,7 +919,7 @@ mAuthContext.acquireToken(this, RESOURCE_ID, CLIENT_ID, REDIRECT_URI, PromptBeha
 
 При первой регистрации учетной записи она находится в состоянии `PENDING`. Это состояние указывает на то, что первоначальная попытка регистрации службы MAM не завершена. Когда попытка регистрации будет завершена, будет отправлено уведомление с одним из кодов результатов, перечисленных в таблице ниже. Кроме того, метод `getRegisteredAccountStatus()` вернет состояние учетной записи. Так приложение всегда сможет определить, заблокирован ли доступ к корпоративному содержимому для этого пользователя. Если попытка регистрации учетной записи не удается, состояние учетной записи может меняться по мере того, как пакет SDK будет совершать попытки регистрации в фоновом режиме.
 
-|Код результата | Описание |
+|Код результата | Объяснение |
 | -- | -- |
 |AUTHORIZATION_NEEDED | Этот результат показывает, что токен не предоставлен зарегистрированным экземпляром `MAMServiceAuthenticationCallback` приложения или предоставленный токен недопустимый.  Приложение должно получить действительный маркер и вызвать метод `updateToken()`, если это возможно. |
 | NOT_LICENSED | Пользователь не лицензирован для использования Intune или не удалось связаться со службой Intune MAM.  Приложение должно продолжать работу в неуправляемом (обычном) состоянии, а пользователь не должен быть заблокирован.  Попытки регистрации будут периодически повторяться, если у пользователя в будущем появится лицензия . |
@@ -1029,7 +1029,7 @@ public interface MAMComplianceNotification extends MAMUserNotification {
 
 Метод `getComplianceStatus()` возвращает результат попытки исправления соответствия в виде значения из перечисления `MAMCAComplianceStatus`.
 
-|Код состояния | Описание |
+|Код состояния | Объяснение |
 | -- | -- |
 | UNKNOWN | Состояние неизвестно. Это может означать непредвиденную ошибку. Дополнительные сведения см. в журналах корпоративного портала. |
 | COMPLIANT | Исправление соответствия выполнено успешно, и приложение теперь соответствует требованиям политики. Следует повторить получение токена ADAL. |
@@ -1225,7 +1225,7 @@ Intune позволяет использовать все [функции авт
 Для обработки особых случаев при обновлении удостоверения пользовательского интерфейса с помощью `setUIPolicyIdentity` или `switchMAMIdentity` в оба метода может передаваться набор значений `IdentitySwitchOption`.
 
 * `IGNORE_INTENT`: используется, если запрашивается переключение удостоверения, которому следует игнорировать намерения, связанные с текущим действием.
-  Пример.
+  Например:
 
   1. Приложение получает объект намерения от управляемого удостоверения, содержащего управляемый документ, и приложение отображает документ.
   2. Пользователь переходит на использование своих личных учетных данных, поэтому приложение запрашивает замену удостоверений пользовательского интерфейса. В личном удостоверении приложение больше не отображает документ, поэтому используется `IGNORE_INTENT` при запросе переключения удостоверения.
@@ -1394,7 +1394,7 @@ reason, callback)`.
 
 #### <a name="mamasynctask"></a>MAMAsyncTask
 
-Чтобы использовать класс `MAMAsyncTask`, просто унаследуйте его вместо `AsyncTask` и замените переопределения `doInBackground` и `onPreExecute` на `doInBackgroundMAM` и `onPreExecuteMAM`, соответственно. Конструктор `MAMAsyncTask` принимает контекст действия. Пример.
+Чтобы использовать класс `MAMAsyncTask`, просто унаследуйте его вместо `AsyncTask` и замените переопределения `doInBackground` и `onPreExecute` на `doInBackgroundMAM` и `onPreExecuteMAM`, соответственно. Конструктор `MAMAsyncTask` принимает контекст действия. Например:
 
 ```java
   AsyncTask<Object, Object, Object> task = new MAMAsyncTask<Object, Object, Object>(thisActivity) {
@@ -1639,7 +1639,7 @@ public final class MAMDataProtectionManager {
 
 
 ## <a name="enabling-mam-targeted-configuration-for-your-android-applications-optional"></a>Включение целевой конфигурации MAM для приложений Android (необязательно)
-Вы можете настроить в консоли Intune пары "ключ-значение" для конкретных приложений [MAM-WE](https://docs.microsoft.com/intune/app-configuration-policies-managed-app) и [рабочего профиля Android](https://docs.microsoft.com/intune/app-configuration-policies-use-android).
+Вы можете настроить в консоли Intune пары "ключ-значение" для конкретных приложений [MAM-WE](app-configuration-policies-managed-app.md) и [рабочего профиля Android](app-configuration-policies-use-android.md).
 Intune не интерпретирует эти пары. Они передаются в приложение. Приложения, которым нужно получить такую конфигурацию, могут использовать для этого классы `MAMAppConfigManager` и `MAMAppConfig`. Если на одно приложение нацелены несколько политик, возможно, для одного ключа доступно несколько конфликтующих значений.
 
 > [!NOTE] 
@@ -1673,7 +1673,7 @@ LOGGER.info("Found value " + valueToUse);
 ### <a name="further-reading"></a>Дополнительные материалы
 Дополнительные сведения о возможностях API Graph см. в [справочнике по API Graph](https://developer.microsoft.com/graph/docs/concepts/overview). <br>
 
-Дополнительные сведения о создании целевой политики конфигурации приложений MAM в Android см. в статье [Использование политик конфигурации приложений Microsoft Intune для Android](https://docs.microsoft.com/intune/app-configuration-policies-use-android) в разделе, посвященном целевой конфигурации приложений MAM.
+Дополнительные сведения о создании целевой политики конфигурации приложений MAM в Android см. в статье [Использование политик конфигурации приложений Microsoft Intune для Android](app-configuration-policies-use-android.md) в разделе, посвященном целевой конфигурации приложений MAM.
 
 ## <a name="style-customization-optional"></a>Настройка стиля (необязательно)
 

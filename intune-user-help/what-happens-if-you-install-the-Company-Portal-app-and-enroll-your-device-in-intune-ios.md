@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/06/2017
+ms.date: 09/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,12 +18,12 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9333cda33142b9a0a4e0995b4bafe5365f7cb69f
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: c15f2434f67ec08baf04883da6f9525b5f803823
+ms.sourcegitcommit: 8934b1abec96e18cee15a77107d37551766f7666
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67545872"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71099812"
 ---
 # <a name="what-happens-if-you-install-the-company-portal-app-and-enroll-your-ios-device-in-intune"></a>Что произойдет, если установить приложение Корпоративного портала и зарегистрировать устройство iOS в Intune?
 
@@ -37,7 +37,10 @@ ms.locfileid: "67545872"
 
 - автоматически настроить почтовую учетную запись организации;
 
-Регистрируя устройство в Intune, вы предоставляете службе поддержки вашей компании разрешение на управление устройством для защиты корпоративных данных на нем.
+> [!NOTE]
+> Мы не продаем данные, собираемые нашей службой, третьим лицам ни по какой причине.  
+
+Регистрируя устройство в Intune, вы предоставляете службе поддержки вашей компании разрешение на управление устройством для защиты корпоративных данных на нем.  
 
 Когда устройство зарегистрировано, служба поддержки вашей компании может:
 
@@ -64,5 +67,7 @@ ms.locfileid: "67545872"
 - Включить или отключить передачу голоса в роуминге на устройстве. Если она включена, может взиматься плата за роуминг.
 
 - Включить или отключить автоматическую синхронизацию файлов при роуминге на устройстве. Если она включена, может взиматься плата за роуминг.
+
+
 
 Если у вас есть вопросы, обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
