@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e18279fd9cca88de5f04c57a8bcccce1c211c6de
-ms.sourcegitcommit: 4f3fcc6dcbfe2c4e0651d54a130907a25a4ff66e
+ms.openlocfilehash: 4494d5f75336f7152668cfa1bb6fa1cd1a94305c
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "69894319"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167861"
 ---
 # <a name="create-an-intune-report-from-the-odata-feed-with-power-bi"></a>Создание отчета Intune из веб-канала OData с помощью Power BI
 
@@ -81,7 +81,7 @@ ms.locfileid: "69894319"
 ![Управление связями связанных данных по таблицам](media/reports-create-03-managerelationships.png)
 
 1. Выберите **Управление связями**.
-2. Если приложение Power BI еще не обнаружило связи, нажмите кнопку **Автообнаружение...** .
+2. Если приложение Power BI еще не обнаружило связи, нажмите кнопку **Автообнаружение...**.
 
 Связи отображаются в столбцах "Из таблицы" и "В таблицу". В этом примере поле данных **ownerTypeKey** в таблице **devices** связано с полем данных **ownerTypeKey** в таблице **ownerTypes**. С помощью этой связи можно определить обычное название по коду типа устройства в таблице **devices**.
 
@@ -95,7 +95,7 @@ ms.locfileid: "69894319"
 2. В области **поля** найдите `devices` таблицу.
 3. Разверните таблицу и выберите поле `manufacturer` данных. `devices`
 4. Перетащите поле данных на холст отчета и поместите его на диаграмму **Диаграмма дерева.** `manufacturer`
-5. `devices` **** **** **** Перетащите поле данныхизтаблицывобластьвизуализацииипоместитееговразделезначениявполеДобавитьполяданных.`deviceKey`  
+5. `devices` Перетащите поле данных из таблицы на панель **визуализация** и поместите его в разделе **Ценности** в поле **Добавить поля данных**. `deviceKey`  
 
 Вы создали визуализацию, на которой представлено распределение устройств в организации по производителям.
 
@@ -119,7 +119,7 @@ ms.locfileid: "69894319"
 1. Выберите **компания** в срезе, чтобы убедиться, что распространение устройств, принадлежащих компании.
 2. Выберите **личное** в срезе, чтобы просмотреть персональные устройства.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения о [создании связей и управлении ими](https://powerbi.microsoft.com/documentation/powerbi-desktop-create-and-manage-relationships/) в приложении Power BI Desktop см. в документации по Power BI.
-- Изучите [модель хранилища данных Intune](https://docs.microsoft.com/intune/reports-ref-data-model).
+- Изучите [модель хранилища данных Intune](reports-ref-data-model.md).
