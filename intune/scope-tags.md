@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 90865b8a8881ab85089fb379a8398e276574b771
-ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
+ms.openlocfilehash: 2fb82b02057e1e028755da16a05755b0b8ddb93a
+ms.sourcegitcommit: c19584b36448bbd4c8638d7cab552fe9b3eb3408
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69550041"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71163805"
 ---
 # <a name="use-role-based-access-control-rbac-and-scope-tags-for-distributed-it"></a>Использование управления доступом на основе ролей (RBAC) и тегов области для распределенных ИТ
 
@@ -38,7 +38,7 @@ ms.locfileid: "69550041"
 ## <a name="default-scope-tag"></a>Тег области по умолчанию
 Тег области по умолчанию автоматически добавляется ко всем объектам без тегов, поддерживающим Теги области.
 
-Тег области действия по умолчанию аналогичен функции области безопасности в System Center Configuration Manager. 
+Эта функция тега области по умолчанию похожа на функцию областей безопасности в System Center Configuration Manager. 
 
 ## <a name="to-create-a-scope-tag"></a>Создание тега области
 
@@ -101,7 +101,6 @@ ms.locfileid: "69550041"
     - Категории устройств
     - Ограничения на регистрацию
     - Идентификаторы устройств в корпоративной сети
-    - Условия
     - Устройства с автопилотой
     - Расположения соответствия устройств
     - Устройства Jamf
@@ -114,7 +113,7 @@ ms.locfileid: "69550041"
 - Вы можете выбирать только целевые группы, которые перечислены в областях (группах) в вашем назначении ролей.
 - Если у вас есть тег области, назначенный вашей роли, вы не можете удалить все теги области объекта Intune. Требуется по крайней мере один тег области.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как работают Теги области при наличии [нескольких назначений ролей](role-based-access-control.md#multiple-role-assignments).
 Управление вашими [ролями](role-based-access-control.md) и [профилями](device-profile-assign.md).

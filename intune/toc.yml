@@ -321,30 +321,33 @@
           href: device-profiles.md
         - name: Создание профиля
           href: device-profile-create.md
-        - name: Административные шаблоны
+        - name: Административные шаблоны в Windows
           href: administrative-templates-windows.md
-        - name: Возможности устройств
+          displayName: 'group policy, gpo, admx'
+        - name: Возможности устройств в iOS и macOS
           href: device-features-configure.md
         - name: Ограничение параметров и возможностей устройств
           href: device-restrictions-configure.md
           displayName: Device restrictions
-        - name: Доставка обновлений
+        - name: Updates
           href: delivery-optimization-windows.md
-          displayName: delivery optimization; updates
+          displayName: delivery optimization; Windows update
         - name: Обновление выпусков и S-режим
           href: edition-upgrade-configure-windows-10.md
-        - name: Настройка электронной почты
+        - name: Электронная почта
           href: email-settings-configure.md
-        - name: Режим киоска
+        - name: Киоски и выделенные устройства
           href: kiosk-settings.md
-        - name: "Добавление\_VPN"
+        - name: Общие устройства для множества пользователей
+          href: shared-user-device-settings.md
+        - name: VPN
           href: vpn-settings-configure.md
           items:
             - name: VPN на уровне приложения в Android
               href: android-pulse-secure-per-app-vpn.md
             - name: VPN на уровне приложения в iOS
               href: vpn-setting-configure-per-app.md
-        - name: "Добавление беспроводной сети\_Wi-Fi"
+        - name: Сеть Wi-Fi
           href: wi-fi-settings-configure.md
           displayName: wifi
           items:
@@ -354,8 +357,6 @@
           href: kernel-extensions-overview-macos.md
         - name: Приложение "Тестирование" для образования
           href: education-settings-configure.md
-        - name: Общие устройства для множества пользователей
-          href: shared-user-device-settings.md
         - name: Расширения Mobility на устройствах Zebra
           href: android-zebra-mx-overview.md
           displayName: mx
@@ -594,6 +595,8 @@
                   href: app-sideload-windows.md
                 - name: Бизнес-приложения macOS
                   href: lob-apps-macos.md
+            - name: Системные приложения Android для бизнеса
+              href: apps-ae-system.md
             - name: Управление приложениями Win32
               href: apps-win32-app-management.md
             - name: Сценарии PowerShell
@@ -623,12 +626,24 @@
               href: app-configuration-policies-use-ios.md
             - name: Android управляемые устройства
               href: app-configuration-policies-use-android.md
-            - name: "Настройка Managed\_Home\_Screen"
-              href: app-configuration-managed-home-screen-app.md
-            - name: Управляемые приложения
+            - name: Настройка управляемых приложений без регистрации
               href: app-configuration-policies-managed-app.md
             - name: Использование профилей подготовки приложений iOS
               href: app-provisioning-profile-ios.md
+            - name: Настройка конкретных приложений
+              items:
+                - name: "Настройка Managed\_Home\_Screen"
+                  href: app-configuration-managed-home-screen-app.md
+                - name: Настройка корпоративного портала
+                  href: company-portal-app.md
+                - name: Настройка Managed Browser
+                  href: app-configuration-managed-browser.md
+                - name: Настройка Microsoft Launcher
+                  href: configure-microsoft-launcher.md
+                - name: Настройка Microsoft Edge
+                  href: manage-microsoft-edge.md
+                - name: Настройка Outlook
+                  href: app-configuration-policies-outlook.md
             - name: 'Приложения и книги, приобретенные по корпоративной программе'
               items:
                 - name: Управление приложениями и книгами VPP
@@ -640,14 +655,6 @@
                   href: windows-store-for-business.md
                 - name: Электронные книги по iOS
                   href: vpp-ebooks-ios.md
-            - name: Настройка корпоративного портала
-              href: company-portal-app.md
-            - name: Настройка Managed Browser
-              href: app-configuration-managed-browser.md
-            - name: Настройка Microsoft Edge
-              href: manage-microsoft-edge.md
-            - name: Настройка Outlook
-              href: app-configuration-policies-outlook.md
         - name: Защита приложений
           items:
             - name: Выборочная очистка приложений
