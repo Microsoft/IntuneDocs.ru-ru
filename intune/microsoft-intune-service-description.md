@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c813e413d0d3447955f785e0aff1e0edd3501b6a
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: 972f58da34c73253c85f4ca6183ad6fd4ce4c2e7
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67882876"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167851"
 ---
 # <a name="microsoft-intune-service-description"></a>Описание службы Microsoft Intune
 
@@ -33,7 +33,7 @@ Intune — это облачная служба управления корпо
 
 Intune тесно интегрируется с Azure Active Directory (Azure AD) для управления удостоверениями и контроля доступа, а также с Azure Information Protection для защиты данных. Вы также можете интегрировать ее с System Center Configuration Manager для расширения возможностей управления.
 
-Дополнительные сведения о том, как управлять устройствами и приложениями, а также защищать корпоративные данные с помощью Intune, см. в [документации по Intune](https://docs.microsoft.com/intune/).
+Дополнительные сведения о том, как управлять устройствами и приложениями, а также защищать корпоративные данные с помощью Intune, см. в [документации по Intune](index.yml).
 
 ## <a name="30-day-free-trial"></a>30-дневная бесплатная пробная версия
 Можно установить 30-дневную бесплатную ознакомительную версию Intune, которая включает 100 пользовательских лицензий. Для запуска бесплатной пробной версии [перейдите на страницу регистрации Intune](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20). Если в организации имеется соглашение Enterprise Agreement или эквивалентное соглашение о корпоративном лицензировании, обратитесь к представителю Майкрософт, чтобы установить бесплатную ознакомительную версию.

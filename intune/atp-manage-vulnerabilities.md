@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b58b27264e2f6955ae4f16843bb3493e5fdc993e
-ms.sourcegitcommit: fe67741c62749fc9114e9191092ed8b786dd4ffa
+ms.openlocfilehash: 69f214b4fd3f3b7767e719c0f68f19e178a8e29c
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270281"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167234"
 ---
 # <a name="use-intune-to-remediate-vulnerabilities-identified-by-microsoft-defender-atp"></a>Устранение уязвимостей, определенных ATP в Microsoft Defender, с помощью Intune  
 
@@ -37,13 +37,15 @@ ms.locfileid: "68270281"
 Если он принимает задачу, то приступает к ее устранению в Intune в соответствии с инструкциями, предоставленными в задаче безопасности.  
 
 Стандартные действия по устранению уязвимостей:  
+
 - **Блокировка** работы приложения.  
 - **Развертывание** обновления операционной системы для устранения уязвимости.  
 - **Изменение** значения реестра.  
 - **Отключение** или **включение** конфигурации, влияющей на уязвимость.  
 - **Сообщение, требующее внимания**, обращает внимание администратора на угрозу, если подходящих рекомендаций нет.  
 
-Ниже приведен пример рабочего процесса:  
+Ниже приведен пример рабочего процесса:
+
 - В ATP в Microsoft Defender определяется уязвимость приложения Contoso Media Player v4 и администратор создает задачу по обеспечению безопасности для обновления этого приложения. Contoso Media Player — неуправляемое приложение, развернутое с помощью Intune.  
 
   Эта задача по обеспечению безопасности отображается в консоли Intune с состоянием "Ожидание":  
@@ -61,13 +63,16 @@ ms.locfileid: "68270281"
 ## <a name="prerequisites"></a>Предварительные условия  
 
 **Подписки**:  
+
 - Microsoft Intune  
 - Расширенная защита от угроз в Microsoft Defender ([зарегистрируйтесь для получения бесплатной пробной версии](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-main-abovefoldlink)).  
 
 **Настройки Intune для ATP**:  
+
 - Настройте подключение между службами с ATP в Microsoft Defender.  
 - Разверните политику соответствия требованиям с типом профиля **ATP в Microsoft Defender (Windows 10 Desktop)** на устройствах, риск которых будет оценивать ATP.
-  Сведения о настройке Intune для работы с ATP см. в разделе о [принудительном обеспечении соответствия для ATP в Microsoft Defender с помощью условного доступа в Intune](https://docs.microsoft.com/intune/advanced-threat-protection#enable-microsoft-defender-atp-in-intune).  
+
+  Сведения о настройке Intune для работы с ATP см. в разделе о [принудительном обеспечении соответствия для ATP в Microsoft Defender с помощью условного доступа в Intune](advanced-threat-protection.md#enable-microsoft-defender-atp-in-intune).  
 
 ## <a name="work-with-security-tasks"></a>Работа с задачами по обеспечению безопасности  
 
@@ -89,6 +94,6 @@ ms.locfileid: "68270281"
 После успешного устранения уязвимости оценка риска в ATP может снизиться на основе новой информации, полученной от устройств по устранению уязвимостей. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Узнайте об Intune и [ATP в Microsoft Defender](https://docs.microsoft.com/intune/advanced-threat-protection)  
-Просмотрите сведения о [службе защиты мобильных устройств от угроз Intune](https://docs.microsoft.com/intune/mobile-threat-defense)  
+Узнайте об Intune и [ATP в Microsoft Defender](advanced-threat-protection.md)  
+Просмотрите сведения о [службе защиты мобильных устройств от угроз Intune](mobile-threat-defense.md)  
 Ознакомьтесь с [панелью мониторинга средства по управлению угрозами и уязвимостями](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/tvm-dashboard-insights) в ATP в Microsoft Defender

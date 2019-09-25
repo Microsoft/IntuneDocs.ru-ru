@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 14eded43200aed7e9ebf4454bcde61133351e4e2
-ms.sourcegitcommit: 76d59edfd5900ce33c64470ae604eb3db016c8ca
+ms.openlocfilehash: d6fe60cf53f88186448cd9586d5c75fca4d517ad
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "69979198"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167387"
 ---
 # <a name="microsoft-outlook-configuration-settings"></a>Параметры конфигурации Microsoft Outlook 
 
@@ -30,7 +30,7 @@ ms.locfileid: "69979198"
 - Чтобы создать политику конфигурации приложений для управляемых устройств iOS, см. раздел [Добавление политик конфигурации приложений для управляемых устройств iOS](app-configuration-policies-use-ios.md). 
 - Чтобы создать политику конфигурации приложений для управляемых устройств Android, см. раздел [Добавление политик конфигурации приложений для управляемых устройств Android](app-configuration-policies-use-android.md). 
 
-В случае незарегистрированных устройств см. статью [Добавление политик конфигурации приложений для управляемых приложений без регистрации устройств](https://docs.microsoft.com/intune/app-configuration-policies-managed-app), чтобы создать политику конфигурации приложений для Outlook для iOS и Android.
+В случае незарегистрированных устройств см. статью [Добавление политик конфигурации приложений для управляемых приложений без регистрации устройств](app-configuration-policies-managed-app.md), чтобы создать политику конфигурации приложений для Outlook для iOS и Android.
 
 ## <a name="configuration-settings"></a>Параметры конфигурации
 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 18d01692f8c42b67605c223f59e13b1e5197a8db
-ms.sourcegitcommit: 3db8af810b95c3a6ed3f8cc00f6ce79076ebb9db
+ms.openlocfilehash: f68ee794ce1fce2fbdbae8898c412309906b3f5c
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71017141"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167078"
 ---
 # <a name="configure-and-use-imported-pkcs-certificates-with-intune"></a>Настройка и использование импортированных сертификатов PKCS в Intune
 
@@ -43,7 +43,7 @@ ms.locfileid: "71017141"
 
   Этот соединитель автоматически обновляется при появлении новых версий. Чтобы использовать функцию обновления, убедитесь, что брандмауэры разрешают соединителю подключаться к **autoupdate.msappproxy.net** через порт **443**.  
 
-  Дополнительные сведения обо всех сетевых конечных точках, к которым обращается соединитель, см. в статье [Требования к конфигурации сети Intune и ее пропускная способность](https://docs.microsoft.com/intune/network-bandwidth-use).
+  Дополнительные сведения обо всех сетевых конечных точках, к которым обращается соединитель, см. в статье [Требования к конфигурации сети Intune и ее пропускная способность](network-bandwidth-use.md).
 
 
 - **Windows Server**.  

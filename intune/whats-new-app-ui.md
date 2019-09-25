@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1710fd315803c4b47ad3be343893f93f7d155135
-ms.sourcegitcommit: 27e63a96d15bc4062af68c2764905631bd928e7b
+ms.openlocfilehash: c8378986b1cf405a92e34b4c5bd805b169feaf32
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71061736"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167876"
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для пользовательских приложений Intune
 Узнайте о последних обновлениях для приложений Microsoft Intune. Мы регулярно добавляем возможности и улучшаем приложение корпоративного портала Intune. Если вы являетесь администратором Intune или персоналом поддержки, в этой статье вы найдете сведения, необходимые вам для выполнения следующих задач:
@@ -120,7 +120,7 @@ ms.locfileid: "71061736"
 ## <a name="week-of-november-12-2018"></a>Неделя с 12 ноября 2018 г.
 
 ### <a name="windows-company-portal-keyboard-shortcuts----2771518---"></a>Сочетания клавиш для корпоративного портала Windows <!-- 2771518 -->
-Теперь пользователи смогут активировать действия приложения и устройства на корпоративном портале Windows [с помощью определенных сочетаний клавиш (ускорителей)](https://docs.microsoft.com/intune/company-portal-app#windows-company-portal-keyboard-shortcuts).
+Теперь пользователи смогут активировать действия приложения и устройства на корпоративном портале Windows [с помощью определенных сочетаний клавиш (ускорителей)](company-portal-app.md#windows-company-portal-keyboard-shortcuts).
 
 ## <a name="week-of-october-22-2018"></a>Неделя начиная с 22 октября 2018 г.
 
@@ -572,4 +572,4 @@ __После__ ![Изображение обновленной версии за
 ## <a name="see-also"></a>См. также
 * [Блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882)
 * [Стратегии развития облачной платформы](https://www.microsoft.com/cloud-platform/roadmap)
-* [Новые возможности в Intune](https://docs.microsoft.com/intune/whats-new)
+* [Новые возможности в Intune](whats-new.md)

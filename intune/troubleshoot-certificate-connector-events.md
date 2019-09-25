@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8a282662032fe77cbf39da279c587bff31ad9e24
-ms.sourcegitcommit: cf40f641af4746a1e34edd980dc6ec96fd040126
+ms.openlocfilehash: 682d51269798dff181a3bd8384268da862118a70
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "70123228"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167761"
 ---
 # <a name="intune-certificate-connector-events-and-diagnostic-codes"></a>События и диагностические коды соединителя Intune Certificate Connector
 
@@ -60,7 +60,7 @@ ms.locfileid: "70123228"
 | -------------   | -------------   | -------------      |
 | 0x00000000 | Успех  | Успех |
 | 0x00000400 | PKCS_Issue_CA_Unavailable  | Центр сертификации недопустим или недоступен. Проверьте, доступен ли центр сертификации и может ли ваш сервер связаться с ним. |
-| 0x00000401 | Symantec_ClientAuthCertNotFound  | Не удалось найти сертификат авторизации клиента Symantec в локальном хранилище сертификатов. Дополнительные сведения см. в статье [Установка сертификата авторизации регистрации Symantec](https://docs.microsoft.com/intune/certificates-symantec-configure#install-the-symantec-registration-authorization-certificate).  |
+| 0x00000401 | Symantec_ClientAuthCertNotFound  | Не удалось найти сертификат авторизации клиента Symantec в локальном хранилище сертификатов. Дополнительные сведения см. в статье [Установка сертификата авторизации регистрации Symantec](certificates-digicert-configure.md#install-the-digicert-ra-certificate).  |
 | 0x00000402 | RevokeCert_AccessDenied  | Указанная учетная запись не имеет разрешений на отзыв сертификата из ЦС. Чтобы определить выдающий ЦС, см. поле "Имя ЦС" в сообщении о событии.  |
 | 0x00000403 | CertThumbprint_NotFound  | Не удалось найти сертификат, соответствующий входным данным. Зарегистрируйте соединитель сертификата и повторите попытку. |
 | 0x00000404 | Certificate_NotFound  | Не удалось найти сертификат, соответствующий предоставленным входным данным. Повторно зарегистрируйте соединитель сертификата и повторите попытку. |

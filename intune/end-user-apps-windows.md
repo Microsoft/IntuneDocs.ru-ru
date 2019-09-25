@@ -7,7 +7,6 @@ ms.author: lanewsad
 manager: dougeby
 ms.date: 12/05/2016
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4d9d4216026487541cbdd798f247dde3bf08e1ea
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 421815c6f17e4e9eddf23b3123c95cec51157d61
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57388340"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "71239816"
 ---
 # <a name="how-your-windows-users-get-their-apps"></a>Получение приложений пользователями Windows
 
@@ -38,6 +37,6 @@ ms.locfileid: "57388340"
 
 **Неуправляемые приложения** не могут управляться политиками и не были упакованы средствами Intune либо не включают SDK для приложений Intune. Политики защиты приложений нельзя применить к этим приложениям.
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 [Получение приложений пользователями Android](end-user-apps-android.md)
 [Получение приложений пользователями iOS](end-user-apps-android.md)

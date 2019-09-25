@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f4236b3fd1b7dab25a3450b95b75f3623ec7ba95
-ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
+ms.openlocfilehash: 02006acc58789f2a6fb5944e677a1983f7ea9614
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71071640"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167418"
 ---
 # <a name="automatically-enroll-android-devices-by-using-samsungs-knox-mobile-enrollment"></a>Автоматическая регистрация устройств Android с помощью Samsung Knox Mobile Enrollment
 
@@ -105,7 +105,7 @@ ms.locfileid: "71071640"
 
 - **Без связи с именем пользователя.** На портале Knox в разделе **Device detail** (Сведения об устройстве) оставьте поля **User ID** (Идентификатор пользователя) и **Password** (Пароль) пустыми для добавленных устройств. Этот параметр требует, чтобы пользователь вводил имя пользователя и пароль при регистрации в Intune.
 
-- **Со связью с именем пользователя.** На портале Knox в разделе **Device details** (Сведения об устройстве) заполните поле **User ID** (Идентификатор пользователя) (например, имя пользователя для назначенных пользователей или учетную запись [диспетчера регистрации устройств](https://docs.microsoft.com/intune/device-enrollment-manager-enroll)) для добавленных устройств. Этот параметр заполняет имя пользователя и требует, чтобы пользователь вводил пароль при регистрации в Intune.
+- **Со связью с именем пользователя.** На портале Knox в разделе **Device details** (Сведения об устройстве) заполните поле **User ID** (Идентификатор пользователя) (например, имя пользователя для назначенных пользователей или учетную запись [диспетчера регистрации устройств](device-enrollment-manager-enroll.md)) для добавленных устройств. Этот параметр заполняет имя пользователя и требует, чтобы пользователь вводил пароль при регистрации в Intune.
 
 > [!NOTE]
 >

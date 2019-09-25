@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0539e4d12173ba2c7ba8d3af3364daf69ddbbf34
-ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
+ms.openlocfilehash: 83e321e932fa2214612836ec994a9a0aa8174dd7
+ms.sourcegitcommit: 49f25efb9bc0f16f587f27878cf45de5e4e6a27f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71071534"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71094677"
 ---
 # <a name="assign-a-role-to-an-intune-user"></a>Назначение роли пользователю Intune
 
@@ -30,8 +30,6 @@ ms.locfileid: "71071534"
 Для создания, изменения и назначения ролей учетная запись должна иметь одно из следующих разрешений в Azure AD:
 - **Глобальный администратор**
 - **Администратор службы Intune**
-
-Полный список разрешений для каждой встроенной роли см. в [таблице RBAC Intune](https://gallery.technet.microsoft.com/Intune-RBAC-table-2e3c9a1a).
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 

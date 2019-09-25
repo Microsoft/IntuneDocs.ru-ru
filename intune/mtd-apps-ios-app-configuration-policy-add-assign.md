@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fef4b6969680101e2e4f045bc83a8974536eaf2a
-ms.sourcegitcommit: c715c93bb242f4fe44bbdf2fd585909854ed72b6
+ms.openlocfilehash: 55132570683742bd3e8dcec1c20726b9eb2c4b16
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68660967"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71166821"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune  
 
@@ -35,8 +35,8 @@ ms.locfileid: "68660967"
 Описанные ниже действия следует выполнять на [портале Azure](https://portal.azure.com/). Убедитесь, что вы знакомы со следующими процессами.
 
 - [Добавление приложения в Intune](apps-add.md).
-- [Добавление политики конфигурации приложения для iOS в Intune](https://docs.microsoft.com/intune/deploy-use/configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune).
-- [Назначение приложения в Intune](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune)
+- [Добавление политики конфигурации приложения для iOS в Intune](app-configuration-policies-use-ios.md).
+- [Назначение приложения в Intune](apps-deploy.md)
 
 > [!TIP]
 > Корпоративный портал Intune работает на устройствах Android в качестве посредника, чтобы можно было проверять удостоверения пользователей в Azure AD.
@@ -136,7 +136,7 @@ ms.locfileid: "68660967"
   - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина Android в Microsoft Intune](store-apps-android.md). Используйте этот [URL-адрес мобильного решения Wandera в магазине приложений](https://play.google.com/store/apps/details?id=com.wandera.android) на **шаге 7**. В качестве **Минимальной версии операционной системы** выберите **Android 5.0**.
 
 - **iOS**
-  - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](https://docs.microsoft.com/intune/store-apps-ios). Используйте этот [URL-адрес мобильного решения Wandera в магазине приложений](https://itunes.apple.com/app/wandera/id605469330) на **шаге 11** для параметра **URL-адрес Appstore**.
+  - Вы можете ознакомиться с инструкциями по [добавлению приложений магазина iOS в Microsoft Intune](store-apps-ios.md). Используйте этот [URL-адрес мобильного решения Wandera в магазине приложений](https://itunes.apple.com/app/wandera/id605469330) на **шаге 11** для параметра **URL-адрес Appstore**.
 
 ## <a name="configure-your-mtd-apps-with-an-ios-app-configuration-policy"></a>Настройка приложений MTD с политикой конфигурации приложений iOS  
 

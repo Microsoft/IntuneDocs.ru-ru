@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1bb6efa8bff9ff428a7ea6cc1bd245070cfc0e1f
-ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
+ms.openlocfilehash: 301945f96b62dce9ee1cf6caedf40fe6b03499e3
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71070944"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71166441"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -204,4 +204,4 @@ Windows Autopilot упрощает регистрацию устройств в 
 > - Никогда не назначайте имя профилю Autopilot или Apple DEP, начиная с "OfflineAutopilotprofile-".
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-После настройки Windows Autopilot для зарегистрированных устройств с ОС Windows 10 узнайте, как управлять этими устройствами. Дополнительные сведения см. в разделе [Что такое управление устройствами с помощью Microsoft Intune](https://docs.microsoft.com/intune/device-management)?
+После настройки Windows Autopilot для зарегистрированных устройств с ОС Windows 10 узнайте, как управлять этими устройствами. Дополнительные сведения см. в разделе [Что такое управление устройствами с помощью Microsoft Intune](device-management.md)?
