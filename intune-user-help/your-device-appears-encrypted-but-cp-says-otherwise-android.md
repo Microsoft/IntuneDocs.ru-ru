@@ -18,12 +18,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0ec52069c4c53c464cfe5a1e17718ba6725fd0b5
-ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
+ms.openlocfilehash: caae22e59e8adb6952e9a69ff03c575ae4467b2d
+ms.sourcegitcommit: 6a946a055a2014e00a4ca9d71986727a4ebbc777
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71167442"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71238977"
 ---
 # <a name="device-encrypted-but-apps-say-otherwise"></a>Устройство зашифровано, но приложения говорят в ином случае
 
@@ -50,7 +50,7 @@ ms.locfileid: "71167442"
 
 На некоторых устройствах с Android версии 7.0 и выше способы шифрования не соответствуют определенным стандартам платформы Android. Эти методы шифрования заключают сведения об устройстве под угрозу. В результате эти устройства не поддерживаются.
 
-Неполный список поддерживаемых устройств Android см. в статье [Поддерживаемые операционные системы и браузеры в Intune](https://docs.microsoft.com/intune/supported-devices-browsers.md#supported-samsung-knox-standard-devices). Если устройство отсутствует в списке, обратитесь к изготовителю устройства или обратитесь в службу поддержки.
+Неполный список поддерживаемых устройств Android см. в статье [Поддерживаемые операционные системы и браузеры в Intune](https://docs.microsoft.com/intune/supported-devices-browsers#supported-samsung-knox-standard-devices). Если устройство отсутствует в списке, обратитесь к изготовителю устройства или обратитесь в службу поддержки.
 
 > [!Note]
 > Корпорация Майкрософт активно сотрудничает с производителями для устранения проблем, выявляемых по результатам тестирования или обращений пользователей. При поступлении новой информации содержимое этой статьи будет обновляться.
@@ -59,6 +59,6 @@ ms.locfileid: "71167442"
 
 Если вы не обновили устройство до последней версии Android, перейдите к приложению **параметров** устройства и выберите **Обновить**.  
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with enrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.  

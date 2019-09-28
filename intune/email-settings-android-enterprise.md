@@ -5,23 +5,26 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/10/2019
+ms.date: 08/07/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
+ms.reviewer: maholdaa
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7e37d6a2b7371cf20cd36a6f3f75a4dd252c332f
-ms.sourcegitcommit: 916fed64f3d173498a2905c7ed8d2d6416e34061
+ms.openlocfilehash: 8e13c2dce5e8da2ce71b97de496d5234096c3b22
+ms.sourcegitcommit: b78793ccbef2a644a759ca3110ea73e7ed6ceb8f
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66048046"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "71301961"
 ---
 # <a name="android-enterprise-device-settings-to-configure-email-authentication-and-synchronization-in-intune"></a>Параметры устройства Android Enterprise для настройки электронной почты, проверки подлинности и синхронизации в Intune
+
+[!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 В этой статье перечислены и описаны параметры, которыми можно управлять на устройствах Android Enterprise. Как часть вашего решения управления мобильными устройствами (MDM) используйте эти параметры, чтобы настроить почтовый сервер, SSL, чтобы зашифровывать сообщения электронной почты, и многое другое.
 
@@ -31,7 +34,7 @@ ms.locfileid: "66048046"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-[Создайте профиль конфигурации устройства](email-settings-configure.md#create-a-device-profile) и выберите рабочий профиль.
+Создайте [профиль конфигурации устройства](email-settings-configure.md#create-a-device-profile) (выберите рабочий профиль) или создайте [политику конфигурации приложений](app-configuration-policies-use-android.md).
 
 ## <a name="android-enterprise"></a>Android для бизнеса
 

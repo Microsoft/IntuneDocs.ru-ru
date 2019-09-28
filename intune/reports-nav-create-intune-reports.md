@@ -6,9 +6,8 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/14/2018
+ms.date: 08/27/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -18,29 +17,29 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0728fefc40bc82db7926faf282a69d0471c3a1ea
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
-ms.translationtype: HT
+ms.openlocfilehash: 88681696716080b38d0f7d9e79264d002f335029
+ms.sourcegitcommit: 6c74ff568267d85fd1d44fda75e3e24ead87cb2b
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58798125"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "71303298"
 ---
 # <a name="use-the-microsoft-intune-data-warehouse"></a>Использование хранилища данных Microsoft Intune
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
 
 Используйте хранилище данных Intune для создания отчетов, предоставляющих ценные сведения о вашей корпоративной мобильной среде. Например, некоторые отчеты включают в себя следующее:
--   Тренд по регистрации пользователей в Intune, чтобы вы могли оптимизировать покупку лицензий.
--   Разделение по версиям приложений и ОС, чтобы вы могли просматривать подобное состояние мобильных устройств.
--   Тренды по регистрации и соответствию устройств, чтобы вы могли беспрепятственно развертывать обновления политик.
+- Тренд по регистрации пользователей в Intune, чтобы вы могли оптимизировать покупку лицензий.
+- Разделение по версиям приложений и ОС, чтобы вы могли просматривать подобное состояние мобильных устройств.
+- Тренды по регистрации и соответствию устройств, чтобы вы могли беспрепятственно развертывать обновления политик.
 
 ## <a name="data-warehouse-benefits"></a>Преимущества, обеспечиваемые хранилищем данных
 
 Хранилище данных предоставляет больше сведений о мобильной среде, чем портал Azure. Благодаря хранилищу данных Intune вы получаете доступ к:
 
-  -  данным журнала Intune;
-  -  ежедневно обновляемым данным;
-  -  модели данных, использующей стандарт OData.
+- данным журнала Intune;
+- ежедневно обновляемым данным;
+- модели данных, использующей стандарт OData.
 
 > [!Note]
 > Если вы используете совместное управление мобильными устройствами (MDM) с помощью System Center Configuration Manager и Microsoft Intune, можно извлекать данные из Configuration Manager. Хранилище данных Intune содержит только данные Intune. Для создания пользовательских отчетов можно использовать панель мониторинга Configuration Manager в Power BI. Дополнительные сведения см. в статьях [Announcing the Power BI solution template for System Center Configuration Manager]( https://powerbi.microsoft.com/blog/sccm-solution-template) (Представление шаблона решения Power BI для System Center Configuration Manager) и [Power BI content for Dynamics 365](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page) (Содержимое Power BI для Dynamics 365).

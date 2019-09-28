@@ -8,7 +8,6 @@ ms.author: mandia
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2f7a14d605ae3d1a5a951f40ec789c50c847c455
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 132123b15073569c9a9601841579ca4592f27bd7
+ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565712"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "71301911"
 ---
 # <a name="email-profile-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Параметры профиля электронной почты в Microsoft Intune для устройств Windows Phone 8.1
 
@@ -33,7 +32,7 @@ ms.locfileid: "57565712"
 - **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры применяются только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры также применяются к устройствам Windows 10 Mobile.
 - **Почтовый сервер**. Имя узла вашего сервера Exchange.
 - **Имя учетной записи**. Имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
-- **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого создается имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com**) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com**).
+- **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого создается имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com** ) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com** ).
 - **Атрибут адреса электронной почты из AAD**. Способ создания адреса электронной почты для пользователя на каждом устройстве. Выберите **Первичный SMTP-адрес**, чтобы входить в Exchange с помощью основного SMTP-адреса, или **Имя субъекта-пользователя**, чтобы использовать полное имя субъекта-пользователя в качестве адреса электронной почты.
 
 
@@ -51,6 +50,6 @@ ms.locfileid: "57565712"
 ## <a name="content-sync-settings"></a>Параметры синхронизации содержимого
 
 - **Тип содержимого для синхронизации**. Выберите типы содержимого, которые следует синхронизировать на устройствах:
-    - **Контакты**
-    - **Календарь**
-    - **Задачи**
+  - **Контакты**
+  - **Календарь**
+  - **Задачи**

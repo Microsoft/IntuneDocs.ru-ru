@@ -1,5 +1,5 @@
 ---
-title: Регистрация корпоративных устройств с iOS в службе управления. | Microsoft Docs
+title: Регистрация корпоративных устройств с iOS в службе управления. | Документация Майкрософт
 description: Описывает, как зарегистрировать устройство с iOS в Intune, если оно приобретено и предоставлено вашей организацией.
 keywords: ''
 author: lenewsad
@@ -18,12 +18,12 @@ ms.reviewer: japoehlm
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 40fe8f1f54779d3ab0a49951ad13c0cb2d0f0ff5
-ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
+ms.openlocfilehash: 4484dbc9a8348101c0f7409b009998baca32f8a4
+ms.sourcegitcommit: 6a946a055a2014e00a4ca9d71986727a4ebbc777
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71166794"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71239414"
 ---
 # <a name="enroll-your-organization-provided-ios-device-in-management"></a>Регистрация корпоративных устройств с iOS в службе управления
 
@@ -35,7 +35,7 @@ ms.locfileid: "71166794"
 
 ## <a name="what-is-apple-dep"></a>Что такое Программа регистрации устройств Apple?
 
-Возможно, организация приобрела устройства по так называемой *Программе регистрации устройств Apple* (DEP). Некоторые организации покупают большое количество устройств с iOS или macOS через Apple DEP. Организации могут настраивать устройства и управлять ими с помощью любого поставщика управления мобильными устройствами, например Intune. Если вы являетесь администратором и хотите больше узнать о DEP, см. раздел [Автоматическая регистрация устройств с iOS с помощью программы регистрации устройств от Apple](https://docs.microsoft.com/intune/device-enrollment-program-enroll-ios.md).  
+Возможно, организация приобрела устройства по так называемой *Программе регистрации устройств Apple* (DEP). Некоторые организации покупают большое количество устройств с iOS или macOS через Apple DEP. Организации могут настраивать устройства и управлять ими с помощью любого поставщика управления мобильными устройствами, например Intune. Если вы являетесь администратором и хотите больше узнать о DEP, см. раздел [Автоматическая регистрация устройств с iOS с помощью программы регистрации устройств от Apple](https://docs.microsoft.com/intune/device-enrollment-program-enroll-ios).  
 
 ## <a name="set-up-your-ios-device"></a>Настройка устройства с iOS
 

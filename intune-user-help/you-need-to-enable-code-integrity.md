@@ -18,12 +18,12 @@ ms.reviewer: scottduf
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c518e0eeb18f51fa17d15a72735e319aef1d647d
-ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
+ms.openlocfilehash: 6a545bff8624f4447ca9805aecf6d4d288fe4314
+ms.sourcegitcommit: 6a946a055a2014e00a4ca9d71986727a4ebbc777
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71167473"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71239520"
 ---
 # <a name="enable-code-integrity"></a>Включение проверки целостности кода
 
@@ -35,8 +35,8 @@ ms.locfileid: "71167473"
 
 ## <a name="additional-resources-for-it-administrators"></a>Дополнительные ресурсы для ИТ администраторов
 
-Если вы являетесь администратором Intune и хотите узнать больше о параметрах соответствия требованиям в Intune, см. статью [Добавление политики соответствия устройств для устройств Windows 10 в Intune](https://docs.microsoft.com/intune/compliance-policy-create-windows.md). Подробные сведения о действиях по обеспечению соответствия, которые можно предпринять в Intune, см. в разделе [CSP хеалсаттестатион](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp#step-8-take-appropriate-policy-action-based-on-evaluation-results).  
+Если вы являетесь администратором Intune и хотите узнать больше о параметрах соответствия требованиям в Intune, см. статью [Добавление политики соответствия устройств для устройств Windows 10 в Intune](https://docs.microsoft.com/intune/compliance-policy-create-windows). Подробные сведения о действиях по обеспечению соответствия, которые можно предпринять в Intune, см. в разделе [CSP хеалсаттестатион](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp#step-8-take-appropriate-policy-action-based-on-evaluation-results).  
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

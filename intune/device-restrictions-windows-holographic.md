@@ -7,7 +7,6 @@ ms.author: mandia
 manager: dougeby
 ms.date: 01/22/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fed8c33bbf4ff302d08576dc5e34ce1257425090
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: bea8d6d8e3503b9ec6fba7b2eda4842b68786e54
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565253"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "71302314"
 ---
 # <a name="windows-holographic-for-business-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Windows Holographic for Business, разрешающие или ограничивающие функции с помощью Intune
 
@@ -91,9 +90,9 @@ ms.locfileid: "57565253"
   - **Киоск с одним приложением**. Профиль разрешает использовать на устройстве только одно приложение. Определенное приложение запускается при входе пользователя в систему. Этот режим также не позволяет открывать новые приложения или изменять выполняющиеся.
   - **Киоск с несколькими приложениями**. Профиль позволяет использовать на устройстве несколько приложений. Пользователю доступны только добавляемые вами приложения. Преимущество киоска с несколькими приложениями (или устройства фиксированного предназначения) заключается в предоставлении пользователям понятных возможностей взаимодействия за счет доступа только к необходимым приложениям. При этом те приложения, которые им не нужны, скрываются. 
   
-    При добавлении приложения для работы в киоске с несколькими приложениями нужно также добавить файл макета меню "Пуск". [Файл макета меню "Пуск"](https://docs.microsoft.com/hololens/hololens-kiosk#start-layout-file-for-intune) включает образец XML-кода, который можно использовать в Intune. 
+    При добавлении приложения для работы в киоске с несколькими приложениями нужно также добавить файл макета меню "Пуск". [Файл макета меню "Пуск"](/hololens/hololens-kiosk#start-layout-file-for-mdm-intune-and-others) включает образец XML-кода, который можно использовать в Intune. 
 
-#### <a name="single-app-kiosks"></a>Киоски с одним приложением
+### <a name="single-app-kiosks"></a>Киоски с одним приложением
 
 Введите следующие параметры:
 
@@ -101,7 +100,7 @@ ms.locfileid: "57565253"
 
     Для киосков в общедоступных средах с включенным автоматическим входом в систему следует использовать тип пользователя с минимальными привилегиями (например, локальную учетную запись обычного пользователя). Чтобы настроить учетную запись Azure Active Directory (AD) для режима киоска, используйте формат `AzureAD\user@contoso.com`.
 
-- **Идентификатор модели пользователя приложения (AUMID)**. Введите AUMID для приложения киоска. Дополнительные сведения см. в статье [Поиск идентификатора модели пользователя для установленного приложения](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app).
+- **Идентификатор модели пользователя приложения (AUMID)** . Введите AUMID для приложения киоска. Дополнительные сведения см. в статье [Поиск идентификатора модели пользователя для установленного приложения](https://docs.microsoft.com/windows-hardware/customize/enterprise/find-the-application-user-model-id-of-an-installed-app).
 
 ## <a name="reporting-and-telemetry"></a>Отчетность и телеметрия
 

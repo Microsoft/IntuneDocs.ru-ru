@@ -18,12 +18,12 @@ ms.reviewer: japoehlm
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9066fefccde39ccac281f3bda9008168ea28b77f
-ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
+ms.openlocfilehash: 0de0e676e72d46bde922fd97b651cc1a9268e45e
+ms.sourcegitcommit: 6a946a055a2014e00a4ca9d71986727a4ebbc777
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71166617"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71239779"
 ---
 # <a name="enroll-your-organization-provided-macos-device-in-management"></a>Регистрация корпоративных устройств macOS в службе управления
 
@@ -35,7 +35,7 @@ ms.locfileid: "71166617"
 
 ## <a name="what-is-apple-dep"></a>Что такое Программа регистрации устройств Apple?
 
-Возможно, организация приобрела устройства по так называемой *Программе регистрации устройств Apple* (DEP). Некоторые организации покупают большое количество устройств с iOS или macOS через Apple DEP. Организации могут настраивать устройства и управлять ими с помощью любого поставщика управления мобильными устройствами, например Intune. Если вы являетесь администратором и хотите больше узнать об DEP, см. раздел [Автоматическая регистрация устройств macOS с помощью программы регистрации устройств от Apple](https://docs.microsoft.com/intune/device-enrollment-program-enroll-macos.md).  
+Возможно, организация приобрела устройства по так называемой *Программе регистрации устройств Apple* (DEP). Некоторые организации покупают большое количество устройств с iOS или macOS через Apple DEP. Организации могут настраивать устройства и управлять ими с помощью любого поставщика управления мобильными устройствами, например Intune. Если вы являетесь администратором и хотите больше узнать об DEP, см. раздел [Автоматическая регистрация устройств macOS с помощью программы регистрации устройств от Apple](https://docs.microsoft.com/intune/device-enrollment-program-enroll-macos).  
 
 ## <a name="get-your-device-managed"></a>Включение управления устройством
 

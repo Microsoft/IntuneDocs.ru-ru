@@ -18,12 +18,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 37f76f0e4a382dc356f6d5994c31178ad6f496df
-ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
+ms.openlocfilehash: 22bdb41d8af69ed7e52ee3bcbc7775ac1d6768a6
+ms.sourcegitcommit: 6a946a055a2014e00a4ca9d71986727a4ebbc777
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71166520"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71239399"
 ---
 # <a name="get-a-recovery-key-for-a-macos-device"></a>Получение ключа восстановления для устройства macOS
 
@@ -47,9 +47,9 @@ ms.locfileid: "71166520"
 
 ## <a name="it-pro-support"></a>Поддержка ИТ Pro
 
-Если вы являетесь сотрудником службы поддержки и хотите настроить шифрование FileVault для устройств macOS и управлять им, см. статью [Использование шифрования устройств в Intune](https://docs.microsoft.com/intune/encrypt-devices.md).
+Если вы являетесь сотрудником службы поддержки и хотите настроить шифрование FileVault для устройств macOS и управлять им, см. статью [Использование шифрования устройств в Intune](https://docs.microsoft.com/intune/encrypt-devices).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Узнайте, что еще можно сделать на веб-сайте корпоративный портал. Список действий см. в разделе [Использование веб-сайта корпоративный портал Intune](using-the-intune-company-portal-website.md) .  
 

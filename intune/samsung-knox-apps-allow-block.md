@@ -8,7 +8,6 @@ ms.author: mandia
 manager: dougeby
 ms.date: 3/5/2018
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4efa2a813dda16805effe55ff3d1b967ef5d6c88
-ms.sourcegitcommit: 484a898d54f5386fdbce300225aaa3495cecd6b0
+ms.openlocfilehash: edff9ca3e292a2b5653a8b156a8deaa02bb79e9d
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58798233"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "71303171"
 ---
 # <a name="use-custom-policies-in-microsoft-intune-to-allow-and-block-apps-for-samsung-knox-standard-devices"></a>Использование настраиваемых политик для разрешения и блокировки приложений для устройств Samsung Knox Standard в Microsoft Intune 
 
@@ -36,8 +35,7 @@ ms.locfileid: "58798233"
 
 ## <a name="create-an-allowed-or-blocked-app-list"></a>Создание списка разрешенных или заблокированных приложений
 
-1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **Все службы** > **Intune**. Intune находится в разделе **Мониторинг и управление**.
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 3. На панели **Intune** выберите пункт **Конфигурация устройства**.
 2. На панели **Конфигурация устройства** выберите **Управление** > **Профили**.
 2. На панели списка профилей выберите **Создать профиль**.
@@ -51,16 +49,16 @@ ms.locfileid: "58798233"
 
    - **Имя.** Введите **PreventStartPackages**.
    - **Описание.** Введите необязательное описание, например "Список приложений, запуск которых запрещен".
-   -    **Тип данных.** В раскрывающемся списке выберите **Строка**.
-   -    **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
-   -    **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
+   - **Тип данных.** В раскрывающемся списке выберите **Строка**.
+   - **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages**
+   - **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|** . (Пример: package1;package2;)
 
    Для списка приложений, которые пользователи могут устанавливать из магазина Google Play (все прочие приложения исключаются):
    - **Имя.** Введите **AllowInstallPackages**.
    - **Описание.** Введите необязательное описание, например "Список приложений, которые пользователи могут устанавливать из Google Play".
    - **Тип данных.** В раскрывающемся списке выберите **Строка**.
    - **OMA-URI.** Введите **./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowInstallPackages**
-   - **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|**. (Пример: package1;package2;)
+   - **Значение.** Введите список имен пакетов приложений, которые требуется разрешить. В качестве разделителей можно использовать **; : ,** или **|** . (Пример: package1;package2;)
 
 4. Нажмите кнопку **ОК**, а затем на панели **Создать профиль** выберите **Создать**.
 
