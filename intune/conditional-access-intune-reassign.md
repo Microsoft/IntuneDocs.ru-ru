@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9a24c4b45b962f77846b4f7f7add3872daf38635
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: 36e7b8468e4ee9d1f6be71a82d18f066bd7568d4
+ms.sourcegitcommit: 9110124a481160039d476cf0374a4fa0464a8509
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67883789"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256201"
 ---
 # <a name="reassign-conditional-access-policies-from-intune-classic-portal-to-the-azure-portal"></a>Переназначение политик условного доступа с классического портала Intune на портал Azure
 
@@ -194,15 +194,9 @@ ms.locfileid: "67883789"
 
 ### <a name="to-disable-the-conditional-access-policies"></a>Отключение политик условного доступа
 
-1. Перейдите на [классический портал Intune](https://manage.microsoft.com) и войдите с помощью своих учетных данных.
+Так как раздел MDM удален с классического портала Intune, предоставлена следующая ссылка для просмотра и отключения этих классических политик:
 
-2. Выберите элемент **Политика** в левом меню.
-
-3. Выберите **Условный доступ**, а затем — облачную службу Майкрософт (например, Exchange Online или SharePoint Online), для которой вы создали политику условного доступа.
-
-4. Снимите флажок **Включить политику условного доступа** и нажмите кнопку **Сохранить**.
-
-    ![Изображение отключения политик условного доступа на классическом портале Intune](./media/reassign-ca-18.png)
+https://portal.azure.com/?microsoft_aad_iam_classicPolicyDontHide=true#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/ClassicPolicies
 
 ## <a name="see-also"></a>См. также
 

@@ -5,9 +5,8 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/28/2016
+ms.date: 05/07/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 368eeec3c47b53d00e9130f41d36f05976a66b8f
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 8f069405d75b196c26c9c844e0d0a4bd57299199
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57394245"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "71239316"
 ---
 # <a name="how-your-ios-users-get-their-apps"></a>Получение приложений пользователями iOS
 
@@ -36,7 +35,7 @@ ms.locfileid: "57394245"
 
 **Управляемые приложения** — приложения, которыми можно управлять с помощью политик и которые упакованы средствами Intune или созданы с помощью пакета SDK для приложений Intune. Этими приложениями можно управлять с помощью Intune, и к ним могут применяться политики защиты приложений.
 
-**Неуправляемые приложения** — приложения, которые не могут управляться политиками и не были упакованы средствами Intune или которые не включают пакет SDK для приложений Intune. Политики приложений невозможно применить к этим приложениям.
+**Неуправляемые приложения** — приложения, которые пользователи могут скачивать из магазина приложений iOS и которые не интегрированы с пакетом SDK для приложений Intune. Intune не имеет контроля над распространением, управлением или выборочной очисткой этих приложений.  
 
 Ограничения Apple запрещают указание бизнес-приложений и управляемых приложений магазина App Store в приложении корпоративного портала. Чтобы обойти эту проблему, плитки всех приложений в приложении корпоративного портала для iOS будут направлять пользователей в различные представления в централизованном расположении (на веб-сайте корпоративного портала).
 
@@ -53,7 +52,7 @@ ms.locfileid: "57394245"
 
 Дополнительные сведения о том, как добавлять приложения, см. в статье [Добавление веб-приложения в Microsoft Intune](apps-add.md).
 
-### <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 [Получение приложений пользователями Android](end-user-apps-android.md)
 
 [Получение приложений пользователями Windows](end-user-apps-windows.md)

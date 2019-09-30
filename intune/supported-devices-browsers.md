@@ -6,9 +6,8 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 01/03/2018
+ms.date: 07/29/2019
 ms.topic: conceptual
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dc0cf701450e594fd4b72a8e0565246994bb8a9e
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 5946f8ffb8179bb5109de45df8f89012ec706023
+ms.sourcegitcommit: 3baa9965095bb874d9b8c7a3cbb4aa925ed52cae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460620"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "71239566"
 ---
 # <a name="supported-operating-systems-and-browsers-in-intune"></a>Поддерживаемые в Intune операционные системы и браузеры
 
@@ -115,12 +114,12 @@ You can manage [Exchange ActiveSync devices](device-enrollment.md#mobile-device-
 
 ### <a name="intune-classic-portal"></a>Классический портал Intune
 
-Классические функции Intune, такие как программный клиент Intune для ПК и интеграция с партнерами Mobile Threat Defense, доступны только на классическом портале Intune (https://manage.microsoft.com)). Для работы с классическим порталом Intune требуется браузер, поддерживающий Silverlight.
+Классический портал Intune используется только для управления устройствами, зарегистрированными с помощью клиентского программного обеспечения Intune для компьютеров (https://manage.microsoft.com). Для работы с классическим порталом Intune требуется браузер, поддерживающий Silverlight.
 
 Для работы с консолью Intune можно использовать следующие браузеры с поддержкой Silverlight:
 - Internet Explorer 10 или более поздней версии
 - Google Chrome (до версии 42)
-- Mozilla Firefox с поддержкой Silverlight [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=836872)
+- Mozilla Firefox с поддержкой Silverlight (версии, предшествующие версии 56).
 
 > [!Note]
 > Microsoft Edge и браузеры мобильных устройств не поддерживаются для классического портала Intune, так как они не поддерживают [Microsoft Silverlight](https://msdn.microsoft.com/library/cc838158(v=vs.95).aspx).

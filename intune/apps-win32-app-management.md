@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d87b617f49a3df71b767fe91f1f03f88f36ee8a3
-ms.sourcegitcommit: a25cd79a33feb536d9b2fc11aa7d3e3972f1ca5a
+ms.openlocfilehash: 22cf93aa7418e5e8be2338e70f762a451bb3bdcf
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70842202"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71167144"
 ---
 # <a name="intune-standalone---win32-app-management"></a>Изолированная среда Intune — управление приложениями Win32
 
@@ -194,6 +194,8 @@ ms.locfileid: "70842202"
 
     > [!NOTE]
     > В панели **Правила обнаружения** можно добавить несколько правил. Для обнаружения приложения должны быть выполнены **все** правила.
+    >
+    > Если служба Intune обнаружит, что приложение отсутствует на устройстве, она снова предложит это приложение через 24 часа. Это будет происходить только для приложений с требуемым намерением.
 
     - **Вручную настроить правила обнаружения**. Можно выбрать один из следующих типов правил.
         1. **MSI** — проверка на основе проверки версии MSI. Этот тип правила можно добавить только один раз. При выборе этого типа правила имеются два параметра.
@@ -278,7 +280,7 @@ ms.locfileid: "70842202"
 7. На панели **Добавить группу** нажмите кнопку **OK**.
 8. На панели **Назначения** выберите **Сохранить**.
 
-Теперь вы выполнили все действия для добавления приложения Win32 в Intune. Сведения о назначении и мониторинге приложений см. в статьях [Назначение приложений группам с помощью Microsoft Intune](https://docs.microsoft.com/intune/apps-deploy) и [Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune](https://docs.microsoft.com/intune/apps-monitor).
+Теперь вы выполнили все действия для добавления приложения Win32 в Intune. Сведения о назначении и мониторинге приложений см. в статьях [Назначение приложений группам с помощью Microsoft Intune](apps-deploy.md) и [Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune](apps-monitor.md).
 
 ## <a name="app-dependencies"></a>Зависимости приложения
 

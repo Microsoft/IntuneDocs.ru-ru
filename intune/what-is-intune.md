@@ -5,9 +5,8 @@ keywords: что такое Intune
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 02/26/2019
+ms.date: 06/20/2019
 ms.topic: overview
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 511e672193ec609f817c10572c99ac73831c54ae
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 2cde4e37889b981decfd18138feeb4edac46c4c8
+ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57460586"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "71238278"
 ---
 # <a name="what-is-microsoft-intune"></a>Что такое Microsoft Intune?
 
@@ -85,8 +84,8 @@ Intune интегрируется с Azure AD, чтобы поддерживат
 При использовании Intune с другими службами в EMS для мобильных приложений организации можно обеспечить значительно более высокий уровень безопасности, чем тот, который позволяет реализовать мобильная операционная система и конфигурация мобильных приложений. Управление приложением через EMS открывает доступ к широким возможностям защиты мобильных приложений и данных:
 
 * [Единый вход](https://docs.microsoft.com/azure/active-directory/active-directory-appssoaccess-whatis)  
-*   [Многофакторная проверка подлинности](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication)
-* [Условный доступ для приложения — разрешите доступ, если мобильное приложение содержит корпоративные данные](app-based-conditional-access-intune.md)
+* [Многофакторная проверка подлинности](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication)
+* [Условный доступ для приложения — разрешение доступа, если мобильное приложение содержит корпоративные данные](app-based-conditional-access-intune.md)
 * [Изоляция корпоративных данных от личных данных внутри одного приложения](app-protection-policy.md)
 * [Политика защиты приложения (ПИН-код, шифрование, элемент "сохранить как", буфер обмена и т. д.)](app-protection-policies.md)
 * [Очистка корпоративных данных из мобильного приложения](apps-selective-wipe.md)

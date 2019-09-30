@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/10/2019
+ms.date: 09/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b579849d9afdb50470b7a772e003cc616e1f94a0
-ms.sourcegitcommit: 7315fe72b7e55c5dcffc6d87f185f3c2cded9028
+ms.openlocfilehash: 2a534aef3cdb989376dc1c148abedfb4f4e4f78b
+ms.sourcegitcommit: c19584b36448bbd4c8638d7cab552fe9b3eb3408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67530049"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71162883"
 ---
 # <a name="add-email-settings-to-devices-using-intune"></a>Добавлении параметров электронной почты на устройства с помощью Intune
 
@@ -40,23 +40,29 @@ Microsoft Intune содержит различные параметры элек
 
 1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
-3. Укажите **имя** и **описание** для профиля электронной почты.
-4. Выберите **платформу** из раскрывающегося списка. Доступны следующие параметры:
+3. Укажите следующие свойства.
 
-    - **Android** (только Samsung Android Knox Standard)
-    - **Android для бизнеса**
-    - **iOS**
-    - **Windows Phone 8.1**
-    - **Windows 10 и более поздних версий**.
+    - **Имя**. Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя политики — **Параметры электронной почты для всех устройств Windows**.
+    - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
+    - **Платформа**. Выберите платформу устройств. Доступны следующие параметры:
 
-5. В раскрывающемся списке **Профиль** выберите **Электронная почта**.
-6. Доступные для настройки параметры зависят от платформы. Чтобы узнать конкретные параметры, выберите платформу:
+        - **Android** (только Samsung Android Knox Standard)
+        - **Android для бизнеса**
+        - **iOS/iPadOS**
+        - **Windows Phone 8.1**
+        - **Windows 10 и более поздних версий**.
+
+    - **Тип профиля**. Выберите **Адрес электронной почты**.
+
+4. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Выберите платформу для настройки дополнительных параметров:
 
     - [Параметры Android Samsung Knox Standard](email-settings-android.md)
     - [Параметры Android Enterprise](email-settings-android-enterprise.md)
-    - [Параметры iOS](email-settings-ios.md)
+    - [Параметры iOS/iPadOS](email-settings-ios.md)
     - [Параметры Windows Phone 8.1](email-settings-windows-phone-8-1.md)
     - [Параметры Windows 10](email-settings-windows-10.md)
+
+5. По завершении нажмите **ОК** > **Создать**, чтобы сохранить изменения.
 
 После настройки параметров и создания профиль отображается в списке профилей. Теперь нам нужно [назначить этот профиль группам](device-profile-assign.md).
 

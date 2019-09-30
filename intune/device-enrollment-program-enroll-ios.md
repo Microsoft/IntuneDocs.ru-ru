@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cd4a195af0b3be5038a34b44606abcddf02c5a1e
-ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
+ms.openlocfilehash: 8ca3cf1cfed2d19a4b40aa667c0b6a1325eee531
+ms.sourcegitcommit: 89a973bbfa1702b2d275af6814874e4305bdcb77
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71071557"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71140767"
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 
@@ -115,7 +115,7 @@ ms.locfileid: "71071557"
 
 ## <a name="create-an-apple-enrollment-profile"></a>Создание профиля регистрации Apple
 
-Теперь, когда вы установили токен, можно создать профиль регистрации для устройств DEP. Профиль регистрации устройства определяет параметры, применяемые к группе устройств в процессе регистрации.
+Теперь, когда вы установили токен, можно создать профиль регистрации для устройств DEP. Профиль регистрации устройства определяет параметры, применяемые к группе устройств в процессе регистрации. Для токена DEP существует ограничение в 100 профилей регистрации.
 
 > [!NOTE]
 > Устройства будут заблокированы, если для Токена VPP не хватает лицензий на Корпоративный портал или если истек срок действия токена. В Intune отобразится оповещение, когда срок действия токена будет истекать или не будет хватать лицензий.

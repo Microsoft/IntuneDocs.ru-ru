@@ -17,14 +17,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 99ccc8c61aa781bdcb6ac79c76202253597b8ef6
-ms.sourcegitcommit: 74911a263944f2dbd9b754415ccda6c68dae0759
+ms.openlocfilehash: 4012dc4046eccf836c73e15409dae182eaf12231
+ms.sourcegitcommit: c19584b36448bbd4c8638d7cab552fe9b3eb3408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71070989"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71163253"
 ---
-# <a name="enroll-your-android-enterprise-dedicated-devices-or-fully-managed-devices-preview"></a>Регистрация выделенных или полностью управляемых устройств Android для бизнеса (предварительная версия)
+# <a name="enroll-your-android-enterprise-dedicated-devices-or-fully-managed-devices"></a>Регистрация выделенных или полностью управляемых устройств Android для бизнеса
 
 После настройки [выделенных устройств Android для бизнеса](android-kiosk-enroll.md) или [полностью управляемых устройств](android-fully-managed-enroll.md) в Intune вы можете зарегистрировать их. Метод регистрации устройств Android для бизнеса зависит от операционной системы.
 

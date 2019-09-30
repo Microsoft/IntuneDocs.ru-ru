@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c654b8e05cabf132324e8dafe70e5991a67bd516
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: c71edf84fb1ade261eefc1b3de4543e941bf0657
+ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67548331"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71166805"
 ---
 # <a name="develop-a-support-plan"></a>Разработка плана поддержки
 
@@ -84,7 +84,7 @@ ms.locfileid: "67548331"
 
 - Вопросы и ответы
 
-[Документация Intune](https://docs.microsoft.com/intune/) содержит общую информацию о службе Intune, подробные описания функций и некоторые сведения об устранении неполадок. [Форум Intune](https://social.technet.microsoft.com/Forums/home) — это основанный на сообществе ресурс для обсуждения вопросов и тем, не затронутых в документации Intune.
+[Документация Intune](index.yml) содержит общую информацию о службе Intune, подробные описания функций и некоторые сведения об устранении неполадок. [Форум Intune](https://social.technet.microsoft.com/Forums/home) — это основанный на сообществе ресурс для обсуждения вопросов и тем, не затронутых в документации Intune.
 
 ## <a name="what-opportunities-are-there-to-involve-the-support-team-earlier"></a>Какие имеются возможности для раннего вовлечения группы поддержки в работу?
 
