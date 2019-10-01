@@ -6,9 +6,8 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 04/11/2019
+ms.date: 08/23/2019
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -18,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 30f315f58a905e690a43ab3c44aee783bd0ef8c9
-ms.sourcegitcommit: a2cd14c30949cef17bfc6576513e7660a8015669
-ms.translationtype: HT
+ms.openlocfilehash: 0aaa305ac216e0f80f82116e626b21f3ae7a8510
+ms.sourcegitcommit: c8cb314256c4896e838918f015ffaefb8f00ace5
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "59571813"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "71303313"
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
 
@@ -182,13 +181,13 @@ _Выпущено в феврале 2019 г._
 
 ### <a name="power-bi-compliance-app"></a>Приложение соответствия требованиям Power BI 
 
-Вы можете получить доступ к своему хранилищу данных Intune в Power BI Online с помощью приложения [соответствия требованиям Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance). С помощью этого приложения Power BI теперь можно обращаться к предварительно созданным отчетам и предоставлять их для общего доступа без какой-либо настройки и без выхода из веб-браузера. 
+Вы можете получить доступ к своему хранилищу данных Intune в Power BI Online с помощью приложения [соответствия требованиям Intune (хранилище данных)](https://aka.ms/intune/datawarehouseapi/getpowerbiapp). С помощью этого приложения Power BI теперь можно обращаться к предварительно созданным отчетам и предоставлять их для общего доступа без какой-либо настройки и без выхода из веб-браузера. 
 
 > [!NOTE]
 > Существует два дополнительных фильтра, которые можно применить к приложению соответствия Intune.
 
 #### <a name="add-additional-filters-to-the-intune-compliance-app"></a>Добавить дополнительные фильтры для приложения соответствия Intune
-1. Откройте приложение [Соответствие Intune (хранилище данных)](https://app.powerbi.com/groups/me/getapps/services/Intune_dw_compliance) в веб-браузере.
+1. Откройте приложение [Соответствие Intune (хранилище данных)](https://aka.ms/intune/datawarehouseapi/getpowerbiapp) в веб-браузере.
 2. Нажмите кнопку **Несоответствующие устройства** и выберите **Несоответствующие** в фильтре **complianceStatus**. 
 3. Нажмите кнопку **Неизвестные устройства** и выберите **Пока недоступен** в фильтре **complianceStatus**. 
 
@@ -239,8 +238,8 @@ _Выпущен в январе 2018 г._
 
 ### <a name="new-entities-in-the-in-data-warehouse-data-model----2077804---"></a>Новые сущности в модели данных для хранилища данных <!-- 2077804 -->
 
- - Была добавлена сущность [**MobileAppDeviceuserInstallStatus**](reports-ref-application.md). Сущность **MobileAppDeviceUserInstallStatus** представляет состояние установки мобильного приложения для заданного устройства или пользователя.
- - Была добавлена сущность [**MobileAppInstallState**](reports-ref-application.md#mobileappinstallstate). Сущность **MobileAppInstallState** представляет состояние установки для мобильного приложения после его назначения группе, в состав которой входят устройства, пользователи или обе категории. 
+- Была добавлена сущность [**MobileAppDeviceuserInstallStatus**](reports-ref-application.md). Сущность **MobileAppDeviceUserInstallStatus** представляет состояние установки мобильного приложения для заданного устройства или пользователя.
+- Добавлена сущность [**MobileAppInstallStates**](reports-ref-application.md#mobileappinstallstates). Сущность **MobileAppInstallState** представляет состояние установки для мобильного приложения после его назначения группе, в состав которой входят устройства, пользователи или обе категории. 
 
 ## <a name="1710"></a>1710
 _Выпущено: ноябрь 2017 г._
@@ -260,9 +259,9 @@ _Выпущено: октябрь 2017 г._
 
 ### <a name="new-entities-in-the-in-data-warehouse-data-model----1479526--------"></a>Новые сущности в модели данных для хранилища данных <!-- 1479526 --><!-- -->
 
- - Добавлена сущность [**UserDeviceAssociation**](reports-ref-user-device.md). Сущность **UserDeviceAssociation** содержит сопоставления пользователей и устройств в вашей организации. Теперь вы можете создавать отчеты и средства визуализации данных, используя сведения о сопоставлении пользователей и устройств, что позволяет сопоставлять коллекции сущностей для пользователей и устройств.  
- - Добавлена сущность [**IntuneManagementExtension**](reports-ref-intunemanagementextension.md). **IntuneManagementExtension** содержит сущности для мобильных устройств, отслеживающие такую информацию, как версия и состояние установки.
+- Добавлена сущность [**UserDeviceAssociation**](reports-ref-user-device.md). Сущность **UserDeviceAssociation** содержит сопоставления пользователей и устройств в вашей организации. Теперь вы можете создавать отчеты и средства визуализации данных, используя сведения о сопоставлении пользователей и устройств, что позволяет сопоставлять коллекции сущностей для пользователей и устройств.  
+- Добавлена сущность [**IntuneManagementExtension**](reports-ref-intunemanagementextension.md). **IntuneManagementExtension** содержит сущности для мобильных устройств, отслеживающие такую информацию, как версия и состояние установки.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
- - Следите за [еженедельными новостями об улучшениях в Intune](whats-new.md). Кроме того, здесь можно узнать о предстоящих изменениях и получить важные уведомления относительно службы, а также сведения о прошлых выпусках.
- - Прочтите [блог Microsoft Intune](https://go.microsoft.com/fwlink/?LinkID=273882).
+- Следите за [еженедельными новостями об улучшениях в Intune](whats-new.md). Кроме того, здесь можно узнать о предстоящих изменениях и получить важные уведомления относительно службы, а также сведения о прошлых выпусках.
+- Прочтите [блог Microsoft Intune](https://go.microsoft.com/fwlink/?LinkID=273882).

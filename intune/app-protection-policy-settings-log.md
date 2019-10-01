@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7f9ee4d978bcb44f3b13ddcf9aafa4a3210f0f7e
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: ea64a8b9c4e8fb044e0fd66be32dcc71e4a5aefc
+ms.sourcegitcommit: 6a946a055a2014e00a4ca9d71986727a4ebbc777
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67885071"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71239427"
 ---
 # <a name="review-client-app-protection-logs"></a>Просмотр журналов защиты клиентских приложений
 
@@ -31,7 +31,7 @@ ms.locfileid: "67885071"
 Процесс включения и сбора журналов зависит от платформы.
 - На **устройствах с Android** используйте приложение *Корпоративный портал*. См. раздел [Отправка журналов по электронной почте в службу поддержки вашей компании](/intune-user-help/send-logs-to-your-it-admin-by-email-android).
 - На **устройствах с iOS** используйте для сбора журналов Managed Browser или *Microsoft Edge*. Дополнительные сведения см. в блоге службы поддержки Intune [Новая консоль диагностики Intune для отправки журналов в Intune Managed Browser](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-New-Intune-Diagnostic-Console-for-Log-Submission-in/ba-p/280021). 
-- На **устройствах с ОС Windows 10** используйте *MDMDiag* и журналы событий. См. раздел [Диагностика сбоев MDM в Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10) в статьях по управлению клиентом Windows и блог [Устранение неполадок со сбоями политик Intune в Windows 10](http://configmgrdogsarchive.com/2018/08/09/troubleshooting-windows-10-intune-policy-failures)
+- На **устройствах с ОС Windows 10** используйте *MDMDiag* и журналы событий. Ознакомьтесь со статьей [Diagnose MDM failures in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10) (Диагностика сбоев MDM в Windows 10) в материалах по управлению клиентом Windows и с блогом [Troubleshooting Windows 10 Intune Policy Failures](https://blogs.technet.microsoft.com/configmgrdogs/2018/08/09/troubleshooting-windows-10-intune-policy-failures/) (Устранение неполадок со сбоями политик Intune в Windows 10).
 
 
 В следующей таблице перечислены имена и описание параметров, записанных в журнале.

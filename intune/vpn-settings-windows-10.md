@@ -7,7 +7,6 @@ ms.author: mandia
 manager: dougeby
 ms.date: 12/12/2018
 ms.topic: reference
-ms.prod: ''
 ms.service: microsoft-intune
 ms.localizationpriority: medium
 ms.technology: ''
@@ -16,12 +15,12 @@ search.appverid: MET150
 ms.reviewer: tycast
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8b71bc2ea893199b83de5fd1480dae5630c3edfd
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: a35ebcf6ecbaaa746a6da98c5bd5c13ca9a7b130
+ms.sourcegitcommit: bd09decb754a832574d7f7375bad0186a22a15ab
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57565673"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "71302737"
 ---
 # <a name="windows-10-and-windows-holographic-device-settings-to-add-vpn-connections-using-intune"></a>Параметры устройств Windows 10 и Windows Holographic, позволяющие добавить VPN-подключения с помощью Intune
 
@@ -68,29 +67,29 @@ ms.locfileid: "57565673"
   - **PPTP**
 
   Если вы выберете тип подключения VPN, может потребоваться ввести значения для следующих параметров:  
-    - **Always On**. Выберите **Включить**, чтобы автоматически подключаться к VPN-подключению в любом из следующих случаев: 
-      - при входе пользователей на устройства;
-      - при изменении сети устройства;
-      - при включении экрана устройства после отключения. 
+  - **Always On**. Выберите **Включить**, чтобы автоматически подключаться к VPN-подключению в любом из следующих случаев: 
+    - при входе пользователей на устройства;
+    - при изменении сети устройства;
+    - при включении экрана устройства после отключения. 
 
-    - **Метод проверки подлинности**. Выберите способ аутентификации пользователей на VPN-сервере. Использование **сертификатов** обеспечивает дополнительные возможности, такие как работа без вмешательства пользователя, VPN по требованию и VPN на уровне приложения.
-    - **Запоминать учетные данные при каждом входе**. Этот параметр включает кэширование учетных данных для аутентификации.
-    - **Настраиваемый XML**. Введите пользовательские команды XML для дополнительной настройки VPN-подключения.
-    - **EAP XML**. Введите команды EAP XML для дополнительной настройки VPN-подключения.
+  - **Метод проверки подлинности**. Выберите способ аутентификации пользователей на VPN-сервере. Использование **сертификатов** обеспечивает дополнительные возможности, такие как работа без вмешательства пользователя, VPN по требованию и VPN на уровне приложения.
+  - **Запоминать учетные данные при каждом входе**. Этот параметр включает кэширование учетных данных для аутентификации.
+  - **Настраиваемый XML**. Введите пользовательские команды XML для дополнительной настройки VPN-подключения.
+  - **EAP XML**. Введите команды EAP XML для дополнительной настройки VPN-подключения.
 
-#### <a name="pulse-secure-example"></a>Пример для Pulse Secure
+### <a name="pulse-secure-example"></a>Пример для Pulse Secure
 
 ```
 <pulse-schema><isSingleSignOnCredential>true</isSingleSignOnCredential></pulse-schema>
 ```
 
-#### <a name="f5-edge-client-example"></a>Пример для F5 Edge Client
+### <a name="f5-edge-client-example"></a>Пример для F5 Edge Client
 
 ```
 <f5-vpn-conf><single-sign-on-credential /></f5-vpn-conf>
 ```
 
-#### <a name="sonicwall-mobile-connect-example"></a>Пример для SonicWall Mobile Connect
+### <a name="sonicwall-mobile-connect-example"></a>Пример для SonicWall Mobile Connect
 **Группа или домен входа**. Это свойство нельзя задать в профиле VPN. Вместо этого Mobile Connect анализирует это значение при вводе имени пользователя или домена в формате `username@domain` или `DOMAIN\username`.
 
 Пример.
@@ -99,13 +98,13 @@ ms.locfileid: "57565673"
 <MobileConnect><Compression>false</Compression><debugLogging>True</debugLogging><packetCapture>False</packetCapture></MobileConnect>
 ```
 
-#### <a name="checkpoint-mobile-vpn-example"></a>Пример для CheckPoint Mobile VPN
+### <a name="checkpoint-mobile-vpn-example"></a>Пример для CheckPoint Mobile VPN
 
 ```
 <CheckPointVPN port="443" name="CheckPointSelfhost" sso="true" debug="3" />
 ```
 
-#### <a name="writing-custom-xml"></a>Создание пользовательских команд XML
+### <a name="writing-custom-xml"></a>Создание пользовательских команд XML
 Дополнительные сведения о написании пользовательских команд XML см. в документации по VPN каждого производителя.
 
 Дополнительные сведения о создании настраиваемого EAP XML см. в статье [Настройка EAP](https://docs.microsoft.com/windows/client-management/mdm/eap-configuration).
@@ -143,7 +142,7 @@ ms.locfileid: "57565673"
 
   ![Нажатие многоточия и перетаскивание DNS-суффикса](./media/vpn-settings-windows10-move-dns-suffix.png)
 
-- **Имя правила таблиц (NRPT) политика разрешения**: политика разрешения имен (NRPT) таблицы правила определяют, как DNS разрешает имена при подключении к виртуальной частной сети. Вы можете выбрать, какие DNS-серверы использует VPN-подключение после установки соединения.
+- **Правила таблицы политики разрешения имен (NRPT)** . правила таблицы политики разрешения имен (NRPT) определяют, как DNS разрешает имена при подключении к VPN. Вы можете выбрать, какие DNS-серверы использует VPN-подключение после установки соединения.
 
   Правила, которые можно добавить в таблице, включают домена, DNS-серверы, прокси-серверы и другие сведения, позволяющие разрешить введенный домен. VPN-подключение использует эти правила, когда пользователи подключаются к указанным вами доменам.
 
