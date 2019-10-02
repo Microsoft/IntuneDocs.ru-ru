@@ -1,0 +1,190 @@
+- name: Настройка параметров устройств
+  href: index.yml
+- name: Обзор
+  expanded: true
+  items:
+    - name: Обзор конфигурации устройств
+      href: device-profiles.md
+- name: Краткие руководства
+  items:
+    - name: Создание профиля электронной почты устройства
+      href: quickstart-email-profile.md
+- name: Практические руководства
+  items:
+    - name: Создание профиля
+      href: device-profile-create.md
+    - name: Административные шаблоны в Windows
+      href: administrative-templates-windows.md
+    - name: Возможности устройств в iOS и macOS
+      href: device-features-configure.md
+    - name: Ограничение параметров и возможностей устройств
+      href: device-restrictions-configure.md
+      displayName: Device restrictions
+    - name: Updates
+      href: delivery-optimization-windows.md
+      displayName: delivery optimization; updates
+    - name: Обновление выпусков и S-режим
+      href: edition-upgrade-configure-windows-10.md
+    - name: Электронная почта
+      href: email-settings-configure.md
+    - name: Киоски и выделенные устройства
+      href: kiosk-settings.md
+    - name: Общие устройства для множества пользователей
+      href: shared-user-device-settings.md
+    - name: VPN
+      href: vpn-settings-configure.md
+      items:
+        - name: VPN на уровне приложения в Android
+          href: android-pulse-secure-per-app-vpn.md
+        - name: VPN на уровне приложения в iOS
+          href: vpn-setting-configure-per-app.md
+    - name: Сеть Wi-Fi
+      href: wi-fi-settings-configure.md
+      displayName: wifi
+      items:
+        - name: Wi-Fi с общим ключом
+          href: wi-fi-profile-shared-key.md
+    - name: Расширения в macOS
+      href: kernel-extensions-overview-macos.md
+    - name: Приложение "Тестирование" для образования
+      href: education-settings-configure.md
+    - name: Расширения Mobility на устройствах Zebra
+      href: android-zebra-mx-overview.md
+      displayName: mx
+    - name: OEMConfig на Android для бизнеса
+      href: android-oem-configuration-overview.md
+    - name: Профили сотовой связи eSIM
+      href: esim-device-configuration.md
+    - name: Мониторинг затрат на телекоммуникации
+      href: telecom-expenses-monitor.md
+    - name: Настраиваемые параметры устройств
+      href: custom-settings-configure.md
+    - name: Назначение профилей
+      href: device-profile-assign.md
+    - name: Мониторинг профилей
+      href: device-profile-monitor.md
+    - name: Устранение неполадок
+      items:
+        - name: Устранение неполадок с политиками и профилями
+          href: troubleshoot-policies-in-microsoft-intune.md
+        - name: Проблемы профиля электронной почты и способы их устранения
+          href: troubleshoot-email-profiles-in-microsoft-intune.md
+        - name: Журналы StageNow и распространенные проблемы
+          href: android-zebra-mx-logs-troubleshoot.md
+        - name: Частые вопросы и ответы
+          href: device-profile-troubleshoot.md
+- name: Справочник
+  items:
+    - name: Параметры профиля конфигурации
+      items:
+        - name: Android
+          items:
+            - name: Ограничения устройств
+              href: device-restrictions-android.md
+            - name: Электронная почта
+              href: email-settings-android.md
+            - name: VPN
+              href: vpn-settings-android.md
+            - name: Wi-Fi
+              href: wi-fi-settings-android.md
+            - name: Особые настройки
+              href: custom-settings-android.md
+              items:
+                - name: Разрешение и блокировка приложений для Samsung KNOX Standard
+                  href: samsung-knox-apps-allow-block.md
+        - name: Android для бизнеса
+          items:
+            - name: Ограничения устройств
+              href: device-restrictions-android-for-work.md
+            - name: Электронная почта
+              href: email-settings-android-enterprise.md
+            - name: VPN
+              href: vpn-settings-android-enterprise.md
+            - name: Wi-Fi
+              href: wi-fi-settings-android-enterprise.md
+            - name: Особые настройки
+              href: custom-settings-android-for-work.md
+        - name: iOS
+          items:
+            - name: Возможности устройств
+              href: ios-device-features-settings.md
+            - name: Ограничения устройств
+              href: device-restrictions-ios.md
+            - name: Электронная почта
+              href: email-settings-ios.md
+            - name: VPN
+              href: vpn-settings-ios.md
+            - name: Wi-Fi
+              href: wi-fi-settings-ios.md
+            - name: Особые настройки
+              href: custom-settings-ios.md
+            - name: Идентификаторы пакетов для встроенных приложений
+              href: bundle-ids-built-in-ios-apps.md
+        - name: macOS
+          items:
+            - name: Возможности устройств
+              href: macos-device-features-settings.md
+            - name: Ограничения устройств
+              href: device-restrictions-macos.md
+            - name: VPN
+              href: vpn-settings-macos.md
+            - name: Wi-Fi
+              href: wi-fi-settings-macos.md
+            - name: Расширения
+              href: kernel-extensions-settings-macos.md
+            - name: Особые настройки
+              href: custom-settings-macos.md
+        - name: Windows 10 и более поздней версии
+          items:
+            - name: Оптимизация доставки
+              href: delivery-optimization-settings.md
+            - name: Ограничения устройств
+              href: device-restrictions-windows-10.md
+            - name: "Ограничения устройств (Windows\_10 для совместной работы)"
+              href: device-restrictions-windows-10-teams.md
+            - name: Обновление выпуска и переключение режима
+              href: edition-upgrade-windows-settings.md
+            - name: Электронная почта
+              href: email-settings-windows-10.md
+            - name: Киоск
+              href: kiosk-settings-windows.md
+            - name: VPN
+              href: vpn-settings-windows-10.md
+            - name: Wi-Fi
+              href: wi-fi-settings-windows.md
+            - name: Оценка безопасности
+              href: education-settings-windows.md
+            - name: Общие устройства для множества пользователей
+              href: shared-user-device-settings-windows.md
+            - name: Особые настройки
+              href: custom-settings-windows-10.md
+        - name: Windows Holographic for Business
+          items:
+            - name: Ограничения устройств
+              href: device-restrictions-windows-holographic.md
+            - name: Общие устройства для множества пользователей
+              href: shared-user-device-settings-windows-holographic.md
+            - name: Обновление выпуска и переключение режима
+              href: holographic-upgrade.md
+            - name: Киоск
+              href: kiosk-settings-holographic.md
+            - name: Особые настройки
+              href: custom-settings-windows-holographic.md
+        - name: Windows 8.1
+          items:
+            - name: Ограничения устройств
+              href: device-restrictions-windows-8-1.md
+            - name: VPN
+              href: vpn-settings-windows-8-1.md
+            - name: Импорт Wi-Fi
+              href: wi-fi-settings-import-windows-8-1.md
+        - name: "Windows\_Phone\_8.1"
+          items:
+            - name: Ограничения устройств
+              href: device-restrictions-windows-phone-8-1.md
+            - name: Электронная почта
+              href: email-settings-windows-phone-8-1.md
+            - name: VPN
+              href: vpn-settings-windows-phone-8-1.md
+            - name: Особые настройки
+              href: custom-settings-windows-phone-8-1.md

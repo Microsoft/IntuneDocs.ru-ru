@@ -8,186 +8,216 @@ metadata:
   author: dougeby
   ms.author: dougeby
   manager: mtillman
-  ms.date: 08/30/2019
-  ms.openlocfilehash: e094a13f20cb4d66e96c3c559d04a0c6a51e7a3a
-  ms.sourcegitcommit: 1494ff4b33c13a87f20e0f3315da79a3567db96e
+  ms.date: 09/16/2019
+  ms.openlocfilehash: b7e4a5c9dee8d8a47a90ceafa60290d726637ba1
+  ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/20/2019
-  ms.locfileid: "71166313"
+  ms.lasthandoff: 10/02/2019
+  ms.locfileid: "71721221"
 highlightedContent:
   items:
   - title: Что такое Intune?
     itemType: overview
-    url: what-is-intune.md
+    url: ./fundamentals/what-is-intune.md
   - title: Новые возможности в Intune
     itemType: overview
-    url: whats-new.md
+    url: ./fundamentals/whats-new.md
   - title: Возможности, находящиеся в разработке
     itemType: overview
-    url: in-development.md
+    url: ./fundamentals/in-development.md
   - title: Бесплатная пробная версия Intune
     itemType: get-started
-    url: free-trial-sign-up.md
-  - title: Применение региональных параметров с тегами области
+    url: ./fundamentals/free-trial-sign-up.md
+  - title: Настройка автоматической регистрации устройств с Windows 10
     itemType: get-started
-    url: scope-tags.md
+    url: ./enrollment/quickstart-setup-auto-enrollment.md
   - title: Защита устройств Windows с помощью рекомендуемых параметров Майкрософт
     itemType: get-started
-    url: security-baselines.md
+    url: ./protect/security-baselines.md
 conceptualContent:
   items:
   - title: Планирование внедрения Intune
     links:
-    - url: planning-guide.md
+    - url: ./fundamentals/planning-guide.md
       itemType: concept
       text: Руководство по планированию Intune
-    - url: migration-guide.md
+    - url: ./fundamentals/migration-guide.md
       itemType: concept
       text: Руководство по переходу к Intune
-    - url: migration-guide-communication-plan.md
+    - url: ./fundamentals/migration-guide-communication-plan.md
       itemType: concept
       text: План распространения сведений среди пользователей
+    footerLink:
+      text: Дополнительные сведения
+      url: ./fundamentals/index.yml
   - title: Настройка Intune
     links:
-    - url: setup-steps.md
+    - url: ./fundamentals/setup-steps.md
       itemType: how-to-guide
       text: Действия по настройке Intune
-    - url: supported-devices-browsers.md
+    - url: ./fundamentals/supported-devices-browsers.md
       itemType: reference
       text: Поддерживаемые операционные системы и браузеры
-    - url: role-based-access-control.md
+    - url: ./fundamentals/role-based-access-control.md
       itemType: reference
       text: контроль доступа на основе ролей;
-    - url: licenses.md
+    - url: ./fundamentals/licenses.md
       itemType: concept
       text: Лицензирование Intune
+    footerLink:
+      text: Дополнительные сведения
+      url: ./fundamentals/index.yml
   - title: регистрации устройств;
     links:
-    - url: device-enrollment.md
+    - url: ./enrollment/device-enrollment.md
       itemType: concept
       text: Общие сведения о регистрации устройств
-    - url: windows-enroll.md
+    - url: ./enrollment/device-management-capabilities.md
+      itemType: concept
+      text: Возможности управления зарегистрированными устройствами
+    - url: ./enrollment/windows-enroll.md
       itemType: how-to-guide
       text: Настройка регистрации для Windows
-    - url: ios-enroll.md
+    - url: ./enrollment/ios-enroll.md
       itemType: how-to-guide
       text: Настройка регистрации для iOS
-    - url: android-enroll.md
+    - url: ./enrollment/android-enroll.md
       itemType: how-to-guide
       text: Настройка регистрации для Android
+    footerLink:
+      text: Дополнительные сведения
+      url: ./enrollment/index.yml
   - title: Удаленное управление устройствами
     links:
-    - url: device-management.md
-      itemType: concept
-      text: Общие сведения об управлении устройствами
-    - url: device-management-capabilities.md
+    - url: ./remote-actions/device-management.md
       itemType: concept
       text: Возможности управления устройствами
-    - url: custom-notifications.md
+    - url: ./remote-actions/custom-notifications.md
       itemType: how-to-guide
       text: Отправка настраиваемых уведомлений
-    - url: devices-wipe.md
+    - url: ./remote-actions/devices-wipe.md
       itemType: how-to-guide
       text: Удаление устройств
+    footerLink:
+      text: Дополнительные сведения
+      url: ./remote-actions/index.yml
   - title: Создание правил соответствия для пользователей и устройств
     links:
-    - url: device-compliance-get-started.md
+    - url: ./protect/device-compliance-get-started.md
       itemType: concept
       text: Общие сведения о соответствии
-    - url: use-network-locations.md
+    - url: ./protect/use-network-locations.md
       itemType: how-to-guide
       text: Сетевое ограждение и соответствие требованиям для Android
-    - url: actions-for-noncompliance.md
+    - url: ./protect/actions-for-noncompliance.md
       itemType: how-to-guide
       text: Действия для несоответствующих устройств
+    footerLink:
+      text: Дополнительные сведения
+      url: ./protect/index.yml
   - title: Управление функциями и параметрами устройств
     links:
-    - url: device-profiles.md
+    - url: ./configuration/device-profiles.md
       itemType: concept
       text: Обзор конфигурации устройств
-    - url: device-restrictions-configure.md
+    - url: ./configuration/device-restrictions-configure.md
       itemType: how-to-guide
       text: Ограничение параметров и возможностей
-    - url: vpn-settings-configure.md
+    - url: ./configuration/vpn-settings-configure.md
       itemType: how-to-guide
       text: Добавление VPN на устройства
-    - url: administrative-templates-windows.md
+    - url: ./configuration/administrative-templates-windows.md
       itemType: how-to-guide
       text: Настройка параметров ADMX групповой политики
+    footerLink:
+      text: Дополнительные сведения
+      url: ./configuration/index.yml
   - title: Защита устройств и данных
     links:
-    - url: device-protect.md
+    - url: ./protect/device-protect.md
       itemType: concept
       text: Общие сведения о защите устройства
-    - url: conditional-access.md
+    - url: ./protect/conditional-access.md
       itemType: concept
       text: Условный доступ с Intune
-    - url: mobile-threat-defense.md
+    - url: ./protect/mobile-threat-defense.md
       itemType: concept
       text: Интеграция службы защиты мобильных устройств от угроз с Intune
+    footerLink:
+      text: Дополнительные сведения
+      url: ./protect/index.yml
   - title: Управление приложениями
     links:
-    - url: app-management.md
+    - url: ./apps/app-management.md
       itemType: concept
       text: Сведения об управлении приложениями
-    - url: apps-add.md
+    - url: ./apps/apps-add.md
       itemType: how-to-guide
       text: Добавление приложений в Intune
-    - url: apps-deploy.md
+    - url: ./apps/apps-deploy.md
       itemType: how-to-guide
       text: Назначение приложений группам
-    - url: app-configuration-policies-overview.md
+    - url: ./apps/app-configuration-policies-overview.md
       itemType: overview
       text: Политики конфигурации приложений
+    footerLink:
+      text: Дополнительные сведения
+      url: ./apps/index.yml
   - title: Политики защиты приложений
     links:
-    - url: app-protection-policy.md
+    - url: ./apps/app-protection-policy.md
       itemType: concept
       text: Общие сведения о политиках защиты приложений
-    - url: app-protection-policies.md
+    - url: ./apps/app-protection-policies.md
       itemType: overview
       text: Создание политик защиты приложений
-    - url: app-protection-policies-validate.md
+    - url: ./apps/app-protection-policies-validate.md
       itemType: how-to-guide
       text: Проверка политик защиты приложений
-    - url: app-protection-policies-monitor.md
+    - url: ./apps/app-protection-policies-monitor.md
       itemType: how-to-guide
       text: Отслеживание политик защиты приложений
+    footerLink:
+      text: Дополнительные сведения
+      url: ./apps/index.yml
   - title: Справка и поддержка
     links:
-    - url: get-support.md
+    - url: ./fundamentals/get-support.md
       itemType: concept
       text: Получение поддержки для Microsoft Intune
-    - url: help-desk-operators.md
+    - url: ./fundamentals/help-desk-operators.md
       itemType: concept
       text: Помощь пользователям в устранении проблем
-    - url: monitor-audit-logs.md
+    - url: ./fundamentals/monitor-audit-logs.md
       itemType: concept
       text: Использование журналов аудита для мониторинга событий
-    - url: troubleshoot-app-install.md
+    - url: ./apps/troubleshoot-app-install.md
       itemType: concept
       text: Устранение проблем с установкой приложений
-    - url: troubleshoot-policies-in-microsoft-intune.md
+    - url: ./protect/troubleshoot-policies-in-microsoft-intune.md
       itemType: concept
       text: Устранение неполадок с политиками и профилями в Intune
   - title: Разработчик
     links:
-    - url: intune-graph-apis.md
+    - url: ./developer/intune-graph-apis.md
       itemType: concept
       text: Доступ к API Intune в Microsoft Graph
     - url: https://github.com/Microsoft/Intune-PowerShell-SDK/
       itemType: concept
       text: Автоматизация действий с помощью командлетов PowerShell
-    - url: reports-nav-create-intune-reports.md
+    - url: ./developer/reports-nav-create-intune-reports.md
       itemType: concept
       text: Использование хранилища данных Microsoft Intune
-    - url: app-sdk.md
+    - url: ./developer/app-sdk.md
       itemType: overview
       text: Общие сведения о пакете SDK для приложений Microsoft Intune
-    - url: reports-nav-create-intune-reports.md
+    - url: ./developer/reports-nav-create-intune-reports.md
       itemType: concept
       text: Использование хранилища данных Microsoft Intune
+    footerLink:
+      text: Дополнительные сведения
+      url: ./developer/index.yml
 additionalContent:
   sections:
   - title: Дополнительные ресурсы для управления устройствами
