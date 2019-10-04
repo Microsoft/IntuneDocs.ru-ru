@@ -1,0 +1,269 @@
+- name: "Защита данных и устройств в\_Intune"
+  href: index.yml
+- name: Обзор
+  expanded: true
+  items:
+    - name: Общие сведения о защите устройства
+      href: device-protect.md
+      displayName: compliant; noncompliant; mfa
+- name: Краткие руководства
+  items:
+    - name: Создание политики соответствия устройства
+      href: quickstart-set-password-length-android.md
+    - name: Отправка уведомлений на несоответствующие устройства
+      href: quickstart-send-notification.md
+- name: Учебники
+  items:
+    - name: Обеспечение безопасности использования электронной почты на управляемых устройствах
+      href: tutorial-protect-email-on-enrolled-devices.md
+    - name: Обеспечение безопасности использования электронной почты на неуправляемых устройствах
+      href: tutorial-protect-email-on-unmanaged-devices.md
+- name: Основные понятия
+  items:
+    - name: Конфиденциальность и персональные данные
+      href: privacy-personal-data.md
+      items:
+        - name: Сбор данных
+          href: privacy-data-collect.md
+        - name: Хранение и обработка данных
+          href: privacy-data-store-process.md
+        - name: Безопасность и передача данных
+          href: privacy-data-secure-share.md
+          items:
+            - name: 'Данные, которые Apple отправляет в Intune'
+              href: data-apple-sends-to-intune.md
+            - name: 'Данные, которые Google отправляет в Intune'
+              href: data-google-sends-to-intune.md
+            - name: 'Данные, отправляемые Intune в Apple'
+              href: data-intune-sends-to-apple.md
+            - name: 'Данные, отправляемые Intune в Google'
+              href: data-intune-sends-to-google.md
+            - name: 'Сведения, передаваемые с Jamf Pro в Intune'
+              href: data-jamf-sends-to-intune.md
+        - name: Просмотр и изменение персональных данных
+          href: privacy-data-view-correct.md
+        - name: 'Аудит, экспорт, удаление'
+          href: privacy-data-audit-export-delete.md
+        - name: Windows Information Protection
+          href: windows-information-protection-configure.md
+- name: Практические руководства
+  items:
+    - name: Настройка на устройствах правил доступа к ресурсам
+      items:
+        - name: Общие сведения о соответствии
+          href: device-compliance-get-started.md
+        - name: Создание политики
+          href: create-compliance-policy.md
+        - name: Соответствие по расположению
+          href: use-network-locations.md
+        - name: Действия при несоответствии
+          href: actions-for-noncompliance.md
+        - name: Мониторинг устройств на соответствие требованиям
+          href: compliance-policy-monitor.md
+    - name: Шифрование устройств
+      items:
+        - name: Шифрование устройств
+          href: encrypt-devices.md
+        - name: Мониторинг шифрования устройств
+          href: encryption-monitor.md
+    - name: Условный доступ
+      items:
+        - name: Общие сведения об условном доступе
+          href: conditional-access.md
+          displayName: ca
+        - name: Стандартные способы использования условного доступа
+          href: conditional-access-intune-common-ways-use.md
+        - name: Установка локального соединителя Exchange
+          href: exchange-connector-install.md
+        - name: Создание и назначение политики условного доступа
+          href: conditional-access-exchange-create.md
+        - name: Политика условного доступа на основе информации об устройстве
+          href: create-conditional-access-intune.md
+        - name: Переназначение политик условного доступа с классического портала Intune
+          href: conditional-access-intune-reassign.md
+        - name: Условный доступ на основе приложений
+          href: app-based-conditional-access-intune.md
+        - name: Настройка условного доступа на основе приложений
+          href: app-based-conditional-access-intune-create.md
+        - name: ADAL и Intune
+          href: app-modern-authentication-block.md
+        - name: Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
+          href: conditional-access-integrate-jamf.md
+        - name: Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
+          href: conditional-access-assign-jamf.md
+    - name: Защита от угроз
+      items:
+        - name: Mobile Threat Defense
+          href: mobile-threat-defense.md
+          items:
+            - name: Настройка Intune для MTD
+              items:
+                - name: Добавление приложений MTD
+                  href: mtd-apps-ios-app-configuration-policy-add-assign.md
+                - name: Создание политики соответствия устройств MTD
+                  href: mtd-device-compliance-policy-create.md
+                - name: Включение MTD в Intune
+                  href: mtd-connector-enable.md
+            - name: Приложения MTD
+              items:
+                - name: Настройка Better Mobile
+                  href: better-mobile-threat-defense-connector.md
+                  items:
+                    - name: Интеграция Better Mobile и Intune
+                      href: better-mobile-mtd-connector-integration.md
+                      displayName: sso
+                - name: Настройка Check Point
+                  href: checkpoint-sandblast-mobile-mobile-threat-defense-connector.md
+                  items:
+                    - name: Интеграция Check Point и Intune
+                      href: checkpoint-sandblast-mobile-mtd-connector-integration.md
+                - name: Настройка Lookout
+                  href: lookout-mobile-threat-defense-connector.md
+                  items:
+                    - name: Интеграция Lookout и Intune
+                      href: lookout-mtd-connector-integration.md
+                - name: Настройка Pradeo
+                  href: pradeo-mobile-threat-defense-connector.md
+                  items:
+                    - name: Интеграция Pradeo и Intune
+                      href: pradeo-mtd-connector-integration.md
+                - name: Настройка Sophos Mobile
+                  href: sophos-mtd-connector.md
+                  items:
+                    - name: Интеграция Sophos Mobile и Intune
+                      href: sophos-mtd-connector-integration.md
+                - name: Настройка Symantec
+                  href: skycure-mobile-threat-defense-connector.md
+                  items:
+                    - name: Интеграция Symantec и Intune
+                      href: skycure-mtd-connector-integration.md
+                - name: Настройка Wandera
+                  href: wandera-mtd-connector.md
+                  items:
+                    - name: Интеграция Wandera и Intune
+                      href: wandera-mtd-connector-integration.md
+                - name: Настройка Zimperium
+                  href: zimperium-mobile-threat-defense-connector.md
+                  items:
+                    - name: Интеграция Zimperium и Intune
+                      href: zimperium-mtd-connector-integration.md
+        - name: "Microsoft\_Defender"
+          items:
+            - name: "ATP в Microsoft\_Defender"
+              href: advanced-threat-protection.md
+            - name: Задачи безопасности
+              href: atp-manage-vulnerabilities.md
+    - name: Базовые конфигурации безопасности
+      items:
+        - name: Базовые конфигурации безопасности
+          href: security-baselines.md
+        - name: Мониторинг базовых показателей
+          href: security-baselines-monitor.md
+    - name: Защита конечных точек
+      href: endpoint-protection-configure.md
+    - name: Управление доступом к сети
+      href: network-access-control-integrate.md
+    - name: Windows Hello
+      items:
+        - name: Windows Hello
+          href: windows-hello.md
+        - name: Защита идентификации
+          href: identity-protection-configure.md
+    - name: Сертификаты
+      items:
+        - name: Проверка подлинности с помощью сертификатов
+          href: certificates-configure.md
+        - name: SCEP
+          items:
+            - name: Инфраструктура SCEP
+              href: certificates-scep-configure.md
+              displayName: ksp
+            - name: Профили сертификатов SCEP
+              href: certificates-profile-scep.md
+            - name: Использование сторонних центров сертификации с SCEP
+              href: certificate-authority-add-scep-overview.md
+        - name: PKCS
+          items:
+            - name: PKCS
+              href: certficates-pfx-configure.md
+              displayName: ksp
+            - name: "Импортируемые\_PKCS"
+              href: certificates-imported-pfx-configure.md
+            - name: Шифрование электронной почты с помощью S/MIME
+              href: certificates-s-mime-encryption-sign.md
+              displayName: csr
+        - name: Использование инфраструктуры открытых ключей DigiCert
+          href: certificates-digicert-configure.md
+          displayName: ca; pkcs; pki; ra; registration authority
+        - name: Удаление сертификатов SCEP и PKCS
+          href: remove-certificates.md
+    - name: Обновления программного обеспечения
+      items:
+        - name: Обновления Windows
+          items:
+            - name: Параметры Центра обновления Windows для бизнеса
+              href: windows-update-for-business-configure.md
+            - name: Отчеты о соответствии для Центра обновления Windows
+              href: windows-update-compliance-reports.md
+        - name: Политики обновления iOS
+          href: software-updates-ios.md
+    - name: Устранение неполадок
+      items:
+        - name: Устранение неполадок с политиками и профилями
+          href: troubleshoot-policies-in-microsoft-intune.md
+        - name: Устранение неполадок условного доступа
+          href: troubleshoot-conditional-access.md
+        - name: Устранение проблем с соединителем сертификатов
+          href: troubleshoot-certificate-connector-events.md
+        - name: Устранение проблем в работе соединителя с Exchange
+          items:
+            - name: Устранение проблем в работе соединителя с Exchange
+              href: troubleshoot-exchange-connector.md
+            - name: Распространенные проблемы
+              href: troubleshoot-exchange-connector-common-problems.md
+            - name: Распространенные ошибки
+              href: troubleshoot-exchange-connector-common-errors.md
+        - name: "Устранение неполадок с политиками\_BitLocker"
+          href: troubleshoot-bitlocker-policies.md
+        - name: "Устранение неполадок с интеграцией Jamf\_Pro"
+          href: troubleshoot-jamf.md
+- name: Справочник
+  items:
+    - name: API для добавления сторонних центров сертификации
+      href: scep-libraries-apis.md
+    - name: Параметры политики соответствия
+      items:
+        - name: Базовые конфигурации безопасности
+          items:
+            - name: "Параметры базовых показателей Windows\_10 MDM"
+              href: security-baseline-settings-mdm-all.md
+            - name: "Параметры базовых показателей безопасности ATP в Microsoft\_Defender"
+              href: security-baseline-settings-defender-atp.md
+        - name: Параметры Центра обновления Windows
+          href: windows-update-settings.md
+        - name: "Параметры политики соответствия требованиям\_— Android"
+          href: compliance-policy-create-android.md
+        - name: "Параметры политики соответствия требованиям\_— Android для бизнеса"
+          href: compliance-policy-create-android-for-work.md
+        - name: "Параметры политики соответствия требованиям\_— iOS"
+          href: compliance-policy-create-ios.md
+        - name: "Параметры политики соответствия требованиям\_— macOS"
+          href: compliance-policy-create-mac-os.md
+        - name: "Параметры политики соответствия требованиям\_— Windows\_10"
+          href: compliance-policy-create-windows.md
+        - name: "Параметры политики соответствия требованиям\_— Windows\_8.1"
+          href: compliance-policy-create-windows-8-1.md
+        - name: "Параметры политики соответствия требованиям\_— Windows Phone\_8.1"
+          href: compliance-policy-create-windows-8-1.md
+    - name: Коды ошибок и описания
+      items:
+        - name: Ошибки обновления программного обеспечения
+          href: software-update-agent-error-codes.md
+- name: Руководства по реализации сценария
+  items:
+    - name: Защита Exchange Online
+      href: exchange-online-protect.md
+    - name: Предотвращение несанкционированного доступа
+      href: data-outside-protect.md
+    - name: Предотвращение утечки данных на неуправляемых устройствах
+      href: data-leak-prevention.md
