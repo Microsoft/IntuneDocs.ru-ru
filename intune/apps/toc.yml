@@ -32,6 +32,7 @@
       items:
         - name: Общие сведения о добавлении приложений
           href: apps-add.md
+          displayName: apk; ipa; msi; appx; appxbundle; msix; msixbundle; app
         - name: Защищенные приложения Intune
           href: apps-supported-intune-apps.md
         - name: Приложения Магазина
@@ -104,12 +105,24 @@
           href: app-configuration-policies-use-ios.md
         - name: Android управляемые устройства
           href: app-configuration-policies-use-android.md
-        - name: "Настройка Managed\_Home\_Screen"
-          href: app-configuration-managed-home-screen-app.md
         - name: Управляемые приложения
           href: app-configuration-policies-managed-app.md
         - name: Использование профилей подготовки приложений iOS
           href: app-provisioning-profile-ios.md
+        - name: Настройка конкретных приложений
+          items:
+            - name: "Настройка Managed\_Home\_Screen"
+              href: app-configuration-managed-home-screen-app.md
+            - name: Настройка корпоративного портала
+              href: company-portal-app.md
+            - name: Настройка Managed Browser
+              href: app-configuration-managed-browser.md
+            - name: Настройка Microsoft Launcher
+              href: configure-microsoft-launcher.md
+            - name: Настройка Microsoft Edge
+              href: manage-microsoft-edge.md
+            - name: Настройка Outlook
+              href: app-configuration-policies-outlook.md
         - name: 'Приложения и книги, приобретенные по корпоративной программе'
           items:
             - name: Управление приложениями и книгами VPP
@@ -121,16 +134,6 @@
               href: windows-store-for-business.md
             - name: Электронные книги по iOS
               href: vpp-ebooks-ios.md
-        - name: Настройка корпоративного портала
-          href: company-portal-app.md
-        - name: Настройка Managed Browser
-          href: app-configuration-managed-browser.md
-        - name: Настройка Microsoft Edge
-          href: manage-microsoft-edge.md
-        - name: Настройка Microsoft Launcher
-          href: configure-microsoft-launcher.md
-        - name: Настройка Outlook
-          href: app-configuration-policies-outlook.md
     - name: Защита приложений
       items:
         - name: Выборочная очистка приложений
