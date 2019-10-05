@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ec8f8a613d3b0a0b17f2615de634e70fa282fd7
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: 8483ed3d4198e228bdaaf4723b2c9c0dca9cecfc
+ms.sourcegitcommit: fc356fd69beaeb3d69982b47e2bdffb6f7127f8c
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "68229170"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "71830511"
 ---
 <!-- This include is part of the Intune Data Warehouse documentation. -->
 
@@ -18,4 +18,4 @@ ms.locfileid: "68229170"
   - Глобальный администратор Azure AD
   - Администратор служб Intune
   - Пользователь с доступом к **хранилищу данных Intune** на основе ролей
-  - Проверка подлинности без учета пользователя с [проверкой подлинности только приложения](../data-warehouse-app-only-auth.md) 
+  - Проверка подлинности без учета пользователя с [проверкой подлинности только приложения](../developer/data-warehouse-app-only-auth.md) 
