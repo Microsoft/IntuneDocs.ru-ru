@@ -1,0 +1,111 @@
+### YamlMime:Landing
+title: Управление приложениями
+summary: Microsoft Intune позволяет управлять клиентскими приложениями, которые используются в вашей организации. Вы можете настраивать, добавлять, назначать, защищать, обновлять и прекращать использовать приложения для различных платформ и пользователей.
+metadata:
+  title: Управление приложениями
+  description: Управление приложениями и их защита
+  services: service
+  ms.service: microsoft-intune
+  ms.topic: landing-page
+  ms.collection: collection
+  author: erikre
+  ms.author: erikre
+  ms.manager: dougeby
+  ms.date: 09/25/2019
+  ms.openlocfilehash: ba12c3a3253fd35bf803342214b73fc094abc3aa
+  ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/02/2019
+  ms.locfileid: "71729015"
+landingContent:
+- title: Начало работы с приложениями
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Сведения об управлении приложениями
+      url: app-management.md
+  - linkListType: quickstart
+    links:
+    - text: Добавление и назначение приложения
+      url: quickstart-add-assign-app.md
+  - linkListType: concept
+    links:
+    - text: Жизненный цикл приложения
+      url: app-lifecycle.md
+- title: Добавление приложений
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о добавлении приложений
+      url: apps-add.md
+    - text: Защищенные приложения Intune
+      url: apps-supported-intune-apps.md
+  - linkListType: how-to-guide
+    links:
+    - text: Приложения Магазина
+      url: store-apps-android.md
+    - text: Бизнес-приложения
+      url: lob-apps-android.md
+    - text: Управление приложениями Win32 для изолированной среды Intune
+      url: apps-win32-app-management.md
+    - text: Использование скриптов PowerShell на устройствах Windows 10
+      url: intune-management-extension.md
+    - text: Назначение приложений группам
+      url: apps-deploy.md
+- title: Назначение приложений
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Назначение приложений группам
+      url: apps-deploy.md
+    - text: Intune и исключение приложений
+      url: apps-inc-exl-assignments.md
+    - text: Развернуть Приложения Windows 10
+      url: apps-windows-10-app-deploy.md
+    - text: Развертывание приложений в средах государственных организаций
+      url: apps-deploy-gcc-dod.md
+- title: Настройка приложений
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Выборочная очистка приложений
+      url: apps-selective-wipe.md
+    - text: iOS управляемые устройства
+      url: app-configuration-policies-use-ios.md
+    - text: Управляемые устройства Android Enterprise
+      url: app-configuration-policies-use-android.md
+    - text: Управляемые приложения без регистрации устройств
+      url: app-configuration-policies-managed-app.md
+    - text: Настройка Managed Browser
+      url: app-configuration-managed-browser.md
+    - text: Управление приложениями и книгами VPP
+      url: vpp-apps.md
+- title: Защита приложений
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о политиках защиты приложений
+      url: app-protection-policy.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание и назначение политик защиты приложений
+      url: app-protection-policies.md
+    - text: Проверка политик защиты приложений
+      url: app-protection-policies-validate.md
+    - text: Мониторинг состояния пользователя защиты приложений
+      url: app-protection-policies-monitor.md
+    - text: Создание и назначение политик защиты приложений WIP
+      url: windows-information-protection-policy-create.md
+    - text: Управление передачей данных между приложениями iOS
+      url: data-transfer-between-apps-manage-ios.md
+- title: Устранение неполадок с приложениями
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Устранение проблем с установкой приложений
+      url: troubleshoot-app-install.md
+    - text: Устранение неполадок управления мобильными приложениями
+      url: troubleshoot-mam.md
+    - text: Просмотрите журналы защиты приложений
+      url: app-protection-policy-settings-log.md

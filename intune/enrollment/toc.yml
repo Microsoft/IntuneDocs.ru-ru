@@ -1,0 +1,111 @@
+- name: Регистрация в Microsoft Intune
+  href: index.yml
+- name: Обзор
+  expanded: true
+  items:
+    - name: Общие сведения о регистрации устройств
+      href: device-enrollment.md
+      displayName: COD; BYOD; DEM; DEP; USB-SA; USB-Direct; co-management; GPO
+    - name: Возможности управления зарегистрированными устройствами
+      href: device-management-capabilities.md
+    - name: Варианты регистрации
+      href: enrollment-options.md
+- name: Краткие руководства
+  items:
+    - name: Настройка автоматической регистрации
+      href: quickstart-setup-auto-enrollment.md
+    - name: "Регистрация устройства с ОС Windows\_10"
+      href: quickstart-enroll-windows-device.md
+- name: Учебники
+  items:
+    - name: Использование решения Autopilot для регистрации на устройствах с Windows
+      href: tutorial-use-autopilot-enroll-devices.md
+    - name: Использование DEP для регистрации устройств iOS
+      href: tutorial-use-device-enrollment-program-enroll-ios.md
+- name: Основные понятия
+  items:
+    - name: Terms and conditions (Условия)
+      href: terms-and-conditions-create.md
+    - name: Ограничения
+      href: enrollment-restrictions-set.md
+    - name: Сертификат Apple MDM Push Certificate
+      href: apple-mdm-push-certificate-get.md
+    - name: Корпоративные идентификаторы
+      href: corporate-identifiers-add.md
+      displayName: COD
+    - name: многофакторную идентификацию;
+      href: multi-factor-authentication.md
+      displayName: mfa; multifactor
+    - name: Device enrollment manager (Диспетчер регистрации устройств)
+      href: device-enrollment-manager-enroll.md
+    - name: Сопоставление устройств с группами
+      href: device-group-mapping.md
+- name: Практические руководства
+  items:
+    - name: Настройка регистрации Windows
+      items:
+        - name: Методы регистрации в Windows
+          href: windows-enrollment-methods.md
+        - name: Возможности способов регистрации
+          href: enrollment-method-capab.md
+        - name: Регистрация Windows
+          href: windows-enroll.md
+        - name: Массовая регистрация
+          href: windows-bulk-enroll.md
+        - name: Страница состояния регистрации
+          href: windows-enrollment-status.md
+        - name: Программа Windows AutoPilot Deployment
+          href: enrollment-autopilot.md
+        - name: "Гибридное развертывание Azure\_AD с\_Autopilot"
+          href: windows-autopilot-hybrid.md
+        - name: "Настройка прокси-сервера для соединителя Intune для\_AD"
+          href: autopilot-hybrid-connector-proxy.md
+    - name: Настройка регистрации устройств Android
+      items:
+        - name: Настройка регистрации устройств Android
+          href: android-enroll.md
+          displayName: wpj
+        - name: Подключение Intune к Android для бизнеса
+          href: connect-intune-android-enterprise.md
+        - name: Регистрация рабочих профилей Android для бизнеса
+          href: android-work-profile-enroll.md
+        - name: Регистрация выделенных устройств Android для бизнеса
+          href: android-kiosk-enroll.md
+          displayName: gms
+        - name: Регистрация полностью управляемых устройств Android для бизнеса
+          href: android-fully-managed-enroll.md
+          displayName: gms
+        - name: Регистрация выделенных или полностью управляемых устройств Android для бизнеса
+          href: android-dedicated-devices-fully-managed-enroll.md
+        - name: Регистрация администратора устройства Android
+          href: android-enroll-device-administrator.md
+        - name: Управление устройствами с рабочим профилем Android для бизнеса
+          href: android-enterprise-overview.md
+        - name: Регистрация мобильных устройств Samsung Knox
+          href: android-samsung-knox-mobile-enroll.md
+          displayName: kda; kme
+    - name: Настройка регистрации iOS
+      href: ios-enroll.md
+      items:
+        - name: Программа регистрации устройств
+          href: device-enrollment-program-enroll-ios.md
+        - name: "Apple School\_Manager"
+          href: apple-school-manager-set-up-ios.md
+        - name: Apple Configurator
+          href: apple-configurator-enroll-ios.md
+    - name: Настройка регистрации устройств macOS
+      href: macos-enroll.md
+      items:
+        - name: Программа регистрации устройств (DEP) или Apple School Manager
+          href: device-enrollment-program-enroll-macos.md
+    - name: Отчет о неполной регистрации
+      href: enrollment-report-company-portal-abandon.md
+    - name: Устранение проблем при регистрации
+      items:
+        - name: Устранение проблем при регистрации устройств
+          href: troubleshoot-device-enrollment-in-intune.md
+          displayName: sso
+        - name: Устранение проблем при регистрации устройств iOS
+          href: troubleshoot-ios-enrollment-errors.md
+        - name: Устранение неполадок при регистрации устройств Windows
+          href: troubleshoot-windows-enrollment-errors.md

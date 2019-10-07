@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Удаленно выполняемые действия с устройствами с помощью Intune
+summary: С помощью Intune администраторы могут удаленно выполнять действия с устройствами. На портале Intune можно удаленно перезапускать устройства, сбрасывать секретные коды, устанавливать местонахождение потерянных или украденных устройств и многое другое.
+metadata:
+  title: Удаленно выполняемые действия с устройствами с помощью Intune
+  description: Intune позволяет удаленно выполнять действия.
+  services: service
+  ms.service: microsoft-intune
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: collection
+  author: ErikjeMS
+  ms.author: erikje
+  ms.date: 09/13/2019
+  ms.openlocfilehash: 37f0a4f8017848f4e1672ae7e3e1979239551af3
+  ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/02/2019
+  ms.locfileid: "71729151"
+landingContent:
+- title: Удаленно выполняемые действия с устройствами
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения об управлении устройствами
+      url: device-management.md
+  - linkListType: how-to-guide
+    links:
+    - text: Переименование устройства
+      url: device-rename.md
+    - text: Просмотр сведений об устройстве
+      url: device-inventory.md
+    - text: Отправка настраиваемых уведомлений на устройства
+      url: custom-notifications.md
+    - text: Синхронизация устройств
+      url: device-sync.md
+    - text: Удаленное администрирование устройств с помощью TeamViewer
+      url: teamviewer-support.md
+- title: Удаление и перезапуск
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Удаление, очистка, прекращение поддержки, отмена регистрации
+      url: devices-wipe.md
+    - text: Новый запуск Windows
+      url: device-fresh-start.md
+    - text: Перезапуск устройства
+      url: device-restart.md
+- title: Действия пользователя
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Выход пользователя
+      url: device-logout-user.md
+    - text: Поиск основного пользователя
+      url: find-primary-user.md
+    - text: Удаление пользователя
+      url: device-remove-user.md
+- title: Блокировки и пароли
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Блокировка устройства
+      url: device-remote-lock.md
+    - text: Сброс секретного кода устройства
+      url: device-passcode-reset.md
+    - text: Сброс PIN-кода в Windows 10
+      url: device-lost-mode.md
+- title: Действия с устройством Apple
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Определение местоположения устройств iOS
+      url: device-locate.md
+    - text: Включение защищенного режима iOS
+      url: device-supervised-mode.md
+    - text: Включение режима пропажи в iOS
+      url: device-lost-mode.md
+    - text: Удаление данных с устройства macOS
+      url: device-erase.md
+    - text: Обход блокировки активации
+      url: device-activation-lock-bypass.md

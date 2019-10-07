@@ -1,0 +1,137 @@
+### YamlMime:Landing
+title: Защита данных и устройств в Intune
+summary: В Intune защита устройств и корпоративных данных реализуется с помощью таких инструментов, как базовые конфигурации безопасности, условный доступ Azure AD и партнерских решений Mobile Threat Defense.
+metadata:
+  title: Защита данных и устройств в Intune
+  description: В Intune защита устройств и корпоративных данных реализуется с помощью таких инструментов, как базовые конфигурации безопасности, условный доступ Azure AD и партнерских решений Mobile Threat Defense.
+  services: service
+  ms.service: microsoft-intune
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: collection
+  author: brenduns
+  ms.author: brenduns
+  ms.date: 08/20/2019
+  ms.openlocfilehash: 073177f7cd7426a86a110fc1cee7812b37fa083f
+  ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/02/2019
+  ms.locfileid: "71728709"
+landingContent:
+- title: Настройка на устройствах правил доступа к ресурсам
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о соответствии
+      url: ../device-compliance-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: Создание политики соответствия устройства
+      url: ../quickstart-set-password-length-android.md
+  - linkListType: tutorial
+    links:
+    - text: Защита электронной почты Exchange Online на управляемых устройствах
+      url: ../tutorial-protect-email-on-enrolled-devices.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание политики
+      url: ../create-compliance-policy.md
+    - text: Соответствие требованиям к расположению
+      url: ../use-network-locations.md
+    - text: Действия при несоответствии
+      url: ../actions-for-noncompliance.md
+- title: Управление конфиденциальностью и персональными данными
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Конфиденциальность и персональные данные
+      url: ../privacy-personal-data.md
+  - linkListType: concept
+    links:
+    - text: Сбор данных
+      url: ../privacy-data-collect.md
+    - text: Хранение и обработка данных
+      url: ../privacy-data-store-process.md
+    - text: Безопасность и передача данных
+      url: ../privacy-data-secure-share.md
+  - linkListType: how-to-guide
+    links:
+    - text: Данные, совместно используемые Intune
+      url: ../privacy-data-secure-share.md
+    - text: Аудит, экспорт, удаление
+      url: ../privacy-data-audit-export-delete.md
+    - text: Просмотр и изменение персональных данных
+      url: ../privacy-data-view-correct.md
+- title: Защита устройств и сетей
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Защита устройств
+      url: ../device-protect.md
+    - text: Mobile Threat Defense
+      url: ../mobile-threat-defense.md
+  - linkListType: how-to-guide
+    links:
+    - text: ATP в Microsoft Defender
+      url: ../advanced-threat-protection.md
+    - text: Партнеры Mobile Threat Defense
+      url: ../mtd-apps-ios-app-configuration-policy-add-assign.md
+    - text: Базовые конфигурации безопасности
+      url: ../security-baselines.md
+    - text: Защита конечных точек
+      url: ../endpoint-protection-configure.md
+    - text: Управление доступом к сети
+      url: ../network-access-control-integrate.md
+    - text: Шифрование устройств
+      url: ../encrypt-devices.md
+- title: Использование безопасных методов проверки подлинности
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Сертификаты и Intune
+      url: ../certificates-configure.md
+  - linkListType: how-to-guide
+    links:
+    - text: Профили сертификатов SCEP
+      url: ../certificates-scep-configure.md
+    - text: Профили сертификатов PKCS
+      url: ../certficates-pfx-configure.md
+    - text: Импортированные сертификаты PFX
+      url: ../certificates-imported-pfx-configure.md
+    - text: Windows Hello для бизнеса
+      url: ../windows-hello.md
+- title: Управление обновлениями программного обеспечения
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: iOS
+      url: ../software-updates-ios.md
+    - text: Windows
+      url: ../windows-update-for-business-configure.md
+- title: Использование условного доступа
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения об условном доступе
+      url: ../conditional-access.md
+    - text: Защита Exchange Online
+      url: ../exchange-online-protect.md
+  - linkListType: tutorial
+    links:
+    - text: Обеспечение безопасности использования электронной почты на управляемых устройствах
+      url: ../tutorial-protect-email-on-enrolled-devices.md
+    - text: Обеспечение безопасности использования электронной почты на неуправляемых устройствах
+      url: ../tutorial-protect-email-on-unmanaged-devices.md
+  - linkListType: concept
+    links:
+    - text: ADAL и Intune
+      url: ../app-modern-authentication-block.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание и назначение политики условного доступа
+      url: ../conditional-access-exchange-create.md
+    - text: Стандартные способы использования условного доступа
+      url: ../conditional-access-intune-common-ways-use.md
+    - text: Jamf Pro для macOS
+      url: ../conditional-access-integrate-jamf.md

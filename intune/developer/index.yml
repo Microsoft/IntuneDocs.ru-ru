@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Руководство разработчика
+summary: Узнайте, как использовать ресурсы разработчика Intune, такие как пакет SDK для приложений Intune и средство упаковки приложений для защиты бизнес-приложений, отчеты и API хранилища данных Intune для отслеживания успешности внедрения Intune, а также Microsoft Graph для доступа к функциям Intune с помощью Azure AD.
+metadata:
+  title: Руководство разработчика
+  description: Узнайте, как использовать ресурсы разработчика Intune, такие как пакет SDK для приложений Intune и средство упаковки приложений для защиты бизнес-приложений, отчеты и API хранилища данных Intune для отслеживания успешности внедрения Intune, а также Microsoft Graph для доступа к функциям Intune с помощью Azure AD.
+  services: service
+  ms.service: microsoft-intune
+  ms.topic: landing-page
+  ms.collection: collection
+  author: erikre
+  ms.author: erikre
+  ms.manager: dougeby
+  ms.date: 09/23/2019
+  ms.openlocfilehash: f7d48e1b5473d84743adee4a7ef7b6c83b960d19
+  ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/02/2019
+  ms.locfileid: "71728879"
+landingContent:
+- title: Защита приложений с помощью пакета SDK для приложений Intune
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о пакете SDK для приложений Microsoft Intune
+      url: app-sdk.md
+  - linkListType: concept
+    links:
+    - text: Начало работы с SDK для приложений Microsoft Intune
+      url: app-sdk-get-started.md
+    - text: Подготовка бизнес-приложений к защите
+      url: apps-prepare-mobile-application-management.md
+  - linkListType: how-to-guide
+    links:
+    - text: Пакет SDK приложений Intune для iOS
+      url: app-sdk-ios.md
+    - text: Подготовка приложений iOS к политикам защиты приложений
+      url: app-wrapper-prepare-ios.md
+    - text: Пакет SDK приложений Intune для Android
+      url: app-wrapper-prepare-android.md
+- title: Использование хранилища данных Intune
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о хранилище данных
+      url: reports-nav-create-intune-reports.md
+    - text: Журнал изменений API хранилища данных
+      url: reports-changelog.md
+    - text: Общие сведения об API хранилища данных Intune
+      url: reports-nav-intune-data-warehouse.md
+    - text: Общие сведения о модели данных хранилища данных Intune
+      url: reports-ref-data-model.md
+  - linkListType: concept
+    links:
+    - text: Коллекции хранилища данных Intune
+      url: intune-data-warehouse-collections.md
+  - linkListType: how-to-guide
+    links:
+    - text: Подключение к хранилищу данных с помощью Power BI
+      url: reports-proc-get-a-link-powerbi.md
+    - text: Создание отчета Intune из веб-канала OData с помощью Power BI
+      url: reports-proc-create-with-odata.md
+    - text: Получение данных из API хранилища данных через клиент REST
+      url: reports-proc-data-rest.md
+    - text: Конечная точка API для хранилища данных Intune
+      url: reports-api-url.md
+- title: Доступ к API Intune в Microsoft Graph
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: API Graph и соответствующие CSP Windows 10, используемые в Intune
+      url: graph-apis-used-by-intune-device-configuration-windows.md
+  - linkListType: how-to-guide
+    links:
+    - text: Доступ к интерфейсам API Intune в Microsoft Graph с использованием Azure AD
+      url: intune-graph-apis.md
+  - linkListType: reference
+    links:
+    - text: Справочник по API Graph для Intune
+      url: https://docs.microsoft.com/graph/api/resources/intune-graph-overview?view=graph-rest-beta

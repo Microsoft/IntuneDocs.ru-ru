@@ -1,0 +1,111 @@
+### YamlMime:Landing
+title: Регистрация устройств в Microsoft Intune
+summary: Есть несколько способов регистрации корпоративных устройств. Каждый способ зависит от типа владения (личное или корпоративное), типа устройства (iOS, Windows, Android) и требований к управлению (сброс, сопоставление, блокировка).
+metadata:
+  title: Регистрация в Microsoft Intune
+  description: Целевая страница регистрации в Microsoft Intune
+  services: service
+  ms.service: microsoft-intune
+  ms.subservice: enrollment
+  ms.topic: landing-page
+  author: dougeby
+  ms.author: dougeby
+  manager: dougeby
+  ms.date: 08/07/2019
+  ms.openlocfilehash: a32d8c309e1008f28816fffdd7b101537af7947a
+  ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/02/2019
+  ms.locfileid: "71728811"
+landingContent:
+- title: Дополнительные сведения о регистрации
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое регистрация устройств?
+      url: device-enrollment.md
+    - text: Возможности управления зарегистрированными устройствами
+      url: device-management-capabilities.md
+    - text: Варианты регистрации
+      url: enrollment-options.md
+- title: Регистрация Windows
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Сведения о регистрации Windows
+      url: windows-enrollment-methods.md
+    - text: Возможности способов регистрации
+      url: enrollment-method-capab.md
+  - linkListType: quickstart
+    links:
+    - text: Настройка автоматической регистрации устройств с Windows 10
+      url: quickstart-setup-auto-enrollment.md
+    - text: Регистрация устройства с ОС Windows 10
+      url: quickstart-enroll-windows-device.md
+  - linkListType: tutorial
+    links:
+    - text: Использование решения Autopilot для регистрации на устройствах с Windows
+      url: tutorial-use-autopilot-enroll-devices.md
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка регистрации Windows
+      url: windows-enroll.md
+    - text: Настройка массовой регистрация для устройств Windows
+      url: windows-bulk-enroll.md
+- title: Регистрация Android
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Сведения о регистрации Android
+      url: android-enroll.md
+  - linkListType: how-to-guide
+    links:
+    - text: Подключение учетной записи Intune к управляемой учетной записи Google Play
+      url: connect-intune-android-enterprise.md
+    - text: Настройка регистрации устройств с рабочим профилем Android для бизнеса
+      url: android-work-profile-enroll.md
+    - text: Настройка регистрации устройств с рабочим профилем Android для бизнеса
+      url: android-work-profile-enroll.md
+    - text: Настройка регистрации выделенных устройств Android для бизнеса
+      url: android-kiosk-enroll.md
+    - text: Настройка регистрации полностью управляемых устройств Android для бизнеса в Intune (предварительная версия)
+      url: android-fully-managed-enroll.md
+- title: Регистрация устройств iOS
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Сведения о регистрации устройств iOS
+      url: ios-enroll.md
+  - linkListType: tutorial
+    links:
+    - text: Использование функций регистрации корпоративных устройств Apple для регистрации устройств iOS
+      url: tutorial-use-device-enrollment-program-enroll-ios.md
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка регистрации iOS
+      url: ios-enroll.md
+    - text: Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
+      url: device-enrollment-program-enroll-ios.md
+    - text: Настройка регистрации устройств iOS через Apple School Manager
+      url: apple-school-manager-set-up-ios.md
+    - text: Настройка регистрации устройств iOS с помощью Apple Configurator
+      url: apple-configurator-enroll-ios.md
+- title: Регистрация устройств macOS
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Сведения о регистрации устройств macOS
+      url: macos-enroll.md
+  - linkListType: tutorial
+    links:
+    - text: Использование функций регистрации корпоративных устройств Apple для регистрации устройств iOS
+      url: tutorial-use-device-enrollment-program-enroll-ios.md
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка регистрации устройств macOS
+      url: macos-enroll.md
+    - text: Автоматическая регистрация устройств с macOS с помощью Программы регистрации устройств или Apple School Manager
+      url: device-enrollment-program-enroll-macos.md
+    - text: Настройка регистрации устройств iOS с помощью Apple Configurator
+      url: apple-configurator-enroll-ios.md

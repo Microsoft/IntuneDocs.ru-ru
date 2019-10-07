@@ -1,0 +1,79 @@
+- name: Руководство разработчика
+  href: index.yml
+- name: Практические руководства
+  expanded: true
+  items:
+    - name: Защита приложений с помощью пакета SDK для приложений Intune
+      href: app-sdk.md
+      items:
+        - name: Начало работы с пакетом SDK для приложений Intune
+          href: app-sdk-get-started.md
+        - name: Подготовка бизнес-приложений к защите
+          href: apps-prepare-mobile-application-management.md
+        - name: Инструмент упаковки приложений для iOS
+          href: app-wrapper-prepare-ios.md
+        - name: Пакет SDK приложений Intune для iOS
+          href: app-sdk-ios.md
+        - name: Инструмент упаковки приложений для Android
+          href: app-wrapper-prepare-android.md
+          displayName: dex
+        - name: Пакет SDK приложений Intune для Android
+          href: app-sdk-android.md
+          items:
+            - name: "Руководство по тестированию пакета\_SDK приложений Intune для\_Android"
+              href: app-sdk-android-testing-guide.md
+        - name: привязки Xamarin из пакета SDK для приложений Intune
+          href: app-sdk-xamarin.md
+    - name: Использование хранилища данных Intune
+      href: reports-nav-create-intune-reports.md
+      items:
+        - name: Журнал изменений для хранилища данных
+          href: reports-changelog.md
+        - name: "Подключение к хранилищу данных с помощью Power\_BI"
+          href: reports-proc-get-a-link-powerbi.md
+        - name: Создание отчета из веб-канала OData с помощью Power BI
+          href: reports-proc-create-with-odata.md
+    - name: Создание отчетов с помощью API хранилища данных Intune
+      href: reports-nav-intune-data-warehouse.md
+      items:
+        - name: Получение данных из API хранилища данных через клиент REST
+          href: reports-proc-data-rest.md
+        - name: Конечная точка API для хранилища данных
+          href: reports-api-url.md
+        - name: 'Аутентификация в хранилище данных, предназначенная только для приложений'
+          href: data-warehouse-app-only-auth.md
+        - name: Модель данных для хранилища данных
+          href: reports-ref-data-model.md
+          items:
+            - name: Коллекции хранилища данных
+              href: intune-data-warehouse-collections.md
+            - name: Коллекции хранилища данных (бета-версия)
+              items:
+                - name: Представление времени существования пользователя в хранилище данных Intune
+                  href: reports-ref-user-timeline.md
+                - name: Справочник по сущностям приложения
+                  href: reports-ref-application.md
+                - name: Справочник по сущности даты
+                  href: reports-ref-date.md
+                - name: Справочник по сущностям устройств
+                  href: reports-ref-devices.md
+                - name: Справочник по сущности расширения управления Intune
+                  href: reports-ref-intunemanagementextension.md
+                - name: Справочник по сущностям управления мобильными приложениями (MAM)
+                  href: reports-ref-mobile-app-management.md
+                - name: Справочник по сущностям политики
+                  href: reports-ref-policy.md
+                - name: Справочник по сущности сопоставления пользователя и устройства
+                  href: reports-ref-user-device.md
+                - name: Справочник по сущности пользователя
+                  href: reports-ref-user.md
+        - name: Перенос учетной записи хранилища данных Intune
+          href: data-warehouse-account-move.md
+    - name: Доступ к API Intune в Microsoft Graph
+      items:
+        - name: Доступ к API Intune в Microsoft Graph с использованием Azure AD
+          href: intune-graph-apis.md
+        - name: Справочник по API Intune
+          href: 'https://developer.microsoft.com/graph/docs/api-reference/beta/resources/intune_graph_overview'
+        - name: "API\_Graph, используемые в конфигурации устройств"
+          href: graph-apis-used-by-intune-device-configuration-windows.md

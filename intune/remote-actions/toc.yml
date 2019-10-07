@@ -1,0 +1,67 @@
+- name: Удаленные действия
+  href: index.yml
+- name: Обзор
+  expanded: true
+  items:
+    - name: Общие сведения об управлении устройствами
+      href: device-management.md
+- name: Практические руководства
+  items:
+    - name: Блокировки и пароли
+      items:
+        - name: Блокировка устройства
+          href: device-remote-lock.md
+        - name: Сбросить секретный код
+          href: device-passcode-reset.md
+        - name: Сброс PIN-кода в Windows 10
+          href: device-windows-pin-reset.md
+    - name: Удаление и перезапуск
+      items:
+        - name: Удаление устройств
+          href: devices-wipe.md
+        - name: Управление новым запуском Windows
+          href: device-fresh-start.md
+        - name: Перезапуск устройства
+          href: device-restart.md
+    - name: Действия с устройством Apple
+      items:
+        - name: Поиск потерянного устройства iOS
+          href: device-locate.md
+        - name: Включение режима пропажи в iOS
+          href: device-lost-mode.md
+        - name: Включение защищенного режима iOS
+          href: device-supervised-mode.md
+        - name: "Очистка устройства с\_macOS"
+          href: device-erase.md
+        - name: Обход блокировки активации
+          href: device-activation-lock-bypass.md
+    - name: Действия пользователя
+      items:
+        - name: Принудительный выход текущего пользователя
+          href: device-logout-user.md
+        - name: Удаление пользователя
+          href: device-remove-user.md
+        - name: Поиск основного пользователя
+          href: find-primary-user.md
+    - name: Другие действия
+      items:
+        - name: Переименование устройства
+          href: device-rename.md
+        - name: Отправка уведомлений
+          href: custom-notifications.md
+        - name: Удаленное управление мобильными устройствами
+          href: teamviewer-support.md
+        - name: Синхронизация устройств
+          href: device-sync.md
+        - name: Проверка данных по инвентаризации устройств
+          href: device-inventory.md
+    - name: Диагностика
+      items:
+        - name: 'Устранение неполадок, связанных с действиями устройств'
+          href: troubleshoot-device-actions.md
+- name: Ресурсы
+  items:
+    - name: Руководства по реализации сценария
+      items:
+        - name: Сокращение затрат на службу поддержки
+          href: password-reset.md
