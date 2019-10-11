@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eab50a21ea01cd4075bd78add980d2839606a1a2
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 6e9df15efc7a16a0ce1ee6b0412f9160831efdec
+ms.sourcegitcommit: 884654da8e72a63bfaea6b5def6c7891b065f251
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71721881"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72163512"
 ---
 # <a name="role-based-access-control-rbac-with-microsoft-intune"></a>Управление доступом на основе ролей (RBAC) с помощью Microsoft Intune
 
@@ -66,6 +66,7 @@ ms.locfileid: "71721881"
 | Читатель сведений о безопасности | Только чтение | Только чтение |
 | Администратор соответствия требованиям | Нет | Только чтение |
 | Администратор соответствия данных требованиям | Нет | Только чтение |
+| Глобальный читатель | Только чтение | Только чтение |
 
 > [!TIP]
 > Кроме того, в Intune реализовано три расширения Azure AD: **Пользователи**, **Группы** и **Условный доступ**, которые контролируются в рамках системы управления доступом на основе ролей Azure AD. Кроме того, **администратор учетных записей пользователей** выполняет только действия, связанные с пользователями или группами AAD, и не имеет полных разрешений на выполнение любых операций в Intune. Дополнительные сведения см. в статье [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles).

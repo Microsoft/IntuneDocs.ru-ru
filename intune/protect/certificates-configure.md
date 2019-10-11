@@ -16,22 +16,23 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 74b920deeb5255f6f938f0c8b07eaab6d765e68e
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 345d039fede2a77ba0485944cb601683bdcebfda
+ms.sourcegitcommit: 29b1113dc04534c4c87c33c773c5a0e24266e042
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71722973"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71999300"
 ---
 # <a name="use-certificates-for-authentication-in-microsoft-intune"></a>Использование сертификатов для проверки подлинности в Microsoft Intune  
 
 Используйте сертификаты с Intune для проверки подлинности пользователей в приложениях и корпоративных ресурсах через профили VPN, Wi-Fi или электронной почты. Если для проверки подлинности подключений используются сертификаты, конечным пользователям не нужно вводить имена пользователей и пароли, что помогает сделать доступ прозрачным. Сертификаты также используются для подписывания и шифрования электронной почты с помощью S/MIME.
 
-Intune поддерживает следующие типы сертификатов:  
-
-- Протокол SCEP  
-- PKCS #12 (или PFX)  
-- Импортированные сертификаты PKCS
+## <a name="intune-supported-certificates-and-usage"></a>Поддерживаемые сертификаты и использование Intune
+| Type              | Проверка подлинности | Подписывание S/MIME | Шифрование S/MIME  |
+|--|--|--|--|
+| Импортированный сертификат PKCS |  | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png)|
+| PKCS #12 (или PFX)    | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |  |
+| Протокол SCEP  | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | |
 
 Чтобы развернуть эти сертификаты, создайте и назначьте профили сертификатов для устройств.  
 

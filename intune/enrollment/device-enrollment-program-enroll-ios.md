@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2e9b5eb15cf446b317818a93baa075cdbd33afd2
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 19389a21aa28f5fa957f62c988753f46bf1bc731
+ms.sourcegitcommit: 46322ca7a92971e18dc0b230f436b9ca892b90c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71723311"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72008347"
 ---
 # <a name="automatically-enroll-ios-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
 
@@ -31,6 +31,9 @@ ms.locfileid: "71723311"
 Чтобы включить регистрацию DEP, используйте порталы DEP Apple и Intune. Необходим список идентификаторов или номер заказа на покупку, чтобы вы могли назначить их Intune для управления. Вы создаете профили регистрации DEP, содержащие параметры, применяемые к устройствам во время регистрации.
 
 Кстати, регистрацию с помощью DEP нельзя использовать с [диспетчером регистрации устройств](device-enrollment-manager-enroll.md).
+
+> [!NOTE]
+> В рамках Программы регистрации устройств задаются конфигурации устройств, которые пользователь не сможет удалить. Поэтому прежде чем [перейти к программе регистрации устройств](../fundamentals/migration-guide-considerations.md), устройство необходимо очистить, чтобы вернуть его в изначальное (новое) состояние.
 
 ## <a name="dep-and-the-company-portal"></a>DEP и Корпоративный портал
 

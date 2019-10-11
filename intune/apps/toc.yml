@@ -43,18 +43,20 @@
               href: store-apps-ios.md
             - name: "Приложения из Магазина Windows Phone\_8.1"
               href: store-apps-windows-phone-8-1.md
-            - name: Приложения из Microsoft Store
-              items:
-                - name: Приложения Windows
-                  href: store-apps-windows.md
-                - name: Приложение корпоративного портала
-                  href: store-apps-company-portal-app.md
+            - name: Приложения Windows
+              href: store-apps-windows.md
+            - name: Приложения из Магазина Майкрософт для бизнеса
+              href: windows-store-for-business.md
             - name: Управляемые приложения Google Play
               href: apps-add-android-for-work.md
+        - name: "Пакет Office\_365"
+          items:
             - name: Приложения Office 365 для Windows 10
               href: apps-add-office365.md
             - name: "Приложения Office\_365 для macOS"
               href: apps-add-office365-macos.md
+        - name: Системные приложения Android для бизнеса
+          href: apps-ae-system.md
         - name: Веб-приложения
           href: web-app.md
           displayName: web; web link; weblink; web-link
@@ -74,10 +76,12 @@
               href: app-sideload-windows.md
             - name: Бизнес-приложения macOS
               href: lob-apps-macos.md
-        - name: Системные приложения Android для бизнеса
-          href: apps-ae-system.md
-        - name: Управление приложениями Win32
-          href: apps-win32-app-management.md
+            - name: Управление приложениями Win32
+              href: apps-win32-app-management.md
+        - name: Добавление конкретных приложений
+          items:
+            - name: Приложение корпоративного портала
+              href: store-apps-company-portal-app.md
         - name: Сценарии PowerShell
           href: intune-management-extension.md
     - name: Назначение приложений

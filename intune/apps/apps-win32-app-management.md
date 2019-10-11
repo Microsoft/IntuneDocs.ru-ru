@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/09/2019
+ms.date: 10/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 593c2d2b509047115ebeb3415393d6112484a6a9
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 21192d259de0711ad38fa35b294ea82c7d913292
+ms.sourcegitcommit: fca2670142c083d7562c0a36547a6a451863e315
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71724988"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "72036493"
 ---
 # <a name="intune-standalone---win32-app-management"></a>Изолированная среда Intune — управление приложениями Win32
 
@@ -30,6 +30,9 @@ ms.locfileid: "71724988"
 
 > [!NOTE]
 > Эта функция поддерживает 32- и 64-разрядные архитектуры ОС для приложений Windows.
+
+> [!IMPORTANT]
+> При развертывании приложений Win32 рассмотрите возможность использования исключительно [справочника по расширению управления Intune](../apps/intune-management-extension.md), особенно если у вас есть многофайловый установщик приложений Win32. Если вы совместите установку приложений Win32 и бизнес-приложений во время регистрации AutoPilot, установка приложения может завершиться сбоем.  
 
 ## <a name="prerequisites"></a>Предварительные условия
 
@@ -89,7 +92,7 @@ ms.locfileid: "71724988"
 
 ### <a name="process-flow-to-add-a-win32-app-to-intune"></a>Последовательность действий по добавлению приложения Win32 в Intune
 
-   ![Последовательность действий по добавлению приложения Win32 в Intune](./media/apps-win32-app-management/add-win32-app.svg)
+<img alt="Process flow to add a Win32 app to Intune" src="./media/apps-win32-app-management/add-win32-app.svg" width="500">
 
 ### <a name="add-a-win32-app-to-intune"></a>Добавление приложения Win32 в Intune
 

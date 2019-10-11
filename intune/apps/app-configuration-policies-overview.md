@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: af81552942805bed07e818d6005231e9305b3460
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 08017be16e4257ef0bd7bfb775197feaa20baf75
+ms.sourcegitcommit: 223d64a72ec85fe222f5bb10639da729368e6d57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725794"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71940350"
 ---
 # <a name="app-configuration-policies-for-microsoft-intune"></a>Политики конфигурации приложений для Microsoft Intune
 
@@ -88,6 +88,77 @@ ms.locfileid: "71725794"
 
       ![Снимок экрана: конфигурация приложения](./media/app-configuration-policies-overview/app-configuration.png)
 
+## <a name="diagnostic-logs"></a>Журналы диагностики
+
+### <a name="ios-configuration-on-unmanaged-devices"></a>Конфигурация iOS на неуправляемых устройствах
+
+Конфигурацию iOS можно проверить с помощью **журнала диагностики Intune** на неуправляемых устройствах для конфигурации управляемого приложения.
+
+1. Если он еще не установлен на устройстве, скачайте и установите **Intune Managed Browser** из магазина App Store. Дополнительные сведения см. в статье [Защищенные приложения Microsoft Intune](apps-supported-intune-apps.md).
+2. Запустите **Intune Managed Browser** и выберите **about** > **intunehelp** на панели навигации.
+3. Щелкните **Начать**.
+4. Щелкните **Поделиться журналами**.
+5. Используйте выбранное почтовое приложение, чтобы отправить журнал себе для просмотра на компьютере. 
+6. Проверьте **IntuneMAMDiagnostics.txt** в средстве просмотра текстовых файлов.
+7. Найдите `ApplicationConfiguration`. Результаты будут выглядеть следующим образом:
+
+    ``` JSON
+        {
+            (
+                {
+                    Name = "com.microsoft.intune.mam.managedbrowser.BlockListURLs";
+                    Value = "https://www.aol.com";
+                },
+                {
+                    Name = "com.microsoft.intune.mam.managedbrowser.bookmarks";
+                    Value = "Outlook Web|https://outlook.office.com||Bing|https://www.bing.com";
+                }
+            );
+        },
+        {
+            ApplicationConfiguration =             
+            (
+                {
+                Name = IntuneMAMUPN;
+                Value = "CMARScrubbedM:13c45c42712a47a1739577e5c92b5bc86c3b44fd9a27aeec3f32857f69ddef79cbb988a92f8241af6df8b3ced7d5ce06e2d23c33639ddc2ca8ad8d9947385f8a";
+                },
+                {
+                Name = "com.microsoft.outlook.Mail.NotificationsEnabled";
+                Value = false;
+                }
+            );
+        }
+    ```
+
+Сведения о конфигурации приложения должны соответствовать политикам конфигурации приложения, настроенным для вашего клиента. 
+
+![Целевая конфигурация приложения](./media/app-configuration-policies-overview/targeted-app-configuration-3.png)
+
+### <a name="ios-configuration-on-managed-devices"></a>Конфигурация iOS на управляемых устройствах
+
+Конфигурацию iOS можно проверить с помощью **журнала диагностики Intune** на управляемых устройствах для конфигурации управляемого приложения.
+
+1. Если он еще не установлен на устройстве, скачайте и установите **Intune Managed Browser** из магазина App Store. Дополнительные сведения см. в статье [Защищенные приложения Microsoft Intune](apps-supported-intune-apps.md).
+2. Запустите **Intune Managed Browser** и выберите **about** > **intunehelp** на панели навигации.
+3. Щелкните **Начать**.
+4. Щелкните **Поделиться журналами**.
+5. Используйте выбранное почтовое приложение, чтобы отправить журнал себе для просмотра на компьютере. 
+6. Проверьте **IntuneMAMDiagnostics.txt** в средстве просмотра текстовых файлов.
+7. Найдите `AppConfig`. Результаты должны соответствовать политикам конфигурации приложения, настроенным для вашего клиента.
+
+### <a name="android-configuration-on-managed-devices"></a>Конфигурация Android на управляемых устройствах
+
+Конфигурацию iOS можно проверить с помощью **журнала диагностики Intune** на управляемых устройствах для конфигурации управляемого приложения.
+
+Для сбора журналов с устройства Android вы или пользователь должны скачать журналы с устройства через USB-подключение (или эквивалент **Проводника** на устройстве). Ниже приведены шаги.
+
+1. Подключите устройство Android к компьютеру с помощью USB-кабеля.
+2. На компьютере найдите каталог с именем вашего устройства. Найдите `Android Device\Phone\Android\data\com.microsoft.windowsintune.companyportal` в этом каталоге.
+3. В папке `com.microsoft.windowsintune.companyportal` откройте папку файлов и `OMADMLog_0`.
+3. Выполните поиск `AppConfigHelper`, чтобы найти сообщения, связанные с конфигурацией приложения. Результаты будут выглядеть примерно так, как в следующем блоке данных:
+
+    `2019-06-17T20:09:29.1970000       INFO   AppConfigHelper     10888  02256  Returning app config JSON [{"ApplicationConfiguration":[{"Name":"com.microsoft.intune.mam.managedbrowser.BlockListURLs","Value":"https:\/\/www.aol.com"},{"Name":"com.microsoft.intune.mam.managedbrowser.bookmarks","Value":"Outlook Web|https:\/\/outlook.office.com||Bing|https:\/\/www.bing.com"},{"Name":"com.microsoft.intune.mam.managedbrowser.homepage","Value":"https:\/\/www.arstechnica.com"}]},{"ApplicationConfiguration":[{"Name":"IntuneMAMUPN","Value":"AdeleV@M365x935807.OnMicrosoft.com"},{"Name":"com.microsoft.outlook.Mail.NotificationsEnabled","Value":"false"},{"Name":"com.microsoft.outlook.Mail.NotificationsEnabled.UserChangeAllowed","Value":"false"}]}] for user User-875363642`
+    
 ## <a name="graph-api-support-for-app-configuration"></a>Поддержка API Graph для конфигурации приложений
 
 Вы можете использовать API Graph для решения задач конфигурации. Подробнее см. в [Справочнике по API Graph в разделе «Целевая конфигурация MAM»](https://graph.microsoft.io/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create).

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 04afc9c44bc1c4898950e6f3aff5dac7cb93370f
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 3aadafbcf9c9208e7c87504c5459731de1e402b5
+ms.sourcegitcommit: 614c4c36cfe544569db998e17e29feeaefbb7a2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "56323459"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "71302600"
 ---
 ## <a name="enable-windows-10-automatic-enrollment"></a>Включение автоматической регистрации Windows 10
 
@@ -21,7 +21,7 @@ ms.locfileid: "56323459"
 
    ![Снимок экрана портала Azure](../media/auto-enroll-azure-main.png)
 
-2. Выберите **Мобильность (MDM и MAM)**.
+2. Выберите **Мобильность (MDM и MAM)** .
 
    ![Снимок экрана портала Azure](../media/auto-enroll-mdm.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "56323459"
       > Для корпоративных устройств область пользователей MDM имеет приоритет, если включены обе области. Устройства регистрируются в MDM.
 
    > [!NOTE]
-   > В качестве области пользователей MAM нужно указать группу пользователей или коллекцию.
+   > Для области пользователя MDM должна быть задана группа Azure AD, содержащая объекты пользователей.
 
    ![Снимок экрана портала Azure](../media/auto-enroll-scope.png)
 
