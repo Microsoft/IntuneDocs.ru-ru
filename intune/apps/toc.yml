@@ -127,6 +127,8 @@
               href: manage-microsoft-edge.md
             - name: Настройка Outlook
               href: app-configuration-policies-outlook.md
+            - name: "Настройка Google\_Chrome для Android"
+              href: apps-configure-chrome-android.md
         - name: 'Приложения и книги, приобретенные по корпоративной программе'
           items:
             - name: Управление приложениями и книгами VPP

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a0d495265580bc9801a1fadb636a62274a4f728a
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 8b630709646b2f4489cbfea6284689c9436798ca
+ms.sourcegitcommit: 78f9750712c254d8b123ef15b74f30ca999aa128
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725755"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "71916370"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -67,7 +67,7 @@ Intune предлагает широкий набор возможностей, 
 | Приложения из магазина | Да | Да | Нет | Да | Да |
 | Обновление приложений | Да | Да | Нет | Да | Да |
 
-<sup>1</sup> Рассмотрите возможность использования [Windows Information Protection](../windows-information-protection-configure.md) для защиты приложений на устройствах под управлением Windows 10.<br>
+<sup>1</sup> Рассмотрите возможность использования [Windows Information Protection](../protect/windows-information-protection-configure.md) для защиты приложений на устройствах под управлением Windows 10.<br>
 <sup>2</sup> Поддерживается только для устройств под управлением Intune.<br>
 <sup>3</sup> Intune поддерживает доступные приложения из управляемого Google Play Маркета на устройствах Android для бизнеса.<br>
 <sup>4</sup> Intune не обеспечивает установку ярлыка приложения в качестве веб-ссылки на стандартных устройствах Android для бизнеса. Однако поддержка веб-ссылок предоставляется для [выделенных устройств Android для бизнеса с несколькими приложениями](../configuration/device-restrictions-android-for-work.md#dedicated-device-settings). 

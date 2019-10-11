@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7ffc99b34016eba6511f63d1df2184abc3cae858
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: c07ce82bbc056e1d76abeb5d31bf57e0973fad6e
+ms.sourcegitcommit: bdf948be824cf5390d5166a277f389f3785c81f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725170"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71960883"
 ---
 # <a name="add-android-enterprise-system-apps-to-microsoft-intune"></a>Добавление системных приложений Android для бизнеса в Microsoft Intune
 
@@ -42,9 +42,13 @@ ms.locfileid: "71725170"
 5. Нажмите кнопку **ОК**.
 6. Нажмите кнопку **Добавить**.
 
+> [!NOTE]
+> Вам необходимо будет обратиться к изготовителю вашего устройства, чтобы узнать название пакета приложения, которое вы хотите включить или отключить.
+
 Созданное приложение отображается в списке приложений, из которого его можно назначить выбранным группам. 
 
 Системные приложения Android для бизнеса включат или отключат приложения, которые уже являются частью платформы. Чтобы включить приложение, назначьте системное приложение как **Обязательное**. Чтобы отключить приложение, назначьте системное приложение как **Удалить**. Системные приложения нельзя назначить как доступные для пользователя.
+
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
