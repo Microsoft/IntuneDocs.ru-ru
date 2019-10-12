@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d7bba4617aa756c5f7168a2febf1a3f1ffdd2029
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 1938f6862fa7b74dccc4ea23ac139fcd955d77d7
+ms.sourcegitcommit: a50a1ca123ecc2c5ac129f112f73838748f56476
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71736004"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72237263"
 ---
 # <a name="mdm-security-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности MDM для Intune  
 
@@ -1622,7 +1622,7 @@ ms.locfileid: "71736004"
 
 - **Email content execution type** (Тип выполнения содержимого электронной почты)  
   Это правило блокирует запуск следующих типов файлов из сообщения электронной почты, отображаемого в Microsoft Outlook или веб-почте (например, Gmail.com и Outlook.com): исполняемые файлы (например, EXE, DLL или SCR), файлы скриптов (например, PS-файлы PowerShell, VBS-файлы VisualBasic или JS-файлы JavaScript), архивные файлы скриптов.  
-  [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067063)  
+  [Дополнительные сведения](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-executable-content-from-email-client-and-webmail) 
   
   **Значение по умолчанию**: "Блокировать"
 
@@ -1632,7 +1632,7 @@ ms.locfileid: "71736004"
 
 - **Network protection type** (Тип защиты сети)  
   Эта политика позволяет включить или отключить защиту сети (блокировка/аудит) в Exploit Guard в Защитнике Windows. Функция защиты сети входит в состав Exploit Guard в Защитнике Windows и защищает сотрудников, использующих любое приложение, от фишинговых сообщений, сайтов с эксплойтами и вредоносного содержимого в Интернете. Кроме того, она не позволяет сторонним браузерам подключаться к опасным сайтам. Тип значения — целое число. Если этот параметр включен, защита сети включена, и сотрудники не могут ее отключить. Работой этой функции можно управлять с помощью следующих параметров: "Блокировка" и "Аудит". Если включить эту политику с параметром "Блокировка", пользователи и приложения не смогут подключиться к опасным доменам. Эту активность можно просматривать в Центре безопасности Защитника Windows. Если включить эту политику с параметром "Аудит", пользователи и приложения смогут подключиться к опасным доменам. При этом вы также можете просматривать соответствующую активность в Центре безопасности Защитника Windows. Если отключить эту политику, пользователи и приложения смогут подключиться к опасным доменам. При этом никакая сетевая активность в Центре безопасности Защитника Windows не отображается Если эта политика не настроена, блокировка сети по умолчанию отключена.  
-  [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067102)  
+  [Дополнительные сведения](/windows/security/threat-protection/microsoft-defender-atp/enable-network-protection)  
   
   **Значение по умолчанию**: "Включить"
   

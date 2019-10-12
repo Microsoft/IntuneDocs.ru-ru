@@ -18,12 +18,12 @@ ms.reviewer: japoehlm
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bca7ff55653d12d352b4fb90163f4622a9e573ab
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 0719aca1dbb84358b0c54fbfac57143d2a77c0de
+ms.sourcegitcommit: 884654da8e72a63bfaea6b5def6c7891b065f251
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71721002"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72163455"
 ---
 # <a name="enroll-your-organization-provided-ios-device-in-management"></a>Регистрация корпоративных устройств с iOS в службе управления
 
@@ -35,7 +35,7 @@ ms.locfileid: "71721002"
 
 ## <a name="what-is-apple-dep"></a>Что такое Программа регистрации устройств Apple?
 
-Возможно, организация приобрела устройства по так называемой *Программе регистрации устройств Apple* (DEP). Некоторые организации покупают большое количество устройств с iOS или macOS через Apple DEP. Организации могут настраивать устройства и управлять ими с помощью любого поставщика управления мобильными устройствами, например Intune. Если вы являетесь администратором и хотите больше узнать о DEP, см. раздел [Автоматическая регистрация устройств с iOS с помощью программы регистрации устройств от Apple](https://docs.microsoft.com/intune/enrollment/device-enrollment-program-enroll-ios.md).  
+Возможно, организация приобрела устройства по так называемой *Программе регистрации устройств Apple* (DEP). Некоторые организации покупают большое количество устройств с iOS или macOS через Apple DEP. Организации могут настраивать устройства и управлять ими с помощью любого поставщика управления мобильными устройствами, например Intune. Если вы являетесь администратором и хотите больше узнать о DEP, см. раздел [Автоматическая регистрация устройств с iOS с помощью программы регистрации устройств от Apple](/intune/enrollment/device-enrollment-program-enroll-ios).
 
 ## <a name="set-up-your-ios-device"></a>Настройка устройства с iOS
 

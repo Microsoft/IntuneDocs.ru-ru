@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/12/2019
+ms.date: 10/10/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -14,12 +14,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 484035603e4fb447b004aad6c6f85726034f3c23
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 493db6299aa8242d0ca6ab669b313e85d0dc14c6
+ms.sourcegitcommit: b1e97211db7cb949eb39be6776b3a11d434fdab0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71732832"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72251584"
 ---
 # <a name="windows-10-and-later-settings-to-mark-devices-as-compliant-or-not-compliant-using-intune"></a>Параметры Windows 10 и более поздних версий, позволяющие пометить устройства как соответствующие или не соответствующие политике с помощью Intune
 
@@ -138,6 +138,9 @@ ms.locfileid: "71732832"
 - **Брандмауэр**: **Задайте значение требуется для включения** брандмауэра защитника Майкрософт и запрета его отключения пользователями. **Не настроено** (по умолчанию) не контролирует брандмауэр защитника Майкрософт и не изменяет существующие параметры.
 
   [CSP брандмауэра](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp)
+
+  > [!NOTE]
+  > Если устройство немедленно синхронизируется после перезагрузки или сразу же синхронизируется из спящего режима, этот параметр может сообщить **об ошибке**. Этот сценарий может не влиять на общее состояние соответствия устройства. Чтобы повторно оценить состояние соответствия, [Синхронизируйте устройство](https://docs.microsoft.com/intune-user-help/sync-your-device-manually-windows)вручную.
 
 - **Доверенный платформенный модуль (TPM) (доверенный платформенный модуль)** . Если задано значение " **требовать**", Intune проверяет версию на соответствие. Устройство соответствует требованиям, если версия микросхемы TPM больше 0 (нуля). Устройство не соответствует требованиям, если на устройстве отсутствует версия TPM. Если этот параметр **не настроен**, Intune не проверяет наличие версии МИКРОсхемы TPM на устройстве.
 

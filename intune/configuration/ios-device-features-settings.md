@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/02/2019
+ms.date: 10/08/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b8cd38174b9332f285e0dc4f938d99dbd5aecf74
-ms.sourcegitcommit: f04e21ec459998922ba9c7091ab5f8efafd8a01c
-ms.translationtype: HT
+ms.openlocfilehash: 341609afeec02c67b4ea0d85a541fca61345ced4
+ms.sourcegitcommit: fca2670142c083d7562c0a36547a6a451863e315
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71816892"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "72036475"
 ---
 # <a name="ios-and-ipados-device-settings-to-use-common-ios-features-in-intune"></a>Параметры устройств с iOS и iPadOS для использования распространенных функций iOS в Intune
 
@@ -42,6 +42,9 @@ ms.locfileid: "71816892"
 ## <a name="airprint"></a>AirPrint
 
 ### <a name="settings-apply-to-all-enrollment-types"></a>Параметры применяются к: все типы регистрации
+
+> [!NOTE]
+> Не забудьте добавить все принтеры в один профиль. Apple предотвращает нацеливание нескольких профилей AirPrint на одно устройство.
 
 - **IP-адрес**. Введите IPv4- или IPv6-адрес принтера. Если для обозначения принтеров используются имена узлов, IP-адрес можно получить, проверив связь с принтером с помощью терминала. Дополнительные сведения см. в этой статье в разделе "Получение IP-адреса и пути".
 - **Путь**. Как правило, для принтеров в сети путь будет таким: `ipp/print`. Дополнительные сведения см. в этой статье в разделе "Получение IP-адреса и пути".
