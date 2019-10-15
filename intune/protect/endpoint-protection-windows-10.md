@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 09/19/2019
+ms.date: 10/08/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.localizationpriority: medium
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0b9b9119294fe0757671568eb6b627974796b2de
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
-ms.translationtype: HT
+ms.openlocfilehash: 22e3779cd0772753ccd8843cd1f1ff38617298d6
+ms.sourcegitcommit: 884654da8e72a63bfaea6b5def6c7891b065f251
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71732728"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72163581"
 ---
 # <a name="windows-10-and-later-settings-to-protect-devices-using-intune"></a>Параметры Windows 10 (и более поздних версий) для защиты устройств с помощью Intune  
 
@@ -251,7 +251,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
   - **Не настроено**.  
   - **Блокировать** — действие брандмауэра по умолчанию не выполняется по исходящему трафику, если оно не указано явно, а не блокируется.  
-  - **Разрешение** -Действия брандмауэра по умолчанию выполняются для исходящих подключений.  
+  - **Разрешить** Действия брандмауэра по умолчанию выполняются для исходящих подключений.  
 
 - **Действие по умолчанию для входящих подключений**  
   **Значение по умолчанию**: не настроено  
@@ -776,26 +776,27 @@ Application Guard в Защитнике Windows изолирует среду в
  
 ## <a name="windows-defender-exploit-guard"></a>Exploit Guard в Защитнике Windows  
 
-С помощью [Exploit Guard в Защитнике Windows](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/windows-defender-exploit-guard) можно управлять приложениями, используемыми сотрудниками, и снижать их уязвимость.  
+Используйте [защиту от эксплойтов](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) для управления и снижения уязвимой зоны для приложений, используемых сотрудниками.  
 
 ### <a name="attack-surface-reduction"></a>Уменьшение уязвимой зоны  
 
-Сведения о правилах *уменьшения* уязвимой зоны см. в разделе [сокращение направлений атак с помощью защитника Windows Defender Guard](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard) в документации по эксплойту защитника Windows.  
+Правила уменьшения уязвимой зоны помогают предотвратить появление вредоносных программ, которые часто используются для заражения компьютера вредоносным кодом.  
 
 #### <a name="attack-surface-reduction-rules"></a>Правила уменьшения уязвимой зоны  
 
 - **Помечать кражу учетных записей из локальной системы безопасности Windows**  
   **Значение по умолчанию**: не настроено  
-  Защита от эксплойтов: [правила уменьшения](https://go.microsoft.com/fwlink/?linkid=874499) уязвимой зоны
+  Правило: [блокировать кражу учетных записей из локальной системы безопасности Windows (lsass.exe)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe)
 
   Позволяет блокировать действия и приложения, которые обычно используются вредоносным ПО для поиска уязвимостей и заражения компьютеров.  
+
   - **Не настроено**.  
   - **Включено** — помечайте кражу учетных записей из локальной системы безопасности Windows (lsass.exe).  
   - **Только аудит**  
 
 - **Создание процессов из Adobe Reader (бета-версия)**  
   **Значение по умолчанию**: не настроено  
-  Защита от эксплойтов: [правила уменьшения](https://go.microsoft.com/fwlink/?linkid=853979) уязвимой зоны  
+  Правило: [блокировать создание дочерних процессов Adobe Reader](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-adobe-reader-from-creating-child-processes)  
 
   - **Не настроено**.  
   - **Enable** — блокировать дочерние процессы, созданные из Adobe Reader.  
@@ -807,7 +808,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **внедрение приложений Office в другие процессы (без исключений);**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=872974)  
+  Правило: [блокировать вставку кода приложениями Office в другие процессы](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-office-applications-from-injecting-code-into-other-processes)  
 
   - **Не настроено**.  
   - **Блокировать** -блокировать внедрение приложений Office в другие процессы.  
@@ -815,7 +816,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **создание исполняемого содержимого приложениями или макросами Office;**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=872975)  
+  Правило: [блокировать создание исполняемого содержимого приложений Office](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-office-applications-from-creating-executable-content)  
 
   - **Не настроено**.  
   - **Блокировать** -блокировать создание исполняемого содержимого в приложениях Office и макросах.  
@@ -823,7 +824,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **запуск дочерних процессов приложениями Office;**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=872976)  
+  Правило. [блокирование создания дочерних процессов для всех приложений Office](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-all-office-applications-from-creating-child-processes)  
 
   - **Не настроено**.  
   - **Блокировать** -блокировать запуск дочерних процессов приложениями Office.  
@@ -831,7 +832,7 @@ Application Guard в Защитнике Windows изолирует среду в
   
 - **импорт Win32 из кода макросов Office.**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=872977)  
+  Правило: [блокировать вызовы API Win32 из макросов Office](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-win32-api-calls-from-office-macros)  
 
   - **Не настроено**.  
   - **Блок** -блоки Win32 Imports из кода макросов в Office.  
@@ -839,7 +840,7 @@ Application Guard в Защитнике Windows изолирует среду в
   
 - **Создание процессов из продуктов связи Office**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=874499)  
+  Правило: [блокировать создание дочерних процессов приложением связи Office](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-office-communication-application-from-creating-child-processes)  
 
   - **Не настроено**.  
   - **Enable** — блокировать создание дочернего процесса из приложений Office Communications.  
@@ -851,7 +852,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **код JS, VBS, PS или макросов с маскированием;**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=872978)    
+  Правило: [блокировать выполнение потенциально маскируемых скриптов](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-execution-of-potentially-obfuscated-scripts)    
 
   - **Не настроено**.  
   - **Блокировать** блокировать любой код с замаскированным JS/VBS/PS/Macro.  
@@ -859,7 +860,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **выполнение полезных данных, скачанных из Интернета, кодом JS или VBS (без исключений).**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=872979)  
+  Правило: [блокировать запуск скачанного исполняемого содержимого JavaScript или VBScript](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-javascript-or-vbscript-from-launching-downloaded-executable-content)  
 
   - **Не настроено**.  
   - **Блокировать** запуск полезных данных, скачанных из Интернета, на JS и VBS.  
@@ -867,7 +868,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **создание процессов с помощью команд PSExec и WMI**;  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=874500)  
+  Правило: [блокировать создание процессов с помощью команд PSExec и WMI](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-process-creations-originating-from-psexec-and-wmi-commands)  
 
   - **Не настроено**.  
   - **Блокировать** — блокирование создания процессов с помощью команд PSExec и WMI.  
@@ -876,7 +877,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **ненадежные и неподписанные процессы, запускаемые с USB-накопителей**;  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=874502)    
+  Правило: [блокировать ненадежные и неподписанные процессы, запускаемые с USB-накопителей](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-untrusted-and-unsigned-processes-that-run-from-usb)    
 
   - **Не настроено**.  
   - **Блокировать** — блокирование ненадежных и неподписанных процессов, запускаемых с USB-накопителей.  
@@ -884,7 +885,7 @@ Application Guard в Защитнике Windows изолирует среду в
   
 - **исполняемые файлы, которые не соответствуют условиям распространенности, возраста или включения в список доверенных**.  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=874503)    
+  Правило: [блокировать выполнение исполняемых файлов, если они не отвечают условиям распространенности, возраста или включения в список доверенных](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)    
 
   - **Не настроено**.  
   - **Блокировать** — блокирование выполнения исполняемых файлов, если они не отвечают условиям распространенности, возраста или включения в список доверенных.  
@@ -896,7 +897,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **выполнение исполняемого содержимого (EXE, DLL, PS, JS, VBS и т. д.), полученного по электронной почте через веб-клиент или почтовую программу (без исключений).**  
   **Значение по умолчанию**: не настроено  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=872980)  
+  Правило: [блокировать исполняемое содержимое из клиентов электронной почты и веб-почты](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#block-executable-content-from-email-client-and-webmail)  
 
   - **Не настроено**.  
   - **Блокировать** — выполнение исполняемого содержимого (EXE, DLL, PS, JS, VBS и т. д.), полученного по электронной почте через веб-клиент или почтовую программу.  
@@ -906,7 +907,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 - **Расширенная защита от программ-шантажистов**  
   Значение по умолчанию: "Не настроено"  
-  [Документация по защите эксплойтов](https://go.microsoft.com/fwlink/?linkid=874504)  
+  Правило: [использовать дополнительную защиту от программ-шантажистов](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#use-advanced-protection-against-ransomware)  
 
   - **Не настроено**.  
   - **Включить** — использование усиленной защиты от программ-шантажистов.  
@@ -932,7 +933,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
 ### <a name="controlled-folder-access"></a>Контролированный доступ к папкам  
 
-Позволяет [защищать ценные данные](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard) от доступа со стороны вредоносных приложений, а также от других угроз, таких как программы-шантажисты.  
+Позволяет [защищать ценные данные](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/controlled-folders) от доступа со стороны вредоносных приложений, а также от других угроз, таких как программы-шантажисты.  
 
 - **Защита папок**  
   **Значение по умолчанию**: не настроено  
@@ -979,7 +980,7 @@ Application Guard в Защитнике Windows изолирует среду в
 - **Отправить XML**  
   **Значение по умолчанию:** *Не настроено*  
 
-  Чтобы воспользоваться защитой эксплойтов для [защиты устройств от эксплойтов](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection), создайте XML-файл, содержащий необходимые параметры защиты системы и приложений. Создать XML-файл можно двумя способами:  
+  Чтобы воспользоваться защитой эксплойтов для [защиты устройств от эксплойтов](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection), создайте XML-файл, содержащий необходимые параметры защиты системы и приложений. Создать XML-файл можно двумя способами:  
 
   - *PowerShell*: используйте один или несколько командлетов — *Get-ProcessMitigation*, *Set-ProcessMitigation* и (или) *ConvertTo-ProcessMitigationPolicy*. Эти командлеты позволяют настроить параметры устранения рисков и экспортировать их в формате XML.  
 
