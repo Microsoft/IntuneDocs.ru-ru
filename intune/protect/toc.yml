@@ -210,7 +210,7 @@
     - name: Устранение неполадок
       items:
         - name: Устранение неполадок с политиками и профилями
-          href: troubleshoot-policies-in-microsoft-intune.md
+          href: ../configuration/troubleshoot-policies-in-microsoft-intune.md?context=./context/pr-context.yml
         - name: Устранение неполадок условного доступа
           href: troubleshoot-conditional-access.md
         - name: Устранение проблем с соединителем сертификатов

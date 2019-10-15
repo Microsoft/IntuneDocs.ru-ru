@@ -6,8 +6,9 @@
     - name: Обзор Microsoft Intune
       href: what-is-intune.md
       displayName: ems; emm; azure ad; active directory; ad
-    - name: В чем преимущества Intune для организации?
-      href: get-started-evaluation.md
+    - name: Общие сведения об управлении устройствами
+      href: what-is-device-management.md
+      displayName: teamviewer
     - name: Новые возможности
       href: whats-new.md
       items:
@@ -32,9 +33,6 @@
       href: tutorial-walkthrough-intune-portal.md
 - name: Основные понятия
   items:
-    - name: Что такое управление устройствами?
-      href: what-is-device-management.md
-      displayName: teamviewer
     - name: Основные сведения об Intune для образовательных учреждений
       href: introduction-intune-education.md
     - name: Высокоуровневая архитектура
