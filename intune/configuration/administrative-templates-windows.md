@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8b41405e2256d6d2608b05a9c7e8a40cbb3ab349
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 0d4bf6a52fd860695433e0020e9ec7390f98eca6
+ms.sourcegitcommit: 45d7c76e760c5117bf134fb57f7e248e5b6c4ad5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71724299"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72314649"
 ---
 # <a name="use-windows-10-templates-to-configure-group-policy-settings-in-microsoft-intune"></a>Использование шаблонов Windows 10 для настройки параметров групповой политики в Microsoft Intune
 
@@ -38,7 +38,7 @@ ms.locfileid: "71724299"
 
 - Некоторые из этих параметров доступны, начиная с Windows 10, версия 1703 (RS2). Не все параметры доступны во всех выпусках Windows. Для оптимизации рекомендуется использовать Windows 10 Корпоративная, версия 1903 (19H1) и выше.
 
-- Параметры Windows используют [политику поставщиков службы конфигурации Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#admx-backed-policies). Поставщики CSP работают в разных выпусках Windows, таких как Домашняя, Профессиональная, Корпоративная и т. д. Чтобы узнать, работает ли поставщик CSP в определенном выпуске, см. статью о [поставщиках CSP политики Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#admx-backed-policies).
+- Параметры Windows используют [политику поставщиков службы конфигурации Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#policies-supported-by-group-policy-and-admx-backed-policies). Поставщики CSP работают в разных выпусках Windows, таких как Домашняя, Профессиональная, Корпоративная и т. д. Чтобы узнать, работает ли поставщик CSP в определенном выпуске, см. статью о [поставщиках CSP политики Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#policies-supported-by-group-policy-and-admx-backed-policies).
 
 ## <a name="create-a-template"></a>Создание шаблона
 

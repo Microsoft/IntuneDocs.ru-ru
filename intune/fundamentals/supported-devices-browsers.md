@@ -17,18 +17,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c87cb90ee7803b0848c57b91a801976b2aa4d6e9
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 2d2777f2caabc24a457fc407b3e47facb1f6fc3c
+ms.sourcegitcommit: 45d7c76e760c5117bf134fb57f7e248e5b6c4ad5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71721712"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72314623"
 ---
 # <a name="supported-operating-systems-and-browsers-in-intune"></a>Поддерживаемые в Intune операционные системы и браузеры
 
 Перед настройкой Microsoft Intune просмотрите список поддерживаемых операционных систем и браузеров.
 
-Сведения об установке Intune на устройстве см. в статьях [Использование управляемых устройств для выполнения задач]https://docs.microsoft.com/intune-user-help/company-portal-frequently-asked-questions) и [Использование пропускной способности сети Intune](network-bandwidth-use.md).
+Сведения об установке Intune на устройстве см. в статьях [Использование управляемых устройств для выполнения задач](https://docs.microsoft.com/intune-user-help/company-portal-frequently-asked-questions) и [Использование пропускной способности сети Intune](network-bandwidth-use.md).
 
 Дополнительные сведения о поддержке поставщиков служб конфигурации см. в справочнике о [поставщиках служб конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference).
 

@@ -1,5 +1,6 @@
 ---
 title: Просмотр и изменение персональных данных
+titleSuffix: Microsoft Intune
 description: Сведения о просмотре и изменении персональных данных.
 keywords: ''
 author: ErikjeMS
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9261c451a7a5bdf5f718193adbfcb2389fa285a0
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 9b6ca291f55511be9e88b0ff898d9383691542bf
+ms.sourcegitcommit: a2654f3642b43b29ab0e1cbb2dfa2b56aae18d0e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71727926"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72310904"
 ---
 # <a name="view-and-correct-personal-data"></a>Просмотр и изменение персональных данных
 
@@ -43,7 +44,7 @@ ms.locfileid: "71727926"
 
 Вы можете защитить и контролировать доступ к персональным данным конечных пользователей с помощью управления доступом на основе ролей (RBAC). Дополнительные сведения см. в разделе [Управление доступом на основе ролей с помощью Microsoft Intune](../fundamentals/role-based-access-control.md).
 
-Дополнительные сведения о методах корпорации Майкрософт по работе с данными см. в [заявлении о конфиденциальности Microsoft Online Services](http://go.microsoft.com/fwlink/p/?linkid=131004&clcid=0x409). 
+Дополнительные сведения о методах корпорации Майкрософт по работе с данными см. в [заявлении о конфиденциальности Microsoft Online Services](https://go.microsoft.com/fwlink/p/?linkid=131004&clcid=0x409). 
 
 ## <a name="correct-end-user-personal-data"></a>Исправление персональных данных конечных пользователей
 
