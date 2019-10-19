@@ -9,6 +9,7 @@ ms.date: 07/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: f0ba4cbb-ef0a-4335-86bf-f1d006867fa2
 searchScope:
@@ -18,12 +19,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 16c6708fb730c459f41fec573a939bfb4fb5ddda
-ms.sourcegitcommit: 549352bdea93cc2809e3e0010bfcc10bd44dc728
+ms.openlocfilehash: 25ec84946aec9562aedce12b4199269f8de06f76
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68862140"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72500016"
 ---
 # <a name="install-missing-certificate-required-by-your-organization"></a>Установка недостающего сертификата, необходимого для вашей организации  
 
@@ -43,8 +44,8 @@ ms.locfileid: "68862140"
 
 1. В приложении корпоративный портал перейдите в правый угол и выберите меню.  
 2. Выберите **Параметры**.  
-3. Чтобы **включить доступ через** браузер, **выберите**включить.  
-4. На экране администратора устройства выберите **активировать.** 
+3. Чтобы **включить доступ через браузер** , выберите **включить**.  
+4. На экране администратора устройства выберите **активировать**. 
 
 ## <a name="identify-and-download-the-missing-certificate-through-web-search"></a>Обнаружение и скачивание отсутствующего сертификата с помощью веб-поиска
 Выполните следующие действия, чтобы вручную найти и установить сертификат на устройстве.  

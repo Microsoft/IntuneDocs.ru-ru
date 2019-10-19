@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 08/21/2019
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: developer
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 275d574b-3560-4992-877c-c6aa480717f4
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: de367f28f3f1c7731e5ab67d904aec799925cc03
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 19202d4387635b7cd1f7e4604d755fb8a213d327
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71733729"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72503434"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -110,7 +111,7 @@ ms.locfileid: "71733729"
 #### <a name="remapper"></a>Remapper
 Начиная с выпуска 1.4428.1, пакет `Microsoft.Intune.MAM.Remapper` можно добавить в приложение Xamarin. Android как [средства сборки](app-sdk-android.md#build-tooling) для выполнения замены класса MAM, метода и системных служб. Если включено повторное сопоставление, то при построении приложения будет автоматически выполняться эквивалентное заменяющее подразделов MAM для переименованных методов и приложений MAM.
 
-Чтобы исключить класс из унификации MAM путем повторного сопоставления, в проектах `.csproj` можно добавить следующее свойство.
+Чтобы исключить класс из унификации MAM с помощью повторного сопоставления, в проекте `.csproj` файл можно добавить следующее свойство.
 
 ```xml
   <PropertyGroup>

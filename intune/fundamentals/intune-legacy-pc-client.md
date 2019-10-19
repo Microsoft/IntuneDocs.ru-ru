@@ -8,20 +8,20 @@ manager: dougeby
 ms.date: 06/15/2018
 ms.topic: archived
 ms.service: microsoft-intune
+ms.subservice: fundamentals
 ms.localizationpriority: medium
-ms.technology: ''
-ms.assetid: ''
+ms.assetid: 1f104923-12df-453c-9c20-942ef65a0945
 ms.reviewer: owenyen
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fe6b5967a5980304ba2f6c9af75491463dae1b4b
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 5ab1be3d34d52e824d1ff06124e28206fb7b07a1
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71736108"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72510194"
 ---
 # <a name="intune-on-azure-console-and-legacy-intune-pc-client"></a>Intune в консоли Azure и устаревшем клиенте компьютера Intune
 
@@ -34,6 +34,8 @@ ms.locfileid: "71736108"
 Мы рекомендуем использовать [управление мобильными устройствами (MDM) для управления устройствами с Windows 10](../configuration/device-restrictions-windows-10.md) вместо устаревшего клиента компьютера Intune. Возможность управлять устройствами с Windows 10 с помощью MDM доступна в Intune на портале Azure. При таком управлении предоставляется множество новых возможностей управления и обеспечения безопасности, которые недоступны в устаревшем клиенте компьютера Intune.
 
 ## <a name="legacy-pc-client-features-are-only-available-in-the-silverlight-console"></a>Устаревшие функции клиента компьютера доступны только в консоли Silverlight
+
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 Рабочие процессы управления клиента компьютера Intune используют [консоль администрирования Intune на базе Silverlight](https://manage.microsoft.com/), что приводит к следующим последствиям:
 
@@ -61,7 +63,7 @@ ms.locfileid: "71736108"
 Чтобы перейти от управления устройствами с Windows 10 с помощью клиента Intune к управлению с помощью MDM, сделайте следующее:
 
 1. В консоли Silverlight выполните **выборочную очистку** для отмены регистрации устройства в клиенте компьютера.
-  всплывающее окно ![Warning с выбранным переключателем "Выборочная очистка устройства" @ no__t-1
+  ![Warning всплывающее окно с выбранным переключателем "Выборочная очистка устройства" ](./media/intune-legacy-pc-client/image02.png)
 2. Повторно зарегистрируйте устройство с помощью [MDM (или путем присоединения к Azure Active Directory)](../enrollment/windows-enroll.md).
 
 ## <a name="next-steps"></a>Дальнейшие шаги

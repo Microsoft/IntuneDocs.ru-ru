@@ -6,8 +6,9 @@ author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 03/26/2019
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.service: microsoft-intune
+ms.subservice: configuration
 ms.localizationpriority: ''
 ms.technology: ''
 ms.assetid: ''
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 324550836cd8e7c8ea2786d15618d5f5010a043f
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: e7ed93c86d3fbe7ed7a6ac5d4b1a3494fb55f2bc
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71735250"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72506989"
 ---
 # <a name="troubleshoot-and-see-potential-issues-on-android-zebra-devices-in-microsoft-intune"></a>Устранение неполадок и просмотр потенциальных проблем на устройствах Android черно в Microsoft Intune
 
@@ -60,7 +61,7 @@ ms.locfileid: "71735250"
 
 ## <a name="read-the-logs"></a>Чтение журналов
 
-При просмотре журналов возникает ошибка при появлении тега `<characteristic-error>`. Сведения об ошибке записываются в `<parm-error>` Tag > `desc`.
+При просмотре журналов возникает ошибка при появлении тега `<characteristic-error>`. Сведения об ошибке записываются в `<parm-error>` тег > свойства `desc`.
 
 ## <a name="error-types"></a>Типы ошибок
 

@@ -7,8 +7,8 @@ ms.author: lanewsad
 manager: dougeby
 ms.date: 01/23/2017
 ms.topic: article
-ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: 0dc35efe-4fd4-4d4a-8569-d649ea704fea
 searchScope:
@@ -18,12 +18,12 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ebc7a9a1e9cc355a06baa4b7134216ecc6cd0da5
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: 61825741a5651daa55727c706ba683628e723c8a
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67545284"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72490284"
 ---
 # <a name="installing-the-company-portal-app-for-windows-10"></a>Установка приложения корпоративного портала для Windows 10  
 
@@ -37,7 +37,7 @@ ms.locfileid: "67545284"
 
 - сбросить телефон до заводских настроек при его утере или краже.
 
-Когда все будет готово для установки корпоративного портала и зарегистрировать устройство, см. в разделе [приступить к работе с Windows регистрации](windows-enrollment-company-portal.md).  
+Когда вы будете готовы установить корпоративный портал и зарегистрировать устройство, см. статью Начало [работы с регистрацией Windows](windows-enrollment-company-portal.md).  
 
 При добавлении компьютера происходит следующее.
 

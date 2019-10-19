@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 10/02/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: ''
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aa4dbfb7c13d767df41655b391767fc7aa13d914
-ms.sourcegitcommit: f04e21ec459998922ba9c7091ab5f8efafd8a01c
+ms.openlocfilehash: b30a7e843850d6918abc2e76f84397a1f197516f
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71817590"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72508855"
 ---
 # <a name="resolve-common-errors-for-the-intune-exchange-connector"></a>Устранение распространенных ошибок для соединителя Intune Exchange
 
@@ -76,7 +77,7 @@ ms.locfileid: "71817590"
    Verify that you are connected to the Internet, check the Microsoft Intune Service Status, and try to connect again.  
    Error code: 0x00000006  
 ```  
-Эта ошибка может возникать, если прокси-сервер используется для подключения к Интернету и блокирует трафик к службе Intune. Чтобы определить, используется ли прокси-сервер, перейдите в раздел **Панель управления** > **Свойства браузера**, перейдите на вкладку **Подключение** и нажмите кнопку **Параметры локальной сети**.
+Эта ошибка может возникать, если прокси-сервер используется для подключения к Интернету и блокирует трафик к службе Intune. Чтобы определить, используется ли прокси-сервер, выберите **Панель управления**  > **Свойства обозревателя**, перейдите на вкладку **Подключение** и нажмите кнопку **Параметры локальной сети**.
 
 **Решение**.  
 
@@ -131,7 +132,7 @@ ms.locfileid: "71817590"
 
 1. Войдите в систему с учетной записью администратора или члена группы "Администраторы".
 2. Запустите **secpol. msc** , чтобы открыть локальную политику безопасности.
-3. Перейдите в раздел **Параметры безопасности** > **Локальные политики**, а затем выберите **Назначение прав пользователя**.
+3. Перейдите в раздел **Параметры безопасности**  > **Локальные политики**, а затем выберите **Назначение прав пользователя**.
 4. На правой панели дважды щелкните **Вход в качестве службы**.
 5. Выберите **Добавить пользователя или группу**, добавьте **WIEC_USER** в политику, а затем нажмите кнопку **ОК** два раза.
 

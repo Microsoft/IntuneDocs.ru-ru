@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 08/15/2019
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: developer
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: cd9f05e7-26e6-45e0-8d38-67d8232b1cae
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 580e9f51532a5606ca8955abc5bf3b3fa3a63713
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 17b5a4a510dd8310b9c9c7bcc00a63752cdd4155
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71733703"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72505719"
 ---
 # <a name="microsoft-intune-app-sdk-overview"></a>Общие сведения о пакете SDK для приложений Microsoft Intune
 Пакет SDK для приложений Intune, доступный для iOS и Android, позволяет приложению поддерживать [политики защиты приложений](../apps/app-protection-policy.md) Intune. Если к приложению применяются политики защиты приложений, оно может управляться Intune и распознается Intune как управляемое приложение. Этот пакет позволяет уменьшить объем изменений кода, которые необходимо внести разработчику. Вы обнаружите, что большинство функций SDK можно включить без изменения поведения приложения. В целях улучшения взаимодействия с конечными пользователями и администраторами можно воспользоваться API пакета SDK, чтобы настроить поведение приложения для тех функций, которые требуют содействия со стороны приложения.

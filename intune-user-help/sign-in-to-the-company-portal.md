@@ -9,6 +9,7 @@ ms.date: 09/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: cfd214bc-f072-4808-af2e-a3cbf7af9bca
 searchScope:
@@ -18,12 +19,12 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 16d7142e6dc38a177f8820f60e7335b8b23a1eeb
-ms.sourcegitcommit: 8934b1abec96e18cee15a77107d37551766f7666
+ms.openlocfilehash: 68a44027c14e0a52d72fc032a6ab42413fa8df96
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71099799"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72508307"
 ---
 # <a name="sign-in-to-company-portal"></a>Войдите в корпоративный портал  
 
@@ -39,7 +40,7 @@ ms.locfileid: "71099799"
 
 1. Откройте приложение на устройстве и нажмите **войти**.  
 
-   [![Снимок экрана с примером страницы входа корпоративный портал. ](/intune-user-help/media/intune-ios-cp-signin-1908.png)](/intune-user-help/media/intune-ios-cp-signin-lightbox-1908.png#lightbox)  
+   [снимок экрана ![Example странице входа корпоративный портал. ](/intune-user-help/media/intune-ios-cp-signin-1908.png)](/intune-user-help/media/intune-ios-cp-signin-lightbox-1908.png#lightbox)  
 
 
 2. Введите свою **рабочую или учебную учетную запись** и нажмите кнопку **Далее**.
@@ -78,7 +79,7 @@ ms.locfileid: "71099799"
 
    ![В инструкциях рекомендуется перейти на страницу https://microsoft.com/devicelogin с использованием уникального секретного кода с рабочего компьютера, а затем использовать код для входа.](/intune-user-help/media/cp_ios_aad_signin_after_1804_006.png)
 
-3. На другом устройстве (которое вы используете для проверки подлинности) откройте браузер и перейдите по [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin)адресу. Введите или вставьте код.  
+3. На другом устройстве (используемом для проверки подлинности) откройте браузер и перейдите по адресу [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin). Введите или вставьте код.  
 
    ![Изображение браузера пользователя на рабочем компьютере, а не в приложении корпоративного портала. На странице "Вход на устройство" у пользователя запрашивается код, полученный в приложении корпоративного портала.](/intune/media/cp_ios_aad_signin_from_another_device_after_1704_004.png)
 
