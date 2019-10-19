@@ -9,20 +9,21 @@ manager: dougeby
 ms.date: 1/4/2018
 ms.topic: archived
 ms.service: microsoft-intune
+ms.subservice: fundamentals
 ms.localizationpriority: medium
 ms.technology: ''
-ms.assetid: ''
+ms.assetid: 809d9d76-20f8-4329-9e18-cd7d4946a9af
 ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f74ed8586bcfca21ea7434ec1c6ad045c8bc1bbd
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 9de5d1550c860d9b160203b47b883550ea4db90e
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71735562"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72504932"
 ---
 # <a name="where-did-my-intune-feature-go-in-azure"></a>Мои функции Intune исчезли в Azure. Почему?
 Мы воспользовались возможностью более логично организовать некоторые задачи, когда перенесли Intune на портал Azure. Но любые улучшения предполагают новую организацию, которую вам предстоит изучить. Этот справочник предназначен для тех, кто хорошо знаком с функциями Intune на классическом портале и теперь не вполне понимает, как выполнить то или иное действие Intune на портале Azure. Если нужная вам функция не рассматривается в этой статье, оставьте комментарий ниже, чтобы мы могли добавить необходимые сведения.

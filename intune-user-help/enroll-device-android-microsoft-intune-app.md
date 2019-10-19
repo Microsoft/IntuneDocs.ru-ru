@@ -9,6 +9,7 @@ ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: 0ed3a002-7533-4001-ae24-e10b64b66620
 searchScope:
@@ -18,12 +19,12 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ef7ec650c65206eeab69d8f666dc4fb39052bbdb
-ms.sourcegitcommit: 549352bdea93cc2809e3e0010bfcc10bd44dc728
+ms.openlocfilehash: 81c842eb27b1b9131c164ced5aeed86a78a37353
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68862164"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72506297"
 ---
 # <a name="enroll-your-corporate-device-with-the-microsoft-intune-app"></a>Регистрация корпоративного устройства с помощью приложения Microsoft Intune
 
@@ -78,11 +79,11 @@ ms.locfileid: "68862164"
 
    ![Пример снимка экрана вашего рабочего телефона с выделенной кнопкой "Установить".](./media/fully-managed-intune-app-11.png)   
 
-10. Нажмите **кнопку** Пуск, чтобы открыть приложение Microsoft Intune и зарегистрировать устройство. 
+10. Нажмите кнопку **Пуск** , чтобы открыть приложение Microsoft Intune и зарегистрировать устройство. 
 
     ![Пример снимка экрана вашего рабочего телефона с выделенной кнопкой "Пуск".](./media/fully-managed-intune-app-17.png)   
 
-11. Коснитесь **элемента **вход, а затем нажмите** кнопку Далее, чтобы начать регистрацию.** Когда появится сообщение о завершении регистрации, коснитесь элемента **готово.**  
+11. Коснитесь элемента **Вход** , а затем нажмите кнопку **Далее** , чтобы начать регистрацию. Когда появится сообщение о завершении регистрации, коснитесь элемента **Готово**.  
 
     ![Пример изображения: Настройка доступа, регистрация устройства, выделение выполненной кнопки.](./media/fully-managed-intune-app-19.png)   
 

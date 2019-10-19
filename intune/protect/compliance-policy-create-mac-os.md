@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 04/04/2019
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.reviewer: muhosabe
@@ -15,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 22bd3dd50f6c2cbeba59aad4dd00683d52668f72
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: cada774003f73f487f87ed8051115dfcaaae6a20
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71733040"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72502488"
 ---
 # <a name="macos-settings-to-mark-devices-as-compliant-or-not-compliant-using-intune"></a>Параметры macOS, позволяющие пометить устройства как соответствующие или не соответствующие политике с помощью Intune
 

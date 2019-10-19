@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 07/25/2019
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: ''
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1938f6862fa7b74dccc4ea23ac139fcd955d77d7
-ms.sourcegitcommit: a50a1ca123ecc2c5ac129f112f73838748f56476
+ms.openlocfilehash: 21d70bb0322ec05ceb091844827151ce746cda6f
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72237263"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72508958"
 ---
 # <a name="mdm-security-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности MDM для Intune  
 

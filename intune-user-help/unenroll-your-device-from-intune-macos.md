@@ -9,6 +9,7 @@ ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: dd79fc4d-6265-4dd0-87fb-8ab66b1cf692
 searchScope:
@@ -18,14 +19,14 @@ ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6e7290820134ffba2638c313adb4297d7da29c3b
-ms.sourcegitcommit: bccfbf1e3bdc31382189fc4489d337d1a554e6a1
+ms.openlocfilehash: d4d6ecdc84371c0f485fc1cf26065ed681f29804
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67545957"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72501922"
 ---
-# <a name="unenroll-your-macos-device-from-company-portal"></a>Отмена регистрации устройства с корпоративного портала macOS
+# <a name="unenroll-your-macos-device-from-company-portal"></a>Отмена регистрации устройства macOS в корпоративный портал
 
 Устройство macOS с отмененной регистрацией в Intune больше не сможет получать доступ к ресурсам организации.
 
@@ -34,8 +35,8 @@ ms.locfileid: "67545957"
 1. Войдите в Корпоративный портал для macOS.
 2. Щелкните **Устройства** и выберите устройство, регистрацию которого вы хотите отменить.
 
-3. Щелкните значок меню с многоточием > **удалить**.
-4. Появится сообщение с подтверждением. Выберите **удалить** отменить регистрацию устройства. 
+3. Выберите значок меню с многоточием > **Удалить**.
+4. Появится сообщение с подтверждением. Выберите **Удалить** , чтобы отменить регистрацию устройства. 
 
 При отмене регистрации устройства в Intune происходит следующее:
 

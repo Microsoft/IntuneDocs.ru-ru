@@ -9,6 +9,7 @@ ms.date: 10/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: 3d648819-b866-412b-bd19-ac4505eb5eaf
 searchScope:
@@ -18,17 +19,17 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2ced8f1ec37f652b7e283328141bc591b5961587
-ms.sourcegitcommit: 8934b1abec96e18cee15a77107d37551766f7666
+ms.openlocfilehash: ec3f1996052e31a70ca44c40c277a7c5ff93819a
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71099838"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72507991"
 ---
 # <a name="using-your-ios-device-with-intune-company-portal"></a>Использование устройства iOS с Корпоративным порталом Intune
 В этой статье приводятся задачи и сведения, относящиеся к корпоративному порталу для iOS. Используйте их для устранения неполадок устройства iOS и управления им. Щелкните любую ссылку, чтобы просмотреть дополнительные сведения, инструкции и снимки экрана.
 
-## <a name="supported-versions"></a>Поддерживаемые версии ОС
+## <a name="supported-versions"></a>Поддерживаемые версии
 
 Корпоративный портал для iOS в настоящее время поддерживает iOS 10.0 и более поздние версии.  
 

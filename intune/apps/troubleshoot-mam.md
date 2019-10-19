@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 10/03/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: cd5a0a3b-0013-4be3-a233-ce6e9083149f
@@ -16,12 +17,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9a272da470e206279e68077ce80324183c7a8227
-ms.sourcegitcommit: 223d64a72ec85fe222f5bb10639da729368e6d57
+ms.openlocfilehash: 43fd8207a07f64fd293eb9c90bbfc2a8dadd9157
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71940456"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72489932"
 ---
 # <a name="troubleshoot-mobile-application-management"></a>Устранение неполадок управления мобильными приложениями
 
@@ -111,7 +112,7 @@ Android | **Company Portal required** (Требуется корпоративн
 ## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Проверка настройки управления мобильными приложениями](app-protection-policies-validate.md)
-- Сведения об использовании файлов журнала для устранения неполадок Защита приложений Intune политике см. в разделе [https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-Intune-app-protection-policy-using/ba-p/330372](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-Intune-app-protection-policy-using/ba-p/330372) .
+- Сведения об использовании файлов журнала для устранения неполадок Защита приложений Intune политике см. в разделе [https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-Intune-app-protection-policy-using/ba-p/330372](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-Intune-app-protection-policy-using/ba-p/330372)
 - Дополнительные сведения об устранении неполадок в службе Intune см. в руководстве по [использованию портала диагностики для оказания помощи пользователям в вашей компании](../fundamentals/help-desk-operators.md). 
 - Вы можете узнать об известных проблемах в Microsoft Intune. См. статью [Известные проблемы в Microsoft Intune](../known-issues.md).
 - Нужна дополнительная помощь? См. [ Получение поддержки для Microsoft Intune](../fundamentals/get-support.md).

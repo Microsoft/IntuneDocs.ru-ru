@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 01/01/2018
 ms.topic: archived
 ms.service: microsoft-intune
+ms.subservice: fundamentals
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 9549c072-ac3d-4d14-a931-a2eda8846217
@@ -17,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4de635066b2f054b9061f6944bc4010a56d54526
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 2c736c905045fd3afd40a12243986fbe69452ecd
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71735822"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72502823"
 ---
 # <a name="help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune"></a>Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune.
 
-[!INCLUDE [classic-portal](../../intune-classic/includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 > [!NOTE]
 > Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune. Если вы хотите управлять параметрами брандмауэра для компьютеров Windows, зарегистрированных как мобильные устройства, см. раздел [Добавление параметров Endpoint Protection в Intune](../protect/endpoint-protection-configure.md).
@@ -43,7 +44,7 @@ Microsoft Intune позволяет защитить компьютеры Window
 > [!NOTE]
 > Если политика Microsoft Intune и групповая политика настроены для управления одним и тем же параметром на одном и том же компьютере, настройки групповой политики переопределяют настройки политики Microsoft Intune. Сведения о предотвращении конфликтов между политиками Intune и групповой политикой см. в статье [Разрешение конфликтов GPO и политик Microsoft Intune](resolve-gpo-and-microsoft-intune-policy-conflicts.md).
 >
-> Если вы хотите развернуть параметры брандмауэра Windows на компьютерах под управлением Windows Vista, необходимо сначала установить [исправление KB971800](http://support2.microsoft.com/kb/971800) на этих компьютерах.
+> Если вы хотите развернуть параметры брандмауэра Windows на компьютерах под управлением Windows Vista, необходимо сначала установить [исправление KB971800](https://support2.microsoft.com/kb/971800) на этих компьютерах.
 
 > [!IMPORTANT]
 > Для управления брандмауэром Windows с помощью Intune необходимо убедиться в том, что на управляемых компьютерах включены две следующие службы:
@@ -84,7 +85,7 @@ Microsoft Intune позволяет защитить компьютеры Window
 Значением по умолчанию для каждого из этих параметров является **Да** — наиболее безопасное значение.
 
 > [!IMPORTANT]
-> Если в среде есть управляемые компьютеры, на которых установлена ОС Windows Vista без пакетов обновления, необходимо установить обновление, описанное в [статье 971800](http://go.microsoft.com/fwlink/?LinkId=188405) базы знаний Майкрософт, или отключить в политиках, развернутых на этих компьютерах, параметр **Блокировать все входящие подключения** .
+> Если в среде есть управляемые компьютеры, на которых установлена ОС Windows Vista без пакетов обновления, необходимо установить обновление, описанное в [статье 971800](https://go.microsoft.com/fwlink/?LinkId=188405) базы знаний Майкрософт, или отключить в политиках, развернутых на этих компьютерах, параметр **Блокировать все входящие подключения** .
 
 ### <a name="notify-the-user-when-windows-firewall-blocks-a-new-program"></a>Уведомлять пользователя, когда брандмауэр Windows блокирует новую программу
 

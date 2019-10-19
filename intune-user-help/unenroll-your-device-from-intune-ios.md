@@ -9,6 +9,7 @@ ms.date: 04/02/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: 28914db1-3e62-45f5-9632-b0d2a808a44d
 searchScope:
@@ -18,12 +19,12 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2eb47240516737f03c10d1280887fea275c5ed99
-ms.sourcegitcommit: 7c251948811b8b817e9fe590b77f23aed95b2d4e
+ms.openlocfilehash: fb8aa6213585af89c20c45f38e885644f65eab51
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "67883939"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72508095"
 ---
 # <a name="remove-your-ios-device-from-intune"></a>Удаление устройства iOS из Intune
 

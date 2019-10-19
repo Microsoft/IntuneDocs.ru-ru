@@ -9,18 +9,19 @@ manager: dougeby
 ms.date: 3/6/2018
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: configuration
 ms.localizationpriority: medium
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ec832e6eb78df9b7ee977705e8b60c5ee2e898fa
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 0df55e79dbc54926c0507889620f2667d7b8bd7b
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71734782"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72489831"
 ---
 # <a name="microsoft-intune-windows-81-and-later-device-restriction-settings"></a>Параметры ограничений для устройств с ОС Windows 8.1 и более поздних версий в Microsoft Intune
 

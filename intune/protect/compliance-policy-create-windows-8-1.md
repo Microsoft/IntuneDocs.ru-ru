@@ -8,18 +8,19 @@ manager: dougeby
 ms.date: 04/04/2019
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f37fbd4cf2cc67e8e102ae5bdd4647e0073aa2da
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 322d6f1e23464f1f75cc79346d839a9ccdbd7bc7
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71733027"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72504639"
 ---
 # <a name="windows-81-settings-to-mark-devices-as-compliant-or-not-compliant-using-intune"></a>Параметры Windows 8.1, позволяющие пометить устройства как соответствующие или не соответствующие политике с помощью Intune
 

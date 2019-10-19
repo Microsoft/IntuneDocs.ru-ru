@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 01/01/2018
 ms.topic: archived
 ms.service: microsoft-intune
+ms.subservice: fundamentals
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: e76af5b7-e933-442c-a9d3-3b42c5f5868b
@@ -17,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9834181d4b6c010cc5ca83eadfb424d036ab13d6
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 745534f2c65bc9585ab4639f9d5a6d101638c5f9
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71736186"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72509850"
 ---
 # <a name="resolve-group-policy-objects-gpo-and-microsoft-intune-policy-conflicts"></a>Разрешение конфликтов объектов групповой политики (GPO) и политик Microsoft Intune
 
-[!INCLUDE [classic-portal](../../intune-classic/includes/classic-portal.md)]
+[!INCLUDE [classic-portal](../includes/classic-portal.md)]
 
 > [!NOTE]
 > Сведения в этом разделе относятся только к настольным системам Windows, которые управляются как компьютеры с помощью программного клиента Intune.
