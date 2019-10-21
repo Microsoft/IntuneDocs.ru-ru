@@ -41,6 +41,16 @@
       href: device-lifecycle.md
     - name: Жизненный цикл приложения
       href: ../apps/app-lifecycle.md
+    - name: Интерактивные сценарии
+      items:
+        - name: Обзор. Интерактивные сценарии
+          href: guided-scenarios-overview.md
+        - name: Развертывание Microsoft Edge для мобильных устройств
+          href: guided-scenarios-edge.md
+        - name: Управляемые облаком современные настольные компьютеры
+          href: guided-scenarios-cloud-managed-pc.md
+        - name: Безопасные мобильные приложения Microsoft Office
+          href: guided-scenarios-office-mobile.md
     - name: Распространенные сценарии
       href: common-scenarios.md
     - name: "Принятие технических решений при реализации концепции BYOD с помощью Enterprise Mobility\_+ Security"
@@ -175,6 +185,8 @@
       href: ../protect/index.yml
     - name: Управление приложениями и их защита
       href: ../apps/index.yml
+    - name: Использование наборов политик
+      href: ~/fundamentals/policy-sets.md
     - name: Руководство разработчика
       href: ../developer/index.yml
     - name: Справка и поддержка

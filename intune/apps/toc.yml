@@ -82,6 +82,10 @@
           items:
             - name: Приложение корпоративного портала
               href: store-apps-company-portal-app.md
+            - name: Microsoft Edge для Windows 10
+              href: apps-windows-edge.md
+            - name: Microsoft Edge для macOS
+              href: apps-edge-macos.md
         - name: Сценарии PowerShell
           href: intune-management-extension.md
     - name: Назначение приложений

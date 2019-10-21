@@ -197,6 +197,8 @@
           displayName: ca; pkcs; pki; ra; registration authority
         - name: Удаление сертификатов SCEP и PKCS
           href: remove-certificates.md
+    - name: Производные учетные данные
+      href: derived-credentials.md
     - name: Обновления программного обеспечения
       items:
         - name: Обновления Windows
