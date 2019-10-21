@@ -1,7 +1,7 @@
 ---
 title: Обеспечение соответствия требованиям путем интеграции Jamf Pro c Microsoft Intune
 titleSuffix: Microsoft Intune
-description: Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для защиты управляемых устройств Jamf.
+description: Политики соответствия Microsoft Intune с условным доступом Azure Active Directory можно использовать для интеграции и защиты управляемых устройств Jamf.
 keywords: ''
 author: brenduns
 ms.author: brenduns
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d7a63f3ff1e2936eff0961d4a9b368b0289e2b65
-ms.sourcegitcommit: f04e21ec459998922ba9c7091ab5f8efafd8a01c
+ms.openlocfilehash: 09566e314f801c0de3f371384126cf672403b6a3
+ms.sourcegitcommit: dd6755383ba89824d1cc128698a65fde6bb2de55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71813969"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72306650"
 ---
 # <a name="integrate-jamf-pro-with-intune-for-compliance"></a>Обеспечение соответствия требованиям путем интеграции Jamf Pro c Intune
 

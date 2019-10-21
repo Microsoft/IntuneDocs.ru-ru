@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 345d039fede2a77ba0485944cb601683bdcebfda
-ms.sourcegitcommit: 29b1113dc04534c4c87c33c773c5a0e24266e042
+ms.openlocfilehash: e993df5c37cfed8d5dd0481543b406dd25ad1a49
+ms.sourcegitcommit: b1e97211db7cb949eb39be6776b3a11d434fdab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71999300"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72251568"
 ---
 # <a name="use-certificates-for-authentication-in-microsoft-intune"></a>Использование сертификатов для проверки подлинности в Microsoft Intune  
 
@@ -51,7 +51,8 @@ ms.locfileid: "71999300"
 | Платформа              | Профиль доверенного сертификата | Профиль сертификата PKCS | Профиль сертификата SCEP | Профиль импортированного сертификата PKCS  |
 |--|--|--|--|---|
 | Администратор устройства с Android | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png)|  ![Поддерживается](./media/certificates-configure/green-check.png) |
-| Android для бизнеса <br> — Владелец устройства   | ![Поддерживается](./media/certificates-configure/green-check.png) |   |  |   |
+| Android для бизнеса <br> Полностью управляемые устройства (владелец устройства)   | ![Поддерживается](./media/certificates-configure/green-check.png) |   | ![Поддерживается](./media/certificates-configure/green-check.png) |   |
+| Android для бизнеса <br> Выделенное устройство (владелец устройства)   |  |   |  |   |
 | Android для бизнеса <br> — Рабочий профиль    | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
 | iOS                   | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
 | macOS                 | ![Поддерживается](./media/certificates-configure/green-check.png) |   |![Поддерживается](./media/certificates-configure/green-check.png)|![Поддерживается](./media/certificates-configure/green-check.png)|

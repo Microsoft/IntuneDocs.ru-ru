@@ -16,12 +16,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7bb684e787a75900ca2157a04150a8fc6c4ba715
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 7e0a01034bc35ddf8fd8eb1ede5fcf4c942dc735
+ms.sourcegitcommit: dd6755383ba89824d1cc128698a65fde6bb2de55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71721270"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72306802"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-unmanaged-devices"></a>Руководство. Защита электронной почты Exchange Online на неуправляемых устройствах
 
@@ -113,7 +113,7 @@ ms.locfileid: "71721270"
    3. Снимите остальные флажки.  
    4. Выберите **Готово** > **Готово** для возврата на панель новой политики.  
 
-   ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-unmanaged-devices/modern-auth-policy-client-apps.png)
+   ![Выбор "Мобильные приложения и клиенты"](./media/tutorial-protect-email-on-unmanaged-devices/modern-auth-policy-client-apps.png)
 
 7. В разделе **Элементы управления доступом** выберите **Предоставить**. 
      
@@ -123,11 +123,11 @@ ms.locfileid: "71721270"
    4. В разделе **Для нескольких элементов управления** выберите **Требовать все выбранные элементы управления**. Этот параметр гарантирует, что, когда устройство обратится к электронной почте, будут применяться оба выбранных требования.
    5. Щелкните **Выбрать**.
      
-   ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-unmanaged-devices/modern-auth-policy-mfa.png)
+   ![Выбор элементов управления](./media/tutorial-protect-email-on-unmanaged-devices/modern-auth-policy-mfa.png)
 
 7. В разделе **Включить политику**выберите **Включить**, а затем **Создать**.  
      
-    ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-unmanaged-devices/enable-policy.png)  
+    ![Создание политики](./media/tutorial-protect-email-on-unmanaged-devices/enable-policy.png)  
 
 Политика условного доступа для клиентов с современной проверкой подлинности создана. Теперь можно создать политику для клиентов Exchange Active Sync.
 
@@ -153,14 +153,14 @@ ms.locfileid: "71721270"
    4. Снимите все остальные флажки.  
    5. Выберите **Готово** и еще раз щелкните **Готово**.  
     
-   ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-unmanaged-devices/eas-client-apps.png)  
+   ![Применение поддерживаемых платформ](./media/tutorial-protect-email-on-unmanaged-devices/eas-client-apps.png)  
 
 7. В разделе **Элементы управления доступом** выберите **Предоставить**.  
    1. На панели **Предоставить** выберите **Предоставить доступ**.  
    2. Выберите **Require approved client app** (Требовать утвержденное клиентское приложение). Снимите все остальные флажки.  
    3. Щелкните **Выбрать**.  
      
-   ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-unmanaged-devices/eas-grant-access.png)  
+   ![Требовать утвержденное клиентское приложение](./media/tutorial-protect-email-on-unmanaged-devices/eas-grant-access.png)  
 
 8. В разделе **Включить политику** выберите **Вкл.**  
 

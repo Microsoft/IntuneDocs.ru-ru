@@ -14,12 +14,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3bf8fd189e50a704e96fc24d0804c5c5d6f91bb4
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 64a560dc79d3c03f52b8e9389c3e47e3e256ee58
+ms.sourcegitcommit: dd6755383ba89824d1cc128698a65fde6bb2de55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71728225"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72306663"
 ---
 # <a name="integrate-wandera-mobile-threat-protection-with-intune"></a>Интеграция решения Wandera для защиты мобильных приложений от угроз с Intune  
 
@@ -72,7 +72,7 @@ ms.locfileid: "71728225"
 
 7. В консоли RADAR скопируйте имя группы **SyncOnly**, которое отображается в столбце **EMM Label** (Метка EMM). Это имя вы будете использовать при настройки группы в Intune для синхронизации с Wandera.
 
-   ![Интеграция и разрешения](./media/wandera-mtd-connector-integration/sync-group-name.png) 
+   ![Синхронизация группы](./media/wandera-mtd-connector-integration/sync-group-name.png) 
 
 8. Вернитесь к консоли [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) и измените соединитель Wandera MTD. Установите доступные переключатели в состояние **Вкл.** и **сохраните** конфигурацию.  
 

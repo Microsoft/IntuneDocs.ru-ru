@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ac86e9155f08683ab073ae0b46ea3f2780060c90
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: afc9d953e1d324adb3f00eb5209732a858bbbcda
+ms.sourcegitcommit: 45d7c76e760c5117bf134fb57f7e248e5b6c4ad5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71723350"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72314674"
 ---
 # <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
 
@@ -35,7 +35,7 @@ ms.locfileid: "71723350"
 - зарегистрировано с помощью учетной записи [диспетчера регистрации устройств](device-enrollment-manager-enroll.md) (все платформы);
 - зарегистрировано с помощью [программы регистрации устройств](device-enrollment-program-enroll-ios.md) Apple, [Apple School Manager](apple-school-manager-set-up-ios.md) или [Apple Configurator](apple-configurator-enroll-ios.md) (только для устройств iOS);
 - [идентифицировано как корпоративное перед регистрацией](#identify-corporate-owned-devices-with-imei-or-serial-number) с помощью номеров IMEI (все платформы с номерами IMEI) или серийных номеров (iOS и Android);
-- присоединено к Azure Active Directory как устройство с Windows 10 Корпоративная;
+- Присоединено к Azure Active Directory с рабочими или учебными учетными данными. [Устройства, зарегистрированные в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/overview), будут помечены как личные.
 - указано как корпоративное в [списке свойств устройства](#change-device-ownership).
 
 После регистрации вы можете [изменить значение параметра владения](#change-device-ownership), выбрав **Личное** или **Корпоративное**.

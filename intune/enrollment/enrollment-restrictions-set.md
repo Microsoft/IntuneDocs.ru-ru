@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bdeb88f3a69db160dca61bf3038c5a7d0235f2b2
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 3f041c76b4d9b3814a020d51ad4cbb8e33df6c27
+ms.sourcegitcommit: 60ed93682a21860e9d99ba1592ede120477f2b4d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71722466"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72379812"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -48,7 +48,7 @@ ms.locfileid: "71722466"
 - Версия операционной системы платформы для iOS, администратор устройства Android, рабочий профиль Android Enterprise, Windows и Windows Mobile. (Можно использовать только версии Windows 10. Оставьте это поле пустым, если допускается использование Windows 8.1.)
   - Минимальная версия.
   - Максимальная версия.
-- Ограничение личных устройств (только iOS, администратор устройства Android, рабочий профиль Android Enterprise, macOS, Windows и Windows Mobile).
+- Ограничение [личных устройств](device-enrollment.md#bring-your-own-device) (только iOS, администратор устройства Android, рабочий профиль Android для бизнеса, macOS, Windows и Windows Mobile).
 
 ## <a name="default-restrictions"></a>Ограничения по умолчанию
 
@@ -68,9 +68,9 @@ ms.locfileid: "71722466"
      Форматы поддерживаемой версии включают следующие:
     - Администратор устройства Android и рабочий профиль Android Enterprise поддерживают major.minor.rev.build.
     - iOS поддерживает формат основной_номер_версии.дополнительный_номер_версии.редакция. Версии операционной системы не применяются к устройствам Apple, зарегистрированным по программе регистрации устройств, а также с помощью Apple School Manager или приложения Apple Configurator.
-    - Windows поддерживает формат основной_номер_версии.дополнительный_номер_версии.редакция.сборка только для Windows 10.
+    - Windows поддерживает формат major.minor.build.rev только для Windows 10.
     > [!Note]
-    > Windows 10 не указывает номер сборки во время регистрации; например, если ввести 10.0.17134.100, а на устройстве задано значение 10.0.17134.174, оно будет заблокировано во время регистрации.
+    > Windows 10 не указывает номер записи во время регистрации; например, если ввести 10.0.17134.100, а на устройстве задано значение 10.0.17134.174, оно будет заблокировано во время регистрации.
 
 8. В разделе **Личное** выберите **Разрешить** для платформ, которые необходимо разрешить как личные устройства.
 9. Выберите **Далее**, чтобы перейти на страницу **Назначения**.
@@ -151,6 +151,12 @@ ms.locfileid: "71722466"
 - Использование параметра [Регистрация только в MDM]( https://docs.microsoft.com/windows/client-management/mdm/mdm-enrollment-of-windows-devices#connecting-personally-owned-devices-bring-your-own-device) из параметров Windows.
 
 \* Не блокируются при регистрации с помощью Autopilot.
+
+
+## <a name="blocking-personal-ios-devices"></a>Блокирование личных устройств с iOS
+По умолчанию Intune классифицирует устройства iOS как личные. Чтобы классифицировать устройство iOS как корпоративное, оно должно удовлетворять одно из следующих условий:
+- Зарегистрировано с серийным номером или IMEI.
+- Зарегистрировано с помощью автоматической Регистрации устройств (ранее Программа регистрации устройств)
 
 
 ## <a name="change-enrollment-restriction-priority"></a>Изменение приоритета ограничения регистрации

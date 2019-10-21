@@ -1,5 +1,5 @@
 ---
-title: Шифрование устройств в Microsoft Intune с помощью методов шифрования, поддерживаемых платформами
+title: Шифрование устройств с помощью метода шифрования, поддерживаемого платформой
 titleSuffix: Microsoft Intune
 description: Шифрование устройств с помощью встроенных методов шифрования, таких как BitLocker или FileVault, и управление ключами восстановления для этих зашифрованных устройств с помощью портала Intune.
 keywords: ''
@@ -16,12 +16,12 @@ ms.reviewer: annovich
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: ad995a4b8b67a2ff7e3604f899fdbeebc2bad8cc
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: f885cbddf8ecb984dc6e98db38c9adbc6a07119a
+ms.sourcegitcommit: dd6755383ba89824d1cc128698a65fde6bb2de55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71721400"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72306853"
 ---
 # <a name="use-device-encryption-with-intune"></a>Использование шифрования устройств в Intune  
 

@@ -1,5 +1,5 @@
 ---
-title: Руководство. Защита электронной почты Exchange Online на устройствах под управлением Intune
+title: Руководство. Защита электронной почты Exchange Online на управляемых устройствах
 titleSuffix: Microsoft Intune
 description: Узнайте, как защитить Exchange Online с помощью политик соответствия Intune для iOS и условного доступа Azure AD, в которых указано использовать управляемые устройства и приложение Outlook.
 keywords: ''
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a2d6f14b4b3e1e981cce789664203b74523b2474
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: c20c0c1543cd8fcbf7345a02295486aaaa6ddcea
+ms.sourcegitcommit: dd6755383ba89824d1cc128698a65fde6bb2de55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71727939"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72306866"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-managed-devices"></a>Руководство. Защита электронной почты Exchange Online на управляемых устройствах
 Узнайте, как политики соответствия требованиям для устройств с условным доступом позволяют предоставить устройствам iOS доступ к электронной почте Exchange Online, только если устройства управляются Intune и используют утвержденное приложение электронной почты. 
@@ -95,7 +95,7 @@ ms.locfileid: "71727939"
     2. На вкладке **Включить** выберите **Любое устройство** и **Готово**. 
     3. Еще раз щелкните **Готово**.
    
-    ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-cloud-device-platforms.png)
+    ![Включить любое устройство](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-cloud-device-platforms.png)
 
 6. В разделе **Назначения** выберите **Условия** > **Клиентские приложения**.
      
@@ -103,7 +103,7 @@ ms.locfileid: "71727939"
     2. Для этого руководства выберите **Мобильные приложения и настольные клиенты** и **Клиенты с современной проверкой подлинности** (это относится к таким приложениями, как Outlook для iOS и Outlook для Android). Снимите все остальные флажки.
     3. Выберите **Готово** и еще раз щелкните **Готово**.
     
-    ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-client-apps.png)
+    ![Выбор приложений и клиентов](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-client-apps.png)
 
 7. В разделе **Элементы управления доступом** выберите **Предоставить**. 
      
@@ -113,11 +113,11 @@ ms.locfileid: "71727939"
     4. В разделе **Для нескольких элементов управления** выберите **Требовать все выбранные элементы управления**. Этот параметр гарантирует, что, когда устройство обратится к электронной почте, будут применяться оба выбранных требования.
     5. Щелкните **Выбрать**.
      
-    ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-grant-access.png)
+    ![Выбор элементов управления](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-grant-access.png)
 
 8. В разделе **Включить политику** выберите **Вкл.**
      
-    ![Выбор приложения Office 365 Exchange Online](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-enable-policy.png)
+    ![Включение политики](./media/tutorial-protect-email-on-enrolled-devices/ios-ca-policy-enable-policy.png)
 
 9. Выберите **Создать**.
 

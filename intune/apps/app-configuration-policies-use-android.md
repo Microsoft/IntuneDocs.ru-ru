@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 59d93bed7bae2b757a4bd1e7b1dffc814629f6a1
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: d31126a259274a2c75f933428632e274d8710aa6
+ms.sourcegitcommit: b8127c7a62d9ac4d0f768980fa1424567bb58733
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725742"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72350025"
 ---
 # <a name="add-app-configuration-policies-for-managed-android-enterprise-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android Enterprise
 
@@ -86,9 +86,8 @@ ms.locfileid: "71725742"
 | **Значения** | <ul><li>Одно или несколько имен участников-пользователей, разделенных <code>;</code>.</li><li>Разрешены только управляемые учетные записи разрешено, определяемые этим ключом.</li><li> Для устройств, зарегистрированных в Intune, маркер <code>{{userprincipalname}}</code> может использоваться для представления учетной записи зарегистрированного пользователя.</li></ul> |
 
    > [!NOTE]
-   > Необходимо использовать Outlook для Android 2.2.222 или более поздней версии, если вы разрешаете только настроенные учетные записи организации с несколькими удостоверениями.<p></p>
+   > При разрешении только настроенных учетных записей организации с несколькими удостоверениями необходимо использовать Outlook для Android 2.2.222 и более поздних версий, Word, Excel, PowerPoint для Android 16.0.9327.1000 и более поздней версии или OneDrive для Android 5,28 и более поздних версий.<p></p>
    > Администраторы Microsoft Intune могут контролировать добавление учетных записей в приложения Microsoft Office на управляемых устройствах. Вы можете ограничивать доступ только для учетных записей разрешенных организаций и блокировать личные учетные записи на зарегистрированных устройствах. Вспомогательные приложения обработают конфигурацию приложения, а затем удалят и заблокируют неутвержденные учетные записи.<p></p>
-   > Для Microsoft Word, Microsoft Excel и Microsoft PowerPoint необходимо использовать приложение начиная с версии 16.0.9327.1000. 
 
 ## <a name="enter-the-json-editor"></a>Использование редактора JSON
 

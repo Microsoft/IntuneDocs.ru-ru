@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 344ffdfefd8b354c9d2ab31f2d08c2a25456f970
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: db1f0944a6725d1f361ea20c972d8ffa8f5d9035
+ms.sourcegitcommit: a50a1ca123ecc2c5ac129f112f73838748f56476
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71724117"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72237213"
 ---
 # <a name="assign-user-and-device-profiles-in-microsoft-intune"></a>Назначение профилей пользователей и устройств в Microsoft Intune
 
@@ -30,6 +30,9 @@ ms.locfileid: "71724117"
 При создании профиля он содержит все настройки, которые вы ввели. Следующим шагом является развертывание или "назначение" профиля для групп пользователей или устройств Azure Active Directory (Azure AD). Когда он назначен, пользователи и устройства получают ваш профиль, и применяются введенные вами параметры.
 
 В этой статье показано, как назначить профиль, и приведена некоторая информация об использовании тегов области в ваших профилях.
+
+> [!NOTE]  
+> Если политика удалена или больше не назначена устройству, параметр может поддерживать существующее значение. Параметр не возвращается к значению по умолчанию. Чтобы изменить значение параметра на другое, создайте новую политику и назначьте ее.
 
 ## <a name="assign-a-device-profile"></a>Назначение профиля устройства
 
