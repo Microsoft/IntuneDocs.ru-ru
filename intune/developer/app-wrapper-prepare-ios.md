@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 08/12/2019
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: developer
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 99ab0369-5115-4dc8-83ea-db7239b0de97
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c535dbd91605a41fdc1c526ecd8ff9d9fc9e2448
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: b42642ec593112b0b247cd85b9230f68d6a803b8
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71733677"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72490973"
 ---
 # <a name="prepare-ios-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений iOS для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -204,8 +205,8 @@ ms.locfileid: "71733677"
 |**-c**|`<SHA1 hash of the signing certificate>`|
 |**-h**| Отображает подробные сведения об использовании доступных свойств командной строки для инструмента упаковки приложений. |
 |**-aa**|(Необязательно) `<Authority URI of the input app if the app uses the Azure Active Directory Authentication Library>`, т. е. `login.windows.net/common` |
-|**-ac**|(Необязательно) `<Client ID of the input app if the app uses the Azure Active Directory Authentication Library>` это GUID в поле Идентификатор клиента находится в списке приложения в колонке регистрации приложения. |
-|**-ar**|(Необязательно) `<Redirect/Reply URI of the input app if the app uses the Azure Active Directory Authentication Library>` это URI перенаправления, настроенный в регистрации приложения. Обычно это будет протокол URL-адреса приложения, куда Microsoft Authenticator приложение будет возвращаться после проверки подлинности через посредника. |
+|**-ac**|(Необязательно) `<Client ID of the input app if the app uses the Azure Active Directory Authentication Library>` это идентификатор GUID в поле Идентификатор клиента из списка приложения в колонке регистрации приложения. |
+|**-ar**|`<Redirect/Reply URI of the input app if the app uses the Azure Active Directory Authentication Library>` это универсальный код ресурса (URI) перенаправления, настроенный в регистрации приложения (необязательно). Обычно это будет протокол URL-адреса приложения, куда Microsoft Authenticator приложение будет возвращаться после проверки подлинности через посредника. |
 |**-v**| Вывод подробных сообщений в консоль (необязательно). Рекомендуется использовать этот флаг для отладки ошибок. |
 |**-e**| Используйте этот флаг, чтобы инструмент упаковки приложений удалял отсутствующие права при обработке приложения (необязательно). Дополнительные сведения см. в статье [Установка прав приложения](#setting-app-entitlements).|
 |**-xe**| Вывод сведений о расширениях iOS в приложении и необходимых правах для их использования (необязательно). Дополнительные сведения см. в статье [Установка прав приложения](#setting-app-entitlements). |
