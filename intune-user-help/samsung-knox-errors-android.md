@@ -1,14 +1,15 @@
 ---
-title: Решение распространенных проблем с управляемыми устройствами Samsung Knox | Документация Майкрософт
-description: Узнайте, как решить распространенные проблемы с вашим устройством Samsung Knox.
+title: Устранение распространенных проблем с управляемыми устройствами Samsung Knox | Документация Майкрософт
+description: Устранение неполадок устройства Samsung Knox.
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/10/2018
+ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: 78c08b30-dc5f-46d9-9ee8-6cc8dee1e404
 searchScope:
@@ -17,18 +18,18 @@ ROBOTS: ''
 ms.reviewer: arnab
 ms.suite: ems
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6f78c2460130068652b91b27ddcf5726a077e59e
-ms.sourcegitcommit: 25e6aa3bfce58ce8d9f8c054bc338cc3dff4a78b
+ms.openlocfilehash: 54a8eaafba0705968672275ba67449d9672f5c46
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "55833469"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72502069"
 ---
 # <a name="fix-common-issues-with-your-samsung-knox-device"></a>Решение распространенных проблем с устройствами Samsung Knox
 
-Иногда на устройствах с Samsung Knox могут возникнуть проблемы, которые можно решить с помощью процедуры устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. Для решения более сложных проблем рекомендуется [обращаться к команде разработчиков корпоративного портала Android](https://github.com/MicrosoftDocs/IntuneDocs/blob/master/intune-user-help/send-logs-to-microsoft-android.md).
+Устранение распространенных проблем, связанных с управляемыми устройствами Samsung Knox. Чтобы сообщить о проблеме, не указанной здесь, можно [отправить журналы диагностики](send-logs-to-microsoft-android.md) с помощью корпоративный портал или Microsoft Intune приложения. Разработчики Майкрософт будут просматривать журналы конкретного приложения, чтобы диагностировать проблему и найти решение.    
 
-## <a name="network-activation-error"></a>Ошибка активации в сети
+## <a name="network-activation-error"></a>Ошибка активации в сети  
 
 Появившееся сообщение может выглядеть так:
 
@@ -50,6 +51,6 @@ ms.locfileid: "55833469"
 
 |Сообщение об ошибке|Возможное решение|
 |---|---|
-|**Ошибка активации Samsung Knox**. Не удалось активировать лицензию Samsung Knox. Возможно, это произошло из-за включенного режима энергосбережения. Отключите режим энергосбережения в параметрах устройства и повторите попытку. |Возможно, параметры питания устройства настроены неправильно для работы с ресурсами компании. Узнайте больше о [настройке режима энергосбережения](power-saving-mode-android.md).|
+|**Ошибка активации Samsung Knox**. Не удалось активировать лицензию Samsung Knox. Возможно, это произошло, потому что включен режим энергосбережения. Отключите его в параметрах устройства и повторите попытку. |Возможно, параметры питания устройства настроены неправильно для работы с ресурсами компании. Дополнительные сведения об этом параметре см. в разделе [режим энергосбережения](power-saving-mode-android.md).|  
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

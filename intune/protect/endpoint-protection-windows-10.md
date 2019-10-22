@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 10/08/2019
 ms.topic: reference
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 3af7c91b-8292-4c7e-8d25-8834fcf3517a
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 22e3779cd0772753ccd8843cd1f1ff38617298d6
-ms.sourcegitcommit: 884654da8e72a63bfaea6b5def6c7891b065f251
+ms.openlocfilehash: 40865dcca0b0109ae36f65b6691672c0035732b5
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72163581"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72502279"
 ---
 # <a name="windows-10-and-later-settings-to-protect-devices-using-intune"></a>Параметры Windows 10 (и более поздних версий) для защиты устройств с помощью Intune  
 
@@ -251,7 +252,7 @@ Application Guard в Защитнике Windows изолирует среду в
 
   - **Не настроено**.  
   - **Блокировать** — действие брандмауэра по умолчанию не выполняется по исходящему трафику, если оно не указано явно, а не блокируется.  
-  - **Разрешить** Действия брандмауэра по умолчанию выполняются для исходящих подключений.  
+  - **Разрешить**  действия брандмауэра по умолчанию для исходящих соединений.  
 
 - **Действие по умолчанию для входящих подключений**  
   **Значение по умолчанию**: не настроено  

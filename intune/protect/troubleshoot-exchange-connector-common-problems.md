@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 10/02/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: ''
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 14da6274546cbd4c1867975c08c60ece313714b1
-ms.sourcegitcommit: 78f9750712c254d8b123ef15b74f30ca999aa128
+ms.openlocfilehash: e9542212e1b75d97c96c024eed20e20e610e2b5d
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "71917985"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72503647"
 ---
 # <a name="resolve-common-problems-with-the-intune-exchange-connector"></a>Устранение распространенных проблем с соединителем Exchange Intune
  
@@ -55,7 +56,7 @@ ms.locfileid: "71917985"
 Ознакомьтесь со следующими разделами, чтобы устранить неполадки с уведомлениями по электронной почте.
 
 ### <a name="check-the-notification-account-that-retrieves-autodiscover-settings"></a>Проверка учетной записи уведомления, получающей параметры автообнаружения
-1. Убедитесь, что служба автообнаружения и службы EWS настроены в службах клиентского доступа Exchange. Дополнительные сведения см. в разделе [службы клиентского доступа](https://docs.microsoft.com/Exchange/architecture/client-access/client-access) и [Служба автообнаружения в Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/autodiscover?view=exchserver-2019).
+1. Убедитесь, что служба автоматического обнаружения и веб-службы Exchange настроены в службах клиентского доступа Exchange. Дополнительные сведения см. в разделе [службы клиентского доступа](https://docs.microsoft.com/Exchange/architecture/client-access/client-access) и [Служба автообнаружения в Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/autodiscover?view=exchserver-2019).
 
 
 2. Убедитесь, что ваша учетная запись уведомления соответствует следующим требованиям.
@@ -68,11 +69,11 @@ ms.locfileid: "71917985"
 
    1. В командной строке введите *nslookup*.  
 
-   2. Введите *autodiscover.SMTPdomain.com*. Результат должен быть подобен следующему изображению:  
-      ![Nslookup Results](./media/troubleshoot-exchange-connector-common-problems/nslookup-results.png
+   2. Введите *autodiscover.SMTPdomain.com*. Результат выполнения должен быть аналогичен следующему:  
+      результаты ![Nslookup ](./media/troubleshoot-exchange-connector-common-problems/nslookup-results.png
 )
 
-   Службу автообнаружения можно также протестировать из Интернета по адресу https://testconnectivity.microsoft.com. Или протестируйте его из локального домена с помощью средства Microsoft Connectivity Analyzer. Дополнительные сведения см. в разделе [средство Microsoft Connectivity Analyzer Tool](https://docs.microsoft.com/en-us/previous-versions/office/exchange-remote-connectivity/jj851141(v=exchg.80)). При необходимости [Загрузите средство Microsoft Connectivity Analyzer](http://go.microsoft.com/fwlink/?LinkID=313782).
+   Службу автообнаружения можно также протестировать из Интернета по адресу https://testconnectivity.microsoft.com. Или протестируйте его из локального домена с помощью средства Microsoft Connectivity Analyzer. Дополнительные сведения см. в разделе [средство Microsoft Connectivity Analyzer Tool](https://docs.microsoft.com/en-us/previous-versions/office/exchange-remote-connectivity/jj851141(v=exchg.80)). При необходимости [Загрузите средство Microsoft Connectivity Analyzer](https://go.microsoft.com/fwlink/?LinkID=313782).
 
 
 ### <a name="check-autodiscovery"></a>Проверка автообнаружения  
@@ -84,7 +85,7 @@ ms.locfileid: "71917985"
 
    1. Определите URL-адрес EWS. URL-адрес EWS по умолчанию для Exchange — `https://<mailServerFQDN>/ews/exchange.asmx`, но URL-адрес может отличаться. Обратитесь к администратору Exchange, чтобы проверить правильный URL-адрес вашей среды.
 
-   2. Откройте для редактирования файл *OnPremisesExchangeConnectorServiceConfiguration.xml*. По умолчанию файл расположен в *соединителе Exchange%Програмдата%\микрософт\виндовс Intune* на компьютере, на котором работает соединитель Exchange. Откройте файл в текстовом редакторе, а затем измените следующую строку в соответствии с URL-адресом EWS для вашей среды: `<ExchangeWebServiceURL>https://<YourExchangeHOST>/EWS/Exchange.asmx</ExchangeWebServiceURL>`.
+   2. Откройте для редактирования файл *OnPremisesExchangeConnectorServiceConfiguration.xml*. По умолчанию файл расположен в *соединителе Exchange%Програмдата%\микрософт\виндовс Intune* на компьютере, на котором работает соединитель Exchange. Откройте файл в текстовом редакторе, а затем измените следующую строку в соответствии с URL-адресом EWS для вашей среды: `<ExchangeWebServiceURL>https://<YourExchangeHOST>/EWS/Exchange.asmx</ExchangeWebServiceURL>`
     
 
 3. Сохраните файл, а затем перезагрузите компьютер или перезапустите службу соединителя Exchange Microsoft Intune.

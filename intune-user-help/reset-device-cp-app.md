@@ -9,6 +9,7 @@ ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: ''
 searchScope:
@@ -18,16 +19,16 @@ ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser; intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e5aff186d3850e8f9a6081168a5adc9956504019
-ms.sourcegitcommit: c19584b36448bbd4c8638d7cab552fe9b3eb3408
+ms.openlocfilehash: 64612aa8a1d427284778a9aa43b966b05cb0a15f
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71163346"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72502118"
 ---
 # <a name="reset-device-from-the-company-portal-app"></a>Сброс устройства из корпоративный портал приложения  
 
-Сбросьте используемые, потерянные или украденные устройства в заводские настройки из приложения корпоративный портал.  
+Восстановите заводские настройки на используемом, утерянном или украденном устройстве с помощью приложения "Корпоративный портал".  
 
 После сброса устройство больше не будет отображаться в корпоративный портал. Существующие приложения и файлы будут стерты и будут восстановлены до встроенных параметров.  
 

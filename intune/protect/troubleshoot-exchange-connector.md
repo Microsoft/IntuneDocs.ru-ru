@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 10/02/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: a7e3c742-295b-40bb-9afa-17f243062500
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 230ee8c1206a4d091661b51dd239a4cb0b1a1963
-ms.sourcegitcommit: f04e21ec459998922ba9c7091ab5f8efafd8a01c
+ms.openlocfilehash: 962e66a9fdf6d8abcf6855f645775026ee4db850
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71814053"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72508843"
 ---
 # <a name="troubleshoot-the-intune-exchange-connector"></a>Устранение неполадок с соединителем Intune Exchange
 
@@ -32,7 +33,7 @@ ms.locfileid: "71814053"
 
 Прежде чем начать устранение неполадок с Exchange Connector в Intune, собирайте основные сведения, чтобы вы работали с надежной основой. Этот подход может помочь лучше понять природу проблемы и ускорить его решение.
 
-- Убедитесь, что процесс соответствует требованиям к установке. См. раздел [Настройка локального соединителя Intune Exchange](exchange-connector-install.md).
+- Убедитесь, что процесс соответствует требованиям к установке. Перейдите к статье [Настройка локального соединителя Exchange для Intune](exchange-connector-install.md).
 - Убедитесь, что у вашей учетной записи есть разрешения администратора Exchange и Intune.
 - Обратите внимание на полный и точный текст сообщения об ошибке, сведения и место отображения сообщения.
 - Определить время запуска проблемы: 
@@ -44,8 +45,8 @@ ms.locfileid: "71814053"
 
 ### <a name="use-powershell-to-get-more-data-on-exchange-connector-issues"></a>Использование PowerShell для получения дополнительных сведений о неполадках в работе соединителя Exchange
 
-- Чтобы получить список всех мобильных устройств для почтового ящика, используйте `Get-ActiveSyncDeviceStatistics -mailbox mbx`.
-- Чтобы получить список адресов SMTP для почтового ящика, используйте `Get-Mailbox -Identity user | select emailaddresses | fl`.
+- Чтобы получить список всех мобильных устройств для почтового ящика, используйте `Get-ActiveSyncDeviceStatistics -mailbox mbx`
+- Чтобы получить список SMTP-адресов для почтового ящика, используйте `Get-Mailbox -Identity user | select emailaddresses | fl`
 - Чтобы получить подробные сведения о состоянии доступа устройства, используйте команду `Get-CASMailbox <upn> | fl`.
 
 ## <a name="review-the-connector-configuration"></a>Проверка конфигурации соединителя

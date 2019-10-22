@@ -8,17 +8,18 @@ manager: dougeby
 ms.date: 03/18/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
+ms.subservice: fundamentals
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: 6ee841cc-5694-4ba1-8f66-1d58edec30a4
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d999603abc539fda4d152d15dd1ab965c465f39e
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: fd00a0ae4cb6c3b150fe40cfc6cd7b71cfa973f3
+ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71736303"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72585240"
 ---
 # <a name="use-audit-logs-to-track-and-monitor-events-in-microsoft-intune"></a>Использование журналов аудита для отслеживания событий в Microsoft Intune
 
@@ -49,11 +50,12 @@ ms.locfileid: "71736303"
 
 ![Экспорт данных журнала в Azure Monitor путем выбора параметров экспорта данных в Intune](./media/monitor-audit-logs/audit-logs-export-data-settings.png)
 
-См. дополнительные сведения об [отправке данных журнала в хранилище, концентраторы событий или Log Analytics](review-logs-using-azure-monitor.md).
+> [!NOTE]
+> Дополнительные сведения об этой функции и о необходимых условиях для ее использования см. в разделе [Отправка данных журнала в хранилище, концентраторы событий или log Analytics](review-logs-using-azure-monitor.md).
 
 ## <a name="review-audit-events"></a>Просмотр событий аудита
 
-![Выберите журналы аудита в Intune, чтобы просмотреть действия и даты возникновения событий](./media/monitor-audit-logs/monitor-audit-logs.png "Журналы аудита")
+![Выбрать журналы аудита в Intune, чтобы просмотреть действия и даты возникновения событий](./media/monitor-audit-logs/monitor-audit-logs.png "Журналы аудита")
 
 Журнал аудита содержит представление списка по умолчанию, в котором отображаются следующие элементы:
 
@@ -67,11 +69,11 @@ ms.locfileid: "71736303"
 
 Чтобы просмотреть подробные сведения о событии, выберите элемент в списке:
 
-![Получить более подробную информацию о действиях пользователей в журналах аудита в Intune](./media/monitor-audit-logs/monitor-audit-log-detail.png "Сведения из журнала аудита")
+![Получить более подробную информацию о действиях пользователей в журналах аудита в Intune](./media/monitor-audit-logs/monitor-audit-log-detail.png "|::ref2::|")
 
 > [!NOTE]
 > Поле **Кем инициировано (субъект)** включает сведения о том, кто запустил задачу и где она была запущена. Например, если вы запустили действие в Intune на портале Azure, в разделе **Приложение** обязательно будет содержаться **расширение портала Microsoft Intune** и для **идентификатора приложения** всегда будет использоваться тот же GUID.
-> 
+>
 > Раздел **Целевые объекты** содержит несколько целевых объектов и свойств, которые были изменены.  
 
 ## <a name="filter-audit-events"></a>Фильтрация событий аудита
