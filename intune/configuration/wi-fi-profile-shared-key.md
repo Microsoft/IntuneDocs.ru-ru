@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 06/25/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 175be4d51b034745ce6fab050f68be277f1d4858
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 623c6652964ae5a4f16a9c689dda3aee99c50d31
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71723766"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72506495"
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key---intune"></a>Использование пользовательского профиля устройства для создания профиля Wi-Fi с общим ключом в Intune
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]

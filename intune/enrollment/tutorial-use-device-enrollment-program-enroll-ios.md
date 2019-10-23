@@ -9,17 +9,18 @@ manager: dougeby
 ms.date: 04/30/2019
 ms.topic: tutorial
 ms.service: microsoft-intune
+ms.subservice: enrollment
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
 Customer intent: As an Intune admin, I want to set up the Apple's corporate device enrollment features so that corporate devices can automatically enroll in Intune.
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e221e67afa141612d6b565a511866087ce237d25
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 83a9467065bb5c1d1cde2035df936541bb804ddc
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71722375"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72503081"
 ---
 # <a name="tutorial-use-apples-corporate-device-enrollment-features-in-apple-business-manager-abm-to-enroll-ios-devices-in-intune"></a>Руководство. Использование функции регистрации корпоративных устройств Apple в Apple Business Manager (ABM) для регистрации устройств с iOS в Intune
 Возможность регистрации устройств в Apple Business Manager упрощает регистрацию устройств. Intune также поддерживает более старый портал программы регистрации устройств (DEP) Apple, но мы рекомендуем начать с нуля с диспетчером Apple. При использовании Microsoft Intune и функции регистрации корпоративных устройств Apple устройства регистрируются безопасно и автоматически при первом их включении. Это позволяет сразу предоставлять устройства группам пользователей вместо того, чтобы настраивать их по отдельности. 

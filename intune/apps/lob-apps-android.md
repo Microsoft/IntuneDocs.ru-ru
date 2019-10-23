@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 08/22/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 061d793c-c724-4cd9-9240-adb0cbda5661
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 783079786d19c0a65d44af96f9a3be9e2e817fc0
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: a4c1f3d8b6b7edbf51ca2aaa681909e6c220de3c
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71724793"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72507231"
 ---
 # <a name="add-an-android-line-of-business-app-to-microsoft-intune"></a>Добавление в Microsoft Intune бизнес-приложения Android
 

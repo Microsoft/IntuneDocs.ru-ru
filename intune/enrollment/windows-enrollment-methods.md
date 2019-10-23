@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 06/25/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: enrollment
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: ''
-ms.openlocfilehash: f5a8153a19ab81bbcb07b4fbb3e49328897c9d1d
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 59ba9ab5fb0ddeb527ed852de042568920cf38e1
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71722297"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72509180"
 ---
 # <a name="intune-enrollment-methods-for-windows-devices"></a>Способы регистрации в Intune для устройств Windows
 

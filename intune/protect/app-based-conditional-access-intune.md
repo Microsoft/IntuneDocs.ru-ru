@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 46ff51c872c2e8c87d044bde3c262203d5f55e8e
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 2d3cae06c3ce763fe8ca94bbed9bf35e8abef52c
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71723064"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72502600"
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Условный доступ на основе приложений с помощью Intune
 

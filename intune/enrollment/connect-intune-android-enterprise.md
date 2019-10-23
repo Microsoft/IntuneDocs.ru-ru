@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 5/13/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: enrollment
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5ad9c098c0c9575f511c14c7b2b8120815abe3cb
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 0fad076b33bed5375dd8e53dd401a2c9c4c39237
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71723389"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72505556"
 ---
 # <a name="connect-your-intune-account-to-your-managed-google-play-account"></a>Подключение учетной записи Intune к учетной записи управляемого Google Play
 

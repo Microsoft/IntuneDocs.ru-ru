@@ -7,12 +7,12 @@ ms.topic: include
 ms.date: 03/28/2019
 ms.author: erikje
 ms.custom: include file
-ms.openlocfilehash: 5ebab881a524bc361e271856b6762776974cea20
-ms.sourcegitcommit: 5807f4db4a45a093ce2fd6cb0c480bec384ec1ff
+ms.openlocfilehash: 9965c6e85173ea9958182be43b6c93d9578d534f
+ms.sourcegitcommit: c2e62f1ebdf75599c8e544287123c602f0f15f2b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2019
-ms.locfileid: "72601530"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72749373"
 ---
 Эти уведомления предоставляют важные сведения, которые помогут вам подготовиться к будущим изменениям в Intune.
 
@@ -70,7 +70,6 @@ https://firebase.google.com/docs/cloud-messaging/
 
 #### <a name="additional-information"></a>Дополнительные сведения 
 https://aka.ms/intune_fullscreen
-
 
 ### <a name="plan-for-change-intune-app-sdk-and-app-protection-policies-for-android-moving-to-support-android-50-and-higher-in-october---4911065---"></a>Подготовьтесь к изменениям. В пакете SDK для приложений Intune и политиках защиты приложений для Android поддержка Android версии 5.0 и выше будет реализована в октябре <!--4911065 -->
 В Intune поддержка Android версии 5.x (Lollipop) и выше будет реализована в октябре. Обновите все устройства и приложения с применением последней версии пакета SDK для приложений Intune.

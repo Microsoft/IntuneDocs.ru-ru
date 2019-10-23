@@ -9,20 +9,20 @@ manager: dougeby
 ms.date: 08/16/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: fundamentals
 ms.localizationpriority: high
-ms.technology: ''
 ms.assetid: 8deff871-5dff-4767-9484-647428998d82
 ms.reviewer: damionw
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cb5abe54529a9de575cf84b8a89b0f402f8d117b
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 19d02694ab5e53dc43e0861c6a427a044bf50648
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71727055"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72502635"
 ---
 # <a name="set-the-mobile-device-management-authority"></a>Установка центра управления мобильными устройствами
 

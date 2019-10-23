@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 7/23/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: enrollment
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: f276d98c-b077-452a-8835-41919d674db5
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4a9de31ce7a08edcb7dddc6a65a061c1883021e4
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: ff005ddded4178801e7e334f604280ef4408aaff
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71723597"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72505659"
 ---
 # <a name="enroll-android-devices"></a>Регистрация устройств Android
 

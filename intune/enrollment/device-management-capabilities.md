@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 04/16/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: enrollment
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bf862e59e135a875f5f18af731c581f3e5ea89d5
-ms.sourcegitcommit: dd6755383ba89824d1cc128698a65fde6bb2de55
+ms.openlocfilehash: 64df7ccad203109c201b0e18c3d20023690e31aa
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72306623"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72503228"
 ---
 # <a name="enrolled-device-management-capabilities-of-microsoft-intune"></a>Возможности управления зарегистрированными устройствами в Microsoft Intune
 
