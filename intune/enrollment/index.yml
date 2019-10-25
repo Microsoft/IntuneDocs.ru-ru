@@ -12,12 +12,12 @@ metadata:
   ms.author: dougeby
   manager: dougeby
   ms.date: 08/07/2019
-  ms.openlocfilehash: 817d902cfb1628d813bb20de271c9a98b50a03ec
-  ms.sourcegitcommit: 223d64a72ec85fe222f5bb10639da729368e6d57
+  ms.openlocfilehash: 20bdfb02f0a8dda4b9578fd7bc30cb72c7250adf
+  ms.sourcegitcommit: f12bd2ce10b6241715bae2d2857f33c474287166
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/04/2019
-  ms.locfileid: "71939915"
+  ms.lasthandoff: 10/24/2019
+  ms.locfileid: "72892588"
 landingContent:
 - title: Дополнительные сведения о регистрации
   linkLists:
@@ -49,6 +49,8 @@ landingContent:
       url: tutorial-use-autopilot-enroll-devices.md
   - linkListType: how-to-guide
     links:
+    - text: Способы регистрации в Intune для устройств Windows
+      url: windows-enrollment-methods.md
     - text: Настройка регистрации Windows
       url: windows-enroll.md
     - text: Настройка массовой регистрация для устройств Windows
