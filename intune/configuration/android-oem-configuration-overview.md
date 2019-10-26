@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2be1faa1296792d3d40de5ca0b304a287bae8e6f
-ms.sourcegitcommit: 9a2ddcec73b37a118908b63d8e5252835f257618
+ms.openlocfilehash: eb992747765ea087d5ef536c2da7c444bfa2d987
+ms.sourcegitcommit: 4f979ba7030e72d820113fe23ac8521ddb2433bd
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72550827"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72915723"
 ---
 # <a name="use-and-manage-android-enterprise-devices-with-oemconfig-in-microsoft-intune"></a>Использование устройств Android Enterprise и управление ими с помощью Оемконфиг в Microsoft Intune
 
@@ -66,7 +66,7 @@ ms.locfileid: "72550827"
 
 - Устройство Android Enterprise, зарегистрированное в Intune.
 - Приложение Оемконфиг, созданное поставщиком вычислительной техники и отправленное в Google Play. Если это не Google Play, обратитесь к изготовителю оборудования за дополнительными сведениями.
-- Администратор Intune имеет разрешения на управление доступом на основе ролей (RBAC) для **мобильных приложений** и **девицеконфигуратионс**. Эти разрешения необходимы, так как профили Оемконфиг используют конфигурации управляемых приложений для управления конфигурациями устройств.
+- Администратор Intune имеет разрешения на управление доступом на основе ролей (RBAC) для **мобильных приложений**, **конфигураций устройств**и разрешение "чтение" в **Android for для работы**. Эти разрешения необходимы, так как профили Оемконфиг используют конфигурации управляемых приложений для управления конфигурациями устройств.
 
 ## <a name="prepare-the-oemconfig-app"></a>Подготовка приложения Оемконфиг
 

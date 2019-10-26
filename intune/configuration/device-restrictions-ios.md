@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/08/2019
+ms.date: 10/22/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a26af380ef00c85c681beccdcdf188c343da1b94
-ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
+ms.openlocfilehash: 95cf688f3727f97aedd4126e00fa4dc4939ef6bc
+ms.sourcegitcommit: 06a1fe83fd95c9773c011690e8520733e1c031e3
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72584893"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72785522"
 ---
 # <a name="ios-and-ipados-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с iOS и iPadOS, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -300,6 +300,11 @@ ms.locfileid: "72584893"
 
   Данная функция применяется к:  
   - iOS 12.2 и более поздние версии.
+
+  > [!NOTE]
+  > Параметр **ведения журнала на стороне сервера для команд Siri** устарел в Apple. В следующем выпуске этот параметр удаляется из консоли Intune.
+  >
+  > В настоящее время этот параметр не влияет на устройства, даже если этот параметр показан в профилях манажеменет. Чтобы удалить этот параметр из политики, откройте политику, внесите незначительные изменения, а затем сохраните политику. Политика обновляется, и этот параметр удаляется с устройств.
 
 ### <a name="settings-apply-to-automated-device-enrollment-supervised"></a>Параметры применяются к: автоматическая регистрация устройств (защищенная)
 

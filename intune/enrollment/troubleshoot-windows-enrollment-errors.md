@@ -17,12 +17,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1089c382a39afb5aad0456e669cb3a2434af73c1
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 5776ebf3241968cca6da537bb58b7ab2a06f00ba
+ms.sourcegitcommit: f12bd2ce10b6241715bae2d2857f33c474287166
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72503091"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72892538"
 ---
 # <a name="troubleshoot-windows-device-enrollment-problems-in-microsoft-intune"></a>Устранение проблем с регистрацией устройств Windows в Microsoft Intune
 
@@ -163,7 +163,7 @@ ms.locfileid: "72503091"
 - На компьютере с Windows 10 установлен клиент Intune (агент Intune для ПК) или агент клиента Configuration Manager.
 
 #### <a name="resolution"></a>Решение
-Для решения этой проблемы используйте один из следующих методов.
+Чтобы устранить эту ошибку, можно использовать один из методов ниже.
 
 ##### <a name="disable-mdm-automatic-enrollment-in-azure"></a>Отключите автоматическую регистрацию MDM в Azure.
 1. Войдите на [портал Azure](https://portal.azure.com/).    
@@ -390,3 +390,4 @@ Description:
 - [Обратитесь к блогу группы поддержки Microsoft Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/bg-p/IntuneCustomerSuccess)
 - [Ознакомьтесь с блогом Microsoft Enterprise Mobility and Security](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Announcing-the-public-preview-of-Azure-AD-group-based-license/ba-p/245210)
 - [Получение поддержки для Microsoft Intune](../fundamentals/get-support.md)
+- [Поиск ошибок регистрации совместного управления](https://docs.microsoft.com/sccm/comanage/how-to-monitor#enrollment-errors)

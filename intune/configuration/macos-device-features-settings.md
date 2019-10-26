@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/02/2019
+ms.date: 10/22/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 17d0baeeb6b193be6acf8d6087c26a66b18642c5
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 48cca2c894067439943bdfff33b953463e513490
+ms.sourcegitcommit: e9cf372711ff186ed468b01a9204631a139bd8e5
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72506665"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72776908"
 ---
 # <a name="macos-device-feature-settings-in-intune"></a>Настройка параметров для функций устройств macOS в Intune
 
@@ -42,7 +42,7 @@ Intune включает в себя некоторые встроенные па
 
 ## <a name="airprint"></a>AirPrint
 
-### <a name="settings-apply-to-device-enrollment"></a>Параметры применяются к: Регистрация устройства
+### <a name="settings-apply-to-device-enrollment-and-automated-device-enrollment"></a>Параметры применяются к: регистрация устройств и автоматическая регистрация устройств 
 
 - **IP-адрес**. Введите IPv4- или IPv6-адрес принтера. Если для обозначения принтеров используются имена узлов, IP-адрес можно получить, проверив связь с принтером с помощью приложения "Терминал". Дополнительные сведения см. в этой статье в разделе [Получение IP-адреса и пути](#get-the-ip-address-and-path).
 - **Путь**. Введите путь для принтера. Как правило, для принтеров в сети путь будет таким: `ipp/print`. Дополнительные сведения см. в этой статье в разделе [Получение IP-адреса и пути](#get-the-ip-address-and-path).
@@ -85,7 +85,7 @@ Intune включает в себя некоторые встроенные па
 
 ## <a name="login-window"></a>Окно входа в систему
 
-### <a name="settings-apply-to-device-enrollment"></a>Параметры применяются к: Регистрация устройства
+### <a name="settings-apply-to-device-enrollment-and-automated-device-enrollment"></a>Параметры применяются к: регистрация устройств и автоматическая регистрация устройств 
 
 #### <a name="window-layout"></a>Макет Window
 

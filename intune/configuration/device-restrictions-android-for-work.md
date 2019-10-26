@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/17/2019
+ms.date: 10/24/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d1d83a77d8823a05accaf1c88b57f6e380636469
-ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
+ms.openlocfilehash: ec6009096ac6ed39c8a217f8832661a575d83b78
+ms.sourcegitcommit: 4f979ba7030e72d820113fe23ac8521ddb2433bd
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72585380"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72915708"
 ---
 # <a name="android-enterprise-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Android Enterprise, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -193,7 +193,8 @@ ms.locfileid: "72585380"
 
 ### <a name="power-settings"></a>Параметры питания
 
-- **Время до блокировки экрана**. Установите время простоя до блокировки устройства.
+- **Время блокировки экрана**: введите максимальное время, которое пользователь может задать до блокировки устройства. Например, если задать для этого параметра значение **10 минут**, пользователи смогут задать время от 15 секунд до 10 минут. Если задано значение **не настроено** (по умолчанию), Intune не изменяет и не управляет этим параметром.
+
 - **Включенный экран при подключении устройства**. Выберите, при подключении к каким источникам питания экран устройства остается включенным.
 
 ### <a name="users-and-accounts-settings"></a>Параметры пользователей и учетных записей
