@@ -6,7 +6,9 @@
 
 ## [Требования к паролю устройства](password-does-not-meet-it-administrator-requirements.md)
 
-## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)
+## [Вход на корпоративный портал](sign-in-to-the-company-portal.md)  
+
+## [Установка приложения Mobile Threat Defense](set-up-mobile-threat-defense.md)  
 
 ## Использование устройства Android
 ### [Зачем регистрировать устройство Android](why-enroll-android-device.md)
