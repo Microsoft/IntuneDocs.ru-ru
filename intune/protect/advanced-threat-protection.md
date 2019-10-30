@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 09/06/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.reviewer: shpate
@@ -15,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b1e72e16eba8bb29adc7360db9e923a15d144b6e
-ms.sourcegitcommit: b8127c7a62d9ac4d0f768980fa1424567bb58733
+ms.openlocfilehash: e0ef623fef49fdf43efc80375716af711bdbcb3c
+ms.sourcegitcommit: 1a5b185acd27954b10b6d59409d82eb80fd71284
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72350043"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72681343"
 ---
 # <a name="enforce-compliance-for-microsoft-defender-atp-with-conditional-access-in-intune"></a>Обеспечение соответствия требованиям ATP в Microsoft Defender с помощью условного доступа в Intune  
 
@@ -56,6 +57,9 @@ ATP в Microsoft Defender может устранять нарушения в �
 - лицензированный клиент для Enterprise Mobility + Security E3 и Windows E5 (или Microsoft 365 корпоративный E5);
 - среда Microsoft Intune с [управляемыми Intune](../enrollment/windows-enroll.md) устройствами Windows 10, которые также присоединены к Azure AD;
 - служба [ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) и доступ к Центру безопасности в Microsoft Defender (портал ATP);
+
+> [!NOTE]
+> Пакет ATP в защитнике Майкрософт не поддерживается с политиками защиты приложений Intune.
 
 ## <a name="enable-microsoft-defender-atp-in-intune"></a>Включение ATP в Microsoft Defender в Intune
 

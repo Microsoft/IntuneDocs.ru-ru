@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 02/22/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
@@ -16,12 +17,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e27997b45f0a68f6eb9247c69fafc363787fb457
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: b775bb09c289733cdc2837984874b7c1c7e286bc
+ms.sourcegitcommit: 1a5b185acd27954b10b6d59409d82eb80fd71284
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71722596"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72681370"
 ---
 # <a name="create-a-device-based-conditional-access-policy"></a>Создание политики условного доступа на основе информации об устройстве
 
@@ -61,7 +62,7 @@ Intune позволяет улучшить условный доступ в Azur
 
     - **Выбрать приложения**. Выберите этот параметр, а затем щелкните **Выбрать** и в списке приложений для поиска выберите приложения или службы, которые вы хотите защитить.
     
-      ![Создание политики условного доступа](./media/create-conditional-access-intune/create-ca-select-apps.png)
+      ![Настройка назначений для политики условного доступа](./media/create-conditional-access-intune/create-ca-select-apps.png)
 
 7. Нажмите кнопку **Готово**.
 8. В разделе **Назначения** выберите **Условия**.
@@ -71,7 +72,7 @@ Intune позволяет улучшить условный доступ в Azur
     - **Клиентские приложения**. Выберите **Да**, чтобы указать, должна ли политика применяться к приложениям браузера, мобильным приложениям и клиентам для настольных ПК. Вы также можете выбрать **современные клиенты проверки подлинности** (например, Outlook для iOS или Outlook для Android) и **клиенты Exchange ActiveSync**.
     - **Состояние устройства**. Политика условного доступа будет применяться ко всем состояниям устройства, если вы не выберете "Да" и не исключите явным образом состояния "Устройство с гибридным присоединением к Azure AD" или "Устройство, отмеченное как соответствующее требованиям" (или оба).
     
-      ![Создание политики условного доступа](./media/create-conditional-access-intune/create-ca-device-platforms.png)
+      ![Задание условий для политики условного доступа](./media/create-conditional-access-intune/create-ca-device-platforms.png)
 
       > [!TIP]  
       > Если вы хотите защитить клиенты **современной проверки подлинности** и **клиенты Exchange ActiveSync**, создайте две отдельные политики условного доступа, по одной для каждого типа клиента. Хотя Exchange ActiveSync поддерживает современную проверку подлинности, единственное условие, которое поддерживает Exchange ActiveSync, — платформа. Другие условия, включая многофакторную проверку подлинности, не поддерживаются. Для эффективной защиты доступа к Exchange Online из Exchange ActiveSync создайте политику условного доступа, которая определяет облачное приложение Office 365 Exchange Online и клиентское приложение Exchange ActiveSync с политикой применения только для выбранных поддерживаемых платформ.

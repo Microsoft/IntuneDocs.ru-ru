@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 09/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: d98aceff-eb35-4e3e-8e40-5f300e7335cc
@@ -16,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0858eefede678615e5b856fa0e40e48a791e4cce
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 97227d5ca75b3584cb4e603a16601b2a22deb919
+ms.sourcegitcommit: 1a5b185acd27954b10b6d59409d82eb80fd71284
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71724104"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72681454"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -76,6 +77,7 @@ ms.locfileid: "71724104"
        - [Защита идентификации](../protect/identity-protection-configure.md)  
        - [Киоск](kiosk-settings.md)
        - [Сертификат PKCS](../protect/certficates-pfx-configure.md)
+       - [Импортированный сертификат PKCS](../protect/certificates-imported-pfx-configure.md)
        - [Сертификат SCEP](../protect/certificates-scep-configure.md)
        - [Надежный сертификат](../protect/certificates-configure.md)
        - [Политики обновления](../software-updates-ios.md)

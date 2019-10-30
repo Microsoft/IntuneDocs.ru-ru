@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 08/19/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 3fb2f050-ec94-42ab-be05-c3d4101148bb
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8ec1af80d52a8331c2bef136cd0947b81beaa3ea
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 3ee68392feaa59ef5207edce75250e539407273b
+ms.sourcegitcommit: 8c25aeefb7cbc6444a8596af22fccd1c5426877a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71724780"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72593695"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -204,7 +205,7 @@ ms.locfileid: "71724780"
 
 Вот несколько советов:
 
-- Эти закладки отображаются для пользователей только в корпоративном режиме Microsoft Edge. 
+- Эти закладки отображаются для пользователей только в [корпоративном режиме](https://docs.microsoft.com/intune/apps/app-configuration-managed-browser#how-to-configure-bookmarks-for-a-protected-browser) Microsoft Edge. 
 - Пользователи не могут изменять или удалять эти закладки.
 - Они отображаются в начале списка. Все создаваемые пользователями закладки отображаются под ними.
 - Если вы включили перенаправление через Application Proxy, можно добавлять соответствующие веб-приложения, используя их внутренний или внешний URL-адрес.

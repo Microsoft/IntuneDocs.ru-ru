@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 08/20/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 003ce5af-7ee1-43fb-8d16-9d08c7957a85
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e5e4d4b3326eda01a1345cd628af31dd66e14533
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 24b69b6da846d54d4f45ede47c932574e006f99f
+ms.sourcegitcommit: 06a1fe83fd95c9773c011690e8520733e1c031e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725001"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72786012"
 ---
 # <a name="microsoft-intune-protected-apps"></a>Защищенные приложения Microsoft Intune  
 
@@ -71,6 +72,7 @@ ms.locfileid: "71725001"
 | **Microsoft Visio Viewer**<p><img alt="Microsoft app - Microsoft Visio Viewer icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-visio-viewer.png" width="100"> | Приложение обеспечивает бесплатный просмотр диаграмм Visio на iPhone и возможности работы с ними. Войдите в свою учетную запись Майкрософт или откройте файл Visio, переданный по электронной почте, и наслаждайтесь замечательными диаграммами Visio на iPhone с iOS, начиная с версии 9.0. Можно также предоставить общий доступ к диаграммам для просмотра на iPhone или в веб-браузере тем пользователям, у которых не установлена программа Visio.| [приложение в магазине iOS](https://itunes.apple.com/us/app/microsoft-visio-viewer-flowcharts-and-diagrams/id1139787983?mt=8) |  
 | **Microsoft Word**<p><img alt="Microsoft app - Microsoft Word icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-word.png" width="100"> | Теперь документы Word отображаются лучше, чем когда-либо, на планшетах и телефонах. Будьте уверены, что редактируемые или создаваемые документы будут выглядеть на любых компьютерах, планшетах и телефонах именно так, как вам нужно. Воспользуйтесь преимуществами быстрой и простой подготовки к работе, используя привычные инструменты и интуитивно понятные сенсорные средства.<p><p>Это приложение может использоваться для множественной идентификации для iOS и Android. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.microsoft.office.word),<br>[приложение в магазине iOS](https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8) |  
 | **Служба рабочих папок (Майкрософт)**<p><img alt="Microsoft app - Microsoft Work Folders icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-work-folders.png" width="100"> | Служба рабочих папок (Майкрософт) — это компонент Windows Server. С ее помощью можно разрешать отдельным сотрудникам безопасный доступ к своим файлам в любое время. | [приложение в магазине iOS](https://itunes.apple.com/us/app/work-folders/id950878067?mt=8) | 
+| **Доска Майкрософт**<p><img alt="Microsoft app - Microsoft Whiteboard icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-whiteboard.png" width="100"> | Приложение "Доска Майкрософт" предоставляет интеллектуальный холст, где команды могут планировать, создавать и вести совместную работу в облаке.  Она расширяет возможности для работы, позволяя всем членам группы редактировать и комментировать записи непосредственно на холсте в режиме реального времени независимо от того, где они находятся. Вся работа остается в облаке, готовая к продолжению на любом устройстве. | [приложение в магазине iOS](https://apps.apple.com/us/app/microsoft-whiteboard/id1352499399) |  
 | **Yammer**<p><img alt="Microsoft app - Yammer icon" src="./media/apps-supported-intune-apps/icon-m-microsoft-yammer.png" width="100"> | Устраните барьеры между подразделениями организации и усильте командную работу с помощью Yammer. Приложение позволяет связываться с нужными сотрудниками. Подразделения могут делиться информацией и разыскивать требуемую информацию друг у друга. Рабочий процесс можно сфокусировать на проектах и идеях, что позволит повысить производительность. | [Приложение в магазине Android](https://play.google.com/store/apps/details?id=com.yammer.v1),<br>[приложение в магазине iOS](https://itunes.apple.com/us/app/yammer/id289559439?mt=8) |  
 
 ## <a name="partner-apps"></a>Приложения партнеров 

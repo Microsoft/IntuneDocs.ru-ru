@@ -6,9 +6,10 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/15/2019
+ms.date: 10/14/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: bbc3ba4a-df48-4aeb-988b-69a177764e3a
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 624c6cec2a887396cb6ef6508ab26a16d72f8f7c
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: c0b5f087494e8033cb9645d0a08edd4e1c481a2c
+ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725326"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72584924"
 ---
 # <a name="use-ios-app-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия приложений iOS с помощью профилей подготовки приложений
 
@@ -44,14 +45,22 @@ ms.locfileid: "71725326"
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>Как создать профиль подготовки для мобильного приложения iOS
 
 1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-3. На панели **Intune** выберите **Клиентские приложения**.
-1. В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Профили подготовки приложений iOS**.
-2. На панели списка профилей выберите **Создать профиль**.
-3. На панели **Создать профиль** настройте следующие значения:
+2. В области **Intune** выберите **Клиентские приложения** > **Профили подготовки приложений для iOS** > **Создать профиль**.
+3. На странице **Основные** добавьте следующие значения.
     - **Имя**. Укажите имя профиля подготовки для мобильного устройства.
     - **Описание**. Введите описание политики (необязательно).
     - **Отправить файл профиля**. Выберите значок **Открыть**, а затем выберите файл профиля конфигурации мобильного устройства Apple (с расширением `.mobileprovision`), скачанный с [веб-сайта для разработчиков Apple](https://developer.apple.com/).
-4. По завершении нажмите кнопку **Создать**.
+
+   **Дата истечения срока действия** будет заполнена значением в файле профиля конфигурации мобильного устройства Apple, добавленном выше.<br>
+
+   <img alt="Create profile - Basics" src="~/apps/media/app-provisioning-profile-ios/app-provisioning-profile-ios-01.png">
+
+4. Нажмите кнопку **Далее. Теги области** .<br>
+   На странице **Теги области** при необходимости можно настроить теги области, чтобы определить, кто может просматривать профиль подготовки приложений для iOS в Intune. Дополнительные сведения о тегах области см. в статье [Use role-based access control (RBAC) and scope tags for distributed IT](../fundamentals/scope-tags.md) (Использование управления доступом на основе ролей (RBAC) и тегов области для распределенной ИТ-разработки).
+5. Нажмите кнопку **Далее. Назначения**.<br>
+   Страница **Назначения** позволяет назначать профили пользователям и устройствам. Важно отметить, что вы можете назначить профиль любому устройству, даже если оно не находится под управлением Intune.
+6. Нажмите кнопку **Далее. Проверка и создание** для просмотра значений, введенных для профиля.
+7. По завершении нажмите кнопку **Создать**, чтобы создать профиль подготовки приложения для iOS в Intune. 
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
@@ -15,12 +16,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b16b4ee95647b3bb182af075bbe7f7aad71351f0
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 9c4d47a11f07a2099d79f5ce4ce90795a087718b
+ms.sourcegitcommit: 1a5b185acd27954b10b6d59409d82eb80fd71284
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71726808"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72681479"
 ---
 # <a name="monitor-security-baseline-and-profiles-in-microsoft-intune"></a>Мониторинг базовых показателей безопасности и профилей в Microsoft Intune  
 
@@ -59,7 +60,7 @@ ms.locfileid: "71726808"
 Щелкайте элементы в диаграмме, чтобы выполнить детализацию и вывести список устройств с различными состояниями. Затем из этого списка можно выбрать отдельные устройства и просмотреть сведения о них. Пример.
 - Выберите **Конфигурация устройства**, а затем выберите профиль с ошибкой.
 
-  ![Проверка состояния устройств](./media/security-baselines-monitor/device-configuration-profile-list.png)
+  ![Просмотр состояния профиля](./media/security-baselines-monitor/device-configuration-profile-list.png)
 
 - Выберите профиль "Ошибка". Отобразится список всех параметров в профиле и их состояние. Теперь вы можете прокрутить, чтобы найти параметр, вызывающий ошибку.
 

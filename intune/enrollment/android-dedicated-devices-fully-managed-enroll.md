@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 1/15/2018
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: enrollment
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
@@ -17,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c54d82e2f0035272acce93f54f4080aca53579b9
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 2ad96c80a2cad71feec2afdfa87da767aa72fdb1
+ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71726002"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72505613"
 ---
 # <a name="enroll-your-android-enterprise-dedicated-devices-or-fully-managed-devices"></a>Регистрация выделенных или полностью управляемых устройств Android для бизнеса
 
-После настройки [выделенных устройств Android для бизнеса](android-kiosk-enroll.md) или [полностью управляемых устройств](android-fully-managed-enroll.md) в Intune вы можете зарегистрировать их. Метод регистрации устройств Android для бизнеса зависит от операционной системы.
+После настройки [выделенных устройств Android для бизнеса](android-kiosk-enroll.md) или [полностью управляемых устройств](android-fully-managed-enroll.md) в Intune вы можете зарегистрировать их. Регистрация в Intune для выделенных устройств и полностью управляемых устройств начинается со сброса до заводских настроек. Метод регистрации устройств Android для бизнеса зависит от операционной системы.
 
 | Метод регистрации | Минимальная версия ОС Android для выделенного и полностью управляемого устройства |
 | ----- | ----- |

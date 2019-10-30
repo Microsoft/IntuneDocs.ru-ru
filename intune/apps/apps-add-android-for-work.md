@@ -6,9 +6,10 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/18/2019
+ms.date: 10/10/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 2f6c06bf-e29a-4715-937b-1d2c7cf663d4
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dbcc777cc6d8b803c502d847114ef7cff04ceb26
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 3137db9d1ab82ebb99686f8f98aa768dae222caf
+ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725339"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72584957"
 ---
 # <a name="add-managed-google-play-apps-to-android-enterprise-devices-with-intune"></a>Добавление приложений управляемого Google Play для устройств Android для бизнеса с помощью Intune
 
@@ -48,9 +49,9 @@ ms.locfileid: "71725339"
 ## <a name="managed-google-play-app-types"></a>Типы приложений в управляемом Google Play
 В управляемом Google Play доступны следующие три типа приложений.
 
-* **Приложение магазина в управляемом Google Play** — это общедоступные приложения, которые обычно доступны в Магазине Google Play. Чтобы управлять этими приложениями в Intune, найдите нужные приложения, утвердите их и синхронизируйте в Intune.
-* **Частное приложение в управляемом Google Play** — это бизнес-приложения, опубликованные в управляемом Google Play администраторами Intune.  Эти приложения являются частными и доступны только для конкретного клиента Intune. Это основной способ развертывания бизнес-приложений и управления ими в управляемом Google Play и Android для бизнеса.
-* **Веб-ссылка в управляемом Google Play** — это веб-ссылки со значками, предоставленными ИТ-администратором, которые можно развертывать на устройствах Android для бизнеса. Они отображаются на устройствах в списке приложений устройства как обычные приложения.
+- **Приложение магазина в управляемом Google Play** — это общедоступные приложения, которые обычно доступны в Магазине Google Play. Чтобы управлять этими приложениями в Intune, найдите нужные приложения, утвердите их и синхронизируйте в Intune.
+- **Частное приложение в управляемом Google Play** — это бизнес-приложения, опубликованные в управляемом Google Play администраторами Intune.  Эти приложения являются частными и доступны только для конкретного клиента Intune. Это основной способ развертывания бизнес-приложений и управления ими в управляемом Google Play и Android для бизнеса.
+- **Веб-ссылка в управляемом Google Play** — это веб-ссылки со значками, предоставленными ИТ-администратором, которые можно развертывать на устройствах Android для бизнеса. Они отображаются на устройствах в списке приложений устройства как обычные приложения.
 
 ## <a name="managed-google-play-store-apps"></a>Приложения магазина в управляемом Google Play
 Существует два способа просматривать и утверждать приложения магазина в управляемом Google Play с помощью Intune.
@@ -209,8 +210,7 @@ ms.locfileid: "71725339"
 
 ## <a name="additional-managed-google-play-app-reporting-for-android-enterprise-work-profile-devices"></a>Дополнительные отчеты об управляемых приложениях Google Play для устройств с рабочим профилем Android Enterprise
 
-Для управляемых приложений Google Play, развернутых на устройствах с рабочим профилем Android Enterprise, можно просмотреть конкретный номер версии приложения, установленного на устройстве. Это касается только обязательных приложений. 
-
+Для управляемых приложений Google Play, развернутых на устройствах с рабочим профилем Android Enterprise, можно просмотреть состояние и номер версии приложения, установленного на устройстве с Intune. 
 
 ## <a name="delete-managed-google-play-apps"></a>Удаление приложений управляемого Google Play
 При необходимости можно удалять приложения управляемого Google Play из Microsoft Intune. Чтобы удалить приложение управляемого Google Play, откройте Microsoft Intune на портале Azure и выберите **Клиентские приложения** > **Приложения**. В списке приложений щелкните многоточие (...) справа от приложения управляемого Google Play и в отобразившемся меню выберите **Удалить**. Приложение управляемого Google Play, удаленное из списка приложений, автоматически становится неутвержденным.

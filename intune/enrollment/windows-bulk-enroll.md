@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 5/21/2018
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: enrollment
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 1f39c02a-8d8a-4911-b4e1-e8d014dbce95
@@ -16,12 +17,12 @@ ms.reviewer: spshumwa
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ed71676b434dfe30c7591ad3a3391d2252c3275d
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 8b2ce91cea1fdef211a8e6a9dc1c19086f355385
+ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71722336"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72585274"
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 
@@ -89,6 +90,8 @@ ms.locfileid: "71722336"
 
 - Пакет подготовки, который пытается присоединиться к домену Active Directory или клиенту Azure Active Directory, которые не поддерживают создание локальной учетной записи, может сделать устройство недоступным, если во время присоединения к домену произошла ошибка из-за отсутствия подключения к сети.
 - Запускаемые в рамках подготовки пакета скрипты выполняются в контексте системы. Скрипты могут произвольно изменять файловую систему и конфигурацию устройства. Вредоносный или неправильный скрипт может привести устройство в состояние, которое можно будет исправить только с помощью повторного создания образа или очистки.
+
+Вы можете проверить успешность или сбой задания параметров в пакете в журнале администратора **Диагностика-подготовка-поставщик** в средстве просмотра событий.
 
 ### <a name="bulk-enrollment-with-wi-fi"></a>Массовая регистрация с Wi-Fi 
 

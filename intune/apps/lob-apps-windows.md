@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 10/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: f81c5f82-5cfa-4b97-9f73-d6cf77c06896
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c2b20030bd6c7e1dc9108002cc43f105cb8c6784
-ms.sourcegitcommit: fca2670142c083d7562c0a36547a6a451863e315
+ms.openlocfilehash: 6df77d168bb8be3775c566f63833b46130515b36
+ms.sourcegitcommit: 5807f4db4a45a093ce2fd6cb0c480bec384ec1ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "72036456"
+ms.lasthandoff: 10/19/2019
+ms.locfileid: "72601578"
 ---
 # <a name="add-a-windows-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения Windows в Microsoft Intune
 
@@ -82,12 +83,12 @@ ms.locfileid: "72036456"
 
    > [!NOTE]
    > Примечание. Чтобы служба Intune успешно развернула новый файл APPX на устройстве, необходимо добавить строку `Version` в файле AppxManifest.xml в пакет APPX.
-    
+
 ## <a name="configure-a-self-updating-mobile-msi-app-to-ignore-the-version-check-process"></a>Настройка пропуска проверки версии самообновляющегося мобильного приложения MSI
 
-Вы можете настроить пропуск проверки версии для известного самообновляющегося мобильного приложения MSI. 
+Вы можете настроить пропуск проверки версии для известного самообновляющегося мобильного приложения MSI.
 
-Некоторые приложения на основе установщика MSI автоматически обновляются разработчиком. Для этих автоматически обновляемых приложений MSI можно настроить параметр **Игнорировать версию приложения** в области **Сведения о приложении**. Если для этого параметра установлено значение **Да**, Microsoft Intune не будет проверять версию приложения, установленную на клиенте Windows. 
+Некоторые приложения на основе установщика MSI автоматически обновляются разработчиком или при помощи другого способа. Для этих автоматически обновляемых приложений MSI можно настроить параметр **Игнорировать версию приложения** в области **Сведения о приложении**. Если для этого параметра установлено значение **Да**, Microsoft Intune не будет проверять версию приложения, установленную на клиенте Windows.
 
 Эта возможность позволяет избежать состояния гонки. Например, состояние гонки может возникнуть, если приложение автоматически обновляется разработчиком и службой Intune. В результате может возникнуть конфликт из-за одновременных попыток обновить версию приложения в клиенте Windows.
 

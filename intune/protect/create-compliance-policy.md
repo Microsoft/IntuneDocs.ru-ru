@@ -2,12 +2,13 @@
 title: Создание политик соответствия требования устройств в Microsoft Intune в Azure | Документация Майкрософт
 description: Создание политик соответствия требованиям устройств, общие сведения о состоянии и уровнях серьезности, использовании состояния InGracePeriod, работе с условным доступом, управлении устройствами без назначенной политики и различиях в соответствии на портале Azure и классическом портале в Microsoft Intune
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: brenduns
+ms.author: brenduns
 manager: dougeby
-ms.date: 10/09/2019
+ms.date: 10/21/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.reviewer: samyada
@@ -15,16 +16,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0ec8003264c28ea40d53731c8fb8c3eddef7fded
-ms.sourcegitcommit: dd6755383ba89824d1cc128698a65fde6bb2de55
+ms.openlocfilehash: 76998c32f09b20e624359cc8a38231e14a70399b
+ms.sourcegitcommit: 06a1fe83fd95c9773c011690e8520733e1c031e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72306578"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72786075"
 ---
 # <a name="create-a-compliance-policy-in-microsoft-intune"></a>Создание политики соответствия требованиям в Microsoft Intune
-
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
 
 Политики соответствия устройств требованиям — это главная особенность при использовании Intune для защиты ресурсов организации. В Intune можно создавать правила и параметры, которым должно соответствовать устройство, чтобы считаться соответствующим требованиям, например минимальная версия ОС. Если устройство не соответствует требованиям, вы можете заблокировать доступ к данным и ресурсам с помощью [условного доступа](conditional-access.md).
 
@@ -48,10 +47,10 @@ ms.locfileid: "72306578"
 
 - Используйте поддерживаемую платформу:
 
-  - Android
+  - Администратор устройства с Android
   - Android для бизнеса
   - iOS
-  - macOS (предварительная версия)
+  - macOS
   - Windows 10
   - Windows 8.1
   - Windows Phone 8.1
@@ -72,26 +71,40 @@ ms.locfileid: "72306578"
 
 3. Выберите **Политики** > **Создать политику**. Укажите следующие свойства.
 
-    - **Имя**. Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя политики — **Пометить устройства iOS со снятой защитой как несоответствующие требованиям**.
-    - **Описание** Введите описание политики. Этот параметр является необязательным, но мы рекомендуем его использовать.
-    - **Платформа**. Выберите платформу устройств. Доступны следующие параметры:  
+   - **Имя**. Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя политики — **Пометить устройства iOS со снятой защитой как несоответствующие требованиям**.  
 
-       - **Android**
-       - **Android для бизнеса**
-       - **iOS**
-       - **macOS**
-       - **Windows Phone 8.1**
-       - **Windows 8.1 и более поздние версии**
-       - **Windows 10 и более поздних версий**.
+   - **Описание** Введите описание политики. Этот параметр является необязательным, но мы рекомендуем его использовать.  
 
-    - **Параметры**: В статьях по следующих ссылках приведены и описаны параметры для каждой платформы:
+   - **Платформа**. Выберите платформу устройств. Доступны следующие параметры:
+     - **Администратор устройства с Android**
+     - **Android Enterprise**
+     - **iOS/iPadOS**
+     - **macOS**
+     - **Windows Phone 8.1**
+     - **Windows 8.1 и более поздние версии**
+     - **Windows 10 и более поздних версий**.
 
-        - [Android](compliance-policy-create-android.md)
-        - [Android Enterprise](compliance-policy-create-android-for-work.md)
-        - [iOS](compliance-policy-create-ios.md)
-        - [macOS](compliance-policy-create-mac-os.md)
-        - [Windows Phone 8.1, Windows 8.1 и более поздних версий](compliance-policy-create-windows-8-1.md)
-        - [Windows 10 и более поздних версий](compliance-policy-create-windows.md).
+     Для *Android Enterprise*необходимо выбрать **тип профиля**.
+     - **Владелец устройства**
+     - **Рабочий профиль**
+
+   - **Параметры**: В статьях по следующих ссылках приведены и описаны параметры для каждой платформы:
+     - [Администратор устройства с Android](compliance-policy-create-android.md)
+     - [Android Enterprise](compliance-policy-create-android-for-work.md)
+     - [iOS/iPadOS](compliance-policy-create-ios.md)
+     - [macOS](compliance-policy-create-mac-os.md)
+     - [Windows Phone 8.1, Windows 8.1 и более поздних версий](compliance-policy-create-windows-8-1.md)
+     - [Windows 10 и более поздних версий](compliance-policy-create-windows.md).  
+
+   - **Расположения** *(Администратор устройства с Android)* . В политике можно принудительно включить обеспечение соответствия по расположению устройства. Выберите существующие расположения. Еще нет расположения? См. указания в статье [Использование расположений (границы сети) в Intune](use-network-locations.md).  
+
+   - **Действия при несоответствии**. Для устройств, которые не отвечают политикам или правилам соответствия, можно добавить последовательность действий, которые должны применяться автоматически. Вы можете изменить расписание, когда устройство помечается как не соответствующее требованиям, например через один день. Кроме того, можно настроить второе действие, которое отправляет пользователю сообщение электронной почты, когда устройство не соответствует требованиям.
+    
+     [Добавить действия для несоответствующих устройств](actions-for-noncompliance.md). Предоставляет дополнительные сведения, включая создание уведомления по электронной почте для пользователей.
+
+     Например, вы используете функцию расположений и добавляете расположение в политику соответствия требованиям. Действие по умолчанию для несоответствия применяется только при выборе хотя бы одного расположения. Если устройство не подключено к выбранным расположениям, оно сразу считается не соответствующим требованиям. Можно предоставить пользователям льготный период, например один день.
+
+   - **Область (теги)** . Теги области — это отличный способ назначения и фильтрации политик для конкретных групп, таких как сотрудники отдела продаж, отдела кадров, All US-NC и т. д. После добавления параметров можно также добавить тег области к политикам соответствия требованиям. Статья [Использование управления доступом на основе ролей (RBAC) и теги области для распределенных ИТ](../fundamentals/scope-tags.md) — это хороший ресурс.
 
 4. Когда закончите, нажмите **Добавить** > **OK**, чтобы сохранить изменения. Созданная вами политика отображается в списке. Затем назначьте политику группам.
 
@@ -114,17 +127,18 @@ ms.locfileid: "72306578"
 
 Если кнопка **Оценить** неактивна, убедитесь, что эта политика назначена одной или нескольким группам.
 
-## <a name="actions-for-noncompliance"></a>Действия при несоответствии
+<!-- ## Actions for noncompliance
 
-Для устройств, которые не отвечают политикам или правилам соответствия, можно добавить последовательность действий, которые должны применяться автоматически. Вы можете изменить расписание, когда устройство помечается как не соответствующее требованиям, например через один день. Кроме того, можно настроить второе действие, которое отправляет пользователю сообщение электронной почты, когда устройство не соответствует требованиям.
+For devices that don't meet your compliance policies, you can add a sequence of actions to apply automatically. You can change the schedule when the device is marked non-compliant, such as after one day. You can also configure a second action that sends an email to the user when the device isn't compliant.
 
-[Добавить действия для несоответствующих устройств](actions-for-noncompliance.md). Предоставляет дополнительные сведения, включая создание уведомления по электронной почте для пользователей.
+[Add actions for noncompliant devices](actions-for-noncompliance.md) provides more information, including creating a notification email to your users.
 
-Например, вы используете функцию расположений и добавляете расположение в политику соответствия требованиям. Действие по умолчанию для несоответствия применяется только при выборе хотя бы одного расположения. Если устройство не подключено к выбранным расположениям, оно сразу считается не соответствующим требованиям. Можно предоставить пользователям льготный период, например один день.
+For example, you're using the Locations feature, and add a location in a compliance policy. The default action for noncompliance applies when you select at least one location. If the device isn't connected to the selected locations, it's immediately considered not compliant. You can give your users a grace period, such as one day.
 
-## <a name="scope-tags"></a>Теги области
+## Scope tags
 
-Теги области — это отличный способ назначения и фильтрации политик для конкретных групп, таких как сотрудники отдела продаж, отдела кадров, All US-NC и т. д. После добавления параметров можно также добавить тег области к политикам соответствия требованиям. Статья [Использование управления доступом на основе ролей (RBAC) и теги области для распределенных ИТ](../fundamentals/scope-tags.md) — это хороший ресурс.
+Scope tags are a great way to assign and filter policies to specific groups, such as Sales, HR, All US-NC employees, and so on. After you add the settings, you can also add a scope tag to your compliance policies. [Use scope tags to filter policies](../fundamentals/scope-tags.md) is a good resource.
+-->
 
 ## <a name="refresh-cycle-times"></a>Обновление времени цикла
 

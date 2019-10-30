@@ -9,6 +9,7 @@ manager: dougeby
 ms.date: 08/27/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: f5ca557e-a8e1-4720-b06e-837c4f0bc3ca
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ff9306c7429adbe4a5159879ccbe7cb0f13e65ed
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: 62a3f9ee2cec41f14e450158ab8ad02e1a3a2ea2
+ms.sourcegitcommit: 06a1fe83fd95c9773c011690e8520733e1c031e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725573"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72785688"
 ---
 # <a name="selectively-wipe-data-using-app-protection-policy-conditional-launch-actions-in-intune"></a>Выборочная очистка данных с помощью действий условного запуска политики защиты приложений в Intune
 
@@ -59,6 +60,7 @@ ms.locfileid: "71725573"
 - Мин. версия приложения
 - Мин. версия пакета SDK
 - Модель устройства
+- Максимальный допустимый уровень угроз для устройства
 
 Чтобы использовать параметр **Модели устройств**, введите список идентификаторов моделей iOS через точку с запятой. Идентификатор модели iOS можно найти в столбце "Тип устройства" в [сопроводительной документации HockeyApp](https://support.hockeyapp.net/kb/client-integration-ios-mac-os-x-tvos/ios-device-types).<br>
 Пример: *iPhone5,2;iPhone5,3*
@@ -83,6 +85,7 @@ ms.locfileid: "71725573"
 - Производитель устройства
 - Аттестация устройств SafetyNet
 - Проверка угроз в приложениях
+- Максимальный допустимый уровень угроз для устройства
 
 Чтобы использовать параметр **Производители устройств**, введите список производителей Android через точку с запятой. Производитель устройства Android указан в его параметрах.<br>
 Пример входных данных: *Manufacturer A;Manufacturer B* 

@@ -6,9 +6,10 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/22/2019
+ms.date: 10/10/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: apps
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 64e5133d-1e23-4ee6-b556-f5d32c0e95da
@@ -17,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 03c38472a3100ec2d717e802e07e189a53ac0866
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: ee22ee435830137a423423aa692376aabbb6cecb
+ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71725014"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72585416"
 ---
 # <a name="monitor-app-information-and-assignments-with-microsoft-intune"></a>Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune
 
@@ -37,6 +38,8 @@ ms.locfileid: "71725014"
 
 > [!NOTE]
 > Приложения магазина Android Store, развернутые в состоянии **Доступно**, не сообщают свое состояние установки.
+>
+> Для управляемых приложений Google Play, развернутых на устройствах с рабочим профилем Android Enterprise, можно просмотреть состояние и номер версии приложения, установленного на устройстве с Intune. 
 
 ## <a name="app-overview-pane"></a>Панель общих сведений о приложении
 

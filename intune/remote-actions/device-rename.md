@@ -8,6 +8,7 @@ manager: dougeby
 ms.date: 07/05/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: remote-actions
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
@@ -15,17 +16,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 35fae5ea1b3294772db4f4db51179892e08ed5d1
-ms.sourcegitcommit: 88b6e6d70f5fa15708e640f6e20b97a442ef07c5
+ms.openlocfilehash: c1c02248b3208073a3bb09cafe69cf0473eacb2b
+ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71728511"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72584536"
 ---
 # <a name="rename-a-device-in-intune"></a>Переименование устройства в Intune
-
-
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
 
 Действие **Rename Device** (Переименовать устройство) позволяет переименовать устройство, зарегистрированное в Intune. Имя устройства изменяется в Intune и на устройстве.
 
@@ -44,6 +42,15 @@ ms.locfileid: "71728511"
 5. Если вы хотите перезагрузить устройство после его переименования, щелкните **Да** рядом с параметром **Перезапуск после переименования**.
 6. Нажмите кнопку **Переименовать**.
 
+## <a name="windows-device-rename-rules"></a>Правила переименования устройств с Windows
+При переименовании устройства с Windows новое имя должно соответствовать следующим правилам.
+- Не более 15 символов (должен быть не больше 63 байт, не включая завершающее значение NULL).
+- Не допускается значение NULL или пустая строка.
+- Разрешенные символы ASCII: буквы (a–z, A–Z), цифры (0–9) и дефисы.
+- Допускается Юникод: символы > = 0x80, должны относиться к допустимой кодировке UTF8, должны быть IDN-сопоставимыми (т. е. RtlIdnToNameprepUnicode будет успешно выполнен; см. RFC 3492).
+- Имя не должно состоять из одних цифр.
+- В имени нет пробелов.
+- Недопустимые символы: { | } ~ [ \ ] ^ ' : ; < = > ? & @ ! " # $ % ` ( ) + / , . _ *)
 
 
 ## <a name="next-steps"></a>Дальнейшие шаги

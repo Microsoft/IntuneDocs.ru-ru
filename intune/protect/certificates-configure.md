@@ -1,13 +1,14 @@
 ---
 title: Создание профилей сертификатов в Microsoft Intune — Azure | Документы Майкрософт
-description: Добавьте или создайте профиль сертификатов для ваших устройств, настроив среду сертификатов SCEP или PKCS, экспортируйте открытый сертификат, создайте профиль на портале Azure, а затем назначьте SCEP или PKCS профилям сертификатов в Microsoft Intune на портале Azure
+description: Дополнительные сведения об использовании сертификатов и профилей сертификатов SCEP и PKCS с Microsoft Intune.
 keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 09/03/2019
+ms.date: 10/18/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
+ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: 5eccfa11-52ab-49eb-afef-a185b4dccde1
@@ -16,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e993df5c37cfed8d5dd0481543b406dd25ad1a49
-ms.sourcegitcommit: b1e97211db7cb949eb39be6776b3a11d434fdab0
+ms.openlocfilehash: 65ced1dfb0fe872129b7437e8dda3dde680b5d07
+ms.sourcegitcommit: 06a1fe83fd95c9773c011690e8520733e1c031e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72251568"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72786816"
 ---
 # <a name="use-certificates-for-authentication-in-microsoft-intune"></a>Использование сертификатов для проверки подлинности в Microsoft Intune  
 
-Используйте сертификаты с Intune для проверки подлинности пользователей в приложениях и корпоративных ресурсах через профили VPN, Wi-Fi или электронной почты. Если для проверки подлинности подключений используются сертификаты, конечным пользователям не нужно вводить имена пользователей и пароли, что помогает сделать доступ прозрачным. Сертификаты также используются для подписывания и шифрования электронной почты с помощью S/MIME.
+Используйте сертификаты с Intune для проверки подлинности пользователей в приложениях и корпоративных ресурсах через профили VPN, Wi-Fi или электронной почты. Если для проверки подлинности подключений используются сертификаты, конечным пользователям не нужно вводить имена пользователей и пароли, что позволяет сделать доступ прозрачным. Сертификаты также используются для подписывания и шифрования электронной почты с помощью S/MIME.
 
 ## <a name="intune-supported-certificates-and-usage"></a>Поддерживаемые сертификаты и использование Intune
 | Type              | Проверка подлинности | Подписывание S/MIME | Шифрование S/MIME  |
@@ -43,9 +44,9 @@ ms.locfileid: "72251568"
 - При использовании профилей сертификатов SCEP с помощью служб сертификатов Microsoft Active Directory вы настроите сервер службы регистрации сертификатов для сетевых устройств (NDES).
 - Если вы используете SCEP одного из наших партнеров по ЦС, вам потребуется [интегрировать его с Intune](certificate-authority-add-scep-overview.md#set-up-third-party-ca-integration).
 - Для профилей сертификатов SCEP и PKCS требуется скачать, установить и настроить соединитель Microsoft Intune Certificate Connector. 
-- Для использования импортированных сертификатов PCKS требуется скачать, установить и настроить соединитель сертификатов PFX для Microsoft Intune.
+- Для использования импортированных сертификатов PKCS требуется скачать, установить и настроить соединитель сертификатов PFX для Microsoft Intune.
 - Для импортированных сертификатов PKCS необходимо экспортировать сертификаты из центра сертификации и импортировать их в Microsoft Intune. См. [Проект PFXImport PowerShell](https://github.com/Microsoft/Intune-Resource-Access/tree/develop/src/PFXImportPowershell).
-- Чтобы устройство использовало SCEP, PCKS или импортированные профили сертификатов PKCS, оно должно доверять корневому центру сертификации. Используйте *профиль доверенного сертификата* для развертывания доверенного корневого сертификата ЦС на устройства.  
+- Чтобы устройство использовало SCEP, PKCS или импортированные профили сертификатов PKCS, оно должно доверять корневому центру сертификации. Используйте *профиль доверенного сертификата* для развертывания доверенного корневого сертификата ЦС на устройства.  
 
 ## <a name="supported-platforms-and-certificate-profiles"></a>Поддерживаемые платформы и профили сертификатов  
 | Платформа              | Профиль доверенного сертификата | Профиль сертификата PKCS | Профиль сертификата SCEP | Профиль импортированного сертификата PKCS  |
@@ -55,7 +56,7 @@ ms.locfileid: "72251568"
 | Android для бизнеса <br> Выделенное устройство (владелец устройства)   |  |   |  |   |
 | Android для бизнеса <br> — Рабочий профиль    | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
 | iOS                   | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
-| macOS                 | ![Поддерживается](./media/certificates-configure/green-check.png) |   |![Поддерживается](./media/certificates-configure/green-check.png)|![Поддерживается](./media/certificates-configure/green-check.png)|
+| macOS                 | ![Поддерживается](./media/certificates-configure/green-check.png) |  ![Поддерживается](./media/certificates-configure/green-check.png) |![Поддерживается](./media/certificates-configure/green-check.png)|![Поддерживается](./media/certificates-configure/green-check.png)|
 | Windows Phone 8.1     |![Поддерживается](./media/certificates-configure/green-check.png)  |  | ![Поддерживается](./media/certificates-configure/green-check.png)| ![Поддерживается](./media/certificates-configure/green-check.png) |
 | Windows 8.1 и более поздние версии |![Поддерживается](./media/certificates-configure/green-check.png)  |  |![Поддерживается](./media/certificates-configure/green-check.png) |   |
 | Windows 10 и более поздней версии  | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
@@ -86,7 +87,7 @@ ms.locfileid: "72251568"
    - **хранилище сертификатов на компьютере — промежуточное**;
    - **хранилище сертификатов пользователей — промежуточное**.
 8. По завершении нажмите кнопку **ОК**, вернитесь к панели **Создать профиль** и выберите **Создать**.
-Профиль появится в списке профилей на панели *Конфигурация устройства — профили* с типом профиля **Доверенный сертификат**.  Не забудьте назначить этот профиль устройствам, которые будут использовать сертификаты SCEP или PCKS. Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройств](../configuration/device-profile-assign.md).
+Профиль появится в списке профилей на панели *Конфигурация устройства — профили* с типом профиля **Доверенный сертификат**.  Не забудьте назначить этот профиль устройствам, которые будут использовать сертификаты SCEP или PKCS. Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройств](../configuration/device-profile-assign.md).
 
 > [!NOTE]  
 > На устройствах с Android выводится сообщение о том, что третья сторона установила доверенный сертификат.  
@@ -97,7 +98,7 @@ ms.locfileid: "72251568"
 - [Использование сторонних центров сертификации](certificate-authority-add-scep-overview.md)  
 
 ## <a name="next-steps"></a>Дальнейшие шаги  
-После создания и назначения профиля доверенного сертификата создайте и назначьте профили сертификатов SCEP, PKCS или импортированных сертификатов PKCS для каждой платформы, которую хотите использовать. Дополнительные сведения см. в следующих статьях:  
+Создайте профили сертификатов SCEP, PKCS или импортированных сертификатов PKCS для каждой платформы, которую хотите использовать. Дополнительные сведения см. в следующих статьях:  
 - [Настройка инфраструктуры для поддержки сертификатов SCEP с помощью Intune](certificates-scep-configure.md)  
 - [Настройка инфраструктуры сертификатов Microsoft Intune для PKCS](certficates-pfx-configure.md)  
 - [Создание профиля импортированного сертификата PKCS](certificates-imported-pfx-configure.md#create-a-pkcs-imported-certificate-profile)  
