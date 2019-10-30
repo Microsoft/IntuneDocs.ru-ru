@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/15/2019
+ms.date: 10/22/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6cee01676a98da714d7047e6a45713e8673786ea
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: c388e632f545b48a18ef6ed7b76132c290f16a9e
+ms.sourcegitcommit: 25acfc88b366d2da71c37d354a0238e4f1168325
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507505"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72813451"
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>Добавление политик конфигурации приложений для управляемых устройств iOS
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9d82813f1292c99cf248c56a102503413d2cb8fb
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 000b1d04dd3f520b55b1d33545a8803e23bf8965
+ms.sourcegitcommit: 0d6f323152ec62f7d383891cce12ea0a4289cd8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507454"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72889594"
 ---
 # <a name="how-to-monitor-app-protection-policies"></a>Как отслеживать политики защиты приложений
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
@@ -76,7 +76,7 @@ ms.locfileid: "72507454"
 - **Последняя синхронизация**. Время последней синхронизации приложения с Intune. 
 
 >[!NOTE]
-> Столбец **"Последняя синхронизация"** содержит одно и то же значение в отчете состояния пользователя в консоли и в [экспортируемом CSV-отчете](https://docs.microsoft.com/intune/app-protection-policies-monitor#export-app-protection-activities-to-csv) политики защиты приложений. Единственная разница может возникнуть из-за небольшой задержки синхронизации значений в этих двух отчетах. 
+> Столбец **"Последняя синхронизация"** содержит одно и то же значение в отчете состояния пользователя в консоли и в [экспортируемом CSV-отчете](https://docs.microsoft.com/intune/app-protection-policies-monitor#export-app-protection-activities) политики защиты приложений. Единственная разница может возникнуть из-за небольшой задержки синхронизации значений в этих двух отчетах. 
 >
 > Значение времени в столбце "Последняя синхронизация" указывает на момент, когда приложение Intune в последний раз взаимодействовало с экземпляром приложения. Когда пользователь запускает приложение, оно может обратиться к службе "Защита приложений Intune" в момент запуска (в зависимости от давности последней синхронизации). См. [интервалы повторных попыток для синхронизации политики защиты приложений](https://docs.microsoft.com/en-us/intune/app-protection-policy-delivery). Если пользователь не запускал конкретное приложение во время последнего интервала синхронизации (который обычно равен 30 минутам при активном использовании), при запуске приложения происходит следующее:
 >
