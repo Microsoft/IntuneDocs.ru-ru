@@ -5,24 +5,24 @@ description: Параметры базовых показателей безоп
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 07/25/2019
+ms.date: 10/25/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: ''
-ms.reviewer: karthib
+ms.reviewer: shpate
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a2cb5d7375ae5b76a24861872d4abf786f199dfd
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: aa3cb3481de6e1fdc3790b7330ac521772e252be
+ms.sourcegitcommit: 5932da3ed8f52c7b0f0d71c1801f81c85952cf0c
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508994"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72923402"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
@@ -32,36 +32,30 @@ ms.locfileid: "72508994"
 
 Этот базовый план оптимизирован для физических устройств и сейчас не рекомендуется для использования на виртуальных машинах или конечных точках VDI. Некоторые базовые параметры могут влиять на удаленные интерактивные сеансы в виртуализованных средах. Дополнительные сведения см. в статье [Повышение уровня соответствия требованиям базового уровня безопасности ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline) в документации по Windows.
 
-
-> [!NOTE]  
-> Сейчас доступна **предварительная версия** параметров базовых показателей ATP. В период действия предварительной версии список доступных параметров и порядок, в котором они представлены, может не соответствовать указанным на портале.  
->
-> Когда будет выпущена отличная от предварительной версия параметров базовых показателей, этот раздел будет обновляться в соответствии с текущим списком параметров базовых показателей безопасности, поддерживаемых Intune.
-
 ## <a name="application-guard"></a>Application Guard  
 Дополнительные сведения см. в статье [WindowsDefenderApplicationGuard CSP](https://docs.microsoft.com/windows/client-management/mdm/windowsdefenderapplicationguard-csp) (Поставщик служб шифрования WindowsDefenderApplicationGuard) документации Windows.  
 
 Application Guard в Microsoft Defender изолирует среду в Microsoft Edge от всех сайтов, не являющихся доверенными в вашей организации. Если сайт не относится к изолированной корпоративной сети, он открывается в виртуальном сеансе просмотра Hyper-V. Доверенные сайты определяются границами сети.  
 
-- **Application Guard** — *Settings/AllowWindowsDefenderApplicationGuard*  
+- **Application Guard**  - *Settings/AllowWindowsDefenderApplicationGuard*  
   Выберите *Да*, чтобы включить эту функцию, которая открывает недоверенные сайты в виртуализированном контейнере Hyper-V для просмотра. Когда выбрано значение *Не настроено*, любой веб-сайт (доверенный и недоверенный) открывается на устройстве, а не в виртуализированном контейнере.  
 
   **Значение по умолчанию**: "Да"
  
-  - **Внешнее содержимое на сайтах предприятия** — *Settings/BlockNonEnterpriseContent*  
+  - **Внешнее содержимое на сайтах предприятия** — - *Settings/BlockNonEnterpriseContent*  
     Выберите *Да*, чтобы заблокировать загрузку содержимого с недоверенных веб-сайтов. Когда выбрано значение *Не настроено*, некорпоративные сайты можно открывать на устройстве. 
  
     **Значение по умолчанию**: "Да"
 
-  - **Поведение буфера обмена** — *Settings/ClipboardSettings*  
+  - **Поведение буфера обмена**  -  *Settings/ClipboardSettings*  
     выберите действия копирования и вставки, которые разрешено выполнять между локальным компьютером и виртуальным браузером Application Guard.  Возможны следующие значения.
-    - *Не настроено*  
-    - *Блокировать оба* — не удалось передать данные между компьютером и виртуальным браузером.  
-    - *Block host to container* (Блокировать передачу с узла в контейнер) — данные невозможно передать с компьютера в виртуальный браузер.
-    - *Block container to host* (Блокировать передачу из контейнера в узел) — данные невозможно передать из виртуального браузера на компьютер.
-    - *Block none* (Ничего не блокировать) — содержимое не блокируется.  
+    - Не настроено  
+    - Блокировать копирование и вставку между компьютерами и браузером. Не возможно передавать данные между ПК и виртуальным браузером.  
+    - Разрешить копирование и вставку из браузера в компьютер только для ПК — данные не могут передаваться с компьютера в виртуальный браузер.
+    - Разрешить копирование и вставку с компьютера в только браузер — данные не могут передаваться из виртуального браузера на главный компьютер.
+    - Разрешить копирование и вставку между ПК и браузером — ни один блок для содержимого не существует.  
 
-    **Значение по умолчанию**: "Блокировать оба"  
+    **По умолчанию**: Блокировка копирования и вставки между ПК и браузером  
 
 - **Политика сетевой изоляции Windows — доменные имена корпоративной сети**  
   Дополнительные сведения см. в разделе [Policy CSP — NetworkIsolation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation) (Поставщик служб шифрования политики NetworkIsolation) документации Windows.
@@ -101,7 +95,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: "Включить"
 
-- **Email content execution type** (Тип выполнения содержимого электронной почты)  
+- **Выполнение содержимого электронной почты**  
   [Правило сокращения направлений атак](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules). Когда выбрано значение *Блокировать*, это правило блокирует запуск следующих типов файлов из сообщения электронной почты, отображаемого в Microsoft Outlook, или веб-почте (например, Gmail.com и Outlook.com):  
 
   - исполняемые файлы (например, EXE, DLL или SCR);  
@@ -115,12 +109,12 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: "Включить"
 
-- **Script obfuscated macro code type** (Тип замаскированного кода макросов в сценарии)  
+- **Маскировка сценарием кода макросов**  
   [Правило сокращения направлений атак](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules). Вредоносные программы и другие угрозы могут попытаться замаскировать или скрыть свой вредоносный код в некоторых файлах сценариев. Это правило запрещает запуск сценариев, которые могут быть замаскированы.  
     
   **Значение по умолчанию**: "Блокировать"
 
-- **Untrusted USB process type** (Тип обработки недоверенных USB-устройств)  
+- **Ненадежный процесс USB**  
   [Правило сокращения направлений атак](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules). Когда выбрано значение *Блокировать*, неподписанные или недоверенные файлы со съемных USB-накопителей и SD-карт невозможно запустить.
 
   Исполняемые файлы:
@@ -129,12 +123,12 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: "Блокировать"
 
-- **Office apps other process injection type** (Тип внедрения кода приложениями Office в другие процессы)  
+- **Внедрение приложений Office для других процессов**  
   [Правило сокращения направлений атак](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules). Когда выбрано значение*Блокировать*, приложения Office, включая Word, Excel, PowerPoint и OneNote, не могут внедрить код в другие процессы. Обычно внедрение кода используется вредоносными программами для выполнения вредоносного кода с целью скрыть свою активность от модулей сканирования антивирусного ПО.  
 
   **Значение по умолчанию**: "Блокировать"
 
-- **Office macro code allow Win32 imports type** (Тип кода макросов Office, разрешающий импорт Win32)  
+- **Код макроса Office разрешает импорт Win32**  
   [Правило сокращения направлений атак](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules). Когда выбрано значение *Блокировать*, это правило пытается блокировать файлы Office, которые содержат код макроса, способный импортировать библиотеки DLL Win32. Файлы Office: Word, Excel, PowerPoint и OneNote. Вредоносные программы могут использовать макросы в файлах Office для импорта и загрузки библиотек DLL Win32, что позволит выполнять вызовы API для дальнейшего заражения всей системы.  
 
   **Значение по умолчанию**: "Блокировать"
@@ -144,7 +138,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: "Включить"
 
-- **Тип запуска или создания исполняемого содержимого для приложений Office**  
+- **Создание или запуск исполняемого содержимого приложений Office**  
   [Правило сокращения направлений атак](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules). Когда выбрано значение *Блокировать*, приложения Office не могут создавать исполняемое содержимое. Приложения Office: Word, Excel, PowerPoint, OneNote и Access.  
 
   Это правило нацелено на типичные варианты поведения, используемые подозрительными и вредоносными надстройками и сценариями (расширениями), которые создают или запускают исполняемые файлы. Эта типичный прием вредоносных программ. Приложения Office не смогут использовать такие расширения. Обычно эти расширения используют сервер сценариев Windows (WSH-файлы) для запуска сценариев, которые автоматизируют некоторые задачи или предоставляют дополнительные функции, созданные пользователем.
@@ -170,6 +164,10 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   - **Метод шифрования**  
     **Значение по умолчанию**: AES-CBC, 128 бит
+
+- **Шифрование карты памяти (только для мобильных устройств)** При выборе пункта *Да* будет зашифрована карта памяти мобильного устройства.  
+
+   **Значение по умолчанию**: "Да"
 
 - **Bit locker fixed drive policy** (Политика BitLocker в отношении жестких дисков)  
   Значения для этой политики определяют стойкость шифра, используемого BitLocker для шифрования жестких дисков. Предприятия могут управлять уровнем шифрования для повышения уровня безопасности (AES-256 надежнее, чем AES-128). Если этот параметр включен, можно настраивать алгоритм шифрования и стойкость шифра ключа для жестких дисков с данными, дисков операционной системы и съемных носителей с данными по отдельности. Для жестких дисков и дисков операционной системы рекомендуется использовать алгоритм XTS-AES. Для съемных носителей следует использовать алгоритм "AES-CBC, 128 бит" или "AES-CBC, 256 бит", если носитель будет использоваться на других устройствах, работающих не под управлением Windows 10 версии 1511 или более поздней. Изменение метода шифрования не оказывает никакого влияния, если диск уже зашифрован или находится в процессе шифрования. В этом случае данный параметр политики игнорируется.
@@ -224,12 +222,12 @@ Application Guard в Microsoft Defender изолирует среду в Microso
   - **Remove matching hardware devices** (Удалить совпадающие аппаратные устройства)  
     Этот параметр доступен, только если для параметра *Hardware device installation by device identifiers* (Установка аппаратных устройств по кодам устройств) задано значение *Block hardware device installation* (Блокировать установку аппаратных устройств).  
 
-    **По умолчанию**: *без конфигурации по умолчанию*
+    **Значение по умолчанию**: "Да"
 
   - **Hardware device identifiers that are blocked** (Заблокированные коды аппаратных устройств)  
     Этот параметр доступен, только если для параметра *Hardware device installation by device identifiers* (Установка аппаратных устройств по кодам устройств) задано значение *Block hardware device installation* (Блокировать установку аппаратных устройств). Чтобы настроить этот параметр, разверните настройку, выберите **+ Добавить** и укажите идентификатор устройства, который нужно заблокировать.  
 
-    **Значение по умолчанию**: *No devices are blocked* (Нет заблокированных устройств)  
+    **По умолчанию**: PCI\CC_0C0A
 
 - **Блокировать прямой доступ к памяти**  
   [DataProtection/AllowDirectMemoryAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess). Используйте этот параметр политики, чтобы блокировать прямой доступ к памяти (DMA) для всех нижестоящих портов PCI с горячим подключением на устройстве до входа пользователя в Windows. Когда пользователь входит в систему, Windows перечисляет устройства PCI, подключенные к портам PCI с горячим подключением. Каждый раз, когда пользователь блокирует компьютер, DMA блокируется на портах PCI с горячим подключением без дочерних устройств до тех пор, пока пользователь не войдет обратно. Устройства, которые уже были перечислены, пока компьютер был разблокирован, продолжат работать до отключения. 
@@ -249,23 +247,23 @@ Application Guard в Microsoft Defender изолирует среду в Microso
   - **Remove matching hardware devices** (Удалить совпадающие аппаратные устройства)  
     Этот параметр доступен, только если для параметра *Hardware device installation by setup classes* (Установка аппаратных устройств по классам установки) задано значение *Block hardware device installation* (Блокировать установку аппаратных устройств).  
  
-    **По умолчанию**: *без конфигурации по умолчанию*  
+    **Значение по умолчанию**: "Да"  
 
   - **Hardware device identifiers that are blocked** (Заблокированные коды аппаратных устройств)  
     Этот параметр доступен, только если для параметра Hardware device installation by setup classes (Установка аппаратных устройств по классам установки) задано значение Block hardware device installation (Блокировать установку аппаратных устройств). Чтобы настроить этот параметр, разверните настройку, выберите **+ Добавить** и укажите идентификатор устройства, который нужно заблокировать.  
  
-    **Значение по умолчанию**: *No devices are blocked* (Нет заблокированных устройств)
+    **Значение по умолчанию**: {d48179be-EC20-11D1-b6b8-00c04fa372a7}
 
 ## <a name="endpoint-detection-and-response"></a>Обнаружение и отклик конечной точки  
 Дополнительные сведения см. в статье [WindowsAdvancedThreatProtection CSP](https://docs.microsoft.com/windows/client-management/mdm/windowsadvancedthreatprotection-csp) (Поставщик служб шифрования WindowsAdvancedThreatProtection) документации Windows.  
 
-- **Увеличить частоту отчетов о телеметрии** — *Configuration/TelemetryReportingFrequency*  
+- **Увеличить частоту отчетов о телеметрии**  -  *Configuration/TelemetryReportingFrequency*
 
   Увеличение частоты создания отчетов о телеметрии Расширенной защиты от угроз в Microsoft Defender.  
 
   **Значение по умолчанию**: "Да"
 
-- **Общий доступ к примерам для всех файлов** — *Configuration/SampleSharing*  
+- **Общий доступ к примерам для всех файлов**  -  *Configuration/SampleSharing* 
 
   Возвращает или задает параметр конфигурации "Общий доступ к примерам" Расширенной защиты от угроз в Microsoft Defender.  
 
@@ -286,43 +284,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
   [WindowsDefenderSecurityCenter/DisallowExploitProtectionOverride](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disallowexploitprotectionoverride). Задайте значение *Да*, чтобы запретить пользователям вносить изменения в область параметров защиты от эксплойтов в Центре безопасности Защитника Windows. Если вы отключите или не настроите этот параметр, локальные пользователи смогут вносить изменения в область параметров защиты от эксплойтов.  
   **Значение по умолчанию**: "Да"  
 
-- **Управляемый доступ к папкам**  
-  Ознакомьтесь с разделами о [Defender/ControlledFolderAccessAllowedApplications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessallowedapplications) и [Defender/ControlledFolderAccessProtectedFolders](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) 
-  
-   Защита файлов и папок от несанкционированного изменения ненадежными приложениями.
-
-  **Значение по умолчанию**: "Режим аудита"
-
-## <a name="web--network-protection"></a>Защита сети и веб-ресурсов  
-
-- **Network protection type** (Тип защиты сети)  
-  [Defender/EnableNetworkProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection). Эта политика позволяет включать или отключать защиту сети в Exploit Guard в Защитнике Windows. Функция защиты сети входит в состав Exploit Guard в Защитнике Windows и защищает сотрудников, использующих любое приложение, от фишинговых сообщений, сайтов с эксплойтами и вредоносного содержимого в Интернете. Кроме того, она не позволяет сторонним браузерам подключаться к опасным сайтам.  
-
-  Когда задано значение *Включено* или *Режим аудита*, пользователи не могут отключить защиту сети и вы можете использовать Центр безопасности Защитника Windows для просмотра сведений о попытках подключения.  
- 
-  - Если задано значение *Включено*, пользователям и приложениям будет запрещено подключение к опасным доменам.  
-  - Если задано значение *Режим аудита*, пользователям и приложениям будет разрешено подключаться к опасным доменам.  
-
-  Если задано значение *Определено пользователем*, пользователям и приложениям будет разрешено подключаться к опасным доменам, а сведения о подключениях не будут доступны в Центре безопасности Защитника Windows.  
-
-  **Значение по умолчанию**: "Режим аудита"
-
-- **Require SmartScreen for Microsoft Edge** (Требовать SmartScreen для Microsoft Edge)  
-  [Browser/AllowSmartScreen](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen). Microsoft Edge по умолчанию использует (включает) SmartScreen Защитника Windows для защиты пользователей от потенциальных фишинговых сообщений и вредоносных программ. Эта политика включена по умолчанию (задано значение *Да*), и при включении она запрещает пользователям отключать SmartScreen Защитника Windows.  Когда для действующей политики для устройства задано значение "Не настроено", пользователи могут отключить SmartScreen Защитника Windows, что сделает устройство незащищенным.  
-
-  **Значение по умолчанию**: "Да"
-  
-- **Block malicious site access** (Блокировать доступ к вредоносным сайтам)  
-  [Browser/PreventSmartScreenPromptOverride](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride). По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen Защитника Windows о потенциально вредоносных сайтах, позволяя пользователям перейти на такой сайт. Если эта политика включена (задано значение *Да*), Microsoft Edge запрещает пользователям обходить предупреждения и не позволяет им перейти на сайт.  
-
-  **Значение по умолчанию**: "Да"
-
-- **Block unverified file download** (Блокировать скачивание непроверенных файлов)  
-  [Browser/PreventSmartScreenPromptOverrideForFiles](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles). По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen Защитника Windows о потенциально вредоносных файлах, позволяя им продолжить скачивание непроверенных файлов. Если эта политика включена (задано значение *Да*), пользователям запрещено обходить предупреждения и они не могут скачать непроверенные файлы.  
-
-  **Значение по умолчанию**: "Да"
-
-## <a name="windows-defender-anti-virus----settings-review-pending-for-this-section"></a>Антивирусная программа Защитника Windows [ожидание проверки параметров для этого раздела]
+## <a name="microsoft-defender-antivirus"></a>Антивирусная программа Microsoft Defender  
 
 Дополнительные сведения см. в разделе [Policy CSP — Defender](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender) документации Windows.
 
@@ -336,7 +298,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: "Да"
 
-- **Defender sample submission consent type** (Тип согласия на отправку примера Защитника)  
+- **Согласие на отправку образцов Защитника**  
   [Defender/SubmitSamplesConsent](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-submitsamplesconsent). Проверяет уровень согласия пользователя в Защитнике Windows для отправки данных. Если требуемое согласие уже предоставлено, Защитник Windows отправляет их. В противном случае (и если пользователь отключил подобные запросы) перед отправкой данных открывается пользовательский интерфейс, запрашивающий согласие пользователя (если для параметра *Защита, обеспечиваемая облаком* задано значение *Да*).  
 
   **По умолчанию**: отправлять безопасные образцы автоматически
@@ -467,7 +429,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 ## <a name="windows-defender-firewall"></a>Брандмауэр Защитника Windows
 Дополнительные сведения см. в статье [Firewall CSP](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) (Поставщик службы шифрования брандмауэра) документации Windows.
 
-- **Время простоя для сопоставлений безопасности перед удалением** — *MdmStore/Global/SaIdleTime*   
+- **Время простоя для сопоставлений безопасности перед удалением**  -  *MdmStore/Global/SaIdleTime*   
   Сопоставления безопасности удаляются, если сетевой трафик не регистрируется в течение этих секунд.  
   **Значение по умолчанию**: 300
 
@@ -594,6 +556,35 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
 - **Проверка для списка отзыва сертификатов**  
   **Значение по умолчанию**: "По умолчанию для устройства"
+
+## <a name="web--network-protection"></a>Защита сети и веб-ресурсов  
+
+- **Network protection type** (Тип защиты сети)  
+  [Defender/EnableNetworkProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection). Эта политика позволяет включать или отключать защиту сети в Exploit Guard в Защитнике Windows. Функция защиты сети входит в состав Exploit Guard в Защитнике Windows и защищает сотрудников, использующих любое приложение, от фишинговых сообщений, сайтов с эксплойтами и вредоносного содержимого в Интернете. Кроме того, она не позволяет сторонним браузерам подключаться к опасным сайтам.  
+
+  Когда задано значение *Включено* или *Режим аудита*, пользователи не могут отключить защиту сети и вы можете использовать Центр безопасности Защитника Windows для просмотра сведений о попытках подключения.  
+ 
+  - Если задано значение *Включено*, пользователям и приложениям будет запрещено подключение к опасным доменам.  
+  - Если задано значение *Режим аудита*, пользователям и приложениям будет разрешено подключаться к опасным доменам.  
+
+  Если задано значение *Определено пользователем*, пользователям и приложениям будет разрешено подключаться к опасным доменам, а сведения о подключениях не будут доступны в Центре безопасности Защитника Windows.  
+
+  **Значение по умолчанию**: "Режим аудита"
+
+- **Require SmartScreen for Microsoft Edge** (Требовать SmartScreen для Microsoft Edge)  
+  [Browser/AllowSmartScreen](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen). Microsoft Edge по умолчанию использует (включает) SmartScreen Защитника Windows для защиты пользователей от потенциальных фишинговых сообщений и вредоносных программ. Эта политика включена по умолчанию (задано значение *Да*), и при включении она запрещает пользователям отключать SmartScreen Защитника Windows.  Когда для действующей политики для устройства задано значение "Не настроено", пользователи могут отключить SmartScreen Защитника Windows, что сделает устройство незащищенным.  
+
+  **Значение по умолчанию**: "Да"
+  
+- **Block malicious site access** (Блокировать доступ к вредоносным сайтам)  
+  [Browser/PreventSmartScreenPromptOverride](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride). По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen Защитника Windows о потенциально вредоносных сайтах, позволяя пользователям перейти на такой сайт. Если эта политика включена (задано значение *Да*), Microsoft Edge запрещает пользователям обходить предупреждения и не позволяет им перейти на сайт.  
+
+  **Значение по умолчанию**: "Да"
+
+- **Block unverified file download** (Блокировать скачивание непроверенных файлов)  
+  [Browser/PreventSmartScreenPromptOverrideForFiles](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles). По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen Защитника Windows о потенциально вредоносных файлах, позволяя им продолжить скачивание непроверенных файлов. Если эта политика включена (задано значение *Да*), пользователям запрещено обходить предупреждения и они не могут скачать непроверенные файлы.  
+
+  **Значение по умолчанию**: "Да"
 
 ## <a name="windows-hello-for-business"></a>Windows Hello для бизнеса  
 
