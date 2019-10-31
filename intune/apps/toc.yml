@@ -78,6 +78,8 @@
               href: lob-apps-macos.md
             - name: Управление приложениями Win32
               href: apps-win32-app-management.md
+            - name: Устройства с поддержкой режима S приложений Win32
+              href: apps-win32-s-mode.md
         - name: Добавление конкретных приложений
           items:
             - name: Приложение корпоративного портала
@@ -190,7 +192,7 @@
           href: troubleshoot-mam.md
         - name: Просмотрите журналы защиты приложений
           href: app-protection-policy-settings-log.md
-- name: Справочник
+- name: Справочные сведения
   items:
     - name: Защита приложений с помощью пакета SDK для приложений Intune
       href: ../developer/app-sdk.md

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b61281b0e82bcb839efdc31726d398eea08c364f
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: b4661b151493eb68cc6f71a5a77bd023ac27b826
+ms.sourcegitcommit: 3ace4cba6e2f6fefa9120be3807387a49b200c9b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72502203"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72810225"
 ---
 # <a name="set-up-lookout-mobile-endpoint-security-integration-with-intune"></a>Настройка интеграции Lookout Mobile Endpoint Security с Intune
 Интегрировать Lookout Mobile Endpoint Security с Intune можно при наличии [отвечающей требованиям](lookout-mobile-threat-defense-connector.md#prerequisites) среды. Сведения в этой статье помогут вам настроить интеграцию и важные параметры в Lookout для использования с Intune.  
@@ -69,6 +69,9 @@ ms.locfileid: "72502203"
    Собрав необходимые сведения, обратитесь в службу поддержки Lookout по адресу электронной почты enterprisesupport@lookout.com. Служба поддержки Lookout свяжется с вашим основным контактным лицом для регистрации подписки и создания учетной записи Lookout для организации, используя предоставленные вами данные.  
 
 ## <a name="configure-your-lookout-subscription"></a>Настройка подписки Lookout  
+
+Следующие шаги необходимо выполнить в консоли администрирования Lookout Enterprise, чтобы установить соединение со службой Lookout для зарегистрированных устройств Intune (с помощью соответствия устройств) **и** незарегистрированных устройств (через политики защиты приложений).
+
 После того как служба поддержки Lookout создаст учетную запись Lookout для организации, основному контактному лицу организации отправляется сообщение электронной почты Lookout со ссылкой на URL-адрес для входа: https://aad.lookout.com/les?action=consent. 
 
 ### <a name="initial-sign-in"></a>Изначальный вход  
@@ -110,20 +113,7 @@ ms.locfileid: "72502203"
 6. Щелкните **Create connector** (Создать соединитель), чтобы завершить настройку соединителя. Позже, когда вы будете удовлетворены результатами, вы можете расширить регистрацию для дополнительных групп пользователей.
 
 ## <a name="configure-intune-to-use-lookout-as-a-mobile-threat-defense-provider"></a>Настройка Intune для использования Lookout в качестве поставщика Mobile Threat Defense
-После настройки Lookout MES необходимо установить соединение с Lookout в Intune.  
-
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-
-2. Выберите **Соответствие устройства** > **Mobile Threat Defense** и нажмите кнопку **Добавить**.
-
-3. На панели *Добавить соединитель* в раскрывающемся списке выберите **Lookout for Work**.  
-
-4. Выберите **Создать**. После того как соединитель установит связь с Lookout MES, станут доступны *параметры соединителя*.
-
-5. Для параметра **Включение синхронизации приложений для устройств с iOS** установите значение **Вкл.** 
-
-6. Чтобы завершить настройку, нажмите кнопку **Сохранить**.  Теперь Intune и Lookout MES интегрированы и готовы к использованию.
-
+После настройки Lookout MES необходимо установить соединение с [Lookout в Intune](https://docs.microsoft.com/en-us/intune/protect/mtd-connector-enable).  
 
 ## <a name="additional-settings-in-the-lookout-mes-console"></a>Дополнительные параметры в консоли Lookout MES
 Ниже приведены дополнительные параметры, которые можно настроить в консоли Lookout MES.  
@@ -146,8 +136,6 @@ ms.locfileid: "72502203"
 
   ![снимок экрана страницы предпочтений с учетной записью пользователя](./media/lookout-mtd-connector-integration/lookout-mtp-email-notifications.png)
 
-
-
 ## <a name="configure-threat-classifications"></a>Настройка классификации угроз  
 Служба Lookout Mobile Endpoint Security классифицирует мобильные угрозы различных типов. В классификации угроз Lookout с ними связаны разные уровни риска по умолчанию. Уровни риска можно в любой момент изменить в соответствии с требованиями организации.
 
@@ -167,4 +155,5 @@ ms.locfileid: "72502203"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-[Настройка приложений Lookout](mtd-apps-ios-app-configuration-policy-add-assign.md)
+- [Настройка приложений Lookout для зарегистрированных устройств](mtd-apps-ios-app-configuration-policy-add-assign.md)
+- [Настройка приложений Lookout для незарегистрированных устройств](~/protect/mtd-add-apps-unenrolled-devices.md)
