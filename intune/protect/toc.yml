@@ -249,6 +249,8 @@
               href: security-baseline-settings-mdm-all.md
             - name: "Параметры базовых показателей безопасности ATP в Microsoft\_Defender"
               href: security-baseline-settings-defender-atp.md
+            - name: "Базовые параметры Microsoft \_Edge"
+              href: security-baseline-settings-edge.md
         - name: Параметры Центра обновления Windows
           href: windows-update-settings.md
         - name: "Параметры политики соответствия требованиям\_— Android"

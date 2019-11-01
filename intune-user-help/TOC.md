@@ -64,8 +64,14 @@
 ## [Использование устройства с iOS](using-your-iOS-device-with-intune.md)
 ### [Влияние сброса устройства iOS](effects-of-device-reset-company-portal-ios.md)
 ### [Установка корпоративного портала и вход в него](install-and-sign-in-to-the-intune-company-portal-app-ios.md)
-### [Регистрация устройства iOS](enroll-your-device-in-intune-ios.md)
-### [Регистрация устройства iOS, предоставленного организацией](enroll-your-device-dep-ios.md)
+### Регистрация устройства
+#### [Регистрация устройства iOS](enroll-your-device-in-intune-ios.md)
+#### [Регистрация устройства iOS, предоставленного организацией](enroll-your-device-dep-ios.md)
+#### Регистрация производных учетных данных
+##### [Регистрация с помощью Entrust Datacard](enroll-ios-device-entrust-datacard.md)
+##### [Регистрация с помощью Intercede](enroll-ios-device-intercede.md)
+##### [Регистрация с помощью DISA Purebred](enroll-ios-device-disa-purebred.md)
+
 
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-ios.md)
 ### [Установка или изменение секретного кода](set-or-change-your-passcode-ios.md)
