@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8c3f96b6a548536459162e81d0ea34d102ef8d1c
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: e88741609dc1a351d1971c907cd2e442cfd4b905
+ms.sourcegitcommit: 4bf23327af734a9811d555fbd566c31239e2acd6
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509747"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "72999522"
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Новые возможности классического портала Intune: предыдущие месяцы
 
@@ -179,7 +179,6 @@ ms.locfileid: "72509747"
 Так как в Китае отсутствует магазин Google Play, это приложение для устройств Android можно скачать в китайских магазинах. Корпоративный портал будет поддерживать этот рабочий процесс и перенаправлять пользователей Android в Китае для скачивания приложений корпоративного портала и Outlook в локальных магазинах приложений. Если политики условного доступа для Mobile Device Management и Mobile Application Management включены, это улучшит взаимодействие пользователей. Приложения корпоративного портала и Outlook для Android доступны в следующих китайских магазинах приложений:
 
 - [Baidu](https://go.microsoft.com/fwlink/?linkid=836946)
-- [Xiaomi](http://en.miui.com/thread-469541-1-1.html)
 - [Tencent](https://go.microsoft.com/fwlink/?linkid=836949)
 - [Huawei](https://go.microsoft.com/fwlink/?linkid=836948)
 - [Wandoujia](https://go.microsoft.com/fwlink/?linkid=836950)
@@ -329,7 +328,6 @@ __Теперь приложение корпоративного портала 
 * [Huawei](https://go.microsoft.com/fwlink/?linkid=836948)
 * [Tencent](https://go.microsoft.com/fwlink/?linkid=836949)
 * [Wandoujia](https://go.microsoft.com/fwlink/?linkid=836950)
-* [Xiaomi](http://en.miui.com/thread-469541-1-1.html)
 
 В этом приложении взаимодействие со службой Microsoft Intune осуществляется с помощью Сервисов Google Play. В настоящее время Сервисы Google Play еще недоступны в Китае, поэтому на выполнение одной из следующих задач понадобится до 8 часов.
 
