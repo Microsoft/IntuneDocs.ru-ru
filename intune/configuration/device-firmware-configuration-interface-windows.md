@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/22/2019
+ms.date: 10/24/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,16 +15,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1f34e321476ea634030a5e602bc362d409eee8f5
-ms.sourcegitcommit: 06a1fe83fd95c9773c011690e8520733e1c031e3
+ms.openlocfilehash: 2bfc49f772331113314e45bc49360b8435b88037
+ms.sourcegitcommit: 0d6f323152ec62f7d383891cce12ea0a4289cd8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "72785554"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72889574"
 ---
-# <a name="use-device-firmware-configuration-interface-profiles-on-windows-devices-in-microsoft-intune"></a>Использование профилей интерфейса конфигурации встроенного ПО устройства на устройствах с Windows в Microsoft Intune
+# <a name="use-device-firmware-configuration-interface-profiles-on-windows-devices-in-microsoft-intune-public-preview"></a>Использование профилей интерфейса конфигурации встроенного ПО устройств на устройствах Windows в Microsoft Intune (общедоступная предварительная версия)
 
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
+
+> [!Note]
+> Каждое [ежемесячное обновление](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Microsoft-Intune-Service-Updates/ba-p/358728) может применяться в течение нескольких дней. Так как внедрение некоторых функций может занимать несколько недель, такие функции могут быть недоступными сразу же для всех клиентов.
 
 При использовании Intune для управления устройствами с автопилотами можно управлять параметрами UEFI (BIOS) после их регистрации, используя интерфейс конфигурации встроенного ПО устройства (DFCI). Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор DFCI](https://microsoft.github.io/mu/dyn/mu_plus/DfciPkg/Docs/Dfci_Feature/).
 
@@ -167,15 +170,9 @@ DFCI [позволяет](https://docs.microsoft.com/windows/client-management/m
 
 ### <a name="recover"></a>Восстановление
 
-При очистке устройства и удалении записи Autopilot перед разблокировкой меню UEFI (BIOS) меню остаются заблокированными. Intune не может отправить обновления профиля, чтобы разблокировать его. Для разблокировки устройства можно сделать следующее.
+При очистке устройства и удалении записи Autopilot перед разблокировкой меню UEFI (BIOS) меню остаются заблокированными. Intune не может отправить обновления профиля, чтобы разблокировать его.
 
-- **Вариант 1**. Чтобы повторно зарегистрировать устройство с помощью Autopilot, обратитесь к поставщику CSP или напрямую к изготовителю. Повторно зарегистрируйте его в Intune для повторного применения профилей Autopilot и DFCI.
-
-  Затем разблокируйте меню UEFI, выполнив действия, описанные в разделе [Снятие с учета](#retire) (в этой статье).
-
-- **Вариант 2**. Откройте меню UEFI (BIOS) и выберите вариант восстановления. Убедитесь, что устройство не зарегистрировано для управления DFCI, и разблокируйте меню. Параметры восстановления оставляют все параметры UEFI (BIOS) со значениями из последнего профиля DFCI в Intune.
-
-  Затем разблокируйте меню UEFI, выполнив действия, описанные в разделе [Снятие с учета](#retire) (в этой статье).
+Чтобы разблокировать устройство, откройте меню UEFI (BIOS) и обновите функцию управления по сети. При восстановлении меню будет разблокировано, но при этом у всех параметров UEFI (BIOS) останутся значения, указанные для предыдущего профиля DFCI в Intune.
 
 ## <a name="end-user-impact"></a>Воздействие на пользователей
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/09/2019
+ms.date: 10/24/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 492feb3f2ef5f5bbbc1537d4c60ac12d5fd6bdcd
-ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
+ms.openlocfilehash: 22a957e6df2c7f9126cbe9f22c4f3a96213551d3
+ms.sourcegitcommit: f12bd2ce10b6241715bae2d2857f33c474287166
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72585609"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72892571"
 ---
 # <a name="add-microsoft-edge-for-windows-10-to-microsoft-intune"></a>Добавление Microsoft Edge для Windows 10 в Microsoft Intune
 
@@ -94,7 +94,7 @@ ms.locfileid: "72585609"
 
 ## <a name="troubleshooting"></a>Диагностика
 **Microsoft Edge 77 и последующих версий для Windows 10**.<br>
-Intune использует расширение управления Intune для скачивания и развертывания установщика Microsoft Edge на назначенных устройствах с Windows 10, а затем передает параметры развертывания в установщик Microsoft Edge, который скачивает и устанавливает браузер Microsoft Edge непосредственно из CDN. Обратитесь к [предварительным требованиям для расширения управления Intune](~/apps/intune-management-extension.md#prerequisites) и рекомендациям, описанным в статье "Доступ к службе обновления Azure и сети CDN", чтобы обеспечить доступ устройств с Windows 10 к этим расположениям.
+Intune использует расширение управления Intune для скачивания и развертывания установщика Microsoft Edge на назначенных устройствах с Windows 10, а затем передает параметры развертывания в установщик Microsoft Edge, который скачивает и устанавливает браузер Microsoft Edge непосредственно из CDN. Обратитесь к [предварительным требованиям для расширения управления Intune](~/apps/intune-management-extension.md#prerequisites) и рекомендациям, описанным в статье "Доступ к службе обновления Azure и сети CDN", чтобы обеспечить доступ устройств с Windows 10 к этим расположениям. Кроме того, чтобы разрешить доступ к соответствующим файлам из CDN для установки браузера, необходимо разрешить доступ к конечным точкам Центра обновления Windows. См. сведения см. об [управлении конечными точками подключения для Windows 10 (версия 1809) в Центре обновления Windows](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints#windows-update) и [сетевых конечных точках для Microsoft Intune](~/fundamentals/intune-endpoints.md).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 - [назначение приложений группам](~/apps/apps-deploy.md).

@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/19/2019
+ms.date: 10/24/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4c42e5ef50f8a5a8514bc43670fc743f42b1b2d6
-ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
+ms.openlocfilehash: 1716da820fd0d9a4b6d1bbc5024440cfb141c5a1
+ms.sourcegitcommit: 0d6f323152ec62f7d383891cce12ea0a4289cd8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72585830"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72889549"
 ---
 # <a name="use-derived-credentials-in-microsoft-intune"></a>Использование производных учетных данных в Microsoft Intune
 
@@ -64,7 +64,7 @@ Intune поддерживает один издатель производных
 - **Entrust Datacard**: https://www.entrustdatacard.com/
 - **Intercede**: https://www.intercede.com/
 
-Важные сведения об использовании разных издателей см. в руководстве для этого издателя, включая рабочий процесс издателя для конечных пользователей. Дополнительные сведения см. в разделе [Планирование производных учетных данных](#plan-for-derived-credentials) в этой статье.
+Важные сведения об использовании разных издателей см. в соответствующих руководствах.<!-- , including the issuers end-user workflow-->. Дополнительные сведения см. в разделе [Планирование производных учетных данных](#plan-for-derived-credentials) в этой статье.
 
 > [!IMPORTANT]  
 > Если удалить издатель производных учетных данных из клиента, то производные учетные данные, настроенные с помощью этого издателя, больше не будут работать.  
@@ -101,11 +101,14 @@ Intune поддерживает один издатель производных
 
 ### <a name="2-review-the-end-user-workflow-for-your-chosen-issuer"></a>2. Ознакомьтесь с рабочим процессом конечного пользователя для выбранного издателя.
 
-Ниже приведены основные рекомендации для каждого поддерживаемого партнера и ссылки на его процесс для конечных пользователей.  Познакомьтесь с этими сведениями, чтобы гарантировать, что политики и конфигурации Intune не мешают пользователям и устройствам успешно завершать регистрацию производных учетных данных от этого издателя.
+Ниже приведены основные рекомендации по работе с каждым поддерживаемым партнером.<!--  , and links to that issuers end-user workflow -->.  Познакомьтесь с этими сведениями, чтобы гарантировать, что политики и конфигурации Intune не мешают пользователям и устройствам успешно завершать регистрацию производных учетных данных от этого издателя.
 
 #### <a name="disa-purebred"></a>DISA Purebred
 
-Проверьте рабочий процесс для [DISA Purebred](https://docs.microsoft.com/intune-user-help/enroll-ios-device-disa-purebred). К основным требованиям для этого рабочего процесса относятся следующие.  
+Сведения о рабочем процессе пользователей и основные требования:  
+<!-- TEMP EDIT - preceeding line to be replaced with the following once user content is ready. 
+Review the [user workflow for DISA Purebred](https://docs.microsoft.com/intune-user-help/enroll-ios-device-disa-purebred). Key requirements for this workflow include:  
+-->
 
 - Пользователям требуется доступ к компьютеру или киоску, где они могут использовать смарт-карты для проверки подлинности на издателе. 
 
@@ -120,8 +123,11 @@ Intune поддерживает один издатель производных
 Сведения о получении и настройке приложения DISA Purebred см. в разделе [Развертывание приложения DISA Purebred](#deploy-the-disa-purebred-app) далее в этой статье.  
 
 #### <a name="entrust-datacard"></a>Entrust Datacard  
-Проверьте рабочий процесс для [Entrust Datacard](https://docs.microsoft.com/intune-user-help/enroll-ios-device-entrust). К основным требованиям для этого рабочего процесса относятся следующие. 
 
+Сведения о рабочем процессе пользователей и основные требования:  
+<!-- TEMP EDIT - preceeding line to be replaced with the following once user content is ready. 
+Review the [user workflow for Entrust Datacard](https://docs.microsoft.com/intune-user-help/enroll-ios-device-entrust). Key requirements for this workflow include: 
+--> 
 - Пользователям требуется доступ к компьютеру или киоску, где они могут использовать смарт-карты для проверки подлинности на издателе. 
 
 - Необходима установка приложения корпоративного портала Intune на устройствах, которые будут регистрироваться для получения производных учетных данных.
@@ -129,8 +135,11 @@ Intune поддерживает один издатель производных
 - Использование камеры устройства для сканирования QR-кода, связывающего запрос проверки подлинности с запросом производных учетных данных от мобильного устройства.
 
 #### <a name="intercede"></a>Intercede
-Проверьте рабочий процесс для [Intercede](https://docs.microsoft.com/intune-user-help/enroll-ios-device-intercede). К основным требованиям для этого рабочего процесса относятся следующие. 
 
+Сведения о рабочем процессе пользователей и основные требования:  
+<!-- TEMP EDIT - preceeding line to be replaced with the following once user content is ready. 
+Review the [user workflow for Intercede](https://docs.microsoft.com/intune-user-help/enroll-ios-device-intercede). Key requirements for this workflow include: 
+-->
 - Пользователям требуется доступ к компьютеру или киоску, где они могут использовать смарт-карты для проверки подлинности на издателе. 
 
 - Необходима установка приложения корпоративного портала Intune на устройствах, которые будут регистрироваться для получения производных учетных данных.
