@@ -17,16 +17,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cc298691ea3df923d1804005be61217325f52112
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 06cc977ce8b0b892e1020436f89ada4a40bac3f2
+ms.sourcegitcommit: 60f0ff6d2efbae0f2ce14b9a9f3f9267309e209b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72510271"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73413981"
 ---
 # <a name="how-your-ios-users-get-their-apps"></a>Получение приложений пользователями iOS
-
-[!INCLUDE [both-portals](../../intune-classic/includes/note-for-both-portals.md)]
 
 Используйте эту информацию, чтобы понять, как и где конечные пользователи могут получать приложения, распространяемые через Microsoft Intune.
 
@@ -48,12 +46,12 @@ ms.locfileid: "72510271"
 
 - Элемент **Категории** ведет на вкладку "КАТЕГОРИИ" веб-сайта корпоративного портала.
 
-
 ![Экран приложений корпоративного портала для iOS](./media/end-user-apps-ios/ios-cp-app-main-apps-screen.png)
 
 Дополнительные сведения о том, как добавлять приложения, см. в статье [Добавление веб-приложения в Microsoft Intune](../apps/apps-add.md).
 
 ## <a name="see-also"></a>См. также
+
 [Получение приложений пользователями Android](end-user-apps-android.md)
 
 [Получение приложений пользователями Windows](end-user-apps-windows.md)

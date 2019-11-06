@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6678b7c3519328623d9c0035c725af3877a36ba8
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 6600c75ce3e6120143b17fb863670b2eb423a09f
+ms.sourcegitcommit: ae6f2e7812e7fd36f2393b8f4b6cd8de63777b2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507054"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "73592055"
 ---
 # <a name="add-web-apps-to-microsoft-intune"></a>Добавление веб-приложений в Microsoft Intune
 
@@ -36,7 +36,7 @@ Intune поддерживает множество типов приложени
 Intune создает ярлык со ссылкой на веб-приложение на устройстве пользователя. Для устройств iOS ярлык веб-приложения добавляется на начальный экран. Для устройств на базе Android в виджет портала компании Intune добавляется ярлык к веб-приложению, который пользователь должен прикрепить вручную. Для устройств Windows ярлык веб-приложения помещается в меню "Пуск".
 
 > [!Note]
-> Веб-приложения не поддерживаются на устройствах с рабочим профилем Android. Чтобы запускать веб-приложения на устройстве пользователя, на нем должен быть установлен браузер.
+> Чтобы запускать веб-приложения на устройстве пользователя, на нем должен быть установлен браузер.
 
 ## <a name="add-a-web-app-to-intune"></a>Добавление веб-приложения в Intune
 Чтобы добавить приложение в Intune как ярлык для веб-приложения, сделайте следующее:
