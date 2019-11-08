@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 13e5e7d49ec7e808f7cb5ba419dc881717539564
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
-ms.translationtype: MTE75
+ms.openlocfilehash: 3e5804b415d26b07944c500b0158cf84a2d4412c
+ms.sourcegitcommit: d1b36501186e867355843ddd67c795ade800b76a
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72496037"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73182857"
 ---
 # <a name="use-and-manage-zebra-devices-with-zebra-mobility-extensions-in-microsoft-intune"></a>Использование устройств Zebra с Zebra Mobility Extensions и управление ими в Microsoft Intune
 
@@ -30,7 +30,7 @@ ms.locfileid: "72496037"
 
 Intune содержит широкий набор компонентов, включая управление приложениями и настройку параметров устройств. Эти встроенные компоненты и параметры используются для управления устройствами Android, произведенными компанией Zebra Technologies, также известными как "устройства Zebra".
 
-На устройствах Android используйте профили **Mobility Extensions (MX)** для настройки или добавления дополнительных параметров Zebra.
+На устройствах Android используйте профили Zebra **Mobility Extensions (MX)** для настройки или добавления параметров Zebra.
 
 В этой статье показано, как использовать Zebra Mobility Extensions (MX) на устройствах Zebra в Microsoft Intune.
 
@@ -52,6 +52,7 @@ Intune содержит широкий набор компонентов, вкл
 - Убедитесь, что у вас последняя версия классического приложения StageNow от компании Zebra Technologies.
 - Не забудьте проверить [полную таблицу возможностей Zebra MX](http://techdocs.zebra.com/mx/compatibility) (открывается веб-сайт Zebra) для подтверждения того, что создаваемые профили совместимы с версией MX, версией ОС и моделью устройства.
 - Определенные устройства, например TC20/25, не поддерживают все доступные компоненты MX в StageNow. Не забудьте проверить [таблицу возможностей Zebra](http://techdocs.zebra.com/mx/tc2x/) (открывается веб-сайт Zebra) при обновлении информации поддержки.
+
 
 ## <a name="step-1-install-the-latest-company-portal-app"></a>Шаг 1. Установка последней версии приложения Корпоративного портала
 
