@@ -5,24 +5,24 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/16/2019
+ms.date: 11/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: ''
 ms.technology: ''
 ms.assetid: ''
-ms.reviewer: ''
+ms.reviewer: jieyan
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3e5804b415d26b07944c500b0158cf84a2d4412c
-ms.sourcegitcommit: d1b36501186e867355843ddd67c795ade800b76a
-ms.translationtype: HT
+ms.openlocfilehash: 7f343ace48c917e65d9d59cd7c42c53e9b892968
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73182857"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73756727"
 ---
 # <a name="use-and-manage-zebra-devices-with-zebra-mobility-extensions-in-microsoft-intune"></a>Использование устройств Zebra с Zebra Mobility Extensions и управление ими в Microsoft Intune
 
@@ -52,7 +52,6 @@ Intune содержит широкий набор компонентов, вкл
 - Убедитесь, что у вас последняя версия классического приложения StageNow от компании Zebra Technologies.
 - Не забудьте проверить [полную таблицу возможностей Zebra MX](http://techdocs.zebra.com/mx/compatibility) (открывается веб-сайт Zebra) для подтверждения того, что создаваемые профили совместимы с версией MX, версией ОС и моделью устройства.
 - Определенные устройства, например TC20/25, не поддерживают все доступные компоненты MX в StageNow. Не забудьте проверить [таблицу возможностей Zebra](http://techdocs.zebra.com/mx/tc2x/) (открывается веб-сайт Zebra) при обновлении информации поддержки.
-
 
 ## <a name="step-1-install-the-latest-company-portal-app"></a>Шаг 1. Установка последней версии приложения Корпоративного портала
 
@@ -134,8 +133,8 @@ Intune содержит широкий набор компонентов, вкл
 
 В Intune создайте профиль конфигурации устройства:
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
+1. Войдите в [центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **устройства** > **профили конфигурации** > **создать профиль**.
 3. Укажите следующие свойства.
 
     - **Имя.** Введите описательное имя для нового профиля.

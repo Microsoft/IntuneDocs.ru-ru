@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 19202d4387635b7cd1f7e4604d755fb8a213d327
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: ec234a3d93127a26af4203a4776545602334858b
+ms.sourcegitcommit: 556b7ea2049014c9027f0e44affd3f301fab55fc
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72503434"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73709567"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -80,7 +80,7 @@ ms.locfileid: "72503434"
 
       Приложение может передавать значение null, если имя участника-пользователя неизвестно во время вызова. В этом случае пользователям будет предложено ввести адрес электронной почты и пароль.
       
-      Если приложение уже использует библиотеку ADAL или MSAL для проверки подлинности пользователей, можно настроить единый вход между приложением и пакетом SDK Intune. Прежде всего, необходимо настроить для библиотек ADAL/MSAL хранение маркеров в той же группе доступа к цепочкам ключей, которая используется привязками Xamarin Intune для iOS (com.microsoft.adalcache). Для ADAL это можно сделать, [задав свойство iOSKeychainSecurityGroup класса AuthenticationContext](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/iOS-Keychain-Access). Для MSAL потребуется [задать свойство iOSKeychainSecurityGroup класса PublicClientApplication](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/wiki/Xamarin-iOS-specifics#enable-keychain-access). Затем необходимо переопределить параметры AAD по умолчанию, используемые пакетом SDK Intune, параметрами вашего приложения. Это можно сделать через словарь IntuneMAMSettings в файле Info.plist приложения, как упоминалось в разделе [Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS](app-sdk-ios.md#configure-settings-for-the-intune-app-sdk), или можно использовать свойства переопределения AAD экземпляра IntuneMAMPolicyManager. Использование файла Info.plist рекомендуется для приложений, параметры ADAL которых являются статическими. И рекомендуется переопределять свойства приложений, которые определяют эти значения во время выполнения. После настройки всех параметров единого входа приложение должно предоставлять имя участника-пользователя методу RegisterAndEnrollAccount класса IntuneMAMEnrollmentManager после успешной проверки подлинности.
+      Если приложение уже использует библиотеку ADAL или MSAL для проверки подлинности пользователей, можно настроить единый вход между приложением и пакетом SDK Intune. Затем необходимо переопределить параметры AAD по умолчанию, используемые пакетом SDK Intune, параметрами вашего приложения. Это можно сделать через словарь IntuneMAMSettings в файле Info.plist приложения, как упоминалось в разделе [Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS](app-sdk-ios.md#configure-settings-for-the-intune-app-sdk), или можно использовать свойства переопределения AAD экземпляра IntuneMAMPolicyManager. Использование файла Info.plist рекомендуется для приложений, параметры ADAL которых являются статическими. И рекомендуется переопределять свойства приложений, которые определяют эти значения во время выполнения. После настройки всех параметров единого входа приложение должно предоставлять имя участника-пользователя методу RegisterAndEnrollAccount класса IntuneMAMEnrollmentManager после успешной проверки подлинности.
 
       ```csharp
       IntuneMAMEnrollmentManager.Instance.RegisterAndEnrollAccount(string identity);

@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8f4e56340d871ea5e0bcec7e541a418c32d021d0
-ms.sourcegitcommit: 60f0ff6d2efbae0f2ce14b9a9f3f9267309e209b
-ms.translationtype: HT
+ms.openlocfilehash: c75029c60609b0383e2f647e5b94144d4186248c
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73415650"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73754880"
 ---
 # <a name="microsoft-edge-baseline-settings-for-intune"></a>Базовые параметры Microsoft ребра для Intune
 
@@ -68,7 +68,7 @@ ms.locfileid: "73415650"
 
 - **Параметр Adobe Flash по умолчанию**  
   **По умолчанию**: включено  
-  Microsoft ребр CSP: [Browser/алловфлаш](https://docs.microsoft.coms/windows/client-management/mdm/policy-csp-browser#browser-allowflash)и [Browser/алловфлашкликкторун](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowflashclicktorun)  
+  Microsoft ребр CSP: [Browser/алловфлаш](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowflash)и [Browser/алловфлашкликкторун](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowflashclicktorun)  
 
   Определяет, могут ли веб-сайты, не охваченные "Плугинсалловедфорурлс" или "Плугинсблоккедфорурлс", автоматически запускать подключаемый модуль Adobe Flash. 
 

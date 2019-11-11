@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a6886060cce77004b107dac02ecea57f2090ac8f
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 428da4581e9946b62bd6ee7c5f7d17d69f93ad9b
+ms.sourcegitcommit: ae6f2e7812e7fd36f2393b8f4b6cd8de63777b2c
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72503463"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "73592028"
 ---
 # <a name="get-started-with-the-microsoft-intune-app-sdk"></a>Начало работы с SDK для приложений Microsoft Intune
 
@@ -181,6 +181,9 @@ Intune|iOS|Android|Описание|
 5. В поле поиска введите **Управление мобильными приложениями Майкрософт**.
 6. В области **Делегированные разрешения** установите флажок **DeviceManagementManagedApps.ReadWrite: Read and Write the User’s App Management Data*** (DeviceManagementManagedApps.ReadWrite: чтение и запись данных об управлении приложениями для пользователя).
 7. Щелкните **Добавить разрешения**.
+
+> [!NOTE]
+> Если приложение не позволяет войти в систему из-за ошибки доступа к этому ресурсу: https://intunemam.microsoftonline.com, необходимо отправить Примечание для msintuneappsdk@microsoft.com с ИДЕНТИФИКАТОРом клиента приложения. Сейчас это процесс утверждения вручную.
 
 ### <a name="badge-your-app-optional"></a>Эмблема приложения (необязательно)
 

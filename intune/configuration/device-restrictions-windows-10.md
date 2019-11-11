@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 164c34f4a46ca11e2788b72dee70bdd40c25e7f3
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 288ff693e7e46b7953cffad3d0a54b8621141373
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72493893"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73755265"
 ---
 # <a name="windows-10-and-newer-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с Windows 10 (и более новых версий), которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -223,12 +223,12 @@ ms.locfileid: "72493893"
 
 - **Уведомления центра уведомлений (только для мобильных устройств)** . **Блокировать** запрещает отображать уведомления из центра уведомлений на экране блокировки устройства. **Не настроено** (по умолчанию) позволяет пользователям выбрать, какие приложения могут показывать уведомления на экране блокировки.
 
-  [CSP AboveLock/AllowActionCenterNotifications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-abovelock#abovelock-allowactioncenternotifications)
+  [CSP AboveLock/AllowActionCenterNotifications](https://msdn.microsoft.com/ie/dn904962(v=vs.94)#AboveLock_AllowActionCenterNotifications)
 
 - **URL-адрес изображения на экране блокировки (только для настольных компьютеров)** . Введите URL-адрес изображения в формате JPG, JPEG или PNG, которое используется в качестве фона на экране блокировки Windows. Например, введите `https://contoso.com/image.png`. Этот параметр блокирует изображения, а также не позволяет изменить его позже.
 - **Настраиваемое пользователем время ожидания экрана (только для мобильных устройств)** . Значение **Разрешить** разрешает настроить период времени. **Не настроено** (по умолчанию) не дает пользователю задать этот параметр.
 
-  [CSP DeviceLock/AllowScreenTimeoutWhileLockedUserConfig](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-allowscreentimeoutwhilelockeduserconfig)
+  [CSP DeviceLock/AllowScreenTimeoutWhileLockedUserConfig](https://msdn.microsoft.com/ie/dn904962(v=vs.94)#DeviceLock_AllowScreenTimeoutWhileLockedUserConfig)
 
 - **Кортана на заблокированном экране** (только для компьютеров). **Блокировать** запрещает пользователю взаимодействовать с Кортаной, когда устройство находится в режиме блокировки. **Не настроено** (по умолчанию) разрешает взаимодействие с Кортаной.
 
@@ -240,7 +240,7 @@ ms.locfileid: "72493893"
 
 - **Время ожидания экрана (только для мобильных устройств)** . Задайте длительность (в секундах) блокировки до отключения экрана. Поддерживаемые значения — от 11 до 1800. Например, введите `300`, чтобы установить время ожидания равным 5 минутам.
 
-  [CSP DeviceLock/ScreenTimeoutWhileLocked](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-screentimeoutwhilelocked)
+  [CSP DeviceLock/ScreenTimeoutWhileLocked](https://msdn.microsoft.com/ie/dn904962(v=vs.94)#DeviceLock_ScreenTimeoutWhileLocked)
 
 ## <a name="messaging"></a>Обмен сообщениями
 

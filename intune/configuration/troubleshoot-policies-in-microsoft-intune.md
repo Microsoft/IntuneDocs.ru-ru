@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 06/20/2019
+ms.date: 11/05/2019
 ms.topic: troubleshooting
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e2e7dc729879eb6d16a4ab3555d8fe319501a53e
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 687505a3ca2bbdffd26e8870705971aafb4783d2
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72492135"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73754958"
 ---
 # <a name="troubleshoot-policies-and-profiles-and-in-intune"></a>Устранение неполадок с политиками и профилями в Intune
 
@@ -32,11 +32,12 @@ ms.locfileid: "72492135"
 В этой статье перечислены некоторые стандартные способы устранения неполадок и описаны возможные проблемы.
 
 ## <a name="check-tenant-status"></a>Проверка состояния клиента
+
 Проверьте [состояние клиента](../fundamentals/tenant-status.md) и убедитесь, что Подписка активна. Вы также можете просмотреть сведения об активных инцидентах и Advisor, которые могут повлиять на развертывание политики или профиля.
 
 ## <a name="use-built-in-troubleshooting"></a>Использование встроенных функций устранения неполадок
 
-1. В [Intune](https://go.microsoft.com/fwlink/?linkid=2090973)выберите **Устранить неполадки**:
+1. В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)выберите **Устранение неполадок и поддержка**:
 
     ![В Intune перейдите на страницу "Справка и поддержка" и выберите пункт "Устранение неполадок"](./media/troubleshoot-policies-in-microsoft-intune/help-and-support-troubleshoot.png)
 
@@ -102,7 +103,7 @@ ms.locfileid: "72492135"
 
 ## <a name="youre-unsure-if-a-profile-is-correctly-applied"></a>Вы не уверены, правильно ли применен профиль
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Последовательно выберите **Устройства** > **Все устройства**, выберите устройство и нажмите **Конфигурация устройств**. 
 
     Для каждого устройства приведен список профилей. У каждого профиля есть **состояние**. Состояние присваивается после применения к устройству всех назначенных профилей, включая требования и ограничения, связанные с оборудованием и операционной системой. Ниже перечислены возможные состояния.

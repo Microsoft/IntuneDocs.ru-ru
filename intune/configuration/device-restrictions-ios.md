@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/31/2019
+ms.date: 11/06/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6dbe26dba4e78e9f5f29a5adedffa3de1df662a6
-ms.sourcegitcommit: 60f0ff6d2efbae0f2ce14b9a9f3f9267309e209b
+ms.openlocfilehash: 488794fdce8f6ebb074648c8e399cb2aecc73b25
+ms.sourcegitcommit: 556b7ea2049014c9027f0e44affd3f301fab55fc
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73414676"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73709754"
 ---
 # <a name="ios-and-ipados-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с iOS и iPadOS, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -417,6 +417,9 @@ ms.locfileid: "73414676"
 - **Тип списка приложений**: Создайте список приложений для отображения или скрытия. Вы можете отображать или скрывать встроенные приложения и бизнес-приложения. На веб-сайте Apple есть список [встроенных приложений Apple](https://support.apple.com/HT208094). Доступны следующие параметры:
 
   - **Скрытые приложения.** Введите список приложений, которые будут скрыты от пользователей. Пользователи не смогут просматривать или открывать эти приложения.
+  
+    Apple предотвращает скрытие некоторых собственных приложений. Например, нельзя скрыть **Параметры** или приложения **бумажника** на устройстве. [Удалить встроенные приложения Apple](https://support.apple.com/HT208094) содержит список приложений, которые можно скрыть.
+  
   - **Видимые приложения.** Введите список приложений, которые пользователи будут видеть и смогут запускать. Другие приложения не будут доступны для просмотра или запуска.
 
 - **URL-адрес приложения**: введите URL-адрес приложения магазина приложения, которое требуется показать или скрыть. Пример.

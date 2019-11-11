@@ -17,12 +17,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5776ebf3241968cca6da537bb58b7ab2a06f00ba
-ms.sourcegitcommit: f12bd2ce10b6241715bae2d2857f33c474287166
+ms.openlocfilehash: 348768be4a42667f579df0ccb500434425258db0
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72892538"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73712862"
 ---
 # <a name="troubleshoot-windows-device-enrollment-problems-in-microsoft-intune"></a>Устранение проблем с регистрацией устройств Windows в Microsoft Intune
 
@@ -60,7 +60,7 @@ ms.locfileid: "72892538"
 Существует несколько возможных решений этой проблемы:
 
 ##### <a name="remove-devices-that-were-enrolled"></a>Удаление зарегистрированных устройств
-1. Войдите на [портал Azure](https://portal.azure.com/?Microsoft_Intune=1&Microsoft_Intune_DeviceSettings=true&Microsoft_Intune_Enrollment=true&Microsoft_Intune_Apps=true&Microsoft_Intune_Devices=true#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview).    
+1. Войдите в [центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).    
 2. Перейдите к разделу **пользователи**  > **все пользователи**.    
 3. Выберите затронутую учетную запись пользователя, а затем щелкните **устройства**.    
 4. Выберите любые неиспользуемые или нежелательные устройства, а затем нажмите кнопку **Удалить**. 
@@ -70,12 +70,12 @@ ms.locfileid: "72892538"
 > [!NOTE]
 > Этот метод увеличивает предел регистрации устройств для всех пользователей, а не только для затронутого пользователя.
 
-1. Войдите на [портал Azure](https://portal.azure.com/?Microsoft_Intune=1&Microsoft_Intune_DeviceSettings=true&Microsoft_Intune_Enrollment=true&Microsoft_Intune_Apps=true&Microsoft_Intune_Devices=true#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview).
+1. Войдите в [центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Перейдите к разделу **Регистрация устройств**  > **ограничения регистрации**, а затем выберите **ограничения на количество устройств**.    
 3. Увеличьте значение **предельного числа устройств**. 
 
 ##### <a name="check-device-type-restrictions"></a>Проверьте ограничения по типу устройства
-1. Войдите на [портал Intune](https://portal.azure.com/?Microsoft_Intune=1&Microsoft_Intune_DeviceSettings=true&Microsoft_Intune_Enrollment=true&Microsoft_Intune_Apps=true&Microsoft_Intune_Devices=true#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview) с помощью учетной записи глобального администратора.
+1. Войдите в [центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) с помощью учетной записи глобального администратора.
 2. Перейдите к разделу **Регистрация устройств**  > **ограничения регистрации**, а затем выберите ограничение **по умолчанию** в разделе **ограничения по типу устройства**.    
 3. Выберите **платформы**, а затем выберите **Разрешить** для **Windows (MDM)** .
 
