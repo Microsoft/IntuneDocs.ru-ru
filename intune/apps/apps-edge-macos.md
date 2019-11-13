@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2405036535cd6aef74e417f75e22725e1c34bbfa
-ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
+ms.openlocfilehash: c6726f731fba5bc41893f999ac627bff9a8aca1e
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72585804"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73754833"
 ---
 # <a name="add-microsoft-edge-to-macos-devices-using-microsoft-intune"></a>Установка Microsoft Edge на устройства с macOS с помощью Microsoft Intune
 
@@ -88,7 +88,7 @@ ms.locfileid: "72585804"
 > В настоящее время Apple не предоставляет способ удаления Microsoft Edge на устройствах с macOS в Intune.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-- Чтобы узнать, как настроить Microsoft Edge на устройствах с macOS, см. статью [Настройка Microsoft Edge на устройствах с macOS](https://docs.microsoft.com/deployedge/configure-microsoft-edge#configure-microsoft-edge-on-mac).
+- Чтобы узнать, как настроить Microsoft Edge на устройствах с macOS, см. статью [Настройка Microsoft Edge на устройствах с macOS](https://docs.microsoft.com/deployedge/configure-microsoft-edge-on-mac).
 - Дополнительные сведения о включении и исключении назначений приложений для групп пользователей см. в статье [Включение и исключение назначений приложений в Microsoft Intune](~/apps/apps-inc-exl-assignments.md).
 - [назначение приложений группам](~/apps/apps-deploy.md).
 

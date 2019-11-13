@@ -2,8 +2,8 @@
 title: Подписывание и шифрование электронной почты с помощью S/MIME — Microsoft Intune — Azure | Документация Майкрософт
 description: Узнайте, как цифровые сертификаты электронной почты в Microsoft Intune используются для подписывания и шифрования сообщений электронной почты на устройствах. Эти сертификаты называются S/MIME и настраиваются с помощью профилей конфигурации устройств. Сертификаты подписывания и шифрования используют PKCS или закрытые сертификаты и соединитель для импорта сертификатов.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 12/10/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7b16953b3402bf8aa48f0a01e5e11d9f90d56f2d
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: adea17c0e013d922c0bc3ccf06ed590828bd79dd
+ms.sourcegitcommit: b5e719fb507b1bc4774674e76c856c435e69f68c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72502502"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "73801489"
 ---
 # <a name="smime-overview-to-sign-and-encrypt-email-in-intune"></a>Общие сведения об S/MIME для подписывания и шифрования электронной почты в Intune
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 022df428658a3c8791a07cbd797145bfe9a392bb
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: ae29d2ee5add475db89f6895b22299793a94ac36
+ms.sourcegitcommit: a7c35efb31c4efd816bd4aba29240013965aee92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72496469"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "73984083"
 ---
 # <a name="how-to-manage-ios-ebooks-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление электронными книгами iOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
 
@@ -42,7 +42,6 @@ Microsoft Intune позволяет синхронизировать книги,
 ## <a name="before-you-start"></a>Перед началом работы
 Для начала вам нужно получить токен Apple VPP и отправить его в учетную запись Intune. Дополнительно
 
-* С учетной записью Intune можно связать до 256 токенов VPP.
 * Если вы уже использовали токен VPP для покупки другого продукта, для использования в Intune создайте новый токен.
 * Каждый маркер действителен в течение одного года.
 * По умолчанию Intune синхронизируется со службой Apple VPP два раза в день. Синхронизацию вручную можно начать в любое время.
