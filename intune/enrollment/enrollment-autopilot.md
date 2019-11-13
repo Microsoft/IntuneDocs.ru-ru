@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f2a1d964f157f33e439f659713fe8c2e02f852b3
-ms.sourcegitcommit: c2e62f1ebdf75599c8e544287123c602f0f15f2b
+ms.openlocfilehash: 9e2f654d9e505afba00a1a9090febe4c06ca77ff
+ms.sourcegitcommit: d2d18eef64bcf16eec1a48fcb67f1362537c0245
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72749402"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73445333"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -87,7 +87,7 @@ Windows Autopilot упрощает регистрацию устройств в 
 5. Выберите команду **Создать**.  
 
 ## <a name="create-an-autopilot-deployment-profile"></a>Создание профиля развертывания Autopilot.
-Профили развертывания Autopilot служат для настройки устройств Autopilot.
+Профили развертывания Autopilot служат для настройки устройств Autopilot. Для каждого клиента можно создать до 350 профилей.
 1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Профили развертывания** > **Создать профиль**.
 2. На странице **Основы** введите **имя** и **описание** (необязательно).
 

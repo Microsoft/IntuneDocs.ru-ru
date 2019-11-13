@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/24/2019
+ms.date: 10/31/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,19 +15,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2bfc49f772331113314e45bc49360b8435b88037
-ms.sourcegitcommit: 0d6f323152ec62f7d383891cce12ea0a4289cd8f
+ms.openlocfilehash: 899d667ca271ae5c3edced18fab8da987c49b2ca
+ms.sourcegitcommit: 85c894cb4df34a5ff558e3b45e28a8b91054d9e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72889574"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432529"
 ---
 # <a name="use-device-firmware-configuration-interface-profiles-on-windows-devices-in-microsoft-intune-public-preview"></a>Использование профилей интерфейса конфигурации встроенного ПО устройств на устройствах Windows в Microsoft Intune (общедоступная предварительная версия)
 
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
-
-> [!Note]
-> Каждое [ежемесячное обновление](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Microsoft-Intune-Service-Updates/ba-p/358728) может применяться в течение нескольких дней. Так как внедрение некоторых функций может занимать несколько недель, такие функции могут быть недоступными сразу же для всех клиентов.
 
 При использовании Intune для управления устройствами с автопилотами можно управлять параметрами UEFI (BIOS) после их регистрации, используя интерфейс конфигурации встроенного ПО устройства (DFCI). Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор DFCI](https://microsoft.github.io/mu/dyn/mu_plus/DfciPkg/Docs/Dfci_Feature/).
 
@@ -45,7 +42,7 @@ DFCI [позволяет](https://docs.microsoft.com/windows/client-management/m
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-- Изготовитель устройства должен добавить DFCI к встроенному ПО UEFI в процессе производства или в составе устанавливаемого обновления. Обратитесь к поставщикам устройств, чтобы определить производителей, которые поддерживают DFCI, или версию встроенного ПО, необходимую для использования DFCI.
+- Изготовитель устройства должен добавить DFCI к встроенному ПО UEFI в процессе производства или в составе устанавливаемого обновления. Обратитесь к поставщикам устройств, чтобы определить [производителей, которые поддерживают DFCI](https://microsoft.github.io/mu/dyn/mu_plus/DfciPkg/Docs/Scenarios/DfciScenarios/#oems-that-support-dfci), или версию встроенного ПО, требуемую для использования DFCI.
 
 - Устройство должно быть зарегистрировано в Windows Autopilot поставщиком [Microsoft Cloud (CSP)](https://partner.microsoft.com/cloud-solution-provider) или непосредственно поставщиком вычислительной техники. 
 

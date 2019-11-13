@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5b80b0dbd8128606db9220178baf0d05af1a3800
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 2f667940cc238fe243b05c7ab6f1459f63f18faa
+ms.sourcegitcommit: 2c8a41ee95a3fde150667a377770e51b621ead65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72498794"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73635479"
 ---
 # <a name="configure-google-chrome-for-android-devices-using-intune"></a>Настройка Google Chrome для устройств Android с помощью Intune 
 
@@ -46,7 +46,7 @@ ms.locfileid: "72498794"
 
 Дополнительные сведения о добавлении Управляемого Google Play приложения в Intune см. в разделе [Приложения магазина в управляемом Google Play](~/apps/apps-add-android-for-work.md#managed-google-play-store-apps).
 
-## <a name="add-an-app-configuration-policy-for-managed-android-enterprise-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android для бизнеса
+## <a name="add-app-configuration-for-managed-ae-devices"></a>Добавление конфигурации приложения для управляемых устройств AE
 
 1. В панели [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) выберите **Политики конфигурации приложения** > **Добавить**.
 2. Добавьте имя политики, выберите **Управляемые устройства** в поле "Тип регистрации устройства" и **Android** в поле "Платформа".

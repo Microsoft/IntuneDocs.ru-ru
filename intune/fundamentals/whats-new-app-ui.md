@@ -6,7 +6,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 09/09/2019
+ms.date: 11/07/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7517a2b60c4b5a893b90b09be72ddb363f23552a
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: d75e75dbce2563aaf31edede8eeab7249aad8e19
+ms.sourcegitcommit: b5e719fb507b1bc4774674e76c856c435e69f68c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509978"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "73801778"
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для пользовательских приложений Intune
 
@@ -36,6 +36,23 @@ ms.locfileid: "72509978"
 
 <!---End-user messaging for accounts 1573558, 1712; changes to be made for other platforms for 1801 Users of the Company Portal website, will be blocked from taking actions that require write access to your tenant. They will see appropriate error messaging explaining that their account is under maintenance. Similar changes are coming to the Company Portal apps for Android, iOS, macOS, and Windows soon. ![Error message that occurs during account move](./media/whats-new-app-ui/account-move-rom-iwp-user-1712.png)--->
 
+
+## <a name="week-of-october-28-2019"></a>Неделя с 28 октября 2019 г.  
+
+### <a name="improved-checklist-design-in-company-portal-app-for-android----5550857---"></a>Улучшен дизайн контрольного списка настройки в приложении Корпоративного портала для Android <!-- 5550857 -->  
+Контрольный список настройки в приложении Корпоративного портала для Android получил упрощенный дизайн и новые значки. Эти изменения соответствуют последним обновлениями, внесенным в приложение Корпоративного портала для iOS. Дополнительные сведения об обновлении шагов регистрации см. [здесь](/intune-user-help/enroll-device-android-work-profile) и [здесь](/intune-user-help/enroll-device-android-company-portal).  
+
+На следующих снимках экрана показан обновленный контрольный список настройки для регистрации рабочего профиля Android.
+
+|Обновлено|Предыдущий|  
+|---|---|  
+|![Экран настройки рабочего профиля на Корпоративном портале с упрощенным контрольным списком настройки и новыми значками](./media/whats-new-app-ui/work-profile-checklist-1911.png)|![Прежний интерфейс настройки рабочего профиля на Корпоративном портале с менее лаконичным контрольным списком](./media/whats-new-app-ui/work-profile-checklist-1904.png)|   
+
+На следующих экранах показан обновленный контрольный список для регистрации администратора устройства Android.  
+
+|Обновлено|Предыдущий|  
+|---|---|  
+|![Экран настройки администратора устройства Android на Корпоративном портале с упрощенным контрольным списком и новыми значками.](./media/whats-new-app-ui/android-checklist-1911.png)|![Прежний интерфейс настройки администратора устройства Android на Корпоративном портале с менее лаконичным контрольным списком](./media/whats-new-app-ui/android-checklist-1904.png)|  
 
 ## <a name="week-of-september-9-2019"></a>Неделя, начиная с 9 сентября 2019 г.
 
@@ -572,6 +589,6 @@ __После__ ![Изображение обновленной версии за
 
 
 ## <a name="see-also"></a>См. также
-* [Блог Microsoft Intune](http://go.microsoft.com/fwlink/?LinkID=273882)
+* [Блог Microsoft Intune](https://go.microsoft.com/fwlink/?LinkID=273882)
 * [Стратегии развития облачной платформы](https://www.microsoft.com/cloud-platform/roadmap)
-* [Новые возможности в Intune](../whats-new.md)
+* [Новые возможности в Intune](whats-new.md)

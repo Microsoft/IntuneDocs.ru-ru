@@ -16,12 +16,12 @@ ms.reviewer: joglocke
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d447f2bf45d1bf3e6355a9d5dcc42b4bc2f3a9f3
-ms.sourcegitcommit: 4bf23327af734a9811d555fbd566c31239e2acd6
+ms.openlocfilehash: 53014376a7e220e975878031ffd759da40db7f6b
+ms.sourcegitcommit: 60f0ff6d2efbae0f2ce14b9a9f3f9267309e209b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "72999756"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73413839"
 ---
 # <a name="use-security-baselines-to-configure-windows-10-devices-in-intune"></a>Использование базовых конфигураций безопасности для настройки устройств Windows 10 в Intune
 
@@ -80,6 +80,9 @@ ms.locfileid: "72999756"
 
   > [!NOTE]
   > Базовые показатели безопасности ATP в Microsoft Defender оптимизированы для физических устройств; сейчас не рекомендуется использовать их на виртуальных машинах или конечных точках VDI. Некоторые базовые параметры могут влиять на удаленные интерактивные сеансы в виртуализованных средах.  Дополнительные сведения см. в статье [Повышение уровня соответствия требованиям базового уровня безопасности ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline) в документации по Windows.
+
+- **Базовые параметры Microsoft Edge** 
+  - [Предварительная версия: Базовые параметры Microsoft Edge](security-baseline-settings-edge.md)
 
 Вы можете продолжать использовать и изменять профили, созданные на основе шаблона предварительной версии, даже если такой шаблон более недоступен для создания новых профилей.
 

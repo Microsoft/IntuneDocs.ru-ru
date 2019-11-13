@@ -4,17 +4,32 @@ description: Включить имя файла
 author: ErikjeMS
 ms.service: microsoft-intune
 ms.topic: include
-ms.date: 03/28/2019
+ms.date: 11/4/2019
 ms.author: erikje
 ms.custom: include file
-ms.openlocfilehash: 0aa78ec17aba5deb0c914c3698676219f203b856
-ms.sourcegitcommit: 60f0ff6d2efbae0f2ce14b9a9f3f9267309e209b
+ms.openlocfilehash: edef1f43caff97ab75aa3c58034ed4fc2dffd208
+ms.sourcegitcommit: ae6f2e7812e7fd36f2393b8f4b6cd8de63777b2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73415075"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "73612153"
 ---
 Эти уведомления предоставляют важные сведения, которые помогут вам подготовиться к будущим изменениям в Intune.
+
+### <a name="plan-for-change-updated-experience-when-enrolling-android-enterprise-dedicated-devices-in-intune--5198878--"></a>Подготовьтесь к изменениям. Обновленный процесс регистрации выделенных устройств Android Enterprise в Intune.<!--5198878-->
+В выпуске Intune за ноябрь (выпуск 1911) мы добавляем поддержку развертывания сертификатов SCEP на выделенных устройствах Android Enterprise, что обеспечит доступ на основе сертификатов к профилям Wi-Fi. Это обновление также влечет незначительные изменения в потоке регистрации выделенных устройств Android Enterprise.
+
+#### <a name="how-does-this-affect-me"></a>Как это повлияет на работу?
+Если вы управляете выделенными устройствами Android Enterprise в своей среде, в ноябре вы заметите некоторые изменения.
+
+- Для новых развертываний выделенных устройств Android Enterprise: Пользователям будет необходимо выполнить другие действия на устройствах во время регистрации. Регистрация будет начинаться так же, как сейчас (по QR-коду, через NFC, полностью автоматически или по идентификатору устройства), но добавится обязательный шаг установки приложения.
+- Для существующих устройств Android, которые зарегистрированы как выделенные устройства: Intune начнет автоматически устанавливать приложение Microsoft Intune на устройства с первых чисел ноября. Никаких дополнительных действий от пользователей не потребуется. Приложение будет автоматически скачано и установлено на устройства. 
+
+#### <a name="what-can-i-do-to-prepare-for-this-change"></a>Как можно подготовиться к этому изменению?
+Следует запланировать обновление руководства для пользователей и предоставить службе технической поддержки сведения об этом изменении. Дополнительные сведения и снимки экрана вы найдете по ссылке ниже. Мы обновим страницу новых возможностей, когда начнется развертывание этого изменения.
+
+#### <a name="additional-information"></a>Дополнительные сведения
+[https://aka.ms/Dedicated_devices_enrollment](https://aka.ms/Dedicated_devices_enrollment)
 
 ### <a name="plan-for-change-the-server-side-logging-for-siri-commands-setting-will-be-removed-from-the-intune-console----5468501--"></a>Подготовьтесь к изменениям. Параметр "Ведение журнала на стороне сервера для команд Siri" будет удален из консоли Intune <!-- 5468501-->
 

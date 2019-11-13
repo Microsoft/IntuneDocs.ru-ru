@@ -1,6 +1,6 @@
 ---
 title: Регистрация или вход в Microsoft Intune
-description: Описывается, как зарегистрировать подписку Microsoft Intune или выполнить вход, чтобы начать использовать подписку.
+description: Узнайте, как зарегистрировать подписку Microsoft Intune или выполнить вход, чтобы начать использовать подписку.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
@@ -17,16 +17,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2c3cf75c1b5d6984a7f922af8b969458b4e4336e
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 78d38b72c9853a9eadaf71fcdff7567fc66d35ca
+ms.sourcegitcommit: 60f0ff6d2efbae0f2ce14b9a9f3f9267309e209b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509171"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73414668"
 ---
 # <a name="sign-up-or-sign-in-to-microsoft-intune"></a>Регистрация или вход в Microsoft Intune
-
-[!INCLUDE [both-portals](../../intune-classic/includes/note-for-both-portals.md)]
 
 В этом разделе системные администраторы узнают, как зарегистрировать учетную запись Intune.
 
@@ -46,14 +44,17 @@ ms.locfileid: "72509171"
 2. На странице регистрации выполните вход или зарегистрируйтесь для управления новой подпиской Intune.
 
 ## <a name="post-sign-up-considerations"></a>Действия после регистрации
+
 После регистрации новой учетной записи на электронный адрес, указанный в процессе регистрации, отправляется сообщение с информацией об учетной записи. Оно является подтверждением активации подписки.
 
 После регистрации вы будете направлены в Центр администрирования Microsoft 365, где можно добавить пользователей и назначить им лицензии. Если вы будете использовать только облачные учетные записи с именем домена по умолчанию onmicrosoft.com, то добавить пользователей и назначить лицензии можно уже на этом этапе. Если же вы планируете использовать [имя личного домена организации](custom-domain-name-configure.md) или хотите [синхронизировать учетные записи пользователей](users-add.md#sync-active-directory-and-add-users-to-intune) из локальной службы Active Directory, можно закрыть это окно браузера.
 
 ## <a name="sign-in-to-microsoft-intune"></a>Вход в Microsoft Intune
+
 После регистрации в Intune можно выполнять администрирование службы, войдя [в Intune](https://go.microsoft.com/fwlink/?linkid=2090973) с использованием [любого устройства с поддерживаемым браузером](supported-devices-browsers.md#intune-supported-web-browsers).
 
 По умолчанию учетная запись должна иметь одно из следующих разрешений в Azure AD:
+
 - глобальный администратор
 - Администратор служб Intune (также известный как администратор Intune).
 
@@ -76,4 +77,5 @@ Microsoft 365 бизнес: https://portal.microsoft.com/adminportal
 Управление мобильными устройствами Office 365: https://portal.office.com/adminportal/home#/MifoDevices
 
 ## <a name="see-also"></a>См. также
+
 [Вы не можете войти в Office 365, Azure или Intune](https://support.microsoft.com/help/2412085)

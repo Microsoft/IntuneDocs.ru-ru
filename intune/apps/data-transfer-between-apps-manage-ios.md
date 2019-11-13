@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: db583b1fc89edf72f329a605cc86363593eaaa9d
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: cdc849405b7404203faa6e86d3fed1ea8e35ec43
+ms.sourcegitcommit: 60f0ff6d2efbae0f2ce14b9a9f3f9267309e209b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72497915"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73414640"
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 
@@ -81,7 +81,7 @@ ms.locfileid: "72497915"
    |ManageEngine Mobile Device Manager | IntuneMAMUPN | Строка | %upn% |
 
 > [!NOTE]  
-> При развертывании политики Конфигурации приложений с параметром использования конструктора конфигурации для приложения Outlook в iOS раздел конфигурации IntuneMAMUPN для политики настраивается автоматически в фоновом режиме. Дополнительные сведения см. в разделе с часто задаваемыми вопросами статьи о [политике Конфигураций приложений для Outlook в iOS и Android](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/New-Outlook-for-iOS-and-Android-App-Configuration-Policy/ba-p/370481). 
+> Если при использовании Outlook для iOS вы развертываете политику Конфигурации приложений управляемых устройств с параметрами "Использование конструктора конфигурации" и **Разрешить только рабочие или учебные учетные записи**, ключ конфигурации IntuneMAMUPN будет настроен автоматически в фоновом режиме для политики. См. часто задаваемые вопросы о [политике Конфигураций приложений для Outlook в iOS и Android](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/New-Outlook-for-iOS-and-Android-App-Configuration-Policy/ba-p/370481). 
 
 
 ### <a name="example-2-end-user-experience"></a>Пример 2: Взаимодействие с конечным пользователем
