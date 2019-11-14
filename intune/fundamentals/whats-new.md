@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 10/31/2019
+ms.date: 11/08/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ac6da1b15d482d20340163b0bb79e88d74e8e375
-ms.sourcegitcommit: 2c8a41ee95a3fde150667a377770e51b621ead65
+ms.openlocfilehash: 37ed7bfd204289c963b8134252d9d76f2379ecba
+ms.sourcegitcommit: 768d581cb8bcc5fdcb8ade95d402b11223ab226c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73635342"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73882491"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 
@@ -53,12 +53,20 @@ ms.locfileid: "73635342"
 ### Role-based access control
 -->  
 
+## <a name="week-of-november-4-2019"></a>Неделя с 4 ноября 2019 г.
+
+### <a name="device-security"></a>Безопасность устройств
+
+#### <a name="security-baselines-are-supported-on-microsoft-azure-government---4062552---"></a>Microsoft Azure для государственных организаций поддерживает базовые конфигурации безопасности<!-- 4062552 -->
+
+Экземпляры Intune, размещенные в *Microsoft Azure для государственных организаций*, теперь могут использовать [базовые конфигурации безопасности](../protect/security-baselines.md) для обеспечения безопасности и защиты пользователей и устройств.
+
 ## <a name="week-of-october-28-2019"></a>Неделя с 28 октября 2019 г.
 
 ### <a name="app-management"></a>Управление приложениями
 
 #### <a name="improved-checklist-design-in-company-portal-app-for-android---5550857---"></a>Улучшен дизайн контрольного списка настройки в приложении Корпоративного портала для Android<!-- 5550857 -->  
-Контрольный список настройки в приложении Корпоративного портала для Android получил упрощенный дизайн и новые значки. Эти изменения соответствуют последним обновлениями, внесенным в приложение Корпоративного портала для iOS. Мы работаем над развертыванием этих обновлений для всех клиентов. Они должны быть завершены в конце следующей недели. Подробный обзор изменений см. в [этой статье](whats-new-app-ui.md). Дополнительные сведения об обновлении шагов регистрации см. [здесь](/intune-user-help/enroll-device-android-work-profile) и [здесь](/intune-user-help/enroll-device-android-company-portal).  
+Контрольный список настройки в приложении Корпоративного портала для Android получил упрощенный дизайн и новые значки. Эти изменения соответствуют последним обновлениями, внесенным в приложение Корпоративного портала для iOS. Подробный обзор изменений см. в [этой статье](whats-new-app-ui.md). Дополнительные сведения об обновлении шагов регистрации см. [здесь](/intune-user-help/enroll-device-android-work-profile) и [здесь](/intune-user-help/enroll-device-android-company-portal).  
 
 #### <a name="win32-apps-on-windows-10-s-mode-devices---3747604---"></a>Приложения Win32 на устройствах Windows 10 в режиме S<!-- 3747604 --> 
 Вы можете устанавливать и запускать приложения Win32 на управляемых устройствах Windows 10 в режиме S. Для этого следует создать одну или несколько дополнительных политик режима S с помощью средств PowerShell "Управление приложениями в Защитнике Windows (WDAC)". Дополнительные политики необходимо подписать с помощью службы Device Guard Signing Service (DGSS), затем передать и распространить их через Intune. В Intune эту функцию можно вызвать, выбрав элемент **Клиентские приложения** > **Дополнительные политики режима S**. Дополнительные сведения см. в [этой статье](~/apps/apps-win32-s-mode.md).

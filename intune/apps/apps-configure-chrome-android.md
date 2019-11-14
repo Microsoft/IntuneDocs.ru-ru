@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2f667940cc238fe243b05c7ab6f1459f63f18faa
-ms.sourcegitcommit: 2c8a41ee95a3fde150667a377770e51b621ead65
+ms.openlocfilehash: 14e9aa6e82d7b3e24350de8770f02b0a08695e1a
+ms.sourcegitcommit: b5e719fb507b1bc4774674e76c856c435e69f68c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73635479"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "73801666"
 ---
 # <a name="configure-google-chrome-for-android-devices-using-intune"></a>Настройка Google Chrome для устройств Android с помощью Intune 
 
@@ -63,7 +63,7 @@ ms.locfileid: "73635479"
 
     Ниже приведен пример общих параметров.
     - **Блокировать доступ к списку URL-адресов** : `["*"]`
-    - **Разрешить доступ к списку URL-адресов** : `["baidu.com", "yahoo.com", "chrome://*"]`
+    - **Разрешить доступ к списку URL-адресов** : `["baidu.com", "youtube.com", "chromium.org", "chrome://*"]`
     - **Управляемые закладки**: `[{"toplevel_name": "My managed bookmarks folder"  },  {"url": "baidu.com",   "name": "Baidu"},  {"url": "youtube.com", "name": "Youtube"},  {"name": "Chrome links",  "children": [{"url": "chromium.org", "name": "Chromium"},    {"url": "dev.chromium.org", "name": "Chromium Developers"}]}]`
     - **Доступность в режиме инкогнито**: `Incognito mode disabled`
 
@@ -71,7 +71,7 @@ ms.locfileid: "73635479"
 
     ![Общие параметры](~/apps/media/apps-configure-chrome-android/common-settings.png)
 
-    Указанные выше параметры создают закладки и разрешают доступ ко всем веб-сайтам, кроме `baidu.com`, `yahoo.com` и `chrome://`.
+    Указанные выше параметры создают закладки и блокируют доступ ко всем URL-адресам, кроме `baidu.com`, `yahoo.com`, `chromium.org` и `chrome://`.
 
 5. Щелкните **OK** и **Добавить**, чтобы добавить политику конфигурации в Intune.
 6. Назначьте эту политику конфигурации группе пользователей. Дополнительные сведения см. в статье [Назначение приложений группам с помощью Microsoft Intune](~/apps/apps-deploy.md). 
