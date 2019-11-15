@@ -185,14 +185,14 @@
     - name: Устранение неполадок
       items:
         - name: Помощь пользователям в устранении проблем
-          href: ../fundamentals/help-desk-operators.md?toc=/intune/apps/toc.json&bc=/apps/breadcrumb/toc.json
+          href: ../fundamentals/help-desk-operators.md?toc=/intune/apps/toc.json&bc=/intune/apps/breadcrumb/toc.json
         - name: Устранение проблем с установкой приложений
           href: troubleshoot-app-install.md
         - name: Устранение неполадок управления мобильными приложениями
           href: troubleshoot-mam.md
         - name: Просмотрите журналы защиты приложений
           href: app-protection-policy-settings-log.md
-- name: Справочные сведения
+- name: Справочник
   items:
     - name: Защита приложений с помощью пакета SDK для приложений Intune
       href: ../developer/app-sdk.md
