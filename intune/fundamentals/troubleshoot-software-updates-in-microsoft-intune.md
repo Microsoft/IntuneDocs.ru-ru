@@ -2,8 +2,8 @@
 title: Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune в Azure | Документация Майкрософт
 description: Сведения о решении проблем с обновлениями программного обеспечения в Microsoft Intune.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: Brenduns
+ms.author: brenduns
 manager: dougeby
 ms.date: 05/29/2019
 ms.topic: troubleshooting
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8ad8d904f72df169eea136c625a2f44d645cafbc
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 7da927754971fb66a5d8442d0cdf18e0ebfbcd4a
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509755"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059078"
 ---
 # <a name="troubleshoot-software-updates-in-microsoft-intune"></a>Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune
 

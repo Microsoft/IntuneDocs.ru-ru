@@ -3,8 +3,8 @@ title: Сокращение затрат на службу поддержки
 titleSuffix: Microsoft Intune
 description: Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей
 keywords: Сброс паролей SSPR в Azure Active Directory
-author: MandiOhlinger
-ms.author: mandia
+author: ErikjeMS
+ms.author: erikje
 manager: dougeby
 ms.date: 3/6/2018
 ms.topic: archived
@@ -15,16 +15,17 @@ ms.technology: ''
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1da1758dcc1743087191f69bd4d57bc113774d81
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 08dc14a3abed634721b39fedaae840e2b18c151b
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509294"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74058114"
 ---
 # <a name="reduce-help-desk-costs-with-self-service-password-reset"></a>Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей
 
 Вы можете разрешить сотрудникам выполнять сброс паролей рабочих учетных записей без обращения в службу поддержки. Этот тип самостоятельного сброса паролей рекомендуется в следующих ситуациях:
+
 * ваша компания или учебное заведение использует Azure Active Directory для рабочих учетных записей;
 * сотрудники и учащиеся имеют доступ к Интернету;
 * вам требуется сократить затраты на службу поддержки.
@@ -39,6 +40,7 @@ ms.locfileid: "72509294"
 ## <a name="next-steps"></a>Дальнейшие шаги
 
 Ознакомьтесь с дополнительными сведениями в следующих статьях:
+
 * [Рекомендации по паролям](https://docs.microsoft.com/azure/active-directory/active-directory-secure-passwords) 
 * [Лицензирование самостоятельного сброса паролей](https://docs.microsoft.com/azure/active-directory/active-directory-secure-passwords).
 

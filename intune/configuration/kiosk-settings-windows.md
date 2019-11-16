@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 08/15/2019
+ms.date: 11/13/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 17dce8f7c5aa55a2044e663f724a5784cee8b375
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 42ccb1d1654ba45b63672eebf00acd10fdc56a67
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72506676"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059340"
 ---
 # <a name="windows-10-and-later-device-settings-to-run-as-a-kiosk-in-intune"></a>Настройка параметров устройства Windows 10 (и более поздних версий) для запуска в качестве киоска в Intune
 
@@ -40,6 +40,8 @@ ms.locfileid: "72506676"
 
   1. Создайте профиль киоска для работы в полноэкранном режиме.
   2. Создайте [профиль ограничений устройства](device-restrictions-windows-10.md#microsoft-edge-browser) и настройте разрешенные параметры и функции в Microsoft Edge.
+
+- Убедитесь, что все файлы, сценарии и ярлыки находятся в локальной системе. Дополнительные сведения, включая другие требования к Windows, см. в разделе [Настройка и экспорт начального макета](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout).
 
 > [!IMPORTANT]
 > Не забудьте назначить этот профиль киоска тем же устройствам, которым назначен ваш [профиль Microsoft Edge](device-restrictions-windows-10.md#microsoft-edge-browser).
@@ -194,3 +196,5 @@ ms.locfileid: "72506676"
 [Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
 Вы также можете создать профили киоска для устройств [Android](device-restrictions-android.md#kiosk), [Android Enterprise](device-restrictions-android-for-work.md#dedicated-device-settings) и [Windows Holographic for Business](kiosk-settings-holographic.md).
+
+См. также раздел [Настройка киоска с одним приложением](https://docs.microsoft.com/windows/configuration/kiosk-single-app) или [Настройка киоска с несколькими приложениями](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps) в руководстве по Windows.

@@ -5,7 +5,7 @@ description: Проверьте значения по умолчанию и до
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 07/25/2019
+ms.date: 11/13/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 21d70bb0322ec05ceb091844827151ce746cda6f
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 0d673650a26f3917fa32babba42e5e2054c87e59
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508958"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060025"
 ---
 # <a name="mdm-security-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности MDM для Intune  
 
@@ -126,19 +126,19 @@ ms.locfileid: "72508958"
 Дополнительные сведения см. в разделе [Policy CSP — Browser](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser) документации Windows.  
 
 - **Require SmartScreen for Microsoft Edge** (Требовать SmartScreen для Microsoft Edge)  
-  Microsoft Edge по умолчанию использует (включает) SmartScreen Защитника Windows для защиты пользователей от потенциальных фишинговых сообщений и вредоносных программ. Кроме того, по умолчанию пользователи не могут отключить SmartScreen Защитника Windows. Включение этой политики отключает SmartScreen Защитника Windows и не позволяет пользователям включить его. Не следует настраивать эту политику, чтобы позволить пользователям выбирать, включать SmartScreen Защитника Windows или нет.  
+  Microsoft Edge по умолчанию использует (включает) фильтр SmartScreen в Microsoft Defender для защиты пользователей от потенциальных фишинговых сообщений и вредоносных программ. Кроме того, по умолчанию пользователи не могут отключить этот фильтр. Включение этой политики отключает фильтр SmartScreen в Microsoft Defender и не позволяет пользователям включить его. Не следует настраивать эту политику, чтобы позволить пользователям выбирать, включать фильтр SmartScreen или нет.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067029)   
   
   **Значение по умолчанию**: "Да"  
   
 - **Block malicious site access** (Блокировать доступ к вредоносным сайтам)  
-  По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen Защитника Windows о потенциально вредоносных сайтах, позволяя им перейти на такой сайт. Эта политика позволяет настроить Microsoft Edge, чтобы запретить пользователям обходить предупреждения и не позволить им перейти на сайт.  
+  По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen в Microsoft Defender о потенциально вредоносных сайтах, позволяя перейти на такой сайт. Эта политика позволяет настроить Microsoft Edge, чтобы запретить пользователям обходить предупреждения и не позволить им перейти на сайт.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067040)   
   
   **Значение по умолчанию**: "Да"  
   
 - **Block unverified file download** (Блокировать скачивание непроверенных файлов)  
-  По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen Защитника Windows о потенциально вредоносных файлах, позволяя им продолжить скачивание непроверенных файлов. Включение этой политики запрещает пользователям обходить предупреждения и скачивать непроверенные файлы.  
+  По умолчанию Microsoft Edge разрешает пользователям обходить (игнорировать) предупреждения SmartScreen в Microsoft Defender о потенциально вредоносных файлах, позволяя продолжить скачивание непроверенных файлов. Включение этой политики запрещает пользователям обходить предупреждения и скачивать непроверенные файлы.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067023)  
   
   **Значение по умолчанию**: "Да"  
@@ -1584,7 +1584,7 @@ ms.locfileid: "72508958"
 
   **По умолчанию**: включено
   
-## <a name="windows-defender"></a>Защитник Windows  
+## <a name="microsoft-defender"></a>Microsoft Defender  
 Дополнительные сведения см. в разделе [Policy CSP — Defender](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender) документации Windows.  
 
 - **Сканировать входящие сообщения электронной почты**  
@@ -1600,7 +1600,7 @@ ms.locfileid: "72508958"
   **Значение по умолчанию**: "Блокировать"
   
 - **Defender sample submission consent type** (Тип согласия на отправку примера Защитника)  
-  Проверяет уровень согласия пользователя в Защитнике Windows для отправки данных. Если требуемое согласие уже предоставлено, Защитник Windows отправляет их. В противном случае (и если пользователь отключил подобные запросы) перед отправкой данных открывается пользовательский интерфейс, запрашивающий согласие пользователя (при разрешенном Defender/AllowCloudProtection).  
+  Проверяет уровень согласия пользователя в Microsoft Defender для отправки данных. Если требуемое согласие уже предоставлено, Microsoft Defender отправляет их. В противном случае (и если пользователь отключил подобные запросы) перед отправкой данных открывается пользовательский интерфейс, запрашивающий согласие пользователя (при разрешенном Defender/AllowCloudProtection).  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067131)  
   
   **По умолчанию**: отправлять безопасные образцы автоматически 
@@ -1616,7 +1616,7 @@ ms.locfileid: "72508958"
   **Значение по умолчанию**: "Блокировать"
   
 - **Prevent credential stealing type** (Тип предотвращения хищения учетных данных)  
-  Для защиты секретов Credential Guard в Защитнике Windows использует безопасность на основе виртуализации, чтобы только привилегированное системное ПО могло получать доступ к этим данным. Несанкционированный доступ к секретам может привести к атакам, направленным на хищение учетных данных, таким как Pass-the-Hash или Pass-The-Ticket. Credential Guard в Защитнике Windows предотвращает такие атаки, защищая хэши паролей NTLM, билеты для предоставления билетов Kerberos, а также учетные данные, хранимые приложениями в виде учетных данных домена.  
+  Для защиты секретов Credential Guard в Microsoft Defender использует безопасность на основе виртуализации, чтобы только привилегированное системное программное обеспечение могло получать доступ к этим данным. Несанкционированный доступ к секретам может привести к атакам, направленным на хищение учетных данных, таким как Pass-the-Hash или Pass-The-Ticket. Credential Guard в Microsoft Defender предотвращает такие атаки, защищая хэши паролей NTLM, билеты для предоставления билетов Kerberos, а также учетные данные, хранимые приложениями в виде учетных данных домена.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067065)  
   
   **Значение по умолчанию**: "Включить"
@@ -1632,7 +1632,7 @@ ms.locfileid: "72508958"
   **Значение по умолчанию**: "Включить"
 
 - **Network protection type** (Тип защиты сети)  
-  Эта политика позволяет включить или отключить защиту сети (блокировка/аудит) в Exploit Guard в Защитнике Windows. Функция защиты сети входит в состав Exploit Guard в Защитнике Windows и защищает сотрудников, использующих любое приложение, от фишинговых сообщений, сайтов с эксплойтами и вредоносного содержимого в Интернете. Кроме того, она не позволяет сторонним браузерам подключаться к опасным сайтам. Тип значения — целое число. Если этот параметр включен, защита сети включена, и сотрудники не могут ее отключить. Работой этой функции можно управлять с помощью следующих параметров: "Блокировка" и "Аудит". Если включить эту политику с параметром "Блокировка", пользователи и приложения не смогут подключиться к опасным доменам. Эту активность можно просматривать в Центре безопасности Защитника Windows. Если включить эту политику с параметром "Аудит", пользователи и приложения смогут подключиться к опасным доменам. При этом вы также можете просматривать соответствующую активность в Центре безопасности Защитника Windows. Если отключить эту политику, пользователи и приложения смогут подключиться к опасным доменам. При этом никакая сетевая активность в Центре безопасности Защитника Windows не отображается Если эта политика не настроена, блокировка сети по умолчанию отключена.  
+  Эта политика позволяет включить или отключить защиту сети (блокировка/аудит) в Exploit Guard в Microsoft Defender. Функция защиты сети входит в состав Exploit Guard в Microsoft Defender и защищает сотрудников, использующих любое приложение, от фишинговых сообщений, сайтов с эксплойтами и вредоносного содержимого в Интернете. Кроме того, она не позволяет сторонним браузерам подключаться к опасным сайтам. Тип значения — целое число. Если этот параметр включен, защита сети включена, и сотрудники не могут ее отключить. Работой этой функции можно управлять с помощью следующих параметров: "Блокировка" и "Аудит". Если включить эту политику с параметром "Блокировка", пользователи и приложения не смогут подключиться к опасным доменам. Эту активность можно просматривать в Центре безопасности в Microsoft Defender. Если включить эту политику с параметром "Аудит", пользователи и приложения смогут подключиться к опасным доменам. Вы по-прежнему сможете просматривать соответствующую активность в Центре безопасности в Microsoft Defender. Если отключить эту политику, пользователи и приложения смогут подключиться к опасным доменам. При этом никакая сетевая активность в Центре безопасности не отображается. Если эта политика не настроена, блокировка сети по умолчанию отключена.  
   [Дополнительные сведения](/windows/security/threat-protection/microsoft-defender-atp/enable-network-protection)  
   
   **Значение по умолчанию**: "Включить"
@@ -1643,13 +1643,13 @@ ms.locfileid: "72508958"
   **Значение по умолчанию**: "Ежедневно"
   
 - **Защита, обеспечиваемая облаком**  
-  Для обеспечения надежной защиты компьютера Защитник Windows отправляет в Майкрософт сведения о любых найденных проблемах. Майкрософт будет анализировать эту информацию, изучать проблемы, возникающие у вас и других клиентов, и предлагать улучшенные решения.  
+  Для обеспечения надежной защиты компьютера Microsoft Defender отправляет нам сведения о любых найденных проблемах. Майкрософт будет анализировать эту информацию, изучать проблемы, возникающие у вас и других клиентов, и предлагать улучшенные решения.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067039)
   
   **Значение по умолчанию**: "Да"  
 
 - **Defender potentially unwanted app action** (Действие для потенциально нежелательных приложений в Защитнике)  
-  Функция защиты от потенциально нежелательных приложений (PUA) в антивирусной программе "Защитник Windows" позволяет идентифицировать и блокировать скачивание и установку таких приложений на конечных точках в вашей сети. Эти приложения не относятся к вирусам, вредоносным программам и другим видам угроз, однако могут выполнять на конечных точках действия, отрицательно влияющие на производительность или удобство использования. Понятие PUA также может относиться к приложениям, которые, как считается, обладают плохой репутацией. Типичное поведение приложения PUA включает в себя следующее: различные виды программного обеспечения, внедрение рекламы в веб-браузеры, оптимизация драйверов и реестра, когда программа обнаруживает проблемы, просит оплату за исправление ошибок, однако остается на конечной точке, не внося никаких изменений или оптимизаций (такие программы также называют лжеантивирусами). Эти приложения могут повысить риск заражения сети вредоносными программами, затрудняют обнаружение такого заражения, а также могут вызывать излишнюю трату ИТ-ресурсов на очистку приложений.  
+  Функция защиты от потенциально нежелательных приложений (PUA) в антивирусной программе в Microsoft Defender позволяет идентифицировать и блокировать скачивание и установку таких приложений на конечных точках в вашей сети. Эти приложения не относятся к вирусам, вредоносным программам и другим видам угроз, однако могут выполнять на конечных точках действия, отрицательно влияющие на производительность или удобство использования. Понятие PUA также может относиться к приложениям, которые, как считается, обладают плохой репутацией. Типичное поведение приложения PUA включает в себя следующее: различные виды программного обеспечения, внедрение рекламы в веб-браузеры, оптимизация драйверов и реестра, когда программа обнаруживает проблемы, просит оплату за исправление ошибок, однако остается на конечной точке, не внося никаких изменений или оптимизаций (такие программы также называют лжеантивирусами). Эти приложения могут повысить риск заражения сети вредоносными программами, затрудняют обнаружение такого заражения, а также могут вызывать излишнюю трату ИТ-ресурсов на очистку приложений.  
   [Дополнительные сведения](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-puaprotection)    
   
   **Значение по умолчанию**: "Блокировать"  
@@ -1661,7 +1661,7 @@ ms.locfileid: "72508958"
   **Значение по умолчанию**: "Блокировать"
   
 - **Сканировать съемные диски при полной проверке**  
-  Позволяет Защитнику Windows проверять съемные носители (например, устройства флэш-памяти) на наличие вредоносного и нежелательного программного обеспечения во время полного сканирования. Антивирусная программа "Защитник Windows" сканирует все файлы на USB-устройствах перед выполнением.  
+  Позволяет Microsoft Defender проверять съемные носители (например, устройства флэш-памяти) на наличие вредоносного и нежелательного программного обеспечения во время полного сканирования. Антивирусная программа в Microsoft Defender сканирует все файлы на USB-устройствах перед выполнением.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067036)  
   
   **Значение по умолчанию**: "Да"  
@@ -1672,7 +1672,7 @@ ms.locfileid: "72508958"
   **Значение по умолчанию**: "Да"
   
 - **Контроль поведения**  
-  Разрешает или запрещает функции мониторинга поведения защитника Windows. Эти встроенные в Windows 10 датчики собирают и обрабатывают сигналы о действиях, поступающие из операционной системы, а затем отправляют эти данные в частный изолированный облачный экземпляр ATP в Microsoft Defender.  
+  Разрешает или запрещает функции мониторинга поведения защитника Майкрософт. Эти встроенные в Windows 10 датчики собирают и обрабатывают сигналы о действиях, поступающие из операционной системы, а затем отправляют эти данные в частный изолированный облачный экземпляр ATP в Microsoft Defender.  
   [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2067111)  
   
   **Значение по умолчанию**: "Да"
@@ -1720,7 +1720,7 @@ ms.locfileid: "72508958"
   
   **Значение по умолчанию**: "Блокировать"
 
-## <a name="windows-defender-firewall"></a>Брандмауэр Защитника Windows  
+## <a name="microsoft-defender-firewall"></a>Брандмауэр защитника Майкрософт  
 Дополнительные сведения см. в разделе [2.2.2 FW_PROFILE_TYPOE]( https://docs.microsoft.com/openspecs/windows_protocols/ms-fasp/7704e238-174d-4a5e-b809-5f3787dd8acc) в документации по протоколам Windows.  
 
 - **Домен профиля брандмауэра**  
@@ -1885,11 +1885,11 @@ ms.locfileid: "72508958"
   - **Способ отправки приглашения по электронной почте**
 
 
-*[Новое]* [**Защитник Windows**](#windows-defender):
+*[Новое]* [**Microsoft Defender**](#microsoft-defender):
 - **Adobe Reader launch in a child process** (Запуск Adobe Reader в дочернем процессе)  
 - **Загрузка приложений для связи Office в дочернем процессе** 
 
-*[Новое]* [**Брандмауэр Защитника Windows**](#windows-defender-firewall)
+*[Новое]* [ **брандмауэр защитника Майкрософт**](#microsoft-defender-firewall)
 - **Домен профиля брандмауэра**  
   - **Inbound connections blocked** (Входящие подключения заблокированы)  
   - **Outbound connections required** (Требуются исходящие подключения)  
@@ -1997,17 +1997,17 @@ For more information, see [Policy CSP - Bitlocker](https://docs.microsoft.com/wi
 For more information, see [Policy CSP - Browser](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser) in the Windows documentation.  
 
 - **Require SmartScreen for Microsoft Edge**  
-  Microsoft Edge uses Windows Defender SmartScreen (turned on) to protect users from potential phishing scams and malicious software by default. Also, by default, users can't disable (turn off) Windows Defender SmartScreen. Enabling this policy turns off Windows Defender SmartScreen and prevent users from turning it on. Don’t configure this policy to let users choose to turn Windows defender SmartScreen on or off.  
+  Microsoft Edge uses Microsoft Defender SmartScreen (turned on) to protect users from potential phishing scams and malicious software by default. Also, by default, users can't disable (turn off) Microsoft Defender SmartScreen. Enabling this policy turns off Microsoft Defender SmartScreen and prevent users from turning it on. Don’t configure this policy to let users choose to turn Microsoft defender SmartScreen on or off.  
   
   **Default**: Yes  
   
 - **Block malicious site access**  
-  By default, Microsoft Edge allows users to bypass (ignore) the Windows Defender SmartScreen warnings about potentially malicious sites, allowing them to continue to the site. With this policy though, you can configure Microsoft Edge to prevent users from bypassing the warnings, blocking them from continuing to the site.
+  By default, Microsoft Edge allows users to bypass (ignore) the Microsoft Defender SmartScreen warnings about potentially malicious sites, allowing them to continue to the site. With this policy though, you can configure Microsoft Edge to prevent users from bypassing the warnings, blocking them from continuing to the site.
   
   **Default**: Yes  
   
 - **Block unverified file download**
-  By default, Microsoft Edge allows users to bypass (ignore) the Windows Defender SmartScreen warnings about potentially malicious files, allowing them to continue downloading the unverified file(s). Enabling this policy prevents users from bypassing the warnings, blocking them from downloading of the unverified file(s).
+  By default, Microsoft Edge allows users to bypass (ignore) the Microsoft Defender SmartScreen warnings about potentially malicious files, allowing them to continue downloading the unverified file(s). Enabling this policy prevents users from bypassing the warnings, blocking them from downloading of the unverified file(s).
   
   **Default**: Yes  
   
@@ -3159,7 +3159,7 @@ For more information, see [Policy CSP - WindowsConnectionManager](https://docs.m
 
   **Default**: Enabled
   
-## Windows Defender  
+## Microsoft Defender  
 For more information, see [Policy CSP - Defender](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender) in the Windows documentation.  
 
 - **Scan incoming mail messages**  
@@ -3173,7 +3173,7 @@ For more information, see [Policy CSP - Defender](https://docs.microsoft.com/win
   **Default**: Block
   
 - **Defender sample submission consent type**  
-  Checks for the user consent level in Windows Defender to send data. If the required consent has already been granted, Windows Defender submits them. If not, (and if the user has specified never to ask), the UI is launched to ask for user consent (when Defender/AllowCloudProtection is allowed) before sending data.
+  Checks for the user consent level in WinMMicrosofticrosoftdows Defender to send data. If the required consent has already been granted, Microsoft Defender submits them. If not, (and if the user has specified never to ask), the UI is launched to ask for user consent (when Defender/AllowCloudProtection is allowed) before sending data.
   
   **Default**: Send safe samples automatically 
   
@@ -3188,7 +3188,7 @@ For more information, see [Policy CSP - Defender](https://docs.microsoft.com/win
   **Default**: Block
   
 - **Prevent credential stealing type**  
-  Windows Defender Credential Guard uses virtualization-based security to isolate secrets so that only privileged system software can access them. Unauthorized access to these secrets can lead to credential theft attacks, such as Pass-the-Hash or Pass-The-Ticket. Windows Defender Credential Guard prevents these attacks by protecting NTLM password hashes, Kerberos Ticket Granting Tickets, and credentials stored by applications as domain credentials.
+  Microsoft Defender Credential Guard uses virtualization-based security to isolate secrets so that only privileged system software can access them. Unauthorized access to these secrets can lead to credential theft attacks, such as Pass-the-Hash or Pass-The-Ticket. Microsoft Defender Credential Guard prevents these attacks by protecting NTLM password hashes, Kerberos Ticket Granting Tickets, and credentials stored by applications as domain credentials.
   
   **Default**: Enable
 
@@ -3198,7 +3198,7 @@ For more information, see [Policy CSP - Defender](https://docs.microsoft.com/win
   **Default**: Block
   
 - **Network protection type**  
-  This policy allows you to turn on network protection (block/audit) or off in Windows Defender Exploit Guard. Network protection is a feature of Windows Defender Exploit Guard that protects employees using any app from accessing phishing scams, exploit-hosting sites, and malicious content on the Internet. This includes preventing third-party browsers from connecting to dangerous sites. Value type is integer. If you enable this setting, network protection is turned on and employees can't turn it off. Its behavior can be controlled by the following options: Block and Audit. If you enable this policy with the "Block" option, users and apps are blocked from connecting to dangerous domains. You can see this activity in Windows Defender Security Center. If you enable this policy with the "Audit" option, users/apps won't be blocked from connecting to dangerous domains. However, you'll still see this activity in Windows Defender Security Center. If you disable this policy, users/apps won't be blocked from connecting to dangerous domains. You'll not see any network activity in Windows Defender Security Center. If you don't configure this policy, network blocking is disabled by default.
+  This policy allows you to turn on network protection (block/audit) or off in Microsoft Defender Exploit Guard. Network protection is a feature of Microsoft Defender Exploit Guard that protects employees using any app from accessing phishing scams, exploit-hosting sites, and malicious content on the Internet. This includes preventing third-party browsers from connecting to dangerous sites. Value type is integer. If you enable this setting, network protection is turned on and employees can't turn it off. Its behavior can be controlled by the following options: Block and Audit. If you enable this policy with the "Block" option, users and apps are blocked from connecting to dangerous domains. You can see this activity in Microsoft Defender Security Center. If you enable this policy with the "Audit" option, users/apps won't be blocked from connecting to dangerous domains. However, you'll still see this activity in Microsoft Defender Security Center. If you disable this policy, users/apps won't be blocked from connecting to dangerous domains. You'll not see any network activity in Microsoft Defender Security Center. If you don't configure this policy, network blocking is disabled by default.
   
   **Default**: Enable
   
@@ -3208,12 +3208,12 @@ For more information, see [Policy CSP - Defender](https://docs.microsoft.com/win
   **Default**: Everyday
   
 - **Cloud-delivered protection**  
-  To best protect your PC, Windows Defender will send information to Microsoft about any problems it finds. Microsoft will analyze that information, learn more about problems affecting you and other customers, and offer improved solutions.
+  To best protect your PC, Microsoft Defender will send information to Microsoft about any problems it finds. Microsoft will analyze that information, learn more about problems affecting you and other customers, and offer improved solutions.
   
   **Default**:  Yes  
 
 - **Defender potentially unwanted app action**  
-  The potentially unwanted application (PUA) protection feature in Windows Defender Antivirus can identify and block PUAs from downloading and installing on endpoints in your network. These applications aren't considered viruses, malware, or other types of threats, but might perform actions on endpoints that adversely affect their performance or use. PUA can also refer to applications that are considered to have a poor reputation. Typical PUA behavior includes: Various types of software bundling Ad injection into web browsers Driver and registry optimizers that detect issues, request payment to fix the errors, but remain on the endpoint and make no changes or optimizations (also known as "rogue antivirus" programs). These applications can increase the risk of your network being infected with malware, cause malware infections to be harder to identify, and can waste IT resources in cleaning up the applications.  
+  The potentially unwanted application (PUA) protection feature in Microsoft Defender Antivirus can identify and block PUAs from downloading and installing on endpoints in your network. These applications aren't considered viruses, malware, or other types of threats, but might perform actions on endpoints that adversely affect their performance or use. PUA can also refer to applications that are considered to have a poor reputation. Typical PUA behavior includes: Various types of software bundling Ad injection into web browsers Driver and registry optimizers that detect issues, request payment to fix the errors, but remain on the endpoint and make no changes or optimizations (also known as "rogue antivirus" programs). These applications can increase the risk of your network being infected with malware, cause malware infections to be harder to identify, and can waste IT resources in cleaning up the applications.  
   
   **Default**: Block  
 
@@ -3223,7 +3223,7 @@ For more information, see [Policy CSP - Defender](https://docs.microsoft.com/win
   **Default**: Block
   
 - **Scan removable drives during a full scan**  
-  Allows Windows Defender to scan for malicious and unwanted software in removable drives (for example, flash drives) during a full scan. Windows Defender Antivirus scans all files on USB devices before execution.
+  Allows Microsoft Defender to scan for malicious and unwanted software in removable drives (for example, flash drives) during a full scan. Microsoft Defender Antivirus scans all files on USB devices before execution.
   
   **Default**: Yes  
   
@@ -3233,7 +3233,7 @@ For more information, see [Policy CSP - Defender](https://docs.microsoft.com/win
   **Default**: Yes
   
 - **Behavior monitoring**  
-  Allows or disallows Windows Defender Behavior Monitoring functionality.Embedded in Windows 10, these sensors collect and process behavioral signals from the operating system and sends this sensor data to your private, isolated, cloud instance of Microsoft Defender ATP.
+  Allows or disallows Microsoft Defender Behavior Monitoring functionality.Embedded in Windows 10, these sensors collect and process behavioral signals from the operating system and sends this sensor data to your private, isolated, cloud instance of Microsoft Defender ATP.
   
   **Default**: Yes
 
