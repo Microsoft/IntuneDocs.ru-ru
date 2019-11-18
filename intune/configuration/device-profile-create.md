@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/04/2019
+ms.date: 11/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 97227d5ca75b3584cb4e603a16601b2a22deb919
-ms.sourcegitcommit: 1a5b185acd27954b10b6d59409d82eb80fd71284
+ms.openlocfilehash: 51ec328a60ef2737c776bf6cf5d4b8dc1b32460c
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72681454"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73755315"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -39,16 +39,16 @@ ms.locfileid: "72681454"
 
 ## <a name="create-the-profile"></a>Создание профиля
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-2. Выберите **Конфигурация устройства**. Можно выбрать один из следующих параметров.
+2. Выберите **Устройства** > **Профили конфигурации**. Можно выбрать один из следующих параметров.
 
     - **Обзор**: состояния профилей и дополнительные сведения о профилях, назначенных для пользователей и устройств
     - **Управление**: создание профилей устройств и отправка пользовательских [сценариев PowerShell](../apps/intune-management-extension.md) для запуска в профиле и добавление планов сотовой связи на устройства с помощью [eSIM](esim-device-configuration.md).
     - **Монитор**: проверка состояния профиля (успех или ошибка) и просмотр журналов для профилей
     - **Настройка**: добавление ЦС (SCEP или PFX) или включение управления [затратами на телекоммуникации](telecom-expenses-monitor.md) для профиля.
 
-3. Выберите **Профили** > **Создать профиль**. Укажите следующие свойства.
+3. Выберите **Создать профиль**. Укажите следующие свойства.
 
    - **Имя**. Введите описательное имя для нового профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль электронной почты WP для компании**.
    - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.

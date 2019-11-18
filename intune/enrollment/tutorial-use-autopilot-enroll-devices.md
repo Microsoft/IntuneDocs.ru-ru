@@ -19,12 +19,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 39ea8b3859d3d2525433c4cafdf566e7a2c8d2ab
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: f8e319c68abd8965b84323bc3b7a5451dee42bc2
+ms.sourcegitcommit: 556b7ea2049014c9027f0e44affd3f301fab55fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509200"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73709206"
 ---
 # <a name="tutorial-use-autopilot-to-enroll-windows-devices-in-intune"></a>Руководство. Использование Autopilot для регистрации устройств Windows в Intune
 
@@ -60,7 +60,7 @@ Windows Autopilot упрощает регистрацию устройств. Б
 
 2. Сохраните CSV-файл.
 
-3. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Устройства** > **Импорт**.
+3. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) щелкните **Регистрация устройства** > **Регистрация Windows** > **Устройства** > **Импорт**.
 
     ![Снимок экрана: устройства Windows Autopilot](./media/tutorial-use-autopilot-enroll-devices/autopilot-import-device.png)
 
@@ -78,7 +78,7 @@ Windows Autopilot упрощает регистрацию устройств. Б
 
 Теперь вы создадите группу устройств и разместите в ней только что загруженные устройства Autopilot.
 
-1. В разделе [Intune на портале Azure](https://aka.ms/intuneportal) выберите **Группы** > **Создать группу**.
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) щелкните **Группы** > **Создать группу**.
 2. В колонке **Группа**
     1. В качестве **Типа группы** выберите **Безопасность**.
     2. В поле **Имя группы** введите *Группа Autopilot*. В поле **Описание группы** введите текст *Тестовая группа для устройств Autopilot*.
@@ -90,7 +90,7 @@ Windows Autopilot упрощает регистрацию устройств. Б
 
 Создав группу устройств, необходимо создать профиль развертывания, который позволяет настроить устройства Autopilot.
 
-1. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Профили развертывания** > **Создать профиль**.
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) щелкните **Регистрация устройства** > **Регистрация Windows** > **Профили развертывания** > **Создать профиль**.
 2. На странице **Основные сведения** введите для параметра **Имя** значение *Профиль Autopilot*. В поле **Описание** введите текст *Тестовый профиль для устройств Autopilot*.
 3. Для параметра **Convert all targeted devices to Autopilot** (Преобразовать все целевые устройства в Autopilot) выберите вариант **Да**. Этот параметр гарантирует, что все устройства из списка будут зарегистрированы в службе развертывания Autopilot. Регистрация завершится в течение 48 часов.
 4. Выберите **Далее**.
@@ -116,7 +116,7 @@ Windows Autopilot упрощает регистрацию устройств. Б
 
 1. Если устройства зарегистрированы в Intune, сначала [удалите их на портале Azure Active Directory](../remote-actions/devices-wipe.md#delete-devices-from-the-azure-active-directory-portal).
 
-2. В [Intune на портале Azure](https://aka.ms/intuneportal) последовательно выберите **Регистрация устройства** > **Регистрация Windows** > **Устройства**.
+2. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) щелкните **Регистрация устройства** > **Регистрация Windows** > **Устройства**.
 
 3. В разделе **Устройства Windows Autopilot** выберите удаляемые устройства и щелкните **Удалить**.
 

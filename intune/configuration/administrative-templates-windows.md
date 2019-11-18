@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/17/2019
+ms.date: 11/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a7f5a85896a2e6e7be845b2314c4f837dcaeb7b0
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 50fc2d274531dce3d2466ba40a4738035b9b6811
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507016"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73756782"
 ---
 # <a name="use-windows-10-templates-to-configure-group-policy-settings-in-microsoft-intune"></a>Использование шаблонов Windows 10 для настройки параметров групповой политики в Microsoft Intune
 
@@ -43,8 +43,8 @@ ms.locfileid: "72507016"
 
 ## <a name="create-a-template"></a>Создание шаблона
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
     - **Имя**. Введите имя для профиля.
@@ -59,7 +59,7 @@ ms.locfileid: "72507016"
     > [!TIP]
     > Параметры Windows в Intune сопоставляются с путем локальной групповой политики, который отображается в редакторе локальных групповых политик (`gpedit`).
 
-5. По умолчанию в раскрывающемся списке отображаются **все продукты**. Параметры в списке можно также отфильтровать так, чтобы отображались только параметры **Windows**, только параметры **Office** или только параметры **Microsoft Edge версии 77 и последующих**.
+5. В раскрывающемся списке выберите **Все продукты**. Параметры в списке можно также отфильтровать так, чтобы отображались только параметры **Windows**, только параметры **Office** или только параметры **Microsoft Edge версии 77 и последующих**.
 
     ![Фильтрация списка для отображения всех параметров Windows или Office в административных шаблонах в Intune](./media/administrative-templates-windows/administrative-templates-choose-windows-office-all-products.png)
 

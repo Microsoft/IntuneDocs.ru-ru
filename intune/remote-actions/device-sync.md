@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 86dc2e26e3c4091785cb6462a84e75b770634881
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 1001a7a3fde9c203fdad3d146ace57736ae7128d
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508555"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713452"
 ---
 # <a name="sync-devices-to-get-the-latest-policies-and-actions-with-intune"></a>Синхронизация устройств с Intune для получения последних политик и действий
 
@@ -38,8 +38,8 @@ ms.locfileid: "72508555"
 
 ## <a name="sync-a-device"></a>Синхронизация устройства
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973). 
-3. В **Intune** выберите **Устройства** > **Все устройства**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431). 
+3. Выберите **Устройства** > **Все устройства**.
 4. Выберите нужное устройство в списке управляемых устройств, чтобы открыть панель *общих сведений*, и выберите **Синхронизировать**.
 5. Нажмите кнопку **Да** для подтверждения.
 

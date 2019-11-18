@@ -5,22 +5,23 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/04/2019
+ms.date: 11/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
+ms.reviewer: tycast
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a794d724fe162ad7d464760661fecb45bd874431
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 589fc32db22de02f70ba78f79ebb413a31e92f1d
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72506451"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73754859"
 ---
 # <a name="add-and-use-wi-fi-settings-on-your-devices-in-microsoft-intune"></a>Добавление и использование параметров Wi-Fi для устройств в Microsoft Intune
 
@@ -49,8 +50,9 @@ Wi-Fi — это технология беспроводной связи, ко
 
 ## <a name="create-a-device-profile"></a>Создание профиля устройства
 
-1. В [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) последовательно выберите **Конфигурация устройств** > **Профили** > **Создать профиль**.
-2. Укажите следующие свойства.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
+3. Укажите следующие свойства.
 
     - **Имя**. Введите описательное имя для нового профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль Wi-Fi для всей компании**.
     - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
@@ -70,7 +72,7 @@ Wi-Fi — это технология беспроводной связи, ко
       > - Для устройств **Android для бизнеса**, работающих в качестве выделенного устройства (киоск), выберите **Только владелец устройства** > **Wi-Fi**.
       > - Для **Windows 8.1 и более поздних версий** можно выбрать действие **Импорт Wi-Fi**. Этот вариант позволяет импортировать параметры Wi-Fi из XML-файла, который ранее был экспортирован с другого устройства.
 
-3. Некоторые параметры Wi-Fi будут разными для разных платформ. Чтобы просмотреть параметры для конкретной платформы, выберите свою платформу:
+4. Некоторые параметры Wi-Fi будут разными для разных платформ. Чтобы просмотреть параметры для конкретной платформы, выберите свою платформу:
 
     - [Android](wi-fi-settings-android.md)
     - [Android для бизнеса](wi-fi-settings-android-enterprise.md), включая выделенные устройства;
@@ -79,7 +81,7 @@ Wi-Fi — это технология беспроводной связи, ко
     - [Windows 10 и более поздних версий](wi-fi-settings-windows.md).
     - [Параметры Windows 8.1 и более поздних версий](wi-fi-settings-import-windows-8-1.md) (включая Windows Holographic for Business)
 
-4. Когда все будет готово, выберите **Создать профиль** > **Создать**.
+5. Когда все будет готово, выберите **Создать профиль** > **Создать**.
 
 Созданный профиль отобразится в списке профилей (**Конфигурация устройства** > **Профили**).
 

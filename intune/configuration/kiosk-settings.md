@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/22/2019
+ms.date: 11/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 271b49a4c927bccb5cd967ea99b0d7bd5c2bd515
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: b7d09700847eae6a43111b0a4e865522f01862b9
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72492358"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73755162"
 ---
 # <a name="windows-10-and-windows-holographic-for-business-device-settings-to-run-as-a-dedicated-kiosk-using-intune"></a>Настройка параметров устройств Windows 10 и Windows Holographic for Business для запуска в качестве выделенного киоска с помощью Intune
 
@@ -39,8 +39,8 @@ Intune использует "профили конфигурации" для с�
 
 ## <a name="create-the-profile"></a>Создание профиля
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
    - **Имя**. Введите описательное имя для нового профиля.
@@ -60,7 +60,7 @@ Intune использует "профили конфигурации" для с�
       - [Параметры киоска Windows 10](kiosk-settings-windows.md)
       - [Параметры киоска Windows Holographic for Business](kiosk-settings-holographic.md)
 
-5. По завершении нажмите **ОК** > **Создать**, чтобы сохранить изменения. 
+5. По завершении нажмите **ОК** > **Создать**, чтобы сохранить изменения.
 
 Созданный профиль отобразится в списке профилей. Далее вам нужно [назначить профиль](device-profile-assign.md).
 

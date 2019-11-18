@@ -6,28 +6,26 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/11/2019
+ms.date: 11/06/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: b399fba0-5dd4-4777-bc9b-856af038ec41
-ms.reviewer: chrisgre
+ms.reviewer: elocholi
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2d3cae06c3ce763fe8ca94bbed9bf35e8abef52c
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: f0b5e67c433f2d3633219650f48307dccae196e9
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72502600"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713280"
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Условный доступ на основе приложений с помощью Intune
-
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
 
 [Политики защиты приложений Intune](../apps/app-protection-policy.md) помогают защитить данные компании на устройствах, зарегистрированных в Intune. Политики защиты приложений также можно использовать на устройствах, принадлежащих сотрудникам, которые не зарегистрированы для управления в Intune. В этом случае, даже если контроля над устройством нет, все равно необходимо обеспечить защиту данных и ресурсов компании.
 
@@ -39,6 +37,7 @@ ms.locfileid: "72502600"
 Вы можете заблокировать встроенные приложения электронной почты iOS и Android и разрешить доступ к Exchange Online только для приложения Microsoft Outlook. Кроме того, вы можете заблокировать доступ к SharePoint Online для приложений, к которым не применяются политики защиты приложений Intune.
 
 ## <a name="prerequisites"></a>Предварительные условия
+
 Требования для создания политики условного доступа на основе приложений:
 
 - **Enterprise Mobility + Security (EMS)** или **Azure Active Directory (AD) Premium**.
@@ -57,7 +56,7 @@ ms.locfileid: "72502600"
 В этом примере администратор применил к приложению Outlook политики защиты приложений, а также правило условного доступа, по которому приложение Outlook добавляется в список утвержденных приложений, которые можно использовать для доступа к корпоративной электронной почте.
 
 > [!NOTE]
-> Приведенная ниже блок-схема может использоваться для других управляемых приложений.
+> Для других управляемых приложений можно использовать приведенную ниже блок-схему.
 
 ![Процесс условного доступа на основе приложений проиллюстрирован на схеме](./media/app-based-conditional-access-intune/ca-intune-common-ways-3.png)
 

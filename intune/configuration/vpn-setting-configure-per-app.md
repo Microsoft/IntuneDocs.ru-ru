@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/04/2019
+ms.date: 11/07/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7e3c9e3bbdc65ae3f97e4be871cfaf638f1bafcd
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: ee924a8c32c3c0591f968db0655044500c8c759d
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72506596"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73754974"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-for-ios-devices-in-intune"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -66,11 +66,11 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 
 Импортируйте корневой сертификат VPN-сервера, выданный центром сертификации, в созданный в Intune профиль. Профиль доверенного сертификата указывает устройству iOS автоматически доверять центру сертификации, который представляет VPN-сервер.
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Конфигурация устройства** > **Профили** > **Создать профиль**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
-    - **Имя**
-    - **Описание**
+    - **Имя**. Введите описательное имя для нового профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль VPN для доверенного сертификата iOS компании**.
+    - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
     - **Платформа**. Выберите **iOS**.
     - **Тип профиля**. Выберите **Доверенный сертификат**.
 4. Щелкните значок с изображением папки и перейдите к сертификату VPN (CER-файлу), экспортированному из консоли администрирования VPN. 
@@ -95,15 +95,15 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 
 Профиль VPN содержит сертификат SCEP или PKCS с учетными данными клиента, сведения о подключении к VPN и флаг VPN на уровне приложения для активации соответствующей функции в приложении iOS.
 
-1. В **Intune** последовательно выберите **Конфигурация устройств** > **Профили** > **Создать профиль**. 
-2. Укажите следующие свойства. 
-    - **Имя**
-    - **Описание**
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
+2. Укажите следующие свойства.
+    - **Имя**. Введите описательное имя для настраиваемого профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль VPN для каждого приложения iOS в компании**.
+    - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
     - **Платформа**. Выберите **iOS**.
     - **Тип профиля**. Выберите **VPN**.
 3. В списке **Тип подключения** выберите клиентское приложение VPN.
-4. Выберите **Базовая VPN**. Список параметров VPN для iOS и их описание см. [здесь](vpn-settings-ios.md). При использовании VPN на уровне приложений необходимо задать указанные ниже свойства. 
-    
+4. Выберите **Базовая VPN**. Список параметров VPN для iOS и их описание см. [здесь](vpn-settings-ios.md). При использовании VPN на уровне приложений необходимо задать указанные ниже свойства.
+
     - **Метод проверки подлинности.** Выберите **Сертификаты**. 
     - **Сертификат проверки подлинности**. Выберите существующий сертификат SCEP или PKCS и нажмите кнопку **ОК**.      
     - **Раздельное туннелирование**. Выберите пункт **Отключить**, чтобы весь трафик шел только через туннель VPN, когда подключение VPN активно. 
@@ -122,7 +122,7 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 
 После добавления профиля VPN свяжите с ним приложение и группы Azure AD.
 
-1. В **Intune** выберите **Клиентские приложения** > **Приложения**.
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Все приложения**.
 2. Выберите приложение в списке и нажмите **Назначения** > **Добавить группу**.
 3. В списке **Тип назначения** выберите **Требуется** или **Доступно для зарегистрированных устройств**.
 4. Выберите **Включенные группы** > **Выбрать группы для включения**, выберите группу, [созданную](#create-a-group-for-your-vpn-users) в этой статье, и нажмите кнопку **Выбрать**.
@@ -161,18 +161,6 @@ Zscaler Private Access (ZPA) интегрируется с Azure Active Director
 - устройство не требует доверия к VPN-серверу; то есть пользователь не видит диалоговое окно **Динамическое доверие**;
 - вводить учетные данные пользователю не нужно;
 - устройство пользователя подключается к VPN, когда пользователь открывает одно из связанных приложений.
-
-<!-- ## Troubleshooting the per-app VPN
-
-The user experiences the feature by silently connecting to the VPN. This experience, however, can provide little information for troubleshooting. You can review the event logs crated by the iOS device.
-
-`Note -- use the Apple Configurator as the supported tool. Only runs on a mac.'
-
-To review event logs:
-
-1. Connect your iOS device to a PC
-2. Open the **iPhone Configuration Utility** (IPCU). If you do not have a copy, you can install it from [CompatCenter](http://www.microsoft.com/en-us/windows/compatibility/CompatCenter/ProductDetailsViewer?Name=iPhone%20Configuration%20Utility&vendor=Apple&Locale=1033%2C2057%2C3081%2C4105%2C16393&ModelOrVersion=3&BreadCrumbPath=iphone%20configuration%20utility&LastSearchTerm=iphone%2Bconfiguration%2Butility&Type=Software&tempOsid=Windows%208.1)
-3. Review the logs. -->
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

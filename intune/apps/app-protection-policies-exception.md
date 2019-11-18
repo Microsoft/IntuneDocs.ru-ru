@@ -1,7 +1,7 @@
 ---
 title: Исключения политики передачи данных для приложения
 titleSuffix: Microsoft Intune
-description: Создание исключений для политики управления мобильными приложениями (MAM) в Intune.
+description: Сведения о создании исключений для политики передачи данных решения "Защита приложений Intune" (APP).
 keywords: ''
 author: Erikre
 ms.author: erikre
@@ -18,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6453f5b5886c5691383bc81fb76598146e884e0e
-ms.sourcegitcommit: 25acfc88b366d2da71c37d354a0238e4f1168325
+ms.openlocfilehash: 18b1b8feda00f5c669b39bc365c637dcd3968078
+ms.sourcegitcommit: a7c35efb31c4efd816bd4aba29240013965aee92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "72813354"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "73984069"
 ---
-# <a name="how-to-create-exceptions-to-the-intune-mobile-application-management-mam-data-transfer-policy"></a>Как создать исключения для политики управления мобильными приложениями (MAM) в Intune
+# <a name="how-to-create-exceptions-to-the-intune-app-protection-policy-app-data-transfer-policy"></a>Как создать исключения для политики передачи данных решения "Защита приложений Intune" (APP)
 
-Как администратор вы можете создавать исключения для политики управления мобильными приложениями (MAM) в Intune. С помощью исключений можно выбрать, какие неуправляемые приложения могут обмениваться данными с управляемыми приложениями. Отдел ИТ должен доверять неуправляемым приложениям, которые включены в список исключений. 
+Администраторы могут создавать исключения для политики передачи данных решения "Защита приложений Intune" (APP). С помощью исключений можно выбрать, какие неуправляемые приложения могут обмениваться данными с управляемыми приложениями. Отдел ИТ должен доверять неуправляемым приложениям, которые включены в список исключений. 
 
 >[!WARNING] 
 > Вы несете ответственность за изменения исключений в политике передачи данных. Дополнения к этой политике позволяют неуправляемым приложениям (приложениям, которые не управляются Intune) получать доступ к данным, защищенным управляемыми приложениями. Доступ к защищенным данным может повлиять на безопасность данных. Добавляйте в исключения только те приложения, не поддерживаемые политикой защиты приложений Intune, без которых ваша организация не может обойтись. Кроме того, добавляйте приложения только в том случае, если вы уверены, что они не представляют рисков утечки данных.
@@ -65,6 +65,8 @@ ms.locfileid: "72813354"
     <code>com.android.mms</code>
     
     <code>com.samsung.android.messaging</code>
+
+- Пример **установщика сертификатов** Android. Чтобы собственный **установщик сертификатов** стал исключением и приложение Outlook для Android могло установить сертификат S/MIME (доставленный как вложение в сообщении электронной почты), добавьте исключения для передачи данных в следующую строку: <code>com.android.certinstaller</code>. Дополнительные сведения см. в статье [Sensitivity labeling and protection in Outlook for iOS and Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/sensitive-labeling-and-protection-outlook-for-ios-android) (Метки конфиденциальности и защита в Outlook для iOS и Android).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

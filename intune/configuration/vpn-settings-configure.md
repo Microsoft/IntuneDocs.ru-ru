@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/04/2019
+ms.date: 11/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5628ba39cafe38cc66827d69584d009c15326bd4
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 59a1b5679b81a8de90e39d6ec13bbe87dac90947
+ms.sourcegitcommit: a7c35efb31c4efd816bd4aba29240013965aee92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72491764"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "73984167"
 ---
 # <a name="create-vpn-profiles-to-connect-to-vpn-servers-in-intune"></a>Создание профилей VPN для подключения к VPN-серверам в Intune
 
@@ -50,7 +50,7 @@ ms.locfileid: "72491764"
 |Check Point Capsule VPN|– Android<br/>– Рабочие профили Android для бизнеса<br/>– iOS<br/>– macOS<br/>– Windows 10<br/>– Windows 8.1<br/>– Windows Phone 8.1|
 |Cisco AnyConnect|– Android<br/>– Рабочие профили Android для бизнеса<br/>– владельцы устройств Android для бизнеса (полностью управляемых)<br/>– iOS<br/>– macOS|
 |Cisco (IPSec)|iOS|
-|Citrix SSO|– Android<br/>– Рабочие профили Android для бизнеса: Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)<br/>– iOS<br/>– Windows 10|
+|Citrix SSO|– Android<br/>– Рабочие профили Android для бизнеса: Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)<br/>– Владельцы устройств Android для бизнеса (полностью управляемых) Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)<br/>– iOS<br/>– Windows 10|
 |Пользовательская сеть VPN|– iOS<br/>– macOS|
 |F5 Access|– Android<br/>– Рабочие профили Android для бизнеса<br/>– владельцы устройств Android для бизнеса (полностью управляемых)<br/>– iOS<br/>– macOS<br/>– Windows 10<br/>– Windows 8.1<br/>– Windows Phone 8.1|
 |IKEv2| – iOS<br/>– Windows 10|
@@ -68,8 +68,9 @@ ms.locfileid: "72491764"
 
 ## <a name="create-a-device-profile"></a>Создание профиля устройства
 
-1. В [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) последовательно выберите **Конфигурация устройств** > **Профили** > **Создать профиль**.
-2. Укажите следующие свойства.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
+3. Укажите следующие свойства.
 
     - **Имя**. Введите описательное имя для нового профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль VPN для всей компании**.
     - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
@@ -86,7 +87,7 @@ ms.locfileid: "72491764"
 
     - **Тип профиля**. Выберите **VPN**.
 
-3. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
+4. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
 
     - [Параметры Android](vpn-settings-android.md)
     - [Параметры Android Enterprise](vpn-settings-android-enterprise.md)
@@ -96,7 +97,7 @@ ms.locfileid: "72491764"
     - [Параметры Windows 8.1](vpn-settings-windows-8-1.md)
     - [Параметры Windows 10](vpn-settings-windows-10.md) (включая Windows Holographic for Business)
 
-4. Закончив, нажмите кнопку **Создать**, чтобы создать профиль.
+5. По завершении нажмите **ОК** > **Создать**, чтобы сохранить изменения.
 
 Созданный профиль отобразится в списке профилей. Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройств](device-profile-assign.md).
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7a813d3bb574ae940b0003ac451b6e76638a0dd0
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 02d0fb91df07d8bba233a6f814ffcf36d408e95d
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508664"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73712369"
 ---
 # <a name="bypass-activation-lock-on-supervised-ios-devices-with-intune"></a>Обход блокировки активации на защищенных устройствах iOS с помощью Intune
 
@@ -74,7 +74,7 @@ Intune может запрашивать состояние блокировки
 
 Действие удаленного устройства **Обход блокировки активации** в Intune позволяет снять блокировку активации с устройства iOS без идентификатора Apple ID и пароля. После обхода блокировки активации на устройстве будет повторно включена блокировка активации при запуске приложения Find My iPhone. Используйте обход блокировки активации, только когда у вас есть физический доступ к устройству.
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. В колонке **Intune** выберите пункт **Устройства**.
 4. В колонке **Устройства** выберите пункт **Все устройства**.
 5. В списке устройств, которыми вы управляете, выберите удаленное действие **Обход блокировки активации**.

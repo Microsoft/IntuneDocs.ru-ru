@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d7ca53786d372f53d63388fef1179ca271fdb9d9
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: be6a254360d8e8e9ef1396515d261b6ff9077b87
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508588"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713117"
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Сброс или удаление секретного кода устройства с помощью Intune
 
@@ -57,10 +57,9 @@ ms.locfileid: "72508588"
 ## <a name="reset-a-passcode"></a>Сброс секретного кода
 
 
-1. Войдите на [портал Azure](https://portal.azure.com) с любой из следующих ролей: глобальный администратор Azure Active Directory, администратор службы Intune в Azure Active Directory, оператор справочной службы или администратор ролей.
-2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
-3. Выберите **Устройства**, а затем — **Все устройства**.
-4. Выберите нужное устройство в списке управляемых устройств и щелкните **Дополнительно**. Затем выберите удаленное действие **Удалить секретный код**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) с любой из следующих ролей: глобальный администратор Azure Active Directory, администратор службы Intune в Azure Active Directory, оператор справочной службы или администратор ролей.
+2. Выберите **Устройства**, а затем — **Все устройства**.
+3. Выберите нужное устройство в списке управляемых устройств и щелкните **Дополнительно**. Затем выберите удаленное действие **Удалить секретный код**.
 
 ## <a name="reset-android-work-profile-passcodes"></a>Сброс секретных кодов рабочих профилей Android
 

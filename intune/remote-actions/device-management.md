@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a3ee6240d9efb0d09c41a6a9b1260cd4189927a8
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 8c31bbd8eb9efb2b748163223ce1b8fa555f0dc6
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509416"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713533"
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Что такое управление устройствами с помощью Microsoft Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "72509416"
 
 ## <a name="get-to-your-devices"></a>Доступ к устройствам
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Устройства**. В этом представлении отображаются подробные сведения об отдельных устройствах, а также выполняемые на них действия.
 
    - В разделе **Общие сведения** отображается снимок зарегистрированных устройств, а также показано количество устройств, использующих различные платформ, включая Android, iOS и т. д.

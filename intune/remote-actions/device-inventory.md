@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a72477351425e9230200995658cc6f73a8565fb7
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 918468bf8948ce54082f3fccc0325db07e116966
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509489"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713202"
 ---
 # <a name="see-device-details-in-intune"></a>Просмотр сведений об устройствах в Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "72509489"
 
 ## <a name="view-the-device-details"></a>Просмотр сведений об устройстве
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Устройства** > **Все устройства**, а затем одно из перечисленных устройств, чтобы открыть сведения о нем.
 
    - В разделе **Обзор** отображается имя устройства и содержатся некоторые основные свойства, например зарегистрировано ли устройство в программе "Принеси свое устройство" (BYOD), когда именно оно зарегистрировано, а также многое другое. На устройстве можно выполнять следующие действия.

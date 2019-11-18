@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a1c68421bf7c5dea0d93d45e0cbb748204d0f66b
-ms.sourcegitcommit: c2e62f1ebdf75599c8e544287123c602f0f15f2b
+ms.openlocfilehash: 4dc349ef7af2683b4dafeaa1cc09f5b7a727e843
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72749398"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73755302"
 ---
 # <a name="monitor-device-profiles-in-microsoft-intune"></a>Мониторинг профилей устройств в Microsoft Intune
 
@@ -32,8 +32,8 @@ Intune предоставляет ряд функций для монитори�
 
 ## <a name="view-existing-profiles"></a>Просмотр существующих профилей
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Конфигурация устройства** > **Профили**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Профили конфигурации**.
 
 Вы увидите полный список существующих профилей с такими сведениями, как платформы, а также список устройств, которым назначен профиль.
 

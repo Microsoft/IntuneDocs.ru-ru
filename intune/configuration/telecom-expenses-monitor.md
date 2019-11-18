@@ -6,24 +6,24 @@ keywords: Saaswedo
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/09/2019
+ms.date: 11/05/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: b7bf5802-4b65-4aeb-ac99-8e639dd89c2a
-ms.reviewer: sumitp
+ms.reviewer: davidra
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ce9a6916cc77714a87aeac33555c0be1e59463f5
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 20743d19ba101a9c400cb9f72dca59223254e6de
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72506627"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73755058"
 ---
 # <a name="set-up-a-telecom-expense-management-service-in-intune"></a>Настройка службы управления затратами на телекоммуникации в Intune
 
@@ -54,7 +54,7 @@ ms.locfileid: "72506627"
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-- Подписка на Microsoft Intune и доступ к [порталу Azure](https://portal.azure.com).
+- Подписка на Microsoft Intune и доступ к [центру администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 - Подписка на [Datalert](http://www.datalert.biz/) (открывается веб-сайт Datalert).
 
 ## <a name="telecom-expense-management-providers"></a>Поставщики решений для управления затратами на телекоммуникации
@@ -109,9 +109,9 @@ Intune интегрируется со следующими поставщика
 
 После завершения шага 1 подключение будет установлено автоматически. В Intune будет отображаться состояние подключения **Активно**. Чтобы проверить, что отображается состояние "Активно", выполните следующие действия:
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-2. Выберите **Конфигурация устройства** > **Управление затратами на телекоммуникации**. Найдите состояние подключения **Активно**:
+2. Выберите **Администрирование клиента** > **Соединители и токены** > **Управление затратами на телекоммуникации**. Найдите состояние подключения **Активно**:
 
    ![Портал Intune с состоянием подключения к Datalert "Активно"](./media/telecom-expenses-monitor/tem-azure-portal-enable-service.png)
 
@@ -138,7 +138,7 @@ Intune интегрируется со следующими поставщика
 
 Следующие шаги позволяют добавить приложение Datalert. В качестве примера используется iOS. В статьях [Добавление приложений в Microsoft Intune](../apps/apps-add.md) и [Использование управления доступом на основе ролей (RBAC) и тегов области для распределенных ИТ](../fundamentals/scope-tags.md) более подробно описаны эти шаги.
 
-1. В **[Intune](https://go.microsoft.com/fwlink/?linkid=2090973)** выберите **Клиентские приложения** > **Приложения** > **Добавить**.
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Все приложения** > **Добавить**.
 
 2. Выберите нужный **тип приложения**. Например, для iOS выберите **Приложение магазина — iOS**.
 
@@ -156,7 +156,7 @@ Intune интегрируется со следующими поставщика
 
 #### <a name="assign-the-datalert-app-to-the-corporate-device-group"></a>Назначение приложения Datalert группе корпоративных устройств
 
-1. В разделе **Клиентские приложения > Приложения** выберите приложение Datalert, которое вы добавили на предыдущем шаге.
+1. В разделе **Приложения** > **Все приложения** выберите приложение Datalert, которое вы добавили на предыдущем шаге.
 
 2. Щелкните **Назначения** > **Добавить группу**. Выберите, как будет назначено приложение. В статье [Назначение приложений группам с помощью Microsoft Intune](../apps/apps-deploy.md) содержатся дополнительные сведения об этих параметрах.
 
@@ -183,7 +183,7 @@ Intune интегрируется со следующими поставщика
 
 ## <a name="turn-off-the-datalert-service"></a>Отключение службы Datalert
 
-1. В **[Intune](https://go.microsoft.com/fwlink/?linkid=2090973)** выберите **Конфигурация устройства** > **Управление затратами на телекоммуникации**.
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Администрирование клиента** > **Соединители и токены** > **Управление затратами на телекоммуникации**.
 2. Задайте для параметра **Вы можете включить управление затратами на телекоммуникации и блокировать передачу данных по сотовой сети или в роуминге на устройствах, превысивших настроенные квоты использования** значение **Отключить**.
 3. **Сохраните** внесенные изменения.
 

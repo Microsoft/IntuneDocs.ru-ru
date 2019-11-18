@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3ee68392feaa59ef5207edce75250e539407273b
-ms.sourcegitcommit: 8c25aeefb7cbc6444a8596af22fccd1c5426877a
+ms.openlocfilehash: 890709ccf176f2b0cc6c4a3af986d1bce642572d
+ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72593695"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73754407"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -106,7 +106,7 @@ ms.locfileid: "72593695"
 7. Выберите **Параметры конфигурации**. В колонке **Конфигурация** можно определить пары ключей и значений, которые будут задавать конфигурацию Microsoft Edge. Сведения о доступных парах ключей и значений см. далее в разделах этой статьи.
 
     > [!NOTE]
-    > Microsoft Edge использует те же пары ключей и значений, что и Managed Browser. 
+    > Microsoft Edge использует те же пары ключей и значений, что и Managed Browser. На устройстве Android к Microsoft Edge необходимо применить политики защиты приложений, чтобы политики конфигурации приложений вступили в силу.
 
 8. Когда все будет готово, щелкните **ОК**.
 9. В колонке **Добавить политику конфигурации** выберите **Добавить**.<br>

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8336f5b29cd21bb6875285177071542080eb95f3
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: fdb23916319b06fb4d85b913209d1ac9e007d551
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509460"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713182"
 ---
 # <a name="logout-the-current-user-on-intune-managed-ios-devices"></a>Выход из системы для текущего пользователя на устройствах iOS, управляемых в Intune
 
@@ -41,9 +41,7 @@ ms.locfileid: "72509460"
 
 ## <a name="how-to-log-out-the-current-user"></a>Выход текущего пользователя из системы
 
-1. Зарегистрируйтесь на портале Azure.
-2. Выберите **Больше служб** > **Мониторинг и управление** > **Intune**.
-3. В колонке **Intune** выберите **Устройства**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) и выберите **Устройства**.
 4. В колонке **Устройства и группы** выберите **Все устройства**.
 5. Выберите нужное устройство iOS в списке управляемых устройств, а затем удаленное действие **Выход из системы для текущего пользователя**.
 

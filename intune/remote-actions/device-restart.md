@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 42908f09dd47a22f1c545b60a97ca5e6b7fa068f
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 18cf8e3aec0c7ed7d8869c0f5b13b6e39df23d77
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508639"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713422"
 ---
 # <a name="remotely-restart-devices-with-intune"></a>Удаленный перезапуск устройств с помощью Intune
 
@@ -44,7 +44,7 @@ ms.locfileid: "72508639"
 
 ## <a name="restart-a-device"></a>Перезапуск устройства
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Устройства** > **Все устройства**.
 4. Выберите нужное устройство в списке управляемых устройств, а затем нажмите **...Еще** и выберите удаленное действие **Перезапуск**.
 

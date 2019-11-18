@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c438ebeaae8a7259efb74089f51a6ca92003cfea
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 817f46558932c074abc37b45d2885496419a0db0
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509479"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73712421"
 ---
 # <a name="locate-lost-or-stolen-ios-devices-with-intune"></a>Поиск потерянных или украденных устройств iOS с помощью Intune
 
@@ -41,7 +41,7 @@ ms.locfileid: "72509479"
 
 ## <a name="locate-a-lost-or-stolen-device"></a>Поиск потерянного или украденного устройства
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Устройства**, а затем — **Все устройства**.
 4. Выберите нужное устройство iOS в списке управляемых устройств и щелкните **Дополнительно**. Затем выберите удаленное действие **Найти устройство**.
 5. Когда устройство будет найдено, сведения о его расположении отобразятся на странице **поиска устройства**.

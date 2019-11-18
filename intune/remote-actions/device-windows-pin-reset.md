@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 445737a1b0a72e380844af6225cdb735cd3ec02c
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 1b2390462376c88129435de30eb98020563f3878
+ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509348"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73713093"
 ---
 # <a name="reset-the-passcode-on-windows-devices-using-intune"></a>Сброс секретного кода на устройствах Windows с помощью Intune
 
@@ -64,11 +64,10 @@ ms.locfileid: "72509348"
 
 ## <a name="reset-the-passcode"></a>Сброс секретного кода
 
-1. Войдите на [портал Azure](https://portal.azure.com). 
-2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
-3. Нажмите **Устройства** и выберите **Все устройства**.
-4. Выберите устройство, для которого необходимо сбросить секретный код. В свойствах устройства выберите **Новый секретный код**.
-5. Нажмите кнопку **Да** для подтверждения. Формируется секретный код, который отображается на портале в течение следующих семи дней.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431). 
+2. Выберите **Устройства**, а затем — **Все устройства**.
+3. Выберите устройство, для которого необходимо сбросить секретный код. В свойствах устройства выберите **Новый секретный код**.
+4. Нажмите кнопку **Да** для подтверждения. Формируется секретный код, который отображается на портале в течение следующих семи дней.
 
 ## <a name="next-step"></a>Дальнейшие действия
 
