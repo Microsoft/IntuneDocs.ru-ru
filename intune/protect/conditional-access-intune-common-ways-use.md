@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 00743e020fc9d42970dca5efa130908a53c6c5bf
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: b9795ca8a585fd926cc269d493760b37aa7666eb
+ms.sourcegitcommit: f46df983b66845bea24a90aaa2ac6cace16b9b0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72504592"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74051958"
 ---
 # <a name="what-are-common-ways-to-use-conditional-access-with-intune"></a>Каковы стандартные способы использования условного доступа с помощью Intune?
 

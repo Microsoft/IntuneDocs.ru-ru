@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b7d09700847eae6a43111b0a4e865522f01862b9
-ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
+ms.openlocfilehash: b2dede228aadac2981c38d2842f5da1369933f86
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73755162"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059875"
 ---
 # <a name="windows-10-and-windows-holographic-for-business-device-settings-to-run-as-a-dedicated-kiosk-using-intune"></a>Настройка параметров устройств Windows 10 и Windows Holographic for Business для запуска в качестве выделенного киоска с помощью Intune
 
