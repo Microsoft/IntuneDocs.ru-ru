@@ -1,11 +1,11 @@
 ---
 title: Параметры устройства Windows Holographic for Business в Microsoft Intune в Azure | Документация Майкрософт
-description: Сведения о настройке параметров ограничения для устройств с Windows Holographic for Business в Microsoft Intune, включая параметры для геолокации, паролей, установки приложений из Магазина приложений, файлов cookie и всплывающих окон в Microsoft Edge, Защитника Windows, системы поиска, облака и хранилища, подключения по Bluetooth, системного времени, данных об использовании и отмены регистрации в Azure.
+description: Сведения о настройке параметров ограничения для устройств с Windows Holographic for Business в Microsoft Intune, включая параметры для геолокации, паролей, установки приложений из Магазина приложений, файлов cookie и всплывающих окон в Microsoft Edge, Microsoft Defender, системы поиска, облака и хранилища, подключения по Bluetooth, системного времени, данных об использовании и отмены регистрации в Azure.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/22/2019
+ms.date: 11/13/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e28a697b841d8b264a19d97059d272b7119bc7f4
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 1f90a5a13859ff19765e22444a84b9c11405af73
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72493920"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059504"
 ---
 # <a name="windows-holographic-for-business-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Windows Holographic for Business, разрешающие или ограничивающие функции с помощью Intune
 
@@ -57,7 +57,7 @@ ms.locfileid: "72493920"
 - **Диспетчер паролей**. Включает или отключает функцию диспетчера паролей Microsoft Edge.
 - **Отправить заголовки do-not-track**. Настраивает в браузере Microsoft Edge отправку заголовков do-not-track на посещаемые веб-сайты.
 
-## <a name="windows-defender-smart-screen"></a>SmartScreen Защитника Windows
+## <a name="microsoft-defender-smart-screen"></a>Интеллектуальный экран защитника Майкрософт
 
 - **SmartScreen для Microsoft Edge**. Включите Microsoft Edge SmartScreen для доступа к сайту и скачиванию файлов.
 

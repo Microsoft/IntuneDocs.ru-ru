@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e8747f3dfa9169a4f1f2de9dcf45db0f5cccadd1
-ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
+ms.openlocfilehash: bacb7e26df8a5b0d6c7500b24a5e749a85ca62f2
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73756761"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059628"
 ---
 # <a name="use-and-manage-android-enterprise-devices-with-oemconfig-in-microsoft-intune"></a>Использование устройств Android Enterprise и управление ими с помощью Оемконфиг в Microsoft Intune
 
@@ -80,8 +80,8 @@ ms.locfileid: "73756761"
 
 ## <a name="create-an-oemconfig-profile"></a>Создание профиля Оемконфиг
 
-1. Войдите в [центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Выберите **устройства** > **профили конфигурации** > **создать профиль**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
     - **Имя.** Введите описательное имя для нового профиля.
@@ -141,7 +141,7 @@ ms.locfileid: "73756761"
 
 | ПВТ | Идентификатор пакета | Документация изготовителя оборудования (если она доступна) |
 | --- | --- | ---|
-| Samsung | com. Samsung. Android. Knox. КПУ | [Администрирование подключаемого модуля службы Knox](https://docs.samsungknox.com/knox-service-plugin/admin-guide/welcome.htm) |
+| Samsung | com. Samsung. Android. Knox. КПУ | [Администрирование подключаемого модуля службы Knox](https://docs.samsungknox.com/knox-service-plugin/admin-guide/index.htm) |
 | Технологии черно | com. черно. оемконфиг. Common | [Обзор черно Оемконфиг](http://techdocs.zebra.com/oemconfig ) |
 | Логика обработки | com. оемконфиг. | [Документация пользователя для Оемконфиг Logic](https://datalogic.github.io/oemconfig/) |
 | Honeywell | com. Honeywell. оемконфиг |  |

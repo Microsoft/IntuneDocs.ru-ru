@@ -4,7 +4,7 @@ description: В состав Microsoft 365 корпоративный входи
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/14/2019
+ms.date: 11/13/2019
 ms.topic: conceptual
 audience: ITPro
 ms.service: microsoft-intune
@@ -16,12 +16,12 @@ ms.reviewer: dougeby
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cfa7e34d19465eb43b5eb9cd68b7513545938fa8
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 7ab41026cd9b2ceeaaa478fc27c984d0d89db4c5
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72504777"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74058524"
 ---
 # <a name="device-management-overview"></a>Общие сведения об управлении устройствами
 
@@ -84,7 +84,7 @@ Intune позволяет управлять несколькими устрой
 
 ## <a name="simplify-it-tasks-using-the-device-management-admin-center"></a>Упрощение ИТ-задач с помощью центра администрирования "Управление устройствами"
 
-[Центр администрирования "Управление устройствами"](https://devicemanagement.microsoft.com/) — это централизованное средство для выполнения и администрирования задач для мобильных устройств. В этой рабочей области находятся службы, используемые для управления устройствами, включая Intune и Azure Active Directory, а также для управления клиентскими приложениями.
+[Центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) — это централизованное средство для выполнения и администрирования задач для мобильных устройств. В этой рабочей области находятся службы, используемые для управления устройствами, включая Intune и Azure Active Directory, а также для управления клиентскими приложениями.
 
 В центре администрирования управления устройствами можно:
 
