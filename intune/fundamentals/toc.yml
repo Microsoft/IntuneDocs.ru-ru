@@ -145,6 +145,8 @@
           items:
             - name: Сетевая конфигурация
               href: network-bandwidth-use.md
+            - name: "Использование виртуальных машин Windows\_10 с Intune"
+              href: windows-10-virtual-machines.md
             - name: Конечные точки в Intune
               href: intune-endpoints.md
             - name: "Конечные точки US\_Government в\_Intune"
