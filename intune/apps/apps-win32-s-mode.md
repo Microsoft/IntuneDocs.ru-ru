@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a3a9eb45898102e9d5fcde88f69026467255c513
-ms.sourcegitcommit: d2d18eef64bcf16eec1a48fcb67f1362537c0245
+ms.openlocfilehash: d2ab21321b171c8fe8f5f9dab3032507c0e740cf
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73445278"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059755"
 ---
 # <a name="enable-win32-apps-on-s-mode-devices"></a>Включение приложений Win32 на устройствах в режиме S
 
-[Windows 10 в режиме S](https://docs.microsoft.com/windows/deployment/s-mode) — это заблокированная операционная система, которая запускает только приложения, установленные из Microsoft Store. По умолчанию устройства в режиме S не поддерживают установку и выполнение приложений Win32. Эти устройства реализуют единую *базовую политику Win 10S*, которая блокирует выполнение приложений Win32 на устройстве в режиме S. Но вы можете создать и применить **дополнительную политику режима S** в Intune, чтобы устанавливать и запускать приложения Win32 на управляемых устройствах в режиме S. [Управление приложениями в Защитнике Windows (WDAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) предоставляет средства PowerShell, с которыми вы можете создать одну или несколько дополнительных политик режима S. Дополнительные политики необходимо подписать с помощью службы [Device Guard Signing Service (DGSS)](https://go.microsoft.com/fwlink/?linkid=2095629) или средства [SignTool.exe](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/signing-policies-with-signtool), а затем передать и распространить политики через Intune. Вместо этого можно подписать дополнительные политики с помощью сертификата соразработки вашей организации, но предпочтительней использовать вариант с DGSS. Если вы решите применить сертификат соразработки вашей организации, на устройстве должен присутствовать корневой сертификат, от которого наследуется сертификат соразработки.
+[Windows 10 в режиме S](https://docs.microsoft.com/windows/deployment/s-mode) — это заблокированная операционная система, которая запускает только приложения, установленные из Microsoft Store. По умолчанию устройства в режиме S не поддерживают установку и выполнение приложений Win32. Эти устройства реализуют единую *базовую политику Win 10S*, которая блокирует выполнение приложений Win32 на устройстве в режиме S. Но вы можете создать и применить **дополнительную политику режима S** в Intune, чтобы устанавливать и запускать приложения Win32 на управляемых устройствах в режиме S. [Управление приложениями в Защитнике Майкрософт (WDAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) предоставляет средства PowerShell, с помощью которых вы можете создать одну или несколько дополнительных политик режима S. Дополнительные политики необходимо подписать с помощью службы [Device Guard Signing Service (DGSS)](https://go.microsoft.com/fwlink/?linkid=2095629) или средства [SignTool.exe](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/signing-policies-with-signtool), а затем передать и распространить политики через Intune. Вместо этого можно подписать дополнительные политики с помощью сертификата соразработки вашей организации, но предпочтительней использовать вариант с DGSS. Если вы решите применить сертификат соразработки вашей организации, на устройстве должен присутствовать корневой сертификат, от которого наследуется сертификат соразработки.
 
 Назначая дополнительную политику режима S в Intune, вы разрешаете исключения из существующей политики режима S для этого устройства, что позволит отправить на него соответствующий подписанный каталог приложений. Эта политика задает список разрешенных приложений (каталог приложений), которые могут использоваться на устройстве, работающем в режиме S.
 
@@ -40,7 +40,7 @@ ms.locfileid: "73445278"
 
 1. Включите устройство в режиме S с помощью Intune при регистрации.
 2. Создайте дополнительную политику, которая разрешает приложения Win32.
-   - Чтобы создать дополнительную политику, можно использовать функцию [Управление приложениями в Защитнике Windows (WDAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control). Идентификатор базовой политики, указанный в политике, должен совпадать с идентификатором базовой политики режима S (который жестко запрограммирован в клиенте). Также убедитесь, что политике задан соответствующий порядковый номер версии, следующий за номером предыдущей версии.
+   - Чтобы создать дополнительную политику, можно использовать функцию [Управление приложениями в Защитнике Майкрософт (WDAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control). Идентификатор базовой политики, указанный в политике, должен совпадать с идентификатором базовой политики режима S (который жестко запрограммирован в клиенте). Также убедитесь, что политике задан соответствующий порядковый номер версии, следующий за номером предыдущей версии.
    - Для подписывания дополнительной политики используется DGSS. Дополнительные сведения см. в [этой статье](https://docs.microsoft.com/microsoft-store/sign-code-integrity-policy-with-device-guard-signing).
    - Чтобы отправить подписанную дополнительную политику в Intune, создайте дополнительную политику режима S, как описано ниже.
 3. Чтобы разрешить использовать каталоги приложений Win32 через Intune, выполните следующее:

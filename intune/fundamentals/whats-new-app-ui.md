@@ -6,7 +6,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/07/2019
+ms.date: 11/14/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d75e75dbce2563aaf31edede8eeab7249aad8e19
-ms.sourcegitcommit: b5e719fb507b1bc4774674e76c856c435e69f68c
+ms.openlocfilehash: a3b391bb4ab064c080083e2c31dc28483f6d419a
+ms.sourcegitcommit: 76ae5aea5deee7a590e24c3b2bb52f88125943e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "73801778"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74098224"
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для пользовательских приложений Intune
 
@@ -36,6 +36,20 @@ ms.locfileid: "73801778"
 
 <!---End-user messaging for accounts 1573558, 1712; changes to be made for other platforms for 1801 Users of the Company Portal website, will be blocked from taking actions that require write access to your tenant. They will see appropriate error messaging explaining that their account is under maintenance. Similar changes are coming to the Company Portal apps for Android, iOS, macOS, and Windows soon. ![Error message that occurs during account move](./media/whats-new-app-ui/account-move-rom-iwp-user-1712.png)--->
 
+## <a name="week-of-november-11-2019"></a>Неделя с 11 ноября 2019 г.  
+
+#### <a name="web-apps-launched-from-the-windows-company-portal-app---5030972---"></a>Веб-приложения, запускаемые из приложения корпоративного портала Windows<!-- 5030972 -->
+Пользователи теперь могут запускать веб-приложения непосредственно из приложения корпоративного портала Windows. Пользователи могут выбрать веб-приложение, а затем параметр **Открыть в браузере**. Опубликованный URL-адрес открывается непосредственно в веб-браузере. Эта функция будет перенесена на следующую неделю. Дополнительные сведения о веб-приложениях в Intune см. в [этой статье](~/apps/web-app.md).
+
+![Пример изображения веб-приложения, запускаемого из приложения корпоративного портала Windows](./media/whats-new-app-ui/webapp-open-in-browser.png)  
+
+### <a name="improved-macos-enrollment-experience-in-company-portal----5074349-wnready---"></a>Улучшенный интерфейс регистрации macOS в Корпоративном портале <!-- 5074349 WNready -->  
+Корпоративный портал для процесса регистрации macOS имеет более простой процесс регистрации, который более тесно соответствует корпоративному порталу для регистрации устройств iOS. Пользователи устройства теперь видят:  
+
+* Более изящный пользовательский интерфейс.  
+* Улучшенный контрольный список регистрации.  
+* Более четкие инструкции по регистрации устройств.  
+* Улучшенные способы устранения неполадок.  
 
 ## <a name="week-of-october-28-2019"></a>Неделя с 28 октября 2019 г.  
 

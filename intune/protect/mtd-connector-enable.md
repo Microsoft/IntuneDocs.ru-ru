@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/17/2019
+ms.date: 11/19/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fae163cbcd97feb4f333d8ddfd44f2202dd343d6
-ms.sourcegitcommit: a4c7339ec9ff5b1b846cb3cca887cf91b5cd4baa
+ms.openlocfilehash: 38ddec9d76a51ca0afe7561c3616e3a97050ba02
+ms.sourcegitcommit: 01fb3d844958a0e66c7b87623160982868e675b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "73627683"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199226"
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune"></a>Включение соединителя Mobile Threat Defense в Intune
 
@@ -33,6 +33,8 @@ ms.locfileid: "73627683"
 Во время установки Mobile Threat Defense (MTD) вы настроили политику классификации угроз на консоли партнера по MTD и создали политику соответствия устройств требованиям в Intune. Если вы уже настроили соединитель Intune на консоли партнера по MTD, можете включить соединение с MTD для партнерских приложений MTD.
 
 При интеграции нового приложения с Intune Mobile Threat Defense и активации подключения к Intune служба Intune создает классическую политику условного доступа в Azure Active Directory. Каждое интегрируемое приложение MTD, включая [Защитник ATP](advanced-threat-protection.md) или любое из наших дополнительных [партнерских приложений MTD](mobile-threat-defense.md#mobile-threat-defense-partners), создает новую классическую политику условного доступа. Эти политики можно игнорировать, но нельзя изменять, удалять или отключать.
+
+Если классическая политика удалена, необходимо будет удалить подключение к Intune, которое было ответственным за ее создание, а затем снова настроить его. Этот процесс повторно создает классическую политику. Он не поддерживается для переноса классических политик для приложений MTD в новый тип политики для условного доступа.
 
 Классические политики условного доступа для приложений MTD: 
 

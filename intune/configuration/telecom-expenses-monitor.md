@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 20743d19ba101a9c400cb9f72dca59223254e6de
-ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
+ms.openlocfilehash: 340659adfa3bbd40f98ccec9d8d44e952f7ec9b9
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73755058"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059940"
 ---
 # <a name="set-up-a-telecom-expense-management-service-in-intune"></a>Настройка службы управления затратами на телекоммуникации в Intune
 

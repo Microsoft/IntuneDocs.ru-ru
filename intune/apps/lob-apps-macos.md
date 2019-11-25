@@ -18,18 +18,21 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b9802b85a9674535cea62ae28f135153352ef76c
-ms.sourcegitcommit: 25acfc88b366d2da71c37d354a0238e4f1168325
+ms.openlocfilehash: aeae231e07ceeee6a54f8f60ec5d53cc96d55be0
+ms.sourcegitcommit: 737ad6c675deedfc6009f792023ff95981b06582
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "72813265"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74117880"
 ---
 # <a name="how-to-add-macos-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять бизнес-приложения macOS в Microsoft Intune
 
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
 
 В этой статье рассказывается, как добавлять в Microsoft Intune бизнес-приложения macOS. Чтобы получить возможность отправлять файлы бизнес-приложения в Microsoft Intune, необходимо скачать дополнительный внешний инструмент для предварительной обработки файлов *.pkg*. Предварительная обработка файлов *.pkg* выполняется на устройстве под управлением macOS.
+
+> [!NOTE]
+> Начиная с выпуска macOS Catalina 10.15, перед добавлением приложений в Intune проверьте, заверены ли ваши бизнес-приложения macOS. Если разработчики ваших бизнес-приложений не заверяют свои приложения, они не будут работать на устройствах ваших пользователей с macOS. Дополнительные сведения о том, как проверить, является ли приложение заверенным, см. [Notarize your macOS apps to prepare for macOS Catalina](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Notarizing-your-macOS-apps-to-prepare-for-macOS/ba-p/808579) (Нотариальное заверение приложений macOS для подготовки к работе с macOS Catalina).
 
 > [!NOTE]
 > Пользователи устройств macOS могут удалять некоторые встроенные приложения macOS, такие как Акции или Карты, которые вы не сможете восстановить с помощью Intune. Чтобы восстановить эти приложения на устройстве, конечный пользователь должен зайти в App Store и установить их вручную.

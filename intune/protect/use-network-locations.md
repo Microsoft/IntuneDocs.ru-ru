@@ -2,10 +2,10 @@
 title: Привязка устройств Android к сетевому расположению в Microsoft Intune — Azure | Документы Майкрософт
 description: Создайте или настройте сетевые расположения для устройств Android в Microsoft Intune. Устройства можно помечать как не соответствующие требованиям в соответствии с их сетевым расположением. Когда устройство покидает сеть, доступ к ресурсам организации может блокироваться.
 keywords: ''
-author: MandiOhlinger
-ms.author: mandia
+author: Brenduns
+ms.author: brenduns
 manager: dougeby
-ms.date: 05/21/2018
+ms.date: 11/13/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 648ccd889714c2ee4f7ee1fa04301490ad9fd001
-ms.sourcegitcommit: c2e62f1ebdf75599c8e544287123c602f0f15f2b
+ms.openlocfilehash: 847ab759b697d402acb07d9c8d83d3a3ef9aaef2
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72749448"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74058152"
 ---
 # <a name="use-locations-network-fence-in-intune"></a>Использование расположений (границы сети) в Intune
 
@@ -50,7 +50,7 @@ ms.locfileid: "72749448"
 
 ## <a name="create-a-location"></a>Создание расположения
 
-1. В Intune выберите **Соответствие устройства политике** > **Расположения** > **Создать**.
+1. В [Центре администрирования диспетчера конечных точек](https://go.microsoft.com/fwlink/?linkid=2109431), выберите **Устройства** > **Политики соответствия** > **Расположения** > **Создать**.
 
 2. Укажите следующие свойства.  
 
@@ -69,8 +69,7 @@ ms.locfileid: "72749448"
 
 ## <a name="create-the-location-compliance-policy"></a>Создание политики соответствия требованиям на основе расположений
 
-При создании [политики соответствия требованиям](create-compliance-policy.md) в списке **Платформа** выберите **Android**. В списке **Расположения** можно выбрать одно или несколько из добавленных расположений. Эти расположения будут частью границы сети, создаваемой для устройств. 
-
+При создании [политики соответствия требованиям](create-compliance-policy.md) в списке **Платформа** выберите **Android**. В списке **Расположения** можно выбрать одно или несколько из добавленных расположений. Эти расположения будут частью границы сети, создаваемой для устройств.
 
 ## <a name="configure-the-actions-for-noncompliance"></a>Настройка действий в случае несоответствия
 
@@ -83,5 +82,6 @@ ms.locfileid: "72749448"
 Когда устройство подключено к настроенным расположениям, оно отображается в приложении "Корпоративный портал" как соответствующее требованиям. Когда устройство не подключено к настроенным расположениям, оно отображается как не соответствующее требованиям.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
+
 [Мониторинг политик соответствия устройств](compliance-policy-monitor.md)  
 [Начало работы с политиками соответствия устройств](device-compliance-get-started.md)

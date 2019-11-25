@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/23/2019
+ms.date: 11/18/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c8e61be086323a16a6220573874ed80ce4e9bd32
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: ecde59d81ebeba7de64f2693eecb576faac6e722
+ms.sourcegitcommit: 15e099a9a1e18296580bb345610aee7cc4acd126
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72498988"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164714"
 ---
 # <a name="add-apps-to-microsoft-intune"></a>Добавление приложений в Microsoft Intune 
 
@@ -151,7 +151,7 @@ Intune позволяет изменять функциональные возм
 - Максимальный размер передаваемого файла — 8 ГБ.
 
   > [!NOTE]
-  > Бизнес-приложения Windows имеют ограничение максимального размера 8 ГБ для каждого приложения. Бизнес-приложения iOS имеют ограничение максимального размера 4 ГБ для каждого приложения.
+  > Для бизнес-приложений Windows, в том числе Win32, универсального приложения Windows AppX, универсального пакета AppX Windows, универсального приложения Windows MSI X и универсального пакета Windows Universal MSI X, максимальный размер составляет 8 ГБ на приложение. Все другие бизнес-приложения, включая бизнес-приложения на iOS, имеют ограничение максимального размера 2 ГБ для каждого приложения.
 
 ## <a name="create-and-edit-categories-for-apps"></a>Создание и изменение категорий для приложений
 

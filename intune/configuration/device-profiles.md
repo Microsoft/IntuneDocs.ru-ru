@@ -1,11 +1,11 @@
 ---
 title: Функции и параметры устройств в Microsoft Intune — Azure | Документация Майкрософт
-description: Общие сведения о различных профилях устройств Microsoft Intune. Узнайте о функциях, ограничениях, электронной почте, Wi-Fi, VPN, образовании, сертификатах, обновлении Windows 10, BitLocker и Защитнике Windows, Windows Information Protection, административных шаблонах и пользовательских параметрах устройства на портале Azure. Используйте эти профили для управления и защиты данных и устройств в вашей компании.
+description: Общие сведения о различных профилях устройств Microsoft Intune. Узнайте о функциях, ограничениях, электронной почте, Wi-Fi, VPN, образовании, сертификатах, обновлении Windows 10, BitLocker и Защитнике Майкрософт, Windows Information Protection, административных шаблонах и пользовательских параметрах устройства на портале Azure. Используйте эти профили для управления и защиты данных и устройств в вашей компании.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/21/2019
+ms.date: 11/13/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7c49445800f5d34fbb6ce0a845d4f29c3e587483
-ms.sourcegitcommit: c2e62f1ebdf75599c8e544287123c602f0f15f2b
+ms.openlocfilehash: f0dd9eddd986e6717e6bf706b02a7b06f712a032
+ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72749349"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74059898"
 ---
 # <a name="apply-features-and-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune
 
@@ -145,7 +145,7 @@ Microsoft Intune включает параметры и функции, кото
 
 ## <a name="endpoint-protection"></a>Защита конечных точек
 
-[Параметры Endpoint Protection для Windows 10](../protect/endpoint-protection-windows-10.md) — настройка параметров BitLocker и защитника Windows для устройств Windows 10.
+[Параметры защиты конечных точек для Windows 10](../protect/endpoint-protection-windows-10.md) — настройка параметров BitLocker и защитника Майкрософт для устройств Windows 10.
 
 Сведения о внедрении Advanced Threat Protection в Microsoft Defender (WDATP) с помощью Microsoft Intune см. в статье [Настройка конечных точек с помощью средств управления мобильными устройствами (MDM)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-mdm).
 
