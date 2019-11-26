@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 07/01/2019
+ms.date: 11/21/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d85793dcf0ee6fa0186147606c9fd695a268e529
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: bd2ab7ad8eb155719695bede1f539d5c264d455b
+ms.sourcegitcommit: eb2e420b304c7da9d3be5ef49a676cba66766d2b
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72506977"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74319832"
 ---
 # <a name="use-custom-settings-for-android-enterprise-devices-in-microsoft-intune"></a>Использование настраиваемых параметров для устройств Android Enterprise в Microsoft Intune
 
@@ -30,11 +30,11 @@ Microsoft Intune позволяет добавлять или создавать
 
 В настраиваемых профилях Android Enterprise используются параметры OMA-URI для управления различными функциями на устройствах Android Enterprise. Эти параметры обычно используются производителями мобильных устройств для управления такими функциями.
 
-Intune поддерживает ограниченное число настраиваемых профилей Android Enterprise, в том числе:
+Intune поддерживает следующее ограниченное количество настраиваемых профилей Android Enterprise:
 
 - ./Вендор/мсфт/ВИФИ/профиле/ссид/Сеттингс. [Создание профиля Wi-Fi с общим ключом](wi-fi-profile-shared-key.md) имеет несколько примеров.
 - ./Вендор/мсфт/ВПН/профиле/наме/паккажелист. [Создание профиля VPN для каждого приложения](android-pulse-secure-per-app-vpn.md) имеет несколько примеров.
-- ./Вендор/мсфт/воркпрофиле/дисалловкросспрофилекопипасте. см. [Пример](#example) (в этой статье).
+- ./Вендор/мсфт/воркпрофиле/дисалловкросспрофилекопипасте. см. [Пример](#example) в этой статье. Этот параметр также доступен в пользовательском интерфейсе. См. сведения о [параметрах устройства Android для бизнеса, которые включают и отключают некоторые функции](device-restrictions-android-for-work.md).
 
 Дополнительные параметры см. в разделе [оемконфиг для Android Enterprise](android-oem-configuration-overview.md).
 

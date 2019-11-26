@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/13/2019
+ms.date: 11/19/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f0cf7d6f18b0d345a8c491984987b9ffa234d66e
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
-ms.translationtype: HT
+ms.openlocfilehash: e5e1e1de0c8ec80a390f76f5e8de3965d4f800a9
+ms.sourcegitcommit: 13fa1a4a478cb0e03c7f751958bc17d9dc70010d
+ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74059481"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74188154"
 ---
 # <a name="windows-10-and-newer-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с Windows 10 (и более новых версий), которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -213,9 +213,11 @@ ms.locfileid: "74059481"
 
   Параметр вступает в силу при очередной очистке или сбросе устройства. Как и в любой другой конфигурации Intune, устройство должно быть зарегистрировано и управляться с помощью Intune, чтобы получать параметры конфигурации. После его регистрации и получения политики сброс устройства применяет параметр во время очередной установки Windows.
 
+  [CSP Тенантлоккдовн](https://docs.microsoft.com/windows/client-management/mdm/tenantlockdown-csp)
+
 - **Прямой доступ к памяти**. Если выбрать **Заблокировать**, прямой доступ к памяти (DMA) для всех нижестоящих портов PCI с горячим подключением будет заблокирован до входа пользователя в Windows. Если выбрать **Включено** (значение по умолчанию), доступ DMA будет разрешен, даже если пользователь не вошел в систему.
 
-  CSP: [DataProtection/AllowDirectMemoryAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
+  [DataProtection/AllowDirectMemoryAccess CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
 
 - **Завершать процессы из диспетчера задач**: этот параметр определяет, можно ли пользователям без прав администратора использовать диспетчер задач, чтобы завершать задачи. **Блокировка** запрещает обычным пользователям (пользователям без прав администратора) использовать диспетчер задач для завершения процессов или задач на устройстве. Значение **Не настроено** (по умолчанию) позволяет обычным пользователям завершать процессы и задачи с помощью диспетчера задач.
 
