@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a72d3a16c5180b51fcc019d726a498e0d15ad1d3
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 08193aa329a1bee4e66638de5c0d7518d15db2a4
+ms.sourcegitcommit: 23e9c48348a6eba494d072a2665b7481e5b5c84e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72503406"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74547915"
 ---
 # <a name="android-device-administrator-enrollment"></a>Регистрация с использованием функции администратора устройства Android
 
@@ -47,8 +47,6 @@ ms.locfileid: "72503406"
 
 
 ## <a name="set-up-device-administrator-enrollment"></a>Настройка регистрации с использованием функции администратора устройства
-
-Intune по умолчанию разрешает регистрацию устройств Android с использованием функции администратора устройства.
 
 1. Чтобы подготовиться к управлению мобильными устройствами, нужно установить **Microsoft Intune** в качестве службы управления мобильными устройствами (MDM). Инструкции см. в статье [Установка центра управления мобильными устройствами](../fundamentals/mdm-authority-set.md). Этот параметр указывается только один раз при первой настройке Intune для управления мобильными устройствами.
 2. Перейдите в раздел **Intune** > **Регистрация устройств** > **Регистрация устройств Android** > **Personal and corporate-owned devices with device administration privileges** (Личные и корпоративные устройства с правами администратора устройства) > **Использовать администратор устройств для управления устройствами**.

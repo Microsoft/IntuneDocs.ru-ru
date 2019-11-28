@@ -3,8 +3,8 @@ title: Настройка параметров прокси-сервера дл�
 description: В этой статье описывается настройка соединителя Intune для Active Directory для работы с имеющимися локальными прокси-серверами.
 keywords: ''
 author: master11218
-ms.author: tanvira
-manager: smantri
+ms.author: erikje
+manager: dougeby
 ms.date: 4/16/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 11537902e8306d753d6c3e144e0ac15f90ab3b51
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 3a1af2e7c8aff281e04e92344b3e2c762bb23e0a
+ms.sourcegitcommit: ce518a5dfe62c546a77f32ef372f36efbaad473f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72503287"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74465762"
 ---
 # <a name="work-with-existing-on-premises-proxy-servers"></a>Работа с имеющимися локальными прокси-серверами
 
