@@ -14,7 +14,11 @@
     - name: Создание профиля
       href: device-profile-create.md
     - name: Административные шаблоны в Windows
-      href: administrative-templates-windows.md
+      items:
+        - name: Административные шаблоны в Windows
+          href: administrative-templates-windows.md
+        - name: Обновление Office с помощью административных шаблонов
+          href: administrative-templates-update-office.md
     - name: Возможности устройств в iOS и macOS
       href: device-features-configure.md
     - name: Ограничение параметров и возможностей устройств
@@ -47,6 +51,8 @@
       items:
         - name: Wi-Fi с общим ключом
           href: wi-fi-profile-shared-key.md
+        - name: Устранение неполадок с подключением к сети Wi-Fi
+          href: troubleshoot-wi-fi-profiles.md
     - name: Расширения в macOS
       href: kernel-extensions-overview-macos.md
     - name: Приложение "Тестирование" для образования

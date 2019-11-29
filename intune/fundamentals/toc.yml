@@ -16,6 +16,8 @@
           href: whats-new-app-ui.md
         - name: 'Возможности, находящиеся в разработке'
           href: in-development.md
+        - name: Важные уведомления
+          href: 'whats-new.md#notices'
 - name: Краткие руководства
   items:
     - name: Бесплатная пробная версия Intune

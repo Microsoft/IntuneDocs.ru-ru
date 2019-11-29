@@ -220,7 +220,7 @@ ms.locfileid: "72889540"
 
 ## <a name="microsoft-defender-atp"></a>ATP в Microsoft Defender
 
-### <a name="microsoft-defender-advanced-threat-protection-rules"></a>Правила расширенной защиты от угроз в Microsoft Defender
+### <a name="microsoft-defender-advanced-threat-protection-rules"></a>Правила Расширенной защиты от угроз в Microsoft Defender
 
 - **Require the device to be at or under the machine risk score** (Требовать тот же или более низкий уровень риска устройства).  
   Этот параметр позволяет использовать оценку рисков в службах защиты от угроз как условие для проверки соответствия требованиям. Выберите максимально допустимый уровень угроз:
