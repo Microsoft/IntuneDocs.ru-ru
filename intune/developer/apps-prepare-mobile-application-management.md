@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dbddb0fcecfd5a0b021346a3a20b3c7e4f696a49
-ms.sourcegitcommit: 2c8a41ee95a3fde150667a377770e51b621ead65
+ms.openlocfilehash: 901eaafb24cda185540ffc4b1a56484042af74c1
+ms.sourcegitcommit: 23e9c48348a6eba494d072a2665b7481e5b5c84e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73635334"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74547686"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -83,9 +83,6 @@ ms.locfileid: "73635334"
 ## <a name="feature-comparison"></a>Сравнение функций
 
 В этой таблице перечислены параметры, которые можно использовать для пакета SDK приложений и инструмента упаковки приложений.
-
-> [!NOTE]
-> Инструмент упаковки приложений можно использовать с автономной службой Intune или службой Intune с Configuration Manager.
 
 |Компонент|Пакет SDK для приложений|Инструмент упаковки приложений|
 |-----------|---------------------|-----------|
