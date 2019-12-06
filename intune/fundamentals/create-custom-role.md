@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b60e4d801d09a834e11119260d3054cf43251bbd
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 3ca83287c58f8d2fb7c8eec5f8cc793e2c67b77a
+ms.sourcegitcommit: 2fddb293d37453736ffa54692d03eca642f3ab58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72502954"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74390704"
 ---
 # <a name="create-a-custom-role-in-intune"></a>Создание пользовательской роли в Intune
 
@@ -49,6 +49,21 @@ ms.locfileid: "72502954"
 7. По окончании нажмите кнопку **ОК**.
 
 8. В колонке **Добавить пользовательскую роль** щелкните **Создать**. Новая роль будет отображаться в списке в колонке **"Все роли" в разделе ролей Intune**.
+
+
+## <a name="copy-a-role"></a>Копирование роли
+
+Вы также можете скопировать существующую роль.
+
+1. Войдите на [портал Azure](https://portal.azure.com), используя свои учетные данные Intune, и выберите **Intune**.
+
+2. Щелкните **Роли** > **Все роли** > выберите роль в списке > **Дублировать**.
+
+3. В области **Повторяющаяся роль** введите имя. Обязательно используйте уникальное имя.
+
+4. Все разрешения и теги области из исходной роли будут выбраны автоматически. Позже вы сможете изменить **имя**, **описание**, **разрешения** и **теги области** дублированной роли.
+
+5. Выберите **Создать**. 
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 - [Назначение роли пользователю](assign-role.md)

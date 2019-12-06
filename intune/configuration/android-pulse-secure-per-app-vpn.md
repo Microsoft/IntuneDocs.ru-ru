@@ -6,30 +6,31 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/04/2019
+ms.date: 11/21/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: d035ebf5-85f4-4001-a249-75d24325061a
-ms.reviewer: chrisbal
+ms.reviewer: tycast
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3683d2aeada791c6ec827e915e02365a336e6045
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.openlocfilehash: 62f418e396c5030a47ea0bcb31914cd4e1069c40
+ms.sourcegitcommit: eb2e420b304c7da9d3be5ef49a676cba66766d2b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74059677"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74319841"
 ---
 # <a name="use-a-microsoft-intune-custom-profile-to-create-a-per-app-vpn-profile-for-android-devices"></a>Использование пользовательского профиля Microsoft Intune с целью создания профиля VPN для каждого приложения на устройствах Android
 
-[!INCLUDE[azure_portal](../includes/azure_portal.md)]
-
 Для устройств Android 5.0 и более поздней версии, находящихся под управлением Intune, можно создать профиль VPN на уровне приложения. Сначала создайте профиль VPN, который использует тип подключения Pulse Secure или Citrix. Затем создайте настраиваемую политику конфигурации, которая связывает профиль VPN с конкретным приложением.
+
+> [!NOTE]
+> Чтобы использовать VPN на уровне приложения на устройствах Android Enterprise, можете также выполнить приведенные ниже действия. Но рекомендуется использовать [политику конфигурации приложения](../apps/app-configuration-policies-use-android.md) для клиентского приложения VPN.
 
 После назначения политики группам пользователей или устройств Android пользователям следует запустить клиент VPN Pulse Secure или Citrix. Затем клиент VPN позволит использовать открытое VPN-подключение только для трафика из указанных приложений.
 
@@ -48,7 +49,7 @@ ms.locfileid: "74059677"
     - **Платформа**. Выберите **Android**.
     - **Тип профиля**. Выберите **VPN**.
 
-4. Выберите **Параметры** > **Настройка**. Затем настройте профиль VPN, следуя инструкциям в статьях о [настройке параметров VPN](vpn-settings-configure.md) и [параметрах Intune VPN для устройств Android](vpn-settings-android.md).
+4. Выберите **Параметры** > **Настроить**. Затем настройте профиль VPN. Дополнительные сведения см. в статьях [Как настроить параметры VPN](vpn-settings-configure.md) и [Параметры VPN Intune для устройств Android](vpn-settings-android.md).
 
 Запишите значение параметра **Имя подключения**, которое было указано при создании профиля VPN. Оно потребуется на следующем шаге. Например, **MyAppVpnProfile**.
 
@@ -75,7 +76,7 @@ ms.locfileid: "74059677"
 
 ### <a name="set-your-app-list-to-blacklist-or-whitelist-optional"></a>Отметьте список приложений как список разрешенных или запрещенных (необязательно)
 
-Приложениям в списке можно *запретить* использование VPN-подключения. Для этого введите значение **BLACKLIST**. Все остальные приложения будут подключаться через VPN. Кроме того, можно ввести значение **WHITELIST**, чтобы указать список приложений, которым *разрешено* использовать VPN-подключение. Приложения, которые не входят в список, не подключаются через VPN.
+Введите значение **BLACKLIST**, чтобы указать список приложений, которым *запрещено* использовать VPN-подключение. Все остальные приложения будут подключаться через VPN. Либо введите значение **WHITELIST**, чтобы указать список приложений, которым *разрешено* использовать VPN-подключение. Приложения, которые не входят в список, не подключаются через VPN.
 
 1. На панели **Настраиваемые параметры OMA-URI** выберите **Добавить**.
 2. Введите имя параметра.

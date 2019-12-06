@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c06fe931bf17b812def3f22b3d9a5d92d9933e2b
-ms.sourcegitcommit: 556b7ea2049014c9027f0e44affd3f301fab55fc
+ms.openlocfilehash: d4ff9126fec182d1e0d2f3eb75297ede8a632e2e
+ms.sourcegitcommit: 2fddb293d37453736ffa54692d03eca642f3ab58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73709462"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74390719"
 ---
 # <a name="set-up-intune-enrollment-of-android-enterprise-dedicated-devices"></a>Настройка регистрации в Intune выделенных устройств с Android для бизнеса
 
@@ -101,6 +101,9 @@ Intune помогает развертывать приложения и пар�
 ## <a name="enroll-the-dedicated-devices"></a>Регистрация выделенных устройств
 
 Теперь вы можете [зарегистрировать выделенные устройства](android-dedicated-devices-fully-managed-enroll.md).
+
+> [!NOTE]
+> Приложение **Microsoft Intune** автоматически установится во время регистрации выделенного устройства.  Это приложение является обязательным для регистрации. Его нельзя удалить. 
 
 ## <a name="managing-apps-on-android-enterprise-dedicated-devices"></a>Управление приложениями на выделенных устройствах с Android для бизнеса
 

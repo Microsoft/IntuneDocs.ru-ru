@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/04/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 61957140fa8d942be0f3dca2543da2aed6183535
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.openlocfilehash: 7fe0bed94c66a1b82ed26bdbd43f68073223101e
+ms.sourcegitcommit: 16a9109b4028589c17695d41271ca4fee8b1d697
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74059254"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74540684"
 ---
 # <a name="add-and-use-wi-fi-settings-on-your-devices-in-microsoft-intune"></a>Добавление и использование параметров Wi-Fi для устройств в Microsoft Intune
 
@@ -88,3 +88,5 @@ Wi-Fi — это технология беспроводной связи, ко
 ## <a name="next-steps"></a>Дальнейшие шаги
 
 Мы создали профиль, но он пока ничего не делает. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
+
+[Проблемы с профилями Wi-Fi в Intune](troubleshoot-wi-fi-profiles.md)

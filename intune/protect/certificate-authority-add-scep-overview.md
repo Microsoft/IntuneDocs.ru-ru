@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 61771ce2b6179b2e74a4d13f72794ece97907034
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 9454353ec4f8291d4d8c0001cc977838ecec787b
+ms.sourcegitcommit: 16a9109b4028589c17695d41271ca4fee8b1d697
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72502572"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74540801"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
 
@@ -57,7 +57,8 @@ ms.locfileid: "72502572"
 
 На схеме ниже показан подробный поток интеграции сторонних SCEP с Intune:
 
-![Интеграция SCEP стороннего центра сертификации с Microsoft Intune](./media/certificate-authority-add-scep-overview/scep-certificate-vendor-integration.png)
+> [!div class="mx-imgBorder"]
+> ![Интеграция SCEP стороннего центра сертификации с Microsoft Intune](./media/certificate-authority-add-scep-overview/scep-certificate-vendor-integration.png)
 
 ## <a name="set-up-third-party-ca-integration"></a>Настройка интеграции сторонних ЦС
 

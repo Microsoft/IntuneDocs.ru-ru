@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b9f9d6626d26e919efbd3a3d8b5dd735ecb7fb62
-ms.sourcegitcommit: 01fb3d844958a0e66c7b87623160982868e675b0
+ms.openlocfilehash: 321595a2ce8849b3d150b68f9dcc38dfda6ad940
+ms.sourcegitcommit: 2fddb293d37453736ffa54692d03eca642f3ab58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199139"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74390302"
 ---
 # <a name="create-and-assign-scep-certificate-profiles-in-intune"></a>Создание и назначение профилей сертификатов SCEP в Intune
 
@@ -53,6 +53,9 @@ ms.locfileid: "74199139"
 
    2. Вы не можете использовать Intune для отзыва сертификатов, которые были подготовлены профилями сертификатов SCEP для владельцев устройств. Вы можете управлять отзывом с помощью внешнего процесса или непосредственно с помощью центра сертификации. 
 
+   4. На выделенных устройствах Android Enterprise профили сертификатов SCEP поддерживаются только для конфигурации сети Wi-Fi и проверки подлинности.  Эти профили на выделенных устройствах Android Enterprise не поддерживаются для проверки подлинности VPN или приложения.   
+
+   
 7. Выберите **Параметры** и введите следующие значения.
 
    - **Тип сертификата**.

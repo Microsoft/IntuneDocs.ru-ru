@@ -6,63 +6,66 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/12/2019
+ms.date: 11/25/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
-ms.reviewer: aiwang
+ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 55fa1109fde57e3104c8bb15e1f45761d661c735
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 0de98a0820e15a09c2b3724b216359580327259e
+ms.sourcegitcommit: ce518a5dfe62c546a77f32ef372f36efbaad473f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508732"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74465725"
 ---
 # <a name="intune-compliance-reports-for-updates"></a>Отчет о соответствии Intune для обновлений
+
 Когда вы используете Intune для развертывания обновления Windows на устройствах Windows 10, просматривайте сведения о поддержке обновлений с помощью Intune или бесплатного решения *Поддержка обновлений*, которое входит в Microsoft Operations Management Suite (OMS).
 
 ## <a name="use-intune"></a>Использование Intune
-Просмотрите отчет о политиках, чтобы узнать состояние развертывания для настроенных кругов обновления Windows 10: 
-1. Войдите на [портал Azure](https://portal.azure.com/).
-2. Выберите **Все службы**, отфильтруйте список по **Intune** и выберите **Microsoft Intune**.
-3. Выберите **Обновления программного обеспечения** > **Обзор**. Вы можете просмотреть общие сведения о состоянии всех назначенных кругов обновления.
-4. Откройте один из указанных ниже отчетов.  
 
-   **Для всех кругов развертывания**:
-   1. На панели **Обновления программного обеспечения** > **Круги обновлений Windows 10**.
-   2. В разделе **Мониторинг** выберите **По состоянию развертывания кольца обновления**.  
+Просмотрите отчет о политиках, чтобы узнать состояние развертывания для настроенных кругов обновления Windows 10:
 
-   **Для определенных кругов развертывания**:  
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-   1. На панели **Обновления программного обеспечения** > **Круги обновлений Windows 10** выберите круг развертывания для просмотра.  
-   2. В разделе **Мониторинг** выберите один из следующих отчетов, чтобы просмотреть более подробные сведения о кольце обновления:  
-      - **Состояние устройства**  
-      - **Состояние пользователя**  
+2. Выберите **Устройства** > **Обзор** > **Состояние обновления ПО**. Вы можете просмотреть общие сведения о состоянии всех назначенных кругов обновления.
+
+3. Чтобы просмотреть дополнительные сведения, выберите **Монитор**. Затем в разделе **Обновление программного обеспечения** щелкните **По состоянию развертывания кольца обновления** и выберите круг развертывания для просмотра сведений.
+
+   В разделе **Мониторинг** выберите один из следующих отчетов, чтобы просмотреть более подробные сведения о кольце обновления:
+
+   - **Состояние устройства** — отображается состояние конфигурации устройства. Дополнительные сведения см. в статье [Обновление объекта deviceConfigurationDeviceStatus]( https://docs.microsoft.com/graph/api/intune-deviceconfig-deviceconfigurationdevicestatus-update?view=graph-rest-1.0).
+
+   - **Состояние пользователя** — отображаются имя пользователя, состояние и дата последнего отчета. Дополнительные сведения см. в статье о [получении списка объектов deviceConfigurationUserStatus](https://docs.microsoft.com/graph/api/intune-deviceconfig-deviceconfigurationuserstatus-list?view=graph-rest-1.0).
+
+   - **Состояние обновления конечного пользователя** — отображается состояние обновления устройства Windows. Дополнительные сведения см. в статье о [windowsUpdateState](https://docs.microsoft.com/graph/api/resources/intune-shared-windowsupdatestate?view=graph-rest-beta).
 
 ## <a name="use-update-compliance"></a>Использование средства "Поддержка обновлений"
+
 Для отслеживания выпуска обновлений Windows 10 можно использовать решение [Поддержка обновлений](https://technet.microsoft.com/itpro/windows/manage/update-compliance-monitor) в Windows Analytics. Решение "Поддержка обновлений" предоставляется через портал Azure бесплатно для устройств, которые отвечают [предварительным требованиям](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started#update-compliance-prerequisites).  
 
 Благодаря этому решению можно развернуть коммерческий идентификатор на любых управляемых Intune устройствах с Windows 10, для которых требуется получать отчеты о поддержке обновлений.  
 
-В консоли Intune для настройки коммерческого идентификатора можно использовать параметры OMA-URI настраиваемой политики. Дополнительные сведения см. в разделе [Параметры политики Intune для устройств с Windows 10 в Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune).  
+В Intune для настройки коммерческого идентификатора используйте параметры OMA-URI настраиваемой политики. Сведения см. в статье [Использование настраиваемых параметров для устройств Windows 10 в Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune).  
 
 Путь OMA-URI (с учетом регистра) для настройки коммерческого идентификатора выглядит следующим образом: *./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID*  
 
 Например, в разделе **Добавление или изменение настройки OMA-URI** можно использовать следующие значения.
+
 - **Имя параметра**: коммерческий идентификатор Windows Analytics.
 - **Описание параметра**: настройка коммерческого идентификатора для решений Windows Analytics.
 - **OMA-URI** (с учетом регистра): *./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID*
 - **Тип данных**: Строка
 - **Значение**. \<Используйте GUID, показанный на вкладке "Телеметрия Windows" в рабочей области OMS>
- 
-> [!NOTE]  
+
+> [!NOTE]
 > Дополнительные сведения о сервере DM MS см. в статье о [поставщике службы конфигурации DMClient]( https://docs.microsoft.com/windows/client-management/mdm/dmclient-csp).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-[Управление обновлениями программного обеспечения в Intune](windows-update-for-business-configure.md)
 
+[Управление обновлениями программного обеспечения в Intune](windows-update-for-business-configure.md)
