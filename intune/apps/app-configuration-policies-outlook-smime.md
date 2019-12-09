@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1b2f483415d050486ae9979899d9308154a9b131
-ms.sourcegitcommit: a7b479c84b3af5b85528db676594bdb3a1ff6ec6
+ms.openlocfilehash: 348d1fe2fd236a2af11f7e58dc11530a5ce397bc
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74411363"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74564200"
 ---
 # <a name="configure-smime-with-outlook-for-ios"></a>Настройка S/MIME с помощью Outlook для iOS
 
@@ -62,14 +62,14 @@ Outlook для iOS поддерживает два способа доставк
 Чтобы настроить S/MIME Outlook для iOS в диспетчере конечных точек, включая автоматическую доставку сертификатов S/MIME, которые может использовать Outlook для iOS, сделайте следующее.
 
 ### <a name="add-the-microsoft-outlook-app"></a>Добавление приложения Microsoft Outlook
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 2. Добавьте приложение Microsoft Outlook для iOS из магазина приложений в диспетчер конечных точек или синхронизируйте Outlook для iOS из программы Apple Volume Purchase Program. Дополнительные сведения см. в статьях [Добавление в Microsoft Intune приложений из магазина iOS](~/apps/store-apps-ios.md) и [Управление приложениями iOS и macOS, приобретенными по программе Apple Volume Purchase Program, с помощью Microsoft Intune](~/apps/vpp-apps-ios.md).
 
 ### <a name="create-the-outlook-for-ios-smime-configuration-policy"></a>Создание политики конфигурации S/MIME Outlook для iOS
 
 Чтобы создать и настроить политику S/MIME Outlook для iOS в диспетчере конечных точек, следуйте приведенным далее инструкциям. Эти параметры обеспечивают автоматическую доставку сертификатов для подписи и шифрования.
 
-1. В [Центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Apps configuration policies** (Политики конфигурации приложений) > **Добавить**.<br>
+1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) и выберите **Приложения** > **Политики конфигурации приложений** > **Добавить**.<br>
 Откроется область **Добавить политику конфигурации**.
 2. Заполните поля **Имя** и **Описание** политики конфигурации.
 3. Для параметра **Тип регистрации устройств** выберите **Управляемые устройства**.
