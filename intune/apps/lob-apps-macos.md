@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/22/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aeae231e07ceeee6a54f8f60ec5d53cc96d55be0
-ms.sourcegitcommit: 737ad6c675deedfc6009f792023ff95981b06582
+ms.openlocfilehash: 81a084528fdc500bf9b6de0ca5fa847c2e0b3797
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74117880"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563921"
 ---
 # <a name="how-to-add-macos-line-of-business-lob-apps-to-microsoft-intune"></a>Как добавлять бизнес-приложения macOS в Microsoft Intune
 
@@ -71,11 +71,9 @@ ms.locfileid: "74117880"
 
 ## <a name="step-1---specify-the-software-setup-file"></a>Шаг 1. Выбор файла установки программного обеспечения
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-3. На панели **Intune** выберите **Клиентские приложения**.
-4. В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Приложения**.
-5. Щелкните **Добавить** над списком приложений.
-6. На панели **Добавить приложение** выберите **Бизнес-приложение**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Приложения** > **Все приложения** > **Добавить**.
+3. На панели **Добавить приложение** выберите **Бизнес-приложение** в качестве **типа приложения**.
 
 ## <a name="step-2---configure-the-app-package-file"></a>Шаг 2. Настройка файла пакета приложения
 

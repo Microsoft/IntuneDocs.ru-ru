@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f0dd9eddd986e6717e6bf706b02a7b06f712a032
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.openlocfilehash: b74cdf29999bccdefaa94c84673b9ea89c335537
+ms.sourcegitcommit: 7001dc5a9cffeb2e161748f9e6dba126bf1cb06f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74059898"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74694953"
 ---
 # <a name="apply-features-and-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune
 
@@ -49,7 +49,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- Windows 10 1809 и более поздние версии в поддерживаемом встроенном ПО.
+- Windows 10 и более поздней версии
 
 ## <a name="certificates"></a>Сертификаты
 
@@ -102,7 +102,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- Windows 10 и более поздней версии
+- Windows 10 версии 1809 и более поздней в поддерживаемом встроенном ПО
 
 ## <a name="device-restrictions"></a>Ограничения устройств
 

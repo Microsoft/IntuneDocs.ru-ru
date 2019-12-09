@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/13/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d2ab21321b171c8fe8f5f9dab3032507c0e740cf
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.openlocfilehash: 7e17972a3a87bd9c42db54753d4da3bb81703377
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74059755"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563622"
 ---
 # <a name="enable-win32-apps-on-s-mode-devices"></a>Включение приложений Win32 на устройствах в режиме S
 
@@ -58,7 +58,7 @@ ms.locfileid: "74059755"
 Чтобы создать дополнительную политику режима S, выполните следующие шаги:
 
 1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. На панели **Intune** выберите **Клиентские приложения** > **Дополнительные политики режима S** > **Создать политику**.
+2. Выберите **Приложения** > **Дополнительные политики режима S** > **Создать политику**.
 3. Перед добавлением **файла политики** его необходимо создать и подписать. Дополнительные сведения см. на странице
     - [Create a WDAC policy using PowerShell tools and convert it to a binary format](https://go.microsoft.com/fwlink/?linkid=2095387) (Разрешенные бизнес-приложения Win32 на устройствах в режиме S под управлением Intune);
     - [Sign using Device Guard Signing Service](https://go.microsoft.com/fwlink/?linkid=2095629) (Подпись Device Guard) **(рекомендуется)** .

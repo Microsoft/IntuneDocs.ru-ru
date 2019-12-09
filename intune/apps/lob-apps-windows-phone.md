@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/22/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e1540abcc9ff7a5958da55154258e1fc1d9555dd
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: dd8025c18ef10580eb16883727bf08a316989d2e
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507161"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563535"
 ---
 # <a name="add-a-windows-phone-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения Windows Phone в Microsoft Intune
 
@@ -33,11 +33,9 @@ ms.locfileid: "72507161"
 
 ## <a name="step-1-specify-the-software-setup-file"></a>Шаг 1. Выбор файла установки программного обеспечения
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-3. На панели **Intune** выберите **Клиентские приложения**.
-4. В рабочей нагрузке **Клиентские приложения** выберите **Управление** > **Приложения**.
-5. Над списком приложений щелкните **Добавить**.
-6. В области **Добавить приложение** выберите **Бизнес-приложение**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Приложения** > **Все приложения** > **Добавить**.
+3. На панели **Добавить приложение** выберите **Бизнес-приложение** в качестве **типа приложения**.
 
 ## <a name="step-2-configure-the-app-package-file"></a>Шаг 2. Настройка файла пакета приложения
 

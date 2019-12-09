@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/16/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 11618d844fe7c4e190295ad06111ae0944deda95
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: d45455a97f8016527dce49839b5493f16b173d43
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507274"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563661"
 ---
 # <a name="add-android-enterprise-system-apps-to-microsoft-intune"></a>Добавление системных приложений Android для бизнеса в Microsoft Intune
 
@@ -33,8 +33,8 @@ ms.locfileid: "72507274"
 
 Вы можете добавить приложение Android для бизнеса в Intune на портале Azure, сделав следующее:
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. В панели **Intune** выберите **Клиентские приложения** > **Приложения** > **Добавить**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Приложения** > **Все приложения** > **Добавить**.
 3. В области **Добавление приложения** выберите пункт **Системное приложение Android для бизнеса** в списке доступных типов **Другие**.
 4. Чтобы настроить сведения о приложении, выберите **Настройка** и укажите следующие сведения.
     - **Имя приложения**. Введите имя приложения.

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/22/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e0e1ff8fd39d301bd685e9806c319f49e9189d7f
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 41c08d1912bf9c79507c2a6627205979504f340d
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507419"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74564228"
 ---
 # <a name="get-ready-to-configure-app-protection-policies-for-windows-10"></a>Подготовка к настройке политик защиты приложений для Windows 10 
 
@@ -33,13 +33,12 @@ ms.locfileid: "72507419"
 
 ## <a name="to-configure-the-mam-provider"></a>Настройка поставщика MAM
 
-1. Войдите на портал Azure и выберите **Azure Active Directory**.
-
-2. Выберите **Мобильность (MDM и MAM)** в группе **Управление**.
-
-3. Выберите **Microsoft Intune**.
-
-4. Настройте параметры в группе **Восстановить URL-адреса MAM по умолчанию**  в колонке **Настройка**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Все службы**, а затем **M365 Azure Active Directory**, чтобы переключить панели мониторинга.
+3. Выберите **Azure Active Directory**.
+4. Выберите **Мобильность (MDM и MAM)** в группе **Управление**.
+5. Выберите **Microsoft Intune**.
+6. Настройте параметры в группе **Восстановить URL-адреса MAM по умолчанию** на панели **Настройка**.
 
    **Область пользователя MAM**  
    Используйте автоматическую регистрацию MAM для управления корпоративными данными на устройствах Windows сотрудников вашей компании. Автоматическая регистрация MAM будет настроена для сценариев с использованием собственного устройства.<ul><li>**Нет**<br>Укажите, если никто из пользователей не может зарегистрироваться в MAM.</li><li>**Некоторые**<br>Выберите группы Azure AD, которые содержат пользователей для регистрации в MAM.</li><li>**Все**<br>Укажите, могут ли все пользователи зарегистрироваться в MAM.</li></ul>
@@ -53,7 +52,7 @@ ms.locfileid: "72507419"
    **URL-адрес соответствия требованиям MAM**  
    URL-адрес соответствия требованиям MAM не поддерживается в Microsoft Intune. Для применения политик защиты это поле ввода следует оставить пустым. 
 
-5. Нажмите кнопку **Сохранить**.
+7. Нажмите кнопку **Сохранить**.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

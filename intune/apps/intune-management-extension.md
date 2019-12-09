@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/16/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1d73d28f34258bce99199731579969604c0a3d97
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.openlocfilehash: cef30238a4470395ccf58cf4d0619db78dd85b5a
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74059720"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563463"
 ---
 # <a name="use-powershell-scripts-on-windows-10-devices-in-intune"></a>Использование скриптов PowerShell для устройств Windows 10 в Intune
 
@@ -62,7 +62,7 @@ ms.locfileid: "74059720"
     
     - пользователь выполняет вход на устройство с помощью своей учетной записи Azure AD и регистрирует его в Intune;
 
-  - совместно управляемые устройства, использующие Configuration Manager и Intune. Убедитесь, что для рабочей нагрузки **Клиентские приложения** выбрано значение **Pilot Intune** (Пилотная версия Intune) или **Intune**. Дополнительные сведения см. в следующих статьях: 
+  - совместно управляемые устройства, использующие Configuration Manager и Intune. Убедитесь, что для рабочей нагрузки **Приложения** выбрано значение **Pilot Intune** (Пилотная версия Intune) или **Intune**. Дополнительные сведения см. в следующих статьях: 
   
     - [Что такое совместное управление?](https://docs.microsoft.com/sccm/comanage/overview) 
     - [Клиентские приложения](https://docs.microsoft.com/sccm/comanage/workloads#client-apps)
@@ -73,8 +73,8 @@ ms.locfileid: "74059720"
 
 ## <a name="create-a-script-policy-and-assign-it"></a>Создание и назначение политики скрипта
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Конфигурация устройства** > **Скрипты PowerShell** > **Добавить**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Сценарии PowerShell** > **Добавить**.
 
     ![Добавление и использование скрипов PowerShell в Microsoft Intune](./media/intune-management-extension/mgmt-extension-add-script.png)
 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 36039334f7e93b66735e10d0ac2c5d80602e2b83
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.openlocfilehash: f0cd3dd71a5999b69e3f5c34ef4cc73fb3d6a938
+ms.sourcegitcommit: b752acefec077c719e169e665c955adb944e85c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74059855"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74781164"
 ---
 # <a name="set-up-per-app-virtual-private-network-vpn-for-ios-devices-in-intune"></a>Настройка виртуальной частной сети (VPN) на уровне приложений на устройствах iOS в Intune
 
@@ -37,6 +37,9 @@ ms.locfileid: "74059855"
 В этой статье показано, как создать профиль VPN на уровне приложений и назначить его приложениям. С помощью этих инструкций можно обеспечить удобную работу пользователей с VPN на уровне приложений. При использовании большинства сетей VPN, поддерживающих реализацию на уровне приложений, пользователь автоматически подключается к VPN при открытии приложения.
 
 Некоторые сети VPN на уровне приложений позволяют выполнять проверку подлинности пользователей по имени пользователя и паролю. Это означает, что для подключения к VPN пользователю необходимо ввести имя пользователя и пароль.
+
+> [!IMPORTANT]
+> VPN для каждого приложения не поддерживается для профилей VPN IKEv2 для iOS.
 
 ## <a name="per-app-vpn-with-zscaler"></a>VPN на уровне приложений с Zscaler
 

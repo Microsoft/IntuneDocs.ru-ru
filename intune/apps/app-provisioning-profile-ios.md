@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c0b5f087494e8033cb9645d0a08edd4e1c481a2c
-ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
+ms.openlocfilehash: 31bad59c33a34d0b92d93979b20b58f70fd042ef
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72584924"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74564098"
 ---
 # <a name="use-ios-app-provisioning-profiles-to-prevent-your-apps-from-expiring"></a>Предотвращение истечения срока действия приложений iOS с помощью профилей подготовки приложений
 
@@ -44,8 +44,8 @@ ms.locfileid: "72584924"
 
 ## <a name="how-to-create-an-ios-mobile-app-provisioning-profile"></a>Как создать профиль подготовки для мобильного приложения iOS
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. В области **Intune** выберите **Клиентские приложения** > **Профили подготовки приложений для iOS** > **Создать профиль**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Приложения** > **Профили подготовки приложений для iOS** > **Создать профиль**.
 3. На странице **Основные** добавьте следующие значения.
     - **Имя**. Укажите имя профиля подготовки для мобильного устройства.
     - **Описание**. Введите описание политики (необязательно).

@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 78620818bfd13f0292e159c6a3670b5e3af53dab
-ms.sourcegitcommit: 556b7ea2049014c9027f0e44affd3f301fab55fc
+ms.openlocfilehash: e9649a84650a555e964cd9200ed2295fee5efb9a
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73709500"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74562310"
 ---
 # <a name="quickstart-set-up-automatic-enrollment-for-windows-10-devices"></a>Краткое руководство. Настройка автоматической регистрации устройств с Windows 10
 
@@ -41,7 +41,7 @@ ms.locfileid: "73709500"
 
 В этом примере будет использоваться регистрация MDM, что позволит автоматически регистрировать корпоративные и личные устройства. Мы будем использовать бесплатную подписку Azure Active Directory Premium.
 
-1. В Azure выберите **Azure Active Directory** > **Мобильность (MDM и MAM)** .
+1. На [портале Azure](https://portal.azure.com) выберите **Azure Active Directory** > **Мобильность (MDM и MAM)** .
 2. Выберите **Получить бесплатную пробную версию уровня "Премиум" для использования этой возможности**. Выбрав этот параметр, мы разрешим автоматическую регистрацию с помощью бесплатной пробной версии Azure Active Directory уровня "Премиум". 
 
     ![Выбор бесплатной пробной версии Azure Active Directory уровня "Премиум"](./media/quickstart-setup-auto-enrollment/quickstart-setup-auto-enrollment-01.png)

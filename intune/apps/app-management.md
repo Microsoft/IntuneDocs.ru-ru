@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/23/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 56814550cae814bd89d55a6f72df98dd24df4caf
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 09b4cfad0490f35a85e4c72b937b2ba5c0472030
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507469"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74564375"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -76,14 +76,14 @@ Intune предлагает широкий набор возможностей, 
 
 ## <a name="get-started"></a>Начало работы
 
-Большинство сведений, связанных с приложениями, находятся в рабочей нагрузке **Клиентские приложения**, к которой можно получить доступ следующим образом.
+Большинство сведений, связанных с приложениями, находятся в рабочей нагрузке **Приложения**, к которой можно получить доступ следующим образом:
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-3. На панели **Microsoft Intune** выберите **Клиентские приложения**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+3. Выберите **Приложения**.
 
-    ![Область рабочей нагрузки "Клиентские приложения"](./media/app-management/apps-workload.png)
+    ![Панель рабочей нагрузки приложений](./media/app-management/apps-workload.png)
 
-В следующих четырех разделах описаны параметры, доступные в области **Клиентские приложения**.
+В следующих четырех разделах описаны параметры, доступные в области **Приложения**.
 
 ### <a name="manage"></a>управление
 - **Приложения**. Выберите этот параметр, чтобы добавлять, просматривать, назначать и отслеживать приложения, используемые вашими сотрудниками. Дополнительные сведения см. на странице

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/10/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ee22ee435830137a423423aa692376aabbb6cecb
-ms.sourcegitcommit: 0be25b59c8e386f972a855712fc6ec3deccede86
+ms.openlocfilehash: 72e1f95e2bd81d974d900acbcb0f785bb7966eaa
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72585416"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563703"
 ---
 # <a name="monitor-app-information-and-assignments-with-microsoft-intune"></a>Отслеживание сведений о приложении и его назначениях с помощью Microsoft Intune
 
@@ -31,10 +31,9 @@ ms.locfileid: "72585416"
 
 Служба Intune предоставляет несколько вариантов для отслеживания свойств управляемых приложений и состояния назначения приложений.
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-3. На панели **Intune** выберите **Клиентские приложения**.
-4. В разделе меню **Управление** выберите **Приложения**.
-5. В списке приложений выберите приложение для отслеживания. Отображается панель приложения со сведениями о состоянии устройства и пользователя.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Приложения** > **Все приложения**.
+3. В списке приложений выберите приложение для отслеживания. Отображается панель приложения со сведениями о состоянии устройства и пользователя.
 
 > [!NOTE]
 > Приложения магазина Android Store, развернутые в состоянии **Доступно**, не сообщают свое состояние установки.

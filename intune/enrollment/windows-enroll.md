@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 30a1c9b1fddaa59d633c8dc969063b26b25097de
-ms.sourcegitcommit: 76ae5aea5deee7a590e24c3b2bb52f88125943e5
+ms.openlocfilehash: 5f12feca6d43a4194e7c60639a93747c7f389f93
+ms.sourcegitcommit: fc4b38660129d615068f34ad4b96b900d73f7b53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74098179"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74558196"
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
@@ -102,7 +102,7 @@ EnterpriseEnrollment-s.manage.microsoft.com — предпочтительно�
 Никакие другие методы, кроме настройки CNAME, не поддерживаются. Например, не поддерживается использование прокси-сервера для перенаправления с enterpriseenrollment.contoso.com/EnrollmentServer/Discovery.svc на enterpriseenrollment-s.manage.microsoft.com/EnrollmentServer/Discovery.svc или manage.microsoft.com/EnrollmentServer/Discovery.svc.
 
 **Шаг 2. Проверка записи CNAME** (необязательно)<br>
-1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) щелкните **Регистрация устройства** > **Регистрация Windows** > **Проверка CNAME**.
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Проверка CNAME**.
 2. В поле **Домен** укажите веб-сайт организации и нажмите кнопку **Проверка**.
 
 ## <a name="tell-users-how-to-enroll-windows-devices"></a>Передайте пользователям инструкции по регистрации устройств Windows

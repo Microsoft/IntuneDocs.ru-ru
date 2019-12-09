@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 07/24/2019
+ms.date: 11/26/2019
 ms.topic: quickstart
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bcda312274e78d327a3a515eb6c95454e38c96f1
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 1800fa91ed5650fd57a31d24fdb3767a60dc5816
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507124"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563793"
 ---
 # <a name="quickstart-create-and-assign-an-app-protection-policy"></a>Краткое руководство. Создание и назначение политики защиты приложения
 
@@ -43,7 +43,7 @@ ms.locfileid: "72507124"
 
 Чтобы создать политику защиты приложений, сделайте следующее:
 
-1. На панели [Intune](https://aka.ms/intuneportal) выберите **Клиентские приложения** > **Политики защиты приложений** > **Создать политику**. 
+1. В [Intune](https://aka.ms/intuneportal) выберите **Приложения** > **Политики защиты приложений** > **Создать политику**. 
 2. Введите следующие сведения: 
 
     - **Имя**. *Защита содержимого Windows 10*
@@ -67,7 +67,7 @@ ms.locfileid: "72507124"
 
 Ниже приведены инструкции по назначению политики защиты приложений.
 
-1. в [Intune](https://aka.ms/intuneportal) выберите **Intune** > **Клиентские приложения** > **Политики защиты приложений**. 
+1. в [Intune](https://aka.ms/intuneportal) выберите **Intune** > **Приложения** > **Политики защиты приложений**. 
 2. Выберите нужную политику защиты приложений. В этом кратком руководстве это политика **Защита содержимого Windows 10**.
 3. Выберите **Назначения**.
 4. На вкладке **Включить** выберите **Выбрать группы для включения**.

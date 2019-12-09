@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/18/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0e404f6591eb042fa4d035f3377e211a219fabe4
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 1dc2e2ce7e19933accdb1063ccacf99fa3f54b09
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72497965"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563952"
 ---
 # <a name="configure-microsoft-launcher"></a>Настройка Microsoft Launcher
 
@@ -33,7 +33,7 @@ Microsoft Launcher — это приложение Android, которое по
 
 ## <a name="how-to-configure-the-microsoft-managed-home-screen-app"></a>Как настроить приложение Microsoft Managed Home Screen 
 
-Перейдите в консоль Intune на портале Azure и откройте раздел **Клиентские приложения** > **Политики конфигурации приложений**. Добавьте политику конфигурации для **управляемых устройств** под управлением **Android** и выберите **Microsoft Launcher** как связанное приложение. Щелкните **Параметры конфигурации**, чтобы настроить различные доступные параметры Managed Home Screen. 
+В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений**. Добавьте политику конфигурации для **управляемых устройств** под управлением **Android** и выберите **Microsoft Launcher** как связанное приложение. Щелкните **Параметры конфигурации**, чтобы настроить различные доступные параметры Managed Home Screen. 
 
 ## <a name="choosing-a-configuration-settings-format"></a>Выбор формата параметров конфигурации 
 

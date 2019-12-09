@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/02/2019
+ms.date: 11/26/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c8ce24081eae1808d3db0c5078026b306fd209d5
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: c9d792bd07ae8d7d712748874d64314dd258c5e8
+ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72507238"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74563948"
 ---
 # <a name="windows-10-app-deployment-by-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
@@ -51,9 +51,10 @@ Microsoft Intune поддерживает различные типы прило
 ### <a name="categorize-microsoft-store-for-business-apps"></a>Классификация Microsoft Store для бизнес-приложений 
 Классификация Microsoft Store для бизнес-приложений: 
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Клиентские приложения** > **Приложения**. Выберите Microsoft Store для бизнес-приложений. Затем выберите **Информация о приложении** > **Категория**. 
-3. Выберите категорию.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Приложения** > **Все приложения**. 
+3. Выберите Microsoft Store для бизнес-приложений. Затем выберите **Свойства** > **Сведения о приложении** > **Категория**. 
+4. Выберите категорию.
 
 ## <a name="install-apps-on-windows-10-devices"></a>Установка приложений на устройствах Windows 10
 В зависимости от типа приложения, вы можете установить приложение на устройстве Windows 10 одним из двух способов:
