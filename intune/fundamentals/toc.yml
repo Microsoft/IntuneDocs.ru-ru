@@ -31,6 +31,8 @@
       href: quickstart-create-custom-role.md
 - name: Учебники
   items:
+    - name: Пошаговое руководство по Intune в диспетчере конечных точек (Майкрософт)
+      href: tutorial-walkthrough-endpoint-manager.md
     - name: Пошаговое руководство по использованию Intune на портале Azure
       href: tutorial-walkthrough-intune-portal.md
 - name: Основные понятия
