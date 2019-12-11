@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: a9529f5b3047a8d4ca2a1e9c22d2c4427761078c
-ms.sourcegitcommit: 1a7f04c80548e035be82308d2618492f6542d3c0
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "73754894"
 ---
 # <a name="use-intune-to-remediate-vulnerabilities-identified-by-microsoft-defender-atp"></a>Устранение уязвимостей, определенных ATP в Microsoft Defender, с помощью Intune
