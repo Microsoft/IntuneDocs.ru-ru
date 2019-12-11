@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/15/2019
+ms.date: 12/03/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d00ae284ff4ea911cecb571cfe765eafe32fac02
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 18815fb671e853bc0463fed750d40b80ccb285fb
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72490478"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74784278"
 ---
 # <a name="create-an-intune-report-from-the-odata-feed-with-power-bi"></a>Создание отчета Intune из веб-канала OData с помощью Power BI
 
@@ -58,7 +58,7 @@ ms.locfileid: "72490478"
 2. Откройте панель **Хранилище данных Intune**, щелкнув ссылку на хранилище данных в разделе **Другие задачи** в правой части колонки **Microsoft Intune — Обзор**.
 3. Скопируйте настраиваемый URL-адрес веб-канала. Пример: `https://fef.tenant.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=beta`
 4. Откройте Power BI Desktop.
-5. В строке меню выберите **файл**  > **получить данные**  > **веб-канал OData**.
+5. В строке меню выберите **файл** > **получить данные** > **веб-канал OData**.
 6. Вставьте URL-адрес пользовательского канала, скопированный на предыдущем шаге, в поле URL-адрес в окне **канала OData** .
 7. Установите переключатель в положение **Основной**.
 
@@ -111,7 +111,7 @@ ms.locfileid: "72490478"
 3. Разверните таблицу `ownerTypes` и выберите `ownerTypeName` поле данных.
 4. `ownerTypes` Перетащите поле данных из таблицы на панель **Фильтры** и поместите его в разделе **Фильтры на этой странице** в поле **Добавить поля данных**. `onwerTypeName`  
 
-   В таблице `OwnerTypes` поле данных с именем `OwnerTypeKey`that содержит данные о том, является ли устройство корпоративным или личным. Так как в фильтре должны отображаться понятные имена, найдите таблицу `ownerTypes` и перетащите поле **ownerTypeName** в срез. Этот пример показывает, как модель данных поддерживает связи между таблицами.
+   В таблице `OwnerTypes` есть поле данных с именем `OwnerTypeKey`, которое содержит данные в том случае, если устройство принадлежит компании или является персональным. Так как в фильтре должны отображаться понятные имена, найдите таблицу `ownerTypes` и перетащите поле **ownerTypeName** в срез. Этот пример показывает, как модель данных поддерживает связи между таблицами.
 
 ![Диаграмма "дерево" с фильтром: поддерживает связи между таблицами](./media/reports-proc-create-with-odata/reports-create-08_ownertype.png)
 
