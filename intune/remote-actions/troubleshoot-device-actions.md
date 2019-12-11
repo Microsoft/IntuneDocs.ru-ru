@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 96f6dc3d1a8f8589395cf49b3bb934adadf437a4
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 239dd8630eb361da8609e3a34eb2c9346a64dab0
+ms.sourcegitcommit: ec69e7ccc6e6183862a48c1b03ca6a3bf573f354
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72508510"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907191"
 ---
 # <a name="troubleshoot-device-actions-in-intune"></a>Устранение неполадок с устройствами в Intune
 
@@ -54,7 +54,7 @@ Microsoft Intune содержит много действий, которые п
 ## <a name="remove-devices-action"></a>Действие "удалить устройства"
 
 ### <a name="how-do-i-tell-who-started-a-retirewipe"></a>Разделы справки узнать, кто начал снятие с учета или очистку?
-Перейдите в **Intune**  > **устройства**  > **действиях устройства** > проверьте столбец, **инициированный по** столбцу.
+В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)перейдите в раздел **Администрирование клиента** > **журналы аудита** > проверьте столбец, **инициированный по** столбцу.
 Если вы не видите запись, самый вероятный пользователь инициировал действие — это пользователь устройства. Вероятно, они использовали приложение корпоративный портал или portal.manage.microsoft.com.
 
 ### <a name="why-wasnt-my-application-uninstalled-after-using-retire"></a>Почему мое приложение было удалено после снятия с учета?
@@ -69,7 +69,7 @@ Microsoft Intune содержит много действий, которые п
 Так как снятие с учета устройства не отменяет маркеры доступа. Для устранения этого условия можно использовать политики условного доступа.
 
 ### <a name="how-can-i-monitor-a-retirewipe-action-after-it-was-issued"></a>Как можно отслеживать действие снятия с учета или очистки после его выдачи?
-Последовательно выберите **Intune**  > **устройства**  > **действия с устройством**.
+В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)перейдите в раздел **Администрирование клиента** > **журналы аудита**.
 
 ### <a name="why-do-wipes-sometimes-show-as-pending-indefinitely"></a>Почему операции очистки иногда отображаются как ожидающие обработки неограниченно долго?
 Устройства не всегда передают состояние обратно в службу Intune до начала сброса. Таким образом, действие отображается как ожидание. Если вы подтвердили, что действие прошло успешно, удалите устройство из службы.
