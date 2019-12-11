@@ -145,6 +145,8 @@
               href: vpn-settings-macos.md
             - name: Wi-Fi
               href: wi-fi-settings-macos.md
+            - name: Проводная сеть
+              href: wired-network-settings-macos.md
             - name: Особые настройки
               href: custom-settings-macos.md
         - name: Windows 10 и более поздней версии
