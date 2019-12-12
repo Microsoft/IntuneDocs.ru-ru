@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 744277b0e49a4e3ca8b0fa3bac43c666110bb8a3
-ms.sourcegitcommit: a7b479c84b3af5b85528db676594bdb3a1ff6ec6
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "74410356"
 ---
 # <a name="troubleshoot-bitlocker-policies-in-microsoft-intune"></a>Устранение неполадок в политиках BitLocker в Microsoft Intune
@@ -85,7 +85,7 @@ ms.locfileid: "74410356"
 
 В данном примере:
 
-- **Защита BitLocker** **включена**
+- **Защита BitLocker** включена ****
 - **Зашифровано в процентах** — **100%**
 - **Метод шифрования** — **XTS-AES 256**
 
