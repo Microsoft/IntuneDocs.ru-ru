@@ -5,7 +5,7 @@ description: Параметры базовых показателей безоп
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/13/2019
+ms.date: 12/05/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b7363682960cff6688e9727d2b6869b6bf357084
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.openlocfilehash: 85d0b28de6c133ece5116dd78b1646f497ff2f6b
+ms.sourcegitcommit: 0a85af9d584709ecc29062f91645a4c47a61ebb9
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060056"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882323"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
@@ -426,7 +426,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
   **Значение по умолчанию**: 02:00
 
-## <a name="microsoft-defender-firewall"></a>Брандмауэр защитника Майкрософт
+## <a name="microsoft-defender-firewall"></a>Брандмауэр в Microsoft Defender
 Дополнительные сведения см. в статье [Firewall CSP](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) (Поставщик службы шифрования брандмауэра) документации Windows.
 
 - **Время простоя для сопоставлений безопасности перед удалением** — *MdmStore/Global/SaIdleTime*   
@@ -593,8 +593,18 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 - **Configure Windows Hello for Business** (Настройка Windows Hello для бизнеса) — *TenantId/Policies/UsePassportForWork*    
   Windows Hello для бизнеса — это альтернативный метод входа в Windows путем замены паролей, смарт-карт и виртуальных смарт-карт.  
 
-  - Если задано значение *Да*, то эта политика включена, и устройство подготавливает Windows Hello для бизнеса.  
-  - Если задано значение *не настроено*, то базовый план не влияет на параметры политики устройства. Это означает, что если на устройстве отключена система Windows Hello для бизнеса, она остается отключенной. Если он включен, он остается включенным. 
+
+  > [!IMPORTANT]
+  > Параметры для этого параметра отменяются от подразумеваемого значения. В обратную, значение *Yes* не включает Windows Hello и вместо этого считается *ненастроенным*. Если для этого параметра задано значение *не настроено*, Windows Hello включается на устройствах, получающих этот базовый план.
+  >
+  > Следующие описания были пересмотрены в соответствии с этим поведением. Изменение параметров будет исправлено в следующем обновлении этого базового показателя безопасности.
+
+  - Если задано значение *не настроено*, Windows Hello включена и устройство подготавливает Windows Hello для бизнеса.
+  - Если задано значение *Да*, базовые показатели не влияют на параметры политики устройства. Это означает, что если на устройстве отключена система Windows Hello для бизнеса, она остается отключенной. Если он включен, он остается включенным.
+  <!-- expected behavior 
+  - When set to *Yes*, you  enable this policy and the device provisions Windows Hello for Business.  
+  - When set to *Not configured*, the baseline does not affect the policy setting of the device. This means that if Windows Hello for Business is disabled on a device, it remains disabled. If its enabled, it remains enabled. 
+  -->
 
   Вы не можете отключить Windows Hello для бизнеса через этот базовый план. Вы можете отключить Windows Hello для бизнеса при настройке [регистрации Windows](windows-hello.md)или в рамках профиля конфигурации устройства для [защиты идентификации](identity-protection-configure.md).  
 
