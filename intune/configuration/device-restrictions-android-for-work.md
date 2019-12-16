@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/19/2019
+ms.date: 12/09/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b38ab611ecf6a33c8cc48fa120751af8548a7f95
-ms.sourcegitcommit: 2fddb293d37453736ffa54692d03eca642f3ab58
+ms.openlocfilehash: 904c3d2267decdfa3929bf29376c05a995c77eb8
+ms.sourcegitcommit: f5108039f0ade52e95ea3ac1da1aa16d02224af3
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74390924"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "74946664"
 ---
 # <a name="android-enterprise-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства Android Enterprise, которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -31,6 +31,8 @@ ms.locfileid: "74390924"
 [Создайте профиль конфигурации устройства](device-restrictions-configure.md).
 
 ## <a name="device-owner-only"></a>Только владелец устройства
+
+Эти параметры применяются к типам регистрации Enterprise для Android, где Intune управляет всем устройством, например с полностью управляемыми или выделенными устройствами Android Enterprise.
 
 ### <a name="general-settings"></a>Общие параметры
 
@@ -242,6 +244,7 @@ ms.locfileid: "74390924"
   > [!IMPORTANT]
   > - На устройстве должен быть установлен выбранный клиент VPN, и он должен поддерживать VPN для каждого приложения в рабочих профилях. В противном случае возникает ошибка. 
   > - Вам необходимо одобрить приложение клиента VPN в **управляемом магазине Google Play**, синхронизировать это приложение в Intune и развернуть его на устройстве. После всех этих действий приложение будет установлено в рабочем профиле пользователя.
+  > - Вам по-прежнему нужно настроить VPN-клиент с помощью [профиля VPN](vpn-settings-android-enterprise.md)или [профиля конфигурации приложения](../apps/app-configuration-policies-use-android.md).
   > - В приложении F5 Access для Android 3.0.4 могут возникать известные проблемы при использовании VPN на уровне отдельных приложений. Дополнительные сведения см. в [заметках о выпуске F5 Access для Android 3.0.4](https://support.f5.com/kb/en-us/products/big-ip_apm/releasenotes/related/relnote-f5access-android-3-0-4.html#relnotes_known_issues_f5_access_android).
 
 - **Режим блокировки**. Выберите **Включить**, чтобы весь сетевой трафик шел только через туннель VPN. Если подключение к VPN не установлено, устройство не будет иметь доступа к сети.
@@ -264,6 +267,8 @@ ms.locfileid: "74390924"
     Дополнительные сведения о файлах PAC см. в разделе [прокси-файл автоматической настройки (PAC)](https://developer.mozilla.org/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_(PAC)_file) (открывается веб-сайт, отличный от Майкрософт).
 
 ## <a name="work-profile-only"></a>Только рабочий профиль
+
+Эти параметры применяются к типам регистрации Enterprise для Android, где Intune управляет только рабочим профилем, например, регистрацией рабочего профиля Android Enterprise на персональном или личном устройстве (BYOD).
 
 ### <a name="work-profile-settings"></a>Параметры профиля работы
 

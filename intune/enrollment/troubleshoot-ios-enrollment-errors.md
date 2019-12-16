@@ -17,12 +17,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e71ae2d2bcee22040c256ea711edd22b1d1fc80a
-ms.sourcegitcommit: 01fb3d844958a0e66c7b87623160982868e675b0
+ms.openlocfilehash: 46b46cd4a407df686e094198c588371ed4a01bb6
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199274"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74832570"
 ---
 # <a name="troubleshoot-ios-device-enrollment-problems-in-microsoft-intune"></a>Устранение проблем с регистрацией устройств iOS в Microsoft Intune
 
@@ -136,10 +136,10 @@ ms.locfileid: "74199274"
 **Причина:** Пользователь пытается зарегистрировать больше устройств, чем ограничение регистрации устройств.
 
 #### <a name="resolution"></a>Решение
-1. Откройте [портал администрирования Intune](https://portal.azure.com/?Microsoft_Intune=1&Microsoft_Intune_DeviceSettings=true&Microsoft_Intune_Enrollment=true&Microsoft_Intune_Apps=true&Microsoft_Intune_Devices=true#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview) > **устройства** > **все устройства**и проверьте число устройств, зарегистрированных пользователем.
+1. В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)выберите **устройства** > **все устройства**и проверьте число устройств, зарегистрированных пользователем.
     > [!NOTE]
     > Кроме того, необходимо иметь затронутого входа пользователя на [портал пользователя Intune](https://portal.manage.microsoft.com/) и проверить зарегистрированные устройства. Могут существовать устройства, которые отображаются на портале [пользователя Intune](https://portal.manage.microsoft.com/) , но не на [портале администрирования Intune](https://portal.azure.com/?Microsoft_Intune=1&Microsoft_Intune_DeviceSettings=true&Microsoft_Intune_Enrollment=true&Microsoft_Intune_Apps=true&Microsoft_Intune_Devices=true#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview). такие устройства также подсчитывает ограничения на регистрацию устройств.
-2. Перейдите в раздел **администратор** > **Управление мобильными устройствами** > **правила регистрации** > Проверьте предел регистрации устройств. По умолчанию это число не может быть больше 15. 
+2. В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)выберите **устройства** > **ограничения регистрации** > Проверьте предел регистрации устройств. По умолчанию это число не может быть больше 15. 
 3. Если число зарегистрированных устройств достигло предела, удалите ненужные устройства или увеличьте предел регистрации устройства. Так как каждое зарегистрированное устройство использует лицензию Intune, рекомендуется всегда удалять ненужные устройства первыми.
 4. Повторно зарегистрируйте устройство.
 
@@ -230,7 +230,7 @@ iPhone mobileassetd[83] <Notice>: 0x1a49aebc0 Client connection: XPC_TYPE_ERROR 
 #### <a name="resolution"></a>Решение
 
 1. Изменение профиля регистрации. Можно внести любые изменения в профиль. Целью является обновление времени изменения профиля.
-2. Синхронизация устройств, управляемых DEP. Откройте портал Intune > **администратор** > **Управление мобильными устройствами** > **iOS** > **Программа регистрации устройств** > **синхронизировать**. Запрос на синхронизацию будет отправлен в Apple.
+2. Синхронизация устройств, управляемых DEP. В [Центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **iOS** > **Регистрация устройств iOS** > **Синхронизация токенов** > выберите токен > **Синхронизировать**. Запрос на синхронизацию будет отправлен в Apple.
 
 ### <a name="dep-enrollment-stuck-at-user-login"></a>Регистрация DEP была задержана при входе пользователя
 При включении устройства под управлением DEP, которому назначен профиль регистрации, начальная настройка фиксируется после ввода учетных данных.
@@ -244,5 +244,5 @@ iPhone mobileassetd[83] <Notice>: 0x1a49aebc0 Client connection: XPC_TYPE_ERROR 
 
 - [Устранение проблем при регистрации устройств в Intune](../troubleshoot-device-enrollment-in-intune.md)
 - [Задайте вопрос на форуме Intune](https://social.technet.microsoft.com/Forums/%7Blang-locale%7D/home?category=microsoftintune&filter=alltypes&sort=lastpostdesc)
-- [Обратитесь к блогу группы поддержки Microsoft Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/bg-p/IntuneCustomerSuccess)
-- [Ознакомьтесь с блогом Microsoft Enterprise Mobility and Security](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Announcing-the-public-preview-of-Azure-AD-group-based-license/ba-p/245210)
+- [См. блог группы поддержки Microsoft Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/bg-p/IntuneCustomerSuccess)
+- [См. блог разработчиков Microsoft Enterprise Mobility + Security](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Announcing-the-public-preview-of-Azure-AD-group-based-license/ba-p/245210)

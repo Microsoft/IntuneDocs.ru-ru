@@ -20,16 +20,16 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: edc45fb3ddab43ef77a3f072c5a1a31f8f88c957
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "72506114"
 ---
 # <a name="manage-apps-from-the-company-portal-website"></a>Управление приложениями с корпоративного портала 
 Посетите [веб-сайт корпоративный портал](https://portal.manage.microsoft.com) , чтобы просматривать приложения и управлять ими в Организации. 
 
-## <a name="view-all-apps"></a>Просмотреть все приложения  
+## <a name="view-all-apps"></a>Просмотр всех приложений  
 В меню выберите **приложения** , чтобы просмотреть все приложения, доступные для вашей организации. 
 
    ![Снимок экрана корпоративный портал веб-сайта, приложений, в котором отображаются параметры уточнения.](./media/intune-view-apps-1907.png)  

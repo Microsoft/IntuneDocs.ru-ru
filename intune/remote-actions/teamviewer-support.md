@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d03859d5775193e6bbc482c06b28942a1a5bce2f
-ms.sourcegitcommit: 28622c5455adfbce25a404de4d0437fa2b5370be
+ms.openlocfilehash: 0372c9629e111c460b095d8c0236305866da42e3
+ms.sourcegitcommit: ec69e7ccc6e6183862a48c1b03ca6a3bf573f354
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73712145"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907208"
 ---
 # <a name="use-teamviewer-to-remotely-administer-intune-devices"></a>Используйте TeamViewer для удаленного администрирования устройств Intune
 
@@ -48,7 +48,7 @@ ms.locfileid: "73712145"
 Чтобы предоставить удаленную поддержку для устройств, настройте соединитель TeamViewer для Intune, выполнив следующие действия:
 
 1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Выберите **Устройства** > **Соединитель TeamViewer**.
+2. Выберите **Администрирование клиента** > **Соединители и токены** > **Соединитель TeamViewer**.
 3. Нажмите **Подключить** и примите условия лицензионного соглашения.
 4. Нажмите **Войти в TeamViewer для авторизации**.
 5. Откроется веб-страница сайта TeamViewer. Введите учетные данные лицензии TeamViewer и нажмите кнопку **Войти**.
@@ -59,7 +59,7 @@ ms.locfileid: "73712145"
 
 1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Выберите **Устройства**, а затем — **Все устройства**.
-3. В списке выберите устройство для удаленного администрирования. В свойствах устройства выберите **Новый сеанс удаленной помощи**.
+3. В списке выберите устройство для удаленного администрирования > **...**  > **Новый сеанс удаленного помощника**.
 4. После того как Intune подключится к службе TeamViewer, появятся определенные сведения об устройстве. Выберите **Подключить**, чтобы начать удаленный сеанс.
 
 ![Удаленное администрирование устройства Android с помощью TeamViewer — пример](./media/teamviewer-support/android-teamviewer.png)

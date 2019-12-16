@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0012a80f0e9ea60b41c94a582e42d5f647c6bbc2
-ms.sourcegitcommit: cdb2a484b059bd8d8c3985cde1e883c24a4c1cad
+ms.openlocfilehash: 30191aea892e8409bb6165034256a99f6f32a502
+ms.sourcegitcommit: e75718ee6cf93c0e6c915f2776b785fe8db9f7e0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74239216"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74955411"
 ---
 # <a name="enroll-devices-in-intune-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств в Intune с помощью учетной записи диспетчера регистрации устройств
 
@@ -46,7 +46,7 @@ ms.locfileid: "74239216"
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств
 
-1. В [Intune на портале Azure](https://aka.ms/intuneportal) выберите пункты **Регистрация устройства** > **Диспетчеры регистрации устройств**.
+1. Войдите в [Центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431), выберите **Устройства** > **Регистрация устройств** > **Диспетчеры регистрации устройств**.
 
 2. Нажмите кнопку **Добавить**.
 
@@ -67,6 +67,6 @@ ms.locfileid: "74239216"
 
 **Удаление диспетчера регистрации устройств**
 
-1. На [портале Azure Intune](https://aka.ms/intuneportal) выберите **Регистрация устройства**, а затем щелкните **Диспетчеры регистрации устройств**.
+1. Войдите в [Центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431), выберите **Устройства** > **Регистрация устройств** > **Диспетчеры регистрации устройств**.
 2. В колонке **Диспетчеры регистрации устройств** выберите пользователя DEM и нажмите **Удалить**.
 

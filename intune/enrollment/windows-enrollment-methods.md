@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: ''
-ms.openlocfilehash: 59ba9ab5fb0ddeb527ed852de042568920cf38e1
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: b6144767ee69de8c1ff14e5c189c078994a9dcf4
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72509180"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74819718"
 ---
 # <a name="intune-enrollment-methods-for-windows-devices"></a>Способы регистрации в Intune для устройств Windows
 
@@ -42,7 +42,7 @@ ms.locfileid: "72509180"
 Если администратор настроил авторегистрацию (доступно с подписками Azure AD уровня "Премиум"), пользователю нужно ввести свои учетные данные всего один раз. В противном случае ему нужно будет зарегистрироваться отдельно через регистрацию только в системе MDM и повторно ввести учетные данные.  
 - **Регистрация только в системе MDM** позволяет пользователям регистрировать существующий компьютер, присоединенный к рабочей группе, Active Directory или Azure Active Directory, в Intune. Пользователи осуществляют регистрацию из меню "Параметры" на существующем компьютере Windows. Этот метод использовать не рекомендуется, так как он не регистрирует устройство в Azure Active Directory. Кроме того, он препятствует использованию таких возможностей, как условный доступ.
 - [Присоединение к Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network) присоединяет устройство к Azure Active Directory и позволяет пользователям входить в Windows с помощью учетных данных Azure AD. Если включена автоматическая регистрация, устройство автоматически регистрируется в Intune. Преимущество автоматической регистрации — это процедура, состоящая из единственного шага. В противном случае ему нужно будет зарегистрироваться отдельно через регистрацию только в системе MDM и повторно ввести учетные данные. Этим способом пользователи регистрируются либо во время запуска при первом включении компьютера Windows, либо из меню "Параметры". Устройство помечается как корпоративное в Intune.
-- [AutoPilot](enrollment-autopilot.md) — автоматизирует присоединение к Azure AD и регистрирует новые корпоративные устройства в Intune. Этот способ упрощает запуск при первом включении компьютера и избавляет от необходимости применять пользовательские образы операционной системы на устройствах. Использование Intune для устройств Autopilot позволяет администраторам управлять политиками, профилями, приложениями и другими компонентами после их регистрации.  Существует четыре типа развертывания Autopilot: [Режим саморазвертывания](https://docs.microsoft.com/windows/deployment/windows-autopilot/self-deploying) (для киосков, цифровых вывесок и общих устройств), [Пользовательский режим](https://docs.microsoft.com/windows/deployment/windows-autopilot/user-driven) (для обычных пользователей), [White Glove] (https://docs.microsoft.com/windows/deployment/windows-autopilot/white-glove) позволяет партнерам или ИТ-специалистам создавать полностью настроенный ПК под управлением Windows 10, заранее подготовленный к работе, и [Autopilot для существующих устройств] (https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices) позволяет легко развернуть последнюю версию Windows 10 на существующих устройствах.
+- [AutoPilot](enrollment-autopilot.md) — автоматизирует присоединение к Azure AD и регистрирует новые корпоративные устройства в Intune. Этот способ упрощает запуск при первом включении компьютера и избавляет от необходимости применять пользовательские образы операционной системы на устройствах. Использование Intune для устройств Autopilot позволяет администраторам управлять политиками, профилями, приложениями и другими компонентами после их регистрации.  Существует четыре типа развертывания Autopilot: [Режим саморазвертывания](https://docs.microsoft.com/windows/deployment/windows-autopilot/self-deploying) (для киосков, цифровых вывесок и общих устройств), [Пользовательский режим](https://docs.microsoft.com/windows/deployment/windows-autopilot/user-driven) (для обычных пользователей), [White Glove](https://docs.microsoft.com/windows/deployment/windows-autopilot/white-glove) позволяет партнерам или ИТ-специалистам создавать полностью настроенный ПК под управлением Windows 10, заранее подготовленный к работе, и [Autopilot для существующих устройств](https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices) позволяет легко развернуть последнюю версию Windows 10 на существующих устройствах.
 
 ## <a name="administrator-based-enrollment-in-intune"></a>Регистрация в Intune под управлением администратора
 

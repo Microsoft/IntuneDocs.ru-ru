@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/21/2019
+ms.date: 12/05/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0c4c995322234a4a2486d8e6c5e9efd88f78dd63
-ms.sourcegitcommit: 2fddb293d37453736ffa54692d03eca642f3ab58
+ms.openlocfilehash: 71f2bc855673b6b189ed7581b979527485e86083
+ms.sourcegitcommit: 66e284fe092e19c1da72b4b770e45bf25ac7910c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74390869"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74860389"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -93,7 +93,7 @@ ms.locfileid: "74390869"
 
 ## <a name="scope-tags"></a>Теги области
 
-После добавления параметров можно также добавить тег области к профилю. Теги области используются для назначения и фильтрации политик для конкретных групп, таких как сотрудники отдела кадров, все сотрудники из Северной Каролины и т. д.
+После добавления параметров можно также добавить тег области к профилю. Теги области отфильтровывают профили для отдельных ИТ-групп, таких как `US-NC IT Team` или `JohnGlenn_ITDepartment`.
 
 Дополнительные сведения о тегах области см. в статье [Use role-based access control (RBAC) and scope tags for distributed IT](../fundamentals/scope-tags.md) (Использование управления доступом на основе ролей (RBAC) и тегов области для распределенной ИТ-разработки).
 
@@ -185,6 +185,8 @@ Intune использует разные циклы обновления для 
   На следующем рисунке показан пример параметра, который может применяться к пользователям и (или) устройствам:
 
   ![Административный шаблон Intune, который применяется к пользователям и устройствам](./media/device-profile-create/setting-applies-to-user-and-device.png)
+
+- Каждый раз при создании ограничительной политики вам потребуется донести ее смысл до пользователей. Например, если вы изменяете требование к секретному коду с 4 символов на 6, сообщите пользователям об этом до назначения политики.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

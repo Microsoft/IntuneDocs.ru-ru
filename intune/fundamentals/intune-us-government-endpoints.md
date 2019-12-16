@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a5e52d1967ff6f5cf97334c099bc2b5b854ae87c
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: d876c0268f38a09ea3729a7e19ee00b321ae897a
+ms.sourcegitcommit: edd06a494a241d198ca9b0d3030c92195976e0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72502682"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000403"
 ---
 # <a name="us-government-endpoints-for-microsoft-intune"></a>Конечные точки для государственных организаций США для Microsoft Intune
 
@@ -57,3 +57,25 @@ ms.locfileid: "72502682"
 - AAD Graph: https:\//directory.microsoftazure.us and https:\//graph.microsoftazure.us
 - MS Graph: https:\//graph.microsoft.us
 - ADRS: https:\//enterpriseregistration.microsoftonline.us
+
+## <a name="windows-push-notification-services"></a>Службы push-уведомлений Windows
+Для устройств под управлением Intune, использующих управление мобильными устройствами (MDM), требуется использование служб push-уведомлений Windows (WNS) для действий на устройстве и других задач. Дополнительные сведения см. в статье [Корпоративный брандмауэр и конфигурации прокси-сервера для поддержки трафика WNS](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
+
+## <a name="apple-device-network-information"></a>Сведений о сети на устройстве Apple
+
+|**Назначение**|**Имя узла (IP-адрес/подсеть)**|**Протокол**|**Порт**|
+|------------|-----------|------------|-----------|
+|Извлечение и отображение содержимого с серверов Apple|itunes.apple.com<br>\*.itunes.apple.com<br>\*.mzstatic.com<br>\*.phobos.apple.com<br>\*.phobos.itunes-apple.com.akadns.net|HTTP|80|
+|Обмен данными с серверами APNS|#-courier.push.apple.com<br># — это случайное число от 0 до 50.|TCP|5223 и 443|
+|Различные функциональные возможности, включая доступ к Интернету, магазину iTunes, магазину приложений macOS, iCloud, службе сообщений и т. д.|phobos.apple.com<br>ocsp.apple.com<br>ax.itunes.apple.com<br>ax.itunes.apple.com.edgesuite.net|HTTP/HTTPS|80 или 443|
+
+Дополнительные сведения см. на странице
+
+- [Порты TCP и UDP, используемые программными продуктами Apple](https://support.apple.com/HT202944)
+- [Сведения о подключениях узлов серверов macOS, iOS и iTunes и фоновых процессах iTunes](https://support.apple.com/HT201999)
+- [Если клиенты macOS и iOS не получают push-уведомления Apple](https://support.apple.com/HT203609)
+
+## <a name="next-steps"></a>Дальнейшие шаги
+[Конечные точки сети для Microsoft Intune](intune-endpoints.md)
+
+[Автоматическая регистрация и регистрация устройств в Windows 10](../enrollment/windows-enroll.md#registration-and-enrollment-cnames)

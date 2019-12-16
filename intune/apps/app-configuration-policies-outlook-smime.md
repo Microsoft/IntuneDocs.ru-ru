@@ -16,16 +16,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 348d1fe2fd236a2af11f7e58dc11530a5ce397bc
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: c9572f4accb1be232d4667d99b98beff90d81379
+ms.sourcegitcommit: edd06a494a241d198ca9b0d3030c92195976e0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74564200"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000420"
 ---
 # <a name="configure-smime-with-outlook-for-ios"></a>Настройка S/MIME с помощью Outlook для iOS
 
 Набор S/MIME (Secure/Multipurpose Internet Mail Extensions) обеспечивает дополнительный уровень безопасности для электронной почты, отправляемой в учетную запись Exchange ActiveSync (EAS) и из нее. Используя S/MIME, [Microsoft Outlook](https://aka.ms/omsmime) может разрешить пользователям шифровать как исходящие сообщения, так и вложения, чтобы только предполагаемый получатель имел право на чтение содержимого сообщений при использовании учетных записей Office 365 и на получение доступа к нему. Пользователи могут также добавить к сообщению цифровую подпись, которая позволяет получателям проверить удостоверение отправителя и убедиться в том, что сообщение не было подделано. Это возможно благодаря использованию сертификатов. Дополнительные сведения см. в статье [Understanding S/MIME](https://docs.microsoft.com/previous-versions/tn-archive/aa995740(v=exchg.65)?redirectedfrom=MSDN) (Основные сведения о S/MIME).
+
+> [!NOTE]
+> Эта функция была отложена, но вскоре будет выпущена.
 
 > [!NOTE]
 > В этом разделе описывается развертывание доверенных корневых сертификатов с помощью [диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431). Диспетчер конечных точек (Майкрософт) — это единая интегрированная платформа для управления всеми конечными точками. Центр администрирования диспетчера конечных точек (Майкрософт) интегрируется с ConfigMgr и Microsoft Intune.
@@ -78,9 +81,6 @@ Outlook для iOS поддерживает два способа доставк
 6. Щелкните **Параметры конфигурации**, чтобы добавить параметры конфигурации. 
     - Выберите **Использовать конструктор конфигурации** рядом с элементом **Формат параметров конфигурации** и примите параметры по умолчанию. Дополнительные сведения см. в разделе [Параметры конфигурации Microsoft Outlook](~/apps/app-configuration-policies-outlook.md).
 7. Щелкните **S/MIME**, чтобы открыть раздел **Параметры S/MIME Outlook**.
-
-    ![Снимок экрана: параметры S/MIME Outlook для iOS](./media/app-configuration-policies-outlook-smime/app-configuration-policies-outlook-smime-01.png)
-
 8. Задайте для параметра **Включить S/MIME** значение **Да**.
 9. Задайте для параметра **Развертывание сертификатов S/MIME из Intune** значение **Да**.
 10. В разделе **Сертификаты подписи** рядом с параметром **Тип профиля сертификата** выберите один из следующих параметров:

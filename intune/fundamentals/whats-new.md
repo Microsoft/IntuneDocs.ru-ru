@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 11/22/2019
+ms.date: 12/09/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7ad5c26770537ce6a285989f8ca3804277616419
-ms.sourcegitcommit: 16a9109b4028589c17695d41271ca4fee8b1d697
+ms.openlocfilehash: 77cf4745262346ec2f8bfb5d4d7e67e1ee5c5e07
+ms.sourcegitcommit: edd06a494a241d198ca9b0d3030c92195976e0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74540787"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000386"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 
@@ -54,12 +54,42 @@ ms.locfileid: "74540787"
 -->  
 
 <!-- ########################## -->
+## <a name="week-of-december-9-2019"></a>Неделя с 9 декабря 2019 г.
+
+#### <a name="migrating-to-microsoft-edge-for-managed-browsing-scenarios---5173762---"></a>Переход на Microsoft Edge для сценариев с управляемым просмотром<!-- 5173762 -->
+
+Мы готовимся прекратить поддержку Intune Managed Browser, поэтому внесли изменения в политики защиты приложений, чтобы упростить перенос пользователей в Edge. Мы обновили параметры политики защиты приложений **Ограничить обмен веб-содержимым с другими приложениями**:
+
+- Любое приложение
+- Управляемый браузер Intune
+- Microsoft Edge
+- Неуправляемый браузер 
+
+Если вы выбираете **Microsoft Edge**, конечные пользователи увидят сообщение об условном доступе, которое уведомляет их о том, что Microsoft Edge требуется для управляемых сценариев просмотра. Им будет предложено выполнить загрузку и войти в Microsoft Edge с учетными записями AAD, если они еще не сделали этого.  Это эквивалентно параметру конфигурации приложения с поддержкой MAM `com.microsoft.intune.useEdge` со значением **True**. В существующих политиках защиты приложений, в которых используется параметр **Браузеры, управляемые политикой**, теперь будет выбран **Intune Managed Browser**, и вы не увидите никаких изменений в поведении. Это означает, что пользователи увидят сообщение о необходимости использовать Microsoft Edge, если для параметра конфигурации **useEdge** приложения задано значение **True**. Мы рекомендуем всем клиентам, использующим сценарии просмотра с использованием управляемого браузера, добавить в политики защиты приложений параметр **Ограничить обмен веб-содержимым с другими приложениями**, чтобы пользователи видели соответствующие рекомендации по переходу на Microsoft Edge независимо от того, из какого приложения они переходят по ссылкам. 
+
+<!-- ########################## -->
+## <a name="week-of-december-2-2019"></a>Неделя со 2 декабря 2019 г.
+
+#### <a name="new-microsoft-endpoint-configuration-manager-co-management-licensing--5027281--"></a>Новое лицензирование для совместного управления Microsoft Endpoint Configuration Manager<!--5027281-->
+Теперь доступна новая лицензия, позволяющая клиентам Configuration Manager с программой Software Assurance получать совместное управление Intune для компьютеров под управлением Windows 10 без необходимости приобретать дополнительную лицензию Intune для совместного управления. Клиентам больше не нужно назначать отдельные лицензии Intune или EMS своим конечным пользователям для совместного управления Windows 10.
+- Устройства, управляемые Configuration Manager и зарегистрированные в совместном управлении, имеют почти те же права, что и автономные компьютеры, управляемые MDM. Однако после сброса их невозможно будет повторно подготовить с помощью автопилота.
+- Устройства Windows 10, зарегистрированные в Intune другими способами, должны иметь полные лицензии Intune.
+- Устройствам на других платформах по-прежнему требуются полные лицензии Intune.
+
+Дополнительные сведения см. в статье [Условия лицензирования](https://www.microsoft.com/en-us/Licensing/product-licensing/products).
+
+
+<!-- ########################## -->
 ## <a name="week-of-november-18-2019-1911-service-release"></a>Неделя с 18 ноября 2019 г. (выпуск службы 1911)
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### <a name="app-management"></a>Управление приложениями
 
 #### <a name="smime-support-with-microsoft-outlook-for-ios---2669398-idready---"></a>Поддержка S/MIME в Microsoft Outlook для iOS<!-- 2669398 idready -->
+
+   > [!NOTE]
+   > Эта функция была отложена, но вскоре будет выпущена.
+
 Intune поддерживает доставку сертификатов для подписи и шифрования S/MIME, которые можно использовать в Outlook для iOS на устройствах iOS. Дополнительные сведения см. в статье [Configure S/MIME for Outlook for iOS](~/apps/app-configuration-policies-outlook-smime.md) (Настройка S/MIME в Outlook для iOS).
 
 #### <a name="ui-update-when-selectively-wiping-app-data---4102028---"></a>Обновление пользовательского интерфейса для выборочной очистки данных приложения<!-- 4102028 -->

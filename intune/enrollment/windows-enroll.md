@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5f12feca6d43a4194e7c60639a93747c7f389f93
-ms.sourcegitcommit: fc4b38660129d615068f34ad4b96b900d73f7b53
+ms.openlocfilehash: 0b84cd52dfe2eb6332ddbc89bc00a17ec3361b79
+ms.sourcegitcommit: edd06a494a241d198ca9b0d3030c92195976e0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74558196"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000437"
 ---
 # <a name="set-up-enrollment-for-windows-devices"></a>Настройка регистрации для устройств Windows
 
@@ -126,6 +126,15 @@ EnterpriseEnrollment-s.manage.microsoft.com — предпочтительно�
 | ИМЯ | EnterpriseRegistration. company_domain.com | EnterpriseRegistration.windows.net | 1 час|
 
 Дополнительные сведения о регистрации устройств см. в разделе [Manage device identities using the Azure portal](https://docs.microsoft.com/azure/active-directory/devices/device-management-azure-portal) (Управление удостоверениями устройств с помощью портала Azure)
+
+## <a name="windows-10-auto-enrollment-and-device-registration"></a>Автоматическая регистрация и регистрация устройств в Windows 10
+Несмотря на то, что создавать записи CNAME в DNS не обязательно, записи CNAME позволяют упростить регистрацию для пользователей. Если запись CNAME для регистрации не обнаружена, пользователям предлагается вручную ввести имя сервера MDM — enrollment.manage.microsoft.us.
+
+| Type | Имя узла | Указывает на | СРОК ЖИЗНИ |
+| --- | --- | --- | --- |
+| CNAME | EnterpriseEnrollment.company_domain.com | EnterpriseEnrollment-s.manage.microsoft.us | 1 час|
+|CNAME | EnterpriseRegistration.company_domain.com | EnterpriseRegistration.windows.net | 1 час |
+
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

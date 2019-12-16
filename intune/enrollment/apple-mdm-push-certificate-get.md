@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d15fd73a608c799745c92c4b07df4b9705d00106
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 178e1a3d0f58eb925c4d48be10bfa46e68c6b2c6
+ms.sourcegitcommit: e75718ee6cf93c0e6c915f2776b785fe8db9f7e0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72490318"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74955462"
 ---
 # <a name="get-an-apple-mdm-push-certificate"></a>Получение сертификата MDM Push Certificate
 
@@ -41,7 +41,7 @@ ms.locfileid: "72490318"
 
 
 ## <a name="steps-to-get-your-certificate"></a>Порядок получения сертификата
-Выполните вход в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973), выберите **Регистрация устройства** > **Регистрация Apple** > **Сертификат Apple MDM Push Certificate**, а затем выполните эти указания в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
+Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431), выберите **Устройства** > **Регистрация устройств** > **Регистрация Apple** > **Apple MDM Push Certificate**, а затем выполните следующие действия.
 
 ### <a name="step-1-grant-microsoft-permission-to-send-user-and-device-information-to-apple"></a>Шаг 1. Предоставление корпорации Майкрософт разрешения на отправку сведения о пользователях и устройствах в Apple
 Выберите **Даю согласие**, чтобы разрешить корпорации Майкрософт отправлять данные в Apple.
@@ -68,7 +68,7 @@ ms.locfileid: "72490318"
 
 Сертификат связан с идентификатором Apple ID, который использовался при его создании. Продлите сертификат MDM Push Certificate с тем же идентификатором Apple ID, который использовался для создания сертификата.
 
-1. Выполните вход [Intune](https://go.microsoft.com/fwlink/?linkid=2090973), выберите **Регистрация устройства** > **Регистрация Apple**, а затем — плитку **Apple MDM Push Certificate** в области сведений.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431), выберите **Устройства** > **Регистрация устройств** > **Регистрация Apple** > **Apple MDM Push Certificate**.
 2. Выберите **Скачать CSR**, чтобы скачать CSR-файл и сохранить его локально. Файл используется для запроса сертификата отношений доверия с портала сертификатов Apple Push.
 3. Выберите **Создать собственный сертификат MDM Push Certificate**, чтобы перейти на портал сертификатов Apple Push. Найдите сертификат, который требуется продлить, и выберите **Продлить**.
 4. На экране **Продление сертификата Push Certificate** укажите сведения для идентификации сертификата в будущем, затем нажмите кнопку **Выбрать файл**, выберите новый файл запроса, который был загружен, и нажмите кнопку **Отправить**.

@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5a3081ece10bb25c6381f4a8f891152433bc9661
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: 94c38aaf28440511720280a3c5a1ebda5b9f2ab1
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74564381"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74819782"
 ---
 # <a name="see-device-details-in-intune"></a>Просмотр сведений об устройствах в Intune
 
@@ -77,7 +77,7 @@ ms.locfileid: "74564381"
 |MEID|Идентификатор мобильного оборудования (MEID) устройства.|Windows, iOS, Android|
 |Изготовитель|Производитель устройства.|Windows, iOS, Android|
 |Модель|Модель устройства.|Windows, iOS, Android|
-|Номер телефона|Назначенный устройству номер телефона.|Windows, iOS, Android|
+|Номер телефона|Назначенный устройству номер телефона.|Windows, iOS, Android*|
 |Абонентская система связи|Оператор беспроводной связи устройства.|Windows, iOS, Android|
 |Сотовая технология|Используемая на устройстве система радиосвязи.|Windows, iOS, Android|
 |Wi-Fi MAC|МАС-адрес устройства.|Windows, iOS, Android|
@@ -93,7 +93,7 @@ ms.locfileid: "74564381"
 |Защищено|Если указано **Да**, администраторам доступно расширенное управление устройством.|Windows, iOS, Android|
 |С шифрованием|Если указано **Да**, выполняется шифрование хранимых на устройстве данных.|Windows, iOS, Android|
 
-
+\* Недоступно в Android с диспетчером политик Google, например для полностью управляемых и выделенных устройств
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 Узнайте, какие еще действия по [управлению устройствами](device-management.md) вы можете выполнять с помощью Intune.

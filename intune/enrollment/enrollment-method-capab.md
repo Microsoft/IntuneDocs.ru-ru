@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c6b12bb0066c37eb470065a169a3ad7866c69a17
-ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+ms.openlocfilehash: 11b93d41ac09f637d6c75a3f2f4b7f4213cecec7
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72503263"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74819763"
 ---
 # <a name="intune-enrollment-method-capabilities-for-windows-devices"></a>Возможности Intune по регистрации устройств Windows
 [!INCLUDE[azure_portal](../includes/azure_portal.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "72503263"
 
 | **Возможности** | **[Присоединение к Azure AD](windows-enroll.md#enable-windows-10-automatic-enrollment)**|**[Присоединение к Azure AD с помощью Autopilot (пользовательский режим)](enrollment-autopilot.md)** |**[Присоединение к Azure AD с помощью Autopilot (режим самостоятельного развертывания)](enrollment-autopilot.md)** |**[Массовая регистрация](windows-bulk-enroll.md)**|**[DEM](device-enrollment-manager-enroll.md)** | **[BYOD](device-enrollment.md#bring-your-own-device)** | **[Объект групповой политики](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)** | **[Совместное управление](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview)** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Условный доступ                                      |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
+|Условный доступ                                      |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)\*\*|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
 |Пользователи связываются в устройством                    |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
 |Требуется Azure AD Premium                               |![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
 |Устройство может оценивать ресурсы, защищенные ЦС             |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
@@ -54,6 +54,8 @@ ms.locfileid: "72503263"
 |Поддерживает автоматическую регистрацию после присоединения к Azure AD       |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|
 
 \* Рабочие нагрузки клиентских приложений в Configuration Manager должны быть перемещены в Intune Pilot или Intune.
+
+\** [Устройства заблокированы для условного доступа, за исключением Windows 10 версии 1803 и выше.](device-enrollment-manager-enroll.md)
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

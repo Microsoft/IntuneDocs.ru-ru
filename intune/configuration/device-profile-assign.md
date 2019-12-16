@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/20/2019
+ms.date: 12/05/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 275b3961e87f0d0eda8299337fe3fb7ac89ef03b
-ms.sourcegitcommit: 1a22b8b31424847d3c86590f00f56c5bc3de2eb5
+ms.openlocfilehash: 651b02dc276ca2aa2003955e6aa7b0dfa6724a40
+ms.sourcegitcommit: 66e284fe092e19c1da72b4b770e45bf25ac7910c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74261691"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74860321"
 ---
 # <a name="assign-user-and-device-profiles-in-microsoft-intune"></a>Назначение профилей пользователей и устройств в Microsoft Intune
 
@@ -61,7 +61,7 @@ ms.locfileid: "74261691"
 
 При создании или обновлении профиля в него также можно добавить теги области и правила применимости.
 
-**Теги области** — это отличный способ назначения и фильтрации профилей для конкретных групп, таких как сотрудники отдела кадров, все сотрудники из Северной Каролины и т. д. Дополнительные сведения см. в статье [Use role-based access control (RBAC) and scope tags for distributed IT](../fundamentals/scope-tags.md) (Использование управления доступом на основе ролей (RBAC) и тегов области для распределенной ИТ разработки).
+**Теги областей** — это отличный способ фильтрации профилей для конкретных групп, таких как `US-NC IT Team` или `JohnGlenn_ITDepartment`. Дополнительные сведения см. в статье [Use role-based access control (RBAC) and scope tags for distributed IT](../fundamentals/scope-tags.md) (Использование управления доступом на основе ролей (RBAC) и тегов области для распределенной ИТ разработки).
 
 На устройствах Windows 10 можно добавить **правила применимости**, чтобы профиль применялся только к определенной версии ОС или к конкретному выпуску Windows. [Правила применимости](device-profile-create.md#applicability-rules) содержат дополнительные сведения.
 

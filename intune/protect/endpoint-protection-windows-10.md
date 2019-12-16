@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: e2909e7ad1ced9483a6cec58f1f3009f56946f5f
-ms.sourcegitcommit: 78cebd3571fed72a3a99e9d33770ef3d932ae8ca
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "74058425"
 ---
 # <a name="windows-10-and-later-settings-to-protect-devices-using-intune"></a>Параметры Windows 10 (и более поздних версий) для защиты устройств с помощью Intune
@@ -36,7 +36,7 @@ Microsoft Intune включает множество параметров для
 
 Дополнительные сведения о поставщиках служб конфигурации (CSP) см. в разделе [Справочник по поставщику служб конфигурации](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference).  
 
-## <a name="microsoft-defender-application-guard"></a>Application Guard в защитнике Майкрософт  
+## <a name="microsoft-defender-application-guard"></a>Application Guard в Microsoft Defender  
 
 Application Guard в Microsoft Defender изолирует среду в Microsoft Edge от всех сайтов, не являющихся доверенными в вашей организации. Если сайт не относится к изолированной корпоративной сети, он открывается в виртуальном сеансе просмотра Hyper-V. Надежные узлы определяются границами сети, которые можно настроить в конфигурации устройства.  
 
@@ -44,7 +44,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
 - **Application Guard**  
   **Значение по умолчанию**: не настроено  
-   CSP Application Guard: [Settings/алловвиндовсдефендераппликатионгуард](https://docs.microsoft.com/windows/client-management/mdm/windowsdefenderapplicationguard-csp#allowwindowsdefenderapplicationguard)  
+   CSP Application Guard — [Settings/AllowWindowsDefenderApplicationGuard](https://docs.microsoft.com/windows/client-management/mdm/windowsdefenderapplicationguard-csp#allowwindowsdefenderapplicationguard)  
 
   - **Включить для Edge** включает эту функцию, которая открывает недоверенные сайты в виртуализированном контейнере Hyper-V для просмотра.  
   - **Не настроено** — на устройстве можно открыть любой сайт (доверенный и недоверенный).  
@@ -120,7 +120,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
   - **Включить** — разрешить пользователям скачивать файлы из виртуального браузера в операционную систему сервера виртуальных машин.  
   - **Не настроено** — сохранять файлы локально на устройстве, не скачивая их в операционную систему сервера виртуальных машин.  
 
-## <a name="microsoft-defender-firewall"></a>Брандмауэр защитника Майкрософт  
+## <a name="microsoft-defender-firewall"></a>Брандмауэр в Microsoft Defender  
  
 ### <a name="global-settings"></a>Глобальные параметры  
 
@@ -194,7 +194,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 
 #### <a name="general-settings"></a>Общие параметры  
 
-- **Брандмауэр защитника Майкрософт**  
+- **Брандмауэр в Microsoft Defender**  
   **Значение по умолчанию**: не настроено  
   CSP брандмауэра: [енаблефиревалл](https://go.microsoft.com/fwlink/?linkid=872558)  
   
@@ -497,8 +497,8 @@ Application Guard в Microsoft Defender изолирует среду в Microso
     выберите метод шифрования для дисков операционной системы. Рекомендуется использовать алгоритм XTS-AES.  
     - **AES-CBC, 128 бит**.  
     - **AES-CBC, 256 бит**.  
-    - **XTS-AES 128-bit**  
-    - **XTS-AES 256-bit**  
+    - **XTS-AES, 128 бит**  
+    - **XTS-AES, 256 бит**  
 
   - **Шифрование несъемных дисков с данными**  
     **По умолчанию**: AES-CBC 128-bit  
@@ -506,8 +506,8 @@ Application Guard в Microsoft Defender изолирует среду в Microso
     выберите метод шифрования для несъемных дисков с данными. Рекомендуется использовать алгоритм XTS-AES.  
     - **AES-CBC, 128 бит**.  
     - **AES-CBC, 256 бит**.  
-    - **XTS-AES 128-bit**  
-    - **XTS-AES 256-bit**  
+    - **XTS-AES, 128 бит**  
+    - **XTS-AES, 256 бит**  
 
   - **Шифрование съемных дисков с данными**  
     **По умолчанию**: AES-CBC 128-bit  
@@ -515,8 +515,8 @@ Application Guard в Microsoft Defender изолирует среду в Microso
     выберите метод шифрования для съемных дисков с данными. Если съемный диск используется с устройствами, работающими не под управлением Windows 10, рекомендуется использовать алгоритм AES-CBC.  
     - **AES-CBC, 128 бит**.  
     - **AES-CBC, 256 бит**.  
-    - **XTS-AES 128-bit**  
-    - **XTS-AES 256-bit**  
+    - **XTS-AES, 128 бит**  
+    - **XTS-AES, 256 бит**  
 
 ### <a name="bitlocker-os-drive-settings"></a>Параметры дисков ОС в BitLocker  
 
@@ -636,7 +636,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
     - **Архивировать пароли и пакеты ключей восстановления**  
     - **Архивировать только пароли восстановления**  
 
-  - **Смена пароля восстановления на основе клиента**  
+  - **Смена пароля восстановления, инициированного клиентом**  
     **По умолчанию**: включено вращение ключей для устройств, присоединенных к Azure AD.  
     CSP для BitLocker: [конфигуререковерипассвордротатион](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp)  
     
@@ -733,7 +733,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
     - **Архивировать пароли и пакеты ключей восстановления**  
     - **Архивировать только пароли восстановления**  
 
-  - **Смена пароля восстановления на основе клиента**  
+  - **Смена пароля восстановления, инициированного клиентом**  
     **По умолчанию**: включено вращение ключей для устройств, присоединенных к Azure AD.  
     CSP для BitLocker: [конфигуререковерипассвордротатион](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp)  
     
@@ -771,7 +771,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
     - **Блокировать** — разрешение записи на устройствах, настроенных в другой организации.  
     - **Не настроено** — запретить доступ для записи.  
  
-## <a name="microsoft-defender-exploit-guard"></a>Защита от эксплойтов Microsoft Defender  
+## <a name="microsoft-defender-exploit-guard"></a>Exploit Guard в Microsoft Defender  
 
 Используйте [защиту от эксплойтов](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) для управления и снижения уязвимой зоны для приложений, используемых сотрудниками.  
 

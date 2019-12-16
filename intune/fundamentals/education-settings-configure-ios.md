@@ -18,17 +18,17 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0dd9a97fdafff784bab2eae1d466855082fd397a
-ms.sourcegitcommit: 737ad6c675deedfc6009f792023ff95981b06582
+ms.openlocfilehash: 6814b4d98b8512ce95119b05cc299964e486ac64
+ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74117825"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74784227"
 ---
 # <a name="how-to-configure-intune-settings-for-the-ios-classroom-app"></a>Как настроить параметры Intune для приложения iOS Класс
 
 > [!NOTE]
-> Intune в настоящее время не поддерживает настройку приложения аудитории. Эта статья применима только для пользователей с существующими профилями образования iOS в Intune.  
+> Intune в настоящее время не поддерживает настройку приложения аудитории. Эта статья применима только для пользователей с существующими профилями iOS в Intune для обучения.  
 
 ## <a name="introduction"></a>Введение
 [Класс](https://itunes.apple.com/app/id1085319084) — это приложение, которое помогает преподавателям руководить обучением и управлять устройствами учащихся в классе. Например, с помощью этого приложения преподаватели могут:
