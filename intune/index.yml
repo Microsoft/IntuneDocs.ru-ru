@@ -9,12 +9,12 @@ metadata:
   ms.author: dougeby
   manager: mtillman
   ms.date: 09/16/2019
-  ms.openlocfilehash: 94f010d249e5309604b3219670a74e8722464a38
-  ms.sourcegitcommit: f12bd2ce10b6241715bae2d2857f33c474287166
+  ms.openlocfilehash: 475898f58b77b9b13fe547547668aa67b9ecb965
+  ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/24/2019
-  ms.locfileid: "72892601"
+  ms.lasthandoff: 12/19/2019
+  ms.locfileid: "75207270"
 highlightedContent:
   items:
   - title: Что такое Intune?
@@ -32,9 +32,9 @@ highlightedContent:
   - title: Настройка автоматической регистрации устройств с Windows 10
     itemType: get-started
     url: ./enrollment/quickstart-setup-auto-enrollment.md
-  - title: Защита устройств Windows с помощью рекомендуемых параметров Майкрософт
-    itemType: get-started
-    url: ./protect/security-baselines.md
+  - title: Отчеты Intune
+    itemType: overview
+    url: ./fundamentals/reports.md
 conceptualContent:
   items:
   - title: Планирование внедрения Intune
