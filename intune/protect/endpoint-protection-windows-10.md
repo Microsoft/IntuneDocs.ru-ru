@@ -46,7 +46,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
   **Значение по умолчанию**: не настроено  
    CSP Application Guard — [Settings/AllowWindowsDefenderApplicationGuard](https://docs.microsoft.com/windows/client-management/mdm/windowsdefenderapplicationguard-csp#allowwindowsdefenderapplicationguard)  
 
-  - **Включить для Edge** включает эту функцию, которая открывает недоверенные сайты в виртуализированном контейнере Hyper-V для просмотра.  
+  - **Включено для Microsoft Edge** включает эту функцию, которая открывает недоверенные сайты в виртуализированном контейнере Hyper-V для просмотра.  
   - **Не настроено** — на устройстве можно открыть любой сайт (доверенный и недоверенный).  
 
 - **Поведение буфера обмена**  
