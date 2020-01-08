@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 08/19/2019
+ms.date: 01/06/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1a94f3d175fe5c036c5e90635a66467263b23122
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 1ff4fcd7d1b2115c4fbe0bc00759ef3d60482904
+ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72499114"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75692098"
 ---
 # <a name="protecting-application-extensions"></a>Защита расширений приложений
 
@@ -64,7 +64,7 @@ ms.locfileid: "72499114"
 Если пользователь соглашается на обмен данными между учетными записями, как и в случае с надстройками Office, интеграция с LinkedIn использует существующие API Microsoft Graph. Интеграция с LinkedIn использует лишь подмножество интерфейсов API, доступных для надстроек Office, и поддерживает различные исключения.
 
 
-|Разрешения Microsoft Graph  |Описание  |
+|Разрешения Microsoft Graph  |Описание:  |
 |---------|---------|
 |Разрешения на чтение для объекта [Люди](https://developer.microsoft.com/graph/docs/concepts/permissions_reference#people-permissions)     |Позволяет приложению считывать оцененный список людей, имеющих отношение к вошедшему в систему пользователю. Этот список может включать в себя локальные контакты, контакты из социальных сетей или каталога организации, а также людей, с которыми пользователь недавно общался (например, по электронной почте и Skype).         |
 |Разрешения на чтение для объекта [Календари](https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions)     |Позволяет приложению считывать события из пользовательских календарей. Включает в себя собрания в календарях вошедшего в систему пользователя, время их проведения, расположения и участников.         |

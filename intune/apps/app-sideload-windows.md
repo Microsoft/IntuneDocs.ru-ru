@@ -3,10 +3,10 @@ title: Загрузка неопубликованных приложений Wi
 titleSuffix: Microsoft Intune
 description: Узнайте, как подписывать бизнес-приложения, чтобы использовать Intune для их развертывания.
 keywords: ''
-author: erikre
+author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 09/24/2019
+ms.date: 01/06/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -16,12 +16,12 @@ ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7500000f8a34120e69c27ce01a6cfdb85f447abe
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: a4a4c6d40dc729fb72210c455c7819baaf89de3b
+ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73414698"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691828"
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Подписывание бизнес-приложений для развертывания на устройствах Windows с помощью Intune
 
@@ -67,7 +67,7 @@ Intune развертывает только последний отправле
 
 ## <a name="how-to-install-the-updated-certificate-for-line-of-business-lob-apps"></a>Установка обновленного сертификата для бизнес-приложений
 
-Windows Phone 8.1
+Windows Phone 8.1
 
 Служба Intune не может развертывать бизнес-приложения для этой платформы после истечения срока действия имеющегося сертификата подписи кода Symantec Mobile Enterprise. По-прежнему можно будет загружать неопубликованные неподписанные файлы XAP/APPX с помощью SD-карты или путем скачивания файла на устройство. Дополнительные сведения см. в разделе [How to install XAP files on Windows Phone](https://answers.microsoft.com/en-us/mobiledevices/forum/mdlumia-mdapps/how-to-install-xap-file-in-windows-phone-8/da09ee72-51ae-407c-9b85-bc148df89280) (Практическое руководство. Установка XAP-файлов на Windows Phone).
 
@@ -125,7 +125,7 @@ Windows 8.1 Desktop или Windows 10 Desktop и Windows 10 Mobile
 2. Скачайте приложение корпоративного портала для Windows 10 из Магазина Майкрософт для бизнеса, как описано выше.  
 3. Запустите скрипт с входными параметрами, подробно описанными в заголовке скрипта, чтобы подписать приложение корпоративного портала для Windows 10 (см. пример ниже). Зависимости не обязательно передавать в скрипт. Они будут нужны только в том случае, если приложение отправляется в консоль администрирования Intune.
 
-|       Параметр       |                                                                    Описание                                                                    |
+|       Параметр       |                                                                    Описание:                                                                    |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | InputWin10AppxBundle  |                                             Путь к исходному файлу appxbundle.                                              |
 | OutputWin10AppxBundle |                                                  Выходной путь для подписанного файла appxbundle.                                                  |

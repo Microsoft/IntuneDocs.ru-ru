@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cf872387d6e6f4f91af9f074f54695b081b79119
-ms.sourcegitcommit: 23e9c48348a6eba494d072a2665b7481e5b5c84e
+ms.openlocfilehash: 63ebbc22c5452c99439d34813509b5652daef1f0
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74549113"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548089"
 ---
 # <a name="use-update-channel-and-target-version-settings-to-update-office-365-with-microsoft-intune-administrative-templates"></a>Использование параметров канала обновления и целевой версии для обновления Office 365 с помощью административных шаблонов Microsoft Intune
 
@@ -75,7 +75,7 @@ ms.locfileid: "74549113"
     ![Пример раздела реестра L_Updatebranch административного шаблона](./media/administrative-templates-update-office/admx-update-branch-registry-key.png)
 
     > [!TIP]
-    > В статье [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates#change-the-update-channel-after-you-enable-office-365-clients-to-receive-updates-from-configuration-manager) (Управление Office 365 профессиональный плюс с помощью Configuration Manager) содержится список значений и их описание. Значения реестра основаны на выбранном канале распространения:
+    > В статье [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel) (Управление Office 365 профессиональный плюс с помощью Configuration Manager) содержится список значений и их описание. Значения реестра основаны на выбранном канале распространения:
     >
     >- Monthly Channel: значение — Current.
     >- Monthly Channel (Targeted): значение — Current.
@@ -95,7 +95,7 @@ ms.locfileid: "74549113"
     - `UpdateChannel`: динамический ключ, который изменяется в зависимости от настроенных параметров.
     - `CDNBaseUrl`: задается при установке Office 365 на устройстве.
 
-3. Проверьте значение `UpdateChannel`. Значение указывает, как часто обновляется Office. В статье [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates#change-the-update-channel-after-you-enable-office-365-clients-to-receive-updates-from-configuration-manager) (Управление Office 365 профессиональный плюс с помощью Configuration Manager) содержится список значений и их описание.
+3. Проверьте значение `UpdateChannel`. Значение указывает, как часто обновляется Office. В статье [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel) (Управление Office 365 профессиональный плюс с помощью Configuration Manager) содержится список значений и их описание.
 
     В следующем примере показано, что `UpdateChannel` имеет значение `http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60` (**ежемесячно**):
 
@@ -134,7 +134,7 @@ ms.locfileid: "74549113"
 
 Вы также можете принудительно установить обновление последней версии для Office. Следующие шаги следует выполнять, только если требуется получить подтверждение или если на устройствах нужно быстро установить обновление последней версии из этого канала. В противном случае дожидайтесь, пока Office выполнит задание автоматического обновления.
 
-### <a name="step-1-force-the-office-version-to-update"></a>Шаг 1. Принудительное обновление версии Office
+### <a name="step-1-force-the-office-version-to-update"></a>Шаг 1. Принудительное обновление версии Office
 
 1. Убедитесь, что версия Office поддерживает выбранный вами канал обновления. В статье [Журнал обновлений для Office 365 профессиональный плюс (перечислены по дате)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date) перечислены номера сборок, которые поддерживают различные каналы обновления.
 
@@ -150,7 +150,7 @@ ms.locfileid: "74549113"
 > - Изменения существующей политики влияют на всех назначенных пользователей.
 > - При тестировании этой функции рекомендуется создать политику тестирования и назначить ее тестовой группе пользователей.
 
-### <a name="step-2-check-the-office-version"></a>Шаг 2. Проверка версии Office
+### <a name="step-2-check-the-office-version"></a>Шаг 2. Проверка версии Office
 
 Рекомендуется использовать эти шаги для проверки политики перед ее развертыванием для всех пользователей.
 
@@ -173,7 +173,7 @@ ms.locfileid: "74549113"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-[Раздел об обновлении значений каналов для клиентов Office 365](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates#change-the-update-channel-after-you-enable-office-365-clients-to-receive-updates-from-configuration-manager)
+[Раздел об обновлении значений каналов для клиентов Office 365](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel)
 
 [Общие сведения о службе облачной политики Office для Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/overview-office-cloud-policy-service)
 

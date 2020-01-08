@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c3c03c67a99b78804c999250f8d1148a4b3d1d97
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 6d24d1c7dbae12fb33ec277419b1bbfd47b46b07
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72504761"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548057"
 ---
 # <a name="microsoft-intune-is-an-mdm-and-mam-provider-for-your-devices"></a>Microsoft Intune — это поставщик MDM и MAM для устройств
 
@@ -34,7 +34,7 @@ Microsoft Intune — это облачная служба, в которой о
 
 С помощью Intune можно выполнять следующие задачи:
 
-- Выбрать значение "100 % облака с Intune" или [совместно управляемый](https://docs.microsoft.com/sccm/comanage/overview) с помощью Configuration Manager и Intune.
+- Выбрать значение "100 % облака с Intune" или [совместно управляемый](https://docs.microsoft.com/configmgr/comanage/overview) с помощью Configuration Manager и Intune.
 - Задать правила и настроить параметры на персональных и корпоративных устройствах для доступа к данным и сетям.
 - Выполнять развертывание и проверку подлинности приложений на устройствах — локальных и мобильных.
 - Защитить сведения о компании, контролируя способ доступа к информации и совместного пользования информацией.

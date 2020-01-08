@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: ''
-ms.openlocfilehash: b6144767ee69de8c1ff14e5c189c078994a9dcf4
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 060c3c00a228794d3f237a6362b048bf23e1a933
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74819718"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75547726"
 ---
 # <a name="intune-enrollment-methods-for-windows-devices"></a>Способы регистрации в Intune для устройств Windows
 
@@ -49,7 +49,7 @@ ms.locfileid: "74819718"
 Администраторы могут настроить следующие методы регистрации, не требующие участия пользователя:
 
 - [Гибридное присоединение к Azure AD](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy) позволяет администраторам настроить групповую политику Active Directory для автоматической регистрации устройств, которые присоединены к Azure AD в гибридном режиме. 
-- [Совместное управление Configuration Manager](https://docs.microsoft.com/sccm/comanage/overview) позволяет администраторам регистрировать в Intune существующие устройства, управляемые Configuration Manager, чтобы получить двойное преимущество от использования Intune и Configuration Manager. 
+- [Совместное управление Configuration Manager](https://docs.microsoft.com/configmgr/comanage/overview) позволяет администраторам регистрировать в Intune существующие устройства, управляемые Configuration Manager, чтобы получить двойное преимущество от использования Intune и Configuration Manager. 
 - [Диспетчер регистрации устройств](device-enrollment-manager-enroll.md) (DEM) — это специальная учетная запись службы. Учетные записи DEM имеют разрешения, позволяющие авторизованным пользователям зарегистрировать несколько корпоративных устройств и управлять ими. Эти типы устройств хорошо подходят для приложений в сфере розничной торговли или коммунального обслуживания, но являются неприемлемым вариантом для доступа к электронной почте или корпоративным ресурсам. Этот метод препятствует использованию таких возможностей, как условный доступ. 
 - [Массовая регистрация](../windows-bulk-enroll.md) позволяет авторизованному пользователю присоединить большое количество новых корпоративных устройств к Azure Active Directory и Intune. Вы создаете пакет подготовки с помощью приложения "Конструктор конфигураций Windows" (WCD). Затем, используя USB-носитель во время запуска при первом включении компьютера Windows или с существующего компьютера Windows, вы устанавливаете пакет подготовки, чтобы автоматически зарегистрировать устройства в Intune. Этот метод препятствует использованию условного доступа. 
 - [Регистрация устройств Windows IoT Базовая](https://docs.microsoft.com/windows/iot-core/manage-your-device/intunedeviceenrollment) выполняется путем подготовки устройства с использованием панели мониторинга Windows IoT Базовая, а затем создания пакета подготовки с помощью конструктора конфигураций Windows. Затем с использованием SD-карты во время начальной загрузки устанавливается пакет подготовки для автоматической регистрации устройств в Intune.

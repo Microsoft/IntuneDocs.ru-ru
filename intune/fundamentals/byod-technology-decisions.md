@@ -15,12 +15,13 @@ ms.reviewer: pfetty
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c1666c55455a630b839f1f007fc93e5a3da20832
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+redirect_url: https://docs.microsoft.com/intune
+ms.openlocfilehash: 6b724c89d06b441253b81e0a6a328deea6a7158d
+ms.sourcegitcommit: e4602481a25a5e12379f673dfe801c611f51c35b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72509114"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731302"
 ---
 # <a name="technology-decisions-for-enabling-byod-with-microsoft-enterprise-mobility--security-ems"></a>Технические решения при реализации концепции BYOD с помощью Microsoft Enterprise Mobility + Security (EMS)
 
@@ -28,7 +29,7 @@ ms.locfileid: "72509114"
 
 В этом разделе мы рассмотрим простой случай обеспечения доступа к электронной почте предприятия в рамках концепции BYOD. Мы сосредоточимся на том, необходимо ли управлять всем устройством или только приложениями. Оба эти варианта вполне допустимы.
 
-## <a name="assumptions"></a>Допущения
+## <a name="assumptions"></a>Предположения
 * Вы имеете базовые знания об Azure Active Directory и Microsoft Intune.
 * Ваши учетные записи электронной почты размещаются в Exchange Online.
 

@@ -17,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3595e75a73868378c9c366de6c751c21a9151ae3
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 13fca4de8e36b1bdeb9026985e2eabd21e56e924
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74059516"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206947"
 ---
 # <a name="upgrade-windows-10-editions-or-switch-out-of-s-mode-on-devices-using-microsoft-intune"></a>Обновление выпусков Windows 10 или выход из режима S на устройствах с помощью Microsoft Intune
 
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
+
 
 Вам может потребоваться обновление ваших устройств Windows 10 в рамках вашего решения управления мобильными устройствами (MDM). Например, вы можете обновить устройство с Windows 10 Профессиональной до Windows 10 Корпоративной. Или вы хотите, чтобы устройство вышло из режима S.
 
@@ -61,18 +61,18 @@ ms.locfileid: "74059516"
 
 | Обновление с | Обновление до |
 |---|---|
-| Windows 10 Pro | Windows 10 для образовательных учреждений <br/>Windows 10 Корпоративная <br/>Windows 10 Pro для образовательных учреждений |
+| Windows 10 Pro | Windows 10 для образовательных учреждений <br/>Windows 10 Корпоративная <br/>Windows 10 Pro для образовательных учреждений |
 | Windows 10 Профессиональная N | Windows 10 для образовательных учреждений N <br/>Windows 10 Корпоративная N <br/>Windows 10 Pro для образовательных учреждений N | 
 | Windows 10 Pro для образовательных учреждений | Windows 10 для образовательных учреждений | 
 | Windows 10 Pro для образовательных учреждений N | Windows 10 для образовательных учреждений N |
-| Windows 10 Cloud | Windows 10 для образовательных учреждений <br/>Windows 10 Корпоративная <br/>Windows 10 Pro <br/>Windows 10 Pro для образовательных учреждений | 
+| Windows 10 Cloud | Windows 10 для образовательных учреждений <br/>Windows 10 Корпоративная <br/>Windows 10 Pro <br/>Windows 10 Pro для образовательных учреждений | 
 | Windows 10 Cloud N | Windows 10 для образовательных учреждений N <br/>Windows 10 Корпоративная N <br/>Windows 10 Профессиональная N <br/>Windows 10 Pro для образовательных учреждений N | 
-| Windows 10 Корпоративная | Windows 10 для образовательных учреждений | 
+| Windows 10 Корпоративная | Windows 10 для образовательных учреждений | 
 | Windows 10 Корпоративная N | Windows 10 для образовательных учреждений N | 
-| Windows 10 Core | Windows 10 для образовательных учреждений <br/>Windows 10 Корпоративная <br/>Windows 10 Pro для образовательных учреждений | 
+| Windows 10 Core | Windows 10 для образовательных учреждений <br/>Windows 10 Корпоративная <br/>Windows 10 Pro для образовательных учреждений | 
 | Windows 10 Core N | Windows 10 для образовательных учреждений N <br/>Windows 10 Корпоративная N <br/>Windows 10 Pro для образовательных учреждений N | 
 | Windows 10 Holographic | Windows 10 Holographic для бизнеса |
-| Windows 10 Mobile | Windows 10 Mobile Корпоративная |
+| Windows 10 Mobile | Windows 10 Mobile Корпоративная |
 
 <!--The following table provides information about the supported upgrade paths for Windows 10 editions in this policy:
 
@@ -100,8 +100,8 @@ ms.locfileid: "74059516"
 2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
-    - **Имя**. Введите описательное имя для нового профиля. Например, можно ввести `Windows 10 edition upgrade profile` или `Windows 10 switch off S mode`.
-    - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
+    - **Имя** — Введите описательное имя для нового профиля. Например, можно ввести `Windows 10 edition upgrade profile` или `Windows 10 switch off S mode`.
+    - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
     - **Платформа**. Выберите **Windows 10 и более поздних версий**.
     - **Тип профиля**. Выберите **Обновление выпуска**.
     - **Параметры**: Введите параметры, которые вы хотите настроить. См. полный список параметров и сведения об их назначении:

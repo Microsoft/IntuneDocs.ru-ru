@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 11b93d41ac09f637d6c75a3f2f4b7f4213cecec7
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: b68ec61496c3c15acc8facc22a6fdfe3c65f06eb
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74819763"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75547874"
 ---
 # <a name="intune-enrollment-method-capabilities-for-windows-devices"></a>Возможности Intune по регистрации устройств Windows
 [!INCLUDE[azure_portal](../includes/azure_portal.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "74819763"
 Есть несколько способов регистрации корпоративных устройств в Intune. К каждому способу применяются различные рекомендации и возможности, как показано в приведенных ниже таблицах.
 
 ## <a name="best-practices-by-enrollment-method"></a>Рекомендации по каждому способу регистрации
-| **Рекомендации** | **[Присоединение к Azure AD](windows-enroll.md#enable-windows-10-automatic-enrollment)**|**[Присоединение к Azure AD с помощью Autopilot (пользовательский режим)](enrollment-autopilot.md)** |**[Присоединение к Azure AD с помощью Autopilot (режим самостоятельного развертывания)](enrollment-autopilot.md)** |**[Массовая регистрация](windows-bulk-enroll.md)**|**[DEM](device-enrollment-manager-enroll.md)** | **[BYOD](device-enrollment.md#bring-your-own-device)** | **[Объект групповой политики](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)** | **[Совместное управление](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview)** |
+| **Рекомендации** | **[Присоединение к Azure AD](windows-enroll.md#enable-windows-10-automatic-enrollment)**|**[Присоединение к Azure AD с помощью Autopilot (пользовательский режим)](enrollment-autopilot.md)** |**[Присоединение к Azure AD с помощью Autopilot (режим самостоятельного развертывания)](enrollment-autopilot.md)** |**[Массовая регистрация](windows-bulk-enroll.md)**|**[DEM](device-enrollment-manager-enroll.md)** | **[BYOD](device-enrollment.md#bring-your-own-device)** | **[Объект групповой политики](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)** | **[Совместное управление](https://docs.microsoft.com/configmgr/core/clients/manage/co-management-overview)** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Обычно используется для образовательных учреждений|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|
 |Устройства можно использовать в качестве общих|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|
@@ -39,7 +39,7 @@ ms.locfileid: "74819763"
 
 ## <a name="capabilities-by-enrollment-method"></a>Возможности по каждому способу регистрации
 
-| **Возможности** | **[Присоединение к Azure AD](windows-enroll.md#enable-windows-10-automatic-enrollment)**|**[Присоединение к Azure AD с помощью Autopilot (пользовательский режим)](enrollment-autopilot.md)** |**[Присоединение к Azure AD с помощью Autopilot (режим самостоятельного развертывания)](enrollment-autopilot.md)** |**[Массовая регистрация](windows-bulk-enroll.md)**|**[DEM](device-enrollment-manager-enroll.md)** | **[BYOD](device-enrollment.md#bring-your-own-device)** | **[Объект групповой политики](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)** | **[Совместное управление](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview)** |
+| **Возможности** | **[Присоединение к Azure AD](windows-enroll.md#enable-windows-10-automatic-enrollment)**|**[Присоединение к Azure AD с помощью Autopilot (пользовательский режим)](enrollment-autopilot.md)** |**[Присоединение к Azure AD с помощью Autopilot (режим самостоятельного развертывания)](enrollment-autopilot.md)** |**[Массовая регистрация](windows-bulk-enroll.md)**|**[DEM](device-enrollment-manager-enroll.md)** | **[BYOD](device-enrollment.md#bring-your-own-device)** | **[Объект групповой политики](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)** | **[Совместное управление](https://docs.microsoft.com/configmgr/core/clients/manage/co-management-overview)** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Условный доступ                                      |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)\*\*|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
 |Пользователи связываются в устройством                    |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|

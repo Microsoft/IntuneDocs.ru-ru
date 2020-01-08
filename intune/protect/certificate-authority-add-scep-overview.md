@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9454353ec4f8291d4d8c0001cc977838ecec787b
-ms.sourcegitcommit: 16a9109b4028589c17695d41271ca4fee8b1d697
+ms.openlocfilehash: 4d05e33dbc28707bc6f929be72ba4a77c2e0641c
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74540801"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206063"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
 
@@ -119,7 +119,7 @@ ms.locfileid: "74540801"
 ## <a name="third-party-certification-authority-partners"></a>Сторонние центры сертификации партнеров
 Следующие сторонние центры сертификации поддерживают Intune:
 
-- [Entrust Datacard](https://info.entrustdatacard.com/pki-eval-tool)
+- [Entrust Datacard](https://go.entrustdatacard.com/pki/intune/)
 - [EJBCA — версия с открытым исходным кодом в GitHub](https://github.com/agerbergt/intune-ejbca-connector)
 - [EverTrust](https://evertrust.fr/en/products/)
 - [GlobalSign](https://downloads.globalsign.com/acton/attachment/2674/f-6903f60b-9111-432d-b283-77823cc65500/1/-/-/-/-/globalsign-aeg-microsoft-intune-integration-guide.pdf)

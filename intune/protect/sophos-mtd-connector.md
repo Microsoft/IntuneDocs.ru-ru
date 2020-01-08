@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e8823aa8467ef380223a486874c68d52926db733
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: f41d5d1ec3e302a277fe5e6ff6af9d33a7e89517
+ms.sourcegitcommit: d21539e52631c589bfeaa182418390f66672736c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72503742"
+ms.lasthandoff: 01/01/2020
+ms.locfileid: "75564923"
 ---
 # <a name="sophos-mobile-threat-defense-connector-with-intune"></a>Соединитель Sophos Mobile Threat Defense в Intune
 Вы можете управлять доступом с мобильных устройств к корпоративным ресурсам, используя условный доступ на основе оценки рисков. Такую возможность дает вам Sophos Mobile — решение Mobile Threat Defense (MTD), интегрируемое с Microsoft Intune. Оценка рисков основана на телеметрии, собираемой с устройств с запущенным приложением Sophos Mobile.
@@ -45,7 +45,7 @@ ms.locfileid: "72503742"
 **Доступ предоставляется после устранения угрозы**:  
 ![Схематическое изображение предоставления доступа после устранения угрозы](./media/sophos-mtd-connector/sophos_malicious_apps_unblocked.png)
 
-### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети  
+### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основе угроз для сети  
 Обнаружение угроз для вашей сети, таких как атаки злоумышленник в середине, и защита доступа к сети Wi-Fi на основе рисков, связанных с устройствами.  
 
 **Блокировка доступа к сети через Wi-Fi**:  
@@ -54,7 +54,7 @@ ms.locfileid: "72503742"
 **Доступ предоставляется после устранения угрозы**:   
 ![Доступ предоставляется после устранения угрозы](./media/sophos-mtd-connector/sophos_network_wifi_unblocked.png)  
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети  
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети  
 Обнаружение угроз для вашей сети, таких как атаки злоумышленник в середине, и блокирование синхронизации корпоративных файлов на основании риска для устройства.  
 
 **Блокировка SharePoint Online при обнаружении сетевых угроз**:   
@@ -72,7 +72,7 @@ ms.locfileid: "72503742"
 - Подписка на Microsoft Intune 
 - Подписка на Sophos Mobile Threat Defense
 
-Дополнительные сведения см. на [веб-сайте Sophos](https://www.sophos.com/products/mobile-control).  
+Дополнительные сведения см. на [веб-сайте Sophos](https://www.sophos.com/en-us/products/mobile-control.aspx).
 
 ## <a name="next-steps"></a>Дальнейшие шаги  
 - [Интеграция Sophos с Intune](sophos-mtd-connector-integration.md)

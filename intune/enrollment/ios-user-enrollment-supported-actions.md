@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ffabcace189efd60e9d532172ecd1f2a048eec2c
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: e23e582a853f0b424296d8fb42f6c7d8fdd2984c
+ms.sourcegitcommit: 0d9e1452fcf5f15a80230838f80a427b9951cdb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74562407"
+ms.lasthandoff: 12/21/2019
+ms.locfileid: "75324871"
 ---
 # <a name="intune-actions-and-options-supported-with-apple-user-enrollment"></a>Действия и параметры Intune, поддерживаемые при регистрации пользователей Apple
 
@@ -38,7 +38,7 @@ ms.locfileid: "74562407"
 
 Например, вы настраиваете параметр **Срок действия пароля** и отправляете эту политику на зарегистрированные пользователем устройства. На устройствах происходит следующее:
 - Параметр **Срок действия пароля** игнорируется.
-- Простые пароли, такие как `1111` или `1234`, не допускаются.
+- Простые пароли, такие как `111111` или `123456`, не допускаются.
 - Применяется ПИН-код из 6 цифр.
 
 ## <a name="administrator-remote-device-actions-and-options"></a>Действия и параметры удаленного устройства администратора
