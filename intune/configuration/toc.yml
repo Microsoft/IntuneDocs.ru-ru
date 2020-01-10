@@ -9,6 +9,10 @@
   items:
     - name: Создание профиля электронной почты устройства
       href: quickstart-email-profile.md
+- name: Руководства
+  items:
+    - name: Создание административного шаблона
+      href: tutorial-walkthrough-administrative-templates.md
 - name: Практические руководства
   items:
     - name: Создание профиля
@@ -27,7 +31,7 @@
     - name: "Параметры\_BIOS в\_Windows"
       href: device-firmware-configuration-interface-windows.md
       displayName: 'DFCI, firmware'
-    - name: Updates
+    - name: Обновления
       href: delivery-optimization-windows.md
       displayName: delivery optimization; updates
     - name: Обновление выпусков и S-режим
@@ -82,7 +86,7 @@
           href: android-zebra-mx-logs-troubleshoot.md
         - name: Частые вопросы и ответы
           href: device-profile-troubleshoot.md
-- name: Справочник
+- name: Справочные сведения
   items:
     - name: Параметры профиля конфигурации
       items:
@@ -129,7 +133,7 @@
               href: custom-settings-ios.md
             - name: Идентификаторы пакетов для встроенных приложений
               href: bundle-ids-built-in-ios-apps.md
-        - name: macOS
+        - name: MacOS
           items:
             - name: Возможности устройств
               href: macos-device-features-settings.md
@@ -145,8 +149,6 @@
               href: vpn-settings-macos.md
             - name: Wi-Fi
               href: wi-fi-settings-macos.md
-            - name: Проводная сеть
-              href: wired-network-settings-macos.md
             - name: Особые настройки
               href: custom-settings-macos.md
         - name: Windows 10 и более поздней версии
@@ -197,7 +199,7 @@
               href: vpn-settings-windows-8-1.md
             - name: Импорт Wi-Fi
               href: wi-fi-settings-import-windows-8-1.md
-        - name: "Windows\_Phone\_8.1"
+        - name: Windows Phone 8.1
           items:
             - name: Ограничения устройств
               href: device-restrictions-windows-phone-8-1.md
