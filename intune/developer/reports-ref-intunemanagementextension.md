@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/03/2019
+ms.date: 01/03/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ae99e747f9c0540418c15f24fbe0c27c585f869c
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: b2efddc75c5819a25d9ba097cb24726e80df14f2
+ms.sourcegitcommit: 8d7406b75ef0d75cc2ed03b1a5e5f74ff10b98c0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72490302"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75654198"
 ---
 # <a name="reference-for-intune-management-extensions"></a>Справочник по расширениям для управления Intune
 
@@ -36,7 +36,7 @@ ms.locfileid: "72490302"
 
 Сущность **intuneManagementExtensionVersion** выводит список всех версий, используемых intuneManagementExtensions.
 
-| Свойство  | Описание | Пример |
+| Свойство  | Описание: | Пример |
 |---------|------------|--------|
 | extensionVersionKey |Уникальный идентификатор для версии IntuneManagementExtensions. | 1 |
 | extensionVersion |Номер версии из 4 цифр. |1.0.2.0 |
@@ -45,7 +45,7 @@ ms.locfileid: "72490302"
 
 **intuneManagementExtensionHealthState** выводит список всех возможных состояний работоспособности intuneManagementExtensions.
 
-| Свойство  | Описание | Пример |
+| Свойство  | Описание: | Пример |
 |---------|------------|--------|
 | extensionStateKey |Уникальный идентификатор для состояния работоспособности. | 2 |
 | extensionState |Состояние работоспособности IntuneManagementExtension. | Работоспособно |
@@ -56,7 +56,7 @@ ms.locfileid: "72490302"
 Эти данные хранятся в течение 60 дней. 
 
 
-|      Свойство       |                         Описание                         | Пример |
+|      Свойство       |                         Описание:                         | Пример |
 |---------------------|-------------------------------------------------------------|---------|
 |       dateKey       |               Уникальный идентификатор даты.                |   123   |
 |      tenantKey      |              Уникальный идентификатор клиента.               |   456   |

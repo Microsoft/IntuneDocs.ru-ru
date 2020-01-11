@@ -16,13 +16,13 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 309672805b89275e3a9aef7fae6b20754a923916
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: dc7d9b3127f5a6424ab31652f7bdfa8e6488f6ff
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72500713"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75858644"
 ---
 # <a name="resolve-a-threat-found-by-lookout-for-work"></a>Устранение угрозы, обнаруженной Lookout for Work  
 

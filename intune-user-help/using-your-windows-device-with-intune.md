@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: c5accdf3699770444b7aafeb39d431755f9d3ba9
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: a7eaf8e1cf17624491824ddf3f8911757eea9080
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72501818"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75857577"
 ---
 # <a name="using-your-windows-device-with-intune-company-portal"></a>Использование устройства Windows с Корпоративным порталом Intune
 
@@ -40,7 +40,7 @@ ms.locfileid: "72501818"
 Корпоративный портал сейчас поддерживает устройства под управлением следующих версий Windows:
 
 * Windows 10 — Домашняя, Профессиональная, Корпоративная версии и версия для образовательных учреждений, а также S-режим
-* Windows Phone 8.1 и более поздней версии
+* Windows Phone 8.1 и более поздней версии
 * Windows 8.1 RT
 * Windows 8.1
 

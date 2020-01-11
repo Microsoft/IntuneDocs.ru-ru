@@ -17,13 +17,13 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser; seodec18
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 397244755457e784899438d307053bdf6f754fd0
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: a0e02e2f539c24665cb326ea7d6d4f9aadb5d57e
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72500467"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75858479"
 ---
 # <a name="you-need-to-turn-off-usb-debugging"></a>Вам необходимо отключить режим отладки по USB
 

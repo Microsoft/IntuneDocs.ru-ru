@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/02/2019
+ms.date: 01/03/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c8fbae6cec25480244ede165ed7b22715d9a602a
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: b1f5354cecb271e6e3b141c5af12a9309d210d0b
+ms.sourcegitcommit: 8d7406b75ef0d75cc2ed03b1a5e5f74ff10b98c0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72490353"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75654181"
 ---
 # <a name="reference-for-dates-entity"></a>Ссылка на сущность dates
 
@@ -34,7 +34,7 @@ ms.locfileid: "72490353"
 Сущность **date** представляет даты, на которые ссылаются разные сущности хранилища данных.
 
 
-|    Свойство     |                      Описание                       |       Пример        |
+|    Свойство     |                      Описание:                       |       Пример        |
 |-----------------|--------------------------------------------------------|----------------------|
 |     dateKey     | Уникальный идентификатор для этой даты в хранилище данных. |       20160703       |
 |    FullDate     |    Эта дата представлена в полном формате дата/время.     | 3/7/2016 12:00:00 |

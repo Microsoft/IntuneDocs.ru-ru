@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: c4aca6fde21419d6ae1ca95d5a9aac5ab7f83d99
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: f6ac3399a4de4fe7372eca20f20eda61aa0dd23e
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72505827"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75854948"
 ---
 # <a name="how-to-reconnect-a-compromised-android-device"></a>Повторное подключение к скомпрометированному устройству Android
 

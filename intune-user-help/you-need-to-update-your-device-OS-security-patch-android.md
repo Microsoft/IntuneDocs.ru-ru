@@ -17,13 +17,13 @@ searchScope:
 - User help
 ROBOTS: ''
 ms.custom: intune-enduser; seodec18
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: f72ecdea6fc9743ad4ee225b2d490e791363be1f
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: 5a1b4b8df756be4f3dc213d641c08e723926fb63
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72507722"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75857210"
 ---
 # <a name="you-need-to-update-your-android-devices-operating-system"></a>Необходимо обновить операционную систему на устройстве Android
 

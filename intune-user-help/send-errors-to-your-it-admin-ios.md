@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 81f90c8022fb471ffa8783d636c88ce67a296595
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: e37a82fe3cca461e8384843dc0710cb00c36b79c
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72502056"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75858085"
 ---
 # <a name="send-errors-to-your-company-support-for-issues-with-your-ios-device"></a>Отправка сведений об ошибках с устройством iOS в службу поддержки вашей компании
 Иногда при использовании приложения "Корпоративный портал" на устройстве iOS могут возникать ошибки. В этом случае можно отправить сведения об ошибке специалисту службы поддержки вашей компании. В сведениях будет указан контекст, необходимый для устранения проблемы.

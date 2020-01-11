@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: bbc251479652079cb33b1ca4dd08103103b91aa9
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: 75c28fb662daaf96aba6324b468b50e7c9081fd2
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508196"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75857897"
 ---
 # <a name="troubleshoot-your-windows-10-device-enrollment"></a>Устранение проблем при регистрации устройств c Windows 10
 Если вы уже зарегистрировали устройство, но по-прежнему не можете получить доступ к рабочей или учебной электронной почте и файлам, попробуйте выполнить эти действия по устранению неполадок.  

@@ -17,13 +17,13 @@ searchScope:
 ROBOTS: ''
 ms.reviewer: priyar
 ms.suite: ems
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 29a79e109f40a06930f988156e7621a4b55c05f4
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: e2d1dc6a6bdb30ad694a1223279855e6708d6ffc
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72502027"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75857772"
 ---
 # <a name="fix-common-issues-with-your-windows-device"></a>Решение распространенных проблем с устройствами с Windows
 

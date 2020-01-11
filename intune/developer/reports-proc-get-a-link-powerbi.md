@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/07/2019
+ms.date: 01/03/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8d7a5f67dfd8f7256559cb54d873ed48205ad751
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 6d99410416da4c98bb01611051176b793c845237
+ms.sourcegitcommit: 8d7406b75ef0d75cc2ed03b1a5e5f74ff10b98c0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72490425"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75654113"
 ---
 # <a name="connect-to-the-data-warehouse-with-power-bi"></a>Подключение к хранилищу данных с помощью Power BI
 
@@ -83,7 +83,7 @@ ms.locfileid: "72490425"
 5. Выберите **файл** > **получить данные**. Выберите **Канал OData**.
 6. Выберите **Базовый**.
 7. Введите или вставьте **URL-адрес OData** в поле URL-адреса.
-8. Нажмите кнопку **ОК**.
+8. Нажмите кнопку **OK**.
 9. Если вы не выполняли проверку подлинности в Azure AD для своего клиента из клиента Power BI Desktop, введите свои учетные данные. Для получения доступа к данным вам необходимо авторизоваться в Azure Active Directory (Azure AD) с помощью OAuth 2.0.  
     1. Выберите **Учетная запись в организации**.  
     2. Введите имя пользователя и пароль.  

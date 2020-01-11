@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 169007541bccfc3e26184ac71197265931afbfdd
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: f54f0d9453e93ad54a1d2a96ff25051f3d8bd3a1
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508107"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75857679"
 ---
 # <a name="remove-your-device-from-management-if-you-declined-terms-of-use"></a>Удаление устройства из системы управления при отказе от условий использования
 
@@ -38,7 +38,7 @@ ms.locfileid: "72508107"
 
 Чтобы удалить устройство из Intune и удалить приложение корпоративного портала, выполните следующие действия.
 
-1. Последовательно выберите пункты **Параметры** &gt; **Безопасность &amp; Блокировка экрана** &gt; **Администраторы устройств**.
+1. Последовательно выберите **параметры** &gt; **Безопасность &amp; блокировка экрана** &gt; **Администраторы устройств**.
 
     При выполнении этого шага регистрация устройства сразу же отменяется.
 

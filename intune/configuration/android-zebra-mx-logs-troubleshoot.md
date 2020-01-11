@@ -17,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e7ed93c86d3fbe7ed7a6ac5d4b1a3494fb55f2bc
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 2319fb0d1198289398912793e52482bf66d87173
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72506989"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206845"
 ---
 # <a name="troubleshoot-and-see-potential-issues-on-android-zebra-devices-in-microsoft-intune"></a>Устранение неполадок и просмотр потенциальных проблем на устройствах Android черно в Microsoft Intune
 
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
+
 
 В Microsoft Intune можно использовать [расширения черно Mobility Service (MX) для управления устройствами Android черно](android-zebra-mx-overview.md). При использовании устройств черно вы создаете профили в Стаженов для управления параметрами и их отправки в Intune. Intune использует приложение Стаженов для применения параметров на устройствах. Приложение Стаженов также создает подробный файл журнала на устройстве, которое используется для устранения неполадок.
 

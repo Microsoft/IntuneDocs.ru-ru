@@ -19,13 +19,13 @@ ROBOTS: ''
 ms.reviewer: vadona
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7c3e4ecccef1ef094000136e49effac138bdfe88
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: 9d44895f5a10eecac82e9984767c820bd2ad457e
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72501902"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75857662"
 ---
 # <a name="you-need-to-update-your-android-device-to-install-the-outlook-app"></a>Необходимо обновить устройство Android для установки приложения Outlook
 

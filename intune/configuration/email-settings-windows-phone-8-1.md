@@ -16,21 +16,22 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 455d69328f8b70b1de73067c6290b6955df1e710
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: aab4379e30397132cead64acbd8d43039b128e02
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72506748"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206420"
 ---
 # <a name="email-profile-settings-in-microsoft-intune-for-devices-running-windows-phone-81"></a>Параметры профиля электронной почты в Microsoft Intune для устройств Windows Phone 8.1
 
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
+
 
 В этой статье показано, какие параметры профиля электронной почты вы можете настроить для устройств Windows Phone 8.1.
 
+>[!IMPORTANT]
+>Windows Phone 8,1 профили электронной почты также применяются к устройствам Windows 10.
 
-- **Apply all settings to Windows Phone 8.1 only** (Применение всех параметров только к устройствам с Windows Phone 8.1). Этот параметр можно настроить на классическом портале Intune. На портале Azure этот параметр изменить невозможно. Если задано значение **Настроено**, все параметры применяются только к устройствам Windows Phone 8.1. Если выбрать значение **Не настроено**, эти параметры также применяются к устройствам Windows 10 Mobile.
 - **Почтовый сервер**. Имя узла вашего сервера Exchange.
 - **Имя учетной записи**. Имя учетной записи электронной почты, которое будет отображаться на устройствах пользователей.
 - **Атрибут имени пользователя из AAD**. Это атрибут в Active Directory (AD) или Azure AD, с помощью которого создается имя пользователя для этого профиля электронной почты. Выберите **Первичный SMTP-адрес** (например, **user1@contoso.com** ) или **Имя субъекта-пользователя** (например, **user1** или **user1@contoso.com** ).
