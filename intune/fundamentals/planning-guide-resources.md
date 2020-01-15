@@ -17,12 +17,12 @@ ms.reviewer: jeffbu, cgerth
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a23409b03047cac8edb0a50ad5188e006d35049a
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 23b7264f2b7c9be0805ae30afca5c8cb15b83482
+ms.sourcegitcommit: de663ef5f3e82e0d983899082a7f5b62c63f24ef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72505157"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75956252"
 ---
 # <a name="additional-resources-for-planning-your-intune-deployment"></a>Дополнительные ресурсы по планированию развертывания Intune
 
@@ -39,18 +39,18 @@ ms.locfileid: "72505157"
 | Трудности при развертывании |Условия|Проверочное тестирование для сценария конечного пользователя|
 | Сценарии вариантов использования |Политика конфигурации| |
 | Требования для сценариев вариантов использования |Certificate profile (Профиль сертификата)| |
-| План развертывания |Профиль Wi-Fi| |
+| План развертывания |профиль Wi-Fi;| |
 | Коммуникационный план развертывания|VPN profile (Профиль VPN)| |
 | |  Профиль электронной почты | |
 | | Приложения | |
 | | Compliance policy (Политика соответствия требованиям) | |
 | | Политика условного доступа|-|
 
-## <a name="further-reading"></a>Дополнительные материалы
+## <a name="further-reading"></a>Дополнительные сведения
 
 Ознакомьтесь с этими ссылками на дополнительные сведения, которые могут оказаться полезными во время планирования, проектирования и внедрения развертывания Intune.
 
-- [Документация по Microsoft Intune](http://docs.microsoft.com/intune/). Полный комплект документации по Intune.
+- [Документация по Microsoft Intune](https://docs.microsoft.com/intune/). Полный комплект документации по Intune.
 
 - [Центр управления безопасностью Майкрософт](https://www.microsoft.com/TrustCenter). Сведения о подходе корпорации Майкрософт к обеспечению безопасности, конфиденциальности, соответствия требованиям и прозрачности для всех облачных продуктов и служб Майкрософт.
 

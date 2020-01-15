@@ -18,20 +18,20 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b4661b151493eb68cc6f71a5a77bd023ac27b826
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 331d4d312541f587077c70e19634e331f9ddc21e
+ms.sourcegitcommit: de663ef5f3e82e0d983899082a7f5b62c63f24ef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72810225"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75956349"
 ---
 # <a name="set-up-lookout-mobile-endpoint-security-integration-with-intune"></a>Настройка интеграции Lookout Mobile Endpoint Security с Intune
 Интегрировать Lookout Mobile Endpoint Security с Intune можно при наличии [отвечающей требованиям](lookout-mobile-threat-defense-connector.md#prerequisites) среды. Сведения в этой статье помогут вам настроить интеграцию и важные параметры в Lookout для использования с Intune.  
 
 > [!IMPORTANT]
-> Существующий клиент Lookout Mobile Endpoint Security, который еще не связан с клиентом Azure AD, невозможно использовать для интеграции с Azure AD и Intune. Обратитесь в службу поддержки Lookout для создания нового клиента Lookout Mobile Endpoint Security. Используйте новый клиент для подключения пользователей Azure AD.
+> Существующий клиент Lookout Mobile Endpoint Security, который еще не связан с вашим клиентом Azure AD, нельзя использовать для интеграции с Azure AD и Intune. Свяжитесь со службой поддержки Lookout, чтобы создать новый клиент Lookout Mobile Endpoint Security. Используйте новый клиент для подключения пользователей Azure AD.
 
-## <a name="collect-azure-ad-information"></a>Сбор данных об Azure AD  
+## <a name="collect-azure-ad-information"></a>Сбор сведения из Azure AD  
 Для интеграции Lookout в Intune необходимо связать клиент Lookout Mobility Endpoint Security с вашей подпиской Azure AD.
 
 Чтобы обеспечить интеграцию подписки Lookout Mobile Endpoint Security с Intune, предоставьте в службу поддержки Lookout следующую информацию (enterprisesupport@lookout.com):  
@@ -45,7 +45,7 @@ ms.locfileid: "72810225"
   В этой необязательной группе пользователей в Azure AD будут содержаться пользователи, у которых не будет доступа к нескольким модулям конфигурации и регистрации в консоли Lookout. Вместо этого эти пользователи получают доступ только для чтения к модулю **политики безопасности** консоли Lookout. Чтобы войти в консоль Lookout, пользователи должны быть участниками этой необязательной группы или обязательной *группы с полным доступом*.
 
  > [!TIP] 
- > Дополнительные сведения о разрешениях см. [в этой статье](https://personal.support.lookout.com/hc/articles/114094105653) на веб-сайте Lookout.
+ > Дополнительные сведения о разрешениях см. в [этой статье](https://personal.support.lookout.com/hc/articles/114094105653) на веб-сайте Lookout.
 
 ### <a name="collect-information-from-azure-ad"></a>Сбор информации из Azure AD 
 
@@ -77,7 +77,7 @@ ms.locfileid: "72810225"
 ### <a name="initial-sign-in"></a>Изначальный вход  
 При первом входе в консоль Lookout MES отображается страница согласия (https://aad.lookout.com/les?action=consent). Глобальный администратор Azure AD просто выполняет вход и нажимает кнопку **Принять**. В дальнейшем этот уровень прав Azure AD не потребуется. 
 
- Открывается страница согласия. Выберите **Принять** для завершения регистрации. 
+ Выводится страница подтверждения. Чтобы завершить регистрацию, нажмите кнопку **Принять**. 
    ![снимок экрана страницы первоначального входа в консоль Lookout](./media/lookout-mtd-connector-integration/lookout_mtp_initial_login.png)
 
 Приняв условия, вы будете перенаправлены в консоль Lookout.
@@ -97,7 +97,7 @@ ms.locfileid: "72810225"
 
 3. Выберите **Enrollment Management** (Управление регистрацией) и для параметра **Use the following Azure AD security groups to identify devices that should be enrolled in Lookout for Work** (Использовать следующие группы безопасности Azure AD, чтобы определить устройства, которые должны быть зарегистрированы в Lookout for Work) укажите *имя группы* Azure AD для использования с Lookout, а затем щелкните **Save changes** (Сохранить изменения).
 
-    ![снимок экрана: страница регистрации соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-enrollment.png)  
+    ![снимок экрана со страницей регистрации соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-enrollment.png)  
 
    **О группах, которые вы используете**:
    - Для тестирования интеграции с Lookout рекомендуется создать группу безопасности Azure AD, содержащую небольшое число пользователей.
@@ -108,12 +108,12 @@ ms.locfileid: "72810225"
 
 5. Щелкните **Error Management** (Управление ошибками), укажите адрес электронной почты, на который должны приходить отчеты об ошибках, а затем выберите **Save changes** (Сохранить изменения).
  
-   ![снимок экрана страницы управления ошибками соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-connector-error-notifications.png)
+   ![снимок экрана со страницей управления ошибками соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-connector-error-notifications.png)
 
 6. Щелкните **Create connector** (Создать соединитель), чтобы завершить настройку соединителя. Позже, когда вы будете удовлетворены результатами, вы можете расширить регистрацию для дополнительных групп пользователей.
 
 ## <a name="configure-intune-to-use-lookout-as-a-mobile-threat-defense-provider"></a>Настройка Intune для использования Lookout в качестве поставщика Mobile Threat Defense
-После настройки Lookout MES необходимо установить соединение с [Lookout в Intune](https://docs.microsoft.com/en-us/intune/protect/mtd-connector-enable).  
+После настройки Lookout MES необходимо установить соединение с [Lookout в Intune](~/protect/mtd-connector-enable.md).  
 
 ## <a name="additional-settings-in-the-lookout-mes-console"></a>Дополнительные параметры в консоли Lookout MES
 Ниже приведены дополнительные параметры, которые можно настроить в консоли Lookout MES.  
@@ -123,7 +123,7 @@ ms.locfileid: "72810225"
 
 - Для параметра **Disconnected Status** (Отключенное состояние) укажите количество дней, по истечении которых неподключенное устройство будет помечено как отключенное.  
 
-  Отключенные устройства считаются не соответствующими требованиям, и для них на основе политик условного доступа Intune блокируется доступ к приложениям организации. Можно указать значение от 1 до 90 дней.
+  Отключенные устройства считаются не соответствующими требованиям, и для них на основе политик условного доступа Intune блокируется доступ к приложениям организации. Можно указать значение от 1 до 90 дней.
 
   ![Параметры регистрации Lookout в системном модуле](./media/lookout-mtd-connector-integration/lookout-console-enrollment-settings.png)
 
@@ -144,7 +144,7 @@ ms.locfileid: "72810225"
 >[!IMPORTANT]
 > Уровни риска — это важный аспект службы Mobile Endpoint Security, так как функция интеграции с Intune во время выполнения определяет соответствие устройства требованиям на основе этих уровней рисков.  
 > 
-> Администратор Intune задает в политике правило, которое определяет устройство как несоответствующее, если для устройства зафиксирована активная угроза с заданным минимальным уровнем (**высоким**, **средним** или **низким**). Политика классификации угроз в службе Lookout Mobile Endpoint Security непосредственно влияет на оценку соответствия устройств системой Intune.  
+> Администратор Intune задает правило в политике, которое определяет устройство как не соответствующее требованиям, если на нем есть активная угроза с одним из минимальных уровней: **Высокий**, **Средний** или **Низкий**. Политика классификации угроз в службе Lookout Mobile Endpoint Security непосредственно влияет на оценку соответствия устройств системой Intune.  
 
 ## <a name="monitor-enrollment"></a>Мониторинг регистрации
 После завершения установки служба Lookout Mobile Endpoint Security начинает опрашивать Azure AD на предмет наличия устройств, которые соответствуют указанным группам регистрации.  Сведения о зарегистрированных устройствах можно найти, перейдя в раздел **Devices** (Устройства) в консоли Lookout MES.  

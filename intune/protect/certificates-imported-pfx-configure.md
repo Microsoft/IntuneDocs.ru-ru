@@ -2,27 +2,27 @@
 title: Использование импортированных сертификатов PFX в Microsoft Intune — Azure | Документация Майкрософт
 description: Используйте импортированные сертификаты PKCS в службе Microsoft Intune, в которой можно импортировать сертификаты, настраивать шаблоны сертификатов, устанавливать соединитель сертификатов Intune для импортированных файлов PFX и создавать профили импортированных сертификатов PKCS.
 keywords: ''
-author: ralms
+author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/07/2019
+ms.date: 01/10/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
-ms.reviewer: lacranda
+ms.reviewer: lacranda; rimarram
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d54c58523fdb44080b6c4210d639f9ad0ce476e2
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 2c33f4429c86160bbf180c8102e2dc7532bbd80e
+ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73801551"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75886020"
 ---
 # <a name="configure-and-use-imported-pkcs-certificates-with-intune"></a>Настройка и использование импортированных сертификатов PKCS в Intune
 
@@ -46,14 +46,17 @@ ms.locfileid: "73801551"
 
   Дополнительные сведения обо всех сетевых конечных точках, к которым обращается соединитель, см. в статье [Требования к конфигурации сети Intune и ее пропускная способность](../fundamentals/network-bandwidth-use.md).
 
-- **Windows Server**.  
+- **Windows Server**:
+
   Используйте Windows Server для размещения соединителя сертификатов PFX для Microsoft Intune.  Соединитель используется для обработки запросов на получение сертификатов, импортированных в Intune.
 
   В Intune поддерживается установка *Microsoft Intune Certificate Connector* и *соединителя сертификатов PFX для Microsoft Intune* на одном сервере.
 
   Для работы соединителя на сервере требуется установить .NET Framework 4.6 или последующие версии. Если платформа .NET Framework 4.6 не установлена, при запуске установки соединителя она будет установлена автоматически.
 
-- **Visual Studio 2015 или последующие версии** (необязательно): С помощью Visual Studio можно создать вспомогательный модуль PowerShell с командлетами для импорта сертификатов PFX в Microsoft Intune. Командлеты вспомогательного модуля PowerShell доступны в [этом репозитории GitHub](https://github.com/microsoft/Intune-Resource-Access/tree/develop/src/PFXImportPowershell).
+- **Visual Studio 2015 или последующие версии** (необязательно):
+
+  С помощью Visual Studio можно создать вспомогательный модуль PowerShell с командлетами для импорта сертификатов PFX в Microsoft Intune. Командлеты вспомогательного модуля PowerShell доступны в [этом репозитории GitHub](https://github.com/microsoft/Intune-Resource-Access/tree/develop/src/PFXImportPowershell).
 
 ## <a name="how-it-works"></a>Принцип работы
 
@@ -143,15 +146,14 @@ ms.locfileid: "73801551"
 
 В следующем примере сертификаты PFX импортируются с помощью командлетов PowerShell. Выбор параметров определяется вашими задачами.
 
-Возможны следующие значения.  
-- Предполагаемое назначение (группирование сертификатов по тегам):  
+Возможны следующие значения.
+
+- Предполагаемое назначение (группирование сертификатов по тегам):
   - unassigned
   - smimeEncryption
   - smimeSigning
 
-- Схема заполнения:  
-  - pkcs1
-  - oaepSha1
+- Схема заполнения:
   - oaepSha256
   - oaepSha384
   - oaepSha512

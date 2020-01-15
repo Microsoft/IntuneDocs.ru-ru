@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/03/2019
+ms.date: 01/09/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cdc849405b7404203faa6e86d3fed1ea8e35ec43
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 80ae9b3b1ab274e236ad43c52569574718d3eec4
+ms.sourcegitcommit: 637375a390b6e34f9c4415c77b99fe2980bbf554
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73414640"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75839301"
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 
@@ -45,7 +45,7 @@ ms.locfileid: "73414640"
 ## <a name="configure-user-upn-setting-for-microsoft-intune-or-third-party-emm"></a>Настройка пользовательского параметра имени участника-пользователя для Microsoft Intune или стороннего решения EMM
 Настройка пользовательского параметра имени участника-пользователя **обязательна** для устройств, которые управляются Intune или сторонним решением EMM для указания учетной записи зарегистрированного пользователя. Конфигурация UPN работает с политиками защиты приложений, развертываемыми из Intune. Ниже приведена общая процедура настройки параметра UPN и сведения о соответствующем взаимодействии с пользователем:
 
-1. На [портале Azure](https://portal.azure.com) [создайте и назначьте политику защиты приложений](app-protection-policies.md) для платформы iOS. Настройте параметры политики в соответствии с требованиями вашей организации и выберите приложения iOS, которые должны иметь эту политику.
+1. На [портале Azure](https://portal.azure.com)[создайте и назначьте политику защиты приложений](app-protection-policies.md) для платформы iOS. Настройте параметры политики в соответствии с требованиями вашей организации и выберите приложения iOS, которые должны иметь эту политику.
 
 2. Разверните приложения и профиль электронной почты, которые будут управляться с помощью Intune или стороннего решения MDM, выполнив следующие универсальные шаги. Эта процедура также показана в *примере 1*.
 
@@ -74,7 +74,7 @@ ms.locfileid: "73414640"
 
    |Сторонний поставщик MDM| Раздел конфигурации | Тип значения | Значение конфигурации|
    | ------- | ---- | ---- | ---- |
-   |Microsoft Intune| IntuneMAMUPN | Строка | {{UserPrincipalName}}|
+   |Microsoft Intune| IntuneMAMUPN | Строка | {{UserPrincipalName}}|
    |VMware AirWatch| IntuneMAMUPN | Строка | {UserPrincipalName}|
    |MobileIron | IntuneMAMUPN | Строка | ${userUPN} **или** ${userEmailAddress} |
    |Управление конечными точками Citrix | IntuneMAMUPN | Строка | ${user.userprincipalname} |
