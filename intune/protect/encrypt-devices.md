@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/21/2019
+ms.date: 12/04/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ ms.reviewer: annovich
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: 13d6a2b9cdc8596c7f5cf81218377754e9412be1
-ms.sourcegitcommit: 2fddb293d37453736ffa54692d03eca642f3ab58
+ms.openlocfilehash: 26013ab06cabdfd64ec3cd34254e3cfa2bb2428d
+ms.sourcegitcommit: 8d7406b75ef0d75cc2ed03b1a5e5f74ff10b98c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74390344"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75654266"
 ---
 # <a name="use-device-encryption-with-intune"></a>Использование шифрования устройств в Intune
 
@@ -86,6 +86,10 @@ FileVault — это программа шифрования всего диск
 После того как Intune зашифрует устройство под управлением macOS с помощью FileVault, вы можете просматривать ключи восстановления FileVault и управлять ими при просмотре [отчета о шифровании](encryption-monitor.md) Intune.
 
 После того как Intune зашифрует устройство macOS с помощью FileVault, вы можете просмотреть личный ключ восстановления этого устройства с корпоративного веб-портала на любом устройстве. На корпоративном веб-портале выберите зашифрованное устройство macOS, а затем выберите "Получить ключ восстановления" в качестве действия удаленного устройства.
+
+### <a name="retrieve-personal-recovery-key-from-mem-encrypted-macos-devices"></a>Получение личного ключа восстановления на устройствах macOS c зашифрованной памятью
+
+Пользователи смогут получить личный ключ восстановления (ключ FileVault) с помощью приложения Корпоративного портала для iOS. Устройство с личным ключом восстановления необходимо зарегистрировать в Intune и зашифровать с помощью FileVault через Intune. С помощью приложения Корпоративного портала для iOS пользователь может открыть веб-страницу, содержащую личный ключ восстановления FileVault. Вы также можете получить ключ восстановления из Intune, выбрав **Устройства** > *зашифрованное и зарегистрированное устройство с macOS* > **Получить ключ восстановления**. 
 
 ## <a name="bitlocker-encryption-for-windows-10"></a>Шифрование BitLocker для Windows 10
 

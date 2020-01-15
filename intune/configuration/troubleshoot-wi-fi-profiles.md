@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 77f5787509438ec3280f29be8449d78979806042
-ms.sourcegitcommit: 16a9109b4028589c17695d41271ca4fee8b1d697
+ms.openlocfilehash: 70f471e7f4db7ddce89d8956474822375c684944
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74542667"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75547976"
 ---
 # <a name="troubleshoot-wi-fi-device-configuration-profiles-in-microsoft-intune"></a>Устранение неполадок в профилях конфигурации устройств, подключенных к сети Wi-Fi, в Microsoft Intune
 
@@ -181,7 +181,7 @@ WiFiConfigurationServiceProvider: Node set value, type: (0x4), Result: (The oper
 
 - Убедитесь, что профиль Wi-Fi назначен правильной группе:
 
-    1. В [Центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Профили конфигурации**.
+    1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Профили конфигурации**.
     2. Выберите свой профиль, а затем — **Назначения**. Убедитесь, что выбранные группы указаны правильно.
     3. В диспетчере конечных точек выберите **Устранение неполадок и поддержка**. Просмотрите сведения в разделе **Назначения**.
 
@@ -236,7 +236,7 @@ WiFiConfigurationServiceProvider: Node set value, type: (0x4), Result: (The oper
   - Убедитесь, что на устройстве Android в полной цепочке сертификатов находятся все необходимые сертификаты. В противном случае профиль Wi-Fi нельзя будет установить на устройстве. Дополнительные сведения см. в разделе [Missing intermediate certificate authority](https://developer.android.com/training/articles/security-ssl#MissingCa) (Отсутствие промежуточного Центра сертификации) (откроется веб-сайт Android).
   - Отфильтруйте содержимое файла Omadmlog по ключевым словам, чтобы найти сведения, например, какой сертификат используется в профиле Wi-Fi и успешно ли применен профиль.
 
-    Например, используйте [CMTrace](https://docs.microsoft.com/sccm/core/support/cmtrace) для чтения журналов. В строке поиска выполните фильтрацию по запросу wifimgr:
+    Например, используйте [CMTrace](https://docs.microsoft.com/configmgr/core/support/cmtrace) для чтения журналов. В строке поиска выполните фильтрацию по запросу wifimgr:
 
     > [!div class="mx-imgBorder"]
     > ![Указание в CMTrace фильтра для поиска профилей конфигурации WiFiMgr на устройствах Android](./media/troubleshoot-wi-fi-profiles/cmtrace-filter-wifimgr.png)

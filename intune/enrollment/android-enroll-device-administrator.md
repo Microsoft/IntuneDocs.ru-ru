@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 678eb92bb6f5f23756092cd5d9cc1a645e1e8db3
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: ebeb5830136ad6dae19babbc8ecf45c1d6e5c36c
+ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74562355"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885971"
 ---
 # <a name="android-device-administrator-enrollment"></a>Регистрация с использованием функции администратора устройства Android
 
@@ -36,10 +36,6 @@ ms.locfileid: "74562355"
 Дополнительные сведения о поддержке функции администратора устройства Android в Intune см. в разделе [Уведомления](../fundamentals/whats-new.md#decreasing-support-for-android-device-administrator).
 
 Если вы хотите, чтобы пользователи зарегистрировали свои устройства Android с помощью функции управления администратором устройства, перейдите к следующему разделу.  
-
-
-> [!Note]  
-> Android версии 10 и выше не будут поддерживаться в гибридном управлении мобильными устройствами (гибридное MDM; Intune управляется с помощью консоли System Center Configuration Manager), так как поддержка этого решение прекращается 1 сентября 2019 г. Если вы все еще используете гибридное MDM, необходимо как можно скорее перейти на Intune. Обратитесь в службу поддержки, если вам нужна помощь в переходе. Дополнительные сведения см. в записи блога [Переход с гибридного управления мобильными устройствами на Intune в Azure](https://aka.ms/hybrid_notification).
 
 Подробнее о функциях Android для бизнеса от Google:
 - [Руководство Google по переходу от функции администратора устройства на функцию Android для бизнеса](http://static.googleusercontent.com/media/android.com/en/enterprise/static/2016/pdfs/enterprise/Android-Enterprise-Migration-Bluebook_2019.pdf)

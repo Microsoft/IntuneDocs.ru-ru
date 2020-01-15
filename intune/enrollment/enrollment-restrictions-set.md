@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 78f79a734d0a7b4901b2248b20abd9d304926dd2
-ms.sourcegitcommit: e75718ee6cf93c0e6c915f2776b785fe8db9f7e0
+ms.openlocfilehash: 4246dab0cf22053d76fdd50f99de53e827332a23
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74955513"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75547815"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -45,7 +45,7 @@ ms.locfileid: "74955513"
   - Администратор устройства с Android
   - рабочий профиль "Android для бизнеса".
   - iOS
-  - macOS
+  - MacOS
   - Windows
   - Windows Mobile
 - Версия операционной системы платформы для iOS, администратор устройства Android, рабочий профиль Android Enterprise, Windows и Windows Mobile. (Можно использовать только версии Windows 10. Оставьте это поле пустым, если допускается использование Windows 8.1.)
@@ -144,7 +144,7 @@ ms.locfileid: "74955513"
 - Устройство регистрируется с помощью Windows Autopilot, но для него не задан параметр "Регистрация только в MDM" из параметров Windows.
 - Номер IMEI устройства указан в списке **Регистрация устройств** >  **[Идентификаторы корпоративных устройств](corporate-identifiers-add.md)** . (Не поддерживается для Windows Phone 8.1.)
 - Устройство регистрируется с помощью [пакета массовой подготовки](windows-bulk-enroll.md).
-- Устройство регистрируется с помощью GPO или [автоматической регистрации из SCCM для совместного управления](https://docs.microsoft.com/sccm/comanage/quickstart-paths#bkmk_path1).
+- Устройство регистрируется с помощью GPO или [автоматической регистрации из Configuration Manager для совместного управления](https://docs.microsoft.com/configmgr/comanage/quickstart-paths#bkmk_path1).
  
 Следующие регистрации помечены как корпоративные службой Intune. Однако так как они не предоставляют Администратору Intune контроль на уровне устройств, они будут заблокированы.
 - [Автоматическая регистрация в MDM](windows-enroll.md#enable-windows-10-automatic-enrollment) с [присоединением к Azure Active Directory во время настройки Windows](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-frx)\*.

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cef30238a4470395ccf58cf4d0619db78dd85b5a
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: 3da8e89679f974c7d91cf19ae37365f75217d153
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74563463"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548028"
 ---
 # <a name="use-powershell-scripts-on-windows-10-devices-in-intune"></a>Использование скриптов PowerShell для устройств Windows 10 в Intune
 
@@ -64,9 +64,9 @@ ms.locfileid: "74563463"
 
   - совместно управляемые устройства, использующие Configuration Manager и Intune. Убедитесь, что для рабочей нагрузки **Приложения** выбрано значение **Pilot Intune** (Пилотная версия Intune) или **Intune**. Дополнительные сведения см. в следующих статьях: 
   
-    - [Что такое совместное управление?](https://docs.microsoft.com/sccm/comanage/overview) 
-    - [Клиентские приложения](https://docs.microsoft.com/sccm/comanage/workloads#client-apps)
-    - [Переключение рабочих нагрузок Configuration Manager на Intune](https://docs.microsoft.com/sccm/comanage/how-to-switch-workloads)
+    - [Что такое совместное управление?](https://docs.microsoft.com/configmgr/comanage/overview) 
+    - [Клиентские приложения](https://docs.microsoft.com/configmgr/comanage/workloads#client-apps)
+    - [Переключение рабочих нагрузок Configuration Manager на Intune](https://docs.microsoft.com/configmgr/comanage/how-to-switch-workloads)
   
 > [!TIP]
 > Убедитесь, что устройства [присоединены к Azure AD](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network). Устройства, которые только [зарегистрированы](https://docs.microsoft.com/azure/active-directory/user-help/user-help-register-device-on-network) в Azure AD, не получат ваши скрипты.
@@ -79,8 +79,8 @@ ms.locfileid: "74563463"
     ![Добавление и использование скрипов PowerShell в Microsoft Intune](./media/intune-management-extension/mgmt-extension-add-script.png)
 
 3. В разделе **Основные** укажите следующие свойства и нажмите **Далее**.
-    - **Имя**. Введите имя скрипта PowerShell. 
-    - **Описание** Введите описание скрипта PowerShell. Этот параметр является необязательным, но мы рекомендуем его использовать.
+    - **Имя** — Введите имя скрипта PowerShell. 
+    - **Описание**. Введите описание скрипта PowerShell. Этот параметр является необязательным, но мы рекомендуем его использовать.
 4. В разделе **Параметры скрипта** укажите следующие свойства и нажмите **Далее**.
     - **Расположение скрипта**. Укажите расположение скрипта PowerShell. Размер скрипта не должен превышать 200 КБ (ASCII).
     - **Запускать сценарий по учетным данным**. Выберите **Да**, чтобы запускать скрипт с помощью учетных данных пользователя на устройстве. Выберите **Нет** (по умолчанию) для запуска скрипта в контексте системы. Многие администраторы выбирают **Да**. Выберите **Нет**, если скрипт требуется запускать в контексте системы.
@@ -134,7 +134,7 @@ ms.locfileid: "74563463"
 
 ## <a name="intune-management-extension-logs"></a>Журналы расширения управления Intune
 
-Журналы агентов на клиентском компьютере обычно находятся в папке `\ProgramData\Microsoft\IntuneManagementExtension\Logs`. Для просмотра этих файлов журналов можно использовать [CMTrace.exe](https://docs.microsoft.com/sccm/core/support/tools). 
+Журналы агентов на клиентском компьютере обычно находятся в папке `\ProgramData\Microsoft\IntuneManagementExtension\Logs`. Для просмотра этих файлов журналов можно использовать [CMTrace.exe](https://docs.microsoft.com/configmgr/core/support/cmtrace).
 
 ![Снимок экрана или пример журналов агента cmtrace в Microsoft Intune](./media/apps-win32-app-management/apps-win32-app-10.png)  
 

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/04/2019
+ms.date: 12/19/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fbe2377bfd353dc00ddfdf53a6d091c486644194
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: d0ef42e301efe2c323ea98265272ba71596a8083
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74059378"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206403"
 ---
 # <a name="configure-esim-cellular-profiles-in-intune---public-preview"></a>Настройка профилей сотовой связи eSIM в Intune (общедоступная предварительная версия)
 
@@ -66,7 +66,7 @@ eSIM — встроенная SIM-карта, которая позволяет 
 - HP Spectre Folio 13
 - Lenovo Yoga C630
 
-## <a name="step-1-add-cellular-activation-codes"></a>Шаг 1. Добавление кодов активации сотовой связи
+## <a name="step-1-add-cellular-activation-codes"></a>Шаг 1. Добавление кодов активации сотовой связи
 
 Коды активации сотовой связи предоставляются оператором мобильной связи в виде файла с разделителями-запятыми (CSV). Если у вас есть этот файл, добавьте его в Intune, выполнив следующие действия.
 
@@ -95,11 +95,11 @@ eSIM — встроенная SIM-карта, которая позволяет 
 
         ![Пример CSV-файла кодов активации оператора мобильной связи](./media/esim-device-configuration/url-activation-code-examples.png)
 
-3. Имя CSV-файла становится именем пула сотовых подписок на портале Azure. На предыдущем рисунке имя файла — `UnlimitedDataSkynet.csv`. Соответственно, имя, присвоенное Intune пулу подписок `UnlimitedDataSkynet.csv`:
+3. Имя CSV-файла становится именем пула сотовых подписок в центре администрирования диспетчера конечных точек. На предыдущем рисунке имя файла — `UnlimitedDataSkynet.csv`. Соответственно, имя, присвоенное Intune пулу подписок `UnlimitedDataSkynet.csv`:
 
     ![Имя пула сотовых подписок соответствует имени примера CSV-файла кодов активации](./media/esim-device-configuration/subscription-pool-name-csv-file.png)
 
-## <a name="step-2-create-an-azure-ad-device-group"></a>Шаг 2. Создание группы устройств Azure AD
+## <a name="step-2-create-an-azure-ad-device-group"></a>Шаг 2. Создание группы устройств Azure AD
 
 Создайте группу устройств, которая включает устройства, поддерживающие eSIM. Процедура приведена в разделе [Добавление групп](../fundamentals/groups-add.md).
 
@@ -107,7 +107,7 @@ eSIM — встроенная SIM-карта, которая позволяет 
 > - Нацеливание возможно только для устройств, но не для пользователей.
 > - Мы рекомендуем создать статическую группу устройств Azure AD, которая включает устройства eSIM. Использование группы гарантирует нацеливание только на устройства eSIM.
 
-## <a name="step-3-assign-esim-activation-codes-to-devices"></a>Шаг 3 Назначение кодов активации eSIM устройствам
+## <a name="step-3-assign-esim-activation-codes-to-devices"></a>Шаг 3. Назначение кодов активации eSIM устройствам
 
 Назначьте профиль группе Azure AD, включающей ваши устройства eSIM.
 

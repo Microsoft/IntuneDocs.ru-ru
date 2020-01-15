@@ -16,12 +16,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0de98a0820e15a09c2b3724b216359580327259e
-ms.sourcegitcommit: ce518a5dfe62c546a77f32ef372f36efbaad473f
+ms.openlocfilehash: f1e493e0d2d562c0f69454d1999e82b528c724a2
+ms.sourcegitcommit: e4602481a25a5e12379f673dfe801c611f51c35b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74465725"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731285"
 ---
 # <a name="intune-compliance-reports-for-updates"></a>Отчет о соответствии Intune для обновлений
 
@@ -51,7 +51,7 @@ ms.locfileid: "74465725"
 
 Благодаря этому решению можно развернуть коммерческий идентификатор на любых управляемых Intune устройствах с Windows 10, для которых требуется получать отчеты о поддержке обновлений.  
 
-В Intune для настройки коммерческого идентификатора используйте параметры OMA-URI настраиваемой политики. Сведения см. в статье [Использование настраиваемых параметров для устройств Windows 10 в Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/windows-10-policy-settings-in-microsoft-intune).  
+В Intune для настройки коммерческого идентификатора используйте параметры OMA-URI настраиваемой политики. См. статью [Использование настраиваемых параметров для устройств Windows 10 в Intune](../configuration/custom-settings-windows-10.md).
 
 Путь OMA-URI (с учетом регистра) для настройки коммерческого идентификатора выглядит следующим образом: *./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID*  
 

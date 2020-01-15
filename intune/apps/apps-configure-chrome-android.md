@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c344a518890a2309a7805d61a5675e2646029bbb
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: c02ea34417073091e2f2841b363edfb9966ce558
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74564045"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75205910"
 ---
 # <a name="configure-google-chrome-for-android-devices-using-intune"></a>Настройка Google Chrome для устройств Android с помощью Intune 
 
@@ -48,12 +48,16 @@ ms.locfileid: "74564045"
 
 ## <a name="add-app-configuration-for-managed-ae-devices"></a>Добавление конфигурации приложения для управляемых устройств AE
 
-1. В панели [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) выберите **Политики конфигурации приложения** > **Добавить**.
-2. Добавьте имя политики, выберите **Управляемые устройства** в поле "Тип регистрации устройства" и **Android** в поле "Платформа".
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений** > **Добавить** > **Управляемые устройства**.
+2. Задайте следующие значения:
+    - **Имя**. Имя профиля, которое отображается на портале Azure.
+    - **Описание**. Описание профиля, которое отображается на портале Azure.
+    - **Тип регистрации устройства** — этот параметр имеет значение **Управляемые устройства**.
+    - **Платформа**. Выберите **Android**.
 
     ![Добавление политики конфигурации Google Chrome](~/apps/media/apps-configure-chrome-android/add-policy.png)
 
-3. Щелкните **Связанное приложение** и выберите **Google Chrome** .
+3. Щелкните **Связанное приложение**, чтобы отобразить область **Связанное приложение**. Найдите и выберите **Google Chrome**. Этот список содержит [приложения в управляемом Google Play, которые были утверждены и синхронизированы в Intune](~/apps/apps-add-android-for-work.md).
 
     ![Выбор Google Chrome в разделе "Связанное приложение"](~/apps/media/apps-configure-chrome-android/associated-app.png)
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d876c0268f38a09ea3729a7e19ee00b321ae897a
-ms.sourcegitcommit: edd06a494a241d198ca9b0d3030c92195976e0d3
+ms.openlocfilehash: 02c1508dd3eb9c8a8932c1504c6f4d0a53c5a0d5
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75000403"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75207389"
 ---
 # <a name="us-government-endpoints-for-microsoft-intune"></a>Конечные точки для государственных организаций США для Microsoft Intune
 
@@ -37,6 +37,8 @@ ms.locfileid: "75000403"
 Параметры прокси-сервера можно изменить на отдельных клиентских компьютерах. Кроме того, с помощью параметров групповой политики можно изменить параметры для всех клиентских компьютеров, защищенных указанным прокси-сервером.
 
 Управляемые устройства должны иметь конфигурации с выбранным параметром **Все пользователи**, чтобы все пользователи могли получать доступ к службам через брандмауэры.
+
+Дополнительные сведения об автоматической регистрации и регистрации устройств Windows 10 для государственных организаций США см. в статье о [настройке регистрации для устройств с Windows](../enrollment/windows-enroll.md#windows-10-auto-enrollment-and-device-registration).
 
 В приведенной ниже таблице перечислены порты и службы, к которым обращается клиент Intune.
 
@@ -78,4 +80,3 @@ ms.locfileid: "75000403"
 ## <a name="next-steps"></a>Дальнейшие шаги
 [Конечные точки сети для Microsoft Intune](intune-endpoints.md)
 
-[Автоматическая регистрация и регистрация устройств в Windows 10](../enrollment/windows-enroll.md#registration-and-enrollment-cnames)

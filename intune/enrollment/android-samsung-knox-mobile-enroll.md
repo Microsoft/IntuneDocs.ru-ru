@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5f290370dd6ec05677a7073d9ca3edd854c9aa5e
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: ecb043300578e5eba0613b6fa5f0fb249b1e515c
+ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72505584"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75692159"
 ---
 # <a name="automatically-enroll-android-devices-by-using-samsungs-knox-mobile-enrollment"></a>Автоматическая регистрация устройств Android с помощью Samsung Knox Mobile Enrollment
 
@@ -65,17 +65,17 @@ ms.locfileid: "72505584"
 |-------------------|-----------|-------| 
 |URI сервера MDM     | Нет        |Не заполняйте это поле. 
 |Имя профиля       | Да       |Введите произвольное имя профиля. 
-|Описание        | Нет        |Введите описание для профиля. 
+|Описание:        | Нет        |Введите описание для профиля. 
 |APK агента MDM      | Да       |https://aka.ms/intune_kme_deviceowner 
 |Включить это приложение в качестве владельца устройства Google | Да | Выберите этот параметр для регистрации в Android для бизнеса. 
-|Поддержка MDM      | Да       |Microsoft Intune 
+|Поддержка MDM      | Да       |Microsoft Intune 
 |Оставить все системные приложения включенными | Нет | Выберите этот параметр, чтобы все приложения были включены и доступны в профиле. Если этот параметр не выбран, на панели приложений устройства отображается только ограниченный набор системных приложений. Например, приложение электронной почты будет скрыто. 
 |Настраиваемый JSON        | Нет        |{"com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN": "Введите строку токена регистрации Intune"}. Узнайте, [как создать профиль регистрации](android-kiosk-enroll.md). 
 | Добавление юридических соглашений | Нет | Не заполняйте это поле. 
 
 ### <a name="for-android"></a>Для Android
 
-Пошаговые инструкции см. в статье о [мастере настройки профиля Samsung Knox](https://docs.samsungknox.com/KME-Getting-Started/Content/getting-started-wizard.htm).
+Пошаговые инструкции см. в статье о [создании профиля Samsung](https://docs.samsungknox.com/KME-Getting-Started/Content/create-profiles.htm).
 
 | Поля профиля MDM| Необходим? | Значения |
 |-------------------|-----------|-------|

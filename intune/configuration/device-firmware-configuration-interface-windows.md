@@ -15,16 +15,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 38f02d694f1935e4732805f3ae7c66fd9718057a
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 1d07066bcd599dc0cdbaf8fcf90ac1ee76be45fa
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74059604"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206692"
 ---
 # <a name="use-device-firmware-configuration-interface-profiles-on-windows-devices-in-microsoft-intune-public-preview"></a>Использование профилей интерфейса конфигурации встроенного ПО устройств на устройствах Windows в Microsoft Intune (общедоступная предварительная версия)
 
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
+
 
 При использовании Intune для управления устройствами с автопилотами можно управлять параметрами UEFI (BIOS) после их регистрации, используя интерфейс конфигурации встроенного ПО устройства (DFCI). Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор DFCI](https://microsoft.github.io/mu/dyn/mu_plus/DfciPkg/Docs/Dfci_Feature/).
 
@@ -81,8 +81,8 @@ DFCI [позволяет](https://docs.microsoft.com/windows/client-management/m
 2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
-    - **Имя**. Введите описательное имя для нового профиля. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя профиля — **Windows: настройте параметры DFCI на устройствах с Windows**.
-    - **Описание** Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
+    - **Имя** — Введите описательное имя для нового профиля. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя профиля — **Windows: настройте параметры DFCI на устройствах с Windows**.
+    - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
     - **Платформа**. Выберите **Windows 10 и более поздних версий**.
     - **Тип профиля**. Выберите **Интерфейс конфигурации встроенного ПО устройства**.
 

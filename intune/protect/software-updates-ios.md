@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/19/2019
+ms.date: 12/18/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -13,12 +13,12 @@ ms.localizationpriority: high
 ms.technology: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0f9750603d19d9b19697c7d2660351c4586432f6
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: bb146fdee7a1d7d770575334eeed84f73cda8894
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73984192"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75207491"
 ---
 # <a name="add-ios-software-update-policies-in-intune"></a>Добавление политик обновления программного обеспечения iOS в Intune
 
@@ -32,8 +32,8 @@ ms.locfileid: "73984192"
 
 ## <a name="configure-the-policy"></a>Настройка политики
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. Выберите **Обновления программного обеспечения** > **Политики обновления для iOS** > **Создать**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Политики обновления для iOS** > **Создать**.
 3. На вкладке **Основные** укажите имя политики, укажите описание (необязательно), а затем выберите **Далее**.
 
    ![Вкладка "Основные"](./media/software-updates-ios/basics-tab.png) 
@@ -77,7 +77,7 @@ ms.locfileid: "73984192"
 ## <a name="edit-a-policy"></a>Изменение политики
 Можно изменить существующую политику, включая изменение времени ожидания:
 
-1. В разделе **Обновления программного обеспечения** выберите **Политики обновления для iOS**, а затем политику, которую нужно изменить.
+1. Выберите **Устройства** > **Политики обновления для iOS**. Выберите политику, которую хотите изменить.
 
 2. При просмотре **свойств** политик выберите **Изменить** на странице политики, которую требуется изменить.  
    ![Изменение политики](./media/software-updates-ios/edit-policy.png)   

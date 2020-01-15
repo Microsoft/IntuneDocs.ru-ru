@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bce0e96ecdd4cf254273e26564b8cb132a6d2080
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: fd320dddeb7717461188bdb701044bf060e7d75e
+ms.sourcegitcommit: 0d9e1452fcf5f15a80230838f80a427b9951cdb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74563861"
+ms.lasthandoff: 12/21/2019
+ms.locfileid: "75324888"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -49,11 +49,11 @@ Windows Autopilot упрощает регистрацию устройств в 
 
 Чтобы добавить устройства Windows Autopilot, импортируйте CSV-файл с соответствующей информацией.
 
-1. В [Центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Устройства** (в разделе **Программа развертывания Windows AutoPilot** > **Импорт**).
+1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Устройства** (в разделе **Программа развертывания Windows AutoPilot** > **Импорт**).
 
     ![Снимок экрана: устройства Windows Autopilot](./media/enrollment-autopilot/autopilot-import-device.png)
 
-2. В разделе **Добавление устройств Windows AutoPilot** укажите CSV-файл со списком устройств, которые необходимо добавить. В CSV-файле должны быть перечислены серийные номера, идентификаторы продуктов Windows, хэш-коды оборудования, необязательные теги группы и необязательный назначенный пользователь. Список может содержать до 500 строк. Используйте формат заголовка и строки, показанный ниже:
+2. В разделе **Добавление устройств Windows AutoPilot** укажите CSV-файл со списком устройств, которые необходимо добавить. В CSV-файле должны быть перечислены серийные номера, идентификаторы продуктов Windows, хэш-коды оборудования, необязательные теги группы и необязательный назначенный пользователь. Список может содержать до 500 строк. Сведения о том, как получить данные об устройстве, см. в статье [Adding devices to Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices#device-identification) (Добавление устройств в Windows AutoPilot). Используйте формат заголовка и строки, показанный ниже:
 
     `Device Serial Number,Windows Product ID,Hardware Hash,Group Tag,Assigned User`</br>
     `<serialNumber>,<ProductID>,<hardwareHash>,<optionalGroupTag>,<optionalAssignedUser>`
@@ -163,7 +163,7 @@ Windows Autopilot упрощает регистрацию устройств в 
 
 Вы можете назначить пользователя конкретному устройству Autopilot. При назначении во время настройки Windows на странице входа с [фирменной символикой](https://docs.microsoft.com/azure/active-directory/fundamentals/customize-branding) предварительно заполняются данные пользователя из Azure Active Directory. Вы также можете задать пользовательское имя приветствия. При этом имя для входа Windows не заполняется предварительно и не изменяется. Таким способом можно назначить только пользователей с лицензией Intune.
 
-Предварительные требования: настроенный корпоративный портал Azure Active Directory, система Windows 10, версия 1809 или более поздняя.
+Необходимые условия настроенный корпоративный портал Azure Active Directory, система Windows 10, версия 1809 или более поздняя.
 
 1. В [Центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Устройства** (в разделе **Программа развертывания Windows AutoPilot** >выбрать устройство> **Назначить пользователя**).
 
@@ -208,7 +208,7 @@ Windows Autopilot упрощает регистрацию устройств в 
 - синхронизация назначений профилей, выполненных на другом портале.
 - отображение изменений, внесенных в список устройств на другом портале.
 
-## <a name="windows-autopilot-for-existing-devices"></a>Windows Autopilot для существующих устройств
+## <a name="windows-autopilot-for-existing-devices"></a>Windows Autopilot для имеющихся устройств
 
 Можно сгруппировать устройства Windows, зарегистрированные с помощью [Autopilot для существующих устройств](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/New-Windows-Autopilot-capabilities-and-expanded-partner-support/ba-p/260430) в Configuration Manager, по идентификатору коррелятора. Идентификатор коррелятора — это параметр файла конфигурации Autopilot. Для [атрибута enrollmentProfileNam устройства Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices) автоматически устанавливается значение"OfflineAutopilotprofile-\<идентификатор коррелятора\>". Это позволяет создавать произвольные динамические группы Azure AD на основе идентификатора коррелятора с помощью атрибута enrollmentprofileName.
 

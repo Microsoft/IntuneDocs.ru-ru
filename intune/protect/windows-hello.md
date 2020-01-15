@@ -17,12 +17,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: shpate
-ms.openlocfilehash: 7ce6def40c6c0fff3a28f884c458220283979234
-ms.sourcegitcommit: ce518a5dfe62c546a77f32ef372f36efbaad473f
+ms.openlocfilehash: 001e68fdbab7074abb4e1bbefc697d3e34c47762
+ms.sourcegitcommit: 107fef144013b01ed768ca8973373f9cb3f0f7dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74465773"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75683788"
 ---
 # <a name="integrate-windows-hello-for-business-with-microsoft-intune"></a>Интеграция Windows Hello для бизнеса с Microsoft Intune  
 
@@ -53,9 +53,9 @@ Intune интегрируется с Hello для бизнеса двумя сп
 
 ## <a name="create-a-windows-hello-for-business-policy"></a>Создание политики Windows Hello для бизнеса
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-2. Перейдите в раздел **Устройства** > регистрация** > **Регистрация устройств** > **Регистрация Windows** > **Windows Hello для бизнеса**. Откроется панель Windows Hello для бизнеса.
+2. Перейдите в раздел **Устройства** >  **Регистрация** > **Регистрация устройств** > **Регистрация Windows** > **Windows Hello для бизнеса**. Откроется панель Windows Hello для бизнеса.
 
 3. Выберите один из следующих вариантов для параметра **Configure Windows Hello for Business** (Настроить Windows Hello для бизнеса):
 
@@ -111,7 +111,7 @@ Intune интегрируется с Hello для бизнеса двумя сп
 
    - **Allow phone sign-in** (Разрешить вход с телефона):
 
-     Если этому параметру присвоено значение **Да**, пользователи могут использовать удаленную службу Passport в качестве переносимого устройства-компаньона для проверки подлинности настольного компьютера. Настольный компьютер должен быть присоединен к Azure Active Directory, а устройство-компаньон должно быть настроено для использования ПИН-кода в Windows Hello для бизнеса.
+     Если этому параметру присвоено значение **Да**, пользователи могут использовать удаленную службу Passport в качестве переносимого устройства-компаньона для проверки подлинности настольного компьютера. Настольный компьютер должен входить в состав Azure Active Directory, а устройство-компаньон должно быть настроено для использования ПИН-кода Windows Hello для бизнеса.
 
 ## <a name="windows-holographic-for-business-support"></a>Поддержка Windows Holographic for Business
 

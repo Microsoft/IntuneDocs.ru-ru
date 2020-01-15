@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7a45160fc0e728b4c53590455a2bd0b5d904ddb1
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 2a300070e06725e165316172bf10ca079861f56f
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72504903"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75547565"
 ---
 # <a name="set-up-intune"></a>Настройка Intune
 
@@ -30,7 +30,7 @@ ms.locfileid: "72504903"
 
 Некоторые действия, такие как настройка подписки Intune и установка центра управления мобильными устройствами, являются обязательными в большинстве сценариев. Другие действия, такие как настройка личного домена или добавление приложений, являются необязательными в зависимости от потребностей вашей организации.
 
-Если в данный момент вы используете Microsoft System Center Configuration Manager для управления компьютерами и серверами, можно [расширить функции Configuration Manager на облако, чтобы использовать совместное управление](https://docs.microsoft.com/sccm/comanage/overview).
+Если в сейчас вы используете Microsoft Endpoint Configuration Manager для управления компьютерами и серверами, можете [подключить Configuration Manager к облаку, чтобы использовать совместное управление](https://docs.microsoft.com/configmgr/comanage/overview).
 
 >[!TIP]
 >При покупке по меньшей мере 150 лицензий для Intune в соответствующем плане можно использовать *преимущество Center FastTrack*. Благодаря этой службе специалисты Майкрософт помогут вам подготовить среду к работе с Intune. См. статью [Программа FastTrack для Enterprise Mobility](https://docs.microsoft.com/enterprise-mobility-security/Solutions/enterprise-mobility-fasttrack-program).

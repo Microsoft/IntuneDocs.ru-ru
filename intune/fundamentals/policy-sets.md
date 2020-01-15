@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/15/2019
+ms.date: 12/19/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e539f44fc9c9b4e7382368c0f3ad9f79bb1c98b1
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: d302db46510b664aec5b0a71fd8b19985e29be37
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72585661"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206131"
 ---
 # <a name="use-policy-sets-to-group-collections-of-management-objects"></a>Используйте наборы политик для группировки коллекций объектов управления
 
@@ -56,8 +56,8 @@ ms.locfileid: "72585661"
 
 ## <a name="how-to-create-a-policy-set"></a>Создание набора политик
 
-1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
-2. В колонке **Intune** выберите **Наборы политик** > **Наборы политик** > **Создать**.
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Выберите **Устройства** > **Наборы политик** > **Наборы политик** > **Создать**.
 3. На странице **Основные** добавьте следующие значения.
     - **Имя набора политик**. Укажите имя для этого набора политик.
     - **Описание**. Введите описание набора политик (необязательно).

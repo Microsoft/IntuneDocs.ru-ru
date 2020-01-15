@@ -18,19 +18,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 84f82cf2fde7d400e5531bac219b6cbb4877032f
-ms.sourcegitcommit: 960ffb2214c35d75ad219fa2571a999529a0abd4
+ms.openlocfilehash: 9571f7d0ae10f33007d5ae50b403580232c2e870
+ms.sourcegitcommit: 06dce5c8111592ad774247e86e539dd3128117e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478924"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "75545943"
 ---
 # <a name="enable-the-mobile-threat-defense-connector-in-intune-for-unenrolled-devices"></a>Включение соединителя Mobile Threat Defense в Intune для незарегистрированных устройств
 
 Во время установки Mobile Threat Defense (MTD) вы настроили политику классификации угроз на консоли партнера по MTD и создали политику защиты приложений в Intune. Если вы уже настроили соединитель Intune на консоли партнера по MTD, можете включить соединение с MTD для партнерских приложений MTD.
 
 > [!NOTE]
-> Эта статья относится ко всем партнерам по Mobile Threat Defense, поддерживающим политики защиты приложений. Better Mobile (Android), Zimperium (iOS), Lookout for Work (Android и iOS).
+> Эта статья относится ко всем партнерам по Mobile Threat Defense, поддерживающим политики защиты приложений. Better Mobile (Android), Zimperium (Android и iOS), Lookout for Work (Android и iOS).
 
 ## <a name="classic-conditional-access-policies-for-mtd-apps"></a>Классические политики условного доступа для приложений MTD
 
@@ -56,7 +56,7 @@ ms.locfileid: "74478924"
 
 2. Выберите **Администрирование клиента** > **Соединители и токены** > **Mobile Threat Defense**.
 
-3. На панели **Mobile Threat Defense** выберите **Добавить**.
+3. В области **Mobile Threat Defense** выберите **Добавить**.
 
 4. Выберите решение MTD в раскрывающемся списке **Настраиваемый соединитель Mobile Threat Defense**.
 
@@ -66,7 +66,7 @@ ms.locfileid: "74478924"
 
 ## <a name="mobile-threat-defense-toggle-options"></a>Переключатели параметров Mobile Threat Defense
 
-Установите переключатели параметров MTD в соответствии с требованиями вашей организации. Подробнее:
+Установите переключатели параметров MTD в соответствии с требованиями вашей организации. Ниже приведены дополнительные сведения.
 
 **Параметры политик для защиты приложений**
 

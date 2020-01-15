@@ -1,6 +1,6 @@
 ---
 title: Функции и параметры устройств в Microsoft Intune — Azure | Документация Майкрософт
-description: Общие сведения о различных профилях устройств Microsoft Intune. Узнайте о функциях, ограничениях, электронной почте, Wi-Fi, VPN, образовании, сертификатах, обновлении Windows 10, BitLocker и Защитнике Майкрософт, Windows Information Protection, административных шаблонах и пользовательских параметрах устройства на портале Azure. Используйте эти профили для управления и защиты данных и устройств в вашей компании.
+description: Общие сведения о различных профилях устройств Microsoft Intune. Узнайте о функциях, ограничениях, электронной почте, Wi-Fi, VPN, образовании, сертификатах, обновлении Windows 10, BitLocker и Microsoft Defender, Windows Information Protection, административных шаблонах и пользовательских параметрах устройства в центре администрирования диспетчера конечных точек (Майкрософт). Используйте эти профили для управления и защиты данных и устройств в вашей компании.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
@@ -17,16 +17,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b74cdf29999bccdefaa94c84673b9ea89c335537
-ms.sourcegitcommit: 7001dc5a9cffeb2e161748f9e6dba126bf1cb06f
+ms.openlocfilehash: 800bbd5199bd4389ee1ae8aa98a68e21456e7000
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74694953"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206624"
 ---
 # <a name="apply-features-and-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune
 
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
+
 
 Microsoft Intune включает параметры и функции, которые можно включать или отключать на различных устройствах в вашей организации. Эти параметры и компоненты добавляются в "профили конфигурации". Вы можете создавать профили для различных устройств разных платформ, включая iOS, Android и Windows. Затем используйте Intune, чтобы применить или назначить профиль устройствам.
 
@@ -60,8 +60,8 @@ Microsoft Intune включает параметры и функции, кото
 - Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
-- Windows Phone 8.1
+- MacOS
+- Windows Phone 8.1
 - Windows 8.1
 - Windows 10 и более поздней версии
 
@@ -74,8 +74,8 @@ Microsoft Intune включает параметры и функции, кото
 - Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
-- Windows Phone 8.1
+- MacOS
+- Windows Phone 8.1
 
 ## <a name="delivery-optimization"></a>Оптимизация доставки
 
@@ -94,7 +94,7 @@ Microsoft Intune включает параметры и функции, кото
 Эта функция поддерживает:
 
 - iOS/iPadOS
-- macOS
+- MacOS
 
 ## <a name="device-firmware-configuration-interface"></a>Интерфейс конфигурации встроенного ПО устройства
 
@@ -113,7 +113,7 @@ Microsoft Intune включает параметры и функции, кото
 - Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
+- MacOS
 - Windows 10 и более поздней версии
 - Windows 10 для совместной работы
 
@@ -140,7 +140,7 @@ Microsoft Intune включает параметры и функции, кото
 - Android
 - Android для бизнеса
 - iOS/iPadOS
-- Windows Phone 8.1
+- Windows Phone 8.1
 - Windows 10 и более поздней версии
 
 ## <a name="endpoint-protection"></a>Защита конечных точек
@@ -167,7 +167,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- macOS
+- MacOS
 
 ## <a name="identity-protection"></a>Защита идентификации
 
@@ -238,8 +238,8 @@ Microsoft Intune включает параметры и функции, кото
 - Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
-- Windows Phone 8.1
+- MacOS
+- Windows Phone 8.1
 - Windows 8.1
 - Windows 10 и более поздней версии
 
@@ -252,7 +252,7 @@ Microsoft Intune включает параметры и функции, кото
 - Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
+- MacOS
 - Windows 8.1 (только импорт)
 - Windows 10 и более поздней версии
 

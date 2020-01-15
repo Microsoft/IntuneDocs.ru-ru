@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f31e500b7a3383c5c0c53f1df72cb4a42660328f
-ms.sourcegitcommit: 1a22b8b31424847d3c86590f00f56c5bc3de2eb5
+ms.openlocfilehash: 4669d02f149e7f815ff94b4daa85c4c539c26c96
+ms.sourcegitcommit: 90369aef160945171435b03d82bae395609c7a62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74284151"
+ms.lasthandoff: 12/26/2019
+ms.locfileid: "75500161"
 ---
 
 
@@ -34,7 +34,7 @@ ms.locfileid: "74284151"
 - Windows 10 Teams (Surface Hub)
 
    Дополнительные сведения об управлении устройствами Windows 10 Teams см. в статье [Manage settings with an MDM provider (Surface Hub)](https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub) (Управление параметрами с помощью поставщика MDM (Surface Hub)).
-- Windows Phone 8.1, Windows 8.1 RT, компьютеры под управлением Windows 8.1 (режим поддержки)
+- Windows 10 1709 (RS3) и более поздних версий, Windows Phone 8.1, Windows 8.1 RT, компьютеры под управлением Windows 8.1 (режим поддержки)
 
 > [!NOTE]
 > Не все выпуски Windows поддерживают все доступные функции операционной системы, настраиваемые с помощью MDM. Обратитесь к [документации по поставщику служб конфигурации Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers). Каждый поставщик CSP сообщает, какие выпуски Windows поддерживаются.
