@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/22/2019
+ms.date: 01/03/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b94be3e1454c60f16ff40e73ce37f8c4e349126d
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 7ba64bef1b15ac6382351857d017a5d699aeafa9
+ms.sourcegitcommit: 8d7406b75ef0d75cc2ed03b1a5e5f74ff10b98c0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72813344"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75654164"
 ---
 # <a name="user-lifetime-representation-in-the-microsoft-intune-data-warehouse"></a>Представление времени существования пользователя в хранилище данных Microsoft Intune
 
@@ -39,13 +39,13 @@ ms.locfileid: "72813344"
  
 | DisplayName | IsDeleted | StartDateInclusiveUTC | EndDateExclusiveUTC | IsCurrent 
 | -- | -- | -- | -- | -- |
-| Виктор Дегтярев | FALSE | 01.06.2017 | 31.12.9999 | TRUE
+| Виктор Дегтярев | Ложь. | 01.06.2017 | 31.12.9999 | TRUE
  
 Виктор Дегтярев прекратил использование лицензии 25.07.2017. В этом случае таблица **Пользователь** содержит приведенные ниже записи. Изменения в имеющихся записях помечены (`marked`). 
 
 | DisplayName | IsDeleted | StartDateInclusiveUTC | EndDateExclusiveUTC | IsCurrent 
 | -- | -- | -- | -- | -- |
-| Виктор Дегтярев | FALSE | 01.06.2017 | `07/26/2017` | `FALSE` 
+| Виктор Дегтярев | Ложь. | 01.06.2017 | `07/26/2017` | `FALSE` 
 | Виктор Дегтярев | TRUE | 26.07.2017 | 31.12.9999 | TRUE 
 
 Первая строка указывает, что пользователь Виктор Дегтярев существовал в Intune с 01.06.2017 по 25.07.2017. Первая строка указывает, что этого пользователя удалили 25.07.2017, и он больше не присутствует в Intune.
@@ -54,9 +54,9 @@ ms.locfileid: "72813344"
  
 | DisplayName | IsDeleted | StartDateInclusiveUTC | EndDateExclusiveUTC | IsCurrent 
 | -- | -- | -- | -- | -- |
-| Виктор Дегтярев | FALSE | 01.06.2017 | 26.07.2017 | FALSE 
+| Виктор Дегтярев | Ложь. | 01.06.2017 | 26.07.2017 | Ложь. 
 | Виктор Дегтярев | TRUE | 26.07.2017 | `08/31/2017` | `FALSE` 
-| Виктор Дегтярев | FALSE | 08/31/2017 | 31.12.9999 | TRUE 
+| Виктор Дегтярев | Ложь. | 08/31/2017 | 31.12.9999 | TRUE 
  
 Чтобы просмотреть состояние всех пользователей, можно применить фильтр, где `IsCurrent = TRUE`. 
  

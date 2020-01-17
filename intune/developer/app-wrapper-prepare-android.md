@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/02/2019
+ms.date: 01/02/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8fa63540afa18450f731180da3c2cee729010a65
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 256fe3e193e5ab3959c6f9712df8b62246377c6d
+ms.sourcegitcommit: 8d7406b75ef0d75cc2ed03b1a5e5f74ff10b98c0
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74465701"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75653960"
 ---
 # <a name="prepare-android-apps-for-app-protection-policies-with-the-intune-app-wrapping-tool"></a>Подготовка приложений Android для применения политик защиты приложений с помощью инструмента упаковки приложений
 
@@ -54,7 +54,7 @@ ms.locfileid: "74465701"
     > [!NOTE]
     > Инструмент упаковки приложений Intune не поддерживает версию 2 и грядущую версию 3 схем подписей Google для подписывания приложений. После упаковки APK-файла с помощью инструмента упаковки приложений Intune рекомендуется использовать [средство Apksigner, предоставляемое Google]( https://developer.android.com/studio/command-line/apksigner). Это гарантирует, что на устройствах конечных пользователей приложение будет запускаться корректно, в соответствии со стандартами Android. 
 
-- Иногда в приложении может достигаться максимальный размер исполняемого файла Dalvik (DEX) из-за классов пакета SDK для Intune MAM, которые добавляются во время упаковки (необязательно). Файлы DEX являются частью компиляции приложения Android. Инструмент упаковки для приложений Intune автоматически обрабатывает переполнение файла DEX во время упаковки для приложений с минимальным уровнем API 21 или выше (начиная с [v. 1.0.2501.1](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android/releases)). Для приложений с минимальным уровнем API < 21 рекомендуется увеличить минимальный уровень API с помощью флага `-UseMinAPILevelForNativeMultiDex` оболочки. Чтобы клиенты не могли увеличить минимальный уровень API приложения, доступны следующие обходные пути DEX для переполнения. В некоторых организациях для этого может потребоваться взаимодействие с теми, кто компилирует приложение (например, с группой по сборке приложений).
+- Иногда в приложении может достигаться максимальный размер исполняемого файла Dalvik (DEX) из-за классов пакета SDK для Intune MAM, которые добавляются во время упаковки (необязательно). Файлы DEX являются частью компиляции приложения Android. Инструмент упаковки для приложений Intune автоматически обрабатывает переполнение файла DEX во время упаковки для приложений с минимальным уровнем API 21 или выше (начиная с [v. 1.0.2501.1](https://github.com/msintuneappsdk/intune-app-wrapping-tool-android/releases) Для приложений с минимальным уровнем API < 21 рекомендуется увеличить минимальный уровень API с помощью флага `-UseMinAPILevelForNativeMultiDex` оболочки. Чтобы клиенты не могли увеличить минимальный уровень API приложения, доступны следующие обходные пути DEX для переполнения. В некоторых организациях для этого может потребоваться взаимодействие с теми, кто компилирует приложение (например, с группой по сборке приложений).
 
   - Используйте защиту, чтобы удалить неиспользуемые ссылки на классы из первичного файла DEX приложения.
   - Для клиентов, использующих v 3.1.0 или более позднюю версию подключаемого модуля Android Gradle, отключите параметр [D8 дексер](https://android-developers.googleblog.com/2018/04/android-studio-switching-to-d8-dexer.html).  
@@ -65,7 +65,7 @@ ms.locfileid: "74465701"
 
 2. Примите условия лицензионного соглашения, а затем завершите установку.
 
-Запомните папку, в которую был установлен инструмент. По умолчанию используется расположение C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool.
+Запомните папку, в которую был установлен инструмент. Расположение по умолчанию: C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool.
 
 ## <a name="run-the-app-wrapping-tool"></a>Запуск инструмента упаковки для приложений
 
@@ -107,7 +107,7 @@ ms.locfileid: "74465701"
     Help Invoke-AppWrappingTool
     ```
 
-**Пример:**
+**Пример.**
 
 Импорт модуля PowerShell.
 

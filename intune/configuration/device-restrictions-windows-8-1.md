@@ -1,12 +1,12 @@
 ---
-title: Параметры ограничений устройств в Microsoft Intune для устройств под управлением Windows 8.1
+title: Настройка параметров ограничений устройств с Windows 8.1 в Microsoft Intune в Azure | Документы Майкрософт
 titleSuffix: ''
 description: Сведения о параметрах Intune, с помощью которых можно управлять параметрами и работой устройств Windows 8.1.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 3/6/2018
+ms.date: 12/19/2019
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,19 +16,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0df55e79dbc54926c0507889620f2667d7b8bd7b
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 82eaf1bc2c0737e1cc54751ff6fb5751227d180c
+ms.sourcegitcommit: 42183c87b137710b8529049f8710d47127e99900
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72489831"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75302965"
 ---
-# <a name="microsoft-intune-windows-81-and-later-device-restriction-settings"></a>Параметры ограничений для устройств с ОС Windows 8.1 и более поздних версий в Microsoft Intune
+# <a name="microsoft-intune-windows-81-device-restriction-settings"></a>Параметры ограничений для устройств с Windows 8.1 в Microsoft Intune
 
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
-
-В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 8.1 и более поздних версий.
-
+В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows 8.1.
 
 ## <a name="general"></a>Общие
 
@@ -48,8 +45,6 @@ ms.locfileid: "72489831"
 Если включить этот параметр для устройств с Windows 8.1, все пользователи таких устройств должны иметь учетную запись Майкрософт.
 Для выполнения шифрования устройства должны соответствовать требованиям к сертификации оборудования Microsoft [InstantGo](https://blogs.windows.com/windowsexperience/2014/06/19/instantgo-a-better-way-to-sleep/#IBHULcTfI4PokO8X.97).
 При включении шифрования для устройства ключ восстановления доступен только из учетной записи Майкрософт пользователя, к которой осуществляется доступ из его учетной записи OneDrive. Получить этот ключ от имени пользователя нельзя. 
-
-
 
 ## <a name="browser"></a>Браузер
 - **Автозаполнение.** Разрешает пользователю изменять настройки автозаполнения в браузере.
@@ -75,3 +70,7 @@ ms.locfileid: "72489831"
 ## <a name="cloud-and-storage"></a>Облако и хранилище
 - **URL-адрес рабочих папок.** Задает URL-адрес рабочей папки, чтобы обеспечить синхронизацию документов на устройствах.
 - **Доступ к приложению "Почта Windows" без учетной записи Майкрософт.** Разрешает доступ к приложению "Почта Windows" без учетной записи Майкрософт.
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+Создайте профиль ограничений для устройств в [Windows 10 и более новых версиях](device-restrictions-windows-10.md).

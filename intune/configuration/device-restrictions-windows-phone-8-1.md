@@ -16,16 +16,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bc29a7a5026691371370b167a4445bfd70cc76bd
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 37fa650fb8c742b1f1b0cfbf154fe8cf63d35c89
+ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72489808"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75206471"
 ---
 # <a name="microsoft-intune-windows-phone-81-device-restriction-settings"></a>Параметры ограничений для устройств с Windows Phone 8.1 в Microsoft Intune
 
-[!INCLUDE [azure_portal](../includes/azure_portal.md)]
+
 
 В этой статье описаны все параметры ограничений устройств в Microsoft Intune, которые можно настроить для устройств под управлением Windows Phone 8.1.
 
@@ -74,7 +74,7 @@ URL-адрес приложения в списке разрешенных и з
 
 Откройте страницу приложения и скопируйте URL-адрес в буфер обмена. После этого его можно использовать как URL-адрес в списке разрешенных приложений или в списке заблокированных приложений.
 
-Пример. Выполните поиск в магазине по запросу "Приложение Skype". Используется URL-адрес вида `http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51`.
+Пример: выполните поиск в магазине по запросу "Приложение Skype". Используется URL-адрес вида `http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51`.
 
 
 

@@ -18,15 +18,15 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser; intune-azure
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 64612aa8a1d427284778a9aa43b966b05cb0a15f
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: dc36e2d53282b8f40f0250f40cb2f01ec920d936
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72502118"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75858218"
 ---
-# <a name="reset-device-from-the-company-portal-app"></a>Сброс устройства из корпоративный портал приложения  
+# <a name="reset-device-from-the-company-portal-app"></a>Сброс устройства с помощью приложения корпоративного портала  
 
 Восстановите заводские настройки на используемом, утерянном или украденном устройстве с помощью приложения "Корпоративный портал".  
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 962e66a9fdf6d8abcf6855f645775026ee4db850
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: d3d9473b68f0420670130203409abf477355d93f
+ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508843"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885538"
 ---
 # <a name="troubleshoot-the-intune-exchange-connector"></a>Устранение неполадок с соединителем Intune Exchange
 
@@ -40,7 +40,7 @@ ms.locfileid: "72508843"
   - Вы настраиваете соединитель в первый раз? 
   - Правильно ли работает соединитель, а затем произошел ли сбой?
   - Если он работал, какие изменения произошли в среде Intune, среде Exchange или на компьютере, где работает программное обеспечение соединителя?
-- Что такое центр MDM? Если System Center Configuration Manager, какая версия Configuration Manager используется?
+- Что такое центр MDM?
 - Какую версию Exchange вы используете?
 
 ### <a name="use-powershell-to-get-more-data-on-exchange-connector-issues"></a>Использование PowerShell для получения дополнительных сведений о неполадках в работе соединителя Exchange
@@ -65,7 +65,7 @@ ms.locfileid: "72508843"
 
 ### <a name="common-issues-for-connector-configurations"></a>Распространенные проблемы, связанные с конфигурациями соединителей
 
-- **Разрешения учетной записи**: в диалоговом окне "Соединитель Microsoft Intune Exchange" убедитесь, что указана учетная запись пользователя, имеющая соответствующие разрешения на выполнение [необходимых командлетов Exchange в Windows PowerShell](exchange-connector-install.md#exchange-cmdlet-requirements).
+- **Разрешения учетной записи**. В диалоговом окне "Microsoft Intune Exchange Connector" убедитесь, что указана учетная запись пользователя, имеющая соответствующие разрешения на выполнение [необходимых командлетов Exchange в Windows PowerShell](exchange-connector-install.md#exchange-cmdlet-requirements).
 - **Сообщения электронной почты с уведомлениями**: Включение уведомлений и указание учетной записи уведомления.
 - **Синхронизация сервера клиентского доступа**. при настройке соединителя Exchange укажите центры сертификации с наименьшей задержкой в сети на сервере, на котором размещен соединитель Exchange. Задержка взаимодействия между CAS и соединителем Exchange может привести к задержкам обнаружения устройств, особенно при использовании Exchange Online (цен. категория "Выделенный").
 - **Расписание синхронизации**: Пользователь с только что зарегистрированным устройством может испытывать задержки доступа, пока соединитель Exchange синхронизируется с Exchange CAS. Полная синхронизация выполняется один раз в день, а разностная (быстрая) синхронизация — несколько раз в день. Чтобы минимизировать задержки, вы можете [принудительно выполнить быструю или полную синхронизацию вручную](exchange-connector-install.md#manually-force-a-quick-sync-or-full-sync).

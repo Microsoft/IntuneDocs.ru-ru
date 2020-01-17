@@ -17,13 +17,13 @@ ROBOTS: ''
 ms.reviewer: tisilver
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: bfafa4f35d0b8f1255d66a70c3f7cd0acf01a889
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: b976e9a47a56c7af1e754f5b5b0162410e278025
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73415767"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75856398"
 ---
 # <a name="set-up-ios-or-ipados-device-with-company-portal-and-entrust-datacard"></a>Настройка устройства iOS или Ипадос с помощью корпоративный портал и Entrust Datacard
 
@@ -56,7 +56,7 @@ ms.locfileid: "73415767"
 
 * Смарт-карта, предоставленная в вашем учебном заведении или работе
 * Доступ к компьютеру или киоску, где можно войти с помощью смарт-карты
-* Ваше мобильное устройство
+* Мобильное устройство
 * Корпоративный портал Intune приложение для iOS и Ипадос, установленное на устройстве  
 
 

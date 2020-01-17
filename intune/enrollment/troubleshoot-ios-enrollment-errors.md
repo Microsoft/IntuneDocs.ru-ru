@@ -17,12 +17,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 46b46cd4a407df686e094198c588371ed4a01bb6
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 9bca046302b221b934d0802c0bf637aced2cec3f
+ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74832570"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885913"
 ---
 # <a name="troubleshoot-ios-device-enrollment-problems-in-microsoft-intune"></a>Устранение проблем с регистрацией устройств iOS в Microsoft Intune
 
@@ -40,7 +40,7 @@ ms.locfileid: "74832570"
 - На какой платформе (Android, iOS, Windows) возникла проблема?
 - Сколько пользователей затронуто? Все ли пользователи затронули или только некоторые из них?
 - Сколько затронутых устройств? Затрагиваются ли все устройства или только некоторые из них?
-- Что такое центр MDM? Если System Center Configuration Manager, какая версия Configuration Manager используется?
+- Что такое центр MDM?
 - Как выполняется регистрация? Это "присвоить свое устройство" (BYOD) или Apple Программа регистрации устройств (DEP) с профилями регистрации?
 
 ## <a name="error-messages"></a>Сообщения об ошибках
@@ -186,7 +186,7 @@ ms.locfileid: "74832570"
 **Причина:** Сертификат Cлужба push-уведомлений Apple (APNs) отсутствует, недопустим или просрочен.
 
 #### <a name="resolution"></a>Решение
-Убедитесь, что в Intune добавлен действительный сертификат APNs. Дополнительные сведения см. в статье [Регистрация устройств с iOS в Intune](https://docs.microsoft.com/intune-classic/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune). 
+Убедитесь, что в Intune добавлен действительный сертификат APNs. Дополнительные сведения см. в разделе [Настройка регистрации iOS](ios-enroll.md).
 
 ### <a name="accountnotonboarded"></a>AccountNotOnboarded
 
@@ -199,7 +199,6 @@ ms.locfileid: "74832570"
 > Убедитесь, что сертификат APNs продлен. Не заменяйте сертификат APNs. При замене сертификата необходимо повторно зарегистрировать все устройства iOS в Intune. 
 
 - Сведения об обновлении сертификата APNs в автономной системе Intune см. в статье [продление срока действия сертификата Apple MDM Push Certificate](apple-mdm-push-certificate-get.md#renew-apple-mdm-push-certificate).
-- Сведения об обновлении сертификата APNs в гибридной службе Intune с Configuration Manager см. в статье [Настройка гибридного управления устройствами iOS с помощью System Center Configuration Manager и Microsoft Intune](https://docs.microsoft.com/sccm/mdm/deploy-use/enroll-hybrid-ios-mac).
 - Сведения об обновлении сертификата APNs в Office 365 см. в статье [Создание сертификата APNs для устройств iOS](https://support.office.com/article/Create-an-APNs-Certificate-for-iOS-devices-522b43f4-a2ff-46f6-962a-dd4f47e546a7).
 
 ### <a name="xpc_type_error-connection-invalid"></a>Недопустимое подключение XPC_TYPE_ERROR
@@ -230,7 +229,7 @@ iPhone mobileassetd[83] <Notice>: 0x1a49aebc0 Client connection: XPC_TYPE_ERROR 
 #### <a name="resolution"></a>Решение
 
 1. Изменение профиля регистрации. Можно внести любые изменения в профиль. Целью является обновление времени изменения профиля.
-2. Синхронизация устройств, управляемых DEP. В [Центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **iOS** > **Регистрация устройств iOS** > **Синхронизация токенов** > выберите токен > **Синхронизировать**. Запрос на синхронизацию будет отправлен в Apple.
+2. Синхронизация устройств под управлением DEP. В [Центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **iOS** > **Регистрация iOS** > **Токены программы регистрации**, а затем выберите токен в списке и **Синхронизировать**. Запрос на синхронизацию будет отправлен в Apple.
 
 ### <a name="dep-enrollment-stuck-at-user-login"></a>Регистрация DEP была задержана при входе пользователя
 При включении устройства под управлением DEP, которому назначен профиль регистрации, начальная настройка фиксируется после ввода учетных данных.

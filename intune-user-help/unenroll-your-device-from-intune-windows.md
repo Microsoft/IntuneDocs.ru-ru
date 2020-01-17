@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: e64911ea9b1b1d3c619a82eac9dc78e4e78a53e9
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: 4540c4d58bebcbec06e73eaf51d91d6685d0243b
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508129"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75859004"
 ---
 # <a name="remove-your-windows-device-from-management"></a>Удаление устройства Windows из системы управления
 
@@ -94,7 +94,7 @@ ms.locfileid: "72508129"
 Корпоративный портал хранит на устройстве Windows два указанных далее вида данных.
 
 - **Журналы диагностики**. Стандартные данные о действиях приложений, собираемые корпорацией Майкрософт. Они автоматически удаляются при удалении приложения "Корпоративный портал". Данные о действиях приложения — это, например, сведения о сбое приложения или о том, как долго приложение было открыто.
-- **Кэш приложения.** Файлы поддержки, необходимые для работы приложения, например значки и параметры.
+- **Кэш приложения**. Файлы поддержки, необходимые для работы приложения, например значки и параметры.
 
 Чтобы удалить хранимые журналы и кэш, выполните одно из следующих действий.
 

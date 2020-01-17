@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f382ce35d1d13a59f1aa5ca6a904c0c9babff8c1
-ms.sourcegitcommit: 7cc45ef52dda08479bc6bdff7d11d2f6c0e7b93b
+ms.openlocfilehash: 58c4db1f4c778050bc91bde79494742e018f5329
+ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74899342"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75547906"
 ---
 # <a name="use-the-microsoft-intune-data-warehouse"></a>Использование хранилища данных Microsoft Intune
 
@@ -43,7 +43,7 @@ ms.locfileid: "74899342"
 - модели данных, использующей стандарт OData.
 
 > [!Note]
-> Если вы используете совместное управление мобильными устройствами (MDM) с помощью System Center Configuration Manager и Microsoft Intune, можно извлекать данные из Configuration Manager. Хранилище данных Intune содержит только данные Intune. Для создания пользовательских отчетов можно использовать панель мониторинга Configuration Manager в Power BI. Дополнительные сведения см. в статьях [Announcing the Power BI solution template for System Center Configuration Manager]( https://powerbi.microsoft.com/blog/sccm-solution-template) (Представление шаблона решения Power BI для System Center Configuration Manager) и [Power BI content for Dynamics 365](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page) (Содержимое Power BI для Dynamics 365).
+> Если вы используете совместное управление мобильными устройствами (MDM) с помощью Microsoft Endpoint Configuration Manager и Microsoft Intune, можно извлекать данные из Configuration Manager. Хранилище данных Intune содержит только данные Intune. Для создания пользовательских отчетов можно использовать панель мониторинга Configuration Manager в Power BI. Дополнительные сведения см. в статьях [Представляем шаблон решения Power BI для Configuration Manager](https://powerbi.microsoft.com/blog/sccm-solution-template) и [Содержимое Power BI для Dynamics 365](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page).
 
 > [!Important]  
 > Теперь вы можете использовать версию 1.0 хранилища данных Intune, задав параметр запроса `api-version=v1.0`. Обновления коллекций в хранилище данных носят аддитивный характер и не нарушают существующие сценарии.<br><br>

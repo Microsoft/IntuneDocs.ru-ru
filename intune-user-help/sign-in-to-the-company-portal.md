@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 09/18/2019
+ms.date: 12/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 68a44027c14e0a52d72fc032a6ab42413fa8df96
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: f82549cfbdd3c987b2f51f4d90b9c18cce8c25be
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508307"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75857809"
 ---
 # <a name="sign-in-to-company-portal"></a>Войдите в корпоративный портал  
 
@@ -56,6 +56,7 @@ ms.locfileid: "72508307"
    ![После аутентификации для приложения Корпоративного портала выполняется вход в систему с отображением полосы загрузки.](/intune-user-help/media/cp_ios_aad_signin_after_1804_004.png)
 
 ## <a name="sign-in-with-certificate-based-authentication"></a>Вход с использованием аутентификации на основе сертификата
+Этот вариант входа будет отображаться только в том случае, если ваша организация разрешает проверку подлинности на основе сертификатов, и у вас есть доступный для использования сертификат.  
 
 1. Откройте приложение "Корпоративный портал" на устройстве.  
 

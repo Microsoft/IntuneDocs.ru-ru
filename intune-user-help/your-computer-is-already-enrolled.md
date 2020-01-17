@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: chrisgre
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2a1d025620e37009ce283510fc8f71b6fb90993f
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: 12b8fcc5c8514dbcc4c649d1c1113dca0ea51d64
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72500192"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75858368"
 ---
 # <a name="your-computer-is-already-enrolled"></a>Ваш компьютер уже зарегистрирован
 
@@ -38,6 +38,6 @@ ms.locfileid: "72500192"
 
 3. Следуйте указаниям по связыванию компьютера с учетной записью пользователя.
 
-Если вы предпочитаете отменить регистрацию устройства, воспользуйтесь инструкциями в соответствии с типом своего устройства: [Android](unenroll-your-device-from-intune-android.md), [iOS](unenroll-your-device-from-intune-ios.md) или [Windows](unenroll-your-device-from-intune-windows.md).
+Если вы предпочитаете отменить регистрацию устройства, воспользуйтесь инструкциями в соответствии с типом своего устройства: [Android](unenroll-your-device-from-intune-android.md), [iOS](unenroll-your-device-from-intune-ios.md), [Windows](unenroll-your-device-from-intune-windows.md).
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

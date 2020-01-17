@@ -18,13 +18,13 @@ ROBOTS: ''
 ms.reviewer: jieyang
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 86aeb2b54d45f111864d71e65b8c90fce7205868
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: 86c158f73d820fa2e719fe92b884c77f315fcb94
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508021"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75858817"
 ---
 # <a name="windows-device-enrollment-in-intune-company-portal"></a>Регистрация устройств с Windows на корпоративном портале Intune  
 
@@ -62,8 +62,8 @@ ms.locfileid: "72508021"
 
 4. Если ваша версия —  
 
-    * __1607 или более поздняя__: регистрация устройства выполняется в разделе [**Параметры** > **Учетная запись** > **Доступ к рабочей или учебной учетной записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1607-and-later-device).   
-    * __1511 или более ранняя__: регистрация устройства выполняется в разделе [**Параметры** > **Учетная запись** > **Ваши учетные записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1511-and-earlier-device).  
+    * __1607 или выше__: регистрация устройства выполняется в разделе [**Параметры** > **Учетная запись** > **Доступ к рабочей или учебной учетной записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1607-and-later-device).   
+    * __1511 или ниже__: регистрация устройства выполняется в разделе [**Параметры** > **Учетная запись** > **Ваши учетные записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1511-and-earlier-device).  
 
 ### <a name="windows-10-mobile-devices"></a>Устройства Windows 10 Mobile
 
@@ -72,8 +72,8 @@ ms.locfileid: "72508021"
 3. В разделе __Сведения об устройстве__ найдите пункт __Версия__.  
 4. Если ваша версия —  
 
-    * __1607 или более поздняя__: регистрация устройства выполняется в разделе [**Параметры** > **Доступ к рабочей или учебной учетной записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1607-and-later-device).   
-    * __1511 или более ранняя__: регистрация устройства выполняется в разделе [**Параметры** > **Учетные записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1511-and-earlier-device).  
+    * __1607 или выше__: регистрация устройства выполняется в разделе [**Параметры** > **Доступ к рабочей или учебной учетной записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1607-and-later-device).   
+    * __1511 или ниже__: регистрация устройства выполняется в разделе [**Параметры** > **Учетные записи**Маршрут](enroll-windows-10-device.md#enroll-windows-10-version-1511-and-earlier-device).  
 
 ## <a name="enroll-non-windows-10-devices"></a>Регистрация устройств с Windows 10  
 Зарегистрировать остальные поддерживаемые устройства с Windows можно через веб-сайт корпоративного портала с использованием информации в следующих статьях:   

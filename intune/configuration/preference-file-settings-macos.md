@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/02/2019
+ms.date: 01/09/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6ed04c1bf135793da9cece9debc2c7cdd481601a
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: d226a5b8ee448b7b168a03fe6b8a1c63bc1be432
+ms.sourcegitcommit: 8f56220e7cafc5bc43135940575a9acb5afde730
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74691694"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75827791"
 ---
 # <a name="add-a-property-list-file-to-macos-devices-using-microsoft-intune"></a>Добавление файла списка свойств на устройства macOS с помощью Microsoft Intune
 
@@ -53,6 +53,16 @@ ms.locfileid: "74691694"
 - **Имя домена предпочтений**. файлы списка свойств обычно используются для веб-браузеров (Microsoft ребра), [Microsoft защитника Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac)и пользовательских приложений. При создании домена предпочтений также создается идентификатор пакета. Введите идентификатор пакета, например `com.company.application`. Например, введите `com.Contoso.applicationName`, `com.Microsoft.Edge` или `com.microsoft.wdav`.
 - **Файл списка свойств**: выберите файл со списком свойств, связанный с вашим приложением. Убедитесь, что это файл `.plist` или `.xml`. Например, отправьте файл `YourApp-Manifest.plist` или `YourApp-Manifest.xml`.
 - **Содержимое файла**: сведения о ключе в файле списка свойств. Если необходимо изменить сведения о ключе, откройте файл списка в другом редакторе, а затем повторно отправьте файл в Intune.
+
+Убедитесь, что файл отформатирован правильно. В файле должны содержаться только пары "ключ — значение" и не должны быть заключены в теги `<dict>`, `<plist>`или `<xml>`. Например, файл списка свойств должен быть похож на следующий файл:
+
+```xml
+<key>SomeKey</key>
+<string>someString</string>
+<key>AnotherKey</key>
+<false/>
+...
+```
 
 Щелкните **OK** > **Создать**, чтобы сохранить изменения. Созданный профиль отобразится в списке профилей.
 

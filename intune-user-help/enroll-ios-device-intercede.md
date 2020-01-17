@@ -17,13 +17,13 @@ ROBOTS: ''
 ms.reviewer: tisilver
 ms.suite: ems
 ms.custom: intune-enduser
-ms.collection: M365-identity-device-management
-ms.openlocfilehash: 02293b29f8634161582af2348b1cb30039ca3c52
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.collection: ''
+ms.openlocfilehash: 2a2c3264b2894ad81a64e7aaa7d3697f069dbfbb
+ms.sourcegitcommit: caee3c3fa77586314aa8040b0caf32a0527b669e
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73415715"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75856293"
 ---
 # <a name="set-up-ios-or-ipados-device-with-company-portal-and-intercede"></a>Настройка устройства iOS или Ипадос с помощью корпоративный портал и Интерцеде
 
@@ -57,7 +57,7 @@ ms.locfileid: "73415715"
 
 * Смарт-карта, предоставленная в вашем учебном заведении или работе
 * Доступ к компьютеру или самостоятельному киоску, где можно выполнить вход с помощью смарт-карты
-* Ваше мобильное устройство
+* Мобильное устройство
 * Корпоративный портал Intune приложение для iOS и Ипадос, установленное на устройстве
 
 
