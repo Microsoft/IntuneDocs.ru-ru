@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/06/2019
+ms.date: 01/08/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9e3867bfc2de29c059766e134bd0d2c8801e1c70
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 50478ecb615cf39bba0a205cb06f83e47728e366
+ms.sourcegitcommit: 8f56220e7cafc5bc43135940575a9acb5afde730
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73712911"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75827842"
 ---
 # <a name="automate-email-and-add-actions-for-noncompliant-devices-in-intune"></a>Автоматизация уведомлений и действий для несоответствующих устройств в Intune
 
@@ -91,7 +91,7 @@ ms.locfileid: "73712911"
 
 Когда вы создаете политику соответствия устройств, Intune автоматически создает действие при несоответствии. Если устройство не удовлетворяет политике соответствия требованиям, это действие помечает устройство как несоответствующее политике. Вы можете настроить, как долго устройство будет иметь эту метку. Это действие нельзя удалить.
 
-Можно также добавить другое действие при создании политики соответствия требованиям или изменении существующей политики.
+К действию по умолчанию, позволяющего пометить устройства как не соответствующие требованиям, можно добавить другие действия при создании политики соответствия или обновлении существующей политики.
 
 1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 

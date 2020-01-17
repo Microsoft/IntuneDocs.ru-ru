@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d843cf707cf182655d0044dde289caca730ccd6b
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: a6f57783b0878cd25e6c7eacdf4b32e462790916
+ms.sourcegitcommit: 5db0769274d788a1218dca3ad90d8649927becb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72810302"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925812"
 ---
 # <a name="integrate-zimperium-with-intune"></a>Интеграция Zimperium с Intune
 
@@ -31,7 +31,7 @@ ms.locfileid: "72810302"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-Следующие шаги необходимо выполнить в [консоли Zimperium MTD](https://www.zimperium.com/platform), чтобы установить соединение со службой vice для зарегистрированных устройств Intune (с помощью соответствия устройств) и незарегистрированных устройств (с помощью политик защиты приложений).
+Следующие шаги необходимо выполнить в [консоли Zimperium MTD](https://www.zimperium.com/platform), чтобы установить соединение со службой Zimperium для зарегистрированных устройств Intune (с помощью политики соответствия устройств) и незарегистрированных устройств (с помощью политик защиты приложений).
 
 Перед началом интеграции Zimperium с Intune убедитесь в наличии следующей подписки и учетных данных:
 
@@ -39,7 +39,7 @@ ms.locfileid: "72810302"
 
 - Учетные данные глобального администратора Azure Active Directory для предоставления следующих разрешений:
 
-  - Вход и чтение профилей пользователей
+  - Вход в систему и чтение профиля пользователя
 
   - Доступ к каталогу от имени вошедшего в систему пользователя
 

@@ -17,12 +17,12 @@ ms.reviewer: spshumwa
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8b2ce91cea1fdef211a8e6a9dc1c19086f355385
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 9cbdd99dfb7b42677048b4f214e7de537db0edda
+ms.sourcegitcommit: 5db0769274d788a1218dca3ad90d8649927becb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72585274"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925824"
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 
@@ -95,7 +95,7 @@ ms.locfileid: "72585274"
 
 ### <a name="bulk-enrollment-with-wi-fi"></a>Массовая регистрация с Wi-Fi 
 
-При массовой регистрации устройств вы не можете применять сертификаты на пользователей и развертывание с Wi-Fi. Используйте [сертификаты уровня устройств](../protect/certificates-configure.md) для управления такими подключениями. 
+Если вы не используете открытую сеть, для установки подключений необходимо применять [сертификаты уровня устройства](../protect/certificates-configure.md). При массовой регистрации устройств вы не можете применять сертификаты, предназначенные для пользователей, для доступа к сети. 
 
 ### <a name="conditional-access"></a>Условный доступ
 Для устройств Windows, прошедших массовую регистрацию, не предоставляется условный доступ.

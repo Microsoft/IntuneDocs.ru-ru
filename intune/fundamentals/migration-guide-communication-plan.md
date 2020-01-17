@@ -17,12 +17,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c4637a4f9f137e9db665d72118fd7a97d7a9f75a
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: f617e85e78ac5436567790d416c988742a2abe4c
+ms.sourcegitcommit: de663ef5f3e82e0d983899082a7f5b62c63f24ef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72510130"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75956222"
 ---
 # <a name="plan-communications"></a>Планирование обмена данными
 
@@ -62,4 +62,4 @@ ms.locfileid: "72510130"
 
 - В статье [Инструкции по использованию Microsoft Intune для конечных пользователей](end-user-educate.md) описаны этапы регистрации в зависимости от платформы мобильных устройств.
 - В статье [Регистрация устройств в Intune для ИТ-администраторов](../enrollment/device-enrollment.md) объясняется, как зарегистрировать устройства Android, iOS и Mac в Intune.
-- Поделитесь [URL-адресом приложения корпоративного портала](http://go.microsoft.com/fwlink/?LinkID=396941) с пользователями Windows, iOS и Android. Этот URL-адрес перенаправляет в соответствующий список приложений корпоративного портала для устройств Android, iOS и Windows.
+- Предоставьте доступ к приложению корпоративного портала пользователям Windows, iOS и Android.

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 479d88c09f48acbbfaedf1f4c69546b7f52dfbf1
-ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
+ms.openlocfilehash: 800193921e608a0d0c29dad5cf85b8781e715441
+ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692191"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885808"
 ---
 # <a name="app-configuration-policies-for-microsoft-intune"></a>Политики конфигурации приложений для Microsoft Intune
 
@@ -93,7 +93,7 @@ ms.locfileid: "75692191"
 
 ### <a name="ios-configuration-on-unmanaged-devices"></a>Конфигурация iOS на неуправляемых устройствах
 
-Конфигурацию iOS можно проверить с помощью **журнала диагностики Intune** на неуправляемых устройствах для конфигурации управляемого приложения.
+Конфигурацию iOS можно проверить с помощью **журнала диагностики Intune** на неуправляемых устройствах для конфигурации управляемого приложения. В дополнение к приведенным ниже шагам можно получить доступ к журналам управляемых приложений с помощью Microsoft Edge. Дополнительные сведения см. в разделе [Использование Microsoft Edge в iOS для доступа к журналам управляемых приложений](~/apps/manage-microsoft-edge.md#use-microsoft-edge-on-ios-to-access-managed-app-logs).
 
 1. Если он еще не установлен на устройстве, скачайте и установите **Intune Managed Browser** из магазина App Store. Дополнительные сведения см. в статье [Защищенные приложения Microsoft Intune](apps-supported-intune-apps.md).
 2. Запустите **Intune Managed Browser** и выберите **about** > **intunehelp** на панели навигации.
@@ -162,7 +162,7 @@ ms.locfileid: "75692191"
     
 ## <a name="graph-api-support-for-app-configuration"></a>Поддержка API Graph для конфигурации приложений
 
-Вы можете использовать API Graph для решения задач конфигурации. Подробнее см. в [Справочнике по API Graph в разделе «Целевая конфигурация MAM»](https://graph.microsoft.io/docs/api-reference/beta/api/intune_mam_targetedmanagedappconfiguration_create).
+Вы можете использовать API Graph для решения задач конфигурации. Подробнее см. в [Справочнике по API Graph в разделе «Целевая конфигурация MAM»](https://docs.microsoft.com/graph/api/resources/intune-shared-targetedmanagedappconfiguration?view=graph-rest-beta). Дополнительные сведения о Graph и Intune см. в статье [Работа с Intune в Microsoft Graph](https://docs.microsoft.com/graph/api/resources/intune-graph-overview?view=graph-rest-beta).
 
 ## <a name="troubleshooting"></a>Диагностика
 
