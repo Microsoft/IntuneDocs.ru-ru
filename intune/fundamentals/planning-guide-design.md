@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5c18f3e8fb14d8592789b39856ec420790fad286
-ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
+ms.openlocfilehash: 8452f840fb269505656bf6594d3e5c196b4d7a06
+ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75547546"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885787"
 ---
 # <a name="create-a-design"></a>Создание структуры проектирования
 
@@ -101,19 +101,11 @@ ms.locfileid: "75547546"
 | **SharePoint** | Локальная среда SharePoint | Переход на SharePoint Online не планируется |  
 | **Текущая система MDM** | Exchange ActiveSync |  |
 | **Решение сертификатов** | Microsoft Server 2012 R2, службы сертификатов Active Directory | PKI используется только для серверов веб-сайтов |
-| **Управление системами** | Configuration Manager CB 1606 | Хотелось бы изучить возможности гибридного решения Intune |
+| **Управление системами** | Текущая ветвь Configuration Manager | Возможность изучения решения совместного управления |
 | **Решение VPN** | Cisco AnyConnect |  |
 
 
 Вы можете [скачать шаблон приведенной выше таблицы](https://gallery.technet.microsoft.com/Intune-deployment-planning-fae156c2?redir=0) и использовать его при разработке плана проекта Intune.
-
-## <a name="choose-an-intune-deployment-option"></a>Выбор варианта развертывания Intune
-
-Intune предлагает два варианта развертывания: автономный и гибридный. Автономный вариант подразумевает выполнение службы Intune в облаке, гибридный — интеграцию Intune с Configuration Manager. Это руководство предназначено в первую очередь для использования автономного варианта. [Вам нужно решить, какой вариант соответствует потребностям вашего бизнеса](https://docs.microsoft.com/configmgr/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management).
-
-> [!Important]
->Подключение новых клиентов гибридного управления мобильными устройствами больше не поддерживается. Дополнительные сведения см. в записи блога о [переходе с гибридного управления мобильными устройствами на Intune в Azure](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Move-from-Hybrid-Mobile-Device-Management-to-Intune-on-Azure/ba-p/280150).
-
 
 ## <a name="intune-tenant-location"></a>Расположение клиента Intune
 

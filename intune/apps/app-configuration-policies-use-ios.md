@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2c447c67e631365e831f033c2811c36d936f2e85
-ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
+ms.openlocfilehash: d5a3204721a0d40cfb5bf729ca17ef8e4ded1f0f
+ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75547988"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885766"
 ---
 # <a name="add-app-configuration-policies-for-managed-ios-devices"></a>Добавление политик конфигурации приложений для управляемых устройств iOS
 
@@ -182,7 +182,7 @@ Intune поддерживает следующие типы данных в сп
 
 1. При необходимости добавьте Корпоративный портал Intune, перейдя в **Intune** > **Приложения** > **Все приложения** > **Добавить**.
 2. Перейдите в раздел **Приложения** > **Политики конфигурации приложений**, чтобы создать политику конфигурации приложений для приложения "Корпоративный портал".
-3. Создание политики конфигурации приложений с XML. Дополнительные сведения о том, как создать политику конфигурации приложений и ввести данные XML, можно найти в статье [Добавление политик конфигурации приложений для управляемых устройств iOS](app-configuration-policies-use-ios.md), а для гибридных MDM — в статье [Применение параметров к приложениям iOS с помощью политик конфигурации приложений в Configuration Manager](https://docs.microsoft.com/configmgr/mdm/deploy-use/configure-ios-apps-with-app-configuration-policies).
+3. Создание политики конфигурации приложений с XML. См. сведения о том, как создать политику конфигурации приложений и ввести данные XML в руководстве по [добавлению политик конфигурации приложений для управляемых устройств iOS](app-configuration-policies-use-ios.md).
 
     ``` xml
     <dict>

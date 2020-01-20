@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 01/06/2020
+ms.date: 01/09/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b2bb9d921f30e343b309be60438f5318d7c66518
-ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
+ms.openlocfilehash: 311941c3981e5883d392359dc0919bb85156c4be
+ms.sourcegitcommit: fb72b19986f34907d228c856d2e6949751ec02a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692259"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "75920092"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 
@@ -62,6 +62,15 @@ ms.locfileid: "75692259"
 #### <a name="smime-support-for-microsoft-outlook-for-ios---2669398---"></a>Поддержка S/MIME в Microsoft Outlook для iOS<!-- 2669398 -->
 Intune поддерживает доставку сертификатов для подписи и шифрования S/MIME, которые можно использовать в Outlook для iOS на устройствах iOS. Дополнительные сведения см. в статье [Sensitivity labeling and protection in Outlook for iOS and Android](https://aka.ms/omsmime) (Метки конфиденциальности и защита в Outlook для iOS и Android).
 
+#### <a name="cache-win32-app-content-using-microsoft-connected-cache-server---6030314---"></a>Кэширование содержимого приложения Win32 с использованием сервера подключенного кэша Майкрософт<!-- 6030314 -->
+Вы можете установить сервер подключенного кэша Майкрософт в точках распространения Configuration Manager, чтобы кэшировать содержимое приложений Intune Win32. Дополнительные сведения см. в разделе [Поддержка для приложений Win32 Intune](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/microsoft-connected-cache#bkmk_intune) статьи "Подключенный кэш Майкрософт в Configuration Manager".
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### <a name="role-based-access-control"></a>управление доступом на основе ролей;
+
+#### <a name="windows-10-administrative-templates-admx-profiles-now-support-scope-tags---5137390-wnready--"></a>Профили административных шаблонов Windows 10 (ADMX) теперь поддерживают теги областей <!--5137390 wnready-->
+Теперь вы можете назначать теги области профилям административных шаблонов (ADMX). Для этого перейдите в раздел **Intune** > **Устройства** > **Профили конфигурации**, выберите профиль административных шаблонов в списке и щелкните **Свойства** > **Теги области**. См. сведения о том, как [назначать теги области другим объектам](../fundamentals/scope-tags.md#assign-scope-tags-to-other-objects).
+
 <!-- ########################## -->
 ## <a name="week-of-december-30-2019"></a>Неделя с 30 декабря 2019 г.
 
@@ -71,8 +80,8 @@ Intune поддерживает доставку сертификатов для
 #### <a name="retrieve-personal-recovery-key-from-mem-encrypted-macos-devices---4851745---"></a>Получение личного ключа восстановления на устройствах macOS c зашифрованной памятью<!-- 4851745 -->
 Пользователи могут получить личный ключ восстановления (ключ FileVault) с помощью приложения Корпоративного портала для iOS. Устройство с личным ключом восстановления необходимо зарегистрировать в Intune и зашифровать с помощью FileVault через Intune. Используя приложение Корпоративного портала для iOS, пользователь может получить личный ключ восстановления на зашифрованном устройстве с macOS, щелкнув **Получить ключ восстановления**. Вы также можете получить ключ восстановления из Intune, выбрав **Устройства** > *зашифрованное и зарегистрированное устройство с macOS* > **Получить ключ восстановления**. Дополнительные сведения о FileVault см. в разделе [Шифрование FileVault для macOS](~/protect/encrypt-devices.md#filevault-encryption-for-macos).
 
-#### <a name="ios-user-licensed-vpp-apps---5619268---"></a>Приложения VPP с пользовательским лицензированием для iOS<!-- 5619268 -->
-Для зарегистрированных пользователями устройств с iOS пользователи больше не будут получать лицензированные на устройстве приложения VPP, развернутые как доступные. Однако пользователи смогут просматривать все приложения VPP с пользовательским лицензированием на Корпоративном портале. См. сведения об [управлении приложениями iOS и macOS, приобретенными по программе Apple Volume Purchase Program, с помощью Microsoft Intune](~/apps/vpp-apps-ios.md).
+#### <a name="ios-and-ipados-user-licensed-vpp-apps---5619268---"></a>Приложения VPP с пользовательским лицензированием для iOS и iPadOS<!-- 5619268 -->
+Для зарегистрированных пользователями устройств с iOS и iPadOS пользователи больше не будут получать лицензированные на устройстве новые приложения VPP, развернутые как доступные. Однако пользователи смогут просматривать все приложения VPP с пользовательским лицензированием на Корпоративном портале. См. сведения об [управлении приложениями iOS и macOS, приобретенными по программе Apple Volume Purchase Program, с помощью Microsoft Intune](~/apps/vpp-apps-ios.md).
 
 <!-- ########################## -->
 ## <a name="week-of-december-23-2019"></a>Неделя с 23 декабря 2019 г.
@@ -181,6 +190,9 @@ Intune поддерживает доставку сертификатов для
 
 #### <a name="use-pkcs-certificate-profiles-to-provision-devices-with-certificates---2317124-2317130-2317139-2340517-2340528-2340529----"></a>Использование профилей сертификатов PKCS для подготовки устройств с сертификатами<!-- 2317124, 2317130, 2317139, 2340517, 2340528, 2340529  -->
 Теперь вы можете использовать профили сертификатов PKCS для выдачи сертификатов *устройствам*, работающим под управлением Android for Work, iOS и Windows и связанным с профилями для Wi-Fi и VPN. Ранее эти три платформы поддерживали только пользовательские сертификаты, а сертификаты на основе устройств поддерживались лишь в macOS.
+
+> [!NOTE]
+> Профили сертификатов PKCS не поддерживаются для профилей Wi-Fi. Вместо этого при работе с [типом EAP](../configuration/wi-fi-settings-windows.md#enterprise-profile) используйте профили сертификатов SCEP.
 
 Чтобы использовать сертификат на основе устройства, при создании [профиля сертификата PKCS](../protect/certficates-pfx-configure.md#create-a-pkcs-certificate-profile) для поддерживаемых платформ выберите **Параметры**. Теперь будет доступен параметр **Тип сертификата**, который поддерживает варианты для устройства или пользователя.
 

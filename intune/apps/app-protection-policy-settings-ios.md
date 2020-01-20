@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f8bcced82eb367bb8028f62de5cefcee0a5f85dd
-ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
+ms.openlocfilehash: 33efbc661392354076db3a2e0eab8540f90e9645
+ms.sourcegitcommit: fb72b19986f34907d228c856d2e6949751ec02a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691899"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "75920111"
 ---
 # <a name="ios-app-protection-policy-settings"></a>Параметры политик для защиты приложений в iOS
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]

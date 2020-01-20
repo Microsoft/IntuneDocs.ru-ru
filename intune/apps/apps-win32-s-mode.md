@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 01/08/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4b2a6019a0af33cd227d88444bb5ddda5bc22715
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: a3074b30921a4daba7469e670a17ad29ee1edc00
+ms.sourcegitcommit: 8f56220e7cafc5bc43135940575a9acb5afde730
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75204907"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75827808"
 ---
 # <a name="enable-win32-apps-on-s-mode-devices"></a>Включение приложений Win32 на устройствах в режиме S
 
@@ -45,7 +45,7 @@ ms.locfileid: "75204907"
    - Чтобы отправить подписанную дополнительную политику в Intune, создайте дополнительную политику режима S, как описано ниже.
 3. Чтобы разрешить использовать каталоги приложений Win32 через Intune, выполните следующее:
    - Создайте файлы каталога (по одному для каждого приложения) и подпишите их с помощью DGSS или другой инфраструктуры сертификатов.
-   - Упакуйте подписанный каталог в *INTUNEWIN-файл* с помощью [средства подготовки файлов Win32](https://go.microsoft.com/fwlink/?linkid=2065730). Дополнительные сведения о подготовке содержимого приложений Win32 к отправке в Intune см. в [этой статье](~/apps/apps-win32-app-management.md#prepare-the-win32-app-content-for-upload).
+   - Упакуйте подписанный каталог в *INTUNEWIN-файл* с помощью [средства подготовки файлов Win32](https://go.microsoft.com/fwlink/?linkid=2065730). При создании файла каталога с помощью [средства подготовки содержимого Microsoft Win32](https://go.microsoft.com/fwlink/?linkid=2065730) ограничений именования нет. При создании файла *.intunewin* из указанной исходной папки и файла установки можно указать отдельную папку, содержащую только файлы каталога, с помощью параметра-a командной строки. Дополнительные сведения о подготовке содержимого приложений Win32 к отправке в Intune см. в [этой статье](~/apps/apps-win32-app-management.md#prepare-the-win32-app-content-for-upload).
    - Intune использует подписанный каталог приложений для установки приложений Win32 на устройстве в режиме S с помощью [управляющего расширения Intune](~/apps/intune-management-extension.md).
 
 > [!NOTE]
