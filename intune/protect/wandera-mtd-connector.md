@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7cc63be3c7c536cba67ef92288c12cc4032ae200
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 50973d883a3d31089e16dca5a9021643a821a3fb
+ms.sourcegitcommit: 52475fcd8d05d2f6b858d780ebb3d88eaadb0849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508804"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "76036623"
 ---
 # <a name="wandera-mobile-threat-defense-connector-with-intune"></a>Соединитель Wandera Mobile Threat Defense в Intune  
 
@@ -48,7 +48,7 @@ ms.locfileid: "72508804"
 - Android 5.0 и более поздние версии  
 - iOS 10.2 и более поздних версий.  
 
-Дополнительные сведения о платформах и устройствах см. на [веб-сайте Wandera](https://www.wandera.com/why-wandera/features/device-support/).
+Дополнительные сведения о платформах и устройствах см. на [веб-сайте Wandera](https://www.wandera.com/classic-help-center/).
 
 ## <a name="prerequisites"></a>Предварительные условия  
 
@@ -78,7 +78,7 @@ ms.locfileid: "72508804"
 ![Схематическое изображение предоставления доступа после устранения угрозы](./media/wandera-mtd-connector/wandera-malicious-apps-unblocked.png)
 
 
-### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети  
+### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основе угроз для сети  
 
 Выявляйте сетевые угрозы, такие как атаки "злоумышленник в середине", и защищайте доступ к сети Wi-Fi на основе сведений о рисках, связанных с устройствами.  
 
@@ -88,11 +88,11 @@ ms.locfileid: "72508804"
 
 **Доступ предоставляется после устранения угрозы**:  
 
-![Доступ предоставляется после устранения угрозы](./media/wandera-mtd-connector/wandera-network-wifi-unblocked.png)  
+![Восстановление доступа после исправления](./media/wandera-mtd-connector/wandera-network-wifi-unblocked.png)  
 
-## <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
+## <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
 
-Обнаружение угроз для вашей сети, таких как атаки "злоумышленник в середине", и блокирование синхронизации корпоративных файлов на основании риска для устройства.
+Обнаруживайте угрозы для сети, такие как атаки типа "злоумышленник в середине", и запрещайте синхронизацию корпоративных файлов на основе риска устройства.
 
 **Блокировка SharePoint Online при обнаружении сетевых угроз**:  
 

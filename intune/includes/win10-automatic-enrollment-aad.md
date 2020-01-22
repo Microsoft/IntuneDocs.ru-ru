@@ -1,18 +1,18 @@
 ---
-ms.openlocfilehash: 6f5b0c8df86cf5bf1206c1cccb879e37c7944a21
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 748141dc494e28f25a09039a7a500411af76ace7
+ms.sourcegitcommit: 52475fcd8d05d2f6b858d780ebb3d88eaadb0849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "71912751"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "76038022"
 ---
 ## <a name="enable-windows-10-automatic-enrollment"></a>Включение автоматической регистрации Windows 10
 
 Автоматическая регистрация позволяет пользователям регистрировать устройства Windows 10 в Intune. Для регистрации пользователи добавляют рабочую учетную запись на личные устройства или подключают корпоративные устройства к Azure Active Directory. Устройство в фоновом режиме регистрируется и присоединяется к Azure Active Directory. После регистрации управление устройством выполняется с помощью Intune.
 
-**Необходимые компоненты**
+**Предварительные требования**
 
-- Подписка Azure Active Directory Premium ([пробная подписка](http://go.microsoft.com/fwlink/?LinkID=816845))
+- Подписка Azure Active Directory Premium ([пробная подписка](https://go.microsoft.com/fwlink/?LinkID=816845))
 - Подписка на Microsoft Intune
 
 ### <a name="configure-automatic-mdm-enrollment"></a>Настройка автоматической регистрации для управления мобильными устройствами

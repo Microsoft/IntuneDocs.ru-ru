@@ -19,12 +19,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bc781ea72b54468b21fb70e60e334f1c8d8832ea
-ms.sourcegitcommit: 23e9c48348a6eba494d072a2665b7481e5b5c84e
+ms.openlocfilehash: 9b0bb0bd1f0df3aeb4185542d424bd3ffffe42cd
+ms.sourcegitcommit: 52475fcd8d05d2f6b858d780ebb3d88eaadb0849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74547949"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "76036537"
 ---
 # <a name="tutorial-use-autopilot-to-enroll-windows-devices-in-intune"></a>Руководство. Использование Autopilot для регистрации устройств Windows в Intune
 
@@ -45,7 +45,7 @@ Windows Autopilot упрощает регистрацию устройств. Б
 
 ## <a name="prerequisites"></a>Предварительные условия
 - [Настроенная автоматическая регистрация Windows](../quickstart-setup-auto-enrollment.md).
-- [Подписка Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) <!--&#40;[trial subscription](http://go.microsoft.com/fwlink/?LinkID=816845)&#41;-->
+- [Подписка Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium) <!--&#40;[trial subscription](https://go.microsoft.com/fwlink/?LinkID=816845)&#41;-->
 
 
 ## <a name="add-devices"></a>Добавление устройств
@@ -106,7 +106,7 @@ Windows Autopilot упрощает регистрацию устройств. Б
 11. Выберите **Далее**.
 12. На странице **Отзыв и создание** выберите **Создать**, чтобы создать профиль.
 
-## <a name="distribute-devices-to-users"></a>Распределение устройств между пользователями
+## <a name="distribute-devices-to-users"></a>Распределение устройств пользователям
 
 Теперь можно распределить устройства Windows между пользователями. При первом входе пользователей система Autopilot автоматически выполнит регистрацию и настройку устройств. 
 
