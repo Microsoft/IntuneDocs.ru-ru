@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dc618f2502647ba33a16cff4305b9f4671e05996
-ms.sourcegitcommit: fc4b38660129d615068f34ad4b96b900d73f7b53
+ms.openlocfilehash: d87a4b5d46a5f0d40cebe3dbcaff211ff508d667
+ms.sourcegitcommit: 822a70c61f5d644216ccc401b8e8949bc39e8d4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74558190"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76125316"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
@@ -145,7 +145,7 @@ ms.locfileid: "74558190"
     
 1. Нажмите кнопку **Сохранить**.
 
-1. Выберите **Создать**.  
+1. Щелкните **Создать**.  
 
 ## <a name="register-your-autopilot-devices"></a>Регистрация устройств Autopilot
 
@@ -209,17 +209,30 @@ ms.locfileid: "74558190"
 ## <a name="create-and-assign-a-domain-join-profile"></a>Создание и назначение профиля присоединения к домену
 
 1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
-1. Укажите следующие свойства.
-   - **Имя**. Введите описательное имя для нового профиля.
-   - **Описание** Введите описание профиля.
+2. Укажите следующие свойства.
+   - **Имя** — Введите описательное имя для нового профиля.
+   - **Описание**. Введите описание профиля.
    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
    - **Тип профиля**. Выберите **Присоединение к домену (предварительная версия)** .
-1. Выберите **Параметры** и укажите **Префикс имени компьютера**, **Доменное имя** и (необязательно) **Подразделение** в [формате DN](https://docs.microsoft.com/windows/desktop/ad/object-names-and-identities#distinguished-name). 
+3. Выберите **Параметры**, а затем укажите значения в полях **Префикс имени компьютера** и **Доменное имя**.
+4. (Необязательно.) Укажите **подразделение** в [формате различающегося имени](https://docs.microsoft.com/windows/desktop/ad/object-names-and-identities#distinguished-name). Доступные варианты:
+   - Укажите подразделение, для которого вы делегировали права на управление устройством Windows 2016, на котором выполняется соединитель Intune.
+   - Укажите подразделение, для которого вы делегировали права на управление компьютерами с административным доступом в локальной службе Active Directory.
+   - Если оставить это поле пустым, объект компьютера будет создан в контейнере Active Directory по умолчанию (CN=Computers, если вы не [указали другое](https://support.microsoft.com/en-us/help/324949/redirecting-the-users-and-computers-containers-in-active-directory-dom)).
+   
+   Вот несколько примеров допустимых значений:
+   - OU=Level 1,OU=Level2,DC=contoso,DC=com;
+   - OU=Mine,DC=contoso,DC=com.
+   
+   А вот несколько примеров недопустимых значений:
+   - CN=Computers,DC=contoso,DC=com (контейнер указать нельзя, поэтому оставьте значение пустым, чтобы использовалось значение по умолчанию для домена).
+   - OU=My (нужно указать домен, используя DC=attributes).
+     
    > [!NOTE]
    > Не заключайте значение в параметре **Подразделение** в кавычки.
-1. Выберите **ОК** > **Создать**.  
+5. Выберите **ОК** > **Создать**.  
     Созданный профиль отобразится в списке.
-1. Чтобы назначить профиль, следуйте инструкциям в разделе [Назначение профиля устройства](../configuration/device-profile-assign.md#assign-a-device-profile) и назначьте профиль той же группе, что использовалась на этапе [Создание группы устройств](windows-autopilot-hybrid.md#create-a-device-group)
+6. Чтобы назначить профиль, следуйте инструкциям в разделе [Назначение профиля устройства](../configuration/device-profile-assign.md#assign-a-device-profile) и назначьте профиль той же группе, что использовалась на этапе [Создание группы устройств](windows-autopilot-hybrid.md#create-a-device-group)
    - Развертывание нескольких профилей присоединения к домену
    
      a. Создайте динамическую группу, которая включает все устройства Autopilot с заданным профилем развертывания Autopilot, введя (device.enrollmentProfileName -eq "имя профиля Autopilot"). 

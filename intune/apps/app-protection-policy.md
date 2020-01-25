@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, get-started, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3f1563c092d8dd4c34e4a18caea56910267eb623
-ms.sourcegitcommit: de663ef5f3e82e0d983899082a7f5b62c63f24ef
+ms.openlocfilehash: 3c340ffaacad303c4ff395c84d92e3907e42a521
+ms.sourcegitcommit: 52475fcd8d05d2f6b858d780ebb3d88eaadb0849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/15/2020
-ms.locfileid: "75956335"
+ms.locfileid: "76036645"
 ---
 # <a name="app-protection-policies-overview"></a>Общие сведения о политиках защиты приложений
 
@@ -184,7 +184,7 @@ Intune предлагает широкий набор возможностей, 
 
 ## <a name="app-protection-global-policy"></a>Глобальная политика защиты приложений
 
-Администратор OneDrive может настроить средства **управления мобильными приложениями** для клиентских приложений OneDrive и SharePoint. Для этого администратору нужно перейти на сайт **admin.office.com** и выбрать тип доступа **Устройство**. 
+Администратор OneDrive может настроить средства **управления мобильными приложениями** для клиентских приложений OneDrive и SharePoint. Для этого администратору нужно перейти на сайт **admin.onedrive.com** и выбрать тип доступа **Устройство**. 
 
 С помощью параметров, доступных в консоли администрирования OneDrive, можно настроить специальную политику защиты приложений Intune, которая называется **глобальной**. Эта политика применяется ко всем пользователям в клиенте. Настроить объекты, для которых она действует, невозможно. 
 
