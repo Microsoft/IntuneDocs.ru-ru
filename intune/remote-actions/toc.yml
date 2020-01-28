@@ -33,13 +33,13 @@
           href: device-supervised-mode.md
         - name: "Очистка устройства с\_macOS"
           href: device-erase.md
-        - name: Обход блокировки активации
-          href: device-activation-lock-bypass.md
+        - name: Отключение блокировки активации
+          href: device-activation-lock-disable.md
     - name: Действия пользователя
       items:
         - name: Принудительный выход текущего пользователя
           href: device-logout-user.md
-        - name: Удаление пользователя
+        - name: Удалить пользователя
           href: device-remove-user.md
         - name: Поиск основного пользователя
           href: find-primary-user.md
@@ -55,7 +55,7 @@
           href: device-sync.md
         - name: Проверка данных по инвентаризации устройств
           href: device-inventory.md
-    - name: Диагностика
+    - name: Устранение неполадок
       items:
         - name: 'Устранение неполадок, связанных с действиями устройств'
           href: troubleshoot-device-actions.md

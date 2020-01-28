@@ -12,12 +12,12 @@ metadata:
   author: ErikjeMS
   ms.author: erikje
   ms.date: 09/13/2019
-  ms.openlocfilehash: 40327827833a9c4ba87888dbfb6b3cd1af2febde
-  ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+  ms.openlocfilehash: 726efeb7ea552db423332617fff074dbc14f478d
+  ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/16/2019
-  ms.locfileid: "72509323"
+  ms.lasthandoff: 01/26/2020
+  ms.locfileid: "76754003"
 landingContent:
 - title: Удаленно выполняемые действия с устройствами
   linkLists:
@@ -55,7 +55,7 @@ landingContent:
       url: device-logout-user.md
     - text: Поиск основного пользователя
       url: find-primary-user.md
-    - text: Удаление пользователя
+    - text: Удалить пользователя
       url: device-remove-user.md
 - title: Блокировки и пароли
   linkLists:
@@ -79,5 +79,5 @@ landingContent:
       url: device-lost-mode.md
     - text: Удаление данных с устройства macOS
       url: device-erase.md
-    - text: Обход блокировки активации
-      url: device-activation-lock-bypass.md
+    - text: Отключение блокировки активации
+      url: device-activation-lock-disable.md
