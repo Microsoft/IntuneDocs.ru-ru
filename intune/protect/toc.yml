@@ -8,11 +8,11 @@
       displayName: compliant; noncompliant; mfa
 - name: Краткие руководства
   items:
-    - name: Создание политики соответствия устройства
+    - name: Создание политики соответствия устройств
       href: quickstart-set-password-length-android.md
     - name: Отправка уведомлений на несоответствующие устройства
       href: quickstart-send-notification.md
-- name: Учебники
+- name: Руководства
   items:
     - name: Обеспечение безопасности использования электронной почты на управляемых устройствах
       href: tutorial-protect-email-on-enrolled-devices.md
@@ -225,6 +225,20 @@
           href: troubleshoot-conditional-access.md
         - name: Устранение проблем с соединителем сертификатов
           href: troubleshoot-certificate-connector-events.md
+        - name: "Устранение неполадок с профилями сертификатов\_SCEP"
+          items:
+            - name: "Устранение неполадок с профилями сертификатов\_SCEP"
+              href: troubleshoot-scep-certificate-profiles.md
+            - name: Развертывание профилей на устройствах
+              href: troubleshoot-scep-certificate-profile-deployment.md
+            - name: "Обмен данными между устройством и службой\_NDES"
+              href: troubleshoot-scep-certificate-device-to-ndes.md
+            - name: "Работа службы\_NDES"
+              href: troubleshoot-scep-certificate-ndes-policy-module.md
+            - name: Доставка сертификатов на устройства
+              href: troubleshoot-scep-certificate-delivery.md
+            - name: Сообщение о доставке сертификатов
+              href: troubleshoot-scep-certificate-reporting.md
         - name: Устранение проблем в работе соединителя с Exchange
           items:
             - name: Устранение проблем в работе соединителя с Exchange
@@ -237,7 +251,7 @@
           href: troubleshoot-bitlocker-policies.md
         - name: "Устранение неполадок с интеграцией Jamf\_Pro"
           href: troubleshoot-jamf.md
-- name: Справочник
+- name: Справочные сведения
   items:
     - name: API для добавления сторонних центров сертификации
       href: scep-libraries-apis.md
