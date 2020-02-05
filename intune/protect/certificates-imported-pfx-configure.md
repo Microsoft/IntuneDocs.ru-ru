@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1bad86e561c8695d58296c8f473815a203ef210a
-ms.sourcegitcommit: 665be113b593c3bc7d46b99599e720f781037dcf
+ms.openlocfilehash: 469ee615cd9a9f1d3a7aee40ce764b8d8100fe69
+ms.sourcegitcommit: c46b0c2d4507be6a2786a4ea06009b2d5aafef85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76258482"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76912908"
 ---
 # <a name="configure-and-use-imported-pkcs-certificates-with-intune"></a>Настройка и использование импортированных сертификатов PKCS в Intune
 
@@ -83,7 +83,7 @@ ms.locfileid: "76258482"
 5. Соединитель сертификата PFX для Microsoft Intune открывает вкладку **Регистрация** после установки. Чтобы включить подключение к Intune, щелкните **Войти** и укажите данные учетной записи Azure с разрешениями глобального администратора или администратора Intune.
 
    > [!WARNING]
-   > По умолчанию в Windows Server **включена** **конфигурация усиленной безопасности Internet Explorer**, что может вызвать проблемы с входом в Office 365.
+   > По умолчанию в Windows Server **включена****конфигурация усиленной безопасности Internet Explorer**, что может вызвать проблемы с входом в Office 365.
 
 6. Закройте окно.
 
@@ -175,9 +175,9 @@ ms.locfileid: "76258482"
 
 5. Преобразуйте пароль для каждого импортируемого файла PFX в защищенную строку, выполнив команду `$SecureFilePassword = ConvertTo-SecureString -String "<PFXPassword>" -AsPlainText -Force`.
 
-6. Чтобы создать объект **UserPFXCertificate**, выполните команду `$userPFXObject = New-IntuneUserPfxCertificate -PathToPfxFile "<FullPathPFXToCert>" $SecureFilePassword "<UserUPN>" "<ProviderName>" "<KeyName>" "<IntendedPurpose>" "<PaddingScheme>"`.
+6. Чтобы создать объект **UserPFXCertificate**, выполните команду `$userPFXObject = New-IntuneUserPfxCertificate -PathToPfxFile "<FullPathPFXToCert>" $SecureFilePassword "<UserUPN>" "<ProviderName>" "<KeyName>" "<IntendedPurpose>"`.
 
-   Пример: `$userPFXObject = New-IntuneUserPfxCertificate -PathToPfxFile "C:\temp\userA.pfx" $SecureFilePassword "userA@contoso.com" "Microsoft Software Key Storage Provider" "PFXEncryptionKey" "smimeEncryption" "pkcs1"`
+   Пример: `$userPFXObject = New-IntuneUserPfxCertificate -PathToPfxFile "C:\temp\userA.pfx" $SecureFilePassword "userA@contoso.com" "Microsoft Software Key Storage Provider" "PFXEncryptionKey" "smimeEncryption"`
 
    > [!NOTE]
    > При импорте сертификата из другой системы (не сервера, на котором установлен соединитель), выполните следующую команду, которая добавляет путь к файлу ключа: `$userPFXObject = New-IntuneUserPfxCertificate -PathToPfxFile "<FullPathPFXToCert>" $SecureFilePassword "<UserUPN>" "<ProviderName>" "<KeyName>" "<IntendedPurpose>" "<PaddingScheme>" "<File path to public key file>"`.
@@ -207,7 +207,7 @@ ms.locfileid: "76258482"
 
    - **Предполагаемое назначение**. Укажите предполагаемое назначение сертификатов, импортированных для этого профиля. Администраторы могут импортировать сертификаты с разными назначениями (например, для подписывания или шифрования S/MIME). Предполагаемое назначение, выбранное в профиле сертификата, соответствует профилю сертификата с соответствующими импортированными сертификатами. Предполагаемое назначение обозначается тегом для группирования импортированных сертификатов. При этом нет гарантии, что импортированные сертификаты с определенным тегом будут соответствовать предполагаемому назначению.  
    - **Срок действия сертификата**. Если в шаблоне сертификата не был изменен срок действия, по умолчанию он составляет один год.
-   - **Поставщик хранилища ключей (KSP)** . Для Windows выберите место для хранения ключей на устройстве.
+   - **Поставщик хранилища ключей (KSP)**. Для Windows выберите место для хранения ключей на устройстве.
 
 5. Выберите **ОК** > **Создать**, чтобы сохранить профиль.
 
