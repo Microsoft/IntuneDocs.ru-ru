@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aa8d4fd8dabd862899cab116c61d4ae4584d398c
-ms.sourcegitcommit: 7cc45ef52dda08479bc6bdff7d11d2f6c0e7b93b
+ms.openlocfilehash: 10f3d4c54d9a8fcb797ae3359b1a833ac9080548
+ms.sourcegitcommit: c46b0c2d4507be6a2786a4ea06009b2d5aafef85
 ms.translationtype: MTE75
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74899377"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76912705"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
 
@@ -38,7 +38,7 @@ ms.locfileid: "74899377"
 
 ### <a name="developer-machines"></a>Компьютеры разработчиков
 * Windows (версия Visual Studio 15.7 и более поздние)
-* macOS
+* MacOS
 
 ### <a name="mobile-app-platforms"></a>Платформы мобильных приложений
 * Android
@@ -60,12 +60,23 @@ ms.locfileid: "74899377"
 
 Если приложение уже настроено для использования ADAL или MSAL и имеет свой собственный пользовательский идентификатор клиента, используемый для проверки подлинности с помощью Azure Active Directory, убедитесь, что выполнены шаги для предоставления разрешений приложения Xamarin для службы управления мобильными приложениями Intune (MAM). Инструкции см. в разделе [Предоставить вашему приложению доступ к Intune защиты службы приложений](app-sdk-get-started.md#give-your-app-access-to-the-intune-app-protection-service-optional) руководства [Приступая к работе с руководством по пакету SDK для Intune](app-sdk-get-started.md).
 
+## <a name="security-considerations"></a>Вопросы безопасности
+
+Во избежание потенциального спуфинга, раскрытия информации и атак с несанкционированным повышением привилегий:
+
+* Убедитесь, что разработка приложений Xamarin выполняется на защищенной рабочей станции.
+* Убедитесь, что привязки получены из действительного источника Майкрософт:
+  * [Профиль NuGet пакета SDK для приложений MS Intune](https://www.nuget.org/profiles/msintuneappsdk)
+  * [Репозиторий Xamarin на ресурсе GitHub для пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin)
+* Настройте конфигурацию NuGet для своего проекта таким образом, чтобы доверять подписанным, неизмененным пакетам NuGet.
+Дополнительные сведения см. в разделе [Установка подписанных пакетов](https://docs.microsoft.com/nuget/consume-packages/installing-signed-packages).
+* Обеспечьте безопасность выходного каталога, содержащего приложение Xamarin. Рассмотрите возможность использования каталога уровня пользователя в качестве выходного каталога.
 
 
 ## <a name="enabling-intune-app-protection-polices-in-your-ios-mobile-app"></a>Включение политик защиты приложений Intune в мобильном приложении iOS
 1. Добавьте [пакет Microsoft.Intune.MAM.Xamarin.iOS NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.iOS) в проект Xamarin.iOS.
 2. Выполните общие шаги, необходимые для интеграции пакета SDK для приложений Intune в мобильное приложение iOS. Можно начать с шага 3 инструкций по интеграции из раздела [Интеграция пакета SDK с мобильным приложением](app-sdk-ios.md#build-the-sdk-into-your-mobile-app). Последний шаг в этом разделе IntuneMAMConfigurator можно пропустить, так как это средство включено в пакет Microsoft.Intune.MAM.Xamarin.iOS и будет запущено автоматически во время сборки.
-    **Важно.** Включение общего доступа к цепочке ключей для приложения в Visual Studio немного отличается от этой процедуры в среде Xcode. Откройте PLIST-файл прав. Убедитесь, что включен параметр "Включить цепочку ключей" и что в этом разделе добавлены соответствующие группы совместного доступа к цепочке ключей. Убедитесь, что PLIST-файл прав указан в поле "Настраиваемые назначения" параметров пакетной подписи iOS проекта для всех соответствующих сочетаний конфигурации и платформы.
+    **Важно**. Включение общего доступа к цепочке ключей для приложения в Visual Studio немного отличается от этой процедуры в среде Xcode. Откройте PLIST-файл прав. Убедитесь, что включен параметр "Включить цепочку ключей" и что в этом разделе добавлены соответствующие группы совместного доступа к цепочке ключей. Убедитесь, что PLIST-файл прав указан в поле "Настраиваемые назначения" параметров пакетной подписи iOS проекта для всех соответствующих сочетаний конфигурации и платформы.
 3. После добавления привязок и правильной настройки приложение сможет использовать API пакета SDK для Intune. Для этого необходимо включить следующее пространство имен:
 
       ```csharp
@@ -94,7 +105,7 @@ ms.locfileid: "74899377"
        string enrolledAccount = IntuneMAMEnrollmentManager.Instance.EnrolledAccount;
       ```      
 ### <a name="sample-applications"></a>Примеры приложений
-Примеры приложений, которые выделяют функциональность MAM в приложениях Xamarin. iOS, доступны на сайте [GitHub](https://github.com/msintuneappsdk/sample-intune-xamarin-ios).
+Примеры приложений, в которых подчеркивается функциональность MAM в приложениях Xamarin.iOS, представлены на сайте [GitHub](https://github.com/msintuneappsdk/sample-intune-xamarin-ios).
 
 > [!NOTE] 
 > Модуль повторного сопоставления для iOS отсутствует. Интеграция в приложение Xamarin.Forms должна быть такой же, как и для обычного проекта Xamarin.iOS. 
@@ -109,9 +120,9 @@ ms.locfileid: "74899377"
 Полный обзор по интеграции пакета SDK для приложений Intune можно найти в [Руководстве разработчика по Microsoft Intune App SDK для Android](app-sdk-android.md). Читая руководство и интегрируя пакет SDK для приложений Intune с приложением Xamarin, используйте следующие разделы, где выделены различия между реализацией собственного приложения Android, разработанного на Java, и приложения Xamarin, разработанного на C#. Эти разделы стоит рассматривать как дополнительные и не следует использовать в качестве замены; обязательно прочитайте руководство целиком.
 
 #### <a name="remapper"></a>Remapper
-Начиная с выпуска 1.4428.1, пакет `Microsoft.Intune.MAM.Remapper` можно добавить в приложение Xamarin. Android как [средства сборки](app-sdk-android.md#build-tooling) для выполнения замены класса MAM, метода и системных служб. Если включено повторное сопоставление, то при построении приложения будет автоматически выполняться эквивалентное заменяющее подразделов MAM для переименованных методов и приложений MAM.
+Начиная с выпуска 1.4428.1 пакет `Microsoft.Intune.MAM.Remapper` можно добавлять в приложение Xamarin.Android в виде [средства сборки](app-sdk-android.md#build-tooling) для выполнения замены класса MAM, метода и системных служб. Если включен Remapper, то при построении для переименованных методов и разделов приложения MAM будут автоматически выполняться эквивалентные замещающие части MAM.
 
-Чтобы исключить класс из унификации MAM с помощью повторного сопоставления, в проекте `.csproj` файл можно добавить следующее свойство.
+Чтобы исключить класс из MAM с помощью Remapper, в файл `.csproj` проекта можно добавить следующее свойство.
 
 ```xml
   <PropertyGroup>
@@ -120,13 +131,13 @@ ms.locfileid: "74899377"
 ```
 
 > [!NOTE]
-> В настоящее время проблема с преобразовательом предотвращает отладку в приложениях Xamarin. Android. Для отладки приложения рекомендуется использовать интеграцию вручную, пока эта проблема не будет устранена.
+> В настоящее время Remapper не позволяет выполнять отладку в приложениях Xamarin.Android. Для отладки приложения рекомендуется выполнить интеграцию вручную.
 
 #### <a name="renamed-methodsapp-sdk-androidmdrenamed-methods"></a>[Переименованные методы](app-sdk-android.md#renamed-methods)
 Часто метод, доступный в классе Android, отмечается как окончательный в замещающем классе MAM. В этом случае замещающий класс MAM предоставляет метод с таким же именем (с суффиксом `MAM`), который должен быть переопределен вместо исходного. Например, при наследовании от `MAMActivity` вместо переопределения `OnCreate()` и вызова `base.OnCreate()` объекту `Activity` необходимо переопределить `OnMAMCreate()` и вызвать `base.OnMAMCreate()`.
 
 #### <a name="mam-applicationapp-sdk-androidmdmamapplication"></a>[Приложение MAM](app-sdk-android.md#mamapplication)
-Приложение должно определять класс `Android.App.Application`. Если вы вручную интегрируете MAM, он должен наследовать от `MAMApplication`. Убедитесь, что подкласс правильно декорирован атрибутом `[Application]` и переопределяет конструктор `(IntPtr, JniHandleOwnership)`.
+Необходимо определить класс `Android.App.Application`. При интеграции MAM вручную он должен наследоваться от `MAMApplication`. Убедитесь, что подкласс правильно декорирован атрибутом `[Application]` и переопределяет конструктор `(IntPtr, JniHandleOwnership)`.
 
 ```csharp
     [Application]
@@ -140,20 +151,20 @@ ms.locfileid: "74899377"
 > Проблема с привязками MAM Xamarin может привести к сбою при развертывании в режиме отладки. Чтобы избежать этого, необходимо добавить атрибут `Debuggable=false` в класс `Application`, а флаг `android:debuggable="true"` необходимо удалить из манифеста, если он был задан вручную.
 
 #### <a name="enable-features-that-require-app-participationapp-sdk-androidmdenable-features-that-require-app-participation"></a>[Включение функций, требующих содействия со стороны приложения](app-sdk-android.md#enable-features-that-require-app-participation)
-Пример. Определение необходимости использования ПИН-кода в приложении
+Пример: Настройка обязательного использования ПИН-кода в приложении
 
 ```csharp
 MAMPolicyManager.GetPolicy(currentActivity).IsPinRequired;
 ```
 
-Пример. Определение основного пользователя Intune
+Пример: Определение основного пользователя Intune
 
 ```csharp
 IMAMUserInfo info = MAMComponents.Get<IMAMUserInfo>();
 return info?.PrimaryUser;
 ```
 
-Пример. Определение разрешения на сохранение данных на устройстве или в облачном хранилище
+Пример: Определение разрешения на сохранение данных на устройстве или в облачном хранилище
 
 ```csharp
 MAMPolicyManager.GetPolicy(currentActivity).GetIsSaveToLocationAllowed(SaveLocation service, String username);
@@ -185,7 +196,7 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 Для приложений `Xamarin.Forms` пакет `Microsoft.Intune.MAM.Remapper` автоматически выполняет замену класса MAM, внедряя классы `MAM` в иерархию часто используемых классов `Xamarin.Forms`. 
 
 > [!NOTE]
-> Интеграция Xamarin.Forms осуществляется помимо интеграции Xamarin.Android, описанной выше. Для приложений Xamarin. Forms средство сопоставления ведет себя по-разному, поэтому необходимо выполнить ручные замены MAM.
+> Интеграция Xamarin.Forms должна осуществляться помимо интеграции Xamarin.Android, описанной выше. Remapper ведет себя по-другому для приложений Xamarin.Forms, поэтому замены MAM необходимо выполнить вручную.
 
 После добавления Remapper в проект необходимо будет выполнить эквивалентную замену MAM. Например, `FormsAppCompatActivity` и `FormsApplicationActivity` можно продолжать использовать в приложении, если переопределения для `OnCreate` и `OnResume` заменяются эквивалентами MAM `OnMAMCreate` и `OnMAMResume` соответственно.
 
@@ -203,17 +214,17 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 Если не сделать замену, могут возникнуть следующие ошибки компиляции:
 * [Ошибка компилятора CS0239](https://docs.microsoft.com/dotnet/csharp/misc/cs0239). Эта ошибка обычно возникает в этой форме ``'MainActivity.OnCreate(Bundle)': cannot override inherited member 'MAMAppCompatActivityBase.OnCreate(Bundle)' because it is sealed``.
 Это ожидаемо; когда remapper изменяет наследование классов Xamarin, некоторые функции станут `sealed` и для переопределения вместо этого добавляется новый вариант MAM.
-* [Ошибка компилятора CS0507](https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0507): данная ошибка обычно возникает в этой форме ``'MyActivity.OnRequestPermissionsResult()' cannot change access modifiers when overriding 'public' inherited member ...``. По мере изменения порядка наследования некоторых классов Xamarin средством remapper некоторые функции-члены будут изменены на `public`. Если переопределить какую-либо из этих функций, может также потребоваться изменить модификаторы доступа переопределений на `public`.
+* [Ошибка компилятора CS0507](https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0507). Эта ошибка обычно возникает в этой форме ``'MyActivity.OnRequestPermissionsResult()' cannot change access modifiers when overriding 'public' inherited member ...``. По мере изменения порядка наследования некоторых классов Xamarin средством remapper некоторые функции-члены будут изменены на `public`. Если переопределить какую-либо из этих функций, может также потребоваться изменить модификаторы доступа переопределений на `public`.
 
 > [!NOTE]
 > Remapper перезаписывает зависимость, которая используется Visual Studio для автоматического завершения IntelliSense. Таким образом, может потребоваться перезагрузить и перестроить проект в том случае, если был добавлен Remapper, чтобы технология IntelliSense могла правильно распознать изменения.
 
-#### <a name="troubleshooting"></a>Диагностика
-* При возникновении пустого, белого экрана в приложении при запуске может потребоваться принудительно выполнить вызовы навигации в основном потоке.
-* Привязки Xamarin SDK для Intune не поддерживают приложения, использующие кросс-платформенную платформу, например MvvmCross, из-за конфликтов между MvvmCross и классами MAM Intune. Хотя некоторые клиенты могли успешно выполнить интеграцию после перемещения приложений в обычные Xamarin. Forms, мы не предоставляем явные указания или подключаемые модули для разработчиков приложений, использующих MvvmCross.
+#### <a name="troubleshooting"></a>Устранение неполадок
+* Если после запуска приложения появляется пустой белый экран, то может потребоваться принудительно выполнить вызовы навигации в основном потоке.
+* Привязки Xamarin в пакете SDK для Intune не поддерживают приложения, использующие кроссплатформенную среду, такую как MvvmCross, ввиду наличия конфликтов между MvvmCross и классами MAM Intune. Несмотря на то, что некоторым клиентам, возможно, удалось успешно выполнить интеграцию после перемещения приложений в обычные Xamarin.Forms, мы не предоставляем разработчикам приложений, использующим MvvmCross, явные указания или подключаемые модули.
 
 ### <a name="company-portal-app"></a>Приложение корпоративного портала
-Привязки Xamarin SDK для Intune зависят от наличия приложения [Корпоративный портал](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) Android на устройстве для включения политик защиты приложений. Корпоративный портал извлекает политики защиты приложения из службы Intune. При инициализации приложения политики и код загружаются для реализации этой политики на корпоративном портале. Пользователю не нужно выполнять вход.
+Для включения политик защиты приложений привязкам Xamarin в пакете SDK для Intune требуется наличие на устройстве приложения [Корпоративный портал](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) для Android. Корпоративный портал извлекает политики защиты приложения из службы Intune. При инициализации приложения политики и код загружаются для реализации этой политики на корпоративном портале. Пользователю не нужно выполнять вход.
 
 > [!NOTE]
 > Если приложение "Корпоративный портал" отсутствует на устройстве **Android**, управляемое приложение Intune будет работать так же, как обычное приложение, не поддерживающее политики защиты приложений Intune.
@@ -221,7 +232,7 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 Чтобы включить защиту приложений без регистрации устройства, пользователю _**не**_ нужно регистрировать устройство с помощью приложения корпоративного портала.
 
 ### <a name="sample-applications"></a>Примеры приложений
-Примеры приложений, которые выделяют функциональность MAM в приложениях Xamarin. Android и Xamarin. Forms, доступны на сайте [GitHub](https://github.com/msintuneappsdk/Taskr-Sample-Intune-Xamarin-Android-Apps).
+Примеры приложений, в которых подчеркивается функциональность MAM в приложениях Xamarin.Android и Xamarin.Forms, представлены на сайте [GitHub](https://github.com/msintuneappsdk/Taskr-Sample-Intune-Xamarin-Android-Apps).
 
-## <a name="support"></a>Support
-Если ваша организация является клиентом Intune, обратитесь к представителю Службы технической поддержки Майкрософт, чтобы отправить запрос в службу поддержки, и разместите сведения о проблеме на [соответствующей странице GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues). Мы будем помогать, как только мы можем. 
+## <a name="support"></a>Поддержка
+Если ваша организация является клиентом Intune, обратитесь к представителю Службы технической поддержки Майкрософт, чтобы отправить запрос в службу поддержки, и разместите сведения о проблеме на [соответствующей странице GitHub](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/issues). Мы окажем помощь, как только появится такая возможность. 
