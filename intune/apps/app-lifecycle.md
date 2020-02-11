@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/06/2020
+ms.date: 01/27/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: apps; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 97e70191ed133d9427a3c8565d1dbf03573b628b
-ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
+ms.openlocfilehash: 6ce23d77d9b9d89ce51738a9c4e244dfca9a1c59
+ms.sourcegitcommit: b0d683917af83170f85022b270270d8ced8e301c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692219"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76812405"
 ---
 # <a name="overview-of-the-app-lifecycle-in-microsoft-intune"></a>Общие сведения о жизненном цикле приложений в Microsoft Intune
 
@@ -43,7 +43,7 @@ ms.locfileid: "75692219"
 В рамках жизненного цикла приложений регулярно выходят новых версий приложений. Intune предоставляет инструменты, сильно упрощающие [обновление развернутых приложений](apps-add.md) до более новой версии. Кроме того, вы можете настроить дополнительные функциональные возможности для некоторых приложений.
 
 - В [политиках конфигурации приложений iOS](app-configuration-policies-use-ios.md) указываются параметры для совместимых iOS-приложений, используемых при работе приложения. Например, приложение может потребовать задания определенных параметров фирменной символики или ввода имени сервера, к которому оно должно подключаться.
-- [Политики Managed Browser](app-configuration-managed-browser.md) используются для настройки параметров браузера Intune Managed Browser, который заменяет браузер устройств по умолчанию и позволяет ограничить веб-сайты, доступные пользователям.
+- [Политики Managed Browser](app-configuration-managed-browser.md) используются для настройки параметров [Microsoft Edge](~/apps/apps-supported-intune-apps.md#microsoft-apps), который заменяет браузер устройств по умолчанию и позволяет ограничить веб-сайты, доступные пользователям.
 
 ## <a name="protect"></a>Защита
 

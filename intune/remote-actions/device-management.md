@@ -16,13 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-redirect_url: https://docs.microsoft.com/intune
-ms.openlocfilehash: ff82b1ed70d3021c33a166c694e3efe5d10905e0
-ms.sourcegitcommit: e4602481a25a5e12379f673dfe801c611f51c35b
+ms.openlocfilehash: dde69fc70522684193f9cf6712a2192f77110dab
+ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75731370"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "76754258"
 ---
 # <a name="what-is-microsoft-intune-device-management"></a>Что такое управление устройствами с помощью Microsoft Intune
 
@@ -62,7 +61,7 @@ ms.locfileid: "75731370"
   - [Очистка](devices-wipe.md#wipe)
   - [Удаленная блокировка](device-remote-lock.md).
   - [Сбросить секретный код](device-passcode-reset.md)
-  - [Обход блокировки активации](device-activation-lock-bypass.md) (только iOS)
+  - [Отключение блокировки активации](device-activation-lock-bypass.md) (только iOS)
   - [Новый запуск](device-fresh-start.md) (только Windows)
   - [Режим пропажи](device-lost-mode.md) (только iOS)
   - [Найти устройство](device-locate.md) (только iOS)

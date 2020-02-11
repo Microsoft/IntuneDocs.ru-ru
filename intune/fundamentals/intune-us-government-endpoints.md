@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 02c1508dd3eb9c8a8932c1504c6f4d0a53c5a0d5
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: dfa93bb758447c872d172ded7706fd7507a42f11
+ms.sourcegitcommit: c7c6be3833d9a63d43f31d598b555b49b33cf5cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75207389"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "76966289"
 ---
 # <a name="us-government-endpoints-for-microsoft-intune"></a>Конечные точки для государственных организаций США для Microsoft Intune
 
@@ -61,7 +61,7 @@ ms.locfileid: "75207389"
 - ADRS: https:\//enterpriseregistration.microsoftonline.us
 
 ## <a name="windows-push-notification-services"></a>Службы push-уведомлений Windows
-Для устройств под управлением Intune, использующих управление мобильными устройствами (MDM), требуется использование служб push-уведомлений Windows (WNS) для действий на устройстве и других задач. Дополнительные сведения см. в статье [Корпоративный брандмауэр и конфигурации прокси-сервера для поддержки трафика WNS](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
+Для устройств под управлением Intune, использующих управление мобильными устройствами (MDM), для действий на устройстве и других задач требуется использование служб push-уведомлений Windows (WNS). Дополнительные сведения см. в статье [Корпоративный брандмауэр и конфигурации прокси-сервера для поддержки трафика WNS](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
 
 ## <a name="apple-device-network-information"></a>Сведений о сети на устройстве Apple
 

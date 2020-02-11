@@ -18,18 +18,37 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d42651b11891f3d830c0d90e70a9ecd98ea5bfb7
-ms.sourcegitcommit: 52475fcd8d05d2f6b858d780ebb3d88eaadb0849
+ms.openlocfilehash: 73b7617ad6a2d9aa756ddf9a8a4833289e5710ff
+ms.sourcegitcommit: af384c46ec8d8def6aa32c3b89947748dc6fd28f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "76036614"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76517518"
 ---
 # <a name="send-custom-notifications-in-intune"></a>Отправка настраиваемых уведомлений в Intune  
 
 Используйте Microsoft Intune для отправки настраиваемых уведомлений пользователям управляемых устройств с iOS и Android. Эти сообщения отображаются как стандартные push-уведомления из приложения Корпоративного портала и приложения Microsoft Intune на устройстве пользователя, как и уведомления от других приложений на устройстве. Настраиваемые уведомления Intune не поддерживаются устройствами с macOS и Windows.   
 
-Сообщения в них содержат краткий заголовок и текст сообщения длиной не более 500 символов. Эти сообщения можно настроить для любой универсальной цели коммуникации.
+Сообщения в них содержат краткий заголовок и текст сообщения длиной не более 500 символов. Эти сообщения можно настроить для любой универсальной цели коммуникации.
+
+### <a name="what-the-notification-looks-like-on-an-ios-device"></a>Как выглядит уведомление на устройстве iOS
+
+Если на устройстве iOS открыто приложение "Корпоративный портал", уведомление будет выглядеть, как показано на снимке экрана.
+
+> [!div class="mx-imgBorder"]
+> ![Тестовое уведомления в Корпоративном портале на iOS](./media/custom-notifications/105046-1.png)
+
+Если устройство заблокировано, уведомление напоминает следующий снимок экрана:
+
+> [!div class="mx-imgBorder"]
+> ![Тестовое уведомление на заблокированном устройстве iOS](./media/custom-notifications/105046-2.png)
+
+### <a name="what-the-notification-looks-like-on-an-android-device"></a>Как выглядит уведомление на устройстве Android
+
+Если на устройстве Android открыто приложение "Корпоративный портал", уведомление будет выглядеть, как показано на снимке экрана.
+
+> [!div class="mx-imgBorder"]
+> ![Тестовое уведомление на Android](./media/custom-notifications/105046-3.png)
 
 ## <a name="common-scenarios-for-sending-custom-notifications"></a>Распространенные сценарии отправки настраиваемых уведомлений  
 

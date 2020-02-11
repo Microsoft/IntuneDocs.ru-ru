@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 501bfcbef0dd46f6021fc5db16cf3b9e2f2cd0c0
-ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
+ms.openlocfilehash: 24d0a8160d852a5a44f5df688b7e0bc230d56704
+ms.sourcegitcommit: c7c6be3833d9a63d43f31d598b555b49b33cf5cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886010"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "76966391"
 ---
 # <a name="configure-infrastructure-to-support-scep-with-intune"></a>Настройка инфраструктуры для поддержки SCEP с помощью Intune
 
@@ -97,7 +97,7 @@ Intune поддерживает использование протокола SC
 
 При использовании SCEP применяются следующие сертификаты и шаблоны.
 
-|Объект    |Подробные сведения    |
+|Объект    |Сведения    |
 |----------|-----------|
 |**Шаблон сертификата SCEP**         |Шаблон, который вы настраиваете в выдающем ЦС, используемом для выполнения запросов SCEP от устройств. |
 |**Сертификат проверки подлинности клиента**. |Запрашивается у выдающего или общедоступного ЦС.<br /> Этот сертификат устанавливается на компьютере, на котором размещена служба NDES, и используется соединителем Intune Certificate Connector.<br /> Если сертификат имеет набор вариантов использования *client* и *server authentication* (см. раздел **Расширенное использование ключа**), можно использовать тот же сертификат. Затем можно использовать один и тот же сертификат для проверки подлинности сервера и клиента. |
@@ -378,6 +378,32 @@ Intune поддерживает использование протокола SC
 5. При появлении запроса на сертификат клиента для Certificate Connector нажмите кнопку **Выбрать** и выберите сертификат **проверки подлинности клиента**, установленный на сервере NDES на этапе 3 процедуры [установки и привязки сертификатов на сервере, на котором размещается NDES](#install-and-bind-certificates-on-the-server-that-hosts-ndes) ранее в этой статье.
 
    После выбора сертификата проверки подлинности клиента вы вернетесь на поверхность **Сертификата клиента для соединителя сертификатов Microsoft Intune**. Хотя выбранный сертификат не отображается, нажмите кнопку **Далее**, чтобы просмотреть свойства этого сертификата. После этого нажмите кнопки **Далее** и **Установить**.
+
+> [!NOTE]
+> Для клиентов GCC High перед запуском Intune Certificate Connector необходимо внести изменения, описанные ниже.
+> 
+> Внесите изменения в два перечисленных ниже файла конфигурации, которые будут обновлять конечные точки службы для среды GCC High. Обратите внимание, что эти обновления изменяют коды URI с суффикса **.com** на **.us**. В общем существует три обновления URI, два в файле конфигурации NDESConnectorUI. exe. config и одно в файле NDESConnector.exe.config.
+> 
+> - Имя файла: <install_Path>\Microsoft Intune\NDESConnectorUI\NDESConnectorUI.exe.config
+> 
+>   Пример: (%programfiles%\Microsoft Intune\NDESConnectorUI\NDESConnectorUI.exe.config)
+>   ```
+>    <appSettings>
+>        <add key="SignInURL" value="https://portal.manage.microsoft.us/Home/ClientLogon"/>
+>        <add key="LocationServiceEndpoint" value="RestUserAuthLocationService/RestUserAuthLocationService/ServiceAddresses"/>
+>        <add key="AccountPortalURL" value="https://manage.microsoft.us"/>
+>    </appSettings>
+>   ```
+> 
+> - Имя файла: <install_Path>\Microsoft Intune\NDESConnectorSvc\NDESConnector.exe.config
+>
+>   Пример: (%programfiles%\Microsoft Intune\NDESConnectorSvc\NDESConnector.exe.config)
+>    ```
+>    <appSettings>
+>        <add key="BaseServiceAddress" value="https://manage.microsoft.us/" />
+>    ```
+>
+> Если эти изменения не завершены, клиенты GCC High получат сообщение об ошибке: "Доступ запрещен" "У вас отсутствует разрешение на просмотр этой страницы".
 
 6. После завершения работы мастера, но перед тем, как закрыть его, щелкните **Запустить пользовательский интерфейс соединителя сертификатов**.
 

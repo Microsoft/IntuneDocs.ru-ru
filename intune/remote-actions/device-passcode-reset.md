@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: be6a254360d8e8e9ef1396515d261b6ff9077b87
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: d2a5629e6a318836e23c6a2f7fceb59363a0ed72
+ms.sourcegitcommit: b0d683917af83170f85022b270270d8ced8e301c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73713117"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76812497"
 ---
 # <a name="reset-or-remove-a-device-passcode-in-intune"></a>Сброс или удаление секретного кода устройства с помощью Intune
 
@@ -34,12 +34,12 @@ ms.locfileid: "73713117"
 | Платформа | Поддержка |
 | ---- | ---- |
 | Устройства с Android 6.x или более ранними версиями | Да |
-| Корпоративные устройства с Android в режиме терминала | Да |
+| Устройства Android для бизнеса, зарегистрированные как владельцы устройств | Да |
 | Устройства iOS | Да |
 | Устройства iOS, зарегистрированные с помощью процедуры регистрации пользователей | Нет |
 | Устройства с Android, зарегистрированные с помощью рабочего профиля | Нет |
 | Устройства с Android 7.0 или более поздней версией | Нет |
-| macOS | Нет |
+| MacOS | Нет |
 | Windows | Нет |
 
 Для устройств с Android это означает, что сброс секретного кода на уровне устройства поддерживается только на устройствах с Android 6.x или более ранними версиями либо на устройствах с Android для бизнеса, работающих в режиме киоска. Это связано с тем, что компания Google убрала возможность сброса секретного кода или пароля устройства с Android 7 из приложения с правами администратора устройства. Это относится ко всем поставщикам MDM.

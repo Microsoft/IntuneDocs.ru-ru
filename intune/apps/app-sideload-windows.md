@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/06/2020
+ms.date: 01/23/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -16,16 +16,16 @@ ms.assetid: e44f1756-52e1-4ed5-bf7d-0e80363a8674
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a4a4c6d40dc729fb72210c455c7819baaf89de3b
-ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
+ms.openlocfilehash: 03b8f050dc6232b87d1149aff0a93cd7b06839cd
+ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691828"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "76755414"
 ---
 # <a name="sign-line-of-business-apps-so-they-can-be-deployed-to-windows-devices-with-intune"></a>Подписывание бизнес-приложений для развертывания на устройствах Windows с помощью Intune
 
-Администратор Intune может развертывать универсальные бизнес-приложения, включая приложение корпоративного портала, на устройствах Windows 8.1 Desktop или Windows 10 Desktop и Windows 10 Mobile. Чтобы развернуть приложения APPX на устройствах Windows 8.1 Desktop или Windows 10 Desktop и Windows 10 Mobile, можно использовать сертификат подписи кода из общедоступного центра сертификации, которому уже доверяют ваши устройства Windows, либо вы можете использовать собственный центр сертификации.
+Администратор Intune может развертывать универсальные бизнес-приложения, включая приложение корпоративного портала, на устройствах Windows 8.1 Desktop или Windows 10 Desktop и Windows 10 Mobile. Чтобы развернуть приложения *.appx* на устройствах Windows 8.1 Desktop или Windows 10 Desktop и Windows 10 Mobile, можно использовать сертификат подписи кода из общедоступного центра сертификации, которому уже доверяют ваши устройства Windows, либо вы можете использовать собственный центр сертификации.
 
  > [!NOTE]
  > Для Windows 8.1 Desktop требуется разрешение на загрузку неопубликованного приложения в рамках корпоративной политики либо использование ключей загрузки неопубликованного приложения (автоматически включено для присоединенных к домену устройств). Дополнительные сведения о загрузке неопубликованного приложения Windows 8 см. [здесь](https://blogs.technet.microsoft.com/scd-odtsp/2012/09/27/windows-8-sideloading-requirements-from-technet/).
@@ -52,10 +52,11 @@ ms.locfileid: "75691828"
 
 Если устройство Windows 10 еще не доверяет центру сертификации, после подписи пакета APPX и его отправки в службу Intune необходимо передать сертификат подписи кода на портал Intune:
 
-1. Щелкните "Клиентские приложения".
-2. Щелкните "Сертификаты Windows Корпоративная".
-3. Выберите "Выбрать файл" в разделе сертификата подписи кода.
-4. Выберите CER-файл и нажмите кнопку "Отправить".
+1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Щелкните **Администрирование клиента** > **Соединители и токены** > **Windows enterprise certifcates** (Сертификаты Windows Enterprise).
+3. Выберите файл в разделе **Файл сертификата подписывания кода**.
+4. Выберите *CER-файл* и щелкните **Открыть**.
+5. Щелкните **Отправить**, чтобы добавить файл сертификата в Intune.
 
 Теперь любое устройство Windows 10 Desktop и Windows 10 Mobile с развертыванием APPX в службе Intune будет автоматически скачивать соответствующий корпоративный сертификат и приложению будет разрешено выполнять запуск после установки.
 
@@ -94,7 +95,7 @@ Windows 8.1 Desktop или Windows 10 Desktop и Windows 10 Mobile
       ![Изображение сохраненной папки "Dependencies" с APPXBUN-файлом](./media/app-sideload-windows/Win10CP-Dependencies-save.png)
    2. Поместите девять пакетов зависимостей в папку "Dependencies".  
       Если пакеты зависимостей помещены в папку по-другому, Intune не сможет их распознать и отправить их при отправке пакетов, в результате чего произойдет следующая ошибка отправки.  
-      ![Сообщение об ошибке, в котором сообщается, что нужно указать зависимость приложений Windows.](./media/app-sideload-windows/Win10CP-error-message.png)
+      <img alt="Error message - The Windows app dependency must be provided." src="./media/app-sideload-windows/Win10CP-error-message.png" width="200">
 6. Вернитесь в Intune и отправьте приложение корпоративного портала как новое приложение. Разверните его как обязательное приложение для требуемой группы целевых пользователей.  
 
 Дополнительные сведения об обработке зависимостей для универсальных приложений в Intune см. в разделе [Развертывание appxbundle с зависимостями через Microsoft Intune MDM](https://blogs.technet.microsoft.com/configmgrdogs/2016/11/30/deploying-an-appxbundle-with-dependencies-via-microsoft-intune-mdm/).  

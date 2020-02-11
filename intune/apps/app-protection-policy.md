@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, get-started, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3c340ffaacad303c4ff395c84d92e3907e42a521
-ms.sourcegitcommit: 52475fcd8d05d2f6b858d780ebb3d88eaadb0849
+ms.openlocfilehash: e0f36e648c404858332245c5b1b457c9f6824614
+ms.sourcegitcommit: 5178aec0244e023e73546f3d10f1a76eaf1f4a3e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "76036645"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "76971881"
 ---
 # <a name="app-protection-policies-overview"></a>Общие сведения о политиках защиты приложений
 

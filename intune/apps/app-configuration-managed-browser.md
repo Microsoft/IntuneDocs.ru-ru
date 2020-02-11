@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 01/27/2019
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 52f907b8762322684ec9e21910745a197c3dbe4e
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: babe556d6810ad027a1b0b3cae6364c99bc9a07c
+ms.sourcegitcommit: b0d683917af83170f85022b270270d8ced8e301c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74564324"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76812514"
 ---
 # <a name="manage-web-access-using-a-microsoft-intune-policy-protected-browser"></a>Управление доступом в Интернет с помощью браузера, защищенного политикой Microsoft Intune
 
@@ -36,6 +36,9 @@ ms.locfileid: "74564324"
 - Единый вход
 - Параметры конфигурации приложений.
 - Интеграция с прокси-сервером приложений Azure.
+
+> [!IMPORTANT]
+> Intune Managed Browser больше не будет поддерживаться. Используйте Microsoft Edge для взаимодействия с защищенным браузером в Intune. 
 
 ## <a name="microsoft-edge-support"></a>Поддержка Microsoft Edge
 
@@ -200,10 +203,10 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
     > Прежде чем новые данные перенаправления прокси приложения вступят в силу для Managed Browser или Microsoft Edge, может пройти до 24 часов.
 
 
-#### <a name="step-1-enable-automatic-redirection-to-a-protected-browser-from-outlook"></a>Шаг 1. Включение автоматического перенаправления в защищенный браузер из Outlook
+#### <a name="step-1-enable-automatic-redirection-to-a-protected-browser-from-outlook"></a>Шаг 1. Включение автоматического перенаправления в защищенный браузер из Outlook
 Для Outlook должна быть настроена политика защиты приложений с включенным параметром **Ограничить веб-контент, отображаемый в Managed Browser**.
 
-#### <a name="step-2-assign-an-app-configuration-policy-assigned-for-the-protected-browser"></a>Шаг 2. Назначение политики конфигурации приложений для защищенного браузера
+#### <a name="step-2-assign-an-app-configuration-policy-assigned-for-the-protected-browser"></a>Шаг 2. Назначение политики конфигурации приложений для защищенного браузера
 Эта процедура позволяет настроить перенаправление прокси приложения для приложения Managed Browser или Microsoft Edge. 
 
 Откройте вкладку **Edge** в параметрах конфигурации политики и выберите **Включить** для значения перенаправления Application Proxy. Если включить этот параметр, у пользователей будет доступ к корпоративным ссылкам и локальным веб-приложениям, опубликованным через Azure Application Proxy.
@@ -235,7 +238,7 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
 
 |                                Key                                 |                                                                                                                                                                                                                                                         Значение                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <strong>com.microsoft.intune.mam.managedbrowser.bookmarks</strong> | Значением для этой конфигурации является список закладок. Каждая закладка состоит из заголовка и URL-адреса. Для разделения заголовка и URL-адреса используется символ <strong>&#124;</strong>.<br><br>Пример.<br> <code>Microsoft Bing&#124;https://www.bing.com</code><br><br>Чтобы настроить несколько закладок, разделите каждую пару двойным символом — <strong>&#124;&#124;</strong>.<br><br>Пример.<br> <code>Bing&#124;https://www.bing.com&#124;&#124;Contoso&#124;https://www.contoso.com</code> |
+| <strong>com.microsoft.intune.mam.managedbrowser.bookmarks</strong> | Значением для этой конфигурации является список закладок. Каждая закладка состоит из заголовка и URL-адреса. Для разделения заголовка и URL-адреса используется символ <strong>&#124;</strong>.<br><br>Пример:<br> <code>Microsoft Bing&#124;https://www.bing.com</code><br><br>Чтобы настроить несколько закладок, разделите каждую пару двойным символом — <strong>&#124;&#124;</strong>.<br><br>Пример:<br> <code>Bing&#124;https://www.bing.com&#124;&#124;Contoso&#124;https://www.contoso.com</code> |
 
 ## <a name="how-to-specify-allowed-and-blocked-urls-for-a-protected-browser"></a>Настройка разрешенных и блокируемых URL-адресов для защищенного браузера
 
@@ -254,7 +257,7 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
 
 - Вы можете использовать подстановочный знак **&#42;** в соответствии со следующим списком разрешенных шаблонов.
 
-- Убедитесь, что для всех вводимых в список URL-адресов используется префикс **http** или **https** .
+- Убедитесь, что для всех вводимых в список URL-адресов используется префикс **http** или **https**.
 
 - В адресе можно указать номера портов. Если не указать номер порта, используются следующие значения.
 
@@ -266,7 +269,7 @@ Microsoft Edge, Intune Managed Browser и [Azure AD Application Proxy]( http
 
 - В следующей таблице приведены сведения о шаблонах, которые можно использовать при указании URL-адресов:
 
-|                  URL-адрес                  |                     Подробные сведения                      |                                                Соответствует                                                |                                Не соответствует                                 |
+|                  URL-адрес                  |                     Сведения                      |                                                Соответствует                                                |                                Не соответствует                                 |
 |---------------------------------------|--------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 |        `http://www.contoso.com`         |              Соответствует отдельной странице               |                                            `www.contoso.com`                                            |  `host.contoso.com`<br /><br />`www.contoso.com/images`<br /><br />`contoso.com`/   |
 |          `http://contoso.com`           |              Соответствует отдельной странице               |                                             `contoso.com/`                                              | `host.contoso.com`<br /><br />`www.contoso.com/images`<br /><br />`www.contoso.com` |

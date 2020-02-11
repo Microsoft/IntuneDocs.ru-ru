@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ce3f73834ffdc2648dae345f8fa2a8233d2bb8c9
-ms.sourcegitcommit: e7052114324b80d0503b107c934bb90b8eb29704
+ms.openlocfilehash: 11e3465c583197582a545cdd6f4b71bc8d24e115
+ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75756018"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "76754207"
 ---
 # <a name="see-device-details-in-intune"></a>Просмотр сведений об устройствах в Intune
 
@@ -84,7 +84,7 @@ ms.locfileid: "75756018"
 |ICCID|Уникальный идентификационный номер SIM-карты.|Windows, iOS, Android|
 |Дата регистрации|Дата и время регистрации устройства в Intune.|Windows, iOS, Android|
 |Последний контакт|Дата и время последнего подключения устройства к Intune.|Windows, iOS, Android|
-|Код обхода блокировки активации|Код, позволяющий обойти блокировку активации.|iOS|
+|Код обхода блокировки активации|Код, позволяющий отключить блокировку активации.|iOS|
 |Зарегистрировано в Azure AD|Если указано **Да**, устройство зарегистрировано в Azure Active Directory.|Windows, iOS, Android|
 |Зарегистрировано в Intune|Если указано **Да**, устройство зарегистрировано в Intune.|Windows, iOS, Android|
 |Соответствие требованиям|Состояние соответствия требованиям устройства.|Windows, iOS, Android|
@@ -92,8 +92,6 @@ ms.locfileid: "75756018"
 |Идентификатор активации EAS|Идентификатор Exchange ActiveSync устройства.|Windows, iOS, Android|
 |Защищено|Если указано **Да**, администраторам доступно расширенное управление устройством.|Windows, iOS, Android|
 |С шифрованием|Если указано **Да**, выполняется шифрование хранимых на устройстве данных.|Windows, iOS, Android|
-
-\* Недоступно в Android с диспетчером политик Google, например для полностью управляемых и выделенных устройств
 
 > [!Note]  
 > Номер телефона не включен в учет на выделенных или полностью управляемых устройствах Android Enterprise.

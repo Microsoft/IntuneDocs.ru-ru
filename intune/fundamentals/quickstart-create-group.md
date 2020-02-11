@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 10/22/2019
+ms.date: 01/17/2020
 ms.topic: quickstart
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d73cc367e6c3308b34c2d2dd14c9fed94d80ba74
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: d9b06043dd10f92b6176d4b2e9f90f1b7c87aac9
+ms.sourcegitcommit: 70b40aa4743c8396f8d6a0163893c4a337d67c48
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72813407"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540964"
 ---
 # <a name="quickstart-create-a-group-to-manage-users"></a>Краткое руководство. Создание группы для управления пользователями
 
@@ -36,22 +36,23 @@ ms.locfileid: "72813407"
 
 ## <a name="prerequisites"></a>Предварительные условия
 
+- Подписка Microsoft Intune: [зарегистрируйтесь для получения бесплатной пробной учетной записи](../fundamentals/free-trial-sign-up.md).
 - Для работы с этим кратким руководством необходимо [создать пользователя](quickstart-create-user.md).
 
-## <a name="sign-in-to-intune"></a>Вход в Intune
+## <a name="sign-in-to-intune-in-the-microsoft-endpoint-manager"></a>Вход в Intune с помощью диспетчера конечных точек (Майкрософт)
 
-Войдите на портал [Intune](https://aka.ms/intuneportal) в качестве [глобального администратора или администратора службы Intune](users-add.md#types-of-administrators). Если вы создали подписку на пробную версию Intune, учетная запись, с помощью которой вы создали подписку, является глобальным администратором.
+Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) в качестве [глобального администратора или администратора службы Intune](users-add.md#types-of-administrators). Если вы создали подписку на пробную версию Intune, учетная запись, с помощью которой вы создали подписку, является глобальным администратором.
 
 ## <a name="create-a-group"></a>Создание группы
 
 Вы создадите группу, которая будет использоваться далее в этой серии кратких руководств. Создание группы
 
-1. Открыв панель **Microsoft Intune**, выберите **Группы**  >  **Создать группу**.
+1. Открыв **диспетчер конечных точек (Майкрософт)** , выберите **Группы** > **Новая группа**.
 2. В раскрывающемся списке **Тип группы** выберите **Безопасность**.
 3. В поле **Имя группы** введите имя новой группы (например, **Тестеры Contoso**).
-4. Введите **описание** группы.
+4. Введите **описание группы** для группы.
 5. Задайте значение **Назначено** для параметра **Тип членства**. 
-6. Щелкните **Члены** и в списке выберите одного или нескольких членов группы.
+6. В разделе **Члены**выберите ссылку и добавьте одного или несколько членов группы из списка.
 
     ![Снимок экрана создания группы в Microsoft Intune](./media/quickstart-create-group/quickstart-use-groups-01.png)
 

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/19/2019
+ms.date: 01/28/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 252af3c7447b59ee6aaeb4cb05bed0579ae8af4c
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: 5b61c333f41054194b44c7517e508fe1ef6d28d4
+ms.sourcegitcommit: b0d683917af83170f85022b270270d8ced8e301c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75206709"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76812368"
 ---
 # <a name="assign-user-and-device-profiles-in-microsoft-intune"></a>Назначение профилей пользователей и устройств в Microsoft Intune
 
@@ -31,7 +31,11 @@ ms.locfileid: "75206709"
 В этой статье показано, как назначить профиль, и приведена некоторая информация об использовании тегов области в ваших профилях.
 
 > [!NOTE]  
-> Если профиль удален или больше не назначен устройству, параметр может поддерживать имеющееся значение. Параметр не возвращается к значению по умолчанию. Чтобы изменить значение параметра на другое, создайте профиль и назначьте его.
+> При удалении профиля или если его больше не назначают устройству, в зависимости от параметров профиля могут возникнуть различные действия. Эти параметры основаны на CSP, и каждый CSP может обрабатывать удаление профиля по-разному. Например, параметр может сохранить существующее значение и не вернуться к значению по умолчанию. Поведение управляется каждым CSP в операционной системе. Список CSP для Windows см. в статье [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) (Справочник по CSP).
+>
+> Чтобы изменить значение параметра на другое, создайте новый профиль, задайте для параметра значение **Не настроено**и назначьте профиль. После применения к устройству пользователи должны иметь контроль над изменением параметра на предпочтительное значение.
+>
+> При настройке этих параметров мы рекомендуем выполнить развертывание в пилотной группе. Дополнительные советы по планах развертывания Intune см. в статье [Разработка плана внедрения](../fundamentals/planning-guide-rollout-plan.md).
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
