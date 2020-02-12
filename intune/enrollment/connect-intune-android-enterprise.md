@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b2c6463ddce7d04168e1929414faf441ae415837
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: 581d88e49391bc874625e9c84318c039706b0c1b
+ms.sourcegitcommit: e1ff157f692983b49bdd6e20cc9d0f93c3b3733c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74563844"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "77124832"
 ---
 # <a name="connect-your-intune-account-to-your-managed-google-play-account"></a>Подключение учетной записи Intune к учетной записи управляемого Google Play
 
@@ -48,14 +48,14 @@ ms.locfileid: "74563844"
 
 3. Выберите **Даю согласие**, чтобы предоставить корпорации Майкрософт разрешение на [отправку сведений о пользователях и устройствах в Google](../protect/data-intune-sends-to-google.md). 
    
-4. Выберите **Запустить Google и подключиться сейчас**, чтобы перейти на веб-сайт управляемого Google Play. Он открывается на новой вкладке в браузере.
+4. Выберите **Запустить Google и подключиться сейчас**, чтобы перейти на веб-сайт управляемого Google Play. Веб-сайт откроется в новой вкладке браузера.
   
 5. На странице входа в Google выполните вход с учетной записью Google, которая будет связана со всеми задачами управления Android для бизнеса для этого клиента. Это учетная запись Google, которую ИТ-администраторы вашей организации используют для управления приложениями и их публикации в консоли Google Play. Можно использовать уже существующую учетную запись Google или создать новую. Выбранная учетная запись не должна быть связана с доменом G-Suite.
     
     > [!Note]
     > Если вы пользуетесь браузером Microsoft Edge, нажмите **Войти** в правом верхнем углу для входа в учетную запись Google.
 
-6. Укажите наименование своей организации в поле **Название организации**. Для параметра **Поставщик услуг Enterprise mobility management (EMM)** должно быть указано значение **Microsoft Intune**.
+6. Укажите **название организации**. Для параметра **Поставщик услуг Enterprise mobility management (EMM)** должно быть указано значение **Microsoft Intune**.
 
 7. Примите соглашение Android и нажмите **Подтвердить**. Ваш запрос будет обработан.
 
@@ -69,4 +69,4 @@ ms.locfileid: "74563844"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-После подключения к учетной записи управляемого Google Play вы можете [настроить устройства с рабочим профилем Android для бизнеса](android-work-profile-enroll.md), [выделенные устройства с Android для бизнеса](android-kiosk-enroll.md) и [полностью управляемые устройства Android для бизнеса](android-kiosk-enroll.md).
+После подключения к учетной записи управляемого Google Play вы можете [настроить устройства с рабочим профилем Android для бизнеса](android-work-profile-enroll.md), [выделенные устройства с Android для бизнеса](android-kiosk-enroll.md) и [полностью управляемые устройства Android для бизнеса](android-fully-managed-enroll.md).

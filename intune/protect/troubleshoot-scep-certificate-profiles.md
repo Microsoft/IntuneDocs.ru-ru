@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ae7ffe5a8c20aa7edd67853ff86ef9e28cf2d175
-ms.sourcegitcommit: c46b0c2d4507be6a2786a4ea06009b2d5aafef85
+ms.openlocfilehash: 38bc86b1b9ba85eb7885a0e00673e551821063c1
+ms.sourcegitcommit: 459b0ee01eb6e69cc0ce66d4c4b81d73f510f96d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76915828"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77034249"
 ---
 # <a name="overview-for-troubleshooting-scep-certificate-profiles-with-microsoft-intune"></a>Общие сведения об устранении неполадок профилей сертификатов SCEP с помощью Microsoft Intune
 
@@ -115,11 +115,11 @@ ms.locfileid: "76915828"
 
 ### <a name="logs-for-android-devices"></a>Журналы для устройств Android
 
-Для устройств под управлением Android используйте файл журнала приложений **корпоративного портала Android**, **OMADM.log**. Прежде чем приступать к сбору и анализу журналов, включите параметр [Подробное ведение журналов](/intune-user-help/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md), а затем воспроизведите проблему.
+Для устройств под управлением Android используйте файл журнала приложений **корпоративного портала Android**, **OMADM.log**. Прежде чем приступать к сбору и анализу журналов, включите параметр [Подробное ведение журналов](/intune-user-help/use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android), а затем воспроизведите проблему.
 
-Сведения о сборе данных журнала OMADM.logs с устройства см. в статье [Upload and email logs using a USB cable](/intune-user-help/send-logs-to-your-it-admin-using-cable-android.md) (Передача журналов и их отправка электронной почтой с помощью USB-кабеля).
+Сведения о сборе данных журнала OMADM.logs с устройства см. в статье [Upload and email logs using a USB cable](/intune-user-help/send-logs-to-your-it-admin-using-cable-android) (Передача журналов и их отправка электронной почтой с помощью USB-кабеля).
 
-Дополнительные сведения о передаче журналов и их отправке электронной почтой см. в [этом разделе](/intune-user-help/send-logs-to-your-it-admin-by-email-android.md#upload-and-email-logs-from-microsoft-intune-app).
+Дополнительные сведения о передаче журналов и их отправке электронной почтой см. в [этом разделе](/intune-user-help/send-logs-to-your-it-admin-by-email-android#upload-and-email-logs-from-microsoft-intune-app).
 
 ### <a name="logs-for-ios-and-ipados-devices"></a>Журналы для устройств iOS и iPadOS
 
