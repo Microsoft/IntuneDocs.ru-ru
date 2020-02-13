@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/03/2020
+ms.date: 02/07/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2f46b8c7f0f57ab7831d6487495946aa9326b2d5
-ms.sourcegitcommit: 24487f078349795922dc497c952e8358cf767a1a
+ms.openlocfilehash: dc2e77db1aa322eb70c64d82ddca238f49b39fb2
+ms.sourcegitcommit: e1ff157f692983b49bdd6e20cc9d0f93c3b3733c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76977790"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "77125036"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 
@@ -60,32 +60,20 @@ ms.locfileid: "76977790"
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### <a name="app-management"></a>Управление приложениями
 
+#### <a name="microsoft-edge-version-77-and-later-on-windows-10-devices---5843584---"></a>Microsoft Edge 77 и более поздних версий на устройствах Windows 10<!-- 5843584 -->
+Intune теперь поддерживает удаление Microsoft Edge 77 и более поздних версий с устройств Windows 10. Дополнительные сведения см. в статье [Установка Microsoft Edge на устройства Windows 10 с помощью Microsoft Intune](~/apps/apps-windows-edge.md).
+
 #### <a name="company-portal-app-improved-performance---6178652---"></a>Улучшенная производительность приложения Корпоративного портала<!-- 6178652 -->
 Приложение Корпоративного портала было обновлено в целях повышения производительности устройств, использующих процессоры ARM64, таких как Surface Pro X. Ранее приложение Корпоративного портала работало в режиме эмуляции ARM32. Теперь оно скомпилировано в собственном коде для ARM64. Сведения о настройке приложения Корпоративного портала Microsoft Intune см. в [этой статье](~/apps/company-portal-app.md).
+
+#### <a name="screen-removed-from-company-portal-android-work-profile-enrollment--6103987---"></a>Экран удален с корпоративного портала, регистрация рабочего профиля Android<!--6103987 -->
+Из процесса регистрации рабочего профиля Android на корпоративном портале удален экран **Что дальше?** , чтобы упростить взаимодействие с пользователем. Перейдите к разделу [Регистрация в рабочем профиле Android](/intune-user-help/enroll-device-android-work-profile), чтобы просмотреть обновленный процесс регистрации рабочего профиля Android.  
 
 <!-- ########################## -->
 ## <a name="week-of-january-27-2020"></a>Неделя с 27 января 2020 г.
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### <a name="app-management"></a>Управление приложениями
-
-#### <a name="new-setting-to-remove-specific-windows-built-in-apps---6184390---"></a>Новый параметр для удаления отдельных встроенных приложений Windows<!-- 6184390 -->
-С помощью нового параметра политики конфигурации устройств Windows 10 можно удалить следующие встроенные приложения Windows:
-
-- Средство просмотра смешанной реальности.
-- MSN Погода.
-- Установщик приложений.
-- Советы Майкрософт.
-- Мой Office.
-- Microsoft Solitaire Collection. 
-- Тарифные планы.
-- Центр отзывов. 
-- Xbox. 
-- Музыка Groove.
-- Mail
-- "Календарь"
-
-В центре администрирования диспетчера конечных точек (Майкрософт) выберите **Устройства** > **Профили конфигурации** > **Создать профиль**. В поле **Платформа** выберите **Windows 10 и более поздних версий**. Выберите **Ограничения устройств** в качестве **типа профиля**. Выберите **App Store** в области **Ограничения устройств**. В нижней части области рядом с параметром **Удалить встроенные приложения** нажмите кнопку **Удалить**. Дополнительные сведения о встроенных приложениях см. в статье [Добавление встроенных приложений в Microsoft Intune](~/apps/apps-add-built-in.md).
 
 #### <a name="intune-support-for-additional-microsoft-edge-version-77-deployment-channel-for-macos---5983950----"></a>Поддержка Intune для дополнительного канала развертывания Microsoft Edge версии 77 для macOS<!-- 5983950  -->
 Microsoft Intune теперь поддерживает дополнительный **стабильный** канал развертывания для приложения Microsoft Edge в macOS. Рекомендуется выбрать **стабильный** канал для масштабного развертывания Microsoft Edge в корпоративных средах. Обновления выходят каждые шесть недель. Каждый выпуск включает улучшения из канала **бета-версий**. Помимо **стабильных** и **бета-версий** каналов Intune поддерживает канал **разработки**. Общедоступная предварительная версия предоставляет каналы стабильных версий и версий разработки для Microsoft Edge версии 77 и более поздних версий для macOS. Автоматическое обновление браузера включено по умолчанию. Дополнительные сведения см. в статье [Установка Microsoft Edge на устройства с macOS с помощью Microsoft Intune](~/apps/apps-edge-macos.md).

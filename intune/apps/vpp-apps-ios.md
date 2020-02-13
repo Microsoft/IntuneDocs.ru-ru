@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0bc511669ec8a88523581b3afbcca161d5208934
-ms.sourcegitcommit: de663ef5f3e82e0d983899082a7f5b62c63f24ef
+ms.openlocfilehash: d965ac35719d809ab922d28f76dec1754e9a4c6b
+ms.sourcegitcommit: 9b29478f815e10c46c8030abe0146d601ce0e28c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75956195"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77051632"
 ---
 # <a name="how-to-manage-ios-and-macos-apps-purchased-through-apple-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS и macOS, приобретенными по программе Apple Volume Purchase Program, с помощью Microsoft Intune
 
@@ -130,6 +130,11 @@ Microsoft Intune позволяет управлять приложениями,
 
 >[!NOTE]
 >Намерение развертывания на основе доступности не поддерживается для групп устройств — только для групп пользователей. Отображаемый список приложений сопоставляется с токеном. Если у вас есть приложение, сопоставленное с несколькими токенами VPP, одно и то же приложение отображается несколько раз — по одному для каждого токена.
+
+> [!NOTE]  
+> Intune (или любое другое средство MDM) фактически не устанавливает приложения VPP. Вместо этого Intune подключается к учетной записи VPP и сообщает Apple, какие лицензии на приложения следует назначить тем или иным устройствам. После этого вся обработка операций по фактической установке приложений выполняется между Apple и устройством.
+> 
+> [Справочник по протоколу Apple MDM, страница 135](https://developer.apple.com/business/documentation/MDM-Protocol-Reference.pdf)
 
 ## <a name="end-user-prompts-for-vpp"></a>Запросы для конечных пользователей, связанные с VPP
 
