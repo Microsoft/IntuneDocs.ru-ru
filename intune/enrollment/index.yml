@@ -12,12 +12,12 @@ metadata:
   ms.author: dougeby
   manager: dougeby
   ms.date: 08/07/2019
-  ms.openlocfilehash: 20bdfb02f0a8dda4b9578fd7bc30cb72c7250adf
-  ms.sourcegitcommit: f12bd2ce10b6241715bae2d2857f33c474287166
+  ms.openlocfilehash: be5cae95460064287fa347d1ca42626ab75a2809
+  ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/24/2019
-  ms.locfileid: "72892588"
+  ms.lasthandoff: 02/17/2020
+  ms.locfileid: "77414174"
 landingContent:
 - title: Дополнительные сведения о регистрации
   linkLists:
@@ -73,29 +73,29 @@ landingContent:
       url: android-kiosk-enroll.md
     - text: Настройка регистрации полностью управляемых устройств Android для бизнеса в Intune (предварительная версия)
       url: android-fully-managed-enroll.md
-- title: Регистрация устройств iOS
+- title: Регистрация устройств iOS и iPadOS
   linkLists:
   - linkListType: overview
     links:
-    - text: Сведения о регистрации устройств iOS
+    - text: Сведения о регистрации устройств iOS и iPadOS
       url: ios-enroll.md
   - linkListType: tutorial
     links:
-    - text: Использование функций регистрации корпоративных устройств Apple для регистрации устройств iOS
+    - text: Использование функций регистрации корпоративных устройств Apple для регистрации устройств iOS и iPadOS
       url: tutorial-use-device-enrollment-program-enroll-ios.md
   - linkListType: how-to-guide
     links:
-    - text: Настройка регистрации iOS
+    - text: Настройка регистрации устройств iOS и iPadOS
       url: ios-enroll.md
-    - text: Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple
+    - text: Автоматическая регистрация устройств iOS и iPadOS в рамках Программы регистрации устройств Apple
       url: device-enrollment-program-enroll-ios.md
     - text: Настройка регистрации пользователей iOS и iPadOS
       url: ios-user-enrollment.md
     - text: Поддерживаемые действия и параметры регистрации пользователей
       url: ios-user-enrollment-supported-actions.md
-    - text: Настройка регистрации устройств iOS через Apple School Manager
+    - text: Настройка регистрации устройств iOS и iPadOS с помощью Apple School Manager
       url: apple-school-manager-set-up-ios.md
-    - text: Настройка регистрации устройств iOS с помощью Apple Configurator
+    - text: Настройка регистрации устройств iOS и iPadOS с помощью Apple Configurator
       url: apple-configurator-enroll-ios.md
 - title: Регистрация устройств macOS
   linkLists:
@@ -105,7 +105,7 @@ landingContent:
       url: macos-enroll.md
   - linkListType: tutorial
     links:
-    - text: Использование функций регистрации корпоративных устройств Apple для регистрации устройств iOS
+    - text: Использование функций регистрации корпоративных устройств Apple для регистрации устройств iOS и iPadOS
       url: tutorial-use-device-enrollment-program-enroll-ios.md
   - linkListType: how-to-guide
     links:
@@ -113,5 +113,5 @@ landingContent:
       url: macos-enroll.md
     - text: Автоматическая регистрация устройств с macOS с помощью Программы регистрации устройств или Apple School Manager
       url: device-enrollment-program-enroll-macos.md
-    - text: Настройка регистрации устройств iOS с помощью Apple Configurator
+    - text: Настройка регистрации устройств iOS и iPadOS с помощью Apple Configurator
       url: apple-configurator-enroll-ios.md

@@ -16,11 +16,11 @@
       href: quickstart-setup-auto-enrollment.md
     - name: "Регистрация устройства с ОС Windows\_10"
       href: quickstart-enroll-windows-device.md
-- name: Учебники
+- name: Руководства
   items:
     - name: Использование решения Autopilot для регистрации на устройствах с Windows
       href: tutorial-use-autopilot-enroll-devices.md
-    - name: Использование DEP для регистрации устройств iOS
+    - name: Использование DEP для регистрации устройств iOS и iPadOS
       href: tutorial-use-device-enrollment-program-enroll-ios.md
 - name: Основные понятия
   items:
@@ -36,7 +36,7 @@
     - name: многофакторную идентификацию;
       href: multi-factor-authentication.md
       displayName: mfa; multifactor
-    - name: Device enrollment manager (Диспетчер регистрации устройств)
+    - name: Менеджер регистрации устройств
       href: device-enrollment-manager-enroll.md
     - name: Сопоставление устройств с группами
       href: device-group-mapping.md
@@ -84,7 +84,7 @@
         - name: Регистрация мобильных устройств Samsung Knox
           href: android-samsung-knox-mobile-enroll.md
           displayName: kda; kme
-    - name: Настройка регистрации iOS
+    - name: Настройка регистрации устройств iOS и iPadOS
       href: ios-enroll.md
       items:
         - name: Программа регистрации устройств
@@ -109,7 +109,7 @@
         - name: Устранение проблем при регистрации устройств
           href: troubleshoot-device-enrollment-in-intune.md
           displayName: sso
-        - name: Устранение проблем при регистрации устройств iOS
+        - name: Устранение неполадок при регистрации устройств iOS и iPadOS
           href: troubleshoot-ios-enrollment-errors.md
         - name: Устранение неполадок при регистрации устройств Windows
           href: troubleshoot-windows-enrollment-errors.md
