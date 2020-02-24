@@ -1,7 +1,7 @@
 ---
-title: Выход из системы для пользователя устройства iOS
+title: Выход из системы для пользователя устройства iOS или iPadOS
 titleSuffix: Microsoft Intune
-description: Вы можете узнать, как выполнить выход из системы для пользователя устройства iOS с помощью Intune.
+description: Узнайте, как выполнить выход из системы для пользователя устройства iOS или iPadOS с помощью Intune.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
@@ -17,14 +17,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fdb23916319b06fb4d85b913209d1ac9e007d551
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 6e23f95d169a95244abc8669eb9a19150cff8138
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73713182"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77413691"
 ---
-# <a name="logout-the-current-user-on-intune-managed-ios-devices"></a>Выход из системы для текущего пользователя на устройствах iOS, управляемых в Intune
+# <a name="logout-the-current-user-on-intune-managed-iosipados-devices"></a>Выход из системы для текущего пользователя на устройствах iOS или iPadOS, управляемых в Intune
 
 
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "73713182"
 
 - Windows — не поддерживается
 - Windows Phone — не поддерживается
-- iOS — поддерживается в iOS 9.3 и более поздних версиях (только общие устройства iPad)
+- iOS или iPadOS — поддерживается в iOS или iPadOS версии 9.3 и выше (только общие устройства iPad)
 - macOS — не поддерживается
 - Android — не поддерживается
 
@@ -43,7 +43,7 @@ ms.locfileid: "73713182"
 
 1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) и выберите **Устройства**.
 4. В колонке **Устройства и группы** выберите **Все устройства**.
-5. Выберите нужное устройство iOS в списке управляемых устройств, а затем удаленное действие **Выход из системы для текущего пользователя**.
+5. Выберите нужное устройство iOS или iPadOS в списке управляемых устройств, а затем выберите удаленное действие **Выход из системы для текущего пользователя**.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

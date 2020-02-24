@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dc2e77db1aa322eb70c64d82ddca238f49b39fb2
-ms.sourcegitcommit: e1ff157f692983b49bdd6e20cc9d0f93c3b3733c
+ms.openlocfilehash: 7018e2ab4290219c752f44b4b391822438461e8e
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "77125036"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77415091"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 
@@ -55,7 +55,11 @@ ms.locfileid: "77125036"
 -->  
 
 <!-- ########################## -->
-## <a name="week-of-february-03-2020"></a>Неделя с 3 февраля 2020 г.
+## <a name="week-of-february-10-2020"></a>Неделя с 10 февраля 2020 г.
+
+### <a name="windows-7-ends-extended-support---3042987--"></a>Завершается расширенная поддержка Windows 7 <!--3042987-->
+14 января 2020 г. завершается расширенная поддержка Windows 7. С этого момента Intune прекращает поддержку устройств под управлением Windows 7. Техническая поддержка и автоматические обновления для защиты компьютеров будут недоступны. Вам нужно выполнить обновление до Windows 10. См. сведения о [планировании изменений](https://aka.ms/Windows7_Intune).
+
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### <a name="app-management"></a>Управление приложениями
@@ -63,11 +67,11 @@ ms.locfileid: "77125036"
 #### <a name="microsoft-edge-version-77-and-later-on-windows-10-devices---5843584---"></a>Microsoft Edge 77 и более поздних версий на устройствах Windows 10<!-- 5843584 -->
 Intune теперь поддерживает удаление Microsoft Edge 77 и более поздних версий с устройств Windows 10. Дополнительные сведения см. в статье [Установка Microsoft Edge на устройства Windows 10 с помощью Microsoft Intune](~/apps/apps-windows-edge.md).
 
-#### <a name="company-portal-app-improved-performance---6178652---"></a>Улучшенная производительность приложения Корпоративного портала<!-- 6178652 -->
-Приложение Корпоративного портала было обновлено в целях повышения производительности устройств, использующих процессоры ARM64, таких как Surface Pro X. Ранее приложение Корпоративного портала работало в режиме эмуляции ARM32. Теперь оно скомпилировано в собственном коде для ARM64. Сведения о настройке приложения Корпоративного портала Microsoft Intune см. в [этой статье](~/apps/company-portal-app.md).
-
 #### <a name="screen-removed-from-company-portal-android-work-profile-enrollment--6103987---"></a>Экран удален с корпоративного портала, регистрация рабочего профиля Android<!--6103987 -->
 Из процесса регистрации рабочего профиля Android на корпоративном портале удален экран **Что дальше?** , чтобы упростить взаимодействие с пользователем. Перейдите к разделу [Регистрация в рабочем профиле Android](/intune-user-help/enroll-device-android-work-profile), чтобы просмотреть обновленный процесс регистрации рабочего профиля Android.  
+
+#### <a name="company-portal-app-improved-performance---6178652---"></a>Улучшенная производительность приложения Корпоративного портала<!-- 6178652 -->
+Приложение Корпоративного портала было обновлено в целях повышения производительности устройств, использующих процессоры ARM64, таких как Surface Pro X. Ранее приложение Корпоративного портала работало в режиме эмуляции ARM32. В версиях 10.4.7080.0 и выше оно скомпилировано в собственном коде для ARM64. Сведения о настройке приложения Корпоративного портала Microsoft Intune см. в [этой статье](~/apps/company-portal-app.md).
 
 <!-- ########################## -->
 ## <a name="week-of-january-27-2020"></a>Неделя с 27 января 2020 г.

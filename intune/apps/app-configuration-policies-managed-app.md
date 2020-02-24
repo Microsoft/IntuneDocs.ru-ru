@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 06c1119b474d82c4d00db3276179b962ff5b5a44
-ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
+ms.openlocfilehash: 4301afca471d0aa56fa1a0826ad7f88bcdf23de2
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "76755567"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77414872"
 ---
 # <a name="add-app-configuration-policies-for-managed-apps-without-device-enrollment"></a>Добавление политик конфигурации приложений для управляемых приложений без регистрации устройств
 
@@ -41,7 +41,7 @@ ms.locfileid: "76755567"
 5. Нажмите кнопку **Далее**, чтобы отобразить страницу **Параметры**.
 6. Для каждого параметра конфигурации, поддерживаемого приложением, укажите **имя** и **значение**. 
 
-   Приложения на основе пакета SDK для приложений Intune поддерживают конфигурации в виде пар "ключ-значение". Дополнительные сведения о поддерживаемых конфигурациях "ключ-значение" см. в документации по конкретному приложению. Обратите внимание, что можно применять маркеры, которые будут динамически заполняться данными, создаваемыми приложением. Дополнительные сведения см. в разделе [Значения конфигурации для использования токенов](~/apps/app-configuration-policies-managed-app.md#configuration-values-for-using-tokens). Сведения о параметрах политики конфигурации Outlook для iOS см. в статье [Управление конфигурацией приложения Outlook для iOS с помощью Microsoft Intune](https://technet.microsoft.com/library/mt813789(v=exchg.150).aspx).
+   Приложения на основе пакета SDK для приложений Intune поддерживают конфигурации в виде пар "ключ-значение". Дополнительные сведения о поддерживаемых конфигурациях "ключ-значение" см. в документации по конкретному приложению. Обратите внимание, что можно применять маркеры, которые будут динамически заполняться данными, создаваемыми приложением. Дополнительные сведения см. в разделе [Значения конфигурации для использования токенов](~/apps/app-configuration-policies-managed-app.md#configuration-values-for-using-tokens). См. сведения об [управлении конфигурацией приложения Outlook для iOS и iPadOS с помощью Microsoft Intune](https://technet.microsoft.com/library/mt813789(v=exchg.150).aspx).
 
     Чтобы удалить конфигурацию, нажмите кнопку с многоточием ( **...** ) и выберите **Удалить**.  
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3c4218dc02f11b9ada07126ce24d6dc4080b23ec
-ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
+ms.openlocfilehash: 0b16ab43a2b2c3b2a38aeee14614f2c8361c3d83
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692140"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77415434"
 ---
 # <a name="manage-volume-purchased-apps-and-books-with-microsoft-intune"></a>Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune
 
@@ -39,6 +39,6 @@ Microsoft Intune позволяет управлять приложениями 
 
 Сейчас Intune позволяет управлять приложениями и книгами, которые можно приобрести по программе корпоративных закупок в магазине iOS, а также приложениями, приобретенными в Магазине Майкрософт для бизнеса. Чтобы узнать, как управлять лицензированными приложениями из каждого магазина, ознакомьтесь с одним из приведенных ниже разделов:
 
-- [Управление приложениями iOS, приобретенными по программе корпоративных закупок](vpp-apps-ios.md)
+- [Управление приложениями iOS и iPadOS, приобретенными по программе корпоративных закупок](vpp-apps-ios.md)
 - [Управление приложениями, приобретенными по программе корпоративных закупок в Магазине Майкрософт для бизнеса](windows-store-for-business.md)
-- [Управление электронными книгами iOS](vpp-ebooks-ios.md)
+- [Управление электронными книгами iOS и iPadOS](vpp-ebooks-ios.md)

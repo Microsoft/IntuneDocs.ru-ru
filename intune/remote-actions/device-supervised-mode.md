@@ -1,7 +1,7 @@
 ---
-title: Включение защищенного режима iOS в Microsoft Intune
+title: Включение защищенного режима для iOS и iPadOS в Microsoft Intune
 titleSuffix: ''
-description: Узнайте, как включить защищенный режим iOS в Intune.
+description: Узнайте, как включить защищенный режим для iOS iPadOS в Intune.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
@@ -17,19 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1e995dbc89321bf844151accd654a2d17d35afd9
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 0d266dbc9fa72b1579e05e7798315e2e718a9797
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73713438"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77413667"
 ---
-# <a name="turn-on-ios-supervised-mode"></a>Включение защищенного режима iOS
+# <a name="turn-on-iosipados-supervised-mode"></a>Включение защищенного режима в iOS и iPadOS
 
 
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
 
-Защищенный режим Apple iOS дает администраторам дополнительные возможности управления устройствами Apple при масштабном развертывании корпоративных устройств. Например, можно ограничить использование AirDrop или запретить пользователям менять имена устройств. Список параметров, требующих защищенного режима, см. в статье [Параметры ограничений для устройств iOS в Microsoft Intune](../configuration/device-restrictions-ios.md).
+Защищенный режим в Apple iOS и iPadOS предоставляет администраторам расширенные возможности управления устройствами Apple при масштабном развертывании корпоративных устройств. Например, можно ограничить использование AirDrop или запретить пользователям менять имена устройств. Список параметров, требующих защищенного режима, см. в статье [Параметры ограничений для устройств iOS в Microsoft Intune](../configuration/device-restrictions-ios.md).
 
 Intune поддерживает защищенный режим в рамках [Программы регистрации устройств Apple (DEP)](../enrollment/device-enrollment-program-enroll-ios.md).
 
@@ -41,7 +41,7 @@ Intune поддерживает защищенный режим в рамках 
 
 ## <a name="turn-on-supervised-mode-after-enrollment"></a>Включение защищенного режима после регистрации
 
-После регистрации единственный способ включить защищенный режим — подключить устройство iOS к компьютеру Mac и воспользоваться [Apple Configurator](../enrollment/apple-configurator-enroll-ios.md) (при этом устройство будет сброшено). После регистрации настроить для устройства защищенный режим в Intune невозможно.
+После регистрации единственный способ включить защищенный режим — подключить устройство iOS или iPadOS к компьютеру Mac и воспользоваться [Apple Configurator](../enrollment/apple-configurator-enroll-ios.md) (при этом устройство будет сброшено). После регистрации настроить для устройства защищенный режим в Intune невозможно.
 
 ## <a name="identify-a-supervised-device"></a>Определение защищенного устройства
 

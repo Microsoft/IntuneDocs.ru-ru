@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 11e3465c583197582a545cdd6f4b71bc8d24e115
-ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
+ms.openlocfilehash: af4270587ab5894d52a7d12b1c2082b7b3298e51
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "76754207"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77413744"
 ---
 # <a name="see-device-details-in-intune"></a>Просмотр сведений об устройствах в Intune
 
@@ -73,25 +73,25 @@ ms.locfileid: "76754207"
 |Уровень обновления для системы безопасности|Просмотр уровня обновления для системы безопасности для устройств.|Android|
 |Общая вместимость хранилища|Общее дисковое пространство на устройстве (в гигабайтах).|Windows, iOS|
 |Свободное дисковое пространство|Объем неиспользованного дискового пространства на устройстве (в гигабайтах).|Windows, iOS|
-|IMEI|Номер IMEI (международный идентификатор мобильного оборудования) устройства.|Windows, iOS, Android|
-|MEID|Идентификатор мобильного оборудования (MEID) устройства.|Windows, iOS, Android|
-|Изготовитель|Производитель устройства.|Windows, iOS, Android|
-|Модель|Модель устройства.|Windows, iOS, Android|
-|Номер телефона|Назначенный устройству номер телефона.|Windows, iOS, Android*|
-|Абонентская система связи|Оператор беспроводной связи устройства.|Windows, iOS, Android|
-|Сотовая технология|Используемая на устройстве система радиосвязи.|Windows, iOS, Android|
-|Wi-Fi MAC|МАС-адрес устройства.|Windows, iOS, Android|
-|ICCID|Уникальный идентификационный номер SIM-карты.|Windows, iOS, Android|
-|Дата регистрации|Дата и время регистрации устройства в Intune.|Windows, iOS, Android|
-|Последний контакт|Дата и время последнего подключения устройства к Intune.|Windows, iOS, Android|
+|IMEI|Номер IMEI (международный идентификатор мобильного оборудования) устройства.|Windows, iOS и iPadOS, Android|
+|MEID|Идентификатор мобильного оборудования (MEID) устройства.|Windows, iOS и iPadOS, Android|
+|Изготовитель|Производитель устройства.|Windows, iOS и iPadOS, Android|
+|Модель|Модель устройства.|Windows, iOS и iPadOS, Android|
+|Номер телефона|Назначенный устройству номер телефона.|Windows, iOS и iPadOS, Android*|
+|Абонентская система связи|Оператор беспроводной связи устройства.|Windows, iOS и iPadOS, Android|
+|Сотовая технология|Используемая на устройстве система радиосвязи.|Windows, iOS и iPadOS, Android|
+|Wi-Fi MAC|МАС-адрес устройства.|Windows, iOS и iPadOS, Android|
+|ICCID|Уникальный идентификационный номер SIM-карты.|Windows, iOS и iPadOS, Android|
+|Дата регистрации|Дата и время регистрации устройства в Intune.|Windows, iOS и iPadOS, Android|
+|Последний контакт|Дата и время последнего подключения устройства к Intune.|Windows, iOS и iPadOS, Android|
 |Код обхода блокировки активации|Код, позволяющий отключить блокировку активации.|iOS|
-|Зарегистрировано в Azure AD|Если указано **Да**, устройство зарегистрировано в Azure Active Directory.|Windows, iOS, Android|
-|Зарегистрировано в Intune|Если указано **Да**, устройство зарегистрировано в Intune.|Windows, iOS, Android|
-|Соответствие требованиям|Состояние соответствия требованиям устройства.|Windows, iOS, Android|
-|С активацией EAS|Если указано **Да**, устройство синхронизировано с почтовым ящиком Exchange.|Windows, iOS, Android|
-|Идентификатор активации EAS|Идентификатор Exchange ActiveSync устройства.|Windows, iOS, Android|
-|Защищено|Если указано **Да**, администраторам доступно расширенное управление устройством.|Windows, iOS, Android|
-|С шифрованием|Если указано **Да**, выполняется шифрование хранимых на устройстве данных.|Windows, iOS, Android|
+|Зарегистрировано в Azure AD|Если указано **Да**, устройство зарегистрировано в Azure Active Directory.|Windows, iOS и iPadOS, Android|
+|Зарегистрировано в Intune|Если указано **Да**, устройство зарегистрировано в Intune.|Windows, iOS и iPadOS, Android|
+|Соответствие требованиям|Состояние соответствия требованиям устройства.|Windows, iOS и iPadOS, Android|
+|С активацией EAS|Если указано **Да**, устройство синхронизировано с почтовым ящиком Exchange.|Windows, iOS и iPadOS, Android|
+|Идентификатор активации EAS|Идентификатор Exchange ActiveSync устройства.|Windows, iOS и iPadOS, Android|
+|Защищено|Если указано **Да**, администраторам доступно расширенное управление устройством.|Windows, iOS и iPadOS, Android|
+|С шифрованием|Если указано **Да**, выполняется шифрование хранимых на устройстве данных.|Windows, iOS и iPadOS, Android|
 
 > [!Note]  
 > Номер телефона не включен в учет на выделенных или полностью управляемых устройствах Android Enterprise.

@@ -16,12 +16,12 @@ ms.assetid: cf4ad6d4-423f-4826-ab8d-6eb7a7cfb559
 search.appverid: MET150
 ms.custom: get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b8c502bd42d3290bd03c0ce954d55de3073c3f2d
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 7c1ff18a7923d7502e12a9bdb33931089fada6e3
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72503218"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77414241"
 ---
 # <a name="enrollment-options-for-devices-managed-by-intune"></a>Параметры регистрации для устройств, управляемых Intune
 
@@ -42,7 +42,7 @@ ms.locfileid: "72503218"
 
 ## <a name="enable-apple-device-enrollment"></a>Разрешение регистрации устройств Apple
 
-Для регистрации устройств с iOS и macOS требуется сертификат MDM Push. Дополнительные сведения о [сертификатах MDM Push](apple-mdm-push-certificate-get.md).
+Для регистрации устройств с iOS, iPadOS и macOS требуется MDM Push Certificate. Дополнительные сведения о [сертификатах MDM Push](apple-mdm-push-certificate-get.md).
 
 ## <a name="corporate-identifiers"></a>Корпоративные идентификаторы
 
@@ -51,7 +51,7 @@ ms.locfileid: "72503218"
 
 При регистрации устройств можно требовать от пользователей выполнения дополнительной проверки, например с помощью телефона, ПИН-кода или биометрических данных. Дополнительные сведения о [многофакторной идентификации](multi-factor-authentication.md).
 
-## <a name="device-enrollment-manager"></a>Device enrollment manager (Диспетчер регистрации устройств)
+## <a name="device-enrollment-manager"></a>Менеджер регистрации устройств
 Вы можете создать диспетчеры регистрации пользовательских устройств.  Пользователи диспетчеров регистрации устройств могут регистрировать большое количество мобильных устройств с помощью одной учетной записи пользователя. Учетная запись диспетчера регистрации устройств (DEM) позволяет зарегистрировать до 1000 устройств. Дополнительные сведения о [диспетчерах регистрации устройств](device-enrollment-manager-enroll.md).
 
 ## <a name="device-categories"></a>Категории устройств

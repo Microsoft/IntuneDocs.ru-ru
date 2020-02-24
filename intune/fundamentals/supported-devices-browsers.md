@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2b58cbd0aa07babd36c7a7e5aa3dcc5b8d32d58a
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: e28f8a2cc43e4ca210a391151383633da457c056
+ms.sourcegitcommit: ecaff388038fb800f2e646f8efcf8f3b1e2fd1b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73415041"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77437925"
 ---
 # <a name="supported-operating-systems-and-browsers-in-intune"></a>Поддерживаемые в Intune операционные системы и браузеры
 
@@ -87,16 +87,16 @@ ms.locfileid: "73415041"
 
 ### <a name="windows-pc-software-client"></a>Программный клиент для компьютера Windows
 
-[Программный клиент Intune](manage-windows-pcs-with-microsoft-intune.md) можно развернуть и установить на компьютере под управлением Windows в качестве альтернативного метода регистрации. Эта функция доступна только на классическом портале Intune. Программный клиент Intune можно использовать для управления компьютерами на базе Windows 7 и более поздних версий, кроме выпуска Windows 10 Домашняя.
+[Программный клиент Intune](manage-windows-pcs-with-microsoft-intune.md) можно развернуть и установить на компьютере под управлением Windows в качестве альтернативного метода регистрации. Эта функция доступна только на классическом портале Intune. Программный клиент Intune можно использовать для управления компьютерами на базе Windows 10 и более поздних версий, кроме выпуска Windows 10 Домашняя.
 
 > [!Note]
 > Корпорация Майкрософт объявила о прекращении поддержки Windows 7 14 января 2020 г. После этой даты Intune также прекращает поддержку устройств под управлением Windows 7.
 >
-> Дополнительные сведения см. в разделе [Запланированные изменения в Intune. Скорое прекращение поддержки Windows 7](https://docs.microsoft.com/intune/fundamentals/whats-new#intune-plan-for-change-nearing-end-of-support-for-windows-7).
+> См. сведения о [запланированных изменениях в Intune, включая прекращение поддержки Windows 7](https://docs.microsoft.com/intune/fundamentals/whats-new#windows-7-ends-extended-support-).
 >
-> В Microsoft Intune будет прекращена поддержка консоли Intune на основе Silverlight 15 октября 2020 г. Это также включает прекращение поддержки программного клиента для компьютера, на котором настроена консоль Silverlight (также известен как агент ПК).
+> В Microsoft Intune будет прекращена поддержка консоли Intune на основе Silverlight 15 октября 2020 г. Также будет прекращена поддержка программного клиента для компьютера, на котором настроена консоль Silverlight (агент ПК).
 >
-> Дополнительные сведения о завершении поддержки консоли администрирования на основе Silverlight в Microsoft Intune см. [здесь](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Take-Action-Microsoft-Intune-ending-support-for-the-Silverlight/ba-p/916249).
+> См. сведения о [прекращении поддержки консоли администрирования на основе Silverlight в Microsoft Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Take-Action-Microsoft-Intune-ending-support-for-the-Silverlight/ba-p/916249).
 
 <!--  ### Exchange ActiveSync management
 

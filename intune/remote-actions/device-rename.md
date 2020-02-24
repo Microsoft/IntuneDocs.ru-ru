@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0f5ee9a0fe27c3cf9de758fd7155dbd127fb1e5e
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 11b339a3e94e60db43e8237d9f3d2c729b48a57d
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73712219"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77413607"
 ---
 # <a name="rename-a-device-in-intune"></a>Переименование устройства в Intune
 
@@ -29,7 +29,7 @@ ms.locfileid: "73712219"
 
 Вы можете переименовать устройства следующих типов:
 - корпоративные устройства под управлением Windows; 
-- отслеживаемые устройства под управлением iOS
+- iOS и iPadOS в защищенном режиме;
 - корпоративные устройства MacOS 10
 
 Сейчас эта функция не поддерживает переименование гибридных устройств Windows Azure AD.

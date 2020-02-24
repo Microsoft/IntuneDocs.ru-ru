@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b30da567d1a25028c51cf8268eab9613a7c3b8af
-ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
+ms.openlocfilehash: 52c8d10f0b8d06d68d75450c3d708f910bc5ddd4
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "76755525"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77415037"
 ---
 # <a name="add-app-configuration-policies-for-managed-android-enterprise-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android Enterprise
 
@@ -152,7 +152,7 @@ ms.locfileid: "76755525"
 ## <a name="additional-information"></a>Дополнительные сведения
 
 - [Назначение управляемых приложений Google Play для устройств Android Enterprise](apps-add-android-for-work.md#assigning-a-managed-google-play-app-to-android-enterprise-work-profile-devices)
-- [Развертывание параметров конфигурации приложения Outlook для iOS и Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-configuration-with-microsoft-intune)
+- [Развертывание параметров конфигурации приложения Outlook для iOS, iPadOS и Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-configuration-with-microsoft-intune)
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

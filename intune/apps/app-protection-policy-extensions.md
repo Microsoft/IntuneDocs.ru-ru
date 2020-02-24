@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1ff4fcd7d1b2115c4fbe0bc00759ef3d60482904
-ms.sourcegitcommit: a66b5916eaab9cb537e483064efc584a6a63a390
+ms.openlocfilehash: e568bb5520b4f8cc242cb58a1ee48e8729f4e387
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692098"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77414596"
 ---
 # <a name="protecting-application-extensions"></a>Защита расширений приложений
 
@@ -31,7 +31,7 @@ ms.locfileid: "75692098"
 
 ## <a name="add-ins-for-outlook-app"></a>Надстройки для приложения Outlook
 
-Надстройки Outlook позволяют интегрировать популярные приложения с клиентом электронной почты. Надстройки для Outlook доступны в Интернете, Windows, Mac и Outlook для Android и iOS. Пакет SDK APP и политики защиты приложений Intune не поддерживают управление надстройками для Outlook, но существуют другие способы ограничить их использование. Так как надстройки управляются через Microsoft Exchange, пользователи могут обмениваться данными и сообщениями между Outlook и неуправляемыми приложениями, если надстройки отключены для пользователя в Exchange.
+Надстройки Outlook позволяют интегрировать популярные приложения с клиентом электронной почты. Надстройки для Outlook доступны в Интернете, Windows, Mac и Outlook для Android, iOS и iPadOS. Пакет SDK APP и политики защиты приложений Intune не поддерживают управление надстройками для Outlook, но существуют другие способы ограничить их использование. Так как надстройки управляются через Microsoft Exchange, пользователи могут обмениваться данными и сообщениями между Outlook и неуправляемыми приложениями, если надстройки отключены для пользователя в Exchange.
 
 Если вы хотите запретить пользователям доступ к надстройкам Outlook и их установке (это влияет на все клиенты Outlook), внесите следующие изменения в роли в центре администрирования Exchange.
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0ea66458060417fc828b2b7735b384e8cd3e25a9
-ms.sourcegitcommit: 637375a390b6e34f9c4415c77b99fe2980bbf554
+ms.openlocfilehash: 09c8a8819c288663936174e9317267c39eac63bc
+ms.sourcegitcommit: ecaff388038fb800f2e646f8efcf8f3b1e2fd1b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75839398"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77437857"
 ---
 # <a name="how-to-create-exceptions-to-the-intune-app-protection-policy-app-data-transfer-policy"></a>Как создать исключения для политики передачи данных решения "Защита приложений Intune" (APP)
 
@@ -38,7 +38,7 @@ ms.locfileid: "75839398"
 > Изменение или добавление исключений для политики передачи данных не влияет на другие политики защиты приложений, такие как ограничения на вырезание, копирование и вставку. 
 
 ## <a name="ios-data-transfer-exceptions"></a>Исключения политики передачи данных для iOS
-Для политики, предназначенной для iOS, можно настроить исключения политики передачи данных по протоколу URL-адреса. Чтобы добавить исключение, найдите сведения о поддерживаемых протоколах URL-адреса в документации, предоставленной разработчиком приложения. Дополнительные сведения об исключениях для политики передачи данных в iOS см. в статье [Параметры политик защиты приложений в iOS — исключения для передачи данных](app-protection-policy-settings-ios.md#data-transfer-exemptions).
+Для политики, предназначенной для iOS и iPadOS, можно настроить исключения политики передачи данных по протоколу URL-адреса. Чтобы добавить исключение, найдите сведения о поддерживаемых протоколах URL-адреса в документации, предоставленной разработчиком приложения. См. сведения об исключениях для политики передачи данных в iOS и iPadOS в описании [параметров политик защиты приложений в iOS](app-protection-policy-settings-ios.md#data-transfer-exemptions).
 
 > [!NOTE]
 > На устройствах Майкрософт невозможно вручную найти URL-протокол, чтобы создавать исключения для сторонних приложений. 
@@ -53,9 +53,9 @@ ms.locfileid: "75839398"
 ### <a name="example"></a>Пример
 Если вы добавите пакет **Webex** в качестве исключения в политику передачи данных MAM, ссылки Webex внутри сообщений в управляемом приложении Outlook будут открываться напрямую в приложении Webex. В других неуправляемых приложениях передача данных будет ограничена.
 
-- Пример **Webex** для iOS.   Чтобы приложение **Webex** стало исключением и управляемые приложения Intune могли обращаться к нему, добавьте исключение для передачи данных в следующей строке: <code>wbx</code>.
+- Пример **Webex** для iOS и iPadOS.   Чтобы приложение **Webex** стало исключением и управляемые приложения Intune могли обращаться к нему, добавьте исключение для передачи данных в следующей строке: <code>wbx</code>.
     
-- Пример с приложением **Карты** для iOS.   Чтобы встроенное приложение **Карты** стало исключением и управляемые приложения Intune могли обращаться к нему, добавьте исключение для передачи данных в следующей строке: <code>maps</code>.
+- Пример **Maps** для iOS и iPadOS.   Чтобы встроенное приложение **Карты** стало исключением и управляемые приложения Intune могли обращаться к нему, добавьте исключение для передачи данных в следующей строке: <code>maps</code>.
 
 - Пример **Webex** для Android.   Чтобы приложение **Webex** стало исключением и управляемые приложения Intune могли обращаться к нему, добавьте исключение для передачи данных в следующей строке: <code>com.cisco.webex.meetings</code>.
     
@@ -66,7 +66,7 @@ ms.locfileid: "75839398"
     
     <code>com.samsung.android.messaging</code>
 
-- Пример **установщика сертификатов** Android. Чтобы собственный **установщик сертификатов** стал исключением и приложение Outlook для Android могло установить сертификат S/MIME (доставленный как вложение в сообщении электронной почты), добавьте исключения для передачи данных в следующую строку: <code>com.android.certinstaller</code>. Дополнительные сведения см. в статье [Sensitivity labeling and protection in Outlook for iOS and Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/sensitive-labeling-and-protection-outlook-for-ios-android) (Метки конфиденциальности и защита в Outlook для iOS и Android).
+- Пример **установщика сертификатов** Android. Чтобы собственный **установщик сертификатов** стал исключением и приложение Outlook для Android могло установить сертификат S/MIME (доставленный как вложение в сообщении электронной почты), добавьте исключения для передачи данных в следующую строку: <code>com.android.certinstaller</code>. См. сведения о [метках конфиденциальности и защите в Outlook для iOS, iPadOS и Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/sensitive-labeling-and-protection-outlook-for-ios-android).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

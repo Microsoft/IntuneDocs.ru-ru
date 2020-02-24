@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0dac0607fcaa92ebe65a7ddacc3cd91c63bf246e
-ms.sourcegitcommit: 5178aec0244e023e73546f3d10f1a76eaf1f4a3e
+ms.openlocfilehash: 1263df126b371780b3c5c14ae619f0cb7c83d475
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "76971860"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77415303"
 ---
 # <a name="set-enrollment-restrictions"></a>Установка ограничений регистрации
 
@@ -44,11 +44,11 @@ ms.locfileid: "76971860"
 - Платформы устройств, допускающие регистрацию
   - Администратор устройства с Android
   - рабочий профиль "Android для бизнеса".
-  - iOS
+  - iOS/iPadOS
   - MacOS
   - Windows
   - Windows Mobile
-- Версия операционной системы платформы для iOS, администратор устройства Android, рабочий профиль Android Enterprise, Windows и Windows Mobile. (Можно использовать только версии Windows 10. Оставьте это поле пустым, если допускается использование Windows 8.1.)
+- Версия операционной системы платформы для iOS и iPadOS, администратор устройства Android, рабочий профиль Android для бизнеса, Windows и Windows Mobile. (Можно использовать только версии Windows 10. Оставьте это поле пустым, если допускается использование Windows 8.1.)
   - Минимальная версия.
   - Максимальная версия.
 - Ограничение [личных устройств](device-enrollment.md#bring-your-own-device) (только iOS, администратор устройства Android, рабочий профиль Android для бизнеса, macOS, Windows и Windows Mobile).
@@ -67,7 +67,7 @@ ms.locfileid: "76971860"
 5. В разделе **Версии** выберите минимальную и максимальную версии, которые должны поддерживать допустимые платформы. Ограничения версий применяются только к устройствам, зарегистрированным на корпоративном портале.
      Форматы поддерживаемой версии включают следующие:
     - Администратор устройства Android и рабочий профиль Android Enterprise поддерживают major.minor.rev.build.
-    - iOS поддерживает формат основной_номер_версии.дополнительный_номер_версии.редакция. Версии операционной системы не применяются к устройствам Apple, зарегистрированным по программе регистрации устройств, а также с помощью Apple School Manager или приложения Apple Configurator.
+    - iOS и iPadOS поддерживают major.minor.rev. Версии операционной системы не применяются к устройствам Apple, зарегистрированным по программе регистрации устройств, а также с помощью Apple School Manager или приложения Apple Configurator.
     - Windows поддерживает формат major.minor.build.rev только для Windows 10.
     
     > [!IMPORTANT]
@@ -158,8 +158,8 @@ ms.locfileid: "76971860"
 \* Не блокируются при регистрации с помощью Autopilot.
 
 
-## <a name="blocking-personal-ios-devices"></a>Блокирование личных устройств с iOS
-По умолчанию Intune классифицирует устройства iOS как личные. Чтобы классифицировать устройство iOS как корпоративное, оно должно удовлетворять одно из следующих условий:
+## <a name="blocking-personal-iosipados-devices"></a>Блокирование личных устройств iOS и iPadOS
+По умолчанию Intune классифицирует устройства iOS и iPadOS как личные. Чтобы классифицировать устройство iOS или iPadOS как корпоративное, оно должно соответствовать одному из следующих условий:
 - Зарегистрировано с серийным номером или IMEI.
 - Зарегистрировано с помощью автоматической Регистрации устройств (ранее Программа регистрации устройств)
 

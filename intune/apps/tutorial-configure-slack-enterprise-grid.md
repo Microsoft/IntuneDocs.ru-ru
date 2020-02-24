@@ -18,12 +18,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dce6d71a4bc056146b581458d5c39325adad1584
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: cd0a4b0c5e0b4cbaa7ef43ec40cddb3ab30d3070
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75206913"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77415486"
 ---
 # <a name="tutorial-configure-slack-to-use-intune-for-emm-and-app-configuration"></a>Руководство. Настройка Slack для использования Intune для EMM и настройки приложения
 
@@ -69,7 +69,7 @@ Slack — это приложение для совместной работы,
 10. Нажмите кнопку **Сохранить**.
 
 ### <a name="add-an-app-configuration-policy-for-slack-for-emm"></a>Добавление политики конфигурации приложения Slack для EMM
-Добавьте политику конфигурации приложения Slack для EMM на платформе iOS. Политики конфигурации приложений для управляемых устройств зависят от платформы, поэтому вам необходимо добавить отдельную политику для пользователей Slack на устройствах Android.
+Добавьте политику конфигурации приложения Slack для EMM на устройствах iOS или iPadOS. Политики конфигурации приложений для управляемых устройств зависят от платформы, поэтому вам необходимо добавить отдельную политику для пользователей Slack на устройствах Android.
 1. В центре администрирования выберите **Приложения** > **Политики конфигурации приложений** > **Добавить** > **Управляемые устройства**.
 2. В поле "Имя" введите "Тестирование политики приложения Slack".
 3. В разделе "Тип регистрации устройства" убедитесь, что установлено значение **Управляемые устройства**.

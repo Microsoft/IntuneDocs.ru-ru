@@ -1,6 +1,6 @@
 ---
 title: Прекращение использования и очистка устройств с помощью Microsoft Intune в Azure | Документы Майкрософт
-description: Прекращение использования и очистка устройств с рабочими профилями Android, устройств с Android, iOS, macOS или Windows с помощью Microsoft Intune. Также удалите устройство из Azure Active Directory.
+description: Узнайте, как прекратить использовать и очистить устройства с рабочими профилями Android, устройств с Android, iOS, iPadOS, macOS и Windows с помощью Microsoft Intune. Также удалите устройство из Azure Active Directory.
 keywords: ''
 author: ErikjeMS
 ms.author: erikje
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7cda7404d24ccb9bb1c42d6bb66d77f29ac925ac
-ms.sourcegitcommit: b0d683917af83170f85022b270270d8ced8e301c
+ms.openlocfilehash: 62ba66469dfff004c3cd6a60284ec7466e8b9f00
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76812462"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77415510"
 ---
 # <a name="remove-devices-by-using-wipe-retire-or-manually-unenrolling-the-device"></a>Удаление устройств с помощью очистки, прекращения использования или ручной отмены регистрации устройства
 
@@ -43,7 +43,7 @@ ms.locfileid: "76812462"
 
 
 > [!NOTE]
-> Действие очистки недоступно для устройств iOS, зарегистрированных с помощью процедуры регистрации пользователей.
+> Действие очистки недоступно для устройств iOS и iPadOS, зарегистрированных с помощью процедуры регистрации пользователей.
 
 Параметр **Retain enrollment state and user account** (Сохранить состояние регистрации и учетную запись пользователя) доступен только для Windows 10 версии 1709 или более поздних версий.
 

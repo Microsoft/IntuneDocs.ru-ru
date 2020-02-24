@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7cc67ce304dba500095c130e035a0b29322c84ef
-ms.sourcegitcommit: de663ef5f3e82e0d983899082a7f5b62c63f24ef
+ms.openlocfilehash: 51538f8994557bba718f0e8344b1da8d3c7193fa
+ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75956296"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "77414407"
 ---
 # <a name="identify-devices-as-corporate-owned"></a>Определение устройства как корпоративного
 
@@ -54,7 +54,7 @@ ms.locfileid: "75956296"
 | Операционная система Android версии 10, управляемая администратором устройств | Не поддерживается | Не поддерживается |
 | Другая платформа Android | Не поддерживается | Поддерживается |
 
-<!-- When you upload serial numbers for corporate-owned iOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as corporate-owned. -->
+<!-- When you upload serial numbers for corporate-owned iOS/iPadOS devices, they must be paired with a corporate enrollment profile. Devices must then be enrolled using either Apple’s device enrollment program (DEP) or Apple Configurator to have them appear as corporate-owned. -->
 
 [Вы можете узнать о том, как найти серийный номер устройства Apple](https://support.apple.com/HT204308).<br>
 [Вы можете узнать о том, как найти серийный номер устройства Android](https://support.google.com/store/answer/3333000).
@@ -77,8 +77,8 @@ ms.locfileid: "75956296"
 ```
 
 > [!IMPORTANT]
-> У некоторых устройств с Android и iOS есть несколько номеров IMEI. Intune считывает только один номер IMEI для каждого зарегистрированного устройства. Если вы импортировали номер IMEI, но это не тот номер, под которым устройство зарегистрировано в Intune, устройство будет классифицировано как личное, а не корпоративное. Если импортировать несколько номеров IMEI для устройства, то не входящие в учет номера будут отображаться с состоянием регистрации **Неизвестно**.<br>
->Дополнительные примечания Серийные номера являются рекомендуемой формой идентификации для устройств с iOS.
+> У некоторых устройств с Android, iOS и iPadOS есть несколько номеров IMEI. Intune считывает только один номер IMEI для каждого зарегистрированного устройства. Если вы импортировали номер IMEI, но это не тот номер, под которым устройство зарегистрировано в Intune, устройство будет классифицировано как личное, а не корпоративное. Если импортировать несколько номеров IMEI для устройства, то не входящие в учет номера будут отображаться с состоянием регистрации **Неизвестно**.<br>
+>Дополнительные примечания Серийные номера являются рекомендуемой формой идентификации для устройств с iOS и iPadOS.
 >Уникальность и доступность серийных номеров Android не гарантируется. Обратитесь к поставщику устройства, чтобы узнать, является ли серийный номер надежным идентификатором устройства.
 >Серийные номера, которые устройство направило в Intune, могут не совпадать с отображаемым идентификатором в меню «Параметры Android»/«Сведения» на устройстве. Проверьте тип серийного номера, предоставленный изготовителем устройства.
 >Попытка отправки файла с серийными номерами, содержащими точки (.), приведет к ошибке передачи. Серийные номера с точками не поддерживаются.
