@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: dougeby
   ms.author: dougeby
-  ms.date: 09/16/2019
-  ms.openlocfilehash: afd555e5f245ee9bc28bd21268ae64ae69afbad3
-  ms.sourcegitcommit: 9013f7442bbface78feecde2922e8e546a622c16
+  ms.date: 02/18/2020
+  ms.openlocfilehash: d6404a4c77507374b5e8759ba2078e541cde35d8
+  ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/16/2019
-  ms.locfileid: "72492536"
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77511057"
 landingContent:
 - title: Применение функций и настроек к устройствам
   linkLists:
@@ -27,7 +27,7 @@ landingContent:
       url: device-profiles.md
   - linkListType: quickstart
     links:
-    - text: Создание профиля электронной почты устройства для iOS
+    - text: Создание профиля электронной почты устройства для iOS и iPadOS
       url: quickstart-email-profile.md
   - linkListType: how-to-guide
     links:
@@ -69,11 +69,11 @@ landingContent:
       url: wi-fi-settings-configure.md
     - text: Управление доступом, учетными записями и питанием на компьютере с общим доступом или устройствах с несколькими пользователями
       url: shared-user-device-settings.md
-- title: Параметры для iOS
+- title: Параметры для iOS и iPadOS
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Добавление параметров функций на устройства iOS
+    - text: Добавление параметров функций на устройства iOS и iPadOS
       url: device-features-configure.md
     - text: Настройка ограничений для устройств
       url: device-restrictions-configure.md
@@ -81,7 +81,7 @@ landingContent:
       url: email-settings-configure.md
     - text: Создание профилей VPN для подключения к VPN-серверам
       url: vpn-settings-configure.md
-    - text: Создание профилей VPN для каждого приложения для устройств iOS
+    - text: Создание профилей VPN для каждого приложения для устройств iOS и iPadOS
       url: vpn-setting-configure-per-app.md
     - text: Добавление и использование параметров Wi-Fi на устройствах
       url: wi-fi-settings-configure.md
@@ -89,7 +89,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Добавление параметров функций на устройства iOS
+    - text: Добавление параметров функций на устройства iOS и iPadOS
       url: device-features-configure.md
     - text: Настройка ограничений для устройств
       url: device-restrictions-configure.md
@@ -137,9 +137,9 @@ landingContent:
       url: device-restrictions-android.md
     - text: Android для бизнеса
       url: device-restrictions-android-for-work.md
-    - text: iOS
+    - text: iOS/iPadOS
       url: ios-device-features-settings.md
-    - text: macOS
+    - text: MacOS
       url: macos-device-features-settings.md
     - text: Windows 10 и более поздней версии
       url: delivery-optimization-settings.md
@@ -147,5 +147,5 @@ landingContent:
       url: device-restrictions-windows-holographic.md
     - text: Windows 8.1
       url: device-restrictions-windows-8-1.md
-    - text: Windows Phone 8.1
+    - text: Windows Phone 8.1
       url: device-restrictions-windows-phone-8-1.md

@@ -100,7 +100,7 @@
     - name: Настройка регистрации устройств macOS
       href: macos-enroll.md
       items:
-        - name: Программа регистрации устройств (DEP) или Apple School Manager
+        - name: Автоматическая регистрация устройств
           href: device-enrollment-program-enroll-macos.md
     - name: Отчет о неполной регистрации
       href: enrollment-report-company-portal-abandon.md

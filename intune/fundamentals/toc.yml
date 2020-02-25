@@ -29,7 +29,7 @@
       href: quickstart-create-group.md
     - name: создание и назначение настраиваемой роли.
       href: quickstart-create-custom-role.md
-- name: Учебники
+- name: Руководства
   items:
     - name: Пошаговое руководство по Intune в диспетчере конечных точек (Майкрософт)
       href: tutorial-walkthrough-endpoint-manager.md
@@ -67,7 +67,7 @@
   items:
     - name: Планирование развертывания
       items:
-        - name: Планирование развертывания DPM
+        - name: Руководство по планированию
           href: planning-guide.md
           items:
             - name: Определение целей и задач
@@ -127,7 +127,7 @@
               href: end-user-mam-apps-ios.md
             - name: Как получить приложения Android
               href: end-user-apps-android.md
-            - name: Как получить приложения iOS
+            - name: Как получить приложения iOS и iPadOS
               href: end-user-apps-ios.md
             - name: Как получить приложения Windows
               href: end-user-apps-windows.md
@@ -171,7 +171,7 @@
           href: mdm-authority-set.md
         - name: Управление ролями
           items:
-            - name: контроль доступа на основе ролей;
+            - name: управление доступом на основе ролей;
               href: role-based-access-control.md
             - name: Назначение роли пользователю
               href: assign-role.md
@@ -201,19 +201,19 @@
           href: tenant-status.md
         - name: Помощь пользователям в устранении проблем
           href: help-desk-operators.md
-        - name: Журналы аудита для действий Intune
-          href: monitor-audit-logs.md
-        - name: "Просмотр журналов с помощью Azure\_Monitor"
-          href: review-logs-using-azure-monitor.md
         - name: "Использование документации по\_Intune"
           href: use-docs.md
         - name: Получение поддержки
           href: get-support.md
-    - name: Reports
+    - name: Отчеты
       items:
         - name: Отчеты Intune
           href: reports.md
-- name: Справочник
+        - name: Журналы аудита для действий Intune
+          href: monitor-audit-logs.md
+        - name: "Просмотр журналов с помощью Azure\_Monitor"
+          href: review-logs-using-azure-monitor.md
+- name: Справочные сведения
   items:
     - name: Коды ошибок и описания
       items:
@@ -233,7 +233,7 @@
           href: ui-changes.md
         - name: Классические группы Intune
           href: groups-get-started.md
-        - name: Параметры образования iOS
+        - name: Параметры образования iOS и iPadOS
           items:
             - name: iPad
               href: education-settings-configure-ios.md
@@ -259,7 +259,7 @@
                   href: retire-a-windows-pc-with-microsoft-intune.md
                 - name: Создание связи между компьютерами и пользователями
                   href: manage-user-device-linking-for-windows-pcs-with-microsoft-intune.md
-                - name: Удаленная помощь
+                - name: Удаленный помощник
                   href: request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md
             - name: Политики для защиты компьютеров с ОС Windows
               href: policies-to-protect-windows-pcs-in-microsoft-intune.md

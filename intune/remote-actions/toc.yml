@@ -27,7 +27,7 @@
       items:
         - name: Поиск потерянного устройства iOS и iPadOS
           href: device-locate.md
-        - name: Включение режима пропажи для устройства iOS и iPadOS
+        - name: Включение режима пропажи в iOS и iPadOS
           href: device-lost-mode.md
         - name: Включение защищенного режима в iOS и iPadOS
           href: device-supervised-mode.md
