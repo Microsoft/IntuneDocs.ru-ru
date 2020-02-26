@@ -7,12 +7,12 @@ ms.topic: include
 ms.date: 11/19/2019
 ms.author: erikje
 ms.custom: include file
-ms.openlocfilehash: f23d81ddb07fcafb198cd725781747b61a3b73ea
-ms.sourcegitcommit: 67f926ba83f8a955e16b741a610ad84d6044f8f9
+ms.openlocfilehash: 373aeea9ab4fcbd075ac2ab18f205f3ddd191a39
+ms.sourcegitcommit: 29f3ba071c9348686d3ad6f3b8864d8557e05b97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77529347"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609296"
 ---
 Эти уведомления предоставляют важные сведения, которые помогут вам подготовиться к будущим изменениям в Intune.
 
@@ -84,7 +84,7 @@ https://helpx.adobe.com/acrobat/kb/intune-app-end-of-life.html
 
 [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2107122)
 
-### <a name="decreasing-support-for-android-device-administrator"></a>Ограничение поддержки функции администратора устройства Android 
+### <a name="decreasing-support-for-android-device-administrator--5857738--"></a>Ограничение поддержки функции администратора устройства Android<!--5857738-->
 Функция администратора устройства Android (иногда называют устаревшим режимом управления Android — выпуск Android 2.2) — это способ управлять устройствами Android. Сейчас улучшенная функция управления доступна в [Android для бизнеса](../enrollment/connect-intune-android-enterprise.md) (выпуск Android 5.0). Чтобы способствовать переходу на современные, расширенные и более безопасные средства управления устройствами, компания Google ограничивает поддержку функции администратора устройства в новых выпусках Android.
 
 #### <a name="how-does-this-affect-me"></a>Как это повлияет на работу?
@@ -108,24 +108,5 @@ https://helpx.adobe.com/acrobat/kb/intune-app-end-of-life.html
 - [Руководство Google по переходу от функции администратора устройства на функцию Android для бизнеса](http://static.googleusercontent.com/media/android.com/en/enterprise/static/2016/pdfs/enterprise/Android-Enterprise-Migration-Bluebook_2019.pdf)
 - [Документация Google по прекращению поддержки API администратора устройства](https://developers.google.com/android/work/device-admin-deprecation)
 
-### <a name="plan-for-change-intune-app-sdk-and-app-protection-policies-for-android-moving-to-support-android-50-and-higher-in-an-upcoming-release---4911065---"></a>Подготовьтесь к изменениям. В пакете SDK для приложений Intune и политиках защиты приложений для Android поддержка Android версии 5.0 и выше будет реализована в предстоящем выпуске <!--4911065 -->
-В Intune поддержка Android версии 5.x (Lollipop) и выше будет реализована в предстоящем выпуске. Обновите все устройства и приложения с применением последней версии пакета SDK для приложений Intune.
-
-#### <a name="how-does-this-affect-me"></a>Как это повлияет на работу?
-Если вы не используете или не планируете использовать пакет SDK или политику защиты приложений для Android, это изменение не повлияет на вас. Если вы используете пакет SDK для приложений Intune, обязательно обновите его до последней версии, а также обновите устройства до Android версии 5.x и выше. В противном случае приложения не будут получать обновления, а качество взаимодействия с ними будет постепенно ухудшаться.
-
-Ниже приведен список распространенных устройств, зарегистрированных в Intune, которые работают под управлением Android версии 4.x. Если у вас есть одно из этих устройств, выполните соответствующие действия. Так вы убедитесь, что устройство будет поддерживать Android 5.0 и последующих версий или что оно будет заменено устройством, поддерживающим эти версии Android. Приведенный ниже список устройств, которые нужно проверить, не является исчерпывающим:
-
-- Samsung SM-T561  
-- Samsung SM-T365
-- Samsung GT-I9195
-- Samsung SM-G800F
-- Samsung SM-G357FZ
-- Motorola XT1080
-- Samsung GT-I9305
-- Samsung SM-T231
-
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>Как можно подготовиться к этому изменению?
-Примените к приложениям последнюю версию пакета SDK для приложений Intune. Вы также можете настроить для условного запуска требование минимальной версии ОС (только в качестве предупреждения), чтобы сообщать пользователям персональных устройств о необходимости выполнить обновление.
 
 

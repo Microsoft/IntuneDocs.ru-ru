@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8c81fa9b521b0d950fb69c29f7625981e709863d
-ms.sourcegitcommit: c46b0c2d4507be6a2786a4ea06009b2d5aafef85
+ms.openlocfilehash: 7945f1df3ddf1a6ff2c42a537e1071d1b5acff24
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76916114"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514274"
 ---
 # <a name="troubleshoot-device-to-ndes-server-communication-for-scep-certificate-profiles-in-microsoft-intune"></a>Устранение неполадок при обмене данными между устройствами и сервером NDES для профилей сертификатов SCEP в Microsoft Intune
 
@@ -89,7 +89,7 @@ fe80::f53d:89b8:c3e8:5fec%13 GET /certsrv/mscep/mscep.dll operation=GetCACaps&me
 fe80::f53d:89b8:c3e8:5fec%13 Dalvik/2.1.0+(Linux;+U;+Android+5.0;+P01M+Build/LRX21V) - 200 0 0 421 
 ```
 
-### <a name="ios-and-ipados-devices"></a>Устройства iOS и iPadOS
+### <a name="iosipados-devices"></a>Устройства iOS и iPadOS
 
 Проверьте [журнал отладки устройств](troubleshoot-scep-certificate-profiles.md#logs-for-ios-and-ipados-devices). Найдите записи, аналогичные приведенным ниже, которые регистрируются при подключении устройства к NDES:
 
