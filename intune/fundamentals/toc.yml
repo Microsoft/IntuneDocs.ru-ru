@@ -39,6 +39,8 @@
   items:
     - name: Основные сведения об Intune для образовательных учреждений
       href: introduction-intune-education.md
+    - name: Что такое Intune для государственных организаций США?
+      href: introduction-intune-government.md
     - name: Высокоуровневая архитектура
       href: high-level-architecture.md
     - name: Жизненный цикл устройства
