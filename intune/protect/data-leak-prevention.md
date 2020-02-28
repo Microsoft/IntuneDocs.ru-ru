@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b3affffdf69445ced667d718587303a5409423bf
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
-ms.translationtype: MTE75
+ms.openlocfilehash: 0d9e61cbe4f6d6e07c61fe182e639e715996f9ee
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72502395"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514444"
 ---
 # <a name="prevent-data-leaks-on-non-managed-devices-using-microsoft-intune"></a>Предотвращение утечки данных на неуправляемых устройствах с помощью Microsoft Intune
 
@@ -47,7 +47,7 @@ ms.locfileid: "72502395"
 
 ## <a name="action-plan"></a>План действий
 
-Для устройств iOS и Android
+Для устройств iOS, iPadOS и Android
 
 1. Ознакомьтесь с принципами работы [политик защиты приложений](../apps/app-protection-policy.md).
 2. Узнайте, как [создать и развернуть политики защиты приложений](../apps/app-protection-policies.md) для мобильных приложений Office.
@@ -63,7 +63,7 @@ ms.locfileid: "72502395"
 
 При необходимости поделитесь следующими ссылками для получения дополнительных сведений:
 
-* [Что происходит при управлении приложением iOS с помощью политик защиты приложений](../fundamentals/end-user-mam-apps-ios.md)
+* [Что происходит при управлении приложением iOS или iPadOS с помощью политик защиты приложений](../fundamentals/end-user-mam-apps-ios.md)
 * [Что происходит при управлении приложением Android с помощью политик защиты приложений](../fundamentals/end-user-mam-apps-android.md)
 
 ## <a name="next-steps"></a>Дальнейшие шаги

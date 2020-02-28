@@ -1,7 +1,7 @@
 ---
 title: Сравнение вариантов управления компьютерами Windows
 titleSuffix: Microsoft Intune
-description: Регистрация корпоративных устройств iOS с помощью Программы регистрации устройств Apple (DEP) или Apple Configurator.
+description: Регистрация корпоративных устройств iOS и iPadOS с помощью Программы регистрации устройств Apple (DEP) или Apple Configurator.
 keywords: ''
 author: dougeby
 ms.author: dougeby
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d8fd53e9d12dd38639d204e214aea03d733e584b
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
-ms.translationtype: MTE75
+ms.openlocfilehash: cda9a549cb12ab61da67da91272e9f388d32a2ef
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74059199"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514988"
 ---
 # <a name="compare-managing-windows-pcs-as-computers-or-mobile-devices"></a>Сравнение возможностей для управления ПК Windows как компьютерами или мобильными устройствами
 
@@ -43,7 +43,7 @@ ms.locfileid: "74059199"
 |**Управление лицензиями на программное обеспечение**|Доступно <br>[Управление лицензионными соглашениями для программного обеспечения компьютеров Windows](../manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)|Магазин Майкрософт для бизнеса (только приложения с расширением appx)<br>[Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса](../apps/windows-store-for-business.md)|
 |**Инвентаризация**|Доступно <br>[Просмотр данных инвентаризации оборудования и программного обеспечения для компьютеров под управлением Windows](view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune.md)|Доступно <br>[Отслеживание сведений о приложении](../apps/apps-monitor.md)<br>[Что такое управление устройствами](../remote-actions/device-management.md)|
 |**Политика брандмауэра Windows**|Доступно <br>[Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune](../help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md) |Доступно <br>[Брандмауэр в Microsoft Defender](../protect/endpoint-protection-windows-10.md#microsoft-defender-firewall)|
-|**Защита от вредоносных программ**|Endpoint Protection<br>[Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection](../help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)|Microsoft Defender<br>[Включить защитник Майкрософт](../protect/advanced-threat-protection.md)|
+|**Защита от вредоносных программ**|Endpoint Protection<br>[Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection](../help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)|Microsoft Defender<br>[Включение Microsoft Defender](../protect/advanced-threat-protection.md)|
 |**Удаленная поддержка** |TeamViewer<br>[Запрос и предоставление удаленной помощи для компьютеров под управлением Windows](request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md)|TeamViewer<br> [Использование TeamViewer для удаленного администрирования устройств Intune](../remote-actions/teamviewer-support.md) |
 |**Развертывание приложений** | Недоступно для Магазина Майкрософт для бизнеса,<br>только файлы с расширением exe, appx и пакеты msi с несколькими файлами<br>[Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune](add-apps-for-windows-pcs-in-microsoft-intune.md)|Доступно для приложений Магазина Майкрософт и бизнес-приложений<br>[Добавление приложений Магазина Windows](../apps/store-apps-windows.md)<br>[Добавление бизнес-приложений Windows](../apps/lob-apps-windows.md)|
 |**Защита приложений**|Недоступно|Доступно <br>[Что такое политики защиты приложений?](../apps/app-protection-policy.md)|

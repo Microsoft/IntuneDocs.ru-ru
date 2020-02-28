@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 08/07/2019
+ms.date: 02/18/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.reviewer: maholdaa
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dc86e82f189377d63422cc3306b8554637164b0f
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
-ms.translationtype: MTE75
+ms.openlocfilehash: 978ddf279dc221a56fddaf99da4dbb2377a93c24
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75206437"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77511159"
 ---
 # <a name="android-enterprise-device-settings-to-configure-email-authentication-and-synchronization-in-intune"></a>Параметры устройства Android Enterprise для настройки электронной почты, проверки подлинности и синхронизации в Intune
 
@@ -63,4 +63,4 @@ ms.locfileid: "75206437"
 
 [Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
-Вы также можете создать профили электронной почты, дополнительные сведения см. в статьях [Параметры устройств Android и Android Enterprise для настройки электронной почты, проверки подлинности и синхронизации в Intune](email-settings-android.md), [Параметры профиля электронной почты для устройств iOS в Intune](email-settings-ios.md), [Параметры профиля электронной почты для устройств с ОС Windows 10 в Intune](email-settings-windows-10.md) и [Параметры профиля электронной почты в Microsoft Intune для устройств Windows Phone 8.1](email-settings-windows-phone-8-1.md).
+Вы также можете создать профили электронной почты для устройств [Android Samsung Knox](email-settings-android.md), [iOS и iPadOS](email-settings-ios.md), [Windows 10 и более поздних версий](email-settings-windows-10.md) и [Windows Phone 8.1](email-settings-windows-phone-8-1.md).

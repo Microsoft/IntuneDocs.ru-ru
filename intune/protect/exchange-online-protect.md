@@ -18,16 +18,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6ffcc4a7e48064e6a458126667cf6ab2c4e75777
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
-ms.translationtype: MTE75
+ms.openlocfilehash: ac670fd5e17462688fdfcde1b047e1071a49353a
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72502259"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515209"
 ---
 # <a name="protect-office-365-exchange-online-without-requiring-device-management"></a>Защита Office 365 Exchange Online без необходимости управления устройствами
 
-Если вы хотите предоставить сотрудникам доступ к рабочей электронной почте без издержек по настройке системы управления устройствами, это возможно. Доступ к Office 365 Exchange Online можно предоставить через Intune. Чтобы выполнить необходимые действия, убедитесь в наличии лицензий для Microsoft 365 или Azure Active Directory (Premium) и Intune. Сотрудники должны иметь [поддерживаемые устройства iOS или Android](../fundamentals/supported-devices-browsers.md). 
+Если вы хотите предоставить сотрудникам доступ к рабочей электронной почте без издержек по настройке системы управления устройствами, это возможно. Доступ к Office 365 Exchange Online можно предоставить через Intune. Чтобы выполнить необходимые действия, убедитесь в наличии лицензий для Microsoft 365 или Azure Active Directory (Premium) и Intune. Сотрудники должны иметь [поддерживаемые устройства iOS, iPadOS или Android](../fundamentals/supported-devices-browsers.md). 
 
 При желании вы также можете настроить систему управления устройствами. Эта функция защиты приложений работает независимо от системы управления устройствами. 
 
@@ -41,7 +41,7 @@ ms.locfileid: "72502259"
 
 ## <a name="what-to-tell-employees-and-students"></a>Что следует рассказать сотрудникам и учащимся
 
-* Попросите сотрудников и учащихся скачать и установить приложение Microsoft Outlook или Microsoft SharePoint для iOS (в Apple App Store) или Android (в магазине Google Play). 
+* Попросите сотрудников и учащихся скачать и установить приложение Microsoft Outlook или Microsoft SharePoint для iOS, iPadOS (в Apple App Store) или Android (в Google Play Маркет). 
 * Если предполагается блокировать доступ к приложениям, которые не используют современную проверку подлинности, расскажите сотрудникам и учащимся об этом ограничении. 
 
 ## <a name="next-steps"></a>Дальнейшие шаги

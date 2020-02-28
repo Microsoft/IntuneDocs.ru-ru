@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/12/2018
+ms.date: 02/18/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.reviewer: tycast
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f2bee04eabb7036d9a28ac628175b27f763d0ccb
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
-ms.translationtype: MTE75
+ms.openlocfilehash: 47be57dece7867109565622ec2a1380e9a9d57d7
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75207066"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77512506"
 ---
 # <a name="windows-10-and-windows-holographic-device-settings-to-add-vpn-connections-using-intune"></a>Параметры устройств Windows 10 и Windows Holographic, позволяющие добавить VPN-подключения с помощью Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "75207066"
 
 Эти параметры применяются только для устройств со следующими системами:
 
-- Windows 10
+- быть под управлением ОС Windows 10;
 - Windows Holographic for Business
 
 В зависимости от выбранных параметров не все значения будут доступны для настройки.
@@ -143,7 +143,7 @@ ms.locfileid: "75207066"
 
   ![Нажатие многоточия и перетаскивание DNS-суффикса](./media/vpn-settings-windows-10/vpn-settings-windows10-move-dns-suffix.png)
 
-- **Правила таблицы политики разрешения имен (NRPT)** . правила таблицы политики разрешения имен (NRPT) определяют, как DNS разрешает имена при подключении к VPN. Вы можете выбрать, какие DNS-серверы использует VPN-подключение после установки соединения.
+- **Правила таблицы политики разрешения имен (NRPT)** . Эти правила позволяют определить, как DNS разрешает имена при подключении к VPN. Вы можете выбрать, какие DNS-серверы использует VPN-подключение после установки соединения.
 
   Правила, которые можно добавить в таблице, включают домена, DNS-серверы, прокси-серверы и другие сведения, позволяющие разрешить введенный домен. VPN-подключение использует эти правила, когда пользователи подключаются к указанным вами доменам.
 
@@ -185,4 +185,4 @@ ms.locfileid: "75207066"
 
 Профиль создан, но он пока ничего не делает. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
-Настройка параметров VPN на устройствах с [Android](vpn-settings-android.md), [iOS](vpn-settings-ios.md) и [macOS](vpn-settings-macos.md).
+Настройка параметров VPN на устройствах с [Android](vpn-settings-android.md), [iOS, iPadOS](vpn-settings-ios.md) и [macOS](vpn-settings-macos.md).

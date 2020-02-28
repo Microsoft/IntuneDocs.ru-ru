@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/09/2019
+ms.date: 02/18/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,16 +16,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a479bfa7b6a572ab2191fb651ce04145d8508c4b
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
-ms.translationtype: MTE75
+ms.openlocfilehash: 8aa9fa9462b6278da566a3ff54264540144a38de
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75206998"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77512268"
 ---
 # <a name="add-wi-fi-settings-for-macos-devices-in-microsoft-intune"></a>Добавление параметров Wi-Fi для устройств macOS в Microsoft Intune
-
-
 
 Вы можете создать профиль с определенными параметрами Wi-Fi и развернуть этот профиль для устройств macOS. Microsoft Intune предлагает множество возможностей, в том числе аутентификация в сети, добавление сертификата первичных ключей или сертификата SCEP и многое другое.
 
@@ -38,7 +36,7 @@ ms.locfileid: "75206998"
 [Создание профиля устройства](device-profile-create.md).
 
 > [!NOTE]
-> Эти параметры доступны для всех типов регистрации. Дополнительные сведения о типах регистрации см. в разделе [macOS регистрация](../enrollment/macos-enroll.md).
+> Эти параметры доступны для всех типов регистрации. Дополнительные сведения о типах регистрации см. в статье о [регистрации устройств macOS](../enrollment/macos-enroll.md).
 
 ## <a name="basic-profiles"></a>Базовые профили:
 
@@ -122,4 +120,4 @@ ms.locfileid: "75206998"
 
 Мы создали профиль, но он пока ничего не делает. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
-Настройка параметров Wi-Fi на устройствах [Android](wi-fi-settings-android.md), [Android Enterprise](wi-fi-settings-android-enterprise.md), [iOS](wi-fi-settings-ios.md)и [Windows 10](wi-fi-settings-windows.md) .
+Настройте параметры Wi-Fi на устройствах [Android](wi-fi-settings-android.md), [Android Enterprise](wi-fi-settings-android-enterprise.md), [iOS, iPadOS](wi-fi-settings-ios.md) и [Windows 10](wi-fi-settings-windows.md).

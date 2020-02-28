@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7d4517d89e3b7365834e904c815b30a362540906
-ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
-ms.translationtype: MTE75
+ms.openlocfilehash: 545f287e8b7ee82e2008f239171b22e01714b8c7
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "76755601"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514750"
 ---
 # <a name="troubleshoot-device-actions-in-intune"></a>Устранение неполадок при выполнении действий с устройствами в Intune
 
@@ -34,7 +34,7 @@ ms.locfileid: "76755601"
 ### <a name="i-clicked-the-disable-activation-lock-action-in-the-portal-but-nothing-happened-on-the-device"></a>Я щелкнул действие "Отключить блокировку активации" на портале, однако на устройстве ничего не произошло.
 Такое поведение является стандартным. После запуска действия "Отключить блокировку активации" служба Intune запрашивает обновленный код от Apple. После отображения на устройстве экрана блокировки активации необходимо вручную ввести секретный код в соответствующее поле. Этот код действителен в течение 15 дней, поэтому обязательно щелкните действие и скопируйте код, прежде чем выполнять очистку устройства.
 
-### <a name="why-dont-i-see-the-disable-activation-lock-code-in-the-hardware-overview-blade-of-my-ios-device"></a>Почему я не вижу код отключения блокировки активации в колонке "Обзор оборудования" на своем устройстве iOS?
+### <a name="why-dont-i-see-the-disable-activation-lock-code-in-the-hardware-overview-blade-of-my-iosipados-device"></a>Почему я не вижу код отключения Блокировки активации в колонке обзора оборудования на своем устройстве iOS/iPadOS?
 Ниже указаны наиболее вероятные причины этого:
 - Срок действия кода истек и он был удален из службы.
 - Устройство не входит в область действия политики ограничения устройств, чтобы разрешить блокировку активации.
@@ -43,7 +43,7 @@ ms.locfileid: "76755601"
 
 ```GET - https://graph.microsoft.com/beta/deviceManagement/manageddevices('deviceId')?$select=activationLockBypassCode.```
 
-### <a name="why-is-the-disable-activation-lock-action-greyed-out-for-my-ios-device"></a>Почему для моего устройства iOS недоступно для выбора действие "Отключить блокировку активации"?
+### <a name="why-is-the-disable-activation-lock-action-greyed-out-for-my-iosipados-device"></a>Почему для моего устройства iOS/iPadOS недоступно для выбора действие "Отключить блокировку активации"?
 Ниже указаны наиболее вероятные причины этого: 
 - Срок действия кода истек и он был удален из службы.
 - Устройство не входит в область действия политики ограничения устройств, чтобы разрешить блокировку активации.
@@ -90,8 +90,22 @@ ms.locfileid: "76755601"
 3. Конечному пользователю необходимо принять повторный запрос, чтобы разрешить сброс секретного кода.
 После выполнения этих действий вы больше не будете получать такой ответ.
 
-### <a name="why-am-i-prompted-to-set-a-new-passcode-on-my-ios-device-when-i-issue-the-remove-passcode-action"></a>Почему при попытке удалить на устройстве iOS секретный код отображается запрос на задание нового секретного кода?
+### <a name="why-am-i-prompted-to-set-a-new-passcode-on-my-iosipados-device-when-i-issue-the-remove-passcode-action"></a>Почему при попытке удалить на устройстве iOS/iPadOS секретный код отображается запрос на задание нового секретного кода?
 Поскольку в рамках одной из политик соответствия требуется использовать секретный код.
+
+
+## <a name="wipe-action"></a>Действие "Очистка"
+
+### <a name="i-cant-restart-a-windows-10-device-after-using-the-wipe-action"></a>Не удается перезапустить устройство с Windows 10 после действия очистки
+Это может быть результатом выбора параметра **Очистить устройство и продолжить очистку даже при отключении питания. При выборе этого параметра некоторые устройства с Windows 10 могут перестать запускаться.** на устройстве с Windows 10.
+
+Причиной может быть то, что при установке Windows возникло значительное повреждение, препятствующее переустановке операционной системы. В этом случае происходит сбой процесса и система остается в [среде восстановления Windows]( https://docs.microsoft.com/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference).
+
+### <a name="i-cant-restart-a-bitlocker-encrypted-device-after-using-the-wipe-action"></a>Не удается перезапустить зашифрованное устройство BitLocker после действия очистки
+Это может быть результатом выбора параметра **Очистить устройство и продолжить очистку даже при отключении питания. При выборе этого параметра некоторые устройства с Windows 10 могут перестать запускаться.** на зашифрованном устройстве BitLocker.
+
+Чтобы устранить эту проблему, используйте загрузочный носитель и установки Windows 10 на устройстве снова.
+
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
