@@ -16,12 +16,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c705e8863ef4e01906a773d528f9ae2f40461c71
-ms.sourcegitcommit: 2506cdbfccefd42587a76f14ee50c3849dad1708
+ms.openlocfilehash: 08041a57ab52f395283e57cda596d00ba168aba1
+ms.sourcegitcommit: 3964e6697b4d43e2c69a15e97c8d16f8c838645b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885856"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77556488"
 ---
 # <a name="basic-setup"></a>Базовая настройка
 
@@ -53,18 +53,11 @@ Intune требуется Azure Active Directory (AAD) в качестве по�
 
 - [Настройка инфраструктуры сертификатов для PFX](/intune/certficates-pfx-configure).
 
-
 ## <a name="task-list-for-an-intune-setup"></a>Список задач для настройки Intune
 
 ### <a name="task-1-intune-subscription"></a>Задача 1. Подписка Intune
 
-Перед миграцией в Intune потребуется подписка Intune.
-
-- [На этой странице](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) приведены инструкции по следующим операциям:
-
-  - Создание подписки Intune, связанной с новым клиентом AAD.
-
-  - Связывание подписки Intune при входе в существующий клиент AAD.
+Перед миграцией в Intune потребуется [подписка Intune](account-sign-up.md).
 
 ### <a name="task-2-assign-intune-user-licenses"></a>Задача 2. Назначение лицензий пользователей Intune.
 

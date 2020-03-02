@@ -17,12 +17,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f617e85e78ac5436567790d416c988742a2abe4c
-ms.sourcegitcommit: de663ef5f3e82e0d983899082a7f5b62c63f24ef
+ms.openlocfilehash: c880251d59810dc02446020ed02fd6049878262c
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75956222"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515022"
 ---
 # <a name="plan-communications"></a>Планирование обмена данными
 
@@ -52,7 +52,7 @@ ms.locfileid: "75956222"
 
 - [Регистрация устройства Android](https://www.youtube.com/watch?v=k0Q_sGLSx6o&t=1s)
 - [Регистрация устройства с рабочим профилем Android](https://www.youtube.com/watch?v=9Dl8HsGk4tI&t=3s)
-- [Регистрация устройства iOS](https://www.youtube.com/watch?v=mJyv6YcHi7c)
+- [Регистрация устройства iOS/iPadOS](https://www.youtube.com/watch?v=mJyv6YcHi7c)
 - [Регистрация устройства macOS](https://www.youtube.com/watch?v=Pa2pfhwq_yk)
 - [Регистрация устройства с Windows](https://www.youtube.com/watch?v=TKQxEckBHiE)
 
@@ -61,5 +61,5 @@ ms.locfileid: "75956222"
 В Intune предусмотрены дополнительные ресурсы, позволяющие донести до конечных пользователей необходимость регистрации устройств:
 
 - В статье [Инструкции по использованию Microsoft Intune для конечных пользователей](end-user-educate.md) описаны этапы регистрации в зависимости от платформы мобильных устройств.
-- В статье [Регистрация устройств в Intune для ИТ-администраторов](../enrollment/device-enrollment.md) объясняется, как зарегистрировать устройства Android, iOS и Mac в Intune.
-- Предоставьте доступ к приложению корпоративного портала пользователям Windows, iOS и Android.
+- В статье [Регистрация устройств в Intune для ИТ-администраторов](../enrollment/device-enrollment.md) объясняется, как зарегистрировать устройства Android, iOS/iPadOS и Mac в Intune.
+- Предоставьте доступ к приложению корпоративного портала пользователям Windows, iOS/iPadOS и Android.

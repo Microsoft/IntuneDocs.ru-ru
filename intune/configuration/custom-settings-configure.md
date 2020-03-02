@@ -1,11 +1,11 @@
 ---
 title: Использование настраиваемых параметров устройств в Microsoft Intune — Azure | Документы Майкрософт
-description: Добавьте или создайте профиль, чтобы использовать настраиваемые параметры для устройств Windows Phone, Windows 8.1, Windows 10 и более поздних версий, Android, Android для бизнеса, macOS и iOS с помощью Microsoft Intune.
+description: Добавьте или создайте профиль, чтобы использовать настраиваемые параметры для устройств Windows Phone, Windows 8.1, Windows 10 и более поздних версий, Android, Android для бизнеса, macOS и iOS/iPadOS с помощью Microsoft Intune
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/05/2019
+ms.date: 02/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,22 +15,22 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1c815a2c911dba6d17fc864b446122931fa88e91
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: d2ca5a120e50819208743564279a5d16c6b4aa2f
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73755380"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77511520"
 ---
 # <a name="create-a-profile-with-custom-settings-in-intune"></a>Создайте профиль с настраиваемыми параметрами в Intune
 
 ## <a name="what-are-custom-profiles"></a>Что такое настраиваемые профили
 
-Microsoft Intune включает множество встроенных параметров для управления различными функциями на устройстве. Также можно создавать настраиваемые профили. Они очень удобны, когда нужно использовать параметры и функции устройств, которые не встроены в Intune. Эти профили включают в себя функции и параметры, которыми вы можете управлять на устройствах в своей организации. Например, можно создать настраиваемый профиль, который задает одну и ту же функцию для каждого устройства iOS.
+Microsoft Intune включает множество встроенных параметров для управления различными функциями на устройстве. Также можно создавать настраиваемые профили. Они очень удобны, когда нужно использовать параметры и функции устройств, которые не встроены в Intune. Эти профили включают в себя функции и параметры, которыми вы можете управлять на устройствах в своей организации. Например, можно создать настраиваемый профиль, который задает одну и ту же функцию для каждого устройства iOS/iPadOS.
 
 Дополнительные сведения о профилях конфигурации см. в разделе [Что такое профили устройств в Microsoft Intune?](device-profiles.md). 
 
-Эта статья содержит ссылки для создания настраиваемых профилей для Android, Android Enterprise, iOS, macOS и Windows.
+Эта статья содержит ссылки для создания настраиваемых профилей для Android, Android Enterprise, iOS/iPadOS, macOS и Windows.
 
 ## <a name="available-platforms"></a>Доступные платформы
 

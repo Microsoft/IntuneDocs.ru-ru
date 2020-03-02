@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2daa7428cf8677f9e1a2b11db2b3ce65e2df8bc4
-ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
+ms.openlocfilehash: f2baf60fed2c6010e5ae0784cda166ac4fabfd57
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "76755006"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77511741"
 ---
 # <a name="add-ios-store-apps-to-microsoft-intune"></a>Добавление в Microsoft Intune приложений из магазина iOS
 
@@ -32,11 +32,11 @@ ms.locfileid: "76755006"
 В этой статье рассказывается, как добавлять в Microsoft Intune приложения из магазина iOS. Приложения из магазина iOS — это приложения, которые Intune устанавливает на устройствах пользователей. Пользователь является сотрудником вашей компании. Приложения из магазина iOS обновляются автоматически.
 
 >[!NOTE]
->Пользователи устройств iOS могут удалять некоторые встроенные приложения iOS, такие как Акции или Карты, и с помощью Intune восстановить их на устройствах невозможно. Чтобы восстановить эти приложения, пользователи должны зайти в App Store и установить их вручную.
+>Пользователи устройств iOS/iPadOS могут удалять некоторые встроенные приложения iOS/iPadOS, такие как Акции или Карты, и с помощью Intune восстанавливать их на устройствах невозможно. Чтобы восстановить эти приложения, пользователи должны зайти в App Store и установить их вручную.
 
 ## <a name="before-you-start"></a>Перед началом работы
 
-В Intune можно назначить только приложения, которые предоставляются бесплатно в App Store. Если вы хотите назначить платные приложения, мы советуем использовать [программу iOS Volume Purchase Program](vpp-apps-ios.md).
+В Intune можно назначить только приложения, которые предоставляются бесплатно в App Store. Если вы хотите назначить платные приложения с помощью Intune, мы советуем использовать [программу iOS/iPadOS Volume Purchase Program](vpp-apps-ios.md).
 
 >[!NOTE]
 >Рекомендуемые при работе с Microsoft Intune браузеры — Chrome и Microsoft Edge.

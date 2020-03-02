@@ -1,6 +1,6 @@
 ---
-title: Приложения iOS с политиками защиты приложений
-description: В этой статье описывается, что происходит при управлении приложением iOS с помощью политик защиты приложений.
+title: Приложения iOS/iPadOS с политиками защиты приложений
+description: В этой статье описывается, что происходит при управлении приложением iOS/iPadOS с помощью политик защиты приложений.
 keywords: ''
 author: lenewsad
 ms.author: lanewsad
@@ -17,14 +17,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 165ce160339647e396b9cfc3a8374f21c77665f8
-ms.sourcegitcommit: f9dc50642efa8656054ef67f9335b9b46b655f93
+ms.openlocfilehash: c854811a9deb938613af872f3cf86244ab9121b3
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "75606627"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514665"
 ---
-# <a name="what-to-expect-when-your-ios-app-is-managed-by-app-protection-policies"></a>Что происходит при управлении приложением iOS с помощью политик защиты приложений
+# <a name="what-to-expect-when-your-iosipados-app-is-managed-by-app-protection-policies"></a>Что происходит при управлении приложением iOS/iPadOS с помощью политик защиты приложений
 
 Политики защиты приложений Intune применяются к приложениям, которые используются для работы или учебы. Это означает, что когда сотрудники и учащиеся используют приложения в личных целях, они могут не заметить никакой разницы в их работе. Однако при применении в рабочих или учебных целях пользователи могут получать запросы на принятие решений по учетным записям, обновление параметров или обращаться за помощью. Из этой статьи вы узнаете о механизме взаимодействия с пользователями, которые пытаются получить доступ к приложениям, защищенным Intune, и использовать их.  
 
@@ -34,7 +34,7 @@ ms.locfileid: "75606627"
 
 <!--- The following screenshot from the Skype app illustrates this restart request: --->
 
-<!---  ![Screenshot of the iOS device showing PIN prompt](./media/end-user-mam-apps-ios/iOS_AppPINPrompt.png) --->
+<!---  ![Screenshot of the iOS/iPadOS device showing PIN prompt](./media/end-user-mam-apps-ios/iOS_AppPINPrompt.png) --->
 
 Если устройство **зарегистрировано для управления в Intune**, пользователь получает сообщение о том, что приложение теперь является управляемым.
 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5092fa37f0bf6bd1320fa06fa58ac5e36f55aa3c
-ms.sourcegitcommit: a7b479c84b3af5b85528db676594bdb3a1ff6ec6
+ms.openlocfilehash: 63fa9f461fc9884d8c21e40cb4b5e3831f3b4b03
+ms.sourcegitcommit: 47c9af81c385c7e893fe5a85eb79cf08e69e6831
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74410188"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576520"
 ---
 # <a name="use-certificates-for-authentication-in-microsoft-intune"></a>Использование сертификатов для проверки подлинности в Microsoft Intune
 
@@ -38,7 +38,7 @@ ms.locfileid: "74410188"
 
 Чтобы развернуть эти сертификаты, создайте и назначьте профили сертификатов для устройств.
 
-Каждый отдельный профиль сертификата, созданный вами, поддерживает одну платформу. Например, если вы используете сертификаты PKCS, вы создадите профиль сертификата PKCS для Android и отдельный профиль сертификата PKCS для iOS. Если вы также используете сертификаты SCEP для этих двух платформ, вы создадите профиль сертификата SCEP для Android, а другой — для iOS.
+Каждый отдельный профиль сертификата, созданный вами, поддерживает одну платформу. Например, если вы используете сертификаты PKCS, вы создадите профиль сертификата PKCS для Android и отдельный профиль сертификата PKCS для iOS/iPadOS. Если вы также используете сертификаты SCEP для этих двух платформ, вы создадите профиль сертификата SCEP для Android, а другой — для iOS/iPadOS.
 
 ### <a name="general-considerations-when-you-use-a-microsoft-certification-authority"></a>Общие рекомендации, которые следует учитывать при использовании центра сертификации Майкрософт
 
@@ -83,9 +83,9 @@ ms.locfileid: "74410188"
 | Android для бизнеса <br> Полностью управляемые устройства (владелец устройства)   | ![Поддерживается](./media/certificates-configure/green-check.png) |   | ![Поддерживается](./media/certificates-configure/green-check.png) |   |
 | Android для бизнеса <br> Выделенное устройство (владелец устройства)   | ![Поддерживается](./media/certificates-configure/green-check.png)  |   | ![Поддерживается](./media/certificates-configure/green-check.png)  |   |
 | Android для бизнеса <br> — Рабочий профиль    | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
-| iOS                   | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
-| macOS                 | ![Поддерживается](./media/certificates-configure/green-check.png) |  ![Поддерживается](./media/certificates-configure/green-check.png) |![Поддерживается](./media/certificates-configure/green-check.png)|![Поддерживается](./media/certificates-configure/green-check.png)|
-| Windows Phone 8.1     |![Поддерживается](./media/certificates-configure/green-check.png)  |  | ![Поддерживается](./media/certificates-configure/green-check.png)| ![Поддерживается](./media/certificates-configure/green-check.png) |
+| iOS/iPadOS                   | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
+| MacOS                 | ![Поддерживается](./media/certificates-configure/green-check.png) |  ![Поддерживается](./media/certificates-configure/green-check.png) |![Поддерживается](./media/certificates-configure/green-check.png)|![Поддерживается](./media/certificates-configure/green-check.png)|
+| Windows Phone 8.1     |![Поддерживается](./media/certificates-configure/green-check.png)  |  | ![Поддерживается](./media/certificates-configure/green-check.png)| ![Поддерживается](./media/certificates-configure/green-check.png) |
 | Windows 8.1 и более поздние версии |![Поддерживается](./media/certificates-configure/green-check.png)  |  |![Поддерживается](./media/certificates-configure/green-check.png) |   |
 | Windows 10 и более поздней версии  | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) | ![Поддерживается](./media/certificates-configure/green-check.png) |
 

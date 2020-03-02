@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 62ba66469dfff004c3cd6a60284ec7466e8b9f00
-ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
+ms.openlocfilehash: 41a46bd400c5901f0352709f6057bddac262ff9e
+ms.sourcegitcommit: 29f3ba071c9348686d3ad6f3b8864d8557e05b97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77415510"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609378"
 ---
 # <a name="remove-devices-by-using-wipe-retire-or-manually-unenrolling-the-device"></a>Удаление устройств с помощью очистки, прекращения использования или ручной отмены регистрации устройства
 
@@ -47,7 +47,7 @@ ms.locfileid: "77415510"
 
 Параметр **Retain enrollment state and user account** (Сохранить состояние регистрации и учетную запись пользователя) доступен только для Windows 10 версии 1709 или более поздних версий.
 
-Параметр **Выполнить защищенную очистку** гарантирует, что очистку невозможно обойти, отключив устройство. Защищенная очистка будет пытаться сбросить устройство до успешного завершения. В некоторых конфигурациях это действие может привести к невозможности перезагрузки устройства.
+Параметр **Выполнить защищенную очистку** гарантирует, что очистку невозможно обойти, отключив устройство. Защищенная очистка будет пытаться сбросить устройство до успешного завершения. В некоторых конфигурациях это действие может привести к [невозможности перезагрузки](troubleshoot-device-actions.md#wipe-action) устройства.
 
 Политики MDM повторно применяются при следующем подключении устройства к Intune.
 
@@ -197,7 +197,10 @@ ms.locfileid: "77415510"
 
     ![Снимок экрана в процессе переназначения Apple](./media/devices-wipe/apple-reassign.png)
 
-## <a name="fresh-start"></a>С чистого листа
+## <a name="device-states"></a>Состояния устройств
+Описание состояний устройств см. в разделе [Коллекция managementStates](https://docs.microsoft.com/intune/developer/intune-data-warehouse-collections.md#managementstates).
+
+## <a name="fresh-start"></a>Чистый запуск
 
 Применимо для устройств с Windows 10 Дополнительные сведения: [С чистого листа](device-fresh-start.md).
 

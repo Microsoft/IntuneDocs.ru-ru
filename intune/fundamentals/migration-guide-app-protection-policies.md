@@ -17,12 +17,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8c0571eb2a369e440b3c7732b6d55ba05ace2c34
-ms.sourcegitcommit: 637375a390b6e34f9c4415c77b99fe2980bbf554
+ms.openlocfilehash: 183a1dc7083aa9b427df225297fb7c393939220f
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75839361"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515056"
 ---
 # <a name="configure-app-protection-policies-optional"></a>Настройка политик защиты приложений (необязательно)
 
@@ -38,7 +38,7 @@ ms.locfileid: "75839361"
 
 ## <a name="app-protection-policies-with-lob-apps"></a>Политики защиты приложения с бизнес-приложениями
 
-Политики защиты мобильных приложений можно также применять к бизнес-приложениям, используя [пакет SDK для приложений Microsoft Intune](../developer/app-sdk-get-started.md) или средства упаковки приложений Microsoft Intune на платформах iOS и Android. Дополнительные сведения см. в статьях [Инструмент упаковки приложений для iOS](../developer/app-wrapper-prepare-ios.md) и [Инструмент упаковки приложений для Android](./../developer/app-wrapper-prepare-android.md). Также см. статью [Подготовка бизнес-приложений для защиты приложений](../developer/apps-prepare-mobile-application-management.md).
+Политики защиты мобильных приложений можно также применять к бизнес-приложениям, используя [пакет SDK для приложений Microsoft Intune](../developer/app-sdk-get-started.md) или средства упаковки приложений Microsoft Intune на платформах iOS/iPadOS и Android. Дополнительные сведения см. в статьях [Инструмент упаковки приложений для iOS](../developer/app-wrapper-prepare-ios.md) и [Инструмент упаковки приложений для Android](./../developer/app-wrapper-prepare-android.md). Также см. статью [Подготовка бизнес-приложений для защиты приложений](../developer/apps-prepare-mobile-application-management.md).
 
 ## <a name="how-do-app-protection-policies-help-during-migration"></a>Как политики защиты приложений помогают во время миграции?
 

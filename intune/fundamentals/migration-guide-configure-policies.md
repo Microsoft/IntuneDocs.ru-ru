@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 191be009f8d9e6fc448126834ef48f0bc6e2edc4
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: c8e4671790b72583219f1df64a0ef3491d707ea7
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72505348"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515039"
 ---
 # <a name="configure-device-compliance-and-app-management-policies-when-migrating-to-microsoft-intune"></a>Настройка политик соответствия устройств и управления приложениями во время миграции в Microsoft Intune
 
@@ -60,11 +60,11 @@ ms.locfileid: "72505348"
 
 Вам нужно создать профиль конфигурации устройства, чтобы применить параметры уровня устройства, например отключение камеры, магазин приложений, настройка режима использования одного приложения, начальный экран и т. д. Дополнительные сведения о [профилях устройств](../configuration/device-profiles.md).
 
-#### <a name="directly-import-ios-configuration-profiles-optional"></a>Прямой импорт профилей конфигурации iOS (необязательно)
+#### <a name="directly-import-iosipados-configuration-profiles-optional"></a>Прямой импорт профилей конфигурации iOS/iPadOS (необязательно)
 
 - **Профили Apple Configurator в iOS (iOS 7.1 и более поздних версий).** Если существующее решение MDM использует профили Apple Configurator (файлы .mobileconfig), Intune может импортировать их напрямую как пользовательские политики конфигурации.
 
-- **Политики конфигурации мобильных приложений iOS.** Если в имеющемся решении MDM используются политики конфигурации мобильных приложений iOS, Intune может импортировать их напрямую при условии соответствия формату XML, заданному в списках свойств Apple.
+- **Политики конфигурации мобильных приложений iOS.** Если в имеющемся решении MDM используются политики конфигурации мобильных приложений iOS/iPadOS, Intune может импортировать их напрямую при условии соответствия формату XML, заданному в списках свойств Apple.
 
 - Узнайте, как можно добавить пользовательскую политику для [iOS](../configuration/custom-settings-ios.md).
 

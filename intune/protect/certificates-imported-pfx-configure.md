@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 01/10/2020
+ms.date: 02/21/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4db1a1a74c1a19f310aba0f1c10ed5d01869073f
-ms.sourcegitcommit: 576b9528629981e87e775fac146932e502f07a74
+ms.openlocfilehash: 02fa3acdaf0dc450afee97dfaaf5870166013356
+ms.sourcegitcommit: 5881979c45fc973cba382413eaa193d369b8dcf6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77258136"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77569529"
 ---
 # <a name="configure-and-use-imported-pkcs-certificates-with-intune"></a>Настройка и использование импортированных сертификатов PKCS в Intune
 
@@ -31,6 +31,17 @@ ms.locfileid: "77258136"
 Шифрование S/MIME — это сложная задача, так как электронная почта шифруется с помощью определенного сертификата. Необходимо иметь закрытый ключ сертификата, с помощью которого было зашифровано электронное письмо на целевом устройстве, чтобы это письмо можно было расшифровать. Сертификаты шифрования регулярно обновляются. Это означает, что вам может потребоваться журнал шифрования на всех устройствах для возможности чтения старых электронных сообщений.  Хотя один и тот же сертификат нужно использовать на разных устройствах, это нельзя делать с помощью профилей сертификатов [SCEP](certificates-scep-configure.md) или [PKCS](certficates-pfx-configure.md), так как соответствующие механизмы доставки сертификатов передают уникальный сертификат на каждое устройство.
 
 См. сведения об [использовании S/MIME с Intune](certificates-s-mime-encryption-sign.md).
+
+## <a name="supported-platforms"></a>Поддерживаемые платформы
+
+Intune поддерживает импорт сертификатов PFX для следующих платформ:
+
+- Android — администратор устройств
+- Android Enterprise — полностью управляемая среда
+- Android Enterprise — рабочий профиль
+- iOS
+- Mac
+- быть под управлением ОС Windows 10;
 
 ## <a name="requirements"></a>Requirements (Требования)
 
@@ -49,6 +60,8 @@ ms.locfileid: "77258136"
 - **Windows Server**:
 
   Используйте Windows Server для размещения соединителя сертификатов PFX для Microsoft Intune.  Соединитель используется для обработки запросов на получение сертификатов, импортированных в Intune.
+  
+  Для соединителя требуется доступ к тем же портам, что и для управляемых устройств, как указано в [содержимом конечной точки устройства](https://docs.microsoft.com/intune/fundamentals/intune-endpoints#access-for-managed-devices).
 
   В Intune поддерживается установка *Microsoft Intune Certificate Connector* и *соединителя сертификатов PFX для Microsoft Intune* на одном сервере.
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3f67a08ef3cbfae4a801333e5f8ffb5469e723ed
-ms.sourcegitcommit: ecaff388038fb800f2e646f8efcf8f3b1e2fd1b1
+ms.openlocfilehash: 65a13c2690f08c2244f31854556a88b6301c6ac5
+ms.sourcegitcommit: 47c9af81c385c7e893fe5a85eb79cf08e69e6831
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77438061"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576015"
 ---
 # <a name="disable-activation-lock-on-supervised-iosipados-devices-with-intune"></a>Отключение Блокировки активации на защищенных устройствах iOS и iPadOS с помощью Intune
 
@@ -63,7 +63,7 @@ Intune может запрашивать состояние Блокировки
 Чтобы отключить блокировку активации на устройствах, ее необходимо включить, выполнив следующие инструкции.
 
 1. Настройте профиль ограниченного использования для iOS и iPadOS, используя информацию из раздела [Настройка параметров ограниченного использования устройства](/intune-azure/configure-devices/how-to-configure-device-restrictions).
-2. В разделе [настройки параметров ограниченного использования устройств для iOS](../configuration/device-restrictions-ios.md) на вкладке **Общие** установите флажок **Блокировка активации**.
+2. В разделе [настройки параметров ограниченного использования устройств для iOS/iPadOS](../configuration/device-restrictions-ios.md) на вкладке **Общие** установите флажок **Блокировка активации**.
 3. Сохраните профиль и [назначьте его](../configuration/device-profile-assign.md) устройствам, на которых требуется реализовать управление отключением блокировки активации.
 
 

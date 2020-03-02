@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fdc704d1971dfcc46ee2c3f5550e201d7a8e89fb
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 1cdfc7d42d3bffe1abe21deddfe146af953b150a
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72505181"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514954"
 ---
 # <a name="implement-your-microsoft-intune-plan"></a>План внедрения Microsoft Intune
 
@@ -39,7 +39,7 @@ ms.locfileid: "72505181"
 
 - Подписка Office 365 (для приложений Office и приложений под управлением политики защиты приложений)
 
-- Сертификат APNs Apple (для включения управления платформой устройств iOS)
+- Сертификат APNs Apple (для включения управления платформой устройств iOS/iPadOS)
 
 - Azure AD Connect (для синхронизации службы каталогов)
 
@@ -88,7 +88,7 @@ ms.locfileid: "72505181"
 
 ### <a name="task-6-enable-device-platforms"></a>Задача 6. Включение платформ устройств
 
-По умолчанию большинство платформ устройств, кроме устройств Apple (iOS и Mac), включены. Прежде чем можно будет регистрировать устройства iOS в Intune и управлять ими, требуется включить эту платформу устройств. Для этого необходимо создать сертификат MDM Push и добавить его в Intune.
+По умолчанию большинство платформ устройств, кроме устройств Apple (iOS/iPadOS и Mac), включены. Прежде чем можно будет регистрировать устройства iOS/iPadOS в Intune и управлять ими, требуется включить эту платформу устройств. Для этого необходимо создать сертификат MDM Push и добавить его в Intune.
 
 - Дополнительные сведения о включение устройств Apple для регистрации см. [здесь](../enrollment/apple-mdm-push-certificate-get.md).
 
@@ -130,7 +130,7 @@ Intune поддерживает условный доступ к Exchange Online
 
 ### <a name="task-13-enroll-devices"></a>Задача 13. регистрации устройств;
 
-Intune поддерживает платформы настольных и мобильных устройств Windows, iOS, Mac OS, Android. Зарегистрируйте нужные платформы мобильных устройств с учетом требований и вариантов использования для развертывания Intune.
+Intune поддерживает платформы настольных и мобильных устройств Windows, iOS/iPadOS, Mac OS, Android. Зарегистрируйте нужные платформы мобильных устройств с учетом требований и вариантов использования для развертывания Intune.
 
 - Дополнительные сведения о том, [как зарегистрировать устройства](../enrollment/device-enrollment.md).
 

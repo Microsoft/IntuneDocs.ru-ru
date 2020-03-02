@@ -16,16 +16,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4d05e33dbc28707bc6f929be72ba4a77c2e0641c
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: 85aac54a81d81dc138dd12612db183aae839b72b
+ms.sourcegitcommit: 47c9af81c385c7e893fe5a85eb79cf08e69e6831
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75206063"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77575982"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
 
-Используйте в Intune сторонние центры сертификации (ЦС). Сторонние ЦС могут подготавливать мобильные устройства с новыми или продленными сертификатами, используя службу регистрации сертификатов для сетевых устройств (SCEP), и обеспечивать поддержку устройств Windows, iOS, Android и macOS.
+Используйте в Intune сторонние центры сертификации (ЦС). Сторонние ЦС могут подготавливать мобильные устройства с новыми или продленными сертификатами, используя службу регистрации сертификатов для сетевых устройств (SCEP), и обеспечивать поддержку устройств Windows, iOS/iPadOS, Android и macOS.
 
 Использование этой функции включает две части: API с открытым исходным кодом и задачи администратора Intune.
 

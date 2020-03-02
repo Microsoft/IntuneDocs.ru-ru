@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 24d0a8160d852a5a44f5df688b7e0bc230d56704
-ms.sourcegitcommit: c7c6be3833d9a63d43f31d598b555b49b33cf5cb
+ms.openlocfilehash: c454ae6184f4d2a7c3c31f3c61d2cf4331ac187c
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "76966391"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514104"
 ---
 # <a name="configure-infrastructure-to-support-scep-with-intune"></a>Настройка инфраструктуры для поддержки SCEP с помощью Intune
 
@@ -148,7 +148,7 @@ Intune поддерживает использование протокола SC
        > [!IMPORTANT]
        > Добавляйте только необходимые политики приложений. Согласуйте выбранные параметры с администраторами безопасности.
 
-     - Для шаблонов сертификатов iOS и macOS также измените параметр **Использование ключей** и снимите флажок **Подпись подтверждает подлинность**.
+     - Для шаблонов сертификатов iOS/iPadOS и macOS также измените параметр **Использование ключей** и снимите флажок **Подпись подтверждает подлинность**.
 
      ![Шаблон, вкладка "Расширения"](./media/certificates-scep-configure/scep-ndes-extensions.jpg)  
 
@@ -217,7 +217,7 @@ Intune поддерживает использование протокола SC
 По умолчанию в Intune используется значение, настроенное в шаблоне. Но в настройках ЦС вы можете разрешить инициатору запроса вводить другое значение, которое можно затем задать в консоли Intune.
 
 > [!IMPORTANT]
-> Для iOS и macOS всегда используйте значение, заданное в шаблоне.
+> Для iOS/iPadOS и macOS всегда используйте значение, заданное в шаблоне.
 
 #### <a name="to-configure-a-value-that-can-be-set-from-within-the-intune-console"></a>Настройка значения, которое может быть задано в консоли Intune
 

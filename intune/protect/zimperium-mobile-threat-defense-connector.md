@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b4ff350bd8c1c16eedd30a6b7af4f3927bce3c3e
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 9d0fe5634e5af6ef4c6f19e067131f151733c0b5
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508751"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515243"
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "72508751"
 
 ## <a name="how-do-intune-and-zimperium-help-protect-your-company-resources"></a>Как Intune и Zimperium помогают защитить ресурсы вашей организации?
 
-Мобильное приложение Zimperium для Android или iOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии), и отправляет их в облачную службу Zimperium для оценки риска в отношении угроз для мобильного устройства.
+Мобильное приложение Zimperium для Android или iOS/iPadOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии), и отправляет их в облачную службу Zimperium для оценки риска в отношении угроз для мобильного устройства.
 
 Политика соответствия устройств Intune включает правило для защиты мобильных устройств от угроз Zimperium, основанное на оценке рисков Zimperium. При включении этого правила Intune оценивает соответствие устройства заданной политике. Если устройство определяется как несоответствующее, его доступ к таким ресурсам, как Exchange Online и SharePoint Online, блокируется. Пользователи заблокированных устройств получают от мобильного приложения Zimperium рекомендации по устранению проблемы и восстановлению доступа к корпоративным ресурсам.
 
@@ -59,7 +59,7 @@ ms.locfileid: "72508751"
 
 ![Схематическое изображение предоставления доступа после устранения угрозы](./media/zimperium-mobile-threat-defense-connector/maliciousapps_unblocked_Zimperium.png)
 
-### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
+### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основе угроз для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и защита доступа к сетям Wi-Fi на основе рисков для устройств.
 
@@ -71,7 +71,7 @@ ms.locfileid: "72508751"
 
 ![Доступ предоставляется после устранения угрозы](./media/zimperium-mobile-threat-defense-connector/network_wifi_unblocked_Zimperium.png)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 

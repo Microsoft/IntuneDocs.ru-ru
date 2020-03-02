@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/21/2019
+ms.date: 02/24/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -16,12 +16,12 @@ ms.reviewer: shpate
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cbf82c0bef88e4a6d0e790f4b0ecdf73d2731d5d
-ms.sourcegitcommit: 9bb1bcd9f1bdd53b470073da956bbd8b0935dfbc
+ms.openlocfilehash: 3d8ee4ec6a5bcb29a51b68cff7b840823b678636
+ms.sourcegitcommit: 5881979c45fc973cba382413eaa193d369b8dcf6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75556408"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77569291"
 ---
 # <a name="monitor-security-baseline-and-profiles-in-microsoft-intune"></a>Мониторинг базовых показателей безопасности и профилей в Microsoft Intune
 
@@ -106,6 +106,18 @@ ms.locfileid: "75556408"
 
    ![Просмотр различных параметров мониторинга для профиля базовых показателей безопасности](./media/security-baselines-monitor/monitor-status-options.png)
 
+## <a name="view-endpoint-security-configurations-per-device"></a>Просмотр конфигурации безопасности конечных точек на устройствах
+
+Просмотр сведений о конфигурациях безопасности, применяемых к отдельному устройству, чтобы изолировать неправильно настроенные параметры.
+
+1. Войдите в [Центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+
+2. Щелкните **Устройства** > **Все устройства** и выберите устройство, регистрацию которого вы хотите просмотреть.
+
+3. В категории *Монитор* выберите **Конфигурация безопасности конечных точек**, чтобы просмотреть список конфигураций безопасности, которые применяются к этому устройству.
+
+4. Можно выбрать конфигурацию безопасности конечных точек для детализации и просмотреть дополнительные сведения об оценке этой конфигурации безопасности на устройстве.
+
 ## <a name="troubleshoot-using-per-setting-status"></a>Устранение неполадок с помощью состояния для отдельных параметров
 
 Вы развернули базовые показатели безопасности, но состояние развертывания отображает ошибку. Следующие шаги дают вам некоторые рекомендации по устранению ошибки.
@@ -135,6 +147,7 @@ ms.locfileid: "75556408"
 Статья [Diagnose MDM failures in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10) (Диагностика сбоев MDM в Windows 10) предоставляет дополнительные сведения об этом встроенном отчете.
 
 > [!TIP]
+>
 > - Некоторые параметры также перечислены в GUID. Вы можете искать этот GUID в локальном реестре (regedit) для любых установленных значений.
 > - Журналы просмотра событий могут также содержать некоторую информацию об ошибках в проблемной настройке (**Просмотр событий** > **Журналы приложений и служб** > **Microsoft** > **Windows** > **DeviceManagement-Enterprise-Diagnostics-Provider** > **Администратор**).
 

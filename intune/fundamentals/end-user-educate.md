@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0c959102383f44eb35e1a923f39325007c6624b5
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 94c52257072bc713cfd3b7a44f342d5d9a4ba2f8
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72502893"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514682"
 ---
 # <a name="how-to-educate-your-end-users-about-microsoft-intune"></a>Инструкции по использованию Microsoft Intune для конечных пользователей
 
@@ -68,8 +68,8 @@ __Какие неудобства Intune может доставить поль�
   * [Получение приложений пользователями Android](end-user-apps-android.md)
 
 * **iOS**
-  * [Использование устройства с iOS с Intune](https://docs.microsoft.com/intune-user-help/using-your-ios-device-with-intune)
-  * [Получение приложений пользователями iOS](end-user-apps-ios.md)
+  * [Использование устройства с iOS/iPadOS с Intune](https://docs.microsoft.com/intune-user-help/using-your-ios-device-with-intune)
+  * [Получение приложений пользователями iOS/iPadOS](end-user-apps-ios.md)
 
 * **Windows**
   * [Использование устройства с Windows с Intune](https://docs.microsoft.com/intune-user-help/using-your-windows-device-with-intune)

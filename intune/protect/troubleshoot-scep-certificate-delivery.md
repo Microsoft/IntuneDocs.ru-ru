@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 77be59d126dc7e73bee468ca938938c6bb1b2e1a
-ms.sourcegitcommit: c46b0c2d4507be6a2786a4ea06009b2d5aafef85
+ms.openlocfilehash: 40075ad3c90f9ce5131d88780d15eec5c258e276
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76915880"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515260"
 ---
 # <a name="troubleshoot-the-delivery-of-certificates-provisioned-by-scep-to-devices-in-microsoft-intune"></a>Устранение неполадок при доставке сертификатов, подготовленных SCEP, на устройства в Microsoft Intune
 
@@ -73,9 +73,9 @@ ms.locfileid: "76915880"
 2018-02-27T05:20:15.3520000    INFO    Event     com.microsoft.omadm.platforms.android.certmgr.state.NativeScepCertInstallStateMachine    18327       21    SCEP cert 'ModelName=AC_51…%2FLogicalName_39907…;Hash=1677525787' state changed from CERT_ACCESS_REQUESTED to CERT_ACCESS_GRANTED
 ```
 
-### <a name="ios-and-ipados"></a>iOS и iPadOS
+### <a name="iosipados"></a>iOS/iPadOS
 
-На устройстве iOS или iPadOS можно просмотреть сертификат в профиле управления устройствами. Изучите сведения об установленных сертификатах.
+На устройстве iOS/iPadOS можно просмотреть сертификат в профиле управления устройствами. Изучите сведения об установленных сертификатах.
 
 ![Сертификат iOS](../protect/media/troubleshoot-scep-certificate-delivery/ios-certificate.png)
 
@@ -108,7 +108,7 @@ Default 18:30:57.320616 -0500 profiled Profile \'93www.windowsintune.com.SCEP.Mo
 
 Чтобы устранить эту проблему, проверьте ошибки, зарегистрированные в журнале OMA DM.
 
-### <a name="ios-and-ipados"></a>iOS и iPadOS
+### <a name="iosipados"></a>iOS/iPadOS
 
 Чтобы устранить эту проблему, проверьте ошибки, зарегистрированные в журнале отладки устройств.
 

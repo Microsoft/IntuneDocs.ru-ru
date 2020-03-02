@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 01/28/2020
+ms.date: 02/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c9b56ba1515608afb6c2a0d151f5412711d49e57
-ms.sourcegitcommit: 5ad0ce27a30ee3ef3beefc46d2ee49db6ec0cbe3
+ms.openlocfilehash: b83367bb2f1d3622a1fc4e11eedd88f3f26ee8dd
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76886721"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77510611"
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key-in-intune"></a>Создание профиля Wi-Fi с общим ключом в Intune с помощью пользовательского профиля устройства
 
@@ -44,7 +44,7 @@ ms.locfileid: "76886721"
 
 - Возможно, будет проще скопировать код с компьютера, подключенного к этой сети, как описано ниже в этой статье.
 - Чтобы добавить несколько сетей и ключи, можно добавить дополнительные параметры OMA-URI.
-- Чтобы настроить профиль для устройств iOS, используйте Apple Configurator на компьютере Mac.
+- Чтобы настроить профиль для устройств iOS/iPadOS, используйте Apple Configurator на компьютере Mac.
 - PSK требуется строка из 64 шестнадцатеричных цифр или парольная фраза из 8–63 печатных символов ASCII. Некоторые символы, например звездочка (*), не поддерживаются.
 
 ## <a name="create-a-custom-profile"></a>Создание настраиваемого профиля

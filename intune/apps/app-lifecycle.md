@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: apps; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 569906cea8467d568d302f4e44b26c3394213b62
-ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
+ms.openlocfilehash: 670e5033ddf2a04cd5bd87040d85eef764dca519
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77414966"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77512302"
 ---
 # <a name="overview-of-the-app-lifecycle-in-microsoft-intune"></a>Общие сведения о жизненном цикле приложений в Microsoft Intune
 
@@ -42,7 +42,7 @@ ms.locfileid: "77414966"
 
 В рамках жизненного цикла приложений регулярно выходят новых версий приложений. Intune предоставляет инструменты, сильно упрощающие [обновление развернутых приложений](apps-add.md) до более новой версии. Кроме того, вы можете настроить дополнительные функциональные возможности для некоторых приложений.
 
-- В [политиках конфигурации приложений iOS](app-configuration-policies-use-ios.md) указываются параметры для совместимых приложений iOS и iPadOS, используемые при работе приложения. Например, приложение может потребовать задания определенных параметров фирменной символики или ввода имени сервера, к которому оно должно подключаться.
+- В [политиках конфигурации приложений iOS/iPadOS](app-configuration-policies-use-ios.md) указываются параметры для совместимых приложений iOS и iPadOS, используемые при работе приложения. Например, приложение может потребовать задания определенных параметров фирменной символики или ввода имени сервера, к которому оно должно подключаться.
 - [Политики Managed Browser](app-configuration-managed-browser.md) используются для настройки параметров [Microsoft Edge](~/apps/apps-supported-intune-apps.md#microsoft-apps), который заменяет браузер устройств по умолчанию и позволяет ограничить веб-сайты, доступные пользователям.
 
 ## <a name="protect"></a>Защита

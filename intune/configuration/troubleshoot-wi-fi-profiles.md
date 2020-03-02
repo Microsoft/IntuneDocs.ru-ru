@@ -1,11 +1,11 @@
 ---
 title: Устранение неполадок с профилями устройств, подключенными к сети Wi-Fi, и просмотр их журналов в Microsoft Intune — Azure | Документация Майкрософт
-description: Обнаружение и устранение неполадок в профилях конфигурации устройств Android, iOS и Windows, подключенных к сети Wi-Fi, в Microsoft Intune. Сведения о просмотре журналов, распространенных проблемах и их возможных решениях.
+description: Обнаружение и устранение неполадок в профилях конфигурации устройств Android, iOS/iPadOS и Windows, подключенных к сети Wi-Fi, в Microsoft Intune. Сведения о просмотре журналов, распространенных проблемах и их возможных решениях.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 02/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,16 +16,16 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 70f471e7f4db7ddce89d8956474822375c684944
-ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
+ms.openlocfilehash: db663f96f1e4fe84c506395b98c52956069e5426
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75547976"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77512829"
 ---
 # <a name="troubleshoot-wi-fi-device-configuration-profiles-in-microsoft-intune"></a>Устранение неполадок в профилях конфигурации устройств, подключенных к сети Wi-Fi, в Microsoft Intune
 
-В Intune вы можете создавать профили конфигурации устройств, которые содержат параметры подключения к сети Wi-Fi. Эти параметры позволяют подключить пользовательские устройства Android, iOS и Windows к сети организации.
+В Intune вы можете создавать профили конфигурации устройств, которые содержат параметры подключения к сети Wi-Fi. Эти параметры позволяют подключить пользовательские устройства Android, iOS/iPadOS и Windows к сети организации.
 
 В этой статье описан успешно примененный к устройствам профиль Wi-Fi. Здесь также содержатся сведения о журнале, описание распространенных проблем и другая информация. Приведенные здесь сведения помогут вам устранить неполадки в профилях Wi-Fi.
 
@@ -100,25 +100,25 @@ ms.locfileid: "75547976"
 
 ```
 
-## <a name="ios"></a>iOS
+## <a name="iosipados"></a>iOS/iPadOS
 
 После установки на устройстве профиль Wi-Fi будет отображаться в разделе **Management Profile** (Профиль управления):
 
 > [!div class="mx-imgBorder"]
-> ![Профиль управления на устройстве iOS](./media/troubleshoot-wi-fi-profiles/ios-management-profile.png)
+> ![Профиль управления на устройстве iOS/iPadOS в Intune](./media/troubleshoot-wi-fi-profiles/ios-management-profile.png)
 
 > [!div class="mx-imgBorder"]
-> ![Подключение Wi-Fi, отображаемое как сеть Wi-Fi на устройстве iOS](./media/troubleshoot-wi-fi-profiles/ios-wifi-connection-in-management-profile.png)
+> ![Подключение Wi-Fi, отображаемое как сеть Wi-Fi на устройстве iOS/iPadOS в Intune](./media/troubleshoot-wi-fi-profiles/ios-wifi-connection-in-management-profile.png)
 
-### <a name="review-the-ios-console-and-device-logs"></a>Просмотр журналов консоли и устройств iOS
+### <a name="review-the-iosipados-console-and-device-logs"></a>Просмотр журналов консоли и устройств iOS/iPadOS
 
-На устройствах iOS журнал приложения Корпоративного портала не содержит сведений о профилях Wi-Fi. Подробные сведения об установке профилей Wi-Fi можно просмотреть в журналах консоли или устройства:
+На устройствах iOS/iPadOS журнал приложения Корпоративного портала не содержит сведений о профилях Wi-Fi. Подробные сведения об установке профилей Wi-Fi можно просмотреть в журналах консоли или устройства:
 
-1. Подключите устройство iOS к Mac. Выберите **Applications** (Приложения) > **Utilities** (Служебные программы) и откройте консольное приложение
+1. Подключите устройство iOS/iPadOS к Mac. Выберите **Applications** (Приложения) > **Utilities** (Служебные программы) и откройте консольное приложение
 2. В разделе **Action** (Действие) выберите **Include Info Messages** (Включить информационные сообщения) и **Include Debug Messages** (Включить сообщения об отладке):
 
     > [!div class="mx-imgBorder"]
-    > ![Параметры включения информационных сообщений и сообщений об отладке в консольном приложении iOS](./media/troubleshoot-wi-fi-profiles/ios-console-app-include-info-messages-debug-messages.png)
+    > ![Параметры включения информационных сообщений и сообщений об отладке в консольном приложении iOS/iPadOS](./media/troubleshoot-wi-fi-profiles/ios-console-app-include-info-messages-debug-messages.png)
 
 3. Воспроизведите сценарий и сохраните журналы в текстовом файле:
 
@@ -263,7 +263,7 @@ WiFiConfigurationServiceProvider: Node set value, type: (0x4), Result: (The oper
 
 - Дополнительные сведения о профилях Wi-Fi в Microsoft Intune см. в статьях о:
 
-  - добавлении параметров Wi-Fi для устройств под управлением [Android](wi-fi-settings-android.md), [iOS](wi-fi-settings-ios.md) и [Windows 10 и более поздних версий](wi-fi-settings-windows.md);
+  - добавлении параметров Wi-Fi для устройств под управлением [Android](wi-fi-settings-android.md), [iOS/iPadOS](wi-fi-settings-ios.md) и [Windows 10 и более поздних версий](wi-fi-settings-windows.md);
   - [настройке NDES для развертываний сертификатов SCEP в Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-How-to-configure-NDES-for-SCEP-certificate/ba-p/455125);
   - устранении неполадок [развертывания профиля сертификата SCEP](https://support.microsoft.com/help/4526725/troubleshooting-scep-profile-deployment-to-android-devices-in-intune) и [конфигурации NDES](https://support.microsoft.com/help/4459540/troubleshoot-ndes-configuration-for-use-with-intune).
 

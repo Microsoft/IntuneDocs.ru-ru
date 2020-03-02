@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 89b4516017d7ac8bf1e27134db6a67a0a86b17cb
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: 128f615a9551c31e6b0e0de4f1d269083874bf48
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75206080"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515124"
 ---
 # <a name="monitor-intune-device-compliance-policies"></a>Мониторинг политик соответствия устройств Intune
 
@@ -77,7 +77,7 @@ ms.locfileid: "75206080"
   - Устройства, которым не назначены политики соответствия требованиям и на которых нет триггера для проверки на соответствие.
   - Устройства, которые не синхронизировались с момента последнего обновления политики соответствия требованиям.
   - Устройства, не связанные с определенным пользователем, например:
-    - Устройства iOS, приобретенные по Программе регистрации устройств (DEP) Apple, без сходства пользователей.
+    - Устройства iOS/iPadOS, приобретенные по Программе регистрации устройств (DEP) Apple, без сопоставления пользователей и устройств
     - Киоск Android или выделенные устройства с Android для бизнеса.
   - Устройства, зарегистрированные с помощью учетной записи диспетчера регистрации устройств (DEM).
 

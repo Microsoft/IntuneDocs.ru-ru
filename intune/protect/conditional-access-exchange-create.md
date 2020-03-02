@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d04897d38c1b46f27fe86e72ecfa6856aa9eece2
-ms.sourcegitcommit: 139853f8d6ea61786da7056cfb9024a6459abd70
+ms.openlocfilehash: 4962b4c75460b129f9df7729b5a34485d8ee0760
+ms.sourcegitcommit: 47c9af81c385c7e893fe5a85eb79cf08e69e6831
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "76755687"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576068"
 ---
 # <a name="create-a-conditional-access-policy-for-exchange-on-premises-and-legacy-exchange-online-dedicated"></a>Создание политики условного доступа к локальной среде Exchange и устаревшей версии выделенной среды Exchange Online
 
@@ -63,12 +63,12 @@ ms.locfileid: "76755687"
 ### <a name="support-for-mobile-devices"></a>Поддержка мобильных устройств
 
 - Windows Phone 8.1 и более поздней версии
-- Собственное почтовое приложение в iOS
+- Собственное почтовое приложение в iOS/iPadOS.
 - Почтовые клиенты EAS, например Gmail на Android 4 или более поздней версии.
 - Почтовые клиенты EAS на **устройствах с рабочим профилем Android**. На устройствах с рабочим профилем Android поддерживаются только приложения **Gmail** и **Nine Work for Android Enterprise** в **рабочем профиле**. Чтобы условный доступ работал для рабочих профилей Android, необходимо развернуть профиль электронной почты для приложения Gmail или Nine Work for Android Enterprise, а также развернуть эти приложения в качестве обязательной установки.
 
 > [!NOTE]
-> Microsoft Outlook для Android и iOS не поддерживается при использовании локального соединителя Exchange. Если вы хотите использовать политики условного доступа Azure Active Directory и политики Защиты приложений Intune в Outlook для iOS и Android для локальных почтовых ящиков, см. руководство по [использованию гибридной современной проверки подлинности в Outlook для iOS и Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth).
+> Microsoft Outlook для Android и iOS/iPadOS не поддерживается при использовании локального соединителя Exchange. Если вы хотите использовать политики условного доступа Azure Active Directory и политики Защиты приложений Intune в Outlook для iOS/iPadOS и Android для локальных почтовых ящиков, см. руководство по [использованию гибридной современной проверки подлинности в Outlook для iOS/iPadOS и Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth).
 
 ### <a name="support-for-pcs"></a>Поддержка для ПК
 

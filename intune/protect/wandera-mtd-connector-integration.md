@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e565f40aac2a2b97f547a5b68a70a887d9e820ae
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: d90e3757ced90bea21e4033b6baa93bfa201b1f2
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75207474"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514223"
 ---
 # <a name="integrate-wandera-mobile-threat-protection-with-intune"></a>Интеграция решения Wandera для защиты мобильных приложений от угроз с Intune  
 
@@ -91,7 +91,7 @@ ms.locfileid: "75207474"
 Дополнительные сведения об этом процессе, предоставленные Wandera, можно найти в консоли Wandera [RADAR](https://radar.wandera.com/login). Перейдите к разделу **Settings** (Параметры) > **EMM Integration** (Интеграция EMM), выберите **App Push** (Принудительная отправка приложений), а затем выберите **Microsoft Intune**. На вкладке App Push (Принудительная отправка приложений) отобразятся инструкции, которые относятся к Intune.  
 
 ### <a name="add-the-wandera-apps"></a>Добавление приложений Wandera  
-Создайте клиентские приложения в Intune, чтобы развернуть приложение Wandera на устройствах Android и iOS. Инструкции и специальные сведения, касающиеся приложений Wandera, см. в статье о [добавлении приложений MTD](mtd-apps-ios-app-configuration-policy-add-assign.md).  
+Создайте клиентские приложения в Intune, чтобы развернуть приложение Wandera на устройствах Android и iOS/iPadOS. Инструкции и специальные сведения, касающиеся приложений Wandera, см. в статье о [добавлении приложений MTD](mtd-apps-ios-app-configuration-policy-add-assign.md).  
 
 Когда вы создадите приложения, вернитесь к этому руководству, чтобы создать группу синхронизации и назначить приложения.
 
@@ -105,14 +105,14 @@ ms.locfileid: "75207474"
 
    ![Настройка группы синхронизации](./media/wandera-mtd-connector-integration/configure-sync-group.png)
 
-3. Выберите **Участники** и назначьте группы с устройствами Android и iOS, которые нужно использовать с Wandera.
+3. Выберите **Участники** и назначьте группы с устройствами Android и iOS/iPadOS, которые нужно использовать с Wandera.
 
 4. Выберите **Создать**, чтобы сохранить группу.
 
 Дополнительные сведения см. в статье о [развертывании приложений](../apps/apps-deploy.md).
 
 ### <a name="assign-the-wandera-apps-to-the-synchronization-group"></a>Назначение приложений Wandera группе синхронизации  
-Выполните приведенные ниже инструкции для каждого приложения Wandera, созданного для iOS и Android.
+Выполните приведенные ниже инструкции для каждого приложения Wandera, созданного для iOS/iPadOS и Android.
 
 1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Щелкните **Приложения** > **Все приложения** и выберите приложение Wandera.
@@ -120,5 +120,5 @@ ms.locfileid: "75207474"
 4. В области **Добавление группы** для параметра *Тип назначения* выберите *Обязательное*.
 5. Последовательно выберите **Включенные группы** и **Выберите группы для включения**. Укажите группу, созданную для синхронизации с Wandera и щелкните **Выбрать** > **ОК** > **ОК**. Чтобы завершить назначение группы, нажмите кнопку **Сохранить**. 
 
-## <a name="next-steps"></a>Дальнейшие действия  
+## <a name="next-steps"></a>Дальнейшие шаги  
 Теперь интеграция настроена и можно приступать к настройке политик и расширенного условного доступа, а также просмотру отчетов в консоли администрирования Wandera. Дополнительные сведения об управлении и настройке Wandera см. в [руководстве по началу работы с центром поддержки](https://radar.wandera.com/?return_to=https://wandera.force.com/Customer/s/getting-started) в документации по Wandera. 

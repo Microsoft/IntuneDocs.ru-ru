@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6167c48dcfd6b29749dca8d0378ff31ca239b154
-ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
+ms.openlocfilehash: adca40b558a75d2c080fe453218f232a37b21daa
+ms.sourcegitcommit: cd90650c339795d44702e9dcd0b9679a7b438bb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77415359"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77473753"
 ---
 # <a name="automatically-enroll-iosipados-devices-with-apples-device-enrollment-program"></a>Автоматическая регистрация устройств iOS и iPadOS в рамках Программы регистрации устройств Apple
 
@@ -77,6 +77,9 @@ ms.locfileid: "77415359"
     ![Получение токена программы регистрации](./media/device-enrollment-program-enroll-ios/image01.png)
 
 2. Выберите **I agree** (Даю согласие), чтобы предоставить корпорации Майкрософт разрешение на отправку сведений о пользователях и устройствах в Apple.
+
+> [!NOTE]
+> Чтобы скачать сертификат открытого ключа Intune после шага 2, не закрывайте мастер и не переходите с этой страницы. Иначе загруженный сертификат будет недействительным, и вам потребуется повторить этот процесс. Если вы столкнулись с этой ситуацией, вы увидите, что кнопка "Создать" на вкладке "Просмотр и создание" неактивна, и завершить процесс невозможно.
 
    ![Снимок экрана с областью "Токен программы регистрации" в рабочей области сертификатов Apple для скачивания открытого ключа](./media/device-enrollment-program-enroll-ios/add-enrollment-program-token-pane.png)
 

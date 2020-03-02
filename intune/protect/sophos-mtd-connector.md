@@ -15,19 +15,19 @@ ms.technology: ''
 ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f41d5d1ec3e302a277fe5e6ff6af9d33a7e89517
-ms.sourcegitcommit: d21539e52631c589bfeaa182418390f66672736c
+ms.openlocfilehash: 7d17749353bc3904a3d99210a5d56531d9af9c28
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2020
-ms.locfileid: "75564923"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514818"
 ---
 # <a name="sophos-mobile-threat-defense-connector-with-intune"></a>Соединитель Sophos Mobile Threat Defense в Intune
 Вы можете управлять доступом с мобильных устройств к корпоративным ресурсам, используя условный доступ на основе оценки рисков. Такую возможность дает вам Sophos Mobile — решение Mobile Threat Defense (MTD), интегрируемое с Microsoft Intune. Оценка рисков основана на телеметрии, собираемой с устройств с запущенным приложением Sophos Mobile.
 Вы можете настроить политики условного доступа на основе оценки рисков Sophos Mobile, реализуемой с помощью политик соответствия устройств Intune. Эти политики также позволяют разрешать или блокировать доступ к корпоративным ресурсам с устройств, не соответствующих требованиям в зависимости от обнаруженных угроз.
 
 ## <a name="how-do-intune-and-sophos-mobile-help-protect-your-company-resources"></a>Как Intune и Sophos Mobile помогают защитить ресурсы вашей организации?
-Приложение Sophos Mobile для Android или iOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии), и отправляет их в облачную службу Sophos Mobile для оценки риска в отношении угроз для мобильного устройства.
+Приложение Sophos Mobile для Android или iOS/iPadOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии), и отправляет их в облачную службу Sophos Mobile для оценки риска в отношении угроз для мобильного устройства.
 Политика соответствия устройств Intune включает правило Sophos Mobile Threat Defense, основанное на оценке рисков Sophos Mobile. При включении этого правила Intune оценивает соответствие устройства заданной политике. Если устройство определяется как несоответствующее, его доступ к таким ресурсам, как Exchange Online и SharePoint Online, блокируется. Пользователи также получают от приложения Sophos Mobile, установленного на устройстве, рекомендации по устранению проблемы и восстановлению доступа к корпоративным ресурсам.  
 
 ## <a name="sample-scenarios"></a>Примеры сценариев

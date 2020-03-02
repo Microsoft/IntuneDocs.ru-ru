@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f0e2e2101706b9b9afa77553244a438a2299903b
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 67d9b5df39311d58571f875b8d41c16088010fad
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73414025"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514308"
 ---
 # <a name="common-ways-to-use-microsoft-intune"></a>Стандартные способы использования Microsoft Intune
 
@@ -35,7 +35,7 @@ ms.locfileid: "73414025"
 >Хотите узнать, как ИТ-отдел Майкрософт использует Intune, чтобы обеспечить доступ к корпоративным ресурсам с мобильных устройств, в то же время сохраняя корпоративные данные в безопасности? [Ознакомьтесь с этим техническим примером внедрения](https://www.microsoft.com/itshowcase/Article/Content/588), чтобы подробно узнать, как ИТ-отдел Майкрософт использует Intune и другие службы для управления идентификацией, устройствами, приложениями и данными.  
 
 >[!IMPORTANT]
->Мы стремимся обеспечить актуальность состояния мобильных устройств в свете недавних атак вредоносного ПО "Trident" на устройства с iOS. Поэтому мы опубликовали запись блога [Обеспечение актуальности мобильных устройств с помощью Microsoft Intune](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/26/ensuring-mobile-devices-are-up-to-date-using-microsoft-intune/). Она содержит сведения о различных способах защиты и обновления устройств с помощью Intune.
+>Мы стремимся обеспечить актуальность состояния мобильных устройств в свете недавних атак вредоносного ПО Trident на устройства с iOS/iPadOS. Поэтому мы опубликовали запись блога [Обеспечение актуальности мобильных устройств с помощью Microsoft Intune](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/26/ensuring-mobile-devices-are-up-to-date-using-microsoft-intune/). Она содержит сведения о различных способах защиты и обновления устройств с помощью Intune.
 
 ## <a name="protecting-your-on-premises-email-and-data-so-it-can-be-safely-accessed-by-mobile-devices"></a>Защита локальной электронной почты и данных для безопасного доступа с мобильных устройств
 

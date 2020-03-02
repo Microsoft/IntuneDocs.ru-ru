@@ -19,12 +19,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9b0bb0bd1f0df3aeb4185542d424bd3ffffe42cd
-ms.sourcegitcommit: 52475fcd8d05d2f6b858d780ebb3d88eaadb0849
+ms.openlocfilehash: 257b15879f6df5763c407904a2c2b46319d64fb7
+ms.sourcegitcommit: cd90650c339795d44702e9dcd0b9679a7b438bb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "76036537"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77473737"
 ---
 # <a name="tutorial-use-autopilot-to-enroll-windows-devices-in-intune"></a>Руководство. Использование Autopilot для регистрации устройств Windows в Intune
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 04a18befe73ce63f5619c3efc6def4189db9c8df
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: efdb1912fdbb2f28c6859fae4407116173daa99d
+ms.sourcegitcommit: 47c9af81c385c7e893fe5a85eb79cf08e69e6831
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74188483"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576288"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune
 
@@ -80,7 +80,7 @@ ms.locfileid: "74188483"
 
     2. Добавьте **Приложение Lookout for Work iOS** в качестве **встроенного клиентского приложения**.
 
-    3. Замените адрес **com.lookout.enterprise.yourcompanyname** на идентификатор пакета клиента, выбранный во время подписи пакета IPA.
+    3. Замените **com.lookout.enterprise.yourcompanyname** на идентификатор пакета клиента, выбранный при подписании IPA.
 
     4. Добавьте дополнительный URI перенаправления: **&lt;companyportal://code/>** , за которым указывается оригинальный URI перенаправления, закодированный как URL-адрес.
 
@@ -203,7 +203,7 @@ ms.locfileid: "74188483"
 
 ### <a name="pradeo-app-configuration-policy"></a>Политика конфигурации приложений Pradeo
 
-Pradeo не поддерживает политики конфигурации приложений на iOS.  Вместо этого, чтобы получить настроенное приложение, обратитесь в Pradeo для получения пользовательских файлов IPA или APK, настроенных с нужными вам параметрами.
+Pradeo не поддерживает политики конфигурации приложений на iOS/iPadOS.  Вместо этого, чтобы получить настроенное приложение, обратитесь в Pradeo для получения пользовательских файлов IPA или APK, настроенных с нужными вам параметрами.
 
 ### <a name="better-mobile-app-configuration-policy"></a>Политика конфигурации приложений Better Mobile
 

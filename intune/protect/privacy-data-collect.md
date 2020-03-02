@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e93e69b5cce2c54ae07410309b33870dd828f563
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: bd204271b9ae3e57e15a101647444913749f4109
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72509082"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514240"
 ---
 # <a name="data-collection-in-intune"></a>Сбор данных в Intune
 
@@ -60,7 +60,7 @@ ms.locfileid: "72509082"
   - ICCID
   - Номер телефона
 - Данные журнала аудита, включая сведения о следующих действиях:
-  - управление
+  - Управление
   - Создание
   - Обновление (изменение)
   - Удалить
@@ -112,7 +112,7 @@ ms.locfileid: "72509082"
   - Идентификатор учетной записи
   - Идентификатор устройства EAS
   - Идентификаторы для конкретной платформы
-  - Идентификатор AppleID для устройств iOS
+  - Идентификатор AppleID для устройств iOS/iPadOS
   - MAC-адрес для устройств Mac
   - Идентификатор Windows для устройств Windows
 - Информация об управляемом приложении

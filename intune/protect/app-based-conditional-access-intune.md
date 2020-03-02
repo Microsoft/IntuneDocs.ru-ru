@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f0b5e67c433f2d3633219650f48307dccae196e9
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: b9fe275be3f7eccee7f60dc27e5068e5b91ca93d
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73713280"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514155"
 ---
 # <a name="app-based-conditional-access-with-intune"></a>Условный доступ на основе приложений с помощью Intune
 
@@ -34,7 +34,7 @@ ms.locfileid: "73713280"
 > [!NOTE]
 > Под управляемым понимается приложение, к которому применены политики защиты приложений и которое может управляться в Intune.
 
-Вы можете заблокировать встроенные приложения электронной почты iOS и Android и разрешить доступ к Exchange Online только для приложения Microsoft Outlook. Кроме того, вы можете заблокировать доступ к SharePoint Online для приложений, к которым не применяются политики защиты приложений Intune.
+Вы можете заблокировать встроенные приложения электронной почты iOS/iPadOS и Android и разрешить доступ к Exchange Online только для приложения Microsoft Outlook. Кроме того, вы можете заблокировать доступ к SharePoint Online для приложений, к которым не применяются политики защиты приложений Intune.
 
 ## <a name="prerequisites"></a>Предварительные условия
 

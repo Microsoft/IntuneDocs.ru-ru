@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: be8fbb0bd96891eb3af3157deddfc325ebc5f2b9
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 884d7f5d4710b44c302598b3c34e704beace240a
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72508927"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515277"
 ---
 # <a name="symantec-endpoint-protection-mobile-connector"></a>Соединитель Symantec Endpoint Protection Mobile
 
@@ -41,7 +41,7 @@ ms.locfileid: "72508927"
 
 ## <a name="how-do-intune-and-sep-mobile-help-protect-your-company-resources"></a>Как Intune и SEP Mobile помогают защитить ресурсы вашей организации?
 
-Приложение SEP Mobile для Android или iOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройства и приложений (при наличии) и отправляет их в облачную службу Symantec для оценки риска мобильных угроз на этом устройстве.
+Приложение SEP Mobile для Android или iOS/iPadOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройства и приложений (при наличии) и отправляет их в облачную службу Symantec для оценки риска мобильных угроз на этом устройстве.
 
 Политика соответствия устройств Intune содержит правило для SEP Mobile, основанное на оценке рисков SEP Mobile. При включении этого правила Intune оценивает соответствие устройства заданной политике.
 
@@ -75,7 +75,7 @@ Intune поддерживает два режима интеграции с SEP 
 
 ![Изображение предоставления доступа после устранения угрозы в случае обнаружения вредоносных приложений](./media/skycure-mobile-threat-defense-connector/symantec-arch-2.png)
 
-### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
+### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основе угроз для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и защита доступа к сетям Wi-Fi на основе рисков для устройств.
 
@@ -87,7 +87,7 @@ Intune поддерживает два режима интеграции с SEP 
 
 ![Доступ предоставляется после устранения угрозы](./media/skycure-mobile-threat-defense-connector/symantec-arch-4.png)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 
@@ -121,7 +121,7 @@ Intune поддерживает два режима интеграции с SEP 
 
 - [Настройка интеграции SEP Mobile и Intune](skycure-mtd-connector-integration.md)
 
-- [Добавление и назначение приложений SEP Mobile, Microsoft Authenticator и политики настройки приложений iOS](mtd-apps-ios-app-configuration-policy-add-assign.md)
+- [Добавление и назначение приложений SEP Mobile, Microsoft Authenticator и политики настройки приложений iOS/iPadOS](mtd-apps-ios-app-configuration-policy-add-assign.md)
 
 - [Создание политики соответствия для устройств SEP Mobile в Intune](mtd-device-compliance-policy-create.md)
 

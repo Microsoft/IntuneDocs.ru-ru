@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 71ccea34694bde8ea80a779b36ef612fcefb1add
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 97177f91edea1205f6e8349ee1a7194d0f5300e5
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72510201"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514546"
 ---
 # <a name="how-is-intune-for-education-different-from-the-full-device-management-experience-in-intune"></a>Чем возможности Intune для образовательных учреждений отличаются от возможностей полной версии Intune для управления устройствами?
 
@@ -29,7 +29,7 @@ Intune для образовательных учреждений повышае
 
 ![Консоль Intune для образовательных учреждений сравнивается с консолью Intune.](./media/introduction-intune-education/intune-azure-vs-intuneEDU.png)
 
-Intune для образовательных учреждений позволяет управлять устройствами Windows 10 и iOS, используя все доступные в Intune возможности MDM. Полнофункциональный интерфейс управления позволяет управлять устройствами на платформах Windows, iOS и Android.  
+Intune для образовательных учреждений позволяет управлять устройствами Windows 10 и iOS/iPadOS, используя все доступные в Intune возможности MDM. Полнофункциональный интерфейс управления позволяет управлять устройствами на платформах Windows, iOS/iPadOS и Android.  
 
 Службу Intune для образовательных учреждений можно использовать саму по себе со [всеми возможностями управления устройствами, доступными в Intune](what-is-intune.md). Она также поддерживает остальные средства, доступные в [образовательных предложениях Майкрософт](https://microsoft.com/education), что позволяет без труда использовать Intune для образовательных учреждений с другими полезными средствами для обучения Майкрософт.  
 

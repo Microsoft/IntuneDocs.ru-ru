@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/05/2019
+ms.date: 02/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c8748639f0407de7b1bb83f646b7decf8c838766
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: 6dff94a9bfeb21f09b8a8c629e10ba562d7e642b
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75206675"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77511435"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -87,7 +87,7 @@ ms.locfileid: "75206675"
 
      Например, если вы выберете **iOS/iPadOS** в качестве платформы, параметры профиля будут выглядеть следующим образом:
 
-     ![Создайте профиль iOS в Intune](./media/device-profile-create/create-device-profile.png)
+     ![Создайте профиль iOS/iPadOS в Intune](./media/device-profile-create/create-device-profile.png)
 
 4. Когда закончите, нажмите **Добавить** > **OK**, чтобы сохранить изменения. Созданный вами профиль отобразится в списке.
 
@@ -171,10 +171,10 @@ Intune использует разные циклы обновления для 
   **Имя профиля**: "Административный шаблон — профиль конфигурации OneDrive для всех пользователей Windows 10".  
   **Описание профиля**: "Профиль административного шаблона OneDrive, который содержит минимальные и базовые параметры для всех пользователей Windows 10. Создан пользователем user@contoso.com, чтобы не позволять пользователям передавать данные организации в личные учетные записи OneDrive".
 
-  **Имя профиля**: "Профиль VPN для всех пользователей iOS".  
-  **Описание профиля**: "Профиль VPN, который содержит минимальные и базовые параметры для подключения к VPN Contoso для всех пользователей iOS. Создан пользователем user@contoso.com для автоматической проверки подлинности пользователями в VPN вместо запроса у них имени и пароля".
+  **Имя профиля**: Профиль VPN для всех пользователей iOS/iPadOS.  
+  **Описание профиля**: "Профиль VPN, который содержит минимальные и базовые параметры для подключения к VPN Contoso для всех пользователей iOS/iPadOS. Создан пользователем user@contoso.com для автоматической проверки подлинности пользователями в VPN вместо запроса у них имени и пароля".
 
-- Создайте профиль для конкретной задачи, например, настройка параметров Microsoft Edge, включение параметров антивирусной защиты Microsoft Defender, блокировка взломанных устройств iOS и т. д.
+- Создайте профиль для конкретной задачи, например настройка параметров Microsoft Edge, включение параметров антивирусной защиты Microsoft Defender, блокировка взломанных устройств iOS/iPadOS и т. д.
 
 - Создайте профили, которые применяются к определенным группам, таким как "Маркетинг", "Продажи", "ИТ-администраторы", либо профили по расположению или учебной системе.
 

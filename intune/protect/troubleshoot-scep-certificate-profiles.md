@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 38bc86b1b9ba85eb7885a0e00673e551821063c1
-ms.sourcegitcommit: 459b0ee01eb6e69cc0ce66d4c4b81d73f510f96d
+ms.openlocfilehash: 4496a5bbc6d5ee5134dc4e6a795494710ea6865d
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77034249"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515226"
 ---
 # <a name="overview-for-troubleshooting-scep-certificate-profiles-with-microsoft-intune"></a>Общие сведения об устранении неполадок профилей сертификатов SCEP с помощью Microsoft Intune
 
@@ -123,9 +123,9 @@ ms.locfileid: "77034249"
 
 ### <a name="logs-for-ios-and-ipados-devices"></a>Журналы для устройств iOS и iPadOS
 
-Для устройств под управлением iOS или iPadOS используются журналы отладки и **Xcode**, который работает на компьютере Mac:
+Для устройств под управлением iOS/iPadOS используются журналы отладки и **Xcode**, который работает на компьютере Mac:
 
-1. Подключите устройство iOS к Mac, а затем перейдите в раздел **Приложения** > **Служебные программы**, чтобы открыть консольное приложение. 
+1. Подключите устройство iOS/iPadOS к Mac, а затем перейдите в раздел **Приложения** > **Служебные программы**, чтобы открыть консольное приложение. 
 
 2. В разделе **Action** (Действие) выберите **Include Info Messages** (Включить информационные сообщения) и **Include Debug Messages** (Включить сообщения об отладке):
 

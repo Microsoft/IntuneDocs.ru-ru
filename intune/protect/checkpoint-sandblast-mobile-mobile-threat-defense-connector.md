@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c4cffafd4145ab536157ea55c732ac27bec29538
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 1b740ed1e16f60b15991f1aa450e623cd20b62ea
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73801605"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77515141"
 ---
 # <a name="check-point-sandblast-mobile-threat-defense-connector-with-intune"></a>Соединитель Check Point SandBlast Mobile Threat Defense для Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "73801605"
 
 ## <a name="how-do-intune-and-check-point-sandblast-mobile-help-protect-your-company-resources"></a>Как Intune и Check Point SandBlast Mobile помогают защитить ресурсы вашей организации?
 
-Мобильное приложение Check Point SandBlast Mobile для Android или iOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройства и приложений (при наличии) и отправляет их в облачную службу Check Point SandBlast для вычисления риска в отношении угроз для мобильного устройства.
+Мобильное приложение Check Point SandBlast Mobile для Android или iOS/iPadOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройства и приложений (при наличии) и отправляет их в облачную службу Check Point SandBlast для вычисления риска в отношении угроз для мобильного устройства.
 
 Политика соответствия устройств Intune включает правило Check Point SandBlast Mobile для защиты мобильных устройств от угроз, основанное на оценке рисков Check Point SandBlast. При включении этого правила Intune оценивает соответствие устройства заданной политике. Если устройство определяется как несоответствующее, его доступ к таким ресурсам, как Exchange Online и SharePoint Online, блокируется. Пользователи заблокированных устройств получают от мобильного приложения Check Point SandBlast Mobile рекомендации по устранению проблемы и восстановлению доступа к корпоративным ресурсам.
 
@@ -57,7 +57,7 @@ ms.locfileid: "73801605"
 
 ![Предоставлен доступ Check Point MTD](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-MTD-3.PNG)
 
-### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
+### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основе угроз для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и защита доступа к сетям Wi-Fi на основе рисков для устройств.
 
@@ -69,7 +69,7 @@ ms.locfileid: "73801605"
 
 ![Предоставлен доступ Check Point MTD к сети Wi-Fi](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-MTD-5.PNG)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 

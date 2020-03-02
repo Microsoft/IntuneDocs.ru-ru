@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/30/2020
+ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fa4510b95e1e84d9f94158833dac555daa33c690
-ms.sourcegitcommit: c46b0c2d4507be6a2786a4ea06009b2d5aafef85
+ms.openlocfilehash: 7251a2db0c36db9d01e51ca8fc62bd4e072d80e6
+ms.sourcegitcommit: 29f3ba071c9348686d3ad6f3b8864d8557e05b97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76912566"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609226"
 ---
 # <a name="windows-10-app-deployment-by-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
@@ -44,18 +44,19 @@ Microsoft Intune поддерживает различные типы прило
 
 Конкретные типы приложений поддерживаются на основе версии Windows 10, с которой работают пользователи. В следующей таблице представлены типы приложений и возможности поддержки Windows 10.
 
-| Тип приложения | Корневая | Профессиональная | бизнеса | Enterprise | Образование | Режим S | Hololense | SurfaceHub | WCOS | Мобильный телефон |
+| Тип приложения | Корневая | Профессиональная | бизнеса | Enterprise | Образование | Режим S | HoloLens<sup>1 | Surface Hub. | WCOS | Мобильный телефон |
 |----------------|------|-----|----------|------------|-----------|--------|-----------|------------|------|--------|
 |  MSI | Нет | Да | Да | Да | Да | Нет | Нет | Нет | Нет | Нет |
 | .IntuneWin | Нет | Да | Да | Да | Да | 19H2 + | Нет | Нет | Нет | Нет |
-| Office C2R | Нет | Да | Да | Да | Да | Нет | Нет | Нет | Нет | Нет |
+| Office C2R | Нет | Да | Да | Да | Да | RS4 + | Нет | Нет | Нет | Нет |
 | Бизнес-приложение: APPX/MSIX | Да | Да | Да | Да | Да | Да | Да | Да | Да | Да |
 | MSFB Offline | Да | Да | Да | Да | Да | Да | Да | Да | Да | Да |
-| MSFB Online | Да | Да | Да | Да | Да | Да | RS4 + | Да | Да | Да |
-| Веб-приложения | Да | Да | Да | Да | Да | Да | Да<sup>1 | Да<sup>1 | Да | Да |
+| MSFB Online | Да | Да | Да | Да | Да | Да | RS4 + | Нет | Да | Да |
+| Веб-приложения | Да | Да | Да | Да | Да | Да | Да<sup>2 | Да<sup>2 | Да | Да<sup>2 |
 | Ссылка на Магазин | Да | Да | Да | Да | Да | Да | Да | Да | Да | Да |
 
-<sup>1</sup> Запуск только с корпоративного портала.
+<sup>1</sup> Чтобы разблокировать управление приложениями, обновите устройство HoloLens до уровня [Holographic для бизнеса](../fundamentals/windows-holographic-for-business.md).<br />
+<sup>2</sup> Запуск только с Корпоративного портала.
 
 > [!NOTE]
 > Для всех типов приложений Windows требуется регистрация.

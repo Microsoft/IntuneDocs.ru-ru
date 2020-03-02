@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 46a23ca18e385fa085afb59a654290702465a0ce
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 57a1e1c9c8a03fae67f2a4a25b6b4f16a20a8ec7
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73414034"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514461"
 ---
 # <a name="overview-of-the-microsoft-intune-mobile-device-management-mdm-lifecycle"></a>Общие сведения о жизненном цикле системы управления мобильными устройствами (MDM) Microsoft Intune
 
@@ -30,7 +30,7 @@ ms.locfileid: "73414034"
 
 ## <a name="enroll"></a>Enroll (Регистрация)
 
-Современные стратегии управления мобильными устройствами (MDM) распространяются на различные телефоны, планшеты и компьютеры (iOS, Android, Windows и Mac OS X). Чтобы реализовать возможность управления мобильными устройствами, что обычно нужно для устройств, которыми владеют организации, сначала необходимо [настроить регистрацию устройств](../enrollment/device-enrollment.md). Для управления компьютерами с Windows их также можно зарегистрировать в Intune (MDM) или путем [установки клиентского программного обеспечения Intune](../manage-windows-pcs-with-microsoft-intune.md).
+Современные стратегии управления мобильными устройствами (MDM) распространяются на различные телефоны, планшеты и компьютеры (iOS/iPadOS, Android, Windows и Mac OS X). Чтобы реализовать возможность управления мобильными устройствами, что обычно нужно для устройств, которыми владеют организации, сначала необходимо [настроить регистрацию устройств](../enrollment/device-enrollment.md). Для управления компьютерами с Windows их также можно зарегистрировать в Intune (MDM) или путем [установки клиентского программного обеспечения Intune](../manage-windows-pcs-with-microsoft-intune.md).
 
 ## <a name="configure"></a>Настройка
 

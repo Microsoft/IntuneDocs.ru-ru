@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: cde4d389-1770-4226-85a3-a2f3b3fb92a3
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 563b117583f8b8c1f4da08d5d4e3399d5939bf97
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: fd2f03edeb1e402401911ab2c80fa0d699e2628c
+ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "72504370"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77514886"
 ---
 # <a name="pradeo-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Pradeo с Intune
 
@@ -30,7 +30,7 @@ ms.locfileid: "72504370"
 
 ## <a name="how-do-intune-and-pradeo-help-protect-your-company-resources"></a>Как Intune и Pradeo помогают защитить ресурсы вашей организации?
 
-Приложение Pradeo для Android или iOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии), и отправляет их в облачную службу Pradeo для оценки риска в отношении угроз для мобильного устройства.
+Приложение Pradeo для Android или iOS/iPadOS регистрирует сведения о файловой системе и сетевом стеке, а также данные телеметрии устройств и приложений (при наличии), и отправляет их в облачную службу Pradeo для оценки риска в отношении угроз для мобильного устройства.
 
 Политика соответствия устройств Intune включает правило для защиты мобильных устройств от угроз Pradeo, основанное на оценке рисков Pradeo. При включении этого правила Intune оценивает соответствие устройства заданной политике. Если устройство определяется как несоответствующее, его доступ к таким ресурсам, как Exchange Online и SharePoint Online, блокируется. Пользователи заблокированных устройств получают от мобильного приложения Pradeo рекомендации по устранению проблемы и восстановлению доступа к корпоративным ресурсам.
 
@@ -56,7 +56,7 @@ ms.locfileid: "72504370"
 
 ![Обнаружены вредоносные приложения, доступ предоставлен](./media/pradeo-mobile-threat-defense-connector/pradeo_maliciousapps_unblocked.png)
 
-### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основании оценки угрозы для сети
+### <a name="control-access-based-on-threat-to-network"></a>Управление доступом на основе угроз для сети
 
 Обнаружение угроз для вашей сети, таких как атаки **злоумышленник в середине**, и защита доступа к сети Wi-Fi на основе рисков, связанных с устройствами.
 
@@ -68,7 +68,7 @@ ms.locfileid: "72504370"
 
 ![Схематическое изображение предоставления доступа после устранения угрозы](./media/pradeo-mobile-threat-defense-connector/pradeo_network_wifi_unblocked.png)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
 
 Обнаружение угроз для вашей сети, таких как атаки **злоумышленник в середине**, и блокирование синхронизации корпоративных файлов на основании риска для устройства.
 
