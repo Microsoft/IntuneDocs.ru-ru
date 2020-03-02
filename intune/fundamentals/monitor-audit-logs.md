@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: d6af0718f2b926383bb943b6321b4d5839346ce7
 ms.sourcegitcommit: df8e2c052fafb2d5d4e9b4fcd831ae0ecf7f8d16
-ms.translationtype: MTE75
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/10/2019
 ms.locfileid: "74991990"
