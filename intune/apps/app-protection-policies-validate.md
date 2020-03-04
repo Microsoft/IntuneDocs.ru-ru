@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 02/27/2020
 ms.service: microsoft-intune
 ms.subservice: apps
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e9c3e775773ab08721cb3a65858f3d8c8402104f
-ms.sourcegitcommit: 73b362173929f59e9df57e54e76d19834f155433
+ms.openlocfilehash: ae6bfd71cb6730c9e71075df5ea2f45aa514178a
+ms.sourcegitcommit: 045ca42cad6f86024af9a38a380535f42a6b4bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74563740"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77781698"
 ---
 # <a name="how-to-validate-your-app-protection-policy-setup-in-microsoft-intune"></a>Проверка настройки политики защиты приложений в Microsoft Intune
 
@@ -43,7 +43,7 @@ ms.locfileid: "74563740"
 - Находится ли каждое из приложений для защиты приложений пользователей в ожидаемом состоянии. Возможные состояния для приложений: **Записано после изменений** и **Не записано после изменений**.
 
 ### <a name="user-app-protection-status"></a>Состояние защиты приложений пользователя
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Приложения** >  **Состояние защиты приложений** и щелкните плитку **Назначенные пользователи**. 
 4. На странице **Отчеты по приложению** выберите **Выбрать пользователя**, чтобы вывести список пользователей и групп. 
 5. Найдите и добавьте пользователя или выберите пользователя из списка, а затем нажмите **Выбрать пользователя**. В верхней части области **Отчеты по приложению** отображаются сведения о том, есть ли у пользователя лицензия на защиту приложений. Вы также можете узнать, есть ли у этого пользователя лицензия на O365, и просмотреть состояние приложения для всех его устройств.

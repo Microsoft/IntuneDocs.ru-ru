@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 08/09/2018
+ms.date: 02/27/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: remote-actions
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 294f06b078b06cfba9376ba6db0eb42cb884e141
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 8e48b7dac5064f9daeb62e141a4c1b2a4adf11b7
+ms.sourcegitcommit: 045ca42cad6f86024af9a38a380535f42a6b4bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73712316"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782195"
 ---
 # <a name="use-fresh-start-to-reset-windows-10-devices-with-intune"></a>Сброс устройств с Windows 10 с помощью функции нового запуска в Intune
 
@@ -30,7 +30,7 @@ ms.locfileid: "73712316"
 
 При использовании на устройствах действия **Новый запуск** будут удалены все приложения, установленные на компьютерах с Windows 10 версии 1703 и более поздними версиями. Это действие помогает удалить предварительно установленные приложения (от изготовителя оборудования), обычно имеющиеся на новом компьютере. 
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) и выберите **Устройства** > **Все устройства**.
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) и выберите **Устройства** > **Все устройства**.
 2. Выберите настольный компьютер с Windows 10 из списка управляемых устройств.
 3. Щелкните **Новый запуск**. 
 4. Выберите **Сохранить данные пользователя на устройстве**, чтобы:

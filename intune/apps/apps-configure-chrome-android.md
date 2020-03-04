@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 02/28/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c02ea34417073091e2f2841b363edfb9966ce558
-ms.sourcegitcommit: e166b9746fcf0e710e93ad012d2f52e2d3ed2644
+ms.openlocfilehash: 78e0e8560c64a1d6be4fa5e01aa9ce32b8a4c613
+ms.sourcegitcommit: 9ee2401a2f01373a962749b0728c22385dbcba6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75205910"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78181778"
 ---
 # <a name="configure-google-chrome-for-android-devices-using-intune"></a>Настройка Google Chrome для устройств Android с помощью Intune 
 
@@ -36,7 +36,7 @@ ms.locfileid: "75205910"
 
 ## <a name="add-the-google-chrome-app-to-intune"></a>Добавление приложения Google Chrome в Intune
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Выберите **Приложения** > **Все приложения** > **Добавить**, затем добавьте приложение **Управляемый Google Play**.
 3. Перейдите в раздел Управляемый Google Play, выполните поиск с помощью **Google Chrome** и утвердите.
 
@@ -48,7 +48,7 @@ ms.locfileid: "75205910"
 
 ## <a name="add-app-configuration-for-managed-ae-devices"></a>Добавление конфигурации приложения для управляемых устройств AE
 
-1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений** > **Добавить** > **Управляемые устройства**.
+1. В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений** > **Добавить** > **Управляемые устройства**.
 2. Задайте следующие значения:
     - **Имя**. Имя профиля, которое отображается на портале Azure.
     - **Описание**. Описание профиля, которое отображается на портале Azure.
@@ -100,7 +100,7 @@ ms.locfileid: "75205910"
    Вкладка в режиме инкогнито:<br>
    <img alt="Incognito tab" src="~/apps/media/apps-configure-chrome-android/incognito-tab.png" width="350">
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 
 1. Проверяйте портал Intune, чтобы отслеживать состояние развертывания политики.
 

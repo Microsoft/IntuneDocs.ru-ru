@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 02/27/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7d1a55f758be50c342a5c8851106f0c37e6aec50
-ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.openlocfilehash: 662c60b8eb5295997f3c37a02ea23771cf1abaa9
+ms.sourcegitcommit: 045ca42cad6f86024af9a38a380535f42a6b4bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77513730"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77781307"
 ---
 # <a name="how-to-create-and-assign-app-protection-policies"></a>Как создать и назначить политики защиты приложений
 
@@ -44,7 +44,7 @@ ms.locfileid: "77513730"
 При создании политики защиты приложений для iOS/iPadOS и Android необходимо использовать новый рабочий процесс Intune, который приводит к созданию новой политики защиты приложений.
 
 ### <a name="create-an-iosipados-or-android-app-protection-policy"></a>Создание политики защиты приложений для iOS/iPadOS или Android
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. На портале Intune выберите **Приложения** > **Политики защиты приложений**. Откроется страница сведений **Политики защиты приложений**, в которой можно создавать и изменять политики.
 3. Выберите **Создать политику** и систему **iOS/iPadOS** или **Android**. Отобразится панель **Создание политики**.
 4. На странице **Основные** добавьте следующие значения.

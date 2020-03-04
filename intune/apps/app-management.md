@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 02/27/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6e00a2d3c245c1297f2ea28ab0184369e7d92980
-ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.openlocfilehash: c22fafce6583dd1e58d61e3fa8e6077b70998588
+ms.sourcegitcommit: 045ca42cad6f86024af9a38a380535f42a6b4bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77513951"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77781783"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -78,7 +78,7 @@ Intune предлагает широкий набор возможностей, 
 
 Большинство сведений, связанных с приложениями, находятся в рабочей нагрузке **Приложения**, к которой можно получить доступ следующим образом:
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Приложения**.
 
     ![Панель рабочей нагрузки приложений](./media/app-management/apps-workload.png)

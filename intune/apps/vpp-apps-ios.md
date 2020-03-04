@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/17/2019
+ms.date: 02/26/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9127ee06bc2125f476c18e9b8e46a127e48d0245
-ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.openlocfilehash: e3efa4a354a71846a5add46794ed853696d04560
+ms.sourcegitcommit: fab685b22a010fe231b27a0c5eda34a6f22f4c8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77513407"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78216090"
 ---
 # <a name="how-to-manage-ios-and-macos-apps-purchased-through-apple-volume-purchase-program-with-microsoft-intune"></a>Управление приложениями iOS и macOS, приобретенными по программе Apple Volume Purchase Program, с помощью Microsoft Intune
 
@@ -88,11 +88,11 @@ Microsoft Intune позволяет управлять приложениями,
 2. Прежде чем продолжить, убедитесь, что все покупатели VPP в организации выполнили шаг 1.
 3. Убедитесь, что все приобретенные приложения и лицензии перенесены в приложения и книги в Apple Business Manager или Apple School Manager.
 4. Скачайте новый токен расположения, последовательно выбрав **Apple Business Manager или Apple School Manager** > **Settings** (Параметры) > **Apps and Books** (Приложения и книги) > **My Server Tokens** (Токены моего сервера).
-5. Обновите токен расположения в Центре администрирования диспетчера конечных точек (Майкрософт). Для этого перейдите в раздел **Администрирование клиента** > **Соединители и токены** > **Токены Apple VPP** и синхронизируйте токен.
+5. Обновите токен расположения в Центре администрирования Microsoft Endpoint Manager. Для этого перейдите в раздел **Администрирование клиента** > **Соединители и токены** > **Токены Apple VPP** и синхронизируйте токен.
 
 ## <a name="upload-an-apple-vpp-or-location-token"></a>Отправка Apple VPP или токена расположения
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Администрирование клиента** > **Соединители и токены** > **Токены VPP Apple**.
 4. На панели со списком токенов VPP выберите **Создать**.
 5. На панели **Создать токен VPP** укажите следующие сведения:

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/23/2019
+ms.date: 02/28/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 52c8d10f0b8d06d68d75450c3d708f910bc5ddd4
-ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
+ms.openlocfilehash: 7650230e419a639adfe02cd6c01f6170a4eb878b
+ms.sourcegitcommit: 9ee2401a2f01373a962749b0728c22385dbcba6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77415037"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78181857"
 ---
 # <a name="add-app-configuration-policies-for-managed-android-enterprise-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android Enterprise
 
@@ -34,7 +34,7 @@ ms.locfileid: "77415037"
 > [!NOTE]  
 > Конфигурацию приложений поддерживают не все приложения. Обратитесь к разработчику приложения, чтобы узнать, поддерживает ли его приложение политики конфигурации приложения.
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Выберите **Приложения** > **Политики конфигурации приложений** > **Добавить** > **Управляемые устройства**. Обратите внимание, что вы можете выбрать между пунктами **Управляемые устройства** и **Управляемые приложения**. Дополнительные сведения см. в разделе [Приложения, поддерживающие конфигурацию приложений](~/apps/app-configuration-policies-overview.md#apps-that-support-app-configuration).
 3. На странице **Основные** добавьте следующие сведения.
     - **Имя**. Имя профиля, которое отображается на портале Azure.
@@ -132,7 +132,7 @@ ms.locfileid: "77415037"
 
 Например, приложение использует микрофон устройства. Пользователю предлагается предоставить приложению разрешение на использование микрофона.
 
-1. В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений** >  **Добавить** > **Управляемые устройства**.
+1. В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений** >  **Добавить** > **Управляемые устройства**.
 2. Добавьте следующие свойства:
 
     - **Имя** — Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, правильное имя политики: **Политика приложения Android Enterprise разрешений для приглашений для всей компании**.

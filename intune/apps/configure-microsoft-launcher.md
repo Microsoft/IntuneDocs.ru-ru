@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 02/26/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b0145a17434d8b309806f468bf066d54ae117144
-ms.sourcegitcommit: 1aaff35fddb3d06458d739968d28971fed0bb2ba
+ms.openlocfilehash: 55f76b0c5c71f7828fed17233c2b81d6b066cc3b
+ms.sourcegitcommit: fab685b22a010fe231b27a0c5eda34a6f22f4c8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155366"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78216105"
 ---
 # <a name="configure-microsoft-launcher"></a>Настройка Microsoft Launcher
 
@@ -33,7 +33,7 @@ Microsoft Launcher — это приложение Android, которое по
 
 ## <a name="how-to-configure-the-microsoft-launcher-app"></a>Настройка приложения Microsoft Launcher 
 
-В [центре администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений**. Добавьте политику конфигурации для **управляемых устройств** под управлением **Android** и выберите **Microsoft Launcher** как связанное приложение. Щелкните **Параметры конфигурации**, чтобы настроить различные доступные параметры Microsoft Launcher. 
+В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Приложения** > **Политики конфигурации приложений**. Добавьте политику конфигурации для **управляемых устройств** под управлением **Android** и выберите **Microsoft Launcher** как связанное приложение. Щелкните **Параметры конфигурации**, чтобы настроить различные доступные параметры Microsoft Launcher. 
 
 ## <a name="choosing-a-configuration-settings-format"></a>Выбор формата параметров конфигурации 
 

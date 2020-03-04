@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 11/26/2019
+ms.date: 02/26/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3da8e89679f974c7d91cf19ae37365f75217d153
-ms.sourcegitcommit: a82d25d98fdf0ba766f8f074871d4f13725e23f9
+ms.openlocfilehash: f8af7a756d95051be52a5380467cb4f9be2533b3
+ms.sourcegitcommit: fab685b22a010fe231b27a0c5eda34a6f22f4c8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548028"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78216200"
 ---
 # <a name="use-powershell-scripts-on-windows-10-devices-in-intune"></a>Использование скриптов PowerShell для устройств Windows 10 в Intune
 
@@ -73,7 +73,7 @@ ms.locfileid: "75548028"
 
 ## <a name="create-a-script-policy-and-assign-it"></a>Создание и назначение политики скрипта
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Выберите **Устройства** > **Сценарии PowerShell** > **Добавить**.
 
     ![Добавление и использование скрипов PowerShell в Microsoft Intune](./media/intune-management-extension/mgmt-extension-add-script.png)

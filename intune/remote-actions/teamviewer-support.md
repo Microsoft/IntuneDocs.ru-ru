@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/05/2019
+ms.date: 02/27/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: remote-actions
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 812b2e40c32b1442e632739c3964eb57027e6d9e
-ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
+ms.openlocfilehash: fede9e67e77804ca293bbe9889d5a6623e4ea90c
+ms.sourcegitcommit: 045ca42cad6f86024af9a38a380535f42a6b4bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77413732"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77781127"
 ---
 # <a name="use-teamviewer-to-remotely-administer-intune-devices"></a>Используйте TeamViewer для удаленного администрирования устройств Intune
 
@@ -47,7 +47,7 @@ ms.locfileid: "77413732"
 
 Чтобы предоставить удаленную поддержку для устройств, настройте соединитель TeamViewer для Intune, выполнив следующие действия:
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Выберите **Администрирование клиента** > **Соединители и токены** > **Соединитель TeamViewer**.
 3. Нажмите **Подключить** и примите условия лицензионного соглашения.
 4. Нажмите **Войти в TeamViewer для авторизации**.
@@ -57,7 +57,7 @@ ms.locfileid: "77413732"
 
 После настройки соединителя вы можете удаленно управлять устройством. Выполните следующие шаги. 
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Выберите **Устройства**, а затем — **Все устройства**.
 3. В списке выберите устройство для удаленного администрирования > **...**  > **Новый сеанс удаленного помощника**.
 4. После того как Intune подключится к службе TeamViewer, появятся определенные сведения об устройстве. Выберите **Подключить**, чтобы начать удаленный сеанс.

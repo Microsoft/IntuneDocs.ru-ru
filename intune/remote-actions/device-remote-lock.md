@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/07/2018
+ms.date: 02/27/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: remote-actions
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bce5a89ecc49952f5c21536c429e9cd3309b13c3
-ms.sourcegitcommit: ebf72b038219904d6e7d20024b107f4aa68f57e6
+ms.openlocfilehash: 3a0e3d22e6fe39cd2c0091b0399ea165007fc689
+ms.sourcegitcommit: 045ca42cad6f86024af9a38a380535f42a6b4bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73712272"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77781874"
 ---
 # <a name="remotely-lock-devices-with-intune"></a>Удаленная блокировка устройств с помощью Intune
 
@@ -37,9 +37,9 @@ ms.locfileid: "73712272"
 - Корпоративные устройства с Android для киосков
 - Устройства с рабочим профилем Android для бизнеса
 - iOS
-- macOS
+- MacOS
 - Windows 10 Mobile
-- Windows Phone 8.1 и более поздней версии
+- Windows Phone 8.1 и более поздней версии
 
 **Удаленная блокировка** не поддерживается для следующих систем:
 - Windows 10 Desktop
@@ -49,7 +49,7 @@ ms.locfileid: "73712272"
 
 ## <a name="remote-lock-a-device"></a>Удаленная блокировка устройства
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Устройства** > **Все устройства**.
 4. Выберите нужное устройство в списке устройств, а затем укажите действие **Удаленная блокировка**.
 

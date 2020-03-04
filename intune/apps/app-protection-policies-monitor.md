@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/13/2019
+ms.date: 02/28/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 317f39b28909196d03ef5e7c68c7980f5fdfea3f
-ms.sourcegitcommit: c780e9988341a20f94fdeb8672bd13e0b302da93
+ms.openlocfilehash: 152edba9ba6821cc17960bfbbaef248459d12ac0
+ms.sourcegitcommit: 9ee2401a2f01373a962749b0728c22385dbcba6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77512217"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78181863"
 ---
 # <a name="how-to-monitor-app-protection-policies"></a>Как отслеживать политики защиты приложений
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "77512217"
 
 ## <a name="summary-view"></a>Представление "Сводка"
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Приложения** > **Мониторинг** > **Состояние защиты приложений**.
 
    ![Снимок экрана: колонка "Управление мобильными приложениями Intune" с плиткой "Сводка"](./media/app-protection-policies-monitor/app-protection-user-status-summary.png)

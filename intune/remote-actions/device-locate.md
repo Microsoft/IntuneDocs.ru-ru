@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 08/24/2018
+ms.date: 02/27/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: remote-actions
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: dc276a6235fb4951c83b62e3c488145062814728
-ms.sourcegitcommit: 51591b862d97904291af7aa53a6eb341b11a761e
+ms.openlocfilehash: 7285ba1d8df5b53411bf6462fc165beeee66172f
+ms.sourcegitcommit: 045ca42cad6f86024af9a38a380535f42a6b4bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77415580"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782205"
 ---
 # <a name="locate-lost-or-stolen-iosipados-devices-with-intune"></a>Поиск потерянных или украденных устройств iOS и iPadOS с помощью Intune
 
@@ -41,7 +41,7 @@ ms.locfileid: "77415580"
 
 ## <a name="locate-a-lost-or-stolen-device"></a>Поиск потерянного или украденного устройства
 
-1. Войдите в [центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Устройства**, а затем — **Все устройства**.
 4. Выберите нужное устройство iOS или iPadOS в списке управляемых устройств и щелкните **Дополнительно**. Затем выберите удаленное действие **Найти устройство**.
 5. Когда устройство будет найдено, сведения о его расположении отобразятся на странице **поиска устройства**.
