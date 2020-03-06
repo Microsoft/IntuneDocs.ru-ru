@@ -161,6 +161,8 @@
             - name: Общие сведения о политиках защиты приложений
               href: app-protection-policy.md
               displayName: app; protection; policy
+            - name: Платформа защиты данных с помощью приложения
+              href: app-protection-framework.md
             - name: Создание политик защиты приложений
               items:
                 - name: Общие параметры
